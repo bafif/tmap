@@ -11,6 +11,8 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-AGPL--3.0-1E5A44" alt="Licencia AGPL-3.0"></a>
   <img src="https://img.shields.io/badge/estado-en%20desarrollo-D42F06" alt="Estado: en desarrollo">
+  <a href="https://github.com/bafif/tmap/actions/workflows/pruebas.yml"><img src="https://github.com/bafif/tmap/actions/workflows/pruebas.yml/badge.svg" alt="Pruebas"></a>
+  <a href="https://bafif.github.io/tmap/"><img src="https://img.shields.io/badge/sitio-bafif.github.io%2Ftmap-C9A04A" alt="Sitio del proyecto"></a>
   <img src="https://img.shields.io/badge/Godot-4.7-478CBF" alt="Godot 4.7">
   <img src="https://img.shields.io/badge/datos-abiertos-8E6B2E" alt="Datos abiertos">
   <a href="README.en.md"><img src="https://img.shields.io/badge/read%20in-English-555" alt="Read in English"></a>

@@ -1,0 +1,38 @@
+name: Sumar o corregir un dato
+description: Una fuente, una persona, un hecho, un lugar o una cifra que falta o está mal.
+labels: ["datos"]
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Qué es
+      options:
+        - Fuente (un texto)
+        - Persona
+        - Hecho
+        - Lugar
+        - Región o era
+        - Cifra de población
+        - Frontera o nombre de una entidad
+    validations:
+      required: true
+  - type: input
+    id: donde
+    attributes:
+      label: Lugar y época
+      placeholder: "Egipto, 1350 a. C."
+    validations:
+      required: true
+  - type: textarea
+    id: dato
+    attributes:
+      label: El dato o la corrección
+    validations:
+      required: true
+  - type: textarea
+    id: respaldo
+    attributes:
+      label: De dónde sale
+      description: Referencia bibliográfica o enlace. Sin respaldo no se carga.
+    validations:
+      required: true
