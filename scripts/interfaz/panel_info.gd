@@ -330,13 +330,14 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 		if not pob.is_empty():
 			var aprox := "" if pob["exacta"] else "interpolada entre estimaciones, "
 			_parrafo("[b]Población estimada:[/b] ~%s habitantes [color=#%s](%sfuente: %s)[/color]" % [_numero(pob["poblacion"]), TemaUI.color("texto_suave").to_html(false), aprox, pob["fuente"]])
-			var grafico := GraficoSerie.new()
-			grafico.serie = Enciclopedia.estimaciones(id)
-			grafico.anio = Estado.anio
-			if grafico.serie.size() >= 2:
+			var serie := Enciclopedia.estimaciones(id)
+			if serie.size() >= 2:
+				var grafico := GraficoSerie.new()
+				grafico.serie = serie
+				grafico.anio = Estado.anio
 				_contenido.add_child(grafico)
 			var notas: Array = []
-			for e in grafico.serie:
+			for e in serie:
 				if e.get("nota"):
 					notas.append("%s: %s" % [Fechas.texto(int(e["anio"])), e["nota"]])
 			if not notas.is_empty():
@@ -680,15 +681,6 @@ func _bloque_wikipedia(titulos: Dictionary) -> void:
 		l.text = "No se pudo traer el artículo (¿sin conexión?)."
 		caja.add_child(l)
 		return
-	var texto := RichTextLabel.new()
-	texto.bbcode_enabled = true
-	texto.fit_content = true
-	texto.scroll_active = false
-	texto.selection_enabled = true
-	texto.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	texto.text = "%s\n[color=#%s][font_size=14]De «[url=%s]%s[/url]», Wikipedia en %s (CC BY-SA 4.0).[/font_size][/color]" % [
-		r["texto"], TemaUI.color("texto_suave").to_html(false), r["url"], r["titulo"], "español" if r["idioma"] == "es" else "inglés"]
-	texto.meta_clicked.connect(_al_click_meta)
 	if r.get("miniatura", "") != "":
 		var tex := await Wiki.imagen(r["miniatura"])
 		if token != _token or not is_instance_valid(caja):
@@ -700,6 +692,17 @@ func _bloque_wikipedia(titulos: Dictionary) -> void:
 			img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 			img.custom_minimum_size = Vector2(0, 180)
 			caja.add_child(img)
+	# El texto se crea recién acá: si se creara antes de esperar la imagen y el panel cambiara mientras tanto,
+	# quedaría suelto sin liberarse.
+	var texto := RichTextLabel.new()
+	texto.bbcode_enabled = true
+	texto.fit_content = true
+	texto.scroll_active = false
+	texto.selection_enabled = true
+	texto.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	texto.text = "%s\n[color=#%s][font_size=14]De «[url=%s]%s[/url]», Wikipedia en %s (CC BY-SA 4.0).[/font_size][/color]" % [
+		r["texto"], TemaUI.color("texto_suave").to_html(false), r["url"], r["titulo"], "español" if r["idioma"] == "es" else "inglés"]
+	texto.meta_clicked.connect(_al_click_meta)
 	caja.add_child(texto)
 
 

@@ -39,6 +39,19 @@ Además: `tmap.py revisar` compila todos los scripts sin abrir la app, `tmap.py 
 `tmap.py doc Clase.metodo` (o `doc ?texto`) muestra la API exacta de la versión de Godot instalada; la primera vez
 la genera en `~/.cache/tellmap/`.
 
+## Registros
+
+Cada vez que corre la app (o el editor, con el plugin) se guarda un registro en `.godot/registros/`: mensajes,
+errores y avisos con su traza de GDScript, y al cerrar, los nodos que quedaron sin liberar con su script. Se guardan
+los últimos 15 de cada uno.
+
+```bash
+tools/godot/tmap.py registros               # el último de la app
+tools/godot/tmap.py registros --errores     # solo errores y avisos
+tools/godot/tmap.py registros editor -n 200 # el último del editor
+tools/godot/tmap.py registros --lista
+```
+
 ## En el editor
 
 El plugin viene activado (Proyecto → Configuración del proyecto → Plugins → «Puente TellMAP»). Agrega el panel

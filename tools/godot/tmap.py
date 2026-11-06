@@ -10,6 +10,8 @@ Uso: tools/godot/tmap.py [--proyecto RUTA] [--a juego|editor|PID] ORDEN [argumen
   eval CODIGO | -                ejecuta GDScript en la app (o en el editor con --a editor); «-» lo lee de stdin
   errores [desde=N]              errores y avisos capturados
   doc CLASE[.MIEMBRO] | ?TEXTO   referencia de la API de la versión de Godot instalada
+  registros [editor] [-n N] [--errores] [--lista]
+                                 el último registro guardado de la app (o del editor), en .godot/registros/
   revisar                        compila todos los scripts sin abrir la app
   prueba                         corre la prueba automática completa (--prueba)
   COMANDO [clave=valor ...]      cualquier comando del puente; «ayuda» los lista
@@ -255,6 +257,32 @@ def orden_doc(resto: list[str]) -> int:
     return 0
 
 
+def orden_registros(proyecto: Path, resto: list[str]) -> int:
+    rol = "editor" if "editor" in resto else "juego"
+    n = int(resto[resto.index("-n") + 1]) if "-n" in resto else 80
+    archivos = sorted((proyecto / ".godot" / "registros").glob(f"{rol}-*.log"), key=lambda f: f.stat().st_mtime)
+    if not archivos:
+        morir(f"Todavía no hay registros de «{rol}» en {proyecto / '.godot' / 'registros'}.")
+    if "--lista" in resto:
+        for f in archivos:
+            print(f"{f.name}  ({f.stat().st_size // 1024} KB)")
+        return 0
+    f = archivos[-1]
+    lineas = f.read_text(encoding="utf-8", errors="replace").splitlines()
+    if "--errores" in resto:
+        sigue = False
+        filtradas = []
+        for l in lineas:
+            if l[:1].isdigit():
+                sigue = " MENSAJE " not in l
+            if sigue or not l[:1].isdigit():
+                filtradas.append(l)
+        lineas = filtradas
+    print(f"== {f}")
+    print("\n".join(lineas[-n:]))
+    return 0
+
+
 def orden_revisar(proyecto: Path) -> int:
     r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "-s",
                         "res://addons/tellmap_puente/revisar.gd"], capture_output=True, text=True, timeout=300)
@@ -288,6 +316,8 @@ def main() -> int:
         return orden_cerrar(proyecto)
     if orden == "doc":
         return orden_doc(resto)
+    if orden == "registros":
+        return orden_registros(proyecto, resto)
     if orden == "revisar":
         return orden_revisar(proyecto)
     if orden == "prueba":

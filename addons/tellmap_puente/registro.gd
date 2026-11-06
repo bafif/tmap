@@ -13,6 +13,8 @@ var _items: Array[Dictionary] = []
 var _siguiente := 0
 var _desvio: Array = []
 var _desviando := false
+var _archivo: FileAccess
+var _escribiendo := false
 
 
 func _log_error(function: String, file: String, line: int, code: String, rationale: String, _editor_notify: bool,
@@ -44,6 +46,55 @@ func _agregar(d: Dictionary) -> void:
 		_items.append(d)
 		if _items.size() > MAX:
 			_items.pop_front()
+		if _archivo and not _escribiendo:
+			_escribiendo = true
+			_archivo.store_string(_linea(d))
+			_archivo.flush()
+			_escribiendo = false
+	_mutex.unlock()
+
+
+func _linea(d: Dictionary) -> String:
+	var hora := Time.get_time_string_from_system()
+	var t := "%s %s %s" % [hora, str(d["tipo"]).to_upper().rpad(8), d["texto"]]
+	if d.get("archivo", "") != "":
+		t += "  (%s:%s)" % [d["archivo"], d["linea"]]
+	for x in d.get("traza", []):
+		t += "\n        " + x
+	return t + "\n"
+
+
+## Además de guardar en memoria, escribe todo en res://.godot/registros/<rol>-<fecha>-<pid>.log (quedan los
+## últimos «mantener» de cada rol). Devuelve la ruta. Lo usan la app y el editor en las compilaciones de desarrollo.
+func abrir_archivo(rol: String, mantener := 15) -> String:
+	var dir := ProjectSettings.globalize_path("res://.godot/registros")
+	DirAccess.make_dir_recursive_absolute(dir)
+	var viejos := Array(DirAccess.get_files_at(dir)).filter(func(f: String) -> bool: return f.begins_with(rol + "-"))
+	viejos.sort()
+	while viejos.size() >= mantener:
+		DirAccess.remove_absolute(dir.path_join(viejos.pop_front()))
+	var fecha := Time.get_datetime_string_from_system().replace(":", "-").replace("T", "_")
+	var ruta := dir.path_join("%s-%s-%d.log" % [rol, fecha, OS.get_process_id()])
+	_mutex.lock()
+	_archivo = FileAccess.open(ruta, FileAccess.WRITE)
+	_mutex.unlock()
+	guardar_mensajes = true
+	escribir("TellMAP %s · Godot %s · %s" % [ProjectSettings.get_setting("application/config/version", ""),
+			Engine.get_version_info()["string"], " ".join(OS.get_cmdline_args() + OS.get_cmdline_user_args())])
+	return ruta
+
+
+func escribir(texto: String) -> void:
+	_mutex.lock()
+	if _archivo:
+		_archivo.store_string(texto + "\n")
+		_archivo.flush()
+	_mutex.unlock()
+
+
+func cerrar_archivo() -> void:
+	_mutex.lock()
+	_archivo = null
 	_mutex.unlock()
 
 

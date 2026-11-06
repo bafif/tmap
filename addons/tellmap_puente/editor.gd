@@ -20,6 +20,7 @@ var _hilo: Thread
 func _enter_tree() -> void:
 	_registro = Registro.new()
 	OS.add_logger(_registro)
+	_registro.abrir_archivo("editor")
 	_srv = Servidor.new()
 	_srv.registro = _registro
 	_srv.registrar("estado", _estado_cmd, "proyecto, escena abierta, si la app está corriendo")
@@ -44,6 +45,9 @@ func _exit_tree() -> void:
 		_srv.detener()
 	if _registro:
 		OS.remove_logger(_registro)
+		_registro.cerrar_archivo()
+	_srv = null
+	_registro = null
 	if _dock:
 		remove_dock(_dock)
 		_dock.queue_free()

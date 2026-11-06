@@ -15,11 +15,16 @@ var _autocierre := 0.0
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	var args := _args()
-	if not OS.is_debug_build() or not (args.has("puente") or EngineDebugger.is_active()):
-		set_process(false)
+	set_process(false)
+	if not OS.is_debug_build():
 		return
 	registro = Registro.new()
 	OS.add_logger(registro)
+	if OS.has_feature("editor"):
+		registro.abrir_archivo("juego")
+	if not (args.has("puente") or EngineDebugger.is_active()):
+		return
+	set_process(true)
 	servidor = Servidor.new()
 	servidor.registro = registro
 	_registrar()
@@ -44,7 +49,42 @@ func _exit_tree() -> void:
 	if servidor:
 		servidor.detener()
 	if registro:
+		_informar_huerfanos()
 		OS.remove_logger(registro)
+		registro.cerrar_archivo()
+	servidor = null
+	registro = null
+
+
+## Al cerrar, anota los nodos que quedaron fuera del árbol sin liberarse: son las «fugas» que Godot reporta al
+## salir (RIDs de CanvasItem, RichTextLabel, ObjectDB…), pero acá con su clase, su script y su nombre.
+func _informar_huerfanos() -> void:
+	# Al cerrar, Godot ya está desarmando la escena: lo que sigue colgado de un padre se libera solo. Las fugas son
+	# los nodos sin padre (creados y nunca agregados, o sacados del árbol sin liberarlos).
+	var raices: Array[Node] = []
+	for id in Node.get_orphan_node_ids():
+		var n := instance_from_id(id) as Node
+		if n and n.get_parent() == null and n != get_tree().root:
+			raices.append(n)
+	if raices.is_empty():
+		registro.escribir("Al cerrar: ningún nodo suelto sin liberar.")
+		return
+	var grupos := {}
+	for n in raices:
+		var sc: Script = n.get_script()
+		var clave := "%s%s" % [n.get_class(), " (%s)" % sc.resource_path.get_file() if sc else ""]
+		if not grupos.has(clave):
+			grupos[clave] = {"n": 0, "ejemplo": "", "hijos": 0}
+		grupos[clave]["n"] += 1
+		grupos[clave]["hijos"] += n.find_children("*", "", true, false).size()
+		if grupos[clave]["ejemplo"] == "":
+			var texto: Variant = n.get("text")
+			grupos[clave]["ejemplo"] = "%s%s" % [n.name, " «%s»" % str(texto).left(40) if texto is String and texto != "" else ""]
+	var lineas := PackedStringArray(["Al cerrar: %d nodos sueltos sin liberar (Godot los reporta como fugas):" % raices.size()])
+	for k: String in grupos:
+		var g: Dictionary = grupos[k]
+		lineas.append("    %d × %s, con %d nodos adentro; ej. %s" % [g["n"], k, g["hijos"], g["ejemplo"]])
+	registro.escribir("\n".join(lineas))
 
 
 func _args() -> Dictionary:

@@ -62,6 +62,11 @@ func detener() -> void:
 		(c["peer"] as StreamPeerTCP).disconnect_from_host()
 	_clientes.clear()
 	_srv.stop()
+	# Los comandos guardan Callables hacia este objeto y hacia el nodo dueño: soltarlos corta el ciclo de referencias
+	# (si no, el servidor, el registro y el socket quedan vivos al cerrar y Godot los reporta como fugas).
+	_comandos.clear()
+	registro = null
+	raiz = null
 	if _ruta_sesion != "" and FileAccess.file_exists(_ruta_sesion):
 		DirAccess.remove_absolute(_ruta_sesion)
 
@@ -184,14 +189,17 @@ static func a_json(v: Variant, prof := 0) -> Variant:
 
 func _registrar_comunes() -> void:
 	registrar("ayuda", _ayuda, "lista los comandos")
-	registrar("ping", func(_a: Dictionary) -> Dictionary: return {"rol": rol, "pid": OS.get_process_id()},
-			"responde si el puente está vivo")
+	registrar("ping", _ping, "responde si el puente está vivo")
 	registrar("errores", _errores, "errores y avisos capturados {desde, todos, limpiar}")
 	registrar("eval", _eval, "ejecuta GDScript {codigo}; una sola línea se evalúa como expresión; «raiz» es el nodo base")
 	registrar("arbol", _arbol, "árbol de nodos {ruta=/root, profundidad=8, todos=false} con rectángulos en píxeles de ventana")
 	registrar("nodo", _nodo_cmd, "lee o cambia un nodo {ruta, prop, valor} o llama un método {ruta, llamar, args}")
 	registrar("captura", _captura, "captura de la ventana {ancho, region=[x,y,w,h], formato=png|jpg}; devuelve base64")
 	registrar("esperar", _esperar, "espera {frames} o {segundos}")
+
+
+func _ping(_a: Dictionary) -> Dictionary:
+	return {"rol": rol, "pid": OS.get_process_id()}
 
 
 func _ayuda(_a: Dictionary) -> Dictionary:

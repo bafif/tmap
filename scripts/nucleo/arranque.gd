@@ -27,6 +27,7 @@ func _init() -> void:
 	OS.execute(godot, PackedStringArray(["--headless", "--path", raiz, "--import"]))
 	OS.set_environment("TELLMAP_IMPORTADO", "1")
 	OS.create_process(godot, _argumentos(raiz))
+	print("TellMAP: listo; la app se abre de nuevo. Este primer proceso se corta acá (la terminal puede decir SIGKILL: es normal).")
 	# Sin esto, los autoloads que siguen intentan compilar y llenan la salida de errores que ya no importan.
 	OS.kill(OS.get_process_id())
 
