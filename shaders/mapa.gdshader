@@ -91,9 +91,18 @@ void fragment() {
 
 	// ---------------------------------------------------------------- Tierra
 	vec3 ter = texture(TEXTURE, uv).rgb;
+	// Detalle procedural: de cerca la textura del terreno se estira; un grano suave le devuelve textura.
+	float cerca = 1.0 - smoothstep(0.25, 0.9, px);
+	if (cerca > 0.0) {
+		float det = ruido(texel * 1.7) * 0.5 + ruido(texel * 4.3) * 0.3 + ruido(texel * 11.0) * 0.2;
+		ter *= 1.0 + (det - 0.5) * 0.16 * cerca;
+	}
 	float hs = relieve ? clamp(mix(1.0, rel.r * 2.0, 0.7), 0.4, 1.5) : 1.0;
 	vec3 tierra = ter * hs;
-	float rio = rel.b * (1.0 - smoothstep(2.5, 9.0, px));
+	// Ríos: de lejos, la máscara suavizada (ríos finos); de cerca, su borde nítido.
+	float an_rio = max(fwidth(rel.b) * 0.75, 0.02);
+	float rio_nitido = smoothstep(0.42 - an_rio, 0.42 + an_rio, rel.b);
+	float rio = mix(rio_nitido, rel.b, smoothstep(0.5, 1.4, px)) * (1.0 - smoothstep(2.5, 9.0, px));
 	tierra = mix(tierra, color_rio * mix(1.0, hs, 0.3), rio * 0.85);
 
 	int u = unidad_en(uv);
