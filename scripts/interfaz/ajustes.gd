@@ -146,7 +146,7 @@ func _construir() -> void:
 	cred.text = CREDITOS
 	cred.add_theme_font_size_override("normal_font_size", 15)
 	cred.add_theme_font_size_override("bold_font_size", 15)
-	cred.meta_clicked.connect(func(m): OS.shell_open(str(m)))
+	cred.meta_clicked.connect(func(m): Estado.abrir_url(str(m)))
 	caja.add_child(cred)
 	var version := Label.new()
 	version.theme_type_variation = "Suave"

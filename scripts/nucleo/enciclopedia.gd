@@ -26,12 +26,15 @@ var _regiones_de_unidad := {}
 ## Familias de cada capa → índice en la paleta (1..n).
 var _indices_capa := {}
 var _colores_capa := {}
+## Valores por unidad ya calculados, según qué familia rige en cada región (muchos años comparten la misma).
+var _cache_valores := {}
 
 
 func cargar() -> void:
 	for sec in SECCIONES:
 		get(sec).clear()
 	familias.clear()
+	_cache_valores.clear()
 	if not DirAccess.dir_exists_absolute(DIR):
 		return
 	var archivos := Array(DirAccess.get_files_at(DIR)).filter(func(f): return f.ends_with(".json"))
@@ -459,6 +462,9 @@ func valores_capa(capa: String, anio: int) -> Array:
 		var elegido := _vigente_principal(id, capa, anio)
 		if not elegido.is_empty():
 			por_region[id] = indices.get(familia_de(elegido), 0)
+	var clave := capa + str(por_region)
+	if _cache_valores.has(clave):
+		return [_cache_valores[clave], _colores_capa.get(capa, PackedColorArray([Color(0, 0, 0, 0)]))]
 	if not por_region.is_empty():
 		for u in range(1, DatosMapa.n_unidades + 1):
 			var c := DatosMapa.centro_unidad(u)
@@ -470,6 +476,9 @@ func valores_capa(capa: String, anio: int) -> Array:
 							valores[u] = por_region[id]
 							break
 					break
+	if _cache_valores.size() > 48:
+		_cache_valores.clear()
+	_cache_valores[clave] = valores
 	return [valores, _colores_capa.get(capa, PackedColorArray([Color(0, 0, 0, 0)]))]
 
 

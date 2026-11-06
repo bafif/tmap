@@ -105,6 +105,7 @@ func _registrar() -> void:
 	s.registrar("ir", _ir, "mueve la cámara {lon, lat, zoom, instantaneo=true}")
 	s.registrar("seleccionar", _seleccionar, "selecciona el lugar en {lon, lat} y abre el panel; {limpiar:true} lo cierra")
 	s.registrar("pestana", _pestana, "abre una pestaña del panel {n} (0 Resumen … 4 Datos)")
+	s.registrar("recorrido", _recorrido, "hace clic en cada botón visible en varios escenarios; devuelve cuántos tocó y los que no hicieron nada {solo: escenario} (los errores salen con su traza)")
 	s.registrar("ficha", _ficha, "abre una ficha {tipo: fuente|persona|hecho|lugar|region|familia|entidad, id} (familia: «capa:id», como religiones:islam-sunni; entidad: su índice)")
 	s.registrar("ajuste", _ajuste, "cambia un ajuste {clave, valor} (tema, calidad, escala_ui…); se guarda como desde la interfaz")
 	s.registrar("shader", _shader, "vuelve a leer del disco los shaders en uso (sin reiniciar)")
@@ -212,6 +213,11 @@ func _pestana(a: Dictionary) -> Variant:
 	await _listo()
 	_principal().interfaz.panel._ir_a_pestana(int(a.get("n", 0)))
 	return {}
+
+
+func _recorrido(a := {}) -> Variant:
+	await _listo()
+	return await Recorrido.new(_principal().interfaz).correr(str(a.get("solo", "")))
 
 
 func _ficha(a: Dictionary) -> Variant:

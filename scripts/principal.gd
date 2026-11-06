@@ -247,6 +247,19 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] el gráfico de población no muestra la fuente de cada estimación")
 		grafico.queue_free()
 	paso.call("gráfico de población")
+	# Clic real en cada botón visible de la interfaz, en varios escenarios: falla si alguno da error o no hace nada.
+	# Sin pantalla (--headless) la ventana mide 64×64 y casi todo quedaría afuera: se le da el tamaño del proyecto.
+	if get_viewport().get_visible_rect().size.x < 800:
+		get_window().mode = Window.MODE_WINDOWED
+		get_window().size = Vector2i(1600, 900)
+		await get_tree().process_frame
+		await get_tree().process_frame
+	print("[prueba] ventana para el recorrido: %s" % get_viewport().get_visible_rect().size)
+	var informe: Dictionary = await Recorrido.new(interfaz).correr()
+	for s in informe["sin_efecto"]:
+		push_error("[prueba] el clic no hizo nada: %s" % s)
+	paso.call("recorrido de la interfaz: %d controles tocados en %d escenarios (%d omitidos, %d perdidos), %d sin efecto" % [
+		informe["tocados"], informe["escenarios"], informe["omitidos"], informe["perdidos"], informe["sin_efecto"].size()])
 	for texto in ["egip", "roma", "herod", "himno", "buenos", "zz", "islam", "lenguas"]:
 		interfaz.barra._buscar(texto)
 	paso.call("búsquedas")

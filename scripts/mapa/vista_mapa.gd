@@ -220,6 +220,12 @@ func volar_a(px: Vector2, zoom: float = 0.0) -> void:
 	_anclado = false
 	var z_final := clampf(zoom if zoom > 0.0 else maxf(camara.zoom.x, 1.2), zoom_minimo(), ZOOM_MAX)
 	_zoom_objetivo = z_final
+	if Estado.sin_animaciones:
+		camara.position = px
+		camara.zoom = Vector2(z_final, z_final)
+		_limitar()
+		_vista_cambio()
+		return
 	_vuelo = create_tween().set_parallel(true).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_IN_OUT)
 	_vuelo.tween_property(camara, "position", px, 0.9)
 	_vuelo.tween_property(camara, "zoom", Vector2(z_final, z_final), 0.9)

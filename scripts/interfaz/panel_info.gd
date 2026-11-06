@@ -124,6 +124,10 @@ func _mostrar(abrir: bool) -> void:
 		_tween.kill()
 	var vp := get_viewport_rect().size.x
 	visible = true
+	if Estado.sin_animaciones:
+		position.x = vp - ANCHO - 10 if abrir else vp + 20
+		visible = abrir
+		return
 	_tween = create_tween().set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
 	if abrir:
 		position.x = vp + 20
@@ -171,6 +175,9 @@ func _al_pedir_ficha(tipo: String, id: Variant) -> void:
 
 func _programar() -> void:
 	if not _abierto or _reconstruir_pendiente:
+		return
+	if Estado.sin_animaciones:
+		_reconstruir(true)
 		return
 	_reconstruir_pendiente = true
 	await get_tree().create_timer(0.18).timeout
@@ -478,7 +485,7 @@ func _ficha_fuente(f: Dictionary) -> void:
 			var b := _boton_texto("%s (%s)" % [l.get("titulo", "Texto"), str(l.get("idioma", "")).to_upper()], "enlace")
 			var url: String = l["url"]
 			b.tooltip_text = url
-			b.pressed.connect(func(): OS.shell_open(url))
+			b.pressed.connect(func(): Estado.abrir_url(url))
 			_contenido.add_child(b)
 	var ir := _boton_texto("Ver dónde y cuándo se escribió", "ir")
 	ir.pressed.connect(func():
@@ -822,7 +829,7 @@ func _al_click_meta(meta: Variant) -> void:
 	elif m.begins_with("entidad:"):
 		Estado.pedir_ficha("entidad", int(m.substr(8)))
 	else:
-		OS.shell_open(m)
+		Estado.abrir_url(m)
 
 
 func _enlace_persona(id: Variant, nombre: String) -> String:
@@ -908,7 +915,7 @@ func _tarjeta_fuente(f: Dictionary) -> Control:
 		b.focus_mode = Control.FOCUS_NONE
 		var url: String = leer[0]["url"]
 		b.tooltip_text = url
-		b.pressed.connect(func(): OS.shell_open(url))
+		b.pressed.connect(func(): Estado.abrir_url(url))
 		botones.add_child(b)
 	if f.has("_px"):
 		var ir := IconosUI.boton("ir", "Ver dónde y cuándo se escribió", 16)

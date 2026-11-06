@@ -12,9 +12,6 @@ hacia abajo. La visión general por versiones está en [la hoja de ruta del plan
 La interfaz ya se ve completa, pero varias cosas son solo información. La meta del bloque: todo lo que se ve responde
 a un clic y lleva a algo útil.
 
-- [ ] **Recorrido de toda la interfaz con el puente.** Una prueba automática que hace clic en cada control visible y
-      falla si alguno no hace nada o da error.
-
 Datos que necesita este bloque:
 
 - [ ] **Regiones con contorno más fino.** En los modos de capa, Egipto y otras regiones se ven como rectángulos.
@@ -92,6 +89,11 @@ Datos que necesita este bloque:
       está abierta, el mapa político la resalta.
 - [x] **Gráfico de población** con el valor, el rango y la fuente de cada estimación al pasar el mouse.
 - [x] Las notas con fechas antes de Cristo ya no terminan en «a. C..».
+- [x] **Recorrido de toda la interfaz** (`scripts/nucleo/recorrido.gd`, `tmap.py recorrido` y dentro de la
+      prueba automática): clic real en 401 controles en 17 escenarios; falla si alguno da error o no hace nada.
+      Mientras corre, los enlaces no abren el navegador (todos pasan por `Estado.abrir_url`) y no hay animaciones.
+- [x] Más rápido en los modos de capa: los valores del mapa se guardan según qué familia rige en cada región, así
+      que reproducir años o volver al modo no los recalcula.
 - [x] Los botones de modo de arriba siguen al modo aunque cambie desde otro lado (una ficha, el puente).
 - [x] Arreglado: las entradas con `"hasta": null` (Egipto desde el año 1000) daban error en los modos de capa.
       La prueba automática ahora pasa por las 80 fichas de familias, la leyenda y el clic según el modo, también

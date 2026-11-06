@@ -39,6 +39,11 @@ Además: `tmap.py revisar` compila todos los scripts sin abrir la app, `tmap.py 
 `tmap.py doc Clase.metodo` (o `doc ?texto`) muestra la API exacta de la versión de Godot instalada; la primera vez
 la genera en `~/.cache/tellmap/`.
 
+`tmap.py recorrido` (con la app abierta) hace clic de verdad en cada botón visible y en los gráficos tocables, en 17
+escenarios (cada pestaña de un lugar, cada tipo de ficha, modo de capa, ajustes, ayuda y búsqueda), y devuelve
+cuántos tocó y cuáles no hicieron nada; `solo="ficha de familia"` corre un escenario suelto. Mientras corre, los
+enlaces no abren el navegador. La prueba automática lo incluye y falla si un clic da error o no hace nada.
+
 ## Registros
 
 Cada vez que corre la app (o el editor, con el plugin) se guarda un registro en `.godot/registros/`: mensajes,

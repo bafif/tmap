@@ -45,6 +45,12 @@ var cargado := false
 ## Lo resaltado por la ficha abierta y por el mouse sobre la leyenda (lo de la leyenda manda mientras dura).
 var _resaltado_ficha := ""
 var _resaltado_leyenda := ""
+## Mientras corre el recorrido de la interfaz (scripts/nucleo/recorrido.gd), los enlaces no abren el navegador:
+## solo se anotan en ultima_url.
+var sin_navegador := false
+## Sin animaciones de panel ni de cámara (el recorrido las apaga para ir rápido).
+var sin_animaciones := false
+var ultima_url := ""
 
 var ajustes := {
 	"vista": "2d",
@@ -103,6 +109,13 @@ func resaltar(clave: String, origen := "ficha") -> void:
 
 func resaltado() -> String:
 	return _resaltado_leyenda if _resaltado_leyenda != "" else _resaltado_ficha
+
+
+## Abre un enlace en el navegador (todos los enlaces de la app pasan por acá).
+func abrir_url(url: String) -> void:
+	ultima_url = url
+	if not sin_navegador:
+		OS.shell_open(url)
 
 
 func enfocar(px: Vector2, zoom: float = 0.0) -> void:
