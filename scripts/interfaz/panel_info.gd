@@ -73,7 +73,7 @@ func _ready() -> void:
 		b.toggle_mode = true
 		b.button_group = grupo
 		b.theme_type_variation = "Pestana"
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		b.button_pressed = i == 0
 		b.pressed.connect(func():
@@ -85,6 +85,7 @@ func _ready() -> void:
 	_scroll = ScrollContainer.new()
 	_scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	_scroll.follow_focus = true
 	caja.add_child(_scroll)
 	_contenido = VBoxContainer.new()
 	_contenido.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -843,7 +844,7 @@ func _boton_texto(texto: String, icono: String) -> Button:
 	b.text = texto
 	b.icon = IconosUI.textura(icono, 16, TemaUI.color("acento"))
 	b.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	b.focus_mode = Control.FOCUS_NONE
+	b.focus_mode = Control.FOCUS_ALL
 	b.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	b.clip_text = true
 	return b
@@ -852,7 +853,7 @@ func _boton_texto(texto: String, icono: String) -> Button:
 func _fila_color(color: Color, texto: String, detalle: String, resaltada: bool) -> Button:
 	var b := Button.new()
 	b.theme_type_variation = "BotonPlano"
-	b.focus_mode = Control.FOCUS_NONE
+	b.focus_mode = Control.FOCUS_ALL
 	b.alignment = HORIZONTAL_ALIGNMENT_LEFT
 	b.text = "%s   ·   %s" % [texto, detalle]
 	b.icon = IconosUI.muestra(color)
@@ -903,7 +904,7 @@ func _tarjeta_fuente(f: Dictionary) -> Control:
 	caja.add_child(botones)
 	var ficha := Button.new()
 	ficha.text = "Ficha"
-	ficha.focus_mode = Control.FOCUS_NONE
+	ficha.focus_mode = Control.FOCUS_ALL
 	var id: String = f["id"]
 	ficha.pressed.connect(func(): Estado.pedir_ficha("fuente", id))
 	botones.add_child(ficha)
@@ -912,7 +913,7 @@ func _tarjeta_fuente(f: Dictionary) -> Control:
 		var b := Button.new()
 		b.text = "Leer"
 		b.icon = IconosUI.textura("enlace", 14, TemaUI.color("acento"))
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		var url: String = leer[0]["url"]
 		b.tooltip_text = url
 		b.pressed.connect(func(): Estado.abrir_url(url))

@@ -91,9 +91,28 @@ func _cambiar_tema() -> void:
 
 ## Atajos de teclado de toda la app (los de la línea de tiempo y Esc están en sus paneles). La lista que se muestra
 ## en la ayuda está en Bienvenida.ATAJOS: si se cambia uno, cambiarlo también ahí.
+## Con el mouse, un botón no se queda con el foco: si no, la barra espaciadora lo volvería a apretar en vez de
+## reproducir. Con el teclado (Tab) el foco sí queda, con su recuadro.
+func _input(ev: InputEvent) -> void:
+	var b := ev as InputEventMouseButton
+	if b and b.pressed:
+		_soltar_foco.call_deferred()
+
+
+func _soltar_foco() -> void:
+	var f := get_viewport().gui_get_focus_owner()
+	if f is BaseButton:
+		f.release_focus()
+
+
 func _unhandled_key_input(ev: InputEvent) -> void:
 	var k := ev as InputEventKey
 	if k == null or not k.pressed or k.echo:
+		return
+	# Tab sin nada enfocado: empezar a recorrer la interfaz desde la barra de modos.
+	if k.keycode == KEY_TAB and get_viewport().gui_get_focus_owner() == null:
+		barra.enfocar_modos()
+		get_viewport().set_input_as_handled()
 		return
 	var modos: Array = Estado.MODOS.keys()
 	if k.keycode >= KEY_1 and k.keycode <= KEY_5 and not k.ctrl_pressed and not k.alt_pressed:

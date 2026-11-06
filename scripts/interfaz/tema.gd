@@ -185,7 +185,9 @@ static func crear(id: String) -> Theme:
 	t.set_stylebox("pressed", "Button", b_activo)
 	t.set_stylebox("hover_pressed", "Button", b_activo)
 	t.set_stylebox("disabled", "Button", b_off)
-	t.set_stylebox("focus", "Button", StyleBoxEmpty.new())
+	# Recuadro de foco: solo se ve al recorrer con el teclado (Interfaz suelta el foco de los botones al hacer clic).
+	var foco := caja(Color.TRANSPARENT, color("acento"), 2, 4, 2.0)
+	t.set_stylebox("focus", "Button", foco)
 	t.set_color("font_color", "Button", texto)
 	t.set_color("font_hover_color", "Button", texto.lightened(0.1))
 	t.set_color("font_pressed_color", "Button", color("titulo"))
@@ -262,7 +264,7 @@ static func crear(id: String) -> Theme:
 	t.set_stylebox("normal", "CheckBox", StyleBoxEmpty.new())
 	t.set_stylebox("hover", "CheckBox", StyleBoxEmpty.new())
 	t.set_stylebox("pressed", "CheckBox", StyleBoxEmpty.new())
-	t.set_stylebox("focus", "CheckBox", StyleBoxEmpty.new())
+	t.set_stylebox("focus", "CheckBox", foco)
 	t.set_icon("checked", "CheckBox", _icono_casilla(true))
 	t.set_icon("unchecked", "CheckBox", _icono_casilla(false))
 	var sep := StyleBoxLine.new()
@@ -278,7 +280,7 @@ static func crear(id: String) -> Theme:
 	t.set_stylebox("normal", "OptionButton", b_normal)
 	t.set_stylebox("hover", "OptionButton", b_hover)
 	t.set_stylebox("pressed", "OptionButton", b_activo)
-	t.set_stylebox("focus", "OptionButton", StyleBoxEmpty.new())
+	t.set_stylebox("focus", "OptionButton", foco)
 	t.set_color("font_color", "OptionButton", texto)
 
 	# Barra de progreso (pantalla de carga)

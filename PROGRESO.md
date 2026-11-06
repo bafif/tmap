@@ -19,9 +19,8 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
       muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
-- [ ] **Todo usable sin mouse.** Los atajos ya están; falta poder recorrer con Tab los botones del panel, la
-      leyenda y los diálogos (hoy tienen `focus_mode = FOCUS_NONE` para que el clic no deje un recuadro de foco).
-- [ ] **Probar en otros equipos.** Windows, una notebook con gráficos integrados y el modo OpenGL.
+- [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El modo OpenGL
+      (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
 - [ ] **Publicar la primera versión con ejecutables.** Crear la versión 0.2 en GitHub (desde `bafif`): el workflow
       `version.yml` exporta Linux y Windows, comprueba el de Linux con `--verificar` y sube los zip. No se pudo probar
       acá porque no hay plantillas de exportación instaladas; el `.pck` sí se exportó y pasó la prueba completa.
@@ -76,6 +75,9 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [x] **Atajos de teclado**: 1 a 5 para los modos, / o Ctrl+F para buscar, G para ir a un año, + y - para el
       zoom, [ y ] para las pestañas, Retroceso para volver de una ficha y F1 para la ayuda, que ahora los lista y
       tiene scroll para entrar en ventanas bajas.
+- [x] **Todo usable sin mouse.** Todos los botones, la leyenda y los diálogos se recorren con Tab, con un
+      recuadro de foco del color del tema; con el mouse el foco se suelta solo, así la barra espaciadora sigue
+      reproduciendo. El panel se desplaza siguiendo al foco.
 - [x] **Tema «Alto contraste»**: texto blanco sobre negro (21:1) y acentos amarillos.
 - [x] **Exportación lista.** `export_presets.cfg` (Linux y Windows, con el filtro `data/*`) y el workflow
       `version.yml`. Arreglado de paso: el `.gdignore` de `data/mapa` dejaba **afuera** todos los datos del mapa al

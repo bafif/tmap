@@ -48,7 +48,7 @@ func _ready() -> void:
 		var cb := CheckBox.new()
 		cb.text = c[1]
 		cb.button_pressed = Estado.ajustes.get(c[0], true)
-		cb.focus_mode = Control.FOCUS_NONE
+		cb.focus_mode = Control.FOCUS_ALL
 		cb.add_theme_color_override("font_color", TemaUI.color(c[2]).lerp(TemaUI.color("texto"), 0.35))
 		var clave: String = c[0]
 		cb.toggled.connect(func(on: bool): Estado.fijar_ajuste(clave, on))
@@ -73,7 +73,7 @@ func _actualizar() -> void:
 		for it in visibles:
 			var fila := Button.new()
 			fila.theme_type_variation = "FilaCompacta"
-			fila.focus_mode = Control.FOCUS_NONE
+			fila.focus_mode = Control.FOCUS_ALL
 			fila.alignment = HORIZONTAL_ALIGNMENT_LEFT
 			fila.icon = IconosUI.muestra(it["color"])
 			fila.text = it["nombre"]
@@ -89,7 +89,7 @@ func _actualizar() -> void:
 		if items.size() > MAX_FILAS + 1:
 			var mas := Button.new()
 			mas.theme_type_variation = "FilaCompacta"
-			mas.focus_mode = Control.FOCUS_NONE
+			mas.focus_mode = Control.FOCUS_ALL
 			mas.alignment = HORIZONTAL_ALIGNMENT_LEFT
 			mas.text = "Ver menos" if _expandida else "Ver las %d restantes" % (items.size() - MAX_FILAS)
 			mas.add_theme_color_override("font_color", TemaUI.color("acento"))

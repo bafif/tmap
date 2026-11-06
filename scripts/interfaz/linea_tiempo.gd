@@ -60,7 +60,7 @@ func _ready() -> void:
 	for v in VELOCIDADES:
 		_velocidad.add_item("%d años/s" % v)
 	_velocidad.select(2)
-	_velocidad.focus_mode = Control.FOCUS_NONE
+	_velocidad.focus_mode = Control.FOCUS_ALL
 	_velocidad.tooltip_text = "Velocidad de reproducción"
 	abajo.add_child(_velocidad)
 	_entrada = LineEdit.new()

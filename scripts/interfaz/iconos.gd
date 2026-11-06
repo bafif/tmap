@@ -41,7 +41,7 @@ static func boton(nombre: String, ayuda: String, tam := 20, plano := true) -> Bu
 	b.icon = textura(nombre, tam, TemaUI.color("texto"))
 	b.tooltip_text = ayuda
 	b.theme_type_variation = "BotonPlano" if plano else ""
-	b.focus_mode = Control.FOCUS_NONE
+	b.focus_mode = Control.FOCUS_ALL
 	b.expand_icon = false
 	return b
 

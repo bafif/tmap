@@ -49,7 +49,7 @@ func _ready() -> void:
 		b.toggle_mode = true
 		b.button_group = grupo
 		b.theme_type_variation = "BotonModo"
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		b.button_pressed = id == Estado.modo
 		var modo_id: String = id
 		b.pressed.connect(func(): Estado.fijar_modo(modo_id))
@@ -90,6 +90,10 @@ func _ready() -> void:
 	add_child(_resultados)
 
 
+func enfocar_modos() -> void:
+	(_botones_modo[Estado.modo] as Button).grab_focus()
+
+
 func enfocar_busqueda() -> void:
 	_busqueda.grab_focus()
 	_busqueda.select_all()
@@ -118,7 +122,7 @@ func _buscar(texto: String) -> void:
 		var b := Button.new()
 		b.theme_type_variation = "BotonPlano"
 		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		b.text = "%s   ·   %s" % [it["texto"], it["detalle"]]
 		b.clip_text = true
 		var item: Dictionary = it

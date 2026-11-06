@@ -70,7 +70,7 @@ func _construir() -> void:
 		b.button_group = grupo_vista
 		b.disabled = not v[2]
 		b.button_pressed = Estado.ajustes["vista"] == v[0]
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		if not v[2]:
 			b.tooltip_text = "La vista 3D con relieve, agua y efectos está planificada en docs/es/plan.md."
 		vista.add_child(b)
@@ -86,7 +86,7 @@ func _construir() -> void:
 		b.toggle_mode = true
 		b.button_group = grupo_cal
 		b.button_pressed = Estado.ajustes["calidad"] == id
-		b.focus_mode = Control.FOCUS_NONE
+		b.focus_mode = Control.FOCUS_ALL
 		b.custom_minimum_size = Vector2(110, 0)
 		var cal: String = id
 		b.pressed.connect(func():

@@ -14,6 +14,7 @@ const TEXTO := """TellMAP es una biblioteca ordenada en el espacio y el tiempo. 
 
 ## Atajos de teclado (los maneja Interfaz._unhandled_key_input; esta es la lista que se muestra).
 const ATAJOS := [
+	["Tab y Mayús+Tab", "recorrer los botones (Enter o espacio los aprieta)"],
 	["1 a 5", "modos: político, terreno, religión, cultura, idioma"],
 	["Barra espaciadora", "reproducir o pausar"],
 	["Re Pág / Av Pág (o . y ,)", "10 años adelante o atrás; con Mayús, 1 año"],
@@ -78,7 +79,7 @@ func _ready() -> void:
 	atajos.fit_content = true
 	atajos.scroll_active = false
 	atajos.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	var lineas: Array = ["[b]Teclado[/b] (en Ajustes también hay un tema de alto contraste y la escala de la interfaz)"]
+	var lineas: Array = ["[b]Teclado[/b] (todo se puede usar sin mouse; en Ajustes también hay un tema de alto contraste y la escala de la interfaz)"]
 	for a in ATAJOS:
 		lineas.append("• [b]%s[/b]: %s" % a)
 	atajos.text = "\n".join(lineas)

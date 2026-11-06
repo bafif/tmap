@@ -301,6 +301,32 @@ func _prueba_automatica() -> void:
 	if not interfaz.panel._ficha.is_empty():
 		push_error("[prueba] Retroceso no volvió de la ficha al lugar")
 	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	# Sin mouse: Tab enfoca la barra de modos y avanza; un clic suelta el foco y la barra espaciadora reproduce.
+	get_viewport().gui_release_focus()
+	await tecla.call(KEY_TAB)
+	var primero := get_viewport().gui_get_focus_owner()
+	if not primero is Button:
+		push_error("[prueba] Tab sin foco no enfocó la barra de modos")
+	await tecla.call(KEY_TAB)
+	if get_viewport().gui_get_focus_owner() == primero:
+		push_error("[prueba] Tab no pasó al control siguiente")
+	var clic_foco := InputEventMouseButton.new()
+	clic_foco.button_index = MOUSE_BUTTON_LEFT
+	clic_foco.pressed = true
+	clic_foco.position = (primero as Control).get_global_rect().get_center()
+	get_viewport().push_input(clic_foco)
+	clic_foco = clic_foco.duplicate()
+	clic_foco.pressed = false
+	get_viewport().push_input(clic_foco)
+	await get_tree().process_frame
+	await get_tree().process_frame
+	if get_viewport().gui_get_focus_owner() is BaseButton:
+		push_error("[prueba] después de un clic, un botón se quedó con el foco")
+	await tecla.call(KEY_SPACE)
+	if not interfaz.linea._reproduciendo:
+		push_error("[prueba] la barra espaciadora no empezó a reproducir")
+	else:
+		interfaz.linea.alternar_reproduccion()
 	paso.call("atajos de teclado")
 	# Clic real en cada botón visible de la interfaz, en varios escenarios: falla si alguno da error o no hace nada.
 	# Sin pantalla (--headless) la ventana mide 64×64 y casi todo quedaría afuera: se le da el tamaño del proyecto.
