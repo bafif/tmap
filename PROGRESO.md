@@ -93,7 +93,7 @@ Datos que necesita este bloque:
       de la app (Mármol y bronce, Cinzel y EB Garamond, capturas reales).
 - [x] **Integración continua**: en cada push y pull request, valida la enciclopedia, compila los scripts y corre la
       prueba automática (`.github/workflows/pruebas.yml`).
-- [x] Formularios de issues (error, idea, dato), plantilla de pull request, guía de colaboración y Dependabot.
+- [x] Formularios de issues (error, idea, dato), plantilla de pull request y guía de colaboración.
 - [x] `tools/github/organizar.py`: etiquetas, versiones, un issue por tarea, tablero, Pages, seguridad y release 0.1.
 
 ### 6 de noviembre de 2026: registros y fugas
