@@ -86,7 +86,8 @@ release, follow [the data pipeline](tools/pipeline/README.md) (in Spanish).
 
 ## Status
 
-Version 0.1: the first one that works end to end.
+Version 0.1: the first one that works end to end. The detailed log of what is done and what is pending is in
+[PROGRESO.md](PROGRESO.md) (in Spanish).
 
 - [x] 2D world map with relief, rivers, coastlines and Miller projection
 - [x] Political borders from 3400 BCE to 2024, with names that follow the shape of each territory

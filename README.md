@@ -87,7 +87,8 @@ versión de Cliopatria, seguí [el pipeline de datos](tools/pipeline/README.md).
 
 ## Estado
 
-Versión 0.1: la primera que funciona de punta a punta.
+Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y lo que falta está en
+[PROGRESO.md](PROGRESO.md).
 
 - [x] Mapa 2D del mundo con relieve, ríos, costas y proyección de Miller
 - [x] Fronteras políticas de 3400 a. C. a 2024, con nombres que siguen la forma del territorio

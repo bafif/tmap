@@ -26,6 +26,11 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
 - Con el editor abierto: `tools/godot/tmap.py --proyecto <carpeta del editor> --a editor estado|escanear|jugar|abrir`.
 - Detalle del puente: [tools/godot/README.md](../../tools/godot/README.md).
 
+## Bitácora
+
+- Al terminar algo, se marca en [PROGRESO.md](../../PROGRESO.md): pasa a «Hecho» con la fecha. Lo nuevo que aparezca
+  se suma a «Por hacer», en su bloque y en el orden de prioridad.
+
 ## Git
 
 - Se trabaja en una rama; el merge y el push los hace Bautista.

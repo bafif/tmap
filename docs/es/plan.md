@@ -100,6 +100,8 @@ cambiar en vivo.
 
 ## Hoja de ruta
 
+El detalle de cada paso, con lo hecho y lo que falta, está en [PROGRESO.md](../../PROGRESO.md).
+
 | Fase | Qué incluye |
 |---|---|
 | **0.1** (esta) | Mapa 2D, fronteras de 3400 a. C. a 2024, línea de tiempo, panel lateral, enciclopedia piloto (Egipto) y muestra mundial, Wikipedia en vivo, temas y calidades |
