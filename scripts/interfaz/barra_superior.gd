@@ -13,7 +13,7 @@ var _botones_modo := {}
 
 func _ready() -> void:
 	theme_type_variation = "Franja"
-	set_anchors_preset(Control.PRESET_TOP_WIDE)
+	set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
 	custom_minimum_size = Vector2(0, 56)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	var fila := HBoxContainer.new()

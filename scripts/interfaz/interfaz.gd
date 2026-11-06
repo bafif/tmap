@@ -30,13 +30,13 @@ func _construir() -> void:
 	if raiz:
 		raiz.queue_free()
 	raiz = Control.new()
-	raiz.set_anchors_preset(Control.PRESET_FULL_RECT)
+	raiz.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	raiz.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	raiz.theme = TemaUI.crear(Estado.ajustes["tema"])
 	add_child(raiz)
 
 	var vineta := ColorRect.new()
-	vineta.set_anchors_preset(Control.PRESET_FULL_RECT)
+	vineta.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	vineta.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	var mat := ShaderMaterial.new()
 	mat.shader = load("res://shaders/vineta.gdshader")

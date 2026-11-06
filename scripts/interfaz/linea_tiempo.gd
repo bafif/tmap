@@ -16,8 +16,9 @@ var _acumulado := 0.0
 
 func _ready() -> void:
 	theme_type_variation = "Franja"
-	set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
+	set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
 	offset_top = -128
+	grow_vertical = Control.GROW_DIRECTION_BEGIN
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	var fila := HBoxContainer.new()
 	fila.add_theme_constant_override("separation", 14)

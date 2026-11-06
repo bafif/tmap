@@ -81,7 +81,7 @@ func _configurar_shader() -> void:
 	m.set_shader_parameter("color_seleccion", TemaUI.color("acento").lightened(0.2))
 	# El agua animada necesita redibujar siempre; si no, la app duerme mientras nada cambia.
 	OS.low_processor_usage_mode = not q["agua_animada"]
-	capa_nombres.visible = Estado.ajustes.get("mostrar_nombres", true)
+	capa_nombres.visible = Estado.modo == "politico" and Estado.ajustes.get("mostrar_nombres", true)
 	capa_nombres.curvos = q["nombres_curvos"]
 	capa_nombres.queue_redraw()
 	capa_marcadores.actualizar()
@@ -272,6 +272,12 @@ func _click(pos: Vector2) -> void:
 		return
 	var u := DatosMapa.unidad_en(mundo)
 	Estado.seleccionar_lugar(u, mundo)
+	# Si el lugar quedó debajo del panel lateral, correr la cámara para dejarlo a la vista.
+	var vp := get_viewport_rect().size
+	var libre := vp.x - PanelInfo.ANCHO - 20.0
+	if u > 0 and pos.x > libre - 40.0:
+		var destino := camara.position + Vector2((pos.x - libre * 0.55) / camara.zoom.x, 0.0)
+		volar_a(destino, camara.zoom.x)
 
 
 func _hover(pos: Vector2) -> void:

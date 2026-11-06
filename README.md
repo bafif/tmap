@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/portada.png" alt="TellMAP: el Mediterráneo oriental en 1350 a. C., con las fronteras del Imperio Nuevo de Egipto, los hititas, Mitanni y Babilonia" width="100%">
+  <img src="docs/assets/portada.png" alt="TellMAP en 1350 a. C.: Egipto seleccionado, con el panel lateral que lista las fuentes escritas ahí en esa época, como las Cartas de Amarna y el Gran Himno a Atón" width="100%">
 </p>
 
 <p align="center">
@@ -42,6 +42,17 @@ novecientos años después, y a los egiptólogos del siglo XX que lo estudiaron 
 | **Abrís la pestaña Fuentes** | Lo escrito *ahí y entonces* (fuentes primarias) y lo escrito *sobre* ese lugar y esa época (estudios), con el enlace para leerlos |
 | **Dejás correr el tiempo** | Pensadores que aparecen mientras viven, hechos que destellan en su fecha y ciudades que se fundan y desaparecen |
 
+<p align="center">
+  <img src="docs/assets/temas.png" alt="El mismo lugar en los tres temas: Mármol y bronce con las fuentes, Pergamino iluminado con la historia del lugar, y Tinta y latón con la gente y los hechos" width="100%">
+</p>
+
+Con tres temas para la interfaz (Mármol y bronce, Pergamino iluminado, y Tinta y latón) y cuatro niveles de calidad
+gráfica, para que ande bien desde una notebook vieja hasta una computadora de juegos.
+
+<p align="center">
+  <img src="docs/assets/mundo.png" alt="El mundo en 117 d. C.: el Imperio romano en su máxima extensión, los partos, el Imperio kushán, los xianbei y la dinastía Han" width="100%">
+</p>
+
 ## Lo que lo hace distinto
 
 - **Fronteras con respaldo.** Usa [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), la base
@@ -66,10 +77,11 @@ Hace falta [Godot 4.7](https://godotengine.org/download) (es libre y pesa unos 1
 
 ```bash
 git clone https://github.com/bafif/tmap.git
-godot --path tmap
+godot --path tmap            # o abrí la carpeta desde el editor de Godot
 ```
 
-Los datos del mapa ya vienen generados en `data/mapa/`. Para regenerarlos desde las fuentes originales, o con otra
+Para revisar que todo ande, `godot --headless --path tmap -- --prueba` recorre la app sola y avisa si algo falla;
+`tools/captura.sh` saca capturas sin monitor. Los datos del mapa ya vienen generados en `data/mapa/`. Para regenerarlos desde las fuentes originales, o con otra
 versión de Cliopatria, seguí [el pipeline de datos](tools/pipeline/README.md).
 
 ## Estado

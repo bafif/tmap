@@ -233,7 +233,7 @@ func usar_valores(valores: PackedInt32Array, colores: PackedColorArray) -> void:
 
 func _imagen_paleta(colores: PackedColorArray) -> Image:
 	var filas := int(ceil(max(colores.size(), 1) / float(PALETA_ANCHO)))
-	var img := Image.create(PALETA_ANCHO, filas, false, Image.FORMAT_RGBA8)
+	var img := Image.create_empty(PALETA_ANCHO, filas, false, Image.FORMAT_RGBA8)
 	for i in colores.size():
 		img.set_pixel(i % PALETA_ANCHO, i / PALETA_ANCHO, colores[i])
 	return img

@@ -113,6 +113,14 @@ def main():
                 anio(p[clave].get("anio"), f"{d}/{clave}")
                 punto(p[clave], f"{d}/{clave}")
         punto(p.get("activo"), d + "/activo")
+        if isinstance(p.get("activo"), dict):
+            anio(p["activo"].get("desde"), d + "/activo")
+            anio(p["activo"].get("hasta"), d + "/activo")
+        anios = [x.get("anio") for x in (p.get("nacimiento"), p.get("muerte")) if isinstance(x, dict)]
+        if isinstance(p.get("activo"), dict):
+            anios += [p["activo"].get("desde"), p["activo"].get("hasta")]
+        if all(a is None for a in anios):
+            avisos.append(f"{d}: sin ningún año (no se ubica en el tiempo)")
         for o in p.get("obras", []):
             if o not in todo["fuentes"]:
                 errores.append(f"{d}: obra «{o}» no existe")

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/portada.png" alt="TellMAP: the Eastern Mediterranean in 1350 BCE, with the borders of New Kingdom Egypt, the Hittites, Mitanni and Babylonia" width="100%">
+  <img src="docs/assets/portada.png" alt="TellMAP in 1350 BCE: Egypt selected, with the side panel listing the sources written there at that time, such as the Amarna letters and the Great Hymn to the Aten" width="100%">
 </p>
 
 <p align="center">
@@ -42,6 +42,17 @@ Chicago.
 | **Open the Sources tab** | What was written *there and then* (primary sources) and what was written *about* that place and time (studies), with links to read them |
 | **Let time run** | Thinkers appearing while they live, events flashing at their date, cities founded and abandoned |
 
+<p align="center">
+  <img src="docs/assets/temas.png" alt="The same place in the three themes: Marble & Bronze showing sources, Illuminated Parchment showing the history of the place, and Ink & Brass showing people and events" width="100%">
+</p>
+
+Three interface themes (Marble & Bronze, Illuminated Parchment, Ink & Brass) and four graphics quality levels, so it
+runs well from an old laptop to a gaming PC.
+
+<p align="center">
+  <img src="docs/assets/mundo.png" alt="The world in 117 CE: the Roman Empire at its greatest extent, the Parthians, the Kushan Empire, the Xianbei and the Han dynasty" width="100%">
+</p>
+
 ## What makes it different
 
 - **Borders with a backbone.** It uses [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), the
@@ -65,10 +76,11 @@ You need [Godot 4.7](https://godotengine.org/download) (free, about 100 MB).
 
 ```bash
 git clone https://github.com/bafif/tmap.git
-godot --path tmap
+godot --path tmap            # or open the folder from the Godot editor
 ```
 
-The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
+To check everything works, `godot --headless --path tmap -- --prueba` walks through the app on its own and reports
+any error; `tools/captura.sh` takes screenshots without a monitor. The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
 release, follow [the data pipeline](tools/pipeline/README.md) (in Spanish).
 
 ## Status

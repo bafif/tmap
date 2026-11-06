@@ -101,8 +101,18 @@ func _preparar_puntos() -> void:
 		if lugar.has("lon") and lugar.get("lat") != null:
 			p["_px"] = Proyeccion.a_px(float(lugar["lon"]), float(lugar["lat"]))
 			p["_regiones"] = regiones_en(p["_px"])
-		p["_desde"] = _anio(_dic(p, "nacimiento"), "anio", -99999)
-		p["_hasta"] = _anio(_dic(p, "muerte"), "anio", 99999)
+		# Vida: nacimiento y muerte; si faltan, los años de actividad (reinado, época conocida); si solo hay uno de
+		# los extremos, se estima una vida de unos 60 años. Sin ningún año, la persona no se ubica en el tiempo.
+		var activo := _dic(p, "activo")
+		var nace := _anio(_dic(p, "nacimiento"), "anio", _anio(activo, "desde", -99999))
+		var muere := _anio(_dic(p, "muerte"), "anio", _anio(activo, "hasta", 99999))
+		if nace == -99999 and muere != 99999:
+			nace = muere - 60
+		elif muere == 99999 and nace != -99999:
+			muere = mini(nace + 60, Estado.ANIO_MAX) if nace < 1950 else Estado.ANIO_MAX
+		p["_desde"] = nace
+		p["_hasta"] = muere
+		p["_sin_fechas"] = nace == -99999
 	for h in hechos.values():
 		if h.has("lon"):
 			h["_px"] = Proyeccion.a_px(float(h["lon"]), float(h["lat"]))
@@ -224,7 +234,7 @@ func personas_vivas(ids_regiones: Array, anio: int) -> Array:
 	var regs := con_ancestros(ids_regiones)
 	var out: Array = []
 	for p in personas.values():
-		if p["_desde"] <= anio and anio <= p["_hasta"]:
+		if not p["_sin_fechas"] and p["_desde"] <= anio and anio <= p["_hasta"]:
 			for r in p.get("_regiones", []):
 				if regs.has(r):
 					out.append(p)

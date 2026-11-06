@@ -2018,7 +2018,10 @@
       "activo": {
         "lugar": "Hieracómpolis",
         "lon": 32.779,
-        "lat": 25.098
+        "lat": 25.098,
+        "desde": -3100,
+        "hasta": -3050,
+        "aprox": true
       },
       "roles": [
         "rey"
@@ -2040,7 +2043,10 @@
       "activo": {
         "lugar": "Saqqara",
         "lon": 31.216,
-        "lat": 29.871
+        "lat": 29.871,
+        "desde": -2667,
+        "hasta": -2600,
+        "aprox": true
       },
       "roles": [
         "arquitecto",
@@ -2061,7 +2067,10 @@
       "activo": {
         "lugar": "Menfis",
         "lon": 31.255,
-        "lat": 29.845
+        "lat": 29.845,
+        "desde": -2414,
+        "hasta": -2375,
+        "aprox": true
       },
       "roles": [
         "visir",
@@ -2090,7 +2099,10 @@
       "activo": {
         "lugar": "Tebas",
         "lon": 32.639,
-        "lat": 25.719
+        "lat": 25.719,
+        "desde": -1479,
+        "hasta": -1458,
+        "aprox": true
       },
       "roles": [
         "faraona"
@@ -2116,7 +2128,10 @@
       "activo": {
         "lugar": "Tebas",
         "lon": 32.639,
-        "lat": 25.719
+        "lat": 25.719,
+        "desde": -1479,
+        "hasta": -1425,
+        "aprox": true
       },
       "roles": [
         "faraón",
@@ -2143,7 +2158,10 @@
       "activo": {
         "lugar": "Amarna",
         "lon": 30.896,
-        "lat": 27.645
+        "lat": 27.645,
+        "desde": -1352,
+        "hasta": -1336,
+        "aprox": true
       },
       "roles": [
         "faraón",
@@ -2167,7 +2185,10 @@
       "activo": {
         "lugar": "Amarna",
         "lon": 30.896,
-        "lat": 27.645
+        "lat": 27.645,
+        "desde": -1352,
+        "hasta": -1336,
+        "aprox": true
       },
       "roles": [
         "reina"
@@ -2216,7 +2237,10 @@
       "activo": {
         "lugar": "Heliópolis",
         "lon": 31.3,
-        "lat": 30.13
+        "lat": 30.13,
+        "desde": -300,
+        "hasta": -250,
+        "aprox": true
       },
       "roles": [
         "sacerdote",

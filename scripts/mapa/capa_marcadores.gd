@@ -7,6 +7,9 @@ extends Node2D
 const RADIO := 13.0
 const VENTANA_HECHO := 40
 const VIDA_FUENTE := 150
+## Más lejos que esto no se dibujan marcadores; entre esto y ZOOM_PUNTOS, solo puntos chicos.
+const ZOOM_OCULTAR := 0.26
+const ZOOM_PUNTOS := 0.5
 
 const ICONOS := {
 	"fuente": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path fill='#fff' d='M7 15c9-4 17-3 23 2v34c-6-5-14-6-23-2z'/><path fill='#fff' d='M57 15c-9-4-17-3-23 2v34c6-5 14-6 23-2z'/></svg>",
@@ -53,7 +56,7 @@ func actualizar() -> void:
 				_visibles.append({"tipo": "fuente", "id": f["id"], "px": f["_px"], "icono": "fuente", "color": TemaUI.color(tipo_f), "alfa": maxf(alfa, 0.35), "texto": f.get("titulo", "")})
 	if aj.get("mostrar_personas", true):
 		for p in Enciclopedia.personas.values():
-			if p.has("_px") and p["_desde"] <= anio and anio <= p["_hasta"]:
+			if p.has("_px") and not p["_sin_fechas"] and p["_desde"] <= anio and anio <= p["_hasta"]:
 				_visibles.append({"tipo": "persona", "id": p["id"], "px": p["_px"], "icono": "persona", "color": TemaUI.color("persona"), "alfa": 1.0, "texto": p.get("nombre", "")})
 	if aj.get("mostrar_hechos", true):
 		for h in Enciclopedia.hechos.values():
@@ -64,6 +67,7 @@ func actualizar() -> void:
 		for l in Enciclopedia.lugares.values():
 			if l.has("_px") and l["_desde"] <= anio and anio <= l["_hasta"]:
 				_ciudades.append(l)
+		_ciudades.sort_custom(func(a, b): return int(a.get("importancia", 2)) > int(b.get("importancia", 2)))
 	# Separar marcadores que caen en el mismo punto (por ejemplo, varias fuentes de Alejandría).
 	var por_punto := {}
 	for v in _visibles:
@@ -94,6 +98,8 @@ func _draw() -> void:
 	var s := 1.0 / z
 	var fuente := TemaUI.fuente_texto
 	var fuente_t := TemaUI.fuente_titulo
+	# Rectángulos de texto ya dibujados (en coordenadas del mapa), para no encimar nombres.
+	var ocupados: Array[Rect2] = []
 
 	# Ciudades: punto y nombre; las menos importantes solo de cerca.
 	for l in _ciudades:
@@ -108,17 +114,29 @@ func _draw() -> void:
 		if imp >= 3 or l.get("tipo", "") == "capital":
 			draw_circle(p, r * 0.45, Color(0.55, 0.15, 0.12))
 		var tam := 15 + imp * 2
+		var nombre := str(l.get("nombre", ""))
 		var pos := p + Vector2(r + 5.0 * s, 5.0 * s)
+		var caja := Rect2(pos + Vector2(0, -tam * 0.8 * s), fuente_t.get_string_size(nombre, HORIZONTAL_ALIGNMENT_LEFT, -1, tam) * s)
+		if _choca(caja, ocupados):
+			continue
+		ocupados.append(caja)
 		draw_set_transform(pos, 0.0, Vector2(s, s))
-		draw_string_outline(fuente_t, Vector2.ZERO, str(l.get("nombre", "")), HORIZONTAL_ALIGNMENT_LEFT, -1, tam, 5, Color(0.05, 0.04, 0.03, 0.75))
-		draw_string(fuente_t, Vector2.ZERO, str(l.get("nombre", "")), HORIZONTAL_ALIGNMENT_LEFT, -1, tam, Color(0.98, 0.95, 0.88))
+		draw_string_outline(fuente_t, Vector2.ZERO, nombre, HORIZONTAL_ALIGNMENT_LEFT, -1, tam, 5, Color(0.05, 0.04, 0.03, 0.75))
+		draw_string(fuente_t, Vector2.ZERO, nombre, HORIZONTAL_ALIGNMENT_LEFT, -1, tam, Color(0.98, 0.95, 0.88))
 		draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 
+	if z < ZOOM_OCULTAR:
+		return
+	var chico := z < ZOOM_PUNTOS
 	var ahora := Time.get_ticks_msec()
 	for v in _visibles:
-		var p: Vector2 = v["px"] + _desplazamiento(v["orden"]) * s
+		var p: Vector2 = v["px"] + (Vector2.ZERO if chico else _desplazamiento(v["orden"]) * s)
 		var col: Color = v["color"]
 		var alfa: float = v["alfa"]
+		if chico:
+			draw_circle(p, 4.5 * s, Color(0.06, 0.05, 0.04, alfa))
+			draw_circle(p, 3.2 * s, Color(col, alfa))
+			continue
 		var k: String = v["tipo"] + v["id"]
 		var r := RADIO * s
 		if _destello.has(k):
@@ -135,13 +153,24 @@ func _draw() -> void:
 			draw_texture_rect(tex, Rect2(p - Vector2(lado, lado) * 0.5, Vector2(lado, lado)), false, Color(1, 0.97, 0.9, alfa))
 		if z >= 2.2:
 			var pos := p + Vector2(r + 4.0 * s, 4.5 * s)
-			draw_set_transform(pos, 0.0, Vector2(s, s))
 			var texto: String = v["texto"]
 			if texto.length() > 34:
 				texto = texto.substr(0, 32) + "…"
+			var caja := Rect2(pos + Vector2(0, -12 * s), fuente.get_string_size(texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15) * s)
+			if _choca(caja, ocupados):
+				continue
+			ocupados.append(caja)
+			draw_set_transform(pos, 0.0, Vector2(s, s))
 			draw_string_outline(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, 4, Color(0.05, 0.04, 0.03, 0.7 * alfa))
 			draw_string(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color(0.98, 0.95, 0.88, alfa))
 			draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
+
+
+func _choca(caja: Rect2, ocupados: Array[Rect2]) -> bool:
+	for o in ocupados:
+		if o.intersects(caja):
+			return true
+	return false
 
 
 ## El marcador bajo un punto del mapa, o {} si no hay.
@@ -149,10 +178,13 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 	var s := 1.0 / zoom
 	var mejor := {}
 	var mejor_d := INF
+	var chico := zoom < ZOOM_PUNTOS
 	for v in _visibles:
-		var p: Vector2 = v["px"] + _desplazamiento(v["orden"]) * s
+		if zoom < ZOOM_OCULTAR:
+			break
+		var p: Vector2 = v["px"] + (Vector2.ZERO if chico else _desplazamiento(v["orden"]) * s)
 		var d := p.distance_to(mundo)
-		if d < (RADIO + 3.0) * s and d < mejor_d:
+		if d < ((6.0 if chico else RADIO + 3.0)) * s and d < mejor_d:
 			mejor_d = d
 			mejor = {"tipo": v["tipo"], "id": v["id"], "texto": v["texto"]}
 	if mejor.is_empty():

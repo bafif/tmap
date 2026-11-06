@@ -275,7 +275,7 @@ static func crear(id: String) -> Theme:
 
 static func _icono_casilla(marcada: bool) -> Texture2D:
 	var n := 18
-	var img := Image.create(n, n, false, Image.FORMAT_RGBA8)
+	var img := Image.create_empty(n, n, false, Image.FORMAT_RGBA8)
 	var borde := color("borde")
 	var fondo := color("fondo2")
 	var marca := color("acento")

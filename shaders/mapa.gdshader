@@ -158,7 +158,7 @@ void fragment() {
 		}
 		float m = float(muestras);
 		float f_pais = smoothstep(0.0, 0.3, b_pais / m);
-		float f_prov = smoothstep(0.0, 0.3, b_prov / m) * (1.0 - smoothstep(0.8, 3.2, px)) * 0.28;
+		float f_prov = smoothstep(0.0, 0.3, b_prov / m) * (1.0 - smoothstep(0.45, 1.1, px)) * (v > 0 ? 0.22 : 0.0);
 		vec3 oscuro = (v > 0 && modo != 1) ? pc * 0.32 : vec3(0.12, 0.11, 0.1);
 		tierra = mix(tierra, oscuro, f_prov);
 		float fuerza_pais = modo == 1 ? 0.35 : 0.9;
