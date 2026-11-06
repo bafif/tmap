@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TellMAP · Atlas de la historia y sus fuentes</title>
+<meta name="description" content="La historia del mundo en un mapa vivo, con sus fuentes a mano: fronteras de 3400 a. C. a hoy, pensadores, hechos y los textos escritos en cada lugar y época.">
+<meta property="og:title" content="TellMAP · Atlas de la historia y sus fuentes">
+<meta property="og:description" content="Mové la línea de tiempo y mirá cómo se corren las fronteras, nacen las ciudades y aparecen los textos que se escribieron en cada lugar.">
+<meta property="og:image" content="https://bafif.github.io/tmap/img/social.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+@font-face { font-family: "Cinzel"; src: url("fuentes/Cinzel.woff2") format("woff2"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("fuentes/EBGaramond.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("fuentes/EBGaramond-Italic.woff2") format("woff2"); font-style: italic; font-display: swap; }
+
+:root {
+  --fondo: #1a1e24; --fondo2: #232931; --fondo3: #2c333d;
+  --borde: #a8875a; --borde-suave: #4f4639;
+  --texto: #ece3cf; --suave: #a99e88; --titulo: #e2c48a; --acento: #d4ab62;
+  --primaria: #c9a04a; --secundaria: #7b9cc2; --persona: #a77bb8; --hecho: #c0583f;
+  --ancho: 1120px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; color: var(--texto); font: 400 1.18rem/1.6 "EB Garamond", Georgia, serif;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #2b323c 0%, transparent 70%),
+    radial-gradient(900px 500px at 100% 40%, #241f19 0%, transparent 60%),
+    var(--fondo);
+}
+a { color: var(--titulo); }
+a:hover { color: var(--acento); }
+img { max-width: 100%; display: block; }
+.contenedor { width: min(var(--ancho), 92vw); margin: 0 auto; }
+
+/* Marco ornamental doble con rombos en las esquinas, como en la app */
+.marco { position: relative; border: 1px solid var(--borde); padding: 6px; background: var(--fondo2);
+  box-shadow: 0 0 0 4px var(--fondo), 0 0 0 5px var(--borde-suave), 0 18px 50px #0009; }
+.marco::before, .marco::after, .marco > .r1, .marco > .r2 { content: ""; position: absolute; width: 10px; height: 10px;
+  background: var(--acento); transform: rotate(45deg); border: 1px solid var(--fondo); z-index: 2; }
+.marco::before { top: -6px; left: -6px; } .marco::after { top: -6px; right: -6px; }
+.marco > .r1 { bottom: -6px; left: -6px; } .marco > .r2 { bottom: -6px; right: -6px; }
+
+header.barra { position: sticky; top: 0; z-index: 10; background: #14171ccc; backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--borde-suave); }
+header.barra .contenedor { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.marca { font: 700 1.5rem "Cinzel", serif; letter-spacing: .08em; color: var(--titulo); text-decoration: none; }
+.marca small { display: block; font: italic 400 .8rem "EB Garamond", serif; letter-spacing: 0; color: var(--suave); margin-top: -4px; }
+nav a { font: 600 .82rem "Cinzel", serif; letter-spacing: .12em; text-transform: uppercase; color: var(--texto);
+  text-decoration: none; margin-left: 1.6rem; }
+nav a:hover { color: var(--acento); }
+
+.heroe { padding: 4.5rem 0 3rem; text-align: center; }
+.heroe h1 { font: 700 clamp(2.6rem, 6vw, 4.6rem)/1.05 "Cinzel", serif; letter-spacing: .06em; color: var(--titulo); margin: 0;
+  text-shadow: 0 2px 30px #d4ab6233; }
+.heroe .lema { font-size: clamp(1.25rem, 2.4vw, 1.6rem); max-width: 760px; margin: 1.2rem auto 2rem; }
+.heroe .lema em { color: var(--titulo); }
+.botones { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+.boton { font: 700 .9rem "Cinzel", serif; letter-spacing: .1em; text-transform: uppercase; text-decoration: none;
+  padding: .85rem 1.5rem; border: 1px solid var(--borde); color: var(--texto); background: var(--fondo3);
+  box-shadow: inset 0 0 0 3px var(--fondo2), inset 0 0 0 4px var(--borde-suave); transition: .15s; }
+.boton:hover { background: #36404a; color: var(--titulo); }
+.boton.principal { background: linear-gradient(#d9b46c, #b98d45); color: #1a1e24; border-color: #f0d79a;
+  box-shadow: inset 0 0 0 3px #c9a04a, inset 0 0 0 4px #8c6a33; }
+.boton.principal:hover { background: linear-gradient(#e6c47e, #c99a50); color: #1a1e24; }
+
+.divisor { display: flex; align-items: center; gap: 1rem; color: var(--borde); margin: 0 auto 1.4rem; width: min(520px, 80%); }
+.divisor::before, .divisor::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--borde), transparent); }
+.divisor span { width: 8px; height: 8px; background: var(--acento); transform: rotate(45deg); }
+
+section { padding: 4rem 0; }
+section h2 { font: 700 clamp(1.6rem, 3vw, 2.2rem) "Cinzel", serif; letter-spacing: .06em; color: var(--titulo); text-align: center; margin: 0 0 .6rem; }
+section .intro { text-align: center; color: var(--suave); max-width: 720px; margin: 0 auto 2.6rem; }
+
+.tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.6rem; }
+.tarjeta { background: var(--fondo2); border: 1px solid var(--borde-suave); padding: 1.6rem 1.5rem; position: relative; }
+.tarjeta::before { content: ""; position: absolute; inset: 5px; border: 1px solid #4f463966; pointer-events: none; }
+.tarjeta h3 { font: 700 1.05rem "Cinzel", serif; letter-spacing: .08em; color: var(--titulo); margin: 0 0 .6rem; }
+.tarjeta p { margin: 0; color: var(--texto); }
+.tarjeta .icono { width: 34px; height: 34px; margin-bottom: .8rem; }
+
+.dos { display: grid; grid-template-columns: 1.1fr .9fr; gap: 3rem; align-items: center; }
+.dos h2, .dos .intro { text-align: left; margin-left: 0; }
+@media (max-width: 860px) { .dos { grid-template-columns: 1fr; } nav { display: none; } }
+
+.coordenadas { list-style: none; padding: 0; margin: 0; }
+.coordenadas li { padding: .9rem 0 .9rem 2.2rem; border-bottom: 1px solid var(--borde-suave); position: relative; }
+.coordenadas li::before { content: ""; position: absolute; left: .4rem; top: 1.35rem; width: 9px; height: 9px; transform: rotate(45deg); }
+.coordenadas li.p::before { background: var(--primaria); } .coordenadas li.s::before { background: var(--secundaria); }
+.coordenadas li.g::before { background: var(--persona); } .coordenadas li.h::before { background: var(--hecho); }
+.coordenadas b { color: var(--titulo); font-weight: 600; }
+
+.cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1rem; text-align: center; margin-top: 2.4rem; }
+.cifra b { display: block; font: 700 2rem "Cinzel", serif; color: var(--acento); }
+.cifra span { color: var(--suave); font-size: 1rem; }
+
+.hoja { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.fase { border-top: 3px solid var(--borde-suave); padding-top: .8rem; }
+.fase.hecha { border-color: var(--acento); } .fase.ahora { border-color: var(--secundaria); }
+.fase b { font: 700 .95rem "Cinzel", serif; letter-spacing: .08em; color: var(--titulo); display: block; }
+.fase span { color: var(--suave); font-size: 1rem; }
+
+.datos { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; justify-content: center; color: var(--suave); font-size: 1.02rem; }
+.datos a { color: var(--texto); text-decoration: none; border-bottom: 1px dotted var(--borde); }
+
+footer { border-top: 1px solid var(--borde-suave); padding: 2.4rem 0 3rem; color: var(--suave); font-size: 1rem; text-align: center; }
+footer .marca { font-size: 1.1rem; }
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="contenedor">
+    <a class="marca" href="#">TellMAP<small>atlas de la historia y sus fuentes</small></a>
+    <nav>
+      <a href="#biblioteca">La biblioteca</a>
+      <a href="#como">Cómo se hace</a>
+      <a href="#progreso">Progreso</a>
+      <a href="https://github.com/bafif/tmap">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="heroe contenedor">
+    <h1>La historia del mundo<br>en un mapa vivo</h1>
+    <p class="lema">Mové la línea de tiempo y mirá cómo se corren las fronteras, nacen las ciudades y aparecen
+      <em>los textos que se escribieron en cada lugar</em>, de 3400 a. C. a hoy.</p>
+    <div class="botones">
+      <a class="boton principal" href="https://github.com/bafif/tmap#probarlo">Probarlo</a>
+      <a class="boton" href="https://github.com/bafif/tmap">Ver el código</a>
+      <a class="boton" href="https://github.com/bafif/tmap/blob/master/PROGRESO.md">Seguir el progreso</a>
+    </div>
+    <div class="marco"><span class="r1"></span><span class="r2"></span>
+      <img src="img/portada.webp" width="1280" height="683"
+        alt="TellMAP en 1350 a. C.: Egipto seleccionado, con el panel lateral que lista las fuentes escritas ahí en esa época, como las Cartas de Amarna y el Gran Himno a Atón">
+    </div>
+  </div>
+
+  <section id="biblioteca">
+    <div class="contenedor dos">
+      <div>
+        <div class="divisor"><span></span></div>
+        <h2>Una biblioteca ordenada en el espacio y el tiempo</h2>
+        <p class="intro">Cada texto tiene dos coordenadas: dónde y cuándo se escribió, y de qué lugar y época trata.
+          Si vas a Egipto en 1350 a. C., encontrás el <em>Gran Himno a Atón</em>, escrito en Amarna en ese momento,
+          junto a Heródoto, que lo contó novecientos años después, y a los egiptólogos que lo estudiaron.</p>
+        <ul class="coordenadas">
+          <li class="p"><b>Fuentes primarias</b>: lo escrito ahí y entonces, con el enlace al texto completo cuando
+            está en dominio público.</li>
+          <li class="s"><b>Estudios</b>: lo que se escribió después sobre ese lugar y esa época.</li>
+          <li class="g"><b>Personas</b>: pensadores, gobernantes y autores que aparecen mientras viven.</li>
+          <li class="h"><b>Hechos</b>: batallas, fundaciones y tratados que destellan en su fecha.</li>
+        </ul>
+      </div>
+      <div class="marco"><span class="r1"></span><span class="r2"></span>
+        <img src="img/mundo.webp" width="1280" height="683" loading="lazy"
+          alt="El mundo en 117 d. C.: el Imperio romano en su máxima extensión, los partos, el Imperio kushán, los xianbei y la dinastía Han">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenedor">
+      <div class="divisor"><span></span></div>
+      <h2>Lo que lo hace distinto</h2>
+      <p class="intro">Hecho para estudiar historia al revés: empezando por el mapa y por las fuentes.</p>
+      <div class="tarjetas">
+        <div class="tarjeta"><h3>Fronteras con respaldo</h3>
+          <p>Las fronteras de 1637 entidades políticas, año por año, desde Cliopatria (Seshat Global History
+            Databank): 13 400 registros revisados por historiadores.</p></div>
+        <div class="tarjeta"><h3>Fuentes primero</h3>
+          <p>Cada ficha distingue fuentes primarias de estudios, dice qué tan segura es su fecha y lleva al texto
+            completo cuando se puede.</p></div>
+        <div class="tarjeta"><h3>Nada inventado</h3>
+          <p>Las cifras antiguas son estimaciones publicadas, con su autor y su incertidumbre. Lo que no se sabe,
+            se dice.</p></div>
+        <div class="tarjeta"><h3>La estética de los grandes mapas</h3>
+          <p>Relieve sombreado, ríos, costas de carta náutica y nombres que se curvan sobre el territorio, con tres
+            temas y cuatro niveles de calidad.</p></div>
+      </div>
+      <div class="cifras">
+        <div class="cifra"><b>5400</b><span>años, de 3400 a. C. a 2024</span></div>
+        <div class="cifra"><b>58 076</b><span>unidades que siguen las fronteras reales</span></div>
+        <div class="cifra"><b>1 001 996</b><span>cambios de dueño, unos 3 ms por año</span></div>
+        <div class="cifra"><b>0</b><span>cuentas y telemetría</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenedor">
+      <div class="divisor"><span></span></div>
+      <h2>Tres temas, el mismo mundo</h2>
+      <p class="intro">Mármol y bronce, Pergamino iluminado, y Tinta y latón. Cuatro niveles de calidad gráfica,
+        para que ande bien desde una notebook vieja hasta una computadora de juegos.</p>
+      <div class="marco"><span class="r1"></span><span class="r2"></span>
+        <img src="img/temas.webp" width="1920" height="515" loading="lazy"
+          alt="El mismo lugar en los tres temas: Mármol y bronce con las fuentes, Pergamino iluminado con la historia del lugar, y Tinta y latón con la gente y los hechos">
+      </div>
+    </div>
+  </section>
+
+  <section id="como">
+    <div class="contenedor">
+      <div class="divisor"><span></span></div>
+      <h2>Cómo se hace</h2>
+      <p class="intro">Software libre (AGPL-3.0) hecho con Godot, sobre datos abiertos. La enciclopedia crece de a
+        poco, en paquetes que cualquiera puede leer y revisar, con Wikipedia, Wikidata e IA que siempre cita sus
+        fuentes y pasa por revisión humana.</p>
+      <div class="datos">
+        <a href="https://github.com/Seshat-Global-History-Databank/cliopatria">Cliopatria (CC BY 4.0)</a>
+        <a href="https://www.naturalearthdata.com">Natural Earth</a>
+        <a href="https://visibleearth.nasa.gov">NASA Blue Marble</a>
+        <a href="https://www.gebco.net">GEBCO</a>
+        <a href="https://es.wikipedia.org">Wikipedia</a>
+        <a href="https://www.wikidata.org">Wikidata</a>
+        <a href="https://godotengine.org">Godot Engine</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="progreso">
+    <div class="contenedor">
+      <div class="divisor"><span></span></div>
+      <h2>En qué va</h2>
+      <p class="intro">Está en desarrollo y se construye a la vista: cada paso tiene su tarea en GitHub.</p>
+      <div class="hoja">
+        <div class="fase hecha"><b>0.1 · hecha</b><span>Mapa 2D, fronteras, línea de tiempo, panel, enciclopedia piloto de Egipto</span></div>
+        <div class="fase ahora"><b>0.2 · ahora</b><span>Que todo se pueda tocar: religiones, culturas e idiomas con su desglose</span></div>
+        <div class="fase"><b>0.3</b><span>Enciclopedia progresiva con editor, Wikipedia e IA revisada</span></div>
+        <div class="fase"><b>0.4 · 0.5</b><span>Datos abiertos a escala, migraciones y rutas animadas</span></div>
+        <div class="fase"><b>0.6 · 1.0</b><span>Vista 3D, versiones descargables y web</span></div>
+      </div>
+      <div class="botones" style="margin-top:2.6rem">
+        <a class="boton" href="https://github.com/bafif/tmap/blob/master/PROGRESO.md">Lo hecho y lo que falta</a>
+        <a class="boton" href="https://github.com/bafif/tmap/issues">Proponer una idea o una fuente</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="contenedor">
+    <p><span class="marca">TellMAP</span> · hecho por <b>Bautista D. Fiori</b> ·
+      <a href="https://www.linkedin.com/in/b-d-fiori/">LinkedIn</a> · <a href="https://github.com/bafif">GitHub</a></p>
+    <p>Código bajo <a href="https://github.com/bafif/tmap/blob/master/LICENSE">AGPL-3.0</a>. Los datos conservan sus
+      licencias; las tipografías Cinzel y EB Garamond son SIL Open Font License.
+      <a href="https://github.com/bafif/tmap/blob/master/README.en.md">Read in English</a>.</p>
+  </div>
+</footer>
+
+</body>
+</html>

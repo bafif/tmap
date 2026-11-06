@@ -1,0 +1,31 @@
+name: Algo no anda
+description: Un error, algo que se ve mal o un botón que no hace nada.
+labels: ["error"]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué pasó
+      description: Si podés, sumá una captura.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Cómo se repite
+      placeholder: "1. Fui a Egipto en 1350 a. C.\n2. Abrí la pestaña Fuentes\n3. …"
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas que pasara
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema y placa de video
+      placeholder: "Arch Linux, GTX 1050 Ti, Godot 4.7.2"
+  - type: textarea
+    id: registro
+    attributes:
+      label: Registro
+      description: "La salida de `tools/godot/tmap.py registros --errores`, si la tenés."
+      render: text

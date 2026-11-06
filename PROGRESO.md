@@ -1,6 +1,7 @@
 # Progreso de TellMAP
 
-Bitácora de lo que está hecho y lo que falta. Se actualiza con cada cambio: lo terminado pasa a **Hecho** con su
+Bitácora de lo que está hecho y lo que falta. Cada tarea pendiente tiene su issue en GitHub y está en el tablero
+del proyecto; `tools/github/organizar.py` crea los que falten. Se actualiza con cada cambio: lo terminado pasa a **Hecho** con su
 fecha y lo nuevo que aparece se suma a **Por hacer**, en su bloque. Cada bloque está ordenado por prioridad, de arriba
 hacia abajo. La visión general por versiones está en [la hoja de ruta del plan](docs/es/plan.md#hoja-de-ruta).
 
@@ -42,22 +43,20 @@ Datos que necesita este bloque:
 
 ### Mapa, rendimiento y distribución (0.2)
 
-- [ ] Bordes con campo de distancia, para que no se vean los píxeles con mucho zoom.
-- [ ] Agrupar los marcadores que caen en el mismo lugar, con un número que se abre al acercarse.
-- [ ] Atajos de teclado completos y accesibilidad: tamaño de letra, contraste, todo usable sin mouse.
-- [ ] Probar en otros equipos: Windows, una notebook con gráficos integrados y el modo OpenGL.
-- [ ] Exportar ejecutables para Linux y Windows (con el filtro de exportación `data/*`).
-- [ ] Integración continua en GitHub: en cada push, compilar los scripts, validar la enciclopedia y correr la prueba
-      automática.
+- [ ] **Bordes nítidos de cerca.** Bordes con campo de distancia, para que no se vean los píxeles con mucho zoom.
+- [ ] **Agrupar marcadores.** Los que caen en el mismo lugar se juntan en uno con un número, que se abre al acercarse.
+- [ ] **Teclado y accesibilidad.** Atajos completos, tamaño de letra, contraste y todo usable sin mouse.
+- [ ] **Probar en otros equipos.** Windows, una notebook con gráficos integrados y el modo OpenGL.
+- [ ] **Ejecutables para Linux y Windows.** Exportarlos con el filtro `data/*` y publicarlos en las releases de GitHub.
 
 ### Enciclopedia progresiva (0.3)
 
 - [ ] **Editor de la enciclopedia dentro de Godot**, para cargar fuentes, personas, hechos y lugares con
       formularios, poner coordenadas con un clic en el mapa y validar al guardar, sin tocar JSON.
-- [ ] Ver y exportar la cola de lugares consultados sin ficha (hoy se guarda en `user://pendientes.json`).
-- [ ] Borradores automáticos desde Wikipedia y Wikidata para lo más consultado.
-- [ ] Fichas extendidas con IA que cita sus fuentes, siempre con revisión humana antes de publicarse.
-- [ ] Revisar los datos marcados como dudosos:
+- [ ] **Cola de consultas sin ficha.** Verla y exportarla (hoy se guarda en `user://pendientes.json`).
+- [ ] **Borradores desde Wikipedia y Wikidata.** Automáticos, para lo más consultado.
+- [ ] **Fichas extendidas con IA.** Que citen sus fuentes, siempre con revisión humana antes de publicarse.
+- [ ] **Revisar los datos dudosos:**
   - la cifra de Butzer para Egipto en 1250 a. C., reconstruida desde resúmenes;
   - los censos Han de 2 y 140 d. C., cargados de memoria;
   - nombres poco seguros: Gran Yuan, Federación Árabe Hachemita, Wihtgar, Michoacán como Imperio tarasco;
@@ -65,27 +64,37 @@ Datos que necesita este bloque:
 
 ### Datos abiertos a escala (0.4)
 
-- [ ] Lugares antiguos de [Pleiades](https://pleiades.stoa.org).
-- [ ] Personas de Wikidata con lugar y fecha de nacimiento y muerte.
-- [ ] Población por grilla de HYDE.
-- [ ] Relaciones de vasallaje y dependencia de Cliopatria.
+- [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
+- [ ] **Personas de Wikidata.** Con lugar y fecha de nacimiento y muerte.
+- [ ] **Población de HYDE.** Estimaciones por grilla para todo el mundo.
+- [ ] **Vasallaje.** Las relaciones de vasallaje y dependencia de Cliopatria.
 
 ### Movimiento (0.5)
 
-- [ ] Migraciones, rutas comerciales, campañas militares y difusión de religiones como flechas animadas y partículas.
+- [ ] **Movimiento en el mapa.** Migraciones, rutas comerciales, campañas militares y difusión de religiones como
+      flechas animadas y partículas.
 
 ### Vista 3D (0.6)
 
-- [ ] Relieve real, agua con shader propio, nubes y efectos, con la misma información del mapa 2D. Se elige en
-      Ajustes.
+- [ ] **Vista 3D.** Relieve real, agua con shader propio, nubes y efectos, con la misma información del mapa 2D. Se
+      elige en Ajustes.
 
 ### Versión 1.0
 
-- [ ] Versiones descargables y versión web.
-- [ ] Guía para que otras personas sumen paquetes de la enciclopedia.
-- [ ] Revisión de los datos por especialistas.
+- [ ] **Versiones descargables y web.**
+- [ ] **Guía para sumar paquetes.** Para que otras personas sumen paquetes de la enciclopedia.
+- [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 6 de noviembre de 2026: GitHub y landing
+
+- [x] **Landing del proyecto** en `docs/index.html`, publicada con GitHub Pages desde `master/docs`, con la estética
+      de la app (Mármol y bronce, Cinzel y EB Garamond, capturas reales).
+- [x] **Integración continua**: en cada push y pull request, valida la enciclopedia, compila los scripts y corre la
+      prueba automática (`.github/workflows/pruebas.yml`).
+- [x] Formularios de issues (error, idea, dato), plantilla de pull request, guía de colaboración y Dependabot.
+- [x] `tools/github/organizar.py`: etiquetas, versiones, un issue por tarea, tablero, Pages, seguridad y release 0.1.
 
 ### 6 de noviembre de 2026: registros y fugas
 
