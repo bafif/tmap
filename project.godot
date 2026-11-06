@@ -21,10 +21,12 @@ run/low_processor_mode=true
 
 [autoload]
 
+Arranque="*res://scripts/nucleo/arranque.gd"
 Estado="*res://scripts/nucleo/estado.gd"
 DatosMapa="*res://scripts/nucleo/datos_mapa.gd"
 Enciclopedia="*res://scripts/nucleo/enciclopedia.gd"
 Wiki="*res://scripts/nucleo/wiki.gd"
+Puente="*res://addons/tellmap_puente/juego.gd"
 
 [display]
 
@@ -32,6 +34,10 @@ window/size/viewport_width=1600
 window/size/viewport_height=900
 window/size/mode=2
 window/stretch/mode="disabled"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/tellmap_puente/plugin.cfg")
 
 [dotnet]
 
