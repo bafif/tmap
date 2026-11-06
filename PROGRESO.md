@@ -12,11 +12,6 @@ hacia abajo. La visión general por versiones está en [la hoja de ruta del plan
 La interfaz ya se ve completa, pero varias cosas son solo información. La meta del bloque: todo lo que se ve responde
 a un clic y lleva a algo útil.
 
-- [ ] **Línea de tiempo tocable.** Las marcas de fuentes y hechos muestran su nombre al pasar el mouse y abren su
-      ficha con un clic. Hoy solo llevan al año.
-- [ ] **Ficha de la entidad política.** Al tocar el nombre de un reino o imperio: sus fechas, su territorio a lo
-      largo del tiempo (resaltado en el mapa), los lugares y las fuentes de su época, y su resumen de Wikipedia.
-- [ ] **Gráfico de población.** El valor, el año y la fuente de cada estimación al pasar el mouse.
 - [ ] **Recorrido de toda la interfaz con el puente.** Una prueba automática que hace clic en cada control visible y
       falla si alguno no hace nada o da error.
 
@@ -89,6 +84,14 @@ Datos que necesita este bloque:
 - [x] **Clic en el mapa según el modo.** En religión, cultura o idioma, el panel abre la pestaña Datos con la
       familia de ese punto marcada y un botón a su ficha, y el mapa resalta esa familia.
 - [x] **Búsqueda** de religiones, culturas e idiomas.
+- [x] **Línea de tiempo tocable.** Las marcas de fuentes y hechos muestran su nombre (las cercanas, juntas) y abren
+      su ficha con un clic, además de llevar al año.
+- [x] **Ficha de la entidad política.** Desde la pestaña Resumen, el enlace de Datos o la búsqueda: superficie en el
+      año elegido, territorio a lo largo del tiempo (gráfico con clic para ir al año), máxima extensión, lugares,
+      hechos y fuentes de su territorio mientras le pertenecía, enlaces a Wikidata y Seshat, y Wikipedia. Mientras
+      está abierta, el mapa político la resalta.
+- [x] **Gráfico de población** con el valor, el rango y la fuente de cada estimación al pasar el mouse.
+- [x] Las notas con fechas antes de Cristo ya no terminan en «a. C..».
 - [x] Los botones de modo de arriba siguen al modo aunque cambie desde otro lado (una ficha, el puente).
 - [x] Arreglado: las entradas con `"hasta": null` (Egipto desde el año 1000) daban error en los modos de capa.
       La prueba automática ahora pasa por las 80 fichas de familias, la leyenda y el clic según el modo, también

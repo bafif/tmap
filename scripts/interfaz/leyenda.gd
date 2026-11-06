@@ -60,7 +60,7 @@ func _ready() -> void:
 
 func _actualizar() -> void:
 	# La fila bajo el mouse se va a borrar sin avisar que el mouse salió: se suelta el resaltado acá.
-	Estado.resaltar_familia("", "leyenda")
+	Estado.resaltar("", "leyenda")
 	for c in _leyenda.get_children():
 		c.queue_free()
 	_titulo.text = Estado.MODOS[Estado.modo][0].to_upper()
@@ -82,8 +82,8 @@ func _actualizar() -> void:
 			fila.tooltip_text = "En %s.\nClic: ficha de %s" % [", ".join(it["regiones"]), it["nombre"]]
 			var clave: String = it["clave"]
 			fila.set_meta("familia", clave)
-			fila.mouse_entered.connect(func(): Estado.resaltar_familia(clave, "leyenda"))
-			fila.mouse_exited.connect(func(): Estado.resaltar_familia("", "leyenda"))
+			fila.mouse_entered.connect(func(): Estado.resaltar(clave, "leyenda"))
+			fila.mouse_exited.connect(func(): Estado.resaltar("", "leyenda"))
 			fila.pressed.connect(func(): Estado.pedir_ficha("familia", clave))
 			_leyenda.add_child(fila)
 		if items.size() > MAX_FILAS + 1:

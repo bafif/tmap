@@ -2,6 +2,7 @@ class_name PistaTiempo
 extends Control
 ## La pista de la línea de tiempo: eras, marcas de siglos, hechos y fuentes, y el año actual.
 ## Rueda del mouse = acercar o alejar el tramo visible; arrastrar = elegir año; botón derecho = desplazar el tramo.
+## Las marcas de fuentes y hechos muestran su nombre al pasar el mouse y abren su ficha con un clic.
 
 signal anio_elegido(anio: int)
 
@@ -23,6 +24,9 @@ var titulo_eras := "Periodización europea, orientativa"
 var _arrastrando := false
 var _desplazando := false
 var _hover_x := -1.0
+## Marcas bajo el mouse: [{tipo, id, x}], la más cercana primero.
+var _hover_marcas: Array = []
+const RADIO_MARCA := 5.0
 
 
 func _init() -> void:
@@ -108,6 +112,13 @@ func _gui_input(ev: InputEvent) -> void:
 			queue_redraw()
 			accept_event()
 		elif b.button_index == MOUSE_BUTTON_LEFT:
+			var marcas := marcas_en(b.position)
+			if b.pressed and not b.double_click and not marcas.is_empty():
+				var m: Dictionary = marcas[0]
+				anio_elegido.emit(int(Enciclopedia.elemento(m["tipo"], m["id"])["_desde"]))
+				Estado.pedir_ficha(m["tipo"], m["id"])
+				accept_event()
+				return
 			_arrastrando = b.pressed
 			if b.pressed:
 				if b.double_click:
@@ -122,6 +133,8 @@ func _gui_input(ev: InputEvent) -> void:
 	elif ev is InputEventMouseMotion:
 		var m := ev as InputEventMouseMotion
 		_hover_x = m.position.x
+		_hover_marcas = [] if _arrastrando or _desplazando else marcas_en(m.position)
+		mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND if not _hover_marcas.is_empty() else Control.CURSOR_ARROW
 		if _arrastrando:
 			anio_elegido.emit(_anio_en(m.position.x))
 		elif _desplazando:
@@ -135,7 +148,46 @@ func _gui_input(ev: InputEvent) -> void:
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_MOUSE_EXIT:
 		_hover_x = -1.0
+		_hover_marcas = []
 		queue_redraw()
+
+
+## Fuentes (franja de abajo) y hechos (rombos) que caen bajo un punto de la pista, la más cercana primero.
+func marcas_en(pos: Vector2) -> Array:
+	var y_base := size.y - 4.0
+	var tabla: Dictionary = {}
+	var tipo := ""
+	if pos.y >= y_base - 15 and pos.y <= y_base + 3:
+		tabla = Enciclopedia.fuentes
+		tipo = "fuente"
+	elif absf(pos.y - (y_base - 20)) <= 6.0:
+		tabla = Enciclopedia.hechos
+		tipo = "hecho"
+	else:
+		return []
+	var out: Array = []
+	for el in tabla.values():
+		var x := _x(int(el["_desde"]))
+		if absf(x - pos.x) <= RADIO_MARCA:
+			out.append({"tipo": tipo, "id": el["id"], "x": x})
+	out.sort_custom(func(a, b): return absf(a["x"] - pos.x) < absf(b["x"] - pos.x))
+	return out
+
+
+func _get_tooltip(pos: Vector2) -> String:
+	var marcas := marcas_en(pos)
+	if marcas.is_empty():
+		return tooltip_text
+	var lineas: Array = []
+	for m in marcas.slice(0, 6):
+		var el := Enciclopedia.elemento(m["tipo"], m["id"])
+		var nombre: String = el.get("titulo", el.get("nombre", m["id"]))
+		var tipo: String = "Hecho" if m["tipo"] == "hecho" else ("Fuente primaria" if el.get("tipo", "") == "primaria" else "Fuente secundaria")
+		lineas.append("%s · %s · %s" % [nombre, tipo, Fechas.texto(int(el["_desde"]))])
+	if marcas.size() > 6:
+		lineas.append("y %d más (acercá la pista con la rueda)" % (marcas.size() - 6))
+	lineas.append("Clic: abrir la ficha%s" % (" de la primera" if marcas.size() > 1 else ""))
+	return "\n".join(lineas)
 
 
 ## El texto tal cual si entra en `ancho`; si no, recortado con «…»; vacío si no entran ni cuatro letras.
@@ -223,6 +275,12 @@ func _draw() -> void:
 			continue
 		var y := y_base - 20
 		draw_colored_polygon(PackedVector2Array([Vector2(x, y - 4), Vector2(x + 4, y), Vector2(x, y + 4), Vector2(x - 4, y)]), c_hecho)
+
+	# Marca bajo el mouse
+	if not _hover_marcas.is_empty():
+		var m: Dictionary = _hover_marcas[0]
+		var ym := y_base - 6 if m["tipo"] == "fuente" else y_base - 20
+		draw_circle(Vector2(m["x"], ym), 7.0, Color(TemaUI.color("titulo"), 0.9), false, 1.5)
 
 	# Año bajo el mouse
 	if _hover_x >= 0.0 and not _arrastrando:

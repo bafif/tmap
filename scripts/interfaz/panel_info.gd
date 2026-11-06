@@ -102,7 +102,7 @@ func _ready() -> void:
 	# Al cerrar el panel, la familia de la ficha deja de resaltarse en el mapa.
 	visibility_changed.connect(func():
 		if not visible:
-			Estado.resaltar_familia(""))
+			Estado.resaltar(""))
 
 
 func _unhandled_key_input(ev: InputEvent) -> void:
@@ -143,7 +143,7 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 	_px = px
 	_ficha = {}
 	if unidad <= 0:
-		Estado.resaltar_familia("")
+		Estado.resaltar("")
 		_mostrar(false)
 		return
 	# En los modos de religión, cultura e idioma, el clic abre directo la pestaña Datos con la familia de ese punto.
@@ -159,7 +159,10 @@ func _al_pedir_ficha(tipo: String, id: Variant) -> void:
 	_ficha = {"tipo": tipo, "id": id}
 	_reconstruir()
 	_mostrar(true)
-	# La ficha de una religión, cultura o idioma pasa el mapa a ese modo, para que se vean sus áreas resaltadas.
+	# La ficha de una entidad necesita el mapa político para verse resaltada; la de una religión, cultura o idioma,
+	# su modo.
+	if tipo == "entidad" and not Estado.modo in ["politico", "terreno"]:
+		Estado.fijar_modo("politico")
 	if tipo == "familia":
 		var modo: String = Enciclopedia.MODO_DE_CAPA.get(str(id).get_slice(":", 0), "")
 		if modo != "":
@@ -194,7 +197,13 @@ func _reconstruir(conservar_scroll := false) -> void:
 	_scroll.scroll_vertical = 0
 	if conservar_scroll and altura > 0:
 		_restaurar_scroll(altura)
-	Estado.resaltar_familia(str(_ficha["id"]) if _ficha.get("tipo", "") == "familia" else "")
+	match _ficha.get("tipo", ""):
+		"familia":
+			Estado.resaltar(str(_ficha["id"]))
+		"entidad":
+			Estado.resaltar("entidad:%d" % int(_ficha["id"]))
+		_:
+			Estado.resaltar("")
 	if not _ficha.is_empty():
 		_volver.visible = _unidad > 0
 		_barra_pestanas.visible = false
@@ -236,10 +245,14 @@ func _pestana_resumen(ent: int, regs: Array) -> void:
 		_parrafo("[b]%s[/b] · %s" % [DatosMapa.nombre_entidad(ent), Fechas.rango(int(e["a"]), int(e["b"]))], true)
 		if str(e.get("m", "")) != "":
 			_parrafo("Parte de: %s" % e["m"], true)
+		var ficha := _boton_texto("Ficha de la entidad: territorio, lugares y fuentes", "ir")
+		ficha.icon = IconosUI.muestra(DatosMapa.color_entidad(ent))
+		ficha.pressed.connect(func(): Estado.pedir_ficha("entidad", ent))
+		_contenido.add_child(ficha)
 		_bloque_wikipedia(DatosMapa.titulos_wiki_entidad(ent))
 	else:
 		_seccion("Sin entidad política registrada")
-		_parrafo("Cliopatria no registra una entidad política aquí en %s. Puede tratarse de pueblos sin estado, de territorio poco documentado o de un hueco de los datos." % Fechas.texto(Estado.anio))
+		_parrafo("Cliopatria no registra una entidad política aquí en %s Puede tratarse de pueblos sin estado, de territorio poco documentado o de un hueco de los datos." % _con_punto(Fechas.texto(Estado.anio)))
 	for id in regs:
 		var r: Dictionary = Enciclopedia.regiones[id]
 		_seccion("La región: %s" % r["nombre"])
@@ -285,13 +298,13 @@ func _pestana_fuentes(regs: Array) -> void:
 	var escritas := Enciclopedia.fuentes_escritas(regs, Estado.anio)
 	var sobre := Enciclopedia.fuentes_sobre(regs, Estado.anio)
 	_seccion("Escritas aquí, en esta época")
-	_nota("Textos producidos en la región entre %s y %s." % [Fechas.texto(Fechas.sumar(Estado.anio, -150)), Fechas.texto(Fechas.sumar(Estado.anio, 150))])
+	_nota("Textos producidos en la región entre %s y %s" % [Fechas.texto(Fechas.sumar(Estado.anio, -150)), _con_punto(Fechas.texto(Fechas.sumar(Estado.anio, 150)))])
 	if escritas.is_empty():
 		_parrafo("[i]Todavía no hay fuentes cargadas para este lugar y momento.[/i]")
 	for f in escritas:
 		_contenido.add_child(_tarjeta_fuente(f))
 	_seccion("Sobre este lugar y esta época")
-	_nota("Textos de cualquier época que estudian o narran este lugar en %s." % Fechas.texto(Estado.anio))
+	_nota("Textos de cualquier época que estudian o narran este lugar en %s" % _con_punto(Fechas.texto(Estado.anio)))
 	if sobre.is_empty():
 		_parrafo("[i]Todavía no hay estudios cargados para este lugar y momento.[/i]")
 	for f in sobre:
@@ -330,7 +343,7 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 		_seccion("%s en este punto" % nombre_capa)
 		var fam := Enciclopedia.familia_en_unidad(capa_modo, _unidad, Estado.anio)
 		if fam == "":
-			_nota("No hay datos de %s para este punto en %s." % [nombre_capa.to_lower(), Fechas.texto(Estado.anio)])
+			_nota("No hay datos de %s para este punto en %s" % [nombre_capa.to_lower(), _con_punto(Fechas.texto(Estado.anio))])
 		else:
 			marcada = "%s:%s" % [capa_modo, fam]
 			var b := _boton_texto("Ficha: %s" % Enciclopedia.nombre_familia(capa_modo, fam), "ir")
@@ -348,7 +361,7 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 			links.append("[url=https://www.wikidata.org/wiki/%s]Wikidata[/url]" % e["d"])
 		if str(e.get("s", "")) != "":
 			links.append("[url=https://seshat-db.com/core/polity/%s]Seshat[/url]" % e["s"])
-		_parrafo("Entidad: [b]%s[/b], %s. %s" % [DatosMapa.nombre_entidad(ent), Fechas.rango(int(e["a"]), int(e["b"])), " · ".join(links)], true)
+		_parrafo("Entidad: [b][url=entidad:%d]%s[/url][/b], %s %s" % [ent, DatosMapa.nombre_entidad(ent), _con_punto(Fechas.rango(int(e["a"]), int(e["b"]))), " · ".join(links)], true)
 	for id in regs:
 		var r: Dictionary = Enciclopedia.regiones[id]
 		var pob := Enciclopedia.poblacion_en(id, Estado.anio)
@@ -402,6 +415,9 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 
 
 func _construir_ficha(tipo: String, id: Variant) -> void:
+	if tipo == "entidad":
+		_ficha_entidad(int(id))
+		return
 	var el := Enciclopedia.elemento(tipo, str(id))
 	if el.is_empty():
 		_titulo.text = "No encontrado"
@@ -632,6 +648,111 @@ func _ficha_familia(f: Dictionary) -> void:
 	_bloque_wikipedia(f.get("wikipedia", {}))
 
 
+func _ficha_entidad(i: int) -> void:
+	if i < 0 or i >= DatosMapa.entidades.size():
+		_titulo.text = "No encontrado"
+		_subtitulo.text = "entidad %d" % i
+		return
+	var e: Dictionary = DatosMapa.entidades[i]
+	var desde := int(e["a"])
+	var hasta := int(e["b"])
+	var anio := Estado.anio
+	var color := DatosMapa.color_entidad(i)
+	_franja.color = color
+	_titulo.text = DatosMapa.nombre_entidad(i)
+	_subtitulo.text = "Entidad política · %s" % Fechas.rango(desde, hasta)
+	if str(e.get("m", "")) != "":
+		_parrafo("Parte de: %s" % e["m"], true)
+	var serie := DatosMapa.territorio_de_entidad(i)
+	var pico := [desde, 0.0]
+	for punto in serie:
+		if float(punto[1]) > float(pico[1]):
+			pico = punto
+	var grafico := GraficoTerritorio.new()
+	grafico.configurar(serie, color, desde, hasta)
+	var ahora := grafico.valor_en(anio) if desde <= anio and anio <= hasta else 0.0
+	if ahora > 0.0:
+		_parrafo("[b]En %s:[/b] ~%s km² (resaltado en el mapa)" % [Fechas.texto(anio), GraficoSerie._numero(ahora)], true)
+		var ir := _boton_texto("Centrar el mapa en su territorio", "ir")
+		ir.pressed.connect(func():
+			var c := DatosMapa.centro_entidad(i)
+			if c.x >= 0:
+				Estado.enfocar(c, 0.0))
+		_contenido.add_child(ir)
+	else:
+		_nota("En %s no tiene territorio en los datos." % Fechas.texto(anio))
+	if not Estado.modo in ["politico", "terreno"]:
+		var b := _boton_texto("Ver en el mapa político", "ir")
+		b.pressed.connect(func(): Estado.fijar_modo("politico"))
+		_contenido.add_child(b)
+
+	_seccion("Territorio a lo largo del tiempo")
+	_contenido.add_child(grafico)
+	if float(pico[1]) > 0.0:
+		_nota("Máxima extensión en los datos: ~%s km², hacia %s Clic en el gráfico para ir a un año." % [
+			GraficoSerie._numero(float(pico[1])), _con_punto(Fechas.texto(int(pico[0])))])
+		if int(pico[0]) != anio:
+			var b := _boton_texto("Ir a %s, su máxima extensión" % Fechas.texto(int(pico[0])), "ir")
+			var anio_pico := int(pico[0])
+			b.pressed.connect(func():
+				Estado.fijar_anio(anio_pico)
+				var c := DatosMapa.centro_entidad(i)
+				if c.x >= 0:
+					Estado.enfocar(c, 0.0))
+			_contenido.add_child(b)
+	var links: Array = []
+	if str(e.get("d", "")) != "":
+		links.append("[url=https://www.wikidata.org/wiki/%s]Wikidata[/url]" % e["d"])
+	if str(e.get("s", "")) != "":
+		links.append("[url=https://seshat-db.com/core/polity/%s]Seshat[/url]" % e["s"])
+	if not links.is_empty():
+		_parrafo("Fronteras de Cliopatria (Seshat). %s" % " · ".join(links), true)
+
+	# Lugares, hechos y fuentes dentro de su territorio mientras le pertenecía.
+	var lugares: Array = []
+	for l in Enciclopedia.lugares.values():
+		if not l.has("_px"):
+			continue
+		for tramo in DatosMapa.historia_de_unidad(DatosMapa.unidad_en(l["_px"])):
+			if tramo["entidad"] == i and tramo["desde"] <= l["_hasta"] and l["_desde"] <= tramo["hasta"]:
+				lugares.append(l)
+				break
+	var hechos: Array = []
+	for h in Enciclopedia.hechos.values():
+		if h.has("_px") and DatosMapa.dueno_en(DatosMapa.unidad_en(h["_px"]), h["_desde"]) == i:
+			hechos.append(h)
+	var fuentes: Array = []
+	for f in Enciclopedia.fuentes.values():
+		if f.has("_px") and DatosMapa.dueno_en(DatosMapa.unidad_en(f["_px"]), f["_desde"]) == i:
+			fuentes.append(f)
+	if not lugares.is_empty():
+		_seccion("Lugares de su territorio")
+		lugares.sort_custom(func(a, b): return int(a.get("importancia", 1)) > int(b.get("importancia", 1)))
+		for l in lugares.slice(0, 10):
+			var fila := _fila_color(TemaUI.color("texto"), l["nombre"], _mayus(str(l.get("tipo", "")).replace("-", " ")), false)
+			var id: String = l["id"]
+			fila.pressed.connect(func(): Estado.pedir_ficha("lugar", id))
+			_contenido.add_child(fila)
+	if not hechos.is_empty():
+		_seccion("Hechos en su territorio")
+		hechos.sort_custom(func(a, b): return a["_desde"] < b["_desde"])
+		for h in hechos.slice(0, 10):
+			var fila := _fila_color(TemaUI.color("hecho"), h["titulo"], Fechas.texto(h["_desde"]), false)
+			var id: String = h["id"]
+			fila.pressed.connect(func(): Estado.pedir_ficha("hecho", id))
+			_contenido.add_child(fila)
+	if not fuentes.is_empty():
+		_seccion("Fuentes escritas en su territorio")
+		fuentes.sort_custom(func(a, b): return a["_desde"] < b["_desde"])
+		for f in fuentes.slice(0, 6):
+			_contenido.add_child(_tarjeta_fuente(f))
+		if fuentes.size() > 6:
+			_nota("Y %d más." % (fuentes.size() - 6))
+	if lugares.is_empty() and hechos.is_empty() and fuentes.is_empty():
+		_nota("Todavía no hay lugares, hechos ni fuentes de la enciclopedia dentro de su territorio.")
+	_bloque_wikipedia(DatosMapa.titulos_wiki_entidad(i))
+
+
 func _anio_mas_cercano(pres: Array, anio: int) -> int:
 	var mejor := anio
 	var dist := 1 << 30
@@ -698,6 +819,8 @@ func _al_click_meta(meta: Variant) -> void:
 		Estado.pedir_ficha("fuente", m.substr(7))
 	elif m.begins_with("familia:"):
 		Estado.pedir_ficha("familia", m.substr(8))
+	elif m.begins_with("entidad:"):
+		Estado.pedir_ficha("entidad", int(m.substr(8)))
 	else:
 		OS.shell_open(m)
 
@@ -862,6 +985,11 @@ func _vida(p: Dictionary) -> String:
 	if n == null:
 		return "m. %s" % Fechas.texto(int(m))
 	return "n. %s" % Fechas.texto(int(n))
+
+
+## Para cerrar una oración con una fecha: «1400 a. C.» ya trae su punto; «1200» no.
+func _con_punto(s: String) -> String:
+	return s if s.ends_with(".") else s + "."
 
 
 func _mayus(s: String) -> String:

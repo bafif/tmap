@@ -128,12 +128,14 @@ func _al_seleccionar(unidad: int, _px: Vector2) -> void:
 	_actualizar_valor_sel()
 
 
-## Qué se marca con el borde de selección: en los modos de capa, la familia de la ficha abierta o de la leyenda bajo
-## el mouse; si no hay, la familia del lugar elegido. En los otros modos, la entidad del lugar elegido.
+## Qué se marca con el borde de selección: la familia o la entidad de la ficha abierta (o de la leyenda bajo el mouse)
+## si corresponde al modo; si no, la familia o la entidad del lugar elegido.
 func _actualizar_valor_sel() -> void:
 	var v := -1
-	var clave := Estado.familia_resaltada()
-	if clave != "" and Enciclopedia.CAPA_DE_MODO.get(Estado.modo, "") == clave.get_slice(":", 0):
+	var clave := Estado.resaltado()
+	if clave.begins_with("entidad:") and Estado.modo in ["politico", "terreno"]:
+		v = int(clave.get_slice(":", 1)) + 1
+	elif clave != "" and Enciclopedia.CAPA_DE_MODO.get(Estado.modo, "") == clave.get_slice(":", 0):
 		v = Enciclopedia.indice_familia(clave)
 	else:
 		v = _valor_de(Estado.unidad_seleccionada)

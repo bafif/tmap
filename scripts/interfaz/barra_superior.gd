@@ -147,6 +147,7 @@ func _elegir(item: Dictionary) -> void:
 				u = _unidad_de_entidad(i)
 			if u > 0:
 				Estado.seleccionar_lugar(u, centro)
+		Estado.pedir_ficha("entidad", i)
 		return
 	Estado.pedir_ficha(item["tipo"], item["id"])
 	var el := Enciclopedia.elemento(item["tipo"], item["id"])

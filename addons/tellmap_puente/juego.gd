@@ -105,7 +105,7 @@ func _registrar() -> void:
 	s.registrar("ir", _ir, "mueve la cámara {lon, lat, zoom, instantaneo=true}")
 	s.registrar("seleccionar", _seleccionar, "selecciona el lugar en {lon, lat} y abre el panel; {limpiar:true} lo cierra")
 	s.registrar("pestana", _pestana, "abre una pestaña del panel {n} (0 Resumen … 4 Datos)")
-	s.registrar("ficha", _ficha, "abre una ficha {tipo: fuente|persona|hecho|lugar|region|familia, id} (familia: «capa:id», como religiones:islam-sunni)")
+	s.registrar("ficha", _ficha, "abre una ficha {tipo: fuente|persona|hecho|lugar|region|familia|entidad, id} (familia: «capa:id», como religiones:islam-sunni; entidad: su índice)")
 	s.registrar("ajuste", _ajuste, "cambia un ajuste {clave, valor} (tema, calidad, escala_ui…); se guarda como desde la interfaz")
 	s.registrar("shader", _shader, "vuelve a leer del disco los shaders en uso (sin reiniciar)")
 	s.registrar("recargar", _recargar, "vuelve a leer los paquetes de la enciclopedia y refresca el panel")

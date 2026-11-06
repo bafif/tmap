@@ -46,6 +46,8 @@ var _paleta_politica := PackedColorArray()
 var wikidata_es := {}
 ## Nombre de Cliopatria → nombre en español revisado a mano.
 var nombres_revisados := {}
+var _territorios := {}
+var _historias := {}
 var error := ""
 
 
@@ -270,6 +272,8 @@ func area_km2(u: int) -> float:
 
 ## Tramos de dueños de una unidad a lo largo del tiempo: [{desde, hasta, entidad}], entidad -1 = sin dato.
 func historia_de_unidad(u: int) -> Array:
+	if _historias.has(u):
+		return _historias[u]
 	var tramos: Array = []
 	var k := ev_unidad.find(u)
 	while k != -1:
@@ -277,7 +281,48 @@ func historia_de_unidad(u: int) -> Array:
 			tramos[-1]["hasta"] = Fechas.sumar(ev_anio[k], -1)
 		tramos.append({"desde": ev_anio[k], "hasta": Estado.ANIO_MAX, "entidad": ev_despues[k]})
 		k = ev_unidad.find(u, k + 1)
-	return tramos.filter(func(t): return t["entidad"] >= 0)
+	_historias[u] = tramos.filter(func(t): return t["entidad"] >= 0)
+	return _historias[u]
+
+
+## Dueño de una unidad en cualquier año, sin mover el mapa; -1 si no hay dato.
+func dueno_en(u: int, anio: int) -> int:
+	for t in historia_de_unidad(u):
+		if t["desde"] <= anio and anio <= t["hasta"]:
+			return t["entidad"]
+	return -1
+
+
+## Superficie de una entidad a lo largo del tiempo: [[año, km²], …], un punto por cada año en que cambia.
+## Usa find (nativo) sobre los eventos en vez de recorrerlos en GDScript; se guarda en caché.
+func territorio_de_entidad(i: int) -> Array:
+	if _territorios.has(i):
+		return _territorios[i]
+	var ks := PackedInt32Array()
+	for lista in [ev_despues, ev_antes]:
+		var k: int = (lista as PackedInt32Array).find(i)
+		while k != -1:
+			ks.append(k)
+			k = (lista as PackedInt32Array).find(i, k + 1)
+	ks.sort()
+	var serie: Array = []
+	var area := 0.0
+	var previo := -1
+	for k in ks:
+		if k == previo:
+			continue
+		previo = k
+		var u := ev_unidad[k]
+		if ev_despues[k] == i:
+			area += area_km2(u)
+		if ev_antes[k] == i:
+			area -= area_km2(u)
+		if not serie.is_empty() and serie[-1][0] == ev_anio[k]:
+			serie[-1][1] = maxf(area, 0.0)
+		else:
+			serie.append([ev_anio[k], maxf(area, 0.0)])
+	_territorios[i] = serie
+	return serie
 
 
 func nombre_entidad(i: int) -> String:

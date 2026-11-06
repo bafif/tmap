@@ -175,9 +175,9 @@ func _prueba_automatica() -> void:
 	for clave in Enciclopedia.familias.keys():
 		Estado.pedir_ficha("familia", clave)
 		var modo: String = Enciclopedia.MODO_DE_CAPA[clave.get_slice(":", 0)]
-		if Estado.modo != modo or Estado.familia_resaltada() != clave:
+		if Estado.modo != modo or Estado.resaltado() != clave:
 			push_error("[prueba] la ficha de %s no dejó el mapa en modo %s resaltándola (modo %s, resaltada «%s»)" % [
-				clave, modo, Estado.modo, Estado.familia_resaltada()])
+				clave, modo, Estado.modo, Estado.resaltado()])
 		await get_tree().process_frame
 	paso.call("%d fichas de familias" % Enciclopedia.familias.size())
 	# Leyenda tocable y clic en el mapa según el modo.
@@ -192,7 +192,7 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] la leyenda del modo %s quedó sin entradas en %d" % [modo, Estado.anio])
 		for fila in filas:
 			fila.mouse_entered.emit()
-			if Estado.familia_resaltada() == "":
+			if Estado.resaltado() == "":
 				push_error("[prueba] pasar el mouse por «%s» en la leyenda no resaltó nada" % fila.text)
 			fila.mouse_exited.emit()
 		if not filas.is_empty():
@@ -205,6 +205,48 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] en modo %s el clic no abrió la pestaña Datos" % modo)
 	Estado.fijar_modo("politico")
 	paso.call("leyenda y clic según el modo")
+	# Línea de tiempo: el clic en la marca de un hecho y en la de una fuente abre su ficha.
+	var pista: PistaTiempo = interfaz.linea.pista
+	for tipo in ["hecho", "fuente"]:
+		var el: Dictionary = (Enciclopedia.hechos if tipo == "hecho" else Enciclopedia.fuentes).values()[0]
+		Estado.fijar_anio(int(el["_desde"]))
+		await get_tree().process_frame
+		var y := pista.size.y - 4.0 - (20.0 if tipo == "hecho" else 6.0)
+		var pos := Vector2(pista._x(int(el["_desde"])), y)
+		if pista._get_tooltip(pos) == pista.tooltip_text:
+			push_error("[prueba] la marca de %s «%s» no muestra su nombre" % [tipo, el["id"]])
+		var clic := InputEventMouseButton.new()
+		clic.button_index = MOUSE_BUTTON_LEFT
+		clic.pressed = true
+		clic.position = pos
+		pista._gui_input(clic)
+		if interfaz.panel._ficha.get("tipo", "") != tipo:
+			push_error("[prueba] el clic en la marca de %s «%s» no abrió su ficha" % [tipo, el["id"]])
+	paso.call("marcas de la línea de tiempo")
+	# Ficha de entidad: la de Egipto en 1350 a. C., y el gráfico de población de Egipto con su ayuda.
+	Estado.fijar_anio(-1350)
+	Estado.fijar_modo("religion")
+	var px_egipto := Proyeccion.a_px(31.2, 30.0)
+	var ent := DatosMapa.dueno(DatosMapa.unidad_en(px_egipto))
+	var t_ent := Time.get_ticks_msec()
+	Estado.pedir_ficha("entidad", ent)
+	await get_tree().process_frame
+	if Estado.modo != "politico" or Estado.resaltado() != "entidad:%d" % ent:
+		push_error("[prueba] la ficha de la entidad %d no pasó al mapa político resaltándola" % ent)
+	if DatosMapa.territorio_de_entidad(ent).is_empty():
+		push_error("[prueba] la entidad %d no tiene territorio a lo largo del tiempo" % ent)
+	paso.call("ficha de entidad (%s, %d ms)" % [DatosMapa.nombre_entidad(ent), Time.get_ticks_msec() - t_ent])
+	var serie_pob := Enciclopedia.estimaciones("egipto")
+	if serie_pob.size() >= 2:
+		var grafico := GraficoSerie.new()
+		grafico.serie = serie_pob
+		grafico.size = Vector2(400, 120)
+		add_child(grafico)
+		await get_tree().process_frame
+		if not grafico._get_tooltip(grafico._puntos[0]["p"]).contains("Fuente:"):
+			push_error("[prueba] el gráfico de población no muestra la fuente de cada estimación")
+		grafico.queue_free()
+	paso.call("gráfico de población")
 	for texto in ["egip", "roma", "herod", "himno", "buenos", "zz", "islam", "lenguas"]:
 		interfaz.barra._buscar(texto)
 	paso.call("búsquedas")
