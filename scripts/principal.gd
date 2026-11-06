@@ -171,7 +171,41 @@ func _prueba_automatica() -> void:
 			Estado.pedir_ficha(tipo, id)
 		await get_tree().process_frame
 	paso.call("todas las fichas")
-	for texto in ["egip", "roma", "herod", "himno", "buenos", "zz"]:
+	# Religiones, culturas e idiomas: cada ficha pasa el mapa a su modo y lo resalta.
+	for clave in Enciclopedia.familias.keys():
+		Estado.pedir_ficha("familia", clave)
+		var modo: String = Enciclopedia.MODO_DE_CAPA[clave.get_slice(":", 0)]
+		if Estado.modo != modo or Estado.familia_resaltada() != clave:
+			push_error("[prueba] la ficha de %s no dejó el mapa en modo %s resaltándola (modo %s, resaltada «%s»)" % [
+				clave, modo, Estado.modo, Estado.familia_resaltada()])
+		await get_tree().process_frame
+	paso.call("%d fichas de familias" % Enciclopedia.familias.size())
+	# Leyenda tocable y clic en el mapa según el modo.
+	# 1500: Egipto tiene entradas abiertas («hasta»: null, hasta hoy).
+	for combinacion in [[-1350, "religion"], [-1350, "cultura"], [-1350, "idioma"], [1500, "religion"], [1500, "cultura"], [1500, "idioma"]]:
+		Estado.fijar_anio(combinacion[0])
+		var modo: String = combinacion[1]
+		Estado.fijar_modo(modo)
+		await get_tree().process_frame
+		var filas: Array = interfaz.leyenda._leyenda.get_children().filter(func(c): return c.has_meta("familia") and not c.is_queued_for_deletion())
+		if filas.is_empty():
+			push_error("[prueba] la leyenda del modo %s quedó sin entradas en %d" % [modo, Estado.anio])
+		for fila in filas:
+			fila.mouse_entered.emit()
+			if Estado.familia_resaltada() == "":
+				push_error("[prueba] pasar el mouse por «%s» en la leyenda no resaltó nada" % fila.text)
+			fila.mouse_exited.emit()
+		if not filas.is_empty():
+			filas[0].pressed.emit()
+			await get_tree().process_frame
+		var px := Proyeccion.a_px(31.2, 30.0)
+		Estado.seleccionar_lugar(DatosMapa.unidad_en(px), px)
+		await get_tree().process_frame
+		if interfaz.panel._pestana != 4:
+			push_error("[prueba] en modo %s el clic no abrió la pestaña Datos" % modo)
+	Estado.fijar_modo("politico")
+	paso.call("leyenda y clic según el modo")
+	for texto in ["egip", "roma", "herod", "himno", "buenos", "zz", "islam", "lenguas"]:
 		interfaz.barra._buscar(texto)
 	paso.call("búsquedas")
 	for i in DatosMapa.entidades.size():

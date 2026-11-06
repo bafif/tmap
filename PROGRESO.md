@@ -12,32 +12,16 @@ hacia abajo. La visión general por versiones está en [la hoja de ruta del plan
 La interfaz ya se ve completa, pero varias cosas son solo información. La meta del bloque: todo lo que se ve responde
 a un clic y lleva a algo útil.
 
-- [ ] **Ficha de religión, cultura e idioma (el desglose).** Al tocar una religión se abre su ficha: qué es (resumen
-      de Wikipedia), dónde está en el año elegido y con qué peso (mayoritaria, importante, minoritaria), cómo se fue
-      extendiendo y retirando (barras por región sobre la línea de tiempo), sus notas y las fuentes de esas regiones.
-      Mientras la ficha está abierta, el mapa resalta todas sus áreas. Lo mismo para culturas e idiomas.
-- [ ] **Leyenda tocable.** En los modos de religión, cultura e idioma, pasar el mouse por una entrada resalta esa
-      familia en el mapa, y el clic abre su ficha.
-- [ ] **Pestaña Datos tocable.** La religión, la cultura y el idioma del lugar pasan de texto corrido a filas con su
-      color, y cada fila abre su ficha.
-- [ ] **Clic en el mapa según el modo.** En religión, cultura o idioma, el panel del lugar se abre en la pestaña
-      Datos con la familia de ese punto marcada y un botón directo a su ficha.
 - [ ] **Línea de tiempo tocable.** Las marcas de fuentes y hechos muestran su nombre al pasar el mouse y abren su
       ficha con un clic. Hoy solo llevan al año.
 - [ ] **Ficha de la entidad política.** Al tocar el nombre de un reino o imperio: sus fechas, su territorio a lo
       largo del tiempo (resaltado en el mapa), los lugares y las fuentes de su época, y su resumen de Wikipedia.
 - [ ] **Gráfico de población.** El valor, el año y la fuente de cada estimación al pasar el mouse.
-- [ ] **Búsqueda.** Que encuentre también religiones, culturas e idiomas.
 - [ ] **Recorrido de toda la interfaz con el puente.** Una prueba automática que hace clic en cada control visible y
       falla si alguno no hace nada o da error.
 
 Datos que necesita este bloque:
 
-- [ ] **Sección `familias` en la enciclopedia.** Para cada religión, cultura e idioma: nombre, familia mayor
-      (islam sunita → islam → religiones abrahámicas), título de Wikipedia y color fijo. Actualizar
-      [ESQUEMA.md](data/enciclopedia/ESQUEMA.md) y el validador.
-- [ ] **Unificar familias repetidas.** Por ejemplo, «politeismo-griego», «politeismo-romano» y «Religión griega y
-      romana» describen casi lo mismo.
 - [ ] **Regiones con contorno más fino.** En los modos de capa, Egipto y otras regiones se ven como rectángulos.
       Hay que pasar a contornos reales (Natural Earth o los de Cliopatria).
 
@@ -86,6 +70,29 @@ Datos que necesita este bloque:
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 6 de noviembre de 2026: religiones, culturas e idiomas tocables (0.2)
+
+- [x] **Sección `familias` en la enciclopedia** (`data/enciclopedia/paquetes/familias.json`): 33 religiones,
+      18 culturas y 29 idiomas, con nombre, familia mayor (islam sunita → islam → religiones abrahámicas), color fijo y
+      artículo de Wikipedia comprobado contra la API. Los idiomas ahora también tienen `familia`. El validador revisa
+      capa, padres sin ciclos, colores y que toda familia usada exista; [ESQUEMA.md](data/enciclopedia/ESQUEMA.md)
+      lo documenta.
+- [x] **Familias repetidas unificadas.** El politeísmo griego, el romano y la «Religión griega y romana» de Egipto
+      quedan bajo «Religión grecorromana», y la leyenda muestra el nombre de la familia, no el de cada región.
+- [x] **Ficha de religión, cultura e idioma.** Familia mayor y las que incluye, dónde está en el año elegido y con
+      qué peso, barras por región sobre la línea de tiempo (con clic para ir al año), notas, fuentes de esas regiones
+      y épocas, y resumen de Wikipedia. Mientras está abierta, el mapa pasa a ese modo y resalta sus áreas.
+- [x] **Leyenda tocable.** Pasar el mouse resalta la familia en el mapa; el clic abre su ficha. Con muchas familias
+      muestra las más extendidas y un botón para ver el resto.
+- [x] **Pestaña Datos tocable.** Religión, cultura e idioma del lugar en filas con su color; cada fila abre su ficha.
+- [x] **Clic en el mapa según el modo.** En religión, cultura o idioma, el panel abre la pestaña Datos con la
+      familia de ese punto marcada y un botón a su ficha, y el mapa resalta esa familia.
+- [x] **Búsqueda** de religiones, culturas e idiomas.
+- [x] Los botones de modo de arriba siguen al modo aunque cambie desde otro lado (una ficha, el puente).
+- [x] Arreglado: las entradas con `"hasta": null` (Egipto desde el año 1000) daban error en los modos de capa.
+      La prueba automática ahora pasa por las 80 fichas de familias, la leyenda y el clic según el modo, también
+      en 1500.
 
 ### 6 de noviembre de 2026: GitHub y landing
 

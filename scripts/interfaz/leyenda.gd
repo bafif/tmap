@@ -1,10 +1,14 @@
 class_name Leyenda
 extends PanelContainer
 ## Abajo a la izquierda: qué se ve en el mapa (capas activables) y la leyenda del modo actual.
+## En los modos de religión, cultura e idioma, pasar el mouse por una entrada resalta sus áreas y el clic abre su ficha.
 
 var _capas: VBoxContainer
 var _leyenda: VBoxContainer
 var _titulo: Label
+## Con muchas familias la leyenda se corta en MAX_FILAS (las más extendidas) hasta que se pide verlas todas.
+var _expandida := false
+const MAX_FILAS := 7
 
 const CAPAS := [
 	["mostrar_nombres", "Nombres de entidades", "acento"],
@@ -55,6 +59,8 @@ func _ready() -> void:
 
 
 func _actualizar() -> void:
+	# La fila bajo el mouse se va a borrar sin avisar que el mouse salió: se suelta el resaltado acá.
+	Estado.resaltar_familia("", "leyenda")
 	for c in _leyenda.get_children():
 		c.queue_free()
 	_titulo.text = Estado.MODOS[Estado.modo][0].to_upper()
@@ -63,20 +69,34 @@ func _actualizar() -> void:
 		var items := Enciclopedia.leyenda_capa(capas[Estado.modo], Estado.anio)
 		if items.is_empty():
 			_nota("Sin datos para este año en las regiones cargadas.")
-		for it in items:
-			var fila := HBoxContainer.new()
-			var muestra := ColorRect.new()
-			muestra.color = it["color"]
-			muestra.custom_minimum_size = Vector2(14, 14)
-			muestra.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-			fila.add_child(muestra)
-			var l := Label.new()
-			l.text = it["nombre"]
-			l.add_theme_font_size_override("font_size", 16)
-			l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-			l.custom_minimum_size = Vector2(190, 0)
-			fila.add_child(l)
+		var visibles: Array = items if _expandida or items.size() <= MAX_FILAS + 1 else items.slice(0, MAX_FILAS)
+		for it in visibles:
+			var fila := Button.new()
+			fila.theme_type_variation = "FilaCompacta"
+			fila.focus_mode = Control.FOCUS_NONE
+			fila.alignment = HORIZONTAL_ALIGNMENT_LEFT
+			fila.icon = IconosUI.muestra(it["color"])
+			fila.text = it["nombre"]
+			fila.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+			fila.custom_minimum_size = Vector2(210, 0)
+			fila.tooltip_text = "En %s.\nClic: ficha de %s" % [", ".join(it["regiones"]), it["nombre"]]
+			var clave: String = it["clave"]
+			fila.set_meta("familia", clave)
+			fila.mouse_entered.connect(func(): Estado.resaltar_familia(clave, "leyenda"))
+			fila.mouse_exited.connect(func(): Estado.resaltar_familia("", "leyenda"))
+			fila.pressed.connect(func(): Estado.pedir_ficha("familia", clave))
 			_leyenda.add_child(fila)
+		if items.size() > MAX_FILAS + 1:
+			var mas := Button.new()
+			mas.theme_type_variation = "FilaCompacta"
+			mas.focus_mode = Control.FOCUS_NONE
+			mas.alignment = HORIZONTAL_ALIGNMENT_LEFT
+			mas.text = "Ver menos" if _expandida else "Ver las %d restantes" % (items.size() - MAX_FILAS)
+			mas.add_theme_color_override("font_color", TemaUI.color("acento"))
+			mas.pressed.connect(func():
+				_expandida = not _expandida
+				_actualizar())
+			_leyenda.add_child(mas)
 		_nota("Rayado: regiones todavía sin datos.")
 	elif Estado.modo == "politico":
 		_nota("Fronteras de Cliopatria (Seshat, CC BY 4.0). Click en un lugar para estudiarlo.")

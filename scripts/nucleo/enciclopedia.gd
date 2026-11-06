@@ -6,25 +6,19 @@ const DIR := "res://data/enciclopedia/paquetes/"
 const RUTA_PENDIENTES := "user://pendientes.json"
 const SECCIONES := ["regiones", "fuentes", "personas", "hechos", "lugares"]
 
-## Colores de las familias de religión, cultura e idioma (lo que no esté acá recibe un color derivado del nombre).
-const COLORES_FAMILIA := {
-	"politeismo-egipcio": "#d1a54a", "politeismo-mesopotamico": "#b8763a", "politeismo-griego": "#5f86b8",
-	"politeismo-romano": "#a34a3a", "judaismo": "#3f78b5", "cristianismo": "#c9c3e6", "cristianismo-copto": "#8e7cc3",
-	"cristianismo-ortodoxo": "#7a5aa8", "catolicismo": "#e8e0c8", "protestantismo": "#6f9fd0", "islam-sunni": "#3f8a4e",
-	"islam-chii": "#2f6e5a", "zoroastrismo": "#d9663a", "budismo": "#e3a83a", "hinduismo": "#e07a3a",
-	"vedismo": "#c4682e", "jainismo": "#d8b04a", "confucianismo": "#b23a3a", "taoismo": "#4a4a4a",
-	"religion-tradicional-china": "#a8433a", "religion-mesoamericana": "#3f9a8a", "religion-andina": "#c98a3a",
-	"religiones-originarias": "#8a6a4a",
-	"egipcia": "#d1a54a", "semitica": "#b8763a", "griega": "#5f86b8", "latina": "#a34a3a", "persa": "#3e7f6b",
-	"arabe": "#3f8a4e", "turca": "#3b7a7a", "china": "#d4b95e", "india": "#e07a3a", "mesoamericana": "#3f9a8a",
-	"andina": "#c98a3a", "hispana": "#c9a04a", "criolla": "#6e9cc0", "pueblos-originarios": "#8a6a4a",
-}
+const CAPAS := ["religiones", "culturas", "idiomas"]
+const CAPA_DE_MODO := {"religion": "religiones", "cultura": "culturas", "idioma": "idiomas"}
+const MODO_DE_CAPA := {"religiones": "religion", "culturas": "cultura", "idiomas": "idioma"}
+const NOMBRE_CAPA := {"religiones": "Religión", "culturas": "Cultura", "idiomas": "Idioma"}
+const ORDEN_PESO := {"mayoritaria": 0, "importante": 1, "minoritaria": 2}
 
 var regiones := {}
 var fuentes := {}
 var personas := {}
 var hechos := {}
 var lugares := {}
+## Familias de religión, cultura e idioma por clave «capa:id» (ver la sección `familias` del esquema).
+var familias := {}
 var advertencias: Array = []
 
 ## Caché: unidad → regiones que contienen su centro (de la más chica a la más grande).
@@ -37,6 +31,7 @@ var _colores_capa := {}
 func cargar() -> void:
 	for sec in SECCIONES:
 		get(sec).clear()
+	familias.clear()
 	if not DirAccess.dir_exists_absolute(DIR):
 		return
 	var archivos := Array(DirAccess.get_files_at(DIR)).filter(func(f): return f.ends_with(".json"))
@@ -56,6 +51,16 @@ func cargar() -> void:
 					continue
 				item["_paquete"] = datos.get("paquete", nombre)
 				destino[item["id"]] = item
+		for f in datos.get("familias", []):
+			if not f is Dictionary or not f.has("id") or not CAPAS.has(f.get("capa")):
+				continue
+			var clave := "%s:%s" % [f["capa"], f["id"]]
+			if familias.has(clave):
+				advertencias.append("familias: «%s» repetida en %s" % [clave, nombre])
+				continue
+			f["_clave"] = clave
+			f["_hijas"] = []
+			familias[clave] = f
 	_preparar_regiones()
 	_preparar_puntos()
 	_preparar_capas()
@@ -136,24 +141,156 @@ func _anio(d: Dictionary, clave: String, defecto: int) -> int:
 
 
 func _preparar_capas() -> void:
-	for capa in ["religiones", "culturas", "idiomas"]:
+	for f in familias.values():
+		var padre := "%s:%s" % [f["capa"], f.get("padre")] if f.get("padre") != null else ""
+		if familias.has(padre):
+			familias[padre]["_hijas"].append(f["_clave"])
+	for capa in CAPAS:
 		var indices := {}
 		var colores := PackedColorArray([Color(0, 0, 0, 0)])
 		for r in regiones.values():
 			for v in r.get(capa, []):
-				var fam: String = str(v.get("familia", v.get("nombre", "?")))
+				var fam := familia_de(v)
 				if not indices.has(fam):
 					indices[fam] = colores.size()
-					colores.append(color_familia(fam))
+					colores.append(color_familia(capa, fam))
+				if not familias.has("%s:%s" % [capa, fam]):
+					advertencias.append("%s: la familia «%s» de la región %s no está en la sección familias" % [capa, fam, r["id"]])
 		_indices_capa[capa] = indices
 		_colores_capa[capa] = colores
 
 
-func color_familia(fam: String) -> Color:
-	if COLORES_FAMILIA.has(fam):
-		return Color(COLORES_FAMILIA[fam])
+## Extremos de una entrada de era o de capa; `null` es «desde siempre» o «hasta hoy».
+func desde_de(v: Dictionary) -> int:
+	return int(v["desde"]) if v.get("desde") != null else Estado.ANIO_MIN
+
+
+func hasta_de(v: Dictionary) -> int:
+	return int(v["hasta"]) if v.get("hasta") != null else Estado.ANIO_MAX
+
+
+## El id de familia de una entrada de capa (si falta, su nombre).
+func familia_de(v: Dictionary) -> String:
+	return str(v.get("familia", v.get("nombre", "?")))
+
+
+func color_familia(capa: String, fam: String) -> Color:
+	var f: Dictionary = familias.get("%s:%s" % [capa, fam], {})
+	if f.get("color"):
+		return Color(str(f["color"]))
 	var h := float(fam.hash() & 0xFFFF) / 65535.0
 	return Color.from_hsv(h, 0.45, 0.72)
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Familias de religión, cultura e idioma
+
+
+func familia(clave: String) -> Dictionary:
+	return familias.get(clave, {})
+
+
+func nombre_familia(capa: String, fam: String) -> String:
+	return str(familias.get("%s:%s" % [capa, fam], {}).get("nombre", fam))
+
+
+## Índice de la familia en la paleta de su capa (el valor que el mapa usa para pintarla), o -1.
+func indice_familia(clave: String) -> int:
+	var partes := clave.split(":", true, 1)
+	if partes.size() < 2:
+		return -1
+	return int(_indices_capa.get(partes[0], {}).get(partes[1], -1))
+
+
+## Claves de las familias mayores, de la madre a la más general.
+func ancestros_familia(clave: String) -> Array:
+	var out: Array = []
+	var f := familia(clave)
+	while f.get("padre") != null:
+		var padre := "%s:%s" % [f["capa"], f["padre"]]
+		if out.has(padre) or not familias.has(padre):
+			break
+		out.append(padre)
+		f = familias[padre]
+	return out
+
+
+## La familia y todas sus descendientes (ids, sin la capa).
+func con_descendientes(clave: String) -> Array:
+	var out: Array = []
+	var pendientes: Array = [clave]
+	while not pendientes.is_empty():
+		var c: String = pendientes.pop_back()
+		if not familias.has(c) or out.has(familias[c]["id"]):
+			continue
+		out.append(familias[c]["id"])
+		pendientes.append_array(familias[c]["_hijas"])
+	return out
+
+
+## Dónde aparece una familia (y sus descendientes) a lo largo del tiempo:
+## [{region, desde, hasta, peso, nombre, familia, nota}], ordenado por región y por año.
+func presencia_familia(clave: String) -> Array:
+	var capa := clave.get_slice(":", 0)
+	var ids := con_descendientes(clave)
+	if ids.is_empty():
+		ids = [clave.get_slice(":", 1)]
+	var out: Array = []
+	for r in regiones.values():
+		for v in r.get(capa, []):
+			if ids.has(familia_de(v)):
+				out.append({"region": r["id"], "desde": desde_de(v), "hasta": hasta_de(v), "nombre": v["nombre"],
+					"peso": str(v.get("peso", "")), "familia": familia_de(v), "nota": str(v.get("nota", ""))})
+	out.sort_custom(func(a, b): return [regiones[a["region"]]["nombre"], a["desde"]] < [regiones[b["region"]]["nombre"], b["desde"]])
+	return out
+
+
+## Fuentes que tratan sobre las regiones y los años donde aparece una familia. En religiones, primero las de
+## género religioso; después, las que pasan más parte de su período dentro de esa presencia.
+func fuentes_de_familia(clave: String) -> Array:
+	var pres := presencia_familia(clave)
+	var puntaje := {}
+	var out: Array = []
+	for f in fuentes.values():
+		var trata: Dictionary = f.get("trata", {})
+		var desde := int(trata.get("desde", Estado.ANIO_MIN))
+		var hasta := int(trata.get("hasta", Estado.ANIO_MAX))
+		var regs := con_ancestros(trata.get("regiones", []))
+		var mejor := 0.0
+		for e in pres:
+			if regs.has(e["region"]) and desde <= e["hasta"] and e["desde"] <= hasta:
+				var cruce := mini(hasta, e["hasta"]) - maxi(desde, e["desde"]) + 1
+				mejor = maxf(mejor, float(cruce) / float(maxi(hasta - desde + 1, 1)))
+		if mejor > 0.0:
+			puntaje[f["id"]] = mejor
+			out.append(f)
+	var religion := clave.begins_with("religiones:")
+	out.sort_custom(func(a, b):
+		var ra: bool = religion and a.get("genero", "") == "religioso"
+		var rb: bool = religion and b.get("genero", "") == "religioso"
+		if ra != rb:
+			return ra
+		if not is_equal_approx(puntaje[a["id"]], puntaje[b["id"]]):
+			return puntaje[a["id"]] > puntaje[b["id"]]
+		return a["_desde"] < b["_desde"])
+	return out
+
+
+## La familia que el mapa pinta en una unidad en un año (la mayoritaria de la región más chica con datos), o "".
+func familia_en_unidad(capa: String, u: int, anio: int) -> String:
+	for id in regiones_de_unidad(u):
+		var v := _vigente_principal(id, capa, anio)
+		if not v.is_empty():
+			return familia_de(v)
+	return ""
+
+
+func _vigente_principal(id_region: String, capa: String, anio: int) -> Dictionary:
+	var vigentes := capa_en(id_region, capa, anio)
+	for v in vigentes:
+		if v.get("peso", "") == "mayoritaria":
+			return v
+	return vigentes[0] if vigentes.size() > 0 else {}
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -259,7 +396,7 @@ func hechos_cerca(ids_regiones: Array, anio: int, ventana := 100) -> Array:
 
 func era_en(id_region: String, anio: int) -> Dictionary:
 	for e in regiones.get(id_region, {}).get("eras", []):
-		if int(e["desde"]) <= anio and anio <= int(e["hasta"]):
+		if desde_de(e) <= anio and anio <= hasta_de(e):
 			return e
 	return {}
 
@@ -306,7 +443,7 @@ func testimonios_poblacion(id_region: String) -> Array:
 func capa_en(id_region: String, capa: String, anio: int) -> Array:
 	var out: Array = []
 	for v in regiones.get(id_region, {}).get(capa, []):
-		if int(v["desde"]) <= anio and anio <= int(v["hasta"]):
+		if desde_de(v) <= anio and anio <= hasta_de(v):
 			out.append(v)
 	return out
 
@@ -319,16 +456,9 @@ func valores_capa(capa: String, anio: int) -> Array:
 	var indices: Dictionary = _indices_capa.get(capa, {})
 	var por_region := {}
 	for id in regiones.keys():
-		var vigentes := capa_en(id, capa, anio)
-		var elegido: Variant = null
-		for v in vigentes:
-			if v.get("peso", "") == "mayoritaria":
-				elegido = v
-				break
-		if elegido == null and vigentes.size() > 0:
-			elegido = vigentes[0]
-		if elegido != null:
-			por_region[id] = indices.get(str(elegido.get("familia", elegido.get("nombre", "?"))), 0)
+		var elegido := _vigente_principal(id, capa, anio)
+		if not elegido.is_empty():
+			por_region[id] = indices.get(familia_de(elegido), 0)
 	if not por_region.is_empty():
 		for u in range(1, DatosMapa.n_unidades + 1):
 			var c := DatosMapa.centro_unidad(u)
@@ -343,16 +473,22 @@ func valores_capa(capa: String, anio: int) -> Array:
 	return [valores, _colores_capa.get(capa, PackedColorArray([Color(0, 0, 0, 0)]))]
 
 
-## Leyenda de una capa en un año: [{nombre, color}] de los valores que aparecen.
+## Leyenda de una capa en un año: [{clave, nombre, color, regiones}] de las familias que el mapa pinta, con las
+## regiones donde aparecen, de la más extendida a la menos.
 func leyenda_capa(capa: String, anio: int) -> Array:
-	var vistos := {}
-	var out: Array = []
+	var por_familia := {}
 	for r in regiones.values():
-		for v in capa_en(r["id"], capa, anio):
-			var fam := str(v.get("familia", v.get("nombre", "?")))
-			if v.get("peso", "") == "mayoritaria" and not vistos.has(fam):
-				vistos[fam] = true
-				out.append({"nombre": v["nombre"], "color": color_familia(fam)})
+		var v := _vigente_principal(r["id"], capa, anio)
+		if v.is_empty():
+			continue
+		var fam := familia_de(v)
+		if not por_familia.has(fam):
+			por_familia[fam] = {"clave": "%s:%s" % [capa, fam], "nombre": nombre_familia(capa, fam),
+				"color": color_familia(capa, fam), "regiones": []}
+		por_familia[fam]["regiones"].append(r["nombre"])
+	var out: Array = por_familia.values()
+	out.sort_custom(func(a, b): return a["regiones"].size() > b["regiones"].size() or (
+		a["regiones"].size() == b["regiones"].size() and a["nombre"] < b["nombre"]))
 	return out
 
 
@@ -368,6 +504,11 @@ func buscar(texto: String, max_res := 12) -> Array:
 				out.append({"tipo": fb[0], "id": item["id"], "texto": item[fb[2]]})
 				if out.size() >= max_res:
 					return out
+	for f in familias.values():
+		if str(f.get("nombre", "")).to_lower().contains(t):
+			out.append({"tipo": "familia", "id": f["_clave"], "texto": f["nombre"], "detalle": NOMBRE_CAPA[f["capa"]]})
+			if out.size() >= max_res:
+				return out
 	return out
 
 
@@ -417,4 +558,6 @@ func elemento(tipo: String, id: String) -> Dictionary:
 			return lugares.get(id, {})
 		"region":
 			return regiones.get(id, {})
+		"familia":
+			return familias.get(id, {})
 	return {}

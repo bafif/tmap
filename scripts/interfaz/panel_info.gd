@@ -4,7 +4,7 @@ extends PanelContainer
 
 const ANCHO := 470.0
 const PESTANAS := ["Resumen", "Historia", "Fuentes", "Gente y hechos", "Datos"]
-const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política"}
+const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política", "familia": "Familia"}
 
 var _abierto := false
 var _tween: Tween
@@ -99,6 +99,10 @@ func _ready() -> void:
 	Estado.ficha_pedida.connect(_al_pedir_ficha)
 	Estado.anio_cambiado.connect(func(_a): _programar())
 	Estado.modo_cambiado.connect(func(_m): _programar())
+	# Al cerrar el panel, la familia de la ficha deja de resaltarse en el mapa.
+	visibility_changed.connect(func():
+		if not visible:
+			Estado.resaltar_familia(""))
 
 
 func _unhandled_key_input(ev: InputEvent) -> void:
@@ -139,8 +143,13 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 	_px = px
 	_ficha = {}
 	if unidad <= 0:
+		Estado.resaltar_familia("")
 		_mostrar(false)
 		return
+	# En los modos de religión, cultura e idioma, el clic abre directo la pestaña Datos con la familia de ese punto.
+	if Enciclopedia.CAPA_DE_MODO.has(Estado.modo):
+		_pestana = 4
+		(_botones_pestana[4] as Button).button_pressed = true
 	_reconstruir()
 	_mostrar(true)
 	Enciclopedia.registrar_consulta(unidad, Estado.anio)
@@ -150,6 +159,11 @@ func _al_pedir_ficha(tipo: String, id: Variant) -> void:
 	_ficha = {"tipo": tipo, "id": id}
 	_reconstruir()
 	_mostrar(true)
+	# La ficha de una religión, cultura o idioma pasa el mapa a ese modo, para que se vean sus áreas resaltadas.
+	if tipo == "familia":
+		var modo: String = Enciclopedia.MODO_DE_CAPA.get(str(id).get_slice(":", 0), "")
+		if modo != "":
+			Estado.fijar_modo(modo)
 
 
 func _programar() -> void:
@@ -159,7 +173,7 @@ func _programar() -> void:
 	await get_tree().create_timer(0.18).timeout
 	_reconstruir_pendiente = false
 	if _abierto:
-		_reconstruir()
+		_reconstruir(true)
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -172,9 +186,15 @@ func _limpiar() -> void:
 		c.queue_free()
 
 
-func _reconstruir() -> void:
+## conservar_scroll: al cambiar el año o el modo se queda en la misma altura (por ejemplo, al tocar las barras de una
+## familia); al abrir algo nuevo vuelve arriba.
+func _reconstruir(conservar_scroll := false) -> void:
+	var altura := _scroll.scroll_vertical
 	_limpiar()
 	_scroll.scroll_vertical = 0
+	if conservar_scroll and altura > 0:
+		_restaurar_scroll(altura)
+	Estado.resaltar_familia(str(_ficha["id"]) if _ficha.get("tipo", "") == "familia" else "")
 	if not _ficha.is_empty():
 		_volver.visible = _unidad > 0
 		_barra_pestanas.visible = false
@@ -303,6 +323,21 @@ func _pestana_gente(regs: Array) -> void:
 
 
 func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
+	var capa_modo: String = Enciclopedia.CAPA_DE_MODO.get(Estado.modo, "")
+	var marcada := ""
+	if capa_modo != "":
+		var nombre_capa: String = Enciclopedia.NOMBRE_CAPA[capa_modo]
+		_seccion("%s en este punto" % nombre_capa)
+		var fam := Enciclopedia.familia_en_unidad(capa_modo, _unidad, Estado.anio)
+		if fam == "":
+			_nota("No hay datos de %s para este punto en %s." % [nombre_capa.to_lower(), Fechas.texto(Estado.anio)])
+		else:
+			marcada = "%s:%s" % [capa_modo, fam]
+			var b := _boton_texto("Ficha: %s" % Enciclopedia.nombre_familia(capa_modo, fam), "ir")
+			b.icon = IconosUI.muestra(Enciclopedia.color_familia(capa_modo, fam))
+			b.tooltip_text = "Qué es, dónde está en cada época y sus fuentes"
+			b.pressed.connect(func(): Estado.pedir_ficha("familia", marcada))
+			_contenido.add_child(b)
 	_seccion("Este lugar")
 	var km2 := DatosMapa.area_km2(_unidad)
 	_parrafo("Coordenadas: %s\nSuperficie de la unidad del mapa: ~%s km²" % [Proyeccion.texto_coordenadas(lonlat), _numero(km2)], true)
@@ -350,10 +385,15 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 			var vigentes := Enciclopedia.capa_en(id, c, Estado.anio)
 			if vigentes.is_empty():
 				continue
-			var partes: Array = []
+			_parrafo("[b]%s[/b]" % capas[c], true)
+			vigentes.sort_custom(func(a, b): return Enciclopedia.ORDEN_PESO.get(a.get("peso", ""), 3) < Enciclopedia.ORDEN_PESO.get(b.get("peso", ""), 3))
 			for v in vigentes:
-				partes.append("%s [color=#%s](%s)[/color]" % [v["nombre"], TemaUI.color("texto_suave").to_html(false), v.get("peso", "")])
-			_parrafo("[b]%s:[/b] %s" % [capas[c], ", ".join(partes)], true)
+				var fam := Enciclopedia.familia_de(v)
+				var clave := "%s:%s" % [c, fam]
+				var fila := _fila_color(Enciclopedia.color_familia(c, fam), v["nombre"], str(v.get("peso", "")), clave == marcada)
+				fila.tooltip_text = "Ficha: %s" % Enciclopedia.nombre_familia(c, fam)
+				fila.pressed.connect(func(): Estado.pedir_ficha("familia", clave))
+				_contenido.add_child(fila)
 	_nota("Las cifras antiguas son estimaciones académicas con mucha incertidumbre; cada una cita su fuente.")
 
 
@@ -379,6 +419,8 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 			_ficha_lugar(el)
 		"region":
 			_ficha_region(el)
+		"familia":
+			_ficha_familia(el)
 
 
 func _ficha_fuente(f: Dictionary) -> void:
@@ -508,6 +550,107 @@ func _ficha_region(r: Dictionary) -> void:
 	_contenido.add_child(ir)
 
 
+func _ficha_familia(f: Dictionary) -> void:
+	var capa: String = f["capa"]
+	var clave: String = f["_clave"]
+	var color := Enciclopedia.color_familia(capa, f["id"])
+	var anio := Estado.anio
+	_franja.color = color
+	_titulo.text = f.get("nombre", "")
+	var cadena: Array = []
+	for a in Enciclopedia.ancestros_familia(clave):
+		cadena.append("[url=familia:%s]%s[/url]" % [a, Enciclopedia.familia(a)["nombre"]])
+	_subtitulo.text = Enciclopedia.NOMBRE_CAPA[capa]
+	if not cadena.is_empty():
+		_parrafo("[b]Familia mayor:[/b] %s" % " › ".join(cadena), true)
+	if f.get("nota"):
+		_nota(str(f["nota"]))
+	var hijas: Array = f["_hijas"]
+	if not hijas.is_empty():
+		_seccion("Incluye")
+		for h in hijas:
+			var hf := Enciclopedia.familia(h)
+			var n_regiones := {}
+			for e in Enciclopedia.presencia_familia(h):
+				n_regiones[e["region"]] = true
+			var detalle := "sin datos en el mapa" if n_regiones.is_empty() else "%d %s" % [n_regiones.size(), "región" if n_regiones.size() == 1 else "regiones"]
+			var fila := _fila_color(Enciclopedia.color_familia(capa, hf["id"]), hf["nombre"], detalle, false)
+			var hc: String = h
+			fila.pressed.connect(func(): Estado.pedir_ficha("familia", hc))
+			_contenido.add_child(fila)
+
+	var pres := Enciclopedia.presencia_familia(clave)
+	for e in pres:
+		e["color"] = Enciclopedia.color_familia(capa, e["familia"])
+	_seccion("En %s" % Fechas.texto(anio))
+	var ahora := pres.filter(func(e): return e["desde"] <= anio and anio <= e["hasta"])
+	ahora.sort_custom(func(a, b): return Enciclopedia.ORDEN_PESO.get(a["peso"], 3) < Enciclopedia.ORDEN_PESO.get(b["peso"], 3))
+	if ahora.is_empty():
+		_nota("No aparece en las regiones cargadas en este año.")
+		var cerca := _anio_mas_cercano(pres, anio)
+		if cerca != anio:
+			var b := _boton_texto("Ir a %s, cuando sí aparece" % Fechas.texto(cerca), "ir")
+			b.pressed.connect(func(): Estado.fijar_anio(cerca))
+			_contenido.add_child(b)
+	for e in ahora:
+		var r: Dictionary = Enciclopedia.regiones[e["region"]]
+		var fila := _fila_color(e["color"], r["nombre"], "%s · %s" % [e["peso"], e["nombre"]], e["peso"] == "mayoritaria")
+		fila.tooltip_text = "%s: %s, %s\nClic: ver la región en el mapa" % [r["nombre"], e["nombre"], Fechas.rango(e["desde"], e["hasta"])]
+		fila.pressed.connect(func(): Estado.enfocar((r["_caja"] as Rect2).get_center(), 0.0))
+		_contenido.add_child(fila)
+	var modo: String = Enciclopedia.MODO_DE_CAPA[capa]
+	if Estado.modo != modo:
+		var b := _boton_texto("Ver en el mapa (modo %s)" % Estado.MODOS[modo][0].to_lower(), "ir")
+		b.pressed.connect(func(): Estado.fijar_modo(modo))
+		_contenido.add_child(b)
+	elif Enciclopedia.indice_familia(clave) <= 0 and not pres.is_empty():
+		_nota("Esta familia no se pinta directo en el mapa: sus áreas son las de las familias que incluye, cada una con su color.")
+
+	if not pres.is_empty():
+		_seccion("A lo largo del tiempo")
+		var barras := BarrasFamilia.new()
+		barras.configurar(pres, color, anio)
+		_contenido.add_child(barras)
+		_nota("Más intenso: mayoritaria; más claro: importante o minoritaria. Clic en las barras para ir a ese año.")
+		var notas: Array = []
+		for e in pres:
+			if e["nota"] != "":
+				notas.append("[b]%s[/b], %s: %s" % [Enciclopedia.regiones[e["region"]]["nombre"], Fechas.rango(e["desde"], e["hasta"]), e["nota"]])
+		if not notas.is_empty():
+			_seccion("Notas")
+			_parrafo("\n".join(notas))
+	else:
+		_nota("Todavía no hay regiones cargadas con esta %s." % Enciclopedia.NOMBRE_CAPA[capa].to_lower())
+
+	var fs := Enciclopedia.fuentes_de_familia(clave)
+	if not fs.is_empty():
+		_seccion("Fuentes de esas regiones y épocas")
+		for fu in fs.slice(0, 6):
+			_contenido.add_child(_tarjeta_fuente(fu))
+		if fs.size() > 6:
+			_nota("Y %d más en la pestaña Fuentes de cada región." % (fs.size() - 6))
+	_bloque_wikipedia(f.get("wikipedia", {}))
+
+
+func _anio_mas_cercano(pres: Array, anio: int) -> int:
+	var mejor := anio
+	var dist := 1 << 30
+	for e in pres:
+		var destino: int = e["desde"] if anio < e["desde"] else (e["hasta"] if anio > e["hasta"] else anio)
+		if absi(destino - anio) < dist:
+			dist = absi(destino - anio)
+			mejor = destino
+	return mejor
+
+
+func _restaurar_scroll(altura: int) -> void:
+	var token := _token
+	await get_tree().process_frame
+	await get_tree().process_frame
+	if token == _token:
+		_scroll.scroll_vertical = altura
+
+
 # ---------------------------------------------------------------------------------------------------------------
 # Piezas
 
@@ -553,6 +696,8 @@ func _al_click_meta(meta: Variant) -> void:
 		Estado.pedir_ficha("persona", m.substr(8))
 	elif m.begins_with("fuente:"):
 		Estado.pedir_ficha("fuente", m.substr(7))
+	elif m.begins_with("familia:"):
+		Estado.pedir_ficha("familia", m.substr(8))
 	else:
 		OS.shell_open(m)
 
@@ -580,20 +725,13 @@ func _fila_color(color: Color, texto: String, detalle: String, resaltada: bool) 
 	b.focus_mode = Control.FOCUS_NONE
 	b.alignment = HORIZONTAL_ALIGNMENT_LEFT
 	b.text = "%s   ·   %s" % [texto, detalle]
-	b.icon = _muestra_color(color)
+	b.icon = IconosUI.muestra(color)
 	b.clip_text = true
 	b.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	if resaltada:
 		b.add_theme_color_override("font_color", TemaUI.color("titulo"))
 		b.add_theme_stylebox_override("normal", TemaUI.caja(TemaUI.color("fondo2"), TemaUI.color("acento"), 1, 3, 4.0))
 	return b
-
-
-func _muestra_color(c: Color) -> Texture2D:
-	var img := Image.create_empty(14, 14, false, Image.FORMAT_RGBA8)
-	img.fill(Color(0.05, 0.05, 0.05))
-	img.fill_rect(Rect2i(1, 1, 12, 12), c)
-	return ImageTexture.create_from_image(img)
 
 
 func _tarjeta_fuente(f: Dictionary) -> Control:

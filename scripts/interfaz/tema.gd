@@ -195,6 +195,18 @@ static func crear(id: String) -> Theme:
 	t.set_stylebox("hover_pressed", "BotonPlano", plano_hover)
 	t.set_color("font_color", "BotonPlano", suave)
 	t.set_color("font_hover_color", "BotonPlano", texto)
+	# Filas de leyenda: como BotonPlano, pero sin aire, para que entren muchas.
+	t.set_type_variation("FilaCompacta", "BotonPlano")
+	var fila := caja(Color.TRANSPARENT, Color.TRANSPARENT, 0, 3, 1.0)
+	var fila_hover := caja(color("boton_hover"), Color.TRANSPARENT, 0, 3, 1.0)
+	fila.content_margin_left = 3.0
+	fila_hover.content_margin_left = 3.0
+	t.set_stylebox("normal", "FilaCompacta", fila)
+	t.set_stylebox("hover", "FilaCompacta", fila_hover)
+	t.set_stylebox("pressed", "FilaCompacta", fila_hover)
+	t.set_stylebox("hover_pressed", "FilaCompacta", fila_hover)
+	t.set_font_size("font_size", "FilaCompacta", 15)
+	t.set_color("font_color", "FilaCompacta", texto)
 	t.set_type_variation("Pestana", "Button")
 	var pest := caja(Color.TRANSPARENT, Color.TRANSPARENT, 0, 0, 6.0)
 	var pest_on := caja(color("fondo2"), color("acento"), 0, 0, 6.0)

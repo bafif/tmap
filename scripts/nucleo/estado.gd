@@ -10,6 +10,8 @@ signal lugar_seleccionado(unidad: int, px: Vector2)
 signal ficha_pedida(tipo: String, id: Variant)
 ## Se pidió mover la cámara a un punto del mapa (en píxeles) con un zoom dado (0 = mantener).
 signal enfoque_pedido(px: Vector2, zoom: float)
+## Cambió la familia de religión, cultura o idioma que el mapa resalta («capa:id», o "" si ninguna).
+signal resaltado_cambiado(clave: String)
 signal ajustes_cambiados
 signal carga_progreso(texto: String, fraccion: float)
 signal carga_terminada
@@ -39,6 +41,9 @@ var anio: int = -1350
 var modo: String = "politico"
 var unidad_seleccionada: int = 0
 var cargado := false
+## Familia resaltada por la ficha abierta y por el mouse sobre la leyenda (la de la leyenda manda mientras dura).
+var _resaltado_ficha := ""
+var _resaltado_leyenda := ""
 
 var ajustes := {
 	"vista": "2d",
@@ -82,6 +87,21 @@ func seleccionar_lugar(unidad: int, px: Vector2) -> void:
 
 func pedir_ficha(tipo: String, id: Variant) -> void:
 	ficha_pedida.emit(tipo, id)
+
+
+## origen: "ficha" (mientras la ficha está abierta) o "leyenda" (mientras el mouse está encima).
+func resaltar_familia(clave: String, origen := "ficha") -> void:
+	var antes := familia_resaltada()
+	if origen == "leyenda":
+		_resaltado_leyenda = clave
+	else:
+		_resaltado_ficha = clave
+	if familia_resaltada() != antes:
+		resaltado_cambiado.emit(familia_resaltada())
+
+
+func familia_resaltada() -> String:
+	return _resaltado_leyenda if _resaltado_leyenda != "" else _resaltado_ficha
 
 
 func enfocar(px: Vector2, zoom: float = 0.0) -> void:

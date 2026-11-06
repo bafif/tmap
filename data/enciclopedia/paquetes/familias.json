@@ -1,0 +1,885 @@
+{
+  "paquete": "familias",
+  "descripcion": "Familias de religión, cultura e idioma: nombre, familia mayor, color fijo en el mapa y artículo de Wikipedia",
+  "familias": [
+    {
+      "capa": "religiones",
+      "id": "religiones-abrahamicas",
+      "nombre": "Religiones abrahámicas",
+      "padre": null,
+      "color": "#5a78b0",
+      "wikipedia": {
+        "es": "Religiones abrahámicas",
+        "en": "Abrahamic religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "judaismo",
+      "nombre": "Judaísmo",
+      "padre": "religiones-abrahamicas",
+      "color": "#3f78b5",
+      "wikipedia": {
+        "es": "Judaísmo",
+        "en": "Judaism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "cristianismo",
+      "nombre": "Cristianismo",
+      "padre": "religiones-abrahamicas",
+      "color": "#c9c3e6",
+      "wikipedia": {
+        "es": "Cristianismo",
+        "en": "Christianity"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "cristianismo-copto",
+      "nombre": "Cristianismo copto",
+      "padre": "cristianismo",
+      "color": "#8e7cc3",
+      "wikipedia": {
+        "es": "Iglesia copta ortodoxa",
+        "en": "Coptic Orthodox Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "cristianismo-ortodoxo",
+      "nombre": "Cristianismo ortodoxo",
+      "padre": "cristianismo",
+      "color": "#7a5aa8",
+      "wikipedia": {
+        "es": "Iglesia ortodoxa",
+        "en": "Eastern Orthodox Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "catolicismo",
+      "nombre": "Catolicismo",
+      "padre": "cristianismo",
+      "color": "#e8e0c8",
+      "wikipedia": {
+        "es": "Iglesia católica",
+        "en": "Catholic Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "islam",
+      "nombre": "Islam",
+      "padre": "religiones-abrahamicas",
+      "color": "#3a7c4a",
+      "wikipedia": {
+        "es": "Islam",
+        "en": "Islam"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "islam-sunni",
+      "nombre": "Islam sunita",
+      "padre": "islam",
+      "color": "#3f8a4e",
+      "wikipedia": {
+        "es": "Sunismo",
+        "en": "Sunni Islam"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "islam-chii",
+      "nombre": "Islam chiita",
+      "padre": "islam",
+      "color": "#2f6e5a",
+      "wikipedia": {
+        "es": "Chiismo",
+        "en": "Shia Islam"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-del-antiguo-oriente-proximo",
+      "nombre": "Religiones del antiguo Oriente Próximo",
+      "padre": null,
+      "color": "#b88a4a",
+      "wikipedia": {
+        "en": "Religions of the ancient Near East"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-egipcio",
+      "nombre": "Religión del antiguo Egipto",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#d1a54a",
+      "wikipedia": {
+        "es": "Religión del Antiguo Egipto",
+        "en": "Ancient Egyptian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-mesopotamico",
+      "nombre": "Religión mesopotámica",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#b8763a",
+      "wikipedia": {
+        "es": "Mitología de Mesopotamia",
+        "en": "Ancient Mesopotamian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-cananeo",
+      "nombre": "Religión cananea",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#9a7a3a",
+      "wikipedia": {
+        "es": "Religión cananea",
+        "en": "Canaanite religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-anatolio",
+      "nombre": "Religión hitita y anatolia",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#a0705a",
+      "wikipedia": {
+        "es": "Mitología hitita",
+        "en": "Hittite mythology and religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-grecorromana",
+      "nombre": "Religión grecorromana",
+      "padre": null,
+      "color": "#7f6aa0",
+      "nota": "Agrupa las religiones griega y romana, que se fueron identificando entre sí (Zeus con Júpiter, Atenea con Minerva) y convivieron en todo el Mediterráneo helenístico y romano.",
+      "wikipedia": {
+        "en": "Interpretatio graeca"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-griego",
+      "nombre": "Religión griega",
+      "padre": "religion-grecorromana",
+      "color": "#5f86b8",
+      "wikipedia": {
+        "es": "Religión de los griegos en la Antigüedad",
+        "en": "Ancient Greek religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-romano",
+      "nombre": "Religión romana",
+      "padre": "religion-grecorromana",
+      "color": "#a34a3a",
+      "wikipedia": {
+        "es": "Religión en la Antigua Roma",
+        "en": "Religion in ancient Rome"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-iranias",
+      "nombre": "Religiones iranias",
+      "padre": null,
+      "color": "#c8603a",
+      "wikipedia": {
+        "en": "Iranian religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "politeismo-iranio",
+      "nombre": "Religiones iranias antiguas y elamita",
+      "padre": "religiones-iranias",
+      "color": "#b07a5a",
+      "nota": "Incluye la religión elamita, que no es irania: se agrupa acá porque las fuentes de la región las tratan juntas.",
+      "wikipedia": {
+        "en": "Ancient Iranian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "zoroastrismo",
+      "nombre": "Zoroastrismo",
+      "padre": "religiones-iranias",
+      "color": "#d9663a",
+      "wikipedia": {
+        "es": "Zoroastrismo",
+        "en": "Zoroastrianism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-dharmicas",
+      "nombre": "Religiones dhármicas",
+      "padre": null,
+      "color": "#e09a3a",
+      "wikipedia": {
+        "en": "Indian religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "vedismo",
+      "nombre": "Religión védica",
+      "padre": "religiones-dharmicas",
+      "color": "#c4682e",
+      "wikipedia": {
+        "es": "Vedismo",
+        "en": "Historical Vedic religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "hinduismo",
+      "nombre": "Hinduismo",
+      "padre": "religiones-dharmicas",
+      "color": "#e07a3a",
+      "wikipedia": {
+        "es": "Hinduismo",
+        "en": "Hinduism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "budismo",
+      "nombre": "Budismo",
+      "padre": "religiones-dharmicas",
+      "color": "#e3a83a",
+      "wikipedia": {
+        "es": "Budismo",
+        "en": "Buddhism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "jainismo",
+      "nombre": "Jainismo",
+      "padre": "religiones-dharmicas",
+      "color": "#d8b04a",
+      "wikipedia": {
+        "es": "Jainismo",
+        "en": "Jainism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-chinas",
+      "nombre": "Religiones de China",
+      "padre": null,
+      "color": "#a8433a",
+      "wikipedia": {
+        "en": "Religion in China"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-tradicional-china",
+      "nombre": "Religión tradicional china",
+      "padre": "religiones-chinas",
+      "color": "#a8433a",
+      "wikipedia": {
+        "es": "Religión tradicional china",
+        "en": "Chinese folk religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "confucianismo",
+      "nombre": "Confucianismo",
+      "padre": "religiones-chinas",
+      "color": "#b23a3a",
+      "wikipedia": {
+        "es": "Confucianismo",
+        "en": "Confucianism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "taoismo",
+      "nombre": "Taoísmo",
+      "padre": "religiones-chinas",
+      "color": "#4a4a4a",
+      "wikipedia": {
+        "es": "Taoísmo",
+        "en": "Taoism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-de-america",
+      "nombre": "Religiones originarias de América",
+      "padre": null,
+      "color": "#7a7a4a",
+      "wikipedia": {
+        "en": "Native American religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-mesoamericana",
+      "nombre": "Religión mesoamericana",
+      "padre": "religiones-de-america",
+      "color": "#3f9a8a",
+      "wikipedia": {
+        "es": "Religión mesoamericana",
+        "en": "Mesoamerican religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-andina",
+      "nombre": "Religión andina",
+      "padre": "religiones-de-america",
+      "color": "#c98a3a",
+      "wikipedia": {
+        "es": "Mitología incaica",
+        "en": "Religion in the Inca Empire"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-originarias",
+      "nombre": "Religiones originarias del Río de la Plata",
+      "padre": "religiones-de-america",
+      "color": "#8a6a4a",
+      "wikipedia": {
+        "es": "Mitología guaraní",
+        "en": "Guarani mythology"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "egipcia",
+      "nombre": "Egipcia",
+      "padre": null,
+      "color": "#d1a54a",
+      "wikipedia": {
+        "es": "Antiguo Egipto",
+        "en": "Ancient Egypt"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mesopotamica",
+      "nombre": "Mesopotámica",
+      "padre": null,
+      "color": "#b8763a",
+      "wikipedia": {
+        "es": "Mesopotamia",
+        "en": "Mesopotamia"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "semitica",
+      "nombre": "Cananea y aramea",
+      "padre": null,
+      "color": "#9a7a3a",
+      "wikipedia": {
+        "es": "Pueblos semitas",
+        "en": "Semitic people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "arabe",
+      "nombre": "Árabe",
+      "padre": null,
+      "color": "#3f8a4e",
+      "wikipedia": {
+        "es": "Pueblo árabe",
+        "en": "Arabs"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "anatolia-antigua",
+      "nombre": "Anatolia antigua",
+      "padre": null,
+      "color": "#a0705a",
+      "wikipedia": {
+        "es": "Hititas",
+        "en": "Hittites"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "elamita",
+      "nombre": "Elamita y meda",
+      "padre": null,
+      "color": "#8a5a7a",
+      "wikipedia": {
+        "es": "Elam (reino)",
+        "en": "Elam"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "persa",
+      "nombre": "Persa",
+      "padre": null,
+      "color": "#3e7f6b",
+      "wikipedia": {
+        "es": "Pueblo persa",
+        "en": "Persians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "turca",
+      "nombre": "Turca",
+      "padre": null,
+      "color": "#3b7a7a",
+      "wikipedia": {
+        "es": "Pueblos túrquicos",
+        "en": "Turkic peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "clasica",
+      "nombre": "Grecorromana",
+      "padre": null,
+      "color": "#7f6aa0",
+      "wikipedia": {
+        "es": "Antigüedad clásica",
+        "en": "Classical antiquity"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "griega",
+      "nombre": "Griega",
+      "padre": "clasica",
+      "color": "#5f86b8",
+      "wikipedia": {
+        "es": "Antigua Grecia",
+        "en": "Ancient Greece"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "latina",
+      "nombre": "Latina",
+      "padre": "clasica",
+      "color": "#a34a3a",
+      "wikipedia": {
+        "es": "Antigua Roma",
+        "en": "Ancient Rome"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "india",
+      "nombre": "India",
+      "padre": null,
+      "color": "#e07a3a",
+      "wikipedia": {
+        "es": "Cultura de India",
+        "en": "Culture of India"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "china",
+      "nombre": "China (han)",
+      "padre": null,
+      "color": "#d4b95e",
+      "wikipedia": {
+        "es": "Etnia han",
+        "en": "Han Chinese"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "pueblos-originarios",
+      "nombre": "Pueblos originarios",
+      "padre": null,
+      "color": "#8a6a4a",
+      "wikipedia": {
+        "es": "Indígenas de América",
+        "en": "Indigenous peoples of the Americas"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mesoamericana",
+      "nombre": "Mesoamericana",
+      "padre": "pueblos-originarios",
+      "color": "#3f9a8a",
+      "wikipedia": {
+        "es": "Mesoamérica",
+        "en": "Mesoamerica"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "andina",
+      "nombre": "Andina",
+      "padre": "pueblos-originarios",
+      "color": "#c98a3a",
+      "wikipedia": {
+        "es": "Civilizaciones andinas",
+        "en": "Andean civilizations"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "hispana",
+      "nombre": "Hispana",
+      "padre": null,
+      "color": "#c9a04a",
+      "wikipedia": {
+        "es": "Hispanidad",
+        "en": "Hispanidad"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "criolla",
+      "nombre": "Criolla y mestiza",
+      "padre": "hispana",
+      "color": "#6e9cc0",
+      "wikipedia": {
+        "es": "Criollo",
+        "en": "Criollo people"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "afroasiaticas",
+      "nombre": "Lenguas afroasiáticas",
+      "padre": null,
+      "color": "#b8903a",
+      "wikipedia": {
+        "es": "Lenguas afroasiáticas",
+        "en": "Afroasiatic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "egipcio",
+      "nombre": "Egipcio",
+      "padre": "afroasiaticas",
+      "color": "#d1a54a",
+      "wikipedia": {
+        "es": "Lenguas egipcias",
+        "en": "Egyptian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "copto",
+      "nombre": "Copto",
+      "padre": "egipcio",
+      "color": "#8e7cc3",
+      "wikipedia": {
+        "es": "Idioma copto",
+        "en": "Coptic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "semiticas",
+      "nombre": "Lenguas semíticas",
+      "padre": "afroasiaticas",
+      "color": "#8a7a3a",
+      "wikipedia": {
+        "es": "Lenguas semíticas",
+        "en": "Semitic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "acadio",
+      "nombre": "Acadio",
+      "padre": "semiticas",
+      "color": "#b8763a",
+      "wikipedia": {
+        "es": "Idioma acadio",
+        "en": "Akkadian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "cananeas",
+      "nombre": "Lenguas cananeas",
+      "padre": "semiticas",
+      "color": "#9a8a3a",
+      "wikipedia": {
+        "es": "Lenguas cananeas",
+        "en": "Canaanite languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "arameo",
+      "nombre": "Arameo",
+      "padre": "semiticas",
+      "color": "#a0603a",
+      "wikipedia": {
+        "es": "Lenguas arameas",
+        "en": "Aramaic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "arabe",
+      "nombre": "Árabe",
+      "padre": "semiticas",
+      "color": "#3f8a4e",
+      "wikipedia": {
+        "es": "Idioma árabe",
+        "en": "Arabic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sumerio",
+      "nombre": "Sumerio",
+      "padre": null,
+      "color": "#c4a070",
+      "nota": "Lengua aislada: no se le conoce parentesco.",
+      "wikipedia": {
+        "es": "Idioma sumerio",
+        "en": "Sumerian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "elamita",
+      "nombre": "Elamita",
+      "padre": null,
+      "color": "#8a5a7a",
+      "nota": "Lengua aislada para la mayoría de los especialistas.",
+      "wikipedia": {
+        "es": "Idioma elamita",
+        "en": "Elamite language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "indoeuropeas",
+      "nombre": "Lenguas indoeuropeas",
+      "padre": null,
+      "color": "#6a7ab0",
+      "wikipedia": {
+        "es": "Lenguas indoeuropeas",
+        "en": "Indo-European languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "anatolias",
+      "nombre": "Lenguas anatolias",
+      "padre": "indoeuropeas",
+      "color": "#6a8fa0",
+      "wikipedia": {
+        "es": "Lenguas anatolias",
+        "en": "Anatolian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "griego",
+      "nombre": "Griego",
+      "padre": "indoeuropeas",
+      "color": "#5f86b8",
+      "wikipedia": {
+        "es": "Idioma griego",
+        "en": "Greek language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "italicas",
+      "nombre": "Lenguas itálicas",
+      "padre": "indoeuropeas",
+      "color": "#a34a3a",
+      "wikipedia": {
+        "es": "Lenguas itálicas",
+        "en": "Italic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "latin",
+      "nombre": "Latín",
+      "padre": "italicas",
+      "color": "#a34a3a",
+      "wikipedia": {
+        "es": "Latín",
+        "en": "Latin"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "romances",
+      "nombre": "Lenguas romances",
+      "padre": "italicas",
+      "color": "#b8603a",
+      "nota": "Las lenguas que salieron del latín hablado.",
+      "wikipedia": {
+        "es": "Lenguas romances",
+        "en": "Romance languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "italiano",
+      "nombre": "Italiano",
+      "padre": "romances",
+      "color": "#c25a4a",
+      "wikipedia": {
+        "es": "Idioma italiano",
+        "en": "Italian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "espanol",
+      "nombre": "Español",
+      "padre": "romances",
+      "color": "#c9a04a",
+      "wikipedia": {
+        "es": "Idioma español",
+        "en": "Spanish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "iranias",
+      "nombre": "Lenguas iranias",
+      "padre": "indoeuropeas",
+      "color": "#3e7f6b",
+      "wikipedia": {
+        "es": "Lenguas iranias",
+        "en": "Iranian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "persa",
+      "nombre": "Persa",
+      "padre": "iranias",
+      "color": "#3e7f6b",
+      "nota": "Persa antiguo (aqueménida), persa medio o pahlavi (sasánida) y persa moderno.",
+      "wikipedia": {
+        "es": "Idioma persa",
+        "en": "Persian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "indoarias",
+      "nombre": "Lenguas indoarias",
+      "padre": "indoeuropeas",
+      "color": "#d8a03a",
+      "wikipedia": {
+        "es": "Lenguas indoarias",
+        "en": "Indo-Aryan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sanscrito",
+      "nombre": "Sánscrito y prácritos",
+      "padre": "indoarias",
+      "color": "#e07a3a",
+      "wikipedia": {
+        "es": "Sánscrito",
+        "en": "Sanskrit"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sinotibetanas",
+      "nombre": "Lenguas sinotibetanas",
+      "padre": null,
+      "color": "#d4b95e",
+      "wikipedia": {
+        "es": "Lenguas sinotibetanas",
+        "en": "Sino-Tibetan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "chino",
+      "nombre": "Chino",
+      "padre": "sinotibetanas",
+      "color": "#d4b95e",
+      "wikipedia": {
+        "es": "Idioma chino",
+        "en": "Chinese language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "turcas",
+      "nombre": "Lenguas túrquicas",
+      "padre": null,
+      "color": "#3b7a7a",
+      "wikipedia": {
+        "es": "Lenguas túrquicas",
+        "en": "Turkic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "turco",
+      "nombre": "Turco",
+      "padre": "turcas",
+      "color": "#3b7a7a",
+      "wikipedia": {
+        "es": "Idioma turco",
+        "en": "Turkish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lenguas-indigenas-de-america",
+      "nombre": "Lenguas originarias de América",
+      "padre": null,
+      "color": "#8a6a4a",
+      "nota": "No es una familia: agrupa muchas familias sin parentesco demostrado entre sí.",
+      "wikipedia": {
+        "es": "Lenguas indígenas de América",
+        "en": "Indigenous languages of the Americas"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "mesoamericanas",
+      "nombre": "Lenguas mesoamericanas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#3f9a8a",
+      "wikipedia": {
+        "en": "Mesoamerican languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "andinas",
+      "nombre": "Quechua, aimara y lenguas andinas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#c98a3a",
+      "wikipedia": {
+        "es": "Lenguas quechuas",
+        "en": "Quechuan languages"
+      }
+    }
+  ]
+}

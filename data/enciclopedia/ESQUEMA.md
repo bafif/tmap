@@ -29,7 +29,8 @@ dato no es seguro, se marca `"aprox": true` y `"confianza": "baja"`, o directame
   "fuentes": [],
   "personas": [],
   "hechos": [],
-  "lugares": []
+  "lugares": [],
+  "familias": []
 }
 ```
 
@@ -57,25 +58,46 @@ Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 
     {"desde": -3100, "hasta": 641, "nombre": "Egipcia", "familia": "egipcia", "peso": "mayoritaria"}
   ],
   "idiomas": [
-    {"desde": -3100, "hasta": 1600, "nombre": "Egipcio (luego copto)", "peso": "mayoritaria"}
+    {"desde": -3100, "hasta": 1600, "nombre": "Egipcio (luego copto)", "familia": "egipcio", "peso": "mayoritaria"}
   ]
 }
 ```
 
 - `peso`: `"mayoritaria"`, `"importante"` o `"minoritaria"`. El mapa pinta la mayoritaria.
-- `familia` (religiones y culturas): agrupa para colorear. Valores sugeridos para religiones: `politeismo-egipcio`,
-  `politeismo-mesopotamico`, `politeismo-griego`, `politeismo-romano`, `judaismo`, `cristianismo`,
-  `cristianismo-copto`, `cristianismo-ortodoxo`, `catolicismo`, `protestantismo`, `islam-sunni`, `islam-chii`,
-  `zoroastrismo`, `budismo`, `hinduismo`, `vedismo`, `jainismo`, `confucianismo`, `taoismo`, `religion-tradicional-china`,
-  `religion-mesoamericana`, `religion-andina`, `religiones-originarias`. Para culturas: `egipcia`, `semitica`,
-  `griega`, `latina`, `persa`, `arabe`, `turca`, `china`, `india`, `mesoamericana`, `andina`, `hispana`, `criolla`,
-  `pueblos-originarios`, etc. Se pueden agregar otras con el mismo estilo.
+- `desde` y `hasta` en eras, religiones, culturas e idiomas: `"hasta": null` quiere decir que sigue hasta hoy.
+- `familia` (obligatoria en religiones, culturas e idiomas): el `id` de una familia de la misma capa en la sección
+  [`familias`](#familias). Agrupa para colorear el mapa, da el nombre de la leyenda y abre la ficha de la familia.
+  El `nombre` de la entrada puede ser más preciso para esa región («Islam sunní (conquistadores y conversos)»).
 - `demografia`: solo estimaciones publicadas, con su fuente real (por ejemplo McEvedy y Jones, *Atlas of World
   Population History*, 1978; Scheidel; Bagnall y Frier). Con `min` y `max` cuando la literatura da un rango. Si no
   hay fuente, no se pone. Las cifras que dan los autores antiguos (Diodoro, Josefo…) llevan
   `"tipo": "testimonio-antiguo"`: la app las muestra aparte y nunca las usa para estimar ni graficar.
 - Cualquier entrada de `eras`, `demografia`, `religiones`, `culturas` o `idiomas` puede llevar una `nota` con la
   aclaración que haga falta (incertidumbre, debates).
+
+### `familias`
+
+Las religiones, culturas e idiomas que usan las regiones, con su jerarquía. Hoy viven todas en `familias.json`.
+
+```json
+{
+  "capa": "religiones",
+  "id": "islam-sunni",
+  "nombre": "Islam sunita",
+  "padre": "islam",
+  "color": "#3f8a4e",
+  "nota": "Opcional: una aclaración (agrupaciones discutibles, incertidumbre).",
+  "wikipedia": {"es": "Sunismo", "en": "Sunni Islam"}
+}
+```
+
+- `capa`: `religiones`, `culturas` o `idiomas`. El `id` es único dentro de cada capa (`arabe` puede ser una cultura y
+  un idioma).
+- `padre`: la familia mayor, de la misma capa, o `null`. Así se arma la cadena islam sunita → islam → religiones
+  abrahámicas. Una familia con hijas también puede usarse directo en una región (`cristianismo`).
+- `color`: `#rrggbb`, fijo para que la misma religión tenga siempre el mismo color. Las hijas, parecido a su madre.
+- La ficha de la familia muestra el resumen de Wikipedia, dónde está en cada año y con qué peso, las notas de las
+  regiones y sus fuentes: no hace falta escribir un resumen propio.
 
 ### `fuentes`
 

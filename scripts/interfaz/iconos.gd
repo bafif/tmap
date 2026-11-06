@@ -44,3 +44,11 @@ static func boton(nombre: String, ayuda: String, tam := 20, plano := true) -> Bu
 	b.focus_mode = Control.FOCUS_NONE
 	b.expand_icon = false
 	return b
+
+
+## Cuadradito de color con borde oscuro, para leyendas y filas de religión, cultura e idioma.
+static func muestra(c: Color, lado := 14) -> Texture2D:
+	var img := Image.create_empty(lado, lado, false, Image.FORMAT_RGBA8)
+	img.fill(Color(0.05, 0.05, 0.05))
+	img.fill_rect(Rect2i(1, 1, lado - 2, lado - 2), c)
+	return ImageTexture.create_from_image(img)

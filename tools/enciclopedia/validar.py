@@ -2,13 +2,15 @@
 
 Uso: python3 tools/enciclopedia/validar.py        (sale con código 1 si hay errores)
 
-Revisa: JSON válido, ids únicos entre paquetes, referencias (autor_id, obras, fuentes, regiones, padre), que no haya
-año 0, coordenadas dentro de rango, polígonos de al menos tres puntos y valores permitidos en los campos cerrados.
+Revisa: JSON válido, ids únicos entre paquetes, referencias (autor_id, obras, fuentes, regiones, padre, familia), que no
+haya año 0, coordenadas dentro de rango, polígonos de al menos tres puntos, valores permitidos en los campos cerrados y
+la sección `familias` (capa, padre sin ciclos, color).
 """
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -19,6 +21,7 @@ TIPOS_HECHO = {"politico", "batalla", "fundacion", "religioso", "cultural", "cie
                "tratado", "construccion", "exploracion", "revolucion"}
 TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad"}
 PESOS = {"mayoritaria", "importante", "minoritaria"}
+CAPAS = ("religiones", "culturas", "idiomas")
 
 errores: list[str] = []
 avisos: list[str] = []
@@ -42,12 +45,23 @@ def punto(d, donde):
 
 def main():
     todo = {s: {} for s in SECCIONES}
+    familias = {c: {} for c in CAPAS}
     for archivo in sorted(DIR.glob("*.json")):
         try:
             datos = json.loads(archivo.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
             errores.append(f"{archivo.name}: JSON inválido ({e})")
             continue
+        for f in datos.get("familias", []):
+            c, i = f.get("capa"), f.get("id")
+            if c not in CAPAS:
+                errores.append(f"{archivo.name}/familias/{i}: capa inválida {c!r}")
+            elif not i:
+                errores.append(f"{archivo.name}/familias: familia sin id")
+            elif i in familias[c]:
+                errores.append(f"familia «{c}/{i}» repetida ({familias[c][i][0]} y {archivo.name})")
+            else:
+                familias[c][i] = (archivo.name, f)
         for s in SECCIONES:
             for item in datos.get(s, []):
                 i = item.get("id")
@@ -60,6 +74,7 @@ def main():
                 todo[s][i] = (archivo.name, item)
 
     regiones = todo["regiones"]
+    usadas: set = set()
     for i, (arch, r) in regiones.items():
         d = f"{arch}/regiones/{i}"
         if r.get("padre") and r["padre"] not in regiones:
@@ -79,6 +94,12 @@ def main():
                     errores.append(f"{d}/{capa}: «{e.get('nombre')}» termina antes de empezar")
                 if capa != "eras" and e.get("peso") not in PESOS:
                     errores.append(f"{d}/{capa}: peso inválido {e.get('peso')!r}")
+                if capa != "eras":
+                    usadas.add((capa, e.get("familia")))
+                    if not e.get("familia"):
+                        errores.append(f"{d}/{capa}: «{e.get('nombre')}» sin familia")
+                    elif e["familia"] not in familias[capa]:
+                        errores.append(f"{d}/{capa}: familia «{e['familia']}» no existe en la sección familias")
         for e in r.get("demografia", []):
             anio(e.get("anio"), f"{d}/demografia")
             if not e.get("fuente"):
@@ -150,7 +171,30 @@ def main():
             if r not in regiones:
                 errores.append(f"{d}: región «{r}» no existe")
 
-    print("Totales:", ", ".join(f"{s}: {len(todo[s])}" for s in SECCIONES))
+    for c in CAPAS:
+        for i, (arch, f) in familias[c].items():
+            d = f"{arch}/familias/{c}/{i}"
+            if not f.get("nombre"):
+                errores.append(f"{d}: sin nombre")
+            if f.get("color") is not None and not re.fullmatch(r"#[0-9a-fA-F]{6}", str(f["color"])):
+                errores.append(f"{d}: color inválido {f['color']!r} (va #rrggbb)")
+            elif f.get("color") is None and (c, i) in usadas:
+                avisos.append(f"{d}: sin color (el mapa le da uno derivado del nombre)")
+            vistos, actual = [i], f.get("padre")
+            while actual:
+                if actual not in familias[c]:
+                    errores.append(f"{d}: padre «{actual}» no existe en {c}")
+                    break
+                if actual in vistos:
+                    errores.append(f"{d}: ciclo de padres ({' → '.join(vistos + [actual])})")
+                    break
+                vistos.append(actual)
+                actual = familias[c][actual][1].get("padre")
+            if not f.get("wikipedia"):
+                avisos.append(f"{d}: sin artículo de Wikipedia")
+
+    print("Totales:", ", ".join(f"{s}: {len(todo[s])}" for s in SECCIONES),
+          "| familias:", ", ".join(f"{c} {len(familias[c])}" for c in CAPAS))
     for a in avisos:
         print("aviso:", a)
     for e in errores:

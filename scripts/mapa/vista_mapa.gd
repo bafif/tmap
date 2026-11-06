@@ -25,6 +25,8 @@ var _recorrido := 0.0
 var _vuelo: Tween
 var _hover_unidad := 0
 var _hover_valor := -1
+## Valores por unidad del modo de capa actual (religión, cultura, idioma); vacío en los otros modos.
+var _valores_capa := PackedInt32Array()
 
 
 func _ready() -> void:
@@ -57,6 +59,7 @@ func _ready() -> void:
 	Estado.anio_cambiado.connect(_al_cambiar_anio)
 	Estado.enfoque_pedido.connect(volar_a)
 	Estado.lugar_seleccionado.connect(_al_seleccionar)
+	Estado.resaltado_cambiado.connect(func(_c): _actualizar_valor_sel())
 	DatosMapa.valores_actualizados.connect(_al_actualizar_valores)
 	get_viewport().size_changed.connect(_limitar)
 	_al_cambiar_modo(Estado.modo)
@@ -107,21 +110,34 @@ func _actualizar_valores_modo() -> void:
 	var capas := {"religion": "religiones", "cultura": "culturas", "idioma": "idiomas"}
 	if capas.has(Estado.modo):
 		var r: Array = Enciclopedia.valores_capa(capas[Estado.modo], Estado.anio)
+		_valores_capa = r[0]
 		DatosMapa.usar_valores(r[0], r[1])
 	else:
+		_valores_capa = PackedInt32Array()
 		DatosMapa.usar_valores_politicos()
 
 
 func _al_actualizar_valores() -> void:
 	material_mapa.set_shader_parameter("tex_lut", DatosMapa.tex_lut)
 	material_mapa.set_shader_parameter("tex_paleta", DatosMapa.tex_paleta)
-	var sel := Estado.unidad_seleccionada
-	material_mapa.set_shader_parameter("valor_sel", _valor_de(sel) if sel > 0 else -1)
+	_actualizar_valor_sel()
 
 
 func _al_seleccionar(unidad: int, _px: Vector2) -> void:
 	material_mapa.set_shader_parameter("unidad_sel", unidad)
-	material_mapa.set_shader_parameter("valor_sel", _valor_de(unidad) if unidad > 0 else -1)
+	_actualizar_valor_sel()
+
+
+## Qué se marca con el borde de selección: en los modos de capa, la familia de la ficha abierta o de la leyenda bajo
+## el mouse; si no hay, la familia del lugar elegido. En los otros modos, la entidad del lugar elegido.
+func _actualizar_valor_sel() -> void:
+	var v := -1
+	var clave := Estado.familia_resaltada()
+	if clave != "" and Enciclopedia.CAPA_DE_MODO.get(Estado.modo, "") == clave.get_slice(":", 0):
+		v = Enciclopedia.indice_familia(clave)
+	else:
+		v = _valor_de(Estado.unidad_seleccionada)
+	material_mapa.set_shader_parameter("valor_sel", v if v > 0 else -1)
 
 
 func _valor_de(u: int) -> int:
@@ -130,6 +146,8 @@ func _valor_de(u: int) -> int:
 	if Estado.modo == "politico" or Estado.modo == "terreno":
 		var d := DatosMapa.dueno(u)
 		return d + 1 if d >= 0 else -1
+	if u < _valores_capa.size() and _valores_capa[u] > 0:
+		return _valores_capa[u]
 	return -1
 
 
@@ -297,7 +315,7 @@ func _hover(pos: Vector2) -> void:
 func _refrescar_hover() -> void:
 	_hover_valor = -2
 	_hover(get_viewport().get_mouse_position())
-	material_mapa.set_shader_parameter("valor_sel", _valor_de(Estado.unidad_seleccionada))
+	_actualizar_valor_sel()
 
 
 func _notification(what: int) -> void:

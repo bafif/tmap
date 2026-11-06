@@ -340,30 +340,35 @@
           "desde": -3100,
           "hasta": 200,
           "nombre": "Egipcio (antiguo, medio, tardío y demótico)",
+          "familia": "egipcio",
           "peso": "mayoritaria"
         },
         {
           "desde": -332,
           "hasta": 641,
           "nombre": "Griego (administración y ciudades)",
+          "familia": "griego",
           "peso": "importante"
         },
         {
           "desde": 200,
           "hasta": 1000,
           "nombre": "Copto",
+          "familia": "copto",
           "peso": "mayoritaria"
         },
         {
           "desde": 641,
           "hasta": 1000,
           "nombre": "Árabe",
+          "familia": "arabe",
           "peso": "importante"
         },
         {
           "desde": 1000,
           "hasta": 1600,
           "nombre": "Copto",
+          "familia": "copto",
           "peso": "importante",
           "nota": "Retrocede como lengua hablada frente al árabe; se mantiene como lengua litúrgica."
         },
@@ -371,6 +376,7 @@
           "desde": 1000,
           "hasta": null,
           "nombre": "Árabe",
+          "familia": "arabe",
           "peso": "mayoritaria"
         }
       ]

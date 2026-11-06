@@ -55,6 +55,10 @@ func _ready() -> void:
 		b.pressed.connect(func(): Estado.fijar_modo(modo_id))
 		modos.add_child(b)
 		_botones_modo[id] = b
+	# El modo también cambia desde afuera (la ficha de una religión, la línea de comandos, el puente).
+	Estado.modo_cambiado.connect(func(m: String):
+		if _botones_modo.has(m):
+			(_botones_modo[m] as Button).button_pressed = true)
 
 	var espacio := Control.new()
 	espacio.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -97,7 +101,7 @@ func _buscar(texto: String) -> void:
 		var e: Dictionary = DatosMapa.entidades[i]
 		items.append({"tipo": "entidad", "id": i, "texto": DatosMapa.nombre_entidad(i), "detalle": "Entidad política · " + Fechas.rango(int(e["a"]), int(e["b"]))})
 	for r in Enciclopedia.buscar(texto, 10):
-		var detalle: String = {"lugar": "Lugar", "persona": "Persona", "fuente": "Fuente", "hecho": "Hecho", "region": "Región"}.get(r["tipo"], "")
+		var detalle: String = r.get("detalle", {"lugar": "Lugar", "persona": "Persona", "fuente": "Fuente", "hecho": "Hecho", "region": "Región"}.get(r["tipo"], ""))
 		r["detalle"] = detalle
 		items.append(r)
 	if items.is_empty():

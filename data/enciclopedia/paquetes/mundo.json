@@ -192,24 +192,28 @@
           "desde": -3300,
           "hasta": -2000,
           "nombre": "Sumerio",
+          "familia": "sumerio",
           "peso": "mayoritaria"
         },
         {
           "desde": -2500,
           "hasta": -500,
           "nombre": "Acadio (babilonio y asirio)",
+          "familia": "acadio",
           "peso": "mayoritaria"
         },
         {
           "desde": -800,
           "hasta": 650,
           "nombre": "Arameo",
+          "familia": "arameo",
           "peso": "mayoritaria"
         },
         {
           "desde": 637,
           "hasta": 2000,
           "nombre": "Árabe",
+          "familia": "arabe",
           "peso": "mayoritaria"
         }
       ]
@@ -397,18 +401,21 @@
           "desde": -3500,
           "hasta": -500,
           "nombre": "Lenguas cananeas (hebreo, fenicio) y arameo",
+          "familia": "cananeas",
           "peso": "mayoritaria"
         },
         {
           "desde": -500,
           "hasta": 636,
           "nombre": "Arameo (con griego como lengua de administración)",
+          "familia": "arameo",
           "peso": "mayoritaria"
         },
         {
           "desde": 636,
           "hasta": 2000,
           "nombre": "Árabe",
+          "familia": "arabe",
           "peso": "mayoritaria"
         }
       ]
@@ -627,24 +634,29 @@
           "desde": -1650,
           "hasta": -1180,
           "nombre": "Hitita y luvita",
+          "familia": "anatolias",
           "peso": "mayoritaria"
         },
         {
           "desde": -1180,
           "hasta": -300,
           "nombre": "Frigio, lidio, luvita y griego de Jonia",
-          "peso": "mayoritaria"
+          "familia": "anatolias",
+          "peso": "mayoritaria",
+          "nota": "El lidio y el luvita son lenguas anatolias; el frigio y el griego son otras ramas indoeuropeas. Se agrupan en la familia anatolia porque es la que predomina en la región."
         },
         {
           "desde": -300,
           "hasta": 1071,
           "nombre": "Griego (koiné y bizantino)",
+          "familia": "griego",
           "peso": "mayoritaria"
         },
         {
           "desde": 1071,
           "hasta": 2000,
           "nombre": "Turco",
+          "familia": "turco",
           "peso": "mayoritaria"
         }
       ]
@@ -804,6 +816,7 @@
           "desde": -1450,
           "hasta": 2000,
           "nombre": "Griego",
+          "familia": "griego",
           "peso": "mayoritaria"
         }
       ]
@@ -990,12 +1003,14 @@
           "desde": -700,
           "hasta": 900,
           "nombre": "Latín",
+          "familia": "latin",
           "peso": "mayoritaria"
         },
         {
           "desde": 900,
           "hasta": 2000,
           "nombre": "Italiano (con dialectos regionales)",
+          "familia": "italiano",
           "peso": "mayoritaria"
         }
       ]
@@ -1216,24 +1231,28 @@
           "desde": -2700,
           "hasta": -500,
           "nombre": "Elamita y medo",
+          "familia": "elamita",
           "peso": "mayoritaria"
         },
         {
           "desde": -520,
           "hasta": -330,
           "nombre": "Persa antiguo",
+          "familia": "persa",
           "peso": "mayoritaria"
         },
         {
           "desde": -300,
           "hasta": 650,
           "nombre": "Persa medio (pahlavi) y parto",
+          "familia": "persa",
           "peso": "mayoritaria"
         },
         {
           "desde": 800,
           "hasta": 2000,
           "nombre": "Persa moderno",
+          "familia": "persa",
           "peso": "mayoritaria"
         }
       ]
@@ -1469,18 +1488,21 @@
           "desde": -1250,
           "hasta": 200,
           "nombre": "Chino antiguo y clásico",
+          "familia": "chino",
           "peso": "mayoritaria"
         },
         {
           "desde": 200,
           "hasta": 960,
           "nombre": "Chino medio",
+          "familia": "chino",
           "peso": "mayoritaria"
         },
         {
           "desde": 960,
           "hasta": 2000,
           "nombre": "Chino (con mandarín como lengua común)",
+          "familia": "chino",
           "peso": "mayoritaria"
         }
       ]
@@ -1719,18 +1741,21 @@
           "desde": -1500,
           "hasta": -500,
           "nombre": "Sánscrito védico",
+          "familia": "sanscrito",
           "peso": "mayoritaria"
         },
         {
           "desde": -500,
           "hasta": 500,
           "nombre": "Prácritos y sánscrito clásico",
+          "familia": "sanscrito",
           "peso": "mayoritaria"
         },
         {
           "desde": 500,
           "hasta": 2000,
           "nombre": "Lenguas indoarias (hindi, urdu, punyabí, bengalí…)",
+          "familia": "indoarias",
           "peso": "mayoritaria"
         }
       ]
@@ -1913,18 +1938,21 @@
           "desde": -1500,
           "hasta": 1900,
           "nombre": "Lenguas mesoamericanas (náhuatl, maya, zapoteco, mixteco…)",
+          "familia": "mesoamericanas",
           "peso": "mayoritaria"
         },
         {
           "desde": 1521,
           "hasta": 1900,
           "nombre": "Español",
+          "familia": "espanol",
           "peso": "importante"
         },
         {
           "desde": 1900,
           "hasta": 2000,
           "nombre": "Español",
+          "familia": "espanol",
           "peso": "mayoritaria"
         }
       ]
@@ -2107,18 +2135,21 @@
           "desde": -1000,
           "hasta": 1900,
           "nombre": "Quechua, aimara y lenguas regionales",
+          "familia": "andinas",
           "peso": "mayoritaria"
         },
         {
           "desde": 1533,
           "hasta": 1900,
           "nombre": "Español",
+          "familia": "espanol",
           "peso": "importante"
         },
         {
           "desde": 1900,
           "hasta": 2000,
           "nombre": "Español",
+          "familia": "espanol",
           "peso": "mayoritaria"
         }
       ]
@@ -2290,12 +2321,14 @@
           "desde": -10000,
           "hasta": 1580,
           "nombre": "Lenguas originarias (guaraní, charrúa, entre otras)",
+          "familia": "lenguas-indigenas-de-america",
           "peso": "mayoritaria"
         },
         {
           "desde": 1580,
           "hasta": 2000,
           "nombre": "Español",
+          "familia": "espanol",
           "peso": "mayoritaria"
         }
       ]
