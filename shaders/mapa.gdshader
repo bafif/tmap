@@ -58,6 +58,12 @@ int unidad_en(vec2 uv) {
 	return int(rg.r * 255.0 + 0.5) + int(rg.g * 255.0 + 0.5) * 256;
 }
 
+int unidad_texel(ivec2 p) {
+	p = clamp(p, ivec2(0), ivec2(tam_mapa) - ivec2(1));
+	vec2 rg = texelFetch(tex_unidades, p, 0).rg;
+	return int(rg.r * 255.0 + 0.5) + int(rg.g * 255.0 + 0.5) * 256;
+}
+
 int valor_crudo(int u) {
 	vec2 rg = texelFetch(tex_lut, ivec2(u % lut_ancho, u / lut_ancho), 0).rg;
 	return int(rg.r * 255.0 + 0.5) + int(rg.g * 255.0 + 0.5) * 256;
@@ -114,8 +120,91 @@ void fragment() {
 	float rio = mix(rio_nitido, rel.b, smoothstep(0.5, 1.4, px)) * (1.0 - smoothstep(2.5, 9.0, px));
 	tierra = mix(tierra, color_rio * mix(1.0, hs, 0.3), rio * 0.85);
 
-	int u = unidad_en(uv);
-	if (u == 0 && sd < 2.0) {
+	// De cerca (menos de un texel por píxel), la unidad sale del voto ponderado de los cuatro texels vecinos, como en
+	// una interpolación bilineal: los bordes dejan de ser escalones del ráster y pasan a ser curvas suaves. El margen
+	// entre la ganadora y la segunda, dividido por dos, es la distancia al borde en texels; con eso se trazan las
+	// líneas con un grosor fijo en pantalla.
+	float cerca_b = 1.0 - smoothstep(0.55, 0.95, px);
+	int u = 0;
+	float marg_u = 9.0;
+	float marg_v = 9.0;
+	float w_sel_u = 0.0;
+	float w_sel_v = 0.0;
+	float w_hover = 0.0;
+	// La unidad de tierra con más peso entre los cuatro texels: en la costa, donde el ráster dice agua pero el
+	// relieve dice tierra, se usa esta en vez de buscar vecinos enteros (que dejaba la costa escalonada).
+	int u_tierra = 0;
+	if (cerca_b > 0.5) {
+		vec2 tp = texel - 0.5;
+		vec2 fl = floor(tp);
+		vec2 fr = tp - fl;
+		ivec2 ib = ivec2(fl);
+		int us[4];
+		int vs[4];
+		float ws[4];
+		us[0] = unidad_texel(ib);
+		us[1] = unidad_texel(ib + ivec2(1, 0));
+		us[2] = unidad_texel(ib + ivec2(0, 1));
+		us[3] = unidad_texel(ib + ivec2(1, 1));
+		ws[0] = (1.0 - fr.x) * (1.0 - fr.y);
+		ws[1] = fr.x * (1.0 - fr.y);
+		ws[2] = (1.0 - fr.x) * fr.y;
+		ws[3] = fr.x * fr.y;
+		for (int i = 0; i < 4; i++) {
+			vs[i] = us[i] > 0 ? valor_de(us[i]) : -1;
+		}
+		float mejor = -1.0;
+		for (int i = 0; i < 4; i++) {
+			float w = 0.0;
+			for (int j = 0; j < 4; j++) {
+				w += us[j] == us[i] ? ws[j] : 0.0;
+			}
+			if (w > mejor) {
+				mejor = w;
+				u = us[i];
+			}
+		}
+		float mejor_tierra = 0.0;
+		for (int i = 0; i < 4; i++) {
+			if (us[i] > 0 && ws[i] > mejor_tierra) {
+				mejor_tierra = ws[i];
+				u_tierra = us[i];
+			}
+		}
+		int vu = u > 0 ? valor_de(u) : -1;
+		float w_u = 0.0;
+		float w_v = 0.0;
+		float otra_u = 0.0;
+		float otro_v = 0.0;
+		for (int i = 0; i < 4; i++) {
+			float wu = 0.0;
+			float wv = 0.0;
+			for (int j = 0; j < 4; j++) {
+				wu += us[j] == us[i] ? ws[j] : 0.0;
+				wv += vs[j] == vs[i] ? ws[j] : 0.0;
+			}
+			if (us[i] == u) {
+				w_u = wu;
+			} else if (us[i] > 0) {
+				otra_u = max(otra_u, wu);
+			}
+			if (vs[i] == vu) {
+				w_v = wv;
+			} else if (vs[i] >= 0) {
+				otro_v = max(otro_v, wv);
+			}
+			w_sel_u += us[i] == unidad_sel ? ws[i] : 0.0;
+			w_hover += us[i] == unidad_hover ? ws[i] : 0.0;
+			w_sel_v += vs[i] == valor_sel ? ws[i] : 0.0;
+		}
+		marg_u = otra_u > 0.0 ? w_u - otra_u : 9.0;
+		marg_v = otro_v > 0.0 ? w_v - otro_v : 9.0;
+	} else {
+		u = unidad_en(uv);
+	}
+	if (u == 0 && sd < 2.0 && u_tierra > 0) {
+		u = u_tierra;
+	} else if (u == 0 && sd < 2.0) {
 		// Franja costera donde el borde suave de la costa y el ráster de unidades no coinciden.
 		vec2 d1 = vec2(1.2) / tam_mapa;
 		int a = unidad_en(uv + vec2(d1.x, 0.0));
@@ -151,6 +240,11 @@ void fragment() {
 
 	// ---------------------------------------------------------------- Bordes
 	if (u > 0) {
+		float f_pais = 0.0;
+		float f_prov = 0.0;
+		float f_sel_u = 0.0;
+		float f_sel_v = 0.0;
+		float f_hover = 0.0;
 		float r1 = max(1.25 * px, 0.55);
 		float b_pais = 0.0;
 		float b_prov = 0.0;
@@ -159,7 +253,7 @@ void fragment() {
 		float b_hover = 0.0;
 		bool en_sel = u == unidad_sel;
 		bool en_hover = u == unidad_hover;
-		for (int i = 0; i < muestras; i++) {
+		for (int i = 0; i < (cerca_b < 1.0 ? muestras : 0); i++) {
 			float ang = 6.2831853 * (float(i) + 0.5) / float(muestras);
 			vec2 o = vec2(cos(ang), sin(ang)) * r1 / tam_mapa;
 			int nu = unidad_en(uv + o);
@@ -182,8 +276,30 @@ void fragment() {
 			}
 		}
 		float m = float(muestras);
-		float f_pais = smoothstep(0.0, 0.3, b_pais / m);
-		float f_prov = smoothstep(0.0, 0.3, b_prov / m) * (1.0 - smoothstep(0.45, 1.1, px)) * (v > 0 ? 0.22 : 0.0);
+		f_pais = smoothstep(0.0, 0.3, b_pais / m);
+		f_prov = smoothstep(0.0, 0.3, b_prov / m);
+		f_sel_v = smoothstep(0.0, 0.3, b_sel_v / m);
+		f_hover = smoothstep(0.0, 0.35, b_hover / m);
+		f_sel_u = smoothstep(0.0, 0.35, b_sel_u / m);
+		if (cerca_b > 0.5) {
+			// Líneas de grosor fijo en pantalla a partir de la distancia al borde (en texels). La selección y el
+			// mouse solo trazan línea si el borde cae dentro de los cuatro texels.
+			float hw = 0.85 * px;
+			float aa = 0.55 * px;
+			float n_pais = 1.0 - smoothstep(hw - aa, hw + aa, marg_v * 0.5);
+			float n_prov = 1.0 - smoothstep(hw - aa, hw + aa, marg_u * 0.5);
+			float hs_sel = hw * 1.5;
+			float n_sel_v = (w_sel_v > 0.0 && w_sel_v < 1.0) ? 1.0 - smoothstep(hs_sel - aa, hs_sel + aa, abs(w_sel_v - 0.5)) : 0.0;
+			float n_sel_u = (w_sel_u > 0.0 && w_sel_u < 1.0) ? 1.0 - smoothstep(hs_sel - aa, hs_sel + aa, abs(w_sel_u - 0.5)) : 0.0;
+			float n_hover = (w_hover > 0.0 && w_hover < 1.0) ? 1.0 - smoothstep(hw - aa, hw + aa, abs(w_hover - 0.5)) : 0.0;
+			float c = cerca_b < 1.0 ? (cerca_b - 0.5) * 2.0 : 1.0;
+			f_pais = mix(f_pais, n_pais, c);
+			f_prov = mix(f_prov, n_prov, c);
+			f_sel_v = mix(f_sel_v, n_sel_v, c);
+			f_sel_u = mix(f_sel_u, n_sel_u, c);
+			f_hover = mix(f_hover, n_hover, c);
+		}
+		f_prov *= (1.0 - smoothstep(0.45, 1.1, px)) * (v > 0 ? 0.22 : 0.0);
 		vec3 oscuro = (v > 0 && modo != 1) ? pc * 0.32 : vec3(0.12, 0.11, 0.1);
 		tierra = mix(tierra, oscuro, f_prov);
 		float fuerza_pais = modo == 1 ? 0.35 : 0.9;
@@ -202,7 +318,9 @@ void fragment() {
 					cerca += 1.0;
 				}
 			}
-			float brillo = smoothstep(0.0, 0.5, cerca / 8.0) * (1.0 - f_pais);
+			// De cerca el brillo saldría en bloques (muestrea texels enteros): se apaga a medida que los bordes se
+			// vuelven nítidos.
+			float brillo = smoothstep(0.0, 0.5, cerca / 8.0) * (1.0 - f_pais) * (1.0 - cerca_b * 0.85);
 			tierra = mix(tierra, pc * 1.15 + 0.05, brillo * 0.35);
 		}
 
@@ -211,13 +329,13 @@ void fragment() {
 		}
 		if (v == valor_sel && v > 0) {
 			tierra = mix(tierra, tierra * 1.1 + 0.03, 0.9);
-			tierra = mix(tierra, color_seleccion, smoothstep(0.0, 0.3, b_sel_v / m) * 0.85);
+			tierra = mix(tierra, color_seleccion, f_sel_v * 0.85);
 		}
 		if (unidad_hover > 0) {
-			tierra = mix(tierra, vec3(1.0, 0.97, 0.88), smoothstep(0.0, 0.35, b_hover / m) * 0.45);
+			tierra = mix(tierra, vec3(1.0, 0.97, 0.88), f_hover * 0.45);
 		}
 		if (unidad_sel > 0) {
-			tierra = mix(tierra, color_seleccion, smoothstep(0.0, 0.35, b_sel_u / m));
+			tierra = mix(tierra, color_seleccion, f_sel_u);
 		}
 	}
 

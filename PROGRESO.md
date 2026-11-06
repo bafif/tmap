@@ -16,7 +16,9 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Mapa, rendimiento y distribución (0.2)
 
-- [ ] **Bordes nítidos de cerca.** Bordes con campo de distancia, para que no se vean los píxeles con mucho zoom.
+- [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
+      muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
+      generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
 - [ ] **Todo usable sin mouse.** Los atajos ya están; falta poder recorrer con Tab los botones del panel, la
       leyenda y los diálogos (hoy tienen `focus_mode = FOCUS_NONE` para que el clic no deje un recuadro de foco).
 - [ ] **Probar en otros equipos.** Windows, una notebook con gráficos integrados y el modo OpenGL.
@@ -67,6 +69,10 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [x] **Marcadores agrupados.** Los que se pisan en pantalla se juntan en un círculo con su número y un punto de
       color por tipo; el clic acerca la cámara hasta separarlos, y los que comparten el punto exacto se abren en
       espiral de cerca. El agrupamiento usa una grilla con vecinos, lineal en la cantidad de marcadores.
+- [x] **Fronteras nítidas de cerca.** Con menos de un texel por píxel, la unidad de cada punto sale de un voto
+      bilineal de los cuatro texels vecinos y las líneas (fronteras, provincias, selección, mouse) se trazan con grosor
+      fijo en pantalla desde la distancia al borde: curvas suaves en vez de escalones del ráster. De lejos sigue el
+      método de siempre, con una transición entre los dos.
 - [x] **Atajos de teclado**: 1 a 5 para los modos, / o Ctrl+F para buscar, G para ir a un año, + y - para el
       zoom, [ y ] para las pestañas, Retroceso para volver de una ficha y F1 para la ayuda, que ahora los lista y
       tiene scroll para entrar en ventanas bajas.
