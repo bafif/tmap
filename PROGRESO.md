@@ -12,10 +12,7 @@ hacia abajo. La visión general por versiones está en [la hoja de ruta del plan
 La interfaz ya se ve completa, pero varias cosas son solo información. La meta del bloque: todo lo que se ve responde
 a un clic y lleva a algo útil.
 
-Datos que necesita este bloque:
-
-- [ ] **Regiones con contorno más fino.** En los modos de capa, Egipto y otras regiones se ven como rectángulos.
-      Hay que pasar a contornos reales (Natural Earth o los de Cliopatria).
+Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Mapa, rendimiento y distribución (0.2)
 
@@ -92,6 +89,10 @@ Datos que necesita este bloque:
 - [x] **Recorrido de toda la interfaz** (`scripts/nucleo/recorrido.gd`, `tmap.py recorrido` y dentro de la
       prueba automática): clic real en 401 controles en 17 escenarios; falla si alguno da error o no hace nada.
       Mientras corre, los enlaces no abren el navegador (todos pasan por `Estado.abrir_url`) y no hay animaciones.
+- [x] **Regiones con el contorno real de cada época.** En los modos de capa, dentro del polígono de la región se
+      pinta pleno lo que ese año pertenece a una entidad de Cliopatria y rayado del mismo color el resto: el Egipto de
+      1350 a. C. se ve como el valle del Nilo y no como un rectángulo. Se eligió Cliopatria y no Natural Earth porque
+      las fronteras modernas (las de Egipto son casi rectas) no dicen nada de la época.
 - [x] Más rápido en los modos de capa: los valores del mapa se guardan según qué familia rige en cada región, así
       que reproducir años o volver al modo no los recalcula.
 - [x] Los botones de modo de arriba siguen al modo aunque cambie desde otro lado (una ficha, el puente).

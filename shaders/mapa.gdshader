@@ -20,6 +20,9 @@ uniform int paleta_ancho = 1024;
 uniform int modo = 0;
 uniform int valor_hover = -1;
 uniform int valor_sel = -1;
+// Modos de capa: un valor mayor que valor_tenue es la versión tenue de (valor - valor_tenue), para las unidades sin
+// entidad política registrada ese año. 0 = no se usa (modo político).
+uniform int valor_tenue = 0;
 uniform int unidad_sel = 0;
 uniform int unidad_hover = 0;
 uniform float intensidad = 0.66;
@@ -55,9 +58,15 @@ int unidad_en(vec2 uv) {
 	return int(rg.r * 255.0 + 0.5) + int(rg.g * 255.0 + 0.5) * 256;
 }
 
-int valor_de(int u) {
+int valor_crudo(int u) {
 	vec2 rg = texelFetch(tex_lut, ivec2(u % lut_ancho, u / lut_ancho), 0).rg;
 	return int(rg.r * 255.0 + 0.5) + int(rg.g * 255.0 + 0.5) * 256;
+}
+
+// El valor de la unidad sin la marca de tenue: así la selección y los bordes tratan igual a toda la familia.
+int valor_de(int u) {
+	int v = valor_crudo(u);
+	return (valor_tenue > 0 && v > valor_tenue) ? v - valor_tenue : v;
 }
 
 vec3 color_de(int v) {
@@ -116,11 +125,18 @@ void fragment() {
 		u = max(max(a, b), max(c, e));
 	}
 	int v = u > 0 ? valor_de(u) : 0;
+	bool tenue = valor_tenue > 0 && u > 0 && valor_crudo(u) > valor_tenue;
 
 	vec3 pc = vec3(0.0);
 	if (v > 0 && modo != 1) {
 		pc = color_de(v);
 		float k = intensidad * mix(0.5, 1.0, smoothstep(0.5, 3.0, px));
+		if (tenue) {
+			// Sin entidad política registrada: rayado fino del color de la familia (en la diagonal opuesta al de
+			// «sin datos»), para que se distinga aunque el color se parezca al del terreno.
+			float raya = step(0.62, fract((FRAGCOORD.x - FRAGCOORD.y) / 6.0));
+			k *= mix(0.12, 0.75, raya);
+		}
 		vec3 pintado = pc * (relieve ? clamp(mix(1.0, rel.r * 2.0, 0.5), 0.55, 1.3) : 1.0);
 		tierra = mix(tierra, pintado, k);
 		tierra = mix(tierra, color_rio, rio * 0.5);

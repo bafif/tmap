@@ -64,6 +64,10 @@ Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 
 ```
 
 - `peso`: `"mayoritaria"`, `"importante"` o `"minoritaria"`. El mapa pinta la mayoritaria.
+- En los modos de religión, cultura e idioma, el polígono marca el área de estudio. Dentro de él, el mapa pinta con
+  el color pleno las zonas que ese año pertenecen a alguna entidad de Cliopatria y con un rayado del mismo color las
+  demás (desiertos, zonas sin estado registrado): así se ve el contorno real de cada época, como el valle del Nilo en
+  el Egipto antiguo, aunque el polígono sea aproximado.
 - `desde` y `hasta` en eras, religiones, culturas e idiomas: `"hasta": null` quiere decir que sigue hasta hoy.
 - `familia` (obligatoria en religiones, culturas e idiomas): el `id` de una familia de la misma capa en la sección
   [`familias`](#familias). Agrupa para colorear el mapa, da el nombre de la leyenda y abre la ficha de la familia.

@@ -97,7 +97,7 @@ func _actualizar() -> void:
 				_expandida = not _expandida
 				_actualizar())
 			_leyenda.add_child(mas)
-		_nota("Rayado: regiones todavía sin datos.")
+		_nota("Rayado del color: zona sin entidad política registrada ese año. Rayado gris: regiones todavía sin datos.")
 	elif Estado.modo == "politico":
 		_nota("Fronteras de Cliopatria (Seshat, CC BY 4.0). Click en un lugar para estudiarlo.")
 	else:

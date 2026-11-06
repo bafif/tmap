@@ -452,7 +452,26 @@ func capa_en(id_region: String, capa: String, anio: int) -> Array:
 
 
 ## Valores por unidad para pintar una capa en el mapa: la mayoritaria de la región más chica con datos.
+## Las unidades sin entidad política registrada ese año (desiertos, zonas sin estado) llevan el valor + tenue_capa(),
+## y el mapa las pinta más tenues: así cada región toma el contorno real de Cliopatria en vez del de su polígono.
 func valores_capa(capa: String, anio: int) -> Array:
+	var r := _valores_base(capa, anio)
+	var base: PackedInt32Array = r[0]
+	var valores := base.duplicate()
+	var tenue := tenue_capa(capa)
+	var duenos := DatosMapa.duenos
+	for u in range(1, mini(valores.size(), duenos.size())):
+		if valores[u] > 0 and duenos[u] < 0:
+			valores[u] += tenue
+	return [valores, r[1]]
+
+
+## Desde qué valor una unidad se pinta tenue en una capa (la cantidad de colores de su paleta).
+func tenue_capa(capa: String) -> int:
+	return (_colores_capa.get(capa, PackedColorArray()) as PackedColorArray).size()
+
+
+func _valores_base(capa: String, anio: int) -> Array:
 	var valores := PackedInt32Array()
 	valores.resize(DatosMapa.n_unidades + 1)
 	valores.fill(0)

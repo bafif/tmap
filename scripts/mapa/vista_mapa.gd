@@ -27,6 +27,8 @@ var _hover_unidad := 0
 var _hover_valor := -1
 ## Valores por unidad del modo de capa actual (religión, cultura, idioma); vacío en los otros modos.
 var _valores_capa := PackedInt32Array()
+## Desde qué valor una unidad de la capa actual se pinta tenue (0 en los otros modos).
+var _tenue := 0
 
 
 func _ready() -> void:
@@ -111,9 +113,13 @@ func _actualizar_valores_modo() -> void:
 	if capas.has(Estado.modo):
 		var r: Array = Enciclopedia.valores_capa(capas[Estado.modo], Estado.anio)
 		_valores_capa = r[0]
+		_tenue = Enciclopedia.tenue_capa(capas[Estado.modo])
+		material_mapa.set_shader_parameter("valor_tenue", _tenue)
 		DatosMapa.usar_valores(r[0], r[1])
 	else:
 		_valores_capa = PackedInt32Array()
+		_tenue = 0
+		material_mapa.set_shader_parameter("valor_tenue", 0)
 		DatosMapa.usar_valores_politicos()
 
 
@@ -149,7 +155,8 @@ func _valor_de(u: int) -> int:
 		var d := DatosMapa.dueno(u)
 		return d + 1 if d >= 0 else -1
 	if u < _valores_capa.size() and _valores_capa[u] > 0:
-		return _valores_capa[u]
+		var v := _valores_capa[u]
+		return v - _tenue if _tenue > 0 and v > _tenue else v
 	return -1
 
 
