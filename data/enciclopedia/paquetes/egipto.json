@@ -1,0 +1,3302 @@
+{
+  "paquete": "egipto",
+  "descripcion": "Piloto: el antiguo Egipto, de la unificación a la época moderna",
+  "regiones": [
+    {
+      "id": "egipto",
+      "nombre": "Egipto",
+      "padre": null,
+      "poligono": [
+        [
+          25.0,
+          31.6
+        ],
+        [
+          27.2,
+          31.35
+        ],
+        [
+          29.0,
+          30.9
+        ],
+        [
+          30.2,
+          31.5
+        ],
+        [
+          31.5,
+          31.5
+        ],
+        [
+          32.3,
+          31.3
+        ],
+        [
+          34.2,
+          31.3
+        ],
+        [
+          34.9,
+          29.5
+        ],
+        [
+          34.3,
+          28.0
+        ],
+        [
+          33.8,
+          27.3
+        ],
+        [
+          34.9,
+          25.1
+        ],
+        [
+          35.5,
+          23.9
+        ],
+        [
+          36.9,
+          22.0
+        ],
+        [
+          25.0,
+          22.0
+        ]
+      ],
+      "resumen": "Civilización del valle y delta del Nilo, con una historia escrita de más de cuatro mil años. Sus textos, monumentos y papiros, conservados por el clima seco, son una de las mayores fuentes de primera mano de la Antigüedad. Después fue provincia helenística, romana, bizantina, islámica y otomana.",
+      "eras": [
+        {
+          "desde": -5300,
+          "hasta": -3100,
+          "nombre": "Período Predinástico",
+          "resumen": "Culturas neolíticas y calcolíticas del valle (Badariense, Nagada) con creciente jerarquización social, que desembocan en reinos regionales y en la unificación."
+        },
+        {
+          "desde": -3100,
+          "hasta": -2686,
+          "nombre": "Período Dinástico Temprano (dinastías I-II)",
+          "resumen": "Primeros reyes de un Egipto unificado, con capital en Menfis y necrópolis reales en Abidos. Las fechas de este y los períodos siguientes son convencionales y pueden variar décadas según el autor."
+        },
+        {
+          "desde": -2686,
+          "hasta": -2181,
+          "nombre": "Imperio Antiguo (dinastías III-VI)",
+          "resumen": "Edad de las grandes pirámides, de Dyeser en Saqqara a Keops, Kefrén y Micerino en Giza, con un Estado centralizado y una administración de visires y escribas."
+        },
+        {
+          "desde": -2181,
+          "hasta": -2055,
+          "nombre": "Primer Período Intermedio",
+          "resumen": "Fragmentación del poder central, con dinastías rivales en Heracleópolis y Tebas, hasta la reunificación por Mentuhotep II."
+        },
+        {
+          "desde": -2055,
+          "hasta": -1650,
+          "nombre": "Imperio Medio (dinastías XI-XIII)",
+          "resumen": "Reunificación tebana y apogeo de la dinastía XII, con capital en Itjtauy; edad clásica de la literatura egipcia y expansión hacia Nubia."
+        },
+        {
+          "desde": -1650,
+          "hasta": -1550,
+          "nombre": "Segundo Período Intermedio",
+          "resumen": "Los hicsos, de origen asiático, gobiernan el delta desde Avaris, mientras una dinastía tebana resiste hasta la expulsión por Ahmose I."
+        },
+        {
+          "desde": -1550,
+          "hasta": -1069,
+          "nombre": "Imperio Nuevo (dinastías XVIII-XX)",
+          "resumen": "Egipto como potencia imperial en Nubia y el Levante: Hatshepsut, Tutmosis III, Akenatón, Tutankamón, Ramsés II. Termina con la fragmentación del Estado."
+        },
+        {
+          "desde": -1069,
+          "hasta": -664,
+          "nombre": "Tercer Período Intermedio",
+          "resumen": "Reyes en Tanis, sumos sacerdotes de Amón en Tebas, dinastías libias y la dinastía kushita (XXV) que gobierna Egipto hasta la invasión asiria."
+        },
+        {
+          "desde": -664,
+          "hasta": -332,
+          "nombre": "Período Tardío",
+          "resumen": "Renacimiento saíta (dinastía XXVI), dominio persa aqueménida, última dinastía nativa (XXX) y reconquista persa antes de Alejandro."
+        },
+        {
+          "desde": -332,
+          "hasta": -30,
+          "nombre": "Período ptolemaico",
+          "resumen": "Tras la conquista de Alejandro, los Ptolomeos gobiernan desde Alejandría y combinan tradiciones egipcias y griegas; termina con Cleopatra VII."
+        },
+        {
+          "desde": -30,
+          "hasta": 395,
+          "nombre": "Egipto romano",
+          "resumen": "Provincia imperial bajo gobernador ecuestre y granero de Roma; Alejandría es una de las grandes ciudades del Mediterráneo."
+        },
+        {
+          "desde": 395,
+          "hasta": 641,
+          "nombre": "Egipto bizantino",
+          "resumen": "Provincia del Imperio romano de Oriente con auge del cristianismo, del monacato y de las disputas cristológicas; breve ocupación sasánida (619-629)."
+        },
+        {
+          "desde": 641,
+          "hasta": 969,
+          "nombre": "Egipto islámico temprano",
+          "resumen": "Conquista árabe y gobierno de califas y gobernadores (rashidún, omeyas, abasíes, luego tuluníes e ijshidíes), con Fustat como capital y arabización gradual."
+        },
+        {
+          "desde": 969,
+          "hasta": 1171,
+          "nombre": "Califato fatimí",
+          "resumen": "Los fatimíes fundan El Cairo y la mezquita-universidad de al-Azhar; Egipto es el centro de un califato ismailí."
+        },
+        {
+          "desde": 1171,
+          "hasta": 1250,
+          "nombre": "Sultanato ayubí",
+          "resumen": "Saladino derroca a los fatimíes y restaura el sunismo; Egipto es la base de la lucha contra los cruzados."
+        },
+        {
+          "desde": 1250,
+          "hasta": 1517,
+          "nombre": "Sultanato mameluco",
+          "resumen": "Una élite militar de origen esclavo gobierna Egipto y Siria desde El Cairo y derrota a los mongoles en Ain Yalut (1260)."
+        },
+        {
+          "desde": 1517,
+          "hasta": 1805,
+          "nombre": "Egipto otomano",
+          "resumen": "Provincia del Imperio otomano tras la conquista de Selim I, con el poder real a menudo en manos de beyes mamelucos; ocupación francesa de 1798 a 1801."
+        },
+        {
+          "desde": 1805,
+          "hasta": 1952,
+          "nombre": "Dinastía de Muhammad Alí",
+          "resumen": "Muhammad Alí y sus sucesores modernizan el país; se abre el canal de Suez (1869) y Gran Bretaña ocupa Egipto desde 1882. Termina con la revolución de 1952."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": -1250,
+          "poblacion": 3000000,
+          "min": 2500000,
+          "max": 3500000,
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt",
+          "nota": "Reconstrucción por la proporción entre población urbana y rural; otros autores proponen cifras distintas, y las citas secundarias de Butzer no coinciden del todo."
+        },
+        {
+          "anio": -60,
+          "poblacion": 3000000,
+          "fuente": "Diodoro Sículo, Biblioteca histórica I.31 (cifra antigua, no estimación moderna)",
+          "nota": "Diodoro afirma que la población había llegado a 7 millones en tiempos antiguos y que en su época no era menor de 3 millones.",
+          "tipo": "testimonio-antiguo"
+        },
+        {
+          "anio": 66,
+          "poblacion": 7500000,
+          "fuente": "Flavio Josefo, Guerra de los judíos II.385 (cifra antigua; discutida en Bagnall y Frier, 1994, cap. 3)",
+          "nota": "Josefo la da sin contar Alejandría; los historiadores modernos la consideran excesiva.",
+          "tipo": "testimonio-antiguo"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -5300,
+          "hasta": 390,
+          "nombre": "Religión del antiguo Egipto",
+          "familia": "politeismo-egipcio",
+          "peso": "mayoritaria",
+          "nota": "Con cultos grecorromanos (Serapis, Isis) sincréticos desde época ptolemaica; el declive se acelera desde el edicto de Teodosio de 391."
+        },
+        {
+          "desde": -332,
+          "hasta": 391,
+          "nombre": "Religión griega y romana",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -300,
+          "hasta": 117,
+          "nombre": "Judaísmo (comunidad de Alejandría y otras ciudades)",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "Gran diáspora, muy golpeada tras la revuelta de 115-117."
+        },
+        {
+          "desde": 100,
+          "hasta": 350,
+          "nombre": "Cristianismo temprano",
+          "familia": "cristianismo",
+          "peso": "importante",
+          "nota": "Estimación muy incierta: no hay censos religiosos; la conversión se reconstruye con nombres en papiros (Bagnall, 1993, Egypt in Late Antiquity)."
+        },
+        {
+          "desde": 350,
+          "hasta": 1000,
+          "nombre": "Cristianismo copto",
+          "familia": "cristianismo-copto",
+          "peso": "mayoritaria",
+          "nota": "Mayoría aproximada desde el siglo IV; tras 451 la Iglesia copta se separa de Calcedonia. Los plazos de conversión al islam son debatidos."
+        },
+        {
+          "desde": 641,
+          "hasta": 1000,
+          "nombre": "Islam sunní (conquistadores y conversos)",
+          "familia": "islam-sunni",
+          "peso": "importante"
+        },
+        {
+          "desde": 969,
+          "hasta": 1171,
+          "nombre": "Islam chií ismailí (dinastía fatimí)",
+          "familia": "islam-chii",
+          "peso": "importante",
+          "nota": "Era la religión de la dinastía y su corte; la población musulmana seguía siendo sobre todo sunní."
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Islam sunní",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "La mayoría musulmana se sitúa entre los siglos X y XIV según los autores; el ritmo exacto es incierto."
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Cristianismo copto",
+          "familia": "cristianismo-copto",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -5300,
+          "hasta": 641,
+          "nombre": "Egipcia",
+          "familia": "egipcia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -525,
+          "hasta": -332,
+          "nombre": "Persa aqueménida (administración)",
+          "familia": "persa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -332,
+          "hasta": 641,
+          "nombre": "Griega (helenística y bizantina)",
+          "familia": "griega",
+          "peso": "importante"
+        },
+        {
+          "desde": -30,
+          "hasta": 395,
+          "nombre": "Romana",
+          "familia": "latina",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 641,
+          "hasta": 1000,
+          "nombre": "Copta",
+          "familia": "egipcia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 641,
+          "hasta": 1000,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Copta",
+          "familia": "egipcia",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1250,
+          "hasta": 1517,
+          "nombre": "Turca y circasiana (élite mameluca)",
+          "familia": "turca",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -3100,
+          "hasta": 200,
+          "nombre": "Egipcio (antiguo, medio, tardío y demótico)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -332,
+          "hasta": 641,
+          "nombre": "Griego (administración y ciudades)",
+          "peso": "importante"
+        },
+        {
+          "desde": 200,
+          "hasta": 1000,
+          "nombre": "Copto",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 641,
+          "hasta": 1000,
+          "nombre": "Árabe",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1600,
+          "nombre": "Copto",
+          "peso": "importante",
+          "nota": "Retrocede como lengua hablada frente al árabe; se mantiene como lengua litúrgica."
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Árabe",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "bajo-egipto",
+      "nombre": "Bajo Egipto",
+      "padre": "egipto",
+      "poligono": [
+        [
+          29.5,
+          30.9
+        ],
+        [
+          29.9,
+          31.2
+        ],
+        [
+          30.4,
+          31.5
+        ],
+        [
+          31.0,
+          31.55
+        ],
+        [
+          31.9,
+          31.5
+        ],
+        [
+          32.3,
+          31.2
+        ],
+        [
+          32.5,
+          30.9
+        ],
+        [
+          32.5,
+          30.0
+        ],
+        [
+          31.9,
+          29.9
+        ],
+        [
+          31.4,
+          29.8
+        ],
+        [
+          30.8,
+          29.9
+        ],
+        [
+          30.4,
+          30.3
+        ],
+        [
+          29.9,
+          30.7
+        ]
+      ],
+      "resumen": "El delta del Nilo y la región de Menfis hacia el norte, con ciudades como Menfis, Heliópolis, Avaris, Pi-Ramsés y, más tarde, Alejandría. Los egipcios lo concebían como una de las dos tierras unificadas por el rey."
+    },
+    {
+      "id": "alto-egipto",
+      "nombre": "Alto Egipto",
+      "padre": "egipto",
+      "poligono": [
+        [
+          30.9,
+          29.9
+        ],
+        [
+          30.6,
+          29.0
+        ],
+        [
+          30.4,
+          28.1
+        ],
+        [
+          30.8,
+          27.2
+        ],
+        [
+          31.3,
+          26.5
+        ],
+        [
+          32.4,
+          26.1
+        ],
+        [
+          32.4,
+          25.5
+        ],
+        [
+          32.6,
+          25.0
+        ],
+        [
+          32.7,
+          24.1
+        ],
+        [
+          33.1,
+          24.0
+        ],
+        [
+          33.2,
+          24.9
+        ],
+        [
+          33.0,
+          25.8
+        ],
+        [
+          32.9,
+          26.3
+        ],
+        [
+          32.1,
+          26.7
+        ],
+        [
+          31.9,
+          27.2
+        ],
+        [
+          31.3,
+          27.9
+        ],
+        [
+          31.1,
+          28.6
+        ],
+        [
+          31.3,
+          29.4
+        ],
+        [
+          31.6,
+          29.9
+        ]
+      ],
+      "resumen": "El estrecho valle del Nilo entre Menfis y la primera catarata (Asuán), con Abidos, Tebas y Elefantina. Fue la cuna de varias casas reinantes y el escenario de las grandes necrópolis del Imperio Nuevo."
+    },
+    {
+      "id": "nubia",
+      "nombre": "Nubia",
+      "padre": null,
+      "poligono": [
+        [
+          32.8,
+          24.0
+        ],
+        [
+          33.4,
+          23.0
+        ],
+        [
+          34.3,
+          21.5
+        ],
+        [
+          35.0,
+          19.5
+        ],
+        [
+          35.2,
+          17.5
+        ],
+        [
+          34.5,
+          16.0
+        ],
+        [
+          33.0,
+          15.4
+        ],
+        [
+          32.0,
+          15.5
+        ],
+        [
+          30.6,
+          16.5
+        ],
+        [
+          29.8,
+          18.5
+        ],
+        [
+          29.5,
+          20.5
+        ],
+        [
+          30.6,
+          22.0
+        ],
+        [
+          31.8,
+          23.3
+        ]
+      ],
+      "resumen": "El valle del Nilo al sur de la primera catarata, hoy repartido entre Egipto y Sudán. Sede de los reinos de Kerma, Kush y Napata-Meroe, fue proveedora de oro y mercenarios para Egipto y, en la dinastía XXV, su gobernante."
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "paleta-de-narmer",
+      "titulo": "Paleta de Narmer",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -3100,
+        "aprox": true,
+        "lugar": "Hieracómpolis",
+        "lon": 32.779,
+        "lat": 25.098
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3150,
+        "hasta": -3050
+      },
+      "idioma_original": "Protojeroglífico egipcio",
+      "soporte": "Paleta de esquisto tallada en relieve",
+      "resumen": "Paleta ceremonial hallada en Hieracómpolis, con el rey Narmer tocado con la corona blanca y la roja. Es una de las primeras representaciones del poder real y de signos jeroglíficos.",
+      "por_que_importa": "Se la suele leer como imagen de la unificación del país, aunque ese sentido es debatido.",
+      "leer": [],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Paleta de Narmer",
+        "en": "Narmer Palette"
+      }
+    },
+    {
+      "id": "piedra-de-palermo",
+      "titulo": "Piedra de Palermo",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -2400,
+        "aprox": true,
+        "lugar": "Menfis",
+        "lon": 31.255,
+        "lat": 29.845
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -2450
+      },
+      "idioma_original": "Egipcio antiguo",
+      "soporte": "Estela de basalto (fragmentos)",
+      "resumen": "Fragmento de unos anales reales de la dinastía V que enumera reyes y acontecimientos año por año, incluidos reyes predinásticos. Su procedencia exacta es desconocida.",
+      "por_que_importa": "Es de las pocas fuentes egipcias que reconstruyen la lista de reyes más antigua y las crecidas del Nilo.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 1 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancient-records-of-egypt-historical-documents-from-the-earliest-times-to-the-per_202103",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Piedra de Palermo",
+        "en": "Palermo Stone"
+      }
+    },
+    {
+      "id": "textos-de-las-piramides",
+      "titulo": "Textos de las Pirámides",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -2350,
+        "anio_hasta": -2180,
+        "aprox": true,
+        "lugar": "Saqqara",
+        "lon": 31.216,
+        "lat": 29.871
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2400,
+        "hasta": -2180
+      },
+      "idioma_original": "Egipcio antiguo",
+      "soporte": "Inscripciones en muros de pirámides",
+      "resumen": "Conjunto de fórmulas y himnos grabados en las cámaras de pirámides de la dinastía V y VI, el corpus religioso más antiguo conservado de Egipto. Aseguran la resurrección del rey y su ascenso al cielo.",
+      "por_que_importa": "Muestran las creencias funerarias del Imperio Antiguo y la teología solar y osiriana en su forma más temprana.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de S. A. B. Mercer (1952), Sacred Texts",
+          "url": "https://sacred-texts.com/egy/pyt/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Textos de las Pirámides",
+        "en": "Pyramid Texts"
+      }
+    },
+    {
+      "id": "ensenanza-de-ptahhotep",
+      "titulo": "Enseñanza de Ptahhotep",
+      "titulo_original": null,
+      "autor": "Ptahhotep (atribuida)",
+      "autor_id": "ptahhotep",
+      "tipo": "primaria",
+      "genero": "sabiduria",
+      "escrita": {
+        "anio": -2400,
+        "anio_hasta": -2200,
+        "aprox": true,
+        "lugar": "Menfis",
+        "lon": 31.255,
+        "lat": 29.845
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2400,
+        "hasta": -2200
+      },
+      "idioma_original": "Egipcio antiguo",
+      "soporte": "Papiros (Papiro Prisse, Imperio Medio)",
+      "resumen": "Colección de máximas atribuida al visir Ptahhotep, que habría servido bajo el rey Isesi (dinastía V). Los manuscritos conservados son del Imperio Medio; la datación de la composición es discutida.",
+      "por_que_importa": "Es un ejemplo temprano de literatura sapiencial sobre conducta, autoridad y trato con superiores e inferiores.",
+      "leer": [
+        {
+          "titulo": "The Instruction of Ptah-Hotep and Ke'Gemni, Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/30508",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "baja",
+      "wikipedia": {
+        "es": "Instrucciones de Ptahhotep",
+        "en": "The Maxims of Ptahhotep"
+      }
+    },
+    {
+      "id": "historia-de-sinuhe",
+      "titulo": "Historia de Sinuhé",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": -1900,
+        "anio_hasta": -1800,
+        "aprox": true,
+        "lugar": "Itjtauy (Lisht)",
+        "lon": 31.225,
+        "lat": 29.57
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1960,
+        "hasta": -1920
+      },
+      "idioma_original": "Egipcio medio",
+      "soporte": "Papiros y óstracas",
+      "resumen": "Relato de un cortesano que huye de Egipto tras la muerte de Amenemhat I, vive entre los asiáticos del Levante y regresa ya anciano al perdón del rey Sesostris I.",
+      "por_que_importa": "Retrato del Imperio Medio y de la visión egipcia del mundo asiático, y obra maestra de la lengua clásica.",
+      "leer": [
+        {
+          "titulo": "Maspero, Popular Stories of Ancient Egypt (1915), Internet Archive",
+          "url": "https://archive.org/details/cu31924091207393",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Historia de Sinuhé",
+        "en": "Story of Sinuhe"
+      }
+    },
+    {
+      "id": "textos-de-los-sarcofagos",
+      "titulo": "Textos de los Sarcófagos",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -2100,
+        "anio_hasta": -1800,
+        "aprox": true,
+        "lugar": "Deir el-Bersha",
+        "lon": 30.89,
+        "lat": 27.75
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2100,
+        "hasta": -1800
+      },
+      "idioma_original": "Egipcio medio",
+      "soporte": "Inscripciones en ataúdes de madera",
+      "resumen": "Fórmulas funerarias pintadas en ataúdes del Primer Período Intermedio y del Imperio Medio, heredadas en parte de los Textos de las Pirámides y ahora al alcance de particulares.",
+      "por_que_importa": "Documentan la democratización de la vida de ultratumba y son el antecedente del Libro de los Muertos.",
+      "leer": [],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Textos de los sarcófagos",
+        "en": "Coffin Texts"
+      }
+    },
+    {
+      "id": "papiro-westcar",
+      "titulo": "Papiro Westcar",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": -1600,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2600,
+        "hasta": -2450
+      },
+      "idioma_original": "Egipcio medio",
+      "soporte": "Papiro hierático (Berlín)",
+      "resumen": "Colección de cuentos de magos contados al rey Keops, con el nacimiento de los tres primeros reyes de la dinastía V. El manuscrito es de la época de los hicsos; la procedencia exacta se ignora.",
+      "por_que_importa": "Muestra cómo los egipcios del Imperio Medio imaginaban la corte de las pirámides.",
+      "leer": [
+        {
+          "titulo": "Petrie, Egyptian Tales, Primera serie (1913), Internet Archive",
+          "url": "https://archive.org/details/egyptiantalestra00petruoft",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "baja",
+      "wikipedia": {
+        "es": "Papiro Westcar",
+        "en": "Westcar Papyrus"
+      }
+    },
+    {
+      "id": "papiro-ebers",
+      "titulo": "Papiro Ebers",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": -1550,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1550,
+        "hasta": -1500
+      },
+      "idioma_original": "Egipcio medio (hierático)",
+      "soporte": "Rollo de papiro (Leipzig)",
+      "resumen": "El tratado médico egipcio más largo conservado: más de 700 fórmulas y remedios, descripciones de enfermedades y conjuros. Fue comprado en Luxor por Georg Ebers en 1873.",
+      "por_que_importa": "Informa de la farmacopea y las ideas médicas egipcias y de su mezcla de práctica y magia.",
+      "leer": [
+        {
+          "titulo": "Ebers, Papyrus Ebers (edición facsimilar de 1875), Internet Archive",
+          "url": "https://archive.org/details/IA40152122_0135",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Papiro Ebers",
+        "en": "Ebers Papyrus"
+      }
+    },
+    {
+      "id": "papiro-edwin-smith",
+      "titulo": "Papiro Edwin Smith",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": -1600,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3000,
+        "hasta": -1600
+      },
+      "idioma_original": "Egipcio medio (hierático)",
+      "soporte": "Rollo de papiro",
+      "resumen": "Tratado de cirugía de traumatismos con 48 casos ordenados de la cabeza hacia abajo. Es una copia del siglo XVII a. C. de un texto probablemente más antiguo.",
+      "por_que_importa": "Es el primer texto médico con un método empírico de diagnóstico y pronóstico.",
+      "leer": [],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Papiro Edwin Smith",
+        "en": "Edwin Smith Papyrus"
+      }
+    },
+    {
+      "id": "libro-de-los-muertos",
+      "titulo": "Libro de los Muertos",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -1550,
+        "anio_hasta": -50,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1550,
+        "hasta": -50
+      },
+      "idioma_original": "Egipcio medio y tardío",
+      "soporte": "Papiros, vendas y paredes de tumbas",
+      "resumen": "Colección de conjuros (llamados por los egipcios Libro de salir al día) que se escribían en papiros y se colocaban junto al muerto, con el capítulo 125 del juicio ante Osiris.",
+      "por_que_importa": "Es la fuente principal de las creencias egipcias sobre el más allá en el Imperio Nuevo y después.",
+      "leer": [
+        {
+          "titulo": "Budge, The Book of the Dead, Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7145",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Libro de los muertos",
+        "en": "Book of the Dead"
+      }
+    },
+    {
+      "id": "gran-himno-a-aton",
+      "titulo": "Gran Himno a Atón",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -1345,
+        "aprox": true,
+        "lugar": "Amarna",
+        "lon": 30.896,
+        "lat": 27.645
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1353,
+        "hasta": -1336
+      },
+      "idioma_original": "Egipcio medio tardío",
+      "soporte": "Inscripción en la tumba de Ay en Amarna",
+      "resumen": "Himno al disco solar Atón, compuesto en tiempos de Akenatón y conservado en la tumba de Ay. Celebra a Atón como creador y sustento de todos los pueblos.",
+      "por_que_importa": "Es la expresión central de la religión de Amarna, tantas veces comparada con el salmo 104.",
+      "leer": [
+        {
+          "titulo": "Great Hymn to the Aten, Wikisource",
+          "url": "https://en.wikisource.org/wiki/Great_Hymn_to_the_Aten",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Himno a Atón",
+        "en": "Great Hymn to the Aten"
+      }
+    },
+    {
+      "id": "cartas-de-amarna",
+      "titulo": "Cartas de Amarna",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": -1350,
+        "anio_hasta": -1332,
+        "aprox": true,
+        "lugar": "Amarna",
+        "lon": 30.896,
+        "lat": 27.645
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante"
+        ],
+        "desde": -1360,
+        "hasta": -1332
+      },
+      "idioma_original": "Acadio (lengua diplomática)",
+      "soporte": "Tablillas de arcilla",
+      "resumen": "Unas 380 tablillas con la correspondencia diplomática de los faraones Amenhotep III y Akenatón con los reyes de Babilonia, Mitani, Hatti y los gobernantes vasallos del Levante.",
+      "por_que_importa": "Muestran el sistema de relaciones internacionales de la Edad del Bronce Tardío.",
+      "leer": [
+        {
+          "titulo": "Knudtzon, Die El-Amarna-Tafeln (1915), Internet Archive",
+          "url": "https://archive.org/details/dieelamarnatafel01knud",
+          "idioma": "de",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Los textos de Tell el-Amarna, en «Egyptian Literature» (Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Egyptian_Literature/The_Tell_Amarna_Tablets",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Cartas de Amarna",
+        "en": "Amarna letters"
+      }
+    },
+    {
+      "id": "poema-de-pentaur",
+      "titulo": "Poema de Pentaur (Poema de Qadesh)",
+      "titulo_original": null,
+      "autor": "Pentaur (atribuido)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -1270,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante"
+        ],
+        "desde": -1274,
+        "hasta": -1274
+      },
+      "idioma_original": "Egipcio medio tardío",
+      "soporte": "Inscripciones en templos y papiros",
+      "resumen": "Relato en verso de la batalla de Qadesh en el año 5 de Ramsés II, grabado en Karnak, Luxor, Abidos, el Ramesseum y Abu Simbel y copiado en papiros. Atribuido al escriba Pentaur por un papiro.",
+      "por_que_importa": "Es propaganda real, pero junto a las fuentes hititas permite estudiar una de las mayores batallas de la Antigüedad.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 3 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof03brea_0",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Poema de Pentaur",
+        "en": "Kadesh inscriptions"
+      }
+    },
+    {
+      "id": "tratado-egipcio-hitita",
+      "titulo": "Tratado egipcio-hitita",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -1259,
+        "aprox": true,
+        "lugar": "Pi-Ramsés",
+        "lon": 31.83,
+        "lat": 30.8
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante"
+        ],
+        "desde": -1259,
+        "hasta": -1259
+      },
+      "idioma_original": "Egipcio y acadio",
+      "soporte": "Estela en Karnak y tablilla de arcilla en Hattusa",
+      "resumen": "Tratado de paz entre Ramsés II y el rey hitita Hattusili III en el año 21 del primero. Se conservan versiones egipcia (en Karnak y el Ramesseum) e hitita (en acadio), con cláusulas de alianza y extradición.",
+      "por_que_importa": "Es el tratado internacional más antiguo cuyo texto se conserva en ambas versiones.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 3 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof03brea_0",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Tratado de Qadesh",
+        "en": "Egyptian–Hittite peace treaty"
+      }
+    },
+    {
+      "id": "papiro-abbott",
+      "titulo": "Papiro Abbott (juicios por robo de tumbas)",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -1110,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1110,
+        "hasta": -1100
+      },
+      "idioma_original": "Egipcio tardío (hierático)",
+      "soporte": "Papiro",
+      "resumen": "Informe de una comisión que inspecciona las tumbas reales de Tebas en tiempos de Ramsés IX. Forma parte del conjunto de papiros de los procesos por robo de tumbas.",
+      "por_que_importa": "Muestra la crisis de seguridad y de autoridad del final del Imperio Nuevo.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 4 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof04brea",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Papiro Abbott",
+        "en": "Abbott Papyrus"
+      }
+    },
+    {
+      "id": "papiros-de-elefantina",
+      "titulo": "Papiros de Elefantina",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": -495,
+        "anio_hasta": -399,
+        "lugar": "Elefantina",
+        "lon": 32.887,
+        "lat": 24.085
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -495,
+        "hasta": -399
+      },
+      "idioma_original": "Arameo",
+      "soporte": "Papiros",
+      "resumen": "Archivo de contratos, cartas y documentos de la guarnición judía y aramea de Elefantina durante el dominio persa, incluida la petición de reconstruir su templo de Yahvé.",
+      "por_que_importa": "Es el principal archivo para la vida cotidiana bajo los persas y para la historia del judaísmo antiguo fuera de Judea.",
+      "leer": [
+        {
+          "titulo": "Cowley, Aramaic Papyri of the Fifth Century B.C. (1923), Internet Archive",
+          "url": "https://archive.org/details/aramaicpapyrioff00ahikuoft",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Papiros de Elefantina",
+        "en": "Elephantine papyri and ostraca"
+      }
+    },
+    {
+      "id": "piedra-de-rosetta",
+      "titulo": "Piedra de Rosetta",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -196,
+        "lugar": "Menfis",
+        "lon": 31.255,
+        "lat": 29.845
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -196,
+        "hasta": -196
+      },
+      "idioma_original": "Jeroglífico, demótico y griego",
+      "soporte": "Estela de granodiorita",
+      "resumen": "Decreto sacerdotal de Menfis en honor a Ptolomeo V, grabado en tres escrituras. Fue hallada en 1799 en Rosetta por soldados franceses.",
+      "por_que_importa": "La versión griega permitió descifrar los jeroglíficos en el siglo XIX.",
+      "leer": [
+        {
+          "titulo": "Budge, The Rosetta Stone, Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48649",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Piedra de Rosetta",
+        "en": "Rosetta Stone"
+      }
+    },
+    {
+      "id": "papiros-de-oxirrinco",
+      "titulo": "Papiros de Oxirrinco",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": -250,
+        "anio_hasta": 700,
+        "aprox": true,
+        "lugar": "Oxirrinco",
+        "lon": 30.66,
+        "lat": 28.545
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -250,
+        "hasta": 700
+      },
+      "idioma_original": "Griego (y copto, latín, árabe)",
+      "soporte": "Papiros hallados en los basureros de la ciudad",
+      "resumen": "Cientos de miles de fragmentos de la ciudad de Oxirrinco, desde contratos y cartas hasta textos literarios y cristianos. Las primeras excavaciones fueron de Grenfell y Hunt a partir de 1896.",
+      "por_que_importa": "Ofrecen la mejor imagen de la vida cotidiana en el Egipto grecorromano y bizantino.",
+      "leer": [
+        {
+          "titulo": "Grenfell y Hunt (eds.), The Oxyrhynchus Papyri, parte I (1898), Internet Archive",
+          "url": "https://archive.org/details/oxyrhynchuspapyr01gren",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Papiros de Oxirrinco",
+        "en": "Oxyrhynchus Papyri"
+      }
+    },
+    {
+      "id": "historias-de-herodoto-libros-ii-iii",
+      "titulo": "Historias, libros II y III (Euterpe y Talía)",
+      "titulo_original": "Ἱστορίαι",
+      "autor": "Heródoto",
+      "autor_id": "herodoto",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -440,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -525
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Rollo de papiro",
+      "resumen": "El libro II describe Egipto, su geografía, costumbres, religión y la historia de sus reyes; el III, la conquista persa de Cambises. Heródoto visitó Egipto hacia mediados del siglo V a. C. y recoge lo que le contaron los sacerdotes.",
+      "por_que_importa": "Es la fuente griega más antigua y célebre sobre Egipto, con errores y datos valiosos.",
+      "leer": [
+        {
+          "titulo": "Heródoto, Historias II, trad. A. D. Godley (Perseus)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D2",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Heródoto, Historias III, trad. A. D. Godley (Perseus)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D3",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Historias (Heródoto)",
+        "en": "Histories (Herodotus)"
+      }
+    },
+    {
+      "id": "aegyptiaca-de-maneton",
+      "titulo": "Aegyptiaca (Historia de Egipto)",
+      "titulo_original": null,
+      "autor": "Manetón",
+      "autor_id": "maneton",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -280,
+        "aprox": true,
+        "lugar": "Heliópolis",
+        "lon": 31.3,
+        "lat": 30.13
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -343
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Obra perdida, conservada en fragmentos citados por Josefo, Africano y Eusebio",
+      "resumen": "Historia de Egipto en tres libros, escrita para el rey ptolemaico por un sacerdote egipcio. Se perdió, pero su división en 30 dinastías sigue siendo la base de la cronología.",
+      "por_que_importa": "Nos legó la división en dinastías, a menudo discutida pero indispensable.",
+      "leer": [
+        {
+          "titulo": "Manetón, trad. W. G. Waddell (LacusCurtius, Loeb 1940)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Manetho/home.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Aegyptiaca",
+        "en": "Aegyptiaca"
+      }
+    },
+    {
+      "id": "biblioteca-historica-diodoro-libro-i",
+      "titulo": "Biblioteca histórica, libro I",
+      "titulo_original": null,
+      "autor": "Diodoro Sículo",
+      "autor_id": "diodoro-siculo",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -60,
+        "anio_hasta": -30,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.496,
+        "lat": 41.903
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -60
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Rollo de papiro",
+      "resumen": "El libro I de Diodoro trata de los orígenes mitológicos y de la historia de Egipto, con descripciones del Nilo y los reyes, tomadas de Hecateo de Abdera y otros.",
+      "por_que_importa": "Es una de las pocas descripciones extensas de Egipto en la Antigüedad.",
+      "leer": [
+        {
+          "titulo": "Diodoro Sículo, libro I, caps. 1-29 (LacusCurtius)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/1A*.html",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Diodoro Sículo (LacusCurtius, índice)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/home.html",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Biblioteca histórica",
+        "en": "Bibliotheca Historica"
+      }
+    },
+    {
+      "id": "geografia-de-estrabon-libro-xvii",
+      "titulo": "Geografía, libro XVII",
+      "titulo_original": null,
+      "autor": "Estrabón",
+      "autor_id": "estrabon",
+      "tipo": "secundaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": 1,
+        "anio_hasta": 23,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.496,
+        "lat": 41.903
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -330,
+        "hasta": 25
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Rollo de papiro",
+      "resumen": "El libro XVII describe Egipto y el norte de África, incluida Alejandría, sus puertos, el Museo y las ciudades del Nilo, en parte por la visita del autor hacia el 25-20 a. C.",
+      "por_que_importa": "Da la imagen de Egipto en la época de la anexión romana.",
+      "leer": [
+        {
+          "titulo": "Estrabón, Geografía XVII, trad. H. L. Jones (Perseus)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0239%3Abook%3D17",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Geografía (Estrabón)",
+        "en": "Geographica"
+      }
+    },
+    {
+      "id": "sobre-isis-y-osiris",
+      "titulo": "Sobre Isis y Osiris",
+      "titulo_original": "Περὶ Ἴσιδος καὶ Ὀσίριδος",
+      "autor": "Plutarco",
+      "autor_id": "plutarco",
+      "tipo": "secundaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 120,
+        "aprox": true,
+        "lugar": "Queronea",
+        "lon": 22.85,
+        "lat": 38.49
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": 120
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Rollo de papiro",
+      "resumen": "Tratado de Plutarco sobre el mito de Isis y Osiris, con interpretaciones filosóficas. Es la narración más completa del mito en la Antigüedad.",
+      "por_que_importa": "Muestra cómo un griego culto del siglo II entendía la religión egipcia.",
+      "leer": [
+        {
+          "titulo": "Plutarco, Sobre Isis y Osiris (LacusCurtius)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*/home.html",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "contra-apion",
+      "titulo": "Contra Apión",
+      "titulo_original": null,
+      "autor": "Flavio Josefo",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 95,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.496,
+        "lat": 41.903
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -1650,
+        "hasta": 100
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Rollo de papiro",
+      "resumen": "Defensa del judaísmo escrita por Flavio Josefo. Cita a Manetón sobre los hicsos y el éxodo, lo que la hace fuente indirecta de la Aegyptiaca.",
+      "por_que_importa": "Gran parte de lo que se conserva de Manetón proviene de aquí.",
+      "leer": [
+        {
+          "titulo": "Flavio Josefo, Contra Apión (Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Against_Apion",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Contra Apión",
+        "en": "Against Apion"
+      }
+    },
+    {
+      "id": "khitat-de-al-maqrizi",
+      "titulo": "Al-Mawāʿiẓ wa-l-iʿtibār (Khitat)",
+      "titulo_original": null,
+      "autor": "Al-Maqrizi",
+      "autor_id": "al-maqrizi",
+      "tipo": "secundaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": 1430,
+        "anio_hasta": 1441,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": 1440
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscrito",
+      "resumen": "Gran descripción topográfica e histórica de Egipto y El Cairo, con noticias de las ciudades, monumentos, barrios, religiones y la historia egipcia desde la Antigüedad.",
+      "por_que_importa": "Es la fuente medieval más rica sobre El Cairo y su pasado.",
+      "leer": [
+        {
+          "titulo": "Al-Maqrizi, Khitat, ed. Wiet (IFAO, 1924), Internet Archive",
+          "url": "https://archive.org/details/MIFAO49",
+          "idioma": "ar",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "baja"
+    },
+    {
+      "id": "suluk-de-al-maqrizi",
+      "titulo": "Kitāb al-Sulūk (Historia de los sultanes mamelucos)",
+      "titulo_original": null,
+      "autor": "Al-Maqrizi",
+      "autor_id": "al-maqrizi",
+      "tipo": "secundaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1430,
+        "anio_hasta": 1442,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": 1171,
+        "hasta": 1440
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscrito",
+      "resumen": "Crónica de Egipto bajo los ayubíes y mamelucos, de Saladino al propio tiempo del autor.",
+      "por_que_importa": "Fundamental para la historia de los sultanes de El Cairo.",
+      "leer": [
+        {
+          "titulo": "Al-Maqrizi, Histoire des sultans mamlouks, trad. Quatremère (1837)",
+          "url": "https://archive.org/details/bub_gb_y1QoAAAAYAAJ",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "baja"
+    },
+    {
+      "id": "relacion-de-egipto-abd-al-latif",
+      "titulo": "Relación de Egipto (Kitāb al-ifāda wa-l-iʿtibār)",
+      "titulo_original": null,
+      "autor": "Abd al-Latif al-Baghdadi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1203,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": 1190,
+        "hasta": 1200
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscrito",
+      "resumen": "Descripción de Egipto del médico bagdadí Abd al-Latif, que vivió allí a fines del siglo XII: pirámides, vida cotidiana y la hambruna de 1200-1202.",
+      "por_que_importa": "Testigo directo de la vida de Egipto en tiempos de los ayubíes.",
+      "leer": [
+        {
+          "titulo": "Abd al-Latif, Relation de l'Égypte, trad. S. de Sacy (1810)",
+          "url": "https://archive.org/details/bub_gb_tNivq4w3_EAC",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "baja"
+    },
+    {
+      "id": "description-de-l-egypte",
+      "titulo": "Description de l'Égypte",
+      "titulo_original": null,
+      "autor": "Comisión de Ciencias y Artes de Egipto",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1809,
+        "anio_hasta": 1829,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": 1801
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libros ilustrados",
+      "resumen": "Obra monumental de los sabios que acompañaron a Napoleón en Egipto, con láminas de monumentos, historia natural y estado moderno del país.",
+      "por_que_importa": "Fundó la egiptología con sus dibujos de monumentos hoy alterados.",
+      "leer": [
+        {
+          "titulo": "Description de l'Égypte (Wikisource francés)",
+          "url": "https://fr.wikisource.org/wiki/Description_de_l%E2%80%99%C3%89gypte",
+          "idioma": "fr",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Description de l'Égypte (Biblioteca de Alejandría)",
+          "url": "https://descegy.bibalex.org/",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Description de l'Égypte",
+        "en": "Description de l'Égypte"
+      }
+    },
+    {
+      "id": "lettre-a-m-dacier",
+      "titulo": "Lettre à M. Dacier",
+      "titulo_original": null,
+      "autor": "Jean-François Champollion",
+      "autor_id": "champollion",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1822,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -196,
+        "hasta": 400
+      },
+      "idioma_original": "Francés",
+      "soporte": "Carta impresa",
+      "resumen": "Carta de Champollion al secretario de la Academia en que anuncia su método de lectura de los nombres reales en jeroglíficos, base del desciframiento.",
+      "por_que_importa": "Texto fundador de la egiptología moderna.",
+      "leer": [
+        {
+          "titulo": "Champollion, Lettre à M. Dacier (1822), Internet Archive",
+          "url": "https://archive.org/details/bub_gb_h7H_eE4Gl58C",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "precis-du-systeme-hieroglyphique",
+      "titulo": "Précis du système hiéroglyphique",
+      "titulo_original": null,
+      "autor": "Jean-François Champollion",
+      "autor_id": "champollion",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1824,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": 400
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro impreso",
+      "resumen": "Primera exposición sistemática del sistema de escritura jeroglífica, con signos fonéticos, ideográficos y determinativos.",
+      "por_que_importa": "Estableció que la escritura combinaba sonidos y significados.",
+      "leer": [
+        {
+          "titulo": "Champollion, Précis du système hiéroglyphique (1824), Internet Archive",
+          "url": "https://archive.org/details/prcisdusystm00cham",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "ancient-records-of-egypt",
+      "titulo": "Ancient Records of Egypt",
+      "titulo_original": null,
+      "autor": "James Henry Breasted",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1906,
+        "anio_hasta": 1907,
+        "lugar": "Chicago",
+        "lon": -87.63,
+        "lat": 41.878
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -525
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libros impresos",
+      "resumen": "Edición en cinco volúmenes de traducciones de inscripciones históricas egipcias, desde los orígenes hasta la conquista persa.",
+      "por_que_importa": "Compilación clásica de documentos históricos, todavía muy citada.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 1 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancient-records-of-egypt-historical-documents-from-the-earliest-times-to-the-per_202103",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 2 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof02brea",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 3 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof03brea_0",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, vol. 4 (1906), Internet Archive",
+          "url": "https://archive.org/details/ancientrecordsof04brea",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "a-history-of-egypt-breasted",
+      "titulo": "A History of Egypt from the Earliest Times to the Persian Conquest",
+      "titulo_original": null,
+      "autor": "James Henry Breasted",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1905,
+        "lugar": "Chicago",
+        "lon": -87.63,
+        "lat": 41.878
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -525
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Síntesis de la historia del Egipto antiguo del fundador del Instituto Oriental de la Universidad de Chicago.",
+      "por_que_importa": "Muestra cómo se entendía la historia del Egipto antiguo a comienzos del siglo XX.",
+      "leer": [
+        {
+          "titulo": "Breasted, A History of Egypt (1905), Internet Archive",
+          "url": "https://archive.org/details/historyegyptfro00brea",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "a-history-of-egypt-petrie",
+      "titulo": "A History of Egypt, vol. I (hasta la dinastía XVI)",
+      "titulo_original": null,
+      "autor": "W. M. Flinders Petrie",
+      "autor_id": "petrie",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1894,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -1550
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Primer volumen de la historia de Egipto de Flinders Petrie, basado en sus excavaciones y en su método de seriación de hallazgos.",
+      "por_que_importa": "Obra del arqueólogo que sistematizó el método de excavación en Egipto.",
+      "leer": [
+        {
+          "titulo": "Petrie, A History of Egypt, vol. I (1894), Internet Archive",
+          "url": "https://archive.org/details/historyofegyptfr0001wmfl",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "egypt-of-the-pharaohs",
+      "titulo": "Egypt of the Pharaohs",
+      "titulo_original": null,
+      "autor": "Alan H. Gardiner",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1961,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -332
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Introducción general a la historia del Egipto faraónico por un gran filólogo.",
+      "por_que_importa": "Obra de referencia durante décadas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ancient-egypt-anatomy-of-a-civilization",
+      "titulo": "Ancient Egypt: Anatomy of a Civilization",
+      "titulo_original": null,
+      "autor": "Barry J. Kemp",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1989,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.205
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -3100,
+        "hasta": -1069
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Estudio de la sociedad egipcia desde la arqueología, la economía y la ideología, a cargo de un arqueólogo de Cambridge.",
+      "por_que_importa": "Un enfoque antropológico de la historia egipcia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "oxford-history-of-ancient-egypt",
+      "titulo": "The Oxford History of Ancient Egypt",
+      "titulo_original": null,
+      "autor": "Ian Shaw (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -5300,
+        "hasta": -332
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Historia colectiva del Egipto antiguo dirigida por Ian Shaw, con capítulos de especialistas y la cronología convencional.",
+      "por_que_importa": "Es la referencia habitual de la cronología.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ancient-egyptian-literature-lichtheim",
+      "titulo": "Ancient Egyptian Literature",
+      "titulo_original": null,
+      "autor": "Miriam Lichtheim",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1973,
+        "anio_hasta": 1980,
+        "lugar": "Berkeley",
+        "lon": -122.273,
+        "lat": 37.872
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2600,
+        "hasta": -300
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libros impresos (3 vols.)",
+      "resumen": "Antología comentada de textos egipcios traducidos al inglés, en tres volúmenes.",
+      "por_que_importa": "Traducción de referencia de la literatura egipcia.",
+      "leer": [],
+      "confianza": "alta"
+    }
+  ],
+  "personas": [
+    {
+      "id": "narmer",
+      "nombre": "Narmer (Menes)",
+      "nacimiento": null,
+      "muerte": null,
+      "activo": {
+        "lugar": "Hieracómpolis",
+        "lon": 32.779,
+        "lat": 25.098
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de fines del Predinástico, al que se asocia con la unificación. Se lo suele identificar con el Menes de las listas reales, aunque la identidad es debatida.",
+      "obras": [
+        "paleta-de-narmer"
+      ],
+      "wikipedia": {
+        "es": "Narmer",
+        "en": "Narmer"
+      }
+    },
+    {
+      "id": "imhotep",
+      "nombre": "Imhotep",
+      "nacimiento": null,
+      "muerte": null,
+      "activo": {
+        "lugar": "Saqqara",
+        "lon": 31.216,
+        "lat": 29.871
+      },
+      "roles": [
+        "arquitecto",
+        "visir"
+      ],
+      "resumen": "Alto funcionario de Dyeser (dinastía III), tradicionalmente arquitecto de la pirámide escalonada de Saqqara. Fue divinizado siglos después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Imhotep",
+        "en": "Imhotep"
+      }
+    },
+    {
+      "id": "ptahhotep",
+      "nombre": "Ptahhotep",
+      "nacimiento": null,
+      "muerte": null,
+      "activo": {
+        "lugar": "Menfis",
+        "lon": 31.255,
+        "lat": 29.845
+      },
+      "roles": [
+        "visir",
+        "escriba"
+      ],
+      "resumen": "Visir del rey Isesi (dinastía V), al que se atribuye una famosa enseñanza sapiencial. Es dudoso que la compusiera él.",
+      "obras": [
+        "ensenanza-de-ptahhotep"
+      ],
+      "wikipedia": {
+        "es": "Ptahhotep",
+        "en": "Ptahhotep"
+      }
+    },
+    {
+      "id": "hatshepsut",
+      "nombre": "Hatshepsut",
+      "nacimiento": null,
+      "muerte": {
+        "anio": -1458,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "activo": {
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "roles": [
+        "faraona"
+      ],
+      "resumen": "Reina de la dinastía XVIII que gobernó como rey de c. 1479 a 1458 a. C., con una célebre expedición a Punt y su templo de Deir el-Bahari.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hatshepsut",
+        "en": "Hatshepsut"
+      }
+    },
+    {
+      "id": "tutmosis-iii",
+      "nombre": "Tutmosis III",
+      "nacimiento": null,
+      "muerte": {
+        "anio": -1425,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "activo": {
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "roles": [
+        "faraón",
+        "militar"
+      ],
+      "resumen": "Faraón de la dinastía XVIII, gobernó nominalmente desde c. 1479 y en solitario desde 1458 a. C.; encabezó 17 campañas en el Levante, entre ellas Meguido.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tutmosis III",
+        "en": "Thutmose III"
+      }
+    },
+    {
+      "id": "akenaton",
+      "nombre": "Akenatón (Amenhotep IV)",
+      "nacimiento": null,
+      "muerte": {
+        "anio": -1336,
+        "aprox": true,
+        "lugar": "Amarna",
+        "lon": 30.896,
+        "lat": 27.645
+      },
+      "activo": {
+        "lugar": "Amarna",
+        "lon": 30.896,
+        "lat": 27.645
+      },
+      "roles": [
+        "faraón",
+        "reformador religioso"
+      ],
+      "resumen": "Faraón de la dinastía XVIII (c. 1353-1336 a. C.) que promovió el culto exclusivo a Atón y fundó Ajetatón (Amarna).",
+      "obras": [
+        "gran-himno-a-aton",
+        "cartas-de-amarna"
+      ],
+      "wikipedia": {
+        "es": "Akenatón",
+        "en": "Akhenaten"
+      }
+    },
+    {
+      "id": "nefertiti",
+      "nombre": "Nefertiti",
+      "nacimiento": null,
+      "muerte": null,
+      "activo": {
+        "lugar": "Amarna",
+        "lon": 30.896,
+        "lat": 27.645
+      },
+      "roles": [
+        "reina"
+      ],
+      "resumen": "Gran esposa real de Akenatón, con un papel destacado en el culto de Atón. Su destino final es incierto.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nefertiti",
+        "en": "Nefertiti"
+      }
+    },
+    {
+      "id": "ramses-ii",
+      "nombre": "Ramsés II",
+      "nacimiento": {
+        "anio": -1303,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -1213,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Pi-Ramsés",
+        "lon": 31.83,
+        "lat": 30.8
+      },
+      "roles": [
+        "faraón"
+      ],
+      "resumen": "Faraón de la dinastía XIX que reinó unos 66 años (c. 1279-1213 a. C.). Protagonista de Qadesh y del tratado con los hititas.",
+      "obras": [
+        "poema-de-pentaur",
+        "tratado-egipcio-hitita"
+      ],
+      "wikipedia": {
+        "es": "Ramsés II",
+        "en": "Ramesses II"
+      }
+    },
+    {
+      "id": "maneton",
+      "nombre": "Manetón",
+      "nacimiento": null,
+      "muerte": null,
+      "activo": {
+        "lugar": "Heliópolis",
+        "lon": 31.3,
+        "lat": 30.13
+      },
+      "roles": [
+        "sacerdote",
+        "historiador"
+      ],
+      "resumen": "Sacerdote egipcio, de Heliópolis o Sebenito, que escribió bajo los primeros Ptolomeos (siglo III a. C.) una historia de Egipto en griego.",
+      "obras": [
+        "aegyptiaca-de-maneton"
+      ],
+      "wikipedia": {
+        "es": "Manetón",
+        "en": "Manetho"
+      }
+    },
+    {
+      "id": "ptolomeo-i",
+      "nombre": "Ptolomeo I Sóter",
+      "nacimiento": {
+        "anio": -367,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -283,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "activo": {
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "roles": [
+        "rey",
+        "general"
+      ],
+      "resumen": "General de Alejandro que se hizo con Egipto en -323 y fundó la dinastía ptolemaica; se proclamó rey en -305. Sus fechas de nacimiento son aproximadas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ptolomeo I",
+        "en": "Ptolemy I Soter"
+      }
+    },
+    {
+      "id": "cleopatra-vii",
+      "nombre": "Cleopatra VII",
+      "nacimiento": {
+        "anio": -69,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "muerte": {
+        "anio": -30,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "roles": [
+        "reina"
+      ],
+      "resumen": "Última reina de la dinastía ptolemaica. Aliada de Julio César y de Marco Antonio, perdió ante Octavio y se suicidó.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cleopatra",
+        "en": "Cleopatra"
+      }
+    },
+    {
+      "id": "hipatia",
+      "nombre": "Hipatia de Alejandría",
+      "nacimiento": {
+        "anio": 360,
+        "aprox": true,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "muerte": {
+        "anio": 415,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "roles": [
+        "filósofa",
+        "matemática",
+        "astrónoma"
+      ],
+      "resumen": "Maestra neoplatónica de Alejandría, asesinada por una turba cristiana en 415. Las fuentes dan para su nacimiento una fecha entre el 350 y el 370.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hipatia",
+        "en": "Hypatia"
+      }
+    },
+    {
+      "id": "diodoro-siculo",
+      "nombre": "Diodoro Sículo",
+      "nacimiento": {
+        "anio": -90,
+        "aprox": true,
+        "lugar": "Agira",
+        "lon": 14.52,
+        "lat": 37.65
+      },
+      "muerte": {
+        "anio": -30,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.496,
+        "lat": 41.903
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador siciliano que escribió en la época de César y Augusto una historia universal en 40 libros, con visita a Egipto hacia -60.",
+      "obras": [
+        "biblioteca-historica-diodoro-libro-i"
+      ],
+      "wikipedia": {
+        "es": "Diodoro Sículo",
+        "en": "Diodorus Siculus"
+      }
+    },
+    {
+      "id": "estrabon",
+      "nombre": "Estrabón",
+      "nacimiento": {
+        "anio": -64,
+        "aprox": true,
+        "lugar": "Amasia",
+        "lon": 35.833,
+        "lat": 40.65
+      },
+      "muerte": {
+        "anio": 24,
+        "aprox": true
+      },
+      "roles": [
+        "geógrafo",
+        "historiador"
+      ],
+      "resumen": "Geógrafo griego de Amasia, en el Ponto; visitó Egipto con Elio Galo hacia 25-20 a. C. y escribió una Geografía en 17 libros.",
+      "obras": [
+        "geografia-de-estrabon-libro-xvii"
+      ],
+      "wikipedia": {
+        "es": "Estrabón",
+        "en": "Strabo"
+      }
+    },
+    {
+      "id": "plutarco",
+      "nombre": "Plutarco",
+      "nacimiento": {
+        "anio": 46,
+        "aprox": true,
+        "lugar": "Queronea",
+        "lon": 22.85,
+        "lat": 38.49
+      },
+      "muerte": {
+        "anio": 120,
+        "aprox": true,
+        "lugar": "Queronea",
+        "lon": 22.85,
+        "lat": 38.49
+      },
+      "roles": [
+        "biógrafo",
+        "filósofo"
+      ],
+      "resumen": "Escritor griego de Queronea, autor de las Vidas paralelas y de los Moralia, entre ellos Sobre Isis y Osiris.",
+      "obras": [
+        "sobre-isis-y-osiris"
+      ],
+      "wikipedia": {
+        "es": "Plutarco",
+        "en": "Plutarch"
+      }
+    },
+    {
+      "id": "champollion",
+      "nombre": "Jean-François Champollion",
+      "nacimiento": {
+        "anio": 1790,
+        "lugar": "Figeac",
+        "lon": 2.034,
+        "lat": 44.608
+      },
+      "muerte": {
+        "anio": 1832,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "roles": [
+        "egiptólogo",
+        "filólogo"
+      ],
+      "resumen": "Francés que descifró los jeroglíficos en 1822 a partir de la Piedra de Rosetta y de otros textos y fundó la egiptología.",
+      "obras": [
+        "lettre-a-m-dacier",
+        "precis-du-systeme-hieroglyphique"
+      ],
+      "wikipedia": {
+        "es": "Jean-François Champollion",
+        "en": "Jean-François Champollion"
+      }
+    },
+    {
+      "id": "petrie",
+      "nombre": "William Matthew Flinders Petrie",
+      "nacimiento": {
+        "anio": 1853,
+        "lugar": "Charlton",
+        "lon": 0.036,
+        "lat": 51.485
+      },
+      "muerte": {
+        "anio": 1942,
+        "lugar": "Jerusalén",
+        "lon": 35.214,
+        "lat": 31.768
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "roles": [
+        "arqueólogo",
+        "egiptólogo"
+      ],
+      "resumen": "Arqueólogo británico, primer catedrático de Egiptología en el University College de Londres; introdujo la datación por seriación.",
+      "obras": [
+        "a-history-of-egypt-petrie"
+      ],
+      "wikipedia": {
+        "es": "William Matthew Flinders Petrie",
+        "en": "Flinders Petrie"
+      }
+    },
+    {
+      "id": "al-maqrizi",
+      "nombre": "Al-Maqrizi",
+      "nacimiento": {
+        "anio": 1364,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "muerte": {
+        "anio": 1442,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador de El Cairo mameluco, autor de crónicas y de una gran descripción topográfica de Egipto.",
+      "obras": [
+        "khitat-de-al-maqrizi",
+        "suluk-de-al-maqrizi"
+      ],
+      "wikipedia": {
+        "es": "Al-Maqrizi",
+        "en": "Al-Maqrizi"
+      }
+    }
+  ],
+  "hechos": [
+    {
+      "id": "unificacion-de-egipto",
+      "titulo": "Unificación de Egipto",
+      "anio": -3100,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "politico",
+      "resumen": "Se forma el primer Estado egipcio unificado bajo los primeros reyes, con Narmer-Menes como figura tradicional. Fecha convencional; la secuencia exacta de los hechos es discutida.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "paleta-de-narmer",
+        "piedra-de-palermo",
+        "aegyptiaca-de-maneton"
+      ],
+      "wikipedia": {
+        "es": "Periodo arcaico de Egipto",
+        "en": "Early Dynastic Period of Egypt"
+      }
+    },
+    {
+      "id": "piramide-escalonada-de-saqqara",
+      "titulo": "Pirámide escalonada de Dyeser",
+      "anio": -2670,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Saqqara",
+      "lon": 31.216,
+      "lat": 29.871,
+      "tipo": "construccion",
+      "resumen": "Se levanta la primera gran construcción en piedra de Egipto, tradicionalmente obra del arquitecto Imhotep para Dyeser.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Pirámide escalonada de Zoser",
+        "en": "Pyramid of Djoser"
+      }
+    },
+    {
+      "id": "gran-piramide-de-giza",
+      "titulo": "Construcción de la Gran Pirámide",
+      "anio": -2560,
+      "anio_hasta": -2540,
+      "aprox": true,
+      "lugar": "Giza",
+      "lon": 31.134,
+      "lat": 29.979,
+      "tipo": "construccion",
+      "resumen": "Keops (dinastía IV) levanta la mayor de las pirámides de Giza en unos 20 años, según las estimaciones habituales.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "historias-de-herodoto-libros-ii-iii",
+        "biblioteca-historica-diodoro-libro-i",
+        "papiro-westcar"
+      ],
+      "wikipedia": {
+        "es": "Gran Pirámide de Guiza",
+        "en": "Great Pyramid of Giza"
+      }
+    },
+    {
+      "id": "reunificacion-de-mentuhotep-ii",
+      "titulo": "Reunificación de Egipto por Mentuhotep II",
+      "anio": -2055,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tebas",
+      "lon": 32.639,
+      "lat": 25.719,
+      "tipo": "politico",
+      "resumen": "Mentuhotep II de Tebas derrota a los reyes de Heracleópolis y reunifica el país, con lo que inicia el Imperio Medio.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Mentuhotep II",
+        "en": "Mentuhotep II"
+      }
+    },
+    {
+      "id": "expulsion-de-los-hicsos",
+      "titulo": "Expulsión de los hicsos",
+      "anio": -1550,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Avaris (Tell el-Daba)",
+      "lon": 31.82,
+      "lat": 30.79,
+      "tipo": "politico",
+      "resumen": "Ahmose I toma Avaris, expulsa a los hicsos y reunifica Egipto, con lo que inicia el Imperio Nuevo. Fecha aproximada.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "aegyptiaca-de-maneton",
+        "contra-apion"
+      ],
+      "wikipedia": {
+        "es": "Amosis I",
+        "en": "Ahmose I"
+      }
+    },
+    {
+      "id": "reinado-de-hatshepsut",
+      "titulo": "Reinado de Hatshepsut",
+      "anio": -1479,
+      "anio_hasta": -1458,
+      "aprox": true,
+      "lugar": "Deir el-Bahari",
+      "lon": 32.607,
+      "lat": 25.738,
+      "tipo": "politico",
+      "resumen": "Hatshepsut gobierna como rey; construye su templo funerario de Deir el-Bahari y envía una expedición a Punt.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Hatshepsut",
+        "en": "Hatshepsut"
+      }
+    },
+    {
+      "id": "batalla-de-meguido",
+      "titulo": "Batalla de Meguido",
+      "anio": -1457,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Meguido",
+      "lon": 35.185,
+      "lat": 32.585,
+      "tipo": "batalla",
+      "resumen": "Tutmosis III derrota a una coalición de ciudades cananeas en su primera campaña y toma Meguido tras un asedio.",
+      "regiones": [
+        "egipto",
+        "levante"
+      ],
+      "fuentes": [
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Megido (siglo XV a. C.)",
+        "en": "Battle of Megiddo (15th century BC)"
+      }
+    },
+    {
+      "id": "reforma-de-amarna",
+      "titulo": "Reforma de Amarna",
+      "anio": -1346,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Amarna",
+      "lon": 30.896,
+      "lat": 27.645,
+      "tipo": "religioso",
+      "resumen": "Akenatón impone el culto a Atón y traslada la capital a Ajetatón (Amarna). Tras su muerte se abandona la ciudad y se restaura el culto tradicional.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "gran-himno-a-aton",
+        "cartas-de-amarna"
+      ],
+      "wikipedia": {
+        "es": "Amarna",
+        "en": "Amarna"
+      }
+    },
+    {
+      "id": "batalla-de-qadesh",
+      "titulo": "Batalla de Qadesh",
+      "anio": -1274,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Qadesh",
+      "lon": 36.51,
+      "lat": 34.56,
+      "tipo": "batalla",
+      "resumen": "Ramsés II y el rey hitita Muwatalli II se enfrentan junto al Orontes en una de las mayores batallas de carros de la Antigüedad. Ambos reclamaron la victoria.",
+      "regiones": [
+        "egipto",
+        "levante"
+      ],
+      "fuentes": [
+        "poema-de-pentaur"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Qadesh",
+        "en": "Battle of Kadesh"
+      }
+    },
+    {
+      "id": "tratado-egipcio-hitita-hecho",
+      "titulo": "Tratado egipcio-hitita",
+      "anio": -1259,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Pi-Ramsés",
+      "lon": 31.83,
+      "lat": 30.8,
+      "tipo": "tratado",
+      "resumen": "Ramsés II y Hattusili III firman un tratado de paz y alianza, redactado en versiones egipcia y hitita.",
+      "regiones": [
+        "egipto",
+        "levante"
+      ],
+      "fuentes": [
+        "tratado-egipcio-hitita"
+      ],
+      "wikipedia": {
+        "es": "Tratado de Qadesh",
+        "en": "Egyptian–Hittite peace treaty"
+      }
+    },
+    {
+      "id": "procesos-por-robo-de-tumbas",
+      "titulo": "Procesos por el robo de tumbas reales",
+      "anio": -1110,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tebas",
+      "lon": 32.639,
+      "lat": 25.719,
+      "tipo": "politico",
+      "resumen": "En tiempos de Ramsés IX se investigan saqueos de las tumbas de la necrópolis de Tebas, y los papiros dejan registro de los procesos.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "papiro-abbott"
+      ]
+    },
+    {
+      "id": "conquista-persa-de-egipto",
+      "titulo": "Conquista persa de Egipto",
+      "anio": -525,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pelusio",
+      "lon": 32.55,
+      "lat": 31.05,
+      "tipo": "batalla",
+      "resumen": "Cambises II derrota al faraón Psamético III cerca de Pelusio y Egipto pasa a ser una satrapía del Imperio persa.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "historias-de-herodoto-libros-ii-iii"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Pelusio",
+        "en": "Battle of Pelusium"
+      }
+    },
+    {
+      "id": "conquista-de-alejandro",
+      "titulo": "Conquista de Egipto por Alejandro Magno",
+      "anio": -332,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "politico",
+      "resumen": "Alejandro entra en Egipto sin resistencia seria, es aceptado como faraón y visita el oasis de Siwa.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Alejandro Magno",
+        "en": "Alexander the Great"
+      }
+    },
+    {
+      "id": "fundacion-de-alejandria",
+      "titulo": "Fundación de Alejandría",
+      "anio": -331,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "fundacion",
+      "resumen": "Alejandro funda en la costa del delta la ciudad que será capital de los Ptolomeos.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-xvii"
+      ],
+      "wikipedia": {
+        "es": "Alejandría",
+        "en": "Alexandria"
+      }
+    },
+    {
+      "id": "biblioteca-de-alejandria",
+      "titulo": "Biblioteca de Alejandría",
+      "anio": -283,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "cultural",
+      "resumen": "Los primeros Ptolomeos crean el Museo y su gran biblioteca, centro de estudios del mundo helenístico. La fecha exacta es incierta.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-xvii"
+      ],
+      "wikipedia": {
+        "es": "Biblioteca de Alejandría",
+        "en": "Library of Alexandria"
+      }
+    },
+    {
+      "id": "decreto-de-menfis-piedra-de-rosetta",
+      "titulo": "Decreto de Menfis (Piedra de Rosetta)",
+      "anio": -196,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "politico",
+      "resumen": "Un sínodo de sacerdotes emite el decreto en honor de Ptolomeo V, grabado luego en la Piedra de Rosetta.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "piedra-de-rosetta"
+      ],
+      "wikipedia": {
+        "es": "Piedra de Rosetta",
+        "en": "Rosetta Stone"
+      }
+    },
+    {
+      "id": "batalla-de-accio",
+      "titulo": "Batalla de Accio",
+      "anio": -31,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Accio",
+      "lon": 20.76,
+      "lat": 38.95,
+      "tipo": "batalla",
+      "resumen": "Octavio derrota a la flota de Marco Antonio y Cleopatra en la costa de Grecia.",
+      "regiones": [
+        "egipto",
+        "levante"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-xvii"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Accio",
+        "en": "Battle of Actium"
+      }
+    },
+    {
+      "id": "anexion-romana-de-egipto",
+      "titulo": "Anexión romana de Egipto",
+      "anio": -30,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "politico",
+      "resumen": "Octavio toma Alejandría, Cleopatra se suicida y Egipto pasa a ser provincia romana, propiedad personal del emperador.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-xvii"
+      ],
+      "wikipedia": {
+        "es": "Egipto (provincia romana)",
+        "en": "Roman Egypt"
+      }
+    },
+    {
+      "id": "muerte-de-hipatia",
+      "titulo": "Asesinato de Hipatia",
+      "anio": 415,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "politico",
+      "resumen": "Hipatia es asesinada por una multitud cristiana, en el contexto de las tensiones entre el prefecto Orestes y el patriarca Cirilo.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Hipatia",
+        "en": "Hypatia"
+      }
+    },
+    {
+      "id": "conquista-arabe-de-egipto",
+      "titulo": "Conquista árabe de Egipto",
+      "anio": 639,
+      "anio_hasta": 642,
+      "aprox": false,
+      "lugar": "Fustat",
+      "lon": 31.23,
+      "lat": 30.005,
+      "tipo": "politico",
+      "resumen": "Amr ibn al-As conquista Egipto a los bizantinos, toma Babilonia (la fortaleza) y Alejandría, y funda el campamento de Fustat.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "khitat-de-al-maqrizi"
+      ],
+      "wikipedia": {
+        "es": "Conquista musulmana de Egipto",
+        "en": "Arab conquest of Egypt"
+      }
+    },
+    {
+      "id": "fundacion-de-el-cairo",
+      "titulo": "Fundación de El Cairo",
+      "anio": 969,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "tipo": "fundacion",
+      "resumen": "El general fatimí Jawhar al-Siqilli funda al-Qahira como residencia del califa; la ciudad pasa a ser la capital.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "khitat-de-al-maqrizi"
+      ],
+      "wikipedia": {
+        "es": "El Cairo",
+        "en": "Cairo"
+      }
+    },
+    {
+      "id": "expedicion-de-napoleon",
+      "titulo": "Expedición de Napoleón a Egipto",
+      "anio": 1798,
+      "anio_hasta": 1801,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "exploracion",
+      "resumen": "El ejército francés desembarca en Alejandría con una comisión de sabios; la ocupación dura hasta 1801. La expedición abre la era moderna de la egiptología.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "description-de-l-egypte"
+      ],
+      "wikipedia": {
+        "es": "Campaña napoleónica en Egipto y Siria",
+        "en": "French invasion of Egypt and Syria"
+      }
+    },
+    {
+      "id": "desciframiento-de-los-jeroglificos",
+      "titulo": "Desciframiento de los jeroglíficos",
+      "anio": 1822,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "cientifico",
+      "resumen": "Champollion anuncia en la Lettre à M. Dacier el método de lectura de la escritura jeroglífica, a partir de la Piedra de Rosetta.",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [
+        "lettre-a-m-dacier",
+        "precis-du-systeme-hieroglyphique",
+        "piedra-de-rosetta"
+      ],
+      "wikipedia": {
+        "es": "Jeroglíficos egipcios",
+        "en": "Decipherment of ancient Egyptian scripts"
+      }
+    },
+    {
+      "id": "tumba-de-tutankamon",
+      "titulo": "Descubrimiento de la tumba de Tutankamón",
+      "anio": 1922,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Valle de los Reyes",
+      "lon": 32.601,
+      "lat": 25.74,
+      "tipo": "exploracion",
+      "resumen": "Howard Carter, con el patrocinio de Lord Carnarvon, descubre la tumba casi intacta de Tutankamón (KV62).",
+      "regiones": [
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "KV62",
+        "en": "Tomb of Tutankhamun"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "menfis",
+      "nombre": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "fundacion": -3100,
+      "abandono": 641,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Imperio Antiguo y centro administrativo durante gran parte de la historia egipcia; decae con el ascenso de Alejandría y Fustat.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Menfis",
+        "en": "Memphis, Egypt"
+      }
+    },
+    {
+      "id": "tebas",
+      "nombre": "Tebas",
+      "lon": 32.639,
+      "lat": 25.719,
+      "fundacion": null,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Imperio Nuevo y ciudad de Amón; hoy Luxor y Karnak, con las necrópolis de la orilla oeste.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Tebas (Egipto)",
+        "en": "Thebes, Egypt"
+      }
+    },
+    {
+      "id": "abidos",
+      "nombre": "Abidos",
+      "lon": 31.919,
+      "lat": 26.185,
+      "fundacion": -3300,
+      "abandono": 400,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Necrópolis de los primeros reyes y centro de culto de Osiris.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Abidos",
+        "en": "Abydos, Egypt"
+      }
+    },
+    {
+      "id": "amarna",
+      "nombre": "Amarna",
+      "lon": 30.896,
+      "lat": 27.645,
+      "fundacion": -1346,
+      "abandono": -1332,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Ajetatón, capital fundada por Akenatón y abandonada tras su muerte; lugar del hallazgo de las cartas de Amarna.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Amarna",
+        "en": "Amarna"
+      }
+    },
+    {
+      "id": "alejandria",
+      "nombre": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "fundacion": -331,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "puerto",
+      "importancia": 3,
+      "resumen": "Fundada por Alejandro, capital ptolemaica y gran centro del saber, con su Museo y su Biblioteca.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Alejandría",
+        "en": "Alexandria"
+      }
+    },
+    {
+      "id": "heliopolis",
+      "nombre": "Heliópolis",
+      "lon": 31.3,
+      "lat": 30.13,
+      "fundacion": null,
+      "abandono": 400,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Gran centro del culto solar de Ra y de su teología, al noreste del actual El Cairo.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Heliópolis",
+        "en": "Heliopolis (ancient Egypt)"
+      }
+    },
+    {
+      "id": "giza",
+      "nombre": "Giza",
+      "lon": 31.134,
+      "lat": 29.979,
+      "fundacion": -2560,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Necrópolis de Menfis con las pirámides de Keops, Kefrén y Micerino y la Gran Esfinge.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Guiza",
+        "en": "Giza pyramid complex"
+      }
+    },
+    {
+      "id": "saqqara",
+      "nombre": "Saqqara",
+      "lon": 31.216,
+      "lat": 29.871,
+      "fundacion": -3000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Gran necrópolis de Menfis, con la pirámide escalonada de Dyeser y los Textos de las Pirámides.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Saqqara",
+        "en": "Saqqara"
+      }
+    },
+    {
+      "id": "elefantina",
+      "nombre": "Elefantina",
+      "lon": 32.887,
+      "lat": 24.085,
+      "fundacion": -3000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Isla fronteriza en la primera catarata, sede de una guarnición judía y aramea con sus papiros.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Elefantina",
+        "en": "Elephantine"
+      }
+    },
+    {
+      "id": "oxirrinco",
+      "nombre": "Oxirrinco",
+      "lon": 30.66,
+      "lat": 28.545,
+      "fundacion": -300,
+      "abandono": 700,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Capital de nomo en Medio Egipto, famosa por el hallazgo de miles de papiros.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Oxirrinco",
+        "en": "Oxyrhynchus"
+      }
+    },
+    {
+      "id": "pi-ramses",
+      "nombre": "Pi-Ramsés",
+      "lon": 31.83,
+      "lat": 30.8,
+      "fundacion": -1270,
+      "abandono": -1070,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Capital del delta de Ramsés II, hoy Qantir; sede de la corte durante el Imperio Nuevo tardío.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Pi-Ramsés",
+        "en": "Pi-Ramesses"
+      }
+    },
+    {
+      "id": "fustat",
+      "nombre": "Fustat",
+      "lon": 31.23,
+      "lat": 30.005,
+      "fundacion": 641,
+      "abandono": 1168,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Primera capital árabe de Egipto, fundada por Amr ibn al-As; hoy parte de El Cairo.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Fostat",
+        "en": "Fustat"
+      }
+    },
+    {
+      "id": "el-cairo",
+      "nombre": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "fundacion": 969,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Fundada por los fatimíes; capital del país y gran centro del mundo islámico.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "El Cairo",
+        "en": "Cairo"
+      }
+    },
+    {
+      "id": "deir-el-medina",
+      "nombre": "Deir el-Medina",
+      "lon": 32.601,
+      "lat": 25.729,
+      "fundacion": -1500,
+      "abandono": -1070,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Poblado de los obreros de las tumbas del Valle de los Reyes, con miles de óstracas y papiros de la vida cotidiana.",
+      "regiones": [
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Deir el-Medina",
+        "en": "Deir el-Medina"
+      }
+    }
+  ]
+}
