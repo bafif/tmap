@@ -212,6 +212,8 @@ func _tocar(escenario: String, c: Control) -> bool:
 		if _firma() == antes:
 			sin_efecto.append(nombre)
 		return true
+	# Apretar y soltar en cuadros distintos, como una persona: así salen a la luz los errores que dependen de lo que
+	# pasa en el medio (por ejemplo, perder el foco cancela el clic).
 	for apretado in [true, false]:
 		var clic := InputEventMouseButton.new()
 		clic.button_index = MOUSE_BUTTON_LEFT
@@ -219,7 +221,9 @@ func _tocar(escenario: String, c: Control) -> bool:
 		clic.position = pos
 		clic.global_position = pos
 		_interfaz.get_viewport().push_input(clic, true)
-	await _arbol.process_frame
+		await _arbol.process_frame
+		if not is_instance_valid(c):
+			break
 	await _arbol.process_frame
 	tocados += 1
 	var hizo_algo := _firma() != antes

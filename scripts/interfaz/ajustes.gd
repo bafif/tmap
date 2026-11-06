@@ -20,6 +20,9 @@ const CREDITOS := """[b]Datos[/b]
 
 var _panel: PanelContainer
 var _calidad_desc: Label
+## El contenido va en un scroll: con la sección de la enciclopedia ya no entra entero en una ventana baja.
+var _desliza: ScrollContainer
+var _contenido: VBoxContainer
 
 
 func _ready() -> void:
@@ -37,6 +40,8 @@ func _ready() -> void:
 	_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	_panel.custom_minimum_size = Vector2(620, 0)
 	add_child(_panel)
+	# Si crece (la lista de consultas), se vuelve a centrar para no salirse de la ventana.
+	_panel.resized.connect(func(): _panel.position = ((size - _panel.size) * 0.5).max(Vector2.ZERO))
 	_construir()
 
 
@@ -57,6 +62,15 @@ func _construir() -> void:
 	var cerrar_b := IconosUI.boton("cerrar", "Cerrar", 18)
 	cerrar_b.pressed.connect(cerrar)
 	cab.add_child(cerrar_b)
+	_desliza = ScrollContainer.new()
+	_desliza.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	_desliza.follow_focus = true
+	caja.add_child(_desliza)
+	caja = VBoxContainer.new()
+	caja.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	caja.add_theme_constant_override("separation", 10)
+	_desliza.add_child(caja)
+	_contenido = caja
 
 	# Vista
 	caja.add_child(_seccion("Vista"))
@@ -136,6 +150,64 @@ func _construir() -> void:
 	fila.add_child(_etiqueta("Wikipedia"))
 	fila.add_child(wiki)
 
+	# Cola de consultas sin ficha (llenado progresivo de la enciclopedia)
+	caja.add_child(_seccion("Enciclopedia"))
+	var pend := Enciclopedia.pendientes()
+	var nota := _etiqueta("Todavía no hay consultas anotadas." if pend.is_empty() else
+		"%d %s sin ficha en la enciclopedia: es lo primero que conviene completar. Se anota solo en esta computadora." % [
+			pend.size(), "lugar consultado" if pend.size() == 1 else "lugares consultados"])
+	nota.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	# Con ancho fijo: sin él, Godot calcula la altura de un texto con ajuste de línea como si entrara una letra por
+	# renglón, y el panel crece de más.
+	nota.custom_minimum_size = Vector2(580, 0)
+	caja.add_child(nota)
+	var fila_p := HBoxContainer.new()
+	fila_p.add_theme_constant_override("separation", 8)
+	caja.add_child(fila_p)
+	var lista := VBoxContainer.new()
+	lista.add_theme_constant_override("separation", 0)
+	lista.visible = false
+	var ver := Button.new()
+	ver.text = "Ver los más consultados"
+	ver.disabled = pend.is_empty()
+	ver.pressed.connect(func():
+		lista.visible = not lista.visible
+		ver.text = "Ocultar la lista" if lista.visible else "Ver los más consultados"
+		_ajustar_alto.call_deferred())
+	fila_p.add_child(ver)
+	var copiar := Button.new()
+	copiar.text = "Copiar la cola"
+	copiar.tooltip_text = "Copia la cola en JSON al portapapeles, para pegarla en un issue o dársela a tools/enciclopedia"
+	copiar.disabled = pend.is_empty()
+	copiar.pressed.connect(func():
+		DisplayServer.clipboard_set(FileAccess.get_file_as_string(Enciclopedia.RUTA_PENDIENTES))
+		copiar.text = "Copiada")
+	fila_p.add_child(copiar)
+	var carpeta := Button.new()
+	carpeta.text = "Abrir la carpeta"
+	carpeta.tooltip_text = ProjectSettings.globalize_path(Enciclopedia.RUTA_PENDIENTES)
+	carpeta.disabled = pend.is_empty()
+	carpeta.pressed.connect(func(): Estado.abrir_url(ProjectSettings.globalize_path("user://")))
+	fila_p.add_child(carpeta)
+	caja.add_child(lista)
+	for item in pend.slice(0, 8):
+		var b := Button.new()
+		b.theme_type_variation = "FilaCompacta"
+		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
+		var anios: Array = item.get("anios", [])
+		b.text = "%s   ·   %d %s%s" % [item["nombre"], int(item.get("veces", 0)), "vez" if int(item.get("veces", 0)) == 1 else "veces",
+			", hacia %s" % Fechas.texto(int(anios[0])) if not anios.is_empty() else ""]
+		b.tooltip_text = "Ir a ese lugar y año"
+		var destino: Dictionary = item
+		b.pressed.connect(func():
+			cerrar()
+			if not (destino.get("anios", []) as Array).is_empty():
+				Estado.fijar_anio(int(destino["anios"][0]))
+			var px := Proyeccion.a_px(float(destino.get("lon", 0.0)), float(destino.get("lat", 0.0)))
+			Estado.enfocar(px, 2.0)
+			Estado.seleccionar_lugar(DatosMapa.unidad_en(px), px))
+		lista.add_child(b)
+
 	# Créditos
 	caja.add_child(_seccion("Datos y créditos"))
 	var cred := RichTextLabel.new()
@@ -173,7 +245,16 @@ func abrir() -> void:
 	_construir()
 	visible = true
 	await get_tree().process_frame
-	_panel.position = (size - _panel.size) * 0.5
+	_ajustar_alto()
+
+
+## El scroll toma la altura del contenido, hasta lo que entra en la ventana; el panel queda centrado.
+func _ajustar_alto() -> void:
+	if not is_instance_valid(_contenido):
+		return
+	_desliza.custom_minimum_size.y = minf(_contenido.get_combined_minimum_size().y, maxf(size.y - 120.0, 240.0))
+	_panel.reset_size()
+	_panel.position = ((size - _panel.size) * 0.5).max(Vector2.ZERO)
 
 
 func cerrar() -> void:

@@ -92,10 +92,11 @@ func _cambiar_tema() -> void:
 ## Atajos de teclado de toda la app (los de la línea de tiempo y Esc están en sus paneles). La lista que se muestra
 ## en la ayuda está en Bienvenida.ATAJOS: si se cambia uno, cambiarlo también ahí.
 ## Con el mouse, un botón no se queda con el foco: si no, la barra espaciadora lo volvería a apretar en vez de
-## reproducir. Con el teclado (Tab) el foco sí queda, con su recuadro.
+## reproducir. Con el teclado (Tab) el foco sí queda, con su recuadro. Se suelta al soltar el botón del mouse, nunca
+## al apretarlo: perder el foco en medio del clic lo cancela.
 func _input(ev: InputEvent) -> void:
 	var b := ev as InputEventMouseButton
-	if b and b.pressed:
+	if b and not b.pressed and b.button_index == MOUSE_BUTTON_LEFT:
 		_soltar_foco.call_deferred()
 
 

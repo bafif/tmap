@@ -315,6 +315,7 @@ func _prueba_automatica() -> void:
 	clic_foco.pressed = true
 	clic_foco.position = (primero as Control).get_global_rect().get_center()
 	get_viewport().push_input(clic_foco)
+	await get_tree().process_frame
 	clic_foco = clic_foco.duplicate()
 	clic_foco.pressed = false
 	get_viewport().push_input(clic_foco)

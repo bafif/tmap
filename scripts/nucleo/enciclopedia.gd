@@ -574,6 +574,26 @@ func registrar_consulta(unidad: int, anio: int) -> void:
 		f.store_string(JSON.stringify(lista, "\t"))
 
 
+## La cola de consultas sin ficha, de la más consultada a la menos: [{clave, nombre, veces, anios, lon, lat,
+## wikidata, wikipedia}]. Es lo que conviene completar primero (docs/es/enciclopedia.md).
+func pendientes() -> Array:
+	if not FileAccess.file_exists(RUTA_PENDIENTES):
+		return []
+	var leido: Variant = JSON.parse_string(FileAccess.get_file_as_string(RUTA_PENDIENTES))
+	if not leido is Dictionary:
+		return []
+	var out: Array = []
+	for clave in leido:
+		var item: Dictionary = (leido[clave] as Dictionary).duplicate()
+		item["clave"] = clave
+		var crudo := str(clave).substr(8) if str(clave).begins_with("entidad:") else ""
+		item["nombre"] = str(DatosMapa.nombres_revisados.get(crudo, crudo)) if crudo != "" else (
+			"Lugar sin entidad (%s, %s)" % [item.get("lat", "?"), item.get("lon", "?")])
+		out.append(item)
+	out.sort_custom(func(a, b): return int(a.get("veces", 0)) > int(b.get("veces", 0)))
+	return out
+
+
 func elemento(tipo: String, id: String) -> Dictionary:
 	match tipo:
 		"fuente":

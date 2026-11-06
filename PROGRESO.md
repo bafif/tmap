@@ -29,7 +29,7 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 - [ ] **Editor de la enciclopedia dentro de Godot**, para cargar fuentes, personas, hechos y lugares con
       formularios, poner coordenadas con un clic en el mapa y validar al guardar, sin tocar JSON.
-- [ ] **Cola de consultas sin ficha.** Verla y exportarla (hoy se guarda en `user://pendientes.json`).
+
 - [ ] **Borradores desde Wikipedia y Wikidata.** Automáticos, para lo más consultado.
 - [ ] **Fichas extendidas con IA.** Que citen sus fuentes, siempre con revisión humana antes de publicarse.
 - [ ] **Revisar los datos dudosos:**
@@ -62,6 +62,13 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 6 de noviembre de 2026: enciclopedia progresiva (0.3)
+
+- [x] **Cola de consultas sin ficha** en Ajustes: cuántos lugares se consultaron sin ficha, los más consultados
+      (cada uno lleva al lugar y al año), copiar la cola en JSON y abrir su carpeta. Ajustes ahora tiene scroll.
+- [x] Arreglado antes de publicarse: al soltar el foco de los botones en el momento de apretar, Godot cancelaba el
+      clic. El recorrido de la interfaz ahora aprieta y suelta en cuadros distintos, como una persona, y lo detecta.
 
 ### 6 de noviembre de 2026: mapa (0.2)
 
