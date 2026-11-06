@@ -84,12 +84,23 @@ cambiar en vivo.
   política del 2D proyectada encima, agua con shader propio, nubes y partículas. Se va a elegir en Ajustes, con
   Forward+ (el proyecto ya está configurado así, con respaldo a OpenGL para equipos viejos).
 
+## Cómo se prueba
+
+- `godot --headless --path . -- --prueba`: recorre la app sin intervención (saltos de año, modos, selección y
+  pestañas en varios lugares del mundo, todas las fichas, búsquedas, calidades y temas) y escribe en la salida
+  cualquier error de script. Termina con «TERMINADA sin cortes».
+- `tools/captura.sh salida.png --anio=-1350 --lon=31 --lat=27.6 --zoom=1.2 --seleccionar --pestana=2`: saca una
+  captura real sin monitor (con el compositor `cage`), útil para revisar la estética y para el README.
+- `python3 tools/enciclopedia/validar.py`: valida los paquetes de la enciclopedia.
+- `python3 tools/pipeline/lamina.py ANIO x0 y0 x1 y1 salida.png`: lámina estática de alta calidad de cualquier año,
+  sin Godot (por ejemplo, [el mundo en 117 d. C.](../assets/mundo_117.png)).
+
 ## Hoja de ruta
 
 | Fase | Qué incluye |
 |---|---|
 | **0.1** (esta) | Mapa 2D, fronteras de 3400 a. C. a 2024, línea de tiempo, panel lateral, enciclopedia piloto (Egipto) y muestra mundial, Wikipedia en vivo, temas y calidades |
-| **0.2** | Probar en varios equipos, ajustar la estética con capturas reales, exportar ejecutables (los datos de `data/` se incluyen con el filtro de exportación `data/*`), atajos de teclado y accesibilidad |
+| **0.2** | Probar en otros equipos (hasta ahora: Vulkan en una GTX 1050 Ti), bordes con campo de distancia para que no se vean los píxeles de cerca, agrupar marcadores superpuestos, exportar ejecutables (los datos de `data/` se incluyen con el filtro de exportación `data/*`), atajos de teclado y accesibilidad |
 | **0.3** | Enciclopedia progresiva: cola de lo que se consulta sin ficha, borradores con Wikipedia y Wikidata, fichas extendidas con IA citando fuentes, revisión humana (ver [la enciclopedia](enciclopedia.md)) |
 | **0.4** | Datos abiertos a gran escala: lugares antiguos de [Pleiades](https://pleiades.stoa.org), personas de Wikidata con lugares y fechas, población por grilla de HYDE, relaciones de vasallaje de Cliopatria |
 | **0.5** | Movimiento: migraciones, rutas comerciales, campañas y difusión de religiones como flechas animadas y partículas |

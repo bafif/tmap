@@ -3,13 +3,13 @@ extends Control
 ## Ornamento de marco: doble filete con rombos en las esquinas, dibujado encima de un panel.
 ## No intercepta el mouse. Se agrega como último hijo de un PanelContainer (o de cualquier Control).
 
-@export var margen := 4.0
+@export var margen := -7.0
 @export var rombo := 5.0
 
 
 func _init() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 
 
 func _ready() -> void:

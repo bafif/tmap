@@ -16,14 +16,14 @@ signal cerrada
 
 
 func _ready() -> void:
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	var fondo := ColorRect.new()
 	fondo.color = Color(0, 0, 0, 0.5)
-	fondo.set_anchors_preset(Control.PRESET_FULL_RECT)
+	fondo.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(fondo)
 	var centro := CenterContainer.new()
-	centro.set_anchors_preset(Control.PRESET_FULL_RECT)
+	centro.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(centro)
 	var panel := PanelContainer.new()
 	panel.custom_minimum_size = Vector2(680, 0)

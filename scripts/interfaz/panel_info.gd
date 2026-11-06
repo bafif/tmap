@@ -25,7 +25,7 @@ var _reconstruir_pendiente := false
 
 
 func _ready() -> void:
-	set_anchors_preset(Control.PRESET_RIGHT_WIDE)
+	set_anchors_and_offsets_preset(Control.PRESET_RIGHT_WIDE)
 	offset_left = -ANCHO
 	offset_right = 0
 	offset_top = 66
@@ -318,7 +318,8 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 		var r: Dictionary = Enciclopedia.regiones[id]
 		var pob := Enciclopedia.poblacion_en(id, Estado.anio)
 		var capas := {"religiones": "Religión", "culturas": "Cultura", "idiomas": "Idioma"}
-		var testimonios := Enciclopedia.testimonios_poblacion(id)
+		var testimonios := Enciclopedia.testimonios_poblacion(id).filter(
+			func(t): return absi(int(t["anio"]) - Estado.anio) <= 300)
 		var tiene_algo := not pob.is_empty() or not testimonios.is_empty()
 		for c in capas:
 			if not Enciclopedia.capa_en(id, c, Estado.anio).is_empty():
@@ -588,7 +589,7 @@ func _fila_color(color: Color, texto: String, detalle: String, resaltada: bool) 
 
 
 func _muestra_color(c: Color) -> Texture2D:
-	var img := Image.create(14, 14, false, Image.FORMAT_RGBA8)
+	var img := Image.create_empty(14, 14, false, Image.FORMAT_RGBA8)
 	img.fill(Color(0.05, 0.05, 0.05))
 	img.fill_rect(Rect2i(1, 1, 12, 12), c)
 	return ImageTexture.create_from_image(img)
@@ -709,13 +710,17 @@ func _ir_a_pestana(i: int) -> void:
 
 
 func _vida(p: Dictionary) -> String:
-	var a: int = p["_desde"]
-	var b: int = p["_hasta"]
-	if a <= -99999:
+	if p.get("_sin_fechas", false):
 		return "fechas desconocidas"
-	if b >= 99999:
-		return "n. %s" % Fechas.texto(a)
-	return Fechas.rango(a, b)
+	var n: Variant = p.get("nacimiento", {}).get("anio") if p.get("nacimiento") is Dictionary else null
+	var m: Variant = p.get("muerte", {}).get("anio") if p.get("muerte") is Dictionary else null
+	if n != null and m != null:
+		return Fechas.rango(int(n), int(m))
+	if n == null and m == null:
+		return "activo c. %s" % Fechas.rango(p["_desde"], p["_hasta"])
+	if n == null:
+		return "m. %s" % Fechas.texto(int(m))
+	return "n. %s" % Fechas.texto(int(n))
 
 
 func _mayus(s: String) -> String:

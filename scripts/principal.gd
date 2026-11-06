@@ -2,7 +2,9 @@ extends Node
 ## Punto de entrada: muestra la pantalla de carga, carga datos y arma el mapa y la interfaz.
 ##
 ## Para sacar capturas sin intervención (README, pruebas visuales):
-##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar] [--tema=marmol]
+##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar]
+##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--tema=marmol] [--modo=religion]
+##   (más cómodo con tools/captura.sh, que además funciona sin monitor)
 
 var vista: VistaMapa
 var interfaz: Interfaz
@@ -42,7 +44,9 @@ func _ready() -> void:
 	var t := create_tween()
 	t.tween_property(_carga.get_child(0), "modulate:a", 0.0, 0.5)
 	t.finished.connect(_carga.queue_free)
-	if args.has("captura"):
+	if args.has("prueba"):
+		_prueba_automatica()
+	elif args.has("captura"):
 		_captura_automatica(args)
 	elif not Estado.ajustes.get("bienvenida_vista", false):
 		interfaz.mostrar_bienvenida()
@@ -54,11 +58,11 @@ func _mostrar_carga() -> void:
 	add_child(_carga)
 	var raiz := ColorRect.new()
 	raiz.color = Color(0.074, 0.082, 0.094)
-	raiz.set_anchors_preset(Control.PRESET_FULL_RECT)
+	raiz.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	raiz.theme = TemaUI.crear(Estado.ajustes.get("tema", "marmol"))
 	_carga.add_child(raiz)
 	var centro := CenterContainer.new()
-	centro.set_anchors_preset(Control.PRESET_FULL_RECT)
+	centro.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	raiz.add_child(centro)
 	var caja := VBoxContainer.new()
 	caja.add_theme_constant_override("separation", 10)
@@ -107,9 +111,12 @@ func _captura_automatica(args: Dictionary) -> void:
 	vista.volar_a(p, float(args.get("zoom", 0.8)))
 	await get_tree().create_timer(1.4).timeout
 	if args.has("seleccionar"):
-		var u := DatosMapa.unidad_en(p)
+		var ps := p
+		if args.has("sel_lon"):
+			ps = Proyeccion.a_px(float(args["sel_lon"]), float(args["sel_lat"]))
+		var u := DatosMapa.unidad_en(ps)
 		if u > 0:
-			Estado.seleccionar_lugar(u, p)
+			Estado.seleccionar_lugar(u, ps)
 	if args.has("pestana"):
 		interfaz.panel._ir_a_pestana(int(args["pestana"]))
 	if args.has("ficha"):
@@ -119,7 +126,69 @@ func _captura_automatica(args: Dictionary) -> void:
 		interfaz.ajustes.abrir()
 	await get_tree().create_timer(float(args.get("espera", 2.5))).timeout
 	await RenderingServer.frame_post_draw
+	if args.has("diagnostico"):
+		print("ventana=", get_window().size, " visible=", get_viewport().get_visible_rect().size)
+		for c in interfaz.raiz.get_children():
+			print("  ", c.name, " ", c.get_class(), " rect=", (c as Control).get_rect(), " min=", (c as Control).get_combined_minimum_size(), " visible=", c.visible)
 	var img := get_viewport().get_texture().get_image()
 	img.save_png(str(args["captura"]))
 	print("Captura guardada: ", args["captura"])
 	get_tree().quit()
+
+
+## Recorre la app sin intervención para detectar errores: saltos de año, modos, selección, todas las fichas,
+## búsquedas, ajustes y cambio de tema. Uso: godot --headless --path . -- --prueba
+func _prueba_automatica() -> void:
+	var t0 := Time.get_ticks_msec()
+	var paso := func(texto: String) -> void:
+		print("[prueba] %s (%d ms)" % [texto, Time.get_ticks_msec() - t0])
+	for anio in [-3400, -1350, -1, 1, 117, 476, 1492, 1810, 2024, -2500, 800]:
+		Estado.fijar_anio(anio)
+		await get_tree().process_frame
+	paso.call("saltos de año")
+	var t := Time.get_ticks_msec()
+	for anio in range(-500, 500, 7):
+		Estado.fijar_anio(anio)
+	paso.call("143 pasos de año seguidos en %d ms" % (Time.get_ticks_msec() - t))
+	for modo in ["terreno", "religion", "cultura", "idioma", "politico"]:
+		Estado.fijar_modo(modo)
+		await get_tree().process_frame
+	paso.call("modos de mapa")
+	Estado.fijar_anio(-1350)
+	for ll in [Vector2(31.2, 30.0), Vector2(32.6, 25.7), Vector2(12.5, 41.9), Vector2(-58.4, -34.6), Vector2(116.4, 39.9), Vector2(0, -20)]:
+		var px := Proyeccion.a_px(ll.x, ll.y)
+		Estado.seleccionar_lugar(DatosMapa.unidad_en(px), px)
+		for i in 5:
+			interfaz.panel._ir_a_pestana(i)
+			await get_tree().process_frame
+	paso.call("selección y pestañas")
+	for tipo in ["fuente", "persona", "hecho", "lugar", "region"]:
+		var tabla: Dictionary = {"fuente": Enciclopedia.fuentes, "persona": Enciclopedia.personas, "hecho": Enciclopedia.hechos,
+			"lugar": Enciclopedia.lugares, "region": Enciclopedia.regiones}[tipo]
+		for id in tabla.keys():
+			Estado.pedir_ficha(tipo, id)
+		await get_tree().process_frame
+	paso.call("todas las fichas")
+	for texto in ["egip", "roma", "herod", "himno", "buenos", "zz"]:
+		interfaz.barra._buscar(texto)
+	paso.call("búsquedas")
+	for i in DatosMapa.entidades.size():
+		DatosMapa.historia_de_unidad(i % DatosMapa.n_unidades + 1)
+		if i > 300:
+			break
+	paso.call("historias de unidades")
+	interfaz.ajustes.abrir()
+	await get_tree().process_frame
+	for cal in ["baja", "media", "ultra", "alta"]:
+		Estado.fijar_ajuste("calidad", cal)
+	for tema in ["pergamino", "laton", "marmol"]:
+		Estado.fijar_ajuste("tema", tema)
+		interfaz._cambiar_tema()
+		await get_tree().process_frame
+	interfaz.ajustes.cerrar()
+	paso.call("ajustes y temas")
+	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	await get_tree().create_timer(0.5).timeout
+	print("[prueba] TERMINADA sin cortes")
+	get_tree().quit()
+

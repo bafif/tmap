@@ -33,6 +33,7 @@ func _init() -> void:
 
 
 func _ready() -> void:
+	fijar_eras([], "")
 	Estado.anio_cambiado.connect(_al_cambiar_anio)
 	resized.connect(queue_redraw)
 
@@ -85,6 +86,13 @@ func _ajustar_vista() -> void:
 func fijar_eras(nuevas: Array, titulo: String) -> void:
 	eras = nuevas if not nuevas.is_empty() else ERAS_GLOBALES
 	titulo_eras = titulo if not nuevas.is_empty() else "Periodización europea, orientativa"
+	if not nuevas.is_empty():
+		# Acercar la pista alrededor del año actual para que se lean las eras locales.
+		var l := lineal(Estado.anio)
+		vista_desde = l - 1200.0
+		vista_hasta = l + 1200.0
+		_ajustar_vista()
+	tooltip_text = "%s.\nArrastrá para elegir el año · rueda: acercar o alejar · botón derecho: desplazar · doble click: todo el período." % titulo_eras
 	queue_redraw()
 
 
@@ -130,6 +138,19 @@ func _notification(what: int) -> void:
 		queue_redraw()
 
 
+## El texto tal cual si entra en `ancho`; si no, recortado con «…»; vacío si no entran ni cuatro letras.
+func _recortar(texto: String, fuente: Font, tam: int, ancho: float) -> String:
+	if fuente.get_string_size(texto, HORIZONTAL_ALIGNMENT_LEFT, -1, tam).x <= ancho:
+		return texto
+	var n := texto.length() - 1
+	while n >= 4:
+		var corto := texto.substr(0, n).strip_edges() + "…"
+		if fuente.get_string_size(corto, HORIZONTAL_ALIGNMENT_LEFT, -1, tam).x <= ancho:
+			return corto
+		n -= 1
+	return ""
+
+
 func _draw() -> void:
 	var w := size.x
 	var h := size.y
@@ -156,10 +177,11 @@ func _draw() -> void:
 			c = c.lerp(TemaUI.color("acento"), 0.35)
 		draw_rect(Rect2(x0, 0, x1 - x0, alto_era), c)
 		draw_line(Vector2(x0, 0), Vector2(x0, alto_era), c_borde.darkened(0.3), 1.0)
-		var ancho_txt := x1 - x0 - 8.0
-		if ancho_txt > 28.0:
-			var x_txt := clampf(x0 + 4.0, 4.0, maxf(4.0, x1 - 4.0 - ancho_txt))
-			draw_string(fuente, Vector2(x_txt, 15.5), str(e[2]).to_upper(), HORIZONTAL_ALIGNMENT_LEFT, ancho_txt, 11, c_texto if activa else c_suave)
+		var visible_x0 := maxf(x0, 0.0)
+		var visible_x1 := minf(x1, w)
+		var texto_era := _recortar(str(e[2]).get_slice(" (", 0).to_upper(), fuente, 11, visible_x1 - visible_x0 - 8.0)
+		if texto_era != "":
+			draw_string(fuente, Vector2(visible_x0 + 4.0, 15.5), texto_era, HORIZONTAL_ALIGNMENT_LEFT, -1, 11, c_texto if activa else c_suave)
 	draw_line(Vector2(0, alto_era), Vector2(w, alto_era), c_borde, 1.0)
 
 	# Marcas de años
@@ -220,4 +242,3 @@ func _draw() -> void:
 		draw_colored_polygon(PackedVector2Array([Vector2(xa - 7, y0 - 7), Vector2(xa + 7, y0 - 7), Vector2(xa, y0 + 3)]), acento)
 		draw_polyline(PackedVector2Array([Vector2(xa - 7, y0 - 7), Vector2(xa + 7, y0 - 7), Vector2(xa, y0 + 3), Vector2(xa - 7, y0 - 7)]), Color(0, 0, 0, 0.6), 1.0)
 
-	draw_string(fuente_t, Vector2(w - 260, h - 4), titulo_eras + " · rueda: acercar", HORIZONTAL_ALIGNMENT_RIGHT, 256, 12, Color(c_suave, 0.7))

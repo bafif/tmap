@@ -23,18 +23,18 @@ var _calidad_desc: Label
 
 
 func _ready() -> void:
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	visible = false
 	var fondo := ColorRect.new()
 	fondo.color = Color(0, 0, 0, 0.45)
-	fondo.set_anchors_preset(Control.PRESET_FULL_RECT)
+	fondo.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	fondo.gui_input.connect(func(ev):
 		if ev is InputEventMouseButton and ev.pressed:
 			cerrar())
 	add_child(fondo)
 	_panel = PanelContainer.new()
-	_panel.set_anchors_preset(Control.PRESET_CENTER)
+	_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	_panel.custom_minimum_size = Vector2(620, 0)
 	add_child(_panel)
 	_construir()

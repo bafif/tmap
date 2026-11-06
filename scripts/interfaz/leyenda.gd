@@ -16,7 +16,7 @@ const CAPAS := [
 
 
 func _ready() -> void:
-	set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
+	set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_LEFT)
 	offset_left = 12
 	offset_top = -140
 	offset_bottom = -140
@@ -73,6 +73,8 @@ func _actualizar() -> void:
 			var l := Label.new()
 			l.text = it["nombre"]
 			l.add_theme_font_size_override("font_size", 16)
+			l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+			l.custom_minimum_size = Vector2(190, 0)
 			fila.add_child(l)
 			_leyenda.add_child(fila)
 		_nota("Rayado: regiones todavía sin datos.")
