@@ -21,7 +21,7 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
 - [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El modo OpenGL
       (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
-- [ ] **Publicar la primera versión con ejecutables.** Crear la versión 0.2 en GitHub (desde `bafif`): el workflow
+- [ ] **Publicar la primera versión con ejecutables.** Crear la versión 0.2 en GitHub: el workflow
       `version.yml` exporta Linux y Windows, comprueba el de Linux con `--verificar` y sube los zip. No se pudo probar
       acá porque no hay plantillas de exportación instaladas; el `.pck` sí se exportó y pasó la prueba completa.
 
