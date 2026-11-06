@@ -34,7 +34,7 @@ body {
 }
 a { color: var(--titulo); }
 a:hover { color: var(--acento); }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 .contenedor { width: min(var(--ancho), 92vw); margin: 0 auto; }
 
 /* Marco ornamental doble con rombos en las esquinas, como en la app */
@@ -83,7 +83,7 @@ section .intro { text-align: center; color: var(--suave); max-width: 720px; marg
 .tarjeta p { margin: 0; color: var(--texto); }
 .tarjeta .icono { width: 34px; height: 34px; margin-bottom: .8rem; }
 
-.dos { display: grid; grid-template-columns: 1.1fr .9fr; gap: 3rem; align-items: center; }
+.dos { display: grid; grid-template-columns: .85fr 1.15fr; gap: 3rem; align-items: center; }
 .dos h2, .dos .intro { text-align: left; margin-left: 0; }
 @media (max-width: 860px) { .dos { grid-template-columns: 1fr; } nav { display: none; } }
 
