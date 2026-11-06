@@ -48,7 +48,7 @@ func _ready() -> void:
 		_prueba_automatica()
 	elif args.has("captura"):
 		_captura_automatica(args)
-	elif not Estado.ajustes.get("bienvenida_vista", false):
+	elif not Estado.ajustes.get("bienvenida_vista", false) and not args.has("puente"):
 		interfaz.mostrar_bienvenida()
 
 

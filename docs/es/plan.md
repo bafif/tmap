@@ -92,6 +92,9 @@ cambiar en vivo.
 - `tools/captura.sh salida.png --anio=-1350 --lon=31 --lat=27.6 --zoom=1.2 --seleccionar --pestana=2`: saca una
   captura real sin monitor (con el compositor `cage`), útil para revisar la estética y para el README.
 - `python3 tools/enciclopedia/validar.py`: valida los paquetes de la enciclopedia.
+- `tools/godot/tmap.py`: el puente para manejar la app y el editor desde afuera (capturas, año, cámara, clics,
+  errores, GDScript); ver [tools/godot/README.md](../../tools/godot/README.md). `tmap.py revisar` compila todos los
+  scripts sin abrir la app.
 - `python3 tools/pipeline/lamina.py ANIO x0 y0 x1 y1 salida.png`: lámina estática de alta calidad de cualquier año,
   sin Godot (por ejemplo, [el mundo en 117 d. C.](../assets/mundo_117.png)).
 

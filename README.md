@@ -81,7 +81,8 @@ godot --path tmap            # o abrí la carpeta desde el editor de Godot
 ```
 
 Para revisar que todo ande, `godot --headless --path tmap -- --prueba` recorre la app sola y avisa si algo falla;
-`tools/captura.sh` saca capturas sin monitor. Los datos del mapa ya vienen generados en `data/mapa/`. Para regenerarlos desde las fuentes originales, o con otra
+`tools/captura.sh` saca capturas sin monitor y [el puente](tools/godot/README.md) deja manejar la app y el
+editor desde la terminal o con un agente de IA. Los datos del mapa ya vienen generados en `data/mapa/`. Para regenerarlos desde las fuentes originales, o con otra
 versión de Cliopatria, seguí [el pipeline de datos](tools/pipeline/README.md).
 
 ## Estado
@@ -110,6 +111,7 @@ Versión 0.1: la primera que funciona de punta a punta.
 | [La enciclopedia](docs/es/enciclopedia.md) | Cómo se completa, Wikipedia y Grokipedia, IA y reglas editoriales |
 | [Esquema de fichas](data/enciclopedia/ESQUEMA.md) | El formato de las fuentes, personas, hechos, lugares y regiones |
 | [Pipeline de datos](tools/pipeline/README.md) | Cómo se generan el mapa y las fronteras |
+| [Cómo trabajar en TellMAP](docs/es/contribuir.md) | Convenciones, pruebas y el puente para manejar la app y el editor |
 
 ## Autor
 

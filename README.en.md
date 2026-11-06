@@ -80,7 +80,8 @@ godot --path tmap            # or open the folder from the Godot editor
 ```
 
 To check everything works, `godot --headless --path tmap -- --prueba` walks through the app on its own and reports
-any error; `tools/captura.sh` takes screenshots without a monitor. The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
+any error; `tools/captura.sh` takes screenshots without a monitor, and [the bridge](tools/godot/README.md) (in Spanish)
+lets you drive the app and the editor from the terminal or with an AI agent. The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
 release, follow [the data pipeline](tools/pipeline/README.md) (in Spanish).
 
 ## Status
