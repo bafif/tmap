@@ -87,6 +87,15 @@ Datos que necesita este bloque:
 
 ## Hecho
 
+### 6 de noviembre de 2026: registros y fugas
+
+- [x] **Registros en `.godot/registros/`** de cada corrida de la app y del editor, con trazas, y `tmap.py registros`
+      para leerlos. Al cerrar, la app anota los nodos que quedaron sin liberar y de qué script vienen.
+- [x] **Sin fugas al cerrar.** Godot reportaba cientos de objetos sin liberar («RIDs were leaked»). Las causas: el
+      texto de Wikipedia que se perdía si el panel cambiaba mientras bajaba la imagen, el gráfico de población que se
+      creaba aunque no se mostrara y un ciclo de referencias en el puente. Ahora la prueba completa y una sesión con
+      ventana cierran sin ningún aviso.
+
 ### 6 de noviembre de 2026: herramientas para trabajar
 
 - [x] **Puente** (`addons/tellmap_puente`, `tools/godot/tmap.py`): manejar la app y el editor desde la terminal o

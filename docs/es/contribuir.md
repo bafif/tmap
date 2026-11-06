@@ -24,6 +24,8 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
   `seleccionar`, `pestana`, `captura`, `eval`, `errores`, `shader`, `recargar`, `clic` y los demás comandos
   (`ayuda`). Al terminar, `cerrar`.
 - Con el editor abierto: `tools/godot/tmap.py --proyecto <carpeta del editor> --a editor estado|escanear|jugar|abrir`.
+- Después de cada prueba, leer `tools/godot/tmap.py registros --errores`: tiene que terminar en «ningún nodo suelto
+  sin liberar».
 - Detalle del puente: [tools/godot/README.md](../../tools/godot/README.md).
 
 ## Bitácora
