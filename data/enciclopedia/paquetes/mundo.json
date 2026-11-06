@@ -1,0 +1,6709 @@
+{
+  "paquete": "mundo",
+  "descripcion": "Muestra del mundo: Mesopotamia, Levante, Anatolia, Grecia, Italia, Persia, China, India, Mesoamérica, Andes y Río de la Plata",
+  "regiones": [
+    {
+      "id": "mesopotamia",
+      "nombre": "Mesopotamia",
+      "padre": null,
+      "poligono": [
+        [
+          38.8,
+          35.0
+        ],
+        [
+          40.5,
+          36.8
+        ],
+        [
+          42.3,
+          37.2
+        ],
+        [
+          44.0,
+          37.1
+        ],
+        [
+          45.5,
+          35.8
+        ],
+        [
+          46.2,
+          33.8
+        ],
+        [
+          47.6,
+          32.8
+        ],
+        [
+          48.6,
+          31.3
+        ],
+        [
+          48.0,
+          30.0
+        ],
+        [
+          47.2,
+          29.9
+        ],
+        [
+          46.0,
+          30.5
+        ],
+        [
+          44.5,
+          29.2
+        ],
+        [
+          42.8,
+          30.8
+        ],
+        [
+          41.0,
+          31.8
+        ],
+        [
+          39.5,
+          32.4
+        ],
+        [
+          38.5,
+          33.5
+        ],
+        [
+          38.2,
+          34.5
+        ]
+      ],
+      "resumen": "La tierra entre el Tigris y el Éufrates, en el actual Irak, donde surgieron las primeras ciudades y la escritura cuneiforme. Sumerios, acadios, babilonios y asirios dejaron cientos de miles de tablillas de arcilla que permiten estudiar su economía, sus leyes y su literatura de primera mano.",
+      "eras": [
+        {
+          "desde": -4000,
+          "hasta": -3100,
+          "nombre": "Período de Uruk",
+          "resumen": "Aparecen las primeras ciudades (Uruk) y, hacia el final, la escritura cuneiforme."
+        },
+        {
+          "desde": -2900,
+          "hasta": -2334,
+          "nombre": "Período Dinástico Temprano",
+          "resumen": "Ciudades-estado sumerias rivales como Ur, Lagash, Kish y Uruk."
+        },
+        {
+          "desde": -2334,
+          "hasta": -2154,
+          "nombre": "Imperio acadio",
+          "resumen": "Sargón de Acad unifica Mesopotamia bajo un primer imperio de lengua semítica."
+        },
+        {
+          "desde": -2112,
+          "hasta": -2004,
+          "nombre": "Tercera dinastía de Ur",
+          "resumen": "Renacimiento sumerio con un Estado burocrático muy documentado."
+        },
+        {
+          "desde": -2004,
+          "hasta": -1595,
+          "nombre": "Período paleobabilónico",
+          "resumen": "Hegemonía de Babilonia bajo Hammurabi y su código de leyes."
+        },
+        {
+          "desde": -911,
+          "hasta": -609,
+          "nombre": "Imperio neoasirio",
+          "resumen": "Asiria domina el Próximo Oriente desde Nínive, Nimrud y Dur-Sharrukin."
+        },
+        {
+          "desde": -626,
+          "hasta": -539,
+          "nombre": "Imperio neobabilónico",
+          "resumen": "Nabucodonosor II reconstruye Babilonia; el imperio cae ante Ciro."
+        },
+        {
+          "desde": -539,
+          "hasta": 637,
+          "nombre": "Dominios persa, helenístico, parto y sasánida",
+          "resumen": "Mesopotamia pasa de manos entre imperios hasta la conquista árabe en 637."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -3500,
+          "hasta": 250,
+          "nombre": "Religión mesopotámica",
+          "familia": "politeismo-mesopotamico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 250,
+          "hasta": 637,
+          "nombre": "Cristianismo siríaco y otras religiones",
+          "familia": "cristianismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 637,
+          "hasta": 1800,
+          "nombre": "Islam sunnita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1800,
+          "hasta": 2000,
+          "nombre": "Islam chiita",
+          "familia": "islam-chii",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -3500,
+          "hasta": -2004,
+          "nombre": "Sumeria",
+          "familia": "mesopotamica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2004,
+          "hasta": -539,
+          "nombre": "Babilónica y asiria",
+          "familia": "mesopotamica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -539,
+          "hasta": 637,
+          "nombre": "Arameos, persas y griegos",
+          "familia": "semitica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 637,
+          "hasta": 2000,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -3300,
+          "hasta": -2000,
+          "nombre": "Sumerio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2500,
+          "hasta": -500,
+          "nombre": "Acadio (babilonio y asirio)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": 650,
+          "nombre": "Arameo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 637,
+          "hasta": 2000,
+          "nombre": "Árabe",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "levante",
+      "nombre": "Levante",
+      "padre": null,
+      "poligono": [
+        [
+          36.2,
+          36.9
+        ],
+        [
+          38.0,
+          36.8
+        ],
+        [
+          40.0,
+          35.9
+        ],
+        [
+          40.5,
+          34.5
+        ],
+        [
+          39.5,
+          33.0
+        ],
+        [
+          38.5,
+          31.8
+        ],
+        [
+          37.0,
+          30.0
+        ],
+        [
+          36.0,
+          29.5
+        ],
+        [
+          34.95,
+          29.5
+        ],
+        [
+          34.3,
+          31.2
+        ],
+        [
+          34.7,
+          32.0
+        ],
+        [
+          34.95,
+          32.8
+        ],
+        [
+          35.1,
+          33.3
+        ],
+        [
+          35.5,
+          34.1
+        ],
+        [
+          35.8,
+          35.0
+        ],
+        [
+          35.9,
+          35.9
+        ],
+        [
+          36.0,
+          36.4
+        ]
+      ],
+      "resumen": "La franja oriental del Mediterráneo, entre Anatolia y Egipto: hoy Siria, Líbano, Israel, Palestina y Jordania. Fue corredor entre los grandes imperios y cuna de los alfabetos, del judaísmo, del cristianismo y de ciudades comerciales como Biblos y Tiro.",
+      "eras": [
+        {
+          "desde": -3500,
+          "hasta": -1200,
+          "nombre": "Edad del Bronce cananea",
+          "resumen": "Ciudades-estado como Biblos, Ugarit y Hazor, bajo influencia egipcia y mesopotámica."
+        },
+        {
+          "desde": -1200,
+          "hasta": -586,
+          "nombre": "Reinos de la Edad del Hierro",
+          "resumen": "Surgen Israel, Judá, los reinos arameos y las ciudades fenicias."
+        },
+        {
+          "desde": -586,
+          "hasta": -332,
+          "nombre": "Dominio babilonio y persa",
+          "resumen": "Exilio de Babilonia y regreso bajo el Imperio aqueménida."
+        },
+        {
+          "desde": -332,
+          "hasta": -63,
+          "nombre": "Período helenístico",
+          "resumen": "Tras Alejandro, el Levante es disputado entre Ptolomeos y Seléucidas."
+        },
+        {
+          "desde": -63,
+          "hasta": 636,
+          "nombre": "Dominio romano y bizantino",
+          "resumen": "Roma anexa la región; el cristianismo se difunde desde Judea."
+        },
+        {
+          "desde": 636,
+          "hasta": 1099,
+          "nombre": "Califatos islámicos",
+          "resumen": "Conquista árabe de Siria y Palestina; Damasco es capital omeya."
+        },
+        {
+          "desde": 1099,
+          "hasta": 1291,
+          "nombre": "Estados cruzados y ayubíes",
+          "resumen": "Cruzados y musulmanes se disputan Jerusalén y la costa."
+        },
+        {
+          "desde": 1516,
+          "hasta": 1918,
+          "nombre": "Dominio otomano",
+          "resumen": "Siria, Líbano y Palestina forman parte del Imperio otomano hasta la Primera Guerra Mundial."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -3500,
+          "hasta": -586,
+          "nombre": "Religiones cananeas y yahvismo",
+          "familia": "politeismo-cananeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -586,
+          "hasta": 70,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 300,
+          "hasta": 636,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 636,
+          "hasta": 2000,
+          "nombre": "Islam sunnita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -3500,
+          "hasta": -332,
+          "nombre": "Cananea, israelita y aramea",
+          "familia": "semitica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -332,
+          "hasta": 636,
+          "nombre": "Helenística y romana",
+          "familia": "griega",
+          "peso": "importante"
+        },
+        {
+          "desde": 636,
+          "hasta": 2000,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -3500,
+          "hasta": -500,
+          "nombre": "Lenguas cananeas (hebreo, fenicio) y arameo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 636,
+          "nombre": "Arameo (con griego como lengua de administración)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 636,
+          "hasta": 2000,
+          "nombre": "Árabe",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "anatolia",
+      "nombre": "Anatolia",
+      "padre": null,
+      "poligono": [
+        [
+          26.3,
+          40.3
+        ],
+        [
+          27.5,
+          41.0
+        ],
+        [
+          29.0,
+          41.2
+        ],
+        [
+          31.0,
+          41.1
+        ],
+        [
+          33.0,
+          42.0
+        ],
+        [
+          35.0,
+          42.0
+        ],
+        [
+          36.8,
+          41.3
+        ],
+        [
+          39.5,
+          41.0
+        ],
+        [
+          41.5,
+          41.5
+        ],
+        [
+          43.5,
+          41.1
+        ],
+        [
+          44.5,
+          39.5
+        ],
+        [
+          44.2,
+          38.0
+        ],
+        [
+          42.5,
+          37.2
+        ],
+        [
+          40.0,
+          37.0
+        ],
+        [
+          37.5,
+          36.8
+        ],
+        [
+          36.2,
+          36.6
+        ],
+        [
+          34.5,
+          36.6
+        ],
+        [
+          32.0,
+          36.1
+        ],
+        [
+          30.5,
+          36.3
+        ],
+        [
+          29.0,
+          36.6
+        ],
+        [
+          27.5,
+          36.8
+        ],
+        [
+          26.7,
+          38.0
+        ],
+        [
+          26.2,
+          39.2
+        ]
+      ],
+      "resumen": "La península de Asia Menor, puente entre Europa y Asia: la actual Turquía asiática. Allí estuvieron el Imperio hitita, Troya, Lidia, las ciudades griegas de Jonia y, más tarde, Bizancio y el Imperio otomano.",
+      "eras": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Imperio hitita",
+          "resumen": "Desde Hattusa, los hititas compiten con Egipto y Asiria por el control del Próximo Oriente."
+        },
+        {
+          "desde": -1180,
+          "hasta": -546,
+          "nombre": "Reinos frigio, lidio y neohitita",
+          "resumen": "Tras el colapso de la Edad del Bronce surgen Frigia (Midas) y Lidia (Creso)."
+        },
+        {
+          "desde": -546,
+          "hasta": -334,
+          "nombre": "Dominio persa",
+          "resumen": "Ciro conquista Lidia y las ciudades griegas de la costa pasan a ser satrapías."
+        },
+        {
+          "desde": -334,
+          "hasta": -133,
+          "nombre": "Período helenístico",
+          "resumen": "Alejandro la conquista; después reinan Seléucidas, Pérgamo y otros reinos."
+        },
+        {
+          "desde": -133,
+          "hasta": 1071,
+          "nombre": "Anatolia romana y bizantina",
+          "resumen": "Roma crea la provincia de Asia; el cristianismo se difunde con Pablo y se reúne el Concilio de Nicea."
+        },
+        {
+          "desde": 1071,
+          "hasta": 1299,
+          "nombre": "Selyúcidas de Rum",
+          "resumen": "La batalla de Manzikert abre Anatolia a los turcos."
+        },
+        {
+          "desde": 1299,
+          "hasta": 1922,
+          "nombre": "Imperio otomano",
+          "resumen": "Los otomanos controlan Anatolia y conquistan Constantinopla en 1453."
+        },
+        {
+          "desde": 1923,
+          "hasta": 2000,
+          "nombre": "República de Turquía",
+          "resumen": "Atatürk funda la república con capital en Ankara."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1650,
+          "hasta": -100,
+          "nombre": "Religión hitita y politeísmo anatolio",
+          "familia": "politeismo-anatolio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -100,
+          "hasta": 393,
+          "nombre": "Politeísmo grecorromano",
+          "familia": "politeismo-griego",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 325,
+          "hasta": 1071,
+          "nombre": "Cristianismo ortodoxo",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1071,
+          "hasta": 2000,
+          "nombre": "Islam sunnita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Hitita",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1180,
+          "hasta": -334,
+          "nombre": "Frigia, lidia y griega jonia",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -334,
+          "hasta": 1071,
+          "nombre": "Griega y romana",
+          "familia": "griega",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1071,
+          "hasta": 2000,
+          "nombre": "Turca",
+          "familia": "turca",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Hitita y luvita",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1180,
+          "hasta": -300,
+          "nombre": "Frigio, lidio, luvita y griego de Jonia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -300,
+          "hasta": 1071,
+          "nombre": "Griego (koiné y bizantino)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1071,
+          "hasta": 2000,
+          "nombre": "Turco",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "grecia",
+      "nombre": "Grecia",
+      "padre": null,
+      "poligono": [
+        [
+          19.4,
+          39.8
+        ],
+        [
+          20.3,
+          41.0
+        ],
+        [
+          22.5,
+          41.4
+        ],
+        [
+          25.0,
+          41.3
+        ],
+        [
+          26.5,
+          40.8
+        ],
+        [
+          26.4,
+          39.5
+        ],
+        [
+          26.6,
+          38.3
+        ],
+        [
+          27.4,
+          37.0
+        ],
+        [
+          28.1,
+          36.4
+        ],
+        [
+          27.0,
+          35.2
+        ],
+        [
+          24.0,
+          34.8
+        ],
+        [
+          23.0,
+          35.0
+        ],
+        [
+          22.0,
+          36.4
+        ],
+        [
+          21.5,
+          36.7
+        ],
+        [
+          21.0,
+          37.6
+        ],
+        [
+          20.3,
+          38.5
+        ],
+        [
+          19.8,
+          39.0
+        ]
+      ],
+      "resumen": "El mundo egeo: la Grecia continental, las islas del Egeo y Creta. De las ciudades-estado surgieron la democracia, la filosofía, el teatro y la historiografía, y la cultura griega se extendió luego por todo el Mediterráneo oriental.",
+      "eras": [
+        {
+          "desde": -1600,
+          "hasta": -1100,
+          "nombre": "Civilización micénica",
+          "resumen": "Palacios fortificados como Micenas y Pilos; escritura Lineal B, el griego más antiguo conocido."
+        },
+        {
+          "desde": -1100,
+          "hasta": -480,
+          "nombre": "Edad oscura y período arcaico",
+          "resumen": "Nacen la polis, el alfabeto, los poemas homéricos y las colonias."
+        },
+        {
+          "desde": -480,
+          "hasta": -323,
+          "nombre": "Período clásico",
+          "resumen": "Atenas y Esparta; Guerras Médicas y del Peloponeso; Platón y Aristóteles."
+        },
+        {
+          "desde": -323,
+          "hasta": -146,
+          "nombre": "Período helenístico",
+          "resumen": "Los reinos sucesores de Alejandro; la Grecia continental queda bajo Macedonia."
+        },
+        {
+          "desde": -146,
+          "hasta": 330,
+          "nombre": "Grecia romana",
+          "resumen": "Roma conquista Grecia pero adopta su cultura."
+        },
+        {
+          "desde": 330,
+          "hasta": 1453,
+          "nombre": "Período bizantino",
+          "resumen": "Continuidad griega bajo el Imperio bizantino cristiano ortodoxo."
+        },
+        {
+          "desde": 1458,
+          "hasta": 1821,
+          "nombre": "Dominio otomano",
+          "resumen": "Atenas cae en 1458; Grecia es una provincia otomana."
+        },
+        {
+          "desde": 1821,
+          "hasta": 2000,
+          "nombre": "Grecia moderna",
+          "resumen": "Guerra de independencia (1821) y creación del Estado griego en 1832."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1600,
+          "hasta": 393,
+          "nombre": "Politeísmo griego",
+          "familia": "politeismo-griego",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 393,
+          "hasta": 2000,
+          "nombre": "Cristianismo ortodoxo",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1600,
+          "hasta": 2000,
+          "nombre": "Griega",
+          "familia": "griega",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1450,
+          "hasta": 2000,
+          "nombre": "Griego",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "italia",
+      "nombre": "Italia",
+      "padre": null,
+      "poligono": [
+        [
+          7.5,
+          43.8
+        ],
+        [
+          6.9,
+          44.6
+        ],
+        [
+          7.0,
+          45.9
+        ],
+        [
+          9.0,
+          46.4
+        ],
+        [
+          10.5,
+          46.8
+        ],
+        [
+          12.4,
+          47.0
+        ],
+        [
+          13.7,
+          46.5
+        ],
+        [
+          13.7,
+          45.6
+        ],
+        [
+          12.4,
+          45.3
+        ],
+        [
+          13.6,
+          43.5
+        ],
+        [
+          14.8,
+          42.1
+        ],
+        [
+          16.0,
+          41.9
+        ],
+        [
+          18.5,
+          40.1
+        ],
+        [
+          17.2,
+          40.4
+        ],
+        [
+          17.1,
+          39.0
+        ],
+        [
+          15.7,
+          37.95
+        ],
+        [
+          16.0,
+          39.3
+        ],
+        [
+          14.8,
+          40.65
+        ],
+        [
+          12.6,
+          41.45
+        ],
+        [
+          10.5,
+          42.9
+        ],
+        [
+          9.8,
+          44.1
+        ],
+        [
+          8.9,
+          44.4
+        ]
+      ],
+      "resumen": "La península italiana (sin las islas), donde nació Roma, que unificó el Mediterráneo bajo su dominio. Desde la Antigüedad hasta hoy fue encrucijada de etruscos, griegos, romanos, la Iglesia católica y las ciudades del Renacimiento.",
+      "eras": [
+        {
+          "desde": -900,
+          "hasta": -509,
+          "nombre": "Italia prerromana y monarquía romana",
+          "resumen": "Etruscos, latinos y griegos de la Magna Grecia; según la tradición, Roma se funda en el 753 a. C."
+        },
+        {
+          "desde": -509,
+          "hasta": -27,
+          "nombre": "República romana",
+          "resumen": "Roma domina Italia y luego el Mediterráneo, y se hunde en guerras civiles."
+        },
+        {
+          "desde": -27,
+          "hasta": 476,
+          "nombre": "Imperio romano",
+          "resumen": "Desde Augusto hasta la deposición de Rómulo Augústulo en 476."
+        },
+        {
+          "desde": 476,
+          "hasta": 774,
+          "nombre": "Reinos ostrogodo, bizantino y lombardo",
+          "resumen": "Italia queda dividida entre germanos y el Imperio bizantino."
+        },
+        {
+          "desde": 774,
+          "hasta": 1250,
+          "nombre": "Alta Edad Media",
+          "resumen": "Dominio franco, Estados pontificios y surgimiento de comunas independientes."
+        },
+        {
+          "desde": 1250,
+          "hasta": 1559,
+          "nombre": "Comunas y Renacimiento",
+          "resumen": "Florencia, Venecia y Milán; auge del arte y las letras y las guerras de Italia."
+        },
+        {
+          "desde": 1559,
+          "hasta": 1861,
+          "nombre": "Dominación extranjera",
+          "resumen": "Españoles, austríacos y franceses controlan buena parte de la península."
+        },
+        {
+          "desde": 1861,
+          "hasta": 2000,
+          "nombre": "Italia unificada",
+          "resumen": "Reino de Italia desde 1861 y República desde 1946."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -900,
+          "hasta": 380,
+          "nombre": "Religión romana y etrusca",
+          "familia": "politeismo-romano",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 380,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -900,
+          "hasta": -200,
+          "nombre": "Etrusca, latina y griega",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -200,
+          "hasta": 2000,
+          "nombre": "Latina e italiana",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -700,
+          "hasta": 900,
+          "nombre": "Latín",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 900,
+          "hasta": 2000,
+          "nombre": "Italiano (con dialectos regionales)",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "persia",
+      "nombre": "Persia (meseta iraní)",
+      "padre": null,
+      "poligono": [
+        [
+          44.0,
+          39.4
+        ],
+        [
+          47.5,
+          39.2
+        ],
+        [
+          48.9,
+          38.4
+        ],
+        [
+          50.5,
+          37.3
+        ],
+        [
+          53.9,
+          37.3
+        ],
+        [
+          55.5,
+          38.0
+        ],
+        [
+          57.2,
+          37.6
+        ],
+        [
+          59.3,
+          37.5
+        ],
+        [
+          61.2,
+          36.6
+        ],
+        [
+          60.9,
+          34.5
+        ],
+        [
+          60.5,
+          33.0
+        ],
+        [
+          60.8,
+          31.5
+        ],
+        [
+          61.7,
+          30.8
+        ],
+        [
+          61.5,
+          29.3
+        ],
+        [
+          63.3,
+          26.7
+        ],
+        [
+          61.7,
+          25.2
+        ],
+        [
+          57.8,
+          25.7
+        ],
+        [
+          56.5,
+          27.1
+        ],
+        [
+          54.5,
+          26.6
+        ],
+        [
+          51.5,
+          27.9
+        ],
+        [
+          50.3,
+          30.2
+        ],
+        [
+          48.9,
+          30.3
+        ],
+        [
+          47.7,
+          31.0
+        ],
+        [
+          46.0,
+          33.0
+        ],
+        [
+          45.4,
+          34.5
+        ],
+        [
+          44.8,
+          36.5
+        ],
+        [
+          44.2,
+          38.0
+        ]
+      ],
+      "resumen": "La meseta iraní, centro de los imperios persas: aqueménida, parto y sasánida. De allí surgió el primer imperio que unió Egipto, Mesopotamia y Asia Central, y el zoroastrismo, que influyó en las religiones posteriores.",
+      "eras": [
+        {
+          "desde": -2700,
+          "hasta": -550,
+          "nombre": "Elam y los reinos medos",
+          "resumen": "Elam al sudoeste; medos y persas aparecen en las fuentes asirias desde el siglo IX a. C."
+        },
+        {
+          "desde": -550,
+          "hasta": -330,
+          "nombre": "Imperio aqueménida",
+          "resumen": "Ciro, Darío y Jerjes gobiernan desde Persépolis y Susa hasta la conquista de Alejandro."
+        },
+        {
+          "desde": -312,
+          "hasta": 224,
+          "nombre": "Seléucidas y partos",
+          "resumen": "Dominio helenístico, luego el Imperio parto de los arsácidas."
+        },
+        {
+          "desde": 224,
+          "hasta": 651,
+          "nombre": "Imperio sasánida",
+          "resumen": "Persia oficialmente zoroástrica y rival de Roma y Bizancio, hasta la conquista árabe."
+        },
+        {
+          "desde": 651,
+          "hasta": 1037,
+          "nombre": "Califatos islámicos",
+          "resumen": "Persia se islamiza; renace el persa en la poesía de Ferdousí."
+        },
+        {
+          "desde": 1037,
+          "hasta": 1501,
+          "nombre": "Selyúcidas, mongoles y timúridas",
+          "resumen": "Dominio turco y mongol, con la gran literatura persa."
+        },
+        {
+          "desde": 1501,
+          "hasta": 1925,
+          "nombre": "Safávidas, afsáridas y qayares",
+          "resumen": "Los safávidas convierten Irán al chiismo duodecimano."
+        },
+        {
+          "desde": 1925,
+          "hasta": 2000,
+          "nombre": "Irán moderno",
+          "resumen": "Dinastía Pahlavi y, desde 1979, República Islámica."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -2700,
+          "hasta": -550,
+          "nombre": "Religiones elamitas e iranias antiguas",
+          "familia": "politeismo-iranio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -550,
+          "hasta": 651,
+          "nombre": "Zoroastrismo",
+          "familia": "zoroastrismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 651,
+          "hasta": 1501,
+          "nombre": "Islam sunnita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1501,
+          "hasta": 2000,
+          "nombre": "Islam chiita",
+          "familia": "islam-chii",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -2700,
+          "hasta": -550,
+          "nombre": "Elamita y meda",
+          "familia": "elamita",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -550,
+          "hasta": 2000,
+          "nombre": "Persa",
+          "familia": "persa",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -2700,
+          "hasta": -500,
+          "nombre": "Elamita y medo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -520,
+          "hasta": -330,
+          "nombre": "Persa antiguo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -300,
+          "hasta": 650,
+          "nombre": "Persa medio (pahlavi) y parto",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 2000,
+          "nombre": "Persa moderno",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "nombre": "China (cuencas del Amarillo y el Yangtsé)",
+      "padre": null,
+      "poligono": [
+        [
+          102.0,
+          33.5
+        ],
+        [
+          103.0,
+          35.5
+        ],
+        [
+          104.0,
+          37.0
+        ],
+        [
+          106.5,
+          38.3
+        ],
+        [
+          108.5,
+          39.5
+        ],
+        [
+          111.0,
+          40.7
+        ],
+        [
+          114.0,
+          40.6
+        ],
+        [
+          116.5,
+          40.5
+        ],
+        [
+          118.5,
+          40.0
+        ],
+        [
+          117.7,
+          38.9
+        ],
+        [
+          118.9,
+          37.8
+        ],
+        [
+          119.9,
+          37.2
+        ],
+        [
+          122.3,
+          37.4
+        ],
+        [
+          120.4,
+          36.1
+        ],
+        [
+          119.4,
+          34.7
+        ],
+        [
+          120.2,
+          33.4
+        ],
+        [
+          121.0,
+          32.0
+        ],
+        [
+          121.5,
+          31.2
+        ],
+        [
+          121.0,
+          30.3
+        ],
+        [
+          121.6,
+          29.9
+        ],
+        [
+          120.7,
+          28.0
+        ],
+        [
+          119.5,
+          26.0
+        ],
+        [
+          117.0,
+          25.0
+        ],
+        [
+          113.5,
+          24.7
+        ],
+        [
+          110.5,
+          25.2
+        ],
+        [
+          107.5,
+          26.0
+        ],
+        [
+          105.5,
+          27.5
+        ],
+        [
+          103.5,
+          28.5
+        ],
+        [
+          102.0,
+          30.5
+        ]
+      ],
+      "resumen": "El núcleo histórico de China, en las cuencas del río Amarillo y el Yangtsé. Allí se desarrolló una de las civilizaciones más antiguas, con una escritura continua desde los huesos oraculares Shang, un Estado burocrático desde los Qin y los Han, y una tradición histórica y filosófica muy rica.",
+      "eras": [
+        {
+          "desde": -1600,
+          "hasta": -1046,
+          "nombre": "Dinastía Shang",
+          "resumen": "Primera dinastía con escritura documentada: inscripciones en huesos oraculares de Anyang."
+        },
+        {
+          "desde": -1046,
+          "hasta": -771,
+          "nombre": "Zhou Occidental",
+          "resumen": "Los Zhou derrotan a los Shang y desarrollan el «Mandato del Cielo»."
+        },
+        {
+          "desde": -770,
+          "hasta": -221,
+          "nombre": "Primavera y Otoño y Reinos Combatientes",
+          "resumen": "Fragmentación política y florecimiento de Confucio, Laozi y las «cien escuelas»."
+        },
+        {
+          "desde": -221,
+          "hasta": 220,
+          "nombre": "Qin y Han",
+          "resumen": "Unificación imperial por Qin Shi Huang y consolidación del Estado confuciano bajo los Han."
+        },
+        {
+          "desde": 220,
+          "hasta": 589,
+          "nombre": "Tres Reinos y dinastías del Norte y del Sur",
+          "resumen": "Fragmentación; se difunde el budismo."
+        },
+        {
+          "desde": 581,
+          "hasta": 907,
+          "nombre": "Sui y Tang",
+          "resumen": "Reunificación, apertura al exterior y edad de oro de la poesía."
+        },
+        {
+          "desde": 960,
+          "hasta": 1368,
+          "nombre": "Song y Yuan",
+          "resumen": "Desarrollo económico y tecnológico, seguido de la conquista mongola."
+        },
+        {
+          "desde": 1368,
+          "hasta": 1912,
+          "nombre": "Ming y Qing",
+          "resumen": "Los últimos imperios, hasta la revolución de 1911-1912."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 2,
+          "poblacion": 59594978,
+          "fuente": "Hanshu (Libro de Han), cap. 28B «Dilizhi»; edición de Bielenstein, «The census of China during the period 2-742 A.D.» (1947)",
+          "nota": "Censo registrado del año 2 d. C. en todo el imperio Han, incluidas zonas fuera de esta región; el registro es incompleto."
+        },
+        {
+          "anio": 140,
+          "poblacion": 49150220,
+          "fuente": "Hou Hanshu (Libro de los Han Posteriores), «Junguo zhi»; Bielenstein (1947)",
+          "nota": "Censo registrado del año 140 d. C. en todo el imperio."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1600,
+          "hasta": 2000,
+          "nombre": "Religión tradicional china (culto a los antepasados y al Cielo)",
+          "familia": "religion-tradicional-china",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -136,
+          "hasta": 1912,
+          "nombre": "Confucianismo (doctrina de Estado)",
+          "familia": "confucianismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 142,
+          "hasta": 2000,
+          "nombre": "Taoísmo",
+          "familia": "taoismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 67,
+          "hasta": 2000,
+          "nombre": "Budismo",
+          "familia": "budismo",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1600,
+          "hasta": 2000,
+          "nombre": "China (han)",
+          "familia": "china",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1250,
+          "hasta": 200,
+          "nombre": "Chino antiguo y clásico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 200,
+          "hasta": 960,
+          "nombre": "Chino medio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 960,
+          "hasta": 2000,
+          "nombre": "Chino (con mandarín como lengua común)",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "nombre": "India (cuencas del Indo y el Ganges)",
+      "padre": null,
+      "poligono": [
+        [
+          66.9,
+          24.8
+        ],
+        [
+          66.6,
+          27.5
+        ],
+        [
+          68.0,
+          30.0
+        ],
+        [
+          69.5,
+          31.5
+        ],
+        [
+          70.5,
+          33.5
+        ],
+        [
+          71.5,
+          34.6
+        ],
+        [
+          73.5,
+          35.6
+        ],
+        [
+          75.8,
+          36.0
+        ],
+        [
+          77.5,
+          35.4
+        ],
+        [
+          79.0,
+          33.2
+        ],
+        [
+          79.2,
+          30.8
+        ],
+        [
+          81.0,
+          30.2
+        ],
+        [
+          84.0,
+          28.5
+        ],
+        [
+          88.0,
+          27.8
+        ],
+        [
+          89.5,
+          26.7
+        ],
+        [
+          92.0,
+          26.2
+        ],
+        [
+          91.5,
+          22.5
+        ],
+        [
+          88.5,
+          21.7
+        ],
+        [
+          86.8,
+          21.5
+        ],
+        [
+          84.0,
+          21.3
+        ],
+        [
+          81.5,
+          21.6
+        ],
+        [
+          78.5,
+          21.2
+        ],
+        [
+          75.5,
+          21.5
+        ],
+        [
+          73.0,
+          21.4
+        ],
+        [
+          72.0,
+          20.9
+        ],
+        [
+          70.2,
+          21.0
+        ],
+        [
+          69.0,
+          22.3
+        ],
+        [
+          68.2,
+          23.5
+        ]
+      ],
+      "resumen": "El norte del subcontinente indio, entre el Indo y el Ganges: cuna de la civilización del Indo, de los textos védicos, del budismo y del jainismo, y de imperios como el Maurya y el Gupta. Es una de las regiones con más continuidad cultural del mundo.",
+      "eras": [
+        {
+          "desde": -3300,
+          "hasta": -1300,
+          "nombre": "Civilización del Indo",
+          "resumen": "Ciudades planificadas como Mohenjo-daro y Harappa; escritura aún sin descifrar."
+        },
+        {
+          "desde": -1500,
+          "hasta": -600,
+          "nombre": "Período védico",
+          "resumen": "Composición de los Vedas y expansión de pueblos indoarios hacia el Ganges."
+        },
+        {
+          "desde": -600,
+          "hasta": -321,
+          "nombre": "Mahajanapadas y auge del budismo",
+          "resumen": "Dieciséis reinos; predican Buda y Mahavira."
+        },
+        {
+          "desde": -321,
+          "hasta": -185,
+          "nombre": "Imperio Maurya",
+          "resumen": "Chandragupta y Ashoka unifican casi todo el subcontinente."
+        },
+        {
+          "desde": -185,
+          "hasta": 320,
+          "nombre": "Reinos posmauryas y Kushán",
+          "resumen": "Indogriegos, escitas y kushanes; auge del comercio de la Ruta de la Seda."
+        },
+        {
+          "desde": 320,
+          "hasta": 1206,
+          "nombre": "Gupta y reinos medievales",
+          "resumen": "Edad clásica de la ciencia y el arte, seguida de reinos regionales."
+        },
+        {
+          "desde": 1206,
+          "hasta": 1526,
+          "nombre": "Sultanato de Delhi",
+          "resumen": "Dinastías turco-afganas gobiernan el norte de la India."
+        },
+        {
+          "desde": 1526,
+          "hasta": 1947,
+          "nombre": "Mogoles y dominio británico",
+          "resumen": "Imperio mogol (1526-1857) y Raj británico (1858-1947)."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1500,
+          "hasta": -500,
+          "nombre": "Religión védica",
+          "familia": "vedismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 2000,
+          "nombre": "Hinduismo",
+          "familia": "hinduismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 1200,
+          "nombre": "Budismo",
+          "familia": "budismo",
+          "peso": "importante"
+        },
+        {
+          "desde": -600,
+          "hasta": 2000,
+          "nombre": "Jainismo",
+          "familia": "jainismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 2000,
+          "nombre": "Islam sunnita",
+          "familia": "islam-sunni",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -3300,
+          "hasta": -1300,
+          "nombre": "Civilización del Indo",
+          "familia": "india",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": 1206,
+          "nombre": "Indoaria",
+          "familia": "india",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1206,
+          "hasta": 2000,
+          "nombre": "Indoaria y indo-persa",
+          "familia": "india",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1500,
+          "hasta": -500,
+          "nombre": "Sánscrito védico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 500,
+          "nombre": "Prácritos y sánscrito clásico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": 2000,
+          "nombre": "Lenguas indoarias (hindi, urdu, punyabí, bengalí…)",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "mesoamerica",
+      "nombre": "Mesoamérica",
+      "padre": null,
+      "poligono": [
+        [
+          -104.5,
+          20.5
+        ],
+        [
+          -104.0,
+          21.8
+        ],
+        [
+          -101.5,
+          21.8
+        ],
+        [
+          -99.5,
+          22.4
+        ],
+        [
+          -97.8,
+          22.4
+        ],
+        [
+          -97.3,
+          20.0
+        ],
+        [
+          -96.1,
+          19.0
+        ],
+        [
+          -94.5,
+          18.2
+        ],
+        [
+          -92.5,
+          18.6
+        ],
+        [
+          -90.5,
+          19.8
+        ],
+        [
+          -90.4,
+          21.0
+        ],
+        [
+          -88.0,
+          21.6
+        ],
+        [
+          -87.0,
+          21.5
+        ],
+        [
+          -87.5,
+          18.5
+        ],
+        [
+          -88.2,
+          16.0
+        ],
+        [
+          -87.7,
+          15.8
+        ],
+        [
+          -87.5,
+          13.2
+        ],
+        [
+          -89.0,
+          13.2
+        ],
+        [
+          -91.5,
+          14.0
+        ],
+        [
+          -94.0,
+          16.0
+        ],
+        [
+          -96.0,
+          15.7
+        ],
+        [
+          -99.0,
+          16.7
+        ],
+        [
+          -101.5,
+          17.5
+        ],
+        [
+          -103.5,
+          18.7
+        ]
+      ],
+      "resumen": "El área cultural del centro y sur de México y parte de Centroamérica, donde se desarrollaron olmecas, zapotecos, mayas, teotihuacanos y mexicas. Compartían el cultivo del maíz, un calendario ritual de 260 días, la escritura glífica y el juego de pelota. Para su estudio se combinan la arqueología, los códices y las crónicas coloniales.",
+      "eras": [
+        {
+          "desde": -1500,
+          "hasta": 250,
+          "nombre": "Preclásico",
+          "resumen": "Aparición de las primeras aldeas y centros como San Lorenzo y La Venta (olmecas), y de la escritura y el calendario."
+        },
+        {
+          "desde": 250,
+          "hasta": 900,
+          "nombre": "Clásico",
+          "resumen": "Auge de Teotihuacan, Monte Albán y las ciudades mayas de las tierras bajas."
+        },
+        {
+          "desde": 900,
+          "hasta": 1250,
+          "nombre": "Epiclásico y Posclásico temprano",
+          "resumen": "Colapso de las ciudades clásicas mayas; Tula y Chichén Itzá."
+        },
+        {
+          "desde": 1250,
+          "hasta": 1521,
+          "nombre": "Posclásico tardío",
+          "resumen": "Los mexicas fundan Tenochtitlan (1325) y forman la Triple Alianza, hasta la llegada de Cortés."
+        },
+        {
+          "desde": 1521,
+          "hasta": 1821,
+          "nombre": "Virreinato de Nueva España",
+          "resumen": "Conquista española y sociedad colonial con evangelización."
+        },
+        {
+          "desde": 1821,
+          "hasta": 2000,
+          "nombre": "México y Centroamérica independientes",
+          "resumen": "Independencia de México y de las repúblicas centroamericanas."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1500,
+          "hasta": 1521,
+          "nombre": "Religión mesoamericana",
+          "familia": "religion-mesoamericana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1521,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1500,
+          "hasta": 1521,
+          "nombre": "Olmeca, maya, zapoteca, teotihuacana, mexica y otras",
+          "familia": "mesoamericana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1521,
+          "hasta": 2000,
+          "nombre": "Mestiza hispano-indígena",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1500,
+          "hasta": 1900,
+          "nombre": "Lenguas mesoamericanas (náhuatl, maya, zapoteco, mixteco…)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1521,
+          "hasta": 1900,
+          "nombre": "Español",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": 2000,
+          "nombre": "Español",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "andes",
+      "nombre": "Andes centrales",
+      "padre": null,
+      "poligono": [
+        [
+          -80.4,
+          -3.6
+        ],
+        [
+          -81.2,
+          -5.1
+        ],
+        [
+          -79.9,
+          -6.8
+        ],
+        [
+          -78.6,
+          -8.6
+        ],
+        [
+          -77.7,
+          -10.3
+        ],
+        [
+          -77.1,
+          -12.0
+        ],
+        [
+          -76.2,
+          -13.5
+        ],
+        [
+          -75.0,
+          -15.2
+        ],
+        [
+          -72.5,
+          -16.7
+        ],
+        [
+          -70.9,
+          -18.0
+        ],
+        [
+          -70.2,
+          -20.0
+        ],
+        [
+          -68.5,
+          -20.5
+        ],
+        [
+          -66.5,
+          -19.5
+        ],
+        [
+          -65.0,
+          -17.5
+        ],
+        [
+          -66.0,
+          -15.0
+        ],
+        [
+          -68.5,
+          -13.5
+        ],
+        [
+          -71.0,
+          -12.5
+        ],
+        [
+          -73.5,
+          -11.2
+        ],
+        [
+          -75.5,
+          -9.0
+        ],
+        [
+          -77.0,
+          -6.8
+        ],
+        [
+          -78.2,
+          -4.8
+        ]
+      ],
+      "resumen": "La costa, la sierra y el altiplano del actual Perú y Bolivia occidental: una de las cunas independientes de la civilización, con Caral, Chavín, Nazca, Moche, Wari, Tiwanaku y el Imperio inca (Tawantinsuyu). Los incas no usaron escritura alfabética, sino quipus; por eso las crónicas coloniales son la fuente escrita principal.",
+      "eras": [
+        {
+          "desde": -3000,
+          "hasta": -900,
+          "nombre": "Caral y Formativo",
+          "resumen": "Ciudades monumentales de la costa norte central y primeros templos."
+        },
+        {
+          "desde": -900,
+          "hasta": -200,
+          "nombre": "Chavín",
+          "resumen": "Centro ceremonial de Chavín de Huántar con influencia en todos los Andes."
+        },
+        {
+          "desde": -200,
+          "hasta": 600,
+          "nombre": "Nazca y Moche",
+          "resumen": "Culturas regionales con grandes obras artísticas y de irrigación."
+        },
+        {
+          "desde": 600,
+          "hasta": 1000,
+          "nombre": "Wari y Tiwanaku",
+          "resumen": "Primeros estados expansivos de la sierra sur y el altiplano."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1438,
+          "nombre": "Chimú y señoríos regionales",
+          "resumen": "Reino Chimú en la costa norte; el estado de Cusco crece en la sierra."
+        },
+        {
+          "desde": 1438,
+          "hasta": 1533,
+          "nombre": "Imperio inca",
+          "resumen": "Pachacútec inicia la expansión; Tawantinsuyu llega a ser el mayor imperio de América."
+        },
+        {
+          "desde": 1533,
+          "hasta": 1821,
+          "nombre": "Virreinato del Perú",
+          "resumen": "Conquista española; la ciudad de Lima es capital."
+        },
+        {
+          "desde": 1821,
+          "hasta": 2000,
+          "nombre": "Perú y Bolivia independientes",
+          "resumen": "Independencia (1821 y 1825) y repúblicas."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -3000,
+          "hasta": 1533,
+          "nombre": "Religión andina (culto al sol, huacas y antepasados)",
+          "familia": "religion-andina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1533,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -3000,
+          "hasta": 1533,
+          "nombre": "Andina (Caral, Chavín, Moche, Wari, Inca…)",
+          "familia": "andina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1533,
+          "hasta": 2000,
+          "nombre": "Mestiza hispano-andina",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1000,
+          "hasta": 1900,
+          "nombre": "Quechua, aimara y lenguas regionales",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1533,
+          "hasta": 1900,
+          "nombre": "Español",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": 2000,
+          "nombre": "Español",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "rio-de-la-plata",
+      "nombre": "Río de la Plata",
+      "padre": null,
+      "poligono": [
+        [
+          -62.0,
+          -25.5
+        ],
+        [
+          -57.0,
+          -24.8
+        ],
+        [
+          -55.0,
+          -26.0
+        ],
+        [
+          -53.8,
+          -27.3
+        ],
+        [
+          -53.5,
+          -30.0
+        ],
+        [
+          -53.4,
+          -33.7
+        ],
+        [
+          -54.95,
+          -34.95
+        ],
+        [
+          -56.2,
+          -34.9
+        ],
+        [
+          -57.8,
+          -34.5
+        ],
+        [
+          -58.4,
+          -34.6
+        ],
+        [
+          -56.75,
+          -36.3
+        ],
+        [
+          -57.55,
+          -38.0
+        ],
+        [
+          -58.7,
+          -38.6
+        ],
+        [
+          -62.3,
+          -39.0
+        ],
+        [
+          -64.5,
+          -37.0
+        ],
+        [
+          -64.8,
+          -32.0
+        ],
+        [
+          -64.0,
+          -29.5
+        ],
+        [
+          -64.5,
+          -27.0
+        ]
+      ],
+      "resumen": "La cuenca del Plata en su parte sur: el litoral y la pampa argentinos, Uruguay y el entorno de Asunción. Habitada por cazadores-recolectores y guaraníes, fue colonizada desde 1536 desde el Atlántico, se transformó en virreinato en 1776 y pasó por las revoluciones de independencia desde 1810.",
+      "eras": [
+        {
+          "desde": -10000,
+          "hasta": 1516,
+          "nombre": "Pueblos originarios",
+          "resumen": "Cazadores-recolectores de la pampa (querandíes, charrúas), guaraníes y otros pueblos del litoral."
+        },
+        {
+          "desde": 1516,
+          "hasta": 1580,
+          "nombre": "Exploración y primeras fundaciones",
+          "resumen": "Solís llega al Río de la Plata (1516); Asunción (1537) y primera Buenos Aires (1536)."
+        },
+        {
+          "desde": 1580,
+          "hasta": 1776,
+          "nombre": "Gobernación del Río de la Plata",
+          "resumen": "Segunda fundación de Buenos Aires por Garay y larga periferia del Imperio español."
+        },
+        {
+          "desde": 1776,
+          "hasta": 1810,
+          "nombre": "Virreinato del Río de la Plata",
+          "resumen": "Buenos Aires es capital del virreinato; las invasiones inglesas (1806-1807) debilitan el control español."
+        },
+        {
+          "desde": 1810,
+          "hasta": 1853,
+          "nombre": "Revolución y guerras civiles",
+          "resumen": "Revolución de Mayo, independencia de 1816, enfrentamientos entre unitarios y federales."
+        },
+        {
+          "desde": 1853,
+          "hasta": 1880,
+          "nombre": "Organización nacional",
+          "resumen": "Constitución de 1853 en Argentina; formación de los Estados argentino y uruguayo."
+        },
+        {
+          "desde": 1880,
+          "hasta": 2000,
+          "nombre": "Argentina y Uruguay modernos",
+          "resumen": "Inmigración masiva, expansión agropecuaria y urbanización."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -10000,
+          "hasta": 1580,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-originarias",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1580,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -10000,
+          "hasta": 1580,
+          "nombre": "Pueblos originarios (querandíes, charrúas, guaraníes…)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1580,
+          "hasta": 1810,
+          "nombre": "Hispana y criolla",
+          "familia": "hispana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1810,
+          "hasta": 2000,
+          "nombre": "Criolla e inmigrante",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -10000,
+          "hasta": 1580,
+          "nombre": "Lenguas originarias (guaraní, charrúa, entre otras)",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1580,
+          "hasta": 2000,
+          "nombre": "Español",
+          "peso": "mayoritaria"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "epopeya-de-gilgamesh",
+      "titulo": "Epopeya de Gilgamesh",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": -1800,
+        "anio_hasta": -600,
+        "aprox": true,
+        "lugar": "Nínive",
+        "lon": 43.153,
+        "lat": 36.359
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -2700,
+        "hasta": -2500
+      },
+      "idioma_original": "Acadio (con precedentes sumerios)",
+      "soporte": "Tablillas de arcilla con escritura cuneiforme",
+      "resumen": "Poema épico sobre Gilgamesh, rey de Uruk, su amistad con Enkidu y su búsqueda de la inmortalidad. Existe en versiones sumerias, una paleobabilónica (hacia 1800 a. C.) y la llamada versión estándar, conocida sobre todo por las tablillas de la biblioteca de Asurbanipal en Nínive.",
+      "por_que_importa": "Es una de las obras literarias más antiguas conservadas y contiene un relato del diluvio que se compara con el del Génesis. La fecha de escritura abarca siglos de versiones sucesivas.",
+      "leer": [
+        {
+          "titulo": "Versión paleobabilónica (Jastrow y Clay, 1920), tablilla de Pensilvania",
+          "url": "https://www.gutenberg.org/ebooks/11000",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Poema de Gilgamesh",
+        "en": "Epic of Gilgamesh"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codigo-de-hammurabi",
+      "titulo": "Código de Hammurabi",
+      "titulo_original": null,
+      "autor": "Hammurabi de Babilonia",
+      "autor_id": "hammurabi",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -1754,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -1792,
+        "hasta": -1750
+      },
+      "idioma_original": "Acadio (paleobabilónico)",
+      "soporte": "Estela de diorita con 282 leyes (hoy en el Louvre)",
+      "resumen": "Colección de leyes grabada por orden del rey de Babilonia, con un prólogo y un epílogo. La estela fue hallada en Susa en 1901, adonde había sido llevada como botín.",
+      "por_que_importa": "Muestra cómo se concebían la justicia, las clases sociales y la propiedad en la Mesopotamia del siglo XVIII a. C., incluido el principio de talión.",
+      "leer": [
+        {
+          "titulo": "Traducción de L. W. King (Proyecto Avalon, Universidad de Yale)",
+          "url": "https://avalon.law.yale.edu/ancient/hamframe.asp",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Código de Hammurabi",
+        "en": "Code of Hammurabi"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "lista-real-sumeria",
+      "titulo": "Lista Real Sumeria",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -2100,
+        "anio_hasta": -1800,
+        "aprox": true,
+        "lugar": "Ur (versión original, con ediciones posteriores)",
+        "lon": 46.103,
+        "lat": 30.963
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -3000,
+        "hasta": -1800
+      },
+      "idioma_original": "Sumerio",
+      "soporte": "Tablillas y prismas de arcilla",
+      "resumen": "Registro de los reyes de Sumeria con la duración de cada reinado, que arranca con una realeza «bajada del cielo» antes del diluvio y llega hasta la dinastía de Isin. Fue compilada y ampliada por escribas posteriores a los hechos que cuenta.",
+      "por_que_importa": "Es la base de la cronología mesopotámica, aunque mezcla reyes históricos y legendarios y presenta como sucesivas dinastías que en realidad fueron simultáneas.",
+      "leer": [
+        {
+          "titulo": "The Sumerian king list: translation (ETCSL, Universidad de Oxford)",
+          "url": "https://etcsl.orinst.ox.ac.uk/section2/tr211.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Lista real sumeria",
+        "en": "Sumerian King List"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "estela-de-mesha",
+      "titulo": "Estela de Mesha (Piedra Moabita)",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -840,
+        "aprox": true,
+        "lugar": "Dibán (Moab)",
+        "lon": 35.775,
+        "lat": 31.5
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": -850,
+        "hasta": -830
+      },
+      "idioma_original": "Moabita",
+      "soporte": "Estela de basalto con 34 líneas de texto",
+      "resumen": "Inscripción del rey Mesha de Moab que celebra su victoria sobre Israel y la reconstrucción de ciudades. Fue descubierta en 1868 y está en el Louvre.",
+      "por_que_importa": "Es una de las pocas fuentes extrabíblicas que menciona a Omri, rey de Israel, y al nombre de Yahvé.",
+      "leer": [
+        {
+          "titulo": "The Inscription on the Stele of Méšaʿ (Wikisource)",
+          "url": "https://en.wikisource.org/wiki/The_Inscription_on_the_Stele_of_M%C3%A9%C5%A1a%CA%BF",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Estela de Mesha",
+        "en": "Mesha Stele"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-de-los-judios",
+      "titulo": "La guerra de los judíos",
+      "titulo_original": null,
+      "autor": "Flavio Josefo",
+      "autor_id": "josefo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 75,
+        "anio_hasta": 79,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": 66,
+        "hasta": 73
+      },
+      "idioma_original": "Griego",
+      "soporte": "Rollos de papiro; transmitida en códices",
+      "resumen": "Relato de la revuelta judía contra Roma y de la destrucción de Jerusalén, escrito por un comandante judío que se pasó al bando romano. Incluye la toma de Masada.",
+      "por_que_importa": "Es la fuente principal sobre la guerra del 66-73 y sobre la caída del Segundo Templo, aunque está escrita desde la perspectiva de un protegido de los Flavios.",
+      "leer": [
+        {
+          "titulo": "The Wars of the Jews (traducción de W. Whiston, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/2850",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "La guerra de los judíos",
+        "en": "The Jewish War"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "leyes-hititas",
+      "titulo": "Leyes hititas",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -1600,
+        "anio_hasta": -1180,
+        "aprox": true,
+        "lugar": "Hattusa",
+        "lon": 34.6129,
+        "lat": 40.0197
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": -1650,
+        "hasta": -1180
+      },
+      "idioma_original": "Hitita",
+      "soporte": "Tablillas de arcilla con escritura cuneiforme",
+      "resumen": "Colección de unas 200 disposiciones sobre homicidio, robo, matrimonio, propiedad y precios, recuperada en el archivo real de Hattusa. Se copió durante siglos.",
+      "por_que_importa": "Permite comparar el derecho hitita con el babilonio: las penas son más a menudo compensaciones que castigos corporales.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Hittite laws"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "anabasis",
+      "titulo": "Anábasis",
+      "titulo_original": null,
+      "autor": "Jenofonte",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -370,
+        "aprox": true,
+        "lugar": "Escilunte, Élide",
+        "lon": 21.62,
+        "lat": 37.57
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "persia",
+          "mesopotamia"
+        ],
+        "desde": -401,
+        "hasta": -399
+      },
+      "idioma_original": "Griego",
+      "soporte": "Rollos de papiro",
+      "resumen": "Relato de la expedición de diez mil mercenarios griegos que apoyaron a Ciro el Joven contra su hermano Artajerjes II, y de su retirada desde Babilonia hasta el Mar Negro. El autor participó en ella.",
+      "por_que_importa": "Es un testimonio directo de la geografía, los pueblos y los caminos del Imperio persa y de Anatolia hacia el 400 a. C.",
+      "leer": [
+        {
+          "titulo": "Anabasis (traducción de H. G. Dakyns, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1170",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Anábasis (Jenofonte)",
+        "en": "Anabasis (Xenophon)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "res-gestae-divi-augusti",
+      "titulo": "Res Gestae Divi Augusti",
+      "titulo_original": null,
+      "autor": "Augusto",
+      "autor_id": "augusto",
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 14,
+        "aprox": false,
+        "lugar": "Roma (original); copia en Ancira",
+        "lon": 32.86,
+        "lat": 39.93
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "anatolia"
+        ],
+        "desde": -44,
+        "hasta": 14
+      },
+      "idioma_original": "Latín (con versión griega)",
+      "soporte": "Inscripción en bronce, copiada en piedra en Ancira (Ankara) y otras ciudades",
+      "resumen": "Resumen en primera persona de los actos y gastos del emperador Augusto, redactado poco antes de su muerte. El texto mejor conservado procede del templo de Roma y Augusto en Ancira (actual Ankara).",
+      "por_que_importa": "Muestra cómo el propio Augusto presentó su gobierno, y su copia anatolia es una prueba de la difusión de la propaganda imperial.",
+      "leer": [
+        {
+          "titulo": "Res Gestae Divi Augusti (Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Res_Gestae_Divi_Augusti",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Res gestae divi Augusti",
+        "en": "Res Gestae Divi Augusti"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "iliada",
+      "titulo": "Ilíada",
+      "titulo_original": null,
+      "autor": "Homero",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -750,
+        "anio_hasta": -700,
+        "aprox": true,
+        "lugar": "Jonia (costa egea de Anatolia)",
+        "lon": 27.4,
+        "lat": 38.4
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "anatolia"
+        ],
+        "desde": -1250,
+        "hasta": -1180
+      },
+      "idioma_original": "Griego homérico",
+      "soporte": "Poema oral fijado por escrito; transmitido en rollos de papiro",
+      "resumen": "Poema épico de 24 cantos sobre la cólera de Aquiles en el décimo año del asedio de Troya. Se atribuye a Homero, pero su composición y su autor son objeto de debate.",
+      "por_que_importa": "Transmite los valores y los mitos de la Grecia arcaica y fue la base de la educación griega; no es una crónica de la guerra de Troya.",
+      "leer": [
+        {
+          "titulo": "Ilíada, traducción de A. T. Murray (Perseus, Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Ilíada, texto en español (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Il%C3%ADada",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ilíada",
+        "en": "Iliad"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historias-herodoto",
+      "titulo": "Historias",
+      "titulo_original": null,
+      "autor": "Heródoto",
+      "autor_id": "herodoto",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -440,
+        "anio_hasta": -425,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "persia",
+          "anatolia",
+          "mesopotamia",
+          "levante",
+          "egipto"
+        ],
+        "desde": -560,
+        "hasta": -479
+      },
+      "idioma_original": "Griego jónico",
+      "soporte": "Rollos de papiro",
+      "resumen": "Investigación sobre los orígenes del enfrentamiento entre griegos y persas, con extensas descripciones de Egipto, Lidia, Persia y Escitia, y el relato de las guerras médicas hasta Platea y Mícala.",
+      "por_que_importa": "Se lo llama el padre de la historia; sus digresiones son la fuente principal sobre muchos pueblos del siglo V a. C. Mezcla observación directa con relatos que él mismo dice no creer.",
+      "leer": [
+        {
+          "titulo": "Historias, traducción de A. D. Godley (Perseus, Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "The History of Herodotus, traducción de G. Rawlinson (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/2707",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia (Heródoto)",
+        "en": "Histories (Herodotus)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "guerra-del-peloponeso",
+      "titulo": "Historia de la guerra del Peloponeso",
+      "titulo_original": null,
+      "autor": "Tucídides",
+      "autor_id": "tucidides",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -410,
+        "anio_hasta": -400,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -431,
+        "hasta": -411
+      },
+      "idioma_original": "Griego ático",
+      "soporte": "Rollos de papiro",
+      "resumen": "Relato de la guerra entre Atenas y Esparta, escrito por un general ateniense que la vivió; queda interrumpido en el año 411 a. C. Incluye discursos, entre ellos el epitafio de Pericles.",
+      "por_que_importa": "Es el modelo de la historia basada en testigos y en el análisis de causas políticas, y la fuente central del siglo V a. C.",
+      "leer": [
+        {
+          "titulo": "History of the Peloponnesian War, traducción de R. Crawley (Perseus, Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia de la guerra del Peloponeso",
+        "en": "History of the Peloponnesian War"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "republica-platon",
+      "titulo": "República",
+      "titulo_original": null,
+      "autor": "Platón",
+      "autor_id": "platon",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -375,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -430,
+        "hasta": -380
+      },
+      "idioma_original": "Griego ático",
+      "soporte": "Rollos de papiro",
+      "resumen": "Diálogo en diez libros sobre la justicia, en el que Sócrates imagina una ciudad ideal gobernada por filósofos. Incluye la alegoría de la caverna.",
+      "por_que_importa": "Muestra la crítica de un ateniense a la democracia de su ciudad y es un texto fundacional de la filosofía política occidental.",
+      "leer": [
+        {
+          "titulo": "La República, traducción de B. Jowett (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1497",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "La República (Platón)",
+        "en": "Republic (Plato)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "politica-aristoteles",
+      "titulo": "Política",
+      "titulo_original": null,
+      "autor": "Aristóteles",
+      "autor_id": "aristoteles",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -335,
+        "anio_hasta": -323,
+        "aprox": true,
+        "lugar": "Atenas (Liceo)",
+        "lon": 23.745,
+        "lat": 37.975
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -400,
+        "hasta": -322
+      },
+      "idioma_original": "Griego ático",
+      "soporte": "Rollos de papiro (apuntes de lección)",
+      "resumen": "Tratado en ocho libros sobre el Estado, los tipos de constitución y las causas de las revoluciones. Se apoyó en un estudio de unas 158 constituciones de ciudades griegas, de las que solo se conserva la de Atenas.",
+      "por_que_importa": "Define al ser humano como animal político y compara constituciones reales; es una fuente indirecta sobre cómo funcionaban las póleis.",
+      "leer": [
+        {
+          "titulo": "Política, traducción de H. Rackham (Perseus, Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Politics: A Treatise on Government, traducción de B. Jowett (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/6762",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Política (Aristóteles)",
+        "en": "Politics (Aristotle)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "ab-urbe-condita",
+      "titulo": "Ab urbe condita",
+      "titulo_original": null,
+      "autor": "Tito Livio",
+      "autor_id": "tito-livio",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -27,
+        "anio_hasta": 17,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": -753,
+        "hasta": -9
+      },
+      "idioma_original": "Latín",
+      "soporte": "Rollos de papiro; solo se conservan 35 de sus 142 libros",
+      "resumen": "Historia de Roma desde su fundación legendaria hasta la muerte de Druso en el 9 a. C., en 142 libros, de los cuales se conservan los libros 1-10 y 21-45. Livio escribió bajo Augusto y recogió tradiciones y analistas anteriores.",
+      "por_que_importa": "Es la fuente principal sobre la Roma monárquica y republicana temprana, pero mezcla leyenda e historia y refleja los ideales morales del principado.",
+      "leer": [
+        {
+          "titulo": "Roman History, Books I-III (traducción de G. Baker, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/10828",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ab Urbe condita libri",
+        "en": "Ab Urbe Condita Libri"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anales-tacito",
+      "titulo": "Anales",
+      "titulo_original": null,
+      "autor": "Tácito",
+      "autor_id": "tacito",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 116,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 14,
+        "hasta": 68
+      },
+      "idioma_original": "Latín",
+      "soporte": "Códices medievales (Medicei I y II)",
+      "resumen": "Historia del Imperio romano desde la muerte de Augusto (14) hasta la de Nerón (68), en dieciséis libros de los que se conservan los libros 1-6 y 11-16 con lagunas. Tácito escribió poco después de la época que narra.",
+      "por_que_importa": "Ofrece un retrato crítico de los emperadores julio-claudios; trata el incendio de Roma del 64 y la persecución de los cristianos.",
+      "leer": [
+        {
+          "titulo": "Reinado de Tiberio: Anales I-VI (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/7959",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Anales (Tácito)",
+        "en": "Annals (Tacitus)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-de-las-galias",
+      "titulo": "Comentarios sobre la guerra de las Galias",
+      "titulo_original": null,
+      "autor": "Julio César",
+      "autor_id": "julio-cesar",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -50,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": -58,
+        "hasta": -50
+      },
+      "idioma_original": "Latín",
+      "soporte": "Rollos de papiro; transmitida en códices medievales",
+      "resumen": "Relato en tercera persona de las campañas de César en la Galia durante siete años, redactado por el propio general. Describe pueblos, costumbres y operaciones militares.",
+      "por_que_importa": "Es una fuente de primera mano sobre la conquista romana de la Galia; también un texto de propaganda política escrito para Roma.",
+      "leer": [
+        {
+          "titulo": "De Bello Gallico y otros comentarios (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/10657",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "La guerra de las Galias",
+        "en": "Commentarii de Bello Gallico"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vidas-paralelas",
+      "titulo": "Vidas paralelas",
+      "titulo_original": null,
+      "autor": "Plutarco",
+      "autor_id": "plutarco",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 110,
+        "aprox": true,
+        "lugar": "Queronea",
+        "lon": 22.84,
+        "lat": 38.49
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "italia"
+        ],
+        "desde": -750,
+        "hasta": -30
+      },
+      "idioma_original": "Griego",
+      "soporte": "Rollos de papiro",
+      "resumen": "Biografías en parejas de un griego y un romano, de Teseo y Rómulo a Antonio. Plutarco escribió unos siglos después de los hechos con fines morales, y se apoyó en autores hoy perdidos.",
+      "por_que_importa": "Es la fuente de datos biográficos de muchas figuras de la Grecia y la Roma antiguas, aunque hay que leerla con cautela.",
+      "leer": [
+        {
+          "titulo": "Vidas de los nobles griegos y romanos (traducción de Dryden, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/674",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Vidas paralelas",
+        "en": "Parallel Lives"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "inscripcion-de-behistun",
+      "titulo": "Inscripción de Behistún",
+      "titulo_original": null,
+      "autor": "Darío I",
+      "autor_id": "dario-i",
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -520,
+        "anio_hasta": -518,
+        "aprox": true,
+        "lugar": "Behistún",
+        "lon": 47.436,
+        "lat": 34.389
+      },
+      "trata": {
+        "regiones": [
+          "persia",
+          "mesopotamia"
+        ],
+        "desde": -522,
+        "hasta": -520
+      },
+      "idioma_original": "Persa antiguo, elamita y babilonio",
+      "soporte": "Relieve e inscripción trilingüe en un acantilado de unos 15 m por 25 m",
+      "resumen": "Darío I narra cómo derrotó al usurpador Gaumata y a los rebeldes del imperio. El texto, en tres lenguas, fue copiado en el siglo XIX por Henry Rawlinson, y su desciframiento abrió el cuneiforme.",
+      "por_que_importa": "Es el testimonio directo del propio Darío sobre su ascenso al trono, y fue clave para descifrar el cuneiforme, como la piedra de Rosetta para los jeroglíficos.",
+      "leer": [
+        {
+          "titulo": "The Sculptures and Inscription of Darius the Great on the Rock of Behistûn (traducción de L. W. King, Wikisource)",
+          "url": "https://en.wikisource.org/wiki/The_Sculptures_and_Inscription_of_Darius_the_Great_on_the_Rock_of_Behist%C3%BBn_in_Persia",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto persa de Behistún (Livius)",
+          "url": "https://www.livius.org/sources/content/behistun-persian-text/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Inscripción de Behistún",
+        "en": "Behistun Inscription"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gathas",
+      "titulo": "Avesta (Gathas)",
+      "titulo_original": null,
+      "autor": "Atribuidas a Zoroastro",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -1500,
+        "anio_hasta": -1000,
+        "aprox": true,
+        "lugar": "Asia Central o Irán oriental (incierto)",
+        "lon": 62.0,
+        "lat": 37.0
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": -1500,
+        "hasta": -1000
+      },
+      "idioma_original": "Avéstico antiguo",
+      "soporte": "Transmisión oral; redacción escrita en época sasánida",
+      "resumen": "Diecisiete himnos en avéstico antiguo, parte del Yasna, atribuidos al profeta Zoroastro. Se transmitieron oralmente durante siglos y solo se fijaron por escrito en época sasánida.",
+      "por_que_importa": "Son los textos más antiguos de la tradición zoroástrica y de las pocas fuentes sobre la religión irania anterior a los aqueménidas; su datación es muy discutida.",
+      "leer": [
+        {
+          "titulo": "The Zend Avesta (traducciones de Darmesteter y Mills, Sacred Books of the East, Internet Archive)",
+          "url": "https://archive.org/details/complete-SBE-avesta-three-volumes-in-one",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Avesta",
+        "en": "Avesta"
+      },
+      "confianza": "baja"
+    },
+    {
+      "id": "cilindro-de-ciro",
+      "titulo": "Cilindro de Ciro",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -539,
+        "anio_hasta": -538,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "trata": {
+        "regiones": [
+          "persia",
+          "mesopotamia"
+        ],
+        "desde": -559,
+        "hasta": -539
+      },
+      "idioma_original": "Acadio (babilonio)",
+      "soporte": "Cilindro de arcilla con escritura cuneiforme (British Museum)",
+      "resumen": "Proclama escrita en nombre de Ciro II tras la toma de Babilonia, donde se presenta como elegido de Marduk y enumera sus medidas de restauración de templos y repatriación de dioses y pueblos desplazados.",
+      "por_que_importa": "Es una fuente directa sobre la conquista persa de Babilonia, aunque su carácter propagandístico es claro. Su lectura como declaración de derechos humanos es discutida.",
+      "leer": [
+        {
+          "titulo": "Cilindro de Ciro (traducción en Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Cyrus_cylinder",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Cilindro de Ciro",
+        "en": "Cyrus Cylinder"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "shahnameh",
+      "titulo": "Shahnameh (Libro de los Reyes)",
+      "titulo_original": null,
+      "autor": "Ferdousí",
+      "autor_id": "firdusi",
+      "tipo": "secundaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1010,
+        "aprox": true,
+        "lugar": "Tus",
+        "lon": 59.4879,
+        "lat": 36.4856
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": -3000,
+        "hasta": 651
+      },
+      "idioma_original": "Persa moderno",
+      "soporte": "Manuscritos; poema de unos 50 000 versos",
+      "resumen": "Poema épico de unos 50 000 versos que cuenta la historia mítica y legendaria de Irán desde la creación hasta la caída de los sasánidas ante los árabes. Ferdousí lo terminó hacia el año 1010.",
+      "por_que_importa": "Es la gran epopeya nacional persa y un hito del persa literario; recoge tradiciones sasánidas sobre los reyes antiguos.",
+      "leer": [
+        {
+          "titulo": "The Shah Nameh (traducción de A. G. y E. Warner, Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Shah_Nameh",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Shahnameh",
+        "en": "Shahnameh"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "analectas",
+      "titulo": "Analectas (Lunyu)",
+      "titulo_original": null,
+      "autor": "Atribuidas a los discípulos de Confucio",
+      "autor_id": "confucio",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -479,
+        "anio_hasta": -221,
+        "aprox": true,
+        "lugar": "Estado de Lu (Qufu)",
+        "lon": 116.99,
+        "lat": 35.6
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": -551,
+        "hasta": -479
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Tablillas de bambú",
+      "resumen": "Colección breve de sentencias y diálogos de Confucio con sus discípulos, recopilada por varias generaciones tras su muerte. Los veinte libros tratan la virtud, la familia, el gobierno y el aprendizaje.",
+      "por_que_importa": "Contiene la base del pensamiento confuciano, que moldeó la política y la educación chinas durante más de dos mil años.",
+      "leer": [
+        {
+          "titulo": "The Analects of Confucius (traducción de J. Legge, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/3330",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Analectas de Confucio",
+        "en": "Analects"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "shiji",
+      "titulo": "Shiji (Memorias históricas)",
+      "titulo_original": "史記",
+      "autor": "Sima Qian",
+      "autor_id": "sima-qian",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -94,
+        "anio_hasta": -91,
+        "aprox": true,
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": -2600,
+        "hasta": -95
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Tablillas de bambú y seda; 130 capítulos",
+      "resumen": "Historia general de China desde el legendario Emperador Amarillo hasta el reinado de Han Wudi, en 130 capítulos que combinan anales, tablas, tratados y biografías. Continuó un proyecto iniciado por su padre.",
+      "por_que_importa": "Establece el modelo de la historiografía china, y es la fuente principal sobre la China preimperial y la formación del imperio Han.",
+      "leer": [
+        {
+          "titulo": "史記 (texto chino, Wikisource)",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+          "idioma": "zh",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Registros del Gran Historiador",
+        "en": "Records of the Grand Historian"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "daodejing",
+      "titulo": "Daodejing (Tao Te King)",
+      "titulo_original": null,
+      "autor": "Atribuido a Laozi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -300,
+        "aprox": true,
+        "lugar": "China (Estado de Chu, incierto)",
+        "lon": 112.2,
+        "lat": 30.7
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": -600,
+        "hasta": -300
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Tablillas de bambú (manuscritos de Guodian, hacia 300 a. C., y Mawangdui)",
+      "resumen": "Breve libro de unos 81 capítulos sobre el Dao, la naturaleza y la acción sin esfuerzo (wu wei). La tradición lo atribuye a Laozi, pero el autor y la fecha son inciertos.",
+      "por_que_importa": "Es el texto fundacional del taoísmo y una de las obras más traducidas de la literatura mundial.",
+      "leer": [
+        {
+          "titulo": "The Tao Teh King (traducción de J. Legge, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/216",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Tao Te Ching",
+        "en": "Tao Te Ching"
+      },
+      "confianza": "baja"
+    },
+    {
+      "id": "el-arte-de-la-guerra",
+      "titulo": "El arte de la guerra",
+      "titulo_original": null,
+      "autor": "Atribuido a Sunzi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": -350,
+        "aprox": true,
+        "lugar": "China (Estado de Qi o de Wu, incierto)",
+        "lon": 118.0,
+        "lat": 36.5
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": -770,
+        "hasta": -221
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Tablillas de bambú; textos de Yinqueshan (siglo II a. C.)",
+      "resumen": "Tratado de estrategia militar atribuido a Sunzi, que habría vivido en el siglo VI a. C. Los estudios filológicos sitúan su redacción entre los siglos V y III a. C.",
+      "por_que_importa": "Muestra el pensamiento militar de los Reinos Combatientes y su influencia en la política y la guerra de Asia oriental.",
+      "leer": [
+        {
+          "titulo": "The Art of War (traducción de L. Giles, Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/132",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "El arte de la guerra",
+        "en": "The Art of War"
+      },
+      "confianza": "baja"
+    },
+    {
+      "id": "rigveda",
+      "titulo": "Rigveda",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -1300,
+        "aprox": true,
+        "lugar": "Punyab (Sapta Sindhu)",
+        "lon": 74.0,
+        "lat": 31.0
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -1500,
+        "hasta": -1000
+      },
+      "idioma_original": "Sánscrito védico",
+      "soporte": "Transmisión oral durante siglos; manuscritos medievales",
+      "resumen": "Colección de 1028 himnos en diez libros dedicados a Agni, Indra, Soma y otras deidades. Es el texto más antiguo de la tradición védica y se transmitió oralmente durante siglos.",
+      "por_que_importa": "Es la principal fuente sobre la religión y la sociedad de los pueblos indoarios del norte de la India; sus fechas se infieren de la lingüística.",
+      "leer": [
+        {
+          "titulo": "The Hymns of the Rigveda (traducción de R. T. H. Griffith, Wikisource)",
+          "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Rigveda",
+        "en": "Rigveda"
+      },
+      "confianza": "baja"
+    },
+    {
+      "id": "edictos-de-ashoka",
+      "titulo": "Edictos de Ashoka",
+      "titulo_original": null,
+      "autor": "Ashoka",
+      "autor_id": "ashoka",
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -260,
+        "anio_hasta": -232,
+        "aprox": true,
+        "lugar": "Pataliputra (promulgados en todo el imperio)",
+        "lon": 85.1376,
+        "lat": 25.6093
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -268,
+        "hasta": -232
+      },
+      "idioma_original": "Prácrito (brahmi y kharoshthi), griego y arameo",
+      "soporte": "Inscripciones en rocas y pilares de arenisca pulida",
+      "resumen": "Edictos grabados por Ashoka Maurya en rocas y pilares de su imperio, que proclaman su arrepentimiento por la guerra de Kalinga y su política de dhamma (piedad, tolerancia y no violencia). Algunos están en griego y arameo.",
+      "por_que_importa": "Son los documentos escritos más antiguos de la India históricamente fechables, y la prueba directa de cómo el rey quería ser visto.",
+      "leer": [
+        {
+          "titulo": "The Edicts of King Asoka (traducción de S. Dhammika)",
+          "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Edictos de Ashoka",
+        "en": "Edicts of Ashoka"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "arthashastra",
+      "titulo": "Arthashastra",
+      "titulo_original": null,
+      "autor": "Atribuido a Kautilya (Chanakya)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 150,
+        "aprox": true,
+        "lugar": "India (incierto)",
+        "lon": 85.1376,
+        "lat": 25.6093
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -321,
+        "hasta": -185
+      },
+      "idioma_original": "Sánscrito",
+      "soporte": "Manuscritos en hoja de palma",
+      "resumen": "Tratado sobre política, economía, espionaje, derecho y guerra. La tradición lo atribuye a Kautilya, ministro de Chandragupta Maurya, pero los especialistas lo consideran una compilación de entre el siglo II a. C. y el siglo III d. C.",
+      "por_que_importa": "Describe cómo se concebía un Estado en la India antigua, con impuestos, funcionarios y estrategia; su autoría y fecha son discutidas.",
+      "leer": [
+        {
+          "titulo": "Arthashastra (traducción de R. Shamasastry, Wikisource)",
+          "url": "https://en.wikisource.org/wiki/Arthashastra",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Arthashastra",
+        "en": "Arthashastra"
+      },
+      "confianza": "baja"
+    },
+    {
+      "id": "codice-florentino",
+      "titulo": "Códice Florentino (Historia general de las cosas de Nueva España)",
+      "titulo_original": null,
+      "autor": "Bernardino de Sahagún y colaboradores nahuas",
+      "autor_id": "bernardino-de-sahagun",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1558,
+        "anio_hasta": 1577,
+        "aprox": true,
+        "lugar": "Tlatelolco",
+        "lon": -99.1389,
+        "lat": 19.4517
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1300,
+        "hasta": 1521
+      },
+      "idioma_original": "Náhuatl (con traducción al español)",
+      "soporte": "Manuscrito ilustrado en 12 libros, con más de 2000 imágenes (Biblioteca Medicea Laurenciana, Florencia)",
+      "resumen": "Enciclopedia de la vida mexica, redactada en náhuatl con la ayuda de ancianos y estudiantes del Colegio de Santa Cruz. Trata los dioses, las fiestas, la sociedad, la naturaleza y, en el libro XII, la conquista vista por los vencidos.",
+      "por_que_importa": "Es la fuente más rica sobre la sociedad mexica, con voces indígenas, aunque fue compilada por un fraile y décadas después de la conquista.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice florentino",
+        "en": "Florentine Codex"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "popol-vuh",
+      "titulo": "Popol Vuh",
+      "titulo_original": null,
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1554,
+        "anio_hasta": 1558,
+        "aprox": true,
+        "lugar": "Santa Cruz del Quiché",
+        "lon": -91.1469,
+        "lat": 15.0319
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": -3000,
+        "hasta": 1550
+      },
+      "idioma_original": "K'iche' (con copia y traducción de Ximénez, hacia 1700)",
+      "soporte": "Manuscrito alfabético en k'iche'; la copia conocida es del padre Francisco Ximénez",
+      "resumen": "Libro sagrado de los mayas k'iche' que narra la creación del mundo, las aventuras de los gemelos Hunahpú e Ixbalanqué y la genealogía de los señores k'iche'. El original perdido se escribió en alfabeto latino hacia mediados del siglo XVI.",
+      "por_que_importa": "Es la mejor fuente escrita sobre la mitología maya; muestra la tradición oral indígena sobre su propio pasado.",
+      "leer": [
+        {
+          "titulo": "Popol Vuh (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Popol_Vuh",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Popol Vuh",
+        "en": "Popol Vuh"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cartas-de-relacion",
+      "titulo": "Cartas de relación",
+      "titulo_original": null,
+      "autor": "Hernán Cortés",
+      "autor_id": "hernan-cortes",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1519,
+        "anio_hasta": 1526,
+        "aprox": false,
+        "lugar": "Veracruz, Coyoacán y Tenochtitlan",
+        "lon": -99.1626,
+        "lat": 19.3467
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1526
+      },
+      "idioma_original": "Español",
+      "soporte": "Cartas manuscritas e impresas al emperador Carlos V",
+      "resumen": "Cinco cartas al rey de España en las que Cortés relata la expedición y la conquista de México, con descripciones de Tenochtitlan, de su mercado y de los pueblos que halló.",
+      "por_que_importa": "Es un testimonio directo de la conquista escrito por su principal protagonista, con su propia justificación y sus omisiones.",
+      "leer": [
+        {
+          "titulo": "Cartas y relaciones de Hernán Cortés al emperador Carlos V (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Cartas_y_relaciones_de_Hernan_Cort%C3%A9s_al_Emperador_Carlos_V",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Cartas de relación"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "comentarios-reales",
+      "titulo": "Comentarios reales de los incas",
+      "titulo_original": null,
+      "autor": "Inca Garcilaso de la Vega",
+      "autor_id": "inca-garcilaso",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1609,
+        "aprox": false,
+        "lugar": "Córdoba, España",
+        "lon": -4.7794,
+        "lat": 37.8882
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1572
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro impreso en Lisboa en 1609",
+      "resumen": "Historia del Perú incaico escrita por el hijo de un capitán español y una princesa inca, que recoge tradiciones familiares y su infancia en Cusco. La segunda parte, «Historia general del Perú», cuenta la conquista.",
+      "por_que_importa": "Es la fuente más influyente sobre el Tawantinsuyu, aunque idealiza el pasado inca y se escribió desde España, décadas después de la conquista.",
+      "leer": [
+        {
+          "titulo": "Comentarios reales de los incas (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Comentarios_reales",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Comentarios reales de los incas",
+        "en": "Comentarios Reales de los Incas"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "nueva-coronica-y-buen-gobierno",
+      "titulo": "Nueva corónica y buen gobierno",
+      "titulo_original": null,
+      "autor": "Felipe Guaman Poma de Ayala",
+      "autor_id": "guaman-poma",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1615,
+        "aprox": true,
+        "lugar": "Huamanga (Ayacucho)",
+        "lon": -74.2232,
+        "lat": -13.1631
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1615
+      },
+      "idioma_original": "Español, con quechua",
+      "soporte": "Manuscrito de unas 1200 páginas con 398 dibujos (Biblioteca Real de Copenhague)",
+      "resumen": "Carta al rey Felipe III en la que un noble indígena denuncia los abusos coloniales y relata la historia andina desde un punto de vista indígena, con cientos de dibujos.",
+      "por_que_importa": "Es una de las pocas voces andinas escritas del primer siglo colonial, y combina texto e imagen de forma única.",
+      "leer": [
+        {
+          "titulo": "Nueva corónica y buen gobierno (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Nueva_cor%C3%B3nica_y_buen_gobierno",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Edición digital de la Biblioteca Real de Dinamarca",
+          "url": "https://www.kb.dk/permalink/2006/poma/info/es/frontpage.htm",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-del-peru-cieza",
+      "titulo": "Crónica del Perú (primera parte)",
+      "titulo_original": null,
+      "autor": "Pedro de Cieza de León",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1550,
+        "anio_hasta": 1553,
+        "aprox": true,
+        "lugar": "Lima",
+        "lon": -77.0428,
+        "lat": -12.0464
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1532,
+        "hasta": 1550
+      },
+      "idioma_original": "Español",
+      "soporte": "Impreso en Sevilla en 1553",
+      "resumen": "Descripción de las provincias del Perú, sus caminos, pueblos y costumbres, basada en los viajes del autor entre 1535 y 1550. Cieza recorrió el territorio poco después de la conquista.",
+      "por_que_importa": "Es una de las mejores descripciones directas del mundo andino justo después de la caída del Imperio inca.",
+      "leer": [
+        {
+          "titulo": "The Travels of Pedro de Cieza de León, parte de la Crónica del Perú (traducción de C. Markham, 1864, Internet Archive)",
+          "url": "https://archive.org/details/10465852bsb",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Pedro Cieza de León",
+        "en": "Pedro Cieza de León"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "viaje-al-rio-de-la-plata",
+      "titulo": "Viaje al Río de la Plata",
+      "titulo_original": null,
+      "autor": "Ulrico Schmidl",
+      "autor_id": "ulrico-schmidl",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1555,
+        "aprox": true,
+        "lugar": "Straubing",
+        "lon": 12.5725,
+        "lat": 48.8814
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1534,
+        "hasta": 1554
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Manuscrito; primera edición impresa en Fráncfort en 1567",
+      "resumen": "Relato en primera persona de un soldado de Baviera que acompañó la expedición de Pedro de Mendoza (1534) y vivió casi veinte años en el Río de la Plata y el Paraguay. Describe la primera fundación de Buenos Aires y a los pueblos indígenas.",
+      "por_que_importa": "Es el único testimonio ocular de la fundación de Buenos Aires de 1536; hay que leerlo con cuidado por las cifras y por el punto de vista del autor.",
+      "leer": [
+        {
+          "titulo": "Viaje al Río de la Plata y Paraguay (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Viaje_al_R%C3%ADo_de_la_Plata_y_Paraguay",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ulrico Schmidl"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "acta-de-independencia-1816",
+      "titulo": "Acta de Independencia de las Provincias Unidas en Sud-América",
+      "titulo_original": null,
+      "autor": "Congreso de Tucumán",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "San Miguel de Tucumán",
+        "lon": -65.2226,
+        "lat": -26.8083
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1816
+      },
+      "idioma_original": "Español",
+      "soporte": "Acta manuscrita; versión en quechua y aimara",
+      "resumen": "Acta firmada el 9 de julio de 1816 por los diputados del Congreso de Tucumán. Declara la independencia de las Provincias Unidas de «España y toda otra dominación extranjera».",
+      "por_que_importa": "Es el documento fundacional de la independencia argentina y muestra el lenguaje político de los criollos.",
+      "leer": [
+        {
+          "titulo": "Acta de Independencia de las Provincias Unidas en Sud-América (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Acta_de_Independencia_de_las_Provincias-Unidas_en_Sud-Am%C3%A9rica",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Declaración de independencia de la Argentina",
+        "en": "Argentine Declaration of Independence"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "actas-capitulares-mayo-1810",
+      "titulo": "Actas capitulares del 21 al 25 de mayo de 1810",
+      "titulo_original": null,
+      "autor": "Cabildo de Buenos Aires",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1810,
+        "anio_hasta": 1810,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro de actas manuscrito del Cabildo",
+      "resumen": "Actas del Cabildo de Buenos Aires de los días del cabildo abierto del 22 de mayo y de la formación de la Primera Junta, el 25 de mayo de 1810.",
+      "por_que_importa": "Permiten reconstruir paso a paso la Revolución de Mayo según el órgano que la gobernó.",
+      "leer": [
+        {
+          "titulo": "Actas capitulares desde el 21 hasta el 25 de mayo de 1810 (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Actas_capitulares_desde_el_21_hasta_el_25_de_mayo_de_1810_en_Buenos_Aires/05",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Revolución de Mayo",
+        "en": "May Revolution"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "facundo",
+      "titulo": "Facundo o civilización y barbarie en las pampas argentinas",
+      "titulo_original": null,
+      "autor": "Domingo F. Sarmiento",
+      "autor_id": "sarmiento",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.6693,
+        "lat": -33.4489
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1845
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro impreso en Santiago (publicado primero por entregas en El Progreso)",
+      "resumen": "Ensayo-biografía de Facundo Quiroga, caudillo riojano, que describe el paisaje, los tipos humanos y la política de la Argentina rosista bajo la oposición entre «civilización y barbarie».",
+      "por_que_importa": "Es un clásico de la literatura argentina y una fuente sobre las ideas de la élite liberal en el exilio; es parcial y polémico.",
+      "leer": [
+        {
+          "titulo": "Facundo (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Facundo_o_civilizaci%C3%B3n_y_barbarie_en_las_pampas_argentinas",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Facundo"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "martin-fierro",
+      "titulo": "El gaucho Martín Fierro",
+      "titulo_original": null,
+      "autor": "José Hernández",
+      "autor_id": "jose-hernandez",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1872,
+        "anio_hasta": 1879,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1860,
+        "hasta": 1879
+      },
+      "idioma_original": "Español rioplatense",
+      "soporte": "Poema narrativo en dos partes (1872 y 1879)",
+      "resumen": "Poema en verso que cuenta la vida de un gaucho reclutado a la fuerza para las fronteras, su deserción y su vida entre los indios. Reúne las quejas contra el sistema de levas y el trato a los gauchos.",
+      "por_que_importa": "Retrata el mundo rural de la frontera pampeana y fue escrito mientras sucedía; es obra literaria, no un documento.",
+      "leer": [
+        {
+          "titulo": "El gaucho Martín Fierro (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/El_Gaucho_Mart%C3%ADn_Fierro",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Martín Fierro",
+        "en": "Martín Fierro"
+      },
+      "confianza": "alta"
+    }
+  ],
+  "personas": [
+    {
+      "id": "hammurabi",
+      "nombre": "Hammurabi",
+      "nacimiento": {
+        "anio": -1810,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "muerte": {
+        "anio": -1750,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "roles": [
+        "rey",
+        "legislador"
+      ],
+      "resumen": "Sexto rey de la primera dinastía de Babilonia (c. 1792-1750 a. C., cronología media). Conquistó las ciudades rivales del sur y del norte y unificó Mesopotamia bajo su poder; dejó un célebre código de leyes.",
+      "obras": [
+        "codigo-de-hammurabi"
+      ],
+      "wikipedia": {
+        "es": "Hammurabi",
+        "en": "Hammurabi"
+      }
+    },
+    {
+      "id": "asurbanipal",
+      "nombre": "Asurbanipal",
+      "nacimiento": {
+        "anio": -685,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -631,
+        "aprox": true,
+        "lugar": "Nínive",
+        "lon": 43.153,
+        "lat": 36.359
+      },
+      "roles": [
+        "rey",
+        "coleccionista de textos"
+      ],
+      "resumen": "Último gran rey del Imperio neoasirio (669-631 a. C. aprox.). Reunió en Nínive una biblioteca de miles de tablillas, entre ellas la versión estándar de la Epopeya de Gilgamesh.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Asurbanipal",
+        "en": "Ashurbanipal"
+      }
+    },
+    {
+      "id": "nabucodonosor-ii",
+      "nombre": "Nabucodonosor II",
+      "nacimiento": {
+        "anio": -634,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "muerte": {
+        "anio": -562,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "roles": [
+        "rey",
+        "constructor"
+      ],
+      "resumen": "Rey de Babilonia (605-562 a. C.). Reconstruyó la capital con sus murallas y la puerta de Ishtar, y tomó Jerusalén en 597 y 587/586 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nabucodonosor II",
+        "en": "Nebuchadnezzar II"
+      }
+    },
+    {
+      "id": "josefo",
+      "nombre": "Flavio Josefo",
+      "nacimiento": {
+        "anio": 37,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "muerte": {
+        "anio": 100,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "roles": [
+        "historiador",
+        "militar"
+      ],
+      "resumen": "Sacerdote judío de Jerusalén, comandante en Galilea durante la revuelta del 66. Capturado por los romanos, se instaló en Roma bajo los Flavios y escribió «La guerra de los judíos» y «Antigüedades judías».",
+      "obras": [
+        "guerra-de-los-judios"
+      ],
+      "wikipedia": {
+        "es": "Flavio Josefo",
+        "en": "Josephus"
+      }
+    },
+    {
+      "id": "herodes-el-grande",
+      "nombre": "Herodes el Grande",
+      "nacimiento": {
+        "anio": -73,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -4,
+        "lugar": "Jericó",
+        "lon": 35.444,
+        "lat": 31.857
+      },
+      "roles": [
+        "rey",
+        "constructor"
+      ],
+      "resumen": "Rey de Judea bajo protección romana (37-4 a. C.). Reconstruyó el Templo de Jerusalén y levantó Cesarea Marítima y la fortaleza de Masada.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Herodes I el Grande",
+        "en": "Herod the Great"
+      }
+    },
+    {
+      "id": "saladino",
+      "nombre": "Saladino",
+      "nacimiento": {
+        "anio": 1137,
+        "aprox": true,
+        "lugar": "Tikrit",
+        "lon": 43.68,
+        "lat": 34.6
+      },
+      "muerte": {
+        "anio": 1193,
+        "lugar": "Damasco",
+        "lon": 36.2913,
+        "lat": 33.5138
+      },
+      "roles": [
+        "sultán",
+        "militar"
+      ],
+      "resumen": "Fundador de la dinastía ayubí. Unificó Egipto y Siria, derrotó a los cruzados en Hattin (1187) y recuperó Jerusalén.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Saladino",
+        "en": "Saladin"
+      }
+    },
+    {
+      "id": "creso",
+      "nombre": "Creso",
+      "nacimiento": {
+        "anio": -595,
+        "aprox": true,
+        "lugar": "Sardes",
+        "lon": 28.04,
+        "lat": 38.488
+      },
+      "muerte": {
+        "anio": -546,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Último rey de Lidia (c. 560-546 a. C.), célebre por su riqueza. Heródoto cuenta que fue derrotado por Ciro II y que su reino pasó a Persia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Creso",
+        "en": "Croesus"
+      }
+    },
+    {
+      "id": "pablo-de-tarso",
+      "nombre": "Pablo de Tarso",
+      "nacimiento": {
+        "anio": 5,
+        "aprox": true,
+        "lugar": "Tarso",
+        "lon": 34.89,
+        "lat": 36.92
+      },
+      "muerte": {
+        "anio": 64,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "roles": [
+        "apóstol",
+        "misionero",
+        "escritor"
+      ],
+      "resumen": "Judío helenizado nacido en Cilicia. Tras su conversión viajó por Anatolia, Grecia e Italia fundando comunidades cristianas; sus cartas son los escritos más antiguos del Nuevo Testamento.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pablo de Tarso",
+        "en": "Paul the Apostle"
+      }
+    },
+    {
+      "id": "ataturk",
+      "nombre": "Mustafa Kemal Atatürk",
+      "nacimiento": {
+        "anio": 1881,
+        "lugar": "Salónica",
+        "lon": 22.9444,
+        "lat": 40.6401
+      },
+      "muerte": {
+        "anio": 1938,
+        "lugar": "Estambul",
+        "lon": 28.9784,
+        "lat": 41.0082
+      },
+      "activo": {
+        "lugar": "Ankara",
+        "lon": 32.8597,
+        "lat": 39.9334
+      },
+      "roles": [
+        "militar",
+        "estadista"
+      ],
+      "resumen": "Líder militar de la guerra de independencia turca y primer presidente de la República de Turquía (1923-1938), que impulsó reformas laicas y la adopción del alfabeto latino.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mustafa Kemal Atatürk",
+        "en": "Mustafa Kemal Atatürk"
+      }
+    },
+    {
+      "id": "herodoto",
+      "nombre": "Heródoto",
+      "nacimiento": {
+        "anio": -484,
+        "aprox": true,
+        "lugar": "Halicarnaso",
+        "lon": 27.424,
+        "lat": 37.038
+      },
+      "muerte": {
+        "anio": -425,
+        "aprox": true,
+        "lugar": "Turios",
+        "lon": 16.49,
+        "lat": 39.71
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "roles": [
+        "historiador",
+        "viajero"
+      ],
+      "resumen": "Nacido en Halicarnaso, en Caria, viajó por Egipto, Fenicia, Mesopotamia y el Mar Negro. Sus Historias, sobre las guerras médicas y los pueblos del mundo conocido, le valieron el título de padre de la historia.",
+      "obras": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Heródoto",
+        "en": "Herodotus"
+      }
+    },
+    {
+      "id": "tucidides",
+      "nombre": "Tucídides",
+      "nacimiento": {
+        "anio": -460,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "muerte": {
+        "anio": -400,
+        "aprox": true
+      },
+      "roles": [
+        "historiador",
+        "general"
+      ],
+      "resumen": "Ateniense que dirigió una flota en el 424 a. C. y fue desterrado tras fracasar en Anfípolis. Escribió la historia de la guerra del Peloponeso de la que fue testigo.",
+      "obras": [
+        "guerra-del-peloponeso"
+      ],
+      "wikipedia": {
+        "es": "Tucídides",
+        "en": "Thucydides"
+      }
+    },
+    {
+      "id": "platon",
+      "nombre": "Platón",
+      "nacimiento": {
+        "anio": -427,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "muerte": {
+        "anio": -348,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Discípulo de Sócrates y maestro de Aristóteles; fundó la Academia en Atenas. Sus diálogos, entre ellos la República, son la base de la filosofía occidental.",
+      "obras": [
+        "republica-platon"
+      ],
+      "wikipedia": {
+        "es": "Platón",
+        "en": "Plato"
+      }
+    },
+    {
+      "id": "aristoteles",
+      "nombre": "Aristóteles",
+      "nacimiento": {
+        "anio": -384,
+        "lugar": "Estagira",
+        "lon": 23.79,
+        "lat": 40.59
+      },
+      "muerte": {
+        "anio": -322,
+        "lugar": "Calcis",
+        "lon": 23.6,
+        "lat": 38.46
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.727,
+        "lat": 37.984
+      },
+      "roles": [
+        "filósofo",
+        "científico"
+      ],
+      "resumen": "Nació en Estagira, estudió veinte años en la Academia, fue tutor de Alejandro Magno y fundó el Liceo en Atenas. Escribió sobre lógica, física, biología, ética y política.",
+      "obras": [
+        "politica-aristoteles"
+      ],
+      "wikipedia": {
+        "es": "Aristóteles",
+        "en": "Aristotle"
+      }
+    },
+    {
+      "id": "julio-cesar",
+      "nombre": "Cayo Julio César",
+      "nacimiento": {
+        "anio": -100,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "muerte": {
+        "anio": -44,
+        "lugar": "Roma",
+        "lon": 12.4755,
+        "lat": 41.8958
+      },
+      "roles": [
+        "general",
+        "político",
+        "escritor"
+      ],
+      "resumen": "Conquistó la Galia (58-50 a. C.), venció a Pompeyo en la guerra civil y fue nombrado dictador perpetuo. Fue asesinado en los idus de marzo del 44 a. C.",
+      "obras": [
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Julio César",
+        "en": "Julius Caesar"
+      }
+    },
+    {
+      "id": "augusto",
+      "nombre": "Augusto",
+      "nacimiento": {
+        "anio": -63,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "muerte": {
+        "anio": 14,
+        "lugar": "Nola",
+        "lon": 14.5276,
+        "lat": 40.9266
+      },
+      "roles": [
+        "emperador"
+      ],
+      "resumen": "Hijo adoptivo de César y primer emperador de Roma (27 a. C.-14 d. C.). Cerró las guerras civiles e instauró el principado.",
+      "obras": [
+        "res-gestae-divi-augusti"
+      ],
+      "wikipedia": {
+        "es": "Augusto",
+        "en": "Augustus"
+      }
+    },
+    {
+      "id": "tito-livio",
+      "nombre": "Tito Livio",
+      "nacimiento": {
+        "anio": -59,
+        "aprox": true,
+        "lugar": "Patavium (Padua)",
+        "lon": 11.8768,
+        "lat": 45.4064
+      },
+      "muerte": {
+        "anio": 17,
+        "aprox": true,
+        "lugar": "Patavium (Padua)",
+        "lon": 11.8768,
+        "lat": 45.4064
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador nacido en Patavium. Vivió en Roma bajo Augusto y escribió la monumental historia de Roma Ab urbe condita.",
+      "obras": [
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Tito Livio",
+        "en": "Livy"
+      }
+    },
+    {
+      "id": "tacito",
+      "nombre": "Tácito",
+      "nacimiento": {
+        "anio": 56,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 120,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "roles": [
+        "historiador",
+        "senador"
+      ],
+      "resumen": "Senador y orador romano. Autor de los Anales, las Historias, la Germania y la Vida de Agrícola.",
+      "obras": [
+        "anales-tacito"
+      ],
+      "wikipedia": {
+        "es": "Tácito",
+        "en": "Tacitus"
+      }
+    },
+    {
+      "id": "ciro-ii",
+      "nombre": "Ciro II el Grande",
+      "nacimiento": {
+        "anio": -600,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -530,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Fundador del Imperio aqueménida: venció a los medos (hacia 550 a. C.), a Lidia (546) y a Babilonia (539). Murió en combate contra los masagetas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ciro II el Grande",
+        "en": "Cyrus the Great"
+      }
+    },
+    {
+      "id": "dario-i",
+      "nombre": "Darío I",
+      "nacimiento": {
+        "anio": -550,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -486,
+        "aprox": true,
+        "lugar": "Persépolis",
+        "lon": 52.891,
+        "lat": 29.934
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Persia de 522 a 486 a. C. Organizó el imperio en satrapías, acuñó moneda, inició Persépolis e invadió Grecia, donde fue vencido en Maratón.",
+      "obras": [
+        "inscripcion-de-behistun"
+      ],
+      "wikipedia": {
+        "es": "Darío I",
+        "en": "Darius the Great"
+      }
+    },
+    {
+      "id": "firdusi",
+      "nombre": "Ferdousí",
+      "nacimiento": {
+        "anio": 940,
+        "aprox": true,
+        "lugar": "Tus",
+        "lon": 59.4879,
+        "lat": 36.4856
+      },
+      "muerte": {
+        "anio": 1020,
+        "aprox": true,
+        "lugar": "Tus",
+        "lon": 59.4879,
+        "lat": 36.4856
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta persa de Jorasán, autor del Shahnameh, que compuso durante unos treinta años.",
+      "obras": [
+        "shahnameh"
+      ],
+      "wikipedia": {
+        "es": "Ferdousí",
+        "en": "Ferdowsi"
+      }
+    },
+    {
+      "id": "confucio",
+      "nombre": "Confucio",
+      "nacimiento": {
+        "anio": -551,
+        "lugar": "Qufu (Estado de Lu)",
+        "lon": 116.99,
+        "lat": 35.6
+      },
+      "muerte": {
+        "anio": -479,
+        "lugar": "Qufu (Estado de Lu)",
+        "lon": 116.99,
+        "lat": 35.6
+      },
+      "roles": [
+        "filósofo",
+        "maestro"
+      ],
+      "resumen": "Maestro de la era de Primavera y Otoño. Su doctrina, centrada en la virtud, la piedad filial y el buen gobierno, fue después el eje de la educación y la administración imperiales.",
+      "obras": [
+        "analectas"
+      ],
+      "wikipedia": {
+        "es": "Confucio",
+        "en": "Confucius"
+      }
+    },
+    {
+      "id": "sima-qian",
+      "nombre": "Sima Qian",
+      "nacimiento": {
+        "anio": -145,
+        "aprox": true,
+        "lugar": "Xiayang",
+        "lon": 110.43,
+        "lat": 35.48
+      },
+      "muerte": {
+        "anio": -86,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27
+      },
+      "roles": [
+        "historiador",
+        "astrónomo"
+      ],
+      "resumen": "Gran historiador de la corte Han. Condenado a la castración por defender a un general, terminó los Registros del Gran Historiador. Su nacimiento se sitúa entre 145 y 135 a. C.",
+      "obras": [
+        "shiji"
+      ],
+      "wikipedia": {
+        "es": "Sima Qian",
+        "en": "Sima Qian"
+      }
+    },
+    {
+      "id": "qin-shi-huang",
+      "nombre": "Qin Shi Huang",
+      "nacimiento": {
+        "anio": -259,
+        "lugar": "Handan",
+        "lon": 114.5,
+        "lat": 36.6
+      },
+      "muerte": {
+        "anio": -210,
+        "aprox": true
+      },
+      "roles": [
+        "emperador"
+      ],
+      "resumen": "Rey de Qin que unificó China en el 221 a. C. y se proclamó primer emperador. Unificó escritura, pesos y medidas y empezó la Gran Muralla y su mausoleo con el ejército de terracota.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Qin Shi Huang",
+        "en": "Qin Shi Huang"
+      }
+    },
+    {
+      "id": "ashoka",
+      "nombre": "Ashoka",
+      "nacimiento": {
+        "anio": -304,
+        "aprox": true,
+        "lugar": "Pataliputra",
+        "lon": 85.1376,
+        "lat": 25.6093
+      },
+      "muerte": {
+        "anio": -232,
+        "aprox": true,
+        "lugar": "Pataliputra",
+        "lon": 85.1376,
+        "lat": 25.6093
+      },
+      "roles": [
+        "emperador"
+      ],
+      "resumen": "Emperador Maurya (c. 268-232 a. C.). Tras la sangrienta conquista de Kalinga se volvió al budismo y difundió el dhamma por medio de sus edictos.",
+      "obras": [
+        "edictos-de-ashoka"
+      ],
+      "wikipedia": {
+        "es": "Ashoka",
+        "en": "Ashoka"
+      }
+    },
+    {
+      "id": "aryabhata",
+      "nombre": "Aryabhata",
+      "nacimiento": {
+        "anio": 476,
+        "aprox": true,
+        "lugar": "Kusumapura (Pataliputra)",
+        "lon": 85.1376,
+        "lat": 25.6093
+      },
+      "muerte": {
+        "anio": 550,
+        "aprox": true
+      },
+      "roles": [
+        "matemático",
+        "astrónomo"
+      ],
+      "resumen": "Astrónomo y matemático de la época Gupta. En el Aryabhatiya propone un valor de pi, la rotación de la Tierra y métodos de cálculo trigonométrico.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aryabhata",
+        "en": "Aryabhata"
+      }
+    },
+    {
+      "id": "akbar",
+      "nombre": "Akbar",
+      "nacimiento": {
+        "anio": 1542,
+        "lugar": "Umerkot",
+        "lon": 69.74,
+        "lat": 25.36
+      },
+      "muerte": {
+        "anio": 1605,
+        "lugar": "Agra",
+        "lon": 78.0422,
+        "lat": 27.1751
+      },
+      "roles": [
+        "emperador"
+      ],
+      "resumen": "Tercer emperador mogol (1556-1605). Amplió el imperio hasta cubrir casi todo el norte de la India y practicó la tolerancia religiosa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Akbar",
+        "en": "Akbar"
+      }
+    },
+    {
+      "id": "moctezuma-ii",
+      "nombre": "Moctezuma II",
+      "nacimiento": {
+        "anio": 1466,
+        "aprox": true,
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326
+      },
+      "muerte": {
+        "anio": 1520,
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Noveno tlatoani de Tenochtitlan (1502-1520). Recibió a Cortés en 1519 y murió en circunstancias discutidas durante los enfrentamientos de 1520.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Moctezuma II",
+        "en": "Moctezuma II"
+      }
+    },
+    {
+      "id": "hernan-cortes",
+      "nombre": "Hernán Cortés",
+      "nacimiento": {
+        "anio": 1485,
+        "lugar": "Medellín",
+        "lon": -5.96,
+        "lat": 38.95
+      },
+      "muerte": {
+        "anio": 1547,
+        "lugar": "Castilleja de la Cuesta",
+        "lon": -6.0558,
+        "lat": 37.3868
+      },
+      "activo": {
+        "lugar": "Coyoacán",
+        "lon": -99.1626,
+        "lat": 19.3467
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Conquistador extremeño que dirigió la expedición contra los mexicas (1519-1521) con el apoyo de pueblos indígenas aliados, y fue gobernador de Nueva España.",
+      "obras": [
+        "cartas-de-relacion"
+      ],
+      "wikipedia": {
+        "es": "Hernán Cortés",
+        "en": "Hernán Cortés"
+      }
+    },
+    {
+      "id": "bernardino-de-sahagun",
+      "nombre": "Bernardino de Sahagún",
+      "nacimiento": {
+        "anio": 1499,
+        "aprox": true,
+        "lugar": "Sahagún (León)",
+        "lon": -5.0,
+        "lat": 42.37
+      },
+      "muerte": {
+        "anio": 1590,
+        "lugar": "Ciudad de México",
+        "lon": -99.1332,
+        "lat": 19.4326
+      },
+      "activo": {
+        "lugar": "Tlatelolco",
+        "lon": -99.1389,
+        "lat": 19.4517
+      },
+      "roles": [
+        "fraile",
+        "etnógrafo"
+      ],
+      "resumen": "Franciscano llegado a Nueva España en 1529. Dedicó décadas a registrar la cultura nahua con ayuda de informantes y estudiantes indígenas.",
+      "obras": [
+        "codice-florentino"
+      ],
+      "wikipedia": {
+        "es": "Bernardino de Sahagún",
+        "en": "Bernardino de Sahagún"
+      }
+    },
+    {
+      "id": "inca-garcilaso",
+      "nombre": "Inca Garcilaso de la Vega",
+      "nacimiento": {
+        "anio": 1539,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "muerte": {
+        "anio": 1616,
+        "lugar": "Córdoba",
+        "lon": -4.7794,
+        "lat": 37.8882
+      },
+      "roles": [
+        "cronista"
+      ],
+      "resumen": "Hijo de un capitán español y de la ñusta Chimpu Ocllo. Nacido en Cusco, se instaló en España en 1560 y escribió allí sobre los incas.",
+      "obras": [
+        "comentarios-reales"
+      ],
+      "wikipedia": {
+        "es": "Inca Garcilaso de la Vega",
+        "en": "Inca Garcilaso de la Vega"
+      }
+    },
+    {
+      "id": "guaman-poma",
+      "nombre": "Felipe Guaman Poma de Ayala",
+      "nacimiento": {
+        "anio": 1535,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1616,
+        "aprox": true
+      },
+      "roles": [
+        "cronista",
+        "dibujante"
+      ],
+      "resumen": "Noble indígena de la región de Huamanga. Escribió y dibujó la Nueva corónica y buen gobierno, que no llegó a publicarse en su época.",
+      "obras": [
+        "nueva-coronica-y-buen-gobierno"
+      ],
+      "wikipedia": {
+        "es": "Felipe Guamán Poma de Ayala",
+        "en": "Felipe Guaman Poma de Ayala"
+      }
+    },
+    {
+      "id": "atahualpa",
+      "nombre": "Atahualpa",
+      "nacimiento": {
+        "anio": 1497,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1533,
+        "lugar": "Cajamarca",
+        "lon": -78.5,
+        "lat": -7.1638
+      },
+      "roles": [
+        "sapa inca"
+      ],
+      "resumen": "Último soberano del Imperio inca, que ganó la guerra civil contra su hermano Huáscar. Fue capturado por Francisco Pizarro en Cajamarca en 1532 y ejecutado en 1533.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Atahualpa",
+        "en": "Atahualpa"
+      }
+    },
+    {
+      "id": "pachacutec",
+      "nombre": "Pachacútec",
+      "nacimiento": {
+        "anio": 1418,
+        "aprox": true,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "muerte": {
+        "anio": 1471,
+        "aprox": true,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "roles": [
+        "sapa inca"
+      ],
+      "resumen": "Noveno inca según las crónicas, que dirigió la gran expansión del Tawantinsuyu desde 1438 y remodeló Cusco. Las fechas de su reinado proceden de tradición oral y son aproximadas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pachacútec",
+        "en": "Pachacuti"
+      }
+    },
+    {
+      "id": "ulrico-schmidl",
+      "nombre": "Ulrico Schmidl",
+      "nacimiento": {
+        "anio": 1510,
+        "aprox": true,
+        "lugar": "Straubing",
+        "lon": 12.5725,
+        "lat": 48.8814
+      },
+      "muerte": {
+        "anio": 1580,
+        "aprox": true
+      },
+      "roles": [
+        "soldado",
+        "cronista"
+      ],
+      "resumen": "Soldado bávaro que participó en la expedición de Mendoza y en las del Paraguay (1534-1554). Escribió el relato de su viaje.",
+      "obras": [
+        "viaje-al-rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Ulrico Schmidl"
+      }
+    },
+    {
+      "id": "juan-de-garay",
+      "nombre": "Juan de Garay",
+      "nacimiento": {
+        "anio": 1528,
+        "aprox": true,
+        "lugar": "Orduña",
+        "lon": -3.0,
+        "lat": 43.0
+      },
+      "muerte": {
+        "anio": 1583,
+        "aprox": true
+      },
+      "roles": [
+        "conquistador",
+        "fundador"
+      ],
+      "resumen": "Vasco que vivió en Asunción, refundó Santa Fe (1573) y fundó la segunda Buenos Aires (1580). Murió a manos de los indígenas en 1583.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan de Garay",
+        "en": "Juan de Garay"
+      }
+    },
+    {
+      "id": "sarmiento",
+      "nombre": "Domingo Faustino Sarmiento",
+      "nacimiento": {
+        "anio": 1811,
+        "lugar": "San Juan",
+        "lon": -68.5364,
+        "lat": -31.5375
+      },
+      "muerte": {
+        "anio": 1888,
+        "lugar": "Asunción",
+        "lon": -57.6359,
+        "lat": -25.2867
+      },
+      "roles": [
+        "escritor",
+        "presidente",
+        "educador"
+      ],
+      "resumen": "Sanjuanino, exiliado en Chile, autor del Facundo. Fue presidente de la Argentina (1868-1874) e impulsó la educación pública.",
+      "obras": [
+        "facundo"
+      ],
+      "wikipedia": {
+        "es": "Domingo Faustino Sarmiento",
+        "en": "Domingo Faustino Sarmiento"
+      }
+    },
+    {
+      "id": "jose-hernandez",
+      "nombre": "José Hernández",
+      "nacimiento": {
+        "anio": 1834,
+        "lugar": "Chacras de Perdriel, San Martín",
+        "lon": -58.54,
+        "lat": -34.58
+      },
+      "muerte": {
+        "anio": 1886,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "roles": [
+        "poeta",
+        "periodista",
+        "político"
+      ],
+      "resumen": "Escritor y periodista bonaerense, autor del Martín Fierro; defendió a los gauchos y la autonomía provincial frente al poder del Estado central.",
+      "obras": [
+        "martin-fierro"
+      ],
+      "wikipedia": {
+        "es": "José Hernández (escritor)",
+        "en": "José Hernández (writer)"
+      }
+    }
+  ],
+  "hechos": [
+    {
+      "id": "invencion-de-la-escritura-cuneiforme",
+      "titulo": "Primeras tablillas con escritura cuneiforme",
+      "anio": -3300,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Uruk",
+      "lon": 45.636,
+      "lat": 31.322,
+      "tipo": "cultural",
+      "resumen": "Las tablillas más antiguas, halladas en Uruk, son registros administrativos con signos pictográficos. De ese sistema derivó la escritura cuneiforme, que se usó durante más de tres milenios.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Escritura cuneiforme",
+        "en": "Cuneiform"
+      }
+    },
+    {
+      "id": "reinado-de-hammurabi",
+      "titulo": "Reinado de Hammurabi",
+      "anio": -1792,
+      "anio_hasta": -1750,
+      "aprox": true,
+      "lugar": "Babilonia",
+      "lon": 44.421,
+      "lat": 32.536,
+      "tipo": "politico",
+      "resumen": "Hammurabi hereda un reino menor y en tres décadas somete a Larsa, Mari y Eshnunna. Hacia el final de su reinado hace grabar su código de leyes.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "codigo-de-hammurabi"
+      ],
+      "wikipedia": {
+        "es": "Hammurabi",
+        "en": "Hammurabi"
+      }
+    },
+    {
+      "id": "caida-de-ninive",
+      "titulo": "Caída de Nínive",
+      "anio": -612,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nínive",
+      "lon": 43.153,
+      "lat": 36.359,
+      "tipo": "batalla",
+      "resumen": "Una coalición de babilonios y medos saquea la capital asiria, lo que lleva a la desaparición del Imperio neoasirio.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Nínive (612 a. C.)",
+        "en": "Battle of Nineveh (612 BC)"
+      }
+    },
+    {
+      "id": "toma-de-babilonia-por-ciro",
+      "titulo": "Toma de Babilonia por Ciro II",
+      "anio": -539,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Babilonia",
+      "lon": 44.421,
+      "lat": 32.536,
+      "tipo": "politico",
+      "resumen": "Ciro el Grande entra en Babilonia sin gran resistencia y pone fin al Imperio neobabilónico. Mesopotamia pasa a formar parte del Imperio aqueménida.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [
+        "cilindro-de-ciro"
+      ],
+      "wikipedia": {
+        "en": "Fall of Babylon"
+      }
+    },
+    {
+      "id": "destruccion-del-primer-templo",
+      "titulo": "Caída de Jerusalén y destrucción del Primer Templo",
+      "anio": -586,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "desastre",
+      "resumen": "Nabucodonosor II toma Jerusalén, destruye el Templo y deporta a parte de la población de Judá a Babilonia. La fecha oscila entre 587 y 586 a. C.",
+      "regiones": [
+        "levante",
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Asedio de Jerusalén (587 a. C.)",
+        "en": "Siege of Jerusalem (587 BC)"
+      }
+    },
+    {
+      "id": "destruccion-del-segundo-templo",
+      "titulo": "Destrucción del Segundo Templo",
+      "anio": 70,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "desastre",
+      "resumen": "Tito toma Jerusalén tras un asedio y las legiones incendian el Templo. Es el hecho central de la guerra judeo-romana relatada por Josefo.",
+      "regiones": [
+        "levante"
+      ],
+      "fuentes": [
+        "guerra-de-los-judios"
+      ],
+      "wikipedia": {
+        "es": "Asedio de Jerusalén (70)",
+        "en": "Siege of Jerusalem (70 CE)"
+      }
+    },
+    {
+      "id": "conquista-musulmana-de-siria",
+      "titulo": "Conquista musulmana del Levante",
+      "anio": 634,
+      "anio_hasta": 638,
+      "aprox": false,
+      "lugar": "Yarmuk",
+      "lon": 35.97,
+      "lat": 32.76,
+      "tipo": "politico",
+      "resumen": "Los ejércitos del califato rashidún vencen a los bizantinos en la batalla del Yarmuk (636) y conquistan Siria y Palestina. Jerusalén se rinde hacia 637-638.",
+      "regiones": [
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Conquista musulmana de Siria",
+        "en": "Muslim conquest of the Levant"
+      }
+    },
+    {
+      "id": "primera-cruzada-jerusalen",
+      "titulo": "Toma de Jerusalén por los cruzados",
+      "anio": 1099,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "batalla",
+      "resumen": "Tras la Primera Cruzada, los cruzados toman la ciudad el 15 de julio y fundan el Reino de Jerusalén.",
+      "regiones": [
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Siege of Jerusalem (1099)"
+      }
+    },
+    {
+      "id": "batalla-de-hattin",
+      "titulo": "Batalla de Hattin",
+      "anio": 1187,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cuernos de Hattin, Galilea",
+      "lon": 35.45,
+      "lat": 32.8,
+      "tipo": "batalla",
+      "resumen": "Saladino destruye al ejército del Reino de Jerusalén y poco después recupera la ciudad.",
+      "regiones": [
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Hattin",
+        "en": "Battle of Hattin"
+      }
+    },
+    {
+      "id": "caida-de-troya",
+      "titulo": "Destrucción de Troya VIIa",
+      "anio": -1180,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Hisarlik (Troya)",
+      "lon": 26.239,
+      "lat": 39.957,
+      "tipo": "batalla",
+      "resumen": "El estrato VIIa de Hisarlik muestra una destrucción violenta hacia el 1180 a. C. Se debate si guarda relación con la guerra de Troya narrada por la Ilíada.",
+      "regiones": [
+        "anatolia",
+        "grecia"
+      ],
+      "fuentes": [
+        "iliada"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Troya",
+        "en": "Trojan War"
+      }
+    },
+    {
+      "id": "caida-de-lidia",
+      "titulo": "Conquista de Lidia por Ciro II",
+      "anio": -546,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Sardes",
+      "lon": 28.04,
+      "lat": 38.488,
+      "tipo": "politico",
+      "resumen": "Ciro derrota a Creso y toma Sardes. Las ciudades griegas de la costa pasan a dominio persa.",
+      "regiones": [
+        "anatolia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Timbrea",
+        "en": "Battle of Thymbra"
+      }
+    },
+    {
+      "id": "concilio-de-nicea",
+      "titulo": "Primer Concilio de Nicea",
+      "anio": 325,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nicea (İznik)",
+      "lon": 29.72,
+      "lat": 40.43,
+      "tipo": "religioso",
+      "resumen": "Convocado por Constantino, reúne a obispos de todo el imperio para zanjar la controversia arriana y fijar el credo niceno.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Primer Concilio de Nicea",
+        "en": "First Council of Nicaea"
+      }
+    },
+    {
+      "id": "batalla-de-manzikert",
+      "titulo": "Batalla de Manzikert",
+      "anio": 1071,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Manzikert",
+      "lon": 42.54,
+      "lat": 39.15,
+      "tipo": "batalla",
+      "resumen": "El sultán selyúcida Alp Arslan derrota y captura al emperador bizantino Romano IV Diógenes. La batalla abre Anatolia a la penetración turca.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Manzikert",
+        "en": "Battle of Manzikert"
+      }
+    },
+    {
+      "id": "republica-de-turquia",
+      "titulo": "Proclamación de la República de Turquía",
+      "anio": 1923,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ankara",
+      "lon": 32.8597,
+      "lat": 39.9334,
+      "tipo": "politico",
+      "resumen": "Tras la guerra de independencia y el Tratado de Lausana, Mustafa Kemal proclama la república el 29 de octubre.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Historia de Turquía",
+        "en": "Republic of Turkey"
+      }
+    },
+    {
+      "id": "batalla-de-maraton",
+      "titulo": "Batalla de Maratón",
+      "anio": -490,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Maratón",
+      "lon": 23.9633,
+      "lat": 38.1519,
+      "tipo": "batalla",
+      "resumen": "Los atenienses y los platenses derrotan al ejército persa de Darío I en la llanura de Maratón, durante la Primera Guerra Médica.",
+      "regiones": [
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Maratón",
+        "en": "Battle of Marathon"
+      }
+    },
+    {
+      "id": "batalla-de-salamina",
+      "titulo": "Batalla de Salamina",
+      "anio": -480,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Salamina",
+      "lon": 23.5,
+      "lat": 37.95,
+      "tipo": "batalla",
+      "resumen": "La flota griega, comandada por Temístocles, destruye a la flota persa de Jerjes I en el estrecho de Salamina.",
+      "regiones": [
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Salamina",
+        "en": "Battle of Salamis"
+      }
+    },
+    {
+      "id": "guerra-del-peloponeso",
+      "titulo": "Guerra del Peloponeso",
+      "anio": -431,
+      "anio_hasta": -404,
+      "aprox": false,
+      "lugar": "Atenas y Esparta",
+      "lon": 23.727,
+      "lat": 37.984,
+      "tipo": "batalla",
+      "resumen": "Guerra entre la Liga de Delos, liderada por Atenas, y la Liga del Peloponeso, liderada por Esparta. Terminó con la rendición de Atenas en el 404 a. C.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "guerra-del-peloponeso"
+      ],
+      "wikipedia": {
+        "es": "Guerra del Peloponeso",
+        "en": "Peloponnesian War"
+      }
+    },
+    {
+      "id": "batalla-de-queronea",
+      "titulo": "Batalla de Queronea",
+      "anio": -338,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Queronea",
+      "lon": 22.84,
+      "lat": 38.49,
+      "tipo": "batalla",
+      "resumen": "Filipo II de Macedonia vence a Atenas y Tebas y asegura su hegemonía sobre Grecia.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Chaeronea (338 BC)"
+      }
+    },
+    {
+      "id": "destruccion-de-corinto",
+      "titulo": "Destrucción de Corinto",
+      "anio": -146,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Corinto",
+      "lon": 22.8786,
+      "lat": 37.9061,
+      "tipo": "batalla",
+      "resumen": "El cónsul Lucio Mumio saquea y arrasa Corinto al final de la Guerra Aquea. Grecia pasa a ser provincia romana.",
+      "regiones": [
+        "grecia",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Corinto",
+        "en": "Battle of Corinth (146 BC)"
+      }
+    },
+    {
+      "id": "fundacion-de-roma",
+      "titulo": "Fundación de Roma (fecha tradicional)",
+      "anio": -753,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Roma, Palatino",
+      "lon": 12.4879,
+      "lat": 41.8892,
+      "tipo": "fundacion",
+      "resumen": "Según la tradición recogida por Livio, Rómulo funda la ciudad en el 753 a. C. La arqueología confirma asentamientos en el Palatino desde el siglo VIII a. C.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Fundación de Roma",
+        "en": "Founding of Rome"
+      }
+    },
+    {
+      "id": "inicio-de-la-republica-romana",
+      "titulo": "Inicio de la República romana",
+      "anio": -509,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "politico",
+      "resumen": "Según la tradición, la expulsión del último rey, Tarquinio el Soberbio, da paso al gobierno de dos cónsules anuales.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "República romana",
+        "en": "Roman Republic"
+      }
+    },
+    {
+      "id": "asesinato-de-julio-cesar",
+      "titulo": "Asesinato de Julio César",
+      "anio": -44,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Teatro de Pompeyo, Roma",
+      "lon": 12.4755,
+      "lat": 41.8958,
+      "tipo": "politico",
+      "resumen": "El 15 de marzo del 44 a. C., unos senadores apuñalan a César. Su muerte reabre las guerras civiles y lleva al ascenso de Octavio.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "en": "Assassination of Julius Caesar"
+      }
+    },
+    {
+      "id": "erupcion-del-vesubio",
+      "titulo": "Erupción del Vesubio",
+      "anio": 79,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pompeya y Herculano",
+      "lon": 14.4869,
+      "lat": 40.7508,
+      "tipo": "desastre",
+      "resumen": "La erupción entierra Pompeya, Herculano y Estabia. Plinio el Joven describió el episodio en sus cartas a Tácito.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Eruption of Mount Vesuvius in 79 CE"
+      }
+    },
+    {
+      "id": "caida-del-imperio-de-occidente",
+      "titulo": "Deposición de Rómulo Augústulo",
+      "anio": 476,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rávena",
+      "lon": 12.2035,
+      "lat": 44.4184,
+      "tipo": "politico",
+      "resumen": "El jefe germano Odoacro depone al joven emperador Rómulo Augústulo y envía las insignias imperiales a Constantinopla. Es la fecha convencional del fin del Imperio romano de Occidente.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Rómulo Augústulo",
+        "en": "Romulus Augustulus"
+      }
+    },
+    {
+      "id": "victoria-de-ciro-sobre-astiages",
+      "titulo": "Ciro II derrota al rey de los medos",
+      "anio": -550,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Ecbatana",
+      "lon": 48.5,
+      "lat": 34.8,
+      "tipo": "politico",
+      "resumen": "Ciro vence a Astiages, último rey de los medos, y une medos y persas. Se considera el comienzo del Imperio aqueménida.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Imperio aqueménida",
+        "en": "Achaemenid Empire"
+      }
+    },
+    {
+      "id": "ascenso-de-dario-i",
+      "titulo": "Darío I toma el poder",
+      "anio": -522,
+      "anio_hasta": -521,
+      "aprox": false,
+      "lugar": "Behistún",
+      "lon": 47.436,
+      "lat": 34.389,
+      "tipo": "politico",
+      "resumen": "Tras la muerte de Cambises II, Darío derrota a Gaumata y a rebeldes de todo el imperio y se hace coronar rey. Lo documenta él mismo en Behistún.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [
+        "inscripcion-de-behistun"
+      ],
+      "wikipedia": {
+        "es": "Darío I",
+        "en": "Darius the Great"
+      }
+    },
+    {
+      "id": "incendio-de-persepolis",
+      "titulo": "Incendio de Persépolis",
+      "anio": -330,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Persépolis",
+      "lon": 52.891,
+      "lat": 29.934,
+      "tipo": "desastre",
+      "resumen": "Alejandro Magno saquea Persépolis y el palacio es incendiado.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Persépolis",
+        "en": "Persepolis"
+      }
+    },
+    {
+      "id": "batalla-de-nahavand",
+      "titulo": "Batalla de Nahavand",
+      "anio": 642,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Nahavand",
+      "lon": 48.37,
+      "lat": 34.19,
+      "tipo": "batalla",
+      "resumen": "Las fuerzas del califato rashidún destruyen al ejército sasánida; el imperio se derrumba. El último emperador, Yazdgerd III, muere en 651.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Nahavand",
+        "en": "Battle of Nahavand"
+      }
+    },
+    {
+      "id": "safavidas-ismail-i",
+      "titulo": "Ismail I funda la dinastía safávida",
+      "anio": 1501,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tabriz",
+      "lon": 46.29,
+      "lat": 38.08,
+      "tipo": "politico",
+      "resumen": "Ismail I se proclama sah en Tabriz y declara el chiismo duodecimano religión del Estado, lo que cambió la historia religiosa de Irán.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Ismail I",
+        "en": "Ismail I"
+      }
+    },
+    {
+      "id": "unificacion-de-china-por-qin",
+      "titulo": "Unificación de China por Qin",
+      "anio": -221,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Xianyang",
+      "lon": 108.7,
+      "lat": 34.33,
+      "tipo": "politico",
+      "resumen": "El rey de Qin conquista el último de los reinos rivales y se proclama primer emperador. Se establece un Estado centralizado con prefecturas y estandarización.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "shiji"
+      ],
+      "wikipedia": {
+        "es": "Qin Shi Huang",
+        "en": "Qin Shi Huang"
+      }
+    },
+    {
+      "id": "fundacion-de-la-dinastia-han",
+      "titulo": "Fundación de la dinastía Han",
+      "anio": -202,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "tipo": "politico",
+      "resumen": "Liu Bang derrota a Xiang Yu y se proclama emperador Gaozu de Han. Los Han gobernarán, con una interrupción, hasta el año 220.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "shiji"
+      ],
+      "wikipedia": {
+        "es": "Dinastía Han",
+        "en": "Han dynasty"
+      }
+    },
+    {
+      "id": "mision-de-zhang-qian",
+      "titulo": "Misión de Zhang Qian a Asia Central",
+      "anio": -138,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "tipo": "exploracion",
+      "resumen": "El emperador Wu envía a Zhang Qian a buscar aliados contra los xiongnu. Regresa trece años después con noticias de Fergana, Bactriana y Partia, y abre el camino de la Ruta de la Seda.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "shiji"
+      ],
+      "wikipedia": {
+        "es": "Zhang Qian",
+        "en": "Zhang Qian"
+      }
+    },
+    {
+      "id": "invencion-del-papel",
+      "titulo": "Cai Lun presenta el papel a la corte Han",
+      "anio": 105,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Luoyang",
+      "lon": 112.45,
+      "lat": 34.62,
+      "tipo": "cientifico",
+      "resumen": "Según la tradición, el eunuco Cai Lun presenta al emperador un papel hecho de corteza y trapos. Hallazgos arqueológicos muestran papel más antiguo.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cai Lun",
+        "en": "Cai Lun"
+      }
+    },
+    {
+      "id": "fundacion-de-la-dinastia-tang",
+      "titulo": "Fundación de la dinastía Tang",
+      "anio": 618,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "tipo": "politico",
+      "resumen": "Li Yuan toma Chang'an y se proclama emperador. Los Tang gobernarán hasta 907 con una de las épocas de mayor esplendor cultural de China.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Dinastía Tang",
+        "en": "Tang dynasty"
+      }
+    },
+    {
+      "id": "batalla-del-hidaspes",
+      "titulo": "Batalla del Hidaspes",
+      "anio": -326,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Jhelum",
+      "lon": 73.72,
+      "lat": 32.93,
+      "tipo": "batalla",
+      "resumen": "Alejandro Magno vence al rey Poros en el río Hidaspes (Jhelum). Poco después sus tropas se niegan a seguir hacia el este.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla del Hidaspes",
+        "en": "Battle of the Hydaspes"
+      }
+    },
+    {
+      "id": "conquista-de-kalinga",
+      "titulo": "Guerra de Kalinga",
+      "anio": -261,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Kalinga (Odisha)",
+      "lon": 85.8,
+      "lat": 20.2,
+      "tipo": "batalla",
+      "resumen": "Ashoka conquista Kalinga con enorme mortandad. En el Edicto de la Roca XIII expresa su remordimiento y se vuelca a la política del dhamma.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [
+        "edictos-de-ashoka"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Kalinga",
+        "en": "Kalinga War"
+      }
+    },
+    {
+      "id": "fundacion-del-imperio-gupta",
+      "titulo": "Comienzo del Imperio Gupta",
+      "anio": 320,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Pataliputra",
+      "lon": 85.1376,
+      "lat": 25.6093,
+      "tipo": "politico",
+      "resumen": "Chandragupta I inicia la dinastía Gupta; se toma el año 320 como fecha de inicio de su era.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Imperio Gupta",
+        "en": "Gupta Empire"
+      }
+    },
+    {
+      "id": "sultanato-de-delhi",
+      "titulo": "Fundación del Sultanato de Delhi",
+      "anio": 1206,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Delhi",
+      "lon": 77.209,
+      "lat": 28.6139,
+      "tipo": "politico",
+      "resumen": "Tras la muerte de Muhammad de Gor, su general Qutb ud-Din Aibak se proclama sultán, inicio de la presencia turco-afgana en el norte de la India.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Sultanato de Delhi",
+        "en": "Delhi Sultanate"
+      }
+    },
+    {
+      "id": "primera-batalla-de-panipat",
+      "titulo": "Primera batalla de Panipat",
+      "anio": 1526,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Panipat",
+      "lon": 76.97,
+      "lat": 29.39,
+      "tipo": "batalla",
+      "resumen": "Babur derrota a Ibrahim Lodi, último sultán de Delhi, y funda el Imperio mogol.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Primera batalla de Panipat",
+        "en": "First Battle of Panipat"
+      }
+    },
+    {
+      "id": "san-lorenzo-olmeca",
+      "titulo": "Apogeo de San Lorenzo (olmecas)",
+      "anio": -1200,
+      "anio_hasta": -900,
+      "aprox": true,
+      "lugar": "San Lorenzo Tenochtitlán",
+      "lon": -94.75,
+      "lat": 17.73,
+      "tipo": "cultural",
+      "resumen": "San Lorenzo es el primer gran centro olmeca, con cabezas colosales de basalto y obras hidráulicas. Se lo considera uno de los primeros centros de poder de Mesoamérica.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "San Lorenzo Tenochtitlán",
+        "en": "San Lorenzo Tenochtitlán"
+      }
+    },
+    {
+      "id": "fundacion-de-tenochtitlan",
+      "titulo": "Fundación de Tenochtitlan",
+      "anio": 1325,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "fundacion",
+      "resumen": "Según la tradición mexica, tras su peregrinación desde Aztlán fundan su ciudad en un islote del lago de Texcoco. La fecha se toma de los códices.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino"
+      ],
+      "wikipedia": {
+        "es": "Tenochtitlan",
+        "en": "Tenochtitlan"
+      }
+    },
+    {
+      "id": "llegada-de-cortes-a-tenochtitlan",
+      "titulo": "Cortés entra en Tenochtitlan",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "exploracion",
+      "resumen": "El 8 de noviembre de 1519 Cortés y sus aliados son recibidos por Moctezuma II en la calzada de Iztapalapa.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "codice-florentino"
+      ],
+      "wikipedia": {
+        "es": "Conquista de México",
+        "en": "Spanish conquest of the Aztec Empire"
+      }
+    },
+    {
+      "id": "caida-de-tenochtitlan",
+      "titulo": "Caída de Tenochtitlan",
+      "anio": 1521,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "batalla",
+      "resumen": "El 13 de agosto de 1521 se rinde Cuauhtémoc tras un asedio de tres meses. Termina el dominio mexica.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "codice-florentino"
+      ],
+      "wikipedia": {
+        "es": "Caída de Tenochtitlan",
+        "en": "Fall of Tenochtitlan"
+      }
+    },
+    {
+      "id": "grito-de-dolores",
+      "titulo": "Grito de Dolores",
+      "anio": 1810,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Dolores Hidalgo",
+      "lon": -100.9317,
+      "lat": 21.1572,
+      "tipo": "revolucion",
+      "resumen": "El 16 de septiembre de 1810 el cura Miguel Hidalgo llama a levantarse contra el dominio español; empieza la guerra de independencia de México.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Grito de Dolores",
+        "en": "Grito de Dolores"
+      }
+    },
+    {
+      "id": "auge-de-caral",
+      "titulo": "Ciudad de Caral",
+      "anio": -2600,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Caral",
+      "lon": -77.52,
+      "lat": -10.8939,
+      "tipo": "cultural",
+      "resumen": "Caral, en el valle de Supe, es el mayor centro urbano conocido de la civilización norchiquina, con pirámides y plazas hundidas; es una de las ciudades más antiguas de América.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Caral",
+        "en": "Caral"
+      }
+    },
+    {
+      "id": "expansion-inca-pachacutec",
+      "titulo": "Comienzo de la expansión inca",
+      "anio": 1438,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Según las crónicas, tras vencer a los chancas Pachacútec asume el poder e inicia la gran expansión del Tawantinsuyu. Las fechas proceden de la tradición oral.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "comentarios-reales"
+      ],
+      "wikipedia": {
+        "es": "Imperio incaico",
+        "en": "Inca Empire"
+      }
+    },
+    {
+      "id": "captura-de-atahualpa",
+      "titulo": "Captura de Atahualpa en Cajamarca",
+      "anio": 1532,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cajamarca",
+      "lon": -78.5,
+      "lat": -7.1638,
+      "tipo": "batalla",
+      "resumen": "El 16 de noviembre de 1532 Pizarro y unos 170 españoles capturan a Atahualpa y matan a miles de sus seguidores. Es el hecho decisivo de la conquista del Perú.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "comentarios-reales",
+        "cronica-del-peru-cieza"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Cajamarca",
+        "en": "Battle of Cajamarca"
+      }
+    },
+    {
+      "id": "rebelion-de-tupac-amaru-ii",
+      "titulo": "Rebelión de Túpac Amaru II",
+      "anio": 1780,
+      "anio_hasta": 1781,
+      "aprox": false,
+      "lugar": "Tinta (Cusco)",
+      "lon": -71.4,
+      "lat": -14.15,
+      "tipo": "revolucion",
+      "resumen": "José Gabriel Condorcanqui se alza contra el dominio español en noviembre de 1780. Es derrotado y ejecutado en Cusco en 1781.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Rebelión de Túpac Amaru II",
+        "en": "Rebellion of Túpac Amaru II"
+      }
+    },
+    {
+      "id": "batalla-de-ayacucho",
+      "titulo": "Batalla de Ayacucho",
+      "anio": 1824,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pampa de la Quinua, Ayacucho",
+      "lon": -74.1,
+      "lat": -13.0,
+      "tipo": "batalla",
+      "resumen": "El 9 de diciembre de 1824, las fuerzas de Antonio José de Sucre derrotan al ejército virreinal y ponen fin al dominio español en Sudamérica.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Ayacucho",
+        "en": "Battle of Ayacucho"
+      }
+    },
+    {
+      "id": "primera-fundacion-de-buenos-aires",
+      "titulo": "Primera fundación de Buenos Aires",
+      "anio": 1536,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Buenos Aires",
+      "lon": -58.3708,
+      "lat": -34.6118,
+      "tipo": "fundacion",
+      "resumen": "Pedro de Mendoza funda Nuestra Señora Santa María del Buen Ayre. Los ataques indígenas y el hambre llevan a su despoblamiento hacia 1541.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "viaje-al-rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "en": "Buenos Aires"
+      }
+    },
+    {
+      "id": "fundacion-de-asuncion",
+      "titulo": "Fundación de Asunción",
+      "anio": 1537,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Asunción",
+      "lon": -57.6359,
+      "lat": -25.2867,
+      "tipo": "fundacion",
+      "resumen": "Juan de Salazar de Espinosa funda el fuerte de Nuestra Señora Santa María de la Asunción, que se convierte en el centro del dominio español.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "viaje-al-rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Asunción",
+        "en": "Asunción"
+      }
+    },
+    {
+      "id": "segunda-fundacion-de-buenos-aires",
+      "titulo": "Segunda fundación de Buenos Aires",
+      "anio": 1580,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "fundacion",
+      "resumen": "El 11 de junio, Juan de Garay funda la Ciudad de la Trinidad y el puerto de Santa María de los Buenos Aires.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Historia de la ciudad de Buenos Aires",
+        "en": "History of Buenos Aires"
+      }
+    },
+    {
+      "id": "revolucion-de-mayo",
+      "titulo": "Revolución de Mayo",
+      "anio": 1810,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "revolucion",
+      "resumen": "Entre el 22 y el 25 de mayo, el cabildo abierto depone al virrey Cisneros y forma la Primera Junta de gobierno, en nombre de Fernando VII.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "actas-capitulares-mayo-1810"
+      ],
+      "wikipedia": {
+        "es": "Revolución de Mayo",
+        "en": "May Revolution"
+      }
+    },
+    {
+      "id": "declaracion-de-independencia-1816",
+      "titulo": "Declaración de independencia de las Provincias Unidas",
+      "anio": 1816,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Miguel de Tucumán",
+      "lon": -65.2226,
+      "lat": -26.8083,
+      "tipo": "politico",
+      "resumen": "El 9 de julio, el Congreso de Tucumán proclama la independencia de las Provincias Unidas en Sud-América.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "acta-de-independencia-1816"
+      ],
+      "wikipedia": {
+        "es": "Declaración de independencia de la Argentina",
+        "en": "Argentine Declaration of Independence"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "uruk",
+      "nombre": "Uruk",
+      "lon": 45.636,
+      "lat": 31.322,
+      "fundacion": -4000,
+      "abandono": 300,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad sumeria de Gilgamesh, considerada una de las primeras ciudades del mundo. Allí aparecen las tablillas más antiguas con escritura.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "es": "Uruk",
+        "en": "Uruk"
+      }
+    },
+    {
+      "id": "babilonia",
+      "nombre": "Babilonia",
+      "lon": 44.421,
+      "lat": 32.536,
+      "fundacion": -2300,
+      "abandono": 200,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital de Hammurabi y de Nabucodonosor II. Sus ruinas están junto a la actual Hilla, en Irak.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "es": "Babilonia",
+        "en": "Babylon"
+      }
+    },
+    {
+      "id": "ninive",
+      "nombre": "Nínive",
+      "lon": 43.153,
+      "lat": 36.359,
+      "fundacion": -6000,
+      "abandono": -612,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Imperio neoasirio bajo Senaquerib y Asurbanipal, con su gran biblioteca de tablillas. Frente a la actual Mosul.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "es": "Nínive",
+        "en": "Nineveh"
+      }
+    },
+    {
+      "id": "jerusalen",
+      "nombre": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "fundacion": -3000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad santa del judaísmo, el cristianismo y el islam; su ocupación se remonta a la Edad del Bronce.",
+      "regiones": [
+        "levante"
+      ],
+      "wikipedia": {
+        "es": "Jerusalén",
+        "en": "Jerusalem"
+      }
+    },
+    {
+      "id": "biblos",
+      "nombre": "Biblos",
+      "lon": 35.6428,
+      "lat": 34.12,
+      "fundacion": -5000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "puerto",
+      "importancia": 2,
+      "resumen": "Puerto fenicio, uno de los asentamientos habitados de forma continua más antiguos; de allí salía la madera de cedro hacia Egipto.",
+      "regiones": [
+        "levante"
+      ],
+      "wikipedia": {
+        "es": "Biblos",
+        "en": "Byblos"
+      }
+    },
+    {
+      "id": "tiro",
+      "nombre": "Tiro",
+      "lon": 35.196,
+      "lat": 33.2704,
+      "fundacion": -2750,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "puerto",
+      "importancia": 2,
+      "resumen": "Gran puerto fenicio y metrópoli de colonias como Cartago; Heródoto sitúa su fundación hacia el 2750 a. C. según los sacerdotes locales.",
+      "regiones": [
+        "levante"
+      ],
+      "wikipedia": {
+        "es": "Tiro (Líbano)",
+        "en": "Tyre, Lebanon"
+      }
+    },
+    {
+      "id": "hattusa",
+      "nombre": "Hattusa",
+      "lon": 34.6129,
+      "lat": 40.0197,
+      "fundacion": -1650,
+      "abandono": -1180,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Imperio hitita, en Bogazköy. Su archivo real de tablillas cuneiformes se descubrió en 1906.",
+      "regiones": [
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Hattusa",
+        "en": "Hattusa"
+      }
+    },
+    {
+      "id": "efeso",
+      "nombre": "Éfeso",
+      "lon": 27.3417,
+      "lat": 37.9411,
+      "fundacion": -1000,
+      "abandono": 1300,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad griega de Jonia, sede del Artemision y luego capital de la provincia romana de Asia; allí predicó Pablo.",
+      "regiones": [
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Éfeso",
+        "en": "Ephesus"
+      }
+    },
+    {
+      "id": "troya",
+      "nombre": "Troya",
+      "lon": 26.239,
+      "lat": 39.957,
+      "fundacion": -3000,
+      "abandono": 500,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Sitio de Hisarlik, con nueve estratos principales; identificado desde Schliemann con la Troya de la Ilíada.",
+      "regiones": [
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Troya",
+        "en": "Troy"
+      }
+    },
+    {
+      "id": "atenas",
+      "nombre": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "fundacion": -3000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Ciudad-estado cuna de la democracia y centro intelectual del siglo V a. C.; en la Acrópolis se levantó el Partenón.",
+      "regiones": [
+        "grecia"
+      ],
+      "wikipedia": {
+        "es": "Atenas",
+        "en": "Athens"
+      }
+    },
+    {
+      "id": "esparta",
+      "nombre": "Esparta",
+      "lon": 22.4306,
+      "lat": 37.0736,
+      "fundacion": -1000,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad-estado de la Laconia con un régimen militarista; rival de Atenas y vencedora de la guerra del Peloponeso.",
+      "regiones": [
+        "grecia"
+      ],
+      "wikipedia": {
+        "es": "Esparta",
+        "en": "Sparta"
+      }
+    },
+    {
+      "id": "delfos",
+      "nombre": "Delfos",
+      "lon": 22.5009,
+      "lat": 38.4824,
+      "fundacion": -1400,
+      "abandono": 393,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Santuario de Apolo y sede del oráculo más consultado del mundo griego, hasta su clausura bajo Teodosio.",
+      "regiones": [
+        "grecia"
+      ],
+      "wikipedia": {
+        "es": "Delfos",
+        "en": "Delphi"
+      }
+    },
+    {
+      "id": "roma",
+      "nombre": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "fundacion": -753,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Imperio romano y sede del papado, a orillas del Tíber.",
+      "regiones": [
+        "italia"
+      ],
+      "wikipedia": {
+        "es": "Roma",
+        "en": "Rome"
+      }
+    },
+    {
+      "id": "ostia",
+      "nombre": "Ostia",
+      "lon": 12.2905,
+      "lat": 41.7557,
+      "fundacion": -350,
+      "abandono": 850,
+      "aprox": true,
+      "tipo": "puerto",
+      "importancia": 2,
+      "resumen": "Puerto de Roma en la desembocadura del Tíber, con ruinas de calles, termas y almacenes muy bien conservadas.",
+      "regiones": [
+        "italia"
+      ],
+      "wikipedia": {
+        "es": "Ostia Antica",
+        "en": "Ostia Antica"
+      }
+    },
+    {
+      "id": "pompeya",
+      "nombre": "Pompeya",
+      "lon": 14.4869,
+      "lat": 40.7508,
+      "fundacion": -600,
+      "abandono": 79,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad campana sepultada por la erupción del Vesubio en el 79; su excavación muestra la vida cotidiana de una ciudad romana.",
+      "regiones": [
+        "italia"
+      ],
+      "wikipedia": {
+        "es": "Pompeya",
+        "en": "Pompeii"
+      }
+    },
+    {
+      "id": "persepolis",
+      "nombre": "Persépolis",
+      "lon": 52.891,
+      "lat": 29.934,
+      "fundacion": -518,
+      "abandono": -330,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital ceremonial del Imperio aqueménida iniciada por Darío I, cerca de Shiraz. Fue incendiada en el 330 a. C.",
+      "regiones": [
+        "persia"
+      ],
+      "wikipedia": {
+        "es": "Persépolis",
+        "en": "Persepolis"
+      }
+    },
+    {
+      "id": "pasargadas",
+      "nombre": "Pasargadas",
+      "lon": 53.167,
+      "lat": 30.195,
+      "fundacion": -546,
+      "abandono": -330,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Primera capital aqueménida, fundada por Ciro II, que allí tiene su tumba.",
+      "regiones": [
+        "persia"
+      ],
+      "wikipedia": {
+        "es": "Pasargadas",
+        "en": "Pasargadae"
+      }
+    },
+    {
+      "id": "susa",
+      "nombre": "Susa",
+      "lon": 48.2547,
+      "lat": 32.1894,
+      "fundacion": -4200,
+      "abandono": 1300,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Antigua capital de Elam y capital administrativa aqueménida. Allí se halló la estela del Código de Hammurabi.",
+      "regiones": [
+        "persia",
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "es": "Susa",
+        "en": "Susa"
+      }
+    },
+    {
+      "id": "changan",
+      "nombre": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "fundacion": -202,
+      "abandono": 904,
+      "aprox": false,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital de los Han Occidentales, los Sui y los Tang, en el actual Xi'an; extremo oriental de la Ruta de la Seda.",
+      "regiones": [
+        "china"
+      ],
+      "wikipedia": {
+        "es": "Chang'an",
+        "en": "Chang'an"
+      }
+    },
+    {
+      "id": "luoyang",
+      "nombre": "Luoyang",
+      "lon": 112.45,
+      "lat": 34.62,
+      "fundacion": -1040,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital de los Zhou Orientales y los Han Orientales, junto al río Luo; sede de grandes monasterios budistas.",
+      "regiones": [
+        "china"
+      ],
+      "wikipedia": {
+        "es": "Luoyang",
+        "en": "Luoyang"
+      }
+    },
+    {
+      "id": "anyang",
+      "nombre": "Anyang (Yin)",
+      "lon": 114.31,
+      "lat": 36.1,
+      "fundacion": -1300,
+      "abandono": -1046,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Última capital Shang, donde se hallaron miles de huesos oraculares con la escritura china más antigua.",
+      "regiones": [
+        "china"
+      ],
+      "wikipedia": {
+        "es": "Yinxu",
+        "en": "Yinxu"
+      }
+    },
+    {
+      "id": "mohenjo-daro",
+      "nombre": "Mohenjo-daro",
+      "lon": 68.1388,
+      "lat": 27.3292,
+      "fundacion": -2500,
+      "abandono": -1900,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Una de las mayores ciudades de la civilización del Indo, con calles ortogonales y sistemas de desagüe.",
+      "regiones": [
+        "india"
+      ],
+      "wikipedia": {
+        "es": "Mohenjo-Daro",
+        "en": "Mohenjo-daro"
+      }
+    },
+    {
+      "id": "pataliputra",
+      "nombre": "Pataliputra",
+      "lon": 85.1376,
+      "lat": 25.6093,
+      "fundacion": -490,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital de los imperios Maurya y Gupta, junto al Ganges, en la actual Patna. Megástenes la describió como una gran ciudad amurallada.",
+      "regiones": [
+        "india"
+      ],
+      "wikipedia": {
+        "es": "Pataliputra",
+        "en": "Pataliputra"
+      }
+    },
+    {
+      "id": "varanasi",
+      "nombre": "Varanasi",
+      "lon": 83.0104,
+      "lat": 25.3176,
+      "fundacion": -800,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad sagrada del hinduismo a orillas del Ganges; cerca está Sarnath, donde Buda dio su primer sermón.",
+      "regiones": [
+        "india"
+      ],
+      "wikipedia": {
+        "es": "Benarés",
+        "en": "Varanasi"
+      }
+    },
+    {
+      "id": "tenochtitlan",
+      "nombre": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "fundacion": 1325,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital mexica en una isla del lago de Texcoco, bajo la actual Ciudad de México. Cortés la describió en sus cartas.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tenochtitlan",
+        "en": "Tenochtitlan"
+      }
+    },
+    {
+      "id": "teotihuacan",
+      "nombre": "Teotihuacan",
+      "lon": -98.8438,
+      "lat": 19.6925,
+      "fundacion": -100,
+      "abandono": 750,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Gran ciudad del Altiplano Central con las pirámides del Sol y de la Luna. Llegó a tener decenas de miles de habitantes y fue incendiada hacia el 550.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Teotihuacán",
+        "en": "Teotihuacan"
+      }
+    },
+    {
+      "id": "chichen-itza",
+      "nombre": "Chichén Itzá",
+      "lon": -88.5686,
+      "lat": 20.6843,
+      "fundacion": 550,
+      "abandono": 1200,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Centro maya del norte de Yucatán, con la pirámide de Kukulcán y el mayor juego de pelota de Mesoamérica.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Chichén Itzá",
+        "en": "Chichen Itza"
+      }
+    },
+    {
+      "id": "cusco",
+      "nombre": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "fundacion": 1200,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Tawantinsuyu, el «ombligo del mundo» para los incas, hoy centro del Perú andino.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Cuzco",
+        "en": "Cusco"
+      }
+    },
+    {
+      "id": "machu-picchu",
+      "nombre": "Machu Picchu",
+      "lon": -72.545,
+      "lat": -13.1631,
+      "fundacion": 1450,
+      "abandono": 1572,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Llaqta inca del siglo XV, relacionada con la hacienda real de Pachacútec, abandonada tras la conquista.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Machu Picchu",
+        "en": "Machu Picchu"
+      }
+    },
+    {
+      "id": "caral",
+      "nombre": "Caral",
+      "lon": -77.52,
+      "lat": -10.8939,
+      "fundacion": -2600,
+      "abandono": -1800,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad de la civilización norchiquina en el valle de Supe, con edificios monumentales de más de 4500 años.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Caral",
+        "en": "Caral"
+      }
+    },
+    {
+      "id": "buenos-aires",
+      "nombre": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "fundacion": 1580,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del Virreinato del Río de la Plata y de la Argentina. Mendoza la fundó en 1536 y Garay la refundó en 1580.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Buenos Aires",
+        "en": "Buenos Aires"
+      }
+    },
+    {
+      "id": "asuncion",
+      "nombre": "Asunción",
+      "lon": -57.6359,
+      "lat": -25.2867,
+      "fundacion": 1537,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital de Paraguay; fue el centro de la colonización española del Río de la Plata en el siglo XVI.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Asunción",
+        "en": "Asunción"
+      }
+    },
+    {
+      "id": "montevideo",
+      "nombre": "Montevideo",
+      "lon": -56.1645,
+      "lat": -34.9011,
+      "fundacion": 1726,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "puerto",
+      "importancia": 2,
+      "resumen": "Puerto en la costa norte del estuario, fundado por los españoles; hoy es capital de Uruguay.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Montevideo",
+        "en": "Montevideo"
+      }
+    }
+  ]
+}
