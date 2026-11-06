@@ -7,6 +7,8 @@ const CARPETAS: Array[String] = ["res://scripts", "res://addons"]
 
 
 func _initialize() -> void:
+	# Si un error interno corta esta función, Godot no termina solo: este reloj lo cierra igual.
+	create_timer(240.0).timeout.connect(_vencido)
 	var reg := Registro.new()
 	OS.add_logger(reg)
 	var rutas: Array[String] = []
@@ -15,8 +17,10 @@ func _initialize() -> void:
 	var malos := 0
 	for ruta in rutas:
 		var marca := reg.marca()
-		var s := ResourceLoader.load(ruta, "", ResourceLoader.CACHE_MODE_IGNORE) as GDScript
-		if s == null or not s.can_instantiate():
+		# Sin «as GDScript»: en el binario oficial de Godot 4.7.2 esa conversión, dentro de un script de -s, da
+		# «Internal script error! Opcode: 31» y la función se corta.
+		var s: Resource = ResourceLoader.load(ruta, "", ResourceLoader.CACHE_MODE_IGNORE)
+		if s == null or not s.has_method("can_instantiate") or not s.call("can_instantiate"):
 			malos += 1
 			print("MAL  ", ruta)
 			for e in reg.desde(marca, ["script", "error"]):
@@ -24,6 +28,11 @@ func _initialize() -> void:
 	print("%d scripts, %d con errores" % [rutas.size(), malos])
 	OS.remove_logger(reg)
 	quit(1 if malos else 0)
+
+
+func _vencido() -> void:
+	print("revisar: no terminó en 4 minutos (¿un error interno de Godot?)")
+	quit(2)
 
 
 func _juntar(dir: String, rutas: Array[String]) -> void:
