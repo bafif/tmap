@@ -98,12 +98,15 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 - [x] Panel lateral: resumen, historia del lugar, fuentes, gente y hechos, datos
 - [x] Resúmenes de Wikipedia en vivo, en español primero
 - [x] Enciclopedia piloto del antiguo Egipto y muestra de once regiones
-- [x] Modos de religión, cultura e idioma (solo donde hay datos)
-- [x] Tres temas visuales y cuatro niveles de calidad gráfica
+- [x] Modos de religión, cultura e idioma (solo donde hay datos), con el contorno real de cada época
+- [x] Fichas de cada religión, cultura, idioma y entidad política; leyenda, línea de tiempo y gráficos tocables
+- [x] Marcadores agrupados, atajos de teclado y cuatro temas visuales (uno de alto contraste)
+- [x] Cuatro niveles de calidad gráfica y una prueba automática que hace clic en cada control
 - [ ] Vista 3D con relieve, agua y efectos
 - [ ] Llenado progresivo de la enciclopedia con IA y revisión humana
 - [ ] Migraciones, rutas y movimientos de pueblos animados
-- [ ] Versiones descargables para Windows, macOS, Linux y navegador
+- [ ] Versiones descargables: las de Linux y Windows se exportan solas al publicar una versión en GitHub (falta
+      publicar la primera); macOS y navegador, después
 
 ## Documentación
 

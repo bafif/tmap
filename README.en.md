@@ -97,12 +97,15 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [x] Side panel: summary, history of the place, sources, people and events, data
 - [x] Live Wikipedia summaries, Spanish first
 - [x] Pilot encyclopedia on ancient Egypt and a sample of eleven regions
-- [x] Religion, culture and language map modes (where data exists)
-- [x] Three visual themes and four graphics quality levels
+- [x] Religion, culture and language map modes (where data exists), with each period's real outline
+- [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
+- [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)
+- [x] Four graphics quality levels and an automated test that clicks every control
 - [ ] 3D view with relief, water and effects
 - [ ] Progressive encyclopedia filling with AI and human review
 - [ ] Animated migrations, routes and movements of peoples
-- [ ] Downloadable builds for Windows, macOS, Linux and the browser
+- [ ] Downloadable builds: Linux and Windows are exported automatically when a GitHub release is published (the
+      first one is still to come); macOS and the browser, later
 
 ## Documentation (in Spanish)
 

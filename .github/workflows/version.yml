@@ -1,0 +1,67 @@
+name: Versión
+
+# Al publicar una versión en GitHub (o a mano, con su etiqueta): exporta los ejecutables de Linux y Windows con las
+# plantillas oficiales de Godot, comprueba que el de Linux arranque con todos sus datos (--verificar) y los sube a esa
+# versión. Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      etiqueta:
+        description: "Etiqueta de la versión (ya creada) a la que se suben los ejecutables, por ejemplo v0.2.0"
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.7.2"
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ETIQUETA: ${{ github.event.release.tag_name || inputs.etiqueta }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Instalar Godot ${{ env.GODOT_VERSION }} y sus plantillas de exportación
+        run: |
+          base="https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}-stable"
+          curl -fsSLo godot.zip "$base/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          unzip -q godot.zip
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          curl -fsSLo plantillas.tpz "$base/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          destino="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          mkdir -p "$destino"
+          unzip -q plantillas.tpz -d plantillas
+          mv plantillas/templates/* "$destino/"
+
+      - name: Importar el proyecto
+        run: godot --headless --path . --import || true
+
+      - name: Exportar Linux y Windows
+        run: |
+          mkdir -p build/linux build/windows
+          godot --headless --path . --export-release "Linux" build/linux/TellMAP.x86_64
+          godot --headless --path . --export-release "Windows" build/windows/TellMAP.exe
+          ls -la build/linux build/windows
+
+      - name: Comprobar que el ejecutable de Linux trae todos sus datos
+        run: timeout 300 build/linux/TellMAP.x86_64 --headless -- --verificar
+
+      - name: Empaquetar
+        run: |
+          for so in linux windows; do
+            cp LICENSE README.md README.en.md "build/$so/"
+            (cd "build/$so" && zip -qr "../TellMAP-${ETIQUETA}-${so}-x86_64.zip" .)
+          done
+          ls -la build/*.zip
+
+      - name: Subir a la versión ${{ env.ETIQUETA }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$ETIQUETA" build/*.zip --clobber

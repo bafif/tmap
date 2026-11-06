@@ -5,6 +5,9 @@ extends Node
 ##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar]
 ##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--bienvenida] [--tema=marmol] [--modo=religion]
 ##   (más cómodo con tools/captura.sh, que además funciona sin monitor)
+##
+## Para comprobar que un ejecutable exportado trae todos sus datos: TellMAP --headless -- --verificar
+## (carga el mapa y la enciclopedia, lo informa y sale con 0, o con 1 si falta algo).
 
 var vista: VistaMapa
 var interfaz: Interfaz
@@ -31,6 +34,8 @@ func _ready() -> void:
 	if not ok:
 		_carga_texto.text = "No se pudo cargar el mapa: " + DatosMapa.error
 		push_error(DatosMapa.error)
+		if args.has("verificar"):
+			get_tree().quit(1)
 		return
 	_al_progreso("Abriendo la biblioteca…", 0.95)
 	await get_tree().process_frame
@@ -44,7 +49,14 @@ func _ready() -> void:
 	var t := create_tween()
 	t.tween_property(_carga.get_child(0), "modulate:a", 0.0, 0.5)
 	t.finished.connect(_carga.queue_free)
-	if args.has("prueba"):
+	if args.has("verificar"):
+		var bien := DatosMapa.n_unidades > 0 and DatosMapa.entidades.size() > 0 and not Enciclopedia.regiones.is_empty() \
+			and not Enciclopedia.familias.is_empty()
+		print("TellMAP %s: %d unidades, %d entidades, %d regiones, %d fuentes, %d familias" % [
+			"bien" if bien else "FALTAN DATOS", DatosMapa.n_unidades, DatosMapa.entidades.size(),
+			Enciclopedia.regiones.size(), Enciclopedia.fuentes.size(), Enciclopedia.familias.size()])
+		get_tree().quit(0 if bien else 1)
+	elif args.has("prueba"):
 		_prueba_automatica()
 	elif args.has("captura"):
 		_captura_automatica(args)
