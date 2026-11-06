@@ -247,6 +247,20 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] el gráfico de población no muestra la fuente de cada estimación")
 		grafico.queue_free()
 	paso.call("gráfico de población")
+	# Marcadores agrupados: de lejos se juntan, ninguno se pierde, y de cerca se separan.
+	Estado.fijar_anio(-1350)
+	Estado.fijar_modo("politico")
+	var capa: CapaMarcadores = interfaz.vista.capa_marcadores
+	for z in [0.6, 1.5, 4.0]:
+		var total := 0
+		var juntos := 0
+		for g in capa.agrupar(z):
+			total += g["miembros"].size()
+			juntos += int(capa._junto(g, z))
+		if total != capa._visibles.size():
+			push_error("[prueba] al agrupar con zoom %s se perdieron marcadores (%d de %d)" % [z, total, capa._visibles.size()])
+		print("[prueba]   marcadores con zoom %s: %d grupos juntos" % [z, juntos])
+	paso.call("marcadores agrupados")
 	# Clic real en cada botón visible de la interfaz, en varios escenarios: falla si alguno da error o no hace nada.
 	# Sin pantalla (--headless) la ventana mide 64×64 y casi todo quedaría afuera: se le da el tamaño del proyecto.
 	if get_viewport().get_visible_rect().size.x < 800:

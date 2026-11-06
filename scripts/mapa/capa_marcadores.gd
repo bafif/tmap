@@ -3,6 +3,8 @@ extends Node2D
 ## Marcadores sobre el mapa que aparecen y desaparecen con el año: fuentes (donde se escribieron), personas
 ## (mientras viven), hechos (cerca de su fecha) y ciudades (mientras existen).
 ## Se dibujan a tamaño constante en pantalla; los que aparecen en el año actual hacen un pequeño destello.
+## Los que se pisan en pantalla se juntan en un grupo con su número, que se separa al acercarse; los que comparten el
+## punto exacto (varias fuentes de Alejandría) se abren en espiral desde ZOOM_SEPARAR.
 
 const RADIO := 13.0
 const VENTANA_HECHO := 40
@@ -10,6 +12,7 @@ const VIDA_FUENTE := 150
 ## Más lejos que esto no se dibujan marcadores; entre esto y ZOOM_PUNTOS, solo puntos chicos.
 const ZOOM_OCULTAR := 0.26
 const ZOOM_PUNTOS := 0.5
+const ZOOM_SEPARAR := 3.2
 
 const ICONOS := {
 	"fuente": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path fill='#fff' d='M7 15c9-4 17-3 23 2v34c-6-5-14-6-23-2z'/><path fill='#fff' d='M57 15c-9-4-17-3-23 2v34c6-5 14-6 23-2z'/></svg>",
@@ -21,6 +24,9 @@ var _texturas := {}
 var _visibles: Array = []
 var _ciudades: Array = []
 var _destello := {}
+## Grupos para el último zoom: [{px, miembros: [marcador…]}], y el zoom para el que se calcularon.
+var _grupos: Array = []
+var _zoom_grupos := -1.0
 
 
 func _ready() -> void:
@@ -80,7 +86,55 @@ func actualizar() -> void:
 		var k: String = v["tipo"] + v["id"]
 		if not antes.has(k) and not antes.is_empty():
 			_destello[k] = ahora
+	_zoom_grupos = -1.0
 	queue_redraw()
+
+
+## Junta los marcadores que se pisarían en pantalla con este zoom. Grilla del tamaño de un marcador y búsqueda en las
+## nueve celdas vecinas: lineal en la cantidad de marcadores, así se puede recalcular en cada cuadro.
+func agrupar(z: float) -> Array:
+	if is_equal_approx(z, _zoom_grupos):
+		return _grupos
+	var celda := RADIO * 2.3 / z
+	var por_celda := {}
+	_grupos = []
+	for v in _visibles:
+		var p: Vector2 = v["px"]
+		var c := Vector2i(floori(p.x / celda), floori(p.y / celda))
+		var destino: Variant = null
+		for dx in [-1, 0, 1]:
+			for dy in [-1, 0, 1]:
+				for g in por_celda.get(c + Vector2i(dx, dy), []):
+					if (g["px"] as Vector2).distance_to(p) < celda:
+						destino = g
+						break
+				if destino != null:
+					break
+			if destino != null:
+				break
+		if destino == null:
+			destino = {"px": p, "miembros": []}
+			_grupos.append(destino)
+			if not por_celda.has(c):
+				por_celda[c] = []
+			por_celda[c].append(destino)
+		destino["miembros"].append(v)
+	_zoom_grupos = z
+	return _grupos
+
+
+## Un grupo se dibuja junto si tiene varios miembros y, o el zoom no alcanza para separarlos, o están en puntos
+## distintos (entonces acercarse los separa).
+func _junto(g: Dictionary, z: float) -> bool:
+	var m: Array = g["miembros"]
+	if m.size() < 2:
+		return false
+	if z < ZOOM_SEPARAR:
+		return true
+	for v in m:
+		if (v["px"] as Vector2).distance_to(g["px"]) > 0.5:
+			return true
+	return false
 
 
 func _desplazamiento(orden: int) -> Vector2:
@@ -129,7 +183,16 @@ func _draw() -> void:
 		return
 	var chico := z < ZOOM_PUNTOS
 	var ahora := Time.get_ticks_msec()
-	for v in _visibles:
+	var sueltos: Array = []
+	if chico:
+		sueltos = _visibles
+	else:
+		for g in agrupar(z):
+			if _junto(g, z):
+				_dibujar_grupo(g, z, ahora)
+			else:
+				sueltos.append_array(g["miembros"])
+	for v in sueltos:
 		var p: Vector2 = v["px"] + (Vector2.ZERO if chico else _desplazamiento(v["orden"]) * s)
 		var col: Color = v["color"]
 		var alfa: float = v["alfa"]
@@ -166,6 +229,39 @@ func _draw() -> void:
 			draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 
 
+func _dibujar_grupo(g: Dictionary, z: float, ahora: int) -> void:
+	var s := 1.0 / z
+	var p: Vector2 = g["px"]
+	var miembros: Array = g["miembros"]
+	var r := RADIO * 1.2 * s
+	var acento := TemaUI.color("acento")
+	for v in miembros:
+		var k: String = v["tipo"] + v["id"]
+		if _destello.has(k):
+			var t := clampf((ahora - int(_destello[k])) / 900.0, 0.0, 1.0)
+			draw_circle(p, r * (1.0 + 2.0 * t), Color(acento, 0.5 * (1.0 - t)), false, 2.0 * s)
+			break
+	draw_circle(p + Vector2(0, 1.5 * s), r + 2.0 * s, Color(0, 0, 0, 0.35))
+	draw_circle(p, r + 1.5 * s, Color(0.06, 0.05, 0.04))
+	draw_circle(p, r, Color(0.16, 0.14, 0.12))
+	draw_circle(p, r, acento, false, 1.6 * s)
+	# Un punto por cada tipo presente (fuente, persona, hecho), con su color.
+	var colores: Array = []
+	for v in miembros:
+		if not colores.has(v["color"]):
+			colores.append(v["color"])
+	for i in mini(colores.size(), 4):
+		var ang := PI * 0.5 + (i - (mini(colores.size(), 4) - 1) * 0.5) * 0.55
+		draw_circle(p + Vector2(cos(ang), sin(ang)) * r, 3.2 * s, colores[i])
+	var texto := str(miembros.size())
+	var f := TemaUI.fuente_titulo
+	var tam := 16
+	var ancho := f.get_string_size(texto, HORIZONTAL_ALIGNMENT_LEFT, -1, tam).x
+	draw_set_transform(p + Vector2(-ancho * 0.5, tam * 0.36) * s, 0.0, Vector2(s, s))
+	draw_string(f, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, tam, Color(0.98, 0.95, 0.88))
+	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
+
+
 func _choca(caja: Rect2, ocupados: Array[Rect2]) -> bool:
 	for o in ocupados:
 		if o.intersects(caja):
@@ -179,7 +275,18 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 	var mejor := {}
 	var mejor_d := INF
 	var chico := zoom < ZOOM_PUNTOS
-	for v in _visibles:
+	var sueltos: Array = _visibles
+	if not chico and zoom >= ZOOM_OCULTAR:
+		sueltos = []
+		for g in agrupar(zoom):
+			if not _junto(g, zoom):
+				sueltos.append_array(g["miembros"])
+			elif (g["px"] as Vector2).distance_to(mundo) < (RADIO * 1.2 + 3.0) * s:
+				var nombres: Array = g["miembros"].slice(0, 4).map(func(v): return str(v["texto"]))
+				var resto: int = g["miembros"].size() - nombres.size()
+				return {"tipo": "grupo", "id": "", "px": g["px"], "n": g["miembros"].size(),
+					"texto": "%d juntos: %s%s" % [g["miembros"].size(), "; ".join(nombres), " y %d más" % resto if resto > 0 else ""]}
+	for v in sueltos:
 		if zoom < ZOOM_OCULTAR:
 			break
 		var p: Vector2 = v["px"] + (Vector2.ZERO if chico else _desplazamiento(v["orden"]) * s)

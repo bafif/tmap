@@ -29,7 +29,8 @@ func mostrar(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 	if not elemento.is_empty():
 		var tipos := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar"}
 		_titulo.text = str(elemento.get("texto", ""))
-		_detalle.text = "%s · click para ver la ficha" % tipos.get(elemento["tipo"], "")
+		_detalle.text = "Marcadores juntos · click para acercarse y separarlos" if elemento["tipo"] == "grupo" else (
+			"%s · click para ver la ficha" % tipos.get(elemento["tipo"], ""))
 	elif unidad > 0:
 		var ent := DatosMapa.dueno(unidad)
 		var regs := Enciclopedia.regiones_de_unidad(unidad)

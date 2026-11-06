@@ -300,6 +300,10 @@ func _unhandled_input(ev: InputEvent) -> void:
 func _click(pos: Vector2) -> void:
 	var mundo := pantalla_a_mundo(pos)
 	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	if not el.is_empty() and el["tipo"] == "grupo":
+		# Un grupo de marcadores: acercarse hasta que se separen.
+		volar_a(el["px"], minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2))
+		return
 	if not el.is_empty():
 		Estado.pedir_ficha(el["tipo"], el["id"])
 		return
