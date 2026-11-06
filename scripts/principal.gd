@@ -3,7 +3,7 @@ extends Node
 ##
 ## Para sacar capturas sin intervención (README, pruebas visuales):
 ##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar]
-##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--tema=marmol] [--modo=religion]
+##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--bienvenida] [--tema=marmol] [--modo=religion]
 ##   (más cómodo con tools/captura.sh, que además funciona sin monitor)
 
 var vista: VistaMapa
@@ -124,6 +124,8 @@ func _captura_automatica(args: Dictionary) -> void:
 		Estado.pedir_ficha(partes[0], partes[1])
 	if args.has("ajustes"):
 		interfaz.ajustes.abrir()
+	if args.has("bienvenida"):
+		interfaz.mostrar_bienvenida()
 	await get_tree().create_timer(float(args.get("espera", 2.5))).timeout
 	await RenderingServer.frame_post_draw
 	if args.has("diagnostico"):

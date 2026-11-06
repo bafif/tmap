@@ -6,7 +6,7 @@ extends Node2D
 const TAM_BASE := 64
 const ESPACIADO := 0.32  # separación entre letras, en fracción del tamaño
 const MIN_PANTALLA := 9.0
-const MAX_PANTALLA := 120.0
+const MAX_PANTALLA := 90.0
 
 var curvos := true
 var _activas := PackedInt32Array()
@@ -60,7 +60,8 @@ func _draw() -> void:
 		var en_pantalla := TAM_BASE * escala * z
 		if en_pantalla < MIN_PANTALLA:
 			continue
-		var alfa := 1.0 - smoothstep(MAX_PANTALLA * 0.7, MAX_PANTALLA * 1.3, en_pantalla)
+		# Muy de cerca los nombres de países estorban: se apagan, como en los mapas de estrategia.
+		var alfa := (1.0 - smoothstep(MAX_PANTALLA * 0.7, MAX_PANTALLA * 1.3, en_pantalla)) * (1.0 - smoothstep(2.4, 4.0, z))
 		if alfa <= 0.02:
 			continue
 		var ang := deg_to_rad(float(e[5]))
