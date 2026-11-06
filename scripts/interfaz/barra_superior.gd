@@ -90,6 +90,11 @@ func _ready() -> void:
 	add_child(_resultados)
 
 
+func enfocar_busqueda() -> void:
+	_busqueda.grab_focus()
+	_busqueda.select_all()
+
+
 func _buscar(texto: String) -> void:
 	for c in _lista.get_children():
 		c.queue_free()

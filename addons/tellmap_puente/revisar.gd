@@ -14,6 +14,9 @@ func _initialize() -> void:
 	var rutas: Array[String] = []
 	for c in CARPETAS:
 		_juntar(c, rutas)
+	# Este mismo script ya compiló (está corriendo); volver a cargarlo con CACHE_MODE_IGNORE mientras se ejecuta hace
+	# que Godot 4.7.2 se caiga a veces (señal 11).
+	rutas.erase(get_script().resource_path)
 	var malos := 0
 	for ruta in rutas:
 		var marca := reg.marca()

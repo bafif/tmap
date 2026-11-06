@@ -10,7 +10,22 @@ const TEXTO := """TellMAP es una biblioteca ordenada en el espacio y el tiempo. 
 • La [b]línea de tiempo[/b] de abajo se arrastra; la rueda sobre ella acerca un período. Barra espaciadora: reproducir.
 • Los [color=#c9a04a]libros dorados[/color] son fuentes primarias; los [color=#7b9cc2]azules[/color], estudios posteriores.
 
-[b]Estado[/b]: versión 0.1. Las fronteras cubren el mundo entero de 3400 a. C. a 2024; la enciclopedia empieza con un piloto sobre el antiguo Egipto y una muestra de otras regiones, y se va a ir completando."""
+[b]Estado[/b]: versión 0.2, en desarrollo. Las fronteras cubren el mundo entero de 3400 a. C. a 2024; la enciclopedia empieza con un piloto sobre el antiguo Egipto y una muestra de otras regiones, y se va a ir completando."""
+
+## Atajos de teclado (los maneja Interfaz._unhandled_key_input; esta es la lista que se muestra).
+const ATAJOS := [
+	["1 a 5", "modos: político, terreno, religión, cultura, idioma"],
+	["Barra espaciadora", "reproducir o pausar"],
+	["Re Pág / Av Pág (o . y ,)", "10 años adelante o atrás; con Mayús, 1 año"],
+	["G", "ir a un año (escribirlo y Enter)"],
+	["/ o Ctrl+F", "buscar"],
+	["WASD o flechas", "mover el mapa"],
+	["+ y -", "acercar y alejar"],
+	["[ y ]", "pestaña anterior y siguiente del panel"],
+	["Retroceso", "volver de una ficha al lugar"],
+	["Esc", "cerrar el panel o los ajustes"],
+	["F1 o ?", "esta ayuda"],
+]
 
 signal cerrada
 
@@ -48,7 +63,26 @@ func _ready() -> void:
 	cuerpo.scroll_active = false
 	cuerpo.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	cuerpo.text = TEXTO
-	caja.add_child(cuerpo)
+	# El texto va en un scroll: con los atajos ya no entra entero en una ventana baja y los botones quedarían afuera.
+	var scroll := ScrollContainer.new()
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	scroll.custom_minimum_size = Vector2(0, clampf(get_viewport_rect().size.y - 300.0, 160.0, 560.0))
+	caja.add_child(scroll)
+	var textos := VBoxContainer.new()
+	textos.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	textos.add_theme_constant_override("separation", 12)
+	scroll.add_child(textos)
+	textos.add_child(cuerpo)
+	var atajos := RichTextLabel.new()
+	atajos.bbcode_enabled = true
+	atajos.fit_content = true
+	atajos.scroll_active = false
+	atajos.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	var lineas: Array = ["[b]Teclado[/b] (en Ajustes también hay un tema de alto contraste y la escala de la interfaz)"]
+	for a in ATAJOS:
+		lineas.append("• [b]%s[/b]: %s" % a)
+	atajos.text = "\n".join(lineas)
+	textos.add_child(atajos)
 	var botones := HBoxContainer.new()
 	botones.alignment = BoxContainer.ALIGNMENT_CENTER
 	botones.add_theme_constant_override("separation", 14)

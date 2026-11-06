@@ -17,7 +17,8 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 ### Mapa, rendimiento y distribución (0.2)
 
 - [ ] **Bordes nítidos de cerca.** Bordes con campo de distancia, para que no se vean los píxeles con mucho zoom.
-- [ ] **Teclado y accesibilidad.** Atajos completos, tamaño de letra, contraste y todo usable sin mouse.
+- [ ] **Todo usable sin mouse.** Los atajos ya están; falta poder recorrer con Tab los botones del panel, la
+      leyenda y los diálogos (hoy tienen `focus_mode = FOCUS_NONE` para que el clic no deje un recuadro de foco).
 - [ ] **Probar en otros equipos.** Windows, una notebook con gráficos integrados y el modo OpenGL.
 - [ ] **Ejecutables para Linux y Windows.** Exportarlos con el filtro `data/*` y publicarlos en las releases de GitHub.
 
@@ -64,6 +65,11 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [x] **Marcadores agrupados.** Los que se pisan en pantalla se juntan en un círculo con su número y un punto de
       color por tipo; el clic acerca la cámara hasta separarlos, y los que comparten el punto exacto se abren en
       espiral de cerca. El agrupamiento usa una grilla con vecinos, lineal en la cantidad de marcadores.
+- [x] **Atajos de teclado**: 1 a 5 para los modos, / o Ctrl+F para buscar, G para ir a un año, + y - para el
+      zoom, [ y ] para las pestañas, Retroceso para volver de una ficha y F1 para la ayuda, que ahora los lista y
+      tiene scroll para entrar en ventanas bajas.
+- [x] **Tema «Alto contraste»**: texto blanco sobre negro (21:1) y acentos amarillos.
+- [x] `tmap.py revisar` ya no se cae a veces: dejaba que el script se recargara a sí mismo mientras corría.
 
 ### 6 de noviembre de 2026: religiones, culturas e idiomas tocables (0.2)
 

@@ -261,6 +261,35 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] al agrupar con zoom %s se perdieron marcadores (%d de %d)" % [z, total, capa._visibles.size()])
 		print("[prueba]   marcadores con zoom %s: %d grupos juntos" % [z, juntos])
 	paso.call("marcadores agrupados")
+	# Atajos de teclado, con eventos de verdad.
+	var tecla := func(codigo: Key) -> void:
+		var ev := InputEventKey.new()
+		ev.keycode = codigo
+		ev.pressed = true
+		get_viewport().push_input(ev)
+		await get_tree().process_frame
+	for i in 5:
+		await tecla.call(KEY_1 + i)
+		if Estado.modo != Estado.MODOS.keys()[i]:
+			push_error("[prueba] la tecla %d no puso el modo %s" % [i + 1, Estado.MODOS.keys()[i]])
+	await tecla.call(KEY_1)
+	var z0: float = interfaz.vista._zoom_objetivo
+	await tecla.call(KEY_EQUAL)
+	if interfaz.vista._zoom_objetivo <= z0:
+		push_error("[prueba] la tecla + no acercó el mapa")
+	var px_atajo := Proyeccion.a_px(31.2, 30.0)
+	Estado.seleccionar_lugar(DatosMapa.unidad_en(px_atajo), px_atajo)
+	await get_tree().process_frame
+	var pestana0: int = interfaz.panel._pestana
+	await tecla.call(KEY_BRACKETRIGHT)
+	if interfaz.panel._pestana != (pestana0 + 1) % PanelInfo.PESTANAS.size():
+		push_error("[prueba] la tecla ] no pasó a la pestaña siguiente")
+	Estado.pedir_ficha("region", "egipto")
+	await tecla.call(KEY_BACKSPACE)
+	if not interfaz.panel._ficha.is_empty():
+		push_error("[prueba] Retroceso no volvió de la ficha al lugar")
+	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	paso.call("atajos de teclado")
 	# Clic real en cada botón visible de la interfaz, en varios escenarios: falla si alguno da error o no hace nada.
 	# Sin pantalla (--headless) la ventana mide 64×64 y casi todo quedaría afuera: se le da el tamaño del proyecto.
 	if get_viewport().get_visible_rect().size.x < 800:

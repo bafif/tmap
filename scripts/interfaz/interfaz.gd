@@ -89,6 +89,34 @@ func _cambiar_tema() -> void:
 	ajustes.abrir()
 
 
+## Atajos de teclado de toda la app (los de la línea de tiempo y Esc están en sus paneles). La lista que se muestra
+## en la ayuda está en Bienvenida.ATAJOS: si se cambia uno, cambiarlo también ahí.
+func _unhandled_key_input(ev: InputEvent) -> void:
+	var k := ev as InputEventKey
+	if k == null or not k.pressed or k.echo:
+		return
+	var modos: Array = Estado.MODOS.keys()
+	if k.keycode >= KEY_1 and k.keycode <= KEY_5 and not k.ctrl_pressed and not k.alt_pressed:
+		Estado.fijar_modo(modos[k.keycode - KEY_1])
+	elif k.keycode == KEY_SLASH or (k.keycode == KEY_F and k.ctrl_pressed):
+		barra.enfocar_busqueda()
+	elif k.keycode == KEY_F1 or k.unicode == "?".unicode_at(0):
+		barra.ayuda_pedida.emit()
+	elif k.keycode == KEY_G and not k.ctrl_pressed:
+		linea.enfocar_anio()
+	elif k.keycode in [KEY_PLUS, KEY_EQUAL, KEY_KP_ADD]:
+		vista.acercar(1.35)
+	elif k.keycode in [KEY_MINUS, KEY_KP_SUBTRACT]:
+		vista.acercar(1.0 / 1.35)
+	elif k.keycode == KEY_BRACKETLEFT or k.keycode == KEY_BRACKETRIGHT:
+		panel.pestana_vecina(-1 if k.keycode == KEY_BRACKETLEFT else 1)
+	elif k.keycode == KEY_BACKSPACE:
+		panel.volver()
+	else:
+		return
+	get_viewport().set_input_as_handled()
+
+
 func _al_hover(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 	if globo:
 		globo.mostrar(unidad, elemento, pos)

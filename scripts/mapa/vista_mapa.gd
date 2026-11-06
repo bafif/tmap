@@ -186,6 +186,12 @@ func _process(delta: float) -> void:
 		_vista_cambio()
 
 
+## Acerca (factor > 1) o aleja la cámara alrededor del centro de la pantalla (teclas + y -).
+func acercar(factor: float) -> void:
+	_anclado = false
+	_zoom_objetivo = clampf(_zoom_objetivo * factor, zoom_minimo(), ZOOM_MAX)
+
+
 func zoom_minimo() -> float:
 	var vp := get_viewport_rect().size
 	return minf(vp.x / DatosMapa.ancho, vp.y / DatosMapa.alto) * 0.98

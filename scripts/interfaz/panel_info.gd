@@ -974,6 +974,19 @@ func _bloque_wikipedia(titulos: Dictionary) -> void:
 	caja.add_child(texto)
 
 
+## Teclas [ y ]: la pestaña anterior o la siguiente del lugar (con una ficha abierta no hay pestañas).
+func pestana_vecina(paso: int) -> void:
+	if _abierto and _ficha.is_empty() and _unidad > 0:
+		_ir_a_pestana(posmod(_pestana + paso, PESTANAS.size()))
+
+
+## Tecla Retroceso: de una ficha al lugar elegido, como el botón de volver.
+func volver() -> void:
+	if _abierto and not _ficha.is_empty() and _unidad > 0:
+		_ficha = {}
+		_reconstruir()
+
+
 func _ir_a_pestana(i: int) -> void:
 	_pestana = i
 	(_botones_pestana[i] as Button).button_pressed = true

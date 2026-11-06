@@ -91,6 +91,11 @@ func _boton_salto(icono: String, delta: int, ayuda: String) -> Button:
 	return b
 
 
+func enfocar_anio() -> void:
+	_entrada.grab_focus()
+	_entrada.select_all()
+
+
 func alternar_reproduccion() -> void:
 	_reproduciendo = not _reproduciendo
 	_acumulado = 0.0

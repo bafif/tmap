@@ -33,6 +33,17 @@ const TEMAS := {
 		"primaria": "#d0aa52", "secundaria": "#79a8c4", "persona": "#b48ac4", "hecho": "#d0674c",
 		"sombra": "#000000a0",
 	},
+	# Para ver mejor: texto blanco sobre negro (contraste 21:1), texto secundario y acentos por encima de 10:1.
+	"contraste": {
+		"nombre": "Alto contraste",
+		"fondo": "#000000", "fondo2": "#0d0d0d", "fondo3": "#1f1f1f",
+		"borde": "#ffffff", "borde_suave": "#8c8c8c",
+		"texto": "#ffffff", "texto_suave": "#d6d6d6", "titulo": "#ffdd55",
+		"acento": "#ffd23f", "acento_texto": "#000000",
+		"boton": "#1a1a1a", "boton_hover": "#3a3a3a", "boton_activo": "#5a4a00",
+		"primaria": "#ffc94a", "secundaria": "#8fd0ff", "persona": "#e6a8ff", "hecho": "#ff8a6a",
+		"sombra": "#000000dd",
+	},
 }
 
 static var actual: Dictionary = TEMAS["marmol"]
