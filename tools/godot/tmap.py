@@ -130,6 +130,14 @@ def mostrar(resp: dict) -> int:
     return 0
 
 
+def anotar(texto: str, titulo: str = "TellMAP") -> None:
+    """En GitHub Actions, publica el texto como anotación de error del check: se ve en la página de la corrida y en
+    la API pública, sin descargar el registro."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        texto = texto.replace("%", "%25").replace("\r", "").replace("\n", "%0A")
+        print(f"::error title={titulo}::{texto}")
+
+
 def godot() -> str:
     g = shutil.which("godot") or shutil.which("godot4")
     if not g:
@@ -284,10 +292,19 @@ def orden_registros(proyecto: Path, resto: list[str]) -> int:
 
 
 def orden_revisar(proyecto: Path) -> int:
-    r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "-s",
-                        "res://addons/tellmap_puente/revisar.gd"], capture_output=True, text=True, timeout=300)
+    try:
+        r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "-s",
+                            "res://addons/tellmap_puente/revisar.gd"], capture_output=True, text=True, timeout=300)
+    except subprocess.TimeoutExpired as e:
+        salida = ((e.stdout or b"") + (e.stderr or b"")).decode("utf-8", "replace") if isinstance(e.stdout, bytes) \
+            else (e.stdout or "") + (e.stderr or "")
+        anotar("Godot no terminó en 5 minutos. Última salida:\n" + "\n".join(salida.splitlines()[-25:]), "revisar")
+        print(salida)
+        return 1
     lineas = [l for l in (r.stdout + r.stderr).splitlines() if l.strip() and not l.startswith("Godot Engine")]
     print("\n".join(lineas))
+    if r.returncode != 0:
+        anotar(f"Código de salida {r.returncode}. Salida de Godot:\n" + "\n".join(lineas[-30:]), "revisar")
     return r.returncode
 
 
@@ -325,7 +342,12 @@ def main() -> int:
                            capture_output=True, text=True, timeout=600)
         malas = [l for l in (r.stdout + r.stderr).splitlines() if "ERROR" in l or "[prueba]" in l]
         print("\n".join(malas[-30:]))
-        return 0 if "TERMINADA sin cortes" in r.stdout and not any("ERROR" in l for l in malas) else 1
+        bien = "TERMINADA sin cortes" in r.stdout and not any("ERROR" in l for l in malas)
+        if not bien:
+            todo = (r.stdout + r.stderr).splitlines()
+            anotar(f"Código de salida {r.returncode}. Errores:\n" + "\n".join(malas[-20:])
+                   + "\n--- final de la salida:\n" + "\n".join(todo[-15:]), "prueba")
+        return 0 if bien else 1
     sesion = elegir(proyecto, a)
     if orden == "captura":
         return orden_captura(sesion, resto)
