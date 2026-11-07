@@ -1434,14 +1434,16 @@
         {
           "anio": 2,
           "poblacion": 59594978,
-          "fuente": "Hanshu (Libro de Han), cap. 28B «Dilizhi»; edición de Bielenstein, «The census of China during the period 2-742 A.D.» (1947)",
-          "nota": "Censo registrado del año 2 d. C. en todo el imperio Han, incluidas zonas fuera de esta región; el registro es incompleto."
+          "fuente": "Hanshu (Libro de Han), cap. 28B «Dilizhi»; Bielenstein, «The census of China during the period 2-742 A.D.» (1947); Nishijima, en The Cambridge History of China, vol. 1 (1986), pp. 595-596",
+          "nota": "Censo del año 2 d. C. en todo el imperio Han, incluidas zonas fuera de esta región. 59 594 978 es el total que da el Hanshu; sumando sus comandancias se llega a 57 671 400 personas en 12 366 470 hogares, la cifra que usan Bielenstein y Nishijima. Es población registrada: Ge Jianxiong estima que la real superaba los 65 millones.",
+          "min": 57671400,
+          "max": 59594978
         },
         {
           "anio": 140,
           "poblacion": 49150220,
-          "fuente": "Hou Hanshu (Libro de los Han Posteriores), «Junguo zhi»; Bielenstein (1947)",
-          "nota": "Censo registrado del año 140 d. C. en todo el imperio."
+          "fuente": "Sima Biao, «Junguo zhi» (Tratado de comandancias y reinos), incluido en el Hou Hanshu; Bielenstein (1947)",
+          "nota": "Censo del año 140 d. C. en todo el imperio: 9 698 630 hogares y 49 150 220 personas, según el texto del «Junguo zhi». Nishijima (1986) lo redondea en unos 48 millones y advierte que la baja respecto del año 2 refleja sobre todo personas sin registrar, no una caída real."
         }
       ],
       "religiones": [

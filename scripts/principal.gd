@@ -351,6 +351,13 @@ func _prueba_automatica() -> void:
 		if i > 300:
 			break
 	paso.call("historias de unidades")
+	# Los 33 estados que Cliopatria trae dos veces («X» y «(X)») quedan unificados en uno.
+	if DatosMapa.unificada.size() < 30:
+		push_error("[prueba] se unificaron solo %d entidades duplicadas" % DatosMapa.unificada.size())
+	for j in DatosMapa.unificada:
+		if DatosMapa.ev_despues.has(j) or DatosMapa.ev_antes.has(j) or not DatosMapa.buscar_entidades(DatosMapa.nombre_entidad(j), 50).all(func(i): return i != j):
+			push_error("[prueba] la entidad duplicada %s sigue apareciendo" % DatosMapa.entidades[j]["n"])
+	paso.call("%d entidades duplicadas unificadas" % DatosMapa.unificada.size())
 	interfaz.ajustes.abrir()
 	await get_tree().process_frame
 	for cal in ["baja", "media", "ultra", "alta"]:

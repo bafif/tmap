@@ -1,0 +1,21 @@
+{
+ "descripcion": "Correcciones revisadas a mano de los datos de Cliopatria que usa el mapa: enlaces a Wikipedia (w) y Wikidata (d) equivocados. DatosMapa las aplica al cargar. Los nombres en español están en nombres_es.json.",
+ "entidades": {
+  "Great Yuan": {
+   "w": "Dayuan",
+   "d": "Q1179260",
+   "por_que": "Cliopatria la enlaza a la dinastía Yuan (1271-1368), pero la entidad va de 110 a. C. a 50 d. C. en el valle de Ferganá: es Dayuan («Gran Yuan» en las fuentes chinas), el reino que conocieron los Han."
+  },
+  "Michoacán": {
+   "w": "Purépecha Empire",
+   "d": "Q2605410",
+   "por_que": "Cliopatria la enlaza al estado mexicano actual, pero la entidad va de 1305 a 1533: es el Imperio purépecha (o tarasco)."
+  },
+  "Hashemite Arab Federation": {
+   "por_que": "El nombre es el de la federación de Irak y Jordania de 1958, pero la entidad va de 1415 a 1439 en el centro de Irak y Cliopatria la enlaza a la región histórica «Irak árabe»: se muestra con ese nombre. Los enlaces quedan como están."
+  },
+  "Wihtgar": {
+   "por_que": "Wihtgar es el nombre de un rey legendario; la entidad (523-691) es el reino juto de la isla de Wight (Wihtwara), al que ya apuntan sus enlaces. Se muestra como «Reino de la isla de Wight»."
+  }
+ }
+}

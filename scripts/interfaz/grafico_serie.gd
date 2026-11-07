@@ -41,15 +41,22 @@ func _draw() -> void:
 	var c := TemaUI.color("acento")
 	var suave := TemaUI.color("texto_suave")
 	draw_rect(Rect2(Vector2.ZERO, size), Color(TemaUI.color("fondo2"), 0.6))
-	# Banda de incertidumbre
-	var banda := PackedVector2Array()
-	for d in datos:
-		banda.append(px.call(float(d["anio"]), log(float(d.get("max", d["poblacion"])))))
-	for i in range(datos.size() - 1, -1, -1):
-		var d: Dictionary = datos[i]
-		banda.append(px.call(float(d["anio"]), log(float(d.get("min", d["poblacion"])))))
-	if banda.size() >= 3:
-		draw_colored_polygon(banda, Color(c, 0.18))
+	# Banda de incertidumbre, de a tramos entre estimaciones: una estimación sin rango la cierra en un punto, y un solo
+	# polígono que se toca a sí mismo no se puede triangular.
+	for i in datos.size() - 1:
+		var tramo := PackedVector2Array()
+		for par in [[datos[i], "max"], [datos[i + 1], "max"], [datos[i + 1], "min"], [datos[i], "min"]]:
+			var d: Dictionary = par[0]
+			var p: Vector2 = px.call(float(d["anio"]), log(float(d.get(par[1], d["poblacion"]))))
+			if tramo.is_empty() or not tramo[tramo.size() - 1].is_equal_approx(p):
+				tramo.append(p)
+		if tramo.size() > 3 and tramo[0].is_equal_approx(tramo[tramo.size() - 1]):
+			tramo.remove_at(tramo.size() - 1)
+		var doble_area := 0.0
+		for k in tramo.size():
+			doble_area += tramo[k].cross(tramo[(k + 1) % tramo.size()])
+		if tramo.size() >= 3 and absf(doble_area) > 1.0:
+			draw_colored_polygon(tramo, Color(c, 0.18))
 	var linea := PackedVector2Array()
 	for d in datos:
 		linea.append(px.call(float(d["anio"]), log(float(d["poblacion"]))))

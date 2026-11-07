@@ -46,6 +46,8 @@ var _paleta_politica := PackedColorArray()
 var wikidata_es := {}
 ## Nombre de Cliopatria → nombre en español revisado a mano.
 var nombres_revisados := {}
+## Entidad duplicada → la entidad con la que se unificó (ver _unificar_duplicados).
+var unificada := {}
 var _territorios := {}
 var _historias := {}
 var error := ""
@@ -90,6 +92,8 @@ func cargar() -> bool:
 	for f in meta["fotos"]:
 		fotos.append({"evento": int(f["evento"]), "datos": _parte(crudo, partes, f["parte"]).to_int32_array()})
 	crudo = PackedByteArray()
+	_corregir_entidades(_leer_json(DIR + "correcciones.json"))
+	_unificar_duplicados()
 
 	await _paso("Leyendo las unidades del mapa…", 0.2)
 	comp = FileAccess.get_file_as_bytes(DIR + "unidades.bin")
@@ -277,9 +281,11 @@ func historia_de_unidad(u: int) -> Array:
 	var tramos: Array = []
 	var k := ev_unidad.find(u)
 	while k != -1:
-		if tramos.size() > 0:
-			tramos[-1]["hasta"] = Fechas.sumar(ev_anio[k], -1)
-		tramos.append({"desde": ev_anio[k], "hasta": Estado.ANIO_MAX, "entidad": ev_despues[k]})
+		# Un cambio a la misma entidad (pasa con las unificadas) no abre un tramo nuevo.
+		if tramos.is_empty() or tramos[-1]["entidad"] != ev_despues[k]:
+			if tramos.size() > 0:
+				tramos[-1]["hasta"] = Fechas.sumar(ev_anio[k], -1)
+			tramos.append({"desde": ev_anio[k], "hasta": Estado.ANIO_MAX, "entidad": ev_despues[k]})
 		k = ev_unidad.find(u, k + 1)
 	_historias[u] = tramos.filter(func(t): return t["entidad"] >= 0)
 	return _historias[u]
@@ -375,6 +381,8 @@ func buscar_entidades(texto: String, max_res := 8) -> Array:
 	var t := texto.to_lower()
 	var out: Array = []
 	for i in entidades.size():
+		if unificada.has(i):
+			continue
 		var nombre := nombre_entidad(i)
 		if nombre.to_lower().contains(t) or str(entidades[i]["n"]).to_lower().contains(t):
 			out.append(i)
@@ -384,6 +392,72 @@ func buscar_entidades(texto: String, max_res := 8) -> Array:
 
 
 # ---------------------------------------------------------------------------------------------------------------
+
+
+## Correcciones revisadas a mano (data/mapa/correcciones.json): enlaces a Wikipedia (w) y Wikidata (d) que Cliopatria
+## trae equivocados. Los nombres en español están en nombres_es.json.
+func _corregir_entidades(c: Variant) -> void:
+	if not c is Dictionary:
+		return
+	var cambios: Dictionary = c.get("entidades", {})
+	for e in entidades:
+		var n := str(e["n"])
+		if cambios.has(n):
+			for k in ["w", "d"]:
+				if cambios[n].has(k):
+					e[k] = cambios[n][k]
+
+
+## Cliopatria trae 33 estados dos veces, «X» y «(X)», con el mismo Wikidata: la versión entre paréntesis es el
+## conjunto, y la otra dice ser parte de ella. En el mapa salían como dos entidades con el mismo nombre, distinto color
+## y una frontera entre las dos. Se unifican en la de paréntesis, con los años de ambas; cuando las etiquetas de las
+## dos se superponen en el tiempo, queda la más larga.
+func _unificar_duplicados() -> void:
+	unificada.clear()
+	var por_nombre := {}
+	for i in entidades.size():
+		por_nombre[str(entidades[i]["n"])] = i
+	for i in entidades.size():
+		var n := str(entidades[i]["n"])
+		if not (n.begins_with("(") and n.ends_with(")")):
+			continue
+		var j: int = por_nombre.get(n.substr(1, n.length() - 2), -1)
+		if j < 0 or entidades[j]["d"] != entidades[i]["d"]:
+			continue
+		unificada[j] = i
+		entidades[i]["a"] = mini(int(entidades[i]["a"]), int(entidades[j]["a"]))
+		entidades[i]["b"] = maxi(int(entidades[i]["b"]), int(entidades[j]["b"]))
+		ev_antes = _reemplazado(ev_antes, j, i)
+		ev_despues = _reemplazado(ev_despues, j, i)
+		for f in fotos:
+			f["datos"] = _reemplazado(f["datos"], j, i)
+	if unificada.is_empty():
+		return
+	var de_entidad := {}
+	for e in etiquetas:
+		if unificada.has(int(e[2])):
+			e[2] = unificada[int(e[2])]
+		if unificada.values().has(int(e[2])):
+			if not de_entidad.has(int(e[2])):
+				de_entidad[int(e[2])] = []
+			de_entidad[int(e[2])].append(e)
+	var sobran := {}
+	for lista in de_entidad.values():
+		for e in lista:
+			for otra in lista:
+				if otra != e and float(otra[6]) > float(e[6]) and int(otra[0]) <= int(e[0]) and int(e[1]) <= int(otra[1]):
+					sobran[e] = true
+					break
+	if not sobran.is_empty():
+		etiquetas = etiquetas.filter(func(e): return not sobran.has(e))
+
+
+static func _reemplazado(lista: PackedInt32Array, de: int, a: int) -> PackedInt32Array:
+	var k := lista.find(de)
+	while k != -1:
+		lista[k] = a
+		k = lista.find(de, k + 1)
+	return lista
 
 
 func _parte(crudo: PackedByteArray, partes: Dictionary, nombre: String) -> PackedByteArray:

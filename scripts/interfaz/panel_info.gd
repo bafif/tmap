@@ -252,7 +252,7 @@ func _pestana_resumen(ent: int, regs: Array) -> void:
 		_seccion("La entidad")
 		_parrafo("[b]%s[/b] · %s" % [DatosMapa.nombre_entidad(ent), Fechas.rango(int(e["a"]), int(e["b"]))], true)
 		if str(e.get("m", "")) != "":
-			_parrafo("Parte de: %s" % e["m"], true)
+			_parrafo("Parte de: %s" % DatosMapa.nombres_revisados.get(e["m"], str(e["m"]).trim_prefix("(").trim_suffix(")")), true)
 		var ficha := _boton_texto("Ficha de la entidad: territorio, lugares y fuentes", "ir")
 		ficha.icon = IconosUI.muestra(DatosMapa.color_entidad(ent))
 		ficha.pressed.connect(func(): Estado.pedir_ficha("entidad", ent))

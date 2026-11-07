@@ -177,12 +177,36 @@
       ],
       "demografia": [
         {
+          "anio": -3000,
+          "poblacion": 870000,
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
+          "nota": "Hacia la unificación. Bruce Trigger propone cerca de 2 millones."
+        },
+        {
+          "anio": -2500,
+          "poblacion": 1600000,
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
+          "nota": "Fines del Reino Antiguo."
+        },
+        {
+          "anio": -1800,
+          "poblacion": 2000000,
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
+          "nota": "Reino Medio, con más cultivo en el Fayum y el Delta."
+        },
+        {
           "anio": -1250,
-          "poblacion": 3000000,
-          "min": 2500000,
+          "poblacion": 2900000,
+          "min": 2900000,
           "max": 3500000,
-          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt",
-          "nota": "Reconstrucción por la proporción entre población urbana y rural; otros autores proponen cifras distintas, y las citas secundarias de Butzer no coinciden del todo."
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
+          "nota": "Época ramésida. Por la proporción entre población urbana y total (1 a 7), el mismo Butzer llega a 3 a 3,5 millones; Barry Kemp propone 4 a 5 millones."
+        },
+        {
+          "anio": -150,
+          "poblacion": 4900000,
+          "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
+          "nota": "Época ptolemaica. Las cifras basadas en el impuesto por persona y en los autores clásicos dan más, hasta unos 7,5 millones."
         },
         {
           "anio": -60,
