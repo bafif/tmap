@@ -260,8 +260,8 @@ func abrir(tipo := "", id := "") -> void:
 		_mensaje("Las fichas de tipo «%s» no se editan acá." % tipo)
 		return
 	_cambiar_seccion(seccion, id)
-	if not Edicion.puede_escribir():
-		_mensaje("Esta es una versión exportada: podés mirar, pero para guardar hay que abrir TellMAP desde el código fuente.")
+	if Edicion.guardar_local:
+		_mensaje("Lo que guardes queda en tu carpeta de usuario (%s) y tapa a los datos que trae el programa. Para sumarlo al proyecto, mandá esos archivos." % ProjectSettings.globalize_path(Edicion.DIR_LOCAL))
 
 
 func cerrar() -> void:
@@ -886,7 +886,7 @@ func _al_cambiar() -> void:
 
 func _actualizar_botones() -> void:
 	var sucio := esta_sucio()
-	_boton_guardar.disabled = not (sucio or _id_original == "") or not Edicion.puede_escribir()
+	_boton_guardar.disabled = not (sucio or _id_original == "")
 	_boton_descartar.disabled = not sucio
 
 
@@ -1074,7 +1074,7 @@ func _mostrar_borrador(ruta: String) -> void:
 	var aprobar := Button.new()
 	aprobar.text = "Aprobar"
 	aprobar.disabled = true
-	revise.toggled.connect(func(b: bool): aprobar.disabled = not b or not val["errores"].is_empty() or not Edicion.puede_escribir())
+	revise.toggled.connect(func(b: bool): aprobar.disabled = not b or not val["errores"].is_empty())
 	aprobar.pressed.connect(func():
 		var err := Edicion.aprobar_borrador(ruta, str(destino.get_item_metadata(destino.selected)), nota.text.strip_edges())
 		if err != "":

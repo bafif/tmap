@@ -1,8 +1,9 @@
 class_name Edicion
 ## Escribir la enciclopedia desde la app: leer y guardar paquetes sin cambiar su formato, validar un elemento antes de
 ## guardarlo, armar el área de estudio de una región con el territorio de una entidad y aprobar o descartar borradores
-## (docs/es/enciclopedia.md). Solo escribe cuando la app corre desde el código fuente (con el editor de Godot o
-## `godot --path .`): en una versión exportada los paquetes son de solo lectura.
+## (docs/es/enciclopedia.md). Desde el código fuente (con el editor de Godot o `godot --path .`) escribe en los paquetes
+## del proyecto; en una versión exportada, donde esos paquetes van dentro del ejecutable y son de solo lectura, guarda
+## copias en la carpeta del usuario (DIR_LOCAL) que tapan a las de adentro.
 
 ## Secciones que se editan con formularios ↔ tipo de ficha.
 const SECCION_DE_TIPO := {"fuente": "fuentes", "persona": "personas", "hecho": "hechos", "lugar": "lugares", "region": "regiones"}
@@ -18,16 +19,30 @@ const CONFIANZAS := ["alta", "media", "baja"]
 ## paquete leído y vuelto a escribir sale idéntico, byte por byte, y el diff muestra solo lo que se cambió.
 const CLAVES_DECIMALES := ["lon", "lat"]
 
+## Lo que se edita en una versión exportada: copias de los paquetes, con las mismas rutas que en data/enciclopedia/.
+const DIR_LOCAL := "user://enciclopedia/"
+const DIR_ENCICLOPEDIA := "res://data/enciclopedia/"
+## Si se guarda en DIR_LOCAL en vez de en el proyecto: cuando la app no corre desde la carpeta del código fuente.
+static var guardar_local := not FileAccess.file_exists(ProjectSettings.globalize_path("res://project.godot"))
 ## Carpeta de los borradores (las pruebas la cambian por una en user://).
-static var dir_borradores := "res://data/enciclopedia/paquetes/borradores/"
+static var dir_borradores := (DIR_LOCAL if guardar_local else DIR_ENCICLOPEDIA) + "paquetes/borradores/"
 ## Carpeta de los paquetes (ídem).
 static var dir_paquetes := "res://data/enciclopedia/paquetes/"
 ## Última ruta escrita (o que se habría escrito con Estado.sin_escribir), para las pruebas.
 static var ultima_escritura := ""
 
 
-static func puede_escribir() -> bool:
-	return not OS.has_feature("template")
+## Dónde se guarda un archivo de la enciclopedia: en el proyecto o, en una versión exportada, en su copia local.
+static func destino(ruta: String) -> String:
+	if guardar_local and ruta.begins_with(DIR_ENCICLOPEDIA):
+		return DIR_LOCAL + ruta.trim_prefix(DIR_ENCICLOPEDIA)
+	return ruta
+
+
+## De dónde se lee un archivo de la enciclopedia: la copia local si la versión exportada ya guardó una.
+static func para_leer(ruta: String) -> String:
+	var local := destino(ruta)
+	return local if local != ruta and FileAccess.file_exists(local) else ruta
 
 
 ## El JSON de un paquete con el formato de siempre (sangría de 2 espacios, claves en su orden, sin los campos internos
@@ -54,6 +69,7 @@ static func _preparar(v: Variant, clave: String, en_poligono: bool) -> Variant:
 
 
 static func leer(ruta: String) -> Dictionary:
+	ruta = para_leer(ruta)
 	if not FileAccess.file_exists(ruta):
 		return {}
 	var d: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
@@ -61,8 +77,7 @@ static func leer(ruta: String) -> Dictionary:
 
 
 static func escribir(ruta: String, datos: Dictionary) -> String:
-	if not puede_escribir():
-		return "Esta copia de TellMAP es una versión exportada: la enciclopedia se edita abriendo el proyecto desde el código fuente."
+	ruta = destino(ruta)
 	var texto := a_json(datos)
 	ultima_escritura = ruta
 	if Estado.sin_escribir:
@@ -77,6 +92,9 @@ static func escribir(ruta: String, datos: Dictionary) -> String:
 
 
 static func borrar(ruta: String) -> String:
+	ruta = para_leer(ruta)
+	if ruta.begins_with("res://") and guardar_local:
+		return "Ese archivo viene dentro del programa y no se puede borrar."
 	ultima_escritura = ruta
 	if Estado.sin_escribir:
 		return ""

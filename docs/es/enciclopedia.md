@@ -77,8 +77,10 @@ hecho, lugar o región:
 - **El mismo formato**: guarda en el JSON del paquete de cada elemento, o en el que se elija para uno nuevo, sin cambiar
   nada más del archivo. Al guardar, el mapa y las fichas se actualizan solos.
 
-Escribe en los archivos del proyecto, así que funciona cuando TellMAP se abre desde el código fuente (con Godot); en
-una versión exportada se puede mirar, pero no guardar. Las regiones se editan en sus datos principales, su área y sus
+Desde el código fuente (con Godot) escribe en los archivos del proyecto. En una versión exportada, donde los paquetes
+van dentro del ejecutable, guarda copias en la carpeta del usuario (`user://enciclopedia/`; en Windows,
+`%APPDATA%\Godot\app_userdata\TellMAP\enciclopedia\`) que tapan a los de adentro: para sumar esos cambios al proyecto,
+se mandan esos archivos. Las regiones se editan en sus datos principales, su área y sus
 eras; religiones, culturas, idiomas y demografía todavía se cargan a mano en el JSON.
 
 ## Reglas editoriales

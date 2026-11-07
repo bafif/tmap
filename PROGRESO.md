@@ -93,6 +93,9 @@ hacerlo:
       se podía triangular) y «Parte de» muestra el nombre en español.
 - [x] La prueba automática abre los 271 elementos de la enciclopedia en el editor y comprueba que no cambian, guarda,
       aprueba un borrador y prueba el clic en el mapa; el recorrido suma cinco escenarios del editor (548 controles).
+- [x] **El editor también guarda en la versión exportada**: como los paquetes van dentro del ejecutable, guarda copias
+      en la carpeta del usuario que tapan a los de adentro.
+- [x] **Versión 0.3.0 exportada** para Windows y Linux, con los datos dentro del ejecutable (un solo archivo).
 
 ### 6 de noviembre de 2026: enciclopedia progresiva (0.3)
 

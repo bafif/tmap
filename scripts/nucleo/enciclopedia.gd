@@ -42,7 +42,8 @@ func cargar() -> void:
 	var archivos := Array(DirAccess.get_files_at(DIR)).filter(func(f): return f.ends_with(".json"))
 	archivos.sort()
 	for nombre in archivos:
-		var datos: Variant = JSON.parse_string(FileAccess.get_file_as_string(DIR + nombre))
+		# En una versión exportada, lo editado en el editor queda en una copia local que tapa al paquete de adentro.
+		var datos: Variant = JSON.parse_string(FileAccess.get_file_as_string(Edicion.para_leer(DIR + nombre)))
 		if not datos is Dictionary:
 			advertencias.append("No se pudo leer %s" % nombre)
 			continue

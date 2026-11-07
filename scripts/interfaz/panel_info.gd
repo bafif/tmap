@@ -450,7 +450,7 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 			_ficha_region(el)
 		"familia":
 			_ficha_familia(el)
-	if Edicion.puede_escribir() and Edicion.SECCION_DE_TIPO.has(tipo):
+	if Edicion.SECCION_DE_TIPO.has(tipo):
 		var editar := _boton_texto("Editar esta ficha", "editar")
 		editar.tooltip_text = "Abrir en el editor de la enciclopedia"
 		editar.pressed.connect(func(): Estado.editor_pedido.emit(tipo, str(id)))

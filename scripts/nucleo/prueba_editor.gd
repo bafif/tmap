@@ -62,7 +62,10 @@ func correr(interfaz: Interfaz) -> String:
 	# 4. Guardar cambia solo lo editado, y lo nuevo se agrega al final.
 	var origen: String = Enciclopedia.hechos.values()[0]["_archivo"]
 	var copia := DIR + origen.get_file()
-	DirAccess.copy_absolute(ProjectSettings.globalize_path(origen), ProjectSettings.globalize_path(copia))
+	# Con FileAccess y no DirAccess.copy_absolute: en una versión exportada el paquete está dentro del ejecutable.
+	var f_copia := FileAccess.open(copia, FileAccess.WRITE)
+	f_copia.store_string(FileAccess.get_file_as_string(origen))
+	f_copia.close()
 	var esperado := Edicion.leer(origen)
 	var editado := _limpio(Enciclopedia.hechos.values()[0])
 	editado["resumen"] = "Resumen cambiado por la prueba."
@@ -107,7 +110,31 @@ func correr(interfaz: Interfaz) -> String:
 	Edicion.dir_borradores = antes
 	ed._vaciar()
 
-	# 6. Con «Elegir en el mapa», el clic pone las coordenadas y no selecciona.
+	# 6. En una versión exportada se guarda una copia en la carpeta del usuario, que tapa al paquete de adentro sin
+	# tocarlo. Si ya había una copia local (cambios de quien usa la app), se respeta y se repone.
+	var local_antes := Edicion.guardar_local
+	Edicion.guardar_local = true
+	var archivo: String = Enciclopedia.hechos.values()[0]["_archivo"]
+	var local := Edicion.destino(archivo)
+	var previa := FileAccess.get_file_as_string(local) if FileAccess.file_exists(local) else ""
+	var original := FileAccess.get_file_as_string(archivo)
+	var cambio := _limpio(Enciclopedia.hechos.values()[0])
+	cambio["resumen"] = "Cambio local de la prueba."
+	err = Edicion.guardar(archivo, "hechos", cambio, cambio["id"])
+	Enciclopedia.cargar()
+	var tapa: bool = Enciclopedia.hechos.get(cambio["id"], {}).get("resumen") == cambio["resumen"]
+	if err != "" or not FileAccess.file_exists(local) or not tapa or FileAccess.get_file_as_string(archivo) != original:
+		_falla("en modo exportado, guardar no dejó una copia local que tape al paquete (%s)" % err)
+	if previa != "":
+		var f := FileAccess.open(local, FileAccess.WRITE)
+		f.store_string(previa)
+		f.close()
+	else:
+		DirAccess.remove_absolute(ProjectSettings.globalize_path(local))
+	Edicion.guardar_local = local_antes
+	Enciclopedia.cargar()
+
+	# 7. Con «Elegir en el mapa», el clic pone las coordenadas y no selecciona.
 	var recibido: Array = []
 	Estado.seleccionar_lugar(0, Vector2.ZERO)
 	Estado.captura_punto = func(ll: Vector2): recibido.append(ll)
