@@ -19,11 +19,13 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
       muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
-- [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El modo OpenGL
+- [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El `.exe` de la 0.3.0 ya pasó
+      `--verificar` y la prueba completa con wine; falta un Windows de verdad. El modo OpenGL
       (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
-- [ ] **Publicar la primera versión con ejecutables.** Crear la versión 0.2 en GitHub: el workflow
-      `version.yml` exporta Linux y Windows, comprueba el de Linux con `--verificar` y sube los zip. No se pudo probar
-      acá porque no hay plantillas de exportación instaladas; el `.pck` sí se exportó y pasó la prueba completa.
+- [ ] **Publicar la versión 0.3.0 con ejecutables.** Los zips de Windows y Linux ya están exportados con las
+      plantillas oficiales de Godot 4.7.2, con los datos dentro del ejecutable, y pasaron la prueba completa (Linux
+      nativo, Windows con wine). Falta crear la versión v0.3.0 en GitHub y subirlos; al publicarla, el workflow
+      `version.yml` los vuelve a exportar y los reemplaza (va a ser su primera corrida).
 
 ### Enciclopedia progresiva (0.3)
 
