@@ -27,16 +27,14 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Enciclopedia progresiva (0.3)
 
-- [ ] **Editor de la enciclopedia dentro de Godot**, para cargar fuentes, personas, hechos y lugares con
-      formularios, poner coordenadas con un clic en el mapa y validar al guardar, sin tocar JSON.
+Lo que pedía la hoja de ruta quedó hecho el 7 de noviembre de 2026 (ver **Hecho**). Quedan dos tareas que surgieron al
+hacerlo:
 
-- [ ] **Borradores desde Wikipedia y Wikidata.** Automáticos, para lo más consultado.
-- [ ] **Fichas extendidas con IA.** Que citen sus fuentes, siempre con revisión humana antes de publicarse.
-- [ ] **Revisar los datos dudosos:**
-  - la cifra de Butzer para Egipto en 1250 a. C., reconstruida desde resúmenes;
-  - los censos Han de 2 y 140 d. C., cargados de memoria;
-  - nombres poco seguros: Gran Yuan, Federación Árabe Hachemita, Wihtgar, Michoacán como Imperio tarasco;
-  - unos 35 pares de nombres duplicados para la misma entidad, con y sin paréntesis.
+- [ ] **Primera corrida real de `redactar.py`.** La verificación (citas, cifras, enlaces) se probó con una respuesta
+      guardada; falta correrlo contra la API con una credencial, sobre un borrador real, y revisar el resultado en el
+      editor. Lo decide y lo paga quien lo corre.
+- [ ] **Religiones, culturas, idiomas y demografía en el editor.** Hoy el editor cubre los datos principales, el área y
+      las eras de las regiones; esas cuatro listas todavía se cargan a mano en el JSON.
 
 ### Datos abiertos a escala (0.4)
 
@@ -62,6 +60,39 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 7 de noviembre de 2026: enciclopedia progresiva (0.3)
+
+- [x] **Editor de la enciclopedia dentro de la app** (Ajustes, o «Editar esta ficha» en cada ficha): formularios para
+      fuentes, personas, hechos, lugares y regiones, coordenadas con un clic en el mapa, validación al guardar (año 0,
+      rangos, ids y referencias, campos cerrados) y el mismo formato JSON: un paquete leído y vuelto a escribir sale
+      idéntico, así el diff muestra solo lo cambiado. Al guardar, el mapa y las fichas se actualizan solos.
+- [x] **Borradores desde Wikipedia y Wikidata** (`tools/enciclopedia/borradores.py`): para lo más consultado sin
+      ficha, la capital, las personas clave (cargos de la entidad y las más conocidas de su época), los hechos fechados
+      y el artículo de Wikipedia por secciones, en el formato del esquema. Probado con el Imperio otomano: 8 personas
+      (Solimán, Mehmed II, Osmán I…), 10 hechos, 5 capitales y 19 secciones.
+- [x] **Fichas extendidas con IA** (`tools/enciclopedia/redactar.py`): Claude redacta la historia por secciones citando
+      las fuentes numeradas del borrador; se descartan los párrafos sin cita válida, se marcan los años y cifras que no
+      están en lo citado y se comprueban los enlaces que propone. La región la muestra con citas que llevan a cada
+      referencia.
+- [x] **Revisión humana**: el editor abre cada borrador, calcula su área de estudio con el territorio de Cliopatria,
+      muestra los avisos de la verificación y solo lo aprueba con «Revisé cada dato…»; los elementos pasan a un paquete
+      con la fecha y la nota de la revisión. `validar.py` no deja publicar una ficha de IA sin revisión y, con
+      `--borradores`, valida también los borradores.
+- [x] **Datos dudosos revisados:**
+  - Butzer (1976) estima 2,9 millones para Egipto hacia 1250 a. C. por capacidad de carga (3 a 3,5 por su método
+    urbano; Kemp, 4 a 5): corregido y sumada su serie de 3000, 2500, 1800 y 150 a. C., según el resumen de Snape;
+  - censos Han comprobados con el texto chino: el del año 2 con sus dos lecturas (59 594 978 del Hanshu, 57 671 400
+    por comandancias) y el del 140 con 9 698 630 hogares y 49 150 220 personas;
+  - nombres: «Hashemite Arab Federation» (1415-1439) es el Irak árabe, «Michoacán» (1305-1533) el Imperio purépecha,
+    «Wihtgar» el reino de la isla de Wight y «Great Yuan» es Dayuan, que enlazaba a la dinastía Yuan
+    (`data/mapa/correcciones.json` guarda los enlaces corregidos y el porqué);
+  - los 33 estados que Cliopatria trae dos veces («X» y «(X)», mismo Wikidata) se unifican al cargar: un nombre, un
+    color y sin frontera interna.
+- [x] Arreglado: el gráfico de población dibuja la banda de incertidumbre por tramos (con una estimación sin rango no
+      se podía triangular) y «Parte de» muestra el nombre en español.
+- [x] La prueba automática abre los 271 elementos de la enciclopedia en el editor y comprueba que no cambian, guarda,
+      aprueba un borrador y prueba el clic en el mapa; el recorrido suma cinco escenarios del editor (548 controles).
 
 ### 6 de noviembre de 2026: enciclopedia progresiva (0.3)
 

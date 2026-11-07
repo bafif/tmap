@@ -66,9 +66,10 @@ runs well from an old laptop to a gaming PC.
   known is said to be unknown.
 - **The look of grand-strategy maps.** Hillshaded relief, rivers, nautical-chart coastlines, names that curve across
   the land, and three interface themes: Marble & Bronze, Illuminated Parchment, and Ink & Brass.
-- **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages. Today it ships a full pilot
-  on ancient Egypt and a sample of eleven regions; the rest is filled in stages, when needed, from Wikipedia, Wikidata
-  and AI that always cites its sources.
+- **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
+  the app. Today it ships a full pilot on ancient Egypt and a sample of eleven regions; the rest is filled in stages,
+  most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
+  human review.
 - **No accounts, no telemetry.** It runs on your computer. The only thing that goes online is the Wikipedia lookup when
   you open an entry, and it is cached.
 

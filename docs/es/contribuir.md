@@ -10,8 +10,11 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
 - No existe el año 0: los años negativos son a. C. Usar `Fechas` (`scripts/nucleo/fechas.gd`) para mostrar y sumar.
 - Para anclar un Control que ya está en el árbol, usar `set_anchors_and_offsets_preset()`: `set_anchors_preset()`
   conserva el rectángulo y deja controles de tamaño cero.
-- `data/mapa/` lo genera `tools/pipeline/` (Python): no se edita a mano. La enciclopedia se valida con
-  `python3 tools/enciclopedia/validar.py`, y lo que no está seguro se marca en vez de inventarlo.
+- `data/mapa/` lo genera `tools/pipeline/` (Python): no se edita a mano, salvo `nombres_es.json` y
+  `correcciones.json`, que son revisiones a mano. La enciclopedia se edita con el editor de la app o a mano, se valida
+  con `python3 tools/enciclopedia/validar.py`, y lo que no está seguro se marca en vez de inventarlo.
+- Lo que el editor de la enciclopedia escribe pasa por `Edicion` (`scripts/nucleo/edicion.gd`): conserva el formato de
+  los JSON y no escribe nada mientras corre el recorrido de la interfaz (`Estado.sin_escribir`).
 - Una clase nueva con `class_name` no necesita abrir el editor: al arrancar, la app importa el proyecto sola si falta
   registrarla (`scripts/nucleo/arranque.gd`).
 - Antes de usar una API de Godot que no está ya en el código, chequear la firma con `tools/godot/tmap.py doc`.

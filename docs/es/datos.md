@@ -41,6 +41,10 @@ Ver [tools/pipeline/README.md](../../tools/pipeline/README.md) para correrlo. En
    para entidades muy conocidas, como Roma o Egipto).
 3. **Wikidata** (`p3_wikidata.py`): títulos de Wikipedia en español para las entidades.
 4. **Nombres en español** (`data/mapa/nombres_es.json`): revisados para el mapa; se editan a mano.
+5. **Correcciones** (`data/mapa/correcciones.json`): enlaces a Wikipedia y Wikidata que Cliopatria trae equivocados,
+   revisados a mano, con el porqué de cada uno; la app los aplica al cargar. Al cargar también se unifican los 33
+   estados que Cliopatria trae dos veces, «X» y «(X)», con el mismo Wikidata: la versión entre paréntesis es el
+   conjunto y la otra dice ser parte de ella, así que se muestran como una sola entidad.
 
 ## Limitaciones que conviene conocer
 

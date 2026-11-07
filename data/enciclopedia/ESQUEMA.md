@@ -4,6 +4,9 @@ La enciclopedia vive en archivos JSON (UTF-8, sangría de 2 espacios) dentro de 
 paquete es un archivo independiente (`egipto.json`, `mundo.json`…) y el programa los junta al arrancar. Si dos
 paquetes traen el mismo `id` en la misma sección, gana el primero en orden alfabético y se avisa en la consola.
 
+Se pueden editar a mano o con el editor de la app (Ajustes → «Abrir el editor de la enciclopedia», o «Editar esta
+ficha» en cada ficha), que guarda con este mismo formato: un paquete leído y vuelto a escribir sale idéntico.
+
 Todo el texto va en **español** (rioplatense neutro, con tildes), breve y verificable. Nada inventado: si una fecha o un
 dato no es seguro, se marca `"aprox": true` y `"confianza": "baja"`, o directamente se omite.
 
@@ -78,6 +81,25 @@ Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 
   `"tipo": "testimonio-antiguo"`: la app las muestra aparte y nunca las usa para estimar ni graficar.
 - Cualquier entrada de `eras`, `demografia`, `religiones`, `culturas` o `idiomas` puede llevar una `nota` con la
   aclaración que haga falta (incertidumbre, debates).
+- `extendida` (opcional): la ficha extendida, la historia completa por secciones (el nivel 3 de
+  [la enciclopedia](../../docs/es/enciclopedia.md)). Cada afirmación lleva en el texto la marca `[n]` de su fuente, y
+  cada sección la lista en `citas`; cada `n` está en `referencias` con su URL. Si la redactó una IA, lleva `ia`
+  (modelo y fecha) y no se publica sin `revision` (fecha y nota de quien la revisó): el validador lo exige.
+- `origen` (opcional): de qué borrador salió la región, cuándo se generó y cuándo se revisó. Lo pone el editor al
+  aprobar el borrador.
+
+```json
+"extendida": {
+  "secciones": [
+    {"titulo": "Orígenes", "texto": "El Estado otomano nació de un beylicato turco de Anatolia [1].", "citas": [1]}
+  ],
+  "referencias": [
+    {"n": 1, "titulo": "Wikipedia (es), «Imperio otomano», Introducción", "url": "https://es.wikipedia.org/wiki/Imperio_otomano"}
+  ],
+  "ia": {"modelo": "claude-opus-5-5", "fecha": "2026-11-07"},
+  "revision": {"fecha": "2026-11-08", "nota": "Revisada contra el artículo; corregida la fecha de Bursa."}
+}
+```
 
 ### `familias`
 
@@ -213,3 +235,15 @@ Ciudades, templos y sitios que aparecen en el mapa cuando existen.
 - `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`.
 - `abandono`: año en que deja de ser habitada o relevante; `null` si sigue.
 - `importancia`: 1 (local) a 3 (de primer orden). Decide desde qué zoom se ve.
+
+## Borradores
+
+`paquetes/borradores/*.json` tiene el formato de un paquete y una sección más, `borrador`: el origen (la entidad de
+Cliopatria, su Wikidata y cuántas veces se consultó), la fecha, el estado («sin revisar»), las fuentes y el artículo
+de Wikipedia por secciones, sugerencias para quien revisa y, si se redactó con IA, `ia` con los avisos de la
+verificación automática, lo que se descartó y las fuentes de lectura que propone. La app no carga los borradores: se
+revisan y se aprueban en el editor, que pasa sus elementos a un paquete. Los arman `tools/enciclopedia/borradores.py`
+y `tools/enciclopedia/redactar.py` (ver [la enciclopedia](../../docs/es/enciclopedia.md)).
+
+`python3 tools/enciclopedia/validar.py --borradores` los valida junto con los paquetes; en un borrador, la falta de
+área de estudio o de revisión es un aviso, no un error.

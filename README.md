@@ -67,9 +67,10 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
 - **La estética de los grandes mapas de estrategia.** Relieve sombreado, ríos, costas con líneas de carta náutica,
   nombres que se curvan sobre el territorio y tres temas para la interfaz: Mármol y bronce, Pergamino iluminado, y
   Tinta y latón.
-- **Hecho para crecer de a poco.** La enciclopedia son archivos JSON legibles, por paquetes. Hoy trae un piloto completo
-  sobre el antiguo Egipto y una muestra de once regiones; el resto se completa por etapas, cuando hace falta, con
-  Wikipedia, Wikidata e IA que siempre cita sus fuentes.
+- **Hecho para crecer de a poco.** La enciclopedia son archivos JSON legibles, por paquetes, que se editan con
+  formularios dentro de la app. Hoy trae un piloto completo sobre el antiguo Egipto y una muestra de once regiones; el
+  resto se completa por etapas, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
+  siempre cita sus fuentes y pasa por revisión humana.
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Lo único que sale a internet es la consulta a Wikipedia
   cuando abrís una ficha, y queda en caché.
 

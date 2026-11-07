@@ -14,6 +14,7 @@ dato dice de dónde salió.
     Mesoamérica, Andes y Río de la Plata).
 - El formato está en [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md) y se valida con
   `python3 tools/enciclopedia/validar.py`.
+- **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).
 
 ## ¿Y Grokipedia?
 
@@ -33,24 +34,52 @@ Grokipedia (un artículo largo, ordenado y legible) es la referencia de forma, n
 | 0 | Datos de Cliopatria: nombre, años y territorio | Todo el mundo |
 | 1 | Resumen de Wikipedia en vivo | Todo lo que tenga artículo |
 | 2 | Ficha curada: eras, fuentes primarias y secundarias, personas, hechos, población, religión, cultura e idioma | Egipto y la muestra mundial |
-| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada con IA desde fuentes citadas y revisada | Fase 0.3 |
+| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada con IA desde fuentes citadas y revisada | Herramientas listas (0.3); se publican a medida que se revisan |
 
-## Cómo se va a completar (fase 0.3)
+## Cómo se completa
 
-1. **Qué falta lo dice el uso.** La app ya anota (desde la 0.1) en `user://pendientes.json` lo que se abre y no tiene
-   ficha curada: la entidad, su Wikidata, el lugar, los años consultados y cuántas veces. No sale de la computadora.
-   Esa lista ordena el trabajo: primero lo que más se consulta. (En Linux, `user://` es
+1. **Qué falta lo dice el uso.** La app anota en `user://pendientes.json` lo que se abre y no tiene ficha curada: la
+   entidad, su Wikidata, el lugar, los años consultados y cuántas veces. No sale de la computadora. En Ajustes →
+   Enciclopedia se ven los más consultados y se puede copiar la cola. (En Linux, `user://` es
    `~/.local/share/godot/app_userdata/TellMAP/`.)
-2. **Borrador automático.** Un script toma unas pocas entradas de la lista, junta lo que dicen Wikipedia (el artículo
-   completo, por secciones) y Wikidata (fechas, lugares, personas relacionadas) y arma un borrador en el formato del
-   esquema.
-3. **Redacción con IA, con citas obligatorias.** Un modelo de lenguaje redacta la ficha extendida y propone fuentes
-   primarias y estudios, pero cada afirmación tiene que apuntar a una fuente del borrador y cada enlace se comprueba.
-   Lo que no se puede respaldar se descarta.
-4. **Revisión humana.** El borrador queda en `paquetes/borradores/` marcado como «generado con IA, sin revisar», y
-   solo pasa a un paquete cuando alguien lo revisa.
+2. **Borrador automático.** `python3 tools/enciclopedia/borradores.py` toma las entradas más consultadas (`-n 3` por
+   defecto; `--cola` para una cola copiada, `--wikidata Q12560` para una entidad puntual) y junta:
+   - de Wikidata, la capital con sus coordenadas, las personas clave (quienes ocuparon sus cargos y las más conocidas
+     de su época) con fechas y lugares de nacimiento y muerte, y los hechos fechados en los que participó;
+   - de Wikipedia, el resumen y el artículo completo por secciones, en español o, si no hay, en inglés;
+   - de Cliopatria, los años de la entidad.
+
+   Lo deja en `data/enciclopedia/paquetes/borradores/`, con el formato del esquema y marcado «sin revisar».
+3. **Redacción con IA, con citas obligatorias.** `python3 tools/enciclopedia/redactar.py <borrador>` le pasa a Claude
+   las fuentes del borrador numeradas (cada sección del artículo y la ficha de Wikidata) y le pide la historia por
+   secciones, citando en cada párrafo de qué fuente sale. Después, sin confiar en el modelo, descarta los párrafos sin
+   cita válida, marca para revisar los años y cifras que no aparecen en las fuentes que citan, y comprueba uno por uno
+   los enlaces de lectura que propone. Necesita el SDK (`pip install anthropic`) y una credencial de la API; cada
+   ficha cuesta del orden de 0,15 a 0,40 USD con el modelo por defecto.
+4. **Revisión humana.** En la app, Ajustes → «Abrir el editor de la enciclopedia» → Borradores: se calcula el área de
+   estudio con el territorio de Cliopatria, se abre y corrige cada elemento, se lee la ficha extendida con los avisos
+   de la verificación y, cuando todo está bien, se marca «Revisé cada dato y cada sección contra sus fuentes» y se
+   aprueba. Recién ahí los elementos pasan a un paquete, con la fecha y la nota de la revisión. Una ficha redactada
+   con IA sin revisión no pasa el validador.
 5. **De a poco y a mano.** Se corre en lotes chicos, cuando hace falta, nunca de forma desatendida: así el costo queda
    controlado y la calidad también.
+
+## El editor
+
+Desde Ajustes → «Abrir el editor de la enciclopedia», o con «Editar esta ficha» en cualquier ficha de fuente, persona,
+hecho, lugar o región:
+
+- **Formularios** para cada sección, con los campos del esquema: los años se escriben «-1274» o «1274 a. C.», las
+  listas de ids separadas por comas, y los enlaces de lectura y las eras como filas que se agregan y se quitan.
+- **Coordenadas con un clic**: «Elegir en el mapa» y el próximo clic en el mapa las pone; «Ver» lleva el mapa a ellas.
+- **Validación al guardar**: años sin año 0, coordenadas en rango, ids y referencias que existan, campos cerrados. Los
+  errores frenan el guardado; los avisos (una fuente sin lugar de escritura, por ejemplo) solo se muestran.
+- **El mismo formato**: guarda en el JSON del paquete de cada elemento, o en el que se elija para uno nuevo, sin cambiar
+  nada más del archivo. Al guardar, el mapa y las fichas se actualizan solos.
+
+Escribe en los archivos del proyecto, así que funciona cuando TellMAP se abre desde el código fuente (con Godot); en
+una versión exportada se puede mirar, pero no guardar. Las regiones se editan en sus datos principales, su área y sus
+eras; religiones, culturas, idiomas y demografía todavía se cargan a mano en el JSON.
 
 ## Reglas editoriales
 
