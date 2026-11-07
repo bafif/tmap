@@ -30,6 +30,11 @@ func correr(solo := "") -> Dictionary:
 	Estado.sin_navegador = true
 	Estado.sin_animaciones = true
 	_ajustes0 = Estado.ajustes.duplicate()
+	# El editor de la enciclopedia ve un borrador de prueba y no escribe nada mientras se lo recorre.
+	var borradores_antes := Edicion.dir_borradores
+	Edicion.dir_borradores = "user://recorrido/borradores/"
+	Edicion.escribir(Edicion.dir_borradores + "prueba.json", Edicion.borrador_de_prueba())
+	Estado.sin_escribir = true
 	var lon_lat := Vector2(31.2, 27.0)
 	var escenarios: Array = [["inicio", func(): pass]]
 	for n in PanelInfo.PESTANAS.size():
@@ -50,6 +55,21 @@ func correr(solo := "") -> Dictionary:
 	escenarios.append(["ajustes", func(): _interfaz.ajustes.abrir()])
 	escenarios.append(["ayuda", func(): _interfaz.barra.ayuda_pedida.emit()])
 	escenarios.append(["búsqueda", func(): _interfaz.barra._buscar("egip")])
+	var region_corta := "egipto"
+	for r in Enciclopedia.regiones.values():
+		if (r.get("eras", []) as Array).size() > 0 and r.get("eras").size() < Enciclopedia.regiones[region_corta]["eras"].size():
+			region_corta = r["id"]
+	for f in [["fuente", Enciclopedia.fuentes.keys()[0]], ["persona", Enciclopedia.personas.keys()[0]], ["region", region_corta]]:
+		var tipo: String = f[0]
+		var id: String = f[1]
+		escenarios.append(["editor, %s" % tipo, func(): Estado.editor_pedido.emit(tipo, id)])
+	escenarios.append(["editor, lugar nuevo", func():
+		Estado.editor_pedido.emit("lugar", "")
+		_interfaz.editor._al_nuevo()])
+	escenarios.append(["editor, borrador", func():
+		Estado.editor_pedido.emit("", "")
+		_interfaz.editor._cambiar_seccion("borradores")
+		_interfaz.editor._al_elegir(0)])
 
 	if solo != "":
 		escenarios = escenarios.filter(func(e): return str(e[0]).begins_with(solo))
@@ -76,6 +96,8 @@ func correr(solo := "") -> Dictionary:
 					perdidos -= 1
 		print("[prueba]   recorrido, %s: %d controles en %d ms" % [esc[0], tocados - antes, Time.get_ticks_msec() - t0])
 	await _preparar(func(): pass)
+	Edicion.dir_borradores = borradores_antes
+	Estado.sin_escribir = false
 	Estado.sin_navegador = false
 	Estado.sin_animaciones = false
 	Estado.fijar_modo(modo_antes)
@@ -107,6 +129,9 @@ func _preparar(escenario: Callable) -> void:
 		_interfaz.linea.alternar_reproduccion()
 	if _interfaz.ajustes.visible:
 		_interfaz.ajustes.cerrar()
+	_interfaz.editor._vaciar()
+	_interfaz.editor.cerrar()
+	Estado.captura_punto = Callable()
 	_interfaz.barra._resultados.visible = false
 	Estado.resaltar("", "leyenda")
 	Estado.seleccionar_lugar(0, Vector2.ZERO)

@@ -13,6 +13,8 @@ signal enfoque_pedido(px: Vector2, zoom: float)
 ## Cambió lo que el mapa resalta: una familia de religión, cultura o idioma («capa:id»), una entidad política
 ## («entidad:índice») o nada ("").
 signal resaltado_cambiado(clave: String)
+## Se pidió abrir el editor de la enciclopedia en un elemento (tipo y id vacíos: en la lista de fuentes).
+signal editor_pedido(tipo: String, id: String)
 signal ajustes_cambiados
 signal carga_progreso(texto: String, fraccion: float)
 signal carga_terminada
@@ -51,6 +53,11 @@ var sin_navegador := false
 ## Sin animaciones de panel ni de cámara (el recorrido las apaga para ir rápido).
 var sin_animaciones := false
 var ultima_url := ""
+## Mientras corre el recorrido, el editor de la enciclopedia no escribe ni borra archivos (ver Edicion).
+var sin_escribir := false
+## Si es válido, el próximo clic en el mapa no selecciona: le pasa las coordenadas (Vector2 lon, lat) a este Callable.
+## Lo usa el editor para poner coordenadas con un clic.
+var captura_punto := Callable()
 
 var ajustes := {
 	"vista": "2d",

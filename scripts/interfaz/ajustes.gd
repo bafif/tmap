@@ -189,6 +189,15 @@ func _construir() -> void:
 	carpeta.disabled = pend.is_empty()
 	carpeta.pressed.connect(func(): Estado.abrir_url(ProjectSettings.globalize_path("user://")))
 	fila_p.add_child(carpeta)
+	if Edicion.puede_escribir():
+		var editar := Button.new()
+		var n_borr := Edicion.borradores().size()
+		editar.text = "Abrir el editor de la enciclopedia" + ("  (%d borrador%s sin revisar)" % [n_borr, "" if n_borr == 1 else "es"] if n_borr > 0 else "")
+		editar.tooltip_text = "Cargar y corregir fuentes, personas, hechos, lugares y regiones, y revisar borradores"
+		editar.icon = IconosUI.textura("editar", 16, TemaUI.color("acento"))
+		editar.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+		editar.pressed.connect(func(): Estado.editor_pedido.emit("", ""))
+		caja.add_child(editar)
 	caja.add_child(lista)
 	for item in pend.slice(0, 8):
 		var b := Button.new()

@@ -268,6 +268,11 @@ func _pestana_resumen(ent: int, regs: Array) -> void:
 		if not era.is_empty():
 			_parrafo("[b]%s[/b] (%s). %s" % [era["nombre"], Fechas.rango(int(era["desde"]), int(era["hasta"])), era.get("resumen", "")])
 		_parrafo(str(r.get("resumen", "")))
+		if r.get("extendida") is Dictionary:
+			var rid: String = id
+			var leer := _boton_texto("Leer la historia completa de %s" % r["nombre"], "libro")
+			leer.pressed.connect(func(): Estado.pedir_ficha("region", rid))
+			_contenido.add_child(leer)
 		break
 	var escritas := Enciclopedia.fuentes_escritas(regs, Estado.anio)
 	var sobre := Enciclopedia.fuentes_sobre(regs, Estado.anio)
@@ -445,6 +450,11 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 			_ficha_region(el)
 		"familia":
 			_ficha_familia(el)
+	if Edicion.puede_escribir() and Edicion.SECCION_DE_TIPO.has(tipo):
+		var editar := _boton_texto("Editar esta ficha", "editar")
+		editar.tooltip_text = "Abrir en el editor de la enciclopedia"
+		editar.pressed.connect(func(): Estado.editor_pedido.emit(tipo, str(id)))
+		_contenido.add_child(editar)
 
 
 func _ficha_fuente(f: Dictionary) -> void:
@@ -564,6 +574,9 @@ func _ficha_region(r: Dictionary) -> void:
 	_titulo.text = r.get("nombre", "")
 	_subtitulo.text = "Región de estudio"
 	_parrafo(str(r.get("resumen", "")))
+	var ext: Variant = r.get("extendida")
+	if ext is Dictionary:
+		_ficha_extendida(ext)
 	var ir := _boton_texto("Ver en el mapa", "ir")
 	ir.pressed.connect(func():
 		var caja: Rect2 = r["_caja"]
@@ -572,6 +585,32 @@ func _ficha_region(r: Dictionary) -> void:
 		if u > 0:
 			Estado.seleccionar_lugar(u, caja.get_center()))
 	_contenido.add_child(ir)
+
+
+## La ficha extendida (nivel 3): historia por secciones, cada afirmación con su cita [n] que lleva a la referencia.
+func _ficha_extendida(ext: Dictionary) -> void:
+	var urls := {}
+	for ref in ext.get("referencias", []):
+		urls[int(ref.get("n", 0))] = str(ref.get("url", ""))
+	var cita := RegEx.create_from_string("\\[(\\d+)\\]")
+	for s in ext.get("secciones", []):
+		_seccion(str(s.get("titulo", "")))
+		# Las citas se marcan antes de escapar los corchetes del texto, y después se vuelven enlaces.
+		var texto := cita.sub(str(s.get("texto", "")), "{{cita:$1}}", true).replace("[", "[lb]")
+		for n in urls:
+			texto = texto.replace("{{cita:%d}}" % n, "[url=%s][lb]%d][/url]" % [urls[n], n])
+		_parrafo(texto.replace("{{cita:", "[lb]").replace("}}", "]"))
+	var refs: Array = []
+	for ref in ext.get("referencias", []):
+		refs.append("[lb]%s] [url=%s]%s[/url]" % [ref.get("n"), ref.get("url"), ref.get("titulo", ref.get("url"))])
+	if not refs.is_empty():
+		_seccion("Referencias")
+		_parrafo("\n".join(refs), true)
+	var ia: Variant = ext.get("ia")
+	var rev: Variant = ext.get("revision")
+	if ia is Dictionary:
+		_nota("Redactada con IA (%s) a partir de las fuentes citadas%s." % [ia.get("modelo", "?"),
+			"; revisada por una persona el %s" % rev.get("fecha") if rev is Dictionary else ", sin revisión humana todavía"])
 
 
 func _ficha_familia(f: Dictionary) -> void:

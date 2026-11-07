@@ -35,6 +35,8 @@ func cargar() -> void:
 		get(sec).clear()
 	familias.clear()
 	_cache_valores.clear()
+	# Al recargar (después de editar) puede haber regiones nuevas o con otra área.
+	_regiones_de_unidad.clear()
 	if not DirAccess.dir_exists_absolute(DIR):
 		return
 	var archivos := Array(DirAccess.get_files_at(DIR)).filter(func(f): return f.ends_with(".json"))
@@ -53,6 +55,7 @@ func cargar() -> void:
 					advertencias.append("%s: «%s» repetido en %s" % [sec, item["id"], nombre])
 					continue
 				item["_paquete"] = datos.get("paquete", nombre)
+				item["_archivo"] = DIR + nombre
 				destino[item["id"]] = item
 		for f in datos.get("familias", []):
 			if not f is Dictionary or not f.has("id") or not CAPAS.has(f.get("capa")):
@@ -69,6 +72,16 @@ func cargar() -> void:
 	_preparar_capas()
 	for a in advertencias:
 		push_warning(a)
+
+
+## Vuelve a leer los paquetes (después de editarlos) y refresca lo que se ve: mapa, marcadores y panel.
+func recargar() -> void:
+	advertencias.clear()
+	cargar()
+	Estado.anio_cambiado.emit(Estado.anio)
+	var u := Estado.unidad_seleccionada
+	if u > 0:
+		Estado.seleccionar_lugar(u, DatosMapa.centro_unidad(u))
 
 
 func _preparar_regiones() -> void:

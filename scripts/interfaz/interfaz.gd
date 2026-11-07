@@ -10,6 +10,7 @@ var panel: PanelInfo
 var leyenda: Leyenda
 var globo: GloboMapa
 var ajustes: DialogoAjustes
+var editor: EditorEnciclopedia
 
 
 func _init(v: VistaMapa) -> void:
@@ -20,6 +21,9 @@ func _init(v: VistaMapa) -> void:
 func _ready() -> void:
 	_construir()
 	vista.hover_cambiado.connect(_al_hover)
+	Estado.editor_pedido.connect(func(tipo: String, id: String):
+		ajustes.cerrar()
+		editor.abrir(tipo, id))
 	Estado.ajustes_cambiados.connect(aplicar_escala)
 	get_tree().root.size_changed.connect(func():
 		if get_tree().root.content_scale_mode != Window.CONTENT_SCALE_MODE_DISABLED:
@@ -53,6 +57,8 @@ func _construir() -> void:
 	raiz.add_child(barra)
 	globo = GloboMapa.new()
 	raiz.add_child(globo)
+	editor = EditorEnciclopedia.new()
+	raiz.add_child(editor)
 	ajustes = DialogoAjustes.new()
 	raiz.add_child(ajustes)
 	barra.ajustes_pedidos.connect(ajustes.abrir)

@@ -305,6 +305,11 @@ func _unhandled_input(ev: InputEvent) -> void:
 
 func _click(pos: Vector2) -> void:
 	var mundo := pantalla_a_mundo(pos)
+	if Estado.captura_punto.is_valid():
+		var captura := Estado.captura_punto
+		Estado.captura_punto = Callable()
+		captura.call(Proyeccion.a_lonlat(mundo))
+		return
 	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
 	if not el.is_empty() and el["tipo"] == "grupo":
 		# Un grupo de marcadores: acercarse hasta que se separen.

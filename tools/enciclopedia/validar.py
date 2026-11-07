@@ -1,10 +1,14 @@
 """Valida los paquetes de la enciclopedia (data/enciclopedia/paquetes/*.json) contra data/enciclopedia/ESQUEMA.md.
 
-Uso: python3 tools/enciclopedia/validar.py        (sale con código 1 si hay errores)
+Uso: python3 tools/enciclopedia/validar.py              (sale con código 1 si hay errores)
+     python3 tools/enciclopedia/validar.py --borradores  (también los borradores de paquetes/borradores/)
 
 Revisa: JSON válido, ids únicos entre paquetes, referencias (autor_id, obras, fuentes, regiones, padre, familia), que no
 haya año 0, coordenadas dentro de rango, polígonos de al menos tres puntos, valores permitidos en los campos cerrados y
-la sección `familias` (capa, padre sin ciclos, color).
+la sección `familias` (capa, padre sin ciclos, color) y la ficha extendida de las regiones (cada cita apunta a una
+referencia con URL, y lo redactado con IA tiene su revisión humana).
+
+Un borrador puede no tener todavía el área de estudio ni la revisión: en los borradores eso es un aviso, no un error.
 """
 
 from __future__ import annotations
@@ -43,10 +47,33 @@ def punto(d, donde):
         errores.append(f"{donde}: coordenadas fuera de rango ({d['lon']}, {d.get('lat')})")
 
 
+def extendida(ext, d, es_borrador):
+    if not isinstance(ext, dict):
+        errores.append(f"{d}: la ficha extendida no tiene el formato del esquema")
+        return
+    refs = {x.get("n") for x in ext.get("referencias", [])}
+    for x in ext.get("referencias", []):
+        if not str(x.get("url", "")).startswith(("https://", "http://")):
+            errores.append(f"{d}/extendida: la referencia {x.get('n')} no tiene URL")
+    for s in ext.get("secciones", []):
+        if not s.get("titulo") or not s.get("texto"):
+            errores.append(f"{d}/extendida: hay una sección sin título o sin texto")
+        citas = set(s.get("citas", [])) | {int(m) for m in re.findall(r"\[(\d+)\]", s.get("texto", ""))}
+        for c in sorted(citas - refs):
+            errores.append(f"{d}/extendida: «{s.get('titulo')}» cita [{c}], que no está en las referencias")
+        if not citas:
+            errores.append(f"{d}/extendida: «{s.get('titulo')}» no cita ninguna fuente")
+    if isinstance(ext.get("ia"), dict) and not isinstance(ext.get("revision"), dict):
+        (avisos if es_borrador else errores).append(
+            f"{d}/extendida: redactada con IA y sin revisión humana (falta «revision»)")
+
+
 def main():
+    con_borradores = "--borradores" in sys.argv[1:]
     todo = {s: {} for s in SECCIONES}
     familias = {c: {} for c in CAPAS}
-    for archivo in sorted(DIR.glob("*.json")):
+    archivos = sorted(DIR.glob("*.json")) + (sorted((DIR / "borradores").glob("*.json")) if con_borradores else [])
+    for archivo in archivos:
         try:
             datos = json.loads(archivo.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
@@ -71,7 +98,7 @@ def main():
                 if i in todo[s]:
                     errores.append(f"{s} «{i}» repetido ({todo[s][i][0]} y {archivo.name})")
                     continue
-                todo[s][i] = (archivo.name, item)
+                todo[s][i] = (archivo.name if archivo.parent == DIR else "borradores/" + archivo.name, item)
 
     regiones = todo["regiones"]
     usadas: set = set()
@@ -81,7 +108,9 @@ def main():
             errores.append(f"{d}: padre «{r['padre']}» no existe")
         poli = r.get("poligono", [])
         if len(poli) < 3:
-            errores.append(f"{d}: polígono con menos de 3 puntos")
+            (avisos if arch.startswith("borradores/") else errores).append(f"{d}: polígono con menos de 3 puntos")
+        if "extendida" in r:
+            extendida(r["extendida"], d, arch.startswith("borradores/"))
         for p in poli:
             if not (-180 <= p[0] <= 180 and -90 <= p[1] <= 90):
                 errores.append(f"{d}: vértice fuera de rango {p}")

@@ -253,11 +253,7 @@ func _shader(_a: Dictionary) -> Dictionary:
 
 func _recargar(_a: Dictionary) -> Dictionary:
 	await _listo()
-	Enciclopedia.cargar()
-	Estado.anio_cambiado.emit(Estado.anio)
-	var u := Estado.unidad_seleccionada
-	if u > 0:
-		Estado.seleccionar_lugar(u, DatosMapa.centro_unidad(u))
+	Enciclopedia.recargar()
 	return {"fuentes": Enciclopedia.fuentes.size(), "personas": Enciclopedia.personas.size(),
 			"hechos": Enciclopedia.hechos.size(), "lugares": Enciclopedia.lugares.size(),
 			"regiones": Enciclopedia.regiones.size(), "advertencias": Enciclopedia.advertencias}

@@ -329,6 +329,7 @@ func _prueba_automatica() -> void:
 	else:
 		interfaz.linea.alternar_reproduccion()
 	paso.call("atajos de teclado")
+	paso.call(await PruebaEditor.new().correr(interfaz))
 	# Clic real en cada botón visible de la interfaz, en varios escenarios: falla si alguno da error o no hace nada.
 	# Sin pantalla (--headless) la ventana mide 64×64 y casi todo quedaría afuera: se le da el tamaño del proyecto.
 	if get_viewport().get_visible_rect().size.x < 800:
