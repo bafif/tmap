@@ -33,6 +33,7 @@ CONSULTA = "?v=1&csvType=full&useColumnShortNames=true"
 MARCA = "vía Our World in Data"
 ANIOS = list(range(-10000, 0, 1000)) + [0] + list(range(100, 1800, 100)) + [1750, 1800, 1850, 1900, 1925, 1950, 1975,
                                                                          2000, 2023]
+ANIOS += list(range(1900, 2030, 10))  # el siglo XX y lo que va del XXI, por década
 ANIOS = sorted(set(ANIOS))
 MARGEN = 100  # años alrededor de una serie curada en los que no se agrega nada
 

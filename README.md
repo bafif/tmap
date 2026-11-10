@@ -136,6 +136,7 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 | [Datos y licencias](docs/es/datos.md) | De dónde sale cada dato, cómo se procesa y bajo qué licencia |
 | [La enciclopedia](docs/es/enciclopedia.md) | Cómo se completa, Wikipedia y Grokipedia, IA y reglas editoriales |
 | [Cobertura](docs/es/cobertura.md) | Qué regiones, épocas y datos están cubiertos y qué falta, generado a partir de los datos |
+| [Almacenamiento y descargas](docs/es/almacenamiento.md) | Cuánto pesa cada cosa, dónde se aloja y cómo baja la app lo masivo sin trabarse |
 | [Esquema de fichas](data/enciclopedia/ESQUEMA.md) | El formato de las fuentes, personas, hechos, lugares y regiones |
 | [Pipeline de datos](tools/pipeline/README.md) | Cómo se generan el mapa y las fronteras |
 | [Cómo trabajar en TellMAP](docs/es/contribuir.md) | Convenciones, pruebas y el puente para manejar la app y el editor |

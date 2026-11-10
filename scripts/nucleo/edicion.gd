@@ -9,10 +9,12 @@ class_name Edicion
 const SECCION_DE_TIPO := {"fuente": "fuentes", "persona": "personas", "hecho": "hechos", "lugar": "lugares", "region": "regiones"}
 const TIPO_DE_SECCION := {"fuentes": "fuente", "personas": "persona", "hechos": "hecho", "lugares": "lugar", "regiones": "region"}
 const TIPOS_HECHO := ["politico", "batalla", "fundacion", "religioso", "cultural", "cientifico", "economico", "desastre",
-	"tratado", "construccion", "exploracion", "revolucion"]
-const TIPOS_LUGAR := ["ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad"]
+	"tratado", "construccion", "exploracion", "revolucion", "judicial"]
+const TIPOS_LUGAR := ["ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
+	"laboratorio", "institucion", "sitio-historico"]
 const GENEROS := ["religioso", "historia", "cronica", "literatura", "poesia", "filosofia", "legal", "administrativo",
-	"epistolar", "inscripcion", "geografia", "ciencia", "medicina", "sabiduria", "viajes", "ensayo", "arqueologia"]
+	"epistolar", "inscripcion", "geografia", "ciencia", "medicina", "sabiduria", "viajes", "ensayo", "arqueologia",
+	"economia", "politica", "manifiesto", "discurso", "tecnologia", "periodismo"]
 const CONFIANZAS := ["alta", "media", "baja"]
 ## Números que se guardan siempre con decimales. Godot lee todos los números de un JSON como float: al escribir, los
 ## enteros vuelven a ir sin decimales (años, población, importancia) y las coordenadas conservan el suyo. Así un

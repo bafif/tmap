@@ -22,8 +22,9 @@ RAIZ = Path(__file__).resolve().parents[2]
 DIR = RAIZ / "data" / "enciclopedia" / "paquetes"
 SECCIONES = ["regiones", "fuentes", "personas", "hechos", "lugares"]
 TIPOS_HECHO = {"politico", "batalla", "fundacion", "religioso", "cultural", "cientifico", "economico", "desastre",
-               "tratado", "construccion", "exploracion", "revolucion"}
-TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad"}
+               "tratado", "construccion", "exploracion", "revolucion", "judicial"}
+TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
+               "laboratorio", "institucion", "sitio-historico"}
 PESOS = {"mayoritaria", "importante", "minoritaria"}
 CAPAS = ("religiones", "culturas", "idiomas")
 

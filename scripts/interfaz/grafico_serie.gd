@@ -1,11 +1,16 @@
 class_name GraficoSerie
 extends Control
-## Gráfico chico de una serie de estimaciones (población) con el año actual marcado.
-## Escala logarítmica en el eje vertical, porque las poblaciones antiguas varían en órdenes de magnitud.
+## Gráfico chico de una serie (población de una región, indicadores de un país) con el año actual marcado.
+## Por defecto, escala logarítmica en el eje vertical, porque las poblaciones antiguas varían en órdenes de magnitud.
 ## Al pasar el mouse se ve el valor, el año, el rango y la fuente de la estimación más cercana.
 
 var serie: Array = []
 var anio := 0
+## Qué clave de cada elemento de la serie se grafica, y si en escala logarítmica.
+var clave := "poblacion"
+var logaritmica := true
+## Cómo se escribe un valor en el tooltip (recibe el número); sin él, «~N habitantes».
+var formato := Callable()
 ## Posición en pantalla de cada estimación (la calcula _draw) y la que está bajo el mouse.
 var _puntos: Array = []
 var _cerca := -1
@@ -29,8 +34,10 @@ func _draw() -> void:
 	var lo := INF
 	var hi := -INF
 	for d in datos:
-		lo = minf(lo, log(float(d.get("min", d["poblacion"]))))
-		hi = maxf(hi, log(float(d.get("max", d["poblacion"]))))
+		lo = minf(lo, _y(float(d.get("min", d[clave]))))
+		hi = maxf(hi, _y(float(d.get("max", d[clave]))))
+	if not logaritmica:
+		lo = minf(lo, 0.0)
 	if hi - lo < 0.1:
 		hi += 0.5
 		lo -= 0.5
@@ -47,7 +54,7 @@ func _draw() -> void:
 		var tramo := PackedVector2Array()
 		for par in [[datos[i], "max"], [datos[i + 1], "max"], [datos[i + 1], "min"], [datos[i], "min"]]:
 			var d: Dictionary = par[0]
-			var p: Vector2 = px.call(float(d["anio"]), log(float(d.get(par[1], d["poblacion"]))))
+			var p: Vector2 = px.call(float(d["anio"]), _y(float(d.get(par[1], d[clave]))))
 			if tramo.is_empty() or not tramo[tramo.size() - 1].is_equal_approx(p):
 				tramo.append(p)
 		if tramo.size() > 3 and tramo[0].is_equal_approx(tramo[tramo.size() - 1]):
@@ -59,11 +66,14 @@ func _draw() -> void:
 			draw_colored_polygon(tramo, Color(c, 0.18))
 	var linea := PackedVector2Array()
 	for d in datos:
-		linea.append(px.call(float(d["anio"]), log(float(d["poblacion"]))))
+		linea.append(px.call(float(d["anio"]), _y(float(d[clave]))))
 	draw_polyline(linea, c, 2.0, true)
 	_puntos.clear()
+	# Con series anuales los puntos se pisan: se dibujan solo si son pocos.
+	var con_puntos := linea.size() <= 40
 	for i in linea.size():
-		draw_circle(linea[i], 3.0, c)
+		if con_puntos:
+			draw_circle(linea[i], 3.0, c)
 		_puntos.append({"p": linea[i], "d": datos[i]})
 	if _cerca >= 0 and _cerca < linea.size():
 		draw_circle(linea[_cerca], 6.0, TemaUI.color("titulo"), false, 1.5)
@@ -75,9 +85,13 @@ func _draw() -> void:
 	draw_string(f, Vector2(area.end.x - 90, size.y - 3), Fechas.texto(int(a1)), HORIZONTAL_ALIGNMENT_RIGHT, 90, 13, suave)
 
 
+func _y(v: float) -> float:
+	return log(maxf(v, 1e-9)) if logaritmica else v
+
+
 func _mas_cercano(pos: Vector2) -> int:
 	var mejor := -1
-	var dist := 24.0
+	var dist := 24.0 if _puntos.size() <= 40 else 6.0
 	for i in _puntos.size():
 		var d := absf((_puntos[i]["p"] as Vector2).x - pos.x)
 		if d < dist:
@@ -103,9 +117,10 @@ func _notification(what: int) -> void:
 func _get_tooltip(pos: Vector2) -> String:
 	var i := _mas_cercano(pos)
 	if i < 0:
-		return "Población estimada (escala logarítmica). Pasá el mouse por un punto para ver su fuente."
+		return tooltip_text + (" (escala logarítmica)" if logaritmica else "") + ". Pasá el mouse por un punto para ver su fuente."
 	var d: Dictionary = _puntos[i]["d"]
-	var texto := "%s: ~%s habitantes" % [Fechas.texto(int(d["anio"])), _numero(float(d["poblacion"]))]
+	var v := float(d[clave])
+	var texto := "%s: %s" % [Fechas.texto(int(d["anio"])), formato.call(v) if formato.is_valid() else "~%s habitantes" % _numero(v)]
 	if d.has("min") and d.has("max"):
 		texto += " (entre %s y %s)" % [_numero(float(d["min"])), _numero(float(d["max"]))]
 	texto += "\nFuente: %s" % d.get("fuente", "sin fuente")

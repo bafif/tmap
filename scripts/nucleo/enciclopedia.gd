@@ -42,9 +42,14 @@ func cargar() -> void:
 		return
 	var archivos := Array(DirAccess.get_files_at(Datos.ruta(DIR))).filter(func(f): return f.ends_with(".json"))
 	archivos.sort()
+	# Cuánto pesa y cuánto tarda: el plan de almacenamiento (docs/es/almacenamiento.md) fija umbrales sobre esto.
+	var t0 := Time.get_ticks_msec()
+	var bytes := 0
 	for nombre in archivos:
 		# En una versión exportada, lo editado en el editor queda en una copia local que tapa al paquete de adentro.
-		var datos: Variant = JSON.parse_string(FileAccess.get_file_as_string(Edicion.para_leer(DIR + nombre)))
+		var texto := FileAccess.get_file_as_string(Edicion.para_leer(DIR + nombre))
+		bytes += texto.length()
+		var datos: Variant = JSON.parse_string(texto)
 		if not datos is Dictionary:
 			advertencias.append("No se pudo leer %s" % nombre)
 			continue
@@ -69,9 +74,15 @@ func cargar() -> void:
 			f["_clave"] = clave
 			f["_hijas"] = []
 			familias[clave] = f
+	var t1 := Time.get_ticks_msec()
 	_preparar_regiones()
 	_preparar_puntos()
 	_preparar_capas()
+	var n := 0
+	for sec in SECCIONES:
+		n += (get(sec) as Dictionary).size()
+	print("Enciclopedia: %d elementos de %d paquetes (%.1f MB) en %d ms: lectura %d ms, preparación %d ms" % [
+		n, archivos.size(), bytes / 1048576.0, Time.get_ticks_msec() - t0, t1 - t0, Time.get_ticks_msec() - t1])
 	for a in advertencias:
 		push_warning(a)
 

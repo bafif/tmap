@@ -18,12 +18,16 @@ python3 p0_descargar.py      # baja Cliopatria a cache/ (46 MB comprimido)
 python3 p1_base.py           # tierra, relieve, costas, ríos y color   → terreno.webp, relieve.png
 python3 p2_politico.py       # unidades, fronteras e historia política → unidades.bin, politico.json, politico.bin
 python3 p3_wikidata.py       # títulos de Wikipedia en español        → wikidata_es.json
+python3 p4_paises.py         # país actual de cada unidad             → ../../data/demografia/unidades_pais.bin
 python3 vista_previa.py -1350 /tmp/egipto.png 3600 1100 5600 2300   # revisar un año sin abrir Godot
 ```
 
 El paso 2 cambia los números de las unidades cada vez que se corre: después hay que revisar que
 `data/mapa/nombres_es.json` siga cubriendo todas las entidades (las claves son los nombres de Cliopatria, así que no
 dependen de las unidades).
+
+También hay que volver a correr el paso 4, que asigna cada unidad a su país actual para las series por país
+(`tools/demografia/series.py`).
 
 ## Formatos
 

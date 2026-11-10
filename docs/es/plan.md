@@ -99,6 +99,14 @@ cambiar en vivo.
 - `python3 tools/pipeline/lamina.py ANIO x0 y0 x1 y1 salida.png`: lámina estática de alta calidad de cualquier año,
   sin Godot (por ejemplo, [el mundo en 117 d. C.](../assets/mundo_117.png)).
 
+### Almacenamiento y descargas
+
+TellMAP guarda fichas y enlaza los textos: lo que distribuye se mide en decenas o cientos de MB, no en terabytes. Lo
+masivo (personas de Wikidata, grillas de población) se va a bajar por teselas de época y región, a pedido, con un
+administrador de descargas que nunca baja nada mientras se mueve la línea de tiempo y una caché con tope. El plan,
+los umbrales y dónde se aloja cada cosa (versiones de GitHub, con espejos en Internet Archive y Zenodo; Google Drive
+no) están en [Almacenamiento y descargas](almacenamiento.md).
+
 ## Hoja de ruta
 
 El detalle de cada paso, con lo hecho y lo que falta, está en [PROGRESO.md](../../PROGRESO.md).

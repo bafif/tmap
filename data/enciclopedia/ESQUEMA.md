@@ -168,7 +168,9 @@ Londres sobre el Imperio Nuevo.
   contemporáneas, literatura de la época) o `"secundaria"` (estudio posterior: historiadores antiguos que escriben
   sobre épocas anteriores, historiografía moderna, arqueología).
 - `genero`: `religioso`, `historia`, `cronica`, `literatura`, `poesia`, `filosofia`, `legal`, `administrativo`,
-  `epistolar`, `inscripcion`, `geografia`, `ciencia`, `medicina`, `sabiduria`, `viajes`, `ensayo`, `arqueologia`.
+  `epistolar`, `inscripcion`, `geografia`, `ciencia`, `medicina`, `sabiduria`, `viajes`, `ensayo`, `arqueologia`,
+  `economia`, `politica`, `manifiesto`, `discurso`, `tecnologia`, `periodismo`. Leyes, fallos, tratados,
+  resoluciones y constituciones van como `legal`; los artículos científicos, como `ciencia`.
 - `escrita.anio_hasta`: opcional, para textos compuestos a lo largo de un período.
 - `autor_id`: el `id` de una persona si está en algún paquete; si no, `null` y solo el nombre en `autor`.
 - `confianza`: qué tan segura es la datación (`alta`, `media`, `baja`).
@@ -217,7 +219,8 @@ Londres sobre el Imperio Nuevo.
 ```
 
 - `tipo`: `politico`, `batalla`, `fundacion`, `religioso`, `cultural`, `cientifico`, `economico`, `desastre`,
-  `tratado`, `construccion`, `exploracion`, `revolucion`.
+  `tratado`, `construccion`, `exploracion`, `revolucion`, `judicial` (sentencias y fallos). Una guerra entera va como
+  `batalla` con `anio_hasta`.
 - `fuentes`: ids de fuentes que lo documentan (pueden ser de otro paquete).
 
 ### `lugares`
@@ -241,7 +244,9 @@ Ciudades, templos y sitios que aparecen en el mapa cuando existen.
 }
 ```
 
-- `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`.
+- `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`,
+  `laboratorio`, `institucion` (un congreso, un tribunal, una sede de gobierno o de un organismo), `sitio-historico`
+  (una plaza, un campo de concentración, un centro clandestino, un campo de batalla).
 - `abandono`: año en que deja de ser habitada o relevante; `null` si sigue.
 - `importancia`: 1 (local) a 3 (de primer orden). Decide desde qué zoom se ve.
 

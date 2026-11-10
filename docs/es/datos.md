@@ -11,6 +11,8 @@ qué licencia se puede reusar.
 | Costas, lagos y ríos | [Natural Earth](https://www.naturalearthdata.com) 1:10 m | Dominio público | `raw_data/ne_10m_*.zip` |
 | Países actuales (para armar las regiones que completan el mundo) | Natural Earth 1:10 m, *Admin 0 – countries* | Dominio público | `raw_data/ne_10m_admin_0_countries_lakes.zip` |
 | Población por país, de 10 000 a. C. a 2023 | [Our World in Data](https://ourworldindata.org/population-sources), que combina HYDE 3.3 (PBL, hasta 1799), Gapminder v7 (1800-1949) y la ONU, *World Population Prospects 2024* (desde 1950) | CC BY 4.0 | `tools/enciclopedia/datos/poblacion-owid.json`, se baja con `tools/enciclopedia/poblacion.py --descargar` |
+| Series por país, de 1800 a 2024: población, esperanza de vida, hijos por mujer, mortalidad antes de los 5 años, edad mediana, población urbana, PIB per cápita, pobreza extrema, alfabetización, años de escolaridad y nacidos en otro país | [Our World in Data](https://ourworldindata.org), que combina la ONU (*World Population Prospects 2024*, *World Urbanization Prospects*, stock de migrantes 2024), el Banco Mundial (PIP), el Maddison Project Database 2023, HYDE, Gapminder, Riley y Zijdeman, la UNESCO y Barro y Lee; cada indicador cita la suya | CC BY 4.0 | `data/demografia/paises.json`, se baja con `tools/demografia/series.py` |
+| País actual de cada unidad del mapa (para unir el mapa con las series por país) | Natural Earth 1:10 m, *Admin 0 – countries* | Dominio público | `data/demografia/unidades_pais.bin` y `paises_mapa.json`, los arma `tools/pipeline/p4_paises.py` |
 | Elevación | GEBCO 2008, versión en grises de la NASA (Blue Marble) | Dominio público (NASA) | `raw_data/gebco_08_rev_elev_*.tif` |
 | Color del terreno | NASA Blue Marble Next Generation, julio de 2004 | Dominio público (NASA) | `raw_data/world.200407.3x5400x2700.jpg` |
 | Títulos en español | [Wikidata](https://www.wikidata.org) | CC0 | `data/mapa/wikidata_es.json` |
@@ -60,6 +62,10 @@ Ver [tools/pipeline/README.md](../../tools/pipeline/README.md) para correrlo. En
   región, no por unidad. El resto se ve rayado.
 - Las cifras de población antiguas son estimaciones académicas con mucha incertidumbre; los testimonios de autores
   antiguos se muestran aparte y nunca se usan para estimar.
+- Las series del bloque «País actual» de la pestaña «Datos» son también de países enteros con las fronteras de hoy
+  (en 1914, el punto de Córdoba muestra la Argentina actual). Antes de 1950 hay un valor por década; la app muestra
+  el último publicado hasta el año elegido, si no tiene más de 15 años. Cada unidad del mapa se asigna al país que
+  cubre la mayor parte de su tierra: en las fronteras, una unidad puede caer del lado vecino.
 - Las series de población por país usan las fronteras actuales y se suman a la región que tiene la mayor parte de cada
   país: la nota de cada serie dice qué países suma. Antes del año 1 son modelos de HYDE, no recuentos. Lo que cubren y
   lo que no está en [Cobertura de la enciclopedia](cobertura.md).

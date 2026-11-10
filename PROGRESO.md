@@ -86,6 +86,23 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       sacaron. Los videos con que grupos yihadistas reivindican atentados no se enlazan, a propósito: los hechos
       dicen quién los reivindicó y cómo, con su artículo de Wikipedia.
 
+### Almacenamiento y descargas
+
+El plan completo, con umbrales y dónde se aloja cada cosa, está en [docs/es/almacenamiento.md](docs/es/almacenamiento.md).
+Cada paso se hace cuando se cruza su umbral, no antes.
+
+- [ ] **Leer los paquetes en un hilo aparte** cuando la enciclopedia pase los 10 MB o tarde más de 1 s en abrir (la
+      app lo dice al arrancar: «Enciclopedia: N elementos… en X ms»), con un índice compacto en memoria.
+- [ ] **Teselas por época y macrorregión, administrador de descargas y caché con tope** (autoload `Descargas`: cola
+      con prioridades, dos pedidos a la vez, nada mientras se mueve la línea de tiempo, lectura en
+      `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
+- [ ] **Espejos permanentes** de cada versión de datos en Internet Archive y Zenodo, con las dos direcciones en el
+      manifiesto del actualizador.
+- [ ] **Enlaces de lectura que no se pierdan**: campo `archivo` con la copia de la Wayback Machine y
+      `tools/enciclopedia/enlaces.py`, que los comprueba y pide la copia de los nuevos; se corre antes de cada versión.
+- [ ] **Religión por país hoy** (Pew Research Center, 2010 y 2020) como serie más del bloque «País actual», y con eso
+      las capas de religión de las regiones del mundo en la época actual.
+
 ### Datos abiertos a escala (0.4)
 
 - [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
@@ -116,6 +133,31 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: la demografía de cada país y el plan de almacenamiento
+
+- [x] **«País actual» en la pestaña «Datos»**: para cualquier punto del mapa desde 1800, el país de hoy que lo
+      contiene y sus series de Our World in Data (fronteras actuales): población, esperanza de vida, hijos por mujer,
+      mortalidad antes de los 5 años, edad mediana, población urbana, PIB per cápita (Maddison), pobreza extrema,
+      alfabetización, años de escolaridad y nacidos en otro país. Cada fila muestra el último dato publicado hasta el
+      año elegido; al tocarla se abre su gráfico, y el tooltip da la definición, el valor del mundo y la fuente. 232
+      países, 0,9 MB (`data/demografia/paises.json`, de `tools/demografia/series.py`).
+- [x] **País de cada unidad del mapa**: `tools/pipeline/p4_paises.py` rasteriza los países de Natural Earth sobre
+      las unidades y asigna cada una al que cubre la mayor parte de su tierra (229 países; 782 de 58 076 unidades
+      quedan sin país: hielo, zonas en disputa, bordes costeros).
+- [x] **Carga perezosa**: las series por país se leen al abrir por primera vez la pestaña «Datos» (29 ms), no al
+      arrancar. Y la app dice al arrancar cuánto pesa y cuánto tarda la enciclopedia (hoy, 2,1 MB en 228 ms).
+- [x] **Población de las regiones por década** en el siglo XX y lo que va del XXI (antes, cada 25 años).
+- [x] **`GraficoSerie` para cualquier indicador**: escala lineal o logarítmica, con su unidad en el tooltip; con
+      series anuales no dibuja un punto por año.
+- [x] **Plan de almacenamiento y descargas** ([docs/es/almacenamiento.md](docs/es/almacenamiento.md)): cuánto pesa
+      cada capa (no son terabytes: TellMAP guarda fichas y enlaza los textos), dónde se aloja (versiones de GitHub, con
+      espejos en Internet Archive y Zenodo; Google Drive no sirve para que la app baje de ahí), las reglas para que la
+      app no se trabe (nada se baja mientras se mueve la línea de tiempo, una cola con prioridades, caché con tope,
+      lectura en otro hilo) y en qué orden se hace.
+- [x] Vocabulario nuevo para la época contemporánea: géneros `economia`, `politica`, `manifiesto`, `discurso`,
+      `tecnologia` y `periodismo`; hechos `judicial`; lugares `laboratorio`, `institucion` y `sitio-historico`.
+- [x] La prueba automática abre la pestaña «Datos» de Buenos Aires en 2000 y toca cada indicador.
 
 ### 10 de noviembre de 2026: versión 0.3.3, en Mac se ve
 

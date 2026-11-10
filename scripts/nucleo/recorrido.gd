@@ -42,6 +42,11 @@ func correr(solo := "") -> Dictionary:
 		escenarios.append(["lugar, pestaña %s" % PanelInfo.PESTANAS[i], func():
 			_seleccionar(lon_lat)
 			_interfaz.panel._ir_a_pestana(i)])
+	# Las series por país (data/demografia/) aparecen desde 1800: Buenos Aires en 2000, con todas sus filas.
+	escenarios.append(["país actual, pestaña Datos", func():
+		Estado.fijar_anio(2000)
+		_seleccionar(Vector2(-58.4, -34.6))
+		_interfaz.panel._ir_a_pestana(4)])
 	var fichas := [["fuente", Enciclopedia.fuentes.keys()[0]], ["persona", Enciclopedia.personas.keys()[0]],
 		["hecho", Enciclopedia.hechos.keys()[0]], ["lugar", Enciclopedia.lugares.keys()[0]],
 		["region", "egipto"], ["familia", "religiones:islam-sunni"], ["entidad", -1]]

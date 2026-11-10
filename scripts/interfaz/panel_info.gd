@@ -22,6 +22,8 @@ var _px := Vector2.ZERO
 var _ficha: Dictionary = {}  # {"tipo", "id"} si se está mostrando una ficha
 var _token := 0
 var _reconstruir_pendiente := false
+## Qué indicador del país muestra su gráfico en la pestaña «Datos» ("" = ninguno).
+var _indicador_abierto := "poblacion"
 
 
 func _ready() -> void:
@@ -385,6 +387,7 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 		if str(e.get("s", "")) != "":
 			links.append("[url=https://seshat-db.com/core/polity/%s]Seshat[/url]" % e["s"])
 		_parrafo("Entidad: [b][url=entidad:%d]%s[/url][/b], %s %s" % [ent, DatosMapa.nombre_entidad(ent), _con_punto(Fechas.rango(int(e["a"]), int(e["b"]))), " · ".join(links)], true)
+	_bloque_pais()
 	for id in regs:
 		var r: Dictionary = Enciclopedia.regiones[id]
 		var pob := Enciclopedia.poblacion_en(id, Estado.anio)
@@ -431,6 +434,56 @@ func _pestana_datos(ent: int, regs: Array, lonlat: Vector2) -> void:
 				fila.pressed.connect(func(): Estado.pedir_ficha("familia", clave))
 				_contenido.add_child(fila)
 	_nota("Las cifras antiguas son estimaciones académicas con mucha incertidumbre; cada una cita su fuente.")
+
+
+## El país actual de este punto con sus series de Our World in Data (fronteras de hoy): una fila por indicador con el
+## último dato hasta el año elegido; la fila abierta muestra su gráfico.
+func _bloque_pais() -> void:
+	if Estado.anio < 1800:
+		return
+	var codigo := Demografia.pais_de_unidad(_unidad)
+	if codigo == "" or not Demografia.paises.has(codigo):
+		return
+	var filas: Array = []
+	for ind in Demografia.indicadores:
+		var v := Demografia.valor(codigo, str(ind["clave"]), Estado.anio)
+		if not v.is_empty():
+			filas.append([ind, v])
+	if filas.is_empty():
+		return
+	_seccion("País actual: %s" % Demografia.nombre(codigo))
+	_nota("Con las fronteras de hoy; el último dato publicado hasta %s" % _con_punto(Fechas.texto(Estado.anio)))
+	for par in filas:
+		var ind: Dictionary = par[0]
+		var v: Dictionary = par[1]
+		var clave := str(ind["clave"])
+		var abierto := clave == _indicador_abierto
+		var detalle := Demografia.texto_valor(v["valor"], clave)
+		if int(v["anio"]) != Estado.anio:
+			detalle += " (%s)" % Fechas.texto(int(v["anio"]))
+		var fila := _fila_color(TemaUI.color("acento") if abierto else TemaUI.color("borde_suave"), str(ind["nombre"]), detalle, abierto)
+		var ayuda: Array = [str(ind.get("descripcion", ind["nombre"]))]
+		var mundo := Demografia.valor(Demografia.MUNDO, clave, Estado.anio)
+		if not mundo.is_empty() and clave != "poblacion":
+			ayuda.append("Mundo: %s (%s)." % [Demografia.texto_valor(mundo["valor"], clave), Fechas.texto(int(mundo["anio"]))])
+		ayuda.append("Fuente: %s." % ind["fuente"])
+		fila.tooltip_text = "\n".join(ayuda)
+		fila.pressed.connect(func():
+			_indicador_abierto = "" if abierto else clave
+			_reconstruir(true))
+		_contenido.add_child(fila)
+		if abierto:
+			var serie := Demografia.serie(codigo, clave)
+			if serie.size() >= 2:
+				var g := GraficoSerie.new()
+				g.serie = serie
+				g.anio = Estado.anio
+				g.clave = "valor"
+				g.logaritmica = bool(ind.get("log", false))
+				g.formato = func(x: float) -> String: return Demografia.texto_valor(x, clave)
+				g.tooltip_text = "%s de %s" % [ind["nombre"], Demografia.nombre(codigo)]
+				_contenido.add_child(g)
+			_nota("%s Fuente: %s, vía Our World in Data (CC BY 4.0)." % [ind.get("descripcion", ""), ind["fuente"]])
 
 
 # ---------------------------------------------------------------------------------------------------------------
