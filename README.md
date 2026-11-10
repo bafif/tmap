@@ -76,8 +76,9 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Lo único que sale a internet es la consulta a Wikipedia
   cuando abrís una ficha, que queda en caché, y la búsqueda de [actualizaciones](docs/es/actualizaciones.md) en GitHub
   al abrir la app, que no manda nada tuyo y se apaga en Ajustes.
-- **Se actualiza sola.** La versión descargada baja e instala las versiones nuevas; cuando solo hay datos nuevos (más
-  fuentes, personas, hechos o regiones) baja nada más los archivos que cambiaron, sin reinstalar el programa.
+- **Se actualiza sola.** Al abrir, la versión descargada te avisa si hay algo nuevo y lo instala si le decís que sí
+  («Ahora no» la deja como está). Cuando solo hay datos nuevos (más fuentes, personas, hechos o regiones) baja nada
+  más los archivos que cambiaron, sin reinstalar el programa.
 
 ## Probarlo
 

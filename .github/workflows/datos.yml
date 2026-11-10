@@ -16,8 +16,9 @@ on:
 permissions:
   contents: write
 
+# El mismo grupo que el trabajo exportar de version.yml: los dos suben actualizacion.json y no pueden correr a la vez.
 concurrency:
-  group: datos
+  group: actualizaciones
   cancel-in-progress: false
 
 env:

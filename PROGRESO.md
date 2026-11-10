@@ -21,7 +21,7 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
 - [ ] **Probar en otros equipos.** Windows, una Mac con Apple Silicon y una notebook con gráficos integrados. El
       `.exe` de la 0.3.0 ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La Mac con
-      Intel ya se probó (ver la 0.3.3 en **Hecho**). En Apple Silicon, desde la 0.3.3, `verificar-macos` saca una
+      Intel ya se probó (ver la 0.3.4 en **Hecho**). En Apple Silicon, desde la 0.3.4, `verificar-macos` saca una
       captura y comprueba que no salga lisa, pero falta mirar la app en una de verdad; tampoco se probó una Mac con
       Radeon. Antes de cada versión, en la MacBook con Intel:
       `TellMAP.app/Contents/MacOS/TellMAP -- --captura=x.png --comprobar_dibujo` (el runner de GitHub no tiene esa
@@ -136,7 +136,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 ### Vista 3D (0.6)
 
 - [ ] **Vista 3D.** Relieve real, agua con shader propio, nubes y efectos, con la misma información del mapa 2D. Se
-      elige en Ajustes. Ojo: desde la 0.3.3, en Mac se dibuja con Compatibility (OpenGL), que no tiene varios
+      elige en Ajustes. Ojo: desde la 0.3.4, en Mac se dibuja con Compatibility (OpenGL), que no tiene varios
       efectos de Forward+ (iluminación global SDFGI y VoxelGI, niebla volumétrica, reflejos SSR). Hay que diseñar la
       vista para que se vea bien sin ellos o que las Mac que puedan elijan «Avanzado» en **Motor de dibujo**.
 
@@ -207,7 +207,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       `tecnologia` y `periodismo`; hechos `judicial`; lugares `laboratorio`, `institucion` y `sitio-historico`.
 - [x] La prueba automática abre la pestaña «Datos» de Buenos Aires en 2000 y toca cada indicador.
 
-### 10 de noviembre de 2026: versión 0.3.3, en Mac se ve
+### 10 de noviembre de 2026: versión 0.3.4, en Mac se ve
 
 - [x] **Probada en una Mac con Intel** (MacBook Pro 2017, Intel Iris Plus 640, macOS 13.7.8): con la 0.3.2 la
       ventana quedaba oscura. Forward+ sobre MoltenVK arrancaba sin errores (por eso no saltaba
@@ -231,6 +231,18 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       pasos. La captura rota de la Mac tenía un solo color; las buenas, entre 170 y 200.
 - [x] «Reiniciar ahora» desde el código fuente vuelve a abrir el proyecto con su `--path`, que Godot no devuelve entre
       los argumentos.
+
+### 10 de noviembre de 2026: versión 0.3.3, pregunta antes de actualizar
+
+- [x] **La app pregunta antes de actualizarse.** Al abrir, si hay una versión nueva o datos nuevos, un cartel arriba
+      al centro lo ofrece con «Actualizar» y «Ahora no», y no baja nada hasta que le dicen que sí. «Ahora no» (o la
+      cruz) no cambia nada y el cartel vuelve a salir la próxima vez; con «Actualizar», el mismo cartel muestra cómo
+      va y al terminar queda el aviso de siempre. «Buscar ahora», en Ajustes, sigue instalando sin preguntar.
+      `--preguntar-y-salir=si|no` contesta el cartel desde la línea de comandos, y `probar.py` comprueba que «Ahora
+      no» no baje ni toque nada (datos ni ejecutable).
+- [x] Arreglado: **la 0.3.2 quedó anunciada como 0.3.1.** `version.yml` publicó el manifiesto de la 0.3.2, pero
+      `datos.yml`, lanzado por el mismo push, lo pisó dos segundos después con uno armado antes. El manifiesto se
+      corrigió a mano y los dos workflows comparten ahora el grupo de `concurrency` `actualizaciones`.
 
 ### 10 de noviembre de 2026: versión 0.3.2, también para macOS
 

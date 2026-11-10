@@ -83,7 +83,7 @@ cambiar en vivo.
 - **Vista 3D** (planificada): una malla con el relieve real (la elevación ya está en el pipeline), la misma textura
   política del 2D proyectada encima, agua con shader propio, nubes y partículas. Se va a elegir en Ajustes, con
   Forward+ (el proyecto ya está configurado así en Linux y Windows, con respaldo a OpenGL para equipos viejos; en
-  Mac usa Compatibility desde la 0.3.3, y cada uno puede elegir el motor en Ajustes).
+  Mac usa Compatibility desde la 0.3.4, y cada uno puede elegir el motor en Ajustes).
 
 ## Cómo se prueba
 

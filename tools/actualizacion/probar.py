@@ -5,11 +5,12 @@ Arma una «versión publicada» falsa en una carpeta temporal (manifiesto y .gz,
 la sirve por HTTP en 127.0.0.1 y corre TellMAP con -- --actualizaciones=<url> y una carpeta de usuario aparte
 (XDG_DATA_HOME), así no toca los ajustes ni los datos de quien la corre. Comprueba que:
 
-  1. baja e instala los datos nuevos, y la app los lee (una fuente más);
-  2. otra búsqueda dice que está al día;
-  3. un archivo adulterado (sha256 que no coincide) se rechaza y siguen valiendo los datos de antes;
-  4. con --ejecutable (un TellMAP exportado): se reemplaza solo por la versión «nueva», que arranca bien, y un
-     ejecutable adulterado no se instala.
+  1. al abrir ofrece los datos nuevos, y con «Ahora no» no baja ni cambia nada;
+  2. con «Actualizar» baja e instala los datos nuevos, y la app los lee (una fuente más);
+  3. otra búsqueda dice que está al día, y al abrir ya no pregunta nada;
+  4. un archivo adulterado (sha256 que no coincide) se rechaza y siguen valiendo los datos de antes;
+  5. con --ejecutable (un TellMAP exportado): ofrece la versión «nueva» y «Ahora no» deja el ejecutable como estaba;
+     se reemplaza solo por la nueva, que arranca bien, y un ejecutable adulterado no se instala.
 
   python3 tools/actualizacion/probar.py                                  # con godot, desde el código fuente
   python3 tools/actualizacion/probar.py --ejecutable build/linux/TellMAP.x86_64
@@ -103,9 +104,20 @@ def main() -> None:
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--verificar")
         n0, d0 = fuentes(sal)
         print(f"antes: {n0} fuentes, datos {d0}")
+        carpeta_datos = tmp / "usuario/godot/app_userdata/TellMAP/datos"
 
-        rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--actualizar-y-salir")
-        chequear(rc == 0 and "instalados" in sal, "baja e instala los datos nuevos", sal)
+        # Lo que pasa al abrir la app: el cartel, contestado con «Ahora no» y después con «Actualizar».
+        rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--preguntar-y-salir=no")
+        chequear(rc == 0 and "Hay una actualización: datos del" in sal and "Quedó para después" in sal,
+                 "al abrir ofrece los datos nuevos, y «Ahora no» no da error", sal)
+        rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--verificar")
+        nn, dn = fuentes(sal)
+        bajado = [p.name for p in carpeta_datos.iterdir() if p.is_dir()] if carpeta_datos.exists() else []
+        chequear(nn == n0 and dn == d0 and not bajado, f"«Ahora no» no bajó ni instaló nada ({bajado})", sal)
+
+        rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--preguntar-y-salir=si")
+        chequear(rc == 0 and "Hay una actualización" in sal and "instalados" in sal,
+                 "con «Actualizar» baja e instala los datos nuevos", sal)
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--verificar")
         n1, d1 = fuentes(sal)
         chequear(n1 == n0 + 1 and d1.startswith(str(v2)) and "enciclopedia" in d1,
@@ -114,6 +126,9 @@ def main() -> None:
 
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--actualizar-y-salir")
         chequear(rc == 0 and "al día" in sal, "otra búsqueda dice que está al día", sal)
+        rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--preguntar-y-salir=no")
+        chequear(rc == 0 and "al día" in sal and "Hay una actualización" not in sal,
+                 "al día, al abrir no pregunta nada", sal)
 
         # Un archivo adulterado: el manifiesto anuncia otro sha256.
         (datos2 / "enciclopedia/paquetes/zz-prueba-actualizacion.json").write_text("{}", encoding="utf-8")
@@ -143,6 +158,10 @@ def main() -> None:
             (remoto / "app-mala.json").write_text(json.dumps(malo), encoding="utf-8")
             (remoto / "app.json").write_text(json.dumps(m4), encoding="utf-8")
             inodo = exe.stat().st_ino
+            rc, sal = correr(cmd, env, f"--actualizaciones={base}app.json", "--preguntar-y-salir=no")
+            chequear(rc == 0 and "Hay una actualización: TellMAP 99.0.0" in sal and "Quedó para después" in sal
+                     and exe.stat().st_ino == inodo and not list(exe.parent.glob("*.nuevo")),
+                     "ofrece la app nueva, y «Ahora no» deja el ejecutable como estaba", sal)
             rc, sal = correr(cmd, env, f"--actualizaciones={base}app-mala.json", "--actualizar-y-salir")
             chequear(rc == 1 and exe.stat().st_ino == inodo, "no instala un ejecutable adulterado", sal)
             rc, sal = correr(cmd, env, f"--actualizaciones={base}app.json", "--actualizar-y-salir")

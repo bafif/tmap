@@ -25,6 +25,11 @@ jobs:
   exportar:
     # Solo las versiones de la app (vX.Y.Z): las de datos y la de «actualizaciones» las crea datos.yml.
     if: startsWith(github.event.release.tag_name || inputs.etiqueta, 'v')
+    # El mismo grupo que datos.yml: los dos suben actualizacion.json, y si corren a la vez el último pisa al otro con
+    # un manifiesto armado antes (pasó con la 0.3.2, que quedó anunciando la 0.3.1).
+    concurrency:
+      group: actualizaciones
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
