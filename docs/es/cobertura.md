@@ -1,5 +1,7 @@
 # Cobertura de la enciclopedia
 
+[English](../en/coverage.md)
+
 > Este archivo lo genera `tools/enciclopedia/cobertura.py` a partir de los paquetes, de la asignación de población (`tools/enciclopedia/poblacion_regiones.json`) y de los datos del mapa; no se edita a mano. `python3 tools/enciclopedia/cobertura.py` lo rehace y `validar.py` avisa cuando quedó viejo.
 
 ## En números

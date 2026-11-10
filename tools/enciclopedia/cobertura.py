@@ -1,10 +1,13 @@
-"""Informe de cobertura de la enciclopedia: qué está cubierto y qué no, en `docs/es/cobertura.md`.
+"""Informe de cobertura de la enciclopedia: qué está cubierto y qué no, en `docs/es/cobertura.md` y en inglés en
+`docs/en/coverage.md`.
 
 Lee los paquetes, la asignación de población (`poblacion_regiones.json`), el extracto de Our World in Data y los datos
-del mapa (`data/mapa/`), y escribe un informe que no se edita a mano. Solo usa la biblioteca estándar de Python.
+del mapa (`data/mapa/`), y escribe un informe que no se edita a mano. El inglés toma los nombres de las regiones de la
+capa de traducción (`data/enciclopedia/traducciones/en/`) y los de las entidades tal como los trae Cliopatria. Solo
+usa la biblioteca estándar de Python.
 
-Uso: python3 tools/enciclopedia/cobertura.py              escribe docs/es/cobertura.md
-     python3 tools/enciclopedia/cobertura.py --comprobar  sale con 1 si el informe no está al día
+Uso: python3 tools/enciclopedia/cobertura.py              escribe los dos informes
+     python3 tools/enciclopedia/cobertura.py --comprobar  sale con 1 si alguno no está al día
 """
 
 from __future__ import annotations
@@ -19,7 +22,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 PAQ = RAIZ / "data" / "enciclopedia" / "paquetes"
 MAPA = RAIZ / "data" / "mapa"
-SALIDA = RAIZ / "docs" / "es" / "cobertura.md"
+SALIDAS = {"es": RAIZ / "docs" / "es" / "cobertura.md", "en": RAIZ / "docs" / "en" / "coverage.md"}
+SALIDA = SALIDAS["es"]
+TRAD = RAIZ / "data" / "enciclopedia" / "traducciones" / "en"
 HERR = Path(__file__).resolve().parent
 MARCA = "vía Our World in Data"
 ANIOS_TABLA = [-10000, -5000, -3000, -1000, 1, 500, 1000, 1300, 1500, 1700, 1800, 1900, 1950, 2000, 2023]
@@ -51,17 +56,25 @@ def dentro(lon: float, lat: float, poli: list) -> bool:
     return res
 
 
-def texto_anio(a: int | None) -> str:
+def texto_anio(a: int | None, idioma: str = "es") -> str:
     if a is None:
-        return "hoy"
-    return f"{-a} a. C." if a < 0 else str(a)
+        return "hoy" if idioma == "es" else "today"
+    if a < 0:
+        return f"{-a} a. C." if idioma == "es" else f"{-a} BC"
+    return str(a)
 
 
-def miles(n: float) -> str:
-    return f"{n:,.0f}".replace(",", " ")
+def miles(n: float, idioma: str = "es") -> str:
+    return f"{n:,.0f}".replace(",", " ") if idioma == "es" else f"{n:,.0f}"
 
 
-def millones(n: float) -> str:
+def millones(n: float, idioma: str = "es") -> str:
+    if idioma != "es":
+        if n >= 1e9:
+            return f"{n / 1e9:.2f} billion"
+        if n >= 1e6:
+            return f"{n / 1e6:.1f} million"
+        return miles(n, idioma)
     if n >= 1e9:
         return f"{n / 1e9:.2f} mil millones".replace(".", ",")
     if n >= 1e6:
@@ -69,14 +82,28 @@ def millones(n: float) -> str:
     return miles(n)
 
 
-def pct(a: float, b: float) -> str:
-    return f"{100 * a / b:.1f} %".replace(".", ",") if b else "—"
+def pct(a: float, b: float, idioma: str = "es") -> str:
+    if not b:
+        return "—"
+    return f"{100 * a / b:.1f} %".replace(".", ",") if idioma == "es" else f"{100 * a / b:.1f}%"
 
 
 # ------------------------------------------------------------------------------------------------------- datos
 def leer_paquetes() -> dict:
     return {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in sorted(PAQ.glob("*.json"))
             if f.name != "familias.json"}
+
+
+def nombres_en_ingles() -> dict[str, str]:
+    """id de región → su nombre en la capa de traducción al inglés."""
+    out = {}
+    for f in sorted(TRAD.glob("*.json")):
+        for clave, v in json.loads(f.read_text(encoding="utf-8")).get("textos", {}).items():
+            sec, _, resto = clave.partition("/")
+            rid, _, campo = resto.rpartition("/")
+            if sec == "regiones" and campo == "nombre":
+                out[rid] = v["texto"]
+    return out
 
 
 def unidades_y_entidades():
@@ -107,14 +134,26 @@ def unidades_y_entidades():
 
 
 # ----------------------------------------------------------------------------------------------------- informe
-def generar() -> str:
+def generar(idioma: str = "es") -> str:
+    es = idioma == "es"
+
+    def t(texto_es: str, texto_en: str) -> str:
+        return texto_es if es else texto_en
+
+    def anio(a):
+        return texto_anio(a, idioma)
+
     paquetes = leer_paquetes()
     asign = json.loads((HERR / "poblacion_regiones.json").read_text(encoding="utf-8"))
     owid = json.loads((HERR / "datos" / "poblacion-owid.json").read_text(encoding="utf-8"))
     nombres_es = json.loads((MAPA / "nombres_es.json").read_text(encoding="utf-8"))
+    en_ingles = {} if es else nombres_en_ingles()
     regiones = [(paq, r) for paq, d in paquetes.items() for r in d.get("regiones", [])]
     por_id = {r["id"]: (paq, r) for paq, r in regiones}
     primer_nivel = [r for _, r in regiones if not r.get("padre")]
+
+    def nombre(r: dict) -> str:
+        return r["nombre"] if es else en_ingles.get(r["id"], r["nombre"])
 
     # cuántos elementos se refieren a cada región
     refs: dict[str, dict[str, int]] = {r["id"]: {"fuentes": 0, "hechos": 0, "lugares": 0} for _, r in regiones}
@@ -149,9 +188,12 @@ def generar() -> str:
 
     def nombre_entidad(e: int) -> str:
         if e < 0:
-            return "Sin entidad política en Cliopatria"
+            return t("Sin entidad política en Cliopatria", "No polity in Cliopatria")
         n = entidades[e]["n"]
-        return nombres_es.get(n, n)
+        if es:
+            return nombres_es.get(n, n)
+        # Cliopatria los trae en inglés; entre paréntesis va el segundo registro de un mismo estado
+        return n[1:-1] if n.startswith("(") and n.endswith(")") else n
 
     # población: qué parte del mundo tiene serie y qué parte tiene una estimación curada cerca
     anios = owid["anios"]
@@ -166,35 +208,38 @@ def generar() -> str:
         if cur:
             curadas[r["id"]] = cur
 
-    def pob(codigos, anio):
-        a = 0 if anio == 1 else anio
+    def pob(codigos, anio_):
+        a = 0 if anio_ == 1 else anio_
         return sum(valor[c].get(a) or 0 for c in codigos if c in valor)
 
     filas_pob = []
-    for anio in ANIOS_TABLA:
-        a = 0 if anio == 1 else anio
+    for anio_ in ANIOS_TABLA:
+        a = 0 if anio_ == 1 else anio_
         total = mundo.get(a)
         if not total:
             continue
-        con_serie = pob(asignados, anio)
+        con_serie = pob(asignados, anio_)
         con_curada = 0
         for rid, s in series.items():
-            if any(abs(x - anio) <= 100 for x in curadas.get(rid, [])):
-                con_curada += pob(s["paises"], anio)
-        filas_pob.append(f"| {texto_anio(anio)} | {millones(total)} | {pct(con_serie, total)} | {pct(con_curada, total)} |")
+            if any(abs(x - anio_) <= 100 for x in curadas.get(rid, [])):
+                con_curada += pob(s["paises"], anio_)
+        fila_anio = anio(anio_) if es or anio_ > -10000 else f"{miles(-anio_, idioma)} BC"
+        filas_pob.append(f"| {fila_anio} | {millones(total, idioma)} | {pct(con_serie, total, idioma)} | "
+                         f"{pct(con_curada, total, idioma)} |")
 
     # tabla de regiones
     def capas(r):
         return " · ".join(str(len(r.get(c, []))) if r.get(c) else "—" for c in ("religiones", "culturas", "idiomas"))
 
     def eras(r):
-        es = r.get("eras", [])
-        if not es:
+        es_ = r.get("eras", [])
+        if not es_:
             return "—"
-        desde = [e["desde"] for e in es if e.get("desde") is not None]
-        hasta = [e["hasta"] for e in es]
+        desde = [e["desde"] for e in es_ if e.get("desde") is not None]
+        hasta = [e["hasta"] for e in es_]
         fin = None if any(h is None for h in hasta) else max(hasta)
-        return f"{len(es)} ({texto_anio(min(desde)) if desde else 'sin inicio'} a {texto_anio(fin)})"
+        inicio = anio(min(desde)) if desde else t("sin inicio", "no start")
+        return f"{len(es_)} ({inicio} {t('a', 'to')} {anio(fin)})"
 
     def demografia(r):
         rid = r["id"]
@@ -203,140 +248,191 @@ def generar() -> str:
                and e.get("tipo") != "testimonio-antiguo"]
         if cur:
             autores = sorted({str(e["fuente"]).split(",")[0].split(" (")[0] for e in cur})
-            partes.append(f"curada: {', '.join(autores)} ({texto_anio(min(e['anio'] for e in cur))}–"
-                          f"{texto_anio(max(e['anio'] for e in cur))})")
+            partes.append(f"{t('curada', 'curated')}: {', '.join(autores)} ({anio(min(e['anio'] for e in cur))}–"
+                          f"{anio(max(e['anio'] for e in cur))})")
         if rid in asign["series"]:
             s = asign["series"][rid]
-            partes.append(("suma de sus hijas: " if s.get("agrega") else "por país: ") + ", ".join(s["paises"]))
+            partes.append((t("suma de sus hijas: ", "sum of its subregions: ") if s.get("agrega")
+                           else t("por país: ", "by country: ")) + ", ".join(s["paises"]))
         elif rid in asign["sin_serie"]:
             destino = asign["sin_serie"][rid]["cuenta_en"]
-            partes.append(f"sin serie propia; cuenta en {por_id.get(destino, (None, {'nombre': destino}))[1]['nombre']}")
+            donde = nombre(por_id[destino][1]) if destino in por_id else destino
+            partes.append(t(f"sin serie propia; cuenta en {donde}", f"no series of its own; counted in {donde}"))
         else:
-            partes.append("**sin asignar**")
+            partes.append(t("**sin asignar**", "**unassigned**"))
         return "; ".join(partes)
 
     filas_reg = []
-    for paq, r in sorted(regiones, key=lambda x: (x[0], x[1]["nombre"])):
+    for paq, r in sorted(regiones, key=lambda x: (x[0], nombre(x[1]))):
         c = refs[r["id"]]
-        nombre = r["nombre"] + (f" (en {por_id[r['padre']][1]['nombre']})" if r.get("padre") in por_id else "")
-        filas_reg.append(f"| {nombre} | {paq} | {eras(r)} | {demografia(r)} | {capas(r)} | "
+        dentro_de = f" ({t('en', 'in')} {nombre(por_id[r['padre']][1])})" if r.get("padre") in por_id else ""
+        filas_reg.append(f"| {nombre(r)}{dentro_de} | {paq} | {eras(r)} | {demografia(r)} | {capas(r)} | "
                          f"{c['fuentes']} · {c['hechos']} · {c['lugares']} |")
 
-    sin_capas = sorted(r["nombre"] for _, r in regiones if not any(r.get(c) for c in ("religiones", "culturas", "idiomas")))
-    sin_eras = sorted(r["nombre"] for _, r in regiones if not r.get("eras"))
+    sin_capas = sorted(nombre(r) for _, r in regiones if not any(r.get(c) for c in ("religiones", "culturas", "idiomas")))
+    sin_eras = sorted(nombre(r) for _, r in regiones if not r.get("eras"))
     fuera = sorted(((km, e) for e, km in fuera_por_entidad.items() if km >= 10000), reverse=True)
     no_asignados = sorted(((valor[c].get(2023) or 0, c) for c in valor
                            if c not in asignados and c != "OWID_WRL"), reverse=True)
 
+    def n(x: int) -> str:
+        return str(x) if es else f"{x:,}"
+
     L = []
-    L.append("# Cobertura de la enciclopedia")
+    L.append(t("# Cobertura de la enciclopedia", "# Encyclopedia coverage"))
     L.append("")
-    L.append("> Este archivo lo genera `tools/enciclopedia/cobertura.py` a partir de los paquetes, de la asignación de "
-             "población (`tools/enciclopedia/poblacion_regiones.json`) y de los datos del mapa; no se edita a mano. "
-             "`python3 tools/enciclopedia/cobertura.py` lo rehace y `validar.py` avisa cuando quedó viejo.")
+    L.append(t("[English](../en/coverage.md)", "[Español](../es/cobertura.md)"))
     L.append("")
-    L.append("## En números")
+    L.append(t("> Este archivo lo genera `tools/enciclopedia/cobertura.py` a partir de los paquetes, de la asignación de "
+               "población (`tools/enciclopedia/poblacion_regiones.json`) y de los datos del mapa; no se edita a mano. "
+               "`python3 tools/enciclopedia/cobertura.py` lo rehace y `validar.py` avisa cuando quedó viejo.",
+               "> This file is generated by `tools/enciclopedia/cobertura.py` from the packages, the population "
+               "assignment (`tools/enciclopedia/poblacion_regiones.json`), the map data and, for region names, the "
+               "encyclopedia's English translation; don't edit it by hand. `python3 tools/enciclopedia/cobertura.py` "
+               "regenerates it and `validar.py` warns when it's out of date."))
     L.append("")
-    L.append(f"- **Regiones:** {len(regiones)} ({len(primer_nivel)} de primer nivel) en {len(paquetes)} paquetes.")
-    L.append(f"- **Tierra firme dentro de alguna región:** {pct(km_dentro, km_total)} de los "
-             f"{millones(km_total)} de km² del mapa (sin la Antártida), medido con las {miles(len(unidades))} "
-             "unidades del mapa.")
+    L.append(t("## En números", "## By the numbers"))
+    L.append("")
+    L.append(t(f"- **Regiones:** {len(regiones)} ({len(primer_nivel)} de primer nivel) en {len(paquetes)} paquetes.",
+               f"- **Regions:** {len(regiones)} ({len(primer_nivel)} top-level) in {len(paquetes)} packages."))
+    L.append(t(f"- **Tierra firme dentro de alguna región:** {pct(km_dentro, km_total)} de los "
+               f"{millones(km_total)} de km² del mapa (sin la Antártida), medido con las {miles(len(unidades))} "
+               "unidades del mapa.",
+               f"- **Land inside some region:** {pct(km_dentro, km_total, idioma)} of the map's "
+               f"{millones(km_total, idioma)} km² (excluding Antarctica), measured over the map's "
+               f"{miles(len(unidades), idioma)} units."))
     con_serie_n = sum(1 for _, r in regiones if r["id"] in asign["series"])
-    L.append(f"- **Población:** {con_serie_n} regiones tienen serie propia y {len(asign['sin_serie'])} se cuentan "
-             f"dentro de otra; {len(curadas)} tienen además estimaciones curadas de especialistas.")
-    L.append(f"- **Capas:** {len(regiones) - len(sin_eras)} regiones con eras y "
-             f"{len(regiones) - len(sin_capas)} con religiones, culturas o idiomas.")
-    L.append(f"- **Elementos:** {totales['fuentes']} fuentes ({sin_lugar} sin lugar de escritura), "
-             f"{totales['personas']} personas, {totales['hechos']} hechos y {totales['lugares']} lugares.")
+    L.append(t(f"- **Población:** {con_serie_n} regiones tienen serie propia y {len(asign['sin_serie'])} se cuentan "
+               f"dentro de otra; {len(curadas)} tienen además estimaciones curadas de especialistas.",
+               f"- **Population:** {con_serie_n} regions have their own series and {len(asign['sin_serie'])} are "
+               f"counted within another; {len(curadas)} also have curated estimates from specialists."))
+    L.append(t(f"- **Capas:** {len(regiones) - len(sin_eras)} regiones con eras y "
+               f"{len(regiones) - len(sin_capas)} con religiones, culturas o idiomas.",
+               f"- **Layers:** {len(regiones) - len(sin_eras)} regions with eras and "
+               f"{len(regiones) - len(sin_capas)} with religions, cultures or languages."))
+    L.append(t(f"- **Elementos:** {totales['fuentes']} fuentes ({sin_lugar} sin lugar de escritura), "
+               f"{totales['personas']} personas, {totales['hechos']} hechos y {totales['lugares']} lugares.",
+               f"- **Items:** {n(totales['fuentes'])} sources ({n(sin_lugar)} with no place of writing), "
+               f"{n(totales['personas'])} people, {n(totales['hechos'])} events and {n(totales['lugares'])} places."))
     L.append("")
-    L.append("## Población: qué parte del mundo cubre cada época")
+    L.append(t("## Población: qué parte del mundo cubre cada época", "## Population: how much of the world each period covers"))
     L.append("")
-    L.append(f"La población mundial y la de cada país salen de Our World in Data (actualización del "
-             f"{owid.get('actualizado')}): HYDE 3.3 hasta 1799, Gapminder v7 de 1800 a 1949 y la ONU (World "
-             "Population Prospects 2024) desde 1950, siempre en las fronteras actuales. «Con serie» es la parte de la "
-             "población mundial que vive en países asignados a alguna región. «Con estimación curada» es la parte que "
-             "vive en regiones que, a menos de cien años de esa fecha, tienen además una estimación publicada por "
-             "especialistas para esa región (Russell, Urlanis, Butzer, DellaPergola…); el resto es solo el modelo "
-             "por país.")
+    L.append(t(f"La población mundial y la de cada país salen de Our World in Data (actualización del "
+               f"{owid.get('actualizado')}): HYDE 3.3 hasta 1799, Gapminder v7 de 1800 a 1949 y la ONU (World "
+               "Population Prospects 2024) desde 1950, siempre en las fronteras actuales. «Con serie» es la parte de la "
+               "población mundial que vive en países asignados a alguna región. «Con estimación curada» es la parte que "
+               "vive en regiones que, a menos de cien años de esa fecha, tienen además una estimación publicada por "
+               "especialistas para esa región (Russell, Urlanis, Butzer, DellaPergola…); el resto es solo el modelo "
+               "por país.",
+               f"World and per-country population come from Our World in Data (update of {owid.get('actualizado')}): "
+               "HYDE 3.3 up to 1799, Gapminder v7 from 1800 to 1949 and the UN (World Population Prospects 2024) from "
+               "1950 on, always within present-day borders. “With series” is the share of the world population living "
+               "in countries assigned to some region. “With curated estimate” is the share living in regions that, "
+               "within a hundred years of that date, also have an estimate published by specialists for that region "
+               "(Russell, Urlanis, Butzer, DellaPergola…); the rest is just the per-country model."))
     L.append("")
-    L.append("| Año | Población mundial | Con serie | Con estimación curada |")
+    L.append(t("| Año | Población mundial | Con serie | Con estimación curada |",
+               "| Year | World population | With series | With curated estimate |"))
     L.append("|---|---|---|---|")
     L += filas_pob
     L.append("")
-    L.append("Antes del año 1, HYDE extrapola con modelos de densidad y uso del suelo: las cifras son órdenes de "
-             "magnitud, no recuentos. En las islas que se poblaron tarde (Islandia, Madagascar, el Caribe, Nueva "
-             "Zelanda) se omiten los años anteriores al poblamiento.")
+    L.append(t("Antes del año 1, HYDE extrapola con modelos de densidad y uso del suelo: las cifras son órdenes de "
+               "magnitud, no recuentos. En las islas que se poblaron tarde (Islandia, Madagascar, el Caribe, Nueva "
+               "Zelanda) se omiten los años anteriores al poblamiento.",
+               "Before year 1, HYDE extrapolates from density and land-use models: the figures are orders of "
+               "magnitude, not counts. For islands settled late (Iceland, Madagascar, the Caribbean, New Zealand), the "
+               "years before settlement are left out."))
     L.append("")
-    L.append("## Regiones")
+    L.append(t("## Regiones", "## Regions"))
     L.append("")
-    L.append("Eras: cantidad y período. Población: estimaciones curadas y países que suma la serie (códigos ISO). "
-             "Capas: entradas de religión · cultura · idioma. Elementos: fuentes · hechos · lugares que nombran la "
-             "región.")
+    L.append(t("Eras: cantidad y período. Población: estimaciones curadas y países que suma la serie (códigos ISO). "
+               "Capas: entradas de religión · cultura · idioma. Elementos: fuentes · hechos · lugares que nombran la "
+               "región.",
+               "Eras: count and period. Population: curated estimates and the countries the series adds up (ISO "
+               "codes). Layers: religion · culture · language entries. Items: sources · events · places that name the "
+               "region."))
     L.append("")
-    L.append("| Región | Paquete | Eras | Población | Capas | Elementos |")
+    L.append(t("| Región | Paquete | Eras | Población | Capas | Elementos |",
+               "| Region | Package | Eras | Population | Layers | Items |"))
     L.append("|---|---|---|---|---|---|")
     L += filas_reg
     L.append("")
-    L.append("## Lo que falta")
+    L.append(t("## Lo que falta", "## What's missing"))
     L.append("")
-    L.append("### Tierra sin región")
+    L.append(t("### Tierra sin región", "### Land outside any region"))
     L.append("")
-    L.append(f"{pct(km_total - km_dentro, km_total)} de la tierra firme del mapa queda fuera de toda región. Por "
-             "entidad política de Cliopatria en 2024 (solo las que suman más de 10 000 km²):")
+    L.append(t(f"{pct(km_total - km_dentro, km_total)} de la tierra firme del mapa queda fuera de toda región. Por "
+               "entidad política de Cliopatria en 2024 (solo las que suman más de 10 000 km²):",
+               f"{pct(km_total - km_dentro, km_total, idioma)} of the map's land lies outside every region. By "
+               "Cliopatria polity in 2024 (only those adding up to more than 10,000 km²):"))
     L.append("")
     for km, e in fuera:
-        L.append(f"- {nombre_entidad(e)}: {miles(km)} km²")
+        L.append(f"- {nombre_entidad(e)}: {miles(km, idioma)} km²")
     L.append("")
-    L.append("### Países sin región en la población")
+    L.append(t("### Países sin región en la población", "### Countries with no region in the population data"))
     L.append("")
     if no_asignados:
-        L.append("Territorios de la tabla de Our World in Data que ninguna región suma (población de 2023):")
+        L.append(t("Territorios de la tabla de Our World in Data que ninguna región suma (población de 2023):",
+                   "Territories in the Our World in Data table that no region adds up (2023 population):"))
         L.append("")
         for p, c in no_asignados:
-            L.append(f"- {owid['paises'][c]['nombre']} ({c}): {miles(p)}")
+            L.append(f"- {owid['paises'][c]['nombre']} ({c}): {miles(p, idioma)}")
     else:
-        L.append("Ninguno.")
+        L.append(t("Ninguno.", "None."))
     L.append("")
-    L.append("### Regiones sin serie de población propia")
+    L.append(t("### Regiones sin serie de población propia", "### Regions without their own population series"))
     L.append("")
-    L.append("Las series por país no se pueden partir: estas regiones no tienen población propia y se cuentan en otra.")
+    L.append(t("Las series por país no se pueden partir: estas regiones no tienen población propia y se cuentan en otra.",
+               "Per-country series can't be split: these regions have no population of their own and are counted in "
+               "another."))
     L.append("")
-    for rid, s in sorted(asign["sin_serie"].items(), key=lambda x: por_id[x[0]][1]["nombre"]):
-        L.append(f"- {por_id[rid][1]['nombre']}: {s['nota']}")
+    for rid, s in sorted(asign["sin_serie"].items(), key=lambda x: nombre(por_id[x[0]][1])):
+        L.append(f"- {nombre(por_id[rid][1])}: {s['nota'] if es else s.get('nota_ingles', s['nota'])}")
     L.append("")
-    L.append(f"### Regiones sin religiones, culturas ni idiomas ({len(sin_capas)})")
+    L.append(t(f"### Regiones sin religiones, culturas ni idiomas ({len(sin_capas)})",
+               f"### Regions without religions, cultures or languages ({len(sin_capas)})"))
     L.append("")
     L.append(", ".join(sin_capas) + ".")
     L.append("")
     if sin_eras:
-        L.append(f"### Regiones sin eras ({len(sin_eras)})")
+        L.append(t(f"### Regiones sin eras ({len(sin_eras)})", f"### Regions without eras ({len(sin_eras)})"))
         L.append("")
         L.append(", ".join(sin_eras) + ".")
         L.append("")
-    L.append("### Límites de los datos de población")
+    L.append(t("### Límites de los datos de población", "### Limits of the population data"))
     L.append("")
-    L.append("- Las series por país usan las fronteras actuales: una región histórica más chica o más grande que sus "
-             "países (la Rus, Mesoamérica, los Andes) recibe la población de los países enteros, y la nota de cada "
-             "serie lo dice.")
-    L.append("- Entre una estimación curada y la serie por país puede haber un salto: son métodos y territorios "
-             "distintos, y el gráfico muestra la fuente de cada punto.")
-    L.append("- Our World in Data no publica los escenarios bajo y alto de HYDE, así que las series no tienen rango "
-             "de incertidumbre. Las grillas de HYDE, que permitirían sumar la población dentro de cada polígono, "
-             "están en el servidor de la Universidad de Utrecht detrás de una verificación anti-bots.")
+    L.append(t("- Las series por país usan las fronteras actuales: una región histórica más chica o más grande que sus "
+               "países (la Rus, Mesoamérica, los Andes) recibe la población de los países enteros, y la nota de cada "
+               "serie lo dice.",
+               "- Per-country series use present-day borders: a historical region smaller or larger than its countries "
+               "(the Rus, Mesoamerica, the Andes) gets the population of the whole countries, and each series' note "
+               "says so."))
+    L.append(t("- Entre una estimación curada y la serie por país puede haber un salto: son métodos y territorios "
+               "distintos, y el gráfico muestra la fuente de cada punto.",
+               "- There can be a jump between a curated estimate and the per-country series: they're different methods "
+               "and territories, and the chart shows the source of each point."))
+    L.append(t("- Our World in Data no publica los escenarios bajo y alto de HYDE, así que las series no tienen rango "
+               "de incertidumbre. Las grillas de HYDE, que permitirían sumar la población dentro de cada polígono, "
+               "están en el servidor de la Universidad de Utrecht detrás de una verificación anti-bots.",
+               "- Our World in Data doesn't publish HYDE's low and high scenarios, so the series have no uncertainty "
+               "range. The HYDE grids, which would make it possible to add up the population inside each polygon, are "
+               "on Utrecht University's server behind an anti-bot check."))
     L.append("")
     return "\n".join(L)
 
 
 def main() -> int:
-    texto = generar()
+    textos = {idioma: generar(idioma) for idioma in SALIDAS}
     if "--comprobar" in sys.argv:
-        actual = SALIDA.read_text(encoding="utf-8") if SALIDA.exists() else ""
-        if actual != texto:
-            print(f"{SALIDA.relative_to(RAIZ)} está desactualizado: corré python3 tools/enciclopedia/cobertura.py")
-            return 1
-        return 0
-    SALIDA.write_text(texto, encoding="utf-8")
-    print(f"escrito {SALIDA.relative_to(RAIZ)}")
+        viejos = [s for idioma, s in SALIDAS.items()
+                  if (s.read_text(encoding="utf-8") if s.exists() else "") != textos[idioma]]
+        for s in viejos:
+            print(f"{s.relative_to(RAIZ)} está desactualizado: corré python3 tools/enciclopedia/cobertura.py")
+        return 1 if viejos else 0
+    for idioma, s in SALIDAS.items():
+        s.parent.mkdir(parents=True, exist_ok=True)
+        s.write_text(textos[idioma], encoding="utf-8")
+        print(f"escrito {s.relative_to(RAIZ)}")
     return 0
 
 

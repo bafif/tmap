@@ -97,7 +97,8 @@ def extendida(ext, d, es_borrador):
 
 
 def controlar_cobertura():
-    """Avisa si la población o el informe de cobertura (docs/es/cobertura.md) no están al día con los paquetes."""
+    """Avisa si la población o los informes de cobertura (docs/es/cobertura.md y docs/en/coverage.md) no están al día
+    con los paquetes."""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     try:
         import cobertura
@@ -114,8 +115,11 @@ def controlar_cobertura():
     for rid, r in regiones.items():
         if r.get("demografia", []) != poblacion.demografia(r, mapa["series"].get(rid), datos):
             avisos.append(f"población: la serie de {rid} no está al día (corré python3 tools/enciclopedia/poblacion.py)")
-    if cobertura.SALIDA.read_text(encoding="utf-8") != cobertura.generar():
-        avisos.append("docs/es/cobertura.md está desactualizado (corré python3 tools/enciclopedia/cobertura.py)")
+    for idioma, salida in cobertura.SALIDAS.items():
+        actual = salida.read_text(encoding="utf-8") if salida.exists() else ""
+        if actual != cobertura.generar(idioma):
+            avisos.append(f"{salida.relative_to(cobertura.RAIZ).as_posix()} está desactualizado "
+                          "(corré python3 tools/enciclopedia/cobertura.py)")
 
 
 def main():
