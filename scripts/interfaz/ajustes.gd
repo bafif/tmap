@@ -217,6 +217,8 @@ func _construir() -> void:
 			Estado.seleccionar_lugar(DatosMapa.unidad_en(px), px))
 		lista.add_child(b)
 
+	_construir_actualizaciones(caja)
+
 	# Créditos
 	caja.add_child(_seccion("Datos y créditos"))
 	var cred := RichTextLabel.new()
@@ -234,6 +236,54 @@ func _construir() -> void:
 	version.text = "TellMAP %s · Bautista D. Fiori" % ProjectSettings.get_setting("application/config/version", "")
 	caja.add_child(version)
 	_panel.add_child(Marco.new())
+
+
+## Actualizaciones automáticas (Actualizador): estado, la casilla para apagarlas y los botones.
+func _construir_actualizaciones(caja: VBoxContainer) -> void:
+	caja.add_child(_seccion("Actualizaciones"))
+	var estado := _etiqueta("")
+	estado.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	estado.custom_minimum_size = Vector2(580, 0)
+	caja.add_child(estado)
+	var solo := CheckBox.new()
+	solo.text = "Buscar y bajar actualizaciones al abrir TellMAP"
+	solo.tooltip_text = ("Consulta la página del proyecto en GitHub: una versión nueva se instala para la próxima vez " +
+		"y los datos nuevos, enseguida. No manda nada tuyo.")
+	solo.button_pressed = bool(Estado.ajustes.get("actualizar_solo", true))
+	solo.toggled.connect(func(si: bool): Estado.fijar_ajuste("actualizar_solo", si))
+	caja.add_child(solo)
+	var fila := HBoxContainer.new()
+	fila.add_theme_constant_override("separation", 8)
+	caja.add_child(fila)
+	var buscar := Button.new()
+	buscar.text = "Buscar ahora"
+	buscar.pressed.connect(Actualizador.buscar)
+	fila.add_child(buscar)
+	var reiniciar := Button.new()
+	reiniciar.text = "Reiniciar ahora"
+	reiniciar.tooltip_text = "Vuelve a abrir TellMAP con lo que se instaló"
+	reiniciar.pressed.connect(Actualizador.reiniciar)
+	fila.add_child(reiniciar)
+	var bajar := Button.new()
+	bajar.text = "Ir a la descarga"
+	bajar.pressed.connect(func(): Estado.abrir_url(Actualizador.pagina_nueva))
+	fila.add_child(bajar)
+	var refrescar := func() -> void:
+		if not is_instance_valid(estado):
+			return
+		var t := Actualizador.texto
+		if t == "":
+			t = ("Versión %s%s." % [Actualizador.version_app(), ", datos del %s" % Datos.fecha(Datos.version)
+				if Datos.version > 0 else ""]) if Actualizador.habilitado else \
+				"Desde el código fuente, TellMAP se actualiza con git: esta copia no busca versiones nuevas."
+		estado.text = t
+		# Durante la prueba automática no se sale a internet: el recorrido salta los botones deshabilitados.
+		buscar.disabled = not Actualizador.habilitado or Actualizador.ocupado or Estado.sin_escribir
+		reiniciar.visible = Actualizador.pide_reinicio and not Estado.sin_escribir
+		bajar.visible = Actualizador.pagina_nueva != "" and Actualizador.app_lista == ""
+	refrescar.call()
+	Actualizador.estado_cambiado.connect(refrescar)
+	estado.tree_exiting.connect(func(): Actualizador.estado_cambiado.disconnect(refrescar))
 
 
 func _seccion(texto: String) -> Label:

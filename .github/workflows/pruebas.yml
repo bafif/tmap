@@ -38,6 +38,9 @@ jobs:
       - name: Prueba automática
         run: python3 tools/godot/tmap.py prueba
 
+      - name: Prueba de las actualizaciones automáticas
+        run: python3 tools/actualizacion/probar.py
+
       - name: Registro de la prueba
         if: always()
         run: python3 tools/godot/tmap.py registros --errores -n 200 || true

@@ -23,6 +23,7 @@ run/low_processor_mode=true
 
 Arranque="*res://scripts/nucleo/arranque.gd"
 Estado="*res://scripts/nucleo/estado.gd"
+Actualizador="*res://scripts/nucleo/actualizador.gd"
 DatosMapa="*res://scripts/nucleo/datos_mapa.gd"
 Enciclopedia="*res://scripts/nucleo/enciclopedia.gd"
 Wiki="*res://scripts/nucleo/wiki.gd"

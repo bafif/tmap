@@ -52,9 +52,11 @@ func _ready() -> void:
 	if args.has("verificar"):
 		var bien := DatosMapa.n_unidades > 0 and DatosMapa.entidades.size() > 0 and not Enciclopedia.regiones.is_empty() \
 			and not Enciclopedia.familias.is_empty()
-		print("TellMAP %s: %d unidades, %d entidades, %d regiones, %d fuentes, %d familias" % [
+		print("TellMAP %s: %d unidades, %d entidades, %d regiones, %d fuentes, %d familias; datos %s" % [
 			"bien" if bien else "FALTAN DATOS", DatosMapa.n_unidades, DatosMapa.entidades.size(),
-			Enciclopedia.regiones.size(), Enciclopedia.fuentes.size(), Enciclopedia.familias.size()])
+			Enciclopedia.regiones.size(), Enciclopedia.fuentes.size(), Enciclopedia.familias.size(),
+			"%d (%s)" % [Datos.version, "actualizados: " + ", ".join(Datos.grupos.keys()) if not Datos.grupos.is_empty()
+				else "los de adentro"]])
 		get_tree().quit(0 if bien else 1)
 	elif args.has("prueba"):
 		_prueba_automatica()

@@ -9,3 +9,6 @@
 /tools/pipeline/cache/
 __pycache__/
 *.pyc
+
+# Lo escribe tools/actualizacion/publicar.py sellar antes de exportar
+/data/version.json

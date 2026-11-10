@@ -74,7 +74,10 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
   no, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
   siempre cita sus fuentes y pasa por revisión humana.
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Lo único que sale a internet es la consulta a Wikipedia
-  cuando abrís una ficha, y queda en caché.
+  cuando abrís una ficha, que queda en caché, y la búsqueda de [actualizaciones](docs/es/actualizaciones.md) en GitHub
+  al abrir la app, que no manda nada tuyo y se apaga en Ajustes.
+- **Se actualiza sola.** La versión descargada baja e instala las versiones nuevas; cuando solo hay datos nuevos (más
+  fuentes, personas, hechos o regiones) baja nada más los archivos que cambiaron, sin reinstalar el programa.
 
 ## Probarlo
 

@@ -39,10 +39,11 @@ static func destino(ruta: String) -> String:
 	return ruta
 
 
-## De dónde se lee un archivo de la enciclopedia: la copia local si la versión exportada ya guardó una.
+## De dónde se lee un archivo de la enciclopedia: la copia local si la versión exportada ya guardó una; si no, la de
+## la última actualización de datos, si trajo una (Datos.ruta), o la de adentro.
 static func para_leer(ruta: String) -> String:
 	var local := destino(ruta)
-	return local if local != ruta and FileAccess.file_exists(local) else ruta
+	return local if local != ruta and FileAccess.file_exists(local) else Datos.ruta(ruta)
 
 
 ## El JSON de un paquete con el formato de siempre (sangría de 2 espacios, claves en su orden, sin los campos internos
@@ -93,7 +94,7 @@ static func escribir(ruta: String, datos: Dictionary) -> String:
 
 static func borrar(ruta: String) -> String:
 	ruta = para_leer(ruta)
-	if ruta.begins_with("res://") and guardar_local:
+	if ruta.begins_with(Datos.DIR_LOCAL) or (ruta.begins_with("res://") and guardar_local):
 		return "Ese archivo viene dentro del programa y no se puede borrar."
 	ultima_escritura = ruta
 	if Estado.sin_escribir:
@@ -112,10 +113,10 @@ static func borradores() -> Array:
 
 
 static func _jsons(dir: String) -> Array:
-	if not DirAccess.dir_exists_absolute(dir):
+	if not DirAccess.dir_exists_absolute(Datos.ruta(dir)):
 		return []
 	var out: Array = []
-	for f in DirAccess.get_files_at(dir):
+	for f in DirAccess.get_files_at(Datos.ruta(dir)):
 		if f.ends_with(".json"):
 			out.append(dir + f)
 	out.sort()

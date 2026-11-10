@@ -25,7 +25,12 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Publicar la versión 0.3.0 con ejecutables.** Los zips de Windows y Linux ya están exportados con las
       plantillas oficiales de Godot 4.7.2, con los datos dentro del ejecutable, y pasaron la prueba completa (Linux
       nativo, Windows con wine). Falta crear la versión v0.3.0 en GitHub y subirlos; al publicarla, el workflow
-      `version.yml` los vuelve a exportar y los reemplaza (va a ser su primera corrida).
+      `version.yml` los vuelve a exportar y los reemplaza (va a ser su primera corrida). Los zips de `build/` son de
+      antes del actualizador: los que valen son los que exporta el workflow, que además crea la versión fija
+      `actualizaciones` con el primer manifiesto. Desde ahí, las apps instaladas se actualizan solas.
+- [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
+      editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
+      actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
 
 ### Enciclopedia progresiva (0.3)
 
@@ -101,6 +106,24 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: actualizaciones automáticas
+
+- [x] **La versión exportada se actualiza sola** ([docs/es/actualizaciones.md](docs/es/actualizaciones.md)). Al abrir
+      consulta un manifiesto en GitHub; una versión nueva de la app se baja, se verifica (sha256) y reemplaza al
+      ejecutable, y se abre la próxima vez o con «Reiniciar ahora» (Linux: se renombra encima; Windows: el viejo pasa
+      a `.viejo`). Aviso arriba al centro y sección «Actualizaciones» en Ajustes, con la casilla para apagarlo.
+- [x] **Actualizaciones solo de datos**: si cambian los datos y no el código, la app baja nada más los archivos que
+      cambiaron (`.gz` con su sha256 en el nombre) y los instala en la carpeta del usuario por grupo (`mapa`,
+      `enciclopedia`), que tapan a los de adentro (`Datos.ruta()`); la enciclopedia nueva se ve enseguida. Cada
+      versión de datos pide una versión mínima de la app, y los datos bajados se descartan solos si la app trae unos
+      más nuevos.
+- [x] **Publicación**: `tools/actualizacion/publicar.py` (sella `data/version.json`, arma el manifiesto y los `.gz`);
+      `version.yml` publica el manifiesto con cada versión de la app y `datos.yml`, nuevo, publica solo datos en cada
+      push a master que toque `data/`, después de correr la prueba completa con el código de la última app publicada.
+- [x] **Prueba de punta a punta**: `tools/actualizacion/probar.py`, en `pruebas.yml`. Pasó desde el código fuente y
+      con un ejecutable de Linux exportado: baja solo el grupo que cambió, rechaza archivos y ejecutables adulterados,
+      se reemplaza a sí mismo y vuelve a arrancar.
 
 ### 10 de noviembre de 2026: el mundo entero en regiones, con su población
 

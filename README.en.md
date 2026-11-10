@@ -72,8 +72,11 @@ runs well from an old laptop to a gaming PC.
   in stages, and [a report generated from the data](docs/es/cobertura.md) (in Spanish) says what is covered and what
   is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
   human review.
-- **No accounts, no telemetry.** It runs on your computer. The only thing that goes online is the Wikipedia lookup when
-  you open an entry, and it is cached.
+- **No accounts, no telemetry.** It runs on your computer. The only things that go online are the Wikipedia lookup when
+  you open an entry, which is cached, and the [update](docs/es/actualizaciones.md) check on GitHub when the app opens,
+  which sends nothing about you and can be turned off in Settings.
+- **Updates itself.** The downloaded version installs new releases; when only the data changed (more sources, people,
+  events or regions) it downloads just the changed files, without reinstalling the program.
 
 ## Try it
 

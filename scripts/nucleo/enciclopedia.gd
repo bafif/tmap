@@ -37,9 +37,10 @@ func cargar() -> void:
 	_cache_valores.clear()
 	# Al recargar (después de editar) puede haber regiones nuevas o con otra área.
 	_regiones_de_unidad.clear()
-	if not DirAccess.dir_exists_absolute(DIR):
+	# Con una actualización de datos instalada, los paquetes se listan (y se leen) de su carpeta local.
+	if not DirAccess.dir_exists_absolute(Datos.ruta(DIR)):
 		return
-	var archivos := Array(DirAccess.get_files_at(DIR)).filter(func(f): return f.ends_with(".json"))
+	var archivos := Array(DirAccess.get_files_at(Datos.ruta(DIR))).filter(func(f): return f.ends_with(".json"))
 	archivos.sort()
 	for nombre in archivos:
 		# En una versión exportada, lo editado en el editor queda en una copia local que tapa al paquete de adentro.
