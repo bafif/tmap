@@ -1,8 +1,8 @@
 name: Pruebas
 
 # En cada push a main y en cada pull request: valida la enciclopedia, controla que la interfaz y la página del proyecto
-# tengan todos sus textos en inglés, compila todos los scripts y corre la prueba automática completa de la app, sin
-# pantalla, en español y en inglés.
+# tengan todos sus textos en inglés y que cada documento tenga su par en el otro idioma, compila todos los scripts y
+# corre la prueba automática completa de la app, sin pantalla, en español y en inglés.
 
 on:
   push:
@@ -25,6 +25,9 @@ jobs:
 
       - name: Textos de la interfaz y de la página en los dos idiomas
         run: python3 tools/traduccion/interfaz.py revisar
+
+      - name: Documentación en los dos idiomas
+        run: python3 tools/traduccion/documentos.py
 
       - name: Cuánto de la enciclopedia está traducido
         run: python3 tools/traduccion/enciclopedia.py estado
