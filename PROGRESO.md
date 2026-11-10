@@ -22,12 +22,10 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El `.exe` de la 0.3.0 ya pasó
       `--verificar` y la prueba completa con wine; falta un Windows de verdad. El modo OpenGL
       (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
-- [ ] **Publicar la versión 0.3.0 con ejecutables.** Los zips de Windows y Linux ya están exportados con las
-      plantillas oficiales de Godot 4.7.2, con los datos dentro del ejecutable, y pasaron la prueba completa (Linux
-      nativo, Windows con wine). Falta crear la versión v0.3.0 en GitHub y subirlos; al publicarla, el workflow
-      `version.yml` los vuelve a exportar y los reemplaza (va a ser su primera corrida). Los zips de `build/` son de
-      antes del actualizador: los que valen son los que exporta el workflow, que además crea la versión fija
-      `actualizaciones` con el primer manifiesto. Desde ahí, las apps instaladas se actualizan solas.
+- [ ] **Publicar la versión 0.3.1, la primera que se actualiza sola.** La 0.3.0 (publicada el 7 de noviembre) no
+      trae el actualizador: quien la tenga baja la 0.3.1 a mano esta única vez. Al publicar la v0.3.1, `version.yml`
+      exporta, sube los ejecutables y crea la versión fija `actualizaciones` con el primer manifiesto; desde ahí las
+      apps se actualizan solas y `datos.yml` publica los datos nuevos.
 - [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
       editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
       actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
@@ -243,7 +241,8 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       aprueba un borrador y prueba el clic en el mapa; el recorrido suma cinco escenarios del editor (548 controles).
 - [x] **El editor también guarda en la versión exportada**: como los paquetes van dentro del ejecutable, guarda copias
       en la carpeta del usuario que tapan a los de adentro.
-- [x] **Versión 0.3.0 exportada** para Windows y Linux, con los datos dentro del ejecutable (un solo archivo).
+- [x] **Versión 0.3.0 exportada** para Windows y Linux, con los datos dentro del ejecutable (un solo archivo), y
+      publicada en GitHub (`version.yml` exportó y subió los zips).
 
 ### 6 de noviembre de 2026: enciclopedia progresiva (0.3)
 
