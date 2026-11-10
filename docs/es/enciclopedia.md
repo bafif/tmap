@@ -8,7 +8,7 @@ dato dice de dónde salió.
 - **Fronteras y entidades** de todo el mundo (Cliopatria): cada entidad trae su artículo de Wikipedia y su id de
   Wikidata.
 - **Resúmenes de Wikipedia en vivo**, en español primero y en inglés si no hay, guardados en caché por 30 días.
-- **Cinco paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
+- **Doce paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
   idiomas. Entre todos suman 88 regiones que cubren el 99,6 % de la tierra firme, y cada una tiene población
   estimada desde el 10 000 a. C. o se cuenta dentro de otra. Lo cubierto y lo que falta está en
   [Cobertura de la enciclopedia](cobertura.md), que se genera solo:
@@ -34,12 +34,24 @@ dato dice de dónde salió.
   - `regiones-del-mundo.json`, las 46 regiones que completan el mapa (de Siberia y Japón a África, las Américas y
     Oceanía), armadas con las fronteras de los países actuales de Natural Earth: resumen, eras y población. Todavía
     no tienen religiones, culturas ni idiomas.
+  - **La época contemporánea**, en siete paquetes temáticos sin regiones propias (629 fuentes, 510 personas, 440
+    hechos y 86 lugares), verificados igual que los anteriores: `pensamiento-economico` (de Smith a la escuela
+    austríaca, Keynes, Chicago, el libertarismo y la CEPAL), `ideas-politicas` (socialismo, anarquismo, sionismo,
+    fascismo, totalitarismo y sus críticos, descolonización, feminismo, ecologismo), `argentina-contemporanea` (de
+    1880 a hoy, con la doctrina peronista, la dictadura, Malvinas, los censos y las causas judiciales contra el
+    kirchnerismo), `ciencia-y-tecnologia` (las publicaciones que abrieron tecnologías, con sus Nobel),
+    `cultura-libre-y-hackers` (GNU, cypherpunks, WikiLeaks, Anonymous), `guerras-y-orden-mundial` (declaraciones de
+    guerra, tratados y resoluciones de 1914 a hoy) y `letras-y-pensamiento-del-siglo-xx`.
+- **Series por país desde 1800** (población, esperanza de vida, fecundidad, economía, educación) en la pestaña
+  «Datos», para el país actual de cada punto: `data/demografia/`, de `tools/demografia/series.py`.
 - **Población de todas las regiones**: `tools/enciclopedia/poblacion.py` suma, para cada región, la serie por país de
   Our World in Data (HYDE 3.3, Gapminder y la ONU), según la asignación de `tools/enciclopedia/poblacion_regiones.json`.
   Las estimaciones curadas de especialistas mandan: en los años que cubren no se agrega nada.
   `tools/enciclopedia/cobertura.py` rehace el informe de cobertura y `validar.py` avisa si quedó viejo.
 - El formato está en [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md) y se valida con
-  `python3 tools/enciclopedia/validar.py`.
+  `python3 tools/enciclopedia/validar.py`. Para escribir muchas fichas de una vez hay un [formato
+  compacto](../../tools/enciclopedia/compacto/FORMATO.md) de texto que `tools/enciclopedia/compacto/construir.py`
+  convierte en paquetes verificados contra Wikipedia y Wikidata.
 - **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).
 
 ## ¿Y Grokipedia?

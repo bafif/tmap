@@ -56,6 +56,20 @@ hacerlo:
 El universo cubierto y el que falta, región por región, está en [docs/es/cobertura.md](docs/es/cobertura.md), que
 genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 
+- [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Los siete paquetes del 10/11/2026
+      cubren las ideas, la ciencia, las guerras y la Argentina; faltan la historia política del siglo XX de Brasil,
+      México, Chile y el resto de América Latina, China después de Mao, la India independiente, África después de la
+      descolonización y el sudeste asiático, con sus fuentes propias.
+- [ ] **Más enlaces de lectura para lo contemporáneo.** 302 de las 629 fuentes nuevas no tienen enlace: muchas tienen
+      derechos vigentes (los textos de Perón entran en dominio público en 2045) y varios sitios (PNAS, la Royal
+      Society, el IPCC, la Biblioteca Kennedy, mises.org, oll.libertyfund.org) responden 403 al verificador aunque
+      abren en un navegador. Habría que aceptar los DOI y los sitios oficiales que rechazan programas, comprobándolos
+      a mano, y buscar las sentencias de las causas contra el kirchnerismo en una copia oficial que responda.
+- [ ] **Causas judiciales en curso.** Al 10/11/2026: el juicio oral de Cuadernos sigue sin sentencia, y no está claro
+      si empezaron los de Hotesur-Los Sauces y el Memorándum con Irán. Revisarlos cada tanto y actualizar sus hechos.
+- [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
+      Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
+      Onetti, Carlos Fuentes, Clarice Lispector y Galeano. Hawái no tiene región (Pearl Harbor queda fuera de todas).
 - [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 46 regiones de `regiones-del-mundo.json`
       (Siberia, Japón, África, las Américas, Oceanía…) tienen resumen, eras y población, pero no esas tres capas:
       el modo de religión, cultura o idioma las deja rayadas. Habrá que sumar familias (sintoísmo, religiones
@@ -134,6 +148,39 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 ## Hecho
 
+### 10 de noviembre de 2026: la época contemporánea, en siete paquetes
+
+- [x] **Siete paquetes nuevos** con 629 fuentes, 510 personas, 440 hechos y 86 lugares (la enciclopedia pasa de 1510
+      a 3175 elementos), verificados contra Wikipedia y Wikidata con el mismo método que los paquetes medievales y de
+      Tierra Santa, y 376 enlaces de lectura que respondieron 200:
+      - `pensamiento-economico`: de Smith y Alberdi a la escuela austríaca completa (Menger, Böhm-Bawerk, Mises,
+        Hayek, Rothbard, Kirzner, Hoppe, Huerta de Soto), Keynes y el keynesianismo, Chicago y Friedman, el
+        libertarismo (Rand, Nozick, *Por una nueva libertad*), Bretton Woods, Mont Pelerin, la CEPAL y Prebisch, y las
+        conferencias de Mises en Buenos Aires (1959).
+      - `ideas-politicas`: socialismo y comunismo de Marx a Mao y el Che, anarquismo de Proudhon a la CNT, el
+        sionismo que faltaba (Altneuland, Borojov, la Ley del Retorno) y el Bund, fascismo y nazismo como documentos
+        históricos, Arendt y Popper, descolonización, derechos civiles, feminismo, ecologismo, el manifiesto de
+        Kaczynski, Fukuyama y Laclau.
+      - `argentina-contemporanea`: de la Ley 1420 a Milei, con la doctrina peronista completa (la Comunidad
+        organizada, las veinte verdades, Conducción política, la Constitución de 1949), el antiperonismo, la
+        dictadura, el Nunca más y el Juicio a las Juntas, Malvinas con las resoluciones 2065 y 502, los censos
+        nacionales de 1869 a 2022 y las causas contra el kirchnerismo (Vialidad firme desde el 10/6/2025, Cuadernos,
+        Hotesur, el Memorándum, Ciccone, Once, la Ruta del dinero K, los bolsos de López) con la posición de los
+        condenados y los fallos que no fueron condena; $LIBRA, con el sobreseimiento del 23/10/2026.
+      - `ciencia-y-tecnologia`: las publicaciones que abrieron tecnologías, de Planck y Einstein a Turing, Shannon,
+        el transistor, el ADN, ARPANET, la web, el transformer, AlphaFold y CRISPR, con sus premios Nobel.
+      - `cultura-libre-y-hackers`: GNU y su manifiesto, la carta de Gates (1976, anterior a GNU: no fue una
+        respuesta), la GPL, Linux, los documentos Halloween, cypherpunks y Bitcoin, WikiLeaks y Assange, Manning,
+        Snowden, Anonymous, Aaron Swartz y Sci-Hub.
+      - `guerras-y-orden-mundial`: ultimátums y declaraciones de guerra de 1914 a 2022, los tratados y cartas del
+        orden internacional (Versalles, la ONU, la Declaración Universal, la OTAN, Maastricht, París), la Guerra Fría
+        y las guerras posteriores, con el estado de Ucrania al 10/11/2026.
+      - `letras-y-pensamiento-del-siglo-xx`: las novelas y ensayos que marcaron el siglo, con los premios Nobel de
+        literatura, la literatura argentina y latinoamericana, la filosofía y las ciencias sociales.
+- [x] Arreglado: el polígono del Río de la Plata dejaba afuera la costa porteña y La Plata (la Casa Rosada y la Plaza
+      de Mayo no caían en ninguna región); la Patagonia ahora incluye las islas Malvinas, que no tenían región.
+- [x] La app abre los 3263 elementos de la enciclopedia (3,8 MB) en 150 a 230 ms.
+
 ### 10 de noviembre de 2026: la demografía de cada país y el plan de almacenamiento
 
 - [x] **«País actual» en la pestaña «Datos»**: para cualquier punto del mapa desde 1800, el país de hoy que lo
@@ -146,7 +193,8 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       las unidades y asigna cada una al que cubre la mayor parte de su tierra (229 países; 782 de 58 076 unidades
       quedan sin país: hielo, zonas en disputa, bordes costeros).
 - [x] **Carga perezosa**: las series por país se leen al abrir por primera vez la pestaña «Datos» (29 ms), no al
-      arrancar. Y la app dice al arrancar cuánto pesa y cuánto tarda la enciclopedia (hoy, 2,1 MB en 228 ms).
+      arrancar. Y la app dice al arrancar cuánto pesa y cuánto tarda la enciclopedia (con la época contemporánea,
+      3,8 MB en 150 a 230 ms).
 - [x] **Población de las regiones por década** en el siglo XX y lo que va del XXI (antes, cada 25 años).
 - [x] **`GraficoSerie` para cualquier indicador**: escala lineal o logarítmica, con su unidad en el tooltip; con
       series anuales no dibuja un punto por año.

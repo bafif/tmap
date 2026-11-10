@@ -1,0 +1,5444 @@
+{
+  "paquete": "cultura-libre-y-hackers",
+  "descripcion": "Software libre, cultura hacker, criptografía y cypherpunks, WikiLeaks, Anonymous y las filtraciones: la disputa por la libertad de la información desde los años setenta.",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "carta-abierta-a-los-aficionados",
+      "titulo": "Carta abierta a los aficionados",
+      "titulo_original": "An Open Letter to Hobbyists",
+      "autor": "Bill Gates",
+      "autor_id": "bill-gates",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Albuquerque (Nuevo México)",
+        "lon": -106.65,
+        "lat": 35.084
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1975,
+        "hasta": 1976
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Carta publicada en boletines",
+      "resumen": "Carta del 3 de febrero de 1976, publicada en el boletín del Homebrew Computer Club, en la que Bill Gates, entonces socio de una pequeña Micro-Soft, se queja de que la mayoría de los aficionados usa copias del Altair BASIC sin pagarlo. Calcula que el trabajo invertido valía más de 40.000 dólares y pregunta quién va a hacer buen software si no se lo paga. Muchos aficionados respondieron que el programa era caro y que compartir era la costumbre del ambiente.",
+      "por_que_importa": "Es el primer planteo público de que el software es un producto que se vende con licencia, siete años antes del proyecto GNU y nueve antes del Manifiesto GNU: no fue una respuesta a Stallman sino un antecedente del modelo que él cuestionaría.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Open_Letter_to_Hobbyists",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Carta abierta a los aficionados",
+        "en": "An Open Letter to Hobbyists"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anuncio-gnu",
+      "titulo": "Anuncio del proyecto GNU",
+      "titulo_original": "Initial Announcement",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1983,
+        "hasta": 1983
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Mensaje en grupos de noticias de Usenet",
+      "resumen": "Mensaje del 27 de septiembre de 1983 en los grupos net.unix-wizards y net.usoft en el que Stallman anuncia que va a escribir un sistema operativo completo compatible con Unix, llamado GNU («GNU No es Unix»), y regalarlo a quien quiera usarlo. Pide a los fabricantes donaciones de máquinas y a los programadores, tiempo y código.",
+      "por_que_importa": "Es el acta de nacimiento del movimiento del software libre, escrita cuando el código compartido del MIT cedía ante las licencias comerciales.",
+      "leer": [
+        {
+          "titulo": "Texto en español en gnu.org",
+          "url": "https://www.gnu.org/gnu/initial-announcement.es.html",
+          "idioma": "es",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Texto original en gnu.org",
+          "url": "https://www.gnu.org/gnu/initial-announcement.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Proyecto GNU",
+        "en": "GNU Project"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-gnu",
+      "titulo": "El Manifiesto GNU",
+      "titulo_original": "The GNU Manifesto",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1983,
+        "hasta": 1985
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en la revista Dr. Dobb's Journal",
+      "resumen": "Publicado en marzo de 1985 en la revista Dr. Dobb's, explica por qué Stallman escribe GNU: la «regla de oro» de compartir un programa que a uno le gusta, frente a las licencias que dividen a los usuarios. Responde objeciones (cómo cobrarán los programadores, quién dará soporte) y propone vivir de servicios, adaptaciones y donaciones.",
+      "por_que_importa": "Es el texto fundador del software libre. No contesta la carta de Gates de 1976 (no la menciona), pero discute el modelo de software vendido con licencia que esa carta defendía.",
+      "leer": [
+        {
+          "titulo": "Texto en español en gnu.org",
+          "url": "https://www.gnu.org/gnu/manifesto.es.html",
+          "idioma": "es",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Texto original en gnu.org",
+          "url": "https://www.gnu.org/gnu/manifesto.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Manifiesto GNU",
+        "en": "GNU Manifesto"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "definicion-de-software-libre",
+      "titulo": "La definición de software libre",
+      "titulo_original": "The Free Software Definition",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1986,
+        "hasta": 1986
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Boletín GNU, luego página de gnu.org",
+      "resumen": "Publicada por primera vez en el Boletín GNU de febrero de 1986, define el software libre por la libertad y no por el precio («libre como en libertad de expresión, no como en cerveza gratis»). En su forma actual enumera cuatro libertades: usar el programa con cualquier fin, estudiarlo y modificarlo (con acceso al código fuente), redistribuir copias y distribuir versiones modificadas.",
+      "por_que_importa": "Es el criterio con que la FSF juzga licencias y programas, y la base de la Definición de Open Source.",
+      "leer": [
+        {
+          "titulo": "Texto en español en gnu.org",
+          "url": "https://www.gnu.org/philosophy/free-sw.es.html",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Definición de software libre",
+        "en": "The Free Software Definition"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gpl",
+      "titulo": "Licencia Pública General de GNU (GPL)",
+      "titulo_original": "GNU General Public License",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1989,
+        "anio_hasta": 2007,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1989,
+        "hasta": 2007
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Licencia",
+      "resumen": "Licencia de derecho de autor que permite usar, estudiar, copiar y modificar un programa con la condición de que las versiones que se distribuyan conserven la misma licencia y el código fuente («copyleft»). La versión 1 es de 1989, la 2 de 1991 (la del núcleo Linux) y la 3, de 2007, redactada con Eben Moglen tras un debate público, agrega reglas contra las patentes y contra los dispositivos que impiden instalar versiones modificadas.",
+      "por_que_importa": "Usó el derecho de autor para garantizar la libertad de copia. Sus críticos, desde Microsoft hasta partidarios de licencias permisivas como la BSD, le objetan que esa condición «contagia» a los programas que la incorporan.",
+      "leer": [
+        {
+          "titulo": "Versión 3 (2007), texto oficial en gnu.org",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Versión 2 (1991) en gnu.org",
+          "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Versión 1 (1989) en gnu.org",
+          "url": "https://www.gnu.org/licenses/old-licenses/gpl-1.0.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "GNU General Public License",
+        "en": "GNU General Public License"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-derecho-a-leer",
+      "titulo": "El derecho a leer",
+      "titulo_original": "The Right to Read",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1997,
+        "hasta": 1997
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Cuento en la revista Communications of the ACM",
+      "resumen": "Cuento publicado en febrero de 1997 en el que, en un futuro, prestar un libro electrónico o la propia computadora es delito, y los programas de depuración requieren licencia. Una estudiante, Lissa, le pide a su compañero Dan que le preste su computadora, y él debe elegir entre ayudarla y obedecer la ley.",
+      "por_que_importa": "Anticipó los debates sobre la gestión digital de derechos y la DMCA de 1998; Stallman le agregó notas que siguen las leyes que acercaron esa ficción a la realidad.",
+      "leer": [
+        {
+          "titulo": "Texto en español en gnu.org",
+          "url": "https://www.gnu.org/philosophy/right-to-read.es.html",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "El derecho a leer",
+        "en": "The Right to Read"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "software-libre-para-una-sociedad-libre",
+      "titulo": "Software libre para una sociedad libre",
+      "titulo_original": "Free Software, Free Society: Selected Essays of Richard M. Stallman",
+      "autor": "Richard Stallman",
+      "autor_id": "stallman",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1983,
+        "hasta": 2002
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Recopilación de ensayos de Stallman editada por Joshua Gay: el Manifiesto GNU, la definición de software libre, «Por qué el software no debe tener propietarios», «El derecho a leer» y textos sobre las patentes y el copyleft. Insiste en que la cuestión es ética y no técnica y en diferenciar el software libre del código abierto.",
+      "por_que_importa": "Es la exposición más completa de la filosofía del software libre; la edición castellana de Traficantes de Sueños (2004) circula con licencia libre.",
+      "leer": [
+        {
+          "titulo": "Edición en español de Traficantes de Sueños, con licencia libre",
+          "url": "https://www.traficantes.net/libros/software-libre-para-una-sociedad-libre",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Software libre para una sociedad libre",
+        "en": "Free Software, Free Society"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anuncio-de-linux",
+      "titulo": "Anuncio de Linux",
+      "titulo_original": "What would you like to see most in minix?",
+      "autor": "Linus Torvalds",
+      "autor_id": "torvalds",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Helsinki",
+        "lon": 24.938,
+        "lat": 60.171
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1991,
+        "hasta": 1991
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Mensaje en el grupo de noticias comp.os.minix",
+      "resumen": "Mensaje del 25 de agosto de 1991 en el que un estudiante de Helsinki cuenta que está haciendo un sistema operativo libre para computadoras 386 «solo como pasatiempo, no va a ser grande y profesional como GNU». Pide opiniones a los usuarios de MINIX sobre qué funciones quieren.",
+      "por_que_importa": "Es el comienzo del núcleo Linux, que combinado con las herramientas de GNU dio un sistema operativo libre completo, la base de buena parte de los servidores y teléfonos actuales.",
+      "leer": [
+        {
+          "titulo": "Mensaje original en el archivo de Usenet",
+          "url": "https://groups.google.com/g/comp.os.minix/c/dlNtH7RRrGA/m/SwRavCzVE7gJ",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Núcleo Linux",
+        "en": "Linux kernel"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "linux-es-obsoleto",
+      "titulo": "Linux es obsoleto",
+      "titulo_original": "LINUX is obsolete",
+      "autor": "Andrew S. Tanenbaum",
+      "autor_id": "andrew-tanenbaum",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1991,
+        "hasta": 1992
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Mensajes en el grupo de noticias comp.os.minix",
+      "resumen": "Mensaje del 29 de enero de 1992 en el que Tanenbaum critica que Linux sea un núcleo monolítico, en vez de un micronúcleo, y que dependa de la arquitectura 386; Torvalds le responde defendiendo su diseño práctico. El intercambio, con otros participantes, se conoce como el debate Tanenbaum-Torvalds.",
+      "por_que_importa": "Muestra una discusión técnica en público y en una comunidad abierta, la forma de trabajo que luego Raymond llamaría «bazar».",
+      "leer": [
+        {
+          "titulo": "El debate completo, apéndice del libro Open Sources (O'Reilly)",
+          "url": "https://www.oreilly.com/openbook/opensources/book/appa.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Debate Tanenbaum–Torvalds",
+        "en": "Tanenbaum–Torvalds debate"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-debian",
+      "titulo": "El Manifiesto Debian",
+      "titulo_original": "The Debian Manifesto",
+      "autor": "Ian Murdock",
+      "autor_id": "ian-murdock",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "West Lafayette (Indiana)",
+        "lon": -86.912,
+        "lat": 40.442
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1993,
+        "hasta": 1994
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Texto de enero de 1994 en el que Ian Murdock explica que Debian será una distribución de GNU/Linux hecha «abiertamente», con el espíritu de Linux y GNU, por voluntarios y no por una empresa con fines comerciales. La Free Software Foundation patrocinó el proyecto entre 1994 y 1995.",
+      "por_que_importa": "Fijó el modelo de una distribución comunitaria, que Debian sigue y del que derivan Ubuntu y muchas otras, entre ellas la argentina Huayra.",
+      "leer": [
+        {
+          "titulo": "Texto en debian.org",
+          "url": "https://www.debian.org/doc/manuals/project-history/manifesto.en.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "contrato-social-de-debian",
+      "titulo": "El contrato social de Debian",
+      "titulo_original": "Debian Social Contract",
+      "autor": "Bruce Perens",
+      "autor_id": "bruce-perens",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Internet"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1997,
+        "hasta": 1997
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Compromiso del proyecto Debian, aprobado en julio de 1997: Debian será siempre software libre, devolverá sus mejoras a la comunidad, no ocultará los problemas y se guiará por las necesidades de sus usuarios. Incluye las Pautas de Software Libre de Debian (DFSG), los criterios para aceptar una licencia.",
+      "por_que_importa": "Las DFSG, escritas por Bruce Perens, se convirtieron casi sin cambios en la Definición de Open Source de 1998.",
+      "leer": [
+        {
+          "titulo": "Texto en español en debian.org",
+          "url": "https://www.debian.org/social_contract.es.html",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Contrato Social de Debian",
+        "en": "Debian Social Contract"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-catedral-y-el-bazar",
+      "titulo": "La catedral y el bazar",
+      "titulo_original": "The Cathedral and the Bazaar",
+      "autor": "Eric S. Raymond",
+      "autor_id": "eric-raymond",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Wurzburgo",
+        "lon": 9.929,
+        "lat": 49.794
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1991,
+        "hasta": 1997
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo, luego libro (1999)",
+      "resumen": "Ensayo presentado en mayo de 1997 en el Linux Kongress de Wurzburgo que compara dos formas de hacer software: la «catedral», con versiones cerradas y planificadas por pocos, y el «bazar» de Linux, con versiones tempranas y frecuentes abiertas a todos. Formula la «ley de Linus»: «con suficientes ojos, todos los errores son superficiales».",
+      "por_que_importa": "Defendió la apertura del código por su eficacia técnica y no por razones éticas; influyó en la decisión de Netscape de liberar su navegador y en el nacimiento del «código abierto».",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio del autor",
+          "url": "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Traducción al español de José Soto Pino",
+          "url": "http://biblioweb.sindominio.net/telematica/catedral.html",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La catedral y el bazar",
+        "en": "The Cathedral and the Bazaar"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "definicion-de-open-source",
+      "titulo": "La Definición de Open Source",
+      "titulo_original": "The Open Source Definition",
+      "autor": "Bruce Perens",
+      "autor_id": "bruce-perens",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Palo Alto (California)",
+        "lon": -122.16,
+        "lat": 37.444
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1998,
+        "hasta": 1998
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Diez criterios que debe cumplir una licencia para ser de código abierto, adaptados por Perens de las pautas de Debian: libre redistribución, acceso al código fuente, permiso de obras derivadas, no discriminar personas ni usos, entre otros. La aplica la Open Source Initiative para aprobar licencias.",
+      "por_que_importa": "Casi todas las licencias que cumplen esta definición también son libres para la FSF; la diferencia entre ambos movimientos está más en los argumentos (eficacia o ética) que en las licencias.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio de la Open Source Initiative",
+          "url": "https://opensource.org/osd",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Open Source Definition",
+        "en": "The Open Source Definition"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "documentos-halloween",
+      "titulo": "Documentos Halloween",
+      "titulo_original": "Halloween documents",
+      "autor": "Vinod Valloppillil y otros (Microsoft)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Redmond (Washington)",
+        "lon": -122.124,
+        "lat": 47.669
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1998,
+        "hasta": 1998
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorandos internos",
+      "resumen": "Memorandos internos de Microsoft de 1998 que analizan el software de código abierto, en particular Linux, como una amenaza para la empresa y proponen, entre otras estrategias, extender los protocolos estándar con agregados propios para cerrarle el paso. Eric Raymond los recibió filtrados y los publicó comentados en noviembre de 1998; Microsoft confirmó su autenticidad, aclarando que eran análisis técnicos y no la posición oficial.",
+      "por_que_importa": "Mostraron que Microsoft se tomaba en serio la competencia del software libre, y sus autores reconocían en ellos la calidad de ese modelo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Documentos Halloween",
+        "en": "Halloween documents"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "linux-es-un-cancer",
+      "titulo": "«Linux es un cáncer»",
+      "titulo_original": "Linux is a cancer",
+      "autor": "Steve Ballmer",
+      "autor_id": "steve-ballmer",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2001,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Entrevista en el Chicago Sun-Times",
+      "resumen": "Entrevista del 1 de junio de 2001 en la que el director ejecutivo de Microsoft dice que Linux «es un cáncer que se adhiere, en el sentido de la propiedad intelectual, a todo lo que toca», en referencia a la obligación de la GPL de liberar las obras derivadas. Sostiene que eso es incompatible con el negocio del software comercial.",
+      "por_que_importa": "Resume la posición de Microsoft frente al software libre a comienzos de siglo, que la empresa abandonó en la década siguiente.",
+      "leer": [
+        {
+          "titulo": "Nota de The Register sobre la entrevista",
+          "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "discurso-del-codigo-compartido",
+      "titulo": "El modelo comercial de software",
+      "titulo_original": "The Commercial Software Model",
+      "autor": "Craig Mundie",
+      "autor_id": "craig-mundie",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2001,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Discurso en la Escuela de Negocios Stern de la Universidad de Nueva York",
+      "resumen": "Discurso del 3 de mayo de 2001 en el que Mundie sostiene que la GPL amenaza la propiedad intelectual y la industria del software, y presenta como alternativa el «código compartido» (shared source): mostrar el código de Microsoft a ciertos clientes y socios sin permitir que lo redistribuyan. Stallman, Torvalds y otros le respondieron públicamente.",
+      "por_que_importa": "Es la formulación más articulada de la defensa del software privativo frente al software libre a comienzos de siglo.",
+      "leer": [
+        {
+          "titulo": "Texto del discurso en el sitio de Microsoft (Internet Archive)",
+          "url": "https://web.archive.org/web/2001/http://www.microsoft.com/presspass/exec/craig/05-03sharedsource.asp",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Shared source",
+        "en": "Shared Source Initiative"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-microsoft-apelacion",
+      "titulo": "Fallo de la Cámara de Apelaciones en Estados Unidos contra Microsoft",
+      "titulo_original": "United States v. Microsoft Corp., 253 F.3d 34",
+      "autor": "Cámara de Apelaciones del Circuito de D.C.",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1998,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Sentencia unánime del 28 de junio de 2001 en la que el tribunal en pleno confirma que Microsoft mantuvo ilegalmente su monopolio de sistemas operativos para PC, pero revoca la condena por intentar monopolizar los navegadores, ordena reexaminar la de atar el navegador a Windows y anula la orden de dividir la empresa. Aparta al juez Jackson por haber dado entrevistas durante el proceso y devuelve el caso para fijar otra sanción.",
+      "por_que_importa": "Llevó al acuerdo de noviembre de 2001, que obligó a Microsoft a compartir interfaces con otras empresas sin dividirla; para algunos fue una sanción débil, para otros una intervención excesiva en el mercado.",
+      "leer": [
+        {
+          "titulo": "Documentos del caso en el Departamento de Justicia",
+          "url": "https://www.justice.gov/atr/case/us-v-microsoft-corporation-browser-and-middleware",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "dmca",
+      "titulo": "Ley de Derechos de Autor de la Era Digital (DMCA)",
+      "titulo_original": "Digital Millennium Copyright Act",
+      "autor": "Congreso de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1998,
+        "hasta": 1998
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley firmada por Bill Clinton el 28 de octubre de 1998 que aplica los tratados de la OMPI de 1996: prohíbe eludir las medidas técnicas de protección de las obras (gestión digital de derechos) y fabricar herramientas para hacerlo, y exime a los proveedores de internet de responsabilidad si retiran contenidos ante una denuncia.",
+      "por_que_importa": "La industria cultural la defiende como protección contra la copia masiva; la EFF y los defensores del software libre le reprochan que frene la investigación de seguridad, el uso legítimo y la interoperabilidad, como en el caso del programa DeCSS.",
+      "leer": [
+        {
+          "titulo": "Texto oficial de la ley (govinfo)",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-105publ304/pdf/PLAW-105publ304.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Resumen de la Oficina de Derecho de Autor de Estados Unidos",
+          "url": "https://www.copyright.gov/legislation/dmca.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Digital Millennium Copyright Act",
+        "en": "Digital Millennium Copyright Act"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sopa",
+      "titulo": "Ley para Detener la Piratería en Línea (SOPA)",
+      "titulo_original": "Stop Online Piracy Act",
+      "autor": "Lamar Smith y otros (Cámara de Representantes)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2011,
+        "hasta": 2012
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Proyecto de ley",
+      "resumen": "Proyecto presentado en octubre de 2011 que permitía a la Justicia ordenar a proveedores, buscadores, procesadores de pagos y anunciantes cortar el acceso a sitios extranjeros acusados de piratería. Su par en el Senado era PIPA (Ley de Protección de la Propiedad Intelectual), de mayo de 2011.",
+      "por_que_importa": "Apoyado por las industrias del cine y la música y la Cámara de Comercio, fue retirado tras el apagón de protesta del 18 de enero de 2012, que lo presentó como censura de internet.",
+      "leer": [
+        {
+          "titulo": "Texto del proyecto (govinfo)",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-112hr3261ih/pdf/BILLS-112hr3261ih.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Stop Online Piracy Act",
+        "en": "Stop Online Piracy Act"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-codigo-lessig",
+      "titulo": "El código y otras leyes del ciberespacio",
+      "titulo_original": "Code and Other Laws of Cyberspace",
+      "autor": "Lawrence Lessig",
+      "autor_id": "lawrence-lessig",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1990,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Sostiene que en el ciberespacio el código, es decir la arquitectura del software, regula la conducta tanto como la ley, el mercado y las normas sociales («el código es ley»). Advierte que el comercio y los gobiernos pueden programar internet para controlarla y que esas decisiones deben discutirse políticamente.",
+      "por_que_importa": "Discutió la idea, difundida por Barlow, de que internet era por naturaleza imposible de regular. Lessig publicó en 2006 una segunda versión escrita en parte en forma colaborativa y con licencia libre.",
+      "leer": [
+        {
+          "titulo": "Segunda versión (2006), con licencia libre",
+          "url": "https://codev2.cc/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "El código y otras leyes del ciberespacio",
+        "en": "Code and Other Laws of Cyberspace"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cultura-libre-lessig",
+      "titulo": "Cultura libre",
+      "titulo_original": "Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity",
+      "autor": "Lawrence Lessig",
+      "autor_id": "lawrence-lessig",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1790,
+        "hasta": 2004
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Lessig sostiene que la extensión de los plazos del derecho de autor y su aplicación a cada copia digital convierten una «cultura libre», que siempre se basó en tomar y transformar lo anterior, en una «cultura del permiso». Recorre la historia de Disney, la radio, el cine y el caso Eldred, y propone licencias como las de Creative Commons.",
+      "por_que_importa": "Se publicó con licencia Creative Commons el mismo día que en papel y dio nombre al movimiento de cultura libre; sus críticos defienden que el derecho de autor fuerte es lo que financia la creación.",
+      "leer": [
+        {
+          "titulo": "Sitio del libro, con licencia Creative Commons",
+          "url": "http://www.free-culture.cc/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Cultura libre (libro)",
+        "en": "Free Culture (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "licencias-creative-commons",
+      "titulo": "Licencias Creative Commons",
+      "titulo_original": "Creative Commons licenses",
+      "autor": "Creative Commons",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2002,
+        "hasta": 2002
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Licencias",
+      "resumen": "Conjunto de licencias publicado en diciembre de 2002 que permiten al autor conservar sus derechos y autorizar por adelantado ciertos usos («algunos derechos reservados»), combinando condiciones: atribución, sin obras derivadas, no comercial y compartir igual. Se adaptaron a las leyes de decenas de países, entre ellos la Argentina.",
+      "por_que_importa": "Son las licencias de Wikipedia (atribución y compartir igual), de muchas revistas de acceso abierto y de millones de obras.",
+      "leer": [
+        {
+          "titulo": "Las licencias en creativecommons.org",
+          "url": "https://creativecommons.org/licenses/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Licencias Creative Commons",
+        "en": "Creative Commons license"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-eldred-contra-ashcroft",
+      "titulo": "Fallo Eldred contra Ashcroft",
+      "titulo_original": "Eldred v. Ashcroft, 537 U.S. 186",
+      "autor": "Corte Suprema de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1998,
+        "hasta": 2003
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Fallo del 15 de enero de 2003 que, por siete votos contra dos, declara constitucional la ley de 1998 que extendió veinte años los plazos del derecho de autor, incluso para obras ya publicadas. Eric Eldred, editor de libros de dominio público en internet, había demandado con el patrocinio de Lessig; votaron en disidencia los jueces Stevens y Breyer.",
+      "por_que_importa": "La derrota llevó a Lessig a impulsar las licencias Creative Commons y a escribir «Cultura libre».",
+      "leer": [
+        {
+          "titulo": "Texto del fallo en el LII de Cornell",
+          "url": "https://www.law.cornell.edu/supremecourt/text/537/186",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Caso Eldred contra Ashcroft",
+        "en": "Eldred v. Ashcroft"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-etica-del-hacker",
+      "titulo": "La ética del hacker y el espíritu de la era de la información",
+      "titulo_original": "Hakkerietiikka ja informaatioajan henki",
+      "autor": "Pekka Himanen",
+      "autor_id": "pekka-himanen",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Helsinki",
+        "lon": 24.938,
+        "lat": 60.171
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1960,
+        "hasta": 2001
+      },
+      "idioma_original": "Finés e inglés",
+      "soporte": "Libro",
+      "resumen": "Himanen contrapone la ética del trabajo protestante descrita por Max Weber (deber, disciplina, horario) a una ética hacker basada en la pasión, la libertad de organizar el tiempo y el valor social de compartir. Lleva prólogo de Linus Torvalds y epílogo de Manuel Castells.",
+      "por_que_importa": "Llevó la idea de «hacker» de la informática a la sociología del trabajo en la sociedad de la información.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La ética del hacker y el espíritu de la era de la información",
+        "en": "The Hacker Ethic and the Spirit of the Information Age"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "hackers-levy",
+      "titulo": "Hackers: los héroes de la revolución informática",
+      "titulo_original": "Hackers: Heroes of the Computer Revolution",
+      "autor": "Steven Levy",
+      "autor_id": "steven-levy",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1958,
+        "hasta": 1984
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Crónica de tres generaciones de hackers: los del Tech Model Railroad Club y el Laboratorio de IA del MIT en los años cincuenta y sesenta, los del hardware y el Homebrew Computer Club en California y los programadores de juegos de los ochenta. Termina con Richard Stallman como «el último de los verdaderos hackers».",
+      "por_que_importa": "Sistematizó la «ética hacker»: el acceso a las computadoras debe ser ilimitado, toda la información debe ser libre, hay que desconfiar de la autoridad y promover la descentralización, y a los hackers se los juzga por lo que hacen y no por títulos, edad o raza.",
+      "leer": [
+        {
+          "titulo": "Capítulos 1 y 2, en el Proyecto Gutenberg con permiso del autor",
+          "url": "https://www.gutenberg.org/ebooks/729",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Hackers: los héroes de la revolución informática",
+        "en": "Hackers: Heroes of the Computer Revolution"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "jargon-file",
+      "titulo": "The Jargon File (Diccionario del hacker)",
+      "titulo_original": "The Jargon File",
+      "autor": "Raphael Finkel, Eric S. Raymond y otros",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1975,
+        "anio_hasta": 2003,
+        "aprox": false,
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1960,
+        "hasta": 2003
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Glosario",
+      "resumen": "Glosario de la jerga de los hackers iniciado en 1975 en el Laboratorio de IA de Stanford y ampliado en el MIT y en otros centros de la red ARPANET; se publicó en papel como «The Hacker's Dictionary» (1983) y, editado por Eric Raymond desde 1990, como «The New Hacker's Dictionary». Define «hacker» como quien disfruta explorar los detalles de los sistemas y distingue al «cracker», que entra en sistemas ajenos.",
+      "por_que_importa": "Es un registro de la cultura y el humor de la comunidad; las versiones de Raymond fueron criticadas por hackers antiguos por volcar en él sus propias opiniones.",
+      "leer": [
+        {
+          "titulo": "Versión 4.4.7 en el sitio de Eric Raymond",
+          "url": "http://www.catb.org/jargon/html/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Jargon File",
+        "en": "Jargon File"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-hacker",
+      "titulo": "La conciencia de un hacker (Manifiesto hacker)",
+      "titulo_original": "The Conscience of a Hacker",
+      "autor": "Loyd Blankenship («The Mentor»)",
+      "autor_id": "the-mentor",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "San Luis (Misuri), sede de Phrack",
+        "lon": -90.199,
+        "lat": 38.626
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1986,
+        "hasta": 1986
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Texto en la revista electrónica Phrack (número 7)",
+      "resumen": "Texto escrito el 8 de enero de 1986, poco después de que detuvieran a su autor, y publicado en septiembre en Phrack. Un adolescente aburrido en la escuela descubre la computadora y las redes, y responde a quienes lo llaman delincuente: «mi crimen es la curiosidad», el de juzgar a las personas por lo que dicen y piensan y no por su aspecto.",
+      "por_que_importa": "Se volvió el texto emblemático de la subcultura hacker de los ochenta y una defensa de la intrusión como exploración; sus críticos señalan que justifica entrar sin permiso en sistemas ajenos.",
+      "leer": [
+        {
+          "titulo": "Texto en Phrack número 7",
+          "url": "https://phrack.org/issues/7/3.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Manifiesto hacker",
+        "en": "Hacker Manifesto"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "revista-2600",
+      "titulo": "2600: The Hacker Quarterly",
+      "titulo_original": "2600: The Hacker Quarterly",
+      "autor": "Eric Corley («Emmanuel Goldstein»)",
+      "autor_id": "eric-corley",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1984,
+        "anio_hasta": 2026,
+        "aprox": false,
+        "lugar": "Long Island (Nueva York)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1984,
+        "hasta": 2026
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Revista trimestral",
+      "resumen": "Revista fundada en enero de 1984 por Eric Corley, cuyo nombre recuerda la frecuencia de 2600 hercios con la que los «phreakers» manejaban las centrales telefónicas. Publica notas técnicas sobre seguridad, telefonía y vigilancia, y cartas de lectores.",
+      "por_que_importa": "Fue la voz pública de la comunidad hacker estadounidense; en el caso Universal contra Reimerdes (2000) un tribunal le prohibió publicar o enlazar el programa DeCSS por aplicación de la DMCA.",
+      "leer": [
+        {
+          "titulo": "Sitio de la revista",
+          "url": "https://www.2600.com/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "2600: The Hacker Quarterly",
+        "en": "2600: The Hacker Quarterly"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-huevo-del-cuco",
+      "titulo": "El huevo del cuco",
+      "titulo_original": "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage",
+      "autor": "Clifford Stoll",
+      "autor_id": "clifford-stoll",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Berkeley (California)",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "alemania"
+        ],
+        "desde": 1986,
+        "hasta": 1988
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Stoll cuenta cómo un desfasaje de 75 centavos en la contabilidad de las computadoras de su laboratorio lo llevó en 1986 a rastrear a un intruso que buscaba información militar en redes estadounidenses. La pista terminó en Hannover, en Markus Hess, parte de un grupo de jóvenes de Alemania Occidental que vendía datos a la KGB.",
+      "por_que_importa": "Es uno de los primeros relatos de espionaje informático y de cómo se investiga una intrusión; mostró lo vulnerables que eran las redes académicas y militares.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Cuckoo's Egg (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "analisis-del-gusano-de-internet",
+      "titulo": "El programa gusano de internet: un análisis",
+      "titulo_original": "The Internet Worm Program: An Analysis",
+      "autor": "Eugene Spafford",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "West Lafayette (Indiana)",
+        "lon": -86.912,
+        "lat": 40.442
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1988,
+        "hasta": 1988
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe técnico de la Universidad de Purdue",
+      "resumen": "Informe del 29 de noviembre de 1988 que describe paso a paso cómo el gusano de Robert Morris se propagaba aprovechando fallas de los programas sendmail y fingerd y contraseñas débiles, y por qué se multiplicó mucho más de lo que su autor había previsto.",
+      "por_que_importa": "Fue el análisis técnico de referencia del primer gran incidente de seguridad de internet, que llevó a crear el primer equipo de respuesta a emergencias informáticas (CERT).",
+      "leer": [
+        {
+          "titulo": "Informe en el sitio del autor (Purdue)",
+          "url": "https://spaf.cerias.purdue.edu/tech-reps/823.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "ley-cfaa",
+      "titulo": "Ley de Fraude y Abuso Informático (CFAA)",
+      "titulo_original": "Computer Fraud and Abuse Act",
+      "autor": "Congreso de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1986,
+        "hasta": 1986
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley federal de 1986 que castiga el acceso a computadoras «sin autorización» o «excediendo la autorización», con penas que crecen según el daño. Se aplicó a Robert Morris, a Kevin Mitnick, a Aaron Swartz y a Chelsea Manning, entre otros.",
+      "por_que_importa": "Sus críticos le reprochan que su vaguedad permita perseguir como delito la violación de los términos de uso de un sitio; la Corte Suprema la acotó en el caso Van Buren (2021).",
+      "leer": [
+        {
+          "titulo": "Texto vigente (18 U.S.C. 1030) en el LII de Cornell",
+          "url": "https://www.law.cornell.edu/uscode/text/18/1030",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Computer Fraud and Abuse Act"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-caza-de-hackers",
+      "titulo": "La caza de hackers",
+      "titulo_original": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier",
+      "autor": "Bruce Sterling",
+      "autor_id": "bruce-sterling",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Austin (Texas)",
+        "lon": -97.733,
+        "lat": 30.3
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1876,
+        "hasta": 1991
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Crónica de las operaciones policiales de 1990 contra los hackers en Estados Unidos, entre ellas la Operación Sundevil y el allanamiento a Steve Jackson Games, a partir de la caída de la red telefónica de AT&T de enero de ese año. Cuenta la historia de la telefonía, de los phreakers, de la policía y de los fundadores de la EFF.",
+      "por_que_importa": "Es la fuente principal sobre el momento en que la ley y los derechos civiles llegaron a la «frontera electrónica»; Sterling la liberó gratis en internet en 1994.",
+      "leer": [
+        {
+          "titulo": "En el Proyecto Gutenberg, liberado por el autor",
+          "url": "https://www.gutenberg.org/ebooks/101",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "The Hacker Crackdown",
+        "en": "The Hacker Crackdown"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-independencia-del-ciberespacio",
+      "titulo": "Declaración de independencia del ciberespacio",
+      "titulo_original": "A Declaration of the Independence of Cyberspace",
+      "autor": "John Perry Barlow",
+      "autor_id": "john-perry-barlow",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Davos",
+        "lon": 9.84,
+        "lat": 46.809
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1996,
+        "hasta": 1996
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Correo electrónico difundido en internet",
+      "resumen": "Texto del 8 de febrero de 1996, escrito en Davos durante el Foro Económico Mundial en respuesta a la Ley de Telecomunicaciones de Estados Unidos, que pretendía regular los contenidos «indecentes» en internet. Se dirige a los «gobiernos del mundo industrial»: «no son bienvenidos entre nosotros», y declara que el ciberespacio no está dentro de sus fronteras y se gobernará por sus propias normas.",
+      "por_que_importa": "Expresó el ciberlibertarismo de los noventa; Lessig y otros le objetaron que internet es tan regulable como cualquier otro espacio, por medio del código y de quienes lo controlan.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio de la EFF",
+          "url": "https://www.eff.org/cyberspace-independence",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Declaración de independencia del ciberespacio",
+        "en": "A Declaration of the Independence of Cyberspace"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-economia-de-las-ideas",
+      "titulo": "La economía de las ideas",
+      "titulo_original": "The Economy of Ideas: Selling Wine Without Bottles on the Global Net",
+      "autor": "John Perry Barlow",
+      "autor_id": "john-perry-barlow",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1994,
+        "hasta": 1994
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en la revista Wired",
+      "resumen": "Ensayo de marzo de 1994 que sostiene que el derecho de autor, pensado para «botellas» físicas (libros, discos), no sirve para la información digital, que se copia sin costo; propone que los creadores vivan de la relación con su público, la actuación y el servicio.",
+      "por_que_importa": "Anticipó la crisis de la industria discográfica con la copia digital y el debate sobre el derecho de autor en internet.",
+      "leer": [
+        {
+          "titulo": "Texto en Wired",
+          "url": "https://www.wired.com/1994/03/economy-ideas/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "nuevas-direcciones-en-criptografia",
+      "titulo": "Nuevas direcciones en criptografía",
+      "titulo_original": "New Directions in Cryptography",
+      "autor": "Whitfield Diffie",
+      "autor_id": "diffie",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1976,
+        "hasta": 1976
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en IEEE Transactions on Information Theory",
+      "resumen": "Artículo de Whitfield Diffie y Martin Hellman, de noviembre de 1976, que propone la criptografía de clave pública: dos partes pueden acordar una clave secreta por un canal público sin haberse visto, y se pueden firmar documentos digitalmente. Presenta el intercambio de claves que lleva sus nombres.",
+      "por_que_importa": "Hizo posible el comercio electrónico y el cifrado al alcance de cualquiera; en el GCHQ británico Ellis, Cocks y Williamson habían llegado antes a ideas parecidas, pero se mantuvieron en secreto hasta 1997.",
+      "leer": [
+        {
+          "titulo": "Artículo en el sitio de Hellman (Stanford)",
+          "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Intercambio de claves de Diffie-Hellman",
+        "en": "Diffie–Hellman key exchange"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "articulo-rsa",
+      "titulo": "Un método para obtener firmas digitales y criptosistemas de clave pública",
+      "titulo_original": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+      "autor": "Ron Rivest",
+      "autor_id": "rivest",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1977,
+        "anio_hasta": 1978,
+        "aprox": false,
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1977,
+        "hasta": 1977
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en Communications of the ACM",
+      "resumen": "Artículo de Rivest, Shamir y Adleman que presenta el algoritmo RSA, basado en la dificultad de factorizar el producto de dos números primos grandes. Circuló como memorando del MIT en 1977, lo difundió Martin Gardner en Scientific American y se publicó en febrero de 1978.",
+      "por_que_importa": "RSA fue el primer sistema práctico de clave pública y firma digital; su patente, de 1983, venció en 2000.",
+      "leer": [
+        {
+          "titulo": "Artículo en el sitio de Rivest (MIT)",
+          "url": "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "RSA",
+        "en": "RSA cryptosystem"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "seguridad-sin-identificacion",
+      "titulo": "Seguridad sin identificación",
+      "titulo_original": "Security Without Identification: Transaction Systems to Make Big Brother Obsolete",
+      "autor": "David Chaum",
+      "autor_id": "david-chaum",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1985,
+        "hasta": 1985
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en Communications of the ACM",
+      "resumen": "Artículo de octubre de 1985 que advierte que la informatización de pagos y trámites permite reunir perfiles de cada persona, y propone sistemas criptográficos (firmas ciegas, seudónimos) para hacer transacciones verificables sin revelar la identidad.",
+      "por_que_importa": "Es la base teórica del dinero electrónico anónimo y una inspiración directa de los cypherpunks y de las criptomonedas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-criptoanarquista",
+      "titulo": "Manifiesto criptoanarquista",
+      "titulo_original": "The Crypto Anarchist Manifesto",
+      "autor": "Timothy C. May",
+      "autor_id": "tim-may",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Bahía de San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1988,
+        "hasta": 1988
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Texto breve, difundido en 1992 en la lista cypherpunk",
+      "resumen": "Texto de 1988 que anuncia que la criptografía permitirá a personas y grupos comunicarse y comerciar de forma anónima, lo que cambiará la naturaleza de la regulación estatal, los impuestos y el secreto comercial. «Un espectro recorre el mundo moderno, el espectro de la criptoanarquía».",
+      "por_que_importa": "Planteó sin rodeos que el cifrado debilitaría al Estado; los cypherpunks lo tomaron como programa y sus críticos, como una invitación a la evasión y el crimen.",
+      "leer": [
+        {
+          "titulo": "Texto en activism.net",
+          "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-cypherpunk",
+      "titulo": "Un manifiesto cypherpunk",
+      "titulo_original": "A Cypherpunk's Manifesto",
+      "autor": "Eric Hughes",
+      "autor_id": "eric-hughes",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Bahía de San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1993,
+        "hasta": 1993
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Texto difundido en internet",
+      "resumen": "Texto del 9 de marzo de 1993 que define la privacidad como «el poder de revelarse selectivamente al mundo» y la distingue del secreto. Sostiene que no se puede esperar que gobiernos ni empresas la concedan y que hay que defenderla con criptografía: «los cypherpunks escriben código».",
+      "por_que_importa": "Es la declaración de principios del movimiento cypherpunk, del que salieron PGP, los remailers anónimos, Bitcoin y WikiLeaks.",
+      "leer": [
+        {
+          "titulo": "Texto en activism.net",
+          "url": "https://www.activism.net/cypherpunk/manifesto.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "por-que-escribi-pgp",
+      "titulo": "Por qué escribí PGP",
+      "titulo_original": "Why I Wrote PGP",
+      "autor": "Phil Zimmermann",
+      "autor_id": "phil-zimmermann",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Boulder (Colorado)",
+        "lon": -105.293,
+        "lat": 40.019
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1991,
+        "hasta": 1991
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Parte del manual de PGP",
+      "resumen": "Texto de 1991, actualizado en 1999, en el que Zimmermann explica que publicó gratis su programa de cifrado ante un proyecto de ley del Senado que pedía a los fabricantes de equipos de comunicación permitir al gobierno leer los mensajes. Sostiene que en la era digital la privacidad depende del cifrado y que «si la privacidad se pone fuera de la ley, solo los que están fuera de la ley tendrán privacidad».",
+      "por_que_importa": "Explica el gesto que llevó el cifrado fuerte al público y desencadenó la investigación penal contra su autor por exportar armas.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio del autor",
+          "url": "https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-bernstein",
+      "titulo": "Fallo Bernstein contra el Departamento de Justicia",
+      "titulo_original": "Bernstein v. United States Department of Justice, 176 F.3d 1132",
+      "autor": "Cámara de Apelaciones del Noveno Circuito",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1995,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Fallo del 6 de mayo de 1999 que confirma que las reglas de exportación de criptografía violaban la libertad de expresión al exigir permiso previo para publicar el código fuente de un programa de cifrado. El estudiante Daniel Bernstein había demandado en 1995 con el apoyo de la EFF; el tribunal luego dejó sin efecto el fallo para revisarlo en pleno, y el gobierno cambió las reglas en 2000.",
+      "por_que_importa": "Instaló en la jurisprudencia la idea de que el código fuente es una forma de expresión, central en las «guerras criptográficas».",
+      "leer": [
+        {
+          "titulo": "Documentos del caso en el sitio de la EFF",
+          "url": "https://www.eff.org/cases/bernstein-v-us-dept-justice",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Bernstein v. United States"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "bitcoin-whitepaper",
+      "titulo": "Bitcoin: un sistema de dinero electrónico entre pares",
+      "titulo_original": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "autor": "Satoshi Nakamoto",
+      "autor_id": "satoshi-nakamoto",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Internet"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2008,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Documento técnico de nueve páginas",
+      "resumen": "Documento difundido el 31 de octubre de 2008 en una lista de correo de criptografía, en plena crisis financiera, que propone un dinero electrónico sin bancos ni intermediarios: las transacciones se registran en una cadena de bloques pública y se ordenan por «prueba de trabajo», lo que impide gastar dos veces la misma moneda.",
+      "por_que_importa": "Resolvió el problema del doble gasto sin una autoridad central y dio origen a las criptomonedas; sus defensores lo ven como dinero libre del control estatal, sus críticos señalan la especulación, el gasto de energía y su uso en delitos.",
+      "leer": [
+        {
+          "titulo": "Documento original en bitcoin.org",
+          "url": "https://bitcoin.org/bitcoin.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Traducción al español en bitcoin.org",
+          "url": "https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Bitcoin",
+        "en": "Bitcoin"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "whitepaper-ethereum",
+      "titulo": "Ethereum: una plataforma de nueva generación para contratos inteligentes y aplicaciones descentralizadas",
+      "titulo_original": "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+      "autor": "Vitalik Buterin",
+      "autor_id": "vitalik-buterin",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Internet"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2013,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Documento técnico",
+      "resumen": "Documento de fines de 2013 en el que Buterin, entonces de 19 años, propone una cadena de bloques con un lenguaje de programación completo, para registrar no solo pagos sino programas («contratos inteligentes») que se ejecutan solos: monedas, organizaciones y mercados descentralizados.",
+      "por_que_importa": "Es la base de Ethereum, lanzada en 2015, y de buena parte de las aplicaciones de criptomonedas posteriores.",
+      "leer": [
+        {
+          "titulo": "Texto en ethereum.org",
+          "url": "https://ethereum.org/en/whitepaper/",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Traducción al español en ethereum.org",
+          "url": "https://ethereum.org/es/whitepaper/",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "libre-como-en-libertad",
+      "titulo": "Libre como en libertad: la cruzada de Richard Stallman por el software libre",
+      "titulo_original": "Free as in Freedom: Richard Stallman's Crusade for Free Software",
+      "autor": "Sam Williams",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1953,
+        "hasta": 2002
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía de Stallman basada en entrevistas con él y con quienes trabajaron con él: su infancia, el Laboratorio de IA del MIT, el episodio de la impresora Xerox cuyo código no le dejaron modificar, el proyecto GNU y la disputa con el código abierto.",
+      "por_que_importa": "Se publicó con la licencia de documentación libre de GNU; en 2010 Stallman revisó y corrigió una segunda edición junto con el autor.",
+      "leer": [
+        {
+          "titulo": "Texto completo en O'Reilly, con licencia libre",
+          "url": "https://www.oreilly.com/openbook/freedom/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Free as in Freedom: Richard Stallman's Crusade for Free Software",
+        "en": "Free as in Freedom"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "conspiracion-como-gobernanza",
+      "titulo": "La conspiración como forma de gobierno",
+      "titulo_original": "Conspiracy as Governance",
+      "autor": "Julian Assange",
+      "autor_id": "assange",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Internet"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2006,
+        "hasta": 2006
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo publicado en el sitio del autor",
+      "resumen": "Ensayo de diciembre de 2006 que describe a los gobiernos autoritarios y a otras organizaciones como «conspiraciones»: redes que dependen de comunicarse en secreto. Si filtrar sus comunicaciones encarece ese secreto, la conspiración se vuelve torpe y menos capaz de actuar.",
+      "por_que_importa": "Es la teoría con la que Assange justificó WikiLeaks: la filtración no solo informa sino que obliga a las organizaciones opacas a cambiar.",
+      "leer": [
+        {
+          "titulo": "Copia del sitio del autor en Internet Archive",
+          "url": "https://web.archive.org/web/2007/http://iq.org/conspiracies.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "cypherpunks-libro",
+      "titulo": "Cypherpunks: la libertad y el futuro de internet",
+      "titulo_original": "Cypherpunks: Freedom and the Future of the Internet",
+      "autor": "Julian Assange",
+      "autor_id": "assange",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2012,
+        "hasta": 2012
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Conversación entre Julian Assange, Jacob Appelbaum, Andy Müller-Maguhn y Jérémie Zimmermann, grabada en 2012 para el programa de televisión de Assange. Sostienen que internet se convirtió en una herramienta de vigilancia masiva al servicio de los Estados y las empresas, y que la criptografía es la defensa de los ciudadanos.",
+      "por_que_importa": "Resume la visión política de WikiLeaks un año antes de las revelaciones de Snowden, que confirmaron parte de sus denuncias.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cypherpunks",
+        "en": "Cypherpunks (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-new-york-times-contra-estados-unidos",
+      "titulo": "Fallo New York Times contra Estados Unidos",
+      "titulo_original": "New York Times Co. v. United States, 403 U.S. 713",
+      "autor": "Corte Suprema de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1971,
+        "hasta": 1971
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Fallo del 30 de junio de 1971 que, por seis votos contra tres, rechaza el pedido del gobierno de Nixon de prohibir a The New York Times y The Washington Post publicar los Papeles del Pentágono: la censura previa exige una justificación muy fuerte que el gobierno no demostró.",
+      "por_que_importa": "Es el precedente que protege a los medios que publican información secreta; no resolvió si quien la filtra puede ser juzgado, la cuestión de los casos de Manning, Snowden y Assange.",
+      "leer": [
+        {
+          "titulo": "Texto del fallo en el LII de Cornell",
+          "url": "https://www.law.cornell.edu/supremecourt/text/403/713",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "New York Times Co. v. United States"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ley-de-espionaje",
+      "titulo": "Ley de Espionaje de 1917",
+      "titulo_original": "Espionage Act of 1917",
+      "autor": "Congreso de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1917,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1917,
+        "hasta": 1917
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley sancionada el 15 de junio de 1917, durante la Primera Guerra Mundial, que castiga obtener o transmitir información de defensa nacional con intención o motivo para creer que se usará en perjuicio de Estados Unidos o en beneficio de una nación extranjera. No admite como defensa el interés público de lo revelado.",
+      "por_que_importa": "Se usó contra Daniel Ellsberg, Chelsea Manning, Edward Snowden y, por primera vez contra un editor, contra Julian Assange; sus críticos dicen que impide defenderse a los denunciantes.",
+      "leer": [
+        {
+          "titulo": "Texto original en Wikisource",
+          "url": "https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_40/65th_Congress/1st_Session/Chapter_30",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ley de Espionaje de 1917",
+        "en": "Espionage Act of 1917"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "wikileaks-la-guerra-de-assange",
+      "titulo": "WikiLeaks: la guerra de Julian Assange contra el secreto",
+      "titulo_original": "WikiLeaks: Inside Julian Assange's War on Secrecy",
+      "autor": "David Leigh y Luke Harding",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2006,
+        "hasta": 2011
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Crónica de dos periodistas de The Guardian sobre la colaboración del diario con WikiLeaks en 2010 y su ruptura con Assange. Incluyó la contraseña del archivo completo de los cables, que Leigh creía caducada; cuando en 2011 circuló el archivo sin editar, el diario y WikiLeaks se culparon mutuamente.",
+      "por_que_importa": "Es la versión de uno de los medios asociados y una fuente central sobre las críticas a Assange; WikiLeaks la rechaza.",
+      "leer": [],
+      "wikipedia": {
+        "en": "WikiLeaks: Inside Julian Assange's War on Secrecy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "articulo-verizon",
+      "titulo": "La NSA recoge cada día los registros telefónicos de millones de clientes de Verizon",
+      "titulo_original": "NSA collecting phone records of millions of Verizon customers daily",
+      "autor": "Glenn Greenwald",
+      "autor_id": "glenn-greenwald",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Hong Kong",
+        "lon": 114.159,
+        "lat": 22.278
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2013,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en The Guardian",
+      "resumen": "Primera nota basada en los documentos de Snowden, publicada el 5 de junio de 2013: una orden secreta del tribunal de vigilancia de inteligencia obligaba a la empresa Verizon a entregar a la NSA los metadatos de todas las llamadas de sus clientes. Al día siguiente The Guardian y The Washington Post revelaron el programa PRISM.",
+      "por_que_importa": "Inició la serie de revelaciones de 2013 y el debate mundial sobre la vigilancia masiva.",
+      "leer": [
+        {
+          "titulo": "Nota en The Guardian",
+          "url": "https://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "sin-lugar-donde-esconderse",
+      "titulo": "Sin lugar donde esconderse",
+      "titulo_original": "No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State",
+      "autor": "Glenn Greenwald",
+      "autor_id": "glenn-greenwald",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Río de Janeiro",
+        "lon": -43.206,
+        "lat": -22.911
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2013,
+        "hasta": 2014
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Greenwald cuenta su contacto con Snowden, el encuentro en Hong Kong y la publicación de las primeras notas, y reproduce documentos sobre la recolección masiva de datos. Critica a la prensa que, a su juicio, se subordinó al gobierno.",
+      "por_que_importa": "Es la versión del periodista protagonista; sus críticos le reprochan haber tomado partido por su fuente.",
+      "leer": [],
+      "wikipedia": {
+        "en": "No Place to Hide (Greenwald book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vigilancia-permanente",
+      "titulo": "Vigilancia permanente",
+      "titulo_original": "Permanent Record",
+      "autor": "Edward Snowden",
+      "autor_id": "snowden",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1983,
+        "hasta": 2019
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias de Snowden: su formación, su trabajo para la CIA y la NSA, cómo llegó a la conclusión de que la vigilancia masiva violaba la Constitución y cómo reunió y entregó los documentos. Defiende que actuó como denunciante, porque los canales internos no protegían a los contratistas.",
+      "por_que_importa": "El mismo día de su publicación el gobierno de Estados Unidos lo demandó por no haber pasado el texto por la revisión previa a la que estaba obligado; un juez le dio la razón al gobierno y le ordenó entregar las ganancias.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Permanent Record (autobiography)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-aclu-contra-clapper",
+      "titulo": "Fallo ACLU contra Clapper",
+      "titulo_original": "ACLU v. Clapper, 785 F.3d 787",
+      "autor": "Cámara de Apelaciones del Segundo Circuito",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2006,
+        "hasta": 2015
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Fallo del 7 de mayo de 2015 que declara que la recolección masiva de registros telefónicos revelada por Snowden excedía lo que autorizaba la sección 215 de la Ley Patriota. No se pronunció sobre su constitucionalidad.",
+      "por_que_importa": "Fue el primer tribunal de apelaciones que consideró ilegal el programa; el Congreso lo reemplazó semanas después con la Ley de Libertad.",
+      "leer": [],
+      "wikipedia": {
+        "en": "American Civil Liberties Union v. Clapper"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "usa-freedom-act",
+      "titulo": "Ley de Libertad de Estados Unidos (USA Freedom Act)",
+      "titulo_original": "USA Freedom Act",
+      "autor": "Congreso de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2015,
+        "hasta": 2015
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley del 2 de junio de 2015 que termina la recolección masiva de registros telefónicos por la NSA: los datos quedan en las empresas y el gobierno debe pedir los de objetivos concretos con orden judicial. Agrega un defensor ante el tribunal de vigilancia de inteligencia y más transparencia.",
+      "por_que_importa": "Fue la principal reforma legal derivada de las revelaciones de Snowden; para unos fue un avance, para otros una reforma mínima que dejó en pie otros programas.",
+      "leer": [
+        {
+          "titulo": "Texto oficial de la ley (govinfo)",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-114publ23/pdf/PLAW-114publ23.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "USA Freedom Act"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-del-congreso-sobre-snowden",
+      "titulo": "Informe del Comité de Inteligencia de la Cámara sobre Snowden",
+      "titulo_original": "Review of the Unauthorized Disclosures of Former National Security Agency Contractor Edward Snowden",
+      "autor": "Comité Permanente de Inteligencia de la Cámara de Representantes",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2013,
+        "hasta": 2016
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe parlamentario (versión desclasificada y tachada, diciembre de 2016)",
+      "resumen": "Informe aprobado por unanimidad en septiembre de 2016 que sostiene que Snowden no fue un denunciante, porque no usó los canales legales, que la mayoría de lo que se llevó no trataba de programas de vigilancia sino de defensa e inteligencia militar, y que causó un daño enorme a la seguridad nacional.",
+      "por_que_importa": "Es la posición oficial del Congreso frente a Snowden; él y periodistas que lo cubrieron lo calificaron de engañoso y discutieron varias de sus afirmaciones.",
+      "leer": [
+        {
+          "titulo": "Informe en govinfo",
+          "url": "https://www.govinfo.gov/content/pkg/CRPT-114hrpt891/pdf/CRPT-114hrpt891.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "fallo-extradicion-de-assange",
+      "titulo": "Fallo de primera instancia sobre la extradición de Assange",
+      "titulo_original": "The Government of the United States of America v. Julian Paul Assange",
+      "autor": "Vanessa Baraitser (Tribunal de Magistrados de Westminster)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2021,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "norteamerica"
+        ],
+        "desde": 2010,
+        "hasta": 2021
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Fallo del 4 de enero de 2021 que rechaza los argumentos de Assange de que el pedido de Estados Unidos era político y violaba la libertad de expresión, pero niega la extradición porque, por su salud mental, el riesgo de suicidio en una cárcel estadounidense sería muy alto.",
+      "por_que_importa": "El Tribunal Superior lo revocó en diciembre de 2021 tras garantías de Estados Unidos sobre su trato; en 2024 le permitió apelar por la libertad de expresión, y el caso terminó con un acuerdo antes de esa apelación.",
+      "leer": [
+        {
+          "titulo": "Texto del fallo en el sitio de la Justicia británica",
+          "url": "https://www.judiciary.uk/wp-content/uploads/2022/07/USA-v-Assange-judgment-040121.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "investigacion-papeles-de-panama",
+      "titulo": "Los Papeles de Panamá",
+      "titulo_original": "The Panama Papers",
+      "autor": "Consorcio Internacional de Periodistas de Investigación y Süddeutsche Zeitung",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1977,
+        "hasta": 2015
+      },
+      "idioma_original": "Inglés y otros",
+      "soporte": "Investigación periodística en serie",
+      "resumen": "Investigación publicada desde el 3 de abril de 2016 por más de cien medios a partir de 11,5 millones de documentos del estudio panameño Mossack Fonseca, entregados al diario alemán Süddeutsche Zeitung por una fuente anónima. Mostró sociedades en paraísos fiscales de políticos, empresarios y deportistas de decenas de países.",
+      "por_que_importa": "Provocó la renuncia del primer ministro de Islandia, investigaciones fiscales en muchos países y el cierre del estudio en 2018; mostró la escala que podía tener el periodismo colaborativo basado en filtraciones.",
+      "leer": [
+        {
+          "titulo": "La investigación en el sitio del ICIJ",
+          "url": "https://www.icij.org/investigations/panama-papers/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Papeles de Panamá",
+        "en": "Panama Papers"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "mensaje-a-la-cienciologia",
+      "titulo": "Mensaje a la Cienciología",
+      "titulo_original": "Message to Scientology",
+      "autor": "Anonymous",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Internet"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2008,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Video en YouTube",
+      "resumen": "Video del 21 de enero de 2008, con voz sintética sobre imágenes de nubes, en el que Anonymous declara la guerra a la Iglesia de la Cienciología por intentar retirar de internet un video interno de Tom Cruise, y anuncia que la «expulsará de internet». Termina con el lema «Somos Anonymous. Somos Legión. No perdonamos. No olvidamos. Espérennos».",
+      "por_que_importa": "Marcó el paso de Anonymous de las bromas de foro a la acción política, con las protestas callejeras de febrero de 2008.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-guerrilla-del-acceso-abierto",
+      "titulo": "Manifiesto por la guerrilla del acceso abierto",
+      "titulo_original": "Guerilla Open Access Manifesto",
+      "autor": "Aaron Swartz",
+      "autor_id": "aaron-swartz",
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Eremo (Italia)"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2008,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Texto difundido en internet",
+      "resumen": "Texto de julio de 2008 que denuncia que el saber científico, en buena parte financiado con fondos públicos, queda encerrado por editoriales que cobran por leerlo. Llama a quienes tienen acceso (estudiantes, bibliotecarios, científicos) a descargar y compartir esos artículos, aunque sea violando los contratos: «no hay justicia en cumplir leyes injustas».",
+      "por_que_importa": "Se lo leyó como el programa detrás de las descargas masivas de JSTOR por las que Swartz fue procesado, y se convirtió en un texto central del movimiento por el acceso abierto.",
+      "leer": [
+        {
+          "titulo": "Texto en Internet Archive",
+          "url": "https://archive.org/details/GuerillaOpenAccessManifesto",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Manifiesto por la Guerrilla del Acceso Abierto",
+        "en": "Guerilla Open Access Manifesto"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-budapest",
+      "titulo": "Iniciativa de Budapest para el Acceso Abierto",
+      "titulo_original": "Budapest Open Access Initiative",
+      "autor": "Reunión de Budapest del Open Society Institute",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Budapest",
+        "lon": 19.041,
+        "lat": 47.498
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2002,
+        "hasta": 2002
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración del 14 de febrero de 2002, surgida de una reunión convocada por el Open Society Institute de George Soros, que define el «acceso abierto» a la literatura científica: disponible gratis en internet, con permiso de leerla, copiarla, distribuirla y usarla. Propone dos vías: el autoarchivo en repositorios y las revistas de acceso abierto.",
+      "por_que_importa": "Es el texto fundador del movimiento del acceso abierto, adoptado por universidades y organismos de financiamiento de todo el mundo.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio de la iniciativa",
+          "url": "https://www.budapestopenaccessinitiative.org/read/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Budapest Open Access Initiative",
+        "en": "Budapest Open Access Initiative"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-berlin",
+      "titulo": "Declaración de Berlín sobre el acceso abierto",
+      "titulo_original": "Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities",
+      "autor": "Sociedad Max Planck y otras instituciones",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "manifiesto",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2003,
+        "hasta": 2003
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración del 22 de octubre de 2003, impulsada por la Sociedad Max Planck, en la que instituciones científicas se comprometen a promover el acceso abierto a los resultados de investigación y al patrimonio cultural, incluidos datos e imágenes.",
+      "por_que_importa": "Firmada por cientos de universidades y academias, llevó el acceso abierto a la política científica europea.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Declaración de Berlín (conocimiento científico)",
+        "en": "Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "citizenfour",
+      "titulo": "Citizenfour",
+      "titulo_original": "Citizenfour",
+      "autor": "Laura Poitras",
+      "autor_id": "laura-poitras",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2013,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Documental",
+      "resumen": "Documental filmado en buena parte en la habitación de hotel de Hong Kong donde, en junio de 2013, Snowden se reunió durante ocho días con Laura Poitras, Glenn Greenwald y Ewen MacAskill para entregarles los documentos. Muestra la preparación de las primeras notas y la decisión de Snowden de revelar su identidad.",
+      "por_que_importa": "Es el registro directo del momento de la filtración; ganó el Óscar al mejor documental en 2015.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Citizenfour",
+        "en": "Citizenfour"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "readme-txt",
+      "titulo": "README.txt",
+      "titulo_original": "README.txt: A Memoir",
+      "autor": "Chelsea Manning",
+      "autor_id": "chelsea-manning",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2022,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "mesopotamia"
+        ],
+        "desde": 1987,
+        "hasta": 2020
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias de Manning: su infancia en Oklahoma y Gales, su ingreso al Ejército, su trabajo como analista en Irak, por qué entregó los documentos a WikiLeaks, la detención en Kuwait y en Quantico, el consejo de guerra, su transición de género en prisión y su nuevo encarcelamiento en 2019 por negarse a declarar ante un gran jurado sobre WikiLeaks.",
+      "por_que_importa": "Es la versión de la filtradora sobre sus motivos, que presenta como el deseo de que el público conociera el costo real de las guerras de Irak y Afganistán.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "hacker-hoaxer",
+      "titulo": "Hacker, bromista, denunciante, espía: las muchas caras de Anonymous",
+      "titulo_original": "Hacker, Hoaxer, Whistleblower, Spy: The Many Faces of Anonymous",
+      "autor": "Gabriella Coleman",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Montreal",
+        "lon": -73.587,
+        "lat": 45.503
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2008,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la antropóloga Gabriella Coleman, que siguió durante años los canales de chat de Anonymous: cómo pasó de las bromas de 4chan a las campañas contra la Cienciología, a favor de WikiLeaks y de la Primavera Árabe, y cómo terminaron LulzSec y sus miembros detenidos.",
+      "por_que_importa": "Es el estudio de referencia sobre Anonymous, que la autora describe como un colectivo sin líderes ni ideología fija que se organiza por operaciones.",
+      "leer": [],
+      "confianza": "alta"
+    }
+  ],
+  "personas": [
+    {
+      "id": "stallman",
+      "nombre": "Richard Stallman",
+      "nacimiento": {
+        "anio": 1953,
+        "aprox": false,
+        "lugar": "Manhattan",
+        "lon": -73.994,
+        "lat": 40.728
+      },
+      "activo": {
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36,
+        "desde": 1971,
+        "hasta": 1984,
+        "aprox": false
+      },
+      "roles": [
+        "programador",
+        "activista"
+      ],
+      "resumen": "Programador del Laboratorio de Inteligencia Artificial del MIT que en 1983 lanzó el proyecto GNU y en 1985 fundó la Free Software Foundation. Formuló la idea de software libre, escribió la licencia GPL y defiende que el software privativo es una injusticia; en 2019 renunció a la presidencia de la FSF tras una polémica por comentarios sobre el caso Epstein y volvió a su directorio en 2021.",
+      "obras": [
+        "anuncio-gnu",
+        "manifiesto-gnu",
+        "definicion-de-software-libre",
+        "gpl",
+        "el-derecho-a-leer",
+        "software-libre-para-una-sociedad-libre"
+      ],
+      "wikipedia": {
+        "es": "Richard Stallman",
+        "en": "Richard Stallman"
+      },
+      "wikidata": "Q7439"
+    },
+    {
+      "id": "torvalds",
+      "nombre": "Linus Torvalds",
+      "nacimiento": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Helsinki",
+        "lon": 24.938,
+        "lat": 60.171
+      },
+      "activo": {
+        "lugar": "Universidad de Helsinki",
+        "lon": 24.95,
+        "lat": 60.169,
+        "desde": 1988,
+        "hasta": 1997,
+        "aprox": false
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Programador finlandés que en 1991, siendo estudiante en Helsinki, escribió el núcleo Linux y lo publicó en internet. Desde 1992 lo distribuye bajo la GPL y sigue coordinando su desarrollo; se describe como pragmático y desconfía de la militancia del software libre.",
+      "obras": [
+        "anuncio-de-linux"
+      ],
+      "wikipedia": {
+        "es": "Linus Torvalds",
+        "en": "Linus Torvalds"
+      },
+      "wikidata": "Q34253"
+    },
+    {
+      "id": "eric-raymond",
+      "nombre": "Eric S. Raymond",
+      "nacimiento": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "roles": [
+        "programador",
+        "ensayista"
+      ],
+      "resumen": "Programador y ensayista estadounidense, autor de «La catedral y el bazar» (1997) y editor del Jargon File. En 1998 cofundó la Open Source Initiative y promovió la expresión «código abierto» como alternativa, más amable con las empresas, al «software libre» de Stallman.",
+      "obras": [
+        "la-catedral-y-el-bazar"
+      ],
+      "wikipedia": {
+        "es": "Eric S. Raymond",
+        "en": "Eric S. Raymond"
+      },
+      "wikidata": "Q188954"
+    },
+    {
+      "id": "bruce-perens",
+      "nombre": "Bruce Perens",
+      "nacimiento": {
+        "anio": 1958,
+        "aprox": false
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Programador estadounidense que, como líder de Debian, redactó en 1997 su contrato social y las Pautas de Software Libre de Debian, de las que derivó la Definición de Open Source; cofundó la OSI con Raymond en 1998.",
+      "obras": [
+        "contrato-social-de-debian",
+        "definicion-de-open-source"
+      ],
+      "wikipedia": {
+        "es": "Bruce Perens",
+        "en": "Bruce Perens"
+      },
+      "wikidata": "Q92653"
+    },
+    {
+      "id": "ian-murdock",
+      "nombre": "Ian Murdock",
+      "nacimiento": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Constanza",
+        "lon": 9.175,
+        "lat": 47.663
+      },
+      "muerte": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "activo": {
+        "lugar": "West Lafayette (Indiana)",
+        "lon": -86.912,
+        "lat": 40.442,
+        "desde": 1993,
+        "hasta": 1996,
+        "aprox": false
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Fundador de Debian (1993), cuyo nombre une el suyo con el de su entonces novia Debra; escribió el Manifiesto Debian siendo estudiante de la Universidad de Purdue. Murió en San Francisco en 2015.",
+      "obras": [
+        "manifiesto-debian"
+      ],
+      "wikipedia": {
+        "es": "Ian Murdock",
+        "en": "Ian Murdock"
+      },
+      "wikidata": "Q92761"
+    },
+    {
+      "id": "eben-moglen",
+      "nombre": "Eben Moglen",
+      "nacimiento": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "roles": [
+        "abogado",
+        "profesor"
+      ],
+      "resumen": "Profesor de derecho de la Universidad de Columbia y asesor jurídico de la Free Software Foundation; redactó con Stallman la GPL versión 3 (2007) y fundó el Software Freedom Law Center.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eben Moglen",
+        "en": "Eben Moglen"
+      },
+      "wikidata": "Q314292"
+    },
+    {
+      "id": "andrew-tanenbaum",
+      "nombre": "Andrew S. Tanenbaum",
+      "nacimiento": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367,
+        "desde": 1971,
+        "hasta": 2014,
+        "aprox": false
+      },
+      "roles": [
+        "informático",
+        "profesor"
+      ],
+      "resumen": "Profesor de la Universidad Libre de Ámsterdam, autor de MINIX, el sistema operativo didáctico en el que se inspiró Linux. En 1992 polemizó con Torvalds sobre el diseño del núcleo.",
+      "obras": [
+        "linux-es-obsoleto"
+      ],
+      "wikipedia": {
+        "es": "Andrew S. Tanenbaum",
+        "en": "Andrew S. Tanenbaum"
+      },
+      "wikidata": "Q92621"
+    },
+    {
+      "id": "pekka-himanen",
+      "nombre": "Pekka Himanen",
+      "nacimiento": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Helsinki",
+        "lon": 24.938,
+        "lat": 60.171
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo finlandés, autor de «La ética del hacker y el espíritu de la era de la información» (2001), que contrapone la ética del trabajo hacker a la ética protestante descrita por Max Weber.",
+      "obras": [
+        "la-etica-del-hacker"
+      ],
+      "wikipedia": {
+        "es": "Pekka Himanen",
+        "en": "Pekka Himanen"
+      },
+      "wikidata": "Q2499460"
+    },
+    {
+      "id": "steven-levy",
+      "nombre": "Steven Levy",
+      "nacimiento": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "roles": [
+        "periodista"
+      ],
+      "resumen": "Periodista estadounidense especializado en tecnología, autor de «Hackers» (1984), donde sistematizó la «ética hacker», y de «Crypto» (2001), sobre la criptografía civil.",
+      "obras": [
+        "hackers-levy"
+      ],
+      "wikipedia": {
+        "es": "Steven Levy",
+        "en": "Steven Levy"
+      },
+      "wikidata": "Q929788"
+    },
+    {
+      "id": "lawrence-lessig",
+      "nombre": "Lawrence Lessig",
+      "nacimiento": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Rapid City",
+        "lon": -103.229,
+        "lat": 44.081
+      },
+      "roles": [
+        "jurista",
+        "activista"
+      ],
+      "resumen": "Jurista estadounidense, profesor en Stanford y Harvard, autor de «El código» (1999) y «Cultura libre» (2004). Cofundó Creative Commons en 2001 y defendió ante la Corte Suprema el caso Eldred contra Ashcroft, que perdió.",
+      "obras": [
+        "el-codigo-lessig",
+        "cultura-libre-lessig"
+      ],
+      "wikipedia": {
+        "es": "Lawrence Lessig",
+        "en": "Lawrence Lessig"
+      },
+      "wikidata": "Q217790"
+    },
+    {
+      "id": "jimmy-wales",
+      "nombre": "Jimmy Wales",
+      "nacimiento": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Huntsville",
+        "lon": -86.586,
+        "lat": 34.714
+      },
+      "roles": [
+        "empresario"
+      ],
+      "resumen": "Empresario estadounidense que fundó Wikipedia en 2001 junto con Larry Sanger y creó en 2003 la Fundación Wikimedia, que la sostiene con donaciones.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jimmy Wales",
+        "en": "Jimmy Wales"
+      },
+      "wikidata": "Q181"
+    },
+    {
+      "id": "larry-sanger",
+      "nombre": "Larry Sanger",
+      "nacimiento": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Bellevue",
+        "lon": -122.192,
+        "lat": 47.614
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo estadounidense, cofundador de Wikipedia en 2001, de la que se alejó en 2002; luego la criticó por su falta de rigor y por lo que considera un sesgo ideológico.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Larry Sanger",
+        "en": "Larry Sanger"
+      },
+      "wikidata": "Q185"
+    },
+    {
+      "id": "brewster-kahle",
+      "nombre": "Brewster Kahle",
+      "nacimiento": {
+        "anio": 1960,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775,
+        "desde": 1996,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "informático",
+        "bibliotecario"
+      ],
+      "resumen": "Informático estadounidense que en 1996 fundó el Internet Archive, con la meta de dar «acceso universal a todo el conocimiento».",
+      "obras": [],
+      "wikipedia": {
+        "es": "Brewster Kahle",
+        "en": "Brewster Kahle"
+      },
+      "wikidata": "Q92945"
+    },
+    {
+      "id": "bill-gates",
+      "nombre": "Bill Gates",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Seattle",
+        "lon": -122.33,
+        "lat": 47.605
+      },
+      "activo": {
+        "lugar": "Redmond (Washington)",
+        "lon": -122.124,
+        "lat": 47.669,
+        "desde": 1986,
+        "hasta": 2008,
+        "aprox": false
+      },
+      "roles": [
+        "empresario",
+        "programador"
+      ],
+      "resumen": "Cofundador de Microsoft (1975) con Paul Allen. En 1976 escribió la «Carta abierta a los aficionados», contra la copia no autorizada de software; con el MS-DOS y Windows Microsoft dominó el mercado de las computadoras personales. Desde 2008 se dedica sobre todo a su fundación filantrópica.",
+      "obras": [
+        "carta-abierta-a-los-aficionados"
+      ],
+      "wikipedia": {
+        "es": "Bill Gates",
+        "en": "Bill Gates"
+      },
+      "wikidata": "Q5284"
+    },
+    {
+      "id": "paul-allen",
+      "nombre": "Paul Allen",
+      "nacimiento": {
+        "anio": 1953,
+        "aprox": false,
+        "lugar": "Seattle",
+        "lon": -122.33,
+        "lat": 47.605
+      },
+      "muerte": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Seattle",
+        "lon": -122.33,
+        "lat": 47.605
+      },
+      "roles": [
+        "empresario",
+        "programador"
+      ],
+      "resumen": "Cofundador de Microsoft con Bill Gates, con quien escribió el BASIC para la Altair 8800 en 1975; dejó la empresa en 1983.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Paul Allen",
+        "en": "Paul Allen"
+      },
+      "wikidata": "Q162005"
+    },
+    {
+      "id": "steve-ballmer",
+      "nombre": "Steve Ballmer",
+      "nacimiento": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Detroit",
+        "lon": -83.047,
+        "lat": 42.332
+      },
+      "activo": {
+        "lugar": "Redmond (Washington)",
+        "lon": -122.124,
+        "lat": 47.669,
+        "desde": 1980,
+        "hasta": 2014,
+        "aprox": false
+      },
+      "roles": [
+        "empresario"
+      ],
+      "resumen": "Director ejecutivo de Microsoft entre 2000 y 2014. En 2001 llamó a Linux «un cáncer» por el efecto de la GPL sobre la propiedad intelectual. Su sucesor, Satya Nadella, proclamó en 2014 que Microsoft «ama a Linux».",
+      "obras": [
+        "linux-es-un-cancer"
+      ],
+      "wikipedia": {
+        "es": "Steve Ballmer",
+        "en": "Steve Ballmer"
+      },
+      "wikidata": "Q181162"
+    },
+    {
+      "id": "craig-mundie",
+      "nombre": "Craig Mundie",
+      "nacimiento": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Cleveland",
+        "lon": -81.695,
+        "lat": 41.499
+      },
+      "roles": [
+        "ejecutivo"
+      ],
+      "resumen": "Ejecutivo de Microsoft que en 2001 defendió el «modelo comercial de software» frente a la GPL y presentó la iniciativa de «código compartido» (shared source).",
+      "obras": [
+        "discurso-del-codigo-compartido"
+      ],
+      "wikipedia": {
+        "en": "Craig Mundie"
+      },
+      "wikidata": "Q1705010"
+    },
+    {
+      "id": "steve-jobs",
+      "nombre": "Steve Jobs",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "muerte": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Palo Alto",
+        "lon": -122.16,
+        "lat": 37.444
+      },
+      "activo": {
+        "lugar": "Cupertino (California)",
+        "lon": -122.042,
+        "lat": 37.318,
+        "desde": 1976,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "empresario"
+      ],
+      "resumen": "Cofundador de Apple (1976) con Steve Wozniak, impulsor de la Macintosh, el iPod y el iPhone. Apple combinó sistemas cerrados con bases libres: su macOS se apoya en Darwin, derivado de BSD.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Steve Jobs",
+        "en": "Steve Jobs"
+      },
+      "wikidata": "Q19837"
+    },
+    {
+      "id": "thomas-penfield-jackson",
+      "nombre": "Thomas Penfield Jackson",
+      "nacimiento": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "muerte": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Compton",
+        "lon": -76.693,
+        "lat": 38.275
+      },
+      "roles": [
+        "juez"
+      ],
+      "resumen": "Juez federal de Washington que en 2000 declaró que Microsoft había abusado de su monopolio y ordenó dividirla. La Cámara de Apelaciones anuló la división en 2001 y lo apartó del caso por haber hablado con periodistas durante el juicio.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Thomas Penfield Jackson"
+      },
+      "wikidata": "Q4160118"
+    },
+    {
+      "id": "the-mentor",
+      "nombre": "Loyd Blankenship («The Mentor»)",
+      "nacimiento": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Estados Unidos",
+        "lon": -98.579,
+        "lat": 39.828
+      },
+      "activo": {
+        "lugar": "Austin (Texas)",
+        "lon": -97.733,
+        "lat": 30.3,
+        "desde": 1989,
+        "hasta": 1990,
+        "aprox": false
+      },
+      "roles": [
+        "hacker",
+        "escritor"
+      ],
+      "resumen": "Hacker estadounidense del grupo Legion of Doom que con el seudónimo «The Mentor» escribió en 1986 «La conciencia de un hacker», conocido como el Manifiesto hacker. Trabajaba en Steve Jackson Games cuando el Servicio Secreto allanó la empresa en 1990.",
+      "obras": [
+        "manifiesto-hacker"
+      ],
+      "wikipedia": {
+        "es": "Loyd Blankenship",
+        "en": "Loyd Blankenship"
+      },
+      "wikidata": "Q188979"
+    },
+    {
+      "id": "wau-holland",
+      "nombre": "Wau Holland",
+      "nacimiento": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Kassel",
+        "lon": 9.498,
+        "lat": 51.316
+      },
+      "muerte": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Bielefeld",
+        "lon": 8.533,
+        "lat": 52.017
+      },
+      "activo": {
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55,
+        "desde": 1981,
+        "hasta": 2001,
+        "aprox": false
+      },
+      "roles": [
+        "periodista",
+        "hacker"
+      ],
+      "resumen": "Periodista alemán, cofundador del Chaos Computer Club en 1981, que lo convirtió en una voz pública sobre la libertad de información y la privacidad. La fundación que lleva su nombre recaudó donaciones para WikiLeaks.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Wau Holland",
+        "en": "Wau Holland"
+      },
+      "wikidata": "Q72250"
+    },
+    {
+      "id": "eric-corley",
+      "nombre": "Eric Corley («Emmanuel Goldstein»)",
+      "nacimiento": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Condado de Suffolk",
+        "lon": -72.68,
+        "lat": 40.94
+      },
+      "activo": {
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1984,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "editor",
+        "locutor"
+      ],
+      "resumen": "Editor de la revista 2600 desde 1984, con el seudónimo «Emmanuel Goldstein», tomado de «1984» de Orwell. Encabezó la campaña «Free Kevin» por Kevin Mitnick y organiza las conferencias HOPE.",
+      "obras": [
+        "revista-2600"
+      ],
+      "wikipedia": {
+        "es": "Eric Gordon Corley",
+        "en": "Eric Corley"
+      },
+      "wikidata": "Q768414"
+    },
+    {
+      "id": "kevin-mitnick",
+      "nombre": "Kevin Mitnick",
+      "nacimiento": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Van Nuys",
+        "lon": -118.433,
+        "lat": 34.183
+      },
+      "muerte": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Pittsburgh",
+        "lon": -80.0,
+        "lat": 40.442
+      },
+      "roles": [
+        "hacker",
+        "consultor"
+      ],
+      "resumen": "Hacker estadounidense, famoso por la ingeniería social, que en los años ochenta y noventa entró en sistemas de empresas telefónicas e informáticas. Fue detenido en 1995 tras años prófugo, pasó casi cinco años preso y luego trabajó como consultor de seguridad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Kevin Mitnick",
+        "en": "Kevin Mitnick"
+      },
+      "wikidata": "Q7449"
+    },
+    {
+      "id": "robert-tappan-morris",
+      "nombre": "Robert Tappan Morris",
+      "nacimiento": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Massachusetts",
+        "lon": -71.8,
+        "lat": 42.3
+      },
+      "activo": {
+        "lugar": "Ithaca",
+        "lon": -76.5,
+        "lat": 42.443,
+        "desde": 1987,
+        "hasta": 1988,
+        "aprox": false
+      },
+      "roles": [
+        "informático"
+      ],
+      "resumen": "Estudiante de la Universidad Cornell que en 1988 soltó el gusano Morris, uno de los primeros que se propagaron por internet. Fue el primer condenado por la ley federal de fraude informático; después fue profesor del MIT.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Robert Tappan Morris",
+        "en": "Robert Tappan Morris"
+      },
+      "wikidata": "Q92647"
+    },
+    {
+      "id": "clifford-stoll",
+      "nombre": "Clifford Stoll",
+      "nacimiento": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Búfalo",
+        "lon": -78.878,
+        "lat": 42.886
+      },
+      "activo": {
+        "lugar": "Berkeley (California)",
+        "lon": -122.268,
+        "lat": 37.87,
+        "desde": 1986,
+        "hasta": 1988,
+        "aprox": false
+      },
+      "roles": [
+        "astrónomo",
+        "escritor"
+      ],
+      "resumen": "Astrónomo del Laboratorio Lawrence de Berkeley que en 1986 rastreó a un intruso informático hasta una red de hackers de Alemania Occidental que vendía información a la KGB; lo contó en «El huevo del cuco» (1989).",
+      "obras": [
+        "el-huevo-del-cuco"
+      ],
+      "wikipedia": {
+        "es": "Clifford Stoll",
+        "en": "Clifford Stoll"
+      },
+      "wikidata": "Q556998"
+    },
+    {
+      "id": "bruce-sterling",
+      "nombre": "Bruce Sterling",
+      "nacimiento": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Brownsville",
+        "lon": -97.484,
+        "lat": 25.93
+      },
+      "activo": {
+        "lugar": "Austin (Texas)",
+        "lon": -97.733,
+        "lat": 30.3,
+        "desde": 1985,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "escritor"
+      ],
+      "resumen": "Escritor de ciencia ficción del ciberpunk y periodista, autor de «La caza de hackers» (1992), que liberó gratis en internet.",
+      "obras": [
+        "la-caza-de-hackers"
+      ],
+      "wikipedia": {
+        "es": "Bruce Sterling",
+        "en": "Bruce Sterling"
+      },
+      "wikidata": "Q312995"
+    },
+    {
+      "id": "mitch-kapor",
+      "nombre": "Mitch Kapor",
+      "nacimiento": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Brooklyn",
+        "lon": -73.95,
+        "lat": 40.651
+      },
+      "roles": [
+        "empresario"
+      ],
+      "resumen": "Fundador de la empresa de software Lotus y cofundador de la Electronic Frontier Foundation (1990), con John Perry Barlow y John Gilmore.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mitch Kapor",
+        "en": "Mitch Kapor"
+      },
+      "wikidata": "Q724160"
+    },
+    {
+      "id": "christopher-poole",
+      "nombre": "Christopher Poole",
+      "nacimiento": {
+        "anio": 1988,
+        "aprox": true,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 2003,
+        "hasta": 2015,
+        "aprox": false
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Creador en 2003, siendo adolescente y con el seudónimo «moot», del foro de imágenes anónimo 4chan, donde surgió Anonymous.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Christopher Poole",
+        "en": "Christopher Poole"
+      },
+      "wikidata": "Q3135308"
+    },
+    {
+      "id": "hector-monsegur",
+      "nombre": "Hector Monsegur («Sabu»)",
+      "nacimiento": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 2010,
+        "hasta": 2012,
+        "aprox": false
+      },
+      "roles": [
+        "hacker"
+      ],
+      "resumen": "Hacker de Nueva York, líder de LulzSec con el seudónimo «Sabu». Detenido en secreto en junio de 2011, colaboró con el FBI para identificar a otros miembros; en 2014 fue condenado a lo ya cumplido.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hector Xavier Monsegur",
+        "en": "Hector Monsegur"
+      },
+      "wikidata": "Q3206924"
+    },
+    {
+      "id": "diffie",
+      "nombre": "Whitfield Diffie",
+      "nacimiento": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424,
+        "desde": 1974,
+        "hasta": 1978,
+        "aprox": false
+      },
+      "roles": [
+        "criptógrafo"
+      ],
+      "resumen": "Criptógrafo estadounidense que con Martin Hellman publicó en 1976 la idea de la criptografía de clave pública. Premio Turing 2015.",
+      "obras": [
+        "nuevas-direcciones-en-criptografia"
+      ],
+      "wikipedia": {
+        "es": "Whitfield Diffie",
+        "en": "Whitfield Diffie"
+      },
+      "wikidata": "Q462089"
+    },
+    {
+      "id": "hellman",
+      "nombre": "Martin Hellman",
+      "nacimiento": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Stanford (California)",
+        "lon": -122.166,
+        "lat": 37.424,
+        "desde": 1971,
+        "hasta": 1996,
+        "aprox": false
+      },
+      "roles": [
+        "criptógrafo",
+        "profesor"
+      ],
+      "resumen": "Profesor de Stanford, coautor con Diffie de «Nuevas direcciones en criptografía» (1976), que abrió la criptografía al ámbito civil frente al monopolio de las agencias de inteligencia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Martin Hellman",
+        "en": "Martin Hellman"
+      },
+      "wikidata": "Q476466"
+    },
+    {
+      "id": "rivest",
+      "nombre": "Ron Rivest",
+      "nacimiento": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "Schenectady",
+        "lon": -73.929,
+        "lat": 42.804
+      },
+      "activo": {
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36,
+        "desde": 1974,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "criptógrafo",
+        "profesor"
+      ],
+      "resumen": "Profesor del MIT, la R del algoritmo RSA (1977), creado con Adi Shamir y Leonard Adleman.",
+      "obras": [
+        "articulo-rsa"
+      ],
+      "wikipedia": {
+        "es": "Ronald Rivest",
+        "en": "Ron Rivest"
+      },
+      "wikidata": "Q578036"
+    },
+    {
+      "id": "shamir",
+      "nombre": "Adi Shamir",
+      "nacimiento": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Tel Aviv",
+        "lon": 34.78,
+        "lat": 32.08
+      },
+      "activo": {
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36,
+        "desde": 1977,
+        "hasta": 1980,
+        "aprox": false
+      },
+      "roles": [
+        "criptógrafo"
+      ],
+      "resumen": "Criptógrafo israelí, la S de RSA, luego profesor del Instituto Weizmann.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Adi Shamir",
+        "en": "Adi Shamir"
+      },
+      "wikidata": "Q320624"
+    },
+    {
+      "id": "adleman",
+      "nombre": "Leonard Adleman",
+      "nacimiento": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "activo": {
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36,
+        "desde": 1976,
+        "hasta": 1980,
+        "aprox": false
+      },
+      "roles": [
+        "informático"
+      ],
+      "resumen": "Informático estadounidense, la A de RSA; más tarde pionero de la computación con ADN.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Leonard Adleman",
+        "en": "Leonard Adleman"
+      },
+      "wikidata": "Q918650"
+    },
+    {
+      "id": "david-chaum",
+      "nombre": "David Chaum",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false
+      },
+      "roles": [
+        "criptógrafo"
+      ],
+      "resumen": "Criptógrafo estadounidense que desde 1981 propuso redes de correo anónimo y dinero electrónico anónimo; su empresa DigiCash (1990) fue un antecedente de las criptomonedas.",
+      "obras": [
+        "seguridad-sin-identificacion"
+      ],
+      "wikipedia": {
+        "es": "David Chaum",
+        "en": "David Chaum"
+      },
+      "wikidata": "Q1173973"
+    },
+    {
+      "id": "phil-zimmermann",
+      "nombre": "Phil Zimmermann",
+      "nacimiento": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Camden",
+        "lon": -75.107,
+        "lat": 39.937
+      },
+      "activo": {
+        "lugar": "Boulder (Colorado)",
+        "lon": -105.293,
+        "lat": 40.019,
+        "desde": 1991,
+        "hasta": 1996,
+        "aprox": false
+      },
+      "roles": [
+        "programador",
+        "criptógrafo"
+      ],
+      "resumen": "Programador estadounidense que en 1991 publicó PGP, un programa gratuito de cifrado de correo. Fue investigado de 1993 a 1996 por exportar criptografía sin licencia, sin que se lo acusara.",
+      "obras": [
+        "por-que-escribi-pgp"
+      ],
+      "wikipedia": {
+        "es": "Phil Zimmermann",
+        "en": "Phil Zimmermann"
+      },
+      "wikidata": "Q455938"
+    },
+    {
+      "id": "tim-may",
+      "nombre": "Timothy C. May",
+      "nacimiento": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Bethesda",
+        "lon": -77.095,
+        "lat": 38.985
+      },
+      "muerte": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Corralitos",
+        "lon": -121.802,
+        "lat": 36.991
+      },
+      "roles": [
+        "ingeniero",
+        "ensayista"
+      ],
+      "resumen": "Ingeniero de Intel que escribió el «Manifiesto criptoanarquista» (1988) y cofundó en 1992 la lista de correo cypherpunk.",
+      "obras": [
+        "manifiesto-criptoanarquista"
+      ],
+      "wikipedia": {
+        "en": "Timothy C. May"
+      },
+      "wikidata": "Q3529059"
+    },
+    {
+      "id": "eric-hughes",
+      "nombre": "Eric Hughes",
+      "activo": {
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775,
+        "desde": 1992,
+        "hasta": 1993,
+        "aprox": false
+      },
+      "roles": [
+        "matemático"
+      ],
+      "resumen": "Matemático estadounidense, cofundador de la lista cypherpunk en 1992 y autor de «Un manifiesto cypherpunk» (1993).",
+      "obras": [
+        "manifiesto-cypherpunk"
+      ],
+      "wikipedia": {
+        "en": "Eric Hughes (cypherpunk)"
+      },
+      "wikidata": "Q5386764"
+    },
+    {
+      "id": "john-gilmore",
+      "nombre": "John Gilmore",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "York",
+        "lon": -76.728,
+        "lat": 39.963
+      },
+      "activo": {
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775,
+        "desde": 1990,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "programador",
+        "activista"
+      ],
+      "resumen": "Uno de los primeros empleados de Sun Microsystems, cofundador de la EFF (1990), de la lista cypherpunk (1992) y de la empresa de software libre Cygnus Solutions.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Gilmore",
+        "en": "John Gilmore (activist)"
+      },
+      "wikidata": "Q984246"
+    },
+    {
+      "id": "john-perry-barlow",
+      "nombre": "John Perry Barlow",
+      "nacimiento": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "condado de Sublette",
+        "lon": -109.92,
+        "lat": 42.76
+      },
+      "muerte": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "roles": [
+        "ensayista",
+        "letrista"
+      ],
+      "resumen": "Letrista de Grateful Dead y ganadero de Wyoming, cofundador de la EFF (1990). En 1996 escribió en Davos la «Declaración de independencia del ciberespacio».",
+      "obras": [
+        "declaracion-de-independencia-del-ciberespacio",
+        "la-economia-de-las-ideas"
+      ],
+      "wikipedia": {
+        "es": "John Perry Barlow",
+        "en": "John Perry Barlow"
+      },
+      "wikidata": "Q534428"
+    },
+    {
+      "id": "satoshi-nakamoto",
+      "nombre": "Satoshi Nakamoto",
+      "activo": {
+        "lugar": "Desconocido",
+        "desde": 2008,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Seudónimo de la persona o el grupo que en 2008 publicó el documento de Bitcoin y en 2009 lanzó la red. Dejó de participar en 2010-2011; su identidad sigue sin conocerse.",
+      "obras": [
+        "bitcoin-whitepaper"
+      ],
+      "wikipedia": {
+        "es": "Satoshi Nakamoto",
+        "en": "Satoshi Nakamoto"
+      },
+      "wikidata": "Q13382352"
+    },
+    {
+      "id": "hal-finney",
+      "nombre": "Hal Finney",
+      "nacimiento": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Coalinga",
+        "lon": -120.36,
+        "lat": 36.14
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Phoenix",
+        "lon": -112.074,
+        "lat": 33.448
+      },
+      "roles": [
+        "programador",
+        "criptógrafo"
+      ],
+      "resumen": "Programador de PGP y cypherpunk que recibió la primera transacción de bitcoin, enviada por Satoshi Nakamoto en enero de 2009.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hal Finney",
+        "en": "Hal Finney (computer scientist)"
+      },
+      "wikidata": "Q5640761"
+    },
+    {
+      "id": "vitalik-buterin",
+      "nombre": "Vitalik Buterin",
+      "nacimiento": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Kolomna",
+        "lon": 38.783,
+        "lat": 55.083
+      },
+      "roles": [
+        "programador"
+      ],
+      "resumen": "Programador ruso-canadiense que en 2013 propuso Ethereum, una cadena de bloques para ejecutar programas («contratos inteligentes»), lanzada en 2015.",
+      "obras": [
+        "whitepaper-ethereum"
+      ],
+      "wikipedia": {
+        "es": "Vitálik Buterin",
+        "en": "Vitalik Buterin"
+      },
+      "wikidata": "Q16197959"
+    },
+    {
+      "id": "ross-ulbricht",
+      "nombre": "Ross Ulbricht",
+      "nacimiento": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Austin",
+        "lon": -97.733,
+        "lat": 30.3
+      },
+      "activo": {
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775,
+        "desde": 2011,
+        "hasta": 2013,
+        "aprox": false
+      },
+      "roles": [
+        "administrador de Silk Road"
+      ],
+      "resumen": "Creador de Silk Road, un mercado anónimo de la red Tor que operaba con bitcoin. Condenado en 2015 a prisión perpetua por narcotráfico, lavado de dinero y delitos informáticos, fue indultado por Donald Trump en enero de 2025.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ross Ulbricht",
+        "en": "Ross Ulbricht"
+      },
+      "wikidata": "Q15041155"
+    },
+    {
+      "id": "assange",
+      "nombre": "Julian Assange",
+      "nacimiento": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Townsville",
+        "lon": 146.816,
+        "lat": -19.262
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 2010,
+        "hasta": 2024,
+        "aprox": false
+      },
+      "roles": [
+        "periodista",
+        "editor",
+        "hacker"
+      ],
+      "resumen": "Programador y activista australiano que fundó WikiLeaks en 2006. Sus partidarios lo ven como periodista perseguido por publicar crímenes de guerra; Estados Unidos lo acusó de conspirar con Chelsea Manning para obtener y difundir secretos. Tras siete años en la embajada de Ecuador y cinco en la prisión de Belmarsh, en 2024 se declaró culpable de un cargo y quedó libre.",
+      "obras": [
+        "conspiracion-como-gobernanza",
+        "cypherpunks-libro"
+      ],
+      "wikipedia": {
+        "es": "Julian Assange",
+        "en": "Julian Assange"
+      },
+      "wikidata": "Q360"
+    },
+    {
+      "id": "chelsea-manning",
+      "nombre": "Chelsea Manning",
+      "nacimiento": {
+        "anio": 1987,
+        "aprox": false,
+        "lugar": "Oklahoma City",
+        "lon": -97.535,
+        "lat": 35.482
+      },
+      "roles": [
+        "analista de inteligencia",
+        "activista"
+      ],
+      "resumen": "Analista de inteligencia del Ejército de Estados Unidos que en 2010 entregó a WikiLeaks cientos de miles de documentos militares y diplomáticos. Un consejo de guerra la condenó en 2013 a 35 años; Obama conmutó la pena en 2017.",
+      "obras": [
+        "readme-txt"
+      ],
+      "wikipedia": {
+        "es": "Chelsea Manning",
+        "en": "Chelsea Manning"
+      },
+      "wikidata": "Q298423"
+    },
+    {
+      "id": "snowden",
+      "nombre": "Edward Snowden",
+      "nacimiento": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Elizabeth City",
+        "lon": -76.225,
+        "lat": 36.296
+      },
+      "activo": {
+        "lugar": "Hong Kong",
+        "lon": 114.159,
+        "lat": 22.278,
+        "desde": 2013,
+        "hasta": 2013,
+        "aprox": false
+      },
+      "roles": [
+        "analista de inteligencia"
+      ],
+      "resumen": "Contratista de la NSA que en 2013 entregó a periodistas documentos sobre los programas de vigilancia masiva de Estados Unidos y sus aliados. Acusado en su país de robo y de violar la Ley de Espionaje, vive en Rusia, que le dio la ciudadanía en 2022.",
+      "obras": [
+        "vigilancia-permanente"
+      ],
+      "wikipedia": {
+        "es": "Edward Snowden",
+        "en": "Edward Snowden"
+      },
+      "wikidata": "Q13424289"
+    },
+    {
+      "id": "daniel-ellsberg",
+      "nombre": "Daniel Ellsberg",
+      "nacimiento": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "muerte": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Kensington",
+        "lon": -122.28,
+        "lat": 37.911
+      },
+      "roles": [
+        "analista militar",
+        "activista"
+      ],
+      "resumen": "Analista militar que en 1971 entregó a la prensa los Papeles del Pentágono sobre la guerra de Vietnam. Su juicio por espionaje se anuló en 1973 por la conducta ilegal del gobierno; luego defendió a Manning y a Snowden.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Daniel Ellsberg",
+        "en": "Daniel Ellsberg"
+      },
+      "wikidata": "Q431085"
+    },
+    {
+      "id": "glenn-greenwald",
+      "nombre": "Glenn Greenwald",
+      "nacimiento": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Queens",
+        "lon": -73.828,
+        "lat": 40.714
+      },
+      "roles": [
+        "periodista",
+        "abogado"
+      ],
+      "resumen": "Periodista y abogado estadounidense que publicó en The Guardian, en 2013, las primeras notas basadas en los documentos de Snowden; vive en Brasil.",
+      "obras": [
+        "articulo-verizon",
+        "sin-lugar-donde-esconderse"
+      ],
+      "wikipedia": {
+        "es": "Glenn Greenwald",
+        "en": "Glenn Greenwald"
+      },
+      "wikidata": "Q5568842"
+    },
+    {
+      "id": "laura-poitras",
+      "nombre": "Laura Poitras",
+      "nacimiento": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "roles": [
+        "documentalista"
+      ],
+      "resumen": "Documentalista estadounidense a quien Snowden contactó primero; filmó sus entrevistas en Hong Kong para «Citizenfour» (2014), que ganó el Óscar al mejor documental.",
+      "obras": [
+        "citizenfour"
+      ],
+      "wikipedia": {
+        "es": "Laura Poitras",
+        "en": "Laura Poitras"
+      },
+      "wikidata": "Q6499321"
+    },
+    {
+      "id": "aaron-swartz",
+      "nombre": "Aaron Swartz",
+      "nacimiento": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Highland Park",
+        "lon": -87.807,
+        "lat": 42.182
+      },
+      "muerte": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Brooklyn",
+        "lon": -73.95,
+        "lat": 40.651
+      },
+      "activo": {
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375,
+        "desde": 2008,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "programador",
+        "activista"
+      ],
+      "resumen": "Programador y activista estadounidense que participó en la creación del formato RSS, de las licencias Creative Commons y de Reddit. Acusado por descargar en masa artículos de JSTOR desde la red del MIT, se suicidó en 2013 antes del juicio.",
+      "obras": [
+        "manifiesto-guerrilla-del-acceso-abierto"
+      ],
+      "wikipedia": {
+        "es": "Aaron Swartz",
+        "en": "Aaron Swartz"
+      },
+      "wikidata": "Q302817"
+    },
+    {
+      "id": "alexandra-elbakyan",
+      "nombre": "Alexandra Elbakyan",
+      "nacimiento": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Alma Ata",
+        "lon": 76.915,
+        "lat": 43.24
+      },
+      "activo": {
+        "lugar": "Almatý",
+        "lon": 76.915,
+        "lat": 43.24,
+        "desde": 2011,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "programadora",
+        "neurocientífica"
+      ],
+      "resumen": "Programadora kazaja que en 2011 creó Sci-Hub para saltear el cobro de las editoriales científicas. Tribunales de Estados Unidos la condenaron en rebeldía a pagar millonarias indemnizaciones por infracción de derechos de autor.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alexandra Elbakyan",
+        "en": "Alexandra Elbakyan"
+      },
+      "wikidata": "Q21996568"
+    },
+    {
+      "id": "peter-sunde",
+      "nombre": "Peter Sunde",
+      "nacimiento": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Bäve parish",
+        "lon": 11.917,
+        "lat": 58.362
+      },
+      "activo": {
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329,
+        "desde": 2003,
+        "hasta": 2009,
+        "aprox": false
+      },
+      "roles": [
+        "programador",
+        "activista"
+      ],
+      "resumen": "Vocero de The Pirate Bay, condenado en Suecia en 2009 (y en apelación en 2010) por complicidad en infracciones de derechos de autor; cumplió cinco meses de prisión en 2014.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Peter Sunde",
+        "en": "Peter Sunde"
+      },
+      "wikidata": "Q490352"
+    },
+    {
+      "id": "rick-falkvinge",
+      "nombre": "Rick Falkvinge",
+      "nacimiento": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Gotemburgo",
+        "lon": 11.967,
+        "lat": 57.708
+      },
+      "activo": {
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329,
+        "desde": 2006,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "empresario"
+      ],
+      "resumen": "Empresario informático sueco que fundó el Partido Pirata en 2006 para reformar el derecho de autor y las patentes y proteger la privacidad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rickard Falkvinge",
+        "en": "Rick Falkvinge"
+      },
+      "wikidata": "Q443624"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "hackers-del-tmrc",
+      "titulo": "Los hackers del Tech Model Railroad Club",
+      "anio": 1958,
+      "anio_hasta": 1962,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "cultural",
+      "resumen": "Estudiantes del club de trenes en miniatura del MIT, que llamaban «hack» a una solución ingeniosa, empezaron a programar de noche las computadoras TX-0 y PDP-1. De ese ambiente, que pasó al Laboratorio de IA, salieron la palabra «hacker» y la costumbre de compartir el código.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "hackers-levy",
+        "jargon-file"
+      ],
+      "wikipedia": {
+        "es": "Tech Model Railroad Club",
+        "en": "Tech Model Railroad Club"
+      }
+    },
+    {
+      "id": "spacewar",
+      "titulo": "Spacewar!, el juego del PDP-1",
+      "anio": 1962,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "cultural",
+      "resumen": "Steve Russell y otros hackers del MIT programaron uno de los primeros videojuegos, un duelo de naves espaciales para la computadora PDP-1. Circuló libremente, con su código, entre las universidades que tenían esa máquina.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "hackers-levy"
+      ],
+      "wikipedia": {
+        "es": "Spacewar!",
+        "en": "Spacewar!"
+      }
+    },
+    {
+      "id": "homebrew-computer-club",
+      "titulo": "El Homebrew Computer Club",
+      "anio": 1975,
+      "anio_hasta": 1986,
+      "aprox": false,
+      "lugar": "Menlo Park (California)",
+      "lon": -122.179,
+      "lat": 37.454,
+      "tipo": "cultural",
+      "resumen": "Club de aficionados a las microcomputadoras fundado en marzo de 1975, donde se intercambiaban circuitos y programas; de él salieron Steve Wozniak y Steve Jobs. La copia en sus reuniones del Altair BASIC de Microsoft motivó la carta abierta de Bill Gates de 1976.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "carta-abierta-a-los-aficionados",
+        "hackers-levy"
+      ],
+      "wikipedia": {
+        "es": "Homebrew Computer Club",
+        "en": "Homebrew Computer Club"
+      }
+    },
+    {
+      "id": "fundacion-de-microsoft",
+      "titulo": "Fundación de Microsoft",
+      "anio": 1975,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Albuquerque (Nuevo México)",
+      "lon": -106.65,
+      "lat": 35.084,
+      "tipo": "fundacion",
+      "resumen": "Bill Gates y Paul Allen fundaron Micro-Soft en Albuquerque para vender un intérprete de BASIC para la Altair 8800. En 1979 se mudó a la zona de Seattle y en 1986 a Redmond.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "carta-abierta-a-los-aficionados"
+      ],
+      "wikipedia": {
+        "es": "Historia de Microsoft",
+        "en": "History of Microsoft"
+      }
+    },
+    {
+      "id": "fundacion-de-apple",
+      "titulo": "Fundación de Apple",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Los Altos (California)",
+      "lon": -122.098,
+      "lat": 37.368,
+      "tipo": "fundacion",
+      "resumen": "Steve Jobs, Steve Wozniak y Ronald Wayne fundaron Apple Computer el 1 de abril de 1976 para vender la computadora Apple I, armada por Wozniak.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Apple",
+        "en": "Apple Inc."
+      }
+    },
+    {
+      "id": "ibm-pc-y-ms-dos",
+      "titulo": "La IBM PC y el MS-DOS",
+      "anio": 1981,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Boca Raton (Florida)",
+      "lon": -80.1,
+      "lat": 26.369,
+      "tipo": "economico",
+      "resumen": "IBM lanzó en agosto de 1981 su computadora personal con un sistema operativo que Microsoft le licenciaba sin exclusividad. Cuando otros fabricantes copiaron la arquitectura de la PC, Microsoft les vendió el mismo sistema, MS-DOS, y se quedó con el estándar de la industria.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "IBM PC",
+        "en": "IBM Personal Computer"
+      }
+    },
+    {
+      "id": "proyecto-gnu",
+      "titulo": "Comienzo del proyecto GNU",
+      "anio": 1983,
+      "anio_hasta": 1984,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "fundacion",
+      "resumen": "Richard Stallman anunció el 27 de septiembre de 1983 que escribiría GNU, un sistema operativo libre compatible con Unix, y en enero de 1984 dejó su empleo en el MIT para que la universidad no pudiera reclamar el código. En los años siguientes escribió el editor Emacs y el compilador GCC.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "anuncio-gnu",
+        "manifiesto-gnu"
+      ],
+      "wikipedia": {
+        "es": "Proyecto GNU",
+        "en": "GNU Project"
+      }
+    },
+    {
+      "id": "fundacion-del-chaos-computer-club",
+      "titulo": "Fundación del Chaos Computer Club",
+      "anio": 1981,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Berlín",
+      "lon": 13.383,
+      "lat": 52.517,
+      "tipo": "fundacion",
+      "resumen": "Wau Holland y otros fundaron el 12 de septiembre de 1981, en la redacción del diario taz de Berlín, el club de hackers más grande de Europa. En 1984 se hizo conocido al mostrar fallas del sistema Btx de Correos transfiriendo, y devolviendo, 134.000 marcos de una caja de ahorros de Hamburgo.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Chaos Computer Club",
+        "en": "Chaos Computer Club"
+      }
+    },
+    {
+      "id": "fundacion-de-la-fsf",
+      "titulo": "Fundación de la Free Software Foundation",
+      "anio": 1985,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Boston",
+      "lon": -71.058,
+      "lat": 42.36,
+      "tipo": "fundacion",
+      "resumen": "Stallman fundó el 4 de octubre de 1985 la Free Software Foundation, organización sin fines de lucro que financia el proyecto GNU, administra la GPL y difunde la idea de software libre.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "manifiesto-gnu",
+        "definicion-de-software-libre",
+        "gpl"
+      ],
+      "wikipedia": {
+        "es": "Free Software Foundation",
+        "en": "Free Software Foundation"
+      }
+    },
+    {
+      "id": "caso-hess",
+      "titulo": "Los hackers de Hannover y la KGB",
+      "anio": 1986,
+      "anio_hasta": 1989,
+      "aprox": false,
+      "lugar": "Berkeley (California)",
+      "lon": -122.268,
+      "lat": 37.87,
+      "tipo": "judicial",
+      "resumen": "Clifford Stoll descubrió desde Berkeley que un intruso, Markus Hess, entraba en redes militares estadounidenses. Hess y otros jóvenes de Alemania Occidental vendían lo obtenido a la KGB; fueron juzgados en 1990 y condenados a penas en suspenso.",
+      "regiones": [
+        "norteamerica",
+        "alemania"
+      ],
+      "fuentes": [
+        "el-huevo-del-cuco"
+      ],
+      "wikipedia": {
+        "en": "Markus Hess"
+      }
+    },
+    {
+      "id": "gusano-morris",
+      "titulo": "El gusano Morris",
+      "anio": 1988,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "desastre",
+      "resumen": "El 2 de noviembre de 1988 un programa de Robert Tappan Morris, lanzado desde el MIT, se copió en miles de computadoras de internet y las saturó. Morris dijo que solo quería medir la red; en 1990 fue condenado a tres años de libertad condicional, servicio comunitario y una multa.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "analisis-del-gusano-de-internet",
+        "ley-cfaa"
+      ],
+      "wikipedia": {
+        "es": "Gusano Morris",
+        "en": "Morris worm"
+      }
+    },
+    {
+      "id": "operacion-sundevil",
+      "titulo": "La Operación Sundevil y el allanamiento a Steve Jackson Games",
+      "anio": 1990,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Phoenix (Arizona)",
+      "lon": -112.074,
+      "lat": 33.448,
+      "tipo": "judicial",
+      "resumen": "En mayo de 1990 el Servicio Secreto allanó a presuntos hackers en catorce ciudades, después de haber allanado en marzo la editorial de juegos Steve Jackson Games. En 1993 un tribunal condenó al Servicio Secreto a indemnizar a la editorial por violar las leyes que protegen las publicaciones y las comunicaciones almacenadas.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "la-caza-de-hackers"
+      ],
+      "wikipedia": {
+        "es": "Operación Sundevil",
+        "en": "Operation Sundevil"
+      }
+    },
+    {
+      "id": "fundacion-de-la-eff",
+      "titulo": "Fundación de la Electronic Frontier Foundation",
+      "anio": 1990,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cambridge (Massachusetts)",
+      "lon": -71.106,
+      "lat": 42.375,
+      "tipo": "fundacion",
+      "resumen": "Mitch Kapor, John Perry Barlow y John Gilmore fundaron en julio de 1990 la EFF para defender los derechos civiles en las redes, a partir de los allanamientos de ese año. Patrocinó los casos Steve Jackson Games y Bernstein.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "la-caza-de-hackers",
+        "declaracion-de-independencia-del-ciberespacio"
+      ],
+      "wikipedia": {
+        "es": "Electronic Frontier Foundation",
+        "en": "Electronic Frontier Foundation"
+      }
+    },
+    {
+      "id": "creacion-de-linux",
+      "titulo": "Creación de Linux",
+      "anio": 1991,
+      "anio_hasta": 1992,
+      "aprox": false,
+      "lugar": "Universidad de Helsinki",
+      "lon": 24.95,
+      "lat": 60.169,
+      "tipo": "cientifico",
+      "resumen": "Linus Torvalds publicó en septiembre de 1991 la primera versión del núcleo Linux y en 1992 adoptó la licencia GPL. Combinado con las herramientas de GNU formó un sistema operativo libre completo; la FSF pide llamarlo GNU/Linux.",
+      "regiones": [
+        "finlandia"
+      ],
+      "fuentes": [
+        "anuncio-de-linux",
+        "linux-es-obsoleto",
+        "gpl"
+      ],
+      "wikipedia": {
+        "es": "Núcleo Linux",
+        "en": "Linux kernel"
+      }
+    },
+    {
+      "id": "pgp-y-la-investigacion-a-zimmermann",
+      "titulo": "PGP y la investigación a Zimmermann",
+      "anio": 1991,
+      "anio_hasta": 1996,
+      "aprox": false,
+      "lugar": "Boulder (Colorado)",
+      "lon": -105.293,
+      "lat": 40.019,
+      "tipo": "judicial",
+      "resumen": "Phil Zimmermann publicó en 1991 PGP, que se difundió por internet fuera de Estados Unidos. Como la criptografía fuerte figuraba en la lista de municiones, la Aduana lo investigó desde 1993 por exportación ilegal; en 1995 el MIT publicó el código como libro impreso, protegido por la libertad de expresión, y en 1996 la fiscalía cerró la causa sin acusarlo.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "por-que-escribi-pgp"
+      ],
+      "wikipedia": {
+        "es": "Pretty Good Privacy",
+        "en": "Pretty Good Privacy"
+      }
+    },
+    {
+      "id": "lista-cypherpunk",
+      "titulo": "Nace la lista de correo cypherpunk",
+      "anio": 1992,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bahía de San Francisco",
+      "lon": -122.419,
+      "lat": 37.775,
+      "tipo": "fundacion",
+      "resumen": "Eric Hughes, Timothy May y John Gilmore reunieron a fines de 1992 a un grupo de criptógrafos y programadores y abrieron una lista de correo que llegó a cientos de miembros. Defendían la privacidad mediante el cifrado y el dinero digital anónimo.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "manifiesto-cypherpunk",
+        "manifiesto-criptoanarquista",
+        "seguridad-sin-identificacion"
+      ],
+      "wikipedia": {
+        "es": "Cypherpunk",
+        "en": "Cypherpunk"
+      }
+    },
+    {
+      "id": "chip-clipper",
+      "titulo": "El chip Clipper",
+      "anio": 1993,
+      "anio_hasta": 1996,
+      "aprox": false,
+      "lugar": "Washington",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "politico",
+      "resumen": "El gobierno de Bill Clinton propuso en 1993 un chip de cifrado para teléfonos cuyas claves quedarían depositadas para que las agencias pudieran descifrar con orden judicial. Lo rechazaron la industria y los defensores de la privacidad; en 1994 Matt Blaze mostró una falla que permitía eludir el depósito, y el proyecto se abandonó hacia 1996.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Chip Clipper",
+        "en": "Clipper chip"
+      }
+    },
+    {
+      "id": "guerras-criptograficas",
+      "titulo": "Las guerras criptográficas",
+      "anio": 1991,
+      "anio_hasta": 2000,
+      "aprox": false,
+      "lugar": "Washington",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "politico",
+      "resumen": "Disputa entre el gobierno de Estados Unidos, que trataba la criptografía como munición y buscaba acceso a las comunicaciones cifradas, y empresas, académicos y cypherpunks que defendían el cifrado libre. Terminó en enero de 2000 con la liberalización de las exportaciones, aunque el debate sobre los accesos para la policía volvió después.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "por-que-escribi-pgp",
+        "fallo-bernstein",
+        "manifiesto-cypherpunk"
+      ],
+      "wikipedia": {
+        "en": "Crypto Wars"
+      }
+    },
+    {
+      "id": "fundacion-de-debian",
+      "titulo": "Fundación de Debian",
+      "anio": 1993,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "West Lafayette (Indiana)",
+      "lon": -86.912,
+      "lat": 40.442,
+      "tipo": "fundacion",
+      "resumen": "Ian Murdock anunció el 16 de agosto de 1993 Debian, una distribución de GNU/Linux hecha por voluntarios. Con su contrato social y sus pautas de software libre se volvió una de las distribuciones más influyentes, base de Ubuntu y de muchas otras.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "manifiesto-debian",
+        "contrato-social-de-debian"
+      ],
+      "wikipedia": {
+        "es": "Debian GNU/Linux",
+        "en": "Debian"
+      }
+    },
+    {
+      "id": "apache",
+      "titulo": "El servidor web Apache",
+      "anio": 1995,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "cientifico",
+      "resumen": "Un grupo de administradores de sitios unió en 1995 parches para el servidor web de la NCSA y formó el servidor Apache, de código libre, que en pocos años fue el más usado de la web. En 1999 se creó la Apache Software Foundation.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "la-catedral-y-el-bazar"
+      ],
+      "wikipedia": {
+        "es": "Servidor HTTP Apache",
+        "en": "Apache HTTP Server"
+      }
+    },
+    {
+      "id": "netscape-libera-su-codigo",
+      "titulo": "Netscape libera el código de su navegador",
+      "anio": 1998,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mountain View (California)",
+      "lon": -122.042,
+      "lat": 37.393,
+      "tipo": "economico",
+      "resumen": "Netscape, que perdía la guerra de los navegadores con Microsoft, anunció en enero de 1998 que liberaría el código de su navegador, y lo publicó el 31 de marzo como proyecto Mozilla, del que en 2004 salió Firefox.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "la-catedral-y-el-bazar"
+      ],
+      "wikipedia": {
+        "es": "Mozilla (comunidad)",
+        "en": "Mozilla"
+      }
+    },
+    {
+      "id": "nacimiento-del-codigo-abierto",
+      "titulo": "Nace el «código abierto» y la Open Source Initiative",
+      "anio": 1998,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Palo Alto (California)",
+      "lon": -122.16,
+      "lat": 37.444,
+      "tipo": "fundacion",
+      "resumen": "En febrero de 1998, tras el anuncio de Netscape, Christine Peterson propuso la expresión «código abierto» para presentar el software libre a las empresas sin el énfasis ético de Stallman. Eric Raymond y Bruce Perens fundaron la Open Source Initiative. La FSF sostiene que el cambio de nombre ocultó la cuestión de la libertad.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "definicion-de-open-source",
+        "la-catedral-y-el-bazar"
+      ],
+      "wikipedia": {
+        "es": "Open Source Initiative",
+        "en": "Open Source Initiative"
+      }
+    },
+    {
+      "id": "juicio-antimonopolio-a-microsoft",
+      "titulo": "Juicio antimonopolio Estados Unidos contra Microsoft",
+      "anio": 1998,
+      "anio_hasta": 2002,
+      "aprox": false,
+      "lugar": "Washington",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "judicial",
+      "resumen": "El Departamento de Justicia y veinte estados demandaron a Microsoft en 1998 por usar el monopolio de Windows para desplazar a Netscape. El juez Jackson ordenó en 2000 dividir la empresa; la Cámara de Apelaciones confirmó en 2001 el abuso de monopolio pero anuló la división, y el caso terminó en un acuerdo aprobado en 2002.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "fallo-microsoft-apelacion",
+        "documentos-halloween"
+      ],
+      "wikipedia": {
+        "es": "Caso Estados Unidos contra Microsoft",
+        "en": "United States v. Microsoft Corp."
+      }
+    },
+    {
+      "id": "fundacion-de-wikipedia",
+      "titulo": "Fundación de Wikipedia",
+      "anio": 2001,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Diego",
+      "lon": -117.162,
+      "lat": 32.715,
+      "tipo": "fundacion",
+      "resumen": "Jimmy Wales y Larry Sanger lanzaron el 15 de enero de 2001 una enciclopedia que cualquiera podía editar, como complemento de Nupedia. Con licencias libres y trabajo voluntario, pasó a ser una de las obras de consulta más usadas del mundo; desde 2003 la sostiene la Fundación Wikimedia.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "licencias-creative-commons"
+      ],
+      "wikipedia": {
+        "es": "Historia de Wikipedia",
+        "en": "History of Wikipedia"
+      }
+    },
+    {
+      "id": "fundacion-de-creative-commons",
+      "titulo": "Fundación de Creative Commons",
+      "anio": 2001,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Stanford (California)",
+      "lon": -122.166,
+      "lat": 37.424,
+      "tipo": "fundacion",
+      "resumen": "Lawrence Lessig, Hal Abelson y Eric Eldred fundaron en 2001 una organización para facilitar que los autores compartan sus obras con licencias estándar; las primeras se publicaron en diciembre de 2002.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "licencias-creative-commons",
+        "cultura-libre-lessig",
+        "fallo-eldred-contra-ashcroft"
+      ],
+      "wikipedia": {
+        "es": "Creative Commons",
+        "en": "Creative Commons"
+      }
+    },
+    {
+      "id": "fundacion-de-the-pirate-bay",
+      "titulo": "Fundación de The Pirate Bay",
+      "anio": 2003,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Estocolmo",
+      "lon": 18.069,
+      "lat": 59.329,
+      "tipo": "fundacion",
+      "resumen": "El grupo sueco Piratbyrån, contrario al derecho de autor, creó en 2003 un buscador de archivos BitTorrent que se convirtió en el más conocido del mundo. La policía sueca lo allanó en 2006, lo que impulsó la fundación del Partido Pirata.",
+      "regiones": [
+        "escandinavia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "The Pirate Bay",
+        "en": "The Pirate Bay"
+      }
+    },
+    {
+      "id": "juicio-de-the-pirate-bay",
+      "titulo": "Juicio de The Pirate Bay",
+      "anio": 2009,
+      "anio_hasta": 2010,
+      "aprox": false,
+      "lugar": "Estocolmo",
+      "lon": 18.069,
+      "lat": 59.329,
+      "tipo": "judicial",
+      "resumen": "El 17 de abril de 2009 un tribunal de Estocolmo condenó a cuatro responsables del sitio por complicidad en infracciones de derechos de autor a un año de prisión y a indemnizar a las discográficas y estudios. En 2010 la apelación redujo las penas de prisión y aumentó las indemnizaciones; los acusados sostenían que el sitio solo indexaba archivos.",
+      "regiones": [
+        "escandinavia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "The Pirate Bay trial"
+      }
+    },
+    {
+      "id": "fundacion-del-partido-pirata",
+      "titulo": "Fundación del Partido Pirata sueco",
+      "anio": 2006,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Estocolmo",
+      "lon": 18.069,
+      "lat": 59.329,
+      "tipo": "fundacion",
+      "resumen": "Rick Falkvinge fundó el 1 de enero de 2006 un partido para reformar el derecho de autor y las patentes y defender la privacidad. En las elecciones europeas de 2009 obtuvo el 7,1 % de los votos y una banca, a la que luego se sumó otra, y su ejemplo se copió en decenas de países.",
+      "regiones": [
+        "escandinavia"
+      ],
+      "fuentes": [
+        "cultura-libre-lessig"
+      ],
+      "wikipedia": {
+        "es": "Partido Pirata (Suecia)",
+        "en": "Pirate Party (Sweden)"
+      }
+    },
+    {
+      "id": "fundacion-de-4chan",
+      "titulo": "Fundación de 4chan y el origen de Anonymous",
+      "anio": 2003,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "fundacion",
+      "resumen": "Christopher Poole abrió en octubre de 2003 el foro de imágenes 4chan, donde los mensajes se firmaban por defecto como «Anonymous». De esa costumbre y de las bromas colectivas del foro surgió la identidad de Anonymous.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "hacker-hoaxer"
+      ],
+      "wikipedia": {
+        "es": "4chan",
+        "en": "4chan"
+      }
+    },
+    {
+      "id": "proyecto-chanology",
+      "titulo": "Proyecto Chanology",
+      "anio": 2008,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet y frente a sedes de la Cienciología",
+      "tipo": "politico",
+      "resumen": "Campaña de Anonymous contra la Iglesia de la Cienciología, iniciada en enero de 2008 tras el intento de la Iglesia de retirar de internet un video de Tom Cruise. Combinó ataques a sus sitios con protestas callejeras con máscaras de Guy Fawkes frente a sus sedes de decenas de ciudades el 10 de febrero de 2008.",
+      "regiones": [
+        "norteamerica",
+        "britania",
+        "australia"
+      ],
+      "fuentes": [
+        "mensaje-a-la-cienciologia",
+        "hacker-hoaxer"
+      ],
+      "wikipedia": {
+        "es": "Proyecto Chanology",
+        "en": "Project Chanology"
+      }
+    },
+    {
+      "id": "papeles-del-pentagono-en-la-prensa",
+      "titulo": "La publicación de los Papeles del Pentágono",
+      "anio": 1971,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "judicial",
+      "resumen": "El 13 de junio de 1971 The New York Times empezó a publicar el estudio secreto sobre Vietnam que le había entregado Daniel Ellsberg. El gobierno de Nixon consiguió suspender la publicación, pero la Corte Suprema la autorizó el 30 de junio; la causa por espionaje contra Ellsberg se anuló en 1973 al conocerse escuchas y un robo ordenados contra él desde la Casa Blanca.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "papeles-del-pentagono",
+        "fallo-new-york-times-contra-estados-unidos",
+        "ley-de-espionaje"
+      ]
+    },
+    {
+      "id": "fundacion-de-wikileaks",
+      "titulo": "Fundación de WikiLeaks",
+      "anio": 2006,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "fundacion",
+      "resumen": "Julian Assange y un grupo de colaboradores crearon en 2006 un sitio para recibir y publicar documentos filtrados con protección de la identidad de las fuentes; su primera publicación, en diciembre, fue un documento sobre Somalia. En sus primeros años difundió manuales de Guantánamo y documentos sobre corrupción en Kenia.",
+      "regiones": [
+        "australia"
+      ],
+      "fuentes": [
+        "conspiracion-como-gobernanza"
+      ],
+      "wikipedia": {
+        "es": "WikiLeaks",
+        "en": "WikiLeaks"
+      }
+    },
+    {
+      "id": "collateral-murder",
+      "titulo": "El ataque de Bagdad de 2007 y el video «Collateral Murder»",
+      "anio": 2007,
+      "anio_hasta": 2010,
+      "aprox": false,
+      "lugar": "Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "politico",
+      "resumen": "En julio de 2007 dos helicópteros estadounidenses mataron en Bagdad a una docena de personas, entre ellas dos periodistas de Reuters. WikiLeaks publicó el 5 de abril de 2010 el video del ataque, entregado por Chelsea Manning, con el título «Collateral Murder»; el Pentágono sostuvo que los soldados habían seguido las reglas de combate.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "readme-txt"
+      ],
+      "wikipedia": {
+        "es": "Ataque aéreo en Bagdad del 12 de julio de 2007",
+        "en": "July 12, 2007, Baghdad airstrike"
+      }
+    },
+    {
+      "id": "detencion-de-manning",
+      "titulo": "Detención de Chelsea Manning",
+      "anio": 2010,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "cerca de Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "judicial",
+      "resumen": "Manning fue detenida el 27 de mayo de 2010 en Irak, después de que el hacker Adrian Lamo, a quien le había contado sus filtraciones en un chat, la denunciara. Pasó meses aislada en la base de Quantico, en condiciones que el relator de la ONU contra la tortura calificó de crueles e inhumanas.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "readme-txt"
+      ]
+    },
+    {
+      "id": "diarios-de-afganistan",
+      "titulo": "Los diarios de la guerra de Afganistán",
+      "anio": 2010,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "politico",
+      "resumen": "El 25 de julio de 2010 WikiLeaks, The Guardian, The New York Times y Der Spiegel publicaron unos 75.000 informes militares sobre la guerra de Afganistán, con datos sobre muertes de civiles no informadas. El Pentágono denunció que exponían a informantes afganos.",
+      "regiones": [
+        "britania",
+        "afganistan"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Diarios de la Guerra de Afganistán",
+        "en": "Afghan War documents leak"
+      }
+    },
+    {
+      "id": "registros-de-irak",
+      "titulo": "Los registros de la guerra de Irak",
+      "anio": 2010,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "politico",
+      "resumen": "El 22 de octubre de 2010 WikiLeaks y varios medios publicaron unos 390.000 informes militares sobre la guerra de Irak, que registraban decenas de miles de muertes de civiles y torturas de las fuerzas iraquíes conocidas por el ejército estadounidense.",
+      "regiones": [
+        "britania",
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Registros de la Guerra de Irak",
+        "en": "Iraq War documents leak"
+      }
+    },
+    {
+      "id": "cablegate",
+      "titulo": "Cablegate: los cables diplomáticos de Estados Unidos",
+      "anio": 2010,
+      "anio_hasta": 2011,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "politico",
+      "resumen": "Desde el 28 de noviembre de 2010 WikiLeaks y cinco diarios (entre ellos El País) publicaron, editados, cables de embajadas de Estados Unidos, de un total de unos 250.000. En septiembre de 2011 se difundieron todos sin editar, con nombres de informantes; el gobierno estadounidense dijo que ponía vidas en riesgo y WikiLeaks culpó a The Guardian.",
+      "regiones": [
+        "britania",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "wikileaks-la-guerra-de-assange"
+      ],
+      "wikipedia": {
+        "es": "Filtración de documentos diplomáticos de los Estados Unidos",
+        "en": "United States diplomatic cables leak"
+      }
+    },
+    {
+      "id": "operacion-payback",
+      "titulo": "Operación Payback",
+      "anio": 2010,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "politico",
+      "resumen": "Anonymous atacó desde septiembre de 2010 sitios de entidades contra la piratería y, en diciembre, con ataques de denegación de servicio, los de PayPal, Visa, MasterCard y otras empresas que habían cortado las donaciones a WikiLeaks. En 2013 varios participantes fueron condenados en Estados Unidos y el Reino Unido.",
+      "regiones": [
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [
+        "hacker-hoaxer"
+      ],
+      "wikipedia": {
+        "es": "Operation Payback",
+        "en": "Operation Payback"
+      }
+    },
+    {
+      "id": "assange-contra-la-fiscalia-sueca",
+      "titulo": "Assange y el pedido de extradición de Suecia",
+      "anio": 2010,
+      "anio_hasta": 2012,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "judicial",
+      "resumen": "Suecia pidió en 2010 la extradición de Assange para interrogarlo por denuncias de delitos sexuales de dos mujeres, que él negó y atribuyó a una maniobra para entregarlo a Estados Unidos. El Tribunal Supremo británico aprobó la entrega el 30 de mayo de 2012. Suecia cerró la investigación en 2019 sin acusarlo.",
+      "regiones": [
+        "britania",
+        "escandinavia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Assange v Swedish Prosecution Authority"
+      }
+    },
+    {
+      "id": "asilo-de-assange",
+      "titulo": "Assange en la embajada de Ecuador",
+      "anio": 2012,
+      "anio_hasta": 2019,
+      "aprox": false,
+      "lugar": "Embajada de Ecuador en Londres",
+      "lon": -0.1625,
+      "lat": 51.4993,
+      "tipo": "politico",
+      "resumen": "El 19 de junio de 2012 Assange pidió asilo en la embajada de Ecuador en Londres, que el gobierno de Rafael Correa le concedió en agosto. Vivió allí casi siete años; un grupo de trabajo de la ONU consideró en 2016 que estaba detenido arbitrariamente, y el Reino Unido rechazó ese dictamen.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "cypherpunks-libro"
+      ]
+    },
+    {
+      "id": "detencion-de-assange",
+      "titulo": "Detención de Assange y el pedido de extradición de Estados Unidos",
+      "anio": 2019,
+      "anio_hasta": 2024,
+      "aprox": false,
+      "lugar": "Prisión de Belmarsh",
+      "lon": 0.093,
+      "lat": 51.497,
+      "tipo": "judicial",
+      "resumen": "El 11 de abril de 2019, cuando Ecuador le retiró el asilo, la policía británica detuvo a Assange por haber violado la libertad bajo fianza. Estados Unidos lo acusó de conspirar con Manning para entrar en una computadora militar y de 17 delitos de la Ley de Espionaje, y pidió su extradición; pasó más de cinco años en Belmarsh mientras se litigaba.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "fallo-extradicion-de-assange",
+        "ley-de-espionaje"
+      ],
+      "wikipedia": {
+        "en": "Indictment and arrest of Julian Assange"
+      }
+    },
+    {
+      "id": "acuerdo-de-assange",
+      "titulo": "El acuerdo judicial de Assange en Saipán",
+      "anio": 2024,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Saipán (Islas Marianas del Norte)",
+      "lon": 145.75,
+      "lat": 15.183,
+      "tipo": "judicial",
+      "resumen": "El 26 de junio de 2024, ante un tribunal federal de las Islas Marianas del Norte, Assange se declaró culpable de un cargo de conspiración para obtener y difundir información de defensa nacional. Fue condenado a lo ya cumplido en Belmarsh y voló a Australia; sus partidarios celebraron su libertad y criticaron que se penalizara una práctica periodística.",
+      "regiones": [
+        "micronesia"
+      ],
+      "fuentes": [
+        "ley-de-espionaje"
+      ]
+    },
+    {
+      "id": "consejo-de-guerra-de-manning",
+      "titulo": "Consejo de guerra a Chelsea Manning",
+      "anio": 2011,
+      "anio_hasta": 2013,
+      "aprox": false,
+      "lugar": "Fort Meade (Maryland)",
+      "lon": -76.743,
+      "lat": 39.107,
+      "tipo": "judicial",
+      "resumen": "Tras audiencias preliminares desde diciembre de 2011, un tribunal militar de Fort Meade la absolvió el 30 de julio de 2013 del cargo de ayudar al enemigo, que podía llevar a cadena perpetua, y la condenó por casi todos los demás, entre ellos violaciones de la Ley de Espionaje. El 21 de agosto le impuso 35 años de prisión.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "ley-de-espionaje",
+        "ley-cfaa",
+        "readme-txt"
+      ],
+      "wikipedia": {
+        "en": "United States v. Manning"
+      }
+    },
+    {
+      "id": "conmutacion-de-manning",
+      "titulo": "Obama conmuta la pena de Manning",
+      "anio": 2017,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Washington",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "politico",
+      "resumen": "El 17 de enero de 2017, días antes de dejar el cargo, Barack Obama conmutó la pena de Chelsea Manning, que salió de prisión el 17 de mayo tras casi siete años detenida. Legisladores republicanos criticaron la decisión como una señal de impunidad para quienes filtran secretos.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "revelaciones-de-snowden",
+      "titulo": "Las revelaciones de Snowden",
+      "anio": 2013,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Hong Kong",
+      "lon": 114.159,
+      "lat": 22.278,
+      "tipo": "politico",
+      "resumen": "Desde el 5 de junio de 2013 The Guardian, The Washington Post y otros medios publicaron documentos entregados por Edward Snowden en Hong Kong sobre programas de la NSA y sus aliados: la recolección de metadatos telefónicos, PRISM, la interceptación de cables y el espionaje a gobiernos aliados. El 9 de junio Snowden reveló su identidad.",
+      "regiones": [
+        "china-meridional",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "articulo-verizon",
+        "sin-lugar-donde-esconderse",
+        "citizenfour",
+        "informe-del-congreso-sobre-snowden"
+      ],
+      "wikipedia": {
+        "es": "Revelaciones sobre la red de vigilancia mundial (2013-2015)",
+        "en": "Snowden disclosures"
+      }
+    },
+    {
+      "id": "snowden-en-rusia",
+      "titulo": "Snowden queda en Rusia",
+      "anio": 2013,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Aeropuerto de Sheremétievo (Moscú)",
+      "lon": 37.617,
+      "lat": 55.751,
+      "tipo": "politico",
+      "resumen": "Acusado por Estados Unidos y con el pasaporte anulado, Snowden quedó el 23 de junio de 2013 varado en la zona de tránsito del aeropuerto de Moscú, camino a América Latina. El 1 de agosto Rusia le dio asilo temporal; en 2022 le otorgó la ciudadanía.",
+      "regiones": [
+        "rus"
+      ],
+      "fuentes": [
+        "vigilancia-permanente"
+      ]
+    },
+    {
+      "id": "operacion-tunez",
+      "titulo": "Anonymous y la revolución tunecina",
+      "anio": 2011,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Túnez",
+      "lon": 10.18,
+      "lat": 36.801,
+      "tipo": "politico",
+      "resumen": "En enero de 2011, durante la revolución que derribó a Ben Ali, Anonymous atacó sitios del gobierno tunecino que censuraba internet y difundió herramientas para eludir la censura. Repitió operaciones parecidas en Egipto y otros países de la Primavera Árabe.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [
+        "hacker-hoaxer"
+      ]
+    },
+    {
+      "id": "ataque-a-hbgary",
+      "titulo": "El ataque de Anonymous a HBGary Federal",
+      "anio": 2011,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "politico",
+      "resumen": "En febrero de 2011, después de que el director de la empresa de seguridad HBGary Federal dijera que había identificado a líderes de Anonymous, el grupo entró en sus sistemas y publicó sus correos. Revelaron propuestas para desacreditar a periodistas y simpatizantes de WikiLeaks.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "hacker-hoaxer"
+      ],
+      "wikipedia": {
+        "en": "HBGary"
+      }
+    },
+    {
+      "id": "lulzsec",
+      "titulo": "LulzSec",
+      "anio": 2011,
+      "anio_hasta": 2012,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "politico",
+      "resumen": "Grupo desprendido de Anonymous que entre mayo y junio de 2011 atacó a Sony, la cadena PBS, el sitio de la CIA y policías estadounidenses, «por diversión». Su líder, Sabu, ya colaboraba con el FBI, y en marzo de 2012 fueron detenidos sus miembros en Estados Unidos, el Reino Unido e Irlanda.",
+      "regiones": [
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [
+        "hacker-hoaxer"
+      ],
+      "wikipedia": {
+        "es": "Lulz Security",
+        "en": "LulzSec"
+      }
+    },
+    {
+      "id": "caso-jstor",
+      "titulo": "El caso JSTOR contra Aaron Swartz",
+      "anio": 2011,
+      "anio_hasta": 2013,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "judicial",
+      "resumen": "Swartz descargó millones de artículos de JSTOR conectando una computadora en un armario del MIT. Detenido en enero de 2011, la fiscalía lo acusó de trece delitos con penas teóricas de décadas de prisión; JSTOR no impulsó la causa. Se suicidó el 11 de enero de 2013 y los cargos se retiraron; su familia culpó a la fiscalía y al MIT.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "manifiesto-guerrilla-del-acceso-abierto",
+        "ley-cfaa"
+      ],
+      "wikipedia": {
+        "en": "United States v. Swartz"
+      }
+    },
+    {
+      "id": "fundacion-de-sci-hub",
+      "titulo": "Fundación de Sci-Hub",
+      "anio": 2011,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Almatý",
+      "lon": 76.915,
+      "lat": 43.24,
+      "tipo": "fundacion",
+      "resumen": "Alexandra Elbakyan creó en septiembre de 2011 un sitio que da acceso gratuito a artículos científicos de pago, obtenidos con credenciales de universidades. Para las editoriales es piratería y un riesgo de seguridad; para muchos investigadores, una respuesta a precios abusivos.",
+      "regiones": [
+        "asia-central"
+      ],
+      "fuentes": [
+        "manifiesto-guerrilla-del-acceso-abierto"
+      ],
+      "wikipedia": {
+        "es": "Sci-Hub",
+        "en": "Sci-Hub"
+      }
+    },
+    {
+      "id": "juicios-contra-sci-hub",
+      "titulo": "Los juicios de las editoriales contra Sci-Hub",
+      "anio": 2015,
+      "anio_hasta": 2017,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "judicial",
+      "resumen": "Elsevier demandó a Sci-Hub en Nueva York en 2015 y en 2017 obtuvo una sentencia en rebeldía de 15 millones de dólares; ese mismo año la American Chemical Society logró otra de 4,8 millones. Elbakyan no se presentó, no pagó y el sitio siguió activo con otros dominios.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "apagon-contra-sopa-y-pipa",
+      "titulo": "Apagón contra SOPA y PIPA",
+      "anio": 2012,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "politico",
+      "resumen": "El 18 de enero de 2012 la Wikipedia en inglés, Reddit y miles de sitios se apagaron o mostraron avisos de protesta contra los proyectos SOPA y PIPA, y millones de personas escribieron a sus legisladores. Dos días después ambos proyectos quedaron postergados sin fecha.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "sopa"
+      ],
+      "wikipedia": {
+        "es": "Protesta contra SOPA y PIPA",
+        "en": "Protests against SOPA and PIPA"
+      }
+    },
+    {
+      "id": "bloque-genesis",
+      "titulo": "El bloque génesis de Bitcoin",
+      "anio": 2009,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "economico",
+      "resumen": "El 3 de enero de 2009 Satoshi Nakamoto creó el primer bloque de la cadena de Bitcoin, con el titular de The Times de ese día sobre un nuevo rescate a los bancos. El 12 de enero Hal Finney recibió la primera transacción.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "bitcoin-whitepaper"
+      ],
+      "wikipedia": {
+        "es": "Historia de bitcoin",
+        "en": "History of bitcoin"
+      }
+    },
+    {
+      "id": "silk-road",
+      "titulo": "Silk Road",
+      "anio": 2011,
+      "anio_hasta": 2013,
+      "aprox": false,
+      "lugar": "San Francisco",
+      "lon": -122.419,
+      "lat": 37.775,
+      "tipo": "economico",
+      "resumen": "Mercado anónimo creado por Ross Ulbricht en 2011 en la red Tor, donde se vendían sobre todo drogas pagadas con bitcoin. El FBI lo cerró en octubre de 2013 y detuvo a Ulbricht en una biblioteca de San Francisco.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "bitcoin-whitepaper"
+      ],
+      "wikipedia": {
+        "es": "Silk Road",
+        "en": "Silk Road (marketplace)"
+      }
+    },
+    {
+      "id": "condena-e-indulto-de-ulbricht",
+      "titulo": "Condena e indulto de Ross Ulbricht",
+      "anio": 2015,
+      "anio_hasta": 2025,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "judicial",
+      "resumen": "Un jurado de Nueva York declaró culpable a Ulbricht en febrero de 2015 y la jueza Katherine Forrest lo condenó a prisión perpetua sin libertad condicional. Sus partidarios consideraron la pena desproporcionada; el 21 de enero de 2025 Donald Trump le concedió el indulto total.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "lanzamiento-de-ethereum",
+      "titulo": "Lanzamiento de Ethereum",
+      "anio": 2015,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Zug",
+      "lon": 8.517,
+      "lat": 47.168,
+      "tipo": "economico",
+      "resumen": "La red Ethereum, propuesta por Vitalik Buterin y financiada en 2014 con una venta colectiva de su moneda, el ether, empezó a funcionar el 30 de julio de 2015, con apoyo de una fundación con sede en Suiza.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "whitepaper-ethereum"
+      ],
+      "wikipedia": {
+        "es": "Ethereum",
+        "en": "Ethereum"
+      }
+    },
+    {
+      "id": "the-dao",
+      "titulo": "The DAO y la división de Ethereum",
+      "anio": 2016,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet",
+      "tipo": "economico",
+      "resumen": "The DAO, un fondo de inversión manejado por contratos inteligentes, reunió unos 150 millones de dólares en ether; en junio de 2016 alguien aprovechó una falla para sacar un tercio. La comunidad decidió cambiar las reglas de la cadena para devolver los fondos, y quienes se opusieron siguieron con la cadena original, Ethereum Classic.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "whitepaper-ethereum"
+      ],
+      "wikipedia": {
+        "en": "The DAO"
+      }
+    },
+    {
+      "id": "usl-contra-bsdi",
+      "titulo": "El juicio de AT&T contra BSD",
+      "anio": 1992,
+      "anio_hasta": 1994,
+      "aprox": false,
+      "lugar": "Universidad de California en Berkeley",
+      "lon": -122.258,
+      "lat": 37.872,
+      "tipo": "judicial",
+      "resumen": "La filial de Unix de AT&T demandó en 1992 a la empresa BSDi y a la Universidad de California por distribuir una versión de BSD con supuesto código de Unix. El acuerdo de 1994 permitió liberar BSD tras quitar unos pocos archivos; la incertidumbre de esos años favoreció la difusión de Linux.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "UNIX System Laboratories, Inc. contra Berkeley Software Design, Inc.",
+        "en": "UNIX System Laboratories, Inc. v. Berkeley Software Design, Inc."
+      }
+    },
+    {
+      "id": "sco-contra-ibm",
+      "titulo": "SCO contra IBM",
+      "anio": 2003,
+      "anio_hasta": 2021,
+      "aprox": false,
+      "lugar": "Salt Lake City (Utah)",
+      "lon": -111.883,
+      "lat": 40.75,
+      "tipo": "judicial",
+      "resumen": "SCO demandó a IBM en 2003 por miles de millones de dólares, afirmando que había copiado código de Unix en Linux, y amenazó a los usuarios de Linux. Un jurado decidió en 2010 que los derechos de Unix eran de Novell y no de SCO, que quebró; el caso terminó con un acuerdo en 2021.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "SCO Group, Inc. v. International Business Machines Corp."
+      }
+    },
+    {
+      "id": "oracle-contra-google",
+      "titulo": "Google contra Oracle",
+      "anio": 2010,
+      "anio_hasta": 2021,
+      "aprox": false,
+      "lugar": "Washington",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "judicial",
+      "resumen": "Oracle demandó a Google por usar en Android las interfaces de programación de Java. El 5 de abril de 2021 la Corte Suprema falló, seis votos contra dos, que ese uso era legítimo («fair use»), un resultado que defendían la industria del software y los partidarios del código abierto.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Caso Oracle contra Google",
+        "en": "Google LLC v. Oracle America, Inc."
+      }
+    },
+    {
+      "id": "microsoft-compra-github",
+      "titulo": "Microsoft compra GitHub",
+      "anio": 2018,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Francisco",
+      "lon": -122.419,
+      "lat": 37.775,
+      "tipo": "economico",
+      "resumen": "Microsoft compró por 7500 millones de dólares la mayor plataforma de alojamiento de código abierto, en un giro respecto de su hostilidad de comienzos de siglo; ya se había sumado a la Linux Foundation en 2016. Algunos programadores mudaron sus proyectos por desconfianza.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [
+        "linux-es-un-cancer"
+      ],
+      "wikipedia": {
+        "es": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "id": "conectar-igualdad",
+      "titulo": "Conectar Igualdad",
+      "anio": 2010,
+      "anio_hasta": 2024,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "Programa creado por el decreto 459 del 6 de abril de 2010 que entregó millones de netbooks a estudiantes y docentes de escuelas públicas, con Windows y GNU/Linux en arranque dual. Sus defensores lo presentan como inclusión digital; sus críticos señalan costos y falta de uso pedagógico. El gobierno de Mauricio Macri lo redujo y reemplazó; se relanzó en 2020 y dejó de financiarse desde 2024.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Conectar Igualdad"
+      }
+    },
+    {
+      "id": "huayra-gnu-linux",
+      "titulo": "Huayra GNU/Linux",
+      "anio": 2013,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "cientifico",
+      "resumen": "Distribución de GNU/Linux basada en Debian y desarrollada por el Estado argentino para las netbooks de Conectar Igualdad, que la incorporaron en 2013. Se publicó con licencia GPL; luego quedó discontinuada.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "manifiesto-debian"
+      ],
+      "wikipedia": {
+        "es": "Huayra GNU/Linux",
+        "en": "Huayra GNU/Linux"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "embajada-de-ecuador-en-londres",
+      "nombre": "Embajada de Ecuador en Londres",
+      "lon": -0.1625,
+      "lat": 51.4993,
+      "fundacion": null,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Departamento del barrio de Knightsbridge donde Julian Assange vivió casi siete años (2012-2019) como asilado de Ecuador, sin poder salir porque la policía británica lo habría detenido. En abril de 2019 el gobierno de Lenín Moreno le retiró el asilo y la policía entró a buscarlo.",
+      "regiones": [
+        "britania"
+      ],
+      "wikipedia": {
+        "es": "Embajada de Ecuador en Londres",
+        "en": "Embassy of Ecuador, London"
+      }
+    },
+    {
+      "id": "prision-de-belmarsh",
+      "nombre": "Prisión de Belmarsh",
+      "lon": 0.093,
+      "lat": 51.497,
+      "fundacion": 1991,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 1,
+      "resumen": "Cárcel de máxima seguridad del sudeste de Londres. Julian Assange estuvo preso allí desde su detención en abril de 2019 hasta junio de 2024, mientras se tramitaba el pedido de extradición de Estados Unidos.",
+      "regiones": [
+        "britania"
+      ],
+      "wikipedia": {
+        "es": "Prisión de Belmarsh",
+        "en": "HM Prison Belmarsh"
+      }
+    },
+    {
+      "id": "sede-de-la-nsa",
+      "nombre": "Sede de la NSA (Fort Meade)",
+      "lon": -76.771,
+      "lat": 39.109,
+      "fundacion": 1957,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Sede, en Fort Meade (Maryland), de la Agencia de Seguridad Nacional de Estados Unidos, creada en 1952 para la inteligencia de señales y la criptografía. Sus programas de vigilancia masiva quedaron expuestos en 2013 por los documentos que entregó Edward Snowden; en la vecina base se juzgó a Chelsea Manning.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "wikipedia": {
+        "es": "Agencia de Seguridad Nacional",
+        "en": "National Security Agency"
+      }
+    },
+    {
+      "id": "gchq",
+      "nombre": "Sede del GCHQ",
+      "lon": -2.124,
+      "lat": 51.899,
+      "fundacion": 1919,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 1,
+      "resumen": "Agencia británica de inteligencia de señales, heredera de la escuela de descifrado de Bletchley Park, con sede en Cheltenham. Los documentos de Snowden mostraron su programa Tempora de interceptación de cables submarinos; en los años setenta tres de sus criptógrafos habían llegado en secreto a la criptografía de clave pública.",
+      "regiones": [
+        "britania"
+      ],
+      "wikipedia": {
+        "es": "GCHQ",
+        "en": "GCHQ"
+      }
+    },
+    {
+      "id": "campus-de-microsoft",
+      "nombre": "Campus de Microsoft",
+      "lon": -122.128,
+      "lat": 47.64,
+      "fundacion": 1986,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Sede de Microsoft en Redmond, cerca de Seattle, desde 1986. Desde allí la empresa dominó el mercado de los sistemas operativos personales y libró su disputa con el software libre.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "wikipedia": {
+        "en": "Microsoft campus"
+      }
+    },
+    {
+      "id": "universidad-de-helsinki",
+      "nombre": "Universidad de Helsinki",
+      "lon": 24.95,
+      "lat": 60.169,
+      "fundacion": 1640,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "universidad",
+      "importancia": 2,
+      "resumen": "Principal universidad de Finlandia. Linus Torvalds estudiaba allí informática cuando escribió el núcleo Linux en 1991, en una computadora personal, y lo distribuyó desde un servidor de la universidad.",
+      "regiones": [
+        "finlandia"
+      ],
+      "wikipedia": {
+        "es": "Universidad de Helsinki",
+        "en": "University of Helsinki"
+      }
+    },
+    {
+      "id": "universidad-de-california-en-berkeley",
+      "nombre": "Universidad de California en Berkeley",
+      "lon": -122.258,
+      "lat": 37.872,
+      "fundacion": 1868,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "universidad",
+      "importancia": 2,
+      "resumen": "Universidad pública donde se desarrolló desde 1977 la Berkeley Software Distribution (BSD), la variante libre de Unix, y donde estudiaba Daniel Bernstein cuando demandó al gobierno por las restricciones a la exportación de criptografía.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "wikipedia": {
+        "es": "Universidad de California en Berkeley",
+        "en": "University of California, Berkeley"
+      }
+    },
+    {
+      "id": "internet-archive",
+      "nombre": "Internet Archive",
+      "lon": -122.472,
+      "lat": 37.782,
+      "fundacion": 1996,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "biblioteca",
+      "importancia": 2,
+      "resumen": "Biblioteca digital sin fines de lucro fundada por Brewster Kahle en San Francisco, que guarda copias de la web (la Wayback Machine), libros, películas y programas. En 2023 y 2024 los tribunales fallaron a favor de las editoriales que la demandaron por prestar libros digitalizados sin permiso.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "wikipedia": {
+        "es": "Internet Archive",
+        "en": "Internet Archive"
+      }
+    },
+    {
+      "id": "pionen",
+      "nombre": "Pionen",
+      "lon": 18.085,
+      "lat": 59.312,
+      "fundacion": 2008,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 1,
+      "resumen": "Centro de datos de la empresa Bahnhof instalado en un antiguo refugio de defensa civil excavado en la roca bajo Estocolmo. En 2010 alojó servidores de WikiLeaks.",
+      "regiones": [
+        "escandinavia"
+      ],
+      "wikipedia": {
+        "en": "Pionen"
+      }
+    },
+    {
+      "id": "cuartel-disciplinario-de-fort-leavenworth",
+      "nombre": "Cuartel Disciplinario de Fort Leavenworth",
+      "lon": -94.935,
+      "lat": 39.378,
+      "fundacion": 1874,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 1,
+      "resumen": "Prisión militar de máxima seguridad de Estados Unidos, en Kansas. Chelsea Manning estuvo detenida allí desde 2011 y cumplió su condena hasta que Barack Obama la conmutó; salió en mayo de 2017.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "wikipedia": {
+        "es": "Cuartel disciplinario de Estados Unidos en Fort Leavenworth",
+        "en": "United States Disciplinary Barracks"
+      }
+    }
+  ]
+}

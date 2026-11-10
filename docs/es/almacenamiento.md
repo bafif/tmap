@@ -13,7 +13,7 @@ el resumen de un artículo cuando alguien lo abre. Por eso lo que hay que distri
 | Qué | Hoy | Al completarse | Notas |
 |---|---|---|---|
 | Mapa (terreno, relieve, unidades, fronteras) | 25 MB | 25-60 MB | Crece si se agrega la vista 3D o costas más finas |
-| Enciclopedia curada (fichas) | 2,1 MB, 1598 elementos | 15-150 MB | ~1,5 KB por elemento: 10 000 elementos ≈ 15 MB (3 MB comprimidos) |
+| Enciclopedia curada (fichas) | 3,8 MB, 3263 elementos | 15-150 MB | ~1,5 KB por elemento: 10 000 elementos ≈ 15 MB (3 MB comprimidos) |
 | Series por país (demografía, economía) | 0,9 MB | 2-5 MB | Our World in Data, un valor por año desde 1950 y por década antes |
 | Personas de Wikidata con fecha y lugar (0.4) | — | 60-600 MB | ~1 a 10 millones de personas, ~60 bytes cada una en binario |
 | Lugares de Pleiades (0.4) | — | ~5 MB | ~36 000 lugares antiguos |
@@ -97,11 +97,12 @@ de tiempo. Las reglas:
 
 | Paso | Cuándo | Qué |
 |---|---|---|
-| 0 | Hecho (10/11/2026) | Las series por país se leen recién al abrir la pestaña «Datos» (29 ms) y la app mide al arrancar cuánto pesa y cuánto tarda la enciclopedia (hoy, 2,1 MB en 228 ms en la PC de desarrollo) |
+| 0 | Hecho (10/11/2026) | Las series por país se leen recién al abrir la pestaña «Datos» (29 ms) y la app mide al arrancar cuánto pesa y cuánto tarda la enciclopedia (con la época contemporánea, 3,8 MB en 150 a 230 ms en la PC de desarrollo) |
 | 1 | Cuando la enciclopedia pase los **10 MB** o tarde más de 1 s en abrir | Lectura de los paquetes en un hilo aparte mientras se ve la pantalla de carga; índice compacto en memoria |
 | 2 | Con la 0.4 (personas de Wikidata, Pleiades) o al pasar los **50 MB** | Teselas, administrador de descargas, caché con tope y la sección de Ajustes; las teselas en las versiones de GitHub |
 | 3 | Con las grillas de HYDE | Teselas raster por época, espejo en Internet Archive y Zenodo |
 | 4 | Antes de la 1.0 | Campo `archivo` en los enlaces de lectura y `enlaces.py`; textos para leer sin conexión, de a uno |
 
-Según la medición de hoy (unos 110 ms por MB en esta PC; en una notebook vieja puede ser el triple), todo lo que se
-cargó hasta ahora, incluida la época contemporánea, entra en la capa 1 sin cambiar nada más.
+Según la medición de hoy (de 40 a 110 ms por MB en esta PC, según esté el disco en caché; en una notebook vieja puede
+ser el triple), todo lo que se cargó hasta ahora, incluida la época contemporánea, entra en la capa 1 sin cambiar
+nada más.
