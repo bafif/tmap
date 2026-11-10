@@ -4078,7 +4078,8 @@
       ],
       "resumen": "Sacerdote judío de Jerusalén, comandante en Galilea durante la revuelta del 66. Capturado por los romanos, se instaló en Roma bajo los Flavios y escribió «La guerra de los judíos» y «Antigüedades judías».",
       "obras": [
-        "guerra-de-los-judios"
+        "guerra-de-los-judios",
+        "antiguedades-judias"
       ],
       "wikipedia": {
         "es": "Flavio Josefo",
@@ -5147,7 +5148,12 @@
       "regiones": [
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "conquistas-de-los-paises",
+        "cronografia-de-teofanes",
+        "doctrina-jacobi",
+        "sermon-de-navidad-de-sofronio"
+      ],
       "wikipedia": {
         "es": "Conquista musulmana de Siria",
         "en": "Muslim conquest of the Levant"
@@ -5163,11 +5169,16 @@
       "lon": 35.2137,
       "lat": 31.7683,
       "tipo": "batalla",
-      "resumen": "Tras la Primera Cruzada, los cruzados toman la ciudad el 15 de julio y fundan el Reino de Jerusalén.",
+      "resumen": "Tras cinco semanas de asedio, los cruzados tomaron Jerusalén el 15 de julio de 1099 y mataron a gran parte de sus habitantes musulmanes y judíos: los cronistas latinos hablan de sangre hasta los tobillos o las rodillas en la explanada del Templo, y Ibn al-Athir de 70.000 muertos, cifra que los historiadores consideran exagerada. Una carta de la comunidad judía de Egipto confirma la matanza y el rescate de cautivos. Los vencedores fundaron el reino latino de Jerusalén.",
       "regiones": [
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-raimundo-de-aguilers",
+        "historia-hierosolymitana",
+        "historia-completa",
+        "cronica-de-damasco"
+      ],
       "wikipedia": {
         "en": "Siege of Jerusalem (1099)"
       }
@@ -5182,11 +5193,15 @@
       "lon": 35.45,
       "lat": 32.8,
       "tipo": "batalla",
-      "resumen": "Saladino destruye al ejército del Reino de Jerusalén y poco después recupera la ciudad.",
+      "resumen": "El 4 de julio de 1187 Saladino rodeó al ejército del reino de Jerusalén, sin agua, en los Cuernos de Hattin, sobre el mar de Galilea. El rey Guido fue capturado, Reinaldo de Châtillon ejecutado y los templarios y hospitalarios prisioneros, decapitados. Sin ejército, el reino perdió en pocos meses casi todas sus ciudades y la propia Jerusalén.",
       "regiones": [
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-de-saladino",
+        "conquista-de-jerusalen-imad",
+        "historia-completa"
+      ],
       "wikipedia": {
         "es": "Batalla de Hattin",
         "en": "Battle of Hattin"

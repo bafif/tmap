@@ -1623,6 +1623,165 @@
         "es": "Idioma hebreo",
         "en": "Hebrew language"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "samaritanismo",
+      "nombre": "Samaritanismo",
+      "padre": "religiones-abrahamicas",
+      "color": "#7a8fb0",
+      "nota": "Religión israelita con su propio Pentateuco y su santuario en el monte Gerizim, no en Jerusalén.",
+      "wikipedia": {
+        "es": "Samaritanismo",
+        "en": "Samaritanism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "druzos",
+      "nombre": "Fe drusa",
+      "padre": "religiones-abrahamicas",
+      "color": "#5aa0a0",
+      "nota": "Nacida en el siglo XI del ismailismo fatimí de Egipto; desde 1043 no admite conversos.",
+      "wikipedia": {
+        "es": "Pueblo druso",
+        "en": "Druze"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "alauitas",
+      "nombre": "Alauitas",
+      "padre": "islam-chii",
+      "color": "#3f8f6a",
+      "wikipedia": {
+        "en": "Alawites"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "ismailismo",
+      "nombre": "Ismailismo",
+      "padre": "islam-chii",
+      "color": "#4f9f7a",
+      "nota": "Rama chiita a la que pertenecían los califas fatimíes de El Cairo y los nizaríes de Alamut y Masyaf.",
+      "wikipedia": {
+        "es": "Ismailismo",
+        "en": "Ismailism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "maronitas",
+      "nombre": "Iglesia maronita",
+      "padre": "catolicismo",
+      "color": "#b8a46a",
+      "nota": "Iglesia siríaca del Líbano, unida a Roma desde la época de las cruzadas.",
+      "wikipedia": {
+        "es": "Iglesia católica maronita",
+        "en": "Maronite Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "miafisismo",
+      "nombre": "Ortodoxia oriental (miafisismo)",
+      "padre": "cristianismo",
+      "color": "#a08070",
+      "nota": "Iglesias que rechazaron el concilio de Calcedonia (451): la siríaca, la armenia, la copta y la etíope.",
+      "wikipedia": {
+        "es": "Iglesias ortodoxas orientales",
+        "en": "Oriental Orthodox Churches"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "bahaismo",
+      "nombre": "Fe bahá'í",
+      "padre": "religiones-abrahamicas",
+      "color": "#c0a0c8",
+      "wikipedia": {
+        "es": "Bahaísmo",
+        "en": "Baháʼí Faith"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-arabe-preislamica",
+      "nombre": "Religión árabe preislámica",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#b09060",
+      "nota": "Cultos tribales a dioses como Hubal, Al-Lat, Al-Uzza y Manat, con santuarios como la Kaaba de La Meca.",
+      "wikipedia": {
+        "en": "Religion in pre-Islamic Arabia"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "ibadismo",
+      "nombre": "Ibadismo",
+      "padre": "islam",
+      "color": "#5f8f50",
+      "nota": "Única rama sobreviviente de los jariyíes; mayoritaria en Omán.",
+      "wikipedia": {
+        "es": "Ibadíes",
+        "en": "Ibadism"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "filistea",
+      "nombre": "Filistea",
+      "padre": null,
+      "color": "#b88a6a",
+      "wikipedia": {
+        "es": "Filisteos",
+        "en": "Philistines"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "bereber",
+      "nombre": "Bereber (amazig)",
+      "padre": null,
+      "color": "#c8a060",
+      "wikipedia": {
+        "es": "Bereberes",
+        "en": "Berbers"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sudarabigo",
+      "nombre": "Sudarábigo antiguo",
+      "padre": "semiticas",
+      "color": "#b09a60",
+      "wikipedia": {
+        "es": "Lenguas sudarábigas antiguas",
+        "en": "Ancient South Arabian"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "bereberes",
+      "nombre": "Lenguas bereberes",
+      "padre": "afroasiaticas",
+      "color": "#c8a868",
+      "wikipedia": {
+        "es": "Lenguas bereberes",
+        "en": "Berber languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "yidis",
+      "nombre": "Ídish",
+      "padre": "germanicas",
+      "color": "#8a9ab8",
+      "wikipedia": {
+        "es": "Yidis",
+        "en": "Yiddish"
+      }
     }
   ]
 }

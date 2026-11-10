@@ -48,6 +48,12 @@ hacerlo:
       `aprox` y confianza baja, o dejarlas así.
 - [ ] **Más enlaces de lectura.** 104 enlaces comprobados para 69 fuentes; faltan traducciones en español y textos de
       sitios como el Medieval Sourcebook de Fordham o el Corpus Thomisticum.
+- [ ] **Tierra Santa: lo que quedó afuera.** Sin región: Armenia y la Cilicia armenia, aliada de los cruzados; el Sinaí
+      va con Egipto. Sin demografía con fuente: Líbano, Siria, Transjordania, Arabia, Magreb y Chipre. 24 fuentes sin
+      lugar de escritura (el Nuevo Testamento, la Crónica de Miguel el Sirio, las fatuas de Bin Laden…). Los rollos
+      digitalizados del Museo de Israel (dss.collections.imj.org.il) no respondían el 10/11/2026 y sus enlaces se
+      sacaron. Los videos con que grupos yihadistas reivindican atentados no se enlazan, a propósito: los hechos
+      dicen quién los reivindicó y cómo, con su artículo de Wikipedia.
 
 ### Datos abiertos a escala (0.4)
 
@@ -73,6 +79,36 @@ hacerlo:
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: Tierra Santa, de la Antigüedad a hoy
+
+- [x] **Paquete `tierra-santa.json`**: 7 regiones nuevas (Tierra Santa, Líbano, Siria y Transjordania, hijas del
+      Levante, más Arabia, el Magreb y Chipre) con eras, religiones, culturas e idiomas de la prehistoria a hoy; 176
+      fuentes, 198 personas, 172 hechos y 75 lugares. Escrituras (Torá, Tanaj, Septuaginta, Vulgata, Nuevo
+      Testamento, Corán y sus manuscritos más antiguos, Bujari, manuscritos del mar Muerto con el Rollo de la guerra,
+      Mishná y Talmud); la primera expansión islámica de la hégira a Poitiers y los asedios de Constantinopla, con las
+      primeras reacciones cristianas (Doctrina Jacobi, Sebeos, Sofronio, el Pseudo-Metodio, el Pacto de Omar); las
+      cruzadas desde todos los lados (el pedido bizantino en Piacenza, Clermont, los cronistas latinos, las crónicas
+      hebreas de 1096, armenios y sirios, Usama ibn Munqidh, al-Sulami y el primer llamado al yihad, Saladino);
+      cómo pensó Europa al islam (Pedro el Venerable, Riccoldo, Dubois, Manuel II, Cusa, Pío II, Lutero, Tasso,
+      Voltaire, Lessing, Gibbon, Renan y la respuesta de al-Afgani); los otomanos de Marj Dabiq a Viena; la cábala de
+      Safed; el sionismo y el nacionalismo árabe; el Mandato con el informe Peel; las guerras árabe-israelíes; la
+      Carta de Hamás de 1988 y su documento de 2017; el islamismo de Qutb, Azzam y Bin Laden; los atentados
+      reivindicados, también los de la AMIA y la embajada de Israel en Buenos Aires; y el diálogo, de Nostra aetate a
+      Ratisbona y «Una palabra común».
+- [x] **Verificado contra Wikipedia y Wikidata** con el mismo método que el paquete medieval; se dejaron tres fechas
+      antiguas (Hilel, Yojanán ben Zakai, Judá ha-Nasí) donde Wikidata contradice a Wikipedia. Los 95 enlaces de
+      lectura respondieron 200: Wikisource en hebreo, árabe, castellano, griego, latín, italiano, francés, alemán e
+      inglés, Proyecto Gutenberg, el Proyecto Avalon de Yale, el Medieval Sourcebook de Fordham, Sefaria, la Santa
+      Sede y el informe Peel completo en UNISPAL e Internet Archive. Cada enlace dice si es de dominio público.
+- [x] **Demografía de Tierra Santa** de DellaPergola (2001), los censos del Mandato (1922 y 1931), las Village
+      Statistics de 1945 y las oficinas de estadística israelí y palestina (2023).
+- [x] **Familias nuevas** en `familias.json`: 14, entre ellas el samaritanismo, los drusos, los alauitas, el
+      ismailismo, los maronitas, la ortodoxia oriental, la fe bahá'í, la religión árabe preislámica y el ibadismo; los
+      filisteos y los bereberes; el sudarábigo, las lenguas bereberes y el ídish.
+- [x] **Elementos de otros paquetes enriquecidos**: la toma de Jerusalén de 1099 y Hattin tienen resumen completo y
+      fuentes; Clermont y la conquista de Siria, fuentes; nueve autores ya cargados (Bernardo, Halevi, Maimónides,
+      Najmánides, Cusa, Urbano II, Federico II, Inocencio III, Josefo) suman sus obras nuevas.
 
 ### 10 de noviembre de 2026: la Europa medieval, con énfasis en la filosofía
 
