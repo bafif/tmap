@@ -12,7 +12,7 @@ config_version=5
 
 config/name="TellMAP"
 config/description="Atlas histórico interactivo: fronteras, pueblos y fuentes ordenadas en el espacio y el tiempo."
-config/version="0.3.0"
+config/version="0.3.1"
 run/main_scene="res://scenes/principal.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
@@ -23,6 +23,7 @@ run/low_processor_mode=true
 
 Arranque="*res://scripts/nucleo/arranque.gd"
 Estado="*res://scripts/nucleo/estado.gd"
+Actualizador="*res://scripts/nucleo/actualizador.gd"
 DatosMapa="*res://scripts/nucleo/datos_mapa.gd"
 Enciclopedia="*res://scripts/nucleo/enciclopedia.gd"
 Wiki="*res://scripts/nucleo/wiki.gd"

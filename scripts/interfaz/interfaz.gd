@@ -25,6 +25,14 @@ func _ready() -> void:
 		ajustes.cerrar()
 		editor.abrir(tipo, id))
 	Estado.ajustes_cambiados.connect(aplicar_escala)
+	Actualizador.aviso.connect(func(tipo: String, texto: String):
+		for c in raiz.get_children():
+			if c is AvisoActualizacion:
+				c.queue_free()
+		# Debajo del diálogo de ajustes y del editor, que están al final de raiz.
+		var a := AvisoActualizacion.new(tipo, texto)
+		raiz.add_child(a)
+		raiz.move_child(a, editor.get_index()))
 	get_tree().root.size_changed.connect(func():
 		if get_tree().root.content_scale_mode != Window.CONTENT_SCALE_MODE_DISABLED:
 			get_tree().root.content_scale_size = get_tree().root.size)

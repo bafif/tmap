@@ -78,7 +78,7 @@ func cargar() -> bool:
 		nombres_revisados = extra
 
 	await _paso("Leyendo las fronteras de 5400 años…", 0.08)
-	var comp := FileAccess.get_file_as_bytes(DIR + "politico.bin")
+	var comp := FileAccess.get_file_as_bytes(Datos.ruta(DIR + "politico.bin"))
 	var crudo := comp.decompress(int(meta["politico_bin"]["bytes"]), FileAccess.COMPRESSION_DEFLATE)
 	var partes: Dictionary = meta["politico_bin"]["partes"]
 	unidad_x = _parte(crudo, partes, "unidad_x").to_float32_array()
@@ -96,7 +96,7 @@ func cargar() -> bool:
 	_unificar_duplicados()
 
 	await _paso("Leyendo las unidades del mapa…", 0.2)
-	comp = FileAccess.get_file_as_bytes(DIR + "unidades.bin")
+	comp = FileAccess.get_file_as_bytes(Datos.ruta(DIR + "unidades.bin"))
 	unidades_bytes = comp.decompress(int(meta["unidades_bin"]["bytes"]), FileAccess.COMPRESSION_DEFLATE)
 	comp = PackedByteArray()
 	var img_u := Image.create_from_data(ancho, alto, false, Image.FORMAT_RG8, unidades_bytes)
@@ -105,7 +105,7 @@ func cargar() -> bool:
 	var res: float = Estado.calidad()["resolucion"]
 	await _paso("Pintando el terreno…", 0.35)
 	var img := Image.new()
-	if img.load_webp_from_buffer(FileAccess.get_file_as_bytes(DIR + "terreno.webp")) != OK:
+	if img.load_webp_from_buffer(FileAccess.get_file_as_bytes(Datos.ruta(DIR + "terreno.webp"))) != OK:
 		error = "No se pudo leer data/mapa/terreno.webp"
 		return false
 	if res < 1.0:
@@ -115,7 +115,7 @@ func cargar() -> bool:
 
 	await _paso("Levantando montañas y ríos…", 0.6)
 	img = Image.new()
-	if img.load_png_from_buffer(FileAccess.get_file_as_bytes(DIR + "relieve.png")) != OK:
+	if img.load_png_from_buffer(FileAccess.get_file_as_bytes(Datos.ruta(DIR + "relieve.png"))) != OK:
 		error = "No se pudo leer data/mapa/relieve.png"
 		return false
 	if res < 1.0:
@@ -466,6 +466,7 @@ func _parte(crudo: PackedByteArray, partes: Dictionary, nombre: String) -> Packe
 
 
 func _leer_json(ruta: String) -> Variant:
+	ruta = Datos.ruta(ruta)
 	if not FileAccess.file_exists(ruta):
 		return null
 	return JSON.parse_string(FileAccess.get_file_as_string(ruta))

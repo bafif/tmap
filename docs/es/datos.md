@@ -9,6 +9,8 @@ qué licencia se puede reusar.
 |---|---|---|---|
 | Fronteras políticas de 3400 a. C. a 2024 | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria) v0.2.1, Seshat Global History Databank ([artículo](https://doi.org/10.1038/s41597-025-04516-9)) | CC BY 4.0 | Se baja con `tools/pipeline/p0_descargar.py` |
 | Costas, lagos y ríos | [Natural Earth](https://www.naturalearthdata.com) 1:10 m | Dominio público | `raw_data/ne_10m_*.zip` |
+| Países actuales (para armar las regiones que completan el mundo) | Natural Earth 1:10 m, *Admin 0 – countries* | Dominio público | `raw_data/ne_10m_admin_0_countries_lakes.zip` |
+| Población por país, de 10 000 a. C. a 2023 | [Our World in Data](https://ourworldindata.org/population-sources), que combina HYDE 3.3 (PBL, hasta 1799), Gapminder v7 (1800-1949) y la ONU, *World Population Prospects 2024* (desde 1950) | CC BY 4.0 | `tools/enciclopedia/datos/poblacion-owid.json`, se baja con `tools/enciclopedia/poblacion.py --descargar` |
 | Elevación | GEBCO 2008, versión en grises de la NASA (Blue Marble) | Dominio público (NASA) | `raw_data/gebco_08_rev_elev_*.tif` |
 | Color del terreno | NASA Blue Marble Next Generation, julio de 2004 | Dominio público (NASA) | `raw_data/world.200407.3x5400x2700.jpg` |
 | Títulos en español | [Wikidata](https://www.wikidata.org) | CC0 | `data/mapa/wikidata_es.json` |
@@ -26,6 +28,9 @@ abierto. No copia los textos.
 - Cliopatria pide citar su artículo en *Scientific Data* (2025),
   [doi:10.1038/s41597-025-04516-9](https://doi.org/10.1038/s41597-025-04516-9). Los datos de `data/mapa/politico.*` y `unidades.bin` son una
   adaptación (rasterizada y reorganizada por año) de Cliopatria, bajo la misma CC BY 4.0.
+- La población por país se cita como pide Our World in Data: «HYDE (2023); Gapminder (2022); UN WPP (2024) – with
+  major processing by Our World in Data». Cada estimación de una región dice en su fuente cuál de las tres usa y que
+  llegó «vía Our World in Data».
 
 ## Qué hace el pipeline
 
@@ -55,3 +60,6 @@ Ver [tools/pipeline/README.md](../../tools/pipeline/README.md) para correrlo. En
   región, no por unidad. El resto se ve rayado.
 - Las cifras de población antiguas son estimaciones académicas con mucha incertidumbre; los testimonios de autores
   antiguos se muestran aparte y nunca se usan para estimar.
+- Las series de población por país usan las fronteras actuales y se suman a la región que tiene la mayor parte de cada
+  país: la nota de cada serie dice qué países suma. Antes del año 1 son modelos de HYDE, no recuentos. Lo que cubren y
+  lo que no está en [Cobertura de la enciclopedia](cobertura.md).

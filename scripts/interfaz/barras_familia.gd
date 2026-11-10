@@ -107,7 +107,7 @@ func _get_tooltip(pos: Vector2) -> String:
 	var lineas: Array = ["%s, %s" % [region, Fechas.texto(anio)]]
 	for e in _presencia:
 		if e["region"] == _filas[i] and int(e["desde"]) <= anio and anio <= int(e["hasta"]):
-			lineas.append("%s: %s (%s)" % [e["nombre"], e["peso"], Fechas.rango(int(e["desde"]), int(e["hasta"]))])
+			lineas.append("%s: %s (%s)" % [e["nombre"], e["peso"], e.get("rango", Fechas.rango(int(e["desde"]), int(e["hasta"])))])
 	if lineas.size() == 1:
 		lineas.append("Sin registro en ese año")
 	lineas.append("Clic: ir a ese año")

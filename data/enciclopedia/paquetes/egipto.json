@@ -177,6 +177,42 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 13668,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Egipto en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 20274,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 30172,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 45006,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 67243,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 100585,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 250510,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": -3000,
           "poblacion": 870000,
           "fuente": "Butzer (1976), Early Hydraulic Civilization in Egypt, por la capacidad de carga de la tierra cultivable; serie resumida por Steven Snape, «Estimating Population in Ancient Egypt» (Brewminate, 2019)",
@@ -216,11 +252,146 @@
           "tipo": "testimonio-antiguo"
         },
         {
+          "anio": 1,
+          "poblacion": 4000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 66,
           "poblacion": 7500000,
           "fuente": "Flavio Josefo, Guerra de los judíos II.385 (cifra antigua; discutida en Bagnall y Frier, 1994, cap. 3)",
           "nota": "Josefo la da sin contar Alejandría; los historiadores modernos la consideran excesiva.",
           "tipo": "testimonio-antiguo"
+        },
+        {
+          "anio": 100,
+          "poblacion": 4300000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 4600000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 4300000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 4000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 3500000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 3000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 3400000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 3800000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 4400000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1000,
+          "poblacion": 5000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 4350000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 4000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 4700000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 4050000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 4000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 5000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 4500000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 4000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 3500000,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 5638537,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 9940289,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 13461191,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 21148168,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 38875326,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 73083287,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 114535772,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [

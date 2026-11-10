@@ -67,11 +67,16 @@ runs well from an old laptop to a gaming PC.
 - **The look of grand-strategy maps.** Hillshaded relief, rivers, nautical-chart coastlines, names that curve across
   the land, and three interface themes: Marble & Bronze, Illuminated Parchment, and Ink & Brass.
 - **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
-  the app. Today it ships a full pilot on ancient Egypt and a sample of eleven regions; the rest is filled in stages,
-  most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
+  the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, the Holy Land from
+  Antiquity to today, and regions covering the rest of the world with their estimated population; the rest is filled
+  in stages, and [a report generated from the data](docs/es/cobertura.md) (in Spanish) says what is covered and what
+  is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
   human review.
-- **No accounts, no telemetry.** It runs on your computer. The only thing that goes online is the Wikipedia lookup when
-  you open an entry, and it is cached.
+- **No accounts, no telemetry.** It runs on your computer. The only things that go online are the Wikipedia lookup when
+  you open an entry, which is cached, and the [update](docs/es/actualizaciones.md) check on GitHub when the app opens,
+  which sends nothing about you and can be turned off in Settings.
+- **Updates itself.** The downloaded version installs new releases; when only the data changed (more sources, people,
+  events or regions) it downloads just the changed files, without reinstalling the program.
 
 ## Try it
 
@@ -98,6 +103,12 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [x] Side panel: summary, history of the place, sources, people and events, data
 - [x] Live Wikipedia summaries, Spanish first
 - [x] Pilot encyclopedia on ancient Egypt and a sample of eleven regions
+- [x] Medieval Europe package: 15 regions, 173 sources (with an emphasis on philosophy), 215 people, 125 events and
+      120 places, checked against Wikipedia and Wikidata
+- [x] Regions for the whole world (88, over 99.6% of the land), with estimated population from 10,000 BCE (HYDE,
+      Gapminder and the UN, via Our World in Data) and a coverage report generated from the data
+- [x] Holy Land package: 7 regions, 176 sources (scriptures, crusade chronicles from every side, Jewish, Christian
+      and Muslim thought, modern documents), 198 people, 172 events and 75 places, checked the same way
 - [x] Religion, culture and language map modes (where data exists), with each period's real outline
 - [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
 - [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)
@@ -115,6 +126,7 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 | [Project plan](docs/es/plan.md) | Architecture, technical decisions and phased roadmap |
 | [Data and licenses](docs/es/datos.md) | Where each piece of data comes from, how it is processed and its license |
 | [The encyclopedia](docs/es/enciclopedia.md) | How it grows, Wikipedia and Grokipedia, AI and editorial rules |
+| [Coverage](docs/es/cobertura.md) | Which regions, periods and data are covered and what is missing, generated from the data |
 | [Entry schema](data/enciclopedia/ESQUEMA.md) | The format of sources, people, events, places and regions |
 | [Data pipeline](tools/pipeline/README.md) | How the map and borders are generated |
 
@@ -130,4 +142,4 @@ get in touch.
 The code is [AGPL-3.0-or-later](LICENSE): you may use, modify and share it; if you offer a modified version over a
 network, you must offer its source code too. The data keeps its own licenses, detailed in
 [Data and licenses](docs/es/datos.md): Cliopatria (CC BY 4.0), Natural Earth and NASA (public domain), Wikipedia
-(CC BY-SA 4.0), and the Cinzel and EB Garamond typefaces (SIL Open Font License).
+(CC BY-SA 4.0), population from Our World in Data (CC BY 4.0), and the Cinzel and EB Garamond typefaces (SIL Open Font License).

@@ -8,10 +8,36 @@ dato dice de dónde salió.
 - **Fronteras y entidades** de todo el mundo (Cliopatria): cada entidad trae su artículo de Wikipedia y su id de
   Wikidata.
 - **Resúmenes de Wikipedia en vivo**, en español primero y en inglés si no hay, guardados en caché por 30 días.
-- **Dos paquetes curados** en `data/enciclopedia/paquetes/`:
+- **Cinco paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
+  idiomas. Entre todos suman 88 regiones que cubren el 99,6 % de la tierra firme, y cada una tiene población
+  estimada desde el 10 000 a. C. o se cuenta dentro de otra. Lo cubierto y lo que falta está en
+  [Cobertura de la enciclopedia](cobertura.md), que se genera solo:
   - `egipto.json`, el piloto: 4 regiones (con 18 eras para Egipto), 37 fuentes, 18 personas, 24 hechos y 14 lugares.
   - `mundo.json`, una muestra de once regiones (Mesopotamia, Levante, Anatolia, Grecia, Italia, Persia, China, India,
     Mesoamérica, Andes y Río de la Plata).
+  - `edad-media.json`, la Europa medieval del saqueo de Roma a 1500, con énfasis en la historia de la filosofía:
+    15 regiones (Península ibérica, Francia, Britania, Irlanda, Alemania y los Países Bajos, Escandinavia, Islandia,
+    Polonia, Bohemia, Hungría, Balcanes, Valaquia y Moldavia, el Báltico, la Rus y Sicilia), 173 fuentes, 215
+    personas, 125 hechos y 120 lugares. Los títulos de Wikipedia en español, los ids de Wikidata y las coordenadas
+    salen de Wikidata; las fechas de vida se cruzaron con Wikidata y los 104 enlaces de lectura (Wikisource y
+    Proyecto Gutenberg) se comprobaron uno por uno. La demografía sigue a Russell (1972) y a Urlanis (1941).
+  - `tierra-santa.json`, Tierra Santa de la Antigüedad a hoy, con la primera expansión islámica, Bizancio, las
+    cruzadas y el pensamiento de judíos, cristianos y musulmanes: 7 regiones (Tierra Santa, Líbano, Siria y
+    Transjordania dentro del Levante, más Arabia, el Magreb y Chipre), 176 fuentes, 198 personas, 172 hechos y 75
+    lugares. Van las escrituras (Torá, Tanaj, Nuevo Testamento, Corán, manuscritos del mar Muerto), las crónicas de
+    las cruzadas de todos los lados, los llamados al yihad y a la cruzada, y los documentos modernos (Balfour, el
+    informe Peel, la resolución 181, la Carta de Hamás de 1988, Oslo). Verificado contra Wikipedia y Wikidata como el
+    anterior; sus 95 enlaces de lectura (Wikisource, Gutenberg, el Proyecto Avalon de Yale, el Medieval Sourcebook de
+    Fordham, Sefaria y otros) respondieron 200. La demografía de Tierra Santa sigue a DellaPergola (2001) y a los
+    censos del Mandato. Después se le sumaron Armenia (la meseta armenia) y Cilicia, y a `edad-media.json`,
+    Finlandia, Cerdeña y Córcega y la estepa póntica, con sus eras, religiones, culturas e idiomas.
+  - `regiones-del-mundo.json`, las 46 regiones que completan el mapa (de Siberia y Japón a África, las Américas y
+    Oceanía), armadas con las fronteras de los países actuales de Natural Earth: resumen, eras y población. Todavía
+    no tienen religiones, culturas ni idiomas.
+- **Población de todas las regiones**: `tools/enciclopedia/poblacion.py` suma, para cada región, la serie por país de
+  Our World in Data (HYDE 3.3, Gapminder y la ONU), según la asignación de `tools/enciclopedia/poblacion_regiones.json`.
+  Las estimaciones curadas de especialistas mandan: en los años que cubren no se agrega nada.
+  `tools/enciclopedia/cobertura.py` rehace el informe de cobertura y `validar.py` avisa si quedó viejo.
 - El formato está en [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md) y se valida con
   `python3 tools/enciclopedia/validar.py`.
 - **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).

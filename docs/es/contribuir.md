@@ -30,6 +30,9 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
 - Después de cada prueba, leer `tools/godot/tmap.py registros --errores`: tiene que terminar en «ningún nodo suelto
   sin liberar».
 - Detalle del puente: [tools/godot/README.md](../../tools/godot/README.md).
+- Si se toca el actualizador (`scripts/nucleo/actualizador.gd`, `datos.gd`) o cómo se leen los datos:
+  `python3 tools/actualizacion/probar.py`, y con un ejecutable exportado, `--ejecutable <ruta>`
+  ([actualizaciones](actualizaciones.md)). Todo lo que lee `data/` pasa por `Datos.ruta()`.
 
 ## Bitácora
 

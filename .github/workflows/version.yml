@@ -3,6 +3,8 @@ name: Versión
 # Al publicar una versión en GitHub (o a mano, con su etiqueta): exporta los ejecutables de Linux y Windows con las
 # plantillas oficiales de Godot, comprueba que el de Linux arranque con todos sus datos (--verificar) y los sube a esa
 # versión. Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
+# Después publica la actualización automática: los ejecutables y los datos nuevos en .gz y el manifiesto
+# actualizacion.json en la versión fija «actualizaciones», que es lo que consultan las apps (docs/es/actualizaciones.md).
 
 on:
   release:
@@ -21,6 +23,8 @@ env:
 
 jobs:
   exportar:
+    # Solo las versiones de la app (vX.Y.Z): las de datos y la de «actualizaciones» las crea datos.yml.
+    if: startsWith(github.event.release.tag_name || inputs.etiqueta, 'v')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -42,6 +46,9 @@ jobs:
 
       - name: Importar el proyecto
         run: godot --headless --path . --import || true
+
+      - name: Sellar los datos (data/version.json, para que la app sepa qué datos trae)
+        run: python3 tools/actualizacion/publicar.py sellar
 
       - name: Exportar Linux y Windows
         run: |
@@ -65,3 +72,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$ETIQUETA" build/*.zip --clobber
+
+      - name: Publicar la actualización automática
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download actualizaciones -p actualizacion.json -D previo || true
+          python3 tools/actualizacion/publicar.py manifiesto --etiqueta "$ETIQUETA" --salida subir \
+            --previo previo/actualizacion.json --repo "$GITHUB_REPOSITORY" \
+            --app linux-x86_64=build/linux/TellMAP.x86_64 --app windows-x86_64=build/windows/TellMAP.exe
+          gh release upload "$ETIQUETA" subir/*.gz --clobber
+          gh release view actualizaciones >/dev/null 2>&1 || gh release create actualizaciones --prerelease \
+            --title "Actualizaciones automáticas" \
+            --notes "Manifiesto que consultan las apps para actualizarse solas. No es una versión para bajar."
+          gh release upload actualizaciones subir/actualizacion.json --clobber

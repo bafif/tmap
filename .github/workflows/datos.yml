@@ -1,0 +1,82 @@
+name: Datos
+
+# Actualizaciones solo de datos (docs/es/actualizaciones.md). En cada push a master que toque data/ (o a mano): si los
+# datos cambiaron respecto de lo publicado, los prueba con el código de la última versión publicada de la app (su
+# prueba automática completa, con los datos nuevos) y, si pasa, los publica: una versión «datos-…» con los archivos que
+# cambiaron en .gz y el manifiesto nuevo en la versión fija «actualizaciones». Las apps ya instaladas los bajan solas,
+# sin actualizar el programa. Si los datos nuevos necesitan código nuevo, la prueba falla y hay que publicar una
+# versión de la app (version.yml), que los lleva adentro.
+
+on:
+  push:
+    branches: [master]
+    paths: ["data/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+env:
+  GODOT_VERSION: "4.7.2"
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: ¿Hay una app publicada y cambiaron los datos?
+        id: estado
+        run: |
+          if ! gh release download actualizaciones -p actualizacion.json -D previo; then
+            echo "Todavía no hay una versión de la app con actualizaciones automáticas: los datos van con la próxima."
+            echo "seguir=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if python3 tools/actualizacion/publicar.py cambios --previo previo/actualizacion.json; then
+            echo "seguir=si" >> "$GITHUB_OUTPUT"
+            echo "app=$(python3 tools/actualizacion/publicar.py etiqueta-app --previo previo/actualizacion.json)" >> "$GITHUB_OUTPUT"
+          else
+            echo "seguir=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validar la enciclopedia
+        if: steps.estado.outputs.seguir == 'si'
+        run: python3 tools/enciclopedia/validar.py
+
+      - name: Instalar Godot ${{ env.GODOT_VERSION }}
+        if: steps.estado.outputs.seguir == 'si'
+        run: |
+          curl -fsSLo godot.zip "https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          unzip -q godot.zip
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+
+      - name: Probar los datos nuevos con el código de ${{ steps.estado.outputs.app }}
+        if: steps.estado.outputs.seguir == 'si'
+        run: |
+          git worktree add "$RUNNER_TEMP/app" "${{ steps.estado.outputs.app }}"
+          rm -rf "$RUNNER_TEMP/app/data"
+          cp -r data "$RUNNER_TEMP/app/data"
+          cd "$RUNNER_TEMP/app"
+          godot --headless --path . --import || true
+          python3 tools/godot/tmap.py prueba
+
+      - name: Publicar los datos
+        if: steps.estado.outputs.seguir == 'si'
+        run: |
+          python3 tools/actualizacion/publicar.py sellar
+          etiqueta="datos-$(date -u +%Y%m%d-%H%M%S)"
+          python3 tools/actualizacion/publicar.py manifiesto --etiqueta "$etiqueta" --salida subir \
+            --previo previo/actualizacion.json --repo "$GITHUB_REPOSITORY"
+          gh release create "$etiqueta" --latest=false --target "$GITHUB_SHA" --title "Datos del $(date -u +%d/%m/%Y)" \
+            --notes "Solo datos, para TellMAP ${{ steps.estado.outputs.app }} o más nueva: la app los baja sola. Commit $GITHUB_SHA."
+          if compgen -G "subir/*.gz" > /dev/null; then gh release upload "$etiqueta" subir/*.gz; fi
+          gh release upload actualizaciones subir/actualizacion.json --clobber

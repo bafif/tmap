@@ -22,10 +22,13 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El `.exe` de la 0.3.0 ya pasó
       `--verificar` y la prueba completa con wine; falta un Windows de verdad. El modo OpenGL
       (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
-- [ ] **Publicar la versión 0.3.0 con ejecutables.** Los zips de Windows y Linux ya están exportados con las
-      plantillas oficiales de Godot 4.7.2, con los datos dentro del ejecutable, y pasaron la prueba completa (Linux
-      nativo, Windows con wine). Falta crear la versión v0.3.0 en GitHub y subirlos; al publicarla, el workflow
-      `version.yml` los vuelve a exportar y los reemplaza (va a ser su primera corrida).
+- [ ] **Publicar la versión 0.3.1, la primera que se actualiza sola.** La 0.3.0 (publicada el 7 de noviembre) no
+      trae el actualizador: quien la tenga baja la 0.3.1 a mano esta única vez. Al publicar la v0.3.1, `version.yml`
+      exporta, sube los ejecutables y crea la versión fija `actualizaciones` con el primer manifiesto; desde ahí las
+      apps se actualizan solas y `datos.yml` publica los datos nuevos.
+- [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
+      editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
+      actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
 
 ### Enciclopedia progresiva (0.3)
 
@@ -38,11 +41,50 @@ hacerlo:
 - [ ] **Religiones, culturas, idiomas y demografía en el editor.** Hoy el editor cubre los datos principales, el área y
       las eras de las regiones; esas cuatro listas todavía se cargan a mano en el JSON.
 
+### Contenido de la enciclopedia
+
+El universo cubierto y el que falta, región por región, está en [docs/es/cobertura.md](docs/es/cobertura.md), que
+genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
+
+- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 46 regiones de `regiones-del-mundo.json`
+      (Siberia, Japón, África, las Américas, Oceanía…) tienen resumen, eras y población, pero no esas tres capas:
+      el modo de religión, cultura o idioma las deja rayadas. Habrá que sumar familias (sintoísmo, religiones
+      tradicionales africanas, lenguas bantúes, austronesias…).
+- [ ] **Estimaciones curadas fuera de Europa y el Cercano Oriente.** Las series por país de HYDE cubren todo, pero
+      la parte de la población mundial que tiene además una estimación de especialistas para su región (Russell,
+      Urlanis, Butzer, DellaPergola, los censos Han) va de un cuarto en el año 1 a casi nada antes de Cristo y
+      después de 1600. Candidatos: McEvedy y Jones (1978) para todo el mundo, Durand
+      para China e India, Scheidel para el Imperio romano, Livi-Bacci para América. Sin estimación curada siguen
+      también Bohemia, los Balcanes, Valaquia y Moldavia, el Báltico y Sicilia (Russell y Urlanis las dan agrupadas).
+- [ ] **Población por polígono.** Las series son de países enteros: una región más chica que sus países (la Rus,
+      Mesoamérica, los Andes) recibe la población de los países completos, y 24 regiones (Siberia, el Tíbet, el sur
+      de la India, la Patagonia…) no tienen serie propia. Con las grillas de HYDE se podría sumar la población dentro
+      de cada polígono (ver 0.4).
+- [ ] **Tierra que queda sin región** (0,4 %): el extremo de Chukotka al este del meridiano 180, Svalbard, Hawái, las
+      Malvinas, las Azores y otras islas alejadas, y franjas costeras que los polígonos curados no alcanzan. El
+      detalle por país está en el informe de cobertura.
+- [ ] **Fuentes medievales sin lugar de escritura.** 18 fuentes (Beowulf, la Edda poética, el Cantar de Roldán, el
+      Cuzarí…) no aparecen en el mapa porque su lugar es desconocido; cargar el que proponga la bibliografía, con
+      `aprox` y confianza baja, o dejarlas así.
+- [ ] **Más enlaces de lectura.** 104 enlaces comprobados para 69 fuentes; faltan traducciones en español y textos de
+      sitios como el Medieval Sourcebook de Fordham o el Corpus Thomisticum.
+- [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
+      Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
+      hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
+      lugar de escritura (el Nuevo Testamento, la Crónica de Miguel el Sirio, las fatuas de Bin Laden…). Los rollos
+      digitalizados del Museo de Israel (dss.collections.imj.org.il) no respondían el 10/11/2026 y sus enlaces se
+      sacaron. Los videos con que grupos yihadistas reivindican atentados no se enlazan, a propósito: los hechos
+      dicen quién los reivindicó y cómo, con su artículo de Wikipedia.
+
 ### Datos abiertos a escala (0.4)
 
 - [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
 - [ ] **Personas de Wikidata.** Con lugar y fecha de nacimiento y muerte.
-- [ ] **Población de HYDE.** Estimaciones por grilla para todo el mundo.
+- [ ] **Grillas de población de HYDE.** La serie por país de HYDE ya está (vía Our World in Data, ver **Hecho**).
+      Falta la grilla de 5 minutos de arco, con sus escenarios bajo y alto, para sumar la población dentro de cada
+      polígono, dar rangos de incertidumbre y poblar un modo de densidad en el mapa. El 10/11/2026 el servidor de la
+      Universidad de Utrecht (geo.public.data.uu.nl) pedía resolver una verificación anti-bots y el depósito de HYDE
+      3.2 en DANS no respondía: hay que bajarla a mano desde un navegador y dejarla en `raw_data/`.
 - [ ] **Vasallaje.** Las relaciones de vasallaje y dependencia de Cliopatria.
 
 ### Movimiento (0.5)
@@ -62,6 +104,108 @@ hacerlo:
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: actualizaciones automáticas
+
+- [x] **La versión exportada se actualiza sola** ([docs/es/actualizaciones.md](docs/es/actualizaciones.md)). Al abrir
+      consulta un manifiesto en GitHub; una versión nueva de la app se baja, se verifica (sha256) y reemplaza al
+      ejecutable, y se abre la próxima vez o con «Reiniciar ahora» (Linux: se renombra encima; Windows: el viejo pasa
+      a `.viejo`). Aviso arriba al centro y sección «Actualizaciones» en Ajustes, con la casilla para apagarlo.
+- [x] **Actualizaciones solo de datos**: si cambian los datos y no el código, la app baja nada más los archivos que
+      cambiaron (`.gz` con su sha256 en el nombre) y los instala en la carpeta del usuario por grupo (`mapa`,
+      `enciclopedia`), que tapan a los de adentro (`Datos.ruta()`); la enciclopedia nueva se ve enseguida. Cada
+      versión de datos pide una versión mínima de la app, y los datos bajados se descartan solos si la app trae unos
+      más nuevos.
+- [x] **Publicación**: `tools/actualizacion/publicar.py` (sella `data/version.json`, arma el manifiesto y los `.gz`);
+      `version.yml` publica el manifiesto con cada versión de la app y `datos.yml`, nuevo, publica solo datos en cada
+      push a master que toque `data/`, después de correr la prueba completa con el código de la última app publicada.
+- [x] **Prueba de punta a punta**: `tools/actualizacion/probar.py`, en `pruebas.yml`. Pasó desde el código fuente y
+      con un ejecutable de Linux exportado: baja solo el grupo que cambió, rechaza archivos y ejecutables adulterados,
+      se reemplaza a sí mismo y vuelve a arrancar.
+
+### 10 de noviembre de 2026: el mundo entero en regiones, con su población
+
+- [x] **Las regiones que faltaban**, con eras, religiones, culturas e idiomas: Armenia (la meseta armenia) y Cilicia
+      (hija de Anatolia) en `tierra-santa.json`; Finlandia, Cerdeña y Córcega y la estepa póntica en
+      `edad-media.json`. 14 familias nuevas (tengrismo, religión escita, armenio, sardo, lenguas hurrito-urarteas…).
+- [x] **Paquete `regiones-del-mundo.json`**: 46 regiones que completan el mapa (Siberia y el Lejano Oriente ruso, el
+      Cáucaso, Asia central, el Tíbet, Japón, Corea, el sudeste asiático, el sur de la India, África por regiones, las
+      Américas fuera de Mesoamérica, los Andes y el Río de la Plata, Oceanía), con resumen y eras. Los polígonos salen
+      de las fronteras de los países de Natural Earth: cada frontera compartida se simplifica una sola vez para los dos
+      lados y la que linda con una región curada se pega a sus vértices, así que no se superponen; las costas pueden
+      abultarse sobre el mar pero no recortar tierra. Entre todas, las 88 regiones cubren el 99,6 % de la tierra firme
+      (antes, el 16 %).
+- [x] **Población de todas las regiones desde el 10 000 a. C.**: `tools/enciclopedia/poblacion.py` suma la serie por
+      país de Our World in Data (HYDE 3.3 hasta 1799, Gapminder v7 hasta 1949 y la ONU desde 1950) según la
+      asignación de `poblacion_regiones.json`, en 37 fechas. Las estimaciones curadas mandan; en las islas que se
+      poblaron tarde se omiten los valores de modelo anteriores al poblamiento (HYDE daba gente en Islandia antes de
+      874). 64 regiones tienen serie propia y 24 se cuentan dentro de otra; solo Santa Elena y las Malvinas quedan sin
+      región.
+- [x] **Informe de cobertura** (`docs/es/cobertura.md`), generado por `tools/enciclopedia/cobertura.py` con las
+      unidades del mapa y el extracto de población: tierra cubierta, qué parte de la población mundial tiene serie y
+      cuál estimación curada en cada época, una fila por región con sus capas y elementos, y lo que falta. `validar.py`
+      avisa si el informe o las series quedaron viejos.
+- [x] Arreglado: el polígono de `francia` tenía los Pirineos invertidos y dejaba afuera Gascuña, el Bearne y las Landas;
+      el de `arabia` tenía la frontera con Jordania al revés y se metía en Jordania. El validador ahora rechaza los
+      polígonos con vértices repetidos o lados que se cruzan.
+
+### 10 de noviembre de 2026: Tierra Santa, de la Antigüedad a hoy
+
+- [x] **Paquete `tierra-santa.json`**: 7 regiones nuevas (Tierra Santa, Líbano, Siria y Transjordania, hijas del
+      Levante, más Arabia, el Magreb y Chipre) con eras, religiones, culturas e idiomas de la prehistoria a hoy; 176
+      fuentes, 198 personas, 172 hechos y 75 lugares. Escrituras (Torá, Tanaj, Septuaginta, Vulgata, Nuevo
+      Testamento, Corán y sus manuscritos más antiguos, Bujari, manuscritos del mar Muerto con el Rollo de la guerra,
+      Mishná y Talmud); la primera expansión islámica de la hégira a Poitiers y los asedios de Constantinopla, con las
+      primeras reacciones cristianas (Doctrina Jacobi, Sebeos, Sofronio, el Pseudo-Metodio, el Pacto de Omar); las
+      cruzadas desde todos los lados (el pedido bizantino en Piacenza, Clermont, los cronistas latinos, las crónicas
+      hebreas de 1096, armenios y sirios, Usama ibn Munqidh, al-Sulami y el primer llamado al yihad, Saladino);
+      cómo pensó Europa al islam (Pedro el Venerable, Riccoldo, Dubois, Manuel II, Cusa, Pío II, Lutero, Tasso,
+      Voltaire, Lessing, Gibbon, Renan y la respuesta de al-Afgani); los otomanos de Marj Dabiq a Viena; la cábala de
+      Safed; el sionismo y el nacionalismo árabe; el Mandato con el informe Peel; las guerras árabe-israelíes; la
+      Carta de Hamás de 1988 y su documento de 2017; el islamismo de Qutb, Azzam y Bin Laden; los atentados
+      reivindicados, también los de la AMIA y la embajada de Israel en Buenos Aires; y el diálogo, de Nostra aetate a
+      Ratisbona y «Una palabra común».
+- [x] **Verificado contra Wikipedia y Wikidata** con el mismo método que el paquete medieval; se dejaron tres fechas
+      antiguas (Hilel, Yojanán ben Zakai, Judá ha-Nasí) donde Wikidata contradice a Wikipedia. Los 95 enlaces de
+      lectura respondieron 200: Wikisource en hebreo, árabe, castellano, griego, latín, italiano, francés, alemán e
+      inglés, Proyecto Gutenberg, el Proyecto Avalon de Yale, el Medieval Sourcebook de Fordham, Sefaria, la Santa
+      Sede y el informe Peel completo en UNISPAL e Internet Archive. Cada enlace dice si es de dominio público.
+- [x] **Demografía de Tierra Santa** de DellaPergola (2001), los censos del Mandato (1922 y 1931), las Village
+      Statistics de 1945 y las oficinas de estadística israelí y palestina (2023).
+- [x] **Familias nuevas** en `familias.json`: 14, entre ellas el samaritanismo, los drusos, los alauitas, el
+      ismailismo, los maronitas, la ortodoxia oriental, la fe bahá'í, la religión árabe preislámica y el ibadismo; los
+      filisteos y los bereberes; el sudarábigo, las lenguas bereberes y el ídish.
+- [x] **Elementos de otros paquetes enriquecidos**: la toma de Jerusalén de 1099 y Hattin tienen resumen completo y
+      fuentes; Clermont y la conquista de Siria, fuentes; nueve autores ya cargados (Bernardo, Halevi, Maimónides,
+      Najmánides, Cusa, Urbano II, Federico II, Inocencio III, Josefo) suman sus obras nuevas.
+
+### 10 de noviembre de 2026: la Europa medieval, con énfasis en la filosofía
+
+- [x] **Paquete `edad-media.json`**: 15 regiones nuevas (Península ibérica, Francia, Britania, Irlanda, Alemania y
+      los Países Bajos, Escandinavia, Islandia, Polonia, Bohemia, Hungría, Balcanes, Valaquia y Moldavia, el Báltico,
+      la Rus y Sicilia) con eras, religiones, culturas e idiomas desde la Antigüedad hasta hoy; 173 fuentes, 215
+      personas, 125 hechos y 120 lugares, del saqueo de Roma a 1500. La filosofía va completa: de Agustín y Boecio a
+      Eriúgena, Anselmo, Abelardo, Chartres y San Víctor; al-Ándalus y la filosofía judía (Ibn Gabirol, Avempace,
+      Averroes, Maimónides, Crescas); los traductores de Toledo; la escolástica de París y Oxford con las condenas de
+      1270 y 1277; Escoto, Ockham, Buridán y Oresme; la mística (Eckhart, Porete, Juliana); Bizancio (Focio, Pselo,
+      Palamás, Pletón) y el humanismo hasta Ficino y Pico. De yapa: crónicas, sagas, derecho, ciencia, gobernantes,
+      batallas, concilios, universidades y monasterios.
+- [x] **Verificado contra Wikipedia y Wikidata**: cada artículo se resolvió en en.wikipedia (redirecciones y
+      desambiguaciones), el título en español y el id de Wikidata salen de sus sitelinks, las coordenadas de lugares y
+      hechos de P625, y las fechas de vida se cruzaron con P569/P570 (se dejaron seis fechas propias donde Wikidata
+      contradice a Wikipedia, como la muerte de Ockham en 1347). Los 104 enlaces de lectura (Wikisource en latín,
+      español, italiano, islandés, alemán y ruso, y Proyecto Gutenberg) respondieron 200.
+- [x] **Demografía con fuente**: Russell (1972) para Iberia, Francia, Italia, Rus, Polonia y Hungría (500-1450) y
+      Urlanis (1941) para Britania, Irlanda, Escandinavia y el área alemana (1000-1500), con notas cuando las dos
+      series difieren o cuando la cifra agrupa territorios.
+- [x] **Familias nuevas** en `familias.json`: 66, entre ellas el arrianismo, el catarismo, el husitismo, el
+      protestantismo y las religiones precristianas de Europa; culturas germánicas, eslavas, celtas, andalusí, judías;
+      lenguas germánicas, celtas, eslavas, bálticas, urálicas, el euskera y el hebreo.
+- [x] Arreglado: el polígono de `italia` dejaba afuera a Nápoles y Amalfi; Italia suma su demografía medieval.
+- [x] Arreglado: una era sin comienzo o sin final (`"desde"` o `"hasta"`: `null`, que el esquema permite) rompía la
+      línea de tiempo y el panel al seleccionar un lugar. Ahora los períodos abiertos se muestran como «desde 1808» o
+      «hasta 432» (`Enciclopedia.rango_de`), y la prueba automática selecciona París, Dublín y Kiev para cubrirlo.
+- [x] La prueba automática abre los 919 elementos de la enciclopedia en el editor y salen idénticos.
 
 ### 7 de noviembre de 2026: enciclopedia progresiva (0.3)
 
@@ -97,7 +241,8 @@ hacerlo:
       aprueba un borrador y prueba el clic en el mapa; el recorrido suma cinco escenarios del editor (548 controles).
 - [x] **El editor también guarda en la versión exportada**: como los paquetes van dentro del ejecutable, guarda copias
       en la carpeta del usuario que tapan a los de adentro.
-- [x] **Versión 0.3.0 exportada** para Windows y Linux, con los datos dentro del ejecutable (un solo archivo).
+- [x] **Versión 0.3.0 exportada** para Windows y Linux, con los datos dentro del ejecutable (un solo archivo), y
+      publicada en GitHub (`version.yml` exportó y subió los zips).
 
 ### 6 de noviembre de 2026: enciclopedia progresiva (0.3)
 
