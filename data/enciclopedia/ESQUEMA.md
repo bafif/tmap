@@ -276,13 +276,15 @@ lo que no tiene traducción se ve en español. El editor de la app trabaja siemp
 - Se traducen los textos que se leen: en `regiones`, `nombre`, `resumen`, el `nombre`, el `resumen` y la `nota` de las
   eras, la `nota` de la demografía, el `nombre` y la `nota` de religiones, culturas e idiomas, y el `titulo` y el
   `texto` de las secciones de la ficha extendida; en `familias`, `nombre` y `nota`; en `fuentes`, `titulo`, `autor`,
-  `escrita.lugar`, `idioma_original`, `soporte`, `resumen` y `por_que_importa`; en `personas`, `nombre`, `roles`,
+  `escrita.lugar`, `idioma_original`, `soporte`, `resumen`, `por_que_importa` y el `titulo` de cada enlace de
+  `leer`; en `personas`, `nombre`, `roles`,
   el `lugar` de `nacimiento`, `muerte` y `activo`, y `resumen`; en `hechos`, `titulo`, `lugar` y `resumen`; en
   `lugares`, `nombre` y `resumen`. Los nombres propios se traducen solo si tienen una forma propia en el otro idioma
   (Heródoto → Herodotus).
 - No se traducen los ids ni los campos que son ids (`familia`, `padre`, `regiones`, `obras`, `fuentes`, `autor_id`),
   los valores cerrados (`peso`, `tipo`, `genero`, `confianza`, `capa`: la app los traduce sola), años, coordenadas,
-  colores, `wikipedia` (ya trae `en`), `wikidata`, los enlaces de `leer`, las `fuente` de la demografía, las
+  colores, `wikipedia` (ya trae `en`), `wikidata`, la `url` de cada enlace de `leer` (su `titulo` sí se
+  traduce), las `fuente` de la demografía, las
   referencias de la ficha extendida, `titulo_original` ni lo que la app no muestra (`descripcion` del paquete, `ia`,
   `revision`, `origen`).
 - Las capas se arman con `tools/traduccion/enciclopedia.py`: `estado` cuenta lo traducido, lo que falta y lo viejo,

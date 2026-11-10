@@ -41,7 +41,7 @@ MANIFIESTO = "extraccion.json"
 
 # Campos que se traducen, por sección. «*» es cualquier posición de una lista. Lo demás no se toca: ids y campos que
 # son ids (familia, padre, regiones, obras, fuentes, autor_id), valores cerrados (peso, tipo, genero, confianza,
-# capa), años, coordenadas, colores, wikipedia y wikidata, los enlaces de leer, las fuentes bibliográficas de la
+# capa), años, coordenadas, colores, wikipedia y wikidata, las direcciones de leer (su título sí), las fuentes bibliográficas de la
 # demografía y las referencias de la ficha extendida, los títulos originales y lo que no se muestra (la descripción del
 # paquete, ia, revision, origen).
 CAMPOS: dict[str, list[str]] = {
@@ -55,7 +55,10 @@ CAMPOS: dict[str, list[str]] = {
         "extendida.secciones.*.titulo", "extendida.secciones.*.texto",
     ],
     "familias": ["nombre", "nota"],
-    "fuentes": ["titulo", "autor", "escrita.lugar", "idioma_original", "soporte", "resumen", "por_que_importa"],
+    "fuentes": [
+        "titulo", "autor", "escrita.lugar", "idioma_original", "soporte", "resumen", "por_que_importa",
+        "leer.*.titulo",
+    ],
     "personas": ["nombre", "roles.*", "nacimiento.lugar", "muerte.lugar", "activo.lugar", "resumen"],
     "hechos": ["titulo", "lugar", "resumen"],
     "lugares": ["nombre", "resumen"],
