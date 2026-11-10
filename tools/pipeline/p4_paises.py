@@ -7,7 +7,7 @@ tenía entonces el territorio de la Argentina de hoy.
 
 Salida en `data/demografia/`:
 - `unidades_pais.bin`: un byte por unidad (índice en la lista de países, 0 = ninguno), comprimido con zlib.
-- `paises_mapa.json`: la lista de países en ese orden (código de Our World in Data y nombre en español).
+- `paises_mapa.json`: la lista de países en ese orden (código de Our World in Data y nombre en español y en inglés).
 
 Uso: python3 tools/pipeline/p4_paises.py
 """
@@ -28,6 +28,8 @@ ZIP = comun.CRUDOS / "ne_10m_admin_0_countries_lakes.zip"
 CODIGOS = {"KOS": "OWID_KOS", "SOL": "SOM", "CYN": "CYP", "CNM": "CYP", "ESB": "CYP", "WSB": "CYP", "USG": "CUB",
            "KAS": None, "SPI": None, "BRT": None, "PGA": None, "BJN": None, "SER": None, "SCR": None}
 NOMBRES = {"OWID_KOS": "Kosovo", "SOM": "Somalia", "CYP": "Chipre", "CUB": "Cuba"}
+# Los mismos en inglés, y los que Natural Earth da con el nombre largo.
+NOMBRES_EN = {"OWID_KOS": "Kosovo", "SOM": "Somalia", "CYP": "Cyprus", "CUB": "Cuba", "CHN": "China", "USA": "United States"}
 
 
 def texto(v) -> str:
@@ -44,6 +46,7 @@ def main() -> None:
     registros = comun.leer_shapefile(ZIP, "ne_10m_admin_0_countries_lakes")
     codigos: list[str] = []
     nombres: dict[str, str] = {}
+    nombres_en: dict[str, str] = {}
     etiqueta = np.zeros((alto, ancho), dtype=np.uint16)
     for attrs, partes in registros:
         a3 = texto(attrs["ADM0_A3"])
@@ -54,6 +57,7 @@ def main() -> None:
         if codigo not in codigos:
             codigos.append(codigo)
             nombres[codigo] = NOMBRES.get(codigo) or texto(attrs.get("NAME_ES", "")) or texto(attrs["NAME"])
+            nombres_en[codigo] = NOMBRES_EN.get(codigo) or texto(attrs.get("NAME_EN", "")) or texto(attrs["NAME"])
         idx = codigos.index(codigo) + 1
         anillos = [comun.anillo_a_px(p) for p in partes if len(p) >= 3]
         todos = np.concatenate(anillos)
@@ -89,7 +93,7 @@ def main() -> None:
 
     SALIDA.mkdir(exist_ok=True)
     (SALIDA / "unidades_pais.bin").write_bytes(zlib.compress(pais.tobytes(), 9))
-    lista = [{"codigo": c, "nombre": nombres[c]} for c in codigos]
+    lista = [{"codigo": c, "nombre": nombres[c], "nombre_en": nombres_en[c]} for c in codigos]
     datos = {"fuente": "Natural Earth 1:10 m, Admin 0 – countries (con lagos), dominio público; país de cada unidad "
                        "por mayoría de píxeles (tools/pipeline/p4_paises.py)",
              "unidades": n, "paises": lista}
