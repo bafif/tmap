@@ -29,7 +29,7 @@ func _ready() -> void:
 	nombre.add_theme_font_size_override("font_size", 24)
 	marca.add_child(nombre)
 	var lema := Label.new()
-	lema.text = "atlas de la historia y sus fuentes"
+	lema.text = tr("atlas de la historia y sus fuentes")
 	lema.theme_type_variation = "Suave"
 	lema.add_theme_font_size_override("font_size", 13)
 	marca.add_child(lema)
@@ -44,8 +44,8 @@ func _ready() -> void:
 	var grupo := ButtonGroup.new()
 	for id in Estado.MODOS:
 		var b := Button.new()
-		b.text = Estado.MODOS[id][0]
-		b.tooltip_text = Estado.MODOS[id][1]
+		b.text = tr(Estado.MODOS[id][0])
+		b.tooltip_text = tr(Estado.MODOS[id][1])
 		b.toggle_mode = true
 		b.button_group = grupo
 		b.theme_type_variation = "BotonModo"
@@ -65,7 +65,7 @@ func _ready() -> void:
 	fila.add_child(espacio)
 
 	_busqueda = LineEdit.new()
-	_busqueda.placeholder_text = "Buscar entidad, lugar, persona, texto…"
+	_busqueda.placeholder_text = tr("Buscar entidad, lugar, persona, texto…")
 	_busqueda.custom_minimum_size = Vector2(330, 0)
 	_busqueda.right_icon = IconosUI.textura("buscar", 16, TemaUI.color("texto_suave"))
 	_busqueda.clear_button_enabled = true
@@ -73,10 +73,10 @@ func _ready() -> void:
 	_busqueda.text_submitted.connect(func(_t): _elegir_primero())
 	fila.add_child(_busqueda)
 
-	var ayuda := IconosUI.boton("ayuda", "Cómo se usa", 22)
+	var ayuda := IconosUI.boton("ayuda", tr("Cómo se usa"), 22)
 	ayuda.pressed.connect(func(): ayuda_pedida.emit())
 	fila.add_child(ayuda)
-	var ajustes := IconosUI.boton("ajustes", "Ajustes: calidad, vista 2D/3D, tema de la interfaz", 22)
+	var ajustes := IconosUI.boton("ajustes", tr("Ajustes: calidad, vista 2D/3D, idioma, tema de la interfaz"), 22)
 	ajustes.pressed.connect(func(): ajustes_pedidos.emit())
 	fila.add_child(ajustes)
 
@@ -108,15 +108,15 @@ func _buscar(texto: String) -> void:
 	var items: Array = []
 	for i in DatosMapa.buscar_entidades(texto, 7):
 		var e: Dictionary = DatosMapa.entidades[i]
-		items.append({"tipo": "entidad", "id": i, "texto": DatosMapa.nombre_entidad(i), "detalle": "Entidad política · " + Fechas.rango(int(e["a"]), int(e["b"]))})
+		items.append({"tipo": "entidad", "id": i, "texto": DatosMapa.nombre_entidad(i), "detalle": tr("Entidad política") + " · " + Fechas.rango(int(e["a"]), int(e["b"]))})
 	for r in Enciclopedia.buscar(texto, 10):
-		var detalle: String = r.get("detalle", {"lugar": "Lugar", "persona": "Persona", "fuente": "Fuente", "hecho": "Hecho", "region": "Región"}.get(r["tipo"], ""))
+		var detalle: String = r.get("detalle", tr(PanelInfo.NOMBRES_TIPO.get(r["tipo"], "")) if r["tipo"] != "" else "")
 		r["detalle"] = detalle
 		items.append(r)
 	if items.is_empty():
 		var l := Label.new()
 		l.theme_type_variation = "Suave"
-		l.text = "Sin resultados"
+		l.text = tr("Sin resultados")
 		_lista.add_child(l)
 	for it in items:
 		var b := Button.new()

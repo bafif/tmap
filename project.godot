@@ -73,6 +73,11 @@ mapa_derecha={
 ]
 }
 
+[internationalization]
+
+locale/fallback="es"
+locale/translations=PackedStringArray("res://traducciones/en.po")
+
 [rendering]
 
 renderer/rendering_method="forward_plus"

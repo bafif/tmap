@@ -17,10 +17,11 @@ func _ready() -> void:
 	DirAccess.make_dir_recursive_absolute(DIR_CACHE)
 
 
-## Devuelve {titulo, texto, url, idioma, miniatura} o {} si no hay artículo. Prueba primero en español.
+## Devuelve {titulo, texto, url, idioma, miniatura} o {} si no hay artículo. Prueba primero en el idioma elegido
+## (Estado.idioma_wiki) y después en el otro.
 ## `titulos` = {"es": "...", "en": "..."} (cualquiera puede faltar).
 func resumen(titulos: Dictionary) -> Dictionary:
-	var idiomas: Array = ["es", "en"] if Estado.ajustes.get("idioma_wiki", "es") == "es" else ["en", "es"]
+	var idiomas: Array = ["es", "en"] if Estado.idioma_wiki() == "es" else ["en", "es"]
 	for idioma in idiomas:
 		var titulo: String = str(titulos.get(idioma, ""))
 		if titulo.is_empty():

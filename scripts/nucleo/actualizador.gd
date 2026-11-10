@@ -74,11 +74,11 @@ func buscar(preguntar := false) -> String:
 	if ocupado:
 		return ""
 	if not habilitado:
-		return _fijar("Desde el código fuente, TellMAP se actualiza con git.")
+		return _fijar(tr("Desde el código fuente, TellMAP se actualiza con git."))
 	ocupado = true
 	# Buscar a mano con un cartel abierto vale como «Actualizar»: el cartel se reemplaza por el aviso de lo instalado.
 	_ofrecido = {}
-	_fijar("Buscando actualizaciones…")
+	_fijar(tr("Buscando actualizaciones…"))
 	var err := await _buscar(preguntar)
 	return _terminar(err)
 
@@ -90,7 +90,7 @@ func aceptar() -> String:
 	var m := _ofrecido
 	_ofrecido = {}
 	ocupado = true
-	_fijar("Actualizando: %s…" % _novedad)
+	_fijar(tr("Actualizando: %s…") % _novedad)
 	var err := await _instalar(m)
 	return _terminar(err)
 
@@ -100,7 +100,7 @@ func posponer() -> void:
 	if _ofrecido.is_empty():
 		return
 	_ofrecido = {}
-	_fijar("Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora»."
+	_fijar(tr("Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora».")
 		% _novedad)
 
 
@@ -115,7 +115,7 @@ func _terminar(err: String) -> String:
 	DirAccess.remove_absolute(GZ_APP)
 	ocupado = false
 	if err != "":
-		_fijar("No se pudo actualizar: %s" % err)
+		_fijar(tr("No se pudo actualizar: %s") % err)
 	estado_cambiado.emit()
 	return err
 
@@ -123,22 +123,22 @@ func _terminar(err: String) -> String:
 func _buscar(preguntar: bool) -> String:
 	var r := await _pedir(url_manifiesto)
 	if r.has("error"):
-		return "no se pudo leer el manifiesto (%s)." % r["error"]
+		return tr("no se pudo leer el manifiesto (%s).") % r["error"]
 	var m: Variant = JSON.parse_string((r["cuerpo"] as PackedByteArray).get_string_from_utf8())
 	if not m is Dictionary:
-		return "el manifiesto no es un JSON válido."
+		return tr("el manifiesto no es un JSON válido.")
 	if int(m.get("formato", 0)) > FORMATO:
 		pagina_nueva = PAGINA
-		aviso.emit("app", "Hay una versión nueva de TellMAP que hay que bajar a mano.")
-		_fijar("Hay una versión nueva de TellMAP que hay que bajar a mano.")
+		aviso.emit("app", tr("Hay una versión nueva de TellMAP que hay que bajar a mano."))
+		_fijar(tr("Hay una versión nueva de TellMAP que hay que bajar a mano."))
 		return ""
 	if preguntar:
 		var novedad := _que_hay(m)
 		if novedad != "":
 			_ofrecido = m
 			_novedad = novedad
-			_fijar("Hay una actualización: %s." % novedad)
-			aviso.emit("oferta", "Hay una actualización: %s. ¿La instalo?" % novedad)
+			_fijar(tr("Hay una actualización: %s.") % novedad)
+			aviso.emit("oferta", tr("Hay una actualización: %s. ¿La instalo?") % novedad)
 			return ""
 	return await _instalar(m)
 
@@ -152,8 +152,8 @@ func _que_hay(m: Dictionary) -> String:
 		partes.append("TellMAP %s" % str(app["version"]))
 	var datos: Dictionary = m.get("datos", {})
 	if _datos_nuevos(datos):
-		partes.append("datos del %s" % Datos.fecha(int(datos["version"])))
-	return " y ".join(partes)
+		partes.append(tr("datos del %s") % Datos.fecha(int(datos["version"])))
+	return tr(" y ").join(partes)
 
 
 func _app_nueva(app: Dictionary) -> bool:
@@ -181,8 +181,8 @@ func _instalar(m: Dictionary) -> String:
 		var err := await _actualizar_app(app)
 		if err != "":
 			return err
-		hecho.append("TellMAP %s quedó instalada: se abre la próxima vez." % nueva if app_lista == nueva else
-			"Hay una versión nueva, TellMAP %s: bajala de su página." % nueva)
+		hecho.append(tr("TellMAP %s quedó instalada: se abre la próxima vez.") % nueva if app_lista == nueva else
+			tr("Hay una versión nueva, TellMAP %s: bajala de su página.") % nueva)
 	var datos: Dictionary = m.get("datos", {})
 	if _datos_nuevos(datos):
 		var err := await _actualizar_datos(datos)
@@ -190,8 +190,8 @@ func _instalar(m: Dictionary) -> String:
 			return err
 		hecho.append(texto)
 	if hecho.is_empty():
-		_fijar("TellMAP está al día: versión %s%s." % [version_app(),
-			", datos del %s" % Datos.fecha(Datos.version) if Datos.version > 0 else ""])
+		_fijar(tr("TellMAP está al día: versión %s%s.") % [version_app(),
+			tr(", datos del %s") % Datos.fecha(Datos.version) if Datos.version > 0 else ""])
 	else:
 		_fijar(" ".join(hecho))
 	return ""
@@ -202,19 +202,19 @@ func _actualizar_app(app: Dictionary) -> String:
 	pagina_nueva = str(app.get("pagina", PAGINA))
 	var plataforma := "%s-%s" % [OS.get_name().to_lower(), Engine.get_architecture_name()]
 	var a: Dictionary = app.get(plataforma, {})
-	var manual := "Hay una versión nueva, TellMAP %s: bajala de su página." % nueva
+	var manual := tr("Hay una versión nueva, TellMAP %s: bajala de su página.") % nueva
 	if not _app_instalable(app):
 		aviso.emit("app", manual)
 		return ""
-	_fijar("Bajando TellMAP %s…" % nueva)
+	_fijar(tr("Bajando TellMAP %s…") % nueva)
 	var gz := GZ_APP
 	var r := await _pedir(str(a["url"]), gz)
 	if r.has("error"):
-		return "no se pudo bajar la versión %s (%s)." % [nueva, r["error"]]
+		return tr("no se pudo bajar la versión %s (%s).") % [nueva, r["error"]]
 	var bytes := _descomprimir(gz, a)
 	DirAccess.remove_absolute(gz)
 	if bytes.is_empty():
-		return "la versión %s que se bajó no coincide con la publicada (sha256)." % nueva
+		return tr("la versión %s que se bajó no coincide con la publicada (sha256).") % nueva
 	var exe := ruta_ejecutable
 	var nuevo := exe + ".nuevo"
 	var f := FileAccess.open(nuevo, FileAccess.WRITE)
@@ -236,10 +236,10 @@ func _actualizar_app(app: Dictionary) -> String:
 		err = DirAccess.rename_absolute(nuevo, exe)
 	if err != OK:
 		DirAccess.remove_absolute(nuevo)
-		return "no se pudo reemplazar el ejecutable (%s)." % error_string(err)
+		return tr("no se pudo reemplazar el ejecutable (%s).") % error_string(err)
 	app_lista = nueva
 	pide_reinicio = true
-	aviso.emit("app", "TellMAP %s quedó instalada: se abre la próxima vez." % nueva)
+	aviso.emit("app", tr("TellMAP %s quedó instalada: se abre la próxima vez.") % nueva)
 	return ""
 
 
@@ -251,19 +251,19 @@ func _actualizar_datos(datos: Dictionary) -> String:
 	for i in faltan.size():
 		var rel: String = faltan[i]
 		var info: Dictionary = archivos[rel]
-		_fijar("Bajando datos nuevos: %d de %d archivos…" % [i + 1, faltan.size()])
+		_fijar(tr("Bajando datos nuevos: %d de %d archivos…") % [i + 1, faltan.size()])
 		var gz := BAJANDO + str(info["sha256"]) + ".gz"
 		var r := await _pedir(str(info["url"]), gz)
 		if r.has("error"):
-			return "no se pudo bajar %s (%s)." % [rel, r["error"]]
+			return tr("no se pudo bajar %s (%s).") % [rel, r["error"]]
 		var bytes := _descomprimir(gz, info)
 		DirAccess.remove_absolute(gz)
 		if bytes.is_empty() and int(info.get("bytes", 0)) > 0:
-			return "%s no coincide con lo publicado (sha256)." % rel
+			return tr("%s no coincide con lo publicado (sha256).") % rel
 		var destino := BAJANDO + str(info["sha256"])
 		var f := FileAccess.open(destino, FileAccess.WRITE)
 		if f == null:
-			return "no se pudo guardar %s (%s)." % [rel, error_string(FileAccess.get_open_error())]
+			return tr("no se pudo guardar %s (%s).") % [rel, error_string(FileAccess.get_open_error())]
 		f.store_buffer(bytes)
 		f.close()
 		bajados[rel] = destino
@@ -273,12 +273,12 @@ func _actualizar_datos(datos: Dictionary) -> String:
 	var antes := Datos.grupos.duplicate()
 	Datos.activar(version_app())
 	var del_mapa: bool = Datos.grupos.get("mapa", "") != antes.get("mapa", "")
-	var cuando := "se ven al volver a abrir TellMAP" if del_mapa else "ya están en el mapa"
+	var cuando := tr("se ven al volver a abrir TellMAP") if del_mapa else tr("ya están en el mapa")
 	pide_reinicio = pide_reinicio or del_mapa
 	if Estado.cargado:
 		Enciclopedia.recargar()
-	_fijar("Datos del %s instalados (%d archivo%s nuevo%s): %s." % [Datos.fecha(Datos.version), faltan.size(),
-		"" if faltan.size() == 1 else "s", "" if faltan.size() == 1 else "s", cuando])
+	_fijar(tr_n("Datos del %s instalados (%d archivo nuevo): %s.", "Datos del %s instalados (%d archivos nuevos): %s.",
+		faltan.size()) % [Datos.fecha(Datos.version), faltan.size(), cuando])
 	aviso.emit("datos_mapa" if del_mapa else "datos", texto)
 	return ""
 
@@ -331,8 +331,8 @@ func _pedir(url: String, archivo := "") -> Dictionary:
 	var r: Array = await h.request_completed
 	h.queue_free()
 	if r[0] != HTTPRequest.RESULT_SUCCESS:
-		return {"error": "sin conexión" if r[0] in [HTTPRequest.RESULT_CANT_CONNECT, HTTPRequest.RESULT_CANT_RESOLVE] else
-			"error %d de HTTPRequest" % r[0]}
+		return {"error": tr("sin conexión") if r[0] in [HTTPRequest.RESULT_CANT_CONNECT, HTTPRequest.RESULT_CANT_RESOLVE] else
+			tr("error %d de HTTPRequest") % r[0]}
 	if r[1] != 200:
 		return {"error": "HTTP %d" % r[1]}
 	return {"cuerpo": r[3]}

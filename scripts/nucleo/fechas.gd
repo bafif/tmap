@@ -1,5 +1,6 @@
 class_name Fechas
 ## Años históricos: enteros, negativos antes de Cristo y sin año 0 (el 1 a. C. es -1 y el 1 d. C. es 1).
+## Los textos salen en el idioma de la app: «1350 a. C.» o «1350 BC», «siglo V a. C.» o «5th century BC».
 
 const ROMANOS := [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"],
 	[50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]]
@@ -8,9 +9,9 @@ const ROMANOS := [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"],
 ## Texto corto de un año: «1350 a. C.», «476 d. C.», «1810».
 static func texto(anio: int) -> String:
 	if anio < 0:
-		return "%s a. C." % _miles(-anio)
+		return Idioma.t("%s a. C.") % _miles(-anio)
 	if anio < 1000:
-		return "%d d. C." % anio
+		return Idioma.t("%d d. C.") % anio
 	return str(anio)
 
 
@@ -19,13 +20,15 @@ static func rango(desde: int, hasta: int) -> String:
 	if desde == hasta:
 		return texto(desde)
 	if desde < 0 and hasta < 0:
-		return "%s–%s a. C." % [_miles(-desde), _miles(-hasta)]
+		return Idioma.t("%s–%s a. C.") % [_miles(-desde), _miles(-hasta)]
 	return "%s – %s" % [texto(desde), texto(hasta)]
 
 
 static func siglo(anio: int) -> String:
-	var s := int(ceil(abs(anio) / 100.0))
-	return "siglo %s%s" % [romano(max(s, 1)), " a. C." if anio < 0 else ""]
+	var s := maxi(int(ceil(abs(anio) / 100.0)), 1)
+	if Idioma.ingles():
+		return "%s century%s" % [Idioma.ordinal_en(s), " BC" if anio < 0 else ""]
+	return "siglo %s%s" % [romano(s), " a. C." if anio < 0 else ""]
 
 
 static func romano(n: int) -> String:
@@ -65,11 +68,4 @@ static func sumar(anio: int, delta: int) -> int:
 
 
 static func _miles(n: int) -> String:
-	if n < 10000:
-		return str(n)
-	var s := str(n)
-	var out := ""
-	while s.length() > 3:
-		out = "." + s.substr(s.length() - 3) + out
-		s = s.substr(0, s.length() - 3)
-	return s + out
+	return str(n) if n < 10000 else Idioma.miles(n)

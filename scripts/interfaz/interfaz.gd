@@ -1,6 +1,6 @@
 class_name Interfaz
 extends CanvasLayer
-## Arma y conecta toda la interfaz sobre el mapa. Al cambiar de tema se reconstruye completa.
+## Arma y conecta toda la interfaz sobre el mapa. Al cambiar de tema o de idioma se reconstruye completa.
 
 var vista: VistaMapa
 var raiz: Control
@@ -25,6 +25,7 @@ func _ready() -> void:
 		ajustes.cerrar()
 		editor.abrir(tipo, id))
 	Estado.ajustes_cambiados.connect(aplicar_escala)
+	Estado.idioma_cambiado.connect(_cambiar_idioma)
 	Actualizador.aviso.connect(func(tipo: String, texto: String):
 		for c in raiz.get_children():
 			if c is AvisoActualizacion:
@@ -99,6 +100,21 @@ func mostrar_bienvenida() -> void:
 ## quedara tapado, volvería solo al motor anterior aunque se viera bien.
 func confirmar_graficos() -> void:
 	raiz.add_child(AvisoGraficos.new())
+
+
+## Con el idioma nuevo: la interfaz se arma de nuevo y vuelve a mostrar lo que estaba abierto (la bienvenida, si el
+## idioma se eligió ahí, o Ajustes).
+func _cambiar_idioma() -> void:
+	var en_bienvenida := raiz.get_children().any(func(c): return c is Bienvenida)
+	var en_ajustes := ajustes.visible
+	var seleccion := Estado.unidad_seleccionada
+	_construir()
+	if seleccion > 0:
+		Estado.seleccionar_lugar(seleccion, DatosMapa.centro_unidad(seleccion))
+	if en_bienvenida:
+		mostrar_bienvenida()
+	elif en_ajustes:
+		ajustes.abrir()
 
 
 func _cambiar_tema() -> void:

@@ -44,7 +44,7 @@ var _paleta_politica := PackedColorArray()
 
 ## Wikidata → {"es": título en es.wikipedia, "l": etiqueta en español}
 var wikidata_es := {}
-## Nombre de Cliopatria → nombre en español revisado a mano.
+## Nombre de Cliopatria (en inglés) → nombre en español revisado a mano. En inglés se usa el de Cliopatria.
 var nombres_revisados := {}
 ## Entidad duplicada → la entidad con la que se unificó (ver _unificar_duplicados).
 var unificada := {}
@@ -62,7 +62,7 @@ func _paso(texto: String, fraccion: float) -> void:
 func cargar() -> bool:
 	var meta: Variant = _leer_json(DIR + "politico.json")
 	if meta == null:
-		error = "Falta data/mapa/politico.json: corré el pipeline (tools/pipeline/README.md)."
+		error = tr("Falta data/mapa/politico.json: corré el pipeline (tools/pipeline/README.md).")
 		return false
 	Proyeccion.configurar(meta["proyeccion"])
 	ancho = Proyeccion.ancho
@@ -77,7 +77,7 @@ func cargar() -> bool:
 	if extra is Dictionary:
 		nombres_revisados = extra
 
-	await _paso("Leyendo las fronteras de 5400 años…", 0.08)
+	await _paso(tr("Leyendo las fronteras de 5400 años…"), 0.08)
 	var comp := FileAccess.get_file_as_bytes(Datos.ruta(DIR + "politico.bin"))
 	var crudo := comp.decompress(int(meta["politico_bin"]["bytes"]), FileAccess.COMPRESSION_DEFLATE)
 	var partes: Dictionary = meta["politico_bin"]["partes"]
@@ -95,7 +95,7 @@ func cargar() -> bool:
 	_corregir_entidades(_leer_json(DIR + "correcciones.json"))
 	_unificar_duplicados()
 
-	await _paso("Leyendo las unidades del mapa…", 0.2)
+	await _paso(tr("Leyendo las unidades del mapa…"), 0.2)
 	comp = FileAccess.get_file_as_bytes(Datos.ruta(DIR + "unidades.bin"))
 	unidades_bytes = comp.decompress(int(meta["unidades_bin"]["bytes"]), FileAccess.COMPRESSION_DEFLATE)
 	comp = PackedByteArray()
@@ -103,27 +103,27 @@ func cargar() -> bool:
 	tex_unidades = ImageTexture.create_from_image(img_u)
 
 	var res: float = Estado.calidad()["resolucion"]
-	await _paso("Pintando el terreno…", 0.35)
+	await _paso(tr("Pintando el terreno…"), 0.35)
 	var img := Image.new()
 	if img.load_webp_from_buffer(FileAccess.get_file_as_bytes(Datos.ruta(DIR + "terreno.webp"))) != OK:
-		error = "No se pudo leer data/mapa/terreno.webp"
+		error = tr("No se pudo leer %s") % "data/mapa/terreno.webp"
 		return false
 	if res < 1.0:
 		img.resize(int(ancho * res), int(alto * res), Image.INTERPOLATE_BILINEAR)
 	img.generate_mipmaps()
 	tex_terreno = ImageTexture.create_from_image(img)
 
-	await _paso("Levantando montañas y ríos…", 0.6)
+	await _paso(tr("Levantando montañas y ríos…"), 0.6)
 	img = Image.new()
 	if img.load_png_from_buffer(FileAccess.get_file_as_bytes(Datos.ruta(DIR + "relieve.png"))) != OK:
-		error = "No se pudo leer data/mapa/relieve.png"
+		error = tr("No se pudo leer %s") % "data/mapa/relieve.png"
 		return false
 	if res < 1.0:
 		img.resize(int(ancho * res), int(alto * res), Image.INTERPOLATE_BILINEAR)
 	img.generate_mipmaps()
 	tex_relieve = ImageTexture.create_from_image(img)
 
-	await _paso("Preparando la línea de tiempo…", 0.85)
+	await _paso(tr("Preparando la línea de tiempo…"), 0.85)
 	_lut_filas = int(ceil((n_unidades + 1) / float(LUT_ANCHO)))
 	_lut_bytes.resize(LUT_ANCHO * _lut_filas * 2)
 	_lut_bytes.fill(0)
@@ -334,10 +334,15 @@ func territorio_de_entidad(i: int) -> Array:
 func nombre_entidad(i: int) -> String:
 	if i < 0 or i >= entidades.size():
 		return ""
-	var e: Dictionary = entidades[i]
-	if nombres_revisados.has(e["n"]):
-		return nombres_revisados[e["n"]]
-	return e["n"]
+	return nombre_cliopatria(str(entidades[i]["n"]))
+
+
+## El nombre de una entidad de Cliopatria en el idioma de la app. Cliopatria los trae en inglés; los que van entre
+## paréntesis («(Carolingian Empire)») son el segundo registro de un mismo estado, y se muestran sin ellos.
+func nombre_cliopatria(n: String) -> String:
+	if Idioma.actual == "es" and nombres_revisados.has(n):
+		return nombres_revisados[n]
+	return n.trim_prefix("(").trim_suffix(")") if n.begins_with("(") and n.ends_with(")") else n
 
 
 func titulos_wiki_entidad(i: int) -> Dictionary:

@@ -285,7 +285,7 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 				var nombres: Array = g["miembros"].slice(0, 4).map(func(v): return str(v["texto"]))
 				var resto: int = g["miembros"].size() - nombres.size()
 				return {"tipo": "grupo", "id": "", "px": g["px"], "n": g["miembros"].size(),
-					"texto": "%d juntos: %s%s" % [g["miembros"].size(), "; ".join(nombres), " y %d más" % resto if resto > 0 else ""]}
+					"texto": tr("%d juntos: %s") % [g["miembros"].size(), "; ".join(nombres)] + (tr(" y %d más") % resto if resto > 0 else "")}
 	for v in sueltos:
 		if zoom < ZOOM_OCULTAR:
 			break

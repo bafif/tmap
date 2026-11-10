@@ -13,7 +13,7 @@ Uso: tools/godot/tmap.py [--proyecto RUTA] [--a juego|editor|PID] ORDEN [argumen
   registros [editor] [-n N] [--errores] [--lista]
                                  el último registro guardado de la app (o del editor), en .godot/registros/
   revisar                        compila todos los scripts sin abrir la app
-  prueba                         corre la prueba automática completa (--prueba)
+  prueba [--idioma es|en]        corre la prueba automática completa (--prueba), en español si no se dice otro idioma
   COMANDO [clave=valor ...]      cualquier comando del puente; «ayuda» los lista
 
 Los valores se leen como JSON cuando se puede (anio=-1350, region=[0,0,800,600], limpiar=true).
@@ -338,7 +338,8 @@ def main() -> int:
     if orden == "revisar":
         return orden_revisar(proyecto)
     if orden == "prueba":
-        r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "--", "--prueba"],
+        idioma = resto[resto.index("--idioma") + 1] if "--idioma" in resto else "es"
+        r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "--", "--prueba", f"--idioma={idioma}"],
                            capture_output=True, text=True, timeout=600)
         malas = [l for l in (r.stdout + r.stderr).splitlines() if "ERROR" in l or "[prueba]" in l]
         print("\n".join(malas[-30:]))

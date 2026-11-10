@@ -36,12 +36,12 @@ func _ready() -> void:
 	await get_tree().process_frame
 	var ok := await DatosMapa.cargar()
 	if not ok:
-		_carga_texto.text = "No se pudo cargar el mapa: " + DatosMapa.error
+		_carga_texto.text = tr("No se pudo cargar el mapa: %s") % DatosMapa.error
 		push_error(DatosMapa.error)
 		if args.has("verificar"):
 			get_tree().quit(1)
 		return
-	_al_progreso("Abriendo la biblioteca…", 0.95)
+	_al_progreso(tr("Abriendo la biblioteca…"), 0.95)
 	await get_tree().process_frame
 	Enciclopedia.cargar()
 	vista = VistaMapa.new()
@@ -54,11 +54,14 @@ func _ready() -> void:
 	t.tween_property(_carga.get_child(0), "modulate:a", 0.0, 0.5)
 	t.finished.connect(_carga.queue_free)
 	if args.has("verificar"):
+		# Las traducciones de la interfaz van dentro del ejecutable, como los datos.
+		var idiomas := ["es"] + Array(TranslationServer.get_loaded_locales())
 		var bien := DatosMapa.n_unidades > 0 and DatosMapa.entidades.size() > 0 and not Enciclopedia.regiones.is_empty() \
-			and not Enciclopedia.familias.is_empty()
-		print("TellMAP %s: %d unidades, %d entidades, %d regiones, %d fuentes, %d familias; datos %s" % [
+			and not Enciclopedia.familias.is_empty() and idiomas.has("en")
+		print("TellMAP %s: %d unidades, %d entidades, %d regiones, %d fuentes, %d familias; idiomas %s, en uso %s; datos %s" % [
 			"bien" if bien else "FALTAN DATOS", DatosMapa.n_unidades, DatosMapa.entidades.size(),
 			Enciclopedia.regiones.size(), Enciclopedia.fuentes.size(), Enciclopedia.familias.size(),
+			", ".join(idiomas), Idioma.actual,
 			"%d (%s)" % [Datos.version, "actualizados: " + ", ".join(Datos.grupos.keys()) if not Datos.grupos.is_empty()
 				else "los de adentro"]])
 		get_tree().quit(0 if bien else 1)
@@ -96,7 +99,7 @@ func _mostrar_carga() -> void:
 	t.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	caja.add_child(t)
 	var s := Label.new()
-	s.text = "atlas de la historia y sus fuentes"
+	s.text = tr("atlas de la historia y sus fuentes")
 	s.theme_type_variation = "Suave"
 	s.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	caja.add_child(s)
@@ -276,7 +279,7 @@ func _prueba_automatica() -> void:
 		grafico.size = Vector2(400, 120)
 		add_child(grafico)
 		await get_tree().process_frame
-		if not grafico._get_tooltip(grafico._puntos[0]["p"]).contains("Fuente:"):
+		if not grafico._get_tooltip(grafico._puntos[0]["p"]).contains(tr("Fuente: %s").get_slice("%", 0)):
 			push_error("[prueba] el gráfico de población no muestra la fuente de cada estimación")
 		grafico.queue_free()
 	paso.call("gráfico de población")

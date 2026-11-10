@@ -21,7 +21,7 @@ func _init() -> void:
 	size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	mouse_filter = Control.MOUSE_FILTER_PASS
 	# Sin un texto, Godot no llama a _get_tooltip.
-	tooltip_text = "Estimaciones de población"
+	tooltip_text = tr("Estimaciones de población")
 
 
 func _draw() -> void:
@@ -117,13 +117,13 @@ func _notification(what: int) -> void:
 func _get_tooltip(pos: Vector2) -> String:
 	var i := _mas_cercano(pos)
 	if i < 0:
-		return tooltip_text + (" (escala logarítmica)" if logaritmica else "") + ". Pasá el mouse por un punto para ver su fuente."
+		return tooltip_text + (" " + tr("(escala logarítmica)") if logaritmica else "") + ". " + tr("Pasá el mouse por un punto para ver su fuente.")
 	var d: Dictionary = _puntos[i]["d"]
 	var v := float(d[clave])
-	var texto := "%s: %s" % [Fechas.texto(int(d["anio"])), formato.call(v) if formato.is_valid() else "~%s habitantes" % _numero(v)]
+	var texto := "%s: %s" % [Fechas.texto(int(d["anio"])), formato.call(v) if formato.is_valid() else tr("~%s habitantes") % _numero(v)]
 	if d.has("min") and d.has("max"):
-		texto += " (entre %s y %s)" % [_numero(float(d["min"])), _numero(float(d["max"]))]
-	texto += "\nFuente: %s" % d.get("fuente", "sin fuente")
+		texto += " " + tr("(entre %s y %s)") % [_numero(float(d["min"])), _numero(float(d["max"]))]
+	texto += "\n" + tr("Fuente: %s") % d.get("fuente", tr("sin fuente"))
 	if d.get("nota"):
 		texto += "\n%s" % d["nota"]
 	return texto
@@ -131,10 +131,5 @@ func _get_tooltip(pos: Vector2) -> String:
 
 static func _numero(x: float) -> String:
 	if x >= 1000000.0:
-		return ("%.1f millones" % (x / 1000000.0)).replace(".", ",")
-	var s := str(int(round(x)))
-	var out := ""
-	while s.length() > 3:
-		out = "." + s.substr(s.length() - 3) + out
-		s = s.substr(0, s.length() - 3)
-	return s + out
+		return Idioma.t("%s millones") % Idioma.decimal("%.1f" % (x / 1000000.0))
+	return Idioma.miles(int(round(x)))

@@ -16,6 +16,8 @@ signal resaltado_cambiado(clave: String)
 ## Se pidió abrir el editor de la enciclopedia en un elemento (tipo y id vacíos: en la lista de fuentes).
 signal editor_pedido(tipo: String, id: String)
 signal ajustes_cambiados
+## Cambió el idioma de la app (Idioma.cambiar): la interfaz se vuelve a armar y la enciclopedia ya se releyó.
+signal idioma_cambiado
 signal carga_progreso(texto: String, fraccion: float)
 signal carga_terminada
 
@@ -23,7 +25,7 @@ const ANIO_MIN := -3400
 const ANIO_MAX := 2024
 const RUTA_AJUSTES := "user://ajustes.cfg"
 
-## Modos de mapa: id → [nombre visible, descripción].
+## Modos de mapa: id → [nombre visible, descripción] (en español: se traducen con tr() al mostrarlos).
 const MODOS := {
 	"politico": ["Político", "Entidades políticas y sus fronteras (Cliopatria)"],
 	"terreno": ["Terreno", "Relieve, ríos y costas, sin colores políticos"],
@@ -64,7 +66,10 @@ var ajustes := {
 	"calidad": "alta",
 	"tema": "marmol",
 	"escala_ui": 1.0,
-	"idioma_wiki": "es",
+	## "es" o "en"; vacío hasta que se elige uno: mientras tanto, el del equipo (ver Idioma).
+	"idioma": "",
+	## Qué Wikipedia se consulta primero: "es" o "en"; vacío, la del idioma de la app.
+	"idioma_wiki": "",
 	"mostrar_fuentes": true,
 	"mostrar_personas": true,
 	"mostrar_hechos": true,
@@ -80,6 +85,7 @@ var ajustes := {
 
 func _ready() -> void:
 	cargar_ajustes()
+	Idioma.aplicar()
 
 
 func fijar_anio(nuevo: int) -> void:
@@ -131,6 +137,12 @@ func abrir_url(url: String) -> void:
 
 func enfocar(px: Vector2, zoom: float = 0.0) -> void:
 	enfoque_pedido.emit(px, zoom)
+
+
+## Qué Wikipedia se consulta primero: la elegida en Ajustes o, si no se eligió, la del idioma de la app.
+func idioma_wiki() -> String:
+	var w := str(ajustes.get("idioma_wiki", ""))
+	return w if w in ["es", "en"] else Idioma.actual
 
 
 func calidad() -> Dictionary:

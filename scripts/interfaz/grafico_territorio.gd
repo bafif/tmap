@@ -17,7 +17,7 @@ func _init() -> void:
 	mouse_filter = Control.MOUSE_FILTER_PASS
 	mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 	# Sin un texto, Godot no llama a _get_tooltip.
-	tooltip_text = "Superficie a lo largo del tiempo"
+	tooltip_text = tr("Superficie a lo largo del tiempo")
 
 
 ## serie: [[año, km²], …] (lo que devuelve DatosMapa.territorio_de_entidad); desde y hasta: la vida de la entidad.
@@ -109,5 +109,5 @@ func _notification(what: int) -> void:
 func _get_tooltip(pos: Vector2) -> String:
 	var anio := _anio_en(pos.x)
 	var v := valor_en(anio)
-	var texto := "%s: sin territorio en los datos" % Fechas.texto(anio) if v <= 0.0 else "%s: ~%s km²" % [Fechas.texto(anio), GraficoSerie._numero(v)]
-	return texto + "\nClic: ir a ese año"
+	var texto := tr("%s: sin territorio en los datos") % Fechas.texto(anio) if v <= 0.0 else "%s: ~%s km²" % [Fechas.texto(anio), GraficoSerie._numero(v)]
+	return texto + "\n" + tr("Clic: ir a ese año")

@@ -88,6 +88,8 @@ def main() -> None:
         cmd = [str(exe), "--headless", "--"]
     else:
         cmd = [a.godot, "--headless", "--path", str(RAIZ), "--"]
+    # Los mensajes que se comprueban están en español: la app no tiene que elegir el idioma por el del equipo.
+    cmd.append("--idioma=es")
 
     try:
         # La «versión publicada»: los datos del repo más un paquete, con una versión posterior a cualquier sello.

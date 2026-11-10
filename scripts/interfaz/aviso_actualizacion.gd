@@ -30,10 +30,10 @@ func _ready() -> void:
 	fila.add_child(l)
 	if _tipo == "oferta":
 		var si := Button.new()
-		si.text = "Actualizar"
+		si.text = tr("Actualizar")
 		fila.add_child(si)
 		var no := Button.new()
-		no.text = "Ahora no"
+		no.text = tr("Ahora no")
 		no.pressed.connect(_posponer)
 		fila.add_child(no)
 		si.pressed.connect(func():
@@ -43,15 +43,15 @@ func _ready() -> void:
 			Actualizador.aceptar())
 	elif _tipo == "app" and Actualizador.app_lista == "":
 		var bajar := Button.new()
-		bajar.text = "Ir a la descarga"
+		bajar.text = tr("Ir a la descarga")
 		bajar.pressed.connect(func(): Estado.abrir_url(Actualizador.pagina_nueva))
 		fila.add_child(bajar)
 	elif _tipo in ["app", "datos_mapa"]:
 		var reiniciar := Button.new()
-		reiniciar.text = "Reiniciar ahora"
+		reiniciar.text = tr("Reiniciar ahora")
 		reiniciar.pressed.connect(Actualizador.reiniciar)
 		fila.add_child(reiniciar)
-	var cerrar := IconosUI.boton("cerrar", "Cerrar el aviso", 16)
+	var cerrar := IconosUI.boton("cerrar", tr("Cerrar el aviso"), 16)
 	cerrar.pressed.connect(_posponer if _tipo == "oferta" else queue_free)
 	fila.add_child(cerrar)
 	if _tipo == "datos":

@@ -17,6 +17,8 @@ static var _cargado := false
 static var _pais_de_unidad := PackedByteArray()
 static var _codigos: Array = [""]
 static var _por_clave: Dictionary = {}
+## Código → nombre del país en inglés (paises_mapa.json; en paises.json está el español).
+static var _nombres_en: Dictionary = {}
 
 
 static func _cargar() -> void:
@@ -31,6 +33,7 @@ static func _cargar() -> void:
 		return
 	for p in mapa["paises"]:
 		_codigos.append(str(p["codigo"]))
+		_nombres_en[str(p["codigo"])] = str(p.get("nombre_en", ""))
 	var comp := FileAccess.get_file_as_bytes(Datos.ruta(DIR + "unidades_pais.bin"))
 	_pais_de_unidad = comp.decompress(int(mapa["unidades"]) + 1, FileAccess.COMPRESSION_DEFLATE)
 	indicadores = series["indicadores"]
@@ -51,6 +54,11 @@ static func pais_de_unidad(u: int) -> String:
 
 static func nombre(codigo: String) -> String:
 	_cargar()
+	if Idioma.ingles():
+		if codigo == MUNDO:
+			return Idioma.t("Mundo")
+		if str(_nombres_en.get(codigo, "")) != "":
+			return _nombres_en[codigo]
 	return str(paises.get(codigo, {}).get("nombre", codigo))
 
 
@@ -93,7 +101,8 @@ static func serie(codigo: String, clave: String) -> Array:
 	return out
 
 
-## Un valor con su unidad, en castellano: «45,7 millones», «76,1 años», «2,31», «12,4 %», «US$ 14.832».
+## Un valor con su unidad: «45,7 millones», «76,1 años», «2,31», «12,4 %», «US$ 14.832»; en inglés, «45.7 million»,
+## «76.1 years», «12.4%», «US$ 14,832». Las unidades vienen de los datos en español y se traducen con en.po.
 static func texto_valor(v: float, clave: String) -> String:
 	var ind := indicador(clave)
 	var dec := int(ind.get("decimales", 0))
@@ -101,27 +110,22 @@ static func texto_valor(v: float, clave: String) -> String:
 	var n := _numero(v, dec)
 	match unidad:
 		"habitantes":
-			return n + (" habitantes" if v < 1000000.0 else "")
+			return n + (" " + Idioma.t("habitantes") if v < 1000000.0 else "")
 		"%":
-			return n + " %"
+			return n + ("%" if Idioma.ingles() else " %")
 		"US$ de 2011":
 			return "US$ " + n
 		"hijos":
 			return n
 		_:
-			return "%s %s" % [n, unidad]
+			return "%s %s" % [n, Idioma.t(unidad)]
 
 
 static func _numero(x: float, dec: int) -> String:
 	if dec == 0 and absf(x) >= 1000000.0:
-		return ("%.1f millones" % (x / 1000000.0)).replace(".", ",")
+		return Idioma.t("%s millones") % Idioma.decimal("%.1f" % (x / 1000000.0))
 	var partes := (("%." + str(dec) + "f") % absf(x)).split(".")
-	var s: String = partes[0]
-	var out := ""
-	while s.length() > 3:
-		out = "." + s.substr(s.length() - 3) + out
-		s = s.substr(0, s.length() - 3)
-	out = s + out
+	var out := Idioma.miles(int(partes[0]))
 	if dec > 0:
-		out += "," + partes[1]
+		out += Idioma.decimal(".") + partes[1]
 	return ("-" if x < 0 else "") + out

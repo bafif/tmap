@@ -16,6 +16,8 @@ var perdidos := 0
 var sin_efecto: Array = []
 ## Los ajustes del principio: los clics en Ajustes los cambian y cada escenario los vuelve a dejar así.
 var _ajustes0 := {}
+## El idioma del principio: si un clic lo cambia, se vuelve a él antes del próximo escenario.
+var _idioma0 := ""
 
 
 func _init(interfaz: Interfaz) -> void:
@@ -30,6 +32,7 @@ func correr(solo := "") -> Dictionary:
 	Estado.sin_navegador = true
 	Estado.sin_animaciones = true
 	_ajustes0 = Estado.ajustes.duplicate()
+	_idioma0 = Idioma.actual
 	# El editor de la enciclopedia ve un borrador de prueba y no escribe nada mientras se lo recorre.
 	var borradores_antes := Edicion.dir_borradores
 	Edicion.dir_borradores = "user://recorrido/borradores/"
@@ -125,6 +128,11 @@ func _preparar(escenario: Callable) -> void:
 		Estado.ajustes_cambiados.emit()
 		if otro_tema:
 			_interfaz._cambiar_tema()
+		await _arbol.process_frame
+	if _idioma0 != "" and Idioma.actual != _idioma0:
+		Idioma.forzar(_idioma0)
+		Enciclopedia.recargar()
+		_interfaz._cambiar_idioma()
 		await _arbol.process_frame
 	for n in _interfaz.raiz.get_children():
 		if n is Bienvenida:

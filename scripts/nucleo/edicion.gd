@@ -1,4 +1,5 @@
 class_name Edicion
+## Los mensajes de validación salen en el idioma de la app (Idioma.t); los datos se escriben siempre en español.
 ## Escribir la enciclopedia desde la app: leer y guardar paquetes sin cambiar su formato, validar un elemento antes de
 ## guardarlo, armar el área de estudio de una región con el territorio de una entidad y aprobar o descartar borradores
 ## (docs/es/enciclopedia.md). Desde el código fuente (con el editor de Godot o `godot --path .`) escribe en los paquetes
@@ -8,6 +9,7 @@ class_name Edicion
 ## Secciones que se editan con formularios ↔ tipo de ficha.
 const SECCION_DE_TIPO := {"fuente": "fuentes", "persona": "personas", "hecho": "hechos", "lugar": "lugares", "region": "regiones"}
 const TIPO_DE_SECCION := {"fuentes": "fuente", "personas": "persona", "hechos": "hecho", "lugares": "lugar", "regiones": "region"}
+const TIPOS_FUENTE := ["primaria", "secundaria"]
 const TIPOS_HECHO := ["politico", "batalla", "fundacion", "religioso", "cultural", "cientifico", "economico", "desastre",
 	"tratado", "construccion", "exploracion", "revolucion", "judicial"]
 const TIPOS_LUGAR := ["ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
@@ -88,7 +90,7 @@ static func escribir(ruta: String, datos: Dictionary) -> String:
 	DirAccess.make_dir_recursive_absolute(ruta.get_base_dir())
 	var f := FileAccess.open(ruta, FileAccess.WRITE)
 	if f == null:
-		return "No se pudo escribir %s (%s)." % [ruta, error_string(FileAccess.get_open_error())]
+		return Idioma.t("No se pudo escribir %s (%s).") % [ruta, error_string(FileAccess.get_open_error())]
 	f.store_string(texto)
 	f.close()
 	return ""
@@ -97,12 +99,12 @@ static func escribir(ruta: String, datos: Dictionary) -> String:
 static func borrar(ruta: String) -> String:
 	ruta = para_leer(ruta)
 	if ruta.begins_with(Datos.DIR_LOCAL) or (ruta.begins_with("res://") and guardar_local):
-		return "Ese archivo viene dentro del programa y no se puede borrar."
+		return Idioma.t("Ese archivo viene dentro del programa y no se puede borrar.")
 	ultima_escritura = ruta
 	if Estado.sin_escribir:
 		return ""
 	var err := DirAccess.remove_absolute(ProjectSettings.globalize_path(ruta))
-	return "" if err == OK else "No se pudo borrar %s (%s)." % [ruta, error_string(err)]
+	return "" if err == OK else Idioma.t("No se pudo borrar %s (%s).") % [ruta, error_string(err)]
 
 
 ## Archivos de paquete (sin los borradores), ordenados.
@@ -136,13 +138,13 @@ static func indice(lista: Array, id: String) -> int:
 static func guardar(ruta: String, seccion: String, item: Dictionary, id_original: String) -> String:
 	var datos := leer(ruta)
 	if datos.is_empty():
-		return "No se pudo leer %s." % ruta
+		return Idioma.t("No se pudo leer %s.") % ruta
 	var lista: Array = datos.get(seccion, [])
 	var i := indice(lista, id_original if id_original != "" else str(item.get("id", "")))
 	if id_original == "" and i >= 0:
-		return "Ya hay un elemento «%s» en %s." % [item.get("id"), ruta.get_file()]
+		return Idioma.t("Ya hay un elemento «%s» en %s.") % [item.get("id"), ruta.get_file()]
 	if id_original != "" and i < 0:
-		return "«%s» ya no está en %s: ¿lo cambió otro programa?" % [id_original, ruta.get_file()]
+		return Idioma.t("«%s» ya no está en %s: ¿lo cambió otro programa?") % [id_original, ruta.get_file()]
 	if i >= 0:
 		lista[i] = item
 	else:
@@ -182,114 +184,115 @@ static func validar(seccion: String, item: Dictionary, id_original: String, extr
 	var a: Array = []
 	var id := str(item.get("id", ""))
 	if not RegEx.create_from_string("^[a-z0-9]+(-[a-z0-9]+)*$").search(id):
-		e.append("El id «%s» no sirve: van minúsculas sin tildes, números y guiones (por ejemplo «batalla-de-qadesh»)." % id)
+		e.append(Idioma.t("El id «%s» no sirve: van minúsculas sin tildes, números y guiones (por ejemplo «batalla-de-qadesh»).") % id)
 	elif id_original == "" and _existe(seccion, id, {}):
-		e.append("Ya hay un elemento con el id «%s» en %s." % [id, seccion])
+		e.append(Idioma.t("Ya hay un elemento con el id «%s» en %s.") % [id, seccion])
 	elif id_original != "" and id != id_original:
-		e.append("El id no se puede cambiar (otras fichas lo nombran).")
+		e.append(Idioma.t("El id no se puede cambiar (otras fichas lo nombran)."))
 	var titulo := "titulo" if seccion in ["fuentes", "hechos"] else "nombre"
 	if str(item.get(titulo, "") if item.get(titulo) != null else "").strip_edges() == "":
-		e.append("Falta el %s." % ("título" if titulo == "titulo" else "nombre"))
+		e.append(Idioma.t("Falta el título.") if titulo == "titulo" else Idioma.t("Falta el nombre."))
 	match seccion:
 		"fuentes":
 			if not item.get("tipo") in ["primaria", "secundaria"]:
-				e.append("El tipo tiene que ser primaria o secundaria.")
+				e.append(Idioma.t("El tipo tiene que ser primaria o secundaria."))
 			if not item.get("genero") in GENEROS:
-				a.append("Género no previsto: %s." % item.get("genero"))
+				a.append(Idioma.t("Género no previsto: %s.") % item.get("genero"))
 			var es: Dictionary = _dic(item, "escrita")
-			_anio(es.get("anio"), "Año en que se escribió", e)
-			_anio(es.get("anio_hasta"), "Hasta", e)
-			_orden(es.get("anio"), es.get("anio_hasta"), "La escritura", e)
+			_anio(es.get("anio"), Idioma.t("Año en que se escribió"), e)
+			_anio(es.get("anio_hasta"), Idioma.t("Hasta"), e)
+			_orden(es.get("anio"), es.get("anio_hasta"), Idioma.t("La escritura"), e)
 			if es.get("anio") == null:
-				a.append("Sin año de escritura: la fuente no se ubica en el tiempo.")
-			_punto(es, "Lugar de escritura", e)
+				a.append(Idioma.t("Sin año de escritura: la fuente no se ubica en el tiempo."))
+			_punto(es, Idioma.t("Lugar de escritura"), e)
 			if es.get("lon") == null:
-				a.append("Sin coordenadas del lugar de escritura: no aparece en el mapa.")
+				a.append(Idioma.t("Sin coordenadas del lugar de escritura: no aparece en el mapa."))
 			var tr: Dictionary = _dic(item, "trata")
-			_anio(tr.get("desde"), "Trata desde", e)
-			_anio(tr.get("hasta"), "Trata hasta", e)
-			_orden(tr.get("desde"), tr.get("hasta"), "La época de la que trata", e)
-			_refs(tr.get("regiones", []), "regiones", "Región", extra, e)
+			_anio(tr.get("desde"), Idioma.t("Trata desde"), e)
+			_anio(tr.get("hasta"), Idioma.t("Trata hasta"), e)
+			_orden(tr.get("desde"), tr.get("hasta"), Idioma.t("La época de la que trata"), e)
+			_refs(tr.get("regiones", []), "regiones", Idioma.t("Región"), extra, e)
 			if item.get("autor_id") != null and str(item.get("autor_id")) != "":
-				_refs([item["autor_id"]], "personas", "Autor", extra, e)
+				_refs([item["autor_id"]], "personas", Idioma.t("Autor"), extra, e)
 			for l in item.get("leer", []) if item.get("leer") is Array else []:
 				var url := str(l.get("url", "")) if l is Dictionary else ""
 				if not (url.begins_with("https://") or url.begins_with("http://")):
-					e.append("El enlace de lectura «%s» no es una URL." % url)
+					e.append(Idioma.t("El enlace de lectura «%s» no es una URL.") % url)
 				elif str(l.get("titulo", "")).strip_edges() == "":
-					a.append("Un enlace de lectura no tiene título.")
+					a.append(Idioma.t("Un enlace de lectura no tiene título."))
 			if not item.get("confianza") in CONFIANZAS:
-				a.append("Confianza no prevista: %s." % item.get("confianza"))
+				a.append(Idioma.t("Confianza no prevista: %s.") % item.get("confianza"))
 		"personas":
 			var anios: Array = []
 			for clave in ["nacimiento", "muerte"]:
 				var d: Dictionary = _dic(item, clave)
-				_anio(d.get("anio"), clave.capitalize(), e)
-				_punto(d, clave.capitalize(), e)
+				var que: String = Idioma.t("Nacimiento") if clave == "nacimiento" else Idioma.t("Muerte")
+				_anio(d.get("anio"), que, e)
+				_punto(d, que, e)
 				anios.append(d.get("anio"))
 			var ac: Dictionary = _dic(item, "activo")
-			_anio(ac.get("desde"), "Activo desde", e)
-			_anio(ac.get("hasta"), "Activo hasta", e)
-			_orden(ac.get("desde"), ac.get("hasta"), "La actividad", e)
-			_orden(anios[0], anios[1], "La vida", e)
-			_punto(ac, "Dónde trabajó", e)
+			_anio(ac.get("desde"), Idioma.t("Activo desde"), e)
+			_anio(ac.get("hasta"), Idioma.t("Activo hasta"), e)
+			_orden(ac.get("desde"), ac.get("hasta"), Idioma.t("La actividad"), e)
+			_orden(anios[0], anios[1], Idioma.t("La vida"), e)
+			_punto(ac, Idioma.t("Dónde trabajó"), e)
 			anios += [ac.get("desde"), ac.get("hasta")]
 			if anios.all(func(x): return x == null):
-				a.append("Sin ningún año: la persona no aparece en el mapa ni entre las personas vivas.")
-			_refs(item.get("obras", []), "fuentes", "Obra", extra, e)
+				a.append(Idioma.t("Sin ningún año: la persona no aparece en el mapa ni entre las personas vivas."))
+			_refs(item.get("obras", []), "fuentes", Idioma.t("Obra"), extra, e)
 			if item.get("wikidata") != null and not RegEx.create_from_string("^Q[0-9]+$").search(str(item["wikidata"])):
-				e.append("Wikidata va como Q seguido de números (Q26825).")
+				e.append(Idioma.t("Wikidata va como Q seguido de números (Q26825)."))
 		"hechos":
 			if item.get("anio") == null:
-				e.append("Falta el año.")
-			_anio(item.get("anio"), "Año", e)
-			_anio(item.get("anio_hasta"), "Hasta", e)
-			_orden(item.get("anio"), item.get("anio_hasta"), "El hecho", e)
-			_punto(item, "Lugar", e)
+				e.append(Idioma.t("Falta el año."))
+			_anio(item.get("anio"), Idioma.t("Año"), e)
+			_anio(item.get("anio_hasta"), Idioma.t("Hasta"), e)
+			_orden(item.get("anio"), item.get("anio_hasta"), Idioma.t("El hecho"), e)
+			_punto(item, Idioma.t("Lugar"), e)
 			if item.get("lon") == null:
-				a.append("Sin coordenadas: no aparece en el mapa.")
+				a.append(Idioma.t("Sin coordenadas: no aparece en el mapa."))
 			if not item.get("tipo") in TIPOS_HECHO:
-				a.append("Tipo no previsto: %s." % item.get("tipo"))
-			_refs(item.get("regiones", []), "regiones", "Región", extra, e)
-			_refs(item.get("fuentes", []), "fuentes", "Fuente", extra, e)
+				a.append(Idioma.t("Tipo no previsto: %s.") % item.get("tipo"))
+			_refs(item.get("regiones", []), "regiones", Idioma.t("Región"), extra, e)
+			_refs(item.get("fuentes", []), "fuentes", Idioma.t("Fuente"), extra, e)
 		"lugares":
-			_anio(item.get("fundacion"), "Fundación", e)
-			_anio(item.get("abandono"), "Abandono", e)
-			_orden(item.get("fundacion"), item.get("abandono"), "El lugar", e)
+			_anio(item.get("fundacion"), Idioma.t("Fundación"), e)
+			_anio(item.get("abandono"), Idioma.t("Abandono"), e)
+			_orden(item.get("fundacion"), item.get("abandono"), Idioma.t("El lugar"), e)
 			if item.get("lon") == null or item.get("lat") == null:
-				e.append("Faltan las coordenadas: un lugar sin ellas no aparece en el mapa.")
-			_punto(item, "Lugar", e)
+				e.append(Idioma.t("Faltan las coordenadas: un lugar sin ellas no aparece en el mapa."))
+			_punto(item, Idioma.t("Lugar"), e)
 			if not item.get("tipo") in TIPOS_LUGAR:
-				a.append("Tipo no previsto: %s." % item.get("tipo"))
+				a.append(Idioma.t("Tipo no previsto: %s.") % item.get("tipo"))
 			if not item.get("importancia") in [1, 2, 3, 1.0, 2.0, 3.0]:
-				e.append("La importancia va de 1 a 3.")
-			_refs(item.get("regiones", []), "regiones", "Región", extra, e)
+				e.append(Idioma.t("La importancia va de 1 a 3."))
+			_refs(item.get("regiones", []), "regiones", Idioma.t("Región"), extra, e)
 		"regiones":
 			var poli: Array = item.get("poligono", []) if item.get("poligono") is Array else []
 			if poli.size() < 3:
-				e.append("Falta el área de estudio (un polígono de al menos 3 puntos).")
+				e.append(Idioma.t("Falta el área de estudio (un polígono de al menos 3 puntos)."))
 			for p in poli:
 				if not (p is Array and p.size() == 2 and absf(float(p[0])) <= 180 and absf(float(p[1])) <= 90):
-					e.append("Un vértice del área de estudio está fuera de rango: %s." % [p])
+					e.append(Idioma.t("Un vértice del área de estudio está fuera de rango: %s.") % [p])
 					break
 			if item.get("padre") != null and str(item.get("padre")) != "":
 				if str(item["padre"]) == id:
-					e.append("Una región no puede estar dentro de sí misma.")
+					e.append(Idioma.t("Una región no puede estar dentro de sí misma."))
 				else:
-					_refs([item["padre"]], "regiones", "Región mayor", extra, e)
+					_refs([item["padre"]], "regiones", Idioma.t("Región mayor"), extra, e)
 			for era in item.get("eras", []) if item.get("eras") is Array else []:
 				var nombre := str(era.get("nombre", "")) if era is Dictionary else ""
 				if nombre.strip_edges() == "":
-					e.append("Hay una era sin nombre.")
-				_anio(era.get("desde"), "La era «%s», desde" % nombre, e)
-				_anio(era.get("hasta"), "La era «%s», hasta" % nombre, e)
-				_orden(era.get("desde"), era.get("hasta"), "La era «%s»" % nombre, e)
+					e.append(Idioma.t("Hay una era sin nombre."))
+				_anio(era.get("desde"), Idioma.t("La era «%s», desde") % nombre, e)
+				_anio(era.get("hasta"), Idioma.t("La era «%s», hasta") % nombre, e)
+				_orden(era.get("desde"), era.get("hasta"), Idioma.t("La era «%s»") % nombre, e)
 			if (item.get("eras", []) as Array).is_empty() if item.get("eras") is Array else true:
-				a.append("Sin eras: los lugares de esta región siguen contando como «sin ficha».")
+				a.append(Idioma.t("Sin eras: los lugares de esta región siguen contando como «sin ficha»."))
 			_extendida(item.get("extendida"), e)
 	var wiki: Variant = item.get("wikipedia")
 	if wiki != null and not wiki is Dictionary:
-		e.append("Wikipedia va como {\"es\": título, \"en\": título}.")
+		e.append(Idioma.t("Wikipedia va como {\"es\": título, \"en\": título}."))
 	return {"errores": e, "avisos": a}
 
 
@@ -297,17 +300,17 @@ static func _extendida(x: Variant, e: Array) -> void:
 	if x == null:
 		return
 	if not x is Dictionary:
-		e.append("La ficha extendida no tiene el formato del esquema.")
+		e.append(Idioma.t("La ficha extendida no tiene el formato del esquema."))
 		return
 	var refs := {}
 	for r in x.get("referencias", []):
 		refs[int(r.get("n", 0))] = true
 		if not str(r.get("url", "")).begins_with("http"):
-			e.append("La referencia %s de la ficha extendida no tiene URL." % r.get("n"))
+			e.append(Idioma.t("La referencia %s de la ficha extendida no tiene URL.") % r.get("n"))
 	for s in x.get("secciones", []):
 		for n in s.get("citas", []):
 			if not refs.has(int(n)):
-				e.append("La sección «%s» cita [%s], que no está en las referencias." % [s.get("titulo"), n])
+				e.append(Idioma.t("La sección «%s» cita [%s], que no está en las referencias.") % [s.get("titulo"), n])
 
 
 static func _dic(d: Dictionary, clave: String) -> Dictionary:
@@ -322,14 +325,14 @@ static func _anio(v: Variant, que: String, e: Array) -> void:
 	if v == null:
 		return
 	if not (v is int or (v is float and v == floorf(v))):
-		e.append("%s: «%s» no es un año (van enteros; antes de Cristo, negativos o con «a. C.»)." % [que, v])
+		e.append(Idioma.t("%s: «%s» no es un año (van enteros; antes de Cristo, negativos o con «a. C.»).") % [que, v])
 	elif int(v) == 0:
-		e.append("%s: no existe el año 0 (el 1 a. C. es -1 y el 1 d. C. es 1)." % que)
+		e.append(Idioma.t("%s: no existe el año 0 (el 1 a. C. es -1 y el 1 d. C. es 1).") % que)
 
 
 static func _orden(desde: Variant, hasta: Variant, que: String, e: Array) -> void:
 	if (desde is int or desde is float) and (hasta is int or hasta is float) and float(desde) > float(hasta):
-		e.append("%s termina antes de empezar." % que)
+		e.append(Idioma.t("%s termina antes de empezar.") % que)
 
 
 static func _punto(d: Dictionary, que: String, e: Array) -> void:
@@ -338,9 +341,9 @@ static func _punto(d: Dictionary, que: String, e: Array) -> void:
 	if lon == null and lat == null:
 		return
 	if not (lon is float or lon is int) or not (lat is float or lat is int):
-		e.append("%s: faltan la longitud o la latitud, o no son números." % que)
+		e.append(Idioma.t("%s: faltan la longitud o la latitud, o no son números.") % que)
 	elif absf(float(lon)) > 180 or absf(float(lat)) > 90:
-		e.append("%s: coordenadas fuera de rango (%s, %s)." % [que, lon, lat])
+		e.append(Idioma.t("%s: coordenadas fuera de rango (%s, %s).") % [que, lon, lat])
 
 
 static func _refs(ids: Variant, seccion: String, que: String, extra: Dictionary, e: Array) -> void:
@@ -348,7 +351,7 @@ static func _refs(ids: Variant, seccion: String, que: String, extra: Dictionary,
 		return
 	for id in ids:
 		if not _existe(seccion, str(id), extra):
-			e.append("%s «%s»: no existe en la enciclopedia." % [que, id])
+			e.append(Idioma.t("%s «%s»: no existe en la enciclopedia.") % [que, id])
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -418,7 +421,7 @@ static func validar_borrador(datos: Dictionary) -> Dictionary:
 			for x in r["avisos"]:
 				a.append("%s: %s" % [nombre, x])
 			if _existe(s, str(item.get("id", "")), {}):
-				e.append("%s: ya hay un elemento «%s» en la enciclopedia." % [nombre, item.get("id")])
+				e.append(Idioma.t("%s: ya hay un elemento «%s» en la enciclopedia.") % [nombre, item.get("id")])
 	return {"errores": e, "avisos": a}
 
 
@@ -428,10 +431,10 @@ static func aprobar_borrador(ruta_borrador: String, ruta_paquete: String, nota: 
 	var b := leer(ruta_borrador)
 	var d := leer(ruta_paquete)
 	if b.is_empty() or d.is_empty():
-		return "No se pudo leer el borrador o el paquete."
+		return Idioma.t("No se pudo leer el borrador o el paquete.")
 	var r := validar_borrador(b)
 	if not r["errores"].is_empty():
-		return "El borrador todavía tiene errores:\n• " + "\n• ".join(r["errores"])
+		return Idioma.t("El borrador todavía tiene errores:\n• ") + "\n• ".join(r["errores"])
 	var meta: Dictionary = b.get("borrador", {})
 	for s in TIPO_DE_SECCION:
 		var lista: Array = d.get(s, [])

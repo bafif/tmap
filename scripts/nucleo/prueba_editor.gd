@@ -45,17 +45,18 @@ func correr(interfaz: Interfaz) -> String:
 	# 3. La validación frena lo que tiene que frenar.
 	var hecho := _limpio(Enciclopedia.hechos.values()[0])
 	hecho["anio"] = 0
-	_espera_error("hechos", hecho, hecho["id"], "año 0")
+	# Los mensajes salen en el idioma de la app: se busca un pedazo del mensaje traducido.
+	_espera_error("hechos", hecho, hecho["id"], Idioma.t("%s: no existe el año 0 (el 1 a. C. es -1 y el 1 d. C. es 1).").get_slice("%s", 1))
 	var persona := _limpio(Enciclopedia.personas.values()[0])
 	persona["nombre"] = ""
 	persona["obras"] = ["no-existe"]
-	_espera_error("personas", persona, persona["id"], "Falta el nombre")
+	_espera_error("personas", persona, persona["id"], Idioma.t("Falta el nombre."))
 	_espera_error("personas", persona, persona["id"], "no-existe")
 	var lugar := _limpio(Enciclopedia.lugares.values()[0])
 	lugar.erase("lon")
-	_espera_error("lugares", lugar, lugar["id"], "coordenadas")
+	_espera_error("lugares", lugar, lugar["id"], Idioma.t("Faltan las coordenadas: un lugar sin ellas no aparece en el mapa."))
 	var repetido := _limpio(Enciclopedia.fuentes.values()[0])
-	_espera_error("fuentes", repetido, "", "Ya hay")
+	_espera_error("fuentes", repetido, "", Idioma.t("Ya hay un elemento con el id «%s» en %s.").get_slice("%s", 0))
 	if not EditorEnciclopedia._leer_anio("1274 a. C.") == -1274 or not EditorEnciclopedia._leer_anio("c. 476") == 476:
 		_falla("no entiende los años escritos con «a. C.» o «c.»")
 

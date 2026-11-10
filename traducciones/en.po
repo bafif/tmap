@@ -1,0 +1,2514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TellMAP\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Baja"
+msgstr "Low"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Media"
+msgstr "Medium"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Alta"
+msgstr "High"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Ultra"
+msgstr "Ultra"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Para equipos modestos: texturas a la mitad, sin relieve ni efectos."
+msgstr "For modest computers: half-size textures, no relief or effects."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Relieve, olas de costa y papel; bordes simples."
+msgstr "Relief, coastal waves and paper texture; simple borders."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Lo anterior más el brillo interior de las fronteras (recomendada)."
+msgstr "All of the above plus the inner glow along borders (recommended)."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Bordes más suaves y agua animada (redibuja siempre)."
+msgstr "Smoother borders and animated water (redraws constantly)."
+
+#: scripts/interfaz/ajustes.gd
+msgid "[b]Datos[/b]\n• Fronteras políticas: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Costas, lagos, ríos y países actuales: [url=https://www.naturalearthdata.com]Natural Earth[/url], dominio público.\n• Población por país: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder y ONU, World Population Prospects 2024), CC BY 4.0.\n• Relieve: GEBCO 2008 en la versión de la NASA; color del terreno: NASA Blue Marble Next Generation (julio de 2004), dominio público.\n• Textos de la enciclopedia: Wikipedia (CC BY-SA 4.0) y los paquetes propios en data/enciclopedia.\n[b]Tipografías[/b]\n• Cinzel y EB Garamond, SIL Open Font License."
+msgstr "[b]Data[/b]\n• Political borders: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Coastlines, lakes, rivers and present-day countries: [url=https://www.naturalearthdata.com]Natural Earth[/url], public domain.\n• Population by country: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder and the UN's World Population Prospects 2024), CC BY 4.0.\n• Relief: GEBCO 2008 in NASA's version; terrain color: NASA Blue Marble Next Generation (July 2004), public domain.\n• Encyclopedia texts: Wikipedia (CC BY-SA 4.0) and TellMAP's own packages in data/enciclopedia.\n[b]Typefaces[/b]\n• Cinzel and EB Garamond, SIL Open Font License."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Ajustes"
+msgstr "Settings"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Cerrar"
+msgstr "Close"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Vista"
+msgstr "View"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Mapa 2D"
+msgstr "2D map"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Relieve 3D (en preparación)"
+msgstr "3D relief (in progress)"
+
+#: scripts/interfaz/ajustes.gd
+msgid "La vista 3D con relieve, agua y efectos está planificada en docs/es/plan.md."
+msgstr "The 3D view with relief, water and effects is planned in docs/es/plan.md."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Calidad gráfica"
+msgstr "Graphics quality"
+
+#: scripts/interfaz/ajustes.gd
+msgid "La resolución de las texturas cambia al reiniciar."
+msgstr "Texture resolution changes after a restart."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Interfaz"
+msgstr "Interface"
+
+#: scripts/interfaz/ajustes.gd scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+msgid "Idioma"
+msgstr "Language"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Tema"
+msgstr "Theme"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Tamaño"
+msgstr "Size"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Español primero"
+msgstr "Spanish first"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Inglés primero"
+msgstr "English first"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Enciclopedia"
+msgstr "Encyclopedia"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Todavía no hay consultas anotadas."
+msgstr "No lookups recorded yet."
+
+#: scripts/interfaz/ajustes.gd
+msgid "%d lugar consultado sin ficha en la enciclopedia: es lo primero que conviene completar. Se anota solo en esta computadora."
+msgid_plural "%d lugares consultados sin ficha en la enciclopedia: es lo primero que conviene completar. Se anota solo en esta computadora."
+msgstr[0] "%d place looked up that has no encyclopedia entry: that's the first thing worth filling in. This is only recorded on this computer."
+msgstr[1] "%d places looked up that have no encyclopedia entry: those are the first thing worth filling in. This is only recorded on this computer."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Ver los más consultados"
+msgstr "Show the most looked up"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Ocultar la lista"
+msgstr "Hide the list"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Copiar la cola"
+msgstr "Copy the queue"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Copia la cola en JSON al portapapeles, para pegarla en un issue o dársela a tools/enciclopedia"
+msgstr "Copies the queue as JSON to the clipboard, to paste into an issue or feed to tools/enciclopedia"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Copiada"
+msgstr "Copied"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Abrir la carpeta"
+msgstr "Open the folder"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Abrir el editor de la enciclopedia"
+msgstr "Open the encyclopedia editor"
+
+#: scripts/interfaz/ajustes.gd
+msgid "%d borrador sin revisar"
+msgid_plural "%d borradores sin revisar"
+msgstr[0] "%d unreviewed draft"
+msgstr[1] "%d unreviewed drafts"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Cargar y corregir fuentes, personas, hechos, lugares y regiones, y revisar borradores"
+msgstr "Add and correct sources, people, events, places and regions, and review drafts"
+
+#: scripts/interfaz/ajustes.gd
+msgid "%d vez"
+msgid_plural "%d veces"
+msgstr[0] "%d time"
+msgstr[1] "%d times"
+
+#: scripts/interfaz/ajustes.gd scripts/interfaz/editor_enciclopedia.gd
+msgid ", hacia %s"
+msgstr ", around %s"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Ir a ese lugar y año"
+msgstr "Go to that place and year"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Datos y créditos"
+msgstr "Data and credits"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Motor de dibujo"
+msgstr "Rendering engine"
+
+#: scripts/interfaz/ajustes.gd scripts/interfaz/aviso_actualizacion.gd
+msgid "Reiniciar ahora"
+msgstr "Restart now"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Vuelve a abrir TellMAP con el motor elegido"
+msgstr "Reopens TellMAP with the chosen engine"
+
+#: scripts/interfaz/ajustes.gd
+msgid "En uso: %s"
+msgstr "In use: %s"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Si TellMAP se ve mal, este dato ayuda a encontrar el problema"
+msgstr "If TellMAP looks wrong, this helps track down the problem"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Se usa al reiniciar TellMAP, que después pregunta si se ve bien."
+msgstr "It takes effect when TellMAP restarts, and then it asks whether everything looks right."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Actualizaciones"
+msgstr "Updates"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Buscar actualizaciones al abrir TellMAP"
+msgstr "Check for updates when TellMAP opens"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Consulta la página del proyecto en GitHub y, si hay algo nuevo, pregunta antes de bajarlo."
+msgstr "Checks the project page on GitHub and, if there's something new, asks before downloading it."
+
+#: scripts/interfaz/ajustes.gd
+msgid "«Buscar ahora» instala sin preguntar. No manda nada tuyo."
+msgstr "“Check now” installs without asking. Nothing of yours is sent."
+
+#: scripts/interfaz/ajustes.gd
+msgid "Buscar ahora"
+msgstr "Check now"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Vuelve a abrir TellMAP con lo que se instaló"
+msgstr "Reopens TellMAP with what was installed"
+
+#: scripts/interfaz/ajustes.gd scripts/interfaz/aviso_actualizacion.gd
+msgid "Ir a la descarga"
+msgstr "Go to the download"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Versión %s"
+msgstr "Version %s"
+
+#: scripts/interfaz/ajustes.gd scripts/nucleo/actualizador.gd
+msgid ", datos del %s"
+msgstr ", data from %s"
+
+#: scripts/interfaz/ajustes.gd
+msgid "Desde el código fuente, TellMAP se actualiza con git: esta copia no busca versiones nuevas."
+msgstr "When run from source, TellMAP is updated with git: this copy doesn't look for new versions."
+
+#: scripts/interfaz/aviso_actualizacion.gd
+msgid "Actualizar"
+msgstr "Update"
+
+#: scripts/interfaz/aviso_actualizacion.gd
+msgid "Ahora no"
+msgstr "Not now"
+
+#: scripts/interfaz/aviso_actualizacion.gd
+msgid "Cerrar el aviso"
+msgstr "Close this notice"
+
+#: scripts/interfaz/aviso_graficos.gd
+msgid "Se ve bien"
+msgstr "It looks fine"
+
+#: scripts/interfaz/aviso_graficos.gd
+msgid "Volver al anterior"
+msgstr "Go back to the previous one"
+
+#: scripts/interfaz/aviso_graficos.gd
+msgid "Vuelve al motor de antes y reabre TellMAP"
+msgstr "Switches back to the previous engine and reopens TellMAP"
+
+#: scripts/interfaz/aviso_graficos.gd
+msgid "TellMAP dibuja ahora con el motor «%s». ¿Se ve bien? Si no contestás, en %d s vuelve al anterior y se reabre."
+msgstr "TellMAP is now drawing with the “%s” engine. Does it look fine? If you don't answer, in %d s it goes back to the previous one and reopens."
+
+#: scripts/interfaz/barra_superior.gd scripts/principal.gd
+msgid "atlas de la historia y sus fuentes"
+msgstr "an atlas of history and its sources"
+
+#: scripts/interfaz/barra_superior.gd
+msgid "Buscar entidad, lugar, persona, texto…"
+msgstr "Search for an entity, place, person, text…"
+
+#: scripts/interfaz/barra_superior.gd
+msgid "Cómo se usa"
+msgstr "How to use it"
+
+#: scripts/interfaz/barra_superior.gd
+msgid "Ajustes: calidad, vista 2D/3D, idioma, tema de la interfaz"
+msgstr "Settings: quality, 2D/3D view, language, interface theme"
+
+#: scripts/interfaz/barra_superior.gd scripts/interfaz/panel_info.gd
+msgid "Entidad política"
+msgstr "Political entity"
+
+#: scripts/interfaz/barra_superior.gd
+msgid "Sin resultados"
+msgstr "No results"
+
+#: scripts/interfaz/barras_familia.gd
+msgid "Períodos por región"
+msgstr "Periods by region"
+
+#: scripts/interfaz/barras_familia.gd
+msgid "Sin registro en ese año"
+msgstr "Nothing recorded for that year"
+
+#: scripts/interfaz/barras_familia.gd scripts/interfaz/grafico_territorio.gd
+msgid "Clic: ir a ese año"
+msgstr "Click: go to that year"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "TellMAP es una biblioteca ordenada en el espacio y el tiempo. Elegí un lugar, mové la línea de tiempo y mirá cómo cambian las fronteras y cómo aparecen los textos que se escribieron ahí, y los que otros escribieron después sobre ese lugar.\n\n[b]Cómo se usa[/b]\n• [b]Rueda[/b] del mouse para acercar; [b]arrastrar[/b] para moverse; WASD o flechas también mueven.\n• [b]Click[/b] en un lugar abre su ficha a la derecha: historia, fuentes, gente, datos.\n• La [b]línea de tiempo[/b] de abajo se arrastra; la rueda sobre ella acerca un período. Barra espaciadora: reproducir.\n• Los [color=#c9a04a]libros dorados[/color] son fuentes primarias; los [color=#7b9cc2]azules[/color], estudios posteriores.\n\n[b]Estado[/b]: versión 0.2, en desarrollo. Las fronteras cubren el mundo entero de 3400 a. C. a 2024; la enciclopedia empieza con un piloto sobre el antiguo Egipto y una muestra de otras regiones, y se va a ir completando."
+msgstr "TellMAP is a library laid out in space and time. Pick a place, move the timeline and watch the borders change and the texts appear: the ones written there, and the ones others wrote about that place later on.\n\n[b]How to use it[/b]\n• Mouse [b]wheel[/b] to zoom in; [b]drag[/b] to move around; WASD or the arrow keys move too.\n• [b]Click[/b] a place to open its entry on the right: history, sources, people, data.\n• Drag the [b]timeline[/b] at the bottom; the wheel over it zooms in on a period. Space bar: play.\n• The [color=#c9a04a]gold books[/color] are primary sources; the [color=#7b9cc2]blue[/color] ones, later studies.\n\n[b]Status[/b]: version 0.2, in development. The borders cover the whole world from 3400 BC to 2024; the encyclopedia starts with a pilot on ancient Egypt and a sample of other regions, and it will keep growing."
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Tab y Mayús+Tab"
+msgstr "Tab and Shift+Tab"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "recorrer los botones (Enter o espacio los aprieta)"
+msgstr "move through the buttons (Enter or space presses them)"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "1 a 5"
+msgstr "1 to 5"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "modos: político, terreno, religión, cultura, idioma"
+msgstr "modes: political, terrain, religion, culture, language"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Barra espaciadora"
+msgstr "Space bar"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "reproducir o pausar"
+msgstr "play or pause"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Re Pág / Av Pág (o . y ,)"
+msgstr "Page Up / Page Down (or . and ,)"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "10 años adelante o atrás; con Mayús, 1 año"
+msgstr "10 years forward or back; with Shift, 1 year"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "G"
+msgstr "G"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "ir a un año (escribirlo y Enter)"
+msgstr "go to a year (type it and press Enter)"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "/ o Ctrl+F"
+msgstr "/ or Ctrl+F"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "buscar"
+msgstr "search"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "WASD o flechas"
+msgstr "WASD or arrow keys"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "mover el mapa"
+msgstr "move the map"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "+ y -"
+msgstr "+ and -"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "acercar y alejar"
+msgstr "zoom in and out"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "[ y ]"
+msgstr "[ and ]"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "pestaña anterior y siguiente del panel"
+msgstr "previous and next tab in the panel"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Retroceso"
+msgstr "Backspace"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "volver de una ficha al lugar"
+msgstr "go back from an entry to the place"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Esc"
+msgstr "Esc"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "cerrar el panel o los ajustes"
+msgstr "close the panel or the settings"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "F1 o ?"
+msgstr "F1 or ?"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "esta ayuda"
+msgstr "this help"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Bienvenido a TellMAP"
+msgstr "Welcome to TellMAP"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Atlas de la historia y sus fuentes"
+msgstr "An atlas of history and its sources"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "[b]Teclado[/b] (todo se puede usar sin mouse; en Ajustes también hay un tema de alto contraste y la escala de la interfaz)"
+msgstr "[b]Keyboard[/b] (everything works without a mouse; Settings also has a high-contrast theme and the interface scale)"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Empezar por Egipto, 1350 a. C."
+msgstr "Start with Egypt, 1350 BC"
+
+#: scripts/interfaz/bienvenida.gd
+msgid "Explorar libremente"
+msgstr "Explore freely"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "Fuentes"
+msgstr "Sources"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/leyenda.gd
+msgid "Personas"
+msgstr "People"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/leyenda.gd
+msgid "Hechos"
+msgstr "Events"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Lugares"
+msgstr "Places"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Regiones"
+msgstr "Regions"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Borradores"
+msgstr "Drafts"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nueva fuente"
+msgstr "New source"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nueva persona"
+msgstr "New person"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nuevo hecho"
+msgstr "New event"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nuevo lugar"
+msgstr "New place"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nueva región"
+msgstr "New region"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "1 · local"
+msgstr "1 · local"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "2 · regional"
+msgstr "2 · regional"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "3 · de primer orden"
+msgstr "3 · of the first rank"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Título"
+msgstr "Title"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Id"
+msgstr "ID"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Título original"
+msgstr "Original title"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Autor"
+msgstr "Author"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Ficha del autor (id)"
+msgstr "Author's entry (ID)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Tipo"
+msgstr "Type"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Género"
+msgstr "Genre"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Confianza en la datación"
+msgstr "Confidence in the dating"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Dónde y cuándo se escribió"
+msgstr "Where and when it was written"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Año"
+msgstr "Year"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Hasta (si llevó años)"
+msgstr "Until (if it took years)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Fecha aproximada"
+msgstr "Approximate date"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd scripts/nucleo/edicion.gd
+msgid "Lugar"
+msgstr "Place"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Coordenadas"
+msgstr "Coordinates"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "De qué lugar y época trata"
+msgstr "Which place and period it's about"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Regiones (ids)"
+msgstr "Regions (IDs)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Desde"
+msgstr "From"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Hasta"
+msgstr "Until"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Descripción"
+msgstr "Description"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Idioma original"
+msgstr "Original language"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Soporte"
+msgstr "Medium"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "De qué se trata"
+msgstr "What it's about"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "Por qué leerla"
+msgstr "Why read it"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Para leer (solo enlaces comprobados)"
+msgstr "To read (checked links only)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Dominio público"
+msgstr "Public domain"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "https://…"
+msgstr "https://…"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nombre"
+msgstr "Name"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Roles (separados por comas)"
+msgstr "Roles (comma-separated)"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Nacimiento"
+msgstr "Birth"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Muerte"
+msgstr "Death"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Dónde trabajó (si no es donde nació)"
+msgstr "Where they worked (if not where they were born)"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Activo desde"
+msgstr "Active from"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Fechas aproximadas"
+msgstr "Approximate dates"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "Resumen"
+msgstr "Summary"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Obras (ids de fuentes)"
+msgstr "Works (source IDs)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Wikidata (Q…)"
+msgstr "Wikidata (Q…)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Hasta (si duró)"
+msgstr "Until (if it lasted)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Fuentes que lo documentan (ids)"
+msgstr "Sources that document it (IDs)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Importancia"
+msgstr "Importance"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Fundación"
+msgstr "Founded"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Abandono (vacío si sigue)"
+msgstr "Abandoned (empty if it still stands)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Región mayor (id)"
+msgstr "Parent region (ID)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Área de estudio"
+msgstr "Study area"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Eras"
+msgstr "Eras"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Editor de la enciclopedia"
+msgstr "Encyclopedia editor"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Cerrar el editor"
+msgstr "Close the editor"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Filtrar la lista…"
+msgstr "Filter the list…"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nuevo"
+msgstr "New"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Cargar un elemento nuevo en esta sección"
+msgstr "Add a new item to this section"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Paquete donde se guarda lo nuevo"
+msgstr "Package where new items are saved"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Validar"
+msgstr "Validate"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Descartar cambios"
+msgstr "Discard changes"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardar"
+msgstr "Save"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Las fichas de tipo «%s» no se editan acá."
+msgstr "Entries of type “%s” aren't edited here."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Lo que guardes queda en tu carpeta de usuario (%s) y tapa a los datos que trae el programa. Para sumarlo al proyecto, mandá esos archivos."
+msgstr "What you save stays in your user folder (%s) and overrides the data that ships with the program. To add it to the project, send those files."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Hay cambios sin guardar. Volvé a apretar la cruz para cerrar igual, o guardalos."
+msgstr "There are unsaved changes. Press the cross again to close anyway, or save them."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardá o descartá los cambios antes de cambiar de sección."
+msgstr "Save or discard your changes before switching sections."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Elegí un elemento de la lista o apretá «Nuevo»."
+msgstr "Pick an item from the list or press “New”."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Los borradores se arman con tools/enciclopedia/borradores.py a partir de la cola de consultas sin ficha."
+msgstr "Drafts are built with tools/enciclopedia/borradores.py from the queue of lookups with no entry."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "No encontré «%s» en %s."
+msgstr "Couldn't find “%s” in %s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid ", con IA"
+msgstr ", with AI"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "No hay borradores."
+msgstr "There are no drafts."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardá o descartá los cambios antes de abrir otro elemento."
+msgstr "Save or discard your changes before opening another item."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardá o descartá los cambios antes de empezar otro."
+msgstr "Save or discard your changes before starting another one."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Los borradores no se cargan a mano: se arman con tools/enciclopedia/borradores.py."
+msgstr "Drafts aren't entered by hand: they're built with tools/enciclopedia/borradores.py."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Ya hay un formulario nuevo abierto: completalo y guardalo."
+msgstr "There's already a new form open: fill it in and save it."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Completá el formulario; las coordenadas se pueden poner con un clic en el mapa."
+msgstr "Fill in the form; you can set the coordinates with a click on the map."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Volver al borrador"
+msgstr "Back to the draft"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardá o descartá los cambios antes de volver."
+msgstr "Save or discard your changes before going back."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Ver la ficha"
+msgstr "See the entry"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "En %s"
+msgstr "In %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardar en %s"
+msgstr "Save in %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El id no se cambia: otras fichas lo nombran."
+msgstr "The ID can't change: other entries refer to it."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "se arma solo con el nombre"
+msgstr "built automatically from the name"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "separados por comas"
+msgstr "comma-separated"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "título exacto"
+msgstr "exact title"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "-1274 o 1274 a. C."
+msgstr "-1274 or 1274 BC"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "¿año?"
+msgstr "year?"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Elegir en el mapa"
+msgstr "Pick on the map"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El próximo clic en el mapa pone estas coordenadas"
+msgstr "The next click on the map sets these coordinates"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Esperando el clic…"
+msgstr "Waiting for the click…"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Hacé clic en el mapa para ubicar «%s» (Esc cancela)."
+msgstr "Click on the map to place “%s” (Esc cancels)."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Coordenadas puestas: %s."
+msgstr "Coordinates set: %s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Ver"
+msgstr "Show"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Llevar el mapa a estas coordenadas"
+msgstr "Move the map to these coordinates"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El mapa está en %s, %s."
+msgstr "The map is at %s, %s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Todavía no hay coordenadas para «%s»."
+msgstr "There are no coordinates for “%s” yet."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Quitar esta fila"
+msgstr "Remove this row"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Agregar"
+msgstr "Add"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "%d vértices"
+msgstr "%d vertices"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Sin área"
+msgstr "No area"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Calcular con Cliopatria"
+msgstr "Compute with Cliopatria"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Envolvente de todo el territorio que tuvo la entidad del borrador o, si no hay, la del lugar elegido en el mapa"
+msgstr "Outline of all the territory the draft's entity ever held or, if there isn't one, that of the place picked on the map"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Elegí en el mapa un lugar de la entidad y volvé a apretar."
+msgstr "Pick a place belonging to the entity on the map and press again."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "%s no tiene territorio suficiente para armar un área."
+msgstr "%s doesn't have enough territory to build an area."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Área calculada con el territorio de %s: %d vértices."
+msgstr "Area computed from the territory of %s: %d vertices."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Todavía no hay área de estudio."
+msgstr "There's no study area yet."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El mapa está en el centro del área de estudio."
+msgstr "The map is at the center of the study area."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Descartado."
+msgstr "Discarded."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Cambios descartados."
+msgstr "Changes discarded."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[color=#%s][b]Hay que corregir:[/b][/color]\n• %s"
+msgstr "[color=#%s][b]Needs fixing:[/b][/color]\n• %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Avisos:[/b]\n• %s"
+msgstr "[b]Warnings:[/b]\n• %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Sin errores."
+msgstr "No errors."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Elegí en qué paquete guardarlo."
+msgstr "Pick the package to save it in."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Guardado en %s%s."
+msgstr "Saved in %s%s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid ", con %d aviso: %s"
+msgid_plural ", con %d avisos: %s"
+msgstr[0] ", with %d warning: %s"
+msgstr[1] ", with %d warnings: %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Elección en el mapa cancelada."
+msgstr "Picking on the map canceled."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Generado el %s con %s, a partir de Wikipedia y Wikidata. Estado: [b]%s[/b]."
+msgstr "Generated on %s with %s, from Wikipedia and Wikidata. Status: [b]%s[/b]."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Entidad de Cliopatria: %s%s; consultada %s veces%s."
+msgstr "Cliopatria entity: %s%s; looked up %s times%s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]La ficha extendida la redactó una IA[/b] (%s, %s) a partir de las fuentes del borrador: revisá cada afirmación contra la fuente que cita."
+msgstr "[b]The extended entry was drafted by an AI[/b] (%s, %s) from the draft's sources: check every claim against the source it cites."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Los textos que vienen de Wikipedia se publican con su licencia, CC BY-SA 4.0."
+msgstr "Texts taken from Wikipedia are published under its license, CC BY-SA 4.0."
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "Ver en el mapa"
+msgstr "See on the map"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El borrador no dice dónde se consultó."
+msgstr "The draft doesn't say where it was looked up."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El mapa está donde se consultó."
+msgstr "The map is where it was looked up."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Calcular el área de «%s»"
+msgstr "Compute the area of “%s”"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Contenido"
+msgstr "Contents"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Revisar y editar"
+msgstr "Review and edit"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Ficha extendida de %s"
+msgstr "Extended entry for %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Referencias[/b]\n"
+msgstr "[b]References[/b]\n"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Para revisar (lo marcó la verificación automática):[/b]\n"
+msgstr "[b]To review (flagged by the automatic check):[/b]\n"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Fuentes que propone para leer[/b] (se cargan a mano con «Nuevo» en Fuentes):\n"
+msgstr "[b]Sources it suggests reading[/b] (add them by hand with “New” in Sources):\n"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Lo que no pudo respaldar y quedó afuera:[/b]\n• "
+msgstr "[b]What it couldn't back up and left out:[/b]\n• "
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Revisión"
+msgstr "Review"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[color=#%s][b]Antes de aprobar hay que corregir:[/b][/color]\n• %s"
+msgstr "[color=#%s][b]Fix before approving:[/b][/color]\n• %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "[b]Avisos:[/b]\n• "
+msgstr "[b]Warnings:[/b]\n• "
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Revisé cada dato y cada sección contra sus fuentes"
+msgstr "I checked every fact and every section against its sources"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nota de la revisión (quién, qué se corrigió)"
+msgstr "Review note (who, what was fixed)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Pasar a %s"
+msgstr "Move to %s"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Aprobar"
+msgstr "Approve"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Borrador aprobado: sus elementos pasaron a %s."
+msgstr "Draft approved: its items moved to %s."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Descartar el borrador"
+msgstr "Discard the draft"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "¿Seguro? Apretá otra vez"
+msgstr "Sure? Press again"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Borrador descartado."
+msgstr "Draft discarded."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Revisá cada elemento (se abren con un clic) y la ficha extendida antes de aprobar."
+msgstr "Review each item (a click opens it) and the extended entry before approving."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "No encontré la entidad del borrador: elegí un lugar suyo en el mapa y volvé a apretar."
+msgstr "Couldn't find the draft's entity: pick one of its places on the map and press again."
+
+#: scripts/interfaz/globo_mapa.gd
+msgid "Marcadores juntos · click para acercarse y separarlos"
+msgstr "Grouped markers · click to zoom in and spread them out"
+
+#: scripts/interfaz/globo_mapa.gd
+msgid "%s · click para ver la ficha"
+msgstr "%s · click to see its entry"
+
+#: scripts/interfaz/globo_mapa.gd scripts/interfaz/panel_info.gd
+msgid "Sin entidad política registrada"
+msgstr "No political entity recorded"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "Estimaciones de población"
+msgstr "Population estimates"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "(escala logarítmica)"
+msgstr "(logarithmic scale)"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "Pasá el mouse por un punto para ver su fuente."
+msgstr "Hover over a point to see its source."
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "~%s habitantes"
+msgstr "~%s inhabitants"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "(entre %s y %s)"
+msgstr "(between %s and %s)"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "Fuente: %s"
+msgstr "Source: %s"
+
+#: scripts/interfaz/grafico_serie.gd
+msgid "sin fuente"
+msgstr "no source"
+
+#: scripts/interfaz/grafico_serie.gd scripts/interfaz/panel_info.gd scripts/nucleo/demografia.gd
+msgid "%s millones"
+msgstr "%s million"
+
+#: scripts/interfaz/grafico_territorio.gd
+msgid "Superficie a lo largo del tiempo"
+msgstr "Area over time"
+
+#: scripts/interfaz/grafico_territorio.gd
+msgid "%s: sin territorio en los datos"
+msgstr "%s: no territory in the data"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Nombres de entidades"
+msgstr "Entity names"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Ciudades y sitios"
+msgstr "Cities and sites"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Fuentes escritas"
+msgstr "Written sources"
+
+#: scripts/interfaz/leyenda.gd
+msgid "En el mapa"
+msgstr "On the map"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Sin datos para este año en las regiones cargadas."
+msgstr "No data for this year in the loaded regions."
+
+#: scripts/interfaz/leyenda.gd
+msgid "En %s.\nClic: ficha de %s"
+msgstr "In %s.\nClick to open the entry for %s"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Ver menos"
+msgstr "Show less"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Ver las %d restantes"
+msgstr "Show the other %d"
+
+#: scripts/interfaz/leyenda.gd
+msgid "Rayado del color: zona sin entidad política registrada ese año. Rayado gris: regiones todavía sin datos."
+msgstr "Hatched in color: area with no political entity recorded that year. Gray hatching: regions with no data yet."
+
+#: scripts/interfaz/leyenda.gd
+msgid "Fronteras de Cliopatria (Seshat, CC BY 4.0). Click en un lugar para estudiarlo."
+msgstr "Borders from Cliopatria (Seshat, CC BY 4.0). Click a place to study it."
+
+#: scripts/interfaz/leyenda.gd
+msgid "Relieve, ríos y costas. Las fronteras quedan tenues."
+msgstr "Relief, rivers and coastlines. Borders are kept faint."
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "100 años atrás"
+msgstr "100 years back"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "10 años atrás (Mayús: 1 año)"
+msgstr "10 years back (Shift: 1 year)"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "Reproducir (barra espaciadora)"
+msgstr "Play (space bar)"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "10 años adelante (Mayús: 1 año)"
+msgstr "10 years forward (Shift: 1 year)"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "100 años adelante"
+msgstr "100 years forward"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "%d años/s"
+msgstr "%d years/s"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "Velocidad de reproducción"
+msgstr "Playback speed"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "Ir a año…"
+msgstr "Go to year…"
+
+#: scripts/interfaz/linea_tiempo.gd
+msgid "Escribí un año: «-1350», «1350 a. C.» o «1810»"
+msgstr "Type a year: “-1350”, “1350 BC” or “1810”"
+
+#: scripts/interfaz/linea_tiempo.gd scripts/interfaz/panel_info.gd
+msgid "Eras de %s"
+msgstr "Eras of %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Historia"
+msgstr "History"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Gente y hechos"
+msgstr "People and events"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Datos"
+msgstr "Data"
+
+#: scripts/interfaz/panel_info.gd scripts/nucleo/edicion.gd
+msgid "Fuente"
+msgstr "Source"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Persona"
+msgstr "Person"
+
+#: scripts/interfaz/panel_info.gd scripts/interfaz/pista_tiempo.gd
+msgid "Hecho"
+msgstr "Event"
+
+#: scripts/interfaz/panel_info.gd scripts/nucleo/edicion.gd
+msgid "Región"
+msgstr "Region"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Familia"
+msgstr "Family"
+
+#: scripts/interfaz/panel_info.gd
+msgid "religioso"
+msgstr "religious"
+
+#: scripts/interfaz/panel_info.gd
+msgid "historia"
+msgstr "history"
+
+#: scripts/interfaz/panel_info.gd
+msgid "crónica"
+msgstr "chronicle"
+
+#: scripts/interfaz/panel_info.gd
+msgid "literatura"
+msgstr "literature"
+
+#: scripts/interfaz/panel_info.gd
+msgid "poesía"
+msgstr "poetry"
+
+#: scripts/interfaz/panel_info.gd
+msgid "filosofía"
+msgstr "philosophy"
+
+#: scripts/interfaz/panel_info.gd
+msgid "legal"
+msgstr "legal"
+
+#: scripts/interfaz/panel_info.gd
+msgid "administrativo"
+msgstr "administrative"
+
+#: scripts/interfaz/panel_info.gd
+msgid "epistolar"
+msgstr "letters"
+
+#: scripts/interfaz/panel_info.gd
+msgid "inscripción"
+msgstr "inscription"
+
+#: scripts/interfaz/panel_info.gd
+msgid "geografía"
+msgstr "geography"
+
+#: scripts/interfaz/panel_info.gd
+msgid "ciencia"
+msgstr "science"
+
+#: scripts/interfaz/panel_info.gd
+msgid "medicina"
+msgstr "medicine"
+
+#: scripts/interfaz/panel_info.gd
+msgid "sabiduría"
+msgstr "wisdom literature"
+
+#: scripts/interfaz/panel_info.gd
+msgid "viajes"
+msgstr "travel"
+
+#: scripts/interfaz/panel_info.gd
+msgid "ensayo"
+msgstr "essay"
+
+#: scripts/interfaz/panel_info.gd
+msgid "arqueología"
+msgstr "archaeology"
+
+#: scripts/interfaz/panel_info.gd
+msgid "economía"
+msgstr "economics"
+
+#: scripts/interfaz/panel_info.gd
+msgid "política"
+msgstr "politics"
+
+#: scripts/interfaz/panel_info.gd
+msgid "manifiesto"
+msgstr "manifesto"
+
+#: scripts/interfaz/panel_info.gd
+msgid "discurso"
+msgstr "speech"
+
+#: scripts/interfaz/panel_info.gd
+msgid "tecnología"
+msgstr "technology"
+
+#: scripts/interfaz/panel_info.gd
+msgid "periodismo"
+msgstr "journalism"
+
+#: scripts/interfaz/panel_info.gd
+msgid "político"
+msgstr "political"
+
+#: scripts/interfaz/panel_info.gd
+msgid "batalla"
+msgstr "battle"
+
+#: scripts/interfaz/panel_info.gd
+msgid "fundación"
+msgstr "founding"
+
+#: scripts/interfaz/panel_info.gd
+msgid "cultural"
+msgstr "cultural"
+
+#: scripts/interfaz/panel_info.gd
+msgid "científico"
+msgstr "scientific"
+
+#: scripts/interfaz/panel_info.gd
+msgid "económico"
+msgstr "economic"
+
+#: scripts/interfaz/panel_info.gd
+msgid "desastre"
+msgstr "disaster"
+
+#: scripts/interfaz/panel_info.gd
+msgid "tratado"
+msgstr "treaty"
+
+#: scripts/interfaz/panel_info.gd
+msgid "construcción"
+msgstr "construction"
+
+#: scripts/interfaz/panel_info.gd
+msgid "exploración"
+msgstr "exploration"
+
+#: scripts/interfaz/panel_info.gd
+msgid "revolución"
+msgstr "revolution"
+
+#: scripts/interfaz/panel_info.gd
+msgid "judicial"
+msgstr "judicial"
+
+#: scripts/interfaz/panel_info.gd
+msgid "ciudad"
+msgstr "city"
+
+#: scripts/interfaz/panel_info.gd
+msgid "capital"
+msgstr "capital"
+
+#: scripts/interfaz/panel_info.gd
+msgid "templo"
+msgstr "temple"
+
+#: scripts/interfaz/panel_info.gd
+msgid "puerto"
+msgstr "port"
+
+#: scripts/interfaz/panel_info.gd
+msgid "sitio arqueológico"
+msgstr "archaeological site"
+
+#: scripts/interfaz/panel_info.gd
+msgid "biblioteca"
+msgstr "library"
+
+#: scripts/interfaz/panel_info.gd
+msgid "universidad"
+msgstr "university"
+
+#: scripts/interfaz/panel_info.gd
+msgid "laboratorio"
+msgstr "laboratory"
+
+#: scripts/interfaz/panel_info.gd
+msgid "institución"
+msgstr "institution"
+
+#: scripts/interfaz/panel_info.gd
+msgid "sitio histórico"
+msgstr "historic site"
+
+#: scripts/interfaz/panel_info.gd
+msgid "alta"
+msgstr "high"
+
+#: scripts/interfaz/panel_info.gd
+msgid "media"
+msgstr "medium"
+
+#: scripts/interfaz/panel_info.gd
+msgid "baja"
+msgstr "low"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Volver al lugar"
+msgstr "Back to the place"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Cerrar (Esc)"
+msgstr "Close (Esc)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Sin entidad registrada"
+msgstr "No entity recorded"
+
+#: scripts/interfaz/panel_info.gd
+msgid "La entidad"
+msgstr "The entity"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Parte de: %s"
+msgstr "Part of: %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ficha de la entidad: territorio, lugares y fuentes"
+msgstr "Entity entry: territory, places and sources"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Cliopatria no registra una entidad política aquí en %s Puede tratarse de pueblos sin estado, de territorio poco documentado o de un hueco de los datos."
+msgstr "Cliopatria records no political entity here in %s It may be stateless peoples, a poorly documented area or a gap in the data."
+
+#: scripts/interfaz/panel_info.gd
+msgid "La región: %s"
+msgstr "The region: %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Leer la historia completa de %s"
+msgstr "Read the full history of %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ver %d fuente para este lugar y época"
+msgid_plural "Ver %d fuentes para este lugar y época"
+msgstr[0] "See %d source for this place and period"
+msgstr[1] "See %d sources for this place and period"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Quién gobernó este lugar"
+msgstr "Who ruled this place"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Cliopatria no registra entidades políticas para este punto."
+msgstr "Cliopatria records no political entities for this point."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Escritas aquí, en esta época"
+msgstr "Written here, in this period"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Textos producidos en la región entre %s y %s"
+msgstr "Texts produced in the region between %s and %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[i]Todavía no hay fuentes cargadas para este lugar y momento.[/i]"
+msgstr "[i]No sources have been added for this place and time yet.[/i]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Sobre este lugar y esta época"
+msgstr "About this place and period"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Textos de cualquier época que estudian o narran este lugar en %s"
+msgstr "Texts from any period that study or narrate this place in %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[i]Todavía no hay estudios cargados para este lugar y momento.[/i]"
+msgstr "[i]No studies have been added for this place and time yet.[/i]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Este punto no está dentro de ninguna región de la enciclopedia todavía. La enciclopedia se completa por etapas: ver docs/es/enciclopedia.md."
+msgstr "This point isn't inside any encyclopedia region yet. The encyclopedia is filled in stages: see docs/es/enciclopedia.md."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Personas vivas en %s"
+msgstr "People alive in %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[i]No hay personas cargadas para este lugar y año.[/i]"
+msgstr "[i]No people have been added for this place and year.[/i]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Hechos cercanos (±100 años)"
+msgstr "Nearby events (±100 years)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[i]No hay hechos cargados cerca de este año.[/i]"
+msgstr "[i]No events have been added near this year.[/i]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "%s en este punto"
+msgstr "%s at this point"
+
+#: scripts/interfaz/panel_info.gd
+msgid "No hay datos de %s para este punto en %s"
+msgstr "No %s data for this point in %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ficha: %s"
+msgstr "Entry: %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Qué es, dónde está en cada época y sus fuentes"
+msgstr "What it is, where it is in each period and its sources"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Este lugar"
+msgstr "This place"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Coordenadas: %s\nSuperficie de la unidad del mapa: ~%s km²"
+msgstr "Coordinates: %s\nArea of the map unit: ~%s km²"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Entidad: [b][url=entidad:%d]%s[/url][/b], %s %s"
+msgstr "Entity: [b][url=entidad:%d]%s[/url][/b], %s %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "interpolada entre estimaciones, "
+msgstr "interpolated between estimates, "
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Población estimada:[/b] ~%s habitantes [color=#%s](%sfuente: %s)[/color]"
+msgstr "[b]Estimated population:[/b] ~%s inhabitants [color=#%s](%ssource: %s)[/color]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Testimonio antiguo:[/b] %s dice ~%s habitantes hacia %s. [color=#%s]%s[/color]"
+msgstr "[b]Ancient testimony:[/b] %s gives ~%s inhabitants around %s. [color=#%s]%s[/color]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Las cifras antiguas son estimaciones académicas con mucha incertidumbre; cada una cita su fuente."
+msgstr "Ancient figures are scholarly estimates with a lot of uncertainty; each one cites its source."
+
+#: scripts/interfaz/panel_info.gd
+msgid "País actual: %s"
+msgstr "Present-day country: %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Con las fronteras de hoy; el último dato publicado hasta %s"
+msgstr "Within today's borders; the latest figure published up to %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Mundo: %s (%s)."
+msgstr "World: %s (%s)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Fuente: %s."
+msgstr "Source: %s."
+
+#: scripts/interfaz/panel_info.gd
+msgid "%s de %s"
+msgstr "%s in %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "%s Fuente: %s, vía Our World in Data (CC BY 4.0)."
+msgstr "%s Source: %s, via Our World in Data (CC BY 4.0)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "No encontrado"
+msgstr "Not found"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Editar esta ficha"
+msgstr "Edit this entry"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Abrir en el editor de la enciclopedia"
+msgstr "Open in the encyclopedia editor"
+
+#: scripts/interfaz/panel_info.gd scripts/interfaz/pista_tiempo.gd
+msgid "Fuente primaria"
+msgstr "Primary source"
+
+#: scripts/interfaz/panel_info.gd scripts/interfaz/pista_tiempo.gd
+msgid "Fuente secundaria"
+msgstr "Secondary source"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Autor:[/b] %s"
+msgstr "[b]Author:[/b] %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Título original:[/b] [i]%s[/i]"
+msgstr "[b]Original title:[/b] [i]%s[/i]"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Escrita:[/b] %s%s, %s"
+msgstr "[b]Written:[/b] %s%s, %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "lugar desconocido"
+msgstr "unknown place"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Trata sobre:[/b] %s, %s"
+msgstr "[b]About:[/b] %s, %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Idioma:[/b] %s"
+msgstr "[b]Language:[/b] %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Soporte:[/b] %s"
+msgstr "[b]Medium:[/b] %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Confianza en la datación:[/b] %s"
+msgstr "[b]Confidence in the dating:[/b] %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Leer"
+msgstr "Read"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Texto"
+msgstr "Text"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ver dónde y cuándo se escribió"
+msgstr "See where and when it was written"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Nació:[/b] %s%s, %s"
+msgstr "[b]Born:[/b] %s%s, %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Murió:[/b] %s%s, %s"
+msgstr "[b]Died:[/b] %s%s, %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Obras"
+msgstr "Works"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Fuentes que lo documentan"
+msgstr "Sources that document it"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ir a ese momento y lugar"
+msgstr "Go to that time and place"
+
+#: scripts/interfaz/panel_info.gd
+msgid "hoy"
+msgstr "today"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Región de estudio"
+msgstr "Study region"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Referencias"
+msgstr "References"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Redactada con IA (%s) a partir de las fuentes citadas%s."
+msgstr "Drafted with AI (%s) from the sources cited%s."
+
+#: scripts/interfaz/panel_info.gd
+msgid "; revisada por una persona el %s"
+msgstr "; reviewed by a person on %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid ", sin revisión humana todavía"
+msgstr ", not yet reviewed by a person"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]Familia mayor:[/b] %s"
+msgstr "[b]Parent family:[/b] %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Incluye"
+msgstr "Includes"
+
+#: scripts/interfaz/panel_info.gd
+msgid "sin datos en el mapa"
+msgstr "no data on the map"
+
+#: scripts/interfaz/panel_info.gd
+msgid "%d región"
+msgid_plural "%d regiones"
+msgstr[0] "%d region"
+msgstr[1] "%d regions"
+
+#: scripts/interfaz/panel_info.gd
+msgid "No aparece en las regiones cargadas en este año."
+msgstr "It doesn't appear in the loaded regions this year."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ir a %s, cuando sí aparece"
+msgstr "Go to %s, when it does appear"
+
+#: scripts/interfaz/panel_info.gd
+msgid "%s: %s, %s\nClic: ver la región en el mapa"
+msgstr "%s: %s, %s\nClick: see the region on the map"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ver en el mapa (modo %s)"
+msgstr "See on the map (%s mode)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Esta familia no se pinta directo en el mapa: sus áreas son las de las familias que incluye, cada una con su color."
+msgstr "This family isn't painted directly on the map: its areas are those of the families it includes, each in its own color."
+
+#: scripts/interfaz/panel_info.gd
+msgid "A lo largo del tiempo"
+msgstr "Over time"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Más intenso: mayoritaria; más claro: importante o minoritaria. Clic en las barras para ir a ese año."
+msgstr "Stronger: majority; lighter: significant or minority. Click the bars to go to that year."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Notas"
+msgstr "Notes"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Todavía no hay regiones cargadas con esta religión."
+msgstr "No regions with this religion have been added yet."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Todavía no hay regiones cargadas con esta cultura."
+msgstr "No regions with this culture have been added yet."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Todavía no hay regiones cargadas con este idioma."
+msgstr "No regions with this language have been added yet."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Fuentes de esas regiones y épocas"
+msgstr "Sources from those regions and periods"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Y %d más en la pestaña Fuentes de cada región."
+msgstr "And %d more in each region's Sources tab."
+
+#: scripts/interfaz/panel_info.gd
+msgid "entidad %d"
+msgstr "entity %d"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Entidad política · %s"
+msgstr "Political entity · %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "[b]En %s:[/b] ~%s km² (resaltado en el mapa)"
+msgstr "[b]In %s:[/b] ~%s km² (highlighted on the map)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Centrar el mapa en su territorio"
+msgstr "Center the map on its territory"
+
+#: scripts/interfaz/panel_info.gd
+msgid "En %s no tiene territorio en los datos."
+msgstr "In %s it has no territory in the data."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ver en el mapa político"
+msgstr "See on the political map"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Territorio a lo largo del tiempo"
+msgstr "Territory over time"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Máxima extensión en los datos: ~%s km², hacia %s Clic en el gráfico para ir a un año."
+msgstr "Largest extent in the data: ~%s km², around %s Click the chart to go to a year."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ir a %s, su máxima extensión"
+msgstr "Go to %s, its largest extent"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Fronteras de Cliopatria (Seshat). %s"
+msgstr "Borders from Cliopatria (Seshat). %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Lugares de su territorio"
+msgstr "Places in its territory"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Hechos en su territorio"
+msgstr "Events in its territory"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Fuentes escritas en su territorio"
+msgstr "Sources written in its territory"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Y %d más."
+msgstr "And %d more."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Todavía no hay lugares, hechos ni fuentes de la enciclopedia dentro de su territorio."
+msgstr "There are no encyclopedia places, events or sources within its territory yet."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Primaria"
+msgstr "Primary"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Secundaria"
+msgstr "Secondary"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ficha"
+msgstr "Entry"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Buscando el artículo…"
+msgstr "Looking up the article…"
+
+#: scripts/interfaz/panel_info.gd
+msgid "No se pudo traer el artículo (¿sin conexión?)."
+msgstr "Couldn't fetch the article (no connection?)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "De «[url=%s]%s[/url]», Wikipedia en español (CC BY-SA 4.0)."
+msgstr "From “[url=%s]%s[/url]”, Spanish Wikipedia (CC BY-SA 4.0)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "De «[url=%s]%s[/url]», Wikipedia en inglés (CC BY-SA 4.0)."
+msgstr "From “[url=%s]%s[/url]”, English Wikipedia (CC BY-SA 4.0)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "fechas desconocidas"
+msgstr "dates unknown"
+
+#: scripts/interfaz/panel_info.gd
+msgid "activo c. %s"
+msgstr "active c. %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "m. %s"
+msgstr "d. %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "n. %s"
+msgstr "b. %s"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Edad del Bronce"
+msgstr "Bronze Age"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Edad del Hierro"
+msgstr "Iron Age"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Antigüedad clásica"
+msgstr "Classical antiquity"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Edad Media"
+msgstr "Middle Ages"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Edad Moderna"
+msgstr "Early modern period"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Edad Contemporánea"
+msgstr "Late modern period"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Periodización europea, orientativa"
+msgstr "European periodization, as a rough guide"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "%s.\nArrastrá para elegir el año · rueda: acercar o alejar · botón derecho: desplazar · doble click: todo el período."
+msgstr "%s.\nDrag to pick the year · wheel: zoom in or out · right button: pan · double click: the whole period."
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "y %d más (acercá la pista con la rueda)"
+msgstr "and %d more (zoom in on the track with the wheel)"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Clic: abrir la ficha de la primera"
+msgstr "Click: open the first one's entry"
+
+#: scripts/interfaz/pista_tiempo.gd
+msgid "Clic: abrir la ficha"
+msgstr "Click: open its entry"
+
+#: scripts/interfaz/tema.gd
+msgid "Mármol y bronce"
+msgstr "Marble and bronze"
+
+#: scripts/interfaz/tema.gd
+msgid "Pergamino iluminado"
+msgstr "Illuminated parchment"
+
+#: scripts/interfaz/tema.gd
+msgid "Tinta y latón"
+msgstr "Ink and brass"
+
+#: scripts/interfaz/tema.gd
+msgid "Alto contraste"
+msgstr "High contrast"
+
+#: scripts/mapa/capa_marcadores.gd
+msgid "%d juntos: %s"
+msgstr "%d together: %s"
+
+#: scripts/mapa/capa_marcadores.gd
+msgid " y %d más"
+msgstr " and %d more"
+
+#: scripts/nucleo/actualizador.gd
+msgid "Desde el código fuente, TellMAP se actualiza con git."
+msgstr "When run from source, TellMAP is updated with git."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Buscando actualizaciones…"
+msgstr "Checking for updates…"
+
+#: scripts/nucleo/actualizador.gd
+msgid "Actualizando: %s…"
+msgstr "Updating: %s…"
+
+#: scripts/nucleo/actualizador.gd
+msgid "Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora»."
+msgstr "Postponed: %s. It will be offered again next time you open TellMAP, or right now with “Check now”."
+
+#: scripts/nucleo/actualizador.gd
+msgid "No se pudo actualizar: %s"
+msgstr "Couldn't update: %s"
+
+#: scripts/nucleo/actualizador.gd
+msgid "no se pudo leer el manifiesto (%s)."
+msgstr "couldn't read the manifest (%s)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "el manifiesto no es un JSON válido."
+msgstr "the manifest isn't valid JSON."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Hay una versión nueva de TellMAP que hay que bajar a mano."
+msgstr "There's a new version of TellMAP that has to be downloaded by hand."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Hay una actualización: %s."
+msgstr "There's an update: %s."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Hay una actualización: %s. ¿La instalo?"
+msgstr "There's an update: %s. Install it?"
+
+#: scripts/nucleo/actualizador.gd
+msgid "datos del %s"
+msgstr "data from %s"
+
+#: scripts/nucleo/actualizador.gd
+msgid " y "
+msgstr " and "
+
+#: scripts/nucleo/actualizador.gd
+msgid "TellMAP %s quedó instalada: se abre la próxima vez."
+msgstr "TellMAP %s is installed: it opens next time."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Hay una versión nueva, TellMAP %s: bajala de su página."
+msgstr "There's a new version, TellMAP %s: download it from its page."
+
+#: scripts/nucleo/actualizador.gd
+msgid "TellMAP está al día: versión %s%s."
+msgstr "TellMAP is up to date: version %s%s."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Bajando TellMAP %s…"
+msgstr "Downloading TellMAP %s…"
+
+#: scripts/nucleo/actualizador.gd
+msgid "no se pudo bajar la versión %s (%s)."
+msgstr "couldn't download version %s (%s)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "la versión %s que se bajó no coincide con la publicada (sha256)."
+msgstr "the downloaded version %s doesn't match the published one (sha256)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "no se pudo reemplazar el ejecutable (%s)."
+msgstr "couldn't replace the executable (%s)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "Bajando datos nuevos: %d de %d archivos…"
+msgstr "Downloading new data: %d of %d files…"
+
+#: scripts/nucleo/actualizador.gd
+msgid "no se pudo bajar %s (%s)."
+msgstr "couldn't download %s (%s)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "%s no coincide con lo publicado (sha256)."
+msgstr "%s doesn't match what was published (sha256)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "no se pudo guardar %s (%s)."
+msgstr "couldn't save %s (%s)."
+
+#: scripts/nucleo/actualizador.gd
+msgid "se ven al volver a abrir TellMAP"
+msgstr "they show up when you reopen TellMAP"
+
+#: scripts/nucleo/actualizador.gd
+msgid "ya están en el mapa"
+msgstr "they're already on the map"
+
+#: scripts/nucleo/actualizador.gd
+msgid "Datos del %s instalados (%d archivo nuevo): %s."
+msgid_plural "Datos del %s instalados (%d archivos nuevos): %s."
+msgstr[0] "Data from %s installed (%d new file): %s."
+msgstr[1] "Data from %s installed (%d new files): %s."
+
+#: scripts/nucleo/actualizador.gd
+msgid "sin conexión"
+msgstr "no connection"
+
+#: scripts/nucleo/actualizador.gd
+msgid "error %d de HTTPRequest"
+msgstr "HTTPRequest error %d"
+
+#: scripts/nucleo/datos.gd
+msgid "Esa versión de los datos ya está instalada."
+msgstr "That data version is already installed."
+
+#: scripts/nucleo/datos.gd
+msgid "No se pudo instalar %s (%s)."
+msgstr "Couldn't install %s (%s)."
+
+#: scripts/nucleo/datos.gd
+msgid "no coincide su sha256"
+msgstr "its sha256 doesn't match"
+
+#: scripts/nucleo/datos.gd scripts/nucleo/edicion.gd
+msgid "No se pudo escribir %s (%s)."
+msgstr "Couldn't write %s (%s)."
+
+#: scripts/nucleo/datos.gd
+msgid "No se pudo activar la versión nueva (%s)."
+msgstr "Couldn't activate the new version (%s)."
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Falta data/mapa/politico.json: corré el pipeline (tools/pipeline/README.md)."
+msgstr "data/mapa/politico.json is missing: run the pipeline (tools/pipeline/README.md)."
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Leyendo las fronteras de 5400 años…"
+msgstr "Reading 5,400 years of borders…"
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Leyendo las unidades del mapa…"
+msgstr "Reading the map units…"
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Pintando el terreno…"
+msgstr "Painting the terrain…"
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "No se pudo leer %s"
+msgstr "Couldn't read %s"
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Levantando montañas y ríos…"
+msgstr "Raising mountains and rivers…"
+
+#: scripts/nucleo/datos_mapa.gd
+msgid "Preparando la línea de tiempo…"
+msgstr "Preparing the timeline…"
+
+#: scripts/nucleo/demografia.gd
+msgid "Mundo"
+msgstr "World"
+
+#: scripts/nucleo/demografia.gd data/demografia/paises.json
+msgid "habitantes"
+msgstr "inhabitants"
+
+#: scripts/nucleo/edicion.gd
+msgid "Ese archivo viene dentro del programa y no se puede borrar."
+msgstr "That file ships inside the program and can't be deleted."
+
+#: scripts/nucleo/edicion.gd
+msgid "No se pudo borrar %s (%s)."
+msgstr "Couldn't delete %s (%s)."
+
+#: scripts/nucleo/edicion.gd
+msgid "No se pudo leer %s."
+msgstr "Couldn't read %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "Ya hay un elemento «%s» en %s."
+msgstr "There's already an item “%s” in %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "«%s» ya no está en %s: ¿lo cambió otro programa?"
+msgstr "“%s” is no longer in %s: did another program change it?"
+
+#: scripts/nucleo/edicion.gd
+msgid "El id «%s» no sirve: van minúsculas sin tildes, números y guiones (por ejemplo «batalla-de-qadesh»)."
+msgstr "The ID “%s” won't work: use lowercase letters without accents, numbers and hyphens (for example “batalla-de-qadesh”)."
+
+#: scripts/nucleo/edicion.gd
+msgid "Ya hay un elemento con el id «%s» en %s."
+msgstr "There's already an item with the ID “%s” in %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "El id no se puede cambiar (otras fichas lo nombran)."
+msgstr "The ID can't be changed (other entries refer to it)."
+
+#: scripts/nucleo/edicion.gd
+msgid "Falta el título."
+msgstr "The title is missing."
+
+#: scripts/nucleo/edicion.gd
+msgid "Falta el nombre."
+msgstr "The name is missing."
+
+#: scripts/nucleo/edicion.gd
+msgid "El tipo tiene que ser primaria o secundaria."
+msgstr "The type has to be primary or secondary."
+
+#: scripts/nucleo/edicion.gd
+msgid "Género no previsto: %s."
+msgstr "Unexpected genre: %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "Año en que se escribió"
+msgstr "Year it was written"
+
+#: scripts/nucleo/edicion.gd
+msgid "La escritura"
+msgstr "The writing"
+
+#: scripts/nucleo/edicion.gd
+msgid "Sin año de escritura: la fuente no se ubica en el tiempo."
+msgstr "No year of writing: the source can't be placed in time."
+
+#: scripts/nucleo/edicion.gd
+msgid "Lugar de escritura"
+msgstr "Place of writing"
+
+#: scripts/nucleo/edicion.gd
+msgid "Sin coordenadas del lugar de escritura: no aparece en el mapa."
+msgstr "No coordinates for the place of writing: it won't show on the map."
+
+#: scripts/nucleo/edicion.gd
+msgid "Trata desde"
+msgstr "About, from"
+
+#: scripts/nucleo/edicion.gd
+msgid "Trata hasta"
+msgstr "About, until"
+
+#: scripts/nucleo/edicion.gd
+msgid "La época de la que trata"
+msgstr "The period it covers"
+
+#: scripts/nucleo/edicion.gd
+msgid "El enlace de lectura «%s» no es una URL."
+msgstr "The reading link “%s” isn't a URL."
+
+#: scripts/nucleo/edicion.gd
+msgid "Un enlace de lectura no tiene título."
+msgstr "A reading link has no title."
+
+#: scripts/nucleo/edicion.gd
+msgid "Confianza no prevista: %s."
+msgstr "Unexpected confidence: %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "Activo hasta"
+msgstr "Active until"
+
+#: scripts/nucleo/edicion.gd
+msgid "La actividad"
+msgstr "The activity"
+
+#: scripts/nucleo/edicion.gd
+msgid "La vida"
+msgstr "The life"
+
+#: scripts/nucleo/edicion.gd
+msgid "Dónde trabajó"
+msgstr "Where they worked"
+
+#: scripts/nucleo/edicion.gd
+msgid "Sin ningún año: la persona no aparece en el mapa ni entre las personas vivas."
+msgstr "No years at all: the person won't show on the map or among the people alive."
+
+#: scripts/nucleo/edicion.gd
+msgid "Obra"
+msgstr "Work"
+
+#: scripts/nucleo/edicion.gd
+msgid "Wikidata va como Q seguido de números (Q26825)."
+msgstr "Wikidata goes as a Q followed by digits (Q26825)."
+
+#: scripts/nucleo/edicion.gd
+msgid "Falta el año."
+msgstr "The year is missing."
+
+#: scripts/nucleo/edicion.gd
+msgid "El hecho"
+msgstr "The event"
+
+#: scripts/nucleo/edicion.gd
+msgid "Sin coordenadas: no aparece en el mapa."
+msgstr "No coordinates: it won't show on the map."
+
+#: scripts/nucleo/edicion.gd
+msgid "Tipo no previsto: %s."
+msgstr "Unexpected type: %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "Abandono"
+msgstr "Abandonment"
+
+#: scripts/nucleo/edicion.gd
+msgid "El lugar"
+msgstr "The place"
+
+#: scripts/nucleo/edicion.gd
+msgid "Faltan las coordenadas: un lugar sin ellas no aparece en el mapa."
+msgstr "The coordinates are missing: a place without them won't show on the map."
+
+#: scripts/nucleo/edicion.gd
+msgid "La importancia va de 1 a 3."
+msgstr "Importance goes from 1 to 3."
+
+#: scripts/nucleo/edicion.gd
+msgid "Falta el área de estudio (un polígono de al menos 3 puntos)."
+msgstr "The study area is missing (a polygon with at least 3 points)."
+
+#: scripts/nucleo/edicion.gd
+msgid "Un vértice del área de estudio está fuera de rango: %s."
+msgstr "A vertex of the study area is out of range: %s."
+
+#: scripts/nucleo/edicion.gd
+msgid "Una región no puede estar dentro de sí misma."
+msgstr "A region can't be inside itself."
+
+#: scripts/nucleo/edicion.gd
+msgid "Región mayor"
+msgstr "Parent region"
+
+#: scripts/nucleo/edicion.gd
+msgid "Hay una era sin nombre."
+msgstr "There's an era without a name."
+
+#: scripts/nucleo/edicion.gd
+msgid "La era «%s», desde"
+msgstr "The era “%s”, from"
+
+#: scripts/nucleo/edicion.gd
+msgid "La era «%s», hasta"
+msgstr "The era “%s”, until"
+
+#: scripts/nucleo/edicion.gd
+msgid "La era «%s»"
+msgstr "The era “%s”"
+
+#: scripts/nucleo/edicion.gd
+msgid "Sin eras: los lugares de esta región siguen contando como «sin ficha»."
+msgstr "No eras: places in this region still count as “no entry”."
+
+#: scripts/nucleo/edicion.gd
+msgid "Wikipedia va como {\"es\": título, \"en\": título}."
+msgstr "Wikipedia goes as {\"es\": title, \"en\": title}."
+
+#: scripts/nucleo/edicion.gd
+msgid "La ficha extendida no tiene el formato del esquema."
+msgstr "The extended entry doesn't follow the schema's format."
+
+#: scripts/nucleo/edicion.gd
+msgid "La referencia %s de la ficha extendida no tiene URL."
+msgstr "Reference %s in the extended entry has no URL."
+
+#: scripts/nucleo/edicion.gd
+msgid "La sección «%s» cita [%s], que no está en las referencias."
+msgstr "The section “%s” cites [%s], which isn't among the references."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: «%s» no es un año (van enteros; antes de Cristo, negativos o con «a. C.»)."
+msgstr "%s: “%s” isn't a year (use whole numbers; BC years negative or with “BC”)."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: no existe el año 0 (el 1 a. C. es -1 y el 1 d. C. es 1)."
+msgstr "%s: there's no year 0 (1 BC is -1 and AD 1 is 1)."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s termina antes de empezar."
+msgstr "%s ends before it starts."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: faltan la longitud o la latitud, o no son números."
+msgstr "%s: the longitude or latitude is missing, or isn't a number."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: coordenadas fuera de rango (%s, %s)."
+msgstr "%s: coordinates out of range (%s, %s)."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s «%s»: no existe en la enciclopedia."
+msgstr "%s “%s”: doesn't exist in the encyclopedia."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: ya hay un elemento «%s» en la enciclopedia."
+msgstr "%s: there's already an item “%s” in the encyclopedia."
+
+#: scripts/nucleo/edicion.gd
+msgid "No se pudo leer el borrador o el paquete."
+msgstr "Couldn't read the draft or the package."
+
+#: scripts/nucleo/edicion.gd
+msgid "El borrador todavía tiene errores:\n• "
+msgstr "The draft still has errors:\n• "
+
+#: scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+msgid "Religión"
+msgstr "Religion"
+
+#: scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+msgid "Cultura"
+msgstr "Culture"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "mayoritaria"
+msgstr "majority"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "importante"
+msgstr "significant"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "minoritaria"
+msgstr "minority"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "siempre"
+msgstr "always"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "hasta %s"
+msgstr "until %s"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "desde %s"
+msgstr "from %s"
+
+#: scripts/nucleo/enciclopedia.gd
+msgid "Lugar sin entidad (%s, %s)"
+msgstr "Place with no entity (%s, %s)"
+
+#: scripts/nucleo/estado.gd
+msgid "Político"
+msgstr "Political"
+
+#: scripts/nucleo/estado.gd
+msgid "Entidades políticas y sus fronteras (Cliopatria)"
+msgstr "Political entities and their borders (Cliopatria)"
+
+#: scripts/nucleo/estado.gd
+msgid "Terreno"
+msgstr "Terrain"
+
+#: scripts/nucleo/estado.gd
+msgid "Relieve, ríos y costas, sin colores políticos"
+msgstr "Relief, rivers and coastlines, without political colors"
+
+#: scripts/nucleo/estado.gd
+msgid "Religión mayoritaria (solo regiones con datos)"
+msgstr "Majority religion (only regions with data)"
+
+#: scripts/nucleo/estado.gd
+msgid "Cultura mayoritaria (solo regiones con datos)"
+msgstr "Majority culture (only regions with data)"
+
+#: scripts/nucleo/estado.gd
+msgid "Idioma mayoritario (solo regiones con datos)"
+msgstr "Majority language (only regions with data)"
+
+#: scripts/nucleo/fechas.gd
+msgid "%s a. C."
+msgstr "%s BC"
+
+#: scripts/nucleo/fechas.gd
+msgid "%d d. C."
+msgstr "AD %d"
+
+#: scripts/nucleo/fechas.gd
+msgid "%s–%s a. C."
+msgstr "%s–%s BC"
+
+#: scripts/nucleo/motor.gd
+msgid "Automático"
+msgstr "Automatic"
+
+#: scripts/nucleo/motor.gd
+msgid "Lo que mejor anda en cada sistema: Vulkan en Linux y Windows (OpenGL si no hay Vulkan) y OpenGL en Mac."
+msgstr "Whatever works best on each system: Vulkan on Linux and Windows (OpenGL if there's no Vulkan) and OpenGL on Mac."
+
+#: scripts/nucleo/motor.gd
+msgid "Compatible (OpenGL)"
+msgstr "Compatible (OpenGL)"
+
+#: scripts/nucleo/motor.gd
+msgid "Anda en casi cualquier computadora. Elegilo si TellMAP se ve en negro, con manchas o sin mapa."
+msgstr "Works on almost any computer. Pick it if TellMAP shows a black screen, blotches or no map."
+
+#: scripts/nucleo/motor.gd
+msgid "Avanzado (Vulkan)"
+msgstr "Advanced (Vulkan)"
+
+#: scripts/nucleo/motor.gd
+msgid "El motor moderno de Godot (en Mac, sobre Metal). En algunas Mac con gráficos Intel se ve en negro."
+msgstr "Godot's modern engine (on Mac, on top of Metal). On some Macs with Intel graphics it shows a black screen."
+
+#: scripts/nucleo/motor.gd
+msgid "%s (%s, sin pantalla)"
+msgstr "%s (%s, no display)"
+
+#: scripts/principal.gd
+msgid "No se pudo cargar el mapa: %s"
+msgstr "Couldn't load the map: %s"
+
+#: scripts/principal.gd
+msgid "Abriendo la biblioteca…"
+msgstr "Opening the library…"
+
+#: data/demografia/paises.json
+msgid "Población"
+msgstr "Population"
+
+#: data/demografia/paises.json
+msgid "Habitantes dentro de las fronteras actuales del país."
+msgstr "People living within the country's present-day borders."
+
+#: data/demografia/paises.json
+msgid "Esperanza de vida al nacer"
+msgstr "Life expectancy at birth"
+
+#: data/demografia/paises.json
+msgid "años"
+msgstr "years"
+
+#: data/demografia/paises.json
+msgid "Años que viviría en promedio quien nace ese año, si se mantuviera la mortalidad de ese año."
+msgstr "Years a person born that year would live on average if that year's mortality rates held."
+
+#: data/demografia/paises.json
+msgid "Hijos por mujer"
+msgstr "Children per woman"
+
+#: data/demografia/paises.json
+msgid "hijos"
+msgstr "children"
+
+#: data/demografia/paises.json
+msgid "Hijos que tendría en promedio una mujer a lo largo de su vida con la fecundidad de ese año."
+msgstr "Children a woman would have on average over her lifetime at that year's fertility rates."
+
+#: data/demografia/paises.json
+msgid "Mueren antes de los 5 años"
+msgstr "Die before age 5"
+
+#: data/demografia/paises.json
+msgid "Porcentaje de los nacidos que muere antes de cumplir cinco años."
+msgstr "Share of children born who die before their fifth birthday."
+
+#: data/demografia/paises.json
+msgid "Edad mediana"
+msgstr "Median age"
+
+#: data/demografia/paises.json
+msgid "La mitad de la población es más joven que esta edad y la otra mitad, mayor."
+msgstr "Half the population is younger than this age and the other half older."
+
+#: data/demografia/paises.json
+msgid "Población urbana"
+msgstr "Urban population"
+
+#: data/demografia/paises.json
+msgid "Porcentaje de la población que vive en ciudades (antes de 1950, estimación de HYDE)."
+msgstr "Share of the population living in cities (before 1950, HYDE's estimate)."
+
+#: data/demografia/paises.json
+msgid "PIB per cápita"
+msgstr "GDP per capita"
+
+#: data/demografia/paises.json
+msgid "US$ de 2011"
+msgstr "2011 US$"
+
+#: data/demografia/paises.json
+msgid "Producto por habitante en dólares internacionales de 2011 (paridad de poder adquisitivo), Maddison."
+msgstr "Output per person in 2011 international dollars (purchasing power parity), Maddison."
+
+#: data/demografia/paises.json
+msgid "Pobreza extrema"
+msgstr "Extreme poverty"
+
+#: data/demografia/paises.json
+msgid "Porcentaje que vive con menos de 3 dólares por día (paridad de poder adquisitivo de 2021), según las encuestas de hogares del Banco Mundial."
+msgstr "Share living on less than $3 a day (2021 purchasing power parity), from World Bank household surveys."
+
+#: data/demografia/paises.json
+msgid "Adultos alfabetizados"
+msgstr "Literate adults"
+
+#: data/demografia/paises.json
+msgid "Porcentaje de los adultos que sabe leer y escribir."
+msgstr "Share of adults who can read and write."
+
+#: data/demografia/paises.json
+msgid "Años de escolaridad promedio"
+msgstr "Average years of schooling"
+
+#: data/demografia/paises.json
+msgid "Años de escuela promedio de la población de 15 a 64 años."
+msgstr "Average years of schooling of people aged 15 to 64."
+
+#: data/demografia/paises.json
+msgid "Nacidos en otro país"
+msgstr "Born in another country"
+
+#: data/demografia/paises.json
+msgid "Porcentaje de la población nacida en otro país (stock de inmigrantes de la ONU)."
+msgstr "Share of the population born in another country (UN international migrant stock)."

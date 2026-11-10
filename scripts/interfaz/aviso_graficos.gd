@@ -23,14 +23,14 @@ func _ready() -> void:
 	_texto.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	fila.add_child(_texto)
 	var bien := Button.new()
-	bien.text = "Se ve bien"
+	bien.text = tr("Se ve bien")
 	bien.pressed.connect(func():
 		MotorGrafico.confirmar()
 		queue_free())
 	fila.add_child(bien)
 	var volver := Button.new()
-	volver.text = "Volver al anterior"
-	volver.tooltip_text = "Vuelve al motor de antes y reabre TellMAP"
+	volver.text = tr("Volver al anterior")
+	volver.tooltip_text = tr("Vuelve al motor de antes y reabre TellMAP")
 	volver.pressed.connect(_volver)
 	fila.add_child(volver)
 	var reloj := Timer.new()
@@ -47,8 +47,8 @@ func _ready() -> void:
 
 
 func _escribir() -> void:
-	_texto.text = "TellMAP dibuja ahora con el motor «%s». ¿Se ve bien? Si no contestás, en %d s vuelve al anterior y se reabre." % [
-		MotorGrafico.OPCIONES[MotorGrafico.elegido()][0], _quedan]
+	_texto.text = tr("TellMAP dibuja ahora con el motor «%s». ¿Se ve bien? Si no contestás, en %d s vuelve al anterior y se reabre.") % [
+		tr(MotorGrafico.OPCIONES[MotorGrafico.elegido()][0]), _quedan]
 
 
 func _volver() -> void:

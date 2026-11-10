@@ -3,12 +3,14 @@ extends Control
 ## Editor de la enciclopedia: formularios para fuentes, personas, hechos, lugares y regiones, coordenadas con un clic en
 ## el mapa, validación al guardar y revisión de los borradores (docs/es/enciclopedia.md). Escribe los JSON de
 ## data/enciclopedia/paquetes con el mismo formato que tienen (ver Edicion): el diff muestra solo lo cambiado.
-## Va a la izquierda, para dejar el mapa y el panel de fichas a la vista.
+## Va a la izquierda, para dejar el mapa y el panel de fichas a la vista. Las etiquetas de las constantes están en
+## español y se traducen con tr() al mostrarlas; los datos se editan siempre en español, como están en los paquetes.
 
 const ANCHO := 560.0
 const SECCIONES := [["fuentes", "Fuentes"], ["personas", "Personas"], ["hechos", "Hechos"], ["lugares", "Lugares"],
 	["regiones", "Regiones"], ["borradores", "Borradores"]]
-const SINGULAR := {"fuentes": "fuente", "personas": "persona", "hechos": "hecho", "lugares": "lugar", "regiones": "región"}
+const TITULO_NUEVO := {"fuentes": "Nueva fuente", "personas": "Nueva persona", "hechos": "Nuevo hecho", "lugares": "Nuevo lugar",
+	"regiones": "Nueva región"}
 ## Objetos que vuelven a null si se vacían todos sus campos.
 const OPCIONALES := ["nacimiento", "muerte", "activo"]
 const IMPORTANCIAS := [[1, "1 · local"], [2, "2 · regional"], [3, "3 · de primer orden"]]
@@ -23,7 +25,7 @@ const CAMPOS := {
 		["titulo_original", "Título original", "texto"],
 		["autor", "Autor", "texto"],
 		["autor_id", "Ficha del autor (id)", "ref", "personas"],
-		["tipo", "Tipo", "opcion", ["primaria", "secundaria"]],
+		["tipo", "Tipo", "opcion", "TIPOS_FUENTE"],
 		["genero", "Género", "opcion", "GENEROS"],
 		["confianza", "Confianza en la datación", "opcion", "CONFIANZAS"],
 		["", "Dónde y cuándo se escribió", "titulo"],
@@ -162,11 +164,11 @@ func _ready() -> void:
 	var cab := HBoxContainer.new()
 	caja.add_child(cab)
 	var titulo := Label.new()
-	titulo.text = "Editor de la enciclopedia"
+	titulo.text = tr("Editor de la enciclopedia")
 	titulo.theme_type_variation = "TituloGrande"
 	titulo.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	cab.add_child(titulo)
-	_cerrar = IconosUI.boton("cerrar", "Cerrar el editor", 18)
+	_cerrar = IconosUI.boton("cerrar", tr("Cerrar el editor"), 18)
 	_cerrar.pressed.connect(_al_cerrar)
 	cab.add_child(_cerrar)
 
@@ -176,7 +178,7 @@ func _ready() -> void:
 	var grupo := ButtonGroup.new()
 	for s in SECCIONES:
 		var b := Button.new()
-		b.text = s[1]
+		b.text = tr(s[1])
 		b.toggle_mode = true
 		b.button_group = grupo
 		b.theme_type_variation = "Pestana"
@@ -190,13 +192,13 @@ func _ready() -> void:
 	var busca := HBoxContainer.new()
 	caja.add_child(busca)
 	_filtro = LineEdit.new()
-	_filtro.placeholder_text = "Filtrar la lista…"
+	_filtro.placeholder_text = tr("Filtrar la lista…")
 	_filtro.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_filtro.text_changed.connect(func(_t): _llenar_lista())
 	busca.add_child(_filtro)
 	var nuevo := Button.new()
-	nuevo.text = "Nuevo"
-	nuevo.tooltip_text = "Cargar un elemento nuevo en esta sección"
+	nuevo.text = tr("Nuevo")
+	nuevo.tooltip_text = tr("Cargar un elemento nuevo en esta sección")
 	nuevo.pressed.connect(_al_nuevo)
 	busca.add_child(nuevo)
 
@@ -232,19 +234,19 @@ func _ready() -> void:
 	_donde.clip_text = true
 	_pie.add_child(_donde)
 	_paquete = OptionButton.new()
-	_paquete.tooltip_text = "Paquete donde se guarda lo nuevo"
+	_paquete.tooltip_text = tr("Paquete donde se guarda lo nuevo")
 	_paquete.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_pie.add_child(_paquete)
 	_boton_validar = Button.new()
-	_boton_validar.text = "Validar"
+	_boton_validar.text = tr("Validar")
 	_boton_validar.pressed.connect(func(): _validar(true))
 	_pie.add_child(_boton_validar)
 	_boton_descartar = Button.new()
-	_boton_descartar.text = "Descartar cambios"
+	_boton_descartar.text = tr("Descartar cambios")
 	_boton_descartar.pressed.connect(_al_descartar)
 	_pie.add_child(_boton_descartar)
 	_boton_guardar = Button.new()
-	_boton_guardar.text = "Guardar"
+	_boton_guardar.text = tr("Guardar")
 	_boton_guardar.pressed.connect(_al_guardar)
 	_pie.add_child(_boton_guardar)
 	_panel.add_child(Marco.new())
@@ -257,11 +259,11 @@ func abrir(tipo := "", id := "") -> void:
 	_confirmar_cierre = false
 	var seccion: String = Edicion.SECCION_DE_TIPO.get(tipo, "fuentes" if tipo == "" else "")
 	if seccion == "":
-		_mensaje("Las fichas de tipo «%s» no se editan acá." % tipo)
+		_mensaje(tr("Las fichas de tipo «%s» no se editan acá.") % tipo)
 		return
 	_cambiar_seccion(seccion, id)
 	if Edicion.guardar_local:
-		_mensaje("Lo que guardes queda en tu carpeta de usuario (%s) y tapa a los datos que trae el programa. Para sumarlo al proyecto, mandá esos archivos." % ProjectSettings.globalize_path(Edicion.DIR_LOCAL))
+		_mensaje(tr("Lo que guardes queda en tu carpeta de usuario (%s) y tapa a los datos que trae el programa. Para sumarlo al proyecto, mandá esos archivos.") % ProjectSettings.globalize_path(Edicion.DIR_LOCAL))
 
 
 func cerrar() -> void:
@@ -277,14 +279,14 @@ func esta_sucio() -> bool:
 func _al_cerrar() -> void:
 	if esta_sucio() and not _confirmar_cierre:
 		_confirmar_cierre = true
-		_mensaje("Hay cambios sin guardar. Volvé a apretar la cruz para cerrar igual, o guardalos.", true)
+		_mensaje(tr("Hay cambios sin guardar. Volvé a apretar la cruz para cerrar igual, o guardalos."), true)
 		return
 	cerrar()
 
 
 func _cambiar_seccion(seccion: String, id := "") -> void:
 	if esta_sucio():
-		_mensaje("Guardá o descartá los cambios antes de cambiar de sección.", true)
+		_mensaje(tr("Guardá o descartá los cambios antes de cambiar de sección."), true)
 		_botones_seccion[_seccion].button_pressed = true
 		return
 	_seccion = seccion
@@ -293,8 +295,8 @@ func _cambiar_seccion(seccion: String, id := "") -> void:
 	_vaciar()
 	_llenar_lista()
 	if id == "":
-		_mensaje("Elegí un elemento de la lista o apretá «Nuevo»." if seccion != "borradores" else
-			"Los borradores se arman con tools/enciclopedia/borradores.py a partir de la cola de consultas sin ficha.")
+		_mensaje(tr("Elegí un elemento de la lista o apretá «Nuevo».") if seccion != "borradores" else
+			tr("Los borradores se arman con tools/enciclopedia/borradores.py a partir de la cola de consultas sin ficha."))
 		return
 	for i in _filas_lista.size():
 		if _filas_lista[i][1] == id:
@@ -303,7 +305,7 @@ func _cambiar_seccion(seccion: String, id := "") -> void:
 			_indice_lista = i
 			_abrir(_filas_lista[i][0], seccion, id)
 			return
-	_mensaje("No encontré «%s» en %s." % [id, seccion], true)
+	_mensaje(tr("No encontré «%s» en %s.") % [id, seccion], true)
 
 
 func _llenar_lista() -> void:
@@ -315,12 +317,12 @@ func _llenar_lista() -> void:
 		for ruta in Edicion.borradores():
 			var meta: Dictionary = Edicion.leer(ruta).get("borrador", {})
 			var texto := "%s   · %s%s" % [meta.get("titulo", ruta.get_file()), meta.get("estado", "sin revisar"),
-				", con IA" if meta.get("ia") is Dictionary else ""]
+				tr(", con IA") if meta.get("ia") is Dictionary else ""]
 			if filtro == "" or texto.to_lower().contains(filtro):
 				_lista.add_item(texto)
 				_filas_lista.append([ruta, ""])
 		if _filas_lista.is_empty():
-			_lista.add_item("No hay borradores.")
+			_lista.add_item(tr("No hay borradores."))
 			_lista.set_item_disabled(0, true)
 			_filas_lista.append(["", ""])
 		return
@@ -337,7 +339,7 @@ func _al_elegir(i: int) -> void:
 	if i >= _filas_lista.size() or _filas_lista[i][0] == "":
 		return
 	if esta_sucio():
-		_mensaje("Guardá o descartá los cambios antes de abrir otro elemento.", true)
+		_mensaje(tr("Guardá o descartá los cambios antes de abrir otro elemento."), true)
 		if _indice_lista >= 0:
 			_lista.select(_indice_lista)
 		else:
@@ -371,7 +373,7 @@ func _abrir(ruta: String, seccion: String, id: String, desde_borrador := false) 
 	var lista: Array = Edicion.leer(ruta).get(seccion, [])
 	var i := Edicion.indice(lista, id)
 	if i < 0:
-		_mensaje("No encontré «%s» en %s." % [id, ruta.get_file()], true)
+		_mensaje(tr("No encontré «%s» en %s.") % [id, ruta.get_file()], true)
 		return
 	_vaciar()
 	_ruta = ruta
@@ -386,13 +388,13 @@ func _abrir(ruta: String, seccion: String, id: String, desde_borrador := false) 
 
 func _al_nuevo() -> void:
 	if esta_sucio():
-		_mensaje("Guardá o descartá los cambios antes de empezar otro.", true)
+		_mensaje(tr("Guardá o descartá los cambios antes de empezar otro."), true)
 		return
 	if _seccion == "borradores":
-		_mensaje("Los borradores no se cargan a mano: se arman con tools/enciclopedia/borradores.py.", true)
+		_mensaje(tr("Los borradores no se cargan a mano: se arman con tools/enciclopedia/borradores.py."), true)
 		return
 	if _seccion_form == _seccion and _id_original == "":
-		_mensaje("Ya hay un formulario nuevo abierto: completalo y guardalo.")
+		_mensaje(tr("Ya hay un formulario nuevo abierto: completalo y guardalo."))
 		return
 	_vaciar()
 	_lista.deselect_all()
@@ -405,7 +407,7 @@ func _al_nuevo() -> void:
 	_id_auto = true
 	_desde_borrador = false
 	_construir_formulario()
-	_mensaje("Completá el formulario; las coordenadas se pueden poner con un clic en el mapa.")
+	_mensaje(tr("Completá el formulario; las coordenadas se pueden poner con un clic en el mapa."))
 
 
 func _construir_formulario() -> void:
@@ -418,23 +420,22 @@ func _construir_formulario() -> void:
 	_form.add_child(cab)
 	var t := Label.new()
 	t.theme_type_variation = "Titulo"
-	t.text = ("Nueva %s" if _seccion_form in ["personas", "regiones"] else "Nuevo %s") % SINGULAR[_seccion_form] if nuevo else \
-		"%s «%s»" % [SINGULAR[_seccion_form].capitalize(), _id_original]
+	t.text = tr(TITULO_NUEVO[_seccion_form]) if nuevo else "%s «%s»" % [_nombre_seccion(_seccion_form), _id_original]
 	t.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	t.clip_text = true
 	cab.add_child(t)
 	if _desde_borrador:
 		var volver := Button.new()
-		volver.text = "Volver al borrador"
+		volver.text = tr("Volver al borrador")
 		volver.pressed.connect(func():
 			if esta_sucio():
-				_mensaje("Guardá o descartá los cambios antes de volver.", true)
+				_mensaje(tr("Guardá o descartá los cambios antes de volver."), true)
 			else:
 				_mostrar_borrador(_ruta))
 		cab.add_child(volver)
 	elif not nuevo:
 		var ficha := Button.new()
-		ficha.text = "Ver la ficha"
+		ficha.text = tr("Ver la ficha")
 		ficha.pressed.connect(func(): Estado.pedir_ficha(Edicion.TIPO_DE_SECCION[_seccion_form], _id_original))
 		cab.add_child(ficha)
 	for campo in CAMPOS[_seccion_form]:
@@ -442,12 +443,12 @@ func _construir_formulario() -> void:
 	_pie.visible = true
 	_paquete.visible = nuevo
 	_donde.visible = not nuevo
-	_donde.text = "En %s" % _ruta.get_file()
+	_donde.text = tr("En %s") % _ruta.get_file()
 	if nuevo:
 		_paquete.clear()
 		for p in Edicion.paquetes():
 			if p.get_file() != "familias.json":
-				_paquete.add_item("Guardar en %s" % p.get_file())
+				_paquete.add_item(tr("Guardar en %s") % p.get_file())
 				_paquete.set_item_metadata(_paquete.item_count - 1, p)
 		for i in _paquete.item_count:
 			if str(_paquete.get_item_metadata(i)).get_file() == "mundo.json":
@@ -457,7 +458,7 @@ func _construir_formulario() -> void:
 
 func _campo(c: Array) -> void:
 	var ruta: String = c[0]
-	var etiqueta: String = c[1]
+	var etiqueta: String = tr(c[1])
 	var tipo: String = c[2]
 	var extra: Variant = c[3] if c.size() > 3 else null
 	var actual: Variant = _valor(_copia, ruta)
@@ -471,12 +472,12 @@ func _campo(c: Array) -> void:
 			if _id_original != "":
 				var l := Label.new()
 				l.text = _id_original
-				l.tooltip_text = "El id no se cambia: otras fichas lo nombran."
+				l.tooltip_text = tr("El id no se cambia: otras fichas lo nombran.")
 				_fila(etiqueta, l)
 			else:
 				_id_edit = LineEdit.new()
 				_id_edit.text = str(actual) if actual != null else ""
-				_id_edit.placeholder_text = "se arma solo con el nombre"
+				_id_edit.placeholder_text = tr("se arma solo con el nombre")
 				_id_edit.text_changed.connect(func(_t):
 					_id_auto = false
 					_al_cambiar())
@@ -528,12 +529,12 @@ func _campo(c: Array) -> void:
 			if tipo == "importancia":
 				for par in IMPORTANCIAS:
 					valores.append(par[0])
-					ob.add_item(par[1])
+					ob.add_item(tr(par[1]))
 			else:
 				var opciones: Array = (Edicion as Script).get_script_constant_map()[extra] if extra is String else extra
 				for v in opciones:
 					valores.append(v)
-					ob.add_item(str(v))
+					ob.add_item(_nombre_opcion(v))
 				if actual != null and not _texto_valor(actual) in opciones:
 					valores.append(_texto_valor(actual))
 					ob.add_item(_texto_valor(actual))
@@ -548,7 +549,7 @@ func _campo(c: Array) -> void:
 		"lista", "refs":
 			var le := LineEdit.new()
 			le.text = ", ".join(PackedStringArray(actual if actual is Array else []))
-			le.placeholder_text = "separados por comas"
+			le.placeholder_text = tr("separados por comas")
 			le.text_changed.connect(func(_t): _al_cambiar())
 			_fila(etiqueta, le)
 			_campos.append(func(d: Dictionary):
@@ -568,7 +569,7 @@ func _campo(c: Array) -> void:
 				fila.add_child(l)
 				var le := LineEdit.new()
 				le.text = str(base.get(lengua, ""))
-				le.placeholder_text = "título exacto"
+				le.placeholder_text = tr("título exacto")
 				le.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 				le.text_changed.connect(func(_t): _al_cambiar())
 				fila.add_child(le)
@@ -609,7 +610,7 @@ func _fila(etiqueta: String, control: Control) -> void:
 func _entrada_anio(actual: Variant, ayuda_texto: String, fila: HBoxContainer) -> LineEdit:
 	var le := LineEdit.new()
 	le.text = "" if actual == null else (str(int(actual)) if actual is float or actual is int else str(actual))
-	le.placeholder_text = ayuda_texto if ayuda_texto != "" else "-1274 o 1274 a. C."
+	le.placeholder_text = ayuda_texto if ayuda_texto != "" else tr("-1274 o 1274 a. C.")
 	le.custom_minimum_size = Vector2(96, 0)
 	fila.add_child(le)
 	var ayuda := Label.new()
@@ -617,7 +618,7 @@ func _entrada_anio(actual: Variant, ayuda_texto: String, fila: HBoxContainer) ->
 	fila.add_child(ayuda)
 	var mostrar := func():
 		var n: Variant = _leer_anio(le.text)
-		ayuda.text = "" if n == null else (Fechas.texto(n) if n is int and n != 0 else "¿año?")
+		ayuda.text = "" if n == null else (Fechas.texto(n) if n is int and n != 0 else tr("¿año?"))
 	mostrar.call()
 	le.text_changed.connect(func(_t):
 		mostrar.call()
@@ -641,29 +642,29 @@ func _campo_punto(ruta: String, etiqueta: String) -> void:
 	var lon: LineEdit = entradas[0]
 	var lat: LineEdit = entradas[1]
 	var elegir := Button.new()
-	elegir.text = "Elegir en el mapa"
-	elegir.tooltip_text = "El próximo clic en el mapa pone estas coordenadas"
+	elegir.text = tr("Elegir en el mapa")
+	elegir.tooltip_text = tr("El próximo clic en el mapa pone estas coordenadas")
 	elegir.pressed.connect(func():
-		elegir.text = "Esperando el clic…"
-		_mensaje("Hacé clic en el mapa para ubicar «%s» (Esc cancela)." % etiqueta)
+		elegir.text = tr("Esperando el clic…")
+		_mensaje(tr("Hacé clic en el mapa para ubicar «%s» (Esc cancela).") % etiqueta)
 		Estado.captura_punto = func(ll: Vector2):
 			if not is_instance_valid(lon):
 				return
 			lon.text = str(snappedf(ll.x, 0.001))
 			lat.text = str(snappedf(ll.y, 0.001))
-			elegir.text = "Elegir en el mapa"
-			_mensaje("Coordenadas puestas: %s." % Proyeccion.texto_coordenadas(ll))
+			elegir.text = tr("Elegir en el mapa")
+			_mensaje(tr("Coordenadas puestas: %s.") % Proyeccion.texto_coordenadas(ll))
 			_al_cambiar())
 	fila.add_child(elegir)
 	var ver := Button.new()
-	ver.text = "Ver"
-	ver.tooltip_text = "Llevar el mapa a estas coordenadas"
+	ver.text = tr("Ver")
+	ver.tooltip_text = tr("Llevar el mapa a estas coordenadas")
 	ver.pressed.connect(func():
 		if lon.text.is_valid_float() and lat.text.is_valid_float():
 			Estado.enfocar(Proyeccion.a_px(lon.text.to_float(), lat.text.to_float()), 2.5)
-			_mensaje("El mapa está en %s, %s." % [lat.text, lon.text])
+			_mensaje(tr("El mapa está en %s, %s.") % [lat.text, lon.text])
 		else:
-			_mensaje("Todavía no hay coordenadas para «%s»." % etiqueta))
+			_mensaje(tr("Todavía no hay coordenadas para «%s».") % etiqueta))
 	fila.add_child(ver)
 	_fila(etiqueta, fila)
 	_campos.append(func(d: Dictionary):
@@ -719,7 +720,7 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 					aplicadores.append(func(fd: Dictionary):
 						var t := le.text.strip_edges()
 						_poner(fd, clave, null if t == "" else t, t == ""))
-		var quitar := IconosUI.boton("cerrar", "Quitar esta fila", 14)
+		var quitar := IconosUI.boton("cerrar", tr("Quitar esta fila"), 14)
 		var i_fila: int = idx
 		quitar.pressed.connect(func():
 			_aplicar()
@@ -733,7 +734,7 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 			return fila_d)
 		_form.add_child(caja)
 	var agregar := Button.new()
-	agregar.text = "Agregar"
+	agregar.text = tr("Agregar")
 	agregar.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	agregar.pressed.connect(func():
 		_aplicar()
@@ -753,42 +754,57 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 		_poner(d, ruta, out, out.is_empty()))
 
 
+## El nombre de una sección en singular («Fuente», «Región»), traducido.
+func _nombre_seccion(seccion: String) -> String:
+	return tr(PanelInfo.NOMBRES_TIPO.get(Edicion.TIPO_DE_SECCION.get(seccion, ""), seccion))
+
+
+## Cómo se muestra una opción de un campo cerrado (el valor que se guarda no cambia): «cronica» → «crónica».
+func _nombre_opcion(v: Variant) -> String:
+	var s := str(v)
+	for nombres: Dictionary in [PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
+			PanelInfo.NOMBRES_CONFIANZA, {"primaria": "Primaria", "secundaria": "Secundaria"}]:
+		if nombres.has(s):
+			return tr(nombres[s])
+	return s
+
+
 func _campo_poligono(ruta: String, etiqueta: String) -> void:
 	var poli: Variant = _valor(_copia, ruta)
 	var n: int = (poli as Array).size() if poli is Array else 0
 	var fila := HBoxContainer.new()
 	var info := Label.new()
-	info.text = "%d vértices" % n if n >= 3 else "Sin área"
+	info.text = tr("%d vértices") % n if n >= 3 else tr("Sin área")
 	fila.add_child(info)
 	var calcular := Button.new()
-	calcular.text = "Calcular con Cliopatria"
-	calcular.tooltip_text = "Envolvente de todo el territorio que tuvo la entidad del borrador o, si no hay, la del lugar elegido en el mapa"
+	calcular.text = tr("Calcular con Cliopatria")
+	calcular.tooltip_text = tr("Envolvente de todo el territorio que tuvo la entidad del borrador o, si no hay, la del lugar elegido en el mapa")
 	calcular.pressed.connect(func():
 		var ent := _entidad_para_area()
 		if ent < 0:
-			_mensaje("Elegí en el mapa un lugar de la entidad y volvé a apretar.", true)
+			_mensaje(tr("Elegí en el mapa un lugar de la entidad y volvé a apretar."), true)
 			return
 		var nuevo := Edicion.poligono_de_entidad(ent)
 		if nuevo.size() < 3:
-			_mensaje("%s no tiene territorio suficiente para armar un área." % DatosMapa.nombre_entidad(ent), true)
+			_mensaje(tr("%s no tiene territorio suficiente para armar un área.") % DatosMapa.nombre_entidad(ent), true)
 			return
 		_aplicar()
 		_copia[ruta] = nuevo
 		_construir_formulario()
 		_al_cambiar()
-		_mensaje("Área calculada con el territorio de %s: %d vértices." % [DatosMapa.nombre_entidad(ent), nuevo.size()]))
+		_mensaje(tr("Área calculada con el territorio de %s: %d vértices.") % [DatosMapa.nombre_entidad(ent), nuevo.size()]))
 	fila.add_child(calcular)
 	var ver := Button.new()
-	ver.text = "Ver"
+	ver.text = tr("Ver")
 	ver.pressed.connect(func():
 		if n < 3:
-			_mensaje("Todavía no hay área de estudio.")
+			_mensaje(tr("Todavía no hay área de estudio."))
 			return
 		var caja := Rect2(Proyeccion.a_px(float(poli[0][0]), float(poli[0][1])), Vector2.ZERO)
 		for p in poli:
 			caja = caja.expand(Proyeccion.a_px(float(p[0]), float(p[1])))
 		Estado.enfocar(caja.get_center(), 0.0)
-		_mensaje("El mapa está en el centro del área de estudio."))
+		_mensaje(tr("El mapa está en el centro del área de estudio.")))
 	fila.add_child(ver)
 	_fila(etiqueta, fila)
 
@@ -846,11 +862,17 @@ static func _leer_anio(texto: String) -> Variant:
 	if s == "":
 		return null
 	var negativo := false
-	if s.ends_with("ac"):
-		negativo = true
-		s = s.trim_suffix("ac")
-	elif s.ends_with("dc"):
-		s = s.trim_suffix("dc")
+	# «1274 a. C.», «1274 aC» o «1274 BC»; «476 d. C.» o «476 AD».
+	for sufijo in ["ac", "bce", "bc"]:
+		if s.ends_with(sufijo):
+			negativo = true
+			s = s.trim_suffix(sufijo)
+			break
+	for marca in ["dc", "ce", "ad"]:
+		if s.ends_with(marca):
+			s = s.trim_suffix(marca)
+		elif s.begins_with(marca) and s.substr(marca.length()).is_valid_int():
+			s = s.substr(marca.length())
 	if s.begins_with("c") and s.substr(1).is_valid_int():
 		s = s.substr(1)
 	if not s.is_valid_int():
@@ -893,11 +915,11 @@ func _actualizar_botones() -> void:
 func _al_descartar() -> void:
 	if _id_original == "":
 		_vaciar()
-		_mensaje("Descartado.")
+		_mensaje(tr("Descartado."))
 		return
 	_copia = _original.duplicate(true)
 	_construir_formulario()
-	_mensaje("Cambios descartados.")
+	_mensaje(tr("Cambios descartados."))
 
 
 func _validar(mostrar_ok: bool) -> Dictionary:
@@ -906,11 +928,11 @@ func _validar(mostrar_ok: bool) -> Dictionary:
 	var r := Edicion.validar(_seccion_form, _copia, _id_original, extra)
 	var partes: Array = []
 	if not r["errores"].is_empty():
-		partes.append("[color=#%s][b]Hay que corregir:[/b][/color]\n• %s" % [TemaUI.color("hecho").to_html(false), "\n• ".join(r["errores"])])
+		partes.append(tr("[color=#%s][b]Hay que corregir:[/b][/color]\n• %s") % [TemaUI.color("hecho").to_html(false), "\n• ".join(r["errores"])])
 	if not r["avisos"].is_empty():
-		partes.append("[b]Avisos:[/b]\n• %s" % "\n• ".join(r["avisos"]))
+		partes.append(tr("[b]Avisos:[/b]\n• %s") % "\n• ".join(r["avisos"]))
 	if partes.is_empty() and mostrar_ok:
-		partes.append("Sin errores.")
+		partes.append(tr("Sin errores."))
 	if not partes.is_empty():
 		_mensaje_l.text = "\n".join(partes)
 	return r
@@ -924,7 +946,7 @@ func _al_guardar() -> void:
 	if _id_original == "":
 		ruta = str(_paquete.get_item_metadata(_paquete.selected)) if _paquete.selected >= 0 else ""
 		if ruta == "":
-			_mensaje("Elegí en qué paquete guardarlo.", true)
+			_mensaje(tr("Elegí en qué paquete guardarlo."), true)
 			return
 	var err := Edicion.guardar(ruta, _seccion_form, _copia.duplicate(true), _id_original)
 	if err != "":
@@ -940,8 +962,8 @@ func _al_guardar() -> void:
 		if era_nuevo:
 			_llenar_lista()
 	_construir_formulario()
-	_mensaje("Guardado en %s%s." % [ruta.get_file(), "" if r["avisos"].is_empty() else
-		", con %d aviso%s: %s" % [r["avisos"].size(), "" if r["avisos"].size() == 1 else "s", " ".join(r["avisos"])]])
+	_mensaje(tr("Guardado en %s%s.") % [ruta.get_file(), "" if r["avisos"].is_empty() else
+		tr_n(", con %d aviso: %s", ", con %d avisos: %s", r["avisos"].size()) % [r["avisos"].size(), " ".join(r["avisos"])]])
 
 
 func _mensaje(texto: String, error := false) -> void:
@@ -953,7 +975,7 @@ func _unhandled_key_input(ev: InputEvent) -> void:
 	if visible and k and k.pressed and k.keycode == KEY_ESCAPE and Estado.captura_punto.is_valid():
 		Estado.captura_punto = Callable()
 		_construir_formulario()
-		_mensaje("Elección en el mapa cancelada.")
+		_mensaje(tr("Elección en el mapa cancelada."))
 		get_viewport().set_input_as_handled()
 
 
@@ -972,50 +994,50 @@ func _mostrar_borrador(ruta: String) -> void:
 	t.theme_type_variation = "Titulo"
 	t.text = str(meta.get("titulo", ruta.get_file()))
 	_form.add_child(t)
-	var lineas: Array = ["Generado el %s con %s, a partir de Wikipedia y Wikidata. Estado: [b]%s[/b]." % [
+	var lineas: Array = [tr("Generado el %s con %s, a partir de Wikipedia y Wikidata. Estado: [b]%s[/b].") % [
 		meta.get("generado", "?"), meta.get("por", "tools/enciclopedia/borradores.py"), meta.get("estado", "sin revisar")]]
 	if origen.has("entidad"):
-		lineas.append("Entidad de Cliopatria: %s%s; consultada %s veces%s." % [origen["entidad"],
+		lineas.append(tr("Entidad de Cliopatria: %s%s; consultada %s veces%s.") % [origen["entidad"],
 			" (%s)" % origen["wikidata"] if origen.get("wikidata") else "", origen.get("veces", "?"),
-			", hacia %s" % ", ".join(PackedStringArray((origen.get("anios", []) as Array).slice(0, 4).map(func(a): return Fechas.texto(int(a))))) \
+			tr(", hacia %s") % ", ".join(PackedStringArray((origen.get("anios", []) as Array).slice(0, 4).map(func(a): return Fechas.texto(int(a))))) \
 				if not (origen.get("anios", []) as Array).is_empty() else ""])
 	var ia: Variant = meta.get("ia")
 	if ia is Dictionary:
-		lineas.append("[b]La ficha extendida la redactó una IA[/b] (%s, %s) a partir de las fuentes del borrador: revisá cada afirmación contra la fuente que cita." % [
+		lineas.append(tr("[b]La ficha extendida la redactó una IA[/b] (%s, %s) a partir de las fuentes del borrador: revisá cada afirmación contra la fuente que cita.") % [
 			ia.get("modelo", "?"), ia.get("fecha", "?")])
-	lineas.append("Los textos que vienen de Wikipedia se publican con su licencia, CC BY-SA 4.0.")
+	lineas.append(tr("Los textos que vienen de Wikipedia se publican con su licencia, CC BY-SA 4.0."))
 	_parrafo("\n".join(lineas))
 
 	var acciones := HBoxContainer.new()
 	_form.add_child(acciones)
 	var ver := Button.new()
-	ver.text = "Ver en el mapa"
+	ver.text = tr("Ver en el mapa")
 	ver.pressed.connect(func():
 		if origen.get("lon") == null:
-			_mensaje("El borrador no dice dónde se consultó.")
+			_mensaje(tr("El borrador no dice dónde se consultó."))
 			return
 		var anios: Array = origen.get("anios", [])
 		if not anios.is_empty():
 			Estado.fijar_anio(int(anios[0]))
 		Estado.enfocar(Proyeccion.a_px(float(origen["lon"]), float(origen["lat"])), 1.5)
-		_mensaje("El mapa está donde se consultó."))
+		_mensaje(tr("El mapa está donde se consultó.")))
 	acciones.add_child(ver)
 	for r in d.get("regiones", []):
 		if (r.get("poligono", []) as Array).size() < 3:
 			var calc := Button.new()
-			calc.text = "Calcular el área de «%s»" % r.get("nombre", r.get("id"))
+			calc.text = tr("Calcular el área de «%s»") % r.get("nombre", r.get("id"))
 			var rid := str(r.get("id"))
 			calc.pressed.connect(func(): _calcular_area_borrador(ruta, rid))
 			acciones.add_child(calc)
 
-	_seccion_texto("Contenido")
+	_seccion_texto(tr("Contenido"))
 	for s in Edicion.TIPO_DE_SECCION:
 		for item in d.get(s, []):
 			var b := Button.new()
 			b.theme_type_variation = "FilaCompacta"
 			b.alignment = HORIZONTAL_ALIGNMENT_LEFT
-			b.text = "%s: %s" % [SINGULAR[s].capitalize(), item.get("titulo", item.get("nombre", item.get("id")))]
-			b.tooltip_text = "Revisar y editar"
+			b.text = "%s: %s" % [_nombre_seccion(s), item.get("titulo", item.get("nombre", item.get("id")))]
+			b.tooltip_text = tr("Revisar y editar")
 			var sec: String = s
 			var iid := str(item.get("id"))
 			b.pressed.connect(func(): _abrir(ruta, sec, iid, true))
@@ -1025,54 +1047,54 @@ func _mostrar_borrador(ruta: String) -> void:
 		var ext: Variant = r.get("extendida")
 		if not ext is Dictionary:
 			continue
-		_seccion_texto("Ficha extendida de %s" % r.get("nombre", ""))
+		_seccion_texto(tr("Ficha extendida de %s") % r.get("nombre", ""))
 		for s in ext.get("secciones", []):
 			_parrafo("[b]%s[/b]\n%s" % [s.get("titulo", ""), s.get("texto", "")])
 		var refs: Array = []
 		for ref in ext.get("referencias", []):
 			refs.append("[%s] [url=%s]%s[/url]" % [ref.get("n"), ref.get("url"), ref.get("titulo", ref.get("url"))])
 		if not refs.is_empty():
-			_parrafo("[b]Referencias[/b]\n" + "\n".join(refs))
+			_parrafo(tr("[b]Referencias[/b]\n") + "\n".join(refs))
 
 	if ia is Dictionary:
 		var notas: Array = []
 		for x in ia.get("avisos", []):
 			notas.append("• " + str(x))
 		if not notas.is_empty():
-			_parrafo("[b]Para revisar (lo marcó la verificación automática):[/b]\n" + "\n".join(notas))
+			_parrafo(tr("[b]Para revisar (lo marcó la verificación automática):[/b]\n") + "\n".join(notas))
 		var props: Array = []
 		for f in ia.get("fuentes_propuestas", []):
 			var t_f := "%s, [i]%s[/i] (%s, %s): %s" % [f.get("autor", ""), f.get("titulo", ""), f.get("tipo", ""), f.get("fecha", ""), f.get("por_que", "")]
 			props.append("• " + ("[url=%s]%s[/url]" % [f["url"], t_f] if str(f.get("url", "")) != "" else t_f))
 		if not props.is_empty():
-			_parrafo("[b]Fuentes que propone para leer[/b] (se cargan a mano con «Nuevo» en Fuentes):\n" + "\n".join(props))
+			_parrafo(tr("[b]Fuentes que propone para leer[/b] (se cargan a mano con «Nuevo» en Fuentes):\n") + "\n".join(props))
 		if not (ia.get("descartado", []) as Array).is_empty():
-			_parrafo("[b]Lo que no pudo respaldar y quedó afuera:[/b]\n• " + "\n• ".join(ia["descartado"]))
+			_parrafo(tr("[b]Lo que no pudo respaldar y quedó afuera:[/b]\n• ") + "\n• ".join(ia["descartado"]))
 
 	var val := Edicion.validar_borrador(d)
-	_seccion_texto("Revisión")
+	_seccion_texto(tr("Revisión"))
 	if not val["errores"].is_empty():
-		_parrafo("[color=#%s][b]Antes de aprobar hay que corregir:[/b][/color]\n• %s" % [TemaUI.color("hecho").to_html(false), "\n• ".join(val["errores"])])
+		_parrafo(tr("[color=#%s][b]Antes de aprobar hay que corregir:[/b][/color]\n• %s") % [TemaUI.color("hecho").to_html(false), "\n• ".join(val["errores"])])
 	if not val["avisos"].is_empty():
-		_parrafo("[b]Avisos:[/b]\n• " + "\n• ".join(val["avisos"]))
+		_parrafo(tr("[b]Avisos:[/b]\n• ") + "\n• ".join(val["avisos"]))
 	var revise := CheckBox.new()
-	revise.text = "Revisé cada dato y cada sección contra sus fuentes"
+	revise.text = tr("Revisé cada dato y cada sección contra sus fuentes")
 	_form.add_child(revise)
 	var nota := LineEdit.new()
-	nota.placeholder_text = "Nota de la revisión (quién, qué se corrigió)"
+	nota.placeholder_text = tr("Nota de la revisión (quién, qué se corrigió)")
 	_form.add_child(nota)
 	var fila := HBoxContainer.new()
 	_form.add_child(fila)
 	var destino := OptionButton.new()
 	for p in Edicion.paquetes():
 		if p.get_file() != "familias.json":
-			destino.add_item("Pasar a %s" % p.get_file())
+			destino.add_item(tr("Pasar a %s") % p.get_file())
 			destino.set_item_metadata(destino.item_count - 1, p)
 			if p.get_file() == "mundo.json":
 				destino.select(destino.item_count - 1)
 	fila.add_child(destino)
 	var aprobar := Button.new()
-	aprobar.text = "Aprobar"
+	aprobar.text = tr("Aprobar")
 	aprobar.disabled = true
 	revise.toggled.connect(func(b: bool): aprobar.disabled = not b or not val["errores"].is_empty())
 	aprobar.pressed.connect(func():
@@ -1083,13 +1105,13 @@ func _mostrar_borrador(ruta: String) -> void:
 		Enciclopedia.recargar()
 		_vaciar()
 		_llenar_lista()
-		_mensaje("Borrador aprobado: sus elementos pasaron a %s." % str(destino.get_item_metadata(destino.selected)).get_file()))
+		_mensaje(tr("Borrador aprobado: sus elementos pasaron a %s.") % str(destino.get_item_metadata(destino.selected)).get_file()))
 	fila.add_child(aprobar)
 	var descartar := Button.new()
-	descartar.text = "Descartar el borrador"
+	descartar.text = tr("Descartar el borrador")
 	descartar.pressed.connect(func():
-		if descartar.text != "¿Seguro? Apretá otra vez":
-			descartar.text = "¿Seguro? Apretá otra vez"
+		if descartar.text != tr("¿Seguro? Apretá otra vez"):
+			descartar.text = tr("¿Seguro? Apretá otra vez")
 			return
 		var err := Edicion.borrar(ruta)
 		if err != "":
@@ -1097,16 +1119,16 @@ func _mostrar_borrador(ruta: String) -> void:
 			return
 		_vaciar()
 		_llenar_lista()
-		_mensaje("Borrador descartado."))
+		_mensaje(tr("Borrador descartado.")))
 	fila.add_child(descartar)
-	_mensaje("Revisá cada elemento (se abren con un clic) y la ficha extendida antes de aprobar.")
+	_mensaje(tr("Revisá cada elemento (se abren con un clic) y la ficha extendida antes de aprobar."))
 
 
 func _calcular_area_borrador(ruta: String, id_region: String) -> void:
 	_ruta = ruta
 	var ent := _entidad_para_area()
 	if ent < 0:
-		_mensaje("No encontré la entidad del borrador: elegí un lugar suyo en el mapa y volvé a apretar.", true)
+		_mensaje(tr("No encontré la entidad del borrador: elegí un lugar suyo en el mapa y volvé a apretar."), true)
 		return
 	var d := Edicion.leer(ruta)
 	var i := Edicion.indice(d.get("regiones", []), id_region)
@@ -1117,7 +1139,7 @@ func _calcular_area_borrador(ruta: String, id_region: String) -> void:
 		_mensaje(err, true)
 		return
 	_mostrar_borrador(ruta)
-	_mensaje("Área calculada con el territorio de %s: %d vértices." % [DatosMapa.nombre_entidad(ent), (region["poligono"] as Array).size()])
+	_mensaje(tr("Área calculada con el territorio de %s: %d vértices.") % [DatosMapa.nombre_entidad(ent), (region["poligono"] as Array).size()])
 
 
 func _seccion_texto(texto: String) -> void:

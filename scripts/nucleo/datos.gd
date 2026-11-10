@@ -138,7 +138,7 @@ static func instalar(nueva: Dictionary, bajados: Dictionary) -> String:
 	var distintos := grupos_distintos(archivos)
 	var carpeta := "%s%d/" % [DIR_LOCAL, int(nueva["version"])]
 	if carpeta == str(_activo.get("carpeta", "")):
-		return "Esa versión de los datos ya está instalada."
+		return Idioma.t("Esa versión de los datos ya está instalada.")
 	borrar_carpeta(carpeta)
 	for g in distintos:
 		DirAccess.make_dir_recursive_absolute(carpeta + g)
@@ -154,19 +154,19 @@ static func instalar(nueva: Dictionary, bajados: Dictionary) -> String:
 			err = DirAccess.copy_absolute(ruta(RAIZ + rel), destino)
 		if err != OK or FileAccess.get_sha256(destino) != str(archivos[rel]["sha256"]):
 			borrar_carpeta(carpeta)
-			return "No se pudo instalar %s (%s)." % [rel, error_string(err) if err != OK else "no coincide su sha256"]
+			return Idioma.t("No se pudo instalar %s (%s).") % [rel, error_string(err) if err != OK else Idioma.t("no coincide su sha256")]
 	var activo := {"datos": int(nueva["version"]), "app_minima": str(nueva.get("app_minima", "0")), "carpeta": carpeta,
 		"grupos": distintos, "archivos": archivos}
 	var tmp := ACTIVO + ".nuevo"
 	var f := FileAccess.open(tmp, FileAccess.WRITE)
 	if f == null:
 		borrar_carpeta(carpeta)
-		return "No se pudo escribir %s (%s)." % [tmp, error_string(FileAccess.get_open_error())]
+		return Idioma.t("No se pudo escribir %s (%s).") % [tmp, error_string(FileAccess.get_open_error())]
 	f.store_string(JSON.stringify(activo, "  "))
 	f.close()
 	# rename_absolute reemplaza el archivo anterior de una vez: si la app se corta acá, vale uno o el otro.
 	var err := DirAccess.rename_absolute(tmp, ACTIVO)
-	return "" if err == OK else "No se pudo activar la versión nueva (%s)." % error_string(err)
+	return "" if err == OK else Idioma.t("No se pudo activar la versión nueva (%s).") % error_string(err)
 
 
 ## Compara versiones «1.2.3»: -1, 0 o 1.
@@ -186,6 +186,9 @@ static func fecha(segundos: int) -> String:
 	if segundos <= 0:
 		return ""
 	var d := Time.get_date_dict_from_unix_time(segundos)
+	if Idioma.ingles():
+		return "%d %s %d" % [d["day"], ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][d["month"] - 1],
+			d["year"]]
 	return "%d/%d/%d" % [d["day"], d["month"], d["year"]]
 
 

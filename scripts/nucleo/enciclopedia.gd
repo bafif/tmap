@@ -9,8 +9,11 @@ const SECCIONES := ["regiones", "fuentes", "personas", "hechos", "lugares"]
 const CAPAS := ["religiones", "culturas", "idiomas"]
 const CAPA_DE_MODO := {"religion": "religiones", "cultura": "culturas", "idioma": "idiomas"}
 const MODO_DE_CAPA := {"religiones": "religion", "culturas": "cultura", "idiomas": "idioma"}
+## En español: se traducen con tr() al mostrarlos.
 const NOMBRE_CAPA := {"religiones": "Religión", "culturas": "Cultura", "idiomas": "Idioma"}
 const ORDEN_PESO := {"mayoritaria": 0, "importante": 1, "minoritaria": 2}
+## El peso como se muestra (en español: se traduce con tr()).
+const NOMBRE_PESO := {"mayoritaria": "mayoritaria", "importante": "importante", "minoritaria": "minoritaria"}
 
 var regiones := {}
 var fuentes := {}
@@ -203,11 +206,11 @@ func rango_de(v: Dictionary) -> String:
 	var abierto_antes: bool = v.get("desde") == null
 	var abierto_despues: bool = v.get("hasta") == null
 	if abierto_antes and abierto_despues:
-		return "siempre"
+		return tr("siempre")
 	if abierto_antes:
-		return "hasta %s" % Fechas.texto(hasta_de(v))
+		return tr("hasta %s") % Fechas.texto(hasta_de(v))
 	if abierto_despues:
-		return "desde %s" % Fechas.texto(desde_de(v))
+		return tr("desde %s") % Fechas.texto(desde_de(v))
 	return Fechas.rango(desde_de(v), hasta_de(v))
 
 
@@ -573,7 +576,7 @@ func buscar(texto: String, max_res := 12) -> Array:
 					return out
 	for f in familias.values():
 		if str(f.get("nombre", "")).to_lower().contains(t):
-			out.append({"tipo": "familia", "id": f["_clave"], "texto": f["nombre"], "detalle": NOMBRE_CAPA[f["capa"]]})
+			out.append({"tipo": "familia", "id": f["_clave"], "texto": f["nombre"], "detalle": tr(NOMBRE_CAPA[f["capa"]])})
 			if out.size() >= max_res:
 				return out
 	return out
@@ -626,8 +629,8 @@ func pendientes() -> Array:
 		var item: Dictionary = (leido[clave] as Dictionary).duplicate()
 		item["clave"] = clave
 		var crudo := str(clave).substr(8) if str(clave).begins_with("entidad:") else ""
-		item["nombre"] = str(DatosMapa.nombres_revisados.get(crudo, crudo)) if crudo != "" else (
-			"Lugar sin entidad (%s, %s)" % [item.get("lat", "?"), item.get("lon", "?")])
+		item["nombre"] = DatosMapa.nombre_cliopatria(crudo) if crudo != "" else (
+			tr("Lugar sin entidad (%s, %s)") % [item.get("lat", "?"), item.get("lon", "?")])
 		out.append(item)
 	out.sort_custom(func(a, b): return int(a.get("veces", 0)) > int(b.get("veces", 0)))
 	return out

@@ -21,7 +21,7 @@ func _init() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 	# Sin un texto, Godot no llama a _get_tooltip.
-	tooltip_text = "Períodos por región"
+	tooltip_text = tr("Períodos por región")
 
 
 ## presencia: lo que devuelve Enciclopedia.presencia_familia.
@@ -107,8 +107,9 @@ func _get_tooltip(pos: Vector2) -> String:
 	var lineas: Array = ["%s, %s" % [region, Fechas.texto(anio)]]
 	for e in _presencia:
 		if e["region"] == _filas[i] and int(e["desde"]) <= anio and anio <= int(e["hasta"]):
-			lineas.append("%s: %s (%s)" % [e["nombre"], e["peso"], e.get("rango", Fechas.rango(int(e["desde"]), int(e["hasta"])))])
+			lineas.append("%s: %s (%s)" % [e["nombre"], tr(Enciclopedia.NOMBRE_PESO.get(e["peso"], e["peso"])),
+				e.get("rango", Fechas.rango(int(e["desde"]), int(e["hasta"])))])
 	if lineas.size() == 1:
-		lineas.append("Sin registro en ese año")
-	lineas.append("Clic: ir a ese año")
+		lineas.append(tr("Sin registro en ese año"))
+	lineas.append(tr("Clic: ir a ese año"))
 	return "\n".join(lineas)

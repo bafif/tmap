@@ -6,6 +6,7 @@ extends Control
 
 signal anio_elegido(anio: int)
 
+## En español: se traducen con tr() al usarlas (_eras_globales).
 const ERAS_GLOBALES := [
 	[-3400, -1201, "Edad del Bronce"],
 	[-1200, -801, "Edad del Hierro"],
@@ -19,8 +20,8 @@ const TRAMO_MIN := 40.0
 
 var vista_desde := float(Estado.ANIO_MIN)
 var vista_hasta := float(Estado.ANIO_MAX)
-var eras: Array = ERAS_GLOBALES
-var titulo_eras := "Periodización europea, orientativa"
+var eras: Array = _eras_globales()
+var titulo_eras := tr("Periodización europea, orientativa")
 var _arrastrando := false
 var _desplazando := false
 var _hover_x := -1.0
@@ -87,16 +88,21 @@ func _ajustar_vista() -> void:
 		vista_desde = maximo - tramo
 
 
+## Las eras de la periodización general, con el nombre en el idioma de la app.
+func _eras_globales() -> Array:
+	return ERAS_GLOBALES.map(func(e: Array) -> Array: return [e[0], e[1], tr(e[2])])
+
+
 func fijar_eras(nuevas: Array, titulo: String) -> void:
-	eras = nuevas if not nuevas.is_empty() else ERAS_GLOBALES
-	titulo_eras = titulo if not nuevas.is_empty() else "Periodización europea, orientativa"
+	eras = nuevas if not nuevas.is_empty() else _eras_globales()
+	titulo_eras = titulo if not nuevas.is_empty() else tr("Periodización europea, orientativa")
 	if not nuevas.is_empty():
 		# Acercar la pista alrededor del año actual para que se lean las eras locales.
 		var l := lineal(Estado.anio)
 		vista_desde = l - 1200.0
 		vista_hasta = l + 1200.0
 		_ajustar_vista()
-	tooltip_text = "%s.\nArrastrá para elegir el año · rueda: acercar o alejar · botón derecho: desplazar · doble click: todo el período." % titulo_eras
+	tooltip_text = tr("%s.\nArrastrá para elegir el año · rueda: acercar o alejar · botón derecho: desplazar · doble click: todo el período.") % titulo_eras
 	queue_redraw()
 
 
@@ -182,11 +188,11 @@ func _get_tooltip(pos: Vector2) -> String:
 	for m in marcas.slice(0, 6):
 		var el := Enciclopedia.elemento(m["tipo"], m["id"])
 		var nombre: String = el.get("titulo", el.get("nombre", m["id"]))
-		var tipo: String = "Hecho" if m["tipo"] == "hecho" else ("Fuente primaria" if el.get("tipo", "") == "primaria" else "Fuente secundaria")
+		var tipo: String = tr("Hecho") if m["tipo"] == "hecho" else (tr("Fuente primaria") if el.get("tipo", "") == "primaria" else tr("Fuente secundaria"))
 		lineas.append("%s · %s · %s" % [nombre, tipo, Fechas.texto(int(el["_desde"]))])
 	if marcas.size() > 6:
-		lineas.append("y %d más (acercá la pista con la rueda)" % (marcas.size() - 6))
-	lineas.append("Clic: abrir la ficha%s" % (" de la primera" if marcas.size() > 1 else ""))
+		lineas.append(tr("y %d más (acercá la pista con la rueda)") % (marcas.size() - 6))
+	lineas.append(tr("Clic: abrir la ficha de la primera") if marcas.size() > 1 else tr("Clic: abrir la ficha"))
 	return "\n".join(lineas)
 
 

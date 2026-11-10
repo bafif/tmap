@@ -49,5 +49,5 @@ static func km_por_px(lat: float) -> Vector2:
 
 static func texto_coordenadas(lonlat: Vector2) -> String:
 	var lat := "%.1f° %s" % [absf(lonlat.y), "N" if lonlat.y >= 0 else "S"]
-	var lon := "%.1f° %s" % [absf(lonlat.x), "E" if lonlat.x >= 0 else "O"]
+	var lon := "%.1f° %s" % [absf(lonlat.x), "E" if lonlat.x >= 0 else ("W" if Idioma.ingles() else "O")]
 	return (lat + " · " + lon).replace(".", ",")

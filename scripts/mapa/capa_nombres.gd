@@ -14,6 +14,10 @@ var _cache_textos := {}
 
 
 func _ready() -> void:
+	# Los nombres de las entidades cambian con el idioma.
+	Estado.idioma_cambiado.connect(func():
+		_cache_textos.clear()
+		actualizar())
 	actualizar()
 
 

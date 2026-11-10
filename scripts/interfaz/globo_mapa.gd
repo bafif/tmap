@@ -29,10 +29,9 @@ func _ready() -> void:
 
 func mostrar(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 	if not elemento.is_empty():
-		var tipos := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar"}
 		_titulo.text = str(elemento.get("texto", ""))
-		_detalle.text = "Marcadores juntos · click para acercarse y separarlos" if elemento["tipo"] == "grupo" else (
-			"%s · click para ver la ficha" % tipos.get(elemento["tipo"], ""))
+		_detalle.text = tr("Marcadores juntos · click para acercarse y separarlos") if elemento["tipo"] == "grupo" else (
+			tr("%s · click para ver la ficha") % tr(PanelInfo.NOMBRES_TIPO.get(elemento["tipo"], "")))
 	elif unidad > 0:
 		var ent := DatosMapa.dueno(unidad)
 		var regs := Enciclopedia.regiones_de_unidad(unidad)
@@ -45,7 +44,7 @@ func mostrar(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 			_detalle.text = Fechas.rango(int(e["a"]), int(e["b"])) + ("   ·   " + region if region != "" else "")
 		elif region != "":
 			_titulo.text = region
-			_detalle.text = "Sin entidad política registrada"
+			_detalle.text = tr("Sin entidad política registrada")
 		else:
 			visible = false
 			return

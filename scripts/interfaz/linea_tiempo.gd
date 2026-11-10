@@ -45,27 +45,27 @@ func _ready() -> void:
 	var botones := HBoxContainer.new()
 	botones.add_theme_constant_override("separation", 2)
 	centro.add_child(botones)
-	botones.add_child(_boton_salto("atras2", -100, "100 años atrás"))
-	botones.add_child(_boton_salto("atras1", -10, "10 años atrás (Mayús: 1 año)"))
-	_play = IconosUI.boton("play", "Reproducir (barra espaciadora)", 22, false)
+	botones.add_child(_boton_salto("atras2", -100, tr("100 años atrás")))
+	botones.add_child(_boton_salto("atras1", -10, tr("10 años atrás (Mayús: 1 año)")))
+	_play = IconosUI.boton("play", tr("Reproducir (barra espaciadora)"), 22, false)
 	_play.custom_minimum_size = Vector2(46, 36)
 	_play.pressed.connect(alternar_reproduccion)
 	botones.add_child(_play)
-	botones.add_child(_boton_salto("adelante1", 10, "10 años adelante (Mayús: 1 año)"))
-	botones.add_child(_boton_salto("adelante2", 100, "100 años adelante"))
+	botones.add_child(_boton_salto("adelante1", 10, tr("10 años adelante (Mayús: 1 año)")))
+	botones.add_child(_boton_salto("adelante2", 100, tr("100 años adelante")))
 	var abajo := HBoxContainer.new()
 	abajo.add_theme_constant_override("separation", 6)
 	centro.add_child(abajo)
 	_velocidad = OptionButton.new()
 	for v in VELOCIDADES:
-		_velocidad.add_item("%d años/s" % v)
+		_velocidad.add_item(tr("%d años/s") % v)
 	_velocidad.select(2)
 	_velocidad.focus_mode = Control.FOCUS_ALL
-	_velocidad.tooltip_text = "Velocidad de reproducción"
+	_velocidad.tooltip_text = tr("Velocidad de reproducción")
 	abajo.add_child(_velocidad)
 	_entrada = LineEdit.new()
-	_entrada.placeholder_text = "Ir a año…"
-	_entrada.tooltip_text = "Escribí un año: «-1350», «1350 a. C.» o «1810»"
+	_entrada.placeholder_text = tr("Ir a año…")
+	_entrada.tooltip_text = tr("Escribí un año: «-1350», «1350 a. C.» o «1810»")
 	_entrada.custom_minimum_size = Vector2(118, 0)
 	_entrada.text_submitted.connect(_ir_a_texto)
 	abajo.add_child(_entrada)
@@ -135,7 +135,8 @@ func _unhandled_key_input(ev: InputEvent) -> void:
 
 func _ir_a_texto(texto: String) -> void:
 	var t := texto.strip_edges().to_lower().replace(".", "").replace(" ", "")
-	var negativo := t.begins_with("-") or t.contains("ac") or t.contains("aC".to_lower())
+	# «1350 a. C.», «1350 aC», «1350 BC» o «1350 BCE».
+	var negativo := t.begins_with("-") or t.contains("ac") or t.contains("bc")
 	var digitos := ""
 	for ch in t:
 		if ch >= "0" and ch <= "9":
@@ -170,7 +171,7 @@ func _al_seleccionar(unidad: int, _px: Vector2) -> void:
 			var lista: Array = []
 			for e in eras:
 				lista.append([Enciclopedia.desde_de(e), Enciclopedia.hasta_de(e), e["nombre"]])
-			pista.fijar_eras(lista, "Eras de %s" % r["nombre"])
+			pista.fijar_eras(lista, tr("Eras de %s") % r["nombre"])
 			_actualizar(Estado.anio)
 			return
 	pista.fijar_eras([], "")

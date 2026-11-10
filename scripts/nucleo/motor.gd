@@ -16,7 +16,8 @@ extends RefCounted
 ## al anterior.
 
 const RUTA := "user://motor.cfg"
-## id → [nombre, descripción]. "auto" es no tener motor.cfg: manda project.godot.
+## id → [nombre, descripción], en español (se traducen con tr() al mostrarlos). "auto" es no tener motor.cfg: manda
+## project.godot.
 const OPCIONES := {
 	"auto": ["Automático", "Lo que mejor anda en cada sistema: Vulkan en Linux y Windows (OpenGL si no hay Vulkan) y OpenGL en Mac."],
 	"gl_compatibility": ["Compatible (OpenGL)", "Anda en casi cualquier computadora. Elegilo si TellMAP se ve en negro, con manchas o sin mapa."],
@@ -101,7 +102,7 @@ static func en_uso() -> String:
 	var driver := RenderingServer.get_current_rendering_driver_name()
 	var placa := RenderingServer.get_video_adapter_name()
 	if placa == "":
-		return "%s (%s, sin pantalla)" % [NOMBRES_METODO.get(metodo, metodo), driver]
+		return Idioma.t("%s (%s, sin pantalla)") % [NOMBRES_METODO.get(metodo, metodo), driver]
 	return "%s · %s %s · %s" % [NOMBRES_METODO.get(metodo, metodo), {"opengl3": "OpenGL", "opengl3_angle": "OpenGL (ANGLE)",
 		"vulkan": "Vulkan", "metal": "Metal", "d3d12": "Direct3D 12"}.get(driver, driver),
 		RenderingServer.get_video_adapter_api_version(), placa]

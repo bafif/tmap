@@ -39,14 +39,14 @@ func _ready() -> void:
 	caja.add_child(HSeparator.new())
 	var t := Label.new()
 	t.theme_type_variation = "Seccion"
-	t.text = "EN EL MAPA"
+	t.text = tr("En el mapa").to_upper()
 	caja.add_child(t)
 	_capas = VBoxContainer.new()
 	_capas.add_theme_constant_override("separation", 0)
 	caja.add_child(_capas)
 	for c in CAPAS:
 		var cb := CheckBox.new()
-		cb.text = c[1]
+		cb.text = tr(c[1])
 		cb.button_pressed = Estado.ajustes.get(c[0], true)
 		cb.focus_mode = Control.FOCUS_ALL
 		cb.add_theme_color_override("font_color", TemaUI.color(c[2]).lerp(TemaUI.color("texto"), 0.35))
@@ -63,12 +63,12 @@ func _actualizar() -> void:
 	Estado.resaltar("", "leyenda")
 	for c in _leyenda.get_children():
 		c.queue_free()
-	_titulo.text = Estado.MODOS[Estado.modo][0].to_upper()
+	_titulo.text = tr(Estado.MODOS[Estado.modo][0]).to_upper()
 	var capas := {"religion": "religiones", "cultura": "culturas", "idioma": "idiomas"}
 	if capas.has(Estado.modo):
 		var items := Enciclopedia.leyenda_capa(capas[Estado.modo], Estado.anio)
 		if items.is_empty():
-			_nota("Sin datos para este año en las regiones cargadas.")
+			_nota(tr("Sin datos para este año en las regiones cargadas."))
 		var visibles: Array = items if _expandida or items.size() <= MAX_FILAS + 1 else items.slice(0, MAX_FILAS)
 		for it in visibles:
 			var fila := Button.new()
@@ -79,7 +79,7 @@ func _actualizar() -> void:
 			fila.text = it["nombre"]
 			fila.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 			fila.custom_minimum_size = Vector2(210, 0)
-			fila.tooltip_text = "En %s.\nClic: ficha de %s" % [", ".join(it["regiones"]), it["nombre"]]
+			fila.tooltip_text = tr("En %s.\nClic: ficha de %s") % [", ".join(it["regiones"]), it["nombre"]]
 			var clave: String = it["clave"]
 			fila.set_meta("familia", clave)
 			fila.mouse_entered.connect(func(): Estado.resaltar(clave, "leyenda"))
@@ -91,17 +91,17 @@ func _actualizar() -> void:
 			mas.theme_type_variation = "FilaCompacta"
 			mas.focus_mode = Control.FOCUS_ALL
 			mas.alignment = HORIZONTAL_ALIGNMENT_LEFT
-			mas.text = "Ver menos" if _expandida else "Ver las %d restantes" % (items.size() - MAX_FILAS)
+			mas.text = tr("Ver menos") if _expandida else tr("Ver las %d restantes") % (items.size() - MAX_FILAS)
 			mas.add_theme_color_override("font_color", TemaUI.color("acento"))
 			mas.pressed.connect(func():
 				_expandida = not _expandida
 				_actualizar())
 			_leyenda.add_child(mas)
-		_nota("Rayado del color: zona sin entidad política registrada ese año. Rayado gris: regiones todavía sin datos.")
+		_nota(tr("Rayado del color: zona sin entidad política registrada ese año. Rayado gris: regiones todavía sin datos."))
 	elif Estado.modo == "politico":
-		_nota("Fronteras de Cliopatria (Seshat, CC BY 4.0). Click en un lugar para estudiarlo.")
+		_nota(tr("Fronteras de Cliopatria (Seshat, CC BY 4.0). Click en un lugar para estudiarlo."))
 	else:
-		_nota("Relieve, ríos y costas. Las fronteras quedan tenues.")
+		_nota(tr("Relieve, ríos y costas. Las fronteras quedan tenues."))
 
 
 func _nota(texto: String) -> void:
