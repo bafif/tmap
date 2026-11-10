@@ -1,8 +1,8 @@
 name: Versión
 
-# Al publicar una versión en GitHub (o a mano, con su etiqueta): exporta los ejecutables de Linux y Windows con las
-# plantillas oficiales de Godot, comprueba que el de Linux arranque con todos sus datos (--verificar) y los sube a esa
-# versión. Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
+# Al publicar una versión en GitHub (o a mano, con su etiqueta): exporta los ejecutables de Linux, Windows y macOS con
+# las plantillas oficiales de Godot, comprueba que el de Linux arranque con todos sus datos (--verificar) y los sube a
+# esa versión; el de macOS se comprueba después en una Mac (trabajo verificar-macos). Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
 # Después publica la actualización automática: los ejecutables y los datos nuevos en .gz y el manifiesto
 # actualizacion.json en la versión fija «actualizaciones», que es lo que consultan las apps (docs/es/actualizaciones.md).
 
@@ -50,12 +50,14 @@ jobs:
       - name: Sellar los datos (data/version.json, para que la app sepa qué datos trae)
         run: python3 tools/actualizacion/publicar.py sellar
 
-      - name: Exportar Linux y Windows
+      - name: Exportar Linux, Windows y macOS
         run: |
-          mkdir -p build/linux build/windows
+          mkdir -p build/linux build/windows build/macos
           godot --headless --path . --export-release "Linux" build/linux/TellMAP.x86_64
           godot --headless --path . --export-release "Windows" build/windows/TellMAP.exe
-          ls -la build/linux build/windows
+          # macOS: TellMAP.app universal (Intel y Apple Silicon) dentro de un zip, con firma ad hoc (sin notarizar).
+          godot --headless --path . --export-release "macOS" build/macos/TellMAP.zip
+          ls -la build/linux build/windows build/macos
 
       - name: Comprobar que el ejecutable de Linux trae todos sus datos
         run: timeout 300 build/linux/TellMAP.x86_64 --headless -- --verificar
@@ -66,6 +68,9 @@ jobs:
             cp LICENSE README.md README.en.md "build/$so/"
             (cd "build/$so" && zip -qr "../TellMAP-${ETIQUETA}-${so}-x86_64.zip" .)
           done
+          mkdir -p build/macos-zip
+          (cd build/macos-zip && unzip -q ../macos/TellMAP.zip && cp ../../LICENSE ../../README.md ../../README.en.md . &&
+            zip -qry "../TellMAP-${ETIQUETA}-macos-universal.zip" .)
           ls -la build/*.zip
 
       - name: Subir a la versión ${{ env.ETIQUETA }}
@@ -86,3 +91,30 @@ jobs:
             --title "Actualizaciones automáticas" \
             --notes "Manifiesto que consultan las apps para actualizarse solas. No es una versión para bajar."
           gh release upload actualizaciones subir/actualizacion.json --clobber
+
+  verificar-macos:
+    # El ejecutable de macOS se exporta desde Linux: acá se comprueba en una Mac (Apple Silicon) que la firma ad hoc
+    # valga y que arranque con todos sus datos. Si algo falla, el zip se saca de la versión para que nadie baje uno
+    # roto. macOS no se actualiza solo (el manifiesto no lo incluye): reemplazar el binario invalidaría la firma.
+    needs: exportar
+    runs-on: macos-latest
+    timeout-minutes: 20
+    env:
+      ETIQUETA: ${{ github.event.release.tag_name || inputs.etiqueta }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Bajar el zip de macOS de la versión
+        run: gh release download "$ETIQUETA" -R "$GITHUB_REPOSITORY" -p "TellMAP-${ETIQUETA}-macos-universal.zip"
+
+      - name: Comprobar la firma
+        run: |
+          ditto -x -k "TellMAP-${ETIQUETA}-macos-universal.zip" app
+          codesign --verify --deep --strict --verbose=2 app/TellMAP.app
+
+      - name: Comprobar que arranca con todos sus datos
+        timeout-minutes: 5
+        run: app/TellMAP.app/Contents/MacOS/TellMAP --headless -- --verificar
+
+      - name: Si algo falló, sacar el zip de la versión
+        if: failure()
+        run: gh release delete-asset "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-universal.zip" -R "$GITHUB_REPOSITORY" -y

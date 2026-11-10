@@ -64,6 +64,7 @@ func _construir() -> void:
 	barra = BarraSuperior.new()
 	raiz.add_child(barra)
 	globo = GloboMapa.new()
+	globo.panel = panel
 	raiz.add_child(globo)
 	editor = EditorEnciclopedia.new()
 	raiz.add_child(editor)

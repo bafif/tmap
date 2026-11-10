@@ -6,6 +6,8 @@ var _titulo: Label
 var _detalle: Label
 var _pendiente := false
 var _ultimo_texto := ""
+## El panel lateral: con el cursor sobre el mapa, a su izquierda, el globo no lo cruza (taparía el texto).
+var panel: Control
 
 
 func _ready() -> void:
@@ -53,7 +55,10 @@ func mostrar(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 	var vp := get_viewport_rect().size
 	reset_size()
 	var p := pos + Vector2(18, 20)
-	if p.x + size.x > vp.x - 8:
+	var derecha := vp.x - 8.0
+	if panel and panel.visible and pos.x < panel.position.x:
+		derecha = panel.position.x - 6.0
+	if p.x + size.x > derecha:
 		p.x = pos.x - size.x - 12
 	if p.y + size.y > vp.y - 140:
 		p.y = pos.y - size.y - 12

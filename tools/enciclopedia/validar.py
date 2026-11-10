@@ -176,6 +176,10 @@ def main():
                     errores.append(f"{d}/{capa}: peso inválido {e.get('peso')!r}")
                 if capa != "eras":
                     usadas.add((capa, e.get("familia")))
+                    # La app lee un «desde» vacío como «desde 3400 a. C.» y pinta el mapa así: los Balcanes con
+                    # religión romana en el Neolítico. Si algo es anterior a lo que se sabe, va la primera mención.
+                    if e.get("desde") is None:
+                        errores.append(f"{d}/{capa}: «{e.get('nombre')}» sin «desde» (poné desde cuándo hay registro)")
                     if not e.get("familia"):
                         errores.append(f"{d}/{capa}: «{e.get('nombre')}» sin familia")
                     elif e["familia"] not in familias[capa]:

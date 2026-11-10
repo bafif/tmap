@@ -93,7 +93,7 @@ func _ready() -> void:
 	_scroll.add_child(_contenido)
 
 	add_child(Marco.new())
-	position.x = get_viewport_rect().size.x + 20
+	_fijar_x(get_viewport_rect().size.x + 20)
 	visible = false
 
 	Estado.lugar_seleccionado.connect(_al_seleccionar)
@@ -126,21 +126,30 @@ func _mostrar(abrir: bool) -> void:
 	var vp := get_viewport_rect().size.x
 	visible = true
 	if Estado.sin_animaciones:
-		position.x = vp - ANCHO - 10 if abrir else vp + 20
+		_fijar_x(vp - ANCHO - 10 if abrir else vp + 20)
 		visible = abrir
 		return
 	_tween = create_tween().set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
 	if abrir:
-		position.x = vp + 20
-		_tween.tween_property(self, "position:x", vp - ANCHO - 10, 0.32)
+		_fijar_x(vp + 20)
+		_tween.tween_method(_fijar_x, vp + 20, vp - ANCHO - 10, 0.32)
 	else:
-		_tween.tween_property(self, "position:x", vp + 20, 0.25)
+		_tween.tween_method(_fijar_x, position.x, vp + 20, 0.25)
 		_tween.finished.connect(func(): visible = _abierto)
 
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_RESIZED and _abierto and not (_tween and _tween.is_running()):
-		position.x = get_viewport_rect().size.x - ANCHO - 10
+		_fijar_x(get_viewport_rect().size.x - ANCHO - 10)
+
+
+## Corre el panel en horizontal tocando solo sus márgenes izquierdo y derecho (está anclado al borde derecho). Con
+## position, Godot recalcula los cuatro márgenes con el tamaño de ese instante: si mientras se armaba el contenido
+## pedía más alto, el panel quedaba para siempre más largo que la ventana, por debajo de la línea de tiempo y con el
+## final del texto fuera de alcance.
+func _fijar_x(x: float) -> void:
+	offset_left = x - get_viewport_rect().size.x
+	offset_right = offset_left + ANCHO
 
 
 func _al_seleccionar(unidad: int, px: Vector2) -> void:

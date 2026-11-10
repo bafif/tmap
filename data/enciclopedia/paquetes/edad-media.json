@@ -456,11 +456,12 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": null,
+          "desde": -76,
           "hasta": null,
           "nombre": "Vasca",
           "familia": "vasca",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
         },
         {
           "desde": 300,
@@ -536,11 +537,12 @@
           "peso": "importante"
         },
         {
-          "desde": null,
+          "desde": -76,
           "hasta": null,
           "nombre": "Euskera",
           "familia": "vasco",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
         },
         {
           "desde": 300,
@@ -1006,11 +1008,12 @@
           "peso": "minoritaria"
         },
         {
-          "desde": null,
+          "desde": -56,
           "hasta": null,
           "nombre": "Vasca",
           "familia": "vasca",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los aquitanos, de lengua emparentada con el euskera, aparecen en César (56 a. C.); son anteriores a los galos."
         },
         {
           "desde": 300,
@@ -1064,11 +1067,12 @@
           "peso": "minoritaria"
         },
         {
-          "desde": null,
+          "desde": -56,
           "hasta": null,
           "nombre": "Euskera",
           "familia": "vasco",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los aquitanos, de lengua emparentada con el euskera, aparecen en César (56 a. C.); son anteriores a los galos."
         }
       ]
     },
@@ -1805,11 +1809,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 500,
           "nombre": "Religión celta",
           "familia": "paganismo-celta",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro celta (hacia 500 a. C.); antes no hay registro."
         },
         {
           "desde": 432,
@@ -1842,11 +1847,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": null,
           "nombre": "Gaélica",
           "familia": "gaelica",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro celta (hacia 500 a. C.); antes no hay registro."
         },
         {
           "desde": 841,
@@ -1865,11 +1871,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 1850,
           "nombre": "Irlandés",
           "familia": "irlandes",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro celta (hacia 500 a. C.); se escribe desde el siglo IV, en ogam."
         },
         {
           "desde": 1169,
@@ -2360,7 +2367,7 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 800,
           "nombre": "Religión germánica",
           "familia": "paganismo-germanico",
@@ -2406,11 +2413,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 750,
           "nombre": "Germánica (sajones, alamanes, bávaros y turingios)",
           "familia": "germanica",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la cultura de Jastorf (hacia 500 a. C.), la primera que se asocia con los pueblos germánicos."
         },
         {
           "desde": -15,
@@ -2443,11 +2451,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 750,
           "nombre": "Lenguas germánicas occidentales",
           "familia": "germanicas",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la cultura de Jastorf (hacia 500 a. C.); hasta los primeros siglos d. C. es germánico común, todavía sin dividir."
         },
         {
           "desde": 750,
@@ -2893,11 +2902,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": 1000,
           "nombre": "Religión nórdica antigua",
           "familia": "religion-nordica",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro prerromana (hacia 500 a. C.); antes, la Edad del Bronce nórdica."
         },
         {
           "desde": 1000,
@@ -2924,11 +2934,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": null,
           "nombre": "Nórdica",
           "familia": "nordica",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro prerromana (hacia 500 a. C.); antes, la Edad del Bronce nórdica."
         },
         {
           "desde": 1250,
@@ -2940,18 +2951,20 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -500,
           "hasta": null,
           "nombre": "Nórdico antiguo, luego danés, sueco y noruego",
           "familia": "nordico",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro prerromana (hacia 500 a. C.); se escribe en runas desde el siglo II."
         },
         {
-          "desde": null,
+          "desde": 550,
           "hasta": null,
           "nombre": "Lenguas sami",
           "familia": "uralicas",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Primera mención segura hacia 550: los skrithiphinoi de Procopio y los screrefennae de Jordanes, cazadores que andaban en esquíes."
         },
         {
           "desde": 1000,
@@ -3544,11 +3557,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": 500,
           "hasta": 966,
           "nombre": "Religión eslava",
           "familia": "paganismo-eslavo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos llegan a la región en los siglos V y VI; el nombre de los polanos aparece en el siglo X."
         },
         {
           "desde": 966,
@@ -3568,11 +3582,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": 500,
           "hasta": null,
           "nombre": "Polaca",
           "familia": "eslava-occidental",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos llegan a la región en los siglos V y VI; el nombre de los polanos aparece en el siglo X."
         },
         {
           "desde": 1200,
@@ -3591,11 +3606,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": 500,
           "hasta": null,
           "nombre": "Polaco",
           "familia": "polaco",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos llegan a la región en los siglos V y VI; el nombre de los polanos aparece en el siglo X."
         },
         {
           "desde": 966,
@@ -3746,11 +3762,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": 550,
           "hasta": 900,
           "nombre": "Religión eslava",
           "familia": "paganismo-eslavo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos se asientan en Bohemia hacia 550; antes vivían ahí boyos (celtas) y marcomanos (germanos)."
         },
         {
           "desde": 900,
@@ -3790,11 +3807,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": 550,
           "hasta": null,
           "nombre": "Checa",
           "familia": "eslava-occidental",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos se asientan en Bohemia hacia 550; antes vivían ahí boyos (celtas) y marcomanos (germanos)."
         },
         {
           "desde": 1200,
@@ -3813,11 +3831,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": 550,
           "hasta": null,
           "nombre": "Checo",
           "familia": "checo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos se asientan en Bohemia hacia 550; antes vivían ahí boyos (celtas) y marcomanos (germanos)."
         },
         {
           "desde": 863,
@@ -4708,11 +4727,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": -168,
           "hasta": 380,
           "nombre": "Religión romana y tracia",
           "familia": "politeismo-romano",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la conquista romana de Iliria (168 a. C.); antes, religiones tracia, iliria y griega."
         },
         {
           "desde": 380,
@@ -4760,18 +4780,20 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": -168,
           "hasta": 600,
           "nombre": "Romana (ilirios y tracios romanizados)",
           "familia": "latina",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
         },
         {
-          "desde": null,
+          "desde": -700,
           "hasta": null,
           "nombre": "Griega (ciudades y costa)",
           "familia": "griega",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Desde las colonias griegas de la costa (siglo VII a. C.)."
         },
         {
           "desde": 600,
@@ -4804,18 +4826,20 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -168,
           "hasta": 600,
           "nombre": "Latín",
           "familia": "latin",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
         },
         {
-          "desde": null,
+          "desde": -700,
           "hasta": null,
           "nombre": "Griego",
           "familia": "griego",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Desde las colonias griegas de la costa (siglo VII a. C.)."
         },
         {
           "desde": 600,
@@ -4832,11 +4856,12 @@
           "peso": "importante"
         },
         {
-          "desde": null,
+          "desde": 1043,
           "hasta": null,
           "nombre": "Albanés",
           "familia": "albanes",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Las fuentes bizantinas nombran a los albaneses desde 1043 (Miguel Ataliates); la lengua es anterior y se escribe desde 1462."
         },
         {
           "desde": 900,
@@ -5457,11 +5482,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": 98,
           "hasta": 1250,
           "nombre": "Religión báltica y fínica",
           "familia": "paganismo-baltico",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Tácito describe a los estios (aestii) en el año 98; vivían ahí desde mucho antes."
         },
         {
           "desde": 1250,
@@ -5495,11 +5521,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": 98,
           "hasta": null,
           "nombre": "Báltica",
           "familia": "baltica",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Tácito describe a los estios (aestii) en el año 98; vivían ahí desde mucho antes."
         },
         {
           "desde": 1200,
@@ -5511,18 +5538,20 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": 98,
           "hasta": null,
           "nombre": "Lituano, letón y prusiano antiguo",
           "familia": "balticas",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Tácito describe a los estios (aestii) en el año 98; vivían ahí desde mucho antes."
         },
         {
-          "desde": null,
+          "desde": 98,
           "hasta": null,
           "nombre": "Estonio y livonio",
           "familia": "finicas",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Tácito describe a los estios (aestii) en el año 98; vivían ahí desde mucho antes."
         },
         {
           "desde": 1200,
@@ -6114,11 +6143,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": 600,
           "hasta": 988,
           "nombre": "Religión eslava",
           "familia": "paganismo-eslavo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos orientales se asientan en la región entre los siglos VI y VIII."
         },
         {
           "desde": 988,
@@ -6144,11 +6174,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": 600,
           "hasta": null,
           "nombre": "Eslava oriental",
           "familia": "eslava-oriental",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos orientales se asientan en la región entre los siglos VI y VIII."
         },
         {
           "desde": 862,
@@ -6167,11 +6198,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": 600,
           "hasta": 1500,
           "nombre": "Eslavo oriental antiguo",
           "familia": "eslavo-oriental",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los eslavos orientales se asientan en la región entre los siglos VI y VIII."
         },
         {
           "desde": 1500,
@@ -6195,11 +6227,12 @@
           "peso": "minoritaria"
         },
         {
-          "desde": null,
+          "desde": 862,
           "hasta": null,
           "nombre": "Lenguas fínicas del norte (carelio, vepsio y otras)",
           "familia": "finicas",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "La Crónica de Néstor nombra a los chudes y a los ves (vepsios) en 862; vivían ahí desde mucho antes."
         },
         {
           "desde": 1240,
@@ -6341,11 +6374,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": -734,
           "hasta": 400,
           "nombre": "Religión grecorromana",
           "familia": "religion-grecorromana",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la fundación de Naxos, la primera colonia griega de Sicilia (734 a. C.)."
         },
         {
           "desde": 400,
@@ -6399,7 +6433,7 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": null,
+          "desde": 300,
           "hasta": 1493,
           "nombre": "Judaísmo",
           "familia": "judaismo",
@@ -6409,11 +6443,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": -734,
           "hasta": 900,
           "nombre": "Griega",
           "familia": "griega",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la fundación de Naxos, la primera colonia griega de Sicilia (734 a. C.)."
         },
         {
           "desde": -241,
@@ -6465,20 +6500,22 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": null,
+          "desde": 300,
           "hasta": 1493,
           "nombre": "Judía",
           "familia": "judia",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Hay comunidades judías documentadas en Sicilia desde la época romana tardía."
         }
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -734,
           "hasta": 900,
           "nombre": "Griego",
           "familia": "griego",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la fundación de Naxos, la primera colonia griega de Sicilia (734 a. C.)."
         },
         {
           "desde": -241,
@@ -6769,11 +6806,12 @@
       ],
       "religiones": [
         {
-          "desde": null,
+          "desde": 1,
           "hasta": 1250,
           "nombre": "Religión fínica tradicional",
           "familia": "paganismo-finico",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Hacia el cambio de era las lenguas fínicas ya se hablan en el sudoeste de Finlandia; antes no hay registro."
         },
         {
           "desde": 1150,
@@ -6806,11 +6844,12 @@
       ],
       "culturas": [
         {
-          "desde": null,
+          "desde": 1,
           "hasta": null,
           "nombre": "Finesa",
           "familia": "finesa",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Hacia el cambio de era las lenguas fínicas ya se hablan en el sudoeste de Finlandia; antes no hay registro."
         },
         {
           "desde": 1250,
@@ -6822,18 +6861,20 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": 1,
           "hasta": null,
           "nombre": "Finés y carelio",
           "familia": "finicas",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Hacia el cambio de era las lenguas fínicas ya se hablan en el sudoeste de Finlandia; antes no hay registro."
         },
         {
-          "desde": null,
+          "desde": 1,
           "hasta": null,
           "nombre": "Sami (Laponia)",
           "familia": "uralicas",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Hacia el cambio de era los antepasados de los sami ya viven en Finlandia; antes no hay registro."
         },
         {
           "desde": 1250,

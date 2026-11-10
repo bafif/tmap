@@ -12,7 +12,7 @@ config_version=5
 
 config/name="TellMAP"
 config/description="Atlas histórico interactivo: fronteras, pueblos y fuentes ordenadas en el espacio y el tiempo."
-config/version="0.3.1"
+config/version="0.3.2"
 run/main_scene="res://scenes/principal.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
@@ -77,4 +77,5 @@ renderer/rendering_method="forward_plus"
 renderer/rendering_method.mobile="gl_compatibility"
 rendering_device/fallback_to_opengl3=true
 textures/canvas_textures/default_texture_filter=1
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.074, 0.11, 0.14, 1)

@@ -80,7 +80,12 @@ runs well from an old laptop to a gaming PC.
 
 ## Try it
 
-You need [Godot 4.7](https://godotengine.org/download) (free, about 100 MB).
+The simplest way is to download the [latest release](https://github.com/bafif/tmap/releases/latest) for Linux,
+Windows or macOS: unzip it and open it, nothing to install. The macOS build is not notarized by Apple: the first time,
+macOS says it cannot check it; open it anyway from **System Settings → Privacy & Security**, or in the Terminal with
+`xattr -dr com.apple.quarantine TellMAP.app`.
+
+To run it from the source you need [Godot 4.7](https://godotengine.org/download) (free, about 100 MB).
 
 ```bash
 git clone https://github.com/bafif/tmap.git
@@ -116,8 +121,8 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [ ] 3D view with relief, water and effects
 - [ ] Progressive encyclopedia filling with AI and human review
 - [ ] Animated migrations, routes and movements of peoples
-- [ ] Downloadable builds: Linux and Windows are exported automatically when a GitHub release is published (the
-      first one is still to come); macOS and the browser, later
+- [x] Downloadable builds for Linux, Windows and macOS, exported automatically when a GitHub release is published
+- [ ] Browser build
 
 ## Documentation (in Spanish)
 

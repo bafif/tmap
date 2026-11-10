@@ -2588,11 +2588,12 @@
           "peso": "importante"
         },
         {
-          "desde": null,
+          "desde": -814,
           "hasta": null,
           "nombre": "Bereber (amazig)",
           "familia": "bereber",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Pueblos originarios del Magreb, anteriores a Cartago (814 a. C.), con la que empieza el registro de esta región."
         },
         {
           "desde": 700,
@@ -2604,11 +2605,12 @@
       ],
       "idiomas": [
         {
-          "desde": null,
+          "desde": -814,
           "hasta": null,
           "nombre": "Lenguas bereberes",
           "familia": "bereberes",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Pueblos originarios del Magreb, anteriores a Cartago (814 a. C.), con la que empieza el registro de esta región."
         },
         {
           "desde": -814,

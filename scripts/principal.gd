@@ -342,6 +342,8 @@ func _prueba_automatica() -> void:
 		await get_tree().process_frame
 		await get_tree().process_frame
 	print("[prueba] ventana para el recorrido: %s" % get_viewport().get_visible_rect().size)
+	await _prueba_globo()
+	paso.call("globo del mapa")
 	var informe: Dictionary = await Recorrido.new(interfaz).correr()
 	for s in informe["sin_efecto"]:
 		push_error("[prueba] el clic no hizo nada: %s" % s)
@@ -377,3 +379,50 @@ func _prueba_automatica() -> void:
 	print("[prueba] TERMINADA sin cortes")
 	get_tree().quit()
 
+
+
+## El globo sigue al mouse solo sobre el mapa. Si el mouse pasa al panel lateral, se apaga (antes quedaba clavado
+## encima del texto) y no vuelve a aparecer al cambiar de año mientras el mouse sigue ahí.
+func _prueba_globo() -> void:
+	Estado.fijar_modo("politico")
+	Estado.fijar_anio(-1350)
+	var egipto := Proyeccion.a_px(31.2, 30.0)
+	Estado.seleccionar_lugar(DatosMapa.unidad_en(egipto), egipto)
+	vista.volar_a(egipto, 2.0)
+	for i in 240:
+		if not (vista._vuelo and vista._vuelo.is_running()) and not (interfaz.panel._tween and interfaz.panel._tween.is_running()):
+			break
+		await get_tree().process_frame
+	var sobre_mapa := vista.mundo_a_pantalla(egipto)
+	# El panel termina arriba de la línea de tiempo: antes, al abrirse, a veces quedaba más largo que la ventana.
+	if interfaz.panel.get_global_rect().end.y > get_viewport().get_visible_rect().size.y:
+		push_error("[prueba] el panel quedó más largo que la ventana: %s" % interfaz.panel.get_global_rect())
+	# Por las dudas, la parte visible del panel.
+	var visible_panel := interfaz.panel.get_global_rect().intersection(get_viewport().get_visible_rect())
+	var sobre_panel := Vector2(visible_panel.get_center().x, visible_panel.position.y + minf(120.0, visible_panel.size.y * 0.5))
+	if interfaz.panel.get_global_rect().has_point(sobre_mapa):
+		push_error("[prueba] globo: Egipto quedó debajo del panel (%s); no se puede probar" % sobre_mapa)
+		return
+	var mover := func(pos: Vector2) -> void:
+		var m := InputEventMouseMotion.new()
+		m.position = pos
+		m.global_position = pos
+		get_viewport().push_input(m)
+		await get_tree().process_frame
+		await get_tree().process_frame
+	await mover.call(sobre_mapa)
+	if not interfaz.globo.visible:
+		push_error("[prueba] globo: no apareció con el mouse sobre Egipto")
+	await mover.call(sobre_panel)
+	if interfaz.globo.visible:
+		push_error("[prueba] globo: quedó visible con el mouse sobre el panel")
+	Estado.fijar_anio(-1300)
+	await get_tree().process_frame
+	if interfaz.globo.visible:
+		push_error("[prueba] globo: reapareció sobre el panel al cambiar de año")
+	await mover.call(sobre_mapa)
+	if not interfaz.globo.visible:
+		push_error("[prueba] globo: no volvió a aparecer al pasar del panel al mapa")
+	elif interfaz.globo.get_global_rect().intersects(interfaz.panel.get_global_rect()):
+		push_error("[prueba] globo: tapa el panel con el mouse sobre el mapa")
+	Estado.seleccionar_lugar(0, Vector2.ZERO)

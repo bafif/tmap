@@ -19,13 +19,15 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
       muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
-- [ ] **Probar en otros equipos.** Windows y una notebook con gráficos integrados. El `.exe` de la 0.3.0 ya pasó
-      `--verificar` y la prueba completa con wine; falta un Windows de verdad. El modo OpenGL
+- [ ] **Probar en otros equipos.** Windows, una Mac y una notebook con gráficos integrados. El `.exe` de la 0.3.0
+      ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La versión de macOS (desde la
+      0.3.2) la comprueba `version.yml` en una Mac de GitHub (firma y `--verificar`); falta usarla en una Mac. El modo OpenGL
       (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
-- [ ] **Publicar la versión 0.3.1, la primera que se actualiza sola.** La 0.3.0 (publicada el 7 de noviembre) no
-      trae el actualizador: quien la tenga baja la 0.3.1 a mano esta única vez. Al publicar la v0.3.1, `version.yml`
-      exporta, sube los ejecutables y crea la versión fija `actualizaciones` con el primer manifiesto; desde ahí las
-      apps se actualizan solas y `datos.yml` publica los datos nuevos.
+- [ ] **Que la app de macOS también se actualice sola.** Hoy en macOS solo se actualizan los datos; para una
+      versión nueva de la app, el aviso lleva a la página de descarga. Reemplazar el binario de adentro de
+      `TellMAP.app` invalidaría su firma: hay que bajar el `.app` entero (un zip), cambiarlo de una vez y reabrir.
+- [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
+      abra con doble clic sin pasar por Privacidad y seguridad. Lo decide Bautista.
 - [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
       editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
       actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
@@ -104,6 +106,29 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: versión 0.3.2, también para macOS
+
+- [x] **Versión 0.3.1 publicada** en GitHub (la primera que se actualiza sola), con la versión fija
+      `actualizaciones` y su manifiesto.
+- [x] **Versión para macOS**: `TellMAP.app` universal (Intel y Apple Silicon), con firma ad hoc y sin notarizar.
+      Se exporta desde Linux con el preset «macOS» de `export_presets.cfg` (pide `import_etc2_astc` en
+      `project.godot`, que no cambia nada en Linux ni Windows porque no hay texturas comprimidas para la GPU), y el
+      trabajo `verificar-macos` de `version.yml` comprueba en una Mac de GitHub la firma y `--verificar`; si falla,
+      saca el zip de la versión. La app no se reemplaza sola en macOS (los datos sí) y «Reiniciar ahora» reabre el
+      paquete con `OS.create_instance`.
+- [x] Arreglado: **el globo del mapa quedaba clavado encima del panel**. Solo se actualizaba con los movimientos que
+      llegaban al mapa: al pasar rápido al panel quedaba visible con el último lugar, tapando el texto, y al cambiar
+      de año con el mouse sobre el panel volvía a aparecer. Ahora se apaga apenas el mouse pasa a la interfaz, no
+      cruza el panel cuando el cursor está sobre el mapa al lado, y la prueba automática lo comprueba.
+- [x] Arreglado: **el panel lateral a veces quedaba más largo que la ventana**, por debajo de la línea de tiempo y con
+      el final del texto fuera de alcance. Se abría animando `position`, y Godot recalcula con eso los cuatro márgenes
+      con el tamaño del momento: si el contenido todavía se estaba armando, ese alto quedaba fijo. Ahora se corre
+      solo con sus márgenes horizontales, y la prueba automática comprueba que termine dentro de la ventana.
+- [x] Arreglado: **religiones, culturas e idiomas «desde siempre»**. Con `"desde": null` la app pintaba el mapa desde
+      3400 a. C.: los Balcanes con religión romana en el Neolítico. Las 45 entradas así (43 de `edad-media.json` y 2
+      de `tierra-santa.json`) tienen ahora la fecha desde la que hay registro (la conquista romana, la primera
+      mención, la llegada) y una nota que la explica; `validar.py` rechaza un `desde` vacío en esas capas.
 
 ### 10 de noviembre de 2026: actualizaciones automáticas
 

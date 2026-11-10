@@ -25,6 +25,11 @@ var _recorrido := 0.0
 var _vuelo: Tween
 var _hover_unidad := 0
 var _hover_valor := -1
+## Si el último movimiento del mouse cayó sobre el mapa y no sobre la interfaz (el panel, la línea de tiempo).
+var _mouse_en_mapa := false
+## Un movimiento del mouse que todavía no llegó a _unhandled_input: si al procesar el cuadro sigue así, se lo quedó
+## la interfaz y el globo se apaga (si no, quedaría clavado encima del panel).
+var _movimiento_sin_mapa := false
 ## Valores por unidad del modo de capa actual (religión, cultura, idioma); vacío en los otros modos.
 var _valores_capa := PackedInt32Array()
 ## Desde qué valor una unidad de la capa actual se pinta tenue (0 en los otros modos).
@@ -165,6 +170,10 @@ func _valor_de(u: int) -> int:
 
 
 func _process(delta: float) -> void:
+	if _movimiento_sin_mapa:
+		_movimiento_sin_mapa = false
+		if _mouse_en_mapa:
+			_salir_hover()
 	var mover := Input.get_vector("mapa_izquierda", "mapa_derecha", "mapa_arriba", "mapa_abajo")
 	if mover != Vector2.ZERO:
 		camara.position += mover * 900.0 * delta / camara.zoom.x
@@ -280,6 +289,8 @@ func _unhandled_input(ev: InputEvent) -> void:
 			get_viewport().set_input_as_handled()
 	elif ev is InputEventMouseMotion:
 		var m := ev as InputEventMouseMotion
+		_movimiento_sin_mapa = false
+		_mouse_en_mapa = true
 		if _arrastrando:
 			_recorrido += m.relative.length()
 			if _recorrido >= UMBRAL_ARRASTRE:
@@ -344,13 +355,27 @@ func _hover(pos: Vector2) -> void:
 
 func _refrescar_hover() -> void:
 	_hover_valor = -2
-	_hover(get_viewport().get_mouse_position())
+	# Con el mouse sobre el panel o la línea de tiempo, el globo no tiene que aparecer (al reproducir, por ejemplo).
+	if _mouse_en_mapa:
+		_hover(get_viewport().get_mouse_position())
 	_actualizar_valor_sel()
+
+
+func _input(ev: InputEvent) -> void:
+	if ev is InputEventMouseMotion:
+		_movimiento_sin_mapa = true
 
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_WM_MOUSE_EXIT:
-		_hover_unidad = 0
-		material_mapa.set_shader_parameter("unidad_hover", 0)
-		material_mapa.set_shader_parameter("valor_hover", -1)
-		hover_cambiado.emit(0, {}, Vector2.ZERO)
+		_salir_hover()
+
+
+## El mouse dejó el mapa (salió de la ventana o pasó a la interfaz): sin resaltado ni globo.
+func _salir_hover() -> void:
+	_mouse_en_mapa = false
+	_hover_unidad = 0
+	_hover_valor = -1
+	material_mapa.set_shader_parameter("unidad_hover", 0)
+	material_mapa.set_shader_parameter("valor_hover", -1)
+	hover_cambiado.emit(0, {}, Vector2.ZERO)

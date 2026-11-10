@@ -81,7 +81,12 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
 
 ## Probarlo
 
-Hace falta [Godot 4.7](https://godotengine.org/download) (es libre y pesa unos 100 MB).
+Lo más simple es bajar la [última versión](https://github.com/bafif/tmap/releases/latest) para Linux, Windows o macOS:
+se descomprime y se abre, sin instalar nada. La versión de macOS no está notarizada por Apple: la primera vez, macOS
+dice que no puede comprobarla; se abre igual desde **Configuración del Sistema → Privacidad y seguridad**, o en la
+Terminal con `xattr -dr com.apple.quarantine TellMAP.app`.
+
+Para correrla desde el código hace falta [Godot 4.7](https://godotengine.org/download) (es libre y pesa unos 100 MB).
 
 ```bash
 git clone https://github.com/bafif/tmap.git
@@ -118,8 +123,8 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 - [ ] Vista 3D con relieve, agua y efectos
 - [ ] Llenado progresivo de la enciclopedia con IA y revisión humana
 - [ ] Migraciones, rutas y movimientos de pueblos animados
-- [ ] Versiones descargables: las de Linux y Windows se exportan solas al publicar una versión en GitHub (falta
-      publicar la primera); macOS y navegador, después
+- [x] Versiones descargables para Linux, Windows y macOS, que se exportan solas al publicar una versión en GitHub
+- [ ] Versión para el navegador
 
 ## Documentación
 

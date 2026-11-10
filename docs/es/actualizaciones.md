@@ -41,6 +41,9 @@ nada del usuario: es un pedido a GitHub, como abrir la página del proyecto.
 - **El ejecutable**: se baja a la carpeta del usuario, se comprueba, se escribe junto al actual como `.nuevo` y se
   renombra encima. En Linux el proceso que corre sigue con el archivo viejo; en Windows, que no deja pisar un
   ejecutable abierto, el viejo se renombra a `.viejo` y se borra la próxima vez.
+- **macOS**: la app no se reemplaza sola. El ejecutable vive dentro de `TellMAP.app`, firmado (ad hoc), y cambiarlo
+  invalidaría la firma: el manifiesto no trae una entrada `macos-*` y la app avisa que hay una versión nueva con la
+  página de descarga. Los datos sí se actualizan solos, porque van a la carpeta del usuario.
 
 ## Publicar
 

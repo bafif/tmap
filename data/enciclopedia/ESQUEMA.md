@@ -75,6 +75,9 @@ deja afuera pedazos de la región. El validador lo controla.
   demás (desiertos, zonas sin estado registrado): así se ve el contorno real de cada época, como el valle del Nilo en
   el Egipto antiguo, aunque el polígono sea aproximado.
 - `desde` y `hasta` en eras, religiones, culturas e idiomas: `"hasta": null` quiere decir que sigue hasta hoy.
+  En religiones, culturas e idiomas `desde` es obligatorio: la app lee un `null` como «desde siempre» (3400 a. C.) y
+  así pinta el mapa. Si algo es anterior a lo documentado, va la fecha desde la que hay registro (la conquista, la
+  primera mención, la llegada) y una `nota` que lo explique; `validar.py` rechaza el `null`.
 - `familia` (obligatoria en religiones, culturas e idiomas): el `id` de una familia de la misma capa en la sección
   [`familias`](#familias). Agrupa para colorear el mapa, da el nombre de la leyenda y abre la ficha de la familia.
   El `nombre` de la entrada puede ser más preciso para esa región («Islam sunní (conquistadores y conversos)»).

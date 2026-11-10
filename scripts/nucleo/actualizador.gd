@@ -204,7 +204,11 @@ func reiniciar() -> void:
 	if not OS.get_cmdline_user_args().is_empty():
 		argumentos.append("--")
 		argumentos.append_array(OS.get_cmdline_user_args())
-	OS.create_process(exe, argumentos)
+	if OS.get_name() == "macOS" and exe == OS.get_executable_path():
+		# En macOS el ejecutable vive dentro de TellMAP.app: create_instance vuelve a abrir el paquete entero.
+		OS.create_instance(argumentos)
+	else:
+		OS.create_process(exe, argumentos)
 	get_tree().quit()
 
 
