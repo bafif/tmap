@@ -40,16 +40,34 @@ hacerlo:
 
 ### Contenido de la enciclopedia
 
-- [ ] **Europa medieval: lo que quedó afuera.** Sin región: Finlandia, Cerdeña y Córcega, y la estepa del mar Negro
-      con Crimea (pechenegos, cumanos, Horda de Oro, colonias genovesas). Sin demografía con fuente: Bohemia, Balcanes,
-      Valaquia y Moldavia, Báltico y Sicilia (Russell y Urlanis las dan agrupadas con otras regiones).
+El universo cubierto y el que falta, región por región, está en [docs/es/cobertura.md](docs/es/cobertura.md), que
+genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
+
+- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 46 regiones de `regiones-del-mundo.json`
+      (Siberia, Japón, África, las Américas, Oceanía…) tienen resumen, eras y población, pero no esas tres capas:
+      el modo de religión, cultura o idioma las deja rayadas. Habrá que sumar familias (sintoísmo, religiones
+      tradicionales africanas, lenguas bantúes, austronesias…).
+- [ ] **Estimaciones curadas fuera de Europa y el Cercano Oriente.** Las series por país de HYDE cubren todo, pero
+      la parte de la población mundial que tiene además una estimación de especialistas para su región (Russell,
+      Urlanis, Butzer, DellaPergola, los censos Han) va de un cuarto en el año 1 a casi nada antes de Cristo y
+      después de 1600. Candidatos: McEvedy y Jones (1978) para todo el mundo, Durand
+      para China e India, Scheidel para el Imperio romano, Livi-Bacci para América. Sin estimación curada siguen
+      también Bohemia, los Balcanes, Valaquia y Moldavia, el Báltico y Sicilia (Russell y Urlanis las dan agrupadas).
+- [ ] **Población por polígono.** Las series son de países enteros: una región más chica que sus países (la Rus,
+      Mesoamérica, los Andes) recibe la población de los países completos, y 24 regiones (Siberia, el Tíbet, el sur
+      de la India, la Patagonia…) no tienen serie propia. Con las grillas de HYDE se podría sumar la población dentro
+      de cada polígono (ver 0.4).
+- [ ] **Tierra que queda sin región** (0,4 %): el extremo de Chukotka al este del meridiano 180, Svalbard, Hawái, las
+      Malvinas, las Azores y otras islas alejadas, y franjas costeras que los polígonos curados no alcanzan. El
+      detalle por país está en el informe de cobertura.
 - [ ] **Fuentes medievales sin lugar de escritura.** 18 fuentes (Beowulf, la Edda poética, el Cantar de Roldán, el
       Cuzarí…) no aparecen en el mapa porque su lugar es desconocido; cargar el que proponga la bibliografía, con
       `aprox` y confianza baja, o dejarlas así.
 - [ ] **Más enlaces de lectura.** 104 enlaces comprobados para 69 fuentes; faltan traducciones en español y textos de
       sitios como el Medieval Sourcebook de Fordham o el Corpus Thomisticum.
-- [ ] **Tierra Santa: lo que quedó afuera.** Sin región: Armenia y la Cilicia armenia, aliada de los cruzados; el Sinaí
-      va con Egipto. Sin demografía con fuente: Líbano, Siria, Transjordania, Arabia, Magreb y Chipre. 24 fuentes sin
+- [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
+      Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
+      hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
       lugar de escritura (el Nuevo Testamento, la Crónica de Miguel el Sirio, las fatuas de Bin Laden…). Los rollos
       digitalizados del Museo de Israel (dss.collections.imj.org.il) no respondían el 10/11/2026 y sus enlaces se
       sacaron. Los videos con que grupos yihadistas reivindican atentados no se enlazan, a propósito: los hechos
@@ -59,7 +77,11 @@ hacerlo:
 
 - [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
 - [ ] **Personas de Wikidata.** Con lugar y fecha de nacimiento y muerte.
-- [ ] **Población de HYDE.** Estimaciones por grilla para todo el mundo.
+- [ ] **Grillas de población de HYDE.** La serie por país de HYDE ya está (vía Our World in Data, ver **Hecho**).
+      Falta la grilla de 5 minutos de arco, con sus escenarios bajo y alto, para sumar la población dentro de cada
+      polígono, dar rangos de incertidumbre y poblar un modo de densidad en el mapa. El 10/11/2026 el servidor de la
+      Universidad de Utrecht (geo.public.data.uu.nl) pedía resolver una verificación anti-bots y el depósito de HYDE
+      3.2 en DANS no respondía: hay que bajarla a mano desde un navegador y dejarla en `raw_data/`.
 - [ ] **Vasallaje.** Las relaciones de vasallaje y dependencia de Cliopatria.
 
 ### Movimiento (0.5)
@@ -79,6 +101,32 @@ hacerlo:
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: el mundo entero en regiones, con su población
+
+- [x] **Las regiones que faltaban**, con eras, religiones, culturas e idiomas: Armenia (la meseta armenia) y Cilicia
+      (hija de Anatolia) en `tierra-santa.json`; Finlandia, Cerdeña y Córcega y la estepa póntica en
+      `edad-media.json`. 14 familias nuevas (tengrismo, religión escita, armenio, sardo, lenguas hurrito-urarteas…).
+- [x] **Paquete `regiones-del-mundo.json`**: 46 regiones que completan el mapa (Siberia y el Lejano Oriente ruso, el
+      Cáucaso, Asia central, el Tíbet, Japón, Corea, el sudeste asiático, el sur de la India, África por regiones, las
+      Américas fuera de Mesoamérica, los Andes y el Río de la Plata, Oceanía), con resumen y eras. Los polígonos salen
+      de las fronteras de los países de Natural Earth: cada frontera compartida se simplifica una sola vez para los dos
+      lados y la que linda con una región curada se pega a sus vértices, así que no se superponen; las costas pueden
+      abultarse sobre el mar pero no recortar tierra. Entre todas, las 88 regiones cubren el 99,6 % de la tierra firme
+      (antes, el 16 %).
+- [x] **Población de todas las regiones desde el 10 000 a. C.**: `tools/enciclopedia/poblacion.py` suma la serie por
+      país de Our World in Data (HYDE 3.3 hasta 1799, Gapminder v7 hasta 1949 y la ONU desde 1950) según la
+      asignación de `poblacion_regiones.json`, en 37 fechas. Las estimaciones curadas mandan; en las islas que se
+      poblaron tarde se omiten los valores de modelo anteriores al poblamiento (HYDE daba gente en Islandia antes de
+      874). 64 regiones tienen serie propia y 24 se cuentan dentro de otra; solo Santa Elena y las Malvinas quedan sin
+      región.
+- [x] **Informe de cobertura** (`docs/es/cobertura.md`), generado por `tools/enciclopedia/cobertura.py` con las
+      unidades del mapa y el extracto de población: tierra cubierta, qué parte de la población mundial tiene serie y
+      cuál estimación curada en cada época, una fila por región con sus capas y elementos, y lo que falta. `validar.py`
+      avisa si el informe o las series quedaron viejos.
+- [x] Arreglado: el polígono de `francia` tenía los Pirineos invertidos y dejaba afuera Gascuña, el Bearne y las Landas;
+      el de `arabia` tenía la frontera con Jordania al revés y se metía en Jordania. El validador ahora rechaza los
+      polígonos con vértices repetidos o lados que se cruzan.
 
 ### 10 de noviembre de 2026: Tierra Santa, de la Antigüedad a hoy
 

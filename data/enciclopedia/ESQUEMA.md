@@ -39,7 +39,10 @@ dato no es seguro, se marca `"aprox": true` y `"confianza": "baja"`, o directame
 
 ### `regiones`
 
-Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 40 vértices) y puede estar dentro de otra.
+Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 40 vértices; hasta 60 en las regiones
+armadas con las fronteras de los países actuales) y puede estar dentro de otra. El polígono tiene que ser un anillo
+simple, sin vértices repetidos ni lados que se crucen: con la regla par-impar que usa la app, un anillo que se cruza
+deja afuera pedazos de la región. El validador lo controla.
 
 ```json
 {
@@ -79,6 +82,9 @@ Una región es un área de estudio. Se dibuja con un polígono aproximado (10 a 
   Population History*, 1978; Scheidel; Bagnall y Frier). Con `min` y `max` cuando la literatura da un rango. Si no
   hay fuente, no se pone. Las cifras que dan los autores antiguos (Diodoro, Josefo…) llevan
   `"tipo": "testimonio-antiguo"`: la app las muestra aparte y nunca las usa para estimar ni graficar.
+  Las entradas cuya fuente termina en «vía Our World in Data» las escribe `tools/enciclopedia/poblacion.py` (la suma
+  de los países que `tools/enciclopedia/poblacion_regiones.json` asigna a la región) y se reemplazan cada vez que se
+  corre: no se editan a mano. Las estimaciones curadas mandan sobre ellas.
 - Cualquier entrada de `eras`, `demografia`, `religiones`, `culturas` o `idiomas` puede llevar una `nota` con la
   aclaración que haga falta (incertidumbre, debates).
 - `extendida` (opcional): la ficha extendida, la historia completa por secciones (el nivel 3 de

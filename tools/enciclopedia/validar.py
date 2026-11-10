@@ -4,7 +4,7 @@ Uso: python3 tools/enciclopedia/validar.py              (sale con código 1 si h
      python3 tools/enciclopedia/validar.py --borradores  (también los borradores de paquetes/borradores/)
 
 Revisa: JSON válido, ids únicos entre paquetes, referencias (autor_id, obras, fuentes, regiones, padre, familia), que no
-haya año 0, coordenadas dentro de rango, polígonos de al menos tres puntos, valores permitidos en los campos cerrados y
+haya año 0, coordenadas dentro de rango, polígonos de al menos tres puntos que no se crucen, valores permitidos en los campos cerrados y
 la sección `familias` (capa, padre sin ciclos, color) y la ficha extendida de las regiones (cada cita apunta a una
 referencia con URL, y lo redactado con IA tiene su revisión humana).
 
@@ -47,6 +47,33 @@ def punto(d, donde):
         errores.append(f"{donde}: coordenadas fuera de rango ({d['lon']}, {d.get('lat')})")
 
 
+def poligono_roto(poli) -> str:
+    """Describe por qué un polígono no es un anillo simple (vértices repetidos o lados que se cruzan), o devuelve ''.
+
+    Con la regla par-impar que usa la app, un anillo que se pellizca o se cruza deja afuera pedazos de la región o
+    mete pedazos de las vecinas.
+    """
+    p = [tuple(v[:2]) for v in poli]
+    if len(set(p)) < len(p):
+        repetidos = sorted({v for v in p if p.count(v) > 1})
+        return f"vértice repetido {list(repetidos[0])}"
+
+    def giro(a, b, c):
+        v = (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0])
+        return (v > 1e-12) - (v < -1e-12)
+
+    n = len(p)
+    for i in range(n):
+        a, b = p[i], p[(i + 1) % n]
+        for j in range(i + 2, n):
+            if i == 0 and j == n - 1:
+                continue
+            c, d = p[j], p[(j + 1) % n]
+            if giro(a, b, c) * giro(a, b, d) < 0 and giro(c, d, a) * giro(c, d, b) < 0:
+                return f"el lado {i} se cruza con el lado {j}"
+    return ""
+
+
 def extendida(ext, d, es_borrador):
     if not isinstance(ext, dict):
         errores.append(f"{d}: la ficha extendida no tiene el formato del esquema")
@@ -66,6 +93,28 @@ def extendida(ext, d, es_borrador):
     if isinstance(ext.get("ia"), dict) and not isinstance(ext.get("revision"), dict):
         (avisos if es_borrador else errores).append(
             f"{d}/extendida: redactada con IA y sin revisión humana (falta «revision»)")
+
+
+def controlar_cobertura():
+    """Avisa si la población o el informe de cobertura (docs/es/cobertura.md) no están al día con los paquetes."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    try:
+        import cobertura
+        import poblacion
+    except ImportError as e:
+        avisos.append(f"no se pudo revisar la cobertura: {e}")
+        return
+    mapa, datos = poblacion.cargar()
+    paquetes = {f: json.loads(f.read_text(encoding="utf-8")) for f in sorted(DIR.glob("*.json"))
+                if f.name != "familias.json"}
+    regiones = {r["id"]: r for d in paquetes.values() for r in d.get("regiones", [])}
+    for p in poblacion.controlar(mapa, datos, set(regiones)):
+        avisos.append(f"población: {p} (tools/enciclopedia/poblacion_regiones.json)")
+    for rid, r in regiones.items():
+        if r.get("demografia", []) != poblacion.demografia(r, mapa["series"].get(rid), datos):
+            avisos.append(f"población: la serie de {rid} no está al día (corré python3 tools/enciclopedia/poblacion.py)")
+    if cobertura.SALIDA.read_text(encoding="utf-8") != cobertura.generar():
+        avisos.append("docs/es/cobertura.md está desactualizado (corré python3 tools/enciclopedia/cobertura.py)")
 
 
 def main():
@@ -115,6 +164,8 @@ def main():
             if not (-180 <= p[0] <= 180 and -90 <= p[1] <= 90):
                 errores.append(f"{d}: vértice fuera de rango {p}")
                 break
+        if len(poli) >= 3 and (motivo := poligono_roto(poli)):
+            (avisos if arch.startswith("borradores/") else errores).append(f"{d}: el polígono no es un anillo simple ({motivo})")
         for capa in ("eras", "religiones", "culturas", "idiomas"):
             for e in r.get(capa, []):
                 anio(e.get("desde"), f"{d}/{capa}")
@@ -221,6 +272,8 @@ def main():
                 actual = familias[c][actual][1].get("padre")
             if not f.get("wikipedia"):
                 avisos.append(f"{d}: sin artículo de Wikipedia")
+
+    controlar_cobertura()
 
     print("Totales:", ", ".join(f"{s}: {len(todo[s])}" for s in SECCIONES),
           "| familias:", ", ".join(f"{c} {len(familias[c])}" for c in CAPAS))

@@ -12,7 +12,8 @@ const DESCRIPCION_CALIDAD := {
 }
 const CREDITOS := """[b]Datos[/b]
 • Fronteras políticas: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.
-• Costas, lagos y ríos: [url=https://www.naturalearthdata.com]Natural Earth[/url], dominio público.
+• Costas, lagos, ríos y países actuales: [url=https://www.naturalearthdata.com]Natural Earth[/url], dominio público.
+• Población por país: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder y ONU, World Population Prospects 2024), CC BY 4.0.
 • Relieve: GEBCO 2008 en la versión de la NASA; color del terreno: NASA Blue Marble Next Generation (julio de 2004), dominio público.
 • Textos de la enciclopedia: Wikipedia (CC BY-SA 4.0) y los paquetes propios en data/enciclopedia.
 [b]Tipografías[/b]

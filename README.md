@@ -69,8 +69,9 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
   Tinta y latón.
 - **Hecho para crecer de a poco.** La enciclopedia son archivos JSON legibles, por paquetes, que se editan con
   formularios dentro de la app. Hoy trae un piloto completo sobre el antiguo Egipto, la Europa medieval con su filosofía,
-  Tierra Santa de la Antigüedad a hoy y una muestra de once regiones; el
-  resto se completa por etapas, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
+  Tierra Santa de la Antigüedad a hoy y regiones que cubren el resto del mundo con su población estimada; el
+  resto se completa por etapas, y [un informe que se genera solo](docs/es/cobertura.md) dice qué está cubierto y qué
+  no, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
   siempre cita sus fuentes y pasa por revisión humana.
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Lo único que sale a internet es la consulta a Wikipedia
   cuando abrís una ficha, y queda en caché.
@@ -102,6 +103,8 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 - [x] Enciclopedia piloto del antiguo Egipto y muestra de once regiones
 - [x] Paquete de la Europa medieval: 15 regiones, 173 fuentes (con énfasis en la filosofía), 215 personas, 125 hechos
       y 120 lugares, verificados contra Wikipedia y Wikidata
+- [x] Regiones para todo el mundo (88, sobre el 99,6 % de la tierra firme), con población estimada desde el 10 000 a. C.
+      (HYDE, Gapminder y la ONU, vía Our World in Data) y un informe de cobertura que se genera solo
 - [x] Paquete de Tierra Santa: 7 regiones, 176 fuentes (escrituras, crónicas de las cruzadas de todos los lados,
       pensamiento judío, cristiano y musulmán, documentos modernos), 198 personas, 172 hechos y 75 lugares, verificados
       de la misma manera
@@ -122,6 +125,7 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 | [Plan del proyecto](docs/es/plan.md) | Arquitectura, decisiones técnicas y hoja de ruta por fases |
 | [Datos y licencias](docs/es/datos.md) | De dónde sale cada dato, cómo se procesa y bajo qué licencia |
 | [La enciclopedia](docs/es/enciclopedia.md) | Cómo se completa, Wikipedia y Grokipedia, IA y reglas editoriales |
+| [Cobertura](docs/es/cobertura.md) | Qué regiones, épocas y datos están cubiertos y qué falta, generado a partir de los datos |
 | [Esquema de fichas](data/enciclopedia/ESQUEMA.md) | El formato de las fuentes, personas, hechos, lugares y regiones |
 | [Pipeline de datos](tools/pipeline/README.md) | Cómo se generan el mapa y las fronteras |
 | [Cómo trabajar en TellMAP](docs/es/contribuir.md) | Convenciones, pruebas y el puente para manejar la app y el editor |
@@ -138,4 +142,4 @@ código, escribime.
 El código es [AGPL-3.0-or-later](LICENSE): podés usarlo, modificarlo y compartirlo; si ofrecés una versión modificada
 por red, tenés que ofrecer también su código. Los datos conservan sus licencias, que están detalladas en
 [Datos y licencias](docs/es/datos.md): Cliopatria (CC BY 4.0), Natural Earth y NASA (dominio público), Wikipedia
-(CC BY-SA 4.0), y las tipografías Cinzel y EB Garamond (SIL Open Font License).
+(CC BY-SA 4.0), la población de Our World in Data (CC BY 4.0), y las tipografías Cinzel y EB Garamond (SIL Open Font License).

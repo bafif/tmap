@@ -1782,6 +1782,158 @@
         "es": "Yidis",
         "en": "Yiddish"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-finico",
+      "nombre": "Religión fínica tradicional",
+      "padre": "paganismo-europeo",
+      "color": "#6f8f5a",
+      "wikipedia": {
+        "en": "Baltic Finnic paganism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-escita",
+      "nombre": "Religión escita",
+      "padre": "religiones-iranias",
+      "color": "#a3824a",
+      "wikipedia": {
+        "es": "Religión escita",
+        "en": "Scythian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "tengrismo",
+      "nombre": "Tengrismo",
+      "padre": null,
+      "color": "#4f86a8",
+      "wikipedia": {
+        "es": "Tengrianismo",
+        "en": "Tengrism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-nuragica",
+      "nombre": "Religión nurágica",
+      "padre": null,
+      "color": "#8c6d55",
+      "wikipedia": {
+        "es": "Cultura nurágica",
+        "en": "Nuragic civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "finesa",
+      "nombre": "Finesa",
+      "padre": null,
+      "color": "#5d7fa6",
+      "wikipedia": {
+        "en": "Finns"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "escita",
+      "nombre": "Escita y sármata",
+      "padre": null,
+      "color": "#b08b4f",
+      "wikipedia": {
+        "es": "Pueblos escitas",
+        "en": "Scythians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mongola",
+      "nombre": "Mongola",
+      "padre": null,
+      "color": "#7a5c8e",
+      "wikipedia": {
+        "es": "Mongoles",
+        "en": "Mongols"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "nuragica",
+      "nombre": "Nurágica",
+      "padre": null,
+      "color": "#94735a",
+      "wikipedia": {
+        "es": "Cultura nurágica",
+        "en": "Nuragic civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "sarda",
+      "nombre": "Sarda",
+      "padre": null,
+      "color": "#b5654a",
+      "wikipedia": {
+        "es": "Pueblo sardo",
+        "en": "Sardinians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "armenia",
+      "nombre": "Armenia",
+      "padre": null,
+      "color": "#b0475a",
+      "wikipedia": {
+        "es": "Pueblo armenio",
+        "en": "Armenians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "kurda",
+      "nombre": "Kurda",
+      "padre": null,
+      "color": "#c2a43c",
+      "wikipedia": {
+        "es": "Pueblo kurdo",
+        "en": "Kurds"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "armenio",
+      "nombre": "Armenio",
+      "padre": "indoeuropeas",
+      "color": "#b0475a",
+      "wikipedia": {
+        "es": "Idioma armenio",
+        "en": "Armenian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sardo",
+      "nombre": "Sardo",
+      "padre": "romances",
+      "color": "#b5654a",
+      "wikipedia": {
+        "es": "Idioma sardo",
+        "en": "Sardinian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hurrourarteas",
+      "nombre": "Lenguas hurrito-urarteas",
+      "padre": null,
+      "color": "#7d6a4e",
+      "wikipedia": {
+        "es": "Lenguas hurrito-urartianas",
+        "en": "Hurro-Urartian languages"
+      }
     }
   ]
 }

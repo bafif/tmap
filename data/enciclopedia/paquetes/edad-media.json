@@ -171,6 +171,82 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 25406,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Suma de España, Portugal, Andorra y Gibraltar en sus fronteras actuales (con Baleares y Canarias, Azores y Madeira)."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 36285,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 51870,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 74228,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 86332,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 154486,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 281718,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 522567,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 1183861,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 2275877,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 5014143,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 5260047,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 5460073,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 5210099,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 4960125,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 500,
           "poblacion": 4000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1"
@@ -196,6 +272,61 @@
           "anio": 1450,
           "poblacion": 7000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 10336903,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 9836937,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 12737767,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 14262527,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 18702247,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 23999484,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 28706085,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 36523623,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 45033846,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 51396405,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 58461680,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -550,36 +681,32 @@
           44.5
         ],
         [
-          3.17,
-          42.43
-        ],
-        [
-          2.0,
-          42.4
-        ],
-        [
-          1.45,
-          42.6
-        ],
-        [
-          0.7,
-          42.85
-        ],
-        [
-          0.0,
-          42.7
-        ],
-        [
-          -0.75,
-          42.95
+          -1.78,
+          43.37
         ],
         [
           -1.4,
           43.05
         ],
         [
-          -1.78,
-          43.37
+          -0.75,
+          42.95
+        ],
+        [
+          0.0,
+          42.7
+        ],
+        [
+          0.7,
+          42.85
+        ],
+        [
+          1.45,
+          42.6
+        ],
+        [
+          2.0,
+          42.4
         ]
       ],
       "resumen": "La antigua Galia, reino de los francos y luego de Francia. Fue el centro del monacato reformado de Cluny y el Císter, del arte gótico, de las cruzadas y, con las escuelas y la universidad de París, del pensamiento escolástico.",
@@ -629,6 +756,82 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 16785,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Francia (con Córcega, sin los territorios de ultramar, que la ONU cuenta aparte) y Mónaco, en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 24260,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 35250,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 51458,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 77188,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 103544,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 204276,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 404335,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 998175,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 1986860,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 4938643,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 5694368,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 6430046,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 5697015,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 4964011,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 500,
           "poblacion": 5000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
@@ -657,6 +860,61 @@
           "poblacion": 12000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
           "nota": "Francia y los Países Bajos juntos."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 18314626,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 21992348,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 24994858,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 29007789,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 36329083,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 40040467,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 39538036,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 41902811,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 52771849,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 59516193,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 66477807,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -987,6 +1245,107 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 2189,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Reino Unido (incluida Irlanda del Norte), la isla de Man y las islas del Canal, en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 3065,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 4291,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 6008,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 6008,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 6008,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 6008,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 27036,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 81108,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 212283,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 781041,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 846786,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 895452,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 946915,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 1001335,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 751001,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 500667,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 500667,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 730974,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 1216622,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1000,
           "poblacion": 1900000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
@@ -1039,6 +1398,61 @@
           "poblacion": 4200000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
           "nota": "Inglaterra y Gales y Escocia."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 5006677,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 6762353,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 9288177,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 10817440,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 27254502,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 41089602,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 46259648,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 50278238,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 56408948,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 59281160,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 68934870,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -1366,6 +1780,27 @@
           "anio": 1500,
           "poblacion": 800000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 2912656,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data",
+          "nota": "República de Irlanda; Irlanda del Norte se cuenta en Britania."
+        },
+        {
+          "anio": 1975,
+          "poblacion": 3180119,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 3802589,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 5196629,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -1713,6 +2148,107 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 12810,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Suma de Alemania, Austria, Países Bajos, Bélgica, Suiza, Luxemburgo y Liechtenstein en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 17556,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 24458,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 34567,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 50461,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 69288,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 137817,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 254817,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 514338,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 1026636,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 4362805,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 4665705,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 4969574,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 4924408,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 4880203,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 4573234,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 4126688,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 4365546,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 4667854,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 5021455,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1000,
           "poblacion": 6900000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
@@ -1765,6 +2301,61 @@
           "poblacion": 14400000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
           "nota": "Alemania (1914), Suiza, Bélgica y Países Bajos."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 18213437,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 20191940,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 26854164,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 28132832,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 47787691,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 77144289,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 90972988,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 100518442,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 116423708,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 123773942,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 133059371,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -2090,6 +2681,107 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 1022,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Suma de Suecia, Noruega, Dinamarca, las islas Feroe y Svalbard en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 1723,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 3017,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 5465,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 6328,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 7370,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 8975,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 12651,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 22404,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 68247,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 500120,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 550123,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 600125,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 650128,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 700130,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 750133,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 800136,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 850139,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 900142,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 947731,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1000,
           "poblacion": 1100000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
@@ -2142,6 +2834,61 @@
           "poblacion": 1550000,
           "fuente": "Urlanis (1941), Rost naseleniya v Evrope, según la tabla de Wikipedia (en), «Medieval demography»",
           "nota": "Dinamarca, Suecia y Noruega."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 1966411,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 2768388,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 3375074,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 4401590,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 6361850,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 9936240,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 12141833,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 14581874,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 17301176,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 18750729,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 22075932,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -2307,10 +3054,86 @@
       ],
       "demografia": [
         {
+          "anio": 900,
+          "poblacion": 25000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Islandia. Estuvo deshabitada hasta la llegada de los nórdicos, hacia 874: los valores anteriores del modelo HYDE no se muestran."
+        },
+        {
+          "anio": 1000,
+          "poblacion": 50000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 70000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 70000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 70000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 60000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 60000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 50000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1703,
           "poblacion": 50358,
           "fuente": "Censo de Islandia de 1703 (manntal)",
           "nota": "El primer censo completo de un país: registró 50 358 personas, después de varias epidemias y hambrunas."
+        },
+        {
+          "anio": 1850,
+          "poblacion": 59333,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 77854,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 102870,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 142684,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 218029,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 281293,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 387559,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -2545,6 +3368,107 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 699,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Polonia en sus fronteras actuales, que no coinciden con las medievales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 1166,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 1944,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 3240,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 5400,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 9000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 15000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 25000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 62500,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 100000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 500000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 550000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 600000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 700000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 800000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 700000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 600000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 800000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 1000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 1125000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1000,
           "poblacion": 2000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
@@ -2561,6 +3485,61 @@
           "poblacion": 2000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
           "nota": "Polonia y Lituania juntas."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 5000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 6000000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 7529694,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 9000000,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 13045605,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 24312686,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 25401234,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 24780169,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 33964400,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 38258077,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 38762847,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -2861,6 +3840,194 @@
           "familia": "aleman",
           "peso": "importante"
         }
+      ],
+      "demografia": [
+        {
+          "anio": -10000,
+          "poblacion": 697,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Chequia."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 1395,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 2790,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 5580,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 11160,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 22320,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 44641,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 89282,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 178565,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 357130,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 714260,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 714975,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 715690,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 716407,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 717124,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 717842,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 718560,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 719280,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 720000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 810000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1000,
+          "poblacion": 900000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 1080000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 1440000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 2160000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 1800000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 2160000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 3240000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 3240000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 3687731,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 5516349,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 6826465,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 9334000,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 10370000,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 8916715,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 10030787,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 10236809,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 10809722,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
       ]
     },
     {
@@ -3038,6 +4205,82 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 3788,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Hungría y Eslovaquia en sus fronteras actuales; Transilvania se cuenta en Valaquia y Moldavia (Rumania)."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 5611,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 8415,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 12775,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 55146,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 77849,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 110998,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 159997,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 299996,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 466660,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 577767,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 578045,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 578324,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 578602,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 578881,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 500,
           "poblacion": 500000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1"
@@ -3061,6 +4304,61 @@
           "anio": 1450,
           "poblacion": 1500000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 2510000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 2641548,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 3703854,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 5390651,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 7551889,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 9972034,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 11401013,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 12803633,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 15254829,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 15570599,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 15204522,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -3554,6 +4852,49 @@
           "familia": "turco",
           "peso": "minoritaria"
         }
+      ],
+      "demografia": [
+        {
+          "anio": 1800,
+          "poblacion": 8248800,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data",
+          "nota": "Suma de Serbia, Croacia, Bosnia y Herzegovina, Montenegro, Macedonia del Norte, Albania, Bulgaria, Eslovenia y Kosovo."
+        },
+        {
+          "anio": 1850,
+          "poblacion": 8962754,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 13515255,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 17983102,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 24937004,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 32839328,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 33827921,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 29745550,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
       ]
     },
     {
@@ -3774,6 +5115,194 @@
           "familia": "eslavo-eclesiastico",
           "peso": "importante",
           "nota": "Los principados usaron el eslavo eclesiástico en la Iglesia y los documentos hasta el siglo XVII."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": -10000,
+          "poblacion": 14015,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Rumania (con Transilvania) y Moldavia en sus fronteras actuales."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 17751,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 23043,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 30771,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 42380,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 60243,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 88284,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 132998,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 338498,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 544914,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 852400,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 856143,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 860153,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 764450,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 669053,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 623986,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 579271,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 634933,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 691000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 797500,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1000,
+          "poblacion": 904000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 1056000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 1234000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 1734000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 1484000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 2312000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 2390000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 3020000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 4413996,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 6212558,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 8934715,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 12490323,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 15070055,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 18925640,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 25105019,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 26281233,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 22185554,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ]
     },
@@ -4016,6 +5545,194 @@
           "familia": "eslavo-oriental",
           "peso": "minoritaria"
         }
+      ],
+      "demografia": [
+        {
+          "anio": -10000,
+          "poblacion": 111,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Estonia, Letonia y Lituania."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 223,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 449,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 899,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 1800,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 3602,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 7205,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 14411,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 28822,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 57645,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 115292,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 121360,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 127749,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 134471,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 141549,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 148998,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 156841,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 165096,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 173786,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 182932,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1000,
+          "poblacion": 192560,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 202695,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 213364,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 224593,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 236413,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 248856,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 261954,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 275742,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 595988,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 1703379,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 2650977,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 5545206,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 5295628,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 5453771,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 7175020,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 7265731,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 6103698,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
       ]
     },
     {
@@ -4221,6 +5938,107 @@
       ],
       "demografia": [
         {
+          "anio": -10000,
+          "poblacion": 377013,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Rusia entera (con Siberia y el Cáucaso norte), Ucrania y Bielorrusia: la serie por país no permite separar la Rus histórica, la estepa ni Siberia."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 439853,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 513169,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 598710,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 698522,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 814997,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 950939,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 1109644,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 1295016,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 1511715,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 1782027,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 1980270,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 2181111,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 2384965,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 2592498,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 2639852,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 2694217,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 2924758,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 3174500,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 3401250,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
           "anio": 1000,
           "poblacion": 6000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
@@ -4237,6 +6055,61 @@
           "poblacion": 6000000,
           "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
           "nota": "Rusia europea."
+        },
+        {
+          "anio": 1600,
+          "poblacion": 13605000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 16250000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 30258986,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 44866212,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 59147763,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 93310385,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 117251458,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 147830847,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 192325618,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 206265748,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 192289014,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
       ],
       "religiones": [
@@ -4654,6 +6527,1109 @@
           "desde": 1061,
           "hasta": 1200,
           "nombre": "Francés normando",
+          "familia": "frances",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "finlandia",
+      "nombre": "Finlandia",
+      "padre": null,
+      "poligono": [
+        [
+          28.9,
+          68.95
+        ],
+        [
+          28.5,
+          68.45
+        ],
+        [
+          30.1,
+          67.65
+        ],
+        [
+          29.1,
+          66.85
+        ],
+        [
+          30.2,
+          65.75
+        ],
+        [
+          29.7,
+          64.95
+        ],
+        [
+          30.6,
+          64.25
+        ],
+        [
+          30.2,
+          63.65
+        ],
+        [
+          31.6,
+          62.95
+        ],
+        [
+          28.85,
+          61.1
+        ],
+        [
+          29.0,
+          60.75
+        ],
+        [
+          29.0,
+          60.65
+        ],
+        [
+          27.65,
+          59.9
+        ],
+        [
+          27.55,
+          59.85
+        ],
+        [
+          27.45,
+          59.9
+        ],
+        [
+          26.95,
+          60.1
+        ],
+        [
+          27.0,
+          59.85
+        ],
+        [
+          26.95,
+          59.84
+        ],
+        [
+          25.0,
+          59.8
+        ],
+        [
+          23.0,
+          59.6
+        ],
+        [
+          22.0,
+          59.4
+        ],
+        [
+          21.92,
+          59.37
+        ],
+        [
+          21.9,
+          59.35
+        ],
+        [
+          21.75,
+          59.5
+        ],
+        [
+          20.15,
+          59.4
+        ],
+        [
+          20.03,
+          59.38
+        ],
+        [
+          19.4,
+          59.9
+        ],
+        [
+          19.8,
+          60.99
+        ],
+        [
+          19.95,
+          61.0
+        ],
+        [
+          20.6,
+          61.05
+        ],
+        [
+          20.7,
+          61.75
+        ],
+        [
+          20.5,
+          62.15
+        ],
+        [
+          20.37,
+          62.31
+        ],
+        [
+          20.9,
+          63.5
+        ],
+        [
+          22.11,
+          64.36
+        ],
+        [
+          22.25,
+          64.3
+        ],
+        [
+          22.75,
+          64.4
+        ],
+        [
+          23.65,
+          65.0
+        ],
+        [
+          23.8,
+          65.15
+        ],
+        [
+          23.7,
+          65.35
+        ],
+        [
+          23.68,
+          65.48
+        ],
+        [
+          24.15,
+          65.82
+        ],
+        [
+          23.4,
+          67.2
+        ],
+        [
+          23.68,
+          67.95
+        ],
+        [
+          20.55,
+          69.06
+        ],
+        [
+          22.4,
+          68.7
+        ],
+        [
+          24.9,
+          68.6
+        ],
+        [
+          27.0,
+          69.9
+        ],
+        [
+          28.9,
+          69.06
+        ]
+      ],
+      "resumen": "La tierra de los pueblos fínicos entre el golfo de Botnia y Carelia. Fue parte del reino de Suecia desde los siglos XII y XIII hasta 1809, gran ducado autónomo del Imperio ruso hasta 1917 y desde entonces república independiente. Allí Elias Lönnrot reunió en el siglo XIX el Kalevala a partir de la poesía oral carelia.",
+      "eras": [
+        {
+          "desde": null,
+          "hasta": 1150,
+          "nombre": "Edad del Hierro fínica",
+          "resumen": "Tribus finesas, tavastas y carelias, sin Estado, que comercian con escandinavos y eslavos."
+        },
+        {
+          "desde": 1150,
+          "hasta": 1323,
+          "nombre": "Cruzadas suecas y cristianización",
+          "resumen": "Suecia y Nóvgorod se disputan el territorio; el tratado de Nöteborg (1323) fija una primera frontera."
+        },
+        {
+          "desde": 1323,
+          "hasta": 1809,
+          "nombre": "Finlandia sueca",
+          "resumen": "Parte del reino de Suecia; la Reforma luterana llega en el siglo XVI y Mikael Agricola escribe los primeros libros en finés."
+        },
+        {
+          "desde": 1809,
+          "hasta": 1917,
+          "nombre": "Gran Ducado de Finlandia",
+          "resumen": "Autonomía dentro del Imperio ruso tras la guerra de 1808-1809; nace el nacionalismo finés."
+        },
+        {
+          "desde": 1917,
+          "hasta": null,
+          "nombre": "Finlandia independiente",
+          "resumen": "Independencia en 1917, guerra civil en 1918 y guerras con la URSS entre 1939 y 1944."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": null,
+          "hasta": 1250,
+          "nombre": "Religión fínica tradicional",
+          "familia": "paganismo-finico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1150,
+          "hasta": 1250,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1250,
+          "hasta": 1527,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1527,
+          "hasta": null,
+          "nombre": "Luteranismo",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1300,
+          "hasta": null,
+          "nombre": "Cristianismo ortodoxo (Carelia)",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": null,
+          "hasta": null,
+          "nombre": "Finesa",
+          "familia": "finesa",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1250,
+          "hasta": null,
+          "nombre": "Sueca (costa y ciudades)",
+          "familia": "nordica",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": null,
+          "hasta": null,
+          "nombre": "Finés y carelio",
+          "familia": "finicas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": null,
+          "hasta": null,
+          "nombre": "Sami (Laponia)",
+          "familia": "uralicas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1250,
+          "hasta": null,
+          "nombre": "Sueco",
+          "familia": "nordico",
+          "peso": "importante"
+        },
+        {
+          "desde": 1250,
+          "hasta": 1527,
+          "nombre": "Latín (Iglesia)",
+          "familia": "latin",
+          "peso": "minoritaria"
+        }
+      ],
+      "demografia": [
+        {
+          "anio": -10000,
+          "poblacion": 421,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data",
+          "nota": "Finlandia (con Åland)."
+        },
+        {
+          "anio": -9000,
+          "poblacion": 562,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -8000,
+          "poblacion": 750,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -7000,
+          "poblacion": 1000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -6000,
+          "poblacion": 1500,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -5000,
+          "poblacion": 2000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -4000,
+          "poblacion": 3000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -3000,
+          "poblacion": 4000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -2000,
+          "poblacion": 5000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -1000,
+          "poblacion": 7000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1,
+          "poblacion": 20000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 100,
+          "poblacion": 15000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 200,
+          "poblacion": 20000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 300,
+          "poblacion": 25000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 400,
+          "poblacion": 30000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 500,
+          "poblacion": 35000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 600,
+          "poblacion": 40000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 700,
+          "poblacion": 45000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 800,
+          "poblacion": 50000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 900,
+          "poblacion": 62000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1000,
+          "poblacion": 74000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1100,
+          "poblacion": 86000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1200,
+          "poblacion": 98000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1300,
+          "poblacion": 110000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1400,
+          "poblacion": 100000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1500,
+          "poblacion": 100000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1600,
+          "poblacion": 200000,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1700,
+          "poblacion": 400119,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1750,
+          "poblacion": 625460,
+          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": 1800,
+          "poblacion": 800000,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1850,
+          "poblacion": 1622623,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1900,
+          "poblacion": 2641827,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1925,
+          "poblacion": 3282981,
+          "fuente": "Gapminder, Population v7 (2022), vía Our World in Data"
+        },
+        {
+          "anio": 1950,
+          "poblacion": 4008410,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 1975,
+          "poblacion": 4711172,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2000,
+          "poblacion": 5176197,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        },
+        {
+          "anio": 2023,
+          "poblacion": 5601185,
+          "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ]
+    },
+    {
+      "id": "estepa-pontica",
+      "nombre": "Estepa póntica",
+      "padre": null,
+      "poligono": [
+        [
+          44.65,
+          53.4
+        ],
+        [
+          48.05,
+          52.5
+        ],
+        [
+          50.55,
+          51.5
+        ],
+        [
+          50.6,
+          51.45
+        ],
+        [
+          48.65,
+          49.8
+        ],
+        [
+          47.55,
+          50.4
+        ],
+        [
+          46.5,
+          48.45
+        ],
+        [
+          48.55,
+          47.5
+        ],
+        [
+          49.6,
+          45.85
+        ],
+        [
+          49.6,
+          45.75
+        ],
+        [
+          48.45,
+          45.3
+        ],
+        [
+          47.95,
+          45.0
+        ],
+        [
+          47.7,
+          44.65
+        ],
+        [
+          47.65,
+          44.6
+        ],
+        [
+          43.75,
+          44.0
+        ],
+        [
+          39.65,
+          44.0
+        ],
+        [
+          38.75,
+          44.2
+        ],
+        [
+          38.4,
+          43.85
+        ],
+        [
+          38.35,
+          43.8
+        ],
+        [
+          36.65,
+          44.6
+        ],
+        [
+          35.65,
+          44.5
+        ],
+        [
+          33.35,
+          43.9
+        ],
+        [
+          32.85,
+          44.7
+        ],
+        [
+          32.55,
+          44.9
+        ],
+        [
+          32.0,
+          44.95
+        ],
+        [
+          31.95,
+          45.7
+        ],
+        [
+          30.9,
+          45.85
+        ],
+        [
+          30.8,
+          46.0
+        ],
+        [
+          30.1,
+          46.4
+        ],
+        [
+          29.6,
+          46.9
+        ],
+        [
+          28.86,
+          47.82
+        ],
+        [
+          28.93,
+          47.95
+        ],
+        [
+          30.5,
+          48.5
+        ],
+        [
+          33.0,
+          48.5
+        ],
+        [
+          35.0,
+          49.0
+        ],
+        [
+          38.0,
+          50.0
+        ],
+        [
+          40.0,
+          51.0
+        ],
+        [
+          42.0,
+          52.0
+        ],
+        [
+          44.49,
+          53.5
+        ]
+      ],
+      "resumen": "Las praderas al norte del mar Negro y del Cáucaso, del Danubio al Volga. Por ellas pasaron escitas, sármatas, godos, hunos, jázaros, pechenegos, cumanos y los mongoles de la Horda de Oro, y en sus costas florecieron colonias griegas y, en la Edad Media, genovesas y venecianas. El Imperio ruso la colonizó desde fines del siglo XVIII; hoy se reparte entre Ucrania y Rusia.",
+      "eras": [
+        {
+          "desde": -3300,
+          "hasta": -2600,
+          "nombre": "Cultura de Yamna",
+          "resumen": "Pastores con carros de la Edad del Bronce temprana, que muchos investigadores vinculan con la expansión de las lenguas indoeuropeas."
+        },
+        {
+          "desde": -700,
+          "hasta": -200,
+          "nombre": "Escitas y colonias griegas",
+          "resumen": "Los escitas dominan la estepa; los griegos fundan Olbia, Panticapea y Quersoneso en la costa."
+        },
+        {
+          "desde": -200,
+          "hasta": 375,
+          "nombre": "Sármatas y reino del Bósforo",
+          "resumen": "Los sármatas suceden a los escitas; el reino del Bósforo, en Crimea, queda en la órbita de Roma, y en el siglo III llegan los godos."
+        },
+        {
+          "desde": 375,
+          "hasta": 650,
+          "nombre": "Hunos, ávaros y protobúlgaros",
+          "resumen": "Desde la llegada de los hunos, hacia 375, se suceden los pueblos de la estepa: hunos, ávaros y la Gran Bulgaria de Kubrat."
+        },
+        {
+          "desde": 650,
+          "hasta": 969,
+          "nombre": "Jaganato jázaro",
+          "resumen": "Los jázaros, cuya élite adoptó el judaísmo, dominan del Volga a Crimea hasta que Sviatoslav de Kiev los derrota en 965-969."
+        },
+        {
+          "desde": 969,
+          "hasta": 1240,
+          "nombre": "Pechenegos y cumanos",
+          "resumen": "Pueblos túrquicos nómadas: los pechenegos y, desde mediados del siglo XI, los cumanos o polovtsianos, rivales de la Rus."
+        },
+        {
+          "desde": 1240,
+          "hasta": 1441,
+          "nombre": "Horda de Oro",
+          "resumen": "Tras la invasión mongola la estepa es el centro de la Horda de Oro; Génova y Venecia comercian desde Caffa y Tana."
+        },
+        {
+          "desde": 1441,
+          "hasta": 1783,
+          "nombre": "Kanato de Crimea",
+          "resumen": "Los tártaros de Crimea, vasallos del Imperio otomano desde 1475, dominan la estepa; sus incursiones en busca de esclavos asolan Polonia y Rusia, y en el Dniéper se organizan los cosacos de Zaporiyia."
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Nueva Rusia, Ucrania y Rusia",
+          "resumen": "Rusia anexa Crimea en 1783 y coloniza la región; en el siglo XX se reparte entre Ucrania y Rusia, que ocupó Crimea en 2014 e invadió Ucrania en 2022."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -700,
+          "hasta": 375,
+          "nombre": "Religión escita y sármata",
+          "familia": "religion-escita",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -600,
+          "hasta": 400,
+          "nombre": "Religión griega (colonias)",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 375,
+          "hasta": 1313,
+          "nombre": "Tengrismo y cultos de los pueblos túrquicos",
+          "familia": "tengrismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 740,
+          "hasta": 969,
+          "nombre": "Judaísmo (élite jázara)",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 300,
+          "hasta": 1783,
+          "nombre": "Cristianismo (griegos y godos de Crimea)",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1313,
+          "hasta": 1783,
+          "nombre": "Islam sunní",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Islam sunní (tártaros de Crimea)",
+          "familia": "islam-sunni",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Cristianismo ortodoxo",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -700,
+          "hasta": 375,
+          "nombre": "Escita y sármata",
+          "familia": "escita",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -600,
+          "hasta": 400,
+          "nombre": "Griega (colonias del mar Negro)",
+          "familia": "griega",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 250,
+          "hasta": 1500,
+          "nombre": "Goda (godos de Crimea)",
+          "familia": "goda",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 375,
+          "hasta": 1783,
+          "nombre": "Pueblos túrquicos (jázaros, pechenegos, cumanos, tártaros)",
+          "familia": "turca",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1240,
+          "hasta": 1502,
+          "nombre": "Mongola (élite de la Horda de Oro)",
+          "familia": "mongola",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1266,
+          "hasta": 1475,
+          "nombre": "Italiana (colonias genovesas y venecianas)",
+          "familia": "latina",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Eslava oriental (ucranianos y rusos)",
+          "familia": "eslava-oriental",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -700,
+          "hasta": 375,
+          "nombre": "Escita, sármata y alano (iranias orientales)",
+          "familia": "iranias",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -600,
+          "hasta": 1475,
+          "nombre": "Griego (colonias y Crimea bizantina)",
+          "familia": "griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 375,
+          "hasta": 1783,
+          "nombre": "Lenguas túrquicas (jázaro, cumano, tártaro de Crimea)",
+          "familia": "turcas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Ucraniano y ruso",
+          "familia": "eslavo-oriental",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "cerdena-corcega",
+      "nombre": "Cerdeña y Córcega",
+      "padre": null,
+      "poligono": [
+        [
+          8.0,
+          38.75
+        ],
+        [
+          7.95,
+          40.2
+        ],
+        [
+          8.05,
+          41.0
+        ],
+        [
+          8.45,
+          41.6
+        ],
+        [
+          8.45,
+          42.3
+        ],
+        [
+          8.6,
+          42.75
+        ],
+        [
+          9.25,
+          43.1
+        ],
+        [
+          9.55,
+          42.9
+        ],
+        [
+          9.6,
+          42.0
+        ],
+        [
+          9.45,
+          41.4
+        ],
+        [
+          9.85,
+          40.9
+        ],
+        [
+          9.85,
+          39.9
+        ],
+        [
+          9.7,
+          39.1
+        ],
+        [
+          9.05,
+          38.8
+        ],
+        [
+          8.5,
+          38.7
+        ]
+      ],
+      "resumen": "Las dos grandes islas del mar Tirreno. Cerdeña tuvo una civilización propia, la nurágica, conocida por sus miles de torres de piedra y cuya lengua no se conoce; las dos islas pasaron por cartagineses, romanos, vándalos y bizantinos, y en la Edad Media Cerdeña se dividió en cuatro juzgados y Córcega quedó bajo Pisa y luego Génova. Hoy Cerdeña es parte de Italia y Córcega, de Francia.",
+      "eras": [
+        {
+          "desde": -1800,
+          "hasta": -510,
+          "nombre": "Civilización nurágica y colonias fenicias",
+          "resumen": "Torres de piedra (nuragas) y santuarios de pozo en Cerdeña; desde el siglo IX a. C., colonias fenicias como Nora y Tharros en la costa."
+        },
+        {
+          "desde": -510,
+          "hasta": -238,
+          "nombre": "Dominio cartaginés",
+          "resumen": "Cartago controla las costas de Cerdeña; en Córcega, Alalia es disputada por griegos, etruscos y cartagineses."
+        },
+        {
+          "desde": -238,
+          "hasta": 456,
+          "nombre": "Provincia romana",
+          "resumen": "Roma toma las dos islas tras la primera guerra púnica; proveen trigo y sirven de lugar de destierro."
+        },
+        {
+          "desde": 456,
+          "hasta": 900,
+          "nombre": "Vándalos y bizantinos",
+          "resumen": "Los vándalos ocupan las islas en el siglo V y Bizancio las recupera en 534; los ataques árabes las aíslan de Constantinopla."
+        },
+        {
+          "desde": 900,
+          "hasta": 1420,
+          "nombre": "Juzgados sardos, Pisa y Génova",
+          "resumen": "Cerdeña se gobierna en cuatro juzgados (Cagliari, Arborea, Torres y Gallura); Pisa y Génova se disputan las islas y Aragón conquista Cerdeña desde 1323."
+        },
+        {
+          "desde": 1420,
+          "hasta": 1768,
+          "nombre": "Cerdeña aragonesa y española; Córcega genovesa",
+          "resumen": "Cerdeña es un reino de la Corona de Aragón y luego de España; Córcega sigue bajo Génova, con la república corsa de Pasquale Paoli desde 1755."
+        },
+        {
+          "desde": 1768,
+          "hasta": null,
+          "nombre": "Cerdeña saboyana e italiana; Córcega francesa",
+          "resumen": "Génova cede Córcega a Francia en 1768; Cerdeña, saboyana desde 1720, da nombre al reino que unifica Italia en 1861."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1800,
+          "hasta": -238,
+          "nombre": "Religión nurágica (santuarios de pozo y del agua)",
+          "familia": "religion-nuragica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -238,
+          "nombre": "Religión fenicia y púnica (costas)",
+          "familia": "politeismo-cananeo",
+          "peso": "importante"
+        },
+        {
+          "desde": -238,
+          "hasta": 500,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1800,
+          "hasta": -238,
+          "nombre": "Nurágica",
+          "familia": "nuragica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -238,
+          "nombre": "Fenicia y púnica (costas)",
+          "familia": "semitica",
+          "peso": "importante"
+        },
+        {
+          "desde": -238,
+          "hasta": 1000,
+          "nombre": "Latina",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Sarda",
+          "familia": "sarda",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Corsa (de raíz toscana)",
+          "familia": "latina",
+          "peso": "importante"
+        },
+        {
+          "desde": 1323,
+          "hasta": 1720,
+          "nombre": "Catalana y española (élites de Cerdeña)",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1768,
+          "hasta": null,
+          "nombre": "Francesa (Córcega)",
+          "familia": "francesa",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -800,
+          "hasta": -100,
+          "nombre": "Púnico",
+          "familia": "cananeas",
+          "peso": "importante"
+        },
+        {
+          "desde": -238,
+          "hasta": 1000,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Sardo",
+          "familia": "sardo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Corso, sasarés, galurés e italiano",
+          "familia": "italiano",
+          "peso": "importante"
+        },
+        {
+          "desde": 1323,
+          "hasta": null,
+          "nombre": "Catalán (Alguer)",
+          "familia": "catalan",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1768,
+          "hasta": null,
+          "nombre": "Francés (Córcega)",
           "familia": "frances",
           "peso": "minoritaria"
         }
