@@ -8,7 +8,8 @@ Se pueden editar a mano o con el editor de la app (Ajustes → «Abrir el editor
 ficha» en cada ficha), que guarda con este mismo formato: un paquete leído y vuelto a escribir sale idéntico.
 
 Todo el texto va en **español** (rioplatense neutro, con tildes), breve y verificable. Nada inventado: si una fecha o un
-dato no es seguro, se marca `"aprox": true` y `"confianza": "baja"`, o directamente se omite.
+dato no es seguro, se marca `"aprox": true` y `"confianza": "baja"`, o directamente se omite. Las traducciones van
+aparte, en otra carpeta: ver [Traducciones](#traducciones).
 
 ## Convenciones
 
@@ -249,6 +250,44 @@ Ciudades, templos y sitios que aparecen en el mapa cuando existen.
   (una plaza, un campo de concentración, un centro clandestino, un campo de batalla).
 - `abandono`: año en que deja de ser habitada o relevante; `null` si sigue.
 - `importancia`: 1 (local) a 3 (de primer orden). Decide desde qué zoom se ve.
+
+## Traducciones
+
+Los paquetes no se traducen: la traducción de cada uno vive en `traducciones/<idioma>/<paquete>.json` (por ahora solo
+`en`), con una entrada por texto. Con la app en inglés, cada texto traducido reemplaza al español al cargar el paquete;
+lo que no tiene traducción se ve en español. El editor de la app trabaja siempre sobre el español.
+
+```json
+{
+ "paquete": "egipto",
+ "idioma": "en",
+ "textos": {
+  "regiones/egipto/eras.0.nombre": {"hash": "3f0c9a51e2", "texto": "Early Dynastic Period"},
+  "familias/religiones:islam-sunni/nombre": {"hash": "9b7d20c4aa", "texto": "Sunni Islam"}
+ }
+}
+```
+
+- La clave es sección, id y campo. El campo es un camino con puntos y posiciones (`eras.0.nombre`, `escrita.lugar`,
+  `roles.1`); en `familias` el id va con su capa.
+- `hash`: el comienzo del sha256 del texto español que se tradujo. Si después cambia el español, la app sigue
+  mostrando la traducción que había y la herramienta la cuenta como vieja para volver a traducirla. Lo mismo pasa si
+  se inserta una entrada en medio de una lista (una era, por ejemplo): las que siguen cambian de posición.
+- Se traducen los textos que se leen: en `regiones`, `nombre`, `resumen`, el `nombre`, el `resumen` y la `nota` de las
+  eras, la `nota` de la demografía, el `nombre` y la `nota` de religiones, culturas e idiomas, y el `titulo` y el
+  `texto` de las secciones de la ficha extendida; en `familias`, `nombre` y `nota`; en `fuentes`, `titulo`, `autor`,
+  `escrita.lugar`, `idioma_original`, `soporte`, `resumen` y `por_que_importa`; en `personas`, `nombre`, `roles`,
+  el `lugar` de `nacimiento`, `muerte` y `activo`, y `resumen`; en `hechos`, `titulo`, `lugar` y `resumen`; en
+  `lugares`, `nombre` y `resumen`. Los nombres propios se traducen solo si tienen una forma propia en el otro idioma
+  (Heródoto → Herodotus).
+- No se traducen los ids ni los campos que son ids (`familia`, `padre`, `regiones`, `obras`, `fuentes`, `autor_id`),
+  los valores cerrados (`peso`, `tipo`, `genero`, `confianza`, `capa`: la app los traduce sola), años, coordenadas,
+  colores, `wikipedia` (ya trae `en`), `wikidata`, los enlaces de `leer`, las `fuente` de la demografía, las
+  referencias de la ficha extendida, `titulo_original` ni lo que la app no muestra (`descripcion` del paquete, `ia`,
+  `revision`, `origen`).
+- Las capas se arman con `tools/traduccion/enciclopedia.py`: `estado` cuenta lo traducido, lo que falta y lo viejo,
+  `extraer <carpeta>` saca lo pendiente en lotes JSON para traducir y `aplicar <respuestas>` vuelca las traducciones
+  con su hash. No se editan a mano.
 
 ## Borradores
 

@@ -1,9 +1,15 @@
 extends Node
 ## La enciclopedia: regiones, fuentes, personas, hechos y lugares, leídos de `data/enciclopedia/paquetes/*.json`.
 ## El formato está en `data/enciclopedia/ESQUEMA.md`.
+##
+## Los paquetes están en español. Con la app en otro idioma, al leer cada paquete se le aplica su capa de traducción
+## (`data/enciclopedia/traducciones/<idioma>/<paquete>.json`, ver «Traducciones» en el esquema): los textos traducidos
+## reemplazan a los españoles en memoria y lo que no tiene traducción queda en español. Los archivos no cambian: el
+## editor lee y escribe siempre los paquetes en español.
 
 const DIR := "res://data/enciclopedia/paquetes/"
 const RUTA_PENDIENTES := "user://pendientes.json"
+const DIR_TRADUCCIONES := "res://data/enciclopedia/traducciones/"
 const SECCIONES := ["regiones", "fuentes", "personas", "hechos", "lugares"]
 
 const CAPAS := ["religiones", "culturas", "idiomas"]
@@ -23,6 +29,10 @@ var lugares := {}
 ## Familias de religión, cultura e idioma por clave «capa:id» (ver la sección `familias` del esquema).
 var familias := {}
 var advertencias: Array = []
+## De dónde se leen las capas de traducción (la prueba de tools/traduccion la cambia con --traducciones=<carpeta>).
+var dir_traducciones := DIR_TRADUCCIONES
+## Cuántos textos tradujo la capa en la última carga.
+var traducidos := 0
 
 ## Caché: unidad → regiones que contienen su centro (de la más chica a la más grande).
 var _regiones_de_unidad := {}
@@ -48,6 +58,7 @@ func cargar() -> void:
 	# Cuánto pesa y cuánto tarda: el plan de almacenamiento (docs/es/almacenamiento.md) fija umbrales sobre esto.
 	var t0 := Time.get_ticks_msec()
 	var bytes := 0
+	traducidos = 0
 	for nombre in archivos:
 		# En una versión exportada, lo editado en el editor queda en una copia local que tapa al paquete de adentro.
 		var texto := FileAccess.get_file_as_string(Edicion.para_leer(DIR + nombre))
@@ -56,6 +67,8 @@ func cargar() -> void:
 		if not datos is Dictionary:
 			advertencias.append("No se pudo leer %s" % nombre)
 			continue
+		if Idioma.actual != "es":
+			traducidos += _traducir(datos, nombre)
 		for sec in SECCIONES:
 			var destino: Dictionary = get(sec)
 			for item in datos.get(sec, []):
@@ -84,10 +97,74 @@ func cargar() -> void:
 	var n := 0
 	for sec in SECCIONES:
 		n += (get(sec) as Dictionary).size()
-	print("Enciclopedia: %d elementos de %d paquetes (%.1f MB) en %d ms: lectura %d ms, preparación %d ms" % [
-		n, archivos.size(), bytes / 1048576.0, Time.get_ticks_msec() - t0, t1 - t0, Time.get_ticks_msec() - t1])
+	print("Enciclopedia: %d elementos de %d paquetes (%.1f MB) en %d ms: lectura %d ms, preparación %d ms%s" % [
+		n, archivos.size(), bytes / 1048576.0, Time.get_ticks_msec() - t0, t1 - t0, Time.get_ticks_msec() - t1,
+		"; %d textos en %s" % [traducidos, Idioma.actual] if Idioma.actual != "es" else ""])
 	for a in advertencias:
 		push_warning(a)
+
+
+## La capa de traducción de un paquete: {"textos": {"sección/id/campo": {"hash", "texto"}}}, donde el campo es un
+## camino con puntos («eras.2.nombre», «escrita.lugar») y las familias se nombran «capa:id». Cada texto traducido
+## reemplaza al español; los que ya no encuentran su lugar (un elemento borrado) se ignoran. El hash es del texto
+## español que se tradujo: lo usa tools/traduccion/enciclopedia.py para saber qué hay que volver a traducir; la app
+## muestra la traducción aunque el español haya cambiado después. Devuelve cuántos textos tradujo.
+func _traducir(datos: Dictionary, archivo: String) -> int:
+	var ruta := dir_traducciones + Idioma.actual + "/" + archivo
+	if ruta.begins_with("res://"):
+		ruta = Datos.ruta(ruta)
+	if not FileAccess.file_exists(ruta):
+		return 0
+	var capa: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
+	if not capa is Dictionary or not capa.get("textos") is Dictionary:
+		advertencias.append("No se pudo leer la traducción %s" % ruta)
+		return 0
+	var por_id := {}
+	var n := 0
+	var textos: Dictionary = capa["textos"]
+	for clave: String in textos:
+		var partes := clave.split("/", true, 2)
+		var valor: Variant = textos[clave]
+		if partes.size() < 3 or not valor is Dictionary or str(valor.get("texto", "")) == "":
+			continue
+		var sec := partes[0]
+		if not por_id.has(sec):
+			var indice := {}
+			for item in datos.get(sec, []):
+				if item is Dictionary and item.has("id"):
+					indice["%s:%s" % [item.get("capa"), item["id"]] if sec == "familias" else str(item["id"])] = item
+			por_id[sec] = indice
+		var item: Variant = por_id[sec].get(partes[1])
+		if item is Dictionary and _poner(item, partes[2].split("."), str(valor["texto"])):
+			n += 1
+	return n
+
+
+## Reemplaza el texto en el camino dado («eras.2.nombre») si existe y es un texto.
+static func _poner(item: Dictionary, camino: PackedStringArray, texto: String) -> bool:
+	var actual: Variant = item
+	for i in camino.size():
+		var paso := camino[i]
+		var ultimo := i == camino.size() - 1
+		if actual is Array:
+			if not paso.is_valid_int() or int(paso) < 0 or int(paso) >= (actual as Array).size():
+				return false
+			if ultimo:
+				if not actual[int(paso)] is String:
+					return false
+				actual[int(paso)] = texto
+				return true
+			actual = actual[int(paso)]
+		elif actual is Dictionary:
+			if ultimo:
+				if not actual.get(paso) is String:
+					return false
+				actual[paso] = texto
+				return true
+			actual = actual.get(paso)
+		else:
+			return false
+	return false
 
 
 ## Vuelve a leer los paquetes (después de editarlos) y refresca lo que se ve: mapa, marcadores y panel.

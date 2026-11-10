@@ -9,6 +9,10 @@ extends Node
 ##
 ## Para comprobar que un ejecutable exportado trae todos sus datos: TellMAP --headless -- --verificar
 ## (carga el mapa y la enciclopedia, lo informa y sale con 0, o con 1 si falta algo).
+##
+## --idioma=es o --idioma=en fija el idioma sin guardarlo (ver Idioma). Para la prueba de las traducciones de la
+## enciclopedia (tools/traduccion/probar.py): --traducciones=<carpeta> lee la capa de traducción de otra carpeta y
+## --volcar=<archivo.json> guarda la enciclopedia como quedó cargada y sale.
 
 var vista: VistaMapa
 var interfaz: Interfaz
@@ -43,7 +47,12 @@ func _ready() -> void:
 		return
 	_al_progreso(tr("Abriendo la biblioteca…"), 0.95)
 	await get_tree().process_frame
+	if args.has("traducciones"):
+		Enciclopedia.dir_traducciones = str(args["traducciones"]).trim_suffix("/") + "/"
 	Enciclopedia.cargar()
+	if args.has("volcar"):
+		_volcar_enciclopedia(str(args["volcar"]))
+		return
 	vista = VistaMapa.new()
 	add_child(vista)
 	interfaz = Interfaz.new(vista)
@@ -74,6 +83,18 @@ func _ready() -> void:
 			interfaz.mostrar_bienvenida()
 		if MotorGrafico.a_confirmar() != "":
 			interfaz.confirmar_graficos()
+
+
+## Guarda en un JSON la enciclopedia tal como quedó cargada (con la capa de traducción aplicada) y sale.
+func _volcar_enciclopedia(ruta: String) -> void:
+	var out := {"idioma": Idioma.actual, "traducidos": Enciclopedia.traducidos, "familias": Enciclopedia.familias.values()}
+	for sec in Enciclopedia.SECCIONES:
+		out[sec] = (Enciclopedia.get(sec) as Dictionary).values()
+	var f := FileAccess.open(ruta, FileAccess.WRITE)
+	f.store_string(Edicion.a_json(out))
+	f.close()
+	print("Enciclopedia volcada en %s (%s, %d textos traducidos)" % [ruta, Idioma.actual, Enciclopedia.traducidos])
+	get_tree().quit(0)
 
 
 func _mostrar_carga() -> void:
