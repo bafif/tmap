@@ -53,6 +53,12 @@ header.barra .contenedor { display: flex; align-items: center; justify-content: 
 nav a { font: 600 .82rem "Cinzel", serif; letter-spacing: .12em; text-transform: uppercase; color: var(--texto);
   text-decoration: none; margin-left: 1.6rem; }
 nav a:hover { color: var(--acento); }
+.lado { display: flex; align-items: center; }
+.idiomas { display: flex; gap: .2rem; margin-left: 1.6rem; }
+.idiomas button { font: 600 .82rem "Cinzel", serif; letter-spacing: .12em; color: var(--suave); background: none;
+  border: 1px solid transparent; padding: .25rem .45rem; cursor: pointer; }
+.idiomas button:hover { color: var(--acento); }
+.idiomas button[aria-pressed="true"] { color: var(--titulo); border-color: var(--borde-suave); }
 
 .heroe { padding: 4.5rem 0 3rem; text-align: center; }
 .heroe h1 { font: 700 clamp(2.6rem, 6vw, 4.6rem)/1.05 "Cinzel", serif; letter-spacing: .06em; color: var(--titulo); margin: 0;
@@ -115,28 +121,34 @@ footer .marca { font-size: 1.1rem; }
 
 <header class="barra">
   <div class="contenedor">
-    <a class="marca" href="#">TellMAP<small>atlas de la historia y sus fuentes</small></a>
+    <a class="marca" href="#">TellMAP<small data-t="lema_corto">atlas de la historia y sus fuentes</small></a>
+    <div class="lado">
     <nav>
-      <a href="#biblioteca">La biblioteca</a>
-      <a href="#como">Cómo se hace</a>
-      <a href="#progreso">Progreso</a>
+      <a href="#biblioteca" data-t="nav_biblioteca">La biblioteca</a>
+      <a href="#como" data-t="nav_como">Cómo se hace</a>
+      <a href="#progreso" data-t="nav_progreso">Progreso</a>
       <a href="https://github.com/bafif/tmap">GitHub</a>
     </nav>
+    <div class="idiomas" role="group" aria-label="Idioma · Language">
+      <button type="button" data-idioma="es" lang="es" title="Español" aria-pressed="true">ES</button>
+      <button type="button" data-idioma="en" lang="en" title="English" aria-pressed="false">EN</button>
+    </div>
+    </div>
   </div>
 </header>
 
 <main>
   <div class="heroe contenedor">
-    <h1>La historia del mundo<br>en un mapa vivo</h1>
-    <p class="lema">Mové la línea de tiempo y mirá cómo se corren las fronteras, nacen las ciudades y aparecen
+    <h1 data-t="titulo">La historia del mundo<br>en un mapa vivo</h1>
+    <p class="lema" data-t="lema">Mové la línea de tiempo y mirá cómo se corren las fronteras, nacen las ciudades y aparecen
       <em>los textos que se escribieron en cada lugar</em>, de 3400 a. C. a hoy.</p>
     <div class="botones">
-      <a class="boton principal" href="https://github.com/bafif/tmap#probarlo">Probarlo</a>
-      <a class="boton" href="https://github.com/bafif/tmap">Ver el código</a>
-      <a class="boton" href="https://github.com/bafif/tmap/blob/main/PROGRESO.md">Seguir el progreso</a>
+      <a class="boton principal" href="https://github.com/bafif/tmap#probarlo" data-t="probarlo" data-href-en="https://github.com/bafif/tmap/blob/main/README.en.md#try-it">Probarlo</a>
+      <a class="boton" href="https://github.com/bafif/tmap" data-t="codigo">Ver el código</a>
+      <a class="boton" href="https://github.com/bafif/tmap/blob/main/PROGRESO.md" data-t="seguir">Seguir el progreso</a>
     </div>
     <div class="marco"><span class="r1"></span><span class="r2"></span>
-      <img src="img/portada.webp" width="1280" height="683"
+      <img src="img/portada.webp" width="1280" height="683" data-t-alt="alt_portada"
         alt="TellMAP en 1350 a. C.: Egipto seleccionado, con el panel lateral que lista las fuentes escritas ahí en esa época, como las Cartas de Amarna y el Gran Himno a Atón">
     </div>
   </div>
@@ -145,20 +157,20 @@ footer .marca { font-size: 1.1rem; }
     <div class="contenedor dos">
       <div>
         <div class="divisor"><span></span></div>
-        <h2>Una biblioteca ordenada en el espacio y el tiempo</h2>
-        <p class="intro">Cada texto tiene dos coordenadas: dónde y cuándo se escribió, y de qué lugar y época trata.
+        <h2 data-t="biblioteca">Una biblioteca ordenada en el espacio y el tiempo</h2>
+        <p class="intro" data-t="biblioteca_intro">Cada texto tiene dos coordenadas: dónde y cuándo se escribió, y de qué lugar y época trata.
           Si vas a Egipto en 1350 a. C., encontrás el <em>Gran Himno a Atón</em>, escrito en Amarna en ese momento,
           junto a Heródoto, que recorrió Egipto y lo describió novecientos años después, y a los egiptólogos que lo estudiaron.</p>
         <ul class="coordenadas">
-          <li class="p"><b>Fuentes primarias</b>: lo escrito ahí y entonces, con el enlace al texto completo cuando
+          <li class="p" data-t="li_primarias"><b>Fuentes primarias</b>: lo escrito ahí y entonces, con el enlace al texto completo cuando
             está en dominio público.</li>
-          <li class="s"><b>Estudios</b>: lo que se escribió después sobre ese lugar y esa época.</li>
-          <li class="g"><b>Personas</b>: pensadores, gobernantes y autores que aparecen mientras viven.</li>
-          <li class="h"><b>Hechos</b>: batallas, fundaciones y tratados que destellan en su fecha.</li>
+          <li class="s" data-t="li_estudios"><b>Estudios</b>: lo que se escribió después sobre ese lugar y esa época.</li>
+          <li class="g" data-t="li_personas"><b>Personas</b>: pensadores, gobernantes y autores que aparecen mientras viven.</li>
+          <li class="h" data-t="li_hechos"><b>Hechos</b>: batallas, fundaciones y tratados que destellan en su fecha.</li>
         </ul>
       </div>
       <div class="marco"><span class="r1"></span><span class="r2"></span>
-        <img src="img/mundo.webp" width="1280" height="683" loading="lazy"
+        <img src="img/mundo.webp" width="1280" height="683" loading="lazy" data-t-alt="alt_mundo"
           alt="El mundo en 117 d. C.: el Imperio romano en su máxima extensión, los partos, el Imperio kushán, los xianbei y la dinastía Han">
       </div>
     </div>
@@ -167,27 +179,27 @@ footer .marca { font-size: 1.1rem; }
   <section>
     <div class="contenedor">
       <div class="divisor"><span></span></div>
-      <h2>Lo que lo hace distinto</h2>
-      <p class="intro">Hecho para estudiar historia al revés: empezando por el mapa y por las fuentes.</p>
+      <h2 data-t="distinto">Lo que lo hace distinto</h2>
+      <p class="intro" data-t="distinto_intro">Hecho para estudiar historia al revés: empezando por el mapa y por las fuentes.</p>
       <div class="tarjetas">
-        <div class="tarjeta"><h3>Fronteras con respaldo</h3>
-          <p>Las fronteras de 1637 entidades políticas, año por año, desde Cliopatria (Seshat Global History
+        <div class="tarjeta"><h3 data-t="t1">Fronteras con respaldo</h3>
+          <p data-t="t1p">Las fronteras de 1637 entidades políticas, año por año, desde Cliopatria (Seshat Global History
             Databank): 13 400 registros revisados por historiadores.</p></div>
-        <div class="tarjeta"><h3>Fuentes primero</h3>
-          <p>Cada ficha distingue fuentes primarias de estudios, dice qué tan segura es su fecha y lleva al texto
+        <div class="tarjeta"><h3 data-t="t2">Fuentes primero</h3>
+          <p data-t="t2p">Cada ficha distingue fuentes primarias de estudios, dice qué tan segura es su fecha y lleva al texto
             completo cuando se puede.</p></div>
-        <div class="tarjeta"><h3>Nada inventado</h3>
-          <p>Las cifras antiguas son estimaciones publicadas, con su autor y su incertidumbre. Lo que no se sabe,
+        <div class="tarjeta"><h3 data-t="t3">Nada inventado</h3>
+          <p data-t="t3p">Las cifras antiguas son estimaciones publicadas, con su autor y su incertidumbre. Lo que no se sabe,
             se dice.</p></div>
-        <div class="tarjeta"><h3>La estética de los grandes mapas</h3>
-          <p>Relieve sombreado, ríos, costas de carta náutica y nombres que se curvan sobre el territorio, con tres
+        <div class="tarjeta"><h3 data-t="t4">La estética de los grandes mapas</h3>
+          <p data-t="t4p">Relieve sombreado, ríos, costas de carta náutica y nombres que se curvan sobre el territorio, con tres
             temas y cuatro niveles de calidad.</p></div>
       </div>
       <div class="cifras">
-        <div class="cifra"><b>5400</b><span>años, de 3400 a. C. a 2024</span></div>
-        <div class="cifra"><b>58 076</b><span>unidades que siguen las fronteras reales</span></div>
-        <div class="cifra"><b>1 001 996</b><span>cambios de dueño, que el mapa aplica en unos 3 ms por año</span></div>
-        <div class="cifra"><b>0</b><span>cuentas y telemetría</span></div>
+        <div class="cifra"><b data-t="c1n">5400</b><span data-t="c1">años, de 3400 a. C. a 2024</span></div>
+        <div class="cifra"><b data-t="c2n">58 076</b><span data-t="c2">unidades que siguen las fronteras reales</span></div>
+        <div class="cifra"><b data-t="c3n">1 001 996</b><span data-t="c3">cambios de dueño, que el mapa aplica en unos 3 ms por año</span></div>
+        <div class="cifra"><b>0</b><span data-t="c4">cuentas y telemetría</span></div>
       </div>
     </div>
   </section>
@@ -195,11 +207,11 @@ footer .marca { font-size: 1.1rem; }
   <section>
     <div class="contenedor">
       <div class="divisor"><span></span></div>
-      <h2>Tres temas, el mismo mundo</h2>
-      <p class="intro">Mármol y bronce, Pergamino iluminado, y Tinta y latón. Cuatro niveles de calidad gráfica,
+      <h2 data-t="temas">Tres temas, el mismo mundo</h2>
+      <p class="intro" data-t="temas_intro">Mármol y bronce, Pergamino iluminado, y Tinta y latón. Cuatro niveles de calidad gráfica,
         para que ande bien desde una notebook vieja hasta una computadora de juegos.</p>
       <div class="marco"><span class="r1"></span><span class="r2"></span>
-        <img src="img/temas.webp" width="1920" height="515" loading="lazy"
+        <img src="img/temas.webp" width="1920" height="515" loading="lazy" data-t-alt="alt_temas"
           alt="El mismo lugar en los tres temas: Mármol y bronce con las fuentes, Pergamino iluminado con la historia del lugar, y Tinta y latón con la gente y los hechos">
       </div>
     </div>
@@ -208,8 +220,8 @@ footer .marca { font-size: 1.1rem; }
   <section id="como">
     <div class="contenedor">
       <div class="divisor"><span></span></div>
-      <h2>Cómo se hace</h2>
-      <p class="intro">Software libre (AGPL-3.0) hecho con Godot, sobre datos abiertos. La enciclopedia crece de a
+      <h2 data-t="como">Cómo se hace</h2>
+      <p class="intro" data-t="como_intro">Software libre (AGPL-3.0) hecho con Godot, sobre datos abiertos. La enciclopedia crece de a
         poco, en paquetes que cualquiera puede leer y revisar, con Wikipedia, Wikidata e IA que siempre cita sus
         fuentes y pasa por revisión humana.</p>
       <div class="datos">
@@ -217,7 +229,7 @@ footer .marca { font-size: 1.1rem; }
         <a href="https://www.naturalearthdata.com">Natural Earth</a>
         <a href="https://visibleearth.nasa.gov">NASA Blue Marble</a>
         <a href="https://www.gebco.net">GEBCO</a>
-        <a href="https://es.wikipedia.org">Wikipedia</a>
+        <a href="https://es.wikipedia.org" data-href-en="https://en.wikipedia.org">Wikipedia</a>
         <a href="https://www.wikidata.org">Wikidata</a>
         <a href="https://godotengine.org">Godot Engine</a>
       </div>
@@ -227,18 +239,18 @@ footer .marca { font-size: 1.1rem; }
   <section id="progreso">
     <div class="contenedor">
       <div class="divisor"><span></span></div>
-      <h2>En qué va</h2>
-      <p class="intro">Está en desarrollo y se construye a la vista: cada paso tiene su tarea en GitHub.</p>
+      <h2 data-t="progreso">En qué va</h2>
+      <p class="intro" data-t="progreso_intro">Está en desarrollo y se construye a la vista: cada paso tiene su tarea en GitHub.</p>
       <div class="hoja">
-        <div class="fase hecha"><b>0.1 · hecha</b><span>Mapa 2D, fronteras, línea de tiempo, panel, enciclopedia piloto de Egipto</span></div>
-        <div class="fase hecha"><b>0.2 · hecha</b><span>Que todo se pueda tocar: religiones, culturas e idiomas con su desglose</span></div>
-        <div class="fase hecha"><b>0.3 · hecha</b><span>Enciclopedia progresiva con editor, Wikipedia e IA revisada</span></div>
-        <div class="fase ahora"><b>0.4 · 0.5 · sigue</b><span>Datos abiertos a escala, migraciones y rutas animadas</span></div>
-        <div class="fase"><b>0.6 · 1.0</b><span>Vista 3D, versión web y datos revisados por especialistas</span></div>
+        <div class="fase hecha"><b data-t="f1">0.1 · hecha</b><span data-t="f1s">Mapa 2D, fronteras, línea de tiempo, panel, enciclopedia piloto de Egipto</span></div>
+        <div class="fase hecha"><b data-t="f2">0.2 · hecha</b><span data-t="f2s">Que todo se pueda tocar: religiones, culturas e idiomas con su desglose</span></div>
+        <div class="fase hecha"><b data-t="f3">0.3 · hecha</b><span data-t="f3s">Enciclopedia progresiva con editor, Wikipedia e IA revisada</span></div>
+        <div class="fase ahora"><b data-t="f4">0.4 · 0.5 · sigue</b><span data-t="f4s">Datos abiertos a escala, migraciones y rutas animadas</span></div>
+        <div class="fase"><b>0.6 · 1.0</b><span data-t="f5s">Vista 3D, versión web y datos revisados por especialistas</span></div>
       </div>
       <div class="botones" style="margin-top:2.6rem">
-        <a class="boton" href="https://github.com/bafif/tmap/blob/main/PROGRESO.md">Lo hecho y lo que falta</a>
-        <a class="boton" href="https://github.com/bafif/tmap/issues">Proponer una idea o una fuente</a>
+        <a class="boton" href="https://github.com/bafif/tmap/blob/main/PROGRESO.md" data-t="hecho_falta">Lo hecho y lo que falta</a>
+        <a class="boton" href="https://github.com/bafif/tmap/issues" data-t="proponer">Proponer una idea o una fuente</a>
       </div>
     </div>
   </section>
@@ -246,13 +258,111 @@ footer .marca { font-size: 1.1rem; }
 
 <footer>
   <div class="contenedor">
-    <p><span class="marca">TellMAP</span> · hecho por <b>Bautista D. Fiori</b> ·
+    <p><span class="marca">TellMAP</span> · <span data-t="hecho_por">hecho por</span> <b>Bautista D. Fiori</b> ·
       <a href="https://www.linkedin.com/in/b-d-fiori/">LinkedIn</a> · <a href="https://github.com/bafif">GitHub</a></p>
-    <p>Código bajo <a href="https://github.com/bafif/tmap/blob/main/LICENSE">AGPL-3.0</a>. Los datos conservan sus
-      licencias; las tipografías Cinzel y EB Garamond son SIL Open Font License.
-      <a href="https://github.com/bafif/tmap/blob/main/README.en.md">Read in English</a>.</p>
+    <p><span data-t="licencia">Código bajo <a href="https://github.com/bafif/tmap/blob/main/LICENSE">AGPL-3.0</a>. Los datos conservan sus
+      licencias; las tipografías Cinzel y EB Garamond son SIL Open Font License.</span>
+      <a href="https://github.com/bafif/tmap/blob/main/README.md" data-href-en="https://github.com/bafif/tmap/blob/main/README.en.md"
+        data-t="leer_readme">El README completo</a>.</p>
   </div>
 </footer>
 
+<script>
+// Idioma de la página: el que se eligió con ES/EN (queda guardado en este navegador) o, si no se eligió ninguno,
+// español cuando alguno de los idiomas preferidos del navegador es español, e inglés en cualquier otro caso. El
+// español está en el HTML (así se lee también sin JavaScript); el inglés, acá.
+(function () {
+  var EN = {
+    titulo_pagina: "TellMAP · An atlas of history and its sources",
+    descripcion: "World history on a living map, with its sources at hand: borders from 3400 BC to today, thinkers, events and the texts written in each place and period.",
+    lema_corto: "an atlas of history and its sources",
+    nav_biblioteca: "The library", nav_como: "How it's made", nav_progreso: "Progress",
+    titulo: "World history<br>on a living map",
+    lema: "Move the timeline and watch borders shift, cities rise and <em>the texts written in each place</em> appear, from 3400 BC to today.",
+    probarlo: "Try it", codigo: "See the code", seguir: "Follow the progress",
+    alt_portada: "TellMAP in 1350 BC: Egypt selected, with the side panel listing the sources written there at the time, such as the Amarna letters and the Great Hymn to the Aten",
+    biblioteca: "A library ordered in space and time",
+    biblioteca_intro: "Every text has two coordinates: where and when it was written, and which place and period it is about. If you go to Egypt in 1350 BC, you find the <em>Great Hymn to the Aten</em>, written in Amarna at that very time, next to Herodotus, who traveled Egypt and described it nine hundred years later, and to the Egyptologists who studied it.",
+    li_primarias: "<b>Primary sources</b>: what was written there and then, with a link to the full text when it is in the public domain.",
+    li_estudios: "<b>Studies</b>: what was written later about that place and period.",
+    li_personas: "<b>People</b>: thinkers, rulers and authors who show up while they are alive.",
+    li_hechos: "<b>Events</b>: battles, foundings and treaties that flash on their date.",
+    alt_mundo: "The world in AD 117: the Roman Empire at its greatest extent, the Parthians, the Kushan Empire, the Xianbei and the Han dynasty",
+    distinto: "What makes it different",
+    distinto_intro: "Made for studying history the other way around: starting from the map and the sources.",
+    t1: "Borders you can trust",
+    t1p: "The borders of 1,637 political entities, year by year, from Cliopatria (Seshat Global History Databank): 13,400 records reviewed by historians.",
+    t2: "Sources first",
+    t2p: "Every entry tells primary sources from studies apart, says how certain its date is and links to the full text whenever it can.",
+    t3: "Nothing made up",
+    t3p: "Ancient figures are published estimates, with their author and their uncertainty. What isn't known is said so.",
+    t4: "The look of the great maps",
+    t4p: "Shaded relief, rivers, nautical-chart coastlines and names that curve over the land, with three themes and four quality levels.",
+    c1n: "5,400", c1: "years, from 3400 BC to 2024",
+    c2n: "58,076", c2: "units that follow the real borders",
+    c3n: "1,001,996", c3: "changes of ruler, which the map applies in about 3 ms per year",
+    c4: "accounts and telemetry",
+    temas: "Three themes, the same world",
+    temas_intro: "Marble and bronze, Illuminated parchment, and Ink and brass. Four graphics quality levels, so it runs well on anything from an old laptop to a gaming PC.",
+    alt_temas: "The same place in the three themes: Marble and bronze with the sources, Illuminated parchment with the history of the place, and Ink and brass with the people and events",
+    como: "How it's made",
+    como_intro: "Free software (AGPL-3.0) built with Godot, on open data. The encyclopedia grows bit by bit, in packages anyone can read and review, with Wikipedia, Wikidata and AI that always cites its sources and goes through human review.",
+    progreso: "Where it stands",
+    progreso_intro: "It's in development and built in the open: every step has its issue on GitHub.",
+    f1: "0.1 · done", f1s: "2D map, borders, timeline, side panel, pilot encyclopedia on Egypt",
+    f2: "0.2 · done", f2s: "Everything clickable: religions, cultures and languages with their breakdown",
+    f3: "0.3 · done", f3s: "A growing encyclopedia with an editor, Wikipedia and reviewed AI",
+    f4: "0.4 · 0.5 · next", f4s: "Open data at scale, animated migrations and routes",
+    f5s: "3D view, web version and data reviewed by specialists",
+    hecho_falta: "What's done and what's left", proponer: "Suggest an idea or a source",
+    hecho_por: "made by",
+    licencia: "Code under <a href=\"https://github.com/bafif/tmap/blob/main/LICENSE\">AGPL-3.0</a>. The data keep their licenses; the Cinzel and EB Garamond typefaces are under the SIL Open Font License.",
+    leer_readme: "The full README"
+  };
+  var CLAVE = "tellmap-idioma";
+  var originales = null;
+
+  function guardado() {
+    try { var v = localStorage.getItem(CLAVE); return v === "es" || v === "en" ? v : null; } catch (e) { return null; }
+  }
+
+  function detectado() {
+    var lista = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+    for (var i = 0; i < lista.length; i++) {
+      if (/^es(-|_|$)/i.test(lista[i] || "")) return "es";
+    }
+    return "en";
+  }
+
+  function aplicar(idioma) {
+    var descripcion = document.querySelector('meta[name="description"]');
+    if (!originales) {
+      originales = { titulo_pagina: document.title, descripcion: descripcion.content, t: [], alt: [], href: [] };
+      document.querySelectorAll("[data-t]").forEach(function (el) { originales.t.push([el, el.innerHTML]); });
+      document.querySelectorAll("[data-t-alt]").forEach(function (el) { originales.alt.push([el, el.alt]); });
+      document.querySelectorAll("[data-href-en]").forEach(function (el) { originales.href.push([el, el.href]); });
+    }
+    var en = idioma === "en";
+    document.documentElement.lang = idioma;
+    document.title = en ? EN.titulo_pagina : originales.titulo_pagina;
+    descripcion.content = en ? EN.descripcion : originales.descripcion;
+    originales.t.forEach(function (p) { p[0].innerHTML = en ? EN[p[0].dataset.t] : p[1]; });
+    originales.alt.forEach(function (p) { p[0].alt = en ? EN[p[0].dataset.tAlt] : p[1]; });
+    originales.href.forEach(function (p) { p[0].href = en ? p[0].dataset.hrefEn : p[1]; });
+    document.querySelectorAll("[data-idioma]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.dataset.idioma === idioma ? "true" : "false");
+    });
+  }
+
+  document.querySelectorAll("[data-idioma]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      try { localStorage.setItem(CLAVE, b.dataset.idioma); } catch (e) {}
+      aplicar(b.dataset.idioma);
+    });
+  });
+  var idioma = guardado() || detectado();
+  if (idioma !== "es") aplicar(idioma);
+})();
+</script>
 </body>
 </html>
