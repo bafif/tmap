@@ -1,17 +1,21 @@
 extends Node
 ## Actualizaciones automáticas de la versión exportada (docs/es/actualizaciones.md).
 ##
-## Al abrir, si el ajuste «actualizar_solo» está prendido, lee un manifiesto publicado en GitHub. Si hay una versión
-## nueva de la app, baja el ejecutable, verifica su sha256 y reemplaza el que está corriendo: la versión nueva se abre
-## la próxima vez (o con «Reiniciar ahora»). Si solo hay datos nuevos, baja nada más los archivos que cambiaron y los
-## instala con `Datos.instalar()`: la enciclopedia nueva se ve enseguida y el mapa nuevo, al volver a abrir.
+## Al abrir, si el ajuste «actualizar_solo» está prendido, lee un manifiesto publicado en GitHub. Si hay algo nuevo
+## para instalar, lo ofrece con un cartel («Actualizar» o «Ahora no») y no baja nada hasta que le dicen que sí. «Ahora
+## no» no cambia nada: se vuelve a ofrecer la próxima vez que se abra la app. Una versión nueva de la app se baja, se
+## verifica (sha256) y reemplaza al ejecutable que está corriendo: se abre la próxima vez (o con «Reiniciar ahora»).
+## Si solo hay datos nuevos, baja nada más los archivos que cambiaron y los instala con `Datos.instalar()`: la
+## enciclopedia nueva se ve enseguida y el mapa nuevo, al volver a abrir. «Buscar ahora», en Ajustes, instala sin
+## preguntar: ya es un pedido.
 ##
 ## Desde el código fuente no hace nada (se actualiza con git). Para probarlo: `-- --actualizaciones=<url del
-## manifiesto>` lo prende, `--actualizar-y-salir` busca, instala y sale (0 bien, 1 error) y `--ejecutable=<ruta>`
-## elige qué ejecutable reemplazar. Lo usa tools/actualizacion/probar.py.
+## manifiesto>` lo prende, `--actualizar-y-salir` busca, instala y sale (0 bien, 1 error), `--preguntar-y-salir=si|no`
+## hace lo mismo que al abrir y contesta el cartel, y `--ejecutable=<ruta>` elige qué ejecutable reemplazar. Lo usa
+## tools/actualizacion/probar.py.
 
-## «app»: hay una versión nueva instalada o para bajar a mano; «datos»: datos nuevos ya visibles; «datos_mapa»: datos
-## nuevos que se ven al volver a abrir.
+## «oferta»: hay algo para instalar y se pregunta (aceptar() o posponer()); «app»: hay una versión nueva instalada o
+## para bajar a mano; «datos»: datos nuevos ya visibles; «datos_mapa»: datos nuevos que se ven al volver a abrir.
 signal aviso(tipo: String, texto: String)
 signal estado_cambiado
 
@@ -36,6 +40,10 @@ var app_lista := ""
 var pide_reinicio := false
 ## Página para bajar a mano la versión nueva cuando no se puede reemplazar el ejecutable.
 var pagina_nueva := ""
+## El manifiesto de lo que se ofreció y todavía no se contestó ({} si no hay nada esperando respuesta).
+var _ofrecido: Dictionary = {}
+## Lo ofrecido, en palabras («TellMAP 0.3.3 y datos del 12/11/2026»).
+var _novedad := ""
 
 
 func _ready() -> void:
@@ -49,23 +57,59 @@ func _ready() -> void:
 	Datos.activar(version_app(), true)
 	if args.has("actualizar-y-salir"):
 		Estado.carga_terminada.connect(_actualizar_y_salir, CONNECT_ONE_SHOT)
+	elif args.has("preguntar-y-salir"):
+		Estado.carga_terminada.connect(_preguntar_y_salir.bind(str(args["preguntar-y-salir"]) == "si"), CONNECT_ONE_SHOT)
 	elif Estado.ajustes.get("actualizar_solo", true) and not ["prueba", "verificar", "captura", "puente"].any(func(a): return args.has(a)):
-		Estado.carga_terminada.connect(func(): get_tree().create_timer(3.0).timeout.connect(buscar), CONNECT_ONE_SHOT)
+		Estado.carga_terminada.connect(func(): get_tree().create_timer(3.0).timeout.connect(buscar.bind(true)), CONNECT_ONE_SHOT)
 
 
 static func version_app() -> String:
 	return str(ProjectSettings.get_setting("application/config/version", "0"))
 
 
-## Busca e instala lo nuevo. Devuelve "" si salió bien (aunque no hubiera nada) o el error.
-func buscar() -> String:
+## Busca lo nuevo. Con `preguntar` (al abrir), si hay algo para instalar lo ofrece (aviso «oferta») y espera la
+## respuesta: aceptar() o posponer(). Sin `preguntar` (o si lo nuevo no se puede instalar desde acá), lo instala.
+## Devuelve "" si salió bien (aunque no hubiera nada) o el error.
+func buscar(preguntar := false) -> String:
 	if ocupado:
 		return ""
 	if not habilitado:
 		return _fijar("Desde el código fuente, TellMAP se actualiza con git.")
 	ocupado = true
+	# Buscar a mano con un cartel abierto vale como «Actualizar»: el cartel se reemplaza por el aviso de lo instalado.
+	_ofrecido = {}
 	_fijar("Buscando actualizaciones…")
-	var err := await _buscar()
+	var err := await _buscar(preguntar)
+	return _terminar(err)
+
+
+## «Actualizar» en el cartel: instala lo que se ofreció.
+func aceptar() -> String:
+	if ocupado or _ofrecido.is_empty():
+		return ""
+	var m := _ofrecido
+	_ofrecido = {}
+	ocupado = true
+	_fijar("Actualizando: %s…" % _novedad)
+	var err := await _instalar(m)
+	return _terminar(err)
+
+
+## «Ahora no» en el cartel: no se baja ni se cambia nada. Se vuelve a ofrecer la próxima vez que se abra TellMAP.
+func posponer() -> void:
+	if _ofrecido.is_empty():
+		return
+	_ofrecido = {}
+	_fijar("Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora»."
+		% _novedad)
+
+
+## Si hay una pregunta esperando respuesta (el cartel de «Actualizar» o «Ahora no»).
+func hay_oferta() -> bool:
+	return not _ofrecido.is_empty()
+
+
+func _terminar(err: String) -> String:
 	# Lo bajado a medias (si algo falló) no sirve para la próxima.
 	Datos.borrar_carpeta(BAJANDO)
 	DirAccess.remove_absolute(GZ_APP)
@@ -76,7 +120,7 @@ func buscar() -> String:
 	return err
 
 
-func _buscar() -> String:
+func _buscar(preguntar: bool) -> String:
 	var r := await _pedir(url_manifiesto)
 	if r.has("error"):
 		return "no se pudo leer el manifiesto (%s)." % r["error"]
@@ -88,17 +132,59 @@ func _buscar() -> String:
 		aviso.emit("app", "Hay una versión nueva de TellMAP que hay que bajar a mano.")
 		_fijar("Hay una versión nueva de TellMAP que hay que bajar a mano.")
 		return ""
+	if preguntar:
+		var novedad := _que_hay(m)
+		if novedad != "":
+			_ofrecido = m
+			_novedad = novedad
+			_fijar("Hay una actualización: %s." % novedad)
+			aviso.emit("oferta", "Hay una actualización: %s. ¿La instalo?" % novedad)
+			return ""
+	return await _instalar(m)
+
+
+## Lo que se puede instalar desde acá, en palabras, o "" si no hay nada. Una versión de la app que hay que bajar a mano
+## no se ofrece: _instalar() la avisa con el enlace a la descarga.
+func _que_hay(m: Dictionary) -> String:
+	var partes := PackedStringArray()
+	var app: Dictionary = m.get("app", {})
+	if _app_nueva(app) and _app_instalable(app):
+		partes.append("TellMAP %s" % str(app["version"]))
+	var datos: Dictionary = m.get("datos", {})
+	if _datos_nuevos(datos):
+		partes.append("datos del %s" % Datos.fecha(int(datos["version"])))
+	return " y ".join(partes)
+
+
+func _app_nueva(app: Dictionary) -> bool:
+	var nueva := str(app.get("version", "0"))
+	return Datos.comparar(nueva, version_app()) > 0 and nueva != app_lista
+
+
+## Si el ejecutable se puede reemplazar desde acá: hay uno para esta plataforma y la carpeta se puede escribir.
+func _app_instalable(app: Dictionary) -> bool:
+	var plataforma := "%s-%s" % [OS.get_name().to_lower(), Engine.get_architecture_name()]
+	return not app.get(plataforma, {}).is_empty() and ruta_ejecutable != "" \
+		and _se_puede_escribir(ruta_ejecutable.get_base_dir())
+
+
+func _datos_nuevos(datos: Dictionary) -> bool:
+	return int(datos.get("version", 0)) > Datos.version \
+		and Datos.comparar(version_app(), str(datos.get("app_minima", "0"))) >= 0
+
+
+func _instalar(m: Dictionary) -> String:
 	var app: Dictionary = m.get("app", {})
 	var hecho: Array = []
 	var nueva := str(app.get("version", "0"))
-	if Datos.comparar(nueva, version_app()) > 0 and nueva != app_lista:
+	if _app_nueva(app):
 		var err := await _actualizar_app(app)
 		if err != "":
 			return err
 		hecho.append("TellMAP %s quedó instalada: se abre la próxima vez." % nueva if app_lista == nueva else
 			"Hay una versión nueva, TellMAP %s: bajala de su página." % nueva)
 	var datos: Dictionary = m.get("datos", {})
-	if int(datos.get("version", 0)) > Datos.version and Datos.comparar(version_app(), str(datos.get("app_minima", "0"))) >= 0:
+	if _datos_nuevos(datos):
 		var err := await _actualizar_datos(datos)
 		if err != "":
 			return err
@@ -117,7 +203,7 @@ func _actualizar_app(app: Dictionary) -> String:
 	var plataforma := "%s-%s" % [OS.get_name().to_lower(), Engine.get_architecture_name()]
 	var a: Dictionary = app.get(plataforma, {})
 	var manual := "Hay una versión nueva, TellMAP %s: bajala de su página." % nueva
-	if a.is_empty() or ruta_ejecutable == "" or not _se_puede_escribir(ruta_ejecutable.get_base_dir()):
+	if not _app_instalable(app):
 		aviso.emit("app", manual)
 		return ""
 	_fijar("Bajando TellMAP %s…" % nueva)
@@ -266,6 +352,19 @@ func _borrar_viejo() -> void:
 
 func _actualizar_y_salir() -> void:
 	var err := await buscar()
+	print("[actualizacion] %s" % (texto if err == "" else "ERROR: " + texto))
+	get_tree().quit(0 if err == "" else 1)
+
+
+## Lo mismo que al abrir, contestando el cartel con «Actualizar» (`si`) o «Ahora no».
+func _preguntar_y_salir(si: bool) -> void:
+	var err := await buscar(true)
+	if err == "" and hay_oferta():
+		print("[actualizacion] %s" % texto)
+		if si:
+			err = await aceptar()
+		else:
+			posponer()
 	print("[actualizacion] %s" % (texto if err == "" else "ERROR: " + texto))
 	get_tree().quit(0 if err == "" else 1)
 

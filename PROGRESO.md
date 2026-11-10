@@ -107,6 +107,18 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 
 ## Hecho
 
+### 10 de noviembre de 2026: versión 0.3.3, pregunta antes de actualizar
+
+- [x] **La app pregunta antes de actualizarse.** Al abrir, si hay una versión nueva o datos nuevos, un cartel arriba
+      al centro lo ofrece con «Actualizar» y «Ahora no», y no baja nada hasta que le dicen que sí. «Ahora no» (o la
+      cruz) no cambia nada y el cartel vuelve a salir la próxima vez; con «Actualizar», el mismo cartel muestra cómo
+      va y al terminar queda el aviso de siempre. «Buscar ahora», en Ajustes, sigue instalando sin preguntar.
+      `--preguntar-y-salir=si|no` contesta el cartel desde la línea de comandos, y `probar.py` comprueba que «Ahora
+      no» no baje ni toque nada (datos ni ejecutable).
+- [x] Arreglado: **la 0.3.2 quedó anunciada como 0.3.1.** `version.yml` publicó el manifiesto de la 0.3.2, pero
+      `datos.yml`, lanzado por el mismo push, lo pisó dos segundos después con uno armado antes. El manifiesto se
+      corrigió a mano y los dos workflows comparten ahora el grupo de `concurrency` `actualizaciones`.
+
 ### 10 de noviembre de 2026: versión 0.3.2, también para macOS
 
 - [x] **Versión 0.3.1 publicada** en GitHub (la primera que se actualiza sola), con la versión fija

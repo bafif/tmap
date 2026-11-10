@@ -75,8 +75,9 @@ runs well from an old laptop to a gaming PC.
 - **No accounts, no telemetry.** It runs on your computer. The only things that go online are the Wikipedia lookup when
   you open an entry, which is cached, and the [update](docs/es/actualizaciones.md) check on GitHub when the app opens,
   which sends nothing about you and can be turned off in Settings.
-- **Updates itself.** The downloaded version installs new releases; when only the data changed (more sources, people,
-  events or regions) it downloads just the changed files, without reinstalling the program.
+- **Updates itself.** When it opens, the downloaded version tells you if there is something new and installs it if
+  you say yes («Ahora no», "not now", leaves it as it is). When only the data changed (more sources, people, events or
+  regions) it downloads just the changed files, without reinstalling the program.
 
 ## Try it
 

@@ -13,10 +13,14 @@ Desde el código fuente (`godot --path .` o el editor) no se busca nada: esa cop
 ## Qué ve quien usa la app
 
 Al abrir, si la casilla de **Ajustes → Actualizaciones** está marcada (lo está de entrada), TellMAP consulta el
-manifiesto en GitHub. Si hay algo nuevo lo baja, comprueba su sha256 y lo instala, y avisa arriba al centro. Si el
-ejecutable no se puede reemplazar (por ejemplo, porque está en una carpeta sin permiso de escritura), el aviso lleva
-a la página de descarga. En Ajustes están el estado, «Buscar ahora» y la casilla para apagarlo. La consulta no manda
-nada del usuario: es un pedido a GitHub, como abrir la página del proyecto.
+manifiesto en GitHub. Si hay algo nuevo, lo ofrece en un cartel arriba al centro («Hay una actualización: TellMAP
+0.3.3 y datos del 12/11/2026. ¿La instalo?») con **Actualizar** y **Ahora no**, y no baja nada hasta que le dicen que
+sí. Con «Ahora no» (o la cruz) no cambia nada y la app sigue como estaba; el cartel vuelve a salir la próxima vez que
+se abra. Con «Actualizar» lo baja, comprueba su sha256, lo instala y avisa en el mismo lugar cuando terminó. Si el
+ejecutable no se puede reemplazar (por ejemplo, porque está en una carpeta sin permiso de escritura), no pregunta: el
+aviso lleva a la página de descarga. En Ajustes están el estado, «Buscar ahora» (que instala sin preguntar, porque ya
+es un pedido) y la casilla para apagarlo. La consulta no manda nada del usuario: es un pedido a GitHub, como abrir la
+página del proyecto.
 
 ## Cómo funciona
 
@@ -55,15 +59,21 @@ nada del usuario: es un pedido a GitHub, como abrir la página del proyecto.
   publicada de la app** y los datos nuevos, y si pasa publica una versión `datos-AAAAMMDD-HHMMSS` y el manifiesto
   nuevo. Si la prueba falla es porque los datos necesitan código nuevo: van con la próxima versión de la app. También
   se puede correr a mano desde la pestaña Actions.
+- Los dos workflows suben `actualizacion.json` y comparten el grupo de `concurrency` `actualizaciones`, así que nunca
+  corren a la vez. Antes no lo compartían: con la 0.3.2, `datos.yml` (por el mismo push, que tocaba `data/`) terminó
+  dos segundos después que `version.yml` y pisó el manifiesto con uno armado antes, que seguía anunciando la 0.3.1.
+  Se arregló subiendo a mano el manifiesto con la entrada de la 0.3.2.
 
 ## Probar
 
 `python3 tools/actualizacion/probar.py` arma una versión publicada falsa, la sirve en `127.0.0.1` y corre la app con
-`-- --actualizaciones=<url>` y una carpeta de usuario aparte: comprueba que baje e instale datos nuevos, que la app
-los lea, que rechace un archivo adulterado y que no deje restos. Con `--ejecutable build/linux/TellMAP.x86_64` (un
-ejecutable exportado después de `publicar.py sellar`) prueba además que la app se reemplace sola y vuelva a arrancar.
+`-- --actualizaciones=<url>` y una carpeta de usuario aparte: comprueba que al abrir ofrezca lo nuevo y que «Ahora
+no» no baje ni cambie nada, que con «Actualizar» baje e instale datos nuevos, que la app los lea, que al día no
+pregunte nada, que rechace un archivo adulterado y que no deje restos. Con `--ejecutable build/linux/TellMAP.x86_64`
+(un ejecutable exportado después de `publicar.py sellar`) prueba además que «Ahora no» deje el ejecutable como
+estaba, que la app se reemplace sola y que vuelva a arrancar.
 
 Banderas de la app para probar a mano: `--actualizaciones=<url del manifiesto>` prende el actualizador aunque se
-corra desde el código fuente (solo los datos: el ejecutable se reemplaza solo en una versión exportada),
-`--actualizar-y-salir` busca, instala y sale (0 si salió bien, 1 si no) y `--ejecutable=<ruta>` elige qué
-ejecutable reemplazar.
+corra desde el código fuente, `--actualizar-y-salir` busca, instala y sale (0 si salió bien, 1 si no),
+`--preguntar-y-salir=si|no` hace lo mismo que al abrir y contesta el cartel con «Actualizar» o «Ahora no», y
+`--ejecutable=<ruta>` elige qué ejecutable reemplazar (también desde el código fuente: sirve un archivo cualquiera).
