@@ -67,7 +67,8 @@ runs well from an old laptop to a gaming PC.
 - **The look of grand-strategy maps.** Hillshaded relief, rivers, nautical-chart coastlines, names that curve across
   the land, and three interface themes: Marble & Bronze, Illuminated Parchment, and Ink & Brass.
 - **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
-  the app. Today it ships a full pilot on ancient Egypt and a sample of eleven regions; the rest is filled in stages,
+  the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, and a sample of eleven
+  regions; the rest is filled in stages,
   most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
   human review.
 - **No accounts, no telemetry.** It runs on your computer. The only thing that goes online is the Wikipedia lookup when
@@ -98,6 +99,8 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [x] Side panel: summary, history of the place, sources, people and events, data
 - [x] Live Wikipedia summaries, Spanish first
 - [x] Pilot encyclopedia on ancient Egypt and a sample of eleven regions
+- [x] Medieval Europe package: 15 regions, 173 sources (with an emphasis on philosophy), 215 people, 125 events and
+      120 places, checked against Wikipedia and Wikidata
 - [x] Religion, culture and language map modes (where data exists), with each period's real outline
 - [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
 - [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)

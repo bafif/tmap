@@ -186,6 +186,19 @@ func hasta_de(v: Dictionary) -> int:
 	return int(v["hasta"]) if v.get("hasta") != null else Estado.ANIO_MAX
 
 
+## El período de una entrada de era o de capa en texto, sin inventar extremos: «desde 1100», «hasta 432».
+func rango_de(v: Dictionary) -> String:
+	var abierto_antes: bool = v.get("desde") == null
+	var abierto_despues: bool = v.get("hasta") == null
+	if abierto_antes and abierto_despues:
+		return "siempre"
+	if abierto_antes:
+		return "hasta %s" % Fechas.texto(hasta_de(v))
+	if abierto_despues:
+		return "desde %s" % Fechas.texto(desde_de(v))
+	return Fechas.rango(desde_de(v), hasta_de(v))
+
+
 ## El id de familia de una entrada de capa (si falta, su nombre).
 func familia_de(v: Dictionary) -> String:
 	return str(v.get("familia", v.get("nombre", "?")))
@@ -256,7 +269,7 @@ func presencia_familia(clave: String) -> Array:
 	for r in regiones.values():
 		for v in r.get(capa, []):
 			if ids.has(familia_de(v)):
-				out.append({"region": r["id"], "desde": desde_de(v), "hasta": hasta_de(v), "nombre": v["nombre"],
+				out.append({"region": r["id"], "desde": desde_de(v), "hasta": hasta_de(v), "rango": rango_de(v), "nombre": v["nombre"],
 					"peso": str(v.get("peso", "")), "familia": familia_de(v), "nota": str(v.get("nota", ""))})
 	out.sort_custom(func(a, b): return [regiones[a["region"]]["nombre"], a["desde"]] < [regiones[b["region"]]["nombre"], b["desde"]])
 	return out

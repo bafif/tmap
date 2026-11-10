@@ -8,10 +8,17 @@ dato dice de dónde salió.
 - **Fronteras y entidades** de todo el mundo (Cliopatria): cada entidad trae su artículo de Wikipedia y su id de
   Wikidata.
 - **Resúmenes de Wikipedia en vivo**, en español primero y en inglés si no hay, guardados en caché por 30 días.
-- **Dos paquetes curados** en `data/enciclopedia/paquetes/`:
+- **Tres paquetes curados** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
+  idiomas:
   - `egipto.json`, el piloto: 4 regiones (con 18 eras para Egipto), 37 fuentes, 18 personas, 24 hechos y 14 lugares.
   - `mundo.json`, una muestra de once regiones (Mesopotamia, Levante, Anatolia, Grecia, Italia, Persia, China, India,
     Mesoamérica, Andes y Río de la Plata).
+  - `edad-media.json`, la Europa medieval del saqueo de Roma a 1500, con énfasis en la historia de la filosofía:
+    15 regiones (Península ibérica, Francia, Britania, Irlanda, Alemania y los Países Bajos, Escandinavia, Islandia,
+    Polonia, Bohemia, Hungría, Balcanes, Valaquia y Moldavia, el Báltico, la Rus y Sicilia), 173 fuentes, 215
+    personas, 125 hechos y 120 lugares. Los títulos de Wikipedia en español, los ids de Wikidata y las coordenadas
+    salen de Wikidata; las fechas de vida se cruzaron con Wikidata y los 104 enlaces de lectura (Wikisource y
+    Proyecto Gutenberg) se comprobaron uno por uno. La demografía sigue a Russell (1972) y a Urlanis (1941).
 - El formato está en [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md) y se valida con
   `python3 tools/enciclopedia/validar.py`.
 - **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).

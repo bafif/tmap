@@ -169,7 +169,7 @@ func _al_seleccionar(unidad: int, _px: Vector2) -> void:
 		if not eras.is_empty():
 			var lista: Array = []
 			for e in eras:
-				lista.append([int(e["desde"]), int(e["hasta"]), e["nombre"]])
+				lista.append([Enciclopedia.desde_de(e), Enciclopedia.hasta_de(e), e["nombre"]])
 			pista.fijar_eras(lista, "Eras de %s" % r["nombre"])
 			_actualizar(Estado.anio)
 			return

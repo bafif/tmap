@@ -880,6 +880,749 @@
         "es": "Lenguas quechuas",
         "en": "Quechuan languages"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "arrianismo",
+      "nombre": "Arrianismo",
+      "padre": "cristianismo",
+      "color": "#b9a0d0",
+      "nota": "Cristianismo que negaba que el Hijo fuera de la misma sustancia que el Padre; fue la fe de godos, vándalos y lombardos hasta su conversión al catolicismo.",
+      "wikipedia": {
+        "es": "Arrianismo",
+        "en": "Arianism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "catarismo",
+      "nombre": "Catarismo",
+      "padre": "cristianismo",
+      "color": "#8f86a8",
+      "nota": "Movimiento dualista del Languedoc y del norte de Italia, aplastado por la cruzada albigense y la Inquisición.",
+      "wikipedia": {
+        "es": "Catarismo",
+        "en": "Catharism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "bogomilismo",
+      "nombre": "Bogomilismo",
+      "padre": "cristianismo",
+      "color": "#8a6f9a",
+      "wikipedia": {
+        "es": "Bogomilos",
+        "en": "Bogomilism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "husitismo",
+      "nombre": "Husitismo",
+      "padre": "cristianismo",
+      "color": "#b07a50",
+      "nota": "Iglesia reformada de Bohemia que siguió a Jan Hus; su rama moderada, los utraquistas, fue mayoritaria en el siglo XV.",
+      "wikipedia": {
+        "es": "Husitas",
+        "en": "Hussites"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-europeo",
+      "nombre": "Religiones precristianas de Europa",
+      "padre": null,
+      "color": "#6f8a4f",
+      "nota": "Agrupa religiones sin parentesco directo entre sí: la germánica, la eslava, la báltica, la celta y la de los húngaros antes de su cristianización.",
+      "wikipedia": {
+        "es": "Paganismo",
+        "en": "Paganism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-germanico",
+      "nombre": "Religión germánica",
+      "padre": "paganismo-europeo",
+      "color": "#7f9a55",
+      "wikipedia": {
+        "es": "Paganismo germánico",
+        "en": "Germanic paganism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-nordica",
+      "nombre": "Religión nórdica antigua",
+      "padre": "paganismo-germanico",
+      "color": "#5f8a75",
+      "wikipedia": {
+        "es": "Paganismo nórdico",
+        "en": "Old Norse religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-eslavo",
+      "nombre": "Religión eslava precristiana",
+      "padre": "paganismo-europeo",
+      "color": "#9a8a50",
+      "wikipedia": {
+        "en": "Slavic paganism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-baltico",
+      "nombre": "Religión báltica",
+      "padre": "paganismo-europeo",
+      "color": "#a0a050",
+      "nota": "Los lituanos fueron el último pueblo pagano de Europa: su gran duque Jogaila se bautizó en 1386 y Samogitia, en 1413.",
+      "wikipedia": {
+        "es": "Mitología báltica",
+        "en": "Baltic mythology"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "paganismo-celta",
+      "nombre": "Religión celta",
+      "padre": "paganismo-europeo",
+      "color": "#4f8f6f",
+      "wikipedia": {
+        "es": "Politeísmo celta",
+        "en": "Ancient Celtic religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-magiar",
+      "nombre": "Religión tradicional húngara",
+      "padre": "paganismo-europeo",
+      "color": "#b89a5a",
+      "wikipedia": {
+        "en": "Hungarian mythology"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "protestantismo",
+      "nombre": "Protestantismo",
+      "padre": "cristianismo",
+      "color": "#d8c890",
+      "nota": "Luteranos, reformados (calvinistas), anglicanos y demás Iglesias nacidas de la Reforma del siglo XVI.",
+      "wikipedia": {
+        "es": "Protestantismo",
+        "en": "Protestantism"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "germanica",
+      "nombre": "Germánica",
+      "padre": null,
+      "color": "#6b8e5a",
+      "wikipedia": {
+        "es": "Pueblos germánicos",
+        "en": "Germanic peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "goda",
+      "nombre": "Goda",
+      "padre": "germanica",
+      "color": "#8aa06a",
+      "wikipedia": {
+        "es": "Pueblo godo",
+        "en": "Goths"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "franca",
+      "nombre": "Franca",
+      "padre": "germanica",
+      "color": "#7a9a62",
+      "wikipedia": {
+        "es": "Pueblo franco",
+        "en": "Franks"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "anglosajona",
+      "nombre": "Anglosajona",
+      "padre": "germanica",
+      "color": "#6e9a6a",
+      "wikipedia": {
+        "es": "Anglosajones",
+        "en": "Anglo-Saxons"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "inglesa",
+      "nombre": "Inglesa",
+      "padre": "germanica",
+      "color": "#5f8f8a",
+      "wikipedia": {
+        "es": "Pueblo inglés",
+        "en": "English people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "alemana",
+      "nombre": "Alemana",
+      "padre": "germanica",
+      "color": "#4f7f5a",
+      "wikipedia": {
+        "es": "Pueblo alemán",
+        "en": "Germans"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "nordica",
+      "nombre": "Nórdica",
+      "padre": "germanica",
+      "color": "#4a7a8a",
+      "wikipedia": {
+        "es": "Pueblos germánicos septentrionales",
+        "en": "North Germanic peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "francesa",
+      "nombre": "Francesa",
+      "padre": null,
+      "color": "#4a6fb0",
+      "wikipedia": {
+        "es": "Pueblo francés",
+        "en": "French people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "occitana",
+      "nombre": "Occitana",
+      "padre": null,
+      "color": "#c2703a",
+      "wikipedia": {
+        "es": "Pueblo occitano",
+        "en": "Occitans"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "andalusi",
+      "nombre": "Andalusí",
+      "padre": "arabe",
+      "color": "#4f9a5a",
+      "nota": "La cultura árabe e islámica de al-Ándalus, hecha por árabes, bereberes y una mayoría de hispanos convertidos (muladíes).",
+      "wikipedia": {
+        "es": "Al-Ándalus",
+        "en": "Al-Andalus"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "vasca",
+      "nombre": "Vasca",
+      "padre": null,
+      "color": "#8a3a3a",
+      "wikipedia": {
+        "es": "Etnia vasca",
+        "en": "Basques"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "celta",
+      "nombre": "Celta",
+      "padre": null,
+      "color": "#5a9a80",
+      "wikipedia": {
+        "es": "Celta",
+        "en": "Celts"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "gaelica",
+      "nombre": "Gaélica",
+      "padre": "celta",
+      "color": "#3f9a70",
+      "wikipedia": {
+        "es": "Pueblo gaélico",
+        "en": "Gaels"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "britona",
+      "nombre": "Britona",
+      "padre": "celta",
+      "color": "#6aa890",
+      "wikipedia": {
+        "es": "Britanos",
+        "en": "Celtic Britons"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "eslava",
+      "nombre": "Eslava",
+      "padre": null,
+      "color": "#b85a5a",
+      "wikipedia": {
+        "es": "Pueblos eslavos",
+        "en": "Slavs"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "eslava-oriental",
+      "nombre": "Eslava oriental",
+      "padre": "eslava",
+      "color": "#c86a5a",
+      "wikipedia": {
+        "es": "Eslavos orientales",
+        "en": "East Slavs"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "eslava-occidental",
+      "nombre": "Eslava occidental",
+      "padre": "eslava",
+      "color": "#a8506a",
+      "wikipedia": {
+        "es": "Eslavos occidentales",
+        "en": "West Slavs"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "eslava-meridional",
+      "nombre": "Eslava meridional",
+      "padre": "eslava",
+      "color": "#b8705a",
+      "wikipedia": {
+        "es": "Eslavos meridionales",
+        "en": "South Slavs"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "magiar",
+      "nombre": "Húngara (magiar)",
+      "padre": null,
+      "color": "#c89a5a",
+      "wikipedia": {
+        "es": "Pueblo magiar",
+        "en": "Hungarians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "baltica",
+      "nombre": "Báltica",
+      "padre": null,
+      "color": "#8a9a4a",
+      "wikipedia": {
+        "es": "Pueblos bálticos",
+        "en": "Balts"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "rumana",
+      "nombre": "Rumana (valaca)",
+      "padre": null,
+      "color": "#b8803a",
+      "wikipedia": {
+        "es": "Pueblo rumano",
+        "en": "Romanians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "judia",
+      "nombre": "Judía",
+      "padre": null,
+      "color": "#3f78b5",
+      "wikipedia": {
+        "es": "Pueblo judío",
+        "en": "Jews"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "sefardi",
+      "nombre": "Sefardí",
+      "padre": "judia",
+      "color": "#4a86c0",
+      "wikipedia": {
+        "es": "Sefardí",
+        "en": "Sephardic Jews"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "askenazi",
+      "nombre": "Asquenazí",
+      "padre": "judia",
+      "color": "#34689f",
+      "wikipedia": {
+        "es": "Asquenazí",
+        "en": "Ashkenazi Jews"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "germanicas",
+      "nombre": "Lenguas germánicas",
+      "padre": "indoeuropeas",
+      "color": "#6b8e5a",
+      "wikipedia": {
+        "es": "Lenguas germánicas",
+        "en": "Germanic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "gotico",
+      "nombre": "Gótico",
+      "padre": "germanicas",
+      "color": "#8aa06a",
+      "wikipedia": {
+        "es": "Idioma gótico",
+        "en": "Gothic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "franconio",
+      "nombre": "Fráncico antiguo",
+      "padre": "germanicas",
+      "color": "#7a9a62",
+      "wikipedia": {
+        "es": "Idioma fráncico",
+        "en": "Frankish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nordico",
+      "nombre": "Nórdico antiguo",
+      "padre": "germanicas",
+      "color": "#4a7a8a",
+      "nota": "Incluye sus continuadores medievales: islandés, noruego, sueco y danés antiguos.",
+      "wikipedia": {
+        "es": "Nórdico antiguo",
+        "en": "Old Norse"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ingles",
+      "nombre": "Inglés",
+      "padre": "germanicas",
+      "color": "#5f8f8a",
+      "nota": "Inglés antiguo (anglosajón) hasta el siglo XII y luego inglés medio.",
+      "wikipedia": {
+        "es": "Idioma inglés",
+        "en": "English language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "aleman",
+      "nombre": "Alemán",
+      "padre": "germanicas",
+      "color": "#4f7f5a",
+      "nota": "Alto alemán antiguo y medio, y bajo alemán en el norte.",
+      "wikipedia": {
+        "es": "Idioma alemán",
+        "en": "German language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "neerlandes",
+      "nombre": "Neerlandés",
+      "padre": "germanicas",
+      "color": "#6f8f4a",
+      "nota": "Neerlandés medio, con el flamenco.",
+      "wikipedia": {
+        "es": "Idioma neerlandés",
+        "en": "Dutch language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "celtas",
+      "nombre": "Lenguas celtas",
+      "padre": "indoeuropeas",
+      "color": "#5a9a80",
+      "wikipedia": {
+        "es": "Lenguas celtas",
+        "en": "Celtic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "irlandes",
+      "nombre": "Irlandés (gaélico)",
+      "padre": "celtas",
+      "color": "#3f9a70",
+      "nota": "Incluye el gaélico de Escocia, que se separó del irlandés medio al final de la Edad Media.",
+      "wikipedia": {
+        "es": "Idioma irlandés",
+        "en": "Irish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "gales",
+      "nombre": "Galés",
+      "padre": "celtas",
+      "color": "#6aa890",
+      "wikipedia": {
+        "es": "Idioma galés",
+        "en": "Welsh language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "breton",
+      "nombre": "Bretón",
+      "padre": "celtas",
+      "color": "#7ab0a0",
+      "wikipedia": {
+        "es": "Idioma bretón",
+        "en": "Breton language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "frances",
+      "nombre": "Francés (lengua de oïl)",
+      "padre": "romances",
+      "color": "#4a6fb0",
+      "wikipedia": {
+        "es": "Idioma francés",
+        "en": "French language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "occitano",
+      "nombre": "Occitano (lengua de oc)",
+      "padre": "romances",
+      "color": "#c2703a",
+      "wikipedia": {
+        "es": "Idioma occitano",
+        "en": "Occitan language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "catalan",
+      "nombre": "Catalán",
+      "padre": "romances",
+      "color": "#d0a030",
+      "wikipedia": {
+        "es": "Idioma catalán",
+        "en": "Catalan language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "galaicoportugues",
+      "nombre": "Galaicoportugués y portugués",
+      "padre": "romances",
+      "color": "#2f7f9f",
+      "wikipedia": {
+        "es": "Idioma galaicoportugués",
+        "en": "Galician–Portuguese"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "mozarabe",
+      "nombre": "Romance andalusí (mozárabe)",
+      "padre": "romances",
+      "color": "#c8b080",
+      "wikipedia": {
+        "es": "Idioma mozárabe",
+        "en": "Andalusi Romance"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "rumano",
+      "nombre": "Rumano",
+      "padre": "romances",
+      "color": "#b8803a",
+      "wikipedia": {
+        "es": "Idioma rumano",
+        "en": "Romanian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "eslavas",
+      "nombre": "Lenguas eslavas",
+      "padre": "indoeuropeas",
+      "color": "#b85a5a",
+      "wikipedia": {
+        "es": "Lenguas eslavas",
+        "en": "Slavic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "eslavo-eclesiastico",
+      "nombre": "Antiguo eslavo eclesiástico",
+      "padre": "eslavas",
+      "color": "#a04a6a",
+      "nota": "Lengua escrita y litúrgica de los eslavos ortodoxos, creada por Cirilo y Metodio sobre el habla de Tesalónica.",
+      "wikipedia": {
+        "es": "Antiguo eslavo eclesiástico",
+        "en": "Old Church Slavonic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "eslavo-oriental",
+      "nombre": "Eslavo oriental antiguo",
+      "padre": "eslavas",
+      "color": "#c86a5a",
+      "nota": "Antecesor del ruso, el ucraniano y el bielorruso.",
+      "wikipedia": {
+        "es": "Antiguo eslavo oriental",
+        "en": "Old East Slavic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "polaco",
+      "nombre": "Polaco",
+      "padre": "eslavas",
+      "color": "#d05a5a",
+      "wikipedia": {
+        "es": "Idioma polaco",
+        "en": "Polish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "checo",
+      "nombre": "Checo",
+      "padre": "eslavas",
+      "color": "#a8506a",
+      "wikipedia": {
+        "es": "Idioma checo",
+        "en": "Czech language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "eslavas-meridionales",
+      "nombre": "Lenguas eslavas meridionales",
+      "padre": "eslavas",
+      "color": "#b8705a",
+      "nota": "Búlgaro, macedonio, serbio, croata y esloveno.",
+      "wikipedia": {
+        "es": "Lenguas eslavas meridionales",
+        "en": "South Slavic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "balticas",
+      "nombre": "Lenguas bálticas",
+      "padre": "indoeuropeas",
+      "color": "#8a9a4a",
+      "nota": "Lituano, letón y prusiano antiguo.",
+      "wikipedia": {
+        "es": "Lenguas bálticas",
+        "en": "Baltic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "albanes",
+      "nombre": "Albanés",
+      "padre": "indoeuropeas",
+      "color": "#8a4a4a",
+      "wikipedia": {
+        "es": "Idioma albanés",
+        "en": "Albanian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "uralicas",
+      "nombre": "Lenguas urálicas",
+      "padre": null,
+      "color": "#4a9ab0",
+      "wikipedia": {
+        "es": "Lenguas urálicas",
+        "en": "Uralic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hungaro",
+      "nombre": "Húngaro",
+      "padre": "uralicas",
+      "color": "#c89a5a",
+      "wikipedia": {
+        "es": "Idioma húngaro",
+        "en": "Hungarian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "finicas",
+      "nombre": "Lenguas fínicas",
+      "padre": "uralicas",
+      "color": "#5aaab0",
+      "nota": "Estonio, finés, carelio y otras lenguas del Báltico oriental.",
+      "wikipedia": {
+        "es": "Lenguas fino-bálticas",
+        "en": "Finnic languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "vasco",
+      "nombre": "Vasco (euskera)",
+      "padre": null,
+      "color": "#8a3a3a",
+      "nota": "Lengua aislada: la única de Europa occidental anterior a las indoeuropeas que sobrevive.",
+      "wikipedia": {
+        "es": "Euskera",
+        "en": "Basque language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hebreo",
+      "nombre": "Hebreo",
+      "padre": "semiticas",
+      "color": "#3f78b5",
+      "nota": "En la Edad Media, lengua escrita de la liturgia, el derecho, la poesía y la filosofía judías.",
+      "wikipedia": {
+        "es": "Idioma hebreo",
+        "en": "Hebrew language"
+      }
     }
   ]
 }

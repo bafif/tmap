@@ -169,7 +169,9 @@ func _prueba_automatica() -> void:
 		await get_tree().process_frame
 	paso.call("modos de mapa")
 	Estado.fijar_anio(-1350)
-	for ll in [Vector2(31.2, 30.0), Vector2(32.6, 25.7), Vector2(12.5, 41.9), Vector2(-58.4, -34.6), Vector2(116.4, 39.9), Vector2(0, -20)]:
+	# París, Dublín y Kiev: regiones con eras sin comienzo o sin final («desde» o «hasta»: null).
+	for ll in [Vector2(31.2, 30.0), Vector2(32.6, 25.7), Vector2(12.5, 41.9), Vector2(-58.4, -34.6), Vector2(116.4, 39.9), Vector2(0, -20),
+			Vector2(2.35, 48.85), Vector2(-6.26, 53.35), Vector2(30.5, 50.45)]:
 		var px := Proyeccion.a_px(ll.x, ll.y)
 		Estado.seleccionar_lugar(DatosMapa.unidad_en(px), px)
 		for i in 5:

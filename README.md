@@ -68,7 +68,8 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
   nombres que se curvan sobre el territorio y tres temas para la interfaz: Mármol y bronce, Pergamino iluminado, y
   Tinta y latón.
 - **Hecho para crecer de a poco.** La enciclopedia son archivos JSON legibles, por paquetes, que se editan con
-  formularios dentro de la app. Hoy trae un piloto completo sobre el antiguo Egipto y una muestra de once regiones; el
+  formularios dentro de la app. Hoy trae un piloto completo sobre el antiguo Egipto, la Europa medieval con su filosofía y una muestra de once
+  regiones; el
   resto se completa por etapas, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
   siempre cita sus fuentes y pasa por revisión humana.
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Lo único que sale a internet es la consulta a Wikipedia
@@ -99,6 +100,8 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 - [x] Panel lateral: resumen, historia del lugar, fuentes, gente y hechos, datos
 - [x] Resúmenes de Wikipedia en vivo, en español primero
 - [x] Enciclopedia piloto del antiguo Egipto y muestra de once regiones
+- [x] Paquete de la Europa medieval: 15 regiones, 173 fuentes (con énfasis en la filosofía), 215 personas, 125 hechos
+      y 120 lugares, verificados contra Wikipedia y Wikidata
 - [x] Modos de religión, cultura e idioma (solo donde hay datos), con el contorno real de cada época
 - [x] Fichas de cada religión, cultura, idioma y entidad política; leyenda, línea de tiempo y gráficos tocables
 - [x] Marcadores agrupados, atajos de teclado y cuatro temas visuales (uno de alto contraste)

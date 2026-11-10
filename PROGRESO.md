@@ -38,6 +38,17 @@ hacerlo:
 - [ ] **Religiones, culturas, idiomas y demografía en el editor.** Hoy el editor cubre los datos principales, el área y
       las eras de las regiones; esas cuatro listas todavía se cargan a mano en el JSON.
 
+### Contenido de la enciclopedia
+
+- [ ] **Europa medieval: lo que quedó afuera.** Sin región: Finlandia, Cerdeña y Córcega, y la estepa del mar Negro
+      con Crimea (pechenegos, cumanos, Horda de Oro, colonias genovesas). Sin demografía con fuente: Bohemia, Balcanes,
+      Valaquia y Moldavia, Báltico y Sicilia (Russell y Urlanis las dan agrupadas con otras regiones).
+- [ ] **Fuentes medievales sin lugar de escritura.** 18 fuentes (Beowulf, la Edda poética, el Cantar de Roldán, el
+      Cuzarí…) no aparecen en el mapa porque su lugar es desconocido; cargar el que proponga la bibliografía, con
+      `aprox` y confianza baja, o dejarlas así.
+- [ ] **Más enlaces de lectura.** 104 enlaces comprobados para 69 fuentes; faltan traducciones en español y textos de
+      sitios como el Medieval Sourcebook de Fordham o el Corpus Thomisticum.
+
 ### Datos abiertos a escala (0.4)
 
 - [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
@@ -62,6 +73,34 @@ hacerlo:
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: la Europa medieval, con énfasis en la filosofía
+
+- [x] **Paquete `edad-media.json`**: 15 regiones nuevas (Península ibérica, Francia, Britania, Irlanda, Alemania y
+      los Países Bajos, Escandinavia, Islandia, Polonia, Bohemia, Hungría, Balcanes, Valaquia y Moldavia, el Báltico,
+      la Rus y Sicilia) con eras, religiones, culturas e idiomas desde la Antigüedad hasta hoy; 173 fuentes, 215
+      personas, 125 hechos y 120 lugares, del saqueo de Roma a 1500. La filosofía va completa: de Agustín y Boecio a
+      Eriúgena, Anselmo, Abelardo, Chartres y San Víctor; al-Ándalus y la filosofía judía (Ibn Gabirol, Avempace,
+      Averroes, Maimónides, Crescas); los traductores de Toledo; la escolástica de París y Oxford con las condenas de
+      1270 y 1277; Escoto, Ockham, Buridán y Oresme; la mística (Eckhart, Porete, Juliana); Bizancio (Focio, Pselo,
+      Palamás, Pletón) y el humanismo hasta Ficino y Pico. De yapa: crónicas, sagas, derecho, ciencia, gobernantes,
+      batallas, concilios, universidades y monasterios.
+- [x] **Verificado contra Wikipedia y Wikidata**: cada artículo se resolvió en en.wikipedia (redirecciones y
+      desambiguaciones), el título en español y el id de Wikidata salen de sus sitelinks, las coordenadas de lugares y
+      hechos de P625, y las fechas de vida se cruzaron con P569/P570 (se dejaron seis fechas propias donde Wikidata
+      contradice a Wikipedia, como la muerte de Ockham en 1347). Los 104 enlaces de lectura (Wikisource en latín,
+      español, italiano, islandés, alemán y ruso, y Proyecto Gutenberg) respondieron 200.
+- [x] **Demografía con fuente**: Russell (1972) para Iberia, Francia, Italia, Rus, Polonia y Hungría (500-1450) y
+      Urlanis (1941) para Britania, Irlanda, Escandinavia y el área alemana (1000-1500), con notas cuando las dos
+      series difieren o cuando la cifra agrupa territorios.
+- [x] **Familias nuevas** en `familias.json`: 66, entre ellas el arrianismo, el catarismo, el husitismo, el
+      protestantismo y las religiones precristianas de Europa; culturas germánicas, eslavas, celtas, andalusí, judías;
+      lenguas germánicas, celtas, eslavas, bálticas, urálicas, el euskera y el hebreo.
+- [x] Arreglado: el polígono de `italia` dejaba afuera a Nápoles y Amalfi; Italia suma su demografía medieval.
+- [x] Arreglado: una era sin comienzo o sin final (`"desde"` o `"hasta"`: `null`, que el esquema permite) rompía la
+      línea de tiempo y el panel al seleccionar un lugar. Ahora los períodos abiertos se muestran como «desde 1808» o
+      «hasta 432» (`Enciclopedia.rango_de`), y la prueba automática selecciona París, Dublín y Kiev para cubrirlo.
+- [x] La prueba automática abre los 919 elementos de la enciclopedia en el editor y salen idénticos.
 
 ### 7 de noviembre de 2026: enciclopedia progresiva (0.3)
 

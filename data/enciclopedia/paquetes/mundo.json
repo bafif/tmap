@@ -895,8 +895,8 @@
           39.3
         ],
         [
-          14.8,
-          40.65
+          14.9,
+          40.2
         ],
         [
           12.6,
@@ -1012,6 +1012,38 @@
           "nombre": "Italiano (con dialectos regionales)",
           "familia": "italiano",
           "peso": "mayoritaria"
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 500,
+          "poblacion": 4000000,
+          "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
+          "nota": "Italia entera, con Sicilia y Cerdeña."
+        },
+        {
+          "anio": 650,
+          "poblacion": 2500000,
+          "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
+          "nota": "Italia entera."
+        },
+        {
+          "anio": 1000,
+          "poblacion": 5000000,
+          "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
+          "nota": "Italia entera. Urlanis (1941) da 7 millones."
+        },
+        {
+          "anio": 1340,
+          "poblacion": 10000000,
+          "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
+          "nota": "Italia entera. Urlanis (1941) da 10 millones en 1300 y 8 en 1350."
+        },
+        {
+          "anio": 1450,
+          "poblacion": 7300000,
+          "fuente": "Russell (1972), «Population in Europe 500-1500», en C. M. Cipolla (ed.), The Fontana Economic History of Europe, vol. 1",
+          "nota": "Italia entera. Urlanis (1941) da 10,5 millones."
         }
       ]
     },

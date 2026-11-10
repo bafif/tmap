@@ -266,7 +266,7 @@ func _pestana_resumen(ent: int, regs: Array) -> void:
 		_seccion("La región: %s" % r["nombre"])
 		var era := Enciclopedia.era_en(id, Estado.anio)
 		if not era.is_empty():
-			_parrafo("[b]%s[/b] (%s). %s" % [era["nombre"], Fechas.rango(int(era["desde"]), int(era["hasta"])), era.get("resumen", "")])
+			_parrafo("[b]%s[/b] (%s). %s" % [era["nombre"], Enciclopedia.rango_de(era), era.get("resumen", "")])
 		_parrafo(str(r.get("resumen", "")))
 		if r.get("extendida") is Dictionary:
 			var rid: String = id
@@ -299,9 +299,10 @@ func _pestana_historia(regs: Array) -> void:
 			continue
 		_seccion("Eras de %s" % Enciclopedia.regiones[id]["nombre"])
 		for e in eras:
-			var actual: bool = int(e["desde"]) <= Estado.anio and Estado.anio <= int(e["hasta"])
-			var fila := _fila_color(TemaUI.color("acento") if actual else TemaUI.color("borde_suave"), e["nombre"], Fechas.rango(int(e["desde"]), int(e["hasta"])), actual)
-			var desde := int(e["desde"])
+			var actual: bool = Enciclopedia.desde_de(e) <= Estado.anio and Estado.anio <= Enciclopedia.hasta_de(e)
+			var fila := _fila_color(TemaUI.color("acento") if actual else TemaUI.color("borde_suave"), e["nombre"], Enciclopedia.rango_de(e), actual)
+			# Una era sin comienzo conocido lleva a su final, no al primer año del mapa.
+			var desde := Enciclopedia.desde_de(e) if e.get("desde") != null else Enciclopedia.hasta_de(e)
 			fila.pressed.connect(func(): Estado.fijar_anio(desde))
 			fila.tooltip_text = str(e.get("resumen", ""))
 			_contenido.add_child(fila)
@@ -658,7 +659,7 @@ func _ficha_familia(f: Dictionary) -> void:
 	for e in ahora:
 		var r: Dictionary = Enciclopedia.regiones[e["region"]]
 		var fila := _fila_color(e["color"], r["nombre"], "%s · %s" % [e["peso"], e["nombre"]], e["peso"] == "mayoritaria")
-		fila.tooltip_text = "%s: %s, %s\nClic: ver la región en el mapa" % [r["nombre"], e["nombre"], Fechas.rango(e["desde"], e["hasta"])]
+		fila.tooltip_text = "%s: %s, %s\nClic: ver la región en el mapa" % [r["nombre"], e["nombre"], e["rango"]]
 		fila.pressed.connect(func(): Estado.enfocar((r["_caja"] as Rect2).get_center(), 0.0))
 		_contenido.add_child(fila)
 	var modo: String = Enciclopedia.MODO_DE_CAPA[capa]
@@ -678,7 +679,7 @@ func _ficha_familia(f: Dictionary) -> void:
 		var notas: Array = []
 		for e in pres:
 			if e["nota"] != "":
-				notas.append("[b]%s[/b], %s: %s" % [Enciclopedia.regiones[e["region"]]["nombre"], Fechas.rango(e["desde"], e["hasta"]), e["nota"]])
+				notas.append("[b]%s[/b], %s: %s" % [Enciclopedia.regiones[e["region"]]["nombre"], e["rango"], e["nota"]])
 		if not notas.is_empty():
 			_seccion("Notas")
 			_parrafo("\n".join(notas))
