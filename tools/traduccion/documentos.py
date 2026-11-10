@@ -155,6 +155,9 @@ def main() -> int:
             if ESQUEMA_URL.match(o) or o.startswith("{{"):
                 continue
             destino, ancla = resolver(d, o)
+            # Lo que sale del repo es una página de GitHub, como ../../releases, no un archivo.
+            if destino == ".." or destino.startswith("../"):
+                continue
             if not (RAIZ / destino).exists():
                 donde = "" if o.lstrip("/") == destino else f" ({destino})"
                 problemas.append(f"{d}:{i}: el enlace {o}{donde} apunta a un archivo que no existe")
@@ -165,7 +168,8 @@ def main() -> int:
                     anclas_de[destino] = anclas(texto)
                 if ancla not in anclas_de[destino]:
                     problemas.append(f"{d}:{i}: el enlace {o} apunta a #{ancla}, que no es un título de {destino}")
-            if (destino in par and destino != par.get(d) and idioma(destino) != idioma(d)
+            # Las plantillas de .github/ tienen los dos idiomas adentro: enlazan a los dos.
+            if (d in par and destino in par and destino != par.get(d) and idioma(destino) != idioma(d)
                     and idioma(par[destino]) == idioma(d) and par[destino] in textos):
                 problemas.append(f"{d}:{i}: el enlace {o} lleva a la versión en el otro idioma; "
                                  f"en este documento va {par[destino]}")
