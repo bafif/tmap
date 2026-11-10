@@ -1,31 +1,31 @@
-name: Algo no anda
-description: Un error, algo que se ve mal o un botón que no hace nada.
+name: Algo no anda · Something isn't working
+description: Un error, algo que se ve mal o un botón que no hace nada. · A bug, something that looks wrong or a button that does nothing.
 labels: ["error"]
 body:
   - type: textarea
     id: que
     attributes:
-      label: Qué pasó
-      description: Si podés, sumá una captura.
+      label: Qué pasó · What happened
+      description: Si podés, sumá una captura. · If you can, add a screenshot.
     validations:
       required: true
   - type: textarea
     id: pasos
     attributes:
-      label: Cómo se repite
+      label: Cómo se repite · How to reproduce it
       placeholder: "1. Fui a Egipto en 1350 a. C.\n2. Abrí la pestaña Fuentes\n3. …"
   - type: textarea
     id: esperado
     attributes:
-      label: Qué esperabas que pasara
+      label: Qué esperabas que pasara · What you expected to happen
   - type: input
     id: sistema
     attributes:
-      label: Sistema y placa de video
+      label: Sistema y placa de video · System and graphics card
       placeholder: "Arch Linux, GTX 1050 Ti, Godot 4.7.2"
   - type: textarea
     id: registro
     attributes:
-      label: Registro
-      description: "La salida de `tools/godot/tmap.py registros --errores`, si la tenés."
+      label: Registro · Log
+      description: "La salida de `tools/godot/tmap.py registros --errores`, si la tenés. · The output of `tools/godot/tmap.py registros --errores`, if you have it."
       render: text

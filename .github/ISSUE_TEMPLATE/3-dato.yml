@@ -1,38 +1,38 @@
-name: Sumar o corregir un dato
-description: Una fuente, una persona, un hecho, un lugar o una cifra que falta o está mal.
+name: Sumar o corregir un dato · Add or fix a piece of data
+description: Una fuente, una persona, un hecho, un lugar o una cifra que falta o está mal. · A source, person, event, place or figure that is missing or wrong.
 labels: ["datos"]
 body:
   - type: dropdown
     id: tipo
     attributes:
-      label: Qué es
+      label: Qué es · What it is
       options:
-        - Fuente (un texto)
-        - Persona
-        - Hecho
-        - Lugar
-        - Región o era
-        - Cifra de población
-        - Frontera o nombre de una entidad
+        - Fuente (un texto) · Source (a text)
+        - Persona · Person
+        - Hecho · Event
+        - Lugar · Place
+        - Región o era · Region or era
+        - Cifra de población · Population figure
+        - Frontera o nombre de una entidad · Border or name of a polity
     validations:
       required: true
   - type: input
     id: donde
     attributes:
-      label: Lugar y época
+      label: Lugar y época · Place and period
       placeholder: "Egipto, 1350 a. C."
     validations:
       required: true
   - type: textarea
     id: dato
     attributes:
-      label: El dato o la corrección
+      label: El dato o la corrección · The data or the correction
     validations:
       required: true
   - type: textarea
     id: respaldo
     attributes:
-      label: De dónde sale
-      description: Referencia bibliográfica o enlace. Sin respaldo no se carga.
+      label: De dónde sale · Where it comes from
+      description: Referencia bibliográfica o enlace. Sin respaldo no se carga. · A bibliographic reference or a link. Without one, it isn't added.
     validations:
       required: true

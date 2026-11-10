@@ -1,15 +1,15 @@
-name: Idea o mejora
-description: Algo que TellMAP debería hacer o hacer mejor.
+name: Idea o mejora · Idea or improvement
+description: Algo que TellMAP debería hacer o hacer mejor. · Something TellMAP should do, or do better.
 labels: ["mejora"]
 body:
   - type: textarea
     id: idea
     attributes:
-      label: La idea
+      label: La idea · The idea
     validations:
       required: true
   - type: textarea
     id: para
     attributes:
-      label: Para qué sirve
-      description: Qué se podría estudiar o hacer con esto que hoy no se puede.
+      label: Para qué sirve · What it's for
+      description: Qué se podría estudiar o hacer con esto que hoy no se puede. · What could be studied or done with it that can't be today.
