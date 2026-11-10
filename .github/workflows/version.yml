@@ -94,8 +94,9 @@ jobs:
 
   verificar-macos:
     # El ejecutable de macOS se exporta desde Linux: acá se comprueba en una Mac (Apple Silicon) que la firma ad hoc
-    # valga y que arranque con todos sus datos. Si algo falla, el zip se saca de la versión para que nadie baje uno
-    # roto. macOS no se actualiza solo (el manifiesto no lo incluye): reemplazar el binario invalidaría la firma.
+    # valga, que arranque con todos sus datos y que dibuje. Si algo falla, el zip se saca de la versión para que nadie
+    # baje uno roto. macOS no se actualiza solo (el manifiesto no lo incluye): reemplazar el binario invalidaría la
+    # firma.
     needs: exportar
     runs-on: macos-latest
     timeout-minutes: 20
@@ -114,6 +115,21 @@ jobs:
       - name: Comprobar que arranca con todos sus datos
         timeout-minutes: 5
         run: app/TellMAP.app/Contents/MacOS/TellMAP --headless -- --verificar
+
+      # Con --headless no se dibuja nada: acá se abre la ventana de verdad con el motor que elige la app y se mira que
+      # la captura no salga casi lisa. Pasaba con Forward+ en una MacBook Pro 2017 con Intel Iris Plus 640: arrancaba
+      # sin errores y la ventana quedaba oscura. Este runner es Apple Silicon virtualizado, así que no reemplaza
+      # probar en una Mac con Intel. Si el runner no llega a abrir la ventana, solo avisa.
+      - name: Comprobar que dibuja (una captura que no salga lisa)
+        timeout-minutes: 5
+        run: |
+          estado=0
+          app/TellMAP.app/Contents/MacOS/TellMAP -- --captura="$PWD/captura-macos.png" --comprobar_dibujo --diagnostico || estado=$?
+          if [ ! -f captura-macos.png ]; then
+            echo "::warning::TellMAP no llegó a sacar la captura en el runner: no se comprobó que dibuje."
+            exit 0
+          fi
+          exit "$estado"
 
       - name: Si algo falló, sacar el zip de la versión
         if: failure()

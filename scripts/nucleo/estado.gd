@@ -73,6 +73,8 @@ var ajustes := {
 	"bienvenida_vista": false,
 	## Buscar y bajar actualizaciones al abrir (solo la versión exportada: ver Actualizador).
 	"actualizar_solo": true,
+	## Después de elegir otro motor de dibujo, el que andaba antes, hasta que se confirme el nuevo (ver MotorGrafico).
+	"graficos_a_confirmar": "",
 }
 
 

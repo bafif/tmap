@@ -3,8 +3,9 @@ extends Node
 ##
 ## Para sacar capturas sin intervención (README, pruebas visuales):
 ##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar]
-##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--bienvenida] [--tema=marmol] [--modo=religion]
+##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--bienvenida] [--aviso_graficos] [--tema=marmol] [--modo=religion]
 ##   (más cómodo con tools/captura.sh, que además funciona sin monitor)
+##   Con --comprobar_dibujo sale con 1 si la captura quedó casi lisa: el motor arrancó pero no dibujó (ver MotorGrafico).
 ##
 ## Para comprobar que un ejecutable exportado trae todos sus datos: TellMAP --headless -- --verificar
 ## (carga el mapa y la enciclopedia, lo informa y sale con 0, o con 1 si falta algo).
@@ -17,6 +18,9 @@ var _carga_barra: ProgressBar
 
 
 func _ready() -> void:
+	MotorGrafico.al_abrir()
+	# En el registro (godot.log), para que un «se ve mal» ya traiga con qué se dibuja.
+	print("TellMAP %s · gráficos: %s" % [ProjectSettings.get_setting("application/config/version", ""), MotorGrafico.en_uso()])
 	TemaUI.cargar_fuentes()
 	_mostrar_carga()
 	Estado.carga_progreso.connect(_al_progreso)
@@ -62,8 +66,11 @@ func _ready() -> void:
 		_prueba_automatica()
 	elif args.has("captura"):
 		_captura_automatica(args)
-	elif not Estado.ajustes.get("bienvenida_vista", false) and not args.has("puente"):
-		interfaz.mostrar_bienvenida()
+	elif not args.has("puente"):
+		if not Estado.ajustes.get("bienvenida_vista", false):
+			interfaz.mostrar_bienvenida()
+		if MotorGrafico.a_confirmar() != "":
+			interfaz.confirmar_graficos()
 
 
 func _mostrar_carga() -> void:
@@ -140,15 +147,25 @@ func _captura_automatica(args: Dictionary) -> void:
 		interfaz.ajustes.abrir()
 	if args.has("bienvenida"):
 		interfaz.mostrar_bienvenida()
+	if args.has("aviso_graficos"):
+		interfaz.confirmar_graficos()
 	await get_tree().create_timer(float(args.get("espera", 2.5))).timeout
 	await RenderingServer.frame_post_draw
 	if args.has("diagnostico"):
+		print("gráficos: ", MotorGrafico.en_uso())
 		print("ventana=", get_window().size, " visible=", get_viewport().get_visible_rect().size)
 		for c in interfaz.raiz.get_children():
 			print("  ", c.name, " ", c.get_class(), " rect=", (c as Control).get_rect(), " min=", (c as Control).get_combined_minimum_size(), " visible=", c.visible)
 	var img := get_viewport().get_texture().get_image()
 	img.save_png(str(args["captura"]))
 	print("Captura guardada: ", args["captura"])
+	if args.has("comprobar_dibujo"):
+		var medida := MotorGrafico.medir_dibujo(img)
+		var vacio := MotorGrafico.dibujo_vacio(medida)
+		print("Dibujo %s: %d colores, el más común en el %d %% de la imagen" % ["VACÍO (el motor no dibujó)" if vacio
+			else "bien", medida["colores"], roundi(float(medida["dominante"]) * 100.0)])
+		get_tree().quit(1 if vacio else 0)
+		return
 	get_tree().quit()
 
 

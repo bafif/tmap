@@ -1,6 +1,6 @@
 class_name DialogoAjustes
 extends Control
-## Ajustes: vista 2D/3D, calidad gráfica, tema de la interfaz, escala, idioma de Wikipedia y créditos de datos.
+## Ajustes: vista 2D/3D, calidad gráfica, motor de dibujo, tema de la interfaz, escala, idioma de Wikipedia y créditos de datos.
 
 signal tema_cambiado
 
@@ -116,6 +116,8 @@ func _construir() -> void:
 	_calidad_desc.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_calidad_desc.text = DESCRIPCION_CALIDAD.get(Estado.ajustes["calidad"], "")
 	caja.add_child(_calidad_desc)
+
+	_construir_motor(caja)
 
 	# Interfaz
 	caja.add_child(_seccion("Interfaz"))
@@ -236,6 +238,47 @@ func _construir() -> void:
 	version.text = "TellMAP %s · Bautista D. Fiori" % ProjectSettings.get_setting("application/config/version", "")
 	caja.add_child(version)
 	_panel.add_child(Marco.new())
+
+
+## Motor de dibujo (MotorGrafico): cuál usar desde el próximo arranque y cuál está en uso, con la placa de video.
+func _construir_motor(caja: VBoxContainer) -> void:
+	caja.add_child(_seccion("Motor de dibujo"))
+	var fila := HBoxContainer.new()
+	fila.add_theme_constant_override("separation", 12)
+	caja.add_child(fila)
+	var motores := OptionButton.new()
+	var ids: Array = MotorGrafico.OPCIONES.keys()
+	for i in ids.size():
+		motores.add_item(MotorGrafico.OPCIONES[ids[i]][0])
+		if ids[i] == MotorGrafico.elegido():
+			motores.select(i)
+	fila.add_child(motores)
+	var reiniciar := Button.new()
+	reiniciar.text = "Reiniciar ahora"
+	reiniciar.tooltip_text = "Vuelve a abrir TellMAP con el motor elegido"
+	reiniciar.pressed.connect(Actualizador.reiniciar)
+	fila.add_child(reiniciar)
+	var desc := _etiqueta("")
+	desc.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	desc.custom_minimum_size = Vector2(580, 0)
+	caja.add_child(desc)
+	var en_uso := _etiqueta("En uso: " + MotorGrafico.en_uso())
+	en_uso.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	en_uso.custom_minimum_size = Vector2(580, 0)
+	en_uso.tooltip_text = "Si TellMAP se ve mal, este dato ayuda a encontrar el problema"
+	en_uso.mouse_filter = Control.MOUSE_FILTER_PASS
+	caja.add_child(en_uso)
+	var mostrar := func(id: String) -> void:
+		desc.text = MotorGrafico.OPCIONES[id][1]
+		var cambia := id != MotorGrafico.al_abrir()
+		if cambia:
+			desc.text += " Se usa al reiniciar TellMAP, que después pregunta si se ve bien."
+		# Durante la prueba automática no se reinicia (el recorrido apretaría el botón).
+		reiniciar.visible = cambia and not Estado.sin_escribir
+	motores.item_selected.connect(func(i: int):
+		MotorGrafico.elegir(ids[i])
+		mostrar.call(ids[i]))
+	mostrar.call(MotorGrafico.elegido())
 
 
 ## Actualizaciones automáticas (Actualizador): estado, la casilla para apagarlas y los botones.

@@ -95,6 +95,12 @@ func mostrar_bienvenida() -> void:
 	raiz.add_child(b)
 
 
+## Después de cambiar el motor de dibujo: pregunta si se ve bien. Va encima de todo (también de la bienvenida): si
+## quedara tapado, volvería solo al motor anterior aunque se viera bien.
+func confirmar_graficos() -> void:
+	raiz.add_child(AvisoGraficos.new())
+
+
 func _cambiar_tema() -> void:
 	var seleccion := Estado.unidad_seleccionada
 	_construir()

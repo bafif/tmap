@@ -19,15 +19,23 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 - [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
       muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
       generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
-- [ ] **Probar en otros equipos.** Windows, una Mac y una notebook con gráficos integrados. El `.exe` de la 0.3.0
-      ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La versión de macOS (desde la
-      0.3.2) la comprueba `version.yml` en una Mac de GitHub (firma y `--verificar`); falta usarla en una Mac. El modo OpenGL
-      (`--rendering-method gl_compatibility`) ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
+- [ ] **Probar en otros equipos.** Windows, una Mac con Apple Silicon y una notebook con gráficos integrados. El
+      `.exe` de la 0.3.0 ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La Mac con
+      Intel ya se probó (ver la 0.3.3 en **Hecho**). En Apple Silicon, desde la 0.3.3, `verificar-macos` saca una
+      captura y comprueba que no salga lisa, pero falta mirar la app en una de verdad; tampoco se probó una Mac con
+      Radeon. Antes de cada versión, en la MacBook con Intel:
+      `TellMAP.app/Contents/MacOS/TellMAP -- --captura=x.png --comprobar_dibujo` (el runner de GitHub no tiene esa
+      GPU). El modo OpenGL ya se probó en la GTX 1050 Ti: se ve igual que con Vulkan.
 - [ ] **Que la app de macOS también se actualice sola.** Hoy en macOS solo se actualizan los datos; para una
       versión nueva de la app, el aviso lleva a la página de descarga. Reemplazar el binario de adentro de
       `TellMAP.app` invalidaría su firma: hay que bajar el `.app` entero (un zip), cambiarlo de una vez y reabrir.
 - [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
       abra con doble clic sin pasar por Privacidad y seguridad. Lo decide Bautista.
+- [ ] **Un `.dmg` para macOS** (opcional): el formato de siempre en Mac, para arrastrar la app a Aplicaciones. Abrirla
+      desde ahí evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura), que
+      va a importar el día que la app de macOS se actualice sola. Godot arma el `.dmg` solo en una Mac: lo puede
+      hacer `verificar-macos` con `hdiutil create`. Un instalador `.pkg` no hace falta: la app no instala nada fuera
+      del paquete y sin notarizar Gatekeeper lo frena igual.
 - [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
       editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
       actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
@@ -97,7 +105,9 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 ### Vista 3D (0.6)
 
 - [ ] **Vista 3D.** Relieve real, agua con shader propio, nubes y efectos, con la misma información del mapa 2D. Se
-      elige en Ajustes.
+      elige en Ajustes. Ojo: desde la 0.3.3, en Mac se dibuja con Compatibility (OpenGL), que no tiene varios
+      efectos de Forward+ (iluminación global SDFGI y VoxelGI, niebla volumétrica, reflejos SSR). Hay que diseñar la
+      vista para que se vea bien sin ellos o que las Mac que puedan elijan «Avanzado» en **Motor de dibujo**.
 
 ### Versión 1.0
 
@@ -106,6 +116,31 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 10 de noviembre de 2026: versión 0.3.3, en Mac se ve
+
+- [x] **Probada en una Mac con Intel** (MacBook Pro 2017, Intel Iris Plus 640, macOS 13.7.8): con la 0.3.2 la
+      ventana quedaba oscura. Forward+ sobre MoltenVK arrancaba sin errores (por eso no saltaba
+      `fallback_to_opengl3`, que solo actúa si Vulkan no arranca) pero dibujaba nada más el fondo y los anillos de
+      algunos marcadores; los datos y la interfaz estaban bien (`--verificar` y `--diagnostico`). Sacar los argument
+      buffers de Metal no cambió nada. Con Compatibility se ve completa con los dos drivers (OpenGL 4.1 de Apple y
+      ANGLE sobre Metal): 145 cuadros por segundo con calidad «ultra» en 2880×1548, 0,65 a 1,1 GB de memoria y 2,8 s
+      para cargar los datos. `--rendering-driver metal` no existe en esa Mac.
+- [x] **Compatibility en macOS** (`renderer/rendering_method.macos` en `project.godot`). La app es 2D y no usa nada
+      propio de Forward+. Sigue siendo un solo `.app` universal: el problema depende de la GPU y su driver, no de la
+      CPU, y separar Intel de Apple Silicon solo ahorraría tamaño.
+- [x] **Motor de dibujo en Ajustes**: Automático, Compatible (OpenGL) o Avanzado (Vulkan). Se guarda en
+      `user://motor.cfg`, que Godot lee al arrancar (`application/config/project_settings_override`) y que no toca
+      el paquete firmado de macOS. Al reabrir con otro motor, `AvisoGraficos` pregunta si se ve bien y, si nadie
+      contesta en 20 s, vuelve solo al anterior (`scripts/nucleo/motor.gd`). Ajustes muestra el motor en uso y la
+      placa de video, y la app los anota en el registro al arrancar.
+- [x] **El registro se escribe al momento** (`application/run/flush_stdout_on_print`): en la Mac, `godot.log` quedaba
+      vacío aunque la app llevara minutos abierta.
+- [x] **`verificar-macos` comprueba que dibuja**: abre la app con ventana, saca una captura con
+      `--comprobar_dibujo` (sale con 1 si quedó casi lisa) y, si falla, saca el zip de la versión como en los otros
+      pasos. La captura rota de la Mac tenía un solo color; las buenas, entre 170 y 200.
+- [x] «Reiniciar ahora» desde el código fuente vuelve a abrir el proyecto con su `--path`, que Godot no devuelve entre
+      los argumentos.
 
 ### 10 de noviembre de 2026: versión 0.3.2, también para macOS
 

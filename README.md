@@ -84,7 +84,9 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
 Lo más simple es bajar la [última versión](https://github.com/bafif/tmap/releases/latest) para Linux, Windows o macOS:
 se descomprime y se abre, sin instalar nada. La versión de macOS no está notarizada por Apple: la primera vez, macOS
 dice que no puede comprobarla; se abre igual desde **Configuración del Sistema → Privacidad y seguridad**, o en la
-Terminal con `xattr -dr com.apple.quarantine TellMAP.app`.
+Terminal con `xattr -dr com.apple.quarantine TellMAP.app`. Si en alguna computadora se ve en negro o con fallas, en
+**Ajustes → Motor de dibujo** se elige «Compatible (OpenGL)»; si ni siquiera se ve Ajustes, se abre con
+`--rendering-method gl_compatibility`.
 
 Para correrla desde el código hace falta [Godot 4.7](https://godotengine.org/download) (es libre y pesa unos 100 MB).
 

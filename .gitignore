@@ -12,3 +12,6 @@ __pycache__/
 
 # Lo escribe tools/actualizacion/publicar.py sellar antes de exportar
 /data/version.json
+
+# Informes de pruebas en otros equipos (capturas y registros): lo que sirve pasa a PROGRESO.md, no se suben
+/TellMAP-informe-*/

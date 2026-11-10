@@ -83,7 +83,9 @@ runs well from an old laptop to a gaming PC.
 The simplest way is to download the [latest release](https://github.com/bafif/tmap/releases/latest) for Linux,
 Windows or macOS: unzip it and open it, nothing to install. The macOS build is not notarized by Apple: the first time,
 macOS says it cannot check it; open it anyway from **System Settings → Privacy & Security**, or in the Terminal with
-`xattr -dr com.apple.quarantine TellMAP.app`.
+`xattr -dr com.apple.quarantine TellMAP.app`. If it shows a black window or glitches on some computer, choose
+«Compatible (OpenGL)» under **Ajustes (the gear icon) → Motor de dibujo**; if not even the settings show up, start
+it with `--rendering-method gl_compatibility`.
 
 To run it from the source you need [Godot 4.7](https://godotengine.org/download) (free, about 100 MB).
 

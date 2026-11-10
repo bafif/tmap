@@ -204,6 +204,10 @@ func reiniciar() -> void:
 	if not OS.get_cmdline_user_args().is_empty():
 		argumentos.append("--")
 		argumentos.append_array(OS.get_cmdline_user_args())
+	if not OS.has_feature("template") and ruta_ejecutable == "":
+		# Desde el código (por ejemplo, al cambiar el motor de dibujo en Ajustes), Godot no devuelve el --path que ya
+		# consumió, y sin él Godot no sabe qué proyecto abrir.
+		argumentos = Arranque._argumentos(ProjectSettings.globalize_path("res://"))
 	if OS.get_name() == "macOS" and exe == OS.get_executable_path():
 		# En macOS el ejecutable vive dentro de TellMAP.app: create_instance vuelve a abrir el paquete entero.
 		OS.create_instance(argumentos)

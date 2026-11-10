@@ -30,6 +30,10 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
 - Después de cada prueba, leer `tools/godot/tmap.py registros --errores`: tiene que terminar en «ningún nodo suelto
   sin liberar».
 - Detalle del puente: [tools/godot/README.md](../../tools/godot/README.md).
+- Si se toca algo de cómo se dibuja: `tools/captura.sh x.png --comprobar_dibujo` (sale con 1 si la captura quedó casi
+  lisa) y lo mismo con OpenGL, que es el motor de macOS: `GODOT_ARGS="--rendering-method gl_compatibility"
+  tools/captura.sh x.png --comprobar_dibujo`. El motor que se elige en Ajustes va en `user://motor.cfg`
+  (`scripts/nucleo/motor.gd`).
 - Si se toca el actualizador (`scripts/nucleo/actualizador.gd`, `datos.gd`) o cómo se leen los datos:
   `python3 tools/actualizacion/probar.py`, y con un ejecutable exportado, `--ejecutable <ruta>`
   ([actualizaciones](actualizaciones.md)). Todo lo que lee `data/` pasa por `Datos.ruta()`.
