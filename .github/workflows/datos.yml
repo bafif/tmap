@@ -77,7 +77,10 @@ jobs:
           etiqueta="datos-$(date -u +%Y%m%d-%H%M%S)"
           python3 tools/actualizacion/publicar.py manifiesto --etiqueta "$etiqueta" --salida subir \
             --previo previo/actualizacion.json --repo "$GITHUB_REPOSITORY"
-          gh release create "$etiqueta" --latest=false --target "$GITHUB_SHA" --title "Datos del $(date -u +%d/%m/%Y)" \
-            --notes "Solo datos, para TellMAP ${{ steps.estado.outputs.app }} o más nueva: la app los baja sola. Commit $GITHUB_SHA."
+          gh release create "$etiqueta" --latest=false --target "$GITHUB_SHA" \
+            --title "Datos del $(date -u +%d/%m/%Y) · Data from $(date -u +%Y-%m-%d)" \
+            --notes "Solo datos, para TellMAP ${{ steps.estado.outputs.app }} o más nueva: la app los baja sola. Commit $GITHUB_SHA.
+
+          Data only, for TellMAP ${{ steps.estado.outputs.app }} or newer: the app downloads it by itself. Commit $GITHUB_SHA."
           if compgen -G "subir/*.gz" > /dev/null; then gh release upload "$etiqueta" subir/*.gz; fi
           gh release upload actualizaciones subir/actualizacion.json --clobber

@@ -83,6 +83,27 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$ETIQUETA" build/*.zip --clobber
 
+      # Las notas que se escriben al publicar quedan como están; abajo se suman las descargas, en español y en inglés.
+      # Una sola vez por versión (la marca evita repetirlas si el trabajo se vuelve a correr).
+      - name: Sumar las descargas a las notas de la versión, en español y en inglés
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$ETIQUETA" --json body -q .body > notas.md
+          if grep -q "<!-- descargas -->" notas.md; then exit 0; fi
+          cat >> notas.md <<EOF
+
+          <!-- descargas -->
+
+          ---
+          **Descargas.** Un solo archivo por sistema, con la app en español y en inglés: elige sola el idioma del equipo y se cambia en Ajustes.
+          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\` · macOS (Intel y Apple Silicon): \`TellMAP-$ETIQUETA-macos-universal.zip\`. En Linux y Windows, las versiones siguientes se instalan solas; en macOS se bajan de acá.
+
+          **Downloads.** One file per system, with the app in both Spanish and English: it picks your computer's language and you can switch it in Settings.
+          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\` · macOS (Intel and Apple Silicon): \`TellMAP-$ETIQUETA-macos-universal.zip\`. On Linux and Windows, later versions install themselves; on macOS, download them from here.
+          EOF
+          gh release edit "$ETIQUETA" --notes-file notas.md
+
       - name: Publicar la actualización automática
         env:
           GH_TOKEN: ${{ github.token }}
@@ -93,8 +114,8 @@ jobs:
             --app linux-x86_64=build/linux/TellMAP.x86_64 --app windows-x86_64=build/windows/TellMAP.exe
           gh release upload "$ETIQUETA" subir/*.gz --clobber
           gh release view actualizaciones >/dev/null 2>&1 || gh release create actualizaciones --prerelease \
-            --title "Actualizaciones automáticas" \
-            --notes "Manifiesto que consultan las apps para actualizarse solas. No es una versión para bajar."
+            --title "Actualizaciones automáticas · Automatic updates" \
+            --notes "Manifiesto que consultan las apps para actualizarse solas. No es una versión para bajar. · The manifest the apps check to update themselves. Not a release to download."
           gh release upload actualizaciones subir/actualizacion.json --clobber
 
   verificar-macos:
