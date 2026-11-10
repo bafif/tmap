@@ -116,14 +116,21 @@ func correr(interfaz: Interfaz) -> String:
 	var local_antes := Edicion.guardar_local
 	Edicion.guardar_local = true
 	var archivo: String = Enciclopedia.hechos.values()[0]["_archivo"]
+	var id: String = Enciclopedia.hechos.values()[0]["id"]
 	var local := Edicion.destino(archivo)
 	var previa := FileAccess.get_file_as_string(local) if FileAccess.file_exists(local) else ""
 	var original := FileAccess.get_file_as_string(archivo)
-	var cambio := _limpio(Enciclopedia.hechos.values()[0])
+	# Se parte del hecho como está en el paquete, en español (en memoria puede estar traducido), y se cambia también
+	# «aprox», que no se traduce: con la app en inglés el resumen se sigue viendo con su traducción.
+	var del_paquete: Array = Edicion.leer(Edicion.para_leer(archivo)).get("hechos", [])
+	var cambio := _limpio(del_paquete[Edicion.indice(del_paquete, id)])
 	cambio["resumen"] = "Cambio local de la prueba."
+	cambio["aprox"] = not bool(cambio.get("aprox", false))
 	err = Edicion.guardar(archivo, "hechos", cambio, cambio["id"])
 	Enciclopedia.cargar()
-	var tapa: bool = Enciclopedia.hechos.get(cambio["id"], {}).get("resumen") == cambio["resumen"]
+	var cargado: Dictionary = Enciclopedia.hechos.get(cambio["id"], {})
+	var tapa: bool = bool(cargado.get("aprox", false)) == cambio["aprox"] \
+			and (Idioma.actual != "es" or cargado.get("resumen") == cambio["resumen"])
 	if err != "" or not FileAccess.file_exists(local) or not tapa or FileAccess.get_file_as_string(archivo) != original:
 		_falla("en modo exportado, guardar no dejó una copia local que tape al paquete (%s)" % err)
 	if previa != "":
