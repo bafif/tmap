@@ -1,5 +1,7 @@
 # Pipeline de datos
 
+[English](README.en.md)
+
 Genera `data/mapa/` a partir de los datos originales. Los resultados ya están en el repo: solo hace falta correrlo para
 cambiar la resolución, la proyección o la versión de Cliopatria.
 

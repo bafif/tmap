@@ -1,5 +1,7 @@
 # La enciclopedia
 
+[English](../en/encyclopedia.md)
+
 La enciclopedia de TellMAP no se escribe de una vez: se completa por etapas, empezando por donde más se usa, y cada
 dato dice de dónde salió.
 
@@ -7,7 +9,8 @@ dato dice de dónde salió.
 
 - **Fronteras y entidades** de todo el mundo (Cliopatria): cada entidad trae su artículo de Wikipedia y su id de
   Wikidata.
-- **Resúmenes de Wikipedia en vivo**, en español primero y en inglés si no hay, guardados en caché por 30 días.
+- **Resúmenes de Wikipedia en vivo**, en el idioma de la app (o el que se elija en Ajustes) y en el otro si no hay
+  artículo, guardados en caché por 30 días.
 - **Doce paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
   idiomas. Entre todos suman 88 regiones que cubren el 99,6 % de la tierra firme, y cada una tiene población
   estimada desde el 10 000 a. C. o se cuenta dentro de otra. Lo cubierto y lo que falta está en
@@ -52,6 +55,9 @@ dato dice de dónde salió.
   `python3 tools/enciclopedia/validar.py`. Para escribir muchas fichas de una vez hay un [formato
   compacto](../../tools/enciclopedia/compacto/FORMATO.md) de texto que `tools/enciclopedia/compacto/construir.py`
   convierte en paquetes verificados contra Wikipedia y Wikidata.
+- **La enciclopedia en inglés**: cada paquete tiene su traducción en `data/enciclopedia/traducciones/en/`, una capa
+  aparte que se arma con `tools/traduccion/enciclopedia.py` ([el esquema](../../data/enciclopedia/ESQUEMA.md#traducciones)).
+  Con la app en inglés se leen esos textos; lo que todavía no está traducido se ve en español.
 - **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).
 
 ## ¿Y Grokipedia?

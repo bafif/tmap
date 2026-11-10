@@ -45,10 +45,10 @@ Chicago.
 | **Let time run** | Thinkers appearing while they live, events flashing at their date, cities founded and abandoned |
 
 <p align="center">
-  <img src="docs/assets/temas.png" alt="The same place in the three themes: Marble & Bronze showing sources, Illuminated Parchment showing the history of the place, and Ink & Brass showing people and events" width="100%">
+  <img src="docs/assets/temas.png" alt="The same place in the three themes: Marble and bronze showing sources, Illuminated parchment showing the history of the place, and Ink and brass showing people and events" width="100%">
 </p>
 
-Three interface themes (Marble & Bronze, Illuminated Parchment, Ink & Brass) and four graphics quality levels, so it
+Three interface themes (Marble and bronze, Illuminated parchment, Ink and brass) and four graphics quality levels, so it
 runs well from an old laptop to a gaming PC.
 
 <p align="center">
@@ -65,18 +65,18 @@ runs well from an old laptop to a gaming PC.
 - **Nothing made up.** Ancient figures are published estimates with their author and uncertainty range. What is not
   known is said to be unknown.
 - **The look of grand-strategy maps.** Hillshaded relief, rivers, nautical-chart coastlines, names that curve across
-  the land, and three interface themes: Marble & Bronze, Illuminated Parchment, and Ink & Brass.
+  the land, and three interface themes: Marble and bronze, Illuminated parchment, and Ink and brass.
 - **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
   the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, the Holy Land from
   Antiquity to today, and regions covering the rest of the world with their estimated population; the rest is filled
-  in stages, and [a report generated from the data](docs/es/cobertura.md) (in Spanish) says what is covered and what
+  in stages, and [a report generated from the data](docs/en/coverage.md) says what is covered and what
   is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
   human review.
 - **No accounts, no telemetry.** It runs on your computer. The only things that go online are the Wikipedia lookup when
-  you open an entry, which is cached, and the [update](docs/es/actualizaciones.md) check on GitHub when the app opens,
+  you open an entry, which is cached, and the [update](docs/en/updates.md) check on GitHub when the app opens,
   which sends nothing about you and can be turned off in Settings.
 - **Updates itself.** When it opens, the downloaded version tells you if there is something new and installs it if
-  you say yes («Ahora no», "not now", leaves it as it is). When only the data changed (more sources, people, events or
+  you say yes ("Not now" leaves it as it is). When only the data changed (more sources, people, events or
   regions) it downloads just the changed files, without reinstalling the program.
 
 ## Try it
@@ -96,14 +96,14 @@ godot --path tmap            # or open the folder from the Godot editor
 ```
 
 To check everything works, `godot --headless --path tmap -- --prueba` walks through the app on its own and reports
-any error; `tools/captura.sh` takes screenshots without a monitor, and [the bridge](tools/godot/README.md) (in Spanish)
+any error; `tools/captura.sh` takes screenshots without a monitor, and [the bridge](tools/godot/README.en.md)
 lets you drive the app and the editor from the terminal or with an AI agent. The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
-release, follow [the data pipeline](tools/pipeline/README.md) (in Spanish).
+release, follow [the data pipeline](tools/pipeline/README.en.md).
 
 ## Status
 
 Version 0.1: the first one that works end to end. The detailed log of what is done and what is pending is in
-[PROGRESO.md](PROGRESO.md) (in Spanish).
+[PROGRESO.en.md](PROGRESO.en.md).
 
 - [x] 2D world map with relief, rivers, coastlines and Miller projection
 - [x] Political borders from 3400 BCE to 2024, with names that follow the shape of each territory
@@ -127,16 +127,18 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [x] Downloadable builds for Linux, Windows and macOS, exported automatically when a GitHub release is published
 - [ ] Browser build
 
-## Documentation (in Spanish)
+## Documentation
 
 | | |
 |---|---|
-| [Project plan](docs/es/plan.md) | Architecture, technical decisions and phased roadmap |
-| [Data and licenses](docs/es/datos.md) | Where each piece of data comes from, how it is processed and its license |
-| [The encyclopedia](docs/es/enciclopedia.md) | How it grows, Wikipedia and Grokipedia, AI and editorial rules |
-| [Coverage](docs/es/cobertura.md) | Which regions, periods and data are covered and what is missing, generated from the data |
-| [Entry schema](data/enciclopedia/ESQUEMA.md) | The format of sources, people, events, places and regions |
-| [Data pipeline](tools/pipeline/README.md) | How the map and borders are generated |
+| [Project plan](docs/en/plan.md) | Architecture, technical decisions and phased roadmap |
+| [Data and licenses](docs/en/data.md) | Where each piece of data comes from, how it is processed and its license |
+| [The encyclopedia](docs/en/encyclopedia.md) | How it grows, Wikipedia and Grokipedia, AI and editorial rules |
+| [Coverage](docs/en/coverage.md) | Which regions, periods and data are covered and what is missing, generated from the data |
+| [Storage and downloads](docs/en/storage.md) | How much each thing weighs, where it is hosted and how the app downloads the bulk data without stalling |
+| [Entry schema](data/enciclopedia/ESQUEMA.en.md) | The format of sources, people, events, places and regions |
+| [Data pipeline](tools/pipeline/README.en.md) | How the map and borders are generated |
+| [How to work on TellMAP](docs/en/contributing.md) | Conventions, tests and the bridge for driving the app and the editor |
 
 ## Author
 
@@ -149,5 +151,5 @@ get in touch.
 
 The code is [AGPL-3.0-or-later](LICENSE): you may use, modify and share it; if you offer a modified version over a
 network, you must offer its source code too. The data keeps its own licenses, detailed in
-[Data and licenses](docs/es/datos.md): Cliopatria (CC BY 4.0), Natural Earth and NASA (public domain), Wikipedia
+[Data and licenses](docs/en/data.md): Cliopatria (CC BY 4.0), Natural Earth and NASA (public domain), Wikipedia
 (CC BY-SA 4.0), population from Our World in Data (CC BY 4.0), and the Cinzel and EB Garamond typefaces (SIL Open Font License).

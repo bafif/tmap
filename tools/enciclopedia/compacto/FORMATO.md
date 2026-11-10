@@ -1,5 +1,7 @@
 # Formato compacto para escribir temas de la enciclopedia
 
+[English](FORMATO.en.md)
+
 TellMAP es un atlas histórico (Godot) con una enciclopedia de **fichas**: fuentes (textos: libros, artículos,
 manifiestos, leyes, fallos, discursos), personas, hechos y lugares, ubicados en el espacio y el tiempo. La app no
 guarda los textos: guarda la ficha (título, autor, fechas, resumen propio) y **enlaza** a dónde leerlos. Esquema

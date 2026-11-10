@@ -1,11 +1,14 @@
 # Cómo trabajar en TellMAP
 
+[English](../en/contributing.md)
+
 Guía corta para quien colabore con el código, sea una persona o un agente de IA. Qué es el proyecto y cómo está hecho:
 [el README](../../README.md) y [el plan](plan.md). Formato de la enciclopedia: [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md).
 
 ## Convenciones
 
-- Código, comentarios, commits y documentación en español; los textos para el usuario, en rioplatense.
+- Código, comentarios y commits en español. La documentación y los textos para el usuario, en español rioplatense y
+  en inglés (ver [Idiomas](#idiomas)).
 - La interfaz se arma por código (`scripts/interfaz/`), no en escenas del editor. Los temas son paletas en `tema.gd`.
 - No existe el año 0: los años negativos son a. C. Usar `Fechas` (`scripts/nucleo/fechas.gd`) para mostrar y sumar.
 - Para anclar un Control que ya está en el árbol, usar `set_anchors_and_offsets_preset()`: `set_anchors_preset()`
@@ -37,6 +40,26 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
 - Si se toca el actualizador (`scripts/nucleo/actualizador.gd`, `datos.gd`) o cómo se leen los datos:
   `python3 tools/actualizacion/probar.py`, y con un ejecutable exportado, `--ejecutable <ruta>`
   ([actualizaciones](actualizaciones.md)). Todo lo que lee `data/` pasa por `Datos.ruta()`.
+
+## Idiomas
+
+- La app sale en español o en inglés según el idioma del equipo (`scripts/nucleo/idioma.gd`) y se cambia en Ajustes o
+  en la bienvenida; lo que se elige manda sobre la detección. `--idioma=es|en` lo fija para pruebas y capturas.
+- Todo texto de la interfaz se escribe en español dentro de `tr()` (o `Idioma.t()` en funciones estáticas) y su inglés
+  va en `traducciones/en.po`. `python3 tools/traduccion/interfaz.py actualizar` suma al catálogo los textos nuevos, y
+  `revisar` (corre en el CI) falla si falta alguno, si no coinciden los marcadores o si hay un texto asignado a mano
+  fuera de `tr()`. Los registros (`print`, `push_error`) quedan en español.
+- La enciclopedia se traduce aparte, en una capa por paquete en `data/enciclopedia/traducciones/en/`
+  ([el esquema](../../data/enciclopedia/ESQUEMA.md#traducciones)), con `tools/traduccion/enciclopedia.py`: `estado`
+  cuenta lo traducido, lo que falta y lo viejo, `extraer` saca lo pendiente en lotes para traducir y `aplicar` lo
+  vuelca en la capa. `tools/traduccion/probar.py` prueba la ida y vuelta.
+- La prueba automática corre en los dos idiomas: `tools/godot/tmap.py prueba` y `tools/godot/tmap.py prueba --idioma
+  en`.
+- La página del proyecto (`docs/index.html`) tiene el español en el HTML y el inglés en su diccionario `EN`.
+- Cada documento tiene su par en el otro idioma: `docs/es/` y `docs/en/`, y en el resto `X.md` y `X.en.md`, con un
+  enlace al otro arriba de todo. `python3 tools/traduccion/documentos.py` (corre en el CI) falla si a un documento le
+  falta su par o si un enlace relativo apunta a un archivo que no existe. Si se cambia uno, se cambia el otro en el
+  mismo commit.
 
 ## Bitácora
 

@@ -1,5 +1,7 @@
 # Almacenamiento y descargas: cómo crece TellMAP sin volverse inmanejable
 
+[English](../en/storage.md)
+
 TellMAP va a sumar muchísima información: la época contemporánea, personas de Wikidata, lugares de Pleiades, grillas
 de población, libros, fallos, tratados. Esta página dice cuánto pesa eso de verdad, dónde se guarda cada cosa, cómo
 la baja la app sin trabar la computadora de nadie y en qué orden se hace. Lo decidido el 10 de noviembre de 2026.

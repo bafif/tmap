@@ -1,5 +1,7 @@
 # Esquema de la enciclopedia de TellMAP
 
+[English](ESQUEMA.en.md)
+
 La enciclopedia vive en archivos JSON (UTF-8, sangría de 2 espacios) dentro de `data/enciclopedia/paquetes/`. Cada
 paquete es un archivo independiente (`egipto.json`, `mundo.json`…) y el programa los junta al arrancar. Si dos
 paquetes traen el mismo `id` en la misma sección, gana el primero en orden alfabético y se avisa en la consola.

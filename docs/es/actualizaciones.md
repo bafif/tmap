@@ -1,5 +1,7 @@
 # Actualizaciones automáticas
 
+[English](../en/updates.md)
+
 La versión descargada de TellMAP se actualiza sola. Hay dos clases de actualización:
 
 - **De la app**: código nuevo. Se baja el ejecutable nuevo, que reemplaza al que está corriendo y se abre la próxima
@@ -37,7 +39,8 @@ página del proyecto.
   mezclan dos versiones. `datos/activo.json` dice cuál vale; se reemplaza de una vez al terminar de instalar, así que
   si algo se corta sigue valiendo lo anterior. `Datos.ruta()` (`scripts/nucleo/datos.gd`) traduce cada ruta de
   `res://data/`. Lo que se edita con el editor de la enciclopedia en la versión exportada sigue yendo a
-  `enciclopedia/` y tapa a los dos.
+  `enciclopedia/` y tapa a los dos. La traducción al inglés de la enciclopedia (`enciclopedia/traducciones/en/`) es
+  parte del grupo `enciclopedia`: una traducción nueva o corregida llega como cualquier otra actualización de datos.
 - **Compatibilidad**: una versión de datos dice qué versión de la app necesita como mínimo (`app_minima`, la última
   publicada cuando se armó). Una app más vieja no la instala: primero se actualiza la app. Y los datos bajados solo
   valen si son más nuevos que los que trae el ejecutable: al instalar una app nueva, si trae datos más nuevos, la

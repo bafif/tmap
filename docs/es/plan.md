@@ -1,5 +1,7 @@
 # Plan del proyecto
 
+[English](../en/plan.md)
+
 TellMAP es un atlas histórico interactivo para estudiar historia desde las fuentes. Este documento explica cómo está
 hecho, por qué se tomaron las decisiones técnicas y qué sigue.
 

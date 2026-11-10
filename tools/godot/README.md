@@ -1,5 +1,7 @@
 # El puente: manejar TellMAP y el editor desde afuera
 
+[English](README.en.md)
+
 `addons/tellmap_puente/` deja que un programa (la terminal, una prueba o un agente de IA) maneje la app mientras corre
 y el editor de Godot mientras está abierto. `tools/godot/tmap.py` es el cliente: Python sin dependencias.
 

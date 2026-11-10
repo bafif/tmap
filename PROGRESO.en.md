@@ -1,0 +1,538 @@
+# TellMAP progress
+
+[Español](PROGRESO.md)
+
+Log of what's done and what's left. Every pending task has its GitHub issue and is on the project board;
+`tools/github/organizar.py` creates any that are missing. It's updated with every change: finished items move to **Done**
+with their date, and anything new that comes up is added to **To do**, in its block. Each block is sorted by priority,
+top to bottom. The overall view by version is in [the plan's roadmap](docs/en/plan.md#roadmap).
+
+## To do
+
+### Now: everything you see can be clicked (0.2)
+
+The interface already looks complete, but several things are just information. The goal of this block: everything you
+see responds to a click and leads somewhere useful.
+
+Block finished on November 6, 2026 (see **Done**).
+
+### Map, performance and distribution (0.2)
+
+- [ ] **Sharp coastlines up close.** At zoom 5 or more, the coast and the nautical chart lines on the water still show
+      steps: the distance to the coast in `relieve.png` was computed from a pixel mask. It has to be generated in the
+      pipeline from the Natural Earth polygons, with sub-pixel resolution.
+- [ ] **Test on other machines.** Windows, a Mac with Apple Silicon and a laptop with integrated graphics. The 0.3.0
+      `.exe` already passed `--verificar` and the full test with wine; a real Windows machine is still missing. The
+      Intel Mac has been tested (see 0.3.4 under **Done**). On Apple Silicon, since 0.3.4, `verificar-macos` takes a
+      screenshot and checks it isn't flat, but nobody has looked at the app on a real one yet; a Mac with Radeon hasn't
+      been tested either. Before each release, on the Intel MacBook:
+      `TellMAP.app/Contents/MacOS/TellMAP -- --captura=x.png --comprobar_dibujo` (the GitHub runner doesn't have that
+      GPU). OpenGL mode was already tested on the GTX 1050 Ti: it looks the same as with Vulkan.
+- [ ] **Make the macOS app update itself too.** Today on macOS only the data updates; for a new app version, the notice
+      leads to the download page. Replacing the binary inside `TellMAP.app` would invalidate its signature: the whole
+      `.app` has to be downloaded (a zip), swapped in one go and reopened.
+- [ ] **Sign and notarize the macOS version** with an Apple Developer account (99 USD a year), so it opens with a
+      double click without going through Privacy & Security. Bautista decides.
+- [ ] **A `.dmg` for macOS** (optional): the usual format on Mac, to drag the app to Applications. Opening it from there
+      avoids *App Translocation* (macOS runs quarantined apps from a read-only copy), which will matter the day the
+      macOS app updates itself. Godot builds the `.dmg` only on a Mac: `verificar-macos` can do it with
+      `hdiutil create`. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without
+      notarization Gatekeeper blocks it anyway.
+- [ ] **Warn when a data update is hidden by local edits.** In the exported version, a package edited with the
+      encyclopedia editor stays in a local copy that overrides the built-in one and also the one from a data update.
+      This needs a warning on install, offering to discard the copy or carry the new content over to it.
+
+### Progressive encyclopedia (0.3)
+
+What the roadmap asked for was done on November 7, 2026 (see **Done**). Two tasks that came up along the way remain:
+
+- [ ] **First real run of `redactar.py`.** The verification (citations, figures, links) was tested with a saved
+      response; it still has to run against the API with a credential, on a real draft, and the result has to be
+      reviewed in the editor. Whoever runs it decides and pays for it.
+- [ ] **Religions, cultures, languages and demographics in the editor.** Today the editor covers the main data, the
+      area and the eras of regions; those four lists are still entered by hand in the JSON.
+
+### Encyclopedia content
+
+What's covered and what's missing, region by region, is in [docs/en/coverage.md](docs/en/coverage.md), generated
+by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date).
+
+- [ ] **The contemporary era outside Europe, the United States and Argentina.** The seven packages from November 10,
+      2026 cover ideas, science, wars and Argentina; still missing are the 20th-century political history of Brazil,
+      Mexico, Chile and the rest of Latin America, China after Mao, independent India, Africa after decolonization and
+      Southeast Asia, with their own sources.
+- [ ] **More reading links for the contemporary era.** 302 of the 629 new sources have no link: many are still under
+      copyright (Perón's texts enter the public domain in 2045) and several sites (PNAS, the Royal Society, the IPCC,
+      the Kennedy Library, mises.org, oll.libertyfund.org) return 403 to the checker even though they open in a
+      browser. It would take accepting DOIs and official sites that reject programs, checking them by hand, and finding
+      the rulings in the cases against kirchnerismo in an official copy that responds.
+- [ ] **Ongoing court cases.** As of November 10, 2026: the Cuadernos oral trial still has no verdict, and it's unclear
+      whether the Hotesur-Los Sauces and Memorandum with Iran trials have started. Check them every so often and update
+      their events.
+- [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
+      Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
+      Onetti, Carlos Fuentes, Clarice Lispector and Galeano. Hawaii has no region (Pearl Harbor falls outside all of
+      them).
+- [ ] **Religions, cultures and languages for the world regions.** The 46 regions in `regiones-del-mundo.json`
+      (Siberia, Japan, Africa, the Americas, Oceania…) have a summary, eras and population, but not those three layers:
+      religion, culture or language mode leaves them hatched. Families will need to be added (Shinto, traditional
+      African religions, Bantu languages, Austronesian…).
+- [ ] **Curated estimates outside Europe and the Near East.** HYDE's per-country series cover everything, but the share
+      of world population that also has a specialist estimate for its region (Russell, Urlanis, Butzer, DellaPergola,
+      the Han censuses) goes from a quarter in year 1 to almost nothing in BC times and after 1600. Candidates:
+      McEvedy and Jones (1978) for the whole world, Durand
+      for China and India, Scheidel for the Roman Empire, Livi-Bacci for the Americas. Also without a curated estimate:
+      Bohemia, the Balkans, Wallachia and Moldavia, the Baltic and Sicily (Russell and Urlanis give them grouped).
+- [ ] **Population by polygon.** The series are for whole countries: a region smaller than its countries (the Rus',
+      Mesoamerica, the Andes) gets the population of the full countries, and 24 regions (Siberia, Tibet, southern
+      India, Patagonia…) have no series of their own. With the HYDE grids, the population inside each polygon could be
+      summed (see 0.4).
+- [ ] **Land left without a region** (0.4%): the tip of Chukotka east of the 180th meridian, Svalbard, Hawaii, the
+      Malvinas, the Azores and other remote islands, and coastal strips the curated polygons don't reach. The
+      per-country detail is in the coverage report.
+- [ ] **Medieval sources without a place of writing.** 18 sources (Beowulf, the Poetic Edda, the Song of Roland, the
+      Kuzari…) don't appear on the map because their place is unknown; enter the one proposed in the literature, with
+      `aprox` and low confidence, or leave them as they are.
+- [ ] **More reading links.** 104 checked links for 69 sources; still missing are Spanish translations and texts from
+      sites like Fordham's Medieval Sourcebook or the Corpus Thomisticum.
+- [ ] **Holy Land: what was left out.** Sinai goes with Egypt. Lebanon, Syria, Transjordan, Arabia, the Maghreb and
+      Cyprus only have the HYDE, Gapminder and UN per-country series, with no curated estimate. Armenia has layers up
+      to 1920: after that, the Turkish part is painted by Anatolia and the Republic of Armenia has no layers. 24
+      sources without a place of writing (the New Testament, the Chronicle of Michael the Syrian, bin Laden's
+      fatwas…). The digitized scrolls of the Israel Museum (dss.collections.imj.org.il) weren't responding on November
+      10, 2026 and their links were removed. The videos in which jihadist groups claim attacks aren't linked, on
+      purpose: the events say who claimed them and how, with their Wikipedia article.
+
+### Storage and downloads
+
+The full plan, with thresholds and where each thing is hosted, is in [docs/en/storage.md](docs/en/storage.md).
+Each step is done when its threshold is crossed, not before.
+
+- [ ] **Read packages on a separate thread** when the encyclopedia passes 10 MB or takes more than 1 s to open (the
+      app logs it at startup: "Enciclopedia: N elementos… en X ms"), with a compact in-memory index.
+- [ ] **Tiles by era and macroregion, download manager and capped cache** (autoload `Descargas`: priority queue, two
+      requests at a time, nothing while the timeline is moving, reading in `WorkerThreadPool`, 500 MB cache with
+      "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
+- [ ] **Permanent mirrors** of each data version on Internet Archive and Zenodo, with both addresses in the updater's
+      manifest.
+- [ ] **Reading links that don't get lost**: an `archivo` field with the Wayback Machine copy, and
+      `tools/enciclopedia/enlaces.py`, which checks them and requests a copy of new ones; it runs before each release.
+- [ ] **Religion by country today** (Pew Research Center, 2010 and 2020) as one more series in the "Current country"
+      block, and with it the religion layers of the world regions in the present era.
+
+### Open data at scale (0.4)
+
+- [ ] **Pleiades places.** The ancient places from [Pleiades](https://pleiades.stoa.org).
+- [ ] **People from Wikidata.** With place and date of birth and death.
+- [ ] **HYDE population grids.** HYDE's per-country series is already in (via Our World in Data, see **Done**). The
+      5-arc-minute grid is still missing, with its low and high scenarios, to sum the population inside each polygon,
+      give uncertainty ranges and fill a density mode on the map. On November 10, 2026 the Utrecht University server
+      (geo.public.data.uu.nl) asked to solve an anti-bot check and the HYDE 3.2 deposit at DANS wasn't responding: it
+      has to be downloaded by hand from a browser and left in `raw_data/`.
+- [ ] **Vassalage.** Cliopatria's vassalage and dependency relations.
+
+### Movement (0.5)
+
+- [ ] **Movement on the map.** Migrations, trade routes, military campaigns and the spread of religions as animated
+      arrows and particles.
+
+### 3D view (0.6)
+
+- [ ] **3D view.** Real relief, water with its own shader, clouds and effects, with the same information as the 2D map.
+      Chosen in Settings. Heads-up: since 0.3.4, on Mac it renders with Compatibility (OpenGL), which lacks several
+      Forward+ effects (SDFGI and VoxelGI global illumination, volumetric fog, SSR reflections). The view has to be
+      designed to look good without them, or Macs that can handle it pick "Advanced" under **Rendering engine**.
+
+### Version 1.0
+
+- [ ] **Downloadable and web versions.**
+- [ ] **Guide for adding packages.** So other people can add encyclopedia packages.
+- [ ] **Review by specialists.** Of the data, by field and era.
+
+## Done
+
+### November 10, 2026: the contemporary era, in seven packages
+
+- [x] **Seven new packages** with 629 sources, 510 people, 440 events and 86 places (the encyclopedia goes from 1510
+      to 3175 items), checked against Wikipedia and Wikidata with the same method as the medieval and Holy Land
+      packages, and 376 reading links that returned 200:
+      - `pensamiento-economico`: from Smith and Alberdi to the full Austrian school (Menger, Böhm-Bawerk, Mises,
+        Hayek, Rothbard, Kirzner, Hoppe, Huerta de Soto), Keynes and Keynesianism, Chicago and Friedman,
+        libertarianism (Rand, Nozick, *For a New Liberty*), Bretton Woods, Mont Pelerin, ECLAC and Prebisch, and
+        Mises's lectures in Buenos Aires (1959).
+      - `ideas-politicas`: socialism and communism from Marx to Mao and Che, anarchism from Proudhon to the CNT, the
+        Zionism that was missing (Altneuland, Borochov, the Law of Return) and the Bund, fascism and Nazism as
+        historical documents, Arendt and Popper, decolonization, civil rights, feminism, environmentalism, Kaczynski's
+        manifesto, Fukuyama and Laclau.
+      - `argentina-contemporanea`: from Law 1420 to Milei, with the complete Peronist doctrine (The Organized
+        Community, the twenty truths, Conducción política, the 1949 Constitution), anti-Peronism, the dictatorship,
+        Nunca más and the Trial of the Juntas, Malvinas with resolutions 2065 and 502, the national censuses from 1869
+        to 2022, and the cases against kirchnerismo (Vialidad, final since June 10, 2025, Cuadernos, Hotesur, the
+        Memorandum, Ciccone, Once, the Ruta del dinero K, López's bags) with the position of those convicted and the
+        rulings that weren't convictions; $LIBRA, with the dismissal of October 23, 2026.
+      - `ciencia-y-tecnologia`: the publications that opened up technologies, from Planck and Einstein to Turing,
+        Shannon, the transistor, DNA, ARPANET, the web, the transformer, AlphaFold and CRISPR, with their Nobel Prizes.
+      - `cultura-libre-y-hackers`: GNU and its manifesto, Gates's letter (1976, earlier than GNU: it wasn't a reply),
+        the GPL, Linux, the Halloween documents, cypherpunks and Bitcoin, WikiLeaks and Assange, Manning, Snowden,
+        Anonymous, Aaron Swartz and Sci-Hub.
+      - `guerras-y-orden-mundial`: ultimatums and declarations of war from 1914 to 2022, the treaties and charters of
+        the international order (Versailles, the UN, the Universal Declaration, NATO, Maastricht, Paris), the Cold War
+        and the wars after it, with the state of Ukraine as of November 10, 2026.
+      - `letras-y-pensamiento-del-siglo-xx`: the novels and essays that shaped the century, with the Nobel Prizes in
+        Literature, Argentine and Latin American literature, philosophy and the social sciences.
+- [x] Fixed: the Río de la Plata polygon left out the Buenos Aires waterfront and La Plata (the Casa Rosada and Plaza
+      de Mayo didn't fall in any region); Patagonia now includes the Malvinas Islands, which had no region.
+- [x] The app opens the 3263 encyclopedia items (3.8 MB) in 150 to 230 ms.
+
+### November 10, 2026: each country's demographics and the storage plan
+
+- [x] **"Current country" in the "Data" tab**: for any point on the map from 1800 on, the present-day country that
+      contains it and its Our World in Data series (current borders): population, life expectancy, children per woman,
+      under-5 mortality, median age, urban population, GDP per capita (Maddison), extreme poverty, literacy, years of
+      schooling and foreign-born population. Each row shows the latest data published up to the chosen year; clicking
+      it opens its chart, and the tooltip gives the definition, the world value and the source. 232 countries, 0.9 MB
+      (`data/demografia/paises.json`, from `tools/demografia/series.py`).
+- [x] **Country of each map unit**: `tools/pipeline/p4_paises.py` rasterizes the Natural Earth countries over the units
+      and assigns each one to the country covering most of its land (229 countries; 782 of 58,076 units have no
+      country: ice, disputed areas, coastal edges).
+- [x] **Lazy loading**: the per-country series are read the first time the "Data" tab is opened (29 ms), not at
+      startup. And at startup the app says how much the encyclopedia weighs and how long it takes (with the
+      contemporary era, 3.8 MB in 150 to 230 ms).
+- [x] **Population of the regions by decade** in the 20th century and so far in the 21st (previously, every 25 years).
+- [x] **`GraficoSerie` for any indicator**: linear or logarithmic scale, with its unit in the tooltip; with
+      yearly series it doesn't draw a point for every year.
+- [x] **Storage and download plan** ([docs/en/storage.md](docs/en/storage.md)): how much each layer
+      weighs (it's not terabytes: TellMAP stores entries and links to the texts), where it's hosted (GitHub releases,
+      mirrored on Internet Archive and Zenodo; Google Drive won't work for the app to download from), the rules that
+      keep the app from stuttering (nothing downloads while the timeline is moving, a priority queue, a capped cache,
+      reading on another thread) and in what order it gets done.
+- [x] New vocabulary for the contemporary era: genres `economia`, `politica`, `manifiesto`, `discurso`,
+      `tecnologia` and `periodismo`; events `judicial`; places `laboratorio`, `institucion` and `sitio-historico`.
+- [x] The automated test opens the "Data" tab for Buenos Aires in 2000 and taps each indicator.
+
+### November 10, 2026: version 0.3.4, it shows up on Mac
+
+- [x] **Tested on an Intel Mac** (MacBook Pro 2017, Intel Iris Plus 640, macOS 13.7.8): with 0.3.2 the window stayed
+      dark. Forward+ on MoltenVK started without errors (which is why `fallback_to_opengl3` didn't kick in; it only
+      acts if Vulkan fails to start) but drew only the background and the rings of some markers; the data and the
+      interface were fine (`--verificar` and `--diagnostico`). Turning off Metal argument buffers changed nothing.
+      With Compatibility it renders fully with both drivers (Apple's OpenGL 4.1 and ANGLE over Metal): 145 frames per
+      second on "ultra" quality at 2880×1548, 0.65 to 1.1 GB of memory and 2.8 s to load the data.
+      `--rendering-driver metal` doesn't exist on that Mac.
+- [x] **Compatibility on macOS** (`renderer/rendering_method.macos` in `project.godot`). The app is 2D and uses
+      nothing specific to Forward+. It's still a single universal `.app`: the problem depends on the GPU and its
+      driver, not the CPU, and splitting Intel from Apple Silicon would only save size.
+- [x] **Rendering engine in Settings**: Automatic, Compatible (OpenGL) or Advanced (Vulkan). It's saved in
+      `user://motor.cfg`, which Godot reads at startup (`application/config/project_settings_override`) and which
+      doesn't touch the signed macOS bundle. When reopening with a different engine, `AvisoGraficos` asks whether it
+      looks right and, if nobody answers within 20 s, it switches back to the previous one on its own
+      (`scripts/nucleo/motor.gd`). Settings shows the engine in use and the graphics card, and the app writes both to
+      the log at startup.
+- [x] **The log is written right away** (`application/run/flush_stdout_on_print`): on the Mac, `godot.log` stayed
+      empty even after the app had been open for minutes.
+- [x] **`verificar-macos` checks that it renders**: it opens the app with a window, takes a screenshot with
+      `--comprobar_dibujo` (exits with 1 if it came out nearly flat) and, if it fails, removes the zip from the
+      release, as in the other steps. The broken Mac screenshot had a single color; the good ones, between 170 and 200.
+- [x] "Restart now" when running from source reopens the project with its `--path`, which Godot doesn't return among
+      the arguments.
+
+### November 10, 2026: version 0.3.3, asks before updating
+
+- [x] **The app asks before updating itself.** On opening, if there's a new version or new data, a banner at the top
+      center offers it with "Update" and "Not now", and nothing downloads until you say yes. "Not now" (or the X)
+      changes nothing and the banner shows up again next time; with "Update", the same banner shows the progress and,
+      when it's done, the usual notice remains. "Check now", in Settings, still installs without asking.
+      `--preguntar-y-salir=si|no` answers the banner from the command line, and `probar.py` checks that "Not now"
+      doesn't download or touch anything (neither data nor executable).
+- [x] Fixed: **0.3.2 was announced as 0.3.1.** `version.yml` published the 0.3.2 manifest, but `datos.yml`,
+      triggered by the same push, overwrote it two seconds later with one built earlier. The manifest was fixed by
+      hand and both workflows now share the `concurrency` group `actualizaciones`.
+
+### November 10, 2026: version 0.3.2, for macOS too
+
+- [x] **Version 0.3.1 published** on GitHub (the first one that updates itself), with the fixed release
+      `actualizaciones` and its manifest.
+- [x] **macOS version**: universal `TellMAP.app` (Intel and Apple Silicon), ad hoc signed and not notarized.
+      It's exported from Linux with the "macOS" preset in `export_presets.cfg` (which requires `import_etc2_astc` in
+      `project.godot`; that changes nothing on Linux or Windows because there are no GPU-compressed textures), and
+      the `verificar-macos` job in `version.yml` checks the signature and `--verificar` on a GitHub Mac; if it fails,
+      it removes the zip from the release. The app doesn't replace itself on macOS (the data does) and "Restart now"
+      reopens the bundle with `OS.create_instance`.
+- [x] Fixed: **the map tooltip got stuck over the panel**. It only updated on movements that reached the map: when
+      moving quickly onto the panel it stayed visible with the last place, covering the text, and when changing the
+      year with the mouse over the panel it showed up again. Now it turns off as soon as the mouse moves onto the
+      interface, it doesn't overlap the panel when the cursor is on the map right next to it, and the automated test
+      checks it.
+- [x] Fixed: **the side panel was sometimes taller than the window**, extending below the timeline with the end of
+      the text out of reach. It opened by animating `position`, and Godot uses that to recompute all four offsets with
+      the size at that moment: if the content was still being built, that height stayed fixed. Now it slides using
+      only its horizontal offsets, and the automated test checks that it ends up inside the window.
+- [x] Fixed: **religions, cultures and languages "since forever"**. With `"desde": null` the app painted the map
+      from 3400 BC: the Balkans with Roman religion in the Neolithic. The 45 entries like that (43 in
+      `edad-media.json` and 2 in `tierra-santa.json`) now have the date from which there's a record (the Roman
+      conquest, the first mention, the arrival) and a note explaining it; `validar.py` rejects an empty `desde` in
+      those layers.
+
+### November 10, 2026: automatic updates
+
+- [x] **The exported version updates itself** ([docs/en/updates.md](docs/en/updates.md)). On opening
+      it checks a manifest on GitHub; a new version of the app is downloaded, verified (sha256) and replaces the
+      executable, and it opens next time or with "Restart now" (Linux: it's renamed over the old one; Windows: the old
+      one becomes `.viejo`). A notice at the top center and an "Updates" section in Settings, with the checkbox to
+      turn it off.
+- [x] **Data-only updates**: if the data changes and the code doesn't, the app downloads only the files that changed
+      (`.gz` with their sha256 in the name) and installs them in the user folder by group (`mapa`, `enciclopedia`),
+      where they override the built-in ones (`Datos.ruta()`); the new encyclopedia shows up right away. Each data
+      version requires a minimum app version, and downloaded data is discarded automatically if the app ships newer
+      data.
+- [x] **Publishing**: `tools/actualizacion/publicar.py` (stamps `data/version.json`, builds the manifest and the
+      `.gz` files); `version.yml` publishes the manifest with each app version, and `datos.yml`, which is new,
+      publishes data only on every push to main that touches `data/`, after running the full test with the code of
+      the latest published app.
+- [x] **End-to-end test**: `tools/actualizacion/probar.py`, in `pruebas.yml`. It passed from source and with an
+      exported Linux executable: it downloads only the group that changed, rejects tampered files and executables,
+      replaces itself and starts up again.
+
+### November 10, 2026: the whole world in regions, with its population
+
+- [x] **The missing regions**, with eras, religions, cultures and languages: Armenia (the Armenian highlands) and
+      Cilicia (a child of Anatolia) in `tierra-santa.json`; Finland, Sardinia and Corsica, and the Pontic steppe in
+      `edad-media.json`. 14 new families (Tengrism, Scythian religion, Armenian, Sardinian, Hurro-Urartian
+      languages…).
+- [x] **`regiones-del-mundo.json` package**: 46 regions that complete the map (Siberia and the Russian Far East, the
+      Caucasus, Central Asia, Tibet, Japan, Korea, Southeast Asia, South India, Africa by region, the Americas outside
+      Mesoamerica, the Andes and the Río de la Plata, Oceania), with summary and eras. The polygons come from Natural
+      Earth's country borders: each shared border is simplified only once for both sides, and the one bordering a
+      curated region snaps to its vertices, so they don't overlap; coastlines can bulge out over the sea but never cut
+      into land. Together, the 88 regions cover 99.6% of the land surface (previously, 16%).
+- [x] **Population of every region since 10,000 BC**: `tools/enciclopedia/poblacion.py` adds up Our World in Data's
+      per-country series (HYDE 3.3 up to 1799, Gapminder v7 up to 1949 and the UN from 1950 on) according to the
+      assignment in `poblacion_regiones.json`, at 37 dates. Curated estimates take precedence; for islands that were
+      settled late, model values before settlement are dropped (HYDE had people in Iceland before 874). 64 regions
+      have their own series and 24 are counted within another one; only Saint Helena and the Falklands are left
+      without a region.
+- [x] **Coverage report** (`docs/es/cobertura.md`), generated by `tools/enciclopedia/cobertura.py` from the map units
+      and the population extract: land covered, what share of the world population has a series and which curated
+      estimate applies in each era, one row per region with its layers and items, and what's missing. `validar.py`
+      warns if the report or the series are out of date.
+- [x] Fixed: the `francia` polygon had the Pyrenees inverted and left out Gascony, Béarn and the Landes; the `arabia`
+      one had the border with Jordan backwards and spilled into Jordan. The validator now rejects polygons with
+      repeated vertices or self-intersecting edges.
+
+### November 10, 2026: the Holy Land, from Antiquity to today
+
+- [x] **`tierra-santa.json` package**: 7 new regions (the Holy Land, Lebanon, Syria and Transjordan, children of the
+      Levant, plus Arabia, the Maghreb and Cyprus) with eras, religions, cultures and languages from prehistory to
+      today; 176 sources, 198 people, 172 events and 75 places. Scriptures (Torah, Tanakh, Septuagint, Vulgate, New
+      Testament, the Quran and its oldest manuscripts, Bukhari, the Dead Sea Scrolls with the War Scroll, Mishnah and
+      Talmud); the first Islamic expansion from the Hijra to Poitiers and the sieges of Constantinople, with the first
+      Christian reactions (Doctrina Jacobi, Sebeos, Sophronius, Pseudo-Methodius, the Pact of Umar); the Crusades
+      from every side (the Byzantine appeal at Piacenza, Clermont, the Latin chroniclers, the Hebrew chronicles of
+      1096, Armenians and Syrians, Usama ibn Munqidh, al-Sulami and the first call to jihad, Saladin); how Europe
+      thought about Islam (Peter the Venerable, Riccoldo, Dubois, Manuel II, Cusa, Pius II, Luther, Tasso, Voltaire,
+      Lessing, Gibbon, Renan and al-Afghani's reply); the Ottomans from Marj Dabiq to Vienna; the Kabbalah of Safed;
+      Zionism and Arab nationalism; the Mandate with the Peel report; the Arab-Israeli wars; the 1988 Hamas Charter
+      and its 2017 document; the Islamism of Qutb, Azzam and Bin Laden; claimed attacks, including those on the AMIA
+      and the Israeli embassy in Buenos Aires; and dialogue, from Nostra aetate to Regensburg and "A Common Word".
+- [x] **Checked against Wikipedia and Wikidata** with the same method as the medieval package; three ancient dates
+      were kept (Hillel, Yohanan ben Zakkai, Judah ha-Nasi) where Wikidata contradicts Wikipedia. All 95 reading links
+      returned 200: Wikisource in Hebrew, Arabic, Spanish, Greek, Latin, Italian, French, German and English, Project
+      Gutenberg, Yale's Avalon Project, Fordham's Medieval Sourcebook, Sefaria, the Holy See and the full Peel report
+      on UNISPAL and Internet Archive. Each link says whether it's in the public domain.
+- [x] **Demographics of the Holy Land** from DellaPergola (2001), the Mandate censuses (1922 and 1931), the 1945
+      Village Statistics and the Israeli and Palestinian statistics offices (2023).
+- [x] **New families** in `familias.json`: 14, among them Samaritanism, the Druze, the Alawites, Ismailism, the
+      Maronites, Oriental Orthodoxy, the Bahá'í Faith, pre-Islamic Arabian religion and Ibadism; the Philistines and
+      the Berbers; South Arabian, the Berber languages and Yiddish.
+- [x] **Items from other packages enriched**: the 1099 capture of Jerusalem and Hattin have a full summary and
+      sources; Clermont and the conquest of Syria, sources; nine authors already loaded (Bernard, Halevi, Maimonides,
+      Nachmanides, Cusa, Urban II, Frederick II, Innocent III, Josephus) get their new works.
+
+### November 10, 2026: medieval Europe, with an emphasis on philosophy
+
+- [x] **`edad-media.json` package**: 15 new regions (the Iberian Peninsula, France, Britain, Ireland, Germany and the
+      Low Countries, Scandinavia, Iceland, Poland, Bohemia, Hungary, the Balkans, Wallachia and Moldavia, the Baltic,
+      Rus' and Sicily) with eras, religions, cultures and languages from Antiquity to today; 173 sources, 215 people,
+      125 events and 120 places, from the sack of Rome to 1500. Philosophy is covered in full: from Augustine and
+      Boethius to Eriugena, Anselm, Abelard, Chartres and Saint Victor; al-Andalus and Jewish philosophy (Ibn Gabirol,
+      Avempace, Averroes, Maimonides, Crescas); the Toledo translators; the scholasticism of Paris and Oxford with the
+      condemnations of 1270 and 1277; Scotus, Ockham, Buridan and Oresme; mysticism (Eckhart, Porete, Julian);
+      Byzantium (Photius, Psellos, Palamas, Plethon) and humanism up to Ficino and Pico. As a bonus: chronicles, sagas,
+      law, science, rulers, battles, councils, universities and monasteries.
+- [x] **Checked against Wikipedia and Wikidata**: each article was resolved on en.wikipedia (redirects and
+      disambiguations), the Spanish title and the Wikidata id come from its sitelinks, the coordinates of places and
+      events from P625, and life dates were cross-checked with P569/P570 (six of our own dates were kept where
+      Wikidata contradicts Wikipedia, such as Ockham's death in 1347). All 104 reading links (Wikisource in Latin,
+      Spanish, Italian, Icelandic, German and Russian, and Project Gutenberg) returned 200.
+- [x] **Demographics with sources**: Russell (1972) for Iberia, France, Italy, Rus', Poland and Hungary (500-1450)
+      and Urlanis (1941) for Britain, Ireland, Scandinavia and the German area (1000-1500), with notes where the two
+      series differ or where the figure groups territories together.
+- [x] **New families** in `familias.json`: 66, among them Arianism, Catharism, Hussitism, Protestantism and the
+      pre-Christian religions of Europe; Germanic, Slavic, Celtic, Andalusi and Jewish cultures; Germanic, Celtic,
+      Slavic, Baltic and Uralic languages, Basque and Hebrew.
+- [x] Fixed: the `italia` polygon left out Naples and Amalfi; Italy gets its medieval demographics.
+- [x] Fixed: an era with no start or no end (`"desde"` or `"hasta"`: `null`, which the schema allows) broke the
+      timeline and the panel when selecting a place. Open-ended periods are now shown as "since 1808" or "until 432"
+      (`Enciclopedia.rango_de`), and the automated test selects Paris, Dublin and Kyiv to cover it.
+- [x] The automated test opens all 919 encyclopedia items in the editor and they come out identical.
+
+### November 7, 2026: progressive encyclopedia (0.3)
+
+- [x] **Encyclopedia editor inside the app** (Settings, or "Edit this entry" on each entry): forms for sources,
+      people, events, places and regions, coordinates with a click on the map, validation on save (year 0, ranges,
+      ids and references, closed fields) and the same JSON format: a package read and written back comes out
+      identical, so the diff shows only what changed. On save, the map and the entries update on their own.
+- [x] **Drafts from Wikipedia and Wikidata** (`tools/enciclopedia/borradores.py`): for the most looked-up places
+      without an entry, the capital, the key people (the entity's office holders and the best known figures of its
+      time), the dated events and the Wikipedia article by section, in the schema's format. Tested with the Ottoman
+      Empire: 8 people (Suleiman, Mehmed II, Osman I…), 10 events, 5 capitals and 19 sections.
+- [x] **AI-extended entries** (`tools/enciclopedia/redactar.py`): Claude writes the history section by section,
+      citing the draft's numbered sources; paragraphs without a valid citation are discarded, years and figures that
+      aren't in the cited material are flagged, and the links it suggests are checked. The region displays it with
+      citations that lead to each reference.
+- [x] **Human review**: the editor opens each draft, computes its study area from the Cliopatria territory, shows the
+      verification warnings and only approves it with "I checked every fact…"; the items move to a package with the
+      review date and note. `validar.py` won't let an AI entry be published without review and, with
+      `--borradores`, also validates the drafts.
+- [x] **Questionable data reviewed:**
+  - Butzer (1976) estimates 2.9 million for Egypt around 1250 BC from carrying capacity (3 to 3.5 by his urban
+    method; Kemp, 4 to 5): corrected, and his series for 3000, 2500, 1800 and 150 BC added, per Snape's summary;
+  - Han censuses checked against the Chinese text: the one from year 2 with its two readings (59,594,978 from the
+    Hanshu, 57,671,400 by commandery) and the one from 140 with 9,698,630 households and 49,150,220 people;
+  - names: "Hashemite Arab Federation" (1415-1439) is Arab Iraq, "Michoacán" (1305-1533) the Purépecha Empire,
+    "Wihtgar" the kingdom of the Isle of Wight and "Great Yuan" is Dayuan, which linked to the Yuan dynasty
+    (`data/mapa/correcciones.json` stores the corrected links and the reason why);
+  - the 33 states that Cliopatria includes twice ("X" and "(X)", same Wikidata) are merged on load: one name, one
+    color and no internal border.
+- [x] Fixed: the population chart draws the uncertainty band in segments (with an estimate that had no range it
+      couldn't be triangulated) and "Part of" shows the name in Spanish.
+- [x] The automated test opens all 271 encyclopedia items in the editor and checks they don't change, saves, approves
+      a draft and tests the click on the map; the walkthrough adds five editor scenarios (548 controls).
+- [x] **The editor also saves in the exported version**: since the packages are inside the executable, it saves
+      copies in the user folder that override the built-in ones.
+- [x] **Version 0.3.0 exported** for Windows and Linux, with the data inside the executable (a single file), and
+      published on GitHub (`version.yml` exported and uploaded the zips).
+
+### November 6, 2026: progressive encyclopedia (0.3)
+
+- [x] **Queue of lookups without an entry** in Settings: how many places were looked up without an entry, the most
+      looked-up ones (each one takes you to the place and the year), copy the queue as JSON and open its folder.
+      Settings now scrolls.
+- [x] Fixed before it shipped: releasing focus from buttons at the moment of pressing made Godot cancel the click.
+      The interface walkthrough now presses and releases on different frames, like a person, and catches it.
+
+### November 6, 2026: map (0.2)
+
+- [x] **Clustered markers.** Markers that overlap on screen are grouped into a circle with their count and a colored
+      dot per type; clicking zooms the camera in until they separate, and those sharing the exact same point spread
+      out in a spiral up close. Clustering uses a grid with neighbors, linear in the number of markers.
+- [x] **Sharp borders up close.** With less than one texel per pixel, the unit at each point comes from a bilinear
+      vote of the four neighboring texels, and the lines (borders, provinces, selection, mouse) are drawn with a fixed
+      on-screen width from the distance to the edge: smooth curves instead of raster stair-steps. From far away it
+      still uses the usual method, with a transition between the two.
+- [x] **Keyboard shortcuts**: 1 to 5 for the modes, / or Ctrl+F to search, G to go to a year, + and - to zoom, [ and
+      ] for the tabs, Backspace to go back from an entry and F1 for help, which now lists them and scrolls so it fits
+      in short windows.
+- [x] **Everything usable without a mouse.** All buttons, the legend and the dialogs can be navigated with Tab, with
+      a focus outline in the theme's color; with the mouse, focus is released automatically, so the spacebar still
+      plays.
+      The panel scrolls to follow focus.
+- [x] **"High contrast" theme**: white text on black (21:1) and yellow accents.
+- [x] **Export ready.** `export_presets.cfg` (Linux and Windows, with the `data/*` filter) and the `version.yml`
+      workflow. Fixed along the way: the `.gdignore` in `data/mapa` left **out** all the map data on export (the
+      `.pck` weighed 1.5 MB); now the relief and the terrain use the `keep` importer and the `.pck` (27 MB) runs the
+      full automated test. New `--verificar` option to check an executable.
+- [x] `tmap.py revisar` no longer crashes now and then: it was letting the script reload itself while running.
+
+### November 6, 2026: clickable religions, cultures and languages (0.2)
+
+- [x] **`familias` section in the encyclopedia** (`data/enciclopedia/paquetes/familias.json`): 33 religions,
+      18 cultures and 29 languages, with name, parent family (Sunni Islam → Islam → Abrahamic religions), fixed color
+      and Wikipedia article checked against the API. Languages now have a `familia` too. The validator checks layer,
+      parents without cycles, colors and that every family used exists; [ESQUEMA.en.md](data/enciclopedia/ESQUEMA.en.md)
+      documents it.
+- [x] **Duplicate families merged.** Greek polytheism, Roman polytheism and Egypt's "Greek and Roman religion" fall
+      under "Greco-Roman religion", and the legend shows the family name, not each region's.
+- [x] **Religion, culture and language entry.** Parent family and the ones it includes, where it is in the selected
+      year and with what weight, bars per region along the timeline (click to go to the year), notes, sources from
+      those regions and eras, and the Wikipedia summary. While it's open, the map switches to that mode and
+      highlights its areas.
+- [x] **Clickable legend.** Hovering highlights the family on the map; clicking opens its entry. With many families
+      it shows the most widespread ones and a button to see the rest.
+- [x] **Clickable Data tab.** The place's religion, culture and language in rows with their color; each row opens its
+      entry.
+- [x] **Map click by mode.** In religion, culture or language, the panel opens the Data tab with the family at that
+      point marked and a button to its entry, and the map highlights that family.
+- [x] **Search** for religions, cultures and languages.
+- [x] **Clickable timeline.** Source and event marks show their name (nearby ones, together) and open their entry
+      with a click, besides taking you to the year.
+- [x] **Political entity entry.** From the Summary tab, the Data link or search: area in the selected year, territory
+      over time (chart with click to go to the year), maximum extent, places, events and sources from its territory
+      while it belonged to it, links to Wikidata and Seshat, and Wikipedia. While it's open, the political map
+      highlights it.
+- [x] **Population chart** with the value, range and source of each estimate on hover.
+- [x] Notes with BC dates no longer end in "a. C..".
+- [x] **Walkthrough of the whole interface** (`scripts/nucleo/recorrido.gd`, `tmap.py recorrido` and inside the
+      automated test): a real click on 401 controls in 17 scenarios; it fails if any of them errors out or does
+      nothing. While it runs, links don't open the browser (they all go through `Estado.abrir_url`) and there are no
+      animations.
+- [x] **Regions with each era's actual outline.** In the layer modes, inside the region's polygon, whatever belongs
+      to a Cliopatria entity that year is painted solid and the rest hatched in the same color: Egypt in 1350 BC looks
+      like the Nile valley and not like a rectangle. Cliopatria was chosen over Natural Earth because modern borders
+      (Egypt's are almost straight) say nothing about the era.
+- [x] Faster in the layer modes: map values are stored according to which family applies in each region, so playing
+      through years or returning to the mode doesn't recompute them.
+- [x] The mode buttons at the top follow the mode even when it changes from somewhere else (an entry, the bridge).
+- [x] Fixed: entries with `"hasta": null` (Egypt since the year 1000) caused an error in the layer modes. The
+      automated test now goes through all 80 family entries, the legend and the click by mode, also in 1500.
+
+### November 6, 2026: GitHub and landing page
+
+- [x] **Project landing page** in `docs/index.html`, published with GitHub Pages from `main/docs`, with the app's
+      look (Marble and Bronze, Cinzel and EB Garamond, real screenshots).
+- [x] **Continuous integration**: on every push and pull request, it validates the encyclopedia, compiles the scripts
+      and runs the automated test (`.github/workflows/pruebas.yml`).
+- [x] Issue forms (bug, idea, data), pull request template and contribution guide.
+- [x] `tools/github/organizar.py`: labels, milestones, one issue per task, board, Pages, security and the 0.1 release.
+
+### November 6, 2026: logs and leaks
+
+- [x] **Logs in `.godot/registros/`** for every run of the app and the editor, with traces, and `tmap.py registros`
+      to read them. On close, the app records the nodes left unfreed and which script they come from.
+- [x] **No leaks on close.** Godot reported hundreds of unfreed objects ("RIDs were leaked"). The causes: Wikipedia
+      text that got lost if the panel changed while the image was downloading, the population chart being created
+      even when it wasn't shown, and a reference cycle in the bridge. Now the full test and a windowed session close
+      without a single warning.
+
+### November 6, 2026: tools for working
+
+- [x] **Bridge** (`addons/tellmap_puente`, `tools/godot/tmap.py`): drive the app and the editor from the terminal or
+      with an agent. It covers year, camera, selection, clicks, screenshots, errors with traces, reloading shaders and
+      the encyclopedia, and GDScript. In the editor it adds a "Bridge" panel with buttons for the automated test and
+      validation.
+- [x] **Startup that imports on its own.** A freshly downloaded clone, or one with new classes, no longer fails with
+      "Parse error": the app imports the project and reopens itself.
+- [x] `tmap.py revisar` (compiles all the scripts without opening the app) and `tmap.py doc` (the exact API of the
+      installed Godot version).
+- [x] [Contribution guide](docs/en/contributing.md) and this log.
+
+### November 6, 2026: version 0.1
+
+- [x] 2D world map with the Miller projection, shaded relief, rivers, smoothed coastlines and nautical chart lines on
+      the water.
+- [x] Political borders from 3400 BC to 2024 from Cliopatria: 58,076 units, 1,001,996 changes of ownership and about
+      3 ms per year.
+- [x] Curved names that follow the shape of the territory, in Spanish (1587 entities), and that fade out as you zoom
+      in.
+- [x] Timeline with playback, speeds, global and local eras, events and sources.
+- [x] Side panel with five tabs (Summary, History, Sources, People and events, Data) and entries for source, person,
+      event, place and region.
+- [x] Live Wikipedia summaries, Spanish first, and cached.
+- [x] Initial encyclopedia: an ancient Egypt pilot and a sample of eleven regions (15 regions, 76 sources, 55 people,
+      78 events, 47 places), with its validator.
+- [x] Religion, culture and language modes (where there's data), estimated population with a chart, and ancient
+      testimonies kept separate.
+- [x] Three visual themes (Marble and Bronze, Illuminated Parchment, Ink and Brass) and four graphics quality levels.
+- [x] Search, settings, welcome screen and help.
+- [x] Automated test (`--prueba`) and headless screenshots (`tools/captura.sh`).
+- [x] README in Spanish and English, plan, data and licenses, and the answer about Grokipedia (it has no official API).

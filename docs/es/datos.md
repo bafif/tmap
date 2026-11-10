@@ -1,5 +1,7 @@
 # Datos y licencias
 
+[English](../en/data.md)
+
 Todo lo que muestra TellMAP sale de datos abiertos. Esta página dice de dónde sale cada cosa, qué se le hace y bajo
 qué licencia se puede reusar.
 
@@ -17,7 +19,7 @@ qué licencia se puede reusar.
 | Color del terreno | NASA Blue Marble Next Generation, julio de 2004 | Dominio público (NASA) | `raw_data/world.200407.3x5400x2700.jpg` |
 | Títulos en español | [Wikidata](https://www.wikidata.org) | CC0 | `data/mapa/wikidata_es.json` |
 | Resúmenes de artículos | Wikipedia, API REST, en vivo y con caché local | CC BY-SA 4.0 | `user://wiki/` en la computadora de cada uno |
-| Enciclopedia propia | Paquetes de TellMAP | CC BY-SA 4.0 | `data/enciclopedia/paquetes/` |
+| Enciclopedia propia, en español y su traducción al inglés | Paquetes de TellMAP | CC BY-SA 4.0 | `data/enciclopedia/paquetes/` y `data/enciclopedia/traducciones/en/` |
 | Tipografías | Cinzel (Natanael Gama) y EB Garamond (Georg Duffner, Octavio Pardo) | SIL Open Font License 1.1 | `assets/fuentes/` |
 
 Las fuentes primarias y los estudios que cita la enciclopedia tienen sus propios derechos: TellMAP guarda su ficha
@@ -47,7 +49,8 @@ Ver [tools/pipeline/README.md](../../tools/pipeline/README.md) para correrlo. En
    fotos para saltos largos, la geometría de los nombres y los colores (vecinos con colores distintos y colores fijos
    para entidades muy conocidas, como Roma o Egipto).
 3. **Wikidata** (`p3_wikidata.py`): títulos de Wikipedia en español para las entidades.
-4. **Nombres en español** (`data/mapa/nombres_es.json`): revisados para el mapa; se editan a mano.
+4. **Nombres en español** (`data/mapa/nombres_es.json`): revisados para el mapa; se editan a mano. Con la app en
+   inglés, el mapa usa los nombres de Cliopatria tal cual vienen, y los países actuales, los de Natural Earth.
 5. **Correcciones** (`data/mapa/correcciones.json`): enlaces a Wikipedia y Wikidata que Cliopatria trae equivocados,
    revisados a mano, con el porqué de cada uno; la app los aplica al cargar. Al cargar también se unifican los 33
    estados que Cliopatria trae dos veces, «X» y «(X)», con el mismo Wikidata: la versión entre paréntesis es el
