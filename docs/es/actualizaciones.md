@@ -54,7 +54,7 @@ página del proyecto.
 - **Una versión de la app**: igual que siempre, se publica la versión `vX.Y.Z` en GitHub, con `config/version` de
   `project.godot` igual a `X.Y.Z` (si no coinciden, el workflow falla: la app se creería vieja para siempre).
   `version.yml` exporta, sella los datos, sube los `.gz` y el manifiesto nuevo.
-- **Solo datos**: alcanza con llevar los cambios de `data/` a `master`. `datos.yml` se fija si cambiaron respecto de
+- **Solo datos**: alcanza con llevar los cambios de `data/` a `main`. `datos.yml` se fija si cambiaron respecto de
   lo publicado, valida la enciclopedia, corre la prueba automática completa **con el código de la última versión
   publicada de la app** y los datos nuevos, y si pasa publica una versión `datos-AAAAMMDD-HHMMSS` y el manifiesto
   nuevo. Si la prueba falla es porque los datos necesitan código nuevo: van con la próxima versión de la app. También

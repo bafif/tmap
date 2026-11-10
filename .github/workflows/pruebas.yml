@@ -1,11 +1,11 @@
 name: Pruebas
 
-# En cada push a master y en cada pull request: valida la enciclopedia, compila todos los scripts y corre la prueba
+# En cada push a main y en cada pull request: valida la enciclopedia, compila todos los scripts y corre la prueba
 # automática completa de la app, sin pantalla.
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
   workflow_dispatch:
 

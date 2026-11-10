@@ -105,7 +105,7 @@ def tareas_pendientes() -> list[dict]:
         m = re.match(r"\*\*(.+?)\*\*", t["texto"])
         titulo = m.group(1) if m else re.split(r"(?<=[a-záéíóú)])[.:](\s|$)", t["texto"])[0]
         t["titulo"] = titulo.strip().rstrip(".")[:90]
-        t["cuerpo"] = (t["texto"] + f"\n\n---\nViene de [PROGRESO.md](https://github.com/{REPO}/blob/master/"
+        t["cuerpo"] = (t["texto"] + f"\n\n---\nViene de [PROGRESO.md](https://github.com/{REPO}/blob/main/"
                        f"PROGRESO.md), bloque «{t['bloque']}».")
     return tareas
 
@@ -161,11 +161,11 @@ def main() -> int:
             gh("project", "item-add", str(numero), "--owner", DUENO, "--url", url)
         print(f"  Tablero: https://github.com/users/{DUENO}/projects/{numero} (en la web: «New view» → Board)")
 
-    print("\n6. GitHub Pages desde master/docs")
+    print("\n6. GitHub Pages desde main/docs")
     if gh("api", f"repos/{REPO}/pages", leer=True):
         print("  Pages ya está activado.")
     else:
-        gh("api", "-X", "POST", f"repos/{REPO}/pages", "-f", "source[branch]=master", "-f", "source[path]=/docs")
+        gh("api", "-X", "POST", f"repos/{REPO}/pages", "-f", "source[branch]=main", "-f", "source[path]=/docs")
     print(f"  Landing: {PAGINA}")
 
     print("\n7. Seguridad gratuita (repos públicos)")
@@ -179,8 +179,8 @@ def main() -> int:
     else:
         notas = ("Primera versión que funciona de punta a punta: mapa 2D con fronteras de 3400 a. C. a 2024, línea de "
                  "tiempo, panel con fuentes y Wikipedia, enciclopedia piloto del antiguo Egipto, tres temas visuales. "
-                 f"Detalle en [PROGRESO.md](https://github.com/{REPO}/blob/master/PROGRESO.md).")
-        gh("release", "create", "v0.1.0", "--repo", REPO, "--target", "master", "--title", "TellMAP 0.1",
+                 f"Detalle en [PROGRESO.md](https://github.com/{REPO}/blob/main/PROGRESO.md).")
+        gh("release", "create", "v0.1.0", "--repo", REPO, "--target", "main", "--title", "TellMAP 0.1",
            "--notes", notas)
 
     print("\nA mano en la web (GitHub no lo deja hacer por gh):")

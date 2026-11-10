@@ -1,6 +1,6 @@
 name: Datos
 
-# Actualizaciones solo de datos (docs/es/actualizaciones.md). En cada push a master que toque data/ (o a mano): si los
+# Actualizaciones solo de datos (docs/es/actualizaciones.md). En cada push a main que toque data/ (o a mano): si los
 # datos cambiaron respecto de lo publicado, los prueba con el código de la última versión publicada de la app (su
 # prueba automática completa, con los datos nuevos) y, si pasa, los publica: una versión «datos-…» con los archivos que
 # cambiaron en .gz y el manifiesto nuevo en la versión fija «actualizaciones». Las apps ya instaladas los bajan solas,
@@ -9,7 +9,7 @@ name: Datos
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths: ["data/**"]
   workflow_dispatch:
 

@@ -280,7 +280,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       más nuevos.
 - [x] **Publicación**: `tools/actualizacion/publicar.py` (sella `data/version.json`, arma el manifiesto y los `.gz`);
       `version.yml` publica el manifiesto con cada versión de la app y `datos.yml`, nuevo, publica solo datos en cada
-      push a master que toque `data/`, después de correr la prueba completa con el código de la última app publicada.
+      push a main que toque `data/`, después de correr la prueba completa con el código de la última app publicada.
 - [x] **Prueba de punta a punta**: `tools/actualizacion/probar.py`, en `pruebas.yml`. Pasó desde el código fuente y
       con un ejecutable de Linux exportado: baja solo el grupo que cambió, rechaza archivos y ejecutables adulterados,
       se reemplaza a sí mismo y vuelve a arrancar.
@@ -477,7 +477,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 ### 6 de noviembre de 2026: GitHub y landing
 
-- [x] **Landing del proyecto** en `docs/index.html`, publicada con GitHub Pages desde `master/docs`, con la estética
+- [x] **Landing del proyecto** en `docs/index.html`, publicada con GitHub Pages desde `main/docs`, con la estética
       de la app (Mármol y bronce, Cinzel y EB Garamond, capturas reales).
 - [x] **Integración continua**: en cada push y pull request, valida la enciclopedia, compila los scripts y corre la
       prueba automática (`.github/workflows/pruebas.yml`).
