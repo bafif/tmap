@@ -173,6 +173,24 @@
           "hasta": 1952,
           "nombre": "Dinastía de Muhammad Alí",
           "resumen": "Muhammad Alí y sus sucesores modernizan el país; se abre el canal de Suez (1869) y Gran Bretaña ocupa Egipto desde 1882. Termina con la revolución de 1952."
+        },
+        {
+          "desde": 1952,
+          "hasta": 1970,
+          "nombre": "Revolución de 1952, Naguib y Nasser",
+          "resumen": "Los Oficiales Libres derrocan a la monarquía en 1952; Naguib es el primer presidente (1953-1954) y Nasser lo sucede. Nasser nacionaliza el canal de Suez (1956), Egipto se une a Siria en la República Árabe Unida (1958-1961) y la derrota de 1967 precede a su muerte en 1970."
+        },
+        {
+          "desde": 1970,
+          "hasta": 1981,
+          "nombre": "Presidencia de Sadat",
+          "resumen": "Tras la guerra de 1973, Sadat abre la economía y firma los acuerdos de Camp David (1978) y la paz con Israel (1979); lo asesinan en 1981."
+        },
+        {
+          "desde": 1981,
+          "hasta": 2011,
+          "nombre": "Presidencia de Mubarak",
+          "resumen": "Casi treinta años de gobierno bajo estado de emergencia casi permanente, con reformas económicas y fuerte oposición islamista; terminan con las protestas de 2011."
         }
       ],
       "demografia": [
@@ -828,7 +846,287 @@
           23.3
         ]
       ],
-      "resumen": "El valle del Nilo al sur de la primera catarata, hoy repartido entre Egipto y Sudán. Sede de los reinos de Kerma, Kush y Napata-Meroe, fue proveedora de oro y mercenarios para Egipto y, en la dinastía XXV, su gobernante."
+      "resumen": "El valle del Nilo al sur de la primera catarata, hoy repartido entre Egipto y Sudán. Sede de los reinos de Kerma, Kush y Napata-Meroe, fue proveedora de oro y mercenarios para Egipto y, en la dinastía XXV, su gobernante.",
+      "eras": [
+        {
+          "desde": -2970,
+          "hasta": -2500,
+          "nombre": "Nubia anterior a Kerma",
+          "resumen": "El Grupo A, la primera sociedad poderosa de la Baja Nubia, llegó a su apogeo hacia 3100 a. C. y desaparece hacia 2900 a. C.; en el sur precede a Kerma la cultura Pre-Kerma."
+        },
+        {
+          "desde": -2500,
+          "hasta": -1500,
+          "nombre": "Reino de Kerma y Grupo C",
+          "resumen": "Kerma, que domina el valle entre la primera y la cuarta catarata, llega a rivalizar con Egipto hacia 1750-1500 a. C.; en la Baja Nubia vive el Grupo C (2400-1550 a. C. aprox.)."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1070,
+          "nombre": "Nubia bajo el Imperio Nuevo egipcio",
+          "resumen": "Egipto absorbe Kerma hacia 1500 a. C. y gobierna Nubia con un virrey de Kush y fortalezas y templos; las rebeliones siguen durante siglos."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Reino de Kush en Napata",
+          "resumen": "Tras el colapso egipcio, Kush se reorganiza en Napata; Kashta y Piye fundan la dinastía XXV (siglo VIII a. C.), que gobierna Egipto hasta la invasión asiria de mediados del siglo VII a. C."
+        },
+        {
+          "desde": -270,
+          "hasta": 350,
+          "nombre": "Reino meroítico de Kush",
+          "resumen": "La capital se muda a Meroe y el reino, que los griegos llaman Etiopía, se vuelve más africano en arte y lengua; decae en el siglo IV con los noba, los blemios y la invasión de Axum."
+        },
+        {
+          "desde": 350,
+          "hasta": 543,
+          "nombre": "Período postmeroítico",
+          "resumen": "Los noba, que traen las lenguas nubias, y los blemios se reparten el valle; de la caída de Kush surgen Nobatia, Makuria y Alodia."
+        },
+        {
+          "desde": 543,
+          "hasta": 1504,
+          "nombre": "Reinos cristianos de Nobatia, Makuria y Alodia",
+          "resumen": "Nobatia se convierte en 543, Makuria a mediados del siglo VI y Alodia en 580; el tratado del Baqt (652) asegura siglos de paz con Egipto. Makuria absorbe Nobatia y decae desde el siglo XIII por los mamelucos y otros factores; hacia 1500 cae Soba."
+        },
+        {
+          "desde": 1504,
+          "hasta": 1821,
+          "nombre": "Sultanato de Sennar y Nubia otomana",
+          "resumen": "Los funj de Sennar (1504) se extienden desde la tercera catarata hacia el sur y fomentan el islam y la arabización; los otomanos ocupan la Baja Nubia en la década de 1560. La conquista turco-egipcia (1820-1821) termina con ambos."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -2970,
+          "hasta": -1070,
+          "nombre": "Religión nubia tradicional (Grupo A, Kerma y Grupo C)",
+          "familia": "religion-nubia-antigua",
+          "peso": "mayoritaria",
+          "nota": "Sin textos: se conoce por las tumbas de Kerma, de gran riqueza, con enterramientos de acompañantes y animales, y por la imaginería de leones y otros animales."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1070,
+          "nombre": "Culto egipcio oficial en Nubia",
+          "familia": "politeismo-egipcio",
+          "peso": "importante",
+          "nota": "Templos y culto de Amón de la administración egipcia; cuánto lo adoptó la población nubia, poco claro."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Religión kushita: Amón de Jebel Barkal y dioses nubios",
+          "familia": "religion-nubia-antigua",
+          "peso": "mayoritaria",
+          "nota": "Los reyes de Kush veneran a Amón del Jebel Barkal y a dioses nubios; sus raíces vienen de la cultura de Kerma, animista, con leones y otros animales (Kushite religion)."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Culto de Amón en Napata",
+          "familia": "politeismo-egipcio",
+          "peso": "importante",
+          "nota": "Los reyes de Kush veneran a Amón del Jebel Barkal con formas egipcias, y se funden dioses egipcios y nubios."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Cultos nubios locales",
+          "familia": "religion-nubia-antigua",
+          "peso": "importante",
+          "nota": "Las prácticas indígenas siguieron a pesar de la colonización egipcia y de la fusión religiosa."
+        },
+        {
+          "desde": -270,
+          "hasta": 350,
+          "nombre": "Panteón meroítico (Apedemak, Amesemi)",
+          "familia": "religion-nubia-antigua",
+          "peso": "mayoritaria",
+          "nota": "Con Meroe cobran peso los dioses nubios, como el león Apedemak, aunque siguen Amón e Isis."
+        },
+        {
+          "desde": 350,
+          "hasta": 543,
+          "nombre": "Religiones tradicionales y culto de Isis en Filae",
+          "familia": "religion-nubia-antigua",
+          "peso": "mayoritaria",
+          "nota": "Las fuentes son escasas. Nobades y blemios veneraban a Isis en Filae hasta que Justiniano cerró el templo, hacia 535-537."
+        },
+        {
+          "desde": 543,
+          "hasta": 1504,
+          "nombre": "Cristianismo nubio",
+          "familia": "cristianismo",
+          "peso": "mayoritaria",
+          "nota": "Se convierten Nobatia (543), Makuria (mediados del siglo VI) y Alodia (580). Nobatia y Alodia fueron miafisitas según Juan de Éfeso; Makuria, calcedoniana, y sus vínculos posteriores con la Iglesia copta se discuten."
+        },
+        {
+          "desde": 1317,
+          "hasta": 1504,
+          "nombre": "Islam sunní",
+          "familia": "islam-sunni",
+          "peso": "importante",
+          "nota": "Tras los mamelucos y las tribus árabes, Makuria tiene reyes musulmanes en 1310-1320; la islamización de la población fue gradual."
+        },
+        {
+          "desde": 1504,
+          "hasta": 1821,
+          "nombre": "Islam sunní",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "Los funj atraen a sufíes y favorecen el islam; el cristianismo se apaga."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -2970,
+          "hasta": -1500,
+          "nombre": "Nubia antigua (Grupo A, Pre-Kerma, Kerma, Grupo C)",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Los nombres son etiquetas arqueológicas modernas: no se sabe cómo se llamaban ellos. Kerma fue un crisol con raíces saharianas, centroafricanas y levantinas."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1070,
+          "nombre": "Nubia bajo Egipto",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Fuerte egiptización de las élites."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1070,
+          "nombre": "Egipcia (virreinato y guarniciones)",
+          "familia": "egipcia",
+          "peso": "importante",
+          "nota": "Funcionarios, soldados y sacerdotes en las fortalezas y los templos."
+        },
+        {
+          "desde": -1070,
+          "hasta": 350,
+          "nombre": "Kushita (Napata y Meroe)",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Con muchas afinidades egipcias, pero distinta de la egipcia en cultura, lengua y etnia, como la distinguía el arte egipcio."
+        },
+        {
+          "desde": 350,
+          "hasta": 543,
+          "nombre": "Noba y blemios",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Los noba dieron su nombre a Nubia; los blemios dominaban el norte. Las fuentes son escasas."
+        },
+        {
+          "desde": 543,
+          "hasta": 1504,
+          "nombre": "Nubia cristiana (nobatios, makurios y alodios)",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Literatura en nubio, griego y copto."
+        },
+        {
+          "desde": 1317,
+          "hasta": 1821,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "importante",
+          "nota": "Migración de tribus árabes al valle del Nilo desde el siglo XIV, y arabización que se acelera con los funj."
+        },
+        {
+          "desde": 1504,
+          "hasta": 1821,
+          "nombre": "Nubia bajo los funj y los otomanos",
+          "familia": "nubia",
+          "peso": "mayoritaria",
+          "nota": "Los funj, de origen étnico incierto y arabizados, gobernaban una población diversa de nubios, beja, beduinos y hamaj."
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -2970,
+          "hasta": -1070,
+          "nombre": "Lenguas de Pre-Kerma, Kerma y Grupo C",
+          "familia": "sin-clasificar",
+          "peso": "mayoritaria",
+          "nota": "La lengua de Kerma no tiene textos; según Claude Rilly probablemente ya se hablaba meroítico (hay nombres meroíticos en los textos de execración egipcios de la dinastía XII sobre Kerma); otros proponen una lengua cusita o nilosahariana."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1070,
+          "nombre": "Egipcio (administración del virreinato)",
+          "familia": "egipcio",
+          "peso": "importante",
+          "nota": "Lengua de los funcionarios y las inscripciones; no tiene por qué ser la de la población."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Meroítico, antes de su escritura",
+          "familia": "meroitico",
+          "peso": "mayoritaria",
+          "nota": "Según Claude Rilly (Meroitic language), hay nombres y palabras meroíticas en textos egipcios de época napatea y ya en los textos de execración de la dinastía XII sobre Kerma; la lengua todavía no se escribía."
+        },
+        {
+          "desde": -1070,
+          "hasta": -270,
+          "nombre": "Egipcio (escritura real)",
+          "familia": "egipcio",
+          "peso": "importante",
+          "nota": "Los reyes de Kush usaron jeroglíficos egipcios hasta que apareció la escritura meroítica."
+        },
+        {
+          "desde": -270,
+          "hasta": 350,
+          "nombre": "Meroítico",
+          "familia": "meroitico",
+          "peso": "mayoritaria",
+          "nota": "Escrito desde hacia el siglo II a. C.; la escritura se lee pero la lengua se entiende poco."
+        },
+        {
+          "desde": 350,
+          "hasta": 543,
+          "nombre": "Beja (blemios)",
+          "familia": "afroasiaticas",
+          "peso": "minoritaria",
+          "nota": "Los blemios suelen identificarse con los antepasados de los beja."
+        },
+        {
+          "desde": 350,
+          "hasta": 1821,
+          "nombre": "Lenguas nubias (nubio antiguo desde el siglo VIII)",
+          "familia": "nubio",
+          "peso": "mayoritaria",
+          "nota": "Las introdujeron los noba tras la caída de Kush; el nubio antiguo se escribió del siglo VIII al XV."
+        },
+        {
+          "desde": 543,
+          "hasta": 1200,
+          "nombre": "Griego (Iglesia y corte)",
+          "familia": "griego",
+          "peso": "importante",
+          "nota": "Lengua escrita junto al nubio y el copto; en Makuria hay estelas en griego hasta el siglo XII."
+        },
+        {
+          "desde": 543,
+          "hasta": 1200,
+          "nombre": "Copto",
+          "familia": "copto",
+          "peso": "minoritaria",
+          "nota": "Lengua escrita de la Iglesia junto al nubio y el griego."
+        },
+        {
+          "desde": 1317,
+          "hasta": 1821,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "importante",
+          "nota": "Se extiende con las tribus árabes y con el islam; su peso varía mucho según la zona."
+        }
+      ]
     }
   ],
   "fuentes": [

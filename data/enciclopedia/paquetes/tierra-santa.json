@@ -99,6 +99,12 @@
           "resumen": "Agricultura, primeras aldeas grandes y la torre de Jericó, una de las construcciones más antiguas del mundo."
         },
         {
+          "desde": -4500,
+          "hasta": -3300,
+          "nombre": "Calcolítico (cultura ghassuliense)",
+          "resumen": "Aldeas de agricultores y ganaderos que funden cobre y entierran a sus muertos en dólmenes; la cultura ghassuliense, que se conoce sobre todo por Teleilat el-Ghassul junto al mar Muerto, va de 4400 a 3500 a. C., y la era sigue hasta 3300 a. C."
+        },
+        {
           "desde": -3300,
           "hasta": -1200,
           "nombre": "Canaán en la Edad del Bronce",
@@ -683,6 +689,12 @@
           "resumen": "Emiratos drusos y maronitas en la montaña; guerra civil de 1860 y autonomía del monte Líbano."
         },
         {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración aliada (OETA Oeste)",
+          "resumen": "Tras la derrota otomana, el litoral es administrado por Francia como parte del Territorio Enemigo Ocupado (OETA Oeste) hasta que la conferencia de San Remo (abril de 1920) le da el mandato; la Becá depende de Faisal (OETA Este) hasta Maysalun (julio de 1920)."
+        },
+        {
           "desde": 1920,
           "hasta": 1943,
           "nombre": "Mandato francés",
@@ -1180,6 +1192,12 @@
           "resumen": "Damasco es la puerta de la caravana de peregrinos a La Meca."
         },
         {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración de Faisal y Reino Árabe de Siria",
+          "resumen": "Faisal gobierna el interior desde 1918 y, tras la retirada británica de 1919, proclama el reino el 8 de marzo de 1920; Francia lo derrota en Maysalun en julio."
+        },
+        {
           "desde": 1920,
           "hasta": 1946,
           "nombre": "Mandato francés",
@@ -1665,6 +1683,18 @@
           "hasta": 1918,
           "nombre": "Imperio otomano",
           "resumen": "Región tribal de paso para la caravana de los peregrinos."
+        },
+        {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración de Faisal (OETA Este)",
+          "resumen": "La región depende del gobierno hashemita de Faisal y, desde 1920, de su reino sirio, hasta Maysalun."
+        },
+        {
+          "desde": 1920,
+          "hasta": 1921,
+          "nombre": "Tierra de nadie",
+          "resumen": "Tras Maysalun quedó sin gobierno central; Abdalá entró en noviembre de 1920 y se estableció en Amán en marzo de 1921."
         },
         {
           "desde": 1921,

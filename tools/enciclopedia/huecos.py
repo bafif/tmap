@@ -1287,6 +1287,10 @@ def orden_aplicar() -> int:
                                and lin(x["hasta"]) + 1 == lin(v["desde"])), None)
                 if previa is not None:
                     previa["hasta"] = v.get("hasta")
+                    for texto in ("nota", "resumen"):  # lo que dice la continuación no se pierde
+                        nuevo = v.get(texto)
+                        if nuevo and nuevo not in (previa.get(texto) or ""):
+                            previa[texto] = f"{previa[texto]} {nuevo}" if previa.get(texto) else nuevo
                     print(f"~ {k[0]} {k[1]}: {campo} «{v.get('nombre')}» sigue hasta {texto_anio(v.get('hasta'))}")
                     continue
                 lista.append(v)

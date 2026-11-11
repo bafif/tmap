@@ -1767,6 +1767,12 @@
       "resumen": "Inglaterra, Gales y Escocia. Tras el fin del dominio romano llegaron los anglosajones, luego los vikingos y en 1066 los normandos; de los monasterios de Northumbria salieron Beda y Alcuino y de Oxford, la lógica y la filosofía natural de Grosseteste, Bacon, Escoto y Ockham.",
       "eras": [
         {
+          "desde": -5500,
+          "hasta": -4000,
+          "nombre": "Mesolítico",
+          "resumen": "Cazadores-recolectores en una isla ya separada del continente por el mar; sus últimos grupos son reemplazados por los agricultores que llegan hacia 4000 a. C."
+        },
+        {
           "desde": -4000,
           "hasta": -2450,
           "nombre": "Neolítico",
@@ -2126,6 +2132,14 @@
       ],
       "culturas": [
         {
+          "desde": -5500,
+          "hasta": -4000,
+          "nombre": "Mesolítica",
+          "familia": "mesolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Cazadores-recolectores; sin escritura, lo que se sabe viene de la arqueología y del ADN antiguo (Brace et al. 2019)."
+        },
+        {
           "desde": -4000,
           "hasta": -2450,
           "nombre": "Neolítica",
@@ -2235,6 +2249,14 @@
         }
       ],
       "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -4000,
+          "nombre": "Lenguas desconocidas de los cazadores-recolectores",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los cazadores mesolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas, que según la hipótesis de las estepas llegaron después con gente de ascendencia esteparia."
+        },
         {
           "desde": -4000,
           "hasta": -2450,
@@ -2392,6 +2414,12 @@
       ],
       "resumen": "La isla que nunca fue romana. Cristianizada en el siglo V, sus monasterios conservaron el latín y el griego, copiaron libros como el de Kells y enviaron misioneros y maestros al continente, como Columbano y Juan Escoto Eriúgena.",
       "eras": [
+        {
+          "desde": -5500,
+          "hasta": -3750,
+          "nombre": "Mesolítico",
+          "resumen": "Mesolítico tardío: cazadores-recolectores y pescadores con una industria de lascas grandes (de tipo Bann), en campamentos como Ferriter's Cove (suroeste) y Newferry (norte), hasta la llegada de los primeros agricultores. Sitios más antiguos, como Mount Sandel (hacia 7000 a. C.), Lough Boora y el entierro de Hermitage (7530-7320 a. C.), son anteriores a esta era."
+        },
         {
           "desde": -3750,
           "hasta": -2450,
@@ -2579,6 +2607,14 @@
       ],
       "culturas": [
         {
+          "desde": -5500,
+          "hasta": -3750,
+          "nombre": "Mesolítica",
+          "familia": "mesolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Cazadores-recolectores; sin escritura, lo que se sabe viene de la arqueología y del ADN antiguo."
+        },
+        {
           "desde": -3750,
           "hasta": -2450,
           "nombre": "Neolítica",
@@ -2631,6 +2667,14 @@
         }
       ],
       "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -3750,
+          "nombre": "Lenguas desconocidas de los cazadores-recolectores",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los cazadores mesolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas, que según la hipótesis de las estepas llegaron después con gente de ascendencia esteparia."
+        },
         {
           "desde": -3750,
           "hasta": -2450,
@@ -4088,6 +4132,12 @@
       ],
       "resumen": "Isla del Atlántico norte colonizada por noruegos y sus esclavos gaélicos desde 870. Sin rey hasta 1262, se gobernó con su asamblea, el Althing, y produjo la literatura medieval más rica del norte: las Eddas y las sagas.",
       "eras": [
+        {
+          "desde": 410,
+          "hasta": 870,
+          "nombre": "Isla sin población estable",
+          "resumen": "Hasta el asentamiento nórdico de 870 la isla no tuvo población estable. Papar es el término con que Ari el Sabio (Íslendingabók, siglo XII) llama a los ermitaños irlandeses; Dicuil cuenta que clérigos pasaban temporadas en Tule hacia 795. Esos testimonios y los hallazgos anteriores a 870 se discuten."
+        },
         {
           "desde": 870,
           "hasta": 930,
@@ -5920,6 +5970,54 @@
           "nota": "Como el de Teutanus, dios de los eraviscos, honrado en Aquincum como Júpiter Teutanus."
         },
         {
+          "desde": 401,
+          "hasta": 433,
+          "nombre": "Cristianismo (Panonia romana tardía)",
+          "familia": "cristianismo",
+          "peso": "importante",
+          "nota": "El cristianismo era la religión oficial del Imperio desde 380, pero las fuentes de Panonia, que era solo la Transdanubia (la llanura al este del Danubio no era romana), son escasas y no permiten medir cuánto duraron los cultos tradicionales."
+        },
+        {
+          "desde": 433,
+          "hasta": 454,
+          "nombre": "Religión de los hunos",
+          "familia": "tengrismo",
+          "peso": "importante",
+          "nota": "Los hunos no dejaron textos propios; su vínculo con el tengrismo es una hipótesis tomada de otros pueblos de la estepa."
+        },
+        {
+          "desde": 433,
+          "hasta": 567,
+          "nombre": "Arrianismo (gépidos, ostrogodos y otros germanos)",
+          "familia": "arrianismo",
+          "peso": "importante",
+          "nota": "Los gépidos compartían religión y lengua con los godos, arrianos; no hay censo de la población, por eso no se marca como mayoritaria."
+        },
+        {
+          "desde": 567,
+          "hasta": 800,
+          "nombre": "Religión de los ávaros",
+          "familia": "tengrismo",
+          "peso": "importante",
+          "nota": "Poco documentada; se la une al tengrismo por analogía con otros pueblos de la estepa, sin textos que lo confirmen."
+        },
+        {
+          "desde": 600,
+          "hasta": 895,
+          "nombre": "Religión eslava",
+          "familia": "paganismo-eslavo",
+          "peso": "importante",
+          "nota": "Eslavos asentados en Panonia y los Cárpatos bajo dominio ávaro y luego franco."
+        },
+        {
+          "desde": 796,
+          "hasta": 895,
+          "nombre": "Cristianismo (misiones carolingias y de la Gran Moravia)",
+          "familia": "cristianismo",
+          "peso": "importante",
+          "nota": "Tras las campañas francas contra los ávaros (791-796) llegan los misioneros de Salzburgo; después, los de la Gran Moravia."
+        },
+        {
           "desde": 895,
           "hasta": 1000,
           "nombre": "Religión tradicional húngara",
@@ -6030,6 +6128,38 @@
           "nota": "Las lápidas de Panonia de los siglos I y II muestran nombres y trajes celtas."
         },
         {
+          "desde": 434,
+          "hasta": 454,
+          "nombre": "Hunos",
+          "familia": "estepa-euroasiatica",
+          "peso": "importante",
+          "nota": "El Imperio huno incluía muchos pueblos; el origen de los propios hunos se discute."
+        },
+        {
+          "desde": 434,
+          "hasta": 600,
+          "nombre": "Romanizada de Panonia",
+          "familia": "latina",
+          "peso": "importante",
+          "nota": "Cuánta población romanizada quedó en Panonia tras 433 se discute; las fuentes escritas son escasas."
+        },
+        {
+          "desde": 454,
+          "hasta": 567,
+          "nombre": "Germánica (gépidos, ostrogodos y lombardos)",
+          "familia": "germanica",
+          "peso": "importante",
+          "nota": "Tras Nedao (454) gépidos y ostrogodos se instalan en la cuenca del Danubio medio; los lombardos ocupan Panonia desde hacia 526 y se van a Italia en 568."
+        },
+        {
+          "desde": 567,
+          "hasta": 800,
+          "nombre": "Ávara",
+          "familia": "estepa-euroasiatica",
+          "peso": "importante",
+          "nota": "Los ávaros dominan la cuenca de los Cárpatos desde 567 hasta principios del siglo IX (campañas francas de 791-796); su origen se discute (se los vincula con los rouran)."
+        },
+        {
           "desde": 600,
           "hasta": null,
           "nombre": "Eslovaca y otros eslavos",
@@ -6103,6 +6233,38 @@
           "nombre": "Celta de Panonia",
           "familia": "celtas",
           "peso": "importante"
+        },
+        {
+          "desde": 434,
+          "hasta": 454,
+          "nombre": "Lengua de los hunos",
+          "familia": "sin-clasificar",
+          "peso": "importante",
+          "nota": "Solo se conservan nombres propios en fuentes griegas y latinas; no hay consenso sobre su clasificación (turcos, mongoles, tungús, yenisei, iranio) y hay quien la considera inclasificable. Según Prisco se hablaba también gótico."
+        },
+        {
+          "desde": 434,
+          "hasta": 600,
+          "nombre": "Latín tardío de Panonia",
+          "familia": "latin",
+          "peso": "importante",
+          "nota": "Cuánta población siguió hablándolo tras 433 se discute."
+        },
+        {
+          "desde": 454,
+          "hasta": 567,
+          "nombre": "Lenguas germánicas (gépido, gótico, lombardo)",
+          "familia": "germanicas",
+          "peso": "importante",
+          "nota": "El gépido se parecía al gótico; casi no hay textos."
+        },
+        {
+          "desde": 567,
+          "hasta": 800,
+          "nombre": "Lengua de los ávaros",
+          "familia": "sin-clasificar",
+          "peso": "importante",
+          "nota": "Casi sin textos; el jaganato duró hasta principios del siglo IX. No hay que confundirla con el avar del Cáucaso, con el que quizá no tenga relación."
         },
         {
           "desde": 600,
@@ -6888,11 +7050,44 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": 271,
+          "hasta": 376,
+          "nombre": "Religión goda tradicional",
+          "familia": "paganismo-germanico",
+          "peso": "importante",
+          "nota": "Poco documentada: los godos del norte del Danubio mantenían sus cultos mientras avanzaba el cristianismo arriano (misión de Ulfilas, 341-348; persecución de Atanarico, 369-372)."
+        },
+        {
+          "desde": 341,
+          "hasta": 376,
+          "nombre": "Arrianismo gótico",
+          "familia": "arrianismo",
+          "peso": "minoritaria",
+          "nota": "Ulfilas, obispo de los godos, trabajó entre ellos de 341 a 348, hasta que una persecución lo expulsó a Mesia; Atanarico persiguió de nuevo a los cristianos godos en 369-372."
+        },
+        {
+          "desde": 376,
+          "hasta": 454,
+          "nombre": "Religión de los hunos",
+          "familia": "tengrismo",
+          "peso": "importante",
+          "nota": "Los hunos no dejaron textos propios; su vínculo con el tengrismo es una hipótesis tomada de otros pueblos de la estepa."
+        },
+        {
+          "desde": 550,
+          "hasta": 900,
+          "nombre": "Religión eslava",
+          "familia": "paganismo-eslavo",
+          "peso": "importante",
+          "nota": "Procopio (hacia 550) cuenta que los eslavos veneraban a un dios del rayo como señor de todo; los esclavenos vivían al norte del Danubio (Jordanes, 551)."
+        },
+        {
           "desde": 300,
           "hasta": 900,
           "nombre": "Cristianismo de los dacorromanos",
           "familia": "cristianismo",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Su presencia al norte del Danubio tras 271 se discute (debate sobre la continuidad dacorromana); por eso va después de las demás."
         },
         {
           "desde": 900,
@@ -6942,6 +7137,38 @@
           "nota": "Carpos y otros pueblos al este de los Cárpatos."
         },
         {
+          "desde": 271,
+          "hasta": 376,
+          "nombre": "Goda (Sântana de Mureș-Cherniajov)",
+          "familia": "goda",
+          "peso": "importante",
+          "nota": "La cultura Sântana de Mureș-Cherniajov, de los siglos II a V, resulta de una mezcla de godos, getodacios y sármatas; que se la asocie con los godos fue muy discutido hasta los avances metodológicos recientes."
+        },
+        {
+          "desde": 376,
+          "hasta": 454,
+          "nombre": "Hunos",
+          "familia": "estepa-euroasiatica",
+          "peso": "importante",
+          "nota": "Dominio del Imperio huno sobre la región; el origen étnico de los hunos se discute."
+        },
+        {
+          "desde": 550,
+          "hasta": 600,
+          "nombre": "Eslava (esclavenos y antes)",
+          "familia": "eslava",
+          "peso": "importante",
+          "nota": "Jordanes (551) ubica a los esclavenos entre el Dniéster, el Vístula y el Danubio; los antes, ligados a la cultura de Penkovka, vivían más al este."
+        },
+        {
+          "desde": 567,
+          "hasta": 600,
+          "nombre": "Ávara",
+          "familia": "estepa-euroasiatica",
+          "peso": "importante",
+          "nota": "Los ávaros dominan la cuenca de los Cárpatos desde 567; su origen se discute (se los vincula con los rouran)."
+        },
+        {
           "desde": 600,
           "hasta": 1100,
           "nombre": "Eslava",
@@ -6961,6 +7188,14 @@
           "nombre": "Pueblos de la estepa (pechenegos y cumanos)",
           "familia": "turca",
           "peso": "importante"
+        },
+        {
+          "desde": 271,
+          "hasta": 600,
+          "nombre": "Romanizada (frontera del Danubio)",
+          "familia": "latina",
+          "peso": "minoritaria",
+          "nota": "Aureliano retiró la administración romana de Dacia hacia 271, y Moldavia nunca fue provincia romana. Cuánta población romanizada quedó al norte del Danubio es el centro del debate sobre el origen de los rumanos (continuidad dacorromana frente a la teoría inmigracionista); su peso es incierto, y la Cambridge History of the Romance Languages (2013) concluyó que los datos no alcanzan para decidirlo. Por eso va con peso menor, y última."
         }
       ],
       "idiomas": [
@@ -6990,10 +7225,11 @@
         },
         {
           "desde": 106,
-          "hasta": 600,
+          "hasta": 271,
           "nombre": "Latín",
           "familia": "latin",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Hasta que Aureliano retira la administración de Dacia (hacia 271); Moldavia nunca fue provincia romana."
         },
         {
           "desde": 106,
@@ -7001,6 +7237,38 @@
           "nombre": "Dacio",
           "familia": "tracio",
           "peso": "importante"
+        },
+        {
+          "desde": 271,
+          "hasta": 376,
+          "nombre": "Gótico",
+          "familia": "germanicas",
+          "peso": "importante",
+          "nota": "Lengua de los godos que dominan la región; casi no quedan textos fuera de la Biblia gótica, que se vincula con los godos de Mesia."
+        },
+        {
+          "desde": 376,
+          "hasta": 454,
+          "nombre": "Lengua de los hunos",
+          "familia": "sin-clasificar",
+          "peso": "importante",
+          "nota": "Solo se conservan nombres propios en fuentes griegas y latinas; no hay consenso sobre su clasificación."
+        },
+        {
+          "desde": 600,
+          "hasta": 900,
+          "nombre": "Eslavo",
+          "familia": "eslavas",
+          "peso": "importante",
+          "nota": "La presencia eslava al norte del Danubio está documentada (Jordanes hacia 551, Procopio); no se sabe qué proporción de la población hablaba cada lengua."
+        },
+        {
+          "desde": 600,
+          "hasta": 900,
+          "nombre": "Protorrumano (rumano común)",
+          "familia": "rumano",
+          "peso": "importante",
+          "nota": "Lengua romance reconstruida que hablaban los antepasados de los rumanos, entre los siglos VI-VII y X-XI. Su presencia al norte del Danubio se infiere y se discute: dónde se formó, al norte o al sur del Danubio, es incierto y la Oxford Guide to the Romance Languages (2016) dice que no se sabe; la eslava, en cambio, está documentada."
         },
         {
           "desde": 900,
@@ -7016,6 +7284,14 @@
           "familia": "eslavo-eclesiastico",
           "peso": "importante",
           "nota": "Los principados usaron el eslavo eclesiástico en la Iglesia y los documentos hasta el siglo XVII."
+        },
+        {
+          "desde": 271,
+          "hasta": 600,
+          "nombre": "Latín (población romanizada)",
+          "familia": "latin",
+          "peso": "minoritaria",
+          "nota": "Cuánta población romanizada siguió hablando latín al norte del Danubio tras 271 es el centro del debate sobre el origen de los rumanos (continuidad dacorromana frente a la teoría inmigracionista); la Cambridge History of the Romance Languages (2013) concluyó que los datos no alcanzan para decidirlo."
         }
       ],
       "demografia": [
@@ -8169,6 +8445,30 @@
       ],
       "religiones": [
         {
+          "desde": 500,
+          "hasta": 600,
+          "nombre": "Religión eslava (primeros testimonios)",
+          "familia": "paganismo-eslavo",
+          "peso": "importante",
+          "nota": "Procopio (hacia 550) dice que los eslavos veneraban a un dios del rayo como señor de todo. Antes no hay fuentes sobre las creencias de la región, ni de los godos de Cherniajov ni de los hunos; por eso 410-499 queda sin datos."
+        },
+        {
+          "desde": 500,
+          "hasta": 600,
+          "nombre": "Religión báltica",
+          "familia": "paganismo-baltico",
+          "peso": "importante",
+          "nota": "Los bálticos del Dniéper vivían en el bosque (Dnieper Balts); no hay fuentes de la época sobre sus creencias, y lo que se sabe de su religión es una inferencia a partir de testimonios posteriores."
+        },
+        {
+          "desde": 500,
+          "hasta": 600,
+          "nombre": "Religión de los pueblos fínicos",
+          "familia": "paganismo-finico",
+          "peso": "importante",
+          "nota": "Los pueblos finoúgrios del norte (cultura de Dyakovo) no dejaron textos; lo que se sabe de su religión es una inferencia a partir de testimonios posteriores."
+        },
+        {
           "desde": 600,
           "hasta": 988,
           "nombre": "Religión eslava",
@@ -8200,6 +8500,30 @@
       ],
       "culturas": [
         {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Eslava (cultura de Kiev, Penkovka y Praga-Korchak)",
+          "familia": "eslava",
+          "peso": "importante",
+          "nota": "De 410 a 500 lo eslavo se apoya en la cultura de Kiev (siglos III a V), la primera cultura arqueológica identificable como eslava; desde el siglo VI, en la de Penkovka, que se identifica con los antes, y en la de Praga-Korchak, con los esclavenos. Atribuir etnias a culturas arqueológicas se discute."
+        },
+        {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Báltica (bálticos del Dniéper)",
+          "familia": "baltica",
+          "peso": "importante",
+          "nota": "La zona del bosque era báltica (Dnieper Balts); la cultura de Kolochin se atribuye a bálticos o a eslavos."
+        },
+        {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Finoúgria (cultura de Dyakovo)",
+          "familia": "finesa",
+          "peso": "importante",
+          "nota": "La cultura de Dyakovo, de los ríos Moscova, Oka y Volga, es una de las más antiguas culturas finoúgrias conocidas; se discute cuánto pesó la influencia báltica."
+        },
+        {
           "desde": 600,
           "hasta": null,
           "nombre": "Eslava oriental",
@@ -8224,26 +8548,36 @@
       ],
       "idiomas": [
         {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Eslavo común (protoeslavo tardío)",
+          "familia": "eslavas",
+          "peso": "importante",
+          "nota": "Sin textos; lo que se sabe es reconstrucción y los nombres de antes y esclavenos de Jordanes y Procopio."
+        },
+        {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Lenguas bálticas",
+          "familia": "balticas",
+          "peso": "importante",
+          "nota": "Sin textos; se las infiere de nombres de ríos y de la cultura de Kolochin, que se atribuye a bálticos o a eslavos."
+        },
+        {
+          "desde": 410,
+          "hasta": 600,
+          "nombre": "Lenguas fínicas y finoúgrias",
+          "familia": "finicas",
+          "peso": "importante",
+          "nota": "Sin textos; asociadas a la cultura de Dyakovo, una de las más antiguas culturas finoúgrias conocidas."
+        },
+        {
           "desde": 600,
           "hasta": 1500,
           "nombre": "Eslavo oriental antiguo",
           "familia": "eslavo-oriental",
           "peso": "mayoritaria",
           "nota": "Los eslavos orientales se asientan en la región entre los siglos VI y VIII."
-        },
-        {
-          "desde": 1500,
-          "hasta": null,
-          "nombre": "Ruso, ucraniano y bielorruso",
-          "familia": "eslavas",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 988,
-          "hasta": null,
-          "nombre": "Eslavo eclesiástico (liturgia y letras)",
-          "familia": "eslavo-eclesiastico",
-          "peso": "importante"
         },
         {
           "desde": 862,
@@ -8261,11 +8595,25 @@
           "nota": "La Crónica de Néstor nombra a los chudes y a los ves (vepsios) en 862; vivían ahí desde mucho antes."
         },
         {
+          "desde": 988,
+          "hasta": null,
+          "nombre": "Eslavo eclesiástico (liturgia y letras)",
+          "familia": "eslavo-eclesiastico",
+          "peso": "importante"
+        },
+        {
           "desde": 1240,
           "hasta": null,
           "nombre": "Tártaro",
           "familia": "turcas",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1500,
+          "hasta": null,
+          "nombre": "Ruso, ucraniano y bielorruso",
+          "familia": "eslavas",
+          "peso": "mayoritaria"
         }
       ]
     },
@@ -9327,6 +9675,24 @@
           "resumen": "Pastores con carros de la Edad del Bronce temprana, que muchos investigadores vinculan con la expansión de las lenguas indoeuropeas."
         },
         {
+          "desde": -2600,
+          "hasta": -1900,
+          "nombre": "Cultura de las catacumbas, Poltavka y cerámica de cordones múltiples",
+          "resumen": "Tras Yamna, pastores de la cultura de las catacumbas (hacia 2500-1950 a. C.) y de la cultura Poltavka ocupan la estepa; a ellas se suma la cultura de la cerámica de cordones múltiples (Babyno); la ganadería con carros sigue siendo la base de su vida."
+        },
+        {
+          "desde": -1900,
+          "hasta": -1200,
+          "nombre": "Cultura srubna (de las cabañas de troncos)",
+          "resumen": "Sucesora de Yamna, de las catacumbas, de Poltavka y de Babyno, la cultura srubna (hacia 1900-1200 a. C.) entierra a sus muertos en cámaras de troncos bajo túmulos y se extiende de la Volga al Dniéper; suele asociársela con hablantes de lenguas iranias, algo que no se puede comprobar sin textos."
+        },
+        {
+          "desde": -1200,
+          "hasta": -700,
+          "nombre": "Fin de la Edad del Bronce y cimerios",
+          "resumen": "Según Heródoto (siglo V a. C.), los cimerios vivían en esta estepa y los escitas los desplazaron; los registros asirios, en cambio, los ubican al sur del Cáucaso. No se sabe qué cultura arqueológica les corresponde, y no dejaron escritos."
+        },
+        {
           "desde": -700,
           "hasta": -200,
           "nombre": "Escitas y colonias griegas",
@@ -9457,6 +9823,14 @@
         },
         {
           "desde": 375,
+          "hasta": 460,
+          "nombre": "Hunos",
+          "familia": "estepa-euroasiatica",
+          "peso": "mayoritaria",
+          "nota": "Llegan hacia 375 y dominan la estepa hasta la caída del imperio de Atila; su origen étnico se discute."
+        },
+        {
+          "desde": 460,
           "hasta": 1783,
           "nombre": "Pueblos túrquicos (jázaros, pechenegos, cumanos, tártaros)",
           "familia": "turca",
@@ -9501,6 +9875,14 @@
         },
         {
           "desde": 375,
+          "hasta": 460,
+          "nombre": "Lengua de los hunos",
+          "familia": "sin-clasificar",
+          "peso": "mayoritaria",
+          "nota": "Solo se conservan nombres propios en fuentes griegas y latinas; no hay consenso sobre su clasificación."
+        },
+        {
+          "desde": 460,
           "hasta": 1783,
           "nombre": "Lenguas túrquicas (jázaro, cumano, tártaro de Crimea)",
           "familia": "turcas",

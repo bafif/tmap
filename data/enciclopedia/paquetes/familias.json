@@ -2568,6 +2568,100 @@
         "es": "Religión tracia",
         "en": "Thracian religion"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-nubia-antigua",
+      "nombre": "Religión de la Nubia antigua",
+      "padre": null,
+      "color": "#b5894a",
+      "nota": "Cultos de Kerma, del Grupo C y del reino de Kush (Apedemak, Amesemi y otros), con influencias egipcias.",
+      "wikipedia": {
+        "en": "Kushite religion"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "nubia",
+      "nombre": "Nubia",
+      "padre": null,
+      "color": "#a0643c",
+      "nota": "Las poblaciones del valle del Nilo entre Asuán y el sur de Sudán, desde Kerma hasta el Sultanato de Sennar.",
+      "wikipedia": {
+        "es": "Nubios",
+        "en": "Nubians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "estepa-euroasiatica",
+      "nombre": "Nómadas de la estepa euroasiática",
+      "padre": null,
+      "color": "#8a7a4a",
+      "nota": "Pueblos ecuestres de la estepa (hunos, ávaros y otros) cuyo origen étnico y lingüístico se discute.",
+      "wikipedia": {
+        "en": "Eurasian nomads"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mesolitica-europea",
+      "nombre": "Mesolítica",
+      "padre": null,
+      "color": "#6f8f6a",
+      "nota": "Cazadores-recolectores de Europa después del fin de la última glaciación y antes de los primeros agricultores.",
+      "wikipedia": {
+        "es": "Mesolítico",
+        "en": "Mesolithic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nilosaharianas",
+      "nombre": "Lenguas nilosaharianas",
+      "padre": null,
+      "color": "#7a6a9a",
+      "nota": "Macrofamilia propuesta, discutida en su conjunto.",
+      "wikipedia": {
+        "es": "Lenguas nilo-saharianas",
+        "en": "Nilo-Saharan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nubio",
+      "nombre": "Lenguas nubias",
+      "padre": "nilosaharianas",
+      "color": "#8c7cb0",
+      "nota": "Nubio antiguo (escrito del siglo VIII al XV) y lenguas nubias modernas como el nobiin.",
+      "wikipedia": {
+        "es": "Lenguas nubias",
+        "en": "Nubian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "meroitico",
+      "nombre": "Meroítico",
+      "padre": null,
+      "color": "#9a7aa0",
+      "nota": "Lengua del reino de Meroe; su escritura se lee, pero la lengua se entiende poco. Se lo emparenta con las lenguas del este de Sudán, sin consenso.",
+      "wikipedia": {
+        "es": "Idioma meroítico",
+        "en": "Meroitic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sin-clasificar",
+      "nombre": "Lenguas sin clasificar",
+      "padre": null,
+      "color": "#888888",
+      "nota": "Lenguas atestiguadas de forma tan escasa (a veces solo en nombres propios) que no se pueden ubicar en una familia.",
+      "wikipedia": {
+        "es": "Lengua no clasificada",
+        "en": "Unclassified language"
+      }
     }
   ]
 }

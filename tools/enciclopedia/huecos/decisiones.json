@@ -4,6 +4,11 @@
     "motivo": "Getúlio Vargas es de la historia de Brasil, no de la Argentina de 1862 a 1914",
     "fecha": "2026-11-11"
   },
+  "candidato:argentina-1862-1912:personas:Q16864": {
+    "decision": "descartado",
+    "motivo": "Horacio Quiroga, uruguayo, su obra es literatura del siglo XX y no es del tema del paquete; su actuación argentina, en Misiones, tampoco.",
+    "fecha": "2026-11-11"
+  },
   "candidato:argentina-1862-1912:personas:Q2357083": {
     "decision": "descartado",
     "motivo": "José Patricio Guggiari fue presidente del Paraguay; el tema es la Argentina",
@@ -19,6 +24,11 @@
     "motivo": "Emílio Garrastazu Médici es de la historia de Brasil del siglo XX",
     "fecha": "2026-11-11"
   },
+  "candidato:argentina-1862-1912:personas:Q3021555": {
+    "decision": "descartado",
+    "motivo": "Delfina Bunge publicó sobre todo después de 1910 y su obra más conocida es posterior a 1914; dentro del período del paquete su actuación no tiene un hecho propio del tema.",
+    "fecha": "2026-11-11"
+  },
   "candidato:argentina-1862-1912:personas:Q356537": {
     "decision": "descartado",
     "motivo": "Joseph Kessel nació en la Argentina pero su obra es francesa y posterior a 1914",
@@ -32,6 +42,11 @@
   "candidato:argentina-1862-1912:personas:Q442829": {
     "decision": "descartado",
     "motivo": "Silvina Ocampo publica desde 1937, fuera del período del tema",
+    "fecha": "2026-11-11"
+  },
+  "candidato:argentina-1862-1912:personas:Q463299": {
+    "decision": "descartado",
+    "motivo": "Clorinda Matto de Turner fue una novelista peruana que se exilió en la Argentina en 1895; su obra y su actuación en 1862-1914 no son parte de los temas del paquete (la Generación del 80 ni el Estado argentino).",
     "fecha": "2026-11-11"
   },
   "candidato:argentina-1862-1912:personas:Q471250": {
@@ -54,6 +69,11 @@
     "motivo": "Walther Darré nació en Buenos Aires pero su actuación es en la Alemania nazi",
     "fecha": "2026-11-11"
   },
+  "candidato:argentina-1862-1912:personas:Q629931": {
+    "decision": "descartado",
+    "motivo": "Ricardo Güiraldes su obra (Don Segundo Sombra, 1926) es literatura del siglo XX y no es del tema del paquete.",
+    "fecha": "2026-11-11"
+  },
   "candidato:argentina-1862-1912:personas:Q728478": {
     "decision": "descartado",
     "motivo": "Baltasar Brum fue presidente de Uruguay; el tema es la Argentina",
@@ -67,6 +87,81 @@
   "candidato:argentina-1862-1912:personas:Q888098": {
     "decision": "descartado",
     "motivo": "Federico Chaves fue presidente del Paraguay; el tema es la Argentina",
+    "fecha": "2026-11-11"
+  },
+  "capa:alemania:religiones:-5500:-501": {
+    "decision": "sin-datos",
+    "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas y los germanos; la arqueología no permite nombrar una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:armenia:culturas:1921:2010": {
+    "decision": "descartado",
+    "motivo": "Las capas de Armenia llegan hasta 1920: después la parte turca de la meseta la pinta Anatolia, y Armenia, más chica, la taparía (el oriente de Turquía saldría armenio de 1921 a 2010). Queda pendiente una subregión para la República de Armenia.",
+    "fecha": "2026-11-11"
+  },
+  "capa:armenia:idiomas:1921:2010": {
+    "decision": "descartado",
+    "motivo": "Las capas de Armenia llegan hasta 1920: después la parte turca de la meseta la pinta Anatolia, y Armenia, más chica, la taparía (el oriente de Turquía saldría armenio de 1921 a 2010). Queda pendiente una subregión para la República de Armenia.",
+    "fecha": "2026-11-11"
+  },
+  "capa:armenia:religiones:1921:2010": {
+    "decision": "descartado",
+    "motivo": "Las capas de Armenia llegan hasta 1920: después la parte turca de la meseta la pinta Anatolia, y Armenia, más chica, la taparía (el oriente de Turquía saldría armenio de 1921 a 2010). Queda pendiente una subregión para la República de Armenia.",
+    "fecha": "2026-11-11"
+  },
+  "capa:bohemia:religiones:-5500:-451": {
+    "decision": "sin-datos",
+    "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas; la arqueología no permite nombrar una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:britania:religiones:-5500:-801": {
+    "decision": "sin-datos",
+    "motivo": "Prehistoria sin textos: Stonehenge y los túmulos muestran prácticas rituales, pero no qué se creía, y la primera religión documentada (celta) llega con fuentes romanas.",
+    "fecha": "2026-11-11"
+  },
+  "capa:francia:religiones:-5500:-601": {
+    "decision": "sin-datos",
+    "motivo": "Antes de la fundación de Masalia no hay fuentes escritas sobre la religión de la región; solo arqueología funeraria y megalitos, de la que no se puede deducir una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:hungria:religiones:-5500:-401": {
+    "decision": "sin-datos",
+    "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas; la arqueología no permite nombrar una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:iberia:religiones:-5500:-851": {
+    "decision": "sin-datos",
+    "motivo": "Antes de los fenicios no hay textos ni fuentes que digan qué religión practicaba la población de la Península; las tumbas y los megalitos no alcanzan para nombrar una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:irlanda:religiones:-5500:-501": {
+    "decision": "sin-datos",
+    "motivo": "Prehistoria sin textos: Newgrange y las tumbas de corredor muestran prácticas rituales, pero no qué se creía; no hay registro de una religión concreta.",
+    "fecha": "2026-11-11"
+  },
+  "capa:islandia:culturas:410:869": {
+    "decision": "descartado",
+    "motivo": "La isla no tuvo población estable hasta el asentamiento nórdico de 870; los ermitaños irlandeses que menciona Dicuil (825) y los hallazgos anteriores son discutidos y no dan una cultura.",
+    "fecha": "2026-11-11"
+  },
+  "capa:islandia:idiomas:410:869": {
+    "decision": "descartado",
+    "motivo": "La isla no tuvo población estable hasta el asentamiento nórdico de 870; los ermitaños irlandeses que menciona Dicuil (825) y los hallazgos anteriores son discutidos y no dan una lengua.",
+    "fecha": "2026-11-11"
+  },
+  "capa:islandia:religiones:410:869": {
+    "decision": "descartado",
+    "motivo": "La isla no tuvo población estable hasta el asentamiento nórdico de 870; los ermitaños irlandeses que menciona Dicuil (825) y los hallazgos anteriores son discutidos y no dan una religión.",
+    "fecha": "2026-11-11"
+  },
+  "capa:polonia:religiones:410:499": {
+    "decision": "sin-datos",
+    "motivo": "Es el período de las migraciones: la población de la región se conoce mal y la llegada de los eslavos se fecha desde el siglo V o el VI según los autores; no hay registro de qué religión predominaba.",
+    "fecha": "2026-11-11"
+  },
+  "capa:rus:religiones:410:499": {
+    "decision": "sin-datos",
+    "motivo": "Antes del siglo VI no hay fuentes sobre las creencias de la región, ni de los godos de Cherniajov ni de los hunos; Procopio (hacia 550) es el primero que describe a los eslavos.",
     "fecha": "2026-11-11"
   },
   "obra:Q1541:Q1051232": {
@@ -1132,6 +1227,16 @@
   "parte:Q551888:Q815143": {
     "decision": "descartado",
     "motivo": "los sitios de Alejandro Magno no son del tema",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q58947:Q2883152": {
+    "decision": "descartado",
+    "motivo": "La campaña de Pikysyry (agosto de 1868-enero de 1869) ya está cubierta por «campana-de-diciembre-y-lomas-valentinas» y «ocupacion-de-asuncion»; sus batallas de Itororó y Avay entran como fichas propias.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q58947:Q3651707": {
+    "decision": "descartado",
+    "motivo": "La campaña de Humaitá (1866-1868) ya está cubierta por la ficha «sitio-de-humaita», que abarca los mismos años, y por las de Tuyutí, Curupaytí y Curuzú.",
     "fecha": "2026-11-11"
   },
   "parte:Q6271:Q113317": {
