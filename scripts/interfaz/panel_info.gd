@@ -648,6 +648,9 @@ func _ficha_lugar(l: Dictionary) -> void:
 		if u > 0:
 			Estado.seleccionar_lugar(u, l["_px"]))
 	_contenido.add_child(ir)
+	var pid := Pleiades.de_lugar(str(l["id"]))
+	if pid >= 0:
+		_bloque_pleiades(pid, str(l.get("nombre", "")), false)
 	_bloque_wikipedia(l.get("wikipedia", {}))
 
 
@@ -669,6 +672,12 @@ func _ficha_pleiades(id: int) -> void:
 		Estado.fijar_anio(clampi(Estado.anio, Pleiades.desde[i], Pleiades.hasta[i]))
 		Estado.enfocar(Pleiades.px[i], maxf(CapaPleiades.ZOOM_NOMBRES, 4.5)))
 	_contenido.add_child(ir)
+	_bloque_pleiades(id, Pleiades.nombre(i), true)
+
+
+## Lo que se pide en vivo a Pleiades: descripción, nombres antiguos y, si `con_wikipedia`, el resumen de Wikipedia
+## que enlaza. Va en la ficha de un lugar de Pleiades y en la de un lugar de la enciclopedia unido a uno.
+func _bloque_pleiades(id: int, nombre: String, con_wikipedia: bool) -> void:
 	var token := _token
 	_seccion("Pleiades")
 	var caja := VBoxContainer.new()
@@ -682,7 +691,7 @@ func _ficha_pleiades(id: int) -> void:
 	if token != _token or not is_instance_valid(caja):
 		return
 	cargando.queue_free()
-	var credito := tr("De «[url=%s]%s[/url]», Pleiades (CC BY 3.0).") % [Pleiades.url(id), Pleiades.nombre(i)]
+	var credito := tr("De «[url=%s]%s[/url]», Pleiades (CC BY 3.0).") % [Pleiades.url(id), nombre]
 	var gris := TemaUI.color("texto_suave").to_html(false)
 	if d.is_empty():
 		var l := Label.new()
@@ -720,7 +729,7 @@ func _ficha_pleiades(id: int) -> void:
 	texto_ficha.text = "\n\n".join(partes)
 	texto_ficha.meta_clicked.connect(_al_click_meta)
 	caja.add_child(texto_ficha)
-	if str(d.get("wikipedia", "")) != "":
+	if con_wikipedia and str(d.get("wikipedia", "")) != "":
 		_bloque_wikipedia({"en": str(d["wikipedia"])})
 
 

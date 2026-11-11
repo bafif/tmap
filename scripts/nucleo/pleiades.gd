@@ -6,6 +6,9 @@ class_name Pleiades
 ## Se leen la primera vez que hacen falta (al acercarse al mapa con la capa encendida), no al arrancar.
 
 const ARCHIVO := "res://data/pleiades/lugares.json"
+## Lugares de la enciclopedia que son el mismo que uno de Pleiades (lo arma `tools/pleiades/enlazar.py`): su punto de
+## Pleiades no se dibuja ni se toca en el mapa, porque ya está la ciudad de la enciclopedia.
+const ARCHIVO_UNION := "res://data/pleiades/enciclopedia.json"
 ## Lado de la celda de la grilla, en píxeles del mapa (unos 3 grados).
 const CELDA := 64.0
 const NOMBRES_CATEGORIA := {
@@ -31,6 +34,10 @@ static var categorias: Array = []
 static var _por_celda := {}
 static var _por_id := {}
 static var _minusculas := PackedStringArray()
+## 1 si el lugar está unido a uno de la enciclopedia (no se dibuja en el mapa).
+static var unido := PackedByteArray()
+static var _de_lugar := {}
+static var _union_leida := false
 static var _cargado := false
 
 
@@ -65,7 +72,31 @@ static func cargar() -> void:
 		if not _por_celda.has(c):
 			_por_celda[c] = PackedInt32Array()
 		_por_celda[c].append(i)
+	unido.resize(n)
+	unido.fill(0)
+	for lugar in _union():
+		var k: int = _por_id.get(int(_de_lugar[lugar]), -1)
+		if k >= 0:
+			unido[k] = 1
 	print("Pleiades: %d lugares en %d ms" % [n, Time.get_ticks_msec() - t0])
+
+
+## Lugar de la enciclopedia → id de Pleiades. Se lee aparte (es chico): la ficha de un lugar lo consulta sin cargar
+## los 27 000 de Pleiades.
+static func _union() -> Dictionary:
+	if not _union_leida:
+		_union_leida = true
+		var ruta := Datos.ruta(ARCHIVO_UNION)
+		if FileAccess.file_exists(ruta):
+			var u: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
+			if u is Dictionary and u.get("lugares") is Dictionary:
+				_de_lugar = u["lugares"]
+	return _de_lugar
+
+
+## El id de Pleiades del lugar de la enciclopedia, o -1.
+static func de_lugar(id_lugar: String) -> int:
+	return int(_union().get(id_lugar, -1))
 
 
 static func cantidad() -> int:
@@ -86,7 +117,7 @@ static func en_rect(rect: Rect2, anio: int) -> PackedInt32Array:
 	for cx in range(a.x, b.x + 1):
 		for cy in range(a.y, b.y + 1):
 			for i in _por_celda.get(Vector2i(cx, cy), PackedInt32Array()):
-				if desde[i] <= anio and anio <= hasta[i] and rect.has_point(px[i]):
+				if desde[i] <= anio and anio <= hasta[i] and unido[i] == 0 and rect.has_point(px[i]):
 					out.append(i)
 	return out
 

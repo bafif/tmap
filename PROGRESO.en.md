@@ -125,10 +125,10 @@ Each step is done when its threshold is crossed, not before.
 
 ### Open data at scale (0.4)
 
-- [ ] **Pleiades and the encyclopedia, joined.** Today Rome or Athens show up twice: as an encyclopedia city and as a
-      Pleiades dot. A `pleiades` field in the encyclopedia's places (with its id, which many have in Wikidata as P1584)
-      would let us hide the duplicate dot and add Pleiades' ancient names to the entry.
-- [ ] **Pleiades: what's left.** The data is read on the main thread the first time it's needed (some 150 to 270 ms
+- [ ] **Pleiades: what's left.** 91 of the encyclopedia's 438 places are joined to a Pleiades place; the rest don't
+      have the identifier in Wikidata or are modern. When ancient places are added, `tools/pleiades/enlazar.py` has to
+      be run again (`validar.py` warns if the join names a place that no longer exists, but not if a new one is
+      missing). The data is read on the main thread the first time it's needed (some 150 to 270 ms
       when zooming into the map or searching for the first time): move it to a thread along with the packages, when
       that step is done. Pleiades' descriptions are in English. Left out are the 8,800 places without a location, the
       1,400 without dates and those that aren't a point (rivers, mountains, islands, regions, peoples, roads): rivers
@@ -173,6 +173,11 @@ Each step is done when its threshold is crossed, not before.
       years, and live (through the same queue as Wikipedia) its description, its ancient names in each language and
       the Wikipedia summary if Pleiades links one. They can be searched from the bar, there's a switch in the legend
       and credit in Settings and in [Data and licenses](docs/en/data.md). Tested with Vulkan and with OpenGL.
+- [x] **Pleiades and the encyclopedia, joined.** `tools/pleiades/enlazar.py` looks up in Wikidata the Pleiades
+      identifier (P1584) of each encyclopedia place, from its Wikipedia article, and accepts it if the point is within
+      25 km (`data/pleiades/enciclopedia.json`; the packages aren't touched). 91 were joined (León with the camp of
+      *Legio VII Gemina*, Mecca with *Macoraba*, Medina with *Iathrippa*): their Pleiades dot is no longer drawn on top
+      of the city, and the city's entry adds Pleiades' ancient names.
 
 ### November 11, 2026: places with dates and Wikipedia in a queue
 

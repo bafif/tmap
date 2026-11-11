@@ -288,6 +288,14 @@ def main():
             if not f.get("wikipedia"):
                 avisos.append(f"{d}: sin artículo de Wikipedia")
 
+    # La unión con Pleiades (tools/pleiades/enlazar.py) nombra lugares por id: si uno cambió, queda vieja.
+    union = RAIZ / "data" / "pleiades" / "enciclopedia.json"
+    if union.exists():
+        for i in json.loads(union.read_text(encoding="utf-8")).get("lugares", {}):
+            if i not in todo["lugares"]:
+                avisos.append(f"data/pleiades/enciclopedia.json: el lugar «{i}» ya no existe "
+                              "(corré python3 tools/pleiades/enlazar.py)")
+
     controlar_cobertura()
 
     print("Totales:", ", ".join(f"{s}: {len(todo[s])}" for s in SECCIONES),

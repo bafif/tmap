@@ -124,10 +124,10 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 ### Datos abiertos a escala (0.4)
 
-- [ ] **Pleiades y la enciclopedia, unidos.** Hoy Roma o Atenas aparecen dos veces: como ciudad de la enciclopedia y
-      como punto de Pleiades. Un campo `pleiades` en los lugares de la enciclopedia (con su id, que muchos tienen en
-      Wikidata como P1584) dejaría esconder el punto repetido y sumar a la ficha los nombres antiguos de Pleiades.
-- [ ] **Pleiades: lo que falta.** Los datos se leen en el hilo principal la primera vez que hace falta (unos 150 a
+- [ ] **Pleiades: lo que falta.** 91 de los 438 lugares de la enciclopedia están unidos a uno de Pleiades; el resto
+      no tiene el identificador en Wikidata o es moderno. Cuando se suman lugares antiguos, hay que volver a correr
+      `tools/pleiades/enlazar.py` (`validar.py` avisa si la unión nombra un lugar que ya no existe, pero no si falta
+      uno nuevo). Los datos se leen en el hilo principal la primera vez que hace falta (unos 150 a
       270 ms al acercarse al mapa o al buscar por primera vez): pasarlos a un hilo con los paquetes, cuando se haga ese
       paso. Las descripciones de Pleiades están en inglés. Quedan afuera los 8800 lugares sin ubicación, los 1400 sin
       fechas y los que no son un punto (ríos, montes, islas, regiones, pueblos, rutas): los ríos y las rutas podrían
@@ -172,6 +172,11 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       tiene ficha: categoría, años, y en vivo (por la misma cola que Wikipedia) su descripción, sus nombres antiguos
       en cada lengua y el resumen de Wikipedia si Pleiades lo enlaza. Se buscan desde la barra, hay interruptor en la
       leyenda y crédito en Ajustes y en [Datos y licencias](docs/es/datos.md). Probado con Vulkan y con OpenGL.
+- [x] **Pleiades y la enciclopedia, unidos.** `tools/pleiades/enlazar.py` busca en Wikidata el identificador de
+      Pleiades (P1584) de cada lugar de la enciclopedia, a partir de su artículo de Wikipedia, y lo acepta si el punto
+      queda a menos de 25 km (`data/pleiades/enciclopedia.json`; los paquetes no se tocan). Quedaron 91 unidos (León
+      con el campamento de la *Legio VII Gemina*, La Meca con *Macoraba*, Medina con *Iathrippa*): su punto de
+      Pleiades ya no se dibuja encima de la ciudad, y la ficha de la ciudad suma los nombres antiguos de Pleiades.
 
 ### 11 de noviembre de 2026: lugares con fecha y Wikipedia en cola
 

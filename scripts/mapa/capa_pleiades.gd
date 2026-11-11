@@ -63,7 +63,8 @@ func _armar() -> void:
 		buf[o + 9] = c.g
 		buf[o + 10] = c.b
 		buf[o + 11] = 1.0
-		buf[o + 12] = Pleiades.desde[i]
+		# Los unidos a un lugar de la enciclopedia no se dibujan: un rango vacío los deja siempre afuera.
+		buf[o + 12] = Pleiades.desde[i] if Pleiades.unido[i] == 0 else 1.0e6
 		buf[o + 13] = Pleiades.hasta[i]
 	mm.buffer = buf
 	_material = ShaderMaterial.new()
