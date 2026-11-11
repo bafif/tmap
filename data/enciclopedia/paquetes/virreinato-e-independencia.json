@@ -2424,6 +2424,46 @@
         "en": "Gregorio Funes"
       },
       "confianza": "media"
+    },
+    {
+      "id": "decreto-de-guerra-a-muerte",
+      "titulo": "Decreto de Guerra a Muerte",
+      "titulo_original": null,
+      "autor": "Simón Bolívar",
+      "autor_id": "simon-bolivar",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1813,
+        "aprox": false,
+        "lugar": "Trujillo (Venezuela)",
+        "lon": -70.433,
+        "lat": 9.367
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1813,
+        "hasta": 1813
+      },
+      "idioma_original": "Español",
+      "soporte": "Decreto",
+      "resumen": "Proclama dictada por Bolívar el 15 de junio de 1813 en Trujillo, durante la Campaña Admirable, tras la caída de la primera república venezolana. Dispone que los españoles y canarios que no colaboren activamente con la independencia serán muertos y que los americanos serán perdonados, aun si sirvieron a las autoridades españolas; justifica la medida por los crímenes de las tropas realistas.",
+      "por_que_importa": "La guerra a muerte se practicó en ambos bandos: en febrero de 1814 se fusiló a prisioneros españoles en Caracas y La Guaira por orden de Bolívar, y los realistas de Morillo ejecutaron a patriotas de la Nueva Granada en 1815-1817. Rigió hasta el tratado de regularización de la guerra de noviembre de 1820.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Decreto_de_guerra_a_muerte",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Decreto de Guerra a Muerte",
+        "en": "Decree of War to the Death"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -6079,7 +6119,8 @@
       ],
       "resumen": "Jefe de la independencia de Venezuela y la Nueva Granada y presidente de la Gran Colombia. Se entrevistó con San Martín en Guayaquil en 1822 y terminó la guerra en el Perú, donde su lugarteniente Sucre venció en Ayacucho (1824).",
       "obras": [
-        "carta-de-jamaica"
+        "carta-de-jamaica",
+        "decreto-de-guerra-a-muerte"
       ],
       "wikipedia": {
         "es": "Simón Bolívar",
@@ -6161,6 +6202,821 @@
         "en": "Juan Pedro Aguirre"
       },
       "wikidata": "Q2509053"
+    },
+    {
+      "id": "maria-antonia-de-paz-y-figueroa",
+      "nombre": "María Antonia de Paz y Figueroa (Mama Antula)",
+      "nacimiento": {
+        "anio": 1730,
+        "aprox": false,
+        "lugar": "Villa Silípica",
+        "lon": -64.147,
+        "lat": -28.108
+      },
+      "muerte": {
+        "anio": 1799,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1779,
+        "hasta": 1799,
+        "aprox": false
+      },
+      "roles": [
+        "religiosa"
+      ],
+      "resumen": "Laica consagrada de Santiago del Estero que, tras la expulsión de los jesuitas en 1767, siguió organizando los ejercicios espirituales ignacianos. Recorrió las actuales provincias del noroeste y Córdoba y llegó a Buenos Aires en 1779, donde el virrey Vértiz se opuso a que abriera una casa de ejercicios y el obispo Malvar y Pinto desconfió al principio; desde 1780 dio ejercicios a miles de personas, con el obispo luego como admirador. Desde 1793 impulsó la construcción de la Santa Casa de Ejercicios de la calle Independencia y murió el 7 de marzo de 1799 sin verla concluida. La Iglesia católica la canonizó en 2024.",
+      "obras": [],
+      "wikipedia": {
+        "es": "María Antonia de Paz y Figueroa",
+        "en": "María Antonia de Paz y Figueroa"
+      },
+      "wikidata": "Q6003369"
+    },
+    {
+      "id": "haenke",
+      "nombre": "Tadeo Haenke (Thaddäus Haenke)",
+      "nacimiento": {
+        "anio": 1761,
+        "aprox": false,
+        "lugar": "Chřibská",
+        "lon": 14.483,
+        "lat": 50.863
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": true,
+        "lugar": "Cochabamba",
+        "lon": -66.157,
+        "lat": -17.394
+      },
+      "activo": {
+        "lugar": "Cochabamba",
+        "lon": -66.157,
+        "lat": -17.394,
+        "desde": 1795,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "naturalista",
+        "botánico",
+        "médico"
+      ],
+      "resumen": "Naturalista bohemio de la expedición Malaspina. En 1789-1790 cruzó las pampas y los Andes de Buenos Aires a Chile para alcanzarla; en 1793 dejó la expedición en el Callao y desde mediados de la década de 1790 vivió en Cochabamba, donde estudió la flora y la minería del Alto Perú y ejerció la medicina. Murió en 1816 o 1817 según la fuente; sus colecciones se publicaron en Praga, en las Reliquiae Haenkeanae (1825-1835).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Thaddeus Peregrinus Haenke",
+        "en": "Thaddäus Haenke"
+      },
+      "wikidata": "Q79107"
+    },
+    {
+      "id": "tagle",
+      "nombre": "José Bernardo de Tagle, marqués de Torre Tagle",
+      "nacimiento": {
+        "anio": 1779,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "muerte": {
+        "anio": 1825,
+        "aprox": false,
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1822,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Aristócrata limeño, alcalde de Lima en 1811-1812 y diputado a las Cortes de Cádiz. Como intendente de Trujillo proclamó la independencia de esa ciudad a fines de diciembre de 1820 y se sumó a San Martín; fue delegado supremo del Perú en 1822 y presidente en 1823-1824. Tras la sublevación de la guarnición del Callao (5 de febrero de 1824), Bolívar creyó que estaba comprometido y ordenó capturarlo; al ocupar Lima el realista Monet (29 de febrero de 1824) se le entregó y el 6 de marzo publicó un manifiesto en que se declaraba súbdito del rey de España. Se refugió en el Real Felipe del Callao y murió de escorbuto durante el sitio, el 26 de septiembre de 1825. Riva-Agüero y Osma lo juzga «más para compadecido que para execrado».",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Bernardo de Tagle",
+        "en": "José Bernardo de Tagle y Portocarrero, 4th Marquess of Torre Tagle"
+      },
+      "wikidata": "Q887033"
+    },
+    {
+      "id": "luna-pizarro",
+      "nombre": "Francisco Javier de Luna Pizarro",
+      "nacimiento": {
+        "anio": 1780,
+        "aprox": false,
+        "lugar": "Arequipa",
+        "lon": -71.537,
+        "lat": -16.399
+      },
+      "muerte": {
+        "anio": 1855,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1812,
+        "hasta": 1823,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "político",
+        "abogado"
+      ],
+      "resumen": "Sacerdote y abogado arequipeño. Presenció en España la resistencia a Napoleón y asistió a las sesiones de las Cortes de Cádiz; de vuelta en Lima fue secretario del cabildo eclesiástico hasta 1822 y rector del Colegio de Medicina de San Fernando. Elegido diputado, presidió el primer mes del primer Congreso Constituyente del Perú (20 de septiembre al 20 de octubre de 1822) e integró la comisión de las bases de la Constitución de 1823.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Xavier de Luna Pizarro",
+        "en": "Francisco Xavier de Luna Pizarro"
+      },
+      "wikidata": "Q2219923"
+    },
+    {
+      "id": "gamarra",
+      "nombre": "Agustín Gamarra",
+      "nacimiento": {
+        "anio": 1785,
+        "aprox": false,
+        "lugar": "Cusco",
+        "lon": -71.979,
+        "lat": -13.517
+      },
+      "muerte": {
+        "anio": 1841,
+        "aprox": false,
+        "lugar": "Ingavi (cerca de Viacha)",
+        "lon": -68.331,
+        "lat": -16.757
+      },
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1809,
+        "hasta": 1825,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Cuzqueño de padre español y madre indígena. Entre 1809 y 1820 sirvió en el ejército realista: combatió en el Alto Perú en Guaqui, Tucumán, Salta, Vilcapugio y Ayohuma, y en la represión de la rebelión del Cuzco de 1814-1815. Acusado de conspirar, fue llevado a Lima en 1820 y en enero de 1821 se pasó a San Martín; fue jefe de Estado Mayor en Ayacucho (1824). Fue presidente del Perú en 1829-1833 y 1839-1841, y murió en la batalla de Ingavi (1841), cerca de Viacha, en La Paz, durante su invasión de Bolivia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Agustín Gamarra",
+        "en": "Agustín Gamarra"
+      },
+      "wikidata": "Q379638"
+    },
+    {
+      "id": "lastra",
+      "nombre": "Francisco de la Lastra",
+      "nacimiento": {
+        "anio": 1777,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1852,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1811,
+        "hasta": 1814,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Oficial de la Armada nacido en Santiago, diputado en 1811 y gobernador de Valparaíso. La junta de gobierno lo nombró director supremo de Chile el 7 de marzo de 1814 y asumió el 14; en su gobierno se firmó el tratado de Lircay con los realistas, y Carrera lo derrocó el 23 de julio. Los realistas lo confinaron en las islas Juan Fernández después de Rancagua; volvió tras Chacabuco.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de la Lastra",
+        "en": "Francisco de la Lastra"
+      },
+      "wikidata": "Q322743"
+    },
+    {
+      "id": "irisarri",
+      "nombre": "Antonio José de Irisarri",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642
+      },
+      "muerte": {
+        "anio": 1868,
+        "aprox": false,
+        "lugar": "Brooklyn",
+        "lon": -73.95,
+        "lat": 40.651
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1811,
+        "hasta": 1818,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "periodista",
+        "diplomático"
+      ],
+      "resumen": "Guatemalteco radicado en Chile desde 1809, redactor de periódicos patriotas (El Semanario Republicano, El Monitor Americano) y regidor de Santiago. Ejerció interinamente la dirección suprema entre el 7 y el 14 de marzo de 1814, hasta que asumió Lastra. Fue canciller de O'Higgins desde 1818 y negoció en Londres el primer empréstito de Chile.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio José de Irisarri",
+        "en": "Antonio José de Irisarri"
+      },
+      "wikidata": "Q602627"
+    },
+    {
+      "id": "luis-de-la-cruz",
+      "nombre": "Luis de la Cruz",
+      "nacimiento": {
+        "anio": 1768,
+        "aprox": false,
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827
+      },
+      "muerte": {
+        "anio": 1828,
+        "aprox": false,
+        "lugar": "Rancagua",
+        "lon": -70.74,
+        "lat": -34.165
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1811,
+        "hasta": 1822,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político",
+        "explorador"
+      ],
+      "resumen": "Concepcionero, alcalde de su ciudad. En 1806 recorrió, con pehuenches y ranqueles, el camino de Chile a Buenos Aires que describe su diario (ver «Viaje desde el fuerte de Ballenar»). Diputado en 1811, fue preso por los realistas después de Rancagua y liberado tras Chacabuco. Integró la Junta Suprema Delegada que el 13 de noviembre de 1817 firmó el decreto del plebiscito de la independencia; desde enero de 1818 fue director supremo delegado y, como tal, juró la independencia en Santiago el 12 de febrero de 1818. En 1821-1822 sirvió en la expedición al Perú.",
+      "obras": [
+        "diario-de-luis-de-la-cruz"
+      ],
+      "wikipedia": {
+        "es": "Luis de la Cruz",
+        "en": "Luis de la Cruz (politician)"
+      },
+      "wikidata": "Q9025015"
+    },
+    {
+      "id": "freire",
+      "nombre": "Ramón Freire",
+      "nacimiento": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1851,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1811,
+        "hasta": 1826,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Oficial chileno de la guerra de independencia: peleó en la Patria Vieja, se sumó en 1816 al Ejército de los Andes, combatió en Maipú y fue intendente de Concepción (1819-1823). En 1823 encabezó la presión que llevó a O'Higgins a renunciar y fue director supremo desde el 4 de abril de 1823 hasta julio de 1826; en su gobierno se abolió la esclavitud y las fuerzas chilenas tomaron Chiloé en enero de 1826, el último territorio español en Chile.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ramón Freire",
+        "en": "Ramón Freire"
+      },
+      "wikidata": "Q1332"
+    },
+    {
+      "id": "jauregui",
+      "nombre": "Agustín de Jáuregui",
+      "nacimiento": {
+        "anio": 1711,
+        "aprox": false,
+        "lugar": "Lecároz",
+        "lon": -1.54,
+        "lat": 43.146
+      },
+      "muerte": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1773,
+        "hasta": 1780,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador",
+        "virrey"
+      ],
+      "resumen": "Militar navarro nombrado en 1772 gobernador y capitán general de Chile, cargo que ejerció hasta 1780: levantó el primer censo, abrió el correo terrestre y vio pasar Cuyo al nuevo virreinato del Río de la Plata en 1776. Virrey del Perú de 1780 a 1784, le tocó la rebelión de Túpac Amaru II, cuyo jefe fue capturado en 1781 y ejecutado en el Cuzco.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Agustín de Jáuregui",
+        "en": "Agustín de Jáuregui"
+      },
+      "wikidata": "Q399516"
+    },
+    {
+      "id": "benavides",
+      "nombre": "Ambrosio de Benavides",
+      "nacimiento": {
+        "anio": 1718,
+        "aprox": false,
+        "lugar": "Granada",
+        "lon": -3.6,
+        "lat": 37.175
+      },
+      "muerte": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Cauquenes (probablemente los Baños de Cauquenes, cerca de Rancagua)"
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1780,
+        "hasta": 1787,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Militar granadino, gobernador de Puerto Rico y de Charcas, que fue capitán general de Chile desde diciembre de 1780 hasta su muerte en 1787. Enfrentó la conspiración de los tres Antonios, vio crear en 1786 las intendencias de Santiago y Concepción, y bajo su gobierno Joaquín Toesca empezó las obras de La Moneda.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ambrosio de Benavides Medina",
+        "en": "Ambrosio de Benavides"
+      },
+      "wikidata": "Q459536"
+    },
+    {
+      "id": "ambrosio-ohiggins",
+      "nombre": "Ambrosio O'Higgins, marqués de Osorno",
+      "nacimiento": {
+        "anio": 1720,
+        "aprox": true,
+        "lugar": "Ballenary",
+        "lon": -8.307,
+        "lat": 54.066
+      },
+      "muerte": {
+        "anio": 1801,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1788,
+        "hasta": 1796,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador",
+        "virrey"
+      ],
+      "resumen": "Irlandés al servicio de España: llegó a Cádiz en 1751 y a Chile por Buenos Aires. En la década de 1760 diseñó las casuchas del Rey, refugios del camino de Uspallata entre Mendoza y Santiago, y organizó el correo andino. Intendente de Concepción en 1786, fue capitán general de Chile de 1788 a 1796, con parlamentos con los mapuches (Negrete, 1793), nuevas villas y el camino a Valparaíso; después fue virrey del Perú hasta su muerte en 1801. Padre de Bernardo O'Higgins.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ambrosio O'Higgins",
+        "en": "Ambrosio O'Higgins, 1st Marquess of Osorno"
+      },
+      "wikidata": "Q1388469"
+    },
+    {
+      "id": "castilla",
+      "nombre": "Ramón Castilla",
+      "nacimiento": {
+        "anio": 1797,
+        "aprox": false,
+        "lugar": "San Lorenzo de Tarapacá",
+        "lon": -69.511,
+        "lat": -19.924
+      },
+      "muerte": {
+        "anio": 1867,
+        "aprox": false,
+        "lugar": "Tiliviche",
+        "lon": -69.945,
+        "lat": -19.551
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1821,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Nacido en Tarapacá, empezó en el ejército realista y combatió en Chacabuco (12 de febrero de 1817), donde fue capturado; llevado a Buenos Aires, obtuvo permiso para salir del país y volvió al Perú. Hacia 1821-1822 se pasó a San Martín, sirvió en la caballería de la Legión Peruana y combatió en Ayacucho (1824). Fue presidente del Perú en 1845-1851 y 1855-1862.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ramón Castilla",
+        "en": "Ramón Castilla"
+      },
+      "wikidata": "Q1763351"
+    },
+    {
+      "id": "figuerola",
+      "nombre": "Justo Figuerola",
+      "nacimiento": {
+        "anio": 1771,
+        "aprox": false,
+        "lugar": "Lambayeque",
+        "lon": -79.9,
+        "lat": -6.7
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1821,
+        "hasta": 1823,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "político",
+        "magistrado"
+      ],
+      "resumen": "Abogado y catedrático de San Marcos nacido en Lambayeque. Fue uno de los primeros en firmar el Acta de la Independencia del Perú, el 15 de julio de 1821; diputado por Trujillo en el primer Congreso Constituyente de 1822, presidió el Congreso en 1823 y se negó a seguir a Riva-Agüero cuando este lo disolvió. Fue presidente interino del Perú en 1843 y 1844.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Justo Figuerola",
+        "en": "Justo Figuerola"
+      },
+      "wikidata": "Q2004223"
+    },
+    {
+      "id": "bermudez",
+      "nombre": "Pedro Pablo Bermúdez",
+      "nacimiento": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Tarma"
+      },
+      "muerte": {
+        "anio": 1852,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1820,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Oficial nacido en Tarma que se sumó al Ejército Libertador de San Martín en Pisco. Combatió en Cerro de Pasco con Arenales (6 de diciembre de 1820), en La Macacona (1822), en Junín (6 de agosto de 1824) y en Ayacucho. Después fue ministro de Guerra de Gamarra y, en 1834, se proclamó jefe supremo contra el presidente Orbegoso.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Pablo Bermúdez Ascarza",
+        "en": "Pedro Pablo Bermúdez"
+      },
+      "wikidata": "Q2117884"
+    },
+    {
+      "id": "nieto",
+      "nombre": "Domingo Nieto",
+      "nacimiento": {
+        "anio": 1803,
+        "aprox": false,
+        "lugar": "Ilo",
+        "lon": -71.331,
+        "lat": -17.649
+      },
+      "muerte": {
+        "anio": 1844,
+        "aprox": false,
+        "lugar": "Cusco",
+        "lon": -71.979,
+        "lat": -13.517
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1821,
+        "hasta": 1825,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Moqueguano que se sumó en mayo de 1821 a la vanguardia del Ejército Libertador de Miller y combatió en Mirave (22 de mayo de 1821), en Torata y Moquegua (enero de 1823), en Junín y en Ayacucho, y en la toma de Potosí (1825). Luego actuó en las guerras civiles de la república, siempre del lado de la autoridad legal, y fue jefe de Estado provisorio del Perú en 1843-1844.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Domingo Nieto",
+        "en": "Domingo Nieto"
+      },
+      "wikidata": "Q2021551"
+    },
+    {
+      "id": "san-roman",
+      "nombre": "Miguel de San Román",
+      "nacimiento": {
+        "anio": 1802,
+        "aprox": false,
+        "lugar": "Puno",
+        "lon": -70.024,
+        "lat": -15.843
+      },
+      "muerte": {
+        "anio": 1863,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1821,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Puneño cuyo padre fue fusilado en 1815 por su participación en el levantamiento de Pumacahua. Sirvió en el ejército realista y desertó a las filas patriotas de Miller; combatió en Mirave (22 de mayo de 1821), en La Macacona (1822), en Junín y en Ayacucho. Fue presidente del Perú en 1862-1863.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Miguel de San Román",
+        "en": "Miguel de San Román"
+      },
+      "wikidata": "Q2321129"
+    },
+    {
+      "id": "orbegoso",
+      "nombre": "Luis José de Orbegoso",
+      "nacimiento": {
+        "anio": 1795,
+        "aprox": false,
+        "lugar": "Usquil"
+      },
+      "muerte": {
+        "anio": 1847,
+        "aprox": false,
+        "lugar": "Trujillo (Perú)",
+        "lon": -79.029,
+        "lat": -8.112
+      },
+      "activo": {
+        "lugar": "Trujillo (Perú)",
+        "lon": -79.029,
+        "lat": -8.112,
+        "desde": 1820,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Hacendado y oficial de milicias de Trujillo, capitán en 1820, que respaldó la proclamación de la independencia de Trujillo hecha por Torre Tagle el 29 de diciembre de 1820. Bolívar lo nombró prefecto del departamento de La Libertad el 2 de septiembre de 1824 y en esa función reunió recursos para la campaña final. Fue presidente provisorio del Perú entre 1833 y 1836.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis José de Orbegoso",
+        "en": "Luis José de Orbegoso"
+      },
+      "wikidata": "Q280256"
+    },
+    {
+      "id": "marieluz",
+      "nombre": "Pedro Marieluz Garcés",
+      "nacimiento": {
+        "anio": 1780,
+        "aprox": false,
+        "lugar": "Tarma",
+        "lon": -75.683,
+        "lat": -11.417
+      },
+      "muerte": {
+        "anio": 1825,
+        "aprox": false,
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052
+      },
+      "activo": {
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052,
+        "desde": 1824,
+        "hasta": 1825,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "capellán militar"
+      ],
+      "resumen": "Sacerdote camiliano nacido en Tarma, capellán de las tropas realistas del brigadier Rodil. Tras Ayacucho quedó en la fortaleza del Real Felipe, sitiada en el segundo sitio del Callao, y el 23 de septiembre de 1825 Rodil lo mandó fusilar por negarse a revelar lo oído en confesión a los conspiradores ejecutados ese día. La Iglesia católica lo venera como mártir del secreto de confesión.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Marieluz Garcés",
+        "en": "Pedro Marieluz Garces"
+      },
+      "wikidata": "Q14654109"
+    },
+    {
+      "id": "juan-bautista-azopardo",
+      "nombre": "Juan Bautista Azopardo",
+      "nacimiento": {
+        "anio": 1772,
+        "aprox": false,
+        "lugar": "Senglea",
+        "lon": 14.517,
+        "lat": 35.888
+      },
+      "muerte": {
+        "anio": 1848,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1810,
+        "hasta": 1811,
+        "aprox": false
+      },
+      "roles": [
+        "marino",
+        "corsario",
+        "militar"
+      ],
+      "resumen": "Marino y corsario maltés que sirvió a Holanda, España y luego a la Junta de Buenos Aires, de la que recibió a fines de 1810 el mando de la primera escuadra, y a quien se considera el primer jefe de una fuerza naval argentina. Herido y prisionero en el combate de San Nicolás (2 de marzo de 1811), estuvo preso en Cádiz y en Ceuta hasta el Trienio Liberal y volvió al Río de la Plata. Su nacimiento figura en 1770 en el artículo en español y en 1772 en el inglés y en Wikidata.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Bautista Azopardo",
+        "en": "Juan Bautista Azopardo"
+      },
+      "wikidata": "Q3805864"
+    },
+    {
+      "id": "pedro-juan-caballero",
+      "nombre": "Pedro Juan Caballero",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Tobatí",
+        "lon": -57.081,
+        "lat": -25.26
+      },
+      "muerte": {
+        "anio": 1821,
+        "aprox": false,
+        "lugar": "Asunción",
+        "lon": -57.634,
+        "lat": -25.28
+      },
+      "activo": {
+        "lugar": "Asunción",
+        "lon": -57.6359,
+        "lat": -25.2867,
+        "desde": 1811,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Militar paraguayo, capitán de urbanos, que participó en las batallas de Paraguarí y Tacuarí contra la expedición de Belgrano y fue uno de los conjurados del 14 de mayo de 1811 contra el gobernador Bernardo de Velasco. Acusado de intervenir en la conspiración de 1820 contra Francia, se suicidó en su celda el 13 de julio de 1821, según los artículos en español e inglés. La ciudad capital del departamento de Amambay lleva su nombre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Juan Caballero (militar)",
+        "en": "Pedro Juan Caballero"
+      },
+      "wikidata": "Q2423126"
+    },
+    {
+      "id": "bartolome-hidalgo",
+      "nombre": "Bartolomé Hidalgo",
+      "nacimiento": {
+        "anio": 1788,
+        "aprox": false,
+        "lugar": "Montevideo",
+        "lon": -56.191,
+        "lat": -34.906
+      },
+      "muerte": {
+        "anio": 1822,
+        "aprox": false,
+        "lugar": "Morón",
+        "lon": -58.617,
+        "lat": -34.65
+      },
+      "activo": {
+        "lugar": "Montevideo",
+        "lon": -56.1645,
+        "lat": -34.9011,
+        "desde": 1811,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta oriental, con Hilario Ascasubi uno de los iniciadores de la poesía gauchesca. Se sumó a la revolución en 1811, compuso entonces su Marcha Nacional Oriental y fue ministro interino de Hacienda con Fernando Otorgués; después de la invasión luso-brasileña vivió en Buenos Aires, donde escribió los Cielitos y Diálogos patrióticos, su obra más importante. En Uruguay se lo considera el primer poeta que cantó a la patria, y su natalicio, el 24 de agosto, es el Día Nacional del Payador.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bartolomé Hidalgo",
+        "en": "Bartolomé Hidalgo"
+      },
+      "wikidata": "Q809535"
     }
   ],
   "hechos": [
@@ -8935,6 +9791,132 @@
       "wikipedia": {
         "es": "Guerra de Independencia de Ecuador",
         "en": "Ecuadorian War of Independence"
+      }
+    },
+    {
+      "id": "guerra-anglo-espanola-1779",
+      "titulo": "Guerra anglo-española de 1779-1783",
+      "anio": 1779,
+      "anio_hasta": 1783,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "batalla",
+      "resumen": "España, aliada de Francia, entró en la guerra de Independencia de los Estados Unidos con el Tratado de Aranjuez (abril de 1779), sin alianza formal con los estadounidenses. Buscaba recuperar Gibraltar y Menorca: el sitio de Gibraltar (1779-1783) fracasó, Menorca fue reconquistada en 1781 y Bernardo de Gálvez tomó Pensacola ese año. Por el Tratado de París (1783) España conservó Menorca y la Florida Occidental y recuperó la Florida Oriental. Antes de la guerra, los tratados de San Ildefonso (1777) y de El Pardo (1778) le habían dado la Banda Oriental y Guinea Española, que se administró desde Buenos Aires entre 1778 y 1810.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra anglo-española (1779-1783)",
+        "en": "Spain and the American Revolutionary War"
+      }
+    },
+    {
+      "id": "guerra-anglo-espanola-1796",
+      "titulo": "Guerra anglo-española de 1796-1802 y 1804-1808",
+      "anio": 1796,
+      "anio_hasta": 1808,
+      "aprox": false,
+      "lugar": "Cádiz",
+      "lon": -6.298,
+      "lat": 36.535,
+      "tipo": "batalla",
+      "resumen": "España, aliada de Francia desde el segundo tratado de San Ildefonso (1796), combatió a Gran Bretaña hasta la paz de Amiens (1802) y de nuevo desde diciembre de 1804, con Trafalgar (1805) y las invasiones inglesas al Río de la Plata (1806-1807) en medio. El bloqueo británico cortó el comercio con las colonias; en 1797, por orden de Carlos IV, el virrey Olaguer Feliú autorizó el comercio con países neutrales (ver «Virreinato de Antonio Olaguer Feliú»). La guerra terminó de hecho con la invasión napoleónica de 1808, cuando Gran Bretaña pasó a ser aliada de España.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata",
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra anglo-española (1796-1802)",
+        "en": "Anglo-Spanish War (1796–1808)"
+      }
+    },
+    {
+      "id": "decada-ominosa",
+      "titulo": "Década Ominosa en España",
+      "anio": 1823,
+      "anio_hasta": 1833,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "politico",
+      "resumen": "Tras la invasión francesa de los Cien Mil Hijos de San Luis (abril de 1823) y el fin del Trienio Liberal, Fernando VII recuperó el poder absoluto el 1 de octubre de 1823, derogó lo hecho en el Trienio y reprimió a los liberales; Riego fue ahorcado el 7 de noviembre. En los Andes, Olañeta se alzó en el Alto Perú en enero de 1824 en nombre del absolutismo restaurado contra el virrey La Serna, constitucionalista, y dividió al ejército realista antes de Junín y Ayacucho. Perdidas las colonias continentales tras Ayacucho, el gobierno intentó recuperar Nueva España con la expedición Barradas, que desembarcó en Tampico en 1829 y fracasó.",
+      "regiones": [
+        "iberia",
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Década Ominosa",
+        "en": "Ominous Decade"
+      }
+    },
+    {
+      "id": "expedicion-de-morillo-1815",
+      "titulo": "Expedición pacificadora de Morillo",
+      "anio": 1815,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cádiz",
+      "lon": -6.298,
+      "lat": 36.535,
+      "tipo": "batalla",
+      "resumen": "Una expedición de unos 65 buques y 10.600 soldados de línea (unos 15.000 hombres en total) al mando de Pablo Morillo salió de Cádiz el 15 de febrero de 1815 (el 17, según otra fuente). Estaba destinada a Montevideo y al Río de la Plata; Morillo fue informado en secreto del cambio de destino en noviembre de 1814 y a la tropa se le dijo en alta mar, el 25 de febrero de 1815. El cambio se explica por la revolución del Cuzco, la derrota naval realista de 1814, la caída de Montevideo y la alarma por la guerra a muerte en Costa Firme; la expedición fue a Venezuela y Nueva Granada, y Buenos Aires, sin saberlo, se preparó para defenderse.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata",
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Pablo Morillo",
+        "en": "Pablo Morillo"
+      }
+    },
+    {
+      "id": "conspiracion-de-los-tres-antonios",
+      "titulo": "Conspiración de los tres Antonios",
+      "anio": 1780,
+      "anio_hasta": 1781,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "politico",
+      "resumen": "Los franceses Antoine Berney y Antoine Gramusset y el criollo José Antonio de Rojas, lectores de la Ilustración, planearon en 1780 una república en Chile; el extravío de una valija con los planos los delató, y los denunciaron el 1 de enero de 1781 y los detuvieron el 10. Berney y Gramusset fueron enviados a Lima y luego a España; en el naufragio del San Pedro de Alcántara frente a Peniche (Portugal), el 2 de febrero de 1786, murió Berney, y Gramusset sobrevivió y murió tres meses después. Rojas volvió a Chile tras un breve destierro.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Conspiración de los tres Antonios",
+        "en": "Conspiracy of the three Antonios"
+      }
+    },
+    {
+      "id": "batalla-de-tacuarembo",
+      "titulo": "Batalla de Tacuarembó",
+      "anio": 1820,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tacuarembó",
+      "lon": -55.692,
+      "lat": -31.093,
+      "tipo": "batalla",
+      "resumen": "El 22 de enero de 1820 las fuerzas portuguesas del conde de Figueira atacaron por sorpresa el campamento artiguista de Andrés Latorre junto al río Tacuarembó y lo desbandaron; fue el último enfrentamiento de la invasión luso-brasileña a la Provincia Oriental. Las bajas son discutidas: el parte portugués, que el artículo en español considera difícilmente creíble, habla de 800 muertos y 500 heridos artiguistas; el artículo en inglés da 500 muertos y 505 prisioneros sobre 2.500 hombres. Con el acuerdo de Tres Árboles de Fructuoso Rivera con los portugueses y la derrota ante Francisco Ramírez, Artigas se exilió en el Paraguay.",
+      "regiones": [
+        "rio-de-la-plata",
+        "brasil"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Tacuarembó",
+        "en": "Battle of Tacuarembó"
       }
     }
   ],
