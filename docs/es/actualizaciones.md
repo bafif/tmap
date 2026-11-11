@@ -14,11 +14,14 @@ Desde el código fuente (`godot --path .` o el editor) no se busca nada: esa cop
 
 ## Qué ve quien usa la app
 
-Al abrir, si la casilla de **Ajustes → Actualizaciones** está marcada (lo está de entrada), TellMAP consulta el
-manifiesto en GitHub. Si hay algo nuevo, lo ofrece en un cartel arriba al centro («Hay una actualización: TellMAP
-0.3.3 y datos del 12/11/2026. ¿La instalo?») con **Actualizar** y **Ahora no**, y no baja nada hasta que le dicen que
-sí. Con «Ahora no» (o la cruz) no cambia nada y la app sigue como estaba; el cartel vuelve a salir la próxima vez que
-se abra. Con «Actualizar» lo baja, comprueba su sha256, lo instala y avisa en el mismo lugar cuando terminó. Si el
+Al abrir, y después cada hora mientras está abierto, si la casilla de **Ajustes → Actualizaciones** está marcada (lo
+está de entrada), TellMAP consulta el manifiesto en GitHub. Si hay algo nuevo, lo ofrece en un cartel arriba al centro,
+encima de todo lo demás («Hay una actualización: TellMAP 0.3.3 y datos del 12/11/2026. ¿La instalo?»), con
+**Actualizar** y **Ahora no**, y no baja nada hasta que le dicen que sí. Con «Ahora no» (o la cruz) no cambia nada y la
+app sigue como estaba; el cartel vuelve a salir la próxima vez que se abra (la consulta de cada hora no lo repite). Si
+la consulta al abrir no puede terminar (por ejemplo, sin conexión), un aviso lo dice, con **Probar de nuevo**; el
+resultado de cada consulta queda en el registro de la app (`[actualizacion] al abrir: …`). Con «Actualizar» lo baja,
+comprueba su sha256, lo instala y avisa en el mismo lugar cuando terminó. Si el
 ejecutable no se puede reemplazar (por ejemplo, porque está en una carpeta sin permiso de escritura), no pregunta: el
 aviso lleva a la página de descarga. En Ajustes están el estado, «Buscar ahora» (que instala sin preguntar, porque ya
 es un pedido) y la casilla para apagarlo. La consulta no manda nada del usuario: es un pedido a GitHub, como abrir la
@@ -59,7 +62,7 @@ página del proyecto.
 
 ## Publicar
 
-- **Una versión de la app**: igual que siempre, se publica la versión `vX.Y.Z` en GitHub, con `config/version` de
+- **Una versión de la app**: se publica la versión `vX.Y.Z` en GitHub, con `config/version` de
   `project.godot` igual a `X.Y.Z` (si no coinciden, el workflow falla: la app se creería vieja para siempre).
   `version.yml` exporta, sella los datos, sube los `.gz` y el manifiesto nuevo.
 - **Solo datos**: alcanza con llevar los cambios de `data/` a `main`. `datos.yml` se fija si cambiaron respecto de
@@ -68,9 +71,8 @@ página del proyecto.
   nuevo. Si la prueba falla es porque los datos necesitan código nuevo: van con la próxima versión de la app. También
   se puede correr a mano desde la pestaña Actions.
 - Los dos workflows suben `actualizacion.json` y comparten el grupo de `concurrency` `actualizaciones`, así que nunca
-  corren a la vez. Antes no lo compartían: con la 0.3.2, `datos.yml` (por el mismo push, que tocaba `data/`) terminó
-  dos segundos después que `version.yml` y pisó el manifiesto con uno armado antes, que seguía anunciando la 0.3.1.
-  Se arregló subiendo a mano el manifiesto con la entrada de la 0.3.2.
+  corren a la vez: si no, un push que toca `data/` y publica una versión podría pisar el manifiesto nuevo con uno
+  armado antes.
 
 ## Probar
 

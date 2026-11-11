@@ -11,40 +11,42 @@ piece of data says where it came from.
   Wikidata id.
 - **Live Wikipedia summaries**, in the app's language (or the one chosen in Settings) and in the other one if there's
   no article, cached for 30 days.
-- **Twelve packages** in `data/enciclopedia/paquetes/`, plus `familias.json` with the religions, cultures and
-  languages. Together they add up to 88 regions covering 99.6% of the land surface, and each one has an estimated
-  population from 10,000 BC or is counted within another. What's covered and what's missing is in
+- **Packages** in `data/enciclopedia/paquetes/`, plus `familias.json` with the families of religions, cultures and
+  languages. Their regions cover 99.6% of the land, and each one has an estimated population from 10,000 BC or is
+  counted within another. How many entries there are and what's missing is in
   [Encyclopedia coverage](coverage.md), which is generated automatically:
-  - `egipto.json`, the pilot: 4 regions (with 18 eras for Egypt), 37 sources, 18 people, 24 events and 14 places.
-  - `mundo.json`, a sample of eleven regions (Mesopotamia, the Levant, Anatolia, Greece, Italy, Persia, China, India,
+  - `egipto`, the pilot: ancient Egypt, with its eras from unification to modern times.
+  - `mundo`, a sample of eleven regions (Mesopotamia, the Levant, Anatolia, Greece, Italy, Persia, China, India,
     Mesoamerica, the Andes and the Río de la Plata).
-  - `edad-media.json`, medieval Europe from the sack of Rome to 1500, with an emphasis on the history of philosophy:
-    15 regions (the Iberian Peninsula, France, Britain, Ireland, Germany and the Low Countries, Scandinavia, Iceland,
-    Poland, Bohemia, Hungary, the Balkans, Wallachia and Moldavia, the Baltic, Rus' and Sicily), 173 sources, 215
-    people, 125 events and 120 places. The Spanish Wikipedia titles, the Wikidata ids and the coordinates come from
-    Wikidata; the life dates were cross-checked against Wikidata and the 104 reading links (Wikisource and Project
-    Gutenberg) were checked one by one. The demography follows Russell (1972) and Urlanis (1941).
-  - `tierra-santa.json`, the Holy Land from Antiquity to today, with the early Islamic expansion, Byzantium, the
-    Crusades and the thought of Jews, Christians and Muslims: 7 regions (the Holy Land, Lebanon, Syria and
-    Transjordan within the Levant, plus Arabia, the Maghreb and Cyprus), 176 sources, 198 people, 172 events and 75
-    places. It includes the scriptures (the Torah, the Tanakh, the New Testament, the Quran, the Dead Sea Scrolls),
-    the chronicles of the Crusades from every side, the calls to jihad and to crusade, and the modern documents
-    (Balfour, the Peel report, Resolution 181, the 1988 Hamas Charter, Oslo). Verified against Wikipedia and Wikidata
-    like the previous one; its 95 reading links (Wikisource, Gutenberg, Yale's Avalon Project, Fordham's Medieval
-    Sourcebook, Sefaria and others) returned 200. The demography of the Holy Land follows DellaPergola (2001) and the
-    Mandate censuses. Later, Armenia (the Armenian Highlands) and Cilicia were added to it, and Finland, Sardinia and
-    Corsica and the Pontic steppe to `edad-media.json`, with their eras, religions, cultures and languages.
-  - `regiones-del-mundo.json`, the 46 regions that complete the map (from Siberia and Japan to Africa, the Americas
-    and Oceania), built from the borders of present-day countries in Natural Earth: summary, eras and population. They
-    don't have religions, cultures or languages yet.
-  - **The contemporary era**, in seven thematic packages with no regions of their own (629 sources, 510 people, 440
-    events and 86 places), verified the same way as the others: `pensamiento-economico` (from Smith to the Austrian
-    school, Keynes, Chicago, libertarianism and ECLAC), `ideas-politicas` (socialism, anarchism, Zionism, fascism,
-    totalitarianism and its critics, decolonization, feminism, environmentalism), `argentina-contemporanea` (from 1880
-    to today, with Peronist doctrine, the dictatorship, the Falklands/Malvinas, the censuses and the court cases
-    against Kirchnerism), `ciencia-y-tecnologia` (the publications that opened up technologies, with their Nobels),
-    `cultura-libre-y-hackers` (GNU, cypherpunks, WikiLeaks, Anonymous), `guerras-y-orden-mundial` (declarations of
-    war, treaties and resolutions from 1914 to today) and `letras-y-pensamiento-del-siglo-xx`.
+  - `edad-media`, medieval Europe from the sack of Rome to 1500, with an emphasis on the history of philosophy, and its
+    regions, from the Iberian Peninsula to the Rus', with eras, religions, cultures and languages since Antiquity. The
+    demography follows Russell (1972) and Urlanis (1941).
+  - `tierra-santa`, from Antiquity to today, with the regions of the Levant, Arabia, the Maghreb, Cyprus, Armenia and
+    Cilicia: the scriptures, the early Islamic expansion, the Crusades from every side, the thought of Jews,
+    Christians and Muslims, and the modern documents. The demography follows DellaPergola (2001) and the Mandate
+    censuses.
+  - `regiones-del-mundo`, the 46 regions that complete the map (from Siberia and Japan to Africa, the Americas and
+    Oceania), built from the borders of present-day countries in Natural Earth: summary, eras and population; the
+    American ones also have religions, cultures and languages.
+  - The contemporary era, in seven thematic packages: `pensamiento-economico`, `ideas-politicas`,
+    `argentina-contemporanea` (from 1880 to today), `ciencia-y-tecnologia`, `cultura-libre-y-hackers`,
+    `guerras-y-orden-mundial` and `letras-y-pensamiento-del-siglo-xx`.
+  - Argentina up to 1912, in seven packages: `pueblos-originarios-del-cono-sur`, `rio-de-la-plata-colonial`,
+    `virreinato-e-independencia`, `guerras-civiles-y-organizacion-nacional`, `rosas-y-la-confederacion`,
+    `argentina-1862-1912` and `historiografia-argentina`.
+  - The Celts, in nine packages: `celtas-origenes-y-prehistoria`, `galos-y-galia`, `celtas-del-danubio-y-galacia`,
+    `celtas-de-hispania`, `celtas-de-britania-e-irlanda`, `religion-celta`, `celtas-en-las-fuentes-antiguas`,
+    `celtas-legado-e-historiografia` and `mundo-celta`, with seven subregions.
+  - The Indigenous peoples of the Americas and their colonization, from the peopling of the continent to
+    independence, in fourteen packages: `poblamiento-de-america-y-artico`, `mesoamerica-antigua`,
+    `mexica-y-conquista-de-mexico`, `nueva-espana-y-centroamerica`, `andes-antiguos-e-incas`,
+    `conquista-y-virreinato-del-peru`, `nueva-granada-venezuela-y-guayanas`, `caribe-indigena-y-colonial`,
+    `brasil-colonial-y-amazonia`, `norteamerica-indigena`, `norteamerica-colonial`,
+    `debates-sobre-la-conquista-de-america`, `chile-colonial-y-araucania` and `areas-culturales-de-america`, with the
+    ten culture areas of North America, the Maya area and Brazilian Amazonia as subregions.
+
+  Since `edad-media`, every package is checked against Wikipedia and Wikidata (titles, ids, coordinates and
+  lifespans), and its reading links responded when they were checked.
 - **Country series since 1800** (population, life expectancy, fertility, economy, education) in the "Data" tab, for
   the present-day country of each point: `data/demografia/`, from `tools/demografia/series.py`.
 - **Population for every region**: `tools/enciclopedia/poblacion.py` adds up, for each region, the Our World in Data
@@ -57,20 +59,16 @@ piece of data says where it came from.
   format](../../tools/enciclopedia/compacto/FORMATO.en.md) in plain text that `tools/enciclopedia/compacto/construir.py`
   turns into packages verified against Wikipedia and Wikidata.
 - **The encyclopedia in English**: every package has its translation in `data/enciclopedia/traducciones/en/`, a
-  separate layer built with `tools/traduccion/enciclopedia.py` ([the schema](../../data/enciclopedia/ESQUEMA.en.md#translations)).
+  separate layer built with `tools/traduccion/enciclopedia.py`
+  ([the schema](../../data/enciclopedia/ESQUEMA.en.md#translations)).
   With the app in English those texts are the ones you read; anything not translated yet shows in Spanish.
 - **An editor inside the app** to load and fix all of that without touching JSON (see [below](#the-editor)).
 
 ## What about Grokipedia?
 
-As of November 2026, **Grokipedia has no official API**. What exists are unofficial clients that read the site (for
-example, PyPI packages or services that mirror it) and at least one site with a similar name that claims to offer an
-API and isn't from xAI. On top of that, its content was frozen between March and September 2026, and a good part of
-it was derived from Wikipedia.
-
-That's why TellMAP doesn't depend on Grokipedia: it uses Wikipedia (public, stable API, CC BY-SA), Wikidata
-(structured data, CC0) and, for the long entries, AI that writes *from cited sources*. Grokipedia's entry style (a
-long, orderly, readable article) is the reference for form, not for content.
+TellMAP doesn't use Grokipedia: as of November 2026 it has no official API (there are only unofficial clients that
+read the site) and a good part of its content is derived from Wikipedia. It uses Wikipedia (public, stable API,
+CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that writes *from cited sources*.
 
 ## Four entry levels
 
@@ -78,8 +76,8 @@ long, orderly, readable article) is the reference for form, not for content.
 |---|---|---|
 | 0 | Cliopatria data: name, years and territory | The whole world |
 | 1 | Live Wikipedia summary | Everything that has an article |
-| 2 | Curated entry: eras, primary and secondary sources, people, events, population, religion, culture and language | Egypt and the world sample |
-| 3 | Extended "encyclopedia-style" entry: full history by sections, written with AI from cited sources and reviewed | Tools ready (0.3); published as they get reviewed |
+| 2 | Curated entry: eras, primary and secondary sources, people, events, population, religion, culture and language | The regions and topics in the packages |
+| 3 | Extended "encyclopedia-style" entry: full history by sections, written with AI from cited sources and reviewed | The tools are ready; no entries published yet |
 
 ## How it gets filled in
 
@@ -95,12 +93,13 @@ long, orderly, readable article) is the reference for form, not for content.
    - from Cliopatria, the entity's years.
 
    It leaves this in `data/enciclopedia/paquetes/borradores/`, in the schema format and marked "unreviewed".
-3. **AI writing, with mandatory citations.** `python3 tools/enciclopedia/redactar.py <borrador>` passes Claude the
-   draft's sources, numbered (each section of the article and the Wikidata record), and asks it for the history by
-   sections, citing in each paragraph which source it comes from. Then, without trusting the model, it discards
-   paragraphs with no valid citation, flags for review the years and figures that don't appear in the sources they
-   cite, and checks one by one the reading links it suggests. It needs the SDK (`pip install anthropic`) and an API
-   credential; each entry costs on the order of USD 0.15 to 0.40 with the default model.
+3. **AI writing, with mandatory citations.** `python3 tools/enciclopedia/redactar.py <borrador>` passes an Anthropic
+   model the draft's sources, numbered (each section of the article and the Wikidata record), and asks it for the
+   history by sections, citing in each paragraph which source it comes from. Then, without trusting the model, it
+   discards paragraphs with no valid citation, flags for review the years and figures that don't appear in the
+   sources they cite, and checks one by one the reading links it suggests. It needs Anthropic's SDK
+   (`pip install anthropic`) and an API credential; each entry costs on the order of USD 0.15 to 0.40 with the default
+   model.
 4. **Human review.** In the app, Settings → "Open the encyclopedia editor" → Drafts: the study area is computed from
    the Cliopatria territory, each item is opened and corrected, the extended entry is read along with the
    verification warnings and, when everything is right, you tick "I checked every fact and every section against its

@@ -1,7 +1,9 @@
 class_name PistaTiempo
 extends Control
 ## La pista de la línea de tiempo: eras, marcas de siglos, hechos y fuentes, y el año actual.
-## Rueda del mouse = acercar o alejar el tramo visible; arrastrar = elegir año; botón derecho = desplazar el tramo.
+## Clic = elegir el año; arrastrar (o el botón derecho, Mayús + rueda, la rueda horizontal o dos dedos en el trackpad) =
+## correr el tramo visible sin cambiar la escala; arrastrar la línea del año = moverlo; rueda = acercar o alejar.
+## Con el dedo: tocar elige, arrastrar corre y dos dedos acercan o alejan.
 ## Las marcas de fuentes y hechos muestran su nombre al pasar el mouse y abren su ficha con un clic.
 
 signal anio_elegido(anio: int)
@@ -22,12 +24,23 @@ var vista_desde := float(Estado.ANIO_MIN)
 var vista_hasta := float(Estado.ANIO_MAX)
 var eras: Array = _eras_globales()
 var titulo_eras := tr("Periodización europea, orientativa")
-var _arrastrando := false
-var _desplazando := false
+## Qué hace el arrastre en curso: "" (nada), "pendiente" (todavía puede ser un clic), "anio" (mueve el año, empezó
+## sobre su línea) o "desplazar" (corre el tramo).
+var _modo := ""
+var _inicio_x := 0.0
+## Dedos apoyados en la pista (índice → x) y la distancia entre los dos primeros, para acercar con dos dedos.
+var _toques := {}
+var _pellizco_dist := 0.0
+## Mientras dura un pellizco, el mouse emulado con el primer dedo no corre la pista ni elige año al soltarse.
+var _gesto := false
 var _hover_x := -1.0
 ## Marcas bajo el mouse: [{tipo, id, x}], la más cercana primero.
 var _hover_marcas: Array = []
 const RADIO_MARCA := 5.0
+## Hasta cuántos píxeles de la línea del año un arrastre mueve el año (con el dedo, el doble).
+const AGARRE_ANIO := 7.0
+## Un arrastre más corto que esto todavía es un clic.
+const UMBRAL_ARRASTRE := 5.0
 
 
 func _init() -> void:
@@ -102,22 +115,31 @@ func fijar_eras(nuevas: Array, titulo: String) -> void:
 		vista_desde = l - 1200.0
 		vista_hasta = l + 1200.0
 		_ajustar_vista()
-	tooltip_text = tr("%s.\nArrastrá para elegir el año · rueda: acercar o alejar · botón derecho: desplazar · doble click: todo el período.") % titulo_eras
+	tooltip_text = tr("%s.\nClic: elegir el año · arrastrar: correr el período · arrastrar la línea del año: moverlo · rueda: acercar o alejar · Mayús + rueda: correr · doble clic: todo el período.") % titulo_eras
 	queue_redraw()
 
 
 func _gui_input(ev: InputEvent) -> void:
 	if ev is InputEventMouseButton:
 		var b := ev as InputEventMouseButton
-		if b.pressed and b.button_index in [MOUSE_BUTTON_WHEEL_UP, MOUSE_BUTTON_WHEEL_DOWN]:
-			var centro := vista_desde + b.position.x / size.x * (vista_hasta - vista_desde)
-			var f := 0.8 if b.button_index == MOUSE_BUTTON_WHEEL_UP else 1.25
-			vista_desde = centro - (centro - vista_desde) * f
-			vista_hasta = centro + (vista_hasta - centro) * f
-			_ajustar_vista()
-			queue_redraw()
+		var emulado := b.device == InputEvent.DEVICE_ID_EMULATION
+		if b.pressed and b.button_index in [MOUSE_BUTTON_WHEEL_UP, MOUSE_BUTTON_WHEEL_DOWN, MOUSE_BUTTON_WHEEL_LEFT,
+				MOUSE_BUTTON_WHEEL_RIGHT]:
+			var paso := b.factor if b.factor > 0.0 else 1.0
+			if b.button_index in [MOUSE_BUTTON_WHEEL_LEFT, MOUSE_BUTTON_WHEEL_RIGHT] or b.shift_pressed:
+				# Mayús + rueda (o la rueda horizontal): correr el tramo un décimo, sin cambiar la escala.
+				var hacia := 1.0 if b.button_index in [MOUSE_BUTTON_WHEEL_DOWN, MOUSE_BUTTON_WHEEL_RIGHT] else -1.0
+				_correr(hacia * 0.1 * paso * (vista_hasta - vista_desde))
+			else:
+				var f := 0.8 if b.button_index == MOUSE_BUTTON_WHEEL_UP else 1.25
+				_acercar(pow(f, paso), b.position.x)
 			accept_event()
 		elif b.button_index == MOUSE_BUTTON_LEFT:
+			if _gesto:
+				if not b.pressed:
+					_modo = ""
+				accept_event()
+				return
 			var marcas := marcas_en(b.position)
 			if b.pressed and not b.double_click and not marcas.is_empty():
 				var m: Dictionary = marcas[0]
@@ -125,30 +147,104 @@ func _gui_input(ev: InputEvent) -> void:
 				Estado.pedir_ficha(m["tipo"], m["id"])
 				accept_event()
 				return
-			_arrastrando = b.pressed
 			if b.pressed:
 				if b.double_click:
 					vista_desde = lineal(Estado.ANIO_MIN)
 					vista_hasta = lineal(Estado.ANIO_MAX)
+					_modo = ""
 					queue_redraw()
-				anio_elegido.emit(_anio_en(b.position.x))
+				elif absf(b.position.x - _x(Estado.anio)) <= AGARRE_ANIO * (2.0 if emulado else 1.0):
+					# Sobre la línea del año: arrastrar mueve el año, como antes.
+					_modo = "anio"
+					anio_elegido.emit(_anio_en(b.position.x))
+				else:
+					_modo = "pendiente"
+					_inicio_x = b.position.x
+			else:
+				if _modo == "pendiente":
+					# Un clic (sin arrastrar): elegir ese año.
+					anio_elegido.emit(_anio_en(b.position.x))
+				_modo = ""
+				_actualizar_cursor(b.position)
 			accept_event()
 		elif b.button_index == MOUSE_BUTTON_RIGHT:
-			_desplazando = b.pressed
+			_modo = "desplazar" if b.pressed else ""
 			accept_event()
 	elif ev is InputEventMouseMotion:
 		var m := ev as InputEventMouseMotion
 		_hover_x = m.position.x
-		_hover_marcas = [] if _arrastrando or _desplazando else marcas_en(m.position)
-		mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND if not _hover_marcas.is_empty() else Control.CURSOR_ARROW
-		if _arrastrando:
+		if _modo == "pendiente" and absf(m.position.x - _inicio_x) >= UMBRAL_ARRASTRE:
+			_modo = "desplazar"
+		if _modo == "anio":
 			anio_elegido.emit(_anio_en(m.position.x))
-		elif _desplazando:
-			var d := -m.relative.x / size.x * (vista_hasta - vista_desde)
-			vista_desde += d
-			vista_hasta += d
-			_ajustar_vista()
+		elif _modo == "desplazar" and not _gesto:
+			_correr(-m.relative.x / size.x * (vista_hasta - vista_desde))
+		_hover_marcas = [] if _modo != "" else marcas_en(m.position)
+		_actualizar_cursor(m.position)
 		queue_redraw()
+	elif ev is InputEventPanGesture:
+		# Dos dedos en el trackpad: hacia los costados corre el tramo.
+		var g := ev as InputEventPanGesture
+		_correr(g.delta.x * 0.02 * (vista_hasta - vista_desde))
+		accept_event()
+	elif ev is InputEventMagnifyGesture:
+		var g := ev as InputEventMagnifyGesture
+		_acercar(1.0 / g.factor, g.position.x)
+		accept_event()
+	elif ev is InputEventScreenTouch:
+		var t := ev as InputEventScreenTouch
+		if t.pressed:
+			_toques[t.index] = t.position.x
+			if _toques.size() >= 2:
+				_gesto = true
+				_modo = ""
+				_pellizco_dist = 0.0
+		else:
+			_toques.erase(t.index)
+			_pellizco_dist = 0.0
+			if _toques.is_empty():
+				_gesto = false
+		accept_event()
+	elif ev is InputEventScreenDrag:
+		var d := ev as InputEventScreenDrag
+		if _toques.has(d.index):
+			_toques[d.index] = d.position.x
+			if _toques.size() >= 2:
+				# Dos dedos: la distancia entre ellos acerca o aleja alrededor del punto medio.
+				var xs: Array = _toques.values()
+				var dist := absf(float(xs[0]) - float(xs[1]))
+				if _pellizco_dist > 1.0 and dist > 1.0:
+					_acercar(_pellizco_dist / dist, (float(xs[0]) + float(xs[1])) * 0.5)
+				_pellizco_dist = dist
+		accept_event()
+
+
+## Corre el tramo visible `d` años lineales, sin cambiar la escala.
+func _correr(d: float) -> void:
+	vista_desde += d
+	vista_hasta += d
+	_ajustar_vista()
+	queue_redraw()
+
+
+## Acerca (f < 1) o aleja (f > 1) el tramo visible, con el año bajo `x` fijo.
+func _acercar(f: float, x: float) -> void:
+	var centro := vista_desde + x / maxf(size.x, 1.0) * (vista_hasta - vista_desde)
+	vista_desde = centro - (centro - vista_desde) * f
+	vista_hasta = centro + (vista_hasta - centro) * f
+	_ajustar_vista()
+	queue_redraw()
+
+
+func _actualizar_cursor(pos: Vector2) -> void:
+	if _modo == "desplazar":
+		mouse_default_cursor_shape = Control.CURSOR_DRAG
+	elif _modo == "anio" or absf(pos.x - _x(Estado.anio)) <= AGARRE_ANIO:
+		mouse_default_cursor_shape = Control.CURSOR_HSIZE
+	elif not _hover_marcas.is_empty():
+		mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	else:
+		mouse_default_cursor_shape = Control.CURSOR_ARROW
 
 
 func _notification(what: int) -> void:
@@ -289,7 +385,7 @@ func _draw() -> void:
 		draw_circle(Vector2(m["x"], ym), 7.0, Color(TemaUI.color("titulo"), 0.9), false, 1.5)
 
 	# Año bajo el mouse
-	if _hover_x >= 0.0 and not _arrastrando:
+	if _hover_x >= 0.0 and _modo != "anio":
 		var a := _anio_en(_hover_x)
 		draw_line(Vector2(_hover_x, alto_era), Vector2(_hover_x, h), Color(c_texto, 0.25), 1.0)
 		var t := Fechas.texto(a)

@@ -1,9 +1,11 @@
 extends Node
 ## Actualizaciones automáticas de la versión exportada (docs/es/actualizaciones.md).
 ##
-## Al abrir, si el ajuste «actualizar_solo» está prendido, lee un manifiesto publicado en GitHub. Si hay algo nuevo
-## para instalar, lo ofrece con un cartel («Actualizar» o «Ahora no») y no baja nada hasta que le dicen que sí. «Ahora
-## no» no cambia nada: se vuelve a ofrecer la próxima vez que se abra la app. Una versión nueva de la app se baja, se
+## Al abrir, y después cada hora mientras está abierta, si el ajuste «actualizar_solo» está prendido, lee un manifiesto
+## publicado en GitHub. Si hay algo nuevo para instalar, lo ofrece con un cartel («Actualizar» o «Ahora no») y no baja
+## nada hasta que le dicen que sí. «Ahora no» no cambia nada: se vuelve a ofrecer la próxima vez que se abra la app (la
+## búsqueda de cada hora no lo repite). El resultado de cada búsqueda queda en el registro («[actualizacion] al abrir:
+## …»), y si la de al abrir falla, un aviso lo dice. Una versión nueva de la app se baja, se
 ## verifica (sha256) y reemplaza al ejecutable que está corriendo: se abre la próxima vez (o con «Reiniciar ahora»).
 ## Si solo hay datos nuevos, baja nada más los archivos que cambiaron y los instala con `Datos.instalar()`: la
 ## enciclopedia nueva se ve enseguida y el mapa nuevo, al volver a abrir. «Buscar ahora», en Ajustes, instala sin
@@ -11,11 +13,12 @@ extends Node
 ##
 ## Desde el código fuente no hace nada (se actualiza con git). Para probarlo: `-- --actualizaciones=<url del
 ## manifiesto>` lo prende, `--actualizar-y-salir` busca, instala y sale (0 bien, 1 error), `--preguntar-y-salir=si|no`
-## hace lo mismo que al abrir y contesta el cartel, y `--ejecutable=<ruta>` elige qué ejecutable reemplazar. Lo usa
-## tools/actualizacion/probar.py.
+## hace lo mismo que al abrir y contesta el cartel, `--ejecutable=<ruta>` elige qué ejecutable reemplazar y
+## `--actualizaciones-cada=<segundos>` cambia la hora entre búsquedas. Lo usa tools/actualizacion/probar.py.
 
 ## «oferta»: hay algo para instalar y se pregunta (aceptar() o posponer()); «app»: hay una versión nueva instalada o
-## para bajar a mano; «datos»: datos nuevos ya visibles; «datos_mapa»: datos nuevos que se ven al volver a abrir.
+## para bajar a mano; «datos»: datos nuevos ya visibles; «datos_mapa»: datos nuevos que se ven al volver a abrir;
+## «error»: la búsqueda al abrir no pudo terminar.
 signal aviso(tipo: String, texto: String)
 signal estado_cambiado
 
@@ -25,6 +28,8 @@ const PAGINA := "https://github.com/bafif/tmap/releases/latest"
 const FORMATO := 1
 const BAJANDO := "user://datos/bajando/"
 const GZ_APP := "user://actualizacion.gz"
+## Segundos entre una búsqueda y la siguiente mientras la app está abierta.
+const CADA := 3600.0
 
 ## Si esta copia se actualiza sola: la versión exportada, o con --actualizaciones en la línea de comandos.
 var habilitado := false
@@ -44,6 +49,8 @@ var pagina_nueva := ""
 var _ofrecido: Dictionary = {}
 ## Lo ofrecido, en palabras («TellMAP 0.3.3 y datos del 12/11/2026»).
 var _novedad := ""
+## Lo que se dejó para después con «Ahora no» (_clave()): la búsqueda de cada hora no lo vuelve a ofrecer.
+var _pospuesto := ""
 
 
 func _ready() -> void:
@@ -59,8 +66,39 @@ func _ready() -> void:
 		Estado.carga_terminada.connect(_actualizar_y_salir, CONNECT_ONE_SHOT)
 	elif args.has("preguntar-y-salir"):
 		Estado.carga_terminada.connect(_preguntar_y_salir.bind(str(args["preguntar-y-salir"]) == "si"), CONNECT_ONE_SHOT)
-	elif Estado.ajustes.get("actualizar_solo", true) and not ["prueba", "verificar", "captura", "puente"].any(func(a): return args.has(a)):
-		Estado.carga_terminada.connect(func(): get_tree().create_timer(3.0).timeout.connect(buscar.bind(true)), CONNECT_ONE_SHOT)
+	elif not ["prueba", "verificar", "captura", "puente"].any(func(a): return args.has(a)):
+		Estado.carga_terminada.connect(_programar.bind(float(args.get("actualizaciones-cada", CADA))), CONNECT_ONE_SHOT)
+
+
+## La búsqueda al abrir, 3 s después de cargar para no frenar el arranque, y después una cada `cada` segundos.
+func _programar(cada: float) -> void:
+	get_tree().create_timer(3.0).timeout.connect(_buscar_sola.bind(true))
+	var t := Timer.new()
+	t.wait_time = cada
+	t.timeout.connect(_buscar_sola.bind(false))
+	add_child(t)
+	t.start()
+
+
+## La búsqueda que no pidió nadie (al abrir y cada hora), si el ajuste «actualizar_solo» está prendido. Deja el
+## resultado en el registro; si la de al abrir falla, lo avisa (con «Probar de nuevo», que vuelve a llamar acá).
+func _buscar_sola(al_abrir: bool) -> void:
+	var cuando := "al abrir" if al_abrir else "cada hora"
+	if not Estado.ajustes.get("actualizar_solo", true):
+		if al_abrir:
+			print("[actualizacion] %s: apagada en Ajustes" % cuando)
+		return
+	if ocupado or hay_oferta():
+		return
+	var err := await buscar(true)
+	print("[actualizacion] %s: %s" % [cuando, texto])
+	if err != "" and al_abrir:
+		aviso.emit("error", texto)
+
+
+## «Probar de nuevo» en el aviso de error.
+func reintentar() -> void:
+	_buscar_sola(true)
 
 
 static func version_app() -> String:
@@ -99,6 +137,7 @@ func aceptar() -> String:
 func posponer() -> void:
 	if _ofrecido.is_empty():
 		return
+	_pospuesto = _clave(_ofrecido)
 	_ofrecido = {}
 	_fijar(tr("Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora».")
 		% _novedad)
@@ -134,6 +173,10 @@ func _buscar(preguntar: bool) -> String:
 		return ""
 	if preguntar:
 		var novedad := _que_hay(m)
+		if novedad != "" and _clave(m) == _pospuesto:
+			_fijar(tr("Quedó para después: %s. Se vuelve a ofrecer la próxima vez que abras TellMAP, o ahora con «Buscar ahora».")
+				% novedad)
+			return ""
 		if novedad != "":
 			_ofrecido = m
 			_novedad = novedad
@@ -154,6 +197,13 @@ func _que_hay(m: Dictionary) -> String:
 	if _datos_nuevos(datos):
 		partes.append(tr("datos del %s") % Datos.fecha(int(datos["version"])))
 	return tr(" y ").join(partes)
+
+
+## Qué se ofrece (la versión de la app y la de los datos), para reconocer lo que ya se dejó para después.
+func _clave(m: Dictionary) -> String:
+	var app: Dictionary = m.get("app", {})
+	var datos: Dictionary = m.get("datos", {})
+	return "%s|%s" % [str(app.get("version", "")), str(datos.get("version", ""))]
 
 
 func _app_nueva(app: Dictionary) -> bool:

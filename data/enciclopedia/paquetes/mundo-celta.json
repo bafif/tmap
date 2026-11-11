@@ -1,0 +1,2460 @@
+{
+  "paquete": "mundo-celta",
+  "descripcion": "Regiones del mundo celta antiguo: Galacia, Celtiberia, Galecia, Galia Cisalpina, Armórica, Caledonia y Nórico",
+  "regiones": [
+    {
+      "id": "galacia",
+      "nombre": "Galacia",
+      "padre": "anatolia",
+      "poligono": [
+        [
+          31.0,
+          39.9
+        ],
+        [
+          31.3,
+          40.3
+        ],
+        [
+          32.0,
+          40.55
+        ],
+        [
+          32.8,
+          40.7
+        ],
+        [
+          33.5,
+          40.55
+        ],
+        [
+          34.3,
+          40.6
+        ],
+        [
+          35.0,
+          40.45
+        ],
+        [
+          35.6,
+          40.1
+        ],
+        [
+          35.7,
+          39.6
+        ],
+        [
+          35.3,
+          39.2
+        ],
+        [
+          34.6,
+          39.0
+        ],
+        [
+          33.9,
+          38.95
+        ],
+        [
+          33.3,
+          38.8
+        ],
+        [
+          32.6,
+          38.9
+        ],
+        [
+          32.0,
+          39.05
+        ],
+        [
+          31.4,
+          39.15
+        ],
+        [
+          30.9,
+          39.45
+        ]
+      ],
+      "resumen": "La meseta central de Anatolia en torno a Ancira (Ankara), donde se asentaron hacia 275 a. C. tres pueblos celtas, tolistobogios, tectósages y trocmos, que habían cruzado desde Europa como mercenarios del rey de Bitinia. Gobernados por tetrarcas y después por reyes aliados de Roma como Deyótaro, pasaron a ser provincia romana en 25 a. C. Jerónimo escribió hacia 387 que su lengua se parecía a la de los tréveros del Mosela: es el último testimonio de una lengua celta en Asia.",
+      "eras": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "El país de los hititas",
+          "resumen": "Hattusa, la capital del reino hitita, queda dentro de esta región, cerca de Tavio, la ciudad de los trocmos."
+        },
+        {
+          "desde": -1180,
+          "hasta": -546,
+          "nombre": "Frigia",
+          "resumen": "Tras la caída de los hititas, los frigios dominan la meseta desde Gordion, la ciudad del rey Midas (siglo VIII a. C.); en el siglo VI a. C. la región pasa a Lidia."
+        },
+        {
+          "desde": -546,
+          "hasta": -278,
+          "nombre": "Persas y macedonios",
+          "resumen": "Satrapía persa desde Ciro; Alejandro corta el nudo de Gordion en 333 a. C. y la región queda luego en disputa entre los sucesores."
+        },
+        {
+          "desde": -278,
+          "hasta": -25,
+          "nombre": "Galacia celta",
+          "resumen": "Unos veinte mil gálatas cruzan a Asia en 278-277 a. C. (Livio XXXVIII.16), viven del saqueo y del tributo de las ciudades griegas hasta que Atalo I de Pérgamo los vence (hacia 240-230 a. C.) y el cónsul Manlio Vulsón los derrota en 189 a. C. Según Estrabón (XII.5.1), cada pueblo tenía cuatro tetrarcas y un consejo común de trescientos se reunía en el Drunemeton; en el siglo I a. C. Deyótaro concentró el poder con apoyo romano."
+        },
+        {
+          "desde": -25,
+          "hasta": 395,
+          "nombre": "Provincia romana de Galacia",
+          "resumen": "A la muerte del rey Amintas (25 a. C.), Augusto crea la provincia, con capital en Ancira, donde se conserva la copia más completa de las Res gestae. Pablo de Tarso escribe a las iglesias «de Galacia»; si eran las de los gálatas del norte o las de la provincia del sur se discute."
+        },
+        {
+          "desde": 395,
+          "hasta": 1071,
+          "nombre": "Galacia bizantina",
+          "resumen": "Dividida en Galacia Primera (Ancira) y Segunda (Pesinunte); sede del concilio de Ancira (314) y frontera ante persas y árabes, que toman Ancira en 838."
+        },
+        {
+          "desde": 1071,
+          "hasta": 1923,
+          "nombre": "Selyúcidas y otomanos",
+          "resumen": "Tras Manzikert la meseta pasa a los turcos; cerca de Angora (Ankara) Tamerlán vence a Bayaceto I en 1402."
+        },
+        {
+          "desde": 1923,
+          "hasta": null,
+          "nombre": "Turquía",
+          "resumen": "Ankara es la capital de la república desde 1923."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": -278,
+          "poblacion": 20000,
+          "fuente": "Tito Livio, Ab urbe condita XXXVIII.16",
+          "tipo": "testimonio-antiguo",
+          "nota": "Livio dice que de unos veinte mil hombres que siguieron a Leonorio y Lutario «no más de diez mil estaban armados». Es la cifra de los que cruzaron, no la población posterior de Galacia; Livio escribe dos siglos y medio después y no dice de dónde la toma. En XXXVIII.23 él mismo muestra lo poco seguras que eran estas cifras: Claudio Cuadrigario daba cuarenta mil gálatas muertos en el monte Olimpo y Valerio Antias, que solía exagerar, apenas diez mil. Que el número sea incierto no hace dudosa la migración: la llegada y los saqueos de los gálatas los registran inscripciones de la época en las ciudades griegas de Asia, como el decreto de Priene en honor de Sotas."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Religión hitita",
+          "familia": "politeismo-anatolio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1180,
+          "hasta": -278,
+          "nombre": "Religión frigia (la Madre de los dioses)",
+          "familia": "politeismo-anatolio",
+          "peso": "mayoritaria",
+          "nota": "El gran santuario de la Madre (Cibeles) estaba en Pesinunte; según Livio (XXIX.10-11), Roma llevó de allí su piedra sagrada en 204 a. C."
+        },
+        {
+          "desde": -278,
+          "hasta": 300,
+          "nombre": "Religión frigia y griega",
+          "familia": "politeismo-anatolio",
+          "peso": "importante"
+        },
+        {
+          "desde": -278,
+          "hasta": 300,
+          "nombre": "Religión de los gálatas",
+          "familia": "paganismo-celta",
+          "peso": "importante",
+          "nota": "Casi no hay datos propios: el nombre del lugar de su consejo, Drunemeton (Estrabón XII.5.1), es celta y suele entenderse como «santuario de robles»; la historia de Cama, sacerdotisa gálata de Ártemis, la cuenta Plutarco (Virtudes de mujeres 20). Los gálatas adoptaron pronto los cultos frigios de Pesinunte."
+        },
+        {
+          "desde": -25,
+          "hasta": 350,
+          "nombre": "Culto imperial y cultos grecorromanos",
+          "familia": "politeismo-romano",
+          "peso": "importante",
+          "nota": "El templo de Roma y Augusto de Ancira, con las Res gestae grabadas en sus muros."
+        },
+        {
+          "desde": 50,
+          "hasta": 300,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "minoritaria",
+          "nota": "Desde las misiones de Pablo de Tarso; el montanismo nació en la vecina Frigia."
+        },
+        {
+          "desde": 300,
+          "hasta": 1071,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "mayoritaria",
+          "nota": "El concilio de Ancira (314) es uno de los primeros que dejaron cánones."
+        },
+        {
+          "desde": 1071,
+          "hasta": 1923,
+          "nombre": "Cristianismo ortodoxo",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "minoritaria",
+          "nota": "Hasta el intercambio de poblaciones entre Grecia y Turquía de 1923."
+        },
+        {
+          "desde": 1071,
+          "hasta": null,
+          "nombre": "Islam sunita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Hitita",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1180,
+          "hasta": -278,
+          "nombre": "Frigia",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria",
+          "nota": "Los frigios llegan desde los Balcanes según los autores griegos; Gordion es su centro desde el siglo IX a. C."
+        },
+        {
+          "desde": -278,
+          "hasta": 400,
+          "nombre": "Gálata (tolistobogios, tectósages y trocmos)",
+          "familia": "galata",
+          "peso": "importante",
+          "nota": "Una minoría guerrera numerosa asentada entre la población frigia; en el discurso que Livio pone en boca del cónsul Manlio Vulsón (XXXVIII.17) ya se los llama «galogriegos» por la mezcla. Mitchell (Anatolia, 1993) estudia su asentamiento y su helenización."
+        },
+        {
+          "desde": -278,
+          "hasta": 400,
+          "nombre": "Frigia",
+          "familia": "anatolia-antigua",
+          "peso": "importante",
+          "nota": "La población campesina siguió siendo en buena parte frigia: hay inscripciones en frigio hasta el siglo III."
+        },
+        {
+          "desde": -25,
+          "hasta": 400,
+          "nombre": "Griega y romana",
+          "familia": "griega",
+          "peso": "importante"
+        },
+        {
+          "desde": 400,
+          "hasta": 1071,
+          "nombre": "Griega bizantina",
+          "familia": "griega",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1071,
+          "hasta": null,
+          "nombre": "Turca",
+          "familia": "turca",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Hitita, luvita y hatti",
+          "familia": "anatolias",
+          "peso": "mayoritaria",
+          "nota": "El hatti, lengua anterior de la zona de Hattusa, no es indoeuropeo y se conserva en textos rituales hititas."
+        },
+        {
+          "desde": -1180,
+          "hasta": -278,
+          "nombre": "Frigio",
+          "familia": "frigio",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -278,
+          "hasta": 500,
+          "nombre": "Gálata",
+          "familia": "galata",
+          "peso": "importante",
+          "nota": "Lo conocemos solo por unos cien nombres de personas, pueblos y lugares y por algunas glosas, reunidos por Freeman (The Galatian Language, 2001). Jerónimo (Comentario a la carta a los gálatas, hacia 387) dice que los gálatas hablaban casi la misma lengua que los tréveros; no se sabe cuándo dejó de hablarse."
+        },
+        {
+          "desde": -278,
+          "hasta": 500,
+          "nombre": "Frigio",
+          "familia": "frigio",
+          "peso": "importante",
+          "nota": "Las inscripciones neofrigias, casi todas fórmulas funerarias, llegan al siglo III."
+        },
+        {
+          "desde": -278,
+          "hasta": 400,
+          "nombre": "Griego",
+          "familia": "griego",
+          "peso": "importante",
+          "nota": "Lengua de la administración de los reyes gálatas y de Roma en Oriente."
+        },
+        {
+          "desde": 400,
+          "hasta": 1071,
+          "nombre": "Griego",
+          "familia": "griego",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1071,
+          "hasta": null,
+          "nombre": "Turco",
+          "familia": "turco",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "celtiberia",
+      "nombre": "Celtiberia",
+      "padre": "iberia",
+      "poligono": [
+        [
+          -3.6,
+          41.95
+        ],
+        [
+          -2.9,
+          42.1
+        ],
+        [
+          -2.2,
+          42.05
+        ],
+        [
+          -1.7,
+          41.85
+        ],
+        [
+          -1.2,
+          41.65
+        ],
+        [
+          -0.85,
+          41.4
+        ],
+        [
+          -0.9,
+          41.0
+        ],
+        [
+          -1.2,
+          40.6
+        ],
+        [
+          -1.6,
+          40.2
+        ],
+        [
+          -1.9,
+          39.8
+        ],
+        [
+          -2.6,
+          39.6
+        ],
+        [
+          -3.2,
+          39.85
+        ],
+        [
+          -3.3,
+          40.4
+        ],
+        [
+          -3.4,
+          40.9
+        ],
+        [
+          -3.7,
+          41.4
+        ]
+      ],
+      "resumen": "Las tierras altas del Sistema Ibérico y de las cabeceras del Duero, el Tajo y los afluentes del Ebro, donde los autores antiguos ponen a los celtíberos: arévacos, belos, titos, lusones y pelendones. Su lengua, el celtíbero, es una de las lenguas celtas antiguas del continente con textos más largos, escritos sobre todo con el signario ibérico y algunos con letras latinas, como los bronces de Botorrita. Resistieron a Roma en las guerras celtíberas (181-133 a. C.), que terminaron con la caída de Numancia.",
+      "eras": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Agricultores y pastores con poblamiento disperso; en la Meseta, sepulcros megalíticos."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Desde mediados del II milenio a. C., la cultura de Cogotas I, de pastores con cerámica decorada (de Boquique y excisa), se extiende por la Meseta."
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Celtibérico antiguo",
+          "resumen": "Aparecen castros y grandes necrópolis de incineración con armas, como Aguilar de Anguita; Lorrio (Los celtíberos, 1997) y Burillo (Los celtíberos. Etnias y estados, 1998) sitúan aquí la formación de la cultura celtibérica."
+        },
+        {
+          "desde": -450,
+          "hasta": -181,
+          "nombre": "Celtibérico pleno",
+          "resumen": "Crecen los poblados y surgen ciudades; mercenarios celtíberos luchan para Cartago y, desde 213 a. C., también para Roma (Livio XXIV.49)."
+        },
+        {
+          "desde": -181,
+          "hasta": -133,
+          "nombre": "Guerras celtíberas",
+          "resumen": "La primera guerra (181-179 a. C.) termina con los pactos de Tiberio Sempronio Graco; la segunda (154-151 a. C.) empieza por la muralla de Segeda, y la numantina (143-133 a. C.) con el cerco y la destrucción de Numancia por Escipión Emiliano. Las conocemos por Apiano (Iberiké) y por fragmentos de Polibio y de Livio."
+        },
+        {
+          "desde": -133,
+          "hasta": 409,
+          "nombre": "Celtiberia romana",
+          "resumen": "Base de Sertorio en su guerra contra Roma (80-72 a. C.); con el Imperio, ciudades como Bilbilis, la de Marcial, Segobriga, Clunia y Termes se romanizan."
+        },
+        {
+          "desde": 409,
+          "hasta": 711,
+          "nombre": "Hispania visigoda",
+          "resumen": "La región forma parte del reino visigodo de Toledo."
+        },
+        {
+          "desde": 711,
+          "hasta": 1120,
+          "nombre": "Marca Media de al-Ándalus",
+          "resumen": "Frontera de al-Ándalus frente a los reinos cristianos, con Medinaceli y Calatayud; población bereber, muladí y mozárabe."
+        },
+        {
+          "desde": 1120,
+          "hasta": null,
+          "nombre": "Castilla y Aragón",
+          "resumen": "Alfonso I de Aragón toma Calatayud y Daroca en 1120; Soria y Cuenca quedan en Castilla. Hoy es una de las zonas menos pobladas de Europa."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -800,
+          "hasta": -30,
+          "nombre": "Religión celtibérica",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Antes del siglo II a. C. solo hay arqueología. Después: Lugus en la inscripción de Peñalba de Villastar, téseras y pactos sagrados de hospitalidad, y la costumbre de dejar a los caídos en combate a los buitres, que cuentan Silio Itálico y Eliano y parecen mostrar vasos pintados de Numancia. Estrabón (III.4.16) dice que celtíberos y vecinos del norte honraban a un dios sin nombre en las noches de luna llena."
+        },
+        {
+          "desde": -30,
+          "hasta": 300,
+          "nombre": "Cultos indígenas en latín",
+          "familia": "paganismo-celta",
+          "peso": "importante"
+        },
+        {
+          "desde": -195,
+          "hasta": -30,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -30,
+          "hasta": 380,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 380,
+          "hasta": 711,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 409,
+          "hasta": 589,
+          "nombre": "Arrianismo (visigodos)",
+          "familia": "arrianismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 711,
+          "hasta": 900,
+          "nombre": "Islam sunita",
+          "familia": "islam-sunni",
+          "peso": "importante"
+        },
+        {
+          "desde": 711,
+          "hasta": 1120,
+          "nombre": "Catolicismo (mozárabes)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": 1120,
+          "nombre": "Islam sunita",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "Como en el resto de al-Ándalus, el ritmo de la conversión se discute (Bulliet, 1979)."
+        },
+        {
+          "desde": 1120,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítica y calcolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce (Cogotas I)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria",
+          "nota": "Cogotas I, que toma su nombre del castro de Las Cogotas (Ávila), ocupa el Bronce medio y final; el Bronce antiguo de la Meseta es anterior."
+        },
+        {
+          "desde": -800,
+          "hasta": -30,
+          "nombre": "Celtíbera",
+          "familia": "celtibera",
+          "peso": "mayoritaria",
+          "nota": "Que llegara con migraciones desde Europa central (Bosch Gimpera, en los años treinta) o se formara en la Meseta sobre una base local con aportes de fuera (Almagro-Gorbea, Lorrio, Burillo) se discute; la segunda idea es hoy la más común."
+        },
+        {
+          "desde": -195,
+          "hasta": -30,
+          "nombre": "Hispanorromana",
+          "familia": "latina",
+          "peso": "importante",
+          "nota": "Desde la campaña de Catón (195 a. C.) y, sobre todo, tras la caída de Numancia."
+        },
+        {
+          "desde": -30,
+          "hasta": 711,
+          "nombre": "Hispanorromana",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 409,
+          "hasta": 711,
+          "nombre": "Visigoda",
+          "familia": "goda",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 711,
+          "hasta": 1120,
+          "nombre": "Andalusí",
+          "familia": "andalusi",
+          "peso": "mayoritaria",
+          "nota": "Con muchos bereberes asentados en la frontera y mozárabes."
+        },
+        {
+          "desde": 1120,
+          "hasta": null,
+          "nombre": "Hispana (castellana y aragonesa)",
+          "familia": "hispana",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -218,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -218,
+          "hasta": -30,
+          "nombre": "Celtíbero",
+          "familia": "celtibero",
+          "peso": "mayoritaria",
+          "nota": "Los celtíberos aparecen en las fuentes en la segunda guerra púnica; sus inscripciones (monedas, téseras de hospitalidad, los bronces de Botorrita) son de los siglos II y I a. C. La lengua es sin duda anterior; cuándo llegó a la Meseta es lo que se discute."
+        },
+        {
+          "desde": -30,
+          "hasta": 100,
+          "nombre": "Celtíbero",
+          "familia": "celtibero",
+          "peso": "minoritaria",
+          "nota": "Las últimas inscripciones, como las de Peñalba de Villastar, se fechan hacia el cambio de era o poco después."
+        },
+        {
+          "desde": -195,
+          "hasta": -30,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": -30,
+          "hasta": 711,
+          "nombre": "Latín y latín hablado",
+          "familia": "latin",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 711,
+          "hasta": 1120,
+          "nombre": "Árabe y bereber",
+          "familia": "arabe",
+          "peso": "importante"
+        },
+        {
+          "desde": 711,
+          "hasta": 1120,
+          "nombre": "Romance andalusí",
+          "familia": "mozarabe",
+          "peso": "importante"
+        },
+        {
+          "desde": 1120,
+          "hasta": null,
+          "nombre": "Castellano (y aragonés en el este)",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "galaecia",
+      "nombre": "Galecia (Gallaecia)",
+      "padre": "iberia",
+      "poligono": [
+        [
+          -8.67,
+          41.15
+        ],
+        [
+          -8.85,
+          41.7
+        ],
+        [
+          -8.9,
+          42.1
+        ],
+        [
+          -9.0,
+          42.5
+        ],
+        [
+          -9.3,
+          42.9
+        ],
+        [
+          -9.25,
+          43.2
+        ],
+        [
+          -8.5,
+          43.38
+        ],
+        [
+          -8.0,
+          43.72
+        ],
+        [
+          -7.6,
+          43.75
+        ],
+        [
+          -7.05,
+          43.55
+        ],
+        [
+          -6.7,
+          43.56
+        ],
+        [
+          -6.75,
+          43.1
+        ],
+        [
+          -6.9,
+          42.75
+        ],
+        [
+          -7.0,
+          42.4
+        ],
+        [
+          -7.1,
+          42.0
+        ],
+        [
+          -6.95,
+          41.6
+        ],
+        [
+          -7.1,
+          41.15
+        ],
+        [
+          -7.9,
+          41.1
+        ]
+      ],
+      "resumen": "El noroeste de la península entre el Duero y el Cantábrico, tierra de los galaicos de los autores romanos y de la cultura castreña, con miles de poblados fortificados en lo alto de colinas como Santa Tegra, Baroña o Briteiros. Roma la conquistó entre la campaña de Décimo Junio Bruto (137 a. C.) y las guerras cántabras (29-19 a. C.); fue provincia propia desde fines del siglo III y reino de los suevos en el siglo V. Si los galaicos eran celtas es una discusión todavía abierta, cargada además por el celtismo del nacionalismo gallego desde el siglo XIX.",
+      "eras": [
+        {
+          "desde": -4800,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Miles de túmulos megalíticos (mámoas) y dólmenes."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Grabados rupestres al aire libre (petroglifos), orfebrería de oro y comercio de metales del Bronce Atlántico."
+        },
+        {
+          "desde": -800,
+          "hasta": -137,
+          "nombre": "Cultura castreña",
+          "resumen": "Desde el siglo IX u VIII a. C. aparecen los castros, que en el siglo II a. C. se vuelven grandes poblados con calles y murallas (citânias), con orfebrería, guerreros de piedra y saunas."
+        },
+        {
+          "desde": -137,
+          "hasta": -19,
+          "nombre": "Conquista romana",
+          "resumen": "Décimo Junio Bruto, llamado Galaico, cruza el Limia y llega al Miño (138-136 a. C.); César llega por mar a Brigantium (61 a. C.) y Augusto termina la conquista del norte en las guerras cántabras."
+        },
+        {
+          "desde": -19,
+          "hasta": 411,
+          "nombre": "Gallaecia romana",
+          "resumen": "Bracara Augusta (Braga) y Lucus Augusti (Lugo) son capitales de conventos; desde Diocleciano, provincia propia. En el siglo IV, el priscilianismo tiene aquí su mayor fuerza."
+        },
+        {
+          "desde": 411,
+          "hasta": 585,
+          "nombre": "Reino suevo",
+          "resumen": "Los suevos fundan un reino con capital en Braga, que Leovigildo anexa en 585. En el siglo VI se asientan britanos en el norte de Lugo, con su propia sede episcopal, Britonia."
+        },
+        {
+          "desde": 585,
+          "hasta": 711,
+          "nombre": "Reino visigodo",
+          "resumen": "La región forma parte del reino de Toledo."
+        },
+        {
+          "desde": 711,
+          "hasta": 1139,
+          "nombre": "Reinos de Asturias, León y Galicia",
+          "resumen": "Tras una breve presencia musulmana, la región se une al reino de Asturias; desde el siglo IX el culto del sepulcro del apóstol Santiago atrae peregrinos de toda Europa."
+        },
+        {
+          "desde": 1139,
+          "hasta": null,
+          "nombre": "Galicia y el norte de Portugal",
+          "resumen": "El Miño se vuelve frontera entre el reino de Portugal y Galicia, que queda en Castilla y luego en España."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 75,
+          "poblacion": 451000,
+          "fuente": "Plinio el Viejo, Historia natural III.28",
+          "tipo": "testimonio-antiguo",
+          "nota": "Plinio da unas 166.000 «cabezas libres» para el convento lucense y 285.000 para el bracarense, y 240.000 para los astures, fuera de esta región. No cuenta esclavos, no dice de qué registro ni de qué año salen (quizás de los censos de Augusto o de los de Vespasiano) y qué contaban exactamente esas cifras se discute; se toman como orden de magnitud, no como censo."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -137,
+          "hasta": -19,
+          "nombre": "Religión de los galaicos",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "La conocemos casi solo por más de un centenar de inscripciones latinas a dioses indígenas como Bandua, Cosus, Nabia, Reue o los Lucoubu (Lugus en plural). Estrabón (III.4.16) recoge que algunos decían que los galaicos no tenían dioses, una muestra de lo poco que sabían de ellos los griegos."
+        },
+        {
+          "desde": -19,
+          "hasta": 400,
+          "nombre": "Cultos indígenas",
+          "familia": "paganismo-celta",
+          "peso": "importante"
+        },
+        {
+          "desde": -19,
+          "hasta": 400,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "importante"
+        },
+        {
+          "desde": 380,
+          "hasta": 600,
+          "nombre": "Priscilianismo",
+          "familia": "cristianismo",
+          "peso": "importante",
+          "nota": "Prisciliano, obispo de Ávila, fue ejecutado en Tréveris en 385; su movimiento siguió en Gallaecia hasta que lo condenó el concilio de Braga de 561."
+        },
+        {
+          "desde": 400,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 465,
+          "hasta": 560,
+          "nombre": "Arrianismo (suevos)",
+          "familia": "arrianismo",
+          "peso": "minoritaria",
+          "nota": "Los reyes suevos fueron católicos con Requiario (448), arrianos desde hacia 465 y otra vez católicos hacia 560, con Martín de Braga."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -4800,
+          "hasta": -2200,
+          "nombre": "Neolítica y megalítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce del noroeste",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Bronce Atlántico",
+          "familia": "bronce-atlantico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -19,
+          "nombre": "Castreña",
+          "familia": "castrena",
+          "peso": "mayoritaria",
+          "nota": "Que fuera celta se discute: los autores antiguos ponen célticos en el noroeste (Estrabón III.3.5; Plinio III.28 y IV.111) y hay nombres celtas, pero González-Ruibal (Galaicos, 2007) y otros arqueólogos subrayan su desarrollo local desde el Bronce final. El celtismo gallego del siglo XIX (Murguía, Pondal) hizo de los galaicos un mito nacional."
+        },
+        {
+          "desde": -19,
+          "hasta": 150,
+          "nombre": "Castreña romanizada",
+          "familia": "castrena",
+          "peso": "importante",
+          "nota": "Muchos castros siguieron habitados hasta los siglos I y II."
+        },
+        {
+          "desde": -19,
+          "hasta": 150,
+          "nombre": "Galaicorromana",
+          "familia": "latina",
+          "peso": "importante"
+        },
+        {
+          "desde": 150,
+          "hasta": 900,
+          "nombre": "Galaicorromana",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 411,
+          "hasta": 585,
+          "nombre": "Sueva",
+          "familia": "goda",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 550,
+          "hasta": 900,
+          "nombre": "Britona (Britonia)",
+          "familia": "britona",
+          "peso": "minoritaria",
+          "nota": "La sede de Britonia aparece en el concilio de Braga de 572 con el obispo Mailoc, de nombre britano."
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Gallega y portuguesa",
+          "familia": "hispana",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -4800,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -137,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -137,
+          "hasta": -19,
+          "nombre": "Lengua de los galaicos (en buena parte celta)",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Solo la conocemos por nombres de personas, pueblos, lugares y dioses en autores e inscripciones latinas. Muchos son celtas (los -briga, los Celtici de Plinio); otros parecen de una lengua indoeuropea no celta, emparentada con el lusitano (Prósper, Lenguas y religiones prerromanas del occidente de la península ibérica, 2002). Su clasificación se discute."
+        },
+        {
+          "desde": -19,
+          "hasta": 200,
+          "nombre": "Lengua de los galaicos",
+          "familia": "celtas",
+          "peso": "importante"
+        },
+        {
+          "desde": -137,
+          "hasta": -19,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -19,
+          "hasta": 200,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": 200,
+          "hasta": 900,
+          "nombre": "Latín y latín hablado",
+          "familia": "latin",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 411,
+          "hasta": 585,
+          "nombre": "Suevo",
+          "familia": "germanicas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Gallego y portugués (galaicoportugués)",
+          "familia": "galaicoportugues",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1500,
+          "hasta": null,
+          "nombre": "Castellano (Galicia)",
+          "familia": "espanol",
+          "peso": "importante",
+          "nota": "Lengua de la administración y de la Iglesia en Galicia desde fines del siglo XV; hoy convive con el gallego."
+        }
+      ]
+    },
+    {
+      "id": "galia-cisalpina",
+      "nombre": "Galia Cisalpina",
+      "padre": "italia",
+      "poligono": [
+        [
+          7.6,
+          44.15
+        ],
+        [
+          7.15,
+          44.4
+        ],
+        [
+          7.1,
+          45.0
+        ],
+        [
+          7.15,
+          45.8
+        ],
+        [
+          8.0,
+          46.05
+        ],
+        [
+          8.9,
+          46.3
+        ],
+        [
+          9.9,
+          46.25
+        ],
+        [
+          10.5,
+          46.0
+        ],
+        [
+          11.3,
+          46.1
+        ],
+        [
+          12.3,
+          46.4
+        ],
+        [
+          13.4,
+          46.45
+        ],
+        [
+          13.65,
+          45.75
+        ],
+        [
+          13.1,
+          45.65
+        ],
+        [
+          12.3,
+          45.35
+        ],
+        [
+          12.3,
+          44.85
+        ],
+        [
+          12.4,
+          44.2
+        ],
+        [
+          11.9,
+          43.95
+        ],
+        [
+          11.2,
+          44.1
+        ],
+        [
+          10.3,
+          44.3
+        ],
+        [
+          9.3,
+          44.55
+        ],
+        [
+          8.4,
+          44.4
+        ]
+      ],
+      "resumen": "La llanura del Po y el pie de los Alpes, que los romanos llamaron «Galia de este lado de los Alpes» porque desde el siglo V o IV a. C. vivían allí insubres, boyos, cenomanos y lingones, llegados del otro lado, junto a ligures, vénetos, etruscos y lepontios. Allí están las inscripciones celtas más antiguas, en lepóntico (siglo VI a. C.). Roma la conquistó entre 225 y 191 a. C. y la unió a Italia en 42 a. C.; los senones, en la costa del Adriático al sur del Rubicón, quedan fuera de este polígono.",
+      "eras": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Agricultores desde hacia 5500 a. C.; en los lagos alpinos, aldeas de palafitos."
+        },
+        {
+          "desde": -2200,
+          "hasta": -900,
+          "nombre": "Edad del Bronce",
+          "resumen": "Palafitos en los lagos y terramare en la llanura, aldeas con foso y terraplén que se abandonan hacia 1150 a. C."
+        },
+        {
+          "desde": -900,
+          "hasta": -400,
+          "nombre": "Golasecca, vénetos y etruscos",
+          "resumen": "La cultura de Golasecca en los lagos del oeste, cuyos portadores escriben lepóntico; los vénetos (cultura de Este) en el este; y desde el siglo VI a. C. ciudades etruscas en la llanura: Felsina (Bolonia), Spina y Mantua."
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "La Galia Cisalpina celta",
+          "resumen": "Insubres (Mediolanum), boyos (Felsina, que pasa a llamarse Bononia), cenomanos (Brixia) y otros pueblos ocupan la llanura; según Polibio (II.17) desalojaron a los etruscos, y Livio (V.34-35) da una fecha más antigua que suele tomarse por legendaria. Desde aquí parten contra Roma (390 o 387 a. C.). Roma los vence en Telamón (225 a. C.) y, tras el paso de Aníbal, los somete hasta 191 a. C."
+        },
+        {
+          "desde": -191,
+          "hasta": -42,
+          "nombre": "Provincia romana",
+          "resumen": "Colonias latinas y romanas (Placentia y Cremona en 218, Bononia en 189, Aquileia en 181), la vía Emilia (187 a. C.) y la ciudadanía, latina para los transpadanos en 89 a. C. y romana en 49 a. C. En 42 a. C. la provincia se une a Italia."
+        },
+        {
+          "desde": -42,
+          "hasta": 476,
+          "nombre": "Italia romana",
+          "resumen": "Mediolanum (Milán) es capital del Imperio de Occidente entre 286 y 402; después, Rávena."
+        },
+        {
+          "desde": 476,
+          "hasta": 774,
+          "nombre": "Ostrogodos y longobardos",
+          "resumen": "Odoacro, los ostrogodos de Teodorico, Bizancio y, desde 568, los longobardos, que dejan su nombre a Lombardía."
+        },
+        {
+          "desde": 774,
+          "hasta": 1167,
+          "nombre": "Reino de Italia y comunas",
+          "resumen": "Bajo los carolingios y los emperadores germánicos crecen las ciudades, que se gobiernan como comunas."
+        },
+        {
+          "desde": 1167,
+          "hasta": 1859,
+          "nombre": "Comunas, señoríos y dominios extranjeros",
+          "resumen": "La Liga Lombarda (1167) enfrenta a Federico Barbarroja; luego Milán de los Visconti y los Sforza, Venecia, el Piamonte saboyano, y el dominio español y austríaco."
+        },
+        {
+          "desde": 1859,
+          "hasta": null,
+          "nombre": "Italia unida",
+          "resumen": "La guerra de 1859 une Lombardía al reino de Cerdeña, que en 1861 se vuelve reino de Italia."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -900,
+          "hasta": -191,
+          "nombre": "Religiones etrusca y véneta",
+          "familia": "politeismo-romano",
+          "peso": "importante",
+          "nota": "Los vénetos tenían su gran santuario de la diosa Reitia en Este."
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "Religión de los galos cisalpinos",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Casi todo viene de Polibio y de Livio. Livio (XXIII.24) cuenta que los boyos usaron como copa ritual el cráneo dorado de Lucio Postumio, cónsul electo muerto en 216 a. C.; es un autor tardío y hostil, aunque la costumbre de guardar cabezas de enemigos aparece también en la arqueología de la Galia."
+        },
+        {
+          "desde": -191,
+          "hasta": -42,
+          "nombre": "Religión gala",
+          "familia": "paganismo-celta",
+          "peso": "importante"
+        },
+        {
+          "desde": -191,
+          "hasta": -42,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "importante"
+        },
+        {
+          "desde": -42,
+          "hasta": 380,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 380,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "Ambrosio, obispo de Milán entre 374 y 397, fue una de las figuras de la Iglesia de su tiempo."
+        },
+        {
+          "desde": 489,
+          "hasta": 680,
+          "nombre": "Arrianismo (ostrogodos y longobardos)",
+          "familia": "arrianismo",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítica y calcolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -900,
+          "nombre": "Palafitos y terramare",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -900,
+          "hasta": -400,
+          "nombre": "Golasecca",
+          "familia": "golasecca",
+          "peso": "importante",
+          "nota": "En el oeste de la llanura y los lagos Mayor y de Como. Como sus inscripciones están en lepóntico, una lengua celta, se la toma por la cultura de los primeros celtas de Italia; que hubiera celtas allí antes de las invasiones galas del siglo IV a. C. es lo que mostró el desciframiento del lepóntico."
+        },
+        {
+          "desde": -900,
+          "hasta": -350,
+          "nombre": "Etrusca (Felsina, Spina, Mantua)",
+          "familia": "etrusca",
+          "peso": "importante",
+          "nota": "Desde la cultura de Villanova en Bolonia (siglo IX a. C.); las ciudades etruscas de la llanura son de los siglos VI y V a. C."
+        },
+        {
+          "desde": -900,
+          "hasta": -89,
+          "nombre": "Véneta",
+          "familia": "veneta",
+          "peso": "importante"
+        },
+        {
+          "desde": -900,
+          "hasta": -150,
+          "nombre": "Ligur",
+          "familia": "ligur",
+          "peso": "minoritaria",
+          "nota": "En el oeste, el Piamonte y los Apeninos."
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "Gala (insubres, boyos, cenomanos)",
+          "familia": "gala",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -191,
+          "hasta": -42,
+          "nombre": "Gala",
+          "familia": "gala",
+          "peso": "importante"
+        },
+        {
+          "desde": -218,
+          "hasta": -89,
+          "nombre": "Romana (colonias)",
+          "familia": "latina",
+          "peso": "importante"
+        },
+        {
+          "desde": -89,
+          "hasta": 900,
+          "nombre": "Romana",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 489,
+          "hasta": 553,
+          "nombre": "Ostrogoda",
+          "familia": "goda",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 568,
+          "hasta": 774,
+          "nombre": "Longobarda",
+          "familia": "germanica",
+          "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Italiana (lombarda, piamontesa, emiliana, véneta)",
+          "familia": "italiana",
+          "peso": "mayoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -600,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -600,
+          "hasta": -100,
+          "nombre": "Lepóntico",
+          "familia": "lepontico",
+          "peso": "importante",
+          "nota": "Inscripciones en el alfabeto llamado de Lugano, adaptado del etrusco, desde el siglo VI a. C.: es la lengua celta escrita más antigua. Si es una lengua aparte o un dialecto antiguo del galo se discute."
+        },
+        {
+          "desde": -700,
+          "hasta": -200,
+          "nombre": "Etrusco",
+          "familia": "etrusco",
+          "peso": "importante"
+        },
+        {
+          "desde": -550,
+          "hasta": -50,
+          "nombre": "Vénetico",
+          "familia": "venetico",
+          "peso": "importante",
+          "nota": "Lengua indoeuropea cercana a las itálicas, con inscripciones de los siglos VI a I a. C., sobre todo en Este."
+        },
+        {
+          "desde": -600,
+          "hasta": -100,
+          "nombre": "Ligur",
+          "familia": "ligur",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "Galo cisalpino",
+          "familia": "galo",
+          "peso": "mayoritaria",
+          "nota": "Escrito con el alfabeto de Lugano; las bilingües latino-galas de Vercelli y de Todi son del siglo II o I a. C."
+        },
+        {
+          "desde": -191,
+          "hasta": -42,
+          "nombre": "Galo cisalpino",
+          "familia": "galo",
+          "peso": "importante"
+        },
+        {
+          "desde": -218,
+          "hasta": -89,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": -89,
+          "hasta": 900,
+          "nombre": "Latín y latín hablado",
+          "familia": "latin",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 568,
+          "hasta": 800,
+          "nombre": "Longobardo",
+          "familia": "germanicas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Lenguas galoitálicas, véneto e italiano",
+          "familia": "italiano",
+          "peso": "mayoritaria",
+          "nota": "El lombardo, el piamontés y el emiliano-romañol forman el grupo galoitálico; qué tanto les debe al sustrato celta se discute. El italiano estándar se impone en el siglo XX."
+        }
+      ]
+    },
+    {
+      "id": "armorica",
+      "nombre": "Armórica (Bretaña)",
+      "padre": "francia",
+      "poligono": [
+        [
+          -1.55,
+          48.62
+        ],
+        [
+          -2.0,
+          48.65
+        ],
+        [
+          -2.35,
+          48.68
+        ],
+        [
+          -3.05,
+          48.82
+        ],
+        [
+          -3.55,
+          48.83
+        ],
+        [
+          -4.0,
+          48.73
+        ],
+        [
+          -4.6,
+          48.6
+        ],
+        [
+          -4.78,
+          48.38
+        ],
+        [
+          -4.5,
+          48.25
+        ],
+        [
+          -4.72,
+          48.03
+        ],
+        [
+          -4.35,
+          47.8
+        ],
+        [
+          -3.9,
+          47.85
+        ],
+        [
+          -3.35,
+          47.7
+        ],
+        [
+          -3.1,
+          47.48
+        ],
+        [
+          -2.75,
+          47.5
+        ],
+        [
+          -2.45,
+          47.45
+        ],
+        [
+          -2.15,
+          47.25
+        ],
+        [
+          -2.0,
+          47.05
+        ],
+        [
+          -1.65,
+          46.97
+        ],
+        [
+          -1.3,
+          47.05
+        ],
+        [
+          -1.1,
+          47.35
+        ],
+        [
+          -1.3,
+          47.75
+        ],
+        [
+          -1.15,
+          48.1
+        ],
+        [
+          -1.1,
+          48.45
+        ]
+      ],
+      "resumen": "La península de Bretaña, la Armórica de los autores romanos (en galo, «la tierra junto al mar»), donde vivían vénetos, osismos, coriosolitas, redones y namnetes; para César, Armórica abarcaba también la costa de Normandía hasta el Sena. Es tierra de megalitos, como Carnac, y fue escenario de la guerra naval de César contra los vénetos (56 a. C.). Entre los siglos V y VII la poblaron britanos de Gran Bretaña, que le dieron su nombre y el bretón, la única lengua celta que se habla hoy en el continente.",
+      "eras": [
+        {
+          "desde": -5000,
+          "hasta": -2200,
+          "nombre": "Neolítico",
+          "resumen": "Algunos de los megalitos más antiguos de Europa: el túmulo de Barnenez (hacia 4500 a. C.), el gran menhir de Locmariaquer y los alineamientos de Carnac."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Túmulos con armas y oro de los jefes armoricanos (hacia 2000-1600 a. C.) y luego el circuito del Bronce Atlántico."
+        },
+        {
+          "desde": -800,
+          "hasta": -56,
+          "nombre": "Edad del Hierro",
+          "resumen": "Pueblos de la costa que comercian con Britania; Piteas pasa por el cabo de los osismos hacia 325 a. C. (lo cuenta Estrabón, I.4.5)."
+        },
+        {
+          "desde": -56,
+          "hasta": 409,
+          "nombre": "Armórica romana",
+          "resumen": "César vence a los vénetos en el mar en 56 a. C. (Guerra de las Galias III.8-16) y vende como esclavos a los sobrevivientes. Roma funda ciudades como Condate (Rennes) y Darioritum (Vannes); en el siglo IV se fortifica la costa."
+        },
+        {
+          "desde": 409,
+          "hasta": 845,
+          "nombre": "Los britanos de Armórica",
+          "resumen": "Zósimo (VI.5) cuenta que en 409 los armoricanos echaron a los funcionarios romanos. Britanos de Gran Bretaña se asientan entre los siglos V y VII y forman los reinos de Domnonea, Cornualla y Bro Waroch; los francos dominan apenas el este."
+        },
+        {
+          "desde": 845,
+          "hasta": 1532,
+          "nombre": "Reino y ducado de Bretaña",
+          "resumen": "Nominoe vence a Carlos el Calvo en Ballon (845) y su hijo Erispoe es reconocido rey; luego ducado, casi independiente hasta su unión con Francia en 1532."
+        },
+        {
+          "desde": 1532,
+          "hasta": null,
+          "nombre": "Bretaña francesa",
+          "resumen": "Provincia y después región de Francia; el bretón retrocede ante el francés, sobre todo en el siglo XX."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -56,
+          "hasta": 300,
+          "nombre": "Religión gala",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "La conocemos por dedicatorias de época romana, como las de Marte Mulo en Rennes, y por Pomponio Mela (III.48), que pone en la isla de Sena (Sein) nueve sacerdotisas con poderes de oráculo."
+        },
+        {
+          "desde": -56,
+          "hasta": 400,
+          "nombre": "Religión galorromana",
+          "familia": "politeismo-romano",
+          "peso": "importante"
+        },
+        {
+          "desde": 400,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "Los santos fundadores britanos de los siglos V y VI (Sansón, Pol Aurelian, Tudual, Brioc, Malo) dieron nombre a obispados y pueblos."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -5000,
+          "hasta": -2200,
+          "nombre": "Neolítica y megalítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2500,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "importante"
+        },
+        {
+          "desde": -2200,
+          "hasta": -1300,
+          "nombre": "Túmulos armoricanos",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Bronce Atlántico",
+          "familia": "bronce-atlantico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -56,
+          "nombre": "Gala (vénetos, osismos, coriosolitas, redones, namnetes)",
+          "familia": "gala",
+          "peso": "mayoritaria",
+          "nota": "Llamarla gala desde el comienzo de la Edad del Hierro es una inferencia: los nombres celtas de sus pueblos llegan con Piteas (hacia 325 a. C.) y César (56 a. C.)."
+        },
+        {
+          "desde": -56,
+          "hasta": 450,
+          "nombre": "Galorromana",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 450,
+          "hasta": 1532,
+          "nombre": "Bretona",
+          "familia": "britona",
+          "peso": "mayoritaria",
+          "nota": "Los britanos llegaron desde Gales, Cornualles y Devon; la emigración la cuentan Gildas y las vidas de santos como Sansón de Dol, y la confirman los nombres de lugar en plou- y tre-."
+        },
+        {
+          "desde": 450,
+          "hasta": 900,
+          "nombre": "Galorromana del este",
+          "familia": "latina",
+          "peso": "importante",
+          "nota": "Rennes, Nantes y el país del galó."
+        },
+        {
+          "desde": 900,
+          "hasta": 1532,
+          "nombre": "Romance del este (galó) y francesa",
+          "familia": "francesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1532,
+          "hasta": null,
+          "nombre": "Francesa",
+          "familia": "francesa",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1532,
+          "hasta": null,
+          "nombre": "Bretona",
+          "familia": "britona",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5000,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -325,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -325,
+          "hasta": -56,
+          "nombre": "Galo",
+          "familia": "galo",
+          "peso": "mayoritaria",
+          "nota": "Desde los primeros nombres que transmite Piteas, como el de los osismos."
+        },
+        {
+          "desde": -56,
+          "hasta": 500,
+          "nombre": "Galo",
+          "familia": "galo",
+          "peso": "importante",
+          "nota": "Fleuriot (Les origines de la Bretagne, 1980) sostuvo que el galo seguía vivo en Armórica cuando llegaron los britanos y dejó huella en el bretón, sobre todo en el dialecto de Vannes; Jackson (A Historical Phonology of Breton, 1967) lo dudaba."
+        },
+        {
+          "desde": -56,
+          "hasta": 500,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": 450,
+          "hasta": 1500,
+          "nombre": "Bretón",
+          "familia": "breton",
+          "peso": "mayoritaria",
+          "nota": "Mayoritario por territorio, no en toda la península. En el siglo IX se hablaba hasta Dol, Montfort, Blain y Donges, y Rennes y Nantes quedaban en zona romance: unas tres cuartas partes de la región. En el siglo XII había retrocedido hasta Dinan y Pornichet (Abalain, 1998), unos dos tercios, y entre los siglos XIV y XV perdió el Penthièvre y el Porhoët (Vallerie, 1995): en 1545, cuando Jean Fonteneau pone la frontera entre Saint-Brieuc y Le Croisic, ya era algo menos de la mitad. Por población la parte romance pudo pesar más, porque tenía las ciudades mayores; no hay recuentos de hablantes antes del siglo XIX."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1950,
+          "nombre": "Bretón",
+          "familia": "breton",
+          "peso": "importante",
+          "nota": "La Baja Bretaña, al oeste de la frontera que Jean Fonteneau pone en 1545 entre Saint-Brieuc y Le Croisic y Paul Sébillot en 1886 entre Plouha y Batz-sur-Mer: algo menos de la mitad de la región."
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Bretón",
+          "familia": "breton",
+          "peso": "minoritaria",
+          "nota": "Desde mediados del siglo XX casi no se transmite en las familias; lo sostienen escuelas como las Diwan (desde 1977)."
+        },
+        {
+          "desde": 500,
+          "hasta": 1500,
+          "nombre": "Galó y francés",
+          "familia": "frances",
+          "peso": "importante",
+          "nota": "El este de la península, con los países de Rennes y de Nantes, nunca habló bretón: allí el latín pasó al romance local, el galó, y la frontera con el bretón se fue corriendo hacia el oeste."
+        },
+        {
+          "desde": 1500,
+          "hasta": null,
+          "nombre": "Francés (y galó en el este)",
+          "familia": "frances",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "caledonia",
+      "nombre": "Caledonia",
+      "padre": "britania",
+      "poligono": [
+        [
+          -4.5,
+          55.92
+        ],
+        [
+          -3.6,
+          56.02
+        ],
+        [
+          -3.0,
+          56.05
+        ],
+        [
+          -2.55,
+          56.28
+        ],
+        [
+          -2.45,
+          56.75
+        ],
+        [
+          -2.05,
+          57.15
+        ],
+        [
+          -1.75,
+          57.5
+        ],
+        [
+          -2.1,
+          57.7
+        ],
+        [
+          -3.3,
+          57.72
+        ],
+        [
+          -3.75,
+          57.85
+        ],
+        [
+          -3.05,
+          58.45
+        ],
+        [
+          -2.75,
+          58.75
+        ],
+        [
+          -2.4,
+          59.3
+        ],
+        [
+          -1.25,
+          59.85
+        ],
+        [
+          -0.75,
+          60.4
+        ],
+        [
+          -0.8,
+          60.85
+        ],
+        [
+          -1.4,
+          60.6
+        ],
+        [
+          -1.7,
+          60.25
+        ],
+        [
+          -3.4,
+          59.1
+        ],
+        [
+          -3.4,
+          58.65
+        ],
+        [
+          -5.0,
+          58.62
+        ],
+        [
+          -6.3,
+          58.55
+        ],
+        [
+          -7.2,
+          58.2
+        ],
+        [
+          -7.6,
+          57.5
+        ],
+        [
+          -7.6,
+          56.8
+        ],
+        [
+          -6.9,
+          56.45
+        ],
+        [
+          -6.3,
+          56.3
+        ],
+        [
+          -6.5,
+          55.65
+        ],
+        [
+          -5.8,
+          55.3
+        ],
+        [
+          -5.2,
+          55.45
+        ],
+        [
+          -4.85,
+          55.75
+        ]
+      ],
+      "resumen": "La Escocia al norte del istmo entre el Forth y el Clyde, con las Hébridas, las Orcadas y las Shetland, que los romanos llamaron Caledonia y nunca conquistaron del todo. Sus pueblos, los caledonios de Tácito y desde fines del siglo III los pictos, dejaron brochs, fuertes y piedras con símbolos que nadie ha descifrado; en el oeste, gente de Irlanda formó el reino de Dál Riata. De la unión de pictos y escotos en el siglo IX salió el reino de Alba, el núcleo de Escocia.",
+      "eras": [
+        {
+          "desde": -4000,
+          "hasta": -2400,
+          "nombre": "Neolítico",
+          "resumen": "En las Orcadas, la aldea de Skara Brae, la tumba de Maeshowe y los anillos de piedra de Stenness y Brodgar (hacia 3100-2500 a. C.)."
+        },
+        {
+          "desde": -2400,
+          "hasta": -800,
+          "nombre": "Campaniforme y Edad del Bronce",
+          "resumen": "Llegan el campaniforme y la ascendencia esteparia (Olalde et al. 2018); en el noreste se levantan círculos de piedras con una piedra acostada."
+        },
+        {
+          "desde": -800,
+          "hasta": 79,
+          "nombre": "Edad del Hierro",
+          "resumen": "Brochs (torres de piedra seca, sobre todo de los siglos I a. C. y I d. C.), crannogs en los lagos y fuertes con murallas vitrificadas."
+        },
+        {
+          "desde": 79,
+          "hasta": 297,
+          "nombre": "Las campañas romanas",
+          "resumen": "Agrícola avanza hacia el norte y vence en el monte Graupio (83 u 84), según Tácito, su yerno; Roma levanta el muro de Antonino (desde 142), lo abandona hacia 160, y Septimio Severo hace campañas en 208-211."
+        },
+        {
+          "desde": 297,
+          "hasta": 843,
+          "nombre": "Pictos y Dál Riata",
+          "resumen": "Los pictos aparecen en un panegírico de 297; en 685 vencen a los northumbrios en Nechtansmere. En el oeste, Dál Riata, con el monasterio de Iona, fundado por Columba en 563. Desde fines del siglo VIII llegan los vikingos."
+        },
+        {
+          "desde": 843,
+          "hasta": 1707,
+          "nombre": "Alba y el reino de Escocia",
+          "resumen": "Cináed mac Ailpín reina sobre pictos y escotos hacia 843; el reino de Alba se vuelve Escocia. Las Hébridas pasan de Noruega a Escocia en 1266 y las Orcadas y Shetland en 1468-1469."
+        },
+        {
+          "desde": 1707,
+          "hasta": null,
+          "nombre": "Escocia en el Reino Unido",
+          "resumen": "Unión con Inglaterra; tras Culloden (1746) y los desalojos de las Highlands, el gaélico retrocede."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": 80,
+          "hasta": 600,
+          "nombre": "Religión de caledonios y pictos",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Casi nada se sabe: los símbolos de las piedras pictas no se han descifrado y las fuentes son cristianas y posteriores. Que fuera parecida a la de los britanos o los galos es una suposición."
+        },
+        {
+          "desde": 563,
+          "hasta": 600,
+          "nombre": "Cristianismo",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Beda (Historia eclesiástica III.4) atribuye a Columba la conversión de los pictos del norte, en tiempos del rey Bridei (hacia 565), y a Ninian la de los del sur, una tradición discutida."
+        },
+        {
+          "desde": 600,
+          "hasta": 1560,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 1000,
+          "nombre": "Religión nórdica (islas)",
+          "familia": "religion-nordica",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1560,
+          "hasta": null,
+          "nombre": "Iglesia de Escocia (presbiteriana)",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1560,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "minoritaria",
+          "nota": "Se conservó en algunas islas y valles de las Highlands, como Barra y South Uist."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -4000,
+          "hasta": -2400,
+          "nombre": "Neolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2400,
+          "hasta": -2000,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": 900,
+          "nombre": "Caledonios y pictos",
+          "familia": "picta",
+          "peso": "mayoritaria",
+          "nota": "Los pictos se consideran hoy descendientes de los pueblos de la Edad del Hierro del norte, no inmigrantes: el nombre cambia en las fuentes romanas, no necesariamente la gente. La leyenda de su origen en Escitia (Beda, Historia eclesiástica I.1) no tiene base."
+        },
+        {
+          "desde": 500,
+          "hasta": 900,
+          "nombre": "Gaélica (Dál Riata)",
+          "familia": "gaelica",
+          "peso": "importante",
+          "nota": "La tradición la hace fundar por Fergus Mór hacia 500; la arqueología no muestra una gran migración desde Irlanda y el origen se discute (Campbell, 2001)."
+        },
+        {
+          "desde": 800,
+          "hasta": 1469,
+          "nombre": "Nórdica (Orcadas, Shetland y Hébridas)",
+          "familia": "nordica",
+          "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": 1400,
+          "nombre": "Gaélica (Alba)",
+          "familia": "gaelica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1100,
+          "hasta": 1400,
+          "nombre": "Escocesa de las tierras bajas",
+          "familia": "inglesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1400,
+          "hasta": null,
+          "nombre": "Escocesa (scots y luego inglés)",
+          "familia": "inglesa",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1400,
+          "hasta": null,
+          "nombre": "Gaélica de las Highlands",
+          "familia": "gaelica",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -4000,
+          "hasta": -2400,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2400,
+          "hasta": 80,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": 80,
+          "hasta": 900,
+          "nombre": "Picto (y la lengua de los caledonios)",
+          "familia": "picto",
+          "peso": "mayoritaria",
+          "nota": "Lo conocemos por nombres de reyes, pueblos y lugares (los que empiezan con pit-, como Pitlochry) y por algunas inscripciones ogámicas que no se entienden. Jackson (1955) creyó que convivía con una lengua no indoeuropea; hoy la mayoría lo ve como una lengua britónica (Forsyth, Language in Pictland, 1997; Rhys, 2015)."
+        },
+        {
+          "desde": 500,
+          "hasta": 900,
+          "nombre": "Gaélico (Dál Riata)",
+          "familia": "irlandes",
+          "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": 1400,
+          "nombre": "Gaélico",
+          "familia": "irlandes",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1400,
+          "hasta": 1800,
+          "nombre": "Gaélico escocés",
+          "familia": "irlandes",
+          "peso": "importante"
+        },
+        {
+          "desde": 1800,
+          "hasta": null,
+          "nombre": "Gaélico escocés",
+          "familia": "irlandes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 1266,
+          "nombre": "Nórdico antiguo y norn",
+          "familia": "nordico",
+          "peso": "importante"
+        },
+        {
+          "desde": 1266,
+          "hasta": 1800,
+          "nombre": "Norn (Orcadas y Shetland)",
+          "familia": "nordico",
+          "peso": "minoritaria",
+          "nota": "Lengua nórdica que se perdió en el siglo XVIII."
+        },
+        {
+          "desde": 1100,
+          "hasta": 1400,
+          "nombre": "Scots (tierras bajas del este)",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1400,
+          "hasta": null,
+          "nombre": "Scots e inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        }
+      ]
+    },
+    {
+      "id": "norico",
+      "nombre": "Nórico",
+      "padre": "alemania",
+      "poligono": [
+        [
+          13.45,
+          48.57
+        ],
+        [
+          13.05,
+          48.27
+        ],
+        [
+          12.5,
+          48.1
+        ],
+        [
+          12.12,
+          47.85
+        ],
+        [
+          11.85,
+          47.4
+        ],
+        [
+          11.9,
+          47.15
+        ],
+        [
+          12.4,
+          47.1
+        ],
+        [
+          13.0,
+          46.85
+        ],
+        [
+          13.7,
+          46.6
+        ],
+        [
+          14.6,
+          46.5
+        ],
+        [
+          15.3,
+          46.68
+        ],
+        [
+          16.0,
+          46.92
+        ],
+        [
+          16.1,
+          47.45
+        ],
+        [
+          16.15,
+          47.9
+        ],
+        [
+          16.25,
+          48.25
+        ],
+        [
+          15.6,
+          48.4
+        ],
+        [
+          15.0,
+          48.2
+        ],
+        [
+          14.3,
+          48.3
+        ],
+        [
+          13.8,
+          48.45
+        ]
+      ],
+      "resumen": "Los Alpes orientales al sur del Danubio, más o menos la Austria actual: el reino celta del Nórico, una confederación de pueblos encabezada por los nóricos, con su centro en el Magdalensberg y famosa por su hierro. Se incorporó a Roma sin guerra hacia 15 a. C. y fue provincia, con capital en Virunum. Antes, la mina de sal de Hallstatt dio nombre a la primera Edad del Hierro europea. El polígono deja afuera la parte del Nórico romano que hoy es Eslovenia, con Celeia (Celje).",
+      "eras": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Agricultores de la cerámica de bandas en la llanura del Danubio y palafitos en los lagos del Salzkammergut (cultura de Mondsee)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Minas de cobre en los Alpes, como el Mitterberg, y de sal en Hallstatt."
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt",
+          "resumen": "La necrópolis de la mina de sal de Hallstatt, con cerca de mil tumbas excavadas por Johann Georg Ramsauer desde 1846, da nombre a la época."
+        },
+        {
+          "desde": -450,
+          "hasta": -15,
+          "nombre": "La Tène y el reino del Nórico",
+          "resumen": "Pueblos celtas como los nóricos y los tauriscos forman el regnum Noricum, socio de Roma, que vende hierro desde el Magdalensberg, donde se instalan mercaderes itálicos. Los cimbrios vencen a un ejército romano en Noreya (113 a. C.)."
+        },
+        {
+          "desde": -15,
+          "hasta": 488,
+          "nombre": "Nórico romano",
+          "resumen": "Incorporado hacia 15 a. C. y provincia desde Claudio, con ciudades como Virunum, Teurnia, Iuvavum (Salzburgo) y Ovilava (Wels). San Severino (muerto en 482) organizó a los últimos provinciales, que Odoacro llevó a Italia en 488."
+        },
+        {
+          "desde": 488,
+          "hasta": 976,
+          "nombre": "Bávaros, eslavos y carolingios",
+          "resumen": "Los bávaros ocupan el norte y los eslavos el sur, donde forman Carantania; desde el siglo VIII, la región pasa a Baviera y a los carolingios."
+        },
+        {
+          "desde": 976,
+          "hasta": 1918,
+          "nombre": "Austria de los Babenberg y los Habsburgo",
+          "resumen": "La marca oriental de Baviera se vuelve el ducado de Austria y, con los Habsburgo, el centro de una monarquía europea."
+        },
+        {
+          "desde": 1918,
+          "hasta": null,
+          "nombre": "Austria contemporánea",
+          "resumen": "República desde 1918, anexada por Alemania entre 1938 y 1945."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -450,
+          "hasta": -15,
+          "nombre": "Religión nórica",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Sin textos propios; por las dedicatorias de época romana conocemos a Noreia, diosa del país, y a Belenos, honrado sobre todo en la vecina Aquilea."
+        },
+        {
+          "desde": -15,
+          "hasta": 400,
+          "nombre": "Religión romana y cultos indígenas",
+          "familia": "politeismo-romano",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 300,
+          "hasta": 400,
+          "nombre": "Cristianismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 400,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "La Vida de Severino de Eugipio (511) muestra un Nórico cristiano a fines del siglo V."
+        },
+        {
+          "desde": 550,
+          "hasta": 750,
+          "nombre": "Religión germánica (bávaros)",
+          "familia": "paganismo-germanico",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 590,
+          "hasta": 800,
+          "nombre": "Religión eslava (Carantania)",
+          "familia": "paganismo-eslavo",
+          "peso": "importante",
+          "nota": "Los carantanos se convierten desde mediados del siglo VIII con misioneros de Salzburgo."
+        },
+        {
+          "desde": 1520,
+          "hasta": 1630,
+          "nombre": "Protestantismo",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "Mayoritario en buena parte de Austria hacia 1570, hasta la Contrarreforma de los Habsburgo."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítica y calcolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Campos de urnas",
+          "familia": "campos-de-urnas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt",
+          "familia": "hallstatt",
+          "peso": "mayoritaria",
+          "nota": "Llamarla celta es una inferencia: la cultura de Hallstatt se suele ligar con los antepasados de los celtas, pero en los Alpes orientales no hay textos de esa época."
+        },
+        {
+          "desde": -450,
+          "hasta": -15,
+          "nombre": "Celta (nóricos, tauriscos y otros)",
+          "familia": "celta",
+          "peso": "mayoritaria",
+          "nota": "Polibio, citado por Estrabón (IV.6.12), cuenta una fiebre del oro en tierra de los tauriscos nóricos."
+        },
+        {
+          "desde": -15,
+          "hasta": 200,
+          "nombre": "Celta bajo Roma",
+          "familia": "celta",
+          "peso": "importante",
+          "nota": "Las lápidas romanas del Nórico muestran muchos nombres y trajes celtas hasta el siglo II."
+        },
+        {
+          "desde": -15,
+          "hasta": 600,
+          "nombre": "Romana del Nórico",
+          "familia": "latina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 550,
+          "hasta": 750,
+          "nombre": "Bávara",
+          "familia": "germanica",
+          "peso": "importante"
+        },
+        {
+          "desde": 590,
+          "hasta": 900,
+          "nombre": "Eslava (Carantania)",
+          "familia": "eslava-meridional",
+          "peso": "importante"
+        },
+        {
+          "desde": 750,
+          "hasta": null,
+          "nombre": "Alemana (austríaca)",
+          "familia": "alemana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Eslovena (Carintia)",
+          "familia": "eslava-meridional",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -450,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -450,
+          "hasta": -15,
+          "nombre": "Celta nórico",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Se conoce sobre todo por nombres de personas, pueblos, lugares y dioses en lápidas latinas, y por muy pocas inscripciones breves en alfabeto del norte de Italia."
+        },
+        {
+          "desde": -15,
+          "hasta": 300,
+          "nombre": "Celta nórico",
+          "familia": "celtas",
+          "peso": "importante"
+        },
+        {
+          "desde": -15,
+          "hasta": 100,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": 100,
+          "hasta": 600,
+          "nombre": "Latín y latín hablado",
+          "familia": "latin",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 550,
+          "hasta": 800,
+          "nombre": "Bávaro antiguo",
+          "familia": "germanicas",
+          "peso": "importante"
+        },
+        {
+          "desde": 800,
+          "hasta": null,
+          "nombre": "Alemán (bávaro-austríaco)",
+          "familia": "aleman",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 590,
+          "hasta": 900,
+          "nombre": "Eslavo alpino (antecesor del esloveno)",
+          "familia": "eslavas-meridionales",
+          "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Esloveno (Carintia)",
+          "familia": "eslavas-meridionales",
+          "peso": "minoritaria"
+        }
+      ]
+    }
+  ],
+  "fuentes": [],
+  "personas": [],
+  "hechos": [],
+  "lugares": []
+}

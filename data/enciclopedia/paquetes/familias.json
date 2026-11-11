@@ -1145,6 +1145,7 @@
       "nombre": "Celta",
       "padre": null,
       "color": "#5a9a80",
+      "nota": "Agrupa a los pueblos de lengua celta. Los griegos los llamaban keltoi y galatai y los romanos celtae y galli; irlandeses y galeses no se llamaron celtas hasta que Edward Lhuyd (1707) usó el nombre para sus lenguas, y si la cultura celta antigua fue una unidad se discute (James, 1999; Collis, 2003).",
       "wikipedia": {
         "es": "Celta",
         "en": "Celts"
@@ -1390,7 +1391,7 @@
       "capa": "idiomas",
       "id": "gales",
       "nombre": "Galés",
-      "padre": "celtas",
+      "padre": "britonico",
       "color": "#6aa890",
       "wikipedia": {
         "es": "Idioma galés",
@@ -1401,7 +1402,7 @@
       "capa": "idiomas",
       "id": "breton",
       "nombre": "Bretón",
-      "padre": "celtas",
+      "padre": "britonico",
       "color": "#7ab0a0",
       "wikipedia": {
         "es": "Idioma bretón",
@@ -3048,6 +3049,488 @@
       "wikipedia": {
         "es": "Irreligión",
         "en": "Irreligion"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "preindoeuropeas",
+      "nombre": "Lenguas preindoeuropeas desconocidas",
+      "padre": null,
+      "color": "#8f8577",
+      "nota": "Las lenguas de los agricultores neolíticos de Europa, anteriores a la llegada de las indoeuropeas. No dejaron textos: se usan en el mapa para lo anterior a toda lengua documentada, y sus restos se buscan en topónimos y préstamos con tesis muy discutidas (la «vascónica» de Vennemann, por ejemplo, tiene poco apoyo).",
+      "wikipedia": {
+        "es": "Lenguas preindoeuropeas",
+        "en": "Pre-Indo-European languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "galo",
+      "nombre": "Galo",
+      "padre": "celtas",
+      "color": "#4f8a6a",
+      "nota": "Lengua celta de la Galia, escrita desde el siglo III a. C. con letras griegas y luego latinas; se extinguió entre los siglos V y VI.",
+      "wikipedia": {
+        "es": "Idioma galo",
+        "en": "Gaulish"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lepontico",
+      "nombre": "Lepóntico",
+      "padre": "celtas",
+      "color": "#8ab08a",
+      "nota": "La lengua celta escrita más antigua (siglo VI a. C.), de los lagos del norte de Italia. Si es una lengua aparte o un galo arcaico se discute.",
+      "wikipedia": {
+        "es": "Idioma lepóntico",
+        "en": "Lepontic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "celtibero",
+      "nombre": "Celtíbero",
+      "padre": "celtas",
+      "color": "#6f9a5a",
+      "nota": "Lengua celta de la Meseta oriental de la península ibérica, escrita en los siglos II y I a. C.",
+      "wikipedia": {
+        "es": "Idioma celtíbero",
+        "en": "Celtiberian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "galata",
+      "nombre": "Gálata",
+      "padre": "celtas",
+      "color": "#4a9a96",
+      "nota": "Lengua celta de Anatolia central, conocida solo por nombres y glosas.",
+      "wikipedia": {
+        "es": "Idioma gálata",
+        "en": "Galatian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "britonico",
+      "nombre": "Britónico",
+      "padre": "celtas",
+      "color": "#62a07a",
+      "nota": "La lengua celta de la Britania antigua, de la que vienen el galés, el córnico y el bretón (que en el mapa tienen sus propias familias).",
+      "wikipedia": {
+        "en": "Common Brittonic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "picto",
+      "nombre": "Picto",
+      "padre": "celtas",
+      "color": "#5a8a9a",
+      "nota": "Lengua de los pictos del norte de Escocia, conocida solo por nombres y unas pocas inscripciones. Hoy la mayoría la considera britónica; Jackson (1955) la creyó en parte no indoeuropea.",
+      "wikipedia": {
+        "es": "Idioma picto",
+        "en": "Pictish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lusitano",
+      "nombre": "Lusitano",
+      "padre": "indoeuropeas",
+      "color": "#8a7aa8",
+      "nota": "Lengua indoeuropea del oeste de la península ibérica, con un puñado de inscripciones de los siglos I y II. Si es celta se discute.",
+      "wikipedia": {
+        "es": "Idioma lusitano",
+        "en": "Lusitanian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "iberico",
+      "nombre": "Ibérico",
+      "padre": null,
+      "color": "#b5603f",
+      "nota": "Lengua no indoeuropea del este y el sur de la península ibérica; se leen sus escrituras pero no se entienden los textos.",
+      "wikipedia": {
+        "es": "Idioma íbero",
+        "en": "Iberian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "tartesio",
+      "nombre": "Tartesio",
+      "padre": null,
+      "color": "#c8904a",
+      "nota": "Lengua de las estelas del suroeste de la península. Koch (2009 y siguientes) la lee como celta; la mayoría la deja sin clasificar.",
+      "wikipedia": {
+        "es": "Idioma tartésico",
+        "en": "Tartessian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "aquitano",
+      "nombre": "Aquitano",
+      "padre": "vasco",
+      "color": "#9e4a3e",
+      "nota": "Lengua de los aquitanos de época romana, conocida por nombres en inscripciones latinas; emparentada con el antecesor del euskera.",
+      "wikipedia": {
+        "es": "Idioma aquitano",
+        "en": "Aquitanian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "tirsenicas",
+      "nombre": "Lenguas tirsénicas",
+      "padre": null,
+      "color": "#8a4a5a",
+      "nota": "El etrusco, el rético y la lengua de la estela de Lemnos, no indoeuropeas.",
+      "wikipedia": {
+        "es": "Lenguas tirsénicas",
+        "en": "Tyrsenian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "etrusco",
+      "nombre": "Etrusco",
+      "padre": "tirsenicas",
+      "color": "#9a4a5a",
+      "wikipedia": {
+        "es": "Idioma etrusco",
+        "en": "Etruscan language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "retico",
+      "nombre": "Rético",
+      "padre": "tirsenicas",
+      "color": "#7a5a6a",
+      "nota": "Lengua de los Alpes centrales y orientales, escrita entre los siglos V y I a. C.",
+      "wikipedia": {
+        "es": "Idioma rético",
+        "en": "Rhaetic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ligur",
+      "nombre": "Ligur antiguo",
+      "padre": null,
+      "color": "#8a8a5a",
+      "nota": "Lengua mal conocida del noroeste de Italia y el sudeste de Francia; si era indoeuropea, y si estaba cerca del celta, se discute.",
+      "wikipedia": {
+        "es": "Antiguo idioma ligur",
+        "en": "Ligurian language (ancient)"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "venetico",
+      "nombre": "Vénetico",
+      "padre": "indoeuropeas",
+      "color": "#7a8ab8",
+      "nota": "Lengua indoeuropea del nordeste de Italia, cercana a las itálicas.",
+      "wikipedia": {
+        "es": "Idioma venético",
+        "en": "Venetic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "tracio",
+      "nombre": "Tracio y dacio",
+      "padre": "indoeuropeas",
+      "color": "#9a6a8a",
+      "nota": "Lenguas indoeuropeas casi sin textos de los Balcanes orientales y de la Dacia. Si el dacio era un dialecto del tracio se discute.",
+      "wikipedia": {
+        "es": "Idioma tracio",
+        "en": "Thracian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ilirio",
+      "nombre": "Ilirio",
+      "padre": "indoeuropeas",
+      "color": "#8a6a5a",
+      "nota": "Lengua o lenguas de los Balcanes occidentales, conocidas solo por nombres.",
+      "wikipedia": {
+        "es": "Lenguas ilirias",
+        "en": "Illyrian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "frigio",
+      "nombre": "Frigio",
+      "padre": "indoeuropeas",
+      "color": "#8aa0b8",
+      "nota": "Lengua indoeuropea de Anatolia central, emparentada con el griego, escrita desde el siglo VIII a. C. hasta el III d. C.",
+      "wikipedia": {
+        "es": "Idioma frigio",
+        "en": "Phrygian language"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "neolitica-europea",
+      "nombre": "Agricultores neolíticos y calcolíticos",
+      "padre": null,
+      "color": "#a8987a",
+      "nota": "Los primeros agricultores de Europa, que descendían sobre todo de los de Anatolia, y sus sucesores hasta la Edad del Bronce.",
+      "wikipedia": {
+        "es": "Neolítico en Europa",
+        "en": "Neolithic Europe"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "campaniforme",
+      "nombre": "Campaniforme",
+      "padre": null,
+      "color": "#c4a46a",
+      "nota": "Fenómeno arqueológico de hacia 2800-1800 a. C. Si fue un pueblo, una moda o una red de intercambio se discute; en Britania coincide con un gran reemplazo de población.",
+      "wikipedia": {
+        "es": "Cultura del vaso campaniforme",
+        "en": "Bell Beaker culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "cordada",
+      "nombre": "Cerámica cordada",
+      "padre": null,
+      "color": "#9a8a6a",
+      "nota": "Cultura de hacia 2900-2300 a. C. del norte y el centro de Europa, con mucha ascendencia esteparia.",
+      "wikipedia": {
+        "es": "Cultura de la cerámica cordada",
+        "en": "Corded Ware culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "bronce-europeo",
+      "nombre": "Edad del Bronce europea",
+      "padre": null,
+      "color": "#b07a4a",
+      "wikipedia": {
+        "en": "Bronze Age Europe"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "campos-de-urnas",
+      "nombre": "Campos de urnas",
+      "padre": "bronce-europeo",
+      "color": "#a0683e",
+      "wikipedia": {
+        "es": "Cultura de los campos de urnas",
+        "en": "Urnfield culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "bronce-atlantico",
+      "nombre": "Bronce Atlántico",
+      "padre": "bronce-europeo",
+      "color": "#8f7f5a",
+      "wikipedia": {
+        "es": "Bronce Final atlántico",
+        "en": "Atlantic Bronze Age"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "hallstatt",
+      "nombre": "Hallstatt",
+      "padre": null,
+      "color": "#7f9a6a",
+      "nota": "Cultura arqueológica de la primera Edad del Hierro de Europa central (hacia 800-450 a. C.). Suele ligarse con los antepasados de los celtas, pero esa relación se deduce, no se documenta.",
+      "wikipedia": {
+        "es": "Cultura de Hallstatt",
+        "en": "Hallstatt culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "gala",
+      "nombre": "Gala",
+      "padre": "celta",
+      "color": "#4f8a6a",
+      "wikipedia": {
+        "es": "Galos (pueblo)",
+        "en": "Gauls"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "celtibera",
+      "nombre": "Celtíbera",
+      "padre": "celta",
+      "color": "#6f9a5a",
+      "wikipedia": {
+        "es": "Celtíberos",
+        "en": "Celtiberians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "galata",
+      "nombre": "Gálata",
+      "padre": "celta",
+      "color": "#4a9a96",
+      "wikipedia": {
+        "es": "Gálatas",
+        "en": "Galatians (people)"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "picta",
+      "nombre": "Picta",
+      "padre": "celta",
+      "color": "#5a8a9a",
+      "nota": "Va como cultura celta porque su lengua parece britónica; se discute.",
+      "wikipedia": {
+        "es": "Pictos",
+        "en": "Picts"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "golasecca",
+      "nombre": "Golasecca",
+      "padre": "celta",
+      "color": "#8ab08a",
+      "nota": "Cultura del norte de Italia (siglos IX a IV a. C.) cuyos portadores escribían lepóntico, una lengua celta.",
+      "wikipedia": {
+        "es": "Cultura de Golasecca",
+        "en": "Golasecca culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "castrena",
+      "nombre": "Castreña",
+      "padre": null,
+      "color": "#6a8f8a",
+      "nota": "Cultura de los castros del noroeste de la península ibérica. Si era celta se discute: por eso no va dentro de la familia celta.",
+      "wikipedia": {
+        "es": "Cultura castreña",
+        "en": "Castro culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "iberica",
+      "nombre": "Ibérica",
+      "padre": null,
+      "color": "#b5603f",
+      "wikipedia": {
+        "es": "Iberos",
+        "en": "Iberians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "tartesica",
+      "nombre": "Tartésica y turdetana",
+      "padre": null,
+      "color": "#c8904a",
+      "wikipedia": {
+        "es": "Tartessos",
+        "en": "Tartessos"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "lusitana",
+      "nombre": "Lusitana",
+      "padre": null,
+      "color": "#8a7aa8",
+      "wikipedia": {
+        "es": "Lusitanos",
+        "en": "Lusitanians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "etrusca",
+      "nombre": "Etrusca",
+      "padre": null,
+      "color": "#9a4a5a",
+      "wikipedia": {
+        "es": "Etruscos",
+        "en": "Etruscan civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "ligur",
+      "nombre": "Ligur",
+      "padre": null,
+      "color": "#8a8a5a",
+      "wikipedia": {
+        "es": "Ligures",
+        "en": "Ligures"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "veneta",
+      "nombre": "Véneta",
+      "padre": null,
+      "color": "#7a8ab8",
+      "wikipedia": {
+        "es": "Vénetos",
+        "en": "Adriatic Veneti"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "tracia",
+      "nombre": "Tracia y dacia",
+      "padre": null,
+      "color": "#9a6a8a",
+      "wikipedia": {
+        "es": "Tracios",
+        "en": "Thracians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "iliria",
+      "nombre": "Iliria",
+      "padre": null,
+      "color": "#8a6a5a",
+      "wikipedia": {
+        "es": "Ilirios",
+        "en": "Illyrians"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-iberica",
+      "nombre": "Religión ibérica",
+      "padre": null,
+      "color": "#b86a4a",
+      "nota": "Conocida casi solo por santuarios y exvotos: los textos ibéricos no se entienden."
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-tracia",
+      "nombre": "Religión tracia y dacia",
+      "padre": "paganismo-europeo",
+      "color": "#8a7a50",
+      "wikipedia": {
+        "es": "Religión tracia",
+        "en": "Thracian religion"
       }
     }
   ]

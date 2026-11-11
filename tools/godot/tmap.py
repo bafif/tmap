@@ -339,6 +339,7 @@ def main() -> int:
         return orden_revisar(proyecto)
     if orden == "prueba":
         idioma = resto[resto.index("--idioma") + 1] if "--idioma" in resto else "es"
+        # Con unos 6000 elementos, abrirlos todos en el editor ya no entra en 10 minutos.
         r = subprocess.run([godot(), "--headless", "--path", str(proyecto), "--", "--prueba", f"--idioma={idioma}"],
                            capture_output=True, text=True, timeout=1800)
         malas = [l for l in (r.stdout + r.stderr).splitlines() if "ERROR" in l or "[prueba]" in l]

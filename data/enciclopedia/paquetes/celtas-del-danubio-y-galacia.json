@@ -1,0 +1,3316 @@
+{
+  "paquete": "celtas-del-danubio-y-galacia",
+  "descripcion": "Los celtas de Europa central y oriental, la invasión de los Balcanes y Grecia, y los gálatas de Anatolia",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "decreto-de-priene-para-sotas",
+      "titulo": "Decreto de Priene en honor de Sotas",
+      "titulo_original": "I.Priene 17 (OGIS 765)",
+      "autor": "Consejo y pueblo de Priene",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -277,
+        "aprox": true,
+        "lugar": "Priene",
+        "lon": 27.298,
+        "lat": 37.66
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": -278,
+        "hasta": -275
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Inscripción en piedra",
+      "resumen": "Decreto de la ciudad griega de Priene, en Jonia, que honra a Sotas por haber reunido a ciudadanos a caballo y haber rescatado a los que estaban en el campo cuando los gálatas, recién llegados a Asia, saqueaban el territorio. Describe a los gálatas por su impiedad contra los templos y su crueldad con los prisioneros.",
+      "por_que_importa": "Es un testimonio contemporáneo de los primeros años de los gálatas en Asia Menor, que confirma los saqueos de los que habla Livio (XXXVIII.16). Su lenguaje de «impiedad» y «salvajismo» es el mismo con que las ciudades griegas describían a cualquier enemigo bárbaro, y por eso informa tanto del miedo como de los hechos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "dedicatorias-de-atalo-i",
+      "titulo": "Dedicatorias de Atalo I por sus victorias sobre los gálatas",
+      "titulo_original": "Die Inschriften von Pergamon 20-28",
+      "autor": "Atalo I de Pérgamo",
+      "autor_id": "atalo-i",
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -223,
+        "aprox": true,
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "galacia"
+        ],
+        "desde": -241,
+        "hasta": -223
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Bases de monumentos de bronce",
+      "resumen": "Inscripciones de las bases de los monumentos que Atalo I levantó en el santuario de Atenea Nicéforo de Pérgamo. Una dice: «El rey Atalo, vencedor en batalla de los gálatas tolistoagios junto a las fuentes del río Caico, a Atenea, en agradecimiento»; la serie de una base larga enumera sus victorias sobre los gálatas, sobre Antíoco Hierax y sobre los generales de Seleuco III. Las publicó Max Fränkel en 1890; algunas llevan la firma de Epígono.",
+      "por_que_importa": "Son el testimonio del propio vencedor: muestran que Atalo construyó su realeza sobre la victoria contra los gálatas, y son la base para fechar los monumentos de los que vendrían el Gálata moribundo y el Gálata Ludovisi. Varias están rotas y restituidas, y su fecha exacta, entre hacia 240 y 223 a. C., se discute.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "galatas-en-abidos",
+      "titulo": "Grafito de los gálatas en el templo de Seti I en Abidos",
+      "titulo_original": "OGIS 757",
+      "autor": "Toas, Calístrato, Acanón y Apolonio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -186,
+        "aprox": true,
+        "lugar": "Abidos (templo de Seti I)",
+        "lon": 31.917,
+        "lat": 26.183
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -200,
+        "hasta": -180
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Grafito en piedra",
+      "resumen": "Grafito en griego que unos mercenarios dejaron en el templo de Seti I en Abidos, en el Alto Egipto: «De los gálatas, Toas, Calístrato, Acanón, Apolonio: vinimos y aquí cazamos un zorro». Lo editó Dittenberger (OGIS 757) entre los grafitos del Memnonion de Abidos; se fecha hacia 186-185 a. C., cuando Ptolomeo V usaba tropas gálatas contra la rebelión del Alto Egipto.",
+      "por_que_importa": "Es uno de los pocos textos escritos por los propios mercenarios celtas del mundo helenístico, y que tres de los cuatro nombres sean griegos muestra lo rápido que se helenizaron. Philip Freeman lo usa como prueba de que algunos gálatas escribían en griego pocas décadas después de su llegada; Stephen Colvin (Bryn Mawr Classical Review, 2002) le objetó que el habla de unos mercenarios en un ejército helenístico dice poco de lo que pasaba en la Galacia de Anatolia.",
+      "leer": [
+        {
+          "titulo": "Texto griego en la base de inscripciones griegas del Packard Humanities Institute",
+          "url": "https://epigraphy.packhum.org/text/219155",
+          "idioma": "grc",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "pro-rege-deiotaro",
+      "titulo": "En defensa del rey Deyótaro",
+      "titulo_original": "Pro rege Deiotaro",
+      "autor": "Marco Tulio Cicerón",
+      "autor_id": "ciceron",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": -45,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "galacia",
+          "anatolia"
+        ],
+        "desde": -64,
+        "hasta": -45
+      },
+      "idioma_original": "Latín",
+      "soporte": "Discurso",
+      "resumen": "Discurso que Cicerón pronunció en noviembre de 45 a. C. ante Julio César, en la casa de César, en defensa del rey gálata Deyótaro, acusado por su nieto Cástor de haber planeado matar a César cuando lo hospedó en Galacia en 47 a. C. Cicerón ridiculiza la acusación y al acusador, recuerda los servicios de Deyótaro a Roma contra Mitrídates y su amistad con Pompeyo, y pinta al rey como un aliado leal, sobrio y helenizado.",
+      "por_que_importa": "Es una de las pocas fuentes contemporáneas sobre un rey gálata y muestra cómo la aristocracia gálata se movía en la política romana. Es el alegato de un abogado y amigo del acusado, escrito para absolverlo, no una descripción neutral; César no llegó a dictar sentencia, porque lo mataron en marzo de 44 a. C.",
+      "leer": [
+        {
+          "titulo": "Texto latino en The Latin Library",
+          "url": "https://www.thelatinlibrary.com/cicero/deio.shtml",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "trofeo-de-los-alpes",
+      "titulo": "Inscripción del Trofeo de los Alpes",
+      "titulo_original": "Tropaeum Alpium (CIL V 7817)",
+      "autor": "Senado y pueblo romano",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -6,
+        "aprox": false,
+        "lugar": "La Turbie",
+        "lon": 7.401,
+        "lat": 43.746
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia",
+          "italia",
+          "norico"
+        ],
+        "desde": -25,
+        "hasta": -14
+      },
+      "idioma_original": "Latín",
+      "soporte": "Inscripción en piedra",
+      "resumen": "Inscripción del monumento que el Senado dedicó a Augusto en 7-6 a. C. en La Turbie, sobre la costa de los Alpes Marítimos, porque bajo su mando y sus auspicios «todos los pueblos alpinos que había desde el mar Superior al Inferior» fueron sometidos a Roma. Sigue la lista de más de cuarenta pueblos vencidos, entre ellos las cuatro tribus de los vindélicos, los salasos y los ceutrones. Plinio el Viejo (Historia natural III.136-137) copió el texto completo, y con esa copia se reconstruyeron los fragmentos que quedan en el lugar.",
+      "por_que_importa": "Es la lista oficial romana de la conquista de los Alpes y una fuente principal para los nombres de los pueblos alpinos, celtas, réticos y ligures. Es un monumento de propaganda: reúne en una sola victoria de Augusto campañas de distintos años y generales, entre 25 y 14 a. C.",
+      "leer": [
+        {
+          "titulo": "Plinio, Historia natural III, con la copia de la inscripción en los párrafos 136-137 (texto latino en The Latin Library)",
+          "url": "https://www.thelatinlibrary.com/pliny.nh3.html",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Trofeo de los Alpes",
+        "en": "Tropaeum Alpium"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "geografia-de-estrabon-libro-xii",
+      "titulo": "Geografía, libro XII",
+      "titulo_original": "Γεωγραφικά, βιβλίον ΙΒʹ",
+      "autor": "Estrabón",
+      "autor_id": "estrabon",
+      "tipo": "primaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": -7,
+        "anio_hasta": 23,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "galacia"
+        ],
+        "desde": -278,
+        "hasta": -20
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": null,
+      "resumen": "Describe el centro de Asia Menor: Capadocia, el Ponto, Bitinia, Galacia, Licaonia, Pisidia y Frigia. En XII.5.1-3 cuenta la organización de los gálatas: tres pueblos (trocmos, tolistobogios y tectósages) con la misma lengua, cada uno dividido en cuatro tetrarquías con su tetrarca, su juez y su jefe militar, y un consejo de trescientos que se reunía en el lugar llamado Drunemeton y juzgaba los homicidios; y explica cómo en su tiempo el poder pasó de los doce tetrarcas a tres y después a uno solo, Deyótaro. Describe también Pesinunte y el santuario de la Gran Madre, Ancira y Tavio.",
+      "por_que_importa": "Es casi lo único que se sabe de las instituciones gálatas y la base de todo lo que se dice del Drunemeton, cuyo nombre suele interpretarse como «santuario de los robles» o «gran santuario» (celta nemeton, «lugar sagrado»). Estrabón era de Amasia, vecina de Galacia, y conocía la región, pero describe un orden que ya no existía cuando escribía, y la simetría de doce tetrarquías puede estar idealizada.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en Perseus (libro XII, capítulo de Galacia)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=12:chapter=5",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Geografía (Estrabón)",
+        "en": "Geographica"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-heraclea-memnon",
+      "titulo": "Historia de Heraclea",
+      "titulo_original": "Περὶ Ἡρακλείας",
+      "autor": "Memnón de Heraclea",
+      "autor_id": "memnon-de-heraclea",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 100,
+        "aprox": true,
+        "lugar": "Heraclea Póntica",
+        "lon": 31.415,
+        "lat": 41.285
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "balcanes"
+        ],
+        "desde": -364,
+        "hasta": -46
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": null,
+      "resumen": "Historia de la ciudad griega de Heraclea Póntica, en la costa sur del mar Negro, conservada solo en el resumen que hizo de los libros IX a XVI el patriarca Focio en su Biblioteca (códice 224). Cuenta la muerte de Ptolomeo Cerauno ante los galos, derribado por su elefante herido (8.8), el pacto de Nicomedes I con los jefes galos para hacerlos pasar a Asia, con sus cláusulas, y las guerras de Heraclea con los gálatas.",
+      "por_que_importa": "Es la fuente más cercana y detallada sobre el tratado que llevó a los gálatas a Asia Menor, porque Memnón usó historiadores locales como Ninfis de Heraclea, que vivió en el siglo III a. C. Pero llega a nosotros de tercera mano, resumida por un lector bizantino, y tiene confusiones: asigna Ancira a los trocmos y Pesinunte a los tectósages (11.7), al revés que Estrabón.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Andrew Smith (2004), capítulos 1 a 21, en el sitio del traductor (pide una verificación del navegador)",
+          "url": "https://www.attalus.org/translate/memnon1.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Memnón de Heraclea Póntica",
+        "en": "Memnon of Heraclea"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "alejandro-o-el-falso-profeta",
+      "titulo": "Alejandro o el falso profeta",
+      "titulo_original": "Ἀλέξανδρος ἢ Ψευδόμαντις",
+      "autor": "Luciano de Samosata",
+      "autor_id": "luciano-de-samosata",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 180,
+        "aprox": true,
+        "lugar": "Samosata",
+        "lon": 38.483,
+        "lat": 37.579
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 150,
+        "hasta": 170
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": null,
+      "resumen": "Panfleto satírico contra Alejandro de Abonutico, un adivino de Paflagonia que fundó el culto de la serpiente Glicón y al que Luciano conoció y odió. En un pasaje (51) cuenta que Alejandro respondía oráculos a extranjeros en su propia lengua, siria o celta, porque encontraba en la ciudad gente de su misma nación que le servía de intérprete.",
+      "por_que_importa": "Es uno de los indicios de que en el siglo II d. C. todavía se hablaba celta en Asia Menor, aunque Luciano no dice que esos celtas fueran gálatas ni da ninguna palabra de su lengua. Es sátira, escrita contra un enemigo personal.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Alejandro de Abonutico",
+        "en": "Alexander of Abonoteichus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "vida-de-eutimio",
+      "titulo": "Vida de Eutimio",
+      "titulo_original": "Βίος τοῦ ὁσίου Εὐθυμίου",
+      "autor": "Cirilo de Escitópolis",
+      "autor_id": "cirilo-de-escitopolis",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 556,
+        "aprox": true,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "levante",
+          "anatolia"
+        ],
+        "desde": 400,
+        "hasta": 556
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": null,
+      "resumen": "Biografía de Eutimio (377-473), un monje armenio que fundó lauras en el desierto de Judea, escrita por Cirilo a partir de los recuerdos de los monjes más viejos. Entre los milagros (capítulo 55) cuenta el de un monje de Galacia poseído que no hablaba y que, si lo apremiaban, «hablaba en gálata».",
+      "por_que_importa": "Es el testimonio más tardío del gálata como lengua hablada y el que permite decir que pudo sobrevivir hasta el siglo VI. Pero es un relato de milagro aislado, sobre un solo monje y sin ninguna palabra de la lengua, y por eso hasta cuándo se habló gálata sigue en discusión.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cirilo de Escitópolis",
+        "en": "Cyril of Scythopolis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "sentencia-del-robo-del-oro-de-manching",
+      "titulo": "Sentencia del Tribunal Regional de Ingolstadt por el robo del oro de Manching",
+      "titulo_original": "Pressemitteilung „Goldschatz“ (Urteilsverkündung)",
+      "autor": "Landgericht Ingolstadt",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2025,
+        "aprox": false,
+        "lugar": "Ingolstadt",
+        "lon": 11.425,
+        "lat": 48.763
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 2022,
+        "hasta": 2025
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Comunicado de prensa del tribunal",
+      "resumen": "Comunicado de la primera sala penal del tribunal sobre la sentencia del 29 de julio de 2025, dictada después de treinta y tres audiencias. Los cuatro acusados fueron condenados por una serie de entradas por la fuerza cometidas durante un largo período en distintas regiones, entre otros delitos por robo agravado en banda, a penas de entre cuatro años y nueve meses y once años de prisión; uno fue absuelto del hecho de Manching porque la sala no llegó a convencerse de su culpa. La condena se apoyó en indicios: dieciocho trozos de oro fundido que los peritos atribuyeron al tesoro, herramientas, rastros de ADN y de telefonía, videos de vigilancia y un modo de actuar repetido.",
+      "por_que_importa": "Cierra en la justicia el robo de las monedas celtas de oro del museo de Manching. El comunicado aclara que la sentencia no estaba firme; el Tribunal Federal de Justicia rechazó en lo esencial las revisiones en agosto de 2026 y las penas quedaron firmes. La mayor parte de las monedas sigue sin aparecer.",
+      "leer": [
+        {
+          "titulo": "Comunicado del Tribunal Regional de Ingolstadt",
+          "url": "https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/ingolstadt/presse/2025/3.php",
+          "idioma": "de",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "les-galates-en-grece-nachtergael",
+      "titulo": "Los gálatas en Grecia y las Soterias de Delfos",
+      "titulo_original": "Les Galates en Grèce et les Sôtéria de Delphes",
+      "autor": "Georges Nachtergael",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.352,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -280,
+        "hasta": -200
+      },
+      "idioma_original": "Francés",
+      "soporte": null,
+      "resumen": "Estudio de la invasión gala de Grecia y de las fiestas Soterias a partir de las inscripciones de Delfos y de los historiadores, con un corpus de los documentos epigráficos, entre ellos el decreto de Cos. Distingue las primeras Soterias, anfictiónicas, celebradas desde poco después de 278 a. C., de las Soterias etolias, reorganizadas como fiesta panhelénica hacia 246 a. C., y reconstruye la cronología de la invasión.",
+      "por_que_importa": "Es la obra de referencia sobre el tema y muestra cuánto del relato de la salvación de Delfos se construyó en los decretos de los etolios, que controlaban el santuario. La fecha exacta de la reorganización etolia y el peso de la propaganda etolia en el registro epigráfico se siguen discutiendo, por ejemplo en el artículo de Craige Champion de 1995.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-galatian-language-freeman",
+      "titulo": "La lengua gálata",
+      "titulo_original": "The Galatian Language: A Comprehensive Survey of the Language of the Ancient Celts in Greco-Roman Asia Minor",
+      "autor": "Philip Freeman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Lewiston (Nueva York)",
+        "lon": -79.025,
+        "lat": 43.177
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "galacia"
+        ],
+        "desde": -278,
+        "hasta": 600
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Reúne los testimonios antiguos sobre los gálatas y su lengua y los nombres gálatas conocidos (de personas, tribus, dioses y lugares), con comentario. Concluye que del gálata solo quedan algunas glosas y nombres propios, que era muy cercano al galo y que convivió durante siglos con el griego.",
+      "por_que_importa": "Es la recopilación de referencia sobre el gálata. Stephen Colvin, en su reseña en la Bryn Mawr Classical Review (2002), le criticó que es más un corpus de nombres que un estudio lingüístico, que deja los textos griegos y latinos sin traducir y con algunos errores, que supone bilingüe a toda la población durante siglos sin tratar la complejidad del bilingüismo, y que algunas etimologías no están bien fundadas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "oppida-collis-1984",
+      "titulo": "Oppida: las primeras ciudades al norte de los Alpes",
+      "titulo_original": "Oppida: Earliest Towns North of the Alps",
+      "autor": "John Collis",
+      "autor_id": "john-collis",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Sheffield",
+        "lon": -1.47,
+        "lat": 53.381
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "bohemia",
+          "francia",
+          "hungria"
+        ],
+        "desde": -200,
+        "hasta": -15
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Síntesis de la arqueología de los oppida de la Europa templada, como Manching, Stradonice, Závist y Bibracte: grandes recintos amurallados de los siglos II y I a. C., con artesanía especializada, moneda y comercio con el Mediterráneo. Collis sostiene que fueron las primeras ciudades al norte de los Alpes, surgidas por el crecimiento de la producción y del comercio.",
+      "por_que_importa": "Fijó el uso de la palabra «ciudad» para los oppida, que se discute desde entonces. Greg Woolf (1993) objetó que muchos tenían grandes espacios vacíos y vidas cortas, y que calcar el modelo de la ciudad mediterránea oculta su función, que pudo ser más política y ceremonial que urbana.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "rethinking-the-oppida-woolf-1993",
+      "titulo": "Repensar los oppida",
+      "titulo_original": "Rethinking the Oppida",
+      "autor": "Greg Woolf",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia",
+          "bohemia"
+        ],
+        "desde": -150,
+        "hasta": -15
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Artículo del Oxford Journal of Archaeology que cuestiona que los oppida fueran ciudades en el sentido mediterráneo: muchos encerraban grandes espacios sin construir y duraron poco, y su aparición se explicaría mejor por cambios en el poder de las élites y por el contacto con Roma que por un proceso de urbanización.",
+      "por_que_importa": "Abrió el debate sobre la naturaleza de los oppida. Autores posteriores, como Manuel Fernández-Götz, le respondieron que, aunque discontinuos y de baja densidad, muchos oppida cumplían funciones urbanas, y que la definición de ciudad no debe tomarse solo del Mediterráneo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "urbanizacion-edad-del-hierro-fernandez-gotz-2018",
+      "titulo": "La urbanización en la Europa de la Edad del Hierro",
+      "titulo_original": "Urbanization in Iron Age Europe: Trajectories, Patterns, and Social Dynamics",
+      "autor": "Manuel Fernández-Götz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Edimburgo",
+        "lon": -3.189,
+        "lat": 55.953
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "bohemia",
+          "francia",
+          "hungria",
+          "iberia"
+        ],
+        "desde": -650,
+        "hasta": -15
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Revisión publicada en el Journal of Archaeological Research que describe dos olas de urbanización en la Europa templada, separadas por una vuelta a la vida rural: los centros «principescos» de Hallstatt de los siglos VI y V a. C., como Heuneburg, y los oppida de los siglos II y I a. C., como Manching. Sostiene que fue un proceso discontinuo, con formas de baja densidad, en el que los santuarios y las asambleas tuvieron un papel central.",
+      "por_que_importa": "Es la síntesis más citada del enfoque actual, que acepta llamar urbanos a los oppida sin calcarlos del Mediterráneo. La posición escéptica de Woolf sigue teniendo peso, porque las cifras de población de los oppida, como los cinco a diez mil habitantes que se calculan para Manching, son estimaciones con márgenes amplios.",
+      "leer": [
+        {
+          "titulo": "Artículo en acceso abierto en el Journal of Archaeological Research",
+          "url": "https://link.springer.com/article/10.1007/s10814-017-9107-1",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "ludovisi-barbarians-marvin-2002",
+      "titulo": "Los bárbaros Ludovisi: el gran estilo",
+      "titulo_original": "The Ludovisi Barbarians: The Grand Manner",
+      "autor": "Miranda Marvin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Ann Arbor",
+        "lon": -83.748,
+        "lat": 42.281
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "anatolia"
+        ],
+        "desde": -230,
+        "hasta": 200
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Capítulo del libro The Ancient Art of Emulation, editado por Elaine Gazda, sobre el Gálata Ludovisi y el Gálata moribundo, encontrados en Roma en los jardines de Salustio. Marvin muestra todo lo que separa estas esculturas de sus supuestos modelos de Pérgamo y las considera creaciones romanas del siglo II d. C., «a la gran manera» pergamena, emparentadas en estilo con los relieves de las columnas de Trajano y de Marco Aurelio.",
+      "por_que_importa": "Cuestiona la base con que la historia del arte reconstruye los monumentos de Atalo I. La opinión más extendida sigue viendo en estas estatuas copias o adaptaciones de originales de Pérgamo, por lo que dice Plinio (XXXIV.84) y por las bases firmadas por Epígono.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "tesoro-de-duchcov-kruta",
+      "titulo": "El tesoro de Duchcov en las colecciones checoslovacas",
+      "titulo_original": "Le trésor de Duchcov dans les collections tchécoslovaques",
+      "autor": "Venceslas Kruta",
+      "autor_id": "venceslas-kruta",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Ústí nad Labem",
+        "lon": 14.042,
+        "lat": 50.659
+      },
+      "trata": {
+        "regiones": [
+          "bohemia"
+        ],
+        "desde": -400,
+        "hasta": -300
+      },
+      "idioma_original": "Francés",
+      "soporte": null,
+      "resumen": "Catálogo y estudio de las piezas del depósito de Duchcov que se conservan en museos de Checoslovaquia: fíbulas, brazaletes y anillos de bronce de La Tène antigua, hallados en 1882 dentro de un caldero de bronce en un manantial. Kruta las ordena por tipos y las fecha en el siglo IV a. C.",
+      "por_que_importa": "El hallazgo dio nombre a la «fíbula de tipo Duchcov», que sirve para seguir la expansión celta del siglo IV a. C. por Europa central, y este catálogo es la base para estudiarla. La lectura del depósito como ofrenda en el agua es la más aceptada, pero las piezas se dispersaron después del hallazgo y no se conoce su número original ni cómo estaban colocadas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "tumba-de-ciumesti-rusu-1969",
+      "titulo": "La tumba principesca celta de Ciumești, en Rumania",
+      "titulo_original": "Das keltische Fürstengrab von Ciumeşti in Rumänien",
+      "autor": "Mircea Rusu",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Fráncfort del Meno",
+        "lon": 8.682,
+        "lat": 50.111
+      },
+      "trata": {
+        "regiones": [
+          "rumania"
+        ],
+        "desde": -300,
+        "hasta": -200
+      },
+      "idioma_original": "Alemán",
+      "soporte": null,
+      "resumen": "Publicación, en el Bericht der Römisch-Germanischen Kommission, de la tumba encontrada en 1961 en Ciumești, en el noroeste de Rumania, con un casco de hierro coronado por un ave de presa de bronce de alas móviles, una cota de malla, grebas y lanzas. Rusu la fechó en el siglo III a. C. y la atribuyó a un jefe guerrero celta.",
+      "por_que_importa": "Es la publicación de referencia del casco de Ciumești, una de las piezas más reproducidas del armamento celta, y de una de las cotas de malla más antiguas que se conocen. La fecha de la tumba se sigue discutiendo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "biblioteca-historica-diodoro-libro-xxii",
+      "titulo": "Biblioteca histórica, libro XXII (fragmentos)",
+      "titulo_original": "Βιβλιοθήκη ἱστορική, βιβλίον ΚΒʹ",
+      "autor": "Diodoro Sículo",
+      "autor_id": "diodoro-siculo",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -30,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "balcanes",
+          "italia"
+        ],
+        "desde": -281,
+        "hasta": -264
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": null,
+      "resumen": "Fragmentos del libro de la Biblioteca histórica que trataba los años de la invasión gala y de las guerras de Pirro, conservados en extractos bizantinos. Cuentan la muerte de Ptolomeo Cerauno ante los galos (XXII.3), la entrada de Breno en Delfos, donde se habría reído de que los griegos dieran a sus dioses forma humana en madera y piedra, y su suicidio después de beber mucho vino puro (XXII.9), y el saqueo de las tumbas de Egas por los gálatas de Pirro (XXII.12).",
+      "por_que_importa": "Con Pausanias y Justino es una de las tres versiones antiguas de la invasión. Diodoro escribió en el siglo I a. C. compilando a historiadores anteriores, probablemente Jerónimo de Cardia para este período, y su texto llega en pedazos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Biblioteca histórica",
+        "en": "Bibliotheca Historica"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-de-alejandria",
+      "titulo": "La guerra de Alejandría",
+      "titulo_original": "Bellum Alexandrinum",
+      "autor": "Aulo Hircio",
+      "autor_id": "aulo-hircio",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -44,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "anatolia",
+          "galacia"
+        ],
+        "desde": -48,
+        "hasta": -47
+      },
+      "idioma_original": "Latín",
+      "soporte": null,
+      "resumen": "Continuación de los comentarios de César sobre la guerra civil, que narra la guerra de Alejandría y las campañas de 47 a. C. en Asia Menor y en Iliria. Cuenta que Deyótaro tenía una legión armada y entrenada a la manera romana (34), que Farnaces del Ponto la derrotó en Nicópolis, y cómo César venció a Farnaces en Zela (68-77) con tropas de Deyótaro entre las suyas.",
+      "por_que_importa": "Es el testimonio de cómo un rey gálata organizó su ejército al modo romano, el origen de la legión XXII Deiotariana. Su autor no es seguro; la tradición la atribuye a Aulo Hircio y, como los demás comentarios cesarianos, favorece a César.",
+      "leer": [],
+      "wikipedia": {
+        "es": "De bello Alexandrino",
+        "en": "De Bello Alexandrino"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sacerdotes-de-ancira",
+      "titulo": "Lista de los sacerdotes del culto imperial de Ancira",
+      "titulo_original": "OGIS 533",
+      "autor": "Comunidad de los gálatas de Ancira",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 20,
+        "aprox": true,
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936
+      },
+      "trata": {
+        "regiones": [
+          "galacia"
+        ],
+        "desde": -5,
+        "hasta": 37
+      },
+      "idioma_original": "Griego antiguo",
+      "soporte": "Inscripción en el muro del templo de Augusto y Roma",
+      "resumen": "Inscripción grabada en el templo de Augusto y Roma de Ancira que enumera, año por año, a los sacerdotes del culto imperial de la comunidad gálata y lo que cada uno donó: banquetes públicos, repartos de aceite, combates de gladiadores y cacerías de fieras. Entre los primeros figuran hijos de reyes y tetrarcas, como Pilémenes, hijo del rey Amintas.",
+      "por_que_importa": "Muestra a la aristocracia de las tres tribus convertida, en una generación, en sacerdotes del emperador que pagan espectáculos romanos, y es la mejor fuente sobre los nombres de la nobleza gálata. Las fechas de cada sacerdocio y la reconstrucción de las partes dañadas se discuten.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "anatolia-mitchell",
+      "titulo": "Anatolia: tierra, hombres y dioses en Asia Menor",
+      "titulo_original": "Anatolia: Land, Men, and Gods in Asia Minor",
+      "autor": "Stephen Mitchell",
+      "autor_id": "stephen-mitchell",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "galacia"
+        ],
+        "desde": -278,
+        "hasta": 500
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia en dos volúmenes de la Anatolia central desde la llegada de los gálatas hasta el cristianismo de la Antigüedad tardía, basada sobre todo en inscripciones y en el trabajo de campo del autor. El primer volumen trata la instalación de los gálatas, sus tribus y tetrarquías, la provincia romana y la vida rural; el segundo, la cristianización de la región.",
+      "por_que_importa": "Es la obra de referencia sobre la Galacia antigua. Presenta a los gálatas como un pueblo que conservó durante siglos su organización tribal y su lengua mientras su aristocracia se helenizaba y se romanizaba; esa continuidad se apoya en pocos testimonios, y trabajos posteriores, como los de Altay Coşkun, discuten cuánto de la identidad gálata era herencia traída de Europa y cuánto se formó en la propia Anatolia.",
+      "leer": [],
+      "confianza": "media"
+    }
+  ],
+  "personas": [
+    {
+      "id": "cambaules",
+      "nombre": "Cambaules",
+      "activo": {
+        "lugar": "Tracia",
+        "desde": -298,
+        "hasta": -298,
+        "aprox": true
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que, según Pausanias (X.19.5), dirigió la primera expedición de los celtas hacia Tracia, antes de la gran invasión, y se volvió atrás porque no se sentía con fuerzas para seguir hacia Grecia. Pausanias no da fecha; suele situarse hacia 300 a. C. Es una figura de la que no se sabe nada más.",
+      "obras": []
+    },
+    {
+      "id": "bolgio",
+      "nombre": "Bolgio (Belgio)",
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.526,
+        "lat": 40.76,
+        "desde": -280,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que en 280-279 a. C. invadió Macedonia y derrotó y mató al rey Ptolomeo Cerauno, cuya cabeza, según Justino (XXIV.5), paseó en una lanza. Justino lo llama Belgio y Pausanias (X.19.7), Bolgio; los fragmentos de Diodoro (XXII.3) cuentan la derrota del rey. Después de saquear el país volvió al norte sin intentar quedarse.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bolgios",
+        "en": "Bolgios"
+      },
+      "wikidata": "Q815552"
+    },
+    {
+      "id": "cerecio",
+      "nombre": "Cerecio",
+      "activo": {
+        "lugar": "Tracia",
+        "desde": -279,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que en 279 a. C. dirigió la columna que atacó a los tracios y a los tríbalos, mientras Bolgio iba contra Macedonia y Breno y Acicorio contra Peonia, según Pausanias (X.19.7). Es la única noticia que hay de él.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Cerethrius"
+      },
+      "wikidata": "Q5064218"
+    },
+    {
+      "id": "breno-de-delfos",
+      "nombre": "Breno (jefe de la invasión de Grecia)",
+      "muerte": {
+        "anio": -279,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Delfos",
+        "lon": 22.5009,
+        "lat": 38.4824,
+        "desde": -280,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que en 279 a. C. llevó la columna principal de la invasión de Macedonia y Grecia, forzó el paso de las Termópilas rodeando a los griegos por la montaña y atacó Delfos. Lo conocemos solo por autores griegos y romanos muy posteriores: Pausanias (X.19-23), Justino (XXIV.6-8) y fragmentos de Diodoro (XXII.9), que lo presentan como un sacrílego que se burlaba de los dioses griegos de piedra. Herido, se mató: bebiendo vino puro según Pausanias (X.23.12), con un puñal según Justino (XXIV.8), y después de beber mucho vino puro según Diodoro (XXII.9). No hay que confundirlo con el Breno del saqueo de Roma de hacia 390 a. C.; la vieja hipótesis de que «Breno» era un título y no un nombre no tiene apoyo firme.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Breno (siglo III a. C.)",
+        "en": "Brennus (3rd century BC)"
+      },
+      "wikidata": "Q849322"
+    },
+    {
+      "id": "acicorio",
+      "nombre": "Acicorio",
+      "activo": {
+        "lugar": "Delfos",
+        "lon": 22.5009,
+        "lat": 38.4824,
+        "desde": -280,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que compartió con Breno el mando de la columna que invadió Grecia en 279 a. C. Según Pausanias (X.19.7, X.22-23), se quedó atrás con el grueso del ejército y se unió a Breno en el ataque a Delfos, donde le tocó la retaguardia. Lo conocemos casi solo por Pausanias.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Acicorio",
+        "en": "Acichorius"
+      },
+      "wikidata": "Q3555328"
+    },
+    {
+      "id": "batanato",
+      "nombre": "Batanato",
+      "activo": {
+        "lugar": "Singiduno (Belgrado)",
+        "lon": 20.46,
+        "lat": 44.82,
+        "desde": -279,
+        "hasta": -270,
+        "aprox": true
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que, según Ateneo (VI.25, que cita a Posidonio), llevó de vuelta al Danubio a una parte de los que habían atacado Delfos; sus descendientes se llamaban batanatos y su camino era «el camino de Batanato». Ateneo agrega que los escordiscos, sus sucesores, no dejaban entrar oro en su tierra por el sacrilegio de Delfos, aunque sí saqueaban plata. Es una tradición que explica un nombre, pero une a los escordiscos con la invasión de 279 a. C.",
+      "obras": []
+    },
+    {
+      "id": "leonorio",
+      "nombre": "Leonorio",
+      "activo": {
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012,
+        "desde": -279,
+        "hasta": -277,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que, con Lutario, se separó del ejército de Breno, pasó a Tracia y cruzó a Asia en 278-277 a. C. contratado por Nicomedes I de Bitinia. Según Livio (XXXVIII.16), cruzó el Bósforo con ayuda de Nicomedes, mientras Lutario lo hacía por el Helesponto; Memnón de Heraclea conserva el tratado que firmaron con el rey bitinio.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Leonnorius"
+      },
+      "wikidata": "Q3623194"
+    },
+    {
+      "id": "lutario",
+      "nombre": "Lutario",
+      "activo": {
+        "lugar": "Lisimaquia",
+        "lon": 26.88,
+        "lat": 40.58,
+        "desde": -279,
+        "hasta": -277,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que, con Leonorio, dejó a Breno y pasó a Asia en 278-277 a. C. Según Livio (XXXVIII.16), tomó por sorpresa unas naves que llevaban a enviados macedonios y con ellas cruzó el Helesponto. Memnón de Heraclea (11.3) lo llama Luturio y lo cuenta, con Leonorio, como el más importante de los diecisiete jefes galos.",
+      "obras": []
+    },
+    {
+      "id": "comontorio",
+      "nombre": "Comontorio",
+      "activo": {
+        "lugar": "Tile (Tulovo, ubicación discutida)",
+        "lon": 25.55,
+        "lat": 42.583,
+        "desde": -278,
+        "hasta": -250,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Jefe galo que, después de la invasión de 279 a. C., no siguió hacia Grecia ni hacia Asia y fundó un reino en la Tracia oriental con capital en Tile, según Polibio (IV.46). Desde allí obligó a Bizancio a pagarle tributo, que llegó a ochenta talentos por año.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Comontorius"
+      },
+      "wikidata": "Q15824079"
+    },
+    {
+      "id": "cavaro",
+      "nombre": "Cavaro",
+      "muerte": {
+        "anio": -212,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tile (Tulovo, ubicación discutida)",
+        "lon": 25.55,
+        "lat": 42.583,
+        "desde": -230,
+        "hasta": -212,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Último rey de los galos de Tile. Polibio (IV.46, 52; VIII.22) dice que tenía carácter regio y generoso, que protegió a los comerciantes del mar Negro y medió en 220 a. C. en la guerra entre Bizancio y Rodas, pero que se dejó corromper por un adulador, Sóstrato de Calcedonia. Durante su reinado los tracios se sublevaron y destruyeron el reino, hacia 212 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Cavarus"
+      },
+      "wikidata": "Q5054871"
+    },
+    {
+      "id": "ptolomeo-cerauno",
+      "nombre": "Ptolomeo Cerauno",
+      "muerte": {
+        "anio": -279,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.526,
+        "lat": 40.76,
+        "desde": -281,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hijo de Ptolomeo I de Egipto, apartado de la sucesión, que asesinó a Seleuco I en 281 a. C. y se hizo rey de Macedonia. En 279 a. C. enfrentó a los galos de Bolgio después de rechazar la ayuda de veinte mil dardanios y de responder con desprecio a los enviados galos, según Justino (XXIV.4-5). Según Justino, cayó herido y capturado y fue decapitado; según Memnón de Heraclea (8.8), el elefante que montaba fue herido y lo derribó, y los galos lo capturaron vivo y lo despedazaron.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ptolomeo Cerauno",
+        "en": "Ptolemy Ceraunus"
+      },
+      "wikidata": "Q299387"
+    },
+    {
+      "id": "sostenes-de-macedonia",
+      "nombre": "Sóstenes de Macedonia",
+      "muerte": {
+        "anio": -277,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.526,
+        "lat": 40.76,
+        "desde": -279,
+        "hasta": -277,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "General macedonio que, tras la muerte de Ptolomeo Cerauno, reunió un ejército y rechazó a los galos de Bolgio en 279 a. C.; según Justino (XXIV.5), no aceptó el título de rey y se hizo jurar solo como general. Breno lo derrotó poco después y murió hacia 277 a. C., en medio de la anarquía macedonia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sóstenes de Macedonia",
+        "en": "Sosthenes of Macedon"
+      },
+      "wikidata": "Q362936"
+    },
+    {
+      "id": "antigono-ii-gonatas",
+      "nombre": "Antígono II Gónatas",
+      "nacimiento": {
+        "anio": -319,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": -239,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.526,
+        "lat": 40.76,
+        "desde": -277,
+        "hasta": -239,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Macedonia de 277 a 239 a. C., hijo de Demetrio Poliorcetes. Su victoria sobre una banda gala cerca de Lisimaquia en 277 a. C., que cuenta Justino (XXV.1-2), le dio el prestigio para hacerse reconocer rey de Macedonia, que estaba sin gobierno desde la muerte de Ptolomeo Cerauno. Después usó mercenarios galos en sus guerras y asentó en Macedonia la dinastía antigónida, que reinó hasta 168 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antígono II Gónatas",
+        "en": "Antigonus II Gonatas"
+      },
+      "wikidata": "Q241386"
+    },
+    {
+      "id": "nicomedes-i-de-bitinia",
+      "nombre": "Nicomedes I de Bitinia",
+      "muerte": {
+        "anio": -255,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Nicomedia",
+        "lon": 29.918,
+        "lat": 40.763,
+        "desde": -278,
+        "hasta": -255,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Bitinia que, en guerra con Antíoco I y con su propio hermano, contrató a los galos de Leonorio y Lutario y los hizo pasar a Asia en 278-277 a. C. Memnón de Heraclea (11) resume el tratado: los galos apoyarían siempre a Nicomedes y a sus hijos, no se aliarían con nadie sin su permiso y pelearían también por Bizancio, Heraclea, Calcedonia, Tíos y Cío. Fundó Nicomedia hacia 264 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nicomedes I de Bitinia",
+        "en": "Nicomedes I of Bithynia"
+      },
+      "wikidata": "Q343604"
+    },
+    {
+      "id": "antioco-i-soter",
+      "nombre": "Antíoco I Sóter",
+      "nacimiento": {
+        "anio": -324,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": -261,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Antioquía",
+        "lon": 36.182,
+        "lat": 36.205,
+        "desde": -281,
+        "hasta": -261,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey seléucida de 281 a 261 a. C. Según Luciano (Zeuxis 8-11), venció a los gálatas en la «batalla de los elefantes», en la que dieciséis elefantes espantaron a los caballos de los gálatas, que nunca los habían visto, y Apiano (Siria 65) dice que de esa victoria le vino el sobrenombre de Sóter, «salvador». La fecha de la batalla, entre 275 y 268 a. C., se discute.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antíoco I Sóter",
+        "en": "Antiochus I Soter"
+      },
+      "wikidata": "Q211488"
+    },
+    {
+      "id": "antioco-hierax",
+      "nombre": "Antíoco Hierax",
+      "muerte": {
+        "anio": -226,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Sardes",
+        "lon": 28.04,
+        "lat": 38.488,
+        "desde": -241,
+        "hasta": -227,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hermano menor del rey seléucida Seleuco II, que le disputó Asia Menor hacia 241-227 a. C. Con mercenarios gálatas venció a Seleuco cerca de Ancira, y luego, aliado con ellos, perdió varias batallas contra Atalo I. Murió en 226 a. C. en Tracia, a manos de bandidos según Justino (XXVII.3); que fueran galos es una lectura moderna.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antíoco Hierax",
+        "en": "Antiochus Hierax"
+      },
+      "wikidata": "Q355917"
+    },
+    {
+      "id": "atalo-i",
+      "nombre": "Atalo I de Pérgamo",
+      "nacimiento": {
+        "anio": -269,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": -197,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129,
+        "desde": -241,
+        "hasta": -197,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Gobernante de Pérgamo de 241 a 197 a. C. que se negó a pagar a los gálatas el tributo que cobraban a las ciudades, los venció junto a las fuentes del Caico y, según Polibio (XVIII.41), tomó por esa victoria el título de rey. Celebró sus victorias con los monumentos de bronce del santuario de Atenea en Pérgamo y con una ofrenda en la Acrópolis de Atenas (Pausanias I.25.2), de los que vendrían las copias romanas del Gálata moribundo y del Gálata Ludovisi. Fue aliado de Roma contra Filipo V de Macedonia y en 204 a. C. ayudó a los romanos a llevarse de Pesinunte la piedra de la Gran Madre (Livio XXIX.11).",
+      "obras": [
+        "dedicatorias-de-atalo-i"
+      ],
+      "wikipedia": {
+        "es": "Atalo I",
+        "en": "Attalus I"
+      },
+      "wikidata": "Q110745"
+    },
+    {
+      "id": "epigono-de-pergamo",
+      "nombre": "Epígono de Pérgamo",
+      "activo": {
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129,
+        "desde": -230,
+        "hasta": -200,
+        "aprox": true
+      },
+      "roles": [
+        "escultor"
+      ],
+      "resumen": "Escultor de la corte de Atalo I. Plinio el Viejo (XXXIV.84 y 88) dice que varios artistas representaron las batallas de Atalo y de Eumenes contra los gálatas (en XXXIV.84 los manuscritos traen «Isígono», que suele corregirse en Epígono), y elogia de Epígono un trompetero y un niño que acaricia a su madre muerta; su firma aparece en bases de la terraza de Atenea en Pérgamo. Por eso se le atribuyen los originales de bronce del Gálata moribundo y del Gálata Ludovisi, una atribución verosímil pero no probada.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Epígono de Pérgamo",
+        "en": "Epigonus"
+      },
+      "wikidata": "Q1288034"
+    },
+    {
+      "id": "eumenes-ii",
+      "nombre": "Eumenes II de Pérgamo",
+      "muerte": {
+        "anio": -159,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129,
+        "desde": -197,
+        "hasta": -159,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Pérgamo de 197 a 159 a. C., hijo de Atalo I. Aliado de Roma contra Antíoco III en Magnesia (190 a. C.), recibió en la paz de Apamea casi toda el Asia Menor seléucida, y en 168-166 a. C. venció a los gálatas, que habían invadido su reino. En su reinado se levantó el gran altar de Pérgamo, cuyo friso de la lucha de los dioses contra los gigantes suele leerse como alusión a esas guerras.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eumenes II",
+        "en": "Eumenes II"
+      },
+      "wikidata": "Q270678"
+    },
+    {
+      "id": "ortiagon",
+      "nombre": "Ortiagon",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -189,
+        "hasta": -180,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Jefe de los tolistobogios, que en 189 a. C. dirigió con Combolomaro y Gauloto la resistencia contra Manlio Vulsón en el monte Olimpo (Livio XXXVIII.19). Polibio (XXII.21) lo describe como generoso, prudente y valiente, y dice que se proponía reunir a todos los gálatas bajo su mando. Su esposa fue Quiomara.",
+      "obras": []
+    },
+    {
+      "id": "quiomara",
+      "nombre": "Quiomara",
+      "activo": {
+        "lugar": "Sardes",
+        "lon": 28.04,
+        "lat": 38.488,
+        "desde": -189,
+        "hasta": -180,
+        "aprox": true
+      },
+      "roles": [
+        "noble"
+      ],
+      "resumen": "Esposa de Ortiagon. Capturada en 189 a. C. por las tropas de Manlio Vulsón y violada por un centurión, hizo que los suyos lo mataran cuando él cobraba el rescate y llevó su cabeza a su marido. Polibio (XXI.38) dice que la conoció en Sardes y elogia su inteligencia; la historia la repiten Livio (XXXVIII.24) y Plutarco (Virtudes de mujeres 22), que la usan como modelo de virtud femenina.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quiomara",
+        "en": "Chiomara"
+      },
+      "wikidata": "Q461174"
+    },
+    {
+      "id": "epossognato",
+      "nombre": "Epossognato",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -189,
+        "hasta": -189,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Jefe gálata, el único que se mantuvo amigo de Eumenes II en 189 a. C. Según Polibio (XXI.37) y Livio (XXXVIII.18), intentó sin éxito que los demás reyes gálatas se sometieran a Manlio Vulsón.",
+      "obras": []
+    },
+    {
+      "id": "cneo-manlio-vulson",
+      "nombre": "Cneo Manlio Vulsón",
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": -197,
+        "hasta": -187,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "militar"
+      ],
+      "resumen": "Cónsul romano de 189 a. C. que llevó una campaña contra los gálatas de Asia Menor por haber ayudado a Antíoco III y los venció en los montes Olimpo y Magaba. Lo cuentan Livio (XXXVIII.12-27 y 44-50) y Polibio (XXI.33-39). Livio recoge las acusaciones de sus enemigos en el Senado, que le negaban el triunfo por haber hecho una guerra sin autorización para saquear, y lo culpa de haber traído a Roma el lujo de Asia (XXXIX.6). Triunfó en 187 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cneo Manlio Vulsón",
+        "en": "Gnaeus Manlius Vulso (consul 189 BC)"
+      },
+      "wikidata": "Q722307"
+    },
+    {
+      "id": "camma",
+      "nombre": "Camma",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -150,
+        "hasta": -100,
+        "aprox": true
+      },
+      "roles": [
+        "sacerdotisa"
+      ],
+      "resumen": "Gálata, sacerdotisa de Ártemis, esposa del tetrarca Sinato. Según Plutarco (Virtudes de mujeres 20 y Erótico 22) y Polieno (VIII.39), Sinórix mató a su marido para casarse con ella; ella aceptó, brindó con él en el templo con una copa envenenada y murieron los dos. No se puede fechar con certeza (probablemente siglos II o I a. C.); es una historia moral griega con nombres gálatas.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Camma"
+      },
+      "wikidata": "Q2935181"
+    },
+    {
+      "id": "deyotaro",
+      "nombre": "Deyótaro",
+      "nacimiento": {
+        "anio": -105,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -40,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -86,
+        "hasta": -40,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Tetrarca de los tolistobogios y rey de Galacia. Aliado de Roma contra Mitrídates VI, recibió de Pompeyo territorios y el título de rey; peleó con Pompeyo en Farsalia y Julio César lo perdonó, pero le quitó tierras. En 45 a. C. su nieto Cástor lo acusó de haber querido matar a César y Cicerón lo defendió en el discurso Pro rege Deiotaro. Estrabón (XII.5.3) cuenta que concentró en sus manos el poder de los tetrarcas y que mató a su yerno y a su hija; Cicerón (De divinatione I y II), que no emprendía nada sin observar el vuelo de las aves. Casi todo lo que sabemos de él viene de Cicerón, que era su amigo y su abogado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Deyótaro",
+        "en": "Deiotarus"
+      },
+      "wikidata": "Q1183348"
+    },
+    {
+      "id": "castor-de-galacia",
+      "nombre": "Cástor, nieto de Deyótaro",
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": -45,
+        "hasta": -45,
+        "aprox": false
+      },
+      "roles": [
+        "noble"
+      ],
+      "resumen": "Nieto del rey Deyótaro por parte de su hija, que en 45 a. C. lo acusó ante Julio César de haber planeado matarlo cuando lo recibió en Galacia en 47 a. C. Lo conocemos por el discurso Pro rege Deiotaro de Cicerón, que lo presenta como un nieto desleal; su padre era el tetrarca Cástor Tarcondario (Saocondario en Estrabón XII.5.3), yerno de Deyótaro, al que este hizo matar con su hija.",
+      "obras": []
+    },
+    {
+      "id": "brogitaro",
+      "nombre": "Brogitaro",
+      "muerte": {
+        "anio": -50,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Pesinunte",
+        "lon": 31.581,
+        "lat": 39.332,
+        "desde": -63,
+        "hasta": -50,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Tetrarca de los trocmos y yerno de Deyótaro, que en 58 a. C. obtuvo de Roma, por una ley del tribuno Clodio, el título de rey y el sacerdocio de la Gran Madre de Pesinunte. Cicerón (Sobre la respuesta de los arúspices 28-29; Pro Sestio 56) lo presenta como un bárbaro que compró títulos y profanó el santuario. Murió hacia 50 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Brogitarix",
+        "en": "Brogitarus"
+      },
+      "wikidata": "Q3781179"
+    },
+    {
+      "id": "adiatorix",
+      "nombre": "Adiatórix",
+      "muerte": {
+        "anio": -29,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Heraclea Póntica",
+        "lon": 31.415,
+        "lat": 41.285,
+        "desde": -40,
+        "hasta": -31,
+        "aprox": true
+      },
+      "roles": [
+        "noble"
+      ],
+      "resumen": "Hijo del tetrarca gálata Domnecleo, que gobernó parte de Heraclea Póntica por concesión de Marco Antonio y, poco antes de la batalla de Accio, hizo matar de noche a los colonos romanos de la ciudad. Octavio lo llevó en su triunfo y lo hizo ejecutar con uno de sus hijos; lo cuenta Estrabón (XII.3.6 y 3.35), que agrega que otro hijo, Diteuto, fue después sacerdote de Comana.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Adiatórix",
+        "en": "Adiatorix"
+      },
+      "wikidata": "Q356947"
+    },
+    {
+      "id": "amintas-de-galacia",
+      "nombre": "Amintas de Galacia",
+      "muerte": {
+        "anio": -25,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -36,
+        "hasta": -25,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Último rey de Galacia, antes secretario de Deyótaro. Marco Antonio lo hizo rey en 36 a. C. y él se pasó a Octavio antes de Accio, por lo que conservó el reino, ampliado hacia Pisidia y Licaonia. Murió en 25 a. C. luchando contra los homonadenses del Tauro (Estrabón XII.6.3; Dion Casio LIII.26), y su reino se convirtió en la provincia romana de Galacia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Amintas de Galacia",
+        "en": "Amyntas of Galatia"
+      },
+      "wikidata": "Q482101"
+    },
+    {
+      "id": "ptolomeo-ii",
+      "nombre": "Ptolomeo II Filadelfo",
+      "nacimiento": {
+        "anio": -309,
+        "aprox": true,
+        "lugar": "Cos",
+        "lon": 27.11,
+        "lat": 36.815
+      },
+      "muerte": {
+        "anio": -246,
+        "aprox": false,
+        "lugar": "Alejandría",
+        "lon": 29.892,
+        "lat": 31.198
+      },
+      "activo": {
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2,
+        "desde": -283,
+        "hasta": -246,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Egipto de 283 a 246 a. C., hijo de Ptolomeo I. Contrató a unos cuatro mil gálatas y, cuando supo que conspiraban para apoderarse de Egipto, según Pausanias (I.7.2), los dejó en una isla del Nilo, donde murieron de hambre o se mataron entre ellos. El poeta Calímaco celebró esa victoria en el Himno a Delos, comparándola con la derrota de los galos en Delfos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ptolomeo II",
+        "en": "Ptolemy II Philadelphus"
+      },
+      "wikidata": "Q39576"
+    },
+    {
+      "id": "autarito",
+      "nombre": "Autarito",
+      "muerte": {
+        "anio": -238,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Cartago",
+        "lon": 10.323,
+        "lat": 36.853,
+        "desde": -241,
+        "hasta": -238,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe de los mercenarios galos de Cartago, uno de los cabecillas de la rebelión de los mercenarios (241-237 a. C.) junto con Espendio y Mato. Polibio (I.77-85) dice que lo escuchaban todos porque, después de años de servicio, hablaba fenicio, y que fue él quien propuso torturar y matar a los prisioneros cartagineses. Amílcar Barca lo capturó y lo hizo crucificar a la vista de Túnez.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Autarito",
+        "en": "Autaritus"
+      },
+      "wikidata": "Q2872353"
+    },
+    {
+      "id": "cincibil",
+      "nombre": "Cincibil",
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": -170,
+        "hasta": -170,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey galo de los Alpes orientales, probablemente del Nórico, que en 170 a. C. mandó a su hermano al Senado romano para quejarse de que el cónsul Cayo Casio Longino había saqueado a pueblos alpinos aliados y vendido como esclavos a miles de personas. El Senado le dio la razón, desautorizó al cónsul y mandó regalos a los dos hermanos, según Livio (XLIII.5).",
+      "obras": []
+    },
+    {
+      "id": "critasiro",
+      "nombre": "Critasiro",
+      "activo": {
+        "lugar": "Oppidum de Bratislava",
+        "lon": 17.105,
+        "lat": 48.144,
+        "desde": -60,
+        "hasta": -60,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de los boyos del Danubio medio que, según Estrabón (VII.3.11 y 5.2), fue derrotado junto con los tauriscos por el rey dacio Burebista hacia mediados del siglo I a. C. Estrabón dice que los boyos fueron aniquilados y su tierra quedó como pastizal; no se sabe nada más de él.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Critasirus"
+      },
+      "wikidata": "Q3797608"
+    },
+    {
+      "id": "burebista",
+      "nombre": "Burebista",
+      "muerte": {
+        "anio": -44,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Dacia",
+        "desde": -82,
+        "hasta": -44,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de los getas y dacios que hacia 82-44 a. C. unificó un gran reino al norte del Danubio. Estrabón (VII.3.11 y 5.2) cuenta que destruyó a los boyos de Critasiro y a los tauriscos, que saqueó Tracia hasta Macedonia y que, con el sacerdote Decéneo, impuso disciplina a su pueblo hasta hacerle arrancar las viñas. Lo mataron en una conjura hacia 44 a. C., en la época del asesinato de César, y su reino se dividió.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Burebista",
+        "en": "Burebista"
+      },
+      "wikidata": "Q309869"
+    },
+    {
+      "id": "voccio",
+      "nombre": "Voccio",
+      "activo": {
+        "lugar": "Magdalensberg",
+        "lon": 14.431,
+        "lat": 46.701,
+        "desde": -60,
+        "hasta": -49,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey del Nórico. César (Guerra de las Galias I.53) cuenta que una hermana suya fue una de las dos esposas de Ariovisto y que murió en la huida tras la derrota de 58 a. C.; en 49 a. C. un rey nórico, que suele identificarse con él, mandó trescientos jinetes a César (Guerra civil I.18). Es uno de los pocos reyes del Nórico conocidos por nombre.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Voccio"
+      },
+      "wikidata": "Q1387652"
+    },
+    {
+      "id": "maroboduo",
+      "nombre": "Maroboduo",
+      "nacimiento": {
+        "anio": -30,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 37,
+        "aprox": false,
+        "lugar": "Rávena",
+        "lon": 12.202,
+        "lat": 44.416
+      },
+      "activo": {
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087,
+        "desde": -9,
+        "hasta": 19,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de los marcomanos que hacia 9-6 a. C. llevó a su pueblo a Bohemia, la antigua tierra de los boyos, y armó allí un reino poderoso (Estrabón VII.1.3; Veleyo Patérculo II.108; Tácito, Germania 42). Tiberio preparó una campaña contra él en 6 d. C., que se suspendió por la rebelión de Panonia; derrocado en 19, se refugió en Ravena, donde vivió hasta su muerte en 37 (Tácito, Anales II.62-63).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marbod",
+        "en": "Maroboduus"
+      },
+      "wikidata": "Q165144"
+    },
+    {
+      "id": "memnon-de-heraclea",
+      "nombre": "Memnón de Heraclea",
+      "activo": {
+        "lugar": "Heraclea Póntica",
+        "lon": 31.415,
+        "lat": 41.285,
+        "desde": 100,
+        "hasta": 100,
+        "aprox": true
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador griego de Heraclea Póntica, probablemente del siglo I o II d. C., autor de una historia de su ciudad que solo conocemos por el resumen que hizo de los libros IX a XVI el patriarca Focio en el siglo IX. Es la fuente más cercana sobre el tratado entre Nicomedes I y los galos que pasaron a Asia.",
+      "obras": [
+        "historia-de-heraclea-memnon"
+      ],
+      "wikipedia": {
+        "es": "Memnón de Heraclea Póntica",
+        "en": "Memnon of Heraclea"
+      },
+      "wikidata": "Q983937"
+    },
+    {
+      "id": "cirilo-de-escitopolis",
+      "nombre": "Cirilo de Escitópolis",
+      "nacimiento": {
+        "anio": 525,
+        "aprox": true,
+        "lugar": "Escitópolis",
+        "lon": 35.499,
+        "lat": 32.496
+      },
+      "muerte": {
+        "anio": 559,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683,
+        "desde": 543,
+        "hasta": 559,
+        "aprox": true
+      },
+      "roles": [
+        "monje",
+        "hagiógrafo"
+      ],
+      "resumen": "Monje e historiador de los monjes de Palestina del siglo VI. En la Vida de Eutimio (55) cuenta de un monje gálata poseído que no hablaba y que, si lo apremiaban, «hablaba en gálata»: es el testimonio más tardío de que el gálata seguía hablándose, aunque aislado y discutido.",
+      "obras": [
+        "vida-de-eutimio"
+      ],
+      "wikipedia": {
+        "es": "Cirilo de Escitópolis",
+        "en": "Cyril of Scythopolis"
+      },
+      "wikidata": "Q1795183"
+    },
+    {
+      "id": "pirro-de-epiro",
+      "nombre": "Pirro de Epiro",
+      "nacimiento": {
+        "anio": -319,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -272,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Ambracia",
+        "lon": 20.987,
+        "lat": 39.158,
+        "desde": -306,
+        "hasta": -272,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Epiro, conocido por sus guerras contra Roma en Italia. En 274 a. C. invadió Macedonia con mercenarios gálatas, que saquearon las tumbas reales de Egas (Plutarco, Pirro 26), y dedicó a Atenea Itonia los escudos de los gálatas de Antígono que había vencido, con un epigrama que conserva Pausanias (I.13.2-3). Murió en Argos en 272 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pirro de Epiro",
+        "en": "Pyrrhus of Epirus"
+      },
+      "wikidata": "Q172353"
+    },
+    {
+      "id": "ninfis-de-heraclea",
+      "nombre": "Ninfis de Heraclea",
+      "activo": {
+        "lugar": "Heraclea Póntica",
+        "lon": 31.415,
+        "lat": 41.285,
+        "desde": -281,
+        "hasta": -250,
+        "aprox": true
+      },
+      "roles": [
+        "historiador",
+        "político"
+      ],
+      "resumen": "Historiador y político de Heraclea Póntica del siglo III a. C., que encabezó el regreso de los exiliados a su ciudad en 281 a. C. y escribió una historia de Heraclea. Su obra se perdió, pero Memnón la usó, de modo que lo que sabemos de los primeros gálatas en Asia viene en último término de un contemporáneo.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Nymphis"
+      },
+      "wikidata": "Q1221653"
+    },
+    {
+      "id": "carl-humann",
+      "nombre": "Carl Humann",
+      "nacimiento": {
+        "anio": 1839,
+        "aprox": false,
+        "lugar": "Steele",
+        "lon": 7.076,
+        "lat": 51.449
+      },
+      "muerte": {
+        "anio": 1896,
+        "aprox": false,
+        "lugar": "Esmirna",
+        "lon": 27.138,
+        "lat": 38.413
+      },
+      "activo": {
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129,
+        "desde": 1878,
+        "hasta": 1886,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo",
+        "ingeniero"
+      ],
+      "resumen": "Ingeniero alemán que, mientras construía caminos en el Imperio otomano, descubrió y excavó desde 1878 la acrópolis de Pérgamo y llevó a Berlín los relieves del gran altar, que se reconstruyó en el Museo de Pérgamo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carl Humann",
+        "en": "Carl Humann"
+      },
+      "wikidata": "Q64445"
+    },
+    {
+      "id": "manolis-andronikos",
+      "nombre": "Manolis Andronikos",
+      "nacimiento": {
+        "anio": 1919,
+        "aprox": false,
+        "lugar": "Bursa",
+        "lon": 29.081,
+        "lat": 40.191
+      },
+      "muerte": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Salónica",
+        "lon": 22.936,
+        "lat": 40.64
+      },
+      "activo": {
+        "lugar": "Egas (Vergina)",
+        "lon": 22.323,
+        "lat": 40.478,
+        "desde": 1977,
+        "hasta": 1992,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo griego que en 1977 encontró en Vergina, la antigua Egas, tumbas reales macedonias intactas bajo el gran túmulo; atribuyó una de ellas a Filipo II, una identificación discutida. Interpretó el túmulo como obra de Antígono Gónatas para tapar las tumbas después del saqueo de los gálatas de Pirro.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manolis Andronikos",
+        "en": "Manolis Andronikos"
+      },
+      "wikidata": "Q1362287"
+    },
+    {
+      "id": "william-mitchell-ramsay",
+      "nombre": "William Mitchell Ramsay",
+      "nacimiento": {
+        "anio": 1851,
+        "aprox": false,
+        "lugar": "Glasgow",
+        "lon": -4.25,
+        "lat": 55.861
+      },
+      "muerte": {
+        "anio": 1939,
+        "aprox": false,
+        "lugar": "Bournemouth",
+        "lon": -1.88,
+        "lat": 50.72
+      },
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": 1880,
+        "hasta": 1914,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo",
+        "historiador"
+      ],
+      "resumen": "Arqueólogo escocés que recorrió Asia Menor desde 1880 y estudió su geografía histórica y sus inscripciones. Sostuvo que la Carta a los gálatas se dirigía a las ciudades del sur de la provincia romana y no a los gálatas étnicos del norte, la llamada hipótesis surgálata, todavía discutida.",
+      "obras": [],
+      "wikipedia": {
+        "es": "William Mitchell Ramsay",
+        "en": "William Mitchell Ramsay"
+      },
+      "wikidata": "Q326308"
+    },
+    {
+      "id": "stephen-mitchell",
+      "nombre": "Stephen Mitchell",
+      "nacimiento": {
+        "anio": 1948,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 2024,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": 1970,
+        "hasta": 2010,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "epigrafista"
+      ],
+      "resumen": "Historiador y epigrafista británico de la Anatolia antigua (1948-2024), profesor en Swansea y Exeter, autor de Anatolia: Land, Men, and Gods in Asia Minor (1993) y de los estudios de referencia sobre los gálatas, basados en la epigrafía y en el trabajo de campo en Turquía.",
+      "obras": [
+        "anatolia-mitchell"
+      ],
+      "wikipedia": {
+        "en": "Stephen Mitchell (historian)"
+      },
+      "wikidata": "Q84417146"
+    },
+    {
+      "id": "combutis",
+      "nombre": "Combutis",
+      "activo": {
+        "lugar": "Etolia",
+        "desde": -279,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo al que Breno, junto con Orestorio, mandó en 279 a. C. a saquear Etolia para obligar a los etolios a dejar las Termópilas. Pausanias (X.22.2-4), la única fuente, le atribuye la matanza de Calión.",
+      "obras": []
+    },
+    {
+      "id": "orestorio",
+      "nombre": "Orestorio",
+      "activo": {
+        "lugar": "Etolia",
+        "desde": -279,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Jefe galo que con Combutis dirigió en 279 a. C. el ataque a Etolia, según Pausanias (X.22.2). No se sabe nada más de él.",
+      "obras": []
+    },
+    {
+      "id": "combolomaro",
+      "nombre": "Combolomaro",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -189,
+        "hasta": -189,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Uno de los tres jefes de los tolistobogios, con Ortiagon y Gauloto, que en 189 a. C. se refugiaron en el monte Olimpo frente a Manlio Vulsón, según Livio (XXXVIII.19).",
+      "obras": []
+    },
+    {
+      "id": "gauloto",
+      "nombre": "Gauloto",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -189,
+        "hasta": -189,
+        "aprox": false
+      },
+      "roles": [
+        "jefe militar"
+      ],
+      "resumen": "Uno de los tres jefes de los tolistobogios, con Ortiagon y Combolomaro, que en 189 a. C. resistieron a Manlio Vulsón en el monte Olimpo, según Livio (XXXVIII.19).",
+      "obras": []
+    },
+    {
+      "id": "sinato",
+      "nombre": "Sinato",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -150,
+        "hasta": -100,
+        "aprox": true
+      },
+      "roles": [
+        "tetrarca"
+      ],
+      "resumen": "Tetrarca gálata, esposo de Camma, al que mató Sinórix para casarse con ella, según Plutarco (Virtudes de mujeres 20 y Erótico 22) y Polieno (VIII.39). Solo se lo conoce por esa historia.",
+      "obras": []
+    },
+    {
+      "id": "sinorix",
+      "nombre": "Sinórix",
+      "activo": {
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936,
+        "desde": -150,
+        "hasta": -100,
+        "aprox": true
+      },
+      "roles": [
+        "tetrarca"
+      ],
+      "resumen": "Tetrarca gálata que, según Plutarco y Polieno, mató a Sinato para casarse con su viuda Camma y murió envenenado por ella en la ceremonia de la boda. Solo se lo conoce por esa historia, que los autores griegos contaban como ejemplo de fidelidad conyugal.",
+      "obras": []
+    },
+    {
+      "id": "domnecleo",
+      "nombre": "Domnecleo",
+      "activo": {
+        "lugar": "Galacia",
+        "desde": -50,
+        "hasta": -40,
+        "aprox": true
+      },
+      "roles": [
+        "tetrarca"
+      ],
+      "resumen": "Tetrarca gálata, padre de Adiatórix, según Estrabón (XII.3.6). Es todo lo que se sabe de él.",
+      "obras": []
+    },
+    {
+      "id": "bogodiatar",
+      "nombre": "Bogodiatar",
+      "activo": {
+        "lugar": "Tavio",
+        "lon": 34.507,
+        "lat": 39.859,
+        "desde": -64,
+        "hasta": -50,
+        "aprox": true
+      },
+      "roles": [
+        "tetrarca"
+      ],
+      "resumen": "Tetrarca de los trocmos al que Pompeyo, al reorganizar Asia Menor después de la guerra contra Mitrídates, dio la ciudad de Mitridatio, en el Ponto, según Estrabón (XII.3.13).",
+      "obras": []
+    }
+  ],
+  "hechos": [
+    {
+      "id": "expansion-celta-a-la-cuenca-de-los-carpatos",
+      "titulo": "Los celtas se expanden por el Danubio medio y la cuenca de los Cárpatos",
+      "anio": -400,
+      "anio_hasta": -300,
+      "aprox": true,
+      "lugar": "Cuenca de los Cárpatos",
+      "lon": 19.046,
+      "lat": 47.486,
+      "tipo": "politico",
+      "resumen": "La arqueología muestra que en el siglo IV a. C. las tumbas de guerreros con espada y los adornos del estilo de La Tène, como las fíbulas del tipo de Duchcov, se extendieron desde Austria y Bohemia hacia Hungría, Eslovaquia, Transilvania y el norte de Serbia. Justino (XXIV.4) habla de trescientos mil galos que buscaban tierras y de los que una parte se asentó en Panonia, y Livio (V.34) lo cuenta como el viaje legendario de Segoveso a los bosques hercinios. Cuánto fue migración de gente y cuánto adopción local de una moda y de unas armas es un debate abierto.",
+      "regiones": [
+        "hungria",
+        "bohemia",
+        "rumania",
+        "balcanes"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "epitome-de-justino",
+        "tesoro-de-duchcov-kruta"
+      ],
+      "wikipedia": {
+        "es": "Invasión celta de los Balcanes",
+        "en": "Celtic settlement of Southeast Europe"
+      }
+    },
+    {
+      "id": "gran-invasion-celta-de-los-balcanes",
+      "titulo": "La gran invasión celta de Macedonia y Grecia",
+      "anio": -280,
+      "anio_hasta": -277,
+      "aprox": false,
+      "lugar": "Pela",
+      "lon": 22.526,
+      "lat": 40.76,
+      "tipo": "batalla",
+      "resumen": "Tras la muerte de Lisímaco y de Seleuco (281 a. C.), que dejó sin defensa la frontera del Danubio, tres columnas galas atacaron en 280-279 a. C.: Cerecio contra los tracios, Bolgio contra Macedonia, donde mató al rey Ptolomeo Cerauno, y Breno y Acicorio contra Peonia y Grecia. Pausanias (X.19-23) y Justino (XXIV-XXV) cuentan la campaña con cifras enormes, 152.000 infantes y 20.400 jinetes según Pausanias, que nadie toma al pie de la letra; Pausanias (X.19.11) agrega que cada jinete iba con dos servidores a caballo, la trimarkisia, de marka, «caballo» en la lengua de los galos, una de las pocas palabras celtas que anotó un autor griego. Después de Delfos los grupos se dispersaron: unos volvieron al Danubio, otros fundaron el reino de Tile en Tracia y otros pasaron a Asia. Los relatos que se conservan son griegos y tardíos y presentan la invasión como una nueva guerra contra los persas, con los galos en el papel de los bárbaros impíos.",
+      "regiones": [
+        "grecia",
+        "balcanes"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "epitome-de-justino",
+        "biblioteca-historica-diodoro-libro-xxii",
+        "historia-de-heraclea-memnon",
+        "decreto-de-cos-sobre-delfos",
+        "les-galates-en-grece-nachtergael"
+      ]
+    },
+    {
+      "id": "derrota-de-ptolomeo-cerauno",
+      "titulo": "Los galos de Bolgio derrotan y matan a Ptolomeo Cerauno",
+      "anio": -279,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pela",
+      "lon": 22.526,
+      "lat": 40.76,
+      "tipo": "batalla",
+      "resumen": "El rey de Macedonia salió a enfrentar a los galos de Bolgio con pocas fuerzas, después de rechazar la ayuda de veinte mil dardanios y de despreciar a los enviados galos que le ofrecían la paz a cambio de dinero, según Justino (XXIV.4-5). Herido y capturado, fue decapitado y su cabeza fue paseada en una lanza (Justino XXIV.5); Memnón (8.8) cuenta en cambio que el elefante que montaba fue herido y lo derribó, y que los galos lo capturaron vivo y lo despedazaron. Macedonia quedó casi dos años sin rey y fue saqueada.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "epitome-de-justino",
+        "biblioteca-historica-diodoro-libro-xxii",
+        "historia-de-heraclea-memnon",
+        "descripcion-de-grecia-pausanias"
+      ]
+    },
+    {
+      "id": "batalla-de-las-termopilas-279",
+      "titulo": "Batalla de las Termópilas de 279 a. C.",
+      "anio": -279,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Termópilas",
+      "lon": 22.537,
+      "lat": 38.796,
+      "tipo": "batalla",
+      "resumen": "Una coalición griega de beocios, focidios, locrios, etolios, megarenses y atenienses, estos al mando de Calipo y con naves que atacaban desde la costa, frenó a Breno en el paso, según Pausanias (X.19-22). Breno mandó una fuerza a saquear Etolia para que los etolios abandonaran el paso, y al final, como los persas en 480 a. C., rodeó a los griegos por el sendero de la montaña; los defensores se retiraron por mar. Pausanias, que escribió unos cuatro siglos y medio después, construye el relato en paralelo con la defensa del paso contra los persas.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "les-galates-en-grece-nachtergael"
+      ],
+      "wikipedia": {
+        "es": "Batalla de las Termópilas (279 a. C.)",
+        "en": "Battle of Thermopylae (279 BC)"
+      }
+    },
+    {
+      "id": "saqueo-de-calion",
+      "titulo": "Los galos saquean Calión, en Etolia",
+      "anio": -279,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Calión (Etolia)",
+      "tipo": "batalla",
+      "resumen": "Para obligar a los etolios a dejar las Termópilas, Breno mandó a Combutis y Orestorio a atacar Etolia. Pausanias (X.22.2-4) describe la toma de Calión con la matanza de todos los varones, ancianos y niños, violaciones y canibalismo, y dice que los etolios, mujeres incluidas, los persiguieron en la retirada hasta casi exterminarlos. Es el pasaje más extremo de la imagen griega del bárbaro, y viene de una tradición etolia que después de la guerra presentaba a los etolios como los salvadores de Grecia.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "les-galates-en-grece-nachtergael"
+      ]
+    },
+    {
+      "id": "ataque-galo-a-delfos",
+      "titulo": "Ataque galo a Delfos",
+      "anio": -279,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Delfos",
+      "lon": 22.5009,
+      "lat": 38.4824,
+      "tipo": "batalla",
+      "resumen": "Breno llegó a Delfos a fines de 279 a. C. Pausanias (X.23) y Justino (XXIV.7-8) cuentan que Apolo defendió su santuario con un terremoto, rayos, una tormenta de nieve y rocas que caían del Parnaso, con la aparición de los héroes Hipéroco, Laódoco, Pirro y Fílaco, y con un pánico nocturno en que los galos se mataron entre sí; Breno, herido, se suicidó. Eso es relato piadoso: el decreto de Cos de 278 a. C. ya atribuye la victoria al dios, pero también a los hombres que acudieron a defender el santuario. Los historiadores modernos dan una explicación más terrenal: la defensa de focidios y etolios, el invierno en la montaña y la falta de víveres de un ejército lejos de su tierra. Los textos griegos dicen que el santuario no fue saqueado, y una tradición posterior, que Estrabón ya ponía en duda, decía que el oro de Delfos terminó en Tolosa.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "epitome-de-justino",
+        "biblioteca-historica-diodoro-libro-xxii",
+        "decreto-de-cos-sobre-delfos",
+        "les-galates-en-grece-nachtergael"
+      ]
+    },
+    {
+      "id": "soterias-de-delfos",
+      "titulo": "Fundación de las Soterias de Delfos",
+      "anio": -278,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Delfos",
+      "lon": 22.5009,
+      "lat": 38.4824,
+      "tipo": "religioso",
+      "resumen": "Para celebrar la salvación del santuario se instituyeron en Delfos las Soterias, unas fiestas con competencias musicales y atléticas en honor de Apolo y de Zeus Sóter. Hacia 246 a. C. los etolios, que dominaban Delfos, las reorganizaron como fiesta panhelénica y pidieron a las demás ciudades que las reconocieran. Los decretos de reconocimiento que se conservan, como los de Atenas y Quíos, son la principal fuente sobre cómo se recordó la invasión, y muestran el uso político que los etolios hicieron de su victoria.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "decreto-de-cos-sobre-delfos",
+        "les-galates-en-grece-nachtergael"
+      ],
+      "wikipedia": {
+        "es": "Soterias",
+        "en": "Soteria (festival)"
+      }
+    },
+    {
+      "id": "batalla-de-lisimaquia",
+      "titulo": "Batalla de Lisimaquia",
+      "anio": -277,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lisimaquia",
+      "lon": 26.88,
+      "lat": 40.58,
+      "tipo": "batalla",
+      "resumen": "Antígono Gónatas tendió una emboscada a una banda gala cerca de Lisimaquia, en el Quersoneso tracio: dejó su campamento vacío y, cuando los galos lo saqueaban, los atacó y los derrotó, según Justino (XXV.1-2). La victoria le dio el prestigio para hacerse reconocer rey de Macedonia.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "epitome-de-justino"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Lisimaquia",
+        "en": "Battle of Lysimachia"
+      }
+    },
+    {
+      "id": "reino-de-tile",
+      "titulo": "Reino galo de Tile, en Tracia",
+      "anio": -278,
+      "anio_hasta": -212,
+      "aprox": true,
+      "lugar": "Tile (Tulovo, ubicación discutida)",
+      "lon": 25.55,
+      "lat": 42.583,
+      "tipo": "politico",
+      "resumen": "Los galos de Comontorio, que no siguieron hacia Grecia ni hacia Asia, fundaron un reino en la Tracia oriental con capital en Tile, cerca de los montes Hemo, y cobraron tributo a Bizancio, que llegó a pagarles ochenta talentos por año (Polibio IV.45-46). El reino duró hasta que, bajo su último rey, Cavaro, los tracios se sublevaron y lo destruyeron hacia 212 a. C. La ubicación de Tile se discute (se propuso Tulovo, en Bulgaria): en Tracia hay hallazgos celtas dispersos, pero ninguno identifica la capital.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "en": "Tylis"
+      }
+    },
+    {
+      "id": "escordiscos-en-el-danubio",
+      "titulo": "Los escordiscos se asientan junto al Sava y el Danubio",
+      "anio": -278,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Singiduno (Belgrado)",
+      "lon": 20.46,
+      "lat": 44.82,
+      "tipo": "fundacion",
+      "resumen": "Según Justino (XXXII.3) y Ateneo (VI.25, que sigue a Posidonio), una parte de los que atacaron Delfos volvió al norte con Batanato y se estableció en la confluencia del Sava y el Danubio con el nombre de escordiscos. Su centro principal fue Singiduno, la actual Belgrado, cuyo nombre es celta. Los autores antiguos los llaman a veces celtas, tracios o ilirios, y se discute si eran un pueblo celta o una confederación mixta a la que los vecinos dieron un nombre común.",
+      "regiones": [
+        "hungria",
+        "balcanes"
+      ],
+      "fuentes": [
+        "epitome-de-justino",
+        "deipnosofistas"
+      ],
+      "wikipedia": {
+        "es": "Escordiscos",
+        "en": "Scordisci"
+      }
+    },
+    {
+      "id": "paso-de-los-galatas-a-asia",
+      "titulo": "Los gálatas pasan a Asia",
+      "anio": -278,
+      "anio_hasta": -277,
+      "aprox": false,
+      "lugar": "Constantinopla",
+      "lon": 28.976,
+      "lat": 41.012,
+      "tipo": "politico",
+      "resumen": "Unos veinte mil galos de Leonorio y Lutario, de los que no más de la mitad eran guerreros según Livio (XXXVIII.16), cruzaron el Bósforo y el Helesponto en 278-277 a. C. contratados por Nicomedes I de Bitinia, que los necesitaba contra Antíoco I y contra su hermano. Memnón de Heraclea (11) resume el pacto: apoyarían siempre a Nicomedes y a sus hijos y pelearían también por las ciudades griegas aliadas, como Bizancio, Heraclea y Calcedonia. Después saquearon el oeste de Asia Menor, como muestra el decreto de Priene en honor de Sotas, y según Livio se repartieron las zonas de saqueo: los trocmos el Helesponto, los tolistobogios Eolia y Jonia, los tectósages el interior. Terminaron asentándose en la Frigia oriental, que pasó a llamarse Galacia.",
+      "regiones": [
+        "anatolia",
+        "galacia"
+      ],
+      "fuentes": [
+        "historia-de-heraclea-memnon",
+        "ab-urbe-condita",
+        "geografia-de-estrabon-libro-xii",
+        "decreto-de-priene-para-sotas"
+      ],
+      "wikipedia": {
+        "es": "Gálatas",
+        "en": "Galatians (people)"
+      }
+    },
+    {
+      "id": "batalla-de-los-elefantes",
+      "titulo": "Batalla de los elefantes",
+      "anio": -275,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Asia Menor",
+      "tipo": "batalla",
+      "resumen": "Antíoco I venció a los gálatas en una batalla en Asia Menor que solo conocemos en detalle por Luciano (Zeuxis 8-11): sus dieciséis elefantes asustaron a los caballos de los gálatas, que no los conocían. Apiano (Siria 65) dice que por haber expulsado a los gálatas Antíoco recibió el título de Sóter. La fecha, entre 275 y 268 a. C., y el lugar se desconocen, y la victoria no eliminó a los gálatas, que siguieron cobrando tributo a las ciudades griegas.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "zeuxis-luciano",
+        "historia-romana-apiano"
+      ],
+      "wikipedia": {
+        "es": "Batalla de los elefantes",
+        "en": "Battle of the Elephants"
+      }
+    },
+    {
+      "id": "motin-de-los-galatas-de-ptolomeo-ii",
+      "titulo": "Motín de los mercenarios gálatas de Ptolomeo II",
+      "anio": -274,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "politico",
+      "resumen": "Ptolomeo II había contratado unos cuatro mil gálatas para su guerra con su medio hermano Magas de Cirene; según Pausanias (I.7.2), al saber que planeaban apoderarse de Egipto, los llevó a una isla desierta del Nilo, donde murieron de hambre o se mataron entre ellos. Calímaco lo celebró en el Himno a Delos (171-188), donde Apolo, aún en el vientre de su madre, profetiza la derrota de los galos en Delfos y la de los que se alzarían contra Ptolomeo. Es uno de los primeros usos de la victoria sobre los gálatas como propaganda de un rey, antes que en Pérgamo.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "himno-a-delos"
+      ]
+    },
+    {
+      "id": "saqueo-de-las-tumbas-de-egas",
+      "titulo": "Los mercenarios galos de Pirro saquean las tumbas reales de Egas",
+      "anio": -274,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Egas (Vergina)",
+      "lon": 22.323,
+      "lat": 40.478,
+      "tipo": "politico",
+      "resumen": "Al invadir Macedonia, Pirro de Epiro dejó en Egas, la antigua capital, una guarnición de mercenarios gálatas que saquearon las tumbas de los reyes en busca de oro y dispersaron los huesos, según Plutarco (Pirro 26) y Diodoro (XXII.12); Pirro no los castigó, y los macedonios se lo reprocharon. En Vergina, la antigua Egas, Manolis Andronikos encontró en 1977 tumbas reales intactas bajo un gran túmulo que, según su interpretación, Antígono Gónatas levantó después para protegerlas de nuevos saqueos.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "vidas-paralelas",
+        "biblioteca-historica-diodoro-libro-xxii"
+      ],
+      "wikipedia": {
+        "en": "Aegae (Macedonia)"
+      }
+    },
+    {
+      "id": "guerra-de-los-mercenarios",
+      "titulo": "Guerra de los mercenarios",
+      "anio": -241,
+      "anio_hasta": -237,
+      "aprox": false,
+      "lugar": "Cartago",
+      "lon": 10.323,
+      "lat": 36.853,
+      "tipo": "batalla",
+      "resumen": "Los mercenarios que Cartago no pagó después de la primera guerra púnica se rebelaron con apoyo de los libios; entre sus jefes estaba el galo Autarito, y Polibio (I.65-88) la presenta como una guerra «sin tregua» en la que los dos bandos cometieron atrocidades. Polibio (II.7) cuenta además que una banda de galos que había servido a Cartago en Érice desertó a los romanos y saqueó el templo de Afrodita. Es la fuente principal sobre la vida de los mercenarios celtas en el Mediterráneo occidental, contada desde el punto de vista de quienes los contrataban.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Guerra de los Mercenarios",
+        "en": "Mercenary War"
+      }
+    },
+    {
+      "id": "traicion-de-fenice",
+      "titulo": "Los mercenarios galos entregan Fenice a los ilirios",
+      "anio": -230,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fenice (Epiro)",
+      "lon": 20.058,
+      "lat": 39.912,
+      "tipo": "batalla",
+      "resumen": "Ochocientos galos, los mismos que habían servido a Cartago y desertado en Érice, guarnecían Fenice, la ciudad más rica de Epiro, y la entregaron a los piratas de la reina iliria Teuta, según Polibio (II.5-7). Polibio usa el episodio como lección de por qué no hay que confiar la defensa a mercenarios bárbaros, una idea frecuente en los autores griegos.",
+      "regiones": [
+        "grecia",
+        "balcanes"
+      ],
+      "fuentes": [
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Fénice",
+        "en": "Phoenice"
+      }
+    },
+    {
+      "id": "batalla-de-ancira",
+      "titulo": "Batalla de Ancira",
+      "anio": -240,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "batalla",
+      "resumen": "En la guerra entre los dos hermanos seléucidas, Antíoco Hierax, con mercenarios gálatas, derrotó cerca de Ancira a Seleuco II, que se salvó a duras penas. Según Justino (XXVII.2), los gálatas, creyendo muerto a Seleuco, se volvieron contra Hierax, que tuvo que comprar su vida con oro. Muestra el peso de los gálatas como fuerza a sueldo en las guerras entre los reyes.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "epitome-de-justino"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Ancira",
+        "en": "Battle of Ancyra"
+      }
+    },
+    {
+      "id": "victorias-de-atalo-sobre-los-galatas",
+      "titulo": "Victorias de Atalo I sobre los gálatas",
+      "anio": -238,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Fuentes del río Caico",
+      "lon": 26.966,
+      "lat": 38.933,
+      "tipo": "batalla",
+      "resumen": "Atalo de Pérgamo, el primero que se negó a pagar el tributo que los gálatas cobraban en Asia según Livio (XXXVIII.16), venció a los tolistobogios junto a las fuentes del Caico hacia 238 a. C. y después, en varias batallas, a los gálatas aliados de Antíoco Hierax. Polibio (XVIII.41) dice que esa victoria sobre el pueblo más temible y belicoso de Asia fue el fundamento de su título de rey, y sus propias dedicatorias en Pérgamo la celebran. Las fuentes no permiten fechar con precisión la batalla, que se sitúa entre 241 y 233 a. C.",
+      "regiones": [
+        "anatolia",
+        "galacia"
+      ],
+      "fuentes": [
+        "dedicatorias-de-atalo-i",
+        "historias-polibio",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Batalla del Caico",
+        "en": "Battle of the Caecus River"
+      }
+    },
+    {
+      "id": "monumentos-de-pergamo",
+      "titulo": "Los monumentos de Pérgamo contra los gálatas",
+      "anio": -230,
+      "anio_hasta": -160,
+      "aprox": true,
+      "lugar": "Pérgamo",
+      "lon": 27.184,
+      "lat": 39.129,
+      "tipo": "cultural",
+      "resumen": "Los atálidas convirtieron sus victorias sobre los gálatas en arte de Estado: grupos de bronce en el santuario de Atenea en Pérgamo, de los que se consideran copias romanas el Gálata moribundo (Museos Capitolinos) y el Gálata Ludovisi, que mata a su mujer y se suicida (Palacio Altemps), y una ofrenda en la Acrópolis de Atenas con figuras de gigantes, amazonas, persas y gálatas vencidos (Pausanias I.25.2). Plinio (XXXIV.84) nombra a los escultores. El tipo del gálata desnudo, con torques, bigote y pelo apelmazado, fijó la imagen del celta en el arte antiguo y la presentó como la derrota del caos frente a los griegos. Miranda Marvin (2002) discutió que las estatuas de Roma sean copias de esos bronces y las consideró creaciones romanas del siglo II d. C.; la opinión más extendida sigue viéndolas como derivadas, más o menos libremente, de originales de Pérgamo.",
+      "regiones": [
+        "anatolia",
+        "grecia",
+        "italia"
+      ],
+      "fuentes": [
+        "dedicatorias-de-atalo-i",
+        "galata-moribundo",
+        "galata-ludovisi",
+        "historia-natural-plinio",
+        "descripcion-de-grecia-pausanias",
+        "ludovisi-barbarians-marvin-2002"
+      ],
+      "wikipedia": {
+        "es": "Gálata moribundo",
+        "en": "Dying Gaul"
+      }
+    },
+    {
+      "id": "altar-de-pergamo",
+      "titulo": "Construcción del gran altar de Pérgamo",
+      "anio": -180,
+      "anio_hasta": -160,
+      "aprox": true,
+      "lugar": "Pérgamo",
+      "lon": 27.184,
+      "lat": 39.129,
+      "tipo": "construccion",
+      "resumen": "Eumenes II hizo levantar en la acrópolis de Pérgamo un altar monumental con un friso de más de cien metros que representa la lucha de los dioses contra los gigantes. Muchos historiadores lo leen como alegoría de las victorias de Pérgamo sobre los gálatas, aunque ninguna inscripción conservada lo dice. Carl Humann lo excavó desde 1878 y se reconstruyó en Berlín, en el Museo de Pérgamo.",
+      "regiones": [
+        "anatolia",
+        "alemania"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias"
+      ],
+      "wikipedia": {
+        "es": "Altar de Pérgamo",
+        "en": "Pergamon Altar"
+      }
+    },
+    {
+      "id": "guerra-galata-de-manlio-vulson",
+      "titulo": "Guerra gálata de Manlio Vulsón",
+      "anio": -189,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "batalla",
+      "resumen": "Después de vencer a Antíoco III en Magnesia, donde los gálatas pelearon en su ejército, el cónsul Cneo Manlio Vulsón marchó contra ellos en 189 a. C. y los derrotó en el monte Olimpo, donde se habían refugiado los tolistobogios, y en el monte Magaba, cerca de Ancira, donde estaban los tectósages y los trocmos. Livio (XXXVIII.12-27), que sigue a Polibio (XXI.33-39), cuenta que los gálatas peleaban casi desnudos y sin armas arrojadizas y cayeron bajo las jabalinas y las hondas; para los muertos del Olimpo da cifras dispares, de diez mil a cuarenta mil, según el analista que sigue. En el Senado, los enemigos de Manlio lo acusaron de haber hecho una guerra no autorizada para saquear (Livio XXXVIII.44-50), y el Primer libro de los Macabeos (8.2) cuenta entre las hazañas romanas sus guerras contra los gálatas.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "historias-polibio",
+        "primer-libro-de-los-macabeos"
+      ],
+      "wikipedia": {
+        "es": "Guerra gálata",
+        "en": "Galatian War"
+      }
+    },
+    {
+      "id": "guerra-de-eumenes-ii-contra-los-galatas",
+      "titulo": "Guerra de Eumenes II contra los gálatas",
+      "anio": -168,
+      "anio_hasta": -166,
+      "aprox": false,
+      "lugar": "Pérgamo",
+      "lon": 27.184,
+      "lat": 39.129,
+      "tipo": "batalla",
+      "resumen": "Los gálatas invadieron el reino de Pérgamo en 168 a. C. y Eumenes II los venció en 166 a. C. Polibio (XXX.28) cuenta que el Senado romano, que ya desconfiaba de Eumenes, declaró a los gálatas autónomos con la condición de que no salieran de su territorio. Un fragmento de Diodoro (XXXI.13) dice que un jefe gálata, después de una victoria, sacrificó a los dioses a los prisioneros más jóvenes y hermosos: es uno de los testimonios antiguos de sacrificio humano entre los gálatas, escrito por autores del bando enemigo.",
+      "regiones": [
+        "anatolia",
+        "galacia"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "ab-urbe-condita"
+      ]
+    },
+    {
+      "id": "matanza-de-los-tetrarcas-galatas",
+      "titulo": "Mitrídates VI hace matar a los tetrarcas gálatas",
+      "anio": -86,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Asia Menor",
+      "tipo": "politico",
+      "resumen": "Desconfiando de sus aliados gálatas, Mitrídates VI del Ponto hizo matar a los tetrarcas que tenía en su corte, con sus mujeres e hijos; solo tres escaparon, según Apiano (Mitridáticas 46). Los sobrevivientes, entre ellos Deyótaro, se pusieron del lado de Roma, y la matanza aceleró la concentración del poder gálata en pocas manos.",
+      "regiones": [
+        "anatolia",
+        "galacia"
+      ],
+      "fuentes": [
+        "historia-romana-apiano"
+      ],
+      "wikipedia": {
+        "es": "Mitrídates VI",
+        "en": "Mithridates VI Eupator"
+      }
+    },
+    {
+      "id": "galatas-de-cleopatra-para-herodes",
+      "titulo": "Augusto da a Herodes la guardia gálata de Cleopatra",
+      "anio": -30,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "politico",
+      "resumen": "Después de la muerte de Cleopatra, Augusto entregó a Herodes los cuatrocientos gálatas que habían sido la guardia personal de la reina, según Josefo (Guerra I.397; Antigüedades XV.217). Josefo los vuelve a nombrar, junto a tracios y germanos, entre las tropas del funeral de Herodes (Guerra I.672). Muestra que los gálatas siguieron sirviendo como tropa de élite de los reyes helenísticos hasta el final de esos reinos.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "egipto"
+      ],
+      "fuentes": [
+        "guerra-de-los-judios",
+        "antiguedades-judias"
+      ]
+    },
+    {
+      "id": "provincia-de-galacia",
+      "titulo": "Galacia se convierte en provincia romana",
+      "anio": -25,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "politico",
+      "resumen": "A la muerte del rey Amintas en 25 a. C., Augusto no reconoció a sus herederos y convirtió su reino en provincia, con capital en Ancira (Dion Casio LIII.26). La provincia sumaba a la Galacia de las tres tribus Pisidia, Licaonia y otras tierras del sur, lo que explica el debate sobre a quiénes escribió Pablo. Las tribus siguieron existiendo como comunidades con centro en Ancira (tectósages), Pesinunte (tolistobogios) y Tavio (trocmos), y sus nobles pasaron a ser sacerdotes del culto imperial.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio",
+        "geografia-de-estrabon-libro-xii",
+        "res-gestae-divi-augusti"
+      ],
+      "wikipedia": {
+        "es": "Galacia (provincia romana)",
+        "en": "Galatia (Roman province)"
+      }
+    },
+    {
+      "id": "mision-de-pablo-en-galacia",
+      "titulo": "Pablo predica en Galacia",
+      "anio": 50,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Galacia",
+      "tipo": "religioso",
+      "resumen": "Según los Hechos de los Apóstoles (16.6 y 18.23), Pablo atravesó «la región frigia y gálata» en su segundo y su tercer viaje, y su Carta a los gálatas, de hacia 50-57, se dirige a comunidades que él había fundado. Desde el siglo XIX se discute si eran los gálatas del norte, en torno de Ancira, Pesinunte y Tavio, como entendían los Padres de la Iglesia, o las ciudades del sur de la provincia, como Antioquía de Pisidia, Iconio, Listra y Derbe, como sostuvo William Ramsay. La carta no da ningún indicio de que sus destinatarios fueran celtas.",
+      "regiones": [
+        "anatolia",
+        "galacia"
+      ],
+      "fuentes": [
+        "nuevo-testamento",
+        "epistola-a-los-galatas",
+        "comentario-a-galatas-jeronimo"
+      ]
+    },
+    {
+      "id": "galata-en-tiempos-de-jeronimo",
+      "titulo": "Jerónimo compara el gálata con la lengua de los tréveros",
+      "anio": 387,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Belén",
+      "lon": 35.206,
+      "lat": 31.704,
+      "tipo": "cultural",
+      "resumen": "En el prólogo del libro II de su comentario a la Carta a los gálatas, escrito en Belén hacia 387, Jerónimo dice que los gálatas, además del griego que se habla en todo Oriente, tienen una lengua propia casi igual a la de los tréveros. Jerónimo había vivido en Tréveris y pasado por Ancira, por lo que pudo oír las dos lenguas; se discute si en el siglo IV todavía se hablaba galo en Tréveris y si Jerónimo no repetía una fuente anterior. Es, de todos modos, el último testimonio de alguien que conoció las dos regiones.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "galacia",
+        "alemania"
+      ],
+      "fuentes": [
+        "comentario-a-galatas-jeronimo",
+        "the-galatian-language-freeman"
+      ],
+      "wikipedia": {
+        "es": "Idioma gálata",
+        "en": "Galatian language"
+      }
+    },
+    {
+      "id": "ultimo-testimonio-del-galata",
+      "titulo": "Último testimonio del gálata hablado",
+      "anio": 555,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Laura de Eutimio, desierto de Judea",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "cultural",
+      "resumen": "Cirilo de Escitópolis, en la Vida de Eutimio (55), escrita hacia 556, cuenta que un monje gálata poseído no hablaba y que, si lo apremiaban, «hablaba en gálata» (Γαλατιστὶ ἐφθέγγετο). Es la última mención de alguien que hablaba gálata, pero es un relato de milagro, sin una sola palabra de la lengua, y no se puede descartar que «gálata» designara solo un habla local. Como la lengua casi no dejó nada escrito, no se sabe cuándo se dejó de hablar; en Galacia terminó imponiéndose el griego, y desde el siglo XI el turco.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "galacia"
+      ],
+      "fuentes": [
+        "vida-de-eutimio",
+        "the-galatian-language-freeman"
+      ]
+    },
+    {
+      "id": "oro-de-los-tauriscos",
+      "titulo": "Fiebre del oro entre los tauriscos",
+      "anio": -150,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Aquilea",
+      "lon": 13.367,
+      "lat": 45.767,
+      "tipo": "economico",
+      "resumen": "Polibio, citado por Estrabón (IV.6.12), cuenta que en su tiempo se descubrió entre los tauriscos nóricos, cerca de Aquilea, un oro tan puro y tan a flor de tierra que, cuando los italianos se sumaron a la explotación, el precio del oro bajó un tercio en toda Italia en dos meses; entonces los tauriscos los echaron y explotaron solos el yacimiento. Es uno de los pocos datos económicos concretos sobre los celtas de los Alpes orientales.",
+      "regiones": [
+        "galia-cisalpina",
+        "italia",
+        "norico"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iv",
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "en": "Taurisci"
+      }
+    },
+    {
+      "id": "embajada-de-cincibil",
+      "titulo": "Embajada del rey Cincibil al Senado romano",
+      "anio": -170,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Foro Romano",
+      "lon": 12.4852,
+      "lat": 41.8922,
+      "tipo": "politico",
+      "resumen": "En 170 a. C. llegó a Roma una embajada de Cincibil, rey galo de los Alpes orientales, para quejarse de que el cónsul Cayo Casio Longino había atacado a pueblos alpinos amigos de Roma y vendido como esclavos a miles de ellos. Según Livio (XLIII.5), el Senado desautorizó al cónsul y mandó regalos al rey y a su hermano. Es una de las primeras noticias del trato entre Roma y los reyes de los Alpes orientales, que suelen identificarse con el futuro reino del Nórico.",
+      "regiones": [
+        "italia",
+        "norico"
+      ],
+      "fuentes": [
+        "ab-urbe-condita"
+      ]
+    },
+    {
+      "id": "guerras-de-roma-contra-los-escordiscos",
+      "titulo": "Guerras de Roma contra los escordiscos",
+      "anio": -135,
+      "anio_hasta": -84,
+      "aprox": true,
+      "lugar": "Singiduno (Belgrado)",
+      "lon": 20.46,
+      "lat": 44.82,
+      "tipo": "batalla",
+      "resumen": "Desde Macedonia, provincia romana desde 146 a. C., Roma chocó durante medio siglo con los escordiscos, que hacían incursiones hacia el sur. En 114 a. C. derrotaron al cónsul Cayo Porcio Catón (Livio, Períocas 63); después los vencieron Marco Minucio Rufo, hacia 107 a. C., y Lucio Cornelio Escipión Asiático, que hacia 84 a. C. los arrinconó al otro lado del Danubio según Apiano (Ilírica 5). Floro (I.39), que los cuenta entre los tracios, y Amiano (XXVII.4.4) los describen como los más crueles de los bárbaros, que sacrificaban prisioneros y bebían en cráneos: es el retrato habitual del enemigo de frontera, escrito siglos después.",
+      "regiones": [
+        "hungria",
+        "balcanes",
+        "grecia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "epitome-de-floro",
+        "historia-romana-apiano",
+        "res-gestae-amiano"
+      ],
+      "wikipedia": {
+        "es": "Escordiscos",
+        "en": "Scordisci"
+      }
+    },
+    {
+      "id": "derrota-de-los-boyos-ante-burebista",
+      "titulo": "Burebista destruye a los boyos y a los tauriscos",
+      "anio": -60,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Danubio medio (lugar exacto desconocido)",
+      "lon": 17.105,
+      "lat": 48.144,
+      "tipo": "batalla",
+      "resumen": "Hacia mediados del siglo I a. C. el rey dacio Burebista derrotó a los boyos de Critasiro y a los tauriscos y, según Estrabón (VII.3.11 y 5.2), los aniquiló y dejó su tierra como pastizal para ovejas. Plinio (III.146) llama a esa zona, junto al lago Pelso (el Balatón), «los desiertos de los boyos». Las monedas con la leyenda BIATEC del oppidum de Bratislava, que muchos fechan después de esa guerra, sugieren que los boyos no desaparecieron del todo; la cronología se discute.",
+      "regiones": [
+        "hungria",
+        "rumania"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-vii",
+        "historia-natural-plinio"
+      ],
+      "wikipedia": {
+        "es": "Burebista",
+        "en": "Burebista"
+      }
+    },
+    {
+      "id": "marcomanos-ocupan-bohemia",
+      "titulo": "Los marcomanos de Maroboduo se asientan en Bohemia",
+      "anio": -9,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Bohemia",
+      "lon": 14.421,
+      "lat": 50.087,
+      "tipo": "politico",
+      "resumen": "Hacia 9-6 a. C. Maroboduo llevó a los marcomanos desde la región del Meno a Bohemia, de donde los boyos ya se habían ido, y fundó allí un reino (Estrabón VII.1.3; Veleyo Patérculo II.108; Tácito, Germania 42). Tácito (Germania 28) dice que el nombre de Boihaemum seguía recordando a los boyos aunque los habitantes habían cambiado, y de ahí viene «Bohemia». La relación entre la llegada de los germanos y el abandono de los oppida celtas de Bohemia, como Stradonice y Závist, se discute.",
+      "regiones": [
+        "bohemia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-vii",
+        "germania-tacito"
+      ],
+      "wikipedia": {
+        "es": "Marbod",
+        "en": "Maroboduus"
+      }
+    },
+    {
+      "id": "conquista-romana-del-norico-y-retia",
+      "titulo": "Conquista romana de los Alpes, la Retia y el Nórico",
+      "anio": -16,
+      "anio_hasta": -15,
+      "aprox": false,
+      "lugar": "Magdalensberg",
+      "lon": 14.431,
+      "lat": 46.701,
+      "tipo": "batalla",
+      "resumen": "Dion Casio (LIV.20) cuenta que en 16 a. C. panonios y nóricos invadieron Istria y fueron rechazados, y que después el Nórico pasó a dominio romano; el reino, que comerciaba con Roma desde hacía un siglo, fue anexado sin una conquista narrada por las fuentes y se volvió provincia con Claudio. En el verano de 15 a. C. Druso y Tiberio, hijastros de Augusto, sometieron a los retos y a los vindélicos con dos ejércitos que avanzaron desde Italia y desde la Galia, con un combate en el lago de Constanza (Dion Casio LIV.22; Estrabón IV.6.9; Horacio, Odas IV.4 y IV.14). El trofeo de La Turbie (7-6 a. C.) celebró el conjunto como una sola victoria de Augusto, y las Res Gestae (26) afirman que los Alpes se pacificaron sin hacer una guerra injusta a ningún pueblo.",
+      "regiones": [
+        "norico",
+        "alemania",
+        "italia"
+      ],
+      "fuentes": [
+        "trofeo-de-los-alpes",
+        "historia-romana-dion-casio",
+        "geografia-de-estrabon-libro-iv",
+        "res-gestae-divi-augusti"
+      ],
+      "wikipedia": {
+        "es": "Recia",
+        "en": "Raetia"
+      }
+    },
+    {
+      "id": "saqueo-del-oppidum-de-stradonice",
+      "titulo": "El hallazgo de oro de Stradonice y el saqueo del oppidum",
+      "anio": 1877,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Oppidum de Stradonice",
+      "lon": 14.0031,
+      "lat": 49.9925,
+      "tipo": "cultural",
+      "resumen": "En 1877 se encontró en el oppidum de Stradonice, en Bohemia central, un depósito de monedas celtas de oro, y la noticia desató una ola de excavaciones clandestinas que durante años removieron el sitio y dispersaron miles de objetos entre coleccionistas y museos. Lo que se recuperó, publicado por Josef Ladislav Píč en 1903 (en francés, en 1906), sigue siendo una de las bases para conocer los oppida de Bohemia, pero sin contexto arqueológico.",
+      "regiones": [
+        "bohemia"
+      ],
+      "fuentes": [
+        "oppida-collis-1984"
+      ]
+    },
+    {
+      "id": "hallazgo-del-tesoro-de-duchcov",
+      "titulo": "Hallazgo del depósito de Duchcov",
+      "anio": 1882,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Duchcov",
+      "lon": 13.746,
+      "lat": 50.604,
+      "tipo": "cultural",
+      "resumen": "En 1882, al trabajar en un manantial de Duchcov, en el norte de Bohemia, unos obreros encontraron un caldero de bronce con más de dos mil adornos: fíbulas, brazaletes y anillos de bronce del siglo IV a. C. Se interpreta como una ofrenda en el agua, una práctica bien documentada entre los celtas; las piezas se dispersaron entre museos y coleccionistas antes de ser estudiadas.",
+      "regiones": [
+        "bohemia"
+      ],
+      "fuentes": [
+        "tesoro-de-duchcov-kruta"
+      ]
+    },
+    {
+      "id": "hallazgo-de-la-tumba-de-ciumesti",
+      "titulo": "Hallazgo de la tumba del guerrero de Ciumești",
+      "anio": 1961,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ciumești",
+      "lon": 22.282,
+      "lat": 47.703,
+      "tipo": "cultural",
+      "resumen": "En 1961 apareció en Ciumești, en el noroeste de Rumania, la tumba de un guerrero celta con un casco de hierro coronado por un ave de presa de bronce con alas móviles, una cota de malla y grebas. Se fecha en el siglo III a. C. y forma parte de un cementerio celta excavado en los años 1960, uno de los testimonios de la presencia celta en Transilvania y la cuenca del Tisza. El casco recuerda a los yelmos con aves del caldero de Gundestrup.",
+      "regiones": [
+        "hungria",
+        "rumania"
+      ],
+      "fuentes": [
+        "tumba-de-ciumesti-rusu-1969"
+      ]
+    },
+    {
+      "id": "excavaciones-de-manching",
+      "titulo": "Excavaciones del oppidum de Manching",
+      "anio": 1955,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Oppidum de Manching",
+      "lon": 11.517,
+      "lat": 48.717,
+      "tipo": "cultural",
+      "resumen": "Las excavaciones sistemáticas empezaron en 1955 con Werner Krämer, por la ampliación de un aeródromo militar, y siguieron con Ferdinand Maier y Susanne Sievers; aun así abarcan una parte pequeña de las 380 hectáreas del sitio. Sacaron a la luz calles, casas, talleres de hierro, bronce, vidrio y moneda y una muralla de tipo murus gallicus de 7,2 kilómetros. En 1999 apareció un tesoro de 483 monedas de oro y un lingote, el mayor hallazgo de oro celta del siglo XX en Alemania.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "oppida-collis-1984",
+        "urbanizacion-edad-del-hierro-fernandez-gotz-2018"
+      ]
+    },
+    {
+      "id": "robo-del-oro-de-manching",
+      "titulo": "Robo del tesoro de oro de Manching",
+      "anio": 2022,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Oppidum de Manching",
+      "lon": 11.517,
+      "lat": 48.717,
+      "tipo": "judicial",
+      "resumen": "En la madrugada del 22 de noviembre de 2022 una banda cortó cables de fibra óptica de la zona para bloquear la alarma, forzó una puerta del Museo Celta y Romano de Manching y se llevó el tesoro de 1999: 483 monedas celtas de oro y un lingote de oro fundido, casi cuatro kilos. En julio de 2023 la policía detuvo a cuatro hombres de Mecklemburgo-Pomerania Occidental y encontró dieciocho trozos de oro fundido, que equivalían a setenta y dos monedas. El 29 de julio de 2025 el Tribunal Regional de Ingolstadt condenó a los cuatro por esta y otras entradas por la fuerza a penas de entre cuatro años y nueve meses y once años, aunque absolvió a uno del robo de Manching; el Tribunal Federal de Justicia confirmó las condenas en agosto de 2026. El resto de las monedas sigue sin aparecer.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "sentencia-del-robo-del-oro-de-manching"
+      ]
+    },
+    {
+      "id": "batalla-de-rafia",
+      "titulo": "Los gálatas en la batalla de Rafia",
+      "anio": -217,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rafia",
+      "lon": 34.252,
+      "lat": 31.289,
+      "tipo": "batalla",
+      "resumen": "En la batalla de Rafia, en la que Ptolomeo IV venció a Antíoco III, el ejército egipcio incluía, según Polibio (V.65.10), cuatro mil tracios y gálatas que descendían de los soldados asentados en Egipto y dos mil más reclutados hacía poco. Muestra que los gálatas se habían vuelto una población militar estable del Egipto ptolemaico, como la de los mercenarios que unas décadas después dejaron su grafito en Abidos.",
+      "regiones": [
+        "tierra-santa",
+        "egipto"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "galatas-en-abidos"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Rafia",
+        "en": "Battle of Raphia"
+      }
+    },
+    {
+      "id": "batalla-de-magnesia",
+      "titulo": "Los gálatas en la batalla de Magnesia",
+      "anio": -190,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Magnesia del Sípilo",
+      "lon": 27.426,
+      "lat": 38.613,
+      "tipo": "batalla",
+      "resumen": "Antíoco III enfrentó a los romanos de Lucio Cornelio Escipión con un ejército en el que, según Livio (XXXVII.40), había jinetes e infantes gálatas, a los que los romanos llamaban galogriegos. La derrota seléucida dio a Roma el pretexto para la campaña de Manlio Vulsón contra los gálatas al año siguiente.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Magnesia",
+        "en": "Battle of Magnesia"
+      }
+    },
+    {
+      "id": "reorganizacion-de-pompeyo-en-galacia",
+      "titulo": "Pompeyo reorganiza Galacia",
+      "anio": -64,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "politico",
+      "resumen": "Al terminar la guerra contra Mitrídates, Pompeyo reorganizó Asia Menor: confirmó a los tetrarcas gálatas que habían sido fieles a Roma y dio a Deyótaro tierras en el Ponto y en la Armenia Menor (Estrabón XII.3.13; Apiano, Mitridáticas 114). Fue el comienzo del ascenso de Deyótaro, al que el Senado reconoció después como rey.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "historia-romana-apiano",
+        "geografia-de-estrabon-libro-xii"
+      ]
+    },
+    {
+      "id": "legion-de-deyotaro",
+      "titulo": "La legión de Deyótaro",
+      "anio": -48,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "politico",
+      "resumen": "Deyótaro armó y entrenó a la manera romana una infantería que La guerra de Alejandría (34) describe como una legión; Farnaces del Ponto la derrotó en Nicópolis en 48 a. C., y tropas de Deyótaro estuvieron en la victoria de César en Zela en 47 a. C. Cuando Galacia pasó a ser provincia, esas tropas se convirtieron en la legión XXII Deiotariana, que sirvió en Egipto hasta desaparecer en el siglo II, quizás en la rebelión judía de Bar Kojba. Es un ejemplo temprano de un ejército celta convertido en unidad romana.",
+      "regiones": [
+        "galacia",
+        "anatolia",
+        "egipto"
+      ],
+      "fuentes": [
+        "guerra-de-alejandria"
+      ],
+      "wikipedia": {
+        "es": "Legio XXII Deiotariana",
+        "en": "Legio XXII Deiotariana"
+      }
+    },
+    {
+      "id": "defensa-de-deyotaro",
+      "titulo": "Cicerón defiende a Deyótaro ante César",
+      "anio": -45,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "judicial",
+      "resumen": "En noviembre de 45 a. C. Julio César escuchó en su casa la acusación de Cástor contra su abuelo, el rey Deyótaro, por haber querido matarlo en 47 a. C., y la defensa de Cicerón. César no dictó sentencia antes de morir en marzo de 44 a. C.; según Cicerón (Filípicas II.93-95), Marco Antonio vendió después a los enviados de Deyótaro la devolución de sus tierras.",
+      "regiones": [
+        "italia",
+        "galacia"
+      ],
+      "fuentes": [
+        "pro-rege-deiotaro"
+      ]
+    },
+    {
+      "id": "reino-del-norico",
+      "titulo": "El reino del Nórico",
+      "anio": -200,
+      "anio_hasta": -15,
+      "aprox": true,
+      "lugar": "Magdalensberg",
+      "lon": 14.431,
+      "lat": 46.701,
+      "tipo": "politico",
+      "resumen": "Entre el siglo II a. C. y la anexión romana, los pueblos de los Alpes orientales, con los nóricos a la cabeza, formaron un reino que los romanos llamaron regnum Noricum, con centro en el Magdalensberg. Livio (XLIII.5) registra en 170 a. C. la embajada de Cincibil, que suele tenerse por rey nórico, y César nombra a su rey Voccio y recibió jinetes nóricos en 49 a. C. Vivió del comercio de su hierro y su oro con Italia a través de Aquilea, y pasó a Roma sin una conquista narrada por las fuentes.",
+      "regiones": [
+        "norico",
+        "alemania"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "guerra-de-las-galias",
+        "geografia-de-estrabon-libro-iv"
+      ],
+      "wikipedia": {
+        "es": "Nórico",
+        "en": "Noricum"
+      }
+    },
+    {
+      "id": "boyos-sitian-noreia",
+      "titulo": "Los boyos sitian Noreia y se suman a los helvecios",
+      "anio": -60,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Noreia (ubicación desconocida)",
+      "lon": 14.528,
+      "lat": 47.014,
+      "tipo": "batalla",
+      "resumen": "César (Guerra de las Galias I.5) cuenta que un grupo de boyos que había vivido al otro lado del Rin había pasado al Nórico y sitiado Noreia, y que los helvecios lo sumaron a su migración de 58 a. C.; el sitio fue, por lo tanto, anterior a esa fecha, que no se conoce con exactitud. Después de la derrota de Bibracte, los eduos los asentaron en su territorio, donde reaparecen en 52 a. C. en su ciudad de Gorgobina (I.28; VII.9).",
+      "regiones": [
+        "norico",
+        "alemania",
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias"
+      ]
+    },
+    {
+      "id": "helvecios-entre-el-rin-y-el-meno",
+      "titulo": "Los helvecios entre el Rin, el Meno y la Selva Hercinia",
+      "anio": -200,
+      "anio_hasta": -100,
+      "aprox": true,
+      "lugar": "Suroeste de Alemania",
+      "tipo": "politico",
+      "resumen": "Tácito (Germania 28) dice que antes los helvecios habitaban entre la Selva Hercinia, el Rin y el Meno, y los boyos más allá, y que los dos eran pueblos galos; Claudio Ptolomeo (Geografía II.11) marca al norte del alto Danubio un «desierto de los helvecios». Se suele entender que los helvecios dejaron el sur de Alemania por la Suiza en la que los encontró César, pero ni Tácito ni Ptolomeo dan fecha, y la arqueología no permite fijar cuándo ni por qué.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "germania-tacito",
+        "geografia-de-ptolomeo"
+      ]
+    },
+    {
+      "id": "cotinos-hablan-galo",
+      "titulo": "Los cotinos, celtas que hablan galo entre los germanos",
+      "anio": 98,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Norte de Eslovaquia",
+      "tipo": "cultural",
+      "resumen": "Tácito (Germania 43) dice que la lengua gala de los cotinos prueba que no son germanos, que pagan tributo a los sármatas y a los cuados y que, «para mayor vergüenza», extraen hierro. Es uno de los pocos testimonios de una comunidad celta que conservaba su lengua en Europa central a fines del siglo I d. C.; la arqueología la relaciona con la cultura de Púchov, en el norte de Eslovaquia, una identificación probable pero no segura.",
+      "regiones": [
+        "hungria"
+      ],
+      "fuentes": [
+        "germania-tacito"
+      ],
+      "wikipedia": {
+        "es": "Gotini",
+        "en": "Cotini"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "ancira",
+      "nombre": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "fundacion": -700,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad frigia que desde el siglo III a. C. fue el centro de los gálatas tectósages y desde 25 a. C. la capital de la provincia romana de Galacia. En su templo de Augusto y Roma se conserva la copia más completa de las Res Gestae de Augusto. Es la actual Ankara, capital de Turquía.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Ankara",
+        "en": "Ankara"
+      }
+    },
+    {
+      "id": "templo-de-augusto-y-roma-de-ancira",
+      "nombre": "Templo de Augusto y Roma de Ancira",
+      "lon": 32.858,
+      "lat": 39.944,
+      "fundacion": -20,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Templo del culto imperial de Ancira, en cuyas paredes se grabó después de 14 d. C. el texto de las Res Gestae de Augusto en latín y en griego. Una inscripción en sus muros enumera a los sacerdotes del culto imperial, nobles gálatas como Pilémenes, hijo del rey Amintas, y muestra cómo la vieja aristocracia de las tribus se convirtió en élite de la provincia romana.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Monumento de Ancira",
+        "en": "Temple of Augustus and Rome"
+      }
+    },
+    {
+      "id": "pesinunte",
+      "nombre": "Pesinunte",
+      "lon": 31.581,
+      "lat": 39.332,
+      "fundacion": -800,
+      "abandono": 1100,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Ciudad frigia del santuario de la Gran Madre (Cibeles), de donde en 204 a. C. los romanos se llevaron la piedra negra de la diosa (Livio XXIX.10-11). Fue el centro de los gálatas tolistobogios, y su sacerdocio era tan poderoso que Brogitaro lo compró en Roma en 58 a. C. Las excavaciones belgas desde 1967 sacaron a la luz el templo y la ciudad romana.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Pesinunte",
+        "en": "Pessinus"
+      }
+    },
+    {
+      "id": "gordion",
+      "nombre": "Gordion",
+      "lon": 31.978,
+      "lat": 39.65,
+      "fundacion": -1200,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Antigua capital del reino frigio, sobre el río Sangario, la del nudo gordiano de Alejandro. En época gálata fue un poblado menor; las excavaciones de la Universidad de Pensilvania hallaron en sus niveles de los siglos III y II a. C. restos humanos y animales en depósitos que la excavadora Mary Voigt interpretó como posibles sacrificios al modo celta; esa lectura se apoya en la analogía con los textos clásicos y se discute.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Gordio",
+        "en": "Gordion"
+      }
+    },
+    {
+      "id": "tavio",
+      "nombre": "Tavio",
+      "lon": 34.507,
+      "lat": 39.859,
+      "fundacion": -278,
+      "abandono": 1000,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 1,
+      "resumen": "Centro de los gálatas trocmos, al este del río Halis, junto a la actual aldea turca de Büyüknefes. Estrabón (XII.5.2) dice que era el mercado de la región y que tenía un coloso de bronce de Zeus y un recinto sagrado con derecho de asilo.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "wikipedia": {
+        "en": "Tavium"
+      }
+    },
+    {
+      "id": "pergamo",
+      "nombre": "Pérgamo",
+      "lon": 27.184,
+      "lat": 39.129,
+      "fundacion": -400,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad de Misia, en el oeste de Asia Menor, capital del reino de los atálidas de 282 a 133 a. C., cuando el último rey la dejó en herencia a Roma. Sus reyes se presentaron como defensores de los griegos contra los gálatas y lo mostraron en su arte, con los monumentos del santuario de Atenea y el gran altar.",
+      "regiones": [
+        "anatolia"
+      ],
+      "wikipedia": {
+        "es": "Pérgamo",
+        "en": "Pergamon"
+      }
+    },
+    {
+      "id": "manching",
+      "nombre": "Oppidum de Manching",
+      "lon": 11.517,
+      "lat": 48.717,
+      "fundacion": -250,
+      "abandono": -30,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Gran oppidum celta junto al Danubio, cerca de Ingolstadt (Baviera), que nació como aldea en el siglo III a. C. y se amuralló en el II, hasta ocupar 380 hectáreas con una muralla de 7,2 kilómetros. Se calcula que vivieron allí entre cinco y diez mil personas; quizás fue el centro de los vindélicos, pero su nombre antiguo se desconoce. Se abandonó hacia 50-30 a. C., antes de la conquista romana.",
+      "regiones": [
+        "alemania"
+      ],
+      "wikipedia": {
+        "es": "Oppidum de Manching",
+        "en": "Oppidum of Manching"
+      }
+    },
+    {
+      "id": "zavist",
+      "nombre": "Oppidum de Závist",
+      "lon": 14.4081,
+      "lat": 49.9622,
+      "fundacion": -600,
+      "abandono": -25,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "El mayor oppidum de Chequia, sobre una colina junto al Moldava, al sur de Praga, con unas 170 hectáreas. Antes de ser oppidum, en los siglos VI a IV a. C., tuvo una acrópolis con un recinto sagrado y edificios que se interpretan como templos, contemporánea de los centros principescos de Hallstatt. Lo excavó el Instituto Arqueológico de Praga de 1963 a 1989; Karla Motyková, Petr Drda y Alena Rybová publicaron sus murallas, sus puertas y la acrópolis (Drda y Rybová, 2008).",
+      "regiones": [
+        "bohemia"
+      ]
+    },
+    {
+      "id": "stradonice",
+      "nombre": "Oppidum de Stradonice",
+      "lon": 14.0031,
+      "lat": 49.9925,
+      "fundacion": -150,
+      "abandono": -10,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Oppidum de unas 90 hectáreas sobre el río Berounka, en Bohemia central, uno de los centros de producción y comercio más ricos de los boyos en el siglo I a. C., con talleres de moneda, vidrio y metal e importaciones de Italia. Fue saqueado desde 1877 por buscadores de tesoros y Josef Ladislav Píč, que publicó lo recuperado, lo identificó con Marobudum, la capital de Maroboduo, una idea hoy abandonada.",
+      "regiones": [
+        "bohemia"
+      ]
+    },
+    {
+      "id": "oppidum-de-bratislava",
+      "nombre": "Oppidum de Bratislava",
+      "lon": 17.105,
+      "lat": 48.144,
+      "fundacion": -125,
+      "abandono": -10,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Oppidum de los boyos en la colina del castillo de Bratislava y sus alrededores, de fines del siglo II y del siglo I a. C. Allí se acuñaron las monedas de plata con leyendas en letras latinas como BIATEC y NONNOS, entre los primeros nombres celtas escritos de Europa central; se discute si eran reyes o magistrados. En la colina del castillo aparecieron edificios de piedra de técnica romana construidos para la élite celta.",
+      "regiones": [
+        "hungria"
+      ],
+      "wikipedia": {
+        "en": "Bratislava oppidum"
+      }
+    },
+    {
+      "id": "gellert",
+      "nombre": "Oppidum del monte Gellért",
+      "lon": 19.046,
+      "lat": 47.486,
+      "fundacion": -100,
+      "abandono": 50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Colina de Budapest, junto al Danubio, donde estuvo en el siglo I a. C. el oppidum de los eraviscos. Los eraviscos acuñaron monedas de plata con su nombre (RAVIS, IRAVSCI) y, después de la conquista romana, bajaron al llano, junto al campamento y la ciudad romana de Aquinco.",
+      "regiones": [
+        "hungria"
+      ],
+      "wikipedia": {
+        "es": "Colina Gellért",
+        "en": "Gellért Hill"
+      }
+    },
+    {
+      "id": "magdalensberg",
+      "nombre": "Magdalensberg",
+      "lon": 14.431,
+      "lat": 46.701,
+      "fundacion": -100,
+      "abandono": 45,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Monte de Carintia (Austria) donde desde fines del siglo II a. C. hubo un centro del reino del Nórico y un barrio de comerciantes romanos que compraban hierro, el «hierro nórico» famoso en Roma (Ovidio, Metamorfosis XIV.712; Horacio, Odas I.16.9). Grafitos en las paredes de sus casas registran compras de hierro y otras mercancías. Se abandonó a mediados del siglo I d. C., cuando Claudio fundó Virunum en el llano.",
+      "regiones": [
+        "norico",
+        "alemania"
+      ],
+      "wikipedia": {
+        "es": "Magdalensberg",
+        "en": "Magdalensberg"
+      }
+    },
+    {
+      "id": "durrnberg",
+      "nombre": "Dürrnberg",
+      "lon": 13.09,
+      "lat": 47.666,
+      "fundacion": -600,
+      "abandono": -15,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Montaña junto a Hallein (Austria) con minas de sal explotadas desde el siglo VI a. C. y un gran poblado y cementerio celta, con tumbas ricas de La Tène antigua como la del jarro de bronce con pico. Es, con Hallstatt, el gran centro salinero de los Alpes orientales.",
+      "regiones": [
+        "norico",
+        "alemania"
+      ],
+      "wikipedia": {
+        "es": "Dürrnberg",
+        "en": "Dürrnberg"
+      }
+    },
+    {
+      "id": "singiduno",
+      "nombre": "Singiduno (Belgrado)",
+      "lon": 20.46,
+      "lat": 44.82,
+      "fundacion": -279,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Fortaleza de los escordiscos en la confluencia del Sava y el Danubio, cuyo nombre lleva el elemento celta -dunum, «fortaleza». Desde fines del siglo I fue base de la legión IV Flavia y ciudad romana, y es la actual Belgrado, capital de Serbia.",
+      "regiones": [
+        "hungria"
+      ],
+      "wikipedia": {
+        "es": "Singidunum",
+        "en": "Singidunum"
+      }
+    }
+  ]
+}

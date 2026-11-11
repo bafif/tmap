@@ -5,7 +5,7 @@ extends PanelContainer
 const ANCHO := 470.0
 ## Los textos de las constantes están en español y se traducen con tr() al mostrarlos.
 const PESTANAS := ["Resumen", "Historia", "Fuentes", "Gente y hechos", "Datos"]
-const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política", "familia": "Familia"}
+const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política", "familia": "Familia", "pleiades": "Lugar antiguo"}
 ## Cómo se muestran los valores cerrados del esquema (data/enciclopedia/ESQUEMA.md).
 const NOMBRES_GENERO := {"religioso": "religioso", "historia": "historia", "cronica": "crónica", "literatura": "literatura",
 	"poesia": "poesía", "filosofia": "filosofía", "legal": "legal", "administrativo": "administrativo", "epistolar": "epistolar",
@@ -34,6 +34,8 @@ var _botones_pestana: Array = []
 var _unidad := 0
 var _px := Vector2.ZERO
 var _ficha: Dictionary = {}  # {"tipo", "id"} si se está mostrando una ficha
+## La lista de un grupo de marcadores desde la que se abrió la ficha actual: volver lleva a ella antes que al lugar.
+var _lista: Dictionary = {}
 var _token := 0
 var _reconstruir_pendiente := false
 ## Qué indicador del país muestra su gráfico en la pestaña «Datos» ("" = ninguno).
@@ -58,9 +60,7 @@ func _ready() -> void:
 	var cab := HBoxContainer.new()
 	caja.add_child(cab)
 	_volver = IconosUI.boton("volver", tr("Volver al lugar"), 18)
-	_volver.pressed.connect(func():
-		_ficha = {}
-		_reconstruir())
+	_volver.pressed.connect(volver)
 	cab.add_child(_volver)
 	var textos := VBoxContainer.new()
 	textos.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -172,6 +172,7 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 	_unidad = unidad
 	_px = px
 	_ficha = {}
+	_lista = {}
 	if unidad <= 0:
 		Estado.resaltar("")
 		_mostrar(false)
@@ -186,6 +187,8 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 
 
 func _al_pedir_ficha(tipo: String, id: Variant) -> void:
+	if tipo == "grupo":
+		_lista = {}
 	_ficha = {"tipo": tipo, "id": id}
 	_reconstruir()
 	_mostrar(true)
@@ -238,7 +241,9 @@ func _reconstruir(conservar_scroll := false) -> void:
 		_:
 			Estado.resaltar("")
 	if not _ficha.is_empty():
-		_volver.visible = _unidad > 0
+		var a_lista: bool = not _lista.is_empty() and _ficha["tipo"] != "grupo"
+		_volver.visible = a_lista or _unidad > 0
+		_volver.tooltip_text = tr("Volver a la lista") if a_lista else tr("Volver al lugar")
 		_barra_pestanas.visible = false
 		_construir_ficha(_ficha["tipo"], _ficha["id"])
 		return
@@ -509,6 +514,12 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 	if tipo == "entidad":
 		_ficha_entidad(int(id))
 		return
+	if tipo == "pleiades":
+		_ficha_pleiades(int(id))
+		return
+	if tipo == "grupo":
+		_ficha_grupo(id)
+		return
 	var el := Enciclopedia.elemento(tipo, str(id))
 	if el.is_empty():
 		_titulo.text = tr("No encontrado")
@@ -575,7 +586,24 @@ func _ficha_fuente(f: Dictionary) -> void:
 			var url: String = l["url"]
 			b.tooltip_text = url
 			b.pressed.connect(func(): Estado.abrir_url(url))
-			_contenido.add_child(b)
+			var copia := Enciclopedia.copia_archivada(url)
+			if copia == "":
+				_contenido.add_child(b)
+				continue
+			# Al lado, la copia de la Wayback Machine, por si el original no abre.
+			var fila := HBoxContainer.new()
+			fila.add_theme_constant_override("separation", 4)
+			b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+			b.clip_text = true
+			fila.add_child(b)
+			var c := _boton_texto(tr("Copia"), "enlace")
+			c.size_flags_horizontal = Control.SIZE_SHRINK_END
+			c.clip_text = false
+			c.text_overrun_behavior = TextServer.OVERRUN_NO_TRIMMING
+			c.tooltip_text = tr("Copia archivada en la Wayback Machine, por si el original no abre:\n%s") % copia
+			c.pressed.connect(func(): Estado.abrir_url(copia))
+			fila.add_child(c)
+			_contenido.add_child(fila)
 	var ir := _boton_texto(tr("Ver dónde y cuándo se escribió"), "ir")
 	ir.pressed.connect(func():
 		Estado.fijar_anio(f["_desde"])
@@ -606,9 +634,10 @@ func _ficha_persona(p: Dictionary) -> void:
 				_contenido.add_child(_tarjeta_fuente(f))
 	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
 	ir.pressed.connect(func():
-		Estado.fijar_anio(clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
+		var anio := Enciclopedia.anio_en_activo(p, clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
+		Estado.fijar_anio(anio)
 		if p.has("_px"):
-			Estado.enfocar(p["_px"], 2.5))
+			Estado.enfocar(Enciclopedia.px_en(p, anio), 2.5))
 	_contenido.add_child(ir)
 	_bloque_wikipedia(p.get("wikipedia", {}))
 
@@ -645,7 +674,142 @@ func _ficha_lugar(l: Dictionary) -> void:
 		if u > 0:
 			Estado.seleccionar_lugar(u, l["_px"]))
 	_contenido.add_child(ir)
+	var pid := Pleiades.de_lugar(str(l["id"]))
+	if pid >= 0:
+		_bloque_pleiades(pid, str(l.get("nombre", "")), false)
 	_bloque_wikipedia(l.get("wikipedia", {}))
+
+
+## Un lugar de Pleiades: lo que hay en los datos (nombre, categoría, años) y, en vivo, su descripción, sus nombres
+## antiguos y el resumen de Wikipedia si Pleiades lo enlaza.
+## Lo que junta un grupo de marcadores del mapa, como lista: hechos, personas y fuentes, cada uno con su ficha (y volver
+## trae de nuevo acá). Muestra los miembros del momento del clic, aunque después cambie el año.
+func _ficha_grupo(g: Dictionary) -> void:
+	var por_tipo := {"hecho": [], "persona": [], "fuente": []}
+	for m in g.get("miembros", []):
+		var el := Enciclopedia.elemento(str(m["tipo"]), str(m["id"]))
+		if not el.is_empty() and por_tipo.has(m["tipo"]):
+			por_tipo[m["tipo"]].append(el)
+	_franja.color = TemaUI.color("acento")
+	_titulo.text = tr("En este punto del mapa")
+	var cuentas: Array = [Fechas.texto(Estado.anio)]
+	if not por_tipo["hecho"].is_empty():
+		cuentas.append(tr_n("%d hecho", "%d hechos", por_tipo["hecho"].size()) % por_tipo["hecho"].size())
+	if not por_tipo["persona"].is_empty():
+		cuentas.append(tr_n("%d persona", "%d personas", por_tipo["persona"].size()) % por_tipo["persona"].size())
+	if not por_tipo["fuente"].is_empty():
+		cuentas.append(tr_n("%d fuente", "%d fuentes", por_tipo["fuente"].size()) % por_tipo["fuente"].size())
+	_subtitulo.text = " · ".join(cuentas)
+	var acercar := _boton_texto(tr("Acercar el mapa hasta separarlos"), "ir")
+	var px: Vector2 = g["px"]
+	var zoom: float = g["zoom"]
+	acercar.pressed.connect(func(): Estado.enfocar(px, zoom))
+	_contenido.add_child(acercar)
+	var por_fecha := func(a: Dictionary, b: Dictionary) -> bool: return int(a["_desde"]) < int(b["_desde"])
+	var secciones := {"hecho": tr("Hechos"), "persona": tr("Personas"), "fuente": tr("Fuentes")}
+	for tipo in secciones:
+		var lista: Array = por_tipo[tipo]
+		if lista.is_empty():
+			continue
+		lista.sort_custom(por_fecha)
+		_seccion(secciones[tipo])
+		for el in lista:
+			var fila: Button
+			match tipo:
+				"hecho":
+					fila = _fila_color(TemaUI.color("hecho"), el.get("titulo", ""), Fechas.rango(el["_desde"], el["_hasta"]),
+						el["_desde"] <= Estado.anio and Estado.anio <= el["_hasta"])
+				"persona":
+					fila = _fila_color(TemaUI.color("persona"), el.get("nombre", ""), _vida(el), false)
+				_:
+					var detalle := Fechas.rango(el["_desde"], el["_hasta"])
+					if el.get("autor"):
+						detalle = "%s, %s" % [el["autor"], detalle]
+					fila = _fila_color(TemaUI.color("primaria" if el.get("tipo", "") == "primaria" else "secundaria"), el.get("titulo", ""), detalle, false)
+			fila.tooltip_text = fila.text
+			var id: String = el["id"]
+			var t: String = tipo
+			fila.pressed.connect(func():
+				_lista = _ficha
+				Estado.pedir_ficha(t, id))
+			_contenido.add_child(fila)
+
+
+func _ficha_pleiades(id: int) -> void:
+	var i := Pleiades.indice(id)
+	if i < 0:
+		_titulo.text = tr("No encontrado")
+		_subtitulo.text = "Pleiades %d" % id
+		return
+	_franja.color = Pleiades.color_categoria(i)
+	_titulo.text = Pleiades.nombre(i)
+	var hasta := tr("hoy") if Pleiades.hasta[i] >= Estado.ANIO_MAX else Fechas.texto(Pleiades.hasta[i])
+	_subtitulo.text = "%s · %s – %s" % [_mayus(Pleiades.nombre_categoria(i)), Fechas.texto(Pleiades.desde[i]), hasta]
+	_nota(tr("Lugar antiguo del atlas Pleiades. Los años son los de los períodos en que está atestiguado, no los de su fundación o su abandono."))
+	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
+	ir.pressed.connect(func():
+		Estado.fijar_anio(clampi(Estado.anio, Pleiades.desde[i], Pleiades.hasta[i]))
+		Estado.enfocar(Pleiades.px[i], maxf(CapaPleiades.ZOOM_NOMBRES, 4.5)))
+	_contenido.add_child(ir)
+	_bloque_pleiades(id, Pleiades.nombre(i), true)
+
+
+## Lo que se pide en vivo a Pleiades: descripción, nombres antiguos y, si `con_wikipedia`, el resumen de Wikipedia
+## que enlaza. Va en la ficha de un lugar de Pleiades y en la de un lugar de la enciclopedia unido a uno.
+func _bloque_pleiades(id: int, nombre: String, con_wikipedia: bool) -> void:
+	var token := _token
+	_seccion("Pleiades")
+	var caja := VBoxContainer.new()
+	caja.add_theme_constant_override("separation", 6)
+	_contenido.add_child(caja)
+	var cargando := Label.new()
+	cargando.theme_type_variation = "Suave"
+	cargando.text = tr("Buscando la ficha…")
+	caja.add_child(cargando)
+	var d := await Wiki.pleiades(id)
+	if token != _token or not is_instance_valid(caja):
+		return
+	cargando.queue_free()
+	var credito := tr("De «[url=%s]%s[/url]», Pleiades (CC BY 3.0).") % [Pleiades.url(id), nombre]
+	var gris := TemaUI.color("texto_suave").to_html(false)
+	if d.is_empty():
+		var l := Label.new()
+		l.theme_type_variation = "Suave"
+		l.text = tr("No se pudo traer la ficha (¿sin conexión?).")
+		caja.add_child(l)
+		var enlace := RichTextLabel.new()
+		enlace.bbcode_enabled = true
+		enlace.fit_content = true
+		enlace.text = "[color=#%s][font_size=14]%s[/font_size][/color]" % [gris, credito]
+		enlace.meta_clicked.connect(_al_click_meta)
+		caja.add_child(enlace)
+		return
+	var partes: Array = []
+	if str(d.get("descripcion", "")) != "":
+		partes.append(str(d["descripcion"]) + (" " + tr("(en inglés)") if not Idioma.ingles() else ""))
+	var nombres: Array = []
+	for n in d.get("nombres", []):
+		var texto := str(n["nombre"]) if str(n["nombre"]) != "" else str(n["transliterado"])
+		if str(n["transliterado"]) != "" and str(n["transliterado"]) != texto:
+			texto += " (%s)" % str(n["transliterado"]).get_slice(",", 0).strip_edges()
+		if str(n["idioma"]) != "":
+			texto += " [color=#%s]%s[/color]" % [gris, n["idioma"]]
+		if not nombres.has(texto):
+			nombres.append(texto)
+	if not nombres.is_empty():
+		partes.append("[b]%s[/b] %s" % [tr("Nombres:"), ", ".join(nombres.slice(0, 12))])
+	partes.append("[color=#%s][font_size=14]%s[/font_size][/color]" % [gris, credito])
+	var texto_ficha := RichTextLabel.new()
+	texto_ficha.bbcode_enabled = true
+	texto_ficha.fit_content = true
+	texto_ficha.scroll_active = false
+	texto_ficha.selection_enabled = true
+	texto_ficha.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	texto_ficha.text = "\n\n".join(partes)
+	texto_ficha.meta_clicked.connect(_al_click_meta)
+	caja.add_child(texto_ficha)
+	if con_wikipedia and str(d.get("wikipedia", "")) != "":
+		_bloque_wikipedia({"en": str(d["wikipedia"])})
 
 
 func _ficha_region(r: Dictionary) -> void:
@@ -1102,10 +1266,16 @@ func pestana_vecina(paso: int) -> void:
 		_ir_a_pestana(posmod(_pestana + paso, PESTANAS.size()))
 
 
-## Tecla Retroceso: de una ficha al lugar elegido, como el botón de volver.
+## Botón de volver y tecla Retroceso: de una ficha a la lista del grupo de donde se abrió, o al lugar elegido.
 func volver() -> void:
-	if _abierto and not _ficha.is_empty() and _unidad > 0:
+	if not _abierto or _ficha.is_empty():
+		return
+	if not _lista.is_empty() and _ficha["tipo"] != "grupo":
+		_ficha = _lista
+		_reconstruir()
+	elif _unidad > 0:
 		_ficha = {}
+		_lista = {}
 		_reconstruir()
 
 

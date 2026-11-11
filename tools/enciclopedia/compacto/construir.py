@@ -309,7 +309,7 @@ def main():
             r = cache["wp"].get(en or "", {})
             c = coords_ent(r.get("qid")) if r and not r.get("falta") else None
             if len(x) > 3 and x[3]:
-                c = tuple(float(v) for v in x[3].split(","))
+                c = tuple(float(v) for v in x[3].strip("[] ").split(","))
             if not c:
                 if n in construir:
                     aviso(f"SIN COORDENADAS: nomenclátor «{clave}» ({en}) [{donde}]")
@@ -337,7 +337,7 @@ def main():
                 w, q = {}, r.get("qid")
             c = coords_ent(q)
             if len(x) > 8 and x[8]:
-                c = tuple(float(v) for v in x[8].split(","))
+                c = tuple(float(v) for v in x[8].strip("[] ").split(","))
             if not c:
                 if n in construir:
                     aviso(f"SIN COORDENADAS: lugar «{iid}» ({en}) [{donde}]")
@@ -437,7 +437,10 @@ def main():
                 if wa is not None:
                     aviso(f"WIKIDATA DA MUERTE Y NO LA PUSISTE: {iid} murió en {wa}")
             if act:
-                partes = act.split(" ", 1)
+                # los años van al final; el lugar puede tener espacios (`=Dos palabras 1900-1910`)
+                partes = act.rsplit(" ", 1)
+                if len(partes) > 1 and not re.fullmatch(r"-?\d+(?:-(-?\d+))?~?", partes[1].strip()):
+                    partes = [act]
                 v = punto(partes[0], f"persona {iid} activo")
                 if len(partes) > 1:
                     a, b, ax = anios(partes[1])

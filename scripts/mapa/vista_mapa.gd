@@ -1,18 +1,22 @@
 class_name VistaMapa
 extends Node2D
 ## El mapa 2D: la lámina con el shader, las capas de nombres y marcadores, y la cámara.
-## Maneja el mouse y el teclado sobre el mapa (lo que no atrapó la interfaz).
+## Maneja el mouse, el teclado y la pantalla táctil sobre el mapa (lo que no atrapó la interfaz): con el dedo, arrastrar
+## mueve, tocar elige, dos dedos acercan o alejan (y mueven) y un doble toque acerca.
 
 signal hover_cambiado(unidad: int, elemento: Dictionary, pos_pantalla: Vector2)
 
 const ZOOM_MAX := 10.0
 const PASO_RUEDA := 1.18
 const UMBRAL_ARRASTRE := 6.0
+## Con el dedo, los marcadores se tocan con este margen de más (el dedo tapa lo que toca).
+const HOLGURA_TACTIL := 1.8
 
 var lamina: Sprite2D
 var material_mapa: ShaderMaterial
 var capa_nombres: CapaNombres
 var capa_marcadores: CapaMarcadores
+var capa_pleiades: CapaPleiades
 var camara: Camera2D
 
 var _zoom_objetivo := 1.0
@@ -30,6 +34,16 @@ var _mouse_en_mapa := false
 ## Un movimiento del mouse que todavía no llegó a _unhandled_input: si al procesar el cuadro sigue así, se lo quedó
 ## la interfaz y el globo se apaga (si no, quedaría clavado encima del panel).
 var _movimiento_sin_mapa := false
+## Dedos apoyados en el mapa (índice → posición en pantalla), para el pellizco.
+var _toques := {}
+var _pellizco_dist := 0.0
+var _pellizco_medio := Vector2.ZERO
+## Mientras dura un gesto de dos dedos (y hasta levantar todos), el mouse que Godot emula con el primer dedo no
+## arrastra el mapa ni hace clic al soltarse.
+var _gesto := false
+## La última entrada fue táctil: los marcadores se tocan con más holgura y no se muestra el globo (no hay mouse que
+## pase por encima: quedaría clavado donde se tocó).
+var tactil := false
 ## Valores por unidad del modo de capa actual (religión, cultura, idioma); vacío en los otros modos.
 var _valores_capa := PackedInt32Array()
 ## Desde qué valor una unidad de la capa actual se pinta tenue (0 en los otros modos).
@@ -50,6 +64,8 @@ func _ready() -> void:
 
 	capa_nombres = CapaNombres.new()
 	add_child(capa_nombres)
+	capa_pleiades = CapaPleiades.new()
+	add_child(capa_pleiades)
 	capa_marcadores = CapaMarcadores.new()
 	add_child(capa_marcadores)
 
@@ -222,7 +238,23 @@ func _limitar() -> void:
 
 func _vista_cambio() -> void:
 	capa_nombres.queue_redraw()
+	capa_pleiades.queue_redraw()
 	capa_marcadores.queue_redraw()
+
+
+## El marcador o el lugar de Pleiades bajo un punto del mapa, o {}.
+func elemento_en(mundo: Vector2) -> Dictionary:
+	var h := HOLGURA_TACTIL if tactil else 1.0
+	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x, h)
+	if el.is_empty():
+		el = capa_pleiades.elemento_en(mundo, camara.zoom.x, h)
+	return el
+
+
+## El mouse está sobre una ventana de la interfaz (el panel, la leyenda, la línea de tiempo, los ajustes…). La raíz de
+## la interfaz deja pasar el mouse, así que sobre el mapa no hay ningún control debajo.
+func _sobre_interfaz() -> bool:
+	return get_viewport().gui_get_hovered_control() != null
 
 
 func pantalla_a_mundo(p: Vector2) -> Vector2:
@@ -265,6 +297,10 @@ func _unhandled_input(ev: InputEvent) -> void:
 	if ev is InputEventMouseButton:
 		var b := ev as InputEventMouseButton
 		if b.pressed and (b.button_index == MOUSE_BUTTON_WHEEL_UP or b.button_index == MOUSE_BUTTON_WHEEL_DOWN):
+			# Sobre una ventana la rueda nunca acerca el mapa, aunque la ventana ya no pueda desplazarse más (al llegar
+			# al tope, el ScrollContainer deja pasar el evento y antes terminaba acá).
+			if _sobre_interfaz():
+				return
 			var factor := PASO_RUEDA if b.button_index == MOUSE_BUTTON_WHEEL_UP else 1.0 / PASO_RUEDA
 			if b.factor > 0.0 and b.factor != 1.0:
 				factor = pow(factor, b.factor)
@@ -282,7 +318,9 @@ func _unhandled_input(ev: InputEvent) -> void:
 				_recorrido = 0.0
 			elif b.button_index == _boton_arrastre:
 				_arrastrando = false
-				if _recorrido < UMBRAL_ARRASTRE and b.button_index == MOUSE_BUTTON_LEFT:
+				if _gesto:
+					pass
+				elif _recorrido < UMBRAL_ARRASTRE and b.button_index == MOUSE_BUTTON_LEFT:
 					_click(b.position)
 				elif _recorrido < UMBRAL_ARRASTRE and b.button_index == MOUSE_BUTTON_RIGHT:
 					Estado.seleccionar_lugar(0, Vector2.ZERO)
@@ -291,7 +329,7 @@ func _unhandled_input(ev: InputEvent) -> void:
 		var m := ev as InputEventMouseMotion
 		_movimiento_sin_mapa = false
 		_mouse_en_mapa = true
-		if _arrastrando:
+		if _arrastrando and not _gesto:
 			_recorrido += m.relative.length()
 			if _recorrido >= UMBRAL_ARRASTRE:
 				if _vuelo and _vuelo.is_running():
@@ -300,18 +338,83 @@ func _unhandled_input(ev: InputEvent) -> void:
 				camara.position -= m.relative / camara.zoom.x
 				_limitar()
 				_vista_cambio()
-		else:
+		elif not _arrastrando:
 			_hover(m.position)
+	elif ev is InputEventScreenTouch:
+		_al_tocar(ev as InputEventScreenTouch)
+	elif ev is InputEventScreenDrag:
+		var d := ev as InputEventScreenDrag
+		tactil = true
+		if _toques.has(d.index):
+			_toques[d.index] = d.position
+			if _toques.size() >= 2:
+				_pellizcar()
 	elif ev is InputEventMagnifyGesture:
+		if _sobre_interfaz():
+			return
 		var g := ev as InputEventMagnifyGesture
 		_zoom_objetivo = clampf(_zoom_objetivo * g.factor, zoom_minimo(), ZOOM_MAX)
 		_ancla_pantalla = g.position
 		_ancla_mundo = pantalla_a_mundo(g.position)
 		_anclado = true
 	elif ev is InputEventPanGesture:
+		if _sobre_interfaz():
+			return
 		camara.position += (ev as InputEventPanGesture).delta * 12.0 / camara.zoom.x
 		_limitar()
 		_vista_cambio()
+
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Pantalla táctil (un dedo lo maneja el mouse que Godot emula con él: arrastrar y tocar)
+
+
+func _al_tocar(t: InputEventScreenTouch) -> void:
+	tactil = true
+	if t.pressed:
+		_toques[t.index] = t.position
+		if _toques.size() >= 2:
+			# Empieza un pellizco: el primer dedo deja de arrastrar el mapa.
+			_gesto = true
+			_arrastrando = false
+			_pellizco_dist = 0.0
+			if _vuelo and _vuelo.is_running():
+				_vuelo.kill()
+			_pellizcar()
+		elif t.double_tap:
+			# Doble toque: acercar al doble, con el punto tocado fijo bajo el dedo.
+			_zoom_objetivo = clampf(_zoom_objetivo * 2.0, zoom_minimo(), ZOOM_MAX)
+			_ancla_pantalla = t.position
+			_ancla_mundo = pantalla_a_mundo(t.position)
+			_anclado = true
+		get_viewport().set_input_as_handled()
+	else:
+		_toques.erase(t.index)
+		_pellizco_dist = 0.0
+		if _toques.is_empty():
+			_gesto = false
+
+
+## Dos dedos: la distancia entre ellos acerca o aleja y el punto medio arrastra, con el lugar que estaba entre los dedos
+## siempre debajo de ellos.
+func _pellizcar() -> void:
+	var ps: Array = _toques.values()
+	var a: Vector2 = ps[0]
+	var b: Vector2 = ps[1]
+	var dist := a.distance_to(b)
+	var medio := (a + b) * 0.5
+	if _pellizco_dist > 1.0 and dist > 1.0:
+		var mundo := pantalla_a_mundo(_pellizco_medio)
+		var z := clampf(camara.zoom.x * dist / _pellizco_dist, zoom_minimo(), ZOOM_MAX)
+		camara.zoom = Vector2(z, z)
+		_zoom_objetivo = z
+		_anclado = false
+		camara.position = mundo - (medio - get_viewport_rect().size * 0.5) / z
+		_limitar()
+		_vista_cambio()
+	_pellizco_dist = dist
+	_pellizco_medio = medio
 
 
 func _click(pos: Vector2) -> void:
@@ -321,27 +424,35 @@ func _click(pos: Vector2) -> void:
 		Estado.captura_punto = Callable()
 		captura.call(Proyeccion.a_lonlat(mundo))
 		return
-	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	var el := elemento_en(mundo)
 	if not el.is_empty() and el["tipo"] == "grupo":
-		# Un grupo de marcadores: acercarse hasta que se separen.
-		volar_a(el["px"], minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2))
+		# Un grupo de marcadores: su lista en el panel, con el zoom que los separa para el botón de acercarse.
+		var z := minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2)
+		Estado.pedir_ficha("grupo", {"px": el["px"], "zoom": z, "miembros": el["miembros"]})
+		_despejar_panel(pos)
 		return
 	if not el.is_empty():
 		Estado.pedir_ficha(el["tipo"], el["id"])
 		return
 	var u := DatosMapa.unidad_en(mundo)
 	Estado.seleccionar_lugar(u, mundo)
-	# Si el lugar quedó debajo del panel lateral, correr la cámara para dejarlo a la vista.
-	var vp := get_viewport_rect().size
-	var libre := vp.x - PanelInfo.ANCHO - 20.0
-	if u > 0 and pos.x > libre - 40.0:
-		var destino := camara.position + Vector2((pos.x - libre * 0.55) / camara.zoom.x, 0.0)
-		volar_a(destino, camara.zoom.x)
+	if u > 0:
+		_despejar_panel(pos)
+
+
+## Si lo tocado quedó debajo del panel lateral, corre la cámara para dejarlo a la vista.
+func _despejar_panel(pos: Vector2) -> void:
+	var libre := get_viewport_rect().size.x - PanelInfo.ANCHO - 20.0
+	if pos.x > libre - 40.0:
+		volar_a(camara.position + Vector2((pos.x - libre * 0.55) / camara.zoom.x, 0.0), camara.zoom.x)
 
 
 func _hover(pos: Vector2) -> void:
+	if tactil:
+		_salir_hover()
+		return
 	var mundo := pantalla_a_mundo(pos)
-	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	var el := elemento_en(mundo)
 	var u := DatosMapa.unidad_en(mundo)
 	var v := _valor_de(u)
 	if u != _hover_unidad:
@@ -364,6 +475,15 @@ func _refrescar_hover() -> void:
 func _input(ev: InputEvent) -> void:
 	if ev is InputEventMouseMotion:
 		_movimiento_sin_mapa = true
+		# El mouse que Godot emula con el dedo viene del dispositivo DEVICE_ID_EMULATION; uno de verdad vuelve al modo
+		# mouse (globo y márgenes normales).
+		if ev.device != InputEvent.DEVICE_ID_EMULATION:
+			tactil = false
+	elif ev is InputEventMouseButton and ev.device != InputEvent.DEVICE_ID_EMULATION:
+		# Un clic de mouse de verdad: si quedó registrado un dedo cuya liberación se perdió, el mapa no queda trabado.
+		tactil = false
+		_toques.clear()
+		_gesto = false
 
 
 func _notification(what: int) -> void:

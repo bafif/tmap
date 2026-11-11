@@ -30,10 +30,8 @@ func _ready() -> void:
 		for c in raiz.get_children():
 			if c is AvisoActualizacion:
 				c.queue_free()
-		# Debajo del diálogo de ajustes y del editor, que están al final de raiz.
-		var a := AvisoActualizacion.new(tipo, texto)
-		raiz.add_child(a)
-		raiz.move_child(a, editor.get_index())
+		# Al final de raiz: encima de todo, también de Ajustes, del editor y de la bienvenida (ver _aviso_arriba).
+		raiz.add_child(AvisoActualizacion.new(tipo, texto))
 		if tipo.begins_with("datos"):
 			revisar_copias())
 	Estado.carga_terminada.connect(revisar_copias, CONNECT_ONE_SHOT)
@@ -62,6 +60,8 @@ func _construir() -> void:
 	raiz.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	raiz.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	raiz.theme = TemaUI.crear(Estado.ajustes["tema"])
+	raiz.child_entered_tree.connect(_frenar_rueda)
+	raiz.child_entered_tree.connect(func(_n: Node): _aviso_arriba.call_deferred())
 	add_child(raiz)
 
 	var vineta := ColorRect.new()
@@ -90,7 +90,18 @@ func _construir() -> void:
 	barra.ajustes_pedidos.connect(ajustes.abrir)
 	barra.ayuda_pedida.connect(mostrar_bienvenida)
 	ajustes.tema_cambiado.connect(_cambiar_tema)
+	_frenar_rueda(editor._panel)
 	aplicar_escala()
+
+
+## Una ventana (el panel, la leyenda, la línea de tiempo, los ajustes, el editor, la bienvenida…) se queda con la rueda
+## del mouse aunque no la use. Godot hace pasar la rueda hacia arriba aunque un control frene el mouse
+## (mouse_force_pass_scroll_events), para que un ScrollContainer reciba la de sus botones; pero al llegar al tope de la
+## ventana seguía hasta el mapa y lo acercaba. Se apaga solo en la ventana, no en lo de adentro.
+func _frenar_rueda(n: Node) -> void:
+	var c := n as Control
+	if c and c.mouse_filter == Control.MOUSE_FILTER_STOP:
+		c.mouse_force_pass_scroll_events = false
 
 
 ## Escala de la interfaz (y del mapa) sin depender del tamaño de la ventana.
@@ -105,6 +116,19 @@ func aplicar_escala() -> void:
 	w.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
 	w.content_scale_size = w.size
 	w.content_scale_factor = f
+
+
+## El aviso de actualización va encima de todo, también de lo que se abre después (la bienvenida, un diálogo). Solo
+## el de los gráficos queda más arriba: si quedara tapado, volvería solo al motor anterior aunque se viera bien.
+func _aviso_arriba() -> void:
+	if not is_instance_valid(raiz):
+		return
+	for c in raiz.get_children():
+		if c is AvisoActualizacion and not c.is_queued_for_deletion():
+			raiz.move_child(c, -1)
+	for c in raiz.get_children():
+		if c is AvisoGraficos:
+			raiz.move_child(c, -1)
 
 
 func mostrar_bienvenida() -> void:
@@ -148,9 +172,60 @@ func _cambiar_tema() -> void:
 ## reproducir. Con el teclado (Tab) el foco sí queda, con su recuadro. Se suelta al soltar el botón del mouse, nunca
 ## al apretarlo: perder el foco en medio del clic lo cancela.
 func _input(ev: InputEvent) -> void:
+	_desplazar_con_el_dedo(ev)
 	var b := ev as InputEventMouseButton
 	if b and not b.pressed and b.button_index == MOUSE_BUTTON_LEFT:
 		_soltar_foco.call_deferred()
+
+
+## Con el dedo, arrastrar sobre una ventana que se desplaza (el panel, los ajustes, el editor) la corre, empiece donde
+## empiece el toque: Godot solo arrastra un ScrollContainer si el toque no cae en uno de sus botones. El botón donde
+## empezó el toque no se aprieta al soltar.
+const UMBRAL_DEDO := 10.0
+var _dedo_ventana: ScrollContainer
+var _dedo_acumulado := 0.0
+var _dedo_corriendo := false
+
+
+func _desplazar_con_el_dedo(ev: InputEvent) -> void:
+	if ev is InputEventScreenTouch:
+		var t := ev as InputEventScreenTouch
+		if t.index == 0:
+			_dedo_ventana = _ventana_desplazable_en(t.position) if t.pressed else null
+			_dedo_acumulado = 0.0
+			_dedo_corriendo = false
+	elif ev is InputEventScreenDrag:
+		var d := ev as InputEventScreenDrag
+		if d.index != 0 or _dedo_ventana == null or not is_instance_valid(_dedo_ventana):
+			return
+		_dedo_acumulado += d.relative.y
+		if not _dedo_corriendo and absf(_dedo_acumulado) >= UMBRAL_DEDO:
+			# El mouse que Godot emula con el dedo «sale» del botón donde empezó: así no se aprieta al soltar.
+			var fuera := InputEventMouseMotion.new()
+			fuera.device = InputEvent.DEVICE_ID_EMULATION
+			fuera.position = Vector2(-10000, -10000)
+			fuera.global_position = fuera.position
+			fuera.button_mask = MOUSE_BUTTON_MASK_LEFT
+			get_viewport().push_input(fuera)
+			_dedo_corriendo = true
+		if _dedo_corriendo:
+			_dedo_ventana.scroll_vertical -= roundi(d.relative.y)
+			get_viewport().set_input_as_handled()
+	elif ev is InputEventMouseMotion and ev.device == InputEvent.DEVICE_ID_EMULATION and _dedo_corriendo:
+		# Mientras el dedo corre la ventana, el mouse emulado no vuelve a entrar al botón.
+		get_viewport().set_input_as_handled()
+
+
+## La ventana desplazable (con contenido de más) bajo un punto de la pantalla; la de más arriba si hay varias.
+func _ventana_desplazable_en(pos: Vector2) -> ScrollContainer:
+	var elegida: ScrollContainer = null
+	for n in raiz.find_children("*", "ScrollContainer", true, false):
+		var s := n as ScrollContainer
+		var contenido := s.get_child(0) as Control if s.get_child_count() > 0 else null
+		if s.is_visible_in_tree() and s.get_global_rect().has_point(pos) and contenido \
+				and contenido.size.y > s.size.y + 1.0:
+			elegida = s
+	return elegida
 
 
 func _soltar_foco() -> void:

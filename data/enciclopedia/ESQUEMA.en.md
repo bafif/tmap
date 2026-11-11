@@ -24,7 +24,8 @@ examples below keep the Spanish text they would have in a package.
   titles that exist; if there's no article in one language, that key is left out.
 - **Reading links (`leer`):** only checked URLs (that answer 200), preferably full text and public domain or open
   access: Wikisource, Project Gutenberg, Perseus, Internet Archive, ETCSL, LacusCurtius, the Biblioteca Virtual Miguel
-  de Cervantes, university sites. Never links to pirated copies.
+  de Cervantes, university sites. Never links to pirated copies. Each link's Wayback Machine copy doesn't go in the
+  package: `tools/enciclopedia/enlaces.py` looks it up and it lives in `data/enciclopedia/archivo.json`.
 
 ## Package file
 
@@ -205,9 +206,11 @@ historian wrote in London about the New Kingdom.
 }
 ```
 
-- `activo` is optional: where they worked, if it isn't their birthplace. The map shows them there while they're alive.
-  It can carry `desde` and `hasta` (a reign or a known period of activity) for people without birth or death dates:
-  `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta": -1336, "aprox": true}`.
+- `activo` is optional: where they worked, if it isn't their birthplace. It can carry `desde` and `hasta` (a reign or
+  a known period of activity): `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta":
+  -1336, "aprox": true}`. Without those years, the map shows them at `activo` while they're alive; with them, only
+  during those years, and before that at their birthplace and afterwards where they died, if known (Pedro de Mendoza,
+  in Guadix until 1536). For people without birth or death dates, those years also place their life.
   Without any year, the person doesn't show up on the map or in "people alive".
 - For ancient people with uncertain dates, `aprox: true` and the best scholarly estimate.
 
@@ -260,6 +263,12 @@ Cities, temples and sites that appear on the map while they exist.
 - `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`,
   `laboratorio`, `institucion` (a congress, a court, the seat of a government or an agency), `sitio-historico` (a
   square, a concentration camp, a clandestine detention center, a battlefield).
+- `fundacion`: the year from which it exists and is shown on the map. An ancient city or temple of unknown origin can
+  have `null` (it is shown in every era). A library, a university, a laboratory, an institution or a historic site
+  must have it (`validar.py` requires it). For a building or an institution, its opening (if unknown, the first event
+  that makes it relevant, with `aprox` if the year is uncertain); for a site or a natural place that matters because
+  of an event (an island, a beach, a spot on a road, the house where something was signed), the year of that event or
+  the year it became known, so the map does not show it under its name too early.
 - `abandono`: the year it stops being inhabited or relevant; `null` if it still is.
 - `importancia`: 1 (local) to 3 (of the first rank). It decides from which zoom level it shows.
 

@@ -106,7 +106,8 @@ def main() -> None:
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--verificar")
         n0, d0 = fuentes(sal)
         print(f"antes: {n0} fuentes, datos {d0}")
-        carpeta_datos = tmp / "usuario/godot/app_userdata/TellMAP/datos"
+        # Desde el código, user:// es TellMAP-codigo (project.godot); lo exportado usa la carpeta de Godot.
+        carpeta_datos = tmp / "usuario" / ("godot/app_userdata/TellMAP" if a.ejecutable else "TellMAP-codigo") / "datos"
 
         # Lo que pasa al abrir la app: el cartel, contestado con «Ahora no» y después con «Actualizar».
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--preguntar-y-salir=no")
@@ -146,7 +147,7 @@ def main() -> None:
         rc, sal = correr(cmd, env, f"--actualizaciones={url}", "--verificar")
         n2, d2 = fuentes(sal)
         chequear(n2 == n1 and d2 == d1, "siguen valiendo los datos de antes", sal)
-        restos = sorted(p.name for p in (tmp / "usuario/godot/app_userdata/TellMAP/datos").iterdir())
+        restos = sorted(p.name for p in carpeta_datos.iterdir())
         chequear(restos == [str(v2), "activo.json"], f"en la carpeta del usuario queda solo lo activo ({restos})")
 
         if a.ejecutable:

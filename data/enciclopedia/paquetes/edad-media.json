@@ -127,6 +127,36 @@
       "resumen": "La península de España y Portugal. En la Edad Media fue a la vez el reino visigodo, al-Ándalus y los reinos cristianos del norte; la convivencia y el choque de cristianos, musulmanes y judíos la volvieron el gran puente entre la ciencia árabe y la Europa latina.",
       "eras": [
         {
+          "desde": -5600,
+          "hasta": -3200,
+          "nombre": "Neolítico",
+          "resumen": "Los primeros agricultores llegan por el Mediterráneo con la cerámica cardial hacia 5600 a. C.; en el oeste se levantan dólmenes desde el V milenio."
+        },
+        {
+          "desde": -3200,
+          "hasta": -2200,
+          "nombre": "Calcolítico",
+          "resumen": "Poblados fortificados como Los Millares y Zambujal y, desde hacia 2700 a. C., el campaniforme. Desde hacia 2500 a. C. llega gente de ascendencia esteparia que en pocos siglos reemplaza casi todos los linajes paternos (Olalde et al. 2019)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -850,
+          "nombre": "Edad del Bronce",
+          "resumen": "El Argar en el sudeste, con poblados en altura y grandes desigualdades en las tumbas; Cogotas I en la Meseta y el Bronce Atlántico en el oeste."
+        },
+        {
+          "desde": -850,
+          "hasta": -550,
+          "nombre": "Primera Edad del Hierro",
+          "resumen": "Los fenicios se instalan en Gadir y en la costa andaluza; en el bajo Guadalquivir florece Tartessos, que Heródoto (I.163) asocia con el rey Argantonio, y en el suroeste se graban las estelas con la escritura más antigua de la península."
+        },
+        {
+          "desde": -550,
+          "hasta": -218,
+          "nombre": "Segunda Edad del Hierro",
+          "resumen": "Íberos en el este y el sur, celtíberos y otros pueblos indoeuropeos en la Meseta y el oeste, cultura castreña en el noroeste y griegos en Ampurias; Cartago domina el sur desde 237 a. C."
+        },
+        {
           "desde": -218,
           "hasta": 409,
           "nombre": "Hispania romana",
@@ -222,29 +252,22 @@
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
         },
         {
-          "anio": 1,
-          "poblacion": 5014143,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 14,
+          "poblacion": 5000000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Toda la península."
         },
         {
-          "anio": 100,
-          "poblacion": 5260047,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 150,
+          "poblacion": 9000000,
+          "fuente": "Harper (2017), The Fate of Rome, pp. 30-31, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Toda la península; mediados del siglo II."
         },
         {
-          "anio": 200,
-          "poblacion": 5460073,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 300,
-          "poblacion": 5210099,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 400,
-          "poblacion": 4960125,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 164,
+          "poblacion": 7500000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Toda la península."
         },
         {
           "anio": 500,
@@ -381,11 +404,57 @@
       ],
       "religiones": [
         {
+          "desde": -850,
+          "hasta": -1,
+          "nombre": "Religión fenicia y púnica",
+          "familia": "politeismo-cananeo",
+          "peso": "minoritaria",
+          "nota": "El templo de Melqart (el Heracles de los griegos) en Gadir era famoso en todo el Mediterráneo."
+        },
+        {
+          "desde": -600,
+          "hasta": -30,
+          "nombre": "Religiones de los pueblos célticos e indoeuropeos",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Mayoritarias por extensión. Las conocemos casi solo por inscripciones latinas a dioses indígenas (Endovélico, Ataecina, Bandua, Nabia, Lugus) y por Estrabón (III.3.7), que cuenta sacrificios de machos cabríos, prisioneros y caballos a un dios de la guerra entre los montañeses del norte."
+        },
+        {
+          "desde": -575,
+          "hasta": -50,
+          "nombre": "Religión griega (Ampurias)",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -550,
+          "hasta": -30,
+          "nombre": "Religión ibérica",
+          "familia": "religion-iberica",
+          "peso": "importante",
+          "nota": "Santuarios con miles de exvotos de bronce (Collado de los Jardines, El Castellar) y de piedra (Cerro de los Santos); los textos ibéricos no se entienden."
+        },
+        {
           "desde": -218,
+          "hasta": -30,
+          "nombre": "Religión romana",
+          "familia": "politeismo-romano",
+          "peso": "importante"
+        },
+        {
+          "desde": -30,
           "hasta": 380,
           "nombre": "Religión romana y cultos locales",
           "familia": "politeismo-romano",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 300,
+          "hasta": 1492,
+          "nombre": "Judaísmo (Sefarad)",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "Expulsados de Castilla y Aragón en 1492 y de Portugal en 1497."
         },
         {
           "desde": 380,
@@ -445,23 +514,124 @@
           "familia": "islam-sunni",
           "peso": "minoritaria",
           "nota": "Bautizados por la fuerza entre 1500 y 1526 y expulsados entre 1609 y 1614."
-        },
-        {
-          "desde": 300,
-          "hasta": 1492,
-          "nombre": "Judaísmo (Sefarad)",
-          "familia": "judaismo",
-          "peso": "minoritaria",
-          "nota": "Expulsados de Castilla y Aragón en 1492 y de Portugal en 1497."
         }
       ],
       "culturas": [
         {
+          "desde": -5600,
+          "hasta": -3200,
+          "nombre": "Neolítica (cardial y megalítica)",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -3200,
+          "hasta": -2200,
+          "nombre": "Calcolítica (Los Millares, Zambujal)",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2700,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "importante",
+          "nota": "La península es uno de los focos más antiguos del campaniforme; a diferencia de Britania, aquí la ascendencia esteparia no llega con él sino algo después (Olalde et al. 2018 y 2019)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -850,
+          "nombre": "Edad del Bronce (El Argar, Cogotas I, Bronce Atlántico)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -850,
+          "hasta": -206,
+          "nombre": "Fenicia y púnica (costa del sur)",
+          "familia": "semitica",
+          "peso": "minoritaria",
+          "nota": "Gadir (Cádiz), Malaka, Sexi y Abdera. La tradición pone la fundación de Gadir en 1104 a. C.; la arqueología, en los siglos IX u VIII a. C. Cartago domina el sur entre 237 y 206 a. C."
+        },
+        {
+          "desde": -850,
+          "hasta": -200,
+          "nombre": "Tartésica y turdetana",
+          "familia": "tartesica",
+          "peso": "importante",
+          "nota": "Tartessos aparece en Heródoto (I.163, IV.152) y en la arqueología orientalizante del bajo Guadalquivir (El Carambolo); después la zona es de los turdetanos, que Estrabón (III.1.6) describe como los más cultos de Iberia, con leyes en verso."
+        },
+        {
+          "desde": -800,
+          "hasta": -19,
+          "nombre": "Castreña (galaicos, astures y cántabros)",
+          "familia": "castrena",
+          "peso": "importante",
+          "nota": "Si eran celtas se discute pueblo por pueblo. En el noroeste hay muchos nombres celtas (los -briga, los Celtici de Plinio) junto a otros de una lengua indoeuropea no celta (Prósper 2002); de astures y cántabros quedan sobre todo nombres de personas y lugares, indoeuropeos y en parte celtas. Muchos arqueólogos subrayan además el desarrollo local de los castros desde el Bronce final (González-Ruibal 2007). La cultura castreña en sentido estricto es la del noroeste; los cántabros también vivían en castros, con rasgos propios."
+        },
+        {
+          "desde": -600,
+          "hasta": -30,
+          "nombre": "Celtas de la Meseta y del oeste (celtíberos, vacceos, vetones, carpetanos, célticos)",
+          "familia": "celta",
+          "peso": "mayoritaria",
+          "nota": "Mayoritaria por extensión: los pueblos de lengua indoeuropea ocupaban la Meseta y el oeste, más de la mitad de la península (la zona de los topónimos en -briga que trazó Untermann); el este y el sur, más poblados, eran íberos y turdetanos. Heródoto (II.33) ya pone celtas más allá de las Columnas de Hércules; cuánto de esto era «celta» y cuándo llegó se discute."
+        },
+        {
+          "desde": -575,
+          "hasta": -50,
+          "nombre": "Griega (Ampurias)",
+          "familia": "griega",
+          "peso": "minoritaria",
+          "nota": "Emporion, fundada por focenses de Masalia hacia 575 a. C., y Rhode (Roses)."
+        },
+        {
+          "desde": -550,
+          "hasta": -30,
+          "nombre": "Ibérica (este y sur)",
+          "familia": "iberica",
+          "peso": "importante",
+          "nota": "Pueblos de lengua no indoeuropea, de Andalucía oriental al Rosellón (contestanos, edetanos, ilergetes, layetanos y otros), con sus santuarios, sus damas de piedra (Elche, Baza) y su escritura."
+        },
+        {
           "desde": -218,
+          "hasta": -30,
+          "nombre": "Hispanorromana",
+          "familia": "latina",
+          "peso": "importante",
+          "nota": "Crece con la conquista y las colonias, como Itálica (206 a. C.) y Carteia (171 a. C.)."
+        },
+        {
+          "desde": -194,
+          "hasta": -19,
+          "nombre": "Lusitana",
+          "familia": "lusitana",
+          "peso": "importante",
+          "nota": "Los lusitanos aparecen en las fuentes a comienzos del siglo II a. C. (Livio XXXV.1) y resisten a Roma con Viriato (147-139 a. C.); si su lengua era celta se discute."
+        },
+        {
+          "desde": -76,
+          "hasta": null,
+          "nombre": "Vasca",
+          "familia": "vasca",
+          "peso": "minoritaria",
+          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
+        },
+        {
+          "desde": -30,
           "hasta": 900,
           "nombre": "Hispanorromana (luego mozárabe)",
           "familia": "latina",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 300,
+          "hasta": 1492,
+          "nombre": "Judía sefardí",
+          "familia": "sefardi",
+          "peso": "minoritaria"
         },
         {
           "desde": 409,
@@ -485,13 +655,6 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": 1100,
-          "hasta": 1492,
-          "nombre": "Andalusí",
-          "familia": "andalusi",
-          "peso": "importante"
-        },
-        {
           "desde": 900,
           "hasta": 1100,
           "nombre": "Hispana (reinos cristianos)",
@@ -500,53 +663,129 @@
         },
         {
           "desde": 1100,
+          "hasta": 1492,
+          "nombre": "Andalusí",
+          "familia": "andalusi",
+          "peso": "importante"
+        },
+        {
+          "desde": 1100,
           "hasta": null,
           "nombre": "Hispana",
           "familia": "hispana",
           "peso": "mayoritaria"
-        },
-        {
-          "desde": -76,
-          "hasta": null,
-          "nombre": "Vasca",
-          "familia": "vasca",
-          "peso": "minoritaria",
-          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
-        },
-        {
-          "desde": 300,
-          "hasta": 1492,
-          "nombre": "Judía sefardí",
-          "familia": "sefardi",
-          "peso": "minoritaria"
         }
       ],
       "idiomas": [
         {
+          "desde": -5600,
+          "hasta": -2500,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2500,
+          "hasta": -500,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "importante",
+          "nota": "Las antecesoras del ibérico y del euskera, que siguieron vivas en el este, el sur y el norte."
+        },
+        {
+          "desde": -2500,
+          "hasta": -450,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "importante",
+          "nota": "La genética muestra la llegada de gente de ascendencia esteparia desde hacia 2500 a. C. (Olalde et al. 2019), y la mitad occidental de la península habla lenguas indoeuropeas cuando aparece en los textos; cuándo llegaron las lenguas celtas se discute."
+        },
+        {
+          "desde": -850,
+          "hasta": 1,
+          "nombre": "Fenicio y púnico",
+          "familia": "cananeas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -700,
+          "hasta": -450,
+          "nombre": "Tartesio (estelas del suroeste)",
+          "familia": "tartesio",
+          "peso": "minoritaria",
+          "nota": "Unas 95 estelas del sur de Portugal y del oeste de Andalucía, en una escritura derivada de la fenicia; suelen fecharse en el siglo VII a. C., con propuestas entre el VIII y el V. Koch (Tartessian, 2009, y obras siguientes) lo lee como celta; la mayoría de los especialistas lo deja sin clasificar."
+        },
+        {
+          "desde": -575,
+          "hasta": -50,
+          "nombre": "Griego (Ampurias)",
+          "familia": "griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 1,
+          "nombre": "Ibérico",
+          "familia": "iberico",
+          "peso": "importante",
+          "nota": "Lengua no indoeuropea escrita desde el siglo V a. C. hasta el cambio de era, con signarios propios y con el alfabeto griego; se leen los signos desde Gómez-Moreno, pero los textos no se entienden. Si está emparentado con el euskera se discute."
+        },
+        {
+          "desde": -450,
+          "hasta": -30,
+          "nombre": "Lenguas celtas peninsulares (celtíbero y otras)",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Mayoritarias por extensión, en la Meseta y el oeste. Las conocemos por nombres desde Heródoto (II.33, hacia 450 a. C.), que pone celtas más allá de las Columnas de Hércules, y por inscripciones desde el siglo II a. C.; son sin duda anteriores. La cuenta incluye el noroeste, cuya lengua solo conocemos por nombres, en buena parte celtas, y deja aparte el lusitano."
+        },
+        {
           "desde": -200,
+          "hasta": -30,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": -194,
+          "hasta": 200,
+          "nombre": "Lusitano",
+          "familia": "lusitano",
+          "peso": "minoritaria",
+          "nota": "Un puñado de inscripciones de los siglos I y II en letras latinas (Cabeço das Fráguas, Lamas de Moledo, Arroyo de la Luz). Es indoeuropeo; si es celta se discute: conserva la p indoeuropea (porcom, «cerdo», en Cabeço das Fráguas), que el celta perdió, y por eso la mayoría lo pone aparte (Untermann, Gorrochategui); una minoría lo considera celta o muy cercano."
+        },
+        {
+          "desde": -76,
+          "hasta": null,
+          "nombre": "Euskera",
+          "familia": "vasco",
+          "peso": "minoritaria",
+          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
+        },
+        {
+          "desde": -30,
           "hasta": 900,
           "nombre": "Latín y latín hablado",
           "familia": "latin",
           "peso": "mayoritaria"
         },
         {
-          "desde": 711,
-          "hasta": 900,
-          "nombre": "Árabe",
-          "familia": "arabe",
+          "desde": -30,
+          "hasta": 200,
+          "nombre": "Lenguas celtas peninsulares",
+          "familia": "celtas",
           "peso": "importante"
         },
         {
-          "desde": 900,
-          "hasta": 1100,
-          "nombre": "Árabe",
-          "familia": "arabe",
-          "peso": "mayoritaria",
-          "nota": "En al-Ándalus convivió con el romance andalusí: mucha gente era bilingüe."
+          "desde": 300,
+          "hasta": 1492,
+          "nombre": "Hebreo (liturgia y letras)",
+          "familia": "hebreo",
+          "peso": "minoritaria"
         },
         {
-          "desde": 1100,
-          "hasta": 1492,
+          "desde": 711,
+          "hasta": 900,
           "nombre": "Árabe",
           "familia": "arabe",
           "peso": "importante"
@@ -561,16 +800,17 @@
         {
           "desde": 900,
           "hasta": 1100,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "mayoritaria",
+          "nota": "En al-Ándalus convivió con el romance andalusí: mucha gente era bilingüe."
+        },
+        {
+          "desde": 900,
+          "hasta": 1100,
           "nombre": "Castellano, leonés y aragonés",
           "familia": "espanol",
           "peso": "importante"
-        },
-        {
-          "desde": 1100,
-          "hasta": null,
-          "nombre": "Castellano",
-          "familia": "espanol",
-          "peso": "mayoritaria"
         },
         {
           "desde": 900,
@@ -587,19 +827,18 @@
           "peso": "importante"
         },
         {
-          "desde": -76,
-          "hasta": null,
-          "nombre": "Euskera",
-          "familia": "vasco",
-          "peso": "minoritaria",
-          "nota": "Los vascones aparecen en las fuentes romanas en la guerra sertoriana (76 a. C.); su lengua es anterior a la llegada de los indoeuropeos."
+          "desde": 1100,
+          "hasta": 1492,
+          "nombre": "Árabe",
+          "familia": "arabe",
+          "peso": "importante"
         },
         {
-          "desde": 300,
-          "hasta": 1492,
-          "nombre": "Hebreo (liturgia y letras)",
-          "familia": "hebreo",
-          "peso": "minoritaria"
+          "desde": 1100,
+          "hasta": null,
+          "nombre": "Castellano",
+          "familia": "espanol",
+          "peso": "mayoritaria"
         }
       ]
     },
@@ -764,6 +1003,36 @@
       "resumen": "La antigua Galia, reino de los francos y luego de Francia. Fue el centro del monacato reformado de Cluny y el Císter, del arte gótico, de las cruzadas y, con las escuelas y la universidad de París, del pensamiento escolástico.",
       "eras": [
         {
+          "desde": -5800,
+          "hasta": -2500,
+          "nombre": "Neolítico",
+          "resumen": "Los primeros agricultores llegan por el Mediterráneo (cerámica impresa y cardial, hacia 5800 a. C.) y por el Danubio (cerámica de bandas, hacia 5000 a. C.); en Bretaña se levantan algunos de los megalitos más antiguos de Europa."
+        },
+        {
+          "desde": -2500,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "resumen": "Los vasos campaniformes se difunden por toda Francia; con ellos llega gente de ascendencia esteparia (Brunel et al. 2020)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Bronce Atlántico en el oeste, con hachas y espadas que circulan de Iberia a Irlanda, y desde hacia 1300 a. C. la cultura de los campos de urnas en el este."
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Primera Edad del Hierro (Hallstatt)",
+          "resumen": "Residencias principescas en el este, como el monte Lassois, con la tumba de Vix (hacia 500 a. C.) y su crátera griega; los focenses fundan Masalia hacia 600 a. C."
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "La Tène y la Galia independiente",
+          "resumen": "Arte de La Tène, migraciones galas a Italia y al Danubio (siglo IV a. C.), y desde el siglo II a. C. oppida y moneda. Roma conquista el sur (la Narbonense, 121 a. C.) y César el resto (58-50 a. C.)."
+        },
+        {
           "desde": -50,
           "hasta": 486,
           "nombre": "Galia romana",
@@ -859,29 +1128,29 @@
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
         },
         {
-          "anio": 1,
-          "poblacion": 4938643,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": -50,
+          "poblacion": 3000000,
+          "fuente": "Plutarco, Vida de César 15",
+          "tipo": "testimonio-antiguo",
+          "nota": "No es la población: Plutarco dice que César combatió contra tres millones de hombres, mató a un millón y tomó otro tanto de prisioneros; Apiano da cifras parecidas y Plinio (Historia natural VII.92) cuenta 1.192.000 muertos en sus batallas. Son números redondos que vienen de lo que difundieron César y sus panegiristas, sin manera de comprobarlos; Henige («He came, he saw, we counted», 1998) muestra que no sirven como datos. Que estén inflados no quiere decir que la guerra no fuera devastadora: el propio César cuenta que vendió como esclavos a 53.000 aduátucos (Guerra de las Galias II.33) y a los vénetos sobrevivientes (III.16). Lo que no se puede medir es cuánto se despobló la Galia."
         },
         {
-          "anio": 100,
-          "poblacion": 5694368,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 14,
+          "poblacion": 5800000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Galia y Germania: las Tres Galias, la Narbonense y las dos Germanias (unos 635.000 km²); incluye Bélgica, Suiza y la orilla izquierda del Rin, que esta región no tiene."
         },
         {
-          "anio": 200,
-          "poblacion": 6430046,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 150,
+          "poblacion": 12000000,
+          "fuente": "Harper (2017), The Fate of Rome, pp. 30-31, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Galia y Germania: las Tres Galias, la Narbonense y las dos Germanias (unos 680.000 km²); incluye Bélgica, Suiza y la orilla izquierda del Rin, que esta región no tiene. Mediados del siglo II."
         },
         {
-          "anio": 300,
-          "poblacion": 5697015,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 400,
-          "poblacion": 4964011,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 164,
+          "poblacion": 9000000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Galia y Germania: las Tres Galias, la Narbonense y las dos Germanias (unos 635.000 km²); incluye Bélgica, Suiza y la orilla izquierda del Rin, que esta región no tiene."
         },
         {
           "anio": 500,
@@ -1021,6 +1290,28 @@
       ],
       "religiones": [
         {
+          "desde": -600,
+          "hasta": -49,
+          "nombre": "Religión griega (Masalia)",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "Religión gala",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "La conocemos por autores griegos y romanos (César, Guerra de las Galias VI.13-18; Posidonio a través de Diodoro y Estrabón; Lucano), por santuarios como Gournay-sur-Aronde y Ribemont-sur-Ancre (siglos IV a I a. C.) y por las dedicatorias de época romana; los galos casi no dejaron nada escrito sobre ella."
+        },
+        {
+          "desde": -121,
+          "hasta": -50,
+          "nombre": "Religión romana (Narbonense)",
+          "familia": "politeismo-romano",
+          "peso": "minoritaria"
+        },
+        {
           "desde": -50,
           "hasta": 380,
           "nombre": "Religión galorromana",
@@ -1033,6 +1324,14 @@
           "nombre": "Religión gala",
           "familia": "paganismo-celta",
           "peso": "importante"
+        },
+        {
+          "desde": 300,
+          "hasta": 1394,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "Expulsados del reino en 1306 y, tras su regreso, en 1394; siguieron en Provenza y en Aviñón."
         },
         {
           "desde": 380,
@@ -1056,14 +1355,6 @@
           "peso": "minoritaria"
         },
         {
-          "desde": 300,
-          "hasta": 1394,
-          "nombre": "Judaísmo",
-          "familia": "judaismo",
-          "peso": "minoritaria",
-          "nota": "Expulsados del reino en 1306 y, tras su regreso, en 1394; siguieron en Provenza y en Aviñón."
-        },
-        {
           "desde": 1550,
           "hasta": null,
           "nombre": "Protestantismo (hugonotes)",
@@ -1073,6 +1364,98 @@
       ],
       "culturas": [
         {
+          "desde": -5800,
+          "hasta": -2200,
+          "nombre": "Neolítica (cardial, danubiana y megalítica)",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores llegados por el Mediterráneo y por el Danubio, que descendían sobre todo de los de Anatolia mezclados con los cazadores locales (Brunel et al. 2020)."
+        },
+        {
+          "desde": -2550,
+          "hasta": -2150,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "importante",
+          "nota": "Vasos campaniformes en tumbas individuales; en Francia coinciden con la llegada de la ascendencia esteparia (Brunel et al. 2020). Si fue un pueblo, una moda o una red de intercambio se discute."
+        },
+        {
+          "desde": -2200,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce antigua y media",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Campos de urnas (este y centro)",
+          "familia": "campos-de-urnas",
+          "peso": "importante"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Bronce Atlántico (oeste)",
+          "familia": "bronce-atlantico",
+          "peso": "importante"
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt (este)",
+          "familia": "hallstatt",
+          "peso": "mayoritaria",
+          "nota": "Cultura del primer Hierro del este de Francia; el oeste y el sur tienen grupos propios. Suele ligarse con los antepasados de los galos, pero que hablaran celta se deduce, no se documenta."
+        },
+        {
+          "desde": -600,
+          "hasta": -49,
+          "nombre": "Griega (Masalia y sus colonias)",
+          "familia": "griega",
+          "peso": "minoritaria",
+          "nota": "Masalia (Marsella), fundada por focenses hacia 600 a. C., y sus colonias de la costa, como Agde, Antibes y Niza; perdió su independencia ante César en 49 a. C."
+        },
+        {
+          "desde": -600,
+          "hasta": -121,
+          "nombre": "Ligur (sudeste)",
+          "familia": "ligur",
+          "peso": "minoritaria",
+          "nota": "Los griegos llamaban ligures a los pueblos de Provenza; Estrabón (IV.6.3) llama «celtoligures» a los sálluvios, vencidos por Roma en 123-122 a. C."
+        },
+        {
+          "desde": -550,
+          "hasta": -100,
+          "nombre": "Ibérica (Rosellón y bajo Languedoc)",
+          "familia": "iberica",
+          "peso": "minoritaria",
+          "nota": "Grafitos en escritura ibérica en Ensérune y Pech Maho, desde el siglo V a. C."
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "Gala (La Tène)",
+          "familia": "gala",
+          "peso": "mayoritaria",
+          "nota": "Los griegos llaman keltoi a los pueblos del interior de Masalia desde Hecateo (hacia 500 a. C.); César (Guerra de las Galias I.1) divide la Galia en belgas, aquitanos y celtas, «que en nuestra lengua se llaman galos». Collis (The Celts: Origins, Myths and Inventions, 2003) discute que «celta» nombre un pueblo y no un rótulo griego."
+        },
+        {
+          "desde": -121,
+          "hasta": -50,
+          "nombre": "Romana (Narbonense)",
+          "familia": "latina",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -56,
+          "hasta": 600,
+          "nombre": "Aquitana",
+          "familia": "vasca",
+          "peso": "minoritaria",
+          "nota": "Los aquitanos, entre el Garona y los Pirineos, aparecen en César (56 a. C.); los nombres de personas y dioses de sus inscripciones latinas muestran una lengua emparentada con el antecesor del euskera (Mitxelena, Gorrochategui)."
+        },
+        {
           "desde": -50,
           "hasta": 900,
           "nombre": "Galorromana",
@@ -1080,11 +1463,33 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": 300,
+          "hasta": 1394,
+          "nombre": "Judía",
+          "familia": "judia",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 450,
+          "hasta": null,
+          "nombre": "Bretona",
+          "familia": "britona",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 481,
           "hasta": 900,
           "nombre": "Franca",
           "familia": "franca",
           "peso": "importante"
+        },
+        {
+          "desde": 600,
+          "hasta": null,
+          "nombre": "Vasca",
+          "familia": "vasca",
+          "peso": "minoritaria",
+          "nota": "En el País Vasco francés (Labort, Baja Navarra y Sola)."
         },
         {
           "desde": 900,
@@ -1099,31 +1504,72 @@
           "nombre": "Occitana (sur)",
           "familia": "occitana",
           "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5800,
+          "hasta": -2500,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
         },
         {
-          "desde": 450,
-          "hasta": null,
-          "nombre": "Bretona",
-          "familia": "britona",
+          "desde": -2500,
+          "hasta": -500,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -600,
+          "hasta": 300,
+          "nombre": "Griego (Masalia)",
+          "familia": "griego",
+          "peso": "minoritaria",
+          "nota": "Varrón, citado por Isidoro de Sevilla (Etimologías, libro XV), llamaba trilingües a los masaliotas porque hablaban griego, latín y galo."
+        },
+        {
+          "desde": -600,
+          "hasta": -100,
+          "nombre": "Ligur",
+          "familia": "ligur",
+          "peso": "minoritaria",
+          "nota": "Lengua mal conocida, por nombres de lugares y personas; si era indoeuropea se discute."
+        },
+        {
+          "desde": -500,
+          "hasta": -100,
+          "nombre": "Ibérico",
+          "familia": "iberico",
+          "peso": "minoritaria",
+          "nota": "En el Rosellón y el bajo Languedoc."
+        },
+        {
+          "desde": -500,
+          "hasta": -50,
+          "nombre": "Galo",
+          "familia": "galo",
+          "peso": "mayoritaria",
+          "nota": "Antes de las primeras inscripciones galogriegas (siglo III a. C.) lo muestran los nombres de personas, pueblos y lugares que transmiten griegos y romanos; el lepóntico, muy cercano, ya se escribía en el siglo VI a. C."
+        },
+        {
+          "desde": -121,
+          "hasta": -50,
+          "nombre": "Latín (Narbonense)",
+          "familia": "latin",
           "peso": "minoritaria"
         },
         {
           "desde": -56,
-          "hasta": null,
-          "nombre": "Vasca",
-          "familia": "vasca",
+          "hasta": 600,
+          "nombre": "Aquitano",
+          "familia": "aquitano",
           "peso": "minoritaria",
-          "nota": "Los aquitanos, de lengua emparentada con el euskera, aparecen en César (56 a. C.); son anteriores a los galos."
+          "nota": "Los aquitanos aparecen en César (56 a. C.); sus nombres de personas y dioses en inscripciones latinas muestran una lengua emparentada con el antecesor del euskera (Mitxelena, Gorrochategui)."
         },
-        {
-          "desde": 300,
-          "hasta": 1394,
-          "nombre": "Judía",
-          "familia": "judia",
-          "peso": "minoritaria"
-        }
-      ],
-      "idiomas": [
         {
           "desde": -50,
           "hasta": 800,
@@ -1132,11 +1578,42 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": -50,
+          "hasta": 300,
+          "nombre": "Galo",
+          "familia": "galo",
+          "peso": "importante",
+          "nota": "Siguió hablándose durante el Imperio: lo muestran las cuentas de los alfareros de La Graufesenque (siglo I), la tablilla de Larzac y el plomo de Chamalières."
+        },
+        {
+          "desde": 300,
+          "hasta": 600,
+          "nombre": "Galo",
+          "familia": "galo",
+          "peso": "minoritaria",
+          "nota": "Los últimos testimonios se discuten: Jerónimo compara la lengua de los tréveros con la de los gálatas (hacia 387), Sulpicio Severo hace hablar a un personaje «en céltico o, si preferís, en galo» (hacia 400) y Gregorio de Tours nombra un templo llamado Vasso Galatae «en lengua gala» (siglo VI)."
+        },
+        {
           "desde": 481,
           "hasta": 900,
           "nombre": "Fráncico",
           "familia": "franconio",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": null,
+          "nombre": "Bretón",
+          "familia": "breton",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 600,
+          "hasta": null,
+          "nombre": "Euskera",
+          "familia": "vasco",
+          "peso": "minoritaria",
+          "nota": "En el País Vasco francés; continúa la lengua de los aquitanos."
         },
         {
           "desde": 800,
@@ -1158,21 +1635,6 @@
           "nombre": "Latín (Iglesia, escuelas y universidad)",
           "familia": "latin",
           "peso": "minoritaria"
-        },
-        {
-          "desde": 500,
-          "hasta": null,
-          "nombre": "Bretón",
-          "familia": "breton",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": -56,
-          "hasta": null,
-          "nombre": "Euskera",
-          "familia": "vasco",
-          "peso": "minoritaria",
-          "nota": "Los aquitanos, de lengua emparentada con el euskera, aparecen en César (56 a. C.); son anteriores a los galos."
         }
       ]
     },
@@ -1305,16 +1767,34 @@
       "resumen": "Inglaterra, Gales y Escocia. Tras el fin del dominio romano llegaron los anglosajones, luego los vikingos y en 1066 los normandos; de los monasterios de Northumbria salieron Beda y Alcuino y de Oxford, la lógica y la filosofía natural de Grosseteste, Bacon, Escoto y Ockham.",
       "eras": [
         {
+          "desde": -4000,
+          "hasta": -2450,
+          "nombre": "Neolítico",
+          "resumen": "Los primeros agricultores llegan desde el continente hacia 4000 a. C. y reemplazan casi por completo a los cazadores (Brace et al. 2019); levantan túmulos alargados y, desde hacia 3000 a. C., Stonehenge."
+        },
+        {
+          "desde": -2450,
+          "hasta": -800,
+          "nombre": "Campaniforme y Edad del Bronce",
+          "resumen": "Con el campaniforme llega gente de ascendencia esteparia que en pocos siglos reemplaza alrededor del 90 % del acervo genético de la isla (Olalde et al. 2018). Hacia 1000-875 a. C. llega otra corriente desde Francia, que Patterson et al. (2022) proponen como vía de entrada de las lenguas celtas."
+        },
+        {
+          "desde": -800,
+          "hasta": -43,
+          "nombre": "Edad del Hierro",
+          "resumen": "Castros de colina como Maiden Castle y Danebury, brochs en el norte y la cultura de Arras en Yorkshire; Piteas recorre la isla hacia 325 a. C. y César la invade en 55 y 54 a. C."
+        },
+        {
           "desde": -43,
           "hasta": 410,
           "nombre": "Britania romana",
-          "resumen": "La isla fue provincia romana hasta el norte del muro de Adriano; Roma la abandonó hacia 410."
+          "resumen": "La isla fue provincia romana hasta el muro de Adriano, y por momentos hasta el de Antonino; Roma la abandonó hacia 410."
         },
         {
           "desde": 410,
           "hasta": 600,
           "nombre": "Llegada de los anglosajones",
-          "resumen": "Anglos, sajones y jutos se asentaron en el este y empujaron a los britanos hacia el oeste."
+          "resumen": "Anglos, sajones y jutos se asentaron en el este. Gildas y Beda lo cuentan como una conquista que expulsó a los britanos; la genética muestra una migración numerosa desde el norte de Alemania, los Países Bajos y Dinamarca que se mezcló con la población local (Gretzinger et al., 2022)."
         },
         {
           "desde": 600,
@@ -1405,49 +1885,24 @@
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
         },
         {
-          "anio": 100,
-          "poblacion": 846786,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 150,
+          "poblacion": 2000000,
+          "fuente": "Harper (2017), The Fate of Rome, pp. 30-31, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Britania romana (unos 160.000 km²), sin el norte de Escocia; mediados del siglo II."
         },
         {
           "anio": 200,
-          "poblacion": 895452,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 300,
-          "poblacion": 946915,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "poblacion": 2900000,
+          "min": 2800000,
+          "max": 3000000,
+          "fuente": "Alcock (2011), A Brief History of Roman Britain, p. 260, según Wikipedia (en), «Roman Britain»",
+          "nota": "Fines del siglo II."
         },
         {
           "anio": 400,
-          "poblacion": 1001335,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 500,
-          "poblacion": 751001,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 600,
-          "poblacion": 500667,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 700,
-          "poblacion": 500667,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 800,
-          "poblacion": 730974,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
-        },
-        {
-          "anio": 900,
-          "poblacion": 1216622,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "poblacion": 3600000,
+          "fuente": "Alcock (2011), A Brief History of Roman Britain, p. 260, según Wikipedia (en), «Roman Britain»",
+          "nota": "Fines del siglo IV: unos 125.000 eran soldados con sus familias y unos 240.000 vivían en ciudades. Es bastante más que lo que propone Harper (2017) para el siglo II."
         },
         {
           "anio": 1000,
@@ -1611,6 +2066,14 @@
       ],
       "religiones": [
         {
+          "desde": -800,
+          "hasta": -43,
+          "nombre": "Religión de los britanos",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Sin textos propios: depósitos en ríos y lagos (el escudo de Battersea, Llyn Cerrig Bach) y lo que dicen César (Guerra de las Galias VI.13: el druidismo «nació en Britania») y Tácito (Anales XIV.30, la isla de Mona). Llamarla celta desde 800 a. C. es una inferencia."
+        },
+        {
           "desde": -43,
           "hasta": 400,
           "nombre": "Religión romana y britana",
@@ -1663,6 +2126,44 @@
       ],
       "culturas": [
         {
+          "desde": -4000,
+          "hasta": -2450,
+          "nombre": "Neolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2450,
+          "hasta": -2000,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "mayoritaria",
+          "nota": "En Britania el campaniforme coincide con un gran reemplazo de población (Olalde et al. 2018)."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce (Wessex y otras)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Bronce Atlántico",
+          "familia": "bronce-atlantico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -43,
+          "nombre": "Britona de la Edad del Hierro",
+          "familia": "britona",
+          "peso": "mayoritaria",
+          "nota": "Que hablaban lenguas celtas lo muestran los nombres que transmiten César, Tácito y Ptolomeo; pero ningún autor antiguo llamó «celtas» a los britanos, y James (The Atlantic Celts, 1999) y Collis cuestionan usar esa palabra para ellos."
+        },
+        {
           "desde": -43,
           "hasta": 410,
           "nombre": "Romanobritana",
@@ -1677,10 +2178,24 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": 80,
+          "hasta": 900,
+          "nombre": "Caledonios y pictos (norte de Escocia)",
+          "familia": "picta",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 450,
           "hasta": 600,
           "nombre": "Anglosajona",
           "familia": "anglosajona",
+          "peso": "importante"
+        },
+        {
+          "desde": 500,
+          "hasta": null,
+          "nombre": "Gaélica (Escocia)",
+          "familia": "gaelica",
           "peso": "importante"
         },
         {
@@ -1689,6 +2204,20 @@
           "nombre": "Anglosajona",
           "familia": "anglosajona",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 600,
+          "hasta": null,
+          "nombre": "Galesa y córnica",
+          "familia": "britona",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 865,
+          "hasta": 1100,
+          "nombre": "Nórdica (Danelaw e islas del norte)",
+          "familia": "nordica",
+          "peso": "importante"
         },
         {
           "desde": 1066,
@@ -1703,30 +2232,33 @@
           "nombre": "Anglonormanda (nobleza)",
           "familia": "francesa",
           "peso": "importante"
-        },
-        {
-          "desde": 600,
-          "hasta": null,
-          "nombre": "Galesa y córnica",
-          "familia": "britona",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 500,
-          "hasta": null,
-          "nombre": "Gaélica (Escocia)",
-          "familia": "gaelica",
-          "peso": "importante"
-        },
-        {
-          "desde": 865,
-          "hasta": 1100,
-          "nombre": "Nórdica (Danelaw e islas del norte)",
-          "familia": "nordica",
-          "peso": "importante"
         }
       ],
       "idiomas": [
+        {
+          "desde": -4000,
+          "hasta": -2450,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2450,
+          "hasta": -325,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa). Patterson et al. (2022) asocian la llegada del celta a Britania con la migración desde Francia de hacia 1000-875 a. C."
+        },
+        {
+          "desde": -325,
+          "hasta": -43,
+          "nombre": "Britónico",
+          "familia": "britonico",
+          "peso": "mayoritaria",
+          "nota": "Las primeras pruebas son nombres: las islas «pretánicas» de Piteas (hacia 325 a. C.), las leyendas de las monedas (desde el siglo I a. C.) y los nombres que dan César, Tácito y Ptolomeo."
+        },
         {
           "desde": -43,
           "hasta": 450,
@@ -1738,14 +2270,29 @@
           "desde": -43,
           "hasta": 600,
           "nombre": "Britónico (antecesor del galés)",
-          "familia": "gales",
+          "familia": "britonico",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 80,
+          "hasta": 900,
+          "nombre": "Picto (norte de Escocia)",
+          "familia": "picto",
+          "peso": "minoritaria",
+          "nota": "Hoy la mayoría lo considera una lengua britónica (Forsyth, Language in Pictland, 1997)."
         },
         {
           "desde": 450,
           "hasta": 600,
           "nombre": "Inglés antiguo",
           "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 500,
+          "hasta": null,
+          "nombre": "Gaélico (Escocia)",
+          "familia": "irlandes",
           "peso": "importante"
         },
         {
@@ -1763,11 +2310,11 @@
           "peso": "minoritaria"
         },
         {
-          "desde": 500,
-          "hasta": null,
-          "nombre": "Gaélico (Escocia)",
-          "familia": "irlandes",
-          "peso": "importante"
+          "desde": 600,
+          "hasta": 1500,
+          "nombre": "Latín (Iglesia y escuelas)",
+          "familia": "latin",
+          "peso": "minoritaria"
         },
         {
           "desde": 865,
@@ -1782,13 +2329,6 @@
           "nombre": "Francés de Inglaterra (anglonormando)",
           "familia": "frances",
           "peso": "importante"
-        },
-        {
-          "desde": 600,
-          "hasta": 1500,
-          "nombre": "Latín (Iglesia y escuelas)",
-          "familia": "latin",
-          "peso": "minoritaria"
         }
       ]
     },
@@ -1853,7 +2393,19 @@
       "resumen": "La isla que nunca fue romana. Cristianizada en el siglo V, sus monasterios conservaron el latín y el griego, copiaron libros como el de Kells y enviaron misioneros y maestros al continente, como Columbano y Juan Escoto Eriúgena.",
       "eras": [
         {
-          "desde": null,
+          "desde": -3750,
+          "hasta": -2450,
+          "nombre": "Neolítico",
+          "resumen": "Los primeros agricultores llegan hacia 3750 a. C. (Cassidy et al. 2016); campos cercados de Céide y tumbas de corredor como Newgrange (hacia 3200 a. C.)."
+        },
+        {
+          "desde": -2450,
+          "hasta": -500,
+          "nombre": "Edad del Bronce",
+          "resumen": "Campaniforme y minas de cobre de Ross Island; con ellos llega la ascendencia esteparia (Cassidy et al. 2016). En el Bronce final, mucha orfebrería de oro."
+        },
+        {
+          "desde": -500,
           "hasta": 432,
           "nombre": "Irlanda precristiana",
           "resumen": "Reinos gaélicos sin ciudades ni escritura, salvo las inscripciones ogámicas."
@@ -2027,6 +2579,35 @@
       ],
       "culturas": [
         {
+          "desde": -3750,
+          "hasta": -2450,
+          "nombre": "Neolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2450,
+          "hasta": -2000,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": -1200,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1200,
+          "hasta": -500,
+          "nombre": "Bronce Atlántico",
+          "familia": "bronce-atlantico",
+          "peso": "mayoritaria"
+        },
+        {
           "desde": -500,
           "hasta": null,
           "nombre": "Gaélica",
@@ -2051,33 +2632,28 @@
       ],
       "idiomas": [
         {
+          "desde": -3750,
+          "hasta": -2450,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2450,
+          "hasta": -500,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa). Para Irlanda, Mallory (The Origins of the Irish, 2013) repasa las hipótesis sobre la llegada del goidélico."
+        },
+        {
           "desde": -500,
           "hasta": 1850,
           "nombre": "Irlandés",
           "familia": "irlandes",
           "peso": "mayoritaria",
           "nota": "Desde la Edad del Hierro celta (hacia 500 a. C.); se escribe desde el siglo IV, en ogam."
-        },
-        {
-          "desde": 1169,
-          "hasta": 1850,
-          "nombre": "Inglés",
-          "familia": "ingles",
-          "peso": "importante"
-        },
-        {
-          "desde": 1850,
-          "hasta": null,
-          "nombre": "Inglés",
-          "familia": "ingles",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1850,
-          "hasta": null,
-          "nombre": "Irlandés",
-          "familia": "irlandes",
-          "peso": "minoritaria"
         },
         {
           "desde": 432,
@@ -2095,9 +2671,30 @@
         },
         {
           "desde": 1169,
+          "hasta": 1850,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1169,
           "hasta": 1400,
           "nombre": "Francés anglonormando",
           "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Irlandés",
+          "familia": "irlandes",
           "peso": "minoritaria"
         }
       ]
@@ -2291,7 +2888,31 @@
       "resumen": "Las tierras de lengua alemana y neerlandesa: la Alemania actual, los Países Bajos, Bélgica, Luxemburgo, Suiza y Austria, núcleo del Sacro Imperio. Fue tierra de misión carolingia, de los monasterios de Fulda y Reichenau, de las ciudades de la Hansa, de la mística renana y de la imprenta.",
       "eras": [
         {
-          "desde": null,
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "La cultura de la cerámica de bandas lleva la agricultura de Hungría al Rin hacia 5500-5000 a. C.; desde hacia 2900 a. C., la cerámica cordada trae gente de ascendencia esteparia (Haak et al. 2015)."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "Únětice, túmulos y campos de urnas en el centro y el sur; Bronce nórdico en el norte. El disco celeste de Nebra se enterró hacia 1600 a. C."
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Primera Edad del Hierro",
+          "resumen": "Residencias principescas en el sudoeste (Heuneburg, Hochdorf, Glauberg) y la mina de sal de Hallstatt, que da nombre a la época; en el norte, la cultura de Jastorf desde el siglo VI a. C."
+        },
+        {
+          "desde": -450,
+          "hasta": -15,
+          "nombre": "La Tène",
+          "resumen": "En el sur y el centro, celtas con oppida como Manching y el arte de La Tène, cuyo sitio epónimo está en el lago de Neuchâtel; en el norte, pueblos germánicos. César llega al Rin (58-51 a. C.) y Augusto conquista los Alpes y el Danubio (15 a. C.)."
+        },
+        {
+          "desde": -15,
           "hasta": 476,
           "nombre": "Germania y las provincias romanas",
           "resumen": "Roma dominó el Rin y el Danubio; al este vivían pueblos germánicos que la presionaron hasta cruzar la frontera en el siglo V."
@@ -2384,6 +3005,13 @@
           "anio": -1000,
           "poblacion": 1026636,
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+        },
+        {
+          "anio": -58,
+          "poblacion": 368000,
+          "fuente": "Julio César, Guerra de las Galias I.29",
+          "tipo": "testimonio-antiguo",
+          "nota": "Según unas tablillas en letras griegas halladas en el campamento helvecio: 263.000 helvecios, 36.000 tulingos, 14.000 latobrigos, 23.000 ráuracos y 32.000 boyos, de los que 92.000 podían llevar armas; después de la derrota volvieron 110.000. Es un solo grupo migrante, no la población de la región. Que las listas estuvieran en letras griegas es verosímil: los galos escribían su lengua con ese alfabeto (lo dice el propio César en VI.14 y lo muestran las inscripciones galogriegas). Las cifras, en cambio, las da César, que tenía interés en agrandar su victoria, y no se pueden comprobar: Henige (1998) las considera inverosímiles (le llama la atención que los armados sean justo la cuarta parte) y muchos historiadores las reducen mucho; que la migración fue grande no lo discute nadie."
         },
         {
           "anio": 1,
@@ -2598,6 +3226,21 @@
       "religiones": [
         {
           "desde": -500,
+          "hasta": -50,
+          "nombre": "Religión germánica (norte)",
+          "familia": "paganismo-germanico",
+          "peso": "importante"
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "Religión celta",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Sin textos de la época: santuarios y depósitos de ofrendas, y lo que cuentan después los autores romanos."
+        },
+        {
+          "desde": -50,
           "hasta": 800,
           "nombre": "Religión germánica",
           "familia": "paganismo-germanico",
@@ -2610,6 +3253,14 @@
           "nombre": "Religión romana (provincias del Rin y el Danubio)",
           "familia": "politeismo-romano",
           "peso": "minoritaria"
+        },
+        {
+          "desde": -15,
+          "hasta": 400,
+          "nombre": "Cultos celtas en época romana (matronas, Sirona, Apolo Grannus)",
+          "familia": "paganismo-celta",
+          "peso": "minoritaria",
+          "nota": "Cientos de altares a las matronas en la Renania, de culto celta y germánico, y dedicatorias a dioses celtas asimilados a los romanos, como Apolo Grannus."
         },
         {
           "desde": 500,
@@ -2626,29 +3277,104 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Judaísmo asquenazí",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1517,
           "hasta": null,
           "nombre": "Protestantismo (luteranos y reformados)",
           "familia": "protestantismo",
           "peso": "importante",
           "nota": "Desde el siglo XVI, el norte de Alemania y los Países Bajos fueron mayormente protestantes, y el sur, Austria y Bélgica, católicos."
-        },
-        {
-          "desde": 900,
-          "hasta": null,
-          "nombre": "Judaísmo asquenazí",
-          "familia": "judaismo",
-          "peso": "minoritaria"
         }
       ],
       "culturas": [
         {
+          "desde": -5500,
+          "hasta": -2900,
+          "nombre": "Neolítica (cerámica de bandas y sucesoras)",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2900,
+          "hasta": -2200,
+          "nombre": "Cerámica cordada",
+          "familia": "cordada",
+          "peso": "mayoritaria",
+          "nota": "Con ella llega gente de ascendencia esteparia (Haak et al. 2015); muchos la asocian con la difusión de las lenguas indoeuropeas."
+        },
+        {
+          "desde": -2500,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "importante"
+        },
+        {
+          "desde": -2200,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce (Únětice y túmulos)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1700,
+          "hasta": -500,
+          "nombre": "Bronce nórdico (norte)",
+          "familia": "bronce-europeo",
+          "peso": "importante"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Campos de urnas",
+          "familia": "campos-de-urnas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt (sur)",
+          "familia": "hallstatt",
+          "peso": "mayoritaria"
+        },
+        {
           "desde": -500,
+          "hasta": -50,
+          "nombre": "Germánica (Jastorf, en el norte)",
+          "familia": "germanica",
+          "peso": "importante",
+          "nota": "Desde la cultura de Jastorf, la primera que se asocia con los pueblos germánicos."
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "Celta de La Tène (helvecios, vindélicos, tréveros, belgas y otros)",
+          "familia": "celta",
+          "peso": "mayoritaria",
+          "nota": "En el sur y el centro, hasta las montañas medias de Alemania; en el norte vivían pueblos germánicos. Cuánto se mezclaban en la franja entre ambos se discute: César (II.4) dice que la mayoría de los belgas venían de los germanos, pero los jefes de los «germanos» del norte de la Galia, como Ambiórix, llevan nombres celtas."
+        },
+        {
+          "desde": -50,
           "hasta": 750,
           "nombre": "Germánica (sajones, alamanes, bávaros y turingios)",
           "familia": "germanica",
           "peso": "mayoritaria",
           "nota": "Desde la cultura de Jastorf (hacia 500 a. C.), la primera que se asocia con los pueblos germánicos."
+        },
+        {
+          "desde": -50,
+          "hasta": 300,
+          "nombre": "Celtas bajo Roma (helvecios, tréveros, vindélicos)",
+          "familia": "celta",
+          "peso": "importante",
+          "nota": "Buena parte de la población de las provincias del Rin y el Danubio era celta."
         },
         {
           "desde": -15,
@@ -2681,7 +3407,47 @@
       ],
       "idiomas": [
         {
+          "desde": -5500,
+          "hasta": -2900,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2900,
+          "hasta": -450,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
           "desde": -500,
+          "hasta": -50,
+          "nombre": "Lenguas germánicas (norte)",
+          "familia": "germanicas",
+          "peso": "importante",
+          "nota": "Desde la cultura de Jastorf; hasta los primeros siglos d. C. es germánico común."
+        },
+        {
+          "desde": -500,
+          "hasta": -15,
+          "nombre": "Rético (Tirol)",
+          "familia": "retico",
+          "peso": "minoritaria",
+          "nota": "Lengua no indoeuropea emparentada con el etrusco, escrita en alfabetos del norte de Italia entre los siglos V y I a. C."
+        },
+        {
+          "desde": -450,
+          "hasta": -50,
+          "nombre": "Lenguas celtas continentales",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Las conocemos por nombres de personas, pueblos y lugares, por leyendas de monedas y, ya en época romana, por inscripciones: el galo de los helvecios y los tréveros y el nórico del este."
+        },
+        {
+          "desde": -50,
           "hasta": 750,
           "nombre": "Lenguas germánicas occidentales",
           "familia": "germanicas",
@@ -2689,25 +3455,12 @@
           "nota": "Desde la cultura de Jastorf (hacia 500 a. C.); hasta los primeros siglos d. C. es germánico común, todavía sin dividir."
         },
         {
-          "desde": 750,
-          "hasta": null,
-          "nombre": "Alemán (alto y bajo)",
-          "familia": "aleman",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1150,
-          "hasta": null,
-          "nombre": "Neerlandés (Flandes, Brabante y Holanda)",
-          "familia": "neerlandes",
-          "peso": "importante"
-        },
-        {
-          "desde": 800,
-          "hasta": null,
-          "nombre": "Francés (Valonia y Suiza occidental)",
-          "familia": "frances",
-          "peso": "minoritaria"
+          "desde": -50,
+          "hasta": 400,
+          "nombre": "Lenguas celtas continentales",
+          "familia": "celtas",
+          "peso": "importante",
+          "nota": "Jerónimo (hacia 387) dice que los tréveros hablaban casi la misma lengua que los gálatas de Asia."
         },
         {
           "desde": 600,
@@ -2718,10 +3471,31 @@
         },
         {
           "desde": 750,
+          "hasta": null,
+          "nombre": "Alemán (alto y bajo)",
+          "familia": "aleman",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 750,
           "hasta": 1500,
           "nombre": "Latín (Iglesia, escuelas y cancillerías)",
           "familia": "latin",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": null,
+          "nombre": "Francés (Valonia y Suiza occidental)",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1150,
+          "hasta": null,
+          "nombre": "Neerlandés (Flandes, Brabante y Holanda)",
+          "familia": "neerlandes",
+          "peso": "importante"
         }
       ]
     },
@@ -3661,7 +4435,25 @@
       "resumen": "Las tierras de los Piastas entre el Óder y el Bug. Cristianizada en el rito latino en 966, Polonia resistió a los mongoles y a la Orden Teutónica y, unida a Lituania desde 1386, fue una de las mayores potencias de Europa oriental.",
       "eras": [
         {
-          "desde": null,
+          "desde": -5500,
+          "hasta": -2300,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Cerámica de bandas en Silesia y Cuyavia desde hacia 5400 a. C.; luego vasos de embudo, ánforas globulares y, desde hacia 2800 a. C., cerámica cordada."
+        },
+        {
+          "desde": -2300,
+          "hasta": -500,
+          "nombre": "Edad del Bronce y cultura lusaciana",
+          "resumen": "Únětice y túmulos; desde hacia 1300 a. C., la cultura lusaciana, de campos de urnas, con poblados fortificados como Biskupin (siglo VIII a. C.)."
+        },
+        {
+          "desde": -500,
+          "hasta": 500,
+          "nombre": "Edad del Hierro: celtas, Przeworsk y Wielbark",
+          "resumen": "Celtas en Silesia y en la Pequeña Polonia (siglos IV a I a. C.); después las culturas de Przeworsk y de Wielbark, que suelen identificarse con vándalos y godos."
+        },
+        {
+          "desde": 500,
           "hasta": 960,
           "nombre": "Tribus eslavas occidentales",
           "resumen": "Polanos, vislanos, mazovios y otros pueblos eslavos con centros fortificados."
@@ -3962,6 +4754,52 @@
       ],
       "culturas": [
         {
+          "desde": -5500,
+          "hasta": -2800,
+          "nombre": "Neolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2800,
+          "hasta": -2300,
+          "nombre": "Cerámica cordada",
+          "familia": "cordada",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2300,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce (Únětice y túmulos)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -300,
+          "nombre": "Lusaciana (y pomerana en el norte)",
+          "familia": "campos-de-urnas",
+          "peso": "mayoritaria",
+          "nota": "La cultura pomerana, con sus urnas con rostro, ocupa el norte desde el siglo VII a. C."
+        },
+        {
+          "desde": -400,
+          "hasta": -50,
+          "nombre": "Celta (Silesia y Pequeña Polonia)",
+          "familia": "celta",
+          "peso": "minoritaria",
+          "nota": "Solo por la arqueología: no hay inscripciones ni autores antiguos que los nombren aquí."
+        },
+        {
+          "desde": -300,
+          "hasta": 500,
+          "nombre": "Przeworsk y Wielbark",
+          "familia": "germanica",
+          "peso": "mayoritaria",
+          "nota": "Przeworsk suele identificarse con los vándalos o lugios de las fuentes romanas, y Wielbark con los godos que Jordanes (Getica) hace salir de Escandinavia; la identificación étnica de culturas arqueológicas se discute."
+        },
+        {
           "desde": 500,
           "hasta": null,
           "nombre": "Polaca",
@@ -3970,21 +4808,45 @@
           "nota": "Los eslavos llegan a la región en los siglos V y VI; el nombre de los polanos aparece en el siglo X."
         },
         {
-          "desde": 1200,
-          "hasta": 1945,
-          "nombre": "Colonos alemanes",
-          "familia": "alemana",
-          "peso": "minoritaria"
-        },
-        {
           "desde": 1100,
           "hasta": 1945,
           "nombre": "Judía asquenazí",
           "familia": "askenazi",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1200,
+          "hasta": 1945,
+          "nombre": "Colonos alemanes",
+          "familia": "alemana",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -2800,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2800,
+          "hasta": 500,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -100,
+          "hasta": 500,
+          "nombre": "Lenguas germánicas orientales (vándalos y godos)",
+          "familia": "germanicas",
+          "peso": "importante",
+          "nota": "Se deduce de las fuentes romanas y de Jordanes; no hay textos de la región."
+        },
         {
           "desde": 500,
           "hasta": null,
@@ -4098,7 +4960,37 @@
       "resumen": "Las tierras checas, rodeadas de montañas en el corazón de Europa. Gran Moravia recibió a Cirilo y Metodio, Praga fue con Carlos IV capital del Imperio y sede de la primera universidad de Europa central, y en el siglo XV Bohemia fue el primer país que rompió con Roma, con los husitas.",
       "eras": [
         {
-          "desde": null,
+          "desde": -5500,
+          "hasta": -2200,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Cerámica de bandas desde hacia 5500 a. C.; en el Calcolítico, cerámica cordada y campaniforme."
+        },
+        {
+          "desde": -2200,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "La cultura de Únětice, que toma su nombre de un sitio cercano a Praga; después, túmulos y campos de urnas."
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt",
+          "resumen": "La cultura de Bylany, con tumbas de carro."
+        },
+        {
+          "desde": -450,
+          "hasta": -9,
+          "nombre": "Los boyos",
+          "resumen": "Celtas de La Tène con oppida como Závist y Stradonice; de los boyos viene el nombre de Bohemia (Boiohaemum, Tácito, Germania 28). En el siglo I a. C. dejan la región o se mezclan con los germanos."
+        },
+        {
+          "desde": -9,
+          "hasta": 550,
+          "nombre": "Marcomanos y otros germanos",
+          "resumen": "Marbod lleva a los marcomanos a Bohemia hacia 9-6 a. C. y forma un reino poderoso; luego vienen las guerras marcomanas contra Roma (166-180) y la gran migración."
+        },
+        {
+          "desde": 550,
           "hasta": 833,
           "nombre": "Pueblos eslavos",
           "resumen": "Eslavos asentados desde el siglo VI, bajo la presión de los ávaros y de los francos."
@@ -4142,6 +5034,21 @@
       ],
       "religiones": [
         {
+          "desde": -450,
+          "hasta": -9,
+          "nombre": "Religión celta",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Recintos como el de Libenice (siglos IV-III a. C.), cuya interpretación como santuario se discute."
+        },
+        {
+          "desde": -9,
+          "hasta": 550,
+          "nombre": "Religión germánica",
+          "familia": "paganismo-germanico",
+          "peso": "mayoritaria"
+        },
+        {
           "desde": 550,
           "hasta": 900,
           "nombre": "Religión eslava",
@@ -4155,6 +5062,13 @@
           "nombre": "Catolicismo",
           "familia": "catolicismo",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria"
         },
         {
           "desde": 1419,
@@ -4176,16 +5090,75 @@
           "nombre": "Catolicismo",
           "familia": "catolicismo",
           "peso": "mayoritaria"
-        },
-        {
-          "desde": 1000,
-          "hasta": null,
-          "nombre": "Judaísmo",
-          "familia": "judaismo",
-          "peso": "minoritaria"
         }
       ],
       "culturas": [
+        {
+          "desde": -5500,
+          "hasta": -2900,
+          "nombre": "Neolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2900,
+          "hasta": -2200,
+          "nombre": "Cerámica cordada",
+          "familia": "cordada",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2500,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "importante"
+        },
+        {
+          "desde": -2200,
+          "hasta": -1600,
+          "nombre": "Cultura de Únětice",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1600,
+          "hasta": -1300,
+          "nombre": "Túmulos",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Campos de urnas (Knovíz, Milavče, Lusacia)",
+          "familia": "campos-de-urnas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -450,
+          "nombre": "Hallstatt (Bylany)",
+          "familia": "hallstatt",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -450,
+          "hasta": -9,
+          "nombre": "Celta (boyos)",
+          "familia": "celta",
+          "peso": "mayoritaria",
+          "nota": "Tácito (Germania 28) dice que el nombre de Boiohaemum seguía recordando a los boyos aunque la tierra había cambiado de habitantes."
+        },
+        {
+          "desde": -9,
+          "hasta": 550,
+          "nombre": "Germánica (marcomanos)",
+          "familia": "germanica",
+          "peso": "mayoritaria",
+          "nota": "Veleyo Patérculo (II.108-109) y Estrabón (VII.1.3) cuentan el traslado de Marbod."
+        },
         {
           "desde": 550,
           "hasta": null,
@@ -4195,21 +5168,52 @@
           "nota": "Los eslavos se asientan en Bohemia hacia 550; antes vivían ahí boyos (celtas) y marcomanos (germanos)."
         },
         {
-          "desde": 1200,
-          "hasta": 1945,
-          "nombre": "Alemana (ciudades y montañas de frontera)",
-          "familia": "alemana",
-          "peso": "importante"
-        },
-        {
           "desde": 1000,
           "hasta": 1945,
           "nombre": "Judía asquenazí",
           "familia": "askenazi",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1200,
+          "hasta": 1945,
+          "nombre": "Alemana (ciudades y montañas de frontera)",
+          "familia": "alemana",
+          "peso": "importante"
         }
       ],
       "idiomas": [
+        {
+          "desde": -5500,
+          "hasta": -2900,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2900,
+          "hasta": -450,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -450,
+          "hasta": -9,
+          "nombre": "Celta de los boyos",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Sin inscripciones locales: solo nombres de personas, pueblos y lugares que transmiten autores griegos y latinos (Boii, Boiohaemum). La primera mención de boyos en esta zona es de Posidonio (en Estrabón VII.2.2), que cuenta que rechazaron a los cimbrios hacia 120 a. C.; que hablaran celta antes se deduce de la arqueología de La Tène."
+        },
+        {
+          "desde": -9,
+          "hasta": 550,
+          "nombre": "Lenguas germánicas (marcomanos)",
+          "familia": "germanicas",
+          "peso": "mayoritaria"
+        },
         {
           "desde": 550,
           "hasta": null,
@@ -4604,6 +5608,30 @@
       "resumen": "El reino de la cuenca de los Cárpatos, con la Hungría actual, Eslovaquia y Transilvania. Los húngaros, un pueblo de la estepa de lengua urálica, llegaron en 895 y se volvieron un reino cristiano hacia el año 1000; fue frontera de la cristiandad latina frente a mongoles y otomanos.",
       "eras": [
         {
+          "desde": -6000,
+          "hasta": -2600,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "La agricultura llega con la cultura de Starčevo-Körös hacia 6000 a. C.; la cerámica de bandas nace en el oeste de Hungría hacia 5500 a. C.; después, Lengyel, Tisza y los primeros objetos de cobre."
+        },
+        {
+          "desde": -2600,
+          "hasta": -800,
+          "nombre": "Edad del Bronce",
+          "resumen": "En la llanura ya había kurganes de pastores de la estepa (Yamna) desde hacia 3000 a. C.; en el Bronce, poblados en tells y en colinas (Nagyrév, Vatya, Otomani-Füzesabony), túmulos y campos de urnas."
+        },
+        {
+          "desde": -800,
+          "hasta": -400,
+          "nombre": "Primera Edad del Hierro",
+          "resumen": "Hallstatt en el oeste; en la llanura, la cultura de Vekerzug, que suele ligarse con los escitas."
+        },
+        {
+          "desde": -400,
+          "hasta": -9,
+          "nombre": "Los celtas del Danubio",
+          "resumen": "Desde el siglo IV a. C. llegan celtas: boyos, eraviscos, tauriscos y cotinos, con oppida en Bratislava y en el monte Gellért de Budapest. A mediados del siglo I a. C. los dacios de Burebista vencen a boyos y tauriscos (Estrabón VII.3.11 y VII.5.2); Roma conquista Panonia entre 35 y 9 a. C."
+        },
+        {
           "desde": -9,
           "hasta": 433,
           "nombre": "Panonia romana",
@@ -4862,11 +5890,34 @@
       ],
       "religiones": [
         {
+          "desde": -400,
+          "hasta": -9,
+          "nombre": "Religión celta",
+          "familia": "paganismo-celta",
+          "peso": "mayoritaria",
+          "nota": "Sin textos de la época: se deduce de tumbas y depósitos; los nombres de dioses locales, como Teutanus, son de inscripciones de época romana."
+        },
+        {
+          "desde": -300,
+          "hasta": 106,
+          "nombre": "Religión dacia (Transilvania)",
+          "familia": "religion-tracia",
+          "peso": "importante"
+        },
+        {
           "desde": -9,
           "hasta": 400,
           "nombre": "Religión romana",
           "familia": "politeismo-romano",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -9,
+          "hasta": 300,
+          "nombre": "Cultos celtas en época romana",
+          "familia": "paganismo-celta",
+          "peso": "minoritaria",
+          "nota": "Como el de Teutanus, dios de los eraviscos, honrado en Aquincum como Júpiter Teutanus."
         },
         {
           "desde": 895,
@@ -4890,6 +5941,13 @@
           "peso": "minoritaria"
         },
         {
+          "desde": 1100,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1540,
           "hasta": null,
           "nombre": "Protestantismo (calvinistas y luteranos)",
@@ -4902,16 +5960,60 @@
           "nombre": "Islam sunita (dominio otomano)",
           "familia": "islam-sunni",
           "peso": "minoritaria"
-        },
-        {
-          "desde": 1100,
-          "hasta": null,
-          "nombre": "Judaísmo",
-          "familia": "judaismo",
-          "peso": "minoritaria"
         }
       ],
       "culturas": [
+        {
+          "desde": -6000,
+          "hasta": -2600,
+          "nombre": "Neolítica y calcolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2600,
+          "hasta": -1300,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1300,
+          "hasta": -800,
+          "nombre": "Campos de urnas",
+          "familia": "campos-de-urnas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -800,
+          "hasta": -400,
+          "nombre": "Hallstatt (oeste)",
+          "familia": "hallstatt",
+          "peso": "importante"
+        },
+        {
+          "desde": -550,
+          "hasta": -300,
+          "nombre": "Vekerzug (llanura)",
+          "familia": "escita",
+          "peso": "importante",
+          "nota": "Su atribución a los escitas o a los siginos que Heródoto (V.9) pone al norte del Danubio se discute."
+        },
+        {
+          "desde": -400,
+          "hasta": -9,
+          "nombre": "Celta (boyos, eraviscos, tauriscos, cotinos)",
+          "familia": "celta",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -300,
+          "hasta": 106,
+          "nombre": "Dacia (Transilvania)",
+          "familia": "tracia",
+          "peso": "importante"
+        },
         {
           "desde": -9,
           "hasta": 433,
@@ -4920,11 +6022,12 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": 895,
-          "hasta": null,
-          "nombre": "Húngara",
-          "familia": "magiar",
-          "peso": "mayoritaria"
+          "desde": -9,
+          "hasta": 200,
+          "nombre": "Celtas bajo Roma (eraviscos, boyos)",
+          "familia": "celta",
+          "peso": "importante",
+          "nota": "Las lápidas de Panonia de los siglos I y II muestran nombres y trajes celtas."
         },
         {
           "desde": 600,
@@ -4934,11 +6037,11 @@
           "peso": "importante"
         },
         {
-          "desde": 1200,
+          "desde": 895,
           "hasta": null,
-          "nombre": "Rumana (Transilvania)",
-          "familia": "rumana",
-          "peso": "importante"
+          "nombre": "Húngara",
+          "familia": "magiar",
+          "peso": "mayoritaria"
         },
         {
           "desde": 1150,
@@ -4946,9 +6049,47 @@
           "nombre": "Sajones de Transilvania y alemanes de las ciudades",
           "familia": "alemana",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1200,
+          "hasta": null,
+          "nombre": "Rumana (Transilvania)",
+          "familia": "rumana",
+          "peso": "importante"
         }
       ],
       "idiomas": [
+        {
+          "desde": -6000,
+          "hasta": -2600,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2600,
+          "hasta": -400,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -400,
+          "hasta": -9,
+          "nombre": "Lenguas celtas",
+          "familia": "celtas",
+          "peso": "mayoritaria",
+          "nota": "Nombres y leyendas de monedas, como las de BIATEC acuñadas en Bratislava en el siglo I a. C."
+        },
+        {
+          "desde": -300,
+          "hasta": 106,
+          "nombre": "Dacio (Transilvania)",
+          "familia": "tracio",
+          "peso": "importante"
+        },
         {
           "desde": -9,
           "hasta": 433,
@@ -4957,11 +6098,11 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": 895,
-          "hasta": null,
-          "nombre": "Húngaro",
-          "familia": "hungaro",
-          "peso": "mayoritaria"
+          "desde": -9,
+          "hasta": 300,
+          "nombre": "Celta de Panonia",
+          "familia": "celtas",
+          "peso": "importante"
         },
         {
           "desde": 600,
@@ -4971,11 +6112,19 @@
           "peso": "importante"
         },
         {
-          "desde": 1200,
+          "desde": 895,
           "hasta": null,
-          "nombre": "Rumano",
-          "familia": "rumano",
-          "peso": "importante"
+          "nombre": "Húngaro",
+          "familia": "hungaro",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1844,
+          "nombre": "Latín (lengua oficial del reino)",
+          "familia": "latin",
+          "peso": "importante",
+          "nota": "El latín fue la lengua oficial de la administración, la justicia y la dieta de Hungría hasta 1844."
         },
         {
           "desde": 1150,
@@ -4985,12 +6134,11 @@
           "peso": "minoritaria"
         },
         {
-          "desde": 1000,
-          "hasta": 1844,
-          "nombre": "Latín (lengua oficial del reino)",
-          "familia": "latin",
-          "peso": "importante",
-          "nota": "El latín fue la lengua oficial de la administración, la justicia y la dieta de Hungría hasta 1844."
+          "desde": 1200,
+          "hasta": null,
+          "nombre": "Rumano",
+          "familia": "rumano",
+          "peso": "importante"
         }
       ]
     },
@@ -5163,7 +6311,25 @@
       "resumen": "Las tierras entre el Adriático y el mar Negro al norte de Grecia: Eslovenia, Croacia, Bosnia, Serbia, Montenegro, Albania, Macedonia del Norte, Bulgaria y la Tracia europea. Asentados por eslavos desde el siglo VI, fueron el escenario de los imperios búlgaros, de Serbia y de la expansión otomana; Croacia y Eslovenia siguieron a Roma y el resto a Constantinopla.",
       "eras": [
         {
-          "desde": null,
+          "desde": -6500,
+          "hasta": -3300,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Los primeros agricultores de Europa fuera de Grecia (Starčevo, Karanovo), la cultura de Vinča y el oro de la necrópolis de Varna (hacia 4500 a. C.)."
+        },
+        {
+          "desde": -3300,
+          "hasta": -1100,
+          "nombre": "Edad del Bronce",
+          "resumen": "Kurganes de pastores de la estepa en el este, poblados fortificados y contacto con el mundo micénico en el sur."
+        },
+        {
+          "desde": -1100,
+          "hasta": -168,
+          "nombre": "Tracios, ilirios y celtas",
+          "resumen": "Tracios en el este, ilirios en el oeste y ciudades griegas en las costas; los odrisios forman un reino en el siglo V a. C. Tras la invasión de 279 a. C., los escordiscos se asientan junto al Danubio y los celtas de Tile dominan parte de Tracia."
+        },
+        {
+          "desde": -168,
           "hasta": 600,
           "nombre": "Provincias romanas y bizantinas",
           "resumen": "Ilírico, Mesia y Tracia, provincias del Imperio y luego de Bizancio."
@@ -5206,6 +6372,21 @@
         }
       ],
       "religiones": [
+        {
+          "desde": -700,
+          "hasta": -168,
+          "nombre": "Religión tracia",
+          "familia": "religion-tracia",
+          "peso": "importante",
+          "nota": "La conocemos por autores griegos (Heródoto V.7 nombra a sus dioses con nombres griegos: Ares, Dioniso, Ártemis y Hermes), por tumbas reales como las de Kazanlak y Sveshtari y por los relieves del «jinete tracio» de época romana."
+        },
+        {
+          "desde": -700,
+          "hasta": -168,
+          "nombre": "Religión griega (ciudades de la costa)",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria"
+        },
         {
           "desde": -168,
           "hasta": 380,
@@ -5260,12 +6441,34 @@
       ],
       "culturas": [
         {
-          "desde": -168,
-          "hasta": 600,
-          "nombre": "Romana (ilirios y tracios romanizados)",
-          "familia": "latina",
+          "desde": -6500,
+          "hasta": -3300,
+          "nombre": "Neolítica y calcolítica (Starčevo, Vinča, Karanovo)",
+          "familia": "neolitica-europea",
           "peso": "mayoritaria",
-          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -3300,
+          "hasta": -1100,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1100,
+          "hasta": -168,
+          "nombre": "Tracia (este)",
+          "familia": "tracia",
+          "peso": "importante",
+          "nota": "Heródoto (V.3) dice que los tracios eran, después de los indios, el pueblo más numeroso de la tierra."
+        },
+        {
+          "desde": -1100,
+          "hasta": -168,
+          "nombre": "Iliria (oeste)",
+          "familia": "iliria",
+          "peso": "importante"
         },
         {
           "desde": -700,
@@ -5274,6 +6477,22 @@
           "familia": "griega",
           "peso": "importante",
           "nota": "Desde las colonias griegas de la costa (siglo VII a. C.)."
+        },
+        {
+          "desde": -279,
+          "hasta": -15,
+          "nombre": "Celta (escordiscos y reino de Tile)",
+          "familia": "celta",
+          "peso": "minoritaria",
+          "nota": "Los escordiscos, con centro en Singidunum (Belgrado), saquean Macedonia y Grecia hasta que Roma los somete en tiempos de Augusto; los autores antiguos los llaman celtas, tracios o ilirios, y si eran un pueblo celta o un grupo mixto se discute. El reino de Tile, en Tracia, termina hacia 212 a. C. (Polibio IV.46)."
+        },
+        {
+          "desde": -168,
+          "hasta": 600,
+          "nombre": "Romana (ilirios y tracios romanizados)",
+          "familia": "latina",
+          "peso": "mayoritaria",
+          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
         },
         {
           "desde": 600,
@@ -5290,28 +6509,36 @@
           "peso": "minoritaria"
         },
         {
-          "desde": 1371,
-          "hasta": null,
-          "nombre": "Turca otomana",
-          "familia": "turca",
-          "peso": "minoritaria"
-        },
-        {
           "desde": 900,
           "hasta": null,
           "nombre": "Valaca (arrumanos)",
           "familia": "rumana",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1371,
+          "hasta": null,
+          "nombre": "Turca otomana",
+          "familia": "turca",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
         {
-          "desde": -168,
-          "hasta": 600,
-          "nombre": "Latín",
-          "familia": "latin",
+          "desde": -6500,
+          "hasta": -3300,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
           "peso": "mayoritaria",
-          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -3300,
+          "hasta": -700,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
         },
         {
           "desde": -700,
@@ -5320,6 +6547,37 @@
           "familia": "griego",
           "peso": "importante",
           "nota": "Desde las colonias griegas de la costa (siglo VII a. C.)."
+        },
+        {
+          "desde": -700,
+          "hasta": 600,
+          "nombre": "Tracio",
+          "familia": "tracio",
+          "peso": "importante",
+          "nota": "Muy pocas inscripciones, como el anillo de Ezerovo (siglo V a. C.), que nadie traduce con seguridad; se habló en el interior hasta fines de la Antigüedad."
+        },
+        {
+          "desde": -600,
+          "hasta": 400,
+          "nombre": "Ilirio",
+          "familia": "ilirio",
+          "peso": "importante",
+          "nota": "Sin textos, solo nombres. Si el albanés desciende de él se discute."
+        },
+        {
+          "desde": -279,
+          "hasta": -15,
+          "nombre": "Celta (escordiscos)",
+          "familia": "celtas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -168,
+          "hasta": 600,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "mayoritaria",
+          "nota": "Desde la conquista romana de Iliria (168 a. C.); la romanización avanzó con los siglos."
         },
         {
           "desde": 600,
@@ -5336,19 +6594,19 @@
           "peso": "importante"
         },
         {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Arrumano y valaco",
+          "familia": "rumano",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1043,
           "hasta": null,
           "nombre": "Albanés",
           "familia": "albanes",
           "peso": "minoritaria",
           "nota": "Las fuentes bizantinas nombran a los albaneses desde 1043 (Miguel Ataliates); la lengua es anterior y se escribe desde 1462."
-        },
-        {
-          "desde": 900,
-          "hasta": null,
-          "nombre": "Arrumano y valaco",
-          "familia": "rumano",
-          "peso": "minoritaria"
         },
         {
           "desde": 1371,
@@ -5565,6 +6823,24 @@
       "resumen": "Las tierras al norte del Danubio y al este de los Cárpatos, la antigua Dacia. Después de siglos de paso de pueblos de la estepa, en el siglo XIV nacieron los principados de Valaquia y Moldavia, ortodoxos y de lengua romance, que resistieron y luego aceptaron la soberanía otomana.",
       "eras": [
         {
+          "desde": -6000,
+          "hasta": -3500,
+          "nombre": "Neolítico y Calcolítico",
+          "resumen": "Starčevo-Criș y, en el Calcolítico, Cucuteni (Trypillia) y Gumelnița, con algunas de las aldeas más grandes de la Europa de su tiempo."
+        },
+        {
+          "desde": -3500,
+          "hasta": -1100,
+          "nombre": "Edad del Bronce",
+          "resumen": "Llegan pastores de la estepa que entierran en kurganes (Yamna); en el Bronce, culturas de Monteoru, Tei y Noua."
+        },
+        {
+          "desde": -1100,
+          "hasta": 106,
+          "nombre": "Getas y dacios",
+          "resumen": "Heródoto (IV.93) nombra a los getas al contar la campaña de Darío (hacia 514 a. C.); Burebista reúne un gran reino hacia 60-44 a. C. y Decébalo es vencido por Trajano en 106."
+        },
+        {
           "desde": 106,
           "hasta": 271,
           "nombre": "Dacia romana",
@@ -5597,6 +6873,14 @@
       ],
       "religiones": [
         {
+          "desde": -514,
+          "hasta": 106,
+          "nombre": "Religión de getas y dacios",
+          "familia": "religion-tracia",
+          "peso": "mayoritaria",
+          "nota": "Heródoto (IV.94-96) cuenta que los getas creían ir, al morir, junto a su dios Zalmoxis, y lo interpreta a la griega."
+        },
+        {
           "desde": 106,
           "hasta": 300,
           "nombre": "Religión romana",
@@ -5620,6 +6904,29 @@
       ],
       "culturas": [
         {
+          "desde": -6000,
+          "hasta": -3500,
+          "nombre": "Neolítica y calcolítica (Cucuteni, Gumelnița)",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -3500,
+          "hasta": -1100,
+          "nombre": "Edad del Bronce",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1100,
+          "hasta": 106,
+          "nombre": "Getas y dacios",
+          "familia": "tracia",
+          "peso": "mayoritaria",
+          "nota": "De antes de Heródoto solo hay arqueología; ligar las culturas del primer Hierro con los getas es una inferencia."
+        },
+        {
           "desde": 106,
           "hasta": 271,
           "nombre": "Dacorromana",
@@ -5627,11 +6934,12 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": 900,
-          "hasta": null,
-          "nombre": "Rumana",
-          "familia": "rumana",
-          "peso": "mayoritaria"
+          "desde": 106,
+          "hasta": 300,
+          "nombre": "Dacios libres (fuera de la provincia)",
+          "familia": "tracia",
+          "peso": "importante",
+          "nota": "Carpos y otros pueblos al este de los Cárpatos."
         },
         {
           "desde": 600,
@@ -5639,6 +6947,13 @@
           "nombre": "Eslava",
           "familia": "eslava-meridional",
           "peso": "importante"
+        },
+        {
+          "desde": 900,
+          "hasta": null,
+          "nombre": "Rumana",
+          "familia": "rumana",
+          "peso": "mayoritaria"
         },
         {
           "desde": 900,
@@ -5650,11 +6965,42 @@
       ],
       "idiomas": [
         {
+          "desde": -6000,
+          "hasta": -3500,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -3500,
+          "hasta": -514,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -514,
+          "hasta": 106,
+          "nombre": "Geto-dacio",
+          "familia": "tracio",
+          "peso": "mayoritaria",
+          "nota": "Casi sin textos: nombres de personas y lugares, y nombres de plantas medicinales que recoge Dioscórides. Si el dacio era la misma lengua que el tracio se discute."
+        },
+        {
           "desde": 106,
           "hasta": 600,
           "nombre": "Latín",
           "familia": "latin",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 106,
+          "hasta": 300,
+          "nombre": "Dacio",
+          "familia": "tracio",
+          "peso": "importante"
         },
         {
           "desde": 900,
@@ -8784,7 +10130,7 @@
       },
       "idioma_original": "Latín",
       "soporte": "Manuscritos en pergamino",
-      "resumen": "Enciclopedia en veinte libros que explica cada cosa a partir del origen de su nombre: gramática, retórica, matemática, medicina, derecho, cronología, teología, animales, el mundo, edificios, piedras, guerra, barcos y vestidos. Su discípulo Braulio la dividió en libros tras la muerte de Isidoro.",
+      "resumen": "Enciclopedia en veinte libros que explica cada cosa a partir del origen de su nombre: gramática, retórica, matemática, medicina, derecho, cronología, teología, animales, el mundo, edificios, piedras, guerra, barcos y vestidos. Su discípulo Braulio la dividió en libros tras la muerte de Isidoro. De los galos repite que su nombre viene de la blancura de su piel, del griego gala, «leche», y llama galos a los gálatas (IX.2; XIV.4).",
       "por_que_importa": "Fue el libro de consulta de toda la Edad Media, con más de mil manuscritos conservados, y transmitió buena parte del saber antiguo.",
       "leer": [],
       "wikipedia": {
@@ -8885,7 +10231,7 @@
       "idioma_original": "Latín",
       "soporte": "Manuscritos en pergamino",
       "resumen": "Historia de la cristianización de los anglosajones desde la llegada de Agustín de Canterbury en 597, con antecedentes desde la Britania romana. Cita documentos y testigos y fecha los hechos desde la encarnación de Cristo.",
-      "por_que_importa": "Es la fuente principal de la historia inglesa antes del siglo VIII y popularizó la era cristiana para datar.",
+      "por_que_importa": "Es la fuente principal de la historia inglesa antes del siglo VIII y popularizó la era cristiana para datar. Es también la fuente principal sobre pictos, britanos e irlandeses de su tiempo, contada desde el lado inglés: el origen escita de los pictos y su sucesión por línea femenina (I.1), la matanza de los monjes de Bangor en Chester (II.2) y la disputa de la Pascua (III.25), y reprocha a los britanos no haber predicado a los anglos (I.22).",
       "leer": [
         {
           "titulo": "Texto latino en Wikisource",
@@ -12236,7 +13582,7 @@
       "escrita": {
         "anio": 575,
         "anio_hasta": 594,
-        "aprox": false,
+        "aprox": true,
         "lugar": "Tours",
         "lon": 0.688,
         "lat": 47.393
@@ -12251,7 +13597,7 @@
       "idioma_original": "Latín",
       "soporte": "Manuscritos en pergamino",
       "resumen": "Historia en diez libros desde la creación del mundo hasta 591, centrada en la Galia de los reyes merovingios, sus guerras civiles, sus obispos y sus milagros. Los últimos libros cuentan lo que Gregorio vio como obispo de Tours.",
-      "por_que_importa": "Es la fuente principal de la Galia de los siglos V y VI, incluido el bautismo de Clodoveo.",
+      "por_que_importa": "Es la fuente principal de la Galia de los siglos V y VI, incluido el bautismo de Clodoveo. Registra además el nombre que «en lengua gala» tenía un templo de Clermont destruido por los alamanes, Vasso Galatae (I.32), uno de los testimonios tardíos de la lengua gala.",
       "leer": [
         {
           "titulo": "Texto latino en Wikisource",
@@ -12289,14 +13635,15 @@
       },
       "trata": {
         "regiones": [
-          "italia"
+          "italia",
+          "francia"
         ],
         "desde": -100,
         "hasta": 551
       },
       "idioma_original": "Latín",
       "soporte": "Manuscritos en pergamino",
-      "resumen": "Historia de los godos desde su supuesto origen en Escandinavia hasta la derrota de los ostrogodos por Justiniano, resumida de la historia perdida de Casiodoro. Incluye la batalla de los Campos Cataláunicos contra Atila.",
+      "resumen": "Historia de los godos desde su supuesto origen en Escandinavia hasta la derrota de los ostrogodos por Justiniano, resumida de la historia perdida de Casiodoro. Incluye la batalla de los Campos Cataláunicos contra Atila. Cuenta también (XLV.237-238) que Riotamo, rey de los britanos, llegó con doce mil hombres a ayudar a los romanos contra el visigodo Eurico y fue vencido hacia 469.",
       "por_que_importa": "Es casi la única fuente sobre el origen de los godos y sobre los hunos de Atila.",
       "leer": [
         {
@@ -12717,7 +14064,7 @@
       },
       "idioma_original": "Latín",
       "soporte": "Códice de pergamino iluminado (Trinity College, Dublín)",
-      "resumen": "Manuscrito de los cuatro evangelios con decoraciones de una complejidad extraordinaria: entrelazados, animales y figuras en página completa.",
+      "resumen": "Manuscrito de los cuatro evangelios con decoraciones de una complejidad extraordinaria: entrelazados, animales y figuras en página completa. Se discute si se empezó en Iona antes de los ataques vikingos de 806 y se terminó en Kells; los Anales de Ulster cuentan que en 1007 robaron de Kells «el gran evangeliario de Columba», que se suele identificar con él. Está en el Trinity College de Dublín desde el siglo XVII.",
       "por_que_importa": "Es la obra maestra de la iluminación insular de Irlanda y Britania.",
       "leer": [],
       "wikipedia": {
@@ -13187,8 +14534,8 @@
       },
       "idioma_original": "Latín",
       "soporte": "Más de doscientos manuscritos",
-      "resumen": "Historia legendaria de los britanos desde su fundador troyano Bruto hasta el siglo VII, con los reyes Lear y Cimbelino, el mago Merlín y el reinado de Arturo.",
-      "por_que_importa": "Difundió por toda Europa la leyenda artúrica; los historiadores ya la criticaban en el siglo XII.",
+      "resumen": "Historia legendaria de los britanos desde su fundador troyano Bruto hasta el siglo VII, con los reyes Lear y Cimbelino, el mago Merlín y el reinado de Arturo. Geoffrey dice haberla traducido de «un libro antiquísimo en lengua británica» que le dio Walter, archidiácono de Oxford, y que nadie ha encontrado; usó a Gildas, Beda y la Historia Brittonum.",
+      "por_que_importa": "Difundió por toda Europa la leyenda artúrica. Guillermo de Newburgh ya la llamó invención hacia 1198, y los historiadores actuales discuten si detrás de Arturo hubo un personaje real: Alcock (1971) lo defendía; Dumville, Padel y Halsall lo dudan.",
       "leer": [
         {
           "titulo": "Texto latino en Wikisource",
@@ -19777,7 +21124,8 @@
       ],
       "resumen": "Obispo de Tours de una familia senatorial galorromana. Sus Diez libros de historia, llamados Historia de los francos, son la fuente principal de la Galia merovingia.",
       "obras": [
-        "historia-de-los-francos"
+        "historia-de-los-francos",
+        "gloria-de-los-confesores"
       ],
       "wikipedia": {
         "es": "Gregorio de Tours",
@@ -20138,9 +21486,9 @@
         "aprox": true
       },
       "activo": {
-        "lugar": "Universidad de Oxford",
-        "lon": -1.255,
-        "lat": 51.755,
+        "lugar": "Oxford (colegio de San Jorge)",
+        "lon": -1.2625,
+        "lat": 51.7518,
         "desde": 1129,
         "hasta": 1151,
         "aprox": false
@@ -20149,7 +21497,7 @@
         "clérigo",
         "cronista"
       ],
-      "resumen": "Clérigo galés de Oxford cuya Historia de los reyes de Britania difundió por toda Europa la leyenda del rey Arturo, Merlín y el rey Lear.",
+      "resumen": "Clérigo de Monmouth, de familia galesa o bretona (se discute), que entre 1129 y 1151 firma documentos en Oxford, probablemente como canónigo del colegio de San Jorge, y en 1152 fue consagrado obispo de San Asaf. Su Historia de los reyes de Britania (hacia 1136) difundió por toda Europa la leyenda del rey Arturo, de Merlín y del rey Lear.",
       "obras": [
         "historia-de-los-reyes-de-britania"
       ],
@@ -20454,8 +21802,11 @@
         "obispo",
         "misionero"
       ],
-      "resumen": "Misionero britano que, raptado de joven y esclavo en Irlanda, volvió para evangelizarla en el siglo V. Su Confesión es el primer texto escrito en Irlanda.",
-      "obras": [],
+      "resumen": "Misionero britano que, raptado a los dieciséis años y esclavo en Irlanda, volvió como obispo para evangelizarla en el siglo V. Sus dos escritos en latín, la Confesión y la Carta a Corótico, son los textos más antiguos escritos en Irlanda que se conservan, aparte de las inscripciones ogámicas, y no dan fechas ni nombran Armagh. Antes que él, en 431, el papa había enviado a Paladio como primer obispo de los irlandeses (Próspero de Aquitania); las fechas tradicionales de Patricio (432-461, o su muerte en 493) y los relatos de Tara, los druidas y el fuego de Slane vienen de Muirchú y Tírechán, en el siglo VII.",
+      "obras": [
+        "confesion-de-patricio",
+        "carta-a-corotico"
+      ],
       "wikipedia": {
         "es": "Patricio de Irlanda",
         "en": "Saint Patrick"
@@ -20467,7 +21818,7 @@
       "nombre": "Columba de Iona",
       "nacimiento": {
         "anio": 521,
-        "aprox": false,
+        "aprox": true,
         "lugar": "Condado de Donegal",
         "lon": -8.0,
         "lat": 54.92
@@ -20492,7 +21843,7 @@
         "abad",
         "misionero"
       ],
-      "resumen": "Monje irlandés que fundó el monasterio de Iona en 563, desde donde se evangelizó a los pictos y al norte de Britania.",
+      "resumen": "Monje irlandés del linaje de los Uí Néill del norte que fundó el monasterio de Iona hacia 563. Según Beda (III.4) convirtió a los pictos del norte; la Vida que escribió Adomnán hacia 700 lo muestra visitando al rey picto Bridei, pero no cuenta una conversión, y el alcance de su misión se discute. La idea de que dejó Irlanda como penitencia por la batalla de Cúl Dreimne (561) viene de tradiciones posteriores a Adomnán.",
       "obras": [],
       "wikipedia": {
         "es": "Columba de Iona",
@@ -20515,18 +21866,18 @@
         "lat": 44.767
       },
       "activo": {
-        "lugar": "Bobbio",
-        "lon": 9.387,
-        "lat": 44.767,
-        "desde": 614,
-        "hasta": 615,
-        "aprox": false
+        "lugar": "Luxeuil",
+        "lon": 6.379,
+        "lat": 47.817,
+        "desde": 590,
+        "hasta": 610,
+        "aprox": true
       },
       "roles": [
         "monje",
         "misionero"
       ],
-      "resumen": "Monje irlandés que fundó monasterios en la Galia, como Luxeuil, y en Italia, como Bobbio, y difundió la penitencia privada y la disciplina monástica irlandesa.",
+      "resumen": "Monje irlandés que hacia 590 pasó al continente y fundó monasterios en la Galia, como Luxeuil, y en Italia, como Bobbio (614), y difundió la penitencia privada y la disciplina monástica irlandesa. Expulsado de Burgundia en 610 tras chocar con la reina Brunequilda, lo conocemos por sus cartas y por la Vida que escribió Jonás de Bobbio hacia 640.",
       "obras": [],
       "wikipedia": {
         "es": "Columbano de Luxeuil",
@@ -21162,13 +22513,21 @@
       "roles": [
         "rey"
       ],
-      "resumen": "Rey supremo de Irlanda que murió en la batalla de Clontarf (1014), donde su ejército venció a los vikingos de Dublín y a sus aliados de Leinster.",
+      "resumen": "Rey de Munster desde 978 y rey supremo de Irlanda desde 1002; una nota escrita en su presencia en 1005 en el Libro de Armagh lo llama «emperador de los irlandeses». Murió en la batalla de Clontarf (1014), donde su ejército venció al rey de Leinster y al reino nórdico de Dublín, con sus aliados de las Orcadas y de Man. La imagen de Clontarf como la batalla que terminó con el poder vikingo viene del Cogad Gáedel re Gallaib, escrito un siglo después para sus descendientes; muchos historiadores la ven como una guerra entre irlandeses, con nórdicos de los dos lados.",
       "obras": [],
       "wikipedia": {
         "es": "Brian Boru",
         "en": "Brian Boru"
       },
-      "wikidata": "Q272498"
+      "wikidata": "Q272498",
+      "activo": {
+        "lugar": "Killaloe (Kincora)",
+        "lon": -8.443,
+        "lat": 52.807,
+        "desde": 978,
+        "hasta": 1014,
+        "aprox": true
+      }
     },
     {
       "id": "guillermo-el-conquistador",
@@ -22511,9 +23870,9 @@
       "anio": 529,
       "anio_hasta": 534,
       "aprox": false,
-      "lugar": "Constantinopla",
-      "lon": 28.976,
-      "lat": 41.012,
+      "lugar": "Gran Palacio de Constantinopla",
+      "lon": 28.9778,
+      "lat": 41.0064,
       "tipo": "politico",
       "resumen": "Una comisión dirigida por Triboniano reunió en pocos años las leyes imperiales y las opiniones de los juristas romanos. Fue la base del derecho europeo.",
       "regiones": [
@@ -22625,9 +23984,9 @@
       "anio": 589,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Toledo",
-      "lon": -4.033,
-      "lat": 39.867,
+      "lugar": "Catedral de Toledo",
+      "lon": -4.0239,
+      "lat": 39.8571,
       "tipo": "religioso",
       "resumen": "El rey Recaredo y los obispos visigodos abandonaron el arrianismo y adoptaron la fe católica, lo que unió a godos e hispanorromanos.",
       "regiones": [
@@ -22673,7 +24032,7 @@
       "lon": -0.608,
       "lat": 54.488,
       "tipo": "religioso",
-      "resumen": "El rey de Northumbria eligió la fecha romana de la Pascua frente a la irlandesa, lo que acercó la Iglesia anglosajona a Roma.",
+      "resumen": "El rey Oswiu de Northumbria eligió la fecha romana de la Pascua y la tonsura romana frente a las de la tradición irlandesa de Iona, lo que acercó la Iglesia anglosajona a Roma. Lo cuentan Beda (III.25) y la Vida de Wilfrido de Esteban de Ripon. Fue una disputa de costumbres, no un cisma: los pictos del rey Nechtan adoptaron la Pascua romana hacia 710-715 (Beda V.21) y la propia Iona en 716.",
       "regiones": [
         "britania"
       ],
@@ -22780,9 +24139,9 @@
       "anio": 756,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Córdoba",
-      "lon": -4.78,
-      "lat": 37.89,
+      "lugar": "Alcázar omeya de Córdoba",
+      "lon": -4.7814,
+      "lat": 37.8766,
       "tipo": "politico",
       "resumen": "Abderramán I, último sobreviviente de la dinastía omeya derrocada en Damasco, se hizo emir de al-Ándalus, independiente de los abasíes de Bagdad.",
       "regiones": [
@@ -22890,9 +24249,9 @@
       "anio": 800,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Roma",
-      "lon": 12.4964,
-      "lat": 41.9028,
+      "lugar": "Antigua Basílica de San Pedro, Roma",
+      "lon": 12.4533,
+      "lat": 41.9022,
       "tipo": "politico",
       "resumen": "El papa León III coronó a Carlomagno emperador de los romanos en San Pedro el día de Navidad del año 800, restaurando el título imperial en Occidente.",
       "regiones": [
@@ -23045,9 +24404,9 @@
       "anio": 929,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Córdoba",
-      "lon": -4.78,
-      "lat": 37.89,
+      "lugar": "Alcázar omeya de Córdoba",
+      "lon": -4.7814,
+      "lat": 37.8766,
       "tipo": "politico",
       "resumen": "Abderramán III se proclamó califa, al mismo nivel que los abasíes de Bagdad y los fatimíes de Egipto. Córdoba vivió su máximo esplendor.",
       "regiones": [
@@ -23108,9 +24467,9 @@
       "anio": 962,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Roma",
-      "lon": 12.4964,
-      "lat": 41.9028,
+      "lugar": "Antigua Basílica de San Pedro, Roma",
+      "lon": 12.4533,
+      "lat": 41.9022,
       "tipo": "politico",
       "resumen": "El papa Juan XII coronó a Otón I emperador. La corona imperial quedó unida a los reyes de Alemania en lo que se llamaría el Sacro Imperio.",
       "regiones": [
@@ -23287,11 +24646,13 @@
       "lon": -6.197,
       "lat": 53.365,
       "tipo": "batalla",
-      "resumen": "El rey supremo Brian Boru venció a los reyes de Leinster y de Dublín y a sus aliados vikingos, aunque murió en la batalla.",
+      "resumen": "El rey supremo Brian Boru venció al rey de Leinster, Máel Mórda, y al reino nórdico de Dublín, con sus aliados de las Orcadas y de Man, aunque murió en la batalla. El Cogad Gáedel re Gallaib, escrito un siglo después para sus descendientes, la contó como la guerra de los irlandeses contra los extranjeros; muchos historiadores la ven como una guerra entre irlandeses, con nórdicos de los dos lados.",
       "regiones": [
         "irlanda"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anales-de-ulster"
+      ],
       "wikipedia": {
         "es": "Batalla de Clontarf",
         "en": "Battle of Clontarf"
@@ -23303,9 +24664,9 @@
       "anio": 1054,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Constantinopla",
-      "lon": 28.976,
-      "lat": 41.012,
+      "lugar": "Santa Sofía",
+      "lon": 28.98,
+      "lat": 41.008,
       "tipo": "religioso",
       "resumen": "Los legados del papa excomulgaron al patriarca Miguel Cerulario, que respondió con otra excomunión. La ruptura entre la Iglesia latina y la griega se volvió definitiva con los siglos.",
       "regiones": [
@@ -23600,9 +24961,9 @@
       "anio": 1130,
       "anio_hasta": 1284,
       "aprox": false,
-      "lugar": "Toledo",
-      "lon": -4.033,
-      "lat": 39.867,
+      "lugar": "Catedral de Toledo",
+      "lon": -4.0239,
+      "lat": 39.8571,
       "tipo": "cultural",
       "resumen": "Traductores latinos, judíos y mozárabes pasaron al latín y luego al castellano las obras de Aristóteles, Ptolomeo, Galeno, Avicena, Averroes y al-Juarismi, que llegaron así a las universidades de Europa.",
       "regiones": [
@@ -23666,9 +25027,9 @@
       "anio": 1147,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Moscú",
-      "lon": 37.617,
-      "lat": 55.751,
+      "lugar": "Kremlin de Moscú",
+      "lon": 37.6178,
+      "lat": 55.7517,
       "tipo": "fundacion",
       "resumen": "Una crónica registra que el príncipe Yuri Dolgoruki invitó a un aliado a un banquete en Moscú, entonces una pequeña fortaleza de la tierra de Súzdal.",
       "regiones": [
@@ -23704,17 +25065,22 @@
       "id": "invasion-normanda-de-irlanda",
       "titulo": "Invasión anglonormanda de Irlanda",
       "anio": 1169,
-      "anio_hasta": null,
+      "anio_hasta": 1171,
       "aprox": false,
       "lugar": "Bahía de Bannow, Wexford",
       "lon": -6.462,
       "lat": 52.338,
       "tipo": "batalla",
-      "resumen": "Llamados por el rey destronado de Leinster, caballeros anglonormandos desembarcaron en Irlanda; en 1171 llegó el propio Enrique II de Inglaterra.",
+      "resumen": "Diarmait Mac Murchada, rey de Leinster expulsado en 1166, pidió ayuda a Enrique II de Inglaterra y reclutó caballeros normandos de Gales, que desembarcaron en 1169; en 1170 llegó Strongbow, que se casó con su hija, y en 1171 el propio Enrique II, que recibió la sumisión de muchos reyes irlandeses. El tratado de Windsor (1175) con el rey supremo Ruaidrí Ua Conchobair repartió la isla. Giraldo de Gales lo contó desde el lado de los invasores, y Enrique invocó la bula Laudabiliter, cuya autenticidad se discute.",
       "regiones": [
         "irlanda"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "expugnacion-de-irlanda",
+        "laudabiliter",
+        "topografia-de-irlanda",
+        "anales-de-ulster"
+      ],
       "wikipedia": {
         "es": "Invasión cambro-normanda de Irlanda",
         "en": "Anglo-Norman invasion of Ireland"
@@ -23789,9 +25155,9 @@
       "anio": 1204,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Constantinopla",
-      "lon": 28.976,
-      "lat": 41.012,
+      "lugar": "Muralla del Cuerno de Oro, Constantinopla",
+      "lon": 28.945,
+      "lat": 41.0375,
       "tipo": "batalla",
       "resumen": "La cuarta cruzada, desviada por Venecia y por un pretendiente bizantino, tomó y saqueó Constantinopla. Los cruzados fundaron un Imperio latino que duró hasta 1261.",
       "regiones": [
@@ -23939,9 +25305,9 @@
       "anio": 1215,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Roma",
-      "lon": 12.4964,
-      "lat": 41.9028,
+      "lugar": "Archibasílica de San Juan de Letrán, Roma",
+      "lon": 12.5062,
+      "lat": 41.8859,
       "tipo": "religioso",
       "resumen": "El mayor concilio de la Edad Media definió la transustanciación, obligó a confesarse una vez al año, prohibió nuevas órdenes religiosas y ordenó a judíos y musulmanes llevar distintivos.",
       "regiones": [
@@ -23959,9 +25325,9 @@
       "anio": 1216,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Tolosa",
-      "lon": 1.443,
-      "lat": 43.604,
+      "lugar": "Casa Seilhan, Tolosa",
+      "lon": 1.4438,
+      "lat": 43.594,
       "tipo": "religioso",
       "resumen": "El papa Honorio III aprobó la orden de predicadores de Domingo de Guzmán. Los dominicos se instalaron enseguida en las universidades de París y Bolonia.",
       "regiones": [
@@ -24149,9 +25515,9 @@
       "anio": 1257,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Universidad de París",
-      "lon": 2.344,
-      "lat": 48.849,
+      "lugar": "Sorbona, París",
+      "lon": 2.3436,
+      "lat": 48.8486,
       "tipo": "fundacion",
       "resumen": "Robert de Sorbon, capellán de Luis IX, fundó un colegio para estudiantes pobres de teología que dio su nombre a la universidad.",
       "regiones": [
@@ -24212,9 +25578,9 @@
       "anio": 1274,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Lyon",
-      "lon": 4.835,
-      "lat": 45.767,
+      "lugar": "Catedral de San Juan Bautista, Lyon",
+      "lon": 4.8275,
+      "lat": 45.7606,
       "tipo": "religioso",
       "resumen": "El concilio proclamó una breve unión con la Iglesia griega. Tomás de Aquino murió camino de él y Buenaventura, durante sus sesiones.",
       "regiones": [
@@ -24585,9 +25951,9 @@
       "anio": 1381,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Londres",
-      "lon": -0.128,
-      "lat": 51.507,
+      "lugar": "Smithfield, Londres",
+      "lon": -0.102,
+      "lat": 51.519,
       "tipo": "revolucion",
       "resumen": "Contra un nuevo impuesto por cabeza, los campesinos de Essex y Kent entraron en Londres y pidieron el fin de la servidumbre. Su jefe Wat Tyler murió frente al rey Ricardo II.",
       "regiones": [
@@ -24651,9 +26017,9 @@
       "anio": 1391,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Sevilla",
-      "lon": -5.995,
-      "lat": 37.389,
+      "lugar": "Barrio de Santa Cruz (antigua judería), Sevilla",
+      "lon": -5.9903,
+      "lat": 37.385,
       "tipo": "desastre",
       "resumen": "Una ola de asaltos a las juderías comenzó en Sevilla y se extendió por Castilla y Aragón. Miles de judíos murieron y muchos más fueron bautizados por la fuerza.",
       "regiones": [
@@ -24912,9 +26278,9 @@
       "anio": 1453,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Constantinopla",
-      "lon": 28.976,
-      "lat": 41.012,
+      "lugar": "Murallas de Teodosio, Constantinopla",
+      "lon": 28.935,
+      "lat": 41.03,
       "tipo": "batalla",
       "resumen": "Tras un sitio de casi dos meses, Mehmed II tomó Constantinopla el 29 de mayo de 1453. El último emperador, Constantino XI, murió en la lucha.",
       "regiones": [
@@ -25397,7 +26763,7 @@
       "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "La Lutecia de los parisios, capital de los Capetos desde fines del siglo X. En los siglos XII y XIII fue el gran centro intelectual de Europa: sus escuelas de Notre-Dame, San Víctor y Santa Genoveva dieron origen a la universidad.",
+      "resumen": "La Lutecia de los parisios, que César sitúa en una isla del Sena (VII.57); dónde estaba el poblado galo se discute desde que en Nanterre apareció una aglomeración de 15 hectáreas de esa época. Fue capital de los Capetos desde fines del siglo X y, en los siglos XII y XIII, el gran centro intelectual de Europa: sus escuelas de Notre-Dame, San Víctor y Santa Genoveva dieron origen a la universidad.",
       "regiones": [
         "francia"
       ],
@@ -25549,7 +26915,7 @@
       "aprox": false,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "La antigua Lugdunum, capital de las Galias. Allí se celebraron dos concilios ecuménicos, en 1245 y 1274, y fue un gran centro de ferias e imprenta a fines del siglo XV.",
+      "resumen": "La antigua Lugdunum, colonia que fundó en 43 a. C. Lucio Munacio Planco con un nombre galo, Lugudunon; fue capital de la Galia Lugdunense y sede del altar de las tres Galias. Allí se celebraron dos concilios ecuménicos, en 1245 y 1274, y fue un gran centro de ferias e imprenta a fines del siglo XV.",
       "regiones": [
         "francia"
       ],
@@ -26309,7 +27675,7 @@
       "aprox": false,
       "tipo": "templo",
       "importancia": 2,
-      "resumen": "Monasterio fundado por el irlandés Columba en una isla de Escocia, desde donde se evangelizó a los pictos y a Northumbria. Probablemente allí se comenzó el Libro de Kells.",
+      "resumen": "Monasterio fundado por el irlandés Columba hacia 563 en una isla de Escocia, del que salió la misión a Northumbria (Lindisfarne, 635) y, según Beda, la de los pictos. Tras los ataques vikingos de 795 a 806 la comunidad fundó Kells; probablemente en Iona se comenzó el Libro de Kells.",
       "regiones": [
         "britania"
       ],
@@ -26328,7 +27694,7 @@
       "aprox": true,
       "tipo": "templo",
       "importancia": 1,
-      "resumen": "Iglesia asociada a San Patricio y sede del primado de Irlanda.",
+      "resumen": "Iglesia asociada a San Patricio y sede del primado de Irlanda. Su fundación por Patricio y su primacía se apoyan en textos que produjo la propia Armagh desde el siglo VII, como la Vida de Muirchú y el Liber Angeli, copiados en el Libro de Armagh hacia 807; los escritos de Patricio no la nombran.",
       "regiones": [
         "irlanda"
       ],
@@ -26347,7 +27713,7 @@
       "aprox": true,
       "tipo": "templo",
       "importancia": 2,
-      "resumen": "Gran monasterio irlandés junto al río Shannon, fundado por Ciarán. Fue un centro de estudios y de crónicas, como los Anales de Tigernach.",
+      "resumen": "Gran monasterio irlandés junto al río Shannon, fundado por Ciarán. Fue un centro de estudios y de crónicas, como los Anales de Tigernach. Allí se copió hacia 1100 el Lebor na hUidre, el manuscrito más antiguo que se conserva escrito en irlandés.",
       "regiones": [
         "irlanda"
       ],
@@ -26404,7 +27770,7 @@
       "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "Capital del reino visigodo y sede de sus concilios. Conquistada por Alfonso VI en 1085, fue el gran puente entre la ciencia árabe y la Europa latina gracias a sus traductores.",
+      "resumen": "La Toletum de los carpetanos, que tomó Marco Fulvio Nobilior hacia 193-192 a. C. (Livio XXXV), y capital del reino visigodo y sede de sus concilios. Conquistada por Alfonso VI en 1085, fue el gran puente entre la ciencia árabe y la Europa latina gracias a sus traductores.",
       "regiones": [
         "iberia"
       ],
@@ -26518,7 +27884,7 @@
       "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "La Caesaraugusta romana, capital de una taifa culta en el siglo XI, donde vivieron Ibn Gabirol y Avempace, y desde 1118 capital del reino de Aragón.",
+      "resumen": "La Salduie íbera, cuyos habitantes ganaron en 87 a. C. el pleito que registra la Tabula Contrebiensis; luego la Caesaraugusta romana, capital de una taifa culta en el siglo XI, donde vivieron Ibn Gabirol y Avempace, y desde 1118 capital del reino de Aragón.",
       "regiones": [
         "iberia"
       ],
@@ -26556,7 +27922,7 @@
       "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Ciudad musulmana tomada en 1147 por Alfonso Enríquez con ayuda de cruzados, y capital de Portugal desde el siglo XIII.",
+      "resumen": "La Olisipo que fortificó Décimo Junio Bruto en 138 a. C. (Estrabón III.3.1); ciudad musulmana tomada en 1147 por Alfonso Enríquez con ayuda de cruzados, y capital de Portugal desde el siglo XIII.",
       "regiones": [
         "iberia"
       ],

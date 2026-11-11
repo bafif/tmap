@@ -61,13 +61,16 @@ inflar tanto las latitudes altas como Mercator. La fórmula está en `tools/pipe
 scripts/
   principal.gd          entrada: pantalla de carga, arma mapa e interfaz, capturas automáticas
   nucleo/               estado global, datos del mapa, enciclopedia, Wikipedia, proyección, fechas
-  mapa/                 vista con cámara, capa de nombres, capa de marcadores
+  mapa/                 vista con cámara, capa de nombres, capa de marcadores, capa de lugares de Pleiades
   interfaz/             tema, barra superior, línea de tiempo, panel lateral, leyenda, ajustes, bienvenida
-shaders/                mapa y viñeta
+shaders/                mapa, viñeta y puntos de Pleiades
 data/mapa/              datos generados por el pipeline (Godot no los importa: .gdignore)
-data/enciclopedia/      paquetes JSON de la enciclopedia y su esquema
+data/enciclopedia/      paquetes JSON de la enciclopedia, su esquema y las copias de los enlaces de lectura
+data/demografia/        series por país de Our World in Data y país actual de cada unidad del mapa
+data/pleiades/          lugares antiguos de Pleiades y su unión con los lugares de la enciclopedia
 tools/pipeline/         Python: base física, unidades y fronteras, Wikidata, vista previa
-tools/enciclopedia/     validación de paquetes
+tools/enciclopedia/     validación de paquetes, cobertura, población, copias de los enlaces, formato compacto
+tools/pleiades/         Python: lugares de Pleiades y su unión con la enciclopedia (Wikidata)
 raw_data/               fuentes originales (GEBCO, Natural Earth, Blue Marble)
 legado/                 el primer intento con QGIS, como referencia
 ```
@@ -84,8 +87,8 @@ cambiar en vivo.
   en `scripts/interfaz/tema.gd`; agregar otro es copiar uno.
 - **Vista 3D** (planificada): una malla con el relieve real (la elevación ya está en el pipeline), la misma textura
   política del 2D proyectada encima, agua con shader propio, nubes y partículas. Se va a elegir en Ajustes, con
-  Forward+ (el proyecto ya está configurado así en Linux y Windows, con respaldo a OpenGL para equipos viejos; en
-  Mac usa Compatibility desde la 0.3.4, y cada uno puede elegir el motor en Ajustes).
+  Forward+ (el motor de entrada en Linux y Windows, con respaldo a OpenGL para equipos viejos; en Mac el de entrada
+  es Compatibility, y cada uno puede elegir el motor en Ajustes).
 
 ## Cómo se prueba
 
@@ -101,7 +104,7 @@ cambiar en vivo.
 - `python3 tools/pipeline/lamina.py ANIO x0 y0 x1 y1 salida.png`: lámina estática de alta calidad de cualquier año,
   sin Godot (por ejemplo, [el mundo en 117 d. C.](../assets/mundo_117.png)).
 
-### Almacenamiento y descargas
+## Almacenamiento y descargas
 
 TellMAP guarda fichas y enlaza los textos: lo que distribuye se mide en decenas o cientos de MB, no en terabytes. Lo
 masivo (personas de Wikidata, grillas de población) se va a bajar por teselas de época y región, a pedido, con un
@@ -111,20 +114,20 @@ no) están en [Almacenamiento y descargas](almacenamiento.md).
 
 ## Hoja de ruta
 
-El detalle de cada paso, con lo hecho y lo que falta, está en [PROGRESO.md](../../PROGRESO.md).
+Lo que falta de cada paso y los hitos de cada versión están en [el progreso](../../PROGRESO.md).
 
-| Fase | Qué incluye |
-|---|---|
-| **0.1** (esta) | Mapa 2D, fronteras de 3400 a. C. a 2024, línea de tiempo, panel lateral, enciclopedia piloto (Egipto) y muestra mundial, Wikipedia en vivo, temas y calidades |
-| **0.2** | Probar en otros equipos (hasta ahora: Vulkan en una GTX 1050 Ti), bordes con campo de distancia para que no se vean los píxeles de cerca, agrupar marcadores superpuestos, exportar ejecutables (los datos de `data/` se incluyen con el filtro de exportación `data/*`), atajos de teclado y accesibilidad |
-| **0.3** | Enciclopedia progresiva: cola de lo que se consulta sin ficha, borradores con Wikipedia y Wikidata, fichas extendidas con IA citando fuentes, revisión humana (ver [la enciclopedia](enciclopedia.md)) |
-| **0.4** | Datos abiertos a gran escala: lugares antiguos de [Pleiades](https://pleiades.stoa.org), personas de Wikidata con lugares y fechas, población por grilla de HYDE, relaciones de vasallaje de Cliopatria |
-| **0.5** | Movimiento: migraciones, rutas comerciales, campañas y difusión de religiones como flechas animadas y partículas |
-| **0.6** | Vista 3D con relieve, agua y efectos |
-| **1.0** | Versiones descargables y web, guía para sumar paquetes, revisión por especialistas |
+| Fase | Qué incluye | Estado |
+|---|---|---|
+| **0.1** | Mapa 2D, fronteras de 3400 a. C. a 2024, línea de tiempo, panel lateral, enciclopedia piloto (Egipto) y muestra mundial, Wikipedia en vivo, temas y calidades | Hecha |
+| **0.2** | Probar en otros equipos, bordes con campo de distancia para que no se vean los píxeles de cerca, agrupar marcadores superpuestos, exportar ejecutables, atajos de teclado y accesibilidad | Hecha, salvo probar en Windows, en Apple Silicon y en pantallas táctiles |
+| **0.3** | Enciclopedia progresiva: cola de lo que se consulta sin ficha, borradores con Wikipedia y Wikidata, fichas extendidas con IA citando fuentes, revisión humana (ver [la enciclopedia](enciclopedia.md)) | Hecha |
+| **0.4** | Datos abiertos a gran escala: lugares antiguos de [Pleiades](https://pleiades.stoa.org), personas de Wikidata con lugares y fechas, población por grilla de HYDE, relaciones de vasallaje de Cliopatria | En curso: Pleiades está |
+| **0.5** | Movimiento: migraciones, rutas comerciales, campañas y difusión de religiones como flechas animadas y partículas | |
+| **0.6** | Vista 3D con relieve, agua y efectos | |
+| **1.0** | Versiones descargables y web, guía para sumar paquetes, revisión por especialistas | Las descargables están |
 
 ## Rendimiento medido en el pipeline
 
 - 58 076 unidades, 1 001 996 eventos, 43 fotos y 13 272 etiquetas.
-- Datos del mapa en disco: ~24 MB (terreno 1,7 MB en WebP, relieve 14,7 MB, unidades 2 MB, política 6 MB).
+- Datos del mapa en disco: ~26 MB (terreno 1,7 MB en WebP, relieve 16,7 MB, unidades 2 MB, política 6 MB).
 - En memoria de video, con calidad alta: ~320 MB (terreno y relieve con mipmaps, unidades). Con calidad baja, ~110 MB.
