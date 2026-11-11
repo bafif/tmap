@@ -51,6 +51,16 @@ What the roadmap asked for was done on November 7, 2026 (see **Done**). One task
 What's covered and what's missing, region by region, is in [docs/en/coverage.md](docs/en/coverage.md), generated
 by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date).
 
+- [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). The first pass of
+      `tools/enciclopedia/huecos.py` (November 11, 2026) found 157 high-priority and 1411 medium-priority gaps in the
+      18 topic packages: eras and layers cut short (Mesopotamia between 1594 and 912 BC, the Levant between 1292 and
+      1515, Hungary's religion between 401 and 894), presidents and vice presidents missing between those present, the
+      Argentine presidential elections of 1963, 2007, 2011 and 2015, the councils of Lyon I and Vienne, battles of wars
+      the topic already covers battle by battle (Piribebuy, Fulford, Sluys, Moscow, Bagration), works by authors who
+      have an entry (*The German Ideology*, *Dubliners*, *The Castle*) and events and people from each topic's place
+      and period. They are filled in rounds, one or a few packages at a time, with the `huecos` skill or by hand. There
+      are 1950 more at low priority, mostly maintenance: 575 events without sources and 706 sources without a reading
+      link.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** The seven packages from November 10,
       2026 cover ideas, science, wars and Argentina; still missing are the 20th-century political history of Brazil,
       Mexico, Chile and the rest of Latin America, China after Mao, independent India, Africa after decolonization and
@@ -165,6 +175,22 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: gaps in what has been researched
+
+- [x] **`tools/enciclopedia/huecos.py`**: what is missing inside what each topic has already researched. Each package
+      has its scope in `tools/enciclopedia/huecos/alcances.json` (years, regions, core, axes and depth in Wikipedias,
+      inferred from the data and checked by hand) and eight detectors search inside it: eras and layers cut short,
+      stretches with no events, references, and with `--red` (Wikidata through QLever, with a cache outside git) series
+      of offices, successions, parts of a whole, works by authors who have an entry and candidates from the place and
+      period, as notable as what the topic already has. What is not filled stays in `decisiones.json` with its reason,
+      and a decision can cover a whole group (a series, a whole, an author, an axis). `aplicar` adds what was built
+      with the compact format to an existing package, with `parches.json` for entries that already exist
+      (`construir.py --escribir` would replace the whole package). The procedure in rounds, with the writer's and
+      reviewer's briefs and when to stop, is in [docs/en/gaps.md](docs/en/gaps.md). First mechanical fixes: the
+      `autor_id` of Bialet Massé's report and of *Against Apion*, and four works missing from their author's entry.
+      Without the network it runs in under a second; the first networked run takes half an hour because QLever
+      throttles rapid requests (the official Wikidata service took over a minute per query).
 
 ### November 11, 2026: reading links that don't get lost
 

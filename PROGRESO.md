@@ -52,6 +52,15 @@ hacerlo:
 El universo cubierto y el que falta, región por región, está en [docs/es/cobertura.md](docs/es/cobertura.md), que
 genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 
+- [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). La primera pasada de
+      `tools/enciclopedia/huecos.py` (11/11/2026) encontró 157 huecos de prioridad alta y 1411 de media en los 18
+      paquetes temáticos: eras y capas cortadas (Mesopotamia entre 1594 y 912 a. C., el Levante entre 1292 y 1515, la
+      religión de Hungría entre 401 y 894), presidentes y vicepresidentes que faltan entre los que están, las
+      elecciones presidenciales argentinas de 1963, 2007, 2011 y 2015, los concilios de Lyon I y Vienne, batallas de
+      guerras que el tema ya trata batalla por batalla (Piribebuy, Fulford, Sluys, Moscú, Bagration), obras de autores
+      con ficha (*La ideología alemana*, *Dublineses*, *El castillo*) y hechos y personas del lugar y la época de cada
+      tema. Se rellenan por rondas, de a uno o varios paquetes, con la skill `huecos` o a mano. Con prioridad baja hay
+      1950 más, casi todos de mantenimiento: 575 hechos sin fuentes y 706 fuentes sin enlace de lectura.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Los siete paquetes del 10/11/2026
       cubren las ideas, la ciencia, las guerras y la Argentina; faltan la historia política del siglo XX de Brasil,
       México, Chile y el resto de América Latina, China después de Mao, la India independiente, África después de la
@@ -164,6 +173,22 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: los huecos de lo investigado
+
+- [x] **`tools/enciclopedia/huecos.py`**: lo que falta dentro de lo que cada tema ya investigó. Cada paquete tiene su
+      alcance en `tools/enciclopedia/huecos/alcances.json` (años, regiones, núcleo, ejes y profundidad en Wikipedias,
+      inferidos de los datos y revisados a mano) y ocho detectores buscan adentro: capas y eras cortadas, tramos sin
+      hechos, referencias, y con `--red` (Wikidata a través de QLever, con caché fuera de git) series de cargos,
+      sucesiones, partes de un conjunto, obras de autores con ficha y candidatos del lugar y la época, tan notables
+      como lo que el tema ya tiene. Lo que no se rellena queda en `decisiones.json` con su motivo, y una decisión vale
+      para un grupo entero (una serie, un conjunto, un autor, un eje). `aplicar` suma a un paquete existente lo
+      construido con el formato compacto, con `parches.json` para las fichas que ya existen (`construir.py
+      --escribir` reemplazaría el paquete entero). El procedimiento por rondas, con los encargos del escritor y del
+      revisor y cuándo parar, está en [docs/es/huecos.md](docs/es/huecos.md). Primeros arreglos mecánicos: el
+      `autor_id` del informe de Bialet Massé y de *Contra Apión*, y cuatro obras que faltaban en la ficha de su autor.
+      Sin red corre en menos de un segundo; la primera corrida con red tarda media hora porque QLever frena los pedidos
+      seguidos (el servicio oficial de Wikidata tardaba más de un minuto por consulta).
 
 ### 11 de noviembre de 2026: enlaces de lectura que no se pierden
 

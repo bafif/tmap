@@ -406,12 +406,15 @@ class Red:
         faltan = sorted({c for c in claves if c not in self.cache["wp"]})
         for lengua in ("en", "es"):
             ts = [c[3:] for c in faltan if c.startswith(lengua + ":")]
-            for k in range(0, len(ts), 50):
-                grupo = ts[k:k + 50]
+            for k in range(0, len(ts), 40):  # con 50 títulos la API a veces responde «toomanyvalues»
+                grupo = ts[k:k + 40]
                 d = self.pedir(f"https://{lengua}.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
                     "action": "query", "titles": "|".join(grupo), "redirects": 1, "prop": "pageprops",
                     "ppprop": "wikibase_item", "format": "json", "formatversion": 2}))
-                q = d.get("query", {})
+                if "query" not in d:  # un error no se guarda como «sin QID»: esas fichas parecerían ausentes
+                    print(f"  (la API de Wikipedia respondió {str(d.get('error'))[:120]})", file=sys.stderr)
+                    continue
+                q = d["query"]
                 camino = {x["from"]: x["to"] for x in q.get("normalized", []) + q.get("redirects", [])}
                 qid = {p["title"]: p.get("pageprops", {}).get("wikibase_item") for p in q.get("pages", [])}
                 for t in grupo:
@@ -835,11 +838,12 @@ def det_partes(enc: Enciclopedia, als: dict[str, dict], red: Red) -> list[dict]:
         partes[f["w"].rsplit("/", 1)[1]].add(f["y"].rsplit("/", 1)[1])
     fw = fecha_y_wikis(red, sorted({y for ys in partes.values() for y in ys}))
     res, vistos = [], set()
-    for w, ys in partes.items():
+    for w, ys_set in partes.items():
+        ys = sorted(ys_set)  # ordenado: con un set, los empates entre paquetes cambiarían de una corrida a otra
         estan = [y for y in ys if y in presentes]
         if len(estan) < 2:
             continue  # con una sola parte (o ninguna) el conjunto no se trató parte por parte
-        paqs = [enc.donde[presentes[y]] for y in estan]
+        paqs = sorted(enc.donde[presentes[y]] for y in estan)
         paq = Counter(paqs).most_common(1)[0][0]
         al = als.get(paq, {})
         umbral = al.get("profundidad", {}).get("hechos", MIN_WIKIS["hechos"])
@@ -1122,7 +1126,8 @@ def orden_lotes() -> int:
         out = [f"# Huecos de «{paq}»", ""]
         if al:
             regs = ", ".join(enc.regiones[r].get("nombre", r) for r in al["regiones"] if r in enc.regiones)
-            out += [f"Alcance: {texto_tramo(al['desde'], al['hasta'])}; regiones: {regs}.",
+            nuc = ", ".join(enc.regiones[r].get("nombre", r) for r in al.get("nucleo") or [] if r in enc.regiones)
+            out += [f"Alcance: {texto_tramo(al['desde'], al['hasta'])}; regiones: {regs}; núcleo: {nuc or '-'}.",
                     f"Ejes: hechos {', '.join(al.get('hechos') or ['-'])}; personas "
                     f"{', '.join(al.get('ocupaciones') or ['-'])}. Profundidad (Wikipedias): "
                     f"{json.dumps(al.get('profundidad') or {}, ensure_ascii=False)}.", ""]
