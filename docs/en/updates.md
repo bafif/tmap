@@ -14,11 +14,14 @@ When running from source (`godot --path .` or the editor), nothing is checked: t
 
 ## What the user sees
 
-On startup, if the **Settings → Updates** checkbox is ticked (it is by default), TellMAP checks the manifest on
-GitHub. If there's something new, it offers it in a banner at the top center ("There's an update: TellMAP 0.3.3 and
-data from November 12, 2026. Install it?") with **Update** and **Not now**, and it doesn't download anything until
-the user says yes. With "Not now" (or the close button) nothing changes and the app carries on as it was; the banner
-comes back the next time it's opened. With "Update" it downloads it, checks its sha256, installs it and lets the user
+On startup, and then every hour while it's open, if the **Settings → Updates** checkbox is ticked (it is by default),
+TellMAP checks the manifest on GitHub. If there's something new, it offers it in a banner at the top center, above
+everything else ("There's an update: TellMAP 0.3.3 and data from November 12, 2026. Install it?"), with **Update** and
+**Not now**, and it doesn't download anything until the user says yes. With "Not now" (or the close button) nothing
+changes and the app carries on as it was; the banner comes back the next time it's opened (the hourly check doesn't
+repeat it). If the startup check can't finish (for example, offline), a notice says so, with **Try again**; the result
+of every check goes to the app's log (`[actualizacion] al abrir: …`). With "Update" it downloads it, checks its sha256,
+installs it and lets the user
 know in the same spot when it's done. If the executable can't be replaced (for example, because it's in a folder
 without write permission), it doesn't ask: the notice links to the download page. Settings shows the status, "Check
 now" (which installs without asking, since it's already a request) and the checkbox to turn it off. The check doesn't

@@ -34,6 +34,8 @@ var _botones_pestana: Array = []
 var _unidad := 0
 var _px := Vector2.ZERO
 var _ficha: Dictionary = {}  # {"tipo", "id"} si se está mostrando una ficha
+## La lista de un grupo de marcadores desde la que se abrió la ficha actual: volver lleva a ella antes que al lugar.
+var _lista: Dictionary = {}
 var _token := 0
 var _reconstruir_pendiente := false
 ## Qué indicador del país muestra su gráfico en la pestaña «Datos» ("" = ninguno).
@@ -58,9 +60,7 @@ func _ready() -> void:
 	var cab := HBoxContainer.new()
 	caja.add_child(cab)
 	_volver = IconosUI.boton("volver", tr("Volver al lugar"), 18)
-	_volver.pressed.connect(func():
-		_ficha = {}
-		_reconstruir())
+	_volver.pressed.connect(volver)
 	cab.add_child(_volver)
 	var textos := VBoxContainer.new()
 	textos.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -172,6 +172,7 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 	_unidad = unidad
 	_px = px
 	_ficha = {}
+	_lista = {}
 	if unidad <= 0:
 		Estado.resaltar("")
 		_mostrar(false)
@@ -186,6 +187,8 @@ func _al_seleccionar(unidad: int, px: Vector2) -> void:
 
 
 func _al_pedir_ficha(tipo: String, id: Variant) -> void:
+	if tipo == "grupo":
+		_lista = {}
 	_ficha = {"tipo": tipo, "id": id}
 	_reconstruir()
 	_mostrar(true)
@@ -238,7 +241,9 @@ func _reconstruir(conservar_scroll := false) -> void:
 		_:
 			Estado.resaltar("")
 	if not _ficha.is_empty():
-		_volver.visible = _unidad > 0
+		var a_lista: bool = not _lista.is_empty() and _ficha["tipo"] != "grupo"
+		_volver.visible = a_lista or _unidad > 0
+		_volver.tooltip_text = tr("Volver a la lista") if a_lista else tr("Volver al lugar")
 		_barra_pestanas.visible = false
 		_construir_ficha(_ficha["tipo"], _ficha["id"])
 		return
@@ -512,6 +517,9 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 	if tipo == "pleiades":
 		_ficha_pleiades(int(id))
 		return
+	if tipo == "grupo":
+		_ficha_grupo(id)
+		return
 	var el := Enciclopedia.elemento(tipo, str(id))
 	if el.is_empty():
 		_titulo.text = tr("No encontrado")
@@ -674,6 +682,59 @@ func _ficha_lugar(l: Dictionary) -> void:
 
 ## Un lugar de Pleiades: lo que hay en los datos (nombre, categoría, años) y, en vivo, su descripción, sus nombres
 ## antiguos y el resumen de Wikipedia si Pleiades lo enlaza.
+## Lo que junta un grupo de marcadores del mapa, como lista: hechos, personas y fuentes, cada uno con su ficha (y volver
+## trae de nuevo acá). Muestra los miembros del momento del clic, aunque después cambie el año.
+func _ficha_grupo(g: Dictionary) -> void:
+	var por_tipo := {"hecho": [], "persona": [], "fuente": []}
+	for m in g.get("miembros", []):
+		var el := Enciclopedia.elemento(str(m["tipo"]), str(m["id"]))
+		if not el.is_empty() and por_tipo.has(m["tipo"]):
+			por_tipo[m["tipo"]].append(el)
+	_franja.color = TemaUI.color("acento")
+	_titulo.text = tr("En este punto del mapa")
+	var cuentas: Array = [Fechas.texto(Estado.anio)]
+	if not por_tipo["hecho"].is_empty():
+		cuentas.append(tr_n("%d hecho", "%d hechos", por_tipo["hecho"].size()) % por_tipo["hecho"].size())
+	if not por_tipo["persona"].is_empty():
+		cuentas.append(tr_n("%d persona", "%d personas", por_tipo["persona"].size()) % por_tipo["persona"].size())
+	if not por_tipo["fuente"].is_empty():
+		cuentas.append(tr_n("%d fuente", "%d fuentes", por_tipo["fuente"].size()) % por_tipo["fuente"].size())
+	_subtitulo.text = " · ".join(cuentas)
+	var acercar := _boton_texto(tr("Acercar el mapa hasta separarlos"), "ir")
+	var px: Vector2 = g["px"]
+	var zoom: float = g["zoom"]
+	acercar.pressed.connect(func(): Estado.enfocar(px, zoom))
+	_contenido.add_child(acercar)
+	var por_fecha := func(a: Dictionary, b: Dictionary) -> bool: return int(a["_desde"]) < int(b["_desde"])
+	var secciones := {"hecho": tr("Hechos"), "persona": tr("Personas"), "fuente": tr("Fuentes")}
+	for tipo in secciones:
+		var lista: Array = por_tipo[tipo]
+		if lista.is_empty():
+			continue
+		lista.sort_custom(por_fecha)
+		_seccion(secciones[tipo])
+		for el in lista:
+			var fila: Button
+			match tipo:
+				"hecho":
+					fila = _fila_color(TemaUI.color("hecho"), el.get("titulo", ""), Fechas.rango(el["_desde"], el["_hasta"]),
+						el["_desde"] <= Estado.anio and Estado.anio <= el["_hasta"])
+				"persona":
+					fila = _fila_color(TemaUI.color("persona"), el.get("nombre", ""), _vida(el), false)
+				_:
+					var detalle := Fechas.rango(el["_desde"], el["_hasta"])
+					if el.get("autor"):
+						detalle = "%s, %s" % [el["autor"], detalle]
+					fila = _fila_color(TemaUI.color("primaria" if el.get("tipo", "") == "primaria" else "secundaria"), el.get("titulo", ""), detalle, false)
+			fila.tooltip_text = fila.text
+			var id: String = el["id"]
+			var t: String = tipo
+			fila.pressed.connect(func():
+				_lista = _ficha
+				Estado.pedir_ficha(t, id))
+			_contenido.add_child(fila)
+
+
 func _ficha_pleiades(id: int) -> void:
 	var i := Pleiades.indice(id)
 	if i < 0:
@@ -1205,10 +1266,16 @@ func pestana_vecina(paso: int) -> void:
 		_ir_a_pestana(posmod(_pestana + paso, PESTANAS.size()))
 
 
-## Tecla Retroceso: de una ficha al lugar elegido, como el botón de volver.
+## Botón de volver y tecla Retroceso: de una ficha a la lista del grupo de donde se abrió, o al lugar elegido.
 func volver() -> void:
-	if _abierto and not _ficha.is_empty() and _unidad > 0:
+	if not _abierto or _ficha.is_empty():
+		return
+	if not _lista.is_empty() and _ficha["tipo"] != "grupo":
+		_ficha = _lista
+		_reconstruir()
+	elif _unidad > 0:
 		_ficha = {}
+		_lista = {}
 		_reconstruir()
 
 

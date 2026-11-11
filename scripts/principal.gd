@@ -345,6 +345,31 @@ func _prueba_automatica() -> void:
 			push_error("[prueba] al agrupar con zoom %s se perdieron marcadores (%d de %d)" % [z, total, capa._visibles.size()])
 		print("[prueba]   marcadores con zoom %s: %d grupos juntos" % [z, juntos])
 	paso.call("marcadores agrupados")
+	# El clic en un grupo abre su lista en el panel; desde una ficha de la lista, volver regresa a ella.
+	var grupo_lista := {}
+	for g in capa.agrupar(0.6):
+		if capa._junto(g, 0.6):
+			grupo_lista = g
+			break
+	if grupo_lista.is_empty():
+		push_error("[prueba] en %d, con zoom 0.6, no hay ningún grupo de marcadores para abrir su lista" % Estado.anio)
+	else:
+		var miembros: Array = grupo_lista["miembros"].map(func(v): return {"tipo": v["tipo"], "id": v["id"]})
+		Estado.pedir_ficha("grupo", {"px": grupo_lista["px"], "zoom": 3.4, "miembros": miembros})
+		await get_tree().process_frame
+		var filas: Array = interfaz.panel._contenido.get_children().filter(func(c): return c is Button and c.theme_type_variation == "BotonPlano")
+		if filas.size() != miembros.size():
+			push_error("[prueba] la lista del grupo muestra %d filas para %d marcadores" % [filas.size(), miembros.size()])
+		else:
+			(filas[0] as Button).pressed.emit()
+			await get_tree().process_frame
+			if interfaz.panel._ficha.get("tipo", "") == "grupo":
+				push_error("[prueba] una fila de la lista del grupo no abrió su ficha")
+			interfaz.panel.volver()
+			await get_tree().process_frame
+			if interfaz.panel._ficha.get("tipo", "") != "grupo":
+				push_error("[prueba] volver desde una ficha de la lista no regresó a la lista")
+	paso.call("lista de un grupo de marcadores")
 	# Atajos de teclado, con eventos de verdad.
 	var tecla := func(codigo: Key) -> void:
 		var ev := InputEventKey.new()

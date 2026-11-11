@@ -114,6 +114,10 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       Capas: el islam figura mayoritario en Anatolia y Galacia desde 1071 aunque la conversión fue gradual; pintar el
       galó de la Alta Bretaña pide una subregión propia; Egipto, el Levante y el Magreb tienen tramos con dos entradas
       mayoritarias a la vez. El inglés de estos paquetes es traducción automática.
+- [ ] **Personas y fuentes en el centro de su ciudad.** En Buenos Aires siguen en un mismo punto unas 250 personas y
+      240 fuentes (y cientos en Londres, París y Roma), además de unos 430 hechos sin un sitio único. Donde se sepa con
+      seguridad, las personas podrían ir a su institución (una universidad, un diario) y las fuentes al lugar donde se
+      escribieron; mientras tanto, la lista del grupo las muestra.
 
 ### Almacenamiento y descargas
 
@@ -187,6 +191,10 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   los papas, emperadores y cruzadas medievales, las guerras y dirigentes del siglo XX, obras de Marx, Engels, Lenin y
   Ayn Rand, y las capas de todas las regiones investigadas hasta hoy, con sus minorías, mayorías solo donde una cifra
   las sostiene y sin anacronismos viejos.
+- **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,
+  con las coordenadas de su artículo en Wikipedia: el Fuerte o la Casa Rosada para virreyes y presidentes, el Congreso
+  de su época para las leyes, el tribunal para los juicios, el campo para las batallas. Lo que no tiene un sitio único
+  (una elección, una epidemia, una guerra) sigue en la ciudad.
 - **Los celtas, de sus raíces preindoeuropeas a su fin**: nueve paquetes, con capas de cultura, idioma y religión
   desde el Neolítico en las doce regiones donde vivieron celtas o sus antecesores. Casi todo lo que se sabe de ellos
   viene de griegos y romanos que fueron sus enemigos, de la arqueología y de textos escritos por monjes siglos
@@ -217,6 +225,9 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 - **Nada en el mapa antes de tiempo**: una persona cuyo `activo` tiene `desde` y `hasta` aparece en su lugar de
   actividad solo esos años; antes, donde nació, y después, donde murió. Los hechos aparecen en su año, y «Ver en el
   mapa» y el buscador llevan a un año y un punto donde se ve. Así el mapa no muestra a nadie donde todavía no estaba.
+- **Actualizaciones a la vista**: el cartel que las ofrece va encima de todo, la consulta se repite cada hora mientras
+  la app está abierta, y si la de al abrir falla, un aviso lo dice; cada resultado queda en el registro. Desde el
+  código, `user://` es otra carpeta, para que las pruebas no cambien los ajustes del TellMAP instalado.
 - **27 279 lugares antiguos de [Pleiades](https://pleiades.stoa.org)** (0.4), cada uno mientras está atestiguado y
   con su ficha. Se leen recién al acercarse al mapa o al buscar, y se dibujan como un MultiMesh filtrado por año en
   un shader, en una sola llamada de dibujo.
@@ -234,6 +245,9 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   de tiempo se recorre arrastrando sin cambiar la escala; con el dedo se mueve, se acerca y se tocan lugares, con más
   margen que el mouse. La prueba automática manda los eventos táctiles como los manda Godot.
 - **Un `.dmg` para macOS** en cada versión, además del zip.
+- **La lista de un grupo de marcadores**: el clic en un grupo abre en el panel la lista de sus hechos, personas y
+  fuentes, cada uno con su ficha, y un botón para acercar el mapa hasta separarlos; volver desde una ficha regresa a
+  la lista.
 
 ### 0.3.5 (11 de noviembre de 2026)
 

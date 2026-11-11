@@ -114,6 +114,10 @@ What's covered and what's missing, region by region, is in [the coverage report]
       although conversion was gradual; painting the Gallo of Upper Brittany needs its own subregion; Egypt, the Levant
       and the Maghreb have stretches with two majority entries at once. The English of these packages is machine
       translation.
+- [ ] **People and sources at the center of their city.** In Buenos Aires about 250 people and 240 sources still
+      share one point (and hundreds in London, Paris and Rome), plus some 430 events with no single site. Where it is
+      known for sure, people could go to their institution (a university, a newspaper) and sources to the place where
+      they were written; meanwhile, the group list shows them.
 
 ### Storage and downloads
 
@@ -187,6 +191,10 @@ New packages reach installed copies as data updates, without waiting for an app 
   account, medieval popes, emperors and crusades, twentieth-century wars and leaders, works by Marx, Engels, Lenin and
   Ayn Rand, and the layers of every researched region up to today, with their minorities, majorities only where a figure
   supports them and without old anachronisms.
+- **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise
+  place, with the coordinates of its Wikipedia article: the Fort or the Casa Rosada for viceroys and presidents, the
+  Congress building of the time for laws, the court for trials, the field for battles. What has no single site (an
+  election, an epidemic, a war) stays in the city.
 - **The Celts, from their pre-Indo-European roots to their end**: nine packages, with culture, language and religion
   layers from the Neolithic on in the twelve regions where Celts or their forerunners lived. Almost everything known
   about them comes from Greeks and Romans who were their enemies, from archaeology and from texts written by monks
@@ -218,6 +226,9 @@ New packages reach installed copies as data updates, without waiting for an app 
   activity only in those years; before, where they were born, and after, where they died. Events appear in their own
   year, and the map button and the search take you to a year and a point where they can be seen. So the map never
   shows anyone where they had not arrived yet.
+- **Updates in plain sight**: the banner that offers them sits above everything, the check repeats every hour while
+  the app is open, and if the startup check fails, a notice says so; every result goes to the log. From source,
+  `user://` is a different folder, so tests don't change the installed TellMAP's settings.
 - **27,279 ancient places from [Pleiades](https://pleiades.stoa.org)** (0.4), each one while it's attested and with
   its own entry. They're read only when zooming into the map or searching, and drawn as a MultiMesh filtered by year
   in a shader, in a single draw call.
@@ -234,6 +245,9 @@ New packages reach installed copies as data updates, without waiting for an app 
   scrolled by dragging without changing its scale; a finger moves the map, zooms and taps places, with a wider margin
   than the mouse. The automatic test sends touch events the way Godot sends them.
 - **A `.dmg` for macOS** in every release, alongside the zip.
+- **The list of a marker group**: clicking a group opens in the panel the list of its events, people and sources,
+  each with its card, and a button that zooms the map in until they separate; going back from a card returns to the
+  list.
 
 ### 0.3.5 (November 11, 2026)
 

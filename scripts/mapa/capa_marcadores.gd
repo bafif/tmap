@@ -3,8 +3,9 @@ extends Node2D
 ## Marcadores sobre el mapa que aparecen y desaparecen con el año: fuentes (donde se escribieron), personas
 ## (mientras viven, donde están ese año), hechos (desde su fecha y un tiempo después) y ciudades (mientras existen).
 ## Se dibujan a tamaño constante en pantalla; los que aparecen en el año actual hacen un pequeño destello.
-## Los que se pisan en pantalla se juntan en un grupo con su número, que se separa al acercarse; los que comparten el
-## punto exacto (varias fuentes de Alejandría) se abren en espiral desde ZOOM_SEPARAR.
+## Los que se pisan en pantalla se juntan en un grupo con su número, que se separa al acercarse y que con un clic abre
+## en el panel la lista de lo que junta; los que comparten el punto exacto (varias fuentes de Alejandría) se abren en
+## espiral desde ZOOM_SEPARAR.
 
 const RADIO := 13.0
 const VENTANA_HECHO := 40
@@ -287,6 +288,7 @@ func elemento_en(mundo: Vector2, zoom: float, holgura := 1.0) -> Dictionary:
 				var nombres: Array = g["miembros"].slice(0, 4).map(func(v): return str(v["texto"]))
 				var resto: int = g["miembros"].size() - nombres.size()
 				return {"tipo": "grupo", "id": "", "px": g["px"], "n": g["miembros"].size(),
+					"miembros": g["miembros"].map(func(v): return {"tipo": v["tipo"], "id": v["id"]}),
 					"texto": tr("%d juntos: %s") % [g["miembros"].size(), "; ".join(nombres)] + (tr(" y %d más") % resto if resto > 0 else "")}
 	for v in sueltos:
 		if zoom < ZOOM_OCULTAR:

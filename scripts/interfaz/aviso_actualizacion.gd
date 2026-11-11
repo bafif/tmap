@@ -2,7 +2,8 @@ class_name AvisoActualizacion
 extends PanelContainer
 ## Aviso arriba al centro del Actualizador: el cartel que ofrece una actualización al abrir («Actualizar» o «Ahora no»;
 ## cerrarlo es «Ahora no»), la app nueva ya instalada (con «Reiniciar ahora»), una versión para bajar a mano (con «Ir a
-## la descarga») o datos nuevos (se cierra solo si ya se ven).
+## la descarga»), datos nuevos (se cierra solo si ya se ven) o que la búsqueda al abrir falló (con «Probar de nuevo»).
+## Va encima de todo lo demás de la interfaz (Interfaz._aviso_arriba).
 
 var _tipo := ""
 var _texto := ""
@@ -41,6 +42,13 @@ func _ready() -> void:
 			no.queue_free()
 			_seguir(l)
 			Actualizador.aceptar())
+	elif _tipo == "error":
+		var otra := Button.new()
+		otra.text = tr("Probar de nuevo")
+		otra.pressed.connect(func():
+			queue_free()
+			Actualizador.reintentar())
+		fila.add_child(otra)
 	elif _tipo == "app" and Actualizador.app_lista == "":
 		var bajar := Button.new()
 		bajar.text = tr("Ir a la descarga")

@@ -37,6 +37,9 @@ and [the plan](plan.md). Encyclopedia format: [ESQUEMA.en.md](../../data/enciclo
   screenshot came out nearly flat), and the same with OpenGL, which is the macOS renderer:
   `GODOT_ARGS="--rendering-method gl_compatibility" tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen
   in Settings is stored in `user://motor.cfg` (`scripts/nucleo/motor.gd`).
+- From source, `user://` is `TellMAP-codigo` in the user's data folder (`~/.local/share/` on Linux), not the installed
+  TellMAP's (`godot/app_userdata/TellMAP`): tests don't touch its settings or its data (`project.godot`, with the
+  `editor` tag).
 - If you touch the updater (`scripts/nucleo/actualizador.gd`, `datos.gd`) or how data is read:
   `python3 tools/actualizacion/probar.py`, and with an exported executable, `--ejecutable <path>`
   ([updates](updates.md)). Everything that reads `data/` goes through `Datos.ruta()`.

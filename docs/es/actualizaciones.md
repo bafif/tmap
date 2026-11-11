@@ -14,11 +14,14 @@ Desde el código fuente (`godot --path .` o el editor) no se busca nada: esa cop
 
 ## Qué ve quien usa la app
 
-Al abrir, si la casilla de **Ajustes → Actualizaciones** está marcada (lo está de entrada), TellMAP consulta el
-manifiesto en GitHub. Si hay algo nuevo, lo ofrece en un cartel arriba al centro («Hay una actualización: TellMAP
-0.3.3 y datos del 12/11/2026. ¿La instalo?») con **Actualizar** y **Ahora no**, y no baja nada hasta que le dicen que
-sí. Con «Ahora no» (o la cruz) no cambia nada y la app sigue como estaba; el cartel vuelve a salir la próxima vez que
-se abra. Con «Actualizar» lo baja, comprueba su sha256, lo instala y avisa en el mismo lugar cuando terminó. Si el
+Al abrir, y después cada hora mientras está abierto, si la casilla de **Ajustes → Actualizaciones** está marcada (lo
+está de entrada), TellMAP consulta el manifiesto en GitHub. Si hay algo nuevo, lo ofrece en un cartel arriba al centro,
+encima de todo lo demás («Hay una actualización: TellMAP 0.3.3 y datos del 12/11/2026. ¿La instalo?»), con
+**Actualizar** y **Ahora no**, y no baja nada hasta que le dicen que sí. Con «Ahora no» (o la cruz) no cambia nada y la
+app sigue como estaba; el cartel vuelve a salir la próxima vez que se abra (la consulta de cada hora no lo repite). Si
+la consulta al abrir no puede terminar (por ejemplo, sin conexión), un aviso lo dice, con **Probar de nuevo**; el
+resultado de cada consulta queda en el registro de la app (`[actualizacion] al abrir: …`). Con «Actualizar» lo baja,
+comprueba su sha256, lo instala y avisa en el mismo lugar cuando terminó. Si el
 ejecutable no se puede reemplazar (por ejemplo, porque está en una carpeta sin permiso de escritura), no pregunta: el
 aviso lleva a la página de descarga. En Ajustes están el estado, «Buscar ahora» (que instala sin preguntar, porque ya
 es un pedido) y la casilla para apagarlo. La consulta no manda nada del usuario: es un pedido a GitHub, como abrir la
