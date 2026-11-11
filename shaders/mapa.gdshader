@@ -87,7 +87,9 @@ void fragment() {
 
 	vec4 rel = texture(tex_relieve, uv);
 	float sd = (rel.g - 0.5) * 255.0 / 4.0;
-	float aa = max(px * 0.7, 0.3);
+	// La distancia a la costa sale de los polígonos (tools/pipeline/costa.py), con precisión de un cuarto de texel: de
+	// cerca, el borde, la línea de costa y las olas pueden ser finos sin que se vean escalones.
+	float aa = max(px * 0.7, 0.1);
 	float es_tierra = 1.0 - smoothstep(-aa, aa, sd);
 
 	// ---------------------------------------------------------------- Agua
@@ -99,7 +101,7 @@ void fragment() {
 		float t = agua_animada ? TIME * 0.9 : 0.0;
 		float paso = 5.5;
 		float d = abs(fract((sd - t) / paso) - 0.5) * paso;
-		float linea = 1.0 - smoothstep(0.0, max(px * 0.9, 0.35), d);
+		float linea = 1.0 - smoothstep(0.0, max(px * 0.9, 0.14), d);
 		float atenua = smoothstep(30.0, 6.0, sd) * smoothstep(1.5, 3.5, sd) * smoothstep(3.5, 1.4, px);
 		agua = mix(agua, agua * 1.25 + vec3(0.02, 0.03, 0.03), linea * atenua * 0.55);
 	}
@@ -341,7 +343,7 @@ void fragment() {
 
 	// ---------------------------------------------------------------- Composición
 	vec3 col = mix(agua, tierra, es_tierra);
-	float costa = 1.0 - smoothstep(0.0, max(px * 0.9, 0.45), abs(sd));
+	float costa = 1.0 - smoothstep(0.0, max(px * 0.9, 0.16), abs(sd));
 	col = mix(col, linea_costa, costa * 0.6);
 
 	if (papel) {

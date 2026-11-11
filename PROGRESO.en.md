@@ -18,9 +18,6 @@ Block finished on November 6, 2026 (see **Done**).
 
 ### Map, performance and distribution (0.2)
 
-- [ ] **Sharp coastlines up close.** At zoom 5 or more, the coast and the nautical chart lines on the water still show
-      steps: the distance to the coast in `relieve.png` was computed from a pixel mask. It has to be generated in the
-      pipeline from the Natural Earth polygons, with sub-pixel resolution.
 - [ ] **Test on other machines.** Windows, a Mac with Apple Silicon and a laptop with integrated graphics. The 0.3.0
       `.exe` already passed `--verificar` and the full test with wine; a real Windows machine is still missing. The
       Intel Mac has been tested (see 0.3.4 under **Done**). On Apple Silicon, since 0.3.4, `verificar-macos` takes a
@@ -150,6 +147,26 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: sharp coastlines up close
+
+- [x] **The distance to the coast comes from the polygons** (`tools/pipeline/costa.py`, G channel of `relieve.png`).
+      It used to be computed from the pixel mask, with integer distances, and up close the coast and the nautical
+      chart lines on the water were staircases. Now the sign comes from the even-odd rule at the exact center of each
+      pixel, the distance is the Euclidean distance to the Natural Earth segments (exact up to 2 px from the coast and
+      propagated with jump flooding up to 32 px; against brute force, mean error 0.06 px) and the antimeridian cuts
+      don't count as coastline. It takes a minute; `python3 costa.py` rewrites only that channel, and `p1_base.py`
+      uses it.
+- [x] **Nothing is lost for being smaller than a pixel.** With the exact distance, a strip of land narrower than a
+      pixel (the Curonian Spit, Hel, the Outer Banks, the Venice Lido) came out dotted or disappeared. Each segment
+      measures the width of the land behind it and, if it is under 1.5 px, the land is thickened to that width; the
+      3158 islands that fit in a 1.5 px square become a disc of that diameter. Narrow water (fjords, the Bosporus) is
+      not widened: it shows as a coastline, and the Bosporus, which used to be closed, now shows.
+- [x] **Up close, the coastline is thin.** The shader had minimum widths to hide the steps (a 0.3 texel edge, a 0.45
+      coastline and 0.35 waves): at zoom 10 the coast was about 11 screen pixels wide and blurry. Now they are 0.1,
+      0.16 and 0.14; from afar nothing changes, because there the term proportional to the zoom wins.
+- [x] `relieve.png` goes from 15.5 to 16.7 MB (it is saved with compression level 9; with the old level it was 17.6).
+      Like all of `data/`, it reaches installed copies as a data update.
 
 ### November 10, 2026: the contemporary era, in seven packages
 

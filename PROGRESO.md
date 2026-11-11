@@ -18,9 +18,6 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Mapa, rendimiento y distribución (0.2)
 
-- [ ] **Costas nítidas de muy cerca.** Con zoom 5 o más, la costa y las líneas de carta náutica del agua todavía
-      muestran escalones: la distancia a la costa de `relieve.png` se calculó desde una máscara de píxeles. Hay que
-      generarla en el pipeline desde los polígonos de Natural Earth, con resolución por debajo del píxel.
 - [ ] **Probar en otros equipos.** Windows, una Mac con Apple Silicon y una notebook con gráficos integrados. El
       `.exe` de la 0.3.0 ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La Mac con
       Intel ya se probó (ver la 0.3.4 en **Hecho**). En Apple Silicon, desde la 0.3.4, `verificar-macos` saca una
@@ -149,6 +146,25 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: costas nítidas de muy cerca
+
+- [x] **La distancia a la costa sale de los polígonos** (`tools/pipeline/costa.py`, canal G de `relieve.png`). Antes
+      se calculaba desde la máscara de píxeles, con distancias enteras, y de cerca la costa y las líneas de carta
+      náutica del agua eran escaleras. Ahora el signo sale de la regla par-impar en el centro exacto de cada píxel, la
+      distancia es la euclídea a los segmentos de Natural Earth (exacta hasta 2 px de la costa y propagada con *jump
+      flooding* hasta 32 px; contra fuerza bruta, error medio de 0,06 px) y los cortes del antimeridiano no cuentan
+      como costa. Tarda un minuto; `python3 costa.py` reescribe solo ese canal, y `p1_base.py` lo usa.
+- [x] **Nada se pierde por ser más chico que un píxel.** Con la distancia exacta, una lengua de tierra más angosta que
+      un píxel (el istmo de Curlandia, Hel, los Outer Banks, el Lido de Venecia) salía punteada o desaparecía. Cada
+      tramo mide el ancho de la tierra hacia adentro y, si es menor que 1,5 px, se la engruesa hasta ese ancho; las
+      3158 islas que entran en un cuadrado de 1,5 px son un disco de ese diámetro. El agua angosta (fiordos, el
+      Bósforo) no se ensancha: se ve como una línea de costa, y el Bósforo, que antes quedaba cerrado, ahora se ve.
+- [x] **De cerca, la costa es fina.** El shader tenía mínimos de ancho para disimular los escalones (borde de 0,3
+      texel, línea de costa de 0,45 y olas de 0,35): con zoom 10 la costa medía unos 11 px de pantalla y se veía
+      borrosa. Ahora son 0,1, 0,16 y 0,14; lejos no cambia nada, porque ahí manda el término proporcional al zoom.
+- [x] `relieve.png` pasa de 15,5 a 16,7 MB (se guarda con compresión 9; con la de antes eran 17,6). Como todo `data/`,
+      llega a las copias instaladas como actualización de datos.
 
 ### 10 de noviembre de 2026: la época contemporánea, en siete paquetes
 

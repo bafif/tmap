@@ -39,7 +39,9 @@ También hay que volver a correr el paso 4, que asigna cada unidad a su país ac
   de `politico.bin`.
 - `politico.bin`: zlib de arrays little-endian (centro y tamaño de cada unidad, eventos año/unidad/antes/después y
   fotos completas de dueños).
-- `relieve.png`: R sombreado (128 = llano), G distancia con signo a la costa (128 = costa), B ríos, A distancia mar
-  adentro.
+- `relieve.png`: R sombreado (128 = llano), G distancia con signo a la costa (128 = costa, 4 valores por píxel,
+  positiva en el agua), B ríos, A distancia mar adentro. El canal G sale de los polígonos de Natural Earth, con
+  precisión por debajo del píxel y un ancho mínimo de 1,5 px para la tierra angosta (`costa.py`, que `p1_base.py`
+  usa); `python3 costa.py` lo reescribe solo, sin rehacer el resto (un minuto).
 
 Godot no importa nada de `data/mapa/` (tiene `.gdignore`): la app lo lee directo al arrancar.

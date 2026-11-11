@@ -38,7 +38,9 @@ You also have to rerun step 4, which assigns each unit to its present-day countr
   of `politico.bin`.
 - `politico.bin`: zlib-compressed little-endian arrays (center and size of each unit, year/unit/before/after events
   and full ownership snapshots).
-- `relieve.png`: R shading (128 = flat), G signed distance to the coast (128 = coastline), B rivers, A distance out
-  to sea.
+- `relieve.png`: R shading (128 = flat), G signed distance to the coast (128 = coastline, 4 values per pixel,
+  positive on water), B rivers, A distance out to sea. The G channel comes from the Natural Earth polygons, with
+  sub-pixel precision and a minimum width of 1.5 px for narrow land (`costa.py`, which `p1_base.py` uses);
+  `python3 costa.py` rewrites it alone, without redoing the rest (one minute).
 
 Godot doesn't import anything from `data/mapa/` (it has a `.gdignore`): the app reads it directly at startup.

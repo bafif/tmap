@@ -3,7 +3,8 @@
 Produce en `data/mapa/`:
 - `terreno.webp`: color del terreno (Blue Marble de la NASA, julio de 2004, regraduado hacia una paleta de mapa pintado).
 - `relieve.png`: RGBA de datos para el shader:
-    R = sombreado del relieve (128 = llano), G = distancia con signo a la costa (128 = costa, >128 agua),
+    R = sombreado del relieve (128 = llano), G = distancia con signo a la costa (128 = costa, >128 agua, 4 valores
+    por píxel; sale de los polígonos, ver `costa.py`),
     B = ríos (cobertura 0..255), A = distancia al agua lejana (0 en tierra, hasta 255 px mar adentro).
 Y en `tools/pipeline/cache/`: `tierra.npy` (máscara booleana) y `elevacion.npy` (uint8), que usan los pasos siguientes.
 
@@ -33,6 +34,7 @@ from comun import (
     reproyectar_equirect,
     reproyectar_equirect_float,
 )
+from costa import codificar, distancia_con_signo
 
 RIOS_ZIP = CRUDOS / "ne_10m_rivers_lake_centerlines.zip"
 
@@ -156,13 +158,10 @@ def main():
     print(t(), "Sombreado listo")
 
     # --- Costa: distancia con signo y distancia lejana ---------------------------------------------------------
+    # La distancia con signo sale de los polígonos, con precisión por debajo del píxel (ver costa.py); la máscara de
+    # tierra se sigue usando para el resto de los canales y para los pasos siguientes.
     agua = ~tierra
-    d_fuera = distancia(tierra, 32).astype(np.float32)  # en el agua, distancia a la tierra
-    d_dentro = distancia(agua, 32).astype(np.float32)  # en la tierra, distancia al agua
-    sdf = np.where(agua, d_fuera - 0.5, -(d_dentro - 0.5))
-    del d_fuera, d_dentro
-    costa = np.clip(128.0 + sdf * 4.0, 0, 255).astype(np.uint8)
-    del sdf
+    costa = codificar(distancia_con_signo())
     chico = np.asarray(Image.fromarray(tierra.astype(np.uint8) * 255).resize((ANCHO // 4, ALTO // 4), Image.Resampling.BOX)) > 127
     lejos = distancia(chico, 64).astype(np.float32) * 4.0
     lejos = Image.fromarray(np.clip(lejos, 0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(4))
@@ -194,7 +193,7 @@ def main():
     print(t(), f"Ríos: {n_rios} tramos")
 
     relieve = np.stack([sombreado, costa, rios, lejos], axis=2)
-    Image.fromarray(relieve, "RGBA").save(SALIDA / "relieve.png", optimize=False, compress_level=6)
+    Image.fromarray(relieve, "RGBA").save(SALIDA / "relieve.png", compress_level=9)
     del relieve, sombreado, costa, rios, lejos
     print(t(), "relieve.png guardado")
 
