@@ -74,6 +74,7 @@ var ajustes := {
 	"mostrar_personas": true,
 	"mostrar_hechos": true,
 	"mostrar_ciudades": true,
+	"mostrar_pleiades": true,
 	"mostrar_nombres": true,
 	"bienvenida_vista": false,
 	## Buscar y bajar actualizaciones al abrir (solo la versión exportada: ver Actualizador).

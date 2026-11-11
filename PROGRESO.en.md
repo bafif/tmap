@@ -30,11 +30,13 @@ Block finished on November 6, 2026 (see **Done**).
       `.app` has to be downloaded (a zip), swapped in one go and reopened.
 - [ ] **Sign and notarize the macOS version** with an Apple Developer account (99 USD a year), so it opens with a
       double click without going through Privacy & Security. Bautista decides.
-- [ ] **A `.dmg` for macOS** (optional): the usual format on Mac, to drag the app to Applications. Opening it from there
-      avoids *App Translocation* (macOS runs quarantined apps from a read-only copy), which will matter the day the
-      macOS app updates itself. Godot builds the `.dmg` only on a Mac: `verificar-macos` can do it with
-      `hdiutil create`. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without
-      notarization Gatekeeper blocks it anyway.
+- [ ] **See the macOS `.dmg` working.** Since November 11, 2026, `verificar-macos` builds with `hdiutil` a `.dmg` with
+      `TellMAP.app` and a shortcut to Applications, after checking the app, and adds it to the release (if that step
+      fails, the release keeps the zip). Opening it from Applications avoids *App Translocation* (macOS runs
+      quarantined apps from a read-only copy), which will matter the day the macOS app updates itself. It still has to
+      be seen in the next published release, opened on the MacBook and, if it works, named in the README as a way to
+      install. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without notarization
+      Gatekeeper blocks it anyway.
 
 ### Progressive encyclopedia (0.3)
 
@@ -61,15 +63,6 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
 - [ ] **Ongoing court cases.** As of November 10, 2026: the Cuadernos oral trial still has no verdict, and it's unclear
       whether the Hotesur-Los Sauces and Memorandum with Iran trials have started. Check them every so often and update
       their events.
-- [ ] **Modern places without a date, shown in every era.** A place without `fundacion` counts from 3400 BC: Omaha
-      Beach and the Ecuadorian embassy in London show up on the map of 1350 BC. There are fourteen:
-      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` and `isla-huemul`
-      (argentina-contemporanea), `rosario`, `casa-del-acuerdo`, `barranca-yaco` and `playa-de-la-agraciada`
-      (guerras-civiles-y-organizacion-nacional), `puerto-san-julian` and `loreto-misiones` (rio-de-la-plata-colonial),
-      `embajada-de-ecuador-en-londres`, `playa-de-omaha` and `mont-pelerin`. The buildings, towns and missions lack
-      their founding or opening year, with its source; for natural places that matter because of an event (an island,
-      a beach, a ravine) we'd have to decide from when to show them (the first event, with `aprox`) or have the app
-      show them from their first event. The 43 undated places in the Holy Land, Thebes and Heliopolis are fine as is.
 - [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector and Galeano. Hawaii has no region (Pearl Harbor falls outside all of
@@ -106,9 +99,7 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       Chacho, and the year of the Instituto Rosas (1938 or 1941). Several academic works still lack their main
       criticism with its author. Four sources still have no place of writing (the Requerimiento, the Democrates alter,
       Luis Ramírez's letter and Luis de la Cruz's diary). The English of these packages is machine translation and is
-      worth reviewing. With 4636 items, the automated test leaves some 5,100 “Out of resolver queries” warnings (3,500
-      with the previous data): `wiki.gd` requests the Wikipedia image of every entry it opens, without a queue, and
-      Godot's DNS queue runs out; those requests should be queued.
+      worth reviewing.
 - [ ] **Holy Land: what was left out.** Sinai goes with Egypt. Lebanon, Syria, Transjordan, Arabia, the Maghreb and
       Cyprus only have the HYDE, Gapminder and UN per-country series, with no curated estimate. Armenia has layers up
       to 1920: after that, the Turkish part is painted by Anatolia and the Republic of Armenia has no layers. 24
@@ -141,14 +132,24 @@ Each step is done when its threshold is crossed, not before.
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
 - [ ] **Permanent mirrors** of each data version on Internet Archive and Zenodo, with both addresses in the updater's
       manifest.
-- [ ] **Reading links that don't get lost**: an `archivo` field with the Wayback Machine copy, and
-      `tools/enciclopedia/enlaces.py`, which checks them and requests a copy of new ones; it runs before each release.
+- [ ] **The reading links left without a copy.** 118 of the 739 not on archive.org have no copy on the Wayback
+      Machine (41 from Gutenberg, 35 from Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` asks it to
+      archive them, one every 15 s. On November 11, 2026 web.archive.org stopped accepting connections from this
+      machine after a few parallel requests to its CDX API, so it's left for another run. `--comprobar`, which lists
+      dead originals, hasn't been run yet either.
 - [ ] **Religion by country today** (Pew Research Center, 2010 and 2020) as one more series in the "Current country"
       block, and with it the religion layers of the world regions in the present era.
 
 ### Open data at scale (0.4)
 
-- [ ] **Pleiades places.** The ancient places from [Pleiades](https://pleiades.stoa.org).
+- [ ] **Pleiades: what's left.** 91 of the encyclopedia's 438 places are joined to a Pleiades place; the rest don't
+      have the identifier in Wikidata or are modern. When ancient places are added, `tools/pleiades/enlazar.py` has to
+      be run again (`validar.py` warns if the join names a place that no longer exists, but not if a new one is
+      missing). The data is read on the main thread the first time it's needed (some 150 to 270 ms
+      when zooming into the map or searching for the first time): move it to a thread along with the packages, when
+      that step is done. Pleiades' descriptions are in English. Left out are the 8,800 places without a location, the
+      1,400 without dates and those that aren't a point (rivers, mountains, islands, regions, peoples, roads): rivers
+      and roads could go in as lines in 0.5.
 - [ ] **People from Wikidata.** With place and date of birth and death.
 - [ ] **HYDE population grids.** HYDE's per-country series is already in (via Our World in Data, see **Done**). The
       5-arc-minute grid is still missing, with its low and high scenarios, to sum the population inside each polygon,
@@ -235,6 +236,51 @@ Each step is done when its threshold is crossed, not before.
 - [x] The compact-format builder accepts bracketed coordinates and places with spaces in "activo".
 - [x] The English of the new texts is machine translation; the titles of works published in English are the
       originals.
+
+### November 11, 2026: reading links that don't get lost
+
+- [x] **Archived copies of the reading links.** `tools/enciclopedia/enlaces.py` looks up on the Wayback Machine the
+      copy of every `leer` link and saves it in `data/enciclopedia/archivo.json`: 621 of the 739 links not on
+      archive.org have a copy. A source's entry shows a «Copy» button next to each one, in case the original doesn't
+      open, and `validar.py` warns how many don't have one. The copies live apart, not as an `archivo` field in each
+      `leer` (what the storage plan said): that way the tool doesn't rewrite the packages edited by hand or with the
+      editor. It's run by hand before each release.
+
+### November 11, 2026: the ancient places of Pleiades (0.4)
+
+- [x] **27,279 ancient places from [Pleiades](https://pleiades.stoa.org)** on the map (CC BY 3.0): settlements,
+      villas, fortifications, sanctuaries, tombs, ports, road stations and bridges, public buildings, mines and
+      archaeological sites, each one while it is attested (from 3000 BC to today, mostly from 500 BC to AD 500).
+      `tools/pleiades/pleiades.py` downloads the daily dump and writes `data/pleiades/lugares.json` (1.5 MB, one row per
+      place). It's only read when zooming into the map or searching. The dots are a MultiMesh filtered by year in a
+      shader (a single draw call for all of them) and show up from zoom 1.3, small so they aren't mistaken for the
+      encyclopedia's cities; settlement names from 4.5, and all names from 7. Each place has an entry: category,
+      years, and live (through the same queue as Wikipedia) its description, its ancient names in each language and
+      the Wikipedia summary if Pleiades links one. They can be searched from the bar, there's a switch in the legend
+      and credit in Settings and in [Data and licenses](docs/en/data.md). Tested with Vulkan and with OpenGL.
+- [x] **Pleiades and the encyclopedia, joined.** `tools/pleiades/enlazar.py` looks up in Wikidata the Pleiades
+      identifier (P1584) of each encyclopedia place, from its Wikipedia article, and accepts it if the point is within
+      25 km (`data/pleiades/enciclopedia.json`; the packages aren't touched). 91 were joined (León with the camp of
+      *Legio VII Gemina*, Mecca with *Macoraba*, Medina with *Iathrippa*): their Pleiades dot is no longer drawn on top
+      of the city, and the city's entry adds Pleiades' ancient names.
+
+### November 11, 2026: places with dates and Wikipedia in a queue
+
+- [x] **Modern places no longer show up in every era.** A place without `fundacion` was shown from 3400 BC (Omaha
+      Beach on the map of 1350 BC). The fourteen that were like that now have a verified year: buildings and
+      institutions, their opening (Once station, 1857; the Comodoro Py courts, c. 1993, when the federal courts moved
+      into the former highway agency building); sites and natural places, the event that made them known (Martín
+      García, 1516; the Falklands/Malvinas, 1764, the first settlement, since the first sighting is disputed; the Casa
+      del Acuerdo, 1852; Omaha, 1944); Rosario, c. 1724, and Loreto, c. 1632. `validar.py` now requires the date for
+      libraries, universities, laboratories, institutions and historic sites, the app's editor warns about it, and the
+      rule is in the schema. Ancient cities of unknown origin (the Holy Land, Thebes, Heliopolis) stay undated, on
+      purpose.
+- [x] **Wikipedia requests go through a queue.** The app requested the summary and image of every entry it opened,
+      all at once and even after the entry had been closed, and with many in a row Godot's DNS queue ran out (the
+      automated test left some 5,100 “Out of resolver queries” warnings). Now `wiki.gd` makes four requests at a
+      time, serves the entry being viewed first, drops those of old entries, shares a request when two ask for the
+      same thing, and doesn't remember a connection failure (it retries when the entry is reopened). Full test: 0
+      warnings.
 
 ### November 11, 2026: exported builds, with their typefaces
 

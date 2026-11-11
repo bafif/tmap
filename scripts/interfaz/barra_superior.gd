@@ -113,6 +113,11 @@ func _buscar(texto: String) -> void:
 		var detalle: String = r.get("detalle", tr(PanelInfo.NOMBRES_TIPO.get(r["tipo"], "")) if r["tipo"] != "" else "")
 		r["detalle"] = detalle
 		items.append(r)
+	# Los lugares de Pleiades se leen recién acá (la primera búsqueda de tres letras o más) si el mapa no los cargó.
+	if texto.strip_edges().length() >= 3:
+		for i in Pleiades.buscar(texto.strip_edges(), 6):
+			items.append({"tipo": "pleiades", "id": str(Pleiades.ids[i]), "texto": Pleiades.nombre(i),
+				"detalle": tr("Lugar antiguo") + " · " + Pleiades.nombre_categoria(i)})
 	if items.is_empty():
 		var l := Label.new()
 		l.theme_type_variation = "Suave"
@@ -157,6 +162,13 @@ func _elegir(item: Dictionary) -> void:
 			if u > 0:
 				Estado.seleccionar_lugar(u, centro)
 		Estado.pedir_ficha("entidad", i)
+		return
+	if item["tipo"] == "pleiades":
+		var k := Pleiades.indice(int(item["id"]))
+		if k >= 0:
+			Estado.fijar_anio(clampi(Estado.anio, Pleiades.desde[k], Pleiades.hasta[k]))
+			Estado.enfocar(Pleiades.px[k], CapaPleiades.ZOOM_NOMBRES)
+		Estado.pedir_ficha("pleiades", item["id"])
 		return
 	Estado.pedir_ficha(item["tipo"], item["id"])
 	var el := Enciclopedia.elemento(item["tipo"], item["id"])
