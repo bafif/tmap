@@ -3548,6 +3548,573 @@
       "por_que_importa": "Es la principal teoría del populismo de izquierda y se usó para pensar al kirchnerismo, al chavismo y a Podemos. Sus críticos liberales le objetan que justifica la polarización y la concentración del poder en el líder.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "sobre-la-cuestion-judia",
+      "titulo": "Sobre la cuestión judía",
+      "titulo_original": "Zur Judenfrage",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1840,
+        "hasta": 1843
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Ensayo (escrito entre octubre y diciembre de 1843 en París, aunque pudo empezarlo en Kreuznach; publicado en los Anales franco-alemanes, febrero de 1844)",
+      "resumen": "Marx responde a dos escritos de Bruno Bauer sobre la emancipación de los judíos en Prusia. Bauer sostenía que los judíos solo podían emanciparse políticamente si renunciaban a su religión; Marx distingue entre emancipación política y emancipación humana: un Estado laico no suprime la religión ni la propiedad (el ejemplo es Estados Unidos), de modo que la libertad política deja intactas las ataduras económicas. En la segunda parte identifica el «judaísmo práctico» con el comercio y el dinero de la sociedad burguesa: «¿Cuál es el culto mundano del judío? La usura. ¿Cuál es su dios mundano? El dinero».",
+      "por_que_importa": "Es una de las primeras formulaciones de la crítica de Marx a los derechos liberales y de su distinción entre emancipación política y humana. Su segunda parte, que recurre al estereotipo del judío como especulador, ha sido leída como antisemita por unos críticos; muchos marxistas y otros estudiosos lo niegan y la entienden como una crítica del capitalismo.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1844/jewish-question/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Sobre la cuestión judía",
+        "en": "On the Jewish Question"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "critica-de-la-filosofia-del-derecho-de-hegel",
+      "titulo": "Contribución a la crítica de la filosofía del derecho de Hegel",
+      "titulo_original": "Zur Kritik der Hegelschen Rechtsphilosophie",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "Bad Kreuznach",
+        "lon": 7.867,
+        "lat": 49.847
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1820,
+        "hasta": 1843
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Manuscrito (inédito hasta 1927) e introducción (publicada en 1844)",
+      "resumen": "En el verano de 1843, en Kreuznach, Marx comentó párrafo por párrafo los pasajes de los «Principios de la filosofía del derecho» de Hegel (1820) sobre la sociedad civil y el Estado. Critica que Hegel parta de abstracciones y señala la separación moderna entre la vida real en la sociedad civil y la vida política como ciudadano. La introducción, escrita entre fines de 1843 y enero de 1844 y publicada en febrero de 1844 en los Anales franco-alemanes, contiene su comentario más célebre sobre la religión, «el opio del pueblo».",
+      "por_que_importa": "Contiene la primera formulación de la teoría de la alienación de Marx, influida por Feuerbach y Bauer, y su paso de la crítica de la religión a la crítica de la sociedad.",
+      "leer": [
+        {
+          "titulo": "Manuscrito de 1843 en inglés en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1843/critique-hpr/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Introducción (1844) en inglés en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Crítica de la filosofía del derecho de Hegel",
+        "en": "Critique of Hegel's Philosophy of Right"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tesis-sobre-feuerbach",
+      "titulo": "Tesis sobre Feuerbach",
+      "titulo_original": "Thesen über Feuerbach",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.353,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1845,
+        "hasta": 1845
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Notas manuscritas (publicadas por Engels en 1888)",
+      "resumen": "Once notas breves que Marx escribió en Bruselas, después de ser expulsado de Francia en febrero de 1845, como esquema del primer capítulo de «La ideología alemana». Critica el materialismo contemplativo de Feuerbach y de los jóvenes hegelianos, que concibe la esencia humana de forma aislada y abstracta, y sostiene que esa esencia es el conjunto de las relaciones sociales. Nunca se publicaron en vida de Marx: las imprimió Engels en 1888 como apéndice de un folleto suyo.",
+      "por_que_importa": "La undécima tesis, «los filósofos no han hecho más que interpretar el mundo de distintos modos; de lo que se trata es de transformarlo», está grabada en la tumba de Marx y resume el giro hacia la práctica política que dio al materialismo histórico.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1845/theses/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Tesis sobre Feuerbach",
+        "en": "Theses on Feuerbach"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-miseria-de-la-filosofia",
+      "titulo": "La miseria de la filosofía",
+      "titulo_original": "Misère de la philosophie",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1847,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.353,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1846,
+        "hasta": 1847
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro (París y Bruselas, 1847)",
+      "resumen": "Escrito originalmente en francés durante su exilio en Bruselas, es una respuesta a «Sistema de las contradicciones económicas o filosofía de la miseria» (1846) de Proudhon. Marx critica el mutualismo proudhoniano y su tratamiento de las categorías económicas como ideas eternas y no como relaciones de producción propias de cada época histórica; Proudhon, a su vez, rechazaba la acción política y proponía la acción económica de la clase obrera.",
+      "por_que_importa": "Marca la ruptura de Marx con Proudhon y con el socialismo no marxista y anticipa el método histórico de su crítica de la economía política; la polémica entre marxistas y anarquistas sobre el Estado y la acción política arranca en parte de aquí.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1847/poverty-philosophy/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La miseria de la filosofía",
+        "en": "The Poverty of Philosophy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "trabajo-asalariado-y-capital",
+      "titulo": "Trabajo asalariado y capital",
+      "titulo_original": "Lohnarbeit und Kapital",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1847,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.353,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1847,
+        "hasta": 1847
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Conferencias (publicadas como artículos en la Neue Rheinische Zeitung, abril de 1849)",
+      "resumen": "Texto de las conferencias que Marx dio en 1847 en Bruselas a la Asociación de Obreros Alemanes, publicado en cinco artículos en abril de 1849. Esboza la idea de que el salario paga la fuerza de trabajo y no el trabajo, el «ejército industrial de reserva» y el empobrecimiento relativo del proletariado. En el original de 1849 el obrero vende su «trabajo»; Engels lo cambió por «fuerza de trabajo» en la edición de 1891, que es la del enlace.",
+      "por_que_importa": "Anticipa en forma sencilla los argumentos centrales de «El capital», veinte años después, y fue durante décadas uno de los folletos de divulgación de la economía marxista más reeditados.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1847/wage-labour/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Trabajo asalariado y capital",
+        "en": "Wage Labour and Capital"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "contribucion-a-la-critica-de-la-economia-politica",
+      "titulo": "Contribución a la crítica de la economía política",
+      "titulo_original": "Zur Kritik der politischen Ökonomie",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1859,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1776,
+        "hasta": 1859
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro",
+      "resumen": "Primer libro publicado de la crítica de la economía política que Marx llevaba años preparando, dedicado sobre todo a la mercancía y al dinero a partir de la lectura de Adam Smith y David Ricardo. Gran parte se incorporó después al tomo I de «El capital»; la obra se considera secundaria salvo su prólogo.",
+      "por_que_importa": "El prólogo contiene la exposición más conocida de la concepción materialista de la historia: las relaciones de producción forman la base sobre la que se levanta la superestructura jurídica y política, y «no es la conciencia de los hombres la que determina su ser, sino el ser social el que determina su conciencia». A la teoría se le critica el determinismo económico.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Una contribución a la crítica de la economía política",
+        "en": "A Contribution to the Critique of Political Economy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "manuscritos-de-1844",
+      "titulo": "Manuscritos económicos y filosóficos de 1844",
+      "titulo_original": "Ökonomisch-philosophische Manuskripte aus dem Jahre 1844",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1844,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1844,
+        "hasta": 1844
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Cuadernos inéditos (publicados en 1932)",
+      "resumen": "Notas inconclusas que Marx escribió en París entre abril y agosto de 1844, apoyado en Hegel y Feuerbach, para criticar la economía política clásica. Sostiene que el trabajo asalariado en la industria moderna aliena al obrero de su producto, de su actividad, de los demás y de sí mismo. Fueron publicados por primera vez en alemán en 1932 por el Instituto Marx-Engels-Lenin de la URSS y en 1933 en Moscú.",
+      "por_que_importa": "Su publicación en los años treinta cambió la lectura de Marx: la ortodoxia soviética las tenía por «filosóficas» o «antropológicas», mientras que para muchos marxistas occidentales de la segunda mitad del siglo XX mostraron el humanismo de su pensamiento temprano.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1844/manuscripts/preface.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Texto en español en marxists.org",
+          "url": "https://www.marxists.org/espanol/m-e/1840s/manuscritos/index.htm",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Manuscritos económicos y filosóficos de 1844",
+        "en": "Economic and Philosophic Manuscripts of 1844"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "grundrisse",
+      "titulo": "Elementos fundamentales para la crítica de la economía política (Grundrisse)",
+      "titulo_original": "Grundrisse der Kritik der Politischen Ökonomie (Rohentwurf)",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1857,
+        "anio_hasta": 1858,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1857,
+        "hasta": 1858
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Siete cuadernos manuscritos (publicados en 1939-1941)",
+      "resumen": "Borrador inconcluso, escrito entre 1857 y 1858 durante la crisis financiera de 1857, que contiene el primer gran bosquejo de la crítica de la economía política: la alienación, el capital como valor que se valoriza a sí mismo y un análisis de las formas económicas precapitalistas. Incluye el «Fragmento sobre las máquinas», sobre los efectos de la automatización y el «intelecto general». Apareció en alemán en Moscú en 1939 y 1941, pero solo fue de difusión amplia en los años sesenta y setenta.",
+      "por_que_importa": "Es el «laboratorio» de «El capital»; su estudio por Roman Rosdolsky (1968) lo puso en el centro de la discusión sobre la obra de Marx.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1857/grundrisse/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Grundrisse",
+        "en": "Grundrisse"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "materialismo-y-empiriocriticismo",
+      "titulo": "Materialismo y empiriocriticismo",
+      "titulo_original": "Материализм и эмпириокритицизм",
+      "autor": "Vladímir Lenin",
+      "autor_id": "lenin",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1908,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1904,
+        "hasta": 1908
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Libro (Moscú, mayo de 1909)",
+      "resumen": "Escrito por Lenin entre febrero y octubre de 1908 en Ginebra y Londres, con subtítulo «Notas críticas sobre una filosofía reaccionaria», es una respuesta al «Empiriomonismo» de Alexandr Bogdánov, su oponente dentro del partido, y a la filosofía empiriocriticista. Sostiene que las sensaciones son copias de objetos que existen fuera de la mente y que la verdad objetiva es posible, aunque las teorías sean solo relativamente verdaderas.",
+      "por_que_importa": "Fue lectura obligatoria en toda la educación superior soviética como obra fundacional del materialismo dialéctico. Bogdánov, su oponente, fue expulsado de la fracción bolchevique en junio de 1909, el año de la publicación, por una reunión ampliada de la redacción de Proletari.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/lenin/works/1908/mec/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Materialismo y empiriocriticismo",
+        "en": "Materialism and Empirio-criticism"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-revolucion-proletaria-y-el-renegado-kautsky",
+      "titulo": "La revolución proletaria y el renegado Kautsky",
+      "titulo_original": "Пролетарская революция и ренегат Каутский",
+      "autor": "Vladímir Lenin",
+      "autor_id": "lenin",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1917,
+        "hasta": 1918
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Folleto",
+      "resumen": "Folleto escrito en octubre y noviembre de 1918 en respuesta a «La dictadura del proletariado», que Karl Kautsky había publicado en Viena en agosto y en el que condenaba como desvío del socialismo las medidas dictatoriales bolcheviques. Lenin contesta que la dictadura del proletariado es un concepto central de Marx y Engels y la define como un poder «conquistado y mantenido mediante la violencia del proletariado contra la burguesía, un poder no sujeto a ley alguna» (cap. 1). Niega que exista una «democracia pura» en una sociedad dividida en clases y llama a Kautsky «renegado»; el centro de la polémica fue la disolución de la Asamblea Constituyente.",
+      "por_que_importa": "Fija la posición bolchevique en el gran debate de la posguerra entre marxistas sobre el papel de la democracia y la fuerza en la transición al socialismo. Kautsky y Rosa Luxemburgo («La revolución rusa», 1918) sostuvieron que suprimir la democracia llevaba a la dictadura de un partido.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La revolución proletaria y el renegado Kautsky",
+        "en": "The Proletarian Revolution and the Renegade Kautsky"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-enfermedad-infantil-del-izquierdismo",
+      "titulo": "La enfermedad infantil del «izquierdismo» en el comunismo",
+      "titulo_original": "Детская болезнь «левизны» в коммунизме",
+      "autor": "Vladímir Lenin",
+      "autor_id": "lenin",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1903,
+        "hasta": 1920
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Folleto",
+      "resumen": "Obra escrita en 1920 contra las corrientes comunistas que se ubicaban a la izquierda de los bolcheviques, entre ellas la del Partido Comunista Obrero de Alemania (KAPD) y la de los comunistas ingleses. Lenin repasa la historia del bolchevismo, defiende la disciplina de hierro del partido y critica el antiparlamentarismo y el rechazo a trabajar en los sindicatos reformistas. Se publicó en ruso, alemán, inglés y francés y se entregó un ejemplar a cada delegado del II Congreso de la Internacional Comunista.",
+      "por_que_importa": "Fue un texto de referencia de la estrategia de la Internacional Comunista, que aceptaba trabajar en los parlamentos y en los sindicatos reformistas. El KAPD, uno de los blancos de Lenin, se había escindido del partido alemán entre la escritura y la publicación.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La enfermedad infantil del izquierdismo en el comunismo",
+        "en": "\"Left-Wing\" Communism: An Infantile Disorder"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "testamento-de-lenin",
+      "titulo": "Testamento de Lenin (Carta al congreso)",
+      "titulo_original": "Письмо к съезду",
+      "autor": "Vladímir Lenin",
+      "autor_id": "lenin",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1922,
+        "anio_hasta": 1923,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1922,
+        "hasta": 1923
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Notas dictadas",
+      "resumen": "Texto dictado a sus secretarias, entre ellas Lidia Fótieva, en el Kremlin del 23 de diciembre de 1922 al 4 de enero de 1923, después de sus ataques cerebrales; Lenin se fue a Gorki el 15 de mayo de 1923. Propone cambios en los órganos soviéticos y describe a los dirigentes bolcheviques (Trotski, Stalin, Zinóviev, Kámenev, Bujarin y Piatakov); advierte del riesgo de una escisión entre Trotski y Stalin y, en una posdata, propone remover a Stalin como secretario general. Su viuda, Nadezhda Krúpskaya, lo entregó al Comité Central después de la muerte de Lenin (21 de enero de 1924), y el triunvirato de Stalin, Zinóviev y Kámenev resolvió en el XIII Congreso (mayo de 1924), con la oposición de Krúpskaya, que se leyera a cada delegación por separado, sin tomar notas.",
+      "por_que_importa": "Stalin y sus aliados lo mantuvieron en secreto; Max Eastman lo difundió en Occidente (1925 y 1926) y la URSS lo negó hasta que Jrushchov lo mencionó en su discurso secreto de 1956. La mayoría de los historiadores lo considera obra de Lenin, aunque hay dudas sobre su origen y autenticidad.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en marxists.org",
+          "url": "https://www.marxists.org/archive/lenin/works/1922/dec/testamnt/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Testamento de Lenin",
+        "en": "Lenin's Testament"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-ideologia-alemana",
+      "titulo": "La ideología alemana",
+      "titulo_original": "Die deutsche Ideologie",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1845,
+        "anio_hasta": 1846,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.353,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1840,
+        "hasta": 1846
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Manuscritos (publicados completos en 1932)",
+      "resumen": "Obra escrita en conjunto por Marx y Engels en 1845-1846, que no encontró editor: Marx dijo que la dejaron «a la crítica roedora de los ratones». Expone por primera vez la concepción materialista de la historia: las condiciones materiales y el modo de producción son la base de la sociedad y la conciencia es un producto de ellas. La primera parte, «Feuerbach», es la exposición más sistemática; el resto es una polémica con Bruno Bauer, con Max Stirner y con el «socialismo verdadero». Los manuscritos se publicaron completos por primera vez en 1932, en Moscú.",
+      "por_que_importa": "Marca la ruptura definitiva de los autores con el idealismo alemán y sienta las bases de «El manifiesto comunista» y «El capital». Lo que hoy se lee como libro es una construcción editorial hecha a partir de manuscritos sin revisar.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1845/german-ideology/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La ideología alemana",
+        "en": "The German Ideology"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-sagrada-familia",
+      "titulo": "La sagrada familia, o crítica de la crítica crítica",
+      "titulo_original": "Die heilige Familie, oder Kritik der kritischen Kritik",
+      "autor": "Karl Marx",
+      "autor_id": "marx",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1844,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1840,
+        "hasta": 1844
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro (1845)",
+      "resumen": "Primer trabajo conjunto de Marx y Engels, redactado en noviembre de 1844 a partir del encuentro de ambos en París y publicado en 1845. Critica a los jóvenes hegelianos, en especial a los hermanos Bruno y Edgar Bauer; el título, sugerido por el editor, es una burla de ellos y de sus seguidores. Engels terminó sus capítulos antes de irse de París; Marx escribió la mayor parte. Bruno Bauer respondió que lo habían malinterpretado y Marx le contestó en 1846.",
+      "por_que_importa": "Inicia la colaboración y la amistad de Marx y Engels, y muestra a Marx volcado a una concepción materialista y socialista tras sus manuscritos de 1844.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en marxists.org",
+          "url": "https://www.marxists.org/archive/marx/works/1845/holy-family/index.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La sagrada familia (libro)",
+        "en": "The Holy Family (book)"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3588,7 +4155,17 @@
         "manifiesto-inaugural-de-la-ait",
         "el-capital",
         "la-guerra-civil-en-francia",
-        "critica-del-programa-de-gotha"
+        "critica-del-programa-de-gotha",
+        "sobre-la-cuestion-judia",
+        "critica-de-la-filosofia-del-derecho-de-hegel",
+        "tesis-sobre-feuerbach",
+        "la-miseria-de-la-filosofia",
+        "trabajo-asalariado-y-capital",
+        "contribucion-a-la-critica-de-la-economia-politica",
+        "manuscritos-de-1844",
+        "grundrisse",
+        "la-ideologia-alemana",
+        "la-sagrada-familia"
       ],
       "wikipedia": {
         "es": "Karl Marx",
@@ -3631,7 +4208,9 @@
         "la-situacion-de-la-clase-obrera",
         "anti-duhring",
         "del-socialismo-utopico-al-cientifico",
-        "el-origen-de-la-familia"
+        "el-origen-de-la-familia",
+        "la-ideologia-alemana",
+        "la-sagrada-familia"
       ],
       "wikipedia": {
         "es": "Friedrich Engels",
@@ -3821,7 +4400,11 @@
         "que-hacer-lenin",
         "imperialismo-fase-superior",
         "tesis-de-abril",
-        "el-estado-y-la-revolucion"
+        "el-estado-y-la-revolucion",
+        "materialismo-y-empiriocriticismo",
+        "la-revolucion-proletaria-y-el-renegado-kautsky",
+        "la-enfermedad-infantil-del-izquierdismo",
+        "testamento-de-lenin"
       ],
       "wikipedia": {
         "es": "Lenin",
@@ -7079,6 +7662,91 @@
       "wikipedia": {
         "es": "Sufragio femenino en Nueva Zelanda",
         "en": "Women's suffrage in New Zealand"
+      }
+    },
+    {
+      "id": "guerra-civil-rusa",
+      "titulo": "Guerra civil rusa",
+      "anio": 1917,
+      "anio_hasta": 1922,
+      "aprox": false,
+      "lugar": "Moscú",
+      "lon": 37.617,
+      "lat": 55.751,
+      "tipo": "batalla",
+      "resumen": "Guerra entre facciones del antiguo Imperio ruso desde la toma del poder bolchevique de octubre de 1917, que se volvió guerra abierta entre mayo y junio de 1918. Se enfrentaron el Ejército Rojo, que luchaba por establecer un Estado socialista dirigido por los bolcheviques de Lenin, el movimiento Blanco con oficiales del antiguo ejército en torno al almirante Kolchak y otras fuerzas, como los anarquistas de Makhnó y los eseristas de izquierda; trece Estados intervinieron contra los bolcheviques, sobre todo para reabrir el frente oriental, y los bolcheviques, que en enero de 1918 habían disuelto la Asamblea Constituyente ganada por los eseristas, reprimieron a sus opositores con el «Terror Rojo» desde agosto de 1918, mientras el movimiento Blanco quedó asociado a pogromos antisemitas. La guerra terminó con la toma de Vladivostok en octubre de 1922, con entre 7 y 12 millones de muertos, en su mayoría civiles, y la hambruna de 1921-1922 (sequía, guerra y requisas de grano del comunismo de guerra) mató a unos cinco millones.",
+      "regiones": [
+        "rus",
+        "estepa-pontica",
+        "siberia"
+      ],
+      "fuentes": [
+        "tratado-de-brest-litovsk",
+        "la-revolucion-proletaria-y-el-renegado-kautsky"
+      ],
+      "wikipedia": {
+        "es": "Guerra civil rusa",
+        "en": "Russian Civil War"
+      }
+    },
+    {
+      "id": "revolucion-de-noviembre",
+      "titulo": "Revolución de Noviembre",
+      "anio": 1918,
+      "anio_hasta": 1919,
+      "aprox": false,
+      "lugar": "Berlín",
+      "lon": 13.383,
+      "lat": 52.517,
+      "tipo": "revolucion",
+      "resumen": "Derribó al Imperio alemán al final de la Primera Guerra Mundial y abrió paso a la República de Weimar. Empezó con un motín en la flota frente a Wilhelmshaven (29-30 de octubre de 1918) que se convirtió en levantamiento en Kiel el 3 de noviembre y se extendió por consejos de obreros y soldados; el 9 se proclamó la república en Berlín y el káiser Guillermo II huyó a Holanda al día siguiente. El gobierno provisional de los dos partidos socialistas, bajo Friedrich Ebert, conservó el cuerpo de oficiales, la administración y la justicia imperiales; los moderados bloquearon a quienes querían una república de consejos, el levantamiento espartaquista de enero de 1919 fue reprimido y los Freikorps asesinaron a Rosa Luxemburgo y Karl Liebknecht, y la fecha de cierre más aceptada es el 11 de agosto de 1919, con la Constitución de Weimar.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Revolución de Noviembre",
+        "en": "German revolution of 1918–1919"
+      }
+    },
+    {
+      "id": "revolucion-rumana-de-1989",
+      "titulo": "Revolución rumana de 1989",
+      "anio": 1989,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bucarest",
+      "lon": 26.098,
+      "lat": 44.413,
+      "tipo": "revolucion",
+      "resumen": "Estallido violento de diciembre de 1989 contra el régimen de Nicolae Ceaușescu, líder del Partido Comunista desde 1965, que había impuesto años de austeridad para pagar la deuda externa. Empezó en Timișoara con las protestas por el intento de desalojar al pastor reformado húngaro László Tőkés; el 21 de diciembre un discurso de Ceaușescu en Bucarest salió mal, el ejército se pasó al lado de los manifestantes y él y su esposa fueron juzgados por un tribunal militar sumario y fusilados el 25. Murieron 1.104 personas, 942 de ellas después de que tomó el poder el Frente de Salvación Nacional de Ion Iliescu, en tiroteos contra «terroristas» nunca identificados; se discute si fue una revolución o una «revolución robada».",
+      "regiones": [
+        "rumania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Revolución rumana de 1989",
+        "en": "Romanian revolution"
+      }
+    },
+    {
+      "id": "golpe-de-agosto-de-1991",
+      "titulo": "Intento de golpe de Estado en la Unión Soviética",
+      "anio": 1991,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Moscú",
+      "lon": 37.617,
+      "lat": 55.751,
+      "tipo": "politico",
+      "resumen": "Entre el 18 y el 22 de agosto de 1991, un grupo de dirigentes del partido, del ejército y de la seguridad, opuestos a la perestroika y al nuevo tratado de la Unión, formó el Comité Estatal para el Estado de Emergencia (GKChP), con el vicepresidente Guennadi Yanáyev, e intentó desplazar a Mijaíl Gorbachov. Detuvieron a Gorbachov en su dacha, pero no a Borís Yeltsin, que lideró la resistencia junto con miles de manifestantes en Moscú; murieron tres hombres. El golpe fracasó en dos días, sus organizadores fueron procesados (la Duma los amnistió el 23 de febrero de 1994), el PCUS quedó inactivo y la Unión Soviética se disolvió en diciembre.",
+      "regiones": [
+        "rus"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Intento de golpe de Estado en la Unión Soviética de 1991",
+        "en": "1991 Soviet coup attempt"
       }
     }
   ],

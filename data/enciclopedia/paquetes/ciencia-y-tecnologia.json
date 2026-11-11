@@ -3191,6 +3191,46 @@
         "en": "CRISPR gene editing"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "por-que-el-socialismo",
+      "titulo": "¿Por qué el socialismo?",
+      "titulo_original": "Why Socialism?",
+      "autor": "Albert Einstein",
+      "autor_id": "einstein",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1949,
+        "hasta": 1949
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Monthly Review, vol. 1, n.º 1, mayo de 1949)",
+      "resumen": "Artículo que Einstein escribió para el primer número de la revista socialista Monthly Review, de Nueva York. Sostiene que el afán de lucro y la competencia entre capitalistas producen ciclos de auge y crisis, desigualdad y egoísmo, y que el control privado de la prensa y la financiación de los partidos por los grandes capitales dan lugar a una «oligarquía del capital privado». Propone una economía planificada, con los medios de producción en manos de la sociedad. Advierte, sin embargo, que «una economía planificada no es todavía el socialismo», porque puede ir acompañada de una burocracia omnipotente y de la «completa esclavitud del individuo», y se pregunta cómo proteger los derechos individuales.",
+      "por_que_importa": "Es el texto político más conocido de Einstein, que lo escribió como científico y no como economista y lo publicó en el primer número de Monthly Review.",
+      "leer": [
+        {
+          "titulo": "Texto completo en el sitio de Monthly Review",
+          "url": "https://monthlyreview.org/articles/why-socialism/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "¿Por qué el socialismo?",
+        "en": "Why Socialism?"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3268,7 +3308,8 @@
         "electrodinamica-de-los-cuerpos-en-movimiento",
         "inercia-y-energia",
         "relatividad-general",
-        "carta-einstein-szilard"
+        "carta-einstein-szilard",
+        "por-que-el-socialismo"
       ],
       "wikipedia": {
         "es": "Albert Einstein",

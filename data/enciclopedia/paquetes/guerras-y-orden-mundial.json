@@ -4010,6 +4010,39 @@
         "en": "United Nations Security Council Resolution 2774"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "subir-a-por-aire",
+      "titulo": "Subir a por aire",
+      "titulo_original": "Coming Up for Air",
+      "autor": "George Orwell",
+      "autor_id": "orwell",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1939,
+        "aprox": false,
+        "lugar": "Marrakech",
+        "lon": -7.981,
+        "lat": 31.629
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1900,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela escrita por George Orwell entre septiembre de 1938 y marzo de 1939, durante una convalecencia en Marruecos francés, y publicada por Victor Gollancz el 12 de junio de 1939. George Bowling, un vendedor de seguros de 45 años, anticipa la guerra que viene y vuelve al pueblo de su infancia, Lower Binfield, para recuperar la inocencia perdida. Lamenta que el comercio, los constructores especuladores y el capitalismo destruyan la Inglaterra rural, y siente la aparición de nuevas amenazas nacionales externas.",
+      "por_que_importa": "Es la última novela de Orwell publicada por Gollancz y la que precede a Rebelión en la granja: un retrato de la Inglaterra de vísperas de la Segunda Guerra Mundial escrito por un autor que ya había combatido en la guerra civil española.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Subir a por aire",
+        "en": "Coming Up for Air"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -6137,6 +6170,438 @@
         "en": "Volodymyr Zelenskyy"
       },
       "wikidata": "Q3874799"
+    },
+    {
+      "id": "william-howard-taft",
+      "nombre": "William Howard Taft",
+      "nacimiento": {
+        "anio": 1857,
+        "aprox": false,
+        "lugar": "Cincinnati",
+        "lon": -84.513,
+        "lat": 39.1
+      },
+      "muerte": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1909,
+        "hasta": 1913,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político",
+        "juez"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1909 a 1913 y, de 1921 a 1930, presidente de la Corte Suprema: el único que ocupó los dos cargos. Su gobierno llevó adelante juicios antimonopolio (Standard Oil y American Tobacco, que la Corte falló a favor del Estado en 1911) y practicó la «diplomacia del dólar», con la ocupación de Nicaragua (1912-1933). En 1912 Theodore Roosevelt le disputó la candidatura, el Partido Republicano se dividió y Taft, con solo dos estados (Utah y Vermont), perdió ante Woodrow Wilson.",
+      "obras": [],
+      "wikipedia": {
+        "es": "William Howard Taft",
+        "en": "William Howard Taft"
+      },
+      "wikidata": "Q35648"
+    },
+    {
+      "id": "warren-harding",
+      "nombre": "Warren G. Harding",
+      "nacimiento": {
+        "anio": 1865,
+        "aprox": false,
+        "lugar": "Blooming Grove",
+        "lon": -82.717,
+        "lat": 40.708
+      },
+      "muerte": {
+        "anio": 1923,
+        "aprox": false,
+        "lugar": "Palace Hotel (San Francisco)",
+        "lon": -122.402,
+        "lat": 37.788
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1921,
+        "hasta": 1923,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1921 hasta su muerte, el 2 de agosto de 1923, en San Francisco. Prometió un «regreso a la normalidad» después de la guerra, impulsó la Conferencia Naval de Washington de 1921-1922, que limitó las armadas de las grandes potencias, y liberó a presos condenados por oponerse a la Primera Guerra Mundial. Después de su muerte salieron a la luz escándalos de su gobierno, como el de Teapot Dome, por el que fue condenado su secretario del Interior, Albert Fall.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Warren G. Harding",
+        "en": "Warren G. Harding"
+      },
+      "wikidata": "Q35286"
+    },
+    {
+      "id": "calvin-coolidge",
+      "nombre": "Calvin Coolidge",
+      "nacimiento": {
+        "anio": 1872,
+        "aprox": false,
+        "lugar": "Plymouth Notch",
+        "lon": -72.739,
+        "lat": 43.53
+      },
+      "muerte": {
+        "anio": 1933,
+        "aprox": false,
+        "lugar": "Northampton",
+        "lon": -72.632,
+        "lat": 42.318
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1923,
+        "hasta": 1929,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1923 a 1929; asumió al morir Harding y no se presentó a la reelección en 1928. En 1924 promulgó la ley que dio la ciudadanía a todos los nativos americanos y la ley de inmigración que limitó el ingreso desde fuera del hemisferio occidental y excluyó explícitamente la inmigración japonesa. En su mandato se firmó el pacto Briand-Kellogg (1928) y se redujeron los impuestos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Calvin Coolidge",
+        "en": "Calvin Coolidge"
+      },
+      "wikidata": "Q36023"
+    },
+    {
+      "id": "herbert-hoover",
+      "nombre": "Herbert Hoover",
+      "nacimiento": {
+        "anio": 1874,
+        "aprox": false,
+        "lugar": "Herbert Hoover National Historic Site",
+        "lon": -91.348,
+        "lat": 41.669
+      },
+      "muerte": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Waldorf-Astoria",
+        "lon": -73.974,
+        "lat": 40.757
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1929,
+        "hasta": 1933,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político",
+        "ingeniero"
+      ],
+      "resumen": "Ingeniero de minas que organizó la ayuda alimentaria a la Bélgica ocupada en 1914 y, después de la guerra, a Europa central y oriental, y fue secretario de Comercio con Harding y Coolidge. Presidente de los Estados Unidos de 1929 a 1933, enfrentó el crac de 1929 y la Gran Depresión: su respuesta, que incluyó el arancel Smoot-Hawley, fue juzgada insuficiente y perdió en 1932 ante Franklin Roosevelt. El 28 de julio de 1932 ordenó al ejército despejar el campamento del «Ejército del Bono» en Washington; MacArthur fue más allá y arrasó el de Anacostia, y Hoover lo respaldó después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Herbert Hoover",
+        "en": "Herbert Hoover"
+      },
+      "wikidata": "Q35236"
+    },
+    {
+      "id": "nixon",
+      "nombre": "Richard Nixon",
+      "nacimiento": {
+        "anio": 1913,
+        "aprox": false,
+        "lugar": "Birthplace of Richard Nixon",
+        "lon": -117.818,
+        "lat": 33.889
+      },
+      "muerte": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "New York Hospital",
+        "lon": -73.954,
+        "lat": 40.765
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1969,
+        "hasta": 1974,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político",
+        "abogado"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1969 a 1974. Ordenó desde marzo de 1969 el bombardeo secreto de Camboya, retiró las tropas de combate de Vietnam en 1973, viajó a China en 1972 y firmó con la URSS el tratado de misiles antibalísticos; apoyó en secreto a Pakistán en la guerra de Bangladés de 1971 y encabezó una campaña encubierta contra Allende en Chile. Por el escándalo Watergate renunció el 9 de agosto de 1974, el único presidente estadounidense que lo hizo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Richard Nixon",
+        "en": "Richard Nixon"
+      },
+      "wikidata": "Q9588"
+    },
+    {
+      "id": "gerald-ford",
+      "nombre": "Gerald Ford",
+      "nacimiento": {
+        "anio": 1913,
+        "aprox": false,
+        "lugar": "Gerald R. Ford Birthsite and Gardens",
+        "lon": -95.96,
+        "lat": 41.245
+      },
+      "muerte": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Rancho Mirage",
+        "lon": -116.421,
+        "lat": 33.769
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1974,
+        "hasta": 1977,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1974 a 1977: vicepresidente nombrado en 1973 según la enmienda 25 tras la renuncia de Spiro Agnew, asumió el 9 de agosto de 1974 cuando renunció Nixon y nunca fue elegido para ninguno de los dos cargos. El 8 de septiembre de 1974 indultó a Nixon, decisión muy discutida; firmó el Acta Final de Helsinki en 1975, en su mandato cayó Saigón (abril de 1975) y dio su visto bueno a la invasión indonesia de Timor Oriental. Perdió en 1976 ante Jimmy Carter.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gerald Ford",
+        "en": "Gerald Ford"
+      },
+      "wikidata": "Q9582"
+    },
+    {
+      "id": "jimmy-carter",
+      "nombre": "Jimmy Carter",
+      "nacimiento": {
+        "anio": 1924,
+        "aprox": false,
+        "lugar": "Lillian G. Carter Nursing Center",
+        "lon": -84.39,
+        "lat": 32.038
+      },
+      "muerte": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Casa de Jimmy y Rosalynn Carter",
+        "lon": -84.402,
+        "lat": 32.036
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1977,
+        "hasta": 1981,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1977 a 1981. Negoció los acuerdos de Camp David entre Egipto e Israel, los tratados del Canal de Panamá y el SALT II (firmado en 1979 y nunca ratificado), y estableció relaciones diplomáticas con China. Su mandato se vio marcado por la toma de rehenes en la embajada en Teherán (52 estadounidenses, 444 días) y por la invasión soviética de Afganistán, que terminó con la distensión y llevó al boicot de los Juegos de Moscú de 1980; la CIA ayudaba a los muyahidines desde julio de 1979 y desde 1980 los armó a través del ISI paquistaní, con fondos sauditas. Perdió ante Ronald Reagan, presidió el Centro Carter, recibió el Nobel de la Paz en 2002 y murió el 29 de diciembre de 2024, a los 100 años.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jimmy Carter",
+        "en": "Jimmy Carter"
+      },
+      "wikidata": "Q23685"
+    },
+    {
+      "id": "bill-clinton",
+      "nombre": "Bill Clinton",
+      "nacimiento": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "President William Jefferson Clinton Birthplace Home National Historic Site",
+        "lon": -93.597,
+        "lat": 33.667
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1993,
+        "hasta": 2001,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político",
+        "abogado"
+      ],
+      "resumen": "Presidente de los Estados Unidos de 1993 a 2001. Hizo ratificar en 1993, con dos acuerdos paralelos, el tratado de libre comercio con Canadá y México (TLCAN), que había firmado Bush en diciembre de 1992; apoyó la ampliación de la OTAN, intervino en Bosnia (acuerdos de Dayton, 1995) y en 1999 en Kosovo, con un bombardeo de la OTAN sin autorización del Consejo de Seguridad. No intervino en el genocidio de Ruanda de 1994, algo que después consideró uno de sus mayores fracasos; en diciembre de 1998 la Cámara de Representantes lo acusó por perjurio y obstrucción de la justicia en el caso Lewinsky y el Senado lo absolvió en febrero de 1999.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bill Clinton",
+        "en": "Bill Clinton"
+      },
+      "wikidata": "Q1124"
+    },
+    {
+      "id": "barack-obama",
+      "nombre": "Barack Obama",
+      "nacimiento": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Kapiolani Medical Center for Women and Children",
+        "lon": -157.833,
+        "lat": 21.3
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 2009,
+        "hasta": 2017,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "político",
+        "abogado"
+      ],
+      "resumen": "Primer presidente afroamericano de los Estados Unidos, de 2009 a 2017, y Premio Nobel de la Paz en 2009. Respondió a la crisis financiera de 2008 con un paquete de estímulo y la reforma Dodd-Frank, y promulgó la ley de salud conocida como Obamacare. En política exterior envió más tropas a Afganistán en 2009, completó el retiro de Irak en 2011 y volvió a Irak y a Siria en 2014 contra el Estado Islámico; ordenó la operación que mató a Osama bin Laden, intervino en Libia, negoció el acuerdo nuclear con Irán (2015), restableció relaciones con Cuba y amplió los ataques aéreos y el uso de fuerzas especiales.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Barack Obama",
+        "en": "Barack Obama"
+      },
+      "wikidata": "Q76"
+    },
+    {
+      "id": "yuri-andropov",
+      "nombre": "Yuri Andrópov",
+      "nacimiento": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "Soluno-Dmitriyevskoye",
+        "lon": 42.722,
+        "lat": 44.403
+      },
+      "muerte": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1967,
+        "hasta": 1984,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Presidente del KGB de 1967 a 1982 y embajador soviético en Hungría de 1954 a 1957, donde tuvo un papel central en la represión de la revolución de 1956. Como jefe del KGB creó la Quinta Dirección contra la disidencia y extendió la internación psiquiátrica de opositores (Sájarov, Medvédev, Sharanski); pidió «medidas extremas» contra Checoslovaquia en 1968 y estuvo entre quienes decidieron invadir Afganistán en 1979. Fue secretario general del PCUS desde el 12 de noviembre de 1982 hasta su muerte, el 9 de febrero de 1984; en su breve mandato se persiguió la corrupción y el ausentismo laboral y la Guerra Fría se agravó, con el derribo del vuelo 007 de Korean Air (1 de septiembre de 1983, 269 muertos) y la ruptura de las negociaciones sobre armas nucleares.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Yuri Andrópov",
+        "en": "Yuri Andropov"
+      },
+      "wikidata": "Q44071"
+    },
+    {
+      "id": "konstantin-chernenko",
+      "nombre": "Konstantín Chernenko",
+      "nacimiento": {
+        "anio": 1911,
+        "aprox": false,
+        "lugar": "Bolshaya Tes",
+        "lon": 90.983,
+        "lat": 54.8
+      },
+      "muerte": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1984,
+        "hasta": 1985,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Colaborador de Brézhnev desde 1950, en Moldavia, fue elegido secretario general del PCUS el 13 de febrero de 1984, tras la muerte de Andrópov, y presidente del Presidium del Sóviet Supremo en abril. Con la salud quebrada, gobernó junto con el ministro de Defensa Dmitri Ustínov y el de Exteriores Andréi Gromiko; la URSS anunció en mayo de 1984 que no iría a los Juegos Olímpicos de Los Ángeles, un año después del boicot occidental a los de Moscú. Murió el 10 de marzo de 1985 y lo sucedió Gorbachov.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Konstantín Chernenko",
+        "en": "Konstantin Chernenko"
+      },
+      "wikidata": "Q127442"
+    },
+    {
+      "id": "vladimir-ivashko",
+      "nombre": "Vladímir Ivashko",
+      "nacimiento": {
+        "anio": 1932,
+        "aprox": false,
+        "lugar": "Poltava",
+        "lon": 34.551,
+        "lat": 49.589
+      },
+      "muerte": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1990,
+        "hasta": 1991,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Dirigente comunista ucraniano, primer secretario del Partido Comunista de Ucrania desde 1989 y, desde julio de 1990, subsecretario general del PCUS. Fue secretario general interino del PCUS del 24 al 29 de agosto de 1991: Gorbachov renunció al cargo después del fracaso del golpe de Estado y el Sóviet Supremo suspendió las actividades del partido el 29. Se retiró en 1992 y murió en 1994.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vladímir Ivashko",
+        "en": "Vladimir Ivashko"
+      },
+      "wikidata": "Q1065213"
     }
   ],
   "hechos": [
@@ -8534,6 +8999,313 @@
       "wikipedia": {
         "es": "Guerra civil sudanesa (2023-presente)",
         "en": "Sudanese civil war (2023–present)"
+      }
+    },
+    {
+      "id": "periodo-de-entreguerras",
+      "titulo": "Período de entreguerras",
+      "anio": 1918,
+      "anio_hasta": 1939,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "politico",
+      "resumen": "Los veinte años y diez meses entre el armisticio del 11 de noviembre de 1918 y la invasión alemana de Polonia del 1 de septiembre de 1939. La Conferencia de Paz de París redibujó el mapa tras la caída de los imperios alemán, austrohúngaro, ruso y otomano; siguieron los «locos años veinte», la Gran Depresión desde 1929, el ascenso del comunismo en la URSS y del fascismo en Italia y Alemania, y los movimientos de independencia coloniales. Las potencias buscaron la paz con la Sociedad de Naciones y pactos de desarme; el período terminó tras las agresiones de Japón, Italia y Alemania, la política de apaciguamiento y el pacto germano-soviético de agosto de 1939.",
+      "regiones": [
+        "francia",
+        "alemania",
+        "britania",
+        "norteamerica",
+        "rus"
+      ],
+      "fuentes": [
+        "tratado-de-versalles",
+        "pacto-de-la-sociedad-de-naciones",
+        "pacto-briand-kellogg"
+      ],
+      "wikipedia": {
+        "es": "Período de entreguerras",
+        "en": "Interwar period"
+      }
+    },
+    {
+      "id": "guerra-civil-afgana-1989-1992",
+      "titulo": "Guerra civil afgana (1989-1992)",
+      "anio": 1989,
+      "anio_hasta": 1992,
+      "aprox": false,
+      "lugar": "Kabul",
+      "lon": 69.166,
+      "lat": 34.533,
+      "tipo": "batalla",
+      "resumen": "Tras la retirada soviética (15 de febrero de 1989), los muyahidines, que recibían armas de Estados Unidos y Arabia Saudita a través de Pakistán, siguieron combatiendo al gobierno comunista de Najibullah, que tuvo ayuda soviética hasta 1991. La ofensiva sobre Jalalabad, apoyada por el servicio de inteligencia paquistaní (ISI), fue rechazada entre marzo y junio de 1989, con unos 12.000 a 15.000 civiles muertos solo en esa batalla. Sin la ayuda soviética y tras las deserciones de las milicias del norte, que se aliaron con Ahmad Shah Massoud, el gobierno cayó en abril de 1992; los acuerdos de Peshawar proclamaron un gobierno interino, que Hekmatyar rechazó, y los combates entre muyahidines por Kabul empezaron el 25 de abril.",
+      "regiones": [
+        "afganistan"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil afgana (1989-1992)",
+        "en": "Afghan Civil War (1989–1992)"
+      }
+    },
+    {
+      "id": "guerra-civil-afgana-1992-1996",
+      "titulo": "Guerra civil afgana (1992-1996)",
+      "anio": 1992,
+      "anio_hasta": 1996,
+      "aprox": false,
+      "lugar": "Kabul",
+      "lon": 69.166,
+      "lat": 34.533,
+      "tipo": "batalla",
+      "resumen": "Entre el 28 de abril de 1992 y la toma de Kabul por los talibanes el 27 de septiembre de 1996, las facciones muyahidines pelearon por la capital con alianzas cambiantes. Según Human Rights Watch, casi todas (el Jamiat de Rabbani y Massoud, Junbish, Wahdat, el Hezb-e Islami y el Ittehad) contribuyeron a destruir un tercio de Kabul y a matar a miles de civiles; solo entre enero y junio de 1994 murieron 25.000 personas en la ciudad. En la masacre de Afshar (febrero de 1993) fuerzas del gobierno de Rabbani y el Ittehad de Sayyaf mataron a civiles hazaras; los talibanes, surgidos con apoyo de Pakistán, tomaron Kandahar en 1994, Herat en 1995 y Kabul en 1996.",
+      "regiones": [
+        "afganistan"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil afgana (1992-1996)",
+        "en": "Afghan Civil War (1992–1996)"
+      }
+    },
+    {
+      "id": "guerra-civil-afgana-1996-2001",
+      "titulo": "Guerra civil afgana (1996-2001)",
+      "anio": 1996,
+      "anio_hasta": 2001,
+      "aprox": false,
+      "lugar": "Kabul",
+      "lon": 69.166,
+      "lat": 34.533,
+      "tipo": "batalla",
+      "resumen": "Desde la toma de Kabul por los talibanes (27 de septiembre de 1996), que proclamaron el Emirato Islámico de Afganistán, hasta la invasión estadounidense del 7 de octubre de 2001. Solo Pakistán, Arabia Saudita y los Emiratos Árabes Unidos reconocieron al Emirato; Massoud formó el Frente Unido (Alianza del Norte), con apoyo de Irán, la India, Rusia, Tayikistán, Uzbekistán y Turquía, y los talibanes tuvieron apoyo militar de Pakistán, dinero saudita y combatientes de al-Qaeda. En mayo de 1997 entraron en Mazar-i-Sharif por el cambio de bando de Malik, fueron expulsados días después y unos 3.000 prisioneros talibanes fueron ejecutados; tomaron la ciudad en agosto de 1998, con la matanza de miles de hazaras.",
+      "regiones": [
+        "afganistan"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil afgana (1996-2001)",
+        "en": "Afghan Civil War (1996–2001)"
+      }
+    },
+    {
+      "id": "guerra-de-indochina",
+      "titulo": "Guerra de Indochina",
+      "anio": 1946,
+      "anio_hasta": 1954,
+      "aprox": false,
+      "lugar": "Hanoi",
+      "lon": 105.841,
+      "lat": 21.024,
+      "tipo": "batalla",
+      "resumen": "Guerra entre Francia, con el Estado de Vietnam de Bảo Đại, y el Viet Minh de Ho Chi Minh, que había proclamado la República Democrática de Vietnam en 1945; la guerra abierta comenzó el 19 de diciembre de 1946, tras el bombardeo francés de Haiphong del 23 de noviembre (unos 6.000 civiles muertos). Tras la victoria comunista en China en 1949, China dio al Viet Minh doctrina, instrucción y asesores y la URSS material de guerra, mientras Estados Unidos ayudaba a Francia. La derrota francesa en Dien Bien Phu (1954) llevó a la Conferencia de Ginebra, que dividió Vietnam en el paralelo 17; murieron entre 400.000 y 842.707 soldados y entre 125.000 y 400.000 civiles, y ambos bandos cometieron crímenes de guerra.",
+      "regiones": [
+        "sudeste-asiatico"
+      ],
+      "fuentes": [
+        "declaracion-de-independencia-de-vietnam"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Indochina",
+        "en": "First Indochina War"
+      }
+    },
+    {
+      "id": "guerra-civil-griega",
+      "titulo": "Guerra civil griega",
+      "anio": 1946,
+      "anio_hasta": 1949,
+      "aprox": false,
+      "lugar": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "tipo": "batalla",
+      "resumen": "Guerra entre el gobierno del Reino de Grecia y el Ejército Democrático (DSE), brazo armado del Partido Comunista (KKE), que proclamó un gobierno provisional con apoyo de Albania y Yugoslavia; la lucha se reanudó en marzo de 1946, tras la división de la resistencia y los combates de Atenas de 1944. El gobierno recibió ayuda del Reino Unido y, desde la doctrina Truman de 1947, de Estados Unidos, por lo que se la considera el primer conflicto indirecto de la Guerra Fría; el 16 de octubre de 1949 el KKE anunció un «alto el fuego temporal». Hubo masacres de ambos lados y casi 100.000 combatientes y simpatizantes del DSE fueron presos, exiliados o ejecutados; unos 30.000 niños pasaron a países del bloque oriental (la comisión de la ONU constató que algunos fueron sacados por la fuerza; el KKE habló de evacuación a pedido de los padres) y el gobierno alojó a más de 25.000 en «ciudades infantiles».",
+      "regiones": [
+        "grecia",
+        "balcanes"
+      ],
+      "fuentes": [
+        "doctrina-truman"
+      ],
+      "wikipedia": {
+        "es": "Guerra civil griega",
+        "en": "Greek Civil War"
+      }
+    },
+    {
+      "id": "golpe-de-estado-en-iran-de-1953",
+      "titulo": "Golpe de Estado en Irán de 1953",
+      "anio": 1953,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Teherán",
+      "lon": 51.39,
+      "lat": 35.689,
+      "tipo": "politico",
+      "resumen": "Entre el 15 y el 19 de agosto de 1953, un golpe organizado por los servicios británicos (MI6, «Operación Boot») y estadounidenses (CIA, «Operación Ajax») derrocó al primer ministro Mohammad Mosaddegh, que había nacionalizado el petróleo en 1951 frente a la Anglo-Iranian Oil Company. Mosaddegh disolvió el parlamento con un referéndum en agosto (99,9 %, boicoteado y calificado de fraudulento) y el sha decretó su destitución y nombró a Zahedi; murieron entre 200 y 300 personas y Mosaddegh fue condenado por traición el 21 de diciembre a tres años de cárcel, y quedó bajo arresto domiciliario hasta su muerte en 1967. En 2013 Estados Unidos desclasificó documentos que reconocen su papel; Ray Takeyh (2014) sostiene que el intento de la CIA fracasó y que el 19 de agosto lo decidieron fuerzas iraníes, y Alvandi y Gasiorowski (2019) lo llaman una lectura muy sesgada de la evidencia.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Golpe de Estado en Irán de 1953",
+        "en": "1953 Iranian coup d'état"
+      }
+    },
+    {
+      "id": "guerra-sino-india",
+      "titulo": "Guerra sino-india",
+      "anio": 1962,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tawang",
+      "lon": 91.865,
+      "lat": 27.588,
+      "tipo": "batalla",
+      "resumen": "Conflicto fronterizo entre China e India del 20 de octubre al 21 de noviembre de 1962, en la Agencia de la Frontera del Nordeste (hoy Arunachal Pradesh) y en Aksai Chin; China no reconocía las líneas Johnson y McMahon que India aceptaba, y las tensiones crecieron desde el levantamiento tibetano de 1959, cuando India dio asilo al Dalai Lama. La India aplicó en 1961-1962 una «política de avanzada» (unos 60 puestos en zona disputada, con permiso para abrir fuego desde julio de 1962); China presentó su ofensiva como respuesta (así la leen Maxwell y Whiting), mientras que para la India fue una agresión china. Las tropas chinas rompieron las posiciones indias y llegaron cerca de Tezpur; China declaró un alto el fuego unilateral, se retiró 20 km detrás de la línea del 7 de noviembre de 1959 y conservó Aksai Chin.",
+      "regiones": [
+        "tibet",
+        "india",
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra sino-india",
+        "en": "Sino-Indian War"
+      }
+    },
+    {
+      "id": "guerra-de-liberacion-de-bangladesh",
+      "titulo": "Guerra de Liberación de Bangladés",
+      "anio": 1971,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Dacca",
+      "lon": 90.394,
+      "lat": 23.729,
+      "tipo": "batalla",
+      "resumen": "Tras ganar la Liga Awami en 1970 167 de los 169 escaños de Pakistán Oriental (la mayoría de la Asamblea Nacional) y el bloqueo político posterior, el ejército pakistaní lanzó el 25 de marzo de 1971 la «Operación Searchlight» contra la población bengalí; el Mukti Bahini, entrenado por el ejército indio, empezó una guerra de guerrillas y hubo combates fronterizos antes de que la India entrara en la guerra el 3 de diciembre. Unos diez millones de refugiados huyeron a la India y Pakistán se rindió en Dacca el 16 de diciembre; el ejército y sus milicias cometieron asesinatos masivos y violaciones (de 300.000 a 3 millones de muertos según fuentes bangladesíes, de 125.000 a 505.000 según investigadores independientes) y se la ha calificado de genocidio, y también hubo violencia de nacionalistas bengalíes contra los biharíes (Rummel estima 150.000 muertos; representantes biharíes hablaron de 500.000). La URSS apoyó a la India (tratado de agosto de 1971 y vetos en la ONU); China y Estados Unidos, con Nixon, apoyaron a Pakistán.",
+      "regiones": [
+        "india",
+        "noreste-de-la-india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de liberación de Bangladés",
+        "en": "Bangladesh Liberation War"
+      }
+    },
+    {
+      "id": "ruptura-sino-sovietica",
+      "titulo": "Ruptura sino-soviética",
+      "anio": 1956,
+      "anio_hasta": 1969,
+      "aprox": false,
+      "lugar": "Pekín",
+      "lon": 116.408,
+      "lat": 39.904,
+      "tipo": "politico",
+      "resumen": "Deterioro gradual de las relaciones entre la República Popular China y la URSS. En 1956 Jrushchov denunció a Stalin y Mao rechazó la desestalinización como «revisionismo»; en junio de 1960, en la reunión de partidos comunistas de Bucarest, Jrushchov chocó con Peng Zhen, jefe de la delegación china, la URSS retiró ese año a unos 1.400 técnicos y en 1961 Pekín denunció a los soviéticos como «traidores revisionistas». La rivalidad por el liderazgo del comunismo llegó a choques armados en la frontera en 1969 (isla Zhenbao), tras los cuales, según fuentes de China y Estados Unidos, la URSS consideró un ataque nuclear; para Occidente cambió la Guerra Fría y facilitó el viaje de Nixon a China en 1972.",
+      "regiones": [
+        "china",
+        "rus"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Ruptura sino-soviética",
+        "en": "Sino-Soviet split"
+      }
+    },
+    {
+      "id": "revoluciones-de-1989",
+      "titulo": "Revoluciones de 1989",
+      "anio": 1989,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Berlín",
+      "lon": 13.383,
+      "lat": 52.517,
+      "tipo": "revolucion",
+      "resumen": "Ola de movimientos que derribó a la mayoría de los gobiernos marxista-leninistas del bloque oriental. Empezó con Solidaridad en Polonia, cuyas elecciones parcialmente libres del 4 de junio de 1989 consagraron su victoria; siguieron la apertura de la frontera húngara con Austria, la caída del muro de Berlín el 9 de noviembre y las revoluciones de Checoslovaquia y Bulgaria. En Rumania el régimen cayó por la fuerza: Ceaușescu fue ejecutado el 25 de diciembre. Salvo en Rumania, predominó la resistencia civil. En China las protestas de Tiananmen terminaron con la represión militar del 4 de junio y el Partido Comunista conservó el poder. Los hechos aceleraron la disolución de la URSS y el fin de la Guerra Fría.",
+      "regiones": [
+        "alemania",
+        "polonia",
+        "hungria",
+        "bohemia",
+        "rumania"
+      ],
+      "fuentes": [
+        "el-poder-de-los-sin-poder",
+        "derriben-este-muro"
+      ],
+      "wikipedia": {
+        "es": "Revoluciones de 1989",
+        "en": "Revolutions of 1989"
+      }
+    },
+    {
+      "id": "batalla-de-moscu",
+      "titulo": "Batalla de Moscú",
+      "anio": 1941,
+      "anio_hasta": 1942,
+      "aprox": false,
+      "lugar": "Moscú",
+      "lon": 37.617,
+      "lat": 55.751,
+      "tipo": "batalla",
+      "resumen": "Campaña de la Segunda Guerra Mundial en un frente de 600 km, desde la «Operación Tifón» alemana del 30 de septiembre de 1941 hasta el 7 de enero de 1942 (algunos autores la extienden hasta abril, con la ofensiva de Rzhev). Los soviéticos levantaron tres cinturones defensivos, trajeron tropas de Siberia y el Lejano Oriente y detuvieron el avance alemán a principios de diciembre; la contraofensiva del 5 de diciembre alejó a los alemanes entre 100 y 250 km. Fue el fin de la esperanza alemana de una victoria rápida y Hitler destituyó al comandante del ejército, Brauchitsch, el 19 de diciembre. Las cifras de bajas difieren: Erickson cuenta 653.924 bajas soviéticas hasta enero; Bellamy, 926.224 irrecuperables hasta abril; los partes oficiales del Grupo de Ejércitos Centro registran 35.757 muertos, 128.716 heridos y 9.721 desaparecidos alemanes, cifras que otros investigadores consideran subestimadas.",
+      "regiones": [
+        "rus"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Moscú",
+        "en": "Battle of Moscow"
+      }
+    },
+    {
+      "id": "operacion-bagration",
+      "titulo": "Operación Bagratión",
+      "anio": 1944,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Minsk",
+      "lon": 27.562,
+      "lat": 53.902,
+      "tipo": "batalla",
+      "resumen": "Ofensiva soviética en Bielorrusia entre el 22 de junio y el 19 de agosto de 1944, poco después del desembarco de Normandía. Con engaños (maskirovka) y concentración de fuerzas, el Ejército Rojo destruyó el Grupo de Ejércitos Centro (28 divisiones), la mayor derrota de la historia militar alemana, tomó Minsk a comienzos de julio y llegó al Vístula y a las afueras de Varsovia, donde se detuvo mientras los alemanes aplastaban el levantamiento; su papel sigue en disputa entre historiadores. Las pérdidas alemanas se estiman en 400.000 a 540.000 entre muertos, desaparecidos y heridos; las soviéticas, en 180.040 muertos y desaparecidos y 590.848 heridos y enfermos.",
+      "regiones": [
+        "rus",
+        "polonia",
+        "baltico"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Operación Bagratión",
+        "en": "Operation Bagration"
+      }
+    },
+    {
+      "id": "rebelion-del-grupo-wagner",
+      "titulo": "Rebelión del Grupo Wagner",
+      "anio": 2023,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rostov del Don",
+      "lon": 39.71,
+      "lat": 47.222,
+      "tipo": "politico",
+      "resumen": "El 23 de junio de 2023, tras seis meses de conflicto con el Ministerio de Defensa, el Grupo Wagner de Yevgueni Prigozhin se alzó contra el gobierno ruso. Prigozhin acusó a Shoigú y a Guerásimov de las fallas militares en Ucrania y de haber atacado a sus hombres, algo que el gobierno ruso negó. Los mercenarios ocuparon Rostov del Don y una columna blindada avanzó hacia Moscú; Putin habló de traición. El presidente bielorruso Aleksandr Lukashenko medió un acuerdo, Prigozhin detuvo la marcha el 24 de junio y el 27 se retiraron los cargos contra los wagneristas. Murieron al menos trece militares rusos; Prigozhin murió el 23 de agosto de 2023 en la explosión de su avión.",
+      "regiones": [
+        "estepa-pontica",
+        "rus"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Rebelión del Grupo Wagner",
+        "en": "Wagner Group rebellion"
       }
     }
   ],
