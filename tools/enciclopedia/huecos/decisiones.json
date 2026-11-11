@@ -694,6 +694,26 @@
     "motivo": "Samanta Schweblin es cuentista y novelista, no historiadora.",
     "fecha": "2026-11-11"
   },
+  "candidato:mundo:batalla:Q32929": {
+    "decision": "descartado",
+    "motivo": "Guerra sobre todo europea y atlántica; sus episodios en las regiones del tema ya están y ningún paquete cubre la Europa del siglo XVIII (queda para «Por hacer»).",
+    "fecha": "2026-11-11"
+  },
+  "candidato:mundo:batalla:Q33143": {
+    "decision": "descartado",
+    "motivo": "Guerra sobre todo europea y atlántica; sus episodios en las regiones del tema ya están (Plassey en mundo, la toma de Colonia de 1762 en rio-de-la-plata-colonial) y ningún paquete cubre la Europa del siglo XVIII (queda para «Por hacer»).",
+    "fecha": "2026-11-11"
+  },
+  "candidato:mundo:personas:Q82083": {
+    "decision": "descartado",
+    "motivo": "Keats es un poeta de la literatura inglesa que solo murió en Italia, sin actuación dentro del tema de este paquete.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:mundo:personas:Q93343": {
+    "decision": "descartado",
+    "motivo": "Poeta inglés cuya etapa italiana (1818-1822) no es tema de esta muestra, aunque en ella escribió Hellas sobre la guerra de independencia griega.",
+    "fecha": "2026-11-11"
+  },
   "candidato:pueblos-originarios-del-cono-sur:personas:Q1334326": {
     "decision": "descartado",
     "motivo": "Macedonio Fernández es escritor, ajeno al tema.",
@@ -1599,6 +1619,16 @@
     "motivo": "El Purgatorio es una cántica de la Divina comedia, que ya tiene su ficha (divina-comedia); no es una obra aparte.",
     "fecha": "2026-11-11"
   },
+  "obra:Q129772:Q1145374": {
+    "decision": "descartado",
+    "motivo": "La Ciropedia de Jenofonte es una biografía idealizada de Ciro el Grande, sin pasajes sobre los celtas; el autor ya está por las Helénicas, donde sí aparecen los celtas de Dionisio.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q129772:Q2555163": {
+    "decision": "descartado",
+    "motivo": "El Económico de Jenofonte trata de la administración de una casa y una finca, sin mención de los celtas.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q133001:Q1310914": {
     "decision": "descartado",
     "motivo": "Bula de fundación de la Compañía de Jesús (1540): trata de la orden en general, no de la región; el hecho del Río de la Plata ya cubre su provincia (merece un tema de la Compañía de Jesús).",
@@ -1652,6 +1682,11 @@
   "obra:Q1541:Q675210": {
     "decision": "descartado",
     "motivo": "Cicerón está por lo que escribió sobre los galos; el resto de su obra no es del tema",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q177847:Q783244": {
+    "decision": "descartado",
+    "motivo": "La Historia verdadera de Luciano es una parodia de relatos de viajes sin información sobre los celtas; el autor ya está por Heracles y Zeuxis, que sí los mencionan.",
     "fecha": "2026-11-11"
   },
   "obra:Q183266:Q1210346": {
@@ -2049,6 +2084,16 @@
     "motivo": "Goscinny está por Astérix como fenómeno; el resto de su obra y cada álbum no son del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q2054:Q1180596": {
+    "decision": "descartado",
+    "motivo": "De la brevedad de la vida de Séneca es un tratado moral sin pasajes sobre los celtas.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q2054:Q720535": {
+    "decision": "descartado",
+    "motivo": "Las Cartas a Lucilio de Séneca son ensayos morales; no se verificó en ellas un pasaje sobre los celtas.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q206685:Q1492454": {
     "decision": "descartado",
     "motivo": "Uderzo está por Astérix como fenómeno; cada álbum no es del tema",
@@ -2084,6 +2129,11 @@
     "motivo": "las encíclicas de Benedicto XVI no son del tema de Tierra Santa",
     "fecha": "2026-11-11"
   },
+  "obra:Q271032:Q7554817": {
+    "decision": "descartado",
+    "motivo": "«Sohrab and Rustum» (1853) de Arnold toma un episodio del Shahnameh persa; lo celta de Arnold es On the Study of Celtic Literature, que ya está.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q302:Q1258090": {
     "decision": "descartado",
     "motivo": "las parábolas y pasajes sueltos de los evangelios no van como fuentes aparte: están los evangelios",
@@ -2114,6 +2164,11 @@
     "motivo": "las parábolas y pasajes sueltos de los evangelios no van como fuentes aparte: están los evangelios",
     "fecha": "2026-11-11"
   },
+  "obra:Q312562:Q503756": {
+    "decision": "descartado",
+    "motivo": "El ciclo de Ossian ya está como la ficha poemas-de-ossian (con sus hechos de la publicación, la polémica y el veredicto).",
+    "fecha": "2026-11-11"
+  },
   "obra:Q312995:Q1928866": {
     "decision": "descartado",
     "motivo": "Bruce Sterling está por The Hacker Crackdown; su ficción no es del tema",
@@ -2139,6 +2194,11 @@
     "motivo": "Bruce Sterling está por The Hacker Crackdown; su ficción no es del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q31845:Q2137133": {
+    "decision": "descartado",
+    "motivo": "El Enquiridion es un manual de la filosofía de Epicteto compilado por Arriano, sin pasajes sobre los celtas; Arriano ya está por la Anábasis de Alejandro, que sí cuenta la embajada celta.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q32500:Q835934": {
     "decision": "descartado",
     "motivo": "Edicto contra Lutero en el Imperio: es de la Reforma, no del Río de la Plata.",
@@ -2157,6 +2217,16 @@
   "obra:Q388099:Q336306": {
     "decision": "descartado",
     "motivo": "El Himno Nacional del Uruguay es de Francisco Acuña de Figueroa (letra) y Quijano y Debali (música), y ni el artículo de la obra ni la ficha de Andrés Lamas lo vinculan con él; no es una obra suya.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q40213:Q1754273": {
+    "decision": "descartado",
+    "motivo": "«The Second Coming» (1919) es un poema apocalíptico sin tema celta; no entra en el legado céltico de Yeats.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q40213:Q7400396": {
+    "decision": "descartado",
+    "motivo": "«Sailing to Byzantium» (1928) trata de la vejez y de Bizancio, sin tema celta.",
     "fecha": "2026-11-11"
   },
   "obra:Q41370:Q1479763": {
@@ -2362,6 +2432,11 @@
   "obra:Q6527:Q2994613": {
     "decision": "descartado",
     "motivo": "Rousseau está por El contrato social; el resto de su obra no es del tema",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q659747:Q494069": {
+    "decision": "descartado",
+    "motivo": "The Seven Daughters of Eve (2001) es un libro de divulgación sobre el ADN mitocondrial de los europeos, sin tema celta; la tesis genética de Sykes sobre las islas está en Blood of the Isles.",
     "fecha": "2026-11-11"
   },
   "obra:Q67841:Q2440406": {
@@ -2764,6 +2839,51 @@
     "motivo": "La Wikipedia en inglés fusionó la batalla de Watling Street con la revuelta de Boudica y el paquete ya tiene «La rebelión de Boudica», cuyo resumen narra la batalla final (Tácito, Anales XIV.34-37) con sus cifras discutidas.",
     "fecha": "2026-11-11"
   },
+  "parte:Q130253:Q1229156": {
+    "decision": "descartado",
+    "motivo": "El ídolo de Pomos es una figura de Chipre de la Edad del Cobre, fuera del alcance geográfico del tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q1511519": {
+    "decision": "descartado",
+    "motivo": "La cultura de las catacumbas es una heredera de Yamna en la estepa póntica; el tema ya cubre Yamna y la cerámica cordada, y esta no suma al origen de las lenguas celtas.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q1728968": {
+    "decision": "descartado",
+    "motivo": "Karanovo es la secuencia neolítica del este de los Balcanes (Bulgaria); el tema ya trata la Vieja Europa con Vinča y Cucuteni-Trypillia.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q279792": {
+    "decision": "descartado",
+    "motivo": "La cultura de Botai (Kazajistán) es de Asia central, sin vínculo con la formación de las lenguas celtas.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q731494": {
+    "decision": "descartado",
+    "motivo": "El período de Uruk es de Mesopotamia y no tiene relación con la Europa preindoeuropea ni con los celtas.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q80641": {
+    "decision": "descartado",
+    "motivo": "La cultura de Samara (Volga medio, inicios del V milenio a. C.) es una antecesora de Khvalynsk y Yamna, que ya tiene su ficha, y no aporta un hecho propio al hilo celta.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q130253:Q80974": {
+    "decision": "descartado",
+    "motivo": "La cultura de Afanásievo es de Siberia (protocharo), fuera del alcance europeo del tema, igual que Andrónovo y la cultura de Botai.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1471923:Q1051663": {
+    "decision": "descartado",
+    "motivo": "Erlitou es una cultura de la Edad del Bronce de China, fuera del tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1471923:Q169349": {
+    "decision": "descartado",
+    "motivo": "Kurá-Araxes es una cultura del Cáucaso y el Cercano Oriente; su papel en las hipótesis sobre la patria indoeuropea ya queda dicho en la ficha del protoindoeuropeo.",
+    "fecha": "2026-11-11"
+  },
   "parte:Q151622:Q1753200": {
     "decision": "descartado",
     "motivo": "«Intifada» es el término genérico y el paquete ya tiene la primera y la segunda como hechos propios.",
@@ -2774,14 +2894,89 @@
     "motivo": "Es un artículo paraguas sobre ciclos de guerra desde 1948 que ya están como hechos propios (guerras de Gaza de 2008, 2012, 2014 y 2023, Nakba, intifadas), y su texto tiene lenguaje de opinión que habría que reescribir entero.",
     "fecha": "2026-11-11"
   },
+  "parte:Q1758757:Q1059758": {
+    "decision": "descartado",
+    "motivo": "El colapso de la Edad del Bronce Final es un fenómeno del Mediterráneo oriental y el Cercano Oriente, que el tema no trata.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1758757:Q1470165": {
+    "decision": "descartado",
+    "motivo": "La cultura Srubna es de la estepa póntica y de lengua probablemente indoirania; no interviene en el origen de las lenguas celtas.",
+    "fecha": "2026-11-11"
+  },
   "parte:Q2092093:Q208156": {
     "decision": "descartado",
     "motivo": "Las invasiones mongolas de Japón (1274 y 1281) son de Asia oriental y caen fuera de las regiones de la Europa medieval del paquete.",
     "fecha": "2026-11-11"
   },
+  "parte:Q273854:Q1175315": {
+    "decision": "descartado",
+    "motivo": "ya está por matanza-de-divoduro (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q1196925": {
+    "decision": "descartado",
+    "motivo": "ya está por galba-de-los-suesiones y batalla-del-axona (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q164811": {
+    "decision": "descartado",
+    "motivo": "ya está por comio, correo, batalla-del-sabis, campana-contra-los-belovacos y los reyes atrebates de Britania (tincomaro, epilo, verica).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q2461576": {
+    "decision": "descartado",
+    "motivo": "ya está por revuelta-de-floro-y-sacroviro, cuya ficha ahora cita a los túronos (Tácito, Anales III.41).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q289889": {
+    "decision": "descartado",
+    "motivo": "ya está por viridovix, cuya ficha ahora cita a los lexovios (César, BG III.17).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q322168": {
+    "decision": "descartado",
+    "motivo": "ya está por indutiomaro, julio-floro, julio-indo y fundacion-de-augusta-treverorum (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q273854:Q931808": {
+    "decision": "descartado",
+    "motivo": "ya está por julio-sabino, imperio-de-las-galias-70 y rebelion-de-vindex (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
   "parte:Q275918:Q2149737": {
     "decision": "descartado",
     "motivo": "Los secuestros turcos (1627) fueron una incursión de corsarios en Islandia, sin relación con la región.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q337104:Q223581": {
+    "decision": "descartado",
+    "motivo": "ya está por batalla-del-axona (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q337104:Q659921": {
+    "decision": "descartado",
+    "motivo": "ya está por cesar-contra-morinos-y-menapios y carausio-se-proclama-emperador (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q337104:Q756812": {
+    "decision": "descartado",
+    "motivo": "ya está por boduognato, batalla-del-sabis y rebelion-de-ambiorix (el esquema no tiene fichas de pueblos).",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q36422:Q1551765": {
+    "decision": "descartado",
+    "motivo": "La cultura de la cerámica a la gubia (Pitted Ware) es de cazadores-pescadores de Escandinavia y el Báltico, sin relación con el origen de lo celta.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q36422:Q1588784": {
+    "decision": "descartado",
+    "motivo": "Hassuna-Samarra es una cultura neolítica de Mesopotamia, fuera del tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q36422:Q798844": {
+    "decision": "descartado",
+    "motivo": "El badariense es una cultura neolítica del Alto Egipto, fuera del tema.",
     "fecha": "2026-11-11"
   },
   "parte:Q3906600:Q3620148": {
@@ -2999,6 +3194,16 @@
     "motivo": "la serie de valíes de Ifriquía no es del tema (es el Magreb)",
     "fecha": "2026-11-11"
   },
+  "serie:Q10655117:Q1037052": {
+    "decision": "descartado",
+    "motivo": "Bernhard Salin trabajó sobre el arte animalístico germánico y la arqueología de Suecia, sin relación con el origen de los celtas.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q10655117:Q990655": {
+    "decision": "descartado",
+    "motivo": "Bror Emil Hildebrand fue anticuario del Estado sueco, y su obra es de la arqueología nórdica; Hans Hildebrand está por la cronología de la Edad del Hierro, no él.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q108550498:Q21480472": {
     "decision": "descartado",
     "motivo": "la serie de ministros de Economía no es tema del paquete: los que están, están por sus planes",
@@ -3214,6 +3419,11 @@
     "motivo": "la serie de ministros de Defensa de Israel no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q139766205:Q2454783": {
+    "decision": "descartado",
+    "motivo": "Cynan ap Hywel fue rey de Gwynedd (999-1005), no de Deheubarth como lo ubica Wikidata, y de su reinado casi no hay noticias registradas.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q15315411:Q114749": {
     "decision": "descartado",
     "motivo": "la serie de sultanes otomanos no es tema del paquete: los que están, están por hechos en Tierra Santa",
@@ -3417,6 +3627,21 @@
   "serie:Q15731462:Q361315": {
     "decision": "descartado",
     "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q16157626:Q1894105": {
+    "decision": "descartado",
+    "motivo": "la pretura urbana es una magistratura de Roma, y Marco Cecilio Cornuto, pretor urbano en 43 a. C., no tiene actuación en la Galia.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q16157626:Q51380": {
+    "decision": "descartado",
+    "motivo": "la pretura urbana es una magistratura de Roma, y Léntulo Espínter, pretor urbano en 60 a. C., no tiene actuación en la Galia.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q16157626:Q772930": {
+    "decision": "descartado",
+    "motivo": "la pretura urbana es una magistratura de Roma; Quinto Cicerón está por la Galia y Aulo Placio (Q352489, a quien Wikidata da la pretura urbana en 26) por Britania, mientras que Aulo Plaucio, pretor urbano en 51 a. C., no tiene actuación en la Galia.",
     "fecha": "2026-11-11"
   },
   "serie:Q165948:Q213758": {
@@ -3812,6 +4037,16 @@
   "serie:Q25338460:Q2709203": {
     "decision": "descartado",
     "motivo": "Obispo de Tours de fines del siglo V, de peso local y sin consecuencias para el tema.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q25338460:Q3238163": {
+    "decision": "descartado",
+    "motivo": "ya está por lidoire (la ficha no lleva el QID porque Lidoire no tiene artículo en inglés ni en español).",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q25338460:Q913528": {
+    "decision": "descartado",
+    "motivo": "Bricio de Tours (obispo desde 397) pertenece a la vida eclesiástica de la Galia, según Gregorio de Tours, y no a la religión celta ni a su cristianización.",
     "fecha": "2026-11-11"
   },
   "serie:Q26437544:Q3609909": {
@@ -4534,6 +4769,21 @@
     "motivo": "Capitán general de Chile interino (1761-1762): sin actuación documentada en Cuyo, cuyo gobierno chileno ya cubre el paquete con Amat.",
     "fecha": "2026-11-11"
   },
+  "serie:Q622602:Q313847": {
+    "decision": "descartado",
+    "motivo": "Demetrio II (239-229 a. C.) murió luchando contra los dárdanos, un pueblo ilirio, no celta; el artículo consultado no lo vincula con los gálatas ni los celtas.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q622602:Q32133": {
+    "decision": "descartado",
+    "motivo": "Lisímaco murió en 281 a. C., antes de la invasión celta de Macedonia; los celtas aparecen después en su antiguo reino (Tile, Lisimaquia), que ya tiene sus fichas.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q622602:Q59734": {
+    "decision": "descartado",
+    "motivo": "Demetrio Poliorcetes reinó en Macedonia entre 294 y 288 a. C., antes de la invasión gala de Macedonia (279 a. C.), y no hay episodio suyo con los celtas.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q65997:Q11937796": {
     "decision": "descartado",
     "motivo": "Muhammad IV fue un gobernante hafsí de Túnez al que Wikidata llama califa; su actuación es del Magreb y no de Tierra Santa.",
@@ -4814,6 +5064,11 @@
     "motivo": "Es un período de Wikidata («Second Roman Kingdom», 616 a. C.) sin artículo en ninguna Wikipedia ni hecho datable; la monarquía romana ya está cubierta por la fundación de Roma y el inicio de la República.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q1218477": {
+    "decision": "descartado",
+    "motivo": "Es un álbum más de la serie de Astérix; la serie ya está como asterix-el-galo y su primera aparición como hecho, y el álbum no suma al legado céltico.",
+    "fecha": "2026-11-11"
+  },
   "sucesion:Q133999044": {
     "decision": "descartado",
     "motivo": "El cónclave de 2025 ya está contado en el hecho muerte-del-papa-francisco, que dice que eligió a León XIV.",
@@ -4859,9 +5114,19 @@
     "motivo": "La resolución 503 (1982) del Consejo de Seguridad trata de condenas a muerte en Sudáfrica; no tiene relación con Malvinas, solo es la vecina numérica de la 502.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q223169": {
+    "decision": "descartado",
+    "motivo": "3 Macabeos trata de la persecución de los judíos de Egipto bajo Ptolomeo IV y no menciona a los celtas ni a los gálatas.",
+    "fecha": "2026-11-11"
+  },
   "sucesion:Q3921629": {
     "decision": "descartado",
     "motivo": "Es un período de Wikidata (la primera monarquía romana, desde 753 a. C.) con una sola Wikipedia y sin hecho datable; ya lo cubren la fundación de Roma y el inicio de la República.",
+    "fecha": "2026-11-11"
+  },
+  "sucesion:Q459376": {
+    "decision": "descartado",
+    "motivo": "La cultura de Andrónovo es indoirania, de Kazajistán y Siberia, y no interviene en las hipótesis sobre el celta; su relación con la cerámica cordada queda en la ficha del protoindoeuropeo.",
     "fecha": "2026-11-11"
   },
   "sucesion:Q46934": {
@@ -4882,6 +5147,31 @@
   "sucesion:Q770063": {
     "decision": "descartado",
     "motivo": "La resolución 243 del Consejo de Seguridad (1967) recomendó admitir a Yemen del Sur en la ONU, sin relación con el conflicto árabe-israelí.",
+    "fecha": "2026-11-11"
+  },
+  "tramo:celtas-del-danubio-y-galacia:bohemia:-250:-151": {
+    "decision": "sin-datos",
+    "motivo": "No se encontró un hecho verificable de esos cien años en Bohemia y Moravia: lo que hay son sitios sin fecha precisa (la aparición de los oppida, hacia 150 a. C., ya tiene ficha) y no dejan noticias escritas.",
+    "fecha": "2026-11-11"
+  },
+  "tramo:celtas-del-danubio-y-galacia:hungria:-250:-151": {
+    "decision": "sin-datos",
+    "motivo": "No se encontró un hecho fechado en Hungría en esos cien años; los celtas de la cuenca del Danubio medio solo se conocen por su cultura material y por menciones aisladas posteriores.",
+    "fecha": "2026-11-11"
+  },
+  "tramo:celtas-del-danubio-y-galacia:hungria:-50:50": {
+    "decision": "sin-datos",
+    "motivo": "No se encontró un hecho celta fechado en Hungría en ese siglo: la derrota de los boyos ante Burebista (hacia 60 a. C.) ya está fichada y cae fuera del tramo, y la conquista romana de Panonia no se pudo atribuir a los celtas con fuente verificada.",
+    "fecha": "2026-11-11"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:iberia:191:240": {
+    "decision": "sin-datos",
+    "motivo": "No se encontró un pasaje antiguo sobre los celtas de la península ibérica fechado en esos cincuenta años que se pudiera verificar con el texto.",
+    "fecha": "2026-11-11"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:irlanda:191:240": {
+    "decision": "sin-datos",
+    "motivo": "No se verificó un pasaje antiguo sobre Irlanda fechado en esos cincuenta años: Solino, el candidato, no tiene fecha segura (siglo III o IV).",
     "fecha": "2026-11-11"
   },
   "tramo:rio-de-la-plata-colonial:caribe:1670:1709": {

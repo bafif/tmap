@@ -41,10 +41,11 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
 
 - [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
       informe --red --prioridad baja` lista lo que falta. Ya no quedan huecos de prioridad alta ni de capas de regiones,
-      y la prioridad media está cerrada en los paquetes argentinos, Tierra Santa y la Edad Media. Falta la media de las
-      letras y el pensamiento del siglo XX, las guerras y el orden mundial, las ideas políticas, el pensamiento
-      económico, la ciencia, la cultura libre, el mundo antiguo, Egipto y los celtas (unos 520 huecos), lo nuevo que
-      destapen las rondas (completar una serie la vuelve tema) y la prioridad baja, casi toda de mantenimiento: unos 575
+      y la prioridad media está cerrada en los paquetes argentinos, Tierra Santa, la Edad Media, Egipto y los celtas. Falta
+      la media de las letras y el pensamiento del siglo XX, las guerras y el orden mundial, las ideas políticas, el
+      pensamiento económico, la ciencia y la cultura libre (unos 350 huecos), los tramos del mundo antiguo que quedaron
+      cerrados a medias (Mesopotamia, Anatolia, Persia, la India y Mesoamérica), lo nuevo que destapen las rondas
+      (completar una serie la vuelve tema) y la prioridad baja, casi toda de mantenimiento: unos 575
       hechos sin fuentes, unas 700 fuentes sin enlace de lectura y fuentes medievales sin lugar de escritura. Se rellena
       por rondas hasta que el informe de cada paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del

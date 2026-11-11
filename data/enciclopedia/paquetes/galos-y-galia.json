@@ -1545,7 +1545,7 @@
       "roles": [
         "jefe galo"
       ],
-      "resumen": "Jefe de los unelos, en la Normandía actual, que en 56 a. C. reunió a varios pueblos de la costa y fue vencido por el legado Quinto Titurio Sabino con una retirada fingida (César, BG III.17-19).",
+      "resumen": "Jefe de los unelos, en la Normandía actual, que en 56 a. C. reunió a varios pueblos de la costa y fue vencido por el legado Quinto Titurio Sabino con una retirada fingida (César, BG III.17-19). Según César, los aulercos eburovices y los lexovios mataron a su senado, que no quería la guerra, y se unieron a él (III.17).",
       "obras": [],
       "wikipedia": {
         "es": "Virídovix",
@@ -4376,7 +4376,7 @@
       "lon": 4.299,
       "lat": 46.951,
       "tipo": "batalla",
-      "resumen": "Los nobles galos Julio Floro, trévero, y Julio Sacroviro, eduo, ambos ciudadanos romanos, levantaron a las ciudades endeudadas por los préstamos y los impuestos; Sacroviro tomó Augustoduno con los jóvenes nobles que estudiaban allí y armó a gladiadores acorazados, pero fue vencido por Cayo Silio y se suicidó, igual que Floro (Tácito, Anales III.40-47). Tácito dice que casi todas las ciudades de la Galia estaban comprometidas; los tréveros de Julio Indo ayudaron a reprimirla. Es la primera gran revuelta de la Galia romanizada, encabezada por aristócratas ya integrados en Roma.",
+      "resumen": "Los nobles galos Julio Floro, trévero, y Julio Sacroviro, eduo, ambos ciudadanos romanos, levantaron a las ciudades endeudadas por los préstamos y los impuestos; los primeros en alzarse fueron los andecavos y los túronos (Tácito, Anales III.41). Sacroviro tomó Augustoduno con los jóvenes nobles que estudiaban allí y armó a gladiadores acorazados, pero fue vencido por Cayo Silio y se suicidó, igual que Floro (Anales III.40-47). Tácito dice que casi todas las ciudades de la Galia estaban comprometidas; los tréveros de Julio Indo ayudaron a reprimirla. Es la primera gran revuelta de la Galia romanizada, encabezada por aristócratas ya integrados en Roma.",
       "regiones": [
         "francia"
       ],
@@ -4785,6 +4785,139 @@
       "wikipedia": {
         "es": "Batalla de Octoduro",
         "en": "Battle of Octodurus"
+      }
+    },
+    {
+      "id": "fundacion-de-augusta-treverorum",
+      "titulo": "Fundación de Augusta Treverorum",
+      "anio": -17,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tréveris",
+      "lon": 6.639,
+      "lat": 49.756,
+      "tipo": "fundacion",
+      "resumen": "Los romanos fundaron la ciudad de los tréveros, Tréveris, junto a un puente sobre el Mosela; la fecha se sitúa entre el primer puente (18/17 a. C., fechado por dendrocronología) y los últimos años de Augusto (14), y no se espera una población grande antes del final de su reinado. César destaca la caballería de los tréveros y su jefe Induciomaro lo enfrentó; volvieron a sublevarse en 21 con Julio Floro y en 70 con Julio Clásico y Julio Tutor, y Tácito (Germania 28) recoge que ellos y los nervios decían descender de germanos. La ciudad fue después capital de la Bélgica y, en el siglo IV, residencia imperial.",
+      "regiones": [
+        "alemania",
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias",
+        "germania-tacito"
+      ],
+      "wikipedia": {
+        "es": "Augusta Treverorum",
+        "en": "Augusta Treverorum"
+      }
+    },
+    {
+      "id": "matanza-de-divoduro",
+      "titulo": "Matanza de Divoduro",
+      "anio": 69,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Divoduro (Metz)",
+      "lon": 6.176,
+      "lat": 49.119,
+      "tipo": "desastre",
+      "resumen": "En el año de los cuatro emperadores la columna de Fabio Valens, que marchaba con tropas de Vitelio hacia Italia, fue recibida «con toda cortesía» en Divoduro, la capital de los mediomátricos, y de pronto los soldados tomaron las armas y mataron, según Tácito (Historias I.62-63), a unos 4.000 habitantes. Tácito dice que no fue por botín ni afán de despojar, sino «por furor y rabia y causas inciertas», y que los ruegos del jefe los contuvieron antes de destruir la ciudad, a la que llama inocente; la cifra es la de Tácito y no hay otra fuente. Los mediomátricos habían enviado 5.000 hombres al socorro de Alesia en 52 a. C., según César (BG VII.75).",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [
+        "historias-tacito"
+      ],
+      "wikipedia": {
+        "es": "Divodurum Mediomatricorum",
+        "en": "Divodurum Mediomatricorum"
+      }
+    },
+    {
+      "id": "los-remos-se-ponen-del-lado-de-cesar",
+      "titulo": "Los remos se ponen del lado de César",
+      "anio": -57,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Durocortoro (Reims)",
+      "lon": 4.029,
+      "lat": 49.265,
+      "tipo": "politico",
+      "resumen": "En 57 a. C., al entrar César en la Galia belga, los remos enviaron a Iccio y Andecomborio a someterse a Roma, rehusaron unirse a los demás belgas y, según César (Guerra de las Galias II.3-5), le dieron datos sobre los contingentes de sus enemigos. Siguieron del lado romano durante toda la guerra, incluso en la revuelta de Vercingétorix de 52 a. C., y su oppidum Durocortoro (Reims) pasó a ser a fines del siglo I a. C. la capital de la civitas. César es la fuente casi única y los presenta como aliados dóciles y a los demás belgas como enemigos. Según él, los remos compartían con los suesiones leyes, magistrados y mando (II.3); se ha leído su sumisión a Roma como una salida de ese vínculo, que parece haber favorecido a los suesiones, y en 51 César puso a los suesiones bajo los remos (VIII.6).",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Remos",
+        "en": "Remi"
+      }
+    },
+    {
+      "id": "cesar-contra-morinos-y-menapios",
+      "titulo": "César contra mórinos y menapios",
+      "anio": -56,
+      "anio_hasta": -53,
+      "aprox": false,
+      "lugar": "Costa y pantanos del norte de la Galia Bélgica",
+      "tipo": "batalla",
+      "resumen": "Según César, en 56 a. C. los mórinos y los menapios eran los únicos de la Galia que seguían en armas y que nunca le habían enviado legados de paz (BG III.28); se refugiaron en bosques y pantanos y las lluvias obligaron a César a retirarse tras devastar sus campos y quemar sus aldeas (III.29). En 55, antes de pasar a Britania, mandó a Sabino y Cota contra los menapios y los pagos mórinos que no habían enviado legados (IV.22); parte de los mórinos se excusó, pero atacaron a unos 300 soldados de dos naves desviadas a la vuelta y Labieno marchó contra ellos, mientras Sabino y Cota arrasaban los campos de los menapios, que se escondieron en los bosques (IV.37-38). En 53 César entró con cinco legiones en el país de los menapios, que daban hospedaje a Ambiórix y eran «los únicos de la Galia que nunca habían enviado legados de paz» (VI.5): incendió aldeas, tomó hombres y ganado, recibió rehenes y dejó a Comio con caballería en su territorio (VI.6). Todo viene del relato de César.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Mórinos",
+        "en": "Morini"
+      }
+    },
+    {
+      "id": "carausio-se-proclama-emperador",
+      "titulo": "Carausio se proclama emperador en Britania",
+      "anio": 286,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Britania",
+      "tipo": "revolucion",
+      "resumen": "Carausio, de origen humilde según Eutropio (IX.21, «vilissime natus») y menapio según Aurelio Víctor (De Caesaribus 39.20, «Menapiae civis», que añade que de joven había sido piloto a sueldo), mandaba la flota del Canal cuando Maximiano ordenó su ejecución, acusado de dejar actuar a los piratas para quedarse con el botín; a fines de 286 o comienzos de 287 se proclamó emperador en Britania y el norte de la Galia. Resistió una expedición de Maximiano en 288 o 289 y gobernó siete años, hasta que su ministro de finanzas Alecto lo asesinó en 293, cuando Constancio Cloro había sitiado Gesoriaco. Sabemos de él por panegiristas de sus enemigos y por su moneda, con la que se presentó como colega legítimo de los otros emperadores; los menapios, su pueblo, habían sido atacados por César en 56 y 53 a. C.",
+      "regiones": [
+        "francia",
+        "britania"
+      ],
+      "fuentes": [
+        "panegirico-de-constancio",
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Carausio",
+        "en": "Carausius"
+      }
+    },
+    {
+      "id": "fundacion-de-aquileia",
+      "titulo": "Fundación de la colonia latina de Aquileia",
+      "anio": -181,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Aquileia",
+      "lon": 13.371,
+      "lat": 45.769,
+      "tipo": "fundacion",
+      "resumen": "En 180/181 a. C. Roma fundó la colonia de derecho latino de Aquileia en el extremo noreste de la llanura del Po, «en tierra de los galos» según Livio (XL.34.2). En 186 unos galos transalpinos se habían asentado junto al lugar y en 183 Roma los hizo irse (XXXIX.22 y 54-55); ese año el senado decidió fundar la colonia (XXXIX.55.5), y la fundó un triunvirato formado por Publio Cornelio Escipión Násica (que había vencido a los boyos en 191), Cayo Flaminio y Lucio Manlio Acidino. Livio da el reparto: 50 yugadas a cada uno de los 3.000 infantes, 100 a los centuriones y 140 a los jinetes. En 183 a. C. se habían fundado también las colonias de Parma y Mutina, con 2.000 colonos en cada una. Livio es la fuente de todo esto, y el cuadro que dan las fuentes de esta colonización es el de los vencedores, sin voz de los galos desplazados.",
+      "regiones": [
+        "galia-cisalpina",
+        "italia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Aquilea (Italia)",
+        "en": "Aquileia"
       }
     }
   ],

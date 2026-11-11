@@ -1713,7 +1713,7 @@
       "leer": [
         {
           "titulo": "Breasted, Ancient Records of Egypt, vol. 4 (1906), Internet Archive",
-          "url": "https://archive.org/details/ancientrecordsof04brea",
+          "url": "https://archive.org/details/cu31924082479258",
           "idioma": "en",
           "dominio_publico": true
         }
@@ -2556,6 +2556,157 @@
       "por_que_importa": "Traducción de referencia de la literatura egipcia.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "inscripciones-de-anjtifi",
+      "titulo": "Inscripciones de la tumba de Anjtifi",
+      "titulo_original": null,
+      "autor": "Anjtifi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -2150,
+        "aprox": true,
+        "lugar": "El-Mo'alla",
+        "lon": 32.525,
+        "lat": 25.472
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2160,
+        "hasta": -2130
+      },
+      "idioma_original": "Egipcio",
+      "soporte": "Inscripciones en las paredes de una tumba excavada en la roca",
+      "resumen": "Autobiografía de Anjtifi, jefe de los nomos de Hieracómpolis y Edfu durante el Primer Período Intermedio. Cuenta cómo alimentó a su gente y a otros nomos en una época de hambre y cómo se impuso en el sur de Egipto.",
+      "por_que_importa": "Es el testimonio contemporáneo más claro de la hambruna y la fragmentación del poder después del Imperio Antiguo, pero es la voz de un gobernante local que se presenta a sí mismo como salvador.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Anjtifi",
+        "en": "Ankhtifi"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "portico-bubastita-de-karnak",
+      "titulo": "Pórtico bubastita (relieve de la campaña de Sheshonq I)",
+      "titulo_original": null,
+      "autor": "Sheshonq I",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -925,
+        "aprox": true,
+        "lugar": "Tebas",
+        "lon": 32.639,
+        "lat": 25.719
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante"
+        ],
+        "desde": -925,
+        "hasta": -925
+      },
+      "idioma_original": "Egipcio",
+      "soporte": "Relieves en piedra en el muro sur del templo de Amón, en Karnak",
+      "resumen": "Relieves que muestran a Sheshonq I ante el dios Amón con una lista de ciudades de Canaán que dice haber conquistado. La lista nombra lugares al norte y al sur de Judá, pero no menciona Jerusalén.",
+      "por_que_importa": "Es el documento egipcio de la campaña que se suele asociar con el Sisac de la Biblia; es un texto de propaganda real, y los especialistas discuten cuántas de las ciudades fueron realmente tomadas.",
+      "leer": [
+        {
+          "titulo": "Ancient Records of Egypt, de J. H. Breasted, tomo IV (1906), §§ 709-722 (Sheshonq I, gran relieve de Karnak) (Internet Archive)",
+          "url": "https://archive.org/details/cu31924082479258",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Puerta bubástida",
+        "en": "Bubastite Portal"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "estela-de-la-victoria-de-piye",
+      "titulo": "Estela de la victoria de Piye",
+      "titulo_original": null,
+      "autor": "Piye",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -725,
+        "aprox": true,
+        "lugar": "Gebel Barkal",
+        "lon": 31.828,
+        "lat": 18.537
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "nubia"
+        ],
+        "desde": -725,
+        "hasta": -725
+      },
+      "idioma_original": "Egipcio",
+      "soporte": "Estela de granito, en el templo de Amón de Gebel Barkal",
+      "resumen": "Estela del rey kushita Piye, fechada en el año 21 de su reinado, que cuenta su campaña contra la coalición del príncipe Tefnajt de Sais. Enumera las ciudades que tomó y los reyes del Delta que se le sometieron.",
+      "por_que_importa": "Es la fuente principal de la conquista kushita de Egipto y de la dinastía XXV, escrita por el propio vencedor.",
+      "leer": [
+        {
+          "titulo": "Ancient Records of Egypt, de J. H. Breasted, tomo IV (1906), §§ 796-883 (estela de Piankhi) (Internet Archive)",
+          "url": "https://archive.org/details/cu31924082479258",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Stele of Piye"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-de-al-yabarti",
+      "titulo": "Aya'ib al-athar fi'l-tarayim wa'l-ajbar (Crónica de al-Yabarti)",
+      "titulo_original": null,
+      "autor": "Abd al-Rahman al-Yabarti",
+      "autor_id": "al-yabarti",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1800,
+        "anio_hasta": 1822,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": 1688,
+        "hasta": 1821
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscritos",
+      "resumen": "Crónica de Egipto en forma de anales y biografías, desde 1688 hasta 1821. Al-Yabarti vivió el final del período y relata el dominio mameluco, la ocupación francesa de 1798 y el ascenso de Mehmet Alí.",
+      "por_que_importa": "Es la fuente local principal del Egipto del siglo XVIII y comienzos del XIX; es la mirada de un ulema de El Cairo y para los años anteriores a su juventud depende de informes de otros. John W. Livingstone estudió su exactitud justamente sobre Alí Bey (BSOAS, 1970).",
+      "leer": [
+        {
+          "titulo": "Merveilles biographiques et historiques, traducción francesa de Chefik Mansour bey y otros (El Cairo, 1888-1896), t. III, años 1768-1777 (Internet Archive)",
+          "url": "https://archive.org/details/merveillesbiogra03jaba",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3082,6 +3233,74 @@
         "es": "Al-Maqrizi",
         "en": "Al-Maqrizi"
       }
+    },
+    {
+      "id": "ali-bey-al-kabir",
+      "nombre": "Alí Bey al-Kabir",
+      "nacimiento": {
+        "anio": 1728,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1773,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1760,
+        "hasta": 1772,
+        "aprox": false
+      },
+      "roles": [
+        "mameluco",
+        "gobernante"
+      ],
+      "resumen": "Mameluco que fue shaykh al-balad (jefe del país) del Egipto otomano en 1760-1766 y 1767-1772. En 1769 dejó de enviar el tributo a Estambul y acuñó moneda con su nombre, y en 1770 tomó el Hiyaz y en 1771 ocupó por poco tiempo Damasco; su general Abu al-Dhahab se le volvió en contra y él murió en 1773.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ali Bey Al-Kabir",
+        "en": "Ali Bey al-Kabir"
+      },
+      "wikidata": "Q261691"
+    },
+    {
+      "id": "al-yabarti",
+      "nombre": "Abd al-Rahman al-Yabarti",
+      "nacimiento": {
+        "anio": 1753,
+        "aprox": false,
+        "lugar": "Tell al-Yabarti o El Cairo (discutido)"
+      },
+      "muerte": {
+        "anio": 1825,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1798,
+        "hasta": 1822,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "ulema"
+      ],
+      "resumen": "Ulema de El Cairo y cronista de Egipto bajo los mamelucos, los franceses de Napoleón y Mehmet Alí. Su crónica Aya'ib al-athar es la fuente local principal sobre el siglo XVIII y la ocupación francesa.",
+      "obras": [
+        "cronica-de-al-yabarti"
+      ],
+      "wikipedia": {
+        "es": "Abd al-Rahman al-Jabarti",
+        "en": "Abd al-Rahman al-Jabarti"
+      },
+      "wikidata": "Q658401"
     }
   ],
   "hechos": [
@@ -3609,6 +3828,106 @@
       "wikipedia": {
         "es": "KV62",
         "en": "Tomb of Tutankhamun"
+      }
+    },
+    {
+      "id": "imperio-antiguo-de-egipto",
+      "titulo": "Imperio Antiguo de Egipto",
+      "anio": -2686,
+      "anio_hasta": -2181,
+      "aprox": true,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "politico",
+      "resumen": "Período de las dinastías III a VI (-2686 a -2181 en la cronología de Ian Shaw; algunos egiptólogos suman las dinastías VII y VIII), conocido como la Edad de las Pirámides, con capital en Menfis. Hacia el final de la dinastía VI, durante el largo reinado de Pepi II, los nomarcas se hicieron hereditarios y el poder del rey se debilitó. Fekri Hassan y otros relacionan el derrumbe con una sequía hacia -2200/-2150 que redujo las crecidas del Nilo, y leen en la tumba de Anjtifi la hambruna que siguió. Nadine Moeller sostiene que las menciones de hambre son un tópico de las autobiografías de los gobernantes locales y que la fragmentación fue gradual.",
+      "regiones": [
+        "bajo-egipto",
+        "alto-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "piedra-de-palermo",
+        "textos-de-las-piramides",
+        "aegyptiaca-de-maneton",
+        "inscripciones-de-anjtifi"
+      ],
+      "wikipedia": {
+        "es": "Imperio Antiguo de Egipto",
+        "en": "Old Kingdom of Egypt"
+      }
+    },
+    {
+      "id": "campana-de-sheshonq-i-en-canaan",
+      "titulo": "Campaña de Sheshonq I en Canaán",
+      "anio": -925,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Meguido",
+      "lon": 35.184,
+      "lat": 32.585,
+      "tipo": "batalla",
+      "resumen": "Sheshonq I, fundador de la dinastía XXII, hace una campaña en Canaán. Sus relieves de Karnak enumeran las ciudades que dice haber tomado, al norte y al sur de Judá, entre ellas Meguido, donde apareció un fragmento con su nombre. La mayoría de los egiptólogos lo identifica con el Sisac que, según la Biblia (1 Reyes 14:25-26), se llevó los tesoros del templo de Jerusalén en el quinto año de Roboam, y de esa sincronía sale la fecha convencional de -925. La lista de Karnak no nombra Jerusalén, e Israel Finkelstein considera ese saqueo una construcción teológica. Su reinado se fecha en -945 a -924 (Kenneth Kitchen) o en -943 a -922 (Rolf Krauss).",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "egipto"
+      ],
+      "fuentes": [
+        "portico-bubastita-de-karnak",
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Sheshonq I",
+        "en": "Shoshenq I"
+      }
+    },
+    {
+      "id": "campana-de-piye-contra-tefnajt",
+      "titulo": "Campaña de Piye contra Tefnajt",
+      "anio": -725,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "batalla",
+      "resumen": "Piye, rey kushita de Napata, marcha hacia el norte contra la coalición del príncipe Tefnajt de Sais, que se extendía por el Delta y había atraído a Nimlot de Hermópolis. Según su estela, toma Hermópolis y Menfis y recibe la sumisión de los reyes del Delta. El año 21 de su reinado cae hacia -728 a -724, según la cronología que se siga; su autoridad sobre el Delta fue limitada y Tefnajt siguió gobernando allí.",
+      "regiones": [
+        "bajo-egipto",
+        "alto-egipto",
+        "egipto",
+        "nubia"
+      ],
+      "fuentes": [
+        "estela-de-la-victoria-de-piye"
+      ],
+      "wikipedia": {
+        "es": "Pianjy",
+        "en": "Piye"
+      }
+    },
+    {
+      "id": "gobierno-de-ali-bey-al-kabir",
+      "titulo": "Gobierno de Alí Bey al-Kabir",
+      "anio": 1767,
+      "anio_hasta": 1772,
+      "aprox": true,
+      "lugar": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "tipo": "politico",
+      "resumen": "El mameluco Alí Bey controla Egipto como shaykh al-balad. En 1768 depuso al gobernador otomano y ocupó su lugar como gobernador interino; según al-Yabarti, dejó ese cargo en 1769 al llegar un nuevo bajá, pero siguió mandando. En 1769 dejó de pagar el tributo y acuñó moneda con su nombre. En 1770 tomó el Hiyaz y en 1771, aliado con Zahir al-Umar, ocupó por poco tiempo Damasco, hasta que su general Abu al-Dhahab abandonó la campaña, volvió a Egipto y en 1772 lo desplazó. Alí Bey murió en 1773 al intentar recuperar El Cairo. El fin de su poder se fecha casi siempre en 1772, y en 1773 según İsmail Hakkı Uzunçarşılı.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "cronica-de-al-yabarti"
+      ],
+      "wikipedia": {
+        "es": "Ali Bey Al-Kabir",
+        "en": "Ali Bey al-Kabir"
       }
     }
   ],

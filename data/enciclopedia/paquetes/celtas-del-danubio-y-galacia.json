@@ -1980,6 +1980,50 @@
       ],
       "resumen": "Tetrarca de los trocmos al que Pompeyo, al reorganizar Asia Menor después de la guerra contra Mitrídates, dio la ciudad de Mitridatio, en el Ponto, según Estrabón (XII.3.13).",
       "obras": []
+    },
+    {
+      "id": "meleagro-de-macedonia",
+      "nombre": "Meleagro de Macedonia",
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.519,
+        "lat": 40.761,
+        "desde": -279,
+        "hasta": -279,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hijo de Ptolomeo I Sóter y hermano de Ptolomeo Cerauno, reinó en Macedonia unos dos meses en 279 a. C., tras la muerte de Cerauno en combate contra los celtas, hasta que los macedonios lo depusieron «por considerarlo indigno», según Eusebio (Crónica, libro I, que sigue a Porfirio). Su breve reinado muestra el vacío de poder que dejó la invasión gala; la cronología exacta de esos meses es incierta.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Meleagro de Macedonia",
+        "en": "Meleager (king)"
+      },
+      "wikidata": "Q347176"
+    },
+    {
+      "id": "antipatro-etesias",
+      "nombre": "Antípatro Etesias",
+      "activo": {
+        "lugar": "Pela",
+        "lon": 22.519,
+        "lat": 40.761,
+        "desde": -279,
+        "hasta": -277,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Sobrino de Casandro, hijo de su hermano Filipo, fue rey de Macedonia durante 45 días en 279 a. C., tras la expulsión de Meleagro. Según Eusebio (Crónica, libro I, que sigue a Porfirio), Sóstenes lo «puso en fuga» al cabo de esos 45 días, y el apodo Etesias viene de que los vientos etesios soplan más o menos lo que duró su reinado. Muerto Sóstenes, los partidarios de Antípatro, de Ptolomeo y de Arrideo se disputaron Macedonia y, «mientras Antípatro conspiraba, Antígono tomó el poder». Un papiro del archivo de Zenón escrito en Alejandría en 258-256 a. C. (P.Cair.Zen. I 59019) nombra a un «Antípatro el Etesias» en una carta privada, en tiempos de Ptolomeo II y sin nada de una pretensión al trono. No se conoce su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antípatro Etesias",
+        "en": "Antipater Etesias"
+      },
+      "wikidata": "Q386723"
     }
   ],
   "hechos": [
@@ -3045,6 +3089,76 @@
       "wikipedia": {
         "es": "Gotini",
         "en": "Cotini"
+      }
+    },
+    {
+      "id": "perseo-pierde-a-los-mercenarios-galos",
+      "titulo": "Perseo pierde a los mercenarios galos",
+      "anio": -168,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Junto al Axio (Vardar), entre Almana y Bylazora (Peonia)",
+      "lon": 21.912,
+      "lat": 41.847,
+      "tipo": "politico",
+      "resumen": "En la tercera guerra macedónica un cuerpo de galos con infantería y caballería y un jefe al que Livio (XLIV.26-27) llama Clondico, que esperaban en Desudaba (Médica), se ofreció a Perseo a cambio de dinero; Perseo salió de su campamento del Elpeo y acampó en Almana, junto al Axio, para encontrarse con ellos. Livio los llama galos «derramados por el Ilírico», que se volvieron «al Istro» (el Danubio); Plutarco (Emilio Paulo 12.2) los llama bastarnas, un pueblo cuya lengua (celta o germánica) se discute. Según Livio, el rey, por avaricia, quiso contratar solo 5.000 jinetes y no llevó el oro convenido, y los galos se fueron arrasando parte de Tracia; Livio opina que esa fuerza habría puesto a los romanos en apuros. Es el relato de los vencedores: Livio y Plutarco probablemente siguen los dos a Polibio.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Tercera guerra macedónica",
+        "en": "Third Macedonian War"
+      }
+    },
+    {
+      "id": "el-sacerdote-de-pesinunte-habla-en-el-senado",
+      "titulo": "El sacerdote de Pesinunte llega a Roma",
+      "anio": -102,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pesinunte",
+      "lon": 31.581,
+      "lat": 39.332,
+      "tipo": "religioso",
+      "resumen": "En 102 a. C. un Bataces, sacerdote de la Gran Madre en Pesinunte, ciudad del territorio de los tolistobogios gálatas, viajó a Roma. Según Plutarco (Mario 17.5-6), anunció que la diosa prometía a Roma la victoria; el senado votó un templo para ella, pero el tribuno Aulo Pompeyo lo echó de los rostra llamándolo impostor y murió de fiebre en una semana, lo que dio crédito al sacerdote. Según Diodoro (XXXVI.13, conservado en el resumen de Focio), Bataces pidió reparación por la profanación de su templo y habló ante el senado con una corona de oro y un manto bordado. La piedra de la diosa había llegado a Roma desde Pesinunte en 205-204 a. C. (Livio XXIX.10-14); el culto de Cibeles era frigio y no celta, y los tolistobogios se habían establecido en la zona hacia 270 a. C.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Pesinunte",
+        "en": "Pessinus"
+      }
+    },
+    {
+      "id": "el-galata-en-el-siglo-ii",
+      "titulo": "El gálata en el siglo II",
+      "anio": 170,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "cultural",
+      "resumen": "Hacia 170 dos autores griegos dan noticia de que se hablaba celta en Asia Menor. Pausanias (X.36.1) dice que el arbusto que los griegos llaman kokkos, el quermes, lo llaman hys, «en su lengua», los gálatas de más allá de Frigia; Luciano (Alejandro 51) cuenta que Alejandro de Abonutico respondía oráculos a quien preguntaba «en siríaco o en celta». Ninguno da más palabras ni dice cuánta gente la hablaba, y Luciano no dice que esos celtas fueran gálatas; dos siglos después Jerónimo la compara con la lengua de los tréveros.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias",
+        "alejandro-o-el-falso-profeta"
+      ],
+      "wikipedia": {
+        "es": "Idioma gálata",
+        "en": "Galatian language"
       }
     }
   ],

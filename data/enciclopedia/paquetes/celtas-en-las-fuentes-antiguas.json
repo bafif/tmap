@@ -1064,7 +1064,7 @@
         }
       ],
       "wikipedia": {
-        "es": "Diógenes Laercio",
+        "es": "Vidas, opiniones y sentencias de los filósofos más ilustres",
         "en": "Diogenes Laertius"
       },
       "confianza": "alta"
@@ -3310,6 +3310,41 @@
       "por_que_importa": "Es una de las lecturas más citadas de la Guerra de las Galias como texto persuasivo; a diferencia de Rambaud (1953), que buscaba las deformaciones de los hechos, le interesa menos si César miente que qué imagen de Roma construye. Se concentra en el texto y no lo contrasta con la arqueología ni con las cifras, de lo que se ocupan otros (Henige 1998).",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "tetrabiblos",
+      "titulo": "Tetrabiblos",
+      "titulo_original": "Τετράβιβλος",
+      "autor": "Claudio Ptolomeo",
+      "autor_id": "claudio-ptolomeo",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 160,
+        "aprox": true,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia",
+          "alemania"
+        ],
+        "desde": 160,
+        "hasta": 160
+      },
+      "idioma_original": "Griego",
+      "soporte": "Libro",
+      "resumen": "Tratado de astrología en cuatro libros, escrito por Ptolomeo después del Almagesto. En el libro II (cap. 3) reparte los pueblos del mundo habitado entre los signos del zodíaco y los planetas que los rigen: Britania, la Galia, Germania y Bastarnia, en el noroeste, tendrían afinidad con Aries y Marte, y por eso sus habitantes serían en general más fieros, más tercos y bestiales; el cuarto noroeste es «independiente, amante de la libertad y aficionado a las armas».",
+      "por_que_importa": "Es un pasaje etnográfico, no una observación: aplica a los celtas y germanos del norte el esquema astrológico de los climas y los caracteres de los pueblos, y repite el tópico antiguo del norteño belicoso e indómito. No da datos propios sobre ningún pueblo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tetrabiblos",
+        "en": "Tetrabiblos"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -4171,7 +4206,8 @@
       ],
       "resumen": "Astrónomo y geógrafo griego de Alejandría, autor del Almagesto y de la Geografía. Su Geografía da coordenadas de miles de lugares y nombres de pueblos de Hispania, la Galia, Britania e Irlanda, y es la descripción más antigua del interior de Irlanda. Trabajó desde itinerarios y obras anteriores, sobre todo la de Marino de Tiro, y no vio esas tierras.",
       "obras": [
-        "geografia-de-ptolomeo"
+        "geografia-de-ptolomeo",
+        "tetrabiblos"
       ],
       "wikipedia": {
         "es": "Claudio Ptolomeo",
@@ -5082,6 +5118,22 @@
         "es": "Herodes Agripa II",
         "en": "Herod Agrippa II"
       }
+    },
+    {
+      "id": "estrabon-describe-a-los-habitantes-de-ierne",
+      "titulo": "Estrabón describe a los habitantes de Ierne",
+      "anio": 18,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Irlanda (descrita de oídas)",
+      "tipo": "cultural",
+      "resumen": "En el libro IV de su Geografía (IV.5.4), escrito hacia el año 18, Estrabón dice que los habitantes de Ierne, la isla al norte de Britania, comen carne humana y se unen con sus madres y hermanas, y aclara de inmediato que no tiene testigos dignos de fe. Añade que se tiene por honroso comerse a los padres muertos, y relativiza lo del canibalismo: dice que se cuenta también de los escitas y que en los asedios lo habrían hecho incluso celtas e íberos. Estrabón no estuvo en Irlanda y lo toma de otros: es el tópico grecorromano del pueblo del borde del mundo, y no una observación.",
+      "regiones": [
+        "irlanda"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iv"
+      ]
     }
   ],
   "lugares": []

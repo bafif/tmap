@@ -41,10 +41,11 @@ What's covered and what's missing, region by region, is in [the coverage report]
 
 - [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
       informe --red --prioridad baja` lists what is missing. There are no high-priority gaps or region-layer gaps left,
-      and the medium priority is closed in the Argentine packages, the Holy Land and the Middle Ages. Still to do: the
-      medium priority of twentieth-century literature and thought, wars and world order, political ideas, economic
-      thought, science, free culture, the ancient world, Egypt and the Celts (about 520 gaps), whatever new the rounds
-      uncover (completing a series makes it a topic) and the low priority, almost all maintenance: about 575 events
+      and the medium priority is closed in the Argentine packages, the Holy Land, the Middle Ages, Egypt and the Celts.
+      Still to do: the medium priority of twentieth-century literature and thought, wars and world order, political
+      ideas, economic thought, science and free culture (about 350 gaps), the stretches of the ancient world that were
+      only half closed (Mesopotamia, Anatolia, Persia, India and Mesoamerica), whatever new the rounds uncover
+      (completing a series makes it a topic) and the low priority, almost all maintenance: about 575 events
       without sources, about 700 sources without a reading link and medieval sources with no place of writing. It is
       filled in rounds until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century

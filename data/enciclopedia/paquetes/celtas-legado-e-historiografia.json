@@ -1187,7 +1187,10 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "en": "A Handbook of the Cornish Language"
+      }
     },
     {
       "id": "tynged-yr-iaith",
@@ -2710,6 +2713,96 @@
       "por_que_importa": "Es una de las revisiones críticas del celtismo gallego desde la arqueología; muestra que la identificación entre castros y celtas fue más una necesidad política que una conclusión de los datos.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "the-stolen-child",
+      "titulo": "El niño robado",
+      "titulo_original": "The Stolen Child",
+      "autor": "W. B. Yeats",
+      "autor_id": "w-b-yeats",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1886,
+        "aprox": false,
+        "lugar": "Dublín",
+        "lon": -6.26,
+        "lat": 53.35
+      },
+      "trata": {
+        "regiones": [
+          "irlanda"
+        ],
+        "desde": 1886,
+        "hasta": 1886
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Poema",
+      "resumen": "Poema de Yeats escrito en 1886 y publicado primero en la revista Irish Monthly en diciembre de ese año; entró luego en la antología Poems and Ballads of Young Ireland (1888) y en su primer libro, The Wanderings of Oisin and Other Poems (1889). Se basa en una leyenda irlandesa en la que las hadas seducen a un niño para llevárselo.",
+      "por_que_importa": "Muestra el interés temprano de Yeats por el folklore de hadas de Irlanda, que recogió también en Fairy and Folk Tales of the Irish Peasantry (1888); el poema se lee dentro del romanticismo y la poesía prerrafaelita, y es parte de la estética del «crepúsculo celta». Lo que cuenta es folklore irlandés recogido en el siglo XIX, no una creencia de los celtas antiguos, de los que no hay textos propios.",
+      "leer": [
+        {
+          "titulo": "Texto del poema en Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Stolen_Child",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Poems de Yeats (edición revisada de Fisher Unwin) en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/38877",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "The Stolen Child"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "down-by-the-salley-gardens",
+      "titulo": "Junto a los jardines de sauces",
+      "titulo_original": "Down by the Salley Gardens",
+      "autor": "W. B. Yeats",
+      "autor_id": "w-b-yeats",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1889,
+        "aprox": true,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "irlanda"
+        ],
+        "desde": 1889,
+        "hasta": 1889
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Poema",
+      "resumen": "Poema de Yeats publicado en The Wanderings of Oisin and Other Poems (1889) con el título «An Old Song Re-Sung». Yeats anotó que era un intento de reconstruir una canción vieja a partir de tres versos mal recordados por una campesina de Ballisodare, en el condado de Sligo; la canción pudo ser la balada «The Rambling Boys of Pleasure». Recibió su título actual al reimprimirse en Poems (1895).",
+      "por_que_importa": "Es un caso de la tradición oral irlandesa pasada por un escritor del renacimiento literario: la letra es de Yeats, la base es una canción campesina. En 1909 Herbert Hughes la puso en música con el aire tradicional «The Maids of Mourne Shore», y esa versión es la que grabaron después muchos intérpretes, de John McCormack (1941) a Clannad.",
+      "leer": [
+        {
+          "titulo": "Texto del poema en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Down_by_the_Salley_Gardens",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Poems de Yeats (edición revisada de Fisher Unwin) en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/38877",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Down by the Salley Gardens"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4064,7 +4157,9 @@
       ],
       "resumen": "Poeta y dramaturgo irlandés que en The Celtic Twilight (1893) reunió relatos de hadas y creencias de los campesinos de Sligo y Galway y dio nombre a una estética del «crepúsculo celta». Con Lady Gregory y Edward Martyn fundó el Teatro Literario Irlandés (1899), del que salió el Abbey Theatre (1904). Recibió el Premio Nobel de Literatura en 1923 y fue senador del Estado Libre Irlandés.",
       "obras": [
-        "the-celtic-twilight"
+        "the-celtic-twilight",
+        "the-stolen-child",
+        "down-by-the-salley-gardens"
       ],
       "wikipedia": {
         "es": "William Butler Yeats",

@@ -4965,6 +4965,77 @@
         "en": "Frontinus"
       },
       "wikidata": "Q297377"
+    },
+    {
+      "id": "owain-ap-hywel-dda",
+      "nombre": "Owain ap Hywel Dda",
+      "muerte": {
+        "anio": 988,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Deheubarth",
+        "desde": 950,
+        "hasta": 988,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hijo de Hywel Dda, a cuya muerte en 950 (949 o 950, según la fuente) se repartió el reino con sus hermanos según el derecho galés, y desde 954 gobernó solo Deheubarth, en el sur de Gales. No pudo mantener la hegemonía sobre Gwynedd, que recuperaron los hijos de Idwal Foel; en 962 prometió un tributo anual al rey inglés Edgar, y atacó varias veces Morgannwg. Al parecer, los Annales Cambriae (texto A) se compilaron por su iniciativa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Owain ap Hywel Dda",
+        "en": "Owain ap Hywel Dda"
+      },
+      "wikidata": "Q15707351"
+    },
+    {
+      "id": "maredudd-ab-owain",
+      "nombre": "Maredudd ab Owain",
+      "muerte": {
+        "anio": 999,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Deheubarth y Gwynedd",
+        "desde": 986,
+        "hasta": 999,
+        "aprox": true
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Segundo hijo de Owain ap Hywel Dda; hacia 986 tomó Gwynedd a Cadwallon ab Ieuaf y al morir su padre, hacia 988, heredó también Deheubarth, con lo que pudo controlar casi todo Gales salvo Gwent y Morgannwg. Según las crónicas galesas, en 987 Godfrey Haroldson arrasó Anglesey y se llevó cautivos, y Maredudd pagó un rescate (una moneda de plata por cabeza, dice la tradición); las incursiones vikingas fueron constantes en su reinado. A su muerte Gwynedd volvió a la línea de Idwal Foel con Cynan ap Hywel, y Deheubarth pasó a un hombre llamado Rhain, al que el pueblo de Deheubarth aceptó como hijo de Maredudd y al que las crónicas galesas, después de su derrota ante Llywelyn ap Seisyll (1022), llaman pretendiente irlandés.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Maredudd ab Owain",
+        "en": "Maredudd ab Owain"
+      },
+      "wikidata": "Q2670611"
+    },
+    {
+      "id": "maredudd-ab-owain-ab-edwin",
+      "nombre": "Maredudd ab Owain ab Edwin",
+      "muerte": {
+        "anio": 1072,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Deheubarth",
+        "desde": 1063,
+        "hasta": 1072,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Descendiente por línea masculina de Hywel Dda, recuperó Deheubarth en 1063, a la muerte de Gruffudd ap Llywelyn, que se lo había quitado a su familia alegando derechos por su madre Angharad. Los normandos devastaron el sureste de Gales durante su reinado; tras algunos intentos, no resistió su avance sobre Gwent y recibió tierras en Inglaterra en 1070. Murió en 1072 en una batalla junto al río Rhymni, y lo sucedió su hermano Rhys, no su hijo Gruffudd.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Maredudd ab Owain ab Edwin"
+      },
+      "wikidata": "Q2253200"
     }
   ],
   "hechos": [
@@ -5557,7 +5628,8 @@
       "tipo": "batalla",
       "resumen": "Septimio Severo llevó un gran ejército contra los caledonios y los meatas, que habían roto los acuerdos con Roma. Dion Casio (LXXVI.12-15 en la numeración de Boissevain; LXXVII en la edición Loeb) los describe sin ciudades ni campos, viviendo de la caza y el pastoreo, desnudos y con mujeres en común, y dice que Roma perdió 50 000 hombres; Herodiano (III.14) agrega que se tatuaban el cuerpo con figuras de animales. Ambos repiten tópicos sobre los bárbaros del extremo del mundo. Severo murió en York en 211 y su hijo Caracalla hizo la paz.",
       "regiones": [
-        "britania"
+        "britania",
+        "caledonia"
       ],
       "fuentes": [
         "historia-romana-dion-casio",
@@ -5580,7 +5652,8 @@
       "resumen": "Un panegírico latino dirigido al césar Constancio Cloro en 297 (Panegíricos latinos VIII.11) dice que en tiempos de César los britanos solo conocían como enemigos a los pictos y a los hibernos, «todavía semidesnudos»: es la primera vez que aparece el nombre, que en latín significa «pintados» y quizás era un apodo de los soldados romanos. La frase «los bosques y pantanos de los caledonios y otros pictos» es de otro panegírico, dirigido a Constantino en 310 (VI.7). Desde entonces las fuentes romanas llaman pictos a los pueblos al norte del muro.",
       "regiones": [
         "alemania",
-        "britania"
+        "britania",
+        "caledonia"
       ],
       "fuentes": [
         "panegirico-de-constancio"
