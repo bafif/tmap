@@ -106,6 +106,10 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       Capas: el islam figura mayoritario en Anatolia y Galacia desde 1071 aunque la conversión fue gradual; pintar el
       galó de la Alta Bretaña pide una subregión propia; Egipto, el Levante y el Magreb tienen tramos con dos entradas
       mayoritarias a la vez. El inglés de estos paquetes es traducción automática.
+- [ ] **Personas y fuentes en el centro de su ciudad.** En Buenos Aires siguen en un mismo punto unas 250 personas y
+      240 fuentes (y cientos en Londres, París y Roma), además de unos 430 hechos sin un sitio único. Donde se sepa con
+      seguridad, las personas podrían ir a su institución (una universidad, un diario) y las fuentes al lugar donde se
+      escribieron; mientras tanto, la lista del grupo las muestra.
 
 ### Almacenamiento y descargas
 
@@ -170,6 +174,10 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 Los paquetes nuevos llegan a las copias instaladas como actualización de datos, sin esperar una versión de la app. Qué
 trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 
+- **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,
+  con las coordenadas de su artículo en Wikipedia: el Fuerte o la Casa Rosada para virreyes y presidentes, el Congreso
+  de su época para las leyes, el tribunal para los juicios, el campo para las batallas. Lo que no tiene un sitio único
+  (una elección, una epidemia, una guerra) sigue en la ciudad.
 - **Los celtas, de sus raíces preindoeuropeas a su fin**: nueve paquetes, con capas de cultura, idioma y religión
   desde el Neolítico en las doce regiones donde vivieron celtas o sus antecesores. Casi todo lo que se sabe de ellos
   viene de griegos y romanos que fueron sus enemigos, de la arqueología y de textos escritos por monjes siglos

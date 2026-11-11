@@ -106,6 +106,10 @@ What's covered and what's missing, region by region, is in [the coverage report]
       although conversion was gradual; painting the Gallo of Upper Brittany needs its own subregion; Egypt, the Levant
       and the Maghreb have stretches with two majority entries at once. The English of these packages is machine
       translation.
+- [ ] **People and sources at the center of their city.** In Buenos Aires about 250 people and 240 sources still
+      share one point (and hundreds in London, Paris and Rome), plus some 430 events with no single site. Where it is
+      known for sure, people could go to their institution (a university, a newspaper) and sources to the place where
+      they were written; meanwhile, the group list shows them.
 
 ### Storage and downloads
 
@@ -170,6 +174,10 @@ is done when its threshold is crossed, not before.
 New packages reach installed copies as data updates, without waiting for an app version. What each one covers is in
 [the encyclopedia](docs/en/encyclopedia.md#whats-there-today).
 
+- **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise
+  place, with the coordinates of its Wikipedia article: the Fort or the Casa Rosada for viceroys and presidents, the
+  Congress building of the time for laws, the court for trials, the field for battles. What has no single site (an
+  election, an epidemic, a war) stays in the city.
 - **The Celts, from their pre-Indo-European roots to their end**: nine packages, with culture, language and religion
   layers from the Neolithic on in the twelve regions where Celts or their forerunners lived. Almost everything known
   about them comes from Greeks and Romans who were their enemies, from archaeology and from texts written by monks
