@@ -166,6 +166,16 @@ Each step is done when its threshold is crossed, not before.
 
 ## Done
 
+### November 11, 2026: nothing on the map before its time
+
+- [x] **Each person is where they were that year.** The map showed a person at their place of activity for their
+      whole life: Pedro de Mendoza in Buenos Aires in 1524, twelve years before he arrived, and Cabot at Sancti Spíritus
+      before he founded it. If `activo` has `desde` and `hasta`, they now show up there only during those years; before
+      that, where they were born, and afterwards, where they died. "See on the map" and the search take you to a year and
+      a spot where you can see them.
+- [x] **Events show up in their year, not three years early.** "Caboto founds Fort Sancti Spíritus" (1527) was
+      visible in 1524.
+
 ### November 11, 2026: reading links that don't get lost
 
 - [x] **Archived copies of the reading links.** `tools/enciclopedia/enlaces.py` looks up on the Wayback Machine the

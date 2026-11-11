@@ -1,7 +1,7 @@
 class_name CapaMarcadores
 extends Node2D
 ## Marcadores sobre el mapa que aparecen y desaparecen con el año: fuentes (donde se escribieron), personas
-## (mientras viven), hechos (cerca de su fecha) y ciudades (mientras existen).
+## (mientras viven, donde están ese año), hechos (desde su fecha y un tiempo después) y ciudades (mientras existen).
 ## Se dibujan a tamaño constante en pantalla; los que aparecen en el año actual hacen un pequeño destello.
 ## Los que se pisan en pantalla se juntan en un grupo con su número, que se separa al acercarse; los que comparten el
 ## punto exacto (varias fuentes de Alejandría) se abren en espiral desde ZOOM_SEPARAR.
@@ -63,10 +63,10 @@ func actualizar() -> void:
 	if aj.get("mostrar_personas", true):
 		for p in Enciclopedia.personas.values():
 			if p.has("_px") and not p["_sin_fechas"] and p["_desde"] <= anio and anio <= p["_hasta"]:
-				_visibles.append({"tipo": "persona", "id": p["id"], "px": p["_px"], "icono": "persona", "color": TemaUI.color("persona"), "alfa": 1.0, "texto": p.get("nombre", "")})
+				_visibles.append({"tipo": "persona", "id": p["id"], "px": Enciclopedia.px_en(p, anio), "icono": "persona", "color": TemaUI.color("persona"), "alfa": 1.0, "texto": p.get("nombre", "")})
 	if aj.get("mostrar_hechos", true):
 		for h in Enciclopedia.hechos.values():
-			if h.has("_px") and h["_desde"] - 3 <= anio and anio <= h["_hasta"] + VENTANA_HECHO:
+			if h.has("_px") and h["_desde"] <= anio and anio <= h["_hasta"] + VENTANA_HECHO:
 				var alfa_h := 1.0 - smoothstep(h["_hasta"] + 5, h["_hasta"] + VENTANA_HECHO, anio)
 				_visibles.append({"tipo": "hecho", "id": h["id"], "px": h["_px"], "icono": "hecho", "color": TemaUI.color("hecho"), "alfa": maxf(alfa_h, 0.3), "texto": h.get("titulo", "")})
 	if aj.get("mostrar_ciudades", true):

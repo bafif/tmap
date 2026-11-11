@@ -165,6 +165,15 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 ## Hecho
 
+### 11 de noviembre de 2026: nada en el mapa antes de tiempo
+
+- [x] **Cada persona está donde estaba ese año.** El mapa mostraba a una persona en su lugar de actividad toda su
+      vida: Pedro de Mendoza en Buenos Aires en 1524, doce años antes de llegar, y Caboto en Sancti Spíritus antes de
+      fundarlo. Si `activo` tiene `desde` y `hasta`, ahora aparece ahí solo esos años; antes, donde nació, y después,
+      donde murió. «Ver en el mapa» y el buscador llevan a un año y un punto donde se la ve.
+- [x] **Los hechos aparecen en su año, no tres antes.** «Caboto funda el fuerte Sancti Spíritus» (1527) se veía en
+      1524.
+
 ### 11 de noviembre de 2026: enlaces de lectura que no se pierden
 
 - [x] **Copias archivadas de los enlaces de lectura.** `tools/enciclopedia/enlaces.py` busca en la Wayback Machine la

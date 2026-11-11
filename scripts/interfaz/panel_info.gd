@@ -626,9 +626,10 @@ func _ficha_persona(p: Dictionary) -> void:
 				_contenido.add_child(_tarjeta_fuente(f))
 	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
 	ir.pressed.connect(func():
-		Estado.fijar_anio(clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
+		var anio := Enciclopedia.anio_en_activo(p, clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
+		Estado.fijar_anio(anio)
 		if p.has("_px"):
-			Estado.enfocar(p["_px"], 2.5))
+			Estado.enfocar(Enciclopedia.px_en(p, anio), 2.5))
 	_contenido.add_child(ir)
 	_bloque_wikipedia(p.get("wikipedia", {}))
 
