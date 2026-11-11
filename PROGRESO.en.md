@@ -120,8 +120,11 @@ Each step is done when its threshold is crossed, not before.
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
 - [ ] **Permanent mirrors** of each data version on Internet Archive and Zenodo, with both addresses in the updater's
       manifest.
-- [ ] **Reading links that don't get lost**: an `archivo` field with the Wayback Machine copy, and
-      `tools/enciclopedia/enlaces.py`, which checks them and requests a copy of new ones; it runs before each release.
+- [ ] **The reading links left without a copy.** 118 of the 739 not on archive.org have no copy on the Wayback
+      Machine (41 from Gutenberg, 35 from Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` asks it to
+      archive them, one every 15 s. On November 11, 2026 web.archive.org stopped accepting connections from this
+      machine after a few parallel requests to its CDX API, so it's left for another run. `--comprobar`, which lists
+      dead originals, hasn't been run yet either.
 - [ ] **Religion by country today** (Pew Research Center, 2010 and 2020) as one more series in the "Current country"
       block, and with it the religion layers of the world regions in the present era.
 
@@ -162,6 +165,15 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: reading links that don't get lost
+
+- [x] **Archived copies of the reading links.** `tools/enciclopedia/enlaces.py` looks up on the Wayback Machine the
+      copy of every `leer` link and saves it in `data/enciclopedia/archivo.json`: 621 of the 739 links not on
+      archive.org have a copy. A source's entry shows a «Copy» button next to each one, in case the original doesn't
+      open, and `validar.py` warns how many don't have one. The copies live apart, not as an `archivo` field in each
+      `leer` (what the storage plan said): that way the tool doesn't rewrite the packages edited by hand or with the
+      editor. It's run by hand before each release.
 
 ### November 11, 2026: the ancient places of Pleiades (0.4)
 

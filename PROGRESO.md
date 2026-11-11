@@ -119,8 +119,11 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
 - [ ] **Espejos permanentes** de cada versión de datos en Internet Archive y Zenodo, con las dos direcciones en el
       manifiesto del actualizador.
-- [ ] **Enlaces de lectura que no se pierdan**: campo `archivo` con la copia de la Wayback Machine y
-      `tools/enciclopedia/enlaces.py`, que los comprueba y pide la copia de los nuevos; se corre antes de cada versión.
+- [ ] **Los enlaces de lectura que quedaron sin copia.** 118 de los 739 que no están en archive.org no tienen copia en
+      la Wayback Machine (41 de Gutenberg, 35 de Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` le
+      pide que los archive, de a uno cada 15 s. El 11/11/2026 web.archive.org dejó de aceptar conexiones desde esta
+      máquina después de unos pedidos en paralelo a su API CDX, así que queda para otra corrida. Tampoco se corrió
+      todavía `--comprobar`, que lista los originales caídos.
 - [ ] **Religión por país hoy** (Pew Research Center, 2010 y 2020) como serie más del bloque «País actual», y con eso
       las capas de religión de las regiones del mundo en la época actual.
 
@@ -161,6 +164,15 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: enlaces de lectura que no se pierden
+
+- [x] **Copias archivadas de los enlaces de lectura.** `tools/enciclopedia/enlaces.py` busca en la Wayback Machine la
+      copia de cada enlace `leer` y la guarda en `data/enciclopedia/archivo.json`: 621 de los 739 enlaces que no están
+      en archive.org tienen copia. La ficha de una fuente muestra un botón «Copia» al lado de cada uno, por si el
+      original no abre, y `validar.py` avisa cuántos no la tienen. Las copias van aparte y no como campo `archivo` en
+      cada `leer` (lo que decía el plan de almacenamiento): así la herramienta no reescribe los paquetes que se
+      editan a mano o con el editor. Se corre a mano antes de cada versión.
 
 ### 11 de noviembre de 2026: los lugares antiguos de Pleiades (0.4)
 
