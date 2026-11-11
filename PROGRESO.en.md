@@ -225,6 +225,9 @@ New packages reach installed copies as data updates, without waiting for an app 
   scrolled by dragging without changing its scale; a finger moves the map, zooms and taps places, with a wider margin
   than the mouse. The automatic test sends touch events the way Godot sends them.
 - **A `.dmg` for macOS** in every release, alongside the zip.
+- **The list of a marker group**: clicking a group opens in the panel the list of its events, people and sources,
+  each with its card, and a button that zooms the map in until they separate; going back from a card returns to the
+  list.
 
 ### 0.3.5 (November 11, 2026)
 

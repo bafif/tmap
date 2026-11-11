@@ -225,6 +225,9 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   de tiempo se recorre arrastrando sin cambiar la escala; con el dedo se mueve, se acerca y se tocan lugares, con más
   margen que el mouse. La prueba automática manda los eventos táctiles como los manda Godot.
 - **Un `.dmg` para macOS** en cada versión, además del zip.
+- **La lista de un grupo de marcadores**: el clic en un grupo abre en el panel la lista de sus hechos, personas y
+  fuentes, cada uno con su ficha, y un botón para acercar el mapa hasta separarlos; volver desde una ficha regresa a
+  la lista.
 
 ### 0.3.5 (11 de noviembre de 2026)
 

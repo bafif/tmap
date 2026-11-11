@@ -426,20 +426,25 @@ func _click(pos: Vector2) -> void:
 		return
 	var el := elemento_en(mundo)
 	if not el.is_empty() and el["tipo"] == "grupo":
-		# Un grupo de marcadores: acercarse hasta que se separen.
-		volar_a(el["px"], minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2))
+		# Un grupo de marcadores: su lista en el panel, con el zoom que los separa para el botón de acercarse.
+		var z := minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2)
+		Estado.pedir_ficha("grupo", {"px": el["px"], "zoom": z, "miembros": el["miembros"]})
+		_despejar_panel(pos)
 		return
 	if not el.is_empty():
 		Estado.pedir_ficha(el["tipo"], el["id"])
 		return
 	var u := DatosMapa.unidad_en(mundo)
 	Estado.seleccionar_lugar(u, mundo)
-	# Si el lugar quedó debajo del panel lateral, correr la cámara para dejarlo a la vista.
-	var vp := get_viewport_rect().size
-	var libre := vp.x - PanelInfo.ANCHO - 20.0
-	if u > 0 and pos.x > libre - 40.0:
-		var destino := camara.position + Vector2((pos.x - libre * 0.55) / camara.zoom.x, 0.0)
-		volar_a(destino, camara.zoom.x)
+	if u > 0:
+		_despejar_panel(pos)
+
+
+## Si lo tocado quedó debajo del panel lateral, corre la cámara para dejarlo a la vista.
+func _despejar_panel(pos: Vector2) -> void:
+	var libre := get_viewport_rect().size.x - PanelInfo.ANCHO - 20.0
+	if pos.x > libre - 40.0:
+		volar_a(camara.position + Vector2((pos.x - libre * 0.55) / camara.zoom.x, 0.0), camara.zoom.x)
 
 
 func _hover(pos: Vector2) -> void:

@@ -30,7 +30,7 @@ func _ready() -> void:
 func mostrar(unidad: int, elemento: Dictionary, pos: Vector2) -> void:
 	if not elemento.is_empty():
 		_titulo.text = str(elemento.get("texto", ""))
-		_detalle.text = tr("Marcadores juntos · click para acercarse y separarlos") if elemento["tipo"] == "grupo" else (
+		_detalle.text = tr("Marcadores juntos · click para ver la lista") if elemento["tipo"] == "grupo" else (
 			tr("%s · click para ver la ficha") % tr(PanelInfo.NOMBRES_TIPO.get(elemento["tipo"], "")))
 	elif unidad > 0:
 		var ent := DatosMapa.dueno(unidad)
