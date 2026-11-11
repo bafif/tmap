@@ -116,6 +116,18 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       fatwas…). The digitized scrolls of the Israel Museum (dss.collections.imj.org.il) weren't responding on November
       10, 2026 and their links were removed. The videos in which jihadist groups claim attacks aren't linked, on
       purpose: the events say who claimed them and how, with their Wikipedia article.
+- [ ] **The Celts: what was left out.** No link because the sites weren't answering the checker on November 11, 2026:
+      LacusCurtius (almost every ancient author has a Perseus, Latin Library or Wikisource link, but not all), Hesperia
+      (the Celtiberian and Lusitanian inscriptions), RIIG (the Coligny calendar), the Biblioteca Virtual Cervantes (The
+      Siege of Numantia) and legislation.gov.uk (the Welsh acts of 1535, 1993 and 2005). No verified open copy: Lebor
+      Gabála, Sanas Cormaic, the Bern scholia, the Senchas Már, the Cáin Adomnáin, the laws of Hywel, the Book of
+      Leinster and the Würzburg glosses. No entry for lack of a checked source: the Celts of Silesia, the Noric
+      inscriptions, Panóias, Uley, Hayling Island, Corent, Monte Bibele, modern estimates of pre-Roman population by
+      author (Beloch, McEvedy and Jones, Millett) and the death toll of Galba's massacre. 18 sources without a place of
+      writing (the Mabinogi, the Book of Taliesin, the Senchas Már…). Layers: Islam shows as majority in Anatolia and
+      Galatia from 1071 although conversion was gradual; painting the Gallo of Upper Brittany needs its own subregion;
+      Egypt, the Levant and the Maghreb have stretches with two majority entries at once. The English of these packages
+      is machine translation.
 
 ### Storage and downloads
 
@@ -164,6 +176,65 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: the Celts, from their pre-Indo-European roots to their end
+
+- [x] **Nine new packages** with 447 sources (249 primary), 420 people, 432 events, 131 places and 7 regions (the
+      encyclopedia goes from 4724 to 6161 entries) and 193 reading links that answered 200, checked against Wikipedia
+      and Wikidata with the compact format and with a review of each topic for factual errors, bias and gaps. Almost
+      everything known about the ancient Celts comes from Greeks and Romans who were their enemies, from archaeology and
+      from Irish and Welsh texts written by monks centuries later: each entry says which source its claims come from,
+      and on disputed matters it first says what the documents and archaeology show and then who interprets it how,
+      without the victors' barbarian or Celtomaniac romanticism. Each modern work carries its thesis and the criticism
+      it received.
+      - `celtas-origenes-y-prehistoria`: the first farmers and the megaliths (Stonehenge and Newgrange, which aren't
+        Celtic), steppe ancestry, Bell Beaker, the Bronze Age, Hallstatt and its princely seats (Hochdorf, Vix, the
+        Heuneburg, the Glauberg) and La Tène; the hypotheses on the origin of the Celtic languages (Gimbutas, Renfrew,
+        Mallory, Anthony, "Celtic from the West", Sims-Williams) and the genetic studies, with their archaeological
+        critique; the oldest Celtic writing (the Lepontic of Castelletto Ticino, 6th century BC); earlier or neighboring
+        peoples and languages (Tartessian, Iberian, Aquitanian, Etruscan, Raetic, Ligurian).
+      - `galos-y-galia`: the Celts of Italy according to Polybius and Livy (with what is legend), Massalia, the Arverni,
+        Narbonensis, the Cimbri and Teutones, the Gallic War campaign by campaign with about 90 people, Caesar's figures
+        as criticized testimony (Henige, Rambaud, Raaflaub, Roymans), Gallic society according to Caesar and to
+        archaeology, wine for slaves, Roman Gaul and its revolts, the Claudian tablet and the end of Gaulish.
+      - `celtas-del-danubio-y-galacia`: the Boii, Noricum, the Scordisci and Eravisci, the invasion of 280-277 BC and
+        Delphi (the pious story apart from the plausible), the kingdom of Tylis, the Galatians, Pergamon and its
+        statues, Deiotarus, Paul's letter, the Galatian that Jerome still heard, Hellenistic mercenaries and the theft
+        of the Manching gold.
+      - `celtas-de-hispania`: Celtiberians, Vaccaei, Vettones, Lusitanians, Gallaeci, Astures and Cantabri with the
+        debate on their Celticity, their Iberian neighbors, Segeda, Numantia, Viriathus, Sertorius, the Cantabrian
+        Wars, the Botorrita bronzes and the hospitality tokens, Schulten and the myth of Numantia.
+      - `celtas-de-britania-e-irlanda`: the Iron Age of the islands, the Roman conquest with each British leader
+        (Caratacus, Cartimandua, Boudica, Calgacus), the Picts and the debate on their language, post-Roman Britain with
+        Gildas and Arthur as a debate, Ireland (Tara, Emain Macha, ogham, Palladius and Patrick, the laws, the Táin and
+        whether it is "a window on the Iron Age") and Wales (the Gododdin, Taliesin, the Mabinogi, Hywel Dda).
+      - `religion-celta`: how it formed (what came before, what was inherited according to Indo-European comparison
+        with its critiques, what came from contact), the gods with their inscriptions, the druids in every ancient text
+        and in modern readings, human sacrifice and the heads with the archaeology for each side, the Coligny calendar
+        and the festivals (Samhain and Halloween according to each author), the Irish mythology written by monks and
+        the debate between nativists and anti-nativists, Christianization and what really survived.
+      - `celtas-en-las-fuentes-antiguas`: how others saw them, from Hecataeus to Jerome: each author with what they
+        saw, what they copied and what they wanted, each work with its passages, the images of the defeated Gaul, and
+        whether the Celts wrote (Caesar's druidic rule and the inscriptions that did survive).
+      - `celtas-legado-e-historiografia`: place names and words of Celtic origin, the Celtic languages up to today's
+        censuses, the modern invention of "the Celtic" (Lhuyd, Pezron, Ossian, Iolo Morganwg, neo-druidism), political
+        uses (Napoleon III, Ambiorix, Boudica, Galician Celticism, Vichy, Mitterrand), Asterix, the historiography and
+        the "Celtosceptic" debate, and the Welsh colony in Chubut.
+      - `mundo-celta`: seven subregions (Galatia, Celtiberia, Gallaecia, Cisalpine Gaul, Armorica, Caledonia and
+        Noricum) with eras, layers and demography.
+- [x] Culture, language and religion layers from the Neolithic in the twelve regions where Celts or their
+      predecessors lived (France, Iberia, Britain, Ireland, Germany, Bohemia, Hungary, Romania, the Balkans, Italy,
+      Anatolia and Poland), with 42 new families and the prehistoric eras; corrections to what was there (Latin wasn't
+      the majority language in Iberia from 218 BC or in Italy from 700 BC, southern Germany was Celtic, Aquitanian
+      apart from Basque), each with its source. Demography: Frier, Scheidel, Harper and Alcock, and the ancient figures
+      (Caesar, Polybius, Plutarch, Pliny, Livy) as testimony with their critique.
+- [x] Review of the existing entries for the period: the Gallic War was about Italy and had been written "in Rome",
+      Clontarf had the sides reversed, Geoffrey of Monmouth was at a university that didn't exist, Columbanus in Bobbio
+      instead of Luxeuil; Anatolia no longer has two majority religions at once. About 45 entries gained what the
+      topics found (passages on the Celts, the Welsh colony in Rawson, Fontana and immigration).
+- [x] The compact-format builder accepts bracketed coordinates and places with spaces in "activo".
+- [x] The English of the new texts is machine translation; the titles of works published in English are the
+      originals.
 
 ### November 11, 2026: exported builds, with their typefaces
 
