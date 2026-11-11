@@ -1,0 +1,4885 @@
+{
+  "paquete": "mexica-y-conquista-de-mexico",
+  "descripcion": "Los mexicas y la Triple Alianza, Texcoco y Tlaxcala, con su guerra, su tributo, su sacrificio y lo que muestra la arqueología del Templo Mayor; la conquista de México con sus aliados indígenas (1517-1521) y lo que siguió hasta Michoacán, el Mixtón, Yucatán y la caída de los itzaes (1697), con los cronistas de los dos lados.",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "codice-boturini",
+      "titulo": "Códice Boturini (Tira de la peregrinación)",
+      "titulo_original": null,
+      "autor": "Anónimo (pintor mexica)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1530,
+        "anio_hasta": 1541,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1325
+      },
+      "idioma_original": "Pictografía nahua con glifos",
+      "soporte": "Tira de papel de amate de más de cinco metros, plegada en biombo (Museo Nacional de Antropología, México)",
+      "resumen": "Relato pictográfico, sin texto alfabético, de la migración de los mexicas desde Aztlán: la salida guiada por Huitzilopochtli, las estaciones del camino con sus fechas en años indígenas y los conflictos en el trayecto, hasta su llegada al valle de México y su sometimiento en Culhuacán. Se discute si se pintó poco antes o poco después de la conquista; su estilo, casi sin influjo europeo, lo acerca a la tradición prehispánica.",
+      "por_que_importa": "Es una de las versiones más antiguas que se conservan del relato oficial mexica de su origen, que presenta a los mexicas como un pueblo guiado por su dios hacia la tierra prometida.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tira de la Peregrinación",
+        "en": "Codex Boturini"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codice-azcatitlan",
+      "titulo": "Códice Azcatitlan",
+      "titulo_original": null,
+      "autor": "Anónimo (pintor nahua)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1530,
+        "anio_hasta": 1600,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1530
+      },
+      "idioma_original": "Pictografía nahua con glosas en náhuatl",
+      "soporte": "Manuscrito en papel europeo (Biblioteca Nacional de Francia)",
+      "resumen": "Historia pictográfica de los mexicas desde la salida de Aztlán, la fundación de Tenochtitlan y los reinados de los tlatoque hasta la llegada de los españoles, que aparecen acompañados por Malintzin, y los primeros años coloniales. Está incompleto y su fecha se discute.",
+      "por_que_importa": "Muestra cómo los pintores nahuas del siglo XVI ordenaron su propia historia dinástica y representaron la llegada de los españoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice Azcatitlan",
+        "en": "Codex Azcatitlan"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codice-mendoza",
+      "titulo": "Códice Mendoza",
+      "titulo_original": null,
+      "autor": "Pintores nahuas y un intérprete español (anónimos)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1541,
+        "anio_hasta": 1542,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1325,
+        "hasta": 1521
+      },
+      "idioma_original": "Pictografía nahua con glosas y comentarios en español",
+      "soporte": "Manuscrito de 71 hojas en papel europeo (Biblioteca Bodleiana, Oxford)",
+      "resumen": "Encargado hacia 1541, según la tradición por el virrey Antonio de Mendoza para el rey, tiene tres partes: la historia de los tlatoque de Tenochtitlan con los pueblos que conquistó cada uno; la lista del tributo que entregaban unos 400 pueblos agrupados en 38 provincias (mantas, cacao, plumas, oro, trajes de guerrero, alimentos); y la vida de los mexicas desde el nacimiento, con la educación y los castigos de los niños, el matrimonio, la carrera del guerrero según los cautivos que tomaba y los oficios. Lo capturaron corsarios franceses en el mar, pasó por el cosmógrafo André Thevet y llegó a Oxford en el siglo XVII.",
+      "por_que_importa": "Es la fuente más completa sobre el tributo de la Triple Alianza y la vida cotidiana mexica, aunque se hizo después de la conquista y para lectores españoles.",
+      "leer": [
+        {
+          "titulo": "Edición digital del INAH, con el facsímil y su lectura",
+          "url": "https://codicemendoza.inah.gob.mx/inicio.php",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Códice Mendoza",
+        "en": "Codex Mendoza"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "matricula-de-tributos",
+      "titulo": "Matrícula de tributos",
+      "titulo_original": null,
+      "autor": "Anónimo (escribas nahuas)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1522,
+        "anio_hasta": 1530,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1490,
+        "hasta": 1521
+      },
+      "idioma_original": "Pictografía nahua con glosas en náhuatl y español",
+      "soporte": "Hojas de papel de amate (Museo Nacional de Antropología, México)",
+      "resumen": "Registro pictográfico del tributo que pagaban las provincias sometidas a la Triple Alianza, con los glifos de los pueblos y las cantidades de cada producto. Se discute si es anterior a la conquista o de los primeros años coloniales; tiene glosas agregadas después, y su contenido coincide en gran parte con la segunda parte del Códice Mendoza.",
+      "por_que_importa": "Es el documento más cercano a los registros de tributo de la propia administración mexica.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Matrícula de Tributos",
+        "en": "Matrícula de Tributos"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codice-aubin",
+      "titulo": "Códice Aubin (Historia de la nación mexicana)",
+      "titulo_original": null,
+      "autor": "Anónimo (cronistas nahuas)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1576,
+        "anio_hasta": 1608,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1168,
+        "hasta": 1608
+      },
+      "idioma_original": "Náhuatl con pictografía",
+      "soporte": "Pequeño libro en papel europeo (Museo Británico)",
+      "resumen": "Anales en náhuatl, con pinturas, que van desde la salida de Aztlán hasta comienzos del siglo XVII, con agregados de varias manos. Registran año por año la migración, los reinados, la llegada de los españoles y la matanza de la fiesta de Tóxcatl de 1520, que ilustra con una imagen muy reproducida, y siguen con la vida de la ciudad colonial.",
+      "por_que_importa": "Muestra cómo los nahuas siguieron llevando sus anales después de la conquista, en su lengua y con su propia cronología.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice Aubin",
+        "en": "Aubin Codex"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anales-de-tlatelolco",
+      "titulo": "Anales de Tlatelolco",
+      "titulo_original": null,
+      "autor": "Anónimo (cronistas nahuas de Tlatelolco)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1528,
+        "anio_hasta": 1560,
+        "aprox": true,
+        "lugar": "Tlatelolco",
+        "lon": -99.138,
+        "lat": 19.451
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1300,
+        "hasta": 1528
+      },
+      "idioma_original": "Náhuatl",
+      "soporte": "Manuscrito en papel europeo (Biblioteca Nacional de Francia)",
+      "resumen": "Conjunto de textos en náhuatl, escritos en alfabeto latino, sobre la historia de Tlatelolco y la conquista. El relato del sitio, desde los vencidos, describe el hambre, el agua salobre y la comida de adobe, lagartijas, ratones y gusanos, y se fecha a sí mismo en 1528, lo que lo haría uno de los primeros escritos en náhuatl; varios investigadores creen que el manuscrito conservado es una copia algo posterior. Cuenta también que, después de la caída, tres sabios de Texcoco que se entregaron con sus libros pintados fueron echados a los perros en Coyoacán.",
+      "por_que_importa": "Es el testimonio indígena más antiguo que se conserva sobre la caída de Tenochtitlan, contado desde Tlatelolco, rival de los tenochcas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Anales de Tlatelolco",
+        "en": "Anales de Tlatelolco"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "lienzo-de-tlaxcala",
+      "titulo": "Lienzo de Tlaxcala",
+      "titulo_original": null,
+      "autor": "Pintores tlaxcaltecas (anónimos)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1550,
+        "anio_hasta": 1564,
+        "aprox": true,
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "centroamerica",
+          "aridoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1540
+      },
+      "idioma_original": "Pictografía nahua con glosas en náhuatl",
+      "soporte": "El original, una gran tela pintada, se perdió; se conoce por copias y fragmentos",
+      "resumen": "Pintura encargada por el cabildo indígena de Tlaxcala que representa en decenas de escenas la alianza con Cortés, el bautismo de los señores, la marcha a Tenochtitlan, la Noche Triste y las campañas posteriores en las que los tlaxcaltecas acompañaron a los españoles, hasta Guatemala y el occidente. Muestra a Malintzin en el centro de las negociaciones y a los guerreros tlaxcaltecas combatiendo a la par de los españoles.",
+      "por_que_importa": "Es el alegato visual de Tlaxcala para defender ante la Corona sus privilegios de aliada: una fuente indígena con su propio interés, que desmiente la imagen de una conquista hecha solo por españoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Lienzo de Tlaxcala",
+        "en": "Lienzo de Tlaxcala"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-las-indias-duran",
+      "titulo": "Historia de las Indias de Nueva España e islas de la Tierra Firme",
+      "titulo_original": null,
+      "autor": "Diego Durán",
+      "autor_id": "diego-duran",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1579,
+        "anio_hasta": 1581,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito ilustrado (Biblioteca Nacional de España); publicado recién en 1867-1880",
+      "resumen": "Obra en tres tratados: la historia de los mexicas desde la migración hasta la conquista, el libro de los dioses y los ritos y el calendario. La parte histórica sigue una crónica nahua hoy perdida, la llamada Crónica X, y narra con detalle las guerras, las coronaciones y los sacrificios de cautivos, entre ellos los 80 400 que atribuye a la dedicación del Templo Mayor en 1487. Durán escribió para que los religiosos reconocieran lo que quedaba de la antigua religión.",
+      "por_que_importa": "Con Tezozómoc es la principal fuente sobre la historia política de Tenochtitlan contada desde la tradición de su nobleza; sus cifras de víctimas se discuten.",
+      "leer": [
+        {
+          "titulo": "Edición de José Fernando Ramírez (1867), tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadelasind01dur",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "codice-tovar",
+      "titulo": "Códice Tovar (Relación del origen de los indios que habitan esta Nueva España)",
+      "titulo_original": null,
+      "autor": "Juan de Tovar",
+      "autor_id": "juan-de-tovar",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1585,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito con medio centenar de pinturas (Biblioteca John Carter Brown, Providence)",
+      "resumen": "Relación ilustrada de la historia de los mexicas, de sus fiestas y de su calendario, escrita por el jesuita Juan de Tovar a partir de la misma tradición que siguieron Durán y Tezozómoc. Sus pinturas, de mano indígena, muestran a los tlatoque, a los dioses y los ritos, entre ellos el sacrificio sobre la piedra.",
+      "por_que_importa": "Fue una de las vías por las que la historia mexica llegó a Europa, porque José de Acosta la resumió en su Historia natural y moral de las Indias (1590).",
+      "leer": [],
+      "wikipedia": {
+        "en": "Codex Tovar"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-mexicana-tezozomoc",
+      "titulo": "Crónica mexicana",
+      "titulo_original": null,
+      "autor": "Hernando de Alvarado Tezozómoc",
+      "autor_id": "hernando-alvarado-tezozomoc",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1598,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1325,
+        "hasta": 1520
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Historia de Tenochtitlan desde la fundación hasta la llegada de Cortés, escrita por un nieto de Moctezuma II con la misma fuente nahua que usó Durán. Narra los reinados, las guerras de la Triple Alianza, la imposición del tributo y las ceremonias de sacrificio, con muchos nombres y discursos, desde el punto de vista de la nobleza tenochca.",
+      "por_que_importa": "Es la versión más extensa de la historia oficial de Tenochtitlan escrita por un descendiente de sus gobernantes.",
+      "leer": [
+        {
+          "titulo": "Edición de 1878 en Internet Archive",
+          "url": "https://archive.org/details/cronicamexicana00alvaiala",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Crónica mexicana"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-mexicayotl",
+      "titulo": "Crónica mexicáyotl",
+      "titulo_original": null,
+      "autor": "Hernando de Alvarado Tezozómoc",
+      "autor_id": "hernando-alvarado-tezozomoc",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1609,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1609
+      },
+      "idioma_original": "Náhuatl",
+      "soporte": "Conocida por la copia de Chimalpahin, con sus agregados",
+      "resumen": "Crónica en náhuatl sobre el origen de los mexicas, su migración, la fundación de Tenochtitlan y las genealogías de sus gobernantes hasta comienzos del siglo XVII. Se atribuye a Tezozómoc, pero se conserva en una copia de Chimalpahin, que la amplió, y la parte de cada uno se discute.",
+      "por_que_importa": "Es una de las principales fuentes en náhuatl sobre la dinastía tenochca y su continuidad en la nobleza colonial.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica Mexicáyotl",
+        "en": "Crónica Mexicayotl"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-chichimeca",
+      "titulo": "Historia de la nación chichimeca",
+      "titulo_original": null,
+      "autor": "Fernando de Alva Ixtlilxóchitl",
+      "autor_id": "fernando-de-alva-ixtlilxochitl",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1610,
+        "anio_hasta": 1640,
+        "aprox": true,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Historia de los pueblos del valle de México desde los toltecas y los chichimecas de Xólotl hasta la conquista, centrada en Texcoco. Presenta a Nezahualcóyotl como legislador y poeta que habría adorado a un dios único y a Ixtlilxóchitl II como aliado decisivo de Cortés; se basa en códices texcocanos como el Xólotl y en testimonios de ancianos.",
+      "por_que_importa": "Es la principal fuente sobre la historia de Texcoco, escrita por un descendiente de sus gobernantes que buscaba reconocimiento y que idealizó a sus antepasados.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "relaciones-de-chimalpahin",
+      "titulo": "Diferentes historias originales (las Ocho relaciones)",
+      "titulo_original": null,
+      "autor": "Chimalpahin (Domingo Francisco de San Antón Muñón Chimalpahin Cuauhtlehuanitzin)",
+      "autor_id": "chimalpahin",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1606,
+        "anio_hasta": 1631,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1620
+      },
+      "idioma_original": "Náhuatl",
+      "soporte": null,
+      "resumen": "Ocho relaciones en náhuatl, en forma de anales, sobre la historia de los señoríos de Chalco y Amecameca, de Tenochtitlan y de otros pueblos del valle de México, desde las migraciones hasta comienzos del siglo XVII. Chimalpahin cotejó códices y relatos orales y registró las guerras de los mexicas contra Chalco desde el punto de vista de los chalcas.",
+      "por_que_importa": "Es una de las mayores obras escritas en náhuatl y muestra la historia del centro de México desde un pueblo sometido por los mexicas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-tlaxcala-munoz-camargo",
+      "titulo": "Historia de Tlaxcala (y Descripción de la ciudad y provincia de Tlaxcala)",
+      "titulo_original": null,
+      "autor": "Diego Muñoz Camargo",
+      "autor_id": "diego-munoz-camargo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1576,
+        "anio_hasta": 1595,
+        "aprox": true,
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1200,
+        "hasta": 1590
+      },
+      "idioma_original": "Español",
+      "soporte": "La Descripción, con más de 150 dibujos, está en la Universidad de Glasgow; la Historia se publicó en 1892",
+      "resumen": "Dos versiones de una historia de Tlaxcala escritas por un mestizo de la ciudad: la Descripción, preparada hacia 1580-1585 para el cuestionario de las relaciones geográficas y entregada a Felipe II, y la Historia, más extensa. Tratan del origen de los tlaxcaltecas, su gobierno de cuatro cabeceras, sus guerras con los mexicas, la alianza con Cortés, la evangelización y los servicios de Tlaxcala a la Corona.",
+      "por_que_importa": "Exponen la versión tlaxcalteca de la conquista, escrita para defender los privilegios de la ciudad.",
+      "leer": [
+        {
+          "titulo": "Historia de Tlaxcala, edición de Alfredo Chavero (1892), en Internet Archive",
+          "url": "https://archive.org/details/historiadetlaxc00camagoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "relacion-de-texcoco-pomar",
+      "titulo": "Relación de Texcoco",
+      "titulo_original": null,
+      "autor": "Juan Bautista Pomar",
+      "autor_id": "juan-bautista-pomar",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1582,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1400,
+        "hasta": 1582
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Respuesta al cuestionario de las relaciones geográficas sobre Texcoco, que describe su gobierno, sus leyes, su religión, sus templos y sus sacrificios antes de la conquista, la educación de los jóvenes y los cambios que siguieron a la llegada de los españoles.",
+      "por_que_importa": "Es una descripción de Texcoco escrita por un descendiente de su nobleza, con datos que no figuran en otras fuentes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "codice-xolotl",
+      "titulo": "Códice Xólotl",
+      "titulo_original": null,
+      "autor": "Pintores de Texcoco (anónimos)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1540,
+        "aprox": true,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1430
+      },
+      "idioma_original": "Pictografía nahua",
+      "soporte": "Hojas de papel de amate (Biblioteca Nacional de Francia)",
+      "resumen": "Historia pictográfica de los chichimecas de Xólotl y de la dinastía de Texcoco, en forma de mapas del valle de México con personajes, glifos y fechas, hasta la guerra contra Azcapotzalco en tiempos de Nezahualcóyotl. Fue una de las fuentes de Fernando de Alva Ixtlilxóchitl.",
+      "por_que_importa": "Muestra la tradición histórica texcocana en su forma pictográfica, independiente de la versión tenochca.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice Xólotl",
+        "en": "Codex Xolotl"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cantares-mexicanos",
+      "titulo": "Cantares mexicanos",
+      "titulo_original": null,
+      "autor": "Anónimo (recopilación nahua)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1550,
+        "anio_hasta": 1585,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1430,
+        "hasta": 1580
+      },
+      "idioma_original": "Náhuatl",
+      "soporte": "Manuscrito de la Biblioteca Nacional de México",
+      "resumen": "La mayor colección de cantos en náhuatl, reunida en el siglo XVI probablemente en el entorno de los franciscanos. Incluye cantos de guerra, de flores y de lamento, algunos atribuidos a Nezahualcóyotl y a otros señores, y cantos de época colonial con temas cristianos. Ángel María Garibay y Miguel León-Portilla los leyeron como poesía prehispánica; John Bierhorst los interpretó como cantos rituales de época colonial para convocar a los guerreros muertos.",
+      "por_que_importa": "Son la base principal de lo que se conoce como poesía náhuatl y de la imagen de Nezahualcóyotl como poeta, aunque las atribuciones son inseguras.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cantares mexicanos",
+        "en": "Cantares Mexicanos"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codice-magliabechiano",
+      "titulo": "Códice Magliabechiano",
+      "titulo_original": null,
+      "autor": "Anónimo (pintores nahuas)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1529,
+        "anio_hasta": 1553,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1400,
+        "hasta": 1521
+      },
+      "idioma_original": "Pictografía nahua con comentarios en español",
+      "soporte": "Manuscrito en papel europeo (Biblioteca Nacional Central de Florencia)",
+      "resumen": "Libro ilustrado sobre el calendario ritual, las fiestas, los dioses y las costumbres de los nahuas del centro de México, copia de un original perdido. Incluye escenas de sacrificio en el templo y una muy reproducida de antropofagia ritual, con su comentario en español.",
+      "por_que_importa": "Contiene algunas de las imágenes del sacrificio y del canibalismo ritual hechas en el siglo XVI por pintores indígenas, aunque comentadas para lectores españoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice Magliabecchiano",
+        "en": "Codex Magliabechiano"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "codice-telleriano-remensis",
+      "titulo": "Códice Telleriano-Remensis",
+      "titulo_original": null,
+      "autor": "Pintores nahuas y comentaristas españoles",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1555,
+        "anio_hasta": 1563,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1198,
+        "hasta": 1562
+      },
+      "idioma_original": "Pictografía nahua con comentarios en español",
+      "soporte": "Manuscrito de 50 hojas (Biblioteca Nacional de Francia)",
+      "resumen": "Códice colonial con tres partes: el calendario de fiestas, el calendario adivinatorio y unos anales que van de la migración mexica hasta 1562. Los anales registran la dedicación del Templo Mayor en 1487, guerras, eclipses, la llegada de los españoles y hechos coloniales, con glosas de varias manos, entre ellas la del dominico Pedro de los Ríos.",
+      "por_que_importa": "Es una de las fuentes pictográficas más completas sobre el calendario y la cronología mexicas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice Telleriano-Remensis",
+        "en": "Codex Telleriano-Remensis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "carta-del-cabildo-de-veracruz",
+      "titulo": "Carta del cabildo de la Villa Rica de la Vera Cruz",
+      "titulo_original": null,
+      "autor": "Cabildo de la Villa Rica de la Vera Cruz",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1519,
+        "aprox": false,
+        "lugar": "Veracruz",
+        "lon": -96.153,
+        "lat": 19.19
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "caribe"
+        ],
+        "desde": 1517,
+        "hasta": 1519
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Carta fechada el 10 de julio de 1519 por el cabildo de la villa que acababan de fundar los hombres de Cortés, dirigida a la reina Juana y a Carlos V. Cuenta las expediciones de Hernández de Córdoba y de Grijalva y la de Cortés hasta la fundación de Veracruz, pide que se desconozca la autoridad de Diego Velázquez y describe los sacrificios humanos que los españoles dicen haber visto, presentados como una razón para la conquista.",
+      "por_que_importa": "Suele reemplazar a la primera carta de Cortés, perdida, y es el primer documento con el que la expedición buscó legitimarse ante la Corona.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-verdadera-bernal",
+      "titulo": "Historia verdadera de la conquista de la Nueva España",
+      "titulo_original": null,
+      "autor": "Bernal Díaz del Castillo",
+      "autor_id": "bernal-diaz-del-castillo",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1551,
+        "anio_hasta": 1584,
+        "aprox": true,
+        "lugar": "Santiago de Guatemala (Antigua Guatemala)",
+        "lon": -90.733,
+        "lat": 14.557
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "centroamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1568
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscritos de Guatemala y de Madrid; publicada en Madrid en 1632",
+      "resumen": "Memorias de un soldado de las expediciones de 1517, 1518 y 1519 que cuentan la conquista de México día por día, con nombres de compañeros, caballos y capitanes indígenas: la admiración ante Tenochtitlan y su mercado, las batallas con los tlaxcaltecas, la matanza de Cholula, la prisión de Moctezuma, la Noche Triste y el sitio. Describe templos manchados de sangre, sacrificios y consumo ritual de carne humana, y también el herraje y el reparto de esclavos indígenas entre los conquistadores. La escribió décadas después, de memoria y para reclamar mercedes para los soldados.",
+      "por_que_importa": "Es la crónica más leída de la conquista, con una voz cercana a los hechos, aunque a veces equivocada en fechas y cifras y escrita contra la versión de Gómara.",
+      "leer": [
+        {
+          "titulo": "Edición en español en el Proyecto Gutenberg (tomo 1 de 3)",
+          "url": "https://www.gutenberg.org/ebooks/64945",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción inglesa de John Ingram Lockhart (1844), tomo 1, en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/32474",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia verdadera de la conquista de la Nueva España",
+        "en": "Historia verdadera de la conquista de la Nueva España"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-conquista-gomara",
+      "titulo": "Conquista de México (segunda parte de la Historia general de las Indias)",
+      "titulo_original": null,
+      "autor": "Francisco López de Gómara",
+      "autor_id": "francisco-lopez-de-gomara",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1552,
+        "aprox": false,
+        "lugar": "Zaragoza",
+        "lon": -0.883,
+        "lat": 41.65
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1485,
+        "hasta": 1547
+      },
+      "idioma_original": "Español",
+      "soporte": "Impresa en Zaragoza en 1552",
+      "resumen": "Biografía de Cortés y relato de la conquista escritos por su capellán con la información que Cortés y otros le dieron, sin haber estado en América. Describe las costumbres y la religión de los mexicas, con los sacrificios y la antropofagia, y cuenta la conquista como obra de la habilidad y el valor de Cortés. En 1553 una cédula real mandó recoger el libro, sin que se conozca con certeza el motivo, pero siguió circulando y se tradujo al italiano, al francés y al inglés.",
+      "por_que_importa": "Fue la versión de la conquista más difundida en Europa en el siglo XVI y provocó la respuesta de Bernal Díaz.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Thomas Nicholas (1578) en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/46524",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia general de las Indias",
+        "en": "Historia general de las Indias"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "relacion-de-andres-de-tapia",
+      "titulo": "Relación de algunas cosas de las que acaecieron al muy ilustre señor don Hernando Cortés",
+      "titulo_original": null,
+      "autor": "Andrés de Tapia",
+      "autor_id": "andres-de-tapia",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1539,
+        "anio_hasta": 1550,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1520
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Relato de un capitán de Cortés desde la salida de Cuba hasta la derrota de Narváez en 1520. Describe el gran templo de Tenochtitlan y el armazón de cráneos que estaba frente a él, cuyo número calcula en 136 000, y cuenta cómo Cortés golpeó las imágenes del templo con una barra de hierro. Gómara lo usó, y se publicó recién en el siglo XIX.",
+      "por_que_importa": "Es uno de los pocos testimonios directos de españoles que vieron el recinto sagrado antes de su destrucción; la arqueología del Huey Tzompantli confirmó el tipo de estructura que describe, aunque no su cifra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "relacion-breve-de-francisco-de-aguilar",
+      "titulo": "Relación breve de la conquista de la Nueva España",
+      "titulo_original": null,
+      "autor": "Francisco de Aguilar",
+      "autor_id": "francisco-de-aguilar",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1560,
+        "anio_hasta": 1565,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1518,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Breve memoria de un antiguo soldado de Cortés, dictada ya como fraile dominico y muy anciano. Cuenta la marcha a Tenochtitlan, la prisión de Moctezuma, la Noche Triste y el sitio, y describe los templos, los sacrificios y los cráneos, con escenas de violencia de los dos bandos.",
+      "por_que_importa": "Es la mirada tardía de un participante directo, útil para contrastar con Cortés y con Bernal Díaz.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "residencia-de-pedro-de-alvarado",
+      "titulo": "Proceso de residencia contra Pedro de Alvarado",
+      "titulo_original": null,
+      "autor": "Primera Audiencia de México",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1529,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "centroamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1529
+      },
+      "idioma_original": "Español",
+      "soporte": "Publicado en México en 1847 por José Fernando Ramírez",
+      "resumen": "Juicio de residencia abierto en 1529 contra Alvarado, con los cargos y las declaraciones de los testigos sobre su conducta en México y en Guatemala. Entre los cargos está la matanza de la fiesta de Tóxcatl de 1520, que los testigos describen como un ataque a los nobles mexicas que bailaban en el patio del templo; Alvarado respondió que preparaban un levantamiento.",
+      "por_que_importa": "Es el principal documento judicial sobre la matanza del Templo Mayor y muestra que la conducta de los conquistadores se juzgaba en su tiempo, aunque Alvarado no fue castigado por ella.",
+      "leer": [
+        {
+          "titulo": "Edición de José Fernando Ramírez (1847) en Internet Archive",
+          "url": "https://archive.org/details/procesodereside00raygoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "juicio-de-residencia-de-cortes",
+      "titulo": "Juicio de residencia de Hernán Cortés",
+      "titulo_original": null,
+      "autor": "Primera Audiencia de México y Consejo de Indias",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1529,
+        "anio_hasta": 1545,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1529
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Proceso abierto en 1529 por la primera Audiencia de México, presidida por Nuño de Guzmán, enemigo de Cortés. Los testigos lo acusaron, entre otras cosas, de la matanza de Cholula, de haber consentido la tortura de Cuauhtémoc y del señor de Tacuba para obtener oro y de quedarse con parte del botín; Cortés presentó sus propios testigos. La causa se prolongó durante años en el Consejo de Indias sin una condena.",
+      "por_que_importa": "Reúne decenas de declaraciones de conquistadores sobre hechos discutidos de la conquista, aunque muchos testigos tenían intereses a favor o en contra de Cortés.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "proceso-contra-el-cazonci",
+      "titulo": "Proceso contra Tzintzicha Tangaxoan, el cazonci",
+      "titulo_original": null,
+      "autor": "Nuño Beltrán de Guzmán",
+      "autor_id": "nuno-de-guzman",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1530,
+        "aprox": false,
+        "lugar": "Michoacán"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1522,
+        "hasta": 1530
+      },
+      "idioma_original": "Español",
+      "soporte": "Archivo General de Indias; publicado en 1952 por France V. Scholes y Eleanor B. Adams",
+      "resumen": "Actas del juicio sumario que Nuño de Guzmán siguió al último cazonci purépecha en febrero de 1530, durante su marcha hacia el occidente. Contienen las acusaciones de idolatría, de haber matado españoles y de preparar una emboscada, las declaraciones obtenidas con tormento al cazonci y a sus allegados, y la sentencia de muerte.",
+      "por_que_importa": "Documenta con las palabras de sus autores cómo se usaron la tortura y un proceso formal para despojar y eliminar a un gobernante indígena que se había sometido en paz.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "codice-de-huexotzinco",
+      "titulo": "Códice de Huexotzinco",
+      "titulo_original": null,
+      "autor": "Pintores de Huexotzinco",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1531,
+        "aprox": false,
+        "lugar": "Huexotzinco (Huejotzingo)",
+        "lon": -98.407,
+        "lat": 19.159
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1521,
+        "hasta": 1531
+      },
+      "idioma_original": "Pictografía nahua con glosas en español",
+      "soporte": "Ocho hojas de papel de amate (Biblioteca del Congreso de los Estados Unidos)",
+      "resumen": "Pinturas presentadas como prueba en el pleito que Hernán Cortés siguió en 1531 contra los oidores de la primera Audiencia, entre ellos Nuño de Guzmán. Registran el tributo que los huexotzincas tuvieron que entregar a la Audiencia en mantas, alimentos, oro, trabajo y hombres para la expedición a Nueva Galicia, y un estandarte de la Virgen hecho con oro y plumas que también se les exigió.",
+      "por_que_importa": "Muestra que los pueblos indígenas usaron sus propios registros como prueba en los tribunales españoles para denunciar abusos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice de Huexotzingo",
+        "en": "Huexotzinco Codex"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "relacion-de-acazitli",
+      "titulo": "Relación de la jornada que hizo don Francisco de Sandoval Acazitli",
+      "titulo_original": null,
+      "autor": "Anónimo (escribano de Tlalmanalco)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1541,
+        "anio_hasta": 1542,
+        "aprox": true,
+        "lugar": "Chalco",
+        "lon": -98.9,
+        "lat": 19.267
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "aridoamerica"
+        ],
+        "desde": 1541,
+        "hasta": 1542
+      },
+      "idioma_original": "Náhuatl (conocida por una traducción al español)",
+      "soporte": null,
+      "resumen": "Relato de la participación del señor de Tlalmanalco, Francisco de Sandoval Acazitli, y de sus guerreros en la campaña del virrey Antonio de Mendoza contra los caxcanes durante la guerra del Mixtón. Narra las marchas, los asedios a los peñoles, el botín y los cautivos, y muestra a los nobles nahuas combatiendo como aliados de la Corona.",
+      "por_que_importa": "Es un raro testimonio de un aliado indígena sobre una campaña de conquista, y muestra que la guerra del Mixtón la libraron en gran parte guerreros indígenas del centro de México.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-yucatan-cogolludo",
+      "titulo": "Historia de Yucathan",
+      "titulo_original": null,
+      "autor": "Diego López de Cogolludo",
+      "autor_id": "diego-lopez-de-cogolludo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1655,
+        "anio_hasta": 1688,
+        "aprox": false,
+        "lugar": "Mérida",
+        "lon": -89.62,
+        "lat": 20.97
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1656
+      },
+      "idioma_original": "Español",
+      "soporte": "Publicada en Madrid en 1688",
+      "resumen": "Crónica franciscana de Yucatán desde los viajes de Hernández de Córdoba y Grijalva hasta mediados del siglo XVII: las campañas de los Montejo, la fundación de Mérida, la evangelización, los conflictos entre frailes, encomenderos y gobernadores y las rebeliones mayas. Reproduce documentos hoy perdidos y defiende la obra de su orden.",
+      "por_que_importa": "Es la crónica principal de la conquista de Yucatán y una de las bases de la historia colonial maya.",
+      "leer": [
+        {
+          "titulo": "Historia de Yucathan, edición original de 1688, en Internet Archive",
+          "url": "https://archive.org/details/historiadeyucath00lpez",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-conquista-del-itza",
+      "titulo": "Historia de la conquista de la provincia de el Itzá",
+      "titulo_original": null,
+      "autor": "Juan de Villagutierre Soto-Mayor",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1701,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1525,
+        "hasta": 1699
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Historia oficial, escrita en Madrid por un funcionario del Consejo de Indias con los expedientes del caso, de la conquista de los itzaes del Petén: la visita de Cortés en 1525, las entradas de franciscanos en el siglo XVII, el camino abierto por Martín de Ursúa desde Yucatán y el asalto a Nojpetén en 1697. Justifica la conquista por la evangelización y por la negativa de los itzaes a someterse.",
+      "por_que_importa": "Es, junto con los expedientes del Archivo de Indias, la fuente principal sobre la caída del último reino maya independiente.",
+      "leer": [
+        {
+          "titulo": "Edición original de 1701 en Internet Archive",
+          "url": "https://archive.org/details/historiadelaconq00vill",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-conquista-de-mexico-solis",
+      "titulo": "Historia de la conquista de México, población y progresos de la América septentrional",
+      "titulo_original": null,
+      "autor": "Antonio de Solís y Ribadeneyra",
+      "autor_id": "antonio-de-solis",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1684,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Narración de la conquista hasta la caída de Tenochtitlan, basada en Cortés, Gómara, Bernal Díaz y Antonio de Herrera y escrita como obra literaria por el cronista mayor de Indias. Presenta la conquista como una empresa providencial para terminar con la idolatría y los sacrificios, con Cortés como héroe.",
+      "por_que_importa": "Fue la versión de la conquista más leída en Europa durante más de un siglo y es un ejemplo temprano de la visión apologética.",
+      "leer": [
+        {
+          "titulo": "Tomo 2 de 3 en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/67524",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "history-of-the-conquest-of-mexico",
+      "titulo": "Historia de la conquista de México",
+      "titulo_original": "History of the Conquest of Mexico",
+      "autor": "William H. Prescott",
+      "autor_id": "william-h-prescott",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1400,
+        "hasta": 1547
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia en tres volúmenes basada en copias de documentos de archivos españoles que el autor hizo reunir, sin haber viajado nunca a México. Describe la civilización mexica con admiración y con horror por sus sacrificios, y narra la conquista como un drama entre Cortés y Moctezuma en el que los aliados indígenas ocupan poco lugar.",
+      "por_que_importa": "Fue durante un siglo la obra de referencia en inglés y moldeó la imagen popular de la conquista; su relato centrado en los españoles y en la superioridad europea es hoy muy discutido.",
+      "leer": [
+        {
+          "titulo": "Tomo 1 de 4 en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59755",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "aztec-warfare",
+      "titulo": "La guerra azteca: expansión imperial y control político",
+      "titulo_original": "Aztec Warfare: Imperial Expansion and Political Control",
+      "autor": "Ross Hassig",
+      "autor_id": "ross-hassig",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Norman (Oklahoma)"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1428,
+        "hasta": 1521
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio de la guerra de la Triple Alianza: el reclutamiento, el entrenamiento, las armas, la logística y las rutas de marcha, y su relación con el tributo. Sostiene que el dominio mexica era hegemónico, de control indirecto, que dejaba en el poder a los gobernantes sometidos a cambio de tributo, y discute las cifras de sacrificados y la función de las guerras floridas.",
+      "por_que_importa": "Es la obra de referencia sobre la guerra mexica y ayuda a explicar por qué tantos pueblos sometidos se aliaron con los españoles.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mexico-and-the-spanish-conquest",
+      "titulo": "México y la conquista española",
+      "titulo_original": "Mexico and the Spanish Conquest",
+      "autor": "Ross Hassig",
+      "autor_id": "ross-hassig",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1525
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia militar de la conquista explicada desde la política indígena: los españoles aportaron armas de acero, caballos y bergantines, pero la guerra la decidieron decenas de miles de guerreros de Tlaxcala, Texcoco, Chalco y otros pueblos que aprovecharon la ocasión para librarse del dominio mexica o para ganar posiciones frente a sus rivales.",
+      "por_que_importa": "Es una de las obras que desplazaron el relato de la conquista hacia el papel de los aliados indígenas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-conquista-de-mexico-thomas",
+      "titulo": "La conquista de México",
+      "titulo_original": "Conquest: Montezuma, Cortés and the Fall of Old Mexico",
+      "autor": "Hugh Thomas",
+      "autor_id": "hugh-thomas",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "caribe",
+          "iberia"
+        ],
+        "desde": 1492,
+        "hasta": 1547
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Narración detallada de la conquista, desde el contexto castellano y antillano hasta la caída de Tenochtitlan y sus consecuencias, basada en un uso amplio de documentos de archivo, juicios de residencia y probanzas. Atiende tanto a la sociedad mexica como a los conquistadores y a sus disputas internas.",
+      "por_que_importa": "Es la síntesis narrativa más completa de la conquista escrita a fines del siglo XX.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "aztecs-clendinnen",
+      "titulo": "Aztecas: una interpretación",
+      "titulo_original": "Aztecs: An Interpretation",
+      "autor": "Inga Clendinnen",
+      "autor_id": "inga-clendinnen",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Cambridge (Inglaterra)"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1428,
+        "hasta": 1521
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio de la sociedad de Tenochtitlan en vísperas de la conquista, a partir sobre todo del Códice Florentino: la guerra, el sacrificio, las fiestas, la vida de los guerreros, de las mujeres y de los comerciantes. Intenta comprender el sacrificio humano desde la religión y la experiencia de los propios mexicas, sin reducirlo a propaganda española ni a una necesidad material.",
+      "por_que_importa": "Es una de las interpretaciones más influyentes de la violencia ritual mexica.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "when-montezuma-met-cortes",
+      "titulo": "Cuando Moctezuma conoció a Cortés",
+      "titulo_original": "When Montezuma Met Cortés: The True Story of the Meeting that Changed History",
+      "autor": "Matthew Restall",
+      "autor_id": "matthew-restall",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Nueva York"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "iberia"
+        ],
+        "desde": 1519,
+        "hasta": 1521
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Revisión del encuentro del 8 de noviembre de 1519 y de toda la conquista. Sostiene que el discurso en que Moctezuma habría entregado su reino a Cortés es una construcción de Cortés para presentar la conquista como legal, que la idea de que los mexicas tomaron a los españoles por dioses es posterior, y que Moctezuma pudo recibirlos para tenerlos bajo control. Propone hablar de una «guerra hispano-azteca».",
+      "por_que_importa": "Es la principal crítica reciente al relato heredado de Cortés, Sahagún y Prescott; sus tesis sobre las intenciones de Moctezuma son interpretaciones discutidas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "malintzins-choices",
+      "titulo": "Las decisiones de Malintzin",
+      "titulo_original": "Malintzin's Choices: An Indian Woman in the Conquest of Mexico",
+      "autor": "Camilla Townsend",
+      "autor_id": "camilla-townsend",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Albuquerque"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1550
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Biografía de Malintzin reconstruida con fuentes españolas y nahuas: su venta de niña, su papel de intérprete y negociadora, su hijo con Cortés, su matrimonio, su temprana muerte y la suerte de sus hijos. Interpreta sus decisiones como las de una mujer esclavizada que no debía lealtad a los mexicas.",
+      "por_que_importa": "Revisó con documentos tanto la lectura nacionalista de la Malinche como traidora como su idealización.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "fifth-sun",
+      "titulo": "El quinto sol: una nueva historia de los aztecas",
+      "titulo_original": "Fifth Sun: A New History of the Aztecs",
+      "autor": "Camilla Townsend",
+      "autor_id": "camilla-townsend",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "Nueva York"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1300,
+        "hasta": 1620
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia de los mexicas desde la migración hasta comienzos del siglo XVII basada en los anales escritos en náhuatl después de la conquista, como los de Chimalpahin, Tezozómoc o Tlatelolco, en lugar de las crónicas españolas. Trata el sacrificio, la guerra y la esclavitud como parte de la política mexica y sigue a la nobleza nahua en la época colonial.",
+      "por_que_importa": "Muestra lo que dicen de su propia historia las fuentes nahuas cuando se las lee en su lengua.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "burying-the-white-gods",
+      "titulo": "Enterrar a los dioses blancos: nuevas perspectivas sobre la conquista de México",
+      "titulo_original": "Burying the White Gods: New Perspectives on the Conquest of Mexico",
+      "autor": "Camilla Townsend",
+      "autor_id": "camilla-townsend",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Washington"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "American Historical Review, vol. 108, n.º 3 (2003)",
+      "resumen": "Artículo que rastrea el origen de la idea de que los mexicas creyeron que los españoles eran dioses y que Cortés era Quetzalcóatl: no aparece en las cartas de Cortés ni en los primeros textos nahuas, sino en fuentes escritas décadas después. Explica el uso de la palabra teotl para los españoles y sostiene que los nahuas actuaron por razones políticas, no por confusión.",
+      "por_que_importa": "Es la crítica académica más citada del mito de los «dioses blancos».",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "indian-conquistadors",
+      "titulo": "Conquistadores indígenas: los aliados indígenas en la conquista de Mesoamérica",
+      "titulo_original": "Indian Conquistadors: Indigenous Allies in the Conquest of Mesoamerica",
+      "autor": "Laura E. Matthew y Michel R. Oudijk (editores)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Norman (Oklahoma)"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "centroamerica",
+          "aridoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Volumen colectivo con estudios sobre los guerreros nahuas, zapotecos, mixtecos y de otros pueblos que acompañaron a los españoles en la conquista de México, Guatemala, el occidente y el norte, a partir de probanzas, lienzos y pleitos en los que ellos mismos reclamaban recompensas.",
+      "por_que_importa": "Mostró que la conquista de Mesoamérica fue en gran parte obra de ejércitos indígenas con sus propios intereses, y no solo de unos centenares de españoles.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "vision-de-los-vencidos",
+      "titulo": "Visión de los vencidos: relaciones indígenas de la conquista",
+      "titulo_original": null,
+      "autor": "Miguel León-Portilla",
+      "autor_id": "miguel-leon-portilla",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1521
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Antología de textos nahuas sobre la conquista, traducidos sobre todo por Ángel María Garibay: el libro XII del Códice Florentino, los Anales de Tlatelolco, cantares de lamento y fragmentos de Tezozómoc, Muñoz Camargo y otros. Presenta la conquista desde el punto de vista de los pueblos del valle de México.",
+      "por_que_importa": "Difundió en todo el mundo la versión indígena de la conquista y se tradujo a decenas de lenguas; historiadores posteriores, como James Lockhart, señalaron que reúne bajo una sola «voz de los vencidos» textos de distintos pueblos, fechas e intereses, algunos de pueblos aliados de los españoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Visión de los vencidos",
+        "en": "The Broken Spears"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sacrificio-humano-lopez-lujan-olivier",
+      "titulo": "El sacrificio humano en la tradición religiosa mesoamericana",
+      "titulo_original": null,
+      "autor": "Leonardo López Luján",
+      "autor_id": "leonardo-lopez-lujan",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": -1000,
+        "hasta": 1550
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Libro colectivo coordinado por Leonardo López Luján y Guilhem Olivier, publicado por el INAH y la UNAM, que reúne estudios arqueológicos, osteológicos e históricos sobre el sacrificio humano en Mesoamérica, de los olmecas a los mexicas: las técnicas, las víctimas, el tratamiento de los cuerpos y su sentido religioso.",
+      "por_que_importa": "Resume lo que la arqueología y las fuentes permiten afirmar sobre el sacrificio, frente a quienes lo negaron como propaganda española y a quienes lo explicaron solo por necesidades materiales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "wade-2018-huey-tzompantli",
+      "titulo": "Alimentar a los dioses: cientos de cráneos revelan la escala del sacrificio humano en la capital azteca",
+      "titulo_original": "Feeding the gods: Hundreds of skulls reveal massive scale of human sacrifice in Aztec capital",
+      "autor": "Lizzie Wade",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Washington"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1486,
+        "hasta": 1521
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Revista Science (2018)",
+      "resumen": "Artículo de la revista Science sobre las excavaciones del Huey Tzompantli de Tenochtitlan, realizadas desde 2015 por el Programa de Arqueología Urbana del INAH que dirige Raúl Barrera. Describe la torre de cráneos unidos con cal y la plataforma del armazón, informa que entre los cráneos estudiados había sobre todo hombres jóvenes, pero también mujeres y niños, y recoge las interpretaciones de los arqueólogos sobre quiénes eran las víctimas.",
+      "por_que_importa": "Difundió los datos de uno de los hallazgos que confirmaron con evidencia física la escala del sacrificio descrito por los cronistas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "tlaxcala-in-the-sixteenth-century",
+      "titulo": "Tlaxcala en el siglo XVI",
+      "titulo_original": "Tlaxcala in the Sixteenth Century",
+      "autor": "Charles Gibson",
+      "autor_id": "charles-gibson",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "New Haven"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1519,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio de Tlaxcala desde la alianza con Cortés hasta fines del siglo XVI: los privilegios que obtuvo de la Corona, su cabildo indígena, la evangelización, el tributo, la caída de la población y las familias tlaxcaltecas enviadas a poblar el norte en 1591.",
+      "por_que_importa": "Mostró que los aliados de la conquista obtuvieron un trato excepcional, pero no escaparon a las epidemias ni a las cargas del régimen colonial.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "conquest-of-michoacan-warren",
+      "titulo": "La conquista de Michoacán, 1521-1530",
+      "titulo_original": "The Conquest of Michoacan: The Spanish Domination of the Tarascan Kingdom in Western Mexico, 1521-1530",
+      "autor": "J. Benedict Warren",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Norman (Oklahoma)"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1521,
+        "hasta": 1530
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia documental de la sujeción del reino purépecha: la entrega pacífica del cazonci en 1522, las encomiendas, la evangelización franciscana y el proceso y la ejecución del cazonci por Nuño de Guzmán en 1530.",
+      "por_que_importa": "Es el estudio de referencia sobre la conquista de Michoacán, basado en los expedientes judiciales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "war-for-mexicos-west",
+      "titulo": "La guerra por el occidente de México",
+      "titulo_original": "The War for Mexico's West: Indians and Spaniards in New Galicia, 1524-1550",
+      "autor": "Ida Altman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Albuquerque"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "aridoamerica"
+        ],
+        "desde": 1524,
+        "hasta": 1550
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio de la conquista de Nueva Galicia y de la guerra del Mixtón: la expedición de Nuño de Guzmán, la esclavización de cautivos, las encomiendas, la rebelión de los caxcanes y otros pueblos y la campaña del virrey Mendoza con decenas de miles de aliados indígenas.",
+      "por_que_importa": "Es la principal monografía moderna sobre la guerra del Mixtón y la violencia de la conquista del occidente.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "conquest-of-yucatan-chamberlain",
+      "titulo": "La conquista y colonización de Yucatán, 1517-1550",
+      "titulo_original": "The Conquest and Colonization of Yucatan, 1517-1550",
+      "autor": "Robert S. Chamberlain",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Washington"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1550
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Historia de las campañas de los Montejo basada en documentos del Archivo de Indias: los fracasos de 1527-1535, la división de los señoríos mayas, la alianza con los Xiu de Maní, la fundación de Mérida y la gran rebelión de 1546-1547.",
+      "por_que_importa": "Es el estudio clásico sobre la conquista de Yucatán, publicado por la Institución Carnegie de Washington.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "spanish-conquest-of-yucatan-means",
+      "titulo": "Historia de la conquista española de Yucatán y de los itzaes",
+      "titulo_original": "History of the Spanish Conquest of Yucatan and of the Itzas",
+      "autor": "Philip Ainsworth Means",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1917,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1517,
+        "hasta": 1697
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Papers of the Peabody Museum, Universidad de Harvard",
+      "resumen": "Estudio temprano de la conquista de Yucatán y del Petén, centrado en las entradas franciscanas del siglo XVII y en la conquista de los itzaes por Martín de Ursúa, con traducciones de pasajes de Villagutierre y de otros cronistas.",
+      "por_que_importa": "Fue el primer estudio académico en inglés sobre la caída de los itzaes y está en dominio público.",
+      "leer": [
+        {
+          "titulo": "Texto completo en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/33231",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "conquest-of-the-last-maya-kingdom",
+      "titulo": "La conquista del último reino maya",
+      "titulo_original": "The Conquest of the Last Maya Kingdom",
+      "autor": "Grant D. Jones",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Stanford"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1525,
+        "hasta": 1702
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Reconstrucción, con documentos españoles y testimonios mayas, del reino itzá de Nojpetén, de su organización política y de su caída: las negociaciones de Ajaw Kan Ek', la división entre facciones itzaes, el asalto de Martín de Ursúa en 1697 y las epidemias y la dispersión que siguieron.",
+      "por_que_importa": "Es el estudio de referencia sobre los itzaes y el fin de la independencia maya.",
+      "leer": [],
+      "confianza": "alta"
+    }
+  ],
+  "personas": [
+    {
+      "id": "acamapichtli",
+      "nombre": "Acamapichtli",
+      "muerte": {
+        "anio": 1395,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1375,
+        "hasta": 1395,
+        "aprox": true
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Primer tlatoani de Tenochtitlan según las crónicas mexicas, de linaje culhua, elegido hacia 1375. En su tiempo los mexicas eran tributarios de los tepanecas de Azcapotzalco y combatían como sus aliados.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Acamapichtli",
+        "en": "Acamapichtli"
+      },
+      "wikidata": "Q335525"
+    },
+    {
+      "id": "itzcoatl",
+      "nombre": "Itzcóatl",
+      "nacimiento": {
+        "anio": 1380,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1440,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1427,
+        "hasta": 1440,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Cuarto tlatoani de Tenochtitlan (1427-1440). Con Nezahualcóyotl de Texcoco venció a Azcapotzalco en 1428 y formó con Tlacopan la Triple Alianza. Según los informantes de Sahagún, en su tiempo se quemaron las pinturas históricas antiguas, lo que muchos historiadores leen como una reescritura oficial del pasado mexica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Itzcóatl",
+        "en": "Itzcoatl"
+      },
+      "wikidata": "Q318072"
+    },
+    {
+      "id": "moctezuma-i",
+      "nombre": "Moctezuma Ilhuicamina",
+      "nacimiento": {
+        "anio": 1398,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1469,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1440,
+        "hasta": 1469,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Quinto tlatoani de Tenochtitlan (1440-1469). Extendió el dominio de la Triple Alianza hacia la costa del golfo y Oaxaca y gobernó durante la gran hambruna de 1450-1454; Durán sitúa en su tiempo el pacto de las guerras floridas con Tlaxcala y Huexotzinco.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Moctezuma Ilhuicamina",
+        "en": "Moctezuma I"
+      },
+      "wikidata": "Q13702"
+    },
+    {
+      "id": "axayacatl",
+      "nombre": "Axayácatl",
+      "nacimiento": {
+        "anio": 1450,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1481,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1469,
+        "hasta": 1481,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Sexto tlatoani (1469-1481) y padre de Moctezuma II. En 1473 conquistó Tlatelolco, la ciudad gemela de Tenochtitlan, cuyo gobernante Moquíhuix murió en la lucha; hacia 1479 sufrió frente a los purépechas la mayor derrota mexica conocida antes de 1519.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Axayácatl",
+        "en": "Axayacatl"
+      },
+      "wikidata": "Q351751"
+    },
+    {
+      "id": "tizoc",
+      "nombre": "Tízoc",
+      "muerte": {
+        "anio": 1486,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1481,
+        "hasta": 1486,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Séptimo tlatoani (1481-1486), de gobierno breve y con pocas conquistas. Algunas fuentes dicen que murió envenenado por nobles de su corte. Lleva su nombre la Piedra de Tízoc, un gran monolito tallado con escenas de captura de guerreros de otros pueblos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tízoc",
+        "en": "Tizoc"
+      },
+      "wikidata": "Q336816"
+    },
+    {
+      "id": "ahuitzotl",
+      "nombre": "Ahuízotl",
+      "muerte": {
+        "anio": 1502,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1486,
+        "hasta": 1502,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Octavo tlatoani (1486-1502). Llevó las campañas de la Triple Alianza hasta el Soconusco, en la costa del Pacífico, y en 1487 dedicó la ampliación del Templo Mayor con un sacrificio masivo de prisioneros cuya cifra se discute. Un acueducto que hizo traer desde Coyoacán inundó la ciudad hacia 1500.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ahuízotl (gobernante)",
+        "en": "Ahuitzotl"
+      },
+      "wikidata": "Q351758"
+    },
+    {
+      "id": "tlacaelel",
+      "nombre": "Tlacaélel",
+      "nacimiento": {
+        "anio": 1397,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1487,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1427,
+        "hasta": 1487,
+        "aprox": true
+      },
+      "roles": [
+        "consejero"
+      ],
+      "resumen": "Cihuacóatl, el principal consejero, de varios tlatoque de Tenochtitlan desde Itzcóatl. Las crónicas de Durán y Tezozómoc, que siguen una misma fuente nahua perdida, le atribuyen la reforma religiosa que puso a Huitzilopochtli en el centro, el impulso de la expansión y las guerras floridas; las fuentes texcocanas casi no lo mencionan, y varios historiadores sospechan que esa fuente común agrandó su papel.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tlacaélel",
+        "en": "Tlacaelel"
+      },
+      "wikidata": "Q2341986"
+    },
+    {
+      "id": "cuitlahuac",
+      "nombre": "Cuitláhuac",
+      "nacimiento": {
+        "anio": 1476,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1520,
+        "aprox": false,
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1520,
+        "hasta": 1520,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Hermano de Moctezuma II y señor de Iztapalapa. Retenido por los españoles y liberado en 1520, encabezó el ataque que los expulsó de la ciudad en la Noche Triste y fue elegido tlatoani; murió de viruela a fines de 1520, unos ochenta días después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cuitláhuac",
+        "en": "Cuitláhuac"
+      },
+      "wikidata": "Q315628"
+    },
+    {
+      "id": "cuauhtemoc",
+      "nombre": "Cuauhtémoc",
+      "nacimiento": {
+        "anio": 1500,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1525,
+        "aprox": false,
+        "lugar": "Itzamkanac (Acalan)",
+        "lon": -90.837,
+        "lat": 18.122
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1520,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Último tlatoani de Tenochtitlan (1520-1521), hijo de Ahuízotl y primo de Moctezuma II. Dirigió la defensa de la ciudad durante el sitio y fue capturado el 13 de agosto de 1521. Los españoles le quemaron los pies para que dijera dónde estaba el oro; Cortés lo llevó como rehén a su expedición a Honduras y lo hizo ahorcar en 1525, acusado de conspirar.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cuauhtémoc",
+        "en": "Cuauhtémoc"
+      },
+      "wikidata": "Q297050"
+    },
+    {
+      "id": "isabel-moctezuma",
+      "nombre": "Isabel Moctezuma (Tecuichpo)",
+      "nacimiento": {
+        "anio": 1509,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1550,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1520,
+        "hasta": 1550,
+        "aprox": true
+      },
+      "roles": [
+        "noble",
+        "encomendera"
+      ],
+      "resumen": "Hija de Moctezuma II, casada sucesivamente con Cuitláhuac y con Cuauhtémoc. Después de la conquista se bautizó, tuvo una hija con Cortés y se casó con tres españoles; Cortés le concedió en 1526 la encomienda de Tacuba, una de las mayores del valle de México, que sus descendientes defendieron en pleitos durante generaciones.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Isabel Moctezuma Tecuichpo Ixcaxochitzin",
+        "en": "Isabel Moctezuma"
+      },
+      "wikidata": "Q465561"
+    },
+    {
+      "id": "tetlepanquetzal",
+      "nombre": "Tetlepanquetzal",
+      "muerte": {
+        "anio": 1525,
+        "aprox": false,
+        "lugar": "Itzamkanac (Acalan)",
+        "lon": -90.837,
+        "lat": 18.122
+      },
+      "activo": {
+        "lugar": "Tlacopan (Tacuba)",
+        "lon": -99.19,
+        "lat": 19.46,
+        "desde": 1520,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Tlatoani de Tlacopan, la tercera ciudad de la Triple Alianza, durante el sitio de Tenochtitlan. Fue torturado junto con Cuauhtémoc para que revelara dónde estaba el oro y ahorcado con él en 1525.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tetlepanquetzaltzin",
+        "en": "Tetlepanquetzal"
+      },
+      "wikidata": "Q2377419"
+    },
+    {
+      "id": "nezahualcoyotl",
+      "nombre": "Nezahualcóyotl",
+      "nacimiento": {
+        "anio": 1402,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "muerte": {
+        "anio": 1472,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1431,
+        "hasta": 1472,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani",
+        "poeta"
+      ],
+      "resumen": "Tlatoani de Texcoco (1431-1472). De joven vio morir a su padre a manos de los tepanecas y vivió exiliado; aliado con los mexicas venció a Azcapotzalco en 1428 y formó la Triple Alianza, con la que Texcoco compartió las guerras de conquista, el tributo y el sacrificio de cautivos. Se le atribuyen leyes, obras hidráulicas como el albarradón de 1449 y poemas de los Cantares mexicanos; su imagen de rey sabio debe mucho a su descendiente Fernando de Alva Ixtlilxóchitl.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nezahualcóyotl",
+        "en": "Nezahualcoyotl (tlatoani)"
+      },
+      "wikidata": "Q379964"
+    },
+    {
+      "id": "nezahualpilli",
+      "nombre": "Nezahualpilli",
+      "nacimiento": {
+        "anio": 1464,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "muerte": {
+        "anio": 1515,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1472,
+        "hasta": 1515,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Tlatoani de Texcoco (1472-1515) e hijo de Nezahualcóyotl. Las fuentes texcocanas lo presentan como astrólogo y legislador severo, que hizo ejecutar por adulterio a una de sus esposas, hija de Axayácatl. A su muerte la sucesión se disputó entre Cacamatzin, apoyado por Moctezuma II, e Ixtlilxóchitl, lo que dividió Texcoco antes de la llegada de los españoles.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nezahualpilli",
+        "en": "Nezahualpilli"
+      },
+      "wikidata": "Q522788"
+    },
+    {
+      "id": "cacamatzin",
+      "nombre": "Cacamatzin",
+      "nacimiento": {
+        "anio": 1483,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1520,
+        "aprox": false,
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1516,
+        "hasta": 1520,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Tlatoani de Texcoco desde 1516 y sobrino de Moctezuma II. Acompañó a su tío al recibir a Cortés; acusado de preparar una revuelta, fue entregado a los españoles y quedó preso con Moctezuma. Murió en 1520, en los días de la Noche Triste, en circunstancias que las fuentes cuentan de distinta manera.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cacamatzin",
+        "en": "Cacamatzin"
+      },
+      "wikidata": "Q2574259"
+    },
+    {
+      "id": "ixtlilxochitl-ii",
+      "nombre": "Ixtlilxóchitl II (Fernando Cortés Ixtlilxóchitl)",
+      "nacimiento": {
+        "anio": 1500,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1550,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1515,
+        "hasta": 1531,
+        "aprox": true
+      },
+      "roles": [
+        "tlatoani",
+        "guerrero"
+      ],
+      "resumen": "Hijo de Nezahualpilli que disputó a su hermano Cacamatzin el trono de Texcoco. Se alió con Cortés, se bautizó como Fernando y llevó miles de guerreros texcocanos al sitio de Tenochtitlan. Su descendiente Fernando de Alva Ixtlilxóchitl le dio en sus obras un papel decisivo en la conquista que otras fuentes no le reconocen en esa medida.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Fernando Cortés Ixtlilxóchitl",
+        "en": "Ixtlilxochitl II"
+      },
+      "wikidata": "Q2568485"
+    },
+    {
+      "id": "xicotencatl-el-viejo",
+      "nombre": "Xicohténcatl el Viejo",
+      "nacimiento": {
+        "anio": 1425,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1522,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315,
+        "desde": 1519,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "señor"
+      ],
+      "resumen": "Señor de Tizatlán, una de las cuatro cabeceras de Tlaxcala, ya muy anciano en 1519. Fue uno de los señores tlaxcaltecas que, después de los combates de septiembre de 1519, aceptaron la alianza con Cortés contra los mexicas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Huehue Xicohténcatl",
+        "en": "Xicotencatl I"
+      },
+      "wikidata": "Q732535"
+    },
+    {
+      "id": "maxixcatzin",
+      "nombre": "Maxixcatzin",
+      "muerte": {
+        "anio": 1520,
+        "aprox": false,
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315
+      },
+      "activo": {
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315,
+        "desde": 1519,
+        "hasta": 1520,
+        "aprox": false
+      },
+      "roles": [
+        "señor"
+      ],
+      "resumen": "Señor de Ocotelulco, otra de las cuatro cabeceras de Tlaxcala, y principal defensor de la alianza con los españoles; después de la Noche Triste los recibió en Tlaxcala y sostuvo la alianza frente a quienes querían romperla. Murió de viruela a fines de 1520.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Maxixcatzin",
+        "en": "Maxixcatl"
+      },
+      "wikidata": "Q65174022"
+    },
+    {
+      "id": "xicotencatl-el-joven",
+      "nombre": "Xicohténcatl Axayacatzin (el Joven)",
+      "nacimiento": {
+        "anio": 1484,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1521,
+        "aprox": false,
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529
+      },
+      "activo": {
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315,
+        "desde": 1519,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "guerrero"
+      ],
+      "resumen": "Capitán tlaxcalteca, hijo de Xicohténcatl el Viejo, que dirigió los combates contra Cortés en septiembre de 1519 y desconfió de la alianza. Durante la preparación del sitio de Tenochtitlan dejó el ejército y Cortés lo hizo ahorcar en 1521. El nacionalismo mexicano del siglo XIX lo convirtió en símbolo de la oposición a los españoles.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Xicohténcatl",
+        "en": "Xicotencatl II"
+      },
+      "wikidata": "Q379970"
+    },
+    {
+      "id": "tangaxoan-ii",
+      "nombre": "Tangáxoan Tzíntzicha (el cazonci)",
+      "muerte": {
+        "anio": 1530,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tzintzuntzan",
+        "lon": -101.574,
+        "lat": 19.624,
+        "desde": 1520,
+        "hasta": 1530,
+        "aprox": false
+      },
+      "roles": [
+        "gobernante"
+      ],
+      "resumen": "Último irecha o cazonci del reino purépecha, con capital en Tzintzuntzan. En 1522 se sometió sin guerra a los españoles y se bautizó como Francisco; en 1530 Nuño de Guzmán lo hizo torturar para obtener oro, lo procesó por conspiración y lo hizo ejecutar y quemar. El proceso que se le siguió se conserva.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tangáxoan Tzíntzicha",
+        "en": "Tangaxuan II"
+      },
+      "wikidata": "Q2413702"
+    },
+    {
+      "id": "francisco-tenamaztle",
+      "nombre": "Francisco Tenamaztle",
+      "muerte": {
+        "anio": 1556,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Nochistlán",
+        "lon": -102.846,
+        "lat": 21.363,
+        "desde": 1540,
+        "hasta": 1551,
+        "aprox": false
+      },
+      "roles": [
+        "señor",
+        "guerrero"
+      ],
+      "resumen": "Señor caxcán de Nochistlán y uno de los dirigentes de la guerra del Mixtón (1540-1542). Siguió combatiendo hasta que se entregó hacia 1551; deportado a España, presentó en 1555, con ayuda de Las Casas, una petición al Consejo de Indias que justificaba la rebelión por los abusos de encomenderos y conquistadores.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Tenamaztle",
+        "en": "Francisco Tenamaztle"
+      },
+      "wikidata": "Q2885169"
+    },
+    {
+      "id": "ajaw-kan-ek",
+      "nombre": "Ajaw Kan Ek'",
+      "activo": {
+        "lugar": "Nojpetén (Tayasal)",
+        "lon": -89.892,
+        "lat": 16.93,
+        "desde": 1695,
+        "hasta": 1697,
+        "aprox": false
+      },
+      "roles": [
+        "gobernante"
+      ],
+      "resumen": "Rey de los itzaes, el último reino maya independiente, con capital en Nojpetén, en el lago Petén Itzá. Recibió embajadas y misioneros franciscanos entre 1695 y 1696 y negoció un sometimiento que no se cumplió; fue capturado en el asalto de Martín de Ursúa del 13 de marzo de 1697 y llevado preso a Santiago de Guatemala.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Canek",
+        "en": "Kan Ekʼ"
+      },
+      "wikidata": "Q6360037"
+    },
+    {
+      "id": "malinche",
+      "nombre": "Malintzin (doña Marina, la Malinche)",
+      "nacimiento": {
+        "anio": 1500,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1529,
+        "aprox": true
+      },
+      "roles": [
+        "intérprete"
+      ],
+      "resumen": "Mujer nahua de la costa del golfo, entregada de niña a los mayas chontales de Tabasco, que la dieron a Cortés con otras diecinueve mujeres después de la batalla de Centla (1519). Hablaba náhuatl y maya y fue la intérprete de Cortés durante toda la conquista; tuvo con él un hijo, Martín, y en 1524 se casó con Juan Jaramillo. Los códices de Tlaxcala la muestran en el centro de las negociaciones; el nacionalismo del siglo XIX la volvió símbolo de traición, y estudios recientes como el de Camilla Townsend analizan sus decisiones en su contexto.",
+      "obras": [],
+      "wikipedia": {
+        "es": "La Malinche",
+        "en": "La Malinche"
+      },
+      "wikidata": "Q230314"
+    },
+    {
+      "id": "jeronimo-de-aguilar",
+      "nombre": "Jerónimo de Aguilar",
+      "nacimiento": {
+        "anio": 1489,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1531,
+        "aprox": true
+      },
+      "roles": [
+        "intérprete"
+      ],
+      "resumen": "Clérigo español que naufragó en Yucatán en 1511 y vivió ocho años como cautivo entre los mayas. En 1519 se sumó a Cortés en Cozumel y tradujo del maya; con Malintzin, que pasaba del náhuatl al maya, formó la cadena de traducción de los primeros meses de la conquista.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gerónimo de Aguilar",
+        "en": "Gerónimo de Aguilar"
+      },
+      "wikidata": "Q551554"
+    },
+    {
+      "id": "gonzalo-guerrero",
+      "nombre": "Gonzalo Guerrero",
+      "muerte": {
+        "anio": 1536,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Chetumal",
+        "lon": -88.298,
+        "lat": 18.494,
+        "desde": 1511,
+        "hasta": 1536,
+        "aprox": true
+      },
+      "roles": [
+        "marinero",
+        "guerrero"
+      ],
+      "resumen": "Marinero del mismo naufragio de 1511 que, según Bernal Díaz, se integró a la sociedad maya de Chetumal, se casó con una mujer principal, tuvo hijos y no quiso volver con los españoles. Fuentes españolas lo acusan de dirigir la resistencia maya contra los Montejo y cuentan que murió en 1536 en Honduras, combatiendo junto a los indígenas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gonzalo Guerrero",
+        "en": "Gonzalo Guerrero"
+      },
+      "wikidata": "Q650828"
+    },
+    {
+      "id": "francisco-hernandez-de-cordoba-yucatan",
+      "nombre": "Francisco Hernández de Córdoba",
+      "muerte": {
+        "anio": 1517,
+        "aprox": false
+      },
+      "roles": [
+        "explorador"
+      ],
+      "resumen": "Vecino de Cuba que en 1517 encabezó la primera expedición española a Yucatán: según Bernal Díaz, para descubrir tierras nuevas; según Las Casas, para capturar indios como esclavos. Vio ciudades mayas de piedra en cabo Catoche y Campeche, fue derrotado en Champotón y murió de sus heridas al volver a Cuba. No es el fundador de ciudades en Nicaragua del mismo nombre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Hernández de Córdoba (explorador de Yucatán)",
+        "en": "Francisco Hernández de Córdoba (Yucatán conquistador)"
+      },
+      "wikidata": "Q356785"
+    },
+    {
+      "id": "juan-de-grijalva",
+      "nombre": "Juan de Grijalva",
+      "nacimiento": {
+        "anio": 1490,
+        "aprox": true,
+        "lugar": "Cuéllar",
+        "lon": -4.314,
+        "lat": 41.401
+      },
+      "muerte": {
+        "anio": 1527,
+        "aprox": false,
+        "lugar": "Departamento de Olancho",
+        "lon": -86.22,
+        "lat": 14.667
+      },
+      "roles": [
+        "explorador"
+      ],
+      "resumen": "Pariente de Diego Velázquez que en 1518 encabezó la segunda expedición a Yucatán y la costa del golfo: recorrió Cozumel, Tabasco y Veracruz, donde enviados de Moctezuma intercambiaron regalos con él. Las noticias de oro que trajo decidieron la expedición de Cortés. Murió en 1527 en Centroamérica, en un ataque indígena.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan de Grijalva",
+        "en": "Juan de Grijalva"
+      },
+      "wikidata": "Q26722"
+    },
+    {
+      "id": "pedro-de-alvarado",
+      "nombre": "Pedro de Alvarado",
+      "nacimiento": {
+        "anio": 1485,
+        "aprox": true,
+        "lugar": "Badajoz",
+        "lon": -6.971,
+        "lat": 38.878
+      },
+      "muerte": {
+        "anio": 1541,
+        "aprox": false,
+        "lugar": "Guadalajara",
+        "lon": -103.342,
+        "lat": 20.676
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1519,
+        "hasta": 1523,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Conquistador extremeño y lugarteniente de Cortés. Quedó a cargo de los españoles en Tenochtitlan en mayo de 1520 y dirigió la matanza de la fiesta de Tóxcatl, uno de los cargos de su juicio de residencia de 1529. Desde 1524 encabezó la conquista de Guatemala; murió en 1541, días después de que un caballo le cayera encima en el ataque al peñol de Nochistlán, durante la guerra del Mixtón.",
+      "obras": [
+        "relaciones-de-pedro-de-alvarado"
+      ],
+      "wikipedia": {
+        "es": "Pedro de Alvarado",
+        "en": "Pedro de Alvarado"
+      },
+      "wikidata": "Q210900"
+    },
+    {
+      "id": "panfilo-de-narvaez",
+      "nombre": "Pánfilo de Narváez",
+      "nacimiento": {
+        "anio": 1478,
+        "aprox": true,
+        "lugar": "Navalmanzano",
+        "lon": -4.257,
+        "lat": 41.216
+      },
+      "muerte": {
+        "anio": 1528,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Conquistador de Cuba, donde Las Casas lo acusó de consentir la matanza de Caonao (1513). Diego Velázquez lo envió en 1520 con unos 800 a 900 hombres para detener a Cortés, que lo derrotó en Cempoala y sumó a sus soldados; las crónicas atribuyen a un africano esclavizado de su armada el contagio de la viruela. Murió en 1528 en el naufragio de su expedición a Florida.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pánfilo de Narváez",
+        "en": "Pánfilo de Narváez"
+      },
+      "wikidata": "Q40524"
+    },
+    {
+      "id": "gonzalo-de-sandoval",
+      "nombre": "Gonzalo de Sandoval",
+      "nacimiento": {
+        "anio": 1497,
+        "aprox": true,
+        "lugar": "Medellín",
+        "lon": -5.958,
+        "lat": 38.963
+      },
+      "muerte": {
+        "anio": 1528,
+        "aprox": false,
+        "lugar": "Palos de la Frontera",
+        "lon": -6.893,
+        "lat": 37.228
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1519,
+        "hasta": 1527,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Conquistador extremeño y uno de los capitanes de mayor confianza de Cortés: mandó tropas en el sitio de Tenochtitlan y en las campañas de la costa del golfo, donde fundó Espíritu Santo, en Coatzacoalcos. Murió en 1528 en Palos, cuando volvía a España con Cortés.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gonzalo de Sandoval",
+        "en": "Gonzalo de Sandoval"
+      },
+      "wikidata": "Q1374269"
+    },
+    {
+      "id": "cristobal-de-olid",
+      "nombre": "Cristóbal de Olid",
+      "nacimiento": {
+        "anio": 1488,
+        "aprox": true,
+        "lugar": "Linares",
+        "lon": -3.633,
+        "lat": 38.1
+      },
+      "muerte": {
+        "anio": 1524,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Capitán de Cortés en el sitio de Tenochtitlan y en la entrada a Michoacán de 1522. Enviado a Honduras en 1524, se alzó contra Cortés en acuerdo con Diego Velázquez y fue muerto ese mismo año por otros españoles; su rebelión motivó la expedición de Cortés a las Hibueras.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cristóbal de Olid",
+        "en": "Cristóbal de Olid"
+      },
+      "wikidata": "Q550491"
+    },
+    {
+      "id": "andres-de-tapia",
+      "nombre": "Andrés de Tapia",
+      "nacimiento": {
+        "anio": 1498,
+        "aprox": true,
+        "lugar": "Medellín",
+        "lon": -5.958,
+        "lat": 38.963
+      },
+      "muerte": {
+        "anio": 1561,
+        "aprox": false,
+        "lugar": "Virreinato de Nueva España",
+        "lon": -99.133,
+        "lat": 19.433
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1519,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "cronista"
+      ],
+      "resumen": "Soldado y capitán de Cortés que escribió una relación de la conquista hasta la derrota de Narváez (1520), usada por Gómara. Describió el templo mayor y su tzompantli y afirmó que él y otro soldado contaron allí 136 000 cráneos, una cifra que no se pudo comprobar.",
+      "obras": [
+        "relacion-de-andres-de-tapia"
+      ],
+      "wikipedia": {
+        "es": "Andrés de Tapia",
+        "en": "Andrés de Tapia"
+      },
+      "wikidata": "Q2889246"
+    },
+    {
+      "id": "francisco-de-aguilar",
+      "nombre": "Francisco de Aguilar",
+      "nacimiento": {
+        "anio": 1479,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1571,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1519,
+        "hasta": 1521,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "fraile",
+        "cronista"
+      ],
+      "resumen": "Soldado de Cortés llamado Alonso de Aguilar que años después dejó sus bienes y se hizo dominico con el nombre de Francisco. Ya muy anciano dictó, a pedido de sus hermanos de orden, una Relación breve de la conquista de la Nueva España que describe los ritos mexicas y la violencia de los dos bandos.",
+      "obras": [
+        "relacion-breve-de-francisco-de-aguilar"
+      ]
+    },
+    {
+      "id": "bernal-diaz-del-castillo",
+      "nombre": "Bernal Díaz del Castillo",
+      "nacimiento": {
+        "anio": 1496,
+        "aprox": true,
+        "lugar": "Medina del Campo",
+        "lon": -4.915,
+        "lat": 41.309
+      },
+      "muerte": {
+        "anio": 1584,
+        "aprox": false,
+        "lugar": "Antigua Guatemala",
+        "lon": -90.733,
+        "lat": 14.557
+      },
+      "activo": {
+        "lugar": "Santiago de Guatemala (Antigua Guatemala)",
+        "lon": -90.733,
+        "lat": 14.557,
+        "desde": 1541,
+        "hasta": 1584,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "cronista"
+      ],
+      "resumen": "Soldado de las expediciones de Hernández de Córdoba, Grijalva y Cortés. Ya anciano y encomendero en Santiago de Guatemala, escribió la Historia verdadera de la conquista de la Nueva España, en parte para corregir a Gómara y reclamar el mérito de los soldados comunes; se publicó en 1632.",
+      "obras": [
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Bernal Díaz del Castillo",
+        "en": "Bernal Díaz del Castillo"
+      },
+      "wikidata": "Q315795"
+    },
+    {
+      "id": "nuno-de-guzman",
+      "nombre": "Nuño Beltrán de Guzmán",
+      "nacimiento": {
+        "anio": 1490,
+        "aprox": true,
+        "lugar": "Guadalajara",
+        "lon": -3.167,
+        "lat": 40.633
+      },
+      "muerte": {
+        "anio": 1558,
+        "aprox": false,
+        "lugar": "Torrejón de Velasco",
+        "lon": -3.779,
+        "lat": 40.188
+      },
+      "activo": {
+        "lugar": "Guadalajara",
+        "lon": -103.342,
+        "lat": 20.676,
+        "desde": 1527,
+        "hasta": 1536,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Abogado castellano, nombrado en 1525 gobernador de Pánuco, donde hizo vender a las Antillas a miles de indios esclavizados, y presidente de la primera Audiencia de México (1528-1530), denunciada por el obispo Zumárraga. Entre 1529 y 1531 conquistó el occidente, al que llamó Nueva Galicia, con matanzas, quemas de pueblos y esclavización de cautivos, y antes hizo ejecutar al cazonci de Michoacán. Fue apresado en 1537 y murió en España sin recuperar sus cargos.",
+      "obras": [
+        "proceso-contra-el-cazonci"
+      ],
+      "wikipedia": {
+        "es": "Nuño de Guzmán",
+        "en": "Nuño de Guzmán"
+      },
+      "wikidata": "Q1333486"
+    },
+    {
+      "id": "francisco-de-montejo",
+      "nombre": "Francisco de Montejo",
+      "nacimiento": {
+        "anio": 1479,
+        "aprox": true,
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965
+      },
+      "muerte": {
+        "anio": 1553,
+        "aprox": false,
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965
+      },
+      "roles": [
+        "conquistador",
+        "adelantado"
+      ],
+      "resumen": "Conquistador salmantino que estuvo en las expediciones de Grijalva y de Cortés y en 1526 obtuvo del rey la capitulación para conquistar Yucatán. Sus campañas de 1527-1535 fracasaron ante los señoríos mayas; la conquista la terminaron su hijo y su sobrino del mismo nombre entre 1540 y 1546. Perdió sus gobernaciones en un juicio de residencia y murió en España.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de Montejo \"El Adelantado\"",
+        "en": "Francisco de Montejo"
+      },
+      "wikidata": "Q387619"
+    },
+    {
+      "id": "francisco-de-montejo-el-mozo",
+      "nombre": "Francisco de Montejo el Mozo",
+      "nacimiento": {
+        "anio": 1508,
+        "aprox": true,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1565,
+        "aprox": false,
+        "lugar": "Guatemala",
+        "lon": -90.25,
+        "lat": 15.5
+      },
+      "activo": {
+        "lugar": "Mérida",
+        "lon": -89.62,
+        "lat": 20.97,
+        "desde": 1540,
+        "hasta": 1546,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Hijo del adelantado del mismo nombre. Dirigió la campaña de 1540-1542 en Yucatán, aliado con el señorío de Maní, de los Xiu, fundó Campeche y el 6 de enero de 1542 fundó Mérida sobre la ciudad maya de T'ho.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de Montejo el mozo",
+        "en": "Francisco de Montejo the Younger"
+      },
+      "wikidata": "Q2682937"
+    },
+    {
+      "id": "martin-de-ursua",
+      "nombre": "Martín de Ursúa y Arizmendi",
+      "nacimiento": {
+        "anio": 1653,
+        "aprox": false,
+        "lugar": "Arizcun",
+        "lon": -1.485,
+        "lat": 43.174
+      },
+      "muerte": {
+        "anio": 1715,
+        "aprox": false,
+        "lugar": "Manila",
+        "lon": 120.977,
+        "lat": 14.596
+      },
+      "activo": {
+        "lugar": "Mérida",
+        "lon": -89.62,
+        "lat": 20.97,
+        "desde": 1694,
+        "hasta": 1708,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "militar"
+      ],
+      "resumen": "Militar navarro, gobernador de Yucatán, que abrió un camino desde Mérida hacia el Petén y el 13 de marzo de 1697 tomó por asalto Nojpetén, la capital de los itzaes. Después fue gobernador de Filipinas, donde murió.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Martín de Urzúa y Arizmendi",
+        "en": "Martín de Ursúa"
+      },
+      "wikidata": "Q2362335"
+    },
+    {
+      "id": "francisco-lopez-de-gomara",
+      "nombre": "Francisco López de Gómara",
+      "nacimiento": {
+        "anio": 1511,
+        "aprox": false,
+        "lugar": "Gómara",
+        "lon": -2.226,
+        "lat": 41.623
+      },
+      "muerte": {
+        "anio": 1564,
+        "aprox": true,
+        "lugar": "Gómara",
+        "lon": -2.226,
+        "lat": 41.623
+      },
+      "roles": [
+        "clérigo",
+        "cronista"
+      ],
+      "resumen": "Clérigo humanista castellano, capellán de Cortés en España, que nunca estuvo en América. Su Historia general de las Indias (1552), cuya segunda parte es la Conquista de México, se basó en los papeles y relatos de Cortés y lo presenta como protagonista casi único; en 1553 se ordenó recogerla, y Bernal Díaz escribió en parte para refutarla.",
+      "obras": [
+        "historia-de-la-conquista-gomara"
+      ],
+      "wikipedia": {
+        "es": "Francisco López de Gómara",
+        "en": "Francisco López de Gómara"
+      },
+      "wikidata": "Q721423"
+    },
+    {
+      "id": "diego-duran",
+      "nombre": "Diego Durán",
+      "nacimiento": {
+        "anio": 1537,
+        "aprox": true,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1588,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1556,
+        "hasta": 1588,
+        "aprox": false
+      },
+      "roles": [
+        "fraile",
+        "cronista"
+      ],
+      "resumen": "Dominico nacido en Sevilla y criado en Texcoco y en la ciudad de México, que hablaba náhuatl. Escribió la Historia de las Indias de Nueva España (terminada hacia 1581), basada en una crónica nahua perdida, en pinturas y en informantes, con el fin declarado de que los religiosos reconocieran los ritos antiguos para erradicarlos. Es la fuente de la cifra de 80 400 sacrificados en 1487.",
+      "obras": [
+        "historia-de-las-indias-duran"
+      ],
+      "wikipedia": {
+        "es": "Diego Durán",
+        "en": "Diego Durán"
+      },
+      "wikidata": "Q1220424"
+    },
+    {
+      "id": "juan-de-tovar",
+      "nombre": "Juan de Tovar",
+      "nacimiento": {
+        "anio": 1543,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1623,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1572,
+        "hasta": 1623,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "cronista"
+      ],
+      "resumen": "Jesuita novohispano que hablaba náhuatl y que hacia 1585 escribió una relación ilustrada del origen y los ritos de los mexicas, emparentada con la obra de Durán. José de Acosta la usó en su Historia natural y moral de las Indias (1590).",
+      "obras": [
+        "codice-tovar"
+      ],
+      "wikipedia": {
+        "es": "Juan de Tovar"
+      },
+      "wikidata": "Q3187842"
+    },
+    {
+      "id": "hernando-alvarado-tezozomoc",
+      "nombre": "Hernando de Alvarado Tezozómoc",
+      "nacimiento": {
+        "anio": 1525,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1610,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1560,
+        "hasta": 1610,
+        "aprox": true
+      },
+      "roles": [
+        "cronista",
+        "intérprete"
+      ],
+      "resumen": "Noble nahua, nieto de Moctezuma II por su madre, intérprete de la Real Audiencia. Escribió en español la Crónica mexicana (hacia 1598), sobre la historia de Tenochtitlan hasta la llegada de Cortés, y se le atribuye la Crónica mexicáyotl (1609), en náhuatl, que conocemos por la copia de Chimalpahin.",
+      "obras": [
+        "cronica-mexicana-tezozomoc",
+        "cronica-mexicayotl"
+      ],
+      "wikipedia": {
+        "es": "Hernando de Alvarado Tezozómoc",
+        "en": "Fernando Alvarado Tezozómoc"
+      },
+      "wikidata": "Q1383533"
+    },
+    {
+      "id": "diego-munoz-camargo",
+      "nombre": "Diego Muñoz Camargo",
+      "nacimiento": {
+        "anio": 1529,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1599,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tlaxcala",
+        "lon": -98.236,
+        "lat": 19.315,
+        "desde": 1550,
+        "hasta": 1599,
+        "aprox": false
+      },
+      "roles": [
+        "cronista",
+        "intérprete"
+      ],
+      "resumen": "Mestizo, hijo de un conquistador y de una mujer nahua, intérprete y vecino influyente de Tlaxcala. Escribió la Descripción de la ciudad y provincia de Tlaxcala (hacia 1580-1585), para el cuestionario de las relaciones geográficas, y una Historia de Tlaxcala; las dos defienden los servicios de los tlaxcaltecas a la Corona.",
+      "obras": [
+        "historia-de-tlaxcala-munoz-camargo"
+      ],
+      "wikipedia": {
+        "es": "Diego Muñoz Camargo",
+        "en": "Diego Muñoz Camargo"
+      },
+      "wikidata": "Q3027426"
+    },
+    {
+      "id": "juan-bautista-pomar",
+      "nombre": "Juan Bautista Pomar",
+      "nacimiento": {
+        "anio": 1535,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1601,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1580,
+        "hasta": 1601,
+        "aprox": false
+      },
+      "roles": [
+        "cronista"
+      ],
+      "resumen": "Mestizo de Texcoco, bisnieto de Nezahualcóyotl por línea materna, que en 1582 escribió la Relación de Texcoco para el cuestionario de las relaciones geográficas, con datos sobre el gobierno, la religión y los sacrificios de los antiguos texcocanos.",
+      "obras": [
+        "relacion-de-texcoco-pomar"
+      ],
+      "wikipedia": {
+        "es": "Juan Bautista Pomar",
+        "en": "Juan Bautista Pomar"
+      },
+      "wikidata": "Q1634986"
+    },
+    {
+      "id": "fernando-de-alva-ixtlilxochitl",
+      "nombre": "Fernando de Alva Ixtlilxóchitl",
+      "nacimiento": {
+        "anio": 1578,
+        "aprox": true,
+        "lugar": "Municipio de Texcoco",
+        "lon": -98.883,
+        "lat": 19.5
+      },
+      "muerte": {
+        "anio": 1650,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Texcoco",
+        "lon": -98.897,
+        "lat": 19.529,
+        "desde": 1600,
+        "hasta": 1640,
+        "aprox": false
+      },
+      "roles": [
+        "cronista",
+        "gobernador"
+      ],
+      "resumen": "Historiador mestizo, descendiente de los tlatoque de Texcoco, que fue gobernador indígena de Texcoco y de Tlalmanalco e intérprete del Juzgado General de Indios. Escribió en español, con códices y testimonios texcocanos, varias relaciones y la Historia de la nación chichimeca, que exaltan a Nezahualcóyotl y a su antepasado Ixtlilxóchitl II como aliado de Cortés.",
+      "obras": [
+        "historia-chichimeca"
+      ],
+      "wikipedia": {
+        "es": "Fernando de Alva Ixtlilxóchitl",
+        "en": "Fernando de Alva Cortés Ixtlilxóchitl"
+      },
+      "wikidata": "Q1396999"
+    },
+    {
+      "id": "chimalpahin",
+      "nombre": "Chimalpahin (Domingo Francisco de San Antón Muñón Chimalpahin Cuauhtlehuanitzin)",
+      "nacimiento": {
+        "anio": 1579,
+        "aprox": false,
+        "lugar": "Municipio de Amecameca",
+        "lon": -98.767,
+        "lat": 19.117
+      },
+      "muerte": {
+        "anio": 1660,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1593,
+        "hasta": 1631,
+        "aprox": false
+      },
+      "roles": [
+        "cronista"
+      ],
+      "resumen": "Historiador nahua nacido en Amecameca, que vivió como donado de la iglesia de San Antonio Abad, en la ciudad de México. Escribió en náhuatl, con códices y relatos de su región, varias relaciones centradas en los señoríos de Chalco y Amecameca y un diario de su tiempo, y copió y anotó la Crónica mexicáyotl.",
+      "obras": [
+        "relaciones-de-chimalpahin"
+      ],
+      "wikipedia": {
+        "es": "Domingo Francisco Chimalpahin Quauhtlehuanitzin",
+        "en": "Chimalpahin"
+      },
+      "wikidata": "Q775502"
+    },
+    {
+      "id": "antonio-de-solis",
+      "nombre": "Antonio de Solís y Ribadeneyra",
+      "nacimiento": {
+        "anio": 1610,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "muerte": {
+        "anio": 1686,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417,
+        "desde": 1661,
+        "hasta": 1686,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "dramaturgo"
+      ],
+      "resumen": "Dramaturgo y cronista mayor de Indias, que publicó en 1684 la Historia de la conquista de México, una narración elegante y apologética de Cortés que fue el relato más leído de la conquista en Europa hasta Prescott.",
+      "obras": [
+        "historia-de-la-conquista-de-mexico-solis"
+      ],
+      "wikipedia": {
+        "es": "Antonio de Solís y Rivadeneyra",
+        "en": "Antonio de Solís y Ribadeneyra"
+      },
+      "wikidata": "Q952846"
+    },
+    {
+      "id": "diego-lopez-de-cogolludo",
+      "nombre": "Diego López de Cogolludo",
+      "nacimiento": {
+        "anio": 1613,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "muerte": {
+        "anio": 1665,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Mérida",
+        "lon": -89.62,
+        "lat": 20.97,
+        "desde": 1634,
+        "hasta": 1665,
+        "aprox": false
+      },
+      "roles": [
+        "fraile",
+        "cronista"
+      ],
+      "resumen": "Franciscano de Alcalá de Henares que vivió en Yucatán desde 1634 y escribió la Historia de Yucathan (1688), principal crónica de la conquista y la evangelización de la península, con documentos hoy perdidos.",
+      "obras": [
+        "historia-de-yucatan-cogolludo"
+      ],
+      "wikipedia": {
+        "es": "Diego López de Cogolludo",
+        "en": "Diego López de Cogolludo"
+      },
+      "wikidata": "Q2116002"
+    },
+    {
+      "id": "ross-hassig",
+      "nombre": "Ross Hassig",
+      "nacimiento": {
+        "anio": 1945,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 2025,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "antropólogo"
+      ],
+      "resumen": "Antropólogo e historiador estadounidense (1945-2025), especialista en la guerra mexica. En Aztec Warfare (1988) y Mexico and the Spanish Conquest (1994) estudió la logística, la organización militar y el tributo de la Triple Alianza y sostuvo que la conquista fue sobre todo una guerra de los aliados indígenas contra Tenochtitlan.",
+      "obras": [
+        "aztec-warfare",
+        "mexico-and-the-spanish-conquest"
+      ],
+      "wikipedia": {
+        "es": "Ross Hassig",
+        "en": "Ross Hassig"
+      },
+      "wikidata": "Q3442758"
+    },
+    {
+      "id": "hugh-thomas",
+      "nombre": "Hugh Thomas",
+      "nacimiento": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Windsor",
+        "lon": -0.6,
+        "lat": 51.483
+      },
+      "muerte": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador británico, autor de La conquista de México (1993), una narración extensa basada en documentos de archivo poco usados hasta entonces, como los juicios de residencia y las probanzas de los conquistadores.",
+      "obras": [
+        "la-conquista-de-mexico-thomas"
+      ],
+      "wikipedia": {
+        "es": "Hugh Thomas",
+        "en": "Hugh Thomas, Baron Thomas of Swynnerton"
+      },
+      "wikidata": "Q335150"
+    },
+    {
+      "id": "camilla-townsend",
+      "nombre": "Camilla Townsend",
+      "nacimiento": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "roles": [
+        "historiadora"
+      ],
+      "resumen": "Historiadora estadounidense de los pueblos nahuas que trabaja con los anales en náhuatl. Escribió sobre la figura de Malintzin (2006) y una historia de los mexicas basada en sus propias fuentes, Fifth Sun (2019), y criticó la idea de que los mexicas tomaran a los españoles por dioses.",
+      "obras": [
+        "malintzins-choices",
+        "fifth-sun",
+        "burying-the-white-gods"
+      ],
+      "wikipedia": {
+        "en": "Camilla Townsend"
+      },
+      "wikidata": "Q64391106"
+    },
+    {
+      "id": "leonardo-lopez-lujan",
+      "nombre": "Leonardo López Luján",
+      "nacimiento": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo mexicano, director desde 1991 del Proyecto Templo Mayor del INAH. Estudió las ofrendas del recinto sagrado de Tenochtitlan, entre ellas restos de sacrificios humanos, y con Guilhem Olivier coordinó en 2010 un libro de referencia sobre el sacrificio en Mesoamérica.",
+      "obras": [
+        "sacrificio-humano-lopez-lujan-olivier"
+      ],
+      "wikipedia": {
+        "es": "Leonardo López Luján",
+        "en": "Leonardo López Luján"
+      },
+      "wikidata": "Q3229721"
+    },
+    {
+      "id": "eduardo-matos-moctezuma",
+      "nombre": "Eduardo Matos Moctezuma",
+      "nacimiento": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo mexicano que dirigió desde 1978 la excavación del Templo Mayor de Tenochtitlan, iniciada tras el hallazgo de la piedra de Coyolxauhqui, y fue el primer director de su museo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eduardo Matos Moctezuma",
+        "en": "Eduardo Matos Moctezuma"
+      },
+      "wikidata": "Q956157"
+    },
+    {
+      "id": "alfredo-lopez-austin",
+      "nombre": "Alfredo López Austin",
+      "nacimiento": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Ciudad Juárez",
+        "lon": -106.42,
+        "lat": 31.669
+      },
+      "muerte": {
+        "anio": 2021,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador mexicano de la religión y la cosmovisión mesoamericanas, autor de Cuerpo humano e ideología (1980), que estudió desde las fuentes en náhuatl las ideas sobre el cuerpo, el sacrificio y los dioses.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfredo López Austin",
+        "en": "Alfredo López Austin"
+      },
+      "wikidata": "Q2835616"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "pueblo-mexica",
+      "titulo": "Los mexicas",
+      "anio": 1325,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "cultural",
+      "resumen": "Pueblo de lengua náhuatl que, según su tradición, llegó al valle de México desde un lugar del norte llamado Aztlán y fundó Tenochtitlan y Tlatelolco en islotes del lago de Texcoco. En menos de un siglo, desde 1428, pasó de tributario de los tepanecas a cabeza de la Triple Alianza, que cobraba tributo a buena parte de Mesoamérica. Construyeron una de las mayores ciudades del mundo de su tiempo, con chinampas, acueductos, escuelas y mercados, y practicaron la guerra de conquista, el sacrificio humano masivo y la esclavitud; después de 1521 su nobleza conservó por un tiempo cargos y tierras bajo el dominio español, y su lengua siguió escribiéndose durante siglos con el alfabeto latino que enseñaron los frailes.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-mendoza",
+        "codice-florentino",
+        "historia-de-las-indias-duran",
+        "cronica-mexicana-tezozomoc",
+        "fifth-sun"
+      ],
+      "wikipedia": {
+        "es": "Civilización mexica",
+        "en": "Aztecs"
+      }
+    },
+    {
+      "id": "pueblo-tlaxcalteca",
+      "titulo": "Los tlaxcaltecas",
+      "anio": 1300,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Tlaxcala",
+      "lon": -98.236,
+      "lat": 19.315,
+      "tipo": "cultural",
+      "resumen": "Pueblo de lengua náhuatl, con minorías otomíes, organizado en una confederación de cuatro señoríos (Tizatlán, Ocotelulco, Quiahuiztlan y Tepeticpac) que gobernaban en consejo. Rodeados por los territorios de la Triple Alianza, mantuvieron su independencia en guerra permanente con los mexicas, sin acceso al comercio de sal y algodón según contaron a los españoles. Como los mexicas, sacrificaban a los cautivos tomados en esas guerras. En 1519 se aliaron con Cortés y fueron decisivos en la conquista, lo que les valió privilegios que defendieron durante todo el período colonial.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-tlaxcala-munoz-camargo",
+        "lienzo-de-tlaxcala",
+        "tlaxcala-in-the-sixteenth-century"
+      ],
+      "wikipedia": {
+        "es": "República de Tlaxcallan",
+        "en": "Tlaxcala (Nahua state)"
+      }
+    },
+    {
+      "id": "itzaes-del-peten",
+      "titulo": "Los itzaes del Petén",
+      "anio": 1450,
+      "anio_hasta": 1697,
+      "aprox": true,
+      "lugar": "Nojpetén (Tayasal)",
+      "lon": -89.892,
+      "lat": 16.93,
+      "tipo": "cultural",
+      "resumen": "Pueblo maya que, según su tradición, emigró de Yucatán al lago Petén Itzá y fundó allí el reino de Nojpetén, gobernado por un rey de linaje Kan Ek' junto con un consejo de señores y sacerdotes. Mantuvo su independencia casi dos siglos después de la caída de Tenochtitlan, recibió a refugiados mayas de las zonas conquistadas y rechazó varias misiones españolas; los franciscanos y los españoles lo acusaron de sacrificar a misioneros y cautivos. Su reino cayó en 1697.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-la-conquista-del-itza",
+        "conquest-of-the-last-maya-kingdom"
+      ],
+      "wikipedia": {
+        "es": "Itzá",
+        "en": "Itza people"
+      }
+    },
+    {
+      "id": "migracion-mexica",
+      "titulo": "La migración mexica desde Aztlán",
+      "anio": 1100,
+      "anio_hasta": 1325,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "politico",
+      "resumen": "Según los códices y crónicas mexicas, los mexicas salieron de Aztlán guiados por su dios Huitzilopochtli y, tras unos dos siglos de peregrinación, llegaron al valle de México, donde fueron mercenarios y tributarios de pueblos más antiguos como Culhuacán y Azcapotzalco. Las fuentes no coinciden en la fecha de partida, Aztlán nunca se identificó y muchos historiadores lo consideran un lugar mítico; el relato fue reelaborado por la propia nobleza mexica después de su ascenso.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-boturini",
+        "codice-aubin",
+        "cronica-mexicayotl",
+        "historia-de-las-indias-duran"
+      ],
+      "wikipedia": {
+        "es": "Aztlán",
+        "en": "Aztlán"
+      }
+    },
+    {
+      "id": "triple-alianza-mexica",
+      "titulo": "La Triple Alianza: Tenochtitlan, Texcoco y Tlacopan",
+      "anio": 1428,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "politico",
+      "resumen": "En 1428 Tenochtitlan, gobernada por Itzcóatl, el Texcoco de Nezahualcóyotl y Tlacopan vencieron a los tepanecas de Azcapotzalco, de quienes habían sido tributarios, y formaron una alianza que en noventa años sometió a tributo a buena parte del centro y el sur de México. No fue un imperio con gobernadores en todas partes: en general dejaba a los señores locales a cambio de tributo y obediencia, con guarniciones y recaudadores en algunos puntos. Tenochtitlan fue ganando el predominio sobre sus dos socias.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-mendoza",
+        "historia-chichimeca",
+        "cronica-mexicana-tezozomoc",
+        "aztec-warfare"
+      ],
+      "wikipedia": {
+        "es": "Imperio azteca",
+        "en": "Aztec Empire"
+      }
+    },
+    {
+      "id": "quema-de-pinturas-de-itzcoatl",
+      "titulo": "La quema de las pinturas históricas en tiempos de Itzcóatl",
+      "anio": 1430,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "cultural",
+      "resumen": "Los informantes nahuas de Sahagún contaron que, cuando gobernaba Itzcóatl, los señores mexicas mandaron quemar las pinturas antiguas, porque no convenía que la gente común las conociera y porque contenían mentiras. Muchos historiadores lo interpretan como una reescritura oficial de la historia mexica después de la victoria sobre Azcapotzalco; es la única noticia del hecho y se desconoce su alcance.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino"
+      ]
+    },
+    {
+      "id": "conquista-de-chalco",
+      "titulo": "La guerra de Tenochtitlan contra Chalco",
+      "anio": 1446,
+      "anio_hasta": 1465,
+      "aprox": true,
+      "lugar": "Chalco",
+      "lon": -98.9,
+      "lat": 19.267,
+      "tipo": "batalla",
+      "resumen": "Durante unas dos décadas la Triple Alianza combatió a la confederación de Chalco, al sureste del valle de México, hasta someterla hacia 1465, en tiempos de Moctezuma Ilhuicamina. Chimalpahin, nacido en Amecameca, la cuenta desde el lado chalca, con sus derrotas, el exilio de sus señores y el tributo posterior. En 1521 los chalcas se unieron a los españoles contra Tenochtitlan.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "relaciones-de-chimalpahin",
+        "cronica-mexicana-tezozomoc"
+      ],
+      "wikipedia": {
+        "es": "Chalco-Atenco",
+        "en": "Chalco (altépetl)"
+      }
+    },
+    {
+      "id": "albarradon-de-nezahualcoyotl",
+      "titulo": "El albarradón de Nezahualcóyotl",
+      "anio": 1449,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "construccion",
+      "resumen": "Después de una gran inundación, Moctezuma Ilhuicamina pidió ayuda a Nezahualcóyotl, que dirigió la construcción de un dique de piedra, tierra y estacas de unos 16 kilómetros a través del lago, de Atzacoalco a Iztapalapa, levantado con el trabajo de los pueblos sujetos. Separaba las aguas dulces que rodeaban Tenochtitlan de las salobres del lago de Texcoco y protegía la ciudad de las crecidas.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-chichimeca",
+        "historia-de-las-indias-duran"
+      ]
+    },
+    {
+      "id": "gran-hambruna-de-1454",
+      "titulo": "La gran hambruna de 1450-1454",
+      "anio": 1450,
+      "anio_hasta": 1454,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "desastre",
+      "resumen": "Heladas, sequías y plagas arruinaron varias cosechas seguidas en el valle de México en tiempos de Moctezuma Ilhuicamina. Las crónicas cuentan que mucha gente murió o emigró y que muchos se vendieron como esclavos, o vendieron a sus hijos, a los totonacas de la costa a cambio de maíz, hasta la buena cosecha de 1455. Algunos historiadores la relacionan con el pacto de las guerras floridas, que Durán sitúa en esos años.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-las-indias-duran",
+        "relaciones-de-chimalpahin"
+      ]
+    },
+    {
+      "id": "chinampas-del-valle-de-mexico",
+      "titulo": "Las chinampas del valle de México",
+      "anio": 1325,
+      "anio_hasta": 1521,
+      "aprox": true,
+      "lugar": "Xochimilco",
+      "lon": -99.098,
+      "lat": 19.248,
+      "tipo": "economico",
+      "resumen": "Los mexicas y sus vecinos de Xochimilco y Chalco cultivaban en chinampas, parcelas ganadas al lago con capas de lodo y plantas acuáticas sujetas con estacas y árboles, regadas por los canales, que daban varias cosechas al año de maíz, frijol, chile, calabaza y flores. Junto con el tributo y el mercado de Tlatelolco abastecían a una ciudad que los arqueólogos estiman de unos 150 000 a más de 200 000 habitantes. Las chinampas de Xochimilco siguen en uso y son patrimonio de la humanidad desde 1987.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "cartas-de-relacion"
+      ],
+      "wikipedia": {
+        "es": "Chinampa",
+        "en": "Chinampa"
+      }
+    },
+    {
+      "id": "educacion-mexica",
+      "titulo": "La educación mexica: calmécac y telpochcalli",
+      "anio": 1400,
+      "anio_hasta": 1521,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "cultural",
+      "resumen": "Según el Códice Mendoza y los informantes de Sahagún, todos los varones mexicas pasaban por una escuela: los hijos de nobles, y algunos plebeyos, por el calmécac, junto a los templos, donde se formaban sacerdotes, funcionarios y jefes con la escritura pictográfica, el calendario y los cantos; los demás, por el telpochcalli de su barrio, centrado en la guerra y el trabajo colectivo. Las niñas se educaban sobre todo en la casa y algunas en los templos. El Códice Mendoza muestra también los castigos a los niños, como pincharlos con púas de maguey o exponerlos al humo de chile.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-mendoza",
+        "codice-florentino"
+      ],
+      "wikipedia": {
+        "es": "Calmécac",
+        "en": "Calmecac"
+      }
+    },
+    {
+      "id": "tributo-de-la-triple-alianza",
+      "titulo": "El tributo de la Triple Alianza",
+      "anio": 1428,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "economico",
+      "resumen": "El Códice Mendoza y la Matrícula de tributos registran lo que entregaban unos 400 pueblos agrupados en 38 provincias: decenas de miles de mantas de algodón, trajes de guerrero, cacao, maíz, frijol, plumas, oro, papel y otros productos, cada ochenta días, cada seis meses o cada año, además de trabajo y guerreros. Muchos pueblos sometidos lo vivían como una carga: Bernal Díaz cuenta que los totonacas de Cempoala se quejaron ante Cortés de que los recaudadores de Moctezuma se llevaban a sus hijos e hijas para sacrificarlos, y Chimalpahin recuerda el sometimiento de Chalco. Ross Hassig y otros historiadores lo describen como un dominio hegemónico, que explica por qué tantos pueblos se aliaron con los españoles.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-mendoza",
+        "matricula-de-tributos",
+        "relaciones-de-chimalpahin",
+        "historia-verdadera-bernal",
+        "aztec-warfare"
+      ]
+    },
+    {
+      "id": "guerras-floridas",
+      "titulo": "Las guerras floridas (xochiyáoyotl)",
+      "anio": 1450,
+      "anio_hasta": 1519,
+      "aprox": true,
+      "lugar": "Tlaxcala",
+      "lon": -98.236,
+      "lat": 19.315,
+      "tipo": "batalla",
+      "resumen": "Según Durán, Tezozómoc e Ixtlilxóchitl, la Triple Alianza mantenía con Tlaxcala, Huexotzinco y Cholula guerras pactadas y periódicas cuyo fin era capturar guerreros para el sacrificio y entrenar a los jóvenes, no conquistar; las fuentes sitúan su origen a mediados del siglo XV y lo atribuyen a Tlacaélel o a Nezahualcóyotl. Ross Hassig y otros historiadores sostienen que también servían para desgastar a enemigos que la Triple Alianza no podía vencer de una vez. Los tlaxcaltecas, rodeados y, según dijeron a los españoles, sin acceso a la sal y al algodón, las vivían como una guerra real, y esa enemistad explica en parte su alianza con Cortés.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-las-indias-duran",
+        "historia-chichimeca",
+        "cronica-mexicana-tezozomoc",
+        "aztec-warfare"
+      ],
+      "wikipedia": {
+        "es": "Xochiyáoyotl",
+        "en": "Flower war"
+      }
+    },
+    {
+      "id": "sacrificio-humano-mexica",
+      "titulo": "El sacrificio humano entre los mexicas",
+      "anio": 1325,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "tipo": "religioso",
+      "resumen": "Las fuentes nahuas y españolas describen sacrificios en casi todas las fiestas del calendario: sobre todo de cautivos de guerra, pero también de esclavos comprados, mujeres y niños; la forma más común era la extracción del corazón sobre una piedra, y había también decapitación, flechamiento y combate desigual en la piedra gladiatoria. La arqueología del Templo Mayor lo confirmó con ofrendas que contienen restos de sacrificados, como los de al menos 42 niños dedicados a Tláloc en la ofrenda 48, y con el Huey Tzompantli. Para los mexicas alimentaba a los dioses que sostenían el mundo; hoy se discuten las cifras, no la existencia del sacrificio, que algunos autores, como el etnólogo Peter Hassler en la década de 1990, llegaron a negar como invención española.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "historia-de-las-indias-duran",
+        "codice-magliabechiano",
+        "relacion-de-andres-de-tapia",
+        "historia-verdadera-bernal",
+        "sacrificio-humano-lopez-lujan-olivier",
+        "aztecs-clendinnen"
+      ],
+      "wikipedia": {
+        "en": "Human sacrifice in Aztec culture"
+      }
+    },
+    {
+      "id": "canibalismo-ritual-mexica",
+      "titulo": "El consumo ritual de carne humana",
+      "anio": 1400,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "religioso",
+      "resumen": "Los informantes de Sahagún, Durán, Bernal Díaz y otros cuentan que, después de ciertos sacrificios, el guerrero que había capturado al cautivo recibía su cuerpo y su familia comía una parte en una comida ritual, mientras que el captor no probaba la carne de su propio cautivo, al que llamaba hijo; Bernal Díaz afirmó además que en muchos pueblos había jaulas de madera donde se engordaba a cautivos para sacrificarlos y comerlos. Huesos humanos con marcas de corte y de descarne hallados en sitios del centro de México, entre ellos Tecoaque, son compatibles con esas prácticas, aunque no permiten medir su escala. En 1977 el antropólogo Michael Harner propuso que respondía a la falta de proteínas animales; Bernard Ortiz de Montellano y otros lo criticaron, con el argumento de que la dieta mexica era suficiente y de que el consumo era ritual y limitado.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "codice-magliabechiano",
+        "historia-verdadera-bernal",
+        "historia-de-la-conquista-gomara"
+      ],
+      "wikipedia": {
+        "es": "Antropofagia en Mesoamérica",
+        "en": "Cannibalism in the Americas"
+      }
+    },
+    {
+      "id": "esclavitud-entre-los-mexicas",
+      "titulo": "La esclavitud entre los mexicas (tlacotin)",
+      "anio": 1400,
+      "anio_hasta": 1542,
+      "aprox": false,
+      "lugar": "Azcapotzalco",
+      "lon": -99.188,
+      "lat": 19.487,
+      "tipo": "economico",
+      "resumen": "Los tlacotin habían perdido su libertad por deudas, por venderse a sí mismos o ser vendidos por sus padres en tiempos de hambre, por delitos o como tributo; podían tener bienes y casarse, sus hijos nacían libres y algunos recuperaban la libertad. Había mercados de esclavos, como el de Azcapotzalco, y los comerciantes compraban esclavos para ofrecerlos en sacrificio en ciertas fiestas. Tras la conquista los españoles recibieron esclavos de los señores indígenas y esclavizaron a cautivos de guerra; la Corona lo prohibió en 1530, lo volvió a permitir en 1534 y las Leyes Nuevas de 1542 prohibieron hacer nuevos esclavos indios.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "historia-de-las-indias-duran",
+        "leyes-nuevas"
+      ],
+      "wikipedia": {
+        "es": "Esclavitud mexica",
+        "en": "Slavery in the Aztec Empire"
+      }
+    },
+    {
+      "id": "conquista-de-tlatelolco",
+      "titulo": "La conquista de Tlatelolco por Tenochtitlan",
+      "anio": 1473,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tlatelolco",
+      "lon": -99.138,
+      "lat": 19.451,
+      "tipo": "batalla",
+      "resumen": "Tlatelolco, fundada por mexicas en un islote vecino y famosa por su gran mercado, fue sometida por Axayácatl en 1473 tras un conflicto entre las dos ciudades; su gobernante Moquíhuix murió en la lucha y Tenochtitlan le impuso gobernadores militares y tributo. Los textos tlatelolcas guardaron el resentimiento contra los tenochcas, que se nota en su propio relato de la conquista española.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cronica-mexicana-tezozomoc",
+        "historia-de-las-indias-duran",
+        "anales-de-tlatelolco"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Tlatelolco",
+        "en": "Battle of Tlatelolco"
+      }
+    },
+    {
+      "id": "dedicacion-del-templo-mayor-1487",
+      "titulo": "La dedicación del Templo Mayor de 1487 y la cifra de sus víctimas",
+      "anio": 1487,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "tipo": "religioso",
+      "resumen": "Ahuízotl dedicó una ampliación del Templo Mayor, comenzada por Tízoc, con un sacrificio masivo de cautivos de sus campañas, al que invitó a señores aliados y enemigos. Durán, que seguía una fuente nahua perdida, da 80 400 víctimas en cuatro días; la cifra supondría unos catorce sacrificios por minuto, de día y de noche. Ross Hassig la consideró exagerada y propuso un rango de 10 000 a 80 400, y otros autores creen que las cifras de las crónicas se inflaron en la tradición oral; hasta ahora no se hallaron restos que permitan contar las víctimas de esa ceremonia.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-las-indias-duran",
+        "cronica-mexicana-tezozomoc",
+        "codice-telleriano-remensis",
+        "aztec-warfare"
+      ]
+    },
+    {
+      "id": "inundacion-de-tenochtitlan-1500",
+      "titulo": "La inundación de Tenochtitlan causada por el acueducto de Ahuízotl",
+      "anio": 1500,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "desastre",
+      "resumen": "Ahuízotl mandó llevar a Tenochtitlan el agua del manantial de Acuecuexco, en Coyoacán, por un acueducto; según Durán, el señor de Coyoacán le advirtió del peligro y fue ejecutado por ello. El caudal inundó la ciudad, que hubo que reconstruir en parte, y las crónicas atribuyen a la inundación una herida que habría contribuido a la muerte del tlatoani en 1502.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-las-indias-duran",
+        "cronica-mexicana-tezozomoc"
+      ]
+    },
+    {
+      "id": "naufragio-de-1511",
+      "titulo": "El naufragio de 1511 y los cautivos españoles de Yucatán",
+      "anio": 1511,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Chetumal",
+      "lon": -88.298,
+      "lat": 18.494,
+      "tipo": "desastre",
+      "resumen": "Una carabela que iba del Darién a Santo Domingo naufragó en 1511 y una veintena de sobrevivientes llegó en un bote a la costa de Yucatán. Según lo que Jerónimo de Aguilar contó después, varios fueron sacrificados y otros murieron como esclavos; él sobrevivió al servicio de un señor maya y Gonzalo Guerrero se integró a la sociedad de Chetumal. En 1519 Cortés rescató a Aguilar en Cozumel.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica",
+        "centroamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "historia-de-la-conquista-gomara"
+      ],
+      "wikipedia": {
+        "es": "Gonzalo Guerrero",
+        "en": "Gonzalo Guerrero"
+      }
+    },
+    {
+      "id": "expedicion-de-hernandez-de-cordoba",
+      "titulo": "La expedición de Francisco Hernández de Córdoba a Yucatán",
+      "anio": 1517,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Champotón",
+      "lon": -90.72,
+      "lat": 19.35,
+      "tipo": "exploracion",
+      "resumen": "En febrero de 1517 salieron de Cuba tres naves con unos 110 hombres, entre ellos Bernal Díaz. En el cabo Catoche vieron por primera vez ciudades mayas de piedra y fueron atacados; en Champotón los mayas los derrotaron y mataron a buena parte de la expedición, y el capitán murió de sus heridas al volver. Llevaron a Cuba noticias de una tierra rica y poblada y a dos mayas capturados que luego sirvieron de intérpretes.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica",
+        "caribe"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "historia-de-yucatan-cogolludo"
+      ],
+      "wikipedia": {
+        "es": "Francisco Hernández de Córdoba (explorador de Yucatán)",
+        "en": "Francisco Hernández de Córdoba (Yucatán conquistador)"
+      }
+    },
+    {
+      "id": "expedicion-de-grijalva",
+      "titulo": "La expedición de Juan de Grijalva",
+      "anio": 1518,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cozumel",
+      "lon": -86.917,
+      "lat": 20.417,
+      "tipo": "exploracion",
+      "resumen": "Con cuatro naves y unos 240 hombres, Grijalva recorrió en 1518 Cozumel, la costa de Campeche, el río de Tabasco que hoy lleva su nombre y la costa de Veracruz, donde enviados de Moctezuma lo recibieron e intercambiaron oro por cuentas de vidrio. El oro que llevó a Cuba decidió a Diego Velázquez a organizar una tercera expedición, que confió a Hernán Cortés.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Juan de Grijalva",
+        "en": "Juan de Grijalva"
+      }
+    },
+    {
+      "id": "batalla-de-centla",
+      "titulo": "La batalla de Centla y la entrega de Malintzin",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Potonchán (Tabasco)",
+      "lon": -92.64,
+      "lat": 18.53,
+      "tipo": "batalla",
+      "resumen": "En marzo de 1519 los hombres de Cortés vencieron a los mayas chontales de Potonchán, en Tabasco, gracias sobre todo a los caballos y la artillería. Los señores derrotados entregaron oro, mantas y veinte mujeres, entre ellas Malintzin, que sería la intérprete de la conquista; Cortés fundó allí la villa de Santa María de la Victoria.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "carta-del-cabildo-de-veracruz"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Centla"
+      }
+    },
+    {
+      "id": "fundacion-de-veracruz",
+      "titulo": "La fundación de la Villa Rica de la Vera Cruz y el hundimiento de las naves",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Veracruz",
+      "lon": -96.153,
+      "lat": 19.19,
+      "tipo": "fundacion",
+      "resumen": "En 1519 los hombres de Cortés fundaron la Villa Rica de la Vera Cruz, cuyo cabildo lo nombró capitán general y justicia mayor para desligarlo de la autoridad del gobernador de Cuba, Diego Velázquez. Para que los partidarios de Velázquez no pudieran volver a Cuba, Cortés hizo varar y desarmar las naves; la versión de que las quemó es posterior. La villa se trasladó dos veces antes de quedar a fines del siglo XVI en el sitio del puerto actual.",
+      "regiones": [
+        "mesoamerica",
+        "caribe"
+      ],
+      "fuentes": [
+        "carta-del-cabildo-de-veracruz",
+        "historia-verdadera-bernal",
+        "cartas-de-relacion"
+      ],
+      "wikipedia": {
+        "es": "Veracruz",
+        "en": "Veracruz (city)"
+      }
+    },
+    {
+      "id": "alianza-de-cempoala",
+      "titulo": "La alianza de los totonacas de Cempoala con Cortés",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cempoala",
+      "lon": -96.404,
+      "lat": 19.447,
+      "tipo": "politico",
+      "resumen": "El señor de Cempoala, capital totonaca sometida a tributo por los mexicas, se quejó ante Cortés de los recaudadores de Moctezuma, que según Bernal Díaz se llevaban a sus hijos e hijas para sacrificarlos. Con el respaldo de Cortés los totonacas apresaron a los recaudadores y se rebelaron, y aportaron cargadores y guerreros a la marcha hacia Tenochtitlan. Fue la primera de las alianzas indígenas que hicieron posible la conquista.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "cartas-de-relacion"
+      ],
+      "wikipedia": {
+        "es": "Cempoala",
+        "en": "Cempoala"
+      }
+    },
+    {
+      "id": "alianza-tlaxcalteca",
+      "titulo": "La guerra y la alianza entre Tlaxcala y Cortés",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tlaxcala",
+      "lon": -98.236,
+      "lat": 19.315,
+      "tipo": "politico",
+      "resumen": "En septiembre de 1519 los tlaxcaltecas, dirigidos por Xicohténcatl el Joven, combatieron durante varios días a los españoles y a sus aliados totonacas sin poder vencerlos. Los señores de las cuatro cabeceras decidieron entonces aliarse con Cortés contra los mexicas, sus enemigos de décadas; después de la Noche Triste recibieron a los españoles derrotados y aportaron decenas de miles de guerreros al sitio de Tenochtitlan. A cambio, Tlaxcala obtuvo de la Corona privilegios excepcionales: no fue dada en encomienda, recibió en 1535 escudo de armas y título de ciudad, y sus nobles conservaron el gobierno local.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "cartas-de-relacion",
+        "lienzo-de-tlaxcala",
+        "historia-de-tlaxcala-munoz-camargo",
+        "tlaxcala-in-the-sixteenth-century"
+      ],
+      "wikipedia": {
+        "es": "República de Tlaxcallan",
+        "en": "Tlaxcala (Nahua state)"
+      }
+    },
+    {
+      "id": "matanza-de-cholula",
+      "titulo": "La matanza de Cholula",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cholula",
+      "lon": -98.301,
+      "lat": 19.057,
+      "tipo": "batalla",
+      "resumen": "En octubre de 1519, en Cholula, gran centro religioso aliado de los mexicas, los españoles y sus aliados tlaxcaltecas mataron a miles de personas, sobre todo nobles y guerreros reunidos en el patio del templo, y saquearon e incendiaron la ciudad. Cortés y Bernal Díaz dicen que se adelantaron a una emboscada preparada con tropas de Moctezuma, de la que les avisó Malintzin; los informantes de Sahagún y Las Casas, que no estuvo allí, lo presentan como un ataque sin provocación, y historiadores como Ross Hassig creen que los tlaxcaltecas, enemigos de Cholula, lo alentaron. Cortés escribió que en dos horas murieron más de tres mil; otras fuentes dan cifras mayores. Fue uno de los cargos de su juicio de residencia.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "codice-florentino",
+        "juicio-de-residencia-de-cortes",
+        "brevisima-relacion"
+      ],
+      "wikipedia": {
+        "es": "Matanza de Cholula",
+        "en": "Cholula massacre"
+      }
+    },
+    {
+      "id": "prision-de-moctezuma",
+      "titulo": "La prisión de Moctezuma",
+      "anio": 1519,
+      "anio_hasta": 1520,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "politico",
+      "resumen": "Pocos días después de entrar en Tenochtitlan, en noviembre de 1519, Cortés retuvo a Moctezuma en el palacio de Axayácatl, donde se alojaban los españoles, con el pretexto de un ataque a los españoles de la costa atribuido a un señor mexica, Cuauhpopoca, al que hizo quemar vivo. Durante meses Moctezuma siguió gobernando bajo custodia. Según Cortés, se declaró vasallo de Carlos V; historiadores como Matthew Restall lo consideran una construcción de Cortés para dar forma legal a la conquista.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "codice-florentino",
+        "when-montezuma-met-cortes"
+      ]
+    },
+    {
+      "id": "derrota-de-narvaez",
+      "titulo": "La derrota de Narváez en Cempoala",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cempoala",
+      "lon": -96.404,
+      "lat": 19.447,
+      "tipo": "batalla",
+      "resumen": "Diego Velázquez envió a Pánfilo de Narváez con unos 800 a 900 hombres para apresar a Cortés. Cortés dejó en Tenochtitlan a Pedro de Alvarado con un centenar de españoles, marchó a la costa y a fines de mayo de 1520 sorprendió de noche a Narváez en Cempoala, lo hizo prisionero y sumó a sus hombres, caballos y armas. Con la armada de Narváez había llegado la viruela.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Cempoala",
+        "en": "Battle of Cempoala"
+      }
+    },
+    {
+      "id": "matanza-del-templo-mayor",
+      "titulo": "La matanza del Templo Mayor en la fiesta de Tóxcatl",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "tipo": "batalla",
+      "resumen": "En mayo de 1520, mientras Cortés estaba en la costa, los nobles y guerreros mexicas celebraban la fiesta de Tóxcatl en el patio del templo mayor con permiso de Pedro de Alvarado. Los españoles cerraron las salidas y los atacaron mientras bailaban, y mataron a cientos o a miles, según las fuentes. Los informantes de Sahagún lo cuentan como una matanza a traición; Alvarado alegó que preparaban un levantamiento para el final de la fiesta, y algunos historiadores creen que actuó por miedo a un ataque. La matanza provocó la rebelión de la ciudad, que sitió a los españoles en su palacio.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "residencia-de-pedro-de-alvarado",
+        "codice-aubin",
+        "historia-verdadera-bernal",
+        "historia-de-las-indias-duran"
+      ],
+      "wikipedia": {
+        "es": "Matanza de Tóxcatl",
+        "en": "Massacre in the Great Temple of Tenochtitlan"
+      }
+    },
+    {
+      "id": "muerte-de-moctezuma",
+      "titulo": "La muerte de Moctezuma",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "politico",
+      "resumen": "A fines de junio de 1520, con los españoles sitiados en el palacio de Axayácatl, Moctezuma murió en circunstancias que las fuentes cuentan de forma opuesta. Cortés, Bernal Díaz y otros españoles dicen que, al hablar desde una azotea para calmar a su pueblo, recibió pedradas de los suyos y murió días después; los informantes de Sahagún dicen que los españoles arrojaron su cuerpo fuera del palacio, y Durán, Ixtlilxóchitl y Chimalpahin sostienen que lo mataron los españoles, a puñaladas o estrangulado, antes de huir. Ninguna versión puede confirmarse, y las dos partes tenían motivos para culpar a la otra.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "codice-florentino",
+        "historia-de-las-indias-duran",
+        "historia-chichimeca",
+        "relaciones-de-chimalpahin"
+      ]
+    },
+    {
+      "id": "noche-triste",
+      "titulo": "La Noche Triste",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "batalla",
+      "resumen": "En la noche del 30 de junio al 1 de julio de 1520 los españoles y sus aliados tlaxcaltecas intentaron salir en secreto de Tenochtitlan por la calzada de Tlacopan; descubiertos, fueron atacados desde canoas en los cortes de la calzada. Cortés admitió unos 150 españoles y más de dos mil aliados muertos; Bernal Díaz, contando también los combates de los días siguientes, habla de unos 860 españoles. Se perdió casi todo el oro, y los prisioneros españoles fueron sacrificados.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "codice-florentino",
+        "lienzo-de-tlaxcala"
+      ],
+      "wikipedia": {
+        "es": "Noche Triste",
+        "en": "La Noche Triste"
+      }
+    },
+    {
+      "id": "batalla-de-otumba",
+      "titulo": "La batalla de Otumba",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Otumba",
+      "lon": -98.755,
+      "lat": 19.697,
+      "tipo": "batalla",
+      "resumen": "El 7 de julio de 1520, camino de Tlaxcala, los españoles y tlaxcaltecas que habían sobrevivido a la Noche Triste fueron alcanzados por un gran ejército mexica en el llano de Otumba. Según Cortés y Bernal Díaz, se salvaron cuando una carga de jinetes derribó al capitán que llevaba la insignia del ejército, lo que desbandó a los mexicas. Llegaron a Tlaxcala, donde fueron recibidos y pudieron rehacerse.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Otumba",
+        "en": "Battle of Otumba"
+      }
+    },
+    {
+      "id": "epidemia-de-viruela-de-1520",
+      "titulo": "La epidemia de viruela de 1520",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "desastre",
+      "resumen": "La viruela llegó a México con la armada de Narváez en la primavera de 1520; las crónicas atribuyen el contagio a un africano esclavizado de esa expedición. Se extendió desde Cempoala y entre octubre y diciembre golpeó Tenochtitlan durante unos sesenta días: los informantes de Sahagún describen a los enfermos cubiertos de pústulas, sin poder moverse, muriendo de la enfermedad y de hambre. Murieron el tlatoani Cuitláhuac, el señor tlaxcalteca Maxixcatzin y una parte de la población que no puede calcularse con precisión; fue la primera de las grandes epidemias que, junto con otras causas, redujeron la población indígena de México en el siglo XVI.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "codice-florentino",
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Historia de la viruela en México",
+        "en": "History of smallpox in Mexico"
+      }
+    },
+    {
+      "id": "campana-de-tepeaca",
+      "titulo": "La campaña de Tepeaca y el herraje de esclavos",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tepeaca",
+      "lon": -97.87,
+      "lat": 19.02,
+      "tipo": "batalla",
+      "resumen": "Rehechos en Tlaxcala, Cortés y sus aliados atacaron entre agosto y octubre de 1520 Tepeaca y otros pueblos aliados de los mexicas, acusados de haber matado españoles, y fundaron allí la villa de Segura de la Frontera. Cortés declaró esclavos a los prisioneros como castigo por su «rebelión» y los hizo marcar con hierro; Bernal Díaz cuenta el herraje y las quejas de los soldados porque los capitanes se quedaban con las mejores mujeres. La esclavización de cautivos de pueblos considerados rebeldes fue lícita para la Corona, salvo entre 1530 y 1534, hasta las Leyes Nuevas de 1542.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ]
+    },
+    {
+      "id": "matanza-de-zultepec",
+      "titulo": "La caravana sacrificada en Zultépec (Tecoaque)",
+      "anio": 1520,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tecoaque (Zultépec)",
+      "lon": -98.625,
+      "lat": 19.585,
+      "tipo": "batalla",
+      "resumen": "En 1520 los acolhuas de Zultépec, sujetos a Texcoco, capturaron una caravana que iba de Veracruz a Tenochtitlan, con españoles, entre ellos mujeres, africanos y aliados indígenas, y los sacrificaron. Cortés y Bernal Díaz cuentan que los españoles hallaron después ropas, cueros de caballos y una inscripción de uno de los cautivos. Las excavaciones del INAH dirigidas desde la década de 1990 por Enrique Martínez Vargas hallaron restos de centenares de personas con huellas de sacrificio y desmembramiento, sacrificadas a lo largo de meses según los arqueólogos, y el sitio pasó a llamarse Tecoaque, «donde se los comieron». En 1521 Gonzalo de Sandoval castigó al pueblo.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "cartas-de-relacion"
+      ],
+      "wikipedia": {
+        "es": "Tecoaque",
+        "en": "Tecoaque"
+      }
+    },
+    {
+      "id": "bergantines-de-texcoco",
+      "titulo": "Los bergantines de Texcoco",
+      "anio": 1521,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Texcoco",
+      "lon": -98.897,
+      "lat": 19.529,
+      "tipo": "construccion",
+      "resumen": "El carpintero Martín López dirigió en Tlaxcala la construcción de trece bergantines, cuyas piezas llevaron hasta Texcoco miles de cargadores tlaxcaltecas; allí se armaron y, a fines de abril de 1521, se botaron al lago por un canal excavado por miles de trabajadores texcocanos. Con ellos los españoles dominaron el lago durante el sitio y cortaron el abastecimiento de Tenochtitlan por agua.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ]
+    },
+    {
+      "id": "aliados-indigenas-de-la-conquista",
+      "titulo": "Los aliados indígenas de la conquista y su número",
+      "anio": 1519,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Texcoco",
+      "lon": -98.897,
+      "lat": 19.529,
+      "tipo": "batalla",
+      "resumen": "En el sitio de Tenochtitlan combatieron, según Cortés, unos 900 españoles con 86 caballos y trece bergantines, junto a ejércitos de Tlaxcala, Texcoco, Huexotzinco, Cholula, Chalco y otros pueblos. Las cifras de aliados que dan las fuentes van de decenas de miles a más de cien mil y no pueden comprobarse: Cortés tendía a minimizar su papel, y los cronistas tlaxcaltecas y texcocanos a exaltar el de su ciudad. Historiadores como Ross Hassig, Matthew Restall y los autores de Indian Conquistadors sostienen que sin ellos la conquista no habría sido posible y que muchos pelearon por sus propios intereses, contra el dominio mexica o contra rivales locales.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-chichimeca",
+        "lienzo-de-tlaxcala",
+        "historia-de-tlaxcala-munoz-camargo",
+        "indian-conquistadors",
+        "mexico-and-the-spanish-conquest"
+      ]
+    },
+    {
+      "id": "sitio-de-tenochtitlan",
+      "titulo": "El sitio de Tenochtitlan: hambre, sacrificios y matanzas",
+      "anio": 1521,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tlatelolco",
+      "lon": -99.138,
+      "lat": 19.451,
+      "tipo": "batalla",
+      "resumen": "Desde fines de mayo de 1521 los españoles y sus aliados cortaron el acueducto de Chapultepec y cercaron la ciudad por las calzadas y con los bergantines durante unos tres meses; para avanzar, Cortés hizo derribar las casas y cegar los canales de los barrios que tomaba. Los Anales de Tlatelolco y los informantes de Sahagún describen el hambre, la sed y la enfermedad de los sitiados, y Bernal Díaz cuenta que, tras un asalto fallido a fines de junio, vieron desde su campamento cómo los mexicas sacrificaban en el templo mayor a decenas de compañeros capturados. Sobre los últimos días, en Tlatelolco, Cortés escribió que en una sola jornada murieron o fueron capturadas más de cuarenta mil personas y que les costaba más contener la crueldad de sus aliados indígenas que pelear; ninguna de las cifras de muertos del sitio puede comprobarse.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "anales-de-tlatelolco",
+        "codice-florentino",
+        "mexico-and-the-spanish-conquest"
+      ]
+    },
+    {
+      "id": "tortura-de-cuauhtemoc",
+      "titulo": "La tortura de Cuauhtémoc",
+      "anio": 1521,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Coyoacán",
+      "lon": -99.162,
+      "lat": 19.35,
+      "tipo": "politico",
+      "resumen": "Después de la caída de Tenochtitlan, ante el poco oro recuperado, los oficiales reales, en particular el tesorero Julián de Alderete, presionaron para que se interrogara con tormento a Cuauhtémoc y al señor de Tlacopan; según Bernal Díaz y Gómara, Cortés lo consintió y les quemaron los pies con aceite. Cuauhtémoc no reveló gran cosa, y la tortura fue uno de los cargos contra Cortés en su juicio de residencia. En esos meses, según los Anales de Tlatelolco, tres sabios de Texcoco que se entregaron con sus libros pintados fueron echados a los perros en Coyoacán, y un manuscrito pictográfico de Coyoacán del siglo XVI, en la Biblioteca Nacional de Francia, muestra a un señor indígena encadenado atacado por un perro.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal",
+        "historia-de-la-conquista-gomara",
+        "juicio-de-residencia-de-cortes"
+      ]
+    },
+    {
+      "id": "mito-de-cortes-como-quetzalcoatl",
+      "titulo": "El mito de Cortés como Quetzalcóatl",
+      "anio": 1519,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tenochtitlan",
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "tipo": "cultural",
+      "resumen": "Según una versión muy difundida, Moctezuma creyó que Cortés era el dios Quetzalcóatl que volvía del oriente, y una serie de presagios anunció la caída de la ciudad. Cortés atribuyó a Moctezuma un discurso en el que reconocía al rey de España como heredero de un antiguo señor que había partido, que historiadores como Matthew Restall consideran una invención para dar legalidad a la conquista; la identificación con Quetzalcóatl y los presagios aparecen recién en el Códice Florentino y en otras obras escritas décadas después. Susan Gillespie, Camilla Townsend y Restall la consideran una construcción posterior a la conquista, que explicaba la derrota como cumplimiento de una profecía.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "codice-florentino",
+        "burying-the-white-gods",
+        "when-montezuma-met-cortes"
+      ]
+    },
+    {
+      "id": "sujecion-de-michoacan",
+      "titulo": "La sujeción del reino purépecha",
+      "anio": 1522,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tzintzuntzan",
+      "lon": -101.574,
+      "lat": 19.624,
+      "tipo": "politico",
+      "resumen": "Tras la caída de Tenochtitlan, el cazonci Tangáxoan, cuyo padre había muerto de viruela en 1520, aceptó en 1522 la entrada de Cristóbal de Olid en Tzintzuntzan y se sometió sin guerra; los españoles se llevaron el tesoro real y despojaron los templos. Michoacán se repartió en encomiendas y los franciscanos comenzaron la evangelización.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "relacion-de-michoacan",
+        "conquest-of-michoacan-warren"
+      ],
+      "wikipedia": {
+        "es": "Imperio purépecha",
+        "en": "Purépecha Empire"
+      }
+    },
+    {
+      "id": "ejecucion-de-cuauhtemoc",
+      "titulo": "La ejecución de Cuauhtémoc",
+      "anio": 1525,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Itzamkanac (Acalan)",
+      "lon": -90.837,
+      "lat": 18.122,
+      "tipo": "judicial",
+      "resumen": "En febrero de 1525, durante la marcha de Cortés a Honduras para castigar la rebelión de Cristóbal de Olid, Cuauhtémoc, Tetlepanquetzal y otros señores que llevaba como rehenes fueron acusados, por la denuncia de un noble mexica, de conspirar para matar a los españoles, y ahorcados en la provincia de Acalan. Cortés lo justificó en su quinta carta; Bernal Díaz, que iba en la expedición, escribió que fue una muerte injusta que pareció mal a todos los que iban en la jornada.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica",
+        "centroamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal",
+        "historia-chichimeca",
+        "relaciones-de-chimalpahin"
+      ],
+      "wikipedia": {
+        "es": "Cuauhtémoc",
+        "en": "Cuauhtémoc"
+      }
+    },
+    {
+      "id": "ejecucion-del-cazonci",
+      "titulo": "La ejecución del cazonci por Nuño de Guzmán",
+      "anio": 1530,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tzintzuntzan",
+      "lon": -101.574,
+      "lat": 19.624,
+      "tipo": "judicial",
+      "resumen": "En febrero de 1530, al comenzar su campaña al occidente, Nuño de Guzmán llevó consigo al cazonci, lo hizo torturar junto con sus allegados para que entregara oro y le siguió un proceso sumario por idolatría, muertes de españoles y una supuesta conspiración. Fue condenado, ejecutado en el campamento de Guzmán junto al río Lerma y su cuerpo fue quemado. Michoacán quedó sin su gobernante y en años de violencia, hasta que la segunda Audiencia envió en 1533 al oidor Vasco de Quiroga a visitarla.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "proceso-contra-el-cazonci",
+        "relacion-de-michoacan",
+        "conquest-of-michoacan-warren"
+      ],
+      "wikipedia": {
+        "es": "Tangáxoan Tzíntzicha",
+        "en": "Tangaxuan II"
+      }
+    },
+    {
+      "id": "conquista-de-nueva-galicia",
+      "titulo": "La conquista de Nueva Galicia por Nuño de Guzmán",
+      "anio": 1529,
+      "anio_hasta": 1531,
+      "aprox": false,
+      "lugar": "Guadalajara",
+      "lon": -103.342,
+      "lat": 20.676,
+      "tipo": "batalla",
+      "resumen": "A fines de 1529 Nuño de Guzmán salió de México hacia el occidente con unos cuatrocientos españoles y miles de guerreros indígenas del centro y de Michoacán, y en dos años recorrió los actuales Jalisco, Nayarit y Sinaloa con matanzas, quemas de pueblos, torturas y esclavización de cautivos, documentadas por testigos de su propio bando y por sus rivales. Llamó Nueva Galicia a la región y fundó villas como Compostela y Guadalajara. La violencia y las encomiendas que siguieron fueron causas de la guerra del Mixtón.",
+      "regiones": [
+        "mesoamerica",
+        "aridoamerica"
+      ],
+      "fuentes": [
+        "codice-de-huexotzinco",
+        "war-for-mexicos-west",
+        "indian-conquistadors"
+      ],
+      "wikipedia": {
+        "es": "Nueva Galicia",
+        "en": "Nueva Galicia"
+      }
+    },
+    {
+      "id": "guerra-del-mixton",
+      "titulo": "La guerra del Mixtón",
+      "anio": 1540,
+      "anio_hasta": 1542,
+      "aprox": false,
+      "lugar": "Nochistlán",
+      "lon": -102.846,
+      "lat": 21.363,
+      "tipo": "batalla",
+      "resumen": "En 1540 los caxcanes y otros pueblos de Nueva Galicia, castigados por la violencia de la conquista y por las encomiendas, se alzaron con un movimiento religioso que anunciaba la expulsión de los españoles, y se hicieron fuertes en peñoles como el Mixtón y Nochistlán. Mataron a encomenderos y a frailes, derrotaron a varias expediciones, en una de las cuales murió Pedro de Alvarado (1541), y atacaron Guadalajara. El virrey Antonio de Mendoza dirigió en 1541-1542 una campaña con unos 450 españoles y decenas de miles de guerreros nahuas, tlaxcaltecas y purépechas que tomó los peñoles; miles de rebeldes murieron y muchos cautivos fueron esclavizados, y las ejecuciones ordenadas por el virrey fueron uno de los cargos de la visita de Francisco Tello de Sandoval.",
+      "regiones": [
+        "mesoamerica",
+        "aridoamerica"
+      ],
+      "fuentes": [
+        "relacion-de-acazitli",
+        "war-for-mexicos-west",
+        "indian-conquistadors"
+      ],
+      "wikipedia": {
+        "es": "Guerra del Mixtón",
+        "en": "Mixtón War"
+      }
+    },
+    {
+      "id": "colonias-tlaxcaltecas-del-norte",
+      "titulo": "Las colonias tlaxcaltecas del norte",
+      "anio": 1591,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tlaxcala",
+      "lon": -98.236,
+      "lat": 19.315,
+      "tipo": "fundacion",
+      "resumen": "En 1591, para terminar la guerra chichimeca con regalos, misiones y asentamientos (la «paz por compra», en palabras del historiador Philip Powell), el virrey Luis de Velasco hijo pactó con Tlaxcala el traslado de unas 400 familias tlaxcaltecas a la frontera norte, a cambio de privilegios como la hidalguía, tierras propias, exención de tributos y la prohibición de que los españoles vivieran en sus pueblos. Fundaron o poblaron barrios junto a Saltillo, San Luis Potosí, Colotlán y otros lugares, con el fin declarado de que sirvieran a los chichimecas de modelo de pueblo cristiano y agrícola.",
+      "regiones": [
+        "mesoamerica",
+        "aridoamerica"
+      ],
+      "fuentes": [
+        "tlaxcala-in-the-sixteenth-century"
+      ]
+    },
+    {
+      "id": "conquista-de-yucatan",
+      "titulo": "La conquista de Yucatán",
+      "anio": 1527,
+      "anio_hasta": 1546,
+      "aprox": false,
+      "lugar": "Mérida",
+      "lon": -89.62,
+      "lat": 20.97,
+      "tipo": "batalla",
+      "resumen": "Yucatán no tenía un estado central sino más de quince señoríos mayas rivales, lo que hizo la conquista lenta. Las campañas de Francisco de Montejo entre 1527 y 1535 fracasaron; su hijo y su sobrino la retomaron en 1540 con la alianza de los Xiu de Maní, fundaron Campeche y Mérida (1542) y sometieron el norte hacia 1545. En 1546-1547 una gran rebelión del oriente fue reprimida con dureza. La conquista trajo encomiendas, trabajo forzado y, en 1562, la campaña de Diego de Landa contra la idolatría; en 1552 el oidor Tomás López Medel dictó ordenanzas sobre el tributo, el trabajo y el gobierno de los pueblos mayas para limitar los abusos de los encomenderos; el sur, con los itzaes, quedó independiente hasta 1697.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-yucatan-cogolludo",
+        "relacion-de-las-cosas-de-yucatan",
+        "conquest-of-yucatan-chamberlain",
+        "ambivalent-conquests"
+      ],
+      "wikipedia": {
+        "es": "Conquista de Yucatán",
+        "en": "Spanish conquest of Yucatán"
+      }
+    },
+    {
+      "id": "fundacion-de-merida-yucatan",
+      "titulo": "La fundación de Mérida sobre T'ho",
+      "anio": 1542,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mérida",
+      "lon": -89.62,
+      "lat": 20.97,
+      "tipo": "fundacion",
+      "resumen": "El 6 de enero de 1542 Francisco de Montejo el Mozo fundó Mérida sobre la ciudad maya de T'ho, cuyos edificios de piedra recordaron a los españoles las ruinas romanas de Mérida, en Extremadura; las piedras de sus pirámides se usaron para la catedral y las casas españolas. Poco después el señor de Maní, de los Xiu, se presentó en paz ante los Montejo.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-yucatan-cogolludo",
+        "conquest-of-yucatan-chamberlain"
+      ],
+      "wikipedia": {
+        "es": "Mérida (México)",
+        "en": "Mérida, Yucatán"
+      }
+    },
+    {
+      "id": "rebelion-maya-de-1546",
+      "titulo": "La gran rebelión maya de 1546-1547",
+      "anio": 1546,
+      "anio_hasta": 1547,
+      "aprox": false,
+      "lugar": "Valladolid (Yucatán)",
+      "lon": -88.202,
+      "lat": 20.689,
+      "tipo": "batalla",
+      "resumen": "En noviembre de 1546 los señoríos del oriente de Yucatán, encabezados por los cupules y los cocomes, se alzaron contra los encomenderos: mataron a españoles, a mayas que los servían y a sus animales, y sitiaron Valladolid. Los Montejo la reprimieron en unos cuatro meses con tropas españolas y mayas aliados. Los cronistas españoles describen la muerte por tortura de los españoles capturados, y la represión incluyó ejecuciones y esclavización de prisioneros.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-yucatan-cogolludo",
+        "conquest-of-yucatan-chamberlain"
+      ]
+    },
+    {
+      "id": "conquista-de-tayasal",
+      "titulo": "La caída de Nojpetén, el último reino maya",
+      "anio": 1697,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nojpetén (Tayasal)",
+      "lon": -89.892,
+      "lat": 16.93,
+      "tipo": "batalla",
+      "resumen": "Los itzaes mantuvieron su reino independiente casi dos siglos después de la caída de Tenochtitlan: Cortés pasó por allí en 1525 y varias misiones franciscanas fracasaron en el siglo XVII. Tras negociaciones con Ajaw Kan Ek' que no prosperaron, el 13 de marzo de 1697 las tropas de Martín de Ursúa atacaron la isla desde una galeota y la tomaron en pocas horas, con muchos itzaes muertos en el agua, y destruyeron los templos. Las epidemias, la guerra y la huida a la selva redujeron mucho la población en los años siguientes.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-de-la-conquista-del-itza",
+        "conquest-of-the-last-maya-kingdom",
+        "spanish-conquest-of-yucatan-means"
+      ],
+      "wikipedia": {
+        "es": "Conquista del Petén",
+        "en": "Spanish conquest of Petén"
+      }
+    },
+    {
+      "id": "hallazgo-de-la-piedra-del-sol",
+      "titulo": "El hallazgo de la Coatlicue y de la Piedra del Sol",
+      "anio": 1790,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ciudad de México",
+      "lon": -99.136,
+      "lat": 19.354,
+      "tipo": "cientifico",
+      "resumen": "En 1790, durante obras de nivelación en la plaza mayor de México, aparecieron la gran escultura de la diosa Coatlicue y la Piedra del Sol. Antonio de León y Gama las estudió en un libro de 1792, uno de los primeros estudios arqueológicos de América; la Coatlicue fue enterrada otra vez en el patio de la Universidad por temor a que alentara su culto, y se desenterró en el siglo XIX.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Piedra del Sol",
+        "en": "Aztec sun stone"
+      }
+    },
+    {
+      "id": "proyecto-templo-mayor",
+      "titulo": "El hallazgo de la Coyolxauhqui y el Proyecto Templo Mayor",
+      "anio": 1978,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "tipo": "cientifico",
+      "resumen": "El 21 de febrero de 1978 trabajadores de la compañía de luz hallaron en el centro de la Ciudad de México un gran monolito de la diosa Coyolxauhqui desmembrada. El INAH inició entonces, bajo la dirección de Eduardo Matos Moctezuma, la excavación del Templo Mayor, que obligó a demoler varios edificios de la zona y dejó a la vista siete etapas constructivas y más de un centenar de ofrendas; desde 1991 lo dirige Leonardo López Luján. En 2006 se halló el monolito de Tlaltecuhtli, la mayor escultura mexica conocida.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "sacrificio-humano-lopez-lujan-olivier"
+      ],
+      "wikipedia": {
+        "en": "Coyolxauhqui Stone"
+      }
+    },
+    {
+      "id": "hallazgo-del-huey-tzompantli",
+      "titulo": "El hallazgo del Huey Tzompantli",
+      "anio": 2015,
+      "anio_hasta": 2020,
+      "aprox": false,
+      "lugar": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "tipo": "cientifico",
+      "resumen": "Desde 2015 el Programa de Arqueología Urbana del INAH, dirigido por Raúl Barrera, excavó bajo una casa de la calle República de Guatemala, detrás de la Catedral, parte del Huey Tzompantli: la plataforma donde se exhibían en vigas los cráneos de los sacrificados y una torre circular de cráneos unidos con cal, de la que en 2017 se habían registrado 676 cráneos y en 2020 otros 119. Los análisis mostraron mayoría de hombres jóvenes, pero también mujeres y niños, lo que contradice la idea de que solo se exhibían guerreros. Confirma la estructura que describieron Andrés de Tapia y otros conquistadores; su cifra de 136 000 cráneos sigue sin comprobarse.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "wade-2018-huey-tzompantli",
+        "relacion-de-andres-de-tapia"
+      ],
+      "wikipedia": {
+        "es": "Huey tzompantli"
+      }
+    },
+    {
+      "id": "restos-de-ixcateopan",
+      "titulo": "Los supuestos restos de Cuauhtémoc en Ixcateopan",
+      "anio": 1949,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ixcateopan de Cuauhtémoc",
+      "lon": -99.79,
+      "lat": 18.5,
+      "tipo": "cultural",
+      "resumen": "En 1949 la historiadora Eulalia Guzmán anunció que había hallado bajo el altar de la iglesia de Ixcateopan, en Guerrero, los restos de Cuauhtémoc, junto con documentos que lo afirmaban. Comisiones de especialistas convocadas en 1949-1951 y en 1976 concluyeron que los huesos eran de varias personas y que los documentos eran falsificaciones recientes, y las fuentes del siglo XVI dicen que Cuauhtémoc murió en Acalan, a cientos de kilómetros. Aun así, el lugar sigue siendo un sitio de conmemoración oficial.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Ixcateopan de Cuauhtémoc",
+        "en": "Ixcateopan de Cuauhtémoc"
+      }
+    },
+    {
+      "id": "expedicion-a-las-hibueras",
+      "titulo": "La expedición de Cortés a las Hibueras",
+      "anio": 1524,
+      "anio_hasta": 1526,
+      "aprox": false,
+      "lugar": "Itzamkanac (Acalan)",
+      "lon": -90.837,
+      "lat": 18.122,
+      "tipo": "exploracion",
+      "resumen": "En octubre de 1524 Cortés salió de México hacia Honduras para castigar la rebelión de Cristóbal de Olid, con unos cientos de españoles, miles de guerreros y cargadores indígenas y los señores mexicas como rehenes. La marcha por las selvas y pantanos de Tabasco, Acalan y el Petén fue desastrosa: murieron de hambre y enfermedad muchos de los acompañantes indígenas, Cuauhtémoc fue ahorcado en Acalan y en 1525 los españoles pasaron por Nojpetén, la capital itzá. Cortés lo contó en su quinta carta y volvió a México en 1526.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica",
+        "centroamerica"
+      ],
+      "fuentes": [
+        "cartas-de-relacion",
+        "historia-verdadera-bernal"
+      ]
+    }
+  ],
+  "lugares": [
+    {
+      "id": "templo-mayor",
+      "nombre": "Templo Mayor de Tenochtitlan",
+      "lon": -99.131,
+      "lat": 19.435,
+      "fundacion": 1325,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Pirámide doble dedicada a Huitzilopochtli y a Tláloc en el centro del recinto sagrado de Tenochtitlan, con siete etapas constructivas principales entre la fundación de la ciudad y 1521. Allí se celebraban los principales sacrificios de la ciudad, y frente a ella estaba el Huey Tzompantli. Los españoles la demolieron después de la conquista y usaron sus piedras en la nueva ciudad; desde 1978 está excavada y tiene su museo junto a la Catedral.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Templo Mayor",
+        "en": "Templo Mayor"
+      }
+    },
+    {
+      "id": "tlatelolco",
+      "nombre": "Tlatelolco",
+      "lon": -99.138,
+      "lat": 19.451,
+      "fundacion": 1337,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad gemela de Tenochtitlan, fundada por mexicas en un islote vecino y famosa por su mercado, que Cortés y Bernal Díaz describieron con asombro. Fue sometida por Tenochtitlan en 1473 y fue el último reducto de la defensa en 1521. Allí funcionaron después el convento franciscano de Santiago y el Colegio de Santa Cruz, donde se elaboró el Códice Florentino; la Plaza de las Tres Culturas conserva sus ruinas.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "México-Tlatelolco",
+        "en": "Tlatelolco (altepetl)"
+      }
+    },
+    {
+      "id": "texcoco",
+      "nombre": "Texcoco",
+      "lon": -98.897,
+      "lat": 19.529,
+      "fundacion": 1300,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Ciudad de los acolhuas en la orilla oriental del lago, segunda en importancia de la Triple Alianza y corte de Nezahualcóyotl y Nezahualpilli. Dividida por la sucesión de 1515, una parte de su nobleza se alió con Cortés, que armó allí los bergantines para el sitio de Tenochtitlan. Fue sede de una de las primeras escuelas franciscanas de Nueva España.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tetzcuco",
+        "en": "Tetzcoco (altepetl)"
+      }
+    },
+    {
+      "id": "tlaxcala",
+      "nombre": "Tlaxcala",
+      "lon": -98.236,
+      "lat": 19.315,
+      "fundacion": 1300,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Capital del señorío tlaxcalteca, formado por cuatro cabeceras en los cerros junto al río Zahuapan, independiente de la Triple Alianza y aliado de Cortés desde 1519. En la década de 1520 se trazó en el valle la ciudad colonial, con uno de los primeros conventos franciscanos y la primera sede del obispado de Tlaxcala, trasladado a Puebla en 1543; su cabildo indígena gobernó con los privilegios de ciudad aliada de la Corona.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tlaxcala de Xicohténcatl",
+        "en": "Tlaxcala (city)"
+      }
+    },
+    {
+      "id": "tizatlan",
+      "nombre": "Tizatlán",
+      "lon": -98.218,
+      "lat": 19.338,
+      "fundacion": 1300,
+      "abandono": 1550,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Una de las cuatro cabeceras de Tlaxcala, sede de Xicohténcatl el Viejo. Conserva los restos de un palacio con altares pintados con dioses y escenas rituales en el estilo de los códices, y una capilla abierta franciscana del siglo XVI.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tizatlán",
+        "en": "Tizatlan"
+      }
+    },
+    {
+      "id": "veracruz",
+      "nombre": "Veracruz",
+      "lon": -96.153,
+      "lat": 19.19,
+      "fundacion": 1519,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "puerto",
+      "importancia": 3,
+      "resumen": "Puerto fundado por los hombres de Cortés en 1519 como Villa Rica de la Vera Cruz, que se trasladó dos veces antes de quedar, a fines del siglo XVI, frente a la isla de San Juan de Ulúa. Fue durante toda la época colonial el principal puerto de Nueva España con Europa, punto de llegada de las flotas y de la trata de esclavos africanos.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Veracruz",
+        "en": "Veracruz (city)"
+      }
+    },
+    {
+      "id": "cempoala",
+      "nombre": "Cempoala",
+      "lon": -96.404,
+      "lat": 19.447,
+      "fundacion": 1200,
+      "abandono": 1600,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Capital totonaca en la llanura costera de Veracruz, con templos sobre plataformas y recintos amurallados, la primera gran ciudad que vieron los españoles en tierra firme. Su señor se alió con Cortés en 1519 y allí fue derrotado Narváez en 1520; las epidemias la despoblaron en el siglo XVI.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Cempoala",
+        "en": "Cempoala"
+      }
+    },
+    {
+      "id": "tecoaque",
+      "nombre": "Tecoaque (Zultépec)",
+      "lon": -98.625,
+      "lat": 19.585,
+      "fundacion": 1000,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Poblado acolhua cercano a Calpulalpan, en Tlaxcala, donde en 1520 fue capturada y sacrificada una caravana de españoles y sus acompañantes. Excavado por el INAH desde la década de 1990, conserva templos, casas y depósitos con los restos de los cautivos.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tecoaque",
+        "en": "Tecoaque"
+      }
+    },
+    {
+      "id": "malinalco",
+      "nombre": "Malinalco (Cuauhtinco)",
+      "lon": -99.5,
+      "lat": 18.95,
+      "fundacion": 1476,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Centro religioso conquistado por los mexicas en tiempos de Axayácatl, en el actual Estado de México. Conserva un templo excavado en la roca viva del cerro, con esculturas de águilas y jaguares, asociado a las órdenes militares mexicas y construido en los últimos años antes de la conquista.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Malinalco",
+        "en": "Malinalco"
+      }
+    },
+    {
+      "id": "texcotzingo",
+      "nombre": "Texcotzingo",
+      "lon": -98.818,
+      "lat": 19.497,
+      "fundacion": 1450,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "sitio-historico",
+      "importancia": 1,
+      "resumen": "Cerro cercano a Texcoco donde Nezahualcóyotl hizo construir jardines, terrazas, baños tallados en la roca y un acueducto que traía agua de los montes, conocidos como los baños de Nezahualcóyotl.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tezcutzingo",
+        "en": "Texcotzingo"
+      }
+    },
+    {
+      "id": "nojpeten",
+      "nombre": "Nojpetén (Tayasal)",
+      "lon": -89.892,
+      "lat": 16.93,
+      "fundacion": 1450,
+      "abandono": 1697,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Capital del reino itzá, en una isla del lago Petén Itzá, en el norte de Guatemala. Fue el último gran centro maya independiente hasta el asalto español del 13 de marzo de 1697; sobre ella se levanta hoy la ciudad de Flores.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tayasal",
+        "en": "Nojpetén"
+      }
+    },
+    {
+      "id": "merida-yucatan",
+      "nombre": "Mérida",
+      "lon": -89.62,
+      "lat": 20.97,
+      "fundacion": 1542,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad fundada en 1542 por Francisco de Montejo el Mozo sobre la ciudad maya de T'ho, capital de la gobernación de Yucatán. Su catedral, terminada en 1598, se construyó en parte con piedras de los antiguos edificios mayas.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Mérida (México)",
+        "en": "Mérida, Yucatán"
+      }
+    },
+    {
+      "id": "campeche",
+      "nombre": "San Francisco de Campeche",
+      "lon": -90.54,
+      "lat": 19.845,
+      "fundacion": 1540,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "puerto",
+      "importancia": 2,
+      "resumen": "Puerto fundado por Francisco de Montejo el Mozo hacia 1540 junto al pueblo maya de Ah Kin Pech, base de la conquista de Yucatán. Por sus ataques de piratas en los siglos XVI y XVII se amuralló, y sus murallas son patrimonio de la humanidad.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "San Francisco de Campeche",
+        "en": "Campeche (city)"
+      }
+    },
+    {
+      "id": "tenayuca",
+      "nombre": "Tenayuca",
+      "lon": -99.169,
+      "lat": 19.533,
+      "fundacion": 1200,
+      "abandono": 1521,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Antigua capital de los chichimecas de Xólotl según las crónicas texcocanas, al norte del valle de México. Su pirámide, ampliada varias veces y rodeada por un muro de serpientes de piedra, tiene el mismo modelo de templo doble que luego tuvo el Templo Mayor de Tenochtitlan.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Tenayuca",
+        "en": "Tenayuca"
+      }
+    },
+    {
+      "id": "xochimilco",
+      "nombre": "Xochimilco",
+      "lon": -99.098,
+      "lat": 19.248,
+      "fundacion": 1200,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-historico",
+      "importancia": 2,
+      "resumen": "Señorío de lengua náhuatl en la orilla sur del lago, sometido por los mexicas en tiempos de Itzcóatl y famoso por sus chinampas, que todavía se cultivan y son patrimonio de la humanidad desde 1987 junto con el centro histórico de la Ciudad de México.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Xochimilco",
+        "en": "Xochimilco"
+      }
+    },
+    {
+      "id": "chapultepec",
+      "nombre": "Chapultepec",
+      "lon": -99.198,
+      "lat": 19.413,
+      "fundacion": null,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "sitio-historico",
+      "importancia": 2,
+      "resumen": "Cerro junto al lago donde los mexicas se asentaron durante su migración y del que fueron expulsados por sus vecinos a fines del siglo XIII, según sus crónicas. Desde el siglo XV un acueducto llevaba su agua dulce a Tenochtitlan, y los tlatoque hicieron tallar allí sus retratos en la roca; hoy es un gran parque de la Ciudad de México.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Chapultepec",
+        "en": "Chapultepec"
+      }
+    },
+    {
+      "id": "palacio-de-cortes-cuernavaca",
+      "nombre": "Palacio de Cortés (Cuernavaca)",
+      "lon": -99.233,
+      "lat": 18.921,
+      "fundacion": 1526,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-historico",
+      "importancia": 1,
+      "resumen": "Residencia fortificada que Hernán Cortés hizo levantar con trabajo indígena en la década de 1520 sobre la plataforma de un templo tlahuica de Cuauhnáhuac, centro de su marquesado del Valle de Oaxaca. Hoy es museo y conserva los murales de Diego Rivera de 1930 sobre la conquista.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "wikipedia": {
+        "es": "Palacio de Cortés",
+        "en": "Palace of Cortés, Cuernavaca"
+      }
+    }
+  ]
+}

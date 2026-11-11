@@ -12964,14 +12964,15 @@
       },
       "trata": {
         "regiones": [
-          "islandia"
+          "islandia",
+          "groenlandia"
         ],
         "desde": 870,
         "hasta": 1120
       },
       "idioma_original": "Nórdico antiguo",
       "soporte": "Copias del siglo XVII de un manuscrito perdido",
-      "resumen": "Breve historia de Islandia: el asentamiento desde 870, la fundación del Althing en 930, el descubrimiento de Groenlandia, la conversión al cristianismo en el año 1000 y los primeros obispos.",
+      "resumen": "Breve historia de Islandia: el asentamiento desde 870, la fundación del Althing en 930, el descubrimiento de Groenlandia, la conversión al cristianismo en el año 1000 y los primeros obispos. Cuenta que Erik el Rojo colonizó Groenlandia catorce o quince años antes de la conversión de Islandia y que los colonos hallaron allí restos de un pueblo anterior, que relacionaron con los skrælingar de Vinlandia.",
       "por_que_importa": "Es la primera obra histórica en nórdico antiguo y la base de la cronología islandesa.",
       "leer": [
         {
@@ -22265,9 +22266,12 @@
       "roles": [
         "reina"
       ],
-      "resumen": "Reina de Castilla que, con Fernando de Aragón, conquistó Granada, impuso la Inquisición, expulsó a los judíos y apoyó el viaje de Colón (1492).",
+      "resumen": "Reina de Castilla que, con Fernando de Aragón, conquistó Granada, impuso la Inquisición, expulsó a los judíos y apoyó el viaje de Colón (1492). En 1500 ordenó devolver a La Española a los taínos que Colón había enviado a vender a Andalucía, y en 1503 autorizó esclavizar a los indígenas considerados «caníbales» y obligó a los indios libres a trabajar por un jornal.",
       "obras": [
-        "testamento-de-isabel-la-catolica"
+        "testamento-de-isabel-la-catolica",
+        "capitulaciones-de-santa-fe",
+        "provision-sobre-los-canibales-1503",
+        "cedula-de-medina-del-campo-1503"
       ],
       "wikipedia": {
         "es": "Isabel I de Castilla",
@@ -22295,7 +22299,7 @@
       "roles": [
         "rey"
       ],
-      "resumen": "Rey de Aragón y, por su matrimonio con Isabel, de Castilla. Maquiavelo lo tomó como modelo de príncipe en El príncipe.",
+      "resumen": "Rey de Aragón y, por su matrimonio con Isabel, de Castilla. Maquiavelo lo tomó como modelo de príncipe en El príncipe. Muerta Isabel, gobernó Castilla y sus Indias como regente: reunió la junta de la que salieron las Leyes de Burgos (1512), autorizó en 1509 llevar lucayos de las Bahamas a trabajar en La Española y ordenó el repartimiento de indios de 1514; en su reinado se redactó el Requerimiento (1513).",
       "obras": [
         "leyes-de-burgos"
       ],
@@ -23234,13 +23238,19 @@
       "lon": -55.531,
       "lat": 51.595,
       "tipo": "exploracion",
-      "resumen": "Leif Erikson, desde Groenlandia, exploró la costa de Norteamérica. El asentamiento nórdico de L'Anse aux Meadows, en Terranova, confirmó en 1960 el relato de las sagas.",
+      "resumen": "Leif Erikson, desde Groenlandia, exploró la costa de Norteamérica. El asentamiento nórdico de L'Anse aux Meadows, en Terranova, identificado en 1960 y excavado entre 1961 y 1968, prueba la presencia nórdica en América, aunque los lugares que nombran las sagas siguen en discusión; la madera cortada allí con herramientas de metal se fechó en 1021 (Kuitems y otros, 2021).",
       "regiones": [
         "islandia",
-        "escandinavia"
+        "escandinavia",
+        "norteamerica",
+        "groenlandia"
       ],
       "fuentes": [
-        "hechos-de-los-obispos-de-hamburgo"
+        "hechos-de-los-obispos-de-hamburgo",
+        "saga-de-erik-el-rojo",
+        "saga-de-los-groenlandeses",
+        "ingstad-1977",
+        "kuitems-2021"
       ],
       "wikipedia": {
         "es": "Vinland",
@@ -25055,12 +25065,17 @@
       "lon": -6.893,
       "lat": 37.228,
       "tipo": "exploracion",
-      "resumen": "Colón zarpó de Palos el 3 de agosto con tres naves buscando Asia por el oeste y llegó el 12 de octubre a una isla de las Bahamas.",
+      "resumen": "Colón zarpó de Palos el 3 de agosto con tres naves buscando Asia por el oeste y llegó el 12 de octubre a una isla de las Bahamas. Recorrió Guanahaní, Cuba y La Española; tras el naufragio de la Santa María en la Nochebuena de 1492 dejó 39 hombres en el fuerte de La Navidad y volvió en marzo de 1493 llevando a varios taínos a Castilla.",
       "regiones": [
-        "iberia"
+        "iberia",
+        "caribe"
       ],
       "fuentes": [
-        "libro-de-las-maravillas"
+        "libro-de-las-maravillas",
+        "diario-de-colon",
+        "carta-de-colon-1493",
+        "capitulaciones-de-santa-fe",
+        "historia-del-almirante"
       ],
       "wikipedia": {
         "en": "Voyages of Christopher Columbus"

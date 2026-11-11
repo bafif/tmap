@@ -314,7 +314,7 @@
       },
       "idioma_original": "Español",
       "soporte": "Poema épico en tres partes",
-      "resumen": "Poema épico sobre la guerra entre españoles y mapuches en Chile, escrito por un soldado que combatió en ella entre 1557 y 1559. Presenta a jefes mapuches como Caupolicán, Lautaro y Colocolo con rasgos de héroes clásicos y reconoce el valor de los enemigos.",
+      "resumen": "Poema épico sobre la guerra entre españoles y mapuches en Chile, escrito por un soldado que combatió en ella entre 1557 y 1559. Presenta a jefes mapuches como Caupolicán, Lautaro y Colocolo con rasgos de héroes clásicos y reconoce el valor de los enemigos. Ercilla presenció la mutilación del prisionero Galvarino y condena la ejecución de Caupolicán, a la que no asistió; la prueba del tronco con que Caupolicán gana el mando no aparece en las crónicas en prosa y se tiene por invención literaria.",
       "por_que_importa": "Fijó la imagen literaria del «araucano» indómito, que influyó durante siglos en cómo Europa, Chile y la Argentina vieron a los mapuches.",
       "leer": [
         {
@@ -1685,7 +1685,7 @@
       "roles": [
         "sapa inca"
       ],
-      "resumen": "Undécimo inca, hijo de Topa Inca. Según las crónicas reforzó la frontera oriental del Collasuyo frente a los chiriguanos; murió en Quito hacia 1525-1528, probablemente por una epidemia llegada desde las costas antes que los conquistadores, y su muerte abrió la guerra entre Huáscar y Atahualpa.",
+      "resumen": "Undécimo inca, hijo de Topa Inca. Según las crónicas reforzó la frontera oriental del Collasuyo frente a los chiriguanos; murió hacia 1525-1528 en Quito o en Tomebamba, según la crónica que se siga, probablemente por una epidemia llegada desde las costas antes que los conquistadores, y su muerte abrió la guerra entre Huáscar y Atahualpa.",
       "obras": [],
       "wikipedia": {
         "es": "Huayna Cápac",
@@ -1872,7 +1872,8 @@
       ],
       "resumen": "Virrey del Perú entre 1569 y 1581. Hizo la visita general del virreinato, reunió a los indios en reducciones, organizó la mita minera de Potosí y en 1572 hizo ejecutar a Túpac Amaru I; mandó levantar las «Informaciones» y escribir la historia de Sarmiento de Gamboa para sostener que los incas habían sido tiranos y no señores legítimos.",
       "obras": [
-        "informaciones-de-toledo"
+        "informaciones-de-toledo",
+        "ordenanzas-del-virrey-toledo"
       ],
       "wikipedia": {
         "es": "Francisco de Toledo",
@@ -3663,9 +3664,10 @@
       "lon": -68.0,
       "lat": -47.673,
       "tipo": "cultural",
-      "resumen": "Los sitios de Piedra Museo y Los Toldos, en la meseta de Santa Cruz, tienen ocupaciones de cazadores-recolectores fechadas hace unos 13 000 años, entre las más antiguas del Cono Sur junto con Monte Verde, en Chile. Esos grupos cazaban guanacos y también caballos americanos y otros animales hoy extinguidos.",
+      "resumen": "Los sitios de Piedra Museo y Los Toldos, en la meseta de Santa Cruz, tienen ocupaciones de cazadores-recolectores fechadas hace unos 13 000 años, entre las más antiguas del Cono Sur junto con Monte Verde, en Chile. Esos grupos cazaban guanacos y también caballos americanos y otros animales hoy extinguidos. En la Patagonia chilena, la cueva Fell, cerca del estrecho de Magallanes, tiene puntas «cola de pescado» fechadas en unos 11 000 años radiocarbónicos, que excavó Junius Bird en la década de 1930.",
       "regiones": [
-        "patagonia"
+        "patagonia",
+        "chile"
       ],
       "fuentes": []
     },
@@ -3679,11 +3681,13 @@
       "lon": -65.35,
       "lat": -23.205,
       "tipo": "cultural",
-      "resumen": "En cuevas de la puna jujeña y la Quebrada de Humahuaca, como Inca Cueva y Huachichocana, hay ocupaciones de cazadores-recolectores de hace unos 10 000 años. En los milenios siguientes esos grupos domesticaron la llama y empezaron a cultivar, el paso a la vida de pastores y agricultores que da origen a las culturas de los valles.",
+      "resumen": "En cuevas de la puna jujeña y la Quebrada de Humahuaca, como Inca Cueva y Huachichocana, hay ocupaciones de cazadores-recolectores de hace unos 10 000 años. En los milenios siguientes esos grupos pasaron a criar llamas, domesticadas allí o adoptadas desde los Andes centrales, algo que se discute, y empezaron a cultivar, el paso a la vida de pastores y agricultores que da origen a las culturas de los valles.",
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "kadwell-2001"
+      ]
     },
     {
       "id": "pinturas-de-la-cueva-de-las-manos",
@@ -3877,7 +3881,7 @@
       "lon": -68.2,
       "lat": -22.911,
       "tipo": "cultural",
-      "resumen": "Pastores de llamas, agricultores de oasis y caravaneros de la puna de Atacama, en el norte de Chile y la puna de Jujuy y Salta, que hablaban el kunza, una lengua extinguida entre fines del siglo XIX y comienzos del XX. Fueron incorporados al Tawantinsuyu y luego al régimen colonial; hoy se reconocen como atacameños o lickanantay a ambos lados de la cordillera.",
+      "resumen": "Pastores de llamas, agricultores de oasis y caravaneros de la puna de Atacama, en el norte de Chile y la puna de Jujuy y Salta, que hablaban el kunza, una lengua extinguida entre fines del siglo XIX y comienzos del XX. Fueron incorporados al Tawantinsuyu y luego al régimen colonial; hoy se reconocen como atacameños o lickanantay a ambos lados de la cordillera. En 1540 la hueste de Pedro de Valdivia tomó su pucará de Quitor, junto a San Pedro de Atacama.",
       "regiones": [
         "chile",
         "noroeste-argentino"
@@ -3922,11 +3926,13 @@
       "tipo": "cultural",
       "resumen": "Nombre que los españoles dieron a los pueblos agricultores de los valles y quebradas de Catamarca, La Rioja, Salta, Tucumán y el norte de San Juan, y también del norte chico de Chile, que hablaban el kakán, una lengua hoy extinguida. Cultivaban maíz, porotos y zapallo con riego y terrazas, criaban llamas y vivían en poblados de piedra; resistieron más de un siglo en las guerras calchaquíes y después fueron deportados y encomendados. Hoy hay comunidades diaguitas reconocidas en la Argentina y en Chile.",
       "regiones": [
-        "noroeste-argentino"
+        "noroeste-argentino",
+        "chile"
       ],
       "fuentes": [
         "relacion-de-las-provincias-del-tucuman",
-        "carta-de-barzana-1594"
+        "carta-de-barzana-1594",
+        "cronica-de-vivar"
       ],
       "wikipedia": {
         "es": "Pueblo diaguita",
@@ -4473,7 +4479,7 @@
       "lon": -72.59,
       "lat": -38.74,
       "tipo": "cultural",
-      "resumen": "Pueblo agricultor y ganadero del centro-sur de Chile, de lengua mapudungun, que resistió a los incas y a los españoles y logró que la frontera del Biobío fuera reconocida en parlamentos como el de Quilín (1641). Desde el siglo XVII sus grupos y su lengua se extendieron a las pampas y el norte de la Patagonia; perdieron su autonomía en las campañas de la Argentina (1879-1885) y de Chile (1861-1883) y hoy son el pueblo originario más numeroso de Chile y uno de los mayores de la Argentina.",
+      "resumen": "Pueblo agricultor y ganadero del centro-sur de Chile, de lengua mapudungun, que resistió a los incas y a los españoles y logró que la frontera del Biobío fuera reconocida en parlamentos como el de Quilín (1641). Desde el siglo XVII sus grupos y su lengua se extendieron a las pampas y el norte de la Patagonia; perdieron su autonomía en las campañas de la Argentina (1879-1885) y de Chile (1861-1883) y hoy son el pueblo originario más numeroso de Chile y uno de los mayores de la Argentina. Una real cédula de 1608 permitió esclavizar a los mapuches capturados en guerra hasta su abolición (1679, aplicada en Chile en 1683), y las malocas de los dos bandos tomaban cautivos.",
       "regiones": [
         "chile",
         "patagonia",
@@ -4481,7 +4487,12 @@
       ],
       "fuentes": [
         "la-araucana",
-        "arte-de-la-lengua-de-chile-valdivia"
+        "arte-de-la-lengua-de-chile-valdivia",
+        "cautiverio-feliz",
+        "historia-general-del-reyno-de-chile-rosales",
+        "saggio-sulla-storia-civile-del-chili",
+        "guerre-et-ethnogenese-mapuche",
+        "historia-del-pueblo-mapuche"
       ],
       "wikipedia": {
         "es": "Pueblo mapuche",
@@ -4523,7 +4534,8 @@
       "tipo": "cultural",
       "resumen": "Pueblo de la cordillera del norte del Neuquén y el sur de Mendoza, que tomó su nombre del pehuén (araucaria), cuyos piñones recolectaba. Comerciaba sal, ganado y piñones a ambos lados de los Andes y adoptó el mapudungun; en 1816 San Martín negoció con sus caciques el paso de su ejército en un parlamento en el fuerte San Carlos, en Mendoza.",
       "regiones": [
-        "noroeste-argentino"
+        "noroeste-argentino",
+        "chile"
       ],
       "fuentes": [
         "diario-de-luis-de-la-cruz"
@@ -4686,11 +4698,14 @@
       "lon": -68.537,
       "lat": -24.72,
       "tipo": "religioso",
-      "resumen": "Hacia el 1500 los incas sacrificaron a tres niños en la cumbre del volcán Llullaillaco, a 6739 metros, en una ceremonia de capacocha que unía religión y dominio político sobre las provincias. Los cuerpos, hallados en 1999 por Johan Reinhard y Constanza Ceruti, se exhiben desde 2007 en el Museo de Arqueología de Alta Montaña de Salta, algo que critican algunas comunidades indígenas.",
+      "resumen": "Hacia el 1500 los incas sacrificaron a tres niños en la cumbre del volcán Llullaillaco, a 6739 metros, en una ceremonia de capacocha que unía religión y dominio político sobre las provincias. Los cuerpos, hallados en 1999 por Johan Reinhard y Constanza Ceruti, se exhiben desde 2007 en el Museo de Arqueología de Alta Montaña de Salta, algo que critican algunas comunidades indígenas. Los análisis de su cabello (Wilson y otros, 2013) muestran que en su último año consumieron cada vez más coca y alcohol, y la mayor, la llamada Doncella, tenía un bolo de coca en la boca.",
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "wilson-2013-capacocha",
+        "inca-rituals-and-sacred-mountains"
+      ],
       "wikipedia": {
         "es": "Momias de Llullaillaco",
         "en": "Children of Llullaillaco"
@@ -4934,11 +4949,14 @@
       "lon": -72.883,
       "lat": -37.917,
       "tipo": "batalla",
-      "resumen": "El 23 de diciembre de 1598 guerreros mapuches dirigidos por Pelantaro sorprendieron y mataron en Curalaba al gobernador de Chile, Martín García Óñez de Loyola, y a casi toda su escolta. Siguió un alzamiento general que destruyó las siete ciudades españolas al sur del río Biobío, que quedó como frontera durante casi tres siglos.",
+      "resumen": "El 23 de diciembre de 1598 guerreros mapuches dirigidos por Pelantaro sorprendieron y mataron en Curalaba al gobernador de Chile, Martín García Óñez de Loyola, el que había capturado a Túpac Amaru I en 1572, y a casi toda su escolta. Siguió un alzamiento general que destruyó las siete ciudades españolas al sur del río Biobío, que quedó como frontera durante casi tres siglos.",
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "desengano-y-reparo-de-la-guerra",
+        "historia-general-del-reyno-de-chile-rosales"
+      ],
       "wikipedia": {
         "es": "Batalla de Curalaba",
         "en": "Battle of Curalaba"
@@ -4958,7 +4976,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales",
+        "relaciones-fronterizas-en-la-araucania"
+      ],
       "wikipedia": {
         "es": "Parlamento de Quilín (1641)",
         "en": "Parliament of Quillín"

@@ -68,7 +68,8 @@ runs well from an old laptop to a gaming PC.
   the land, and three interface themes: Marble and bronze, Illuminated parchment, and Ink and brass.
 - **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
   the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, the Holy Land from
-  Antiquity to today, Argentine history from its Indigenous peoples to today, and regions covering the rest of the
+  Antiquity to today, Argentine history from its Indigenous peoples to today, the Indigenous peoples of the Americas
+  and their colonization up to independence, and regions covering the rest of the
   world with their estimated population; the rest is filled
   in stages, and [a report generated from the data](docs/en/coverage.md) says what is covered and what
   is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
@@ -121,6 +122,11 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
 - [x] Argentina from its Indigenous peoples to the Sáenz Peña law, in seven packages: 382 sources (minutes,
       constitutions, treaties, laws, chronicles and the historiography of each school), 420 people (every viceroy and
       president), 549 events and 110 places, with disputed topics told from the documents
+- [x] The Indigenous peoples of the Americas and their colonization, from the peopling of the continent to
+      independence, in fourteen packages: 735 sources, 697 people, 935 events and 372 places, with war and sacrifice
+      among Indigenous peoples, the civilizing work and the documented abuses of every colonial power, and the debates
+      with their authors; North America divided into its ten culture areas, and culture, language and religion layers
+      for every American region
 - [x] Religion, culture and language map modes (where data exists), with each period's real outline
 - [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
 - [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)

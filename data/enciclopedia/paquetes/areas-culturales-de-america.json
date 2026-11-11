@@ -1,0 +1,4697 @@
+{
+  "paquete": "areas-culturales-de-america",
+  "descripcion": "Las áreas culturales de Norteamérica (del Ártico al Sudeste), el área maya y la Amazonía brasileña, con sus épocas y sus capas de culturas, lenguas y religiones, y las familias de pueblos, lenguas y religiones de toda América.",
+  "regiones": [
+    {
+      "id": "artico-norteamericano",
+      "nombre": "Ártico norteamericano",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -140.943,
+          58.739
+        ],
+        [
+          -158.559,
+          53.739
+        ],
+        [
+          -179.924,
+          50.23
+        ],
+        [
+          -179.919,
+          53.075
+        ],
+        [
+          -161.06,
+          57.45
+        ],
+        [
+          -168.464,
+          59.167
+        ],
+        [
+          -166.425,
+          63.531
+        ],
+        [
+          -168.56,
+          61.939
+        ],
+        [
+          -172.87,
+          62.476
+        ],
+        [
+          -172.863,
+          64.235
+        ],
+        [
+          -167.829,
+          69.366
+        ],
+        [
+          -157.445,
+          72.46
+        ],
+        [
+          -127.031,
+          71.665
+        ],
+        [
+          -123.428,
+          77.467
+        ],
+        [
+          -109.264,
+          79.762
+        ],
+        [
+          -107.14,
+          77.361
+        ],
+        [
+          -106.423,
+          80.371
+        ],
+        [
+          -92.145,
+          82.86
+        ],
+        [
+          -68.652,
+          84.16
+        ],
+        [
+          -60.038,
+          82.738
+        ],
+        [
+          -60.074,
+          82.732
+        ],
+        [
+          -61.963,
+          81.638
+        ],
+        [
+          -67.168,
+          80.836
+        ],
+        [
+          -68.268,
+          79.736
+        ],
+        [
+          -73.478,
+          78.929
+        ],
+        [
+          -73.735,
+          77.569
+        ],
+        [
+          -73.775,
+          77.531
+        ],
+        [
+          -78.29,
+          74.694
+        ],
+        [
+          -67.265,
+          71.563
+        ],
+        [
+          -60.238,
+          67.638
+        ],
+        [
+          -63.439,
+          61.341
+        ],
+        [
+          -54.732,
+          54.426
+        ],
+        [
+          -58.6,
+          54.0
+        ],
+        [
+          -61.3,
+          55.4
+        ],
+        [
+          -64.8,
+          58.4
+        ],
+        [
+          -67.5,
+          57.7
+        ],
+        [
+          -71.0,
+          57.0
+        ],
+        [
+          -76.7,
+          55.7
+        ],
+        [
+          -80.0,
+          55.4
+        ],
+        [
+          -92.6,
+          58.4
+        ],
+        [
+          -94.7,
+          59.7
+        ],
+        [
+          -100.0,
+          61.3
+        ],
+        [
+          -107.0,
+          63.6
+        ],
+        [
+          -114.0,
+          66.4
+        ],
+        [
+          -121.0,
+          68.3
+        ],
+        [
+          -134.5,
+          68.9
+        ],
+        [
+          -141.0,
+          69.1
+        ],
+        [
+          -152.0,
+          67.9
+        ],
+        [
+          -159.5,
+          65.0
+        ],
+        [
+          -160.3,
+          63.5
+        ],
+        [
+          -160.0,
+          62.3
+        ],
+        [
+          -159.0,
+          61.3
+        ],
+        [
+          -156.8,
+          59.9
+        ],
+        [
+          -154.3,
+          59.2
+        ],
+        [
+          -152.4,
+          59.45
+        ],
+        [
+          -150.5,
+          60.1
+        ],
+        [
+          -148.3,
+          61.0
+        ],
+        [
+          -146.5,
+          61.1
+        ],
+        [
+          -145.0,
+          60.4
+        ]
+      ],
+      "resumen": "Las costas y la tundra al norte de la línea de los árboles, de las Aleutianas y Alaska al Labrador, con el archipiélago ártico canadiense. Lo poblaron cazadores paleoesquimales hacia 2500 a. C. y, desde los siglos XII y XIII, los thule, antepasados de los inuit, que llegaron desde Alaska con trineos de perros, kayaks y la caza de ballenas. Rusos, balleneros, comerciantes y misioneros llegaron entre los siglos XVIII y XX; hoy la región incluye Nunavut, creado en 1999, y otros territorios con autogobierno inuit.",
+      "eras": [
+        {
+          "desde": -11000,
+          "hasta": -2500,
+          "nombre": "Primeros pobladores de Alaska",
+          "resumen": "Cazadores de la tradición paleoártica ocupan el norte y el oeste de Alaska; en las Aleutianas, el sitio de Anangula tiene unos 9000 años. El Ártico canadiense seguía deshabitado, en parte bajo el hielo."
+        },
+        {
+          "desde": -2500,
+          "hasta": 1000,
+          "nombre": "Paleoesquimales",
+          "resumen": "La tradición microlítica del Ártico (Denbigh, Pre-Dorset, Independencia) se extiende en pocos siglos de Alaska a Groenlandia. Desde hacia 500 a. C. la cultura Dorset ocupa el Ártico oriental, mientras en el estrecho de Bering se desarrollan Norton, Ipiutak y Old Bering Sea, antepasadas de los yupik y los inuit."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1741,
+          "nombre": "Thule e inuit",
+          "resumen": "Desde el norte de Alaska, los thule se expanden hacia el este entre 1200 y 1300 y ocupan todo el Ártico canadiense; los dorset desaparecen hacia 1300-1400. Los primeros encuentros documentados con europeos son los de Martin Frobisher en la isla de Baffin (1576-1578), que se llevó cautivos a Inglaterra."
+        },
+        {
+          "desde": 1741,
+          "hasta": 1867,
+          "nombre": "América rusa",
+          "resumen": "Tras el viaje de Bering (1741), los cazadores de pieles rusos someten a los aleutianos y los obligan a cazar nutrias marinas; Shélijov conquista Kodiak en 1784 con la matanza de Awa'uq. La Compañía Ruso-Americana (1799) gobierna Alaska hasta su venta a Estados Unidos en 1867."
+        },
+        {
+          "desde": 1867,
+          "hasta": 1971,
+          "nombre": "Balleneros, misiones y Estados",
+          "resumen": "Balleneros estadounidenses y escoceses, comerciantes de la Compañía de la Bahía de Hudson y misioneros llegan a casi todas las comunidades. Desde la década de 1950 los gobiernos concentran a los inuit en poblados permanentes; en 1953 Canadá trasladó familias de Inukjuak al Alto Ártico."
+        },
+        {
+          "desde": 1971,
+          "hasta": null,
+          "nombre": "Reclamos territoriales y autogobierno",
+          "resumen": "La ley de reclamos de los nativos de Alaska (1971), el acuerdo de la bahía James y el norte de Quebec (1975) y el acuerdo de Nunavut (1993) reconocen tierras y gobiernos propios. Nunavut se separó de los Territorios del Noroeste en 1999."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 73770,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1250,
+          "nombre": "Creencias de los paleoárticos y los paleoesquimales",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Se conocen por el arte dorset (tallas de marfil, máscaras) y por los enterramientos."
+        },
+        {
+          "desde": 1250,
+          "hasta": 1910,
+          "nombre": "Religión inuit, yupik y aleutiana (chamanes o angakkuit, Sedna, tabúes de caza)",
+          "familia": "religion-inuit",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1771,
+          "hasta": null,
+          "nombre": "Iglesia morava en Labrador",
+          "familia": "moraviana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1794,
+          "hasta": null,
+          "nombre": "Cristianismo ortodoxo (aleutianos, alutiiq y yupik)",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "importante",
+          "nota": "Llegó con los monjes de Valaam a Kodiak en 1794 y sigue siendo la iglesia de la mayoría de los aleutianos y de muchos alutiiq y yupik."
+        },
+        {
+          "desde": 1910,
+          "hasta": null,
+          "nombre": "Iglesias protestantes (anglicana en el Ártico canadiense; presbiteriana, episcopal y otras en Alaska) y católica",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": null,
+          "nombre": "Creencias y prácticas tradicionales",
+          "familia": "religion-inuit",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -2500,
+          "nombre": "Cazadores paleoárticos de Alaska",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Solo en Alaska y las Aleutianas; el resto del Ártico norteamericano estaba deshabitado."
+        },
+        {
+          "desde": -2500,
+          "hasta": 1250,
+          "nombre": "Paleoesquimales: Pre-Dorset, Independencia y Dorset en el este; Denbigh y Choris en Alaska",
+          "familia": "paleoesquimal",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 1250,
+          "nombre": "Culturas del estrecho de Bering (Norton, Ipiutak, Okvik, Old Bering Sea, Birnirk)",
+          "familia": "esquimo-aleutiana",
+          "peso": "importante",
+          "nota": "Son las antepasadas directas de los yupik y los inuit."
+        },
+        {
+          "desde": -2500,
+          "hasta": null,
+          "nombre": "Aleutianos (unangan)",
+          "familia": "aleutiana",
+          "peso": "minoritaria",
+          "nota": "Las Aleutianas están habitadas desde hace unos 9000 años (Anangula); la continuidad entre esos primeros pobladores y los unangan históricos se discute."
+        },
+        {
+          "desde": 1250,
+          "hasta": null,
+          "nombre": "Inuit (thule, inupiat, inuvialuit, inuit de Canadá y de Labrador)",
+          "familia": "inuit",
+          "peso": "mayoritaria",
+          "nota": "La expansión thule hacia el este se fecha hoy entre 1200 y 1300 (Friesen y Arnold, 2008), más tarde de lo que se creía. Según el ADN antiguo (Raghavan et al., 2014), thule y dorset fueron poblaciones distintas que casi no se mezclaron."
+        },
+        {
+          "desde": 1250,
+          "hasta": null,
+          "nombre": "Yupik y alutiiq (suroeste de Alaska, Kodiak y la bahía del Príncipe Guillermo)",
+          "familia": "yupik",
+          "peso": "importante"
+        },
+        {
+          "desde": 1745,
+          "hasta": 1867,
+          "nombre": "Rusos y criollos de la América rusa",
+          "familia": "rusa",
+          "peso": "minoritaria",
+          "nota": "Los rusos nunca pasaron de unos pocos centenares; los «criollos», hijos de rusos y mujeres indígenas, eran más numerosos."
+        },
+        {
+          "desde": 1867,
+          "hasta": 1950,
+          "nombre": "Balleneros, comerciantes y misioneros europeos y estadounidenses",
+          "familia": "estadounidense",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Estadounidenses y canadienses no indígenas (bases militares, petróleo, pesca, administración)",
+          "familia": "estadounidense",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": -2500,
+          "nombre": "Lenguas desconocidas de los primeros pobladores",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2500,
+          "hasta": 1250,
+          "nombre": "Lenguas de los paleoesquimales",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "No dejaron rastro: no se sabe si eran esquimo-aleutianas."
+        },
+        {
+          "desde": -2500,
+          "hasta": null,
+          "nombre": "Aleutiano",
+          "familia": "aleutiano",
+          "peso": "minoritaria",
+          "nota": "Fecha aproximada: la separación entre el aleutiano y las lenguas esquimales se calcula en varios milenios."
+        },
+        {
+          "desde": -500,
+          "hasta": 1250,
+          "nombre": "Lenguas esquimales del estrecho de Bering",
+          "familia": "esquimo-aleutianas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1250,
+          "hasta": 1960,
+          "nombre": "Inuit (inupiaq, inuvialuktun, inuktitut, inuttitut)",
+          "familia": "inuit",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1250,
+          "hasta": null,
+          "nombre": "Yupik y alutiiq",
+          "familia": "yupik",
+          "peso": "importante"
+        },
+        {
+          "desde": 1745,
+          "hasta": 1867,
+          "nombre": "Ruso",
+          "familia": "ruso",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1867,
+          "hasta": 1960,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria",
+          "nota": "En Alaska el inglés reemplazó en gran parte al inupiaq, al alutiiq y al aleutiano; en Nunavut y Nunavik la mayoría de los inuit sigue hablando inuktitut."
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Inuit",
+          "familia": "inuit",
+          "peso": "importante"
+        }
+      ]
+    },
+    {
+      "id": "subartico-norteamericano",
+      "nombre": "Subártico norteamericano",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -54.732,
+          54.426
+        ],
+        [
+          -51.633,
+          46.473
+        ],
+        [
+          -58.577,
+          46.529
+        ],
+        [
+          -61.5,
+          47.8
+        ],
+        [
+          -64.4,
+          49.35
+        ],
+        [
+          -67.5,
+          49.0
+        ],
+        [
+          -70.3,
+          47.85
+        ],
+        [
+          -72.0,
+          47.4
+        ],
+        [
+          -77.0,
+          47.0
+        ],
+        [
+          -79.4,
+          46.6
+        ],
+        [
+          -82.0,
+          46.55
+        ],
+        [
+          -84.8,
+          46.9
+        ],
+        [
+          -90.0,
+          47.7
+        ],
+        [
+          -92.5,
+          48.55
+        ],
+        [
+          -95.0,
+          49.2
+        ],
+        [
+          -96.0,
+          50.0
+        ],
+        [
+          -98.0,
+          51.0
+        ],
+        [
+          -101.5,
+          53.0
+        ],
+        [
+          -105.5,
+          53.6
+        ],
+        [
+          -114.5,
+          54.0
+        ],
+        [
+          -118.3,
+          52.7
+        ],
+        [
+          -121.5,
+          52.75
+        ],
+        [
+          -123.5,
+          52.3
+        ],
+        [
+          -125.3,
+          51.6
+        ],
+        [
+          -126.2,
+          53.0
+        ],
+        [
+          -127.2,
+          54.6
+        ],
+        [
+          -127.4,
+          55.7
+        ],
+        [
+          -129.0,
+          57.0
+        ],
+        [
+          -132.0,
+          58.0
+        ],
+        [
+          -134.0,
+          59.6
+        ],
+        [
+          -137.0,
+          60.0
+        ],
+        [
+          -142.0,
+          60.7
+        ],
+        [
+          -145.0,
+          60.4
+        ],
+        [
+          -146.5,
+          61.1
+        ],
+        [
+          -148.3,
+          61.0
+        ],
+        [
+          -150.5,
+          60.1
+        ],
+        [
+          -152.4,
+          59.45
+        ],
+        [
+          -154.3,
+          59.2
+        ],
+        [
+          -156.8,
+          59.9
+        ],
+        [
+          -159.0,
+          61.3
+        ],
+        [
+          -160.0,
+          62.3
+        ],
+        [
+          -160.3,
+          63.5
+        ],
+        [
+          -159.5,
+          65.0
+        ],
+        [
+          -152.0,
+          67.9
+        ],
+        [
+          -141.0,
+          69.1
+        ],
+        [
+          -134.5,
+          68.9
+        ],
+        [
+          -121.0,
+          68.3
+        ],
+        [
+          -114.0,
+          66.4
+        ],
+        [
+          -107.0,
+          63.6
+        ],
+        [
+          -100.0,
+          61.3
+        ],
+        [
+          -94.7,
+          59.7
+        ],
+        [
+          -92.6,
+          58.4
+        ],
+        [
+          -80.0,
+          55.4
+        ],
+        [
+          -76.7,
+          55.7
+        ],
+        [
+          -71.0,
+          57.0
+        ],
+        [
+          -67.5,
+          57.7
+        ],
+        [
+          -64.8,
+          58.4
+        ],
+        [
+          -61.3,
+          55.4
+        ],
+        [
+          -58.6,
+          54.0
+        ]
+      ],
+      "resumen": "El bosque boreal de Alaska y Canadá, al sur de la tundra y al norte de las praderas y los Grandes Lagos, con Terranova y el interior del Labrador. Lo habitaron cazadores, pescadores y tramperos móviles, con densidades de población muy bajas: pueblos atabascanos o dene en el oeste y algonquinos (cree, innu, ojibwa del norte) en el este. Desde 1670 fue el territorio del comercio de pieles de la Compañía de la Bahía de Hudson; los tratados numerados (1871-1921), la minería, el petróleo y las represas transformaron la región en el siglo XX.",
+      "eras": [
+        {
+          "desde": -12000,
+          "hasta": -6000,
+          "nombre": "Primeros pobladores",
+          "resumen": "Cazadores de los complejos Nenana y Denali acampan en el valle del Tanana, en Alaska (Swan Point, Broken Mammoth), hace unos 14 000 años. Buena parte del este siguió bajo el hielo varios milenios más y se pobló después."
+        },
+        {
+          "desde": -6000,
+          "hasta": 1500,
+          "nombre": "Cazadores del bosque boreal",
+          "resumen": "Pequeñas bandas cazan caribúes y alces y pescan en los lagos, con canoas de corteza, raquetas para la nieve y trineos. Algunos autores relacionan la erupción del White River, que hacia el año 850 cubrió de ceniza el sur del Yukón, con la migración de los atabascanos hacia el sur."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1670,
+          "nombre": "Primeros contactos en el este",
+          "resumen": "Balleneros vascos cazan en el estrecho de Belle Isle desde la década de 1530 (Red Bay) y los franceses comercian con los innu en Tadoussac desde 1600. Los beotuk de Terranova evitaron el contacto con los europeos."
+        },
+        {
+          "desde": 1670,
+          "hasta": 1870,
+          "nombre": "Comercio de pieles",
+          "resumen": "La Compañía de la Bahía de Hudson (1670) y la del Noroeste (1779) organizan el comercio de pieles con cree, ojibwa, chipewyan y otros pueblos, y surgen los métis. La viruela de 1781-1782 mata a buena parte de los pueblos del interior; Shanawdithit, la última beotuk conocida, murió en 1829."
+        },
+        {
+          "desde": 1870,
+          "hasta": 1960,
+          "nombre": "Tratados, oro y misiones",
+          "resumen": "La Tierra de Rupert pasa a Canadá (1870) y los tratados numerados (1871-1921) ceden casi todo el territorio a cambio de reservas y rentas, en términos cuyo alcance los pueblos firmantes discuten hasta hoy. La fiebre del oro del Klondike (1896-1899) y las escuelas residenciales cambian la vida de los dene y los cree."
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Autonomía y recursos",
+          "resumen": "Represas (bahía James, desde 1971), petróleo (arenas de Athabasca, oleoducto de Alaska) y minería transforman la región; los acuerdos de Alaska (1971), de la bahía James (1975) y del Yukón (1993) reconocen tierras y gobiernos propios."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 103400,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -12000,
+          "hasta": 1850,
+          "nombre": "Religiones del bosque boreal (chamanes, espíritus de los animales, tienda que tiembla)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1610,
+          "hasta": 1780,
+          "nombre": "Catolicismo (pescadores de Terranova; jesuitas entre los innu desde el siglo XVII)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1780,
+          "hasta": null,
+          "nombre": "Catolicismo (irlandeses de Terranova, francocanadienses y, desde 1845, misiones de los oblatos)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1610,
+          "hasta": 1780,
+          "nombre": "Anglicanos y otros protestantes de Terranova",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1780,
+          "hasta": null,
+          "nombre": "Anglicanos, metodistas y otras iglesias protestantes",
+          "familia": "protestantismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Cristianismo (católicos y protestantes)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -12000,
+          "hasta": -6000,
+          "nombre": "Paleoindios del valle del Tanana y del Yukón",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las cuevas de Bluefish, en el Yukón, tendrían huesos cortados de hace unos 24 000 años (Bourgeon et al., 2017); la interpretación se discute."
+        },
+        {
+          "desde": -6000,
+          "hasta": 1850,
+          "nombre": "Pueblos del bosque boreal: dene en el oeste; cree, innu y ojibwa del norte en el este",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": null,
+          "nombre": "Pueblos atabascanos (gwich'in, koyukon, dena'ina, chipewyan, tlicho, slavey, carrier y otros)",
+          "familia": "atabascana",
+          "peso": "importante",
+          "nota": "No se sabe desde cuándo ocupan su territorio histórico; la fecha es aproximada."
+        },
+        {
+          "desde": -1000,
+          "hasta": null,
+          "nombre": "Pueblos algonquinos (cree, innu, naskapi, ojibwa del norte)",
+          "familia": "algonquina",
+          "peso": "importante",
+          "nota": "Fecha aproximada."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1829,
+          "nombre": "Beotuk (Terranova)",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1610,
+          "hasta": 1850,
+          "nombre": "Pescadores, comerciantes y misioneros europeos (colonos ingleses e irlandeses de Terranova desde 1610; franceses, escoceses y orcadianos del comercio de pieles)",
+          "familia": "inglesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Pobladores de origen europeo (terranovenses, anglocanadienses, estadounidenses)",
+          "familia": "anglocanadiense",
+          "peso": "mayoritaria",
+          "nota": "Por número de habitantes, desde mediados del siglo XIX: Terranova, el Saguenay y, más tarde, las ciudades mineras y petroleras, Anchorage y Fairbanks. En la mayor parte del territorio los pueblos dene, cree e innu siguen siendo mayoría."
+        },
+        {
+          "desde": 1838,
+          "hasta": null,
+          "nombre": "Francocanadienses (Saguenay–Lago San Juan, Côte-Nord, Abitibi)",
+          "familia": "francocanadiense",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -12000,
+          "hasta": -1000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1850,
+          "nombre": "Lenguas atabascanas y algonquinas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": null,
+          "nombre": "Lenguas atabascanas",
+          "familia": "atabascanas",
+          "peso": "importante"
+        },
+        {
+          "desde": -1000,
+          "hasta": null,
+          "nombre": "Cree, innu-aimun, naskapi y ojibwe",
+          "familia": "algonquinas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1610,
+          "hasta": 1850,
+          "nombre": "Inglés y francés de la pesca y del comercio de pieles",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1838,
+          "hasta": null,
+          "nombre": "Francés",
+          "familia": "frances",
+          "peso": "importante"
+        }
+      ]
+    },
+    {
+      "id": "costa-noroeste",
+      "nombre": "Costa noroeste",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -125.765,
+          47.569
+        ],
+        [
+          -140.943,
+          58.739
+        ],
+        [
+          -145.0,
+          60.4
+        ],
+        [
+          -142.0,
+          60.7
+        ],
+        [
+          -137.0,
+          60.0
+        ],
+        [
+          -134.0,
+          59.6
+        ],
+        [
+          -132.0,
+          58.0
+        ],
+        [
+          -129.0,
+          57.0
+        ],
+        [
+          -127.4,
+          55.7
+        ],
+        [
+          -127.2,
+          54.6
+        ],
+        [
+          -126.2,
+          53.0
+        ],
+        [
+          -125.3,
+          51.6
+        ],
+        [
+          -123.2,
+          50.6
+        ],
+        [
+          -121.5,
+          49.8
+        ],
+        [
+          -121.15,
+          48.6
+        ],
+        [
+          -121.45,
+          47.0
+        ],
+        [
+          -121.7,
+          45.75
+        ],
+        [
+          -121.95,
+          44.5
+        ],
+        [
+          -122.15,
+          43.0
+        ],
+        [
+          -122.35,
+          42.15
+        ],
+        [
+          -123.5,
+          42.0
+        ],
+        [
+          -124.2,
+          42.0
+        ],
+        [
+          -124.55,
+          42.85
+        ],
+        [
+          -124.15,
+          43.7
+        ],
+        [
+          -124.05,
+          44.7
+        ],
+        [
+          -123.95,
+          45.6
+        ],
+        [
+          -124.05,
+          46.3
+        ]
+      ],
+      "resumen": "La franja de costa, islas y fiordos entre la bahía de Yakutat, en Alaska, y el sur de Oregón, cubierta de bosques templados lluviosos. Sus pueblos, pescadores de salmón sin agricultura, vivían en aldeas de casas de tablones con jefes, nobles, plebeyos y esclavos, levantaban postes tallados y repartían riqueza en los potlatch. Desde 1774 llegaron españoles, británicos, rusos y estadounidenses por las pieles de nutria marina; las epidemias, la colonización y la prohibición canadiense del potlatch (1885-1951) golpearon a estas sociedades.",
+      "eras": [
+        {
+          "desde": -11800,
+          "hasta": -3500,
+          "nombre": "Primeros pobladores de la costa",
+          "resumen": "El mastodonte de Manis, en Washington, con una punta de hueso clavada, tiene unos 13 800 años; en Haida Gwaii y el sureste de Alaska hay sitios de más de 10 000 años, que apoyan la hipótesis de una ruta de poblamiento por la costa."
+        },
+        {
+          "desde": -3500,
+          "hasta": 1774,
+          "nombre": "Sociedades de la costa noroeste",
+          "resumen": "Con la pesca y el ahumado de salmón crecen aldeas permanentes con casas de tablones de cedro, desigualdades de rango y guerras para tomar esclavos. En Ozette, en el cabo Flattery, un alud de barro sepultó hacia 1700 varias casas makah con todo su contenido."
+        },
+        {
+          "desde": 1774,
+          "hasta": 1846,
+          "nombre": "Comercio marítimo de pieles",
+          "resumen": "Juan Pérez llega a Haida Gwaii en 1774 y Cook a Nootka en 1778; la crisis de Nootka (1789-1794) enfrenta a España y Gran Bretaña. Los rusos fundan Sitka (1799) y los británicos el fuerte Vancouver (1825), mientras la viruela y las fiebres reducen la población."
+        },
+        {
+          "desde": 1846,
+          "hasta": 1951,
+          "nombre": "Colonización y prohibición del potlatch",
+          "resumen": "El tratado de Oregón (1846) reparte la costa entre Estados Unidos y Gran Bretaña. La viruela de 1862, llegada desde Victoria, mató a una gran parte de los pueblos de la costa de la Columbia Británica; Canadá prohibió el potlatch en 1885 y confiscó objetos ceremoniales, y los dos países crearon reservas y escuelas residenciales."
+        },
+        {
+          "desde": 1951,
+          "hasta": null,
+          "nombre": "Renacimiento cultural y tratados",
+          "resumen": "Canadá levanta la prohibición del potlatch en 1951 y vuelven las canoas, los postes y las lenguas. El tratado de los nisga'a (2000) fue el primero moderno de la Columbia Británica; la costa alberga hoy Seattle, Portland, Vancouver y Victoria."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 175330,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11800,
+          "hasta": 1880,
+          "nombre": "Religiones de la costa noroeste (espíritus guardianes, sociedades de danza de invierno, ceremonia del primer salmón, potlatch)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1799,
+          "hasta": 1880,
+          "nombre": "Ortodoxos rusos de Sitka y, desde 1834, misiones católicas, metodistas y anglicanas",
+          "familia": "cristianismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Cristianismo (protestantes, católicos y ortodoxos)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1882,
+          "hasta": null,
+          "nombre": "Iglesia shaker indígena y ceremonias tradicionales",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante",
+          "nota": "En el censo canadiense de 2021, más de la mitad de la población de la Columbia Británica declaró no tener religión."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11800,
+          "hasta": -3500,
+          "nombre": "Primeros pobladores de la costa",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3500,
+          "hasta": 1880,
+          "nombre": "Pueblos de la costa noroeste (tlingit, haida, tsimshian, nuxalk, kwakwaka'wakw, nuu-chah-nulth, makah, salish de la costa, chinook y otros)",
+          "familia": "costa-noroeste",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1774,
+          "hasta": 1880,
+          "nombre": "Comerciantes, misioneros y colonos británicos, estadounidenses y españoles",
+          "familia": "inglesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1799,
+          "hasta": 1867,
+          "nombre": "Rusos de Sitka",
+          "familia": "rusa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Estadounidenses de origen europeo, asiático y latinoamericano",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Canadienses de la Columbia Británica",
+          "familia": "anglocanadiense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Pueblos de la costa noroeste",
+          "familia": "costa-noroeste",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11800,
+          "hasta": -3500,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3500,
+          "hasta": 1880,
+          "nombre": "Lenguas de la costa noroeste: tlingit y eyak (na-dené), haida (aislada), tsimshianas, wakash, salish, chinookanas y otras",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Una de las regiones de mayor diversidad lingüística de América."
+        },
+        {
+          "desde": -3500,
+          "hasta": 1880,
+          "nombre": "Lenguas salish de la costa",
+          "familia": "salish",
+          "peso": "importante"
+        },
+        {
+          "desde": -3500,
+          "hasta": 1880,
+          "nombre": "Lenguas wakash (kwak'wala, nuu-chah-nulth, makah)",
+          "familia": "wakash",
+          "peso": "importante"
+        },
+        {
+          "desde": 1790,
+          "hasta": 1900,
+          "nombre": "Jerga chinook, lengua franca del comercio",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "importante",
+          "nota": "Su origen, anterior o posterior al contacto, se discute."
+        },
+        {
+          "desde": 1790,
+          "hasta": 1880,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1799,
+          "hasta": 1867,
+          "nombre": "Ruso (Sitka)",
+          "familia": "ruso",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Lenguas originarias, casi todas en peligro",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "meseta-del-columbia",
+      "nombre": "Meseta del Columbia",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -122.35,
+          42.15
+        ],
+        [
+          -121.4,
+          41.85
+        ],
+        [
+          -120.55,
+          41.95
+        ],
+        [
+          -121.0,
+          43.4
+        ],
+        [
+          -119.6,
+          44.3
+        ],
+        [
+          -117.7,
+          44.95
+        ],
+        [
+          -116.4,
+          45.3
+        ],
+        [
+          -114.8,
+          45.5
+        ],
+        [
+          -113.0,
+          45.6
+        ],
+        [
+          -112.6,
+          46.4
+        ],
+        [
+          -112.7,
+          47.4
+        ],
+        [
+          -113.5,
+          48.6
+        ],
+        [
+          -114.6,
+          49.6
+        ],
+        [
+          -116.1,
+          51.0
+        ],
+        [
+          -118.3,
+          52.7
+        ],
+        [
+          -121.5,
+          52.75
+        ],
+        [
+          -123.5,
+          52.3
+        ],
+        [
+          -125.3,
+          51.6
+        ],
+        [
+          -123.2,
+          50.6
+        ],
+        [
+          -121.5,
+          49.8
+        ],
+        [
+          -121.15,
+          48.6
+        ],
+        [
+          -121.45,
+          47.0
+        ],
+        [
+          -121.7,
+          45.75
+        ],
+        [
+          -121.95,
+          44.5
+        ],
+        [
+          -122.15,
+          43.0
+        ]
+      ],
+      "resumen": "Las mesetas y valles entre la cordillera de las Cascadas y las Rocosas, regados por los ríos Columbia y Fraser: el interior de la Columbia Británica, el este de Washington y Oregón, el norte de Idaho y el oeste de Montana. Sus pueblos, de lenguas salish y sahaptinas, vivían de la pesca del salmón en cataratas y rápidos como Celilo y Kettle Falls, de la recolección de raíces como el camas y de la caza, y comerciaban entre la costa y las llanuras. El caballo llegó hacia 1730; después vinieron Lewis y Clark (1805), las misiones, los tratados de 1855 y las guerras que terminaron con la de los nez percé (1877).",
+      "eras": [
+        {
+          "desde": -14000,
+          "hasta": -6000,
+          "nombre": "Primeros pobladores",
+          "resumen": "El sitio de Cooper's Ferry, en Idaho, tiene herramientas de unos 16 000 años, entre las más antiguas de América (Davis et al., 2019). El hombre de Kennewick, de unos 9000 años, fue objeto de un largo pleito entre científicos y tribus, que terminó con su entierro en 2017."
+        },
+        {
+          "desde": -6000,
+          "hasta": 1730,
+          "nombre": "Pescadores y recolectores de la Meseta",
+          "resumen": "Aldeas de casas semisubterráneas junto a los ríos, pesca del salmón con redes y arpones y recolección de raíces. Celilo Falls, en el Columbia, fue durante milenios el mayor mercado de la región."
+        },
+        {
+          "desde": 1730,
+          "hasta": 1805,
+          "nombre": "El caballo y la viruela",
+          "resumen": "Los caballos llegan hacia 1730 desde el sur, a través de los shoshones; los nez percé, cayuses y otros adoptan costumbres de las llanuras y cruzan las Rocosas para cazar bisontes. La viruela llegó en las décadas de 1770 y 1780, antes que los europeos."
+        },
+        {
+          "desde": 1805,
+          "hasta": 1855,
+          "nombre": "Exploradores, comerciantes y misioneros",
+          "resumen": "Lewis y Clark cruzan la región en 1805 y las compañías de pieles instalan puestos. Llegan las misiones protestantes (Whitman, 1836) y jesuitas (De Smet, 1841) y los colonos de la ruta de Oregón; en 1847, tras una epidemia de sarampión, un grupo de cayuses mató a los Whitman y a otras once personas."
+        },
+        {
+          "desde": 1855,
+          "hasta": 1957,
+          "nombre": "Tratados, guerras y reservas",
+          "resumen": "Los tratados de 1855 crean las reservas yakama, umatilla y nez percé; siguen la guerra yakama (1855-1858) y la de los nez percé (1877), cuando el jefe Joseph intentó llegar a Canadá. En el interior de la Columbia Británica no se firmaron tratados."
+        },
+        {
+          "desde": 1957,
+          "hasta": null,
+          "nombre": "Represas y renacimiento",
+          "resumen": "La represa de The Dalles inundó Celilo Falls en 1957 y las del Columbia cortaron el paso del salmón; las tribus recuperaron derechos de pesca en los tribunales, como en el fallo Belloni (Sohappy contra Smith, 1969) sobre el Columbia."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 77950,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -14000,
+          "hasta": 1880,
+          "nombre": "Religiones de la Meseta (búsqueda del espíritu guardián, danza de invierno, ceremonias de los primeros alimentos)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1836,
+          "hasta": 1880,
+          "nombre": "Misiones protestantes y católicas",
+          "familia": "cristianismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Religión washat o del Soñador (Smohalla) e Iglesia shaker indígena",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -14000,
+          "hasta": -6000,
+          "nombre": "Paleoindios (Cooper's Ferry, Windust)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "La fecha de Cooper's Ferry se acepta más que la de otros sitios anteriores a Clovis, pero no es unánime."
+        },
+        {
+          "desde": -6000,
+          "hasta": -2000,
+          "nombre": "Pescadores y recolectores del Arcaico",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1880,
+          "nombre": "Pueblos de la Meseta (nez percé, yakama, umatilla, cayuse, wasco, salish del interior, kutenai, klamath y otros)",
+          "familia": "meseta",
+          "peso": "mayoritaria",
+          "nota": "La fecha de inicio es convencional: marca la difusión de las aldeas de casas semisubterráneas."
+        },
+        {
+          "desde": 1810,
+          "hasta": 1880,
+          "nombre": "Comerciantes de pieles, misioneros y colonos",
+          "familia": "estadounidense",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Estadounidenses y canadienses de origen europeo",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Pueblos de la Meseta",
+          "familia": "meseta",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -14000,
+          "hasta": -2000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1880,
+          "nombre": "Lenguas de la Meseta: sahaptinas, salish del interior, kutenai (aislada), klamath-modoc y otras",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1880,
+          "nombre": "Lenguas sahaptinas (nez percé, sahaptin)",
+          "familia": "sahaptinas",
+          "peso": "importante"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1880,
+          "nombre": "Lenguas salish del interior",
+          "familia": "salish",
+          "peso": "importante"
+        },
+        {
+          "desde": 1810,
+          "hasta": 1880,
+          "nombre": "Inglés y francés del comercio de pieles",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Lenguas originarias",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "gran-cuenca",
+      "nombre": "Gran Cuenca",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -120.55,
+          41.95
+        ],
+        [
+          -120.3,
+          40.6
+        ],
+        [
+          -120.2,
+          39.3
+        ],
+        [
+          -119.75,
+          38.6
+        ],
+        [
+          -118.9,
+          37.6
+        ],
+        [
+          -118.25,
+          36.4
+        ],
+        [
+          -118.2,
+          35.6
+        ],
+        [
+          -117.2,
+          35.25
+        ],
+        [
+          -115.8,
+          34.8
+        ],
+        [
+          -114.55,
+          35.1
+        ],
+        [
+          -113.9,
+          35.95
+        ],
+        [
+          -112.4,
+          36.75
+        ],
+        [
+          -110.6,
+          37.4
+        ],
+        [
+          -109.3,
+          37.9
+        ],
+        [
+          -108.0,
+          37.8
+        ],
+        [
+          -106.5,
+          38.0
+        ],
+        [
+          -105.3,
+          38.05
+        ],
+        [
+          -105.6,
+          39.3
+        ],
+        [
+          -106.0,
+          40.6
+        ],
+        [
+          -107.7,
+          41.6
+        ],
+        [
+          -109.6,
+          43.2
+        ],
+        [
+          -110.0,
+          44.9
+        ],
+        [
+          -113.0,
+          45.6
+        ],
+        [
+          -114.8,
+          45.5
+        ],
+        [
+          -116.4,
+          45.3
+        ],
+        [
+          -117.7,
+          44.95
+        ],
+        [
+          -119.6,
+          44.3
+        ],
+        [
+          -121.0,
+          43.4
+        ]
+      ],
+      "resumen": "La región de cuencas sin salida al mar entre la Sierra Nevada y las Rocosas, con Nevada, Utah, el sur de Idaho, el sureste de Oregón y el oeste de Colorado y Wyoming. Sus pueblos —paiutes, shoshones, utes y washoe— vivían en pequeñas bandas que se movían según las estaciones entre lagos, montañas y desiertos, recolectando piñones y semillas y organizando cacerías comunales de conejos y antílopes. Desde 1847 los mormones colonizaron Utah y la plata de Nevada (1859) atrajo mineros; de esta región salieron las dos Danzas de los Espíritus (1870 y 1889).",
+      "eras": [
+        {
+          "desde": -12300,
+          "hasta": -7000,
+          "nombre": "Primeros pobladores",
+          "resumen": "Los coprolitos humanos de las cuevas de Paisley, en Oregón, tienen unos 14 300 años, y la momia de Spirit Cave, en Nevada, unos 10 600. Son de la tradición de puntas pedunculadas del oeste, contemporánea de Clovis."
+        },
+        {
+          "desde": -7000,
+          "hasta": 1,
+          "nombre": "Arcaico del desierto",
+          "resumen": "Las cuevas de Danger, Hogup y Lovelock conservaron cestas, sandalias y señuelos de patos de junco: la vida en torno a lagos y pantanos que se iban secando."
+        },
+        {
+          "desde": 1,
+          "hasta": 1300,
+          "nombre": "Fremont y Arcaico tardío",
+          "resumen": "En Utah, los fremont cultivan maíz, viven en aldeas de casas-pozo y dejan arte rupestre y figurillas de arcilla hasta su desaparición hacia 1300; en el resto de la región siguen los cazadores-recolectores."
+        },
+        {
+          "desde": 1300,
+          "hasta": 1776,
+          "nombre": "Pueblos númicos",
+          "resumen": "Paiutes, shoshones y utes ocupan toda la región, quizá tras una expansión desde el suroeste de la Gran Cuenca. Utes y shoshones adoptan el caballo en los siglos XVII y XVIII; los paiutes del sur siguen a pie."
+        },
+        {
+          "desde": 1776,
+          "hasta": 1847,
+          "nombre": "Exploradores y tráfico de cautivos",
+          "resumen": "La expedición de Domínguez y Escalante (1776) recorre Utah. Por el Viejo Camino Español (1829-1848), utes y nuevomexicanos llevaban cautivos paiutes, sobre todo niños, para venderlos como sirvientes en Nuevo México y California."
+        },
+        {
+          "desde": 1847,
+          "hasta": 1900,
+          "nombre": "Mormones, minería y guerras",
+          "resumen": "Los mormones llegan al valle del Lago Salado en 1847 y la plata de Comstock (1859) puebla Nevada. En la matanza de Bear River (1863), voluntarios de California mataron a unos 250 shoshones o más; los profetas paiutes Wodziwob (1870) y Wovoka (1889) iniciaron las Danzas de los Espíritus."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Reservas y ciudades del desierto",
+          "resumen": "Las reservas son pequeñas y dispersas; Salt Lake City y Las Vegas crecen en el siglo XX con el riego, la minería, las bases militares y, en Las Vegas, el juego."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 37500,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -12300,
+          "hasta": 1860,
+          "nombre": "Religiones de la Gran Cuenca (chamanes, danza circular, sueños y visiones)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1847,
+          "hasta": 1860,
+          "nombre": "Mormonismo",
+          "familia": "mormonismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1860,
+          "hasta": 1960,
+          "nombre": "Mormonismo (Iglesia de Jesucristo de los Santos de los Últimos Días)",
+          "familia": "mormonismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Danzas de los Espíritus, Iglesia Nativa Americana y ceremonias tradicionales",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Cristianismo (mormones, católicos y protestantes, sin mayoría de ninguno)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Mormonismo",
+          "familia": "mormonismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -12300,
+          "hasta": -7000,
+          "nombre": "Paleoindios (tradición de puntas pedunculadas del oeste)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -7000,
+          "hasta": 1000,
+          "nombre": "Cazadores-recolectores del Arcaico del desierto",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": 1300,
+          "nombre": "Cultura Fremont (agricultores de Utah)",
+          "familia": "pueblos-originarios",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1860,
+          "nombre": "Pueblos númicos (paiutes, shoshones, utes) y washoe",
+          "familia": "gran-cuenca",
+          "peso": "mayoritaria",
+          "nota": "Lamb (1958) propuso que las lenguas númicas se expandieron desde el suroeste de la Gran Cuenca hacia el año 1000; es la hipótesis más citada, pero su fecha y su forma se discuten."
+        },
+        {
+          "desde": 1847,
+          "hasta": 1860,
+          "nombre": "Mormones y otros colonos",
+          "familia": "estadounidense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Estadounidenses de origen europeo (en Utah, sobre todo mormones)",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Paiutes, shoshones, utes y washoe",
+          "familia": "gran-cuenca",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Hispanos, sobre todo de origen mexicano",
+          "familia": "criolla",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -12300,
+          "hasta": 1000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1860,
+          "nombre": "Lenguas númicas (paiute, shoshone, ute) y washoe",
+          "familia": "yutoaztecas",
+          "peso": "mayoritaria",
+          "nota": "El washoe no es yutoazteca: es una lengua aislada."
+        },
+        {
+          "desde": 1776,
+          "hasta": 1860,
+          "nombre": "Español de los comerciantes nuevomexicanos",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1847,
+          "hasta": 1860,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Lenguas númicas y washoe",
+          "familia": "yutoaztecas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        }
+      ]
+    },
+    {
+      "id": "california-indigena",
+      "nombre": "California indígena",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -124.2,
+          42.0
+        ],
+        [
+          -124.3,
+          41.75
+        ],
+        [
+          -124.15,
+          41.0
+        ],
+        [
+          -124.4,
+          40.4
+        ],
+        [
+          -123.8,
+          39.4
+        ],
+        [
+          -123.7,
+          38.9
+        ],
+        [
+          -123.05,
+          38.0
+        ],
+        [
+          -122.5,
+          37.5
+        ],
+        [
+          -122.0,
+          36.95
+        ],
+        [
+          -121.9,
+          36.6
+        ],
+        [
+          -121.4,
+          35.8
+        ],
+        [
+          -120.9,
+          35.3
+        ],
+        [
+          -120.65,
+          34.6
+        ],
+        [
+          -120.6,
+          33.9
+        ],
+        [
+          -119.6,
+          33.15
+        ],
+        [
+          -118.3,
+          32.75
+        ],
+        [
+          -117.779,
+          32.528
+        ],
+        [
+          -114.744,
+          32.84
+        ],
+        [
+          -114.5,
+          33.6
+        ],
+        [
+          -114.4,
+          34.4
+        ],
+        [
+          -114.55,
+          35.1
+        ],
+        [
+          -115.8,
+          34.8
+        ],
+        [
+          -117.2,
+          35.25
+        ],
+        [
+          -118.2,
+          35.6
+        ],
+        [
+          -118.25,
+          36.4
+        ],
+        [
+          -118.9,
+          37.6
+        ],
+        [
+          -119.75,
+          38.6
+        ],
+        [
+          -120.2,
+          39.3
+        ],
+        [
+          -120.3,
+          40.6
+        ],
+        [
+          -120.55,
+          41.95
+        ],
+        [
+          -121.4,
+          41.85
+        ],
+        [
+          -122.35,
+          42.15
+        ],
+        [
+          -123.5,
+          42.0
+        ]
+      ],
+      "resumen": "California al oeste de la Sierra Nevada y del desierto, de la frontera de Oregón a la de México, con las islas del Canal. Sin agricultura, sus pueblos alcanzaron algunas de las densidades de población más altas de Norteamérica gracias a las bellotas, el pescado y los mariscos, y hablaban más de ochenta lenguas. Las misiones franciscanas (1769-1834), la fiebre del oro y las matanzas que la siguieron redujeron la población indígena a una fracción de la original.",
+      "eras": [
+        {
+          "desde": -11000,
+          "hasta": -6000,
+          "nombre": "Primeros pobladores",
+          "resumen": "Los restos del hombre de Arlington Springs, en la isla Santa Rosa, tienen unos 13 000 años: quienes vivieron allí tuvieron que llegar por mar. En las islas del Canal hay concheros de la misma época."
+        },
+        {
+          "desde": -6000,
+          "hasta": 500,
+          "nombre": "Arcaico",
+          "resumen": "Recolectores de semillas que molían en morteros y metates y, en la costa, pescadores y mariscadores."
+        },
+        {
+          "desde": 500,
+          "hasta": 1769,
+          "nombre": "Pueblos de California",
+          "resumen": "Las bellotas, molidas y lavadas para quitarles el tanino, sostienen aldeas grandes y estables. Los chumash construyen canoas de tablones (tomol) y usan cuentas de concha como moneda; en el noroeste, yurok, karuk y hupa celebran ceremonias de renovación del mundo."
+        },
+        {
+          "desde": 1769,
+          "hasta": 1834,
+          "nombre": "Misiones españolas",
+          "resumen": "Desde San Diego (1769), los franciscanos fundan veintiuna misiones en la costa; los indígenas bautizados quedaban sujetos a la misión y las fugas se castigaban, y la mortalidad por enfermedades fue muy alta. México secularizó las misiones en 1834."
+        },
+        {
+          "desde": 1834,
+          "hasta": 1873,
+          "nombre": "México, la fiebre del oro y las matanzas",
+          "resumen": "Tras la secularización, muchos indígenas quedan como peones de los ranchos. Con la conquista estadounidense (1846-1848) y la fiebre del oro, milicias, voluntarios y el ejército mataron a miles de indígenas —entre 9500 y 16 000 según Madley (2016), que lo califica de genocidio— y una ley de 1850 permitía someterlos a servidumbre."
+        },
+        {
+          "desde": 1873,
+          "hasta": null,
+          "nombre": "California estadounidense",
+          "resumen": "Tras la guerra modoc (1872-1873), los sobrevivientes quedan en pequeñas rancherías y reservas, y muchas tribus no fueron reconocidas por el gobierno federal hasta el siglo XX. California se convirtió en el estado más poblado de Estados Unidos."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 221000,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "min": 133000,
+          "max": 310000,
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones. Para California, Kroeber (1925) calculó unos 133 000 habitantes y Cook (1976) unos 310 000, ambos hacia el contacto."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1850,
+          "nombre": "Religiones de California (Kuksu en el centro, culto del toloache en el sur, renovación del mundo en el noroeste)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1769,
+          "hasta": 1850,
+          "nombre": "Catolicismo de las misiones",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Hacia 1820 vivían en las misiones unas 21 000 personas indígenas."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Cristianismo (protestantes y católicos)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -6000,
+          "nombre": "Paleoindios y pobladores paleocosteros",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -6000,
+          "hasta": 500,
+          "nombre": "Recolectores y pescadores del Arcaico",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": 1850,
+          "nombre": "Pueblos de California (chumash, tongva, ohlone, miwok, pomo, maidu, yokuts, wintun, yurok, hupa y muchos otros)",
+          "familia": "californiana",
+          "peso": "mayoritaria",
+          "nota": "Según Cook (1976), la población indígena cayó de unos 150 000 en 1848 a unos 30 000 en 1870."
+        },
+        {
+          "desde": 1769,
+          "hasta": 1850,
+          "nombre": "Soldados, misioneros y pobladores españoles y mexicanos (californios)",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Estadounidenses (de origen europeo, latinoamericano, asiático y africano)",
+          "familia": "estadounidense",
+          "peso": "mayoritaria",
+          "nota": "Desde 2014, aproximadamente, los hispanos son el grupo más numeroso de California."
+        },
+        {
+          "desde": 1850,
+          "hasta": 1960,
+          "nombre": "Mexicanos y californios",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Hispanos (mexicanos y centroamericanos)",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Pueblos indígenas de California",
+          "familia": "californiana",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": -6000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -6000,
+          "hasta": 1850,
+          "nombre": "Más de ochenta lenguas de una veintena de familias (yutoaztecas, atabascanas, álgicas, yokuts, miwok-costanas, pomo y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "California fue una de las regiones de mayor diversidad lingüística del mundo; las agrupaciones hokana y penutí, que reúnen a varias de estas familias, son hipótesis discutidas."
+        },
+        {
+          "desde": 1769,
+          "hasta": 1850,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1960,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Lenguas originarias, casi todas extinguidas o en peligro",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "suroeste-norteamericano",
+      "nombre": "Suroeste norteamericano",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -103.442,
+          29.139
+        ],
+        [
+          -106.337,
+          31.838
+        ],
+        [
+          -111.244,
+          31.44
+        ],
+        [
+          -114.744,
+          32.84
+        ],
+        [
+          -114.5,
+          33.6
+        ],
+        [
+          -114.4,
+          34.4
+        ],
+        [
+          -114.55,
+          35.1
+        ],
+        [
+          -113.9,
+          35.95
+        ],
+        [
+          -112.4,
+          36.75
+        ],
+        [
+          -110.6,
+          37.4
+        ],
+        [
+          -109.3,
+          37.9
+        ],
+        [
+          -108.0,
+          37.8
+        ],
+        [
+          -106.5,
+          38.0
+        ],
+        [
+          -105.3,
+          38.05
+        ],
+        [
+          -105.0,
+          36.5
+        ],
+        [
+          -104.6,
+          35.0
+        ],
+        [
+          -104.0,
+          33.0
+        ],
+        [
+          -103.6,
+          31.5
+        ]
+      ],
+      "resumen": "Arizona, Nuevo México, el oeste de Texas y el sur de Colorado y Utah: desiertos, mesetas y montañas adonde el maíz llegó desde México hacia 2100 a. C. Allí florecieron los hohokam, con sus canales de riego, y los ancestrales pueblo de Chaco Canyon y Mesa Verde, cuyos descendientes —hopis, zuñis y los pueblos del Río Grande— siguen en sus tierras; apaches y navajos llegaron desde el norte hacia los siglos XV y XVI. Fue frontera de la Nueva España desde 1598, escenario de la rebelión de los pueblos (1680) y pasó a Estados Unidos en 1848.",
+      "eras": [
+        {
+          "desde": -21000,
+          "hasta": -9000,
+          "nombre": "Paleoindios",
+          "resumen": "Las huellas humanas de White Sands, en Nuevo México, se fecharon en 23 000-21 000 años, una fecha que todavía se discute. Después vienen los cazadores de Clovis y Folsom, que cazaban mamuts y bisontes antiguos."
+        },
+        {
+          "desde": -9000,
+          "hasta": -2100,
+          "nombre": "Arcaico",
+          "resumen": "Cazadores-recolectores de la tradición del desierto (Cochise), con piedras de moler y cestería."
+        },
+        {
+          "desde": -2100,
+          "hasta": 750,
+          "nombre": "Primeros agricultores",
+          "resumen": "El maíz llega de México hacia 2100 a. C.; en Las Capas, junto a Tucson, hay canales de riego de hacia 1200 a. C. Aparecen las aldeas de casas-pozo y la cerámica."
+        },
+        {
+          "desde": 750,
+          "hasta": 1300,
+          "nombre": "Hohokam, mogollón y ancestrales pueblo",
+          "resumen": "Los hohokam riegan el valle de Phoenix con cientos de kilómetros de canales; en Chaco Canyon (850-1150) se levantan grandes casas unidas por caminos, y en Mesa Verde, casas en los acantilados. La gran sequía de 1276-1299 y la violencia llevaron al abandono de la región de las Cuatro Esquinas hacia 1300."
+        },
+        {
+          "desde": 1300,
+          "hasta": 1540,
+          "nombre": "Pueblos del Río Grande y llegada de apaches y navajos",
+          "resumen": "Los ancestrales pueblo se concentran en grandes pueblos sobre el Río Grande, en Zuñi y en Hopi, donde se difunde el culto de las kachinas. Los hohokam desaparecen hacia 1450 y les suceden los o'odham; los atabascanos meridionales, antepasados de apaches y navajos, llegan desde el norte."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1680,
+          "nombre": "Coronado y el Nuevo México español",
+          "resumen": "La expedición de Coronado (1540-1542) toma Zuñi y ataca los pueblos de Tiguex. Oñate funda Nuevo México en 1598 y, tras la resistencia de Acoma (1599), condenó a los hombres mayores de 25 años a perder un pie y a veinte años de servidumbre; no se sabe a cuántos se aplicó la amputación."
+        },
+        {
+          "desde": 1680,
+          "hasta": 1692,
+          "nombre": "Rebelión de los pueblos",
+          "resumen": "En agosto de 1680 los pueblos, coordinados por Popé, mataron a unos 400 colonos, entre ellos 21 franciscanos, y expulsaron a los españoles hasta El Paso. Diego de Vargas recuperó Santa Fe en 1692."
+        },
+        {
+          "desde": 1692,
+          "hasta": 1848,
+          "nombre": "Nuevo México y la Pimería Alta",
+          "resumen": "Españoles y pueblos se alían contra los ataques de comanches, apaches y navajos; en la Pimería Alta, Eusebio Kino funda misiones entre los o'odham desde 1687. Tras la independencia de México, la región pasa a Estados Unidos con la guerra de 1846-1848."
+        },
+        {
+          "desde": 1848,
+          "hasta": 1886,
+          "nombre": "Conquista estadounidense",
+          "resumen": "El ejército de Estados Unidos obliga a los navajos a la «Larga Caminata» hasta el Bosque Redondo (1864-1868), donde muchos murieron de hambre y enfermedades, y combate a los apaches hasta la rendición de Gerónimo en 1886."
+        },
+        {
+          "desde": 1886,
+          "hasta": null,
+          "nombre": "Reservas y crecimiento urbano",
+          "resumen": "La reserva navaja es la más extensa de Estados Unidos. Arizona y Nuevo México son estados desde 1912, y desde mediados del siglo XX Phoenix, Tucson, Albuquerque y El Paso crecen con el riego, las bases militares y la migración."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 454200,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones. Es la cifra más alta de las diez áreas: probablemente incluye a pueblos del norte de México (yaquis, mayos, tarahumaras y otros) que el Handbook trata dentro del Suroeste y que en este mapa están en Aridoamérica."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -21000,
+          "hasta": 1850,
+          "nombre": "Religiones del Suroeste (kivas y, desde el siglo XIV, culto de las kachinas entre los pueblos; ceremonias navajas y apaches)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1598,
+          "hasta": 1850,
+          "nombre": "Catolicismo (misiones franciscanas y jesuitas)",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Los franciscanos persiguieron las ceremonias pueblo y destruyeron máscaras y kivas, una de las causas de la rebelión de 1680."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Cristianismo (católicos hispanos e indígenas, protestantes angloamericanos)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Religiones pueblo, navajas y apaches",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1930,
+          "hasta": null,
+          "nombre": "Iglesia Nativa Americana entre los navajos",
+          "familia": "iglesia-nativa-americana",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -21000,
+          "hasta": -9000,
+          "nombre": "Paleoindios (White Sands, Clovis, Folsom)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las huellas de White Sands se fecharon en 23 000-21 000 años con semillas y con polen (Bennett et al., 2021; Pigati et al., 2023); otros investigadores objetan esas fechas. La ocupación segura empieza con Clovis, hacia 11 000 a. C."
+        },
+        {
+          "desde": -9000,
+          "hasta": -2100,
+          "nombre": "Cazadores-recolectores del Arcaico (Cochise)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2100,
+          "hasta": 1850,
+          "nombre": "Agricultores de Oasisamérica: hohokam, mogollón y ancestrales pueblo; después, pueblos, o'odham y yumanos",
+          "familia": "oasisamericana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1300,
+          "hasta": 1920,
+          "nombre": "Pueblos (hopi, zuñi y pueblos del Río Grande)",
+          "familia": "pueblo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Pueblos",
+          "familia": "pueblo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1450,
+          "hasta": 1920,
+          "nombre": "Apaches y navajos (atabascanos meridionales)",
+          "familia": "atabascana",
+          "peso": "importante",
+          "nota": "Su llegada se fecha entre 1300 y 1525 según los autores; la mayoría la ubica hacia 1400-1500."
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Navajos y apaches",
+          "familia": "atabascana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1598,
+          "hasta": 1750,
+          "nombre": "Neomexicanos (españoles, criollos, mestizos y genízaros)",
+          "familia": "criolla",
+          "peso": "minoritaria",
+          "nota": "En el siglo XVII los colonos de Nuevo México eran unos pocos miles, frente a decenas de miles de indios pueblo."
+        },
+        {
+          "desde": 1750,
+          "hasta": 1850,
+          "nombre": "Neomexicanos (españoles, criollos, mestizos y genízaros)",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1920,
+          "nombre": "Hispanos de Nuevo México y del sur de Arizona",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "Siguieron siendo la mayoría de la población de Nuevo México hasta comienzos del siglo XX."
+        },
+        {
+          "desde": 1850,
+          "hasta": 1920,
+          "nombre": "Angloamericanos",
+          "familia": "estadounidense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Estadounidenses (angloamericanos, hispanos e indígenas)",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Hispanos y mexicanos",
+          "familia": "criolla",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -21000,
+          "hasta": -2100,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2100,
+          "hasta": 1850,
+          "nombre": "Lenguas yutoaztecas (o'odham, hopi), tanoanas (tewa, tiwa, towa), keres, zuñi y yumanas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Algunos lingüistas (Hill, 2001) proponen que los hablantes de lenguas yutoaztecas trajeron el maíz desde México; la hipótesis se discute."
+        },
+        {
+          "desde": 1450,
+          "hasta": 1950,
+          "nombre": "Navajo y lenguas apaches",
+          "familia": "atabascanas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Navajo y lenguas apaches",
+          "familia": "atabascanas",
+          "peso": "minoritaria",
+          "nota": "El navajo es la lengua indígena con más hablantes de Estados Unidos, pero en la región es minoritaria frente al inglés y el español."
+        },
+        {
+          "desde": 1598,
+          "hasta": 1750,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1850,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1920,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1920,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1920,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Lenguas pueblo, o'odham y yumanas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "grandes-llanuras",
+      "nombre": "Grandes Llanuras",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -96.6,
+          28.65
+        ],
+        [
+          -97.2,
+          27.75
+        ],
+        [
+          -97.3,
+          26.6
+        ],
+        [
+          -97.15,
+          26.05
+        ],
+        [
+          -99.025,
+          26.531
+        ],
+        [
+          -101.337,
+          29.838
+        ],
+        [
+          -103.442,
+          29.139
+        ],
+        [
+          -103.6,
+          31.5
+        ],
+        [
+          -104.0,
+          33.0
+        ],
+        [
+          -104.6,
+          35.0
+        ],
+        [
+          -105.0,
+          36.5
+        ],
+        [
+          -105.3,
+          38.05
+        ],
+        [
+          -105.6,
+          39.3
+        ],
+        [
+          -106.0,
+          40.6
+        ],
+        [
+          -107.7,
+          41.6
+        ],
+        [
+          -109.6,
+          43.2
+        ],
+        [
+          -110.0,
+          44.9
+        ],
+        [
+          -113.0,
+          45.6
+        ],
+        [
+          -112.6,
+          46.4
+        ],
+        [
+          -112.7,
+          47.4
+        ],
+        [
+          -113.5,
+          48.6
+        ],
+        [
+          -114.6,
+          49.6
+        ],
+        [
+          -116.1,
+          51.0
+        ],
+        [
+          -118.3,
+          52.7
+        ],
+        [
+          -114.5,
+          54.0
+        ],
+        [
+          -105.5,
+          53.6
+        ],
+        [
+          -101.5,
+          53.0
+        ],
+        [
+          -98.0,
+          51.0
+        ],
+        [
+          -96.0,
+          50.0
+        ],
+        [
+          -95.0,
+          49.2
+        ],
+        [
+          -95.3,
+          47.5
+        ],
+        [
+          -93.9,
+          46.2
+        ],
+        [
+          -93.0,
+          45.0
+        ],
+        [
+          -91.6,
+          44.0
+        ],
+        [
+          -91.1,
+          42.8
+        ],
+        [
+          -90.5,
+          41.6
+        ],
+        [
+          -91.2,
+          40.3
+        ],
+        [
+          -90.6,
+          39.0
+        ],
+        [
+          -90.25,
+          38.75
+        ],
+        [
+          -89.6,
+          37.4
+        ],
+        [
+          -89.45,
+          36.6
+        ],
+        [
+          -94.6,
+          36.5
+        ],
+        [
+          -95.5,
+          35.0
+        ],
+        [
+          -96.0,
+          33.0
+        ],
+        [
+          -96.4,
+          30.6
+        ]
+      ],
+      "resumen": "Las praderas y estepas entre el Misisipi y las Rocosas, desde Alberta y Manitoba hasta el centro de Texas. Durante milenios fueron tierra de cazadores de bisontes y, a lo largo del Misuri y sus afluentes, de aldeas de agricultores; con el caballo, llegado desde Nuevo México después de 1680, surgieron las culturas ecuestres de lakotas, cheyennes, comanches o pies negros. La colonización estadounidense y canadiense del siglo XIX, la casi extinción del bisonte y las guerras de 1854-1890 terminaron con ellas y llevaron a los pueblos a reservas.",
+      "eras": [
+        {
+          "desde": -13500,
+          "hasta": -6500,
+          "nombre": "Paleoindios",
+          "resumen": "En Buttermilk Creek, en Texas, hay herramientas de unos 15 500 años, una fecha discutida; Blackwater Draw, junto a Clovis, y Folsom, en Nuevo México, dan nombre a las primeras culturas de cazadores de mamuts y bisontes antiguos."
+        },
+        {
+          "desde": -6500,
+          "hasta": -500,
+          "nombre": "Arcaico de las Llanuras",
+          "resumen": "Cazadores de bisontes que usaban despeñaderos, como Head-Smashed-In, en Alberta, utilizado durante más de 5000 años."
+        },
+        {
+          "desde": -500,
+          "hasta": 1000,
+          "nombre": "Woodland de las Llanuras",
+          "resumen": "Cerámica, montículos funerarios y los primeros cultivos en el este; en el oeste siguen los cazadores de bisontes."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Aldeas de las Llanuras",
+          "resumen": "Aldeas fortificadas de agricultores a lo largo del Misuri, antepasadas de mandanes, hidatsas y arikaras. En Crow Creek, en Dakota del Sur, una fosa de hacia 1325 guarda los restos de unas 480 personas muertas en un ataque; Coronado llegó a Quivira, entre los wichitas, en 1541."
+        },
+        {
+          "desde": 1700,
+          "hasta": 1877,
+          "nombre": "Culturas ecuestres",
+          "resumen": "Los caballos, difundidos desde Nuevo México tras la rebelión de 1680, y luego las armas de fuego permiten a lakotas, cheyennes, comanches, kiowas y pies negros vivir de la caza del bisonte a caballo. La viruela de 1837 casi destruyó a los mandanes, y la expansión estadounidense trajo guerras, con matanzas como la de Sand Creek (1864) y batallas como la de Little Bighorn (1876)."
+        },
+        {
+          "desde": 1877,
+          "hasta": 1934,
+          "nombre": "Reservas y colonización",
+          "resumen": "Estados Unidos confisca las Colinas Negras (1877) y reparte las reservas en parcelas (ley Dawes, 1887); en Wounded Knee (1890) el ejército mató a unos 250 lakotas o más. En Canadá, los tratados 1 a 7 (1871-1877) y la derrota de la rebelión del Noroeste (1885) abren las praderas a la colonización."
+        },
+        {
+          "desde": 1934,
+          "hasta": null,
+          "nombre": "Siglo XX",
+          "resumen": "La ley de reorganización india (1934) devuelve cierto autogobierno a las tribus, y en 1973 el Movimiento Indígena Americano ocupó Wounded Knee durante 71 días. Las llanuras son una de las grandes regiones agrícolas del mundo."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 189100,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -13500,
+          "hasta": 1840,
+          "nombre": "Religiones de las Llanuras (búsqueda de visión, pipa sagrada, Danza del Sol, sociedades de medicina)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1718,
+          "hasta": 1840,
+          "nombre": "Catolicismo de las misiones de Texas y de San Luis",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Protestantismo (bautistas, metodistas, luteranos y otros)",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Religiones de las Llanuras y Danza de los Espíritus (1889-1890)",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1918,
+          "hasta": null,
+          "nombre": "Iglesia Nativa Americana",
+          "familia": "iglesia-nativa-americana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 2000,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -13500,
+          "hasta": -6500,
+          "nombre": "Paleoindios (Clovis, Folsom, Plainview)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las herramientas del sitio Debra L. Friedkin, en Buttermilk Creek, se fecharon en unos 15 500 años (Waters et al., 2011); la fecha se discute."
+        },
+        {
+          "desde": -6500,
+          "hasta": 1000,
+          "nombre": "Cazadores de bisontes y, en el este, agricultores del Woodland de las Llanuras",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Aldeas agrícolas del Misuri y cazadores de bisontes a pie",
+          "familia": "llanera",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1840,
+          "nombre": "Pueblos ecuestres de las Llanuras (lakotas, cheyennes, comanches, kiowas, pies negros, crows, pawnees, osages y otros)",
+          "familia": "llanera",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1718,
+          "hasta": 1840,
+          "nombre": "Españoles y tejanos de San Antonio",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1764,
+          "hasta": 1840,
+          "nombre": "Franceses y criollos de San Luis y comerciantes métis",
+          "familia": "francesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Estadounidenses y canadienses de origen europeo",
+          "familia": "estadounidense",
+          "peso": "mayoritaria",
+          "nota": "Los colonos superan a los pueblos indígenas desde las décadas de 1830 y 1840 en Misuri, Iowa y Texas, y desde la de 1880 en el oeste de las llanuras."
+        },
+        {
+          "desde": 1840,
+          "hasta": 1880,
+          "nombre": "Pueblos de las Llanuras",
+          "familia": "llanera",
+          "peso": "importante"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Pueblos de las Llanuras",
+          "familia": "llanera",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Pobladores de las praderas canadienses",
+          "familia": "anglocanadiense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1820,
+          "hasta": null,
+          "nombre": "Afroamericanos",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": 1970,
+          "nombre": "Tejanos y mexicanos",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Hispanos",
+          "familia": "criolla",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -13500,
+          "hasta": 1000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1840,
+          "nombre": "Lenguas de las Llanuras: siux, caddoanas (pawnee, arikara, wichita), algonquinas (cheyenne, arapaho, pies negros, cree), atabascanas (apache), kiowa y comanche",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Ninguna familia reunía a la mayoría de los pueblos; la lengua de señas de las Llanuras servía entre pueblos de lenguas distintas."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1840,
+          "nombre": "Lenguas siux (lakota, dakota, crow, mandan, hidatsa, omaha, osage)",
+          "familia": "siux",
+          "peso": "importante",
+          "nota": "Es la familia con más pueblos en las Llanuras; algunos, como los lakotas, llegaron desde el este en los siglos XVII y XVIII."
+        },
+        {
+          "desde": 1718,
+          "hasta": 1840,
+          "nombre": "Español y francés",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": null,
+          "nombre": "Lenguas siux y otras lenguas originarias",
+          "familia": "siux",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1840,
+          "hasta": 1970,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        }
+      ]
+    },
+    {
+      "id": "bosques-del-noreste",
+      "nombre": "Bosques del noreste",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -58.577,
+          46.529
+        ],
+        [
+          -58.778,
+          42.929
+        ],
+        [
+          -68.778,
+          42.729
+        ],
+        [
+          -68.93,
+          40.276
+        ],
+        [
+          -72.927,
+          39.48
+        ],
+        [
+          -74.436,
+          34.368
+        ],
+        [
+          -76.6,
+          34.75
+        ],
+        [
+          -77.6,
+          35.7
+        ],
+        [
+          -80.0,
+          36.55
+        ],
+        [
+          -84.0,
+          36.6
+        ],
+        [
+          -89.45,
+          36.6
+        ],
+        [
+          -89.6,
+          37.4
+        ],
+        [
+          -90.25,
+          38.75
+        ],
+        [
+          -90.6,
+          39.0
+        ],
+        [
+          -91.2,
+          40.3
+        ],
+        [
+          -90.5,
+          41.6
+        ],
+        [
+          -91.1,
+          42.8
+        ],
+        [
+          -91.6,
+          44.0
+        ],
+        [
+          -93.0,
+          45.0
+        ],
+        [
+          -93.9,
+          46.2
+        ],
+        [
+          -95.3,
+          47.5
+        ],
+        [
+          -95.0,
+          49.2
+        ],
+        [
+          -92.5,
+          48.55
+        ],
+        [
+          -90.0,
+          47.7
+        ],
+        [
+          -84.8,
+          46.9
+        ],
+        [
+          -82.0,
+          46.55
+        ],
+        [
+          -79.4,
+          46.6
+        ],
+        [
+          -77.0,
+          47.0
+        ],
+        [
+          -72.0,
+          47.4
+        ],
+        [
+          -70.3,
+          47.85
+        ],
+        [
+          -67.5,
+          49.0
+        ],
+        [
+          -64.4,
+          49.35
+        ],
+        [
+          -61.5,
+          47.8
+        ]
+      ],
+      "resumen": "Los bosques de la costa atlántica, el valle del San Lorenzo, los Grandes Lagos y el valle del Ohio, de Nueva Escocia y Quebec a Virginia e Illinois. Fue tierra de pueblos algonquinos e iroqueses que combinaban el cultivo del maíz, el frijol y la calabaza con la caza y la pesca, herederos de las culturas Adena y Hopewell; en su extremo oeste estuvo la ciudad misisipiana de Cahokia. Desde el siglo XVII franceses, holandeses e ingleses fundaron allí sus colonias, y la región fue el centro de la independencia de Estados Unidos y de la formación de Canadá.",
+      "eras": [
+        {
+          "desde": -14000,
+          "hasta": -8000,
+          "nombre": "Paleoindios",
+          "resumen": "El abrigo de Meadowcroft, en Pensilvania, tendría ocupaciones de hace unos 16 000 años, una fecha discutida; los sitios de Debert, en Nueva Escocia, y Bull Brook, en Massachusetts, muestran cazadores de caribúes de fines del Pleistoceno."
+        },
+        {
+          "desde": -8000,
+          "hasta": -1000,
+          "nombre": "Arcaico",
+          "resumen": "Cazadores, pescadores y recolectores; en los Grandes Lagos, el Complejo del Cobre Antiguo trabaja el cobre nativo desde hace más de 8000 años."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1000,
+          "nombre": "Woodland: Adena y Hopewell",
+          "resumen": "Aparecen la cerámica y los primeros cultivos; en el valle del Ohio, las culturas Adena (primer milenio a. C.) y Hopewell (hacia 100 a. C.-500 d. C.) levantan túmulos y recintos de tierra y comercian obsidiana, cobre y conchas de todo el continente."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1607,
+          "nombre": "Maíz, confederaciones y Cahokia",
+          "resumen": "El maíz se vuelve el cultivo principal; los iroqueses viven en aldeas de casas largas con empalizadas y forman la Confederación de las Cinco Naciones, cuya fundación se fecha entre 1142 y comienzos del siglo XVII según los autores. En el extremo oeste, Cahokia (1050-1350) fue la mayor ciudad al norte de México."
+        },
+        {
+          "desde": 1607,
+          "hasta": 1763,
+          "nombre": "Colonias europeas y guerras",
+          "resumen": "Se fundan Jamestown (1607), Quebec (1608), Plymouth (1620) y Nueva Ámsterdam (1625); las epidemias de 1616-1619 y 1633 vacían la costa de Nueva Inglaterra. Las guerras de los castores dispersan a los hurones (1649), y las guerras pequot (1636-1638), del rey Felipe (1675-1676) y franco-india (1754-1763) deciden el dominio británico."
+        },
+        {
+          "desde": 1763,
+          "hasta": 1830,
+          "nombre": "Revolución e independencias",
+          "resumen": "La Proclamación de 1763 limita la colonización al oeste de los Apalaches; tras la independencia de Estados Unidos (1776-1783), los leales a la Corona se mudan a Canadá. La guerra del Noroeste (1785-1795) y la muerte de Tecumseh (1813) abren el valle del Ohio a los colonos."
+        },
+        {
+          "desde": 1830,
+          "hasta": null,
+          "nombre": "Traslados forzosos e industrialización",
+          "resumen": "La ley de traslado de 1830 expulsa al oeste a la mayoría de los pueblos al sur de los Grandes Lagos. La región se industrializa y recibe millones de inmigrantes; Quebec, Ontario, Nueva Escocia y Nuevo Brunswick forman la Confederación canadiense en 1867."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 357700,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -14000,
+          "hasta": 1700,
+          "nombre": "Religiones de los bosques orientales (manitú y orenda, chamanes, sociedad Midewiwin de los ojibwas, Fiesta de los Muertos de los hurones)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1615,
+          "hasta": 1700,
+          "nombre": "Catolicismo (misiones en Huronia desde 1615, Nueva Francia y Maryland)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Catolicismo (Nueva Francia y Quebec, Maryland y luego la inmigración irlandesa e italiana)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1640,
+          "nombre": "Protestantismo (anglicanos, puritanos, reformados holandeses)",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1640,
+          "hasta": 1700,
+          "nombre": "Protestantismo (anglicanos, puritanos, reformados holandeses)",
+          "familia": "protestantismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1900,
+          "nombre": "Protestantismo (anglicanos, congregacionalistas, cuáqueros, presbiterianos, luteranos, bautistas, metodistas)",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Cristianismo (católicos y protestantes en proporciones parecidas)",
+          "familia": "cristianismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1654,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1799,
+          "hasta": null,
+          "nombre": "Religión de la Casa Larga (Handsome Lake)",
+          "familia": "casa-larga",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -14000,
+          "hasta": -8000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "La fecha de Meadowcroft (unos 16 000 años) se discute desde la década de 1970."
+        },
+        {
+          "desde": -8000,
+          "hasta": -1000,
+          "nombre": "Cazadores-recolectores del Arcaico (Laurentino, Cobre Antiguo, Marítimo)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1000,
+          "nombre": "Culturas del Woodland (Adena, Hopewell y otras)",
+          "familia": "woodland",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Pueblos algonquinos (lenapes, wampanoags, powhatans, mi'kmaq, ojibwas, shawnees, miamis, illinois y otros)",
+          "familia": "algonquina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Pueblos iroqueses (haudenosaunee, hurones, neutrales, eries, susquehannocks)",
+          "familia": "iroquesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1050,
+          "hasta": 1450,
+          "nombre": "Cahokia y otros pueblos misisipianos del valle medio del Misisipi",
+          "familia": "misisipiana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1640,
+          "nombre": "Colonos ingleses (Virginia, Maryland, Nueva Inglaterra)",
+          "familia": "inglesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1640,
+          "hasta": 1700,
+          "nombre": "Colonos ingleses (Virginia, Maryland, Nueva Inglaterra)",
+          "familia": "inglesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1608,
+          "hasta": 1700,
+          "nombre": "Franceses de Canadá y acadianos",
+          "familia": "francesa",
+          "peso": "minoritaria",
+          "nota": "Nueva Francia tenía unos 15 000 habitantes de origen europeo hacia 1700."
+        },
+        {
+          "desde": 1700,
+          "hasta": 1763,
+          "nombre": "Franceses de Canadá y acadianos",
+          "familia": "francesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1624,
+          "hasta": 1700,
+          "nombre": "Neerlandeses de Nueva Holanda",
+          "familia": "neerlandesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1776,
+          "nombre": "Colonos ingleses, escoceses-irlandeses y alemanes de las Trece Colonias",
+          "familia": "inglesa",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1776,
+          "hasta": null,
+          "nombre": "Estadounidenses",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1763,
+          "hasta": null,
+          "nombre": "Francocanadienses",
+          "familia": "francocanadiense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Anglocanadienses",
+          "familia": "anglocanadiense",
+          "peso": "importante"
+        },
+        {
+          "desde": 1619,
+          "hasta": null,
+          "nombre": "Africanos esclavizados y afroamericanos",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Pueblos algonquinos e iroqueses",
+          "familia": "algonquina",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -14000,
+          "hasta": 1000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Lenguas algonquinas",
+          "familia": "algonquinas",
+          "peso": "mayoritaria",
+          "nota": "Roger Williams publicó un vocabulario del narragansett (1643), y la Biblia que John Eliot tradujo al massachusett con colaboradores indígenas (1663) fue la primera Biblia completa impresa en América."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1700,
+          "nombre": "Lenguas iroquesas",
+          "familia": "iroquesas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Lenguas algonquinas e iroquesas",
+          "familia": "algonquinas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1640,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1640,
+          "hasta": 1700,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1608,
+          "hasta": 1700,
+          "nombre": "Francés",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Francés",
+          "familia": "frances",
+          "peso": "importante"
+        },
+        {
+          "desde": 1624,
+          "hasta": 1800,
+          "nombre": "Neerlandés",
+          "familia": "neerlandes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1683,
+          "hasta": 1900,
+          "nombre": "Alemán de Pensilvania",
+          "familia": "aleman",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "sudeste-norteamericano",
+      "nombre": "Sudeste norteamericano",
+      "padre": "norteamerica",
+      "poligono": [
+        [
+          -74.436,
+          34.368
+        ],
+        [
+          -79.09,
+          28.097
+        ],
+        [
+          -79.038,
+          28.036
+        ],
+        [
+          -79.377,
+          24.429
+        ],
+        [
+          -83.172,
+          24.279
+        ],
+        [
+          -83.162,
+          24.363
+        ],
+        [
+          -86.839,
+          29.238
+        ],
+        [
+          -87.5,
+          30.25
+        ],
+        [
+          -88.1,
+          30.2
+        ],
+        [
+          -89.3,
+          30.25
+        ],
+        [
+          -89.4,
+          29.6
+        ],
+        [
+          -89.15,
+          29.0
+        ],
+        [
+          -90.2,
+          29.05
+        ],
+        [
+          -91.8,
+          29.45
+        ],
+        [
+          -93.85,
+          29.65
+        ],
+        [
+          -94.9,
+          29.25
+        ],
+        [
+          -96.6,
+          28.65
+        ],
+        [
+          -96.4,
+          30.6
+        ],
+        [
+          -96.0,
+          33.0
+        ],
+        [
+          -95.5,
+          35.0
+        ],
+        [
+          -94.6,
+          36.5
+        ],
+        [
+          -89.45,
+          36.6
+        ],
+        [
+          -84.0,
+          36.6
+        ],
+        [
+          -80.0,
+          36.55
+        ],
+        [
+          -77.6,
+          35.7
+        ],
+        [
+          -76.6,
+          34.75
+        ]
+      ],
+      "resumen": "Las llanuras costeras, los valles y los montes del sur de Estados Unidos, de Carolina del Norte y Tennessee a Florida, Luisiana y el este de Texas y Oklahoma. Aquí se levantaron los montículos más antiguos de Norteamérica (Watson Brake, Poverty Point) y los cacicazgos misisipianos de Moundville, Etowah y Spiro; tras las expediciones españolas y las epidemias, sus sobrevivientes formaron las naciones creek, cheroqui, choctaw y chickasaw. La economía de plantación con esclavos africanos y la ley de traslado de 1830, con el sendero de lágrimas, cambiaron por completo su población.",
+      "eras": [
+        {
+          "desde": -12550,
+          "hasta": -8000,
+          "nombre": "Paleoindios",
+          "resumen": "En Page-Ladson, en un río de Florida, hay herramientas de piedra y huesos de mastodonte de hace unos 14 550 años (Halligan et al., 2016)."
+        },
+        {
+          "desde": -8000,
+          "hasta": -1000,
+          "nombre": "Arcaico y primeros montículos",
+          "resumen": "Watson Brake, en Luisiana, tiene montículos de hacia 3500 a. C., los más antiguos de Norteamérica, y Poverty Point (hacia 1700-1100 a. C.) fue un gran centro de terraplenes. En Stallings Island, en Georgia, se hizo una de las cerámicas más antiguas de Norteamérica."
+        },
+        {
+          "desde": -1000,
+          "hasta": 800,
+          "nombre": "Woodland",
+          "resumen": "Cerámica, aldeas y túmulos; Marksville y Swift Creek participan de la red Hopewell, y Weeden Island florece en Florida y Georgia."
+        },
+        {
+          "desde": 800,
+          "hasta": 1513,
+          "nombre": "Cacicazgos misisipianos",
+          "resumen": "Cacicazgos con plazas y plataformas de tierra que sostenían templos y casas de jefes: Moundville, Etowah, Spiro, Coosa, Apalachee. Muchos centros se despoblaron o se reorganizaron antes de la llegada de los europeos."
+        },
+        {
+          "desde": 1513,
+          "hasta": 1715,
+          "nombre": "Expediciones españolas, epidemias y trata de indios",
+          "resumen": "Ponce de León llega a Florida en 1513; la expedición de Hernando de Soto (1539-1543) recorre la región y en Mabila (1540) mata a miles de guerreros de Tascalusa, según sus cronistas. España funda San Agustín (1565) y misiones entre timucuas y apalaches; desde Carolina (1670), comerciantes ingleses compran y venden decenas de miles de indígenas esclavizados hasta la guerra yamasee (1715)."
+        },
+        {
+          "desde": 1715,
+          "hasta": 1830,
+          "nombre": "Confederaciones indígenas y plantaciones",
+          "resumen": "Creeks, cheroquis, choctaws y chickasaws comercian y negocian con británicos, franceses (Nueva Orleans, 1718) y españoles; los natchez son destruidos por los franceses en 1729-1731. Las plantaciones de arroz, índigo y luego algodón se expanden con trabajo esclavo africano."
+        },
+        {
+          "desde": 1830,
+          "hasta": 1865,
+          "nombre": "Traslados forzosos y esclavitud",
+          "resumen": "La ley de traslado de 1830 deporta a las cinco naciones al Territorio Indio; en el sendero de lágrimas de los cheroquis (1838-1839) murieron unos 4000, según la estimación más citada. La guerra civil (1861-1865) termina con la esclavitud."
+        },
+        {
+          "desde": 1865,
+          "hasta": null,
+          "nombre": "El Sur de Estados Unidos",
+          "resumen": "Reconstrucción, segregación racial y lucha por los derechos civiles, que culmina en las leyes de 1964 y 1965. En la región quedan los cheroquis del este, los seminolas y miccosukees de Florida y los choctaws de Misisipi."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 1500,
+          "poblacion": 204400,
+          "fuente": "Ubelaker (1988), «North American Indian population size, A.D. 1500 to 1985», American Journal of Physical Anthropology 77",
+          "nota": "Estimación hacia 1500, sumada pueblo por pueblo con los volúmenes del Handbook of North American Indians (Smithsonian). El total de Ubelaker para Estados Unidos y Canadá es de 1 894 350 personas; otros autores proponen cifras mucho mayores, como Dobyns (1983), con unos 18 millones."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -12550,
+          "hasta": 800,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 1600,
+          "nombre": "Religión misisipiana (Complejo Ceremonial del Sudeste)",
+          "familia": "complejo-ceremonial-del-sudeste",
+          "peso": "mayoritaria",
+          "nota": "Sus símbolos —el hombre halcón, la cruz en el círculo, el ojo en la mano— se documentan sobre todo entre 1200 y 1650."
+        },
+        {
+          "desde": 1600,
+          "hasta": 1750,
+          "nombre": "Religiones del Sudeste (fuego sagrado, Fiesta del Maíz Verde)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1704,
+          "nombre": "Catolicismo de las misiones de Florida",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Protestantismo (bautistas y metodistas, mayoritarios desde el siglo XIX)",
+          "familia": "protestantismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1704,
+          "hasta": 1960,
+          "nombre": "Catolicismo (Luisiana y Florida)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Catolicismo (Luisiana, Florida y migrantes hispanos)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -12550,
+          "hasta": -8000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -8000,
+          "hasta": -1000,
+          "nombre": "Cazadores-recolectores y constructores de montículos del Arcaico",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 800,
+          "nombre": "Culturas del Woodland",
+          "familia": "woodland",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 1600,
+          "nombre": "Cacicazgos misisipianos",
+          "familia": "misisipiana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1750,
+          "nombre": "Pueblos del Sudeste (creeks, cheroquis, choctaws, chickasaws, natchez, caddos, timucuas, apalaches)",
+          "familia": "pueblos-del-sudeste",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1838,
+          "nombre": "Pueblos del Sudeste",
+          "familia": "pueblos-del-sudeste",
+          "peso": "importante"
+        },
+        {
+          "desde": 1838,
+          "hasta": null,
+          "nombre": "Cheroquis del este, seminolas, choctaws de Misisipi y otros",
+          "familia": "pueblos-del-sudeste",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1763,
+          "nombre": "Españoles de Florida",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1699,
+          "hasta": 1803,
+          "nombre": "Franceses y criollos de Luisiana",
+          "familia": "francesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1670,
+          "hasta": 1750,
+          "nombre": "Colonos ingleses",
+          "familia": "inglesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1776,
+          "nombre": "Colonos británicos",
+          "familia": "inglesa",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1776,
+          "hasta": null,
+          "nombre": "Estadounidenses",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1670,
+          "hasta": null,
+          "nombre": "Africanos esclavizados y afroamericanos",
+          "familia": "afrodescendiente",
+          "peso": "importante",
+          "nota": "En 1860 eran cerca del 40 % de la población del Sur y más de la mitad en Carolina del Sur y Misisipi."
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Hispanos (cubanos en Florida desde 1959, mexicanos y centroamericanos)",
+          "familia": "criolla",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -12550,
+          "hasta": 800,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 800,
+          "hasta": 1750,
+          "nombre": "Lenguas muskogi (creek, choctaw, chickasaw, apalache, alabama)",
+          "familia": "muskogi",
+          "peso": "mayoritaria",
+          "nota": "Se supone que muchos cacicazgos misisipianos hablaban lenguas muskogi, pero no hay pruebas directas. Junto a ellas había lenguas de otras familias o aisladas: cheroqui (iroquesa), caddo, natchez, timucua, yuchi."
+        },
+        {
+          "desde": 800,
+          "hasta": 1838,
+          "nombre": "Cheroqui",
+          "familia": "iroquesas",
+          "peso": "importante"
+        },
+        {
+          "desde": 800,
+          "hasta": 1763,
+          "nombre": "Timucua, calusa y otras lenguas de Florida",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria",
+          "nota": "El timucua, una lengua aislada, es la primera lengua indígena de los actuales Estados Unidos con libros impresos: los catecismos y confesionarios bilingües de fray Francisco Pareja (1612-1627). Sus últimos hablantes salieron a Cuba con los españoles en 1763."
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Lenguas muskogi",
+          "familia": "muskogi",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1670,
+          "hasta": 1750,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1763,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1699,
+          "hasta": null,
+          "nombre": "Francés de Luisiana",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Gullah y otros criollos de base inglesa",
+          "familia": "criollas-inglesas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        }
+      ]
+    },
+    {
+      "id": "area-maya",
+      "nombre": "Área maya",
+      "padre": "mesoamerica",
+      "poligono": [
+        [
+          -94.1,
+          18.18
+        ],
+        [
+          -93.2,
+          18.4
+        ],
+        [
+          -92.65,
+          18.5
+        ],
+        [
+          -91.85,
+          18.62
+        ],
+        [
+          -91.3,
+          18.95
+        ],
+        [
+          -90.75,
+          19.4
+        ],
+        [
+          -90.65,
+          19.6
+        ],
+        [
+          -90.45,
+          19.8
+        ],
+        [
+          -90.42,
+          20.4
+        ],
+        [
+          -90.32,
+          20.95
+        ],
+        [
+          -89.65,
+          21.15
+        ],
+        [
+          -88.8,
+          21.35
+        ],
+        [
+          -88.0,
+          21.53
+        ],
+        [
+          -87.15,
+          21.45
+        ],
+        [
+          -87.25,
+          20.6
+        ],
+        [
+          -87.45,
+          19.5
+        ],
+        [
+          -87.62,
+          18.5
+        ],
+        [
+          -87.9,
+          17.7
+        ],
+        [
+          -88.25,
+          16.5
+        ],
+        [
+          -88.5,
+          15.95
+        ],
+        [
+          -88.2,
+          15.72
+        ],
+        [
+          -88.4,
+          15.2
+        ],
+        [
+          -88.8,
+          14.75
+        ],
+        [
+          -89.15,
+          14.4
+        ],
+        [
+          -89.3,
+          13.95
+        ],
+        [
+          -89.35,
+          13.5
+        ],
+        [
+          -89.85,
+          13.6
+        ],
+        [
+          -90.1,
+          13.75
+        ],
+        [
+          -91.4,
+          14.1
+        ],
+        [
+          -92.3,
+          14.75
+        ],
+        [
+          -93.0,
+          15.35
+        ],
+        [
+          -93.95,
+          16.15
+        ],
+        [
+          -94.2,
+          16.6
+        ],
+        [
+          -94.0,
+          17.2
+        ],
+        [
+          -94.2,
+          17.9
+        ]
+      ],
+      "resumen": "El sureste de México (Yucatán, Campeche, Quintana Roo, Tabasco y Chiapas), Guatemala, Belice y el oeste de Honduras y de El Salvador: la tierra de los mayas, de las selvas del Petén a los altos volcánicos. Allí se desarrollaron ciudades-estado como Tikal, Calakmul, Palenque y Copán, con una escritura logosilábica capaz de registrar su lengua, calendarios que combinaban un ciclo ritual de 260 días, el año de 365 y la cuenta larga, y guerras frecuentes entre dinastías. Tras la conquista española (1524-1697) los mayas siguieron siendo la mayoría de la población hasta el siglo XX, y hoy son una parte importante de ella, sobre todo en Guatemala y Yucatán.",
+      "eras": [
+        {
+          "desde": -11000,
+          "hasta": -2000,
+          "nombre": "Primeros pobladores",
+          "resumen": "En la cueva sumergida de Hoyo Negro, en Quintana Roo, se halló el esqueleto de una adolescente, Naia, de hace entre 12 000 y 13 000 años. El cultivo del maíz se extiende por las tierras bajas entre 3000 y 2000 a. C."
+        },
+        {
+          "desde": -2000,
+          "hasta": 250,
+          "nombre": "Preclásico",
+          "resumen": "Aldeas agrícolas y luego grandes centros: Aguada Fénix (hacia 1000 a. C.), Nakbé y El Mirador en el Petén, Kaminaljuyú en los altos. Los murales de San Bartolo (hacia 100 a. C.) muestran ya la escritura y la realeza sagrada."
+        },
+        {
+          "desde": 250,
+          "hasta": 900,
+          "nombre": "Clásico",
+          "resumen": "Decenas de reinos con dinastías que registran en estelas sus fechas, guerras y alianzas; la rivalidad entre Tikal y Calakmul dominó los siglos VI y VII. Entre 800 y 950 la mayoría de las ciudades de las tierras bajas del sur se despuebla, en un colapso cuyas causas —sequías, guerra, sobrepoblación— se discuten."
+        },
+        {
+          "desde": 900,
+          "hasta": 1524,
+          "nombre": "Posclásico",
+          "resumen": "El centro se desplaza al norte de Yucatán, con Chichén Itzá y luego Mayapán (hacia 1220-1450); en los altos de Guatemala se forman los reinos k'iche' y kaqchikel. Cuando llegan los españoles, Yucatán está dividido en numerosas provincias rivales."
+        },
+        {
+          "desde": 1524,
+          "hasta": 1697,
+          "nombre": "Conquista",
+          "resumen": "Pedro de Alvarado conquista los altos de Guatemala desde 1524, con aliados nahuas y kaqchikeles, y los Montejo, Yucatán entre 1527 y 1546, con la fundación de Mérida en 1542. Los itzaes de Tayasal, en el Petén, resistieron hasta 1697."
+        },
+        {
+          "desde": 1697,
+          "hasta": 1821,
+          "nombre": "Colonia",
+          "resumen": "Encomiendas, repartimientos y pueblos de indios bajo la Audiencia de Guatemala y la gobernación de Yucatán; las rebeliones tzeltal (1712) y de Jacinto Canek (1761) fueron reprimidas."
+        },
+        {
+          "desde": 1821,
+          "hasta": 1901,
+          "nombre": "Independencias y guerra de castas",
+          "resumen": "La región queda dividida entre México, Guatemala y el asentamiento británico de Belice. En 1847 los mayas del oriente de Yucatán se alzan en la guerra de castas, que dura hasta la toma de Chan Santa Cruz en 1901."
+        },
+        {
+          "desde": 1901,
+          "hasta": null,
+          "nombre": "Siglo XX",
+          "resumen": "En la guerra civil de Guatemala (1960-1996) murieron o desaparecieron unas 200 000 personas; la Comisión para el Esclarecimiento Histórico atribuyó al Estado la gran mayoría de las violaciones y calificó de actos de genocidio las matanzas de mayas de 1981-1983. En 1994 se alzó en Chiapas el Ejército Zapatista."
+        }
+      ],
+      "demografia": [
+        {
+          "anio": 750,
+          "poblacion": 9000000,
+          "fuente": "Canuto et al. (2018), «Ancient lowland Maya complexity as revealed by airborne laser scanning of northern Guatemala», Science 361",
+          "min": 7000000,
+          "max": 11000000,
+          "nota": "Extrapolación del relevamiento con lídar del norte de Guatemala a las tierras bajas centrales (unos 95 000 km²) en el Clásico tardío (650-800); no incluye los altos ni el norte de Yucatán. Las estimaciones arqueológicas de población son muy inciertas."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": -2000,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1600,
+          "nombre": "Religión maya (dioses del maíz y de la lluvia, culto a los antepasados, reyes sagrados, autosacrificio y sacrificio humano)",
+          "familia": "religion-maya",
+          "peso": "mayoritaria",
+          "nota": "Las estelas y los murales de Bonampak muestran la captura y el sacrificio de prisioneros; en el cenote sagrado de Chichén Itzá se hallaron restos de más de cien personas, muchas de ellas niños."
+        },
+        {
+          "desde": 1524,
+          "hasta": 1600,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Catolicismo (con cofradías, santos patronos y prácticas mayas)",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Religión maya tradicional (contadores del calendario de 260 días) y cultos mixtos como el de la Cruz Parlante",
+          "familia": "religion-maya",
+          "peso": "importante",
+          "nota": "En 1562 fray Diego de Landa dirigió en Maní un proceso contra la idolatría en el que se torturó a miles de mayas y se quemaron códices e imágenes."
+        },
+        {
+          "desde": 1882,
+          "hasta": 1980,
+          "nombre": "Iglesias protestantes y evangélicas (misión presbiteriana en Guatemala desde 1882)",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -7000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -7000,
+          "hasta": -2000,
+          "nombre": "Cazadores-recolectores y primeros agricultores",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1960,
+          "nombre": "Maya (yucatecos, chontales, choles, tzeltales, tzotziles, k'iche's, kaqchikeles, q'eqchi's, mames y otros)",
+          "familia": "maya",
+          "peso": "mayoritaria",
+          "nota": "En el oeste de Chiapas vivían zoques, de lengua mixe-zoque; en el sureste de Guatemala, xincas, y desde el Posclásico, pipiles de lengua nahua en el Pacífico de Guatemala y el oeste de El Salvador."
+        },
+        {
+          "desde": 1524,
+          "hasta": 1700,
+          "nombre": "Españoles, criollos y mestizos (ladinos)",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1960,
+          "nombre": "Españoles, criollos y mestizos (ladinos)",
+          "familia": "criolla",
+          "peso": "importante",
+          "nota": "A fines del siglo XVIII los indios eran todavía unos dos tercios o más de la población de Guatemala y de Yucatán."
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Mestiza o ladina",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "El paso a una mayoría no indígena depende de cómo se cuente: en el censo de Guatemala de 2018 el 42 % se declaró maya, y en Yucatán más de la mitad de la población se reconoce indígena aunque menos de un tercio habla maya."
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Maya",
+          "familia": "maya",
+          "peso": "importante"
+        },
+        {
+          "desde": 1524,
+          "hasta": null,
+          "nombre": "Afrodescendientes, criollos beliceños y garífunas",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": -2000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": 1950,
+          "nombre": "Lenguas mayenses (yucateco, chontal, chol, tzeltal, tzotzil, k'iche', kaqchikel, q'eqchi', mam y otras)",
+          "familia": "mayenses",
+          "peso": "mayoritaria",
+          "nota": "Las inscripciones clásicas registran sobre todo una lengua de prestigio emparentada con el chol, el «cholano clásico» (Houston, Robertson y Stuart, 2000)."
+        },
+        {
+          "desde": 1524,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1950,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Lenguas mayenses",
+          "familia": "mayenses",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Criollo beliceño e inglés",
+          "familia": "criollas-inglesas",
+          "peso": "minoritaria"
+        }
+      ]
+    },
+    {
+      "id": "amazonia-brasilena",
+      "nombre": "Amazonía brasileña",
+      "padre": "brasil",
+      "poligono": [
+        [
+          -60.518,
+          -13.776
+        ],
+        [
+          -65.267,
+          -11.727
+        ],
+        [
+          -65.43,
+          -9.666
+        ],
+        [
+          -68.757,
+          -11.161
+        ],
+        [
+          -70.622,
+          -11.072
+        ],
+        [
+          -70.728,
+          -9.567
+        ],
+        [
+          -72.147,
+          -10.06
+        ],
+        [
+          -73.27,
+          -9.423
+        ],
+        [
+          -74.06,
+          -7.551
+        ],
+        [
+          -72.973,
+          -5.18
+        ],
+        [
+          -70.144,
+          -4.239
+        ],
+        [
+          -70.025,
+          -4.231
+        ],
+        [
+          -69.26,
+          -1.147
+        ],
+        [
+          -69.964,
+          0.432
+        ],
+        [
+          -69.063,
+          0.634
+        ],
+        [
+          -69.714,
+          1.684
+        ],
+        [
+          -67.459,
+          2.061
+        ],
+        [
+          -65.45,
+          0.56
+        ],
+        [
+          -63.26,
+          2.244
+        ],
+        [
+          -64.618,
+          4.077
+        ],
+        [
+          -62.744,
+          3.46
+        ],
+        [
+          -60.166,
+          5.263
+        ],
+        [
+          -59.733,
+          1.928
+        ],
+        [
+          -58.556,
+          1.26
+        ],
+        [
+          -56.02,
+          1.873
+        ],
+        [
+          -55.925,
+          2.569
+        ],
+        [
+          -52.832,
+          2.264
+        ],
+        [
+          -51.169,
+          4.925
+        ],
+        [
+          -51.156,
+          4.96
+        ],
+        [
+          -48.775,
+          0.369
+        ],
+        [
+          -45.0,
+          -1.3
+        ],
+        [
+          -45.6,
+          -3.5
+        ],
+        [
+          -47.4,
+          -5.6
+        ],
+        [
+          -48.6,
+          -8.0
+        ],
+        [
+          -50.3,
+          -10.2
+        ],
+        [
+          -51.9,
+          -12.0
+        ],
+        [
+          -52.6,
+          -13.6
+        ],
+        [
+          -54.0,
+          -13.9
+        ],
+        [
+          -56.5,
+          -13.6
+        ],
+        [
+          -58.6,
+          -13.4
+        ]
+      ],
+      "resumen": "La cuenca del Amazonas en Brasil, desde las fronteras con Perú, Colombia y Venezuela hasta la desembocadura junto a Belém, con el Amapá, el Acre, Rondonia y el norte de Mato Grosso. La arqueología encontró sociedades sedentarias y jerarquizadas —Marajoara, Santarém, las aldeas del alto Xingú— que transformaron el suelo (la terra preta) y el bosque; cuánta gente vivía allí antes de la conquista se discute. Desde 1616 los portugueses avanzaron desde Belém con misiones y expediciones de captura de indígenas, y el caucho (1879-1912), las carreteras y la deforestación del siglo XX transformaron la región.",
+      "eras": [
+        {
+          "desde": -11000,
+          "hasta": -5000,
+          "nombre": "Primeros pobladores",
+          "resumen": "En la Caverna da Pedra Pintada, en Monte Alegre, hay pinturas y restos de cazadores-recolectores de hace unos 13 000 años (Roosevelt et al., 1996)."
+        },
+        {
+          "desde": -5000,
+          "hasta": 1,
+          "nombre": "Primera cerámica y primeros cultivos",
+          "resumen": "En los concheros de Taperinha, cerca de Santarém, hay cerámica de hace unos 7000 años, de las más antiguas de América, y en el suroeste de la Amazonía ya se cultivaba mandioca."
+        },
+        {
+          "desde": 1,
+          "hasta": 1542,
+          "nombre": "Sociedades complejas",
+          "resumen": "En la isla de Marajó, la cultura marajoara (hacia 400-1400) levantó montículos y produjo cerámica policroma; en Santarém florecieron los tapajó, y en el alto Xingú, aldeas unidas por caminos y fosos (hacia 1250-1650). Los geoglifos del Acre y las tierras negras (terra preta) muestran un bosque modificado por la gente."
+        },
+        {
+          "desde": 1542,
+          "hasta": 1616,
+          "nombre": "Primeros viajes europeos",
+          "resumen": "Francisco de Orellana bajó el río en 1542; su cronista, Gaspar de Carvajal, describió riberas muy pobladas y combates con mujeres guerreras, de donde salió el nombre del río. Siguieron Ursúa y Lope de Aguirre (1560-1561)."
+        },
+        {
+          "desde": 1616,
+          "hasta": 1755,
+          "nombre": "Conquista portuguesa y misiones",
+          "resumen": "Los portugueses fundan Belém en 1616, y Pedro Teixeira remonta el río hasta Quito (1637-1639). Las «tropas de rescate» capturan indígenas para esclavizarlos, mientras jesuitas como Antônio Vieira, franciscanos y carmelitas los reúnen en misiones."
+        },
+        {
+          "desde": 1755,
+          "hasta": 1840,
+          "nombre": "Directorio y Cabanagem",
+          "resumen": "Pombal quita a los religiosos el gobierno de las aldeas y crea el Directorio (1757), que impone el portugués. En la Cabanagem (1835-1840), una rebelión de mestizos, indígenas y negros pobres de Pará, murieron entre 30 000 y 40 000 personas según las estimaciones."
+        },
+        {
+          "desde": 1840,
+          "hasta": 1912,
+          "nombre": "Auge del caucho",
+          "resumen": "La demanda mundial de caucho atrae a cientos de miles de migrantes del nordeste y enriquece a Manaos y Belém; los caucheros sometieron a trabajo forzado y mataron a muchos indígenas. Brasil compra el Acre a Bolivia en 1903."
+        },
+        {
+          "desde": 1912,
+          "hasta": 1966,
+          "nombre": "Después del caucho",
+          "resumen": "El caucho asiático hunde la economía amazónica; el Servicio de Protección al Indio (1910), de Cândido Rondon, busca contactar y proteger a los pueblos del interior, y Fordlândia (1928) fracasa como plantación."
+        },
+        {
+          "desde": 1966,
+          "hasta": null,
+          "nombre": "Carreteras, deforestación y tierras indígenas",
+          "resumen": "La dictadura militar abre la Transamazónica (desde 1970) y fomenta la colonización; la deforestación y la minería ilegal avanzan sobre el bosque. La Constitución de 1988 reconoce las tierras indígenas, como la yanomami (1992)."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1850,
+          "nombre": "Religiones amazónicas (chamanismo, ritos de iniciación, flautas sagradas)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1616,
+          "hasta": 1653,
+          "nombre": "Catolicismo de las primeras misiones",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1653,
+          "hasta": 1850,
+          "nombre": "Catolicismo (misiones jesuitas, franciscanas y carmelitas y, desde 1757, villas del Directorio)",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Fuera de las aldeas, la mayoría de los pueblos del interior no estaba bautizada."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1900,
+          "nombre": "Religiones indígenas",
+          "familia": "religiones-de-america",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Religiones indígenas",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1911,
+          "hasta": 1970,
+          "nombre": "Pentecostalismo (la Asamblea de Dios nació en Belém en 1911) y otras iglesias evangélicas",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -5000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -5000,
+          "hasta": 1850,
+          "nombre": "Pueblos amazónicos (marajoaras, tapajó, arahuacos, tupíes, caribes, ye, panos, tucanos y muchos otros)",
+          "familia": "amazonica",
+          "peso": "mayoritaria",
+          "nota": "Denevan (1992) estimó unos 5,7 millones de habitantes para toda la Gran Amazonía hacia 1492; otros autores dan cifras mucho menores o mayores."
+        },
+        {
+          "desde": 1616,
+          "hasta": 1850,
+          "nombre": "Portugueses, mamelucos e indígenas de las aldeas",
+          "familia": "portuguesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1888,
+          "nombre": "Africanos esclavizados",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Brasileña (caboclos, ribereños y migrantes de otras regiones)",
+          "familia": "brasilena",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada: los no indígenas pasan a ser mayoría con la expansión del caucho."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Pueblos indígenas",
+          "familia": "amazonica",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1888,
+          "hasta": null,
+          "nombre": "Quilombolas y afrobrasileños",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": -5000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -5000,
+          "hasta": 1700,
+          "nombre": "Lenguas amazónicas: arahuacas, tupíes, caribes, macro-yê, pano, tucanas y muchas otras",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1616,
+          "hasta": 1700,
+          "nombre": "Língua geral amazónica (nheengatu), de base tupí",
+          "familia": "tupi-guarani",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1850,
+          "nombre": "Língua geral amazónica (nheengatu)",
+          "familia": "tupi-guarani",
+          "peso": "mayoritaria",
+          "nota": "Era la lengua común de la sociedad colonial de Pará y del río Negro; en el interior seguían habladas cientos de lenguas indígenas."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Nheengatu (río Negro)",
+          "familia": "tupi-guarani",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1900,
+          "nombre": "Lenguas indígenas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Lenguas indígenas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1616,
+          "hasta": 1755,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1755,
+          "hasta": 1850,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "mayoritaria"
+        }
+      ]
+    }
+  ],
+  "fuentes": [],
+  "personas": [],
+  "hechos": [],
+  "lugares": []
+}

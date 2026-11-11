@@ -472,7 +472,7 @@
       "titulo": "Sentencia contra Túpac Amaru II y su familia",
       "titulo_original": null,
       "autor": "José Antonio de Areche, visitador general del Perú",
-      "autor_id": null,
+      "autor_id": "jose-antonio-de-areche",
       "tipo": "primaria",
       "genero": "legal",
       "escrita": {
@@ -2909,7 +2909,9 @@
         "pragmatica-de-expulsion-1767",
         "real-cedula-del-virreinato-1777",
         "reglamento-de-comercio-libre-1778",
-        "ordenanza-de-intendentes-1782"
+        "ordenanza-de-intendentes-1782",
+        "real-cedula-de-1770",
+        "ordenanza-de-intendentes-1786"
       ],
       "wikipedia": {
         "es": "Carlos III de España",
@@ -2947,7 +2949,8 @@
       ],
       "resumen": "Rey de España entre 1788 y 1808, dejó el gobierno en manos de Manuel Godoy. Abdicó en su hijo Fernando tras el motín de Aranjuez (marzo de 1808) y en mayo, en Bayona, cedió sus derechos a Napoleón. Vivió exiliado en Italia y murió en Nápoles en 1819.",
       "obras": [
-        "real-cedula-del-consulado-1794"
+        "real-cedula-del-consulado-1794",
+        "real-orden-de-la-expedicion-de-la-vacuna"
       ],
       "wikipedia": {
         "es": "Carlos IV de España",
@@ -3059,9 +3062,10 @@
         "militar",
         "emperador"
       ],
-      "resumen": "Emperador de los franceses (1804-1814 y 1815). En 1808 obtuvo en Bayona la renuncia de Carlos IV y de Fernando VII y dio la corona de España a su hermano José. La falta de un rey reconocido en el imperio español fue el punto de partida de las juntas de España y de América.",
+      "resumen": "Emperador de los franceses (1804-1814 y 1815). En 1808 obtuvo en Bayona la renuncia de Carlos IV y de Fernando VII y dio la corona de España a su hermano José. La falta de un rey reconocido en el imperio español fue el punto de partida de las juntas de España y de América. En 1802 envió la expedición de Leclerc contra Toussaint Louverture en Saint-Domingue, y la ley del 20 de mayo mantuvo la esclavitud en las colonias que Gran Bretaña devolvía a Francia; poco después se la restableció en Guadalupe y la Guayana.",
       "obras": [
-        "estatuto-de-bayona"
+        "estatuto-de-bayona",
+        "ley-del-20-de-mayo-de-1802"
       ],
       "wikipedia": {
         "es": "Napoleón Bonaparte",
@@ -3134,7 +3138,7 @@
         "político",
         "ministro de Indias"
       ],
-      "resumen": "Visitador general de Nueva España (1765-1771) y secretario de Indias desde 1776. Dirigió las reformas borbónicas en América: la creación del virreinato del Río de la Plata, el comercio libre de 1778 y el sistema de intendencias.",
+      "resumen": "Visitador general de Nueva España (1765-1771) y secretario de Indias desde 1776. Dirigió las reformas borbónicas en América: la creación del virreinato del Río de la Plata, el comercio libre de 1778 y el sistema de intendencias. Como visitador reprimió en 1767 los tumultos contra la expulsión de los jesuitas (según su propio informe, 85 ahorcados y cientos de condenados a azotes, prisión o destierro), organizó el estanco del tabaco y la ocupación de la Alta California (1769).",
       "obras": [],
       "wikipedia": {
         "es": "José de Gálvez y Gallardo",
@@ -3243,8 +3247,10 @@
       "roles": [
         "rey"
       ],
-      "resumen": "Regente y desde 1816 rey de Portugal, trasladó la corte a Río de Janeiro en 1808 ante la invasión francesa. Ordenó la ocupación de la Banda Oriental en 1816 y en 1821 la anexó como provincia Cisplatina.",
-      "obras": [],
+      "resumen": "Regente y desde 1816 rey de Portugal, trasladó la corte a Río de Janeiro en 1808 ante la invasión francesa. Ordenó la ocupación de la Banda Oriental en 1816 y en 1821 la anexó como provincia Cisplatina. En 1808 abrió los puertos del Brasil a las naciones amigas y declaró por carta regia la guerra a los botocudos, que en noviembre extendió a los kaingang de São Paulo; creó la Impresión Regia, escuelas de cirugía en Bahía y Río, el Jardín Botánico y la Real Biblioteca.",
+      "obras": [
+        "carta-regia-de-1808-contra-los-botocudos"
+      ],
       "wikipedia": {
         "es": "Juan VI de Portugal",
         "en": "John VI of Portugal"
@@ -5160,7 +5166,9 @@
         "político"
       ],
       "resumen": "Diputado por Charcas en el Congreso de Tucumán y, con Juan José Paso, uno de sus dos secretarios, que firmaron el acta de la independencia. Después presidió la asamblea que declaró la independencia de Bolivia en 1825.",
-      "obras": [],
+      "obras": [
+        "acta-de-independencia-de-bolivia"
+      ],
       "wikipedia": {
         "es": "José Mariano Serrano",
         "en": "José Mariano Serrano"
@@ -6077,9 +6085,12 @@
         "militar",
         "político"
       ],
-      "resumen": "Jefe de la independencia de Venezuela y la Nueva Granada y presidente de la Gran Colombia. Se entrevistó con San Martín en Guayaquil en 1822 y terminó la guerra en el Perú, donde su lugarteniente Sucre venció en Ayacucho (1824).",
+      "resumen": "Jefe de la independencia de Venezuela y la Nueva Granada y presidente de la Gran Colombia. Se entrevistó con San Martín en Guayaquil en 1822 y terminó la guerra en el Perú, donde su lugarteniente Sucre venció en Ayacucho (1824). Su Decreto de Guerra a Muerte (1813) amenazaba con la muerte a los españoles y canarios que no tomaran partido por la independencia, y en febrero de 1814 hizo ejecutar a unos 800 prisioneros en Caracas y La Guaira; en 1812 había participado en el arresto de Miranda, que quedó en manos españolas, y entre 1828 y 1830 gobernó la Gran Colombia como dictador. En 1816 recibió la ayuda de Alexandre Pétion, presidente de Haití, a cambio de prometer la libertad de los esclavos.",
       "obras": [
-        "carta-de-jamaica"
+        "carta-de-jamaica",
+        "manifiesto-de-cartagena",
+        "decreto-de-guerra-a-muerte",
+        "discurso-de-angostura"
       ],
       "wikipedia": {
         "es": "Simón Bolívar",
@@ -6100,9 +6111,9 @@
       "muerte": {
         "anio": 1830,
         "aprox": false,
-        "lugar": "Gran Colombia",
-        "lon": -74.05,
-        "lat": 4.65
+        "lugar": "Berruecos (hoy Arboleda, Nariño)",
+        "lon": -77.136,
+        "lat": 1.503
       },
       "activo": {
         "lugar": "La Plata (Chuquisaca, hoy Sucre)",

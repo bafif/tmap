@@ -2085,6 +2085,970 @@
         "es": "Religión mapuche",
         "en": "Mapuche religion"
       }
+    },
+    {
+      "capa": "culturas",
+      "id": "paleoindia",
+      "nombre": "Paleoindios",
+      "padre": "pueblos-originarios",
+      "color": "#6a5a48",
+      "nota": "Los primeros pobladores de América, cazadores y recolectores de fines del Pleistoceno (Clovis, Folsom, Monte Verde, Lagoa Santa y otros).",
+      "wikipedia": {
+        "es": "Paleoamericano",
+        "en": "Paleo-Indians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "paleoesquimal",
+      "nombre": "Paleoesquimales",
+      "padre": "pueblos-originarios",
+      "color": "#8c9aa8",
+      "nota": "Saqqaq, Independencia, Pre-Dorset y Dorset en el Ártico oriental; Denbigh y Choris en Alaska. El ADN antiguo los muestra como una población distinta de los thule.",
+      "wikipedia": {
+        "es": "Paleoesquimal",
+        "en": "Paleo-Eskimo"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "esquimo-aleutiana",
+      "nombre": "Pueblos esquimo-aleutianos",
+      "padre": "pueblos-originarios",
+      "color": "#6f9cb8",
+      "nota": "Inuit, yupik y aleutianos. «Esquimal» es un exónimo que muchos inuit de Canadá y Groenlandia rechazan; en Alaska se sigue usando.",
+      "wikipedia": {
+        "es": "Esquimal",
+        "en": "Eskimo"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "inuit",
+      "nombre": "Inuit",
+      "padre": "esquimo-aleutiana",
+      "color": "#5e92c2",
+      "nota": "Incluye a sus antepasados thule, a los inupiat de Alaska, los inuvialuit, los inuit de Canadá y Labrador y los kalaallit de Groenlandia.",
+      "wikipedia": {
+        "es": "Inuit",
+        "en": "Inuit"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "yupik",
+      "nombre": "Yupik y alutiiq",
+      "padre": "esquimo-aleutiana",
+      "color": "#7aaccc",
+      "nota": "Yupik del suroeste de Alaska y de la isla San Lorenzo, y alutiiq o sugpiaq de Kodiak, la península de Alaska y la bahía del Príncipe Guillermo.",
+      "wikipedia": {
+        "es": "Yupik",
+        "en": "Yupik peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "aleutiana",
+      "nombre": "Aleutianos (unangan)",
+      "padre": "esquimo-aleutiana",
+      "color": "#4f86a0",
+      "wikipedia": {
+        "es": "Aleutas",
+        "en": "Aleuts"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "atabascana",
+      "nombre": "Pueblos atabascanos (dene)",
+      "padre": "pueblos-originarios",
+      "color": "#8f7d5a",
+      "nota": "Incluye a los atabascanos de Alaska y del noroeste de Canadá y a los apaches y navajos del suroeste.",
+      "wikipedia": {
+        "es": "Dene",
+        "en": "Dene"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "algonquina",
+      "nombre": "Pueblos algonquinos",
+      "padre": "pueblos-originarios",
+      "color": "#9a6a3a",
+      "wikipedia": {
+        "es": "Pueblos algonquinos",
+        "en": "Algonquian peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "iroquesa",
+      "nombre": "Pueblos iroqueses",
+      "padre": "pueblos-originarios",
+      "color": "#a35a48",
+      "nota": "Las naciones de la Confederación iroquesa, los hurones o wendat, los neutrales, los eries, los susquehannocks y, en el sudeste, los cheroquis.",
+      "wikipedia": {
+        "en": "Iroquoian peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "woodland",
+      "nombre": "Culturas del período Woodland",
+      "padre": "pueblos-originarios",
+      "color": "#7a7a50",
+      "nota": "Adena, Hopewell y otras culturas de los bosques orientales entre 1000 a. C. y 1000 d. C.: cerámica, montículos funerarios y primeros cultivos.",
+      "wikipedia": {
+        "es": "Cronología de las culturas constructoras de montículos en Norteamérica",
+        "en": "Woodland period"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "misisipiana",
+      "nombre": "Cultura misisipiana",
+      "padre": "pueblos-originarios",
+      "color": "#b0783a",
+      "nota": "Cacicazgos agrícolas con plataformas de tierra entre 800 y 1600, de Cahokia a Moundville, Etowah y Spiro.",
+      "wikipedia": {
+        "es": "Cultura misisipiana",
+        "en": "Mississippian period (archaeology)"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "pueblos-del-sudeste",
+      "nombre": "Pueblos del Sudeste",
+      "padre": "pueblos-originarios",
+      "color": "#b8904f",
+      "nota": "Muskogis (creeks), seminolas, choctaws, chickasaws, cheroquis, natchez, caddos, timucuas y otros.",
+      "wikipedia": {
+        "en": "Indigenous peoples of the Southeastern Woodlands"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "llanera",
+      "nombre": "Pueblos de las Grandes Llanuras",
+      "padre": "pueblos-originarios",
+      "color": "#c0a060",
+      "nota": "Agricultores de las aldeas del Misuri y cazadores de bisontes; desde el siglo XVIII, pueblos ecuestres como los lakotas, cheyennes, comanches y pies negros.",
+      "wikipedia": {
+        "en": "Plains Indians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "costa-noroeste",
+      "nombre": "Pueblos de la costa noroeste",
+      "padre": "pueblos-originarios",
+      "color": "#5a7f6a",
+      "nota": "Tlingit, haida, tsimshian, kwakwaka'wakw, nuu-chah-nulth, salish de la costa, chinook y otros: pescadores sedentarios con rangos, esclavos y potlatch.",
+      "wikipedia": {
+        "en": "Indigenous peoples of the Pacific Northwest Coast"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "meseta",
+      "nombre": "Pueblos de la Meseta",
+      "padre": "pueblos-originarios",
+      "color": "#7f8f5a",
+      "nota": "Nez percé, yakama, umatilla, cayuse, salish del interior, kutenai, klamath y otros, entre las Cascadas y las Rocosas.",
+      "wikipedia": {
+        "es": "Pueblos indígenas de la meseta noroeste",
+        "en": "Indigenous peoples of the Northwest Plateau"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "gran-cuenca",
+      "nombre": "Pueblos de la Gran Cuenca",
+      "padre": "pueblos-originarios",
+      "color": "#b0a070",
+      "nota": "Paiutes, shoshones, utes y washoe.",
+      "wikipedia": {
+        "en": "Indigenous peoples of the Great Basin"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "californiana",
+      "nombre": "Pueblos indígenas de California",
+      "padre": "pueblos-originarios",
+      "color": "#c08a60",
+      "wikipedia": {
+        "es": "Pueblos indígenas de California",
+        "en": "Indigenous peoples of California"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "oasisamericana",
+      "nombre": "Oasisamérica",
+      "padre": "pueblos-originarios",
+      "color": "#c86a4a",
+      "nota": "Agricultores del desierto del suroeste de Estados Unidos y el noroeste de México: hohokam, mogollón, ancestrales pueblo, Paquimé y sus descendientes.",
+      "wikipedia": {
+        "es": "Oasisamérica",
+        "en": "Oasisamerica"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "pueblo",
+      "nombre": "Pueblos (indios pueblo)",
+      "padre": "oasisamericana",
+      "color": "#d07a50",
+      "nota": "Hopi, zuñi y los pueblos del Río Grande (keres, tewa, tiwa, towa), descendientes de los ancestrales pueblo.",
+      "wikipedia": {
+        "es": "Cultura pueblo",
+        "en": "Pueblo peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "aridoamericana",
+      "nombre": "Pueblos de Aridoamérica",
+      "padre": "pueblos-originarios",
+      "color": "#b89a6a",
+      "nota": "Cazadores-recolectores del centro-norte de México (los «chichimecas» de las fuentes nahuas y españolas) y agricultores de la sierra y la costa del noroeste.",
+      "wikipedia": {
+        "es": "Aridoamérica",
+        "en": "Aridoamerica"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "maya",
+      "nombre": "Maya",
+      "padre": "mesoamericana",
+      "color": "#2f8a6a",
+      "wikipedia": {
+        "es": "Pueblo maya",
+        "en": "Maya peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "nahua",
+      "nombre": "Nahua",
+      "padre": "mesoamericana",
+      "color": "#4fa89a",
+      "nota": "Incluye a los mexicas, acolhuas, tlaxcaltecas, pipiles y nicaraos.",
+      "wikipedia": {
+        "es": "Nahuas",
+        "en": "Nahuas"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "zapoteca",
+      "nombre": "Zapoteca",
+      "padre": "mesoamericana",
+      "color": "#3a8aa0",
+      "wikipedia": {
+        "es": "Cultura zapoteca",
+        "en": "Zapotec civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mixteca",
+      "nombre": "Mixteca",
+      "padre": "mesoamericana",
+      "color": "#5a9aa8",
+      "wikipedia": {
+        "es": "Pueblo mixteco",
+        "en": "Mixtec"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "purepecha",
+      "nombre": "Purépecha",
+      "padre": "mesoamericana",
+      "color": "#2f7a7a",
+      "wikipedia": {
+        "es": "Pueblo purépecha",
+        "en": "Purépecha"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "arahuaca",
+      "nombre": "Pueblos arahuacos",
+      "padre": "pueblos-originarios",
+      "color": "#6a8a3a",
+      "nota": "Pueblos de lenguas arahuacas de las Antillas, las Guayanas, el Orinoco y la Amazonía.",
+      "wikipedia": {
+        "es": "Arahuacos",
+        "en": "Arawak"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "taina",
+      "nombre": "Taína",
+      "padre": "arahuaca",
+      "color": "#7a9a3a",
+      "nota": "Agricultores de las Grandes Antillas y las Bahamas (los lucayos) a la llegada de Colón.",
+      "wikipedia": {
+        "es": "Taíno",
+        "en": "Taíno"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "caribes",
+      "nombre": "Pueblos caribes",
+      "padre": "pueblos-originarios",
+      "color": "#8a7a2a",
+      "nota": "Kari'nas de tierra firme y kalinagos de las Antillas Menores; estos últimos hablaban una lengua arahuaca.",
+      "wikipedia": {
+        "es": "Pueblo kali'na",
+        "en": "Kalina people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "istmo-colombiana",
+      "nombre": "Área istmo-colombiana",
+      "padre": "pueblos-originarios",
+      "color": "#a07a8a",
+      "nota": "Pueblos de lenguas chibchas y vecinos, de Honduras al norte de Colombia: cuevas, ngäbes, bribris, kunas, taironas, zenúes y muiscas.",
+      "wikipedia": {
+        "es": "Área istmo-colombiana",
+        "en": "Isthmo-Colombian Area"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "tupi",
+      "nombre": "Pueblos tupíes",
+      "padre": "pueblos-originarios",
+      "color": "#5a9a5a",
+      "nota": "Tupinambás, tupiniquins, potiguaras y otros pueblos tupí de la costa y los ríos de Brasil; los guaraníes tienen familia propia.",
+      "wikipedia": {
+        "es": "Pueblos tupíes",
+        "en": "Tupi people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "ye",
+      "nombre": "Pueblos ye",
+      "padre": "pueblos-originarios",
+      "color": "#9a8a5a",
+      "nota": "Kaingang, xokleng, xavante, xerente, kayapó, timbira y otros pueblos de lenguas ye; en sentido amplio, los de lenguas macro-yê, como los botocudos. Los tupíes llamaban tapuias a todos los pueblos que no hablaban tupí, muchos de ellos ye.",
+      "wikipedia": {
+        "en": "Jê peoples"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "amazonica",
+      "nombre": "Pueblos amazónicos",
+      "padre": "pueblos-originarios",
+      "color": "#3f7a3f",
+      "nota": "No es una unidad: agrupa a cientos de pueblos de la cuenca amazónica, de muchas familias lingüísticas.",
+      "wikipedia": {
+        "es": "Pueblos indígenas de Sudamérica",
+        "en": "Indigenous peoples of South America"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "portuguesa",
+      "nombre": "Portuguesa",
+      "padre": null,
+      "color": "#2f7f9f",
+      "wikipedia": {
+        "es": "Pueblo portugués",
+        "en": "Portuguese people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "brasilena",
+      "nombre": "Brasileña",
+      "padre": "portuguesa",
+      "color": "#3f9aa0",
+      "nota": "Sociedad lusobrasileña formada por portugueses, africanos, indígenas y sus descendientes, y luego por inmigrantes europeos y asiáticos.",
+      "wikipedia": {
+        "es": "Brasileños",
+        "en": "Brazilians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "estadounidense",
+      "nombre": "Estadounidense",
+      "padre": "inglesa",
+      "color": "#4f7f9a",
+      "wikipedia": {
+        "es": "Estadounidense",
+        "en": "Americans"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "anglocanadiense",
+      "nombre": "Anglocanadiense",
+      "padre": "inglesa",
+      "color": "#6f9f9a",
+      "wikipedia": {
+        "es": "Anglocanadienses",
+        "en": "English Canadians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "francocanadiense",
+      "nombre": "Francocanadiense",
+      "padre": "francesa",
+      "color": "#5a7fc0",
+      "wikipedia": {
+        "es": "Francocanadienses",
+        "en": "French Canadians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "danesa",
+      "nombre": "Danesa",
+      "padre": "nordica",
+      "color": "#5a8aa0",
+      "wikipedia": {
+        "es": "Pueblo danés",
+        "en": "Danes"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "rusa",
+      "nombre": "Rusa",
+      "padre": "eslava-oriental",
+      "color": "#d07a6a",
+      "wikipedia": {
+        "es": "Pueblo ruso",
+        "en": "Russians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "neerlandesa",
+      "nombre": "Neerlandesa",
+      "padre": "germanica",
+      "color": "#7f9a4a",
+      "wikipedia": {
+        "es": "Pueblo neerlandés",
+        "en": "Dutch people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "afrocaribena",
+      "nombre": "Afrocaribeña",
+      "padre": "afrodescendiente",
+      "color": "#8a5a40",
+      "wikipedia": {
+        "es": "Afrocaribeños",
+        "en": "Afro-Caribbean peoples"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "esquimo-aleutianas",
+      "nombre": "Lenguas esquimo-aleutianas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#6f9cb8",
+      "wikipedia": {
+        "es": "Lenguas esquimo-aleutianas",
+        "en": "Eskaleut languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "inuit",
+      "nombre": "Inuit (inupiaq, inuktitut, kalaallisut)",
+      "padre": "esquimo-aleutianas",
+      "color": "#5e92c2",
+      "nota": "Un continuo dialectal de Alaska a Groenlandia, huella de la expansión thule de hace unos 700 años.",
+      "wikipedia": {
+        "es": "Lenguas inuit",
+        "en": "Inuit languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "yupik",
+      "nombre": "Lenguas yupik y alutiiq",
+      "padre": "esquimo-aleutianas",
+      "color": "#7aaccc",
+      "wikipedia": {
+        "es": "Lenguas yupik",
+        "en": "Yupik languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "aleutiano",
+      "nombre": "Aleutiano",
+      "padre": "esquimo-aleutianas",
+      "color": "#4f86a0",
+      "wikipedia": {
+        "es": "Idioma aleutiano",
+        "en": "Aleut language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "na-dene",
+      "nombre": "Lenguas na-dené",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#8f7d5a",
+      "nota": "Atabascanas, eyak y tlingit; el haida, que Sapir incluía, hoy se considera aislado.",
+      "wikipedia": {
+        "es": "Lenguas na-dené",
+        "en": "Na-Dene languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "atabascanas",
+      "nombre": "Lenguas atabascanas",
+      "padre": "na-dene",
+      "color": "#9f8d6a",
+      "nota": "Incluye el navajo y las lenguas apaches del suroeste.",
+      "wikipedia": {
+        "es": "Lenguas atabascanas",
+        "en": "Athabaskan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "algonquinas",
+      "nombre": "Lenguas algonquinas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#9a6a3a",
+      "wikipedia": {
+        "es": "Lenguas algonquinas",
+        "en": "Algonquian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "iroquesas",
+      "nombre": "Lenguas iroquesas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#a35a48",
+      "wikipedia": {
+        "es": "Lenguas iroquesas",
+        "en": "Iroquoian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "siux",
+      "nombre": "Lenguas siux",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#c0a060",
+      "wikipedia": {
+        "es": "Lenguas siux",
+        "en": "Siouan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "muskogi",
+      "nombre": "Lenguas muskogi",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#b8904f",
+      "wikipedia": {
+        "es": "Lenguas muskogueanas",
+        "en": "Muskogean languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "salish",
+      "nombre": "Lenguas salish",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#6f8f6a",
+      "wikipedia": {
+        "es": "Lenguas salishanas",
+        "en": "Salishan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "wakash",
+      "nombre": "Lenguas wakash",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#5a7f6a",
+      "wikipedia": {
+        "es": "Lenguas wakash",
+        "en": "Wakashan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sahaptinas",
+      "nombre": "Lenguas sahaptinas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#7f8f5a",
+      "wikipedia": {
+        "es": "Lenguas sahaptianas",
+        "en": "Sahaptian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "yutoaztecas",
+      "nombre": "Lenguas yutoaztecas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#b0a070",
+      "wikipedia": {
+        "es": "Lenguas yutoaztecas",
+        "en": "Uto-Aztecan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nahuatl",
+      "nombre": "Náhuatl",
+      "padre": "yutoaztecas",
+      "color": "#c0b060",
+      "wikipedia": {
+        "es": "Náhuatl",
+        "en": "Nahuatl"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "mayenses",
+      "nombre": "Lenguas mayenses",
+      "padre": "mesoamericanas",
+      "color": "#2f8a6a",
+      "wikipedia": {
+        "es": "Lenguas mayenses",
+        "en": "Mayan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "otomangues",
+      "nombre": "Lenguas otomangues",
+      "padre": "mesoamericanas",
+      "color": "#3a8aa0",
+      "nota": "Zapoteco, mixteco, otomí, mazateco, chinanteco, chorotega y otras.",
+      "wikipedia": {
+        "es": "Lenguas otomangues",
+        "en": "Oto-Manguean languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "purepecha",
+      "nombre": "Purépecha",
+      "padre": "mesoamericanas",
+      "color": "#2f7a7a",
+      "nota": "Lengua aislada.",
+      "wikipedia": {
+        "es": "Idioma purépecha",
+        "en": "Purépecha language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "aimara",
+      "nombre": "Aimara",
+      "padre": "andinas",
+      "color": "#b07a3a",
+      "wikipedia": {
+        "es": "Idioma aimara",
+        "en": "Aymara language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "chibchas",
+      "nombre": "Lenguas chibchas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#a07a8a",
+      "wikipedia": {
+        "es": "Lenguas chibchenses",
+        "en": "Chibchan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "arahuacas",
+      "nombre": "Lenguas arahuacas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#6a8a3a",
+      "wikipedia": {
+        "es": "Lenguas arahuacas",
+        "en": "Arawakan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "taino",
+      "nombre": "Taíno",
+      "padre": "arahuacas",
+      "color": "#7a9a3a",
+      "wikipedia": {
+        "es": "Idioma taíno",
+        "en": "Taíno language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "caribes",
+      "nombre": "Lenguas caribes",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#8a7a2a",
+      "wikipedia": {
+        "es": "Lenguas caribes",
+        "en": "Cariban languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "macro-ye",
+      "nombre": "Lenguas macro-yê",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#9a8a5a",
+      "nota": "El tronco ye es seguro; la inclusión de otras familias en el macro-yê se discute.",
+      "wikipedia": {
+        "es": "Lenguas macro-ye",
+        "en": "Macro-Jê languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "panoanas",
+      "nombre": "Lenguas pano",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#5a7a3a",
+      "wikipedia": {
+        "es": "Lenguas pano",
+        "en": "Panoan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "misumalpas",
+      "nombre": "Lenguas misumalpas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#8a6a7a",
+      "nota": "Misquito, sumo (mayangna) y el extinto matagalpa.",
+      "wikipedia": {
+        "es": "Lenguas misumalpas",
+        "en": "Misumalpan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "criollas",
+      "nombre": "Lenguas criollas",
+      "padre": null,
+      "color": "#9a7aa0",
+      "wikipedia": {
+        "es": "Lengua criolla",
+        "en": "Creole language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "criollas-francesas",
+      "nombre": "Criollos de base francesa",
+      "padre": "criollas",
+      "color": "#8a7ac0",
+      "wikipedia": {
+        "es": "Lenguas criollas de base francesa",
+        "en": "French-based creole languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "criollas-inglesas",
+      "nombre": "Criollos de base inglesa",
+      "padre": "criollas",
+      "color": "#8aa0a0",
+      "wikipedia": {
+        "es": "Lenguas criollas de base inglesa",
+        "en": "English-based creole languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ruso",
+      "nombre": "Ruso",
+      "padre": "eslavas",
+      "color": "#d07a6a",
+      "wikipedia": {
+        "es": "Idioma ruso",
+        "en": "Russian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "danes",
+      "nombre": "Danés",
+      "padre": "nordico",
+      "color": "#5a8aa0",
+      "wikipedia": {
+        "es": "Idioma danés",
+        "en": "Danish language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "niger-congo",
+      "nombre": "Lenguas nigerocongolesas",
+      "padre": null,
+      "color": "#8a5a3a",
+      "nota": "Las lenguas de la mayoría de los africanos esclavizados llevados a América: kimbundu, kikongo, yoruba, fon, ewe, akan y otras.",
+      "wikipedia": {
+        "es": "Lenguas nigerocongolesas",
+        "en": "Niger–Congo languages"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-inuit",
+      "nombre": "Religión inuit",
+      "padre": "religiones-de-america",
+      "color": "#6f9cb8",
+      "wikipedia": {
+        "es": "Mitología inuit",
+        "en": "Inuit religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "complejo-ceremonial-del-sudeste",
+      "nombre": "Religión misisipiana (Complejo Ceremonial del Sudeste)",
+      "padre": "religiones-de-america",
+      "color": "#b0783a",
+      "wikipedia": {
+        "en": "Southeastern Ceremonial Complex"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "iglesia-nativa-americana",
+      "nombre": "Iglesia Nativa Americana",
+      "padre": "religiones-de-america",
+      "color": "#9a8a6a",
+      "nota": "Combina el uso ritual del peyote con elementos cristianos; se constituyó formalmente en Oklahoma en 1918.",
+      "wikipedia": {
+        "es": "Iglesia nativa americana",
+        "en": "Native American Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "casa-larga",
+      "nombre": "Religión de la Casa Larga",
+      "padre": "religiones-de-america",
+      "color": "#a35a48",
+      "nota": "Fundada por el profeta séneca Handsome Lake hacia 1799.",
+      "wikipedia": {
+        "es": "Religión de la Casa Comunal",
+        "en": "Longhouse Religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-maya",
+      "nombre": "Religión maya",
+      "padre": "religion-mesoamericana",
+      "color": "#2f8a6a",
+      "wikipedia": {
+        "es": "Religión maya",
+        "en": "Maya religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-taina",
+      "nombre": "Religión taína",
+      "padre": "religiones-de-america",
+      "color": "#7a9a3a",
+      "wikipedia": {
+        "en": "Taíno mythology"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-afroamericanas",
+      "nombre": "Religiones afroamericanas",
+      "padre": null,
+      "color": "#9a5a3a",
+      "nota": "Vudú haitiano, santería, candomblé, umbanda, obeah, winti y otras, de origen africano y con elementos católicos e indígenas.",
+      "wikipedia": {
+        "es": "Religiones afroamericanas",
+        "en": "African diaspora religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "luteranismo",
+      "nombre": "Luteranismo",
+      "padre": "protestantismo",
+      "color": "#c8b880",
+      "wikipedia": {
+        "es": "Luteranismo",
+        "en": "Lutheranism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "moraviana",
+      "nombre": "Iglesia morava",
+      "padre": "protestantismo",
+      "color": "#c0b070",
+      "wikipedia": {
+        "es": "Hermandad de Moravia",
+        "en": "Moravian Church"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "pentecostalismo",
+      "nombre": "Pentecostalismo y otras iglesias evangélicas",
+      "padre": "protestantismo",
+      "color": "#e0d080",
+      "wikipedia": {
+        "es": "Pentecostalismo",
+        "en": "Pentecostalism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "mormonismo",
+      "nombre": "Mormonismo",
+      "padre": "cristianismo",
+      "color": "#a8a0d0",
+      "wikipedia": {
+        "es": "Mormonismo",
+        "en": "Mormonism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "irreligion",
+      "nombre": "Sin religión",
+      "padre": null,
+      "color": "#b0b0b0",
+      "wikipedia": {
+        "es": "Irreligión",
+        "en": "Irreligion"
+      }
     }
   ]
 }

@@ -3509,8 +3509,12 @@
           20.0
         ],
         [
-          -96.1,
-          19.0
+          -96.3,
+          19.6
+        ],
+        [
+          -95.9,
+          18.9
         ],
         [
           -94.5,
@@ -3521,11 +3525,11 @@
           18.6
         ],
         [
-          -90.5,
-          19.8
+          -90.8,
+          19.7
         ],
         [
-          -90.4,
+          -90.5,
           21.0
         ],
         [
@@ -3581,7 +3585,7 @@
           18.7
         ]
       ],
-      "resumen": "El área cultural del centro y sur de México y parte de Centroamérica, donde se desarrollaron olmecas, zapotecos, mayas, teotihuacanos y mexicas. Compartían el cultivo del maíz, un calendario ritual de 260 días, la escritura glífica y el juego de pelota. Para su estudio se combinan la arqueología, los códices y las crónicas coloniales.",
+      "resumen": "El área cultural del centro y sur de México y parte de Centroamérica, donde se desarrollaron olmecas, zapotecos, mayas, teotihuacanos y mexicas. Compartían el cultivo del maíz, un calendario ritual de 260 días, la escritura glífica, el juego de pelota y el sacrificio humano como parte del culto. Para su estudio se combinan la arqueología, los códices y las crónicas coloniales.",
       "eras": [
         {
           "desde": -1500,
@@ -3611,7 +3615,7 @@
           "desde": 1521,
           "hasta": 1821,
           "nombre": "Virreinato de Nueva España",
-          "resumen": "Conquista española y sociedad colonial con evangelización."
+          "resumen": "Conquista española, caída de la población indígena por las epidemias, la guerra y el trabajo forzado, evangelización y sociedad colonial."
         },
         {
           "desde": 1821,
@@ -3622,57 +3626,233 @@
       ],
       "religiones": [
         {
-          "desde": -1500,
-          "hasta": 1521,
-          "nombre": "Religión mesoamericana",
-          "familia": "religion-mesoamericana",
+          "desde": -11000,
+          "hasta": -1500,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
           "peso": "mayoritaria"
         },
         {
+          "desde": -1500,
+          "hasta": 1540,
+          "nombre": "Religión mesoamericana (calendario ritual, juego de pelota, culto a Quetzalcóatl, Tláloc y Huitzilopochtli, autosacrificio y sacrificio humano)",
+          "familia": "religion-mesoamericana",
+          "peso": "mayoritaria",
+          "nota": "El sacrificio humano está documentado por la arqueología —el Templo Mayor y el Huey Tzompantli de Tenochtitlan, Teotihuacan— y por las fuentes de los dos lados; el número de víctimas se discute."
+        },
+        {
           "desde": 1521,
-          "hasta": 2000,
+          "hasta": 1540,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1540,
+          "hasta": null,
+          "nombre": "Catolicismo (con devociones indígenas y la Virgen de Guadalupe)",
+          "familia": "catolicismo",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1540,
+          "hasta": null,
+          "nombre": "Prácticas religiosas indígenas, perseguidas y mezcladas con el catolicismo",
+          "familia": "religion-mesoamericana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
         }
       ],
       "culturas": [
         {
+          "desde": -11000,
+          "hasta": -7000,
+          "nombre": "Paleoindios (Tlapacoya, Santa Isabel Iztapan)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Algunos sitios del valle de México, como Tlapacoya, tendrían fechas mucho más antiguas, que se discuten."
+        },
+        {
+          "desde": -7000,
+          "hasta": -1500,
+          "nombre": "Cazadores-recolectores y primeros agricultores (Guilá Naquitz, Tehuacán)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "El maíz se domesticó a partir del teosinte en la cuenca del Balsas hace unos 9000 años, y la calabaza, en Oaxaca, hace unos 10 000."
+        },
+        {
           "desde": -1500,
+          "hasta": 1200,
+          "nombre": "Pueblos mesoamericanos: olmecas, zapotecos de Monte Albán, Teotihuacan, Xochicalco, El Tajín, toltecas",
+          "familia": "mesoamericana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1200,
           "hasta": 1521,
-          "nombre": "Olmeca, maya, zapoteca, teotihuacana, mexica y otras",
+          "nombre": "Pueblos del Posclásico: nahuas de la Triple Alianza y de Tlaxcala, mixtecos, zapotecos, purépechas, totonacas, huastecos y otros",
           "familia": "mesoamericana",
           "peso": "mayoritaria"
         },
         {
           "desde": 1521,
-          "hasta": 2000,
-          "nombre": "Mestiza hispano-indígena",
+          "hasta": 1850,
+          "nombre": "Pueblos indígenas en las repúblicas de indios del virreinato",
+          "familia": "mesoamericana",
+          "peso": "mayoritaria",
+          "nota": "Según el cálculo de Navarro y Noriega para 1810, los indios eran cerca del 60 % de la población de Nueva España."
+        },
+        {
+          "desde": 600,
+          "hasta": 1850,
+          "nombre": "Nahuas",
+          "familia": "nahua",
+          "peso": "importante",
+          "nota": "La llegada de hablantes de náhuatl al centro de México se fecha entre los siglos V y VIII según los autores; la lengua de Teotihuacan se discute."
+        },
+        {
+          "desde": -500,
+          "hasta": 1850,
+          "nombre": "Zapotecos",
+          "familia": "zapoteca",
+          "peso": "importante"
+        },
+        {
+          "desde": -500,
+          "hasta": 1850,
+          "nombre": "Mixtecos",
+          "familia": "mixteca",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1850,
+          "nombre": "Purépechas",
+          "familia": "purepecha",
+          "peso": "importante"
+        },
+        {
+          "desde": -2000,
+          "hasta": null,
+          "nombre": "Mayas (en el área maya y los huastecos del Golfo)",
+          "familia": "maya",
+          "peso": "importante"
+        },
+        {
+          "desde": 1521,
+          "hasta": 1600,
+          "nombre": "Españoles, criollos y castas",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1850,
+          "nombre": "Españoles, criollos y castas",
+          "familia": "hispana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Mestiza",
           "familia": "criolla",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada: los censos dejaron de clasificar por casta tras la independencia y no volvieron a preguntar por raza hasta 1921."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Pueblos indígenas (nahuas, zapotecos, mixtecos, otomíes, totonacas, mazatecos, purépechas y otros)",
+          "familia": "mesoamericana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1521,
+          "hasta": null,
+          "nombre": "Afrodescendientes (Veracruz, Costa Chica)",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
         {
-          "desde": -1500,
-          "hasta": 1900,
-          "nombre": "Lenguas mesoamericanas (náhuatl, maya, zapoteco, mixteco…)",
-          "familia": "mesoamericanas",
+          "desde": -11000,
+          "hasta": -1500,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
           "peso": "mayoritaria"
         },
         {
+          "desde": -1500,
+          "hasta": 1850,
+          "nombre": "Lenguas mesoamericanas: otomangues, mixe-zoques, totonacas, mayenses, purépecha y náhuatl",
+          "familia": "mesoamericanas",
+          "peso": "mayoritaria",
+          "nota": "Campbell y Kaufman (1976) propusieron que los olmecas hablaban una lengua mixe-zoque; la lengua de Teotihuacan se discute."
+        },
+        {
+          "desde": -1500,
+          "hasta": 1850,
+          "nombre": "Lenguas otomangues (zapoteco, mixteco, otomí, mazateco, chinanteco)",
+          "familia": "otomangues",
+          "peso": "importante"
+        },
+        {
+          "desde": 600,
+          "hasta": 1850,
+          "nombre": "Náhuatl (tras la conquista, lengua general de la evangelización)",
+          "familia": "nahuatl",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Purépecha",
+          "familia": "purepecha",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": null,
+          "nombre": "Lenguas mayenses",
+          "familia": "mayenses",
+          "peso": "importante"
+        },
+        {
           "desde": 1521,
-          "hasta": 1900,
+          "hasta": 1600,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1850,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "importante"
         },
         {
-          "desde": 1900,
-          "hasta": 2000,
+          "desde": 1850,
+          "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada; el primer censo nacional mexicano, de 1895, ya registra una minoría de hablantes de lenguas indígenas."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Náhuatl, lenguas otomangues y otras lenguas originarias",
+          "familia": "mesoamericanas",
+          "peso": "importante"
         }
       ],
       "demografia": [
@@ -3932,20 +4112,24 @@
           -6.8
         ],
         [
+          -79.6,
+          -8.3
+        ],
+        [
           -78.6,
-          -8.6
+          -10.0
         ],
         [
-          -77.7,
-          -10.3
+          -77.6,
+          -11.5
         ],
         [
-          -77.1,
-          -12.0
+          -77.3,
+          -12.3
         ],
         [
-          -76.2,
-          -13.5
+          -76.4,
+          -13.6
         ],
         [
           -75.0,
@@ -4040,13 +4224,13 @@
           "desde": 1438,
           "hasta": 1533,
           "nombre": "Imperio inca",
-          "resumen": "Pachacútec inicia la expansión; Tawantinsuyu llega a ser el mayor imperio de América."
+          "resumen": "Según las crónicas, Pachacútec inicia la expansión; el Tawantinsuyu llega a ser el mayor estado de la América precolombina."
         },
         {
           "desde": 1533,
           "hasta": 1821,
           "nombre": "Virreinato del Perú",
-          "resumen": "Conquista española; Lima, fundada en 1535, es la capital del virreinato, creado en 1542. En 1776 el Alto Perú pasó al Virreinato del Río de la Plata."
+          "resumen": "Conquista española y caída de la población indígena; Lima, fundada en 1535, es la capital del virreinato, creado en 1542. En 1776 el Alto Perú pasó al Virreinato del Río de la Plata."
         },
         {
           "desde": 1821,
@@ -4057,57 +4241,197 @@
       ],
       "religiones": [
         {
-          "desde": -3000,
-          "hasta": 1533,
-          "nombre": "Religión andina (culto al sol, huacas y antepasados)",
-          "familia": "religion-andina",
+          "desde": -13000,
+          "hasta": -3000,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
           "peso": "mayoritaria"
         },
         {
-          "desde": 1533,
-          "hasta": 2000,
+          "desde": -3000,
+          "hasta": 1600,
+          "nombre": "Religión andina (huacas, culto a los antepasados y sus momias, el Sol y la Pachamama)",
+          "familia": "religion-andina",
+          "peso": "mayoritaria",
+          "nota": "Hay sacrificios humanos documentados por la arqueología: los de Moche en la Huaca de la Luna, la matanza de más de 140 niños y 200 llamas en Huanchaquito-Las Llamas (chimú, hacia 1450) y la capacocha inca, como la de los niños del Llullaillaco."
+        },
+        {
+          "desde": 1532,
+          "hasta": 1600,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Catolicismo (con cultos andinos a los apus y la Pachamama)",
+          "familia": "catolicismo",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Religión andina, perseguida en las campañas de extirpación de idolatrías (1609-1660) y mezclada con el catolicismo",
+          "familia": "religion-andina",
+          "peso": "importante"
+        },
+        {
+          "desde": 1970,
+          "hasta": 1990,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
         }
       ],
       "culturas": [
         {
+          "desde": -13000,
+          "hasta": -8000,
+          "nombre": "Paleoindios (Huaca Prieta, Guitarrero, Lauricocha)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las ocupaciones más antiguas de Huaca Prieta tendrían unos 15 000 años según Dillehay et al. (2017)."
+        },
+        {
+          "desde": -8000,
+          "hasta": -3000,
+          "nombre": "Cazadores-recolectores, primeros agricultores y pastores (domesticación de la papa, la quinua, la llama y la alpaca)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
           "desde": -3000,
-          "hasta": 1533,
-          "nombre": "Andina (Caral, Chavín, Moche, Wari, Inca…)",
+          "hasta": 1532,
+          "nombre": "Andina: Caral, Chavín, Paracas, Nazca, Moche, Tiwanaku, Wari, Chimú, incas y otros",
           "familia": "andina",
           "peso": "mayoritaria"
         },
         {
-          "desde": 1533,
-          "hasta": 2000,
-          "nombre": "Mestiza hispano-andina",
+          "desde": 1532,
+          "hasta": 1940,
+          "nombre": "Pueblos andinos bajo el virreinato y las repúblicas (quechuas, aimaras, uros y otros)",
+          "familia": "andina",
+          "peso": "mayoritaria",
+          "nota": "En el censo peruano de 1876 los indígenas eran el 58 % de la población, y en el boliviano de 1900, algo más de la mitad."
+        },
+        {
+          "desde": 1532,
+          "hasta": 1650,
+          "nombre": "Españoles, criollos y mestizos",
           "familia": "criolla",
-          "peso": "mayoritaria"
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": 1940,
+          "nombre": "Españoles, criollos y mestizos",
+          "familia": "criolla",
+          "peso": "importante",
+          "nota": "En el censo del virreinato del Perú de 1792, los españoles eran cerca del 13 % y los mestizos cerca del 23 %."
+        },
+        {
+          "desde": 1940,
+          "hasta": null,
+          "nombre": "Mestiza y criolla",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "En el censo peruano de 2017 el 60 % se identificó como mestizo y el 25 % como quechua o aimara; en el boliviano de 2012, el 41 % se declaró indígena."
+        },
+        {
+          "desde": 1940,
+          "hasta": null,
+          "nombre": "Quechuas, aimaras y otros pueblos andinos",
+          "familia": "andina",
+          "peso": "importante"
+        },
+        {
+          "desde": 1532,
+          "hasta": null,
+          "nombre": "Afrodescendientes (costa del Perú, Yungas de Bolivia)",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1849,
+          "hasta": null,
+          "nombre": "Descendientes de chinos, llegados como culíes desde 1849",
+          "familia": "china",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
         {
-          "desde": -1000,
-          "hasta": 1900,
-          "nombre": "Quechua, aimara y lenguas regionales",
+          "desde": -13000,
+          "hasta": 1,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": 1450,
+          "nombre": "Lenguas andinas: protoquechua, aimara, puquina, mochica, culli y otras",
+          "familia": "andinas",
+          "peso": "mayoritaria",
+          "nota": "Dónde y cuándo se originaron el quechua y el aimara, y qué lenguas hablaban Tiwanaku y Wari, se discute (Torero, Cerrón-Palomino, Heggarty)."
+        },
+        {
+          "desde": 1000,
+          "hasta": null,
+          "nombre": "Aimara (altiplano del Titicaca)",
+          "familia": "aimara",
+          "peso": "importante",
+          "nota": "Fecha aproximada de su llegada al altiplano."
+        },
+        {
+          "desde": 1450,
+          "hasta": 1940,
+          "nombre": "Quechua, lengua general del Tawantinsuyu y de la evangelización",
           "familia": "andinas",
           "peso": "mayoritaria"
         },
         {
-          "desde": 1533,
-          "hasta": 1900,
+          "desde": 1,
+          "hasta": 1920,
+          "nombre": "Mochica (muchik) en la costa norte, extinguido en el siglo XX",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1532,
+          "hasta": 1650,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": 1940,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "importante"
         },
         {
-          "desde": 1900,
-          "hasta": 2000,
+          "desde": 1940,
+          "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1940,
+          "hasta": null,
+          "nombre": "Quechua",
+          "familia": "andinas",
+          "peso": "importante"
         }
       ],
       "demografia": [
@@ -6087,9 +6411,16 @@
       },
       "idioma_original": "Náhuatl (con traducción al español)",
       "soporte": "Manuscrito ilustrado en 12 libros, con más de 2000 imágenes (Biblioteca Medicea Laurenciana, Florencia)",
-      "resumen": "Enciclopedia de la vida mexica, redactada en náhuatl con la ayuda de ancianos y estudiantes del Colegio de Santa Cruz. Trata los dioses, las fiestas, la sociedad, la naturaleza y, en el libro XII, la conquista vista por los vencidos.",
+      "resumen": "Enciclopedia de la vida mexica, redactada en náhuatl con la ayuda de ancianos y estudiantes del Colegio de Santa Cruz. Trata los dioses, las fiestas con sus sacrificios humanos, la sociedad, la naturaleza y, en el libro XII, la conquista contada por informantes de Tlatelolco más de tres décadas después de los hechos.",
       "por_que_importa": "Es la fuente más rica sobre la sociedad mexica, con voces indígenas, aunque fue compilada por un fraile y décadas después de la conquista.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Digital Florentine Codex del Getty Research Institute: facsímil con el texto náhuatl y su traducción",
+          "url": "https://florentinecodex.getty.edu/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Códice florentino",
         "en": "Florentine Codex"
@@ -6116,13 +6447,13 @@
         "regiones": [
           "mesoamerica"
         ],
-        "desde": -3000,
+        "desde": 1200,
         "hasta": 1550
       },
       "idioma_original": "K'iche' (con copia y traducción de Ximénez, hacia 1700)",
       "soporte": "Manuscrito alfabético en k'iche'; la copia conocida es del padre Francisco Ximénez",
-      "resumen": "Libro sagrado de los mayas k'iche' que narra la creación del mundo, las aventuras de los gemelos Hunahpú e Ixbalanqué y la genealogía de los señores k'iche'. El original perdido se escribió en alfabeto latino hacia mediados del siglo XVI.",
-      "por_que_importa": "Es la mejor fuente escrita sobre la mitología maya; muestra la tradición oral indígena sobre su propio pasado.",
+      "resumen": "Libro sagrado de los mayas k'iche' que narra la creación del mundo, las aventuras de los gemelos Hunahpú e Ixbalanqué y la genealogía de los señores k'iche'. El original perdido se escribió en alfabeto latino hacia mediados del siglo XVI. La única copia conocida es la transcripción con traducción castellana del dominico Francisco Ximénez (hacia 1701-1703), que se conserva en la Biblioteca Newberry de Chicago.",
+      "por_que_importa": "Es la fuente escrita más extensa sobre la mitología maya, en su versión k'iche'; muestra cómo una élite indígena, ya bajo dominio español, fijó por escrito la tradición sobre su propio pasado.",
       "leer": [
         {
           "titulo": "Popol Vuh (Wikisource)",
@@ -6162,7 +6493,7 @@
       },
       "idioma_original": "Español",
       "soporte": "Cartas manuscritas e impresas al emperador Carlos V",
-      "resumen": "Cinco cartas al rey de España en las que Cortés relata la expedición y la conquista de México, con descripciones de Tenochtitlan, de su mercado y de los pueblos que halló.",
+      "resumen": "Cinco cartas a Carlos V en las que Cortés relata la expedición y la conquista de México, con descripciones de Tenochtitlan, de su mercado y de los pueblos que halló. La primera, de 1519, se perdió y suele reemplazarse con la carta del cabildo de Veracruz; la quinta (1526) cuenta la expedición a las Hibueras (Honduras).",
       "por_que_importa": "Es un testimonio directo de la conquista escrito por su principal protagonista, con su propia justificación y sus omisiones.",
       "leer": [
         {
@@ -6201,7 +6532,7 @@
       },
       "idioma_original": "Español",
       "soporte": "Libro impreso en Lisboa en 1609",
-      "resumen": "Historia del Perú incaico escrita por el hijo de un capitán español y una ñusta, mujer de la nobleza inca, que recoge tradiciones familiares y su infancia en Cusco. La segunda parte, «Historia general del Perú», cuenta la conquista.",
+      "resumen": "Historia del Perú incaico escrita por el hijo de un capitán español y una ñusta, mujer de la nobleza inca, que recoge tradiciones familiares y su infancia en Cusco. La segunda parte, «Historia general del Perú», cuenta la conquista. Su madre era del linaje de Topa Inca, al que persiguieron los generales de Atahualpa, y Garcilaso escribe con hostilidad hacia este; usó papeles del jesuita Blas Valera, niega que los incas hicieran sacrificios humanos, lo que desmienten la capacocha y las crónicas tempranas, y presenta a los pueblos anteriores a los incas como bárbaros, algo que contradice la arqueología.",
       "por_que_importa": "Es la fuente más influyente sobre el Tawantinsuyu; buena parte de la crítica señala que idealiza el pasado inca, y se escribió desde España, décadas después de la conquista.",
       "leer": [
         {
@@ -6241,8 +6572,8 @@
       },
       "idioma_original": "Español, con quechua",
       "soporte": "Manuscrito de unas 1200 páginas con 398 dibujos (Biblioteca Real de Copenhague)",
-      "resumen": "Carta al rey Felipe III en la que un noble indígena denuncia los abusos coloniales y relata la historia andina desde un punto de vista indígena, con cientos de dibujos.",
-      "por_que_importa": "Es una de las pocas voces andinas escritas del primer siglo colonial, y combina texto e imagen de forma única.",
+      "resumen": "Carta al rey Felipe III en la que un indígena de Huamanga que se presentaba como noble relata la historia andina, denuncia los abusos de corregidores, curas, encomenderos y también de caciques, y propone reformas, con cientos de dibujos.",
+      "por_que_importa": "Es una de las pocas voces andinas escritas del primer siglo colonial, y combina texto e imagen de forma única. Como toda fuente, tiene su interés: el autor defendía la nobleza de su linaje y había perdido en 1600 un pleito por tierras en Huamanga.",
       "leer": [
         {
           "titulo": "Nueva corónica y buen gobierno (Wikisource)",
@@ -7253,7 +7584,7 @@
       "roles": [
         "tlatoani"
       ],
-      "resumen": "Noveno tlatoani de Tenochtitlan (1502-1520). Recibió a Cortés en 1519 y murió en circunstancias discutidas durante los enfrentamientos de 1520.",
+      "resumen": "Noveno tlatoani de Tenochtitlan (1502-1520). Recibió a Cortés en 1519, quedó retenido por los españoles pocos días después y murió en circunstancias discutidas durante los enfrentamientos de 1520: según las fuentes españolas, por una pedrada de los suyos; según varias fuentes indígenas y mestizas, a manos de los españoles.",
       "obras": [],
       "wikipedia": {
         "es": "Moctezuma II",
@@ -7283,7 +7614,7 @@
       "roles": [
         "conquistador"
       ],
-      "resumen": "Conquistador extremeño que dirigió la expedición contra los mexicas (1519-1521) con el apoyo de pueblos indígenas aliados, y fue gobernador de Nueva España.",
+      "resumen": "Conquistador extremeño que dirigió la expedición contra los mexicas (1519-1521) con el apoyo de pueblos indígenas aliados, y fue gobernador de Nueva España. En la conquista ordenó la matanza de Cholula (1519) y el herraje como esclavos de los vencidos de Tepeaca (1520); tras la caída de Tenochtitlan permitió que se torturara a Cuauhtémoc para que revelara dónde estaba el oro, y en 1525 lo hizo ejecutar durante la expedición a las Hibueras. Repartió las primeras encomiendas, fundó hacia 1524 el Hospital de Jesús, donde están sus restos, recibió en 1529 el título de marqués del Valle de Oaxaca y fue sometido a juicio de residencia.",
       "obras": [
         "cartas-de-relacion"
       ],
@@ -7317,7 +7648,7 @@
         "fraile",
         "etnógrafo"
       ],
-      "resumen": "Franciscano llegado a Nueva España en 1529. Dedicó décadas a registrar la cultura nahua con ayuda de informantes y estudiantes indígenas.",
+      "resumen": "Franciscano llegado a Nueva España en 1529. Dedicó décadas a registrar la cultura nahua con ayuda de informantes y estudiantes indígenas. Enseñó en el Colegio de Santa Cruz de Tlatelolco, donde trabajó con colaboradores nahuas formados allí, como Antonio Valeriano.",
       "obras": [
         "codice-florentino"
       ],
@@ -7344,9 +7675,10 @@
       "roles": [
         "cronista"
       ],
-      "resumen": "Hijo de un capitán español y de la ñusta Chimpu Ocllo. Nacido en Cusco, se instaló en España en 1560 y escribió allí sobre los incas.",
+      "resumen": "Hijo de un capitán español y de la ñusta Chimpu Ocllo, nieta de Topa Inca Yupanqui y sobrina de Huayna Cápac. Nacido en Cusco, se instaló en España en 1560 y escribió allí sobre los incas.",
       "obras": [
-        "comentarios-reales"
+        "comentarios-reales",
+        "la-florida-del-inca"
       ],
       "wikipedia": {
         "es": "Inca Garcilaso de la Vega",
@@ -7368,7 +7700,7 @@
         "cronista",
         "dibujante"
       ],
-      "resumen": "Noble indígena de la región de Huamanga. Escribió y dibujó la Nueva corónica y buen gobierno, que no llegó a publicarse en su época.",
+      "resumen": "Indígena de la región de Huamanga que se presentaba como descendiente de señores andinos anteriores a los incas (los Yarovilca) y, por su madre, de Topa Inca Yupanqui. Trabajó como intérprete para funcionarios y religiosos españoles, y escribió y dibujó la Nueva corónica y buen gobierno, que no llegó a publicarse en su época.",
       "obras": [
         "nueva-coronica-y-buen-gobierno"
       ],
@@ -7393,7 +7725,7 @@
       "roles": [
         "sapa inca"
       ],
-      "resumen": "Último soberano del Imperio inca, que ganó la guerra civil contra su hermano Huáscar. Fue capturado por Francisco Pizarro en Cajamarca en 1532 y ejecutado en 1533.",
+      "resumen": "Hijo de Huayna Cápac, ganó la guerra civil contra su hermano Huáscar (c. 1529-1532). Fue capturado por Francisco Pizarro en Cajamarca en 1532; ya prisionero, según las crónicas, ordenó matar a Huáscar, y los españoles lo ejecutaron el 26 de julio de 1533. No fue el último inca: los españoles nombraron a otros, y los incas de Vilcabamba siguieron fuera de su control hasta 1572.",
       "obras": [],
       "wikipedia": {
         "es": "Atahualpa",
@@ -7420,7 +7752,7 @@
       "roles": [
         "sapa inca"
       ],
-      "resumen": "Noveno inca según las crónicas, que dirigió la gran expansión del Tawantinsuyu desde 1438 y remodeló Cusco. Las fechas de su reinado proceden de tradición oral y son aproximadas.",
+      "resumen": "Noveno inca según las crónicas, que le atribuyen la gran expansión del Tawantinsuyu y la remodelación de Cusco. La fecha tradicional de 1438 para el comienzo de su reinado viene de la cronología de Miguel Cabello Balboa (1586), que adoptó John Rowe en 1945; los fechados arqueológicos sugieren que la expansión empezó antes.",
       "obras": [],
       "wikipedia": {
         "es": "Pachacútec",
@@ -8389,11 +8721,13 @@
       "lon": -94.75,
       "lat": 17.73,
       "tipo": "cultural",
-      "resumen": "San Lorenzo es el primer gran centro olmeca, con cabezas colosales de basalto y obras hidráulicas. Se lo considera uno de los primeros centros de poder de Mesoamérica.",
+      "resumen": "San Lorenzo es el primer gran centro olmeca, con cabezas colosales de basalto y obras hidráulicas. Se lo considera uno de los primeros centros de poder de Mesoamérica. Hacia el 900 a. C. muchos de sus monumentos fueron mutilados y enterrados, y el centro perdió su primacía frente a La Venta.",
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bloque-de-cascajal"
+      ],
       "wikipedia": {
         "es": "San Lorenzo Tenochtitlán",
         "en": "San Lorenzo Tenochtitlán"
@@ -8409,12 +8743,15 @@
       "lon": -99.1332,
       "lat": 19.4326,
       "tipo": "fundacion",
-      "resumen": "Según la tradición mexica, tras su peregrinación desde Aztlán fundan su ciudad en un islote del lago de Texcoco. La fecha se toma de los códices.",
+      "resumen": "Según la tradición mexica, tras su peregrinación desde Aztlán fundan su ciudad en un islote del lago de Texcoco. La fecha de 1325 viene de esa tradición oficial, registrada en el Códice Mendoza y en otros códices y anales coloniales; según los informantes de Sahagún, bajo Itzcóatl (1427-1440) se quemaron las pinturas antiguas para fijar una nueva versión de la historia.",
       "regiones": [
         "mesoamerica"
       ],
       "fuentes": [
-        "codice-florentino"
+        "codice-florentino",
+        "codice-mendoza",
+        "cronica-mexicayotl",
+        "codice-aubin"
       ],
       "wikipedia": {
         "es": "Tenochtitlan",
@@ -8430,14 +8767,16 @@
       "lugar": "Tenochtitlan",
       "lon": -99.1332,
       "lat": 19.4326,
-      "tipo": "exploracion",
-      "resumen": "El 8 de noviembre de 1519 Cortés y sus aliados son recibidos por Moctezuma II en la calzada de Iztapalapa.",
+      "tipo": "politico",
+      "resumen": "El 8 de noviembre de 1519 Cortés y sus aliados son recibidos por Moctezuma II en la calzada de Iztapalapa. El discurso en que Moctezuma habría entregado su reino a Carlos V viene de la segunda carta de Cortés; Matthew Restall (2018) y otros historiadores lo consideran una construcción del propio Cortés para justificar la conquista.",
       "regiones": [
         "mesoamerica"
       ],
       "fuentes": [
         "cartas-de-relacion",
-        "codice-florentino"
+        "codice-florentino",
+        "historia-verdadera-bernal",
+        "when-montezuma-met-cortes"
       ],
       "wikipedia": {
         "es": "Conquista de México",
@@ -8454,13 +8793,18 @@
       "lon": -99.1332,
       "lat": 19.4326,
       "tipo": "batalla",
-      "resumen": "El 13 de agosto de 1521 se rinde Cuauhtémoc tras un asedio de tres meses. Termina el dominio mexica.",
+      "resumen": "El 13 de agosto de 1521, tras un sitio de unos tres meses, cae Tenochtitlan y es capturado Cuauhtémoc cuando intentaba salir de la ciudad en canoa. La sitiaron unos 900 españoles, según la tercera carta de Cortés, con decenas de miles de guerreros indígenas aliados, sobre todo de Tlaxcala, Texcoco, Huexotzinco y Chalco; la viruela de 1520 ya había matado a muchos de sus habitantes, entre ellos al tlatoani Cuitláhuac. Termina el dominio mexica.",
       "regiones": [
         "mesoamerica"
       ],
       "fuentes": [
         "cartas-de-relacion",
-        "codice-florentino"
+        "codice-florentino",
+        "anales-de-tlatelolco",
+        "historia-verdadera-bernal",
+        "lienzo-de-tlaxcala",
+        "mexico-and-the-spanish-conquest",
+        "indian-conquistadors"
       ],
       "wikipedia": {
         "es": "Caída de Tenochtitlan",
@@ -8477,7 +8821,7 @@
       "lon": -100.9317,
       "lat": 21.1572,
       "tipo": "revolucion",
-      "resumen": "El 16 de septiembre de 1810 el cura Miguel Hidalgo llama a levantarse contra el dominio español; empieza la guerra de independencia de México.",
+      "resumen": "El 16 de septiembre de 1810 el cura Miguel Hidalgo llama a sus feligreses a alzarse contra las autoridades peninsulares. No se conserva el texto: según los testimonios, se gritó a favor de Fernando VII y de la Virgen de Guadalupe y contra el «mal gobierno». Empieza la guerra de independencia de México, que se declaró formalmente en 1813 (Congreso de Chilpancingo) y se consumó en 1821.",
       "regiones": [
         "mesoamerica"
       ],
@@ -8497,11 +8841,14 @@
       "lon": -77.52,
       "lat": -10.8939,
       "tipo": "cultural",
-      "resumen": "Caral, en el valle de Supe, es el mayor centro urbano conocido de la civilización norchiquina, con pirámides y plazas hundidas; es una de las ciudades más antiguas de América.",
+      "resumen": "Caral, en el valle de Supe, tiene pirámides y plazas circulares hundidas construidas entre hacia 2600 y 2000 a. C., según los fechados que publicaron Ruth Shady, Jonathan Haas y Winifred Creamer en 2001. Shady la considera la ciudad central de la civilización más antigua de América; otros arqueólogos discuten que fuera una ciudad y la ven como uno de varios centros ceremoniales del Norte Chico, y Michael Moseley había propuesto en 1975 que estas sociedades se apoyaron sobre todo en la pesca.",
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dating-caral",
+        "maritime-foundations-moseley"
+      ],
       "wikipedia": {
         "es": "Caral",
         "en": "Caral"
@@ -8517,14 +8864,18 @@
       "lon": -71.9675,
       "lat": -13.5319,
       "tipo": "politico",
-      "resumen": "Según Betanzos, Cieza y Sarmiento de Gamboa, tras vencer a los chancas Pachacútec asumió el poder e inició la gran expansión del Tawantinsuyu; Garcilaso atribuye esa victoria a su padre, Viracocha Inca. Las fechas proceden de la tradición oral y de las cronologías de los cronistas.",
+      "resumen": "Según Betanzos, Cieza y Sarmiento de Gamboa, tras vencer a los chancas Pachacútec asumió el poder e inició la gran expansión del Tawantinsuyu; Garcilaso atribuye esa victoria a su padre, Viracocha Inca. La fecha de 1438 viene de la cronología de Miguel Cabello Balboa (1586), que adoptó John Rowe en 1945; fechados por radiocarbono en sitios incas sugieren que la expansión empezó décadas antes.",
       "regiones": [
         "andes"
       ],
       "fuentes": [
         "comentarios-reales",
         "suma-y-narracion-betanzos",
-        "historia-de-los-incas-sarmiento"
+        "historia-de-los-incas-sarmiento",
+        "absolute-chronology-rowe",
+        "miscelanea-antartica",
+        "the-chanka-bauer",
+        "how-the-incas-built-their-heartland"
       ],
       "wikipedia": {
         "es": "Imperio incaico",
@@ -8541,13 +8892,18 @@
       "lon": -78.5,
       "lat": -7.1638,
       "tipo": "batalla",
-      "resumen": "El 16 de noviembre de 1532 Pizarro y unos 170 españoles capturan a Atahualpa y matan a miles de sus seguidores. Es el hecho decisivo de la conquista del Perú.",
+      "resumen": "El 16 de noviembre de 1532, en la plaza de Cajamarca, Pizarro y 168 españoles (según el recuento de James Lockhart) capturan a Atahualpa y matan a muchos de sus acompañantes: unos 2000, según Francisco de Xerez, secretario de Pizarro. La captura pesó tanto porque Atahualpa acababa de ganar la guerra civil contra Huáscar, cuyo bando y muchos pueblos sometidos por los incas estaban dispuestos a aliarse con los españoles.",
       "regiones": [
         "andes"
       ],
       "fuentes": [
         "comentarios-reales",
-        "cronica-del-peru-cieza"
+        "verdadera-relacion-xerez",
+        "la-conquista-del-peru-mena",
+        "carta-de-hernando-pizarro-1533",
+        "relacion-de-pedro-pizarro",
+        "suma-y-narracion-betanzos",
+        "men-of-cajamarca"
       ],
       "wikipedia": {
         "es": "Batalla de Cajamarca",
@@ -8564,7 +8920,7 @@
       "lon": -71.4,
       "lat": -14.15,
       "tipo": "revolucion",
-      "resumen": "José Gabriel Condorcanqui, cacique de Tungasuca, se alzó en noviembre de 1780 contra los corregidores y el reparto forzoso de mercancías, y la rebelión se extendió por el sur andino y el Alto Perú. Fue derrotado y ejecutado en Cusco en mayo de 1781 junto con parte de su familia; la guerra y la represión dejaron decenas de miles de muertos según las estimaciones.",
+      "resumen": "José Gabriel Condorcanqui, cacique de Tungasuca, se alzó en noviembre de 1780 contra los corregidores y el reparto forzoso de mercancías, y la rebelión se extendió por el sur andino y el Alto Perú. Fue derrotado y ejecutado en Cusco en mayo de 1781 junto con parte de su familia; la guerra, con matanzas cometidas por los dos bandos, y la represión dejaron decenas de miles de muertos según las estimaciones.",
       "regiones": [
         "andes"
       ],
@@ -8587,7 +8943,7 @@
       "lon": -74.1,
       "lat": -13.0,
       "tipo": "batalla",
-      "resumen": "El 9 de diciembre de 1824, las fuerzas de Antonio José de Sucre derrotan al ejército virreinal y ponen fin al dominio español en Sudamérica.",
+      "resumen": "El 9 de diciembre de 1824, las fuerzas de Antonio José de Sucre derrotan al ejército del virrey José de la Serna, formado en su mayoría por soldados reclutados en el propio Perú, y los realistas firman la capitulación. Fue la última gran batalla de las guerras de independencia en Sudamérica, aunque quedaron focos realistas en el Alto Perú hasta abril de 1825 y en el Callao y Chiloé hasta enero de 1826.",
       "regiones": [
         "andes"
       ],
@@ -9190,7 +9546,7 @@
       "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "Capital mexica en una isla del lago de Texcoco, bajo la actual Ciudad de México. Cortés la describió en sus cartas.",
+      "resumen": "Capital mexica en una isla del lago de Texcoco, bajo la actual Ciudad de México. Cortés la describió en sus cartas. Tras la conquista de 1521 se demolió su recinto sagrado y sobre la ciudad se construyó la capital de la Nueva España.",
       "regiones": [
         "mesoamerica"
       ],
@@ -9209,7 +9565,7 @@
       "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 3,
-      "resumen": "Gran ciudad del Altiplano Central con las pirámides del Sol y de la Luna. Llegó a tener decenas de miles de habitantes y fue incendiada hacia el 550.",
+      "resumen": "Gran ciudad del Altiplano Central con las pirámides del Sol y de la Luna. En su apogeo, en la primera mitad del primer milenio, tuvo según las estimaciones entre 25 000 y más de 100 000 habitantes (unos 100 000 es la cifra más citada); sus edificios principales fueron saqueados e incendiados hacia el 550. Bajo la Pirámide de la Serpiente Emplumada y a su alrededor se enterraron, hacia el 200, unas 200 personas sacrificadas, según las excavaciones de Rubén Cabrera, Saburo Sugiyama y George Cowgill.",
       "regiones": [
         "mesoamerica"
       ],
@@ -9228,7 +9584,7 @@
       "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 3,
-      "resumen": "Centro maya del norte de Yucatán, con la pirámide de Kukulcán y el mayor juego de pelota de Mesoamérica.",
+      "resumen": "Centro maya del norte de Yucatán, con la pirámide de Kukulcán y el mayor juego de pelota de Mesoamérica. Tiene un tzompantli y relieves de jugadores de pelota decapitados, y se discute su relación con Tula, con la que comparte rasgos de arquitectura e iconografía. Según Landa y los dragados de Edward H. Thompson (1904-1910), en su Cenote Sagrado se arrojaban ofrendas y personas, y la peregrinación al cenote siguió después del abandono de la ciudad.",
       "regiones": [
         "mesoamerica"
       ],
@@ -9247,7 +9603,7 @@
       "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "Capital del Tawantinsuyu, el «ombligo del mundo» para los incas, hoy centro del Perú andino.",
+      "resumen": "Capital del Tawantinsuyu, hoy centro del Perú andino. La traducción de su nombre como «ombligo del mundo» viene del Inca Garcilaso; lingüistas como Rodolfo Cerrón-Palomino la discuten y le proponen un origen aimara.",
       "regiones": [
         "andes"
       ],
@@ -9261,12 +9617,12 @@
       "nombre": "Machu Picchu",
       "lon": -72.545,
       "lat": -13.1631,
-      "fundacion": 1450,
+      "fundacion": 1420,
       "abandono": 1572,
       "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 3,
-      "resumen": "Llaqta inca del siglo XV, relacionada con la hacienda real de Pachacútec, abandonada tras la conquista.",
+      "resumen": "Llaqta inca del siglo XV que documentos del siglo XVI relacionan con la hacienda real de Pachacútec. Los fechados por radiocarbono (Burger y otros, 2021) muestran que estaba ocupada desde hacia 1420, antes de lo que sugería la cronología de los cronistas; fue abandonada tras la conquista.",
       "regiones": [
         "andes"
       ],
@@ -9285,7 +9641,7 @@
       "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 2,
-      "resumen": "Ciudad de la civilización norchiquina en el valle de Supe, con edificios monumentales de más de 4500 años.",
+      "resumen": "Sitio del valle de Supe, en la costa norte del Perú, con edificios monumentales de más de 4500 años, que excava desde 1994 el equipo de la arqueóloga Ruth Shady. Es el centro más estudiado de la llamada civilización Caral o Norte Chico.",
       "regiones": [
         "andes"
       ],

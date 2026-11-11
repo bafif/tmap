@@ -72,12 +72,27 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       show them from their first event. The 43 undated places in the Holy Land, Thebes and Heliopolis are fine as is.
 - [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
-      Onetti, Carlos Fuentes, Clarice Lispector and Galeano. Hawaii has no region (Pearl Harbor falls outside all of
-      them).
-- [ ] **Religions, cultures and languages for the world regions.** The 46 regions in `regiones-del-mundo.json`
-      (Siberia, Japan, Africa, the Americas, Oceania…) have a summary, eras and population, but not those three layers:
-      religion, culture or language mode leaves them hatched. Families will need to be added (Shinto, traditional
-      African religions, Bantu languages, Austronesian…).
+      Onetti, Carlos Fuentes and Clarice Lispector (Galeano now has an entry, with Open Veins and what he said about
+      that book in 2014). Hawaii has no region (Pearl Harbor falls outside all of them).
+- [ ] **Religions, cultures and languages for the world regions.** The 33 non-American regions in
+      `regiones-del-mundo.json` (Siberia, Japan, Africa, Oceania…) have a summary, eras and population, but not those
+      three layers: religion, culture or language mode leaves them hatched. Families will need to be added (Shinto,
+      traditional African religions, Bantu languages, Austronesian…). The American ones were completed on 11/11/2026.
+- [ ] **Indigenous peoples of the Americas: what is left to confirm.** Figures the reviewers could not check against
+      the text were left attributed and with medium confidence: those tortured and killed at the Maní auto-da-fé (about
+      4,500 and 158, according to Clendinnen), the “more than forty thousand” people of one day of the siege of
+      Tenochtitlan in Cortés's third letter, the skulls of the Huey Tzompantli (INAH's and Wikipedia's figures differ),
+      the half million Indians taken out of Nicaragua (Radell), Cook's and Dobyns's figures for Peru in 1520, the 47-67 %
+      of the carbon in Koch et al. (2019), the deaths from the 1733 smallpox in Greenland, the Powhatan population and
+      the colonial dead of King Philip's War, Mabila and Awa'uq. Also to be confirmed: the 1570 law issued at Évora,
+      Pedro Claver's final vows (1622), the Colegio del Príncipe (1619 or 1620), Antonio Ricardo's arrival in Lima
+      (1580 or 1581), Santillán's tasa (1558 or 1559), the Juzgado General de Indios (1585 or 1591-1592) and whether
+      Vivar attributes the killing of the 1541 hostages to Inés Suárez. Lewy (2004) could not be read (Commentary
+      returns 403). No legal reading link although they are in the public domain: Staden, Carvajal, Acuña, Antonil,
+      Nóbrega, Sandoval, Mariño de Lobera, Góngora Marmolejo, Otermín's autos and the Acoma trial (gutendex was not
+      responding). On the map, El Tajín falls in Aridoamerica and La Venta, Izapa and Chiapa de Corzo in the Maya area,
+      because the polygons are approximate; the Columbus monument is still at its old site in Buenos Aires. The English
+      is machine translation and should be reviewed.
 - [ ] **Curated estimates outside Europe and the Near East.** HYDE's per-country series cover everything, but the share
       of world population that also has a specialist estimate for its region (Russell, Urlanis, Butzer, DellaPergola,
       the Han censuses) goes from a quarter in year 1 to almost nothing in BC times and after 1600. Candidates:
@@ -107,8 +122,14 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       criticism with its author. Four sources still have no place of writing (the Requerimiento, the Democrates alter,
       Luis Ramírez's letter and Luis de la Cruz's diary). The English of these packages is machine translation and is
       worth reviewing. With 4636 items, the automated test leaves some 5,100 “Out of resolver queries” warnings (3,500
-      with the previous data): `wiki.gd` requests the Wikipedia image of every entry it opens, without a queue, and
-      Godot's DNS queue runs out; those requests should be queued.
+      with the previous data; with 7,475 items, some 8,300): `wiki.gd` requests the Wikipedia image of every entry it
+      opens, without a queue, and Godot's DNS queue runs out; those requests should be queued.
+- [ ] **Run the full test with 7,475 items.** On 11/11/2026 it could not finish: the editor step piled up forms
+      without freeing them (over 3.8 GB in 7 minutes without finishing, and a second attempt started while the first
+      was shutting down left the machine out of memory). It now waits one frame every 50 items and
+      `tmap.py prueba` waits up to 30 minutes, but it still has to be run end to end, in Spanish and in English.
+      `validar.py` (0 errors), `tmap.py revisar`, `--verificar` (7,475 items in 532 ms) and the first part of the test
+      (every entry, the 272 families, legend, timeline, charts, markers and shortcuts) did pass.
 - [ ] **Holy Land: what was left out.** Sinai goes with Egypt. Lebanon, Syria, Transjordan, Arabia, the Maghreb and
       Cyprus only have the HYDE, Gapminder and UN per-country series, with no curated estimate. Armenia has layers up
       to 1920: after that, the Turkish part is painted by Anatolia and the Republic of Armenia has no layers. 24
@@ -164,6 +185,81 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: the Indigenous peoples of the Americas and their colonization
+
+- [x] **Fourteen new packages** with 735 sources, 697 people, 935 events and 372 places (the encyclopedia grows from
+      4,636 to 7,375 entries) and 280 reading links that returned 200, from the peopling of the continent to the
+      independence of each area (and at least to the end of the 18th century where colonial rule went on), plus what
+      turned up along the way. Each topic was written by one agent and corrected by an adversarial reviewer who looked
+      for factual errors, gaps and bias from both sides, that of the Black Legend and militant indigenism and that of
+      the White Legend and militant Hispanism (323 corrections). Disputed events first say what the documents and
+      archaeology show and then who interprets them how; the sweeping theses (“Spain brought civilization”, “it was a
+      genocide”) come with their authors and their main criticism. Where there is a record, each topic covers war,
+      sacrifice, cannibalism and slavery among Indigenous peoples; the cities, universities, hospitals, printing
+      presses, grammars and protective laws of the powers, and whether they were enforced; and the documented
+      massacres, slavery, forced labor, dispossession and epidemics, by Spain, Portugal, England, France, the
+      Netherlands, Denmark and Russia. Influential myths that the documents refute (the Walam Olum, the Vinland Map, the
+      “Mound Builders”, smallpox blankets beyond Fort Pitt) have an entry that says so.
+      - `poblamiento-de-america-y-artico`: Beringia and ancient genetics, Monte Verde, Clovis, White Sands and the
+        disputed sites, the megafauna, the domestications, the refuted theories; the Arctic, the Norse in Greenland and
+        Vinland, and Hans Egede's mission.
+      - `mesoamerica-antigua`: from the Olmecs to the Postclassic, the Maya dynasties and wars with their inscriptions,
+        sacrifice at Teotihuacan and Chichén Itzá, the codices, the decipherment and the Maní auto-da-fé.
+      - `mexica-y-conquista-de-mexico`: the Triple Alliance, tribute, the flower wars, sacrifice with the archaeology of
+        the Templo Mayor and the Huey Tzompantli, the conquest with its Indigenous allies (Cholula, Toxcatl, the 1520
+        smallpox), Michoacán, the Mixtón War and Yucatán up to Tayasal, with chroniclers from both sides.
+      - `nueva-espana-y-centroamerica`: viceroys, religious orders, Tlatelolco, the 1539 printing press, the
+        University, the hospitals, Vasco de Quiroga, the Juzgado General de Indios, cocoliztli and its DNA, the
+        Chichimeca War, Guadalupe, Balmis and independence; and all of Central America, with the Nicaraguan Indian
+        slave trade.
+      - `andes-antiguos-e-incas`: from Valdivia and Chavín to Chimú, the Moche and Huanchaquito sacrifices, the
+        Tawantinsuyu with its wars, mitmaq, quipus and the capacocha, and the civil war of Huáscar and Atahualpa.
+      - `conquista-y-virreinato-del-peru`: Cajamarca, the Indigenous allies, Vilcabamba, the civil wars, Toledo,
+        Huancavelica, the extirpation of idolatries, the Parecer de Yucay and the Memorial de Charcas, Juan Santos
+        Atahualpa, Quito and the Moxos and Chiquitos missions.
+      - `nueva-granada-venezuela-y-guayanas`: the Muisca, the Tairona and El Dorado, the Welsers, Lope de Aguirre,
+        Cartagena and the slave trade, Claver and Sandoval, the Botanical Expedition, the Comuneros and the Guianas with
+        their maroons.
+      - `caribe-indigena-y-colonial`: the Taíno and Kalinago with ancient DNA, Columbus's voyages and Bobadilla's
+        inquiry, Jaragua, Enriquillo, Hatuey, the first hospital and the first university, the English, French, Dutch
+        and Danish Antilles, the Garifuna and the Haitian Revolution.
+      - `brasil-colonial-y-amazonia`: Tupinambá cannibalism according to Staden, Léry and the Jesuits, the ancient
+        Amazon (Marajó, terra preta, Casarabe), Orellana, the captaincies, the bandeiras, Palmares, Dutch Brazil,
+        Vieira and Pombal's Directorate.
+      - `norteamerica-indigena`: Poverty Point, Hopewell, Cahokia and Mound 72, the Ancestral Puebloans and Cowboy
+        Wash, Crow Creek, Northwest Coast slavery and the Iroquois Confederacy.
+      - `norteamerica-colonial`: Florida, New Mexico, Acoma, the Pueblo Revolt and the California missions; New France,
+        Huronia and the Great Peace; Jamestown, Mystic, King Philip's War, Eliot and Harvard, the Carolina Indian slave
+        trade; Fort Pitt, the Proclamation of 1763, independence and Greenville; Russian America; along the way, the
+        1830 removal and California from 1846 to 1873.
+      - `debates-sobre-la-conquista-de-america`: population figures and their authors, the genocide debate, the Black
+        and White Legends, Las Casas and his critics, sacrifice and cannibalism, the dispute of the New World, the
+        Atlantic slave trade, the general languages and comparative overviews of the universities, hospitals and
+        printing presses of every power.
+      - `chile-colonial-y-araucania`: Chinchorro, Valdivia and Lautaro, the Arauco War, the legal enslavement of the
+        Mapuche (1608-1683), the parlamentos, the chroniclers and Rapa Nui.
+- [x] **Twelve new regions**: North America in its ten culture areas (Arctic, Subarctic, Northwest Coast, Columbia
+      Plateau, Great Basin, California, Southwest, Great Plains, Northeastern Woodlands and Southeast), the Maya area and
+      Brazilian Amazonia, with summary, eras, layers and Ubelaker's (1988) population where available. The app picks
+      them on its own as the smallest region containing each point, and the existing entries still show up.
+- [x] **Culture, language and religion layers** for the American regions that had none (North America, Greenland,
+      Aridoamerica, the Caribbean, Central America, northern South America, Brazil, eastern Paraguay, Andean Amazonia
+      and Chile), and complete ones for Mesoamerica and the Andes, with 85 new families (Nahua, Maya, Quechua, Aymara,
+      Arawakan, Cariban, Tupi, Jê, Inuit, Athabaskan, Algonquian, Iroquoian, Siouan…), without Greenberg's “Amerind”
+      family, which specialists reject.
+- [x] Polygons: the north coast of Peru (Chan Chan, Huaca Prieta, Trujillo), Lima and Callao, Veracruz, Cempoala and
+      Campeche fell outside every region; Aruba, Curaçao and Bonaire move to northern South America and Rapa Nui to
+      Polynesia.
+- [x] Critical review of what was already there: 33 corrections from an audit (Mesoamerica defined without
+      sacrifice, the viceroyalty eras without the demographic collapse, Atahualpa as the “last” Inca, the Cry of Dolores
+      given in the name of Ferdinand VII, Ayacucho as if it had ended all Spanish rule, the Mojos earthworks attributed
+      to present-day peoples…) and 98 changes in 67 entries based on what the topics found (the capture of Atahualpa
+      with its witnesses and Xerez's and Lockhart's figures, Cortés with Cholula and Cuauhtémoc's execution, Vinland
+      with the 1021 date, Bolívar and the war to the death, the Potosí mita according to Bakewell and Cole…).
+- [x] The English of the new and changed texts, with Claude Haiku in batches with key checking.
+- [x] The editor test waits one frame every 50 items (it used to keep a whole section's forms in memory) and `tmap.py
+      prueba` waits up to 30 minutes instead of 10.
 
 ### November 11, 2026: exported builds, with their typefaces
 

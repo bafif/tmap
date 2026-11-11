@@ -72,11 +72,27 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       que la app los muestre desde su primer hecho. Los 43 de Tierra Santa, Tebas y Heliópolis sin fecha están bien así.
 - [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
-      Onetti, Carlos Fuentes, Clarice Lispector y Galeano. Hawái no tiene región (Pearl Harbor queda fuera de todas).
-- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 46 regiones de `regiones-del-mundo.json`
-      (Siberia, Japón, África, las Américas, Oceanía…) tienen resumen, eras y población, pero no esas tres capas:
-      el modo de religión, cultura o idioma las deja rayadas. Habrá que sumar familias (sintoísmo, religiones
-      tradicionales africanas, lenguas bantúes, austronesias…).
+      Onetti, Carlos Fuentes y Clarice Lispector (Galeano ya tiene ficha, con Las venas abiertas y lo que dijo de ese
+      libro en 2014). Hawái no tiene región (Pearl Harbor queda fuera de todas).
+- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 33 regiones no americanas de
+      `regiones-del-mundo.json` (Siberia, Japón, África, Oceanía…) tienen resumen, eras y población, pero no esas tres
+      capas: el modo de religión, cultura o idioma las deja rayadas. Habrá que sumar familias (sintoísmo, religiones
+      tradicionales africanas, lenguas bantúes, austronesias…). Las americanas se completaron el 11/11/2026.
+- [ ] **Pueblos originarios de América: lo que quedó por confirmar.** Las cifras que los revisores no pudieron cotejar
+      con el texto quedaron atribuidas y con confianza media: los torturados y muertos del auto de fe de Maní (unas
+      4500 y 158, según Clendinnen), las «más de cuarenta mil» personas de un día del sitio de Tenochtitlan en la
+      tercera carta de Cortés, los cráneos del Huey Tzompantli (las del INAH y las de Wikipedia difieren), el medio
+      millón de indios sacados de Nicaragua (Radell), las cifras de Cook y Dobyns para el Perú de 1520, el 47-67 % del
+      carbono de Koch y otros (2019), los muertos de la viruela de 1733 en Groenlandia, la población powhatan y los
+      muertos coloniales de la guerra del rey Felipe, de Mabila y de Awa'uq. Por confirmar también: la ley de 1570 dada
+      en Évora, los votos finales de Pedro Claver (1622), el Colegio del Príncipe (1619 o 1620), la llegada de Antonio
+      Ricardo a Lima (1580 o 1581), la tasa de Santillán (1558 o 1559), el Juzgado General de Indios (1585 o 1591-1592)
+      y si Vivar atribuye a Inés Suárez la muerte de los rehenes de 1541. Lewy (2004) no se pudo leer (Commentary
+      responde 403). Sin enlace legal, aunque son de dominio público: Staden, Carvajal, Acuña, Antonil, Nóbrega,
+      Sandoval, Mariño de Lobera, Góngora Marmolejo, los autos de Otermín y el proceso de Acoma (gutendex no
+      respondía). En el mapa, El Tajín cae en Aridoamérica y La Venta, Izapa y Chiapa de Corzo en el área maya, porque
+      los polígonos son aproximados; el monumento a Colón sigue en su sitio viejo de Buenos Aires. Conviene revisar el
+      inglés, que es traducción automática.
 - [ ] **Estimaciones curadas fuera de Europa y el Cercano Oriente.** Las series por país de HYDE cubren todo, pero
       la parte de la población mundial que tiene además una estimación de especialistas para su región (Russell,
       Urlanis, Butzer, DellaPergola, los censos Han) va de un cuarto en el año 1 a casi nada antes de Cristo y
@@ -106,8 +122,15 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       crítica principal con autor. Cuatro fuentes siguen sin lugar de escritura (el Requerimiento, el Demócrates alter,
       la carta de Luis Ramírez y el diario de Luis de la Cruz). El inglés de estos paquetes es traducción automática:
       conviene revisarlo. Con 4636 elementos, la prueba automática deja unos 5100 avisos «Out of resolver queries»
-      (con los datos anteriores eran 3500): `wiki.gd` pide la imagen de Wikipedia de cada ficha que abre, sin cola, y
-      se agota la de DNS de Godot; conviene encolar esos pedidos.
+      (con los datos anteriores eran 3500; con 7475 elementos, unos 8300): `wiki.gd` pide la imagen de Wikipedia de
+      cada ficha que abre, sin cola, y se agota la de DNS de Godot; conviene encolar esos pedidos.
+- [ ] **Correr la prueba completa con 7475 elementos.** El 11/11/2026 no se pudo terminar: el paso del editor acumulaba
+      los formularios sin liberar (pasó los 3,8 GB en 7 minutos sin terminar, y un segundo intento lanzado mientras
+      el primero se cerraba dejó a la máquina sin memoria). Ya espera un cuadro cada 50
+      elementos y `tmap.py prueba` espera hasta 30 minutos, pero falta correrla de punta a punta, en español y en
+      inglés. Sí pasaron `validar.py` (0 errores), `tmap.py revisar`, `--verificar` (7475 elementos en 532 ms) y la
+      primera parte de la prueba (todas las fichas, las 272 familias, leyenda, línea de tiempo, gráficos, marcadores y
+      atajos).
 - [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
       Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
       hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
@@ -163,6 +186,79 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: los pueblos originarios de América y su colonización
+
+- [x] **Catorce paquetes nuevos** con 735 fuentes, 697 personas, 935 hechos y 372 lugares (la enciclopedia pasa de
+      4636 a 7375 elementos) y 280 enlaces de lectura que respondieron 200, del poblamiento del continente a la
+      independencia de cada zona (y al menos hasta fines del siglo XVIII donde siguió la colonia), con lo que apareció
+      de yapa. Cada tema lo escribió un agente y lo corrigió un revisor adversarial que buscó errores de hecho,
+      faltantes y sesgo de los dos lados, el de la leyenda negra y el indigenismo militante y el de la leyenda rosa y el
+      hispanismo militante (323 correcciones). Los hechos disputados dicen primero lo que muestran los documentos y la
+      arqueología y después quién los interpreta cómo; las tesis generales («España trajo la civilización», «fue un
+      genocidio») van con sus autores y su crítica principal. Donde hay registro, cada tema cuenta la guerra, el
+      sacrificio, el canibalismo y la esclavitud entre pueblos indígenas; las ciudades, universidades, hospitales,
+      imprentas, gramáticas y leyes de protección de las potencias, y si se cumplían; y las matanzas, la esclavitud, el
+      trabajo forzado, el despojo y las epidemias documentados, de España, Portugal, Inglaterra, Francia, Holanda,
+      Dinamarca y Rusia. Los mitos influyentes que los documentos desmienten (el Walam Olum, el mapa de Vinlandia, los
+      «constructores de montículos», las mantas con viruela más allá de Fort Pitt) tienen ficha que lo dice.
+      - `poblamiento-de-america-y-artico`: Beringia y la genética antigua, Monte Verde, Clovis, White Sands y los sitios
+        discutidos, la megafauna, las domesticaciones, las teorías refutadas; el Ártico, los nórdicos de Groenlandia y
+        Vinlandia, y la misión de Hans Egede.
+      - `mesoamerica-antigua`: de los olmecas al Posclásico, las dinastías y guerras mayas con sus inscripciones, el
+        sacrificio en Teotihuacan y Chichén Itzá, los códices, el desciframiento y el auto de fe de Maní.
+      - `mexica-y-conquista-de-mexico`: la Triple Alianza, el tributo, las guerras floridas, el sacrificio con la
+        arqueología del Templo Mayor y el Huey Tzompantli, la conquista con sus aliados indígenas (Cholula, Tóxcatl,
+        la viruela de 1520), Michoacán, el Mixtón y Yucatán hasta Tayasal, con los cronistas de los dos lados.
+      - `nueva-espana-y-centroamerica`: virreyes, órdenes, Tlatelolco, la imprenta de 1539, la Universidad, los
+        hospitales, Vasco de Quiroga, el Juzgado General de Indios, el cocoliztli y su ADN, la guerra chichimeca,
+        Guadalupe, Balmis y la independencia; y toda Centroamérica, con la trata de indios de Nicaragua.
+      - `andes-antiguos-e-incas`: de Valdivia y Chavín a Chimú, los sacrificios moche y de Huanchaquito, el
+        Tawantinsuyu con sus guerras, mitimaes, quipus y la capacocha, y la guerra civil de Huáscar y Atahualpa.
+      - `conquista-y-virreinato-del-peru`: Cajamarca, los aliados indígenas, Vilcabamba, las guerras civiles, Toledo,
+        Huancavelica, la extirpación de idolatrías, el Parecer de Yucay y el Memorial de Charcas, Juan Santos Atahualpa,
+        Quito y las misiones de Moxos y Chiquitos.
+      - `nueva-granada-venezuela-y-guayanas`: muiscas, taironas y El Dorado, los Welser, Lope de Aguirre, Cartagena y la
+        trata, Claver y Sandoval, la Expedición Botánica, los Comuneros y las Guayanas con sus cimarrones.
+      - `caribe-indigena-y-colonial`: taínos y kalinagos con el ADN antiguo, los viajes de Colón y la pesquisa de
+        Bobadilla, Jaragua, Enriquillo, Hatuey, el primer hospital y la primera universidad, las Antillas inglesas,
+        francesas, holandesas y danesas, los garífunas y la revolución haitiana.
+      - `brasil-colonial-y-amazonia`: la antropofagia tupinambá según Staden, Léry y los jesuitas, la Amazonía antigua
+        (Marajó, terra preta, Casarabe), Orellana, las capitanías, las bandeiras, Palmares, el Brasil holandés, Vieira
+        y el Directorio de Pombal.
+      - `norteamerica-indigena`: Poverty Point, Hopewell, Cahokia y el montículo 72, los ancestrales pueblo y Cowboy
+        Wash, Crow Creek, la esclavitud de la costa noroeste y la Confederación iroquesa.
+      - `norteamerica-colonial`: la Florida, Nuevo México, Acoma, la rebelión pueblo y las misiones de California;
+        Nueva Francia, Huronia y la Gran Paz; Jamestown, Mystic, la guerra del rey Felipe, Eliot y Harvard, la trata de
+        indios de Carolina; Fort Pitt, la Proclamación de 1763, la independencia y Greenville; la América rusa; de yapa,
+        el traslado forzoso de 1830 y California de 1846 a 1873.
+      - `debates-sobre-la-conquista-de-america`: las cifras de población y sus autores, el debate sobre el genocidio,
+        la leyenda negra y la rosa, Las Casas y sus críticos, el sacrificio y el canibalismo, la disputa del Nuevo
+        Mundo, la trata atlántica, las lenguas generales y panoramas comparados de universidades, hospitales e
+        imprentas de todas las potencias.
+      - `chile-colonial-y-araucania`: Chinchorro, Valdivia y Lautaro, la guerra de Arauco, la esclavitud legal de
+        mapuches (1608-1683), los parlamentos, los cronistas y Rapa Nui.
+- [x] **Doce regiones nuevas**: Norteamérica en sus diez áreas culturales (Ártico, Subártico, costa noroeste, meseta
+      del Columbia, Gran Cuenca, California, Suroeste, Grandes Llanuras, bosques del noreste y Sudeste), el área maya y
+      la Amazonía brasileña, con resumen, eras, capas y la población de Ubelaker (1988) donde la hay. La app las elige
+      solas por ser la región más chica que contiene cada punto, y las fichas que ya estaban siguen apareciendo.
+- [x] **Capas de cultura, idioma y religión** de las regiones americanas que no las tenían (Norteamérica, Groenlandia,
+      Aridoamérica, el Caribe, Centroamérica, el norte de Sudamérica, Brasil, el Paraguay oriental, la Amazonía andina y
+      Chile) y completas para Mesoamérica y los Andes, con 85 familias nuevas (nahua, maya, quechua, aimara, arahuaca,
+      caribe, tupí, ye, inuit, atabascana, algonquina, iroquesa, siux…), sin la familia «amerindia» de Greenberg, que
+      los especialistas rechazan.
+- [x] Polígonos: la costa norte del Perú (Chan Chan, Huaca Prieta, Trujillo), Lima y el Callao, Veracruz, Cempoala y
+      Campeche quedaban fuera de toda región; Aruba, Curazao y Bonaire pasan al norte de Sudamérica y Rapa Nui a la
+      Polinesia.
+- [x] Revisión crítica de lo que ya estaba: 33 correcciones de una auditoría (Mesoamérica definida sin el sacrificio,
+      las eras de los virreinatos sin la caída demográfica, Atahualpa como «último» inca, el Grito de Dolores dado en
+      nombre de Fernando VII, Ayacucho que no terminó con todo el dominio español, las obras de tierra de Mojos
+      atribuidas a pueblos actuales…) y 98 cambios en 67 fichas a partir de lo que encontraron los temas (la captura de
+      Atahualpa con sus testigos y las cifras de Xerez y Lockhart, Cortés con Cholula y la ejecución de Cuauhtémoc,
+      Vinlandia con el fechado de 1021, Bolívar y la guerra a muerte, la mita de Potosí según Bakewell y Cole…).
+- [x] El inglés de los textos nuevos y cambiados, con Claude Haiku en lotes con verificación de claves.
+- [x] La prueba del editor espera un cuadro cada 50 elementos (antes acumulaba en memoria los formularios de una
+      sección entera) y `tmap.py prueba` espera hasta 30 minutos en vez de 10.
 
 ### 11 de noviembre de 2026: las versiones exportadas, con sus tipografías
 

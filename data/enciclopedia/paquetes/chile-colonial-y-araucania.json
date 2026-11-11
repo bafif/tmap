@@ -1,0 +1,4470 @@
+{
+  "paquete": "chile-colonial-y-araucania",
+  "descripcion": "Chile desde los chinchorro, El Molle, los diaguitas, los aconcagua y el dominio inca hasta la Junta de 1810: la conquista de Almagro y Valdivia, Lautaro y Caupolicán, la guerra de Arauco con sus mutilaciones, malocas y cautivos, la esclavitud legal de los mapuches (1608-1683), la guerra defensiva, los parlamentos y los alzamientos, Chiloé, la encomienda y sus tasas, la Universidad de San Felipe y los cronistas leídos según sus intereses; de yapa, Rapa Nui desde sus moáis hasta Roggeveen, la expedición española de 1770, las incursiones esclavistas de 1862 y el debate sobre el «ecocidio».",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "cartas-de-pedro-de-valdivia",
+      "titulo": "Cartas de Pedro de Valdivia",
+      "titulo_original": null,
+      "autor": "Pedro de Valdivia",
+      "autor_id": "pedro-de-valdivia",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1545,
+        "anio_hasta": 1552,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1540,
+        "hasta": 1552
+      },
+      "idioma_original": "Español",
+      "soporte": "Cartas manuscritas, reunidas por José Toribio Medina en una edición facsimilar (Sevilla, 1929)",
+      "resumen": "Cartas del conquistador de Chile al emperador Carlos V, al príncipe Felipe, a Hernando y Gonzalo Pizarro, al Consejo de Indias y a sus apoderados, escritas entre 1545 y 1552. Narran la entrada a Chile, la fundación y la destrucción de Santiago, el hambre de los primeros años, la fundación de Concepción y de las ciudades del sur y la guerra con los mapuches. En la del 15 de octubre de 1550 cuenta que en la batalla de Penco se mataron «hasta mill e quinientos o dos mill indios» y que mandó cortar las manos y las narices a «hasta doscientos» prisioneros, por no haber obedecido los requerimientos, antes de soltarlos.",
+      "por_que_importa": "Son la fuente principal de la conquista de Chile, pero las escribió el propio conquistador para pedir mercedes y que se le confirmara la gobernación: exaltan sus servicios y callan lo que no le convenía.",
+      "leer": [
+        {
+          "titulo": "Carta del 15 de octubre de 1550 (la de Penco), en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Carta_de_Pedro_de_Valdivia_al_emperador_Carlos_V_%2815_de_octubre_de_1550%29",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Carta del 4 de septiembre de 1545, en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Carta_de_Pedro_de_Valdivia_al_emperador_Carlos_V_%284_de_septiembre_de_1545%29",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Edición facsimilar de José Toribio Medina (Sevilla, 1929), en Internet Archive",
+          "url": "https://archive.org/details/cartasdepedrodev00vald",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-vivar",
+      "titulo": "Crónica y relación copiosa y verdadera de los reinos de Chile",
+      "titulo_original": null,
+      "autor": "Jerónimo de Vivar",
+      "autor_id": "geronimo-de-vivar",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1558,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1535,
+        "hasta": 1558
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito; publicado por primera vez en 1966",
+      "resumen": "Crónica de la conquista de Chile desde la expedición de Almagro hasta 1558, escrita por un soldado de la hueste de Valdivia. Describe con detalle los valles, las plantas y los animales y los pueblos del norte y del centro de Chile, con sus casas, cultivos y costumbres, y narra la fundación de Santiago, las campañas al sur y la muerte de Valdivia. El manuscrito, perdido durante siglos, lo publicó en 1966 el historiador estadounidense Irving A. Leonard.",
+      "por_que_importa": "Es la crónica más temprana y cercana a los hechos de la conquista de Chile y una fuente de primer orden sobre los pueblos que encontraron los españoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de Vivar"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-gongora-marmolejo",
+      "titulo": "Historia de todas las cosas que han acaecido en el Reino de Chile y de los que lo han gobernado",
+      "titulo_original": null,
+      "autor": "Alonso de Góngora Marmolejo",
+      "autor_id": "alonso-de-gongora-marmolejo",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1575,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1536,
+        "hasta": 1575
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito; publicado en el siglo XIX",
+      "resumen": "Historia de la conquista y de los gobiernos de Chile desde Almagro hasta 1575, escrita por un soldado que participó en muchas de sus campañas. Narra la guerra contra los mapuches y la muerte de Valdivia (según su versión, sus captores le cortaron con conchas carne de los brazos, la asaron y la comieron delante de él antes de matarlo), y critica con dureza a García Hurtado de Mendoza y a otros gobernadores.",
+      "por_que_importa": "Es uno de los testimonios directos más tempranos de la guerra de Arauco y un contrapeso de los relatos favorables a Hurtado de Mendoza, como los de Oña y Mariño de Lobera.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-marino-de-lobera",
+      "titulo": "Crónica del Reino de Chile",
+      "titulo_original": null,
+      "autor": "Pedro Mariño de Lobera",
+      "autor_id": "pedro-marino-de-lobera",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1595,
+        "aprox": true,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1535,
+        "hasta": 1594
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito reescrito por el jesuita Bartolomé de Escobar; publicado en 1865",
+      "resumen": "Crónica de la conquista y de la guerra de Chile hasta 1594, basada en los recuerdos de Mariño de Lobera y reescrita después de su muerte por el jesuita Bartolomé de Escobar por encargo del virrey García Hurtado de Mendoza. Trae relatos y detalles que no dan otras crónicas, como el de Inés Suárez decapitando a uno de los caciques rehenes en el ataque a Santiago de 1541, y recoge las versiones que circulaban sobre la muerte de Valdivia, entre ellas la de que le hicieron tragar oro fundido, que presenta como rumor.",
+      "por_que_importa": "Aporta muchos datos de la guerra, pero el arreglo de Escobar exalta a Hurtado de Mendoza y mezcla testimonio propio con relatos de oídas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "arauco-domado",
+      "titulo": "Arauco domado",
+      "titulo_original": null,
+      "autor": "Pedro de Oña",
+      "autor_id": "pedro-de-ona",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1596,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1557,
+        "hasta": 1561
+      },
+      "idioma_original": "Español",
+      "soporte": "Poema épico",
+      "resumen": "Poema épico sobre la campaña de García Hurtado de Mendoza contra los mapuches (1557-1561), escrito por un poeta nacido en Angol a pedido del propio Hurtado de Mendoza, entonces virrey del Perú, a quien La Araucana de Ercilla había dejado en segundo plano. Celebra las victorias españolas y la «pacificación», y a la vez da la palabra a los jefes mapuches y describe su mundo.",
+      "por_que_importa": "Es la primera obra literaria conocida de un autor nacido en Chile y muestra cómo la guerra de Arauco se volvió materia de propaganda entre bandos de la élite colonial.",
+      "leer": [
+        {
+          "titulo": "Primera edición (Lima, 1596), en Internet Archive",
+          "url": "https://archive.org/details/primerapartedear00oa",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Arauco domado (Pedro de Oña)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tasa-de-santillan",
+      "titulo": "Tasa de Santillán",
+      "titulo_original": null,
+      "autor": "Hernando de Santillán",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1559,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1550,
+        "hasta": 1559
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ordenanzas preparadas por el oidor Hernando de Santillán por encargo del gobernador García Hurtado de Mendoza y promulgadas en enero de 1559 (algunos autores las fechan en 1558), primera regulación del trabajo de los indios encomendados en Chile. Limitaban el turno de trabajo en los lavaderos de oro a uno de cada seis indios de cada repartimiento (uno de cada cinco en la agricultura), eximían a las mujeres, a los menores de 18 años y a los mayores de 50, y mandaban pagar al trabajador la sexta parte del oro extraído, el llamado «sesmo».",
+      "por_que_importa": "Muestra que la Corona y sus funcionarios intentaron limitar el trabajo forzado de los encomendados; los gobernadores siguientes la dejaron casi sin efecto.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tasa de Santillán",
+        "en": "Tasa de Santillán"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tasa-de-gamboa",
+      "titulo": "Tasa de Gamboa",
+      "titulo_original": null,
+      "autor": "Martín Ruiz de Gamboa",
+      "autor_id": "martin-ruiz-de-gamboa",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1580,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1580,
+        "hasta": 1587
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ordenanza del gobernador Martín Ruiz de Gamboa que suprimía el servicio personal de los indios encomendados y lo reemplazaba por un tributo anual de nueve pesos en el obispado de Santiago y de siete en el de La Imperial. Creaba corregidores para proteger a los indios y fijar los salarios de quienes trabajaran a jornal, de los que se descontaba el tributo, y mandaba guardarlo en una caja de comunidad de tres llaves, que tenían el corregidor, el cura y el cacique.",
+      "por_que_importa": "Fue el intento más ambicioso del siglo XVI de terminar con el servicio personal en Chile; no conformó a nadie, porque los indios sufrieron también abusos de los corregidores y los encomenderos perdieron ingresos, y el gobernador Alonso de Sotomayor la dejó sin efecto en los años siguientes.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tasa de Gamboa",
+        "en": "Tasa de Gamboa"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tasa-de-esquilache",
+      "titulo": "Tasa de Esquilache",
+      "titulo_original": null,
+      "autor": "Francisco de Borja y Aragón, príncipe de Esquilache",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1620,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1620,
+        "hasta": 1635
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ordenanza del virrey del Perú, el príncipe de Esquilache, para los indios encomendados de Chile, aplicada desde 1621. Declaraba prohibido el servicio personal y nulos los títulos que lo concedían, fijaba un tributo y establecía que solo trabajaran los varones de 18 a 50 años, 207 días al año. La gestionó ante el virrey el jesuita Luis de Valdivia.",
+      "por_que_importa": "Como las tasas anteriores, buscó convertir el trabajo forzado en tributo y, como ellas, se cumplió poco: el servicio personal de los indios siguió en Chile hasta el siglo XVIII.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tasa de Esquilache",
+        "en": "Tasa de Esquilache"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tratado-de-melchor-calderon",
+      "titulo": "Tratado de la importancia y utilidad que hay en dar por esclavos a los indios rebelados de Chile",
+      "titulo_original": null,
+      "autor": "Melchor Calderón",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1599,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1598,
+        "hasta": 1607
+      },
+      "idioma_original": "Español",
+      "soporte": "Memorial presentado en 1599 e impreso en 1607",
+      "resumen": "Memorial del licenciado Melchor Calderón, tesorero de la catedral de Santiago, escrito en 1599, después del desastre de Curalaba. Discute con argumentos en favor y en contra si es lícito dar por esclavos a los mapuches alzados, a quienes considera rebeldes y apóstatas, defiende la utilidad de hacerlo y deja la decisión al virrey y a la Audiencia de Lima.",
+      "por_que_importa": "Fue el principal fundamento teológico y jurídico de la real cédula de 1608 que legalizó la esclavitud de los mapuches capturados en guerra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "real-cedula-de-esclavitud-de-1608",
+      "titulo": "Real cédula de 1608 sobre la esclavitud de los indios rebeldes de Chile",
+      "titulo_original": null,
+      "autor": "Felipe III de España",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1608,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1598,
+        "hasta": 1683
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Cédula del rey Felipe III, de mayo de 1608, que declaró esclavos a los indios de Chile tomados en la guerra, como rebeldes a la Corona y a la Iglesia: los varones mayores de diez años y medio y las mujeres mayores de nueve años y medio; los menores podían quedar en servidumbre hasta los veinte años. Se suspendió durante la guerra defensiva y volvió a aplicarse después.",
+      "por_que_importa": "Hizo de Chile uno de los pocos territorios del imperio español donde la esclavitud de indígenas fue legal durante décadas y convirtió las campañas de la frontera en expediciones para capturar esclavos. Quedó sin efecto con la abolición de 1679-1683.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Esclavitud de los mapuches",
+        "en": "Mapuche slavery"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "desengano-y-reparo-de-la-guerra",
+      "titulo": "Desengaño y reparo de la guerra del Reino de Chile",
+      "titulo_original": null,
+      "autor": "Alonso González de Nájera",
+      "autor_id": "alonso-gonzalez-de-najera",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1614,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1598,
+        "hasta": 1614
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito; publicado en Madrid en 1866",
+      "resumen": "Tratado de un militar que combatió en Chile entre 1601 y 1607 sobre por qué la guerra con los mapuches no terminaba y cómo ganarla. Describe la destrucción de las ciudades del sur después de 1598 y calcula que los mapuches mataron a más de tres mil españoles y tomaron más de quinientas mujeres cautivas; describe también la forma de guerrear de los dos bandos y propone medidas para terminar la guerra.",
+      "por_que_importa": "Es uno de los testimonios directos más detallados del alzamiento de 1598 y de sus consecuencias, escrito por un partidario de la guerra ofensiva.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-de-chile-tesillo",
+      "titulo": "Guerra de Chile, causas de su duración y medios para su fin",
+      "titulo_original": null,
+      "autor": "Santiago de Tesillo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1647,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1612,
+        "hasta": 1647
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Libro del maestre de campo y corregidor de Concepción Santiago de Tesillo sobre la guerra de Arauco. Critica la guerra defensiva de Luis de Valdivia, que según él les dio a los mapuches un respiro para rehacer sus fuerzas, y defiende una política militar firme.",
+      "por_que_importa": "Es la principal crítica contemporánea a la guerra defensiva, escrita desde el lado de los militares de la frontera.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historica-relacion-del-reyno-de-chile",
+      "titulo": "Histórica relación del Reyno de Chile",
+      "titulo_original": null,
+      "autor": "Alonso de Ovalle",
+      "autor_id": "alonso-de-ovalle",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1646,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1535,
+        "hasta": 1646
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro ilustrado con grabados y un mapa; publicado el mismo año en castellano y en italiano",
+      "resumen": "Descripción e historia de Chile escrita en Roma por un jesuita criollo para darlo a conocer en Europa y conseguir misioneros. Describe la geografía, el clima, las plantas y los animales, los pueblos indígenas y sus costumbres, la conquista, la guerra de Arauco y la labor de los jesuitas, con grabados y un mapa del reino.",
+      "por_que_importa": "Es la primera historia de Chile escrita por un autor nacido allí y fue durante más de un siglo la imagen de Chile más difundida en Europa; por su propósito, embellece el país y la labor misionera.",
+      "leer": [
+        {
+          "titulo": "Texto completo en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Hist%C3%B3rica_relaci%C3%B3n_del_Reyno_de_Chile",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Histórica relación del Reyno de Chile"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "manifiesto-apologetico-de-rosales",
+      "titulo": "Manifiesto apologético de los daños de la esclavitud del Reino de Chile",
+      "titulo_original": null,
+      "autor": "Diego de Rosales",
+      "autor_id": "diego-de-rosales",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1670,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1608,
+        "hasta": 1670
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Memorial del jesuita Diego de Rosales contra la esclavitud de los mapuches capturados en guerra. Sostiene que la esclavitud, y las malocas para conseguir esclavos que hacían soldados y oficiales, eran la causa principal de que la guerra no terminara y un obstáculo para la evangelización.",
+      "por_que_importa": "Forma parte de la campaña de los jesuitas y de otros religiosos que llevó a la abolición de la esclavitud de los mapuches entre 1679 y 1683.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "cautiverio-feliz",
+      "titulo": "Cautiverio feliz y razón individual de las guerras dilatadas del Reino de Chile",
+      "titulo_original": null,
+      "autor": "Francisco Núñez de Pineda y Bascuñán",
+      "autor_id": "francisco-nunez-de-pineda-y-bascunan",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1673,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1629,
+        "hasta": 1673
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito; publicado en Santiago en 1863, en la Colección de historiadores de Chile",
+      "resumen": "Relato del cautiverio del autor entre los mapuches en 1629, después de la derrota de Las Cangrejeras, unido a un largo alegato sobre las causas de la guerra. Describe la hospitalidad de sus captores, sus fiestas, borracheras y juntas, las discusiones entre caciques que querían matarlo y los que lo protegían, y su liberación por canje; atribuye la duración de la guerra a la codicia de gobernadores, oficiales y encomenderos, a la esclavitud y a los malos tratos a los indios.",
+      "por_que_importa": "Es la principal descripción desde dentro de la sociedad mapuche del siglo XVII, escrita por un criollo que hablaba su lengua; idealiza su propia conducta y la de sus protectores para sostener su crítica.",
+      "leer": [
+        {
+          "titulo": "Texto completo en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Cautiverio_feliz",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Cautiverio feliz",
+        "en": "Happy Captivity"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-general-del-reyno-de-chile-rosales",
+      "titulo": "Historia general del Reyno de Chile, Flandes indiano",
+      "titulo_original": null,
+      "autor": "Diego de Rosales",
+      "autor_id": "diego-de-rosales",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1674,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1535,
+        "hasta": 1674
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito; publicado por Benjamín Vicuña Mackenna en 1877-1878",
+      "resumen": "Historia de Chile desde la conquista hasta 1674, escrita por un jesuita que pasó décadas en la frontera mapuche. Además de la guerra, describe la religión, las costumbres, la forma de gobierno y de guerra de los mapuches, los parlamentos en los que él mismo participó, las malocas y la esclavitud, y los alzamientos, como el de 1655.",
+      "por_que_importa": "Es la fuente más completa sobre la guerra de Arauco y la sociedad mapuche del siglo XVII; su autor tomó partido por la política jesuita de paz y contra la esclavitud.",
+      "leer": [
+        {
+          "titulo": "Edición de Vicuña Mackenna, en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Historia_general_de_el_Reyno_de_Chile",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "actas-del-parlamento-de-negrete-1726",
+      "titulo": "Acta del parlamento de Negrete de 1726",
+      "titulo_original": null,
+      "autor": "Gabriel Cano de Aponte y loncos mapuches",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1726,
+        "aprox": false,
+        "lugar": "Negrete",
+        "lon": -72.53,
+        "lat": -37.59
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1723,
+        "hasta": 1726
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Acta del parlamento celebrado en Negrete en febrero de 1726 entre el gobernador Gabriel Cano de Aponte y los loncos mapuches, que puso fin al alzamiento de 1723. Renueva la paz y la frontera del Biobío, y las autoridades se comprometen a poner orden en el comercio y en el trato de los capitanes de amigos, cuyos abusos habían causado el alzamiento.",
+      "por_que_importa": "Es uno de los parlamentos centrales del siglo XVIII y muestra cómo la frontera se regulaba con acuerdos negociados además de con la guerra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "actas-del-parlamento-de-negrete-1793",
+      "titulo": "Acta del parlamento de Negrete de 1793",
+      "titulo_original": null,
+      "autor": "Ambrosio O'Higgins",
+      "autor_id": "ambrosio-o-higgins",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Negrete",
+        "lon": -72.53,
+        "lat": -37.59
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1784,
+        "hasta": 1793
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Acta del parlamento celebrado en Negrete del 4 al 6 de marzo de 1793 entre el gobernador Ambrosio O'Higgins y 161 caciques mapuches, con más de dos mil acompañantes. Renueva la paz, la frontera y los compromisos de las dos partes en tiempos de las reformas borbónicas.",
+      "por_que_importa": "Fue uno de los parlamentos más concurridos de la época colonial y uno de los pilares de la política de frontera de O'Higgins.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Parlamento de Negrete (1793)",
+        "en": "Parliament of Negrete (1793)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "actas-del-parlamento-de-negrete-1803",
+      "titulo": "Actas y tratado del parlamento de Negrete de 1803",
+      "titulo_original": null,
+      "autor": "Luis Muñoz de Guzmán y loncos mapuches",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1803,
+        "aprox": false,
+        "lugar": "Negrete",
+        "lon": -72.53,
+        "lat": -37.59
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1793,
+        "hasta": 1803
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Actas y tratado del último gran parlamento colonial celebrado en Negrete, en 1803, entre el gobernador Luis Muñoz de Guzmán y los caciques de los distintos territorios mapuches. Repiten las cláusulas de los parlamentos anteriores: paz, comercio regulado, misioneros, devolución de cautivos y reconocimiento del rey.",
+      "por_que_importa": "Muestra el sistema de parlamentos en su forma madura, pocos años antes de la independencia.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Actas_y_Tratado_del_Parlamento_de_Negrete_%281803%29",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "real-cedula-de-fundacion-de-la-universidad-de-san-felipe",
+      "titulo": "Real cédula de fundación de la Universidad de San Felipe",
+      "titulo_original": null,
+      "autor": "Felipe V de España",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1738,
+        "aprox": false,
+        "lugar": "Real Sitio de San Ildefonso",
+        "lon": -4.005,
+        "lat": 40.902
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1713,
+        "hasta": 1758
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Cédula firmada por Felipe V el 28 de julio de 1738 en San Ildefonso que ordenó fundar en Santiago una universidad real, a pedido del cabildo, que había gestionado el procurador Tomás de Azúa, y financiada en parte por los vecinos.",
+      "por_que_importa": "Es el origen de la Real Universidad de San Felipe, que abrió en 1747 y empezó a dar clases en 1758.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "arte-de-la-lengua-general-febres",
+      "titulo": "Arte de la lengua general del Reyno de Chile",
+      "titulo_original": null,
+      "autor": "Andrés Febrés",
+      "autor_id": "andres-febres",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1765,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1700,
+        "hasta": 1765
+      },
+      "idioma_original": "Español y mapudungun",
+      "soporte": "Libro impreso en Lima",
+      "resumen": "Gramática del mapudungun con un diálogo bilingüe, una doctrina cristiana, un confesionario y un vocabulario, escrita por un jesuita misionero en la frontera. Describe la lengua tal como se hablaba en el siglo XVIII, con sus variantes regionales.",
+      "por_que_importa": "Junto con el arte de Luis de Valdivia (1606) y el de Havestadt (1777), es la base del estudio histórico del mapudungun.",
+      "leer": [
+        {
+          "titulo": "Primera edición (Lima, 1765), en Internet Archive",
+          "url": "https://archive.org/details/artedelalenguage00febr",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Andrés Febrés",
+        "en": "Andrés Febrés"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "chilidugu-havestadt",
+      "titulo": "Chilidúgú sive res chilenses",
+      "titulo_original": null,
+      "autor": "Bernardo Havestadt",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1777,
+        "aprox": false,
+        "lugar": "Münster",
+        "lon": 7.626,
+        "lat": 51.962
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1751,
+        "hasta": 1767
+      },
+      "idioma_original": "Latín y mapudungun",
+      "soporte": "Libro impreso en Münster",
+      "resumen": "Gramática, vocabulario y textos religiosos en mapudungun del jesuita alemán Bernhard Havestadt, misionero en la frontera chilena, publicados después de su expulsión. Incluye el diario de su gira misional de 1751-1752 por el territorio mapuche, con un mapa.",
+      "por_que_importa": "Es una de las tres grandes gramáticas coloniales del mapudungun y un testimonio del trabajo de los jesuitas alemanes en Chile.",
+      "leer": [
+        {
+          "titulo": "Reedición de Julius Platzmann (Leipzig, 1883), en Internet Archive",
+          "url": "https://archive.org/details/HavestadtChiliduguPlatzmann1883",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Bernardo Havestadt",
+        "en": "Bernhard Havestadt"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "saggio-sulla-storia-naturale-del-chili",
+      "titulo": "Ensayo sobre la historia natural de Chile",
+      "titulo_original": "Saggio sulla storia naturale del Chili",
+      "autor": "Juan Ignacio Molina",
+      "autor_id": "juan-ignacio-molina",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Bolonia",
+        "lon": 11.343,
+        "lat": 44.494
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1500,
+        "hasta": 1782
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro; traducido al castellano en 1788",
+      "resumen": "Descripción del clima, los minerales, las plantas y los animales de Chile escrita en Bolonia por un jesuita chileno expulsado, que clasificó y nombró con el sistema de Linneo muchas especies hasta entonces desconocidas en Europa. Se tradujo pronto al alemán, al castellano, al francés y al inglés.",
+      "por_que_importa": "Fue la primera historia natural de Chile hecha con criterios científicos modernos y una de las respuestas americanas a los autores europeos que despreciaban la naturaleza del Nuevo Mundo.",
+      "leer": [
+        {
+          "titulo": "Primera edición (Bolonia, 1782), en Internet Archive",
+          "url": "https://archive.org/details/saggiosullastori01moli",
+          "idioma": "it",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción castellana de 1788, en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Compendio_de_la_historia_geogr%C3%A1fica_y_natural_del_reyno_de_Chile",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Juan Ignacio Molina",
+        "en": "Juan Ignacio Molina"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "saggio-sulla-storia-civile-del-chili",
+      "titulo": "Ensayo sobre la historia civil de Chile",
+      "titulo_original": "Saggio sulla storia civile del Chili",
+      "autor": "Juan Ignacio Molina",
+      "autor_id": "juan-ignacio-molina",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Bolonia",
+        "lon": 11.343,
+        "lat": 44.494
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1450,
+        "hasta": 1787
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro; traducido al castellano en 1795",
+      "resumen": "Historia de Chile desde la llegada de los incas hasta el siglo XVIII, con una larga descripción de la lengua, la religión, el gobierno, la guerra y las costumbres de los mapuches, escrita en Bolonia por un jesuita expulsado a partir de crónicas, de sus recuerdos y de informes de otros jesuitas.",
+      "por_que_importa": "Difundió en Europa la imagen de los mapuches como pueblo libre y guerrero y defendió a los americanos frente a las tesis de la inferioridad del Nuevo Mundo.",
+      "leer": [
+        {
+          "titulo": "Primera edición (Bolonia, 1787), en Internet Archive",
+          "url": "https://archive.org/details/saggiosullastori00moli",
+          "idioma": "it",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción castellana de 1795, en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Compendio_de_la_historia_civil_del_reyno_de_Chile",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Juan Ignacio Molina",
+        "en": "Juan Ignacio Molina"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "acta-de-instalacion-de-la-junta-de-1810",
+      "titulo": "Acta de instalación de la Primera Junta de Gobierno de Chile",
+      "titulo_original": null,
+      "autor": "Cabildo de Santiago",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1810,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1808,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Acta del cabildo abierto de Santiago del 18 de septiembre de 1810, en el que el gobernador interino Mateo de Toro Zambrano entregó el mando y se eligió una junta de gobierno presidida por él, que gobernaría en nombre del rey cautivo Fernando VII.",
+      "por_que_importa": "Es el documento que inicia el proceso de independencia de Chile, aunque se presentó como un acto de lealtad al rey.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Sesiones_de_los_Cuerpos_Lejislativos_de_la_Rep%C3%BAblica_de_Chile/1810/Acta_de_la_instalaci%C3%B3n_de_la_primera_Junta_de_Gobierno%2C_en_18_de_setiembre_de_1810",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Primera Junta de Gobierno de Chile",
+        "en": "Government Junta of Chile (1810)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "real-cedula-de-abolicion-de-la-esclavitud-indigena-1679",
+      "titulo": "Real cédula de 1679 que declaró libres a los indios esclavos de las Indias",
+      "titulo_original": null,
+      "autor": "Carlos II de España",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1679,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "chile",
+          "andes"
+        ],
+        "desde": 1608,
+        "hasta": 1683
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Cédula del rey Carlos II del 12 de junio de 1679 que declaró libres a todos los indios esclavos de la América española, al cabo de una campaña que había empezado con la orden de la reina regente Mariana de Austria de 1667 de liberar a los indios de Chile esclavizados en el Perú. En 1680 su doctrina se incorporó a la Recopilación de las leyes de Indias. En Chile el gobernador Juan Henríquez protestó ante el rey y no publicó las órdenes, y la esclavitud de los mapuches tomados en guerra se abolió recién en 1683.",
+      "por_que_importa": "Terminó con la esclavitud legal de los mapuches que había autorizado la cédula de 1608. Mario Góngora sostuvo en 1966 que pesó también que para entonces el trabajo libre de los mestizos era más barato que los esclavos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Esclavitud de los mapuches",
+        "en": "Mapuche slavery"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "diario-de-roggeveen",
+      "titulo": "Diario del viaje de Jacob Roggeveen (1721-1722)",
+      "titulo_original": "Dagverhaal der ontdekkings-reis van Mr. Jacob Roggeveen",
+      "autor": "Jacob Roggeveen",
+      "autor_id": "jacob-roggeveen",
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1722,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "polinesia",
+          "chile"
+        ],
+        "desde": 1721,
+        "hasta": 1722
+      },
+      "idioma_original": "Neerlandés",
+      "soporte": "Diario de a bordo; publicado en Middelburg en 1838 y, en parte, en inglés en 1908",
+      "resumen": "Diario oficial de la expedición neerlandesa que buscaba la Tierra Austral y llegó a Rapa Nui el 5 de abril de 1722, domingo de Pascua. Describe a los isleños, sus casas, sus cultivos y las grandes estatuas de piedra, que todavía estaban en pie, y cuenta el desembarco en el que los marineros dispararon contra los isleños y mataron a unos diez.",
+      "por_que_importa": "Es el primer testimonio europeo sobre Rapa Nui: muestra una isla habitada y cultivada, con estatuas en pie y veneradas, más de un siglo antes del derrumbe demográfico del siglo XIX.",
+      "leer": [
+        {
+          "titulo": "Extracto del diario en la edición de Bolton G. Corney (Hakluyt Society, 1908), en Internet Archive",
+          "url": "https://archive.org/details/voyagecaptaindo00unkngoog",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Jakob Roggeveen",
+        "en": "Jacob Roggeveen"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "documentos-de-la-expedicion-de-gonzalez-de-ahedo",
+      "titulo": "Diarios y acta de posesión de la expedición de Felipe González de Ahedo a Rapa Nui",
+      "titulo_original": null,
+      "autor": "Felipe González de Ahedo",
+      "autor_id": "felipe-gonzalez-de-ahedo",
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1770,
+        "anio_hasta": 1771,
+        "aprox": false,
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1770,
+        "hasta": 1771
+      },
+      "idioma_original": "Español",
+      "soporte": "Diarios de a bordo, plano y acta de posesión; traducidos al inglés y publicados por Bolton G. Corney en 1908",
+      "resumen": "Diarios de los oficiales del navío San Lorenzo y la fragata Santa Rosalía, que pasaron cinco días en Rapa Nui en noviembre de 1770, el primer plano de la isla y el acta por la que tomaron posesión de ella en nombre de Carlos III, con signos trazados por jefes isleños. Describen a los habitantes, sus cultivos y las estatuas, y cuentan que levantaron tres cruces en los cerros de Poike.",
+      "por_que_importa": "Son el segundo testimonio europeo sobre la isla y el origen de una reclamación española que no tuvo continuidad; los signos del acta se discuten en relación con la escritura rongorongo.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Bolton G. Corney (Hakluyt Society, 1908), en Internet Archive",
+          "url": "https://archive.org/details/voyagecaptaindo00unkngoog",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-general-de-chile-barros-arana",
+      "titulo": "Historia general de Chile",
+      "titulo_original": null,
+      "autor": "Diego Barros Arana",
+      "autor_id": "diego-barros-arana",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1884,
+        "anio_hasta": 1902,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1500,
+        "hasta": 1833
+      },
+      "idioma_original": "Español",
+      "soporte": "Dieciséis tomos",
+      "resumen": "Historia de Chile desde los pueblos prehispánicos hasta 1833, basada en una enorme cantidad de documentos de archivos chilenos y españoles, que narra con detalle la conquista, los gobiernos coloniales, la guerra de Arauco y la independencia.",
+      "por_que_importa": "Fue durante un siglo la obra de referencia sobre el Chile colonial. Su enfoque liberal, crítico de la Iglesia y de la administración española, y su juicio despectivo sobre las culturas indígenas son hoy objeto de crítica.",
+      "leer": [
+        {
+          "titulo": "Tomo I (1884), en Internet Archive",
+          "url": "https://archive.org/details/historia-general-de-chile-tomo-1-barros-1884",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "coleccion-de-documentos-ineditos-medina",
+      "titulo": "Colección de documentos inéditos para la historia de Chile",
+      "titulo_original": null,
+      "autor": "José Toribio Medina",
+      "autor_id": "jose-toribio-medina",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1888,
+        "anio_hasta": 1902,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1518,
+        "hasta": 1818
+      },
+      "idioma_original": "Español",
+      "soporte": "Treinta tomos",
+      "resumen": "Colección de documentos copiados por José Toribio Medina en el Archivo de Indias y otros archivos: probanzas de méritos, cartas, procesos y cédulas sobre el descubrimiento y la conquista de Chile, con muchos testimonios sobre el trato a los indios, las encomiendas y la guerra.",
+      "por_que_importa": "Es la base documental de casi toda la historiografía posterior sobre el Chile del siglo XVI.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "guerra-y-sociedad-en-chile",
+      "titulo": "Guerra y sociedad en Chile",
+      "titulo_original": "Guerre et société au Chili",
+      "autor": "Álvaro Jara",
+      "autor_id": "alvaro-jara",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "París"
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1550,
+        "hasta": 1700
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro; traducción castellana de 1971",
+      "resumen": "Estudio de cómo la guerra de Arauco transformó la sociedad colonial chilena: el paso de las huestes de encomenderos a un ejército profesional pagado con el situado de Potosí, y la esclavitud legal de los mapuches capturados, que según el autor hizo de la guerra un negocio para soldados, oficiales y comerciantes y ayudó a prolongarla.",
+      "por_que_importa": "Es el estudio clásico sobre la esclavitud indígena y el ejército de la frontera en Chile.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "relaciones-fronterizas-en-la-araucania",
+      "titulo": "Relaciones fronterizas en la Araucanía",
+      "titulo_original": null,
+      "autor": "Sergio Villalobos",
+      "autor_id": "sergio-villalobos",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1598,
+        "hasta": 1883
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro colectivo",
+      "resumen": "Libro de Sergio Villalobos, Carlos Aldunate, Horacio Zapater, Luz María Méndez y Carlos Bascuñán sobre la frontera del Biobío. Sostiene que, pasada la primera etapa de guerra, predominaron el comercio, el mestizaje, los parlamentos, las misiones y la convivencia, y que la imagen de tres siglos de guerra continua es una exageración.",
+      "por_que_importa": "Renovó la historia de la frontera; sus críticos, como José Bengoa y Guillaume Boccara, le objetan que subestima las malocas, la esclavitud y la autonomía mapuche y que presenta la integración como inevitable.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-del-pueblo-mapuche",
+      "titulo": "Historia del pueblo mapuche (siglos XIX y XX)",
+      "titulo_original": null,
+      "autor": "José Bengoa",
+      "autor_id": "jose-bengoa",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile",
+          "patagonia"
+        ],
+        "desde": 1800,
+        "hasta": 1985
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de los mapuches desde la independencia hasta fines del siglo XX: los parlamentos con la república, la ocupación militar de la Araucanía (1861-1883), la radicación en reducciones y la pérdida de tierras, contada a partir de documentos y de testimonios orales de las comunidades.",
+      "por_que_importa": "Fue la primera gran historia del pueblo mapuche escrita desde su punto de vista y marcó a la historiografía posterior; Villalobos y otros le reprocharon una mirada idealizada de la sociedad mapuche.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "guerre-et-ethnogenese-mapuche",
+      "titulo": "Guerra y etnogénesis mapuche en el Chile colonial",
+      "titulo_original": "Guerre et ethnogenèse mapuche dans le Chili colonial",
+      "autor": "Guillaume Boccara",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "París"
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1550,
+        "hasta": 1800
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro; versión castellana: Los vencedores (2007)",
+      "resumen": "Estudio del antropólogo francés Guillaume Boccara sobre cómo la sociedad indígena del centro-sur de Chile se transformó con la guerra y la frontera. Propone que de los «reche» del siglo XVI surgió en el XVIII una nueva sociedad mapuche, con jefaturas más amplias, ganadería y comercio, y analiza la guerra, la toma de cautivos y la muerte ritual de prisioneros como formas de incorporar al otro.",
+      "por_que_importa": "Es la principal interpretación etnohistórica de la sociedad mapuche colonial; algunas de sus categorías, como la de etnogénesis, se discuten.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "monuments-empires-and-resistance",
+      "titulo": "Monumentos, imperios y resistencia: la organización política araucana y sus narrativas rituales",
+      "titulo_original": "Monuments, Empires, and Resistance: The Araucanian Polity and Ritual Narratives",
+      "autor": "Tom Dillehay",
+      "autor_id": "tom-dillehay",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Cambridge"
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1400,
+        "hasta": 1750
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio arqueológico y etnohistórico de los túmulos ceremoniales (kuel) y los espacios rituales del valle de Purén y Lumaco, que el autor relaciona con la organización política mapuche que resistió a incas y españoles en los siglos XVI y XVII.",
+      "por_que_importa": "Propone que los mapuches de esa zona formaron una entidad política más compleja de lo que se pensaba; es una interpretación discutida.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "beyond-death-arriaza",
+      "titulo": "Más allá de la muerte: las momias chinchorro del antiguo Chile",
+      "titulo_original": "Beyond Death: The Chinchorro Mummies of Ancient Chile",
+      "autor": "Bernardo Arriaza",
+      "autor_id": "bernardo-arriaza",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Washington"
+      },
+      "trata": {
+        "regiones": [
+          "chile",
+          "andes"
+        ],
+        "desde": -7000,
+        "hasta": -1500
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Síntesis sobre la cultura chinchorro: la vida de sus pescadores, mariscadores y cazadores en la costa del desierto y sus técnicas de momificación artificial, que el autor clasifica en momias negras, rojas, con vendas y cubiertas de barro, desde hacia 5000 a. C.",
+      "por_que_importa": "Es la obra de referencia sobre las momias artificiales más antiguas que se conocen.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "inscripcion-unesco-chinchorro",
+      "titulo": "Inscripción de los asentamientos y la momificación artificial de la cultura chinchorro en el Patrimonio Mundial",
+      "titulo_original": null,
+      "autor": "Comité del Patrimonio Mundial de la UNESCO",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2021,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": -7000,
+        "hasta": -1500
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": null,
+      "resumen": "Decisión de julio de 2021 por la que la UNESCO inscribió en la lista del Patrimonio Mundial tres sitios chinchorro de la región de Arica y Parinacota (el faldeo norte del morro de Arica, Colón 10 y la desembocadura de Camarones) como testimonio de la momificación artificial más antigua conocida.",
+      "por_que_importa": "Reconoce la antigüedad y el valor de la cultura chinchorro y compromete al Estado chileno a proteger sus sitios, amenazados por el crecimiento urbano de Arica y la humedad.",
+      "leer": [
+        {
+          "titulo": "Ficha del bien en el sitio del Patrimonio Mundial de la UNESCO",
+          "url": "https://whc.unesco.org/en/list/1634",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Chinchorro mummies"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "the-statues-that-walked",
+      "titulo": "Las estatuas que caminaron",
+      "titulo_original": "The Statues That Walked: Unraveling the Mystery of Easter Island",
+      "autor": "Terry L. Hunt",
+      "autor_id": "terry-hunt",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Nueva York"
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1200,
+        "hasta": 1877
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Libro de Terry Hunt y Carl Lipo que sostiene que Rapa Nui se pobló hacia el año 1200, que la deforestación se debió en buena medida a las ratas polinesias que comían las semillas de las palmeras, que la población no se derrumbó antes de la llegada de los europeos y que los moáis se trasladaron de pie, balanceados con cuerdas, como dicen las tradiciones según las cuales «caminaron».",
+      "por_que_importa": "Es la principal crítica a la tesis del «ecocidio» difundida por Jared Diamond; sus críticos le objetan que minimiza el impacto humano sobre el ambiente de la isla.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "slavers-in-paradise",
+      "titulo": "Esclavistas en el paraíso: el tráfico peruano de trabajadores en Polinesia, 1862-1864",
+      "titulo_original": "Slavers in Paradise: The Peruvian Labour Trade in Polynesia, 1862-1864",
+      "autor": "H. E. Maude",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "Canberra"
+      },
+      "trata": {
+        "regiones": [
+          "polinesia",
+          "andes"
+        ],
+        "desde": 1862,
+        "hasta": 1864
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Estudio del historiador H. E. Maude sobre las expediciones que entre 1862 y 1864 capturaron o engancharon con engaños a varios miles de polinesios para trabajar en el Perú, con la reconstrucción, barco por barco, de lo que pasó en cada isla, entre ellas Rapa Nui, la más afectada.",
+      "por_que_importa": "Es la obra de referencia sobre las incursiones esclavistas peruanas en Polinesia, basada en archivos peruanos, franceses y británicos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "aku-aku",
+      "titulo": "Aku-Aku: el secreto de la isla de Pascua",
+      "titulo_original": "Aku-Aku: Påskeøyas hemmelighet",
+      "autor": "Thor Heyerdahl",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Oslo"
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1200,
+        "hasta": 1956
+      },
+      "idioma_original": "Noruego",
+      "soporte": null,
+      "resumen": "Relato para el gran público de la expedición arqueológica noruega a Rapa Nui de 1955-1956, que excavó en varios sitios, estudió las canteras y volvió a levantar un moái en Anakena. Heyerdahl sostiene que los primeros pobladores llegaron de Sudamérica y que las obras de piedra mejor labradas son de origen andino.",
+      "por_que_importa": "Fue un éxito mundial y difundió la idea de un poblamiento sudamericano de la isla, que la arqueología, la lingüística y la genética descartaron: los rapanui son polinesios, aunque tienen una pequeña ascendencia americana por un contacto antiguo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Aku-Aku: el secreto de la Isla de Pascua",
+        "en": "Aku-Aku"
+      },
+      "confianza": "alta"
+    }
+  ],
+  "personas": [
+    {
+      "id": "pedro-de-valdivia",
+      "nombre": "Pedro de Valdivia",
+      "nacimiento": {
+        "anio": 1497,
+        "aprox": true,
+        "lugar": "Castuera",
+        "lon": -5.544,
+        "lat": 38.723
+      },
+      "muerte": {
+        "anio": 1553,
+        "aprox": false,
+        "lugar": "Fuerte de Tucapel (Cañete)",
+        "lon": -73.39,
+        "lat": -37.8
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1541,
+        "hasta": 1553,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Conquistador extremeño que había combatido en Italia y fue maestre de campo de Francisco Pizarro en la batalla de Las Salinas (1538). Salió del Cusco en 1540, fundó Santiago en 1541 y después Concepción (1550), La Imperial, Valdivia y Villarrica, y repartió a los indios en encomiendas; sus cartas a Carlos V son la fuente principal de la conquista de Chile. Murió prisionero de los mapuches después de la derrota de Tucapel, en diciembre de 1553, y las crónicas dan versiones distintas de su muerte.",
+      "obras": [
+        "cartas-de-pedro-de-valdivia"
+      ],
+      "wikipedia": {
+        "es": "Pedro de Valdivia",
+        "en": "Pedro de Valdivia"
+      },
+      "wikidata": "Q203534"
+    },
+    {
+      "id": "ines-de-suarez",
+      "nombre": "Inés Suárez",
+      "nacimiento": {
+        "anio": 1507,
+        "aprox": true,
+        "lugar": "Plasencia",
+        "lon": -6.091,
+        "lat": 40.028
+      },
+      "muerte": {
+        "anio": 1580,
+        "aprox": true,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1541,
+        "hasta": 1580,
+        "aprox": false
+      },
+      "roles": [
+        "conquistadora",
+        "encomendera"
+      ],
+      "resumen": "Mujer nacida en Plasencia que acompañó a Valdivia desde el Perú como su compañera. Según la crónica de Mariño de Lobera, en el ataque de Michimalonco a Santiago (11 de septiembre de 1541) hizo matar a los siete caciques que los españoles tenían como rehenes, decapitó ella misma al primero y mandó arrojar sus cabezas a los atacantes; Benjamín Vicuña Mackenna negó que los matara con su mano. Recibió una encomienda y, cuando Pedro de la Gasca obligó a Valdivia a separarse de ella (1548), se casó con Rodrigo de Quiroga.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Inés Suárez",
+        "en": "Inés Suárez"
+      },
+      "wikidata": "Q262936"
+    },
+    {
+      "id": "francisco-de-villagra",
+      "nombre": "Francisco de Villagra",
+      "nacimiento": {
+        "anio": 1511,
+        "aprox": false,
+        "lugar": "Santervás de Campos",
+        "lon": -5.101,
+        "lat": 42.217
+      },
+      "muerte": {
+        "anio": 1563,
+        "aprox": false,
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1547,
+        "hasta": 1563,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Conquistador que llegó a Chile con Valdivia. Lautaro lo derrotó en Marihueñu (1554), y en 1557 él sorprendió y mató a Lautaro en Mataquito; fue gobernador de Chile entre 1561 y 1563, en plena guerra con los mapuches.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de Villagra",
+        "en": "Francisco de Villagra"
+      },
+      "wikidata": "Q1442314"
+    },
+    {
+      "id": "rodrigo-de-quiroga",
+      "nombre": "Rodrigo de Quiroga",
+      "nacimiento": {
+        "anio": 1512,
+        "aprox": false,
+        "lugar": "Saviñao",
+        "lon": -7.64,
+        "lat": 42.645
+      },
+      "muerte": {
+        "anio": 1580,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1541,
+        "hasta": 1580,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Conquistador gallego llegado con Valdivia, esposo de Inés Suárez desde 1549 y gobernador de Chile en 1565-1567 y en 1575-1580, cuando siguió la guerra en el sur con su lugarteniente Martín Ruiz de Gamboa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rodrigo de Quiroga",
+        "en": "Rodrigo de Quiroga"
+      },
+      "wikidata": "Q707959"
+    },
+    {
+      "id": "martin-ruiz-de-gamboa",
+      "nombre": "Martín Ruiz de Gamboa",
+      "nacimiento": {
+        "anio": 1533,
+        "aprox": false,
+        "lugar": "Durango",
+        "lon": -2.632,
+        "lat": 43.167
+      },
+      "muerte": {
+        "anio": 1590,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1567,
+        "hasta": 1583,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Militar vasco que ocupó Chiloé y fundó Castro en 1567. Como gobernador (1580-1583) dictó la tasa que lleva su nombre, que reemplazaba el servicio personal de los indios encomendados por un tributo y que los encomenderos resistieron hasta que fue dejada sin efecto.",
+      "obras": [
+        "tasa-de-gamboa"
+      ],
+      "wikipedia": {
+        "es": "Martín Ruiz de Gamboa",
+        "en": "Martín Ruiz de Gamboa"
+      },
+      "wikidata": "Q1353329"
+    },
+    {
+      "id": "alonso-de-ribera",
+      "nombre": "Alonso de Ribera",
+      "nacimiento": {
+        "anio": 1560,
+        "aprox": false,
+        "lugar": "Úbeda",
+        "lon": -3.372,
+        "lat": 38.012
+      },
+      "muerte": {
+        "anio": 1617,
+        "aprox": false,
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1601,
+        "hasta": 1617,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Militar veterano de Flandes, gobernador de Chile en 1601-1605 y 1612-1617. Después del alzamiento de 1598 organizó un ejército profesional y permanente en la frontera, pagado con el real situado de Potosí, y una línea de fuertes en el Biobío; en su segundo gobierno debió aplicar la guerra defensiva del jesuita Luis de Valdivia, con quien chocó.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alonso de Ribera",
+        "en": "Alonso de Ribera"
+      },
+      "wikidata": "Q545679"
+    },
+    {
+      "id": "marques-de-baides",
+      "nombre": "Francisco López de Zúñiga, marqués de Baides",
+      "nacimiento": {
+        "anio": 1599,
+        "aprox": false,
+        "lugar": "Pedrosa del Rey",
+        "lon": -5.206,
+        "lat": 41.556
+      },
+      "muerte": {
+        "anio": 1656,
+        "aprox": false,
+        "lugar": "Cádiz",
+        "lon": -6.298,
+        "lat": 36.535
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1639,
+        "hasta": 1646,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Gobernador de Chile entre 1639 y 1646 que celebró con los loncos mapuches el parlamento de Quilín (1641), en el que se reconoció el río Biobío como frontera.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco López de Zúñiga y Meneses",
+        "en": "Francisco López de Zúñiga, 2nd Marquess of Baides"
+      },
+      "wikidata": "Q544029"
+    },
+    {
+      "id": "juan-henriquez-de-villalobos",
+      "nombre": "Juan Henríquez",
+      "nacimiento": {
+        "anio": 1630,
+        "aprox": true,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "muerte": {
+        "anio": 1689,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1670,
+        "hasta": 1682,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Gobernador de Chile entre 1670 y 1682. Defendió ante la Corona la esclavitud de los mapuches tomados en guerra y demoró la publicación de las cédulas que la abolían, que se aplicaron en 1683, después de su gobierno.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Henríquez de Villalobos",
+        "en": "Juan Henríquez de Villalobos"
+      },
+      "wikidata": "Q463745"
+    },
+    {
+      "id": "antonio-de-guill-y-gonzaga",
+      "nombre": "Antonio de Guill y Gonzaga",
+      "nacimiento": {
+        "anio": 1709,
+        "aprox": true,
+        "lugar": "España",
+        "lon": -3.5,
+        "lat": 40.2
+      },
+      "muerte": {
+        "anio": 1768,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1762,
+        "hasta": 1768,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Gobernador de Chile entre 1762 y 1768. Su plan de obligar a los mapuches a vivir en pueblos fundados al sur del Biobío provocó el alzamiento de 1766, y en 1767 ejecutó la expulsión de los jesuitas de Chile.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio de Guill y Gonzaga",
+        "en": "Antonio de Guill y Gonzaga"
+      },
+      "wikidata": "Q463763"
+    },
+    {
+      "id": "ambrosio-o-higgins",
+      "nombre": "Ambrosio O'Higgins",
+      "nacimiento": {
+        "anio": 1720,
+        "aprox": true,
+        "lugar": "Ballenary",
+        "lon": -8.307,
+        "lat": 54.066
+      },
+      "muerte": {
+        "anio": 1801,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1788,
+        "hasta": 1796,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "virrey"
+      ],
+      "resumen": "Irlandés al servicio de España que fue intendente de Concepción, gobernador de Chile (1788-1796) y virrey del Perú (1796-1801). Participó en parlamentos con los mapuches, como el de Lonquilmo (1784), y como gobernador presidió el de Negrete (1793); suprimió las encomiendas en Chile (1789-1791), fundó villas, mejoró el camino de Santiago a Valparaíso y repobló Osorno (1796). Fue el padre de Bernardo O'Higgins.",
+      "obras": [
+        "actas-del-parlamento-de-negrete-1793"
+      ],
+      "wikipedia": {
+        "es": "Ambrosio O'Higgins",
+        "en": "Ambrosio O'Higgins, 1st Marquess of Osorno"
+      },
+      "wikidata": "Q1388469"
+    },
+    {
+      "id": "mateo-de-toro-zambrano",
+      "nombre": "Mateo de Toro Zambrano",
+      "nacimiento": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1811,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1810,
+        "hasta": 1811,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Criollo de Santiago, conde de la Conquista, que como gobernador interino aceptó el cabildo abierto del 18 de septiembre de 1810 y presidió la Primera Junta Nacional de Gobierno hasta su muerte, en febrero de 1811.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mateo de Toro Zambrano",
+        "en": "Mateo de Toro Zambrano"
+      },
+      "wikidata": "Q935696"
+    },
+    {
+      "id": "juan-martinez-de-rozas",
+      "nombre": "Juan Martínez de Rozas",
+      "nacimiento": {
+        "anio": 1759,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "muerte": {
+        "anio": 1813,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1787,
+        "hasta": 1811,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "político"
+      ],
+      "resumen": "Abogado nacido en Mendoza, asesor de Ambrosio O'Higgins en la intendencia de Concepción y vocal de la Primera Junta de 1810, de la que fue la figura más influyente.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Martínez de Rozas",
+        "en": "Juan Martínez de Rozas"
+      },
+      "wikidata": "Q463638"
+    },
+    {
+      "id": "manuel-de-salas",
+      "nombre": "Manuel de Salas",
+      "nacimiento": {
+        "anio": 1754,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1841,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1775,
+        "hasta": 1841,
+        "aprox": false
+      },
+      "roles": [
+        "educador",
+        "funcionario"
+      ],
+      "resumen": "Criollo ilustrado de Santiago que fundó la Academia de San Luis (1797), una escuela de matemáticas, dibujo y oficios, y dirigió el hospicio de pobres. En el Congreso de 1811 promovió la ley de libertad de vientres, primer paso de la abolición de la esclavitud en Chile.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manuel de Salas",
+        "en": "Manuel de Salas"
+      },
+      "wikidata": "Q5390863"
+    },
+    {
+      "id": "felipe-gonzalez-de-ahedo",
+      "nombre": "Felipe González de Ahedo",
+      "nacimiento": {
+        "anio": 1714,
+        "aprox": false,
+        "lugar": "Santoña",
+        "lon": -3.458,
+        "lat": 43.441
+      },
+      "muerte": {
+        "anio": 1802,
+        "aprox": false,
+        "lugar": "Cádiz",
+        "lon": -6.298,
+        "lat": 36.535
+      },
+      "activo": {
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052,
+        "desde": 1770,
+        "hasta": 1771,
+        "aprox": false
+      },
+      "roles": [
+        "marino"
+      ],
+      "resumen": "Marino español que, enviado por el virrey del Perú Manuel de Amat, llegó a Rapa Nui el 15 de noviembre de 1770 con el navío San Lorenzo y la fragata Santa Rosalía, levantó un plano de la isla, la llamó San Carlos y tomó posesión de ella en nombre de Carlos III.",
+      "obras": [
+        "documentos-de-la-expedicion-de-gonzalez-de-ahedo"
+      ],
+      "wikipedia": {
+        "es": "Felipe González Ahedo",
+        "en": "Felipe González de Ahedo"
+      },
+      "wikidata": "Q2117493"
+    },
+    {
+      "id": "jacob-roggeveen",
+      "nombre": "Jacob Roggeveen",
+      "nacimiento": {
+        "anio": 1659,
+        "aprox": false,
+        "lugar": "Midelburgo",
+        "lon": 3.614,
+        "lat": 51.5
+      },
+      "muerte": {
+        "anio": 1729,
+        "aprox": false,
+        "lugar": "Midelburgo",
+        "lon": 3.614,
+        "lat": 51.5
+      },
+      "activo": {
+        "lugar": "Middelburg",
+        "lon": 3.614,
+        "lat": 51.5,
+        "desde": 1721,
+        "hasta": 1723,
+        "aprox": false
+      },
+      "roles": [
+        "navegante"
+      ],
+      "resumen": "Navegante neerlandés que, al mando de una expedición de la Compañía de las Indias Occidentales en busca de la Tierra Austral, llegó a Rapa Nui el domingo de Pascua de 1722 y la llamó isla de Pascua. Su diario es la primera descripción europea de la isla, de su gente y de sus estatuas.",
+      "obras": [
+        "diario-de-roggeveen"
+      ],
+      "wikipedia": {
+        "es": "Jakob Roggeveen",
+        "en": "Jacob Roggeveen"
+      },
+      "wikidata": "Q243375"
+    },
+    {
+      "id": "policarpo-toro",
+      "nombre": "Policarpo Toro",
+      "nacimiento": {
+        "anio": 1856,
+        "aprox": false,
+        "lugar": "Melipilla",
+        "lon": -71.215,
+        "lat": -33.686
+      },
+      "muerte": {
+        "anio": 1921,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "roles": [
+        "marino"
+      ],
+      "resumen": "Marino chileno que el 9 de septiembre de 1888 firmó con el ariki Atamu Tekena y otros jefes rapanui el acuerdo por el que Chile tomó posesión de Rapa Nui.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Policarpo Toro",
+        "en": "Policarpo Toro"
+      },
+      "wikidata": "Q4177312"
+    },
+    {
+      "id": "michimalonco",
+      "nombre": "Michimalonco",
+      "activo": {
+        "lugar": "Quillota",
+        "lon": -71.247,
+        "lat": -32.88,
+        "desde": 1536,
+        "hasta": 1550,
+        "aprox": true
+      },
+      "roles": [
+        "lonco"
+      ],
+      "resumen": "Lonco del valle del Aconcagua que en 1541 destruyó el barco que los españoles construían en Concón y dirigió el ataque e incendio de Santiago del 11 de septiembre de ese año. Después hizo la paz con Valdivia, y según las crónicas sus guerreros combatieron junto a los españoles en Penco en 1550.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Michimalonco",
+        "en": "Michimalonco"
+      },
+      "wikidata": "Q6837909"
+    },
+    {
+      "id": "lautaro",
+      "nombre": "Lautaro",
+      "nacimiento": {
+        "anio": 1534,
+        "aprox": true,
+        "lugar": "Tirúa",
+        "lon": -73.5,
+        "lat": -38.333
+      },
+      "muerte": {
+        "anio": 1557,
+        "aprox": false,
+        "lugar": "Hualañé",
+        "lon": -71.805,
+        "lat": -34.977
+      },
+      "roles": [
+        "toqui"
+      ],
+      "resumen": "Joven mapuche capturado por los españoles que sirvió a Valdivia como caballerizo, aprendió el uso de los caballos y la táctica española y huyó antes de 1553. Dirigió la victoria de Tucapel (1553), donde cayó Valdivia, y la de Marihueñu (1554), y en 1557 avanzó hacia el norte hasta que Francisco de Villagra lo sorprendió y mató en Mataquito. Ercilla lo convirtió en héroe épico, y en Chile se volvió un símbolo nacional.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lautaro",
+        "en": "Lautaro"
+      },
+      "wikidata": "Q453156"
+    },
+    {
+      "id": "caupolican",
+      "nombre": "Caupolicán",
+      "muerte": {
+        "anio": 1558,
+        "aprox": false,
+        "lugar": "Cañete",
+        "lon": -73.383,
+        "lat": -37.8
+      },
+      "roles": [
+        "toqui"
+      ],
+      "resumen": "Toqui mapuche que dirigió la guerra contra los españoles después de Tucapel. Capturado en 1558, fue bautizado y ejecutado por empalamiento en el fuerte de Cañete por orden del capitán Alonso de Reinoso, según Ercilla y Góngora Marmolejo. La prueba de fuerza con un tronco con la que, según La Araucana, fue elegido toqui no aparece en las crónicas en prosa y se la considera una creación literaria.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Caupolicán",
+        "en": "Caupolicán"
+      },
+      "wikidata": "Q716530"
+    },
+    {
+      "id": "galvarino",
+      "nombre": "Galvarino",
+      "muerte": {
+        "anio": 1557,
+        "aprox": false,
+        "lugar": "Millarapue",
+        "lon": -73.27,
+        "lat": -37.42
+      },
+      "roles": [
+        "guerrero mapuche"
+      ],
+      "resumen": "Guerrero mapuche capturado en la batalla de Lagunillas (noviembre de 1557), a quien el gobernador García Hurtado de Mendoza hizo cortar las dos manos, y a otros prisioneros la mano derecha y la nariz, antes de soltarlos como escarmiento. Ercilla, que estuvo en esa campaña, cuenta que volvió a pelear en Millarapue y que después de la batalla fue ahorcado; otras versiones dicen que lo echaron a los perros.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Galvarino",
+        "en": "Galvarino"
+      },
+      "wikidata": "Q965840"
+    },
+    {
+      "id": "pelantaro",
+      "nombre": "Pelantaro",
+      "activo": {
+        "lugar": "Purén",
+        "lon": -73.083,
+        "lat": -38.017,
+        "desde": 1598,
+        "hasta": 1599,
+        "aprox": false
+      },
+      "roles": [
+        "toqui"
+      ],
+      "resumen": "Toqui mapuche de la zona de Purén que el 23 de diciembre de 1598 sorprendió en Curalaba al gobernador Martín García Óñez de Loyola y lo mató con casi toda su escolta, lo que abrió el alzamiento general que destruyó las ciudades españolas al sur del Biobío.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pelantaro",
+        "en": "Pelantaro"
+      },
+      "wikidata": "Q464201"
+    },
+    {
+      "id": "anganamon",
+      "nombre": "Anganamón",
+      "activo": {
+        "lugar": "Purén",
+        "lon": -73.083,
+        "lat": -38.017,
+        "desde": 1598,
+        "hasta": 1612,
+        "aprox": false
+      },
+      "roles": [
+        "lonco"
+      ],
+      "resumen": "Lonco mapuche de Purén que el 14 de diciembre de 1612 mató en Elicura a tres jesuitas enviados por Luis de Valdivia para predicar la paz, después de que los españoles dieran refugio a mujeres e hijas suyas que habían huido. Los opositores de la guerra defensiva usaron el hecho contra ella.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Anganamón",
+        "en": "Anganamón"
+      },
+      "wikidata": "Q4761942"
+    },
+    {
+      "id": "lientur",
+      "nombre": "Lientur",
+      "activo": {
+        "lugar": "Las Cangrejeras (Yumbel)",
+        "lon": -72.6,
+        "lat": -37.13,
+        "desde": 1618,
+        "hasta": 1629,
+        "aprox": false
+      },
+      "roles": [
+        "toqui"
+      ],
+      "resumen": "Toqui mapuche que dirigió malones contra la frontera española en la década de 1620 y venció en Las Cangrejeras (15 de mayo de 1629), donde fue capturado Francisco Núñez de Pineda y Bascuñán.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lientur",
+        "en": "Lientur"
+      },
+      "wikidata": "Q6544185"
+    },
+    {
+      "id": "vilumilla",
+      "nombre": "Vilumilla",
+      "activo": {
+        "lugar": "Negrete",
+        "lon": -72.53,
+        "lat": -37.59,
+        "desde": 1723,
+        "hasta": 1726,
+        "aprox": false
+      },
+      "roles": [
+        "toqui"
+      ],
+      "resumen": "Toqui mapuche que encabezó el alzamiento de 1723 contra los abusos de los capitanes de amigos y de los comerciantes de la frontera; la paz se firmó en el parlamento de Negrete de 1726.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vilumilla",
+        "en": "Vilumilla"
+      },
+      "wikidata": "Q7931223"
+    },
+    {
+      "id": "hotu-matua",
+      "nombre": "Hotu Matu'a",
+      "activo": {
+        "lugar": "Anakena",
+        "lon": -109.323,
+        "lat": -27.074,
+        "desde": 1200,
+        "hasta": 1200,
+        "aprox": true
+      },
+      "roles": [
+        "ariki legendario"
+      ],
+      "resumen": "Primer ariki (jefe supremo) de Rapa Nui según la tradición oral recogida desde el siglo XIX, que lo hace llegar en canoa desde una tierra llamada Hiva y desembarcar en Anakena. No hay forma de comprobar su existencia; la arqueología ubica el poblamiento de la isla hacia el año 1200.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hotu Matu'a",
+        "en": "Hotu Matuꞌa"
+      },
+      "wikidata": "Q1269364"
+    },
+    {
+      "id": "geronimo-de-vivar",
+      "nombre": "Jerónimo de Vivar",
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1540,
+        "hasta": 1558,
+        "aprox": false
+      },
+      "roles": [
+        "cronista",
+        "soldado"
+      ],
+      "resumen": "Soldado de la hueste de Valdivia, probablemente nacido en Burgos, del que casi no hay datos. Su crónica de 1558, perdida durante siglos y publicada en 1966, es el relato más cercano a los hechos de la conquista de Chile.",
+      "obras": [
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Jerónimo de Vivar",
+        "en": "Jerónimo de Vivar"
+      },
+      "wikidata": "Q6185675"
+    },
+    {
+      "id": "alonso-de-gongora-marmolejo",
+      "nombre": "Alonso de Góngora Marmolejo",
+      "nacimiento": {
+        "anio": 1523,
+        "aprox": false,
+        "lugar": "Carmona",
+        "lon": -5.642,
+        "lat": 37.471
+      },
+      "muerte": {
+        "anio": 1576,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1549,
+        "hasta": 1576,
+        "aprox": false
+      },
+      "roles": [
+        "cronista",
+        "soldado"
+      ],
+      "resumen": "Soldado andaluz que llegó a Chile hacia 1549 y escribió en 1575 una historia de la conquista y de los gobernadores hasta ese año. Fue testigo de muchos de los hechos y muy crítico con García Hurtado de Mendoza.",
+      "obras": [
+        "historia-de-gongora-marmolejo"
+      ],
+      "wikipedia": {
+        "es": "Alonso de Góngora Marmolejo",
+        "en": "Alonso de Góngora Marmolejo"
+      },
+      "wikidata": "Q3612905"
+    },
+    {
+      "id": "pedro-marino-de-lobera",
+      "nombre": "Pedro Mariño de Lobera",
+      "nacimiento": {
+        "anio": 1528,
+        "aprox": false,
+        "lugar": "Pontevedra",
+        "lon": -8.648,
+        "lat": 42.434
+      },
+      "muerte": {
+        "anio": 1594,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Valdivia",
+        "lon": -73.246,
+        "lat": -39.814,
+        "desde": 1551,
+        "hasta": 1594,
+        "aprox": false
+      },
+      "roles": [
+        "cronista",
+        "soldado"
+      ],
+      "resumen": "Soldado gallego que llegó a Chile en 1551 y combatió en la guerra de Arauco. Su crónica la reescribió el jesuita Bartolomé de Escobar por encargo del virrey García Hurtado de Mendoza, y por eso exalta a ese gobernador.",
+      "obras": [
+        "cronica-de-marino-de-lobera"
+      ],
+      "wikipedia": {
+        "es": "Pedro Mariño de Lobera",
+        "en": "Pedro Mariño de Lobera"
+      },
+      "wikidata": "Q1350662"
+    },
+    {
+      "id": "pedro-de-ona",
+      "nombre": "Pedro de Oña",
+      "nacimiento": {
+        "anio": 1570,
+        "aprox": false,
+        "lugar": "Angol",
+        "lon": -72.709,
+        "lat": -37.799
+      },
+      "muerte": {
+        "anio": 1643,
+        "aprox": true,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1590,
+        "hasta": 1643,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta nacido en Angol, el primero nacido en Chile cuya obra se conoce, que estudió en Lima y publicó allí Arauco domado (1596), un poema épico escrito a pedido del propio García Hurtado de Mendoza, entonces virrey del Perú, para exaltar su gobierno en Chile.",
+      "obras": [
+        "arauco-domado"
+      ],
+      "wikipedia": {
+        "es": "Pedro de Oña",
+        "en": "Pedro de Oña"
+      },
+      "wikidata": "Q1650877"
+    },
+    {
+      "id": "alonso-gonzalez-de-najera",
+      "nombre": "Alonso González de Nájera",
+      "muerte": {
+        "anio": 1614,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1601,
+        "hasta": 1607,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "escritor"
+      ],
+      "resumen": "Militar español que combatió en Chile entre 1601 y 1607 y escribió después Desengaño y reparo de la guerra del Reino de Chile, uno de los principales testimonios sobre el alzamiento de 1598, las cautivas españolas y la guerra de frontera.",
+      "obras": [
+        "desengano-y-reparo-de-la-guerra"
+      ],
+      "wikipedia": {
+        "es": "Alonso González de Nájera",
+        "en": "Alonso González de Nájera"
+      },
+      "wikidata": "Q3612902"
+    },
+    {
+      "id": "francisco-nunez-de-pineda-y-bascunan",
+      "nombre": "Francisco Núñez de Pineda y Bascuñán",
+      "nacimiento": {
+        "anio": 1607,
+        "aprox": false,
+        "lugar": "Chillán",
+        "lon": -72.103,
+        "lat": -36.607
+      },
+      "muerte": {
+        "anio": 1682,
+        "aprox": false,
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827
+      },
+      "activo": {
+        "lugar": "Chillán",
+        "lon": -72.103,
+        "lat": -36.607,
+        "desde": 1625,
+        "hasta": 1680,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "escritor"
+      ],
+      "resumen": "Criollo de Chillán, hijo del maestre de campo Álvaro Núñez de Pineda. Capturado en Las Cangrejeras (1629), vivió unos seis meses entre los mapuches, protegido por el lonco Maulicán, y en 1673 terminó Cautiverio feliz, donde cuenta esa experiencia y culpa de la guerra a la codicia de gobernadores y soldados y a la esclavitud de los indios.",
+      "obras": [
+        "cautiverio-feliz"
+      ],
+      "wikipedia": {
+        "es": "Francisco Núñez de Pineda y Bascuñán",
+        "en": "Francisco Núñez de Pineda y Bascuñán"
+      },
+      "wikidata": "Q5483762"
+    },
+    {
+      "id": "alonso-de-ovalle",
+      "nombre": "Alonso de Ovalle",
+      "nacimiento": {
+        "anio": 1603,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1651,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1641,
+        "hasta": 1650,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "cronista"
+      ],
+      "resumen": "Jesuita nacido en Santiago que viajó a Roma como procurador de su provincia y publicó allí en 1646 la Histórica relación del Reyno de Chile, para dar a conocer el país en Europa y conseguir misioneros. Es el primer autor nacido en Chile que publicó una historia del país.",
+      "obras": [
+        "historica-relacion-del-reyno-de-chile"
+      ],
+      "wikipedia": {
+        "es": "Alonso de Ovalle",
+        "en": "Alonso de Ovalle"
+      },
+      "wikidata": "Q2839275"
+    },
+    {
+      "id": "diego-de-rosales",
+      "nombre": "Diego de Rosales",
+      "nacimiento": {
+        "anio": 1601,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "muerte": {
+        "anio": 1677,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1629,
+        "hasta": 1677,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "cronista"
+      ],
+      "resumen": "Jesuita madrileño que llegó a Chile en 1629, misionó entre los mapuches, actuó como mediador en parlamentos y escribió la Historia general del Reyno de Chile, Flandes indiano (terminada en 1674). En 1670 escribió un Manifiesto apologético de los daños de la esclavitud del Reino de Chile, contra la esclavitud de los mapuches.",
+      "obras": [
+        "manifiesto-apologetico-de-rosales",
+        "historia-general-del-reyno-de-chile-rosales"
+      ],
+      "wikipedia": {
+        "es": "Diego de Rosales",
+        "en": "Diego de Rosales"
+      },
+      "wikidata": "Q1626892"
+    },
+    {
+      "id": "andres-febres",
+      "nombre": "Andrés Febrés",
+      "nacimiento": {
+        "anio": 1734,
+        "aprox": false,
+        "lugar": "Manresa",
+        "lon": 1.829,
+        "lat": 41.726
+      },
+      "muerte": {
+        "anio": 1790,
+        "aprox": false,
+        "lugar": "Cagliari",
+        "lon": 9.117,
+        "lat": 39.217
+      },
+      "activo": {
+        "lugar": "Concepción",
+        "lon": -73.05,
+        "lat": -36.827,
+        "desde": 1764,
+        "hasta": 1767,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "lingüista"
+      ],
+      "resumen": "Jesuita catalán, misionero en la frontera mapuche, que publicó en Lima en 1765 un arte, un vocabulario y una doctrina de la lengua mapuche, base de los estudios posteriores del mapudungun. Fue expulsado con los demás jesuitas en 1767.",
+      "obras": [
+        "arte-de-la-lengua-general-febres"
+      ],
+      "wikipedia": {
+        "es": "Andrés Febrés",
+        "en": "Andrés Febrés"
+      },
+      "wikidata": "Q26720207"
+    },
+    {
+      "id": "juan-ignacio-molina",
+      "nombre": "Juan Ignacio Molina",
+      "nacimiento": {
+        "anio": 1740,
+        "aprox": false,
+        "lugar": "Villa Alegre",
+        "lon": -71.75,
+        "lat": -35.667
+      },
+      "muerte": {
+        "anio": 1829,
+        "aprox": false,
+        "lugar": "Bolonia",
+        "lon": 11.343,
+        "lat": 44.494
+      },
+      "activo": {
+        "lugar": "Bolonia",
+        "lon": 11.343,
+        "lat": 44.494,
+        "desde": 1774,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "naturalista"
+      ],
+      "resumen": "Jesuita criollo expulsado de Chile en 1767 que vivió en Bolonia, donde publicó el Saggio sulla storia naturale del Chili (1782) y el Saggio sulla storia civile del Chili (1787). Describió con el sistema de Linneo muchas especies chilenas y dio a conocer en Europa la historia y las costumbres de los mapuches.",
+      "obras": [
+        "saggio-sulla-storia-naturale-del-chili",
+        "saggio-sulla-storia-civile-del-chili"
+      ],
+      "wikipedia": {
+        "es": "Juan Ignacio Molina",
+        "en": "Juan Ignacio Molina"
+      },
+      "wikidata": "Q55068526"
+    },
+    {
+      "id": "jose-toribio-medina",
+      "nombre": "José Toribio Medina",
+      "nacimiento": {
+        "anio": 1852,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1874,
+        "hasta": 1930,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "bibliógrafo"
+      ],
+      "resumen": "Bibliógrafo e historiador chileno que copió en archivos de España y América miles de documentos coloniales y los publicó, entre otras colecciones, en los treinta tomos de la Colección de documentos inéditos para la historia de Chile (1888-1902). Escribió también historias de la imprenta y de la Inquisición en América.",
+      "obras": [
+        "coleccion-de-documentos-ineditos-medina"
+      ],
+      "wikipedia": {
+        "es": "José Toribio Medina",
+        "en": "José Toribio Medina"
+      },
+      "wikidata": "Q994198"
+    },
+    {
+      "id": "diego-barros-arana",
+      "nombre": "Diego Barros Arana",
+      "nacimiento": {
+        "anio": 1830,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "muerte": {
+        "anio": 1907,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1850,
+        "hasta": 1907,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador chileno, autor de la Historia general de Chile (1884-1902), en dieciséis tomos, basada en documentos de archivo. Su visión liberal y muy crítica del período colonial, y sus juicios negativos sobre los indígenas, fueron muy influyentes y hoy se discuten.",
+      "obras": [
+        "historia-general-de-chile-barros-arana"
+      ],
+      "wikipedia": {
+        "es": "Diego Barros Arana",
+        "en": "Diego Barros Arana"
+      },
+      "wikidata": "Q943158"
+    },
+    {
+      "id": "alvaro-jara",
+      "nombre": "Álvaro Jara",
+      "nacimiento": {
+        "anio": 1923,
+        "aprox": false,
+        "lugar": "Talca",
+        "lon": -71.666,
+        "lat": -35.427
+      },
+      "muerte": {
+        "anio": 1998,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1950,
+        "hasta": 1998,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador chileno de la economía colonial. En Guerra y sociedad en Chile (1961) mostró cómo la guerra de Arauco se volvió una fuente de esclavos y de negocios para soldados y comerciantes y cómo el ejército de la frontera se convirtió en una institución permanente.",
+      "obras": [
+        "guerra-y-sociedad-en-chile"
+      ],
+      "wikipedia": {
+        "es": "Álvaro Jara",
+        "en": "Álvaro Jara"
+      },
+      "wikidata": "Q8076708"
+    },
+    {
+      "id": "sergio-villalobos",
+      "nombre": "Sergio Villalobos",
+      "nacimiento": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Angol",
+        "lon": -72.709,
+        "lat": -37.799
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1960,
+        "hasta": 2020,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador chileno que, con otros autores, sostuvo en Relaciones fronterizas en la Araucanía (1982) que la frontera colonial fue más de comercio, mestizaje y convivencia que de guerra. Sus juicios sobre los mapuches lo enfrentaron con historiadores y antropólogos como José Bengoa.",
+      "obras": [
+        "relaciones-fronterizas-en-la-araucania"
+      ],
+      "wikipedia": {
+        "es": "Sergio Villalobos",
+        "en": "Sergio Villalobos"
+      },
+      "wikidata": "Q3479697"
+    },
+    {
+      "id": "jose-bengoa",
+      "nombre": "José Bengoa",
+      "nacimiento": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Valparaíso",
+        "lon": -71.62,
+        "lat": -33.046
+      },
+      "muerte": {
+        "anio": 2026,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438,
+        "desde": 1970,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "antropólogo",
+        "historiador"
+      ],
+      "resumen": "Antropólogo e historiador chileno, autor de Historia del pueblo mapuche (1985), centrada en los siglos XIX y XX y escrita desde el punto de vista de las comunidades, y de estudios sobre la sociedad mapuche antes de la conquista y sobre los parlamentos coloniales. Recibió el Premio Nacional de Humanidades y Ciencias Sociales en 2025 y murió en 2026.",
+      "obras": [
+        "historia-del-pueblo-mapuche"
+      ],
+      "wikipedia": {
+        "es": "José Bengoa",
+        "en": "José Bengoa"
+      },
+      "wikidata": "Q5938451"
+    },
+    {
+      "id": "bernardo-arriaza",
+      "nombre": "Bernardo Arriaza",
+      "activo": {
+        "lugar": "Arica",
+        "lon": -70.321,
+        "lat": -18.478,
+        "desde": 1985,
+        "hasta": 2020,
+        "aprox": false
+      },
+      "roles": [
+        "bioantropólogo"
+      ],
+      "resumen": "Bioantropólogo chileno de la Universidad de Tarapacá, en Arica, especialista en las momias chinchorro: propuso una cronología y una clasificación de sus técnicas de momificación y estudió el arsénico del agua de la región como posible causa de muertes de fetos y niños que habría impulsado esa práctica.",
+      "obras": [
+        "beyond-death-arriaza"
+      ],
+      "wikipedia": {
+        "en": "Bernardo Arriaza"
+      },
+      "wikidata": "Q26845633"
+    },
+    {
+      "id": "terry-hunt",
+      "nombre": "Terry L. Hunt",
+      "activo": {
+        "lugar": "Rapa Nui (isla de Pascua)",
+        "lon": -109.35,
+        "lat": -27.12,
+        "desde": 2006,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo estadounidense que con Carl Lipo fechó el poblamiento de Rapa Nui hacia el año 1200 y sostuvo en The Statues That Walked (2011) que la isla no sufrió un colapso por destrucción ambiental antes de 1722 y que las estatuas se trasladaron de pie, balanceándolas con cuerdas.",
+      "obras": [
+        "the-statues-that-walked"
+      ],
+      "wikipedia": {
+        "en": "Terry L. Hunt"
+      },
+      "wikidata": "Q107910013"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "cultura-chinchorro",
+      "titulo": "La cultura chinchorro",
+      "anio": -7000,
+      "anio_hasta": -1500,
+      "aprox": true,
+      "lugar": "Arica",
+      "lon": -70.321,
+      "lat": -18.478,
+      "tipo": "cultural",
+      "resumen": "Pescadores, mariscadores y cazadores de la costa del desierto, entre el sur del Perú y el norte de Chile, que vivieron allí desde hacia 7000 a. C. Desde hacia 5000 a. C. momificaron artificialmente a sus muertos —desarmaban el cuerpo, lo reforzaban con palos y fibras, lo rellenaban y lo cubrían con barro y pintura negra o roja—, unos dos mil años antes que los egipcios, y lo hacían con personas de todas las edades, incluidos fetos y recién nacidos. Max Uhle estudió sus momias desde 1917; Bernardo Arriaza propuso que el arsénico del agua de la región, que causaba muertes de fetos y niños, pudo impulsar la práctica.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "beyond-death-arriaza",
+        "inscripcion-unesco-chinchorro"
+      ],
+      "wikipedia": {
+        "es": "Cultura Chinchorro",
+        "en": "Chinchorro culture"
+      }
+    },
+    {
+      "id": "inscripcion-de-los-sitios-chinchorro",
+      "titulo": "Los sitios chinchorro, Patrimonio de la Humanidad",
+      "anio": 2021,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Arica",
+      "lon": -70.321,
+      "lat": -18.478,
+      "tipo": "cultural",
+      "resumen": "En julio de 2021 la UNESCO inscribió en la lista del Patrimonio Mundial tres sitios de la cultura chinchorro de Arica y de la desembocadura del río Camarones, con sus asentamientos y cementerios de momias artificiales, las más antiguas conocidas.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "inscripcion-unesco-chinchorro"
+      ],
+      "wikipedia": {
+        "en": "Chinchorro mummies"
+      }
+    },
+    {
+      "id": "cultura-el-molle",
+      "titulo": "El complejo El Molle",
+      "anio": 300,
+      "anio_hasta": 700,
+      "aprox": true,
+      "lugar": "La Serena",
+      "lon": -71.252,
+      "lat": -29.903,
+      "tipo": "cultural",
+      "resumen": "Agricultores y alfareros de los valles transversales del norte chico de Chile, entre los ríos Copiapó y Choapa, que cultivaban maíz, porotos y zapallo con canales de riego, criaban llamas, usaban el tembetá (adorno del labio inferior) y hacían cerámica pulida y pipas de piedra. Se lo fecha hacia los años 300 a 700, aunque algunos autores lo remontan a comienzos de la era; lo siguieron el complejo Las Ánimas y la cultura diaguita.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Complejo El Molle",
+        "en": "El Molle culture"
+      }
+    },
+    {
+      "id": "cultura-diaguita-chilena",
+      "titulo": "La cultura diaguita chilena",
+      "anio": 1000,
+      "anio_hasta": 1550,
+      "aprox": true,
+      "lugar": "La Serena",
+      "lon": -71.252,
+      "lat": -29.903,
+      "tipo": "cultural",
+      "resumen": "Pueblos agricultores de los valles del norte chico de Chile, del Copiapó al Choapa, conocidos por su cerámica pintada en blanco, negro y rojo con diseños geométricos. Hacia 1470 quedaron bajo dominio inca, que dejó su huella en su cerámica, y en 1549 se alzaron contra los españoles y destruyeron La Serena; las campañas de castigo, la encomienda y las epidemias los diezmaron. El nombre de diaguitas se lo dieron los españoles por semejanza con los pueblos del otro lado de los Andes, y desde 2006 la ley chilena reconoce a sus descendientes como pueblo indígena.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Pueblo diaguita",
+        "en": "Diaguita"
+      }
+    },
+    {
+      "id": "cultura-aconcagua",
+      "titulo": "La cultura Aconcagua",
+      "anio": 900,
+      "anio_hasta": 1536,
+      "aprox": true,
+      "lugar": "Quillota",
+      "lon": -71.247,
+      "lat": -32.88,
+      "tipo": "cultural",
+      "resumen": "Agricultores y alfareros de Chile central, entre los ríos Aconcagua y Cachapoal y la costa, desde hacia el año 900 hasta la conquista española, conocidos por su cerámica anaranjada con diseños en negro y por sus cementerios de túmulos. Se los considera antecesores de los pueblos de lengua mapuche que los incas y los españoles llamaron promaucaes y picunches.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura Aconcagua"
+      }
+    },
+    {
+      "id": "complejo-el-vergel",
+      "titulo": "El complejo El Vergel",
+      "anio": 1000,
+      "anio_hasta": 1550,
+      "aprox": true,
+      "lugar": "Angol",
+      "lon": -72.709,
+      "lat": -37.799,
+      "tipo": "cultural",
+      "resumen": "Cultura arqueológica de la Araucanía, con sitio tipo cerca de Angol, de agricultores que cultivaban maíz, porotos y papas, criaban llamas y enterraban a algunos de sus muertos en grandes urnas de cerámica; sus fases tardías muestran influencia inca. Se la considera parte de la formación de la sociedad mapuche anterior a la conquista.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "monuments-empires-and-resistance"
+      ],
+      "wikipedia": {
+        "es": "Complejo El Vergel",
+        "en": "El Vergel culture"
+      }
+    },
+    {
+      "id": "pueblo-chango",
+      "titulo": "Los changos",
+      "anio": 1500,
+      "anio_hasta": 1890,
+      "aprox": true,
+      "lugar": "Copiapó",
+      "lon": -70.332,
+      "lat": -27.366,
+      "tipo": "cultural",
+      "resumen": "Pescadores de la costa del desierto, del sur del Perú a Coquimbo, que cazaban lobos marinos y peces desde balsas de cueros de lobo inflados y cambiaban pescado seco por productos de los pueblos del interior. Los cronistas los describen desde el siglo XVI; con el mestizaje y el trabajo en haciendas y minas dejaron de existir como grupo diferenciado hacia fines del siglo XIX.",
+      "regiones": [
+        "chile",
+        "andes"
+      ],
+      "fuentes": [
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Changos",
+        "en": "Chango people"
+      }
+    },
+    {
+      "id": "picunches",
+      "titulo": "Los picunches",
+      "anio": 1450,
+      "anio_hasta": 1650,
+      "aprox": true,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "cultural",
+      "resumen": "Nombre (gente del norte, en mapudungun) que se dio a los pueblos de lengua mapuche del valle central de Chile, al norte del Maule y del Itata, en parte sometidos a los incas. Fueron los primeros encomendados por los españoles y trabajaron en los lavaderos de oro, en las estancias y como cargadores; entre las epidemias, el trabajo forzado y el mestizaje, desaparecieron como pueblo diferenciado en el siglo XVII.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cronica-de-vivar",
+        "cartas-de-pedro-de-valdivia"
+      ],
+      "wikipedia": {
+        "es": "Picunches",
+        "en": "Picunche"
+      }
+    },
+    {
+      "id": "pueblo-huilliche",
+      "titulo": "Los huilliches",
+      "anio": 1500,
+      "anio_hasta": 1912,
+      "aprox": true,
+      "lugar": "Osorno",
+      "lon": -73.15,
+      "lat": -40.567,
+      "tipo": "cultural",
+      "resumen": "Pueblos de lengua mapuche del sur de Chile, de Valdivia a Chiloé (gente del sur, en mapudungun). Participaron en el alzamiento de 1598, que destruyó Valdivia y Osorno; los de Chiloé quedaron encomendados y se alzaron en 1712, y los de tierra firme pactaron con los españoles en el parlamento de Las Canoas (1793), que permitió repoblar Osorno.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Huilliches",
+        "en": "Huilliche people"
+      }
+    },
+    {
+      "id": "pueblo-chono",
+      "titulo": "Los chonos",
+      "anio": 1500,
+      "anio_hasta": 1800,
+      "aprox": true,
+      "lugar": "Archipiélago de los Chonos",
+      "lon": -73.95,
+      "lat": -45.133,
+      "tipo": "cultural",
+      "resumen": "Canoeros nómades de los archipiélagos al sur de Chiloé, que vivían de la pesca, el marisqueo y la caza de lobos marinos. Desde el siglo XVII los españoles de Chiloé los capturaron como esclavos amparándose en la cédula de 1608, aunque nunca habían estado en guerra con ellos, y también les compraban los cautivos que los chonos tomaban entre otros pueblos de más al sur; los jesuitas llevaron a algunos chonos a sus misiones, y en el siglo XVIII dejaron de existir como pueblo diferenciado, mezclados con los huilliches de Chiloé y otros canoeros.",
+      "regiones": [
+        "chile",
+        "patagonia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Chonos",
+        "en": "Chono people"
+      }
+    },
+    {
+      "id": "dominio-inca-en-chile",
+      "titulo": "El dominio inca en Chile",
+      "anio": 1470,
+      "anio_hasta": 1536,
+      "aprox": true,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "politico",
+      "resumen": "Desde hacia 1470 los incas incorporaron el norte y el centro de Chile al Collasuyu, con tramos del camino real, tambos, fortalezas y santuarios como los de Chena y del cerro La Compañía, centros mineros y colonos traídos de otras regiones, y llevaron sacrificios de niños de la capacocha a cumbres como El Plomo. Las crónicas ponen el límite del imperio en el río Maule, pero la arqueología muestra el dominio efectivo hasta el Maipo o el Cachapoal; los pueblos del sur no fueron conquistados. Las fechas dependen de la cronología de las crónicas, que hoy se discute.",
+      "regiones": [
+        "chile",
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "comentarios-reales",
+        "cronica-de-vivar"
+      ]
+    },
+    {
+      "id": "expedicion-de-almagro-a-chile",
+      "titulo": "La expedición de Almagro a Chile",
+      "anio": 1535,
+      "anio_hasta": 1537,
+      "aprox": false,
+      "lugar": "Copiapó",
+      "lon": -70.332,
+      "lat": -27.366,
+      "tipo": "exploracion",
+      "resumen": "Diego de Almagro, que había recibido la gobernación de Nueva Toledo al sur de la de Pizarro, salió del Cusco en 1535 con unos 500 españoles, un centenar de esclavos africanos, el inca Paullu y entre diez y quince mil auxiliares y cargadores indígenas, muchos llevados por la fuerza. Al cruzar la cordillera hacia Copiapó murieron de frío y hambre muchos cargadores, desertaron otros y Almagro hizo quemar a varios indios acusados de haber matado españoles; llegó al valle del Aconcagua y una partida exploró hacia el sur hasta el Itata. Decepcionado por no encontrar riquezas, volvió al Perú por el desierto de Atacama en 1536-1537, y Chile quedó con fama de tierra pobre.",
+      "regiones": [
+        "chile",
+        "andes"
+      ],
+      "fuentes": [
+        "cronica-de-vivar",
+        "historia-de-gongora-marmolejo"
+      ],
+      "wikipedia": {
+        "es": "Expedición de Almagro a Chile",
+        "en": "Diego de Almagro's expedition to Chile"
+      }
+    },
+    {
+      "id": "fundacion-de-santiago-de-chile",
+      "titulo": "Fundación de Santiago de Chile",
+      "anio": 1541,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "fundacion",
+      "resumen": "El 12 de febrero de 1541 Pedro de Valdivia fundó Santiago del Nuevo Extremo en el valle del Mapocho, junto al cerro Huelén (hoy Santa Lucía), con un trazado en damero, un cabildo y el reparto de solares. Había salido del Cusco en enero de 1540 con pocos españoles, a los que se sumaron otros en el camino hasta ser unos 150, y con cerca de mil auxiliares indígenas.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "cronica-de-vivar"
+      ]
+    },
+    {
+      "id": "destruccion-de-santiago",
+      "titulo": "Destrucción de Santiago",
+      "anio": 1541,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "batalla",
+      "resumen": "El 11 de septiembre de 1541, mientras Valdivia estaba fuera, guerreros de los valles del centro dirigidos por Michimalonco atacaron e incendiaron Santiago, que defendían unos cincuenta españoles con sus auxiliares; se perdieron casi todas las provisiones y el ganado. Según Mariño de Lobera, Inés Suárez hizo matar a los siete caciques que los españoles tenían como rehenes, decapitó ella misma al primero y mandó arrojar sus cabezas a los atacantes. Siguieron dos años de hambre, hasta que llegaron refuerzos del Perú.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "cronica-de-marino-de-lobera",
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Destrucción de Santiago",
+        "en": "Destruction of Santiago"
+      }
+    },
+    {
+      "id": "fundacion-de-la-serena",
+      "titulo": "Fundación de La Serena y alzamiento diaguita de 1549",
+      "anio": 1544,
+      "anio_hasta": 1549,
+      "aprox": false,
+      "lugar": "La Serena",
+      "lon": -71.252,
+      "lat": -29.903,
+      "tipo": "fundacion",
+      "resumen": "Juan Bohón fundó La Serena en 1544, por orden de Valdivia, para asegurar el camino al Perú. En 1549 los diaguitas se alzaron, destruyeron la ciudad y mataron a casi todos sus pobladores, entre ellos Bohón; ese mismo año Francisco de Aguirre la volvió a fundar y dirigió campañas de castigo contra los pueblos de los valles del norte.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "La Serena",
+        "en": "La Serena, Chile"
+      }
+    },
+    {
+      "id": "batalla-de-penco",
+      "titulo": "Batalla de Penco y mutilación de prisioneros",
+      "anio": 1550,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Penco",
+      "lon": -72.994,
+      "lat": -36.739,
+      "tipo": "batalla",
+      "resumen": "El 12 de marzo de 1550 los españoles de Valdivia, con auxiliares indígenas del centro de Chile, entre ellos guerreros de Michimalonco, rechazaron en su fuerte de Penco un gran ataque mapuche dirigido por Ainavillo. En su carta a Carlos V del 15 de octubre de 1550, Valdivia calcula entre 1500 y 2000 indios muertos y cuenta que mandó cortar las manos y las narices a «hasta doscientos» prisioneros, porque no habían obedecido sus requerimientos, y los soltó como escarmiento, una práctica que repitieron otros jefes españoles durante la guerra.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "requerimiento",
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Penco",
+        "en": "Battle of Penco"
+      }
+    },
+    {
+      "id": "fundacion-de-concepcion",
+      "titulo": "Fundación de Concepción",
+      "anio": 1550,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Penco",
+      "lon": -72.994,
+      "lat": -36.739,
+      "tipo": "fundacion",
+      "resumen": "Valdivia fundó Concepción el 5 de octubre de 1550 en la bahía de Penco, como base para la conquista del sur. Los mapuches la destruyeron en 1554 y 1555; fue sede de la primera Real Audiencia de Chile y, desde 1603, del ejército de la frontera, y tras el terremoto y maremoto de 1751 se trasladó en 1764-1765 al valle de la Mocha, donde está hoy.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia"
+      ],
+      "wikipedia": {
+        "es": "Concepción (Chile)",
+        "en": "Concepción, Chile"
+      }
+    },
+    {
+      "id": "fundacion-de-las-ciudades-del-sur",
+      "titulo": "Fundación de las ciudades del sur",
+      "anio": 1551,
+      "anio_hasta": 1553,
+      "aprox": false,
+      "lugar": "La Imperial (hoy Carahue)",
+      "lon": -73.167,
+      "lat": -38.7,
+      "tipo": "fundacion",
+      "resumen": "Entre 1551 y 1553 Valdivia y sus capitanes fundaron La Imperial, Valdivia, Villarrica y Los Confines (Angol), y los fuertes de Arauco, Tucapel y Purén, en territorio mapuche, y repartieron a sus habitantes en encomiendas para trabajar en los lavaderos de oro. Esas ciudades, con Osorno (1558) y Santa Cruz de Coya (1595), fundadas después, fueron destruidas o abandonadas en el alzamiento que empezó en 1598.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "cronica-de-vivar"
+      ]
+    },
+    {
+      "id": "batalla-de-tucapel",
+      "titulo": "Batalla de Tucapel y muerte de Valdivia",
+      "anio": 1553,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fuerte de Tucapel (Cañete)",
+      "lon": -73.39,
+      "lat": -37.8,
+      "tipo": "batalla",
+      "resumen": "El 25 de diciembre de 1553 los mapuches dirigidos por Lautaro destruyeron la columna de Pedro de Valdivia junto al fuerte de Tucapel, que habían incendiado días antes, y lo tomaron prisionero. Los cronistas dan versiones distintas de su muerte: Vivar dice que lo mataron con una lanza por orden de Caupolicán; Góngora Marmolejo, que le cortaron carne de los brazos, la asaron y la comieron delante de él; Mariño de Lobera, que lo mató de un golpe de maza un guerrero que no confiaba en sus promesas, y menciona como rumor que le hicieron tragar oro fundido, versión que no tiene otro respaldo.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cronica-de-vivar",
+        "historia-de-gongora-marmolejo",
+        "cronica-de-marino-de-lobera",
+        "la-araucana"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Tucapel",
+        "en": "Battle of Tucapel"
+      }
+    },
+    {
+      "id": "batalla-de-marihuenu",
+      "titulo": "Batalla de Marihueñu",
+      "anio": 1554,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cuesta de Marihueñu",
+      "lon": -73.13,
+      "lat": -37.13,
+      "tipo": "batalla",
+      "resumen": "En febrero de 1554 Lautaro derrotó en la cuesta de Marihueñu a la expedición de castigo de Francisco de Villagra. Los españoles abandonaron Concepción, que los mapuches saquearon e incendiaron, y en 1555 volvieron a destruirla cuando se intentó repoblarla.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historia-de-gongora-marmolejo",
+        "la-araucana"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Marihueñu",
+        "en": "Battle of Marihueñu"
+      }
+    },
+    {
+      "id": "epidemias-en-chile-en-el-siglo-xvi",
+      "titulo": "Epidemias en Chile en el siglo XVI",
+      "anio": 1554,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "tipo": "desastre",
+      "resumen": "Desde 1554 las crónicas registran en el sur de Chile epidemias que los mapuches llamaron chavalongo, una fiebre que no se identifica con certeza, y después viruela y otras enfermedades, agravadas por las hambrunas que causaba la guerra. Junto con la guerra y el trabajo en los lavaderos de oro provocaron una fuerte caída de la población indígena, cuyo tamaño anterior a la conquista se estima de formas muy distintas: José Bengoa calcula entre 705 000 y 900 000 mapuches entre el río Itata y el seno de Reloncaví a mediados del siglo XVI.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historia-de-gongora-marmolejo",
+        "cronica-de-marino-de-lobera"
+      ]
+    },
+    {
+      "id": "batalla-de-mataquito",
+      "titulo": "Batalla de Mataquito y muerte de Lautaro",
+      "anio": 1557,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Mataquito (Licantén)",
+      "lon": -72.0,
+      "lat": -35.0,
+      "tipo": "batalla",
+      "resumen": "En 1557 Lautaro avanzó hacia el norte para atacar Santiago y se fortificó junto al río Mataquito, en tierras de los promaucaes. A fines de abril Francisco de Villagra lo sorprendió al amanecer, y Lautaro murió en el combate con buena parte de sus guerreros.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cronica-de-vivar",
+        "historia-de-gongora-marmolejo"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Mataquito",
+        "en": "Battle of Mataquito"
+      }
+    },
+    {
+      "id": "batalla-de-lagunillas",
+      "titulo": "Batalla de Lagunillas y mutilación de Galvarino",
+      "anio": 1557,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lagunillas (cerca de Concepción)",
+      "lon": -73.0,
+      "lat": -36.9,
+      "tipo": "batalla",
+      "resumen": "En noviembre de 1557 el nuevo gobernador García Hurtado de Mendoza venció a los mapuches en Lagunillas, cerca del Biobío. Según Ercilla, que estuvo en la campaña, y otros cronistas, hizo cortar la mano derecha y la nariz a varios prisioneros, y las dos manos a Galvarino, y los soltó como escarmiento.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "la-araucana",
+        "cronica-de-vivar",
+        "cronica-de-marino-de-lobera"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Lagunillas",
+        "en": "Battle of Lagunillas"
+      }
+    },
+    {
+      "id": "batalla-de-millarapue",
+      "titulo": "Batalla de Millarapue",
+      "anio": 1557,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Millarapue",
+      "lon": -73.27,
+      "lat": -37.42,
+      "tipo": "batalla",
+      "resumen": "El 30 de noviembre de 1557 García Hurtado de Mendoza derrotó en Millarapue al ejército de Caupolicán, en el que combatía Galvarino con sus muñones. Las crónicas hablan de miles de muertos mapuches y de cientos de prisioneros; varios de los jefes capturados, entre ellos Galvarino, fueron ejecutados, según Ercilla en la horca.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "la-araucana",
+        "cronica-de-vivar"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Millarapue",
+        "en": "Battle of Millarapue"
+      }
+    },
+    {
+      "id": "ejecucion-de-caupolican",
+      "titulo": "Ejecución de Caupolicán",
+      "anio": 1558,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cañete",
+      "lon": -73.383,
+      "lat": -37.8,
+      "tipo": "politico",
+      "resumen": "En 1558 el capitán Pedro de Avendaño capturó a Caupolicán, que fue llevado al fuerte de Cañete. Por orden de Alonso de Reinoso, y después de bautizarlo, fue ejecutado por empalamiento y flechazos; Ercilla, que no lo presenció, escribió que si hubiera estado allí la ejecución se habría suspendido.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "la-araucana",
+        "historia-de-gongora-marmolejo"
+      ]
+    },
+    {
+      "id": "encomienda-en-chile",
+      "titulo": "La encomienda en Chile",
+      "anio": 1541,
+      "anio_hasta": 1791,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "economico",
+      "resumen": "Desde los primeros años de la conquista, Valdivia repartió a los pueblos indígenas en encomiendas entre sus hombres, que los hicieron trabajar sin paga en los lavaderos de oro, como los de Marga Marga, en la agricultura y como cargadores, en un régimen de servicio personal; en 1545 escribió al emperador que había amenazado a los caciques con matarlos a todos si no servían bien. La Corona intentó convertirlo en un tributo y limitar el trabajo con las tasas de Santillán (1559), Gamboa (1580) y Esquilache (1620), que se cumplieron poco; con la caída de la población indígena la encomienda perdió peso frente al trabajo de inquilinos y peones, y Ambrosio O'Higgins la suprimió en 1789-1791.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cartas-de-pedro-de-valdivia",
+        "tasa-de-santillan",
+        "tasa-de-gamboa",
+        "tasa-de-esquilache",
+        "coleccion-de-documentos-ineditos-medina"
+      ],
+      "wikipedia": {
+        "es": "Encomienda",
+        "en": "Encomienda"
+      }
+    },
+    {
+      "id": "fundacion-del-hospital-san-juan-de-dios",
+      "titulo": "Fundación del hospital de Santiago",
+      "anio": 1552,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "fundacion",
+      "resumen": "Hacia 1552, al final del gobierno de Pedro de Valdivia, empezó a funcionar en Santiago el hospital de Nuestra Señora del Socorro (la fecha exacta no se conoce). Desde 1617 lo administraron los hermanos de San Juan de Dios, de quienes tomó el nombre con el que existe hasta hoy; es la institución hospitalaria más antigua de Chile.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Hospital San Juan de Dios (Santiago de Chile)",
+        "en": "San Juan de Dios Hospital (Santiago)"
+      }
+    },
+    {
+      "id": "real-audiencia-de-chile",
+      "titulo": "La Real Audiencia de Chile",
+      "anio": 1565,
+      "anio_hasta": 1817,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "judicial",
+      "resumen": "Tribunal superior y órgano de gobierno del reino. Se creó en 1565 con sede en Concepción, se suprimió en 1575 y se restableció en Santiago, donde se instaló en 1609 y funcionó hasta 1817; entre sus tareas estaba recibir los pleitos de los indios contra encomenderos y autoridades.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Real Audiencia de Santiago de Chile",
+        "en": "Real Audiencia of Santiago"
+      }
+    },
+    {
+      "id": "ocupacion-de-chiloe",
+      "titulo": "La ocupación española de Chiloé",
+      "anio": 1567,
+      "anio_hasta": 1826,
+      "aprox": false,
+      "lugar": "Castro",
+      "lon": -73.764,
+      "lat": -42.482,
+      "tipo": "fundacion",
+      "resumen": "En 1567 Martín Ruiz de Gamboa ocupó el archipiélago de Chiloé, fundó Castro y repartió a los huilliches en encomiendas, que allí fueron las más grandes de Chile. Aislado por tierra después de 1598, el archipiélago vivió de la madera de alerce y de la pesca, fue base de expediciones a los canales del sur y siguió bajo control español hasta 1826, después de la independencia de Chile.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Archipiélago de Chiloé",
+        "en": "Chiloé Archipelago"
+      }
+    },
+    {
+      "id": "guerra-de-arauco",
+      "titulo": "La guerra de Arauco",
+      "anio": 1550,
+      "anio_hasta": 1818,
+      "aprox": true,
+      "lugar": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "tipo": "batalla",
+      "resumen": "Conflicto entre los españoles y los mapuches del sur de Chile que empezó con las campañas de Valdivia y la victoria de Lautaro en Tucapel (1553). Tuvo una etapa de conquista y alzamientos hasta la destrucción de las siete ciudades (1598-1604); después, una frontera en el Biobío con ejército permanente, malocas y esclavitud legal, la guerra defensiva (1612-1626), parlamentos desde 1641 y grandes alzamientos en 1655, 1723 y 1766, alternados con largos períodos de comercio y convivencia. Los dos bandos mataron y mutilaron prisioneros, tomaron cautivos y quemaron cosechas; los historiadores discuten si fue una guerra casi continua, como sostiene Álvaro Jara, o si después de 1656 predominó la convivencia fronteriza, como sostiene Sergio Villalobos.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "la-araucana",
+        "historia-de-gongora-marmolejo",
+        "cautiverio-feliz",
+        "historia-general-del-reyno-de-chile-rosales",
+        "guerra-y-sociedad-en-chile",
+        "relaciones-fronterizas-en-la-araucania",
+        "guerre-et-ethnogenese-mapuche"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Arauco",
+        "en": "Arauco War"
+      }
+    },
+    {
+      "id": "destruccion-de-las-siete-ciudades",
+      "titulo": "La destrucción de las siete ciudades",
+      "anio": 1598,
+      "anio_hasta": 1604,
+      "aprox": false,
+      "lugar": "Curalaba",
+      "lon": -72.883,
+      "lat": -37.917,
+      "tipo": "batalla",
+      "resumen": "Después de la muerte del gobernador Martín García Óñez de Loyola en Curalaba (diciembre de 1598), un alzamiento general de mapuches y huilliches destruyó o forzó el abandono de las siete ciudades españolas al sur del Biobío: Santa Cruz de Coya, Valdivia, Los Infantes (Angol), La Imperial, Villarrica, Osorno y, en 1604, Arauco. Según González de Nájera murieron más de tres mil españoles y más de quinientas mujeres fueron llevadas cautivas; muchas tuvieron hijos con sus captores y algunas se quedaron entre los mapuches. El Biobío quedó como frontera, y la Corona respondió con un ejército permanente y la esclavitud legal de los capturados.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "desengano-y-reparo-de-la-guerra",
+        "historia-general-del-reyno-de-chile-rosales",
+        "tratado-de-melchor-calderon"
+      ],
+      "wikipedia": {
+        "es": "Destrucción de las siete ciudades",
+        "en": "Destruction of the Seven Cities"
+      }
+    },
+    {
+      "id": "ejercito-de-arauco",
+      "titulo": "El ejército permanente de Arauco y el real situado",
+      "anio": 1603,
+      "anio_hasta": 1818,
+      "aprox": true,
+      "lugar": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "tipo": "politico",
+      "resumen": "En 1603 la Corona creó en Chile un ejército profesional y permanente, organizado por el gobernador Alonso de Ribera y pagado con el real situado, una remesa anual de plata de las cajas del Perú, en buena parte de Potosí. Guarneció una línea de fuertes en el Biobío, como Arauco, Nacimiento, Yumbel y Santa Juana, hizo de Concepción la capital militar del reino y salía a campaña con «indios amigos», mapuches aliados que eran buena parte de sus fuerzas; según Álvaro Jara, soldados y oficiales completaban sus pagas, a menudo atrasadas, con la captura y la venta de esclavos.",
+      "regiones": [
+        "chile",
+        "andes"
+      ],
+      "fuentes": [
+        "guerra-y-sociedad-en-chile"
+      ],
+      "wikipedia": {
+        "es": "Real Situado",
+        "en": "Real Situado"
+      }
+    },
+    {
+      "id": "esclavitud-de-los-mapuches",
+      "titulo": "La esclavitud legal de los mapuches",
+      "anio": 1608,
+      "anio_hasta": 1683,
+      "aprox": false,
+      "lugar": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "tipo": "economico",
+      "resumen": "Los españoles ya vendían mapuches capturados cuando la real cédula de 1608 legalizó la esclavitud de los tomados en guerra, considerados rebeldes y apóstatas. Las malocas para capturarlos se multiplicaron y los esclavos se vendían en Santiago, La Serena y Lima; en Chiloé se usó la cédula para esclavizar a huilliches encomendados y a chonos que nunca habían estado en guerra. La reina regente Mariana de Austria ordenó en 1667 liberar a los indios de Chile esclavizados en el Perú, Carlos II declaró libres a todos los indios esclavos de América en 1679 y, tras la resistencia del gobernador Juan Henríquez, la abolición se aplicó en Chile en 1683; Mario Góngora sostuvo que pesó también que el trabajo libre de los mestizos ya era más barato.",
+      "regiones": [
+        "chile",
+        "andes"
+      ],
+      "fuentes": [
+        "real-cedula-de-esclavitud-de-1608",
+        "tratado-de-melchor-calderon",
+        "manifiesto-apologetico-de-rosales",
+        "real-cedula-de-abolicion-de-la-esclavitud-indigena-1679",
+        "guerra-y-sociedad-en-chile",
+        "the-other-slavery"
+      ],
+      "wikipedia": {
+        "es": "Esclavitud de los mapuches",
+        "en": "Mapuche slavery"
+      }
+    },
+    {
+      "id": "malocas-y-cautivos",
+      "titulo": "Malocas, malones y cautivos en la frontera mapuche",
+      "anio": 1550,
+      "anio_hasta": 1800,
+      "aprox": true,
+      "lugar": "Yumbel",
+      "lon": -72.533,
+      "lat": -37.133,
+      "tipo": "batalla",
+      "resumen": "Los dos bandos de la frontera hacían incursiones para llevarse ganado, botín y personas: las malocas españolas, a menudo organizadas por oficiales y soldados para capturar esclavos, y los malones mapuches, que se llevaban caballos, ganado y cautivos, sobre todo mujeres y niños. Las cautivas españolas tuvieron hijos que se criaron como mapuches, y algunas prefirieron quedarse cuando hubo canjes; los mapuches capturados se vendían como esclavos o se repartían como «piezas» de servicio. Casi todos los parlamentos incluyeron el canje y la devolución de cautivos.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "desengano-y-reparo-de-la-guerra",
+        "cautiverio-feliz",
+        "historia-general-del-reyno-de-chile-rosales",
+        "guerre-et-ethnogenese-mapuche"
+      ]
+    },
+    {
+      "id": "muerte-ritual-de-prisioneros-en-la-guerra-de-arauco",
+      "titulo": "La muerte ritual de prisioneros en la guerra de Arauco",
+      "anio": 1553,
+      "anio_hasta": 1700,
+      "aprox": true,
+      "lugar": "Purén",
+      "lon": -73.083,
+      "lat": -38.017,
+      "tipo": "religioso",
+      "resumen": "Varias crónicas describen que los mapuches mataban a algunos prisioneros de guerra en ceremonias en las que los jefes comían el corazón del muerto, y Góngora Marmolejo afirma que a Valdivia le comieron carne de los brazos antes de matarlo; los relatos vienen de autores interesados en mostrar la ferocidad del enemigo, pero coinciden entre sí. Robert Charles Padden sostuvo que ese canibalismo ritual se institucionalizó con la invasión española, como arma psicológica; Marcelo González Gálvez objeta que los relatos sobre la muerte ritual de españoles y de otros indígenas no difieren, por lo que no sería una simple represalia, y Guillaume Boccara lo interpreta como una forma de incorporar la fuerza del enemigo. Del lado español, las mutilaciones, el empalamiento y la horca de prisioneros están documentados por los propios conquistadores.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historia-de-gongora-marmolejo",
+        "cronica-de-marino-de-lobera",
+        "guerre-et-ethnogenese-mapuche"
+      ]
+    },
+    {
+      "id": "frontera-del-biobio",
+      "titulo": "La frontera del Biobío",
+      "anio": 1598,
+      "anio_hasta": 1883,
+      "aprox": false,
+      "lugar": "Nacimiento",
+      "lon": -72.667,
+      "lat": -37.5,
+      "tipo": "cultural",
+      "resumen": "Después del alzamiento de 1598 el río Biobío separó el Chile español del territorio mapuche independiente, con una línea de fuertes en la orilla norte y misiones al sur. Por ella circulaban ganado, ponchos, sal, armas, vino y cautivos; había capitanes de amigos, intérpretes, comerciantes, desertores y renegados que vivían entre los mapuches, y un mestizaje intenso en las dos direcciones. Sergio Villalobos la describe como un espacio de convivencia y comercio; Álvaro Jara, José Bengoa y Guillaume Boccara insisten en la violencia, la esclavitud y la autonomía mapuche, que duró hasta la ocupación de la Araucanía por Chile (1861-1883).",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "relaciones-fronterizas-en-la-araucania",
+        "guerra-y-sociedad-en-chile",
+        "historia-general-del-reyno-de-chile-rosales",
+        "guerre-et-ethnogenese-mapuche"
+      ]
+    },
+    {
+      "id": "guerra-defensiva",
+      "titulo": "La guerra defensiva",
+      "anio": 1612,
+      "anio_hasta": 1626,
+      "aprox": false,
+      "lugar": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "tipo": "politico",
+      "resumen": "Política propuesta por el jesuita Luis de Valdivia, aprobada por Felipe III en 1610 y aplicada desde 1612: se suspendían las campañas al sur del Biobío y la esclavitud de los capturados, se fijaba la frontera y la conversión de los mapuches quedaba en manos de misioneros que entraban en paz. Empezó mal, con la muerte de tres jesuitas en Elicura (1612), y siguieron los malones mapuches y las malocas españolas; militares y encomenderos, como Santiago de Tesillo, la acusaron de haber fortalecido a los mapuches, y la Corona le puso fin por una cédula de abril de 1625, aplicada en 1626, para volver a la guerra ofensiva y a la esclavitud.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "arte-de-la-lengua-de-chile-valdivia",
+        "guerra-de-chile-tesillo",
+        "historia-general-del-reyno-de-chile-rosales"
+      ],
+      "wikipedia": {
+        "es": "Guerra defensiva",
+        "en": "Defensive War"
+      }
+    },
+    {
+      "id": "martires-de-elicura",
+      "titulo": "Los mártires de Elicura",
+      "anio": 1612,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Valle de Elicura (Contulmo)",
+      "lon": -73.233,
+      "lat": -38.0,
+      "tipo": "religioso",
+      "resumen": "El 14 de diciembre de 1612 el lonco Anganamón y sus guerreros mataron en el valle de Elicura a los jesuitas Martín de Aranda, Horacio Vecchi y Diego de Montalbán, enviados por Luis de Valdivia a predicar la paz, y a los indios que los acompañaban. Anganamón actuó porque los españoles habían dado refugio a mujeres e hijas suyas que habían huido; la Iglesia los considera mártires, y los enemigos de la guerra defensiva usaron el hecho contra ella.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Mártires de Elicura"
+      }
+    },
+    {
+      "id": "batalla-de-las-cangrejeras",
+      "titulo": "Batalla de Las Cangrejeras",
+      "anio": 1629,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Las Cangrejeras (Yumbel)",
+      "lon": -72.6,
+      "lat": -37.13,
+      "tipo": "batalla",
+      "resumen": "El 15 de mayo de 1629 el toqui Lientur derrotó cerca de Yumbel a una columna española; entre los prisioneros quedó el joven capitán Francisco Núñez de Pineda y Bascuñán, que contó su cautiverio en Cautiverio feliz.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "cautiverio-feliz"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Las Cangrejeras"
+      }
+    },
+    {
+      "id": "parlamentos-hispano-mapuches",
+      "titulo": "Los parlamentos hispano-mapuches",
+      "anio": 1612,
+      "anio_hasta": 1803,
+      "aprox": false,
+      "lugar": "Negrete",
+      "lon": -72.53,
+      "lat": -37.59,
+      "tipo": "tratado",
+      "resumen": "Después de un primer parlamento en Paicaví (1612), durante la guerra defensiva, y desde el de Quilín (1641) hasta el de Negrete de 1803, gobernadores y loncos mapuches celebraron una larga serie de parlamentos: reuniones de varios días, con discursos, intérpretes, regalos, comida y bebida, en las que se acordaban la paz, la frontera, el comercio, la entrada de misioneros y el canje de cautivos, y en las que los mapuches reconocían al rey. Los historiadores discuten su naturaleza: para algunos, como José Bengoa, fueron tratados entre dos pueblos que reconocían la autonomía mapuche; para otros, como Sergio Villalobos, acuerdos dentro de la monarquía con indios considerados vasallos.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "actas-del-parlamento-de-negrete-1726",
+        "actas-del-parlamento-de-negrete-1793",
+        "actas-del-parlamento-de-negrete-1803",
+        "historia-general-del-reyno-de-chile-rosales",
+        "relaciones-fronterizas-en-la-araucania"
+      ]
+    },
+    {
+      "id": "expedicion-holandesa-a-valdivia",
+      "titulo": "La expedición neerlandesa a Valdivia",
+      "anio": 1643,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Valdivia",
+      "lon": -73.246,
+      "lat": -39.814,
+      "tipo": "batalla",
+      "resumen": "En 1643 una flota de la Compañía Neerlandesa de las Indias Occidentales, al mando de Hendrik Brouwer, que murió en el viaje, saqueó Carelmapu y Castro en Chiloé con apoyo de indígenas locales y ocupó las ruinas de Valdivia, con la idea de aliarse con los mapuches y explotar el oro. La colonia se abandonó en octubre de ese año, pero alarmó al virrey del Perú, que en 1645 repobló Valdivia y empezó a fortificar su bahía. Antes, Francis Drake había saqueado Valparaíso (1578) y Baltazar de Cordes, con ayuda de huilliches, había tomado Castro (1600).",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales"
+      ],
+      "wikipedia": {
+        "es": "Expedición neerlandesa a Valdivia",
+        "en": "Dutch expedition to Valdivia"
+      }
+    },
+    {
+      "id": "alzamiento-mapuche-de-1655",
+      "titulo": "El alzamiento mapuche de 1655",
+      "anio": 1655,
+      "anio_hasta": 1662,
+      "aprox": true,
+      "lugar": "Nacimiento",
+      "lon": -72.667,
+      "lat": -37.5,
+      "tipo": "batalla",
+      "resumen": "En febrero de 1655 mapuches, huilliches y otros pueblos de la frontera atacaron a la vez fuertes, estancias y misiones entre el Biobío y el Maule, mataron o capturaron a muchos españoles y se llevaron miles de cabezas de ganado. El alzamiento siguió a años de malocas para capturar esclavos organizadas por el maestre de campo Juan de Salazar, cuñado del gobernador Antonio de Acuña y Cabrera, y a una derrota española en el río Bueno (1654); los esclavos mapuches se alzaron contra sus amos y los españoles informaron de más de 400 estancias destruidas entre el Biobío y el Maule. En Concepción los vecinos destituyeron al gobernador, y los combates siguieron hasta comienzos de la década de 1660, con jefes como el mestizo Alejo, un desertor del ejército español.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales",
+        "guerra-y-sociedad-en-chile"
+      ],
+      "wikipedia": {
+        "en": "Mapuche uprising of 1655"
+      }
+    },
+    {
+      "id": "rebelion-huilliche-de-1712",
+      "titulo": "La rebelión huilliche de 1712 en Chiloé",
+      "anio": 1712,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Castro",
+      "lon": -73.764,
+      "lat": -42.482,
+      "tipo": "batalla",
+      "resumen": "En febrero de 1712 los huilliches encomendados de Chiloé se alzaron contra los encomenderos, que los obligaban a trabajar sin paga, no respetaban los días libres que fijaban las leyes y los castigaban con torturas, según testimonios reunidos en 1725 contra el encomendero José de Andrade. Mataron a varios españoles y fueron reprimidos; su objetivo, según esos testimonios, no era terminar con el dominio español sino vengar los abusos.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Rebelión huilliche de 1712",
+        "en": "Huilliche uprising of 1712"
+      }
+    },
+    {
+      "id": "alzamiento-mapuche-de-1723",
+      "titulo": "El alzamiento mapuche de 1723",
+      "anio": 1723,
+      "anio_hasta": 1726,
+      "aprox": false,
+      "lugar": "Purén",
+      "lon": -73.083,
+      "lat": -38.017,
+      "tipo": "batalla",
+      "resumen": "Alzamiento dirigido por el toqui Vilumilla contra los abusos de los capitanes de amigos, los agentes españoles que vivían entre los mapuches, y de los comerciantes de la frontera. Empezó con la muerte del capitán de amigos Pascual Delgado; los españoles se refugiaron en los fuertes y abandonaron algunos, y la paz se firmó en el parlamento de Negrete en febrero de 1726.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "actas-del-parlamento-de-negrete-1726"
+      ],
+      "wikipedia": {
+        "es": "Rebelión mapuche de 1723",
+        "en": "Mapuche uprising of 1723"
+      }
+    },
+    {
+      "id": "misiones-jesuitas-de-chiloe",
+      "titulo": "Las misiones jesuitas de Chiloé",
+      "anio": 1608,
+      "anio_hasta": 1767,
+      "aprox": false,
+      "lugar": "Castro",
+      "lon": -73.764,
+      "lat": -42.482,
+      "tipo": "religioso",
+      "resumen": "Desde 1608 los jesuitas misionaron en el archipiélago de Chiloé con el sistema de la «misión circulante»: dos padres recorrían cada año en bote las capillas de las islas, y el resto del año mantenían el culto los fiscales, indígenas laicos de cada comunidad. De ese sistema, que continuaron los franciscanos después de 1767, provienen las iglesias de madera de Chiloé.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "historica-relacion-del-reyno-de-chile"
+      ]
+    },
+    {
+      "id": "fundacion-de-la-universidad-de-san-felipe",
+      "titulo": "Fundación de la Real Universidad de San Felipe",
+      "anio": 1738,
+      "anio_hasta": 1758,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "fundacion",
+      "resumen": "Felipe V ordenó crear la universidad por una cédula del 28 de julio de 1738, a pedido del cabildo de Santiago; se instaló formalmente en 1747 y empezó a dar clases en 1758, con cátedras de teología, cánones, leyes, medicina, matemáticas y filosofía, entre otras. No fue la primera de Chile: desde 1622 los dominicos daban grados en su convento por privilegio pontificio. En 1839 se la reemplazó por la Universidad de Chile.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "real-cedula-de-fundacion-de-la-universidad-de-san-felipe"
+      ],
+      "wikipedia": {
+        "es": "Real Universidad de San Felipe",
+        "en": "Royal University of San Felipe"
+      }
+    },
+    {
+      "id": "fundacion-de-villas",
+      "titulo": "La fundación de villas en el siglo XVIII",
+      "anio": 1739,
+      "anio_hasta": 1796,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "fundacion",
+      "resumen": "Para reunir a la población rural dispersa, los gobernadores de Chile fundaron una serie de villas: José Antonio Manso de Velasco creó entre 1739 y 1744 Los Ángeles, San Felipe, Talca, Cauquenes, Melipilla, Rancagua, Curicó y Copiapó, entre otras; sus sucesores siguieron esa política, y Ambrosio O'Higgins fundó otras y repobló Osorno en 1796.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "alzamiento-mapuche-de-1766",
+      "titulo": "El alzamiento mapuche de 1766",
+      "anio": 1766,
+      "anio_hasta": 1769,
+      "aprox": false,
+      "lugar": "Angol",
+      "lon": -72.709,
+      "lat": -37.799,
+      "tipo": "batalla",
+      "resumen": "El gobernador Antonio de Guill y Gonzaga, influido por jesuitas, intentó que los mapuches vivieran en pueblos fundados en su territorio; en un parlamento de 1764 los loncos no se opusieron abiertamente. El 25 de diciembre de 1766 se alzaron por sorpresa, sitiaron Angol, que se abandonó, y destruyeron las obras; los pehuenches, quizás instigados por los españoles, atacaron a los alzados, y en 1767 se firmó la paz. Fue el último gran conflicto colonial entre españoles y mapuches.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Mapuche uprising of 1766"
+      }
+    },
+    {
+      "id": "expulsion-de-los-jesuitas-de-chile",
+      "titulo": "La expulsión de los jesuitas de Chile",
+      "anio": 1767,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "religioso",
+      "resumen": "En agosto de 1767 el gobernador Guill y Gonzaga cumplió la orden de Carlos III de expulsar a los jesuitas, que fueron enviados a Italia; sus colegios, haciendas y misiones de la frontera y de Chiloé pasaron a otras órdenes o a la Corona. En el exilio, jesuitas chilenos como Juan Ignacio Molina, Felipe Gómez de Vidaurre y Manuel Lacunza escribieron obras sobre la historia y la naturaleza de Chile o de teología.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "pragmatica-de-expulsion-1767",
+        "saggio-sulla-storia-civile-del-chili"
+      ]
+    },
+    {
+      "id": "abolicion-de-las-encomiendas-en-chile",
+      "titulo": "Supresión de las encomiendas en Chile",
+      "anio": 1789,
+      "anio_hasta": 1791,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "economico",
+      "resumen": "En 1789, después de recorrer el norte del reino y comprobar el estado de los indios encomendados, el gobernador Ambrosio O'Higgins decretó la supresión de las encomiendas en Chile, y la Corona la confirmó en 1791. Para entonces quedaban pocas, y la mano de obra rural la formaban sobre todo inquilinos y peones mestizos.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "parlamento-de-negrete-1793",
+      "titulo": "Parlamento de Negrete de 1793",
+      "anio": 1793,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Negrete",
+      "lon": -72.53,
+      "lat": -37.59,
+      "tipo": "tratado",
+      "resumen": "Del 4 al 6 de marzo de 1793 el gobernador Ambrosio O'Higgins se reunió en Negrete con 161 caciques mapuches, acompañados por más de dos mil guerreros, y renovó los acuerdos de paz y de frontera. Ese mismo año, en el parlamento de Las Canoas, los huilliches aceptaron que se repoblara Osorno.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "actas-del-parlamento-de-negrete-1793"
+      ],
+      "wikipedia": {
+        "es": "Parlamento de Negrete (1793)",
+        "en": "Parliament of Negrete (1793)"
+      }
+    },
+    {
+      "id": "colegio-de-naturales-de-chillan",
+      "titulo": "El Colegio de Naturales de Chillán",
+      "anio": 1700,
+      "anio_hasta": 1817,
+      "aprox": false,
+      "lugar": "Chillán",
+      "lon": -72.103,
+      "lat": -36.607,
+      "tipo": "cultural",
+      "resumen": "Colegio fundado en Chillán en 1700 y dirigido por los jesuitas para educar a los hijos de los caciques mapuches en la fe y las costumbres españolas y ganar su lealtad. Cerró con el alzamiento de 1723, volvió a abrir en Santiago en 1775 y en 1786 regresó a Chillán a cargo de los franciscanos, con el apoyo de Ambrosio O'Higgins, cuyo hijo Bernardo estudió allí desde 1788. En 1817 los franciscanos y los hijos de caciques, partidarios del rey, lo abandonaron después de Chacabuco.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "academia-de-san-luis",
+      "titulo": "La Academia de San Luis",
+      "anio": 1797,
+      "anio_hasta": 1813,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "cultural",
+      "resumen": "Escuela fundada en Santiago en 1797 por iniciativa de Manuel de Salas, con el apoyo del Consulado, para enseñar aritmética, geometría, dibujo y otras materias útiles para la minería, la agricultura y los oficios. Fue uno de los proyectos educativos de la Ilustración en Chile, y en 1813 se integró al Instituto Nacional.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "esclavitud-africana-en-chile",
+      "titulo": "La esclavitud africana en Chile",
+      "anio": 1540,
+      "anio_hasta": 1823,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "economico",
+      "resumen": "Entre los conquistadores de Valdivia hubo africanos libres y esclavos, como Juan Valiente, y durante la colonia llegaron esclavos africanos y afrodescendientes comprados en Lima o traídos por Buenos Aires y Mendoza. Trabajaban sobre todo como sirvientes domésticos, artesanos y peones en Santiago y en las haciendas; su número fue menor que en el Perú o el Río de la Plata y muchos se mezclaron con la población mestiza. La ley de libertad de vientres de 1811 declaró libres a los hijos de esclavas nacidos en Chile, y la esclavitud se abolió en 1823.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Afrochileno",
+        "en": "Afro-Chileans"
+      }
+    },
+    {
+      "id": "junta-de-gobierno-de-1810",
+      "titulo": "La Primera Junta Nacional de Gobierno de Chile",
+      "anio": 1810,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "politico",
+      "resumen": "El 18 de septiembre de 1810, ante la caída de la monarquía en España, un cabildo abierto en Santiago recibió la renuncia del gobernador interino Mateo de Toro Zambrano y eligió una junta presidida por él, que gobernaría en nombre de Fernando VII. La junta abrió los puertos al comercio, convocó el primer Congreso Nacional (1811) y dio comienzo al proceso que llevó a la independencia, declarada en 1818.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "acta-de-instalacion-de-la-junta-de-1810"
+      ],
+      "wikipedia": {
+        "es": "Primera Junta de Gobierno de Chile",
+        "en": "Government Junta of Chile (1810)"
+      }
+    },
+    {
+      "id": "poblamiento-de-rapa-nui",
+      "titulo": "El poblamiento de Rapa Nui",
+      "anio": 1150,
+      "anio_hasta": 1250,
+      "aprox": true,
+      "lugar": "Anakena",
+      "lon": -109.323,
+      "lat": -27.074,
+      "tipo": "exploracion",
+      "resumen": "Navegantes polinesios, probablemente de las Marquesas o de Mangareva, llegaron a Rapa Nui, una de las islas habitadas más aisladas del mundo, con plátanos, taro, caña de azúcar, gallinas y ratas polinesias; la batata, de origen americano, también se cultivaba allí antes de los europeos. Las fechas de radiocarbono más confiables, de Anakena y otros sitios, ubican la llegada hacia 1150-1250, más tarde de lo que se creía. La tesis de Thor Heyerdahl de un primer poblamiento desde Sudamérica fue descartada por la arqueología, la lingüística y la genética, aunque los rapanui tienen una pequeña ascendencia americana por un contacto antiguo.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "the-statues-that-walked",
+        "aku-aku",
+        "ioannidis-2020"
+      ],
+      "wikipedia": {
+        "es": "Isla de Pascua",
+        "en": "Easter Island"
+      }
+    },
+    {
+      "id": "moais",
+      "titulo": "Los moáis de Rapa Nui",
+      "anio": 1250,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Rano Raraku",
+      "lon": -109.289,
+      "lat": -27.122,
+      "tipo": "cultural",
+      "resumen": "Los rapanui tallaron casi novecientas estatuas monolíticas, la mayoría en la toba volcánica de la cantera de Rano Raraku, y muchas las levantaron sobre plataformas ceremoniales (ahu) junto a la costa, mirando hacia el interior. Representaban a antepasados divinizados de los linajes y se hicieron sobre todo entre los siglos XIII y XVI. Los europeos las vieron en pie en 1722 y 1770, pero hacia mediados del siglo XIX todas las de los ahu habían sido derribadas; cómo se trasladaron y por qué se derribaron sigue en discusión.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "the-statues-that-walked",
+        "diario-de-roggeveen"
+      ],
+      "wikipedia": {
+        "es": "Moái",
+        "en": "Moai"
+      }
+    },
+    {
+      "id": "culto-del-tangata-manu",
+      "titulo": "El culto del hombre pájaro (tangata manu)",
+      "anio": 1500,
+      "anio_hasta": 1866,
+      "aprox": true,
+      "lugar": "Orongo",
+      "lon": -109.442,
+      "lat": -27.189,
+      "tipo": "religioso",
+      "resumen": "Rito anual centrado en la aldea ceremonial de Orongo, en el volcán Rano Kau: representantes de los jefes competían por traer el primer huevo del manutara, un ave marina, desde el islote Motu Nui, y el jefe del ganador se convertía en tangata manu, el hombre pájaro sagrado del año. Se practicó hasta la década de 1860, y su origen y su relación con el fin de los moáis se discuten.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Tangata manu",
+        "en": "Tangata manu"
+      }
+    },
+    {
+      "id": "rongorongo",
+      "titulo": "El rongorongo",
+      "anio": 1700,
+      "anio_hasta": 1870,
+      "aprox": true,
+      "lugar": "Hanga Roa",
+      "lon": -109.432,
+      "lat": -27.149,
+      "tipo": "cultural",
+      "resumen": "Sistema de glifos tallados en tablillas de madera de Rapa Nui, del que los europeos supieron en 1864, cuando en la isla ya nadie podía leerlo; se conservan unas dos docenas de objetos inscritos, ninguno en la isla. No se ha descifrado, y se discute si es una escritura o un sistema mnemotécnico y si surgió después de ver la escritura de los españoles de 1770; un fechado de radiocarbono de 2024 dio para la madera de una tablilla mediados del siglo XV, aunque la inscripción puede ser posterior.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "documentos-de-la-expedicion-de-gonzalez-de-ahedo"
+      ],
+      "wikipedia": {
+        "es": "Rongo rongo",
+        "en": "Rongorongo"
+      }
+    },
+    {
+      "id": "llegada-de-roggeveen-a-rapa-nui",
+      "titulo": "Llegada de Roggeveen a Rapa Nui",
+      "anio": 1722,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rapa Nui (isla de Pascua)",
+      "lon": -109.35,
+      "lat": -27.12,
+      "tipo": "exploracion",
+      "resumen": "El 5 de abril de 1722, domingo de Pascua, la expedición neerlandesa de Jacob Roggeveen llegó a la isla, que llamó isla de Pascua. Encontró la isla cultivada y las estatuas en pie (los cálculos modernos dan entre dos y tres mil habitantes en ese momento); en el desembarco sus marineros dispararon y mataron a unos diez isleños. Fue el primer contacto europeo registrado.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "diario-de-roggeveen"
+      ],
+      "wikipedia": {
+        "es": "Jakob Roggeveen",
+        "en": "Jacob Roggeveen"
+      }
+    },
+    {
+      "id": "expedicion-de-gonzalez-de-ahedo",
+      "titulo": "Expedición española a Rapa Nui",
+      "anio": 1770,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rapa Nui (isla de Pascua)",
+      "lon": -109.35,
+      "lat": -27.12,
+      "tipo": "exploracion",
+      "resumen": "Enviada desde el Callao por el virrey del Perú Manuel de Amat, la expedición de Felipe González de Ahedo pasó cinco días en la isla en noviembre de 1770: levantó su primer plano, la llamó isla de San Carlos, puso tres cruces en los cerros de Poike y firmó un acta de posesión para Carlos III con signos trazados por jefes isleños. España no volvió a ocuparse de la isla.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "documentos-de-la-expedicion-de-gonzalez-de-ahedo"
+      ],
+      "wikipedia": {
+        "es": "Felipe González Ahedo",
+        "en": "Felipe González de Ahedo"
+      }
+    },
+    {
+      "id": "debate-sobre-el-ecocidio-de-rapa-nui",
+      "titulo": "El debate sobre el «ecocidio» de Rapa Nui",
+      "anio": 1992,
+      "anio_hasta": 2024,
+      "aprox": false,
+      "lugar": "Rano Raraku",
+      "lon": -109.289,
+      "lat": -27.122,
+      "tipo": "cientifico",
+      "resumen": "Los pólenes y los restos vegetales muestran que la isla, cubierta de palmeras y otros árboles cuando llegaron los polinesios, quedó casi sin bosques antes de 1722; en 1774 James Cook encontró muchas estatuas caídas y calculó unos 700 habitantes, y en 1786 La Pérouse unos dos mil. John Flenley y Paul Bahn (Easter Island, Earth Island, 1992) y sobre todo Jared Diamond en Colapso (2005) sostuvieron que los rapanui destruyeron su ambiente para mover estatuas y que su sociedad se hundió en guerras, hambre y canibalismo antes de los europeos. Terry Hunt, Carl Lipo y otros responden que las ratas tuvieron un papel central en la deforestación, que la población no se derrumbó antes del contacto y que el desastre demográfico lo causaron las enfermedades, las incursiones esclavistas y la emigración del siglo XIX; estudios de esqueletos y de los cultivos de piedra apoyan esta segunda visión, aunque el debate sigue.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [
+        "colapso-diamond",
+        "the-statues-that-walked",
+        "aku-aku"
+      ]
+    },
+    {
+      "id": "incursiones-esclavistas-en-rapa-nui",
+      "titulo": "Las incursiones esclavistas peruanas en Rapa Nui",
+      "anio": 1862,
+      "anio_hasta": 1863,
+      "aprox": false,
+      "lugar": "Hanga Roa",
+      "lon": -109.432,
+      "lat": -27.149,
+      "tipo": "desastre",
+      "resumen": "Entre diciembre de 1862 y 1863 barcos peruanos que buscaban trabajadores para el Perú se llevaron por la fuerza o con engaños a más de mil rapanui, cerca de la mitad de la población, entre ellos jefes y sabios. La mayoría murió en el Perú de enfermedades y malos tratos; los pocos repatriados después de las protestas internacionales llevaron la viruela, que mató a muchos más. Con la emigración posterior a Tahití, la población llegó a 111 personas en 1877 y se perdió buena parte del saber tradicional.",
+      "regiones": [
+        "polinesia",
+        "andes"
+      ],
+      "fuentes": [
+        "slavers-in-paradise"
+      ]
+    },
+    {
+      "id": "anexion-de-rapa-nui-a-chile",
+      "titulo": "Rapa Nui pasa a Chile",
+      "anio": 1888,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Hanga Roa",
+      "lon": -109.432,
+      "lat": -27.149,
+      "tipo": "tratado",
+      "resumen": "El 9 de septiembre de 1888 el capitán Policarpo Toro y el ariki Atamu Tekena, con otros jefes, firmaron el «acuerdo de voluntades» por el que Chile tomó posesión de la isla. Los textos en castellano y en rapanui difieren: el castellano habla de cesión de soberanía, y para los rapanui el acuerdo no incluía la propiedad de la tierra; el Estado arrendó después la isla a empresas ganaderas y los isleños quedaron confinados en Hanga Roa hasta la década de 1960.",
+      "regiones": [
+        "polinesia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Isla de Pascua",
+        "en": "Easter Island"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "santiago-de-chile",
+      "nombre": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "fundacion": 1541,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Ciudad fundada por Pedro de Valdivia el 12 de febrero de 1541 en el valle del Mapocho, capital de la gobernación de Chile y, desde 1818, de la república. Fue sede del cabildo, del obispado desde 1561, de la Real Audiencia desde 1609 y de la Universidad de San Felipe; los terremotos, como el de 1647, la destruyeron varias veces.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Santiago de Chile",
+        "en": "Santiago"
+      }
+    },
+    {
+      "id": "concepcion-chile",
+      "nombre": "Concepción",
+      "lon": -73.05,
+      "lat": -36.827,
+      "fundacion": 1550,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad fundada por Valdivia en 1550 en la bahía de Penco, centro militar del reino y sede del ejército de la frontera desde 1603. Destruida por los mapuches en 1554 y 1555 y varias veces por terremotos y maremotos, se trasladó en 1764-1765 al valle de la Mocha, donde está hoy.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Concepción (Chile)",
+        "en": "Concepción, Chile"
+      }
+    },
+    {
+      "id": "valdivia-ciudad",
+      "nombre": "Valdivia",
+      "lon": -73.246,
+      "lat": -39.814,
+      "fundacion": 1552,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad fundada por Pedro de Valdivia en 1552 junto al río Calle-Calle, cerca de lavaderos de oro. Destruida en el alzamiento de 1599, sus ruinas atrajeron a los neerlandeses en 1643, y en 1645 el virrey del Perú la repobló como plaza fuerte, con un sistema de fuertes en su bahía y presidiarios enviados desde Lima.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Valdivia",
+        "en": "Valdivia"
+      }
+    },
+    {
+      "id": "la-serena",
+      "nombre": "La Serena",
+      "lon": -71.252,
+      "lat": -29.903,
+      "fundacion": 1544,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad fundada en 1544 por Juan Bohón, destruida en 1549 por un alzamiento diaguita y refundada ese mismo año por Francisco de Aguirre. Fue la ciudad principal del norte chico y escala en el camino al Perú, y la saquearon corsarios como Bartholomew Sharp en 1680.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "La Serena",
+        "en": "La Serena, Chile"
+      }
+    },
+    {
+      "id": "chillan",
+      "nombre": "Chillán",
+      "lon": -72.103,
+      "lat": -36.607,
+      "fundacion": 1580,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 1,
+      "resumen": "Ciudad fundada en 1580 por Martín Ruiz de Gamboa en la frontera sur del Chile español. Resistió el alzamiento de 1598, fue abandonada en el de 1655 y la destruyeron varios terremotos, por lo que cambió de sitio más de una vez.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Chillán",
+        "en": "Chillán"
+      }
+    },
+    {
+      "id": "castro-chiloe",
+      "nombre": "Castro",
+      "lon": -73.764,
+      "lat": -42.482,
+      "fundacion": 1567,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "ciudad",
+      "importancia": 1,
+      "resumen": "Ciudad fundada en 1567 por Martín Ruiz de Gamboa en la isla grande de Chiloé, centro de la colonización española del archipiélago. La saquearon corsarios neerlandeses en 1600 y 1643, y desde allí los jesuitas organizaban la misión circulante por las islas.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Castro (Chile)",
+        "en": "Castro, Chile"
+      }
+    },
+    {
+      "id": "universidad-de-santo-tomas-de-aquino-chile",
+      "nombre": "Universidad de Santo Tomás de Aquino (Santiago)",
+      "lon": -70.6497,
+      "lat": -33.4357,
+      "fundacion": 1622,
+      "abandono": 1747,
+      "aprox": false,
+      "tipo": "universidad",
+      "importancia": 1,
+      "resumen": "Primera universidad de Chile, que funcionó entre 1622 y 1747 en el convento de Santo Domingo de Santiago gracias a un privilegio pontificio que permitía a los dominicos dar grados en teología y filosofía. La reemplazó la Real Universidad de San Felipe.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Universidad Pontificia de Santo Tomás de Aquino (Chile)"
+      }
+    },
+    {
+      "id": "universidad-de-san-felipe",
+      "nombre": "Real Universidad de San Felipe",
+      "lon": -70.6475,
+      "lat": -33.4405,
+      "fundacion": 1747,
+      "abandono": 1839,
+      "aprox": false,
+      "tipo": "universidad",
+      "importancia": 2,
+      "resumen": "Universidad real de Santiago, creada por una cédula de 1738, inaugurada en 1747 y con clases desde 1758, en el terreno que hoy ocupa el Teatro Municipal. Daba grados en teología, cánones, leyes, medicina y artes y formó a buena parte de la élite de la independencia; en 1839 se la reemplazó por la Universidad de Chile.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Real Universidad de San Felipe",
+        "en": "Royal University of San Felipe"
+      }
+    },
+    {
+      "id": "hospital-san-juan-de-dios-santiago",
+      "nombre": "Hospital San Juan de Dios de Santiago",
+      "lon": -70.679,
+      "lat": -33.442,
+      "fundacion": 1552,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Hospital fundado por Pedro de Valdivia en 1552 con el nombre de Nuestra Señora del Socorro y administrado desde 1617 por los hermanos de San Juan de Dios, de quienes tomó el nombre. Es la institución hospitalaria más antigua de Chile y en el siglo XX se mudó a otro edificio.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Hospital San Juan de Dios (Santiago de Chile)",
+        "en": "San Juan de Dios Hospital (Santiago)"
+      }
+    },
+    {
+      "id": "palacio-de-la-moneda",
+      "nombre": "Palacio de La Moneda",
+      "lon": -70.654,
+      "lat": -33.443,
+      "fundacion": 1805,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Edificio neoclásico construido en Santiago entre 1784 y 1805, según el proyecto del arquitecto italiano Joaquín Toesca, como Real Casa de Moneda, una de las mayores obras civiles de la América española de su tiempo. Desde 1846 es la sede de la presidencia de Chile.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Palacio de La Moneda",
+        "en": "La Moneda Palace"
+      }
+    },
+    {
+      "id": "iglesias-de-chiloe",
+      "nombre": "Iglesias de Chiloé",
+      "lon": -73.767,
+      "lat": -42.5,
+      "fundacion": 1730,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Iglesias de madera construidas en el archipiélago de Chiloé desde el siglo XVIII y sobre todo en el XIX, herederas de las capillas de la misión circulante de jesuitas y franciscanos y hechas por carpinteros locales con técnicas indígenas y europeas. Dieciséis de ellas son Patrimonio de la Humanidad desde 2000.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Iglesias de Chiloé",
+        "en": "Churches of Chiloé"
+      }
+    },
+    {
+      "id": "sistema-de-fuertes-de-valdivia",
+      "nombre": "Fuertes de Valdivia",
+      "lon": -73.4,
+      "lat": -39.87,
+      "fundacion": 1645,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "sitio-historico",
+      "importancia": 2,
+      "resumen": "Conjunto de fuertes construidos desde 1645 en la bahía de Corral y el río Valdivia, como Niebla, Corral, Mancera y Amargos, para impedir que neerlandeses u otros enemigos de España se instalaran en la costa del sur. Fue uno de los mayores sistemas defensivos de la América española; en 1820 lo tomó la escuadra chilena de Lord Cochrane.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Sistema de fuertes de Valdivia",
+        "en": "Valdivian Fort System"
+      }
+    },
+    {
+      "id": "sitios-chinchorro",
+      "nombre": "Sitios de la cultura chinchorro",
+      "lon": -70.32,
+      "lat": -18.48,
+      "fundacion": -7000,
+      "abandono": -1500,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Asentamientos y cementerios de la cultura chinchorro en Arica y en la desembocadura del río Camarones, donde se hallaron las momias artificiales más antiguas conocidas. Están en la lista del Patrimonio Mundial desde 2021, y parte de sus hallazgos se exhiben en el museo de San Miguel de Azapa, de la Universidad de Tarapacá.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "en": "Chinchorro mummies"
+      }
+    },
+    {
+      "id": "pukara-de-quitor",
+      "nombre": "Pucará de Quitor",
+      "lon": -68.214,
+      "lat": -22.891,
+      "fundacion": 1150,
+      "abandono": 1540,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Fortaleza de piedra del pueblo atacameño en una ladera junto al río San Pedro, cerca de San Pedro de Atacama, construida hacia el siglo XII. En 1540 la tomaron, después de un combate, los españoles de la hueste de Valdivia.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Pucará de Quitor",
+        "en": "Pukará de Quitor"
+      }
+    },
+    {
+      "id": "fortaleza-inca-de-chena",
+      "nombre": "Huaca de Chena",
+      "lon": -70.747,
+      "lat": -33.615,
+      "fundacion": 1470,
+      "abandono": 1536,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Construcción inca en la cima del cerro Chena, al sur de Santiago, que se interpretó como una fortaleza de la frontera sur del imperio y que estudios más recientes ven como un santuario o huaca. Es uno de los principales testimonios de la presencia inca en el valle del Maipo.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Fortaleza incaica de Chena",
+        "en": "Huaca de Chena"
+      }
+    },
+    {
+      "id": "kuel-de-puren-y-lumaco",
+      "nombre": "Kuel de Purén y Lumaco",
+      "lon": -72.92,
+      "lat": -38.16,
+      "fundacion": 1300,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Túmulos ceremoniales de tierra construidos por los mapuches en el valle de Purén y Lumaco, en la Araucanía, sobre los que Tom Dillehay y José Saavedra publicaron los primeros estudios importantes en 2003 y 2007. Dillehay los relaciona con una organización política regional que resistió a incas y españoles, interpretación que otros arqueólogos discuten.",
+      "regiones": [
+        "chile"
+      ],
+      "wikipedia": {
+        "es": "Cuel",
+        "en": "Cuel"
+      }
+    },
+    {
+      "id": "rano-raraku",
+      "nombre": "Rano Raraku",
+      "lon": -109.289,
+      "lat": -27.122,
+      "fundacion": 1250,
+      "abandono": 1700,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Cráter volcánico de Rapa Nui de cuya toba se tallaron casi todos los moáis. En sus laderas quedan cerca de cuatrocientas estatuas en distintas etapas de talla o de traslado, entre ellas la mayor, inconclusa, de unos 21 metros.",
+      "regiones": [
+        "polinesia"
+      ],
+      "wikipedia": {
+        "es": "Rano Raraku",
+        "en": "Rano Raraku"
+      }
+    },
+    {
+      "id": "orongo",
+      "nombre": "Orongo",
+      "lon": -109.442,
+      "lat": -27.189,
+      "fundacion": 1400,
+      "abandono": 1866,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Aldea ceremonial de casas de piedra en el borde del volcán Rano Kau, en Rapa Nui, con cientos de petroglifos de hombres pájaro. Era el centro del culto del tangata manu, que se practicó hasta la década de 1860.",
+      "regiones": [
+        "polinesia"
+      ],
+      "wikipedia": {
+        "es": "Orongo",
+        "en": "Orongo"
+      }
+    },
+    {
+      "id": "ahu-tongariki",
+      "nombre": "Ahu Tongariki",
+      "lon": -109.277,
+      "lat": -27.126,
+      "fundacion": 1300,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "La mayor plataforma ceremonial de Rapa Nui, con quince moáis. Las estatuas habían sido derribadas, un maremoto las dispersó en 1960 y un equipo chileno-japonés las volvió a levantar entre 1992 y 1996.",
+      "regiones": [
+        "polinesia"
+      ],
+      "wikipedia": {
+        "es": "Ahu Tongariki",
+        "en": "Ahu Tongariki"
+      }
+    },
+    {
+      "id": "anakena",
+      "nombre": "Anakena",
+      "lon": -109.323,
+      "lat": -27.074,
+      "fundacion": 1150,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Playa del norte de Rapa Nui donde, según la tradición, desembarcó Hotu Matu'a. Sus excavaciones dieron algunas de las fechas más antiguas del poblamiento de la isla, y allí la expedición de Thor Heyerdahl volvió a levantar un moái en 1956.",
+      "regiones": [
+        "polinesia"
+      ],
+      "wikipedia": {
+        "es": "Playa Anakena",
+        "en": "Anakena"
+      }
+    }
+  ]
+}

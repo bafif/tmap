@@ -39,6 +39,10 @@ func correr(interfaz: Interfaz) -> String:
 			elif ed.esta_sucio():
 				_falla("abrir %s «%s» y no tocar nada lo cambia: %s" % [seccion, id, _diferencia(ed._original, ed._copia)])
 			n += 1
+			# Lo que _vaciar() saca de la escena se libera recién al terminar el cuadro: sin esta espera, una sección de
+			# miles de elementos acumula sus formularios en memoria (con 7475 elementos pasaba los 3,8 GB).
+			if n % 50 == 0:
+				await arbol.process_frame
 		await arbol.process_frame
 	ed._vaciar()
 

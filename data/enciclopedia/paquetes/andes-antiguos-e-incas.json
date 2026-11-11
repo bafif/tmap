@@ -1,0 +1,4696 @@
+{
+  "paquete": "andes-antiguos-e-incas",
+  "descripcion": "Los Andes de Perú, Bolivia y Ecuador antes de 1532, de Valdivia y Chavín a Moche, Tiahuanaco, Huari y Chimú, los señoríos que enfrentaron o sirvieron a los incas y el Tawantinsuyu con su organización, sus guerras, sus deportaciones y sus sacrificios hasta la guerra entre Huáscar y Atahualpa, con las crónicas leídas según sus intereses y lo que mostraron la arqueología y la ciencia.",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "historia-natural-y-moral-de-las-indias",
+      "titulo": "Historia natural y moral de las Indias",
+      "titulo_original": null,
+      "autor": "José de Acosta",
+      "autor_id": "jose-de-acosta",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1590,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "mesoamerica"
+        ],
+        "desde": 1400,
+        "hasta": 1590
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Tratado del jesuita José de Acosta en siete libros: los primeros tratan del cielo, el clima y la tierra de América; los siguientes, de los metales, las plantas y los animales; los últimos, de la religión, el gobierno y la historia de los incas y de los mexicas. Propone que los primeros habitantes llegaron a América por tierra desde el norte, describe el mal de altura que sufrió al cruzar la cordillera en Pariacaca y explica la explotación de la plata de Potosí con mercurio. Para los incas usa los informes de Polo de Ondegardo; para los mexicas, el manuscrito del jesuita Juan de Tovar.",
+      "por_que_importa": "Fue una de las obras sobre América más leídas en Europa a fines del siglo XVI y se tradujo pronto a varias lenguas. Su explicación de las religiones indígenas como imitación demoníaca de los sacramentos convive con un juicio favorable del gobierno de incas y mexicas, que pone como ejemplo de orden político.",
+      "leer": [
+        {
+          "titulo": "Edición antigua, tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historianaturaly01acos",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia natural y moral de las Indias"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "de-procuranda-indorum-salute",
+      "titulo": "De procuranda indorum salute (Sobre cómo procurar la salvación de los indios)",
+      "titulo_original": null,
+      "autor": "José de Acosta",
+      "autor_id": "jose-de-acosta",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1588,
+        "aprox": false,
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1532,
+        "hasta": 1588
+      },
+      "idioma_original": "Latín",
+      "soporte": "Libro, escrito en Lima hacia 1576-1577",
+      "resumen": "Tratado sobre la evangelización de los indios escrito en Lima y publicado en Salamanca. En su proemio distingue tres clases de «bárbaros» según su grado de gobierno y escritura: pone a chinos y japoneses en la primera, a incas y mexicas en la segunda y a los pueblos sin ciudades ni leyes en la tercera. Sostiene que la fe debe enseñarse en la lengua de los indios y por persuasión, critica los abusos de encomenderos, corregidores y curas doctrineros y discute la licitud de las guerras de conquista y del trabajo forzado.",
+      "por_que_importa": "Es una de las principales obras jesuitas sobre la evangelización de América y una de las bases del Tercer Concilio Limense (1582-1583), del que Acosta fue teólogo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "manuscrito-de-huarochiri",
+      "titulo": "Manuscrito de Huarochirí",
+      "titulo_original": null,
+      "autor": "Anónimo (reunido por encargo de Francisco de Ávila)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1598,
+        "anio_hasta": 1608,
+        "aprox": true,
+        "lugar": "Huarochirí",
+        "lon": -76.233,
+        "lat": -12.135
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1000,
+        "hasta": 1608
+      },
+      "idioma_original": "Quechua",
+      "soporte": "Manuscrito sin título que empieza «Runa yndio ñiscap machoncuna» (Biblioteca Nacional de España, ms. 3169)",
+      "resumen": "Único texto extenso en quechua de la época colonial temprana que cuenta las tradiciones de una provincia andina desde el punto de vista de sus habitantes: los mitos de Pariacaca y de Cuniraya Viracocha, las guerras de los yauyos llegados de las alturas contra los yuncas de los valles, el culto a las huacas y a los antepasados, las fiestas y ofrendas y la relación de estos pueblos con los incas. Lo escribieron uno o más andinos cristianizados de la sierra de Lima por encargo del cura Francisco de Ávila, que lo usó en su campaña contra las «idolatrías»; algunos estudiosos proponen como fuente o autor a Cristóbal Choquecasa, un noble local que aparece en el texto.",
+      "por_que_importa": "Es la principal fuente en lengua andina sobre la religión de antes de la conquista. Lo tradujeron Hermann Trimborn (1939), José María Arguedas (1966), Gerald Taylor (1987) y Frank Salomon y George Urioste (1991).",
+      "leer": [
+        {
+          "titulo": "El tratado de Francisco de Ávila (1608) basado en los primeros capítulos del manuscrito, en la traducción inglesa de Markham (1873), en Internet Archive",
+          "url": "https://archive.org/details/narrativesofrite00moli",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Manuscrito de Huarochirí",
+        "en": "Huarochirí Manuscript"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-del-nuevo-mundo-cobo",
+      "titulo": "Historia del Nuevo Mundo",
+      "titulo_original": null,
+      "autor": "Bernabé Cobo",
+      "autor_id": "bernabe-cobo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1653,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "mesoamerica"
+        ],
+        "desde": 1200,
+        "hasta": 1653
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito, publicado en Sevilla en 1890-1895 por Marcos Jiménez de la Espada",
+      "resumen": "Obra terminada en Lima en 1653 de la que se conserva solo la primera parte: la naturaleza de América (cielo, minerales, plantas y animales, con muchas especies descritas con precisión) y una historia y descripción de los incas, su religión, su gobierno y sus costumbres. Copia la lista de 328 huacas del Cusco ordenadas en ceques, tomada de un texto perdido que muchos estudiosos atribuyen a Polo de Ondegardo, y usa crónicas que hoy no se conservan.",
+      "por_que_importa": "Por su método y su cuidado es la descripción colonial más completa de la religión y la sociedad incas y la base del estudio moderno del sistema de ceques.",
+      "leer": [
+        {
+          "titulo": "Edición de Marcos Jiménez de la Espada (Sevilla, 1890), tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadelnuev00cobogoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "relacion-de-las-fabulas-y-ritos",
+      "titulo": "Relación de las fábulas y ritos de los incas",
+      "titulo_original": null,
+      "autor": "Cristóbal de Molina",
+      "autor_id": "cristobal-de-molina",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1575,
+        "aprox": true,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1575
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito (Biblioteca Nacional de España)",
+      "resumen": "Informe escrito para el obispo del Cusco Sebastián de Lartaún. Recoge los mitos de origen del Titicaca y de Pacaritambo, oraciones incas en quechua con su traducción, el calendario ritual mes por mes, la fiesta de la Citua para expulsar las enfermedades de la ciudad y la capacocha, con el envío de niños y ofrendas desde el Cusco a las huacas de las provincias para ser sacrificados. Al final describe el movimiento del Taki Onqoy de la década de 1560.",
+      "por_que_importa": "Es una de las fuentes más tempranas y detalladas sobre los ritos del Cusco, tomada de ancianos que habían servido en el culto inca, y la que mejor conserva oraciones en quechua de antes de la conquista.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Clements Markham (Hakluyt Society, 1873), en Internet Archive",
+          "url": "https://archive.org/details/narrativesofrite00moli",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Relación de las fábulas y ritos de los Incas"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-general-del-piru-murua",
+      "titulo": "Historia general del Pirú",
+      "titulo_original": null,
+      "autor": "Martín de Murúa",
+      "autor_id": "martin-de-murua",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1590,
+        "anio_hasta": 1616,
+        "aprox": false,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1600
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscritos ilustrados: el Galvin (1590, colección privada) y el Getty (1616, Museo J. Paul Getty)",
+      "resumen": "Crónica sobre el origen, los reyes, las coyas, las leyes, los ritos y las costumbres de los incas y sobre la conquista, de la que existen dos versiones: la primera, titulada Historia del origen y genealogía real de los reyes incas del Perú (1590), y la definitiva de 1616, aprobada para su impresión pero que quedó inédita. Buena parte de las ilustraciones de la primera son de Felipe Guaman Poma de Ayala.",
+      "por_que_importa": "Los dos manuscritos permiten ver cómo se hacía una crónica colonial, con colaboración y conflicto entre un fraile español y un autor andino, y conservan imágenes de la vestimenta y los cargos incas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Historia general del Piru"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "miscelanea-antartica",
+      "titulo": "Miscelánea antártica",
+      "titulo_original": null,
+      "autor": "Miguel Cabello Balboa",
+      "autor_id": "miguel-cabello-balboa",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1576,
+        "anio_hasta": 1586,
+        "aprox": false,
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1100,
+        "hasta": 1586
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito, publicado en traducción francesa parcial en 1840 y en español en 1951",
+      "resumen": "Historia universal escrita en Quito cuya tercera parte trata del Perú: el origen de los indios, los reyes incas con fechas para cada reinado, las guerras de Huayna Cápac en el norte (con la matanza de Yahuarcocha), la guerra civil y la llegada de los españoles. Conserva la leyenda de Naylamp, que habría llegado por mar a Lambayeque con su corte y fundado una dinastía.",
+      "por_que_importa": "Sus fechas para los reinados incas, de origen desconocido, son las que adoptó John Rowe en 1945 y se repiten desde entonces (Pachacútec desde 1438); los fechados por radiocarbono sugieren una expansión más temprana.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Miscelánea Antártica"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "relacion-de-las-costumbres-antiguas",
+      "titulo": "Relación de las costumbres antiguas de los naturales del Pirú",
+      "titulo_original": null,
+      "autor": "Anónimo jesuita (atribuida a Blas Valera)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1590,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1590
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito, publicado en 1879 por Marcos Jiménez de la Espada",
+      "resumen": "Tratado anónimo sobre la religión, los templos, los sacerdotes, las vírgenes consagradas y las leyes de los incas. Sostiene que los incas adoraban a un dios creador único, del que el Sol y las huacas eran intermediarios, y niega o reduce al mínimo sus sacrificios humanos, que atribuye a errores de los españoles o a otros pueblos. Desde fines del siglo XIX se lo atribuye a Blas Valera, atribución que muchos aceptan y otros discuten.",
+      "por_que_importa": "Con los pasajes de Valera que cita Garcilaso, es la base de la imagen de unos incas casi monoteístas y sin sacrificios humanos, que contradicen otras crónicas (Betanzos, Molina, Cobo) y la arqueología de la capacocha.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-del-reino-de-quito",
+      "titulo": "Historia del reino de Quito en la América meridional",
+      "titulo_original": null,
+      "autor": "Juan de Velasco",
+      "autor_id": "juan-de-velasco",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "Faenza",
+        "lon": 11.883,
+        "lat": 44.286
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 900,
+        "hasta": 1767
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito, publicado en 1841-1844",
+      "resumen": "Historia natural, antigua y moderna de la Audiencia de Quito escrita en el exilio. Narra un «reino de Quito» gobernado por los shyris, un pueblo llegado por mar que habría conquistado la sierra hacia el año 1000 y la habría dominado hasta la conquista inca; su heredera, Paccha, se habría casado con Huayna Cápac y sería la madre de Atahualpa. Dice basarse en fuentes que no se conservan, entre ellas un escrito de fray Marcos de Niza.",
+      "por_que_importa": "Fue la base de la historia nacional ecuatoriana del siglo XIX y de la enseñanza escolar. Desde la crítica de Jacinto Jijón y Caamaño (1918) la mayoría de los historiadores y arqueólogos considera el reino de los shyris una construcción sin apoyo documental ni arqueológico, aunque conserva defensores.",
+      "leer": [
+        {
+          "titulo": "Tomo II (Historia antigua) de la edición de Quito de 1841, en Internet Archive",
+          "url": "https://archive.org/details/56663290HistoriaDelReinoDeQuitoEnLaAmericaMeridionalVol2",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "visita-de-chucuito-1567",
+      "titulo": "Visita hecha a la provincia de Chucuito por Garci Diez de San Miguel en el año 1567",
+      "titulo_original": null,
+      "autor": "Garci Diez de San Miguel",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1567,
+        "aprox": false,
+        "lugar": "Chucuito",
+        "lon": -69.889,
+        "lat": -15.894
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1450,
+        "hasta": 1567
+      },
+      "idioma_original": "Español",
+      "soporte": "Expediente de visita, publicado en Lima en 1964",
+      "resumen": "Inspección de la provincia de los lupacas, a orillas del Titicaca, que la Corona tenía en encomienda propia. El visitador interrogó a los dos señores principales, Martín Cari y Martín Cusi, y a otros curacas sobre la población, los tributos y servicios que daban al inca y que daban a los españoles, los rebaños de llamas y alpacas y las tierras que tenían en la costa del Pacífico y en los valles orientales, a muchos días de camino.",
+      "por_que_importa": "Es una de las fuentes en que John Murra basó el modelo del «archipiélago vertical» y muestra cómo funcionaba un gran señorío aimara antes y después de 1532.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "visita-de-huanuco-1562",
+      "titulo": "Visita de la provincia de León de Huánuco en 1562",
+      "titulo_original": null,
+      "autor": "Íñigo Ortiz de Zúñiga",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1562,
+        "aprox": false,
+        "lugar": "Huánuco",
+        "lon": -76.24,
+        "lat": -9.929
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1450,
+        "hasta": 1562
+      },
+      "idioma_original": "Español",
+      "soporte": "Expediente de visita, publicado en Huánuco en 1967-1972 con estudios de John Murra",
+      "resumen": "Inspección casa por casa de los chupachos y otros grupos de la región de Huánuco, hecha para fijar sus tributos, que anota quiénes vivían en cada vivienda, qué producían y qué servicios habían prestado al inca: guardias, tejedores, mitimaes enviados a otras regiones, cargadores y trabajadores para los depósitos de Huánuco Pampa. El segundo tomo incluye el ensayo de Murra sobre el control vertical de los pisos ecológicos.",
+      "por_que_importa": "Permite comparar desde abajo, con datos de cada pueblo, lo que las crónicas cusqueñas contaban sobre la mit'a y la redistribución incas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "aviso-de-chincha",
+      "titulo": "Aviso del modo que había en el gobierno de los indios en tiempo del inga",
+      "titulo_original": null,
+      "autor": "Anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1570,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1570
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito, publicado en 1970 por María Rostworowski",
+      "resumen": "Breve informe anónimo sobre el valle de Chincha que afirma que antes de la conquista había allí 30 000 tributarios, entre ellos 12 000 labradores, 10 000 pescadores y 6000 mercaderes que comerciaban con el Cusco, el Collao y Quito. María Rostworowski lo usó para sostener que Chincha fue un señorío de mercaderes navegantes con intercambio a larga distancia.",
+      "por_que_importa": "Es una de las pocas fuentes que describen un comercio especializado en los Andes, donde se suponía que no había mercaderes; sus cifras, como las de todos los informes de su tipo, deben leerse con cautela.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "absolute-chronology-rowe",
+      "titulo": "Absolute Chronology in the Andean Area",
+      "titulo_original": null,
+      "autor": "John Howland Rowe",
+      "autor_id": "john-rowe",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1945,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (American Antiquity, vol. 10, n.º 3)",
+      "resumen": "Artículo en que John Rowe propuso fechas absolutas para los reinados incas a partir de la cronología de Miguel Cabello Balboa: Pachacútec habría empezado a reinar en 1438, Topa Inca en 1471 y Huayna Cápac en 1493. Rowe las presentó como aproximadas, pero los manuales las adoptaron como firmes.",
+      "por_que_importa": "Es el origen de la cronología corta del imperio inca, en revisión desde que los fechados por radiocarbono en Machu Picchu, el Cusco y el Collasuyo sugieren que la expansión empezó décadas antes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "inca-culture-rowe",
+      "titulo": "Inca Culture at the Time of the Spanish Conquest",
+      "titulo_original": null,
+      "autor": "John Howland Rowe",
+      "autor_id": "john-rowe",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1572
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo del Handbook of South American Indians, tomo 2 (Smithsonian Institution)",
+      "resumen": "Síntesis de la sociedad, la economía, la religión, la guerra y la historia incas a partir de una lectura crítica de las crónicas, que privilegia a los autores tempranos y bien informados. Estima la población del imperio hacia 1525 en unos seis millones de personas.",
+      "por_que_importa": "Durante décadas fue la descripción de referencia de la cultura inca y fijó muchas de las categorías con que todavía se la estudia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "formaciones-economicas-murra",
+      "titulo": "Formaciones económicas y políticas del mundo andino",
+      "titulo_original": null,
+      "autor": "John Murra",
+      "autor_id": "john-murra",
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1600
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro (Instituto de Estudios Peruanos)",
+      "resumen": "Recopilación de ensayos que leen las visitas administrativas del siglo XVI junto con las crónicas. Incluye «El control vertical de un máximo de pisos ecológicos», donde Murra propone que los grupos andinos mantenían colonias en distintas alturas, a veces a días de camino, para obtener productos de la puna, los valles y la costa sin depender del intercambio; y estudios sobre la reciprocidad, la redistribución estatal, los tejidos y el maíz en la economía inca.",
+      "por_que_importa": "El «archipiélago vertical» y la economía de reciprocidad y redistribución se volvieron centrales en la etnohistoria andina; luego se discutió cuánto valen para la costa, donde María Rostworowski documentó mercaderes y especialistas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Archipiélago vertical",
+        "en": "Vertical archipelago"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-del-tahuantinsuyu",
+      "titulo": "Historia del Tahuantinsuyu",
+      "titulo_original": null,
+      "autor": "María Rostworowski",
+      "autor_id": "maria-rostworowski",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1572
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro (Instituto de Estudios Peruanos)",
+      "resumen": "Historia del estado inca a partir de crónicas y documentos de archivo, que presenta a los incas como un señorío entre otros que se impuso por la guerra y por pactos de reciprocidad y parentesco con los curacas. Sostiene que la sucesión no seguía una regla fija de primogenitura y se resolvía con frecuencia por la lucha entre hermanos, lo que explica la guerra entre Huáscar y Atahualpa.",
+      "por_que_importa": "Fue un texto de referencia en el Perú y en América Latina y ayudó a mirar el Tawantinsuyu desde los señoríos y no solo desde el Cusco.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-incas-daltroy",
+      "titulo": "The Incas",
+      "titulo_original": null,
+      "autor": "Terence N. D'Altroy",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "noroeste-argentino",
+          "chile",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1400,
+        "hasta": 1572
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Blackwell, serie The Peoples of America; segunda edición en 2015)",
+      "resumen": "Síntesis arqueológica e histórica del imperio inca: el origen en el Cusco, la expansión, la economía de las tierras estatales y los depósitos, el trabajo por turnos, los mitimaes, el camino real y la administración de las provincias, con los datos de las excavaciones en el valle del Mantaro que dirigió el autor.",
+      "por_que_importa": "Es uno de los manuales universitarios más usados sobre los incas y muestra un imperio que combinaba la fuerza con la negociación con las élites locales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ceque-system-zuidema",
+      "titulo": "The Ceque System of Cuzco: The Social Organization of the Capital of the Inca",
+      "titulo_original": null,
+      "autor": "R. Tom Zuidema",
+      "autor_id": "tom-zuidema",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Leiden",
+        "lon": 4.49,
+        "lat": 52.16
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1572
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (E. J. Brill)",
+      "resumen": "Análisis de la lista de huacas del Cusco ordenadas en ceques que conserva Cobo, del que Zuidema deduce que ese sistema organizaba el parentesco, el calendario, el riego y la jerarquía de los grupos de la ciudad. Sostiene que las listas de reyes incas de las crónicas no son una sucesión histórica sino una representación de la estructura social, y que pudo haber un gobierno dual.",
+      "por_que_importa": "Abrió la lectura estructural de la historia inca, que muchos historiadores discuten porque quita valor histórico a las crónicas, y fue el punto de partida del estudio de los ceques en el terreno.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-chanka-bauer",
+      "titulo": "The Chanka: Archaeological Research in Andahuaylas (Apurimac), Peru",
+      "titulo_original": null,
+      "autor": "Brian S. Bauer, Lucas C. Kellett y Miriam Aráoz Silva",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1000,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Cotsen Institute of Archaeology, UCLA)",
+      "resumen": "Informe de un relevamiento arqueológico sistemático de la región de Andahuaylas, tierra de los chancas según las crónicas. Para el período anterior a los incas registró aldeas en cumbres, con murallas y fosos defensivos, y ningún centro político mayor.",
+      "por_que_importa": "Sus autores concluyen que los chancas eran grupos dispersos y en conflicto, no el estado capaz de amenazar al Cusco que describen las crónicas, lo que apoya leer la guerra contra los chancas como relato de legitimación de Pachacútec.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "how-the-incas-built-their-heartland",
+      "titulo": "How the Incas Built Their Heartland: State Formation and the Innovation of Imperial Strategies in the Sacred Valley, Peru",
+      "titulo_original": null,
+      "autor": "R. Alan Covey",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Ann Arbor",
+        "lon": -83.748,
+        "lat": 42.281
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1000,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (University of Michigan Press)",
+      "resumen": "Estudio arqueológico del valle del Cusco y del valle Sagrado según el cual el estado inca se formó a lo largo de varios siglos, desde alrededor del año 1000, con alianzas matrimoniales, guerras y la absorción de los grupos vecinos, antes de la gran expansión que las crónicas atribuyen a Pachacútec.",
+      "por_que_importa": "Junto con los fechados por radiocarbono, cuestiona el relato de un imperio surgido de golpe tras la guerra contra los chancas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "reading-inca-history",
+      "titulo": "Reading Inca History",
+      "titulo_original": null,
+      "autor": "Catherine Julien",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Iowa City",
+        "lon": -91.525,
+        "lat": 41.656
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1200,
+        "hasta": 1572
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (University of Iowa Press)",
+      "resumen": "Análisis de las crónicas sobre los incas que busca reconstruir los géneros históricos andinos de los que derivan (genealogías, relatos de vida de cada inca, registros en quipus) y separar lo que viene de ellos de lo que agregaron los cronistas españoles.",
+      "por_que_importa": "Es una de las bases del uso crítico de las crónicas como fuente para la historia inca.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "dating-caral",
+      "titulo": "Dating Caral, a Preceramic Site in the Supe Valley on the Central Coast of Peru",
+      "titulo_original": null,
+      "autor": "Ruth Shady",
+      "autor_id": "ruth-shady",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -3000,
+        "hasta": -1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Science, vol. 292), con Jonathan Haas y Winifred Creamer",
+      "resumen": "Publicó los primeros fechados por radiocarbono de Caral, que ubicaron su arquitectura monumental entre 2600 y 2000 a. C. aproximadamente y la convirtieron en uno de los centros urbanos más antiguos de América.",
+      "por_que_importa": "Mostró que en los Andes hubo arquitectura monumental y vida urbana antes de la cerámica, en valles del interior y no solo en la orilla del mar.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "maritime-foundations-moseley",
+      "titulo": "The Maritime Foundations of Andean Civilization",
+      "titulo_original": null,
+      "autor": "Michael E. Moseley",
+      "autor_id": "michael-moseley",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -3000,
+        "hasta": -1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Cummings)",
+      "resumen": "Propone que la civilización andina se originó en aldeas costeras que vivían de la pesca y el marisqueo y que pudieron levantar arquitectura monumental antes de la agricultura intensiva, gracias a la riqueza del mar frente al Perú.",
+      "por_que_importa": "La hipótesis marítima fue muy discutida; los hallazgos de Caral y del Norte Chico la matizaron con una economía que combinaba la pesca con el algodón y los cultivos de los valles.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "chavin-burger",
+      "titulo": "Chavín and the Origins of Andean Civilization",
+      "titulo_original": null,
+      "autor": "Richard L. Burger",
+      "autor_id": "richard-burger",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -1800,
+        "hasta": -200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Thames and Hudson)",
+      "resumen": "Síntesis de la arqueología de los Andes centrales desde el Arcaico hasta el fin del Horizonte Temprano, centrada en Chavín de Huántar, donde el autor excavó. Interpreta a Chavín como un centro de culto cuya religión se difundió por la sierra y la costa entre 900 y 200 a. C., más que como un estado conquistador.",
+      "por_que_importa": "Es la obra moderna de referencia sobre Chavín; excavaciones posteriores, como las de John Rick, propusieron fechas más tempranas para el templo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "chavin-tello",
+      "titulo": "Chavín: cultura matriz de la civilización andina",
+      "titulo_original": null,
+      "autor": "Julio C. Tello",
+      "autor_id": "julio-c-tello",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1960,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -1500,
+        "hasta": -200
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro póstumo, editado por Toribio Mejía Xesspe (Universidad Nacional Mayor de San Marcos)",
+      "resumen": "Reúne las investigaciones de Tello desde 1919 sobre Chavín de Huántar y sitios relacionados y sostiene que Chavín fue la cultura madre de la civilización andina, de raíz serrana y amazónica, y no un derivado de influencias llegadas de Mesoamérica.",
+      "por_que_importa": "Fijó la idea de un origen autóctono de la civilización andina, frente a la teoría difusionista de Uhle; los hallazgos posteriores de sitios más antiguos, como Caral, la matizaron.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pachacamac-uhle",
+      "titulo": "Pachacamac: Report of the William Pepper, M.D., LL.D., Peruvian Expedition of 1896",
+      "titulo_original": null,
+      "autor": "Max Uhle",
+      "autor_id": "max-uhle",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1903,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 200,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Universidad de Pensilvania)",
+      "resumen": "Informe de las excavaciones de 1896 en el santuario de Pachacámac, con sus cementerios, el templo del Sol inca y el templo antiguo de la divinidad local. Uhle ordenó las tumbas por estratos y estilos de cerámica y distinguió estilos anteriores a los incas, entre ellos uno emparentado con el de Tiahuanaco.",
+      "por_que_importa": "Fue el primer estudio estratigráfico de un sitio andino y la base de la secuencia cultural que todavía organiza la arqueología del Perú.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "royal-tombs-of-sipan",
+      "titulo": "Royal Tombs of Sipán",
+      "titulo_original": null,
+      "autor": "Walter Alva",
+      "autor_id": "walter-alva",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 100,
+        "hasta": 700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro, con Christopher B. Donnan (Fowler Museum of Cultural History, UCLA)",
+      "resumen": "Publicación de las excavaciones de 1987-1990 en Huaca Rajada, Sipán: la tumba del Señor de Sipán, la del llamado sacerdote y la del viejo señor de Sipán, con sus ajuares de oro, plata, cobre, conchas y tejidos y las personas enterradas con ellos. Identifica a los personajes enterrados con figuras de la «ceremonia del sacrificio» de la pintura moche.",
+      "por_que_importa": "Mostró que los personajes de esa iconografía eran cargos que ocupaban personas reales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "physical-evidence-sacrifice-verano",
+      "titulo": "The Physical Evidence of Human Sacrifice in Ancient Peru",
+      "titulo_original": null,
+      "autor": "John W. Verano",
+      "autor_id": "john-verano",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Austin",
+        "lon": -97.733,
+        "lat": 30.3
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -1500,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo de Ritual Sacrifice in Ancient Peru, editado por Elizabeth P. Benson y Anita G. Cook (University of Texas Press)",
+      "resumen": "Revisión de las pruebas óseas de sacrificio humano en los Andes, desde las cabezas trofeo de Nazca y las víctimas de la Huaca de la Luna moche hasta las ofrendas incas: degüellos, desmembramientos, marcas de corte y fracturas curadas y sin curar. Distingue los casos en que el registro prueba el sacrificio de aquellos en que solo lo sugiere la iconografía.",
+      "por_que_importa": "Es una de las bases del estudio arqueológico del sacrificio en los Andes y la referencia sobre las víctimas de la Huaca de la Luna, que Verano interpreta como prisioneros de guerra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "holes-in-the-head",
+      "titulo": "Holes in the Head: The Art and Archaeology of Trepanation in Ancient Peru",
+      "titulo_original": null,
+      "autor": "John W. Verano",
+      "autor_id": "john-verano",
+      "tipo": "secundaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -400,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Dumbarton Oaks)",
+      "resumen": "Estudio de más de 800 cráneos trepanados de los Andes, desde los de Paracas hasta los incas. Muestra que la operación se hacía sobre todo para tratar fracturas y otras lesiones del cráneo y que la proporción de pacientes que sobrevivían, medida por la regeneración del hueso, creció con el tiempo hasta superar las tres cuartas partes en tiempos incas.",
+      "por_que_importa": "Documenta una de las prácticas quirúrgicas más desarrolladas del mundo antiguo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "huanchaquito-prieto-2019",
+      "titulo": "A mass sacrifice of children and camelids at the Huanchaquito-Las Llamas site, Moche Valley, Peru",
+      "titulo_original": null,
+      "autor": "Gabriel Prieto, John W. Verano y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1450
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (PLOS ONE, vol. 14, n.º 3)",
+      "resumen": "Publica las excavaciones de 2011, 2014 y 2016 en un sitio de la costa, cerca de Chan Chan, donde se enterraron en un solo episodio, hacia 1450, 137 niños y adolescentes de entre 5 y 14 años (el resumen del artículo redondea en más de 140), tres adultos y unos 200 camélidos jóvenes. Los niños tienen cortes en el esternón y las costillas separadas, señal de que se les abrió el pecho, quizá para sacarles el corazón; el ADN preliminar muestra que había varones y mujeres, y la deformación craneana y los isótopos sugieren que venían de distintas regiones y grupos. Huellas en el barro muestran que fueron llevados en procesión después de lluvias intensas, y los autores proponen relacionar el sacrificio con un episodio de El Niño.",
+      "por_que_importa": "Según sus autores, es el mayor sacrificio masivo de niños y camélidos conocido en América; prueba que el estado chimú hacía sacrificios masivos antes de la conquista inca.",
+      "leer": [
+        {
+          "titulo": "Artículo en acceso abierto en PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211691",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "inca-rituals-and-sacred-mountains",
+      "titulo": "Inca Rituals and Sacred Mountains: A Study of the World's Highest Archaeological Sites",
+      "titulo_original": null,
+      "autor": "Johan Reinhard",
+      "autor_id": "johan-reinhard",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "noroeste-argentino",
+          "chile"
+        ],
+        "desde": 1450,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro, con Constanza Ceruti (Cotsen Institute of Archaeology, UCLA)",
+      "resumen": "Inventario de los santuarios incas de alta montaña, en cumbres de más de 5000 metros del Perú, Bolivia, Chile y la Argentina, con los resultados de las excavaciones de los autores en el Ampato, el Llullaillaco y otros volcanes: plataformas, ofrendas de estatuillas, textiles y alimentos y los cuerpos de niños sacrificados en la capacocha.",
+      "por_que_importa": "Reúne la base arqueológica de lo que se sabe sobre la capacocha y el culto inca a las montañas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "wilson-2013-capacocha",
+      "titulo": "Archaeological, radiological, and biological evidence offer insight into Inca child sacrifice",
+      "titulo_original": null,
+      "autor": "Andrew S. Wilson y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino",
+          "andes"
+        ],
+        "desde": 1490,
+        "hasta": 1510
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Proceedings of the National Academy of Sciences, vol. 110, n.º 33)",
+      "resumen": "Estudio arqueológico, radiológico y biológico de los tres niños del Llullaillaco: una joven de unos 13 años y un niño y una niña de 4 a 5 años. El análisis del pelo, tramo por tramo, indica un consumo creciente de coca y alcohol antes de la muerte; en la mayor, la coca subió mucho alrededor de un año antes y el alcohol llegó al máximo en sus últimas semanas, y la tomografía mostró que murió con un bolo de coca en la boca. Los autores proponen que esas sustancias formaron parte del ritual y sirvieron para sedarla, y que cada niño fue tratado según su edad, su rango y su papel en el rito.",
+      "por_que_importa": "Aporta datos biológicos sobre cómo se preparaba a las víctimas de la capacocha, que las crónicas describían en forma general.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tiwanaku-kolata",
+      "titulo": "The Tiwanaku: Portrait of an Andean Civilization",
+      "titulo_original": null,
+      "autor": "Alan L. Kolata",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "chile"
+        ],
+        "desde": 300,
+        "hasta": 1100
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Blackwell)",
+      "resumen": "Síntesis de las excavaciones del autor en Tiahuanaco y Lukurmata desde 1978. Presenta a Tiahuanaco como capital de un estado centralizado sostenido por los campos elevados de la orilla del Titicaca y por colonias en valles más bajos, como Moquegua y Cochabamba, y atribuye su caída, hacia 1000-1100, a una sequía prolongada.",
+      "por_que_importa": "Su modelo de un estado centralizado que se derrumbó por la sequía fue muy influyente y muy discutido: otros arqueólogos ven a Tiahuanaco como un centro religioso y político menos centralizado.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "huari-administrative-structure",
+      "titulo": "Huari Administrative Structure: Prehistoric Monumental Architecture and State Government",
+      "titulo_original": null,
+      "autor": "William H. Isbell y Gordon F. McEwan (editores)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 600,
+        "hasta": 1000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Dumbarton Oaks)",
+      "resumen": "Actas de un simposio sobre los grandes recintos ortogonales de Huari, Pikillacta, Viracochapampa y otros sitios, en que Isbell, McEwan, Katharina Schreiber y otros sostienen que fueron centros administrativos de un estado expansivo con capital en Huari, antecesor del imperio inca.",
+      "por_que_importa": "Fijó el debate entre quienes ven a Huari como un imperio con administración provincial y quienes lo ven como una red de centros de influencia religiosa y comercial.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "violence-ritual-wari-tung",
+      "titulo": "Violence, Ritual, and the Wari Empire: A Social Bioarchaeology of Imperialism in the Ancient Andes",
+      "titulo_original": null,
+      "autor": "Tiffiny A. Tung",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "Gainesville",
+        "lon": -82.336,
+        "lat": 29.665
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 600,
+        "hasta": 1100
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (University Press of Florida)",
+      "resumen": "Estudio de los esqueletos de Conchopata, cerca de la capital Huari, y de Beringa, en el valle de Majes: lesiones de cráneo en hombres, mujeres y niños y cabezas trofeo preparadas para ser colgadas, muchas de ellas de personas no locales según los análisis de isótopos. Concluye que la guerra, la captura de enemigos y la exhibición de trofeos formaron parte de la expansión wari.",
+      "por_que_importa": "Es la principal prueba bioarqueológica de la violencia asociada al estado wari.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "interpreting-conflict-arkush-stanish",
+      "titulo": "Interpreting Conflict in the Ancient Andes: Implications for the Archaeology of Warfare",
+      "titulo_original": null,
+      "autor": "Elizabeth Arkush y Charles Stanish",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -1000,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Current Anthropology, vol. 46, n.º 1)",
+      "resumen": "Revisión de las pruebas de guerra en los Andes prehispánicos que discute la idea, frecuente en la arqueología, de que muchas murallas y fortalezas eran simbólicas o rituales. Muestra que en el período previo a los incas, sobre todo desde los siglos XII y XIII, la sierra sur se llenó de asentamientos fortificados en cumbres (pucaras), con murallas, parapetos y piedras de honda.",
+      "por_que_importa": "Es una de las bases del consenso actual de que la guerra entre señoríos fue frecuente en los Andes antes de la expansión inca, que los incas presentaron como una pacificación.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "skeletal-evidence-inca-warfare",
+      "titulo": "Skeletal evidence for Inca warfare from the Cuzco region of Peru",
+      "titulo_original": null,
+      "autor": "Valerie A. Andrushko y Elva C. Torres",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 600,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (American Journal of Physical Anthropology, vol. 146, n.º 3)",
+      "resumen": "Análisis de las lesiones de cráneo de 454 adultos de once sitios de la región del Cusco, desde el Horizonte Medio, la época wari (600-1000), hasta el período inca. El 22 % tenía alguna lesión, pero las heridas graves que sugieren guerra solo aumentaron en forma significativa en el período inca: 7,8 % de los adultos, frente a 2,5 % en el período anterior y 2,8 % en la época wari.",
+      "por_que_importa": "Aporta datos de los cuerpos a una historia de las guerras incas basada casi solo en las crónicas y muestra que en la región del Cusco la violencia grave aumentó con el imperio, no en el período de los pucaras.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ancient-quipu-locke",
+      "titulo": "The Ancient Quipu or Peruvian Knot Record",
+      "titulo_original": null,
+      "autor": "L. Leland Locke",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1923,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Museo Americano de Historia Natural)",
+      "resumen": "Estudio de los quipus del Museo Americano de Historia Natural en que Locke mostró, a partir de un primer artículo de 1912, que los nudos registraban números en un sistema decimal posicional y que algunos cordones suman los valores de otros.",
+      "por_que_importa": "Fue el primer desciframiento comprobable de una parte del código de los quipus.",
+      "leer": [
+        {
+          "titulo": "Artículo previo de Locke con el mismo hallazgo (American Anthropologist, 1912), en Internet Archive",
+          "url": "https://archive.org/details/jstor-659935",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "code-of-the-quipu",
+      "titulo": "Code of the Quipu: A Study in Media, Mathematics, and Culture",
+      "titulo_original": null,
+      "autor": "Marcia Ascher",
+      "autor_id": "marcia-ascher",
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "Ann Arbor",
+        "lon": -83.748,
+        "lat": 42.281
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro, con Robert Ascher (University of Michigan Press)",
+      "resumen": "Análisis matemático de cientos de quipus que describe sus convenciones (color, posición, tipos de nudo, cordones subsidiarios) y muestra que organizaban la información en categorías y jerarquías, además de registrar números.",
+      "por_que_importa": "Con su base de datos de quipus, abrió el estudio sistemático de su lógica.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "signs-of-the-inka-khipu",
+      "titulo": "Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records",
+      "titulo_original": null,
+      "autor": "Gary Urton",
+      "autor_id": "gary-urton",
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Austin",
+        "lon": -97.733,
+        "lat": 30.3
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (University of Texas Press)",
+      "resumen": "Propone que los quipus se armaban con una serie de elecciones binarias (material, sentido del hilado y del nudo, color, dirección de unión al cordón principal) que formaban un código capaz de registrar más que números, quizá nombres y relatos.",
+      "por_que_importa": "Es la formulación más conocida de la hipótesis de que los quipus pudieron funcionar como escritura, que sigue sin un desciframiento comprobado.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "khipu-accounting-puruchuco",
+      "titulo": "Khipu Accounting in Ancient Peru",
+      "titulo_original": null,
+      "autor": "Gary Urton",
+      "autor_id": "gary-urton",
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1450,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Science, vol. 309), con Carrie J. Brezine",
+      "resumen": "Análisis por computadora de un grupo de quipus de Puruchuco, cerca de Lima, que muestra que se correspondían en tres niveles: los valores de unos quipus se sumaban en otros, como en una contabilidad administrativa jerárquica. Los autores proponen que una secuencia de cordones al comienzo de algunos quipus identificaba el lugar.",
+      "por_que_importa": "Es la prueba más clara del uso administrativo de los quipus en varios niveles, como contaban las crónicas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "writing-with-twisted-cords",
+      "titulo": "Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus",
+      "titulo_original": null,
+      "autor": "Sabine Hyland",
+      "autor_id": "sabine-hyland",
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1700,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Current Anthropology, vol. 58, n.º 3)",
+      "resumen": "Estudio de dos quipus que conserva la comunidad de San Juan de Collata, en Huarochirí, que sus guardianes describen como cartas de la época de las rebeliones del siglo XVIII. Por la variedad de combinaciones de fibra animal, color y torsión, la autora propone que podrían registrar sílabas o palabras y lee algunos cordones como nombres de linajes.",
+      "por_que_importa": "Es uno de los argumentos más citados a favor de que algunos quipus registraban lenguaje; la propuesta no está confirmada.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "imperio-socialista-baudin",
+      "titulo": "El imperio socialista de los incas",
+      "titulo_original": "L'Empire socialiste des Inka",
+      "autor": "Louis Baudin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1928,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1400,
+        "hasta": 1532
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro (Institut d'Ethnologie)",
+      "resumen": "Obra del economista liberal francés Louis Baudin que describe al estado inca como un socialismo de estado planificado desde arriba: tierras asignadas por el estado, trabajo obligatorio, depósitos que aseguraban la subsistencia y ausencia de propiedad privada de la tierra y de mercado. Baudin veía en ese sistema seguridad material a costa de la libertad individual.",
+      "por_que_importa": "Con los Siete ensayos de Mariátegui, del mismo año, fijó la imagen de un «socialismo» o «comunismo» inca, admirado o criticado desde lados opuestos; la etnohistoria posterior (Murra, Rostworowski) la reemplazó por la de una economía de reciprocidad y redistribución con una nobleza privilegiada.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tihuanacu-posnansky",
+      "titulo": "Tihuanacu, la cuna del hombre americano",
+      "titulo_original": "Tihuanacu, the Cradle of American Man",
+      "autor": "Arthur Posnansky",
+      "autor_id": "arthur-posnansky",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -15000,
+        "hasta": 1100
+      },
+      "idioma_original": "Español e inglés",
+      "soporte": "Libro en cuatro tomos (J. J. Augustin)",
+      "resumen": "Obra en que Arthur Posnansky reunió cuatro décadas de estudios de Tiahuanaco, con planos y fotografías de un sitio que después se alteró mucho. Sostiene, a partir de cálculos sobre la orientación astronómica del Kalasasaya, que el templo se construyó hace unos 17 000 años y que Tiahuanaco fue la cuna de la humanidad americana.",
+      "por_que_importa": "Sus registros siguen siendo útiles; su cronología, refutada por los fechados por radiocarbono, que ubican el apogeo de Tiahuanaco entre 500 y 1000 d. C., sigue circulando en textos de seudoarqueología.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "in-the-wonderland-of-peru",
+      "titulo": "In the Wonderland of Peru",
+      "titulo_original": null,
+      "autor": "Hiram Bingham III",
+      "autor_id": "hiram-bingham",
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1913,
+        "aprox": false,
+        "lugar": "Washington",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1450,
+        "hasta": 1572
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Número de la National Geographic Magazine (abril de 1913)",
+      "resumen": "Número entero de la revista dedicado a la expedición de 1912 de la Universidad de Yale y la National Geographic Society a Machu Picchu, con muchas fotografías. Presentó el sitio al público como una ciudad perdida y propuso, sin pruebas, que había sido el lugar de origen de los incas y la última ciudad de los incas de Vilcabamba.",
+      "por_que_importa": "Hizo famoso a Machu Picchu en el mundo; las dos identificaciones se descartaron (la Vilcabamba de los últimos incas era Espíritu Pampa) y el relato del «descubrimiento» dejó en segundo plano a los campesinos que vivían allí y a quienes lo habían visitado antes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "misterio-sobre-el-desierto",
+      "titulo": "Misterio sobre el desierto",
+      "titulo_original": "Mystery on the Desert",
+      "autor": "María Reiche",
+      "autor_id": "maria-reiche",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": -200,
+        "hasta": 700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Primer libro de María Reiche sobre las líneas y figuras de Nazca, que ella medía y cartografiaba. Sostiene, siguiendo a Paul Kosok, que muchas líneas marcaban salidas y puestas de astros y formaban un calendario ligado al ciclo agrícola.",
+      "por_que_importa": "Difundió las líneas de Nazca y ayudó a protegerlas; la hipótesis calendárica fue en gran parte descartada por los estudios de Gerald Hawkins y de Anthony Aveni, que relacionan las líneas con el agua y con caminos rituales.",
+      "leer": [],
+      "confianza": "media"
+    }
+  ],
+  "personas": [
+    {
+      "id": "manco-capac",
+      "nombre": "Manco Cápac",
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1200,
+        "hasta": 1230,
+        "aprox": true
+      },
+      "roles": [
+        "sapa inca"
+      ],
+      "resumen": "Fundador legendario de la dinastía inca y del Cusco. Según Garcilaso salió del lago Titicaca con su hermana y esposa Mama Ocllo, enviado por el Sol para enseñar a vivir en pueblos, con leyes y agricultura, a gentes que según él vivían sin religión ni gobierno; según Betanzos, Cieza y Sarmiento era uno de los cuatro hermanos Ayar salidos de la cueva de Tambo Toco, en Pacaritambo, que ocuparon el Cusco desplazando por la fuerza a sus pobladores. No hay prueba arqueológica de su existencia y las fechas que se le dan son conjeturas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manco Cápac",
+        "en": "Manco Cápac"
+      },
+      "wikidata": "Q165968"
+    },
+    {
+      "id": "viracocha-inca",
+      "nombre": "Viracocha Inca",
+      "muerte": {
+        "anio": 1438,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1400,
+        "hasta": 1438,
+        "aprox": true
+      },
+      "roles": [
+        "sapa inca"
+      ],
+      "resumen": "Octavo inca según las crónicas, padre de Pachacútec. Betanzos y Sarmiento cuentan que abandonó el Cusco ante el ataque de los chancas y se refugió con su heredero Inca Urco, y que la defensa la hizo su hijo Cusi Yupanqui, que luego lo desplazó; Garcilaso, en cambio, le atribuye a él la victoria. Muchos historiadores, como María Rostworowski, explican las diferencias por los intereses de las panacas que informaron a cada cronista.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Huiracocha Inca",
+        "en": "Viracocha Inca"
+      },
+      "wikidata": "Q377964"
+    },
+    {
+      "id": "huascar",
+      "nombre": "Huáscar",
+      "nacimiento": {
+        "anio": 1503,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1532,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1527,
+        "hasta": 1532,
+        "aprox": false
+      },
+      "roles": [
+        "sapa inca"
+      ],
+      "resumen": "Hijo de Huayna Cápac, reconocido como inca en el Cusco tras la muerte de su padre y de Ninan Cuyochi hacia 1527. Las crónicas lo describen enfrentado con la nobleza cusqueña y con el culto de los incas muertos; su guerra con su medio hermano Atahualpa terminó con su derrota y captura en Quipaipán en 1532. Por orden de Atahualpa, ya prisionero de los españoles, fue muerto en el camino a Cajamarca, a fines de 1532 o comienzos de 1533.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Huáscar",
+        "en": "Huáscar"
+      },
+      "wikidata": "Q213749"
+    },
+    {
+      "id": "ninan-cuyochi",
+      "nombre": "Ninan Cuyochi",
+      "muerte": {
+        "anio": 1527,
+        "aprox": true
+      },
+      "roles": [
+        "heredero inca"
+      ],
+      "resumen": "Hijo de Huayna Cápac al que, según varias crónicas, se había elegido como sucesor. Murió poco después que su padre, en el norte, en la epidemia que los historiadores suelen identificar con la viruela llegada antes que los conquistadores; su muerte dejó abierta la sucesión entre Huáscar y Atahualpa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ninan Cuyuchi",
+        "en": "Ninan Cuyochi"
+      },
+      "wikidata": "Q2483584"
+    },
+    {
+      "id": "quisquis",
+      "nombre": "Quisquis",
+      "muerte": {
+        "anio": 1535,
+        "aprox": false
+      },
+      "roles": [
+        "general inca"
+      ],
+      "resumen": "General de Atahualpa que, con Chalcuchímac, venció a Huáscar en Quipaipán en 1532 y ocupó el Cusco, donde, según Betanzos, Sarmiento y Garcilaso, él y otros enviados de Atahualpa mataron a la familia y a los partidarios de Huáscar. Después combatió a los españoles y a sus aliados indígenas hasta 1535, cuando lo mataron sus propios capitanes.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quizquiz",
+        "en": "Quizquiz"
+      },
+      "wikidata": "Q2485991"
+    },
+    {
+      "id": "chalcuchimac",
+      "nombre": "Chalcuchímac",
+      "muerte": {
+        "anio": 1533,
+        "aprox": false,
+        "lugar": "Valle de Jaquijahuana (Anta)",
+        "lon": -72.15,
+        "lat": -13.46
+      },
+      "roles": [
+        "general inca"
+      ],
+      "resumen": "General de Atahualpa, vencedor de los ejércitos de Huáscar en el norte y en Quipaipán (1532). En 1533 Hernando Pizarro lo llevó a Cajamarca; acusado de dirigir los ataques indígenas contra la columna española que marchaba al Cusco, Francisco Pizarro lo hizo quemar vivo en el valle de Jaquijahuana, cerca del Cusco, en noviembre de ese año.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Chalcuchima",
+        "en": "Chalcuchima"
+      },
+      "wikidata": "Q1059524"
+    },
+    {
+      "id": "cuxirimay-ocllo",
+      "nombre": "Cuxirimay Ocllo",
+      "nacimiento": {
+        "anio": 1518,
+        "aprox": true
+      },
+      "roles": [
+        "noble inca"
+      ],
+      "resumen": "Noble cusqueña de la panaca de Pachacútec, prometida o esposa de Atahualpa; después de la muerte de este fue compañera de Francisco Pizarro, con quien tuvo dos hijos, y luego esposa de Juan de Betanzos, ya con el nombre de Angelina Yupanqui. Los historiadores atribuyen a la información de su linaje que la Suma y narración de Betanzos exalte a Pachacútec y presente a Atahualpa con simpatía.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cuxirimay Ocllo",
+        "en": "Cuxirimay Ocllo"
+      },
+      "wikidata": "Q5795126"
+    },
+    {
+      "id": "jose-de-acosta",
+      "nombre": "José de Acosta",
+      "nacimiento": {
+        "anio": 1540,
+        "aprox": false,
+        "lugar": "Medina del Campo",
+        "lon": -4.915,
+        "lat": 41.309
+      },
+      "muerte": {
+        "anio": 1600,
+        "aprox": false,
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1572,
+        "hasta": 1586,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "cronista",
+        "teólogo"
+      ],
+      "resumen": "Jesuita castellano que vivió en el Perú de 1572 a 1586, fue provincial de su orden y teólogo del Tercer Concilio Limense, donde se preparó el catecismo trilingüe. Escribió De procuranda indorum salute, sobre la evangelización de los indios, y la Historia natural y moral de las Indias (1590), que difundió en Europa la naturaleza americana y las religiones y gobiernos de incas y mexicas.",
+      "obras": [
+        "historia-natural-y-moral-de-las-indias",
+        "de-procuranda-indorum-salute"
+      ],
+      "wikipedia": {
+        "es": "José de Acosta",
+        "en": "José de Acosta"
+      },
+      "wikidata": "Q555476"
+    },
+    {
+      "id": "bernabe-cobo",
+      "nombre": "Bernabé Cobo",
+      "nacimiento": {
+        "anio": 1580,
+        "aprox": false,
+        "lugar": "Lopera",
+        "lon": -4.215,
+        "lat": 37.946
+      },
+      "muerte": {
+        "anio": 1657,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1599,
+        "hasta": 1657,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "cronista",
+        "naturalista"
+      ],
+      "resumen": "Jesuita andaluz que llegó a América en 1596 y pasó la mayor parte de su vida en el Perú, con un período en México (1630-1650). Durante unos cuarenta años reunió materiales para su Historia del Nuevo Mundo, terminada en 1653, que describe la naturaleza americana con rigor de naturalista y la religión y la sociedad incas a partir de crónicas, informantes y observación propia.",
+      "obras": [
+        "historia-del-nuevo-mundo-cobo"
+      ],
+      "wikipedia": {
+        "es": "Bernabé Cobo",
+        "en": "Bernabé Cobo"
+      },
+      "wikidata": "Q1405592"
+    },
+    {
+      "id": "cristobal-de-molina",
+      "nombre": "Cristóbal de Molina",
+      "nacimiento": {
+        "anio": 1529,
+        "aprox": false,
+        "lugar": "Baeza",
+        "lon": -3.467,
+        "lat": 37.983
+      },
+      "muerte": {
+        "anio": 1585,
+        "aprox": false,
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319
+      },
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1556,
+        "hasta": 1585,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "cronista",
+        "quechuista"
+      ],
+      "resumen": "Clérigo llamado «el cuzqueño», predicador en quechua del hospital de naturales del Cusco y visitador eclesiástico. Por encargo del obispo Sebastián de Lartaún escribió hacia 1575 la Relación de las fábulas y ritos de los incas, con informantes que habían servido en el culto antiguo. No debe confundirse con su contemporáneo Cristóbal de Molina «el almagrista».",
+      "obras": [
+        "relacion-de-las-fabulas-y-ritos"
+      ],
+      "wikipedia": {
+        "es": "Cristóbal de Molina",
+        "en": "Cristóbal de Molina"
+      },
+      "wikidata": "Q3697739"
+    },
+    {
+      "id": "martin-de-murua",
+      "nombre": "Martín de Murúa",
+      "nacimiento": {
+        "anio": 1525,
+        "aprox": true,
+        "lugar": "Guipúzcoa",
+        "lon": -2.167,
+        "lat": 43.167
+      },
+      "muerte": {
+        "anio": 1618,
+        "aprox": true,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Cusco",
+        "lon": -71.9675,
+        "lat": -13.5319,
+        "desde": 1585,
+        "hasta": 1611,
+        "aprox": true
+      },
+      "roles": [
+        "fraile",
+        "cronista"
+      ],
+      "resumen": "Fraile mercedario vasco que fue doctrinero en el sur andino y escribió dos versiones ilustradas de una historia de los incas (1590 y 1616). Felipe Guaman Poma de Ayala hizo buena parte de los dibujos de la primera y después lo acusó, en su Nueva corónica, de maltratar a los indios de su doctrina.",
+      "obras": [
+        "historia-general-del-piru-murua"
+      ],
+      "wikipedia": {
+        "es": "Martín de Murúa",
+        "en": "Martín de Murúa"
+      },
+      "wikidata": "Q511649"
+    },
+    {
+      "id": "blas-valera",
+      "nombre": "Blas Valera",
+      "nacimiento": {
+        "anio": 1545,
+        "aprox": false,
+        "lugar": "Chachapoyas",
+        "lon": -77.87,
+        "lat": -6.23
+      },
+      "muerte": {
+        "anio": 1597,
+        "aprox": false,
+        "lugar": "Cádiz",
+        "lon": -6.298,
+        "lat": 36.535
+      },
+      "roles": [
+        "jesuita",
+        "cronista"
+      ],
+      "resumen": "Jesuita mestizo nacido en Chachapoyas, hijo de un conquistador y de una mujer andina, que trabajó como intérprete y predicador en quechua. Escribió en latín una historia del Perú que se perdió; Garcilaso la conoció en fragmentos y la cita con frecuencia. Se le atribuye la Relación de las costumbres antiguas de los naturales del Pirú, y los documentos Miccinelli le atribuyen una vida posterior a su muerte oficial que la mayoría de los especialistas no acepta.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Blas Valera",
+        "en": "Blas Valera"
+      },
+      "wikidata": "Q727486"
+    },
+    {
+      "id": "francisco-de-avila",
+      "nombre": "Francisco de Ávila",
+      "nacimiento": {
+        "anio": 1573,
+        "aprox": false,
+        "lugar": "Cusco",
+        "lon": -71.979,
+        "lat": -13.517
+      },
+      "muerte": {
+        "anio": 1647,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Huarochirí",
+        "lon": -76.233,
+        "lat": -12.135,
+        "desde": 1597,
+        "hasta": 1610,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "extirpador"
+      ],
+      "resumen": "Clérigo cusqueño, cura de San Damián de Checa, en Huarochirí, desde 1597. Hizo reunir las tradiciones religiosas de la provincia en el manuscrito quechua de Huarochirí y desde 1609 encabezó las campañas de extirpación de idolatrías del arzobispado de Lima, con destrucción de huacas y momias y castigos públicos; antes había sido denunciado por sus feligreses por abusos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de Ávila (presbítero peruano)",
+        "en": "Francisco de Ávila"
+      },
+      "wikidata": "Q2034667"
+    },
+    {
+      "id": "miguel-cabello-balboa",
+      "nombre": "Miguel Cabello Balboa",
+      "nacimiento": {
+        "anio": 1535,
+        "aprox": true,
+        "lugar": "Archidona",
+        "lon": -4.391,
+        "lat": 37.095
+      },
+      "muerte": {
+        "anio": 1608,
+        "aprox": false,
+        "lugar": "Perú",
+        "lon": -76.0,
+        "lat": -9.4
+      },
+      "activo": {
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22,
+        "desde": 1576,
+        "hasta": 1586,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "cronista"
+      ],
+      "resumen": "Clérigo andaluz, antes soldado, que en Quito escribió la Miscelánea antártica (1586), con una cronología de los reyes incas que John Rowe adoptó en 1945 y que todavía se usa. Recogió también la leyenda de Naylamp, de la costa norte, y participó en expediciones a la selva oriental, donde murió.",
+      "obras": [
+        "miscelanea-antartica"
+      ],
+      "wikipedia": {
+        "es": "Miguel Cabello de Balboa",
+        "en": "Miguel Cabello de Balboa"
+      },
+      "wikidata": "Q1405397"
+    },
+    {
+      "id": "juan-de-velasco",
+      "nombre": "Juan de Velasco",
+      "nacimiento": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Riobamba",
+        "lon": -78.648,
+        "lat": -1.673
+      },
+      "muerte": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Faenza",
+        "lon": 11.883,
+        "lat": 44.286
+      },
+      "activo": {
+        "lugar": "Faenza",
+        "lon": 11.883,
+        "lat": 44.286,
+        "desde": 1767,
+        "hasta": 1792,
+        "aprox": false
+      },
+      "roles": [
+        "jesuita",
+        "historiador"
+      ],
+      "resumen": "Jesuita nacido en Riobamba, expulsado con su orden en 1767, que en Italia escribió la Historia del reino de Quito (1789). Su relato del reino de los shyris, sin apoyo documental conocido, se volvió durante el siglo XIX la base de la historia nacional ecuatoriana anterior a los incas.",
+      "obras": [
+        "historia-del-reino-de-quito"
+      ],
+      "wikipedia": {
+        "es": "Juan de Velasco",
+        "en": "Juan de Velasco"
+      },
+      "wikidata": "Q447560"
+    },
+    {
+      "id": "max-uhle",
+      "nombre": "Max Uhle",
+      "nacimiento": {
+        "anio": 1856,
+        "aprox": false,
+        "lugar": "Dresde",
+        "lon": 13.738,
+        "lat": 51.049
+      },
+      "muerte": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Lubliniec",
+        "lon": 18.684,
+        "lat": 50.669
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo alemán que trabajó en el Perú, Bolivia, Chile y Ecuador entre 1892 y 1933. Con Alphons Stübel publicó Tiahuanaco (1892) y en Pachacámac (1896) hizo la primera excavación estratigráfica de los Andes, base de la secuencia cultural que todavía se usa. Sostuvo que la civilización andina venía de influencias de Mesoamérica por la costa, idea que Tello combatió.",
+      "obras": [
+        "pachacamac-uhle"
+      ],
+      "wikipedia": {
+        "es": "Max Uhle",
+        "en": "Max Uhle"
+      },
+      "wikidata": "Q216031"
+    },
+    {
+      "id": "julio-c-tello",
+      "nombre": "Julio C. Tello",
+      "nacimiento": {
+        "anio": 1880,
+        "aprox": false,
+        "lugar": "provincia de Huarochirí",
+        "lon": -76.384,
+        "lat": -11.845
+      },
+      "muerte": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "roles": [
+        "arqueólogo",
+        "médico"
+      ],
+      "resumen": "Médico y arqueólogo nacido en Huarochirí, de familia quechuahablante, considerado el fundador de la arqueología peruana. Estudió Chavín de Huántar desde 1919, descubrió los cementerios de Paracas (1925-1927) y defendió el origen autóctono, serrano y amazónico, de la civilización andina. Creó museos y promovió leyes de protección del patrimonio arqueológico.",
+      "obras": [
+        "chavin-tello"
+      ],
+      "wikipedia": {
+        "es": "Julio César Tello",
+        "en": "Julio C. Tello"
+      },
+      "wikidata": "Q1395135"
+    },
+    {
+      "id": "rafael-larco-hoyle",
+      "nombre": "Rafael Larco Hoyle",
+      "nacimiento": {
+        "anio": 1901,
+        "aprox": false,
+        "lugar": "Trujillo",
+        "lon": -79.029,
+        "lat": -8.112
+      },
+      "muerte": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Hacendado y arqueólogo peruano que reunió una gran colección de cerámica de la costa norte, base del museo Larco de Lima. Propuso la primera secuencia de estilos de la cerámica moche, definió la cultura Cupisnique y en 1946 propuso una cronología de la costa norte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rafael Larco Hoyle",
+        "en": "Rafael Larco Hoyle"
+      },
+      "wikidata": "Q438317"
+    },
+    {
+      "id": "maria-reiche",
+      "nombre": "María Reiche",
+      "nacimiento": {
+        "anio": 1903,
+        "aprox": false,
+        "lugar": "Dresde",
+        "lon": 13.738,
+        "lat": 51.049
+      },
+      "muerte": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Líneas y geoglifos de Nazca",
+        "lon": -75.135,
+        "lat": -14.697,
+        "desde": 1946,
+        "hasta": 1998,
+        "aprox": false
+      },
+      "roles": [
+        "matemática",
+        "arqueóloga"
+      ],
+      "resumen": "Matemática alemana que desde 1946 midió y cartografió las líneas y figuras de Nazca, primero con la hipótesis de Paul Kosok de que eran un calendario astronómico. Su trabajo y su defensa de las pampas contribuyeron a su protección legal y a su declaración como Patrimonio de la Humanidad en 1994.",
+      "obras": [
+        "misterio-sobre-el-desierto"
+      ],
+      "wikipedia": {
+        "es": "Maria Reiche",
+        "en": "Maria Reiche"
+      },
+      "wikidata": "Q213577"
+    },
+    {
+      "id": "john-rowe",
+      "nombre": "John Howland Rowe",
+      "nacimiento": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Sorrento",
+        "lon": -68.177,
+        "lat": 44.473
+      },
+      "muerte": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "roles": [
+        "arqueólogo",
+        "historiador"
+      ],
+      "resumen": "Arqueólogo estadounidense, profesor en Berkeley, que trabajó en el Cusco desde 1939. En 1945 propuso las fechas de los reinados incas a partir de Cabello Balboa (Pachacútec desde 1438), y en 1946 publicó la síntesis de la cultura inca del Handbook of South American Indians; organizó la cronología de horizontes y períodos de la arqueología andina.",
+      "obras": [
+        "absolute-chronology-rowe",
+        "inca-culture-rowe"
+      ],
+      "wikipedia": {
+        "es": "John Rowe",
+        "en": "John Howland Rowe"
+      },
+      "wikidata": "Q366240"
+    },
+    {
+      "id": "john-murra",
+      "nombre": "John Murra",
+      "nacimiento": {
+        "anio": 1916,
+        "aprox": false,
+        "lugar": "Odesa",
+        "lon": 30.733,
+        "lat": 46.484
+      },
+      "muerte": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Ithaca",
+        "lon": -76.5,
+        "lat": 42.443
+      },
+      "roles": [
+        "antropólogo",
+        "etnohistoriador"
+      ],
+      "resumen": "Antropólogo nacido en Odesa, que combatió en la guerra civil española y se dedicó luego a la economía inca. Usó las visitas administrativas del siglo XVI de Huánuco y Chucuito para describir la reciprocidad, la redistribución estatal y el «control vertical» de pisos ecológicos por los grupos andinos, y fue uno de los fundadores de la etnohistoria andina.",
+      "obras": [
+        "formaciones-economicas-murra"
+      ],
+      "wikipedia": {
+        "es": "John Murra",
+        "en": "John Victor Murra"
+      },
+      "wikidata": "Q1635264"
+    },
+    {
+      "id": "maria-rostworowski",
+      "nombre": "María Rostworowski",
+      "nacimiento": {
+        "anio": 1915,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "muerte": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "roles": [
+        "historiadora",
+        "etnohistoriadora"
+      ],
+      "resumen": "Historiadora peruana que trabajó con documentos coloniales de archivo (juicios, visitas, testamentos) para estudiar los señoríos de la costa, los curacas, las mujeres de la nobleza y la sucesión inca. Su Historia del Tahuantinsuyu (1988) presentó a los incas desde la perspectiva andina y no solo desde el Cusco.",
+      "obras": [
+        "historia-del-tahuantinsuyu"
+      ],
+      "wikipedia": {
+        "es": "María Rostworowski",
+        "en": "María Rostworowski"
+      },
+      "wikidata": "Q970449"
+    },
+    {
+      "id": "tom-zuidema",
+      "nombre": "R. Tom Zuidema",
+      "nacimiento": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Haarlem",
+        "lon": 4.636,
+        "lat": 52.381
+      },
+      "muerte": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Urbana",
+        "lon": -88.204,
+        "lat": 40.11
+      },
+      "roles": [
+        "antropólogo"
+      ],
+      "resumen": "Antropólogo neerlandés que estudió el sistema de ceques del Cusco y propuso una lectura estructural de la historia inca, en la que las listas dinásticas expresan la organización social y no una sucesión lineal de reyes. Enseñó en la Universidad de Illinois.",
+      "obras": [
+        "ceque-system-zuidema"
+      ],
+      "wikipedia": {
+        "es": "Tom Zuidema",
+        "en": "Reiner Tom Zuidema"
+      },
+      "wikidata": "Q7274058"
+    },
+    {
+      "id": "luis-lumbreras",
+      "nombre": "Luis Guillermo Lumbreras",
+      "nacimiento": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Ayacucho",
+        "lon": -74.224,
+        "lat": -13.163
+      },
+      "muerte": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo peruano nacido en Ayacucho que excavó en Chavín de Huántar y estudió el período wari. Desde una arqueología social de inspiración marxista escribió síntesis sobre el origen de la civilización y del estado en los Andes y dirigió el Museo Nacional de Antropología y Arqueología del Perú.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis Guillermo Lumbreras",
+        "en": "Luis Guillermo Lumbreras"
+      },
+      "wikidata": "Q5983803"
+    },
+    {
+      "id": "michael-moseley",
+      "nombre": "Michael E. Moseley",
+      "nacimiento": {
+        "anio": 1941,
+        "aprox": false,
+        "lugar": "Dayton",
+        "lon": -84.2,
+        "lat": 39.767
+      },
+      "muerte": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Moquegua",
+        "lon": -70.933,
+        "lat": -17.2
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo estadounidense de la Universidad de Florida que propuso en 1975 que la civilización andina tuvo bases marítimas, en aldeas costeras de pescadores que levantaron templos antes de la agricultura intensiva. Dirigió excavaciones en Chan Chan y estudió el efecto de terremotos y de El Niño en las sociedades de la costa.",
+      "obras": [
+        "maritime-foundations-moseley"
+      ],
+      "wikipedia": {
+        "en": "Michael E. Moseley"
+      },
+      "wikidata": "Q6830032"
+    },
+    {
+      "id": "christopher-donnan",
+      "nombre": "Christopher B. Donnan",
+      "nacimiento": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Covina",
+        "lon": -117.879,
+        "lat": 34.092
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo estadounidense especialista en la iconografía moche, que identificó en la pintura de cerámica la escena repetida de la «ceremonia del sacrificio», en la que se presentan copas con sangre de prisioneros. Colaboró con Walter Alva en la publicación de las tumbas de Sipán.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Christopher B. Donnan"
+      },
+      "wikidata": "Q5111883"
+    },
+    {
+      "id": "richard-burger",
+      "nombre": "Richard L. Burger",
+      "nacimiento": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Manhattan",
+        "lon": -73.994,
+        "lat": 40.728
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo estadounidense, profesor en Yale, que excavó en Chavín de Huántar y escribió la síntesis de referencia sobre Chavín y los orígenes de la civilización andina. Dirigió los fechados por radiocarbono que en 2021 mostraron que Machu Picchu estaba ocupado desde hacia 1420.",
+      "obras": [
+        "chavin-burger"
+      ],
+      "wikipedia": {
+        "es": "Richard Burger",
+        "en": "Richard L. Burger"
+      },
+      "wikidata": "Q28398049"
+    },
+    {
+      "id": "ruth-shady",
+      "nombre": "Ruth Shady",
+      "nacimiento": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Callao",
+        "lon": -77.139,
+        "lat": -12.052
+      },
+      "activo": {
+        "lugar": "Caral",
+        "lon": -77.52,
+        "lat": -10.8939,
+        "desde": 1994,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "arqueóloga"
+      ],
+      "resumen": "Arqueóloga peruana que desde 1994 dirige las investigaciones en Caral, en el valle de Supe. Sus fechados mostraron que Caral tenía arquitectura monumental hacia 2600 a. C., y sostiene que fue la primera sociedad con estado de América.",
+      "obras": [
+        "dating-caral"
+      ],
+      "wikipedia": {
+        "es": "Ruth Shady",
+        "en": "Ruth Shady"
+      },
+      "wikidata": "Q435197"
+    },
+    {
+      "id": "walter-alva",
+      "nombre": "Walter Alva",
+      "nacimiento": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Distrito de Contumazá",
+        "lon": -78.804,
+        "lat": -7.366
+      },
+      "activo": {
+        "lugar": "Huaca Rajada (Sipán)",
+        "lon": -79.602,
+        "lat": -6.801,
+        "desde": 1987,
+        "hasta": 2002,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo peruano que en 1987, después de que saqueadores abrieran una tumba en Huaca Rajada, Sipán, excavó con la policía y el Estado la tumba intacta del Señor de Sipán y otras tumbas moche de élite. Dirigió el Museo Tumbas Reales de Sipán, en Lambayeque.",
+      "obras": [
+        "royal-tombs-of-sipan"
+      ],
+      "wikipedia": {
+        "es": "Walter Alva Alva",
+        "en": "Walter Alva"
+      },
+      "wikidata": "Q3565678"
+    },
+    {
+      "id": "john-verano",
+      "nombre": "John W. Verano",
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 2001,
+        "hasta": 2016,
+        "aprox": false
+      },
+      "roles": [
+        "bioarqueólogo"
+      ],
+      "resumen": "Bioarqueólogo estadounidense, profesor en la Universidad de Tulane, que estudió los restos de las víctimas de sacrificio moche de la Huaca de la Luna, los sacrificios de niños y camélidos de Huanchaquito-Las Llamas y la trepanación de cráneos en los Andes.",
+      "obras": [
+        "physical-evidence-sacrifice-verano",
+        "holes-in-the-head"
+      ],
+      "wikipedia": {
+        "en": "John Verano"
+      },
+      "wikidata": "Q6261916"
+    },
+    {
+      "id": "johan-reinhard",
+      "nombre": "Johan Reinhard",
+      "nacimiento": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Joliet",
+        "lon": -88.083,
+        "lat": 41.525
+      },
+      "roles": [
+        "antropólogo",
+        "montañista"
+      ],
+      "resumen": "Antropólogo y montañista estadounidense especializado en los santuarios incas de alta montaña. Con Miguel Zárate encontró en 1995 el cuerpo de la niña del Ampato (Juanita) y con Constanza Ceruti, en 1999, los tres niños del Llullaillaco.",
+      "obras": [
+        "inca-rituals-and-sacred-mountains"
+      ],
+      "wikipedia": {
+        "es": "Johan Reinhard",
+        "en": "Johan Reinhard"
+      },
+      "wikidata": "Q1692067"
+    },
+    {
+      "id": "constanza-ceruti",
+      "nombre": "Constanza Ceruti",
+      "nacimiento": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "roles": [
+        "arqueóloga"
+      ],
+      "resumen": "Arqueóloga argentina especializada en santuarios incas de alta montaña, que participó en la excavación de los niños del Llullaillaco (1999) y en muchas ascensiones arqueológicas en los Andes.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Constanza Ceruti",
+        "en": "Constanza Ceruti"
+      },
+      "wikidata": "Q10862951"
+    },
+    {
+      "id": "gary-urton",
+      "nombre": "Gary Urton",
+      "nacimiento": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Clovis",
+        "lon": -103.205,
+        "lat": 34.405
+      },
+      "roles": [
+        "antropólogo"
+      ],
+      "resumen": "Antropólogo estadounidense, profesor en Harvard, especialista en quipus y astronomía andina. Fundó con Carrie Brezine la base de datos de quipus de Harvard y propuso que los quipus usaban un código binario capaz de registrar más que números.",
+      "obras": [
+        "signs-of-the-inka-khipu",
+        "khipu-accounting-puruchuco"
+      ],
+      "wikipedia": {
+        "en": "Gary Urton"
+      },
+      "wikidata": "Q1494969"
+    },
+    {
+      "id": "sabine-hyland",
+      "nombre": "Sabine Hyland",
+      "activo": {
+        "lugar": "Saint Andrews",
+        "lon": -2.799,
+        "lat": 56.339,
+        "desde": 2017,
+        "hasta": 2017,
+        "aprox": false
+      },
+      "roles": [
+        "antropóloga"
+      ],
+      "resumen": "Antropóloga estadounidense, profesora en la Universidad de St Andrews, que estudia los quipus coloniales y su relación con el lenguaje. Sus estudios de los quipus de Collata (2017) alimentaron la hipótesis de que algunos quipus registraban palabras.",
+      "obras": [
+        "writing-with-twisted-cords"
+      ],
+      "wikipedia": {
+        "es": "Sabine Hyland",
+        "en": "Sabine Hyland"
+      },
+      "wikidata": "Q61913745"
+    },
+    {
+      "id": "marcia-ascher",
+      "nombre": "Marcia Ascher",
+      "nacimiento": {
+        "anio": 1935,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "muerte": {
+        "anio": 2013,
+        "aprox": false
+      },
+      "roles": [
+        "matemática"
+      ],
+      "resumen": "Matemática estadounidense que con el antropólogo Robert Ascher analizó cientos de quipus y describió sus convenciones lógicas; fue una de las fundadoras de la etnomatemática.",
+      "obras": [
+        "code-of-the-quipu"
+      ],
+      "wikipedia": {
+        "en": "Marcia Ascher"
+      },
+      "wikidata": "Q59527594"
+    },
+    {
+      "id": "arthur-posnansky",
+      "nombre": "Arthur Posnansky",
+      "nacimiento": {
+        "anio": 1873,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "muerte": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "La Paz",
+        "lon": -68.133,
+        "lat": -16.496
+      },
+      "activo": {
+        "lugar": "Tiahuanaco (Tiwanaku)",
+        "lon": -68.673,
+        "lat": -16.555,
+        "desde": 1904,
+        "hasta": 1946,
+        "aprox": false
+      },
+      "roles": [
+        "ingeniero",
+        "explorador"
+      ],
+      "resumen": "Ingeniero austríaco radicado en Bolivia que estudió Tiahuanaco durante cuatro décadas. Dejó planos y fotografías valiosos, pero sostuvo, por cálculos astronómicos, que el sitio tenía unos 17 000 años, cronología que los fechados por radiocarbono refutaron.",
+      "obras": [
+        "tihuanacu-posnansky"
+      ],
+      "wikipedia": {
+        "es": "Arthur Posnansky",
+        "en": "Arthur Posnansky"
+      },
+      "wikidata": "Q4368887"
+    },
+    {
+      "id": "hiram-bingham",
+      "nombre": "Hiram Bingham III",
+      "nacimiento": {
+        "anio": 1875,
+        "aprox": false,
+        "lugar": "Honolulu",
+        "lon": -157.857,
+        "lat": 21.305
+      },
+      "muerte": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "roles": [
+        "explorador",
+        "político"
+      ],
+      "resumen": "Profesor de Yale que en 1911 llegó a Machu Picchu guiado por campesinos de la zona y dirigió expediciones financiadas por Yale y la National Geographic Society, que se llevaron miles de piezas a los Estados Unidos. Después fue senador. Yale devolvió las piezas al Perú entre 2011 y 2012, tras un largo reclamo.",
+      "obras": [
+        "in-the-wonderland-of-peru"
+      ],
+      "wikipedia": {
+        "es": "Hiram Bingham III",
+        "en": "Hiram Bingham III"
+      },
+      "wikidata": "Q237220"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "cultura-valdivia",
+      "titulo": "La cultura Valdivia",
+      "anio": -3800,
+      "anio_hasta": -1500,
+      "aprox": true,
+      "lugar": "Real Alto",
+      "lon": -80.654,
+      "lat": -2.365,
+      "tipo": "cultural",
+      "resumen": "Cultura de la costa del Ecuador, una de las primeras de América en hacer cerámica, desde hacia 3800 a. C., y en vivir en aldeas agrícolas estables, con maíz, porotos, algodón y pesca. Es conocida por sus figurillas femeninas de piedra y de cerámica y por aldeas como Real Alto, con casas alrededor de una plaza. En 1965 Emilio Estrada, Betty Meggers y Clifford Evans propusieron que su cerámica la habían traído pescadores japoneses de la cultura Jōmon; hoy casi nadie acepta esa hipótesis, porque no hay pruebas del contacto y la cerámica de la región tiene un desarrollo propio.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura valdivia",
+        "en": "Valdivia culture"
+      }
+    },
+    {
+      "id": "cultura-chavin",
+      "titulo": "La cultura Chavín",
+      "anio": -1200,
+      "anio_hasta": -200,
+      "aprox": true,
+      "lugar": "Chavín de Huántar",
+      "lon": -77.178,
+      "lat": -9.593,
+      "tipo": "religioso",
+      "resumen": "Tradición religiosa y artística centrada en el templo de Chavín de Huántar, cuyo estilo, con felinos, aves de presa, serpientes y seres con colmillos, se difundió por la sierra y la costa del Perú en el primer milenio a. C., junto con técnicas de tejido, de orfebrería y de cerámica. Julio C. Tello la consideró la «cultura matriz» de la civilización andina; hoy se sabe que la precedieron centros monumentales como Caral, Sechín y Kotosh, y se la ve más como un gran centro de culto y peregrinación que como un estado. Richard Burger la ubica entre 900 y 200 a. C., y John Rick propone que el templo empezó hacia 1200 a. C.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "chavin-tello",
+        "chavin-burger"
+      ],
+      "wikipedia": {
+        "es": "Cultura chavín",
+        "en": "Chavín culture"
+      }
+    },
+    {
+      "id": "cultura-paracas",
+      "titulo": "La cultura Paracas",
+      "anio": -800,
+      "anio_hasta": -100,
+      "aprox": true,
+      "lugar": "Paracas",
+      "lon": -76.2,
+      "lat": -14.1,
+      "tipo": "cultural",
+      "resumen": "Cultura de la costa sur del Perú, en la península de Paracas y los valles de Ica y Pisco, conocida por sus fardos funerarios envueltos en mantos bordados de lana y algodón, entre los textiles más finos del mundo antiguo. Julio C. Tello y Toribio Mejía Xesspe descubrieron en 1925-1927 sus cementerios de Cerro Colorado y la necrópolis de Wari Kayan, con unos 430 fardos. Practicaban la deformación craneana y la trepanación del cráneo, a menudo con supervivencia del operado, y se la considera antecesora de la cultura Nazca.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "holes-in-the-head"
+      ],
+      "wikipedia": {
+        "es": "Cultura paracas",
+        "en": "Paracas culture"
+      }
+    },
+    {
+      "id": "cultura-nazca",
+      "titulo": "La cultura Nazca",
+      "anio": -100,
+      "anio_hasta": 700,
+      "aprox": true,
+      "lugar": "Cahuachi",
+      "lon": -75.117,
+      "lat": -14.819,
+      "tipo": "cultural",
+      "resumen": "Cultura de los valles de Nazca e Ica, en la costa sur del Perú, conocida por su cerámica policroma, sus acueductos subterráneos (puquios) y los geoglifos de las pampas; su centro ceremonial fue Cahuachi. Cientos de cabezas trofeo, con un agujero en la frente para colgarlas de una cuerda y a veces con los labios cerrados con espinas, y su presencia constante en la cerámica muestran la importancia de la guerra y la toma de cabezas. Se discute si eran enemigos o antepasados de la propia comunidad; los análisis de isótopos indican que muchas eran de personas de la región.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "misterio-sobre-el-desierto",
+        "physical-evidence-sacrifice-verano"
+      ],
+      "wikipedia": {
+        "es": "Cultura nazca",
+        "en": "Nazca culture"
+      }
+    },
+    {
+      "id": "cultura-moche",
+      "titulo": "La cultura Moche",
+      "anio": 100,
+      "anio_hasta": 800,
+      "aprox": true,
+      "lugar": "Huacas del Sol y de la Luna",
+      "lon": -78.991,
+      "lat": -8.135,
+      "tipo": "cultural",
+      "resumen": "Sociedad de la costa norte del Perú, entre los valles de Piura y Huarmey, con grandes plataformas de adobe como las huacas del Sol y de la Luna, Sipán y El Brujo y con extensos canales de riego. Su cerámica escultórica y pintada representa con realismo a personas, animales, enfermedades, sexo, guerra y sacrificios, y sus orfebres trabajaron el oro, la plata y el cobre con técnicas avanzadas. Se discute si formó un solo estado o varios señoríos agrupados en una región norte y otra sur; decayó hacia 600-800, en un período de lluvias de El Niño y sequías que varios arqueólogos consideran una de las causas.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "royal-tombs-of-sipan",
+        "physical-evidence-sacrifice-verano"
+      ],
+      "wikipedia": {
+        "es": "Cultura moche",
+        "en": "Moche culture"
+      }
+    },
+    {
+      "id": "sacrificios-moche",
+      "titulo": "Sacrificio humano entre los moche",
+      "anio": 100,
+      "anio_hasta": 800,
+      "aprox": true,
+      "lugar": "Huacas del Sol y de la Luna",
+      "lon": -78.991,
+      "lat": -8.135,
+      "tipo": "religioso",
+      "resumen": "La pintura moche repite una escena que Christopher Donnan llamó «ceremonia del sacrificio»: guerreros vencidos son desnudados, atados y degollados, y personajes de alto rango beben su sangre en copas. En la plaza 3A de la Huaca de la Luna, Steve Bourget excavó en la década de 1990 los restos de al menos 70 hombres jóvenes con fracturas, degüellos, marcas de corte y desmembramientos, algunos enterrados en barro de lluvias intensas, y John Verano los interpreta como prisioneros de guerra sacrificados. Se discute si los prisioneros venían de guerras entre señoríos o de combates rituales; las tumbas de Sipán y de San José de Moro mostraron que los oficiantes de la escena eran cargos reales.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "physical-evidence-sacrifice-verano",
+        "royal-tombs-of-sipan"
+      ]
+    },
+    {
+      "id": "tumba-del-senor-de-sipan",
+      "titulo": "Tumba del Señor de Sipán",
+      "anio": 250,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Huaca Rajada (Sipán)",
+      "lon": -79.602,
+      "lat": -6.801,
+      "tipo": "cultural",
+      "resumen": "Tumba intacta de un gobernante moche del siglo III encontrada en 1987 por Walter Alva en Huaca Rajada, después de que saqueadores vaciaran otra tumba del mismo sitio y vendieran sus piezas. El señor fue enterrado con orejeras, collares, cetros y armas de oro, plata y cobre, junto con tres mujeres jóvenes, varios hombres, un niño, un perro y llamas; sus atributos coinciden con los del sacerdote guerrero de la «ceremonia del sacrificio». Sus objetos están en el Museo Tumbas Reales de Sipán, en Lambayeque.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "royal-tombs-of-sipan"
+      ],
+      "wikipedia": {
+        "es": "Señor de Sipán",
+        "en": "Lord of Sipán"
+      }
+    },
+    {
+      "id": "senora-de-cao",
+      "titulo": "La Señora de Cao",
+      "anio": 450,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "El Brujo",
+      "lon": -79.305,
+      "lat": -7.915,
+      "tipo": "cultural",
+      "resumen": "Momia de una mujer moche de unos 20 a 25 años, con tatuajes de serpientes y arañas en brazos y piernas, encontrada en 2005 en la Huaca Cao Viejo del complejo El Brujo por el equipo de Régulo Franco. Fue enterrada hacia el año 450 con armas, coronas y adornos de oro y cobre y con una adolescente que, según los excavadores, fue estrangulada para acompañarla. Sus excavadores la interpretan como una gobernante, la primera mujer de ese rango conocida entre los moche, lo que cambió la idea de que allí solo los hombres ejercían el poder.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Dama de Cao",
+        "en": "Lady of Cao"
+      }
+    },
+    {
+      "id": "cultura-recuay",
+      "titulo": "La cultura Recuay",
+      "anio": 1,
+      "anio_hasta": 700,
+      "aprox": true,
+      "lugar": "Recuay",
+      "lon": -77.456,
+      "lat": -9.722,
+      "tipo": "cultural",
+      "resumen": "Cultura de la sierra de Áncash, en el Callejón de Huaylas, contemporánea de los moche, con aldeas fortificadas, galerías subterráneas, tumbas de élite y esculturas de piedra de guerreros con cabezas trofeo. Su cerámica de caolín muestra a señores rodeados de mujeres y llamas en escenas de banquete y de culto a los antepasados.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura recuay",
+        "en": "Recuay culture"
+      }
+    },
+    {
+      "id": "cultura-lima",
+      "titulo": "La cultura Lima",
+      "anio": 100,
+      "anio_hasta": 650,
+      "aprox": true,
+      "lugar": "Huaca Pucllana",
+      "lon": -77.034,
+      "lat": -12.111,
+      "tipo": "cultural",
+      "resumen": "Cultura de los valles del Rímac, Chillón y Lurín, en la costa central del Perú, que construyó pirámides de adobe como Huaca Pucllana y los primeros templos de Pachacámac y amplió los canales de riego que la ciudad de Lima siguió usando. En Huaca Pucllana se hallaron entierros de mujeres jóvenes que los arqueólogos interpretan como sacrificios.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "pachacamac-uhle"
+      ],
+      "wikipedia": {
+        "es": "Cultura lima",
+        "en": "Lima culture"
+      }
+    },
+    {
+      "id": "cultura-pucara",
+      "titulo": "La cultura Pucará",
+      "anio": -500,
+      "anio_hasta": 200,
+      "aprox": true,
+      "lugar": "Pucará (Puno)",
+      "lon": -70.37,
+      "lat": -15.05,
+      "tipo": "cultural",
+      "resumen": "Primera gran sociedad compleja de la cuenca norte del Titicaca, con centro en Pucará, en Puno: templos de piedra con patios hundidos, esculturas de felinos y de figuras con cabezas trofeo y una cerámica que anticipa motivos de Tiahuanaco. Declinó en los primeros siglos de nuestra era, cuando creció Tiahuanaco al sur del lago.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura pucará",
+        "en": "Pukara culture"
+      }
+    },
+    {
+      "id": "cultura-tiwanaku",
+      "titulo": "La cultura Tiahuanaco (Tiwanaku)",
+      "anio": 500,
+      "anio_hasta": 1100,
+      "aprox": true,
+      "lugar": "Tiahuanaco (Tiwanaku)",
+      "lon": -68.673,
+      "lat": -16.555,
+      "tipo": "cultural",
+      "resumen": "Sociedad que entre los años 500 y 1100 aproximadamente tuvo su capital en Tiahuanaco, al sur del Titicaca, a 3800 metros de altura, y extendió su influencia por el altiplano, el norte de Chile y los valles de Moquegua y Cochabamba, con colonias y caravanas de llamas. Cultivaba en campos elevados (suka kollus) y su arte, como la Puerta del Sol, comparte con Huari la figura del dios de los báculos. En la pirámide de Akapana se hallaron restos humanos desmembrados que se interpretan como sacrificios. Su caída se atribuye a una sequía prolongada (Alan Kolata) o a conflictos internos; después surgieron en el lago los señoríos aimaras de los collas, los lupacas y otros.",
+      "regiones": [
+        "andes",
+        "chile"
+      ],
+      "fuentes": [
+        "tiwanaku-kolata",
+        "tihuanacu-posnansky"
+      ],
+      "wikipedia": {
+        "es": "Cultura tiahuanaco",
+        "en": "Tiwanaku polity"
+      }
+    },
+    {
+      "id": "imperio-wari",
+      "titulo": "El estado Huari (Wari)",
+      "anio": 600,
+      "anio_hasta": 1000,
+      "aprox": true,
+      "lugar": "Huari (capital wari)",
+      "lon": -74.194,
+      "lat": -13.061,
+      "tipo": "politico",
+      "resumen": "Estado con capital en Huari, cerca de Ayacucho, que entre 600 y 1000 aproximadamente levantó centros de arquitectura ortogonal en buena parte de la sierra y la costa del Perú, como Pikillacta, junto al Cusco, y Viracochapampa, en el norte, unidos por caminos que después usaron los incas. Muchos arqueólogos lo consideran el primer imperio andino y un antecedente de la administración inca, con quipus, depósitos y trabajo por turnos; otros ven una red menos centralizada. Las cabezas trofeo y las lesiones de Conchopata y otros sitios muestran que su expansión incluyó guerra y captura de enemigos, y en 2013 se halló en El Castillo de Huarmey un mausoleo intacto de mujeres de la élite wari.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "huari-administrative-structure",
+        "violence-ritual-wari-tung"
+      ],
+      "wikipedia": {
+        "es": "Cultura wari",
+        "en": "Wari culture"
+      }
+    },
+    {
+      "id": "cultura-sican",
+      "titulo": "La cultura Sicán (Lambayeque)",
+      "anio": 750,
+      "anio_hasta": 1375,
+      "aprox": true,
+      "lugar": "Batán Grande",
+      "lon": -79.796,
+      "lat": -6.47,
+      "tipo": "cultural",
+      "resumen": "Cultura de la costa norte del Perú con centro en Batán Grande, en el valle de Lambayeque, conocida por su metalurgia del oro y del cobre arsenical y por sus máscaras funerarias. Las tumbas de élite excavadas por Izumi Shimada contienen señores enterrados con grandes cantidades de metal y con mujeres que, según los excavadores, fueron sacrificadas para acompañarlos. La leyenda de Naylamp, recogida por Cabello Balboa, cuenta la llegada por mar de un fundador de dinastía; el señorío fue conquistado por los chimúes hacia 1375.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "miscelanea-antartica"
+      ],
+      "wikipedia": {
+        "es": "Cultura lambayeque",
+        "en": "Sican culture"
+      }
+    },
+    {
+      "id": "cultura-chimu",
+      "titulo": "El reino Chimú (Chimor)",
+      "anio": 900,
+      "anio_hasta": 1470,
+      "aprox": true,
+      "lugar": "Chan Chan",
+      "lon": -79.075,
+      "lat": -8.111,
+      "tipo": "politico",
+      "resumen": "Reino de la costa norte del Perú con capital en Chan Chan, junto a la actual Trujillo, que en su máxima extensión dominó la costa desde Tumbes hasta el valle del Chillón, cerca de Lima, con grandes obras de riego y una orfebrería muy desarrollada. Sus reyes vivían en grandes recintos amurallados donde se los enterraba con ofrendas y, según los excavadores, con decenas de mujeres jóvenes sacrificadas. Los incas lo conquistaron hacia 1470, llevaron a su rey Minchancaman al Cusco y trasladaron a sus orfebres para trabajar para el estado.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "huanchaquito-prieto-2019",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Reino chimú",
+        "en": "Chimor"
+      }
+    },
+    {
+      "id": "sacrificio-de-huanchaquito-las-llamas",
+      "titulo": "Sacrificio masivo de niños y llamas de Huanchaquito-Las Llamas",
+      "anio": 1450,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Huanchaquito-Las Llamas",
+      "lon": -79.07,
+      "lat": -8.08,
+      "tipo": "religioso",
+      "resumen": "En un sitio de la costa cercano a Chan Chan, Gabriel Prieto y John Verano excavaron entre 2011 y 2016 los restos de 137 niños y adolescentes de 5 a 14 años, tres adultos y unos 200 camélidos jóvenes, enterrados en un solo episodio hacia 1450, en tiempos del reino chimú. Los niños tienen cortes en el esternón y las costillas separadas, señal de que se les abrió el pecho, quizá para sacarles el corazón, y huellas en el barro muestran una procesión después de lluvias intensas; los autores proponen relacionar el sacrificio con un episodio de El Niño. Según sus autores es el mayor sacrificio masivo de niños conocido en América, y los isótopos y la deformación craneana sugieren que las víctimas venían de distintas regiones.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "huanchaquito-prieto-2019"
+      ]
+    },
+    {
+      "id": "cultura-chachapoyas",
+      "titulo": "Los chachapoyas",
+      "anio": 800,
+      "anio_hasta": 1570,
+      "aprox": true,
+      "lugar": "Kuélap",
+      "lon": -77.923,
+      "lat": -6.418,
+      "tipo": "cultural",
+      "resumen": "Pueblos de los bosques nubosos del noreste del Perú, entre los ríos Marañón y Huallaga, conocidos por sus asentamientos de casas circulares de piedra como Kuélap, sus sarcófagos de barro en acantilados y sus mausoleos con momias. No formaban un estado unificado sino señoríos con frecuencia enfrentados. Los incas los conquistaron hacia 1470 y, tras varias rebeliones, deportaron a muchos como mitimaes, por lo que muchos chachapoyas se aliaron con los españoles después de 1532.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "historia-de-los-incas-sarmiento",
+        "comentarios-reales"
+      ],
+      "wikipedia": {
+        "es": "Cultura chachapoyas",
+        "en": "Chachapoya culture"
+      }
+    },
+    {
+      "id": "senorio-de-chincha",
+      "titulo": "El señorío de Chincha",
+      "anio": 1000,
+      "anio_hasta": 1532,
+      "aprox": true,
+      "lugar": "Chincha (La Centinela)",
+      "lon": -76.171,
+      "lat": -13.45,
+      "tipo": "economico",
+      "resumen": "Señorío de la costa sur del Perú, en el valle de Chincha, con su centro en La Centinela. Según un informe anónimo de hacia 1570 tenía miles de mercaderes que comerciaban por mar y por tierra con Quito, el Cusco y el Collao, entre otras cosas con conchas de Spondylus de la costa del Ecuador, y María Rostworowski lo interpretó como un señorío de mercaderes. Se incorporó al Tawantinsuyu hacia 1470-1480, en condiciones que las crónicas cuentan de manera distinta, y su señor tenía un lugar de privilegio en la corte: según Pedro Pizarro, era el único señor, además de Atahualpa, que llegó en litera a la plaza de Cajamarca, donde murió en noviembre de 1532.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "aviso-de-chincha",
+        "historia-del-tahuantinsuyu"
+      ],
+      "wikipedia": {
+        "es": "Cultura chincha",
+        "en": "Chincha culture"
+      }
+    },
+    {
+      "id": "pueblo-chanca",
+      "titulo": "Los chancas",
+      "anio": 1000,
+      "anio_hasta": 1450,
+      "aprox": true,
+      "lugar": "Andahuaylas",
+      "lon": -73.383,
+      "lat": -13.658,
+      "tipo": "cultural",
+      "resumen": "Pueblos de la región de Andahuaylas, en el actual Apurímac, que las crónicas presentan como una poderosa confederación guerrera que atacó el Cusco a comienzos del siglo XV y fue vencida por Pachacútec. El relevamiento arqueológico de Brian Bauer y su equipo (2010) encontró para ese período aldeas fortificadas en cumbres y ningún centro político mayor, lo que sugiere grupos dispersos y enfrentados entre sí más que un estado. Después de la conquista inca su región recibió centros administrativos y mitimaes.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "the-chanka-bauer",
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento"
+      ],
+      "wikipedia": {
+        "es": "Chanca",
+        "en": "Chanka"
+      }
+    },
+    {
+      "id": "reino-lupaca",
+      "titulo": "Los lupacas",
+      "anio": 1100,
+      "anio_hasta": 1567,
+      "aprox": true,
+      "lugar": "Chucuito",
+      "lon": -69.889,
+      "lat": -15.894,
+      "tipo": "cultural",
+      "resumen": "Señorío de habla aimara de la orilla suroeste del lago Titicaca, con capital en Chucuito y siete cabeceras, gobernado por dos señores, uno por cada mitad (Cari y Cusi en el siglo XVI). Según Cieza, su señor Cari luchó contra los collas de Hatuncolla y se alió con los incas antes de ser incorporado al Tawantinsuyu. La visita de 1567 muestra grandes rebaños de llamas y alpacas y colonias en la costa del Pacífico y en los valles orientales, el caso que John Murra usó para su modelo del «archipiélago vertical».",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "visita-de-chucuito-1567",
+        "formaciones-economicas-murra",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Lupaca",
+        "en": "Lupaca"
+      }
+    },
+    {
+      "id": "pueblo-canari",
+      "titulo": "Los cañaris",
+      "anio": 500,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Tomebamba",
+      "lon": -78.998,
+      "lat": -2.906,
+      "tipo": "cultural",
+      "resumen": "Pueblo de la sierra sur del actual Ecuador, en las provincias de Cañar y Azuay, organizado en señoríos. Resistió la conquista de Topa Inca y fue sometido; los incas levantaron sobre su centro de Guapondélig la ciudad de Tomebamba y trasladaron a muchos cañaris como mitimaes y guardias al Cusco y a otras regiones. En la guerra civil apoyaron a Huáscar y Atahualpa los castigó con matanzas que recoge Cieza de León; después se aliaron con los españoles.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "cronica-del-peru-cieza",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Cañari",
+        "en": "Cañari"
+      }
+    },
+    {
+      "id": "caranquis-y-cayambes",
+      "titulo": "Caranquis, cayambes y otavalos",
+      "anio": 800,
+      "anio_hasta": 1530,
+      "aprox": true,
+      "lugar": "Ibarra",
+      "lon": -78.13,
+      "lat": 0.363,
+      "tipo": "cultural",
+      "resumen": "Señoríos de la sierra norte del actual Ecuador, entre Quito y el actual límite con Colombia, que levantaron montículos de tierra (tolas) y fortalezas. Fueron de los últimos pueblos incorporados al Tawantinsuyu: según las crónicas resistieron durante años a Huayna Cápac desde los pucarás de Pambamarca y otros, hasta la matanza de Yahuarcocha. A diferencia del «reino de Quito» de los shyris que describe Juan de Velasco, estos señoríos sí están documentados en crónicas, visitas y excavaciones.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "miscelanea-antartica",
+        "historia-del-reino-de-quito"
+      ]
+    },
+    {
+      "id": "pueblo-huanca",
+      "titulo": "Los huancas",
+      "anio": 1000,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Tunanmarca",
+      "lon": -75.599,
+      "lat": -11.72,
+      "tipo": "cultural",
+      "resumen": "Pueblo del valle del Mantaro, en la sierra central del Perú. Entre 1350 y 1460 aproximadamente vivía en grandes pueblos amurallados en las cumbres, como Tunanmarca y Hatunmarca, señal de guerras entre sus parcialidades, según las excavaciones de Timothy Earle, Terence D'Altroy y su equipo. Los incas los conquistaron, los bajaron a los valles y levantaron el centro administrativo de Hatun Xauxa; en 1533 los huancas se aliaron con los españoles y después presentaron ante la justicia cuentas en quipus de lo que les habían entregado.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "the-incas-daltroy",
+        "probanzas-de-los-huancas"
+      ],
+      "wikipedia": {
+        "es": "Huanca",
+        "en": "Huanca"
+      }
+    },
+    {
+      "id": "cultura-mantena",
+      "titulo": "La cultura Manteña-Huancavilca",
+      "anio": 650,
+      "anio_hasta": 1532,
+      "aprox": true,
+      "lugar": "Manta",
+      "lon": -80.716,
+      "lat": -0.95,
+      "tipo": "economico",
+      "resumen": "Cultura de la costa del Ecuador, en las actuales provincias de Manabí, Santa Elena y Guayas, de comerciantes y navegantes que usaban grandes balsas de troncos con velas para llevar conchas de Spondylus, tejidos y metales a lo largo de la costa del Pacífico. En 1526 la expedición de Bartolomé Ruiz encontró en alta mar una de esas balsas cargada de mercaderías, uno de los primeros contactos de los españoles con el mundo andino. Son conocidos también por sus sillas de piedra en forma de U.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Manteño-Huancavilca culture"
+      }
+    },
+    {
+      "id": "pucaras-antes-de-los-incas",
+      "titulo": "Guerras y pucarás antes de los incas",
+      "anio": 1100,
+      "anio_hasta": 1450,
+      "aprox": true,
+      "lugar": "Lago Titicaca",
+      "lon": -69.325,
+      "lat": -15.825,
+      "tipo": "batalla",
+      "resumen": "Después de la caída de Huari y Tiahuanaco, entre los siglos XII y XV, buena parte de la sierra se llenó de pueblos amurallados en cumbres (pucaras), con muros, fosos, parapetos y acopios de piedras de honda, sobre todo en la cuenca del Titicaca, el valle del Mantaro y Andahuaylas. Los estudios de Elizabeth Arkush y Charles Stanish sobre esos pueblos fortificados indican guerras frecuentes entre señoríos, aunque en la región del Cusco las heridas graves de cráneo aumentaron recién en tiempos incas (Andrushko y Torres, 2011). Las crónicas recuerdan esa época como el tiempo de los sinchis, jefes guerreros, y los incas presentaron su conquista como el fin de ese desorden.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "interpreting-conflict-arkush-stanish",
+        "skeletal-evidence-inca-warfare",
+        "the-chanka-bauer"
+      ]
+    },
+    {
+      "id": "mito-de-origen-de-los-incas",
+      "titulo": "Mitos de origen de los incas",
+      "anio": 1200,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Pacaritambo",
+      "lon": -71.96,
+      "lat": -13.76,
+      "tipo": "religioso",
+      "resumen": "Las crónicas recogen dos relatos principales: el de Manco Cápac y Mama Ocllo, hijos del Sol salidos del lago Titicaca para enseñar a los pueblos, que difundió Garcilaso, y el de los cuatro hermanos Ayar y sus esposas salidos de la cueva de Tambo Toco, en Pacaritambo, que recogen Betanzos, Cieza y Sarmiento, en el que varios hermanos se convierten en piedras sagradas y el grupo de Manco ocupa el Cusco expulsando o sometiendo por la fuerza a sus pobladores. Sarmiento, que escribía por encargo del virrey Toledo, subraya esa violencia para presentar a los incas como usurpadores; Garcilaso, que menciona también la fábula de los hermanos, privilegia la del Titicaca y presenta a los incas como portadores de leyes y de orden.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "comentarios-reales",
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento",
+        "relacion-de-las-fabulas-y-ritos"
+      ],
+      "wikipedia": {
+        "es": "Mitología incaica",
+        "en": "Inca mythology"
+      }
+    },
+    {
+      "id": "guerra-contra-los-chancas",
+      "titulo": "Guerra entre el Cusco y los chancas",
+      "anio": 1438,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "batalla",
+      "resumen": "Según Betanzos y Sarmiento, con variantes en Cieza, los chancas atacaron el Cusco, Viracocha Inca y su heredero Inca Urco lo abandonaron y otro hijo, Cusi Yupanqui, organizó la defensa, ayudado según el relato por piedras que se convirtieron en guerreros (los pururaucas); después de vencer tomó el nombre de Pachacútec y el poder. Garcilaso atribuye la victoria a Viracocha Inca. La fecha de 1438 viene de la cronología de Cabello Balboa adoptada por Rowe; la arqueología de Andahuaylas no encontró un estado chanca, y muchos historiadores leen el episodio como un relato que legitimaba a Pachacútec frente al heredero desplazado.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento",
+        "comentarios-reales",
+        "the-chanka-bauer"
+      ],
+      "wikipedia": {
+        "es": "Guerra chanca-inca",
+        "en": "Chanka–Inca War"
+      }
+    },
+    {
+      "id": "tawantinsuyu",
+      "titulo": "El Tawantinsuyu (imperio inca)",
+      "anio": 1438,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Estado inca, llamado en quechua Tawantinsuyu, «las cuatro partes juntas»: Chinchaysuyu al noroeste, Antisuyu al noreste, Collasuyu al sureste y Contisuyu al suroeste, con centro en el Cusco. En menos de un siglo se extendió desde el sur de la actual Colombia hasta el centro de Chile y el noroeste argentino, más de 4000 kilómetros, por la guerra y por pactos con los señores locales, y se organizó sin moneda ni mercado oficial, con tributo en trabajo (mit'a), depósitos, el camino real, quipus y el quechua como lengua general. Las estimaciones de su población hacia 1525 van de unos 6 millones (John Rowe, 1946) a unos 9 millones solo para el Perú actual (Noble David Cook, 1981), y Henry Dobyns llegó a proponer más de 30 millones; las fechas de su expansión, basadas en la cronología de Cabello Balboa, están en revisión.",
+      "regiones": [
+        "andes",
+        "norte-de-sudamerica",
+        "chile",
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "inca-culture-rowe",
+        "historia-del-tahuantinsuyu",
+        "the-incas-daltroy",
+        "comentarios-reales",
+        "suma-y-narracion-betanzos",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Imperio incaico",
+        "en": "Inca Empire"
+      }
+    },
+    {
+      "id": "reconstruccion-del-cusco",
+      "titulo": "Reconstrucción del Cusco por Pachacútec",
+      "anio": 1440,
+      "anio_hasta": 1470,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "construccion",
+      "resumen": "Según Betanzos y Sarmiento, Pachacútec rehízo la ciudad tras la guerra con los chancas: canalizó los ríos Saphy y Tullumayo, trazó las grandes plazas de Haucaypata y Cusipata, levantó palacios para los linajes reales, reconstruyó el Coricancha y trasladó a otros pobladores a los alrededores. Betanzos cuenta que llamó a la ciudad «cuerpo de león», de donde viene la idea, difundida por John Rowe, de que su plano tenía forma de puma, con Sacsayhuamán como cabeza; otros autores lo leen como una metáfora. La ciudad se dividía en dos mitades, Hanan y Hurin, y se organizaba en ceques que salían del Coricancha.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento",
+        "historia-del-nuevo-mundo-cobo",
+        "ceque-system-zuidema"
+      ]
+    },
+    {
+      "id": "conquista-del-collao",
+      "titulo": "Conquista inca del Collao y rebelión de los collas",
+      "anio": 1445,
+      "anio_hasta": 1475,
+      "aprox": true,
+      "lugar": "Hatuncolla",
+      "lon": -70.145,
+      "lat": -15.688,
+      "tipo": "batalla",
+      "resumen": "Según Cieza y Sarmiento, los incas sometieron a los collas de Hatuncolla, que estaban en guerra con los lupacas de Chucuito, en tiempos de Viracocha Inca y de Pachacútec. Más tarde los collas se rebelaron, según Sarmiento aprovechando el rumor de que Topa Inca había muerto en una campaña en la selva, y el inca los reprimió en una larga campaña en la que se tomaron sus fortalezas y se ejecutó a sus jefes. La región del Titicaca se volvió luego un centro del culto inca, con el santuario de la isla del Sol.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "historia-de-los-incas-sarmiento",
+        "los-inkas-del-kollasuyu"
+      ]
+    },
+    {
+      "id": "conquista-inca-del-chimor",
+      "titulo": "Conquista inca del reino chimú",
+      "anio": 1470,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Chan Chan",
+      "lon": -79.075,
+      "lat": -8.111,
+      "tipo": "batalla",
+      "resumen": "Según las crónicas, un ejército inca dirigido por Cápac Yupanqui y por Topa Inca venció a Minchancaman, señor de Chimor, que fue llevado al Cusco, mientras un sucesor suyo quedaba como señor subordinado. Los incas se llevaron el tesoro de Chan Chan y trasladaron a muchos orfebres y artesanos chimúes al Cusco para trabajar para el estado; la costa norte quedó dividida en señoríos menores.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "historia-de-los-incas-sarmiento"
+      ]
+    },
+    {
+      "id": "conquista-inca-de-los-chachapoyas",
+      "titulo": "Conquista inca de los chachapoyas y sus rebeliones",
+      "anio": 1470,
+      "anio_hasta": 1525,
+      "aprox": true,
+      "lugar": "Kuélap",
+      "lon": -77.923,
+      "lat": -6.418,
+      "tipo": "batalla",
+      "resumen": "Según las crónicas, Topa Inca conquistó a los chachapoyas tras una dura resistencia y estos se rebelaron más de una vez; Huayna Cápac reprimió una rebelión, castigó a sus jefes y trasladó a muchos chachapoyas como mitimaes a otras regiones, entre ellas el Cusco y Quito. Garcilaso cuenta, en cambio, que el inca los perdonó por la súplica de una mujer de la región. La resistencia y las deportaciones explican que muchos chachapoyas se pusieran del lado de los españoles después de 1532.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "historia-de-los-incas-sarmiento",
+        "comentarios-reales"
+      ]
+    },
+    {
+      "id": "conquista-inca-del-norte",
+      "titulo": "Conquista inca de los cañaris y de la sierra de Quito",
+      "anio": 1460,
+      "anio_hasta": 1500,
+      "aprox": true,
+      "lugar": "Tomebamba",
+      "lon": -78.998,
+      "lat": -2.906,
+      "tipo": "batalla",
+      "resumen": "Según las crónicas, Topa Inca conquistó a los cañaris y a los pueblos de la sierra hasta Quito, primero como general de su padre, y fundó Tomebamba como centro del norte. Huayna Cápac, que según la tradición nació en Tomebamba, completó la conquista de la sierra norte contra caranquis, cayambes y pastos en guerras que duraron años y pasó allí buena parte de su reinado. El norte quedó como base del ejército más experimentado del imperio, que luego apoyó a Atahualpa.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "historia-de-los-incas-sarmiento",
+        "miscelanea-antartica"
+      ]
+    },
+    {
+      "id": "matanza-de-yahuarcocha",
+      "titulo": "Matanza de Yahuarcocha",
+      "anio": 1500,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Laguna de Yahuarcocha",
+      "lon": -78.1,
+      "lat": 0.38,
+      "tipo": "batalla",
+      "resumen": "Según Cabello Balboa, Sarmiento, Cieza y otros cronistas, después de años de resistencia de caranquis y cayambes, el ejército de Huayna Cápac tomó sus fortalezas y mató a gran número de vencidos a orillas de una laguna cercana a la actual Ibarra, que por eso se llamó Yahuarcocha, «lago de sangre». Las crónicas dan cifras de muertos de miles a decenas de miles que no pueden verificarse, y la fecha, entre 1495 y 1520 según los autores, es incierta. Fue la última gran campaña de conquista inca en el norte.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "miscelanea-antartica",
+        "historia-de-los-incas-sarmiento",
+        "cronica-del-peru-cieza",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Yahuarcocha"
+      }
+    },
+    {
+      "id": "ejercito-y-guerra-inca",
+      "titulo": "Ejército y guerra en el Tawantinsuyu",
+      "anio": 1438,
+      "anio_hasta": 1532,
+      "aprox": true,
+      "lugar": "Sacsayhuamán",
+      "lon": -71.982,
+      "lat": -13.508,
+      "tipo": "batalla",
+      "resumen": "El ejército inca se formaba con hombres de las comunidades que servían por turnos como parte de la mit'a, bajo jefes de la nobleza, y se abastecía en los depósitos del camino; usaba hondas, mazas con cabeza de piedra o de bronce, boleadoras y lanzas. Las crónicas cuentan que los incas ofrecían primero la sumisión con regalos y castigaban con dureza la resistencia y las rebeliones, con ejecuciones de jefes, deportaciones y trofeos como tambores hechos con la piel de enemigos o vasos hechos con sus cráneos. En la región del Cusco, las heridas graves de cráneo que sugieren guerra aumentaron en forma significativa en el período inca, según el estudio de Valerie Andrushko y Elva Torres (2011).",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "skeletal-evidence-inca-warfare",
+        "interpreting-conflict-arkush-stanish",
+        "the-incas-daltroy"
+      ],
+      "wikipedia": {
+        "es": "Ejército del Imperio incaico",
+        "en": "Inca army"
+      }
+    },
+    {
+      "id": "represion-de-los-canaris",
+      "titulo": "Castigo de Atahualpa a los cañaris",
+      "anio": 1530,
+      "anio_hasta": 1531,
+      "aprox": true,
+      "lugar": "Tomebamba",
+      "lon": -78.998,
+      "lat": -2.906,
+      "tipo": "batalla",
+      "resumen": "Durante la guerra civil los cañaris apoyaron a Huáscar. Según Cieza de León, que recorrió la región en la década de 1540, Atahualpa tomó Tomebamba, la destruyó y mató a muchos cañaris, y en su tiempo había en la provincia muchas más mujeres que hombres a causa de esa matanza. El castigo explica que los cañaris se aliaran con los españoles y sirvieran durante la colonia como guardias y auxiliares en el Cusco.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "cronica-del-peru-cieza",
+        "senorio-de-los-incas-cieza"
+      ]
+    },
+    {
+      "id": "mita-inca",
+      "titulo": "La mit'a inca",
+      "anio": 1438,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "economico",
+      "resumen": "Tributo en trabajo por turnos que cada comunidad debía al estado inca: los hombres casados, organizados por sus curacas, cultivaban las tierras del inca y del Sol, servían en el ejército, construían caminos, puentes y edificios, trabajaban en las minas y llevaban cargas, y el estado les daba comida y chicha durante el servicio. Las visitas de Huánuco y Chucuito muestran que cada grupo cumplía cuotas fijas según su población. Los españoles tomaron el nombre y la idea para la mita colonial, con otros fines y otras condiciones.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "formaciones-economicas-murra",
+        "visita-de-huanuco-1562",
+        "senorio-de-los-incas-cieza"
+      ],
+      "wikipedia": {
+        "es": "Mita",
+        "en": "Mit'a"
+      }
+    },
+    {
+      "id": "mitmaq",
+      "titulo": "Mitimaes: traslados de población en el Tawantinsuyu",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Los incas trasladaban grupos enteros de familias, llamados mitmaqkuna o mitimaes, de su tierra a otras regiones: pueblos leales a zonas recién conquistadas para vigilarlas y difundir el quechua, pueblos rebeldes a tierras lejanas para quebrar su resistencia, y colonos para cultivar tierras del estado, custodiar fronteras o trabajar como artesanos. Cieza describe el sistema como una política de seguridad y de integración; muchos historiadores actuales lo describen como una deportación forzosa en gran escala. Los mitimaes conservaban su ropa y sus tocados de origen, y la mezcla de grupos que produjeron se ve todavía en los padrones coloniales.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "formaciones-economicas-murra",
+        "the-incas-daltroy",
+        "visita-de-huanuco-1562"
+      ],
+      "wikipedia": {
+        "es": "Mitimaes",
+        "en": "Mitma"
+      }
+    },
+    {
+      "id": "mitimaes-de-cochabamba",
+      "titulo": "Colonización estatal del valle de Cochabamba",
+      "anio": 1500,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cochabamba",
+      "lon": -66.157,
+      "lat": -17.394,
+      "tipo": "economico",
+      "resumen": "Según documentos judiciales del siglo XVI, Huayna Cápac sacó de buena parte del valle de Cochabamba a sus antiguos pobladores y llevó a miles de trabajadores de distintos pueblos del Collasuyu, muchos por turnos, para cultivar maíz en tierras del estado; la cosecha se guardaba en unos 2400 depósitos en Cotapachi y se enviaba al Cusco y a los ejércitos. Nathan Wachtel estudió el caso como ejemplo de la escala de la planificación y de los traslados forzosos incas.",
+      "regiones": [
+        "andes",
+        "amazonia-andina"
+      ],
+      "fuentes": [
+        "the-incas-daltroy"
+      ]
+    },
+    {
+      "id": "yanaconas-del-inca",
+      "titulo": "Los yanaconas",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "economico",
+      "resumen": "Servidores sacados de sus comunidades para trabajar en forma permanente para el inca, los linajes nobles, los templos o los curacas, sin la rotación de la mit'a; la condición se heredaba. Sarmiento atribuye su origen a rebeldes perdonados por Topa Inca. No había mercado de personas, pero muchos autores comparan su condición con la servidumbre o la esclavitud, y otros señalan que algunos yanaconas llegaron a cargos de confianza. Después de 1532 muchos se pusieron al servicio de los españoles, y de allí viene el yanaconazgo colonial.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "formaciones-economicas-murra",
+        "historia-de-los-incas-sarmiento"
+      ],
+      "wikipedia": {
+        "es": "Yanacona",
+        "en": "Yanakuna"
+      }
+    },
+    {
+      "id": "acllas",
+      "titulo": "Las acllas",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "religioso",
+      "resumen": "Niñas elegidas por funcionarios incas en todas las provincias y recluidas en casas especiales (acllawasi) en el Cusco y en los centros provinciales, donde tejían ropa fina (cumbi) y preparaban chicha para el culto y la redistribución. Algunas quedaban consagradas al Sol, otras eran entregadas por el inca como esposas a nobles, guerreros o señores aliados, y algunas eran sacrificadas en la capacocha. Los españoles las llamaron «vírgenes del Sol» y las compararon con monjas, comparación que los historiadores matizan.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "relacion-de-las-fabulas-y-ritos",
+        "comentarios-reales",
+        "historia-del-nuevo-mundo-cobo",
+        "historia-general-del-piru-murua"
+      ],
+      "wikipedia": {
+        "es": "Acllas",
+        "en": "Aclla"
+      }
+    },
+    {
+      "id": "ayllu",
+      "titulo": "El ayllu",
+      "anio": 1000,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "cultural",
+      "resumen": "Unidad social básica de los Andes: un grupo de familias emparentadas, real o simbólicamente, que se reconocían en un antepasado común, tenían tierras y pastos en común y se ayudaban con trabajo recíproco (ayni, minca). Varios ayllus formaban unidades mayores, divididas en dos mitades y gobernadas por curacas. El estado inca organizó su tributo sobre esta base, y el ayllu sobrevivió a la colonia y a las repúblicas en comunidades del Perú y de Bolivia.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "formaciones-economicas-murra",
+        "historia-del-tahuantinsuyu"
+      ],
+      "wikipedia": {
+        "es": "Aillu",
+        "en": "Ayllu"
+      }
+    },
+    {
+      "id": "curacas",
+      "titulo": "Los curacas",
+      "anio": 1000,
+      "anio_hasta": 1700,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Señores étnicos de los ayllus y señoríos andinos, que organizaban el trabajo, repartían tierras y redistribuían bienes a cambio de servicios de sus súbditos. El inca los mantuvo como intermediarios, les dio regalos, mujeres y tejidos y les exigió enviar a sus hijos al Cusco, donde quedaban como garantía y aprendían las costumbres incas; a los que se rebelaban los reemplazaba o ejecutaba. Bajo el dominio español siguieron como caciques, intermediarios del tributo y de la mita.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "historia-del-tahuantinsuyu",
+        "visita-de-chucuito-1567",
+        "relacion-de-los-fundamentos-polo"
+      ],
+      "wikipedia": {
+        "es": "Curaca",
+        "en": "Kuraka"
+      }
+    },
+    {
+      "id": "panacas-y-mallquis",
+      "titulo": "Las panacas y el culto a los incas muertos",
+      "anio": 1400,
+      "anio_hasta": 1559,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "religioso",
+      "resumen": "Cada inca muerto era momificado (mallqui) y seguía siendo tratado como vivo por su panaca, el linaje de sus descendientes, que conservaba sus tierras, sus servidores y sus bienes, lo sacaba en las fiestas y hablaba en su nombre. Geoffrey Conrad y Arthur Demarest propusieron en 1984 que esa herencia dividida empujaba a cada nuevo inca a conquistar tierras propias; según Pedro Pizarro, Huáscar llegó a decir que habría que enterrar a los muertos y quitarles sus bienes. Las disputas entre panacas influyeron en las versiones de la historia inca que recogieron los cronistas.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "relacion-de-los-fundamentos-polo",
+        "historia-natural-y-moral-de-las-indias",
+        "ceque-system-zuidema"
+      ]
+    },
+    {
+      "id": "quipu",
+      "titulo": "Los quipus",
+      "anio": 600,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "cultural",
+      "resumen": "Cordones de algodón o lana con nudos que los quipucamayos usaban para registrar censos, tributos y depósitos y, según las crónicas, también genealogías y relatos; se conocen desde la época wari. Se conservan alrededor de mil, casi todos sin procedencia exacta. Leland Locke mostró en 1912 que registraban números en un sistema decimal; en los primeros años coloniales los tribunales españoles aceptaron cuentas en quipus como prueba, el Tercer Concilio Limense mandó destruir los que se usaban en ritos considerados idolátricos, y en algunos pueblos se siguieron usando hasta el siglo XX.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "ancient-quipu-locke",
+        "code-of-the-quipu",
+        "khipu-accounting-puruchuco",
+        "signs-of-the-inka-khipu",
+        "inca-culture-rowe"
+      ],
+      "wikipedia": {
+        "es": "Quipu",
+        "en": "Quipu"
+      }
+    },
+    {
+      "id": "debate-sobre-la-escritura-de-los-quipus",
+      "titulo": "Debate sobre si los quipus registraban lenguaje",
+      "anio": 1981,
+      "anio_hasta": 2017,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "cientifico",
+      "resumen": "Varias crónicas afirman que los quipucamayos «leían» en los quipus historias y leyes, mientras Garcilaso sostiene que registraban números y servían solo como ayuda para la memoria. Desde los estudios de Marcia y Robert Ascher (1981) y de Gary Urton (2003) se discute si algunos quipus codificaban palabras, como nombres de personas y lugares, y no solo números; Sabine Hyland propuso en 2017 una lectura parcial de dos quipus coloniales de Collata, y la base de datos de quipus que Urton fundó en Harvard con Carrie Brezine permitió comparar cientos de ejemplares. Hasta hoy ninguna propuesta logró un desciframiento comprobado.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "code-of-the-quipu",
+        "signs-of-the-inka-khipu",
+        "writing-with-twisted-cords",
+        "reading-inca-history"
+      ]
+    },
+    {
+      "id": "qhapaq-nan",
+      "titulo": "El Qhapaq Ñan (camino real inca)",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "construccion",
+      "resumen": "Red de caminos de unos 30 000 a 40 000 kilómetros que unía el Cusco con todas las provincias, con dos ejes principales, uno por la sierra y otro por la costa, y que aprovechó en parte caminos más antiguos. Tenía puentes colgantes de fibra vegetal, escalinatas y calzadas, y cada pocas leguas tambos con depósitos y alojamiento; por ella corrían los chasquis, mensajeros que se relevaban por postas. Su uso estaba reservado a funcionarios, ejércitos y quienes cumplían servicio; Cieza la comparó con las calzadas romanas, y en 2014 la UNESCO declaró Patrimonio de la Humanidad la red en seis países.",
+      "regiones": [
+        "andes",
+        "norte-de-sudamerica",
+        "chile",
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "the-incas-daltroy",
+        "cronica-del-peru-cieza"
+      ],
+      "wikipedia": {
+        "es": "Red vial del Tahuantinsuyo",
+        "en": "Inca road system"
+      }
+    },
+    {
+      "id": "tambos-y-colcas",
+      "titulo": "Tambos y depósitos (colcas) del estado inca",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Huánuco Pampa (Huánuco Viejo)",
+      "lon": -76.75,
+      "lat": -9.833,
+      "tipo": "economico",
+      "resumen": "Los incas construyeron a lo largo del camino miles de depósitos (colcas), en hileras en las laderas para aprovechar el frío y el viento, donde guardaban maíz, papa seca, charqui, tejidos, armas y herramientas para el ejército, los trabajadores en turno y las fiestas. Hay conjuntos de cientos de colcas en Huánuco Pampa y Hatun Xauxa y de unas 2400 en Cotapachi, en Cochabamba. Los conquistadores dejaron testimonio de su asombro ante esos depósitos llenos en 1532-1533 y de su vaciamiento en los años siguientes.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "the-incas-daltroy",
+        "formaciones-economicas-murra",
+        "visita-de-huanuco-1562"
+      ],
+      "wikipedia": {
+        "es": "Colca",
+        "en": "Qullqa"
+      }
+    },
+    {
+      "id": "capacocha",
+      "titulo": "La capacocha",
+      "anio": 1450,
+      "anio_hasta": 1532,
+      "aprox": true,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "religioso",
+      "resumen": "Ceremonia estatal inca en la que se llevaban al Cusco niños y niñas de las provincias, elegidos por su perfección física, y desde allí, después de ritos y casamientos simbólicos, se los conducía en procesión a huacas y cumbres de todo el imperio para sacrificarlos con ofrendas, en ocasiones como la coronación o la muerte de un inca, epidemias o sequías. La describen Betanzos, Molina y Cobo, y Rodrigo Hernández Príncipe registró en 1621 el caso de Tanta Carhua, hija de un curaca de Ocros, cuyo sacrificio dio prestigio a su familia. La arqueología confirmó el rito con los niños del Ampato, el Llullaillaco, el Aconcagua y El Plomo, entre otros; el Anónimo jesuita y Garcilaso negaron o minimizaron los sacrificios humanos incas.",
+      "regiones": [
+        "andes",
+        "noroeste-argentino",
+        "chile"
+      ],
+      "fuentes": [
+        "relacion-de-las-fabulas-y-ritos",
+        "historia-del-nuevo-mundo-cobo",
+        "inca-rituals-and-sacred-mountains",
+        "wilson-2013-capacocha",
+        "relacion-de-las-costumbres-antiguas",
+        "visita-de-hernandez-principe"
+      ],
+      "wikipedia": {
+        "es": "Capac cocha",
+        "en": "Capacocha"
+      }
+    },
+    {
+      "id": "capacocha-del-ampato",
+      "titulo": "La niña del Ampato (Juanita)",
+      "anio": 1450,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Volcán Ampato",
+      "lon": -71.88,
+      "lat": -15.821,
+      "tipo": "religioso",
+      "resumen": "Cuerpo congelado de una niña de 12 a 15 años sacrificada por los incas en la cumbre del volcán Ampato, en Arequipa, entre 1440 y 1480 aproximadamente. Lo hallaron en 1995 Johan Reinhard y Miguel Zárate, después de que la ceniza de un volcán vecino derritiera el hielo de la cumbre y el fardo rodara por la ladera. Los estudios mostraron que murió de un golpe en la cabeza y que había comido verduras horas antes; se exhibe en el Museo Santuarios Andinos de Arequipa.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "inca-rituals-and-sacred-mountains"
+      ],
+      "wikipedia": {
+        "es": "Momia Juanita",
+        "en": "Mummy Juanita"
+      }
+    },
+    {
+      "id": "capacocha-del-aconcagua",
+      "titulo": "El niño del Aconcagua",
+      "anio": 1500,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cerro Aconcagua",
+      "lon": -70.012,
+      "lat": -32.653,
+      "tipo": "religioso",
+      "resumen": "Cuerpo de un niño de unos 7 años sacrificado en una capacocha hacia el año 1500 en el cerro Pirámide, en el macizo del Aconcagua, a unos 5300 metros. Lo encontraron andinistas en 1985 y lo estudió el arqueólogo Juan Schobinger; un análisis de su ADN publicado en 2015 identificó un linaje materno hoy muy poco frecuente.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "inca-rituals-and-sacred-mountains"
+      ],
+      "wikipedia": {
+        "en": "Aconcagua mummy"
+      }
+    },
+    {
+      "id": "nino-del-cerro-el-plomo",
+      "titulo": "El niño del cerro El Plomo",
+      "anio": 1500,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cerro El Plomo",
+      "lon": -70.212,
+      "lat": -33.233,
+      "tipo": "religioso",
+      "resumen": "Cuerpo congelado de un niño de unos 8 o 9 años sacrificado por los incas en el cerro El Plomo, cerca de Santiago de Chile, a más de 5000 metros. Lo encontraron en 1954 arrieros que buscaban tesoros y lo compró el Museo Nacional de Historia Natural de Chile; fue uno de los primeros cuerpos de capacocha estudiados y prueba que el culto inca llegaba al valle del Mapocho.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "inca-rituals-and-sacred-mountains"
+      ],
+      "wikipedia": {
+        "es": "Cerro El Plomo",
+        "en": "Cerro El Plomo"
+      }
+    },
+    {
+      "id": "sistema-de-ceques",
+      "titulo": "El sistema de ceques del Cusco",
+      "anio": 1450,
+      "anio_hasta": 1533,
+      "aprox": true,
+      "lugar": "Coricancha",
+      "lon": -71.976,
+      "lat": -13.52,
+      "tipo": "religioso",
+      "resumen": "Según la lista que conserva Cobo, 41 líneas imaginarias (ceques) salían del Coricancha hacia el horizonte y ordenaban unas 328 huacas del valle del Cusco: fuentes, piedras, cerros, tumbas y lugares de hechos memorables, cada una a cargo de un grupo de la ciudad que le hacía ofrendas en fechas fijas. R. Tom Zuidema lo interpretó como un sistema que unía parentesco, calendario, riego y jerarquía, y Brian Bauer ubicó en el terreno muchas de esas huacas en la década de 1990.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "historia-del-nuevo-mundo-cobo",
+        "ceque-system-zuidema"
+      ],
+      "wikipedia": {
+        "es": "Ceque",
+        "en": "Ceque system"
+      }
+    },
+    {
+      "id": "huacas-y-oraculos",
+      "titulo": "Huacas y oráculos andinos",
+      "anio": 500,
+      "anio_hasta": 1600,
+      "aprox": true,
+      "lugar": "Pachacámac",
+      "lon": -76.906,
+      "lat": -12.252,
+      "tipo": "religioso",
+      "resumen": "En los Andes, huaca era todo lo sagrado: montañas, piedras, manantiales, momias de antepasados, templos e imágenes. Algunas tenían oráculos famosos, como Pachacámac en la costa central o Catequil en Huamachuco, a los que acudían peregrinos con ofrendas, y formaban familias y alianzas como las que describe el manuscrito de Huarochirí. Los incas incorporaron las huacas de los pueblos conquistados a su culto y llevaron algunas al Cusco como rehenes; según las crónicas, Atahualpa mandó destruir la de Catequil por haber pronosticado su derrota.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "manuscrito-de-huarochiri",
+        "relacion-de-las-fabulas-y-ritos",
+        "historia-del-nuevo-mundo-cobo"
+      ],
+      "wikipedia": {
+        "es": "Huaca",
+        "en": "Huaca"
+      }
+    },
+    {
+      "id": "epidemia-andina-de-1525",
+      "titulo": "Epidemia y muerte de Huayna Cápac",
+      "anio": 1525,
+      "anio_hasta": 1528,
+      "aprox": true,
+      "lugar": "Quito",
+      "lon": -78.513,
+      "lat": -0.22,
+      "tipo": "desastre",
+      "resumen": "Hacia 1525-1528, cuando los españoles todavía no habían entrado en el Tawantinsuyu, una epidemia mató a Huayna Cápac en el norte, a su heredero Ninan Cuyochi y, según las crónicas, a muchos nobles y gente común. La mayoría de los historiadores la identifica con la viruela, llegada desde Panamá o el Caribe por intercambios indígenas, aunque otros proponen el sarampión u otra enfermedad y las descripciones no permiten confirmarlo. La muerte del inca y de su heredero abrió la guerra civil.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "senorio-de-los-incas-cieza",
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento"
+      ]
+    },
+    {
+      "id": "guerra-civil-inca",
+      "titulo": "Guerra civil entre Huáscar y Atahualpa",
+      "anio": 1529,
+      "anio_hasta": 1532,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "batalla",
+      "resumen": "Tras la muerte de Huayna Cápac y de su heredero, Huáscar fue reconocido inca en el Cusco y su medio hermano Atahualpa quedó en el norte con el ejército veterano y sus generales Quisquis, Chalcuchímac y Rumiñahui. Hacia 1529 empezó la guerra: el ejército de Huáscar, al mando de Atoc, fue vencido en el norte, Atahualpa castigó a los cañaris que habían apoyado a su hermano y sus generales avanzaron hacia el sur hasta vencer y capturar a Huáscar en Quipaipán en 1532. Las crónicas difieren según el bando de sus informantes: Betanzos, casado con una mujer de la panaca de Pachacútec, simpatiza con Atahualpa, y Garcilaso, cuya madre era de la panaca de Topa Inca, que los generales de Atahualpa diezmaron, lo presenta como un tirano. La guerra dejó al imperio dividido cuando llegaron los españoles.",
+      "regiones": [
+        "andes",
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento",
+        "senorio-de-los-incas-cieza",
+        "comentarios-reales",
+        "historia-del-tahuantinsuyu",
+        "historia-general-del-piru-murua"
+      ],
+      "wikipedia": {
+        "es": "Guerra civil incaica",
+        "en": "Inca Civil War"
+      }
+    },
+    {
+      "id": "batalla-de-quipaipan",
+      "titulo": "Batalla de Quipaipán",
+      "anio": 1532,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Quipaipán, cerca del Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "batalla",
+      "resumen": "Batalla decisiva de la guerra civil inca, librada en 1532 cerca del Cusco, en la que los generales de Atahualpa Quisquis y Chalcuchímac derrotaron al ejército de Huáscar y lo capturaron. Atahualpa recibió la noticia en la sierra norte, poco antes del encuentro con Pizarro en Cajamarca.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Quipaipán",
+        "en": "Battle of Quipaipán"
+      }
+    },
+    {
+      "id": "matanza-de-los-partidarios-de-huascar",
+      "titulo": "Matanza de la familia y los partidarios de Huáscar en el Cusco",
+      "anio": 1532,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Según Betanzos, Sarmiento y Garcilaso, después de Quipaipán los enviados de Atahualpa, entre ellos Cusi Yupanqui, y el general Quisquis mataron en el Cusco a esposas, hijos y parientes de Huáscar y a nobles de su bando, en especial de la panaca de Topa Inca, y quemaron la momia de ese inca. Garcilaso, descendiente de los perjudicados, da los detalles más crueles; Betanzos, informado por el bando de Atahualpa, también lo cuenta. La matanza diezmó a la nobleza cusqueña poco antes de la conquista española.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento",
+        "comentarios-reales"
+      ]
+    },
+    {
+      "id": "hallazgo-de-las-momias-de-los-incas",
+      "titulo": "Polo de Ondegardo confisca las momias de los incas",
+      "anio": 1559,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "religioso",
+      "resumen": "En 1559 el corregidor del Cusco Juan Polo de Ondegardo buscó y confiscó las momias de varios incas, entre ellas las de Pachacútec y Huayna Cápac, y de algunas coyas, que sus panacas seguían venerando en secreto, junto con huacas y objetos de culto. Varias fueron llevadas a Lima y guardadas en el hospital de San Andrés; Garcilaso vio algunas en el Cusco antes de su traslado y José de Acosta describe la de Pachacútec. Su paradero se perdió, y las búsquedas arqueológicas en el antiguo hospital no las encontraron.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "relacion-de-los-fundamentos-polo",
+        "historia-natural-y-moral-de-las-indias",
+        "comentarios-reales"
+      ]
+    },
+    {
+      "id": "polemica-sobre-la-tirania-inca",
+      "titulo": "Polémica sobre la legitimidad de los incas",
+      "anio": 1570,
+      "anio_hasta": 1609,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "politico",
+      "resumen": "Entre 1570 y 1572 el virrey Francisco de Toledo hizo tomar declaraciones a ancianos andinos (las Informaciones) y encargó a Pedro Sarmiento de Gamboa una historia para probar que los incas eran conquistadores recientes que habían usurpado el poder a los señores naturales, con lo que el rey de España sería su legítimo sucesor y perdía base el reclamo lascasiano de devolverles el gobierno. En respuesta, autores como Blas Valera y el Inca Garcilaso (1609) presentaron a los incas como gobernantes casi monoteístas y benignos que habían sacado de la vida sin leyes a pueblos que, según Garcilaso, hacían sacrificios humanos y algunos comían carne humana, y negaron o minimizaron los sacrificios de los propios incas. Las dos imágenes respondían a intereses políticos; la arqueología muestra que los incas sucedieron a sociedades complejas como Huari, Tiahuanaco y Chimú y que su expansión combinó la guerra y la negociación.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "informaciones-de-toledo",
+        "historia-de-los-incas-sarmiento",
+        "relacion-de-los-fundamentos-polo",
+        "comentarios-reales",
+        "relacion-de-las-costumbres-antiguas"
+      ]
+    },
+    {
+      "id": "debate-sobre-la-cronologia-inca",
+      "titulo": "Debate sobre la cronología inca",
+      "anio": 1945,
+      "anio_hasta": 2021,
+      "aprox": false,
+      "lugar": "Cusco",
+      "lon": -71.9675,
+      "lat": -13.5319,
+      "tipo": "cientifico",
+      "resumen": "Las fechas más citadas de la historia inca (Pachacútec desde 1438, Topa Inca desde 1471, Huayna Cápac desde 1493) vienen de la Miscelánea antártica de Cabello Balboa, adoptada por John Rowe en 1945; ninguna otra crónica las confirma. Los fechados por radiocarbono de sitios incas en el Cusco, en Machu Picchu (ocupado desde hacia 1420 según Richard Burger y otros, 2021), en el noroeste argentino y en Chile sugieren que la expansión empezó décadas antes. Otros autores, como Zuidema, dudan incluso de que la lista de reyes sea una sucesión histórica.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "absolute-chronology-rowe",
+        "miscelanea-antartica",
+        "how-the-incas-built-their-heartland",
+        "ceque-system-zuidema",
+        "reading-inca-history"
+      ]
+    },
+    {
+      "id": "tesis-del-socialismo-inca",
+      "titulo": "Tesis del «socialismo» o «comunismo» inca",
+      "anio": 1928,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "cultural",
+      "resumen": "En 1928 el economista liberal Louis Baudin describió al estado inca como un socialismo de estado que daba seguridad material a cambio de la libertad, y José Carlos Mariátegui, en sus Siete ensayos, habló de un «comunismo agrario» inca cuya base, el ayllu, podía sostener un socialismo peruano. La imagen, que retomaron tanto críticos como admiradores del socialismo, se apoyaba sobre todo en las descripciones de Garcilaso. La etnohistoria posterior, con Murra y Rostworowski, describe en cambio una economía de reciprocidad y redistribución con una nobleza que vivía del trabajo obligatorio de las comunidades, y considera anacrónicas esas etiquetas.",
+      "regiones": [
+        "francia",
+        "andes"
+      ],
+      "fuentes": [
+        "imperio-socialista-baudin",
+        "siete-ensayos",
+        "formaciones-economicas-murra",
+        "historia-del-tahuantinsuyu"
+      ]
+    },
+    {
+      "id": "documentos-miccinelli",
+      "titulo": "Los documentos Miccinelli",
+      "anio": 1996,
+      "anio_hasta": 2007,
+      "aprox": false,
+      "lugar": "Nápoles",
+      "lon": 14.249,
+      "lat": 40.836,
+      "tipo": "cultural",
+      "resumen": "Manuscritos de una colección privada de Nápoles, dados a conocer desde 1996 por Laura Laurencich Minelli, según los cuales Blas Valera no murió en 1597 sino que volvió en secreto al Perú, escribió con otros jesuitas la Nueva corónica atribuida a Guaman Poma y dejó constancia de que los quipus tenían una escritura silábica; incluyen además una supuesta carta del conquistador Francisco de Chaves sobre el envenenamiento de los capitanes de Atahualpa en Cajamarca. La mayoría de los especialistas, como Rolena Adorno y Juan Carlos Estenssoro, los considera falsificaciones o, al menos, documentos no probados, por sus anacronismos y por el acceso restringido a los originales; sus defensores mantienen que son auténticos.",
+      "regiones": [
+        "italia",
+        "andes"
+      ],
+      "fuentes": [
+        "relacion-de-las-costumbres-antiguas",
+        "nueva-coronica-y-buen-gobierno"
+      ]
+    },
+    {
+      "id": "mito-del-reino-de-quito",
+      "titulo": "El «reino de Quito» de los shyris",
+      "anio": 1789,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Quito",
+      "lon": -78.513,
+      "lat": -0.22,
+      "tipo": "cultural",
+      "resumen": "Según la Historia del reino de Quito de Juan de Velasco (1789), los caras o shyris, llegados por mar a la costa del Ecuador, conquistaron hacia el año 1000 la sierra de Quito y formaron un reino que duró hasta la conquista inca. Velasco dice usar escritos perdidos y no hay otro documento colonial ni prueba arqueológica de ese reino; desde Jacinto Jijón y Caamaño la mayoría de los historiadores lo considera una construcción del siglo XVIII, aunque fue la base de la historia nacional ecuatoriana y se siguió enseñando. Los señoríos de la región, como caranquis, cayambes, puruhaes y cañaris, sí están documentados.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "historia-del-reino-de-quito"
+      ],
+      "wikipedia": {
+        "es": "Reino de Quito"
+      }
+    },
+    {
+      "id": "seudoarqueologia-andina",
+      "titulo": "Seudoarqueología en los Andes",
+      "anio": 1945,
+      "anio_hasta": 2023,
+      "aprox": false,
+      "lugar": "Líneas y geoglifos de Nazca",
+      "lon": -75.135,
+      "lat": -14.697,
+      "tipo": "cultural",
+      "resumen": "Algunos sitios andinos son objeto de teorías sin base científica: la antigüedad de 17 000 años que Arthur Posnansky atribuyó a Tiahuanaco, la idea de Erich von Däniken (1968) de que las líneas de Nazca eran pistas o señales para visitantes extraterrestres, y las supuestas «momias de Nazca» de seres no humanos presentadas desde 2017 y llevadas en 2023 al Congreso de México, que según los peritos del Perú eran muñecos armados con huesos humanos y de animales. Sus críticos señalan que estas teorías niegan a los pueblos andinos la autoría de sus propias obras.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "tihuanacu-posnansky",
+        "misterio-sobre-el-desierto"
+      ],
+      "wikipedia": {
+        "es": "Hipótesis de los antiguos astronautas",
+        "en": "Ancient astronauts"
+      }
+    },
+    {
+      "id": "expedicion-de-bingham-a-machu-picchu",
+      "titulo": "Bingham llega a Machu Picchu",
+      "anio": 1911,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Machu Picchu",
+      "lon": -72.545,
+      "lat": -13.1631,
+      "tipo": "exploracion",
+      "resumen": "El 24 de julio de 1911 Hiram Bingham, profesor de Yale, llegó a Machu Picchu guiado por el campesino Melchor Arteaga y encontró allí familias que cultivaban las terrazas; antes lo habían visitado otros, como Agustín Lizárraga, que dejó su nombre en un muro en 1902, y figuraba en mapas del siglo XIX. Las expediciones de 1912 y 1915 limpiaron el sitio y se llevaron a Yale miles de piezas con permisos temporales del gobierno peruano, que Yale devolvió recién entre 2011 y 2012. Bingham lo presentó al mundo como una «ciudad perdida» y lo identificó erróneamente con Vilcabamba.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "in-the-wonderland-of-peru"
+      ]
+    },
+    {
+      "id": "saqueo-de-huacas",
+      "titulo": "Saqueo de las huacas (huaqueo)",
+      "anio": 1533,
+      "anio_hasta": 1987,
+      "aprox": true,
+      "lugar": "Huacas del Sol y de la Luna",
+      "lon": -78.991,
+      "lat": -8.135,
+      "tipo": "desastre",
+      "resumen": "Desde la conquista, los españoles buscaron oro y plata en templos y tumbas: en 1533 se fundieron las piezas del Coricancha y de Pachacámac para el rescate de Atahualpa, y a comienzos del siglo XVII buscadores de tesoros desviaron el río Moche para socavar la Huaca del Sol, que perdió buena parte de su estructura. Las autoridades coloniales trataron esas excavaciones como minería y cobraron el quinto real de lo hallado. El saqueo para vender piezas siguió en la república: en el siglo XX se vaciaron miles de tumbas en Batán Grande y otros sitios, y en 1987 el saqueo de una tumba en Sipán llevó al hallazgo de la del Señor de Sipán.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "royal-tombs-of-sipan",
+        "historia-natural-y-moral-de-las-indias"
+      ],
+      "wikipedia": {
+        "es": "Robo de tumbas",
+        "en": "Grave robbery"
+      }
+    },
+    {
+      "id": "trepanacion-andina",
+      "titulo": "La trepanación del cráneo en los Andes",
+      "anio": -400,
+      "anio_hasta": 1532,
+      "aprox": true,
+      "lugar": "Paracas",
+      "lon": -76.2,
+      "lat": -14.1,
+      "tipo": "cientifico",
+      "resumen": "Desde la cultura Paracas, hacia el siglo IV a. C., hasta los incas, los cirujanos andinos abrían el cráneo raspando, cortando o perforando el hueso, sobre todo para tratar fracturas y otras lesiones. John Verano estudió más de 800 cráneos trepanados y encontró que la proporción de pacientes que sobrevivían, visible en el hueso regenerado, aumentó con el tiempo hasta superar las tres cuartas partes en tiempos incas. Julio C. Tello y otros médicos peruanos la estudiaron desde comienzos del siglo XX.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [
+        "holes-in-the-head"
+      ],
+      "wikipedia": {
+        "es": "Trepanación",
+        "en": "Trepanning"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "real-alto",
+      "nombre": "Real Alto",
+      "lon": -80.654,
+      "lat": -2.365,
+      "fundacion": -3800,
+      "abandono": -1500,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Aldea de la cultura Valdivia en la península de Santa Elena, en la costa del Ecuador, una de las primeras aldeas agrícolas de Sudamérica, con casas ovaladas alrededor de una plaza y montículos ceremoniales. La excavaron Donald Lathrap y Jorge Marcos en la década de 1970.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "wikipedia": {
+        "en": "Real Alto"
+      }
+    },
+    {
+      "id": "kotosh",
+      "nombre": "Kotosh",
+      "lon": -76.279,
+      "lat": -9.931,
+      "fundacion": -2300,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Sitio cerca de Huánuco con templos superpuestos del Arcaico tardío, entre ellos el de las Manos Cruzadas, con un relieve de barro de dos antebrazos cruzados y cámaras con fogones rituales. Lo excavó una misión de la Universidad de Tokio desde 1960 y dio nombre a una tradición religiosa de la sierra anterior a Chavín.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Kotosh",
+        "en": "Kotosh"
+      }
+    },
+    {
+      "id": "cerro-sechin",
+      "nombre": "Cerro Sechín",
+      "lon": -78.257,
+      "lat": -9.476,
+      "fundacion": -1800,
+      "abandono": -900,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Templo del valle de Casma, en la costa norte del Perú, rodeado por un muro de unos 300 monolitos tallados con guerreros armados y víctimas mutiladas: cuerpos partidos, cabezas cortadas, vísceras y ojos. Julio C. Tello lo excavó en 1937; se discute si representa una victoria militar, un rito de sacrificio o un mito, pero es una de las imágenes más antiguas de violencia organizada en América.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Sechín",
+        "en": "Cerro Sechín"
+      }
+    },
+    {
+      "id": "chavin-de-huantar",
+      "nombre": "Chavín de Huántar",
+      "lon": -77.178,
+      "lat": -9.593,
+      "fundacion": -1200,
+      "abandono": -500,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Centro ceremonial de la sierra de Áncash, en la unión de los ríos Mosna y Huachecsa, con un templo de piedra recorrido por galerías subterráneas donde se conserva el Lanzón, monolito de una divinidad con colmillos. Las cabezas clavas de sus muros y las imágenes de seres que se transforman sugieren el uso ritual de plantas como el cactus San Pedro. Julio C. Tello lo estudió desde 1919; John Rick lo fecha entre 1200 y 500 a. C. y Richard Burger hasta 200 a. C. Es Patrimonio de la Humanidad desde 1985.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Chavín de Huántar",
+        "en": "Chavín de Huántar"
+      }
+    },
+    {
+      "id": "cahuachi",
+      "nombre": "Cahuachi",
+      "lon": -75.117,
+      "lat": -14.819,
+      "fundacion": -100,
+      "abandono": 500,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Centro ceremonial de la cultura Nazca, con decenas de montículos de adobe sobre lomas naturales, que funcionó como lugar de peregrinación y de ofrendas más que como ciudad. Lo excavó durante décadas Giuseppe Orefici.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Cahuachi",
+        "en": "Cahuachi"
+      }
+    },
+    {
+      "id": "lineas-de-nazca",
+      "nombre": "Líneas y geoglifos de Nazca",
+      "lon": -75.135,
+      "lat": -14.697,
+      "fundacion": -500,
+      "abandono": 700,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Miles de líneas, figuras geométricas y figuras de animales y plantas (el mono, el colibrí, la araña) trazadas en las pampas entre Nazca y Palpa retirando las piedras rojizas de la superficie, hechas por las culturas Paracas y Nazca. María Reiche las midió durante medio siglo; hoy se las relaciona con el agua, la fertilidad y caminos rituales, y desde 2019 se descubrieron cientos de figuras nuevas con ayuda de imágenes de alta resolución. Son Patrimonio de la Humanidad desde 1994.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Líneas de Nazca",
+        "en": "Nazca lines"
+      }
+    },
+    {
+      "id": "huaca-rajada",
+      "nombre": "Huaca Rajada (Sipán)",
+      "lon": -79.602,
+      "lat": -6.801,
+      "fundacion": 50,
+      "abandono": 700,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Plataforma funeraria moche cerca de Chiclayo, en el valle de Lambayeque, donde Walter Alva excavó desde 1987 la tumba del Señor de Sipán y otras tumbas de élite, después del saqueo de una de ellas.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Huaca Rajada",
+        "en": "Huaca Rajada"
+      }
+    },
+    {
+      "id": "huacas-del-sol-y-de-la-luna",
+      "nombre": "Huacas del Sol y de la Luna",
+      "lon": -78.991,
+      "lat": -8.135,
+      "fundacion": 100,
+      "abandono": 850,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Centro moche del valle de Moche, cerca de Trujillo, con la Huaca del Sol, la mayor estructura de adobe de América, y la Huaca de la Luna, templo con relieves policromos de la divinidad de las montañas y de guerreros y prisioneros; entre ambas había un barrio urbano de artesanos. En la plaza 3A de la Huaca de la Luna se hallaron los restos de más de 70 víctimas de sacrificio. Buscadores de tesoros desviaron el río Moche en la época colonial para socavar la Huaca del Sol, que perdió buena parte de su estructura.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Huaca de la Luna",
+        "en": "Huaca de la Luna"
+      }
+    },
+    {
+      "id": "el-brujo",
+      "nombre": "El Brujo",
+      "lon": -79.305,
+      "lat": -7.915,
+      "fundacion": 100,
+      "abandono": 800,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Complejo del valle de Chicama, en la costa norte del Perú, con la Huaca Cao Viejo, templo moche donde se halló en 2005 la tumba de la Señora de Cao, y la Huaca Prieta, uno de los sitios más antiguos de la costa peruana.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "El Brujo (sitio arqueológico)",
+        "en": "El Brujo"
+      }
+    },
+    {
+      "id": "huaca-pucllana",
+      "nombre": "Huaca Pucllana",
+      "lon": -77.034,
+      "lat": -12.111,
+      "fundacion": 200,
+      "abandono": 700,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Pirámide de adobe de la cultura Lima, en el actual distrito limeño de Miraflores, construida con adobes colocados en hileras verticales como libros en un estante. Tiene entierros de la cultura Lima, entre ellos de mujeres jóvenes interpretadas como sacrificadas, y posteriores de la época wari.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Huaca Pucllana",
+        "en": "Huaca Pucllana"
+      }
+    },
+    {
+      "id": "tiwanaku",
+      "nombre": "Tiahuanaco (Tiwanaku)",
+      "lon": -68.673,
+      "lat": -16.555,
+      "fundacion": 200,
+      "abandono": 1100,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 3,
+      "resumen": "Capital de la cultura Tiahuanaco, al sur del lago Titicaca, en la actual Bolivia, con la pirámide de Akapana, el templo semisubterráneo, el Kalasasaya con la Puerta del Sol y el conjunto de Puma Punku, de piedras talladas con gran precisión. En la época colonial y en los siglos XIX y XX se sacaron muchas de sus piedras para iglesias, casas y obras, y su cronología fue objeto de teorías fantásticas. Es Patrimonio de la Humanidad desde 2000.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Tiahuanaco",
+        "en": "Tiwanaku"
+      }
+    },
+    {
+      "id": "huari-sitio",
+      "nombre": "Huari (capital wari)",
+      "lon": -74.194,
+      "lat": -13.061,
+      "fundacion": 500,
+      "abandono": 1000,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del estado wari, cerca de Ayacucho, una ciudad extensa de recintos amurallados, templos y tumbas subterráneas de varios pisos para la élite, desde donde se controlaron centros provinciales en buena parte del Perú.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Complejo arqueológico Wari",
+        "en": "Wari (archaeological site)"
+      }
+    },
+    {
+      "id": "pikillacta",
+      "nombre": "Pikillacta",
+      "lon": -71.715,
+      "lat": -13.617,
+      "fundacion": 650,
+      "abandono": 1000,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Centro provincial wari en el valle de Lucre, cerca del Cusco, con cientos de recintos ortogonales levantados según un plano previo. Gordon McEwan lo interpretó como centro administrativo y de almacenamiento; muestra que el valle del Cusco estuvo bajo dominio o influencia de Huari siglos antes de los incas.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Piquillacta",
+        "en": "Pikillaqta"
+      }
+    },
+    {
+      "id": "marcahuamachuco",
+      "nombre": "Marcahuamachuco",
+      "lon": -78.078,
+      "lat": -7.785,
+      "fundacion": 400,
+      "abandono": 1000,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Gran asentamiento en la cima de una meseta de la sierra de La Libertad, con galerías y recintos de varios pisos rodeados de murallas, centro de la cultura Huamachuco antes y durante la época wari.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Marcahuamachuco",
+        "en": "Marcahuamachuco"
+      }
+    },
+    {
+      "id": "batan-grande",
+      "nombre": "Batán Grande",
+      "lon": -79.796,
+      "lat": -6.47,
+      "fundacion": 750,
+      "abandono": 1375,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Conjunto de pirámides de adobe en el valle de La Leche, en Lambayeque, capital de la cultura Sicán, con tumbas de élite muy ricas en oro excavadas por Izumi Shimada. Fue uno de los sitios más saqueados del Perú en el siglo XX.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Batán Grande",
+        "en": "Batán Grande"
+      }
+    },
+    {
+      "id": "tucume",
+      "nombre": "Túcume",
+      "lon": -79.844,
+      "lat": -6.516,
+      "fundacion": 1000,
+      "abandono": 1532,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Conjunto de más de veinte pirámides de adobe en el valle de Lambayeque, ocupado por los sicanes, los chimúes y los incas. Thor Heyerdahl dirigió excavaciones entre 1988 y 1994; en el templo de la Piedra Sagrada se hallaron ofrendas y restos de sacrificios humanos.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Túcume",
+        "en": "Túcume"
+      }
+    },
+    {
+      "id": "chan-chan",
+      "nombre": "Chan Chan",
+      "lon": -79.075,
+      "lat": -8.111,
+      "fundacion": 850,
+      "abandono": 1470,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 3,
+      "resumen": "Capital del reino chimú junto a la actual Trujillo, la mayor ciudad de adobe de América, con una decena de grandes recintos amurallados (ciudadelas) que servían de palacios y tumbas de los reyes, barrios de artesanos y relieves de peces y aves en los muros. Los incas la conquistaron hacia 1470 y los españoles saquearon sus tumbas. Es Patrimonio de la Humanidad desde 1986.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Chan Chan",
+        "en": "Chan Chan"
+      }
+    },
+    {
+      "id": "kuelap",
+      "nombre": "Kuélap",
+      "lon": -77.923,
+      "lat": -6.418,
+      "fundacion": 500,
+      "abandono": 1570,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Asentamiento chachapoya sobre una cresta a unos 3000 metros, en Amazonas (Perú), rodeado por una muralla de hasta 19 metros de alto con entradas estrechas, y con más de 400 casas circulares de piedra con frisos en zigzag y rombos. Estuvo habitado desde mediados del primer milenio hasta la época colonial; en 2022 se derrumbó parte de su muralla.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Kuélap",
+        "en": "Kuélap"
+      }
+    },
+    {
+      "id": "sarcofagos-de-carajia",
+      "nombre": "Sarcófagos de Carajía",
+      "lon": -78.021,
+      "lat": -6.162,
+      "fundacion": 1400,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Grupo de sarcófagos antropomorfos de barro y cañas, de más de dos metros de alto, colocados en una cornisa de un acantilado en Amazonas (Perú) por los chachapoyas, con cráneos humanos encima de algunos.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Sarcófagos de Carajía",
+        "en": "Sarcophagi of Carajía"
+      }
+    },
+    {
+      "id": "laguna-de-los-condores",
+      "nombre": "Laguna de los Cóndores",
+      "lon": -77.693,
+      "lat": -6.851,
+      "fundacion": 800,
+      "abandono": 1570,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Laguna de Amazonas (Perú) con mausoleos chachapoyas en un acantilado de donde se rescataron en 1997 más de 200 fardos funerarios y decenas de quipus, de época chachapoya e inca, tras el ataque de saqueadores.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Laguna de los Cóndores",
+        "en": "Laguna de las Momias"
+      }
+    },
+    {
+      "id": "coricancha",
+      "nombre": "Coricancha",
+      "lon": -71.976,
+      "lat": -13.52,
+      "fundacion": 1440,
+      "abandono": 1534,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Templo principal del Cusco, dedicado al Sol y a otras divinidades, con muros de piedra de ajuste perfecto que según los testigos estaban cubiertos de planchas de oro; de allí salían los ceques. En 1533 se arrancaron sus planchas para el rescate de Atahualpa, y después se entregó a los dominicos, que levantaron sobre él la iglesia y el convento de Santo Domingo; los terremotos de 1650 y 1950 dejaron a la vista sus muros incas.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Coricancha",
+        "en": "Coricancha"
+      }
+    },
+    {
+      "id": "sacsayhuaman",
+      "nombre": "Sacsayhuamán",
+      "lon": -71.982,
+      "lat": -13.508,
+      "fundacion": 1440,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Complejo sobre el Cusco con tres hileras de muros en zigzag de grandes piedras ajustadas sin argamasa, torres y depósitos, iniciado en tiempos de Pachacútec y continuado por sus sucesores con miles de trabajadores por turnos. Los españoles lo llamaron fortaleza y fue escenario de combates en el cerco del Cusco de 1536; después sacaron de allí piedra para construir la ciudad colonial.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Sacsayhuamán",
+        "en": "Sacsayhuamán"
+      }
+    },
+    {
+      "id": "ollantaytambo",
+      "nombre": "Ollantaytambo",
+      "lon": -72.263,
+      "lat": -13.258,
+      "fundacion": 1440,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Pueblo y complejo inca del valle Sagrado, finca real de Pachacútec, con un templo de grandes monolitos de pórfido, andenes y un trazado de manzanas que todavía está habitado.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Ollantaytambo",
+        "en": "Ollantaytambo"
+      }
+    },
+    {
+      "id": "pisac",
+      "nombre": "Písac",
+      "lon": -71.85,
+      "lat": -13.421,
+      "fundacion": 1440,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Complejo inca sobre el valle Sagrado, con andenes, templos, barrios y uno de los mayores cementerios incas conocidos, saqueado en su mayor parte; se lo relaciona con las fincas de Pachacútec.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Písac (Perú)",
+        "en": "Písac"
+      }
+    },
+    {
+      "id": "choquequirao",
+      "nombre": "Choquequirao",
+      "lon": -72.872,
+      "lat": -13.395,
+      "fundacion": 1480,
+      "abandono": 1572,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Complejo inca en la cordillera de Vilcabamba, sobre el río Apurímac, con andenes decorados con figuras de llamas en piedra blanca; se lo relaciona con las fincas de Topa Inca y fue uno de los lugares del estado inca de Vilcabamba.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Choquequirao",
+        "en": "Choquequirao"
+      }
+    },
+    {
+      "id": "raqchi",
+      "nombre": "Raqchi (templo de Viracocha)",
+      "lon": -71.367,
+      "lat": -14.175,
+      "fundacion": 1450,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Complejo inca al sur del Cusco con un templo dedicado al dios Viracocha, cuyo muro central de piedra y adobe tiene más de 90 metros de largo, y con más de un centenar de depósitos circulares.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Racchi",
+        "en": "Raqch'i"
+      }
+    },
+    {
+      "id": "vilcashuaman",
+      "nombre": "Vilcashuamán",
+      "lon": -73.954,
+      "lat": -13.653,
+      "fundacion": 1450,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Centro administrativo inca en Ayacucho, en la tierra de los chancas y pocras, con una pirámide escalonada (ushnu) de doble asiento y un templo del Sol sobre el que se levantó una iglesia colonial.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Vilcashuamán",
+        "en": "Vilcashuamán"
+      }
+    },
+    {
+      "id": "huanuco-pampa",
+      "nombre": "Huánuco Pampa (Huánuco Viejo)",
+      "lon": -76.75,
+      "lat": -9.833,
+      "fundacion": 1460,
+      "abandono": 1540,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Centro administrativo inca a unos 3800 metros, en el camino real de la sierra, con una gran plaza con ushnu, palacios, un acllawasi y cientos de depósitos. Las excavaciones de Craig Morris hallaron gran cantidad de vasijas para chicha, lo que indica que era un lugar de banquetes y de trabajo por turnos más que una ciudad con población permanente.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Huánuco Pampa",
+        "en": "Huánuco Pampa"
+      }
+    },
+    {
+      "id": "tambo-colorado",
+      "nombre": "Tambo Colorado",
+      "lon": -75.829,
+      "lat": -13.705,
+      "fundacion": 1450,
+      "abandono": 1533,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Centro administrativo inca de adobe en el valle de Pisco, que conserva pintura roja y amarilla en sus muros y nichos.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Tambo Colorado",
+        "en": "Tambo Colorado"
+      }
+    },
+    {
+      "id": "puruchuco",
+      "nombre": "Puruchuco",
+      "lon": -76.934,
+      "lat": -12.048,
+      "fundacion": 1450,
+      "abandono": 1550,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Palacio de un señor local de época inca cerca de Lima, donde se hallaron los quipus que estudiaron Gary Urton y Carrie Brezine. En el cementerio vecino de Puruchuco-Huaquerones se excavaron entre 1999 y 2001 más de 2000 fardos funerarios, entre ellos víctimas del cerco de Lima de 1536 con las primeras heridas de arma de fuego documentadas en restos humanos de América.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Puruchuco",
+        "en": "Puruchuco"
+      }
+    },
+    {
+      "id": "tunanmarca",
+      "nombre": "Tunanmarca",
+      "lon": -75.599,
+      "lat": -11.72,
+      "fundacion": 1350,
+      "abandono": 1460,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Pueblo amurallado de los huancas en una cumbre del valle del Mantaro, con miles de casas circulares de piedra, abandonado cuando los incas trasladaron a sus habitantes a los valles. Es uno de los ejemplos más claros de las guerras entre señoríos anteriores a los incas.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Tunanmarca",
+        "en": "Tunanmarca"
+      }
+    },
+    {
+      "id": "tomebamba",
+      "nombre": "Tomebamba",
+      "lon": -78.998,
+      "lat": -2.906,
+      "fundacion": 1470,
+      "abandono": 1532,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad inca levantada sobre el centro cañari de Guapondélig, donde hoy está Cuenca, en el Ecuador; según la tradición nació allí Huayna Cápac, que la hizo su capital del norte. Según Cieza fue destruida en la guerra civil; se conservan restos en Pumapungo.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "wikipedia": {
+        "es": "Tomebamba",
+        "en": "Tumebamba"
+      }
+    },
+    {
+      "id": "ingapirca",
+      "nombre": "Ingapirca",
+      "lon": -78.875,
+      "lat": -2.54,
+      "fundacion": 1490,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Complejo cañari e inca en la provincia de Cañar, en el Ecuador, con un edificio inca de planta elíptica de piedra fina, el mayor conjunto inca del país.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "wikipedia": {
+        "es": "Ingapirca",
+        "en": "Ingapirca"
+      }
+    },
+    {
+      "id": "pambamarca",
+      "nombre": "Pambamarca",
+      "lon": -78.2,
+      "lat": -0.067,
+      "fundacion": 1490,
+      "abandono": 1530,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Conjunto de fortalezas incas y locales al noreste de Quito, de las guerras de Huayna Cápac contra cayambes y caranquis.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "wikipedia": {
+        "en": "Pambamarca"
+      }
+    },
+    {
+      "id": "incallajta",
+      "nombre": "Incallajta",
+      "lon": -65.416,
+      "lat": -17.605,
+      "fundacion": 1470,
+      "abandono": 1530,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Centro inca en el oriente de Cochabamba, en la actual Bolivia, con murallas y un gran galpón (kallanka), que protegía la frontera oriental frente a los chiriguanos.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Incallajta",
+        "en": "Inkallaqta"
+      }
+    },
+    {
+      "id": "isla-del-sol",
+      "nombre": "Isla del Sol",
+      "lon": -69.176,
+      "lat": -16.021,
+      "fundacion": 1460,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 2,
+      "resumen": "Isla del lago Titicaca donde, según los mitos incas, nació el Sol. Los incas levantaron allí un santuario de peregrinación junto a la roca sagrada (Titikala), sobre lugares de culto anteriores de época tiahuanaco.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Isla del Sol",
+        "en": "Isla del Sol"
+      }
+    },
+    {
+      "id": "pachacamac",
+      "nombre": "Pachacámac",
+      "lon": -76.906,
+      "lat": -12.252,
+      "fundacion": 200,
+      "abandono": 1533,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 3,
+      "resumen": "Santuario de la costa central, al sur de Lima, sede durante más de mil años de un oráculo consultado desde lejos. Tiene templos de la cultura Lima, de la época wari y del señorío ichma, y un templo del Sol y un acllawasi incas. Max Uhle lo excavó en 1896 y encontró junto al templo del Sol entierros de mujeres que interpretó como sacrificadas; en 1533 Hernando Pizarro lo saqueó en busca de oro para el rescate de Atahualpa y destruyó el ídolo del oráculo.",
+      "regiones": [
+        "andes"
+      ],
+      "wikipedia": {
+        "es": "Pachacámac (sitio arqueológico)",
+        "en": "Pachacamac"
+      }
+    }
+  ]
+}

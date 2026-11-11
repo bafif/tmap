@@ -10235,7 +10235,7 @@
           82.75
         ]
       ],
-      "resumen": "Estados Unidos y Canadá, del Ártico al golfo de México (Hawái y las islas más alejadas quedan fuera del polígono). Antes de la llegada europea lo habitaban cientos de pueblos originarios, desde las ciudades de túmulos del Misisipi, como Cahokia, hasta los pueblos del suroeste y del Ártico; desde el siglo XVII lo colonizaron Inglaterra, Francia y España, y en 1776 nació Estados Unidos.",
+      "resumen": "Estados Unidos y Canadá, del Ártico al golfo de México (Hawái y las islas más alejadas quedan fuera del polígono). Antes de la llegada europea lo habitaban cientos de pueblos originarios, desde las ciudades de túmulos del Misisipi, como Cahokia, hasta los pueblos del suroeste y del Ártico; desde el siglo XVI lo colonizó España (San Agustín, en la Florida, se fundó en 1565) y desde el XVII Francia, Inglaterra y los Países Bajos, y en 1776 nació Estados Unidos.",
       "eras": [
         {
           "desde": null,
@@ -10247,7 +10247,7 @@
           "desde": 800,
           "hasta": 1607,
           "nombre": "Culturas misisipianas y del suroeste",
-          "resumen": "Ciudades de túmulos como Cahokia (c. 1050-1350) y Chaco Canyon; los nórdicos en Terranova hacia 1000 y exploraciones españolas y francesas en el siglo XVI."
+          "resumen": "Ciudades de túmulos como Cahokia (c. 1050-1350) y Chaco Canyon; los nórdicos en Terranova hacia 1000; exploraciones españolas y francesas en el siglo XVI y fundación española de San Agustín, en la Florida (1565)."
         },
         {
           "desde": 1607,
@@ -10504,6 +10504,276 @@
           "anio": 2023,
           "poblacion": 382846856,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -21000,
+          "hasta": -8000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las huellas de White Sands (Nuevo México) se fecharon en 23 000-21 000 años, una fecha discutida; la ocupación está bien documentada desde hace unos 16 000 años (Cooper's Ferry) y es general desde Clovis, hacia 11 000 a. C."
+        },
+        {
+          "desde": -8000,
+          "hasta": 1750,
+          "nombre": "Pueblos originarios de Norteamérica (áreas culturales del Ártico, el Subártico, la costa noroeste, la Meseta, la Gran Cuenca, California, el Suroeste, las Llanuras, el Noreste y el Sudeste)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1821,
+          "nombre": "Españoles y criollos de Florida, Nuevo México, Texas y California",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1821,
+          "hasta": 1970,
+          "nombre": "Hispanos de Nuevo México, Texas y California y migrantes mexicanos",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1680,
+          "nombre": "Colonos ingleses",
+          "familia": "inglesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1680,
+          "hasta": 1750,
+          "nombre": "Colonos ingleses",
+          "familia": "inglesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1608,
+          "hasta": 1763,
+          "nombre": "Franceses de Canadá y Luisiana",
+          "familia": "francesa",
+          "peso": "minoritaria",
+          "nota": "Nueva Francia nunca pasó de unos 70 000 a 80 000 habitantes de origen europeo, frente a más de un millón en las colonias británicas hacia 1750."
+        },
+        {
+          "desde": 1750,
+          "hasta": 1776,
+          "nombre": "Colonos británicos",
+          "familia": "inglesa",
+          "peso": "mayoritaria",
+          "nota": "Hacia 1750 las colonias británicas tenían más de un millón de habitantes, probablemente más que toda la población indígena de Estados Unidos y Canadá."
+        },
+        {
+          "desde": 1776,
+          "hasta": null,
+          "nombre": "Estadounidenses",
+          "familia": "estadounidense",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1763,
+          "hasta": null,
+          "nombre": "Francocanadienses",
+          "familia": "francocanadiense",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1783,
+          "hasta": null,
+          "nombre": "Anglocanadienses",
+          "familia": "anglocanadiense",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1619,
+          "hasta": 1700,
+          "nombre": "Africanos esclavizados",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1624,
+          "hasta": 1700,
+          "nombre": "Neerlandeses de Nueva Holanda (valle del Hudson)",
+          "familia": "neerlandesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Afroamericanos",
+          "familia": "afrodescendiente",
+          "peso": "importante"
+        },
+        {
+          "desde": 1745,
+          "hasta": 1867,
+          "nombre": "Rusos y criollos de la América rusa (Alaska)",
+          "familia": "rusa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Pueblos originarios",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Hispanos",
+          "familia": "criolla",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -21000,
+          "hasta": 1750,
+          "nombre": "Lenguas originarias (unas 300 lenguas de más de 50 familias, contando las aisladas)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1970,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1680,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1680,
+          "hasta": 1750,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1608,
+          "hasta": null,
+          "nombre": "Francés",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1624,
+          "hasta": 1800,
+          "nombre": "Neerlandés (Nueva Holanda y el valle del Hudson)",
+          "familia": "neerlandes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1745,
+          "hasta": 1867,
+          "nombre": "Ruso (América rusa)",
+          "familia": "ruso",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Lenguas originarias",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -21000,
+          "hasta": 1750,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1565,
+          "hasta": 1850,
+          "nombre": "Catolicismo (misiones de Florida y Nuevo México, Nueva Francia, Maryland)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1607,
+          "hasta": 1680,
+          "nombre": "Protestantismo",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1680,
+          "hasta": 1750,
+          "nombre": "Protestantismo",
+          "familia": "protestantismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Protestantismo",
+          "familia": "protestantismo",
+          "peso": "mayoritaria",
+          "nota": "Sigue siendo la mayor tradición religiosa de Estados Unidos, aunque ya no es mayoría absoluta."
+        },
+        {
+          "desde": 1654,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1794,
+          "hasta": null,
+          "nombre": "Cristianismo ortodoxo (Alaska)",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "minoritaria",
+          "nota": "La misión ortodoxa rusa llegó a Kodiak en 1794; Iván Veniamínov creó en las décadas de 1820 y 1830 una escritura para el aleutiano."
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
         }
       ]
     },
@@ -10906,6 +11176,135 @@
           "poblacion": 55951,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
+      ],
+      "culturas": [
+        {
+          "desde": -2500,
+          "hasta": 1200,
+          "nombre": "Paleoesquimales: Saqqaq, Independencia I y II y Dorset",
+          "familia": "paleoesquimal",
+          "peso": "mayoritaria",
+          "nota": "La ocupación fue discontinua: hubo siglos sin habitantes en buena parte de la isla. El genoma de un hombre saqqaq de hace unos 4000 años fue el primero de un humano antiguo en ser secuenciado (Rasmussen et al., 2010)."
+        },
+        {
+          "desde": 985,
+          "hasta": 1450,
+          "nombre": "Nórdicos de los asentamientos Oriental y Occidental",
+          "familia": "nordica",
+          "peso": "importante",
+          "nota": "El asentamiento Occidental se abandonó hacia 1350-1360 y el Oriental hacia mediados del siglo XV; la última noticia escrita es una boda en Hvalsey en 1408."
+        },
+        {
+          "desde": 1200,
+          "hasta": null,
+          "nombre": "Inuit (thule; kalaallit, inughuit y tunumiit)",
+          "familia": "inuit",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1721,
+          "hasta": null,
+          "nombre": "Daneses y noruegos",
+          "familia": "danesa",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -2500,
+          "hasta": 1200,
+          "nombre": "Lenguas de los paleoesquimales, desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 985,
+          "hasta": 1450,
+          "nombre": "Nórdico antiguo",
+          "familia": "nordico",
+          "peso": "importante"
+        },
+        {
+          "desde": 1200,
+          "hasta": null,
+          "nombre": "Groenlandés (kalaallisut) y otros dialectos inuit",
+          "familia": "inuit",
+          "peso": "mayoritaria",
+          "nota": "Es la única lengua oficial de Groenlandia desde 2009."
+        },
+        {
+          "desde": 1721,
+          "hasta": 1950,
+          "nombre": "Danés",
+          "familia": "danes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Danés",
+          "familia": "danes",
+          "peso": "importante"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -2500,
+          "hasta": 1200,
+          "nombre": "Creencias paleoesquimales",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 985,
+          "hasta": 1000,
+          "nombre": "Religión nórdica",
+          "familia": "religion-nordica",
+          "peso": "importante"
+        },
+        {
+          "desde": 1000,
+          "hasta": 1450,
+          "nombre": "Cristianismo nórdico (obispado de Gardar desde 1126)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1200,
+          "hasta": 1800,
+          "nombre": "Religión inuit (angakkuit, Sedna, tabúes)",
+          "familia": "religion-inuit",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1721,
+          "hasta": 1800,
+          "nombre": "Luteranismo (misión de Hans Egede)",
+          "familia": "luteranismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1733,
+          "hasta": 1900,
+          "nombre": "Iglesia morava",
+          "familia": "moraviana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1800,
+          "hasta": null,
+          "nombre": "Luteranismo (Iglesia de Groenlandia)",
+          "familia": "luteranismo",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada para el oeste; el este y el extremo norte se convirtieron entre fines del siglo XIX y la década de 1920."
+        },
+        {
+          "desde": 1800,
+          "hasta": 1930,
+          "nombre": "Religión inuit",
+          "familia": "religion-inuit",
+          "peso": "minoritaria"
+        }
       ]
     },
     {
@@ -11112,6 +11511,150 @@
           "nombre": "Revolución y México moderno",
           "resumen": "La Revolución mexicana estalla en el norte; industria y maquilas en la frontera."
         }
+      ],
+      "culturas": [
+        {
+          "desde": -11400,
+          "hasta": -8000,
+          "nombre": "Paleoindios (El Fin del Mundo, en Sonora)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "La cueva del Chiquihuite, en Zacatecas, tendría herramientas de unos 26 000 años o más (Ardelean et al., 2020); muchos arqueólogos dudan de que sean obra humana."
+        },
+        {
+          "desde": -8000,
+          "hasta": 1750,
+          "nombre": "Pueblos de Aridoamérica: cazadores-recolectores (guachichiles, zacatecos, pames, coahuiltecos, seris, guaycuras) y agricultores de la sierra y la costa (rarámuris, yaquis, mayos, pimas, ópatas)",
+          "familia": "aridoamericana",
+          "peso": "mayoritaria",
+          "nota": "Tras la guerra chichimeca (1550-1600), las epidemias y la esclavización, los cazadores del centro-norte casi desaparecieron como pueblos; en la sierra y en Sonora los indígenas siguieron siendo mayoría hasta los siglos XVIII o XIX."
+        },
+        {
+          "desde": 300,
+          "hasta": 1000,
+          "nombre": "Culturas de la frontera mesoamericana (Chalchihuites, La Quemada)",
+          "familia": "mesoamericana",
+          "peso": "importante",
+          "nota": "Fechas aproximadas."
+        },
+        {
+          "desde": 1200,
+          "hasta": 1450,
+          "nombre": "Paquimé (Casas Grandes) y otras culturas de Oasisamérica en Chihuahua y Sonora",
+          "familia": "oasisamericana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1546,
+          "hasta": 1650,
+          "nombre": "Españoles, criollos, mestizos, mulatos y tlaxcaltecas de minas, presidios y misiones",
+          "familia": "criolla",
+          "peso": "minoritaria",
+          "nota": "Desde 1591 se asentaron en el norte familias tlaxcaltecas para fundar pueblos."
+        },
+        {
+          "desde": 1650,
+          "hasta": 1750,
+          "nombre": "Españoles, criollos, mestizos, mulatos y tlaxcaltecas de minas, presidios y misiones",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Mestiza y criolla del norte de México",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Pueblos indígenas (rarámuris, yaquis, mayos, seris, pimas, tepehuanes, huicholes, coras y otros)",
+          "familia": "aridoamericana",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11400,
+          "hasta": -3000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3000,
+          "hasta": 1750,
+          "nombre": "Lenguas yutoaztecas (rarámuri, yaqui, mayo, pima, tepehuano, cora, huichol) y otras (seri, pame, yumanas, guaycura, coahuilteco)",
+          "familia": "yutoaztecas",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada. Muchas lenguas de los cazadores del centro-norte se extinguieron sin dejar registro: del guachichil y el zacateco solo quedan nombres y algunas palabras."
+        },
+        {
+          "desde": 1546,
+          "hasta": 1650,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": 1750,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Lenguas yutoaztecas y otras lenguas originarias",
+          "familia": "yutoaztecas",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11400,
+          "hasta": 1650,
+          "nombre": "Religiones de Aridoamérica (chamanes, peyote entre huicholes y rarámuris, mitotes)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1546,
+          "hasta": 1650,
+          "nombre": "Catolicismo (misiones jesuitas desde 1591 y franciscanas)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Religiones originarias y cultos mixtos",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        }
       ]
     },
     {
@@ -11300,7 +11843,7 @@
           "desde": 1492,
           "hasta": 1650,
           "nombre": "Conquista española",
-          "resumen": "Colón llega en 1492; la población taína se derrumba por la violencia y las epidemias."
+          "resumen": "Colón llega en 1492; la población taína se derrumba por la guerra, el trabajo forzado en las encomiendas, la desorganización social y las epidemias (la viruela llegó en 1518)."
         },
         {
           "desde": 1650,
@@ -11513,6 +12056,301 @@
           "poblacion": 44249641,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
+      ],
+      "culturas": [
+        {
+          "desde": -5000,
+          "hasta": -500,
+          "nombre": "Pueblos arcaicos (ortoiroides en Trinidad y las Antillas Menores, casimiroides en Cuba y La Española)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Banwari Trace, en Trinidad, tiene unos 7000 años; Cuba y La Española se poblaron hacia 4000 a. C."
+        },
+        {
+          "desde": -500,
+          "hasta": 600,
+          "nombre": "Saladoides, agricultores y alfareros llegados desde el Orinoco",
+          "familia": "arahuaca",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 600,
+          "hasta": 1530,
+          "nombre": "Taínos y otros pueblos ostionoides (Grandes Antillas, Bahamas y parte de las Antillas Menores)",
+          "familia": "taina",
+          "peso": "mayoritaria",
+          "nota": "Las cifras de población de La Española a la llegada de Colón van de menos de cien mil a varios millones según los autores; el ADN antiguo sugiere decenas de miles por isla (Fernandes et al., 2021)."
+        },
+        {
+          "desde": 1200,
+          "hasta": 1700,
+          "nombre": "Kalinagos (caribes de las Antillas Menores)",
+          "familia": "caribes",
+          "peso": "minoritaria",
+          "nota": "La fecha de su llegada y su relación con los kari'nas de tierra firme se discuten: las crónicas hablan de una conquista reciente y la arqueología no muestra una ruptura clara. Las acusaciones de canibalismo de las fuentes españolas también se discuten."
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Kalinagos de Dominica y San Vicente",
+          "familia": "caribes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1530,
+          "hasta": 1800,
+          "nombre": "Taínos sobrevivientes y sus descendientes en los pueblos de indios de Cuba (Guanabacoa, El Caney, Jiguaní) y en La Española y Puerto Rico",
+          "familia": "taina",
+          "peso": "minoritaria",
+          "nota": "Fecha aproximada: se fueron mezclando con el resto de la población."
+        },
+        {
+          "desde": 1492,
+          "hasta": 1530,
+          "nombre": "Españoles",
+          "familia": "hispana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1530,
+          "hasta": 1700,
+          "nombre": "Españoles, criollos, mestizos y africanos de las Antillas españolas",
+          "familia": "hispana",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1520,
+          "hasta": 1700,
+          "nombre": "Africanos esclavizados",
+          "familia": "afrodescendiente",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Afrocaribeña (descendientes de africanos esclavizados, negros y mulatos)",
+          "familia": "afrocaribena",
+          "peso": "mayoritaria",
+          "nota": "El Caribe recibió una gran parte de los africanos esclavizados llevados a América (base de datos Slave Voyages, de Eltis y Richardson); hacia 1790 eran cerca del 90 % de la población de Saint-Domingue y de Jamaica."
+        },
+        {
+          "desde": 1625,
+          "hasta": 1838,
+          "nombre": "Colonos británicos",
+          "familia": "inglesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1635,
+          "hasta": 1804,
+          "nombre": "Colonos franceses",
+          "familia": "francesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1634,
+          "hasta": null,
+          "nombre": "Neerlandeses",
+          "familia": "neerlandesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Criollos y mestizos hispanos (Cuba, Puerto Rico, Santo Domingo)",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1845,
+          "hasta": null,
+          "nombre": "Indocaribeños (Trinidad, Guadalupe, Martinica, Jamaica)",
+          "familia": "india",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -5000,
+          "hasta": -500,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 600,
+          "nombre": "Lenguas arahuacas de los saladoides",
+          "familia": "arahuacas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 600,
+          "hasta": 1530,
+          "nombre": "Taíno",
+          "familia": "taino",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1200,
+          "hasta": 1920,
+          "nombre": "Kalinago (lengua arahuaca, con un habla masculina de origen caribe)",
+          "familia": "arahuacas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1492,
+          "hasta": 1530,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1530,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1860,
+          "nombre": "Lenguas criollas de base francesa e inglesa",
+          "familia": "criollas",
+          "peso": "mayoritaria",
+          "nota": "Hacia 1790 la mayoría de la población del Caribe estaba esclavizada y hablaba criollos de base francesa (Saint-Domingue, Martinica, Guadalupe) o inglesa (Jamaica, Barbados)."
+        },
+        {
+          "desde": 1700,
+          "hasta": 1860,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Español (Cuba, República Dominicana, Puerto Rico)",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Criollo haitiano y antillano",
+          "familia": "criollas-francesas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1860,
+          "hasta": null,
+          "nombre": "Criollos de base inglesa (jamaiquino y otros)",
+          "familia": "criollas-inglesas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1625,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1635,
+          "hasta": null,
+          "nombre": "Francés",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1520,
+          "hasta": 1700,
+          "nombre": "Lenguas africanas",
+          "familia": "niger-congo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1860,
+          "nombre": "Lenguas africanas de los esclavizados nacidos en África",
+          "familia": "niger-congo",
+          "peso": "importante",
+          "nota": "Hacia 1790, cerca de dos tercios de los esclavizados de Saint-Domingue habían nacido en África."
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -5000,
+          "hasta": 600,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 600,
+          "hasta": 1530,
+          "nombre": "Religión taína (cemíes, behiques, cohoba, areítos)",
+          "familia": "religion-taina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1492,
+          "hasta": 1530,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1530,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1625,
+          "hasta": 1800,
+          "nombre": "Protestantismo de los colonos británicos, neerlandeses y daneses",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "En las colonias británicas, la mayoría de los esclavizados no fue bautizada hasta las misiones moravas, metodistas y bautistas de fines del siglo XVIII y el XIX."
+        },
+        {
+          "desde": 1654,
+          "hasta": null,
+          "nombre": "Judaísmo sefardí (Curazao, Barbados, Jamaica)",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "La congregación Mikvé Israel de Curazao, formada en la década de 1650, tiene la sinagoga en uso más antigua de América (1732)."
+        },
+        {
+          "desde": 1800,
+          "hasta": null,
+          "nombre": "Protestantismo (anglicanos, metodistas, moravos, bautistas y, desde el siglo XX, pentecostales)",
+          "familia": "protestantismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Religiones afroamericanas (vudú haitiano, santería, palo, obeah)",
+          "familia": "religiones-afroamericanas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1845,
+          "hasta": null,
+          "nombre": "Hinduismo de los indocaribeños",
+          "familia": "hinduismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "minoritaria"
+        }
       ]
     },
     {
@@ -11709,7 +12547,7 @@
           9.4
         ]
       ],
-      "resumen": "El istmo al sur de Mesoamérica: Honduras, Nicaragua, Costa Rica y Panamá. Sus pueblos originarios, de lenguas chibchas, misumalpas y otras, formaban un área intermedia entre Mesoamérica y los Andes; tras la conquista española fue parte de la Capitanía General de Guatemala y del virreinato de Nueva Granada, y en 1914 se inauguró el canal de Panamá.",
+      "resumen": "El istmo al sur de Mesoamérica: Honduras, Nicaragua, Costa Rica y Panamá. Sus pueblos originarios, de lenguas chibchas, misumalpas y otras, formaban un área intermedia entre Mesoamérica y los Andes, salvo el oeste de Honduras (con la ciudad maya de Copán) y la costa del Pacífico de Nicaragua y Nicoya, que eran parte de Mesoamérica; tras la conquista española fue parte de la Capitanía General de Guatemala y del virreinato de Nueva Granada, y en 1914 se inauguró el canal de Panamá.",
       "eras": [
         {
           "desde": null,
@@ -11973,6 +12811,192 @@
           "poblacion": 27032756,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -7000,
+          "nombre": "Paleoindios",
+          "familia": "paleoindia",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -7000,
+          "hasta": 1550,
+          "nombre": "Pueblos del área istmo-colombiana y de la frontera sur de Mesoamérica",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1550,
+          "nombre": "Pueblos de lenguas chibchas y vecinos: Gran Coclé y Gran Chiriquí en Panamá, el Diquís en Costa Rica, cuevas, ngäbes, bribris y kunas",
+          "familia": "istmo-colombiana",
+          "peso": "importante"
+        },
+        {
+          "desde": 800,
+          "hasta": 1550,
+          "nombre": "Chorotegas y nicaraos del Pacífico de Nicaragua y Nicoya, y lencas de Honduras",
+          "familia": "mesoamericana",
+          "peso": "importante",
+          "nota": "Las crónicas atribuyen a chorotegas y nicaraos un origen en el centro de México; sus migraciones se fechan hacia 800 y 1200, respectivamente, con fechas discutidas."
+        },
+        {
+          "desde": 1550,
+          "hasta": 1750,
+          "nombre": "Pueblos indígenas en pueblos de indios y en la frontera",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "La conquista, las epidemias y la trata de indios de Nicaragua y Honduras hacia Panamá y el Perú (1527-1550) redujeron drásticamente la población; las estimaciones de los esclavizados y embarcados van de unos 50 000 (Sherman) a medio millón (Radell)."
+        },
+        {
+          "desde": 1520,
+          "hasta": 1600,
+          "nombre": "Españoles, criollos y mestizos",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1750,
+          "nombre": "Españoles, criollos y mestizos",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Mestiza y ladina",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Pueblos indígenas (lencas, misquitos, ngäbes, gunas, bribris y otros)",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1520,
+          "hasta": null,
+          "nombre": "Afrodescendientes: mulatos coloniales, misquitos zambos, garífunas (desde 1797) y antillanos del Caribe y del canal de Panamá",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": 1700,
+          "nombre": "Lenguas originarias (chibchas, misumalpas, lencas, otomangues como el chorotega, náhuatl de los nicaraos y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3000,
+          "hasta": 1700,
+          "nombre": "Lenguas chibchas",
+          "familia": "chibchas",
+          "peso": "importante",
+          "nota": "Su diversificación en Costa Rica y Panamá se calcula en varios milenios (Constenla); fecha aproximada."
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Lenguas chibchas (ngäbere, bribri, cabécar, guna)",
+          "familia": "chibchas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Misquito y otras lenguas misumalpas",
+          "familia": "misumalpas",
+          "peso": "minoritaria",
+          "nota": "Desde esta fecha se cuentan aparte; ya se hablaban antes."
+        },
+        {
+          "desde": 1520,
+          "hasta": 1600,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada; en el Pacífico de Nicaragua y en Honduras muchos pueblos de indios ya hablaban castellano en el siglo XVIII."
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Criollos de base inglesa (costa de los Misquitos, islas de la Bahía, Limón, Bocas del Toro)",
+          "familia": "criollas-inglesas",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1580,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1520,
+          "hasta": 1580,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1580,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1580,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1849,
+          "hasta": null,
+          "nombre": "Iglesia morava en la costa de los Misquitos",
+          "familia": "moraviana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1960,
+          "hasta": 1980,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
+        }
       ]
     },
     {
@@ -11986,7 +13010,7 @@
         ],
         [
           -68.15,
-          11.6
+          12.4
         ],
         [
           -67.1,
@@ -12237,7 +13261,7 @@
           "desde": 1810,
           "hasta": 1831,
           "nombre": "Independencia y Gran Colombia",
-          "resumen": "Bolívar libera la región y forma la Gran Colombia, que se divide en 1831."
+          "resumen": "Guerra de independencia entre patriotas y realistas, con americanos en los dos bandos; Bolívar forma la Gran Colombia, que se divide en 1831."
         },
         {
           "desde": 1831,
@@ -12482,6 +13506,298 @@
           "anio": 2023,
           "poblacion": 100360749,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -6000,
+          "nombre": "Paleoindios (Taima-Taima, El Abra, Tibitó, La Lindosa)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Taima-Taima, en Venezuela, tiene restos de mastodonte con una punta de proyectil de unos 13 000 años; la fecha fue discutida."
+        },
+        {
+          "desde": -6000,
+          "hasta": -1500,
+          "nombre": "Cazadores, pescadores y primeros agricultores y alfareros (Las Vegas, San Jacinto, Puerto Hormiga, Valdivia)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "La cerámica de San Jacinto (hacia 4000 a. C.) y la de Valdivia (desde hacia 3800 a. C.) están entre las más antiguas de América."
+        },
+        {
+          "desde": -1500,
+          "hasta": 1700,
+          "nombre": "Pueblos del norte de Sudamérica",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1600,
+          "nombre": "Muiscas, taironas, zenúes y otros pueblos de lenguas chibchas",
+          "familia": "istmo-colombiana",
+          "peso": "importante"
+        },
+        {
+          "desde": -1500,
+          "hasta": null,
+          "nombre": "Pueblos de la sierra ecuatoriana (cañaris, puruhaes, caras; desde 1463, bajo los incas; hoy kichwas)",
+          "familia": "andina",
+          "peso": "importante"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1800,
+          "nombre": "Kari'nas y otros pueblos caribes del Orinoco y las Guayanas",
+          "familia": "caribes",
+          "peso": "importante",
+          "nota": "Fecha aproximada."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1800,
+          "nombre": "Arahuacos (wayuu, achaguas, lokonos y otros)",
+          "familia": "arahuaca",
+          "peso": "importante",
+          "nota": "Fecha aproximada."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1600,
+          "nombre": "Españoles, criollos y mestizos",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Españoles, criollos y mestizos",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Criolla, mestiza y parda",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "En Venezuela, a fines del siglo XVIII, los pardos eran el grupo más numeroso."
+        },
+        {
+          "desde": 1700,
+          "hasta": 1850,
+          "nombre": "Pueblos indígenas",
+          "familia": "pueblos-originarios",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Pueblos indígenas",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1530,
+          "hasta": 1600,
+          "nombre": "Africanos esclavizados",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Afrodescendientes (Cartagena, el Pacífico colombiano, Esmeraldas, Barlovento) y cimarrones de Surinam",
+          "familia": "afrodescendiente",
+          "peso": "importante"
+        },
+        {
+          "desde": 1616,
+          "hasta": null,
+          "nombre": "Neerlandeses de Surinam y Esequibo",
+          "familia": "neerlandesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1643,
+          "hasta": null,
+          "nombre": "Franceses de la Guayana",
+          "familia": "francesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1838,
+          "hasta": null,
+          "nombre": "Indoguyaneses e indosurinameses",
+          "familia": "india",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": -3000,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3000,
+          "hasta": 1700,
+          "nombre": "Lenguas originarias (chibchas, caribes, arahuacas, barbacoanas, quechua y muchas otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -3000,
+          "hasta": 1800,
+          "nombre": "Lenguas chibchas",
+          "familia": "chibchas",
+          "peso": "importante"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1800,
+          "nombre": "Lenguas caribes",
+          "familia": "caribes",
+          "peso": "importante"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1800,
+          "nombre": "Lenguas arahuacas",
+          "familia": "arahuacas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1463,
+          "hasta": null,
+          "nombre": "Quichua (kichwa) del Ecuador",
+          "familia": "andinas",
+          "peso": "importante",
+          "nota": "Si llegó al Ecuador antes de la expansión inca o con ella se discute."
+        },
+        {
+          "desde": 1530,
+          "hasta": 1600,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1616,
+          "hasta": null,
+          "nombre": "Neerlandés (Esequibo desde 1616, Surinam desde 1667)",
+          "familia": "neerlandes",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1643,
+          "hasta": null,
+          "nombre": "Francés (Guayana Francesa)",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1800,
+          "hasta": null,
+          "nombre": "Lenguas originarias (wayuunaiki y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Criollos de base inglesa (sranan tongo, criollo guyanés)",
+          "familia": "criollas-inglesas",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1600,
+          "nombre": "Religiones originarias (entre los muiscas, culto al Sol, la Luna y las lagunas sagradas; chamanismo)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1500,
+          "hasta": 1600,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1616,
+          "hasta": null,
+          "nombre": "Protestantismo de las Guayanas holandesa y británica (reformados neerlandeses, moravos desde 1735, anglicanos)",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Religiones afroamericanas (winti en Surinam) y cultos como el de María Lionza",
+          "familia": "religiones-afroamericanas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1652,
+          "hasta": null,
+          "nombre": "Judaísmo sefardí de Surinam (Jodensavanne)",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1838,
+          "hasta": null,
+          "nombre": "Hinduismo e islam en Guyana y Surinam",
+          "familia": "hinduismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": 1990,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
         }
       ]
     },
@@ -12739,7 +14055,7 @@
           "desde": 1500,
           "hasta": 1822,
           "nombre": "Brasil colonial",
-          "resumen": "Cabral llega en 1500; el azúcar del noreste y el oro de Minas Gerais se basan en el trabajo esclavo."
+          "resumen": "Cabral llega en 1500; el azúcar del noreste y el oro de Minas Gerais se basan en el trabajo de africanos esclavizados, y las bandeiras paulistas capturan y esclavizan a indígenas, también en las misiones jesuíticas del Guairá."
         },
         {
           "desde": 1822,
@@ -12990,6 +14306,276 @@
           "anio": 2023,
           "poblacion": 211140731,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -11000,
+          "hasta": -6000,
+          "nombre": "Paleoindios (Lagoa Santa, tradición Itaparica)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Las fechas de más de 30 000 años de Pedra Furada, en Piauí, propuestas por Niède Guidon, no son aceptadas por la mayoría de los arqueólogos."
+        },
+        {
+          "desde": -6000,
+          "hasta": 700,
+          "nombre": "Cazadores-recolectores, constructores de sambaquis en la costa y primeros horticultores",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 700,
+          "hasta": 1700,
+          "nombre": "Pueblos tupíes de la costa y los grandes ríos (tupinambás, tupiniquins, potiguaras, temiminós)",
+          "familia": "tupi",
+          "peso": "mayoritaria",
+          "nota": "La llegada de los tupí a la costa se fecha arqueológicamente en el primer milenio, con fechas distintas según la región."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1900,
+          "nombre": "Pueblos ye y otros pueblos del interior que los tupíes llamaban tapuias (kaingang, xavante, kayapó, timbira, botocudos)",
+          "familia": "ye",
+          "peso": "importante"
+        },
+        {
+          "desde": 1,
+          "hasta": 1750,
+          "nombre": "Guaraníes del sur (Paraná, Santa Catarina, Rio Grande do Sul)",
+          "familia": "guarani",
+          "peso": "importante"
+        },
+        {
+          "desde": 1500,
+          "hasta": 1600,
+          "nombre": "Portugueses y mamelucos (mestizos)",
+          "familia": "portuguesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Portugueses y mamelucos (mestizos)",
+          "familia": "portuguesa",
+          "peso": "importante"
+        },
+        {
+          "desde": 1550,
+          "hasta": 1600,
+          "nombre": "Africanos esclavizados de los ingenios",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Africanos esclavizados de los ingenios",
+          "familia": "afrodescendiente",
+          "peso": "importante"
+        },
+        {
+          "desde": 1630,
+          "hasta": 1654,
+          "nombre": "Neerlandeses del Brasil holandés (Pernambuco)",
+          "familia": "neerlandesa",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Brasileña: blancos, pardos, negros y caboclos",
+          "familia": "brasilena",
+          "peso": "mayoritaria",
+          "nota": "Hacia 1800 cerca de la mitad de la población colonial era esclava. En el censo de 2022, el 45 % se declaró pardo, el 43 % blanco y el 10 % negro."
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Afrobrasileños",
+          "familia": "afrodescendiente",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Pueblos tupíes (potiguaras, tupiniquins y otros)",
+          "familia": "tupi",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Pueblos ye y otros pueblos indígenas",
+          "familia": "ye",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Guaraníes (mbyá, kaiowá, ñandeva)",
+          "familia": "guarani",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -11000,
+          "hasta": 700,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 700,
+          "hasta": 1700,
+          "nombre": "Tupí y guaraní",
+          "familia": "tupi-guarani",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": 1900,
+          "nombre": "Lenguas macro-yê",
+          "familia": "macro-ye",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Lenguas macro-yê",
+          "familia": "macro-ye",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1532,
+          "hasta": 1600,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1800,
+          "nombre": "Língua geral paulista, de base tupí",
+          "familia": "tupi-guarani",
+          "peso": "importante"
+        },
+        {
+          "desde": 1800,
+          "hasta": null,
+          "nombre": "Guaraní y otras lenguas tupí-guaraníes",
+          "familia": "tupi-guarani",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1550,
+          "hasta": 1600,
+          "nombre": "Lenguas africanas (kimbundu, kikongo)",
+          "familia": "niger-congo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1850,
+          "nombre": "Lenguas africanas (kimbundu, kikongo, yoruba, fon, ewe)",
+          "familia": "niger-congo",
+          "peso": "importante"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -11000,
+          "hasta": 1700,
+          "nombre": "Religiones originarias (chamanes o pajés; entre los tupinambás, la antropofagia ritual de los cautivos)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "La antropofagia de los tupinambás la describen testigos como Hans Staden (1557) y Jean de Léry (1578); su interpretación se discute, su existencia no."
+        },
+        {
+          "desde": 1532,
+          "hasta": 1600,
+          "nombre": "Catolicismo (jesuitas desde 1549)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Catolicismo (colonos, esclavizados y aldeas de los jesuitas)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "En el censo de 2022 se declaró católico el 57 % de la población, y evangélico, el 27 %."
+        },
+        {
+          "desde": 1600,
+          "hasta": null,
+          "nombre": "Candomblé, umbanda y otras religiones afrobrasileñas",
+          "familia": "religiones-afroamericanas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1630,
+          "hasta": 1654,
+          "nombre": "Calvinismo de la Iglesia Reformada neerlandesa en el Brasil holandés",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1636,
+          "hasta": 1654,
+          "nombre": "Judaísmo sefardí de Recife (sinagoga Kahal Zur Israel)",
+          "familia": "judaismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1911,
+          "hasta": 1980,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "minoritaria"
         }
       ]
     },
@@ -13346,6 +14932,151 @@
           "nombre": "Paraguay moderno",
           "resumen": "Dictadura de Stroessner (1954-1989) y represa de Itaipú (1984)."
         }
+      ],
+      "culturas": [
+        {
+          "desde": -8000,
+          "hasta": 1,
+          "nombre": "Cazadores-recolectores de la selva paranaense",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada: las ocupaciones más antiguas de la región están mal fechadas."
+        },
+        {
+          "desde": 1,
+          "hasta": 1750,
+          "nombre": "Guaraníes (carios, tobatines, itatines, guaireños y otros)",
+          "familia": "guarani",
+          "peso": "mayoritaria",
+          "nota": "La llegada de los guaraníes a la cuenca del Paraná se fecha arqueológicamente hacia comienzos de la era cristiana, con fechas discutidas."
+        },
+        {
+          "desde": 1537,
+          "hasta": 1600,
+          "nombre": "Españoles y mestizos de Asunción y Villarrica",
+          "familia": "criolla",
+          "peso": "minoritaria",
+          "nota": "Los mestizos, hijos de españoles y mujeres guaraníes, fueron desde muy temprano la mayoría de los vecinos de Asunción."
+        },
+        {
+          "desde": 1600,
+          "hasta": 1750,
+          "nombre": "Españoles y mestizos de Asunción y Villarrica",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Paraguaya (mestiza, de habla guaraní y castellana)",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Pueblos indígenas (mbyá, avá guaraní, paĩ tavyterã, aché)",
+          "familia": "guarani",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1556,
+          "hasta": null,
+          "nombre": "Afrodescendientes (esclavos y pardos libres; Kamba Kua desde 1820)",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Inmigrantes brasileños (brasiguayos) en el este",
+          "familia": "brasilena",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -8000,
+          "hasta": 1,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": null,
+          "nombre": "Guaraní",
+          "familia": "tupi-guarani",
+          "peso": "mayoritaria",
+          "nota": "Paraguay es el único país de América donde la mayoría de la población no indígena habla una lengua indígena; el guaraní es oficial desde 1992."
+        },
+        {
+          "desde": 1537,
+          "hasta": 1750,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria",
+          "nota": "Los mestizos de Asunción hablaban sobre todo guaraní; el castellano era la lengua de la administración y de la Iglesia."
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Portugués",
+          "familia": "galaicoportugues",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -8000,
+          "hasta": 1,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": 1609,
+          "nombre": "Religión guaraní (chamanes o karai, danzas y cantos rituales)",
+          "familia": "religiones-originarias",
+          "peso": "mayoritaria",
+          "nota": "La idea de una «búsqueda de la Tierra sin Mal» como motor de las migraciones guaraníes, propuesta por Nimuendajú (1914) y Métraux, se discute."
+        },
+        {
+          "desde": 1537,
+          "hasta": 1609,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1609,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1609,
+          "hasta": null,
+          "nombre": "Religión guaraní",
+          "familia": "religiones-originarias",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1980,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        }
       ]
     },
     {
@@ -13530,7 +15261,7 @@
           -4.15
         ]
       ],
-      "resumen": "Las selvas y llanuras del este del Perú y de Bolivia: Loreto, Ucayali, Madre de Dios, Beni, Pando y Santa Cruz. Habitada por pueblos amazónicos como los asháninkas, shipibos y mojeños, que construyeron terraplenes y campos elevados en los Llanos de Mojos, fue frontera de misiones y, hacia 1900, escenario del auge del caucho.",
+      "resumen": "Las selvas y llanuras del este del Perú y de Bolivia: Loreto, Ucayali, Madre de Dios, Beni, Pando y Santa Cruz. Habitada por pueblos amazónicos como los asháninkas, shipibos y mojeños; en los Llanos de Mojos, sociedades anteriores, como la cultura Casarabe (c. 500-1400), construyeron terraplenes, canales y campos elevados. Fue frontera de misiones y, hacia 1900, escenario del auge del caucho.",
       "eras": [
         {
           "desde": null,
@@ -13561,6 +15292,170 @@
           "hasta": null,
           "nombre": "Siglo XX",
           "resumen": "Colonización, petróleo, gas y expansión agrícola en Santa Cruz."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -8600,
+          "hasta": 500,
+          "nombre": "Cazadores-recolectores y primeros cultivadores (calabaza y mandioca en los Llanos de Mojos)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "En las islas de bosque de los Llanos de Mojos se cultivaba calabaza hace unos 10 000 años (Lombardo et al., 2020)."
+        },
+        {
+          "desde": 500,
+          "hasta": 1900,
+          "nombre": "Pueblos amazónicos: casarabe en Mojos (500-1400), arahuacos (mojos, asháninkas, matsigenkas, piros), panos (shipibos, conibos), tupí-guaraníes (guarayos, chiriguanos), tacanas, chiquitanos y otros",
+          "familia": "amazonica",
+          "peso": "mayoritaria",
+          "nota": "La cultura casarabe construyó asentamientos urbanos de baja densidad con plataformas, calzadas y canales (Prümers et al., 2022)."
+        },
+        {
+          "desde": 1561,
+          "hasta": 1800,
+          "nombre": "Españoles, criollos y mestizos (Santa Cruz de la Sierra desde 1561)",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1800,
+          "hasta": 1900,
+          "nombre": "Españoles, criollos y mestizos (cruceños, benianos y caucheros)",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Mestiza y criolla (cambas de Santa Cruz y el Beni, colonos de la selva peruana)",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Pueblos amazónicos",
+          "familia": "amazonica",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Migrantes andinos (quechuas y aimaras en el Chapare, los Yungas y la selva central)",
+          "familia": "andina",
+          "peso": "importante"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -8600,
+          "hasta": 500,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": 1900,
+          "nombre": "Lenguas amazónicas: arahuacas, pano, tacanas, tupí-guaraníes, chiquitano, moxeño y muchas otras",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 500,
+          "hasta": 1900,
+          "nombre": "Lenguas arahuacas (asháninka, matsigenka, moxeño)",
+          "familia": "arahuacas",
+          "peso": "importante"
+        },
+        {
+          "desde": 500,
+          "hasta": 1900,
+          "nombre": "Lenguas pano (shipibo-conibo y otras)",
+          "familia": "panoanas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1561,
+          "hasta": 1800,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1800,
+          "hasta": 1900,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Lenguas amazónicas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": null,
+          "nombre": "Quechua y aimara de los migrantes andinos",
+          "familia": "andinas",
+          "peso": "importante"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -8600,
+          "hasta": 1750,
+          "nombre": "Religiones amazónicas (chamanismo; ayahuasca en el oeste)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1638,
+          "hasta": 1750,
+          "nombre": "Catolicismo de las misiones de Maynas (desde 1638), Mojos (1682) y Chiquitos (1691)",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "Fecha aproximada."
+        },
+        {
+          "desde": 1750,
+          "hasta": null,
+          "nombre": "Religiones amazónicas",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1950,
+          "hasta": 1990,
+          "nombre": "Iglesias evangélicas",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas",
+          "familia": "pentecostalismo",
+          "peso": "importante"
         }
       ]
     },
@@ -14523,7 +16418,7 @@
           -19.6
         ]
       ],
-      "resumen": "La larga franja entre los Andes y el Pacífico, del desierto de Atacama a Tierra del Fuego. Habitada por los chinchorros, atacameños, diaguitas, mapuches y los pueblos de los canales, su norte fue parte del Tawantinsuyu; los mapuches frenaron la conquista española en el Biobío y mantuvieron la Araucanía independiente hasta la ocupación chilena de 1861-1883, y Chile se independizó en 1818.",
+      "resumen": "La larga franja entre los Andes y el Pacífico, del desierto de Atacama a Tierra del Fuego. Habitada por los chinchorros, atacameños, diaguitas, mapuches y los pueblos de los canales, su norte fue parte del Tawantinsuyu; los mapuches frenaron la conquista española en el Biobío y mantuvieron la Araucanía fuera del control español, y luego chileno, hasta su ocupación por Chile en 1861-1883, y Chile se independizó en 1818.",
       "eras": [
         {
           "desde": -7000,
@@ -14535,7 +16430,7 @@
           "desde": 1470,
           "hasta": 1541,
           "nombre": "Tawantinsuyu",
-          "resumen": "Los incas llegan hasta el río Maule."
+          "resumen": "Los incas dominan el norte y el valle central: las crónicas ponen el límite en el río Maule; la arqueología, más al norte, cerca del Maipo o del Cachapoal."
         },
         {
           "desde": 1541,
@@ -14792,6 +16687,227 @@
           "anio": 2023,
           "poblacion": 19658833,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -12500,
+          "hasta": -7000,
+          "nombre": "Paleoindios (Monte Verde, cueva Fell, Pilauco)",
+          "familia": "paleoindia",
+          "peso": "mayoritaria",
+          "nota": "Monte Verde, cerca de Puerto Montt, tiene unos 14 500 años; su aceptación en 1997 desplazó la idea de que Clovis era la primera cultura de América."
+        },
+        {
+          "desde": -7000,
+          "hasta": 1,
+          "nombre": "Cazadores, recolectores y pescadores (chinchorro en el norte, canoeros del sur)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Los chinchorro momificaban artificialmente a sus muertos desde hacia 5000 a. C., unos dos milenios antes que los egipcios."
+        },
+        {
+          "desde": 1,
+          "hasta": 1700,
+          "nombre": "Mapuches (picunches, mapuches y huilliches; complejos Pitrén y El Vergel)",
+          "familia": "mapuche",
+          "peso": "mayoritaria",
+          "nota": "La relación de esos complejos arqueológicos con los mapuches históricos es la interpretación más aceptada, no un hecho documentado."
+        },
+        {
+          "desde": -500,
+          "hasta": 1541,
+          "nombre": "Pueblos andinos del norte (atacameños, El Molle, diaguitas chilenos) y, desde hacia 1470, el dominio inca hasta el Maule",
+          "familia": "andina",
+          "peso": "importante"
+        },
+        {
+          "desde": -7000,
+          "hasta": null,
+          "nombre": "Canoeros y cazadores australes (chonos, kawésqar, yaganes, selk'nam)",
+          "familia": "fueguina",
+          "peso": "minoritaria",
+          "nota": "Los chonos desaparecieron como pueblo en el siglo XVIII y los selk'nam fueron diezmados a fines del XIX; kawésqar y yaganes siguen existiendo, con muy pocos hablantes de sus lenguas."
+        },
+        {
+          "desde": 1541,
+          "hasta": 1600,
+          "nombre": "Españoles y mestizos",
+          "familia": "hispana",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Españoles y mestizos",
+          "familia": "hispana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Chilena mestiza y criolla",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Mapuches",
+          "familia": "mapuche",
+          "peso": "importante",
+          "nota": "En el censo de 2017 el 10 % de la población se declaró mapuche."
+        },
+        {
+          "desde": 1541,
+          "hasta": 1850,
+          "nombre": "Afrodescendientes",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1846,
+          "hasta": null,
+          "nombre": "Colonos alemanes (Valdivia, Osorno, Llanquihue)",
+          "familia": "alemana",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -12500,
+          "hasta": 1,
+          "nombre": "Lenguas desconocidas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": 1700,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": 1700,
+          "nombre": "Kunza, diaguita y otras lenguas del norte; quechua desde la conquista inca",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "importante"
+        },
+        {
+          "desde": 1541,
+          "hasta": 1600,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1900,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1846,
+          "hasta": 1950,
+          "nombre": "Alemán",
+          "familia": "aleman",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -12500,
+          "hasta": 1,
+          "nombre": "Religiones originarias",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1,
+          "hasta": 1700,
+          "nombre": "Religión mapuche (machi, ngillatun, culto a los antepasados)",
+          "familia": "religion-mapuche",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1470,
+          "hasta": 1536,
+          "nombre": "Culto estatal inca (capacocha del cerro El Plomo)",
+          "familia": "religion-andina",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1541,
+          "hasta": 1700,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1700,
+          "hasta": 1880,
+          "nombre": "Religión mapuche",
+          "familia": "religion-mapuche",
+          "peso": "importante"
+        },
+        {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Religión mapuche",
+          "familia": "religion-mapuche",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": 1970,
+          "nombre": "Iglesias evangélicas y pentecostales (desde el avivamiento de Valparaíso de 1909)",
+          "familia": "pentecostalismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas y pentecostales",
+          "familia": "pentecostalismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1990,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "irreligion",
+          "peso": "importante"
         }
       ]
     },
@@ -16131,6 +18247,22 @@
         [
           -128.0,
           -23.0
+        ],
+        [
+          -112.0,
+          -25.5
+        ],
+        [
+          -108.5,
+          -26.5
+        ],
+        [
+          -108.5,
+          -27.8
+        ],
+        [
+          -112.0,
+          -28.2
         ],
         [
           -129.0,

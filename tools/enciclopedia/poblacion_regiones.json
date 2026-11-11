@@ -90,6 +90,18 @@
     "gran-chaco": {"cuenta_en": "rio-de-la-plata", "nota": "Se reparte entre Argentina y Paraguay (región Río de la Plata) y Bolivia (región Andes).", "nota_ingles": "Split between Argentina and Paraguay (Río de la Plata region) and Bolivia (Andes region)."},
     "paraguay-oriental": {"cuenta_en": "rio-de-la-plata", "nota": "Parte de Paraguay.", "nota_ingles": "Part of Paraguay."},
     "noroeste-argentino": {"cuenta_en": "rio-de-la-plata", "nota": "Parte de la Argentina.", "nota_ingles": "Part of Argentina."},
-    "patagonia": {"cuenta_en": "rio-de-la-plata", "nota": "Parte de la Argentina.", "nota_ingles": "Part of Argentina."}
+    "patagonia": {"cuenta_en": "rio-de-la-plata", "nota": "Parte de la Argentina.", "nota_ingles": "Part of Argentina."},
+    "artico-norteamericano": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos (Alaska) y de Canadá.", "nota_ingles": "Part of the United States (Alaska) and Canada."},
+    "subartico-norteamericano": {"cuenta_en": "norteamerica", "nota": "Parte de Canadá y de los Estados Unidos (Alaska).", "nota_ingles": "Part of Canada and the United States (Alaska)."},
+    "costa-noroeste": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos y de Canadá.", "nota_ingles": "Part of the United States and Canada."},
+    "meseta-del-columbia": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos y de Canadá.", "nota_ingles": "Part of the United States and Canada."},
+    "gran-cuenca": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos.", "nota_ingles": "Part of the United States."},
+    "california-indigena": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos.", "nota_ingles": "Part of the United States."},
+    "suroeste-norteamericano": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos.", "nota_ingles": "Part of the United States."},
+    "grandes-llanuras": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos y de Canadá.", "nota_ingles": "Part of the United States and Canada."},
+    "bosques-del-noreste": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos y de Canadá.", "nota_ingles": "Part of the United States and Canada."},
+    "sudeste-norteamericano": {"cuenta_en": "norteamerica", "nota": "Parte de los Estados Unidos.", "nota_ingles": "Part of the United States."},
+    "area-maya": {"cuenta_en": "mesoamerica", "nota": "Parte de México, Guatemala y Belice.", "nota_ingles": "Part of Mexico, Guatemala and Belize."},
+    "amazonia-brasilena": {"cuenta_en": "brasil", "nota": "Parte de Brasil.", "nota_ingles": "Part of Brazil."}
   }
 }
