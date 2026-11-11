@@ -18,8 +18,10 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Mapa, rendimiento y distribución (0.2)
 
-- [ ] **Probar en otros equipos.** Windows, una Mac con Apple Silicon y una notebook con gráficos integrados. El
-      `.exe` de la 0.3.0 ya pasó `--verificar` y la prueba completa con wine; falta un Windows de verdad. La Mac con
+- [ ] **Probar en otros equipos.** Windows, una Mac con Apple Silicon, una notebook con gráficos integrados y una
+      pantalla táctil (una notebook o una tablet con Windows o Linux: para Android o iPad no hay versión todavía; la
+      versión web de la 1.0 las cubriría). El `.exe` de la 0.3.0 ya pasó `--verificar` y la prueba completa con wine;
+      falta un Windows de verdad. La Mac con
       Intel ya se probó (ver la 0.3.4 en **Hecho**). En Apple Silicon, desde la 0.3.4, `verificar-macos` saca una
       captura y comprueba que no salga lisa, pero falta mirar la app en una de verdad; tampoco se probó una Mac con
       Radeon. Antes de cada versión, en la MacBook con Intel:
@@ -128,11 +130,11 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
 - [ ] **Espejos permanentes** de cada versión de datos en Internet Archive y Zenodo, con las dos direcciones en el
       manifiesto del actualizador.
-- [ ] **Los enlaces de lectura que quedaron sin copia.** 118 de los 739 que no están en archive.org no tienen copia en
-      la Wayback Machine (41 de Gutenberg, 35 de Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` le
-      pide que los archive, de a uno cada 15 s. El 11/11/2026 web.archive.org dejó de aceptar conexiones desde esta
-      máquina después de unos pedidos en paralelo a su API CDX, así que queda para otra corrida. Tampoco se corrió
-      todavía `--comprobar`, que lista los originales caídos.
+- [ ] **Los enlaces de lectura que quedaron sin copia.** 20 de los 739 que no están en archive.org no tienen copia en
+      la Wayback Machine (10 de Gutenberg, 4 de penelope.uchicago.edu, 2 de eur-lex): `python3
+      tools/enciclopedia/enlaces.py --guardar` le pide que los archive, de a uno cada 15 s; el 11/11/2026 archivó 12 y
+      después frenó los pedidos. La API de disponibilidad a veces no devuelve una copia que existe: volver a correrla
+      encuentra más. Tampoco se corrió todavía `--comprobar`, que lista los originales caídos.
 - [ ] **Religión por país hoy** (Pew Research Center, 2010 y 2020) como serie más del bloque «País actual», y con eso
       las capas de religión de las regiones del mundo en la época actual.
 
@@ -190,10 +192,29 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       Sin red corre en menos de un segundo; la primera corrida con red tarda media hora porque QLever frena los pedidos
       seguidos (el servicio oficial de Wikidata tardaba más de un minuto por consulta).
 
+### 11 de noviembre de 2026: la rueda, la línea de tiempo y las pantallas táctiles
+
+- [x] Arreglado: **con el mouse sobre una ventana, la rueda movía el zoom del mapa** cuando la ventana ya no podía
+      desplazarse más: Godot hace pasar la rueda hacia arriba aunque un control frene el mouse
+      (`mouse_force_pass_scroll_events`) y, al llegar al tope, terminaba en el mapa. Ahora cada ventana se queda con la
+      rueda y, además, el mapa no la toma (ni los gestos del trackpad) si el mouse está sobre una ventana; `+` y `-`
+      siguen acercando y alejando.
+- [x] **La línea de tiempo se recorre sin cambiar la escala.** Un clic elige el año; arrastrar con el botón izquierdo
+      (o el derecho, Mayús + rueda, la rueda horizontal o dos dedos en el trackpad) corre el período; arrastrar la
+      línea del año lo mueve, como antes; la rueda sola acerca o aleja. El cursor muestra qué va a hacer el arrastre.
+- [x] **Pantallas táctiles** (tablets y computadoras con pantalla táctil): un dedo mueve el mapa y toca lugares y
+      marcas (con más margen que el mouse, porque el dedo tapa lo que toca), dos dedos acercan o alejan y mueven el
+      mapa con el lugar que estaba entre ellos siempre debajo, un doble toque acerca, la línea de tiempo se acerca con
+      dos dedos y las ventanas se corren con el dedo aunque el toque empiece sobre un botón (que no se aprieta). El
+      globo no queda clavado donde se tocó. La bienvenida lo explica y sugiere agrandar la interfaz en Ajustes →
+      Tamaño. La prueba automática lo comprueba con eventos de verdad, como los manda Godot (el mouse que emula con
+      el primer dedo y después el toque; esa parte sola corre en un minuto con
+      `godot --headless --path . -- --prueba_entrada`); falta probarlo en una pantalla táctil de verdad.
+
 ### 11 de noviembre de 2026: enlaces de lectura que no se pierden
 
 - [x] **Copias archivadas de los enlaces de lectura.** `tools/enciclopedia/enlaces.py` busca en la Wayback Machine la
-      copia de cada enlace `leer` y la guarda en `data/enciclopedia/archivo.json`: 621 de los 739 enlaces que no están
+      copia de cada enlace `leer` y la guarda en `data/enciclopedia/archivo.json`: 719 de los 739 enlaces que no están
       en archive.org tienen copia. La ficha de una fuente muestra un botón «Copia» al lado de cada uno, por si el
       original no abre, y `validar.py` avisa cuántos no la tienen. Las copias van aparte y no como campo `archivo` en
       cada `leer` (lo que decía el plan de almacenamiento): así la herramienta no reescribe los paquetes que se
