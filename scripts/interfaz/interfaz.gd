@@ -30,10 +30,8 @@ func _ready() -> void:
 		for c in raiz.get_children():
 			if c is AvisoActualizacion:
 				c.queue_free()
-		# Debajo del diálogo de ajustes y del editor, que están al final de raiz.
-		var a := AvisoActualizacion.new(tipo, texto)
-		raiz.add_child(a)
-		raiz.move_child(a, editor.get_index())
+		# Al final de raiz: encima de todo, también de Ajustes, del editor y de la bienvenida (ver _aviso_arriba).
+		raiz.add_child(AvisoActualizacion.new(tipo, texto))
 		if tipo.begins_with("datos"):
 			revisar_copias())
 	Estado.carga_terminada.connect(revisar_copias, CONNECT_ONE_SHOT)
@@ -63,6 +61,7 @@ func _construir() -> void:
 	raiz.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	raiz.theme = TemaUI.crear(Estado.ajustes["tema"])
 	raiz.child_entered_tree.connect(_frenar_rueda)
+	raiz.child_entered_tree.connect(func(_n: Node): _aviso_arriba.call_deferred())
 	add_child(raiz)
 
 	var vineta := ColorRect.new()
@@ -117,6 +116,19 @@ func aplicar_escala() -> void:
 	w.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
 	w.content_scale_size = w.size
 	w.content_scale_factor = f
+
+
+## El aviso de actualización va encima de todo, también de lo que se abre después (la bienvenida, un diálogo). Solo
+## el de los gráficos queda más arriba: si quedara tapado, volvería solo al motor anterior aunque se viera bien.
+func _aviso_arriba() -> void:
+	if not is_instance_valid(raiz):
+		return
+	for c in raiz.get_children():
+		if c is AvisoActualizacion and not c.is_queued_for_deletion():
+			raiz.move_child(c, -1)
+	for c in raiz.get_children():
+		if c is AvisoGraficos:
+			raiz.move_child(c, -1)
 
 
 func mostrar_bienvenida() -> void:

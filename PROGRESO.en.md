@@ -209,6 +209,9 @@ New packages reach installed copies as data updates, without waiting for an app 
   activity only in those years; before, where they were born, and after, where they died. Events appear in their own
   year, and the map button and the search take you to a year and a point where they can be seen. So the map never
   shows anyone where they had not arrived yet.
+- **Updates in plain sight**: the banner that offers them sits above everything, the check repeats every hour while
+  the app is open, and if the startup check fails, a notice says so; every result goes to the log. From source,
+  `user://` is a different folder, so tests don't change the installed TellMAP's settings.
 - **27,279 ancient places from [Pleiades](https://pleiades.stoa.org)** (0.4), each one while it's attested and with
   its own entry. They're read only when zooming into the map or searching, and drawn as a MultiMesh filtered by year
   in a shader, in a single draw call.

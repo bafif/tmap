@@ -37,6 +37,9 @@ Guía corta para colaborar con el código. Qué es el proyecto y cómo está hec
   lisa) y lo mismo con OpenGL, que es el motor de macOS: `GODOT_ARGS="--rendering-method gl_compatibility"
   tools/captura.sh x.png --comprobar_dibujo`. El motor que se elige en Ajustes va en `user://motor.cfg`
   (`scripts/nucleo/motor.gd`).
+- Desde el código, `user://` es `TellMAP-codigo` en la carpeta de datos del usuario (`~/.local/share/` en Linux), no la
+  del TellMAP instalado (`godot/app_userdata/TellMAP`): las pruebas no tocan sus ajustes ni sus datos
+  (`project.godot`, con la etiqueta `editor`).
 - Si se toca el actualizador (`scripts/nucleo/actualizador.gd`, `datos.gd`) o cómo se leen los datos:
   `python3 tools/actualizacion/probar.py`, y con un ejecutable exportado, `--ejecutable <ruta>`
   ([actualizaciones](actualizaciones.md)). Todo lo que lee `data/` pasa por `Datos.ruta()`.
