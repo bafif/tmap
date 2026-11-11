@@ -18,7 +18,9 @@ Block finished on November 6, 2026 (see **Done**).
 
 ### Map, performance and distribution (0.2)
 
-- [ ] **Test on other machines.** Windows, a Mac with Apple Silicon and a laptop with integrated graphics. The 0.3.0
+- [ ] **Test on other machines.** Windows, a Mac with Apple Silicon, a laptop with integrated graphics and a
+      touchscreen (a laptop or a tablet running Windows or Linux: there's no Android or iPad version yet; 1.0's web
+      version would cover them). The 0.3.0
       `.exe` already passed `--verificar` and the full test with wine; a real Windows machine is still missing. The
       Intel Mac has been tested (see 0.3.4 under **Done**). On Apple Silicon, since 0.3.4, `verificar-macos` takes a
       screenshot and checks it isn't flat, but nobody has looked at the app on a real one yet; a Mac with Radeon hasn't
@@ -132,11 +134,11 @@ Each step is done when its threshold is crossed, not before.
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
 - [ ] **Permanent mirrors** of each data version on Internet Archive and Zenodo, with both addresses in the updater's
       manifest.
-- [ ] **The reading links left without a copy.** 118 of the 739 not on archive.org have no copy on the Wayback
-      Machine (41 from Gutenberg, 35 from Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` asks it to
-      archive them, one every 15 s. On November 11, 2026 web.archive.org stopped accepting connections from this
-      machine after a few parallel requests to its CDX API, so it's left for another run. `--comprobar`, which lists
-      dead originals, hasn't been run yet either.
+- [ ] **The reading links left without a copy.** 20 of the 739 not on archive.org have no copy on the Wayback
+      Machine (10 from Gutenberg, 4 from penelope.uchicago.edu, 2 from eur-lex): `python3
+      tools/enciclopedia/enlaces.py --guardar` asks it to archive them, one every 15 s; on November 11, 2026 it archived
+      12 and then throttled the requests. The availability API sometimes misses a copy that exists: running it again
+      finds more. `--comprobar`, which lists dead originals, hasn't been run yet either.
 - [ ] **Religion by country today** (Pew Research Center, 2010 and 2020) as one more series in the "Current country"
       block, and with it the religion layers of the world regions in the present era.
 
@@ -237,10 +239,30 @@ Each step is done when its threshold is crossed, not before.
 - [x] The English of the new texts is machine translation; the titles of works published in English are the
       originals.
 
+### November 11, 2026: the wheel, the timeline and touchscreens
+
+- [x] Fixed: **with the mouse over a panel, the wheel zoomed the map** once the panel couldn't scroll any further (at
+      the end, Godot passes the wheel upward even past a control that stops the mouse,
+      `mouse_force_pass_scroll_events`, and it ended up on the map). Now each panel keeps the wheel and, on top of
+      that, the map ignores it (and trackpad gestures) while the mouse is over a panel; `+` and `-` still zoom in and
+      out.
+- [x] **The timeline moves without changing its scale.** A click picks the year; dragging with the left button (or
+      the right one, Shift + wheel, the horizontal wheel or two fingers on the trackpad) moves along the period;
+      dragging the year line moves the year, as before; the wheel alone zooms in or out. The cursor shows what the
+      drag will do.
+- [x] **Touchscreens** (tablets and computers with a touchscreen): one finger moves the map and taps places and marks
+      (with a wider margin than the mouse, since the finger covers what it touches), two fingers zoom in or out and
+      move the map keeping the place between them underneath, a double tap zooms in, the timeline zooms with two
+      fingers, and panels scroll with your finger even when the touch starts on a button (which doesn't get pressed).
+      The bubble doesn't stay stuck where you tapped. The welcome screen explains it and suggests making the interface
+      bigger in Settings → Size. The automated test checks it with real events, sent the way Godot sends them (the
+      mouse it emulates with the first finger, then the touch; that part alone runs in a minute with
+      `godot --headless --path . -- --prueba_entrada`); it still has to be tried on a real touchscreen.
+
 ### November 11, 2026: reading links that don't get lost
 
 - [x] **Archived copies of the reading links.** `tools/enciclopedia/enlaces.py` looks up on the Wayback Machine the
-      copy of every `leer` link and saves it in `data/enciclopedia/archivo.json`: 621 of the 739 links not on
+      copy of every `leer` link and saves it in `data/enciclopedia/archivo.json`: 719 of the 739 links not on
       archive.org have a copy. A source's entry shows a «Copy» button next to each one, in case the original doesn't
       open, and `validar.py` warns how many don't have one. The copies live apart, not as an `archivo` field in each
       `leer` (what the storage plan said): that way the tool doesn't rewrite the packages edited by hand or with the

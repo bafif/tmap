@@ -12,6 +12,9 @@ extends Node
 ## Para comprobar que un ejecutable exportado trae todos sus datos: TellMAP --headless -- --verificar
 ## (carga el mapa y la enciclopedia, lo informa y sale con 0, o con 1 si falta algo).
 ##
+## La prueba automática completa: godot --headless --path . -- --prueba (o tools/godot/tmap.py prueba). Solo la parte
+## de la rueda, la línea de tiempo y la pantalla táctil, en un minuto: godot --headless --path . -- --prueba_entrada.
+##
 ## --idioma=es o --idioma=en fija el idioma sin guardarlo (ver Idioma). Para la prueba de las traducciones de la
 ## enciclopedia (tools/traduccion/probar.py): --traducciones=<carpeta> lee la capa de traducción de otra carpeta y
 ## --volcar=<archivo.json> guarda la enciclopedia como quedó cargada y sale.
@@ -78,6 +81,15 @@ func _ready() -> void:
 		get_tree().quit(0 if bien else 1)
 	elif args.has("prueba"):
 		_prueba_automatica()
+	elif args.has("prueba_entrada"):
+		# Solo la parte de la rueda, la línea de tiempo y la pantalla táctil (la prueba completa tarda minutos).
+		get_window().mode = Window.MODE_WINDOWED
+		get_window().size = Vector2i(1600, 900)
+		await get_tree().process_frame
+		await get_tree().process_frame
+		await _prueba_entrada()
+		print("[prueba] entrada TERMINADA")
+		get_tree().quit()
 	elif args.has("captura"):
 		_captura_automatica(args)
 	elif not args.has("puente"):
@@ -400,6 +412,8 @@ func _prueba_automatica() -> void:
 	print("[prueba] ventana para el recorrido: %s" % get_viewport().get_visible_rect().size)
 	await _prueba_globo()
 	paso.call("globo del mapa")
+	await _prueba_entrada()
+	paso.call("rueda sobre las ventanas, línea de tiempo y pantalla táctil")
 	var informe: Dictionary = await Recorrido.new(interfaz).correr()
 	for s in informe["sin_efecto"]:
 		push_error("[prueba] el clic no hizo nada: %s" % s)
@@ -435,6 +449,198 @@ func _prueba_automatica() -> void:
 	print("[prueba] TERMINADA sin cortes")
 	get_tree().quit()
 
+
+
+## Entrada con eventos de verdad: la rueda sobre una ventana no acerca el mapa (antes, al llegar al tope del panel, el
+## evento pasaba al mapa); la línea de tiempo se corre al arrastrarla o con Mayús + rueda sin cambiar la escala, un clic
+## elige el año y arrastrar la línea del año lo mueve; con el dedo, dos dedos acercan el mapa sin hacer clic y el panel
+## se corre aunque el toque empiece en un botón, sin apretarlo. Los toques se mandan como los manda Godot: primero el
+## mouse que emula con el primer dedo y después el toque.
+func _prueba_entrada() -> void:
+	var vista := interfaz.vista
+	var mover := func(pos: Vector2) -> void:
+		var m := InputEventMouseMotion.new()
+		m.position = pos
+		m.global_position = pos
+		get_viewport().push_input(m)
+		await get_tree().process_frame
+	var rueda := func(pos: Vector2, abajo: bool, mayus: bool) -> void:
+		for apretado in [true, false]:
+			var b := InputEventMouseButton.new()
+			b.button_index = MOUSE_BUTTON_WHEEL_DOWN if abajo else MOUSE_BUTTON_WHEEL_UP
+			b.pressed = apretado
+			b.shift_pressed = mayus
+			b.factor = 1.0
+			b.position = pos
+			b.global_position = pos
+			get_viewport().push_input(b)
+		await get_tree().process_frame
+	var boton := func(pos: Vector2, apretado: bool, emulado: bool) -> void:
+		var b := InputEventMouseButton.new()
+		b.button_index = MOUSE_BUTTON_LEFT
+		b.pressed = apretado
+		b.button_mask = MOUSE_BUTTON_MASK_LEFT if apretado else 0
+		b.position = pos
+		b.global_position = pos
+		if emulado:
+			b.device = InputEvent.DEVICE_ID_EMULATION
+		get_viewport().push_input(b)
+	var arrastre := func(desde: Vector2, hasta: Vector2, emulado: bool) -> void:
+		var m := InputEventMouseMotion.new()
+		m.position = hasta
+		m.global_position = hasta
+		m.relative = hasta - desde
+		m.button_mask = MOUSE_BUTTON_MASK_LEFT
+		if emulado:
+			m.device = InputEvent.DEVICE_ID_EMULATION
+		get_viewport().push_input(m)
+	var dedo := func(indice: int, pos: Vector2, apretado: bool) -> void:
+		if indice == 0:
+			boton.call(pos, apretado, true)
+		var t := InputEventScreenTouch.new()
+		t.index = indice
+		t.position = pos
+		t.pressed = apretado
+		get_viewport().push_input(t)
+		await get_tree().process_frame
+	var mover_dedo := func(indice: int, desde: Vector2, hasta: Vector2) -> void:
+		if indice == 0:
+			arrastre.call(desde, hasta, true)
+		var d := InputEventScreenDrag.new()
+		d.index = indice
+		d.position = hasta
+		d.relative = hasta - desde
+		get_viewport().push_input(d)
+		await get_tree().process_frame
+
+	# Rueda sobre el panel, hasta el tope y más allá: el mapa no se acerca. Sobre el mapa, sí.
+	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	Estado.pedir_ficha("region", "egipto")
+	# El panel entra con una animación: hasta que termina, queda en parte fuera de la ventana.
+	await get_tree().create_timer(0.8).timeout
+	var en_panel := interfaz.panel.get_global_rect().get_center()
+	if not get_viewport().get_visible_rect().has_point(en_panel):
+		push_error("[prueba] el panel no terminó de entrar a la ventana (%s)" % en_panel)
+	await mover.call(en_panel)
+	var z0: float = vista._zoom_objetivo
+	for i in 30:
+		await rueda.call(en_panel, true, false)
+	for i in 30:
+		await rueda.call(en_panel, false, false)
+	if not is_equal_approx(vista._zoom_objetivo, z0):
+		push_error("[prueba] la rueda sobre el panel cambió el zoom del mapa (%s → %s)" % [z0, vista._zoom_objetivo])
+	var en_mapa := Vector2(560, 330)
+	await mover.call(en_mapa)
+	if get_viewport().gui_get_hovered_control() != null:
+		push_error("[prueba] el punto %s no está sobre el mapa: %s" % [en_mapa, get_viewport().gui_get_hovered_control()])
+	await rueda.call(en_mapa, false, false)
+	if vista._zoom_objetivo <= z0:
+		push_error("[prueba] la rueda sobre el mapa no lo acercó")
+	vista._zoom_objetivo = z0
+
+	# Línea de tiempo: arrastrar corre el tramo sin cambiar la escala ni el año; un clic elige el año; Mayús + rueda
+	# corre; arrastrar la línea del año lo mueve; la rueda sola acerca.
+	var pista := interfaz.linea.pista
+	Estado.fijar_anio(100)
+	pista.vista_desde = PistaTiempo.lineal(-1500)
+	pista.vista_hasta = PistaTiempo.lineal(1500)
+	await get_tree().process_frame
+	var r := pista.get_global_rect()
+	var y := r.position.y + 6.0
+	var x_anio := r.position.x + pista._x(Estado.anio)
+	var p := Vector2(x_anio - 250.0, y)
+	var tramo := pista.vista_hasta - pista.vista_desde
+	var desde0 := pista.vista_desde
+	boton.call(p, true, false)
+	arrastre.call(p, p + Vector2(60, 0), false)
+	arrastre.call(p + Vector2(60, 0), p + Vector2(140, 0), false)
+	boton.call(p + Vector2(140, 0), false, false)
+	await get_tree().process_frame
+	if not is_equal_approx(pista.vista_hasta - pista.vista_desde, tramo) or is_equal_approx(pista.vista_desde, desde0) \
+			or Estado.anio != 100:
+		push_error("[prueba] arrastrar la línea de tiempo no la corrió sin cambiar la escala ni el año (tramo %s → %s, año %d)" % [
+			tramo, pista.vista_hasta - pista.vista_desde, Estado.anio])
+	var q := Vector2(r.position.x + r.size.x * 0.25, y)
+	var esperado := pista._anio_en(q.x - r.position.x)
+	boton.call(q, true, false)
+	boton.call(q, false, false)
+	await get_tree().process_frame
+	if Estado.anio != esperado:
+		push_error("[prueba] un clic en la línea de tiempo no eligió el año %d (quedó %d)" % [esperado, Estado.anio])
+	desde0 = pista.vista_desde
+	await mover.call(q)
+	await rueda.call(q, true, true)
+	if not is_equal_approx(pista.vista_hasta - pista.vista_desde, tramo) or not pista.vista_desde > desde0:
+		push_error("[prueba] Mayús + rueda no corrió la línea de tiempo hacia adelante sin cambiar la escala")
+	var linea_anio := Vector2(r.position.x + pista._x(Estado.anio), y)
+	var anio0 := Estado.anio
+	boton.call(linea_anio, true, false)
+	arrastre.call(linea_anio, linea_anio + Vector2(40, 0), false)
+	boton.call(linea_anio + Vector2(40, 0), false, false)
+	await get_tree().process_frame
+	if Estado.anio <= anio0:
+		push_error("[prueba] arrastrar la línea del año no lo movió (%d)" % Estado.anio)
+	await rueda.call(q, false, false)
+	if pista.vista_hasta - pista.vista_desde >= tramo:
+		push_error("[prueba] la rueda sobre la línea de tiempo no acercó el período")
+
+	# Pantalla táctil: dos dedos que se separan acercan el mapa y no hacen clic.
+	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	await get_tree().process_frame
+	var z1 := vista.camara.zoom.x
+	var a := en_mapa - Vector2(40, 0)
+	var b := en_mapa + Vector2(40, 0)
+	await dedo.call(0, a, true)
+	await dedo.call(1, b, true)
+	for i in 4:
+		await mover_dedo.call(1, b + Vector2(30 * i, 0), b + Vector2(30 * (i + 1), 0))
+	await dedo.call(0, a, false)
+	await dedo.call(1, b + Vector2(120, 0), false)
+	if vista.camara.zoom.x < z1 * 1.8:
+		push_error("[prueba] dos dedos no acercaron el mapa (zoom %s → %s)" % [z1, vista.camara.zoom.x])
+	if Estado.unidad_seleccionada != 0:
+		push_error("[prueba] dos dedos sobre el mapa eligieron un lugar")
+	vista._zoom_objetivo = z1
+	vista.camara.zoom = Vector2(z1, z1)
+
+	# Con el dedo, el panel se corre aunque el toque empiece sobre un botón, y el botón no se aprieta. Las fuentes de
+	# El Cairo son una lista larga de tarjetas con botones.
+	var cairo := Proyeccion.a_px(31.2, 30.0)
+	Estado.fijar_anio(1200)
+	Estado.seleccionar_lugar(DatosMapa.unidad_en(cairo), cairo)
+	await get_tree().create_timer(0.8).timeout
+	interfaz.panel._ir_a_pestana(PanelInfo.PESTANAS.find("Fuentes"))
+	await get_tree().create_timer(0.3).timeout
+	var sc: ScrollContainer = interfaz.panel._scroll
+	sc.scroll_vertical = 0
+	var contenido := sc.get_child(0) as Control
+	print("[prueba]   panel para el dedo: %d px de contenido en %d px" % [contenido.size.y, sc.size.y])
+	if contenido.size.y <= sc.size.y + 100:
+		push_error("[prueba] las fuentes de El Cairo no alcanzan para correr el panel con el dedo")
+	var sobre_boton := Vector2.ZERO
+	for n in sc.find_children("*", "BaseButton", true, false):
+		var c := n as Control
+		if c.is_visible_in_tree() and sc.get_global_rect().encloses(c.get_global_rect()):
+			sobre_boton = c.get_global_rect().get_center()
+			break
+	if sobre_boton == Vector2.ZERO:
+		push_error("[prueba] la ficha de Egipto no tiene un botón a la vista para probar el arrastre con el dedo")
+	else:
+		var ficha0: Dictionary = interfaz.panel._ficha.duplicate()
+		var pestana0: int = interfaz.panel._pestana
+		await dedo.call(0, sobre_boton, true)
+		for i in 8:
+			await mover_dedo.call(0, sobre_boton - Vector2(0, 25 * i), sobre_boton - Vector2(0, 25 * (i + 1)))
+		await dedo.call(0, sobre_boton - Vector2(0, 200), false)
+		await get_tree().process_frame
+		if sc.scroll_vertical < 100:
+			push_error("[prueba] arrastrar con el dedo no corrió el panel (scroll %d)" % sc.scroll_vertical)
+		if interfaz.panel._ficha != ficha0 or interfaz.panel._pestana != pestana0:
+			push_error("[prueba] arrastrar con el dedo apretó el botón donde empezó el toque")
+	# Vuelve al mouse: un movimiento de verdad.
+	await mover.call(en_mapa)
+	Estado.seleccionar_lugar(0, Vector2.ZERO)
+	await get_tree().process_frame
 
 
 ## El globo sigue al mouse solo sobre el mapa. Si el mouse pasa al panel lateral, se apaga (antes quedaba clavado

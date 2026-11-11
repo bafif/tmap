@@ -269,9 +269,11 @@ func _choca(caja: Rect2, ocupados: Array[Rect2]) -> bool:
 	return false
 
 
-## El marcador bajo un punto del mapa, o {} si no hay.
-func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
+## El marcador bajo un punto del mapa, o {} si no hay. `holgura` agranda el margen (con el dedo).
+func elemento_en(mundo: Vector2, zoom: float, holgura := 1.0) -> Dictionary:
 	var s := 1.0 / zoom
+	# Margen para acertarle a un marcador (más grande con el dedo).
+	var m := holgura / zoom
 	var mejor := {}
 	var mejor_d := INF
 	var chico := zoom < ZOOM_PUNTOS
@@ -281,7 +283,7 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 		for g in agrupar(zoom):
 			if not _junto(g, zoom):
 				sueltos.append_array(g["miembros"])
-			elif (g["px"] as Vector2).distance_to(mundo) < (RADIO * 1.2 + 3.0) * s:
+			elif (g["px"] as Vector2).distance_to(mundo) < (RADIO * 1.2 + 3.0) * m:
 				var nombres: Array = g["miembros"].slice(0, 4).map(func(v): return str(v["texto"]))
 				var resto: int = g["miembros"].size() - nombres.size()
 				return {"tipo": "grupo", "id": "", "px": g["px"], "n": g["miembros"].size(),
@@ -291,7 +293,7 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 			break
 		var p: Vector2 = v["px"] + (Vector2.ZERO if chico else _desplazamiento(v["orden"]) * s)
 		var d := p.distance_to(mundo)
-		if d < ((6.0 if chico else RADIO + 3.0)) * s and d < mejor_d:
+		if d < ((6.0 if chico else RADIO + 3.0)) * m and d < mejor_d:
 			mejor_d = d
 			mejor = {"tipo": v["tipo"], "id": v["id"], "texto": v["texto"]}
 	if mejor.is_empty():
@@ -299,6 +301,6 @@ func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
 			var imp := int(l.get("importancia", 2))
 			if zoom < {3: 0.35, 2: 0.9, 1: 1.8}.get(imp, 0.9):
 				continue
-			if (l["_px"] as Vector2).distance_to(mundo) < 9.0 * s:
+			if (l["_px"] as Vector2).distance_to(mundo) < 9.0 * m:
 				return {"tipo": "lugar", "id": l["id"], "texto": l.get("nombre", "")}
 	return mejor

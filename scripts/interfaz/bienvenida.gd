@@ -8,7 +8,8 @@ const TEXTO := """TellMAP es una biblioteca ordenada en el espacio y el tiempo. 
 [b]Cómo se usa[/b]
 • [b]Rueda[/b] del mouse para acercar; [b]arrastrar[/b] para moverse; WASD o flechas también mueven.
 • [b]Click[/b] en un lugar abre su ficha a la derecha: historia, fuentes, gente, datos.
-• La [b]línea de tiempo[/b] de abajo se arrastra; la rueda sobre ella acerca un período. Barra espaciadora: reproducir.
+• En la [b]línea de tiempo[/b] de abajo, un click elige el año y arrastrar la recorre (arrastrando la línea del año, se lo mueve); la rueda acerca un período y Mayús + rueda la corre. Barra espaciadora: reproducir.
+• Con [b]pantalla táctil[/b]: un dedo mueve el mapa y toca lugares y marcas, dos dedos acercan o alejan, un doble toque acerca y las ventanas se corren con el dedo. Si los botones quedan chicos, se agrandan en Ajustes → Tamaño.
 • Los [color=#c9a04a]libros dorados[/color] son fuentes primarias; los [color=#7b9cc2]azules[/color], estudios posteriores.
 
 [b]Estado[/b]: versión 0.2, en desarrollo. Las fronteras cubren el mundo entero de 3400 a. C. a 2024; la enciclopedia empieza con un piloto sobre el antiguo Egipto y una muestra de otras regiones, y se va a ir completando."""
