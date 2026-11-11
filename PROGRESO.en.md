@@ -40,12 +40,13 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 What's covered and what's missing, region by region, is in [the coverage report](docs/en/coverage.md).
 
 - [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lists what is missing: the medium priority (mostly candidate people and events for
-      each place and period, series of offices and works), the layers of Central Asia, Brazil, the Caribbean, Chile,
-      North America and eastern Paraguay, those of the Gran Chaco, the Argentine Northwest and Patagonia from 2001, and
-      the low priority, almost all maintenance: about 575 events without sources and about 700 sources without a reading
-      link. It is filled in rounds until each package's report shows nothing but decided gaps; each round can uncover
-      new gaps (completing a series makes it a topic).
+      informe --red --prioridad baja` lists what is missing. There are no high-priority gaps or region-layer gaps left,
+      and the medium priority is closed in the Argentine packages, the Holy Land and the Middle Ages. Still to do: the
+      medium priority of twentieth-century literature and thought, wars and world order, political ideas, economic
+      thought, science, free culture, the ancient world, Egypt and the Celts (about 520 gaps), whatever new the rounds
+      uncover (completing a series makes it a topic) and the low priority, almost all maintenance: about 575 events
+      without sources, about 700 sources without a reading link and medieval sources with no place of writing. It is
+      filled in rounds until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century
       political history of Brazil, Mexico, Chile and the rest of Latin America, China after Mao, independent India,
       Africa after decolonization and Southeast Asia, with their own sources.
@@ -180,11 +181,12 @@ New packages reach installed copies as data updates, without waiting for an app 
 - **No gaps in what has been researched**: each package has a fixed scope (its regions, its years, its axes and how well
   known the things it includes are) and `tools/enciclopedia/huecos.py` lists what is missing inside it, with Wikidata as
   a lead and not as truth; each batch goes through a writer, a reviewer who did not write it and a corrector, because
-  the review finds reversed results, false Wikidata facts and one-sided omissions. That is how the presidents, vice
-  presidents and governors missing between those present got in, along with the Paraguayan War battle by battle, the
-  wars of independence, twentieth-century wars and leaders, works by Marx, Engels, Lenin and Ayn Rand, medieval and Holy
-  Land battles and councils with each side's account, and region layers up to today, with their minorities and without
-  old anachronisms.
+  the review finds reversed results, false Wikidata facts and one-sided omissions. That is how the missing Argentine
+  presidents, vice presidents and governors got in, along with the Paraguayan War battle by battle, the viceroyalty and
+  the wars of independence, Rosas and his time, the caliphs, crusades and conflicts of the Holy Land with each side's
+  account, medieval popes, emperors and crusades, twentieth-century wars and leaders, works by Marx, Engels, Lenin and
+  Ayn Rand, and the layers of every researched region up to today, with their minorities, majorities only where a figure
+  supports them and without old anachronisms.
 - **The Celts, from their pre-Indo-European roots to their end**: nine packages, with culture, language and religion
   layers from the Neolithic on in the twelve regions where Celts or their forerunners lived. Almost everything known
   about them comes from Greeks and Romans who were their enemies, from archaeology and from texts written by monks

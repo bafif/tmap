@@ -40,12 +40,13 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 Lo cubierto y lo que falta, región por región, está en [el informe de cobertura](docs/es/cobertura.md).
 
 - [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lista lo que falta: lo de prioridad media (sobre todo candidatos de personas y
-      hechos de cada lugar y época, series de cargos y obras), las capas de Asia central, Brasil, el Caribe, Chile,
-      Norteamérica y el Paraguay oriental, las del Gran Chaco, el Noroeste y la Patagonia desde 2001, y la prioridad
-      baja, casi toda de mantenimiento: unos 575 hechos sin fuentes y unas 700 fuentes sin enlace de lectura. Se rellena
-      por rondas hasta que el informe de cada paquete no muestre nada más que lo decidido; cada ronda puede destapar
-      huecos nuevos (completar una serie la vuelve tema).
+      informe --red --prioridad baja` lista lo que falta. Ya no quedan huecos de prioridad alta ni de capas de regiones,
+      y la prioridad media está cerrada en los paquetes argentinos, Tierra Santa y la Edad Media. Falta la media de las
+      letras y el pensamiento del siglo XX, las guerras y el orden mundial, las ideas políticas, el pensamiento
+      económico, la ciencia, la cultura libre, el mundo antiguo, Egipto y los celtas (unos 520 huecos), lo nuevo que
+      destapen las rondas (completar una serie la vuelve tema) y la prioridad baja, casi toda de mantenimiento: unos 575
+      hechos sin fuentes, unas 700 fuentes sin enlace de lectura y fuentes medievales sin lugar de escritura. Se rellena
+      por rondas hasta que el informe de cada paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del
       siglo XX de Brasil, México, Chile y el resto de América Latina, China después de Mao, la India independiente,
       África después de la descolonización y el sudeste asiático, con sus fuentes propias.
@@ -181,10 +182,11 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   conocido es lo que incluye) y `tools/enciclopedia/huecos.py` lista lo que falta adentro, con Wikidata como pista y no
   como verdad; cada lote pasa por quien escribe, quien revisa sin haberlo escrito y quien corrige, porque la revisión
   encuentra resultados invertidos, datos falsos de Wikidata y omisiones de un lado. Así están los presidentes,
-  vicepresidentes y gobernadores que faltaban entre los que había, la guerra del Paraguay combate por combate, las
-  independencias, las guerras y dirigentes del siglo XX, obras de Marx, Engels, Lenin y Ayn Rand, batallas y concilios
-  medievales y de Tierra Santa con la versión de cada parte, y las capas de las regiones hasta hoy, con sus minorías y
-  sin anacronismos viejos.
+  vicepresidentes y gobernadores argentinos que faltaban, la guerra del Paraguay combate por combate, el virreinato y
+  las independencias, Rosas y su época, los califas, cruzadas y conflictos de Tierra Santa con la versión de cada parte,
+  los papas, emperadores y cruzadas medievales, las guerras y dirigentes del siglo XX, obras de Marx, Engels, Lenin y
+  Ayn Rand, y las capas de todas las regiones investigadas hasta hoy, con sus minorías, mayorías solo donde una cifra
+  las sostiene y sin anacronismos viejos.
 - **Los celtas, de sus raíces preindoeuropeas a su fin**: nueve paquetes, con capas de cultura, idioma y religión
   desde el Neolítico en las doce regiones donde vivieron celtas o sus antecesores. Casi todo lo que se sabe de ellos
   viene de griegos y romanos que fueron sus enemigos, de la arqueología y de textos escritos por monjes siglos
