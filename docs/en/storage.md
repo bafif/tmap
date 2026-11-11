@@ -2,35 +2,36 @@
 
 [Español](../es/almacenamiento.md)
 
-TellMAP is going to take in a huge amount of information: the contemporary era, people from Wikidata, places from Pleiades, population
-grids, books, court rulings, treaties. This page says how much all of that actually weighs, where each thing lives, how
-the app downloads it without bogging down anyone's computer, and in what order it gets done. Decided on November 10, 2026.
+TellMAP is going to take in a huge amount of information: people from Wikidata, population grids, books, court
+rulings, treaties. This page says how much all of that actually weighs, where each thing lives, how the app downloads
+it without bogging down anyone's computer, and in what order it gets done.
 
 ## The real numbers: it's not terabytes
 
-TellMAP **doesn't store the texts**: it stores each work's entry (title, author, dates, place, its own summary) and links
-to where it can be read (Wikisource, Project Gutenberg, Internet Archive, the official site). It doesn't store Wikipedia either: it requests
-an article's summary when someone opens it. That's why what has to be distributed is small:
+TellMAP **doesn't store the texts**: it stores each work's entry (title, author, dates, place, its own summary) and
+links to where it can be read (Wikisource, Project Gutenberg, Internet Archive, the official site). It doesn't store
+Wikipedia either: it requests an article's summary when someone opens it. That's why what has to be distributed is
+small:
 
 | What | Today | When complete | Notes |
 |---|---|---|---|
-| Map (terrain, relief, units, borders) | 25 MB | 25-60 MB | Grows if the 3D view or finer coastlines are added |
-| Curated encyclopedia (entries) | 3.8 MB, 3263 items | 15-150 MB | ~1.5 KB per item: 10,000 items ≈ 15 MB (3 MB compressed) |
+| Map (terrain, relief, units, borders) | 26 MB | 25-60 MB | Grows if the 3D view or finer coastlines are added |
+| Curated encyclopedia (entries) | 7.5 MB, some 6,000 items, plus 5.4 MB for the English translation | 15-150 MB | ~1.2 KB per item: 10,000 items ≈ 12 MB (3 MB compressed) |
 | Per-country series (demographics, economy) | 0.9 MB | 2-5 MB | Our World in Data, one value per year since 1950 and per decade before that |
 | Wikidata people with a date and place (0.4) | — | 60-600 MB | ~1 to 10 million people, ~60 bytes each in binary |
 | Pleiades places (0.4) | 1.5 MB, 27,279 places | ~2 MB | Those with a location and dates out of some 42,000; the description is fetched live |
 | HYDE population grids (0.4) | — | 30 MB to 1 GB | At half a degree, ~30 MB compressed; at 5 arcminutes, ~1 GB |
 | Full texts for offline reading | — | whatever each person picks | Optional: downloaded one at a time, on request |
 
-What does weigh terabytes (book scans, full Wikipedia dumps, high-resolution grids for every
-year) **isn't distributed**: it stays at its source and the app links to it. The total that TellMAP hosts itself
-will be somewhere between tens and a few hundred MB, and nobody has to download all of it.
+What does weigh terabytes (book scans, full Wikipedia dumps, high-resolution grids for every year) **isn't
+distributed**: it stays at its source and the app links to it. The total that TellMAP hosts itself will be somewhere
+between tens and a few hundred MB, and nobody has to download all of it.
 
 ## Three layers
 
-1. **The core, inside the executable** (up to ~150 MB): the app, the map, the curated encyclopedia as long as it stays under
-   the threshold below, the per-country series, and an **index of everything** (id, type, years, coordinates, title, which
-   tile it's in), so search and markers work offline.
+1. **The core, inside the executable** (up to ~150 MB): the app, the map, the curated encyclopedia as long as it stays
+   under the threshold below, the per-country series, and an **index of everything** (id, type, years, coordinates,
+   title, which tile it's in), so search and markers work offline.
 2. **On-demand tiles**: the bulk data (Wikidata people, grids, large packages) split by era and region,
    each tile 50 to 500 KB compressed. Downloaded the first time it's needed and kept in the user's folder.
 3. **External, live**: Wikipedia summaries and reading links. Requested one at a time, when someone taps something,
@@ -43,7 +44,7 @@ will be somewhere between tens and a few hundred MB, and nobody has to download 
 | **GitHub Releases** (what the updater already uses) | Free on a public repo | 2 GB per file; GitHub doesn't cap total size or release traffic | **The main location**: the executable, the data, and the tiles, with their manifest and sha256 |
 | **Internet Archive** | Free | No practical limit; slower | **Permanent mirror** of every data release and of the large datasets |
 | **Zenodo** (CERN) | Free | 50 GB per record | Publishing the datasets with a DOI, so they can be cited |
-| Cloudflare R2 | 10 GB free per month, no traffic charges; after that, ~0.015 USD per GB per month | Requires a card | Only if someday there are lots of small tiles or lots of traffic: Bautista decides |
+| Cloudflare R2 | 10 GB free per month, no traffic charges; after that, ~0.015 USD per GB per month | Requires a card | Only if someday there are lots of small tiles or lots of traffic |
 | Google Drive | Free up to the account's quota | Cuts off downloads of popular files (“Download quota exceeded”), shows a warning screen before downloading large files, and depends on a personal account | **Not usable as a source the app downloads from.** Fine as a personal backup of `raw_data/` |
 
 Decision: **GitHub Releases as the main source** (already integrated and tested: manifest, sha256, partial
@@ -52,13 +53,14 @@ tries the mirror: the manifest carries both addresses for each file.
 
 ### When external sources go down
 
-- **Reading links**: the Wayback Machine copy of every `leer` lives in `data/enciclopedia/archivo.json` (url → copy),
-  and the app offers it with a «Copy» button next to the link. In the end it isn't an `archivo` field inside each
-  `leer` (as decided on November 10): kept apart, the tool doesn't rewrite packages edited by hand or with the editor, and it
-  can be run again without clashing with anyone. `tools/enciclopedia/enlaces.py` looks up the copy of new links,
-  with `--guardar` asks the Wayback Machine to archive those without one, and with `--comprobar` lists dead
-  originals; it's run by hand before each release, and `validar.py` warns how many links have no copy.
-- **Wikipedia**: if it doesn't respond, the entry's own content is still there; the Wikipedia summary is cached the first time.
+- **Reading links**: the Wayback Machine copy of every `leer` lives in `data/enciclopedia/archivo.json` (url →
+  copy), and the app offers it with a "Copy" button next to the link. It's kept apart rather than as a field in each
+  `leer` so the tool doesn't rewrite packages edited by hand or with the editor. `tools/enciclopedia/enlaces.py` looks
+  up the copy of new links, with `--guardar` asks the Wayback Machine to archive those without one, and with
+  `--comprobar` lists dead originals; it's run by hand before each release, and `validar.py` warns how many links have
+  no copy.
+- **Wikipedia**: if it doesn't respond, the entry's own content is still there; the Wikipedia summary is cached the
+  first time.
 - **Source data** (Our World in Data, Cliopatria, Natural Earth, HYDE): never queried live. Copied into the
   repo or a release (the licenses allow it: CC BY and public domain) and everything is built from there.
 
@@ -76,14 +78,15 @@ timeline. The rules:
    prefetched), at most two requests at a time, cancellation of prefetches that are no longer needed,
    retries with increasing backoff, an “Offline” notice instead of an error, and a per-server cap (Wikipedia: one
    request per second).
-4. **Nothing heavy on the main thread.** Reading and preparing a tile happens on a separate thread (`WorkerThreadPool`); the
-   result is merged into the main thread in small chunks per frame, so the animation doesn't stutter.
-5. **Disk budget**: the cache in the user's folder has a cap (500 MB by default, adjustable in
-   Settings between 100 MB and 10 GB) and evicts the least used. Settings shows how much it takes up and has “Clear cache”.
-6. **Memory budget**: loaded tiles live in a capped list (64 MB by default); the least used one is
-   dropped and read back from disk if needed.
-7. **Integrity**: every file comes with its sha256 in the manifest (as the updater does today); one that doesn't match is
-   discarded and requested again.
+4. **Nothing heavy on the main thread.** Reading and preparing a tile happens on a separate thread
+   (`WorkerThreadPool`); the result is merged into the main thread in small chunks per frame, so the animation doesn't
+   stutter.
+5. **Disk budget**: the cache in the user's folder has a cap (500 MB by default, adjustable in Settings between 100 MB
+   and 10 GB) and evicts the least used. Settings shows how much it takes up and has “Clear cache”.
+6. **Memory budget**: loaded tiles live in a capped list (64 MB by default); the least used one is dropped and read
+   back from disk if needed.
+7. **Integrity**: every file comes with its sha256 in the manifest (as the updater does today); one that doesn't match
+   is discarded and requested again.
 8. **Never block**: if a tile fails to download, the panel says “Couldn't download” with a retry button; the rest
    of the app carries on as usual.
 
@@ -102,12 +105,12 @@ timeline. The rules:
 
 | Step | When | What |
 |---|---|---|
-| 0 | Done (Nov 10, 2026) | The per-country series are only loaded when the “Data” tab is opened (29 ms), and the app measures at startup how much the encyclopedia weighs and how long it takes (with the contemporary era, 3.8 MB in 150 to 230 ms on the dev PC) |
+| 0 | Done | The per-country series are only loaded when the “Data” tab is opened (29 ms), and the app says at startup how much the encyclopedia weighs and how long it takes to open |
 | 1 | When the encyclopedia goes past **10 MB** or takes more than 1 s to open | Reading the packages on a separate thread while the loading screen is shown; compact in-memory index |
-| 2 | With 0.4 (Wikidata people, Pleiades) or when it goes past **50 MB** | Tiles, download manager, capped cache, and the Settings section; tiles in GitHub Releases |
+| 2 | With the Wikidata people (0.4) or when it goes past **50 MB** | Tiles, download manager, capped cache, and the Settings section; tiles in GitHub Releases |
 | 3 | With the HYDE grids | Raster tiles per era, mirror on Internet Archive and Zenodo |
-| 4 | Before 1.0 | Copies of reading links and `enlaces.py` (done on November 11, 2026); texts for offline reading, one at a time |
+| 4 | Before 1.0 | Texts for offline reading, one at a time. The copies of the reading links are already in |
 
-Going by today's measurement (40 to 110 ms per MB on this PC, depending on whether the disk is cached; on an old laptop it could
-be three times that), everything loaded so far, including the contemporary era, fits in layer 1 without changing
-anything else.
+The encyclopedia loads at 40 to 110 ms per MB on a desktop PC, depending on whether the disk is cached (on an old
+laptop it could be three times that): up to the threshold of step 1, layer 1 is enough without changing anything
+else.

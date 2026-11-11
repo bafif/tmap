@@ -59,7 +59,7 @@ página del proyecto.
 
 ## Publicar
 
-- **Una versión de la app**: igual que siempre, se publica la versión `vX.Y.Z` en GitHub, con `config/version` de
+- **Una versión de la app**: se publica la versión `vX.Y.Z` en GitHub, con `config/version` de
   `project.godot` igual a `X.Y.Z` (si no coinciden, el workflow falla: la app se creería vieja para siempre).
   `version.yml` exporta, sella los datos, sube los `.gz` y el manifiesto nuevo.
 - **Solo datos**: alcanza con llevar los cambios de `data/` a `main`. `datos.yml` se fija si cambiaron respecto de
@@ -68,9 +68,8 @@ página del proyecto.
   nuevo. Si la prueba falla es porque los datos necesitan código nuevo: van con la próxima versión de la app. También
   se puede correr a mano desde la pestaña Actions.
 - Los dos workflows suben `actualizacion.json` y comparten el grupo de `concurrency` `actualizaciones`, así que nunca
-  corren a la vez. Antes no lo compartían: con la 0.3.2, `datos.yml` (por el mismo push, que tocaba `data/`) terminó
-  dos segundos después que `version.yml` y pisó el manifiesto con uno armado antes, que seguía anunciando la 0.3.1.
-  Se arregló subiendo a mano el manifiesto con la entrada de la 0.3.2.
+  corren a la vez: si no, un push que toca `data/` y publica una versión podría pisar el manifiesto nuevo con uno
+  armado antes.
 
 ## Probar
 
