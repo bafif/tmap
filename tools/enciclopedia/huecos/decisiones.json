@@ -1319,6 +1319,101 @@
     "motivo": "Tomás Gomensoro fue presidente del Uruguay en 1872-1873: su actuación principal es posterior a la época de Rosas y no es del tema.",
     "fecha": "2026-11-11"
   },
+  "candidato:tierra-santa:batalla:Q200056": {
+    "decision": "descartado",
+    "motivo": "La batalla de Zama (202 a. C.) enfrentó a Roma y Cartago en el norte de África y no tiene relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q203824": {
+    "decision": "descartado",
+    "motivo": "La guerra ítalo-turca (1911) fue por Libia, en el Magreb, sin relación con Tierra Santa ni con el califato de Oriente.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q218678": {
+    "decision": "descartado",
+    "motivo": "La campaña del norte de África de la Segunda Guerra Mundial se dio en Libia y Egipto, sin relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q250652": {
+    "decision": "descartado",
+    "motivo": "Sarıkamış (1914) fue una batalla del frente ruso-otomano en el Cáucaso, sin relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q26749": {
+    "decision": "descartado",
+    "motivo": "La guerra de la Segunda Coalición es una guerra europea; lo que toca a la región (la campaña de Napoleón en Egipto y Siria) ya está en el sitio de Acre de 1799.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q327035": {
+    "decision": "descartado",
+    "motivo": "La batalla de Gazala (1942) fue de la campaña del norte de África de la Segunda Guerra Mundial, en Libia, sin relación con la región.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q381375": {
+    "decision": "descartado",
+    "motivo": "La primera guerra del Alto Karabaj es un conflicto posoviético del Cáucaso, fuera del tema.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q49097": {
+    "decision": "descartado",
+    "motivo": "La guerra de Palestina de 1947-1949 ya está cubierta por las fichas guerra-civil-1947 y guerra-de-1948.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q523154": {
+    "decision": "descartado",
+    "motivo": "La campaña del Cáucaso (1914-1917) fue el frente ruso-otomano en el Cáucaso, fuera de las regiones del tema; lo que toca a los armenios está en el genocidio armenio.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q6334": {
+    "decision": "descartado",
+    "motivo": "La tercera guerra púnica (149-146 a. C.) fue entre Roma y Cartago, sin relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q766437": {
+    "decision": "descartado",
+    "motivo": "La guerra del Rif fue una guerra colonial española y francesa en Marruecos, sin relación con la región.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:batalla:Q856650": {
+    "decision": "descartado",
+    "motivo": "La invasión iraquí de Kuwait (1990) es un tema de la guerra del Golfo, no de Tierra Santa; merece su propio tema.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:desastre:Q218446": {
+    "decision": "descartado",
+    "motivo": "La masacre de Jodyalí (1992) pertenece a la guerra del Alto Karabaj, fuera del tema.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:desastre:Q815567": {
+    "decision": "descartado",
+    "motivo": "El terremoto de Spitak de 1988 afectó a la Armenia soviética, fuera del tema.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:personas:Q19878": {
+    "decision": "descartado",
+    "motivo": "Gadafi gobernó Libia (1969-2011); su actuación no es de Tierra Santa ni del conflicto árabe-israelí tratado en el paquete.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:personas:Q43182": {
+    "decision": "descartado",
+    "motivo": "Eratóstenes nació en Cirene y trabajó en Alejandría, sin actuación en Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:personas:Q43416": {
+    "decision": "descartado",
+    "motivo": "Keanu Reeves nació en Beirut pero es un actor canadiense-estadounidense, sin relación con el tema.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:personas:Q48231": {
+    "decision": "descartado",
+    "motivo": "Idi Amin gobernó Uganda; su papel en el secuestro de Entebbe ya está en la ficha de la operación Entebbe.",
+    "fecha": "2026-11-11"
+  },
+  "candidato:tierra-santa:tratado:Q192135": {
+    "decision": "descartado",
+    "motivo": "El Acuerdo Comercial Anti-Falsificación es un tratado de propiedad intelectual, sin relación con el tema.",
+    "fecha": "2026-11-11"
+  },
   "candidato:virreinato-e-independencia:personas:Q1710673": {
     "decision": "descartado",
     "motivo": "Juan de Zavala es un militar peruano cuya actuación política es de la república (década de 1830), posterior al alcance.",
@@ -1507,6 +1602,11 @@
   "obra:Q133001:Q1310914": {
     "decision": "descartado",
     "motivo": "Bula de fundación de la Compañía de Jesús (1540): trata de la orden en general, no de la región; el hecho del Río de la Plata ya cubre su provincia (merece un tema de la Compañía de Jesús).",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q151403:Q3526892": {
+    "decision": "descartado",
+    "motivo": "La teoría del gran hombre es un concepto y no una obra de Carlyle; su obra del tema es Los héroes, con el capítulo sobre Mahoma, que ya tiene ficha.",
     "fecha": "2026-11-11"
   },
   "obra:Q1541:Q1051232": {
@@ -2044,6 +2144,16 @@
     "motivo": "Edicto contra Lutero en el Imperio: es de la Reforma, no del Río de la Plata.",
     "fecha": "2026-11-11"
   },
+  "obra:Q34628:Q1209859": {
+    "decision": "descartado",
+    "motivo": "Minna von Barnhelm es una comedia de Lessing sobre la Guerra de los Siete Años, sin relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q34628:Q782653": {
+    "decision": "descartado",
+    "motivo": "Emilia Galotti es una tragedia burguesa de Lessing sin relación con Tierra Santa; la obra del tema es Natán el sabio.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q388099:Q336306": {
     "decision": "descartado",
     "motivo": "El Himno Nacional del Uruguay es de Francisco Acuña de Figueroa (letra) y Quijano y Debali (música), y ni el artículo de la obra ni la ficha de Andrés Lamas lo vinculan con él; no es una obra suya.",
@@ -2077,6 +2187,16 @@
   "obra:Q41370:Q1888137": {
     "decision": "descartado",
     "motivo": "los salmos sueltos no van como fuentes aparte: está el libro de los Salmos",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q49767:Q1097238": {
+    "decision": "descartado",
+    "motivo": "René es una novela de Chateaubriand sin relación con Tierra Santa; la obra del tema es el Itinerario de París a Jerusalén.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q49767:Q753251": {
+    "decision": "descartado",
+    "motivo": "Atala transcurre en Luisiana y no trata de Tierra Santa; la obra del tema es el Itinerario de París a Jerusalén.",
     "fecha": "2026-11-11"
   },
   "obra:Q517": {
@@ -2409,6 +2529,26 @@
     "motivo": "Mark Twain está por Inocentes en el extranjero; el resto de su obra no es del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q79025:Q2156104": {
+    "decision": "descartado",
+    "motivo": "No es una novela sobre Tierra Santa ni sobre las cruzadas: es una novela escocesa de Walter Scott.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q79025:Q2469230": {
+    "decision": "descartado",
+    "motivo": "Quentin Durward transcurre en la Francia del siglo XV, sin relación con Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q79025:Q2659725": {
+    "decision": "descartado",
+    "motivo": "No es una novela sobre Tierra Santa ni sobre las cruzadas: es una novela escocesa de Walter Scott.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q79025:Q678251": {
+    "decision": "descartado",
+    "motivo": "No es una novela sobre Tierra Santa ni sobre las cruzadas: es una novela escocesa de Walter Scott.",
+    "fecha": "2026-11-11"
+  },
   "obra:Q8018:Q743376": {
     "decision": "descartado",
     "motivo": "La atribución del Te Deum a Agustín y Ambrosio es una leyenda; los estudiosos lo atribuyen a otro autor (se suele proponer a Niceta de Remesiana), así que no es obra de Agustín.",
@@ -2457,6 +2597,16 @@
   "obra:Q9438:Q618055": {
     "decision": "descartado",
     "motivo": "El Tantum ergo son las dos últimas estrofas del Pange lingua, que ya tiene su ficha (pange-lingua).",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q9458:Q234764": {
+    "decision": "descartado",
+    "motivo": "La sunna es un concepto y no una obra; sus colecciones están en el Sahih de al-Bujari y en los Cuatro libros, ya con ficha.",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q9458:Q693604": {
+    "decision": "descartado",
+    "motivo": "Tarawih es la oración nocturna de Ramadán, una práctica ritual y no una obra de Mahoma.",
     "fecha": "2026-11-11"
   },
   "obra:Q9554:Q1180745": {
@@ -2604,6 +2754,11 @@
     "motivo": "La segunda cruzada ya está en el paquete tierra-santa (segunda-cruzada-damasco); no se redefine.",
     "fecha": "2026-11-11"
   },
+  "parte:Q12546:Q51662": {
+    "decision": "descartado",
+    "motivo": "Las cruzadas bálticas fueron en el Báltico, fuera de las regiones del tema; merecen un tema propio sobre las cruzadas del norte.",
+    "fecha": "2026-11-11"
+  },
   "parte:Q1258062:Q894999": {
     "decision": "descartado",
     "motivo": "La Wikipedia en inglés fusionó la batalla de Watling Street con la revuelta de Boudica y el paquete ya tiene «La rebelión de Boudica», cuyo resumen narra la batalla final (Tácito, Anales XIV.34-37) con sus cifras discutidas.",
@@ -2622,6 +2777,11 @@
   "parte:Q2092093:Q208156": {
     "decision": "descartado",
     "motivo": "Las invasiones mongolas de Japón (1274 y 1281) son de Asia oriental y caen fuera de las regiones de la Europa medieval del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q275918:Q2149737": {
+    "decision": "descartado",
+    "motivo": "Los secuestros turcos (1627) fueron una incursión de corsarios en Islandia, sin relación con la región.",
     "fecha": "2026-11-11"
   },
   "parte:Q3906600:Q3620148": {
@@ -3234,9 +3394,44 @@
     "motivo": "la serie de cancilleres de Israel no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q15722817:Q188386": {
+    "decision": "descartado",
+    "motivo": "La serie de ministros de Finanzas de Israel entra solo porque Netanyahu la ocupó; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q15731446:Q612860": {
+    "decision": "descartado",
+    "motivo": "La serie de ministros de Transporte de Israel entra solo porque Peres la ocupó; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q15731462:Q2904677": {
+    "decision": "descartado",
+    "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q15731462:Q2906629": {
+    "decision": "descartado",
+    "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q15731462:Q361315": {
+    "decision": "descartado",
+    "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q165948:Q213758": {
     "decision": "descartado",
     "motivo": "Pachacútec ya tiene ficha, con el id pachacutec, en el paquete mundo, junto con el hecho de la expansión inca; no se redefine.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q174506:Q3298137": {
+    "decision": "sin-datos",
+    "motivo": "Masud ibn Bursuqi (Mosul, 1126-1127) tiene artículo solo en dos Wikipedias menores y ninguno en inglés o español, así que no se puede verificar; quien importa para el tema es su padre, Aqsunqur al-Bursuqi.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q174506:Q56364526": {
+    "decision": "descartado",
+    "motivo": "Es Zangi ibn Mawdud, atabeg salgúrida de Fars (1161-1178), fuera del tema.",
     "fecha": "2026-11-11"
   },
   "serie:Q181765:Q150611": {
@@ -4339,6 +4534,16 @@
     "motivo": "Capitán general de Chile interino (1761-1762): sin actuación documentada en Cuyo, cuyo gobierno chileno ya cubre el paquete con Amat.",
     "fecha": "2026-11-11"
   },
+  "serie:Q65997:Q11937796": {
+    "decision": "descartado",
+    "motivo": "Muhammad IV fue un gobernante hafsí de Túnez al que Wikidata llama califa; su actuación es del Magreb y no de Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q65997:Q2822168": {
+    "decision": "descartado",
+    "motivo": "Mulay Hassan fue un gobernante hafsí de Túnez al que Wikidata llama califa; su actuación es del Magreb y no de Tierra Santa.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q783785:Q12068551": {
     "decision": "descartado",
     "motivo": "la serie de jefes del Estado Mayor del Ejército de los Estados Unidos no es tema del paquete",
@@ -4644,6 +4849,11 @@
     "motivo": "La resolución 501 (1982) del Consejo de Seguridad trata de la fuerza de la ONU en el Líbano; no tiene relación con Malvinas, solo es la vecina numérica de la 502.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q1898457": {
+    "decision": "descartado",
+    "motivo": "La resolución 241 del Consejo de Seguridad (1967) trata de mercenarios en el Congo, sin relación con el tema.",
+    "fecha": "2026-11-11"
+  },
   "sucesion:Q2218385": {
     "decision": "descartado",
     "motivo": "La resolución 503 (1982) del Consejo de Seguridad trata de condenas a muerte en Sudáfrica; no tiene relación con Malvinas, solo es la vecina numérica de la 502.",
@@ -4667,6 +4877,11 @@
   "sucesion:Q666536": {
     "decision": "descartado",
     "motivo": "El cónclave de 2005 eligió a Benedicto XVI; la bibliografía consultada no da papel a Bergoglio y no es historia argentina.",
+    "fecha": "2026-11-11"
+  },
+  "sucesion:Q770063": {
+    "decision": "descartado",
+    "motivo": "La resolución 243 del Consejo de Seguridad (1967) recomendó admitir a Yemen del Sur en la ONU, sin relación con el conflicto árabe-israelí.",
     "fecha": "2026-11-11"
   },
   "tramo:rio-de-la-plata-colonial:caribe:1670:1709": {
