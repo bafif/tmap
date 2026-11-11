@@ -204,7 +204,7 @@ Each step is done when its threshold is crossed, not before.
       Tacitus's citations checked against the Latin.
 - [x] Region layers: every era, religion, culture and language that was cut short in Europe, the Near East, Asia,
       Mesoamerica, the Andes and the Río de la Plata, up to today and with their minorities; all of Nubia; fixes to old
-      anachronistic entries (Canaanite from 3500 BC, Quechua from 1000 BC); ten new families.
+      anachronistic entries (Canaanite from 3500 BC, Quechua from 1000 BC); nine new families.
 - [x] `consultar.py texto` fetches the full article, to compare two languages; `aplicar` extends a layer that continues
       an identical one instead of duplicating it.
 
