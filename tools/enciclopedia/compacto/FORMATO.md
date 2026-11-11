@@ -111,6 +111,30 @@ argentina, InfoLEG, el Boletín Oficial, mises.org para la escuela austríaca, m
 anarquismo). Nunca copias piratas de libros con derechos: si no hay copia legal, la fuente queda sin enlace (la ficha
 igual vale). `pg:` y `ws:` se marcan dominio público solos; con `url:` poné `dp` solo si lo es.
 
+## Rellenar huecos de un paquete que ya existe
+
+Para sumar fichas a un paquete que ya existe (los huecos que encuentra `tools/enciclopedia/huecos.py`, ver
+[los huecos de lo investigado](../../../docs/es/huecos.md)), el tema lleva otro nombre en `meta.txt`:
+`paquete: huecos-<paquete>`. `construir.py` deja afuera el paquete que se llama igual que el tema, y entonces no vería
+sus ids ni podría resolver las referencias a ellos. Se itera con `--tema huecos-<paquete>` y **nunca** se usa
+`--escribir`, que reemplazaría el paquete entero. Lo construido se suma con
+
+    python3 tools/enciclopedia/huecos.py aplicar <carpeta de temas>/huecos-<paquete> <paquete> --escribir
+
+que agrega `salida.json` al paquete, `familias-nuevas.json` a `familias.json`, las obras nuevas a sus autores (estén en
+el paquete que estén) y aplica `parches.json`, la lista de cambios a fichas que ya existen:
+
+    [
+      {"seccion": "hechos", "id": "batalla-de-pavon", "agregar": {"fuentes": ["parte-de-mitre-sobre-pavon"]}},
+      {"seccion": "fuentes", "id": "facundo", "poner": {"autor_id": "sarmiento"}},
+      {"seccion": "regiones", "id": "levante", "agregar": {"eras": [
+        {"desde": 1291, "hasta": 1516, "nombre": "…", "resumen": "…"}]}}
+    ]
+
+`agregar` suma a una lista lo que todavía no tiene (y ordena por año las eras, las capas y la demografía); `poner`
+reemplaza el campo. Sin `--escribir`, `aplicar` muestra lo que haría; si un id nuevo ya existe en otro paquete, no
+escribe nada.
+
 ## Herramientas
 
 `python3 tools/enciclopedia/compacto/consultar.py` (sin argumentos muestra la ayuda):

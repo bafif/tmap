@@ -109,6 +109,13 @@ long, orderly, readable article) is the reference for form, not for content.
 5. **Little by little, by hand.** It's run in small batches, when needed, never unattended: that keeps the cost under
    control, and the quality too.
 
+## Leaving no gaps in what has been researched
+
+The steps above fill in what gets looked up. On top of that, what has already been researched should have no gaps: if
+a topic has ten of the twelve presidents of its period, two are missing. `python3 tools/enciclopedia/huecos.py informe
+--red` looks for those gaps inside each package's scope (its regions, its years and how well known the things it
+includes are), and they are filled in rounds, by hand. The procedure is in [gaps in what has been researched](gaps.md).
+
 ## The editor
 
 From Settings → "Open the encyclopedia editor", or with "Edit this entry" on any source, person, event, place or

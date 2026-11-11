@@ -108,6 +108,13 @@ Grokipedia (un artículo largo, ordenado y legible) es la referencia de forma, n
 5. **De a poco y a mano.** Se corre en lotes chicos, cuando hace falta, nunca de forma desatendida: así el costo queda
    controlado y la calidad también.
 
+## Que lo investigado no quede con huecos
+
+Lo de arriba completa lo que se consulta. Lo que ya se investigó, además, no tiene que quedar con huecos: si un tema
+tiene a diez de los doce presidentes de su período, le faltan dos. `python3 tools/enciclopedia/huecos.py informe
+--red` busca esos huecos dentro del alcance de cada paquete (sus regiones, sus años y qué tan conocido es lo que
+incluye) y se rellenan por rondas, a mano. El procedimiento está en [los huecos de lo investigado](huecos.md).
+
 ## El editor
 
 Desde Ajustes → «Abrir el editor de la enciclopedia», o con «Editar esta ficha» en cualquier ficha de fuente, persona,
