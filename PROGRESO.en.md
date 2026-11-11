@@ -53,15 +53,15 @@ What the roadmap asked for was done on November 7, 2026 (see **Done**). One task
 What's covered and what's missing, region by region, is in [docs/en/coverage.md](docs/en/coverage.md), generated
 by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date).
 
-- [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py`
-      finds 157 high-priority and 1411 medium-priority gaps in the 18 topic packages: eras and layers cut short
-      (Mesopotamia between 1594 and 912 BC, the Levant between 1292 and 1515, Hungary's religion between 401 and 894),
-      presidents and vice presidents missing between those present, the Argentine presidential elections of 1963, 2007,
-      2011 and 2015, the councils of Lyon I and Vienne, battles of wars the topic already covers battle by battle
-      (Piribebuy, Fulford, Sluys, Moscow, Bagration), works by authors who have an entry (*The German Ideology*,
-      *Dubliners*, *The Castle*) and events and people from each topic's place and period. They are filled in rounds,
-      one or a few packages at a time, as the procedure describes. There are 1950 more at low priority, mostly
-      maintenance: 575 events without sources and 706 sources without a reading link.
+- [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). With the Celtic packages,
+      `tools/enciclopedia/huecos.py` found about 4,600 gaps in 27 packages; the first two rounds closed the
+      high-priority ones and every region layer except those of nine world regions, and about 620 were decided with
+      their reason in `tools/enciclopedia/huecos/decisiones.json`. Still to do: the medium priority (mostly candidate
+      people and events for each place and period, series and works), the layers of Central Asia, Brazil, the Caribbean,
+      Chile, North America and eastern Paraguay (and, from 2001, those of the Gran Chaco, the Argentine Northwest and
+      Patagonia), and the low priority, almost all maintenance: about 575 events without sources and about 700 sources
+      without a reading link. Each new round can uncover gaps that did not count before (completing a series makes it a
+      topic): rounds go on until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** The seven packages from November 10,
       2026 cover ideas, science, wars and Argentina; still missing are the 20th-century political history of Brazil,
       Mexico, Chile and the rest of Latin America, China after Mao, independent India, Africa after decolonization and
@@ -188,6 +188,25 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: the first two rounds of gaps
+
+- [x] With `huecos.py` and its procedure, each batch went through a writer, a reviewer who did not write it and a
+      corrector before being applied. The reviews found reversed battle results, wrong dates and coordinates (some from
+      Wikidata errors, such as the younger Roca born in Córdoba, Spain), layers that painted a disputed thesis as fact
+      and one-sided omissions, and all were corrected.
+- [x] New entries: the presidents, vice presidents and Buenos Aires governors missing between those present, the 1963,
+      2007 and 2011 elections, the Paraguayan War battle by battle, the viceroyalty and the wars of independence (Junín,
+      the Quito campaign, Cotagaita, Guayabos), the Platine War; the missing US presidents and Soviet leaders, the wars
+      in Indochina, Greece, Bangladesh and Afghanistan, the 1953 coup in Iran; works by Marx, Engels, Lenin and Ayn
+      Rand; medieval and Holy Land battles and councils (Fulford, Sluys, Lyon I, Vienne, Ajnadayn, Akroinon, Hunayn),
+      the twentieth-century Holy Land conflicts with each side's account, and the Roman governors of Britain with
+      Tacitus's citations checked against the Latin.
+- [x] Region layers: every era, religion, culture and language that was cut short in Europe, the Near East, Asia,
+      Mesoamerica, the Andes and the Río de la Plata, up to today and with their minorities; all of Nubia; fixes to old
+      anachronistic entries (Canaanite from 3500 BC, Quechua from 1000 BC); ten new families.
+- [x] `consultar.py texto` fetches the full article, to compare two languages; `aplicar` extends a layer that continues
+      an identical one instead of duplicating it.
 
 ### November 11, 2026: gaps in what has been researched
 

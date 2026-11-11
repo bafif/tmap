@@ -54,15 +54,15 @@ hacerlo:
 El universo cubierto y el que falta, región por región, está en [docs/es/cobertura.md](docs/es/cobertura.md), que
 genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
 
-- [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py`
-      encuentra 157 huecos de prioridad alta y 1411 de media en los 18 paquetes temáticos: eras y capas cortadas
-      (Mesopotamia entre 1594 y 912 a. C., el Levante entre 1292 y 1515, la religión de Hungría entre 401 y 894),
-      presidentes y vicepresidentes que faltan entre los que están, las elecciones presidenciales argentinas de 1963,
-      2007, 2011 y 2015, los concilios de Lyon I y Vienne, batallas de guerras que el tema ya trata batalla por batalla
-      (Piribebuy, Fulford, Sluys, Moscú, Bagration), obras de autores con ficha (*La ideología alemana*, *Dublineses*,
-      *El castillo*) y hechos y personas del lugar y la época de cada tema. Se rellenan por rondas, de a uno o varios
-      paquetes, como dice el procedimiento. Con prioridad baja hay 1950 más, casi todos de mantenimiento: 575 hechos sin
-      fuentes y 706 fuentes sin enlace de lectura.
+- [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). Con los paquetes celtas,
+      `tools/enciclopedia/huecos.py` encontraba unos 4600 huecos en 27 paquetes; las dos primeras rondas cerraron los de
+      prioridad alta y todas las capas de las regiones salvo las de nueve regiones del mundo, y unos 620 quedaron
+      decididos con su motivo en `tools/enciclopedia/huecos/decisiones.json`. Falta: lo de prioridad media (sobre todo
+      candidatos de personas y hechos de cada lugar y época, series y obras), las capas de Asia central, Brasil, el
+      Caribe, Chile, Norteamérica y el Paraguay oriental (y desde 2001 las del Gran Chaco, el Noroeste y la Patagonia),
+      y la prioridad baja, casi toda de mantenimiento: unos 575 hechos sin fuentes y unas 700 fuentes sin enlace de
+      lectura. Cada ronda nueva puede destapar huecos que antes no contaban (completar una serie la vuelve tema): se
+      sigue hasta que el informe de cada paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Los siete paquetes del 10/11/2026
       cubren las ideas, la ciencia, las guerras y la Argentina; faltan la historia política del siglo XX de Brasil,
       México, Chile y el resto de América Latina, China después de Mao, la India independiente, África después de la
@@ -187,6 +187,27 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: las dos primeras rondas de huecos
+
+- [x] Con `huecos.py` y su procedimiento, cada lote pasó por un escritor, un revisor que no lo escribió y un corrector
+      antes de aplicarse. Las revisiones encontraron resultados de batallas invertidos, fechas y coordenadas equivocadas
+      (algunas por errores de Wikidata, como Roca hijo nacido en la Córdoba de España), capas que pintaban como hecho
+      una tesis disputada y omisiones de un solo lado, y se corrigieron todas.
+- [x] Fichas nuevas: los presidentes, vicepresidentes y gobernadores bonaerenses que faltaban entre los que estaban, las
+      elecciones de 1963, 2007 y 2011, la guerra del Paraguay combate por combate, el virreinato y las guerras de
+      independencia (Junín, la campaña de Quito, Cotagaita, Guayabos), la guerra platina; los presidentes de los Estados
+      Unidos y los dirigentes soviéticos que faltaban, las guerras de Indochina, Grecia, Bangladés y Afganistán, el
+      golpe de 1953 en Irán; obras de Marx, Engels, Lenin y Ayn Rand; las batallas y concilios medievales y de Tierra
+      Santa (Fulford, Sluys, Lyon I, Vienne, Adjnadayn, Akroinon, Hunáin), los conflictos de Tierra Santa del siglo XX
+      con la versión de cada parte, y los gobernadores romanos de Britania con las citas de Tácito cotejadas con el
+      latín.
+- [x] Capas de las regiones: todas las eras, religiones, culturas e idiomas que estaban cortadas en Europa, el Cercano
+      Oriente, Asia, Mesoamérica, los Andes y el Río de la Plata, hasta hoy y con sus minorías; Nubia completa;
+      correcciones de entradas viejas anacrónicas (el cananeo desde 3500 a. C., el quechua desde 1000 a. C.); diez
+      familias nuevas.
+- [x] `consultar.py texto` trae el artículo completo, para cotejar dos idiomas; `aplicar` extiende una capa que sigue a
+      otra idéntica en vez de duplicarla.
 
 ### 11 de noviembre de 2026: los huecos de lo investigado
 
