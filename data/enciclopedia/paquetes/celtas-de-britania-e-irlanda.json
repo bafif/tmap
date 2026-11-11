@@ -4868,6 +4868,103 @@
         "en": "Ruaidrí Ua Conchobair"
       },
       "wikidata": "Q1660081"
+    },
+    {
+      "id": "aulo-didio-galo",
+      "nombre": "Aulo Didio Galo",
+      "activo": {
+        "lugar": "Britania",
+        "desde": 52,
+        "hasta": 57,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador romano",
+        "general"
+      ],
+      "resumen": "Senador romano, cónsul sufecto en 39 y procónsul de Asia, que gobernó Britania de 52 a 57, desde la muerte en el cargo de Ostorio Escápula, cuando Gales, sobre todo los siluros, seguía resistiendo. Según Tácito (Agrícola 14; Anales XII.40) se contentó con conservar lo ganado y adelantar algunos fuertes; Sheppard Frere piensa que seguía instrucciones de Claudio, que no veía ventaja en conquistar terreno difícil. Envió tropas en ayuda de la reina brigante Cartimandua contra la primera insurrección de Venucio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aulo Didio Galo",
+        "en": "Aulus Didius Gallus"
+      },
+      "wikidata": "Q712987"
+    },
+    {
+      "id": "quinto-veranio",
+      "nombre": "Quinto Veranio",
+      "muerte": {
+        "anio": 58,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Britania",
+        "desde": 57,
+        "hasta": 58,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador romano",
+        "general"
+      ],
+      "resumen": "Gobernador de la provincia de Licia (43-48), cónsul en 49 y gobernador de Britania desde 57, donde cambió la política de su predecesor y empezó operaciones contra los siluros de Gales. Murió en el cargo en 57 o 58; Tácito (Agrícola 14) dice que antes de cumplir el año, y en su testamento, que Tácito cuenta (Anales XIV.29), halagó a Nerón y aseguró que con dos años más habría sometido la provincia («subiecturum ei provinciam»). La rapidez con que su sucesor Suetonio Paulino avanzó en Gales sugiere que Veranio ya había hecho buena parte del trabajo. Onásandro le dedicó su tratado de estrategia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Veranio",
+        "en": "Quintus Veranius"
+      },
+      "wikidata": "Q17417188"
+    },
+    {
+      "id": "marco-trebelio-maximo",
+      "nombre": "Marco Trebelio Máximo",
+      "activo": {
+        "lugar": "Britania",
+        "desde": 63,
+        "hasta": 69,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador romano"
+      ],
+      "resumen": "Cónsul sufecto en 55 con Séneca y gobernador de Britania de 63 a 69. Siguió una política de consolidación sin conquistar territorio nuevo y refundó Camuloduno tras la rebelión de Boudica. Según Tácito, la tropa, ociosa, se amotinó; Trebelio se escondió y gobernó luego por tolerancia de los soldados (Agrícola 16). En 69, odiado por su avaricia y acusado por Roscio Celio, legado de la XX Valeria Victrix, de empobrecer a las legiones, huyó a Vitelio (Historias I.60); Vitelio puso a Vetio Bolano (Historias II.65). Un lingote de plomo hallado en 2019 en Wrexham lleva su nombre, la única inscripción de Britania que lo menciona.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marco Trebelio Máximo",
+        "en": "Marcus Trebellius Maximus"
+      },
+      "wikidata": "Q1229393"
+    },
+    {
+      "id": "sexto-julio-frontino",
+      "nombre": "Sexto Julio Frontino",
+      "nacimiento": {
+        "anio": 40,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 103,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Britania",
+        "desde": 74,
+        "hasta": 77,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador romano",
+        "general",
+        "ingeniero",
+        "escritor"
+      ],
+      "resumen": "Cónsul tres veces y gobernador de Britania desde unos años después de 70, sucesor de Petilio Cerial y antecesor de Agrícola (77). Según Tácito (Agrícola 17) sometió a los siluros del sur de Gales, y se cree que también combatió a los brigantes; de su tiempo es el fuerte de Cardiff. Fue procónsul de Asia hacia 86 y en 97 Nerva lo nombró curator aquarum de Roma, cargo del que salió su informe sobre los acueductos, De aquaeductu; escribió además un tratado de estratagemas militares. Murió en 103 o 104.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sexto Julio Frontino",
+        "en": "Frontinus"
+      },
+      "wikidata": "Q297377"
     }
   ],
   "hechos": [
@@ -6227,6 +6324,91 @@
       "wikipedia": {
         "es": "Conquista de Gales por Eduardo I",
         "en": "Conquest of Wales by Edward I"
+      }
+    },
+    {
+      "id": "conquista-de-mona-por-agricola",
+      "titulo": "Agrícola somete Mona",
+      "anio": 77,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Mona (Anglesey)",
+      "lon": -4.377,
+      "lat": 53.294,
+      "tipo": "batalla",
+      "resumen": "Mona (Anglesey), centro de los druidas, había sido atacada en 61 por Suetonio Paulino (Anales XIV.29), que tuvo que retirarse por la rebelión de Boudica. Tácito, que escribió como yerno de Agrícola y es la única fuente escrita de la segunda invasión, cuenta que en el otoño de 77 Agrícola, tras exterminar, según Tácito, a casi todo el pueblo ordovico del norte de Gales («caesa prope universa gente»), hizo cruzar el estrecho a auxiliares escogidos sin barcos y los isleños, que esperaban una flota, se rindieron (Agrícola 18). La isla quedó bajo dominio romano hasta el siglo V; la arqueología halló un fuerte cerca de la bahía de Cemlyn y una aldea, pero ninguna villa ni centro cívico importante.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "agricola-tacito"
+      ],
+      "wikipedia": {
+        "es": "Conquista romana de Anglesey",
+        "en": "Roman conquest of Anglesey"
+      }
+    },
+    {
+      "id": "costa-sajona",
+      "titulo": "La Costa sajona",
+      "anio": 270,
+      "anio_hasta": 290,
+      "aprox": true,
+      "lugar": "Costa sajona (fuerte de Richborough, punto de referencia)",
+      "lon": 1.332,
+      "lat": 51.294,
+      "tipo": "construccion",
+      "resumen": "Mando militar del Bajo Imperio y cadena de fuertes a ambos lados del Canal, bajo el «conde de la Costa sajona», establecidos a fines del siglo III; en Britania sobreviven en el este y sudeste de Inglaterra fuertes de muros muy altos (Brancaster, Caister y Reculver ya desde los años 230; el resto entre 270 y 290). Solo la Notitia Dignitatum, de fines del siglo IV, usa el nombre, y se discute qué significa «sajona» (costa atacada por sajones o poblada por ellos) y para qué servían los fuertes: defensa contra piratas germanos, según la lectura tradicional; John Cotterill juzga exagerada la amenaza, y D. A. White propuso que se levantaron durante la secesión de Carausio y Alecto (289-296).",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Costa sajona",
+        "en": "Saxon Shore"
+      }
+    },
+    {
+      "id": "gask-ridge",
+      "titulo": "La línea de la Gask Ridge",
+      "anio": 70,
+      "anio_hasta": 80,
+      "aprox": true,
+      "lugar": "Gask Ridge (cerca del fuerte de Strageath, punto de referencia)",
+      "lon": -3.784,
+      "lat": 56.342,
+      "tipo": "construccion",
+      "resumen": "Serie de fuertes, fortines y torres de vigilancia romanos de época flavia a lo largo de unos 16 km de cresta, al norte del río Earn, en Perthshire, cerca del límite de las Tierras Altas, construida hacia 70-80 y en uso pocos años, probablemente menos de diez; el muro de Adriano se empezó unos 42 años después. Quizá sea la frontera terrestre fortificada más antigua de Roma. Se discute su función: contener incursiones de las Tierras Altas (aunque solo la fortaleza legionaria de Inchtuthil tenía fuerza para ello) o guardar el camino a los puertos de los estuarios del Tay y el Forth.",
+      "regiones": [
+        "caledonia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Gask Ridge",
+        "en": "Gask Ridge"
+      }
+    },
+    {
+      "id": "batalla-de-deorham",
+      "titulo": "Batalla de Deorham",
+      "anio": 577,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Deorham",
+      "lon": -2.368,
+      "lat": 51.489,
+      "tipo": "batalla",
+      "resumen": "La Crónica anglosajona, bajo el año 577, cuenta que Ceawlin y Cuthwine de Wessex vencieron a los britanos, mataron a tres reyes (Coinmail, Condidan y Farinmail) y tomaron Gloucester, Cirencester y Bath; es la única prueba. Los historiadores del siglo XIX y de buena parte del XX (Guest, Stenton, Myres) la vieron como la ruptura que dejó a los britanos aislados en Gales y Cornualles; hoy se duda de la fecha y de la importancia de esas ciudades, que quizá refleje los reinos de los siglos IX y X en que se redactó la Crónica (Collins, Yorke, Halsall), aunque no todos niegan que ocurriera.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "cronica-anglosajona"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Deorham",
+        "en": "Battle of Deorham"
       }
     }
   ],

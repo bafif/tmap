@@ -3878,6 +3878,26 @@
         "es": "Deir el-Medina",
         "en": "Deir el-Medina"
       }
+    },
+    {
+      "id": "fayum",
+      "nombre": "Fayún (Crocodilópolis, Arsínoe)",
+      "lon": 30.833,
+      "lat": 29.3,
+      "fundacion": -2685,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad del oasis del Fayún, a unos 100 km al suroeste de El Cairo. Hubo ocupación desde el Epipaleolítico y poblamiento desde el V milenio a. C. (Bagnall); a más tardar en el Reino Antiguo era Shedet, el centro principal del culto del dios cocodrilo Sobek, y los griegos la llamaron Crocodilópolis, por el cocodrilo sagrado Petsuco, adornado con oro y gemas. Ptolomeo II llamó arsinoíta al nomo, por su hermana y esposa Arsínoe II; la ciudad se llamó también Ptolemais Euergétis y, en época romana, Arsínoe (Arsínoe en Arcadia), y con el cristianismo, sede episcopal sufragánea de Oxirrinco. El nombre actual viene del copto Phiom, «el mar» o «el lago», por el lago Moeris.",
+      "regiones": [
+        "alto-egipto",
+        "egipto"
+      ],
+      "wikipedia": {
+        "es": "Fayún",
+        "en": "Faiyum"
+      }
     }
   ]
 }

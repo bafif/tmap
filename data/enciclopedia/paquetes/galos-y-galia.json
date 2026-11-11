@@ -4742,6 +4742,50 @@
         "es": "Galia romana",
         "en": "Roman Gaul"
       }
+    },
+    {
+      "id": "batalla-de-cavillono",
+      "titulo": "Combate de caballería tras el Arar (batalla de Cavillono)",
+      "anio": -58,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cavillono",
+      "lon": 4.853,
+      "lat": 46.781,
+      "tipo": "batalla",
+      "resumen": "Al día siguiente de la batalla del Arar, César mandó su caballería, unos 4000 jinetes de la Provincia y aliados eduos, a vigilarlos; se adelantó demasiado y 500 jinetes helvecios la cargaron en mal terreno. Los eduos de Dumnórix fueron los primeros en huir (I.18) y los romanos se replegaron con pocas bajas (Guerra de las Galias I.15 y I.18); César siguió a los helvecios unos quince días más. César no da el nombre del lugar: «Cavillonum» (Chalon-sur-Saône) es la localización que propone la Wikipedia, y es solo aproximada.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Cavillono"
+      }
+    },
+    {
+      "id": "batalla-de-octoduro",
+      "titulo": "Batalla de Octoduro",
+      "anio": -57,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Octoduro",
+      "lon": 7.067,
+      "lat": 46.1,
+      "tipo": "batalla",
+      "resumen": "En el invierno de 57-56 a. C. César mandó a Servio Sulpicio Galba con la legión XII a asegurar el paso del Gran San Bernardo, donde los mercaderes romanos sufrían asaltos y peajes de los nantuates, veragros y sedunos. Galba invernó en Octoduro (Martigny, Valais) y a los pocos días las tribus, que según César temían una ocupación duradera, querían recuperar a sus rehenes y desdeñaban una legión escasa, lo atacaron desde las alturas. Tras unas seis horas de defensa, los romanos hicieron una salida y, según César (Guerra de las Galias III.1-6), mataron a un tercio de unos 30 000 atacantes, cifra que se tiene por inflada. Falto de víveres, Galba quemó el pueblo y se retiró a tierra de los alóbroges: César lo cuenta como victoria y algunos historiadores ven en el repliegue un revés.",
+      "regiones": [
+        "alemania",
+        "francia"
+      ],
+      "fuentes": [
+        "guerra-de-las-galias"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Octoduro",
+        "en": "Battle of Octodurus"
+      }
     }
   ],
   "lugares": [

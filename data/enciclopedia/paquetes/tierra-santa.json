@@ -16857,6 +16857,69 @@
         "en": "Amin Maalouf"
       },
       "wikidata": "Q115243"
+    },
+    {
+      "id": "yazid-ibn-abi-sufyan",
+      "nombre": "Yazid ibn Abi Sufyán",
+      "muerte": {
+        "anio": 639,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 634,
+        "hasta": 639,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "gobernador"
+      ],
+      "resumen": "Comandante de la conquista musulmana de Siria desde 634, hermano mayor por parte de padre de Muawiya. Mandó una de las cuatro columnas principales en el Yarmuk (636) y tomó con Muawiya los puertos de Sidón, Beirut y Biblos. Cuando murió Abu Ubaida en la peste de Amwas (639), el califa Omar lo nombró gobernador de Damasco, Jordania y Palestina, pero murió de la misma peste ese año; Omar puso a Muawiya en su lugar en Damasco y Jordania.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Yazid ibn Abi Sufyan"
+      },
+      "wikidata": "Q2632960"
+    },
+    {
+      "id": "hasan-ibn-ali",
+      "nombre": "Hasán ibn Alí",
+      "nacimiento": {
+        "anio": 625,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "muerte": {
+        "anio": 670,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "activo": {
+        "lugar": "Kufa",
+        "lon": 44.4,
+        "lat": 32.03,
+        "desde": 661,
+        "hasta": 661,
+        "aprox": false
+      },
+      "roles": [
+        "califa",
+        "imán"
+      ],
+      "resumen": "Hijo mayor de Alí y Fátima y nieto de Mahoma. Tras el asesinato de su padre lo reconocieron califa en Kufa (enero de 661), pero Muawiya, gobernador de Siria, no lo aceptó; con su ejército desmoralizado por un atentado y por deserciones, abdicó en agosto de 661 en favor de Muawiya, con la condición, según las fuentes, de que gobernara conforme al Corán y la sunna, de que el sucesor lo eligiera un consejo (Muawiya lo rompió al designar a Yazid I) y de que se amnistiara a sus partidarios. Los chiitas lo cuentan como segundo imán; entre los sunitas, algunos lo cuentan como el quinto y último califa «bien guiado». Murió en Medina hacia 670 (50 de la hégira; otras fuentes dan 49 h. y otros años). Las fuentes tempranas casi unánimes dicen que lo envenenaron: según la mayoría de las fuentes, su esposa Ja'da; los chiitas y varios historiadores sunitas tempranos (al-Waqidi, al-Mada'ini, al-Baladhuri) señalan a Muawiya como instigador, relatos que al-Tabari omite; Veccia Vaglieri admite que pudo morir de una enfermedad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hasán ibn Alí",
+        "en": "Hasan ibn Ali"
+      },
+      "wikidata": "Q182914"
     }
   ],
   "hechos": [
@@ -19489,7 +19552,7 @@
       "lon": 34.753,
       "lat": 32.052,
       "tipo": "desastre",
-      "resumen": "Unos 700.000 árabes palestinos, más de la mitad del total, huyeron o fueron expulsados de sus hogares durante la guerra, y Israel no les permitió volver; cientos de aldeas fueron destruidas. Los palestinos la llaman Nakba, «la catástrofe».",
+      "resumen": "Unos 700.000 árabes palestinos, más de la mitad del total (711.000 según la Comisión de Conciliación de la ONU en 1949), huyeron o fueron expulsados de sus hogares durante la guerra de 1947-1949, y Israel no les permitió volver; entre 400 y 600 aldeas fueron destruidas. Las causas se discuten: Benny Morris concluye que en la primera etapa salieron sobre todo por ataques judíos o por el miedo a ellos, y que hubo expulsiones directas después (Lod y Ramla, julio de 1948); Ilan Pappé ve en el Plan Dalet un plan de expulsión; Efraim Karsh sostiene que no hubo un diseño judío y que en Haifa muchos se fueron por indicación árabe, algo que Walid Khalidi niega. Los palestinos la llaman Nakba, «la catástrofe».",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -20607,6 +20670,421 @@
       "wikipedia": {
         "es": "Discurso de Ratisbona",
         "en": "Regensburg lecture"
+      }
+    },
+    {
+      "id": "batalla-de-hunain",
+      "titulo": "Batalla de Hunáin",
+      "anio": 630,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Hunáin",
+      "lon": 40.042,
+      "lat": 21.517,
+      "tipo": "batalla",
+      "resumen": "Poco después de la toma de La Meca, Mahoma, con unos 12 000 hombres, enfrentó a las tribus hawazin y thaqif en el valle de Hunáin, en el camino a Taif. Según la tradición musulmana, el ejército se desbandó al principio ante una emboscada y se rehízo en torno a Mahoma; la batalla terminó con una victoria musulmana y un gran botín. Es una de las pocas batallas que el Corán nombra (sura 9).",
+      "regiones": [
+        "arabia",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "sira-de-ibn-ishaq",
+        "coran"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Hunáin",
+        "en": "Battle of Hunayn"
+      }
+    },
+    {
+      "id": "batalla-de-adjnadayn",
+      "titulo": "Batalla de Adjnadayn",
+      "anio": 634,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Adjnadayn",
+      "lon": 34.95,
+      "lat": 31.683,
+      "tipo": "batalla",
+      "resumen": "Primera gran batalla campal entre el ejército bizantino y el del califato rashidun, en julio o agosto de 634 cerca de Beit Guvrin; terminó con una victoria musulmana y dejó abierto el interior de Palestina, cuyas ciudades se rindieron casi sin resistir. Se conoce sobre todo por fuentes musulmanas, como al-Waqidi (siglo IX), pues no hay relato bizantino contemporáneo; las cifras de los ejércitos que dan esas fuentes se consideran muy exageradas (Gibb supone unos 10 000 hombres por bando; Morray, unos 20 000).",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Achnadáyn",
+        "en": "Battle of Ajnadayn"
+      }
+    },
+    {
+      "id": "sitio-de-damasco-634",
+      "titulo": "Sitio de Damasco",
+      "anio": 634,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Damasco",
+      "lon": 36.292,
+      "lat": 33.513,
+      "tipo": "batalla",
+      "resumen": "Los musulmanes sitiaron Damasco del 21 de agosto al 19 de septiembre de 634; fue la primera gran ciudad bizantina en caer en la conquista de Siria (otras fuentes ponen la caída en 635 o 637). Los relatos combinan dos versiones: Jálid ibn al-Walid entró por asalto por la puerta oriental mientras Tomás, jefe de la guarnición, pactaba la rendición con Abu Ubaida por la puerta de Jabiya; los comandantes discutieron después los términos y se aceptaron los de Abu Ubaida.",
+      "regiones": [
+        "siria",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari",
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Sitio de Damasco (634)",
+        "en": "Siege of Damascus (634)"
+      }
+    },
+    {
+      "id": "batalla-de-los-mastiles",
+      "titulo": "Batalla de los Mástiles",
+      "anio": 655,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Finike",
+      "lon": 30.261,
+      "lat": 36.282,
+      "tipo": "batalla",
+      "resumen": "Combate naval frente a la costa de Licia, cerca de la actual Finike, entre la flota del emperador Constante II y la del califato, mandada por Abu al-A'war, almirante de Muawiya. Según al-Tabari, ganaron los árabes, con grandes pérdidas de ambos lados, y Constante escapó con dificultad (Teófanes cuenta que cambiando su ropa con la de un oficial). Sebeos agrega que la flota siguió hasta Constantinopla y que una tormenta hundió sus máquinas de asedio; las fuentes árabes no lo mencionan.",
+      "regiones": [
+        "anatolia",
+        "siria",
+        "chipre"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes",
+        "historia-de-al-tabari",
+        "historia-de-sebeos"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Finike",
+        "en": "Battle of the Masts"
+      }
+    },
+    {
+      "id": "batalla-de-akroinon",
+      "titulo": "Batalla de Akroinon",
+      "anio": 740,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Akroinon",
+      "lon": 30.533,
+      "lat": 38.75,
+      "tipo": "batalla",
+      "resumen": "Una de las tres columnas de la mayor expedición omeya en décadas, de unos 20 000 hombres, fue enfrentada cerca de Akroinon (hoy Afyon), en Frigia, por el emperador León III y su hijo Constantino V. Teófanes cuenta que cayeron los dos jefes árabes y unos 13 200 hombres, y que el resto se retiró en orden; fue una victoria bizantina que, sumada a la inestabilidad del califato, la lectura tradicional la vio como decisiva para poner fin por unas tres décadas a las grandes incursiones árabes en Anatolia; Brooks, Kaegi y Lilie atribuyen ese fin a las derrotas del califato en otros frentes y a sus guerras internas.",
+      "regiones": [
+        "anatolia",
+        "siria"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Akroinon",
+        "en": "Battle of Akroinon"
+      }
+    },
+    {
+      "id": "saqueo-de-amorio",
+      "titulo": "Saqueo de Amorio",
+      "anio": 838,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Amorio",
+      "lon": 31.295,
+      "lat": 39.023,
+      "tipo": "batalla",
+      "resumen": "El califa abasí al-Mutasim, en represalia por la expedición de Teófilo del año anterior, derrotó a las fuerzas bizantinas en Anzen y llegó a Amorio, cuna de la dinastía reinante, el 1 de agosto de 838. Un habitante reveló un punto débil de la muralla; el comandante del sector negoció a escondidas con el califa y abandonó su puesto, y la ciudad fue tomada y destruida: muchos habitantes fueron matados y el resto, llevado como esclavos, y los dignatarios cautivos fueron ejecutados años después en Samarra. Para los bizantinos fue un trauma y desacreditó el iconoclasmo que sostenía Teófilo, abandonado poco después de su muerte (842).",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Saqueo de Amorio",
+        "en": "Sack of Amorium"
+      }
+    },
+    {
+      "id": "batalla-de-harran",
+      "titulo": "Batalla de Harrán",
+      "anio": 1104,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Frente a Raqqa",
+      "lon": 39.0,
+      "lat": 35.95,
+      "tipo": "batalla",
+      "resumen": "El 7 de mayo de 1104 los selyúcidas de Jikirmish (Mosul) y Sökmen (Mardin) derrotaron, tras una retirada fingida, a los cruzados de Antioquía y Edesa mandados por Bohemundo, Tancredo y Balduino de Edesa; Balduino y Joscelino fueron capturados. Fue la primera gran derrota de los Estados cruzados: Antioquía perdió territorios ante Alepo y Bizancio, y Bohemundo volvió a Italia a reclutar tropas. Guillermo de Tiro escribió que ninguna batalla había sido más desastrosa. El lugar exacto se discute: la mayoría de los historiadores aceptan a Alberto de Aquisgrán y Fulquerio, que la ubican frente a Raqqa, a dos días de Harrán (el punto del mapa es aproximado); Ibn al-Atir la sitúa a 12 km de Harrán.",
+      "regiones": [
+        "siria",
+        "levante",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "cronica-de-mateo-de-edesa",
+        "cronica-de-damasco",
+        "historia-de-alberto-de-aquisgran",
+        "historia-de-guillermo-de-tiro"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Harrán",
+        "en": "Battle of Harran"
+      }
+    },
+    {
+      "id": "batalla-de-marj-ayyun",
+      "titulo": "Batalla de Marj Ayyun",
+      "anio": 1179,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Marj Ayyun",
+      "lon": 35.589,
+      "lat": 33.358,
+      "tipo": "batalla",
+      "resumen": "En junio de 1179, cerca del río Litani, Balduino IV de Jerusalén, con los templarios y Raimundo III de Trípoli, venció a una partida de saqueadores de Saladino y, creyendo ganada la batalla, fue atacado por el grueso del ejército ayubí y derrotado. El rey, enfermo de lepra y ya sin poder montar, escapó de ser capturado gracias a su guardia; el maestre templario Eudes de Saint-Amand fue prisionero. Guillermo de Tiro culpó a los templarios por su imprudencia; la orden, sin embargo, no respondía al rey. En agosto Saladino destruyó el castillo del Vado de Jacob.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-guillermo-de-tiro"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Marjayoun",
+        "en": "Battle of Marj Ayyun"
+      }
+    },
+    {
+      "id": "batalla-de-jafa-1192",
+      "titulo": "Batalla de Jafa",
+      "anio": 1192,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jaffa",
+      "lon": 34.753,
+      "lat": 32.052,
+      "tipo": "batalla",
+      "resumen": "Tras partir Ricardo I hacia el norte, Saladino tomó Jaffa a fines de julio de 1192, salvo la ciudadela. Ricardo llegó por mar con una fuerza pequeña (cincuenta y cuatro caballeros, unos cientos de infantes y unos 2000 ballesteros genoveses y pisanos), recuperó la ciudad y el 5 de agosto rechazó el contraataque de Saladino con una línea de lanceros y ballesteros. Fue el último combate de la Tercera Cruzada: poco después se firmó la tregua de Jaffa, que dejó a los cruzados la franja de Tiro a Jaffa (Beirut se tomó en 1197).",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "vida-de-saladino"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Jafa (1192)",
+        "en": "Battle of Jaffa (1192)"
+      }
+    },
+    {
+      "id": "cruzada-de-los-barones",
+      "titulo": "Cruzada de los barones",
+      "anio": 1239,
+      "anio_hasta": 1241,
+      "aprox": false,
+      "lugar": "Acre",
+      "lon": 35.084,
+      "lat": 32.926,
+      "tipo": "politico",
+      "resumen": "Expedición convocada por Gregorio IX, dirigida primero por Teobaldo I de Navarra (llegó a Acre el 1 de septiembre de 1239) y luego por Ricardo de Cornualles (octubre de 1240 a mayo de 1241). Un grupo que salió sin permiso fue derrotado cerca de Gaza el 13 de noviembre de 1239, y en diciembre un emir ayubí tomó Jerusalén. Después Teobaldo aprovechó la guerra entre los ayubíes de Damasco y de Egipto para negociar con los dos bandos, y el reino recuperó Jerusalén, Belén, Nazaret y buena parte de Galilea. La valoración difiere: la historiografía reciente la juzga la más exitosa en territorio desde la Primera Cruzada; otras obras, un fracaso sin resultados duraderos. Las ganancias se perdieron en 1244.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de los barones",
+        "en": "Barons' Crusade"
+      }
+    },
+    {
+      "id": "guerra-de-kitos",
+      "titulo": "Revuelta de la diáspora judía (guerra de Kitos)",
+      "anio": 115,
+      "anio_hasta": 117,
+      "aprox": false,
+      "lugar": "Cirene",
+      "lon": 21.85,
+      "lat": 32.817,
+      "tipo": "revolucion",
+      "resumen": "Durante la campaña de Trajano contra los partos, comunidades judías de Egipto, Cirenaica y Chipre se sublevaron casi a la vez, y hubo resistencia en Mesopotamia. Según Dion Casio y Eusebio, los rebeldes atacaron sobre todo a sus vecinos con extrema violencia; Marcio Turbo reprimió las revueltas con duras represalias que destruyeron o aniquilaron comunidades judías. Las fuentes son escasas y tardías (Dion escribe un siglo después, Eusebio dos). El nombre «guerra de Kitos» viene de Lusio Quieto, que sofocó Mesopotamia y fue luego gobernador de Judea; hoy se discute si hubo allí un levantamiento propio. Trece años después Adriano refundó Jerusalén como colonia romana y estalló la revuelta de Bar Kojba.",
+      "regiones": [
+        "magreb",
+        "egipto",
+        "chipre",
+        "mesopotamia",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Kitos",
+        "en": "Diaspora Revolt"
+      }
+    },
+    {
+      "id": "disturbios-de-jaffa-1921",
+      "titulo": "Disturbios de Jaffa de 1921",
+      "anio": 1921,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jaffa",
+      "lon": 34.753,
+      "lat": 32.052,
+      "tipo": "desastre",
+      "resumen": "Del 1 al 7 de mayo de 1921 hubo disturbios que empezaron como un choque entre dos desfiles judíos del 1.º de mayo, el del Partido Comunista y el de Ahdut HaAvoda, y pasaron a ataques de árabes contra judíos (en un albergue de inmigrantes y en Abu Kabir, donde murió el escritor Yosef Haim Brenner) y luego a represalias de judíos contra árabes. Murieron 47 judíos y 48 árabes, estos últimos en su mayoría por disparos de la policía y las tropas británicas. La comisión Haycraft concluyó que la causa de fondo era la hostilidad árabe hacia los judíos, por razones políticas y económicas ligadas a la inmigración judía y a la política sionista; el informe disgustó a ambas partes.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Disturbios de Jaffa de 1921",
+        "en": "Jaffa riots (May 1921)"
+      }
+    },
+    {
+      "id": "disturbios-de-1929",
+      "titulo": "Disturbios de 1929 (revuelta del Buraq)",
+      "anio": 1929,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "desastre",
+      "resumen": "Del 23 al 29 de agosto, tras una disputa por el acceso y los objetos de culto en el Muro de las Lamentaciones (el Buraq, para los musulmanes), hubo ataques de árabes contra judíos en Jerusalén, Hebrón y Safed, con destrucción de bienes judíos. La comisión Shaw registra que en algunos casos judíos atacaron a árabes, casi siempre como represalia (la familia del imán Abd al-Ghani Awn en Jaffa, la mezquita de Nebi Akasha). Murieron 133 judíos y 116 árabes (estos últimos, sobre todo por la policía y las tropas británicas; unos 20 a manos de judíos o por disparos británicos indiscriminados), y quedaron heridos 339 judíos y al menos 232 árabes; lo peor fue en Hebrón y Safed, y en Hebrón cientos de judíos se salvaron escondidos por vecinos árabes. La comisión Shaw atribuyó la causa de fondo a la oposición árabe a las consecuencias políticas del sionismo y a su temor económico, y el detonante a la manifestación judía del 15 de agosto en el Muro; muchos historiadores señalan la agitación del muftí Amin al-Husseini sobre una supuesta amenaza al Monte del Templo, y otros (Pappé, Kreiner), la frustración árabe por la falta de instituciones representativas. Fueron acusados de asesinato o tentativa 174 árabes y 109 judíos, y se condenó a cerca del 40 % de los árabes y al 3 % de los judíos.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Disturbios de Palestina de 1929",
+        "en": "1929 Palestine riots"
+      }
+    },
+    {
+      "id": "guerra-de-desgaste",
+      "titulo": "Guerra de Desgaste",
+      "anio": 1967,
+      "anio_hasta": 1970,
+      "aprox": false,
+      "lugar": "Suez",
+      "lon": 32.533,
+      "lat": 29.967,
+      "tipo": "batalla",
+      "resumen": "Combates entre Israel y Egipto, con Jordania, la OLP y sus aliados, tras la guerra de los Seis Días. Con la política árabe de los «tres noes» (ni paz, ni reconocimiento, ni negociación) y Nasser convencido de que solo la fuerza lograría la retirada del Sinaí, los duelos de artillería sobre el canal de Suez se volvieron, desde el 8 de marzo de 1969, bombardeos masivos, guerra aérea e incursiones de comandos. Terminó en agosto de 1970 con un alto el fuego del plan Rogers, sin cambios de frontera. Hubo bombardeos israelíes al interior de Egipto (de enero a abril de 1970), con el ataque a la escuela de Bahr el-Baqar (8 de abril de 1970, 46 alumnos muertos). Los muertos israelíes fueron unos 921 según Ze'ev Schiff y poco más de 600 según Chaim Herzog; los egipcios, 2882 según Saad el Shazly y unos 10 000 entre soldados y civiles según Benny Morris. Israel acusó a Egipto y a los soviéticos de adelantar misiles hacia el canal.",
+      "regiones": [
+        "egipto",
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "resolucion-242"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Desgaste",
+        "en": "War of Attrition"
+      }
+    },
+    {
+      "id": "operacion-entebbe",
+      "titulo": "Operación Entebbe",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Entebbe",
+      "lon": 32.443,
+      "lat": 0.045,
+      "tipo": "batalla",
+      "resumen": "El 27 de junio de 1976, miembros del FPLP-Operaciones Externas y de las Células Revolucionarias alemanas secuestraron un vuelo de Air France de Tel Aviv a París y lo llevaron a Entebbe, Uganda; pedían liberar a 53 presos. Según los testimonios, soldados ugandeses custodiaron a los rehenes junto con los secuestradores, abrieron la pared con la que se separó a los israelíes y luego dispararon contra los comandos. En la noche del 3 al 4 de julio comandos israelíes, tras volar más de 4000 km, rescataron a 102 de los 106 rehenes que quedaban, mataron a todos los secuestradores y a unos 45 soldados ugandeses; murieron tres rehenes y el jefe de la unidad, Yonatan Netanyahu, y Dora Bloch, que estaba en un hospital de Kampala, fue asesinada luego por las autoridades ugandesas. Por la ayuda de Kenia a Israel, Amin hizo matar a unos 245 kenianos.",
+      "regiones": [
+        "africa-oriental",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Operación Entebbe",
+        "en": "Entebbe raid"
+      }
+    },
+    {
+      "id": "operacion-litani",
+      "titulo": "Invasión israelí del sur del Líbano de 1978 (operación Litani)",
+      "anio": 1978,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Litani",
+      "lon": 35.244,
+      "lat": 33.339,
+      "tipo": "batalla",
+      "resumen": "El 14 de marzo de 1978 Israel invadió el sur del Líbano hasta el río Litani, tres días después de la matanza de la carretera costera, en la que militantes de Fatah llegados desde el Líbano mataron a 38 civiles israelíes. Murieron entre 1100 y 2000 libaneses y palestinos y unos 20 israelíes, y entre 100 000 y 250 000 personas se desplazaron dentro del Líbano. La OLP se retiró al norte; el Consejo de Seguridad pidió en las resoluciones 425 y 426 el retiro israelí y creó la FINUL. Israel se retiró en 1978 entregando la franja fronteriza a la milicia de Saad Haddad (el futuro Ejército del Sur del Líbano), no a la FINUL.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Invasión israelí del Líbano de 1978",
+        "en": "1978 South Lebanon conflict"
+      }
+    },
+    {
+      "id": "guerra-de-gaza-2012",
+      "titulo": "Guerra de Gaza de 2012 (operación Pilar Defensivo)",
+      "anio": 2012,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Gaza",
+      "lon": 34.46,
+      "lat": 31.508,
+      "tipo": "batalla",
+      "resumen": "Del 14 al 21 de noviembre de 2012, Israel atacó la Franja de Gaza; empezó con un ataque aéreo que mató a Ahmed Yabari, jefe militar de Hamás en Gaza. Israel dijo responder a más de cien cohetes en 24 horas y a otros ataques; los palestinos culparon a Israel por la escalada previa y señalaron el bloqueo y la ocupación. Murieron 174 palestinos según el Consejo de Derechos Humanos de la ONU (2013), 107 de ellos civiles; según B'Tselem fueron 167, de los cuales 62 participaban en los combates, y según el ejército israelí 177, de los cuales 120 eran combatientes. Hamás y la Yihad Islámica lanzaron más de 1450 cohetes, que mataron a seis israelíes: cuatro civiles y dos soldados. Un alto el fuego mediado por Egipto terminó los combates; ambos bandos se atribuyeron la victoria y Human Rights Watch dijo que los dos violaron las leyes de la guerra.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de Gaza de 2012",
+        "en": "2012 Gaza War"
+      }
+    },
+    {
+      "id": "muerte-de-muhammad-al-durrah",
+      "titulo": "Muerte de Muhammad al-Durrah",
+      "anio": 2000,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Netzarim",
+      "lon": 34.427,
+      "lat": 31.465,
+      "tipo": "politico",
+      "resumen": "El 30 de septiembre de 2000, segundo día de la Segunda Intifada, Muhammad al-Durrah, de 12 años, murió en el cruce de Netzarim, en Gaza, en un tiroteo entre el ejército israelí y las fuerzas palestinas; un camarógrafo palestino de France 2 filmó a padre e hijo y el corresponsal Charles Enderlin atribuyó los disparos a posiciones israelíes. El niño fue proclamado mártir en el mundo musulmán. No hubo investigación penal ni autopsia completa. Quién disparó sigue en disputa: el ejército israelí asumió al principio la responsabilidad y después la retiró; la investigación que el ejército israelí encargó en 2000 (Nahum Shahaf) consideró «bastante plausible» que lo alcanzaran balas palestinas; la conclusión palestina, del general Abdel-Razek al-Majaydeh, fue que las balas salieron del puesto israelí; el informe israelí de 2013 (comisión Kuperwasser, que no entrevistó al padre, al camarógrafo ni a Enderlin) concluyó que no lo habían alcanzado disparos israelíes y que quizá ni siquiera lo habían herido, algo que el padre rechazó y que Enderlin y France 2 criticaron. En 2013 un tribunal francés condenó por difamación a Philippe Karsenty, que sostenía que la escena había sido montada.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Muerte de Muhammad al-Durrah",
+        "en": "Killing of Muhammad al-Durrah"
       }
     }
   ],

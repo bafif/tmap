@@ -7297,6 +7297,63 @@
         "en": "Martín Fierro"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "guerra-civil-cesar",
+      "titulo": "Comentarios sobre la guerra civil",
+      "titulo_original": "Commentarii de bello civili",
+      "autor": "Cayo Julio César",
+      "autor_id": "julio-cesar",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -47,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "grecia",
+          "iberia",
+          "francia",
+          "magreb",
+          "egipto"
+        ],
+        "desde": -49,
+        "hasta": -48
+      },
+      "idioma_original": "Latín",
+      "soporte": "Rollos de papiro; transmitida en códices medievales",
+      "resumen": "Relato de César, en tres libros, de su guerra contra Pompeyo y el Senado en 49 y 48 a. C., desde poco antes de cruzar el Rubicón hasta la batalla de Farsalia y la huida de Pompeyo a Egipto. Cuenta la campaña de Hispania (Ilerda), el asedio de Marsella, el desastre de Curión en África y la persecución de Pompeyo en Grecia. Tiene un final abrupto y al menos dieciséis pasajes perdidos, de modo que quizá quedó inconcluso; los manuscritos más antiguos son del siglo X. Lo continúan las guerras de Alejandría, de África y de Hispania, cuya autoría se reparte entre Hircio y otros.",
+      "por_que_importa": "Es la única fuente de muchos de los hechos que narra y está escrita por el vencedor: César se presenta como víctima de una conspiración de sus enemigos, justifica sus actos como una defensa de su dignidad y de la paz de Roma, y omite detalles militares. Como la Guerra de las Galias, se lee a la vez como informe de campaña y como propaganda.",
+      "leer": [
+        {
+          "titulo": "De Bello Gallico y otros comentarios, con la guerra civil (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/10657",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción al español (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Comentarios_a_la_Guerra_Civil",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino, libro I (The Latin Library)",
+          "url": "https://www.thelatinlibrary.com/caesar/bc1.shtml",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "De bello civili",
+        "en": "Commentarii de Bello Civili"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -7703,7 +7760,8 @@
       "resumen": "Conquistó la Galia (58-50 a. C.), venció a Pompeyo en la guerra civil y fue nombrado dictador perpetuo; fue asesinado en los idus de marzo del 44 a. C. Antes, como gobernador de la Hispania Ulterior (61-60 a. C.), atacó a los lusitanos del monte Herminio y llegó por mar a Brigantium (Dion Casio XXXVII.52-53). Sus Comentarios son la fuente casi única de la conquista de la Galia y los escribió para su carrera política (Rambaud, 1953; Riggsby, 2006). Las cifras de Plutarco (César 15: un millón de muertos y otro de cautivos) y de Plinio (VII.92: 1.192.000 muertos) no se pueden comprobar y se leen como propaganda; si la conquista fue un genocidio se discute (Raaflaub, 2021).",
       "obras": [
         "guerra-de-las-galias",
-        "denario-trofeo-galo-de-cesar"
+        "denario-trofeo-galo-de-cesar",
+        "guerra-civil-cesar"
       ],
       "wikipedia": {
         "es": "Julio César",
