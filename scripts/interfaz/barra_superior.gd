@@ -175,7 +175,7 @@ func _elegir(item: Dictionary) -> void:
 	if el.has("_px"):
 		if el.has("_desde") and (Estado.anio < el["_desde"] or Estado.anio > el.get("_hasta", el["_desde"])):
 			Estado.fijar_anio(el["_desde"])
-		Estado.enfocar(el["_px"], 2.0)
+		Estado.enfocar(Enciclopedia.px_en(el, Estado.anio), 2.0)
 
 
 func _unidad_de_entidad(i: int) -> int:

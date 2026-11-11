@@ -197,6 +197,9 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 
 ### Próxima versión
 
+- **Nada en el mapa antes de tiempo**: una persona cuyo `activo` tiene `desde` y `hasta` aparece en su lugar de
+  actividad solo esos años; antes, donde nació, y después, donde murió. Los hechos aparecen en su año, y «Ver en el
+  mapa» y el buscador llevan a un año y un punto donde se ve. Así el mapa no muestra a nadie donde todavía no estaba.
 - **27 279 lugares antiguos de [Pleiades](https://pleiades.stoa.org)** (0.4), cada uno mientras está atestiguado y
   con su ficha. Se leen recién al acercarse al mapa o al buscar, y se dibujan como un MultiMesh filtrado por año en
   un shader, en una sola llamada de dibujo.

@@ -214,7 +214,8 @@ func _preparar_puntos() -> void:
 		f["_hasta"] = _anio(e, "anio_hasta", f["_desde"])
 	for p in personas.values():
 		var lugar: Dictionary = _dic(p, "activo")
-		if not lugar.has("lon"):
+		var en_activo := lugar.has("lon")
+		if not en_activo:
 			lugar = _dic(p, "nacimiento")
 		if lugar.has("lon") and lugar.get("lat") != null:
 			p["_px"] = Proyeccion.a_px(float(lugar["lon"]), float(lugar["lat"]))
@@ -231,6 +232,17 @@ func _preparar_puntos() -> void:
 		p["_desde"] = nace
 		p["_hasta"] = muere
 		p["_sin_fechas"] = nace == -99999
+		# Si `activo` tiene años, el mapa la muestra ahí solo esos años: antes, donde nació, y después, donde murió
+		# (Pedro de Mendoza no está en Buenos Aires hasta 1536). Sin esos lugares, se queda en `activo`.
+		p.erase("_antes")
+		p.erase("_despues")
+		if en_activo:
+			var nacimiento := _dic(p, "nacimiento")
+			var muerte := _dic(p, "muerte")
+			if activo.get("desde") != null and nacimiento.get("lon") != null and nacimiento.get("lat") != null:
+				p["_antes"] = [int(activo["desde"]), Proyeccion.a_px(float(nacimiento["lon"]), float(nacimiento["lat"]))]
+			if activo.get("hasta") != null and muerte.get("lon") != null and muerte.get("lat") != null:
+				p["_despues"] = [int(activo["hasta"]), Proyeccion.a_px(float(muerte["lon"]), float(muerte["lat"]))]
 	for h in hechos.values():
 		if h.has("lon"):
 			h["_px"] = Proyeccion.a_px(float(h["lon"]), float(h["lat"]))
@@ -241,6 +253,24 @@ func _preparar_puntos() -> void:
 			l["_px"] = Proyeccion.a_px(float(l["lon"]), float(l["lat"]))
 		l["_desde"] = int(l["fundacion"]) if l.get("fundacion") != null else Estado.ANIO_MIN
 		l["_hasta"] = int(l["abandono"]) if l.get("abandono") != null else Estado.ANIO_MAX
+
+
+## Dónde está un elemento en `anio`. Solo las personas cambian de lugar (ver `_preparar_puntos`).
+func px_en(el: Dictionary, anio: int) -> Vector2:
+	if el.has("_antes") and anio < int(el["_antes"][0]):
+		return el["_antes"][1]
+	if el.has("_despues") and anio > int(el["_despues"][0]):
+		return el["_despues"][1]
+	return el["_px"]
+
+
+## Un año en que se ve a la persona donde trabajó: `anio` llevado a sus años de actividad, si los tiene.
+func anio_en_activo(p: Dictionary, anio: int) -> int:
+	if p.has("_despues"):
+		anio = mini(anio, int(p["_despues"][0]))
+	if p.has("_antes"):
+		anio = maxi(anio, int(p["_antes"][0]))
+	return anio
 
 
 func _dic(d: Dictionary, clave: String) -> Dictionary:

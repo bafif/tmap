@@ -197,6 +197,10 @@ New packages reach installed copies as data updates, without waiting for an app 
 
 ### Next version
 
+- **Nothing on the map before its time**: a person whose `activo` has `desde` and `hasta` shows up at their place of
+  activity only in those years; before, where they were born, and after, where they died. Events appear in their own
+  year, and the map button and the search take you to a year and a point where they can be seen. So the map never
+  shows anyone where they had not arrived yet.
 - **27,279 ancient places from [Pleiades](https://pleiades.stoa.org)** (0.4), each one while it's attested and with
   its own entry. They're read only when zooming into the map or searching, and drawn as a MultiMesh filtered by year
   in a shader, in a single draw call.
