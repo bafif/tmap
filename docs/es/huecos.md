@@ -122,15 +122,20 @@ Al terminar:
 
 - **Wikidata propone, no decide.** Un candidato es una pista: entra si es del tema y se puede verificar, porque
   Wikidata también se equivoca (un lugar de muerte errado alcanza para meter a alguien en la región de otro tema). Cada
-  dato se confirma con `tools/enciclopedia/compacto/consultar.py resumen <título>` y el artículo; `construir.py` además
-  compara las fechas con Wikidata y avisa si no coinciden. Si Wikidata, Wikipedia y la bibliografía no coinciden,
-  manda la fuente primaria o la bibliografía especializada, no la versión que más se repite.
+  dato se confirma con el artículo completo en dos idiomas (`tools/enciclopedia/compacto/consultar.py texto <título>`
+  y `texto <título> es`), no solo con su introducción, que a veces contradice al cuerpo o a la otra lengua;
+  `construir.py` además compara las fechas con Wikidata y avisa si no coinciden. Si Wikidata, Wikipedia y la
+  bibliografía no coinciden, manda la fuente primaria o la bibliografía especializada, no la versión que más se
+  repite.
 - **Documentos primero.** En los hechos disputados se dice primero lo que muestran los documentos y después,
   atribuido, quién lo interpreta cómo. Sin propaganda de ningún lado y sin tomar una historia oficial como verdad.
   Wikipedia se lee con mirada crítica, y lo que ya está en tmap tampoco es verdad por estar: si al rellenar aparece un
   error en una ficha vieja, se corrige con un parche.
 - **Nada inventado.** Lo inseguro va con `aprox`, `confianza: baja` o una `nota`, o no va. Un hueco que no se puede
   rellenar con datos verificables queda `sin-datos`, con el motivo.
+- **El orden de las capas importa.** Sin entrada mayoritaria, la app pinta la primera vigente del arreglo; una región
+  chica con capas tapa a la grande que la contiene. Antes de sumar una entrada o una capa entera, mirar qué va a pintar
+  el mapa ahí.
 - **El mismo molde.** Un hueco se rellena como sus vecinos: si el paquete tiene un hecho por cada presidencia, el
   presidente que falta lleva el suyo; si las batallas de la guerra citan el parte de batalla, la que falta también.
 - **Lo de yapa.** Lo que aparece al investigar y cae dentro del alcance entra; lo que cae afuera se anota en «Por

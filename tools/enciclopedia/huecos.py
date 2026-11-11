@@ -1278,9 +1278,19 @@ def orden_aplicar() -> int:
         for campo, valores in (par.get("agregar") or {}).items():
             lista = e.setdefault(campo, [])
             for v in valores:
-                if v not in lista:
-                    lista.append(v)
-                    print(f"~ {k[0]} {k[1]}: {campo} + {json.dumps(v, ensure_ascii=False)[:100]}")
+                if v in lista:
+                    continue
+                # una entrada que sigue a otra idéntica (mismo nombre y familia, desde el año siguiente) la extiende
+                previa = next((x for x in lista if campo in ordenar and isinstance(x, dict) and isinstance(v, dict)
+                               and x.get("nombre") == v.get("nombre") and x.get("familia") == v.get("familia")
+                               and x.get("hasta") is not None and v.get("desde") is not None
+                               and lin(x["hasta"]) + 1 == lin(v["desde"])), None)
+                if previa is not None:
+                    previa["hasta"] = v.get("hasta")
+                    print(f"~ {k[0]} {k[1]}: {campo} «{v.get('nombre')}» sigue hasta {texto_anio(v.get('hasta'))}")
+                    continue
+                lista.append(v)
+                print(f"~ {k[0]} {k[1]}: {campo} + {json.dumps(v, ensure_ascii=False)[:100]}")
             if campo in ordenar:
                 lista.sort(key=lambda x: lin(x.get(ordenar[campo])) if x.get(ordenar[campo]) is not None else -10 ** 6)
         if k in enc.donde:

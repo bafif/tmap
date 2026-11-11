@@ -122,15 +122,19 @@ When finished:
 
 - **Wikidata suggests, it does not decide.** A candidate is a lead: it goes in if it belongs to the topic and can be
   verified, because Wikidata makes mistakes too (a wrong place of death is enough to put someone in another topic's
-  region). Every fact is checked with `tools/enciclopedia/compacto/consultar.py resumen <title>` and the article;
-  `construir.py` also compares dates with Wikidata and warns when they differ. If Wikidata, Wikipedia and the
-  literature disagree, the primary source or the specialist literature wins, not the most repeated version.
+  region). Every fact is checked against the full article in two languages
+  (`tools/enciclopedia/compacto/consultar.py texto <title>` and `texto <title> es`), not just its introduction, which
+  sometimes contradicts the body or the other language; `construir.py` also compares dates with Wikidata and warns
+  when they differ. If Wikidata, Wikipedia and the literature disagree, the primary source or the specialist
+  literature wins, not the most repeated version.
 - **Documents first.** For disputed events, first what the documents show, then, attributed, who interprets it how. No
   propaganda from any side and no official history taken as truth. Wikipedia is read critically, and what is already
   in tmap is not true just because it is there: if a mistake turns up in an old entry while filling, it is fixed with
   a patch.
 - **Nothing made up.** What is uncertain goes with `aprox`, `confianza: baja` or a `nota`, or does not go. A gap that
   cannot be filled with verifiable data stays `sin-datos`, with the reason.
+- **Layer order matters.** With no majority entry, the app paints the first entry in force; a small region with layers
+  covers the larger one that contains it. Before adding an entry or a whole layer, check what the map will paint there.
 - **The same mould.** A gap is filled like its neighbours: if the package has an event for each presidency, the
   missing president gets one too; if the battles of the war cite the battle report, the missing one does too.
 - **Extras.** What turns up while researching and falls inside the scope goes in; what falls outside is recorded under
