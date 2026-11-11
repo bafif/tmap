@@ -4046,7 +4046,7 @@
           "desde": 1533,
           "hasta": 1821,
           "nombre": "Virreinato del Perú",
-          "resumen": "Conquista española; la ciudad de Lima es capital."
+          "resumen": "Conquista española; Lima, fundada en 1535, es la capital del virreinato, creado en 1542. En 1776 el Alto Perú pasó al Virreinato del Río de la Plata."
         },
         {
           "desde": 1821,
@@ -4445,7 +4445,7 @@
           "desde": -10000,
           "hasta": 1516,
           "nombre": "Pueblos originarios",
-          "resumen": "Cazadores-recolectores de la pampa (querandíes, charrúas), guaraníes y otros pueblos del litoral."
+          "resumen": "Cazadores-recolectores de la pampa (querandíes) y de la Banda Oriental (charrúas), guaraníes y otros pueblos del litoral."
         },
         {
           "desde": 1516,
@@ -4494,42 +4494,140 @@
         },
         {
           "desde": 1580,
+          "hasta": 1880,
+          "nombre": "Religiones originarias en la pampa y el Chaco austral",
+          "familia": "religiones-originarias",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1580,
           "hasta": 2000,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1825,
+          "hasta": 2000,
+          "nombre": "Protestantismo (británicos, alemanes y otros inmigrantes)",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "El tratado con Gran Bretaña de 1825 garantizó la libertad de culto a los súbditos británicos."
+        },
+        {
+          "desde": 1889,
+          "hasta": 2000,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria"
         }
       ],
       "culturas": [
         {
           "desde": -10000,
           "hasta": 1580,
-          "nombre": "Pueblos originarios (querandíes, charrúas, guaraníes…)",
+          "nombre": "Pueblos originarios (querandíes, charrúas, chanás, timbúes, comechingones, sanavirones, tonocotés)",
           "familia": "pueblos-originarios",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Incluye a los constructores de cerritos del litoral, desde hace unos 5000 años."
+        },
+        {
+          "desde": 1000,
+          "hasta": 1650,
+          "nombre": "Guaraníes (Paraguay, el Paraná y las islas)",
+          "familia": "guarani",
+          "peso": "importante",
+          "nota": "Mayoritarios en la región de Asunción."
+        },
+        {
+          "desde": 1536,
+          "hasta": 1580,
+          "nombre": "Conquistadores españoles (Buenos Aires, Asunción, Santiago del Estero)",
+          "familia": "hispana",
+          "peso": "minoritaria"
         },
         {
           "desde": 1580,
           "hasta": 1810,
-          "nombre": "Hispana y criolla",
+          "nombre": "Hispana, criolla y mestiza",
           "familia": "hispana",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En las zonas bajo control español; la pampa y el Chaco austral siguieron en manos indígenas."
+        },
+        {
+          "desde": 1580,
+          "hasta": 1800,
+          "nombre": "Pueblos encomendados y reducidos (guaraníes, comechingones, tonocotés y otros)",
+          "familia": "pueblos-originarios",
+          "peso": "importante"
+        },
+        {
+          "desde": 1580,
+          "hasta": 1879,
+          "nombre": "Pueblos independientes de la pampa (pampas y tehuelches)",
+          "familia": "pampeano-patagonica",
+          "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1879,
+          "nombre": "Pueblos de habla mapudungun de la pampa (ranqueles, Salinas Grandes)",
+          "familia": "mapuche",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1600,
+          "hasta": 1880,
+          "nombre": "Afrodescendientes, esclavizados y libres",
+          "familia": "afrodescendiente",
+          "peso": "importante",
+          "nota": "En Buenos Aires eran cerca de un tercio de la población a fines del siglo XVIII, según los padrones."
         },
         {
           "desde": 1810,
           "hasta": 2000,
-          "nombre": "Criolla e inmigrante",
+          "nombre": "Criolla",
           "familia": "criolla",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1870,
+          "hasta": 1960,
+          "nombre": "Inmigración italiana",
+          "familia": "italiana",
+          "peso": "importante",
+          "nota": "Con la española, el grueso de la inmigración masiva."
+        },
+        {
+          "desde": 1889,
+          "hasta": 2000,
+          "nombre": "Judíos (colonias agrícolas desde 1889 y Buenos Aires)",
+          "familia": "judia",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 2000,
+          "nombre": "Comunidades indígenas y descendientes",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
         {
           "desde": -10000,
           "hasta": 1580,
-          "nombre": "Lenguas originarias (guaraní, charrúa, entre otras)",
+          "nombre": "Lenguas originarias (querandí, charrúa, chaná, comechingón, tonocoté y otras)",
           "familia": "lenguas-indigenas-de-america",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1000,
+          "hasta": 2000,
+          "nombre": "Guaraní",
+          "familia": "tupi-guarani",
+          "peso": "importante",
+          "nota": "En el Paraguay siguió siendo la lengua de la mayoría hasta hoy."
         },
         {
           "desde": 1580,
@@ -4537,6 +4635,27 @@
           "nombre": "Español",
           "familia": "espanol",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1550,
+          "hasta": 2000,
+          "nombre": "Quechua (lengua general en el Tucumán colonial; hoy en Santiago del Estero)",
+          "familia": "andinas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1885,
+          "nombre": "Mapudungun en la pampa",
+          "familia": "mapudungun",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1870,
+          "hasta": 1950,
+          "nombre": "Italiano y sus dialectos",
+          "familia": "italiano",
+          "peso": "importante"
         }
       ],
       "demografia": [
@@ -6082,8 +6201,8 @@
       },
       "idioma_original": "Español",
       "soporte": "Libro impreso en Lisboa en 1609",
-      "resumen": "Historia del Perú incaico escrita por el hijo de un capitán español y una princesa inca, que recoge tradiciones familiares y su infancia en Cusco. La segunda parte, «Historia general del Perú», cuenta la conquista.",
-      "por_que_importa": "Es la fuente más influyente sobre el Tawantinsuyu, aunque idealiza el pasado inca y se escribió desde España, décadas después de la conquista.",
+      "resumen": "Historia del Perú incaico escrita por el hijo de un capitán español y una ñusta, mujer de la nobleza inca, que recoge tradiciones familiares y su infancia en Cusco. La segunda parte, «Historia general del Perú», cuenta la conquista.",
+      "por_que_importa": "Es la fuente más influyente sobre el Tawantinsuyu; buena parte de la crítica señala que idealiza el pasado inca, y se escribió desde España, décadas después de la conquista.",
       "leer": [
         {
           "titulo": "Comentarios reales de los incas (Wikisource)",
@@ -6133,7 +6252,7 @@
         },
         {
           "titulo": "Edición digital de la Biblioteca Real de Dinamarca",
-          "url": "https://www.kb.dk/permalink/2006/poma/info/es/frontpage.htm",
+          "url": "https://poma.kb.dk/permalink/2006/poma/info/es/frontpage.htm",
           "idioma": "es",
           "dominio_publico": false
         }
@@ -6145,7 +6264,7 @@
       "titulo": "Crónica del Perú (primera parte)",
       "titulo_original": null,
       "autor": "Pedro de Cieza de León",
-      "autor_id": null,
+      "autor_id": "pedro-cieza-de-leon",
       "tipo": "primaria",
       "genero": "cronica",
       "escrita": {
@@ -6206,7 +6325,7 @@
       "idioma_original": "Alemán",
       "soporte": "Manuscrito; primera edición impresa en Fráncfort en 1567",
       "resumen": "Relato en primera persona de un soldado de Baviera que acompañó la expedición de Pedro de Mendoza (1534) y vivió casi veinte años en el Río de la Plata y el Paraguay. Describe la primera fundación de Buenos Aires y a los pueblos indígenas.",
-      "por_que_importa": "Es el único testimonio ocular de la fundación de Buenos Aires de 1536; hay que leerlo con cuidado por las cifras y por el punto de vista del autor.",
+      "por_que_importa": "Es el relato más extenso de un testigo de la fundación de Buenos Aires de 1536; hay que leerlo con cuidado por las cifras y por el punto de vista del autor.",
       "leer": [
         {
           "titulo": "Viaje al Río de la Plata y Paraguay (Wikisource)",
@@ -6244,7 +6363,7 @@
       },
       "idioma_original": "Español",
       "soporte": "Acta manuscrita; versión en quechua y aimara",
-      "resumen": "Acta firmada el 9 de julio de 1816 por los diputados del Congreso de Tucumán. Declara la independencia de las Provincias Unidas de «España y toda otra dominación extranjera».",
+      "resumen": "Acta firmada el 9 de julio de 1816 por los diputados del Congreso de Tucumán. Declara a las Provincias Unidas «nación libre e independiente del rey Fernando séptimo, sus sucesores y metrópoli»; el 19 de julio el Congreso agregó a la fórmula del juramento «y de toda otra dominación extranjera».",
       "por_que_importa": "Es el documento fundacional de la independencia argentina y muestra el lenguaje político de los criollos.",
       "leer": [
         {
@@ -6307,7 +6426,7 @@
       "titulo_original": null,
       "autor": "Domingo F. Sarmiento",
       "autor_id": "sarmiento",
-      "tipo": "secundaria",
+      "tipo": "primaria",
       "genero": "ensayo",
       "escrita": {
         "anio": 1845,
@@ -6318,7 +6437,8 @@
       },
       "trata": {
         "regiones": [
-          "rio-de-la-plata"
+          "rio-de-la-plata",
+          "noroeste-argentino"
         ],
         "desde": 1810,
         "hasta": 1845
@@ -7351,7 +7471,7 @@
         "conquistador",
         "fundador"
       ],
-      "resumen": "Vasco que vivió en Asunción, refundó Santa Fe (1573) y fundó la segunda Buenos Aires (1580). Murió a manos de los indígenas en 1583.",
+      "resumen": "Vasco que vivió en Asunción, fundó Santa Fe (1573) y la segunda Buenos Aires (1580). Murió en 1583 en un ataque indígena.",
       "obras": [],
       "wikipedia": {
         "es": "Juan de Garay",
@@ -7378,14 +7498,23 @@
         "presidente",
         "educador"
       ],
-      "resumen": "Sanjuanino, exiliado en Chile, autor del Facundo. Fue presidente de la Argentina (1868-1874) e impulsó la educación pública.",
+      "resumen": "Sanjuanino, exiliado en Chile entre 1840 y 1851, donde escribió el Facundo (1845), Viajes y Recuerdos de provincia; fue boletinero del Ejército Grande en Caseros y rompió después con Urquiza. Como gobernador de San Juan dirigió en 1863 la guerra contra el Chacho Peñaloza; fue presidente (1868-1874), impulsó la educación pública y la inmigración, y en Conflicto y armonías de las razas en América (1883) explicó la historia americana por factores raciales.",
       "obras": [
-        "facundo"
+        "facundo",
+        "las-ciento-y-una",
+        "comentarios-de-la-constitucion-sarmiento",
+        "campana-en-el-ejercito-grande",
+        "el-chacho-sarmiento",
+        "conflicto-y-armonias-de-las-razas",
+        "argiropolis",
+        "recuerdos-de-provincia",
+        "viajes-sarmiento"
       ],
       "wikipedia": {
         "es": "Domingo Faustino Sarmiento",
         "en": "Domingo Faustino Sarmiento"
-      }
+      },
+      "wikidata": "Q254041"
     },
     {
       "id": "jose-hernandez",
@@ -7407,9 +7536,11 @@
         "periodista",
         "político"
       ],
-      "resumen": "Escritor y periodista bonaerense, autor del Martín Fierro; defendió a los gauchos y la autonomía provincial frente al poder del Estado central.",
+      "resumen": "Escritor, periodista y político federal bonaerense, autor del Martín Fierro. Defendió a los gauchos de la frontera, se opuso a los gobiernos de Mitre y Sarmiento y en 1880 apoyó la federalización de Buenos Aires.",
       "obras": [
-        "martin-fierro"
+        "martin-fierro",
+        "vida-del-chacho",
+        "la-vuelta-de-martin-fierro"
       ],
       "wikipedia": {
         "es": "José Hernández (escritor)",
@@ -8386,12 +8517,14 @@
       "lon": -71.9675,
       "lat": -13.5319,
       "tipo": "politico",
-      "resumen": "Según las crónicas, tras vencer a los chancas Pachacútec asume el poder e inicia la gran expansión del Tawantinsuyu. Las fechas proceden de la tradición oral.",
+      "resumen": "Según Betanzos, Cieza y Sarmiento de Gamboa, tras vencer a los chancas Pachacútec asumió el poder e inició la gran expansión del Tawantinsuyu; Garcilaso atribuye esa victoria a su padre, Viracocha Inca. Las fechas proceden de la tradición oral y de las cronologías de los cronistas.",
       "regiones": [
         "andes"
       ],
       "fuentes": [
-        "comentarios-reales"
+        "comentarios-reales",
+        "suma-y-narracion-betanzos",
+        "historia-de-los-incas-sarmiento"
       ],
       "wikipedia": {
         "es": "Imperio incaico",
@@ -8431,11 +8564,14 @@
       "lon": -71.4,
       "lat": -14.15,
       "tipo": "revolucion",
-      "resumen": "José Gabriel Condorcanqui se alza contra el dominio español en noviembre de 1780. Es derrotado y ejecutado en Cusco en 1781.",
+      "resumen": "José Gabriel Condorcanqui, cacique de Tungasuca, se alzó en noviembre de 1780 contra los corregidores y el reparto forzoso de mercancías, y la rebelión se extendió por el sur andino y el Alto Perú. Fue derrotado y ejecutado en Cusco en mayo de 1781 junto con parte de su familia; la guerra y la represión dejaron decenas de miles de muertos según las estimaciones.",
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sentencia-contra-tupac-amaru",
+        "dilatado-cautiverio"
+      ],
       "wikipedia": {
         "es": "Rebelión de Túpac Amaru II",
         "en": "Rebellion of Túpac Amaru II"
@@ -8471,12 +8607,14 @@
       "lon": -58.3708,
       "lat": -34.6118,
       "tipo": "fundacion",
-      "resumen": "Pedro de Mendoza funda Nuestra Señora Santa María del Buen Ayre. Los ataques indígenas y el hambre llevan a su despoblamiento hacia 1541.",
+      "resumen": "Pedro de Mendoza funda Nuestra Señora Santa María del Buen Ayre. El hambre y la guerra con los querandíes la debilitan, y en 1541 Domingo Martínez de Irala ordena despoblarla y llevar a sus vecinos a Asunción.",
       "regiones": [
         "rio-de-la-plata"
       ],
       "fuentes": [
-        "viaje-al-rio-de-la-plata"
+        "viaje-al-rio-de-la-plata",
+        "capitulacion-de-pedro-de-mendoza",
+        "carta-de-isabel-de-guevara"
       ],
       "wikipedia": {
         "en": "Buenos Aires"
@@ -8518,7 +8656,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ordenanzas-de-poblacion-1573",
+        "la-argentina-ruy-diaz"
+      ],
       "wikipedia": {
         "es": "Historia de la ciudad de Buenos Aires",
         "en": "History of Buenos Aires"
@@ -8534,12 +8675,21 @@
       "lon": -58.3816,
       "lat": -34.6037,
       "tipo": "revolucion",
-      "resumen": "Entre el 22 y el 25 de mayo, el cabildo abierto depone al virrey Cisneros y forma la Primera Junta de gobierno, en nombre de Fernando VII.",
+      "resumen": "El cabildo abierto del 22 de mayo votó que el virrey Cisneros cesara en el mando; el 24 el Cabildo formó una junta presidida por el propio Cisneros, que renunció esa noche ante la presión de las milicias y de los vecinos, y el 25 reconoció, ante un petitorio de vecinos y jefes militares, a la Primera Junta presidida por Saavedra, que gobernó en nombre de Fernando VII.",
       "regiones": [
         "rio-de-la-plata"
       ],
       "fuentes": [
-        "actas-capitulares-mayo-1810"
+        "actas-capitulares-mayo-1810",
+        "proclama-de-la-junta-1810",
+        "gazeta-de-buenos-ayres",
+        "historia-de-belgrano",
+        "revolucion-y-guerra",
+        "ensayo-historico-sobre-la-revolucion-de-mayo",
+        "las-doctrinas-populistas",
+        "nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata",
+        "tradicion-politica-espanola-e-ideologia-revolucionaria-de-mayo",
+        "la-representacion-de-los-hacendados-molinari"
       ],
       "wikipedia": {
         "es": "Revolución de Mayo",
@@ -8558,10 +8708,13 @@
       "tipo": "politico",
       "resumen": "El 9 de julio, el Congreso de Tucumán proclama la independencia de las Provincias Unidas en Sud-América.",
       "regiones": [
-        "rio-de-la-plata"
+        "rio-de-la-plata",
+        "noroeste-argentino"
       ],
       "fuentes": [
-        "acta-de-independencia-1816"
+        "acta-de-independencia-1816",
+        "manifiesto-del-congreso-1817",
+        "el-redactor-del-congreso"
       ],
       "wikipedia": {
         "es": "Declaración de independencia de la Argentina",
@@ -9189,7 +9342,7 @@
       "aprox": false,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Puerto en la costa norte del estuario, fundado por los españoles; hoy es capital de Uruguay.",
+      "resumen": "Puerto en la costa norte del estuario, fundado entre 1724 y 1726 por el gobernador de Buenos Aires Bruno Mauricio de Zabala para frenar el avance portugués; hoy es capital del Uruguay.",
       "regiones": [
         "rio-de-la-plata"
       ],

@@ -69,7 +69,8 @@ gráfica, para que ande bien desde una notebook vieja hasta una computadora de j
   Tinta y latón.
 - **Hecho para crecer de a poco.** La enciclopedia son archivos JSON legibles, por paquetes, que se editan con
   formularios dentro de la app. Hoy trae un piloto completo sobre el antiguo Egipto, la Europa medieval con su filosofía,
-  Tierra Santa de la Antigüedad a hoy y regiones que cubren el resto del mundo con su población estimada; el
+  Tierra Santa de la Antigüedad a hoy, la historia argentina de los pueblos originarios a hoy y regiones que cubren el
+  resto del mundo con su población estimada; el
   resto se completa por etapas, y [un informe que se genera solo](docs/es/cobertura.md) dice qué está cubierto y qué
   no, empezando por lo más consultado, con borradores de Wikipedia y Wikidata e IA que
   siempre cita sus fuentes y pasa por revisión humana.
@@ -119,6 +120,9 @@ Versión 0.1: la primera que funciona de punta a punta. El detalle de lo hecho y
 - [x] Paquete de Tierra Santa: 7 regiones, 176 fuentes (escrituras, crónicas de las cruzadas de todos los lados,
       pensamiento judío, cristiano y musulmán, documentos modernos), 198 personas, 172 hechos y 75 lugares, verificados
       de la misma manera
+- [x] La Argentina de los pueblos originarios a la ley Sáenz Peña, en siete paquetes: 382 fuentes (actas,
+      constituciones, tratados, leyes, crónicas y la historiografía de cada escuela), 420 personas (todos los virreyes
+      y presidentes), 549 hechos y 110 lugares, con los temas disputados contados desde los documentos
 - [x] Modos de religión, cultura e idioma (solo donde hay datos), con el contorno real de cada época
 - [x] Fichas de cada religión, cultura, idioma y entidad política; leyenda, línea de tiempo y gráficos tocables
 - [x] Marcadores agrupados, atajos de teclado y cuatro temas visuales (uno de alto contraste)

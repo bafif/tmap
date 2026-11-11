@@ -95,6 +95,19 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       `aprox` and low confidence, or leave them as they are.
 - [ ] **More reading links.** 104 checked links for 69 sources; still missing are Spanish translations and texts from
       sites like Fordham's Medieval Sourcebook or the Corpus Thomisticum.
+- [ ] **Argentina up to 1912: what is still pending.** No legal link yet: the land laws of 1882-1885, Alberdi's
+      Sistema económico y rentístico, Barros's Fronteras y territorios federales and much of the copyrighted
+      historiography. No entry for lack of verifiable data: the colonial hospitals of Santiago del Estero and Mendoza,
+      the Unitarian violence of 1829 (Rauch) and Quiroga's after La Ciudadela, the River Plate deputies at Cádiz,
+      Eduardo Wilde's works, Miron Burgin as a person and Di Meglio's book on the Mazorca. To be checked against the
+      text: Lynch's figure (some 2,000 deaths between 1829 and 1852), the casualties at Obligado according to each
+      side, the phrase “Quiera el pueblo votar” in the 1912 manifesto, Mitre's and Sarmiento's letters about the
+      Chacho, and the year of the Instituto Rosas (1938 or 1941). Several academic works still lack their main
+      criticism with its author. Four sources still have no place of writing (the Requerimiento, the Democrates alter,
+      Luis Ramírez's letter and Luis de la Cruz's diary). The English of these packages is machine translation and is
+      worth reviewing. With 4636 items, the automated test leaves some 5,100 “Out of resolver queries” warnings (3,500
+      with the previous data): `wiki.gd` requests the Wikipedia image of every entry it opens, without a queue, and
+      Godot's DNS queue runs out; those requests should be queued.
 - [ ] **Holy Land: what was left out.** Sinai goes with Egypt. Lebanon, Syria, Transjordan, Arabia, the Maghreb and
       Cyprus only have the HYDE, Gapminder and UN per-country series, with no curated estimate. Armenia has layers up
       to 1920: after that, the Turkish part is painted by Anatolia and the Republic of Armenia has no layers. 24
@@ -150,6 +163,56 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: Argentina from its Indigenous peoples to the Sáenz Peña law
+
+- [x] **Seven new packages** with 382 sources, 420 people, 549 events and 110 places (the encyclopedia goes from 3175
+      to 4636 items) and 222 reading links that returned 200, checked against Wikipedia and Wikidata with the compact
+      format. Each topic was written by one agent and corrected by another, an adversarial reviewer that looked for
+      factual errors, bias and gaps (193 corrections). Wikipedia was read critically: disputed events first say what
+      the documents show and then who interprets them how, without siding with Mitre's liberal history or with the
+      Rosista, Peronist or left-wing revisionism.
+      - `pueblos-originarios-del-cono-sur`: archaeology and each people with its language and fate; the Collas and the
+        Qullasuyu; Inca rule in the Northwest and Cuyo with the chroniclers who recorded it (Betanzos, Cieza,
+        Sarmiento de Gamboa and the Toledan thesis of Inca “tyranny”, Guamán Poma, Garcilaso as a counterpoint); the
+        Calchaquí wars and the deportation of the Quilmes; the southern frontier from the malones to the Conquest of
+        the Desert, with the official figures of 1879 and what happened to the prisoners; Tierra del Fuego and the Chaco.
+      - `rio-de-la-plata-colonial`: exploration, foundations, governorates and audiencias, the law of the Indies and
+        the debate on the conquest (Montesinos, Vitoria, Las Casas, Sepúlveda, Valladolid), the Black Legend and the
+        White Legend with works from both sides (De Bry, Juderías, Carbia, Hanke, Powell, Keen, Roca Barea,
+        Villacañas), the demographic collapse with its estimates, the Jesuits, the University of Córdoba, smuggling
+        and the inland customs, the slave trade and the first hospitals.
+      - `virreinato-e-independencia`: the twelve viceroys with their terms, the Bourbon reforms, the British
+        invasions, the crisis of 1808, the Cortes and the Constitution of Cádiz (“la Pepa”) and its repeal, May 1810
+        with its minutes and its legends, the Plan de Operaciones and its controversy, the juntas, triumvirates and
+        Supreme Directors, the Assembly of Year XIII, the Congress of Tucumán, Artigas and the campaigns of San Martín
+        and Belgrano.
+      - `guerras-civiles-y-organizacion-nacional`: the year 1820 and the caudillos, Rivadavia, the war with Brazil,
+        the García convention by which the national government gave up the Banda Oriental, the founding of Uruguay,
+        Dorrego's execution, the Ferré-Roxas y Patrón polemic and the Federal Pact (the provinces did not want to pay
+        the Buenos Aires customs to trade on the Paraná), and from Caseros to Pavón with the Constitution of 1853.
+      - `rosas-y-la-confederacion`: Rosas and the sum of public power, the Sociedad Popular Restauradora and the
+        Mazorca with its leaders, its victims, the terror of 1840 and 1842, the confiscations and the trial and
+        execution of the mazorqueros in 1853; the figures of the Tablas de sangre and their criticism; the blockades
+        and Obligado with the reports and the treaties of 1849-1850; the Generation of '37; the causes of Caseros and
+        the trial of Rosas (1857-1861).
+      - `argentina-1862-1912`: every president with his term, the Paraguayan War with its causes, the secret treaty,
+        the Paraguayan losses and the opposition at home, the montoneras, the liberal state, the Generation of '80
+        with its writings, the social question and the electoral reform.
+      - `historiografia-argentina`: Mitre and López and their polemic, Saldías and Quesada, the New Historical School,
+        nationalist and left-wing revisionism, and later academic historiography, each work with what it argues and its
+        main criticism.
+- [x] Culture, language and religion layers for the Río de la Plata (which had three spans), the Argentine Northwest,
+      Patagonia and the Gran Chaco (which had none), from the first settlement to 2000, with 13 new families.
+- [x] Critical review of what was already there: 19 fixes to existing entries (the names with “es:” left by the
+      builder, Juárez Celman and Roca as brothers-in-law of sisters rather than brothers-in-law, the misquoted
+      declaration of independence, the Liminar Manifesto quote, the Charrúas outside the Pampas…), and others from
+      what the topics found: the Conquest of the Desert now has sources and official figures, the May Revolution
+      tells the cabildos from the 22nd to the 25th, Facundo is a primary source, the Tragic Week, the Patagonia
+      Rebelde and Yrigoyen's entry say under which government the repressions happened, and the Sáenz Peña law no
+      longer says it ended all fraud.
+- [x] The English of the new texts was machine-translated (Claude Haiku, in batches with key checks): Google
+      Translate refuses automated queries.
 
 ### November 10, 2026: the contemporary era, in seven packages
 

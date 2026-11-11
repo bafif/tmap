@@ -1,0 +1,3414 @@
+{
+  "paquete": "historiografia-argentina",
+  "descripcion": "Cómo se contó y cómo se discute la historia argentina hasta 1912, obra por obra: Mitre y la historiografía liberal, Vicente Fidel López, Saldías, Quesada y los primeros intentos de explicar a Rosas, Groussac, Juan Álvarez e Ingenieros, la Nueva Escuela Histórica y la Academia, el revisionismo nacionalista y el de izquierda, la historiografía académica posterior y los debates sobre Mayo, Rosas, la guerra del Paraguay y la Conquista del Desierto, con las instituciones que guardan los documentos.",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "historia-de-belgrano",
+      "titulo": "Historia de Belgrano y de la independencia argentina",
+      "titulo_original": null,
+      "autor": "Bartolomé Mitre",
+      "autor_id": "mitre",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1857,
+        "anio_hasta": 1887,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "paraguay-oriental",
+          "andes"
+        ],
+        "desde": 1770,
+        "hasta": 1820
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, cuatro ediciones (1857, 1858-1859, 1876-1877 y 1887)",
+      "resumen": "Biografía de Manuel Belgrano que se convirtió en una historia de la revolución y de la guerra de independencia en el Río de la Plata, apoyada en documentos del Archivo General y en papeles privados citados en notas y apéndices; publicó por primera vez parte de la autobiografía de Belgrano. Mitre sostiene que en la sociedad colonial ya se había formado una nación con rasgos propios, que la revolución de 1810 la hizo visible bajo la conducción de Buenos Aires y de una minoría ilustrada, y que la independencia y la organización liberal eran su desenlace. La obra creció en cada edición en respuesta a sus críticos, y el autor declaró definitiva la cuarta, de 1887.",
+      "por_que_importa": "Es la obra fundadora de la historiografía documental argentina y del relato que se enseñó como historia nacional. José Carlos Chiaramonte discutió su tesis de una nación anterior a 1810, y los revisionistas, el lugar secundario que da a los caudillos y al interior.",
+      "leer": [
+        {
+          "titulo": "Cuarta y definitiva edición (1887), tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadebelgra01mitr",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia de Belgrano y de la Independencia Argentina",
+        "en": "Historia de Belgrano y de la Independencia Argentina"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "estudios-historicos-belgrano-y-guemes",
+      "titulo": "Estudios históricos sobre la Revolución Argentina: Belgrano y Güemes",
+      "titulo_original": null,
+      "autor": "Bartolomé Mitre",
+      "autor_id": "mitre",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1864,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1810,
+        "hasta": 1821
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Libro con que Mitre respondió a dos artículos de Dalmacio Vélez Sarsfield, «Rectificaciones históricas: General Belgrano, General Güemes», que objetaban hechos y juicios de la Historia de Belgrano. Mitre discute las objeciones una por una y opone a cada una los documentos en que se había apoyado.",
+      "por_que_importa": "Es la primera de las polémicas que acompañaron a la Historia de Belgrano y muestra que el relato de Mitre se discutió desde el principio en el terreno de las pruebas documentales.",
+      "leer": [
+        {
+          "titulo": "Edición de 1864 en Internet Archive",
+          "url": "https://archive.org/details/estudioshistric00srgoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "comprobaciones-historicas",
+      "titulo": "Comprobaciones históricas",
+      "titulo_original": null,
+      "autor": "Bartolomé Mitre",
+      "autor_id": "mitre",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1881,
+        "anio_hasta": 1882,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1806,
+        "hasta": 1820
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro en dos tomos: Comprobaciones históricas a propósito de la Historia de Belgrano (1881) y Nuevas comprobaciones históricas a propósito de historia argentina (1882)",
+      "resumen": "Respuesta de Mitre a las críticas que Vicente Fidel López había hecho a la tercera edición de la Historia de Belgrano. Mitre defiende que toda afirmación histórica debe apoyarse en documentos que el lector pueda verificar y reprocha a López reconstruir hechos, escenas y diálogos a partir de recuerdos y tradiciones sin prueba. El segundo tomo discute otros puntos de la historia de la revolución con documentos nuevos.",
+      "por_que_importa": "Expone el método documental de Mitre y es una de las dos mitades de la polémica Mitre-López.",
+      "leer": [
+        {
+          "titulo": "Edición de 1881 en Internet Archive",
+          "url": "https://archive.org/details/comprobacionesh00mitrgoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-san-martin",
+      "titulo": "Historia de San Martín y de la emancipación sudamericana",
+      "titulo_original": null,
+      "autor": "Bartolomé Mitre",
+      "autor_id": "mitre",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1887,
+        "anio_hasta": 1890,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "chile",
+          "andes"
+        ],
+        "desde": 1778,
+        "hasta": 1850
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, primera edición en tres tomos (1887-1888) y segunda edición corregida (1890)",
+      "resumen": "Historia de la campaña de José de San Martín desde el Río de la Plata hasta Chile y el Perú, que Mitre presenta como la expansión de la revolución rioplatense dentro de la emancipación sudamericana. Usó documentos de archivos argentinos y chilenos y correspondencia del propio San Martín. Presenta a San Martín como un jefe desinteresado que antepuso la emancipación a su ambición personal y explica así su retiro después de la entrevista de Guayaquil con Simón Bolívar.",
+      "por_que_importa": "Fijó la imagen de San Martín como héroe máximo de la independencia, que después compartieron liberales y revisionistas. Su interpretación de Guayaquil y su contraste entre San Martín y Bolívar fueron discutidos por historiadores venezolanos como Vicente Lecuna.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Historia_de_San_Mart%C3%ADn_y_de_la_emancipaci%C3%B3n_sudamericana",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Primera edición (1887), tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadesanmar01mitr",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción inglesa abreviada (The Emancipation of South America, 1893) en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48856",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-republica-argentina-lopez",
+      "titulo": "Historia de la República Argentina: su origen, su revolución y su desarrollo político",
+      "titulo_original": null,
+      "autor": "Vicente Fidel López",
+      "autor_id": "vicente-fidel-lopez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1883,
+        "anio_hasta": 1893,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1536,
+        "hasta": 1829
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro en diez tomos",
+      "resumen": "Historia narrativa en diez tomos que va desde los orígenes coloniales hasta 1829, aunque el subtítulo anunciaba llegar a 1852. López escribe un relato político con retratos, escenas y discursos reconstruidos y apoya su versión en documentos, en los recuerdos de su padre, Vicente López y Planes, y en testimonios de protagonistas que conoció. Defiende que el historiador debe interpretar el sentido de los hechos y no limitarse a transcribir documentos.",
+      "por_que_importa": "Fue la gran alternativa narrativa a la obra de Mitre en el siglo XIX y se leyó mucho como manual. Mitre y, después, Rómulo Carbia y la Nueva Escuela Histórica le reprocharon afirmaciones sin prueba y reconstrucciones imaginarias.",
+      "leer": [
+        {
+          "titulo": "Edición de 1911, tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadelarep01lope",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "debate-historico-lopez",
+      "titulo": "Debate histórico: refutación a las Comprobaciones históricas sobre la Historia de Belgrano",
+      "titulo_original": null,
+      "autor": "Vicente Fidel López",
+      "autor_id": "vicente-fidel-lopez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1882,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1806,
+        "hasta": 1820
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Respuesta de Vicente Fidel López a las Comprobaciones históricas de Mitre. López defiende el valor de la tradición y de los testimonios de los protagonistas cuando faltan documentos y la necesidad de una interpretación de conjunto, y reprocha a Mitre una erudición minuciosa que no explica el sentido de los hechos.",
+      "por_que_importa": "Junto con las Comprobaciones de Mitre forma la primera discusión pública sobre el método histórico en la Argentina.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "revista-del-rio-de-la-plata",
+      "titulo": "Revista del Río de la Plata: periódico mensual de historia y literatura de América",
+      "titulo_original": null,
+      "autor": "Andrés Lamas, Vicente Fidel López y Juan María Gutiérrez",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1871,
+        "anio_hasta": 1877,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1536,
+        "hasta": 1870
+      },
+      "idioma_original": "Español",
+      "soporte": "Revista mensual",
+      "resumen": "Revista que dirigieron en Buenos Aires Andrés Lamas, Vicente Fidel López y Juan María Gutiérrez, con estudios de historia, documentos coloniales y de la independencia y crítica literaria. Sirvió para publicar papeles inéditos del Río de la Plata y trabajos de sus directores.",
+      "por_que_importa": "Fue el principal órgano de los estudios históricos rioplatenses antes de la polémica Mitre-López y muestra a hombres de la generación de 1837 en su trabajo de historiadores.",
+      "leer": [
+        {
+          "titulo": "Un tomo de 1871 en Internet Archive",
+          "url": "https://archive.org/details/revistadelriode04gutigoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-la-confederacion-argentina",
+      "titulo": "Historia de la Confederación Argentina: Rozas y su época",
+      "titulo_original": null,
+      "autor": "Adolfo Saldías",
+      "autor_id": "adolfo-saldias",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1881,
+        "anio_hasta": 1892,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, primero como Historia de Rozas y su época (tres tomos, 1881-1887) y después corregido y ampliado en cinco tomos (1892)",
+      "resumen": "Primera historia extensa del período de Rosas escrita con el archivo del propio gobernador, que su hija Manuela le permitió consultar en Inglaterra. Saldías, un liberal que había militado contra Mitre en el autonomismo, condena muchos aspectos del gobierno de Rosas, pero le atribuye haber impuesto el orden después de la guerra civil y haber defendido la soberanía frente a los bloqueos de Francia y de Gran Bretaña.",
+      "por_que_importa": "Los revisionistas del siglo XX y Tulio Halperín Donghi (1970) la ubicaron en el origen del revisionismo histórico. Mitre le contestó a Saldías con una carta (1887) en la que rechazaba su juicio sobre Rosas, y los revisionistas del siglo XX citaron esa respuesta como prueba de que la historia liberal no admitía otra versión.",
+      "leer": [
+        {
+          "titulo": "Edición de 1892, tomo 1, en Internet Archive",
+          "url": "https://archive.org/details/historiadelaconf01sald",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-epoca-de-rosas",
+      "titulo": "La época de Rosas: su verdadero carácter histórico",
+      "titulo_original": null,
+      "autor": "Ernesto Quesada",
+      "autor_id": "ernesto-quesada",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1898,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo que explica a Rosas como producto de su época y no como una anomalía individual: compara el período que siguió a 1820 con una «Edad Media argentina» y a Rosas con Luis XI de Francia, el rey que sometió a los señores feudales. Quesada se apoyó en el archivo del general Ángel Pacheco, jefe militar del rosismo, que había pasado a su familia.",
+      "por_que_importa": "Con la obra de Saldías es uno de los primeros intentos de explicar el rosismo sin la condena de los emigrados de 1840. El historiador Pablo Buchbinder señaló que, junto con su interés científico, Quesada buscaba rehabilitar a Pacheco, pariente político suyo.",
+      "leer": [
+        {
+          "titulo": "Edición de 1898 en Internet Archive",
+          "url": "https://archive.org/details/lapocaderosassu00quesgoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "rosas-y-su-tiempo",
+      "titulo": "Rosas y su tiempo",
+      "titulo_original": null,
+      "autor": "José María Ramos Mejía",
+      "autor_id": "jose-maria-ramos-mejia",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1907,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio del gobierno de Rosas escrito por un médico positivista, que lo explica por la psicología del gobernante y de las multitudes que lo siguieron, por el ambiente social de Buenos Aires y por instituciones como la policía, la Mazorca, la Iglesia y la prensa. Condena el terror, pero lo trata como un fenómeno colectivo y no solo como la obra de un individuo.",
+      "por_que_importa": "Continúa Las multitudes argentinas (1899) del mismo autor y muestra cómo el positivismo médico y sociológico de comienzos del siglo XX releyó el rosismo; la historiografía posterior abandonó sus explicaciones psicopatológicas.",
+      "leer": [
+        {
+          "titulo": "Edición de 1907 en Internet Archive",
+          "url": "https://archive.org/details/rosasysutiempo00mejgoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "santiago-de-liniers-groussac",
+      "titulo": "Santiago de Liniers, conde de Buenos Aires, 1753-1810",
+      "titulo_original": null,
+      "autor": "Paul Groussac",
+      "autor_id": "paul-groussac",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1897,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "iberia",
+          "francia"
+        ],
+        "desde": 1753,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Biografía del marino francés al servicio de España que dirigió la reconquista de Buenos Aires durante la primera invasión inglesa (1806), fue virrey del Río de la Plata y murió fusilado en 1810 por orden de la Primera Junta, después de encabezar la resistencia en Córdoba. Groussac la escribió con una crítica minuciosa de los documentos y de las versiones anteriores y con un juicio comprensivo del personaje, al que la tradición patriótica recordaba sobre todo como enemigo de la revolución.",
+      "por_que_importa": "Es un ejemplo del método crítico de Groussac, que desde la dirección de la Biblioteca Nacional discutió con varios historiadores de su tiempo.",
+      "leer": [
+        {
+          "titulo": "Edición de 1907 en Internet Archive",
+          "url": "https://archive.org/details/santiagodelinie00grougoog",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "anales-de-la-biblioteca",
+      "titulo": "Anales de la Biblioteca",
+      "titulo_original": null,
+      "autor": "Paul Groussac",
+      "autor_id": "paul-groussac",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1900,
+        "anio_hasta": 1915,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1536,
+        "hasta": 1830
+      },
+      "idioma_original": "Español",
+      "soporte": "Publicación de la Biblioteca Nacional de Buenos Aires, diez tomos",
+      "resumen": "Serie de la Biblioteca Nacional dirigida por Groussac, que publicó documentos coloniales y de la independencia conservados en la Biblioteca, con introducciones y estudios críticos suyos. Continuó la revista La Biblioteca (1896-1898), también dirigida por él.",
+      "por_que_importa": "Puso en circulación fuentes inéditas sobre el Río de la Plata y difundió un modelo de edición crítica de documentos.",
+      "leer": [
+        {
+          "titulo": "Tomo 10 (1915) en Internet Archive",
+          "url": "https://archive.org/details/anales-de-la-biblioteca-tomo-10-paul-groussac-1915",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "estudio-sobre-las-guerras-civiles-argentinas",
+      "titulo": "Estudio sobre las guerras civiles argentinas",
+      "titulo_original": null,
+      "autor": "Juan Álvarez",
+      "autor_id": "juan-alvarez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1810,
+        "hasta": 1880
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo que explica las guerras civiles del siglo XIX por causas económicas: la ruina de producciones del interior con la apertura comercial, la disputa por la aduana de Buenos Aires y por la navegación de los ríos, la moneda y los precios. Álvarez sostiene que las luchas entre unitarios y federales o entre caudillos expresaban conflictos de intereses regionales más que choques de principios o de temperamentos, y propone medidas para que no se repitan.",
+      "por_que_importa": "Fue la primera interpretación económica sistemática de las guerras civiles y anticipó temas que trabajaron después Miron Burgin y José Carlos Chiaramonte.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-evolucion-de-las-ideas-argentinas",
+      "titulo": "La evolución de las ideas argentinas",
+      "titulo_original": null,
+      "autor": "José Ingenieros",
+      "autor_id": "jose-ingenieros",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1918,
+        "anio_hasta": 1920,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1750,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro en dos tomos, La Revolución (1918) y La Restauración (1920), que quedó inconcluso",
+      "resumen": "Historia de las ideas que lee el pasado argentino como el choque entre una mentalidad colonial, feudal y clerical y otra revolucionaria, ilustrada y liberal, cada una ligada a intereses sociales y económicos. La Revolución de Mayo es el triunfo de la segunda, y el gobierno de Rosas, una restauración del orden colonial apoyada en los estancieros, la Iglesia y las masas rurales. Ingenieros murió en 1925 sin escribir los tomos sobre el período posterior.",
+      "por_que_importa": "Fue la síntesis más influyente del positivismo y del socialismo reformista argentinos sobre el siglo XIX y adelantó explicaciones económicas que retomaron autores posteriores.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-critica-de-la-historiografia-argentina",
+      "titulo": "Historia crítica de la historiografía argentina",
+      "titulo_original": null,
+      "autor": "Rómulo D. Carbia",
+      "autor_id": "romulo-carbia",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1925,
+        "anio_hasta": 1940,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1536,
+        "hasta": 1925
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, primero como Historia de la historiografía argentina (1925) y después ampliado",
+      "resumen": "Primera historia sistemática de la historiografía argentina, desde los cronistas coloniales hasta los historiadores de comienzos del siglo XX. Carbia clasifica a los autores del siglo XIX en una escuela «filosofista», que interpretaba sin suficiente apoyo documental, con Vicente Fidel López como figura principal, y otra «erudita» o documental, encabezada por Mitre, y presenta a la Nueva Escuela Histórica, a la que él pertenecía, como su continuación.",
+      "por_que_importa": "Fijó la clasificación con que se recordó la polémica Mitre-López; escrita por un miembro de la Nueva Escuela, funcionó también como genealogía de esa escuela.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-representacion-de-los-hacendados-molinari",
+      "titulo": "La Representación de los Hacendados de Mariano Moreno: su ninguna influencia en la vida económica del país y en los sucesos de mayo de 1810",
+      "titulo_original": null,
+      "autor": "Diego Luis Molinari",
+      "autor_id": "diego-luis-molinari",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1809,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio que discute el lugar que la historiografía, desde Mitre, había dado a la Representación de los Hacendados que Mariano Moreno escribió en 1809 a favor del comercio con los británicos. Molinari sostiene, con documentos del virreinato, que el escrito no influyó en la decisión del virrey Cisneros de permitir ese comercio ni en los hechos de mayo de 1810.",
+      "por_que_importa": "Es un ejemplo temprano del método de la Nueva Escuela Histórica, que revisaba con documentos las afirmaciones de la historia heredada.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ensayo-historico-sobre-la-revolucion-de-mayo",
+      "titulo": "Ensayo histórico sobre la Revolución de Mayo y Mariano Moreno",
+      "titulo_original": null,
+      "autor": "Ricardo Levene",
+      "autor_id": "ricardo-levene",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1920,
+        "anio_hasta": 1921,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1776,
+        "hasta": 1811
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro en dos tomos",
+      "resumen": "Estudio de los aspectos políticos, jurídicos y económicos de la Revolución de Mayo y de la actuación de Mariano Moreno, basado en documentos del virreinato. Levene busca las raíces de la revolución en la economía del Río de la Plata de fines del siglo XVIII, en las instituciones coloniales y en las ideas de la Ilustración.",
+      "por_que_importa": "Es una de las obras con que la Nueva Escuela Histórica sumó la historia económica e institucional al relato político heredado de Mitre.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "asambleas-constituyentes-argentinas",
+      "titulo": "Asambleas constituyentes argentinas",
+      "titulo_original": null,
+      "autor": "Emilio Ravignani",
+      "autor_id": "emilio-ravignani",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1937,
+        "anio_hasta": 1939,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1813,
+        "hasta": 1898
+      },
+      "idioma_original": "Español",
+      "soporte": "Compilación documental en seis tomos (siete volúmenes), editada por el Instituto de Investigaciones Históricas de la Facultad de Filosofía y Letras",
+      "resumen": "Compilación, ordenada y anotada por Emilio Ravignani, de las actas, diarios de sesiones, proyectos y documentos de las asambleas y congresos constituyentes argentinos desde la Asamblea del Año XIII, con los textos constitucionales y los pactos entre provincias que organizaron políticamente el país. Reúne textos que estaban dispersos en archivos, periódicos y ediciones oficiales.",
+      "por_que_importa": "Es la principal fuente impresa para estudiar la organización constitucional argentina y un ejemplo del trabajo documental de la Nueva Escuela Histórica.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-nacion-argentina-academia",
+      "titulo": "Historia de la Nación Argentina (desde los orígenes hasta la organización definitiva en 1862)",
+      "titulo_original": null,
+      "autor": "Ricardo Levene",
+      "autor_id": "ricardo-levene",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1936,
+        "anio_hasta": 1950,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "patagonia",
+          "gran-chaco"
+        ],
+        "desde": 1500,
+        "hasta": 1862
+      },
+      "idioma_original": "Español",
+      "soporte": "Obra colectiva en diez volúmenes, editada por la Junta de Historia y Numismática Americana, después Academia Nacional de la Historia",
+      "resumen": "Historia colectiva dirigida por Ricardo Levene y publicada con apoyo del Estado, en la que decenas de especialistas escribieron capítulos sobre los pueblos indígenas, la conquista, la colonia, la revolución, las guerras civiles y la organización nacional hasta 1862, con abundantes citas de documentos. Su plan sigue la periodización política tradicional (colonia, revolución, guerras civiles y organización) y la amplía con historia económica, institucional y cultural.",
+      "por_que_importa": "Fue la síntesis de la historiografía académica de su tiempo. Los revisionistas la llamaron «historia oficial» por su patrocinio estatal y por su continuidad con Mitre.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-argentina-dominguez",
+      "titulo": "Historia argentina",
+      "titulo_original": null,
+      "autor": "Luis L. Domínguez",
+      "autor_id": "luis-l-dominguez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1861,
+        "anio_hasta": 1868,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "paraguay-oriental"
+        ],
+        "desde": 1492,
+        "hasta": 1820
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, reeditado y corregido en 1868",
+      "resumen": "Manual de historia argentina desde el descubrimiento hasta 1820, escrito por un liberal porteño que había sido emigrado durante el gobierno de Rosas. Fue durante décadas el texto de enseñanza de la historia nacional.",
+      "por_que_importa": "Es uno de los primeros manuales de historia nacional, anterior a la Historia de Belgrano en su forma definitiva.",
+      "leer": [
+        {
+          "titulo": "Edición de 1868 de la primera parte, hasta 1807, en Internet Archive",
+          "url": "https://archive.org/details/historiaargentin00domi",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "juan-facundo-quiroga-pena",
+      "titulo": "Juan Facundo Quiroga",
+      "titulo_original": null,
+      "autor": "David Peña",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1906,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1788,
+        "hasta": 1835
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro basado en conferencias dadas en 1903 en la Facultad de Filosofía y Letras de Buenos Aires",
+      "resumen": "Estudio sobre el caudillo riojano Facundo Quiroga, nacido de una serie de conferencias que el escritor y dramaturgo David Peña dio en la Facultad de Filosofía y Letras de Buenos Aires. Discute el retrato que el Facundo de Sarmiento (1845) había fijado de Quiroga como símbolo de barbarie, atraso y crueldad, y reivindica su figura.",
+      "por_que_importa": "Los estudiosos del revisionismo la señalan como la primera reivindicación de Quiroga y como un antecedente de esa corriente. Muestra que la revisión de los caudillos empezó en la universidad de comienzos del siglo XX, antes del revisionismo nacionalista de los años treinta.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "juan-manuel-de-rosas-ibarguren",
+      "titulo": "Juan Manuel de Rosas: su vida, su tiempo, su drama",
+      "titulo_original": null,
+      "autor": "Carlos Ibarguren",
+      "autor_id": "carlos-ibarguren",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1793,
+        "hasta": 1877
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Biografía de Rosas escrita con documentos y con recursos narrativos, que lo presenta como un hombre de orden surgido de la campaña bonaerense, capaz de imponer la autoridad después de la anarquía, y que describe la represión como parte del drama de su época. Tuvo numerosas ediciones y un gran éxito de público.",
+      "por_que_importa": "Fue la primera biografía favorable a Rosas de gran difusión y abrió el camino al revisionismo nacionalista; apareció el año del golpe de José Félix Uriburu, al que su autor adhirió.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-argentina-y-el-imperialismo-britanico",
+      "titulo": "La Argentina y el imperialismo británico: los eslabones de una cadena, 1806-1933",
+      "titulo_original": null,
+      "autor": "Rodolfo Irazusta",
+      "autor_id": "rodolfo-irazusta",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "britania"
+        ],
+        "desde": 1806,
+        "hasta": 1933
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Libro de Rodolfo y Julio Irazusta escrito a partir de la crítica al pacto Roca-Runciman de 1933 con Gran Bretaña. Sostiene que desde las invasiones inglesas una oligarquía porteña unida a los intereses británicos había subordinado la economía argentina y que la historia liberal ocultaba esa dependencia; Rosas aparece como el gobernante que la resistió.",
+      "por_que_importa": "Unió la defensa de Rosas con la denuncia del imperialismo británico, un eje de todo el revisionismo posterior. Tulio Halperín Donghi (1970) vio en ese giro de los años treinta el paso del revisionismo de una revisión del período rosista a una interpretación política de toda la historia nacional.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "vida-politica-de-rosas",
+      "titulo": "Vida política de Juan Manuel de Rosas a través de su correspondencia",
+      "titulo_original": null,
+      "autor": "Julio Irazusta",
+      "autor_id": "julio-irazusta",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1941,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro en varios tomos, publicados desde 1941",
+      "resumen": "Historia política del gobierno de Rosas construida sobre su correspondencia y la de sus colaboradores, transcripta extensamente. Irazusta defiende la política exterior de Rosas frente a Francia y Gran Bretaña y su manejo de las relaciones con las provincias, y explica la represión como respuesta a las conspiraciones y a la guerra civil.",
+      "por_que_importa": "Es la obra más extensa de Julio Irazusta y una de las más citadas del revisionismo. La crítica principal, que vale para todo el revisionismo, es que usa los documentos del gobierno y justifica el terror como necesidad política; John Lynch (1981) reconstruyó el mismo período con otro juicio sobre la represión.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-historia-falsificada",
+      "titulo": "La historia falsificada",
+      "titulo_original": null,
+      "autor": "Ernesto Palacio",
+      "autor_id": "ernesto-palacio",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1939,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1939
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo breve que acusa a la historiografía liberal, de Mitre en adelante, de haber escrito una historia de partido que justificaba a los vencedores de Caseros y de Pavón y condenaba a los caudillos y a Rosas. Palacio llama a revisar esa historia desde un punto de vista nacionalista y católico.",
+      "por_que_importa": "Es uno de los manifiestos del revisionismo y dio difusión a la idea de una «historia oficial» falsificada; es un texto programático, no una investigación documental.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "vida-de-don-juan-manuel-de-rosas",
+      "titulo": "Vida de don Juan Manuel de Rosas",
+      "titulo_original": null,
+      "autor": "Manuel Gálvez",
+      "autor_id": "manuel-galvez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1793,
+        "hasta": 1877
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Biografía novelada de Rosas escrita por un novelista nacionalista que fue vicepresidente del Instituto Juan Manuel de Rosas. Presenta a Rosas como defensor de la nación y del orden católico frente a los unitarios y a las potencias europeas, con una admiración declarada.",
+      "por_que_importa": "Fue uno de los libros que llevaron la imagen revisionista de Rosas a un público amplio.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "politica-britanica-en-el-rio-de-la-plata",
+      "titulo": "Política británica en el Río de la Plata",
+      "titulo_original": null,
+      "autor": "Raúl Scalabrini Ortiz",
+      "autor_id": "scalabrini-ortiz",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "britania"
+        ],
+        "desde": 1806,
+        "hasta": 1940
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo sobre la influencia británica en la Argentina desde la independencia: el empréstito de la casa Baring de 1824, la mediación británica en la independencia del Uruguay, los ferrocarriles y la banca. Scalabrini Ortiz sostiene que la política británica buscó mantener al Río de la Plata dividido y dependiente y que la historia liberal la presentó como una amistad.",
+      "por_que_importa": "Fue, con su Historia de los ferrocarriles argentinos, una de las bases del antiimperialismo de FORJA y del peronismo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-caida-de-rosas",
+      "titulo": "La caída de Rosas",
+      "titulo_original": null,
+      "autor": "José María Rosa",
+      "autor_id": "jose-maria-rosa",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "brasil"
+        ],
+        "desde": 1843,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de la política exterior de los últimos años de Rosas y de la alianza entre el Imperio del Brasil, Urquiza y el gobierno de Montevideo que lo derrotó en Caseros, escrito durante el exilio de José María Rosa en España después de 1955. Rosa interpreta Caseros como una victoria de la diplomacia brasileña y de intereses extranjeros más que como una liberación.",
+      "por_que_importa": "Es uno de los libros de José María Rosa sobre la diplomacia del período; su lectura de Caseros es la del revisionismo, opuesta a la de la historiografía liberal, que la celebraba como el fin de la tiranía.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-guerra-del-paraguay-y-las-montoneras",
+      "titulo": "La guerra del Paraguay y las montoneras argentinas",
+      "titulo_original": null,
+      "autor": "José María Rosa",
+      "autor_id": "jose-maria-rosa",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1964,
+        "aprox": true,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "rio-de-la-plata",
+          "brasil",
+          "noroeste-argentino"
+        ],
+        "desde": 1862,
+        "hasta": 1870
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Libro que presenta la guerra de la Triple Alianza como una agresión del Brasil y del gobierno de Mitre contra el Paraguay de Francisco Solano López, en beneficio de intereses británicos, y la vincula con los levantamientos federales del interior contra la guerra, como el de Felipe Varela.",
+      "por_que_importa": "Difundió en la Argentina la versión revisionista de la guerra, que Francisco Doratioto y Thomas Whigham discutieron después con documentos de los archivos de los países beligerantes.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "politica-nacional-y-revisionismo-historico",
+      "titulo": "Política nacional y revisionismo histórico",
+      "titulo_original": null,
+      "autor": "Arturo Jauretche",
+      "autor_id": "jauretche",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1959
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo que sostiene que la historia escolar argentina, la de Mitre, fue un instrumento político para justificar un país agroexportador dependiente y que revisarla era una condición de toda política nacional. Jauretche propone leer el pasado según su utilidad para la emancipación económica del presente.",
+      "por_que_importa": "Hace explícita la ligazón entre revisionismo y peronismo después de 1955; Tulio Halperín Donghi (1970) hizo de esa subordinación de la historia a la política la objeción principal de la historiografía académica al revisionismo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "de-la-colonia-a-la-revolucion",
+      "titulo": "De la colonia a la revolución",
+      "titulo_original": null,
+      "autor": "Rodolfo Puiggrós",
+      "autor_id": "rodolfo-puiggros",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1536,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo marxista sobre la sociedad colonial rioplatense y los orígenes de la revolución de 1810, escrito cuando Puiggrós militaba en el Partido Comunista. Interpreta la colonia como una sociedad de rasgos feudales y la revolución como el comienzo de una transformación burguesa.",
+      "por_que_importa": "Abrió la discusión marxista sobre el carácter de la sociedad colonial, en la que Sergio Bagú (1949) y Milcíades Peña sostuvieron la tesis opuesta, la de una economía colonial ya orientada al mercado mundial.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "rosas-el-pequeno",
+      "titulo": "Rosas el pequeño",
+      "titulo_original": null,
+      "autor": "Rodolfo Puiggrós",
+      "autor_id": "rodolfo-puiggros",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Montevideo",
+        "lon": -56.1645,
+        "lat": -34.9011
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo marxista contra la reivindicación nacionalista de Rosas, publicado en Montevideo, que presenta al gobernador como representante de los estancieros y saladeristas bonaerenses y no como defensor de la nación.",
+      "por_que_importa": "Muestra la posición de la izquierda comunista de los años cuarenta frente al revisionismo rosista, que el propio Puiggrós matizó después, cuando se acercó al peronismo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "revolucion-y-contrarrevolucion",
+      "titulo": "Revolución y contrarrevolución en la Argentina",
+      "titulo_original": null,
+      "autor": "Jorge Abelardo Ramos",
+      "autor_id": "jorge-abelardo-ramos",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1810,
+        "hasta": 1957
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Historia argentina escrita desde la «izquierda nacional», que combina categorías marxistas con el revisionismo. La Revolución de Mayo aparece como parte de una revolución hispanoamericana cuya unidad frustraron la oligarquía porteña y su alianza con Gran Bretaña; los caudillos del interior representan a las masas y a la nación, y el peronismo continúa esa lucha. Ramos critica a la vez a la historia liberal y a la izquierda tradicional, a la que acusa de haber aceptado el relato de Mitre.",
+      "por_que_importa": "Fue el libro de historia más leído de la izquierda nacional y llevó el revisionismo a lectores marxistas y peronistas. Milcíades Peña le reprochó, desde el marxismo, idealizar a los caudillos y subordinar el análisis de clases a la alianza con el peronismo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-del-pueblo-argentino",
+      "titulo": "Historia del pueblo argentino",
+      "titulo_original": null,
+      "autor": "Milcíades Peña",
+      "autor_id": "milciades-pena",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1955,
+        "anio_hasta": 1973,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1536,
+        "hasta": 1955
+      },
+      "idioma_original": "Español",
+      "soporte": "Escrita entre 1955 y 1957 y publicada después de la muerte del autor en seis libros (1968-1973); reunida en un tomo en 2012",
+      "resumen": "Historia marxista que explica el pasado argentino por la estructura de clases y la inserción del país en el mercado mundial. Peña sostiene que la sociedad colonial ya estaba orientada al mercado y no era feudal, que unitarios y federales fueron fracciones de una misma clase de terratenientes y comerciantes, que Rosas fue el gran estanciero de esa clase y no un defensor del pueblo, y condena la guerra del Paraguay.",
+      "por_que_importa": "Discutió a la vez con la historia liberal, con el revisionismo nacionalista y con la izquierda nacional de Jorge Abelardo Ramos, y fue citada después por historiadores académicos como Tulio Halperín Donghi.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-guerra-del-paraguay-pomer",
+      "titulo": "La guerra del Paraguay: ¡gran negocio!",
+      "titulo_original": null,
+      "autor": "León Pomer",
+      "autor_id": "leon-pomer",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "rio-de-la-plata",
+          "brasil",
+          "britania"
+        ],
+        "desde": 1862,
+        "hasta": 1870
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro, reeditado como La guerra del Paraguay: Estado, política y negocios",
+      "resumen": "Estudio de la guerra de la Triple Alianza que destaca los negocios de los proveedores del ejército y de los comerciantes porteños, la oposición a la guerra en las provincias y la resistencia de los reclutas. Pomer sostiene que la guerra sirvió a la oligarquía porteña, al Imperio del Brasil y al capital británico contra un Paraguay de desarrollo autónomo.",
+      "por_que_importa": "Difundió en la izquierda y en el revisionismo la tesis de una guerra impulsada por intereses británicos. Francisco Doratioto (2002) y Thomas Whigham (2002), con los archivos de los países beligerantes, y Leslie Bethell (1996), con los papeles británicos, concluyeron que esa tesis no tiene respaldo documental y explicaron la guerra por los conflictos entre los Estados de la región.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "genocidio-americano",
+      "titulo": "Genocidio americano: la guerra del Paraguay",
+      "titulo_original": "Genocídio americano: a Guerra do Paraguai",
+      "autor": "Júlio José Chiavenato",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "San Pablo",
+        "lon": -46.634,
+        "lat": -23.55
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "brasil",
+          "rio-de-la-plata",
+          "britania"
+        ],
+        "desde": 1862,
+        "hasta": 1870
+      },
+      "idioma_original": "Portugués",
+      "soporte": null,
+      "resumen": "Libro de divulgación de un periodista brasileño que presenta la guerra como un genocidio planeado por el Imperio del Brasil y sus aliados al servicio de Gran Bretaña contra un Paraguay igualitario e independiente, y da cifras muy altas de pérdidas paraguayas.",
+      "por_que_importa": "Tuvo gran difusión en el Brasil durante la dictadura militar y popularizó la tesis antiimperialista; Francisco Doratioto lo criticó por la falta de base documental de sus afirmaciones.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "maldita-guerra",
+      "titulo": "Maldita guerra: nueva historia de la guerra del Paraguay",
+      "titulo_original": "Maldita guerra: nova história da Guerra do Paraguai",
+      "autor": "Francisco Doratioto",
+      "autor_id": "francisco-doratioto",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "San Pablo",
+        "lon": -46.634,
+        "lat": -23.55
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "brasil",
+          "rio-de-la-plata"
+        ],
+        "desde": 1862,
+        "hasta": 1870
+      },
+      "idioma_original": "Portugués",
+      "soporte": null,
+      "resumen": "Historia general de la guerra de la Triple Alianza basada en archivos del Brasil, la Argentina, el Uruguay y el Paraguay y en documentos diplomáticos británicos. Doratioto explica la guerra por la rivalidad entre los Estados de la región en torno al Uruguay y a la navegación de los ríos, por la intervención brasileña en el Uruguay y por los cálculos de Francisco Solano López, y no encuentra pruebas de que Gran Bretaña la haya promovido.",
+      "por_que_importa": "Es una de las síntesis académicas más citadas sobre la guerra y una de las principales refutaciones de las tesis de León Pomer y de Júlio José Chiavenato.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-paraguayan-war-whigham",
+      "titulo": "La guerra del Paraguay, tomo 1: causas y primeras operaciones",
+      "titulo_original": "The Paraguayan War. Volume 1: Causes and Early Conduct",
+      "autor": "Thomas L. Whigham",
+      "autor_id": "thomas-whigham",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Lincoln (Nebraska)",
+        "lon": -96.678,
+        "lat": 40.809
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "brasil",
+          "rio-de-la-plata"
+        ],
+        "desde": 1840,
+        "hasta": 1866
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Primer tomo de una historia de la guerra de la Triple Alianza que estudia sus causas en la formación de los Estados de la cuenca del Plata, las disputas de límites y de navegación y la política de Francisco Solano López, y narra las primeras campañas. Whigham usa archivos paraguayos, brasileños, argentinos y británicos.",
+      "por_que_importa": "Con Maldita guerra de Doratioto es una de las principales investigaciones académicas sobre la guerra; los dos explican el conflicto por causas regionales y no por un plan británico.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-paraguayan-rosetta-stone",
+      "titulo": "La piedra Rosetta paraguaya: nuevas luces sobre la demografía de la guerra del Paraguay, 1864-1870",
+      "titulo_original": "The Paraguayan Rosetta Stone: New Insights into the Demographics of the Paraguayan War, 1864-1870",
+      "autor": "Thomas L. Whigham",
+      "autor_id": "thomas-whigham",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Athens (Georgia)",
+        "lon": -83.383,
+        "lat": 33.955
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental"
+        ],
+        "desde": 1846,
+        "hasta": 1871
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en Latin American Research Review, escrito con Barbara Potthast",
+      "resumen": "Artículo de Thomas Whigham y Barbara Potthast que, a partir de un censo paraguayo de 1846 y de los recuentos de posguerra, estima la población del Paraguay antes de la guerra entre 420.000 y 450.000 habitantes y sus pérdidas entre el 60 y el 69 por ciento.",
+      "por_que_importa": "Es una de las estimaciones académicas más citadas de las pérdidas paraguayas y la respuesta directa a Vera Blinn Reber, que había propuesto cifras mucho menores. Reber y Jan Kleinpenning discutieron su método, y Whigham y Potthast les respondieron en 2002.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-demographics-of-paraguay-reber",
+      "titulo": "La demografía del Paraguay: una reinterpretación de la Gran Guerra, 1864-1870",
+      "titulo_original": "The Demographics of Paraguay: A Reinterpretation of the Great War, 1864-70",
+      "autor": "Vera Blinn Reber",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Durham (Carolina del Norte)",
+        "lon": -78.899,
+        "lat": 35.994
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental"
+        ],
+        "desde": 1846,
+        "hasta": 1871
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo en Hispanic American Historical Review",
+      "resumen": "Artículo que revisa las fuentes demográficas paraguayas y sostiene que las pérdidas de población en la guerra, aunque graves, habían sido muy exageradas, y que buena parte de las muertes se debió a las epidemias y al hambre más que a los combates.",
+      "por_que_importa": "Abrió el debate académico sobre las cifras de la guerra, que siguió con el estudio de Whigham y Potthast (1999), con estimaciones mucho mayores.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-paraguayan-war-bethell",
+      "titulo": "La guerra del Paraguay (1864-1870)",
+      "titulo_original": "The Paraguayan War (1864-1870)",
+      "autor": "Leslie Bethell",
+      "autor_id": "leslie-bethell",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "brasil",
+          "rio-de-la-plata",
+          "britania"
+        ],
+        "desde": 1864,
+        "hasta": 1870
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Cuaderno de investigación del Institute of Latin American Studies de la Universidad de Londres",
+      "resumen": "Ensayo que examina el papel de Gran Bretaña en la guerra de la Triple Alianza con la documentación diplomática y financiera británica. Bethell concluye que el gobierno británico se mantuvo neutral, que no promovió la guerra y que los préstamos de bancos británicos a los aliados fueron limitados y no la determinaron.",
+      "por_que_importa": "Es la refutación más directa, desde los archivos británicos, de la tesis de una guerra provocada por el imperialismo británico.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "las-ideas-politicas-en-argentina",
+      "titulo": "Las ideas políticas en Argentina",
+      "titulo_original": null,
+      "autor": "José Luis Romero",
+      "autor_id": "jose-luis-romero",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1536,
+        "hasta": 1945
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Síntesis de la historia política argentina desde la colonia hasta 1945 a través de las ideas y de los grupos sociales que las sostuvieron. Romero distingue una tradición autoritaria de raíz colonial y otra liberal, describe el período de los caudillos como una «democracia inorgánica» de masas rurales y llama «era aluvial» a la Argentina transformada por la inmigración desde fines del siglo XIX.",
+      "por_que_importa": "Trató a la vez a la élite liberal y a las masas federales como actores de la historia política; categorías como «democracia inorgánica» y «era aluvial» fueron retomadas por la historiografía posterior.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "breve-historia-de-la-argentina",
+      "titulo": "Breve historia de la Argentina",
+      "titulo_original": null,
+      "autor": "José Luis Romero",
+      "autor_id": "jose-luis-romero",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "patagonia",
+          "gran-chaco"
+        ],
+        "desde": 1500,
+        "hasta": 1965
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Síntesis de la historia argentina desde la población indígena hasta mediados del siglo XX, escrita para la editorial universitaria Eudeba, que organiza el relato en torno a la formación de la sociedad, de la Argentina criolla a la aluvial, más que a las batallas y los gobiernos.",
+      "por_que_importa": "Tuvo muchas reediciones y muestra la historia social que la renovación universitaria posterior a 1955 opuso tanto al relato liberal como al revisionista.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "tradicion-politica-espanola-e-ideologia-revolucionaria-de-mayo",
+      "titulo": "Tradición política española e ideología revolucionaria de Mayo",
+      "titulo_original": null,
+      "autor": "Tulio Halperín Donghi",
+      "autor_id": "tulio-halperin-donghi",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "iberia"
+        ],
+        "desde": 1700,
+        "hasta": 1815
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de las ideas políticas con que se hizo la Revolución de Mayo, que discute la tesis de Manuel Giménez Fernández y de Guillermo Furlong sobre la raíz suareciana del pensamiento revolucionario. Halperín recorre la tradición política española, de la escolástica a la Ilustración y a la crisis de la monarquía de 1808, y sostiene que no puede trazarse una línea directa desde Francisco Suárez hasta los argumentos de 1810.",
+      "por_que_importa": "Es una de las principales respuestas académicas al debate sobre el origen doctrinario de Mayo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "el-revisionismo-historico-argentino",
+      "titulo": "El revisionismo histórico argentino",
+      "titulo_original": null,
+      "autor": "Tulio Halperín Donghi",
+      "autor_id": "tulio-halperin-donghi",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1880,
+        "hasta": 1970
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo breve que estudia el revisionismo como fenómeno político e intelectual, desde Saldías y Quesada hasta los autores nacionalistas de los años treinta y su encuentro con el peronismo. Halperín sostiene que el éxito del revisionismo se debió más a su función política, como crítica del orden liberal, que a nuevas investigaciones, y que no llegó a ofrecer una historia alternativa completa.",
+      "por_que_importa": "Es uno de los análisis del revisionismo más citados desde la historiografía académica.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "revolucion-y-guerra",
+      "titulo": "Revolución y guerra: formación de una élite dirigente en la Argentina criolla",
+      "titulo_original": null,
+      "autor": "Tulio Halperín Donghi",
+      "autor_id": "tulio-halperin-donghi",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "paraguay-oriental",
+          "andes"
+        ],
+        "desde": 1790,
+        "hasta": 1822
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de cómo la revolución y la guerra de independencia transformaron la sociedad rioplatense y su élite dirigente entre fines de la colonia y comienzos de la década de 1820. Halperín muestra el peso de la guerra en la militarización de la política, la aparición de una carrera revolucionaria como nueva vía de ascenso, el traslado de las bases del poder hacia la campaña y la desarticulación del espacio económico del virreinato, en lugar de un relato de héroes o de una nación preexistente.",
+      "por_que_importa": "Es una de las obras más citadas sobre la independencia en la historiografía universitaria argentina.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "una-nacion-para-el-desierto-argentino",
+      "titulo": "Una nación para el desierto argentino",
+      "titulo_original": null,
+      "autor": "Tulio Halperín Donghi",
+      "autor_id": "tulio-halperin-donghi",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1846,
+        "hasta": 1880
+      },
+      "idioma_original": "Español",
+      "soporte": "Estudio preliminar de la antología Proyecto y construcción de una nación (Caracas, 1980), publicado aparte en 1982",
+      "resumen": "Ensayo sobre los proyectos de nación de los intelectuales y políticos argentinos entre 1846 y 1880, como Alberdi, Sarmiento, Mitre y los hombres de la Confederación y de Buenos Aires, y sobre la distancia entre esos proyectos y el Estado que efectivamente se construyó hasta la federalización de Buenos Aires.",
+      "por_que_importa": "Estudia a los protagonistas de la organización nacional como autores de programas en competencia y no como fundadores predestinados, y es una de las interpretaciones más leídas del período.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "nacionalismo-y-liberalismo-economicos",
+      "titulo": "Nacionalismo y liberalismo económicos en Argentina, 1860-1880",
+      "titulo_original": null,
+      "autor": "José Carlos Chiaramonte",
+      "autor_id": "jose-carlos-chiaramonte",
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1860,
+        "hasta": 1880
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de los debates económicos argentinos entre 1860 y 1880, en especial las discusiones sobre la protección de la industria en el Congreso y en la prensa durante la crisis de mediados de la década de 1870, en las que Vicente Fidel López, Carlos Pellegrini y otros defendieron aranceles proteccionistas. Chiaramonte muestra que dentro de la élite liberal hubo una corriente de nacionalismo económico y que el librecambio no fue una doctrina unánime.",
+      "por_que_importa": "Discute la imagen, compartida por liberales y revisionistas, de una élite del siglo XIX entregada sin matices al librecambio.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ciudades-provincias-estados",
+      "titulo": "Ciudades, provincias, Estados: orígenes de la Nación Argentina (1800-1846)",
+      "titulo_original": null,
+      "autor": "José Carlos Chiaramonte",
+      "autor_id": "jose-carlos-chiaramonte",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1800,
+        "hasta": 1846
+      },
+      "idioma_original": "Español",
+      "soporte": "Antología de documentos con un extenso estudio preliminar",
+      "resumen": "Estudio y selección de documentos sobre la organización política del Río de la Plata desde fines de la colonia hasta 1846. Chiaramonte sostiene que en 1810 no existía una nación argentina: los sujetos soberanos fueron las ciudades y después las provincias, que actuaron como Estados independientes vinculados por pactos confederales, y la idea de una nacionalidad argentina anterior fue una construcción posterior del romanticismo y de la historiografía.",
+      "por_que_importa": "Es una crítica sistemática a la tesis de la nación preexistente de Mitre, que el revisionismo también daba por supuesta, y cambió la manera de estudiar el período de las autonomías provinciales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "aspectos-economicos-del-federalismo",
+      "titulo": "Aspectos económicos del federalismo argentino",
+      "titulo_original": "The Economic Aspects of Argentine Federalism, 1820-1852",
+      "autor": "Miron Burgin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1820,
+        "hasta": 1852
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro publicado por Harvard University Press, traducido al castellano en 1960",
+      "resumen": "Estudio de las bases económicas de los conflictos entre Buenos Aires y las provincias de 1820 a 1852: la aduana porteña, los aranceles, la moneda y las finanzas públicas. Burgin muestra que Buenos Aires conservó el control de las rentas de la aduana y analiza la ley de aduana de 1835 de Rosas, que protegió algunas producciones del interior, y explica el federalismo como expresión de intereses económicos regionales.",
+      "por_que_importa": "Fue la primera investigación académica sobre la economía del período rosista y sigue siendo una referencia para la cuestión de la aduana y de la navegación de los ríos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "juan-manuel-de-rosas-lynch",
+      "titulo": "Juan Manuel de Rosas",
+      "titulo_original": "Argentine Dictator: Juan Manuel de Rosas, 1829-1852",
+      "autor": "John Lynch",
+      "autor_id": "john-lynch",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.255,
+        "lat": 51.755
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1793,
+        "hasta": 1877
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro, traducido al castellano en 1984",
+      "resumen": "Biografía y estudio del régimen de Rosas basado en archivos argentinos y británicos. Lynch describe la base social del rosismo en los estancieros y en sectores populares urbanos y rurales, la economía ganadera y la política exterior, y sostiene que el terror, incluida la Mazorca, fue un instrumento deliberado de gobierno controlado desde arriba y no un exceso espontáneo.",
+      "por_que_importa": "Es una de las biografías académicas de Rosas más citadas y discute a la vez la condena moral de la historia liberal y la justificación revisionista de la represión. Jorge Myers estudió después el discurso republicano con que el rosismo se legitimaba, un aspecto que la imagen de una dictadura personal dejaba en segundo plano.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "orden-y-virtud",
+      "titulo": "Orden y virtud: el discurso republicano en el régimen rosista",
+      "titulo_original": null,
+      "autor": "Jorge Myers",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Bernal",
+        "lon": -58.283,
+        "lat": -34.7
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1829,
+        "hasta": 1852
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio del lenguaje político del rosismo a partir de la prensa oficial, los mensajes del gobierno y la propaganda. Myers sostiene que el régimen se presentó con un discurso republicano clásico, centrado en el orden, la virtud de los ciudadanos y la defensa de la república frente a sus enemigos internos y externos.",
+      "por_que_importa": "Desplazó la discusión sobre Rosas del juicio moral a la manera en que el régimen se legitimaba ante la sociedad.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "el-orden-conservador",
+      "titulo": "El orden conservador: la política argentina entre 1880 y 1916",
+      "titulo_original": null,
+      "autor": "Natalio R. Botana",
+      "autor_id": "natalio-botana",
+      "tipo": "secundaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1880,
+        "hasta": 1916
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio del régimen político argentino entre la primera presidencia de Julio A. Roca y la llegada de Hipólito Yrigoyen. Botana muestra cómo el Partido Autonomista Nacional y los gobernadores controlaron la sucesión presidencial bajo una Constitución que formalmente aseguraba el sufragio, con elecciones de baja participación y fraude, y cómo la reforma electoral de Roque Sáenz Peña de 1912 intentó abrir ese orden.",
+      "por_que_importa": "Es la interpretación clásica de la política de la república conservadora; estudios posteriores, como los de Hilda Sabato y Paula Alonso, matizaron la imagen de un régimen cerrado al mostrar la movilización electoral y la competencia entre facciones.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-formacion-del-estado-argentino",
+      "titulo": "La formación del Estado argentino",
+      "titulo_original": null,
+      "autor": "Oscar Oszlak",
+      "autor_id": "oscar-oszlak",
+      "tipo": "secundaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "patagonia",
+          "gran-chaco"
+        ],
+        "desde": 1852,
+        "hasta": 1880
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de cómo se construyó el Estado nacional argentino entre Caseros y 1880: la conquista del monopolio de la fuerza, la creación de un aparato fiscal y administrativo y la integración de las provincias. Oszlak distingue formas de «penetración» del Estado, represiva, material, cooperativa e ideológica, con que el gobierno central se impuso a los poderes provinciales.",
+      "por_que_importa": "Es una de las obras de referencia sobre la formación del Estado en la Argentina y aplica a ese proceso conceptos de la ciencia política.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "economia-de-la-sociedad-colonial",
+      "titulo": "Economía de la sociedad colonial: ensayo de historia comparada de América Latina",
+      "titulo_original": null,
+      "autor": "Sergio Bagú",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "andes",
+          "mesoamerica",
+          "brasil",
+          "caribe"
+        ],
+        "desde": 1500,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo de historia económica comparada que sostiene que las colonias ibéricas de América no fueron sociedades feudales sino economías orientadas desde su origen al mercado mundial, con formas de trabajo forzado al servicio de la producción para la exportación; Bagú las describe como un capitalismo colonial.",
+      "por_que_importa": "Es una de las obras principales de la tesis que discutió la interpretación feudal de la colonia sostenida por Rodolfo Puiggrós y otros autores marxistas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "las-doctrinas-populistas",
+      "titulo": "Las doctrinas populistas en la independencia de Hispano-América",
+      "titulo_original": null,
+      "autor": "Manuel Giménez Fernández",
+      "autor_id": "manuel-gimenez-fernandez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "iberia",
+          "andes",
+          "mesoamerica"
+        ],
+        "desde": 1808,
+        "hasta": 1825
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio que sostiene que los revolucionarios de 1810 de Buenos Aires y de otras capitales americanas fundaron la formación de juntas en la doctrina de Francisco Suárez y de la escolástica española sobre el origen popular del poder: al faltar el rey, la soberanía volvía a los pueblos. Giménez Fernández lee en ese sentido los argumentos del cabildo abierto del 22 de mayo y niega que la fuente principal haya sido Rousseau.",
+      "por_que_importa": "Abrió el debate entre la tesis suareciana, retomada por Guillermo Furlong, y la de la influencia de la Ilustración y de Rousseau, sostenida desde Mitre; Tulio Halperín Donghi (1961) cuestionó que pudiera probarse esa filiación directa.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata",
+      "titulo": "Nacimiento y desarrollo de la filosofía en el Río de la Plata, 1536-1810",
+      "titulo_original": null,
+      "autor": "Guillermo Furlong",
+      "autor_id": "guillermo-furlong",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1536,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Historia de la enseñanza y de los autores de filosofía en el Río de la Plata colonial, en especial en la Universidad de Córdoba y en los colegios jesuitas, basada en manuscritos de cursos y tesis. Furlong sostiene que la escolástica, y en particular la doctrina de Francisco Suárez sobre el origen popular del poder, formó a la generación de 1810 más que los autores de la Ilustración francesa.",
+      "por_que_importa": "Es la obra principal de Furlong sobre la tesis suareciana de la Revolución de Mayo y de la revalorización de la cultura colonial católica; la objeción principal, planteada por Halperín Donghi, es que de la enseñanza escolástica no se sigue que los revolucionarios actuaran según esa doctrina.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-conquista-del-desierto-walther",
+      "titulo": "La conquista del desierto",
+      "titulo_original": null,
+      "autor": "Juan Carlos Walther",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "rio-de-la-plata"
+        ],
+        "desde": 1527,
+        "hasta": 1885
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro publicado por el Círculo Militar",
+      "resumen": "Historia militar de la frontera sur, publicada por el Círculo Militar, que reúne partes, órdenes y memorias de las campañas contra los pueblos indígenas de la pampa y la Patagonia desde el siglo XVI hasta 1885, con la campaña de Julio A. Roca de 1879 como culminación. Presenta la conquista como una empresa de soberanía y civilización.",
+      "por_que_importa": "Fue durante décadas la historia de referencia de la Conquista del Desierto y transmite el punto de vista del Ejército; Enrique Mases y Walter Delrio estudiaron después lo que esa versión dejaba fuera: el destino de los prisioneros, el reparto de familias indígenas y la apropiación de sus tierras.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "estado-y-cuestion-indigena",
+      "titulo": "Estado y cuestión indígena: el destino final de los indios sometidos en el sur del territorio (1878-1910)",
+      "titulo_original": null,
+      "autor": "Enrique Hugo Mases",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "rio-de-la-plata"
+        ],
+        "desde": 1878,
+        "hasta": 1910
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio, basado en documentos oficiales, prensa y archivos, de lo que el Estado argentino hizo con los indígenas sometidos después de las campañas de 1878-1885: su concentración en depósitos como la isla Martín García, la separación de las familias, su distribución como peones, soldados y servidores domésticos y los proyectos de reducciones y colonias.",
+      "por_que_importa": "Abrió el estudio académico del destino de los vencidos de la Conquista del Desierto, que la historiografía militar había dejado fuera.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "indios-ejercito-y-frontera",
+      "titulo": "Indios, ejército y frontera",
+      "titulo_original": null,
+      "autor": "David Viñas",
+      "autor_id": "david-vinas",
+      "tipo": "secundaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "rio-de-la-plata",
+          "gran-chaco"
+        ],
+        "desde": 1860,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Ensayo escrito en el exilio mexicano de su autor, que relee la Conquista del Desierto y las campañas contra los indígenas a través de los textos de militares, viajeros y escritores del siglo XIX. Viñas sostiene que la violencia contra los indígenas fue constitutiva del Estado liberal y la relaciona con la represión de la dictadura militar de 1976.",
+      "por_que_importa": "Fue una de las primeras lecturas críticas de la Conquista del Desierto desde la izquierda intelectual; su paralelo con la dictadura muestra cómo se leyó ese pasado desde el presente político.",
+      "leer": [],
+      "confianza": "media"
+    }
+  ],
+  "personas": [
+    {
+      "id": "adolfo-saldias",
+      "nombre": "Adolfo Saldías",
+      "nacimiento": {
+        "anio": 1849,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "La Paz",
+        "lon": -68.133,
+        "lat": -16.496
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1878,
+        "hasta": 1914,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado",
+        "político"
+      ],
+      "resumen": "Abogado porteño que militó en el autonomismo de Adolfo Alsina, enfrentado a Mitre, y participó en la Revolución del Parque (1890). Con el archivo de Rosas, que Manuela Rosas le dejó consultar en Inglaterra, escribió la Historia de Rozas y su época (1881-1887), ampliada después como Historia de la Confederación Argentina (1892), la primera historia extensa del período que no partía de la condena de los emigrados unitarios. Murió en La Paz, Bolivia.",
+      "obras": [
+        "historia-de-la-confederacion-argentina"
+      ],
+      "wikipedia": {
+        "es": "Adolfo Saldías",
+        "en": "Adolfo Saldías"
+      },
+      "wikidata": "Q365158"
+    },
+    {
+      "id": "ernesto-quesada",
+      "nombre": "Ernesto Quesada",
+      "nacimiento": {
+        "anio": 1858,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Spiez",
+        "lon": 7.666,
+        "lat": 46.683
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1880,
+        "hasta": 1924,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "jurista",
+        "sociólogo"
+      ],
+      "resumen": "Jurista, sociólogo e historiador porteño, hijo del escritor y diplomático Vicente G. Quesada; de niño visitó a Rosas en su exilio cerca de Southampton. En La época de Rosas (1898) explicó al gobernador como producto de su tiempo, con documentos del archivo del general Ángel Pacheco. Fue titular de la cátedra de Sociología de la Facultad de Filosofía y Letras de Buenos Aires de 1904 a 1924.",
+      "obras": [
+        "la-epoca-de-rosas"
+      ],
+      "wikipedia": {
+        "es": "Ernesto Quesada"
+      },
+      "wikidata": "Q1356786"
+    },
+    {
+      "id": "adolfo-carranza",
+      "nombre": "Adolfo P. Carranza",
+      "nacimiento": {
+        "anio": 1857,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1889,
+        "hasta": 1914,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado",
+        "director de museo"
+      ],
+      "resumen": "Abogado e historiador porteño que propuso la creación del Museo Histórico de la Capital (1889), nacionalizado en 1891 como Museo Histórico Nacional, y lo dirigió durante veinticinco años, hasta su muerte. Reunió en él objetos y documentos de la independencia y de las guerras civiles que estaban dispersos en dependencias del Estado y en colecciones privadas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Adolfo Carranza",
+        "en": "Adolfo Carranza"
+      },
+      "wikidata": "Q2824723"
+    },
+    {
+      "id": "ricardo-levene",
+      "nombre": "Ricardo Levene",
+      "nacimiento": {
+        "anio": 1885,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1911,
+        "hasta": 1959,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "jurista"
+      ],
+      "resumen": "Historiador porteño, una de las figuras de la Nueva Escuela Histórica, profesor en La Plata y en Buenos Aires y estudioso de la historia económica del virreinato y del derecho indiano. Presidió la Junta de Historia y Numismática Americana, a la que en 1938 dio el nombre de Academia Nacional de la Historia, y dirigió la Historia de la Nación Argentina (1936-1950). En Las Indias no eran colonias (1951) sostuvo que los territorios americanos eran reinos de la corona y no colonias.",
+      "obras": [
+        "las-indias-no-eran-colonias",
+        "ensayo-historico-sobre-la-revolucion-de-mayo",
+        "historia-de-la-nacion-argentina-academia"
+      ],
+      "wikipedia": {
+        "es": "Ricardo Levene",
+        "en": "Ricardo Levene"
+      },
+      "wikidata": "Q3330413"
+    },
+    {
+      "id": "emilio-ravignani",
+      "nombre": "Emilio Ravignani",
+      "nacimiento": {
+        "anio": 1886,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1912,
+        "hasta": 1954,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "jurista",
+        "político"
+      ],
+      "resumen": "Historiador porteño de la Nueva Escuela Histórica, que dirigió de 1920 a 1946 la sección de investigaciones históricas de la Facultad de Filosofía y Letras de Buenos Aires, convertida en 1921 en Instituto de Investigaciones Históricas y hoy llamada con su nombre. Bajo su dirección el instituto publicó series de documentos, entre ellas Asambleas constituyentes argentinas (1937-1939). Fue diputado nacional por la Unión Cívica Radical.",
+      "obras": [
+        "asambleas-constituyentes-argentinas"
+      ],
+      "wikipedia": {
+        "es": "Emilio Ravignani"
+      },
+      "wikidata": "Q5831295"
+    },
+    {
+      "id": "diego-luis-molinari",
+      "nombre": "Diego Luis Molinari",
+      "nacimiento": {
+        "anio": 1889,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1914,
+        "hasta": 1955,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado",
+        "político"
+      ],
+      "resumen": "Historiador porteño formado desde 1914 en la sección de investigaciones históricas de la Facultad de Filosofía y Letras, junto con Ravignani y Carbia. En La Representación de los Hacendados de Mariano Moreno (1914) sostuvo que ese escrito no había influido en la apertura del comercio de 1809. Fue funcionario de Hipólito Yrigoyen y senador radical (1928), adhirió luego al peronismo y dirigió el Instituto de Investigaciones Históricas de 1946 a 1955.",
+      "obras": [
+        "la-representacion-de-los-hacendados-molinari"
+      ],
+      "wikipedia": {
+        "es": "Diego Luis Molinari"
+      },
+      "wikidata": "Q5393902"
+    },
+    {
+      "id": "carlos-ibarguren",
+      "nombre": "Carlos Ibarguren",
+      "nacimiento": {
+        "anio": 1877,
+        "aprox": false,
+        "lugar": "Salta",
+        "lon": -65.411,
+        "lat": -24.788
+      },
+      "muerte": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1900,
+        "hasta": 1956,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "jurista",
+        "político"
+      ],
+      "resumen": "Abogado y político salteño, candidato presidencial del Partido Demócrata Progresista en 1922, que en los años veinte pasó del liberalismo al nacionalismo corporativista. Su biografía Juan Manuel de Rosas (1930) fue la primera favorable al gobernador con gran difusión. Después del golpe de 1930 fue interventor federal en Córdoba.",
+      "obras": [
+        "juan-manuel-de-rosas-ibarguren"
+      ],
+      "wikipedia": {
+        "es": "Carlos Ibarguren",
+        "en": "Carlos Ibarguren"
+      },
+      "wikidata": "Q2939375"
+    },
+    {
+      "id": "rodolfo-irazusta",
+      "nombre": "Rodolfo Irazusta",
+      "nacimiento": {
+        "anio": 1897,
+        "aprox": false,
+        "lugar": "Gualeguaychú‎",
+        "lon": -58.511,
+        "lat": -33.008
+      },
+      "muerte": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1927,
+        "hasta": 1967,
+        "aprox": false
+      },
+      "roles": [
+        "periodista",
+        "político"
+      ],
+      "resumen": "Periodista y político nacionalista de Gualeguaychú, influido por Charles Maurras, que dirigió el periódico La Nueva República (1927). Con su hermano Julio escribió La Argentina y el imperialismo británico (1934) y participó en la fundación del Instituto Juan Manuel de Rosas.",
+      "obras": [
+        "la-argentina-y-el-imperialismo-britanico"
+      ],
+      "wikipedia": {
+        "es": "Rodolfo Irazusta",
+        "en": "Rodolfo Irazusta"
+      },
+      "wikidata": "Q7357166"
+    },
+    {
+      "id": "julio-irazusta",
+      "nombre": "Julio Irazusta",
+      "nacimiento": {
+        "anio": 1899,
+        "aprox": false,
+        "lugar": "Gualeguaychú‎",
+        "lon": -58.511,
+        "lat": -33.008
+      },
+      "muerte": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Gualeguaychú‎",
+        "lon": -58.511,
+        "lat": -33.008
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1927,
+        "hasta": 1982,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "periodista",
+        "político"
+      ],
+      "resumen": "Escritor nacionalista de Gualeguaychú, hermano menor de Rodolfo Irazusta, con quien escribió La Argentina y el imperialismo británico (1934). Su Vida política de Juan Manuel de Rosas a través de su correspondencia, publicada en varios tomos desde 1941, reúne y comenta extensamente la correspondencia de Rosas y de sus colaboradores.",
+      "obras": [
+        "vida-politica-de-rosas"
+      ],
+      "wikipedia": {
+        "es": "Julio Irazusta",
+        "en": "Julio Irazusta"
+      },
+      "wikidata": "Q6309352"
+    },
+    {
+      "id": "ernesto-palacio",
+      "nombre": "Ernesto Palacio",
+      "nacimiento": {
+        "anio": 1900,
+        "aprox": false,
+        "lugar": "Ciudad de General San Martín",
+        "lon": -58.538,
+        "lat": -34.577
+      },
+      "muerte": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1927,
+        "hasta": 1979,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "periodista",
+        "historiador"
+      ],
+      "resumen": "Escritor nacionalista, jefe de redacción de La Nueva República (1927). Su ensayo La historia falsificada (1939) acusó a la historiografía liberal de haber escrito una historia de partido y fue uno de los manifiestos del revisionismo. Fue diputado nacional peronista (1946-1952) y publicó una Historia de la Argentina, 1515-1938 (1954).",
+      "obras": [
+        "la-historia-falsificada"
+      ],
+      "wikipedia": {
+        "es": "Ernesto Palacio (escritor)",
+        "en": "Ernesto Palacio (writer)"
+      },
+      "wikidata": "Q5394229"
+    },
+    {
+      "id": "jose-maria-rosa",
+      "nombre": "José María Rosa",
+      "nacimiento": {
+        "anio": 1906,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1942,
+        "hasta": 1991,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado",
+        "diplomático"
+      ],
+      "resumen": "Abogado y profesor porteño que en Santa Fe fundó en 1938 un Instituto de Estudios Federalistas y fue uno de los historiadores más difundidos del revisionismo rosista; presidió varias veces el Instituto Juan Manuel de Rosas, la primera en 1951. Participó en el levantamiento peronista del general Valle (1956), se exilió y escribió La caída de Rosas (1958) y La guerra del Paraguay y las montoneras argentinas; con él una parte del peronismo adoptó la visión revisionista. En 1973 Perón lo nombró embajador en el Paraguay.",
+      "obras": [
+        "la-caida-de-rosas",
+        "la-guerra-del-paraguay-y-las-montoneras"
+      ],
+      "wikipedia": {
+        "es": "José María Rosa",
+        "en": "José María Rosa"
+      },
+      "wikidata": "Q6293326"
+    },
+    {
+      "id": "vicente-sierra",
+      "nombre": "Vicente D. Sierra",
+      "nacimiento": {
+        "anio": 1893,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1930,
+        "hasta": 1982,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado"
+      ],
+      "resumen": "Abogado e historiador porteño de la segunda generación del revisionismo, que subrayó el papel de la Iglesia católica y de la herencia hispánica en la historia argentina. Adhirió al peronismo y se apartó de él durante el conflicto con la Iglesia de 1954-1955. Su obra principal es una Historia de la Argentina en diez tomos, aparecidos entre fines de la década de 1950 y 1972.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vicente D. Sierra"
+      },
+      "wikidata": "Q140668826"
+    },
+    {
+      "id": "guillermo-furlong",
+      "nombre": "Guillermo Furlong",
+      "nacimiento": {
+        "anio": 1889,
+        "aprox": false,
+        "lugar": "Arroyo Seco",
+        "lon": -60.511,
+        "lat": -33.158
+      },
+      "muerte": {
+        "anio": 1974,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1915,
+        "hasta": 1974,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "historiador"
+      ],
+      "resumen": "Jesuita nacido en Arroyo Seco (Santa Fe), autor de una extensa obra sobre la cultura colonial rioplatense, las misiones y los jesuitas. En Nacimiento y desarrollo de la filosofía en el Río de la Plata (1952) sostuvo que la escolástica, y en especial Francisco Suárez, pesó más que Rousseau en la formación de los hombres de Mayo.",
+      "obras": [
+        "nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Guillermo Furlong"
+      },
+      "wikidata": "Q1530421"
+    },
+    {
+      "id": "rodolfo-puiggros",
+      "nombre": "Rodolfo Puiggrós",
+      "nacimiento": {
+        "anio": 1906,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "La Habana",
+        "lon": -82.359,
+        "lat": 23.137
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1940,
+        "hasta": 1974,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "periodista",
+        "político"
+      ],
+      "resumen": "Historiador y periodista porteño que escribió desde el marxismo sobre la colonia, la Revolución de Mayo y Rosas, primero como militante comunista y después, desde la década de 1940, cerca del peronismo. Fue rector de la Universidad de Buenos Aires en 1973 y murió exiliado en La Habana.",
+      "obras": [
+        "de-la-colonia-a-la-revolucion",
+        "rosas-el-pequeno"
+      ],
+      "wikipedia": {
+        "es": "Rodolfo Puiggrós"
+      },
+      "wikidata": "Q6110572"
+    },
+    {
+      "id": "jorge-abelardo-ramos",
+      "nombre": "Jorge Abelardo Ramos",
+      "nacimiento": {
+        "anio": 1921,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1945,
+        "hasta": 1994,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "historiador",
+        "periodista"
+      ],
+      "resumen": "Político y escritor porteño de origen trotskista que fundó la corriente de la «izquierda nacional», favorable al peronismo. En Revolución y contrarrevolución en la Argentina (1957) unió el revisionismo con categorías marxistas. Fue embajador en México del presidente Carlos Menem desde 1989.",
+      "obras": [
+        "revolucion-y-contrarrevolucion"
+      ],
+      "wikipedia": {
+        "es": "Jorge Abelardo Ramos"
+      },
+      "wikidata": "Q4389800"
+    },
+    {
+      "id": "milciades-pena",
+      "nombre": "Milcíades Peña",
+      "nacimiento": {
+        "anio": 1933,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "muerte": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1965,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "sociólogo"
+      ],
+      "resumen": "Historiador y sociólogo marxista nacido en La Plata, de formación trotskista, que discutió a la vez con la historia liberal, con el revisionismo nacionalista y con la izquierda nacional de Jorge Abelardo Ramos. Su Historia del pueblo argentino, escrita entre 1955 y 1957, se publicó después de su muerte, a los 32 años, en seis libros (1968-1973).",
+      "obras": [
+        "historia-del-pueblo-argentino"
+      ],
+      "wikipedia": {
+        "es": "Milcíades Peña (padre)"
+      },
+      "wikidata": "Q5940444"
+    },
+    {
+      "id": "leon-pomer",
+      "nombre": "León Pomer",
+      "nacimiento": {
+        "anio": 1928,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Asunción",
+        "lon": -57.634,
+        "lat": -25.28
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1960,
+        "hasta": 2010,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado"
+      ],
+      "resumen": "Abogado e historiador porteño que investigó en el Archivo General de la Nación y en el archivo del Museo Mitre la guerra de la Triple Alianza. Su libro La guerra del Paraguay (1968) difundió en la izquierda y en el revisionismo la tesis de una guerra al servicio de la oligarquía porteña, del Brasil y del capital británico. Exiliado en el Brasil durante la dictadura de 1976, enseñó en universidades de São Paulo y de Campinas; murió en Asunción.",
+      "obras": [
+        "la-guerra-del-paraguay-pomer"
+      ],
+      "wikipedia": {
+        "es": "León Pomer"
+      },
+      "wikidata": "Q140478476"
+    },
+    {
+      "id": "jose-luis-romero",
+      "nombre": "José Luis Romero",
+      "nacimiento": {
+        "anio": 1909,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Tokio",
+        "lon": 139.692,
+        "lat": 35.689
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1938,
+        "hasta": 1977,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador porteño, medievalista y estudioso de la historia social y de las ideas, una de las figuras de la renovación de la historia universitaria después de 1955: fue rector interventor de la Universidad de Buenos Aires en 1955 y decano de su Facultad de Filosofía y Letras en 1962. Escribió Las ideas políticas en Argentina (1946) y Breve historia de la Argentina (1965).",
+      "obras": [
+        "las-ideas-politicas-en-argentina",
+        "breve-historia-de-la-argentina"
+      ],
+      "wikipedia": {
+        "es": "José Luis Romero (historiador)"
+      },
+      "wikidata": "Q9014133"
+    },
+    {
+      "id": "tulio-halperin-donghi",
+      "nombre": "Tulio Halperín Donghi",
+      "nacimiento": {
+        "anio": 1926,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "activo": {
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87,
+        "desde": 1972,
+        "hasta": 2014,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador porteño, discípulo de José Luis Romero, que dejó la universidad argentina en 1966 y desde 1972 enseñó en la Universidad de California en Berkeley. Estudió el siglo XIX rioplatense en Revolución y guerra (1972) y en otros libros sobre las élites, las ideas y el Estado, y analizó el revisionismo como fenómeno político e intelectual (1970).",
+      "obras": [
+        "tradicion-politica-espanola-e-ideologia-revolucionaria-de-mayo",
+        "el-revisionismo-historico-argentino",
+        "revolucion-y-guerra",
+        "una-nacion-para-el-desierto-argentino"
+      ],
+      "wikipedia": {
+        "es": "Tulio Halperín Donghi",
+        "en": "Tulio Halperín Donghi"
+      },
+      "wikidata": "Q3541956"
+    },
+    {
+      "id": "jose-carlos-chiaramonte",
+      "nombre": "José Carlos Chiaramonte",
+      "nacimiento": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Arroyo Seco",
+        "lon": -60.511,
+        "lat": -33.158
+      },
+      "muerte": {
+        "anio": 2024,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1986,
+        "hasta": 2012,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador nacido en Arroyo Seco (Santa Fe), director del Instituto Ravignani de la Universidad de Buenos Aires de 1986 a 2012. Estudió el pensamiento económico argentino del siglo XIX y discutió la tesis de una nación argentina anterior a 1810: sostuvo que en la primera mitad del siglo los sujetos soberanos fueron las ciudades y las provincias.",
+      "obras": [
+        "nacionalismo-y-liberalismo-economicos",
+        "ciudades-provincias-estados"
+      ],
+      "wikipedia": {
+        "es": "José Carlos Chiaramonte"
+      },
+      "wikidata": "Q20995123"
+    },
+    {
+      "id": "john-lynch",
+      "nombre": "John Lynch",
+      "nacimiento": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "The Boldons",
+        "lon": -1.453,
+        "lat": 54.943
+      },
+      "muerte": {
+        "anio": 2018,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1961,
+        "hasta": 1987,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador británico de España y de la América hispana, profesor de la Universidad de Londres y director de su Instituto de Estudios Latinoamericanos. Su Argentine Dictator: Juan Manuel de Rosas (1981) es una de las biografías académicas de Rosas más citadas; escribió también sobre las revoluciones de independencia y sobre San Martín.",
+      "obras": [
+        "juan-manuel-de-rosas-lynch"
+      ],
+      "wikipedia": {
+        "es": "John Lynch (historiador)",
+        "en": "John Lynch (historian)"
+      },
+      "wikidata": "Q2889393"
+    },
+    {
+      "id": "francisco-doratioto",
+      "nombre": "Francisco Doratioto",
+      "nacimiento": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Atibaia",
+        "lon": -46.551,
+        "lat": -23.117
+      },
+      "activo": {
+        "lugar": "Brasilia",
+        "lon": -47.883,
+        "lat": -15.794,
+        "desde": 1995,
+        "hasta": 2020,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador brasileño, profesor de la Universidad de Brasilia y especialista en las relaciones del Brasil con los países del Río de la Plata. Su Maldita guerra (2002), basada en archivos de los países beligerantes, es una de las historias académicas de la guerra de la Triple Alianza más citadas.",
+      "obras": [
+        "maldita-guerra"
+      ],
+      "wikipedia": {
+        "es": "Francisco Doratioto",
+        "en": "Francisco Doratioto"
+      },
+      "wikidata": "Q10284728"
+    },
+    {
+      "id": "thomas-whigham",
+      "nombre": "Thomas L. Whigham",
+      "activo": {
+        "lugar": "Athens (Georgia)",
+        "lon": -83.383,
+        "lat": 33.955,
+        "desde": 1990,
+        "hasta": 2015,
+        "aprox": true
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador estadounidense, profesor de la Universidad de Georgia y especialista en el Paraguay del siglo XIX. Escribió The Paraguayan War (2002), sobre las causas y el comienzo de la guerra de la Triple Alianza, y con Barbara Potthast una estimación de las pérdidas de población paraguayas (1999).",
+      "obras": [
+        "the-paraguayan-war-whigham",
+        "the-paraguayan-rosetta-stone"
+      ]
+    },
+    {
+      "id": "leslie-bethell",
+      "nombre": "Leslie Bethell",
+      "nacimiento": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Inglaterra",
+        "lon": -1.0,
+        "lat": 53.0
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1966,
+        "hasta": 2010,
+        "aprox": false
+      },
+      "roles": [
+        "historiador"
+      ],
+      "resumen": "Historiador británico del Brasil y de América Latina, profesor de la Universidad de Londres y editor de la Cambridge History of Latin America. En un estudio de 1996 examinó con documentos británicos el papel de Gran Bretaña en la guerra del Paraguay.",
+      "obras": [
+        "the-paraguayan-war-bethell"
+      ],
+      "wikipedia": {
+        "es": "Leslie Bethell",
+        "en": "Leslie Bethell"
+      },
+      "wikidata": "Q9021890"
+    },
+    {
+      "id": "juan-alvarez",
+      "nombre": "Juan Álvarez",
+      "nacimiento": {
+        "anio": 1878,
+        "aprox": false,
+        "lugar": "Gualeguaychú‎",
+        "lon": -58.511,
+        "lat": -33.008
+      },
+      "muerte": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Rosario",
+        "lon": -60.639,
+        "lat": -32.958
+      },
+      "activo": {
+        "lugar": "Rosario",
+        "lon": -60.639,
+        "lat": -32.958,
+        "desde": 1905,
+        "hasta": 1954,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "abogado",
+        "juez"
+      ],
+      "resumen": "Abogado, juez e historiador nacido en Gualeguaychú y radicado en Rosario, procurador general de la Nación de 1935 a 1947. En Estudio sobre las guerras civiles argentinas (1914) explicó los conflictos del siglo XIX por causas económicas. En octubre de 1945 el presidente Edelmiro J. Farrell le encargó formar un gabinete que no llegó a asumir.",
+      "obras": [
+        "estudio-sobre-las-guerras-civiles-argentinas"
+      ],
+      "wikipedia": {
+        "es": "Juan Álvarez (historiador)",
+        "en": "Juan Álvarez (historian)"
+      },
+      "wikidata": "Q6301411"
+    },
+    {
+      "id": "manuel-gimenez-fernandez",
+      "nombre": "Manuel Giménez Fernández",
+      "nacimiento": {
+        "anio": 1896,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "activo": {
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389,
+        "desde": 1920,
+        "hasta": 1968,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "jurista",
+        "político"
+      ],
+      "resumen": "Catedrático sevillano de derecho canónico, ministro de Agricultura de la Segunda República por la CEDA y después opositor democristiano al franquismo. Historiador de Bartolomé de las Casas y del derecho indiano, en Las doctrinas populistas en la independencia de Hispano-América (1947) sostuvo que las juntas americanas de 1810 se fundaron en la doctrina de Francisco Suárez.",
+      "obras": [
+        "las-doctrinas-populistas"
+      ],
+      "wikipedia": {
+        "es": "Manuel Giménez Fernández",
+        "en": "Manuel Giménez Fernández"
+      },
+      "wikidata": "Q2741919"
+    },
+    {
+      "id": "natalio-botana",
+      "nombre": "Natalio R. Botana",
+      "nacimiento": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1965,
+        "hasta": 2023,
+        "aprox": false
+      },
+      "roles": [
+        "politólogo",
+        "historiador"
+      ],
+      "resumen": "Politólogo e historiador porteño. En El orden conservador (1977) estudió el régimen político argentino de 1880 a 1916 y la reforma electoral de Roque Sáenz Peña; presidió la Academia Nacional de la Historia de 2021 a 2023.",
+      "obras": [
+        "el-orden-conservador"
+      ],
+      "wikipedia": {
+        "es": "Natalio Botana"
+      },
+      "wikidata": "Q6038558"
+    },
+    {
+      "id": "oscar-oszlak",
+      "nombre": "Oscar Oszlak",
+      "nacimiento": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1970,
+        "hasta": 2023,
+        "aprox": false
+      },
+      "roles": [
+        "politólogo"
+      ],
+      "resumen": "Politólogo porteño, estudioso del Estado y de la administración pública en América Latina. En La formación del Estado argentino (1982) analizó cómo el gobierno nacional se impuso a los poderes provinciales entre 1852 y 1880.",
+      "obras": [
+        "la-formacion-del-estado-argentino"
+      ],
+      "wikipedia": {
+        "es": "Oscar Oszlak"
+      },
+      "wikidata": "Q136670293"
+    },
+    {
+      "id": "david-vinas",
+      "nombre": "David Viñas",
+      "nacimiento": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1950,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "crítico"
+      ],
+      "resumen": "Novelista y crítico porteño que releyó la literatura argentina en relación con la violencia política. En el exilio en México escribió Indios, ejército y frontera (1982), una lectura crítica de la Conquista del Desierto.",
+      "obras": [
+        "indios-ejercito-y-frontera"
+      ],
+      "wikipedia": {
+        "es": "David Viñas",
+        "en": "David Viñas"
+      },
+      "wikidata": "Q965392"
+    },
+    {
+      "id": "luis-l-dominguez",
+      "nombre": "Luis L. Domínguez",
+      "nacimiento": {
+        "anio": 1819,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1898,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1840,
+        "hasta": 1898,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "poeta",
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Poeta, político y diplomático porteño, emigrado en Montevideo durante el gobierno de Rosas. Su Historia argentina (1861), que llegaba hasta 1820, fue durante mucho tiempo el texto de enseñanza de la historia nacional; murió en Londres, donde era ministro plenipotenciario.",
+      "obras": [
+        "historia-argentina-dominguez"
+      ],
+      "wikipedia": {
+        "es": "Luis Lorenzo Domínguez",
+        "en": "Luis L. Domínguez"
+      },
+      "wikidata": "Q456235"
+    },
+    {
+      "id": "pacho-odonnell",
+      "nombre": "Pacho O'Donnell",
+      "nacimiento": {
+        "anio": 1941,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1980,
+        "hasta": 2020,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "médico",
+        "político"
+      ],
+      "resumen": "Médico psiquiatra, escritor y político porteño, autor de libros de divulgación histórica de orientación revisionista. Presidió el Instituto Nacional de Revisionismo Histórico Manuel Dorrego desde su creación en 2011 hasta su renuncia, a comienzos de 2014.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pacho O'Donnell",
+        "en": "Pacho O'Donnell"
+      },
+      "wikidata": "Q7122059"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "fundacion-del-archivo-general-de-la-nacion",
+      "titulo": "Fundación del Archivo General",
+      "anio": 1821,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Archivo General de la Nación",
+      "lon": -58.395,
+      "lat": -34.633,
+      "tipo": "fundacion",
+      "resumen": "El 28 de agosto de 1821, durante el gobierno de Martín Rodríguez en Buenos Aires, se creó el Archivo General de la Provincia para reunir los papeles del virreinato, de los gobiernos revolucionarios y de la administración provincial. En 1884 pasó a la Nación con el nombre de Archivo General de la Nación. Sus fondos sirvieron de base a Mitre, que trabajó en él para la Historia de Belgrano, y a la historiografía posterior.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Archivo General de la Nación (Argentina)",
+        "en": "General Archive of the Nation (Argentina)"
+      }
+    },
+    {
+      "id": "polemica-mitre-velez-sarsfield",
+      "titulo": "Polémica de Mitre y Vélez Sarsfield sobre Belgrano y Güemes",
+      "anio": 1864,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "cultural",
+      "resumen": "En 1864 Dalmacio Vélez Sarsfield publicó dos artículos titulados «Rectificaciones históricas: General Belgrano, General Güemes», con objeciones a hechos y juicios de la Historia de Belgrano. Mitre, entonces presidente de la República, le respondió ese mismo año con un libro que discutía cada objeción con documentos. Fue la primera de las polémicas que acompañaron a las sucesivas ediciones de la obra.",
+      "regiones": [
+        "rio-de-la-plata",
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "historia-de-belgrano",
+        "estudios-historicos-belgrano-y-guemes"
+      ]
+    },
+    {
+      "id": "polemica-mitre-lopez",
+      "titulo": "Polémica de Mitre y Vicente Fidel López",
+      "anio": 1881,
+      "anio_hasta": 1882,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "cultural",
+      "resumen": "Entre 1881 y 1882 Bartolomé Mitre y Vicente Fidel López discutieron en la prensa y en libros sobre la Historia de Belgrano y sobre la manera de escribir la historia: Mitre publicó las Comprobaciones históricas (1881) y las Nuevas comprobaciones (1882), y López le respondió con el Debate histórico (1882). Mitre exigía que cada afirmación se probara con documentos y acusaba a López de reconstruir hechos y diálogos sin pruebas; López defendía el valor de la tradición, de los testimonios de los protagonistas y de la interpretación de conjunto. Rómulo Carbia (1925) la describió como el choque entre una escuela «erudita» y otra «filosofista», y con ese esquema la Nueva Escuela Histórica se presentó como heredera del método de Mitre.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "comprobaciones-historicas",
+        "debate-historico-lopez",
+        "historia-de-belgrano",
+        "historia-de-la-republica-argentina-lopez"
+      ]
+    },
+    {
+      "id": "fundacion-del-museo-historico-nacional",
+      "titulo": "Fundación del Museo Histórico Nacional",
+      "anio": 1889,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Museo Histórico Nacional",
+      "lon": -58.371,
+      "lat": -34.627,
+      "tipo": "fundacion",
+      "resumen": "El 24 de mayo de 1889 el intendente de Buenos Aires, Francisco Seeber, creó el Museo Histórico de la Capital y nombró director a Adolfo P. Carranza, que lo había propuesto. Abrió al público en 1890, fue nacionalizado por un decreto del presidente Carlos Pellegrini del 26 de septiembre de 1891 y desde 1897 funciona en la casona de Lezama.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Museo Histórico Nacional (Argentina)",
+        "en": "National Historical Museum (Argentina)"
+      }
+    },
+    {
+      "id": "fundacion-de-la-junta-de-historia-y-numismatica",
+      "titulo": "Fundación de la Junta de Numismática Americana",
+      "anio": 1893,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "fundacion",
+      "resumen": "En 1893 un grupo de coleccionistas y estudiosos reunido por Bartolomé Mitre, entre ellos Alejandro Rosa, fundó en Buenos Aires la Junta de Numismática Americana, que pasó a llamarse Junta de Historia y Numismática Americana y que Mitre presidió hasta su muerte en 1906. En 1938, bajo la presidencia de Ricardo Levene, se convirtió en la Academia Nacional de la Historia. Los revisionistas la consideraron la guardiana de la «historia oficial».",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
+      "wikipedia": {
+        "es": "Academia Nacional de la Historia de la República Argentina",
+        "en": "National Academy of History of Argentina"
+      }
+    },
+    {
+      "id": "polemica-sobre-el-plan-de-operaciones",
+      "titulo": "Polémica sobre la autenticidad del Plan de operaciones",
+      "anio": 1896,
+      "anio_hasta": 1897,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "cultural",
+      "resumen": "En 1896 Norberto Piñero incluyó en los Escritos de Mariano Moreno el Plan de operaciones atribuido a Moreno, a partir de una copia conservada en España. Paul Groussac lo declaró apócrifo y polemizó con Ernesto Quesada y con Piñero, que le respondió en 1897, y la discusión sobre su autoría siguió durante todo el siglo XX. En su libro Un plagio bicentenario (2015), Diego Bauso mostró que partes del texto copian pasajes de la novela francesa El cementerio de la Magdalena, de Regnault-Warin, publicada desde 1800, un hallazgo que pesa contra la autoría de Moreno.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "plan-de-operaciones"
+      ]
+    },
+    {
+      "id": "fundacion-del-museo-mitre",
+      "titulo": "Creación del Museo Mitre",
+      "anio": 1907,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Museo Mitre",
+      "lon": -58.374,
+      "lat": -34.604,
+      "tipo": "fundacion",
+      "resumen": "Después de la muerte de Bartolomé Mitre, en enero de 1906, una ley autorizó al Poder Ejecutivo a comprar la casa en que había vivido, en la calle San Martín de Buenos Aires, para convertirla en museo, que abrió al público el 3 de junio de 1907. Guarda su biblioteca y su archivo, y publicó los Documentos del Archivo de San Martín (1910-1911).",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "archivo-de-san-martin"
+      ],
+      "wikipedia": {
+        "es": "Museo Mitre",
+        "en": "Museo Mitre"
+      }
+    },
+    {
+      "id": "creacion-del-instituto-de-investigaciones-historicas",
+      "titulo": "Creación del Instituto de Investigaciones Históricas de la Facultad de Filosofía y Letras",
+      "anio": 1921,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Instituto Ravignani",
+      "lon": -58.371,
+      "lat": -34.605,
+      "tipo": "fundacion",
+      "resumen": "En 1905 la Facultad de Filosofía y Letras de Buenos Aires creó una sección de investigaciones históricas, que desde 1912 tuvo a Luis María Torres como director y a Emilio Ravignani como encargado de investigaciones; en 1914 se sumaron Rómulo Carbia y Diego Luis Molinari. En diciembre de 1921, con Ravignani como director desde 1920, la sección se convirtió en el Instituto de Investigaciones Históricas, uno de los centros de la Nueva Escuela Histórica, que publicó grandes series de documentos.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "asambleas-constituyentes-argentinas"
+      ]
+    },
+    {
+      "id": "fundacion-del-instituto-rosas",
+      "titulo": "Fundación del Instituto Juan Manuel de Rosas",
+      "anio": 1938,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "fundacion",
+      "resumen": "En 1938 un grupo de escritores nacionalistas, entre ellos Manuel Gálvez, Roberto de Laferrère, Carlos Ibarguren, Ernesto Palacio y Rodolfo y Julio Irazusta, fundó en Buenos Aires el Instituto de Investigaciones Históricas Juan Manuel de Rosas, que publicó una revista y fue el centro del revisionismo rosista. Se propuso revisar la historia escrita por los vencedores de Caseros y reivindicar a Rosas como defensor de la soberanía frente a Francia y Gran Bretaña. Tulio Halperín Donghi (1970) lo estudió como una expresión del nacionalismo antiliberal de los años treinta, que leía el pasado según las luchas políticas del presente; desde los años cincuenta una parte de sus miembros, como José María Rosa, se identificó con el peronismo.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "juan-manuel-de-rosas-ibarguren",
+        "la-argentina-y-el-imperialismo-britanico",
+        "la-historia-falsificada"
+      ]
+    },
+    {
+      "id": "repatriacion-de-los-restos-de-rosas",
+      "titulo": "Repatriación de los restos de Rosas",
+      "anio": 1989,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cementerio de la Recoleta",
+      "lon": -58.393,
+      "lat": -34.588,
+      "tipo": "politico",
+      "resumen": "Rosas murió en el exilio en 1877 y fue enterrado en Southampton; desde 1934 hubo comisiones que pidieron traer sus restos, sin resultado durante décadas. El presidente Carlos Menem impulsó la repatriación como un gesto de «reconciliación nacional»: el 30 de septiembre de 1989 hubo un acto en Rosario, donde habló Menem, y una procesión con descendientes de Rosas y de sus enemigos, y los restos fueron sepultados en el cementerio de la Recoleta. Menem presentó la repatriación como parte de la «reconciliación nacional», la misma consigna con que justificó los indultos de octubre de 1989.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Repatriación de los restos de Juan Manuel de Rosas",
+        "en": "Repatriation of Juan Manuel de Rosas's body"
+      }
+    },
+    {
+      "id": "instituto-dorrego",
+      "titulo": "Instituto Nacional de Revisionismo Histórico Manuel Dorrego",
+      "anio": 2011,
+      "anio_hasta": 2015,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El decreto 1880/2011 de la presidenta Cristina Fernández de Kirchner, del 17 de noviembre de 2011, creó el Instituto Nacional de Revisionismo Histórico Argentino e Iberoamericano Manuel Dorrego, presidido primero por Pacho O'Donnell, para estudiar y difundir a las figuras reivindicadas por el revisionismo. Historiadores universitarios como Hilda Sabato, Mirta Lobato, Juan Suriano y Luis Alberto Romero lo criticaron porque ponía al Estado a promover una interpretación de la historia; su presidente rechazó esas críticas. El presidente Mauricio Macri lo disolvió a fines de 2015 por el decreto 269, publicado en el Boletín Oficial el 4 de enero de 2016.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Instituto Nacional de Revisionismo Histórico Argentino e Iberoamericano Manuel Dorrego",
+        "en": "Manuel Dorrego national institute"
+      }
+    },
+    {
+      "id": "dia-de-la-soberania-nacional",
+      "titulo": "Institución del Día de la Soberanía Nacional",
+      "anio": 1974,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "En 1974, a propuesta del historiador José María Rosa, el Congreso instituyó el 20 de noviembre, aniversario del combate de la Vuelta de Obligado (1845), como Día de la Soberanía Nacional, con promulgación de la presidenta María Estela Martínez de Perón. El 3 de noviembre de 2010 Cristina Fernández de Kirchner lo convirtió en feriado nacional por un decreto de necesidad y urgencia. La fecha consagra la lectura revisionista de Obligado como defensa de la soberanía; el historiador Luis Alberto Romero objetó que lo que defendía entonces el gobierno de Rosas era el monopolio comercial del puerto de Buenos Aires frente a las provincias, más que una causa nacional.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "la-caida-de-rosas"
+      ],
+      "wikipedia": {
+        "es": "Día de la Soberanía Nacional",
+        "en": "National Sovereignty Day"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "archivo-general-de-la-nacion",
+      "nombre": "Archivo General de la Nación",
+      "lon": -58.395,
+      "lat": -34.633,
+      "fundacion": 1821,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 3,
+      "resumen": "Mayor archivo de la Argentina, creado en 1821 como archivo de la Provincia de Buenos Aires y nacional desde 1884. Guarda los papeles del virreinato del Río de la Plata, de los gobiernos revolucionarios, de la Confederación y del Estado nacional, que fueron la base documental de casi toda la historiografía argentina. Desde 2020 funciona en una sede nueva en Parque Patricios.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Archivo General de la Nación (Argentina)",
+        "en": "General Archive of the Nation (Argentina)"
+      }
+    },
+    {
+      "id": "museo-historico-nacional",
+      "nombre": "Museo Histórico Nacional",
+      "lon": -58.371,
+      "lat": -34.627,
+      "fundacion": 1889,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Museo de historia argentina creado en 1889 como Museo Histórico de la Capital y nacional desde 1891, que funciona desde 1897 en la antigua casona de Lezama, frente al Parque Lezama, en San Telmo. Conserva objetos de la independencia, de las guerras civiles y de la organización nacional.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Museo Histórico Nacional (Argentina)",
+        "en": "National Historical Museum (Argentina)"
+      }
+    },
+    {
+      "id": "museo-mitre",
+      "nombre": "Museo Mitre",
+      "lon": -58.374,
+      "lat": -34.604,
+      "fundacion": 1907,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Casa colonial de la calle San Martín, en Buenos Aires, donde vivió Bartolomé Mitre, convertida en museo en 1907, un año después de su muerte. Guarda su biblioteca americana, su archivo y los papeles de San Martín que se publicaron en 1910 y 1911.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Museo Mitre",
+        "en": "Museo Mitre"
+      }
+    },
+    {
+      "id": "academia-nacional-de-la-historia",
+      "nombre": "Academia Nacional de la Historia",
+      "lon": -58.371,
+      "lat": -34.609,
+      "fundacion": 1893,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Corporación de historiadores que nació en 1893 como Junta de Numismática Americana, se llamó después Junta de Historia y Numismática Americana y tomó en 1938 su nombre actual. Entre 1918 y 1971 funcionó en el Museo Mitre y desde entonces tiene su sede en la sala de sesiones conservada del antiguo Congreso Nacional, junto a la Plaza de Mayo.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Academia Nacional de la Historia de la República Argentina",
+        "en": "National Academy of History of Argentina"
+      }
+    },
+    {
+      "id": "instituto-ravignani",
+      "nombre": "Instituto Ravignani",
+      "lon": -58.371,
+      "lat": -34.605,
+      "fundacion": 1905,
+      "abandono": null,
+      "aprox": false,
+      "tipo": "institucion",
+      "importancia": 2,
+      "resumen": "Instituto de historia de la Facultad de Filosofía y Letras de la Universidad de Buenos Aires, nacido como sección de investigaciones históricas en 1905, convertido en Instituto de Investigaciones Históricas en 1921 y llamado después de su muerte con el nombre de Emilio Ravignani, su director de 1920 a 1946. Publicó grandes colecciones de documentos y fue un centro de la Nueva Escuela Histórica y, después, de la historiografía académica.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "wikipedia": {
+        "es": "Instituto de Historia Argentina y Americana \"Dr. Emilio Ravignani\""
+      }
+    }
+  ]
+}

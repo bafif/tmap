@@ -94,6 +94,19 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       `aprox` y confianza baja, o dejarlas así.
 - [ ] **Más enlaces de lectura.** 104 enlaces comprobados para 69 fuentes; faltan traducciones en español y textos de
       sitios como el Medieval Sourcebook de Fordham o el Corpus Thomisticum.
+- [ ] **La Argentina hasta 1912: lo que quedó pendiente.** Sin enlace legal: las leyes de tierras de 1882-1885, el
+      Sistema económico y rentístico de Alberdi, Fronteras y territorios federales de Barros y buena parte de la
+      historiografía con derechos vigentes. Sin ficha por falta de datos verificables: los hospitales coloniales de
+      Santiago del Estero y Mendoza, la violencia unitaria de 1829 (Rauch) y la de Quiroga después de La Ciudadela, los
+      diputados rioplatenses en Cádiz, las obras de Eduardo Wilde, Miron Burgin como persona y el libro de Di Meglio
+      sobre la Mazorca. Por confirmar en el texto: la cifra de Lynch (unas 2000 muertes entre 1829 y 1852), las bajas
+      de Obligado según cada parte, la frase «Quiera el pueblo votar» del manifiesto de 1912, las cartas de Mitre y de
+      Sarmiento sobre el Chacho y el año del Instituto Rosas (1938 o 1941). Varias obras académicas todavía no dicen su
+      crítica principal con autor. Cuatro fuentes siguen sin lugar de escritura (el Requerimiento, el Demócrates alter,
+      la carta de Luis Ramírez y el diario de Luis de la Cruz). El inglés de estos paquetes es traducción automática:
+      conviene revisarlo. Con 4636 elementos, la prueba automática deja unos 5100 avisos «Out of resolver queries»
+      (con los datos anteriores eran 3500): `wiki.gd` pide la imagen de Wikipedia de cada ficha que abre, sin cola, y
+      se agota la de DNS de Godot; conviene encolar esos pedidos.
 - [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
       Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
       hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
@@ -149,6 +162,53 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: la Argentina de los pueblos originarios a la ley Sáenz Peña
+
+- [x] **Siete paquetes nuevos** con 382 fuentes, 420 personas, 549 hechos y 110 lugares (la enciclopedia pasa de 3175
+      a 4636 elementos) y 222 enlaces de lectura que respondieron 200, verificados contra Wikipedia y Wikidata con el
+      formato compacto. Cada tema lo escribió un agente y lo corrigió otro, un revisor adversarial que buscó errores
+      de hecho, sesgo y faltantes (193 correcciones). Wikipedia se usó con mirada crítica: los hechos disputados dicen
+      primero lo que muestran los documentos y después quién los interpreta cómo, sin adherir a la historia liberal
+      mitrista ni al revisionismo rosista, peronista o de izquierda.
+      - `pueblos-originarios-del-cono-sur`: arqueología y cada pueblo con su lengua y su destino; los collas y el
+        Qullasuyu; el dominio inca en el noroeste y Cuyo con los cronistas que lo registraron (Betanzos, Cieza,
+        Sarmiento de Gamboa y la tesis toledana de la «tiranía» inca, Guamán Poma, Garcilaso como contrapunto); las
+        guerras calchaquíes y la desnaturalización de los quilmes; la frontera sur de los malones a la Conquista del
+        Desierto, con las cifras oficiales de 1879 y lo que pasó con los prisioneros; Tierra del Fuego y el Chaco.
+      - `rio-de-la-plata-colonial`: exploración, fundaciones, gobernaciones y audiencias, el derecho indiano y el
+        debate sobre la conquista (Montesinos, Vitoria, Las Casas, Sepúlveda, Valladolid), la leyenda negra y la
+        leyenda rosa con obras de los dos lados (De Bry, Juderías, Carbia, Hanke, Powell, Keen, Roca Barea,
+        Villacañas), la caída demográfica con sus estimaciones, los jesuitas, la Universidad de Córdoba, el contrabando
+        y la aduana seca, la trata de esclavos y los primeros hospitales.
+      - `virreinato-e-independencia`: los doce virreyes con su mandato, las reformas borbónicas, las invasiones
+        inglesas, la crisis de 1808, las Cortes y la Constitución de Cádiz («la Pepa») y su derogación, Mayo con sus
+        actas y sus leyendas, el Plan de Operaciones y su polémica, las juntas, los triunviratos y los Directores
+        Supremos, la Asamblea del Año XIII, el Congreso de Tucumán, Artigas y las campañas de San Martín y Belgrano.
+      - `guerras-civiles-y-organizacion-nacional`: el año 20 y los caudillos, Rivadavia, la guerra con el Brasil, la
+        convención García con la que el gobierno nacional resignaba la Banda Oriental, la fundación del Uruguay, el
+        fusilamiento de Dorrego, la polémica Ferré-Roxas y Patrón y el Pacto Federal (las provincias no querían pagarle
+        a la aduana porteña para comerciar por el Paraná), y de Caseros a Pavón con la Constitución de 1853.
+      - `rosas-y-la-confederacion`: Rosas y la suma del poder público, la Sociedad Popular Restauradora y la Mazorca
+        con sus jefes, sus víctimas, el terror de 1840 y 1842, las confiscaciones y el juicio y la ejecución de los
+        mazorqueros en 1853; las cifras de las Tablas de sangre y su crítica; los bloqueos y Obligado con los partes y
+        los tratados de 1849-1850; la Generación del 37; las causas de Caseros y el juicio a Rosas (1857-1861).
+      - `argentina-1862-1912`: cada presidente con su mandato, la guerra del Paraguay con sus causas, el tratado
+        secreto, las pérdidas paraguayas y la oposición interna, las montoneras, el Estado liberal, la Generación del
+        80 con sus escritos, la cuestión social y la reforma electoral.
+      - `historiografia-argentina`: Mitre y López y su polémica, Saldías y Quesada, la Nueva Escuela Histórica, el
+        revisionismo nacionalista y el de izquierda, y la historiografía académica posterior, cada obra con lo que
+        sostiene y su crítica principal.
+- [x] Capas de cultura, idioma y religión del Río de la Plata (que tenía tres tramos), del noroeste argentino, la
+      Patagonia y el Gran Chaco (que no tenían ninguna), del poblamiento a 2000, con 13 familias nuevas.
+- [x] Revisión crítica de lo que ya estaba: 19 correcciones de fichas existentes (los nombres con «es:» que había dejado
+      el constructor, Juárez Celman y Roca concuñados y no cuñados, la cita mal armada del acta de independencia, la
+      del Manifiesto Liminar, los charrúas fuera de la pampa…), y otras a partir de lo que encontraron los temas: la
+      Conquista del Desierto ahora tiene fuentes y cifras oficiales, la Semana de Mayo cuenta los cabildos del 22 al 25,
+      el Facundo es fuente primaria, la Semana Trágica, la Patagonia rebelde y la ficha de Yrigoyen dicen bajo qué
+      gobierno ocurrieron las represiones, y la ley Sáenz Peña ya no dice que terminó con todo fraude.
+- [x] El inglés de los textos nuevos se tradujo en forma automática (Claude Haiku, en lotes con verificación de claves):
+      Google Translate rechaza las consultas automáticas.
 
 ### 10 de noviembre de 2026: la época contemporánea, en siete paquetes
 

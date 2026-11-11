@@ -68,7 +68,8 @@ runs well from an old laptop to a gaming PC.
   the land, and three interface themes: Marble and bronze, Illuminated parchment, and Ink and brass.
 - **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
   the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, the Holy Land from
-  Antiquity to today, and regions covering the rest of the world with their estimated population; the rest is filled
+  Antiquity to today, Argentine history from its Indigenous peoples to today, and regions covering the rest of the
+  world with their estimated population; the rest is filled
   in stages, and [a report generated from the data](docs/en/coverage.md) says what is covered and what
   is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
   human review.
@@ -117,6 +118,9 @@ Version 0.1: the first one that works end to end. The detailed log of what is do
       Gapminder and the UN, via Our World in Data) and a coverage report generated from the data
 - [x] Holy Land package: 7 regions, 176 sources (scriptures, crusade chronicles from every side, Jewish, Christian
       and Muslim thought, modern documents), 198 people, 172 events and 75 places, checked the same way
+- [x] Argentina from its Indigenous peoples to the Sáenz Peña law, in seven packages: 382 sources (minutes,
+      constitutions, treaties, laws, chronicles and the historiography of each school), 420 people (every viceroy and
+      president), 549 events and 110 places, with disputed topics told from the documents
 - [x] Religion, culture and language map modes (where data exists), with each period's real outline
 - [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
 - [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)
