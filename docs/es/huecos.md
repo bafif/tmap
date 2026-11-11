@@ -54,7 +54,8 @@ tools/enciclopedia/huecos/cache` para consultar de nuevo):
 | `obras` | obras (P50) de autores que ya tienen ficha, tan notables como las fuentes del tema | alta si superan la mediana del tema; media si no |
 | `candidatos` | hechos de los ejes del tema (batallas, tratados, revoluciones, desastres, expediciones, concilios) y personas de sus ocupaciones, ubicados en sus regiones y sus años | media si superan la mediana del tema; baja si no |
 
-`informe` muestra por defecto las prioridades alta y media (`--prioridad baja` para todo). Cada hueco tiene una
+`informe` muestra por defecto las prioridades alta y media; `--prioridad baja` muestra todo, que es lo que hay que
+rellenar. Cada hueco tiene una
 **clave** estable (`serie:Q12969145:Q254041`, `capa:levante:eras:1292:1515`…). Uno rellenado desaparece solo, porque
 los detectores comparan por QID, por id y por años. Uno que no se va a rellenar se anota en
 [`decisiones.json`](../../tools/enciclopedia/huecos/decisiones.json), con la fecha y el motivo:
@@ -101,9 +102,10 @@ lados, para que cada tema quede cerrado.
    que aparezca (el eslabón siguiente de una cadena recién completada, otra batalla de la guerra que se sumó) es la
    ronda siguiente.
 
-Se para cuando no queda nada de prioridad alta ni media en los paquetes elegidos, o cuando una ronda cierra menos de la
-mitad de lo que atacó: en ese caso algo anda mal (un alcance demasiado ancho, un detector que trae ruido) y conviene
-mirarlo antes de seguir.
+Se sigue ronda tras ronda hasta que los paquetes elegidos no tienen ningún hueco, de ninguna prioridad: la prioridad
+ordena el trabajo (primero lo alto), no decide qué se deja. Solo quedan los decididos, cada uno con su motivo. Si una
+ronda no cierra ninguno de los huecos que atacó, algo anda mal (un alcance demasiado ancho, un detector que trae ruido)
+y se mira antes de seguir: si no, la búsqueda daría vueltas sin fin.
 
 Al terminar:
 

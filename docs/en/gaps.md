@@ -54,7 +54,8 @@ query again):
 | `obras` | works (P50) by authors who already have an entry, as notable as the topic's sources | high above the topic's median; medium otherwise |
 | `candidatos` | events on the topic's axes (battles, treaties, revolutions, disasters, expeditions, councils) and people in its occupations, located in its regions and years | medium above the topic's median; low otherwise |
 
-`informe` shows high and medium priorities by default (`--prioridad baja` for everything). Every gap has a stable
+`informe` shows high and medium priorities by default; `--prioridad baja` shows everything, which is what has to be
+filled. Every gap has a stable
 **key** (`serie:Q12969145:Q254041`, `capa:levante:eras:1292:1515`…). A filled gap disappears by itself, because the
 detectors compare by QID, by id and by years. One that will not be filled is recorded in
 [`decisiones.json`](../../tools/enciclopedia/huecos/decisiones.json), with the date and the reason:
@@ -101,9 +102,10 @@ everywhere, so that each topic gets closed.
 7. **Check.** The report for those packages is run again: what was taken on must be gone. Whatever new shows up (the
    next link of a chain that was just completed, another battle of the war that was added) is the next round.
 
-It stops when nothing of high or medium priority is left in the chosen packages, or when a round closes less than half
-of what it took on: then something is wrong (a scope that is too wide, a noisy detector) and it is worth looking into
-before going on.
+Rounds go on until the chosen packages have no gaps left, of any priority: priority orders the work (high first), it
+does not decide what is left out. Only decided gaps remain, each with its reason. If a round closes none of the gaps it
+took on, something is wrong (a scope that is too wide, a noisy detector) and it is looked into before going on:
+otherwise the search would go round in circles.
 
 When finished:
 
