@@ -117,6 +117,18 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       digitalizados del Museo de Israel (dss.collections.imj.org.il) no respondían el 10/11/2026 y sus enlaces se
       sacaron. Los videos con que grupos yihadistas reivindican atentados no se enlazan, a propósito: los hechos
       dicen quién los reivindicó y cómo, con su artículo de Wikipedia.
+- [ ] **Los celtas: lo que quedó afuera.** Sin enlace porque los sitios no respondían al verificador el 11/11/2026:
+      LacusCurtius (casi todos los autores antiguos tienen enlace de Perseus, The Latin Library o Wikisource, pero no
+      todos), Hesperia (las inscripciones celtibéricas y lusitanas), RIIG (el calendario de Coligny), la Biblioteca
+      Virtual Cervantes (El cerco de Numancia) y legislation.gov.uk (las leyes galesas de 1535, 1993 y 2005). Sin copia
+      abierta verificada: Lebor Gabála, Sanas Cormaic, los escolios de Berna, el Senchas Már, la Cáin Adomnáin, las
+      leyes de Hywel, el Libro de Leinster y las glosas de Würzburgo. Sin ficha por falta de fuente comprobada: los
+      celtas de Silesia, las inscripciones nóricas, Panóias, Uley, Hayling Island, Corent, Monte Bibele, las
+      estimaciones modernas de población prerromana por autor (Beloch, McEvedy y Jones, Millett) y la cifra de muertos
+      de la matanza de Galba. 18 fuentes sin lugar de escritura (el Mabinogi, el Libro de Taliesin, el Senchas Már…).
+      Capas: el islam figura mayoritario en Anatolia y Galacia desde 1071 aunque la conversión fue gradual; pintar el
+      galó de la Alta Bretaña pide una subregión propia; Egipto, el Levante y el Magreb tienen tramos con dos entradas
+      mayoritarias a la vez. El inglés de estos paquetes es traducción automática.
 
 ### Almacenamiento y descargas
 
@@ -191,6 +203,64 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       `autor_id` del informe de Bialet Massé y de *Contra Apión*, y cuatro obras que faltaban en la ficha de su autor.
       Sin red corre en menos de un segundo; la primera corrida con red puede tardar media hora porque QLever frena los
       pedidos seguidos.
+
+### 11 de noviembre de 2026: los celtas, de sus raíces preindoeuropeas a su fin
+
+- [x] **Nueve paquetes nuevos** con 447 fuentes (249 primarias), 420 personas, 432 hechos, 131 lugares y 7 regiones
+      (la enciclopedia pasa de 4724 a 6161 elementos) y 193 enlaces de lectura que respondieron 200, verificados contra
+      Wikipedia y Wikidata con el formato compacto y con una revisión que buscó errores de hecho, sesgo y faltantes en
+      cada tema. Casi todo lo que se sabe de los
+      celtas antiguos viene de griegos y romanos que fueron sus enemigos, de la arqueología y de textos irlandeses y
+      galeses escritos por monjes siglos después: cada ficha dice de qué fuente sale lo que afirma, y en lo disputado
+      dice primero lo que muestran los documentos y la arqueología y después quién lo interpreta cómo, sin el bárbaro
+      de los vencedores ni el romanticismo celtómano. Cada obra moderna lleva su tesis y la crítica que recibió.
+      - `celtas-origenes-y-prehistoria`: los primeros agricultores y el megalitismo (Stonehenge y Newgrange, que no son
+        celtas), la ascendencia esteparia, el campaniforme, la Edad del Bronce, Hallstatt y sus principados (Hochdorf,
+        Vix, la Heuneburg, el Glauberg) y La Tène; las hipótesis sobre el origen de las lenguas celtas (Gimbutas,
+        Renfrew, Mallory, Anthony, «Celtic from the West», Sims-Williams) y los estudios genéticos, con su crítica
+        arqueológica; la escritura celta más antigua (el lepóntico de Castelletto Ticino, siglo VI a. C.); los pueblos y
+        lenguas anteriores o vecinos (tartesio, íbero, aquitano, etrusco, rético, ligur).
+      - `galos-y-galia`: los celtas de Italia según Polibio y Livio (con lo que es leyenda), Masalia, los arvernos, la
+        Narbonense, cimbrios y teutones, la guerra de las Galias campaña por campaña con unos 90 personajes, las cifras
+        de César como testimonio criticado (Henige, Rambaud, Raaflaub, Roymans), la sociedad gala según César y según la
+        arqueología, el vino a cambio de esclavos, la Galia romana y sus revueltas, la tabla claudiana y el fin del galo.
+      - `celtas-del-danubio-y-galacia`: boyos, el Nórico, escordiscos y eraviscos, la invasión de 280-277 a. C. y
+        Delfos (lo piadoso separado de lo verosímil), el reino de Tile, los gálatas, Pérgamo y sus estatuas, Deyótaro,
+        la carta de Pablo, el gálata que todavía oyó Jerónimo, los mercenarios helenísticos y el robo del oro de Manching.
+      - `celtas-de-hispania`: celtíberos, vacceos, vetones, lusitanos, galaicos, astures y cántabros con el debate de
+        su celticidad, sus vecinos íberos, Segeda, Numancia, Viriato, Sertorio, las guerras cántabras, los bronces de
+        Botorrita y las téseras de hospitalidad, Schulten y el mito de Numancia.
+      - `celtas-de-britania-e-irlanda`: la Edad del Hierro de las islas, la conquista romana con cada jefe britano
+        (Carataco, Cartimandua, Boudica, Calgaco), los pictos y el debate de su lengua, la Britania posromana con
+        Gildas y Arturo como debate, Irlanda (Tara, Emain Macha, el ogam, Paladio y Patricio, las leyes, el Táin y la
+        discusión de si es «una ventana a la Edad del Hierro») y Gales (el Gododdin, Taliesin, el Mabinogi, Hywel Dda).
+      - `religion-celta`: cómo se formó (lo anterior, lo heredado según la comparación indoeuropea con sus críticas, lo
+        tomado por contacto), los dioses con sus inscripciones, los druidas en todos los textos antiguos y en las
+        lecturas modernas, el sacrificio humano y las cabezas con la arqueología de cada lado, el calendario de Coligny
+        y las fiestas (Samain y Halloween según cada autor), la mitología irlandesa escrita por monjes y el debate entre
+        nativistas y antinativistas, la cristianización y lo que sobrevivió de verdad.
+      - `celtas-en-las-fuentes-antiguas`: cómo los vieron los demás, de Hecateo a Jerónimo: cada autor con lo que vio,
+        lo que copió y lo que quería, cada obra con sus pasajes, las imágenes del galo vencido y si los celtas
+        escribieron (la regla druídica de César y las inscripciones que sí quedaron).
+      - `celtas-legado-e-historiografia`: topónimos y palabras de origen celta, las lenguas celtas hasta los censos de
+        hoy, la invención moderna de «lo celta» (Lhuyd, Pezron, Ossian, Iolo Morganwg, el neodruidismo), los usos
+        políticos (Napoleón III, Ambiórix, Boudica, el celtismo gallego, Vichy, Mitterrand), Astérix, la historiografía
+        y el debate de los «celtoescépticos», y la colonia galesa del Chubut.
+      - `mundo-celta`: siete subregiones (Galacia, Celtiberia, Galecia, Galia Cisalpina, Armórica, Caledonia y Nórico)
+        con eras, capas y demografía.
+- [x] Capas de cultura, idioma y religión desde el Neolítico en las doce regiones donde vivieron celtas o sus
+      antecesores (Francia, Iberia, Britania, Irlanda, Alemania, Bohemia, Hungría, Rumania, los Balcanes, Italia,
+      Anatolia y Polonia), con 42 familias nuevas y las eras prehistóricas; correcciones de lo que había (el latín no era
+      mayoritario en Iberia desde 218 a. C. ni en Italia desde 700 a. C., el sur de Alemania era celta, el aquitano
+      separado del vasco), cada una con su fuente. Demografía: Frier, Scheidel, Harper y Alcock, y las cifras antiguas
+      (César, Polibio, Plutarco, Plinio, Livio) como testimonio con su crítica.
+- [x] Revisión de las fichas existentes del período: la guerra de las Galias trataba de Italia y se había escrito «en
+      Roma», Clontarf tenía los bandos al revés, Geoffrey de Monmouth estaba en una universidad que no existía, Columbano
+      en Bobbio en vez de Luxeuil; Anatolia ya no tiene dos religiones mayoritarias a la vez. Unas 45 fichas sumaron lo
+      que encontraron los temas (pasajes sobre los celtas, la colonia galesa en Rawson, Fontana y la inmigración).
+- [x] El constructor del formato compacto acepta coordenadas entre corchetes y lugares con espacios en «activo».
+- [x] El inglés de los textos nuevos es traducción automática; los títulos de las obras publicadas en inglés son los
+      originales.
 
 ### 11 de noviembre de 2026: la rueda, la línea de tiempo y las pantallas táctiles
 

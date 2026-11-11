@@ -909,18 +909,58 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": -278,
+          "hasta": 300,
+          "nombre": "Religión de los gálatas",
+          "familia": "paganismo-celta",
+          "peso": "minoritaria"
+        },
+        {
           "desde": -100,
-          "hasta": 393,
+          "hasta": 325,
           "nombre": "Politeísmo grecorromano",
           "familia": "politeismo-griego",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 50,
+          "hasta": 250,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "minoritaria",
+          "nota": "Desde las misiones de Pablo. Hacia 112, Plinio el Joven escribía desde Bitinia que el cristianismo se había extendido por ciudades, aldeas y campos y que los templos estaban casi abandonados (Cartas X.96)."
+        },
+        {
+          "desde": 250,
+          "hasta": 325,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "importante",
+          "nota": "En Frigia hay epitafios del siglo III que declaran la fe de los difuntos, los de «cristianos para cristianos» (Gibson, 1978), y Eusebio (Historia eclesiástica VIII.11) cuenta que en la persecución de Diocleciano se quemó una ciudad frigia entera cuyos habitantes eran cristianos."
+        },
+        {
+          "desde": 325,
+          "hasta": 393,
+          "nombre": "Politeísmo grecorromano",
+          "familia": "politeismo-griego",
+          "peso": "importante",
+          "nota": "Desde 325 se cuenta como mayoritario el cristianismo (ver su nota). Los cultos tradicionales siguieron hasta las leyes de Teodosio que prohibieron los sacrificios y cerraron los templos (391-392)."
         },
         {
           "desde": 325,
           "hasta": 1071,
           "nombre": "Cristianismo ortodoxo",
           "familia": "cristianismo-ortodoxo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "No hay cifras de creyentes: el paso a mayoritaria en 325, el año del concilio de Nicea, es un corte convencional. Asia Menor estaba entre las regiones más cristianizadas del Imperio, y el modelo de Stark (The Rise of Christianity, 1996) da para todo el Imperio un 10 % de cristianos hacia 300 y más de la mitad hacia 350. Desde ese año el politeísmo se cuenta como importante, para que no haya dos religiones mayoritarias a la vez."
+        },
+        {
+          "desde": 393,
+          "hasta": 550,
+          "nombre": "Politeísmo grecorromano",
+          "familia": "politeismo-griego",
+          "peso": "minoritaria",
+          "nota": "Juan de Éfeso cuenta que en 542, enviado por Justiniano, bautizó a setenta mil paganos en Asia Menor."
         },
         {
           "desde": 1071,
@@ -953,6 +993,14 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": -278,
+          "hasta": 400,
+          "nombre": "Gálata (Galacia)",
+          "familia": "galata",
+          "peso": "minoritaria",
+          "nota": "Tres pueblos celtas asentados en la meseta central desde hacia 275 a. C."
+        },
+        {
           "desde": 1071,
           "hasta": 2000,
           "nombre": "Turca",
@@ -982,6 +1030,13 @@
           "nombre": "Griego (koiné y bizantino)",
           "familia": "griego",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -278,
+          "hasta": 500,
+          "nombre": "Gálata",
+          "familia": "galata",
+          "peso": "minoritaria"
         },
         {
           "desde": 1071,
@@ -1044,19 +1099,22 @@
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
         },
         {
-          "anio": 1,
-          "poblacion": 6000000,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 14,
+          "poblacion": 8200000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Anatolia (Asia Menor)."
         },
         {
-          "anio": 100,
-          "poblacion": 6500000,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 150,
+          "poblacion": 10000000,
+          "fuente": "Harper (2017), The Fate of Rome, pp. 30-31, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Anatolia; mediados del siglo II."
         },
         {
-          "anio": 200,
-          "poblacion": 7000000,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 164,
+          "poblacion": 9200000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Anatolia (Asia Menor)."
         },
         {
           "anio": 300,
@@ -1725,6 +1783,24 @@
       "resumen": "La península italiana (sin las islas), donde nació Roma, que unificó el Mediterráneo bajo su dominio. Desde la Antigüedad hasta hoy fue encrucijada de etruscos, griegos, romanos, la Iglesia católica y las ciudades del Renacimiento.",
       "eras": [
         {
+          "desde": -6000,
+          "hasta": -3500,
+          "nombre": "Neolítico",
+          "resumen": "Agricultores con cerámica impresa en el sur desde hacia 6000 a. C. y en el norte desde hacia 5500 a. C."
+        },
+        {
+          "desde": -3500,
+          "hasta": -2200,
+          "nombre": "Calcolítico",
+          "resumen": "Primeros objetos de cobre; Ötzi, el hombre de los hielos, murió en los Alpes del Tirol del Sur hacia 3300 a. C."
+        },
+        {
+          "desde": -2200,
+          "hasta": -900,
+          "nombre": "Edad del Bronce",
+          "resumen": "Palafitos y terramare en el norte, cultura apenínica en el centro y el sur, y contactos con los micénicos."
+        },
+        {
           "desde": -900,
           "hasta": -509,
           "nombre": "Italia prerromana y monarquía romana",
@@ -1782,6 +1858,20 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": -750,
+          "hasta": -89,
+          "nombre": "Religión griega (Magna Grecia)",
+          "familia": "politeismo-griego",
+          "peso": "importante"
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "Religión celta (Cisalpina)",
+          "familia": "paganismo-celta",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 380,
           "hasta": 2000,
           "nombre": "Catolicismo",
@@ -1791,11 +1881,70 @@
       ],
       "culturas": [
         {
+          "desde": -6000,
+          "hasta": -2200,
+          "nombre": "Neolítica y calcolítica",
+          "familia": "neolitica-europea",
+          "peso": "mayoritaria",
+          "nota": "Agricultores que descendían sobre todo de los de Anatolia, mezclados con los cazadores locales (Haak et al. 2015)."
+        },
+        {
+          "desde": -2500,
+          "hasta": -2200,
+          "nombre": "Campaniforme",
+          "familia": "campaniforme",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -2200,
+          "hasta": -900,
+          "nombre": "Edad del Bronce (terramare, apenínica)",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria"
+        },
+        {
           "desde": -900,
           "hasta": -200,
-          "nombre": "Etrusca, latina y griega",
+          "nombre": "Latina e itálica (latinos, sabinos, umbros, oscos, samnitas)",
           "familia": "latina",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Mayoritaria por extensión: los pueblos de lengua itálica ocupaban la mayor parte de la península."
+        },
+        {
+          "desde": -900,
+          "hasta": -100,
+          "nombre": "Etrusca",
+          "familia": "etrusca",
+          "peso": "importante",
+          "nota": "Desde la cultura de Villanova (siglo IX a. C.); los etruscos dominan Etruria, parte de la llanura del Po y de Campania, y Roma los absorbe entre los siglos IV y I a. C."
+        },
+        {
+          "desde": -900,
+          "hasta": -150,
+          "nombre": "Ligur",
+          "familia": "ligur",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -900,
+          "hasta": -89,
+          "nombre": "Véneta",
+          "familia": "veneta",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -750,
+          "hasta": -89,
+          "nombre": "Griega (Magna Grecia)",
+          "familia": "griega",
+          "peso": "importante"
+        },
+        {
+          "desde": -400,
+          "hasta": -191,
+          "nombre": "Gala (Cisalpina)",
+          "familia": "gala",
+          "peso": "minoritaria"
         },
         {
           "desde": -200,
@@ -1807,11 +1956,108 @@
       ],
       "idiomas": [
         {
+          "desde": -6000,
+          "hasta": -2200,
+          "nombre": "Lenguas preindoeuropeas desconocidas",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Nadie sabe qué lenguas hablaban los agricultores neolíticos: no dejaron textos. Se las supone anteriores a las indoeuropeas porque la genética muestra que estas llegaron después, con gente de ascendencia esteparia; sus restos se buscan en topónimos y préstamos, con tesis muy discutidas."
+        },
+        {
+          "desde": -2200,
+          "hasta": -700,
+          "nombre": "Lenguas sin documentar, probablemente indoeuropeas",
+          "familia": "indoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Sin textos. Que fueran indoeuropeas se deduce de la llegada de gente de ascendencia esteparia (Haak et al. 2015; Olalde et al. 2018) y de que las primeras lenguas documentadas de la zona lo son; cuándo y dónde nació el protocelta se discute (Koch y Cunliffe: el Atlántico en la Edad del Bronce; Sims-Williams 2020: la Galia de la Edad del Bronce, entre el centro y el oeste de Europa)."
+        },
+        {
+          "desde": -750,
+          "hasta": -89,
+          "nombre": "Griego (Magna Grecia)",
+          "familia": "griego",
+          "peso": "importante"
+        },
+        {
           "desde": -700,
+          "hasta": -300,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "minoritaria",
+          "nota": "Hasta el siglo IV a. C. se habla solo en el Lacio."
+        },
+        {
+          "desde": -700,
+          "hasta": -89,
+          "nombre": "Osco, umbro y otras lenguas itálicas",
+          "familia": "italicas",
+          "peso": "mayoritaria",
+          "nota": "Mayoritarias por extensión en el centro y el sur de los Apeninos; el latín, también itálico, va aparte. El osco se escribió hasta el siglo I."
+        },
+        {
+          "desde": -700,
+          "hasta": 50,
+          "nombre": "Etrusco",
+          "familia": "etrusco",
+          "peso": "importante",
+          "nota": "Unas trece mil inscripciones, desde hacia 700 a. C. hasta el siglo I; se leen, pero se entienden solo en parte. El emperador Claudio escribió una historia de los etruscos que se perdió."
+        },
+        {
+          "desde": -600,
+          "hasta": -100,
+          "nombre": "Lepóntico",
+          "familia": "lepontico",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -600,
+          "hasta": -100,
+          "nombre": "Ligur",
+          "familia": "ligur",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -550,
+          "hasta": -50,
+          "nombre": "Vénetico",
+          "familia": "venetico",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": -15,
+          "nombre": "Rético",
+          "familia": "retico",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -400,
+          "hasta": -42,
+          "nombre": "Galo cisalpino",
+          "familia": "galo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -300,
+          "hasta": -89,
+          "nombre": "Latín",
+          "familia": "latin",
+          "peso": "importante"
+        },
+        {
+          "desde": -89,
           "hasta": 900,
           "nombre": "Latín",
           "familia": "latin",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -89,
+          "hasta": null,
+          "nombre": "Griego (sur de Calabria y Salento)",
+          "familia": "griego",
+          "peso": "minoritaria",
+          "nota": "Si el griko de hoy viene de la Magna Grecia (Rohlfs) o de la época bizantina (Battisti) se discute."
         },
         {
           "desde": 900,
@@ -1874,29 +2120,45 @@
           "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
         },
         {
-          "anio": 1,
-          "poblacion": 7460143,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": -225,
+          "poblacion": 770000,
+          "fuente": "Polibio, Historias II.24",
+          "tipo": "testimonio-antiguo",
+          "nota": "No es la población: es la lista de hombres aptos para las armas de Roma y sus aliados ante la invasión gala de 225 a. C., más de 700.000 infantes y 70.000 jinetes. A diferencia de las cifras retóricas, suele pensarse que viene de los registros romanos, quizás a través de Fabio Píctor, que peleó en esa guerra y según Orosio (IV.13.6) daba 800.000 hombres en armas. Brunt (Italian Manpower, 1971) la usa como base para calcular la población libre de Italia, pero cómo leer sus partidas y cuánta gente supone en total se discute."
         },
         {
-          "anio": 100,
-          "poblacion": 7085055,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 14,
+          "poblacion": 7000000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Italia sin las islas."
         },
         {
-          "anio": 200,
-          "poblacion": 6709272,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 150,
+          "poblacion": 14000000,
+          "fuente": "Harper (2017), The Fate of Rome, pp. 30-31, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Con Sicilia y Cerdeña, que esta región no tiene. Mediados del siglo II."
         },
         {
-          "anio": 300,
-          "poblacion": 6333574,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 164,
+          "poblacion": 7600000,
+          "fuente": "Frier (2000), «Demography», en The Cambridge Ancient History, vol. XI, pp. 812 y 814, tablas 5 y 6, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Italia sin las islas."
         },
         {
-          "anio": 400,
-          "poblacion": 5957982,
-          "fuente": "HYDE 3.3 (PBL, 2023), vía Our World in Data"
+          "anio": 165,
+          "poblacion": 8500000,
+          "min": 8000000,
+          "max": 9000000,
+          "fuente": "Scheidel (2007), «Demography», en The Cambridge Economic History of the Greco-Roman World, p. 47, n. 42, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Con Sicilia y Cerdeña, que esta región no tiene. Lectura tradicional de los censos de Augusto («low count»)."
+        },
+        {
+          "anio": 165,
+          "poblacion": 12500000,
+          "min": 12000000,
+          "max": 13000000,
+          "fuente": "Scheidel (2007), «Demography», en The Cambridge Economic History of the Greco-Roman World, p. 47, n. 42, según Wikipedia (en), «Demography of the Roman Empire»",
+          "nota": "Con Sicilia y Cerdeña, que esta región no tiene. Lectura revisada de los censos de Augusto («high count», de Lo Cascio)."
         },
         {
           "anio": 500,
@@ -5086,7 +5348,7 @@
       },
       "idioma_original": "Griego",
       "soporte": "Rollos de papiro; transmitida en códices",
-      "resumen": "Relato de la revuelta judía contra Roma y de la destrucción de Jerusalén, escrito por un comandante judío que se pasó al bando romano. Incluye la toma de Masada.",
+      "resumen": "Relato de la revuelta judía contra Roma y de la destrucción de Jerusalén, escrito por un comandante judío que se pasó al bando romano. Incluye la toma de Masada. En el discurso que pone en boca de Agripa II para disuadir la revuelta (II.16.4) dice que a los galos los custodiaban apenas mil doscientos soldados.",
       "por_que_importa": "Es la fuente principal sobre la guerra del 66-73 y sobre la caída del Segundo Templo, aunque está escrita desde la perspectiva de un protegido de los Flavios.",
       "leer": [
         {
@@ -5140,7 +5402,7 @@
       "titulo": "Anábasis",
       "titulo_original": null,
       "autor": "Jenofonte",
-      "autor_id": null,
+      "autor_id": "jenofonte",
       "tipo": "primaria",
       "genero": "cronica",
       "escrita": {
@@ -5297,7 +5559,7 @@
       "idioma_original": "Griego jónico",
       "soporte": "Rollos de papiro",
       "resumen": "Investigación sobre los orígenes del enfrentamiento entre griegos y persas, con extensas descripciones de Egipto, Lidia, Persia y Escitia, y el relato de las guerras médicas hasta Platea y Mícala.",
-      "por_que_importa": "Se lo llama el padre de la historia; sus digresiones son la fuente principal sobre muchos pueblos del siglo V a. C. Mezcla observación directa con relatos que él mismo dice no creer.",
+      "por_que_importa": "Se lo llama el padre de la historia; sus digresiones son la fuente principal sobre muchos pueblos del siglo V a. C. Mezcla observación directa con relatos que él mismo dice no creer. Es la obra conservada más antigua que nombra a los celtas, junto a las fuentes del Danubio y más allá de las Columnas de Heracles, vecinos de los cinetes (II.33; IV.49); los fragmentos de Hecateo que también los nombran llegan solo por citas tardías. Cuenta además los viajes de los foceos a Tartessos y su rey Argantonio (I.163-165).",
       "leer": [
         {
           "titulo": "Historias, traducción de A. D. Godley (Perseus, Universidad Tufts)",
@@ -5425,7 +5687,7 @@
       "idioma_original": "Griego ático",
       "soporte": "Rollos de papiro (apuntes de lección)",
       "resumen": "Tratado en ocho libros sobre el Estado, los tipos de constitución y las causas de las revoluciones. Se apoyó en un estudio de unas 158 constituciones de ciudades griegas, de las que solo se conserva la de Atenas.",
-      "por_que_importa": "Define al ser humano como animal político y compara constituciones reales; es una fuente indirecta sobre cómo funcionaban las póleis.",
+      "por_que_importa": "Define al ser humano como animal político y compara constituciones reales; es una fuente indirecta sobre cómo funcionaban las póleis. Nombra de paso a los celtas: entre ellos se honraba abiertamente el amor entre varones (II.9, 1269b), estaban entre los pueblos que honran la guerra (VII.2, 1324b) y abrigaban poco a los recién nacidos para endurecerlos (VII.17, 1336a).",
       "leer": [
         {
           "titulo": "Política, traducción de H. Rackham (Perseus, Universidad Tufts)",
@@ -5464,26 +5726,35 @@
       },
       "trata": {
         "regiones": [
-          "italia"
+          "italia",
+          "iberia",
+          "grecia",
+          "anatolia"
         ],
         "desde": -753,
         "hasta": -9
       },
       "idioma_original": "Latín",
       "soporte": "Rollos de papiro; solo se conservan 35 de sus 142 libros",
-      "resumen": "Historia de Roma desde su fundación legendaria hasta la muerte de Druso en el 9 a. C., en 142 libros, de los cuales se conservan los libros 1-10 y 21-45. Livio escribió bajo Augusto y recogió tradiciones y analistas anteriores.",
-      "por_que_importa": "Es la fuente principal sobre la Roma monárquica y republicana temprana, pero mezcla leyenda e historia y refleja los ideales morales del principado.",
+      "resumen": "Historia de Roma desde su fundación legendaria hasta la muerte de Druso en el 9 a. C., en 142 libros, de los cuales se conservan los libros 1-10 y 21-45. Livio escribió bajo Augusto y recogió tradiciones y analistas anteriores. De casi todos los libros perdidos quedan las Periochae, resúmenes tardíos que son la única fuente de hechos como las guerras contra alóbroges y arvernos (121 a. C.), Arausio (105 a. C.) o el altar de Lugdunum.",
+      "por_que_importa": "Es la fuente principal sobre la Roma monárquica y republicana temprana, pero mezcla leyenda e historia y refleja los ideales morales del principado. Cuenta, siempre desde Roma, la llegada de los galos a Italia y el saqueo de Roma (V.33-49), el duelo de Manlio Torcuato con un galo (VII.9-10), la ciudad doble, griega e íbera, de Emporion (XXXIV.9) y la campaña de Manlio Vulsón contra los gálatas (XXXVIII.12-27).",
       "leer": [
         {
           "titulo": "Roman History, Books I-III (traducción de G. Baker, Proyecto Gutenberg)",
           "url": "https://www.gutenberg.org/ebooks/10828",
           "idioma": "en",
           "dominio_publico": true
+        },
+        {
+          "titulo": "Periochae, texto latino (The Latin Library)",
+          "url": "https://www.thelatinlibrary.com/livy/liv.per.shtml",
+          "idioma": "la",
+          "dominio_publico": true
         }
       ],
       "wikipedia": {
-        "es": "Ab Urbe condita libri",
-        "en": "Ab Urbe Condita Libri"
+        "es": "Ab urbe condita (libro)",
+        "en": "History of Rome (Livy)"
       },
       "confianza": "alta"
     },
@@ -5504,20 +5775,47 @@
       },
       "trata": {
         "regiones": [
-          "italia"
+          "italia",
+          "britania",
+          "francia",
+          "alemania"
         ],
         "desde": 14,
         "hasta": 68
       },
       "idioma_original": "Latín",
       "soporte": "Códices medievales (Medicei I y II)",
-      "resumen": "Historia del Imperio romano desde la muerte de Augusto (14) hasta la de Nerón (68), en dieciséis libros de los que se conservan los libros 1-6 y 11-16 con lagunas. Tácito escribió poco después de la época que narra.",
-      "por_que_importa": "Ofrece un retrato crítico de los emperadores julio-claudios; trata el incendio de Roma del 64 y la persecución de los cristianos.",
+      "resumen": "Historia del Imperio romano desde la muerte de Augusto (14) hasta la de Nerón (68), en dieciséis o dieciocho libros, de los que se conservan los libros 1-6 y 11-16, con lagunas. Tácito escribió entre medio siglo y un siglo después de los hechos, con actas del Senado y obras de historiadores anteriores.",
+      "por_que_importa": "Ofrece un retrato crítico de los emperadores julio-claudios; trata el incendio de Roma del 64 y la persecución de los cristianos. Es además la fuente principal de Carataco (XII.31-40), de Boudica y del ataque a los druidas de Mona (XIV.29-37), del levantamiento de Floro y Sacroviro en la Galia (III.40-46) y del discurso de Claudio sobre los senadores galos (XI.23-25), que se conserva también en la tabla de bronce de Lyon.",
       "leer": [
         {
           "titulo": "Reinado de Tiberio: Anales I-VI (Proyecto Gutenberg)",
           "url": "https://www.gutenberg.org/ebooks/7959",
           "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Anales, traducción inglesa de Church y Brodribb (Perseus)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=1:chapter=1",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Libro XII.37: Carataco ante Claudio (Perseus, Church y Brodribb)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=12:chapter=37",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Libro XIV.31: el levantamiento de Boudica (Perseus, Church y Brodribb)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=14:chapter=31",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino (Perseus)",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0077:book=1:chapter=1",
+          "idioma": "la",
           "dominio_publico": true
         }
       ],
@@ -5538,31 +5836,45 @@
       "escrita": {
         "anio": -50,
         "aprox": true,
-        "lugar": "Roma",
-        "lon": 12.4964,
-        "lat": 41.9028
+        "lugar": "Galia (quizás Bibracte)",
+        "lon": 4.035,
+        "lat": 46.924
       },
       "trata": {
         "regiones": [
-          "italia"
+          "francia",
+          "alemania",
+          "britania"
         ],
         "desde": -58,
         "hasta": -50
       },
       "idioma_original": "Latín",
       "soporte": "Rollos de papiro; transmitida en códices medievales",
-      "resumen": "Relato en tercera persona de las campañas de César en la Galia durante siete años, redactado por el propio general. Describe pueblos, costumbres y operaciones militares.",
-      "por_que_importa": "Es una fuente de primera mano sobre la conquista romana de la Galia; también un texto de propaganda política escrito para Roma.",
+      "resumen": "Relato en tercera persona de las campañas de César en la Galia de 58 a 52 a. C., en siete libros escritos por él mismo, año a año o de una vez en el invierno de 52-51 a. C., que pasó en Bibracte (se discute); el libro VIII, sobre 51-50 a. C., lo agregó después de su muerte su oficial Aulo Hircio. Además de las operaciones militares trae un excurso sobre galos y germanos (VI.11-28), cuya dependencia de Posidonio se discute (Tierney, 1960; Nash, 1976), con los druidas que no escriben su doctrina pero usan letras griegas (VI.14) y las tablillas de los helvecios, también en letras griegas, con 368.000 emigrantes (I.29).",
+      "por_que_importa": "Es la fuente casi única de la conquista romana de la Galia y la primera descripción extensa de los galos, escrita por quien los conquistó y para su carrera en Roma. Rambaud (1953) mostró cómo ordena y calla los hechos a su favor, y sus cifras de enemigos y de muertos son las más discutidas (Henige, 1998).",
       "leer": [
         {
           "titulo": "De Bello Gallico y otros comentarios (Proyecto Gutenberg)",
           "url": "https://www.gutenberg.org/ebooks/10657",
           "idioma": "en",
           "dominio_publico": true
+        },
+        {
+          "titulo": "Comentarios de la guerra de las Galias, traducción de José Goya y Muniain (edición de 1919, Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Comentarios_de_la_guerra_de_las_Galias_(1919)",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino, libro I (The Latin Library)",
+          "url": "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+          "idioma": "la",
+          "dominio_publico": true
         }
       ],
       "wikipedia": {
-        "es": "La guerra de las Galias",
+        "es": "De bello Gallico",
         "en": "Commentarii de Bello Gallico"
       },
       "confianza": "alta"
@@ -5585,7 +5897,8 @@
       "trata": {
         "regiones": [
           "grecia",
-          "italia"
+          "italia",
+          "francia"
         ],
         "desde": -750,
         "hasta": -30
@@ -5593,7 +5906,7 @@
       "idioma_original": "Griego",
       "soporte": "Rollos de papiro",
       "resumen": "Biografías en parejas de un griego y un romano, de Teseo y Rómulo a Antonio. Plutarco escribió unos siglos después de los hechos con fines morales, y se apoyó en autores hoy perdidos.",
-      "por_que_importa": "Es la fuente de datos biográficos de muchas figuras de la Grecia y la Roma antiguas, aunque hay que leerla con cautela.",
+      "por_que_importa": "Es la fuente de datos biográficos de muchas figuras de la Grecia y la Roma antiguas, aunque hay que leerla con cautela. Sobre galos y germanos cuenta el saqueo de Roma (Camilo 15-32), los cimbrios y teutones (Mario 11-27), la muerte de Viridomaro en Clastidio (Marcelo 6-8) y la conquista de la Galia con las cifras que la propaganda de César hizo circular: ochocientas ciudades, trescientos pueblos y un millón de muertos (César 15).",
       "leer": [
         {
           "titulo": "Vidas de los nobles griegos y romanos (traducción de Dryden, Proyecto Gutenberg)",
@@ -6635,7 +6948,7 @@
         "rey",
         "constructor"
       ],
-      "resumen": "Rey de Judea bajo protección romana (37-4 a. C.). Reconstruyó el Templo de Jerusalén y levantó Cesarea Marítima y la fortaleza de Masada.",
+      "resumen": "Rey de Judea bajo protección romana (37-4 a. C.). Reconstruyó el Templo de Jerusalén y levantó Cesarea Marítima y la fortaleza de Masada. Augusto le dio la guardia de cuatrocientos gálatas que había tenido Cleopatra (Josefo, Guerra I.397; Antigüedades XV.217).",
       "obras": [],
       "wikipedia": {
         "es": "Herodes I el Grande",
@@ -6715,8 +7028,10 @@
         "misionero",
         "escritor"
       ],
-      "resumen": "Judío helenizado nacido en Cilicia. Tras su conversión viajó por Anatolia, Grecia e Italia fundando comunidades cristianas; sus cartas son los escritos más antiguos del Nuevo Testamento.",
-      "obras": [],
+      "resumen": "Judío helenizado nacido en Cilicia. Tras su conversión viajó por Anatolia, Grecia e Italia fundando comunidades cristianas; sus cartas son los escritos más antiguos del Nuevo Testamento. Si su carta a los gálatas iba dirigida a los gálatas del norte, en torno a Ancira, o a las ciudades del sur de la provincia de Galacia que visitó en su primer viaje se discute; W. M. Ramsay defendió la segunda opción.",
+      "obras": [
+        "epistola-a-los-galatas"
+      ],
       "wikipedia": {
         "es": "Pablo de Tarso",
         "en": "Paul the Apostle"
@@ -6838,7 +7153,8 @@
       ],
       "resumen": "Discípulo de Sócrates y maestro de Aristóteles; fundó la Academia en Atenas. Sus diálogos, entre ellos la República, son la base de la filosofía occidental.",
       "obras": [
-        "republica-platon"
+        "republica-platon",
+        "leyes-platon"
       ],
       "wikipedia": {
         "es": "Platón",
@@ -6871,7 +7187,8 @@
       ],
       "resumen": "Nació en Estagira, estudió veinte años en la Academia, fue tutor de Alejandro Magno y fundó el Liceo en Atenas. Escribió sobre lógica, física, biología, ética y política.",
       "obras": [
-        "politica-aristoteles"
+        "politica-aristoteles",
+        "etica-nicomaquea"
       ],
       "wikipedia": {
         "es": "Aristóteles",
@@ -6899,9 +7216,10 @@
         "político",
         "escritor"
       ],
-      "resumen": "Conquistó la Galia (58-50 a. C.), venció a Pompeyo en la guerra civil y fue nombrado dictador perpetuo. Fue asesinado en los idus de marzo del 44 a. C.",
+      "resumen": "Conquistó la Galia (58-50 a. C.), venció a Pompeyo en la guerra civil y fue nombrado dictador perpetuo; fue asesinado en los idus de marzo del 44 a. C. Antes, como gobernador de la Hispania Ulterior (61-60 a. C.), atacó a los lusitanos del monte Herminio y llegó por mar a Brigantium (Dion Casio XXXVII.52-53). Sus Comentarios son la fuente casi única de la conquista de la Galia y los escribió para su carrera política (Rambaud, 1953; Riggsby, 2006). Las cifras de Plutarco (César 15: un millón de muertos y otro de cautivos) y de Plinio (VII.92: 1.192.000 muertos) no se pueden comprobar y se leen como propaganda; si la conquista fue un genocidio se discute (Raaflaub, 2021).",
       "obras": [
-        "guerra-de-las-galias"
+        "guerra-de-las-galias",
+        "denario-trofeo-galo-de-cesar"
       ],
       "wikipedia": {
         "es": "Julio César",
@@ -6926,9 +7244,10 @@
       "roles": [
         "emperador"
       ],
-      "resumen": "Hijo adoptivo de César y primer emperador de Roma (27 a. C.-14 d. C.). Cerró las guerras civiles e instauró el principado.",
+      "resumen": "Hijo adoptivo de César y primer emperador de Roma (27 a. C.-14 d. C.). Cerró las guerras civiles e instauró el principado. Dirigió en persona la guerra contra cántabros y astures en 26-25 a. C. (Suetonio, Augusto 20; Dion Casio LIII.25), que sus legados terminaron en 19 a. C.",
       "obras": [
-        "res-gestae-divi-augusti"
+        "res-gestae-divi-augusti",
+        "edicto-del-bierzo"
       ],
       "wikipedia": {
         "es": "Augusto",
@@ -6991,7 +7310,10 @@
       ],
       "resumen": "Senador y orador romano. Autor de los Anales, las Historias, la Germania y la Vida de Agrícola.",
       "obras": [
-        "anales-tacito"
+        "anales-tacito",
+        "agricola-tacito",
+        "germania-tacito",
+        "historias-tacito"
       ],
       "wikipedia": {
         "es": "Tácito",
@@ -8944,7 +9266,7 @@
       "aprox": true,
       "tipo": "templo",
       "importancia": 3,
-      "resumen": "Santuario de Apolo y sede del oráculo más consultado del mundo griego, hasta su clausura bajo Teodosio.",
+      "resumen": "Santuario de Apolo y sede del oráculo más consultado del mundo griego, hasta su clausura bajo Teodosio. En 279 a. C. resistió el ataque de los galos de Breno (Pausanias X.19-23), y para celebrarlo se fundaron las fiestas Soterias.",
       "regiones": [
         "grecia"
       ],

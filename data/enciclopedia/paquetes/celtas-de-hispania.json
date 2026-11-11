@@ -1,0 +1,4258 @@
+{
+  "paquete": "celtas-de-hispania",
+  "descripcion": "Los pueblos célticos de la península ibérica, sus vecinos íberos y su conquista por Roma",
+  "regiones": [],
+  "fuentes": [
+    {
+      "id": "iberica-de-apiano",
+      "titulo": "Iberiké (Las guerras de Iberia)",
+      "titulo_original": "Ἰβηρική",
+      "autor": "Apiano de Alejandría",
+      "autor_id": "apiano",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 150,
+        "anio_hasta": 165,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "celtiberia"
+        ],
+        "desde": -237,
+        "hasta": -19
+      },
+      "idioma_original": "Griego",
+      "soporte": null,
+      "resumen": "Libro VI de la Historia romana de Apiano de Alejandría, el único relato antiguo continuo de la conquista romana de la península, desde los cartagineses hasta Augusto. Narra con detalle la guerra de Segeda, la traición de Lúculo en Cauca y la de Galba con los lusitanos, la guerra de Viriato, la guerra numantina con el cerco de Escipión y las campañas de Tito Didio. Da cifras de ejércitos y de muertos, nombres de jefes hispanos (Caro, Ambón, Leucón, Retógenes, Avaro, Púnico, Césaro, Táutalo) y escenas como el hambre y el canibalismo en Numancia.",
+      "por_que_importa": "Casi todo lo que se cuenta de las guerras celtíberas y lusitanas sale de aquí. Apiano escribió casi tres siglos después de los hechos, a partir de Polibio (testigo del cerco de Numancia), de Posidonio y de analistas romanos que no nombra; es más crítico con los generales romanos traidores que muchos autores latinos, pero sus cifras redondas y algunos discursos son reconstrucciones literarias.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Horace White (1899) en Livius.org",
+          "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción inglesa de Horace White (1899) en Perseus, por capítulos",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Hisp.:chapter=1",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto griego en Perseus",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0229:text=Hisp.:chapter=1",
+          "idioma": "grc",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Apiano",
+        "en": "Appian"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "punica-silio-italico",
+      "titulo": "Púnica",
+      "titulo_original": "Punica",
+      "autor": "Silio Itálico",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 83,
+        "anio_hasta": 101,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "celtiberia"
+        ],
+        "desde": -218,
+        "hasta": -201
+      },
+      "idioma_original": "Latín",
+      "soporte": null,
+      "resumen": "Poema épico en diecisiete libros sobre la segunda guerra púnica. En el libro III enumera los pueblos hispanos que siguen a Aníbal: los celtas «que mezclaron su nombre con los íberos», cántabros, vascones, galaicos, lusitanos y otros, y cuenta que los celtíberos dejan los cuerpos de los caídos en combate a los buitres, que los llevan al cielo. Incluye a un Viriato anacrónico entre los jefes hispanos de Aníbal.",
+      "por_que_importa": "Es una fuente literaria, con anacronismos, pero coincide con Eliano y con estelas de Numancia y Tiermes en el rito de exponer a los muertos en guerra a los buitres. Muestra cómo veía Roma a los pueblos hispanos en el siglo I d. C.",
+      "leer": [
+        {
+          "titulo": "Texto latino del libro III en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Punica/Liber_III",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Punica (poema)",
+        "en": "Punica (poem)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "bronces-de-botorrita",
+      "titulo": "Bronces de Botorrita (Botorrita I y IV)",
+      "titulo_original": "Bronce de Contrebia Belaisca",
+      "autor": "Magistrados de Contrebia Belaisca",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -100,
+        "aprox": true,
+        "lugar": "Contrebia Belaisca",
+        "lon": -1.032,
+        "lat": 41.515
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -100,
+        "hasta": -100
+      },
+      "idioma_original": "Celtíbero",
+      "soporte": "Placas de bronce grabadas con la escritura celtibérica",
+      "resumen": "Cuatro placas de bronce halladas entre 1970 y 1994 en el Cabezo de las Minas de Botorrita (Zaragoza), la antigua Contrebia Belaisca. La primera (1970), escrita en las dos caras, fue el primer texto extenso en celtíbero que se encontró (la primera edición es de Javier de Hoz y Luis Michelena, 1974): una cara tiene once líneas que parecen regular el uso de un terreno o de un recinto, quizá sagrado, con prohibiciones y multas, y la otra una lista de unos catorce nombres seguidos de la palabra bintis, que se suele entender como un título de magistrado. La cuarta (1994) es un fragmento menor; la segunda está en latín y la tercera es una larga lista de nombres (ver sus fichas).",
+      "por_que_importa": "Prueban que los celtíberos escribieron su lengua, con un semisilabario tomado de los íberos, y que sus ciudades tenían magistrados y normas escritas. La traducción es en gran parte insegura: se entienden la estructura y muchas palabras, pero no el sentido exacto, y las interpretaciones varían entre lo religioso y lo jurídico.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronces de Botorrita",
+        "en": "Botorrita plaque"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "botorrita-iii",
+      "titulo": "Tercer bronce de Botorrita",
+      "titulo_original": "Botorrita III",
+      "autor": "Comunidad de Contrebia Belaisca",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -100,
+        "aprox": true,
+        "lugar": "Contrebia Belaisca",
+        "lon": -1.032,
+        "lat": 41.515
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -100,
+        "hasta": -100
+      },
+      "idioma_original": "Celtíbero",
+      "soporte": "Placa de bronce",
+      "resumen": "Gran placa de bronce hallada en 1992, el texto celtibérico más largo conocido: tras un breve encabezamiento enumera unas doscientas cincuenta personas, cada una con su nombre, el de su grupo familiar y el de su padre, entre ellas al menos veintisiete mujeres. El propósito de la lista se discute: un censo, los miembros de un acuerdo o los beneficiarios de un reparto.",
+      "por_que_importa": "Es la mayor colección de nombres celtíberos de un mismo lugar y permite estudiar la onomástica y la organización en grupos de parentesco, que aparecen en genitivo plural. Es la base de lo que se sabe de las «gentilidades» celtibéricas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronces de Botorrita",
+        "en": "Botorrita plaque"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tabula-contrebiensis",
+      "titulo": "Tabula Contrebiensis (segundo bronce de Botorrita)",
+      "titulo_original": "Tabula Contrebiensis",
+      "autor": "Senado de Contrebia Belaisca",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -87,
+        "aprox": false,
+        "lugar": "Contrebia Belaisca",
+        "lon": -1.032,
+        "lat": 41.515
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -87,
+        "hasta": -87
+      },
+      "idioma_original": "Latín",
+      "soporte": "Placa de bronce",
+      "resumen": "Sentencia en latín, fechada en mayo de 87 a. C., de un pleito entre los salluienses (de Salduie, la futura Caesaraugusta) y los allavonenses por la compra a los sosinestanos de un terreno para hacer un canal. El gobernador Cayo Valerio Flaco encargó el juicio al senado de Contrebia con una fórmula de derecho romano, y los jueces contrebienses fallaron a favor de los salluienses. La placa se encontró en 1979.",
+      "por_que_importa": "Es el documento judicial más antiguo de la Hispania romana y muestra a una ciudad celtíbera aplicando derecho romano entre comunidades indígenas, siete años antes de que empezara la guerra de Sertorio. Prueba también el valor del agua de riego en el valle del Ebro.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "teseras-de-hospitalidad",
+      "titulo": "Téseras de hospitalidad celtibéricas",
+      "titulo_original": "Teseras hospitales",
+      "autor": "Comunidades celtibéricas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -150,
+        "anio_hasta": -1,
+        "aprox": true,
+        "lugar": "Luzaga",
+        "lon": -2.444,
+        "lat": 40.974
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -150,
+        "hasta": -1
+      },
+      "idioma_original": "Celtíbero y latín",
+      "soporte": "Pequeñas piezas de bronce, a veces de plata",
+      "resumen": "Pequeñas placas de bronce con forma de animal (cerdo, toro, delfín, caballo), de manos unidas o geométricas, que cada parte de un pacto de hospitalidad conservaba como prueba. Llevan textos breves en celtíbero, con la palabra kar y el nombre de una ciudad o de una persona (por ejemplo libiaka kortika kar, de Libia), y más tarde en latín. Se conocen varias decenas.",
+      "por_que_importa": "Documentan el hospitium, la institución que, según Diodoro (V.34), hacía a los celtíberos rivalizar por acoger a los forasteros, y que unía a personas y ciudades con lazos de protección mutua. Muchas aparecieron en el comercio de antigüedades, sin contexto, y la autenticidad de algunas se discute.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Hospitium"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "bronce-de-luzaga",
+      "titulo": "Bronce de Luzaga",
+      "titulo_original": null,
+      "autor": "Comunidad celtibérica de Arekorata",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -100,
+        "aprox": true,
+        "lugar": "Luzaga",
+        "lon": -2.444,
+        "lat": 40.974
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -100,
+        "hasta": -100
+      },
+      "idioma_original": "Celtíbero",
+      "soporte": "Placa de bronce de 16 por 15 centímetros",
+      "resumen": "Placa de bronce con ocho líneas en celtíbero (unos ciento veinte signos), hallada a fines del siglo XIX en Luzaga (Guadalajara) y hoy en paradero desconocido. Por las palabras que se reconocen, entre ellas el nombre de la ciudad de Arekorata y la palabra kar, se la interpreta como un pacto de hospitalidad entre comunidades.",
+      "por_que_importa": "Fue uno de los primeros textos celtibéricos largos conocidos y sirvió para el desciframiento de la lengua. Usa la variante occidental de la escritura, que distingue consonantes sordas y sonoras.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronce de Luzaga",
+        "en": "Luzaga's Bronze"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "monedas-celtibericas",
+      "titulo": "Monedas celtibéricas con leyenda",
+      "titulo_original": null,
+      "autor": "Cecas celtibéricas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -170,
+        "anio_hasta": -70,
+        "aprox": true,
+        "lugar": "Celtiberia",
+        "lon": -2.2,
+        "lat": 41.4
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -170,
+        "hasta": -70
+      },
+      "idioma_original": "Celtíbero",
+      "soporte": "Denarios de plata y ases y divisores de bronce",
+      "resumen": "Monedas acuñadas por las ciudades celtíberas desde mediados del siglo II a. C. hasta la guerra de Sertorio, con una cabeza masculina en el anverso y un jinete con lanza en el reverso, y el nombre de la ciudad en escritura celtibérica: sekaisa (Segeda), arekorata, bilbilis, sekobirikes (Segobriga), turiasu (Turiaso), kontebakom (Contrebia), titiakos (de los titos) y decenas más.",
+      "por_que_importa": "Son la fuente más abundante en lengua celtibérica y permiten ubicar ciudades que los autores antiguos solo nombran. Se discute por qué empezaron a acuñar: para pagar tropas, para pagar el tributo a Roma o por el desarrollo propio de las ciudades.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Escritura celtibérica",
+        "en": "Celtiberian script"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cabeco-das-fraguas",
+      "titulo": "Inscripción de Cabeço das Fráguas",
+      "titulo_original": null,
+      "autor": "Comunidad lusitana del Cabeço das Fráguas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 100,
+        "aprox": true,
+        "lugar": "Cabeço das Fráguas",
+        "lon": -7.223,
+        "lat": 40.424
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 100,
+        "hasta": 100
+      },
+      "idioma_original": "Lusitano",
+      "soporte": "Inscripción grabada en la roca, en letras latinas",
+      "resumen": "Texto grabado en una peña en la cima del Cabeço das Fráguas, cerca de Guarda (Portugal), que enumera ofrendas de animales a divinidades: una oveja (oilam) a Trebopala, un cerdo (porcom) a Laebo, un toro (taurom) a Reve, entre otras. Recuerda el sacrificio romano de cerdo, oveja y toro (suovetaurilia). Las fechas propuestas van del siglo I a. C. al II d. C.",
+      "por_que_importa": "Es el texto más conocido en lusitano y el centro del debate sobre si esa lengua es celta: porcom conserva la p indoeuropea, que el celta perdió, por lo que Tovar, Gorrochategui, Villar y Blanca María Prósper (1999) la consideran una lengua indoeuropea no celta, mientras Untermann (1987) y Dagmar Wodtko (2010) subrayan los nombres de lugar y de persona que comparte con el celta.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Idioma lusitano",
+        "en": "Lusitanian language"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "inscripciones-lusitanas",
+      "titulo": "Inscripciones lusitanas de Lamas de Moledo y Arroyo de la Luz",
+      "titulo_original": null,
+      "autor": "Comunidades lusitanas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 1,
+        "anio_hasta": 150,
+        "aprox": true,
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1,
+        "hasta": 150
+      },
+      "idioma_original": "Lusitano",
+      "soporte": "Piedras grabadas en letras latinas",
+      "resumen": "Las otras inscripciones largas en lusitano. La de Lamas de Moledo (Castro Daire, Portugal) empieza en latín, «Rufino y Tirón lo escribieron», y sigue en lusitano con la ofrenda de un cerdo (porgom) a divinidades locales. Las de Arroyo de la Luz (Cáceres) son tres, la última publicada por Francisco Villar y Rosa Pedrero en 2001.",
+      "por_que_importa": "Junto con Cabeço das Fráguas son casi todo lo que se conserva del lusitano, unas seis inscripciones de cierta extensión. Que solo se conserve escrita después de la conquista, y en letras latinas, sugiere que antes no se escribía.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Idioma lusitano",
+        "en": "Lusitanian language"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "bronce-de-lascuta",
+      "titulo": "Bronce de Lascuta",
+      "titulo_original": "Decretum L. Aemili Pauli",
+      "autor": "Lucio Emilio Paulo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -189,
+        "aprox": false,
+        "lugar": "Alcalá de los Gazules",
+        "lon": -5.724,
+        "lat": 36.462
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -189,
+        "hasta": -189
+      },
+      "idioma_original": "Latín",
+      "soporte": "Placa de bronce",
+      "resumen": "Decreto del general Lucio Emilio Paulo, de enero de 189 a. C., que declara libres a los habitantes de la Torre Lascutana, siervos de los de Hasta, y les deja la posesión de sus tierras mientras el pueblo y el Senado de Roma lo quieran. Se halló en el siglo XIX en Alcalá de los Gazules (Cádiz) y está en el Louvre.",
+      "por_que_importa": "Es el documento en latín más antiguo de la península. Muestra que Roma intervenía ya en la organización social de los pueblos del sur, liberando a una comunidad dependiente para ganarse su lealtad.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronce de Lascuta"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "bronce-de-alcantara",
+      "titulo": "Bronce de Alcántara",
+      "titulo_original": "Tabula Alcantarensis",
+      "autor": "Lucio Cesio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -104,
+        "aprox": false,
+        "lugar": "Alcántara",
+        "lon": -6.884,
+        "lat": 39.719
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -104,
+        "hasta": -104
+      },
+      "idioma_original": "Latín",
+      "soporte": "Placa de bronce",
+      "resumen": "Placa hallada en 1983 en Alcántara (Cáceres) que registra la rendición incondicional (deditio) de un pueblo de la Lusitania, cuyo nombre se lee incompleto (Seano...), ante el general Lucio Cesio en 104 a. C., y la devolución, por decisión del general, de sus tierras, edificios, leyes y bienes.",
+      "por_que_importa": "Es el único texto que describe el procedimiento de la deditio, la entrega total al arbitrio de Roma que las fuentes literarias mencionan en las guerras de Hispania (y que se exigió a Numancia). Muestra que tras la entrega podía venir la restitución.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronce de Alcántara"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "edicto-del-bierzo",
+      "titulo": "Edicto del Bierzo (Bronce de Bembibre)",
+      "titulo_original": "Tabula Paemeiobrigensis",
+      "autor": "Augusto",
+      "autor_id": "augusto",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": -15,
+        "aprox": false,
+        "lugar": "Bembibre",
+        "lon": -6.417,
+        "lat": 42.615
+      },
+      "trata": {
+        "regiones": [
+          "galaecia",
+          "iberia"
+        ],
+        "desde": -15,
+        "hasta": -15
+      },
+      "idioma_original": "Latín",
+      "soporte": "Placa de bronce",
+      "resumen": "Edicto de Augusto, dado en Narbona en 15 a. C., que concede inmunidad a los castellani paemeiobrigenses, de la gens de los susarros, por haber permanecido leales mientras otros se rebelaban, y les confirma sus tierras; en su lugar, los del castillo de los aiiobrigiaecinos, de la gens de los gigurros, deberán cumplir las cargas junto con los susarros. Nombra una provincia Transduriana que no aparece en ninguna otra fuente. Apareció en 1999 en el Bierzo (León), en circunstancias confusas: hay cuatro versiones sobre el lugar del hallazgo.",
+      "por_que_importa": "Es un testimonio directo del final de las guerras astures y de cómo Roma premió a los castros fieles. La provincia Transduriana y el hallazgo sin contexto hicieron dudar de su autenticidad: Patrick Le Roux y John Richardson fueron escépticos y Alicia M. Canto enumeró treinta y dos anomalías de letra, metal y redacción; Géza Alföldy lo defendió desde el principio, y la mayoría de los especialistas lo acepta.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bronce de Bembibre",
+        "en": "Bierzo Edict"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "pacto-de-los-zoelas",
+      "titulo": "Pacto de los zoelas (Tabla de Astorga)",
+      "titulo_original": "Tabula Zoelarum",
+      "autor": "Gentilidades de los zoelas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 27,
+        "anio_hasta": 152,
+        "aprox": false,
+        "lugar": "Astorga (Asturica Augusta)",
+        "lon": -6.057,
+        "lat": 42.458
+      },
+      "trata": {
+        "regiones": [
+          "galaecia",
+          "iberia"
+        ],
+        "desde": 27,
+        "hasta": 152
+      },
+      "idioma_original": "Latín",
+      "soporte": "Placa de bronce con frontón",
+      "resumen": "Placa de bronce que registra cómo en 27 d. C. las gentilidades de los desoncos y de los tridiavos, ambas de la gens de los zoelas, un pueblo astur, renovaron un antiguo pacto de hospitalidad y de clientela, y cómo en 152 d. C. se sumaron otras personas al acuerdo.",
+      "por_que_importa": "Muestra que la organización de los astures en gentes y gentilidades seguía viva siglo y medio después de la conquista, ahora escrita en latín y en forma romana. Es una de las fuentes clave sobre el parentesco y la hospitalidad entre los pueblos del norte.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Zoelas",
+        "en": "Zoelae"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-cerco-de-numancia",
+      "titulo": "El cerco de Numancia",
+      "titulo_original": "El cerco de Numancia (La destruición de Numancia)",
+      "autor": "Miguel de Cervantes",
+      "autor_id": "miguel-de-cervantes",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1582,
+        "aprox": true,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "celtiberia"
+        ],
+        "desde": -134,
+        "hasta": -133
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Tragedia en cuatro jornadas sobre el último año del cerco de Escipión. Junto a numantinos y romanos aparecen figuras alegóricas (España, el río Duero, la Guerra, el Hambre, la Fama), y el Duero profetiza la grandeza futura de España. Sigue la versión de Floro y Orosio: los numantinos queman sus bienes y se matan, y el último, el muchacho Bariato, se arroja de una torre para que Escipión no tenga a quién llevar en su triunfo.",
+      "por_que_importa": "Hizo de Numancia el gran símbolo de la resistencia hispana; la obra quedó inédita hasta 1784 y desde entonces se representó en momentos de guerra, como la adaptación de Rafael Alberti en el Madrid sitiado de 1937 o la de Jean-Louis Barrault en París ese mismo año. La crítica discute si exalta la España imperial de Felipe II o si, al mostrar la crueldad romana, critica la conquista.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Tragedia_de_Numancia",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Numancia (Cervantes)",
+        "en": "The Siege of Numantia"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "numantia-schulten",
+      "titulo": "Numantia. Resultados de las excavaciones de 1905 a 1912",
+      "titulo_original": "Numantia. Die Ergebnisse der Ausgrabungen 1905-1912",
+      "autor": "Adolf Schulten",
+      "autor_id": "adolf-schulten",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1914,
+        "anio_hasta": 1931,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -195,
+        "hasta": -133
+      },
+      "idioma_original": "Alemán",
+      "soporte": null,
+      "resumen": "Cuatro volúmenes: los celtíberos y sus guerras con Roma (1914), la ciudad de Numancia (1931), los campamentos de Escipión (1927) y los campamentos de Renieblas (1929). Schulten reconstruyó el cerco de 134-133 a. C., con los siete campamentos y la muralla de circunvalación que describe Apiano, y atribuyó los campamentos superpuestos de Renieblas a Catón, Nobilior y otros generales.",
+      "por_que_importa": "Es la base de la arqueología militar romana en Hispania y documentó por primera vez los campamentos. Se le critica haber forzado los restos para que coincidieran con Apiano, que varias de sus atribuciones y fechas fueron corregidas por excavaciones posteriores, y que se ocupó poco de la ciudad indígena, que excavaba en paralelo la comisión oficial española.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "tartessos-schulten",
+      "titulo": "Tartessos. Contribución a la historia más antigua de Occidente",
+      "titulo_original": "Tartessos. Ein Beitrag zur ältesten Geschichte des Westens",
+      "autor": "Adolf Schulten",
+      "autor_id": "adolf-schulten",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1922,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -1100,
+        "hasta": -500
+      },
+      "idioma_original": "Alemán",
+      "soporte": null,
+      "resumen": "Schulten sostuvo que Tarteso fue una gran ciudad en la desembocadura del Guadalquivir, fundada por tirsenos venidos del Egeo, y la buscó sin éxito en Doñana; en obras posteriores la identificó con la Atlántida de Platón. La traducción española apareció en 1924.",
+      "por_que_importa": "Puso a Tarteso en el centro de la protohistoria española durante medio siglo. La historiografía posterior (por ejemplo Manuel Álvarez Martí-Aguilar, Tarteso. La construcción de un mito en la historiografía española, 2005) la estudia como la construcción de un mito, con lecturas forzadas de las fuentes y un modelo de colonizadores orientales civilizando a pueblos atrasados; Tarteso se entiende hoy como una cultura del bajo Guadalquivir, no como una ciudad.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "fontes-hispaniae-antiquae",
+      "titulo": "Fontes Hispaniae Antiquae",
+      "titulo_original": null,
+      "autor": "Adolf Schulten",
+      "autor_id": "adolf-schulten",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1922,
+        "anio_hasta": 1987,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -500,
+        "hasta": 700
+      },
+      "idioma_original": "Latín y español",
+      "soporte": null,
+      "resumen": "Colección en varios volúmenes de todos los textos griegos y latinos sobre la Hispania antigua, ordenados por épocas, que Schulten empezó con Pere Bosch Gimpera en Barcelona en 1922 y que se completó en 1987 con el volumen dedicado a Mela, Plinio y Ptolomeo.",
+      "por_que_importa": "Permitió por primera vez trabajar con todas las fuentes antiguas reunidas y fue la herramienta básica de la historia antigua española del siglo XX. Sus traducciones y comentarios llevan las interpretaciones de Schulten; la serie Testimonia Hispaniae Antiquae, desde 1994, la está reemplazando.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Fontes Hispaniae Antiquae"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-celtas-hispania-y-europa",
+      "titulo": "Los celtas: Hispania y Europa",
+      "titulo_original": null,
+      "autor": "Martín Almagro Gorbea",
+      "autor_id": "martin-almagro-gorbea",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "celtiberia",
+          "galaecia"
+        ],
+        "desde": -1200,
+        "hasta": -19
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Volumen dirigido por Martín Almagro-Gorbea y Gonzalo Ruiz Zapatero que reunió a arqueólogos y lingüistas sobre los celtas de la península. Abandona el modelo de invasiones sucesivas de Bosch Gimpera: Almagro-Gorbea propone una celtización gradual sobre un sustrato «protocelta» de la Edad del Bronce, y Ruiz Zapatero niega que los campos de urnas del nordeste fueran celtas.",
+      "por_que_importa": "Marcó el cambio de paradigma en España, de las migraciones a los procesos locales. Se le objeta que usa celta tanto para lenguas como para culturas arqueológicas, y que el «protocelta» no tiene apoyo lingüístico directo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "los-celtiberos-lorrio",
+      "titulo": "Los celtíberos",
+      "titulo_original": null,
+      "autor": "Alberto J. Lorrio",
+      "autor_id": "alberto-lorrio",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -700,
+        "hasta": -50
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Síntesis arqueológica de la Celtiberia, publicada por la Universidad Complutense y la de Alicante. Sigue la formación de la cultura celtibérica desde el siglo VII a. C. en el alto Jalón y el alto Tajo, a partir de las necrópolis, las armas, los poblados y la escritura, y la divide en fases protoceltibérica, antigua, plena y tardía.",
+      "por_que_importa": "Es la obra de referencia sobre la arqueología celtibérica. Como toda síntesis basada en necrópolis, depende de cementerios excavados mal a comienzos del siglo XX (las colecciones del marqués de Cerralbo) y de un registro que sobrerrepresenta a las élites guerreras.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "los-celtiberos-burillo",
+      "titulo": "Los celtíberos: etnias y estados",
+      "titulo_original": null,
+      "autor": "Francisco Burillo Mozota",
+      "autor_id": "francisco-burillo",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "trata": {
+        "regiones": [
+          "celtiberia"
+        ],
+        "desde": -600,
+        "hasta": -50
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio que combina fuentes escritas, arqueología y numismática para identificar las etnias celtíberas (belos, titos, arévacos, lusones, pelendones) y sostener que sus grandes ciudades funcionaban como ciudades-Estado. Pone el sinecismo de Segeda en el origen de la guerra de 153 a. C. La segunda edición es de 2007.",
+      "por_que_importa": "Renovó el estudio de la Celtiberia desde la historia política. Otros autores prefieren hablar de jefaturas o de comunidades urbanas sin Estado, y discuten los límites que traza entre las etnias, que dependen de fuentes escasas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "indoeuropeos-y-no-indoeuropeos",
+      "titulo": "Indoeuropeos y no indoeuropeos en la Hispania prerromana",
+      "titulo_original": null,
+      "autor": "Francisco Villar Liébana",
+      "autor_id": "francisco-villar",
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -2000,
+        "hasta": -19
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio de los nombres de lugar y de río de la península en el que Villar sostiene que, por debajo de las lenguas conocidas, hay una capa de hidronimia indoeuropea antigua que se extiende también por el sur y el este, donde en época histórica se hablaba ibérico.",
+      "por_que_importa": "Es la propuesta más amplia de una Hispania indoeuropea antes de los celtas. Muchos lingüistas consideran que esas etimologías, basadas en raíces muy breves, no alcanzan para probarla.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-celts-in-the-iberian-peninsula",
+      "titulo": "Los celtas en la península ibérica (e-Keltoi, volumen 6)",
+      "titulo_original": "The Celts in the Iberian Peninsula",
+      "autor": "Manuel Alberro y Bettina Arnold (editores)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Milwaukee",
+        "lon": -87.95,
+        "lat": 43.05
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "celtiberia",
+          "galaecia"
+        ],
+        "desde": -1200,
+        "hasta": -19
+      },
+      "idioma_original": "Inglés",
+      "soporte": null,
+      "resumen": "Número de la revista de acceso abierto e-Keltoi, de la Universidad de Wisconsin-Milwaukee, con estudios de especialistas españoles, portugueses y de otros países sobre los celtas de la península, entre ellos la síntesis de Alberto Lorrio y Gonzalo Ruiz Zapatero. Reúne posiciones distintas sobre los celtíberos, el noroeste, el lusitano y la religión.",
+      "por_que_importa": "Es la mejor puerta de entrada libre en inglés al debate peninsular, y muestra que no hay acuerdo sobre cuánto de lo «celta» de la península es lengua, cultura o etiqueta moderna.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "colectivismo-agrario-costa",
+      "titulo": "Colectivismo agrario en España",
+      "titulo_original": null,
+      "autor": "Joaquín Costa",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1898,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -150,
+        "hasta": 1898
+      },
+      "idioma_original": "Español",
+      "soporte": null,
+      "resumen": "Estudio del regeneracionista aragonés sobre las tradiciones de propiedad y trabajo comunal de la tierra en España, desde los antiguos hasta los bienes comunales de los pueblos de su época. Toma a los vacceos de Diodoro (V.34), que repartían cada año la tierra y la cosecha, como el primer ejemplo de un colectivismo agrario hispano.",
+      "por_que_importa": "Convirtió un pasaje de Diodoro en precedente de los debates agrarios del siglo XIX y XX. Se le critica leer una noticia breve, que seguramente viene de la idealización de los bárbaros de Posidonio, con los ojos de la política de su tiempo.",
+      "leer": [],
+      "confianza": "media"
+    }
+  ],
+  "personas": [
+    {
+      "id": "istolacio",
+      "nombre": "Istolacio",
+      "muerte": {
+        "anio": -237,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Cádiz (Gadir)",
+        "lon": -6.298,
+        "lat": 36.535,
+        "desde": -237,
+        "hasta": -237,
+        "aprox": true
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe celta que, con su hermano, mandaba tropas de íberos y tartesios contra Amílcar Barca cuando este desembarcó en Gadir (237 a. C.). Solo lo conocemos por Diodoro (XXV.10), que dice que murió en batalla con su hermano y que Amílcar incorporó a su ejército a tres mil de los vencidos. Es el primer celta de la península al que una fuente le da nombre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Istolacio",
+        "en": "Istolatios"
+      },
+      "wikidata": "Q5683766"
+    },
+    {
+      "id": "indortes",
+      "nombre": "Indortes",
+      "muerte": {
+        "anio": -237,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Cádiz (Gadir)",
+        "lon": -6.298,
+        "lat": 36.535,
+        "desde": -237,
+        "hasta": -237,
+        "aprox": true
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe ibérico que reunió unos cincuenta mil hombres contra Amílcar Barca después de la derrota de Istolacio. Según Diodoro (XXV.10), huyó antes del combate, fue capturado, cegado, torturado y crucificado, y Amílcar liberó a diez mil prisioneros; la cifra de su ejército es la de la fuente y no se puede controlar.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Indortes",
+        "en": "Indortes"
+      },
+      "wikidata": "Q606549"
+    },
+    {
+      "id": "indibil",
+      "nombre": "Indíbil",
+      "muerte": {
+        "anio": -205,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Lérida (Iltirda)",
+        "lon": 0.633,
+        "lat": 41.617,
+        "desde": -218,
+        "hasta": -205,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe de los ilergetes, un pueblo íbero del valle del Segre, que se alió primero con Cartago y después con Escipión el Africano durante la segunda guerra púnica. Se rebeló contra Roma en 206 y 205 a. C. y murió en combate. Lo conocemos por Polibio (X-XI) y Livio (XXII-XXIX).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Revuelta de Indíbil y Mandonio",
+        "en": "Indibilis and Mandonius"
+      },
+      "wikidata": "Q11945458"
+    },
+    {
+      "id": "mandonio",
+      "nombre": "Mandonio",
+      "muerte": {
+        "anio": -205,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Lérida (Iltirda)",
+        "lon": 0.633,
+        "lat": 41.617,
+        "desde": -218,
+        "hasta": -205,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Hermano de Indíbil y jefe ilergete con él. Tras la derrota de la segunda rebelión, en 205 a. C., los propios ilergetes lo entregaron a los romanos, que lo ejecutaron (Livio XXIX.3).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Revuelta de Indíbil y Mandonio",
+        "en": "Indibilis and Mandonius"
+      },
+      "wikidata": "Q11945458"
+    },
+    {
+      "id": "alucio",
+      "nombre": "Alucio",
+      "activo": {
+        "lugar": "Cartagena (Cartago Nova)",
+        "lon": -0.984,
+        "lat": 37.602,
+        "desde": -209,
+        "hasta": -209,
+        "aprox": false
+      },
+      "roles": [
+        "noble"
+      ],
+      "resumen": "Noble celtíbero cuya prometida, capturada en Cartago Nova en 209 a. C., le fue devuelta por Escipión el Africano junto con el oro del rescate. Lo cuenta Livio (XXVI.50) como ejemplo de la clemencia de Escipión; el episodio, conocido como «la continencia de Escipión», fue tema frecuente de la pintura europea.",
+      "obras": []
+    },
+    {
+      "id": "olindico",
+      "nombre": "Olíndico",
+      "muerte": {
+        "anio": -170,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Celtiberia",
+        "lon": -2.2,
+        "lat": 41.4,
+        "desde": -170,
+        "hasta": -170,
+        "aprox": true
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe celtíbero que hacia 170 a. C. levantó a su pueblo blandiendo una lanza de plata que, decía, le había sido enviada del cielo. Según Floro (I.33.13-14), entró de noche en el campamento romano para matar al cónsul y murió junto a su tienda, atravesado por el pilum de un centinela; el resumen del libro XLIII de Livio solo dice que la revuelta se apagó con su muerte. Floro no se burla de él: lo presenta como un hombre de gran audacia que, de haber triunfado, habría levantado a toda la Celtiberia. Algunos historiadores modernos ven en él a un jefe religioso.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Olíndico",
+        "en": "Olyndicus"
+      },
+      "wikidata": "Q7089274"
+    },
+    {
+      "id": "punico",
+      "nombre": "Púnico",
+      "muerte": {
+        "anio": -153,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -155,
+        "hasta": -153,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe lusitano que en 155-153 a. C. saqueó la Ulterior y, según Apiano (Iberica 56), mató a unos seis mil romanos. Murió de una pedrada en el sitio de una ciudad; su nombre, «el Púnico», es el que le dan las fuentes griegas y latinas y puede ser un apodo.",
+      "obras": []
+    },
+    {
+      "id": "cesaro",
+      "nombre": "Césaro",
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -153,
+        "hasta": -153,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Sucesor de Púnico al frente de los lusitanos. En 153 a. C., rechazado al principio por el pretor Lucio Mumio, se rehízo durante la persecución, le mató según Apiano unos nueve mil hombres y le tomó el campamento, armas y enseñas, que los lusitanos pasearon por la Celtiberia (Iberica 56). Mumio, con los cinco mil soldados que le quedaban, sorprendió después a un grupo que llevaba parte del botín y recuperó las enseñas (Iberica 57).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Césaro",
+        "en": "Caesarus"
+      },
+      "wikidata": "Q60695198"
+    },
+    {
+      "id": "caro-de-segeda",
+      "nombre": "Caro de Segeda",
+      "muerte": {
+        "anio": -153,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Segeda",
+        "lon": -1.517,
+        "lat": 41.301,
+        "desde": -153,
+        "hasta": -153,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe de Segeda, ciudad de los belos, elegido general por los arévacos cuando los segedenses se refugiaron entre ellos. El 23 de agosto de 153 a. C., día de las fiestas de Vulcano, emboscó al ejército de Nobilior y mató, según Apiano (Iberica 45), a seis mil ciudadanos romanos; murió en la persecución, atacado por la caballería romana que custodiaba el bagaje.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Caro de Segeda"
+      },
+      "wikidata": "Q5753089"
+    },
+    {
+      "id": "viriato",
+      "nombre": "Viriato",
+      "muerte": {
+        "anio": -139,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -147,
+        "hasta": -139,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Jefe lusitano que escapó de la masacre de Galba (150 a. C.) y desde 147 a. C. dirigió la guerra contra Roma durante ocho años según Apiano (catorce según el resumen de Livio y Floro): venció a Vetilio en Tribola y a varios pretores, y en 140 a. C. obligó a Fabio Máximo Serviliano a firmar una paz que lo reconocía «amigo del pueblo romano». Lo mataron mientras dormía tres de sus emisarios, Audax, Ditalcón y Minuro, sobornados por Servilio Cepión (139 a. C.). Lo conocemos por Apiano (Iberica 60-75), por Diodoro (XXXIII, que toma de Posidonio un retrato moralizante del pastor austero), por el resumen de Livio, que lo llama «de pastor, cazador; de cazador, bandolero; y enseguida general», y por Floro, Orosio y Dion Casio; su origen preciso se desconoce. Desde el Renacimiento lo reclaman como héroe nacional Portugal (Camões lo canta en Os Lusíadas y el Estado Novo lo exaltó) y España (Zamora lo hace nacer allí y le levantó una estatua a comienzos del siglo XX), una apropiación que la historiografía actual señala como anacrónica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Viriato",
+        "en": "Viriathus"
+      },
+      "wikidata": "Q331889"
+    },
+    {
+      "id": "tautalo",
+      "nombre": "Táutalo",
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -139,
+        "hasta": -139,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Sucesor de Viriato, que tras un ataque fracasado contra Sagunto se rindió a Servilio Cepión en 139 a. C.; Cepión desarmó a los lusitanos y les dio tierras (Apiano, Iberica 75). Es el último jefe de la guerra de Viriato que nombran las fuentes.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Táutalo",
+        "en": "Tautalus"
+      },
+      "wikidata": "Q63341577"
+    },
+    {
+      "id": "audax-ditalcon-y-minuro",
+      "nombre": "Audax, Ditalcón y Minuro",
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -139,
+        "hasta": -139,
+        "aprox": false
+      },
+      "roles": [
+        "asesinos"
+      ],
+      "resumen": "Tres hombres de confianza de Viriato, de la ciudad de Urso según Diodoro, que fueron como emisarios ante Servilio Cepión, aceptaron su soborno y mataron a Viriato mientras dormía (139 a. C.). Según Apiano (Iberica 74), cuando fueron a cobrar Cepión los remitió a Roma; la frase «Roma no paga traidores» es una versión moderna de lo que cuentan Eutropio (IV.16) y otros autores tardíos.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Audax, Ditalcus and Minurus"
+      },
+      "wikidata": "Q4819647"
+    },
+    {
+      "id": "retogenes",
+      "nombre": "Retógenes el Caraunio",
+      "muerte": {
+        "anio": -133,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -134,
+        "hasta": -133,
+        "aprox": false
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Noble numantino que durante el cerco de Escipión cruzó de noche las líneas romanas con cinco amigos y cinco criados usando una escala plegable, y recorrió las ciudades arévacas pidiendo ayuda (Apiano, Iberica 94). Solo los jóvenes de Lutia quisieron ir, y Escipión les hizo cortar las manos. Apiano no cuenta su final. Valerio Máximo (III.2 ext. 7) cuenta que un numantino llamado Retógenes, el más noble de la ciudad, incendió su barrio cuando todo estaba perdido y murió en él; no es seguro que sea el mismo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Retógenes el Caraunio"
+      },
+      "wikidata": "Q3851320"
+    },
+    {
+      "id": "avaro-numantino",
+      "nombre": "Avaro",
+      "muerte": {
+        "anio": -133,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -133,
+        "hasta": -133,
+        "aprox": false
+      },
+      "roles": [
+        "embajador"
+      ],
+      "resumen": "Numantino que, ya con la ciudad hambrienta, fue con otros cinco a pedirle a Escipión condiciones de rendición. Según Apiano (Iberica 95), al volver con la exigencia de rendición sin condiciones, los numantinos lo mataron con sus compañeros por creer que habían negociado su propia salvación.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Caudillos celtíberos de las Guerras Celtíberas"
+      },
+      "wikidata": "Q140160458"
+    },
+    {
+      "id": "corocota",
+      "nombre": "Corocota",
+      "activo": {
+        "lugar": "Cantabria",
+        "lon": -4.0,
+        "lat": 43.333,
+        "desde": -25,
+        "hasta": -25,
+        "aprox": true
+      },
+      "roles": [
+        "caudillo"
+      ],
+      "resumen": "Bandolero o jefe hispano, probablemente cántabro o astur, por cuya cabeza Augusto ofreció doscientos cincuenta mil sestercios. Según Dion Casio (LVI.43), se presentó él mismo ante el emperador, que le pagó la recompensa y lo dejó libre; la anécdota es la única noticia sobre él.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Corocotta",
+        "en": "Corocotta"
+      },
+      "wikidata": "Q3819122"
+    },
+    {
+      "id": "caton-el-viejo",
+      "nombre": "Marco Porcio Catón (Catón el Viejo)",
+      "nacimiento": {
+        "anio": -234,
+        "aprox": false,
+        "lugar": "Tusculum",
+        "lon": 12.711,
+        "lat": 41.798
+      },
+      "muerte": {
+        "anio": -149,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Emporion (Ampurias)",
+        "lon": 3.121,
+        "lat": 42.135,
+        "desde": -195,
+        "hasta": -195,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "general",
+        "escritor"
+      ],
+      "resumen": "Político romano que como cónsul en 195 a. C. desembarcó en Emporion, sofocó la rebelión de la Citerior y se jactaba de haber tomado más ciudades que días había pasado en Hispania (Plutarco, Catón 10; Livio XXXIV.8-21). A los mercenarios celtíberos que servían a los turdetanos les ofreció el doble de la paga para que se pasaran a Roma, y marchó después contra Segontia (Livio XXXIV.19). En 149 a. C. acusó a Servio Sulpicio Galba por la masacre de los lusitanos; sus Orígenes, la primera historia de Roma en latín, se conservan en fragmentos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Catón el Viejo",
+        "en": "Cato the Elder"
+      },
+      "wikidata": "Q180081"
+    },
+    {
+      "id": "tiberio-sempronio-graco-mayor",
+      "nombre": "Tiberio Sempronio Graco",
+      "nacimiento": {
+        "anio": -217,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -154,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Celtiberia",
+        "lon": -2.2,
+        "lat": 41.4,
+        "desde": -180,
+        "hasta": -178,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "político"
+      ],
+      "resumen": "Pretor de la Hispania Citerior en 180-178 a. C., que cerró la primera guerra celtíbera con tratados que fijaban tributos, tropas auxiliares y la prohibición de fundar ciudades nuevas (Apiano, Iberica 43; Livio XL-XLI). Fundó Gracurris (Alfaro). Su paz duró unos veinticinco años y las fuentes la recuerdan como modelo de trato justo; fue padre de los tribunos Tiberio y Cayo Graco.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tiberio Sempronio Graco (cónsul 177 a. C.)",
+        "en": "Tiberius Sempronius Gracchus (consul 177 BC)"
+      },
+      "wikidata": "Q443505"
+    },
+    {
+      "id": "quinto-fulvio-nobilior",
+      "nombre": "Quinto Fulvio Nobilior",
+      "activo": {
+        "lugar": "Segeda",
+        "lon": -1.517,
+        "lat": 41.301,
+        "desde": -153,
+        "hasta": -153,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul en 153 a. C., enviado con casi treinta mil hombres contra Segeda. Sufrió la emboscada de Caro el día de Vulcano y después fracasó ante Numancia, donde un elefante herido desbandó a los demás (Apiano, Iberica 45-47). Por la urgencia de su campaña los cónsules empezaron a asumir el 1 de enero.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Fulvio Nobilior",
+        "en": "Quintus Fulvius Nobilior"
+      },
+      "wikidata": "Q984407"
+    },
+    {
+      "id": "marco-claudio-marcelo-152",
+      "nombre": "Marco Claudio Marcelo (cónsul en 166, 155 y 152 a. C.)",
+      "muerte": {
+        "anio": -148,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -152,
+        "hasta": -151,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Nieto del vencedor de Clastidio, cónsul por tercera vez en 152 a. C., que negoció con arévacos, belos y titos una paz moderada en 151 a. C. Según Posidonio, citado por Estrabón (III.4.13), les cobró seiscientos talentos. Murió en un naufragio en 148 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marco Claudio Marcelo (cónsul 166 a. C.)",
+        "en": "Marcus Claudius Marcellus (consul 166 BC)"
+      },
+      "wikidata": "Q521485"
+    },
+    {
+      "id": "lucio-licinio-luculo-151",
+      "nombre": "Lucio Licinio Lúculo (cónsul en 151 a. C.)",
+      "activo": {
+        "lugar": "Coca (Cauca)",
+        "lon": -4.522,
+        "lat": 41.218,
+        "desde": -151,
+        "hasta": -151,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul que en 151 a. C., sin autorización del Senado, atacó a los vacceos. En Cauca aceptó la rendición, entró en la ciudad y mató a la mayoría de sus veinte mil hombres; fracasó después ante Intercacia y Palantia (Apiano, Iberica 51-55, que lo acusa de buscar botín). No fue juzgado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lucio Licinio Lúculo (cónsul 151 a. C.)",
+        "en": "Lucius Licinius Lucullus (consul 151 BC)"
+      },
+      "wikidata": "Q691847"
+    },
+    {
+      "id": "servio-sulpicio-galba",
+      "nombre": "Servio Sulpicio Galba",
+      "nacimiento": {
+        "anio": -194,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -151,
+        "hasta": -150,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "orador"
+      ],
+      "resumen": "Pretor de la Ulterior que en 150 a. C. prometió tierras a los lusitanos, los dividió en tres grupos, los desarmó y los hizo matar (Apiano, Iberica 59-60). Acusado en Roma en 149 a. C., con Catón entre los acusadores, fue absuelto tras presentarse con sus hijos llorando (resumen de Livio XLIX; Cicerón, Bruto 89-90); Apiano dice que se salvó con su dinero. Fue cónsul en 144 a. C. y uno de los grandes oradores de su tiempo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Servio Sulpicio Galba (cónsul 144 a. C.)",
+        "en": "Servius Sulpicius Galba (consul 144 BC)"
+      },
+      "wikidata": "Q559871"
+    },
+    {
+      "id": "quinto-fabio-maximo-serviliano",
+      "nombre": "Quinto Fabio Máximo Serviliano",
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -142,
+        "hasta": -140,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul en 142 a. C. y procónsul en la Ulterior, que cercado por Viriato en Erisana (140 a. C.) firmó una paz que reconocía a Viriato como amigo del pueblo romano y le dejaba sus tierras; el pueblo de Roma la ratificó (Apiano, Iberica 69).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Fabio Máximo Serviliano",
+        "en": "Quintus Fabius Maximus Servilianus"
+      },
+      "wikidata": "Q939993"
+    },
+    {
+      "id": "quinto-servilio-cepion-140",
+      "nombre": "Quinto Servilio Cepión (cónsul en 140 a. C.)",
+      "activo": {
+        "lugar": "Lusitania",
+        "lon": -7.6,
+        "lat": 40.0,
+        "desde": -140,
+        "hasta": -139,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Hermano de Serviliano, consiguió que el Senado rompiera la paz con Viriato y sobornó a sus emisarios para que lo mataran (139 a. C.). Según Apiano (Iberica 70-75) recibió la rendición de Táutalo; según algunas fuentes tardías, el Senado le negó el triunfo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Servilio Cepión (cónsul 140 a. C.)",
+        "en": "Quintus Servilius Caepio (consul 140 BC)"
+      },
+      "wikidata": "Q1243849"
+    },
+    {
+      "id": "quinto-cecilio-metelo-macedonico",
+      "nombre": "Quinto Cecilio Metelo Macedónico",
+      "nacimiento": {
+        "anio": -210,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -116,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Celtiberia",
+        "lon": -2.2,
+        "lat": 41.4,
+        "desde": -143,
+        "hasta": -142,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Vencedor de Macedonia, cónsul en 143 a. C., que sometió a los arévacos salvo Termancia y Numancia. Según Valerio Máximo (V.1.5), renunció a asaltar Centobriga cuando sus defensores pusieron en la brecha a los hijos de un desertor, y con ese gesto se ganó a otras ciudades celtíberas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Cecilio Metelo Macedónico",
+        "en": "Quintus Caecilius Metellus Macedonicus"
+      },
+      "wikidata": "Q355768"
+    },
+    {
+      "id": "quinto-pompeyo-141",
+      "nombre": "Quinto Pompeyo (cónsul en 141 a. C.)",
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -141,
+        "hasta": -140,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul que fracasó ante Numancia y Termancia y en 140 a. C. pactó en secreto una paz con los numantinos que luego negó ante el Senado (Apiano, Iberica 76-79). El Senado la desconoció y la guerra siguió.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Quintus Pompeius"
+      },
+      "wikidata": "Q4218686"
+    },
+    {
+      "id": "cayo-hostilio-mancino",
+      "nombre": "Cayo Hostilio Mancino",
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -137,
+        "hasta": -137,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul en 137 a. C. que, cercado por los numantinos, rindió un ejército de unos veinte mil hombres a cambio de un tratado que negoció su cuestor Tiberio Graco. El Senado lo rechazó y, para liberar a Roma del juramento, entregó a Mancino desnudo y atado a los numantinos, que no lo aceptaron (Apiano, Iberica 80-83; Plutarco, Tiberio Graco 5-7).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cayo Hostilio Mancino",
+        "en": "Gaius Hostilius Mancinus"
+      },
+      "wikidata": "Q949544"
+    },
+    {
+      "id": "decimo-junio-bruto-galaico",
+      "nombre": "Décimo Junio Bruto Galaico",
+      "nacimiento": {
+        "anio": -180,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -113,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Braga (Bracara Augusta)",
+        "lon": -8.417,
+        "lat": 41.533,
+        "desde": -138,
+        "hasta": -136,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul en 138 a. C. que llevó la primera campaña romana al noroeste: cruzó el Limia, al que sus soldados temían como el Leteo, el río del olvido, y luego el Miño. Por esa campaña recibió el sobrenombre de Galaico; según Livio, dio tierras a los antiguos soldados de Viriato y fundó Valentia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Décimo Junio Bruto Galaico",
+        "en": "Decimus Junius Brutus Callaicus"
+      },
+      "wikidata": "Q718090"
+    },
+    {
+      "id": "escipion-emiliano",
+      "nombre": "Publio Cornelio Escipión Emiliano",
+      "nacimiento": {
+        "anio": -185,
+        "aprox": false,
+        "lugar": "Antigua Roma",
+        "lon": 12.48,
+        "lat": 41.89
+      },
+      "muerte": {
+        "anio": -129,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": -134,
+        "hasta": -133,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "político"
+      ],
+      "resumen": "General romano que destruyó Cartago en 146 a. C. y Numancia en 133 a. C. Había servido en Hispania en 151 a. C., cuando venció en combate singular a un guerrero vacceo en Intercacia. Elegido cónsul en 134 a. C. para terminar la guerra numantina, rodeó la ciudad con un cerco de nueve kilómetros y la rindió por hambre; lo acompañaban Polibio, el poeta Lucilio, Cayo Mario y el númida Yugurta. Murió en 129 a. C. en circunstancias que ya en su época se sospecharon criminales.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Escipión Emiliano",
+        "en": "Scipio Aemilianus"
+      },
+      "wikidata": "Q2307"
+    },
+    {
+      "id": "tito-didio",
+      "nombre": "Tito Didio",
+      "muerte": {
+        "anio": -89,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tiermes (Termes)",
+        "lon": -3.149,
+        "lat": 41.331,
+        "desde": -98,
+        "hasta": -93,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Cónsul en 98 a. C. y procónsul de la Citerior hasta 93 a. C. Según Apiano (Iberica 99-100), mató a unos veinte mil arévacos, obligó a Termes a bajar al llano, vendió a los habitantes de Colenda y atrajo a los de una ciudad vecina con la promesa de tierras para masacrarlos. Murió en la guerra social.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tito Didio",
+        "en": "Titus Didius"
+      },
+      "wikidata": "Q723438"
+    },
+    {
+      "id": "cayo-valerio-flaco-93",
+      "nombre": "Cayo Valerio Flaco",
+      "activo": {
+        "lugar": "Contrebia Belaisca",
+        "lon": -1.032,
+        "lat": 41.515,
+        "desde": -92,
+        "hasta": -81,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Cónsul en 93 a. C. y gobernador de la Citerior durante una década. Su nombre aparece en el segundo bronce de Botorrita (87 a. C.) como el magistrado que fijó la fórmula con la que el senado de Contrebia juzgó un pleito por aguas entre comunidades vecinas. Según Apiano (Iberica 100), un Flaco, que se identifica con él, mató a veinte mil celtíberos sublevados y castigó a los de Belgida, que habían quemado vivos a sus senadores por dudar en sumarse a la revuelta.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cayo Valerio Flaco",
+        "en": "Gaius Valerius Flaccus (consul 93 BC)"
+      },
+      "wikidata": "Q857131"
+    },
+    {
+      "id": "quinto-sertorio",
+      "nombre": "Quinto Sertorio",
+      "nacimiento": {
+        "anio": -123,
+        "aprox": false,
+        "lugar": "Nursia",
+        "lon": 13.093,
+        "lat": 42.793
+      },
+      "muerte": {
+        "anio": -72,
+        "aprox": false,
+        "lugar": "Osca",
+        "lon": -0.409,
+        "lat": 42.139
+      },
+      "activo": {
+        "lugar": "Huesca (Osca)",
+        "lon": -0.409,
+        "lat": 42.14,
+        "desde": -80,
+        "hasta": -72,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "político"
+      ],
+      "resumen": "General romano del bando de Mario que desde 80 a. C. hizo de Hispania la base de su guerra contra el régimen de Sila, con un senado propio y el apoyo de lusitanos y celtíberos. Según Plutarco (Sertorio 11-14), se ganaba a los hispanos con una cierva blanca que decía enviada por Diana, abrió en Osca una escuela para los hijos de los nobles, que eran a la vez rehenes, y tenía una guardia que se le había consagrado según la costumbre ibérica de la devotio. Venció varias veces a Metelo Pío y a Pompeyo; lo asesinó Perperna en un banquete en 72 a. C. Su imagen de rebelde ilustrado viene de Plutarco y de los fragmentos de Salustio; la historiografía discute si buscaba un Estado hispano o solo una base para volver a Roma.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Sertorio",
+        "en": "Quintus Sertorius"
+      },
+      "wikidata": "Q296238"
+    },
+    {
+      "id": "quinto-cecilio-metelo-pio",
+      "nombre": "Quinto Cecilio Metelo Pío",
+      "nacimiento": {
+        "anio": -128,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -63,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389,
+        "desde": -79,
+        "hasta": -71,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Procónsul de la Ulterior que desde 79 a. C. combatió a Sertorio, primero con poco éxito y después, junto con Pompeyo, hasta su muerte. Se le atribuye la fundación de Metellinum (Medellín).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Quinto Cecilio Metelo Pío",
+        "en": "Quintus Caecilius Metellus Pius"
+      },
+      "wikidata": "Q313680"
+    },
+    {
+      "id": "pompeyo-magno",
+      "nombre": "Cneo Pompeyo Magno",
+      "nacimiento": {
+        "anio": -106,
+        "aprox": false,
+        "lugar": "Piceno"
+      },
+      "muerte": {
+        "anio": -48,
+        "aprox": false,
+        "lugar": "Pelusio",
+        "lon": 32.6,
+        "lat": 31.05
+      },
+      "activo": {
+        "lugar": "Tarragona (Tarraco)",
+        "lon": 1.253,
+        "lat": 41.117,
+        "desde": -77,
+        "hasta": -71,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "político"
+      ],
+      "resumen": "General romano enviado contra Sertorio en 77 a. C. Sufrió reveses en Lauro y Sucro, tomó después las ciudades celtíberas aliadas de Sertorio (Uxama, Clunia, Termes, Calagurris) y en 72 a. C. derrotó a Perperna. Levantó un trofeo en el paso de los Pirineos y fundó Pompaelo (Pamplona); años después fue el rival de César en la guerra civil.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pompeyo",
+        "en": "Pompey"
+      },
+      "wikidata": "Q125414"
+    },
+    {
+      "id": "marco-perperna",
+      "nombre": "Marco Perperna Ventón",
+      "muerte": {
+        "anio": -72,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Huesca (Osca)",
+        "lon": -0.409,
+        "lat": 42.14,
+        "desde": -77,
+        "hasta": -72,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Lugarteniente de Sertorio, que lo mató en un banquete en Osca en 72 a. C. para tomar el mando. Pompeyo lo derrotó enseguida y lo hizo ejecutar, y quemó sin leer las cartas de Sertorio con senadores romanos que Perperna le ofrecía (Plutarco, Pompeyo 20).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marco Perpenna Ventón",
+        "en": "Marcus Perperna Veiento"
+      },
+      "wikidata": "Q922459"
+    },
+    {
+      "id": "publio-carisio",
+      "nombre": "Publio Carisio",
+      "activo": {
+        "lugar": "Astorga (Asturica Augusta)",
+        "lon": -6.057,
+        "lat": 42.458,
+        "desde": -25,
+        "hasta": -22,
+        "aprox": false
+      },
+      "roles": [
+        "general"
+      ],
+      "resumen": "Legado de Augusto en las guerras contra los astures, que tomó Lancia en 25 a. C. (Floro, Orosio) y fundó Emerita Augusta para los veteranos. Según Dion Casio (LIV.5), su dureza provocó la rebelión de los astures de 22 a. C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Publio Carisio",
+        "en": "Publius Carisius"
+      },
+      "wikidata": "Q2116439"
+    },
+    {
+      "id": "marco-vipsanio-agripa",
+      "nombre": "Marco Vipsanio Agripa",
+      "nacimiento": {
+        "anio": -63,
+        "aprox": false,
+        "lugar": "Istria",
+        "lon": 13.9,
+        "lat": 45.2
+      },
+      "muerte": {
+        "anio": -12,
+        "aprox": false,
+        "lugar": "Campania",
+        "lon": 14.95,
+        "lat": 40.75
+      },
+      "activo": {
+        "lugar": "Cantabria",
+        "lon": -4.0,
+        "lat": 43.333,
+        "desde": -19,
+        "hasta": -19,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "político"
+      ],
+      "resumen": "Mano derecha de Augusto, que en 19 a. C. terminó las guerras cántabras. Según Dion Casio (LIV.11), tuvo que vencer primero la resistencia de sus propios soldados, degradó a una legión, mató a casi todos los cántabros en edad de luchar y bajó al resto al llano; rechazó el triunfo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marco Vipsanio Agripa",
+        "en": "Marcus Vipsanius Agrippa"
+      },
+      "wikidata": "Q48174"
+    },
+    {
+      "id": "eduardo-saavedra",
+      "nombre": "Eduardo Saavedra",
+      "nacimiento": {
+        "anio": 1829,
+        "aprox": false,
+        "lugar": "Tarragona",
+        "lon": 1.253,
+        "lat": 41.117
+      },
+      "muerte": {
+        "anio": 1912,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Soria",
+        "lon": -2.467,
+        "lat": 41.767,
+        "desde": 1860,
+        "hasta": 1867,
+        "aprox": false
+      },
+      "roles": [
+        "ingeniero",
+        "arqueólogo"
+      ],
+      "resumen": "Ingeniero de caminos español que estudió la calzada romana de Uxama a Augustobriga y excavó en 1861-1867, por encargo de la Real Academia de la Historia, el cerro de Garray. Sus excavaciones confirmaron que allí estaba Numancia, como ya habían sostenido autores desde el siglo XVI frente a una vieja tradición que la ponía en Zamora. Fue también arabista e historiador, y presidió en 1906 la comisión oficial que volvió a excavar la ciudad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eduardo Saavedra y Moragas",
+        "en": "Eduardo Saavedra"
+      },
+      "wikidata": "Q8772385"
+    },
+    {
+      "id": "adolf-schulten",
+      "nombre": "Adolf Schulten",
+      "nacimiento": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Elberfeld",
+        "lon": 7.149,
+        "lat": 51.257
+      },
+      "muerte": {
+        "anio": 1960,
+        "aprox": false,
+        "lugar": "Erlangen",
+        "lon": 11.005,
+        "lat": 49.593
+      },
+      "activo": {
+        "lugar": "Numancia",
+        "lon": -2.444,
+        "lat": 41.809,
+        "desde": 1905,
+        "hasta": 1912,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "arqueólogo"
+      ],
+      "resumen": "Historiador alemán que excavó en 1905-1912 los campamentos romanos que rodean Numancia y los publicó en cuatro volúmenes, además de buscar sin éxito Tarteso en Doñana y de iniciar las Fontes Hispaniae Antiquae. Dominó durante décadas la historia antigua española, y el régimen de Franco lo condecoró en 1940. Hoy se le reconoce la documentación de los campamentos y la compilación de fuentes, y se le critica la lectura forzada de los textos, su identificación de Tarteso con la Atlántida, sus ideas raciales sobre íberos y celtas y su poco interés por la ciudad indígena.",
+      "obras": [
+        "numantia-schulten",
+        "tartessos-schulten",
+        "fontes-hispaniae-antiquae"
+      ],
+      "wikipedia": {
+        "es": "Adolf Schulten",
+        "en": "Adolf Schulten"
+      },
+      "wikidata": "Q64166"
+    },
+    {
+      "id": "blas-taracena",
+      "nombre": "Blas Taracena Aguirre",
+      "nacimiento": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "Soria",
+        "lon": -2.467,
+        "lat": 41.767
+      },
+      "muerte": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Soria",
+        "lon": -2.467,
+        "lat": 41.767,
+        "desde": 1914,
+        "hasta": 1936,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo soriano que excavó en Numancia con la comisión oficial, estudió la cerámica numantina y definió la cultura de los castros sorianos. Su Carta arqueológica de España: Soria (1941) es la base del estudio de los arévacos y pelendones; dirigió después el Museo Arqueológico Nacional.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Blas Taracena Aguirre",
+        "en": "Blas Taracena Aguirre"
+      },
+      "wikidata": "Q5730100"
+    },
+    {
+      "id": "pere-bosch-gimpera",
+      "nombre": "Pere Bosch Gimpera",
+      "nacimiento": {
+        "anio": 1891,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "muerte": {
+        "anio": 1974,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383,
+        "desde": 1916,
+        "hasta": 1939,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo",
+        "prehistoriador"
+      ],
+      "resumen": "Prehistoriador catalán que propuso la primera síntesis de los pueblos prerromanos de la península, con sucesivas oleadas célticas venidas de Europa central. Colaboró con Schulten en las Fontes Hispaniae Antiquae y fue rector de la Universidad de Barcelona; se exilió en 1939 y vivió en México desde 1941. Su esquema de invasiones fue abandonado por la arqueología posterior.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Bosch",
+        "en": "Pere Bosch-Gimpera"
+      },
+      "wikidata": "Q965486"
+    },
+    {
+      "id": "antonio-tovar",
+      "nombre": "Antonio Tovar",
+      "nacimiento": {
+        "anio": 1911,
+        "aprox": false,
+        "lugar": "Valladolid",
+        "lon": -4.729,
+        "lat": 41.652
+      },
+      "muerte": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965,
+        "desde": 1942,
+        "hasta": 1984,
+        "aprox": false
+      },
+      "roles": [
+        "lingüista"
+      ],
+      "resumen": "Lingüista español que estudió las lenguas prerromanas de la península y continuó la geografía antigua de Hispania que había dejado Schulten. Sostuvo que el lusitano era una lengua indoeuropea no celta, por conservar la p inicial; fue rector de Salamanca en el franquismo y después se distanció del régimen.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio Tovar",
+        "en": "Antonio Tovar"
+      },
+      "wikidata": "Q605489"
+    },
+    {
+      "id": "francisco-villar",
+      "nombre": "Francisco Villar Liébana",
+      "nacimiento": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Torredonjimeno",
+        "lon": -3.951,
+        "lat": 37.761
+      },
+      "activo": {
+        "lugar": "Salamanca",
+        "lon": -5.664,
+        "lat": 40.965,
+        "desde": 1975,
+        "hasta": 2012,
+        "aprox": false
+      },
+      "roles": [
+        "lingüista"
+      ],
+      "resumen": "Lingüista español, catedrático en Salamanca, especialista en las lenguas indoeuropeas de la península. Sostiene que el lusitano no es celta (con Rosa Pedrero lo acercó al ligur) y que los nombres de ríos revelan una capa indoeuropea más antigua que la celta, extendida incluso por tierras luego ibéricas. Esa capa antigua es discutida por quienes ven en esos nombres un origen celta o preindoeuropeo.",
+      "obras": [
+        "indoeuropeos-y-no-indoeuropeos"
+      ],
+      "wikipedia": {
+        "es": "Francisco Villar Liébana",
+        "en": "Francisco Villar Liebana"
+      },
+      "wikidata": "Q1096074"
+    },
+    {
+      "id": "martin-almagro-gorbea",
+      "nombre": "Martín Almagro Gorbea",
+      "nacimiento": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "activo": {
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417,
+        "desde": 1975,
+        "hasta": 2016,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo español, editor junto con Gonzalo Ruiz Zapatero de Los celtas: Hispania y Europa (1993). Propuso que lo celta en la península se formó por acumulación, sobre un sustrato «protocelta» de la Edad del Bronce, y no por una invasión. Se le objeta que ese «protocelta» no tiene prueba lingüística directa y que estira el término celta.",
+      "obras": [
+        "los-celtas-hispania-y-europa"
+      ],
+      "wikipedia": {
+        "es": "Martín Almagro Gorbea",
+        "en": "Martín Almagro Gorbea"
+      },
+      "wikidata": "Q5361639"
+    },
+    {
+      "id": "francisco-burillo",
+      "nombre": "Francisco Burillo Mozota",
+      "nacimiento": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Paniza",
+        "lon": -1.212,
+        "lat": 41.284
+      },
+      "activo": {
+        "lugar": "Teruel",
+        "lon": -1.107,
+        "lat": 40.344,
+        "desde": 1980,
+        "hasta": 2022,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo aragonés que dirige las excavaciones de Segeda desde fines de los años noventa y escribió Los celtíberos: etnias y estados (1998). Sostiene que las ciudades celtíberas eran ciudades-Estado y que el sinecismo de Segeda fue la causa real de la guerra de 153 a. C. También impulsó el estudio de la despoblada Serranía Celtibérica actual.",
+      "obras": [
+        "los-celtiberos-burillo"
+      ],
+      "wikipedia": {
+        "es": "Francisco Burillo Mozota"
+      },
+      "wikidata": "Q526175"
+    },
+    {
+      "id": "alberto-lorrio",
+      "nombre": "Alberto J. Lorrio",
+      "activo": {
+        "lugar": "Alicante",
+        "lon": -0.483,
+        "lat": 38.345,
+        "desde": 1990,
+        "hasta": 2020,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo español, autor de Los celtíberos (1997), la síntesis arqueológica de referencia sobre ese pueblo. Distingue fases de la cultura celtibérica desde el siglo VII a. C. a partir de las necrópolis, las armas y los poblados.",
+      "obras": [
+        "los-celtiberos-lorrio"
+      ]
+    },
+    {
+      "id": "francisco-calo-lourido",
+      "nombre": "Francisco Calo Lourido",
+      "nacimiento": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Puerto del Son",
+        "lon": -9.006,
+        "lat": 42.725
+      },
+      "activo": {
+        "lugar": "Santiago de Compostela",
+        "lon": -8.533,
+        "lat": 42.883,
+        "desde": 1975,
+        "hasta": 2018,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo y antropólogo gallego que excavó castros como Baroña y estudió la cultura castreña. En «Os celtas. Unha (re)visión dende Galicia» (2010) revisó la cuestión de los celtas en Galicia desde la arqueología castreña.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Calo Lourido"
+      },
+      "wikidata": "Q12388908"
+    },
+    {
+      "id": "jorge-de-alarcao",
+      "nombre": "Jorge de Alarcão",
+      "nacimiento": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Coímbra",
+        "lon": -8.429,
+        "lat": 40.211
+      },
+      "activo": {
+        "lugar": "Coímbra",
+        "lon": -8.429,
+        "lat": 40.211,
+        "desde": 1960,
+        "hasta": 2004,
+        "aprox": false
+      },
+      "roles": [
+        "arqueólogo"
+      ],
+      "resumen": "Arqueólogo portugués de la Universidad de Coimbra, autor de Roman Portugal (1988) y de estudios sobre la geografía de los pueblos prerromanos del oeste y su organización en populi y castella.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Jorge de Alarcão"
+      },
+      "wikidata": "Q6278788"
+    },
+    {
+      "id": "miguel-de-cervantes",
+      "nombre": "Miguel de Cervantes",
+      "nacimiento": {
+        "anio": 1547,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "muerte": {
+        "anio": 1616,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417,
+        "desde": 1580,
+        "hasta": 1616,
+        "aprox": false
+      },
+      "roles": [
+        "escritor"
+      ],
+      "resumen": "Escritor español, autor del Quijote. Hacia 1582 escribió El cerco de Numancia, una tragedia sobre la caída de la ciudad que convirtió a los numantinos en símbolo de la resistencia hispana.",
+      "obras": [
+        "el-cerco-de-numancia"
+      ],
+      "wikipedia": {
+        "es": "Miguel de Cervantes",
+        "en": "Miguel de Cervantes"
+      },
+      "wikidata": "Q5682"
+    }
+  ],
+  "hechos": [
+    {
+      "id": "celtas-de-iberia-en-las-fuentes",
+      "titulo": "Los celtas de la península según los autores antiguos",
+      "anio": -430,
+      "anio_hasta": 100,
+      "aprox": true,
+      "lugar": "Meseta Central",
+      "lon": -3.5,
+      "lat": 40.5,
+      "tipo": "cultural",
+      "resumen": "Heródoto (II.33 y IV.49) pone a los celtas «más allá de las columnas de Heracles», vecinos de los cinetes, los más occidentales de Europa. Estrabón (libro III) llama célticos a pueblos del sudoeste y del noroeste y describe a los celtíberos; Plinio (III.13) dice que los célticos de la Beturia vinieron de los celtíberos de la Lusitania, «como lo prueban sus ritos, su lengua y los nombres de sus ciudades»; Mela (III) ubica célticos en la costa gallega, y Diodoro (V.33, de Posidonio), Apiano (Iberica 2) y Lucano (IV.9-10) explican el nombre de los celtíberos como una mezcla de celtas e íberos. Marcial se dice «nacido de celtas y de íberos» (IV.55). Para los griegos «celta» era una etiqueta amplia para los bárbaros del oeste, y ninguno de estos autores la definió por la lengua, como hace la lingüística moderna; por eso no siempre coinciden los «celtas» de las fuentes y los de los lingüistas.",
+      "regiones": [
+        "iberia",
+        "celtiberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "historias-herodoto",
+        "ora-maritima",
+        "geografia-de-estrabon-libro-iii",
+        "historia-natural-plinio",
+        "corografia-mela",
+        "biblioteca-historica-diodoro-libro-v",
+        "iberica-de-apiano",
+        "farsalia",
+        "epigramas-marcial",
+        "punica-silio-italico"
+      ],
+      "wikipedia": {
+        "en": "List of the Pre-Roman peoples of the Iberian Peninsula"
+      }
+    },
+    {
+      "id": "celtizacion-de-la-peninsula",
+      "titulo": "Cómo llegaron las lenguas celtas a la península: el debate",
+      "anio": -1300,
+      "anio_hasta": -600,
+      "aprox": true,
+      "lugar": "Meseta Central",
+      "lon": -3.5,
+      "lat": 40.5,
+      "tipo": "cultural",
+      "resumen": "Lo seguro es que en el siglo II a. C. se hablaba una lengua celta, el celtíbero, en la Meseta oriental, que la mitad occidental de la península está llena de nombres celtas (los terminados en -briga, «altura fortificada») y que el este y el sur hablaban ibérico y otras lenguas no indoeuropeas. Cómo y cuándo llegaron se discute: Bosch Gimpera (Etnología de la península ibérica, 1932) veía oleadas de invasores con los campos de urnas; Almagro-Gorbea y Ruiz Zapatero (1993) prefieren una celtización gradual sobre sustratos locales; Cunliffe y Koch (Celtic from the West, 2010) proponen que el celta nació en la fachada atlántica, y Koch lee como celta el tartesio, lectura que rechazan Untermann, de Hoz, Eska y Correa; Villar (2000) defiende una capa indoeuropea anterior no celta. La genética (Olalde y otros, 2019) muestra la gran llegada de ascendencia esteparia hacia 2500-2000 a. C. y un aporte menor de Europa central a fines del Bronce o comienzos del Hierro, que los autores relacionan con los campos de urnas, pero no puede decir qué lengua hablaba nadie.",
+      "regiones": [
+        "iberia",
+        "celtiberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "los-celtas-hispania-y-europa",
+        "celtic-from-the-west",
+        "indoeuropeos-y-no-indoeuropeos",
+        "historia-genomica-de-iberia-olalde-2019",
+        "the-celts-in-the-iberian-peninsula",
+        "monumenta-linguarum-hispanicarum"
+      ],
+      "wikipedia": {
+        "es": "Lenguas hispano-célticas",
+        "en": "Hispano-Celtic languages"
+      }
+    },
+    {
+      "id": "lengua-celtibera",
+      "titulo": "El celtíbero, la lengua celta escrita de la península",
+      "anio": -180,
+      "anio_hasta": -30,
+      "aprox": true,
+      "lugar": "Contrebia Belaisca",
+      "lon": -1.032,
+      "lat": 41.515,
+      "tipo": "cultural",
+      "resumen": "El celtíbero es la única lengua celta antigua de la península con textos de cierta extensión: los bronces de Botorrita, el de Luzaga, las téseras, las leyendas de las monedas y las inscripciones rupestres de Peñalba de Villastar. Es una lengua celta «arcaica» que conserva la kw indoeuropea (como el irlandés y a diferencia del galo), lo que se usó para clasificarla entre las celtas «Q». Del galaico del noroeste solo quedan nombres de personas, lugares y dioses.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "bronces-de-botorrita",
+        "botorrita-iii",
+        "monedas-celtibericas",
+        "teseras-de-hospitalidad",
+        "inscripcion-de-penalba-de-villastar",
+        "monumenta-linguarum-hispanicarum"
+      ],
+      "wikipedia": {
+        "es": "Idioma celtíbero",
+        "en": "Celtiberian language"
+      }
+    },
+    {
+      "id": "celtiberos",
+      "titulo": "Los celtíberos",
+      "anio": -600,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "cultural",
+      "resumen": "Pueblos de lengua celta de la Meseta oriental y el Sistema Ibérico (arévacos, belos, titos, lusones y, según algunos, pelendones), cuya cultura arqueológica se forma desde el siglo VII a. C. en el alto Jalón y el alto Tajo. Vivían en castros y después en ciudades fortificadas con senado y magistrados, enterraban a los guerreros con sus armas y escribieron su lengua desde el siglo II a. C. Diodoro (V.33-34) los describe como los mejores jinetes e infantes, hospitalarios con los forasteros y crueles con los enemigos, con espadas de hierro templado; su imagen literaria viene de Posidonio y mezcla observación con tópicos sobre los bárbaros. Los antiguos explicaban su nombre como una mezcla de celtas e íberos, pero es un nombre que les dieron griegos y romanos, no aparece en sus inscripciones, y su lengua es celta (de los íberos tomaron la escritura); por eso la mayoría de los autores modernos lo lee como «los celtas de Iberia» y no como un pueblo mestizo.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "biblioteca-historica-diodoro-libro-v",
+        "geografia-de-estrabon-libro-iii",
+        "iberica-de-apiano",
+        "los-celtiberos-lorrio",
+        "los-celtiberos-burillo"
+      ],
+      "wikipedia": {
+        "es": "Celtíberos",
+        "en": "Celtiberians"
+      }
+    },
+    {
+      "id": "arevacos",
+      "titulo": "Los arévacos",
+      "anio": -300,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "cultural",
+      "resumen": "El pueblo celtíbero más poderoso según Estrabón (III.4.13), en el alto Duero, con ciudades como Numancia, Termes, Uxama y Clunia. Encabezaron la resistencia a Roma entre 153 y 133 a. C. y volvieron a levantarse con Sertorio; Plinio (III.27) dice que tomaron el nombre del río Areva.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "historia-natural-plinio",
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Arévacos",
+        "en": "Arevaci"
+      }
+    },
+    {
+      "id": "belos-y-titos",
+      "titulo": "Los belos y los titos",
+      "anio": -300,
+      "anio_hasta": -100,
+      "aprox": true,
+      "lugar": "Segeda",
+      "lon": -1.517,
+      "lat": 41.301,
+      "tipo": "cultural",
+      "resumen": "Dos pueblos celtíberos del valle del Jalón y del Huerva. Los belos tenían su ciudad principal en Segeda, cuyo intento de absorber a los titos y amurallarse provocó la guerra de 153 a. C.; ambos firmaron la paz de Marcelo en 151 a. C. y desaparecen después como pueblos de las fuentes. Contrebia Belaisca era, para muchos autores, una ciudad de los belos.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "los-celtiberos-burillo"
+      ],
+      "wikipedia": {
+        "es": "Belos",
+        "en": "Belli"
+      }
+    },
+    {
+      "id": "lusones",
+      "titulo": "Los lusones",
+      "anio": -300,
+      "anio_hasta": -100,
+      "aprox": true,
+      "lugar": "Sigüenza (Segontia)",
+      "lon": -2.639,
+      "lat": 41.069,
+      "tipo": "cultural",
+      "resumen": "Pueblo celtíbero que Estrabón sitúa en las fuentes del Tajo y Apiano en el Ebro; su territorio exacto se discute. Fueron de los primeros celtíberos en chocar con Roma, en la guerra de 181-179 a. C.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "geografia-de-estrabon-libro-iii",
+        "los-celtiberos-burillo"
+      ],
+      "wikipedia": {
+        "es": "Lusones",
+        "en": "Lusones"
+      }
+    },
+    {
+      "id": "pelendones",
+      "titulo": "Los pelendones",
+      "anio": -500,
+      "anio_hasta": 50,
+      "aprox": true,
+      "lugar": "Soria",
+      "lon": -2.467,
+      "lat": 41.767,
+      "tipo": "cultural",
+      "resumen": "Pueblo del norte de la actual Soria, en la cabecera del Duero, al que la arqueología asocia con los castros sorianos. Plinio (III.26) cuenta Numancia entre los pelendones y Ptolomeo entre los arévacos, una contradicción que se explica por los cambios de fronteras o por el error de una de las fuentes.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "historia-natural-plinio",
+        "geografia-de-ptolomeo"
+      ],
+      "wikipedia": {
+        "es": "Pelendones",
+        "en": "Pellendones"
+      }
+    },
+    {
+      "id": "vacceos",
+      "titulo": "Los vacceos",
+      "anio": -400,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Pintia",
+      "lon": -4.17,
+      "lat": 41.618,
+      "tipo": "cultural",
+      "resumen": "Pueblo del valle medio del Duero, con grandes ciudades como Pintia, Cauca, Intercacia y Palantia. Diodoro (V.34) dice que cada año se repartían la tierra, ponían en común la cosecha y castigaban con la muerte a quien escondiera algo; el pasaje se discute (quizás una idealización de Posidonio) y Joaquín Costa lo leyó como precedente del colectivismo agrario. Eliano (De la naturaleza de los animales X.22) cuenta que exponían a los caídos en combate a los buitres, lo mismo que Silio Itálico dice de los celtíberos, un rito que aparece en estelas y vasos de la región.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "biblioteca-historica-diodoro-libro-v",
+        "iberica-de-apiano",
+        "punica-silio-italico",
+        "colectivismo-agrario-costa"
+      ],
+      "wikipedia": {
+        "es": "Vacceos",
+        "en": "Vaccaei"
+      }
+    },
+    {
+      "id": "vetones",
+      "titulo": "Los vetones y los verracos",
+      "anio": -500,
+      "anio_hasta": -20,
+      "aprox": true,
+      "lugar": "Ulaca",
+      "lon": -4.885,
+      "lat": 40.53,
+      "tipo": "cultural",
+      "resumen": "Pueblo del oeste de la Meseta (Ávila, Salamanca, Cáceres), con grandes castros como Las Cogotas, Ulaca, La Mesa de Miranda y El Raso. Son conocidos por los verracos, unas cuatrocientas esculturas de granito de toros y cerdos cuya función se discute: marcas de pastos y protección del ganado, para unos; monumentos funerarios, en época romana. Las fuentes los nombran entre los aliados de los lusitanos y de los celtíberos.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Vetones",
+        "en": "Vettones"
+      }
+    },
+    {
+      "id": "carpetanos",
+      "titulo": "Los carpetanos",
+      "anio": -500,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Toledo",
+      "lon": -4.033,
+      "lat": 39.867,
+      "tipo": "cultural",
+      "resumen": "Pueblo del centro de la Meseta, en torno a Toletum (Toledo), Complutum y la cuenca media del Tajo. Aníbal los venció en la batalla del Tajo (220 a. C.) y Roma los sometió en las campañas de 193-179 a. C. Su lengua se conoce solo por nombres, de aspecto indoeuropeo y en parte celta.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Carpetanos",
+        "en": "Carpetani"
+      }
+    },
+    {
+      "id": "lusitanos",
+      "titulo": "Los lusitanos",
+      "anio": -300,
+      "anio_hasta": 50,
+      "aprox": true,
+      "lugar": "Viseu",
+      "lon": -7.914,
+      "lat": 40.657,
+      "tipo": "cultural",
+      "resumen": "Pueblo del oeste de la península entre el Duero y el Tajo, que resistió a Roma desde 155 a. C. hasta Viriato y dio nombre a la provincia de Lusitania. Estrabón (III.3.6) los describe sacrificando prisioneros y adivinando por sus entrañas, con escudos pequeños y cascos de tendones, y atribuye a todos los montañeses del norte (III.3.7) el pan de bellota y la cerveza; su lengua se conoce por unas pocas inscripciones en letras latinas. Si el lusitano es celta se discute: conserva la p indoeuropea, que el celta perdió, por lo que Tovar, Gorrochategui, Villar y Blanca María Prósper (1999) lo ven como una lengua indoeuropea no celta (Villar y Rosa Pedrero, 2001, lo acercan al ligur); Untermann (1987) subrayó los nombres de lugar y de persona que comparte con el celta y Dagmar Wodtko (en Celtic from the West, 2010) sostiene que casi no hay nombres lusitanos que no sean celtas, mientras Krzysztof Witczak (1999) respondió que esas coincidencias de nombres no prueban parentesco.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "iberica-de-apiano",
+        "cabeco-das-fraguas",
+        "inscripciones-lusitanas",
+        "inscripciones-a-dioses-del-oeste-de-hispania",
+        "dioses-de-la-hispania-celtica"
+      ],
+      "wikipedia": {
+        "es": "Lusitanos",
+        "en": "Lusitanians"
+      }
+    },
+    {
+      "id": "galaicos",
+      "titulo": "Los galaicos",
+      "anio": -200,
+      "anio_hasta": 100,
+      "aprox": true,
+      "lugar": "Braga (Bracara Augusta)",
+      "lon": -8.417,
+      "lat": 41.533,
+      "tipo": "cultural",
+      "resumen": "Pueblos del noroeste de la península, al norte del Duero, que Roma conoció con la expedición de Bruto en 137 a. C. y que vivían en castros. Mela y Plinio llaman célticos a varios de ellos (los célticos supertamáricos y nerios, los ártabros), y muchos de sus topónimos antiguos tienen raíces celtas; otros nombres conservan la p y parecen lusitanos. Si eran «celtas» se discute: el celtismo gallego del siglo XIX (Manuel Murguía, Historia de Galicia, desde 1865) los hizo antepasados de una Galicia celta distinta del resto de España, y desde los años ochenta, según Francisco Calo Lourido (Os celtas. Unha (re)visión dende Galicia, 2010), la arqueología gallega se dividió entre quienes subrayan la continuidad local de la cultura castreña y relativizan la etiqueta y quienes dan peso a los nombres, los dioses y lo que dicen los autores antiguos.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "corografia-mela",
+        "historia-natural-plinio",
+        "the-celts-in-the-iberian-peninsula",
+        "inscripciones-a-dioses-del-oeste-de-hispania"
+      ],
+      "wikipedia": {
+        "es": "Galaicos",
+        "en": "Gallaeci"
+      }
+    },
+    {
+      "id": "astures",
+      "titulo": "Los astures",
+      "anio": -200,
+      "anio_hasta": 100,
+      "aprox": true,
+      "lugar": "Astorga (Asturica Augusta)",
+      "lon": -6.057,
+      "lat": 42.458,
+      "tipo": "cultural",
+      "resumen": "Pueblos del noroeste (Asturias, León, Zamora y Trás-os-Montes), organizados en gentes y gentilidades, que Roma conquistó en las guerras de 29-19 a. C. Sus nombres y dioses son indoeuropeos y en buena parte celtas. Plinio (III.28) cuenta veintidós pueblos y doscientas cuarenta mil personas libres en su convento jurídico.",
+      "regiones": [
+        "iberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "historia-natural-plinio",
+        "edicto-del-bierzo",
+        "pacto-de-los-zoelas"
+      ],
+      "wikipedia": {
+        "es": "Astures",
+        "en": "Astures"
+      }
+    },
+    {
+      "id": "cantabros",
+      "titulo": "Los cántabros",
+      "anio": -300,
+      "anio_hasta": 50,
+      "aprox": true,
+      "lugar": "Cantabria",
+      "lon": -4.0,
+      "lat": 43.333,
+      "tipo": "cultural",
+      "resumen": "Pueblo de la cordillera Cantábrica, el último de la península en ser sometido (29-19 a. C.). Estrabón (III.4.17-18) los describe con rasgos que los modernos leyeron como matriarcales: las mujeres trabajaban la tierra, los maridos daban la dote a las esposas, heredaban las hijas y las hermanas casaban a sus hermanos; también cuenta que las madres mataban a sus hijos antes de que los capturaran y que los crucificados cantaban himnos. Su lengua solo se conoce por nombres, de aspecto indoeuropeo; si eran celtas, y cuánto pesa el estereotipo del montañés salvaje en Estrabón, se discute.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "historia-romana-dion-casio",
+        "epitome-de-floro"
+      ],
+      "wikipedia": {
+        "es": "Cántabros",
+        "en": "Cantabri"
+      }
+    },
+    {
+      "id": "celticos-del-suroeste",
+      "titulo": "Los célticos del sudoeste",
+      "anio": -400,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Beturia céltica",
+      "lon": -6.65,
+      "lat": 38.17,
+      "tipo": "cultural",
+      "resumen": "Pueblos de la Beturia, entre el Guadiana y el Guadalquivir, y del Alentejo, que Plinio (III.13) hace venir de los celtíberos por sus ritos, su lengua y sus nombres de ciudad (Nertobriga, Segida, Seria). La arqueología de sus castros fortificados (como el Castrejón de Capote) muestra contactos con la Meseta desde el siglo IV a. C., aunque no está claro si hubo una migración o una difusión.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historia-natural-plinio",
+        "geografia-de-estrabon-libro-iii"
+      ],
+      "wikipedia": {
+        "es": "Célticos",
+        "en": "Celtici"
+      }
+    },
+    {
+      "id": "iberos",
+      "titulo": "Los íberos",
+      "anio": -600,
+      "anio_hasta": -50,
+      "aprox": true,
+      "lugar": "Ullastret",
+      "lon": 3.07,
+      "lat": 42.002,
+      "tipo": "cultural",
+      "resumen": "Pueblos del este y el sur de la península, desde el Languedoc hasta Andalucía (indicetes, ilergetes, edetanos, contestanos, bastetanos, oretanos y otros), que hablaban una lengua no indoeuropea, el ibérico, todavía sin traducir. Escribieron desde el siglo V a. C. en semisilabarios propios y en un alfabeto tomado del griego, vivieron en ciudades y oppida, y dejaron una escultura propia (la Dama de Elche, la de Baza, los exvotos del Cerro de los Santos) y la falcata. No son celtas, pero eran sus vecinos: los celtíberos tomaron de ellos la escritura y, según los antiguos, parte de su nombre.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historias-herodoto",
+        "ora-maritima",
+        "geografia-de-estrabon-libro-iii",
+        "plomo-de-alcoy",
+        "monumenta-linguarum-hispanicarum",
+        "historia-genomica-de-iberia-olalde-2019"
+      ],
+      "wikipedia": {
+        "es": "Iberos",
+        "en": "Iberians"
+      }
+    },
+    {
+      "id": "turdetanos",
+      "titulo": "Los turdetanos",
+      "anio": -500,
+      "anio_hasta": 50,
+      "aprox": true,
+      "lugar": "Sevilla",
+      "lon": -5.995,
+      "lat": 37.389,
+      "tipo": "cultural",
+      "resumen": "Pueblo del valle del Guadalquivir, heredero de Tarteso, al que Estrabón (III.1.6) considera el más culto de la península, con leyes en verso y escritos de seis mil años de antigüedad, según decían. Roma los romanizó temprano; Catón luchó en 195 a. C. contra los celtíberos que contrataban como mercenarios.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Turdetanos",
+        "en": "Turdetani"
+      }
+    },
+    {
+      "id": "cultura-castrena",
+      "titulo": "La cultura castreña",
+      "anio": -900,
+      "anio_hasta": 100,
+      "aprox": true,
+      "lugar": "Citania de Briteiros",
+      "lon": -8.316,
+      "lat": 41.528,
+      "tipo": "cultural",
+      "resumen": "Cultura del noroeste de la península (Galicia, norte de Portugal, Asturias occidental) desde el final de la Edad del Bronce hasta la época romana, con poblados fortificados en alturas (castros) de casas circulares de piedra. Hacia el siglo II a. C. crecen grandes poblados (citanias, oppida) como Briteiros y Sanfins; de los últimos siglos antes de Roma y de la primera época romana son sus torques de oro, sus estatuas de guerreros y sus saunas monumentales. Si era «celta» depende de lo que se entienda: su lengua tenía mucho de celta, pero su arquitectura y su cultura material son locales y atlánticas.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "fuentes": [
+        "geografia-de-estrabon-libro-iii",
+        "corografia-mela",
+        "the-celts-in-the-iberian-peninsula"
+      ],
+      "wikipedia": {
+        "es": "Cultura castreña",
+        "en": "Castro culture"
+      }
+    },
+    {
+      "id": "adopcion-de-la-escritura-celtiberica",
+      "titulo": "Los celtíberos empiezan a escribir",
+      "anio": -180,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Contrebia Belaisca",
+      "lon": -1.032,
+      "lat": 41.515,
+      "tipo": "cultural",
+      "resumen": "Hacia la primera mitad del siglo II a. C. los celtíberos adaptaron a su lengua el semisilabario ibérico nororiental, con una variante oriental y otra occidental. Lo usaron en monedas, téseras, bronces y grafitos hasta el siglo I a. C., cuando pasaron al alfabeto latino. Es uno de los pocos casos en que un pueblo celta antiguo dejó textos escritos por sí mismo.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "monedas-celtibericas",
+        "bronces-de-botorrita",
+        "teseras-de-hospitalidad",
+        "monumenta-linguarum-hispanicarum"
+      ],
+      "wikipedia": {
+        "es": "Escritura celtibérica",
+        "en": "Celtiberian script"
+      }
+    },
+    {
+      "id": "armas-de-los-pueblos-hispanos",
+      "titulo": "La caetra, la falcata y el soliferreum",
+      "anio": -500,
+      "anio_hasta": -20,
+      "aprox": true,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "cultural",
+      "resumen": "Los autores antiguos describen a los guerreros hispanos con la caetra, un escudo redondo pequeño (Estrabón III.3.6), espadas de hierro tan templado que cortaban cascos y escudos y que, según Diodoro (V.33), enterraban para que el óxido se llevara lo débil, y el soliferreum, una jabalina de una sola pieza de hierro. La falcata, espada curva de un filo, era sobre todo ibérica; el nombre es moderno, del siglo XIX. La arqueología de las necrópolis celtibéricas e ibéricas confirma ese armamento y su variedad según épocas y regiones.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "biblioteca-historica-diodoro-libro-v",
+        "geografia-de-estrabon-libro-iii",
+        "historias-polibio",
+        "ab-urbe-condita",
+        "los-celtiberos-lorrio"
+      ],
+      "wikipedia": {
+        "es": "Falcata",
+        "en": "Falcata"
+      }
+    },
+    {
+      "id": "adopcion-del-gladius-hispaniensis",
+      "titulo": "Roma adopta la espada hispana",
+      "anio": -216,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cartagena (Cartago Nova)",
+      "lon": -0.984,
+      "lat": 37.602,
+      "tipo": "cultural",
+      "resumen": "Polibio (VI.23) llama «ibérica» a la espada corta de punta y doble filo de los legionarios, y un fragmento suyo conservado en la Suda dice que los romanos la tomaron de los hispanos en tiempos de la guerra contra Aníbal. Livio (XXXI.34) cuenta el espanto de los macedonios ante las heridas de esa «espada hispana» en 200 a. C. La arqueología la relaciona con espadas celtibéricas de tipo La Tène, aunque el momento exacto de la adopción se discute.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Gladius",
+        "en": "Gladius"
+      }
+    },
+    {
+      "id": "devotio-iberica",
+      "titulo": "La devotio: morir con el jefe",
+      "anio": -200,
+      "anio_hasta": -72,
+      "aprox": true,
+      "lugar": "Huesca (Osca)",
+      "lon": -0.409,
+      "lat": 42.14,
+      "tipo": "cultural",
+      "resumen": "Costumbre por la que un grupo de guerreros consagraba su vida a un jefe y no debía sobrevivirle. Valerio Máximo (II.6.11) dice que los celtíberos tenían por sacrílego sobrevivir al jefe por quien habían consagrado su vida, y Plutarco (Sertorio 14) que Sertorio tenía miles de esos guardias; Estrabón (III.4.18) la atribuye a los íberos en general. Los modernos la llaman devotio ibérica y la comparan con los soldurios de los aquitanos de César, y con la fides, la lealtad personal que las fuentes romanas atribuyen a los celtíberos.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "hechos-y-dichos-memorables",
+        "vidas-paralelas",
+        "geografia-de-estrabon-libro-iii"
+      ],
+      "wikipedia": {
+        "es": "Devotio",
+        "en": "Devotio"
+      }
+    },
+    {
+      "id": "exposicion-a-los-buitres",
+      "titulo": "Los caídos en combate, entregados a los buitres",
+      "anio": -200,
+      "anio_hasta": 100,
+      "aprox": true,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "religioso",
+      "resumen": "Silio Itálico (Púnica III.340-343) y Eliano cuentan que los celtíberos y los vacceos no quemaban a los muertos en combate, sino que los dejaban a los buitres, que llevaban sus almas al cielo, mientras que a los demás los incineraban. Escenas de buitres sobre guerreros caídos aparecen en vasos pintados de Numancia y en estelas de la región, lo que hace pensar que los textos recogen un rito real.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "punica-silio-italico"
+      ]
+    },
+    {
+      "id": "campana-de-amilcar-en-iberia",
+      "titulo": "Amílcar Barca en la península: Istolacio e Indortes",
+      "anio": -237,
+      "anio_hasta": -229,
+      "aprox": false,
+      "lugar": "Cádiz (Gadir)",
+      "lon": -6.298,
+      "lat": 36.535,
+      "tipo": "batalla",
+      "resumen": "Amílcar desembarcó en Gadir en 237 a. C. y en casi nueve años, según Polibio (II.1), sometió buena parte del sur y el este. Diodoro (XXV.10) cuenta que venció primero al celta Istolacio y a su hermano, que mandaban a íberos y tartesios, y después a Indortes, al que hizo cegar y crucificar; Polibio (II.1) resume la campaña. Murió en 229 a. C. luchando contra los oretanos.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Amílcar Barca",
+        "en": "Hamilcar Barca"
+      }
+    },
+    {
+      "id": "batalla-del-tajo",
+      "titulo": "Batalla del Tajo",
+      "anio": -220,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Toledo",
+      "lon": -4.033,
+      "lat": 39.867,
+      "tipo": "batalla",
+      "resumen": "Aníbal, de vuelta de una campaña contra los vacceos en la que tomó Helmantica (Salamanca) y Arbucala, fue atacado al cruzar el Tajo por una coalición de carpetanos, vacceos y olcades. Según Polibio (III.14), que da la cifra de cien mil enemigos, los venció dejándolos cruzar el río y atacándolos en el agua con su caballería y sus elefantes.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "en": "Battle of the Tagus"
+      }
+    },
+    {
+      "id": "sitio-de-sagunto",
+      "titulo": "Sitio de Sagunto",
+      "anio": -219,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sagunto (Arse)",
+      "lon": -0.278,
+      "lat": 39.68,
+      "tipo": "batalla",
+      "resumen": "Aníbal sitió durante ocho meses Arse (Sagunto), ciudad íbera aliada de Roma, y la tomó en 219 a. C. Fue el detonante de la segunda guerra púnica, que llevó a los romanos a la península en 218 a. C.; Livio (XXI.14) cuenta que sus habitantes quemaron sus bienes y se arrojaron al fuego, un relato heroico que anticipa el de Numancia.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Sitio de Sagunto",
+        "en": "Siege of Saguntum"
+      }
+    },
+    {
+      "id": "mercenarios-celtiberos-de-los-escipiones",
+      "titulo": "Los celtíberos, primeros mercenarios de Roma, y la caída de los Escipiones",
+      "anio": -213,
+      "anio_hasta": -211,
+      "aprox": false,
+      "lugar": "Alto Guadalquivir (lugar sin ubicar)",
+      "tipo": "batalla",
+      "resumen": "Según Livio (XXIV.49), en 213 a. C. los generales romanos en Hispania, los hermanos Publio y Cneo Escipión, atrajeron a los jóvenes celtíberos con la misma paga que les daba Cartago, y fueron los primeros mercenarios que Roma tuvo en sus campamentos. En 211 a. C., cuando Cneo los llevaba contra Asdrúbal, este pagó a sus jefes para que se volvieran a casa, y la partida de unos veinte mil celtíberos dejó a los dos hermanos sin fuerzas: ambos murieron en las derrotas del alto Betis (Livio XXV.32-36). Livio atribuye el desastre a la «perfidia» de los bárbaros, un juicio de la tradición romana que también explicaba así una derrota propia.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Batalla del Betis Superior",
+        "en": "Battle of the Upper Baetis"
+      }
+    },
+    {
+      "id": "revuelta-de-indibil-y-mandonio",
+      "titulo": "Rebelión de Indíbil y Mandonio",
+      "anio": -206,
+      "anio_hasta": -205,
+      "aprox": false,
+      "lugar": "Lérida (Iltirda)",
+      "lon": 0.633,
+      "lat": 41.617,
+      "tipo": "batalla",
+      "resumen": "Los jefes ilergetes, aliados de Escipión contra Cartago, se rebelaron cuando los romanos se quedaron en la península tras la expulsión de los cartagineses. Vencidos en 206 a. C. y perdonados, volvieron a levantarse en 205 a. C.: Indíbil murió en batalla y Mandonio fue entregado y ejecutado (Livio XXVIII-XXIX). Es la primera gran rebelión indígena contra Roma en Hispania.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Revuelta de Indíbil y Mandonio",
+        "en": "Indibilis and Mandonius"
+      }
+    },
+    {
+      "id": "campana-de-caton-en-hispania",
+      "titulo": "Campaña de Catón en Hispania",
+      "anio": -195,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Emporion (Ampurias)",
+      "lon": 3.121,
+      "lat": 42.135,
+      "tipo": "batalla",
+      "resumen": "El cónsul Catón desembarcó en Emporion, venció a los rebeldes de la Citerior y, según Livio (XXXIV.17), hizo derribar en un mismo día las murallas de las ciudades al norte del Ebro. En el sur ofreció a los mercenarios celtíberos de los turdetanos doble paga para cambiar de bando y luego marchó hasta Segontia, en la Celtiberia. Su jactancia de haber tomado más ciudades que días había pasado en Hispania (Plutarco, Catón 10) es su propia propaganda.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Catón el Viejo",
+        "en": "Cato the Elder"
+      }
+    },
+    {
+      "id": "guerras-celtiberas",
+      "titulo": "Guerras celtíberas",
+      "anio": -181,
+      "anio_hasta": -133,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "batalla",
+      "resumen": "Serie de guerras entre Roma y los pueblos celtíberos de la Meseta oriental: la primera (181-179 a. C.), que terminó con los tratados de Graco; la segunda (154-151 a. C.), iniciada por la muralla de Segeda; y la numantina (143-133 a. C.), que terminó con la destrucción de Numancia. Polibio, que estuvo en Numancia, llamó «guerra de fuego» a la de 153-151 a. C. por su dureza (XXXV.1); las conocemos sobre todo por Apiano y por los resúmenes de Livio.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "historias-polibio",
+        "ab-urbe-condita",
+        "epitome-de-floro"
+      ],
+      "wikipedia": {
+        "es": "Guerras celtíberas",
+        "en": "Celtiberian Wars"
+      }
+    },
+    {
+      "id": "primera-guerra-celtibera",
+      "titulo": "Primera guerra celtíbera",
+      "anio": -181,
+      "anio_hasta": -179,
+      "aprox": false,
+      "lugar": "Celtiberia",
+      "lon": -2.2,
+      "lat": 41.4,
+      "tipo": "batalla",
+      "resumen": "Los lusones y otros celtíberos se enfrentaron a los pretores de la Citerior. Quinto Fulvio Flaco los venció en 181 a. C. y Tiberio Sempronio Graco sometió a los demás en 180-179 a. C. (Livio XL). Polibio, citado por Estrabón (III.4.13), decía que Graco había destruido trescientas ciudades, y Posidonio ya se burlaba de la cifra: contaban como ciudades lo que eran torres.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "iberica-de-apiano",
+        "geografia-de-estrabon-libro-iii"
+      ],
+      "wikipedia": {
+        "en": "First Celtiberian War"
+      }
+    },
+    {
+      "id": "tratados-de-graco",
+      "titulo": "Los tratados de Graco",
+      "anio": -179,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alfaro (Gracurris)",
+      "lon": -1.748,
+      "lat": 42.178,
+      "tipo": "tratado",
+      "resumen": "Tiberio Graco cerró la primera guerra celtíbera con pactos con cada pueblo: tributo, tropas auxiliares y la prohibición de fundar nuevas ciudades (Apiano, Iberica 43-44). Repartió tierras a los pobres y fundó Gracurris. Esa paz duró hasta 154 a. C. y en las guerras siguientes los celtíberos pidieron volver a ella.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Tiberio Sempronio Graco (cónsul 177 a. C.)",
+        "en": "Tiberius Sempronius Gracchus (consul 177 BC)"
+      }
+    },
+    {
+      "id": "rebelion-de-olindico",
+      "titulo": "La rebelión de Olíndico",
+      "anio": -170,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Celtiberia",
+      "lon": -2.2,
+      "lat": 41.4,
+      "tipo": "batalla",
+      "resumen": "El celtíbero Olíndico agitó a su pueblo con una lanza de plata que, decía, le había llegado del cielo, y murió al entrar de noche en el campamento romano para matar al general. Floro (I.33.13) y el resumen del libro XLIII de Livio son las únicas fuentes.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "epitome-de-floro",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Olíndico",
+        "en": "Olyndicus"
+      }
+    },
+    {
+      "id": "segunda-guerra-celtibera",
+      "titulo": "Segunda guerra celtíbera",
+      "anio": -154,
+      "anio_hasta": -151,
+      "aprox": false,
+      "lugar": "Segeda",
+      "lon": -1.517,
+      "lat": 41.301,
+      "tipo": "batalla",
+      "resumen": "Guerra entre Roma y belos, titos y arévacos que empezó cuando Segeda amplió su muralla. Tras la derrota de Nobilior ante Caro (153 a. C.) y su fracaso ante Numancia, el cónsul Marcelo negoció en 151 a. C. una paz con los tres pueblos, y su sucesor Lúculo atacó a los vacceos sin orden del Senado. Polibio (XXXV.1) la llamó «guerra de fuego» y cuenta que en Roma nadie quería alistarse para ir a Hispania.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "historias-polibio",
+        "geografia-de-estrabon-libro-iii"
+      ],
+      "wikipedia": {
+        "en": "Second Celtiberian War"
+      }
+    },
+    {
+      "id": "sinecismo-de-segeda",
+      "titulo": "La muralla y el sinecismo de Segeda",
+      "anio": -154,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Segeda",
+      "lon": -1.517,
+      "lat": 41.301,
+      "tipo": "construccion",
+      "resumen": "Segeda, ciudad de los belos, concentró en su recinto a los pueblos vecinos, entre ellos los titos, y empezó una muralla de cuarenta estadios, unos siete kilómetros (Apiano, Iberica 44). El Senado lo prohibió y exigió el tributo y las tropas del tratado de Graco; los segedenses respondieron que el tratado prohibía fundar ciudades, no fortificar las existentes. La arqueología de Burillo encontró la ciudad nueva junto a la vieja, en Belmonte de Gracián y Mara.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "los-celtiberos-burillo"
+      ],
+      "wikipedia": {
+        "es": "Segeda",
+        "en": "Segeda"
+      }
+    },
+    {
+      "id": "batalla-de-segeda",
+      "titulo": "La emboscada de Caro",
+      "anio": -153,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Segeda",
+      "lon": -1.517,
+      "lat": 41.301,
+      "tipo": "batalla",
+      "resumen": "El 23 de agosto de 153 a. C., día de las fiestas de Vulcano, el jefe segedense Caro, al frente de unos veinte mil infantes y cinco mil jinetes, emboscó en un bosque al ejército de casi treinta mil hombres del cónsul Nobilior y mató, según Apiano (Iberica 45), a seis mil ciudadanos romanos. Caro murió en la persecución, cuando la caballería que custodiaba el bagaje cayó sobre sus hombres. Desde entonces los generales romanos evitaban combatir ese día.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Segeda"
+      }
+    },
+    {
+      "id": "cambio-del-comienzo-del-ano-consular",
+      "titulo": "Los cónsules asumen el 1 de enero",
+      "anio": -153,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "politico",
+      "resumen": "Por la urgencia de la guerra en Hispania, en 153 a. C. los cónsules empezaron a asumir el 1 de enero en lugar del 15 de marzo, para que Nobilior llegara antes a Segeda (resumen del libro XLVII de Livio). Desde entonces el año romano, y el calendario que heredó Occidente, empieza en enero.",
+      "regiones": [
+        "italia",
+        "iberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita"
+      ]
+    },
+    {
+      "id": "paz-de-marcelo",
+      "titulo": "La paz de Marcelo",
+      "anio": -151,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "tratado",
+      "resumen": "El cónsul Marco Claudio Marcelo, tras tomar Ocilis y presionar a Numancia, aceptó la rendición de arévacos, belos y titos en condiciones moderadas, con un pago que Posidonio, citado por Estrabón (III.4.13), fija en seiscientos talentos. La paz duró ocho años. Apiano (Iberica 50) cuenta que Marcelo quería terminar la guerra antes de que llegara su sucesor.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "geografia-de-estrabon-libro-iii"
+      ],
+      "wikipedia": {
+        "es": "Marco Claudio Marcelo (cónsul 166 a. C.)",
+        "en": "Marcus Claudius Marcellus (consul 166 BC)"
+      }
+    },
+    {
+      "id": "masacre-de-cauca",
+      "titulo": "La masacre de Cauca",
+      "anio": -151,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Coca (Cauca)",
+      "lon": -4.522,
+      "lat": 41.218,
+      "tipo": "batalla",
+      "resumen": "El cónsul Lúculo, sin orden del Senado y buscando botín, atacó a los vacceos de Cauca, que no estaban en guerra con Roma. Aceptó su rendición, rehenes y cien talentos de plata, hizo entrar a sus soldados y mató a los hombres de la ciudad: de veinte mil, dice Apiano (Iberica 52), escaparon pocos. Las otras ciudades vacceas ya no se rindieron; en Intercacia el joven Escipión Emiliano venció en combate singular a un guerrero vacceo.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Lucio Licinio Lúculo (cónsul 151 a. C.)",
+        "en": "Lucius Licinius Lucullus (consul 151 BC)"
+      }
+    },
+    {
+      "id": "guerra-lusitana",
+      "titulo": "Guerra lusitana",
+      "anio": -155,
+      "anio_hasta": -139,
+      "aprox": false,
+      "lugar": "Lusitania",
+      "lon": -7.6,
+      "lat": 40.0,
+      "tipo": "batalla",
+      "resumen": "Guerra entre Roma y los lusitanos que empezó con las incursiones de Púnico y Césaro en la Ulterior (155-153 a. C.), siguió con la masacre de Galba (150 a. C.) y tuvo su fase principal con Viriato (147-139 a. C.), que venció a varios pretores y cónsules. Terminó con su asesinato y la rendición de Táutalo. La conocemos por Apiano, por Diodoro (de Posidonio) y por los resúmenes de Livio; los autores latinos la cuentan como guerra contra «bandoleros».",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "ab-urbe-condita",
+        "epitome-de-floro",
+        "historias-contra-los-paganos"
+      ],
+      "wikipedia": {
+        "es": "Guerras lusitanas",
+        "en": "Lusitanian Wars"
+      }
+    },
+    {
+      "id": "masacre-de-galba",
+      "titulo": "La masacre de Galba",
+      "anio": -150,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lusitania",
+      "lon": -7.6,
+      "lat": 40.0,
+      "tipo": "batalla",
+      "resumen": "El pretor Servio Sulpicio Galba prometió tierras a los lusitanos que pedían paz, los dividió en tres grupos, les hizo dejar las armas y los mandó matar; escaparon pocos, entre ellos Viriato (Apiano, Iberica 59-60). Las fuentes no coinciden en la cifra de muertos. En Roma fue acusado en 149 a. C., con Catón entre los acusadores, y absuelto. Ese mismo año la ley Calpurnia creó el primer tribunal permanente contra los abusos de los gobernadores; las fuentes no dicen que fuera por Galba, aunque muchos historiadores relacionan las dos cosas.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Servio Sulpicio Galba (cónsul 144 a. C.)",
+        "en": "Servius Sulpicius Galba (consul 144 BC)"
+      }
+    },
+    {
+      "id": "batalla-de-tribola",
+      "titulo": "Batalla de Tribola",
+      "anio": -147,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tribola (sin ubicar)",
+      "tipo": "batalla",
+      "resumen": "Viriato, recién elegido jefe, atrajo al pretor Cayo Vetilio a una emboscada en un desfiladero junto a Tribola, en la Ulterior, y lo mató con buena parte de su ejército (Apiano, Iberica 63). Fue la primera de una serie de victorias que lo hicieron temido en Roma.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "en": "Battle of Tribola"
+      }
+    },
+    {
+      "id": "paz-de-viriato",
+      "titulo": "La paz de Viriato",
+      "anio": -140,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lusitania",
+      "lon": -7.6,
+      "lat": 40.0,
+      "tipo": "tratado",
+      "resumen": "Cercado en Erisana, el procónsul Fabio Máximo Serviliano firmó con Viriato una paz que lo reconocía amigo del pueblo romano y dejaba a los lusitanos las tierras que ocupaban; el pueblo de Roma la ratificó (Apiano, Iberica 69). Al año siguiente el Senado autorizó a Servilio Cepión a romperla.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Quinto Fabio Máximo Serviliano",
+        "en": "Quintus Fabius Maximus Servilianus"
+      }
+    },
+    {
+      "id": "asesinato-de-viriato",
+      "titulo": "Asesinato de Viriato",
+      "anio": -139,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lusitania",
+      "lon": -7.6,
+      "lat": 40.0,
+      "tipo": "politico",
+      "resumen": "Audax, Ditalcón y Minuro, enviados por Viriato a negociar con Servilio Cepión, aceptaron su soborno y lo mataron mientras dormía. Según Apiano (Iberica 74-75), los lusitanos lo quemaron en una gran pira con sacrificios y celebraron combates singulares junto a su tumba; Diodoro (XXXIII.21a) habla de doscientos pares de combatientes. La frase «Roma no paga traidores» es una versión moderna; Eutropio dice que a los asesinos se les respondió que a Roma nunca le gustó que un general fuera muerto por los suyos.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "ab-urbe-condita",
+        "historias-contra-los-paganos"
+      ],
+      "wikipedia": {
+        "es": "Viriato",
+        "en": "Viriathus"
+      }
+    },
+    {
+      "id": "guerra-numantina",
+      "titulo": "Guerra numantina",
+      "anio": -143,
+      "anio_hasta": -133,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "batalla",
+      "resumen": "Última guerra celtíbera, en la que Numancia y Termes resistieron diez años a una sucesión de generales romanos: Metelo sometió a los arévacos menos esas dos ciudades (143-142 a. C.), Quinto Pompeyo pactó una paz en secreto y la negó (140 a. C.), y Mancino rindió todo su ejército (137 a. C.). Roma la terminó en 133 a. C. con Escipión Emiliano y el cerco de la ciudad. Floro (I.34.2) dice que Numancia, con cuatro mil celtíberos, resistió sola once años a un ejército de cuarenta mil; las cifras de Floro y Orosio engrandecen a los numantinos y a sus vencedores.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "epitome-de-floro",
+        "historias-contra-los-paganos",
+        "ab-urbe-condita"
+      ],
+      "wikipedia": {
+        "es": "Guerra numantina",
+        "en": "Numantine War"
+      }
+    },
+    {
+      "id": "rendicion-de-mancino",
+      "titulo": "La rendición de Mancino",
+      "anio": -137,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "tratado",
+      "resumen": "El cónsul Mancino, cercado por los numantinos, salvó a unos veinte mil soldados con un tratado que negoció su cuestor Tiberio Graco, en quien los numantinos confiaban por la memoria de su padre. El Senado lo anuló y entregó a Mancino desnudo y atado ante las puertas de Numancia, que no lo recibió (Apiano, Iberica 80-83; Plutarco, Tiberio Graco 5-7). El episodio está en el origen de la carrera política de Tiberio Graco.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Cayo Hostilio Mancino",
+        "en": "Gaius Hostilius Mancinus"
+      }
+    },
+    {
+      "id": "expedicion-de-bruto-al-noroeste",
+      "titulo": "La expedición de Bruto al noroeste",
+      "anio": -137,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Braga (Bracara Augusta)",
+      "lon": -8.417,
+      "lat": 41.533,
+      "tipo": "batalla",
+      "resumen": "El cónsul Décimo Junio Bruto llevó la primera campaña romana al norte del Duero. Sus soldados temían cruzar el Limia, que creían el Leteo, el río del olvido, hasta que él le arrebató la enseña a un portaestandarte y la llevó al otro lado (Livio, resumen LV; Floro I.33.12). Apiano (Iberica 72) cuenta que las mujeres de los brácaros luchaban junto a los hombres y que preferían matarse antes que ser capturadas.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "iberica-de-apiano",
+        "epitome-de-floro"
+      ],
+      "wikipedia": {
+        "es": "Décimo Junio Bruto Galaico",
+        "en": "Decimus Junius Brutus Callaicus"
+      }
+    },
+    {
+      "id": "sitio-de-numancia",
+      "titulo": "Sitio y caída de Numancia",
+      "anio": -134,
+      "anio_hasta": -133,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "batalla",
+      "resumen": "Escipión Emiliano llegó en 134 a. C., disciplinó a un ejército desmoralizado, arrasó los campos de los vacceos y rodeó Numancia con un muro de nueve kilómetros, siete campamentos y barreras sobre el Duero. Según Apiano (Iberica 90-98), los numantinos, que al empezar la guerra no pasaban de ocho mil hombres, frente a sesenta mil, comieron cueros y después cadáveres, se rindieron en el verano de 133 a. C. y muchos se mataron; Escipión guardó cincuenta para su triunfo, vendió al resto y arrasó la ciudad. Floro (I.34) y Orosio (V.7) cuentan en cambio que nadie se rindió y que todos murieron quemando la ciudad, la versión que tomó Cervantes; los historiadores prefieren la de Apiano, que deriva de Polibio, testigo de los hechos. Los campamentos excavados por Schulten confirman el cerco.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "epitome-de-floro",
+        "historias-contra-los-paganos",
+        "hechos-y-dichos-memorables",
+        "historias-polibio",
+        "numantia-schulten"
+      ],
+      "wikipedia": {
+        "es": "Asedio de Numancia",
+        "en": "Siege of Numantia"
+      }
+    },
+    {
+      "id": "castigo-de-lutia",
+      "titulo": "El castigo de Lutia",
+      "anio": -133,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "batalla",
+      "resumen": "Cuando Retógenes logró salir del cerco y pidió ayuda a las ciudades arévacas, solo los jóvenes de Lutia quisieron acudir. Avisado por los ancianos de la ciudad, Escipión llegó con tropas, exigió la entrega de cuatrocientos jóvenes y les hizo cortar las manos (Apiano, Iberica 94). Lutia no se ha localizado con seguridad.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Lutia"
+      }
+    },
+    {
+      "id": "campanas-de-tito-didio",
+      "titulo": "Las campañas de Tito Didio",
+      "anio": -98,
+      "anio_hasta": -93,
+      "aprox": false,
+      "lugar": "Tiermes (Termes)",
+      "lon": -3.149,
+      "lat": 41.331,
+      "tipo": "batalla",
+      "resumen": "El procónsul Tito Didio venció a los arévacos, de los que mató unos veinte mil según Apiano (Iberica 99-100), obligó a Termes a bajar al llano, vendió como esclavos a los habitantes de Colenda tras nueve meses de sitio y masacró a los de una ciudad vecina, a los que había atraído con la promesa de tierras. Celebró su triunfo en 93 a. C.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Tito Didio",
+        "en": "Titus Didius"
+      }
+    },
+    {
+      "id": "pleito-de-las-aguas-de-contrebia",
+      "titulo": "El pleito por las aguas ante el senado de Contrebia",
+      "anio": -87,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Contrebia Belaisca",
+      "lon": -1.032,
+      "lat": 41.515,
+      "tipo": "judicial",
+      "resumen": "En mayo de 87 a. C. el senado de Contrebia Belaisca, actuando como jurado por encargo del gobernador Cayo Valerio Flaco, falló a favor de los salluienses en su pleito con los allavonenses por un terreno comprado a los sosinestanos para abrir un canal. Es el primer juicio documentado en la Hispania romana y muestra a jueces celtíberos aplicando una fórmula del derecho romano.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "tabula-contrebiensis"
+      ]
+    },
+    {
+      "id": "guerra-sertoriana",
+      "titulo": "Guerra de Sertorio",
+      "anio": -80,
+      "anio_hasta": -72,
+      "aprox": false,
+      "lugar": "Huesca (Osca)",
+      "lon": -0.409,
+      "lat": 42.14,
+      "tipo": "batalla",
+      "resumen": "Quinto Sertorio, general del bando de Mario proscrito por Sila, se hizo fuerte en Hispania con el apoyo de lusitanos y celtíberos y venció durante años a Metelo Pío y a Pompeyo. Entre sus aliados estuvieron las ciudades arévacas de Clunia, Uxama y Termes y la vascona Calagurris, y en 77 a. C. tomó Contrebia Leucade. Plutarco y los fragmentos de Salustio lo presentan como un líder justo y querido por los hispanos; la guerra terminó con su asesinato y la derrota de Perperna.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "vidas-paralelas",
+        "iberica-de-apiano",
+        "epitome-de-floro"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Sertorio",
+        "en": "Sertorian War"
+      }
+    },
+    {
+      "id": "escuela-de-osca",
+      "titulo": "La escuela de Osca",
+      "anio": -77,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Huesca (Osca)",
+      "lon": -0.409,
+      "lat": 42.14,
+      "tipo": "cultural",
+      "resumen": "Según Plutarco (Sertorio 14), Sertorio reunió en Osca (Huesca) a los hijos de los nobles hispanos, los vistió a la romana y les hizo enseñar griego y latín, para formarlos y, a la vez, tenerlos como rehenes. Cuando sus aliados empezaron a abandonarlo, hizo matar o vender a algunos de ellos.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Quinto Sertorio",
+        "en": "Quintus Sertorius"
+      }
+    },
+    {
+      "id": "asesinato-de-sertorio",
+      "titulo": "Asesinato de Sertorio",
+      "anio": -72,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Huesca (Osca)",
+      "lon": -0.409,
+      "lat": 42.14,
+      "tipo": "politico",
+      "resumen": "Su lugarteniente Marco Perperna lo mató en un banquete en Osca en 72 a. C. Según Plutarco (Sertorio 26-27), Pompeyo venció enseguida a Perperna y quemó sin leer las cartas de Sertorio que comprometían a senadores romanos; sin su jefe, la coalición hispana se deshizo.",
+      "regiones": [
+        "iberia",
+        "celtiberia"
+      ],
+      "fuentes": [
+        "vidas-paralelas",
+        "iberica-de-apiano"
+      ],
+      "wikipedia": {
+        "es": "Quinto Sertorio",
+        "en": "Quintus Sertorius"
+      }
+    },
+    {
+      "id": "sitio-de-calagurris",
+      "titulo": "Sitio de Calagurris",
+      "anio": -72,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Calahorra (Calagurris)",
+      "lon": -1.965,
+      "lat": 42.303,
+      "tipo": "batalla",
+      "resumen": "Calagurris, ciudad vascona aliada de Sertorio, resistió hasta después de su muerte el sitio de Afranio, legado de Pompeyo. Valerio Máximo (VII.6) y Juvenal (XV) cuentan que sus habitantes comieron a sus muertos; los autores romanos la pusieron junto a Numancia como ejemplo de resistencia hasta lo inhumano.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "hechos-y-dichos-memorables"
+      ],
+      "wikipedia": {
+        "es": "Calahorra",
+        "en": "Calahorra"
+      }
+    },
+    {
+      "id": "campana-de-cesar-en-lusitania",
+      "titulo": "Campaña de César en Lusitania y Galecia",
+      "anio": -61,
+      "anio_hasta": -60,
+      "aprox": false,
+      "lugar": "Sierra de la Estrella (monte Herminio)",
+      "lon": -7.613,
+      "lat": 40.322,
+      "tipo": "batalla",
+      "resumen": "Como gobernador de la Ulterior, Julio César atacó a los pueblos del monte Herminio (la sierra de la Estrella), persiguió a los que huyeron al otro lado del Duero y llegó por mar a Brigantium, en Galecia (Dion Casio XXXVII.52-53). Suetonio (César 54) dice que saqueó ciudades lusitanas que no le hacían la guerra, y se discute si buscaba sobre todo botín para pagar sus deudas.",
+      "regiones": [
+        "iberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio",
+        "vidas-de-los-doce-cesares"
+      ],
+      "wikipedia": {
+        "es": "Julio César",
+        "en": "Julius Caesar"
+      }
+    },
+    {
+      "id": "guerras-cantabras",
+      "titulo": "Guerras cántabras y astures",
+      "anio": -29,
+      "anio_hasta": -19,
+      "aprox": false,
+      "lugar": "Cantabria",
+      "lon": -4.0,
+      "lat": 43.333,
+      "tipo": "batalla",
+      "resumen": "Última guerra de conquista de la península, contra cántabros y astures. Augusto la dirigió en persona en 26-25 a. C., desde Segisama, hasta que enfermó y se retiró a Tarraco; sus legados Antistio y Carisio tomaron castros y la ciudad de Lancia, y en 25 a. C. Augusto cerró las puertas del templo de Jano. Hubo rebeliones en 24, 22 y 19 a. C., hasta que Agripa sometió a los últimos cántabros. Dion Casio (LIII-LIV) es la fuente principal; Floro y Orosio siguen al Livio perdido, y la arqueología ha encontrado campamentos y asedios como el de Monte Bernorio.",
+      "regiones": [
+        "iberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio",
+        "epitome-de-floro",
+        "historias-contra-los-paganos",
+        "geografia-de-estrabon-libro-iii",
+        "vidas-de-los-doce-cesares"
+      ],
+      "wikipedia": {
+        "es": "Guerras cántabras",
+        "en": "Cantabrian Wars"
+      }
+    },
+    {
+      "id": "monte-medulio",
+      "titulo": "El sitio del monte Medulio",
+      "anio": -22,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Monte Medulio (sin ubicar)",
+      "tipo": "batalla",
+      "resumen": "Floro (II.33) y Orosio (VI.21) cuentan que los romanos rodearon a los últimos resistentes en el monte Medulio con un foso de quince millas, y que estos prefirieron matarse con espadas, fuego y veneno de tejo antes que rendirse. Dion Casio no lo menciona, los modernos lo fechan en 25 o en 22 a. C., el lugar no se ha identificado (se proponen las Médulas, el Teleno y otros montes de Galicia, León y Cantabria) y el relato repite el modelo literario de Numancia, por lo que su historicidad se discute.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "fuentes": [
+        "epitome-de-floro",
+        "historias-contra-los-paganos"
+      ],
+      "wikipedia": {
+        "es": "Monte Medulio"
+      }
+    },
+    {
+      "id": "fundacion-de-emerita-augusta",
+      "titulo": "Fundación de Emerita Augusta",
+      "anio": -25,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mérida (Emerita Augusta)",
+      "lon": -6.333,
+      "lat": 38.916,
+      "tipo": "fundacion",
+      "resumen": "Augusto asentó en 25 a. C. a los veteranos licenciados de las guerras cántabras en una colonia junto al Guadiana, Emerita Augusta, que fue capital de la nueva provincia de Lusitania (Dion Casio LIII.26).",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio"
+      ],
+      "wikipedia": {
+        "es": "Augusta Emerita",
+        "en": "Augusta Emerita"
+      }
+    },
+    {
+      "id": "fin-de-las-guerras-cantabras",
+      "titulo": "Agripa termina las guerras cántabras",
+      "anio": -19,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cantabria",
+      "lon": -4.0,
+      "lat": 43.333,
+      "tipo": "batalla",
+      "resumen": "Los cántabros vendidos como esclavos mataron a sus amos y volvieron a la guerra. Agripa, según Dion Casio (LIV.11), tuvo que vencer primero el desánimo de sus propios soldados, degradó a una legión, mató a casi todos los hombres en edad de luchar y obligó a los demás a bajar de los montes; rechazó el triunfo. Con esto terminó la conquista de la península, dos siglos después de la llegada de Roma.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio"
+      ],
+      "wikipedia": {
+        "es": "Marco Vipsanio Agripa",
+        "en": "Marcus Vipsanius Agrippa"
+      }
+    },
+    {
+      "id": "poblacion-del-noroeste-segun-plinio",
+      "titulo": "Las personas libres del noroeste según Plinio",
+      "anio": 73,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Astorga (Asturica Augusta)",
+      "lon": -6.057,
+      "lat": 42.458,
+      "tipo": "economico",
+      "resumen": "Plinio (III.28), que fue procurador en la Tarraconense, da la única cifra antigua de población de una región de la península: doscientas cuarenta mil personas libres en el convento de los astures, ciento sesenta y seis mil en el lucense y doscientas ochenta y cinco mil en el bracarense, unas setecientas mil en total. Probablemente vienen de un censo romano, augusteo o flavio, y no cuentan esclavos. Son de las pocas cifras antiguas que muchos historiadores consideran plausibles, a diferencia de las de ejércitos y muertos de las guerras, que inflan o redondean.",
+      "regiones": [
+        "iberia",
+        "galaecia"
+      ],
+      "fuentes": [
+        "historia-natural-plinio"
+      ],
+      "wikipedia": {
+        "es": "Astures",
+        "en": "Astures"
+      }
+    },
+    {
+      "id": "cifras-de-numancia",
+      "titulo": "Cuántos eran los numantinos",
+      "anio": -153,
+      "anio_hasta": -133,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "economico",
+      "resumen": "Apiano (Iberica 97) dice que Numancia no tenía más de ocho mil combatientes al empezar la guerra, frente a los sesenta mil hombres, con los aliados, de Escipión; Floro (I.34.2) habla de cuatro mil numantinos contra cuarenta mil romanos, las mismas cifras que el resumen del libro LV de Livio da para la derrota de Mancino, y Apiano cuenta que Caro reunió en 153 a. C. veinte mil infantes y cinco mil jinetes. La ciudad excavada ocupa unas seis a ocho hectáreas y se calcula que vivían en ella un par de miles de personas. David Henige (1998), al estudiar las cifras de César, mostró cómo los números redondos de los autores antiguos sobre los bárbaros sirven para engrandecer al vencedor o al vencido, y las de Numancia tienen el mismo problema.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "iberica-de-apiano",
+        "epitome-de-floro",
+        "historias-contra-los-paganos",
+        "he-came-he-saw-we-counted-henige"
+      ],
+      "wikipedia": {
+        "es": "Asedio de Numancia",
+        "en": "Siege of Numantia"
+      }
+    },
+    {
+      "id": "excavaciones-de-numancia",
+      "titulo": "Las excavaciones de Numancia",
+      "anio": 1861,
+      "anio_hasta": 1923,
+      "aprox": false,
+      "lugar": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "tipo": "cientifico",
+      "resumen": "El ingeniero Eduardo Saavedra identificó y excavó el cerro de Garray en 1861-1867. Adolf Schulten, con apoyo del káiser, excavó en 1905-1912 los campamentos romanos del cerco y los de Renieblas, mientras una comisión oficial española, presidida por Saavedra y con José Ramón Mélida entre sus arqueólogos, excavaba la ciudad desde 1906, en parte como reacción nacionalista ante el arqueólogo extranjero. Para entonces Numancia, desde Cervantes y la historiografía del siglo XIX, era un símbolo nacional español, una lectura que la historiografía actual considera anacrónica; en 1905 Alfonso XIII inauguró en el cerro un monumento a los héroes de Numancia.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "numantia-schulten"
+      ],
+      "wikipedia": {
+        "es": "Numancia",
+        "en": "Numantia"
+      }
+    },
+    {
+      "id": "hallazgo-de-la-dama-de-elche",
+      "titulo": "Hallazgo de la Dama de Elche",
+      "anio": 1897,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Elche",
+      "lon": -0.698,
+      "lat": 38.267,
+      "tipo": "cultural",
+      "resumen": "El 4 de agosto de 1897 apareció en La Alcudia (Elche) un busto ibérico de piedra caliza policromada, de los siglos V-IV a. C., con un hueco en la espalda que quizá sirvió de urna. Lo compró enseguida el Louvre; volvió a España en 1941 por un intercambio con el gobierno de Vichy y está en el Museo Arqueológico Nacional. John F. Moffitt sostuvo en 1995 que era una falsificación moderna, una tesis que los análisis de pigmentos y la mayoría de los especialistas rechazan.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Dama de Elche",
+        "en": "Lady of Elche"
+      }
+    },
+    {
+      "id": "hallazgo-de-botorrita",
+      "titulo": "Hallazgo de los bronces de Botorrita",
+      "anio": 1970,
+      "anio_hasta": 1994,
+      "aprox": false,
+      "lugar": "Contrebia Belaisca",
+      "lon": -1.032,
+      "lat": 41.515,
+      "tipo": "cientifico",
+      "resumen": "En 1970 apareció en el Cabezo de las Minas de Botorrita (Zaragoza) el primer bronce, el texto celtibérico más largo conocido hasta entonces; en 1979 el segundo, en latín, en 1992 el tercero, con unos doscientos cincuenta nombres, y en 1994 un cuarto fragmento. Transformaron el estudio del celtíbero, que pasó de las leyendas de monedas a textos extensos.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "fuentes": [
+        "bronces-de-botorrita",
+        "tabula-contrebiensis",
+        "botorrita-iii"
+      ],
+      "wikipedia": {
+        "es": "Bronces de Botorrita",
+        "en": "Botorrita plaque"
+      }
+    },
+    {
+      "id": "numancia-de-alberti",
+      "titulo": "La Numancia de Alberti en el Madrid sitiado",
+      "anio": 1937,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "cultural",
+      "resumen": "En diciembre de 1937, durante la guerra civil, Rafael Alberti estrenó en el teatro de la Zarzuela de Madrid una adaptación de la tragedia de Cervantes en la que los numantinos representaban a la república sitiada y los romanos a los sublevados y sus aliados extranjeros. El bando sublevado también usó el símbolo: en 1936 un regimiento llamado Numancia rebautizó el pueblo toledano de Azaña como Numancia de la Sagra. El mito servía a causas opuestas.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [
+        "el-cerco-de-numancia"
+      ],
+      "wikipedia": {
+        "es": "Rafael Alberti",
+        "en": "Rafael Alberti"
+      }
+    }
+  ],
+  "lugares": [
+    {
+      "id": "numancia",
+      "nombre": "Numancia",
+      "lon": -2.444,
+      "lat": 41.809,
+      "fundacion": -300,
+      "abandono": 400,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 3,
+      "resumen": "Ciudad celtíbera del cerro de la Muela, en Garray (Soria), sobre el Duero, de unas seis a ocho hectáreas excavadas, con calles empedradas y casas de piedra y adobe. Resistió a Roma entre 153 y 133 a. C. hasta que Escipión Emiliano la rindió por hambre y la arrasó; sobre sus ruinas hubo después una pequeña ciudad romana. Plinio la cuenta entre los pelendones y Ptolomeo entre los arévacos; alrededor se conservan los campamentos del cerco.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Numancia",
+        "en": "Numantia"
+      }
+    },
+    {
+      "id": "segeda",
+      "nombre": "Segeda",
+      "lon": -1.517,
+      "lat": 41.301,
+      "fundacion": -400,
+      "abandono": -153,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad principal de los belos, entre Mara y Belmonte de Gracián (Zaragoza), que acuñó moneda con el nombre sekaisa. Su ampliación y su nueva muralla de unos siete kilómetros provocaron la guerra de 153 a. C.; la ciudad vieja y la nueva se excavan desde fines de los años noventa bajo la dirección de Francisco Burillo.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Segeda",
+        "en": "Segeda"
+      }
+    },
+    {
+      "id": "contrebia-belaisca",
+      "nombre": "Contrebia Belaisca",
+      "lon": -1.032,
+      "lat": 41.515,
+      "fundacion": -300,
+      "abandono": -50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad celtíbera del Cabezo de las Minas, en Botorrita (Zaragoza), que acuñó moneda como kontebakom bel. Allí aparecieron los cuatro bronces de Botorrita, entre ellos el primer texto celtibérico extenso y la sentencia en latín de 87 a. C.; también se excavó un gran edificio de adobe con columnas, quizás público.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Contrebia Belaisca"
+      }
+    },
+    {
+      "id": "tiermes",
+      "nombre": "Tiermes (Termes)",
+      "lon": -3.149,
+      "lat": 41.331,
+      "fundacion": -300,
+      "abandono": 600,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad arévaca y después municipio romano en Montejo de Tiermes (Soria), a más de 1.200 metros de altura, con casas y graderíos tallados en la roca arenisca. Resistió con Numancia en la guerra de 143-133 a. C.; en 98-93 a. C. Tito Didio obligó a sus habitantes a bajar al llano.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Tiermes",
+        "en": "Termantia"
+      }
+    },
+    {
+      "id": "segobriga",
+      "nombre": "Segóbriga",
+      "lon": -2.811,
+      "lat": 39.886,
+      "fundacion": -300,
+      "abandono": 600,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad celtíbera y luego romana en Saelices (Cuenca), que Plinio (III.25) llama «cabeza de la Celtiberia». Bajo Roma se enriqueció con las minas de lapis specularis, un yeso transparente usado como vidrio, y conserva teatro, anfiteatro y foro.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Segóbriga",
+        "en": "Segobriga"
+      }
+    },
+    {
+      "id": "clunia",
+      "nombre": "Clunia",
+      "lon": -3.371,
+      "lat": 41.781,
+      "fundacion": -100,
+      "abandono": 600,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad arévaca que fue refugio de Sertorio en 75 a. C. y después colonia romana y capital de un convento jurídico, en Peñalba de Castro (Burgos). En 68 d. C. Galba, que se había sublevado contra Nerón, estaba en Clunia cuando supo que Roma lo reconocía como emperador (Suetonio, Plutarco).",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Clunia",
+        "en": "Clunia"
+      }
+    },
+    {
+      "id": "bilbilis",
+      "nombre": "Bílbilis",
+      "lon": -1.603,
+      "lat": 41.381,
+      "fundacion": -50,
+      "abandono": 300,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Municipio romano del cerro de Bámbola, junto a Calatayud (Zaragoza), heredero de una ciudad celtíbera que acuñó moneda con el nombre bilbilis. Fue la patria del poeta Marcial, que elogia el hierro de su río Jalón, en el que se templaban las armas.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Bílbilis",
+        "en": "Bilbilis"
+      }
+    },
+    {
+      "id": "uxama",
+      "nombre": "Uxama Argaela",
+      "lon": -3.089,
+      "lat": 41.577,
+      "fundacion": -200,
+      "abandono": 600,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Ciudad arévaca y después romana junto a El Burgo de Osma (Soria), aliada de Sertorio y tomada por Pompeyo en 72 a. C. Acuñó moneda con la leyenda usamus.",
+      "regiones": [
+        "celtiberia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Uxama Argaela",
+        "en": "Uxama Argaela"
+      }
+    },
+    {
+      "id": "contrebia-leucade",
+      "nombre": "Contrebia Leucade",
+      "lon": -1.971,
+      "lat": 41.978,
+      "fundacion": -800,
+      "abandono": -50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Ciudad celtibérica en Aguilar del Río Alhama (La Rioja), con un foso tallado en la roca y casas bien conservadas. Sertorio la tomó en 77 a. C. tras un sitio que cuenta un fragmento de Livio.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Contrebia Leucade"
+      }
+    },
+    {
+      "id": "pintia",
+      "nombre": "Pintia",
+      "lon": -4.17,
+      "lat": 41.618,
+      "fundacion": -400,
+      "abandono": 400,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Ciudad vaccea en Padilla de Duero (Peñafiel, Valladolid), con su necrópolis de Las Ruedas, donde las tumbas de guerreros, mujeres y niños muestran la sociedad vaccea, y estelas que se relacionan con el rito de exponer a los muertos.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Pintia",
+        "en": "Pintia"
+      }
+    },
+    {
+      "id": "las-cogotas",
+      "nombre": "Las Cogotas",
+      "lon": -4.701,
+      "lat": 40.727,
+      "fundacion": -1200,
+      "abandono": -50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Castro de Cardeñosa (Ávila), excavado por Juan Cabré en 1927-1931, que da nombre a dos culturas: Cogotas I, de la Edad del Bronce, con una cerámica decorada característica, y Cogotas II, del oppidum vetón de la Edad del Hierro, con sus necrópolis de guerreros.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Las Cogotas",
+        "en": "Las Cogotas"
+      }
+    },
+    {
+      "id": "ulaca",
+      "nombre": "Ulaca",
+      "lon": -4.885,
+      "lat": 40.53,
+      "fundacion": -300,
+      "abandono": -50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Gran oppidum vetón de unas sesenta hectáreas en Solosancho (Ávila), con murallas, cientos de casas, un altar de sacrificios tallado en la roca y una sauna de piedra. Se abandonó con la conquista romana, en el siglo I a. C.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de Ulaca",
+        "en": "Ulaca"
+      }
+    },
+    {
+      "id": "mesa-de-miranda",
+      "nombre": "La Mesa de Miranda",
+      "lon": -4.946,
+      "lat": 40.721,
+      "fundacion": -400,
+      "abandono": -50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Castro vetón en Chamartín (Ávila), con tres recintos amurallados y la necrópolis de La Osera, una de las mayores de la Meseta, con más de dos mil tumbas.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de La Mesa de Miranda y necrópolis de La Osera",
+        "en": "Castro de La Mesa de Miranda"
+      }
+    },
+    {
+      "id": "toros-de-guisando",
+      "nombre": "Toros de Guisando",
+      "lon": -4.442,
+      "lat": 40.361,
+      "fundacion": -350,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "sitio-historico",
+      "importancia": 2,
+      "resumen": "Cuatro verracos de granito en El Tiemblo (Ávila), esculpidos por los vetones entre los siglos IV y II a. C. y con inscripciones latinas añadidas en época romana. En 1468 Enrique IV de Castilla reconoció allí como heredera a su hermana Isabel, la futura Isabel la Católica.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Toros de Guisando",
+        "en": "Bulls of Guisando"
+      }
+    },
+    {
+      "id": "monte-bernorio",
+      "nombre": "Monte Bernorio",
+      "lon": -4.193,
+      "lat": 42.794,
+      "fundacion": -800,
+      "abandono": -25,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Gran oppidum cántabro de más de cien hectáreas en Villarén de Valdivia (Palencia), que da nombre a un tipo de puñal de la Edad del Hierro. Las excavaciones recientes encontraron un campamento romano y huellas de su asedio y destrucción en las guerras cántabras, hacia 26-25 a. C.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Monte Bernorio",
+        "en": "Monte Bernorio"
+      }
+    },
+    {
+      "id": "las-medulas",
+      "nombre": "Las Médulas",
+      "lon": -6.759,
+      "lat": 42.459,
+      "fundacion": 20,
+      "abandono": 200,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "La mayor mina de oro a cielo abierto del Imperio romano, en el Bierzo (León), donde se derrumbaban montañas con agua traída por canales, la ruina montium que describe Plinio (XXXIII.70-78). Se discute si la mano de obra fue sobre todo forzada, de los astures sometidos, o asalariada; es patrimonio de la humanidad desde 1997.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Las Médulas",
+        "en": "Las Médulas"
+      }
+    },
+    {
+      "id": "citania-de-briteiros",
+      "nombre": "Citania de Briteiros",
+      "lon": -8.316,
+      "lat": 41.528,
+      "fundacion": -400,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Gran poblado castreño de Guimarães (Portugal), con más de ciento cincuenta casas circulares, calles, murallas y una sauna con la pedra formosa, una losa decorada. Francisco Martins Sarmento lo excavó desde 1875, en los comienzos de la arqueología portuguesa.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Citania de Briteiros",
+        "en": "Citânia de Briteiros"
+      }
+    },
+    {
+      "id": "citania-de-sanfins",
+      "nombre": "Citania de Sanfins",
+      "lon": -8.387,
+      "lat": 41.323,
+      "fundacion": -200,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Poblado castreño de Paços de Ferreira (Portugal), con barrios de casas agrupadas en patios familiares, murallas y una sauna, ocupado sobre todo entre el siglo II a. C. y el I d. C.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "en": "Citânia de Sanfins"
+      }
+    },
+    {
+      "id": "castro-de-santa-tegra",
+      "nombre": "Castro de Santa Tegra",
+      "lon": -8.87,
+      "lat": 41.893,
+      "fundacion": -100,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Castro galaico del monte de Santa Tegra, en A Guarda (Pontevedra), sobre la desembocadura del Miño, con cientos de casas circulares, algunas reconstruidas. Su apogeo es de los siglos I a. C. y I d. C., ya bajo influencia romana.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de Santa Tecla",
+        "en": "Castro of Santa Trega"
+      }
+    },
+    {
+      "id": "castro-de-barona",
+      "nombre": "Castro de Baroña",
+      "lon": -9.032,
+      "lat": 42.695,
+      "fundacion": -100,
+      "abandono": 50,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 2,
+      "resumen": "Castro galaico sobre una pequeña península de Porto do Son (A Coruña), con dos murallas y una veintena de casas circulares, ocupado entre los siglos I a. C. y I d. C.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de Baroña",
+        "en": "Castro de Baroña"
+      }
+    },
+    {
+      "id": "castro-de-san-cibrao-de-las",
+      "nombre": "Castro de San Cibrao de Las",
+      "lon": -8.032,
+      "lat": 42.36,
+      "fundacion": -200,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Uno de los mayores castros de Galicia, en San Amaro y Punxín (Ourense), con dos recintos amurallados y barrios de casas; se lo identifica a veces con la Lansbrica de Ptolomeo.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de San Cibrao de Las",
+        "en": "Castro of San Cibrao de Las"
+      }
+    },
+    {
+      "id": "castro-de-coana",
+      "nombre": "Castro de Coaña",
+      "lon": -6.749,
+      "lat": 43.511,
+      "fundacion": -400,
+      "abandono": 100,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Castro de Coaña (Asturias), el primero excavado en Asturias, con decenas de casas circulares, declarado monumento en 1931.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro de Coaña"
+      }
+    },
+    {
+      "id": "chao-samartin",
+      "nombre": "Chao Samartín",
+      "lon": -6.926,
+      "lat": 43.199,
+      "fundacion": -800,
+      "abandono": 175,
+      "aprox": true,
+      "tipo": "sitio-arqueologico",
+      "importancia": 1,
+      "resumen": "Castro de Grandas de Salime (Asturias) fundado a fines de la Edad del Bronce y habitado hasta fines del siglo II d. C., cuando un terremoto lo destruyó. Bajo Roma tuvo una casa de tipo romano y se lo relaciona con el control de la minería del oro de la zona.",
+      "regiones": [
+        "galaecia",
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Castro El Chao Samartín",
+        "en": "Chao Samartín"
+      }
+    },
+    {
+      "id": "santuario-de-cabeco-das-fraguas",
+      "nombre": "Cabeço das Fráguas",
+      "lon": -7.223,
+      "lat": 40.424,
+      "fundacion": -100,
+      "abandono": 200,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 1,
+      "resumen": "Cima de una sierra cerca de Guarda (Portugal) con un recinto de culto lusitano y la peña en la que se grabó la inscripción en lusitano que enumera ofrendas de animales a sus dioses. En la zona aparecieron unas veinte aras.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Cabeço das Fráguas"
+      }
+    },
+    {
+      "id": "cerro-de-los-santos",
+      "nombre": "Cerro de los Santos",
+      "lon": -1.269,
+      "lat": 38.733,
+      "fundacion": -400,
+      "abandono": 400,
+      "aprox": true,
+      "tipo": "templo",
+      "importancia": 1,
+      "resumen": "Santuario ibérico de Montealegre del Castillo (Albacete), del que salieron cientos de exvotos de piedra, entre ellos la Gran Dama Oferente. En el siglo XIX se mezclaron con sus piezas auténticas falsificaciones de un relojero de Yecla, lo que dañó por décadas la reputación del arte ibérico.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Cerro de los Santos",
+        "en": "Cerro de los Santos"
+      }
+    },
+    {
+      "id": "sagunto",
+      "nombre": "Sagunto (Arse)",
+      "lon": -0.278,
+      "lat": 39.68,
+      "fundacion": -500,
+      "abandono": null,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad íbera de los edetanos, aliada de Roma, cuyo sitio por Aníbal en 219 a. C. desencadenó la segunda guerra púnica. Sus monedas llevan el nombre ibérico arse y el latino Saguntum.",
+      "regiones": [
+        "iberia"
+      ],
+      "wikipedia": {
+        "es": "Sagunto",
+        "en": "Sagunto"
+      }
+    }
+  ]
+}
