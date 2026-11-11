@@ -64,17 +64,17 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 7 · 0 |
 | Egipto | egipto | 21 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 9 · 9 · 6 | 86 · 42 · 14 |
 | Nubia | egipto | 8 (2970 a. C. a 1821) | sin serie propia; cuenta en Sudán y Sudán del Sur | 10 · 8 · 10 | 0 · 2 · 0 |
-| Anatolia | mundo | 8 (1650 a. C. a 2000) | curada: Frier, Harper (14–164); por país: TUR | 9 · 5 · 5 | 88 · 37 · 11 |
-| Andes centrales | mundo | 8 (3000 a. C. a 2000) | por país: PER, BOL | 2 · 2 · 3 | 78 · 43 · 5 |
-| China (cuencas del Amarillo y el Yangtsé) | mundo | 8 (1600 a. C. a 1912) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 4 · 1 · 3 | 8 · 13 · 4 |
-| Grecia | mundo | 8 (1600 a. C. a 2000) | por país: GRC | 2 · 1 · 1 | 48 · 28 · 6 |
-| India (cuencas del Indo y el Ganges) | mundo | 8 (3300 a. C. a 1947) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 3 | 15 · 7 · 4 |
-| Italia | mundo | 11 (6000 a. C. a 2000) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 128 · 102 · 22 |
-| Levante | mundo | 8 (3500 a. C. a 1918) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 4 · 3 · 3 | 15 · 117 · 57 |
-| Mesoamérica | mundo | 6 (1500 a. C. a 2000) | por país: MEX, GTM, BLZ, SLV | 2 · 2 · 3 | 48 · 12 · 5 |
-| Mesopotamia | mundo | 8 (4000 a. C. a 637) | por país: IRQ | 4 · 4 · 4 | 33 · 21 · 6 |
-| Persia (meseta iraní) | mundo | 8 (2700 a. C. a 2000) | por país: IRN | 4 · 2 · 4 | 29 · 13 · 3 |
-| Río de la Plata | mundo | 7 (10000 a. C. a 2000) | por país: ARG, URY, PRY | 5 · 12 · 6 | 408 · 542 · 92 |
+| Anatolia | mundo | 9 (1760 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 10 · 7 · 8 | 88 · 37 · 11 |
+| Andes centrales | mundo | 8 (3000 a. C. a 2000) | por país: PER, BOL | 2 · 2 · 4 | 78 · 43 · 5 |
+| China (cuencas del Amarillo y el Yangtsé) | mundo | 12 (1760 a. C. a hoy) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 8 · 2 · 4 | 8 · 13 · 4 |
+| Grecia | mundo | 10 (1760 a. C. a 2000) | por país: GRC | 3 · 2 · 3 | 48 · 28 · 6 |
+| India (cuencas del Indo y el Ganges) | mundo | 9 (3300 a. C. a hoy) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 15 · 7 · 4 |
+| Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 128 · 102 · 22 |
+| Levante | mundo | 11 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 15 · 117 · 57 |
+| Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 3 · 3 · 5 | 48 · 12 · 5 |
+| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 4 · 5 · 5 | 33 · 21 · 6 |
+| Persia (meseta iraní) | mundo | 9 (2700 a. C. a 2000) | por país: IRN | 4 · 2 · 8 | 29 · 13 · 3 |
+| Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 408 · 542 · 92 |
 | Armórica (Bretaña) (en Francia) | mundo-celta | 7 (5000 a. C. a hoy) | sin serie propia; cuenta en Francia | 3 · 11 · 10 | 9 · 14 · 2 |
 | Caledonia (en Britania) | mundo-celta | 7 (4000 a. C. a hoy) | sin serie propia; cuenta en Britania | 6 · 10 · 11 | 0 · 12 · 6 |
 | Celtiberia (en Península ibérica) | mundo-celta | 9 (5500 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 10 · 8 · 9 | 14 · 35 · 8 |

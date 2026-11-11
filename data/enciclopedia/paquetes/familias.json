@@ -2662,6 +2662,18 @@
         "es": "Lengua no clasificada",
         "en": "Unclassified language"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-minoica",
+      "nombre": "Religión minoica",
+      "padre": null,
+      "color": "#b0684a",
+      "nota": "Religión de la civilización minoica de Creta, reconstruida casi por completo desde la arqueología; no se conocen los nombres de sus dioses.",
+      "wikipedia": {
+        "es": "Religión minoica",
+        "en": "Minoan religion"
+      }
     }
   ]
 }
