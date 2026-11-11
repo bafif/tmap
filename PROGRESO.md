@@ -61,6 +61,13 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       a mano, y buscar las sentencias de las causas contra el kirchnerismo en una copia oficial que responda.
 - [ ] **Causas judiciales en curso.** Al 10/11/2026: el juicio oral de Cuadernos sigue sin sentencia, y no está claro
       si empezaron los de Hotesur-Los Sauces y el Memorándum con Irán. Revisarlos cada tanto y actualizar sus hechos.
+- [ ] **Lugares contemporáneos sin fecha, que se ven en todas las épocas.** Un lugar sin `fundacion` cuenta desde 3400
+      a. C.: la playa de Omaha y la embajada de Ecuador en Londres aparecen en el mapa de 1350 a. C. Son ocho:
+      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` e `isla-huemul`
+      (argentina-contemporanea), `embajada-de-ecuador-en-londres`, `playa-de-omaha` y `mont-pelerin`. A los edificios
+      les falta el año de inauguración, con su fuente; para los lugares naturales que importan por un hecho (una isla,
+      una playa, una montaña) habría que decidir desde cuándo mostrarlos (el primer hecho, con `aprox`) o que la app
+      los muestre desde su primer hecho. Los 43 de Tierra Santa, Tebas y Heliópolis sin fecha están bien así.
 - [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector y Galeano. Hawái no tiene región (Pearl Harbor queda fuera de todas).
@@ -141,6 +148,14 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: las versiones exportadas, con sus tipografías
+
+- [x] Arreglado: **las versiones exportadas salían con la tipografía genérica de Godot** en vez de Cinzel y EB
+      Garamond. `TemaUI` leía el `.ttf` crudo con `FileAccess`, y en lo exportado el `.ttf` no viaja: solo su versión
+      importada. Desde el código fuente no se notaba, porque ahí el archivo está en disco. Ahora carga el recurso
+      importado (y lee el `.ttf` solo si todavía no se importó). Comprobado con un `.pck` exportado, abierto desde una
+      carpeta sin el proyecto.
 
 ### 11 de noviembre de 2026: lo editado ya no tapa en silencio a lo nuevo
 

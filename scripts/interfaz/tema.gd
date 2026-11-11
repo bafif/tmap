@@ -79,9 +79,15 @@ static func cargar_fuentes() -> void:
 	fuente_mapa = _variacion(mapa, 600)
 
 
+## Una tipografía propia, como recurso importado: en la versión exportada el .ttf crudo no viaja (solo su versión
+## importada), y leerlo con FileAccess dejaba la app con la tipografía genérica de Godot. Se duplica para que cada uso
+## (el texto, los nombres del mapa con campo de distancia) tenga su propia configuración.
 static func _fuente_de(ruta: String) -> FontFile:
-	var f := FontFile.new()
-	f.data = FileAccess.get_file_as_bytes(ruta)
+	var importada := load(ruta) as FontFile if ResourceLoader.exists(ruta) else null
+	var f: FontFile = importada.duplicate() if importada != null else FontFile.new()
+	if importada == null:
+		# Desde el código fuente sin importar todavía: el archivo está en disco.
+		f.data = FileAccess.get_file_as_bytes(ruta)
 	f.antialiasing = TextServer.FONT_ANTIALIASING_GRAY
 	f.hinting = TextServer.HINTING_LIGHT
 	f.subpixel_positioning = TextServer.SUBPIXEL_POSITIONING_AUTO

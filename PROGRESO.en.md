@@ -61,6 +61,13 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
 - [ ] **Ongoing court cases.** As of November 10, 2026: the Cuadernos oral trial still has no verdict, and it's unclear
       whether the Hotesur-Los Sauces and Memorandum with Iran trials have started. Check them every so often and update
       their events.
+- [ ] **Contemporary places without a date, shown in every era.** A place without `fundacion` counts from 3400 BC:
+      Omaha Beach and the Ecuadorian embassy in London show up on the map of 1350 BC. There are eight:
+      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` and `isla-huemul`
+      (argentina-contemporanea), `embajada-de-ecuador-en-londres`, `playa-de-omaha` and `mont-pelerin`. The buildings
+      lack their opening year, with its source; for natural places that matter because of an event (an island, a
+      beach, a mountain) we'd have to decide from when to show them (the first event, with `aprox`) or have the app
+      show them from their first event. The 43 undated places in the Holy Land, Thebes and Heliopolis are fine as is.
 - [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector and Galeano. Hawaii has no region (Pearl Harbor falls outside all of
@@ -142,6 +149,14 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: exported builds, with their typefaces
+
+- [x] Fixed: **exported builds showed Godot's generic typeface** instead of Cinzel and EB Garamond. `TemaUI` read the
+      raw `.ttf` with `FileAccess`, and the raw `.ttf` doesn't ship in an export: only its imported version does. From
+      source it didn't show, because the file is on disk there. It now loads the imported resource (and reads the
+      `.ttf` only if it hasn't been imported yet). Checked with an exported `.pck` opened from a folder without the
+      project.
 
 ### November 11, 2026: local edits no longer silently hide what's new
 
