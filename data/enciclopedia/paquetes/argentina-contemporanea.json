@@ -192,7 +192,7 @@
       "idioma_original": "Español",
       "soporte": "Ley",
       "resumen": "Ley electoral de febrero de 1912, impulsada por el presidente Roque Sáenz Peña y su ministro Indalecio Gómez, que estableció el voto universal, secreto y obligatorio de los varones ciudadanos sobre la base del padrón militar, y el sistema de lista incompleta: dos tercios de las bancas para la mayoría y un tercio para la primera minoría.",
-      "por_que_importa": "Terminó con el fraude del orden conservador y permitió el triunfo de Yrigoyen en 1916. Las mujeres quedaron excluidas hasta la ley de 1947.",
+      "por_que_importa": "Terminó con el fraude en las elecciones nacionales y permitió el triunfo de Yrigoyen en 1916; después del golpe de 1930 el fraude volvió en la llamada Década Infame. Las mujeres quedaron excluidas hasta la ley de 1947.",
       "leer": [],
       "wikipedia": {
         "es": "Ley Sáenz Peña",
@@ -204,7 +204,7 @@
       "id": "manifiesto-liminar",
       "titulo": "Manifiesto Liminar («La juventud argentina de Córdoba a los hombres libres de Sud América»)",
       "titulo_original": null,
-      "autor": "es:Deodoro Roca",
+      "autor": "Deodoro Roca",
       "autor_id": "deodoro-roca",
       "tipo": "primaria",
       "genero": "manifiesto",
@@ -225,7 +225,7 @@
       },
       "idioma_original": "Español",
       "soporte": "Manifiesto",
-      "resumen": "Manifiesto de la Federación Universitaria de Córdoba del 21 de junio de 1918, redactado por Deodoro Roca. Denuncia el dominio clerical y conservador de la universidad y reclama autonomía, cogobierno con participación estudiantil, concursos docentes y libertad de cátedra; afirma que «los dolores que nos quedan son las libertades que nos faltan».",
+      "resumen": "Manifiesto de la Federación Universitaria de Córdoba del 21 de junio de 1918, redactado por Deodoro Roca. Denuncia el dominio clerical y conservador de la universidad y reclama autonomía, cogobierno con participación estudiantil, concursos docentes y libertad de cátedra; afirma que «los dolores que quedan son las libertades que faltan».",
       "por_que_importa": "Es el texto fundacional de la Reforma Universitaria, cuyos principios se extendieron a las universidades de América Latina.",
       "leer": [
         {
@@ -1056,7 +1056,7 @@
       "id": "la-formacion-de-la-conciencia-nacional",
       "titulo": "La formación de la conciencia nacional",
       "titulo_original": null,
-      "autor": "es:Juan José Hernández Arregui",
+      "autor": "Juan José Hernández Arregui",
       "autor_id": "hernandez-arregui",
       "tipo": "primaria",
       "genero": "ensayo",
@@ -3556,7 +3556,7 @@
       },
       "muerte": {
         "anio": 1885,
-        "aprox": false,
+        "aprox": true,
         "lugar": "Océano Atlántico",
         "lon": -30.0,
         "lat": 0.0
@@ -3572,8 +3572,10 @@
       "roles": [
         "presidente"
       ],
-      "resumen": "Presidente entre 1874 y 1880. Promulgó la Ley de Inmigración y Colonización de 1876 y en 1880 federalizó la ciudad de Buenos Aires.",
-      "obras": [],
+      "resumen": "Presidente entre 1874 y 1880. Promulgó la Ley de Inmigración y Colonización de 1876 y en 1880 federalizó la ciudad de Buenos Aires. Era hijo de Marco Avellaneda, unitario de la Coalición del Norte ejecutado en Metán en 1841.",
+      "obras": [
+        "ley-universitaria-1885"
+      ],
       "wikipedia": {
         "es": "Nicolás Avellaneda",
         "en": "Nicolás Avellaneda"
@@ -3609,7 +3611,7 @@
         "militar",
         "presidente"
       ],
-      "resumen": "General que dirigió la Conquista del Desierto (1878-1879) y fue presidente en 1880-1886 y 1898-1904. Figura central del orden conservador y de la generación del 80, con el Partido Autonomista Nacional.",
+      "resumen": "General que, como ministro de Guerra de Avellaneda, dirigió la campaña de 1879 de la Conquista del Desierto, y presidente en 1880-1886 y 1898-1904. Figura central del orden conservador y de la generación del 80, con el Partido Autonomista Nacional.",
       "obras": [],
       "wikipedia": {
         "es": "Julio Argentino Roca",
@@ -3645,7 +3647,7 @@
       "roles": [
         "presidente"
       ],
-      "resumen": "Presidente entre 1886 y 1890, cuñado de Roca. Su gobierno terminó con la crisis financiera de 1890 y la Revolución del Parque, tras la cual renunció.",
+      "resumen": "Presidente entre 1886 y 1890, concuñado de Roca (estaban casados con dos hermanas Funes). Su gobierno terminó con la crisis financiera de 1890 y la Revolución del Parque, tras la cual renunció.",
       "obras": [],
       "wikipedia": {
         "es": "Miguel Juárez Celman",
@@ -3717,7 +3719,7 @@
       "roles": [
         "politico"
       ],
-      "resumen": "Fundador de la Unión Cívica (1889) y de la Unión Cívica Radical (1891). Encabezó la Revolución del Parque de 1890 y se suicidó en 1896.",
+      "resumen": "Presidente de la Unión Cívica, fundada en 1890 sobre la base de la Unión Cívica de la Juventud (1889), y fundador de la Unión Cívica Radical (1891). Encabezó la Revolución del Parque de 1890 y se suicidó en 1896. Era hijo de Leandro Alén, miembro de la Mazorca fusilado en 1853; él cambió la grafía del apellido.",
       "obras": [],
       "wikipedia": {
         "es": "Leandro N. Alem",
@@ -3754,7 +3756,7 @@
         "politico",
         "presidente"
       ],
-      "resumen": "Líder de la Unión Cívica Radical y primer presidente elegido con la ley Sáenz Peña (1916-1922); volvió a ganar en 1928 y fue derrocado por el golpe del 6 de septiembre de 1930.",
+      "resumen": "Líder de la Unión Cívica Radical y primer presidente elegido con la ley Sáenz Peña (1916-1922); volvió a ganar en 1928 y fue derrocado por el golpe del 6 de septiembre de 1930. En su primer gobierno ocurrieron las represiones de la Semana Trágica (1919) y de las huelgas de la Patagonia (1921-1922).",
       "obras": [],
       "wikipedia": {
         "es": "Hipólito Yrigoyen",
@@ -3792,7 +3794,8 @@
       ],
       "resumen": "Presidente desde 1910 hasta su muerte en 1914. Impulsó la ley 8871 de 1912, que estableció el voto secreto y obligatorio de los varones ciudadanos y abrió el paso del radicalismo al gobierno.",
       "obras": [
-        "ley-saenz-pena"
+        "ley-saenz-pena",
+        "manifiesto-de-saenz-pena-1912"
       ],
       "wikipedia": {
         "es": "Roque Sáenz Peña",
@@ -3849,9 +3852,9 @@
       "muerte": {
         "anio": 1928,
         "aprox": false,
-        "lugar": "Provincia de Buenos Aires",
-        "lon": -60.0,
-        "lat": -37.0
+        "lugar": "Los Cardales",
+        "lon": -59.0,
+        "lat": -34.333
       },
       "activo": {
         "lugar": "Buenos Aires",
@@ -3865,8 +3868,11 @@
         "medico",
         "politico"
       ],
-      "resumen": "Médico, fundador del Partido Socialista (1896) y del diario La Vanguardia (1894). Hizo la primera traducción al español del primer tomo de El capital de Marx (1898) y defendió un socialismo reformista y parlamentario.",
-      "obras": [],
+      "resumen": "Médico, fundador del Partido Socialista (1896) y del diario La Vanguardia (1894). Tradujo directamente del alemán el primer tomo de El capital de Marx (1898) y defendió un socialismo reformista y parlamentario.",
+      "obras": [
+        "teoria-y-practica-de-la-historia",
+        "la-vanguardia"
+      ],
       "wikipedia": {
         "es": "Juan B. Justo",
         "en": "Juan B. Justo"
@@ -4051,7 +4057,7 @@
       "roles": [
         "anarquista"
       ],
-      "resumen": "Anarquista judío nacido en el Imperio ruso que en 1909 mató con una bomba al jefe de policía Ramón Falcón. Pasó veintiún años en el penal de Ushuaia hasta que Yrigoyen lo indultó en 1930.",
+      "resumen": "Anarquista judío nacido en el Imperio ruso que en 1909 mató con una bomba al jefe de policía Ramón Falcón. Pasó veintiún años preso, desde 1911 en el penal de Ushuaia, hasta que Yrigoyen lo indultó en 1930.",
       "obras": [],
       "wikipedia": {
         "es": "Simón Radowitzky",
@@ -4061,7 +4067,7 @@
     },
     {
       "id": "deodoro-roca",
-      "nombre": "es:Deodoro Roca",
+      "nombre": "Deodoro Roca",
       "nacimiento": {
         "anio": 1890,
         "aprox": false,
@@ -4239,7 +4245,9 @@
       ],
       "resumen": "Poeta modernista que pasó del socialismo al nacionalismo autoritario. En su discurso de Ayacucho (1924) proclamó que había sonado «la hora de la espada» y apoyó el golpe de 1930.",
       "obras": [
-        "la-hora-de-la-espada"
+        "la-hora-de-la-espada",
+        "el-imperio-jesuitico",
+        "la-guerra-gaucha"
       ],
       "wikipedia": {
         "es": "Leopoldo Lugones",
@@ -4702,7 +4710,8 @@
       "resumen": "Ensayista de FORJA que estudió el capital británico en la Argentina, sobre todo los ferrocarriles. Sostuvo que la dependencia económica explicaba el atraso del país, una tesis que el peronismo invocó al nacionalizar los ferrocarriles en 1948.",
       "obras": [
         "el-hombre-que-esta-solo-y-espera",
-        "historia-de-los-ferrocarriles-argentinos"
+        "historia-de-los-ferrocarriles-argentinos",
+        "politica-britanica-en-el-rio-de-la-plata"
       ],
       "wikipedia": {
         "es": "Raúl Scalabrini Ortiz",
@@ -4741,7 +4750,8 @@
       ],
       "resumen": "Ensayista y político, fundador de FORJA (1935) dentro del radicalismo yrigoyenista y luego cercano al peronismo. En libros como Manual de zonceras argentinas (1968) criticó lo que llamaba la mentalidad colonial de las élites y de la intelectualidad.",
       "obras": [
-        "manual-de-zonceras-argentinas"
+        "manual-de-zonceras-argentinas",
+        "politica-nacional-y-revisionismo-historico"
       ],
       "wikipedia": {
         "es": "Arturo Jauretche",
@@ -4751,7 +4761,7 @@
     },
     {
       "id": "hernandez-arregui",
-      "nombre": "es:Juan José Hernández Arregui",
+      "nombre": "Juan José Hernández Arregui",
       "nacimiento": {
         "anio": 1913,
         "aprox": false,
@@ -7047,12 +7057,22 @@
       "lon": -65.654,
       "lat": -39.286,
       "tipo": "batalla",
-      "resumen": "Campañas militares contra los pueblos indígenas de la Pampa y la Patagonia; la de 1879, dirigida por Roca, llegó al río Negro. Miles de indígenas murieron o fueron tomados prisioneros y sus tierras pasaron a manos privadas; para los gobiernos de la época fue la incorporación del territorio al Estado, y para pueblos indígenas e historiadores críticos, un genocidio.",
+      "resumen": "Campañas militares del Estado argentino sobre la Pampa y la Patagonia entre 1878 y 1885; la de 1879, dirigida por Roca como ministro de Guerra, llegó al río Negro. Para 1878 y 1879 la Memoria del Departamento de Guerra contó 1313 indígenas «de lanza» muertos, 1271 prisioneros de lanza y 10 513 «de chusma» (mujeres, niños y ancianos) prisioneros, sin contar las muertes posteriores de los prisioneros, que fueron confinados o repartidos como mano de obra; las tierras pasaron al Estado y después, en gran parte, a manos privadas. Los gobiernos de la época y la historiografía militar la presentan como la incorporación del territorio; los pueblos indígenas y parte de la historiografía académica la llaman genocidio, un término que otros historiadores rechazan.",
       "regiones": [
         "patagonia",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-215-de-fronteras",
+        "ley-947-de-fronteras",
+        "memoria-de-guerra-1879",
+        "conquista-de-quince-mil-leguas",
+        "estudio-topografico-olascoaga",
+        "memorias-de-expropiacion",
+        "la-conquista-del-desierto-walther",
+        "estado-y-cuestion-indigena",
+        "indios-ejercito-y-frontera"
+      ],
       "wikipedia": {
         "es": "Conquista del Desierto",
         "en": "Conquest of the Desert"
@@ -7072,7 +7092,11 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-1029-de-federalizacion",
+        "una-nacion-para-el-desierto-argentino",
+        "la-formacion-del-estado-argentino"
+      ],
       "wikipedia": {
         "es": "Federalización de Buenos Aires",
         "en": "Federalization of Buenos Aires"
@@ -7095,7 +7119,10 @@
       "fuentes": [
         "ley-avellaneda",
         "censo-1895",
-        "censo-1914"
+        "censo-1914",
+        "en-la-sangre",
+        "estudio-sobre-las-casas-de-inquilinato",
+        "la-restauracion-nacionalista"
       ],
       "wikipedia": {
         "es": "Inmigración en Argentina",
@@ -7112,7 +7139,7 @@
       "lon": -58.3816,
       "lat": -34.6037,
       "tipo": "cultural",
-      "resumen": "El Congreso aprobó en 1884, tras un largo debate con los diputados católicos, la educación primaria gratuita, obligatoria y laica; el conflicto llevó a la ruptura de relaciones con la Santa Sede.",
+      "resumen": "El Congreso aprobó en 1884, tras un largo debate con los diputados católicos, la educación primaria común, gratuita y obligatoria, con la enseñanza religiosa fuera del horario de clase (por eso se la llama laica, aunque la ley no usa esa palabra); el conflicto con la Iglesia, agravado por el caso de la escuela normal de Córdoba, llevó a la ruptura de relaciones con la Santa Sede.",
       "regiones": [
         "rio-de-la-plata"
       ],
@@ -7134,7 +7161,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "exposicion-de-del-valle-1890"
+      ],
       "wikipedia": {
         "es": "Revolución del Parque",
         "en": "Revolution of the Park"
@@ -7174,7 +7203,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-vanguardia"
+      ],
       "wikipedia": {
         "es": "Partido Socialista (Argentina)",
         "en": "Socialist Party (Argentina)"
@@ -7195,7 +7226,8 @@
         "rio-de-la-plata"
       ],
       "fuentes": [
-        "ley-de-residencia"
+        "ley-de-residencia",
+        "la-protesta"
       ],
       "wikipedia": {
         "es": "Federación Obrera Regional Argentina",
@@ -7251,11 +7283,13 @@
       "lon": -58.3816,
       "lat": -34.6037,
       "tipo": "cultural",
-      "resumen": "Celebración de mayo de 1910, con exposiciones internacionales y visitas de jefes de Estado, en la que la élite exhibió el crecimiento del país en estado de sitio; grupos nacionalistas atacaron locales anarquistas y socialistas y se sancionó la Ley de Defensa Social.",
+      "resumen": "Celebración de mayo de 1910, con exposiciones internacionales y visitas de jefes de Estado, en la que la élite exhibió el crecimiento del país. Se hizo bajo estado de sitio: grupos nacionalistas atacaron locales anarquistas y socialistas, y en junio, tras una bomba en el teatro Colón, se sancionó la Ley de Defensa Social.",
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-de-defensa-social"
+      ],
       "wikipedia": {
         "es": "Centenario argentino",
         "en": "Argentina Centennial"
@@ -7296,7 +7330,10 @@
         "rio-de-la-plata"
       ],
       "fuentes": [
-        "ley-saenz-pena"
+        "ley-saenz-pena",
+        "ley-de-enrolamiento",
+        "manifiesto-de-saenz-pena-1912",
+        "el-orden-conservador"
       ]
     },
     {
@@ -7353,7 +7390,7 @@
       "lon": -58.3816,
       "lat": -34.6037,
       "tipo": "politico",
-      "resumen": "En enero de 1919 una huelga en los talleres Vasena derivó en una huelga general reprimida por el Ejército, la policía y grupos civiles armados, que también atacaron el barrio judío; los muertos se cuentan por centenares según distintas estimaciones.",
+      "resumen": "En enero de 1919 una huelga en los talleres Vasena derivó en una huelga general reprimida por el Ejército, la policía y grupos civiles armados, que también atacaron el barrio judío; los muertos se cuentan por centenares según distintas estimaciones. Gobernaba Yrigoyen, que puso al general Luis Dellepiane al frente de las tropas en la ciudad.",
       "regiones": [
         "rio-de-la-plata"
       ],
@@ -7373,7 +7410,7 @@
       "lon": -69.216,
       "lat": -51.623,
       "tipo": "batalla",
-      "resumen": "Huelgas de los peones de las estancias de Santa Cruz por mejores condiciones de trabajo, reprimidas en 1921-1922 por el Ejército al mando de Héctor Varela; cientos de huelguistas fueron fusilados, y las estimaciones van de varios cientos a más de mil.",
+      "resumen": "Huelgas de los peones de las estancias de Santa Cruz por mejores condiciones de trabajo, reprimidas en 1921-1922 por el Ejército al mando de Héctor Varela, enviado por el gobierno de Yrigoyen; cientos de huelguistas fueron fusilados, y las estimaciones van de varios cientos a más de mil.",
       "regiones": [
         "patagonia"
       ],
@@ -9968,7 +10005,7 @@
       "aprox": false,
       "tipo": "sitio-historico",
       "importancia": 2,
-      "resumen": "Isla del Río de la Plata usada como lugar de detención de presidentes y dirigentes: allí estuvieron presos Yrigoyen (1930), Perón (octubre de 1945) y Frondizi (1962).",
+      "resumen": "Isla del Río de la Plata frente a la desembocadura del Uruguay, disputada desde la colonia: la escuadra de Brown la tomó en 1814, y en las décadas de 1870 y 1880 fue lugar de confinamiento de prisioneros indígenas de las campañas de frontera. En el siglo XX estuvieron presos allí Yrigoyen (1930), Perón (octubre de 1945) y Frondizi (1962).",
       "regiones": [
         "rio-de-la-plata"
       ],
@@ -10005,7 +10042,7 @@
       "aprox": false,
       "tipo": "universidad",
       "importancia": 3,
-      "resumen": "La mayor universidad del país, pública y gratuita desde 1949. En 1966 la Noche de los Bastones Largos desalojó a golpes sus facultades; de ella salieron cuatro de los premios Nobel argentinos.",
+      "resumen": "Se inauguró el 12 de agosto de 1821, durante el gobierno de Martín Rodríguez, con Antonio Sáenz como primer rector. La mayor universidad del país, pública y gratuita desde 1949. En 1966 la Noche de los Bastones Largos desalojó a golpes sus facultades; de ella salieron cuatro de los premios Nobel argentinos.",
       "regiones": [
         "rio-de-la-plata"
       ],
@@ -10024,7 +10061,7 @@
       "aprox": false,
       "tipo": "universidad",
       "importancia": 3,
-      "resumen": "Universidad fundada por los jesuitas en 1613, la más antigua del país. En 1918 sus estudiantes iniciaron la Reforma Universitaria, que proclamó la autonomía y el cogobierno y se extendió por América Latina.",
+      "resumen": "Nació del Colegio Máximo de los jesuitas de Córdoba: en 1613 el obispo Trejo comprometió sus bienes para fundarla, y el breve papal de 1621 y la real cédula de 1622 la autorizaron a dar grados. Es la más antigua del país. En 1918 sus estudiantes iniciaron la Reforma Universitaria, que proclamó la autonomía y el cogobierno y se extendió por América Latina.",
       "regiones": [
         "rio-de-la-plata"
       ],

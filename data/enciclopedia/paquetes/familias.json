@@ -1934,6 +1934,157 @@
         "es": "Lenguas hurrito-urartianas",
         "en": "Hurro-Urartian languages"
       }
+    },
+    {
+      "capa": "culturas",
+      "id": "pampeano-patagonica",
+      "nombre": "Pueblos de la pampa y la Patagonia",
+      "padre": "pueblos-originarios",
+      "color": "#a0784a",
+      "nota": "Agrupación geográfica de cazadores nómades, luego ecuestres: tehuelches (aonikenk), gününa küna o puelches, pampas y otros. No es una unidad lingüística.",
+      "wikipedia": {
+        "es": "Tehuelches",
+        "en": "Tehuelche people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mapuche",
+      "nombre": "Mapuche",
+      "padre": "pueblos-originarios",
+      "color": "#8a5a7a",
+      "nota": "Incluye a los grupos de habla mapudungun de las pampas y la Patagonia, como ranqueles, pehuenches y la gente de Salinas Grandes.",
+      "wikipedia": {
+        "es": "Pueblo mapuche",
+        "en": "Mapuche"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "fueguina",
+      "nombre": "Pueblos fueguinos",
+      "padre": "pueblos-originarios",
+      "color": "#5a7a9a",
+      "nota": "Selk'nam, haush, yaganes y kawésqar: dos pueblos cazadores de tierra firme y dos de canoeros.",
+      "wikipedia": {
+        "es": "Fuéguidos",
+        "en": "Fuegians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "chaquena",
+      "nombre": "Pueblos del Gran Chaco",
+      "padre": "pueblos-originarios",
+      "color": "#7a8a3a",
+      "nota": "Pueblos de lenguas guaycurúes (qom, mocovíes, pilagás, abipones), mataco-mataguayas (wichí, chorotes, nivaclés) y otras familias.",
+      "wikipedia": {
+        "es": "Gran Chaco",
+        "en": "Gran Chaco"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "guarani",
+      "nombre": "Guaraní",
+      "padre": "pueblos-originarios",
+      "color": "#4a8a5a",
+      "nota": "Incluye a los chiriguanos o ava guaraní del piedemonte andino.",
+      "wikipedia": {
+        "es": "Guaraníes",
+        "en": "Guaraní people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "afrodescendiente",
+      "nombre": "Afrodescendiente",
+      "padre": null,
+      "color": "#7a4a3a",
+      "nota": "Descendientes de los africanos esclavizados llevados a América.",
+      "wikipedia": {
+        "es": "Afrolatinoamericano",
+        "en": "Afro–Latin Americans"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "italiana",
+      "nombre": "Italiana",
+      "padre": null,
+      "color": "#c25a4a",
+      "nota": "Para las regiones de inmigración italiana masiva, como el Río de la Plata desde 1870.",
+      "wikipedia": {
+        "es": "Inmigración italiana en Argentina",
+        "en": "Italian Argentines"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "chon",
+      "nombre": "Lenguas chon",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#a0784a",
+      "nota": "Tehuelche (aonek'o ajen), gününa yajüch, selk'nam y haush. La relación del gününa yajüch con las demás es discutida.",
+      "wikipedia": {
+        "es": "Lenguas chon",
+        "en": "Chonan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "mapudungun",
+      "nombre": "Mapudungun",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#8a5a7a",
+      "wikipedia": {
+        "es": "Idioma mapuche",
+        "en": "Mapudungun"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "guaycuru",
+      "nombre": "Lenguas guaycurúes",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#7a8a3a",
+      "wikipedia": {
+        "es": "Lenguas guaicurú",
+        "en": "Guaicuruan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "mataguaya",
+      "nombre": "Lenguas mataco-mataguayas",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#9aa04a",
+      "wikipedia": {
+        "es": "Lenguas mataguayas",
+        "en": "Mataguayan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "tupi-guarani",
+      "nombre": "Lenguas tupí-guaraníes",
+      "padre": "lenguas-indigenas-de-america",
+      "color": "#4a8a5a",
+      "wikipedia": {
+        "es": "Lenguas tupí-guaraní",
+        "en": "Tupi–Guarani languages"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-mapuche",
+      "nombre": "Religión mapuche",
+      "padre": "religiones-de-america",
+      "color": "#8a5a7a",
+      "wikipedia": {
+        "es": "Religión mapuche",
+        "en": "Mapuche religion"
+      }
     }
   ]
 }

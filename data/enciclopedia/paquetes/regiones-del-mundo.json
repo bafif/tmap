@@ -13093,6 +13093,155 @@
           "nombre": "Siglo XX",
           "resumen": "Explotación del quebracho, ganadería y colonias menonitas en el Chaco paraguayo."
         }
+      ],
+      "culturas": [
+        {
+          "desde": -10000,
+          "hasta": 1910,
+          "nombre": "Pueblos del Gran Chaco (guaycurúes, mataco-mataguayos y otros)",
+          "familia": "chaquena",
+          "peso": "mayoritaria",
+          "nota": "Hay pocos estudios arqueológicos del Chaco anterior a la conquista; desde el siglo XVII los pueblos del sur adoptaron el caballo."
+        },
+        {
+          "desde": 1450,
+          "hasta": 1900,
+          "nombre": "Chiriguanos (ava guaraní) y chanés del piedemonte",
+          "familia": "guarani",
+          "peso": "importante"
+        },
+        {
+          "desde": 1585,
+          "hasta": 1880,
+          "nombre": "Españoles y criollos de fuertes, reducciones y estancias del borde del Chaco",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 1910,
+          "nombre": "Colonos criollos e inmigrantes",
+          "familia": "criolla",
+          "peso": "importante"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Criolla, con colonos europeos (y menonitas en el Chaco paraguayo desde 1927)",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Pueblos chaqueños (qom, wichí, pilagás, mocovíes, nivaclés y otros)",
+          "familia": "chaquena",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": 2000,
+          "nombre": "Ava guaraní",
+          "familia": "guarani",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -10000,
+          "hasta": 1910,
+          "nombre": "Lenguas guaycurúes (qom, mocoví, pilagá, abipón)",
+          "familia": "guaycuru",
+          "peso": "mayoritaria",
+          "nota": "La distribución de las lenguas antes del siglo XVI no se conoce."
+        },
+        {
+          "desde": -10000,
+          "hasta": 2000,
+          "nombre": "Lenguas mataco-mataguayas (wichí, chorote, nivaclé)",
+          "familia": "mataguaya",
+          "peso": "importante"
+        },
+        {
+          "desde": 1450,
+          "hasta": 2000,
+          "nombre": "Guaraní (ava guaraní; en el Chaco paraguayo, también de los criollos)",
+          "familia": "tupi-guarani",
+          "peso": "importante"
+        },
+        {
+          "desde": 1585,
+          "hasta": 1880,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 1910,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Lenguas guaycurúes",
+          "familia": "guaycuru",
+          "peso": "importante"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -10000,
+          "hasta": 1910,
+          "nombre": "Religiones originarias chaqueñas (chamanismo)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1585,
+          "hasta": 1880,
+          "nombre": "Catolicismo (reducciones jesuíticas y franciscanas)",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 1910,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": 2000,
+          "nombre": "Religiones originarias chaqueñas",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1911,
+          "hasta": 2000,
+          "nombre": "Iglesias anglicanas y evangélicas entre los pueblos indígenas",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "La misión anglicana entre los wichí empezó a comienzos de la década de 1910; desde mediados del siglo XX las iglesias evangélicas se extendieron entre los qom."
+        }
       ]
     },
     {
@@ -13533,7 +13682,7 @@
           -22.2
         ]
       ],
-      "resumen": "Los valles, la puna y las sierras del noroeste argentino y la región de Cuyo: Jujuy, Salta, Tucumán, Catamarca, La Rioja, San Juan, Mendoza y San Luis. Tierra de diaguitas, omaguacas, atacamas y huarpes y de culturas como la Aguada, fue el extremo sur del Tawantinsuyu y el camino colonial entre el Alto Perú y el Río de la Plata.",
+      "resumen": "Los valles, la puna y las sierras del noroeste argentino y la región de Cuyo: Jujuy, Salta, Tucumán, Catamarca, La Rioja, San Juan, Mendoza y San Luis. Tierra de diaguitas, omaguacas, atacamas y huarpes y de culturas como la Aguada, fue el borde sudeste del Tawantinsuyu y el camino colonial entre el Alto Perú y el Río de la Plata.",
       "eras": [
         {
           "desde": null,
@@ -13558,6 +13707,148 @@
           "hasta": null,
           "nombre": "Argentina",
           "resumen": "Frente de la guerra de independencia (Güemes) y, luego, provincias argentinas del azúcar y el vino."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -10000,
+          "hasta": -1000,
+          "nombre": "Cazadores-recolectores de la puna y los valles",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Ocupaciones como las de Inca Cueva, de hace unos 10 000 años; la domesticación de la llama y los primeros cultivos llevaron al pastoreo y la agricultura."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1480,
+          "nombre": "Agricultores y pastores andinos del noroeste (Tafí, Condorhuasi, Ciénaga, La Aguada, Santa María, Belén) y huarpes en Cuyo",
+          "familia": "andina",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1480,
+          "hasta": 1536,
+          "nombre": "Pueblos andinos bajo dominio inca (diaguitas, omaguacas, atacamas, huarpes)",
+          "familia": "andina",
+          "peso": "mayoritaria",
+          "nota": "Las crónicas fechan la conquista inca hacia 1471-1493; los fechados arqueológicos sugieren que empezó algunas décadas antes."
+        },
+        {
+          "desde": 1536,
+          "hasta": 1700,
+          "nombre": "Diaguitas, calchaquíes, omaguacas, atacamas y huarpes, encomendados o en guerra",
+          "familia": "andina",
+          "peso": "mayoritaria",
+          "nota": "Los valles Calchaquíes resistieron hasta 1667; después muchos pueblos fueron deportados a otras ciudades."
+        },
+        {
+          "desde": 1553,
+          "hasta": 1700,
+          "nombre": "Españoles, criollos y mestizos de las ciudades (Tucumán, Mendoza, San Juan, Salta, La Rioja, Jujuy, Catamarca)",
+          "familia": "hispana",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": 2000,
+          "nombre": "Criolla y mestiza",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "Desde 1880, con inmigración española, italiana y sirio-libanesa, sobre todo en Cuyo y Tucumán."
+        },
+        {
+          "desde": 1700,
+          "hasta": 2000,
+          "nombre": "Comunidades andinas (kollas, diaguitas, atacameños, huarpes)",
+          "familia": "andina",
+          "peso": "importante",
+          "nota": "Mayoritarias en la puna y la Quebrada de Humahuaca."
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -10000,
+          "hasta": 1480,
+          "nombre": "Lenguas originarias del noroeste y Cuyo (kakán, kunza, huarpe y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "No hay registro de las lenguas anteriores a la conquista; las que se conocen se anotaron en la colonia."
+        },
+        {
+          "desde": 1480,
+          "hasta": 1700,
+          "nombre": "Kakán, kunza, huarpe y otras lenguas locales",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "El kakán se extinguió hacia fines del siglo XVII sin dejar textos; de las lenguas huarpes quedan las obras de Luis de Valdivia (1607)."
+        },
+        {
+          "desde": 1480,
+          "hasta": 1900,
+          "nombre": "Quechua, lengua general del Tawantinsuyu y de la evangelización",
+          "familia": "andinas",
+          "peso": "importante"
+        },
+        {
+          "desde": 1900,
+          "hasta": 2000,
+          "nombre": "Quechua en la puna jujeña",
+          "familia": "andinas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1553,
+          "hasta": 1700,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "importante"
+        },
+        {
+          "desde": 1700,
+          "hasta": 2000,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -10000,
+          "hasta": -1000,
+          "nombre": "Religiones de los cazadores-recolectores",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Se conocen sólo por el arte rupestre y los entierros."
+        },
+        {
+          "desde": -1000,
+          "hasta": 1650,
+          "nombre": "Religión andina (cerros, huacas y antepasados; culto solar inca desde fines del siglo XV)",
+          "familia": "religion-andina",
+          "peso": "mayoritaria",
+          "nota": "Las ofrendas de capacocha en cumbres como el Llullaillaco muestran la religión de Estado inca."
+        },
+        {
+          "desde": 1553,
+          "hasta": 1650,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante"
+        },
+        {
+          "desde": 1650,
+          "hasta": 2000,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": 2000,
+          "nombre": "Ritos andinos junto al catolicismo (Pachamama, apachetas)",
+          "familia": "religion-andina",
+          "peso": "importante",
+          "nota": "Prácticas sincréticas, fuertes en la puna y los valles."
         }
       ]
     },
@@ -13802,6 +14093,187 @@
           "hasta": null,
           "nombre": "Patagonia argentina",
           "resumen": "Conquista del Desierto, exterminio de los selk'nam, territorios nacionales y luego provincias; petróleo en Comodoro Rivadavia (1907)."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -10000,
+          "hasta": 1880,
+          "nombre": "Cazadores nómades de la Patagonia (antepasados de tehuelches y gününa küna; jinetes desde el siglo XVIII)",
+          "familia": "pampeano-patagonica",
+          "peso": "mayoritaria",
+          "nota": "Ocupaciones desde hace unos 13 000 años en Piedra Museo y Los Toldos."
+        },
+        {
+          "desde": -10000,
+          "hasta": 1920,
+          "nombre": "Pueblos fueguinos (selk'nam, haush, yaganes, kawésqar)",
+          "familia": "fueguina",
+          "peso": "minoritaria",
+          "nota": "Mayoritarios en Tierra del Fuego hasta las matanzas y epidemias de 1880-1920."
+        },
+        {
+          "desde": 1650,
+          "hasta": 1880,
+          "nombre": "Mapuches del norte de la Patagonia (pehuenches, País de las Manzanas)",
+          "familia": "mapuche",
+          "peso": "importante",
+          "nota": "La difusión mapuche hacia el este, llamada araucanización, está documentada; su interpretación se discute."
+        },
+        {
+          "desde": 1779,
+          "hasta": 1880,
+          "nombre": "Criollos de Carmen de Patagones y de los fuertes de la costa",
+          "familia": "criolla",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1865,
+          "hasta": 2000,
+          "nombre": "Galeses del Chubut",
+          "familia": "britona",
+          "peso": "minoritaria",
+          "nota": "Colonia galesa fundada en 1865 en el valle inferior del río Chubut."
+        },
+        {
+          "desde": 1880,
+          "hasta": 2000,
+          "nombre": "Criolla, con inmigrantes chilenos y europeos",
+          "familia": "criolla",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 2000,
+          "nombre": "Comunidades mapuches",
+          "familia": "mapuche",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1880,
+          "hasta": 2000,
+          "nombre": "Comunidades tehuelches",
+          "familia": "pampeano-patagonica",
+          "peso": "minoritaria"
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": -10000,
+          "hasta": 1850,
+          "nombre": "Lenguas chon (tehuelche, gününa yajüch)",
+          "familia": "chon",
+          "peso": "mayoritaria",
+          "nota": "Las lenguas de los primeros pobladores no se conocen; las chon son las registradas desde el siglo XVI."
+        },
+        {
+          "desde": -10000,
+          "hasta": 1950,
+          "nombre": "Yagán y kawésqar (canales fueguinos)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1650,
+          "hasta": 1850,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "importante"
+        },
+        {
+          "desde": 1850,
+          "hasta": 1885,
+          "nombre": "Mapudungun, de uso general en el norte de la Patagonia",
+          "familia": "mapudungun",
+          "peso": "mayoritaria",
+          "nota": "Su difusión entre los pueblos del norte de la Patagonia es parte de la llamada araucanización."
+        },
+        {
+          "desde": 1850,
+          "hasta": 1885,
+          "nombre": "Lenguas chon",
+          "familia": "chon",
+          "peso": "importante"
+        },
+        {
+          "desde": 1885,
+          "hasta": 1950,
+          "nombre": "Tehuelche (en retroceso)",
+          "familia": "chon",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1885,
+          "hasta": 2000,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1779,
+          "hasta": 1885,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1885,
+          "hasta": 2000,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1865,
+          "hasta": 2000,
+          "nombre": "Galés (colonia del Chubut)",
+          "familia": "gales",
+          "peso": "minoritaria"
+        }
+      ],
+      "religiones": [
+        {
+          "desde": -10000,
+          "hasta": 1885,
+          "nombre": "Religiones de los pueblos patagónicos y fueguinos",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Entre ellas, las ceremonias de iniciación de selk'nam (Hain) y yaganes que registró Gusinde."
+        },
+        {
+          "desde": 1650,
+          "hasta": 1885,
+          "nombre": "Religión mapuche (nguillatun, machis)",
+          "familia": "religion-mapuche",
+          "peso": "importante"
+        },
+        {
+          "desde": 1779,
+          "hasta": 1885,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1885,
+          "hasta": 2000,
+          "nombre": "Catolicismo (misiones salesianas desde 1879)",
+          "familia": "catolicismo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": 1865,
+          "hasta": 2000,
+          "nombre": "Protestantismo (galeses del Chubut, misión anglicana de Ushuaia)",
+          "familia": "protestantismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1885,
+          "hasta": 2000,
+          "nombre": "Religión mapuche",
+          "familia": "religion-mapuche",
+          "peso": "minoritaria"
         }
       ]
     },
@@ -14051,7 +14523,7 @@
           -19.6
         ]
       ],
-      "resumen": "La larga franja entre los Andes y el Pacífico, del desierto de Atacama a Tierra del Fuego. Habitada por los chinchorros, atacameños, diaguitas, mapuches y los pueblos de los canales, su norte fue parte del Tawantinsuyu; los mapuches resistieron a la conquista española durante más de tres siglos, y Chile se independizó en 1818.",
+      "resumen": "La larga franja entre los Andes y el Pacífico, del desierto de Atacama a Tierra del Fuego. Habitada por los chinchorros, atacameños, diaguitas, mapuches y los pueblos de los canales, su norte fue parte del Tawantinsuyu; los mapuches frenaron la conquista española en el Biobío y mantuvieron la Araucanía independiente hasta la ocupación chilena de 1861-1883, y Chile se independizó en 1818.",
       "eras": [
         {
           "desde": -7000,
