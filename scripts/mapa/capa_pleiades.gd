@@ -133,10 +133,10 @@ func _draw() -> void:
 
 
 ## El lugar de Pleiades bajo un punto del mapa, o {} si no hay (o la capa no se ve).
-func elemento_en(mundo: Vector2, zoom: float) -> Dictionary:
+func elemento_en(mundo: Vector2, zoom: float, holgura := 1.0) -> Dictionary:
 	if not activa():
 		return {}
-	var i := Pleiades.cercano(mundo, (DIAMETRO * 0.5 + 3.0) / zoom, Estado.anio)
+	var i := Pleiades.cercano(mundo, (DIAMETRO * 0.5 + 3.0) * holgura / zoom, Estado.anio)
 	if i < 0:
 		return {}
 	return {"tipo": "pleiades", "id": str(Pleiades.ids[i]), "texto": Pleiades.nombre(i)}
