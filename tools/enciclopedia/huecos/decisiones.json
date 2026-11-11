@@ -1244,9 +1244,39 @@
     "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas; la arqueología no permite nombrar una religión.",
     "fecha": "2026-11-11"
   },
+  "capa:brasil:culturas:1490:1499": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1500 no hay registro escrito de Brasil; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
+    "fecha": "2026-11-11"
+  },
+  "capa:brasil:idiomas:1490:1499": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1500 no hay registro escrito de Brasil; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
+    "fecha": "2026-11-11"
+  },
+  "capa:brasil:religiones:1490:1499": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1500 no hay registro escrito de Brasil; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
+    "fecha": "2026-11-11"
+  },
   "capa:britania:religiones:-5500:-801": {
     "decision": "sin-datos",
     "motivo": "Prehistoria sin textos: Stonehenge y los túmulos muestran prácticas rituales, pero no qué se creía, y la primera religión documentada (celta) llega con fuentes romanas.",
+    "fecha": "2026-11-11"
+  },
+  "capa:caribe:culturas:1490:1491": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1492 no hay registro escrito del Caribe; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
+    "fecha": "2026-11-11"
+  },
+  "capa:caribe:idiomas:1490:1491": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1492 no hay registro escrito del Caribe; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
+    "fecha": "2026-11-11"
+  },
+  "capa:caribe:religiones:1490:1491": {
+    "decision": "sin-datos",
+    "motivo": "antes de 1492 no hay registro escrito del Caribe; el alcance empieza en 1490 por redondeo y la capa arranca con el primer registro",
     "fecha": "2026-11-11"
   },
   "capa:francia:religiones:-5500:-601": {
