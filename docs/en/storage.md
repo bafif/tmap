@@ -18,7 +18,7 @@ an article's summary when someone opens it. That's why what has to be distribute
 | Curated encyclopedia (entries) | 3.8 MB, 3263 items | 15-150 MB | ~1.5 KB per item: 10,000 items ≈ 15 MB (3 MB compressed) |
 | Per-country series (demographics, economy) | 0.9 MB | 2-5 MB | Our World in Data, one value per year since 1950 and per decade before that |
 | Wikidata people with a date and place (0.4) | — | 60-600 MB | ~1 to 10 million people, ~60 bytes each in binary |
-| Pleiades places (0.4) | — | ~5 MB | ~36,000 ancient places |
+| Pleiades places (0.4) | 1.5 MB, 27,279 places | ~2 MB | Those with a location and dates out of some 42,000; the description is fetched live |
 | HYDE population grids (0.4) | — | 30 MB to 1 GB | At half a degree, ~30 MB compressed; at 5 arcminutes, ~1 GB |
 | Full texts for offline reading | — | whatever each person picks | Optional: downloaded one at a time, on request |
 
@@ -52,9 +52,12 @@ tries the mirror: the manifest carries both addresses for each file.
 
 ### When external sources go down
 
-- **Reading links**: every `leer` gets an `archivo` field with its copy on the Wayback Machine, which the app offers if
-  the original doesn't respond. A tool (`tools/enciclopedia/enlaces.py`, to be written) checks every link and
-  asks the Wayback Machine for a copy when a new one is added; it's run by hand before each release.
+- **Reading links**: the Wayback Machine copy of every `leer` lives in `data/enciclopedia/archivo.json` (url → copy),
+  and the app offers it with a «Copy» button next to the link. In the end it isn't an `archivo` field inside each
+  `leer` (as decided on November 10): kept apart, the tool doesn't rewrite packages edited by hand or with the editor, and it
+  can be run again without clashing with anyone. `tools/enciclopedia/enlaces.py` looks up the copy of new links,
+  with `--guardar` asks the Wayback Machine to archive those without one, and with `--comprobar` lists dead
+  originals; it's run by hand before each release, and `validar.py` warns how many links have no copy.
 - **Wikipedia**: if it doesn't respond, the entry's own content is still there; the Wikipedia summary is cached the first time.
 - **Source data** (Our World in Data, Cliopatria, Natural Earth, HYDE): never queried live. Copied into the
   repo or a release (the licenses allow it: CC BY and public domain) and everything is built from there.
@@ -103,7 +106,7 @@ timeline. The rules:
 | 1 | When the encyclopedia goes past **10 MB** or takes more than 1 s to open | Reading the packages on a separate thread while the loading screen is shown; compact in-memory index |
 | 2 | With 0.4 (Wikidata people, Pleiades) or when it goes past **50 MB** | Tiles, download manager, capped cache, and the Settings section; tiles in GitHub Releases |
 | 3 | With the HYDE grids | Raster tiles per era, mirror on Internet Archive and Zenodo |
-| 4 | Before 1.0 | `archivo` field in reading links and `enlaces.py`; texts for offline reading, one at a time |
+| 4 | Before 1.0 | Copies of reading links and `enlaces.py` (done on November 11, 2026); texts for offline reading, one at a time |
 
 Going by today's measurement (40 to 110 ms per MB on this PC, depending on whether the disk is cached; on an old laptop it could
 be three times that), everything loaded so far, including the contemporary era, fits in layer 1 without changing

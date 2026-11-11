@@ -157,6 +157,21 @@ jobs:
           fi
           exit "$estado"
 
+      # El formato de siempre en Mac: un disco con TellMAP.app y un acceso a Aplicaciones para arrastrarla. Abrirla desde
+      # Aplicaciones, y no desde Descargas, evita la App Translocation (macOS corre las apps en cuarentena desde una
+      # copia de solo lectura). Se arma acá porque hdiutil solo existe en macOS, con la app ya comprobada; si este paso
+      # falla, la versión queda igual con el zip.
+      - name: Armar el .dmg y sumarlo a la versión
+        continue-on-error: true
+        run: |
+          # Del zip de nuevo, tal como se publicó (la carpeta app ya se usó para abrir la app).
+          mkdir disco
+          ditto -x -k "TellMAP-${ETIQUETA}-macos-universal.zip" disco
+          ln -s /Applications disco/Applications
+          hdiutil create -volname TellMAP -srcfolder disco -ov -format UDZO "TellMAP-${ETIQUETA}-macos-universal.dmg"
+          hdiutil verify "TellMAP-${ETIQUETA}-macos-universal.dmg"
+          gh release upload "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-universal.dmg" -R "$GITHUB_REPOSITORY" --clobber
+
       - name: Si algo falló, sacar el zip de la versión
         if: failure()
         run: gh release delete-asset "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-universal.zip" -R "$GITHUB_REPOSITORY" -y

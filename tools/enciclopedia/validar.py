@@ -25,6 +25,9 @@ TIPOS_HECHO = {"politico", "batalla", "fundacion", "religioso", "cultural", "cie
                "tratado", "construccion", "exploracion", "revolucion", "judicial"}
 TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
                "laboratorio", "institucion", "sitio-historico"}
+# Lugares que no existen desde siempre: sin `fundacion` la app los mostraría desde 3400 a. C. Una ciudad o un templo
+# antiguos pueden ir sin fecha; un sitio que importa por un hecho lleva el año desde el que se muestra.
+TIPOS_LUGAR_CON_FECHA = {"biblioteca", "universidad", "laboratorio", "institucion", "sitio-historico"}
 PESOS = {"mayoritaria", "importante", "minoritaria"}
 CAPAS = ("religiones", "culturas", "idiomas")
 
@@ -256,6 +259,9 @@ def main():
         punto(l, d)
         if l.get("tipo") not in TIPOS_LUGAR:
             avisos.append(f"{d}: tipo no previsto {l.get('tipo')!r}")
+        if l.get("tipo") in TIPOS_LUGAR_CON_FECHA and l.get("fundacion") is None:
+            (avisos if arch.startswith("borradores/") else errores).append(
+                f"{d}: {l['tipo']} sin fundacion (aparecería en todas las épocas)")
         for r in l.get("regiones", []):
             if r not in regiones:
                 errores.append(f"{d}: región «{r}» no existe")
@@ -281,6 +287,23 @@ def main():
                 actual = familias[c][actual][1].get("padre")
             if not f.get("wikipedia"):
                 avisos.append(f"{d}: sin artículo de Wikipedia")
+
+    # La unión con Pleiades (tools/pleiades/enlazar.py) nombra lugares por id: si uno cambió, queda vieja.
+    union = RAIZ / "data" / "pleiades" / "enciclopedia.json"
+    if union.exists():
+        for i in json.loads(union.read_text(encoding="utf-8")).get("lugares", {}):
+            if i not in todo["lugares"]:
+                avisos.append(f"data/pleiades/enciclopedia.json: el lugar «{i}» ya no existe "
+                              "(corré python3 tools/pleiades/enlazar.py)")
+
+    # Copias de los enlaces de lectura en la Wayback Machine (tools/enciclopedia/enlaces.py).
+    ruta_copias = RAIZ / "data" / "enciclopedia" / "archivo.json"
+    if ruta_copias.exists():
+        copias = json.loads(ruta_copias.read_text(encoding="utf-8")).get("copias", {})
+        sin = {l["url"] for _, f in todo["fuentes"].values() for l in f.get("leer") or []
+               if "archive.org/" not in l.get("url", "") and l.get("url") not in copias}
+        if sin:
+            avisos.append(f"{len(sin)} enlaces de lectura sin copia archivada (corré python3 tools/enciclopedia/enlaces.py)")
 
     controlar_cobertura()
 

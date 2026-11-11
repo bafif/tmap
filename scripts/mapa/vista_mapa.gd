@@ -13,6 +13,7 @@ var lamina: Sprite2D
 var material_mapa: ShaderMaterial
 var capa_nombres: CapaNombres
 var capa_marcadores: CapaMarcadores
+var capa_pleiades: CapaPleiades
 var camara: Camera2D
 
 var _zoom_objetivo := 1.0
@@ -50,6 +51,8 @@ func _ready() -> void:
 
 	capa_nombres = CapaNombres.new()
 	add_child(capa_nombres)
+	capa_pleiades = CapaPleiades.new()
+	add_child(capa_pleiades)
 	capa_marcadores = CapaMarcadores.new()
 	add_child(capa_marcadores)
 
@@ -222,7 +225,16 @@ func _limitar() -> void:
 
 func _vista_cambio() -> void:
 	capa_nombres.queue_redraw()
+	capa_pleiades.queue_redraw()
 	capa_marcadores.queue_redraw()
+
+
+## El marcador o el lugar de Pleiades bajo un punto del mapa, o {}.
+func elemento_en(mundo: Vector2) -> Dictionary:
+	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	if el.is_empty():
+		el = capa_pleiades.elemento_en(mundo, camara.zoom.x)
+	return el
 
 
 func pantalla_a_mundo(p: Vector2) -> Vector2:
@@ -321,7 +333,7 @@ func _click(pos: Vector2) -> void:
 		Estado.captura_punto = Callable()
 		captura.call(Proyeccion.a_lonlat(mundo))
 		return
-	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	var el := elemento_en(mundo)
 	if not el.is_empty() and el["tipo"] == "grupo":
 		# Un grupo de marcadores: acercarse hasta que se separen.
 		volar_a(el["px"], minf(maxf(camara.zoom.x * 2.5, 1.0), CapaMarcadores.ZOOM_SEPARAR + 0.2))
@@ -341,7 +353,7 @@ func _click(pos: Vector2) -> void:
 
 func _hover(pos: Vector2) -> void:
 	var mundo := pantalla_a_mundo(pos)
-	var el := capa_marcadores.elemento_en(mundo, camara.zoom.x)
+	var el := elemento_en(mundo)
 	var u := DatosMapa.unidad_en(mundo)
 	var v := _valor_de(u)
 	if u != _hover_unidad:

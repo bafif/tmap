@@ -18,7 +18,7 @@ el resumen de un artículo cuando alguien lo abre. Por eso lo que hay que distri
 | Enciclopedia curada (fichas) | 3,8 MB, 3263 elementos | 15-150 MB | ~1,5 KB por elemento: 10 000 elementos ≈ 15 MB (3 MB comprimidos) |
 | Series por país (demografía, economía) | 0,9 MB | 2-5 MB | Our World in Data, un valor por año desde 1950 y por década antes |
 | Personas de Wikidata con fecha y lugar (0.4) | — | 60-600 MB | ~1 a 10 millones de personas, ~60 bytes cada una en binario |
-| Lugares de Pleiades (0.4) | — | ~5 MB | ~36 000 lugares antiguos |
+| Lugares de Pleiades (0.4) | 1,5 MB, 27 279 lugares | ~2 MB | Lo que tiene ubicación y fechas de unos 42 000; la descripción se pide en vivo |
 | Grillas de población de HYDE (0.4) | — | 30 MB a 1 GB | A medio grado, ~30 MB comprimidos; a 5 minutos de arco, ~1 GB |
 | Textos completos para leer sin conexión | — | lo que elija cada uno | Opcional: se bajan de a uno, a pedido |
 
@@ -52,9 +52,12 @@ prueba el espejo: el manifiesto lleva las dos direcciones de cada archivo.
 
 ### Cuando lo de afuera se cae
 
-- **Enlaces de lectura**: cada `leer` suma un campo `archivo` con su copia en la Wayback Machine, que la app ofrece si
-  el original no responde. Una herramienta (`tools/enciclopedia/enlaces.py`, por hacer) comprueba todos los enlaces y
-  pide la copia a la Wayback Machine al cargar uno nuevo; se corre a mano antes de cada versión.
+- **Enlaces de lectura**: la copia de cada `leer` en la Wayback Machine está en `data/enciclopedia/archivo.json`
+  (url → copia), y la app la ofrece con un botón «Copia» al lado del enlace. Al final no va como campo `archivo` dentro
+  de cada `leer` (lo decidido el 10/11): aparte, la herramienta no reescribe los paquetes que se editan a mano o con el
+  editor, y se puede volver a correr sin chocar con nadie. `tools/enciclopedia/enlaces.py` busca la copia de los
+  enlaces nuevos, con `--guardar` pide a la Wayback Machine que archive los que no tienen y con `--comprobar` lista los
+  originales caídos; se corre a mano antes de cada versión, y `validar.py` avisa cuántos enlaces no tienen copia.
 - **Wikipedia**: si no responde, la ficha propia sigue estando; el resumen de Wikipedia queda en caché la primera vez.
 - **Datos de origen** (Our World in Data, Cliopatria, Natural Earth, HYDE): nunca se consultan en vivo. Se copian al
   repo o a una versión (las licencias lo permiten: CC BY y dominio público) y desde ahí se arma todo.
@@ -103,7 +106,7 @@ de tiempo. Las reglas:
 | 1 | Cuando la enciclopedia pase los **10 MB** o tarde más de 1 s en abrir | Lectura de los paquetes en un hilo aparte mientras se ve la pantalla de carga; índice compacto en memoria |
 | 2 | Con la 0.4 (personas de Wikidata, Pleiades) o al pasar los **50 MB** | Teselas, administrador de descargas, caché con tope y la sección de Ajustes; las teselas en las versiones de GitHub |
 | 3 | Con las grillas de HYDE | Teselas raster por época, espejo en Internet Archive y Zenodo |
-| 4 | Antes de la 1.0 | Campo `archivo` en los enlaces de lectura y `enlaces.py`; textos para leer sin conexión, de a uno |
+| 4 | Antes de la 1.0 | Copias de los enlaces de lectura y `enlaces.py` (hechos el 11/11/2026); textos para leer sin conexión, de a uno |
 
 Según la medición de hoy (de 40 a 110 ms por MB en esta PC, según esté el disco en caché; en una notebook vieja puede
 ser el triple), todo lo que se cargó hasta ahora, incluida la época contemporánea, entra en la capa 1 sin cambiar

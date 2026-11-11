@@ -43,6 +43,7 @@ CONSTANTES: dict[str, dict[str, list[str] | list[int] | None]] = {
     "scripts/nucleo/estado.gd": {"MODOS": None},
     "scripts/nucleo/motor.gd": {"OPCIONES": None},
     "scripts/nucleo/enciclopedia.gd": {"NOMBRE_CAPA": None, "NOMBRE_PESO": None},
+    "scripts/nucleo/pleiades.gd": {"NOMBRES_CATEGORIA": None},
     "scripts/interfaz/ajustes.gd": {"DESCRIPCION_CALIDAD": None, "NOMBRES_CALIDAD": None, "CREDITOS": None},
     "scripts/interfaz/bienvenida.gd": {"TEXTO": None, "ATAJOS": [0, 1]},
     "scripts/interfaz/panel_info.gd": {"PESTANAS": None, "NOMBRES_TIPO": None, "NOMBRES_GENERO": None,
@@ -57,7 +58,7 @@ CONSTANTES: dict[str, dict[str, list[str] | list[int] | None]] = {
 # Textos de los datos que se muestran con tr(): archivo → (lista dentro del JSON, campos).
 DATOS = {"data/demografia/paises.json": ("indicadores", ["nombre", "unidad", "descripcion"])}
 # Palabras que no se traducen: un texto hecho solo de ellas (nombres propios, siglas) no necesita tr().
-SIN_TRADUCIR = {"TellMAP", "TELLMAP", "Bautista", "Fiori", "Wikipedia", "Wikidata", "Cliopatria", "GitHub", "Godot",
+SIN_TRADUCIR = {"TellMAP", "TELLMAP", "Bautista", "Fiori", "Wikipedia", "Wikidata", "Pleiades", "Cliopatria", "GitHub", "Godot",
                 "Español", "English", "OK", "OpenGL", "Vulkan", "Metal", "ANGLE", "Direct3D"}
 LLAMADAS = {"tr": 1, "atr": 1, "tr_n": 2, "Idioma.t": 1, "Idioma.tn": 2}
 # Asignaciones y llamadas que ponen texto en la interfaz: si llevan un texto literal, tiene que ir dentro de tr().

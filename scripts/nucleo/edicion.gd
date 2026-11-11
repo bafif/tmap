@@ -14,6 +14,8 @@ const TIPOS_HECHO := ["politico", "batalla", "fundacion", "religioso", "cultural
 	"tratado", "construccion", "exploracion", "revolucion", "judicial"]
 const TIPOS_LUGAR := ["ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
 	"laboratorio", "institucion", "sitio-historico"]
+## Lugares que no existen desde siempre: sin fundación se verían en todas las épocas (lo mismo en validar.py).
+const TIPOS_LUGAR_CON_FECHA := ["biblioteca", "universidad", "laboratorio", "institucion", "sitio-historico"]
 const GENEROS := ["religioso", "historia", "cronica", "literatura", "poesia", "filosofia", "legal", "administrativo",
 	"epistolar", "inscripcion", "geografia", "ciencia", "medicina", "sabiduria", "viajes", "ensayo", "arqueologia",
 	"economia", "politica", "manifiesto", "discurso", "tecnologia", "periodismo"]
@@ -275,6 +277,8 @@ static func validar(seccion: String, item: Dictionary, id_original: String, extr
 			_punto(item, Idioma.t("Lugar"), e)
 			if not item.get("tipo") in TIPOS_LUGAR:
 				a.append(Idioma.t("Tipo no previsto: %s.") % item.get("tipo"))
+			if item.get("tipo") in TIPOS_LUGAR_CON_FECHA and item.get("fundacion") == null:
+				a.append(Idioma.t("Sin fundación: aparece en el mapa en todas las épocas. En un sitio que importa por un hecho, va el año desde el que se muestra."))
 			if not item.get("importancia") in [1, 2, 3, 1.0, 2.0, 3.0]:
 				e.append(Idioma.t("La importancia va de 1 a 3."))
 			_refs(item.get("regiones", []), "regiones", Idioma.t("Región"), extra, e)

@@ -10,6 +10,8 @@ extends Node
 const DIR := "res://data/enciclopedia/paquetes/"
 const RUTA_PENDIENTES := "user://pendientes.json"
 const DIR_TRADUCCIONES := "res://data/enciclopedia/traducciones/"
+## Copias en la Wayback Machine de los enlaces de lectura (url → copia), que arma tools/enciclopedia/enlaces.py.
+const ARCHIVO_COPIAS := "res://data/enciclopedia/archivo.json"
 const SECCIONES := ["regiones", "fuentes", "personas", "hechos", "lugares"]
 
 const CAPAS := ["religiones", "culturas", "idiomas"]
@@ -29,6 +31,8 @@ var lugares := {}
 ## Familias de religión, cultura e idioma por clave «capa:id» (ver la sección `familias` del esquema).
 var familias := {}
 var advertencias: Array = []
+var _copias := {}
+var _copias_leidas := false
 ## De dónde se leen las capas de traducción (la prueba de tools/traduccion la cambia con --traducciones=<carpeta>).
 var dir_traducciones := DIR_TRADUCCIONES
 ## Cuántos textos tradujo la capa en la última carga.
@@ -661,6 +665,18 @@ func buscar(texto: String, max_res := 12) -> Array:
 
 ## Anota en una lista local lo que se consultó y no tiene ficha curada, para saber qué completar primero
 ## (docs/es/enciclopedia.md, paso 1 del llenado progresivo). No sale de la computadora.
+## La copia archivada de un enlace de lectura, o "" si no hay. El archivo se lee la primera vez que se pide.
+func copia_archivada(url: String) -> String:
+	if not _copias_leidas:
+		_copias_leidas = true
+		var ruta := Datos.ruta(ARCHIVO_COPIAS)
+		if FileAccess.file_exists(ruta):
+			var d: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
+			if d is Dictionary and d.get("copias") is Dictionary:
+				_copias = d["copias"]
+	return str(_copias.get(url, ""))
+
+
 func registrar_consulta(unidad: int, anio: int) -> void:
 	var regs := regiones_de_unidad(unidad)
 	var con_ficha := false

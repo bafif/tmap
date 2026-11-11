@@ -13,6 +13,7 @@ const MAX_FILAS := 7
 const CAPAS := [
 	["mostrar_nombres", "Nombres de entidades", "acento"],
 	["mostrar_ciudades", "Ciudades y sitios", "texto"],
+	["mostrar_pleiades", "Lugares antiguos (Pleiades)", "texto_suave"],
 	["mostrar_fuentes", "Fuentes escritas", "primaria"],
 	["mostrar_personas", "Personas", "persona"],
 	["mostrar_hechos", "Hechos", "hecho"],

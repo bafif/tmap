@@ -18,6 +18,7 @@ const CREDITOS := """[b]Datos[/b]
 • Población por país: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder y ONU, World Population Prospects 2024), CC BY 4.0.
 • Relieve: GEBCO 2008 en la versión de la NASA; color del terreno: NASA Blue Marble Next Generation (julio de 2004), dominio público.
 • Textos de la enciclopedia: Wikipedia (CC BY-SA 4.0) y los paquetes propios en data/enciclopedia.
+• Lugares antiguos: [url=https://pleiades.stoa.org]Pleiades[/url] (ISAW, Universidad de Nueva York, y Ancient World Mapping Center), CC BY 3.0.
 [b]Tipografías[/b]
 • Cinzel y EB Garamond, SIL Open Font License."""
 

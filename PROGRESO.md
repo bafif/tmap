@@ -30,11 +30,13 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
       `TellMAP.app` invalidaría su firma: hay que bajar el `.app` entero (un zip), cambiarlo de una vez y reabrir.
 - [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
       abra con doble clic sin pasar por Privacidad y seguridad. Lo decide Bautista.
-- [ ] **Un `.dmg` para macOS** (opcional): el formato de siempre en Mac, para arrastrar la app a Aplicaciones. Abrirla
-      desde ahí evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura), que
-      va a importar el día que la app de macOS se actualice sola. Godot arma el `.dmg` solo en una Mac: lo puede
-      hacer `verificar-macos` con `hdiutil create`. Un instalador `.pkg` no hace falta: la app no instala nada fuera
-      del paquete y sin notarizar Gatekeeper lo frena igual.
+- [ ] **Ver andar el `.dmg` de macOS.** Desde el 11/11/2026, `verificar-macos` arma con `hdiutil` un `.dmg` con
+      `TellMAP.app` y un acceso a Aplicaciones, después de comprobar la app, y lo suma a la versión (si ese paso falla,
+      la versión queda con el zip). Abrirla desde Aplicaciones evita la *App Translocation* (macOS corre las apps en
+      cuarentena desde una copia de solo lectura), que va a importar el día que la app de macOS se actualice sola.
+      Falta verlo en la próxima versión publicada, abrirlo en la MacBook y, si anda, nombrarlo en el README como
+      forma de instalar. Un instalador `.pkg` no hace falta: la app no instala nada fuera del paquete y sin notarizar
+      Gatekeeper lo frena igual.
 
 ### Enciclopedia progresiva (0.3)
 
@@ -61,15 +63,6 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       a mano, y buscar las sentencias de las causas contra el kirchnerismo en una copia oficial que responda.
 - [ ] **Causas judiciales en curso.** Al 10/11/2026: el juicio oral de Cuadernos sigue sin sentencia, y no está claro
       si empezaron los de Hotesur-Los Sauces y el Memorándum con Irán. Revisarlos cada tanto y actualizar sus hechos.
-- [ ] **Lugares modernos sin fecha, que se ven en todas las épocas.** Un lugar sin `fundacion` cuenta desde 3400
-      a. C.: la playa de Omaha y la embajada de Ecuador en Londres aparecen en el mapa de 1350 a. C. Son catorce:
-      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` e `isla-huemul`
-      (argentina-contemporanea), `rosario`, `casa-del-acuerdo`, `barranca-yaco` y `playa-de-la-agraciada`
-      (guerras-civiles-y-organizacion-nacional), `puerto-san-julian` y `loreto-misiones` (rio-de-la-plata-colonial),
-      `embajada-de-ecuador-en-londres`, `playa-de-omaha` y `mont-pelerin`. A los edificios, las ciudades y las misiones
-      les falta el año de fundación o inauguración, con su fuente; para los lugares naturales que importan por un hecho
-      (una isla, una playa, una barranca) habría que decidir desde cuándo mostrarlos (el primer hecho, con `aprox`) o
-      que la app los muestre desde su primer hecho. Los 43 de Tierra Santa, Tebas y Heliópolis sin fecha están bien así.
 - [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector y Galeano. Hawái no tiene región (Pearl Harbor queda fuera de todas).
@@ -105,9 +98,7 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       Sarmiento sobre el Chacho y el año del Instituto Rosas (1938 o 1941). Varias obras académicas todavía no dicen su
       crítica principal con autor. Cuatro fuentes siguen sin lugar de escritura (el Requerimiento, el Demócrates alter,
       la carta de Luis Ramírez y el diario de Luis de la Cruz). El inglés de estos paquetes es traducción automática:
-      conviene revisarlo. Con 4636 elementos, la prueba automática deja unos 5100 avisos «Out of resolver queries»
-      (con los datos anteriores eran 3500): `wiki.gd` pide la imagen de Wikipedia de cada ficha que abre, sin cola, y
-      se agota la de DNS de Godot; conviene encolar esos pedidos.
+      conviene revisarlo.
 - [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
       Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
       hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
@@ -128,14 +119,24 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
 - [ ] **Espejos permanentes** de cada versión de datos en Internet Archive y Zenodo, con las dos direcciones en el
       manifiesto del actualizador.
-- [ ] **Enlaces de lectura que no se pierdan**: campo `archivo` con la copia de la Wayback Machine y
-      `tools/enciclopedia/enlaces.py`, que los comprueba y pide la copia de los nuevos; se corre antes de cada versión.
+- [ ] **Los enlaces de lectura que quedaron sin copia.** 118 de los 739 que no están en archive.org no tienen copia en
+      la Wayback Machine (41 de Gutenberg, 35 de Wikisource): `python3 tools/enciclopedia/enlaces.py --guardar` le
+      pide que los archive, de a uno cada 15 s. El 11/11/2026 web.archive.org dejó de aceptar conexiones desde esta
+      máquina después de unos pedidos en paralelo a su API CDX, así que queda para otra corrida. Tampoco se corrió
+      todavía `--comprobar`, que lista los originales caídos.
 - [ ] **Religión por país hoy** (Pew Research Center, 2010 y 2020) como serie más del bloque «País actual», y con eso
       las capas de religión de las regiones del mundo en la época actual.
 
 ### Datos abiertos a escala (0.4)
 
-- [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
+- [ ] **Pleiades: lo que falta.** 91 de los 438 lugares de la enciclopedia están unidos a uno de Pleiades; el resto
+      no tiene el identificador en Wikidata o es moderno. Cuando se suman lugares antiguos, hay que volver a correr
+      `tools/pleiades/enlazar.py` (`validar.py` avisa si la unión nombra un lugar que ya no existe, pero no si falta
+      uno nuevo). Los datos se leen en el hilo principal la primera vez que hace falta (unos 150 a
+      270 ms al acercarse al mapa o al buscar por primera vez): pasarlos a un hilo con los paquetes, cuando se haga ese
+      paso. Las descripciones de Pleiades están en inglés. Quedan afuera los 8800 lugares sin ubicación, los 1400 sin
+      fechas y los que no son un punto (ríos, montes, islas, regiones, pueblos, rutas): los ríos y las rutas podrían
+      ir como líneas en la 0.5.
 - [ ] **Personas de Wikidata.** Con lugar y fecha de nacimiento y muerte.
 - [ ] **Grillas de población de HYDE.** La serie por país de HYDE ya está (vía Our World in Data, ver **Hecho**).
       Falta la grilla de 5 minutos de arco, con sus escenarios bajo y alto, para sumar la población dentro de cada
@@ -163,6 +164,51 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: enlaces de lectura que no se pierden
+
+- [x] **Copias archivadas de los enlaces de lectura.** `tools/enciclopedia/enlaces.py` busca en la Wayback Machine la
+      copia de cada enlace `leer` y la guarda en `data/enciclopedia/archivo.json`: 621 de los 739 enlaces que no están
+      en archive.org tienen copia. La ficha de una fuente muestra un botón «Copia» al lado de cada uno, por si el
+      original no abre, y `validar.py` avisa cuántos no la tienen. Las copias van aparte y no como campo `archivo` en
+      cada `leer` (lo que decía el plan de almacenamiento): así la herramienta no reescribe los paquetes que se
+      editan a mano o con el editor. Se corre a mano antes de cada versión.
+
+### 11 de noviembre de 2026: los lugares antiguos de Pleiades (0.4)
+
+- [x] **27 279 lugares antiguos de [Pleiades](https://pleiades.stoa.org)** en el mapa (CC BY 3.0): asentamientos,
+      villas, fortificaciones, santuarios, tumbas, puertos, estaciones y puentes, edificios públicos, minas y sitios
+      arqueológicos, cada uno mientras está atestiguado (del 3000 a. C. a hoy, sobre todo del 500 a. C. al 500).
+      `tools/pleiades/pleiades.py` baja el volcado diario y escribe `data/pleiades/lugares.json` (1,5 MB, una fila
+      por lugar). Se leen recién al acercarse al mapa o al buscar. Los puntos son un MultiMesh filtrado por año en un
+      shader (una sola llamada de dibujo para todos) y aparecen desde el zoom 1,3, chicos para no confundirse con las
+      ciudades de la enciclopedia; los nombres de los asentamientos, desde el 4,5, y todos desde el 7. Cada lugar
+      tiene ficha: categoría, años, y en vivo (por la misma cola que Wikipedia) su descripción, sus nombres antiguos
+      en cada lengua y el resumen de Wikipedia si Pleiades lo enlaza. Se buscan desde la barra, hay interruptor en la
+      leyenda y crédito en Ajustes y en [Datos y licencias](docs/es/datos.md). Probado con Vulkan y con OpenGL.
+- [x] **Pleiades y la enciclopedia, unidos.** `tools/pleiades/enlazar.py` busca en Wikidata el identificador de
+      Pleiades (P1584) de cada lugar de la enciclopedia, a partir de su artículo de Wikipedia, y lo acepta si el punto
+      queda a menos de 25 km (`data/pleiades/enciclopedia.json`; los paquetes no se tocan). Quedaron 91 unidos (León
+      con el campamento de la *Legio VII Gemina*, La Meca con *Macoraba*, Medina con *Iathrippa*): su punto de
+      Pleiades ya no se dibuja encima de la ciudad, y la ficha de la ciudad suma los nombres antiguos de Pleiades.
+
+### 11 de noviembre de 2026: lugares con fecha y Wikipedia en cola
+
+- [x] **Los lugares modernos ya no aparecen en todas las épocas.** Un lugar sin `fundacion` se veía desde 3400 a. C.
+      (la playa de Omaha en el mapa de 1350 a. C.). Los catorce que estaban así tienen su año, verificado: los
+      edificios y las instituciones, el de su inauguración (Estación Once, 1857; los tribunales de Comodoro Py, c. 1993,
+      cuando se mudaron los juzgados federales al edificio de Vialidad); los sitios y los lugares naturales, el del
+      hecho que los hace conocidos (Martín García, 1516; Malvinas, 1764, la primera población, porque el primer
+      avistaje está en disputa; la Casa del Acuerdo, 1852; Omaha, 1944); Rosario, c. 1724, y Loreto, c. 1632.
+      `validar.py` exige ahora la fecha en bibliotecas, universidades, laboratorios, instituciones y sitios históricos,
+      el editor de la app lo avisa y el criterio quedó en el esquema. Las ciudades antiguas de origen desconocido
+      (Tierra Santa, Tebas, Heliópolis) siguen sin fecha, a propósito.
+- [x] **Los pedidos a Wikipedia van en cola.** La app pedía el resumen y la imagen de cada ficha que se abría, todos a
+      la vez y aunque la ficha ya se hubiera cerrado, y con muchas seguidas se agotaba la cola de DNS de Godot (la
+      prueba automática dejaba unos 5100 avisos «Out of resolver queries»). Ahora `wiki.gd` hace cuatro pedidos a la
+      vez, atiende primero el de la ficha que se está mirando, descarta los de fichas viejas, comparte el pedido si
+      dos piden lo mismo y no recuerda un fallo de conexión (se vuelve a probar al reabrir la ficha). La prueba
+      completa: 0 avisos.
 
 ### 11 de noviembre de 2026: las versiones exportadas, con sus tipografías
 
