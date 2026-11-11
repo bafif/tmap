@@ -5,7 +5,7 @@
 Cómo se recorre la enciclopedia para que ningún tema quede con huecos en el lugar y la época que ya cubre: si un tema
 tiene a diez de los doce presidentes de su período, le faltan dos; si tiene la mitad de las batallas de una guerra,
 las otras tan conocidas como esas también van; si una región tiene religiones hasta el 400 y desde el 900, falta lo
-del medio. Sirve para personas y para agentes de IA.
+del medio.
 
 ## Qué es un hueco
 
@@ -69,27 +69,31 @@ si ese eje no es del tema.
 
 ## Una ronda
 
-Se trabaja por rondas lanzadas a mano, nunca de forma desatendida. Cada ronda ataca uno o varios paquetes enteros, no
-huecos sueltos de todos lados, para que cada tema quede cerrado.
+Se trabaja por rondas, siempre a mano. Cada ronda toma uno o varios paquetes enteros, no huecos sueltos de todos
+lados, para que cada tema quede cerrado.
 
 1. **Detectar.** `huecos.py informe --red [--paquete P]…` cuenta los huecos por paquete y detector, y
-   `huecos.py lotes <carpeta> --red [--paquete P]…` escribe un `.md` y un `.json` por paquete. Si un paquete nuevo no
-   tiene alcance fijado, `huecos.py alcances --fijar` lo infiere: se revisan los años y las regiones contra la
-   descripción del paquete y se corrigen a mano antes de seguir.
+   `huecos.py lotes <carpeta> --red [--paquete P]…` escribe un `.md` y un `.json` por paquete, con las series, los
+   conjuntos, los autores y los ejes agrupados y la clave de cada grupo a la vista. Si un paquete nuevo no tiene
+   alcance fijado, `huecos.py alcances --fijar` lo infiere: los años y las regiones se revisan contra la descripción
+   del paquete y se corrigen a mano antes de seguir.
 2. **Lo mecánico.** `huecos.py arreglar --escribir` (el `autor_id` cuyo nombre coincide exacto con una sola persona, y
    las obras de cada autor) y `python3 tools/enciclopedia/validar.py`.
-3. **Triar.** Quien coordina lee los lotes y descarta en bloque lo que no es del tema: una serie de cargos que tmap
-   tiene por otro motivo (tres generales que están por la Segunda Guerra Mundial no hacen de la jefatura del Estado
-   Mayor un tema), un candidato que cae en las regiones y los años pero no en el tema. Es el paso más barato y el que
-   más ahorra: un descarte es una línea; una ficha mal elegida es un escritor, un revisor y una traducción.
-4. **Rellenar.** Un escritor por lote; un lote de más de unos 60 huecos se parte por detector o por época. Escribe en
-   el [formato compacto](../../tools/enciclopedia/compacto/FORMATO.md#rellenar-huecos-de-un-paquete-que-ya-existe) un
-   tema `huecos-<paquete>` en una carpeta de trabajo fuera del repo, los cambios a fichas que ya existen en
-   `parches.json` y lo que decide no rellenar en `decisiones.json`, y construye con `construir.py <carpeta> --tema
-   huecos-<paquete>` hasta que el informe quede limpio. Ver [el encargo del escritor](#encargo-del-escritor).
-5. **Revisar.** Un revisor adversarial por lote, que no es el que escribió: ver
-   [el encargo del revisor](#encargo-del-revisor). El escritor, o quien coordina, aplica las correcciones y vuelve a
-   construir.
+3. **Triar.** Antes de escribir se descarta en bloque lo que no es del tema: una serie de cargos que tmap tiene por
+   otro motivo (tres generales que están por la Segunda Guerra Mundial no hacen de la jefatura del Estado Mayor un
+   tema), un candidato que cae en las regiones y los años pero no en el tema. Un descarte es una línea; una ficha mal
+   elegida es una ficha que escribir, revisar y traducir.
+4. **Rellenar.** Un lote por paquete (uno de más de unos 60 huecos se parte por detector o por época). Cada hueco
+   termina de una de tres formas: rellenado, con su ficha en el
+   [formato compacto](../../tools/enciclopedia/compacto/FORMATO.md#rellenar-huecos-de-un-paquete-que-ya-existe)
+   dentro de un tema `huecos-<paquete>`, en una carpeta de trabajo fuera del repo; arreglado en una ficha que ya
+   existe, con una entrada en `parches.json`; o no rellenado, con una entrada en `decisiones.json` (`descartado` si no
+   es del tema, `sin-datos` si no se puede verificar, y el motivo en una oración). Se construye con `construir.py
+   <carpeta> --tema huecos-<paquete>` hasta que el informe quede limpio o con avisos explicados.
+5. **Revisar.** Alguien que no escribió el lote lo revisa contra la lista de huecos y contra las fuentes: errores de
+   hecho (fechas, lugares, cargos, autorías, cifras), sesgo de cualquier lado, huecos mal cerrados (descartes que sí
+   eran del tema, `sin-datos` que se podían verificar, fichas que no siguen el molde de sus vecinos) y enlaces de
+   lectura que no son legales o no llevan al texto que dicen. Las correcciones se aplican y se vuelve a construir.
 6. **Aplicar.** `huecos.py aplicar <carpeta>/huecos-<paquete> <paquete> --escribir` y
    `huecos.py decidir --archivo <carpeta>/huecos-<paquete>/decisiones.json`; después `validar.py` y `cobertura.py`.
    Si dos lotes crearon el mismo id, `aplicar` no escribe nada: el segundo usa el id del primero y se reconstruye.
@@ -97,29 +101,28 @@ huecos sueltos de todos lados, para que cada tema quede cerrado.
    que aparezca (el eslabón siguiente de una cadena recién completada, otra batalla de la guerra que se sumó) es la
    ronda siguiente.
 
-Se para cuando no queda nada de prioridad alta ni media en los paquetes elegidos, cuando una ronda cierra menos de la
-mitad de lo que atacó (algo anda mal: se mira antes de seguir), cuando se llega al presupuesto de la tarea o a las tres
-rondas. Nunca queda una búsqueda abierta sin tope.
+Se para cuando no queda nada de prioridad alta ni media en los paquetes elegidos, o cuando una ronda cierra menos de la
+mitad de lo que atacó: en ese caso algo anda mal (un alcance demasiado ancho, un detector que trae ruido) y conviene
+mirarlo antes de seguir.
 
-Al final de la tarea, no de cada ronda:
+Al terminar:
 
-- **Inglés.** `python3 tools/traduccion/enciclopedia.py estado`, `extraer <carpeta>` en lotes, cada lote traducido
-  por un modelo chico, y `aplicar <respuestas>`; después `python3 tools/traduccion/probar.py`.
+- **Inglés.** `python3 tools/traduccion/enciclopedia.py estado`, `extraer <carpeta>`, la traducción de cada lote y
+  `aplicar <respuestas>`; después `python3 tools/traduccion/probar.py`.
 - **Lugares y enlaces.** Si se sumaron lugares antiguos, `python3 tools/pleiades/enlazar.py` los une con Pleiades;
   los enlaces de lectura nuevos reciben su copia en la Wayback Machine con `python3 tools/enciclopedia/enlaces.py`.
 - **Probar.** `validar.py`, `cobertura.py --comprobar`, `tools/godot/tmap.py prueba` y `prueba --idioma en`, y
   `tmap.py registros --errores`.
-- **Anotar.** En PROGRESO.md y PROGRESO.en.md, lo hecho con la fecha; en «Por hacer», lo que quedó `sin-datos` y vale
-  la pena volver a buscar, y lo de fuera del alcance que apareció.
+- **Anotar.** En PROGRESO.md y PROGRESO.en.md, lo hecho; en «Por hacer», lo que quedó `sin-datos` y vale la pena
+  volver a buscar, y lo de fuera del alcance que apareció.
 
 ## Criterio
 
-- **Wikidata propone, no decide.** Un candidato es una pista: entra si es del tema y se puede verificar (en noviembre
-  de 2026, Wikidata daba a Alexandra Kolontái muerta en Bahía Blanca, y por eso aparecía entre los candidatos de la
-  Argentina de 1862 a 1912). Cada dato se confirma con `tools/enciclopedia/compacto/consultar.py resumen <título>` y
-  el artículo; `construir.py` además compara las fechas con Wikidata y avisa si no coinciden. Si Wikidata, Wikipedia
-  y la bibliografía no coinciden, manda la fuente primaria o la bibliografía especializada, no la versión que más se
-  repite.
+- **Wikidata propone, no decide.** Un candidato es una pista: entra si es del tema y se puede verificar, porque
+  Wikidata también se equivoca (un lugar de muerte errado alcanza para meter a alguien en la región de otro tema). Cada
+  dato se confirma con `tools/enciclopedia/compacto/consultar.py resumen <título>` y el artículo; `construir.py` además
+  compara las fechas con Wikidata y avisa si no coinciden. Si Wikidata, Wikipedia y la bibliografía no coinciden,
+  manda la fuente primaria o la bibliografía especializada, no la versión que más se repite.
 - **Documentos primero.** En los hechos disputados se dice primero lo que muestran los documentos y después,
   atribuido, quién lo interpreta cómo. Sin propaganda de ningún lado y sin tomar una historia oficial como verdad.
   Wikipedia se lee con mirada crítica, y lo que ya está en tmap tampoco es verdad por estar: si al rellenar aparece un
@@ -130,61 +133,3 @@ Al final de la tarea, no de cada ronda:
   presidente que falta lleva el suyo; si las batallas de la guerra citan el parte de batalla, la que falta también.
 - **Lo de yapa.** Lo que aparece al investigar y cae dentro del alcance entra; lo que cae afuera se anota en «Por
   hacer», no se pierde.
-
-## Encargo del escritor
-
-Quien coordina completa lo que va entre llaves.
-
-> Rellenás los huecos de «{paquete}» en la enciclopedia de TellMAP ({repo}). La lista está en {lote}.md: cada hueco
-> tiene su clave, su QID de Wikidata cuando lo hay y la razón por la que se lo considera hueco.
->
-> Antes de escribir, leé `tools/enciclopedia/compacto/FORMATO.md` (cómo se escribe; sobre todo «Rellenar huecos de un
-> paquete que ya existe»), `data/enciclopedia/ESQUEMA.md` (qué significa cada campo) y la sección «Criterio» de
-> `docs/es/huecos.md`. Mirá cómo el paquete trata a los vecinos de cada hueco (el JSON en `data/enciclopedia/paquetes/`)
-> y seguí el mismo molde. Verificá cada dato con `python3 tools/enciclopedia/compacto/consultar.py`.
->
-> Trabajás solo en {carpeta}/huecos-{paquete}/, con `paquete: huecos-{paquete}` en meta.txt. Cada hueco termina de una
-> de tres formas:
->
-> 1. rellenado: su ficha en el formato compacto (personas.txt, hechos.txt, fuentes*.txt, lugares.txt, leer.txt,
->    familias.txt), usando los ids que ya existen cuando corresponda, sin redefinir ninguno;
-> 2. arreglado en una ficha que ya existe: una entrada en parches.json (eras y capas de una región, las fuentes de un
->    hecho, un enlace de lectura, un dato corregido);
-> 3. no rellenado: una entrada en decisiones.json, `descartado` (no es del tema) o `sin-datos` (no se puede
->    verificar), con el motivo en una oración.
->
-> Ninguno queda sin respuesta. Construí con `python3 tools/enciclopedia/compacto/construir.py {carpeta} --tema
-> huecos-{paquete}` hasta que informe.txt quede limpio o con avisos explicados. Nunca uses `--escribir` ni toques
-> `data/`: lo aplica quien coordina.
->
-> Al terminar, devolvé cuántos rellenaste, arreglaste y descartaste, los avisos que quedaron y por qué, y lo que
-> encontraste fuera del alcance que valga la pena anotar.
-
-## Encargo del revisor
-
-> Revisás, sin haberlo escrito, lo que se va a sumar a «{paquete}» en la enciclopedia de TellMAP ({repo}): lo que hay
-> en {carpeta}/huecos-{paquete}/ (salida.json, parches.json, decisiones.json), contra el lote {lote}.md y la sección
-> «Criterio» de `docs/es/huecos.md`. Buscá:
->
-> - errores de hecho: fechas, lugares, cargos, autorías, cifras; confirmalos con
->   `python3 tools/enciclopedia/compacto/consultar.py resumen <título>` y, si hace falta, con la fuente primaria;
-> - sesgo de cualquier lado: adjetivos de opinión, una interpretación presentada como hecho, una sola versión de algo
->   disputado, propaganda o una historia oficial tomada como verdad;
-> - huecos mal cerrados: descartes que sí eran del tema, `sin-datos` que se podían verificar, fichas que no siguen el
->   molde de sus vecinos;
-> - enlaces de lectura que no son legales o no llevan al texto que dicen.
->
-> No reescribas: devolvé una lista de correcciones concretas (id, campo, qué dice, qué tiene que decir y con qué
-> fuente), de la más grave a la menos, o «sin observaciones».
-
-## Costo
-
-- Los detectores no gastan nada más que tiempo de red, y el triaje de quien coordina es barato. Lo caro son el
-  escritor y el revisor, y por eso conviene descartar antes de escribir.
-- Para escribir alcanza un modelo intermedio, porque `construir.py` verifica títulos, QID, fechas y enlaces. Para
-  revisar, el más capaz en los temas disputados (política, religión, guerras recientes) y el intermedio en los demás.
-  Para traducir, el más chico.
-- Los lotes van en paralelo, de a cuatro o cinco. Si dos lotes pueden necesitar la misma persona u obra, se reparte
-  de antemano quién la define.
-- Antes de la primera ronda se mira el presupuesto disponible; después de la primera se mide cuánto costó y con eso se
-  decide cuántas más entran.
