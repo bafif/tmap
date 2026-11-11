@@ -1761,7 +1761,7 @@
       "titulo": "Contra Apión",
       "titulo_original": null,
       "autor": "Flavio Josefo",
-      "autor_id": null,
+      "autor_id": "josefo",
       "tipo": "secundaria",
       "genero": "historia",
       "escrita": {
@@ -2669,7 +2669,8 @@
       ],
       "resumen": "Escritor griego de Queronea, autor de las Vidas paralelas y de los Moralia, entre ellos Sobre Isis y Osiris.",
       "obras": [
-        "sobre-isis-y-osiris"
+        "sobre-isis-y-osiris",
+        "vidas-paralelas"
       ],
       "wikipedia": {
         "es": "Plutarco",
