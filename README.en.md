@@ -72,6 +72,7 @@ F1 opens the help with every shortcut. On a touchscreen, one finger moves the ma
 
 ## Status
 
+- **Released version:** 0.3.5. Touch support and the Pleiades places are already in the code and ship with the next one.
 - **Linux:** tested with Vulkan and with OpenGL; the automatic test runs on every change.
 - **macOS:** tested on an Intel Mac. On Apple Silicon, continuous integration opens it and checks that it draws, but
   it hasn't been tried on a real one yet.

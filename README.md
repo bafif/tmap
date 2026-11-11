@@ -71,6 +71,7 @@ F1 abre la ayuda con todos los atajos. Con una pantalla táctil, un dedo mueve e
 
 ## Estado
 
+- **Versión publicada:** la 0.3.5. Lo táctil y los lugares de Pleiades ya están en el código y llegan con la próxima.
 - **Linux:** probada con Vulkan y con OpenGL; la prueba automática corre con cada cambio.
 - **macOS:** probada en una Mac con Intel. En Apple Silicon, la integración continua la abre y comprueba que dibuje,
   pero todavía no se probó en una de verdad.
