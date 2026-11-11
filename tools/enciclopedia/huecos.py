@@ -1185,6 +1185,8 @@ def orden_decidir() -> int:
     decisiones = leer_json(DECISIONES, {})
     if arg_de("--archivo"):
         nuevas = json.loads(Path(arg_de("--archivo")).read_text(encoding="utf-8"))
+        if isinstance(nuevas, dict):  # también {clave: {"decision", "motivo"}}, la forma de decisiones.json
+            nuevas = [dict(v, clave=k) for k, v in nuevas.items()]
     elif len(sys.argv) >= 5:
         nuevas = [{"clave": sys.argv[2], "decision": sys.argv[3], "motivo": " ".join(sys.argv[4:])}]
     else:
