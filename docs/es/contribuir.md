@@ -2,8 +2,8 @@
 
 [English](../en/contributing.md)
 
-Guía corta para quien colabore con el código, sea una persona o un agente de IA. Qué es el proyecto y cómo está hecho:
-[el README](../../README.md) y [el plan](plan.md). Formato de la enciclopedia: [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md).
+Guía corta para colaborar con el código. Qué es el proyecto y cómo está hecho: [el README](../../README.md) y
+[el plan](plan.md). Formato de la enciclopedia: [ESQUEMA.md](../../data/enciclopedia/ESQUEMA.md).
 
 ## Convenciones
 
@@ -61,12 +61,15 @@ Guía corta para quien colabore con el código, sea una persona o un agente de I
   falta su par o si un enlace relativo apunta a un archivo que no existe. Si se cambia uno, se cambia el otro en el
   mismo commit.
 
-## Bitácora
+## Progreso
 
-- Al terminar algo, se marca en [PROGRESO.md](../../PROGRESO.md): pasa a «Hecho» con la fecha. Lo nuevo que aparezca
-  se suma a «Por hacer», en su bloque y en el orden de prioridad.
+- Lo que queda pendiente va en «Por hacer» de [PROGRESO.md](../../PROGRESO.md), en su bloque y en orden de
+  prioridad, con un título en negrita: `tools/github/organizar.py` crea un issue por cada uno y lo reconoce por ese
+  título, así que no se cambia.
+- Lo terminado sale de «Por hacer». Si es un hito, va a «Hecho», en la versión que lo trae (o en «La enciclopedia» si
+  es contenido): qué se decidió y por qué, en una o dos frases, en presente y sin fecha ni relato de cómo se hizo.
 
 ## Git
 
-- Se trabaja en una rama; el merge y el push los hace Bautista.
+- Los cambios se proponen con un pull request, con [su plantilla](../../.github/pull_request_template.md).
 - Las capturas para revisar van a una carpeta temporal, no al repo. Las del README van en `docs/assets/`.
