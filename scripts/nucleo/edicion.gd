@@ -30,6 +30,8 @@ const CLAVES_DECIMALES := ["lon", "lat"]
 
 ## Lo que se edita en una versión exportada: copias de los paquetes, con las mismas rutas que en data/enciclopedia/.
 const DIR_LOCAL := "user://enciclopedia/"
+## La base de cada copia local: lo que había debajo cuando se guardó por primera vez (ver tapadas).
+const DIR_BASE := "user://enciclopedia_base/"
 const DIR_ENCICLOPEDIA := "res://data/enciclopedia/"
 ## Si se guarda en DIR_LOCAL en vez de en el proyecto: cuando la app no corre desde la carpeta del código fuente.
 static var guardar_local := not FileAccess.file_exists(ProjectSettings.globalize_path("res://project.godot"))
@@ -87,11 +89,15 @@ static func leer(ruta: String) -> Dictionary:
 
 
 static func escribir(ruta: String, datos: Dictionary) -> String:
+	var original := ruta
 	ruta = destino(ruta)
 	var texto := a_json(datos)
 	ultima_escritura = ruta
 	if Estado.sin_escribir:
 		return ""
+	if ruta != original and not FileAccess.file_exists(ruta):
+		# La primera copia local de un paquete: se guarda lo que había debajo, para saber después si llegó algo nuevo.
+		_copiar(Datos.ruta(original), base_de(ruta))
 	DirAccess.make_dir_recursive_absolute(ruta.get_base_dir())
 	var f := FileAccess.open(ruta, FileAccess.WRITE)
 	if f == null:
@@ -530,3 +536,161 @@ static func borrador_de_prueba() -> Dictionary:
 		"lugares": [{"id": "prueba-roma", "nombre": "Roma (prueba)", "lon": 12.483, "lat": 41.893, "fundacion": -753,
 			"abandono": null, "aprox": true, "tipo": "capital", "importancia": 3, "resumen": "Prueba.", "regiones": ["prueba-imperio"]}],
 	}
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Copias locales tapadas por lo nuevo
+#
+# En una versión exportada, lo editado queda en una copia del paquete (DIR_LOCAL) que tapa al de adentro y también al
+# de una actualización de datos. Al guardar la copia por primera vez se guarda al lado su base (lo que había debajo),
+# y así se sabe si después llegó algo nuevo y qué cambió cada lado.
+
+
+## La base de una copia local: lo que había debajo cuando se guardó por primera vez.
+static func base_de(local: String) -> String:
+	return DIR_BASE + local.trim_prefix(DIR_LOCAL)
+
+
+static func _copiar(desde: String, hacia: String) -> bool:
+	if not FileAccess.file_exists(desde):
+		return false
+	DirAccess.make_dir_recursive_absolute(hacia.get_base_dir())
+	var f := FileAccess.open(hacia, FileAccess.WRITE)
+	if f == null:
+		return false
+	f.store_buffer(FileAccess.get_file_as_bytes(desde))
+	f.close()
+	return true
+
+
+## Las copias locales de paquetes cuyo paquete cambió debajo (por una actualización de datos o una versión nueva de la
+## app): [{"ruta": el paquete (res://…), "local": la copia, "base": su base}]. A una copia sin base (guardada antes
+## de que existieran) le pone como base lo que hay debajo ahora: desde ahí se avisa lo que llegue.
+static func tapadas() -> Array:
+	var out: Array = []
+	if not guardar_local:
+		return out
+	var dir := DIR_LOCAL + dir_paquetes.trim_prefix(DIR_ENCICLOPEDIA)
+	if not DirAccess.dir_exists_absolute(dir):
+		return out
+	for f in DirAccess.get_files_at(dir):
+		if not f.ends_with(".json"):
+			continue
+		var local := dir + f
+		var ruta := dir_paquetes + f
+		var debajo := Datos.ruta(ruta)
+		var base := base_de(local)
+		if not FileAccess.file_exists(base):
+			_copiar(debajo, base)
+		elif FileAccess.get_sha256(base) != (FileAccess.get_sha256(debajo) if FileAccess.file_exists(debajo) else ""):
+			out.append({"ruta": ruta, "local": local, "base": base})
+	return out
+
+
+## Mezcla de tres vías, elemento por elemento (por id; en familias, por capa e id). De cada elemento queda lo nuevo si
+## la copia no lo tocó, y la versión de la copia si lo cambió o lo agregó; si además cambió en lo nuevo, es un
+## conflicto y queda la de la copia. Lo que la copia borró sigue borrado y lo que lo nuevo borró se va, salvo que la
+## copia lo haya cambiado. El orden es el de lo nuevo, con lo agregado en la copia al final de su sección. Devuelve
+## {"datos": la mezcla, "conflictos": ["sección/id", …]}.
+static func mezclar(base: Dictionary, local: Dictionary, nuevo: Dictionary) -> Dictionary:
+	var out := nuevo.duplicate(true)
+	var conflictos: Array = []
+	var claves: Array = nuevo.keys()
+	for k in local.keys():
+		if not k in claves:
+			claves.append(k)
+	for k in claves:
+		var b: Variant = base.get(k)
+		var l: Variant = local.get(k)
+		var n: Variant = nuevo.get(k)
+		if _seccion_con_ids(b) and _seccion_con_ids(l) and _seccion_con_ids(n):
+			out[k] = _mezclar_seccion(str(k), b if b is Array else [], l if l is Array else [], n if n is Array else [], conflictos)
+		elif a_json({"x": l}) != a_json({"x": b}):
+			# Otro dato del paquete que la copia cambió: queda el de la copia.
+			if a_json({"x": n}) != a_json({"x": b}) and a_json({"x": n}) != a_json({"x": l}):
+				conflictos.append(str(k))
+			if local.has(k):
+				out[k] = l
+			else:
+				out.erase(k)
+	return {"datos": out, "conflictos": conflictos}
+
+
+static func _seccion_con_ids(v: Variant) -> bool:
+	return v == null or (v is Array and (v as Array).all(func(e): return e is Dictionary and e.has("id")))
+
+
+static func _clave_elemento(e: Dictionary) -> String:
+	return "%s:%s" % [e["capa"], e["id"]] if e.has("capa") else str(e["id"])
+
+
+static func _mezclar_seccion(nombre: String, base: Array, local: Array, nuevo: Array, conflictos: Array) -> Array:
+	var b := {}
+	var l := {}
+	var n := {}
+	for e in base:
+		b[_clave_elemento(e)] = e
+	for e in local:
+		l[_clave_elemento(e)] = e
+	for e in nuevo:
+		n[_clave_elemento(e)] = e
+	var out: Array = []
+	for e in nuevo:
+		var id := _clave_elemento(e)
+		if not l.has(id):
+			if not b.has(id):
+				out.append(e)  # nuevo de lo nuevo; si estaba en la base, la copia lo borró
+			continue
+		var cambio_local := not b.has(id) or a_json(l[id]) != a_json(b[id])
+		if not cambio_local:
+			out.append(e)
+			continue
+		out.append(l[id])
+		if not b.has(id) or a_json(e) != a_json(b[id]):
+			if a_json(e) != a_json(l[id]):
+				conflictos.append("%s/%s" % [nombre, id])
+	for e in local:
+		var id := _clave_elemento(e)
+		if n.has(id):
+			continue
+		if not b.has(id):
+			out.append(e)  # agregado en la copia
+		elif a_json(e) != a_json(b[id]):
+			out.append(e)  # lo nuevo lo borró, pero la copia lo había cambiado
+			conflictos.append("%s/%s" % [nombre, id])
+	return out
+
+
+## Le pasa lo nuevo a una copia tapada (ver mezclar) y lo nuevo pasa a ser su base. {"conflictos": […]} o {"error": …}.
+static func pasar_lo_nuevo(t: Dictionary) -> Dictionary:
+	var debajo := Datos.ruta(str(t["ruta"]))
+	var base := _leer_json(str(t["base"]))
+	var local := _leer_json(str(t["local"]))
+	var nuevo := _leer_json(debajo)
+	if local.is_empty() or nuevo.is_empty():
+		return {"error": Idioma.t("No se pudo leer %s.") % str(t["ruta"]).get_file()}
+	var m := mezclar(base, local, nuevo)
+	var err := escribir(str(t["ruta"]), m["datos"])
+	if err != "":
+		return {"error": err}
+	if not Estado.sin_escribir:
+		_copiar(debajo, str(t["base"]))
+	return {"conflictos": m["conflictos"]}
+
+
+## Borra una copia tapada y su base: se ve lo nuevo tal como llegó.
+static func descartar_copia(t: Dictionary) -> Dictionary:
+	ultima_escritura = str(t["local"])
+	if Estado.sin_escribir:
+		return {}
+	for r in [str(t["local"]), str(t["base"])]:
+		if FileAccess.file_exists(r):
+			DirAccess.remove_absolute(ProjectSettings.globalize_path(r))
+	return {}
+
+
+static func _leer_json(ruta: String) -> Dictionary:
+	if not FileAccess.file_exists(ruta):
+		return {}
+	var d: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
+	return d if d is Dictionary else {}

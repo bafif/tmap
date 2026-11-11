@@ -40,7 +40,12 @@ send anything about the user: it's a request to GitHub, like opening the project
   mixed. `datos/activo.json` says which one is in effect; it's replaced in one go once the install finishes, so if
   something gets interrupted the previous one stays in effect. `Datos.ruta()` (`scripts/nucleo/datos.gd`) translates
   each `res://data/` path. Whatever is edited with the encyclopedia editor in the exported version still goes to
-  `enciclopedia/` and overrides both. The English translation of the encyclopedia (`enciclopedia/traducciones/en/`)
+  `enciclopedia/` and overrides both. That's why, when the first copy of a package is saved, its base (what was
+  underneath) is saved next to it, in `enciclopedia_base/`: if a data update or a new app later brings another
+  version of that package, on startup (or when the install finishes) a notice says so and offers to bring what's new
+  into the copy (a three-way merge per item: what the copy changed stays and the rest comes from the new version; if
+  an item changed on both sides, the copy's wins and the notice says so) or to discard it (`Edicion.tapadas()` and
+  `AvisoCopias`). The English translation of the encyclopedia (`enciclopedia/traducciones/en/`)
   is part of the `enciclopedia` group: a new or corrected translation arrives like any other data update.
 - **Compatibility**: a data version states the minimum app version it needs (`app_minima`, the latest one published
   when it was built). An older app won't install it: the app has to be updated first. And downloaded data only counts

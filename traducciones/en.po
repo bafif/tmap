@@ -245,6 +245,46 @@ msgstr "Not now"
 msgid "Cerrar el aviso"
 msgstr "Close this notice"
 
+#: scripts/interfaz/aviso_copias.gd
+msgid "Tenés cambios tuyos en %s y llegó una versión nueva de ese paquete: hoy se ve tu copia, sin lo nuevo."
+msgid_plural "Tenés cambios tuyos en %s y llegaron versiones nuevas de esos paquetes: hoy se ven tus copias, sin lo nuevo."
+msgstr[0] "You have your own changes in %s and a new version of that package arrived: your copy is shown, without what's new."
+msgstr[1] "You have your own changes in %s and new versions of those packages arrived: your copies are shown, without what's new."
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Pasarle lo nuevo"
+msgstr "Bring in what's new"
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Lo nuevo de cada paquete, con tus cambios encima"
+msgstr "What's new in each package, with your changes on top"
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Descartar mis cambios"
+msgstr "Discard my changes"
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Borra tus copias y se ve lo nuevo tal como llegó"
+msgstr "Deletes your copies and shows what's new as it arrived"
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Ahora no: se vuelve a preguntar la próxima vez"
+msgstr "Not now: you'll be asked again next time"
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Listo: se ve lo nuevo y tus cambios se descartaron."
+msgstr "Done: what's new is shown and your changes were discarded."
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Listo: tus cambios quedaron encima de lo nuevo."
+msgstr "Done: your changes are now on top of what's new."
+
+#: scripts/interfaz/aviso_copias.gd
+msgid "Listo: tus cambios quedaron encima de lo nuevo. %d elemento cambió en los dos lados y quedó tu versión: %s."
+msgid_plural "Listo: tus cambios quedaron encima de lo nuevo. %d elementos cambiaron en los dos lados y quedó tu versión: %s."
+msgstr[0] "Done: your changes are now on top of what's new. %d item changed on both sides and your version was kept: %s."
+msgstr[1] "Done: your changes are now on top of what's new. %d items changed on both sides and your version was kept: %s."
+
 #: scripts/interfaz/aviso_graficos.gd
 msgid "Se ve bien"
 msgstr "It looks fine"

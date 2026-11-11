@@ -35,9 +35,6 @@ Block finished on November 6, 2026 (see **Done**).
       macOS app updates itself. Godot builds the `.dmg` only on a Mac: `verificar-macos` can do it with
       `hdiutil create`. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without
       notarization Gatekeeper blocks it anyway.
-- [ ] **Warn when a data update is hidden by local edits.** In the exported version, a package edited with the
-      encyclopedia editor stays in a local copy that overrides the built-in one and also the one from a data update.
-      This needs a warning on install, offering to discard the copy or carry the new content over to it.
 
 ### Progressive encyclopedia (0.3)
 
@@ -145,6 +142,20 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: local edits no longer silently hide what's new
+
+- [x] **Notice when local edits hide a new version of a package.** In the exported version, what the encyclopedia
+      editor saves is a copy of the package that overrides the bundled one and the one from data updates. Now, when
+      the first copy is saved, its base (what was underneath) is saved next to it; if a data update or a new app later
+      brings another version of that package, on startup (or when the install finishes) a notice says so and offers
+      "Bring in what's new" or "Discard my changes"; the cross leaves it for next time.
+- [x] **Bringing in what's new is a three-way merge per item**: for each source, person, event, place or region, what
+      the copy changed stays and the rest comes from the new version, in its order; what the copy added goes at the
+      end and what the copy deleted stays deleted. If an item changed on both sides the copy's wins, and the notice
+      says which ones. Copies saved before this take what is underneath now as their base.
+- [x] The automatic test checks the merge and, in exported mode, the base, the detection, bringing in what's new and
+      discarding.
 
 ### November 11, 2026: religions, cultures, languages and population in the editor
 

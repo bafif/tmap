@@ -39,7 +39,12 @@ página del proyecto.
   mezclan dos versiones. `datos/activo.json` dice cuál vale; se reemplaza de una vez al terminar de instalar, así que
   si algo se corta sigue valiendo lo anterior. `Datos.ruta()` (`scripts/nucleo/datos.gd`) traduce cada ruta de
   `res://data/`. Lo que se edita con el editor de la enciclopedia en la versión exportada sigue yendo a
-  `enciclopedia/` y tapa a los dos. La traducción al inglés de la enciclopedia (`enciclopedia/traducciones/en/`) es
+  `enciclopedia/` y tapa a los dos. Por eso, al guardar la primera copia de un paquete se guarda al lado su base (lo
+  que había debajo, en `enciclopedia_base/`): si después una actualización de datos o una app nueva traen otra
+  versión de ese paquete, al abrir (o al terminar de instalar) un cartel lo avisa y ofrece pasarle lo nuevo a la
+  copia (una mezcla de tres vías por elemento: queda lo que cambió la copia y lo demás sale de lo nuevo; si un
+  elemento cambió en los dos lados, queda el de la copia y el cartel lo dice) o descartarla (`Edicion.tapadas()` y
+  `AvisoCopias`). La traducción al inglés de la enciclopedia (`enciclopedia/traducciones/en/`) es
   parte del grupo `enciclopedia`: una traducción nueva o corregida llega como cualquier otra actualización de datos.
 - **Compatibilidad**: una versión de datos dice qué versión de la app necesita como mínimo (`app_minima`, la última
   publicada cuando se armó). Una app más vieja no la instala: primero se actualiza la app. Y los datos bajados solo

@@ -183,6 +183,52 @@ func correr(interfaz: Interfaz) -> String:
 	Edicion.guardar_local = local_antes
 	Enciclopedia.cargar()
 
+	# 6b. Si llega una versión nueva de un paquete que tiene copia local, se avisa y se le puede pasar lo nuevo: de cada
+	# elemento queda lo que cambió la copia y lo demás sale de lo nuevo.
+	var base_p := {"paquete": "p", "hechos": [{"id": "a", "x": 1}, {"id": "b", "x": 1}, {"id": "c", "x": 1}, {"id": "d", "x": 1}]}
+	var copia_p := {"paquete": "p", "hechos": [{"id": "a", "x": 2}, {"id": "b", "x": 1}, {"id": "c", "x": 5}, {"id": "e", "x": 1}]}
+	var nuevo_p := {"paquete": "p2", "hechos": [{"id": "f", "x": 1}, {"id": "a", "x": 1}, {"id": "b", "x": 3}, {"id": "c", "x": 4},
+		{"id": "d", "x": 1}]}
+	var mezcla := Edicion.mezclar(base_p, copia_p, nuevo_p)
+	var quedan: Array = mezcla["datos"]["hechos"].map(func(e): return "%s%d" % [e["id"], e["x"]])
+	if quedan != ["f1", "a2", "b3", "c5", "e1"] or mezcla["conflictos"] != ["hechos/c"] or mezcla["datos"]["paquete"] != "p2":
+		_falla("la mezcla de una copia local con lo nuevo dio %s, conflictos %s" % [quedan, mezcla["conflictos"]])
+	Edicion.guardar_local = true
+	var base_l := Edicion.base_de(local)
+	var guardadas := {}
+	for r in [local, base_l]:
+		if FileAccess.file_exists(r):
+			guardadas[r] = FileAccess.get_file_as_string(r)
+			DirAccess.remove_absolute(ProjectSettings.globalize_path(r))
+	err = Edicion.guardar(archivo, "hechos", cambio, cambio["id"])
+	var con_base := FileAccess.file_exists(base_l) and FileAccess.get_sha256(base_l) == FileAccess.get_sha256(Datos.ruta(archivo))
+	var sin_aviso := Edicion.tapadas().filter(func(t): return t["local"] == local).is_empty()
+	# Una versión nueva del paquete se simula con una base distinta de lo que hay debajo.
+	var debajo := Edicion._leer_json(Datos.ruta(archivo))
+	var otro: Dictionary = debajo["hechos"][1 if str(debajo["hechos"][0]["id"]) == id else 0]
+	otro["resumen"] = "Versión vieja de la prueba."
+	var f_base := FileAccess.open(base_l, FileAccess.WRITE)
+	f_base.store_string(Edicion.a_json(debajo))
+	f_base.close()
+	var tapada := Edicion.tapadas().filter(func(t): return t["local"] == local)
+	var r_pasar: Dictionary = Edicion.pasar_lo_nuevo(tapada[0]) if tapada.size() == 1 else {"error": "no la detectó"}
+	var tras: Array = Edicion._leer_json(local).get("hechos", [])
+	var queda_cambio: bool = not tras.is_empty() and tras[Edicion.indice(tras, id)].get("resumen") == cambio["resumen"]
+	if err != "" or not con_base or not sin_aviso or r_pasar.has("error") or not queda_cambio \
+			or FileAccess.get_sha256(base_l) != FileAccess.get_sha256(Datos.ruta(archivo)) \
+			or not Edicion.tapadas().filter(func(t): return t["local"] == local).is_empty():
+		_falla("la copia local tapada no se detectó o no se le pasó lo nuevo (base %s, sin aviso %s, %s, cambio %s)"
+			% [con_base, sin_aviso, r_pasar, queda_cambio])
+	Edicion.descartar_copia({"local": local, "base": base_l})
+	if FileAccess.file_exists(local) or FileAccess.file_exists(base_l):
+		_falla("descartar la copia local no la borró con su base")
+	for r in guardadas:
+		var f_r := FileAccess.open(r, FileAccess.WRITE)
+		f_r.store_string(guardadas[r])
+		f_r.close()
+	Edicion.guardar_local = local_antes
+	Enciclopedia.cargar()
+
 	# 7. Con «Elegir en el mapa», el clic pone las coordenadas y no selecciona.
 	var recibido: Array = []
 	Estado.seleccionar_lugar(0, Vector2.ZERO)

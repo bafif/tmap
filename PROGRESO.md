@@ -35,9 +35,6 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
       va a importar el día que la app de macOS se actualice sola. Godot arma el `.dmg` solo en una Mac: lo puede
       hacer `verificar-macos` con `hdiutil create`. Un instalador `.pkg` no hace falta: la app no instala nada fuera
       del paquete y sin notarizar Gatekeeper lo frena igual.
-- [ ] **Aviso cuando una actualización de datos queda tapada por lo editado.** En la versión exportada, un paquete
-      editado con el editor de la enciclopedia queda en una copia local que tapa al de adentro y también al de una
-      actualización de datos. Hay que avisarlo al instalar y ofrecer descartar la copia o pasarle lo nuevo.
 
 ### Enciclopedia progresiva (0.3)
 
@@ -144,6 +141,20 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: lo editado ya no tapa en silencio a lo nuevo
+
+- [x] **Aviso cuando lo editado tapa una versión nueva de un paquete.** En la versión exportada, lo que guarda el
+      editor de la enciclopedia es una copia del paquete que tapa al de adentro y al de las actualizaciones de datos.
+      Ahora, al guardar la primera copia, se guarda al lado su base (lo que había debajo); si después una
+      actualización de datos o una app nueva traen otra versión de ese paquete, al abrir (o al terminar de instalar)
+      un cartel lo avisa y ofrece «Pasarle lo nuevo» o «Descartar mis cambios»; la cruz lo deja para la próxima vez.
+- [x] **Pasarle lo nuevo es una mezcla de tres vías por elemento**: de cada fuente, persona, hecho, lugar o región
+      queda lo que cambió la copia y lo demás sale de lo nuevo, con su orden; lo agregado en la copia va al final y lo
+      que la copia borró sigue borrado. Si un elemento cambió en los dos lados queda el de la copia, y el cartel dice
+      cuáles fueron. Las copias guardadas antes de esto toman como base lo que hay ahora debajo.
+- [x] La prueba automática comprueba la mezcla y, en modo exportado, la base, la detección, el pase de lo nuevo y el
+      descarte.
 
 ### 11 de noviembre de 2026: religiones, culturas, idiomas y población en el editor
 
