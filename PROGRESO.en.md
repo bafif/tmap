@@ -58,7 +58,7 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       Argentine presidential elections of 1963, 2007, 2011 and 2015, the councils of Lyon I and Vienne, battles of wars
       the topic already covers battle by battle (Piribebuy, Fulford, Sluys, Moscow, Bagration), works by authors who
       have an entry (*The German Ideology*, *Dubliners*, *The Castle*) and events and people from each topic's place
-      and period. They are filled in rounds, one or a few packages at a time, with the `huecos` skill or by hand. There
+      and period. They are filled in rounds, one or a few packages at a time, as the procedure describes. There
       are 1950 more at low priority, mostly maintenance: 575 events without sources and 706 sources without a reading
       link.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** The seven packages from November 10,

@@ -59,7 +59,7 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       elecciones presidenciales argentinas de 1963, 2007, 2011 y 2015, los concilios de Lyon I y Vienne, batallas de
       guerras que el tema ya trata batalla por batalla (Piribebuy, Fulford, Sluys, Moscú, Bagration), obras de autores
       con ficha (*La ideología alemana*, *Dublineses*, *El castillo*) y hechos y personas del lugar y la época de cada
-      tema. Se rellenan por rondas, de a uno o varios paquetes, con la skill `huecos` o a mano. Con prioridad baja hay
+      tema. Se rellenan por rondas, de a uno o varios paquetes, como dice el procedimiento. Con prioridad baja hay
       1950 más, casi todos de mantenimiento: 575 hechos sin fuentes y 706 fuentes sin enlace de lectura.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Los siete paquetes del 10/11/2026
       cubren las ideas, la ciencia, las guerras y la Argentina; faltan la historia política del siglo XX de Brasil,
