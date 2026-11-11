@@ -35,8 +35,8 @@ and [the plan](plan.md). Encyclopedia format: [ESQUEMA.en.md](../../data/enciclo
 - Bridge details: [tools/godot/README.en.md](../../tools/godot/README.en.md).
 - If you touch anything about how things are drawn: `tools/captura.sh x.png --comprobar_dibujo` (exits with 1 if the
   screenshot came out nearly flat), and the same with OpenGL, which is the macOS renderer:
-  `GODOT_ARGS="--rendering-method gl_compatibility" tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen in Settings is stored in `user://motor.cfg`
-  (`scripts/nucleo/motor.gd`).
+  `GODOT_ARGS="--rendering-method gl_compatibility" tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen
+  in Settings is stored in `user://motor.cfg` (`scripts/nucleo/motor.gd`).
 - If you touch the updater (`scripts/nucleo/actualizador.gd`, `datos.gd`) or how data is read:
   `python3 tools/actualizacion/probar.py`, and with an exported executable, `--ejecutable <path>`
   ([updates](updates.md)). Everything that reads `data/` goes through `Datos.ruta()`.
