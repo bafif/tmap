@@ -124,7 +124,14 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 ### Datos abiertos a escala (0.4)
 
-- [ ] **Lugares de Pleiades.** Los lugares antiguos de [Pleiades](https://pleiades.stoa.org).
+- [ ] **Pleiades y la enciclopedia, unidos.** Hoy Roma o Atenas aparecen dos veces: como ciudad de la enciclopedia y
+      como punto de Pleiades. Un campo `pleiades` en los lugares de la enciclopedia (con su id, que muchos tienen en
+      Wikidata como P1584) dejaría esconder el punto repetido y sumar a la ficha los nombres antiguos de Pleiades.
+- [ ] **Pleiades: lo que falta.** Los datos se leen en el hilo principal la primera vez que hace falta (unos 150 a
+      270 ms al acercarse al mapa o al buscar por primera vez): pasarlos a un hilo con los paquetes, cuando se haga ese
+      paso. Las descripciones de Pleiades están en inglés. Quedan afuera los 8800 lugares sin ubicación, los 1400 sin
+      fechas y los que no son un punto (ríos, montes, islas, regiones, pueblos, rutas): los ríos y las rutas podrían
+      ir como líneas en la 0.5.
 - [ ] **Personas de Wikidata.** Con lugar y fecha de nacimiento y muerte.
 - [ ] **Grillas de población de HYDE.** La serie por país de HYDE ya está (vía Our World in Data, ver **Hecho**).
       Falta la grilla de 5 minutos de arco, con sus escenarios bajo y alto, para sumar la población dentro de cada
@@ -152,6 +159,19 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: los lugares antiguos de Pleiades (0.4)
+
+- [x] **27 279 lugares antiguos de [Pleiades](https://pleiades.stoa.org)** en el mapa (CC BY 3.0): asentamientos,
+      villas, fortificaciones, santuarios, tumbas, puertos, estaciones y puentes, edificios públicos, minas y sitios
+      arqueológicos, cada uno mientras está atestiguado (del 3000 a. C. a hoy, sobre todo del 500 a. C. al 500).
+      `tools/pleiades/pleiades.py` baja el volcado diario y escribe `data/pleiades/lugares.json` (1,5 MB, una fila
+      por lugar). Se leen recién al acercarse al mapa o al buscar. Los puntos son un MultiMesh filtrado por año en un
+      shader (una sola llamada de dibujo para todos) y aparecen desde el zoom 1,3, chicos para no confundirse con las
+      ciudades de la enciclopedia; los nombres de los asentamientos, desde el 4,5, y todos desde el 7. Cada lugar
+      tiene ficha: categoría, años, y en vivo (por la misma cola que Wikipedia) su descripción, sus nombres antiguos
+      en cada lengua y el resumen de Wikipedia si Pleiades lo enlaza. Se buscan desde la barra, hay interruptor en la
+      leyenda y crédito en Ajustes y en [Datos y licencias](docs/es/datos.md). Probado con Vulkan y con OpenGL.
 
 ### 11 de noviembre de 2026: lugares con fecha y Wikipedia en cola
 

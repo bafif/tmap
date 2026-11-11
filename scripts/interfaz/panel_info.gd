@@ -5,7 +5,7 @@ extends PanelContainer
 const ANCHO := 470.0
 ## Los textos de las constantes están en español y se traducen con tr() al mostrarlos.
 const PESTANAS := ["Resumen", "Historia", "Fuentes", "Gente y hechos", "Datos"]
-const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política", "familia": "Familia"}
+const NOMBRES_TIPO := {"fuente": "Fuente", "persona": "Persona", "hecho": "Hecho", "lugar": "Lugar", "region": "Región", "entidad": "Entidad política", "familia": "Familia", "pleiades": "Lugar antiguo"}
 ## Cómo se muestran los valores cerrados del esquema (data/enciclopedia/ESQUEMA.md).
 const NOMBRES_GENERO := {"religioso": "religioso", "historia": "historia", "cronica": "crónica", "literatura": "literatura",
 	"poesia": "poesía", "filosofia": "filosofía", "legal": "legal", "administrativo": "administrativo", "epistolar": "epistolar",
@@ -509,6 +509,9 @@ func _construir_ficha(tipo: String, id: Variant) -> void:
 	if tipo == "entidad":
 		_ficha_entidad(int(id))
 		return
+	if tipo == "pleiades":
+		_ficha_pleiades(int(id))
+		return
 	var el := Enciclopedia.elemento(tipo, str(id))
 	if el.is_empty():
 		_titulo.text = tr("No encontrado")
@@ -646,6 +649,79 @@ func _ficha_lugar(l: Dictionary) -> void:
 			Estado.seleccionar_lugar(u, l["_px"]))
 	_contenido.add_child(ir)
 	_bloque_wikipedia(l.get("wikipedia", {}))
+
+
+## Un lugar de Pleiades: lo que hay en los datos (nombre, categoría, años) y, en vivo, su descripción, sus nombres
+## antiguos y el resumen de Wikipedia si Pleiades lo enlaza.
+func _ficha_pleiades(id: int) -> void:
+	var i := Pleiades.indice(id)
+	if i < 0:
+		_titulo.text = tr("No encontrado")
+		_subtitulo.text = "Pleiades %d" % id
+		return
+	_franja.color = Pleiades.color_categoria(i)
+	_titulo.text = Pleiades.nombre(i)
+	var hasta := tr("hoy") if Pleiades.hasta[i] >= Estado.ANIO_MAX else Fechas.texto(Pleiades.hasta[i])
+	_subtitulo.text = "%s · %s – %s" % [_mayus(Pleiades.nombre_categoria(i)), Fechas.texto(Pleiades.desde[i]), hasta]
+	_nota(tr("Lugar antiguo del atlas Pleiades. Los años son los de los períodos en que está atestiguado, no los de su fundación o su abandono."))
+	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
+	ir.pressed.connect(func():
+		Estado.fijar_anio(clampi(Estado.anio, Pleiades.desde[i], Pleiades.hasta[i]))
+		Estado.enfocar(Pleiades.px[i], maxf(CapaPleiades.ZOOM_NOMBRES, 4.5)))
+	_contenido.add_child(ir)
+	var token := _token
+	_seccion("Pleiades")
+	var caja := VBoxContainer.new()
+	caja.add_theme_constant_override("separation", 6)
+	_contenido.add_child(caja)
+	var cargando := Label.new()
+	cargando.theme_type_variation = "Suave"
+	cargando.text = tr("Buscando la ficha…")
+	caja.add_child(cargando)
+	var d := await Wiki.pleiades(id)
+	if token != _token or not is_instance_valid(caja):
+		return
+	cargando.queue_free()
+	var credito := tr("De «[url=%s]%s[/url]», Pleiades (CC BY 3.0).") % [Pleiades.url(id), Pleiades.nombre(i)]
+	var gris := TemaUI.color("texto_suave").to_html(false)
+	if d.is_empty():
+		var l := Label.new()
+		l.theme_type_variation = "Suave"
+		l.text = tr("No se pudo traer la ficha (¿sin conexión?).")
+		caja.add_child(l)
+		var enlace := RichTextLabel.new()
+		enlace.bbcode_enabled = true
+		enlace.fit_content = true
+		enlace.text = "[color=#%s][font_size=14]%s[/font_size][/color]" % [gris, credito]
+		enlace.meta_clicked.connect(_al_click_meta)
+		caja.add_child(enlace)
+		return
+	var partes: Array = []
+	if str(d.get("descripcion", "")) != "":
+		partes.append(str(d["descripcion"]) + (" " + tr("(en inglés)") if not Idioma.ingles() else ""))
+	var nombres: Array = []
+	for n in d.get("nombres", []):
+		var texto := str(n["nombre"]) if str(n["nombre"]) != "" else str(n["transliterado"])
+		if str(n["transliterado"]) != "" and str(n["transliterado"]) != texto:
+			texto += " (%s)" % str(n["transliterado"]).get_slice(",", 0).strip_edges()
+		if str(n["idioma"]) != "":
+			texto += " [color=#%s]%s[/color]" % [gris, n["idioma"]]
+		if not nombres.has(texto):
+			nombres.append(texto)
+	if not nombres.is_empty():
+		partes.append("[b]%s[/b] %s" % [tr("Nombres:"), ", ".join(nombres.slice(0, 12))])
+	partes.append("[color=#%s][font_size=14]%s[/font_size][/color]" % [gris, credito])
+	var texto_ficha := RichTextLabel.new()
+	texto_ficha.bbcode_enabled = true
+	texto_ficha.fit_content = true
+	texto_ficha.scroll_active = false
+	texto_ficha.selection_enabled = true
+	texto_ficha.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	texto_ficha.text = "\n\n".join(partes)
+	texto_ficha.meta_clicked.connect(_al_click_meta)
+	caja.add_child(texto_ficha)
+	if str(d.get("wikipedia", "")) != "":
+		_bloque_wikipedia({"en": str(d["wikipedia"])})
 
 
 func _ficha_region(r: Dictionary) -> void:

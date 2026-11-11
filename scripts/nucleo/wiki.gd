@@ -86,6 +86,45 @@ func _resumen_en(idioma: String, titulo: String) -> Dictionary:
 	return out
 
 
+## La ficha de un lugar de Pleiades (https://pleiades.stoa.org/places/<id>/json), reducida a lo que muestra la app:
+## {descripcion, nombres: [{nombre, transliterado, idioma}], wikipedia: título en inglés o ""}, o {} si no se pudo.
+## Se guarda en la misma caché que los resúmenes de Wikipedia.
+func pleiades(id: int) -> Dictionary:
+	var clave := "pleiades:%d" % id
+	if _memoria.has(clave):
+		return _memoria[clave]
+	var ruta := DIR_CACHE + "pleiades_%d.json" % id
+	if FileAccess.file_exists(ruta) and Time.get_unix_time_from_system() - FileAccess.get_modified_time(ruta) < DIAS_CACHE * 86400:
+		var guardado: Variant = JSON.parse_string(FileAccess.get_file_as_string(ruta))
+		if guardado is Dictionary:
+			_memoria[clave] = guardado
+			return guardado
+	var p := await _bajar(Pleiades.url(id) + "/json")
+	if p.descartado:
+		return {}
+	var out := {}
+	var datos: Variant = JSON.parse_string(p.cuerpo.get_string_from_utf8()) if not p.cuerpo.is_empty() else null
+	if datos is Dictionary:
+		var nombres: Array = []
+		for n in datos.get("names", []):
+			if n is Dictionary and str(n.get("attested", "")) + str(n.get("romanized", "")) != "":
+				nombres.append({"nombre": str(n.get("attested", "")), "transliterado": str(n.get("romanized", "")),
+					"idioma": str(n.get("language", ""))})
+		var wiki := ""
+		for r in datos.get("references", []):
+			var u := str(r.get("accessURI", "")) if r is Dictionary else ""
+			if u.begins_with("https://en.wikipedia.org/wiki/"):
+				wiki = u.trim_prefix("https://en.wikipedia.org/wiki/").uri_decode().replace("_", " ")
+				break
+		out = {"descripcion": str(datos.get("description", "")), "nombres": nombres, "wikipedia": wiki}
+		var f := FileAccess.open(ruta, FileAccess.WRITE)
+		if f:
+			f.store_string(JSON.stringify(out))
+	if p.codigo != 0:
+		_memoria[clave] = out
+	return out
+
+
 ## Baja una imagen (miniatura de Wikipedia) y la devuelve como textura, o null.
 func imagen(url: String) -> Texture2D:
 	if url.is_empty():

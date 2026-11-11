@@ -125,7 +125,14 @@ Each step is done when its threshold is crossed, not before.
 
 ### Open data at scale (0.4)
 
-- [ ] **Pleiades places.** The ancient places from [Pleiades](https://pleiades.stoa.org).
+- [ ] **Pleiades and the encyclopedia, joined.** Today Rome or Athens show up twice: as an encyclopedia city and as a
+      Pleiades dot. A `pleiades` field in the encyclopedia's places (with its id, which many have in Wikidata as P1584)
+      would let us hide the duplicate dot and add Pleiades' ancient names to the entry.
+- [ ] **Pleiades: what's left.** The data is read on the main thread the first time it's needed (some 150 to 270 ms
+      when zooming into the map or searching for the first time): move it to a thread along with the packages, when
+      that step is done. Pleiades' descriptions are in English. Left out are the 8,800 places without a location, the
+      1,400 without dates and those that aren't a point (rivers, mountains, islands, regions, peoples, roads): rivers
+      and roads could go in as lines in 0.5.
 - [ ] **People from Wikidata.** With place and date of birth and death.
 - [ ] **HYDE population grids.** HYDE's per-country series is already in (via Our World in Data, see **Done**). The
       5-arc-minute grid is still missing, with its low and high scenarios, to sum the population inside each polygon,
@@ -153,6 +160,19 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: the ancient places of Pleiades (0.4)
+
+- [x] **27,279 ancient places from [Pleiades](https://pleiades.stoa.org)** on the map (CC BY 3.0): settlements,
+      villas, fortifications, sanctuaries, tombs, ports, road stations and bridges, public buildings, mines and
+      archaeological sites, each one while it is attested (from 3000 BC to today, mostly from 500 BC to AD 500).
+      `tools/pleiades/pleiades.py` downloads the daily dump and writes `data/pleiades/lugares.json` (1.5 MB, one row per
+      place). It's only read when zooming into the map or searching. The dots are a MultiMesh filtered by year in a
+      shader (a single draw call for all of them) and show up from zoom 1.3, small so they aren't mistaken for the
+      encyclopedia's cities; settlement names from 4.5, and all names from 7. Each place has an entry: category,
+      years, and live (through the same queue as Wikipedia) its description, its ancient names in each language and
+      the Wikipedia summary if Pleiades links one. They can be searched from the bar, there's a switch in the legend
+      and credit in Settings and in [Data and licenses](docs/en/data.md). Tested with Vulkan and with OpenGL.
 
 ### November 11, 2026: places with dates and Wikipedia in a queue
 

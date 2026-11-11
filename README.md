@@ -158,4 +158,4 @@ código, escribime.
 El código es [AGPL-3.0-or-later](LICENSE): podés usarlo, modificarlo y compartirlo; si ofrecés una versión modificada
 por red, tenés que ofrecer también su código. Los datos conservan sus licencias, que están detalladas en
 [Datos y licencias](docs/es/datos.md): Cliopatria (CC BY 4.0), Natural Earth y NASA (dominio público), Wikipedia
-(CC BY-SA 4.0), la población de Our World in Data (CC BY 4.0), y las tipografías Cinzel y EB Garamond (SIL Open Font License).
+(CC BY-SA 4.0), la población de Our World in Data (CC BY 4.0), los lugares antiguos de Pleiades (CC BY 3.0), y las tipografías Cinzel y EB Garamond (SIL Open Font License).

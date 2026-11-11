@@ -40,8 +40,8 @@ msgid "Bordes más suaves y agua animada (redibuja siempre)."
 msgstr "Smoother borders and animated water (redraws constantly)."
 
 #: scripts/interfaz/ajustes.gd
-msgid "[b]Datos[/b]\n• Fronteras políticas: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Costas, lagos, ríos y países actuales: [url=https://www.naturalearthdata.com]Natural Earth[/url], dominio público.\n• Población por país: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder y ONU, World Population Prospects 2024), CC BY 4.0.\n• Relieve: GEBCO 2008 en la versión de la NASA; color del terreno: NASA Blue Marble Next Generation (julio de 2004), dominio público.\n• Textos de la enciclopedia: Wikipedia (CC BY-SA 4.0) y los paquetes propios en data/enciclopedia.\n[b]Tipografías[/b]\n• Cinzel y EB Garamond, SIL Open Font License."
-msgstr "[b]Data[/b]\n• Political borders: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Coastlines, lakes, rivers and present-day countries: [url=https://www.naturalearthdata.com]Natural Earth[/url], public domain.\n• Population by country: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder and the UN's World Population Prospects 2024), CC BY 4.0.\n• Relief: GEBCO 2008 in NASA's version; terrain color: NASA Blue Marble Next Generation (July 2004), public domain.\n• Encyclopedia texts: Wikipedia (CC BY-SA 4.0) and TellMAP's own packages in data/enciclopedia.\n[b]Typefaces[/b]\n• Cinzel and EB Garamond, SIL Open Font License."
+msgid "[b]Datos[/b]\n• Fronteras políticas: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Costas, lagos, ríos y países actuales: [url=https://www.naturalearthdata.com]Natural Earth[/url], dominio público.\n• Población por país: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder y ONU, World Population Prospects 2024), CC BY 4.0.\n• Relieve: GEBCO 2008 en la versión de la NASA; color del terreno: NASA Blue Marble Next Generation (julio de 2004), dominio público.\n• Textos de la enciclopedia: Wikipedia (CC BY-SA 4.0) y los paquetes propios en data/enciclopedia.\n• Lugares antiguos: [url=https://pleiades.stoa.org]Pleiades[/url] (ISAW, Universidad de Nueva York, y Ancient World Mapping Center), CC BY 3.0.\n[b]Tipografías[/b]\n• Cinzel y EB Garamond, SIL Open Font License."
+msgstr "[b]Data[/b]\n• Political borders: [url=https://github.com/Seshat-Global-History-Databank/cliopatria]Cliopatria[/url], Seshat Global History Databank, CC BY 4.0.\n• Coastlines, lakes, rivers and present-day countries: [url=https://www.naturalearthdata.com]Natural Earth[/url], public domain.\n• Population by country: [url=https://ourworldindata.org/population-sources]Our World in Data[/url] (HYDE 3.3, Gapminder and the UN's World Population Prospects 2024), CC BY 4.0.\n• Relief: GEBCO 2008 in NASA's version; terrain color: NASA Blue Marble Next Generation (July 2004), public domain.\n• Encyclopedia texts: Wikipedia (CC BY-SA 4.0) and TellMAP's own packages in data/enciclopedia.\n• Ancient places: [url=https://pleiades.stoa.org]Pleiades[/url] (ISAW, New York University, and the Ancient World Mapping Center), CC BY 3.0.\n[b]Typefaces[/b]\n• Cinzel and EB Garamond, SIL Open Font License."
 
 #: scripts/interfaz/ajustes.gd
 msgid "Ajustes"
@@ -320,6 +320,10 @@ msgstr "Settings: quality, 2D/3D view, language, interface theme"
 #: scripts/interfaz/barra_superior.gd scripts/interfaz/panel_info.gd
 msgid "Entidad política"
 msgstr "Political entity"
+
+#: scripts/interfaz/barra_superior.gd scripts/interfaz/panel_info.gd
+msgid "Lugar antiguo"
+msgstr "Ancient place"
 
 #: scripts/interfaz/barra_superior.gd
 msgid "Sin resultados"
@@ -1186,6 +1190,10 @@ msgid "Ciudades y sitios"
 msgstr "Cities and sites"
 
 #: scripts/interfaz/leyenda.gd
+msgid "Lugares antiguos (Pleiades)"
+msgstr "Ancient places (Pleiades)"
+
+#: scripts/interfaz/leyenda.gd
 msgid "Fuentes escritas"
 msgstr "Written sources"
 
@@ -1441,11 +1449,11 @@ msgstr "capital"
 msgid "templo"
 msgstr "temple"
 
-#: scripts/interfaz/panel_info.gd
+#: scripts/interfaz/panel_info.gd scripts/nucleo/pleiades.gd
 msgid "puerto"
 msgstr "port"
 
-#: scripts/interfaz/panel_info.gd
+#: scripts/interfaz/panel_info.gd scripts/nucleo/pleiades.gd
 msgid "sitio arqueológico"
 msgstr "archaeological site"
 
@@ -1730,6 +1738,30 @@ msgstr "Go to that time and place"
 #: scripts/interfaz/panel_info.gd
 msgid "hoy"
 msgstr "today"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Lugar antiguo del atlas Pleiades. Los años son los de los períodos en que está atestiguado, no los de su fundación o su abandono."
+msgstr "Ancient place from the Pleiades gazetteer. The years are those of the periods in which it is attested, not those of its founding or abandonment."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Buscando la ficha…"
+msgstr "Looking up the entry…"
+
+#: scripts/interfaz/panel_info.gd
+msgid "De «[url=%s]%s[/url]», Pleiades (CC BY 3.0)."
+msgstr "From “[url=%s]%s[/url]”, Pleiades (CC BY 3.0)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "No se pudo traer la ficha (¿sin conexión?)."
+msgstr "Couldn't fetch the entry (offline?)."
+
+#: scripts/interfaz/panel_info.gd
+msgid "(en inglés)"
+msgstr "(in English)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Nombres:"
+msgstr "Names:"
 
 #: scripts/interfaz/panel_info.gd
 msgid "Región de estudio"
@@ -2550,6 +2582,42 @@ msgstr "Godot's modern engine (on Mac, on top of Metal). On some Macs with Intel
 #: scripts/nucleo/motor.gd
 msgid "%s (%s, sin pantalla)"
 msgstr "%s (%s, no display)"
+
+#: scripts/nucleo/pleiades.gd
+msgid "asentamiento"
+msgstr "settlement"
+
+#: scripts/nucleo/pleiades.gd
+msgid "villa o finca"
+msgstr "villa or estate"
+
+#: scripts/nucleo/pleiades.gd
+msgid "fortificación"
+msgstr "fortification"
+
+#: scripts/nucleo/pleiades.gd
+msgid "santuario o templo"
+msgstr "sanctuary or temple"
+
+#: scripts/nucleo/pleiades.gd
+msgid "tumba o necrópolis"
+msgstr "tomb or cemetery"
+
+#: scripts/nucleo/pleiades.gd
+msgid "camino, puente u obra hidráulica"
+msgstr "road station, bridge or waterworks"
+
+#: scripts/nucleo/pleiades.gd
+msgid "edificio público"
+msgstr "public building"
+
+#: scripts/nucleo/pleiades.gd
+msgid "mina o cantera"
+msgstr "mine or quarry"
+
+#: scripts/nucleo/pleiades.gd
+msgid "%s sin nombre"
+msgstr "Unnamed %s"
 
 #: scripts/principal.gd
 msgid "No se pudo cargar el mapa: %s"

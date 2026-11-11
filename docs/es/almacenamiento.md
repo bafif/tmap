@@ -18,7 +18,7 @@ el resumen de un artículo cuando alguien lo abre. Por eso lo que hay que distri
 | Enciclopedia curada (fichas) | 3,8 MB, 3263 elementos | 15-150 MB | ~1,5 KB por elemento: 10 000 elementos ≈ 15 MB (3 MB comprimidos) |
 | Series por país (demografía, economía) | 0,9 MB | 2-5 MB | Our World in Data, un valor por año desde 1950 y por década antes |
 | Personas de Wikidata con fecha y lugar (0.4) | — | 60-600 MB | ~1 a 10 millones de personas, ~60 bytes cada una en binario |
-| Lugares de Pleiades (0.4) | — | ~5 MB | ~36 000 lugares antiguos |
+| Lugares de Pleiades (0.4) | 1,5 MB, 27 279 lugares | ~2 MB | Lo que tiene ubicación y fechas de unos 42 000; la descripción se pide en vivo |
 | Grillas de población de HYDE (0.4) | — | 30 MB a 1 GB | A medio grado, ~30 MB comprimidos; a 5 minutos de arco, ~1 GB |
 | Textos completos para leer sin conexión | — | lo que elija cada uno | Opcional: se bajan de a uno, a pedido |
 

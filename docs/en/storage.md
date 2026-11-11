@@ -18,7 +18,7 @@ an article's summary when someone opens it. That's why what has to be distribute
 | Curated encyclopedia (entries) | 3.8 MB, 3263 items | 15-150 MB | ~1.5 KB per item: 10,000 items ≈ 15 MB (3 MB compressed) |
 | Per-country series (demographics, economy) | 0.9 MB | 2-5 MB | Our World in Data, one value per year since 1950 and per decade before that |
 | Wikidata people with a date and place (0.4) | — | 60-600 MB | ~1 to 10 million people, ~60 bytes each in binary |
-| Pleiades places (0.4) | — | ~5 MB | ~36,000 ancient places |
+| Pleiades places (0.4) | 1.5 MB, 27,279 places | ~2 MB | Those with a location and dates out of some 42,000; the description is fetched live |
 | HYDE population grids (0.4) | — | 30 MB to 1 GB | At half a degree, ~30 MB compressed; at 5 arcminutes, ~1 GB |
 | Full texts for offline reading | — | whatever each person picks | Optional: downloaded one at a time, on request |
 
