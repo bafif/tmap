@@ -69,16 +69,14 @@ What's covered and what's missing, region by region, is in [the coverage report]
       (1580 or 1581), Santillán's tasa (1558 or 1559), the Juzgado General de Indios (1585 or 1591-1592) and whether
       Vivar attributes the killing of the 1541 hostages to Inés Suárez. Lewy (2004) could not be read (Commentary
       returns 403). No legal reading link although they are in the public domain: Staden, Carvajal, Acuña, Antonil,
-      Nóbrega, Sandoval, Mariño de Lobera, Góngora Marmolejo, Otermín's autos and the Acoma trial (gutendex was not
-      responding). The 280 new links have no archived copy yet. On the map, El Tajín falls in Aridoamerica and La
+      Nóbrega, Sandoval, Mariño de Lobera, Góngora Marmolejo, Otermín's autos and the Acoma trial. The 280 links in
+      these packages have no archived copy yet. On the map, El Tajín falls in Aridoamerica and La
       Venta, Izapa and Chiapa de Corzo in the Maya area, because the polygons are approximate; the Columbus monument is
       still at its old site in Buenos Aires. The English is machine translation and should be reviewed.
-- [ ] **Run the full test with the whole encyclopedia.** On 11/11/2026, with 7,475 items, the editor step piled up a
-      whole section's forms without freeing them (over 3.8 GB in 7 minutes without finishing, and a second attempt
-      started while the first was shutting down left the machine out of memory). It now waits one frame every 50
-      items, but it still has to be run end to end, in Spanish and in English. `validar.py`, `tmap.py revisar`,
-      `--verificar` and the first part of the test (every entry, the families, legend, timeline, charts, markers and
-      shortcuts) did pass.
+- [ ] **The full test with the whole encyclopedia.** With the Indigenous peoples of the Americas it has not yet run end
+      to end, in Spanish or in English: it gets as far as the keyboard shortcuts (every entry, the families, legend,
+      timeline, charts and markers), and the editor step, which piled up a whole section's forms until it went over
+      3.8 GB, now waits one frame every 50 items, but it still has to be seen finishing.
 - [ ] **Curated estimates outside Europe and the Near East.** HYDE's per-country series cover everything, but the share
       of world population that also has a specialist estimate for its region (Russell, Urlanis, Butzer, DellaPergola,
       the Han censuses) goes from a third in year 1 to almost nothing in BC times and after 1600. Candidates: McEvedy
@@ -138,9 +136,8 @@ The plan, with thresholds and where each thing is hosted, is in [Storage and dow
 is done when its threshold is crossed, not before.
 
 - [ ] **Read packages on a separate thread** when the encyclopedia passes 10 MB or takes more than 1 s to open (the
-      app logs it at startup: "Enciclopedia: N elementos… en X ms"), with a compact in-memory index. On 11/11/2026,
-      with the Indigenous peoples of the Americas, it passed 10 MB (10.1 MB, 8,911 items in 43 packages), although it
-      opens in about 400 ms.
+      app logs it at startup: "Enciclopedia: N elementos… en X ms"), with a compact in-memory index. It is already
+      over 10 MB (10.1 MB, 8,911 items in 43 packages), although it opens in about 400 ms.
 - [ ] **Tiles by era and macroregion, download manager and capped cache** (autoload `Descargas`: priority queue, two
       requests at a time, nothing while the timeline is moving, reading in `WorkerThreadPool`, 500 MB cache with
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
@@ -199,16 +196,15 @@ New packages reach installed copies as data updates, without waiting for an app 
 
 - **The Indigenous peoples of the Americas and their colonization**: fourteen packages, from the peopling of the
   continent to the independence of each area (and at least to the end of the 18th century where colonial rule went
-  on). Each topic was written by one agent and corrected by a reviewer who looked for bias from both sides, that of
-  the Black Legend and militant indigenism and that of the White Legend and militant Hispanism. Disputed matters first
+  on), with neither Black Legend nor White Legend. Disputed matters first
   say what the documents and archaeology show and then who interprets them how; the sweeping theses (“Spain brought
   civilization”, “it was a genocide”) come with their authors and their criticism. Where there is a record, they cover
   war, sacrifice and slavery among Indigenous peoples, the civilizing work of each power (and whether its laws were
   enforced) and its documented abuses; myths that the documents refute have an entry that says so. North America is
   divided into its ten culture areas, the Maya area and Brazilian Amazonia are added, and every American region has
-  culture, language and religion layers. An audit corrected American entries that were already there (Mesoamerica
-  defined without sacrifice, the viceroyalties without the demographic collapse, the Cry of Dolores without Ferdinand
-  VII).
+  culture, language and religion layers. The American entries that were already there follow the same criteria
+  (Mesoamerica is also defined by sacrifice, the viceroyalty eras tell the demographic collapse, and the Cry of
+  Dolores was given in the name of Ferdinand VII).
 - **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise
   place, with the coordinates of its Wikipedia article: the Fort or the Casa Rosada for viceroys and presidents, the
   Congress building of the time for laws, the court for trials, the field for battles. What has no single site (an
@@ -241,7 +237,7 @@ New packages reach installed copies as data updates, without waiting for an app 
 ### Next version
 
 - **The editor test no longer piles up forms**: it waits one frame every 50 items, because what is taken out of the
-  scene is only freed at the end of the frame, and with 7,475 items a single section went over 3.8 GB.
+  scene is only freed at the end of the frame, and with the whole encyclopedia a single section went over 3.8 GB.
 
 - **Nothing on the map before its time**: a person whose `activo` has `desde` and `hasta` shows up at their place of
   activity only in those years; before, where they were born, and after, where they died. Events appear in their own

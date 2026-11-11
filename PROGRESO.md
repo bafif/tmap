@@ -70,16 +70,15 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       llegada de Antonio Ricardo a Lima (1580 o 1581), la tasa de Santillán (1558 o 1559), el Juzgado General de
       Indios (1585 o 1591-1592) y si Vivar atribuye a Inés Suárez la muerte de los rehenes de 1541. Lewy (2004) no se
       pudo leer (Commentary responde 403). Sin enlace legal, aunque son de dominio público: Staden, Carvajal, Acuña,
-      Antonil, Nóbrega, Sandoval, Mariño de Lobera, Góngora Marmolejo, los autos de Otermín y el proceso de Acoma
-      (gutendex no respondía). Los 280 enlaces nuevos todavía no tienen copia archivada. En el mapa, El Tajín cae en
+      Antonil, Nóbrega, Sandoval, Mariño de Lobera, Góngora Marmolejo, los autos de Otermín y el proceso de Acoma.
+      Los 280 enlaces de estos paquetes todavía no tienen copia archivada. En el mapa, El Tajín cae en
       Aridoamérica y La Venta, Izapa y Chiapa de Corzo en el área maya, porque los polígonos son aproximados; el
       monumento a Colón sigue en su sitio viejo de Buenos Aires. El inglés es traducción automática: conviene
       revisarlo.
-- [ ] **Correr la prueba completa con la enciclopedia entera.** El 11/11/2026, con 7475 elementos, el paso del editor
-      acumulaba los formularios de una sección entera sin liberarlos (pasó los 3,8 GB en 7 minutos sin terminar, y un
-      segundo intento lanzado mientras el primero se cerraba dejó a la máquina sin memoria). Ya espera un cuadro cada
-      50 elementos, pero falta correrla de punta a punta, en español y en inglés. Pasaron `validar.py`, `tmap.py revisar`, `--verificar` y la primera parte de la prueba (todas las
-      fichas, las familias, leyenda, línea de tiempo, gráficos, marcadores y atajos).
+- [ ] **La prueba completa con la enciclopedia entera.** Con los pueblos originarios de América todavía no se corrió de
+      punta a punta, ni en español ni en inglés: llega hasta los atajos de teclado (todas las fichas, las familias,
+      leyenda, línea de tiempo, gráficos y marcadores), y el paso del editor, que acumulaba los formularios de una
+      sección entera hasta pasar los 3,8 GB, ahora espera un cuadro cada 50 elementos, pero falta verlo terminar.
 - [ ] **Estimaciones curadas fuera de Europa y el Cercano Oriente.** Las series por país de HYDE cubren todo, pero
       la parte de la población mundial que tiene además una estimación de especialistas para su región (Russell,
       Urlanis, Butzer, DellaPergola, los censos Han) va de un tercio en el año 1 a casi nada antes de Cristo y después
@@ -139,9 +138,8 @@ El plan, con umbrales y dónde se aloja cada cosa, está en [Almacenamiento y de
 Cada paso se hace cuando se cruza su umbral, no antes.
 
 - [ ] **Leer los paquetes en un hilo aparte** cuando la enciclopedia pase los 10 MB o tarde más de 1 s en abrir (la
-      app lo dice al arrancar: «Enciclopedia: N elementos… en X ms»), con un índice compacto en memoria. El
-      11/11/2026, con los pueblos originarios de América, pasó los 10 MB (10,1 MB, 8911 elementos de 43 paquetes),
-      aunque abre en unos 400 ms.
+      app lo dice al arrancar: «Enciclopedia: N elementos… en X ms»), con un índice compacto en memoria. Ya pasó los
+      10 MB (10,1 MB, 8911 elementos de 43 paquetes), aunque abre en unos 400 ms.
 - [ ] **Teselas por época y macrorregión, administrador de descargas y caché con tope** (autoload `Descargas`: cola
       con prioridades, dos pedidos a la vez, nada mientras se mueve la línea de tiempo, lectura en
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
@@ -199,17 +197,16 @@ Los paquetes nuevos llegan a las copias instaladas como actualización de datos,
 trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 
 - **Los pueblos originarios de América y su colonización**: catorce paquetes, del poblamiento del continente a la
-  independencia de cada zona (y al menos hasta fines del siglo XVIII donde siguió la colonia). Cada tema lo escribió
-  un agente y lo corrigió un revisor que buscó sesgo de los dos lados, el de la leyenda negra y el indigenismo
-  militante y el de la leyenda rosa y el hispanismo militante. Lo disputado dice primero lo que muestran los
-  documentos y la arqueología y después quién lo interpreta cómo; las tesis generales («España trajo la
+  independencia de cada zona (y al menos hasta fines del siglo XVIII donde siguió la colonia), sin leyenda negra ni
+  leyenda rosa. Lo disputado dice primero lo que muestran los documentos y la arqueología y después quién lo
+  interpreta cómo; las tesis generales («España trajo la
   civilización», «fue un genocidio») van con sus autores y su crítica. Donde hay registro están la guerra, el
   sacrificio y la esclavitud entre pueblos indígenas, la obra civilizatoria de cada potencia (con si sus leyes se
   cumplían) y sus abusos documentados; los mitos que los documentos desmienten tienen ficha que lo dice.
   Norteamérica se divide en sus diez áreas culturales, se suman el área maya y la Amazonía brasileña, y todas las
-  regiones americanas tienen capas de cultura, idioma y religión. Una auditoría corrigió fichas americanas que ya
-  estaban (Mesoamérica definida sin el sacrificio, los virreinatos sin la caída demográfica, el Grito de Dolores sin
-  Fernando VII).
+  regiones americanas tienen capas de cultura, idioma y religión. Las fichas americanas que ya estaban siguen el
+  mismo criterio (Mesoamérica se define también por el sacrificio, las eras de los virreinatos cuentan la caída
+  demográfica y el Grito de Dolores, que se dio en nombre de Fernando VII).
 - **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,
   con las coordenadas de su artículo en Wikipedia: el Fuerte o la Casa Rosada para virreyes y presidentes, el Congreso
   de su época para las leyes, el tribunal para los juicios, el campo para las batallas. Lo que no tiene un sitio único
@@ -242,7 +239,7 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 ### Próxima versión
 
 - **La prueba del editor no acumula formularios**: espera un cuadro cada 50 elementos, porque lo que se saca de la
-  escena se libera recién al terminar el cuadro y con 7475 elementos una sola sección pasaba los 3,8 GB.
+  escena se libera recién al terminar el cuadro y con la enciclopedia entera una sola sección pasaba los 3,8 GB.
 
 - **Nada en el mapa antes de tiempo**: una persona cuyo `activo` tiene `desde` y `hasta` aparece en su lugar de
   actividad solo esos años; antes, donde nació, y después, donde murió. Los hechos aparecen en su año, y «Ver en el
