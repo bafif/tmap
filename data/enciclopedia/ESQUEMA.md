@@ -250,6 +250,12 @@ Ciudades, templos y sitios que aparecen en el mapa cuando existen.
 - `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`,
   `laboratorio`, `institucion` (un congreso, un tribunal, una sede de gobierno o de un organismo), `sitio-historico`
   (una plaza, un campo de concentración, un centro clandestino, un campo de batalla).
+- `fundacion`: año desde el que existe y se muestra en el mapa. Una ciudad o un templo antiguos de origen desconocido
+  pueden ir con `null` (se ven desde siempre). Una biblioteca, una universidad, un laboratorio, una institución o un
+  sitio histórico tienen que llevarlo (`validar.py` lo exige). Un edificio o una institución, su inauguración (si no
+  se sabe, el primer hecho que lo hace relevante, con `aprox` si el año es dudoso); un sitio o un lugar natural que
+  importa por un hecho (una isla, una playa, un paraje, la casa donde se firmó algo), el año de ese hecho o desde el
+  que se lo conoce, para que el mapa no lo muestre con su nombre antes de tiempo.
 - `abandono`: año en que deja de ser habitada o relevante; `null` si sigue.
 - `importancia`: 1 (local) a 3 (de primer orden). Decide desde qué zoom se ve.
 

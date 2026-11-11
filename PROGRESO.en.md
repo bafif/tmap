@@ -61,15 +61,6 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
 - [ ] **Ongoing court cases.** As of November 10, 2026: the Cuadernos oral trial still has no verdict, and it's unclear
       whether the Hotesur-Los Sauces and Memorandum with Iran trials have started. Check them every so often and update
       their events.
-- [ ] **Modern places without a date, shown in every era.** A place without `fundacion` counts from 3400 BC: Omaha
-      Beach and the Ecuadorian embassy in London show up on the map of 1350 BC. There are fourteen:
-      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` and `isla-huemul`
-      (argentina-contemporanea), `rosario`, `casa-del-acuerdo`, `barranca-yaco` and `playa-de-la-agraciada`
-      (guerras-civiles-y-organizacion-nacional), `puerto-san-julian` and `loreto-misiones` (rio-de-la-plata-colonial),
-      `embajada-de-ecuador-en-londres`, `playa-de-omaha` and `mont-pelerin`. The buildings, towns and missions lack
-      their founding or opening year, with its source; for natural places that matter because of an event (an island,
-      a beach, a ravine) we'd have to decide from when to show them (the first event, with `aprox`) or have the app
-      show them from their first event. The 43 undated places in the Holy Land, Thebes and Heliopolis are fine as is.
 - [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector and Galeano. Hawaii has no region (Pearl Harbor falls outside all of
@@ -106,9 +97,7 @@ by `tools/enciclopedia/cobertura.py` (and `validar.py` warns if it's out of date
       Chacho, and the year of the Instituto Rosas (1938 or 1941). Several academic works still lack their main
       criticism with its author. Four sources still have no place of writing (the Requerimiento, the Democrates alter,
       Luis Ramírez's letter and Luis de la Cruz's diary). The English of these packages is machine translation and is
-      worth reviewing. With 4636 items, the automated test leaves some 5,100 “Out of resolver queries” warnings (3,500
-      with the previous data): `wiki.gd` requests the Wikipedia image of every entry it opens, without a queue, and
-      Godot's DNS queue runs out; those requests should be queued.
+      worth reviewing.
 - [ ] **Holy Land: what was left out.** Sinai goes with Egypt. Lebanon, Syria, Transjordan, Arabia, the Maghreb and
       Cyprus only have the HYDE, Gapminder and UN per-country series, with no curated estimate. Armenia has layers up
       to 1920: after that, the Turkish part is painted by Anatolia and the Republic of Armenia has no layers. 24
@@ -164,6 +153,24 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: places with dates and Wikipedia in a queue
+
+- [x] **Modern places no longer show up in every era.** A place without `fundacion` was shown from 3400 BC (Omaha
+      Beach on the map of 1350 BC). The fourteen that were like that now have a verified year: buildings and
+      institutions, their opening (Once station, 1857; the Comodoro Py courts, c. 1993, when the federal courts moved
+      into the former highway agency building); sites and natural places, the event that made them known (Martín
+      García, 1516; the Falklands/Malvinas, 1764, the first settlement, since the first sighting is disputed; the Casa
+      del Acuerdo, 1852; Omaha, 1944); Rosario, c. 1724, and Loreto, c. 1632. `validar.py` now requires the date for
+      libraries, universities, laboratories, institutions and historic sites, the app's editor warns about it, and the
+      rule is in the schema. Ancient cities of unknown origin (the Holy Land, Thebes, Heliopolis) stay undated, on
+      purpose.
+- [x] **Wikipedia requests go through a queue.** The app requested the summary and image of every entry it opened,
+      all at once and even after the entry had been closed, and with many in a row Godot's DNS queue ran out (the
+      automated test left some 5,100 “Out of resolver queries” warnings). Now `wiki.gd` makes four requests at a
+      time, serves the entry being viewed first, drops those of old entries, shares a request when two ask for the
+      same thing, and doesn't remember a connection failure (it retries when the entry is reopened). Full test: 0
+      warnings.
 
 ### November 11, 2026: exported builds, with their typefaces
 

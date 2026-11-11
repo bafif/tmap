@@ -25,6 +25,9 @@ TIPOS_HECHO = {"politico", "batalla", "fundacion", "religioso", "cultural", "cie
                "tratado", "construccion", "exploracion", "revolucion", "judicial"}
 TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
                "laboratorio", "institucion", "sitio-historico"}
+# Lugares que no existen desde siempre: sin `fundacion` la app los mostraría desde 3400 a. C. Una ciudad o un templo
+# antiguos pueden ir sin fecha; un sitio que importa por un hecho lleva el año desde el que se muestra.
+TIPOS_LUGAR_CON_FECHA = {"biblioteca", "universidad", "laboratorio", "institucion", "sitio-historico"}
 PESOS = {"mayoritaria", "importante", "minoritaria"}
 CAPAS = ("religiones", "culturas", "idiomas")
 
@@ -256,6 +259,9 @@ def main():
         punto(l, d)
         if l.get("tipo") not in TIPOS_LUGAR:
             avisos.append(f"{d}: tipo no previsto {l.get('tipo')!r}")
+        if l.get("tipo") in TIPOS_LUGAR_CON_FECHA and l.get("fundacion") is None:
+            (avisos if arch.startswith("borradores/") else errores).append(
+                f"{d}: {l['tipo']} sin fundacion (aparecería en todas las épocas)")
         for r in l.get("regiones", []):
             if r not in regiones:
                 errores.append(f"{d}: región «{r}» no existe")

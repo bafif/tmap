@@ -2312,6 +2312,10 @@ msgid "Faltan las coordenadas: un lugar sin ellas no aparece en el mapa."
 msgstr "The coordinates are missing: a place without them won't show on the map."
 
 #: scripts/nucleo/edicion.gd
+msgid "Sin fundación: aparece en el mapa en todas las épocas. En un sitio que importa por un hecho, va el año desde el que se muestra."
+msgstr "No founding year: it shows on the map in every era. For a site that matters because of an event, enter the year from which it should be shown."
+
+#: scripts/nucleo/edicion.gd
 msgid "La importancia va de 1 a 3."
 msgstr "Importance goes from 1 to 3."
 

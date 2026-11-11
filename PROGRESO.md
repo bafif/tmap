@@ -61,15 +61,6 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       a mano, y buscar las sentencias de las causas contra el kirchnerismo en una copia oficial que responda.
 - [ ] **Causas judiciales en curso.** Al 10/11/2026: el juicio oral de Cuadernos sigue sin sentencia, y no está claro
       si empezaron los de Hotesur-Los Sauces y el Memorándum con Irán. Revisarlos cada tanto y actualizar sus hechos.
-- [ ] **Lugares modernos sin fecha, que se ven en todas las épocas.** Un lugar sin `fundacion` cuenta desde 3400
-      a. C.: la playa de Omaha y la embajada de Ecuador en Londres aparecen en el mapa de 1350 a. C. Son catorce:
-      `comodoro-py`, `estacion-once`, `isla-martin-garcia`, `islas-malvinas` e `isla-huemul`
-      (argentina-contemporanea), `rosario`, `casa-del-acuerdo`, `barranca-yaco` y `playa-de-la-agraciada`
-      (guerras-civiles-y-organizacion-nacional), `puerto-san-julian` y `loreto-misiones` (rio-de-la-plata-colonial),
-      `embajada-de-ecuador-en-londres`, `playa-de-omaha` y `mont-pelerin`. A los edificios, las ciudades y las misiones
-      les falta el año de fundación o inauguración, con su fuente; para los lugares naturales que importan por un hecho
-      (una isla, una playa, una barranca) habría que decidir desde cuándo mostrarlos (el primer hecho, con `aprox`) o
-      que la app los muestre desde su primer hecho. Los 43 de Tierra Santa, Tebas y Heliópolis sin fecha están bien así.
 - [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes, Clarice Lispector y Galeano. Hawái no tiene región (Pearl Harbor queda fuera de todas).
@@ -105,9 +96,7 @@ genera `tools/enciclopedia/cobertura.py` (y `validar.py` avisa si quedó viejo).
       Sarmiento sobre el Chacho y el año del Instituto Rosas (1938 o 1941). Varias obras académicas todavía no dicen su
       crítica principal con autor. Cuatro fuentes siguen sin lugar de escritura (el Requerimiento, el Demócrates alter,
       la carta de Luis Ramírez y el diario de Luis de la Cruz). El inglés de estos paquetes es traducción automática:
-      conviene revisarlo. Con 4636 elementos, la prueba automática deja unos 5100 avisos «Out of resolver queries»
-      (con los datos anteriores eran 3500): `wiki.gd` pide la imagen de Wikipedia de cada ficha que abre, sin cola, y
-      se agota la de DNS de Godot; conviene encolar esos pedidos.
+      conviene revisarlo.
 - [ ] **Tierra Santa: lo que quedó afuera.** El Sinaí va con Egipto. Líbano, Siria, Transjordania, Arabia, el Magreb y
       Chipre tienen solo la serie por país de HYDE, Gapminder y la ONU, sin estimación curada. Armenia tiene capas
       hasta 1920: después, la parte turca la pinta Anatolia y la república de Armenia queda sin capas. 24 fuentes sin
@@ -163,6 +152,24 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: lugares con fecha y Wikipedia en cola
+
+- [x] **Los lugares modernos ya no aparecen en todas las épocas.** Un lugar sin `fundacion` se veía desde 3400 a. C.
+      (la playa de Omaha en el mapa de 1350 a. C.). Los catorce que estaban así tienen su año, verificado: los
+      edificios y las instituciones, el de su inauguración (Estación Once, 1857; los tribunales de Comodoro Py, c. 1993,
+      cuando se mudaron los juzgados federales al edificio de Vialidad); los sitios y los lugares naturales, el del
+      hecho que los hace conocidos (Martín García, 1516; Malvinas, 1764, la primera población, porque el primer
+      avistaje está en disputa; la Casa del Acuerdo, 1852; Omaha, 1944); Rosario, c. 1724, y Loreto, c. 1632.
+      `validar.py` exige ahora la fecha en bibliotecas, universidades, laboratorios, instituciones y sitios históricos,
+      el editor de la app lo avisa y el criterio quedó en el esquema. Las ciudades antiguas de origen desconocido
+      (Tierra Santa, Tebas, Heliópolis) siguen sin fecha, a propósito.
+- [x] **Los pedidos a Wikipedia van en cola.** La app pedía el resumen y la imagen de cada ficha que se abría, todos a
+      la vez y aunque la ficha ya se hubiera cerrado, y con muchas seguidas se agotaba la cola de DNS de Godot (la
+      prueba automática dejaba unos 5100 avisos «Out of resolver queries»). Ahora `wiki.gd` hace cuatro pedidos a la
+      vez, atiende primero el de la ficha que se está mirando, descarta los de fichas viejas, comparte el pedido si
+      dos piden lo mismo y no recuerda un fallo de conexión (se vuelve a probar al reabrir la ficha). La prueba
+      completa: 0 avisos.
 
 ### 11 de noviembre de 2026: las versiones exportadas, con sus tipografías
 

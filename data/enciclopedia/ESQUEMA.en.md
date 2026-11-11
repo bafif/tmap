@@ -260,6 +260,12 @@ Cities, temples and sites that appear on the map while they exist.
 - `tipo`: `ciudad`, `capital`, `templo`, `puerto`, `sitio-arqueologico`, `biblioteca`, `universidad`,
   `laboratorio`, `institucion` (a congress, a court, the seat of a government or an agency), `sitio-historico` (a
   square, a concentration camp, a clandestine detention center, a battlefield).
+- `fundacion`: the year from which it exists and is shown on the map. An ancient city or temple of unknown origin can
+  have `null` (it is shown in every era). A library, a university, a laboratory, an institution or a historic site
+  must have it (`validar.py` requires it). For a building or an institution, its opening (if unknown, the first event
+  that makes it relevant, with `aprox` if the year is uncertain); for a site or a natural place that matters because
+  of an event (an island, a beach, a spot on a road, the house where something was signed), the year of that event or
+  the year it became known, so the map does not show it under its name too early.
 - `abandono`: the year it stops being inhabited or relevant; `null` if it still is.
 - `importancia`: 1 (local) to 3 (of the first rank). It decides from which zoom level it shows.
 
