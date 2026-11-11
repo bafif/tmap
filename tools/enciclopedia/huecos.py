@@ -949,7 +949,7 @@ def det_candidatos(enc: Enciclopedia, als: dict[str, dict], red: Red) -> list[di
             consultas.append(("personas", f"""SELECT ?x ?sl ?d ?c ?m ?donde WHERE {{
               VALUES ?o {{ {' '.join('wd:' + q for q in ocup)} }} ?x wdt:P106 ?o .
               ?x wikibase:sitelinks ?sl . FILTER(?sl >= {prof.get('personas', 8)})
-              ?x wdt:P569 ?d . FILTER(YEAR(?d) >= {a - 80} && YEAR(?d) <= {b - 15})
+              ?x wdt:P569 ?d . FILTER(YEAR(?d) >= {a - 80} && YEAR(?d) <= {b - 25})
               OPTIONAL {{ ?x wdt:P570 ?m }} FILTER(!BOUND(?m) || YEAR(?m) >= {a})
               {{ ?x wdt:P19 ?l . BIND("nacio" AS ?donde) }} UNION {{ ?x wdt:P20 ?l . BIND("murio" AS ?donde) }}
               ?l wdt:P625 ?c . {filtro_caja('?c', c)}

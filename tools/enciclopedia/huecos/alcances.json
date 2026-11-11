@@ -78,6 +78,192 @@
       "personas_mediana": 23
     }
   },
+  "celtas-de-britania-e-irlanda": {
+    "desde": -100,
+    "hasta": 1290,
+    "regiones": [
+      "britania",
+      "caledonia",
+      "irlanda"
+    ],
+    "nucleo": [
+      "britania",
+      "irlanda"
+    ],
+    "hechos": [
+      "batalla",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "escritor",
+      "general",
+      "monje",
+      "obispo"
+    ],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 16,
+      "fuentes": 6,
+      "fuentes_mediana": 13,
+      "personas": 13,
+      "personas_mediana": 22
+    }
+  },
+  "celtas-de-hispania": {
+    "desde": -500,
+    "hasta": 100,
+    "regiones": [
+      "celtiberia",
+      "galaecia",
+      "iberia"
+    ],
+    "nucleo": [
+      "celtiberia",
+      "iberia"
+    ],
+    "hechos": [
+      "batalla",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "caudillo",
+      "general",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 11,
+      "hechos_mediana": 20,
+      "fuentes": 5,
+      "fuentes_mediana": 11,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
+  "celtas-del-danubio-y-galacia": {
+    "desde": -400,
+    "hasta": 420,
+    "regiones": [
+      "alemania",
+      "anatolia",
+      "balcanes",
+      "bohemia",
+      "galacia",
+      "grecia",
+      "hungria",
+      "italia",
+      "norico"
+    ],
+    "nucleo": [
+      "alemania",
+      "anatolia",
+      "galacia",
+      "grecia",
+      "hungria"
+    ],
+    "hechos": [
+      "batalla"
+    ],
+    "ocupaciones": [
+      "historiador"
+    ],
+    "profundidad": {
+      "hechos": 13,
+      "hechos_mediana": 28,
+      "fuentes": 19,
+      "fuentes_mediana": 20,
+      "personas": 8,
+      "personas_mediana": 17
+    }
+  },
+  "celtas-en-las-fuentes-antiguas": {
+    "desde": -360,
+    "hasta": 410,
+    "regiones": [
+      "alemania",
+      "anatolia",
+      "britania",
+      "francia",
+      "grecia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "iberia",
+      "italia"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 15,
+      "hechos_mediana": 42,
+      "fuentes": 19,
+      "fuentes_mediana": 35,
+      "personas": 43,
+      "personas_mediana": 61
+    }
+  },
+  "celtas-legado-e-historiografia": {
+    "desde": 60,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "armorica",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "irlanda"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 10,
+      "hechos_mediana": 25,
+      "fuentes": 5,
+      "fuentes_mediana": 14,
+      "personas": 10,
+      "personas_mediana": 17
+    }
+  },
+  "celtas-origenes-y-prehistoria": {
+    "desde": -5500,
+    "hasta": -400,
+    "regiones": [
+      "alemania",
+      "bohemia",
+      "britania",
+      "francia",
+      "hungria",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "alemania",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 16,
+      "hechos_mediana": 31,
+      "fuentes": 5,
+      "fuentes_mediana": 15,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
   "ciencia-y-tecnologia": {
     "desde": 1900,
     "hasta": 2026,
@@ -235,6 +421,39 @@
       "fuentes_mediana": 31,
       "personas": 70,
       "personas_mediana": 87
+    }
+  },
+  "galos-y-galia": {
+    "desde": -390,
+    "hasta": 260,
+    "regiones": [
+      "alemania",
+      "francia",
+      "galia-cisalpina",
+      "iberia",
+      "italia"
+    ],
+    "nucleo": [
+      "francia",
+      "italia"
+    ],
+    "hechos": [
+      "batalla",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "general",
+      "historiador",
+      "militar",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 12,
+      "hechos_mediana": 22,
+      "fuentes": 10,
+      "fuentes_mediana": 14,
+      "personas": 8,
+      "personas_mediana": 15
     }
   },
   "guerras-civiles-y-organizacion-nacional": {
@@ -534,6 +753,38 @@
       "fuentes_mediana": 23,
       "personas": 8,
       "personas_mediana": 6
+    }
+  },
+  "religion-celta": {
+    "desde": -400,
+    "hasta": 1210,
+    "regiones": [
+      "alemania",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "irlanda"
+    ],
+    "hechos": [
+      "religioso"
+    ],
+    "ocupaciones": [
+      "filologo",
+      "obispo"
+    ],
+    "profundidad": {
+      "hechos": 12,
+      "hechos_mediana": 28,
+      "fuentes": 8,
+      "fuentes_mediana": 18,
+      "personas": 8,
+      "personas_mediana": 10
     }
   },
   "rio-de-la-plata-colonial": {
