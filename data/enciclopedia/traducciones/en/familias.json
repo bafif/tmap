@@ -298,6 +298,22 @@
   "familias/culturas:iliria/nombre": {"hash": "425dc3d5e8", "texto": "Illyrian"},
   "familias/religiones:religion-iberica/nombre": {"hash": "f76b8697f9", "texto": "Iberian religion"},
   "familias/religiones:religion-iberica/nota": {"hash": "e93583acd3", "texto": "Known almost only from sanctuaries and ex-votos: the Iberian texts are not understood."},
-  "familias/religiones:religion-tracia/nombre": {"hash": "e4431f8a14", "texto": "Thracian and Dacian religion"}
+  "familias/religiones:religion-tracia/nombre": {"hash": "e4431f8a14", "texto": "Thracian and Dacian religion"},
+  "familias/religiones:religion-nubia-antigua/nombre": {"hash": "ed0298f82b", "texto": "Religion of ancient Nubia"},
+  "familias/religiones:religion-nubia-antigua/nota": {"hash": "28955cfd60", "texto": "Cults of Kerma, of Group C and of the Kingdom of Kush (Apedemak, Amesemi and others), with Egyptian influences."},
+  "familias/culturas:nubia/nombre": {"hash": "f2e5e3e013", "texto": "Nubia"},
+  "familias/culturas:nubia/nota": {"hash": "9126e98ea3", "texto": "The populations of the Nile valley between Aswan and southern Sudan, from Kerma to the Sultanate of Sennar."},
+  "familias/culturas:estepa-euroasiatica/nombre": {"hash": "5a0b453b55", "texto": "Nomads of the Eurasian steppe"},
+  "familias/culturas:estepa-euroasiatica/nota": {"hash": "3b11f86b7a", "texto": "Mounted steppe peoples (Huns, Avars and others) whose ethnic and linguistic origin is disputed."},
+  "familias/culturas:mesolitica-europea/nombre": {"hash": "f0882cb649", "texto": "Mesolithic"},
+  "familias/culturas:mesolitica-europea/nota": {"hash": "e6e6c4bce7", "texto": "Hunter-gatherers of Europe after the end of the last glaciation and before the first farmers."},
+  "familias/idiomas:nilosaharianas/nombre": {"hash": "9075a83851", "texto": "Nilo-Saharan languages"},
+  "familias/idiomas:nilosaharianas/nota": {"hash": "d1ee40f142", "texto": "A proposed macrofamily, disputed as a whole."},
+  "familias/idiomas:nubio/nombre": {"hash": "a2faa11669", "texto": "Nubian languages"},
+  "familias/idiomas:nubio/nota": {"hash": "49d596e499", "texto": "Old Nubian (written from the 8th to the 15th century) and modern Nubian languages such as Nobiin."},
+  "familias/idiomas:meroitico/nombre": {"hash": "b1b0691ad7", "texto": "Meroitic"},
+  "familias/idiomas:meroitico/nota": {"hash": "55efab8bae", "texto": "Language of the kingdom of Meroë; its script can be read, but the language is little understood. It is linked to the languages of eastern Sudan, without consensus."},
+  "familias/idiomas:sin-clasificar/nombre": {"hash": "15d3855784", "texto": "Unclassified languages"},
+  "familias/idiomas:sin-clasificar/nota": {"hash": "5fd969e5ae", "texto": "Languages attested so scarcely (sometimes only in proper names) that they cannot be placed in a family."}
  }
 }
