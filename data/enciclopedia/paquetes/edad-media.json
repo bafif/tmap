@@ -16513,6 +16513,585 @@
         "en": "Jan Długosz"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "vida-nueva",
+      "titulo": "Vida nueva",
+      "titulo_original": "La vita nuova",
+      "autor": "Dante Alighieri",
+      "autor_id": "dante-alighieri",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1292,
+        "anio_hasta": 1294,
+        "aprox": false,
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1274,
+        "hasta": 1294
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro",
+      "resumen": "Conjunto de 31 poemas con prosa que los comenta, escrito en italiano vulgar. Cuenta el amor de Dante por Beatriz, desde que la vio a los nueve años hasta su muerte (1290), y termina con la decisión de escribir de ella lo que nunca se había dicho de ninguna mujer.",
+      "por_que_importa": "Es el antecedente de la Comedia: fija la figura de Beatriz y el modelo de la lírica del «dulce estilo nuevo», comentada por el propio autor.",
+      "leer": [
+        {
+          "titulo": "Texto italiano en Wikisource",
+          "url": "https://it.wikisource.org/wiki/Vita_nuova",
+          "idioma": "it",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Vita nuova",
+        "en": "La Vita Nuova"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "de-vulgari-eloquentia",
+      "titulo": "Sobre la elocuencia en lengua vulgar",
+      "titulo_original": "De vulgari eloquentia",
+      "autor": "Dante Alighieri",
+      "autor_id": "dante-alighieri",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1303,
+        "anio_hasta": 1305,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1250,
+        "hasta": 1305
+      },
+      "idioma_original": "Latín",
+      "soporte": "Tratado",
+      "resumen": "Tratado inconcluso en latín, escrito en el exilio, sobre el origen de las lenguas y sobre cuál lengua vulgar debe usarse en poesía. Dante recorre los dialectos de Italia, los rechaza uno por uno y propone un «vulgar ilustre», común a toda la península, que ninguna ciudad habla. Quedó en el libro segundo.",
+      "por_que_importa": "Es una de las primeras defensas de las lenguas vulgares como lengua literaria y filosófica, anterior a la Comedia.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/De_vulgari_eloquentia",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "De vulgari eloquentia"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "regla-de-san-agustin",
+      "titulo": "Regla de san Agustín",
+      "titulo_original": "Regula Sancti Augustini",
+      "autor": "Agustín de Hipona",
+      "autor_id": "agustin-de-hipona",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 423,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 423,
+        "hasta": 423
+      },
+      "idioma_original": "Latín",
+      "soporte": "Regla monástica",
+      "resumen": "Normas breves de vida en común: la comunidad de bienes, el trabajo, la oración en común, la obediencia a un superior y la caridad fraterna. La tradición la atribuye a Agustín y se apoya en su carta 211, escrita en 423 a las monjas de Hipona; la fecha y la forma original de la regla, que se conserva en versiones para hombres y para mujeres, se discuten.",
+      "por_que_importa": "Desde el siglo XII la adoptaron los canónigos regulares y órdenes como los dominicos y los agustinos.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Regula_Sancti_Augustini",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Regla de san Agustín",
+        "en": "Rule of Saint Augustine"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "erec-y-enide",
+      "titulo": "Erec y Enide",
+      "titulo_original": "Erec et Enide",
+      "autor": "Chrétien de Troyes",
+      "autor_id": "chretien-de-troyes",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1170,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 500,
+        "hasta": 1170
+      },
+      "idioma_original": "Francés antiguo",
+      "soporte": "Roman en verso",
+      "resumen": "Primer roman artúrico que se conserva: el caballero Erec se casa con Enide, descuida las armas por amor y emprende una serie de pruebas para recuperar su honor sin perder a su esposa.",
+      "por_que_importa": "Fija en francés el molde de la novela artúrica que Chrétien siguió en Cligès, el Lancelot, el Yvain y el Perceval.",
+      "leer": [
+        {
+          "titulo": "Texto en francés antiguo en Wikisource",
+          "url": "https://fr.wikisource.org/wiki/%C3%89rec_et_%C3%89nide",
+          "idioma": "fro",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Erec et Enide",
+        "en": "Erec and Enide"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cliges",
+      "titulo": "Cligès",
+      "titulo_original": "Cligès",
+      "autor": "Chrétien de Troyes",
+      "autor_id": "chretien-de-troyes",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1176,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "balcanes"
+        ],
+        "desde": 1100,
+        "hasta": 1176
+      },
+      "idioma_original": "Francés antiguo",
+      "soporte": "Roman en verso",
+      "resumen": "Roman en verso sobre el amor de Cligès, hijo de un príncipe bizantino y sobrino del rey Arturo, por Fenice, casada con su tío. Chrétien lo presenta como una historia leída en un libro de la biblioteca de Beauvais.",
+      "por_que_importa": "Variante en clave bizantina de la leyenda de Tristán e Iseo que el autor dice corregir.",
+      "leer": [
+        {
+          "titulo": "Texto en francés antiguo en Wikisource",
+          "url": "https://fr.wikisource.org/wiki/Clig%C3%A8s",
+          "idioma": "fro",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Cligès",
+        "en": "Cligès"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "yvain",
+      "titulo": "Yvain, el caballero del León",
+      "titulo_original": "Yvain, le Chevalier au lion",
+      "autor": "Chrétien de Troyes",
+      "autor_id": "chretien-de-troyes",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1177,
+        "anio_hasta": 1181,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 500,
+        "hasta": 1180
+      },
+      "idioma_original": "Francés antiguo",
+      "soporte": "Roman en verso",
+      "resumen": "Yvain mata al guardián de una fuente maravillosa y se casa con su viuda, Laudine; olvida volver a ella en el plazo prometido y la pierde. Para recuperarla vaga por el bosque y ayuda a los desamparados con un león que lo acompaña.",
+      "por_que_importa": "Se compuso a la par del Lancelot; en el mundo germánico tuvo una versión de Hartmann von Aue.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Yvain, el Caballero del León",
+        "en": "Yvain, the Knight of the Lion"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "perceval-o-el-cuento-del-grial",
+      "titulo": "Perceval o el cuento del Grial",
+      "titulo_original": "Perceval ou le Conte du Graal",
+      "autor": "Chrétien de Troyes",
+      "autor_id": "chretien-de-troyes",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1180,
+        "anio_hasta": 1190,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 500,
+        "hasta": 1190
+      },
+      "idioma_original": "Francés antiguo",
+      "soporte": "Roman en verso",
+      "resumen": "Último roman de Chrétien, que quedó inconcluso. Perceval, un joven criado lejos de la caballería, es armado caballero, visita el castillo del Rey Pescador y ve pasar una lanza que sangra y un grial, pero no pregunta qué significan. Es la primera aparición literaria del Grial.",
+      "por_que_importa": "Dio lugar a continuaciones y a la tradición del Grial, que siguieron Wolfram von Eschenbach y otros.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Perceval o el cuento del Grial",
+        "en": "Perceval, the Story of the Grail"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "pange-lingua",
+      "titulo": "Pange lingua gloriosi corporis mysterium",
+      "titulo_original": "Pange lingua gloriosi corporis mysterium",
+      "autor": "Tomás de Aquino",
+      "autor_id": "tomas-de-aquino",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1264,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1264,
+        "hasta": 1264
+      },
+      "idioma_original": "Latín",
+      "soporte": "Himno",
+      "resumen": "Himno eucarístico atribuido a Tomás de Aquino para la fiesta del Corpus Christi, instituida por Urbano IV en 1264. Las dos últimas estrofas, «Tantum ergo», se cantan por separado en la bendición con el Santísimo.",
+      "por_que_importa": "Muestra cómo la teología escolástica de la Eucaristía, que Tomás había elaborado en la Suma, pasó a la liturgia.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pange lingua",
+        "en": "Pange lingua gloriosi corporis mysterium"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "troilo-y-criseida",
+      "titulo": "Troilo y Criseida",
+      "titulo_original": "Troilus and Criseyde",
+      "autor": "Geoffrey Chaucer",
+      "autor_id": "geoffrey-chaucer",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1380,
+        "anio_hasta": 1386,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1380,
+        "hasta": 1386
+      },
+      "idioma_original": "Inglés medio",
+      "soporte": "Poema",
+      "resumen": "Poema narrativo de unos ocho mil versos en estrofas de siete, basado en el Filostrato de Boccaccio. Cuenta el amor del príncipe troyano Troilo y Criseida, que el intercambio de prisioneros separa y que lo traiciona con Diomedes. Chaucer lo cierra con una reflexión sobre el amor terrenal y el divino.",
+      "por_que_importa": "Es la obra más extensa de Chaucer y una de las mayores obras narrativas del inglés medio; también refleja su lectura de Boecio.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés medio en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Troilus_and_Criseyde",
+          "idioma": "enm",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Troilo y Criseida (Chaucer)",
+        "en": "Troilus and Criseyde"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "de-mulieribus-claris",
+      "titulo": "De las mujeres célebres",
+      "titulo_original": "De mulieribus claris",
+      "autor": "Giovanni Boccaccio",
+      "autor_id": "giovanni-boccaccio",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1361,
+        "anio_hasta": 1362,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1361,
+        "hasta": 1362
+      },
+      "idioma_original": "Latín",
+      "soporte": "Libro",
+      "resumen": "Colección de 106 biografías de mujeres, sobre todo de la Antigüedad, de Eva a Juana de Nápoles, escrita en latín. Boccaccio las presenta como ejemplos de virtud o de vicio.",
+      "por_que_importa": "Cristina de Pizan lo usó como fuente de La ciudad de las damas (1405), para contestarlo y corregirlo.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/De_mulieribus_claris",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "De mulieribus claris",
+        "en": "De Mulieribus Claris"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "de-arte-venandi-cum-avibus",
+      "titulo": "Sobre el arte de cazar con aves",
+      "titulo_original": "De arte venandi cum avibus",
+      "autor": "Federico II del Sacro Imperio",
+      "autor_id": "federico-ii",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1241,
+        "anio_hasta": 1248,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1241,
+        "hasta": 1248
+      },
+      "idioma_original": "Latín",
+      "soporte": "Tratado",
+      "resumen": "Tratado de cetrería en seis libros del emperador Federico II, que quedó incompleto. Corrige a Aristóteles donde la observación de las aves lo contradice y describe la anatomía, el vuelo y las migraciones. Su hijo Manfredo lo revisó.",
+      "por_que_importa": "Es un ejemplo temprano de observación sistemática de la naturaleza en el Occidente medieval.",
+      "leer": [],
+      "wikipedia": {
+        "es": "De arte venandi cum avibus",
+        "en": "De arte venandi cum avibus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "veni-creator-spiritus",
+      "titulo": "Veni Creator Spiritus",
+      "titulo_original": "Veni Creator Spiritus",
+      "autor": "Rabano Mauro",
+      "autor_id": "rabano-mauro",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 809,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 809,
+        "hasta": 809
+      },
+      "idioma_original": "Latín",
+      "soporte": "Himno",
+      "resumen": "Himno al Espíritu Santo que la tradición atribuye a Rabano Mauro; la atribución no es segura. Se canta en Pentecostés y en ordenaciones, consagraciones y la elección de los papas, con una melodía gregoriana que se conoce desde la abadía de Kempten hacia el año 1000.",
+      "por_que_importa": "Es uno de los himnos más usados de la liturgia latina y tuvo traducciones a muchas lenguas.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Veni_Creator_Spiritus",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Veni Creator Spiritus",
+        "en": "Veni Creator Spiritus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "ut-queant-laxis",
+      "titulo": "Ut queant laxis",
+      "titulo_original": "Ut queant laxis",
+      "autor": "Pablo el Diácono",
+      "autor_id": "pablo-el-diacono",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 770,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 770,
+        "hasta": 770
+      },
+      "idioma_original": "Latín",
+      "soporte": "Himno",
+      "resumen": "Himno a san Juan Bautista en sáficos, atribuido por la tradición al historiador lombardo Pablo el Diácono. Las primeras sílabas de cada verso (ut, re, mi, fa, sol, la) suben por grados de la escala, y Guido de Arezzo se sirvió de ellas para enseñar a cantar.",
+      "por_que_importa": "Es el origen de los nombres de las notas musicales.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Ut_queant_laxis",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ut queant laxis",
+        "en": "Ut queant laxis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "landnamabok",
+      "titulo": "Libro del asentamiento",
+      "titulo_original": "Landnámabók",
+      "autor": "Anónimo (tradición islandesa)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1275,
+        "anio_hasta": 1300,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "islandia"
+        ],
+        "desde": 870,
+        "hasta": 1100
+      },
+      "idioma_original": "Nórdico antiguo",
+      "soporte": "Crónica genealógica",
+      "resumen": "Relato de la colonización de Islandia, con los nombres de unas tres mil personas y las tierras que tomó cada una. Se conserva en versiones de los siglos XIII y XIV (Sturlubók, de Sturla Þórðarson; Melabók; Hauksbók). Ari Þorgilsson pudo escribir la primera versión; ninguna se conserva.",
+      "por_que_importa": "Es la fuente principal sobre los primeros colonos y sus genealogías, aunque menciona descendientes de hasta el siglo XI.",
+      "leer": [
+        {
+          "titulo": "Texto en islandés en Wikisource",
+          "url": "https://is.wikisource.org/wiki/Landn%C3%A1mab%C3%B3k",
+          "idioma": "is",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Landnámabók",
+        "en": "Landnámabók"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "saga-de-egil",
+      "titulo": "Saga de Egil Skallagrímsson",
+      "titulo_original": "Egils saga",
+      "autor": "Anónimo (atribuida por parte de la crítica a Snorri Sturluson)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1220,
+        "anio_hasta": 1240,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "islandia",
+          "escandinavia"
+        ],
+        "desde": 900,
+        "hasta": 1000
+      },
+      "idioma_original": "Nórdico antiguo",
+      "soporte": "Saga",
+      "resumen": "Saga islandesa sobre el escaldo y guerrero Egil, de la familia de Skalla-Grímr, que vive entre Noruega, Inglaterra e Islandia. El manuscrito más antiguo, un fragmento, es de hacia 1250. Es la única fuente sobre su vida; muchos estudiosos la atribuyen a Snorri Sturluson por parecidos con la Heimskringla, pero el autor no consta.",
+      "por_que_importa": "Combina versos escáldicos con una prosa que cuenta el conflicto entre los jefes de Islandia y los reyes de Noruega.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Saga de Egil Skallagrímson",
+        "en": "Egil's Saga"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-de-fredegario",
+      "titulo": "Crónica de Fredegario",
+      "titulo_original": "Chronica Fredegarii",
+      "autor": "Anónimo (la atribución a «Fredegario» es del siglo XVI)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 660,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "alemania"
+        ],
+        "desde": 590,
+        "hasta": 642
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica franca escrita probablemente en Borgoña en el siglo VII. Empieza con la creación del mundo y llega hasta el año 642, con unas pocas alusiones hasta 658; algunos manuscritos la prolongan hasta la muerte de Pipino el Breve (768) con secciones carolingias. El autor no consta.",
+      "por_que_importa": "Con sus continuaciones, es una de las pocas fuentes sobre los merovingios después de 591, donde termina Gregorio de Tours.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de Fredegario",
+        "en": "Chronicle of Fredegar"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "landslov-de-magnus",
+      "titulo": "Ley del reino de Magnus Lagabøte",
+      "titulo_original": "Magnus Lagabøtes landslov",
+      "autor": "Magnus VI de Noruega",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1274,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia"
+        ],
+        "desde": 1274,
+        "hasta": 1274
+      },
+      "idioma_original": "Nórdico antiguo",
+      "soporte": "Código legal",
+      "resumen": "Código de leyes promulgado por el rey Magnus VI de Noruega, el «Reformador de las leyes», en 1274 para todo el reino, con las islas Feroe y Shetland. Sustituyó a las leyes regionales de los thing (Gulating, Frostating, Eidsivating y Borgarting); en 1276 se completó con una ley para las ciudades.",
+      "por_que_importa": "Fue la ley de Noruega durante cuatro siglos y la base de la ley noruega hasta el siglo XVII.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Magnus Lagabøtes landslov"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -16549,7 +17128,8 @@
       "resumen": "Obispo de Hipona, en el norte de África, y el pensador cristiano más influyente del Occidente latino. Unió el platonismo con la fe cristiana; sus ideas sobre la gracia, la voluntad, el tiempo y la historia marcaron toda la filosofía medieval.",
       "obras": [
         "confesiones",
-        "ciudad-de-dios"
+        "ciudad-de-dios",
+        "regla-de-san-agustin"
       ],
       "wikipedia": {
         "es": "Agustín de Hipona",
@@ -16916,7 +17496,8 @@
       ],
       "resumen": "Discípulo de Alcuino, abad de Fulda y arzobispo de Maguncia. Llamado «maestro de Germania», escribió la enciclopedia De rerum naturis y manuales para la formación del clero.",
       "obras": [
-        "de-rerum-naturis"
+        "de-rerum-naturis",
+        "veni-creator-spiritus"
       ],
       "wikipedia": {
         "es": "Rabano Mauro",
@@ -19257,7 +19838,8 @@
         "suma-de-teologia",
         "suma-contra-los-gentiles",
         "el-ente-y-la-esencia",
-        "sobre-la-unidad-del-intelecto"
+        "sobre-la-unidad-del-intelecto",
+        "pange-lingua"
       ],
       "wikipedia": {
         "es": "Tomás de Aquino",
@@ -21172,7 +21754,9 @@
       "resumen": "Poeta florentino desterrado en 1302 por las luchas de partidos. Su Comedia, viaje por el Infierno, el Purgatorio y el Paraíso, resume la cosmología, la filosofía y la teología de su tiempo y fijó la lengua italiana; en Monarquía defendió la independencia del poder imperial frente al papa.",
       "obras": [
         "divina-comedia",
-        "monarquia"
+        "monarquia",
+        "vida-nueva",
+        "de-vulgari-eloquentia"
       ],
       "wikipedia": {
         "es": "Dante Alighieri",
@@ -21243,7 +21827,8 @@
       ],
       "resumen": "Escritor florentino, autor del Decamerón, cien relatos contados por jóvenes que huyen de la peste de 1348. Admirador de Dante y amigo de Petrarca, promovió el estudio del griego en Florencia.",
       "obras": [
-        "decameron"
+        "decameron",
+        "de-mulieribus-claris"
       ],
       "wikipedia": {
         "es": "Giovanni Boccaccio",
@@ -21274,7 +21859,8 @@
       ],
       "resumen": "Funcionario y diplomático de la corte inglesa que viajó a Italia y conoció la obra de Dante y Boccaccio. Sus Cuentos de Canterbury hicieron del inglés de Londres una lengua literaria.",
       "obras": [
-        "cuentos-de-canterbury"
+        "cuentos-de-canterbury",
+        "troilo-y-criseida"
       ],
       "wikipedia": {
         "es": "Geoffrey Chaucer",
@@ -21306,7 +21892,11 @@
       ],
       "resumen": "Poeta de la corte de María de Champaña que creó la novela artúrica: Lancelot, Ivain y Perceval, donde aparece por primera vez el Grial.",
       "obras": [
-        "lancelot"
+        "lancelot",
+        "erec-y-enide",
+        "cliges",
+        "yvain",
+        "perceval-o-el-cuento-del-grial"
       ],
       "wikipedia": {
         "es": "Chrétien de Troyes",
@@ -21608,7 +22198,8 @@
       ],
       "resumen": "Monje lombardo que pasó por la corte de Carlomagno y en Montecassino escribió la Historia de los lombardos, la fuente principal de su pueblo.",
       "obras": [
-        "historia-de-los-lombardos"
+        "historia-de-los-lombardos",
+        "ut-queant-laxis"
       ],
       "wikipedia": {
         "es": "Pablo Diácono",
@@ -23240,7 +23831,8 @@
       ],
       "resumen": "Rey de Sicilia y emperador, llamado «asombro del mundo». Su corte reunió a traductores, astrólogos y poetas, fundó la Universidad de Nápoles y escribió un tratado de cetrería basado en la observación.",
       "obras": [
-        "cartas-de-federico-ii"
+        "cartas-de-federico-ii",
+        "de-arte-venandi-cum-avibus"
       ],
       "wikipedia": {
         "es": "Federico II Hohenstaufen",
@@ -24225,6 +24817,1769 @@
         "en": "John II of Aragon"
       },
       "wikidata": "Q312328"
+    },
+    {
+      "id": "leon-i-el-magno",
+      "nombre": "León I el Magno",
+      "nacimiento": {
+        "anio": 390,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 461,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 440,
+        "hasta": 461,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 440 a 461. Su carta a Flaviano de Constantinopla (el Tomo a Flaviano) fijó la doctrina de las dos naturalezas de Cristo en una sola persona, que el Concilio de Calcedonia (451) adoptó. Según Próspero de Aquitania, en 452 convenció a Atila de retirarse de Italia; los historiadores discuten cuánto pesó su gestión frente al hambre y las epidemias en el ejército huno. Desarrolló la idea de la autoridad del obispo de Roma como sucesor de Pedro.",
+      "obras": [],
+      "wikipedia": {
+        "es": "León I (papa)",
+        "en": "Pope Leo I"
+      },
+      "wikidata": "Q43954"
+    },
+    {
+      "id": "celestino-i",
+      "nombre": "Celestino I",
+      "muerte": {
+        "anio": 432,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 422,
+        "hasta": 432,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 422 a 432. Su sínodo romano de 430 condenó a Nestorio y le encargó a Cirilo de Alejandría ejecutar la condena si no se retractaba; el Concilio de Éfeso (431) trató el mismo asunto. Según Próspero de Aquitania, en 429 mandó a Germán de Auxerre a Britania contra los pelagianos y en 431 ordenó a Paladio primer obispo de los escotos que creían en Cristo, en Irlanda.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Celestino I",
+        "en": "Pope Celestine I"
+      },
+      "wikidata": "Q160922"
+    },
+    {
+      "id": "gelasio-i",
+      "nombre": "Gelasio I",
+      "muerte": {
+        "anio": 496,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 492,
+        "hasta": 496,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 492 a 496, nacido en la África romana según el Liber Pontificalis (él se decía «romano de nacimiento»). Durante el cisma de Acacio exigió que Constantinopla borrara de sus dípticos el nombre de Acacio y defendió el primado de Roma. En su carta Duo sunt a Anastasio I (494) distinguió dos poderes por los que se rige el mundo, la autoridad sagrada de los pontífices y la potestad real, y dijo que la responsabilidad de los sacerdotes es mayor; la fórmula pesó durante siglos en la discusión entre Iglesia e imperio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gelasio I",
+        "en": "Pope Gelasius I"
+      },
+      "wikidata": "Q162135"
+    },
+    {
+      "id": "hormisdas",
+      "nombre": "Hormisdas",
+      "nacimiento": {
+        "anio": 450,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 523,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 514,
+        "hasta": 523,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 514 a 523. Puso fin al cisma de Acacio, que duraba desde 484: el 28 de marzo de 519 Constantinopla ratificó la reunión con Roma, sobre la base de una fórmula de fe que él propuso y que reconocía la sede romana como norma de ortodoxia. Su pontificado coincide con la caída de Boecio en la corte ostrogoda (523).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hormisdas",
+        "en": "Pope Hormisdas"
+      },
+      "wikidata": "Q160931"
+    },
+    {
+      "id": "juan-i-papa",
+      "nombre": "Juan I",
+      "muerte": {
+        "anio": 526,
+        "aprox": false,
+        "lugar": "Ravena",
+        "lon": 12.202,
+        "lat": 44.416
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 523,
+        "hasta": 526,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 523 a 526, oriundo de Toscana. Con el monje Dionisio el Exiguo ayudó a fijar el cómputo occidental de la Pascua (525). El rey ostrogodo Teodorico, arriano, lo envió a Constantinopla para pedir mejor trato a los arrianos; a su regreso lo encarceló en Rávena, acusado de conspirar con el emperador, y murió el 18 de mayo de 526 por el maltrato. Boecio había sido ejecutado poco antes, bajo sospechas parecidas de connivencia con Constantinopla.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan I (papa)",
+        "en": "Pope John I"
+      },
+      "wikidata": "Q160916"
+    },
+    {
+      "id": "honorio-i",
+      "nombre": "Honorio I",
+      "muerte": {
+        "anio": 638,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 625,
+        "hasta": 638,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 625 a 638. Apoyó la cristianización de los anglosajones y envió a Birino a los sajones occidentales. Su correspondencia con el patriarca Sergio de Constantinopla sobre la voluntad de Cristo se tomó después como apoyo al monotelismo: el III Concilio de Constantinopla (681) lo anatematizó y León II confirmó la condena. Los teólogos católicos discuten desde entonces si sus cartas enseñaban esa doctrina o solo evitaban una disputa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Honorio I",
+        "en": "Pope Honorius I"
+      },
+      "wikidata": "Q170502"
+    },
+    {
+      "id": "martin-i",
+      "nombre": "Martín I",
+      "nacimiento": {
+        "anio": 598,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 655,
+        "aprox": false,
+        "lugar": "Quersoneso",
+        "lon": 33.493,
+        "lat": 44.612
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 649,
+        "hasta": 653,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 649 a 653 o 654, elegido sin esperar la confirmación del emperador. En 649 reunió el Concilio de Letrán, que condenó el monotelismo y el decreto imperial que prohibía discutirlo (el Tipo de Constante II), con Máximo el Confesor entre sus inspiradores. El exarca lo arrestó, lo llevó a Constantinopla, donde fue juzgado por traición, y lo desterró a Querson, en Crimea, donde murió el 16 de septiembre de 655. Es el último papa venerado como mártir.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Martín I",
+        "en": "Pope Martin I"
+      },
+      "wikidata": "Q172390"
+    },
+    {
+      "id": "leon-iii-papa",
+      "nombre": "León III",
+      "nacimiento": {
+        "anio": 750,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 816,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 795,
+        "hasta": 816,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 795 a 816. El 25 de abril de 799 una facción de la nobleza romana lo atacó en la calle; lo rescataron enviados de Carlomagno, que lo recibió en Paderborn. El 25 de diciembre de 800 coronó emperador a Carlomagno en San Pedro, gesto que Constantinopla no aprobó. Sus enemigos lo habían acusado de delitos; el 23 de diciembre juró su inocencia ante Carlomagno.",
+      "obras": [],
+      "wikipedia": {
+        "es": "León III (papa)",
+        "en": "Pope Leo III"
+      },
+      "wikidata": "Q132086"
+    },
+    {
+      "id": "gregorio-ii",
+      "nombre": "Gregorio II",
+      "nacimiento": {
+        "anio": 669,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 731,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 715,
+        "hasta": 731,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 715 a 731. Según el Liber Pontificalis, se negó a acatar las órdenes imperiales contra las imágenes, lo que abrió una larga serie de revueltas y rupturas con Constantinopla que llevó al poder temporal de los papas. Envió a Bonifacio a evangelizar Germania y lo consagró obispo en 722.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gregorio II",
+        "en": "Pope Gregory II"
+      },
+      "wikidata": "Q103321"
+    },
+    {
+      "id": "gregorio-iii",
+      "nombre": "Gregorio III",
+      "muerte": {
+        "anio": 741,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 731,
+        "hasta": 741,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 731 a 741, de origen sirio. En noviembre de 731 reunió en Roma un sínodo que condenó la iconoclastia. En 739, frente al avance del rey lombardo Liutprando, envió embajadores a Carlos Martel para pedirle ayuda; Carlos no se comprometió, ocupado con la invasión omeya de la Galia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gregorio III",
+        "en": "Pope Gregory III"
+      },
+      "wikidata": "Q103268"
+    },
+    {
+      "id": "formoso",
+      "nombre": "Formoso",
+      "nacimiento": {
+        "anio": 816,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 896,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 891,
+        "hasta": 896,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 891 a 896. Intervino en las disputas por el patriarcado de Constantinopla, el reino de Francia occidental y el Imperio; por haberse puesto del lado de Arnulfo de Carintia contra Lamberto de Spoleto, su cadáver fue exhumado y juzgado en el llamado sínodo cadavérico (897) bajo Esteban VI, que lo acusó de haber pasado de la sede de Porto a la de Roma. Sus sucesores inmediatos discutieron su legado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Formoso",
+        "en": "Pope Formosus"
+      },
+      "wikidata": "Q170499"
+    },
+    {
+      "id": "juan-viii-papa",
+      "nombre": "Juan VIII",
+      "nacimiento": {
+        "anio": 820,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 882,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 872,
+        "hasta": 882,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 872 a 882. Coronó emperadores a Carlos el Calvo (875) y a Carlos el Gordo (881). Frente a las incursiones musulmanas en el sur de Italia pidió ayuda a los francos y a Bizancio sin lograrla y pagó tributo al emirato de Sicilia. En 879 reconoció a Focio como patriarca legítimo de Constantinopla, con lo que terminó el cisma focista. Apoyó la misión de Metodio entre los eslavos y autorizó la liturgia en eslavo antiguo. Según los Anales de Fulda, alguien de su entorno cercano (un «propinquus») lo envenenó y, como tardaba en morir, lo golpearon con un martillo (882).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan VIII",
+        "en": "Pope John VIII"
+      },
+      "wikidata": "Q170504"
+    },
+    {
+      "id": "juan-xii",
+      "nombre": "Juan XII",
+      "nacimiento": {
+        "anio": 937,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 964,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 955,
+        "hasta": 964,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 955 a 964, hijo de Alberico II, príncipe de Roma, emparentado con los condes de Túsculo. Pidió ayuda a Otón I frente a Berengario II, rey de Italia, y lo coronó emperador en 962. Poco después se enemistó con él: en 963 un sínodo reunido por Otón lo depuso y lo acusó de una vida disoluta; esas acusaciones nos llegan sobre todo por Liutprando de Cremona, partidario de Otón. Volvió a Roma y murió en 964.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan XII",
+        "en": "Pope John XII"
+      },
+      "wikidata": "Q172933"
+    },
+    {
+      "id": "alejandro-ii",
+      "nombre": "Alejandro II",
+      "nacimiento": {
+        "anio": 1010,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1073,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1061,
+        "hasta": 1073,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1061 a 1073, milanés, uno de los impulsores de la Pataria, el movimiento contra la simonía y el matrimonio del clero. Fue el primer papa elegido por los cardenales sin la intervención del pueblo y el bajo clero romanos, según el decreto de Nicolás II, y debió enfrentarse al antipapa Honorio II. Autorizó la conquista normanda de Inglaterra de 1066; Guillermo de Poitiers, cronista de Guillermo el Conquistador, cuenta que le envió un estandarte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alejandro II (papa)",
+        "en": "Pope Alexander II"
+      },
+      "wikidata": "Q171112"
+    },
+    {
+      "id": "calixto-ii",
+      "nombre": "Calixto II",
+      "nacimiento": {
+        "anio": 1065,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1124,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1119,
+        "hasta": 1124,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1119 a 1124, Guido de Borgoña, arzobispo de Vienne. Cerró la querella de las investiduras con el emperador Enrique V en el Concordato de Worms (1122) y reunió el I Concilio de Letrán (1123), que lo confirmó.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Calixto II",
+        "en": "Pope Callixtus II"
+      },
+      "wikidata": "Q170654"
+    },
+    {
+      "id": "alejandro-iii",
+      "nombre": "Alejandro III",
+      "nacimiento": {
+        "anio": 1100,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1181,
+        "aprox": false,
+        "lugar": "Civita Castellana",
+        "lon": 12.41,
+        "lat": 42.296
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1159,
+        "hasta": 1181,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1159 a 1181, Rolando de Siena; el apellido Bandinelli aparece recién en el siglo XIV y no está probado. Según Roberto de Torigni, enseñó teología en Bolonia. Durante mucho tiempo se lo confundió con el maestro Rolando, autor de la Summa sobre el Decreto de Graciano, pero John T. Noonan y Rudolf Weigand mostraron que era otra persona. Elegido en 1159, vio levantarse contra él una serie de antipapas apoyados por Federico I Barbarroja; la Liga Lombarda venció al emperador en Legnano (1176) y la paz de Venecia (1177) puso fin al cisma. Presidió el III Concilio de Letrán (1179) y canonizó a Tomás Becket (1173).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alejandro III (papa)",
+        "en": "Pope Alexander III"
+      },
+      "wikidata": "Q160116"
+    },
+    {
+      "id": "gregorio-ix",
+      "nombre": "Gregorio IX",
+      "muerte": {
+        "anio": 1241,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1227,
+        "hasta": 1241,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1227 a 1241, Ugolino dei conti di Segni; las fuentes discrepan sobre su nacimiento (entre 1145 y 1170). Protector de los franciscanos antes de ser papa, canonizó a Francisco (1228) y a Domingo (1234). Encargó a Raimundo de Peñafort las Decretales (1234), base del derecho canónico, e instituyó la inquisición pontificia (1231). Con la bula Parens scientiarum (1231) cerró la huelga de la Universidad de París y fijó su autonomía. Excomulgó dos veces a Federico II.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gregorio IX",
+        "en": "Pope Gregory IX"
+      },
+      "wikidata": "Q124831"
+    },
+    {
+      "id": "juan-xxii",
+      "nombre": "Juan XXII",
+      "nacimiento": {
+        "anio": 1244,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1334,
+        "aprox": false,
+        "lugar": "Aviñón",
+        "lon": 4.808,
+        "lat": 43.949
+      },
+      "activo": {
+        "lugar": "Aviñón",
+        "lon": 4.808,
+        "lat": 43.949,
+        "desde": 1316,
+        "hasta": 1334,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1316 a 1334, Jacques Duèze, que gobernó desde Aviñón. Canonizó a Tomás de Aquino en 1323. Declaró herética la doctrina de la pobreza absoluta de Cristo y de los apóstoles, lo que lo enfrentó a los franciscanos y a Ockham; también al emperador Luis IV de Baviera, que levantó contra él un antipapa (1328). En 1329 condenó proposiciones de Meister Eckhart con la bula In agro dominico. Sus sermones sobre la visión beatífica provocaron una controversia, y se retractó poco antes de morir.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan XXII",
+        "en": "Pope John XXII"
+      },
+      "wikidata": "Q165568"
+    },
+    {
+      "id": "martin-v",
+      "nombre": "Martín V",
+      "nacimiento": {
+        "anio": 1369,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1431,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1417,
+        "hasta": 1431,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1417 a 1431, Oddone Colonna. Elegido en el Concilio de Constanza el 11 de noviembre de 1417, puso fin al cisma de Occidente. Volvió a Roma en 1420, donde reordenó los Estados pontificios, y convocó el Concilio de Basilea, pero murió antes de que se abriera.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Martín V",
+        "en": "Pope Martin V"
+      },
+      "wikidata": "Q169612"
+    },
+    {
+      "id": "eugenio-iv",
+      "nombre": "Eugenio IV",
+      "nacimiento": {
+        "anio": 1383,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1447,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1431,
+        "hasta": 1447,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 1431 a 1447. Chocó con el Concilio de Basilea, que había convocado su predecesor, y lo trasladó a Ferrara y luego a Florencia (1438-1439), donde se firmó la unión con los griegos, que no duró. Vivió en Florencia de 1434 a 1443 y promovió la cruzada que terminó en Varna (1444).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eugenio IV",
+        "en": "Pope Eugene IV"
+      },
+      "wikidata": "Q167561"
+    },
+    {
+      "id": "eduardo-i-de-inglaterra",
+      "nombre": "Eduardo I de Inglaterra",
+      "nacimiento": {
+        "anio": 1239,
+        "aprox": false,
+        "lugar": "Palacio de Westminster",
+        "lon": -0.124,
+        "lat": 51.499
+      },
+      "muerte": {
+        "anio": 1307,
+        "aprox": false,
+        "lugar": "Burgh by Sands",
+        "lon": -3.051,
+        "lat": 54.923
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1272,
+        "hasta": 1307,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Inglaterra de 1272 a 1307. Regresó de la cruzada de 1270-1272 como rey, conquistó Gales (1277-1283) y lo gobernó con el Estatuto de Rhuddlan (1284), e intervino en la sucesión escocesa, lo que abrió las guerras de independencia de Escocia. Expulsó a los judíos de Inglaterra en 1290 y reunió en 1295 el llamado Parlamento Modelo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eduardo I de Inglaterra",
+        "en": "Edward I"
+      },
+      "wikidata": "Q57798"
+    },
+    {
+      "id": "beyazid-i",
+      "nombre": "Beyazid I",
+      "nacimiento": {
+        "anio": 1360,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1403,
+        "aprox": false,
+        "lugar": "Akşehir",
+        "lon": 31.416,
+        "lat": 38.359
+      },
+      "activo": {
+        "lugar": "Edirne",
+        "lon": 26.574,
+        "lat": 41.673,
+        "desde": 1389,
+        "hasta": 1402,
+        "aprox": false
+      },
+      "roles": [
+        "sultán"
+      ],
+      "resumen": "Sultán otomano de 1389 a 1402. Venció a la cruzada de Segismundo en Nicópolis (1396), sometió los emiratos de Anatolia y bloqueó Constantinopla. Timur lo derrotó y capturó en Ankara en 1402, y murió prisionero en 1403; la tradición posterior dice que lo encerró en una jaula, relato que los historiadores ponen en duda.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bayezid I",
+        "en": "Bayezid I"
+      },
+      "wikidata": "Q128358"
+    },
+    {
+      "id": "enrique-v-de-inglaterra",
+      "nombre": "Enrique V de Inglaterra",
+      "nacimiento": {
+        "anio": 1386,
+        "aprox": false,
+        "lugar": "Castillo de Monmouth",
+        "lon": -2.717,
+        "lat": 51.812
+      },
+      "muerte": {
+        "anio": 1422,
+        "aprox": false,
+        "lugar": "Castillo de Vincennes",
+        "lon": 2.436,
+        "lat": 48.843
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1413,
+        "hasta": 1422,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Inglaterra de 1413 a 1422. Reanudó la guerra de los Cien Años, venció en Azincourt (1415) y por el Tratado de Troyes (1420) quedó como heredero de Carlos VI de Francia, con cuya hija Catalina se casó. Murió de disentería en 1422, antes que el rey francés. Reprimió la revuelta de los lolardos de Oldcastle (1414).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique V de Inglaterra",
+        "en": "Henry V of England"
+      },
+      "wikidata": "Q131581"
+    },
+    {
+      "id": "leon-battista-alberti",
+      "nombre": "Leon Battista Alberti",
+      "nacimiento": {
+        "anio": 1404,
+        "aprox": false,
+        "lugar": "Génova",
+        "lon": 8.934,
+        "lat": 44.407
+      },
+      "muerte": {
+        "anio": 1472,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 1443,
+        "hasta": 1472,
+        "aprox": false
+      },
+      "roles": [
+        "humanista",
+        "arquitecto"
+      ],
+      "resumen": "Humanista nacido en Génova y formado en Padua y Bolonia; sacerdote y abreviador apostólico de Eugenio IV, Nicolás V y Pío II. Vivió en Florencia de 1434 a 1443 y en Roma de 1443 a 1472. Escribió De pictura (1435), el primer tratado renacentista sobre perspectiva, Della famiglia en italiano vulgar, De componendis cifris, su tratado de criptografía, y De re aedificatoria, sobre arquitectura según Vitruvio; proyectó edificios en Florencia, Rímini y Mantua.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Leon Battista Alberti",
+        "en": "Leon Battista Alberti"
+      },
+      "wikidata": "Q182046"
+    },
+    {
+      "id": "leonardo-da-vinci",
+      "nombre": "Leonardo da Vinci",
+      "nacimiento": {
+        "anio": 1452,
+        "aprox": false,
+        "lugar": "Vinci"
+      },
+      "muerte": {
+        "anio": 1519,
+        "aprox": false,
+        "lugar": "Francia"
+      },
+      "activo": {
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771,
+        "desde": 1472,
+        "hasta": 1482,
+        "aprox": false
+      },
+      "roles": [
+        "pintor",
+        "ingeniero"
+      ],
+      "resumen": "Pintor, ingeniero y científico italiano, formado en Florencia con Verrocchio. Trabajó para Ludovico Sforza en Milán de 1482 a 1499, donde pintó La última cena. Sus cuadernos reúnen dibujos y notas sobre anatomía, geología e hidrodinámica, que no publicó. Pintó la Virgen de las rocas antes de 1500 y empezó la Mona Lisa en 1503. Murió en Francia en 1519.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Leonardo da Vinci",
+        "en": "Leonardo da Vinci"
+      },
+      "wikidata": "Q762"
+    },
+    {
+      "id": "luis-xi",
+      "nombre": "Luis XI",
+      "nacimiento": {
+        "anio": 1423,
+        "aprox": false,
+        "lugar": "Bourges",
+        "lon": 2.396,
+        "lat": 47.079
+      },
+      "muerte": {
+        "anio": 1483,
+        "aprox": false,
+        "lugar": "Château de Plessis-lez-Tours",
+        "lon": 0.661,
+        "lat": 47.383
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1461,
+        "hasta": 1483,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Francia de 1461 a 1483. Sofocó la Liga del Bien Público (1465) y se enfrentó a Carlos el Temerario de Borgoña, que murió en Nancy en 1477; tras la derrota y muerte de Carlos se apoderó de Borgoña y de Picardía, y heredó Anjou y Provenza (1481-1482). Firmó con Eduardo IV el Tratado de Picquigny (1475).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis XI de Francia",
+        "en": "Louis XI"
+      },
+      "wikidata": "Q8058"
+    },
+    {
+      "id": "francois-villon",
+      "nombre": "François Villon",
+      "nacimiento": {
+        "anio": 1431,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1455,
+        "hasta": 1463,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta parisino que estudió en la Universidad de París. Escribió el Legado (1456) y el Testamento (hacia 1461). Condenado a muerte en 1463 tras una pelea callejera, el Parlamento le conmutó la pena por el destierro de París; no se sabe qué fue de él después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "François Villon",
+        "en": "François Villon"
+      },
+      "wikidata": "Q849"
+    },
+    {
+      "id": "girolamo-savonarola",
+      "nombre": "Girolamo Savonarola",
+      "nacimiento": {
+        "anio": 1452,
+        "aprox": false,
+        "lugar": "Ferrara",
+        "lon": 11.617,
+        "lat": 44.839
+      },
+      "muerte": {
+        "anio": 1498,
+        "aprox": false,
+        "lugar": "Plaza de la Señoría",
+        "lon": 11.256,
+        "lat": 43.77
+      },
+      "activo": {
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771,
+        "desde": 1490,
+        "hasta": 1498,
+        "aprox": false
+      },
+      "roles": [
+        "predicador",
+        "dominico"
+      ],
+      "resumen": "Fraile dominico ferrarés que predicó en Florencia contra el lujo y la corrupción del clero y anunció castigos divinos. Tras la expulsión de los Médici (1494) orientó la república florentina; según los cronistas, en el carnaval de 1497 se quemaron objetos de lujo en la «hoguera de las vanidades». Alejandro VI lo excomulgó; el 23 de mayo de 1498 fue ahorcado y quemado en la plaza de la Señoría.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Girolamo Savonarola",
+        "en": "Girolamo Savonarola"
+      },
+      "wikidata": "Q164823"
+    },
+    {
+      "id": "carlos-viii-de-francia",
+      "nombre": "Carlos VIII de Francia",
+      "nacimiento": {
+        "anio": 1470,
+        "aprox": false,
+        "lugar": "Amboise",
+        "lon": 0.983,
+        "lat": 47.411
+      },
+      "muerte": {
+        "anio": 1498,
+        "aprox": false,
+        "lugar": "Amboise",
+        "lon": 0.983,
+        "lat": 47.411
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1483,
+        "hasta": 1498,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Francia de 1483 a 1498. En 1494 invadió Italia para hacer valer los derechos angevinos sobre Nápoles y entró en la ciudad en 1495; se formó contra él una coalición con Venecia y el papa, que no logró detenerlo en Fornovo (1495), tras lo cual volvió a Francia. Su expedición abrió las guerras italianas y provocó la caída de los Médici en Florencia. Murió en Amboise.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos VIII de Francia",
+        "en": "Charles VIII of France"
+      },
+      "wikidata": "Q134452"
+    },
+    {
+      "id": "guido-iii-de-spoleto",
+      "nombre": "Guido III de Spoleto",
+      "nacimiento": {
+        "anio": 855,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 894,
+        "aprox": false,
+        "lugar": "Taro",
+        "lon": 10.26,
+        "lat": 45.004
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Duque de Spoleto, rey de Italia desde 889 tras disputárselo a Berengario, y emperador desde 891, cuando lo coronó el papa Esteban V. Murió en 894 y su hijo Lamberto le sucedió.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Guido III de Spoleto",
+        "en": "Guy III of Spoleto"
+      },
+      "wikidata": "Q309930"
+    },
+    {
+      "id": "lamberto-ii-de-spoleto",
+      "nombre": "Lamberto II de Spoleto",
+      "nacimiento": {
+        "anio": 880,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 898,
+        "aprox": false,
+        "lugar": "Marengo"
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Hijo de Guido, coronado coemperador en 892. Perdió terreno ante Arnulfo de Carintia, que tomó Roma en 896 con apoyo de Formoso, y murió en 898 en un accidente de caza, según las crónicas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lamberto II de Spoleto",
+        "en": "Lambert of Italy"
+      },
+      "wikidata": "Q354823"
+    },
+    {
+      "id": "luis-iii-el-ciego",
+      "nombre": "Luis III el Ciego",
+      "nacimiento": {
+        "anio": 880,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 928,
+        "aprox": false,
+        "lugar": "Arlés",
+        "lon": 4.629,
+        "lat": 43.677
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Rey de Provenza y emperador coronado en Roma en 901. Berengario de Friuli lo derrotó en Verona en 905 y lo cegó, de donde su apodo; volvió a Provenza, donde reinó hasta su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis III el Ciego",
+        "en": "Louis the Blind"
+      },
+      "wikidata": "Q310435"
+    },
+    {
+      "id": "berengario-i-de-friuli",
+      "nombre": "Berengario I de Friuli",
+      "nacimiento": {
+        "anio": 845,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 924,
+        "aprox": false,
+        "lugar": "Verona",
+        "lon": 10.993,
+        "lat": 45.439
+      },
+      "activo": {
+        "lugar": "Pavía",
+        "lon": 9.155,
+        "lat": 45.185,
+        "desde": 888,
+        "hasta": 924,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Rey de Italia desde 888, que durante 36 años enfrentó a otros siete pretendientes y las incursiones húngaras. Fue coronado emperador en 915 y asesinado en Verona en 924; después de su muerte el trono imperial quedó vacante hasta que Otón I lo recuperó en 962.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Berengario del Friul",
+        "en": "Berengar I of Italy"
+      },
+      "wikidata": "Q274606"
+    },
+    {
+      "id": "oton-ii",
+      "nombre": "Otón II",
+      "nacimiento": {
+        "anio": 955,
+        "aprox": false,
+        "lugar": "Sajonia"
+      },
+      "muerte": {
+        "anio": 983,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 973,
+        "hasta": 983,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Hijo de Otón I, coemperador desde 967 y emperador de 973 a 983; se casó con la princesa bizantina Teófano. Intentó extender el Imperio al sur de Italia y fue derrotado por los musulmanes en Cabo Colonna (982). En 983 los eslavos del Elba se sublevaron contra el Imperio. Murió en Roma.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Otón II",
+        "en": "Otto II, Holy Roman Emperor"
+      },
+      "wikidata": "Q150512"
+    },
+    {
+      "id": "oton-iii",
+      "nombre": "Otón III",
+      "nacimiento": {
+        "anio": 980,
+        "aprox": false,
+        "lugar": "Klever Reichswald",
+        "lon": 6.015,
+        "lat": 51.748
+      },
+      "muerte": {
+        "anio": 1002,
+        "aprox": false,
+        "lugar": "Civita Castellana",
+        "lon": 12.41,
+        "lat": 42.296
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 996,
+        "hasta": 1002,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Emperador de 996 a 1002, rey desde 983, a los tres años. Hizo elegir papa a su primo Bruno, Gregorio V, el primer papa alemán, que lo coronó el 21 de mayo de 996. Tuvo como maestro a Gerberto de Aurillac, a quien hizo papa como Silvestre II (999). Con su «renovación del Imperio romano» quiso hacer de Roma su sede. En el año 1000 visitó la tumba de Adalberto en Gniezno, donde se creó la archidiócesis polaca.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Otón III del Sacro Imperio Romano Germánico",
+        "en": "Otto III, Holy Roman Emperor"
+      },
+      "wikidata": "Q151090"
+    },
+    {
+      "id": "gregorio-v",
+      "nombre": "Gregorio V",
+      "nacimiento": {
+        "anio": 972,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 999,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.483,
+        "lat": 41.893
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 996,
+        "hasta": 999,
+        "aprox": false
+      },
+      "roles": [
+        "papa"
+      ],
+      "resumen": "Papa de 996 a 999, Bruno de Carintia, primo de Otón III, que lo hizo elegir; se lo cuenta como el primer papa alemán. Coronó emperador a Otón el 21 de mayo de 996. Huyó de Roma cuando Crescencio II y la nobleza romana eligieron al antipapa Juan XVI, y volvió con Otón en 998.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gregorio V",
+        "en": "Pope Gregory V"
+      },
+      "wikidata": "Q58571"
+    },
+    {
+      "id": "enrique-ii-del-sacro-imperio",
+      "nombre": "Enrique II del Sacro Imperio",
+      "nacimiento": {
+        "anio": 973,
+        "aprox": false,
+        "lugar": "Bad Abbach",
+        "lon": 12.05,
+        "lat": 48.933
+      },
+      "muerte": {
+        "anio": 1024,
+        "aprox": false,
+        "lugar": "Grone",
+        "lon": 9.901,
+        "lat": 51.535
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Rey de Alemania desde 1002 y emperador de 1014 a 1024, último de los Otones. Fundó el obispado de Bamberg (1007), combatió a Boleslao I de Polonia hasta la paz de Bautzen (1018) y fue canonizado (las fuentes dan 1146 o 1147).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique II del Sacro Imperio Romano Germánico",
+        "en": "Henry II, Holy Roman Emperor"
+      },
+      "wikidata": "Q103556"
+    },
+    {
+      "id": "conrado-ii",
+      "nombre": "Conrado II",
+      "nacimiento": {
+        "anio": 990,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1039,
+        "aprox": false,
+        "lugar": "Utrecht",
+        "lon": 5.122,
+        "lat": 52.091
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Primer emperador de la dinastía salia: elegido rey en 1024 por los príncipes al morir Enrique II sin heredero, coronado emperador en 1027. A la muerte de Rodolfo III (1032) reclamó Borgoña, la conquistó frente a Odón de Blois y se coronó en Payerne (1033).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Conrado II",
+        "en": "Conrad II, Holy Roman Emperor"
+      },
+      "wikidata": "Q152256"
+    },
+    {
+      "id": "enrique-iii-el-negro",
+      "nombre": "Enrique III el Negro",
+      "nacimiento": {
+        "anio": 1016,
+        "aprox": false,
+        "lugar": "Baviera",
+        "lon": 11.386,
+        "lat": 49.079
+      },
+      "muerte": {
+        "anio": 1056,
+        "aprox": false,
+        "lugar": "Bodfeld",
+        "lon": 10.839,
+        "lat": 51.789
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Emperador de 1046 a 1056, nacido en 1016 o 1017. En 1046 se presentó en Italia y en los sínodos de Sutri y Roma depuso a los tres papas que se disputaban la sede (Benedicto IX, Silvestre III y Gregorio VI) e impuso a Clemente II, que lo coronó. Colocó en el papado a obispos alemanes reformistas, entre ellos León IX.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique III el Negro",
+        "en": "Henry III, Holy Roman Emperor"
+      },
+      "wikidata": "Q153023"
+    },
+    {
+      "id": "enrique-v-del-sacro-imperio",
+      "nombre": "Enrique V del Sacro Imperio",
+      "nacimiento": {
+        "anio": 1086,
+        "aprox": false,
+        "lugar": "Goslar",
+        "lon": 10.429,
+        "lat": 51.906
+      },
+      "muerte": {
+        "anio": 1125,
+        "aprox": false,
+        "lugar": "Utrecht",
+        "lon": 5.122,
+        "lat": 52.091
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Se alió con los príncipes contra su padre Enrique IV y lo forzó a abdicar (1105). En 1111 capturó al papa Pascual II para obtener su coronación imperial. Cerró la querella de las investiduras con el Concordato de Worms (1122) y murió sin hijos en 1125, lo que puso fin a la dinastía salia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique V del Sacro Imperio Romano Germánico",
+        "en": "Henry V, Holy Roman Emperor"
+      },
+      "wikidata": "Q151707"
+    },
+    {
+      "id": "lotario-iii",
+      "nombre": "Lotario III",
+      "nacimiento": {
+        "anio": 1075,
+        "aprox": false,
+        "lugar": "Unterlüß",
+        "lon": 10.291,
+        "lat": 52.85
+      },
+      "muerte": {
+        "anio": 1137,
+        "aprox": false,
+        "lugar": "Breitenwang",
+        "lon": 10.728,
+        "lat": 47.489
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Duque de Sajonia, elegido rey en 1125 contra los Staufen y coronado emperador por Inocencio II en 1133. En las fuentes españolas figura como Lotario II. Apoyó a Inocencio II frente al antipapa Anacleto II.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lotario II del Sacro Imperio Romano Germánico",
+        "en": "Lothair III, Holy Roman Emperor"
+      },
+      "wikidata": "Q77189"
+    },
+    {
+      "id": "enrique-vi-del-sacro-imperio",
+      "nombre": "Enrique VI del Sacro Imperio",
+      "nacimiento": {
+        "anio": 1165,
+        "aprox": false,
+        "lugar": "Nimega",
+        "lon": 5.862,
+        "lat": 51.847
+      },
+      "muerte": {
+        "anio": 1197,
+        "aprox": false,
+        "lugar": "Mesina",
+        "lon": 15.554,
+        "lat": 38.194
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Hijo de Barbarroja, emperador desde 1191. Ricardo Corazón de León fue preso de Leopoldo V de Austria desde 1192 y de Enrique de marzo de 1193 a febrero de 1194, cuando lo liberó a cambio de un rescate enorme; Enrique tomó el reino de Sicilia en 1194 por los derechos de su esposa Constanza. Preparaba una cruzada cuando murió en Mesina en 1197.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique VI del Sacro Imperio Romano Germánico",
+        "en": "Henry VI, Holy Roman Emperor"
+      },
+      "wikidata": "Q150953"
+    },
+    {
+      "id": "oton-iv",
+      "nombre": "Otón IV del Sacro Imperio",
+      "nacimiento": {
+        "anio": 1175,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1218,
+        "aprox": false,
+        "lugar": "Harzburg",
+        "lon": 10.568,
+        "lat": 51.871
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Güelfo elegido rey en 1198 por una facción y coronado emperador por Inocencio III en 1209. Al pretender unir Sicilia al Imperio rompió con el papa, que lo excomulgó (1210). Aliado de Juan sin Tierra, fue derrotado en Bouvines (1214) y perdió el trono frente a Federico II.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Otón IV del Sacro Imperio Romano Germánico",
+        "en": "Otto IV, Holy Roman Emperor"
+      },
+      "wikidata": "Q151457"
+    },
+    {
+      "id": "enrique-vii-del-sacro-imperio",
+      "nombre": "Enrique VII del Sacro Imperio",
+      "nacimiento": {
+        "anio": 1275,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1313,
+        "aprox": false,
+        "lugar": "Buonconvento",
+        "lon": 11.483,
+        "lat": 43.133
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Conde de Luxemburgo, rey de Romanos en 1308 y emperador en 1312. Bajó a Italia en 1310 para restablecer la autoridad imperial; Dante le escribió cartas y le reservó un lugar en el Paraíso. Murió cerca de Siena en 1313 en plena campaña contra Nápoles.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique VII del Sacro Imperio Romano Germánico",
+        "en": "Henry VII, Holy Roman Emperor"
+      },
+      "wikidata": "Q152717"
+    },
+    {
+      "id": "luis-iv-de-baviera",
+      "nombre": "Luis IV de Baviera",
+      "nacimiento": {
+        "anio": 1282,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "muerte": {
+        "anio": 1347,
+        "aprox": false,
+        "lugar": "Puch",
+        "lon": 11.221,
+        "lat": 48.189
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Elegido rey en 1314 frente a Federico el Hermoso, a quien venció en Mühldorf (1322). Juan XXII lo excomulgó (1324). Se hizo coronar emperador en Roma en 1328 y nombró un antipapa; en su corte de Múnich se refugiaron Marsilio de Padua, Guillermo de Ockham y Miguel de Cesena. En 1338 la dieta de Rhense declaró que el elegido rey no necesitaba la confirmación papal.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis IV del Sacro Imperio Romano Germánico",
+        "en": "Louis IV, Holy Roman Emperor"
+      },
+      "wikidata": "Q57161"
+    },
+    {
+      "id": "segismundo-de-luxemburgo",
+      "nombre": "Segismundo de Luxemburgo",
+      "nacimiento": {
+        "anio": 1368,
+        "aprox": false,
+        "lugar": "ciudad imperial libre de Núremberg",
+        "lon": 11.083,
+        "lat": 49.45
+      },
+      "muerte": {
+        "anio": 1437,
+        "aprox": false,
+        "lugar": "Znojmo",
+        "lon": 16.049,
+        "lat": 48.856
+      },
+      "activo": {
+        "lugar": "Buda",
+        "lon": 19.05,
+        "lat": 47.467,
+        "desde": 1387,
+        "hasta": 1437,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Rey de Hungría desde 1387, de Romanos desde 1411, emperador desde 1433 y de Bohemia desde 1419 (efectivo en 1436). Fue derrotado en Nicópolis (1396). Impulsó el Concilio de Constanza, que puso fin al cisma de Occidente, y dio a Jan Hus un salvoconducto que no se respetó: Hus fue quemado en 1415, lo que desató las guerras husitas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Segismundo de Luxemburgo",
+        "en": "Sigismund, Holy Roman Emperor"
+      },
+      "wikidata": "Q57124"
+    },
+    {
+      "id": "federico-iii-de-habsburgo",
+      "nombre": "Federico III de Habsburgo",
+      "nacimiento": {
+        "anio": 1415,
+        "aprox": false,
+        "lugar": "Innsbruck",
+        "lon": 11.393,
+        "lat": 47.268
+      },
+      "muerte": {
+        "anio": 1493,
+        "aprox": false,
+        "lugar": "Linz",
+        "lon": 14.286,
+        "lat": 48.306
+      },
+      "activo": {
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208,
+        "desde": 1440,
+        "hasta": 1493,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "emperador"
+      ],
+      "resumen": "Rey de Alemania desde 1440 y emperador desde 1452, el último coronado en Roma. Reinó 53 años como rey (1440-1493), el reinado más largo de un monarca alemán. Casó a su hijo Maximiliano con María de Borgoña (1477), con lo que los Habsburgo heredaron los Países Bajos, y fue desplazado de Viena por Matías Corvino.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Federico III del Sacro Imperio Romano Germánico",
+        "en": "Frederick III, Holy Roman Emperor"
+      },
+      "wikidata": "Q150966"
+    },
+    {
+      "id": "conrado-iii-de-alemania",
+      "nombre": "Conrado III de Alemania",
+      "nacimiento": {
+        "anio": 1093,
+        "aprox": false,
+        "lugar": "Bamberg",
+        "lon": 10.892,
+        "lat": 49.892
+      },
+      "muerte": {
+        "anio": 1152,
+        "aprox": false,
+        "lugar": "Bamberg",
+        "lon": 10.892,
+        "lat": 49.892
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Primer rey de la casa de Staufen (1138-1152), elegido tras la muerte de Lotario III frente al güelfo Enrique el Soberbio. Dirigió la segunda cruzada junto a Luis VII; nunca fue coronado emperador.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Conrado III",
+        "en": "Conrad III of Germany"
+      },
+      "wikidata": "Q157133"
+    },
+    {
+      "id": "felipe-de-suabia",
+      "nombre": "Felipe de Suabia",
+      "nacimiento": {
+        "anio": 1177,
+        "aprox": false,
+        "lugar": "Pavía",
+        "lon": 9.155,
+        "lat": 45.185
+      },
+      "muerte": {
+        "anio": 1208,
+        "aprox": false,
+        "lugar": "Bamberg",
+        "lon": 10.892,
+        "lat": 49.892
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hijo de Barbarroja, elegido rey de Romanos en 1198 por los partidarios de los Staufen frente a Otón de Brunswick; el papa Inocencio III apoyó a Otón hasta 1207. Fue asesinado en 1208 por Otón de Wittelsbach.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Felipe de Suabia",
+        "en": "Philip of Swabia"
+      },
+      "wikidata": "Q121130"
+    },
+    {
+      "id": "guillermo-de-holanda",
+      "nombre": "Guillermo de Holanda",
+      "nacimiento": {
+        "anio": 1227,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1256,
+        "aprox": false,
+        "lugar": "Hoogwoud",
+        "lon": 4.937,
+        "lat": 52.715
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Conde de Holanda, elegido rey de Romanos en 1247 o 1248 (según la fuente) por los príncipes del partido papal contra los Staufen y coronado en Aquisgrán en 1248; solo fue rey sin rival desde 1254. Murió en 1256 en combate contra los frisones.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Guillermo de Holanda",
+        "en": "William II of Holland"
+      },
+      "wikidata": "Q77255"
+    },
+    {
+      "id": "jordan-de-sajonia",
+      "nombre": "Jordán de Sajonia",
+      "nacimiento": {
+        "anio": 1190,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1237,
+        "aprox": false,
+        "lugar": "Costa de Siria"
+      },
+      "roles": [
+        "dominico",
+        "predicador"
+      ],
+      "resumen": "Segundo maestro general de la Orden de Predicadores (1222-1237), sucesor de Domingo de Guzmán. Predicó en las universidades de París y Bolonia y atrajo a la orden a numerosos maestros y estudiantes, entre ellos a Alberto Magno, que según se cree se incorporó en Padua. Murió en un naufragio frente a la costa de Siria al volver de Palestina y lo enterraron en Acre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jordán de Sajonia",
+        "en": "Jordan of Saxony"
+      },
+      "wikidata": "Q60790"
+    },
+    {
+      "id": "raimundo-de-penafort",
+      "nombre": "Raimundo de Peñafort",
+      "nacimiento": {
+        "anio": 1175,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1275,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "activo": {
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383,
+        "desde": 1222,
+        "hasta": 1275,
+        "aprox": false
+      },
+      "roles": [
+        "dominico",
+        "jurista"
+      ],
+      "resumen": "Canonista catalán, dominico y maestro general de la orden (1238-1240). Compiló las Decretales de Gregorio IX (1234), el núcleo del derecho canónico medieval, y escribió una suma para confesores. Fue confesor de Jaime I de Aragón. Se le atribuye el impulso de la Studia linguarum, escuelas de lenguas semíticas de la orden, la primera en Túnez.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Raimundo de Peñafort",
+        "en": "Raymond of Peñafort"
+      },
+      "wikidata": "Q318980"
+    },
+    {
+      "id": "luis-viii-de-francia",
+      "nombre": "Luis VIII de Francia",
+      "nacimiento": {
+        "anio": 1187,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "muerte": {
+        "anio": 1226,
+        "aprox": false,
+        "lugar": "Montpensier",
+        "lon": 3.22,
+        "lat": 46.036
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1223,
+        "hasta": 1226,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Francia de 1223 a 1226. Dirigió en 1216 una invasión de Inglaterra a pedido de los barones rebeldes contra Juan sin Tierra y fracasó. Como rey tomó el Languedoc en la cruzada albigense y murió de disentería en 1226 al volver.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis VIII de Francia",
+        "en": "Louis VIII of France"
+      },
+      "wikidata": "Q165284"
+    },
+    {
+      "id": "felipe-iii-de-francia",
+      "nombre": "Felipe III de Francia",
+      "nacimiento": {
+        "anio": 1245,
+        "aprox": false,
+        "lugar": "Poissy Castle",
+        "lon": 2.042,
+        "lat": 48.929
+      },
+      "muerte": {
+        "anio": 1285,
+        "aprox": false,
+        "lugar": "Perpiñán",
+        "lon": 2.895,
+        "lat": 42.697
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1270,
+        "hasta": 1285,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Francia de 1270 a 1285, hijo de Luis IX; estaba con su padre en Túnez cuando este murió. Heredó el condado de Tolosa en 1271. Tras las Vísperas sicilianas dirigió la cruzada de Aragón (1285) en apoyo de su tío Carlos de Anjou y contra Pedro III; el ejército cayó enfermo y se retiró, y murió de disentería en Perpiñán.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Felipe III de Francia",
+        "en": "Philip III of France"
+      },
+      "wikidata": "Q172203"
+    },
+    {
+      "id": "luis-x-de-francia",
+      "nombre": "Luis X de Francia",
+      "nacimiento": {
+        "anio": 1289,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "muerte": {
+        "anio": 1316,
+        "aprox": false,
+        "lugar": "Castillo de Vincennes",
+        "lon": 2.436,
+        "lat": 48.843
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1314,
+        "hasta": 1316,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Francia de 1314 a 1316, hijo de Felipe IV. Gobernó durante la gran hambruna y concedió cartas a la nobleza provincial; en 1315 permitió volver a Francia a los judíos expulsados. Murió dejando embarazada a su esposa, y su hijo Juan I vivió solo unos días.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis X de Francia",
+        "en": "Louis X of France"
+      },
+      "wikidata": "Q8384"
+    },
+    {
+      "id": "hisham-ii",
+      "nombre": "Hisham II",
+      "nacimiento": {
+        "anio": 965,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Córdoba",
+        "lon": -4.78,
+        "lat": 37.89,
+        "desde": 976,
+        "hasta": 1013,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Califa de Córdoba (976-1009 y 1010-1013), hijo de al-Hakam II, que subió al trono de niño. Gobernó en su nombre Almanzor, y después sus hijos, hasta la guerra civil de 1009. Depuesto y restituido, desapareció hacia 1013; las fuentes no dicen cómo murió.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hisham II",
+        "en": "Hisham II of Córdoba"
+      },
+      "wikidata": "Q169640"
     }
   ],
   "hechos": [
@@ -27065,6 +29420,489 @@
       "wikipedia": {
         "es": "Invasión mongola de Europa",
         "en": "Mongol invasion of Europe"
+      }
+    },
+    {
+      "id": "reconquista",
+      "titulo": "Reconquista",
+      "anio": 722,
+      "anio_hasta": 1492,
+      "aprox": false,
+      "lugar": "Toledo",
+      "lon": -4.033,
+      "lat": 39.867,
+      "tipo": "batalla",
+      "resumen": "Nombre que la historiografía da al avance de los reinos cristianos del norte de la Península contra al-Ándalus, desde Covadonga (722, fecha tradicional) hasta la toma de Granada (1492). La idea de restaurar el reino visigodo ya aparece en la Crónica profética (883-884); el término y la lectura de una empresa continua se consolidaron en la historiografía nacionalista española del siglo XIX. Que haya sido una empresa continua con un solo objetivo es discutido: los reinos cristianos también guerrearon entre sí, y hubo alianzas con señores musulmanes (el Cid sirvió al rey de la taifa de Zaragoza).",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Reconquista",
+        "en": "Reconquista"
+      }
+    },
+    {
+      "id": "batalla-de-sagrajas",
+      "titulo": "Batalla de Sagrajas",
+      "anio": 1086,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sagrajas",
+      "lon": -6.901,
+      "lat": 38.923,
+      "tipo": "batalla",
+      "resumen": "Tras la toma de Toledo por Alfonso VI (1085), los reyes de taifas pidieron ayuda al emir almorávide Yusuf ibn Tashufin, que venció a Alfonso VI el 23 de octubre de 1086 cerca de Badajoz. Alfonso contó con el apoyo de Sancho Ramírez de Aragón. Yusuf volvió enseguida a África y Alfonso no perdió territorio ni Toledo; los almorávides anexaron las taifas desde 1090.",
+      "regiones": [
+        "iberia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Sagrajas",
+        "en": "Battle of Sagrajas"
+      }
+    },
+    {
+      "id": "batalla-de-bannockburn",
+      "titulo": "Batalla de Bannockburn",
+      "anio": 1314,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bannockburn",
+      "lon": -3.938,
+      "lat": 56.093,
+      "tipo": "batalla",
+      "resumen": "El 23 y 24 de junio de 1314, Roberto Bruce, rey de Escocia, venció cerca de Stirling al ejército de Eduardo II de Inglaterra, que acudía a levantar el sitio del castillo. Afirmó su reinado, aunque Inglaterra no reconoció la independencia escocesa hasta el tratado de Edimburgo y Northampton (1328).",
+      "regiones": [
+        "caledonia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Bannockburn",
+        "en": "Battle of Bannockburn"
+      }
+    },
+    {
+      "id": "batalla-de-kulikovo",
+      "titulo": "Batalla de Kulikovo",
+      "anio": 1380,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Kulikovo",
+      "lon": 38.654,
+      "lat": 53.653,
+      "tipo": "batalla",
+      "resumen": "El 8 de septiembre de 1380, Dmitri de Moscú, que desde entonces se llamó Donskói, venció con otros príncipes rusos a las fuerzas de Mamai, jefe militar de la Horda de Oro, junto al Don. Fue la primera victoria rusa de ese tamaño sobre los mongoles; Mamai cayó en 1381 ante el kan Toqtamish, que saqueó Moscú en 1382 y restableció el tributo.",
+      "regiones": [
+        "rus"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Kulikovo",
+        "en": "Battle of Kulikovo"
+      }
+    },
+    {
+      "id": "batalla-de-bosworth",
+      "titulo": "Batalla de Bosworth",
+      "anio": 1485,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bosworth",
+      "lon": -1.41,
+      "lat": 52.591,
+      "tipo": "batalla",
+      "resumen": "El 22 de agosto de 1485, Enrique Tudor venció en Leicestershire a Ricardo III de Inglaterra, que murió en el combate. Enrique subió al trono como Enrique VII y fundó la dinastía Tudor; la tradición toma esta batalla como el fin de la guerra de las Dos Rosas, aunque el último combate fue en Stoke Field (1487).",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Bosworth",
+        "en": "Battle of Bosworth Field"
+      }
+    },
+    {
+      "id": "guerra-de-las-dos-rosas",
+      "titulo": "Guerra de las Dos Rosas",
+      "anio": 1455,
+      "anio_hasta": 1487,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "batalla",
+      "resumen": "Guerra dinástica entre las casas de Lancaster y York por el trono de Inglaterra, que empezó en St Albans (1455) y terminó con la victoria de Enrique Tudor en Bosworth (1485) y en Stoke Field (1487). La corona pasó varias veces de una casa a la otra, entre Enrique VI (Lancaster) y Eduardo IV (York). El nombre de las «rosas» es posterior: se difundió con la novela de Walter Scott (1829), y la rosa roja de Lancaster como emblema se introdujo después de Bosworth.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de las Dos Rosas",
+        "en": "Wars of the Roses"
+      }
+    },
+    {
+      "id": "guerras-italianas",
+      "titulo": "Guerras italianas",
+      "anio": 1494,
+      "anio_hasta": 1559,
+      "aprox": false,
+      "lugar": "Nápoles",
+      "lon": 14.249,
+      "lat": 40.836,
+      "tipo": "batalla",
+      "resumen": "Serie de guerras por el control de Italia entre Francia, la monarquía hispánica, el Imperio, Venecia y el papado. Empezaron con la invasión de Carlos VIII de Francia en 1494, que reclamaba el reino de Nápoles, y terminaron con la paz de Cateau-Cambrésis (1559), que dejó gran parte de la península bajo dominio español.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras italianas (1494-1559)",
+        "en": "Italian Wars"
+      }
+    },
+    {
+      "id": "batalla-de-kosovo-1448",
+      "titulo": "Segunda batalla de Kosovo",
+      "anio": 1448,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Kosovo Polje",
+      "lon": 21.12,
+      "lat": 42.63,
+      "tipo": "batalla",
+      "resumen": "Del 17 al 20 de octubre de 1448, el sultán Murad II venció en el Campo de los Mirlos al ejército cruzado de Juan Hunyadi, regente de Hungría, que buscaba la revancha de Varna (1444). Dejó libre el camino otomano hacia Serbia y los Balcanes y terminó con las esperanzas de socorrer a Constantinopla, que cayó en 1453.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Segunda batalla de Kosovo",
+        "en": "Battle of Kosovo (1448)"
+      }
+    },
+    {
+      "id": "tercera-cruzada",
+      "titulo": "Tercera cruzada",
+      "anio": 1189,
+      "anio_hasta": 1192,
+      "aprox": false,
+      "lugar": "Acre",
+      "lon": 35.084,
+      "lat": 32.926,
+      "tipo": "batalla",
+      "resumen": "Convocada por el papa Gregorio VIII tras la pérdida de Jerusalén ante Saladino (1187), reunió a Federico I Barbarroja, Felipe II de Francia y Ricardo I de Inglaterra. Barbarroja murió ahogado en Anatolia (1190); Ricardo y Felipe tomaron Acre (julio de 1191); Felipe volvió a Francia y Ricardo venció a Saladino en Arsuf, pero no pudo tomar Jerusalén. El tratado de Jaffa (1192) dejó la costa a los cristianos y permitió peregrinar a la ciudad. Los episodios militares están en el paquete de Tierra Santa (sitio de Acre, Arsuf, tratado de Jaffa).",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Tercera cruzada",
+        "en": "Third Crusade"
+      }
+    },
+    {
+      "id": "cruzada-de-1101",
+      "titulo": "Cruzada de 1101",
+      "anio": 1101,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Constantinopla",
+      "lon": 28.976,
+      "lat": 41.012,
+      "tipo": "batalla",
+      "resumen": "Tras la primera cruzada, Pascual II llamó a una expedición para reforzar el reino de Jerusalén y rescatar a Bohemundo de Tarento, preso de los dánishmendíes. Salieron grupos de lombardos, franceses, borgoñones y alemanes, al mando de Raimundo de Tolosa y Esteban de Blois, entre otros; los turcos selyúcidas y dánishmendíes los derrotaron por separado en Anatolia durante 1101.",
+      "regiones": [
+        "anatolia",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de 1101",
+        "en": "Crusade of 1101"
+      }
+    },
+    {
+      "id": "cruzada-noruega",
+      "titulo": "Cruzada noruega",
+      "anio": 1107,
+      "anio_hasta": 1110,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "batalla",
+      "resumen": "El rey Sigurd I de Noruega salió en 1107 con una flota y viajó por Inglaterra, Galicia, Portugal, las Baleares y Sicilia, donde lo recibió Roger II; las sagas cuentan combates contra musulmanes en el camino. Llegó a Jerusalén en 1110 y ayudó a Balduino I a tomar Sidón, y regresó por Constantinopla. Fue el primer rey europeo que fue en persona a Tierra Santa. Las fuentes ubican el final en 1110 o 1111.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "escandinavia"
+      ],
+      "fuentes": [
+        "heimskringla"
+      ],
+      "wikipedia": {
+        "es": "Cruzada noruega",
+        "en": "Norwegian Crusade"
+      }
+    },
+    {
+      "id": "cruzada-de-1197",
+      "titulo": "Cruzada de 1197",
+      "anio": 1197,
+      "anio_hasta": 1198,
+      "aprox": false,
+      "lugar": "Acre",
+      "lon": 35.084,
+      "lat": 32.926,
+      "tipo": "batalla",
+      "resumen": "Cruzada organizada por el emperador Enrique VI, en parte para reparar el fracaso de su padre Barbarroja en la tercera. Enrique murió en Mesina el 28 de septiembre de 1197, antes de partir; la disputa por el trono entre Felipe de Suabia y Otón de Brunswick hizo que muchos nobles volvieran a Alemania. Los que siguieron ocuparon la costa entre Tiro y Trípoli y tomaron Sidón y Beirut en 1197 (Beirut el 24 de octubre).",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de 1197",
+        "en": "Crusade of 1197"
+      }
+    },
+    {
+      "id": "francocracia",
+      "titulo": "Francocracia",
+      "anio": 1204,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Constantinopla",
+      "lon": 28.976,
+      "lat": 41.012,
+      "tipo": "politico",
+      "resumen": "Nombre que se da al conjunto de estados y señoríos de franceses e italianos creados en territorio bizantino tras el saqueo de Constantinopla de 1204 y la partición del Imperio acordada entre los cruzados y Venecia. Entre ellos, el Imperio latino de Constantinopla (hasta 1261), el principado de Acaya y el ducado de Atenas; las colonias venecianas duraron más. Su duración varía según la región. En la Grecia franca trabajó Guillermo de Moerbeke, arzobispo de Corinto, que tradujo a Aristóteles y a Proclo del griego.",
+      "regiones": [
+        "anatolia",
+        "balcanes"
+      ],
+      "fuentes": [
+        "conquista-de-constantinopla"
+      ],
+      "wikipedia": {
+        "es": "Francocracia",
+        "en": "Frankokratia"
+      }
+    },
+    {
+      "id": "cruzada-de-los-ninos",
+      "titulo": "Cruzada de los niños",
+      "anio": 1212,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Colonia",
+      "lon": 6.958,
+      "lat": 50.942,
+      "tipo": "batalla",
+      "resumen": "Movimiento popular de 1212, nunca aprobado por Inocencio III, que reunió en Alemania (con Nicolás de Colonia) y en el norte de Francia (con Esteban de Cloyes) a miles de jóvenes y pobres que querían llegar a Tierra Santa por la fuerza de la fe. Giovanni Miccoli (1961) notó que las fuentes de la época no los describen como niños, y Peter Raedts (1977) sostiene que eran sobre todo pobres errantes; Gary Dickson (2008) los ubica entre los movimientos de pobres «imposibilistas» de la época. Relatos posteriores cuentan que mercaderes los vendieron como esclavos; los historiadores creen que el relato tradicional mezcla hechos con leyenda y discuten las edades y las cifras.",
+      "regiones": [
+        "alemania",
+        "francia",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de los niños",
+        "en": "Children's Crusade"
+      }
+    },
+    {
+      "id": "novena-cruzada",
+      "titulo": "Cruzada de Eduardo",
+      "anio": 1271,
+      "anio_hasta": 1272,
+      "aprox": false,
+      "lugar": "Acre",
+      "lon": 35.084,
+      "lat": 32.926,
+      "tipo": "batalla",
+      "resumen": "Expedición del príncipe Eduardo de Inglaterra, el futuro Eduardo I, llamada la novena cruzada, que prolongó la octava. Llegó a Acre en 1271 y tuvo choques limitados con el sultán mameluco Baibars; firmó en mayo de 1272 la tregua de Cesarea, de 10 años, 10 meses y 10 días. En junio de 1272 sobrevivió a un intento de asesinato; dejó Acre en septiembre, supo en Sicilia de la muerte de su padre Enrique III (noviembre de 1272) y llegó a Inglaterra en 1274. Fue la última cruzada que llegó a Tierra Santa antes de la caída de Acre (1291).",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Novena cruzada",
+        "en": "Lord Edward's crusade"
+      }
+    },
+    {
+      "id": "cruzadas-de-esmirna",
+      "titulo": "Cruzadas de Esmirna",
+      "anio": 1343,
+      "anio_hasta": 1351,
+      "aprox": false,
+      "lugar": "Esmirna",
+      "lon": 27.1,
+      "lat": 38.4,
+      "tipo": "batalla",
+      "resumen": "Dos cruzadas del papa Clemente VI, desde Aviñón, contra el emirato de Aydin de Umur Bey, cuyo puerto de Esmirna servía a la piratería. Una liga de Venecia, Chipre, los hospitalarios y el papa tomó el puerto en 1344; Umur murió en 1348. Esmirna siguió en manos cristianas hasta que Tamerlán la tomó en 1402.",
+      "regiones": [
+        "anatolia",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de Esmirna",
+        "en": "Smyrniote crusades"
+      }
+    },
+    {
+      "id": "cruzada-de-alejandria",
+      "titulo": "Cruzada de Alejandría",
+      "anio": 1365,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "batalla",
+      "resumen": "En octubre de 1365 el rey Pedro I de Chipre, con el apoyo del papa Urbano V, saqueó Alejandría del 9 al 12 de octubre y se retiró. Peter Edbury y Jo van Steenbergen sostienen que buscó sobre todo desviar el comercio de Alejandría hacia Famagusta.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de Alejandría",
+        "en": "Alexandrian Crusade"
+      }
+    },
+    {
+      "id": "iii-concilio-de-letran",
+      "titulo": "III Concilio de Letrán",
+      "anio": 1179,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "religioso",
+      "resumen": "Reunido en marzo de 1179 por Alejandro III tras la paz de Venecia con Barbarroja, con unos 300 obispos y 27 cánones. Estableció que el papa fuera elegido solo por los cardenales y por dos tercios de los votos, para evitar nuevos cismas. Condenó a los cátaros. Su canon 18 obligó a cada catedral a mantener un maestro que enseñara gratis a los clérigos y a los alumnos pobres, y a no cobrar la licencia para enseñar, lo que ayudó a la formación de escuelas que después fueron universidades. Otros cánones prohibieron la usura y que judíos y musulmanes tuvieran sirvientes cristianos.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "III Concilio de Letrán",
+        "en": "Third Council of the Lateran"
+      }
+    },
+    {
+      "id": "conquista-franca-de-turingia",
+      "titulo": "Conquista franca de Turingia",
+      "anio": 531,
+      "anio_hasta": 532,
+      "aprox": false,
+      "lugar": "Turingia",
+      "lon": 11.0,
+      "lat": 51.0,
+      "tipo": "politico",
+      "resumen": "El reino de los turingios, que había alcanzado su mayor extensión en la primera mitad del siglo VI, fue conquistado por los francos en 531-532. Según Gregorio de Tours, el rey Hermanfrido se alió con Teoderico I de Austrasia contra su hermano Baderico, y luego Teoderico lo venció en dos batallas y tomó la región del Unstrut; según Gregorio (Historia de los francos III, 8), Hermanfrido cayó o lo empujaron de la muralla de Zülpich mientras hablaba con Teoderico; Gregorio dice no saber quién lo empujó, «aunque muchos aseguran que fue una trampa de Teoderico».",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "historia-de-los-francos"
+      ],
+      "wikipedia": {
+        "es": "Turingios",
+        "en": "Thuringi"
+      }
+    },
+    {
+      "id": "mision-de-willibrord",
+      "titulo": "Misión de Willibrord en Frisia",
+      "anio": 695,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Utrecht",
+      "lon": 5.122,
+      "lat": 52.091,
+      "tipo": "religioso",
+      "resumen": "El monje anglosajón Willibrord, enviado a Frisia con once compañeros a pedido de Pipino de Herstal, viajó a Roma, donde el papa Sergio I lo consagró como arzobispo de los frisones el 21 de noviembre de 695, según una nota del propio Willibrord en el calendario de Echternach; Beda da 696. Puso su sede en Utrecht y fundó la abadía de Echternach en 698. Beda lo cuenta.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "historia-eclesiastica-de-beda"
+      ],
+      "wikipedia": {
+        "es": "Vilibrordo",
+        "en": "Willibrord"
+      }
+    },
+    {
+      "id": "edicto-de-paris",
+      "titulo": "Edicto de París",
+      "anio": 614,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "tratado",
+      "resumen": "Código de 24 artículos promulgado el 18 de octubre de 614 por Clotario II, rey de los francos, tras el Concilio de París. Regulaba la justicia y garantizaba derechos de la Iglesia y de la aristocracia, tras la guerra civil entre los descendientes de las reinas Brunequilda y Fredegunda. Es el último de los capitulares merovingios.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Edicto de Clotario",
+        "en": "Edict of Paris"
+      }
+    },
+    {
+      "id": "batalla-de-tertry",
+      "titulo": "Batalla de Tertry",
+      "anio": 687,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tertry",
+      "lon": 3.969,
+      "lat": 49.863,
+      "tipo": "batalla",
+      "resumen": "Los austrasianos de Pipino II (de Herstal) derrotaron a los neustrios y borgoñones en Tertry, en el Somme. Después Pipino dictó el futuro político de Neustria y quedó como mayordomo de palacio dominante en todo el reino franco; los Annales Mettenses priores, escritos bajo sus descendientes, lo narran como una hazaña.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Tertry",
+        "en": "Battle of Tertry"
+      }
+    },
+    {
+      "id": "arzobispado-de-nidaros",
+      "titulo": "Arzobispado de Nidaros",
+      "anio": 1152,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Nidaros (Trondheim)",
+      "lon": 10.4,
+      "lat": 63.44,
+      "tipo": "religioso",
+      "resumen": "Los obispos noruegos dependían del arzobispo de Hamburgo-Bremen y luego del de Lund. El papa Eugenio III envió como legado al cardenal Nicolás de Albano (Nicholas Breakspear, después Adriano IV), y en 1152, o poco después según las fuentes, se creó la archidiócesis metropolitana de Nidaros, con jurisdicción sobre Noruega y sus territorios del Atlántico norte.",
+      "regiones": [
+        "escandinavia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Arquidiócesis de Nidaros",
+        "en": "Roman Catholic Archdiocese of Nidaros"
       }
     }
   ],
