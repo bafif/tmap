@@ -204,7 +204,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
       latín.
 - [x] Capas de las regiones: todas las eras, religiones, culturas e idiomas que estaban cortadas en Europa, el Cercano
       Oriente, Asia, Mesoamérica, los Andes y el Río de la Plata, hasta hoy y con sus minorías; Nubia completa;
-      correcciones de entradas viejas anacrónicas (el cananeo desde 3500 a. C., el quechua desde 1000 a. C.); diez
+      correcciones de entradas viejas anacrónicas (el cananeo desde 3500 a. C., el quechua desde 1000 a. C.); nueve
       familias nuevas.
 - [x] `consultar.py texto` trae el artículo completo, para cotejar dos idiomas; `aplicar` extiende una capa que sigue a
       otra idéntica en vez de duplicarla.
