@@ -1226,6 +1226,17 @@ def orden_arreglar() -> int:
     return 0
 
 
+def sin_espacios_sobrantes(x):
+    """Los textos sin espacios al principio ni al final: la app los recorta al cargar y la traducción ya no coincide."""
+    if isinstance(x, str):
+        return x.strip()
+    if isinstance(x, list):
+        return [sin_espacios_sobrantes(v) for v in x]
+    if isinstance(x, dict):
+        return {k: sin_espacios_sobrantes(v) for k, v in x.items()}
+    return x
+
+
 def orden_aplicar() -> int:
     if len(sys.argv) < 4:
         sys.exit("uso: huecos.py aplicar <carpeta del tema> <paquete> [--escribir]")
@@ -1233,9 +1244,9 @@ def orden_aplicar() -> int:
     enc = Enciclopedia()
     if destino not in enc.paquetes:
         sys.exit(f"no existe el paquete {destino}")
-    salida = leer_json(carpeta / "salida.json", {})
-    familias = leer_json(carpeta / "familias-nuevas.json", [])
-    parches = leer_json(carpeta / "parches.json", [])
+    salida = sin_espacios_sobrantes(leer_json(carpeta / "salida.json", {}))
+    familias = sin_espacios_sobrantes(leer_json(carpeta / "familias-nuevas.json", []))
+    parches = sin_espacios_sobrantes(leer_json(carpeta / "parches.json", []))
     if salida.get("paquete") in enc.paquetes:
         sys.exit(f"salida.json se llama como un paquete existente ({salida['paquete']}): en meta.txt va otro nombre, "
                  f"como huecos-{destino}, para que construir.py vea el paquete al resolver referencias")
