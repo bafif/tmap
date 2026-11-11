@@ -3541,6 +3541,72 @@
         "es": "Censo argentino de 2022"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "desventuras-en-el-pais-jardin-de-infantes",
+      "titulo": "Desventuras en el país-jardín-de-infantes",
+      "titulo_original": null,
+      "autor": "María Elena Walsh",
+      "autor_id": "maria-elena-walsh",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1976,
+        "hasta": 1979
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en Clarín el 16 de agosto de 1979 en el que Walsh habla de la censura de la dictadura militar. Fue su publicación más conocida y polémica; el título se reutilizó en 1993 para un libro.",
+      "por_que_importa": "Es una crítica pública a la censura durante la dictadura, escrita desde adentro del país.",
+      "leer": [],
+      "wikipedia": {
+        "es": "María Elena Walsh",
+        "en": "María Elena Walsh"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-pasion-segun-trelew",
+      "titulo": "La pasión según Trelew",
+      "titulo_original": null,
+      "autor": "Tomás Eloy Martínez",
+      "autor_id": "tomas-eloy-martinez",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": 1972,
+        "hasta": 1972
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Crónica periodística de Tomás Eloy Martínez sobre la fuga del penal de Rawson y la masacre de Trelew de agosto de 1972. Se publicó en 1973 y se reeditó en 1997.",
+      "por_que_importa": "Es una crónica sobre la masacre de Trelew publicada un año después, por un periodista que había cubierto la fuga de Rawson.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tomás Eloy Martínez",
+        "en": "Tomás Eloy Martínez"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -8284,6 +8350,330 @@
         "en": "María Eugenia Vidal"
       },
       "wikidata": "Q6782004"
+    },
+    {
+      "id": "atanasof",
+      "nombre": "Alfredo Atanasof",
+      "nacimiento": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.92
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2002,
+        "hasta": 2003,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "sindicalista"
+      ],
+      "resumen": "Dirigente peronista de origen sindical, secretario general de la federación de sindicatos de trabajadores municipales bonaerenses y diputado nacional por Buenos Aires en tres períodos (1995-2002, 2003-2007 y 2009-2013). Fue ministro de Trabajo de Duhalde del 3 de enero al 3 de mayo de 2002 y jefe de Gabinete del 3 de mayo de 2002 al 25 de mayo de 2003, el período de la masacre de Avellaneda y del adelantamiento de las elecciones. En 2020 el gobierno de Alberto Fernández lo designó embajador en Bulgaria.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfredo Atanasof",
+        "en": "Alfredo Atanasof"
+      },
+      "wikidata": "Q8195340"
+    },
+    {
+      "id": "anibal-fernandez",
+      "nombre": "Aníbal Fernández",
+      "nacimiento": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Quilmes",
+        "lon": -58.267,
+        "lat": -34.717
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2002,
+        "hasta": 2023,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "politico"
+      ],
+      "resumen": "Contador y abogado peronista, intendente de Quilmes (1991-1995) y ministro de Producción de Duhalde, del Interior de Néstor Kirchner y de Justicia, Seguridad y Derechos Humanos de Cristina Kirchner. Fue jefe de Gabinete dos veces, desde el 8 de julio de 2009 hasta el 10 de diciembre de 2011, en reemplazo de Massa, y del 26 de febrero al 10 de diciembre de 2015, en reemplazo de Capitanich; también fue senador, candidato a gobernador de Buenos Aires en 2015 (perdió con Vidal) y ministro de Seguridad de Alberto Fernández (2021-2023). El 2 de agosto de 2015, en Periodismo para todos y una semana antes de las PASO en las que él era precandidato a gobernador, Martín Lanatta, condenado por el triple crimen de General Rodríguez, lo acusó de ser el autor intelectual de esos asesinatos; Lanatta ratificó la acusación ante la justicia y después se desdijo, y Fernández siempre la rechazó. No consta que Fernández haya sido procesado por el triple crimen. En 2019 fue condenado a indemnizar al Partido Obrero por calumnias, injurias y daño moral, por dichos de 2009.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aníbal Fernández",
+        "en": "Aníbal Fernández"
+      },
+      "wikidata": "Q2857937"
+    },
+    {
+      "id": "lencinas",
+      "nombre": "Carlos Washington Lencinas",
+      "nacimiento": {
+        "anio": 1888,
+        "aprox": false,
+        "lugar": "Departamento Rivadavia",
+        "lon": -68.467,
+        "lat": -33.183
+      },
+      "muerte": {
+        "anio": 1929,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "activo": {
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89,
+        "desde": 1922,
+        "hasta": 1929,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado"
+      ],
+      "resumen": "Dirigente radical de Mendoza, hijo de José Néstor Lencinas y gobernador de la provincia de 1922 a 1924. Su corriente, el lencinismo, antes alineado con los antipersonalistas de Alvear, sancionó legislación social (jornada de ocho horas, salario mínimo, cajas de jubilaciones) y se enfrentó con Yrigoyen; el gobierno nacional de Alvear intervino la provincia en 1924. Murió asesinado en 1929, siendo senador electo al que el Senado no había aceptado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Washington Lencinas",
+        "en": "Carlos Washington Lencinas"
+      },
+      "wikidata": "Q5042783"
+    },
+    {
+      "id": "reutemann",
+      "nombre": "Carlos Reutemann",
+      "nacimiento": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "muerte": {
+        "anio": 2021,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "activo": {
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633,
+        "desde": 1991,
+        "hasta": 2021,
+        "aprox": false
+      },
+      "roles": [
+        "piloto",
+        "politico"
+      ],
+      "resumen": "Piloto de Fórmula 1 que perdió el campeonato de 1981 por un punto, gobernador peronista de Santa Fe (1991-1995 y 1999-2003), senador nacional (1995-1999) y de nuevo desde 2003 hasta su muerte, en 2021. Durante su segundo gobierno, en diciembre de 2001, la policía provincial mató en Rosario a Claudio «Pocho» Lepratti, y la inundación de Santa Fe de 2003 dejó 23 muertos según su gobierno y unos 160 según las organizaciones de damnificados; lo denunciaron en 2004 y la fiscal lo desvinculó, y no fue condenado. Fue una figura del Peronismo Federal opositor desde 2008; en 2002 Duhalde le propuso ser candidato presidencial y declinó, y en 2015 apoyó a Macri desde Cambiemos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Reutemann",
+        "en": "Carlos Reutemann"
+      },
+      "wikidata": "Q173238"
+    },
+    {
+      "id": "gelman",
+      "nombre": "Juan Gelman",
+      "nacimiento": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1975,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "periodista"
+      ],
+      "resumen": "Poeta y periodista, militó en las FAR y, desde su fusión en 1973, en Montoneros, que en abril de 1975 lo envió a Roma; fue secretario de prensa para Europa hasta 1979, cuando se fue en desacuerdo con el verticalismo militar de la conducción y Montoneros lo condenó a muerte por traición. En 1976 secuestraron a sus hijos Nora, liberada después, y Marcelo, y a su nuera María Claudia García, embarazada: los restos de Marcelo se identificaron en 1990, los de María Claudia no aparecieron y en 2000 apareció en Uruguay su nieta Macarena, nacida en cautiverio; en 2011 la Corte Interamericana condenó a Uruguay en Gelman vs. Uruguay. Tuvo orden de captura por causas atribuidas a Montoneros hasta 1988, rechazó el indulto de Menem de 1989 y recibió el Premio Cervantes en 2007.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Gelman",
+        "en": "Juan Gelman"
+      },
+      "wikidata": "Q519851"
+    },
+    {
+      "id": "solanas",
+      "nombre": "Pino Solanas",
+      "nacimiento": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Olivos",
+        "lon": -58.483,
+        "lat": -34.5
+      },
+      "muerte": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "Neuilly-sur-Seine",
+        "lon": 2.268,
+        "lat": 48.887
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1968,
+        "hasta": 2019,
+        "aprox": false
+      },
+      "roles": [
+        "cineasta",
+        "politico"
+      ],
+      "resumen": "Cineasta y político. Con Octavio Getino codirigió «La hora de los hornos» (1968), documental sobre el neocolonialismo, fundó el grupo Cine Liberación y filmó en 1971 la entrevista a Perón en Madrid («Perón: actualización política y doctrinaria para la toma del poder»); amenazado por la Triple A, se exilió en 1976. El 21 de mayo de 1991, tres días después de criticar a Menem, que lo denunció por calumnias e injurias, fue baleado en las piernas por desconocidos y lo atribuyó al gobierno, sin que se identificara a los autores; fue diputado (1993-1997 y 2009-2013), senador (2013-2019, electo por UNEN), candidato presidencial en 2007, diputado en 2019 por el Frente de Todos, banca a la que renunció para ser embajador ante la Unesco hasta su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pino Solanas",
+        "en": "Fernando Solanas"
+      },
+      "wikidata": "Q508497"
+    },
+    {
+      "id": "torres",
+      "nombre": "Juan José Torres",
+      "nacimiento": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "Cochabamba",
+        "lon": -66.157,
+        "lat": -17.394
+      },
+      "muerte": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "San Andrés de Giles",
+        "lon": -59.44,
+        "lat": -34.45
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1973,
+        "hasta": 1976,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "politico"
+      ],
+      "resumen": "Militar boliviano, presidente de Bolivia de 1970 a 1971, cuando lo derrocó el golpe de Banzer; se exilió en el Perú, en Chile y por último en Buenos Aires, donde siguió después del golpe argentino de 1976. Lo secuestraron el 1 de junio de 1976 y su cuerpo apareció el 2 bajo un puente en San Andrés de Giles. Se lo atribuye al Plan Cóndor y a grupos ligados al gobierno de Videla; no consta condena por este crimen.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan José Torres",
+        "en": "Juan José Torres"
+      },
+      "wikidata": "Q195762"
+    },
+    {
+      "id": "maria-elena-walsh",
+      "nombre": "María Elena Walsh",
+      "nacimiento": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Villa Sarmiento",
+        "lon": -58.567,
+        "lat": -34.633
+      },
+      "muerte": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1945,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "cantautora",
+        "escritora"
+      ],
+      "resumen": "Poeta, cantautora y escritora, conocida por sus canciones y libros para niños. Durante la dictadura se opuso al régimen: el 16 de agosto de 1979 publicó en Clarín «Desventuras en el país-jardín-de-infantes», contra la censura de los militares.",
+      "obras": [
+        "desventuras-en-el-pais-jardin-de-infantes"
+      ],
+      "wikipedia": {
+        "es": "María Elena Walsh",
+        "en": "María Elena Walsh"
+      },
+      "wikidata": "Q188848"
+    },
+    {
+      "id": "tomas-eloy-martinez",
+      "nombre": "Tomás Eloy Martínez",
+      "nacimiento": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "San Miguel de Tucumán",
+        "lon": -65.217,
+        "lat": -26.817
+      },
+      "muerte": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1972,
+        "hasta": 1975,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "periodista"
+      ],
+      "resumen": "Escritor y periodista tucumano. En 1973 publicó «La pasión según Trelew», sobre la masacre de 1972; amenazado por la Triple A, vivió exiliado en Caracas de 1975 a 1983. Es autor de «La novela de Perón» (1985) y «Santa Evita» (1995).",
+      "obras": [
+        "la-pasion-segun-trelew"
+      ],
+      "wikipedia": {
+        "es": "Tomás Eloy Martínez",
+        "en": "Tomás Eloy Martínez"
+      },
+      "wikidata": "Q1362119"
     }
   ],
   "hechos": [
@@ -8658,8 +9048,8 @@
         "la-patagonia-rebelde"
       ],
       "wikipedia": {
-        "es": "La Patagonia rebelde",
-        "en": "Rebellion in Patagonia"
+        "es": "Patagonia rebelde",
+        "en": "Patagonia Rebelde"
       }
     },
     {
@@ -9386,7 +9776,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-pasion-segun-trelew"
+      ],
       "wikipedia": {
         "es": "Masacre de Trelew",
         "en": "Trelew massacre"
@@ -11125,6 +11517,107 @@
       "fuentes": [],
       "wikipedia": {
         "es": "Viborazo"
+      }
+    },
+    {
+      "id": "eleccion-de-alvear",
+      "titulo": "Elección de Alvear",
+      "anio": 1922,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 2 de abril de 1922, con Yrigoyen terminando su mandato, la UCR llevó a Marcelo T. de Alvear, embajador en Francia, y a Elpidio González, amigo de Yrigoyen; con el 50,5 % de los votos superó a Norberto Piñero, de la Concentración Nacional (conservadora). Votaron solo los varones y la participación fue del 55 %; el Colegio Electoral los proclamó el 12 de junio, con 235 votos de 376, y la Asamblea Legislativa aprobó la elección el 27 de julio.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "ley-saenz-pena"
+      ],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1922",
+        "en": "1922 Argentine general election"
+      }
+    },
+    {
+      "id": "eleccion-de-ortiz",
+      "titulo": "Elección de Ortiz",
+      "anio": 1937,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 5 de septiembre de 1937 la Concordancia, que gobernaba con el presidente Justo, llevó a Roberto Ortiz y Ramón Castillo contra Alvear y Enrique Mosca, de la UCR, que había levantado la abstención de 1931, y el socialista Nicolás Repetto. Ortiz obtuvo alrededor del 55 % de los votos entre denuncias de intimidación, relleno de urnas y padrones con difuntos, el «fraude patriótico» de la Década Infame; Alvear ganó donde hubo fiscales de mesa opositores o gobiernos radicales (Córdoba, Tucumán, La Rioja y la Capital). Ortiz era radical antipersonalista, y la UCR había levantado la abstención en 1935.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1937",
+        "en": "1937 Argentine presidential election"
+      }
+    },
+    {
+      "id": "asesinato-de-lencinas",
+      "titulo": "Asesinato de Carlos Washington Lencinas",
+      "anio": 1929,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mendoza",
+      "lon": -68.844,
+      "lat": -32.89,
+      "tipo": "politico",
+      "resumen": "El 10 de noviembre de 1929, de regreso en Mendoza tras el rechazo de su diploma de senador por el Senado, Lencinas murió de un balazo al asomarse a un balcón del Club de Armas, en un acto de sus seguidores; en el tiroteo siguiente murieron otras dos personas y hubo más de veinte heridos. El crimen no se esclareció: se atribuyó a un tal Cáceres, muerto en el enfrentamiento (algo que el historiador Dardo Olguín discute), y las hipótesis van de un motivo personal a una conspiración política, del entorno yrigoyenista (el Klan Radical) o de otros sectores; una investigación periodística de 2004 consideró verosímil la conspiración sin poder determinar quién la organizó.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Carlos Washington Lencinas",
+        "en": "Carlos Washington Lencinas"
+      }
+    },
+    {
+      "id": "batalla-de-pradera-del-ganso",
+      "titulo": "Batalla de Pradera del Ganso (Goose Green)",
+      "anio": 1982,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Goose Green",
+      "lon": -58.969,
+      "lat": -51.829,
+      "tipo": "batalla",
+      "resumen": "Entre el 28 y el 29 de mayo de 1982 el 2.º Batallón de Paracaidistas británico atacó el istmo de Darwin, defendido por la Fuerza de Tareas Mercedes del teniente coronel Ítalo Piaggi (Regimiento de Infantería 12, una compañía del Regimiento 25, personal de la Fuerza Aérea y artillería antiaérea): fue el primer gran combate terrestre de la guerra. Murió el jefe británico, teniente coronel H. Jones, y la guarnición se rindió el 29 de mayo; hubo 18 británicos muertos y entre 45 y 57 argentinos (según la fuente) y unos 960 prisioneros argentinos. Los 114 isleños, que los argentinos mantenían desde el 1 de mayo bajo guardia armada en el salón comunal, casi un mes, quedaron libres; Piaggi justificó el encierro como protección contra la ira de los hombres de la Fuerza Aérea.",
+      "regiones": [
+        "patagonia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Pradera del Ganso",
+        "en": "Battle of Goose Green"
+      }
+    },
+    {
+      "id": "asesinato-de-juan-jose-torres",
+      "titulo": "Asesinato de Juan José Torres",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 1 de junio de 1976, poco más de dos meses después del golpe, secuestraron en Buenos Aires al expresidente boliviano Juan José Torres, exiliado desde 1971; su cuerpo apareció el 2 bajo un puente en San Andrés de Giles, a unos 120 km, con un balazo en la cabeza y dos en el cuello. Se lo ubica en el Plan Cóndor, la coordinación entre las dictaduras del Cono Sur; la investigación del periodista Martín Sivak implica a Banzer, a su primo Eduardo Banzer Ojopi, a Raúl Tijerina Barrientos y a Carlos Mena Burgos, y Michael Townley se adjudicó participación. No consta condena por este crimen. El gobierno de Banzer se opuso a que lo enterraran en Bolivia: sus restos estuvieron siete años en México y volvieron en 1983.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Asesinato de Juan José Torres"
       }
     }
   ],
