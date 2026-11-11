@@ -2,23 +2,19 @@
 
 [English](FORMATO.en.md)
 
-TellMAP es un atlas histórico (Godot) con una enciclopedia de **fichas**: fuentes (textos: libros, artículos,
-manifiestos, leyes, fallos, discursos), personas, hechos y lugares, ubicados en el espacio y el tiempo. La app no
-guarda los textos: guarda la ficha (título, autor, fechas, resumen propio) y **enlaza** a dónde leerlos. Esquema
-completo: [data/enciclopedia/ESQUEMA.md](../../../data/enciclopedia/ESQUEMA.md).
-
-Escribir cientos de fichas directamente en JSON es lento y propenso a errores. Este formato de texto, con una línea
-o un bloque por elemento, se escribe rápido, y `construir.py` lo convierte en paquetes verificados. Así se armaron los
-paquetes de la Edad Media, Tierra Santa y la época contemporánea. Cada tema vive en `<carpeta de temas>/<tema>/` (la
-carpeta puede estar fuera del repo: lo que vale son los paquetes que salen) y se arma con:
+Un formato de texto para escribir muchas fichas de la enciclopedia (fuentes, personas, hechos y lugares) de una vez,
+con una línea o un bloque por elemento, que es más rápido y deja menos errores que escribir el JSON a mano.
+`construir.py` lo convierte en paquetes verificados con el formato de
+[ESQUEMA.md](../../../data/enciclopedia/ESQUEMA.md). Cada tema vive en `<carpeta de temas>/<tema>/` (la carpeta puede
+estar fuera del repo: lo que vale son los paquetes que salen) y se arma con:
 
     python3 tools/enciclopedia/compacto/construir.py <carpeta de temas> --tema <tema>
 
 que resuelve cada artículo de Wikipedia (redirecciones, desambiguaciones, título en español y QID de Wikidata),
 toma coordenadas y lugares de Wikidata, compara las fechas con Wikidata, comprueba que cada enlace de lectura
-responda 200 y deja `temas/<tema>/informe.txt` con los avisos y `salida.json` con el paquete. **Se itera hasta que el
-informe quede limpio** (o con avisos explicados). Con `--tema` no escribe en el repo; sin `--tema` y con `--escribir`
-arma todos los temas juntos, resuelve las referencias entre ellos y escribe los paquetes en
+responda 200 y deja en la carpeta del tema `informe.txt` con los avisos y `salida.json` con el paquete. **Se itera
+hasta que el informe quede limpio** (o con avisos explicados). Con `--tema` no escribe en el repo; sin `--tema` y con
+`--escribir` arma todos los temas juntos, resuelve las referencias entre ellos y escribe los paquetes en
 `data/enciclopedia/paquetes/`.
 
 ## Reglas de contenido
@@ -31,7 +27,7 @@ arma todos los temas juntos, resuelve las referencias entre ellos y escribe los 
   persona condenada lo denuncia como persecución, se dice.
 - Resúmenes: 2 a 4 oraciones para fuentes (`r`) y 1 a 2 para `p` (por qué importa); 1 a 3 oraciones para personas,
   hechos y lugares. Sin adjetivos de opinión («brillante», «nefasto»).
-- Hechos posteriores a 2024: confirmalos con `consultar.py resumen` (tu memoria puede estar vieja o equivocada).
+- Hechos recientes o en curso (causas judiciales, guerras): confirmalos con `consultar.py resumen`.
 - Ids: minúsculas, sin tildes, con guiones (`teoria-general-keynes`, `keynes`). Antes de crear uno, fijate si ya
   existe en otro paquete: si existe, **usá ese id** y no lo redefinas (el constructor avisa «ID QUE YA EXISTE»). Si
   varios temas se escriben a la vez, conviene repartir de antemano qué tema define cada figura u obra compartida.
@@ -70,7 +66,7 @@ Todos UTF-8, con `#` para comentarios. Campos separados por ` | ` (nunca uses `|
 
 - tipo: `primaria` = documento de su época sobre su época (manifiesto, ley, fallo, discurso, carta, tratado, artículo
   científico original, libro de teoría escrito por su autor); `secundaria` = estudio posterior sobre otra época
-  (historiografía). Casi todo lo de esta tanda es primaria.
+  (historiografía).
 - géneros: `religioso historia cronica literatura poesia filosofia legal administrativo epistolar inscripcion
   geografia ciencia medicina sabiduria viajes ensayo arqueologia economia politica manifiesto discurso tecnologia
   periodismo`. Fallos, leyes, tratados, resoluciones y constituciones: `legal`. Artículos científicos: `ciencia`.
