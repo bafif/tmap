@@ -197,9 +197,11 @@ Londres sobre el Imperio Nuevo.
 }
 ```
 
-- `activo` es opcional: dónde trabajó, si no es el lugar de nacimiento. El mapa lo muestra ahí mientras vive. Puede
-  llevar `desde` y `hasta` (reinado o época de actividad conocida) para personas sin fechas de nacimiento o muerte:
-  `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta": -1336, "aprox": true}`.
+- `activo` es opcional: dónde trabajó, si no es el lugar de nacimiento. Puede llevar `desde` y `hasta` (reinado o
+  época de actividad conocida): `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta":
+  -1336, "aprox": true}`. Sin esos años, el mapa la muestra en `activo` mientras vive; con ellos, ahí solo esos años, y
+  antes en su lugar de nacimiento y después en el de su muerte, si se conocen (Pedro de Mendoza, en Guadix hasta 1536).
+  En personas sin fechas de nacimiento o muerte, esos años también ubican su vida.
   Sin ningún año, la persona no aparece en el mapa ni en «personas vivas».
 - Para personas antiguas con fechas inciertas, `aprox: true` y la mejor estimación académica.
 

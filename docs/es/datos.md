@@ -33,8 +33,8 @@ abierto. No copia los textos.
 
 - En la app: Ajustes → Datos y créditos, y cada resumen de Wikipedia lleva el enlace al artículo con su licencia.
 - Cliopatria pide citar su artículo en *Scientific Data* (2025),
-  [doi:10.1038/s41597-025-04516-9](https://doi.org/10.1038/s41597-025-04516-9). Los datos de `data/mapa/politico.*` y `unidades.bin` son una
-  adaptación (rasterizada y reorganizada por año) de Cliopatria, bajo la misma CC BY 4.0.
+  [doi:10.1038/s41597-025-04516-9](https://doi.org/10.1038/s41597-025-04516-9). Los datos de `data/mapa/politico.*` y
+  `unidades.bin` son una adaptación (rasterizada y reorganizada por año) de Cliopatria, bajo la misma CC BY 4.0.
 - La población por país se cita como pide Our World in Data: «HYDE (2023); Gapminder (2022); UN WPP (2024) – with
   major processing by Our World in Data». Cada estimación de una región dice en su fuente cuál de las tres usa y que
   llegó «vía Our World in Data».

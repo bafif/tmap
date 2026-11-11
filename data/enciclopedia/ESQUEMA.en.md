@@ -206,9 +206,11 @@ historian wrote in London about the New Kingdom.
 }
 ```
 
-- `activo` is optional: where they worked, if it isn't their birthplace. The map shows them there while they're alive.
-  It can carry `desde` and `hasta` (a reign or a known period of activity) for people without birth or death dates:
-  `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta": -1336, "aprox": true}`.
+- `activo` is optional: where they worked, if it isn't their birthplace. It can carry `desde` and `hasta` (a reign or
+  a known period of activity): `"activo": {"lugar": "Amarna", "lon": 30.896, "lat": 27.645, "desde": -1352, "hasta":
+  -1336, "aprox": true}`. Without those years, the map shows them at `activo` while they're alive; with them, only
+  during those years, and before that at their birthplace and afterwards where they died, if known (Pedro de Mendoza,
+  in Guadix until 1536). For people without birth or death dates, those years also place their life.
   Without any year, the person doesn't show up on the map or in "people alive".
 - For ancient people with uncertain dates, `aprox: true` and the best scholarly estimate.
 

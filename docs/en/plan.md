@@ -85,9 +85,8 @@ live.
   in `scripts/interfaz/tema.gd`; adding another is a matter of copying one.
 - **3D view** (planned): a mesh with the real relief (elevation is already in the pipeline), the same political
   texture from the 2D view projected on top, water with its own shader, clouds and particles. It'll be selectable in
-  Settings, with Forward+ (the project is already configured that way on Linux and Windows, with a fallback to
-  OpenGL for older machines; on Mac it uses Compatibility since 0.3.4, and anyone can choose the renderer in
-  Settings).
+  Settings, with Forward+ (the default renderer on Linux and Windows, with a fallback to OpenGL for older machines;
+  on Mac the default is Compatibility, and anyone can choose the renderer in Settings).
 
 ## How it's tested
 
@@ -103,7 +102,7 @@ live.
 - `python3 tools/pipeline/lamina.py ANIO x0 y0 x1 y1 salida.png`: a high-quality static plate of any year, without
   Godot (for example, [the world in AD 117](../assets/mundo_117.png)).
 
-### Storage and downloads
+## Storage and downloads
 
 TellMAP stores entries and links to the texts: what it distributes is measured in tens or hundreds of MB, not
 terabytes. The bulky stuff (people from Wikidata, population grids) will be downloaded in tiles by era and region, on
@@ -113,20 +112,20 @@ not Google Drive) are in [Storage and downloads](storage.md).
 
 ## Roadmap
 
-The details of each step, with what's done and what's left, are in [PROGRESO.en.md](../../PROGRESO.en.md).
+What's left of each step and the milestones of each version are in [the progress page](../../PROGRESO.en.md).
 
-| Phase | What it includes |
-|---|---|
-| **0.1** (current) | 2D map, borders from 3400 BC to 2024, timeline, side panel, pilot encyclopedia (Egypt) and world sample, live Wikipedia, themes and qualities |
-| **0.2** | Testing on other machines (so far: Vulkan on a GTX 1050 Ti), distance-field borders so pixels don't show up close, grouping overlapping markers, exporting executables (the `data/` files are included with the `data/*` export filter), keyboard shortcuts and accessibility |
-| **0.3** | Progressive encyclopedia: a queue of what gets looked up without an entry, drafts from Wikipedia and Wikidata, extended entries written with AI citing sources, human review (see [the encyclopedia](encyclopedia.md)) |
-| **0.4** | Open data at scale: ancient places from [Pleiades](https://pleiades.stoa.org), people from Wikidata with places and dates, gridded population from HYDE, Cliopatria's vassalage relationships |
-| **0.5** | Movement: migrations, trade routes, campaigns and the spread of religions as animated arrows and particles |
-| **0.6** | 3D view with relief, water and effects |
-| **1.0** | Downloadable and web versions, a guide for adding packages, review by specialists |
+| Phase | What it includes | Status |
+|---|---|---|
+| **0.1** | 2D map, borders from 3400 BC to 2024, timeline, side panel, pilot encyclopedia (Egypt) and world sample, live Wikipedia, themes and qualities | Done |
+| **0.2** | Testing on other machines, distance-field borders so pixels don't show up close, grouping overlapping markers, exporting executables, keyboard shortcuts and accessibility | Done, except testing on Windows, Apple Silicon and touchscreens |
+| **0.3** | Progressive encyclopedia: a queue of what gets looked up without an entry, drafts from Wikipedia and Wikidata, extended entries written with AI citing sources, human review (see [the encyclopedia](encyclopedia.md)) | Done |
+| **0.4** | Open data at scale: ancient places from [Pleiades](https://pleiades.stoa.org), people from Wikidata with places and dates, gridded population from HYDE, Cliopatria's vassalage relationships | In progress: Pleiades is in |
+| **0.5** | Movement: migrations, trade routes, campaigns and the spread of religions as animated arrows and particles | |
+| **0.6** | 3D view with relief, water and effects | |
+| **1.0** | Downloadable and web versions, a guide for adding packages, review by specialists | The downloadable ones are done |
 
 ## Performance measured in the pipeline
 
 - 58,076 units, 1,001,996 events, 43 snapshots and 13,272 labels.
-- Map data on disk: ~24 MB (terrain 1.7 MB in WebP, relief 14.7 MB, units 2 MB, politics 6 MB).
+- Map data on disk: ~26 MB (terrain 1.7 MB in WebP, relief 16.7 MB, units 2 MB, politics 6 MB).
 - In video memory, at high quality: ~320 MB (terrain and relief with mipmaps, units). At low quality, ~110 MB.

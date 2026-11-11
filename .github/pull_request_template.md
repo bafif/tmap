@@ -11,4 +11,5 @@
 - [ ] `python3 tools/traduccion/documentos.py`, si cambié la documentación (en los dos idiomas) · if I changed the
       documentation (in both languages)
 - [ ] Capturas, si cambia algo que se ve · Screenshots, if something visible changes
-- [ ] `PROGRESO.md` y `PROGRESO.en.md` actualizados · updated
+- [ ] `PROGRESO.md` y `PROGRESO.en.md`, si cambia lo pendiente o es un hito · if it changes what's pending or is a
+      milestone

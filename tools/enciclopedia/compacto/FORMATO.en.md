@@ -2,24 +2,20 @@
 
 [Español](FORMATO.md)
 
-TellMAP is a historical atlas (Godot) with an encyclopedia of **entries**: sources (texts: books, articles,
-manifestos, laws, rulings, speeches), people, events and places, located in space and time. The app doesn't store
-the texts: it stores the entry (title, author, dates, its own summary) and **links** to where to read them. Full
-schema: [data/enciclopedia/ESQUEMA.en.md](../../../data/enciclopedia/ESQUEMA.en.md).
-
-Writing hundreds of entries directly in JSON is slow and error-prone. This text format, with one line or one block
-per item, is quick to write, and `construir.py` turns it into verified packages. That's how the Middle Ages, Holy
-Land and contemporary era packages were built. Each topic lives in `<topics folder>/<topic>/` (the folder can be
-outside the repo: what matters are the packages it produces) and is built with:
+A text format for writing many encyclopedia entries (sources, people, events and places) at once, with one line or
+one block per item, which is faster and less error-prone than writing the JSON by hand. `construir.py` turns it into
+verified packages in the format of [ESQUEMA.en.md](../../../data/enciclopedia/ESQUEMA.en.md). Each topic lives in
+`<topics folder>/<topic>/` (the folder can be outside the repo: what matters are the packages it produces) and is
+built with:
 
     python3 tools/enciclopedia/compacto/construir.py <topics folder> --tema <topic>
 
 which resolves each Wikipedia article (redirects, disambiguation pages, Spanish title and Wikidata QID), takes
 coordinates and places from Wikidata, compares the dates against Wikidata, checks that every reading link returns
 200, and leaves in the topic's folder `informe.txt` with the warnings and `salida.json` with the package. **You
-iterate until the report is clean** (or its warnings are explained). With `--tema` it doesn't write to the repo; without `--tema`
-and with `--escribir` it builds all the topics together, resolves the cross-references between them and writes the
-packages to `data/enciclopedia/paquetes/`.
+iterate until the report is clean** (or its warnings are explained). With `--tema` it doesn't write to the repo;
+without `--tema` and with `--escribir` it builds all the topics together, resolves the cross-references between them
+and writes the packages to `data/enciclopedia/paquetes/`.
 
 ## Content rules
 
@@ -32,7 +28,7 @@ packages to `data/enciclopedia/paquetes/`.
   the convicted person denounces it as persecution, say so.
 - Summaries: 2 to 4 sentences for sources (`r`) and 1 to 2 for `p` (why it matters); 1 to 3 sentences for people,
   events and places. No opinion adjectives (“brilliant”, “nefarious”).
-- Events after 2024: confirm them with `consultar.py resumen` (your memory may be outdated or wrong).
+- Recent or ongoing events (court cases, wars): confirm them with `consultar.py resumen`.
 - Ids: lowercase, no accents, with hyphens (`teoria-general-keynes`, `keynes`). Before creating one, check whether it
   already exists in another package: if it does, **use that id** and don't redefine it (the builder warns “ID QUE YA
   EXISTE”). If several topics are being written at the same time, it's best to agree beforehand on which topic
@@ -72,7 +68,7 @@ All UTF-8, with `#` for comments. Fields separated by ` | ` (never use `|` insid
 
 - type: `primaria` = a document from its time about its time (manifesto, law, ruling, speech, letter, treaty,
   original scientific paper, theory book written by its author); `secundaria` = a later study about another period
-  (historiography). Almost everything in this batch is primary.
+  (historiography).
 - genres: `religioso historia cronica literatura poesia filosofia legal administrativo epistolar inscripcion
   geografia ciencia medicina sabiduria viajes ensayo arqueologia economia politica manifiesto discurso tecnologia
   periodismo`. Rulings, laws, treaties, resolutions and constitutions: `legal`. Scientific papers: `ciencia`.

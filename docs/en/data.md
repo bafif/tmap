@@ -33,8 +33,8 @@ the texts.
 
 - In the app: Settings → Data and credits, and every Wikipedia summary carries a link to the article with its license.
 - Cliopatria asks that you cite its paper in *Scientific Data* (2025),
-  [doi:10.1038/s41597-025-04516-9](https://doi.org/10.1038/s41597-025-04516-9). The data in `data/mapa/politico.*` and `unidades.bin` are an
-  adaptation (rasterized and reorganized by year) of Cliopatria, under the same CC BY 4.0.
+  [doi:10.1038/s41597-025-04516-9](https://doi.org/10.1038/s41597-025-04516-9). The data in `data/mapa/politico.*` and
+  `unidades.bin` are an adaptation (rasterized and reorganized by year) of Cliopatria, under the same CC BY 4.0.
 - Population by country is cited the way Our World in Data asks: “HYDE (2023); Gapminder (2022); UN WPP (2024) – with
   major processing by Our World in Data”. Each estimate for a region states in its source which of the three it uses
   and that it came “via Our World in Data”.

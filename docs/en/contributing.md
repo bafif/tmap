@@ -2,8 +2,8 @@
 
 [Español](../es/contribuir.md)
 
-A short guide for anyone contributing to the code, whether a person or an AI agent. What the project is and how it's built:
-[the README](../../README.en.md) and [the plan](plan.md). Encyclopedia format: [ESQUEMA.en.md](../../data/enciclopedia/ESQUEMA.en.md).
+A short guide to contributing to the code. What the project is and how it's built: [the README](../../README.en.md)
+and [the plan](plan.md). Encyclopedia format: [ESQUEMA.en.md](../../data/enciclopedia/ESQUEMA.en.md).
 
 ## Conventions
 
@@ -26,17 +26,17 @@ A short guide for anyone contributing to the code, whether a person or an AI age
 
 - `tools/godot/tmap.py revisar`: compiles all the scripts.
 - `tools/godot/tmap.py prueba`: the full automated test.
-- `tools/godot/tmap.py lanzar`: opens the app with the bridge (without a display it uses `cage`). Then you use `anio`, `ir`,
-  `seleccionar`, `pestana`, `captura`, `eval`, `errores`, `shader`, `recargar`, `clic` and the other commands
-  (`ayuda`). When you're done, `cerrar`.
+- `tools/godot/tmap.py lanzar`: opens the app with the bridge (without a display it uses `cage`). Then you use
+  `anio`, `ir`, `seleccionar`, `pestana`, `captura`, `eval`, `errores`, `shader`, `recargar`, `clic` and the other
+  commands (`ayuda`). When you're done, `cerrar`.
 - With the editor open: `tools/godot/tmap.py --proyecto <editor folder> --a editor estado|escanear|jugar|abrir`.
 - After every test, read `tools/godot/tmap.py registros --errores`: it has to end with "ningún nodo suelto
   sin liberar".
 - Bridge details: [tools/godot/README.en.md](../../tools/godot/README.en.md).
 - If you touch anything about how things are drawn: `tools/captura.sh x.png --comprobar_dibujo` (exits with 1 if the
-  screenshot came out nearly flat), and the same with OpenGL, which is the macOS renderer: `GODOT_ARGS="--rendering-method gl_compatibility"
-  tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen in Settings is stored in `user://motor.cfg`
-  (`scripts/nucleo/motor.gd`).
+  screenshot came out nearly flat), and the same with OpenGL, which is the macOS renderer:
+  `GODOT_ARGS="--rendering-method gl_compatibility" tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen
+  in Settings is stored in `user://motor.cfg` (`scripts/nucleo/motor.gd`).
 - If you touch the updater (`scripts/nucleo/actualizador.gd`, `datos.gd`) or how data is read:
   `python3 tools/actualizacion/probar.py`, and with an exported executable, `--ejecutable <path>`
   ([updates](updates.md)). Everything that reads `data/` goes through `Datos.ruta()`.
@@ -62,12 +62,16 @@ A short guide for anyone contributing to the code, whether a person or an AI age
   document is missing its pair or if a relative link points to a file that doesn't exist. If you change one, change
   the other in the same commit.
 
-## Log
+## Progress
 
-- When you finish something, mark it in [PROGRESO.en.md](../../PROGRESO.en.md): it moves to "Done" with the date. Anything
-  new that comes up gets added to "To do", in its block and in priority order.
+- Anything still pending goes under "To do" in [PROGRESO.en.md](../../PROGRESO.en.md), in its block and in priority
+  order, with a bold title: `tools/github/organizar.py` creates one issue per item and recognizes it by that title, so
+  it isn't changed. The Spanish `PROGRESO.md` is the one the script reads.
+- Finished items leave "To do". If it's a milestone, it goes under "Done", in the version that ships it (or under
+  "The encyclopedia" if it's content): what was decided and why, in one or two sentences, in the present tense and
+  without a date or an account of how it was done.
 
 ## Git
 
-- Work happens on a branch; Bautista does the merge and the push.
+- Changes are proposed with a pull request, using [its template](../../.github/pull_request_template.md).
 - Screenshots for review go in a temporary folder, not the repo. The README ones go in `docs/assets/`.

@@ -11,40 +11,35 @@ dato dice de dónde salió.
   Wikidata.
 - **Resúmenes de Wikipedia en vivo**, en el idioma de la app (o el que se elija en Ajustes) y en el otro si no hay
   artículo, guardados en caché por 30 días.
-- **Doce paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las religiones, culturas e
-  idiomas. Entre todos suman 88 regiones que cubren el 99,6 % de la tierra firme, y cada una tiene población
-  estimada desde el 10 000 a. C. o se cuenta dentro de otra. Lo cubierto y lo que falta está en
-  [Cobertura de la enciclopedia](cobertura.md), que se genera solo:
-  - `egipto.json`, el piloto: 4 regiones (con 18 eras para Egipto), 37 fuentes, 18 personas, 24 hechos y 14 lugares.
-  - `mundo.json`, una muestra de once regiones (Mesopotamia, Levante, Anatolia, Grecia, Italia, Persia, China, India,
+- **Paquetes** en `data/enciclopedia/paquetes/`, más `familias.json` con las familias de religiones, culturas e
+  idiomas. Sus regiones cubren el 99,6 % de la tierra firme, y cada una tiene población estimada desde el 10 000 a. C.
+  o se cuenta dentro de otra. Cuántas fichas hay y qué falta está en [Cobertura de la enciclopedia](cobertura.md), que
+  se genera solo:
+  - `egipto`, el piloto: el antiguo Egipto, con sus eras de la unificación a la época moderna.
+  - `mundo`, una muestra de once regiones (Mesopotamia, Levante, Anatolia, Grecia, Italia, Persia, China, India,
     Mesoamérica, Andes y Río de la Plata).
-  - `edad-media.json`, la Europa medieval del saqueo de Roma a 1500, con énfasis en la historia de la filosofía:
-    15 regiones (Península ibérica, Francia, Britania, Irlanda, Alemania y los Países Bajos, Escandinavia, Islandia,
-    Polonia, Bohemia, Hungría, Balcanes, Valaquia y Moldavia, el Báltico, la Rus y Sicilia), 173 fuentes, 215
-    personas, 125 hechos y 120 lugares. Los títulos de Wikipedia en español, los ids de Wikidata y las coordenadas
-    salen de Wikidata; las fechas de vida se cruzaron con Wikidata y los 104 enlaces de lectura (Wikisource y
-    Proyecto Gutenberg) se comprobaron uno por uno. La demografía sigue a Russell (1972) y a Urlanis (1941).
-  - `tierra-santa.json`, Tierra Santa de la Antigüedad a hoy, con la primera expansión islámica, Bizancio, las
-    cruzadas y el pensamiento de judíos, cristianos y musulmanes: 7 regiones (Tierra Santa, Líbano, Siria y
-    Transjordania dentro del Levante, más Arabia, el Magreb y Chipre), 176 fuentes, 198 personas, 172 hechos y 75
-    lugares. Van las escrituras (Torá, Tanaj, Nuevo Testamento, Corán, manuscritos del mar Muerto), las crónicas de
-    las cruzadas de todos los lados, los llamados al yihad y a la cruzada, y los documentos modernos (Balfour, el
-    informe Peel, la resolución 181, la Carta de Hamás de 1988, Oslo). Verificado contra Wikipedia y Wikidata como el
-    anterior; sus 95 enlaces de lectura (Wikisource, Gutenberg, el Proyecto Avalon de Yale, el Medieval Sourcebook de
-    Fordham, Sefaria y otros) respondieron 200. La demografía de Tierra Santa sigue a DellaPergola (2001) y a los
-    censos del Mandato. Después se le sumaron Armenia (la meseta armenia) y Cilicia, y a `edad-media.json`,
-    Finlandia, Cerdeña y Córcega y la estepa póntica, con sus eras, religiones, culturas e idiomas.
-  - `regiones-del-mundo.json`, las 46 regiones que completan el mapa (de Siberia y Japón a África, las Américas y
-    Oceanía), armadas con las fronteras de los países actuales de Natural Earth: resumen, eras y población. Todavía
-    no tienen religiones, culturas ni idiomas.
-  - **La época contemporánea**, en siete paquetes temáticos sin regiones propias (629 fuentes, 510 personas, 440
-    hechos y 86 lugares), verificados igual que los anteriores: `pensamiento-economico` (de Smith a la escuela
-    austríaca, Keynes, Chicago, el libertarismo y la CEPAL), `ideas-politicas` (socialismo, anarquismo, sionismo,
-    fascismo, totalitarismo y sus críticos, descolonización, feminismo, ecologismo), `argentina-contemporanea` (de
-    1880 a hoy, con la doctrina peronista, la dictadura, Malvinas, los censos y las causas judiciales contra el
-    kirchnerismo), `ciencia-y-tecnologia` (las publicaciones que abrieron tecnologías, con sus Nobel),
-    `cultura-libre-y-hackers` (GNU, cypherpunks, WikiLeaks, Anonymous), `guerras-y-orden-mundial` (declaraciones de
-    guerra, tratados y resoluciones de 1914 a hoy) y `letras-y-pensamiento-del-siglo-xx`.
+  - `edad-media`, la Europa medieval del saqueo de Roma a 1500, con énfasis en la historia de la filosofía, y sus
+    regiones, de la península ibérica a la Rus, con eras, religiones, culturas e idiomas desde la Antigüedad. La
+    demografía sigue a Russell (1972) y a Urlanis (1941).
+  - `tierra-santa`, de la Antigüedad a hoy, con las regiones del Levante, Arabia, el Magreb, Chipre, Armenia y
+    Cilicia: las escrituras, la primera expansión islámica, las cruzadas desde todos los lados, el pensamiento de
+    judíos, cristianos y musulmanes y los documentos modernos. La demografía sigue a DellaPergola (2001) y a los
+    censos del Mandato.
+  - `regiones-del-mundo`, las 46 regiones que completan el mapa (de Siberia y Japón a África, las Américas y
+    Oceanía), armadas con las fronteras de los países actuales de Natural Earth: resumen, eras y población, todavía
+    sin religiones, culturas ni idiomas.
+  - La época contemporánea, en siete paquetes temáticos: `pensamiento-economico`, `ideas-politicas`,
+    `argentina-contemporanea` (de 1880 a hoy), `ciencia-y-tecnologia`, `cultura-libre-y-hackers`,
+    `guerras-y-orden-mundial` y `letras-y-pensamiento-del-siglo-xx`.
+  - La Argentina hasta 1912, en siete paquetes: `pueblos-originarios-del-cono-sur`, `rio-de-la-plata-colonial`,
+    `virreinato-e-independencia`, `guerras-civiles-y-organizacion-nacional`, `rosas-y-la-confederacion`,
+    `argentina-1862-1912` e `historiografia-argentina`.
+  - Los celtas, en nueve paquetes: `celtas-origenes-y-prehistoria`, `galos-y-galia`, `celtas-del-danubio-y-galacia`,
+    `celtas-de-hispania`, `celtas-de-britania-e-irlanda`, `religion-celta`, `celtas-en-las-fuentes-antiguas`,
+    `celtas-legado-e-historiografia` y `mundo-celta`, con siete subregiones.
+
+  Desde `edad-media`, cada paquete está verificado contra Wikipedia y Wikidata (títulos, ids, coordenadas y fechas de
+  vida), y sus enlaces de lectura respondieron al comprobarlos.
 - **Series por país desde 1800** (población, esperanza de vida, fecundidad, economía, educación) en la pestaña
   «Datos», para el país actual de cada punto: `data/demografia/`, de `tools/demografia/series.py`.
 - **Población de todas las regiones**: `tools/enciclopedia/poblacion.py` suma, para cada región, la serie por país de
@@ -56,20 +51,16 @@ dato dice de dónde salió.
   compacto](../../tools/enciclopedia/compacto/FORMATO.md) de texto que `tools/enciclopedia/compacto/construir.py`
   convierte en paquetes verificados contra Wikipedia y Wikidata.
 - **La enciclopedia en inglés**: cada paquete tiene su traducción en `data/enciclopedia/traducciones/en/`, una capa
-  aparte que se arma con `tools/traduccion/enciclopedia.py` ([el esquema](../../data/enciclopedia/ESQUEMA.md#traducciones)).
+  aparte que se arma con `tools/traduccion/enciclopedia.py`
+  ([el esquema](../../data/enciclopedia/ESQUEMA.md#traducciones)).
   Con la app en inglés se leen esos textos; lo que todavía no está traducido se ve en español.
 - **Un editor dentro de la app** para cargar y corregir todo eso sin tocar JSON (ver [más abajo](#el-editor)).
 
 ## ¿Y Grokipedia?
 
-A noviembre de 2026, **Grokipedia no tiene una API oficial**. Lo que hay son clientes no oficiales que leen el sitio
-(por ejemplo, paquetes de PyPI o servicios que lo replican) y al menos un sitio con nombre parecido que dice ofrecer una
-API y no es de xAI. Además, su contenido estuvo congelado entre marzo y septiembre de 2026 y buena parte se derivó de
-Wikipedia.
-
-Por eso TellMAP no depende de Grokipedia: usa Wikipedia (API pública y estable, CC BY-SA), Wikidata (datos
-estructurados, CC0) y, para las fichas largas, IA que redacta *a partir de fuentes citadas*. El estilo de ficha de
-Grokipedia (un artículo largo, ordenado y legible) es la referencia de forma, no de contenido.
+TellMAP no usa Grokipedia: a noviembre de 2026 no tiene una API oficial (solo hay clientes no oficiales que leen el
+sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API pública y estable, CC BY-SA), Wikidata
+(datos estructurados, CC0) y, para las fichas largas, IA que redacta *a partir de fuentes citadas*.
 
 ## Cuatro niveles de ficha
 
@@ -77,8 +68,8 @@ Grokipedia (un artículo largo, ordenado y legible) es la referencia de forma, n
 |---|---|---|
 | 0 | Datos de Cliopatria: nombre, años y territorio | Todo el mundo |
 | 1 | Resumen de Wikipedia en vivo | Todo lo que tenga artículo |
-| 2 | Ficha curada: eras, fuentes primarias y secundarias, personas, hechos, población, religión, cultura e idioma | Egipto y la muestra mundial |
-| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada con IA desde fuentes citadas y revisada | Herramientas listas (0.3); se publican a medida que se revisan |
+| 2 | Ficha curada: eras, fuentes primarias y secundarias, personas, hechos, población, religión, cultura e idioma | Las regiones y los temas de los paquetes |
+| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada con IA desde fuentes citadas y revisada | Las herramientas están; todavía no hay fichas publicadas |
 
 ## Cómo se completa
 
@@ -94,12 +85,12 @@ Grokipedia (un artículo largo, ordenado y legible) es la referencia de forma, n
    - de Cliopatria, los años de la entidad.
 
    Lo deja en `data/enciclopedia/paquetes/borradores/`, con el formato del esquema y marcado «sin revisar».
-3. **Redacción con IA, con citas obligatorias.** `python3 tools/enciclopedia/redactar.py <borrador>` le pasa a Claude
-   las fuentes del borrador numeradas (cada sección del artículo y la ficha de Wikidata) y le pide la historia por
-   secciones, citando en cada párrafo de qué fuente sale. Después, sin confiar en el modelo, descarta los párrafos sin
-   cita válida, marca para revisar los años y cifras que no aparecen en las fuentes que citan, y comprueba uno por uno
-   los enlaces de lectura que propone. Necesita el SDK (`pip install anthropic`) y una credencial de la API; cada
-   ficha cuesta del orden de 0,15 a 0,40 USD con el modelo por defecto.
+3. **Redacción con IA, con citas obligatorias.** `python3 tools/enciclopedia/redactar.py <borrador>` le pasa a un
+   modelo de Anthropic las fuentes del borrador numeradas (cada sección del artículo y la ficha de Wikidata) y le pide
+   la historia por secciones, citando en cada párrafo de qué fuente sale. Después, sin confiar en el modelo, descarta
+   los párrafos sin cita válida, marca para revisar los años y cifras que no aparecen en las fuentes que citan, y
+   comprueba uno por uno los enlaces de lectura que propone. Necesita el SDK de Anthropic (`pip install anthropic`) y
+   una credencial de su API; cada ficha cuesta del orden de 0,15 a 0,40 USD con el modelo por defecto.
 4. **Revisión humana.** En la app, Ajustes → «Abrir el editor de la enciclopedia» → Borradores: se calcula el área de
    estudio con el territorio de Cliopatria, se abre y corrige cada elemento, se lee la ficha extendida con los avisos
    de la verificación y, cuando todo está bien, se marca «Revisé cada dato y cada sección contra sus fuentes» y se

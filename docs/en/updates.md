@@ -60,7 +60,7 @@ send anything about the user: it's a request to GitHub, like opening the project
 
 ## Publishing
 
-- **An app version**: same as always, publish the `vX.Y.Z` release on GitHub, with `config/version` in
+- **An app version**: publish the `vX.Y.Z` release on GitHub, with `config/version` in
   `project.godot` set to `X.Y.Z` (if they don't match, the workflow fails: the app would think it's outdated forever).
   `version.yml` exports, stamps the data, uploads the `.gz` files and the new manifest.
 - **Data only**: just get the `data/` changes into `main`. `datos.yml` checks whether they changed compared to what's
@@ -69,9 +69,8 @@ send anything about the user: it's a request to GitHub, like opening the project
   the test fails, it's because the data needs new code: it goes out with the next app version. It can also be run
   manually from the Actions tab.
 - Both workflows upload `actualizacion.json` and share the `actualizaciones` `concurrency` group, so they never run at
-  the same time. They didn't use to share it: with 0.3.2, `datos.yml` (triggered by the same push, which touched
-  `data/`) finished two seconds after `version.yml` and overwrote the manifest with one built earlier, which still
-  announced 0.3.1. It was fixed by manually uploading the manifest with the 0.3.2 entry.
+  the same time: otherwise a push that touches `data/` and publishes a version could overwrite the new manifest with
+  one built earlier.
 
 ## Testing
 

@@ -1,159 +1,114 @@
-<p align="center">
-  <img src="docs/assets/portada.png" alt="TellMAP in 1350 BCE: Egypt selected, with the side panel listing the sources written there at that time, such as the Amarna letters and the Great Hymn to the Aten" width="100%">
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>World history on a living map, with its sources at hand.</strong><br>
-  Slide the timeline and watch borders shift, cities rise and the texts written in each place appear.
-</p>
+# TellMAP
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-1E5A44" alt="AGPL-3.0 license"></a>
-  <img src="https://img.shields.io/badge/status-in%20development-D42F06" alt="Status: in development">
-  <a href="https://github.com/bafif/tmap/actions/workflows/pruebas.yml"><img src="https://github.com/bafif/tmap/actions/workflows/pruebas.yml/badge.svg" alt="Tests"></a>
-  <a href="https://bafif.github.io/tmap/"><img src="https://img.shields.io/badge/site-bafif.github.io%2Ftmap-C9A04A" alt="Project site"></a>
-  <img src="https://img.shields.io/badge/Godot-4.7-478CBF" alt="Godot 4.7">
-  <img src="https://img.shields.io/badge/data-open-8E6B2E" alt="Open data">
-  <a href="README.md"><img src="https://img.shields.io/badge/leer%20en-español-555" alt="Leer en español"></a>
-</p>
+**World history on a living map, with its sources at hand.**<br>
+[Español](README.md) · [Site](https://bafif.github.io/tmap/) · [Install](#install) · [How to use it](#how-to-use-it)
 
----
+</div>
 
-## Why it exists
+Slide the timeline and watch borders shift, cities rise and the texts written in each place appear. A *tell* is the
+mound left by centuries of cities built one on top of another: in TellMAP you pick a place, dig through its layers,
+and in each one find who ruled it, who lived there, what happened and what was written. In English and Spanish, for
+Linux, Windows and macOS.
 
-History is usually studied in chapters: one book for Egypt, another for Rome, an atlas on the side. The sources,
-which are what we actually know, end up in a bibliography almost nobody opens. That makes it hard to see that
-everything happened at once in one world, and that every claim rests on a text someone wrote somewhere, at some time.
+<p align="center"><img src="docs/assets/portada.png" width="100%" alt="TellMAP in 1350 BC: Egypt selected, with the
+side panel listing the sources written there at that time, such as the Amarna letters and the Great Hymn to the
+Aten"></p>
 
-I am building TellMAP to study history the other way around: starting from the map and from the sources. A *tell* is
-the mound left by centuries of cities built one on top of another, each layer an era. TellMAP does the same with the
-world: pick a place, dig through its layers, and in each one find who ruled it, who lived there, what happened and
-what was written.
+## Why TellMAP
 
-## A library ordered in space and time
+- **Borders with a backbone.** They come from
+  [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), from the Seshat Global History Databank:
+  13,400 records reviewed by historians, from 3400 BC to 2024. The map is split into 58,000 units that follow those
+  borders, not a grid that approximates them.
+- **Every text in two places.** A source sits where and when it was written, and in the place and period it is
+  about. In Egypt in 1350 BC you find the *Great Hymn to the Aten*, written at Amarna at that very moment, Herodotus,
+  who told the story nine centuries later, and the Egyptologists who studied it in the 20th century.
+- **Sources first.** Every entry tells primary sources from studies, says how certain its date is and links to the
+  full text on Wikisource, Perseus, Project Gutenberg or the Internet Archive when it's in the public domain.
+- **Nothing made up.** Population figures are published estimates, with their author and range; the ones given by
+  ancient authors are shown apart, as testimony. What isn't known is said to be unknown.
+- **An encyclopedia that grows in the open.** It's readable JSON packages, edited with forms inside the app. New
+  entries start from Wikipedia and Wikidata drafts, and the ones an AI writes cite their sources and aren't published
+  without human review.
+- **No accounts, no telemetry.** It runs on your computer. It only goes online to ask Wikipedia and Pleiades for the
+  summary of the entry you open (it's cached) and to check GitHub for updates, which can be turned off in Settings.
 
-Every text has **two coordinates**: where and when it was written, and which place and period it is about. Go to Egypt
-in 1350 BCE and you will find the *Great Hymn to the Aten*, written at Amarna at that very moment, alongside
-Herodotus, who told the story nine centuries later, and the 20th-century Egyptologists who studied it from London or
-Chicago.
+## Install
 
-| You… | You see… |
+Download the zip for your system from the [latest release](https://github.com/bafif/tmap/releases/latest), unzip it
+and open the app: there's nothing to install.
+
+| System | File |
 |---|---|
-| **Slide the timeline** | The borders of 1,637 political entities, from 3400 BCE to 2024, moving year by year |
-| **Click a place** | A panel sliding in from the right: who ruled that spot in each century, its eras, estimated population, religion and language |
-| **Open the Sources tab** | What was written *there and then* (primary sources) and what was written *about* that place and time (studies), with links to read them |
-| **Let time run** | Thinkers appearing while they live, events flashing at their date, cities founded and abandoned |
+| Linux | `TellMAP-<version>-linux-x86_64.zip` |
+| Windows | `TellMAP-<version>-windows-x86_64.zip` |
+| macOS (Intel and Apple Silicon) | `TellMAP-<version>-macos-universal.zip` |
 
-<p align="center">
-  <img src="docs/assets/temas.png" alt="The same place in the three themes: Marble and bronze showing sources, Illuminated parchment showing the history of the place, and Ink and brass showing people and events" width="100%">
-</p>
+The macOS build isn't notarized by Apple: the first time, open it from **System Settings → Privacy & Security**
+([how](docs/en/install.md#macos-the-first-time)). After that, when it opens, the app tells you if there's a new
+version and downloads nothing until you say yes.
 
-Three interface themes (Marble and bronze, Illuminated parchment, Ink and brass) and four graphics quality levels, so it
-runs well from an old laptop to a gaming PC.
-
-<p align="center">
-  <img src="docs/assets/mundo.png" alt="The world in 117 CE: the Roman Empire at its greatest extent, the Parthians, the Kushan Empire, the Xianbei and the Han dynasty" width="100%">
-</p>
-
-## What makes it different
-
-- **Borders with a backbone.** It uses [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), the
-  geospatial dataset of the Seshat Global History Databank: 13,400 expert-reviewed records. The map is split into
-  58,000 units that follow those real borders instead of a grid that approximates them.
-- **Sources first.** Every entry tells primary from secondary sources, states how certain its date is, and links to
-  full texts on Wikisource, Perseus, Project Gutenberg or the Internet Archive when they are in the public domain.
-- **Nothing made up.** Ancient figures are published estimates with their author and uncertainty range. What is not
-  known is said to be unknown.
-- **The look of grand-strategy maps.** Hillshaded relief, rivers, nautical-chart coastlines, names that curve across
-  the land, and three interface themes: Marble and bronze, Illuminated parchment, and Ink and brass.
-- **Built to grow step by step.** The encyclopedia is readable JSON, organized in packages, edited with forms inside
-  the app. Today it ships a full pilot on ancient Egypt, medieval Europe with its philosophy, the Holy Land from
-  Antiquity to today, Argentine history from its Indigenous peoples to today, and regions covering the rest of the
-  world with their estimated population; the rest is filled
-  in stages, and [a report generated from the data](docs/en/coverage.md) says what is covered and what
-  is not. It grows most-consulted first, with drafts from Wikipedia and Wikidata and AI that always cites its sources and goes through
-  human review.
-- **No accounts, no telemetry.** It runs on your computer. The only things that go online are the Wikipedia lookup when
-  you open an entry, which is cached, and the [update](docs/en/updates.md) check on GitHub when the app opens,
-  which sends nothing about you and can be turned off in Settings.
-- **Updates itself.** When it opens, the downloaded version tells you if there is something new and installs it if
-  you say yes ("Not now" leaves it as it is). When only the data changed (more sources, people, events or
-  regions) it downloads just the changed files, without reinstalling the program.
-
-## Try it
-
-The simplest way is to download the [latest release](https://github.com/bafif/tmap/releases/latest) for Linux,
-Windows or macOS: unzip it and open it, nothing to install. The macOS build is not notarized by Apple: the first time,
-macOS says it cannot check it; open it anyway from **System Settings → Privacy & Security**, or in the Terminal with
-`xattr -dr com.apple.quarantine TellMAP.app`. If it shows a black window or glitches on some computer, choose
-«Compatible (OpenGL)» under **Ajustes (the gear icon) → Motor de dibujo**; if not even the settings show up, start
-it with `--rendering-method gl_compatibility`.
-
-To run it from the source you need [Godot 4.7](https://godotengine.org/download) (free, about 100 MB).
+To run it from the source you need [Godot 4.7](https://godotengine.org/download):
 
 ```bash
 git clone https://github.com/bafif/tmap.git
-godot --path tmap            # or open the folder from the Godot editor
+godot --path tmap
 ```
 
-To check everything works, `godot --headless --path tmap -- --prueba` walks through the app on its own and reports
-any error; `tools/captura.sh` takes screenshots without a monitor, and [the bridge](tools/godot/README.en.md)
-lets you drive the app and the editor from the terminal or with an AI agent. The map data is already generated in `data/mapa/`. To rebuild it from the original sources, or with another Cliopatria
-release, follow [the data pipeline](tools/pipeline/README.en.md).
+## How to use it
+
+1. **Move the timeline** at the bottom: a click picks the year, dragging scrolls through it and the space bar lets
+   time run.
+2. **Click a place.** Its entry opens on the right, with the tabs "Summary", "History", "Sources", "People and events"
+   and "Data".
+3. **Open "Sources"**: what was written there and then, and what was written later about that place and time, with
+   the link to read it.
+4. **Change the mode** with the buttons at the top or the keys 1 to 5: political, terrain, religion, culture and
+   language.
+
+F1 opens the help with every shortcut. On a touchscreen, one finger moves the map and two zoom in or out.
 
 ## Status
 
-Version 0.1: the first one that works end to end. The detailed log of what is done and what is pending is in
-[PROGRESO.en.md](PROGRESO.en.md).
+- **Released version:** 0.3.5. Touch support and the Pleiades places are already in the code and ship with the next one.
+- **Linux:** tested with Vulkan and with OpenGL; the automatic test runs on every change.
+- **macOS:** tested on an Intel Mac. On Apple Silicon, continuous integration opens it and checks that it draws, but
+  it hasn't been tried on a real one yet.
+- **Windows:** the executable passes the full test under wine, but it hasn't been tried on a real Windows machine yet.
+- **Touchscreens:** the automatic test covers the gestures; they still need trying on a real screen.
+- **The encyclopedia:** ancient Egypt, medieval Europe, the Holy Land, Argentina, the contemporary era and the Celts,
+  plus regions with their estimated population over almost all the land. What's covered and what's missing is in
+  [the coverage report](docs/en/coverage.md).
+- **What's next:** people from Wikidata and population grids, animated migrations and routes, a 3D view and a browser
+  version. The details are in [the progress page](PROGRESO.en.md).
 
-- [x] 2D world map with relief, rivers, coastlines and Miller projection
-- [x] Political borders from 3400 BCE to 2024, with names that follow the shape of each territory
-- [x] Timeline with playback, global and local eras, events and sources
-- [x] Side panel: summary, history of the place, sources, people and events, data
-- [x] Live Wikipedia summaries, Spanish first
-- [x] Pilot encyclopedia on ancient Egypt and a sample of eleven regions
-- [x] Medieval Europe package: 15 regions, 173 sources (with an emphasis on philosophy), 215 people, 125 events and
-      120 places, checked against Wikipedia and Wikidata
-- [x] Regions for the whole world (88, over 99.6% of the land), with estimated population from 10,000 BCE (HYDE,
-      Gapminder and the UN, via Our World in Data) and a coverage report generated from the data
-- [x] Holy Land package: 7 regions, 176 sources (scriptures, crusade chronicles from every side, Jewish, Christian
-      and Muslim thought, modern documents), 198 people, 172 events and 75 places, checked the same way
-- [x] Argentina from its Indigenous peoples to the Sáenz Peña law, in seven packages: 382 sources (minutes,
-      constitutions, treaties, laws, chronicles and the historiography of each school), 420 people (every viceroy and
-      president), 549 events and 110 places, with disputed topics told from the documents
-- [x] Religion, culture and language map modes (where data exists), with each period's real outline
-- [x] Pages for every religion, culture, language and polity; clickable legend, timeline and charts
-- [x] Grouped markers, keyboard shortcuts and four visual themes (one high-contrast)
-- [x] Four graphics quality levels and an automated test that clicks every control
-- [ ] 3D view with relief, water and effects
-- [ ] Progressive encyclopedia filling with AI and human review
-- [ ] Animated migrations, routes and movements of peoples
-- [x] Downloadable builds for Linux, Windows and macOS, exported automatically when a GitHub release is published
-- [ ] Browser build
+## More documentation
 
-## Documentation
-
-| | |
-|---|---|
-| [Project plan](docs/en/plan.md) | Architecture, technical decisions and phased roadmap |
-| [Data and licenses](docs/en/data.md) | Where each piece of data comes from, how it is processed and its license |
-| [The encyclopedia](docs/en/encyclopedia.md) | How it grows, Wikipedia and Grokipedia, AI and editorial rules |
-| [Coverage](docs/en/coverage.md) | Which regions, periods and data are covered and what is missing, generated from the data |
-| [Storage and downloads](docs/en/storage.md) | How much each thing weighs, where it is hosted and how the app downloads the bulk data without stalling |
-| [Entry schema](data/enciclopedia/ESQUEMA.en.md) | The format of sources, people, events, places and regions |
-| [Data pipeline](tools/pipeline/README.en.md) | How the map and borders are generated |
-| [How to work on TellMAP](docs/en/contributing.md) | Conventions, tests and the bridge for driving the app and the editor |
+- [Install](docs/en/install.md): each system, the first time on macOS, the rendering engine and running it from the
+  source.
+- [Updates](docs/en/updates.md): what updates itself, how it's published and how it's tested.
+- [The encyclopedia](docs/en/encyclopedia.md): what's in it, how it gets filled in, the editor and the editorial rules.
+- [Entry schema](data/enciclopedia/ESQUEMA.en.md): the format of sources, people, events, places and regions.
+- [Coverage](docs/en/coverage.md): which regions, periods and data are covered, generated from the data.
+- [Data and licenses](docs/en/data.md): where each piece of data comes from, how it's processed and its license.
+- [Plan](docs/en/plan.md): how the map is built, the technical decisions and the roadmap.
+- [Storage and downloads](docs/en/storage.md): how much each thing weighs and how the app will fetch the bulk data.
+- [Progress](PROGRESO.en.md): what's left and the milestones of each version.
+- [How to work on TellMAP](docs/en/contributing.md): conventions, tests and [the bridge](tools/godot/README.en.md) to
+  drive the app from the terminal.
+- [Data pipeline](tools/pipeline/README.en.md): how the map and the borders are generated.
 
 ## Author
 
-Made by **Bautista D. Fiori**. If you want to use it for teaching, add sources from your field or help with the code,
-get in touch.
-
-[LinkedIn](https://www.linkedin.com/in/b-d-fiori/) · [GitHub](https://github.com/bafif)
+Made by **Bautista D. Fiori** ([LinkedIn](https://www.linkedin.com/in/b-d-fiori/) · [GitHub](https://github.com/bafif)).
+If you want to use it for teaching, add sources from your field or help with the code, get in touch.
 
 ## License
 
 The code is [AGPL-3.0-or-later](LICENSE): you may use, modify and share it; if you offer a modified version over a
-network, you must offer its source code too. The data keeps its own licenses, detailed in
-[Data and licenses](docs/en/data.md): Cliopatria (CC BY 4.0), Natural Earth and NASA (public domain), Wikipedia
-(CC BY-SA 4.0), population from Our World in Data (CC BY 4.0), ancient places from Pleiades (CC BY 3.0), and the Cinzel and EB Garamond typefaces (SIL Open Font License).
+network, you must offer its source code too. The project's own encyclopedia is CC BY-SA 4.0, and the rest of the data
+keeps its own licenses ([Data and licenses](docs/en/data.md)): Cliopatria (CC BY 4.0), Natural Earth and NASA (public
+domain), Wikipedia (CC BY-SA 4.0), Our World in Data (CC BY 4.0), Pleiades (CC BY 3.0) and the Cinzel and EB Garamond
+typefaces (SIL Open Font License).
