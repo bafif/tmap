@@ -89,6 +89,51 @@
     "motivo": "Federico Chaves fue presidente del Paraguay; el tema es la Argentina",
     "fecha": "2026-11-11"
   },
+  "candidato:celtas-de-britania-e-irlanda:batalla": {
+    "decision": "descartado",
+    "motivo": "son batallas entre reinos anglosajones y vikingos, no de los britanos",
+    "fecha": "2026-11-11"
+  },
+  "candidato:celtas-de-britania-e-irlanda:personas": {
+    "decision": "descartado",
+    "motivo": "son figuras de la Iglesia y los reinos anglosajones, no de la Britania celta",
+    "fecha": "2026-11-11"
+  },
+  "candidato:celtas-de-hispania:batalla": {
+    "decision": "descartado",
+    "motivo": "la segunda guerra púnica entra solo por sus episodios celtibéricos, que ya están",
+    "fecha": "2026-11-11"
+  },
+  "candidato:celtas-de-hispania:personas": {
+    "decision": "descartado",
+    "motivo": "son generales cartagineses y romanos de las guerras púnicas; los de las guerras celtibéricas ya están",
+    "fecha": "2026-11-11"
+  },
+  "candidato:celtas-del-danubio-y-galacia:batalla": {
+    "decision": "descartado",
+    "motivo": "son batallas de griegos y macedonios entre sí, no de los celtas",
+    "fecha": "2026-11-11"
+  },
+  "candidato:celtas-del-danubio-y-galacia:personas": {
+    "decision": "descartado",
+    "motivo": "son escritores y políticos griegos y macedonios ajenos a los celtas del Danubio y Galacia",
+    "fecha": "2026-11-11"
+  },
+  "candidato:galos-y-galia:batalla": {
+    "decision": "descartado",
+    "motivo": "las guerras samnitas, pírricas y de Roma en Italia no son del tema de los galos",
+    "fecha": "2026-11-11"
+  },
+  "candidato:galos-y-galia:personas": {
+    "decision": "descartado",
+    "motivo": "las personas nacidas en Italia y la Galia en esos siglos son en su mayoría griegos y romanos ajenos a los galos; las del tema salen por series, partes y obras",
+    "fecha": "2026-11-11"
+  },
+  "candidato:religion-celta:personas": {
+    "decision": "descartado",
+    "motivo": "son autores y obispos romanos y cristianos ajenos a la religión celta",
+    "fecha": "2026-11-11"
+  },
   "capa:alemania:religiones:-5500:-501": {
     "decision": "sin-datos",
     "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas y los germanos; la arqueología no permite nombrar una religión.",
@@ -649,6 +694,11 @@
     "motivo": "Uderzo está por Astérix como fenómeno; cada álbum no es del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q2494": {
+    "decision": "descartado",
+    "motivo": "las encíclicas de Benedicto XVI no son del tema de Tierra Santa",
+    "fecha": "2026-11-11"
+  },
   "obra:Q302:Q1258090": {
     "decision": "descartado",
     "motivo": "las parábolas y pasajes sueltos de los evangelios no van como fuentes aparte: están los evangelios",
@@ -732,6 +782,11 @@
   "obra:Q41370:Q1888137": {
     "decision": "descartado",
     "motivo": "los salmos sueltos no van como fuentes aparte: está el libro de los Salmos",
+    "fecha": "2026-11-11"
+  },
+  "obra:Q517": {
+    "decision": "descartado",
+    "motivo": "Napoleón está por la crisis de la monarquía española; su obra no es del tema",
     "fecha": "2026-11-11"
   },
   "obra:Q5682:Q10271189": {
@@ -2199,6 +2254,11 @@
     "motivo": "la serie de ministros de Instrucción Pública de Italia no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q27037814": {
+    "decision": "descartado",
+    "motivo": "la serie de presidentes de la Junta de Comercio británica no es tema del paquete",
+    "fecha": "2026-11-11"
+  },
   "serie:Q27922408:Q158246": {
     "decision": "descartado",
     "motivo": "la serie de duques de Suabia no es tema del paquete",
@@ -3082,6 +3142,11 @@
   "serie:Q89856397:Q9016548": {
     "decision": "descartado",
     "motivo": "la serie de jefes del Estado Mayor del Ejército no es tema del paquete",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q943379": {
+    "decision": "descartado",
+    "motivo": "la serie de lores presidentes del Consejo no es tema del paquete",
     "fecha": "2026-11-11"
   },
   "sucesion:Q119137625": {
