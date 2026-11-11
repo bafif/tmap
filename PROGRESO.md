@@ -41,14 +41,12 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
 
 ### Enciclopedia progresiva (0.3)
 
-Lo que pedía la hoja de ruta quedó hecho el 7 de noviembre de 2026 (ver **Hecho**). Quedan dos tareas que surgieron al
+Lo que pedía la hoja de ruta quedó hecho el 7 de noviembre de 2026 (ver **Hecho**). Queda una tarea que surgió al
 hacerlo:
 
 - [ ] **Primera corrida real de `redactar.py`.** La verificación (citas, cifras, enlaces) se probó con una respuesta
       guardada; falta correrlo contra la API con una credencial, sobre un borrador real, y revisar el resultado en el
       editor. Lo decide y lo paga quien lo corre.
-- [ ] **Religiones, culturas, idiomas y demografía en el editor.** Hoy el editor cubre los datos principales, el área y
-      las eras de las regiones; esas cuatro listas todavía se cargan a mano en el JSON.
 
 ### Contenido de la enciclopedia
 
@@ -146,6 +144,21 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 - [ ] **Revisión por especialistas.** De los datos, por área y época.
 
 ## Hecho
+
+### 11 de noviembre de 2026: religiones, culturas, idiomas y población en el editor
+
+- [x] **El editor de la enciclopedia cubre la región entera.** Además de los datos principales, el área y las eras,
+      ahora edita religiones, culturas e idiomas (desde, hasta, nombre, familia, peso y nota; la familia se elige en
+      un desplegable con las de `familias.json` de esa capa) y la población (año, cifra, mínimo y máximo, fuente,
+      «testimonio antiguo» y nota). Las cifras se pueden escribir con puntos o espacios de miles.
+- [x] **Las cifras de Our World in Data no se tocan.** Las escribe `tools/enciclopedia/poblacion.py`: el editor no
+      las muestra (dice cuántas hay), las deja en su lugar y, si cambian las estimaciones curadas, avisa que hay que
+      volver a correrlo. Una cifra nueva queda ordenada por año y sin claves vacías.
+- [x] **La validación del editor es la de `validar.py`**: «desde» obligatorio, familia que exista en su capa, peso
+      mayoritaria, importante o minoritaria, y en la población un entero mayor que cero y una fuente. Avisa si la
+      cifra queda fuera del rango entre el mínimo y el máximo.
+- [x] La prueba automática valida esos errores y agrega una cifra curada a una región con serie de Our World in Data.
+      Para revisar el editor sin pantalla, `tools/captura.sh` acepta `--editar=region:polonia --desplazar=1200`.
 
 ### 11 de noviembre de 2026: costas nítidas de muy cerca
 

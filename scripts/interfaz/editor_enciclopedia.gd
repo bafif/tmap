@@ -14,10 +14,25 @@ const TITULO_NUEVO := {"fuentes": "Nueva fuente", "personas": "Nueva persona", "
 ## Objetos que vuelven a null si se vacían todos sus campos.
 const OPCIONALES := ["nacimiento", "muerte", "activo"]
 const IMPORTANCIAS := [[1, "1 · local"], [2, "2 · regional"], [3, "3 · de primer orden"]]
+## Subcampos de religiones, culturas e idiomas. La familia sale de familias.json, de la misma capa.
+const SUB_CAPA := [["desde", "Desde", "anio"], ["hasta", "Hasta (vacío: hoy)", "anio"], ["nombre", "Nombre", "texto"],
+	["", "", "salto"], ["familia", "Familia", "familia"], ["peso", "Peso", "opcion", "PESOS"], ["nota", "Nota (opcional)", "linea"]]
+const OPCIONES_CAPA := {"opcionales": ["nota"],
+	"ayuda": "El mapa pinta la mayoritaria. «Desde» es obligatorio: si es anterior a lo documentado, va desde cuándo hay registro y una nota."}
+## Subcampos de la población de una región. Las cifras de Our World in Data las escribe poblacion.py y no se editan.
+const SUB_DEMOGRAFIA := [["anio", "Año", "anio"], ["poblacion", "Población", "numero"], ["min", "Mínimo", "numero"],
+	["max", "Máximo", "numero"], ["", "", "salto"], ["fuente", "Fuente: autor (año), obra", "texto"],
+	["tipo", "Testimonio antiguo", "marca", "testimonio-antiguo"], ["nota", "Nota (opcional)", "linea"]]
+const OPCIONES_DEMOGRAFIA := {"opcionales": ["min", "max", "nota", "tipo"], "ordenar": "anio", "fijas": Edicion.MARCA_OWID,
+	"ayuda": "Solo estimaciones publicadas, con su fuente. «Testimonio antiguo»: cifras de autores antiguos, que se muestran aparte y nunca se grafican. Si cambian, corré tools/enciclopedia/poblacion.py para rehacer la serie de Our World in Data."}
 ## Campos de cada sección: [ruta, etiqueta, tipo, extra]. Tipos: titulo (encabezado), id, texto, largo, anio, bool,
 ## opcion (extra: lista o nombre de lista de Edicion), importancia, lista (textos separados por comas), refs (ids
 ## separados por comas; extra: sección), ref (un id), wiki, punto (lon y lat del objeto en ruta; "" = el elemento),
-## filas (extra: subcampos [clave, etiqueta, texto | corto | anio | bool | linea]) y poligono.
+## filas y poligono. En filas, extra son los subcampos [clave, etiqueta, tipo, extra]: texto, corto, anio, bool, linea
+## (debajo, a todo el ancho), numero (entero), opcion (extra: lista o nombre de lista de Edicion), familia (de la capa
+## que da la ruta), marca (una casilla que pone el valor de extra o saca la clave) y salto (otro renglón); y un quinto
+## elemento opcional con opciones: opcionales (claves que se sacan si quedan vacías), ordenar (clave por la que se
+## ordenan las filas), fijas (las filas cuya fuente termina así no se editan: se resumen en un renglón) y ayuda.
 const CAMPOS := {
 	"fuentes": [
 		["titulo", "Título", "texto"],
@@ -108,6 +123,10 @@ const CAMPOS := {
 		["poligono", "Área de estudio", "poligono"],
 		["eras", "Eras", "filas", [["desde", "Desde", "anio"], ["hasta", "Hasta", "anio"], ["nombre", "Nombre", "texto"],
 			["resumen", "Resumen", "linea"]]],
+		["religiones", "Religiones", "filas", SUB_CAPA, OPCIONES_CAPA],
+		["culturas", "Culturas", "filas", SUB_CAPA, OPCIONES_CAPA],
+		["idiomas", "Idiomas", "filas", SUB_CAPA, OPCIONES_CAPA],
+		["demografia", "Población", "filas", SUB_DEMOGRAFIA, OPCIONES_DEMOGRAFIA],
 	],
 }
 
@@ -587,7 +606,7 @@ func _campo(c: Array) -> void:
 		"punto":
 			_campo_punto(ruta, etiqueta)
 		"filas":
-			_campo_filas(ruta, etiqueta, extra)
+			_campo_filas(ruta, etiqueta, extra, c[4] if c.size() > 4 else {})
 		"poligono":
 			_campo_poligono(ruta, etiqueta)
 
@@ -675,42 +694,90 @@ func _campo_punto(ruta: String, etiqueta: String) -> void:
 			_poner(d, base + par[0], v, vacio))
 
 
-func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
+func _campo_filas(ruta: String, etiqueta: String, sub: Array, opciones: Dictionary = {}) -> void:
 	var l := Label.new()
 	l.theme_type_variation = "Seccion"
 	l.text = etiqueta.to_upper()
 	_form.add_child(l)
+	if opciones.has("ayuda"):
+		var ayuda := Label.new()
+		ayuda.theme_type_variation = "Suave"
+		ayuda.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		ayuda.text = tr(opciones["ayuda"])
+		_form.add_child(ayuda)
+	var opcionales: Array = opciones.get("opcionales", [])
+	var ordenar: String = opciones.get("ordenar", "")
+	var fijas: String = opciones.get("fijas", "")
 	var actual: Variant = _valor(_copia, ruta)
 	var lista: Array = actual if actual is Array else []
 	var lectores: Array = []
+	var n_fijas := 0
 	for idx in lista.size():
 		var fila_d: Dictionary = (lista[idx] as Dictionary).duplicate(true) if lista[idx] is Dictionary else {}
+		if fijas != "" and str(fila_d.get("fuente", "")).ends_with(fijas):
+			# No se muestra ni se toca: vuelve tal cual, en su lugar.
+			n_fijas += 1
+			lectores.append(func() -> Dictionary: return fila_d)
+			continue
 		var caja := VBoxContainer.new()
 		caja.add_theme_constant_override("separation", 2)
-		var linea := HBoxContainer.new()
-		caja.add_child(linea)
+		var primera := HBoxContainer.new()
+		var linea := primera
+		caja.add_child(primera)
 		var aplicadores: Array = []
 		for s in sub:
 			var clave: String = s[0]
 			var tipo_s: String = s[2]
 			var v: Variant = fila_d.get(clave)
 			match tipo_s:
+				"salto":
+					linea = HBoxContainer.new()
+					caja.add_child(linea)
 				"anio":
-					var le := _entrada_anio(v, s[1], linea)
+					var le := _entrada_anio(v, tr(s[1]), linea)
 					aplicadores.append(func(fd: Dictionary):
 						var n: Variant = _leer_anio(le.text)
 						_poner(fd, clave, n, n == null))
 				"bool":
 					var cb := CheckBox.new()
-					cb.text = s[1]
+					cb.text = tr(s[1])
 					cb.button_pressed = v == true
 					cb.toggled.connect(func(_b): _al_cambiar())
 					linea.add_child(cb)
 					aplicadores.append(func(fd: Dictionary): _poner(fd, clave, cb.button_pressed, not cb.button_pressed))
+				"marca":
+					var marca: String = s[3]
+					var cb := CheckBox.new()
+					cb.text = tr(s[1])
+					cb.button_pressed = v != null and str(v) == marca
+					cb.toggled.connect(func(_b): _al_cambiar())
+					linea.add_child(cb)
+					aplicadores.append(func(fd: Dictionary):
+						_poner(fd, clave, marca if cb.button_pressed else null, not cb.button_pressed))
+				"opcion", "familia":
+					var ob := _desplegable(tipo_s, ruta, s[3] if s.size() > 3 else null, v)
+					ob.tooltip_text = tr(s[1])
+					if tipo_s == "familia":
+						ob.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+					linea.add_child(ob)
+					aplicadores.append(func(fd: Dictionary):
+						var x: Variant = ob.get_item_metadata(maxi(ob.selected, 0))
+						_poner(fd, clave, x, x == null))
+				"numero":
+					var le := LineEdit.new()
+					le.text = "" if v == null else _texto_valor(v)
+					le.placeholder_text = tr(s[1])
+					le.tooltip_text = tr(s[1])
+					le.custom_minimum_size = Vector2(96, 0)
+					le.text_changed.connect(func(_t): _al_cambiar())
+					linea.add_child(le)
+					aplicadores.append(func(fd: Dictionary):
+						var n: Variant = _leer_numero(le.text)
+						_poner(fd, clave, n, n == null))
 				_:
 					var le := LineEdit.new()
 					le.text = "" if v == null else str(v)
-					le.placeholder_text = s[1]
+					le.placeholder_text = tr(s[1])
 					le.text_changed.connect(func(_t): _al_cambiar())
 					if tipo_s == "corto":
 						le.custom_minimum_size = Vector2(50, 0)
@@ -721,18 +788,32 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 						var t := le.text.strip_edges()
 						_poner(fd, clave, null if t == "" else t, t == ""))
 		var quitar := IconosUI.boton("cerrar", tr("Quitar esta fila"), 14)
-		var i_fila: int = idx
 		quitar.pressed.connect(func():
 			_aplicar()
-			(_valor(_copia, ruta) as Array).remove_at(i_fila)
+			# Por identidad y no por posición: al ordenar, la fila puede haber cambiado de lugar.
+			var filas: Array = _valor(_copia, ruta)
+			for k in filas.size():
+				if is_same(filas[k], fila_d):
+					filas.remove_at(k)
+					break
 			_construir_formulario()
 			_al_cambiar())
-		linea.add_child(quitar)
+		primera.add_child(quitar)
 		lectores.append(func() -> Dictionary:
 			for ap in aplicadores:
 				ap.call(fila_d)
+			for k in opcionales:
+				if fila_d.has(k) and fila_d[k] == null:
+					fila_d.erase(k)
 			return fila_d)
 		_form.add_child(caja)
+	if n_fijas > 0:
+		var resumen := Label.new()
+		resumen.theme_type_variation = "Suave"
+		resumen.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		resumen.text = tr_n("Y %d cifra de Our World in Data, que escribe tools/enciclopedia/poblacion.py: esa no se edita acá.",
+			"Y %d cifras de Our World in Data, que escribe tools/enciclopedia/poblacion.py: esas no se editan acá.", n_fijas) % n_fijas
+		_form.add_child(resumen)
 	var agregar := Button.new()
 	agregar.text = tr("Agregar")
 	agregar.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -742,7 +823,8 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 			_copia[ruta] = []
 		var fila_nueva := {}
 		for s in sub:
-			fila_nueva[s[0]] = false if s[2] == "bool" else null
+			if s[2] != "salto":
+				fila_nueva[s[0]] = false if s[2] == "bool" else null
 		(_valor(_copia, ruta) as Array).append(fila_nueva)
 		_construir_formulario()
 		_al_cambiar())
@@ -751,7 +833,64 @@ func _campo_filas(ruta: String, etiqueta: String, sub: Array) -> void:
 		var out: Array = []
 		for lector in lectores:
 			out.append(lector.call())
+		if ordenar != "":
+			out = _ordenadas(out, ordenar)
 		_poner(d, ruta, out, out.is_empty()))
+
+
+## Desplegable de una fila: «opcion» (extra: lista o nombre de lista de Edicion) o «familia» (las de la capa `capa`,
+## por nombre). Cada ítem guarda su valor en la metadata; si el valor actual falta, la primera opción es «—» (vacío),
+## y si no está entre las opciones se agrega tal cual, para no perderlo al guardar.
+func _desplegable(tipo: String, capa: String, extra: Variant, actual: Variant) -> OptionButton:
+	var ob := OptionButton.new()
+	ob.fit_to_longest_item = false
+	var valores: Array = []
+	var nombres: Array = []
+	if tipo == "familia":
+		var fams: Array = Enciclopedia.familias.values().filter(func(f): return f.get("capa") == capa)
+		fams.sort_custom(func(a, b): return str(a.get("nombre", a["id"])).naturalnocasecmp_to(str(b.get("nombre", b["id"]))) < 0)
+		for f in fams:
+			valores.append(str(f["id"]))
+			nombres.append("%s (%s)" % [f.get("nombre", f["id"]), f["id"]])
+	else:
+		var opciones: Array = (Edicion as Script).get_script_constant_map()[extra] if extra is String else extra
+		for o in opciones:
+			valores.append(o)
+			nombres.append(_nombre_opcion(o))
+	if actual == null:
+		ob.add_item("—")
+		ob.set_item_metadata(0, null)
+	elif not _texto_valor(actual) in valores.map(func(x): return str(x)):
+		valores.append(_texto_valor(actual))
+		nombres.append(_texto_valor(actual))
+	for i in valores.size():
+		ob.add_item(nombres[i])
+		ob.set_item_metadata(ob.item_count - 1, valores[i])
+		if actual != null and str(valores[i]) == _texto_valor(actual):
+			ob.select(ob.item_count - 1)
+	ob.item_selected.connect(func(_i): _al_cambiar())
+	return ob
+
+
+## Orden estable por una clave numérica (las filas sin ella, al final): una lista que ya estaba ordenada no cambia.
+static func _ordenadas(filas: Array, clave: String) -> Array:
+	var con_indice: Array = []
+	for i in filas.size():
+		var v: Variant = filas[i].get(clave) if filas[i] is Dictionary else null
+		con_indice.append([float(v) if (v is int or v is float) else INF, i, filas[i]])
+	con_indice.sort_custom(func(a, b): return a[0] < b[0] or (a[0] == b[0] and a[1] < b[1]))
+	return con_indice.map(func(x): return x[2])
+
+
+## null si está vacío, el entero si se entiende («1600000», «1.600.000», «1 600 000») o el texto tal cual (la
+## validación lo marca).
+static func _leer_numero(texto: String) -> Variant:
+	var s := texto.strip_edges().replace(" ", "").replace("\u00a0", "").replace("\u202f", "")
+	if s == "":
+		return null
+	if RegEx.create_from_string("^\\d{1,3}([.,]\\d{3})+$").search(s):
+		s = s.replace(".", "").replace(",", "")
+	return s.to_int() if s.is_valid_int() else texto.strip_edges()
 
 
 ## El nombre de una sección en singular («Fuente», «Región»), traducido.
@@ -763,7 +902,7 @@ func _nombre_seccion(seccion: String) -> String:
 func _nombre_opcion(v: Variant) -> String:
 	var s := str(v)
 	for nombres: Dictionary in [PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
-			PanelInfo.NOMBRES_CONFIANZA, {"primaria": "Primaria", "secundaria": "Secundaria"}]:
+			PanelInfo.NOMBRES_CONFIANZA, Enciclopedia.NOMBRE_PESO, {"primaria": "Primaria", "secundaria": "Secundaria"}]:
 		if nombres.has(s):
 			return tr(nombres[s])
 	return s
@@ -926,6 +1065,8 @@ func _validar(mostrar_ok: bool) -> Dictionary:
 	_aplicar()
 	var extra := Edicion.ids_de(Edicion.leer(_ruta)) if _ruta.begins_with(Edicion.dir_borradores) else {}
 	var r := Edicion.validar(_seccion_form, _copia, _id_original, extra)
+	if _seccion_form == "regiones" and _poblacion_curada(_copia) != _poblacion_curada(_original):
+		r["avisos"].append(tr("Cambió la población: después de guardar, corré python3 tools/enciclopedia/poblacion.py para rehacer la serie de Our World in Data."))
 	var partes: Array = []
 	if not r["errores"].is_empty():
 		partes.append(tr("[color=#%s][b]Hay que corregir:[/b][/color]\n• %s") % [TemaUI.color("hecho").to_html(false), "\n• ".join(r["errores"])])
@@ -936,6 +1077,12 @@ func _validar(mostrar_ok: bool) -> Dictionary:
 	if not partes.is_empty():
 		_mensaje_l.text = "\n".join(partes)
 	return r
+
+
+## Las cifras de población de una región que no escribe poblacion.py, como texto para compararlas.
+static func _poblacion_curada(region: Dictionary) -> String:
+	var lista: Array = region.get("demografia", []) if region.get("demografia") is Array else []
+	return Edicion.a_json({"x": lista.filter(func(e): return not (e is Dictionary and str(e.get("fuente", "")).ends_with(Edicion.MARCA_OWID)))})
 
 
 func _al_guardar() -> void:

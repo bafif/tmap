@@ -124,8 +124,10 @@ hecho, lugar o región:
 Desde el código fuente (con Godot) escribe en los archivos del proyecto. En una versión exportada, donde los paquetes
 van dentro del ejecutable, guarda copias en la carpeta del usuario (`user://enciclopedia/`; en Windows,
 `%APPDATA%\Godot\app_userdata\TellMAP\enciclopedia\`) que tapan a los de adentro: para sumar esos cambios al proyecto,
-se mandan esos archivos. Las regiones se editan en sus datos principales, su área y sus
-eras; religiones, culturas, idiomas y demografía todavía se cargan a mano en el JSON.
+se mandan esos archivos. Las regiones se editan en sus datos principales, su área, sus
+eras, sus religiones, culturas e idiomas (la familia se elige entre las de `familias.json`) y su población. Las cifras
+de población de Our World in Data no se muestran ni se tocan: las escribe `tools/enciclopedia/poblacion.py`, que hay
+que volver a correr cuando cambian las estimaciones curadas (el editor lo avisa).
 
 ## Reglas editoriales
 

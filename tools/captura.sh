@@ -2,6 +2,7 @@
 # Saca una captura de TellMAP sin monitor (Linux, con el compositor cage en modo headless).
 # Uso: tools/captura.sh salida.png [--anio=-1350] [--lon=31 --lat=29 --zoom=1.2] [--seleccionar] [--pestana=2]
 #                                  [--ficha=fuente:gran-himno-a-aton] [--ajustes] [--tema=pergamino] [--modo=religion]
+#                                  [--editar=region:polonia --desplazar=1200]
 # Requiere: godot (4.7) y cage. Respeta TMPDIR para la carpeta temporal del compositor.
 set -euo pipefail
 raiz="$(cd "$(dirname "$0")/.." && pwd)"

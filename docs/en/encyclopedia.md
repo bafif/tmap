@@ -126,8 +126,10 @@ region entry:
 From the source code (with Godot) it writes to the project files. In an exported build, where the packages are bundled
 inside the executable, it saves copies in the user folder (`user://enciclopedia/`; on Windows,
 `%APPDATA%\Godot\app_userdata\TellMAP\enciclopedia\`) that override the bundled ones: to add those changes to the
-project, send those files. Regions can be edited in their main data, their area and their eras; religions, cultures,
-languages and demography are still entered by hand in the JSON.
+project, send those files. Regions can be edited in their main data, their area, their eras, their religions,
+cultures and languages (the family is picked from those in `familias.json`) and their population. The Our World in
+Data population figures are neither shown nor touched: `tools/enciclopedia/poblacion.py` writes them, and it has to be
+run again when the curated estimates change (the editor warns about it).
 
 ## Editorial rules
 

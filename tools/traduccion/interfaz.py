@@ -49,7 +49,9 @@ CONSTANTES: dict[str, dict[str, list[str] | list[int] | None]] = {
                                        "NOMBRES_TIPO_HECHO": None, "NOMBRES_TIPO_LUGAR": None, "NOMBRES_CONFIANZA": None},
     "scripts/interfaz/tema.gd": {"TEMAS": ["nombre"]},
     "scripts/interfaz/leyenda.gd": {"CAPAS": [1]},
-    "scripts/interfaz/editor_enciclopedia.gd": {"SECCIONES": [1], "TITULO_NUEVO": None, "IMPORTANCIAS": [1], "CAMPOS": [1]},
+    "scripts/interfaz/editor_enciclopedia.gd": {"SECCIONES": [1], "TITULO_NUEVO": None, "IMPORTANCIAS": [1], "CAMPOS": [1],
+                                                "SUB_CAPA": [1], "SUB_DEMOGRAFIA": [1], "OPCIONES_CAPA": ["ayuda"],
+                                                "OPCIONES_DEMOGRAFIA": ["ayuda"]},
     "scripts/interfaz/pista_tiempo.gd": {"ERAS_GLOBALES": [2]},
 }
 # Textos de los datos que se muestran con tr(): archivo → (lista dentro del JSON, campos).

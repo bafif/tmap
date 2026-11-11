@@ -59,6 +59,47 @@ func correr(interfaz: Interfaz) -> String:
 	_espera_error("fuentes", repetido, "", Idioma.t("Ya hay un elemento con el id «%s» en %s.").get_slice("%s", 0))
 	if not EditorEnciclopedia._leer_anio("1274 a. C.") == -1274 or not EditorEnciclopedia._leer_anio("c. 476") == 476:
 		_falla("no entiende los años escritos con «a. C.» o «c.»")
+	var region_mal := _limpio(Enciclopedia.regiones.values()[0])
+	region_mal["religiones"] = [{"desde": null, "hasta": null, "nombre": "Prueba", "familia": "no-existe", "peso": "casi"}]
+	region_mal["demografia"] = [{"anio": 100, "poblacion": "muchos", "fuente": ""}]
+	_espera_error("regiones", region_mal, region_mal["id"], "no-existe")
+	_espera_error("regiones", region_mal, region_mal["id"], "muchos")
+	for mensaje in ["%s: el peso tiene que ser mayoritaria, importante o minoritaria.",
+			"%s: falta «desde» (si es anterior a lo documentado, va desde cuándo hay registro y una nota).",
+			"%s: falta la fuente (solo van estimaciones publicadas)."]:
+		_espera_error("regiones", region_mal, region_mal["id"], Idioma.t(mensaje).get_slice("%s", 1))
+	if EditorEnciclopedia._leer_numero("1.600.000") != 1600000 or EditorEnciclopedia._leer_numero("2 500") != 2500 \
+			or not EditorEnciclopedia._leer_numero("1.5") is String:
+		_falla("no entiende las cifras de población con separadores de miles")
+
+	# 3b. Una cifra de población nueva queda en su lugar por año, sin claves vacías, y las de Our World in Data (que no
+	# se muestran) siguen intactas.
+	var con_serie := ""
+	for r in Enciclopedia.regiones.values():
+		if (r.get("demografia", []) as Array).any(func(e): return str(e.get("fuente", "")).ends_with(Edicion.MARCA_OWID)):
+			con_serie = r["id"]
+			break
+	if con_serie == "":
+		_falla("ninguna región tiene la serie de Our World in Data")
+	else:
+		ed._vaciar()
+		ed.abrir("region", con_serie)
+		ed._aplicar()
+		var antes_dem: Array = (ed._copia["demografia"] as Array).duplicate(true)
+		(ed._copia["demografia"] as Array).append({"anio": 1450, "poblacion": 123456, "min": null, "max": null,
+			"fuente": "Prueba (2026), obra", "tipo": null, "nota": null})
+		ed._construir_formulario()
+		ed._aplicar()
+		var dem: Array = ed._copia["demografia"]
+		var anios: Array = dem.map(func(e): return float(e["anio"]))
+		var ordenados := anios.duplicate()
+		ordenados.sort()
+		var nueva: Array = dem.filter(func(e): return e.get("fuente") == "Prueba (2026), obra")
+		var owid := func(lista: Array): return Edicion.a_json({"x": lista.filter(func(e): return str(e.get("fuente", "")).ends_with(Edicion.MARCA_OWID))})
+		if dem.size() != antes_dem.size() + 1 or anios != ordenados or nueva.size() != 1 or nueva[0].values().has(null) \
+				or owid.call(dem) != owid.call(antes_dem):
+			_falla("agregar una cifra de población a «%s» no la dejó en su lugar o tocó la serie de Our World in Data: %s" % [con_serie, nueva])
+		ed._vaciar()
 
 	# 4. Guardar cambia solo lo editado, y lo nuevo se agrega al final.
 	var origen: String = Enciclopedia.hechos.values()[0]["_archivo"]

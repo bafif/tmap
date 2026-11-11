@@ -41,13 +41,11 @@ Block finished on November 6, 2026 (see **Done**).
 
 ### Progressive encyclopedia (0.3)
 
-What the roadmap asked for was done on November 7, 2026 (see **Done**). Two tasks that came up along the way remain:
+What the roadmap asked for was done on November 7, 2026 (see **Done**). One task that came up along the way remains:
 
 - [ ] **First real run of `redactar.py`.** The verification (citations, figures, links) was tested with a saved
       response; it still has to run against the API with a credential, on a real draft, and the result has to be
       reviewed in the editor. Whoever runs it decides and pays for it.
-- [ ] **Religions, cultures, languages and demographics in the editor.** Today the editor covers the main data, the
-      area and the eras of regions; those four lists are still entered by hand in the JSON.
 
 ### Encyclopedia content
 
@@ -147,6 +145,21 @@ Each step is done when its threshold is crossed, not before.
 - [ ] **Review by specialists.** Of the data, by field and era.
 
 ## Done
+
+### November 11, 2026: religions, cultures, languages and population in the editor
+
+- [x] **The encyclopedia editor covers the whole region.** Besides the main data, the area and the eras, it now edits
+      religions, cultures and languages (from, until, name, family, weight and note; the family is picked from a
+      dropdown with the ones in `familias.json` for that layer) and the population (year, figure, minimum and maximum,
+      source, "ancient testimony" and note). Figures can be typed with dots or spaces as thousands separators.
+- [x] **The Our World in Data figures are left alone.** `tools/enciclopedia/poblacion.py` writes them: the editor
+      doesn't show them (it says how many there are), keeps them in place and, if the curated estimates change, warns
+      that it has to be run again. A new figure is sorted by year and has no empty keys.
+- [x] **The editor validates like `validar.py`**: "from" is required, the family must exist in its layer, the weight
+      must be majority, significant or minority, and a population needs a whole number above zero and a source. It
+      warns if the figure falls outside the range between the minimum and the maximum.
+- [x] The automatic test checks those errors and adds a curated figure to a region with an Our World in Data series.
+      To review the editor without a screen, `tools/captura.sh` accepts `--editar=region:polonia --desplazar=1200`.
 
 ### November 11, 2026: sharp coastlines up close
 

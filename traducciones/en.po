@@ -79,7 +79,7 @@ msgstr "Texture resolution changes after a restart."
 msgid "Interfaz"
 msgstr "Interface"
 
-#: scripts/interfaz/ajustes.gd scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+#: scripts/interfaz/ajustes.gd scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
 msgid "Idioma"
 msgstr "Language"
 
@@ -474,6 +474,62 @@ msgid "3 · de primer orden"
 msgstr "3 · of the first rank"
 
 #: scripts/interfaz/editor_enciclopedia.gd
+msgid "Desde"
+msgstr "From"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Hasta (vacío: hoy)"
+msgstr "Until (empty: today)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nombre"
+msgstr "Name"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
+msgid "Familia"
+msgstr "Family"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Peso"
+msgstr "Weight"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Nota (opcional)"
+msgstr "Note (optional)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "El mapa pinta la mayoritaria. «Desde» es obligatorio: si es anterior a lo documentado, va desde cuándo hay registro y una nota."
+msgstr "The map paints the majority one. “From” is required: if it predates the record, put when it is first documented and a note."
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
+msgid "Año"
+msgstr "Year"
+
+#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd data/demografia/paises.json
+msgid "Población"
+msgstr "Population"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Mínimo"
+msgstr "Minimum"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Máximo"
+msgstr "Maximum"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Fuente: autor (año), obra"
+msgstr "Source: author (year), work"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Testimonio antiguo"
+msgstr "Ancient testimony"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Solo estimaciones publicadas, con su fuente. «Testimonio antiguo»: cifras de autores antiguos, que se muestran aparte y nunca se grafican. Si cambian, corré tools/enciclopedia/poblacion.py para rehacer la serie de Our World in Data."
+msgstr "Only published estimates, with their source. “Ancient testimony”: figures given by ancient authors, shown apart and never plotted. If they change, run tools/enciclopedia/poblacion.py to rebuild the Our World in Data series."
+
+#: scripts/interfaz/editor_enciclopedia.gd
 msgid "Título"
 msgstr "Title"
 
@@ -509,10 +565,6 @@ msgstr "Confidence in the dating"
 msgid "Dónde y cuándo se escribió"
 msgstr "Where and when it was written"
 
-#: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
-msgid "Año"
-msgstr "Year"
-
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Hasta (si llevó años)"
 msgstr "Until (if it took years)"
@@ -536,10 +588,6 @@ msgstr "Which place and period it's about"
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Regiones (ids)"
 msgstr "Regions (IDs)"
-
-#: scripts/interfaz/editor_enciclopedia.gd
-msgid "Desde"
-msgstr "From"
 
 #: scripts/interfaz/editor_enciclopedia.gd scripts/nucleo/edicion.gd
 msgid "Hasta"
@@ -580,10 +628,6 @@ msgstr "https://…"
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Wikipedia"
 msgstr "Wikipedia"
-
-#: scripts/interfaz/editor_enciclopedia.gd
-msgid "Nombre"
-msgstr "Name"
 
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Roles (separados por comas)"
@@ -652,6 +696,18 @@ msgstr "Study area"
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Eras"
 msgstr "Eras"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Religiones"
+msgstr "Religions"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Culturas"
+msgstr "Cultures"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Idiomas"
+msgstr "Languages"
 
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Editor de la enciclopedia"
@@ -830,6 +886,12 @@ msgid "Quitar esta fila"
 msgstr "Remove this row"
 
 #: scripts/interfaz/editor_enciclopedia.gd
+msgid "Y %d cifra de Our World in Data, que escribe tools/enciclopedia/poblacion.py: esa no se edita acá."
+msgid_plural "Y %d cifras de Our World in Data, que escribe tools/enciclopedia/poblacion.py: esas no se editan acá."
+msgstr[0] "And %d figure from Our World in Data, written by tools/enciclopedia/poblacion.py: it is not edited here."
+msgstr[1] "And %d figures from Our World in Data, written by tools/enciclopedia/poblacion.py: they are not edited here."
+
+#: scripts/interfaz/editor_enciclopedia.gd
 msgid "Agregar"
 msgstr "Add"
 
@@ -876,6 +938,10 @@ msgstr "Discarded."
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Cambios descartados."
 msgstr "Changes discarded."
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Cambió la población: después de guardar, corré python3 tools/enciclopedia/poblacion.py para rehacer la serie de Our World in Data."
+msgstr "The population changed: after saving, run python3 tools/enciclopedia/poblacion.py to rebuild the Our World in Data series."
 
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "[color=#%s][b]Hay que corregir:[/b][/color]\n• %s"
@@ -1051,7 +1117,7 @@ msgstr "~%s inhabitants"
 msgid "(entre %s y %s)"
 msgstr "(between %s and %s)"
 
-#: scripts/interfaz/grafico_serie.gd
+#: scripts/interfaz/grafico_serie.gd scripts/principal.gd
 msgid "Fuente: %s"
 msgstr "Source: %s"
 
@@ -1182,10 +1248,6 @@ msgstr "Event"
 #: scripts/interfaz/panel_info.gd scripts/nucleo/edicion.gd
 msgid "Región"
 msgstr "Region"
-
-#: scripts/interfaz/panel_info.gd
-msgid "Familia"
-msgstr "Family"
 
 #: scripts/interfaz/panel_info.gd
 msgid "religioso"
@@ -2253,6 +2315,54 @@ msgstr "No eras: places in this region still count as “no entry”."
 msgid "Wikipedia va como {\"es\": título, \"en\": título}."
 msgstr "Wikipedia goes as {\"es\": title, \"en\": title}."
 
+#: scripts/nucleo/edicion.gd scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+msgid "Religión"
+msgstr "Religion"
+
+#: scripts/nucleo/edicion.gd scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
+msgid "Cultura"
+msgstr "Culture"
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: hay una entrada sin nombre."
+msgstr "%s: there is an entry without a name."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: falta «desde» (si es anterior a lo documentado, va desde cuándo hay registro y una nota)."
+msgstr "%s: “from” is missing (if it predates the record, put when it is first documented and a note)."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: el peso tiene que ser mayoritaria, importante o minoritaria."
+msgstr "%s: the weight has to be majority, significant or minority."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: falta la familia."
+msgstr "%s: the family is missing."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: la familia «%s» no está en familias.json."
+msgstr "%s: the family “%s” is not in familias.json."
+
+#: scripts/nucleo/edicion.gd
+msgid "Población de %s"
+msgstr "Population in %s"
+
+#: scripts/nucleo/edicion.gd
+msgid "Hay una cifra de población sin año."
+msgstr "There is a population figure without a year."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: «%s» no es un número entero mayor que cero."
+msgstr "%s: “%s” is not a whole number greater than zero."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: la cifra queda fuera del rango entre el mínimo y el máximo."
+msgstr "%s: the figure falls outside the range between the minimum and the maximum."
+
+#: scripts/nucleo/edicion.gd
+msgid "%s: falta la fuente (solo van estimaciones publicadas)."
+msgstr "%s: the source is missing (only published estimates go here)."
+
 #: scripts/nucleo/edicion.gd
 msgid "La ficha extendida no tiene el formato del esquema."
 msgstr "The extended entry doesn't follow the schema's format."
@@ -2300,14 +2410,6 @@ msgstr "Couldn't read the draft or the package."
 #: scripts/nucleo/edicion.gd
 msgid "El borrador todavía tiene errores:\n• "
 msgstr "The draft still has errors:\n• "
-
-#: scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
-msgid "Religión"
-msgstr "Religion"
-
-#: scripts/nucleo/enciclopedia.gd scripts/nucleo/estado.gd
-msgid "Cultura"
-msgstr "Culture"
 
 #: scripts/nucleo/enciclopedia.gd
 msgid "mayoritaria"
@@ -2412,10 +2514,6 @@ msgstr "Couldn't load the map: %s"
 #: scripts/principal.gd
 msgid "Abriendo la biblioteca…"
 msgstr "Opening the library…"
-
-#: data/demografia/paises.json
-msgid "Población"
-msgstr "Population"
 
 #: data/demografia/paises.json
 msgid "Habitantes dentro de las fronteras actuales del país."

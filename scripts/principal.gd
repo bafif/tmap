@@ -4,6 +4,7 @@ extends Node
 ## Para sacar capturas sin intervención (README, pruebas visuales):
 ##   godot --path . -- --captura=ruta.png [--anio=-1350] [--lon=31 --lat=27.5 --zoom=1.6] [--seleccionar]
 ##   [--sel_lon=32.6 --sel_lat=25.7] [--pestana=2] [--ficha=fuente:id] [--ajustes] [--bienvenida] [--aviso_graficos] [--tema=marmol] [--modo=religion]
+##   [--editar=region:polonia --desplazar=1200] (abre el elemento en el editor de la enciclopedia y baja el formulario)
 ##   (más cómodo con tools/captura.sh, que además funciona sin monitor)
 ##   Con --comprobar_dibujo sale con 1 si la captura quedó casi lisa: el motor arrancó pero no dibujó (ver MotorGrafico).
 ##
@@ -169,6 +170,14 @@ func _captura_automatica(args: Dictionary) -> void:
 		Estado.pedir_ficha(partes[0], partes[1])
 	if args.has("ajustes"):
 		interfaz.ajustes.abrir()
+	if args.has("editar"):
+		# --editar=region:polonia abre ese elemento en el editor; --desplazar=1200 baja el formulario esos píxeles.
+		var partes_e: PackedStringArray = str(args["editar"]).split(":")
+		interfaz.editor.abrir(partes_e[0], partes_e[1] if partes_e.size() > 1 else "")
+		if args.has("desplazar"):
+			await get_tree().process_frame
+			await get_tree().process_frame
+			interfaz.editor._desliza.scroll_vertical = int(args["desplazar"])
 	if args.has("bienvenida"):
 		interfaz.mostrar_bienvenida()
 	if args.has("aviso_graficos"):

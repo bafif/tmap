@@ -18,6 +18,11 @@ const GENEROS := ["religioso", "historia", "cronica", "literatura", "poesia", "f
 	"epistolar", "inscripcion", "geografia", "ciencia", "medicina", "sabiduria", "viajes", "ensayo", "arqueologia",
 	"economia", "politica", "manifiesto", "discurso", "tecnologia", "periodismo"]
 const CONFIANZAS := ["alta", "media", "baja"]
+const PESOS := ["mayoritaria", "importante", "minoritaria"]
+## Capas de una región con familia y peso (ver la sección «familias» del esquema).
+const CAPAS := ["religiones", "culturas", "idiomas"]
+## Las cifras de población cuya fuente termina así las escribe tools/enciclopedia/poblacion.py: no se editan a mano.
+const MARCA_OWID := "vía Our World in Data"
 ## Números que se guardan siempre con decimales. Godot lee todos los números de un JSON como float: al escribir, los
 ## enteros vuelven a ir sin decimales (años, población, importancia) y las coordenadas conservan el suyo. Así un
 ## paquete leído y vuelto a escribir sale idéntico, byte por byte, y el diff muestra solo lo que se cambió.
@@ -289,11 +294,68 @@ static func validar(seccion: String, item: Dictionary, id_original: String, extr
 				_orden(era.get("desde"), era.get("hasta"), Idioma.t("La era «%s»") % nombre, e)
 			if (item.get("eras", []) as Array).is_empty() if item.get("eras") is Array else true:
 				a.append(Idioma.t("Sin eras: los lugares de esta región siguen contando como «sin ficha»."))
+			for capa in CAPAS:
+				_capa(item.get(capa), capa, e)
+			_demografia(item.get("demografia"), e, a)
 			_extendida(item.get("extendida"), e)
 	var wiki: Variant = item.get("wikipedia")
 	if wiki != null and not wiki is Dictionary:
 		e.append(Idioma.t("Wikipedia va como {\"es\": título, \"en\": título}."))
 	return {"errores": e, "avisos": a}
+
+
+## Religiones, culturas o idiomas de una región: las mismas reglas que tools/enciclopedia/validar.py.
+static func _capa(lista: Variant, capa: String, e: Array) -> void:
+	if not lista is Array:
+		return
+	var titulo: String = {"religiones": Idioma.t("Religión"), "culturas": Idioma.t("Cultura"), "idiomas": Idioma.t("Idioma")}[capa]
+	for x in lista:
+		if not x is Dictionary:
+			continue
+		var nombre := str(x.get("nombre", "")) if x.get("nombre") != null else ""
+		var que := "%s «%s»" % [titulo, nombre]
+		if nombre.strip_edges() == "":
+			e.append(Idioma.t("%s: hay una entrada sin nombre.") % titulo)
+		if x.get("desde") == null:
+			e.append(Idioma.t("%s: falta «desde» (si es anterior a lo documentado, va desde cuándo hay registro y una nota).") % que)
+		_anio(x.get("desde"), que, e)
+		_anio(x.get("hasta"), que, e)
+		_orden(x.get("desde"), x.get("hasta"), que, e)
+		if not x.get("peso") in PESOS:
+			e.append(Idioma.t("%s: el peso tiene que ser mayoritaria, importante o minoritaria.") % que)
+		var fam := str(x.get("familia")) if x.get("familia") != null else ""
+		if fam.strip_edges() == "":
+			e.append(Idioma.t("%s: falta la familia.") % que)
+		elif not Enciclopedia.familias.has("%s:%s" % [capa, fam]):
+			e.append(Idioma.t("%s: la familia «%s» no está en familias.json.") % [que, fam])
+
+
+## Población de una región: solo estimaciones publicadas, con su fuente.
+static func _demografia(lista: Variant, e: Array, a: Array) -> void:
+	if not lista is Array:
+		return
+	for x in lista:
+		if not x is Dictionary:
+			continue
+		var anio: Variant = x.get("anio")
+		var que := Idioma.t("Población de %s") % (Fechas.texto(int(anio)) if (anio is int or anio is float) and int(anio) != 0 else "?")
+		if anio == null:
+			e.append(Idioma.t("Hay una cifra de población sin año."))
+		_anio(anio, Idioma.t("Población"), e)
+		var cifras := {}
+		for clave in ["poblacion", "min", "max"]:
+			var v: Variant = x.get(clave)
+			if v == null and clave != "poblacion":
+				continue
+			if not ((v is int or v is float) and v == floorf(v) and v > 0):
+				e.append(Idioma.t("%s: «%s» no es un número entero mayor que cero.") % [que, "" if v == null else str(v)])
+			else:
+				cifras[clave] = float(v)
+		if cifras.has("poblacion") and (cifras.get("min", cifras["poblacion"]) > cifras["poblacion"]
+				or cifras.get("max", cifras["poblacion"]) < cifras["poblacion"]):
+			a.append(Idioma.t("%s: la cifra queda fuera del rango entre el mínimo y el máximo.") % que)
+		if str(x.get("fuente", "") if x.get("fuente") != null else "").strip_edges() == "":
+			e.append(Idioma.t("%s: falta la fuente (solo van estimaciones publicadas).") % que)
 
 
 static func _extendida(x: Variant, e: Array) -> void:
