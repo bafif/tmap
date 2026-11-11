@@ -30,11 +30,13 @@ Bloque terminado el 6 de noviembre de 2026 (ver **Hecho**).
       `TellMAP.app` invalidaría su firma: hay que bajar el `.app` entero (un zip), cambiarlo de una vez y reabrir.
 - [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
       abra con doble clic sin pasar por Privacidad y seguridad. Lo decide Bautista.
-- [ ] **Un `.dmg` para macOS** (opcional): el formato de siempre en Mac, para arrastrar la app a Aplicaciones. Abrirla
-      desde ahí evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura), que
-      va a importar el día que la app de macOS se actualice sola. Godot arma el `.dmg` solo en una Mac: lo puede
-      hacer `verificar-macos` con `hdiutil create`. Un instalador `.pkg` no hace falta: la app no instala nada fuera
-      del paquete y sin notarizar Gatekeeper lo frena igual.
+- [ ] **Ver andar el `.dmg` de macOS.** Desde el 11/11/2026, `verificar-macos` arma con `hdiutil` un `.dmg` con
+      `TellMAP.app` y un acceso a Aplicaciones, después de comprobar la app, y lo suma a la versión (si ese paso falla,
+      la versión queda con el zip). Abrirla desde Aplicaciones evita la *App Translocation* (macOS corre las apps en
+      cuarentena desde una copia de solo lectura), que va a importar el día que la app de macOS se actualice sola.
+      Falta verlo en la próxima versión publicada, abrirlo en la MacBook y, si anda, nombrarlo en el README como
+      forma de instalar. Un instalador `.pkg` no hace falta: la app no instala nada fuera del paquete y sin notarizar
+      Gatekeeper lo frena igual.
 
 ### Enciclopedia progresiva (0.3)
 

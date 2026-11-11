@@ -30,11 +30,13 @@ Block finished on November 6, 2026 (see **Done**).
       `.app` has to be downloaded (a zip), swapped in one go and reopened.
 - [ ] **Sign and notarize the macOS version** with an Apple Developer account (99 USD a year), so it opens with a
       double click without going through Privacy & Security. Bautista decides.
-- [ ] **A `.dmg` for macOS** (optional): the usual format on Mac, to drag the app to Applications. Opening it from there
-      avoids *App Translocation* (macOS runs quarantined apps from a read-only copy), which will matter the day the
-      macOS app updates itself. Godot builds the `.dmg` only on a Mac: `verificar-macos` can do it with
-      `hdiutil create`. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without
-      notarization Gatekeeper blocks it anyway.
+- [ ] **See the macOS `.dmg` working.** Since November 11, 2026, `verificar-macos` builds with `hdiutil` a `.dmg` with
+      `TellMAP.app` and a shortcut to Applications, after checking the app, and adds it to the release (if that step
+      fails, the release keeps the zip). Opening it from Applications avoids *App Translocation* (macOS runs
+      quarantined apps from a read-only copy), which will matter the day the macOS app updates itself. It still has to
+      be seen in the next published release, opened on the MacBook and, if it works, named in the README as a way to
+      install. A `.pkg` installer isn't needed: the app installs nothing outside the bundle, and without notarization
+      Gatekeeper blocks it anyway.
 
 ### Progressive encyclopedia (0.3)
 
