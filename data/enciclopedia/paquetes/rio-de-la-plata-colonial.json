@@ -5047,6 +5047,42 @@
         "en": "Henry F. Dobyns"
       },
       "wikidata": "Q22004884"
+    },
+    {
+      "id": "felipe-iii",
+      "nombre": "Felipe III de España",
+      "nacimiento": {
+        "anio": 1578,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "muerte": {
+        "anio": 1621,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417,
+        "desde": 1598,
+        "hasta": 1621,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de España y de Portugal (como Felipe II) desde 1598 hasta su muerte en 1621, que delegó buena parte del gobierno en su valido, el duque de Lerma. Una real cédula suya del 16 de diciembre de 1617 dividió la gobernación del Río de la Plata y del Paraguay, y en su reinado se autorizaron los permisos de comercio de Buenos Aires de 1602 y los navíos de registro de 1618.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Felipe III de España",
+        "en": "Philip III of Spain"
+      },
+      "wikidata": "Q34464"
     }
   ],
   "hechos": [

@@ -6123,6 +6123,44 @@
         "en": "Antonio José de Sucre"
       },
       "wikidata": "Q189779"
+    },
+    {
+      "id": "juan-pedro-aguirre",
+      "nombre": "Juan Pedro Aguirre",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1837,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1820,
+        "hasta": 1820,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "director supremo",
+        "armador"
+      ],
+      "resumen": "Político nacido en Buenos Aires. Sirvió en las milicias durante las invasiones inglesas, adhirió a la Revolución de Mayo y fue uno de los principales armadores de corsarios de la guerra de independencia. En 1820 fue Director Supremo sustituto de Rondeau mientras este estaba en campaña, hasta que se disolvieron las autoridades nacionales el 11 de febrero, y después presidió el Banco de Buenos Aires y el Banco Nacional.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Pedro Aguirre",
+        "en": "Juan Pedro Aguirre"
+      },
+      "wikidata": "Q2509053"
     }
   ],
   "hechos": [
@@ -8622,6 +8660,281 @@
       "wikipedia": {
         "es": "Hipólito Bouchard",
         "en": "Hippolyte Bouchard"
+      }
+    },
+    {
+      "id": "directorio-de-aguirre",
+      "titulo": "Directorio de Juan Pedro Aguirre",
+      "anio": 1820,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 31 de enero de 1820, con el Director Supremo Rondeau en campaña contra los federales, el Congreso nombró Director Supremo sustituto a Aguirre, alcalde de primer voto. Tras la derrota de Rondeau en Cepeda (1 de febrero), este renunció ante el Cabildo el 11 de febrero y se disolvieron las autoridades nacionales, con lo que empezó la Anarquía del Año XX.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Juan Pedro Aguirre",
+        "en": "Juan Pedro Aguirre"
+      }
+    },
+    {
+      "id": "guerra-de-independencia-argentina",
+      "titulo": "Guerra de Independencia de la Argentina",
+      "anio": 1810,
+      "anio_hasta": 1825,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "batalla",
+      "resumen": "Conjunto de campañas de las Provincias Unidas del Río de la Plata contra las fuerzas realistas, que se la suele fechar entre 1810 y 1825. Tuvo tres frentes: el oriental o del litoral (Paraguay, Banda Oriental, Mesopotamia y los ríos), el norte (Alto Perú y Salta) y el de los Andes (Chile, Perú y Ecuador); solo una parte menor se libró en el actual territorio argentino. El Congreso de Tucumán declaró la independencia en 1816.",
+      "regiones": [
+        "rio-de-la-plata",
+        "andes",
+        "chile",
+        "amazonia-andina",
+        "noroeste-argentino",
+        "paraguay-oriental",
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [
+        "archivo-de-san-martin",
+        "archivo-de-belgrano"
+      ],
+      "wikipedia": {
+        "es": "Guerra de la Independencia Argentina",
+        "en": "Argentine War of Independence"
+      }
+    },
+    {
+      "id": "guerra-de-independencia-de-bolivia",
+      "titulo": "Guerra de independencia de Bolivia",
+      "anio": 1809,
+      "anio_hasta": 1825,
+      "aprox": false,
+      "lugar": "La Plata (Chuquisaca, hoy Sucre)",
+      "lon": -65.26,
+      "lat": -19.047,
+      "tipo": "batalla",
+      "resumen": "La historiografía boliviana la fecha desde la junta de Chuquisaca del 25 de mayo de 1809 hasta el combate de Tumusla del 1 de abril de 1825, en el que el último jefe realista, Olañeta, cayó ante sus propias tropas pasadas al bando patriota. En el Alto Perú los realistas derrotaron las tres expediciones enviadas desde Buenos Aires (Castelli, Belgrano y Rondeau), pero los guerrilleros de las republiquetas mantuvieron la lucha hasta que Bolívar y Sucre vencieron al ejército realista; la independencia se declaró el 6 de agosto de 1825.",
+      "regiones": [
+        "amazonia-andina",
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de independencia de Bolivia",
+        "en": "Bolivian War of Independence"
+      }
+    },
+    {
+      "id": "guerra-de-independencia-de-chile",
+      "titulo": "Guerra de la Independencia de Chile",
+      "anio": 1812,
+      "anio_hasta": 1826,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "batalla",
+      "resumen": "La junta de gobierno formada en Santiago el 18 de septiembre de 1810 juró fidelidad a Fernando VII; la guerra empezó en 1812, con las primeras acciones hostiles del virrey del Perú, y terminó en 1826 con la caída del último reducto realista en Chiloé (la Wikipedia en inglés suma la Araucanía en 1827). La historiografía chilena distingue la Patria Vieja (1810-1814), la Reconquista (1814-1817) y la Patria Nueva (1817-1823), con la llegada del Ejército de los Andes. La independencia se proclamó el 12 de febrero de 1818 y España la reconoció en 1844.",
+      "regiones": [
+        "chile"
+      ],
+      "fuentes": [
+        "acta-de-independencia-de-chile"
+      ],
+      "wikipedia": {
+        "es": "Guerra de la Independencia de Chile",
+        "en": "Chilean War of Independence"
+      }
+    },
+    {
+      "id": "combate-de-cotagaita",
+      "titulo": "Combate de Cotagaita",
+      "anio": 1810,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cotagaita",
+      "lon": -65.66,
+      "lat": -20.818,
+      "tipo": "batalla",
+      "resumen": "El 27 de octubre de 1810 la vanguardia del Ejército Auxiliar de la Junta, al mando de Antonio González Balcarce, atacó a los realistas de José de Córdoba y Rojas, atrincherados en Cotagaita, y tras unas cuatro horas de fuego se retiró sin haber podido tomar las trincheras. Fue el primer enfrentamiento del ejército de la Junta con el realista; Balcarce admitió tres muertos y seis heridos, y Córdoba y Rojas dijo que sus rivales huyeron con pérdidas. Los patriotas se replegaron a Tupiza y Suipacha, donde ganaron el 7 de noviembre.",
+      "regiones": [
+        "amazonia-andina",
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Combate de Cotagaita",
+        "en": "Battle of Cotagaita"
+      }
+    },
+    {
+      "id": "combate-de-san-jose-1811",
+      "titulo": "Combate de San José",
+      "anio": 1811,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San José de Mayo",
+      "lon": -56.714,
+      "lat": -34.34,
+      "tipo": "batalla",
+      "resumen": "El 25 de abril de 1811 las fuerzas patriotas de la Banda Oriental, divisiones del ejército de Belgrano (la de Manuel Artigas y la caballería oriental de Venancio Benavides), tomaron la villa de San José a su guarnición realista, que se rindió con su artillería. Manuel Artigas murió de sus heridas a fines de mayo. Con la victoria Montevideo quedó aislada de Colonia del Sacramento, y unas tres semanas después, el 18 de mayo, se dio la batalla de Las Piedras.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Combate de San José"
+      }
+    },
+    {
+      "id": "combate-de-san-nicolas-1811",
+      "titulo": "Combate de San Nicolás",
+      "anio": 1811,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Nicolás de los Arroyos (frente al pueblo, en el Paraná)",
+      "lon": -60.21,
+      "lat": -33.345,
+      "tipo": "batalla",
+      "resumen": "El 2 de marzo de 1811 la escuadrilla del Apostadero de Montevideo, de Jacinto Romarate, derrotó frente a San Nicolás, en el Paraná, a la primera flotilla de la Junta, mandada por Juan Bautista Azopardo, que iba a reforzar el ejército de Belgrano en el Paraguay. Azopardo fue tomado prisionero y llevado a España, y la Junta ordenó pocos días después retirarse del Paraguay.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Combate de San Nicolás",
+        "en": "Battle of San Nicolás"
+      }
+    },
+    {
+      "id": "revolucion-oriental",
+      "titulo": "Revolución oriental",
+      "anio": 1811,
+      "anio_hasta": 1820,
+      "aprox": false,
+      "lugar": "Arroyo Asencio (Soriano)",
+      "lon": -57.7528,
+      "lat": -33.5228,
+      "tipo": "revolucion",
+      "resumen": "Movimiento de la Banda Oriental iniciado con el Grito de Asencio del 28 de febrero de 1811 contra el gobierno realista de Montevideo y en apoyo de la Junta de Buenos Aires, con la victoria de Las Piedras como primer gran triunfo. Después, con Artigas a la cabeza, buscó una organización federal y chocó con el gobierno de Buenos Aires; se la suele cerrar en 1820, con la derrota de Tacuarembó, el exilio de Artigas y la ocupación portuguesa y brasileña.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "oracion-de-abril-artigas",
+        "instrucciones-del-ano-xiii",
+        "reglamento-de-tierras-1815"
+      ],
+      "wikipedia": {
+        "es": "Revolución oriental"
+      }
+    },
+    {
+      "id": "batalla-de-cerrito",
+      "titulo": "Batalla de Cerrito",
+      "anio": 1812,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cerrito de la Victoria (Montevideo)",
+      "lon": -56.17,
+      "lat": -34.853,
+      "tipo": "batalla",
+      "resumen": "El 31 de diciembre de 1812 la guarnición realista de Montevideo, al mando de Gaspar de Vigodet, hizo una salida contra el ejército sitiador de Rondeau y fue rechazada en la loma del Cerrito, donde murió el brigadier Vicente Muesas. Según las fuentes, los atacantes eran entre 1.600 y 2.300 y los patriotas entre 1.000 y 2.000; los realistas tuvieron unos 100 muertos, 146 heridos y 30 prisioneros, y los patriotas 90 muertos y 40 prisioneros. No volvieron a intentar una salida hasta que la plaza se rindió en 1814.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Cerrito",
+        "en": "Battle of Cerrito"
+      }
+    },
+    {
+      "id": "batalla-de-guayabos",
+      "titulo": "Batalla de Guayabos",
+      "anio": 1815,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Arroyo Guayabos (Salto)",
+      "lon": -56.56,
+      "lat": -31.75,
+      "tipo": "batalla",
+      "resumen": "El 10 de enero de 1815, junto al arroyo Guayabos (afluente del Arerunguá, en el actual departamento de Salto; el punto exacto del combate no se conoce y el del mapa es aproximado), las fuerzas orientales de Artigas, al mando de Fructuoso Rivera, vencieron a las del Directorio, al mando de Manuel Dorrego, en una batalla de unos 800 contra cerca de 1.500; varias unidades de Dorrego se pasaron a Rivera. Las fuerzas del Directorio evacuaron Montevideo el 25 de febrero de 1815 y Artigas quedó dueño de la Banda Oriental.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Guayabos"
+      }
+    },
+    {
+      "id": "batalla-de-ica",
+      "titulo": "Batalla de Ica",
+      "anio": 1822,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Macacona (Ica)",
+      "lon": -75.779,
+      "lat": -14.036,
+      "tipo": "batalla",
+      "resumen": "El 7 de abril de 1822, en la hacienda Macacona, cerca de Ica, el realista José de Canterac sorprendió de noche y destruyó la división patriota de Domingo Tristán, de la expedición libertadora de San Martín: unos mil soldados y cincuenta oficiales fueron tomados prisioneros y Tristán logró huir con unos 125 hombres. La derrota dejó a los patriotas a la defensiva en el sur del Perú; tras nuevas derrotas en enero de 1823 (Torata y Moquegua), Canterac reocupó Lima el 18 de junio de 1823.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Ica",
+        "en": "Battle of Ica"
+      }
+    },
+    {
+      "id": "batalla-de-junin",
+      "titulo": "Batalla de Junín",
+      "anio": 1824,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pampa de Junín",
+      "lon": -75.974,
+      "lat": -11.215,
+      "tipo": "batalla",
+      "resumen": "El 6 de agosto de 1824, en la pampa de Junín (meseta de Bombón, a unos 4.100 metros de altura), la caballería del ejército de Bolívar y la del realista José de Canterac chocaron en un combate de lanza y sable, sin disparos de armas de fuego, que duró unos 45 minutos. Mandaba la caballería patriota el porteño Mariano Necochea, herido y tomado prisionero; el escuadrón de Granaderos de los Andes peleó en el choque inicial y la carga decisiva la dio el escuadrón de Húsares del Perú de Isidoro Suárez, que atacó a los realistas dispersos en la persecución. La victoria, que destruyó la caballería realista, preparó la de Ayacucho del 9 de diciembre de 1824.",
+      "regiones": [
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Junín",
+        "en": "Battle of Junín"
+      }
+    },
+    {
+      "id": "campana-de-quito",
+      "titulo": "Campaña de Quito",
+      "anio": 1820,
+      "anio_hasta": 1822,
+      "aprox": false,
+      "lugar": "Quito",
+      "lon": -78.513,
+      "lat": -0.22,
+      "tipo": "batalla",
+      "resumen": "Serie de operaciones militares, llamada a veces guerra de independencia del Ecuador, que terminó con el dominio español en la Real Audiencia de Quito. Empezó con la revolución de Guayaquil del 9 de octubre de 1820; tras los fracasos de las fuerzas de Guayaquil, Antonio José de Sucre, enviado por Bolívar, fue reforzado por una división enviada por San Martín desde el Perú, al mando de Andrés de Santa Cruz, con soldados peruanos, chilenos, argentinos y altoperuanos y un escuadrón de Granaderos de los Andes, y venció en Pichincha el 24 de mayo de 1822. El 25 de mayo Melchor Aymerich capituló y Quito se incorporó a la Gran Colombia; Bolívar anexó Guayaquil en julio de 1822, el año de la entrevista de Guayaquil entre San Martín y Bolívar.",
+      "regiones": [
+        "norte-de-sudamerica",
+        "andes"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de Independencia de Ecuador",
+        "en": "Ecuadorian War of Independence"
       }
     }
   ],

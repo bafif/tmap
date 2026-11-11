@@ -1139,6 +1139,26 @@
     "motivo": "Lutero está por sus escritos sobre los judíos; el resto de su obra no es del tema",
     "fecha": "2026-11-11"
   },
+  "parte:Q1123201:Q3063789": {
+    "decision": "descartado",
+    "motivo": "La independencia de Colombia queda fuera de las regiones y del relato del paquete; queda como ampliación para otro tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1123201:Q68750": {
+    "decision": "descartado",
+    "motivo": "La independencia de México no es del paquete, que trata el Río de la Plata, el Alto Perú, la Banda Oriental, el Paraguay, Chile y el Perú; queda como ampliación para otro tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1123201:Q7573442": {
+    "decision": "descartado",
+    "motivo": "Los intentos de reconquista española de México no son del tema del paquete; queda como ampliación para otro tema.",
+    "fecha": "2026-11-11"
+  },
+  "parte:Q1123201:Q8934": {
+    "decision": "descartado",
+    "motivo": "La guerra de independencia de Venezuela queda fuera de las regiones y del relato del paquete (Río de la Plata, Alto Perú, Chile, Perú); queda como ampliación para otro tema.",
+    "fecha": "2026-11-11"
+  },
   "parte:Q11761:Q1054850": {
     "decision": "descartado",
     "motivo": "las culturas de la Edad del Bronce fuera de Europa occidental y central no son del tema",
@@ -2379,6 +2399,11 @@
     "motivo": "la serie de líderes del Partido Conservador británico no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q34071": {
+    "decision": "descartado",
+    "motivo": "El paquete trata la Argentina de 1820 a 1861 y el Paraguay solo en su relación con ella (Carlos Antonio López, el reconocimiento de 1852); Manuel Antonio Ortiz (1840-1841) no figura en ese relato y Facundo Machaín (1870) cae fuera de la ventana.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q34071:Q150816": {
     "decision": "descartado",
     "motivo": "la serie de presidentes del Paraguay no es tema del paquete: los que están, están por la guerra",
@@ -2554,6 +2579,11 @@
     "motivo": "la serie de arcontes epónimos de Atenas no es del tema",
     "fecha": "2026-11-11"
   },
+  "serie:Q3847454": {
+    "decision": "descartado",
+    "motivo": "Fernando VI (1746-1759) e Isabel II (1833-1868) reinaron fuera de la ventana del paquete (1770-1830) y sin relación con su tema; los reyes presentes (Carlos III, Carlos IV, Fernando VII) están por el virreinato y la crisis de 1808.",
+    "fecha": "2026-11-11"
+  },
   "serie:Q3930923:Q209579": {
     "decision": "descartado",
     "motivo": "la serie de reyes de Sicilia no es tema del paquete",
@@ -2722,6 +2752,11 @@
   "serie:Q58005590:Q559279": {
     "decision": "descartado",
     "motivo": "la serie de reyes de la Corona de Castilla no es tema del paquete",
+    "fecha": "2026-11-11"
+  },
+  "serie:Q58006791": {
+    "decision": "descartado",
+    "motivo": "Juana I figuraría solo como titular del título de rey de Cerdeña, que no es tema del paquete (Felipe III sí entró, con ficha propia, por sus decisiones sobre Buenos Aires); los monarcas presentes (Carlos V, Felipe II) están por sus decisiones sobre las Indias, no como serie, y los demás Austrias (Felipe IV, Carlos II) tampoco están.",
     "fecha": "2026-11-11"
   },
   "serie:Q58631963:Q312304": {
@@ -3017,6 +3052,11 @@
   "serie:Q89856397:Q9016548": {
     "decision": "descartado",
     "motivo": "la serie de jefes del Estado Mayor del Ejército no es tema del paquete",
+    "fecha": "2026-11-11"
+  },
+  "sucesion:Q63550523": {
+    "decision": "descartado",
+    "motivo": "Q63550523 («Sexenio Absolutista») solo tiene una categoría de Commons, no un artículo de Wikipedia, y el paquete ya cubre 1814-1820 con restauracion-absolutista-1814 y pronunciamiento-de-riego.",
     "fecha": "2026-11-11"
   }
 }

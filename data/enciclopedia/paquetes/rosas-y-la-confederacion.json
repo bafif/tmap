@@ -4477,6 +4477,30 @@
         "rio-de-la-plata"
       ],
       "fuentes": []
+    },
+    {
+      "id": "guerra-platina",
+      "titulo": "Guerra Platina",
+      "anio": 1851,
+      "anio_hasta": 1852,
+      "aprox": false,
+      "lugar": "Montevideo",
+      "lon": -56.1645,
+      "lat": -34.9011,
+      "tipo": "batalla",
+      "resumen": "Guerra entre la Confederación Argentina, de la que Rosas manejaba las relaciones exteriores, y una alianza del Imperio del Brasil, el gobierno colorado de Montevideo y las provincias de Entre Ríos, de Urquiza, y Corrientes, que gobernaba Benjamín Virasoro. En el plano interno argentino empezó con el Pronunciamiento de Urquiza del 1 de mayo de 1851 y la alianza del 29 de mayo. Manuel Oribe, jefe blanco y aliado de Rosas, sitiaba Montevideo desde hacía años; Rosas declaró la guerra al Brasil el 18 de agosto de 1851, el ejército brasileño entró en el Uruguay en septiembre, Oribe se rindió en octubre y la guerra terminó con la victoria aliada de Caseros del 3 de febrero de 1852. Fue parte de una disputa de décadas entre la Confederación y el Brasil por la influencia sobre el Uruguay y el Paraguay y por el predominio en el Plata; el Paraguay firmó con el Brasil una alianza defensiva pero no envió tropas.",
+      "regiones": [
+        "rio-de-la-plata",
+        "brasil"
+      ],
+      "fuentes": [
+        "tratado-de-alianza-1851",
+        "pronunciamiento-de-urquiza"
+      ],
+      "wikipedia": {
+        "es": "Guerra Platina",
+        "en": "Platine War"
+      }
     }
   ],
   "lugares": [
