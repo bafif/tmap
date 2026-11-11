@@ -2674,6 +2674,123 @@
         "es": "Religión minoica",
         "en": "Minoan religion"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "sin-religion",
+      "nombre": "Sin religión",
+      "padre": null,
+      "color": "#8d99a6",
+      "nota": "Incluye a ateos, agnósticos y a quienes no se identifican con ninguna religión.",
+      "wikipedia": {
+        "es": "Irreligión",
+        "en": "Irreligion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religiones-afroamericanas",
+      "nombre": "Religiones afroamericanas",
+      "padre": null,
+      "color": "#b5651d",
+      "nota": "Religiones de origen africano en América: las que trajeron los esclavizados de África occidental y central, a menudo disimuladas bajo el catolicismo, y las nacidas de ellas y del catolicismo, como el vudú, la santería, el candomblé y el obeah.",
+      "wikipedia": {
+        "es": "Religiones afroamericanas",
+        "en": "African diaspora religions"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "espiritismo",
+      "nombre": "Espiritismo",
+      "padre": null,
+      "color": "#8e7cc3",
+      "nota": "Sobre todo el espiritismo kardecista, muy extendido en Brasil.",
+      "wikipedia": {
+        "es": "Espiritismo",
+        "en": "Kardecist spiritism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "sijismo",
+      "nombre": "Sijismo",
+      "padre": "religiones-dharmicas",
+      "color": "#cf6b2f",
+      "wikipedia": {
+        "es": "Sijismo",
+        "en": "Sikhism"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "portuguesa",
+      "nombre": "Portuguesa",
+      "padre": null,
+      "color": "#2e8b57",
+      "wikipedia": {
+        "es": "Pueblo portugués",
+        "en": "Portuguese people"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "brasilena",
+      "nombre": "Brasileña",
+      "padre": "portuguesa",
+      "color": "#3cb371",
+      "nota": "Sociedad mestiza de ascendencia portuguesa, indígena y africana, con aportes de otras inmigraciones.",
+      "wikipedia": {
+        "es": "Brasileños",
+        "en": "Brazilians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "japonesa",
+      "nombre": "Japonesa",
+      "padre": null,
+      "color": "#d94f70",
+      "nota": "Para las regiones de inmigración japonesa, como Brasil desde 1908 y Paraguay desde 1936.",
+      "wikipedia": {
+        "es": "Pueblo japonés",
+        "en": "Japanese people"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lenguas-africanas",
+      "nombre": "Lenguas africanas",
+      "padre": null,
+      "color": "#a0522d",
+      "nota": "No es una familia: agrupa las lenguas de los africanos esclavizados llevados a América, sin parentesco demostrado entre sí.",
+      "wikipedia": {
+        "es": "Lenguas de África",
+        "en": "Languages of Africa"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lenguas-criollas",
+      "nombre": "Lenguas criollas",
+      "padre": null,
+      "color": "#c97b2d",
+      "nota": "Lenguas surgidas del contacto entre lenguas europeas y las de los esclavizados, como el criollo haitiano.",
+      "wikipedia": {
+        "es": "Lengua criolla",
+        "en": "Creole language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ruso",
+      "nombre": "Ruso",
+      "padre": "eslavo-oriental",
+      "color": "#5b7bd5",
+      "wikipedia": {
+        "es": "Idioma ruso",
+        "en": "Russian language"
+      }
     }
   ]
 }
