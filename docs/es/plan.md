@@ -61,13 +61,16 @@ inflar tanto las latitudes altas como Mercator. La fórmula está en `tools/pipe
 scripts/
   principal.gd          entrada: pantalla de carga, arma mapa e interfaz, capturas automáticas
   nucleo/               estado global, datos del mapa, enciclopedia, Wikipedia, proyección, fechas
-  mapa/                 vista con cámara, capa de nombres, capa de marcadores
+  mapa/                 vista con cámara, capa de nombres, capa de marcadores, capa de lugares de Pleiades
   interfaz/             tema, barra superior, línea de tiempo, panel lateral, leyenda, ajustes, bienvenida
-shaders/                mapa y viñeta
+shaders/                mapa, viñeta y puntos de Pleiades
 data/mapa/              datos generados por el pipeline (Godot no los importa: .gdignore)
-data/enciclopedia/      paquetes JSON de la enciclopedia y su esquema
+data/enciclopedia/      paquetes JSON de la enciclopedia, su esquema y las copias de los enlaces de lectura
+data/demografia/        series por país de Our World in Data y país actual de cada unidad del mapa
+data/pleiades/          lugares antiguos de Pleiades y su unión con los lugares de la enciclopedia
 tools/pipeline/         Python: base física, unidades y fronteras, Wikidata, vista previa
-tools/enciclopedia/     validación de paquetes
+tools/enciclopedia/     validación de paquetes, cobertura, población, copias de los enlaces, formato compacto
+tools/pleiades/         Python: lugares de Pleiades y su unión con la enciclopedia (Wikidata)
 raw_data/               fuentes originales (GEBCO, Natural Earth, Blue Marble)
 legado/                 el primer intento con QGIS, como referencia
 ```

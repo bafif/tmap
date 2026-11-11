@@ -23,7 +23,9 @@ aparte, en otra carpeta: ver [Traducciones](#traducciones).
   títulos que existan; si no hay artículo en un idioma, se omite esa clave.
 - **Enlaces de lectura (`leer`):** solo URLs comprobadas (que respondan 200), preferentemente de texto completo y
   dominio público o acceso abierto: Wikisource, Proyecto Gutenberg, Perseus, Internet Archive, ETCSL, LacusCurtius,
-  Biblioteca Virtual Miguel de Cervantes, sitios universitarios. Nunca enlaces a copias piratas.
+  Biblioteca Virtual Miguel de Cervantes, sitios universitarios. Nunca enlaces a copias piratas. La copia de cada
+  enlace en la Wayback Machine no va en el paquete: la busca `tools/enciclopedia/enlaces.py` y queda en
+  `data/enciclopedia/archivo.json`.
 
 ## Archivo de paquete
 

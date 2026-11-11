@@ -578,7 +578,24 @@ func _ficha_fuente(f: Dictionary) -> void:
 			var url: String = l["url"]
 			b.tooltip_text = url
 			b.pressed.connect(func(): Estado.abrir_url(url))
-			_contenido.add_child(b)
+			var copia := Enciclopedia.copia_archivada(url)
+			if copia == "":
+				_contenido.add_child(b)
+				continue
+			# Al lado, la copia de la Wayback Machine, por si el original no abre.
+			var fila := HBoxContainer.new()
+			fila.add_theme_constant_override("separation", 4)
+			b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+			b.clip_text = true
+			fila.add_child(b)
+			var c := _boton_texto(tr("Copia"), "enlace")
+			c.size_flags_horizontal = Control.SIZE_SHRINK_END
+			c.clip_text = false
+			c.text_overrun_behavior = TextServer.OVERRUN_NO_TRIMMING
+			c.tooltip_text = tr("Copia archivada en la Wayback Machine, por si el original no abre:\n%s") % copia
+			c.pressed.connect(func(): Estado.abrir_url(copia))
+			fila.add_child(c)
+			_contenido.add_child(fila)
 	var ir := _boton_texto(tr("Ver dónde y cuándo se escribió"), "ir")
 	ir.pressed.connect(func():
 		Estado.fijar_anio(f["_desde"])

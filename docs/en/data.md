@@ -22,6 +22,7 @@ which license it can be reused.
 | Ancient places (some 27,000, with name, years in which they are attested and type) | [Pleiades](https://pleiades.stoa.org), ISAW (New York University) and the Ancient World Mapping Center, built from the Barrington Atlas | CC BY 3.0 | `data/pleiades/lugares.json`, downloaded with `tools/pleiades/pleiades.py`; each entry's description and ancient names, live, cached in `user://wiki/` |
 | Which encyclopedia place is which Pleiades place | [Wikidata](https://www.wikidata.org), property P1584 (Pleiades ID), from each place's Wikipedia article | CC0 | `data/pleiades/enciclopedia.json`, built by `tools/pleiades/enlazar.py` |
 | TellMAP's own encyclopedia, in Spanish and its English translation | TellMAP packages | CC BY-SA 4.0 | `data/enciclopedia/paquetes/` and `data/enciclopedia/traducciones/en/` |
+| Copies of the reading links | Internet Archive's [Wayback Machine](https://web.archive.org): only the address of each copy | Those of each text | `data/enciclopedia/archivo.json`, built by `tools/enciclopedia/enlaces.py` |
 | Typefaces | Cinzel (Natanael Gama) and EB Garamond (Georg Duffner, Octavio Pardo) | SIL Open Font License 1.1 | `assets/fuentes/` |
 
 The primary sources and studies the encyclopedia cites have their own rights: TellMAP stores their record (title,

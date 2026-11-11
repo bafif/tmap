@@ -22,6 +22,7 @@ qué licencia se puede reusar.
 | Lugares antiguos (unos 27 000, con nombre, años en que están atestiguados y tipo) | [Pleiades](https://pleiades.stoa.org), ISAW (Universidad de Nueva York) y Ancient World Mapping Center, a partir del Barrington Atlas | CC BY 3.0 | `data/pleiades/lugares.json`, se baja con `tools/pleiades/pleiades.py`; la descripción y los nombres antiguos de cada ficha, en vivo, a `user://wiki/` |
 | Qué lugar de la enciclopedia es cuál de Pleiades | [Wikidata](https://www.wikidata.org), propiedad P1584 (identificador de Pleiades), a partir del artículo de Wikipedia de cada lugar | CC0 | `data/pleiades/enciclopedia.json`, lo arma `tools/pleiades/enlazar.py` |
 | Enciclopedia propia, en español y su traducción al inglés | Paquetes de TellMAP | CC BY-SA 4.0 | `data/enciclopedia/paquetes/` y `data/enciclopedia/traducciones/en/` |
+| Copias de los enlaces de lectura | [Wayback Machine](https://web.archive.org) de Internet Archive: solo la dirección de cada copia | Las de cada texto | `data/enciclopedia/archivo.json`, lo arma `tools/enciclopedia/enlaces.py` |
 | Tipografías | Cinzel (Natanael Gama) y EB Garamond (Georg Duffner, Octavio Pardo) | SIL Open Font License 1.1 | `assets/fuentes/` |
 
 Las fuentes primarias y los estudios que cita la enciclopedia tienen sus propios derechos: TellMAP guarda su ficha

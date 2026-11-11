@@ -24,7 +24,8 @@ examples below keep the Spanish text they would have in a package.
   titles that exist; if there's no article in one language, that key is left out.
 - **Reading links (`leer`):** only checked URLs (that answer 200), preferably full text and public domain or open
   access: Wikisource, Project Gutenberg, Perseus, Internet Archive, ETCSL, LacusCurtius, the Biblioteca Virtual Miguel
-  de Cervantes, university sites. Never links to pirated copies.
+  de Cervantes, university sites. Never links to pirated copies. Each link's Wayback Machine copy doesn't go in the
+  package: `tools/enciclopedia/enlaces.py` looks it up and it lives in `data/enciclopedia/archivo.json`.
 
 ## Package file
 

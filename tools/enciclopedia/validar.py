@@ -296,6 +296,15 @@ def main():
                 avisos.append(f"data/pleiades/enciclopedia.json: el lugar «{i}» ya no existe "
                               "(corré python3 tools/pleiades/enlazar.py)")
 
+    # Copias de los enlaces de lectura en la Wayback Machine (tools/enciclopedia/enlaces.py).
+    ruta_copias = RAIZ / "data" / "enciclopedia" / "archivo.json"
+    if ruta_copias.exists():
+        copias = json.loads(ruta_copias.read_text(encoding="utf-8")).get("copias", {})
+        sin = {l["url"] for _, f in todo["fuentes"].values() for l in f.get("leer") or []
+               if "archive.org/" not in l.get("url", "") and l.get("url") not in copias}
+        if sin:
+            avisos.append(f"{len(sin)} enlaces de lectura sin copia archivada (corré python3 tools/enciclopedia/enlaces.py)")
+
     controlar_cobertura()
 
     print("Totales:", ", ".join(f"{s}: {len(todo[s])}" for s in SECCIONES),

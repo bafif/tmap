@@ -1712,6 +1712,14 @@ msgid "Texto"
 msgstr "Text"
 
 #: scripts/interfaz/panel_info.gd
+msgid "Copia"
+msgstr "Copy"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Copia archivada en la Wayback Machine, por si el original no abre:\n%s"
+msgstr "Archived copy in the Wayback Machine, in case the original doesn't open:\n%s"
+
+#: scripts/interfaz/panel_info.gd
 msgid "Ver dónde y cuándo se escribió"
 msgstr "See where and when it was written"
 
