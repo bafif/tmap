@@ -47,8 +47,8 @@ and open the app: there's nothing to install.
 | macOS (Intel and Apple Silicon) | `TellMAP-<version>-macos-universal.zip` |
 
 The macOS build isn't notarized by Apple: the first time, open it from **System Settings → Privacy & Security**
-([how](docs/en/install.md#macos-the-first-time)). After that, when it opens, the app tells you if there's a new
-version and downloads nothing until you say yes.
+([how](docs/en/install.md#macos-the-first-time)). After that, when it opens and every hour, the app tells you
+if there's a new version and downloads nothing until you say yes.
 
 To run it from the source you need [Godot 4.7](https://godotengine.org/download):
 
