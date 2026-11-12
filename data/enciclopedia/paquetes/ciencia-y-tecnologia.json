@@ -58,7 +58,14 @@
       "soporte": "Proceedings of the London Mathematical Society, serie 2, vol. 42",
       "resumen": "Turing define una máquina abstracta que lee y escribe símbolos en una cinta según una tabla de reglas, y una máquina universal capaz de imitar a cualquier otra si se le da su descripción. Con ella demuestra que no existe un procedimiento general para decidir si un enunciado lógico es demostrable, el problema de la decisión planteado por Hilbert. Alonzo Church había llegado al mismo resultado por otra vía poco antes.",
       "por_que_importa": "Fijó la definición de lo computable y anticipó la computadora de programa almacenado: es el texto fundacional de la ciencia de la computación.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo en PDF (Universidad de Virginia)",
+          "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Turing's proof"
       },
@@ -316,7 +323,14 @@
       "soporte": "Mind, vol. 59, n.º 236 (octubre de 1950)",
       "resumen": "Turing reemplaza la pregunta «¿pueden pensar las máquinas?» por un «juego de imitación»: si un interrogador, comunicándose por escrito, no logra distinguir a una máquina de una persona. Responde nueve objeciones (la teológica, la matemática, la de la conciencia, la de Lady Lovelace, entre otras) y propone construir máquinas que aprendan como un niño.",
       "por_que_importa": "Planteó la prueba de Turing y el programa de la inteligencia artificial seis años antes de que el campo tuviera nombre.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo de Mind (1950) en PDF (Universidad de Maryland, Baltimore County)",
+          "url": "https://courses.cs.umbc.edu/471/papers/turing.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Computing machinery and intelligence",
         "en": "Computing Machinery and Intelligence"
@@ -1392,7 +1406,14 @@
       "soporte": "Tesis doctoral (Facultad de Ciencias de París, 1903), editada por Gauthier-Villars",
       "resumen": "Curie reúne sus investigaciones desde 1897: la radiactividad como propiedad de los átomos de ciertos elementos, el descubrimiento del polonio y del radio con Pierre Curie (1898) y la determinación del peso atómico del radio.",
       "por_que_importa": "Fundó el estudio de la radiactividad; ese mismo año recibió con Pierre Curie y Henri Becquerel el Nobel de Física, y en 1911 el de Química.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto francés de la primera edición (1903), Wikisource",
+          "url": "https://fr.wikisource.org/wiki/Recherches_sur_les_substances_radioactives",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -1419,7 +1440,20 @@
       "soporte": "Annalen der Physik, vols. 17 y 18",
       "resumen": "Mientras trabajaba en la oficina de patentes de Berna, Einstein publicó en 1905 cuatro artículos: uno sobre los cuantos de luz y el efecto fotoeléctrico, otro sobre el movimiento browniano como prueba de la existencia de los átomos, el de la relatividad especial y el que deduce la equivalencia entre masa y energía. Ese mismo año presentó su tesis doctoral sobre el tamaño de las moléculas.",
       "por_que_importa": "Cambiaron la física del siglo XX: abrieron la física cuántica de la luz, confirmaron la teoría atómica y redefinieron el espacio y el tiempo.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo sobre el efecto fotoeléctrico, Annalen der Physik 1905 (PDF, Universidad de Augsburgo)",
+          "url": "http://myweb.rz.uni-augsburg.de/~eckern/adp/history/einstein-papers/1905_17_132-148.pdf",
+          "idioma": "de",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Artículo sobre el movimiento browniano, Annalen der Physik 1905 (PDF, Universidad de Augsburgo)",
+          "url": "http://myweb.rz.uni-augsburg.de/~eckern/adp/history/einstein-papers/1905_17_549-560.pdf",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Artículos del Annus mirabilis de Einstein",
         "en": "Annus mirabilis papers"
@@ -1450,7 +1484,14 @@
       "soporte": "Annalen der Physik, vol. 17 (junio de 1905)",
       "resumen": "Einstein propone que la luz se comporta como si estuviera formada por cuantos de energía independientes, y con esa hipótesis explica el efecto fotoeléctrico: la energía de los electrones que la luz arranca de un metal depende de su frecuencia y no de su intensidad.",
       "por_que_importa": "Introdujo el cuanto de luz, luego llamado fotón; por la ley del efecto fotoeléctrico Einstein recibió el Nobel de Física de 1921. Es la base de las células solares y los sensores de imagen.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán, Annalen der Physik 17 (1905), PDF de la Universidad de Augsburgo",
+          "url": "http://myweb.rz.uni-augsburg.de/~eckern/adp/history/einstein-papers/1905_17_132-148.pdf",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Efecto fotoeléctrico",
         "en": "Photoelectric effect"
@@ -1481,7 +1522,14 @@
       "soporte": "Annalen der Physik, vol. 17 (julio de 1905)",
       "resumen": "Einstein calcula que, si el calor es movimiento de moléculas, las partículas microscópicas suspendidas en un líquido deben moverse al azar con un desplazamiento medio medible. Jean Perrin confirmó la predicción experimentalmente en 1908.",
       "por_que_importa": "Fue la prueba decisiva de la existencia de átomos y moléculas, todavía discutida en 1905.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán, Annalen der Physik 17 (1905), PDF de la Universidad de Augsburgo",
+          "url": "http://myweb.rz.uni-augsburg.de/~eckern/adp/history/einstein-papers/1905_17_549-560.pdf",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Movimiento browniano",
         "en": "Brownian motion"
@@ -1594,7 +1642,14 @@
       "soporte": "Philosophical Magazine, serie 6, vol. 21",
       "resumen": "Para explicar por qué algunas partículas alfa disparadas contra una lámina de oro rebotaban en ángulos grandes, como habían observado Hans Geiger y Ernest Marsden, Rutherford propone que casi toda la masa y la carga positiva del átomo se concentran en un núcleo diminuto.",
       "por_que_importa": "Introdujo el núcleo atómico y abrió la física nuclear.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Philosophical Magazine 21 (1911), escaneo en PDF (Universidad de Tubinga)",
+          "url": "https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MathePhysik/Institute/IAP/Forschung/MOettel/Geburt_QM/rutherford_PhilMag_21_669_1911.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Modelo atómico de Rutherford",
         "en": "Rutherford model"
@@ -1625,7 +1680,14 @@
       "soporte": "Philosophical Magazine, serie 6, vol. 26 (tres partes)",
       "resumen": "Bohr aplica la cuantización de Planck al átomo de Rutherford: el electrón solo puede ocupar ciertas órbitas estables y emite o absorbe luz al saltar entre ellas. Con ese modelo calcula las líneas del espectro del hidrógeno.",
       "por_que_importa": "Fue el primer modelo cuántico del átomo; Bohr recibió el Nobel de Física de 1922.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Philosophical Magazine 26 (1913), parte I (Internet Archive)",
+          "url": "https://archive.org/details/125Bohr",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Modelo atómico de Bohr",
         "en": "Bohr model"
@@ -1695,7 +1757,14 @@
       "soporte": "Philosophical Transactions of the Royal Society A, vol. 220",
       "resumen": "Informa los resultados de las expediciones británicas a Sobral (Brasil) y a la isla de Príncipe, que fotografiaron las estrellas próximas al Sol durante el eclipse total de 1919. Las desviaciones medidas se acercaban a los 1,75 segundos de arco previstos por Einstein y no a la mitad, que daba la gravitación newtoniana. La selección de los datos fue discutida después, pero mediciones posteriores confirmaron el resultado.",
       "por_que_importa": "Su anuncio, en noviembre de 1919, convirtió a Einstein en una figura mundial.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Philosophical Transactions A 220 (1920), escaneo (Internet Archive)",
+          "url": "https://archive.org/details/philtrans06337895",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Eddington experiment"
       },
@@ -1817,7 +1886,14 @@
       "soporte": "Proceedings of the National Academy of Sciences, vol. 15",
       "resumen": "Con distancias estimadas a partir de estrellas variables y velocidades medidas por Vesto Slipher y Milton Humason, Hubble muestra que las galaxias se alejan más rápido cuanto más lejos están. Georges Lemaître había publicado una relación similar en 1927, como consecuencia de un universo en expansión.",
       "por_que_importa": "Fue la prueba observacional de la expansión del universo, base de la teoría del Big Bang; desde 2018 la Unión Astronómica Internacional recomienda llamarla ley de Hubble-Lemaître.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo en PNAS 15 (1929), PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC522427/",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Ley de Hubble-Lemaître",
         "en": "Hubble's law"
@@ -2366,7 +2442,20 @@
       "soporte": "Verhandlungen des naturforschenden Vereines in Brünn, vol. 4 (leído en 1865)",
       "resumen": "Con ocho años de cruzamientos de arvejas, Mendel muestra que los caracteres se heredan como unidades discretas que se combinan en proporciones fijas, como la de 3 a 1 en la segunda generación, y formula las reglas de la segregación y de la combinación independiente.",
       "por_que_importa": "Ignorado hasta 1900, cuando lo redescubrieron Hugo de Vries, Carl Correns y Erich von Tschermak, es la base de la genética.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán original (1866), Internet Archive",
+          "url": "https://archive.org/details/versucheberpflan00mend",
+          "idioma": "de",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción inglesa de William Bateson, «Experiments in plant-hybridisation» (Internet Archive)",
+          "url": "https://archive.org/details/experimentsinpla00mend",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Experimentos sobre híbridos de plantas",
         "en": "Experiments on Plant Hybridization"
@@ -2434,7 +2523,14 @@
       "soporte": "Philosophical Magazine, serie 5, vol. 41",
       "resumen": "Arrhenius calcula a mano cuánto cambiaría la temperatura de la Tierra si variara el dióxido de carbono atmosférico (entonces llamado ácido carbónico) y estima que duplicarlo la elevaría unos 5 a 6 °C. Buscaba explicar las glaciaciones; más tarde señaló que la quema de carbón podía calentar el planeta.",
       "por_que_importa": "Es el primer cálculo del efecto invernadero del CO₂, antecedente de la ciencia del cambio climático.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés, Philosophical Magazine 41 (1896) (Wikisource)",
+          "url": "https://en.wikisource.org/wiki/On_the_Influence_of_Carbonic_Acid_in_the_Air_upon_the_Temperature_of_the_Ground",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -2461,7 +2557,14 @@
       "soporte": "Naúchnoye obozréniye (Revista Científica), n.º 5, 1903",
       "resumen": "Tsiolkovski deduce la ecuación que relaciona la velocidad final de un cohete con la velocidad de expulsión de los gases y con la proporción entre su masa inicial y final, y concluye que solo un cohete de combustible líquido, como hidrógeno y oxígeno, podría alcanzar la velocidad necesaria para salir al espacio.",
       "por_que_importa": "Es la base teórica de la astronáutica; la ecuación del cohete lleva su nombre.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto ruso de la edición de 1903 (tsiolkovsky.org)",
+          "url": "https://www.tsiolkovsky.org/ru/kosmicheskaya-filosofiya/issledovanie-mirovyh-prostranstv-reaktivnymi-priborami-1903-god-konstantin-tsiolkovskij/",
+          "idioma": "ru",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Ecuación del cohete de Tsiolkovski",
         "en": "Tsiolkovsky rocket equation"
@@ -2532,7 +2635,14 @@
       "soporte": "Smithsonian Miscellaneous Collections, vol. 71, n.º 2",
       "resumen": "Goddard presenta su teoría y sus ensayos con cohetes de pólvora, financiados por la Institución Smithsoniana, y calcula que un cohete de varias etapas podría llegar a la Luna y señalarlo con un destello de pólvora. La prensa se burló de esa idea; The New York Times se retractó en 1969.",
       "por_que_importa": "Fue la base de su trabajo con cohetes de combustible líquido, el primero de los cuales lanzó en 1926.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Smithsonian Miscellaneous Collections 71 (1919), escaneo de las Bibliotecas del Smithsonian",
+          "url": "https://library.si.edu/digital-library/book/methodreachinge00godd",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -2559,7 +2669,14 @@
       "soporte": "Canadian Medical Association Journal, vol. 12 (marzo de 1922), con Charles Best, James Collip, Walter Campbell y Andrew Fletcher",
       "resumen": "Informa los primeros resultados en pacientes del extracto de páncreas preparado en Toronto: en Leonard Thompson, un chico de 14 años, y en otros diabéticos bajó el azúcar en sangre y en orina y mejoró su estado general. James Collip había purificado el extracto lo suficiente para usarlo en personas.",
       "por_que_importa": "Convirtió la diabetes tipo 1 de enfermedad mortal en crónica; Banting y John Macleod recibieron el Nobel de Medicina de 1923.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo en Canadian Medical Association Journal (1922), PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1524425/",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -2586,7 +2703,14 @@
       "soporte": "British Journal of Experimental Pathology, vol. 10",
       "resumen": "Fleming describe que un moho que contaminó en 1928 una placa de estafilococos disolvía las colonias cercanas, y que el caldo de cultivo filtrado, al que llama «penicilina», inhibe muchas bacterias sin dañar a los glóbulos blancos. Lo propone sobre todo para aislar bacterias en el laboratorio y sugiere un posible uso como antiséptico.",
       "por_que_importa": "Es el descubrimiento del primer antibiótico; Fleming compartió el Nobel de Medicina de 1945 con Florey y Chain, que lo convirtieron en medicamento.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo en British Journal of Experimental Pathology (1929), PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {

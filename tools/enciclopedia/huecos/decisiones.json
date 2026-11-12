@@ -3394,9 +3394,19 @@
     "motivo": "solo hay ediciones y traducciones modernas con derechos (Reinink 1993, Garstad 2012); no está en Wikisource ni en ediciones antiguas de Internet Archive",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:arco-de-carpentras": {
+    "decision": "descartado",
+    "motivo": "Es un monumento sin texto publicable.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:armes-prydein": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource (inglés, galés) e Internet Archive: no hay edición de dominio público comprobada del poema.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:arte-breve": {
+    "decision": "sin-datos",
+    "motivo": "La edición latina crítica (CCCM 38) tiene derechos; no hay texto latino abierto en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:botorrita-iii": {
@@ -3469,6 +3479,11 @@
     "motivo": "La ficha oficial de argentina.gob.ar (ley 1920) trae solo el resumen; no se encontró el texto del código de 1886 en Wikisource, Internet Archive ni sitios oficiales.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:collar-de-la-paloma": {
+    "decision": "sin-datos",
+    "motivo": "Las traducciones (Nykl 1931, Arberry 1953) tienen derechos o no tienen copia abierta; no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:constitucion-de-medina": {
     "decision": "sin-datos",
     "motivo": "No existe en Wikisource en español ni en inglés con esa dirección; las traducciones modernas tienen derechos.",
@@ -3489,6 +3504,16 @@
     "motivo": "la traducción de Gibb (1932) sigue con derechos y solo está en préstamo en Internet Archive; la edición árabe de Amedroz (1908) no apareció en Internet Archive",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:cuestiones-naturales": {
+    "decision": "sin-datos",
+    "motivo": "La edición de Müller (1934) no está escaneada de forma abierta y la de Burnett (1998) tiene derechos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cuestiones-sobre-la-fisica": {
+    "decision": "sin-datos",
+    "motivo": "Las ediciones críticas de Brill tienen derechos y la impresión de 1509 no la encontré escaneada de forma abierta.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:de-administratione-guaranica": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Internet Archive: aparece De vita et moribus (1793), otra obra de Peramás, no el Commentarius.",
@@ -3499,9 +3524,19 @@
     "motivo": "Solo hay extractos en sitios divulgativos; el Diario de Sesiones del Senado de 1935 y las Obras completas no tienen copia abierta comprobada.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:decreto-de-cos-sobre-delfos": {
+    "decision": "sin-datos",
+    "motivo": "Inscripción en corpus epigráficos con derechos; no encontré texto abierto en Wikisource, Gutenberg, Internet Archive ni Perseus.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:democrates-alter": {
     "decision": "sin-datos",
     "motivo": "El texto de Menéndez Pelayo (1892) está en la Biblioteca Virtual Miguel de Cervantes, que responde 403 desde acá y no permite comprobar el enlace.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:denario-trofeo-galo-de-cesar": {
+    "decision": "descartado",
+    "motivo": "Es una moneda: no tiene texto que leer, solo su leyenda.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:diario-de-ana-frank": {
@@ -3524,9 +3559,29 @@
     "motivo": "Sjoestedt murió en 1940; se buscó en Internet Archive y Gallica sin hallar una copia abierta verificable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:disco-de-nebra": {
+    "decision": "descartado",
+    "motivo": "Objeto arqueológico sin escritura: no hay texto que leer.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:discurso-decisivo": {
+    "decision": "sin-datos",
+    "motivo": "Solo encontré la traducción de Hourani (1961, con derechos) en un sitio de filosofía; no hay edición abierta en Wikisource, Gutenberg ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:discursos-dion-crisostomo": {
+    "decision": "sin-datos",
+    "motivo": "El Discurso 49 solo lo encontré en la edición Loeb de 1946 (traducción posiblemente con derechos) y en LacusCurtius, que no responde; no está en Wikisource ni Gutenberg.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:doctrina-jacobi": {
     "decision": "sin-datos",
     "motivo": "no hay edición de dominio público en Wikisource ni Internet Archive; la edición crítica de Dagron y Déroche (1991) tiene derechos",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ecuacion-de-schrodinger": {
+    "decision": "sin-datos",
+    "motivo": "Artículo de Schrödinger (m. 1961) con derechos; la parte I figura como acceso libre en Wiley, pero el sitio responde 403 y no pude comprobar el enlace.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:edicto-del-bierzo": {
@@ -3579,9 +3634,19 @@
     "motivo": "La edición de Usener (1869) no apareció en Internet Archive con la búsqueda por título; no se halló otra copia abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:estatutos-de-iona": {
+    "decision": "sin-datos",
+    "motivo": "Está en el Registro del Consejo Privado de Escocia (vol. 9), que no encontré escaneado en Internet Archive; solo hay estudios y resúmenes.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:estela-de-tel-dan": {
     "decision": "sin-datos",
     "motivo": "Hallazgo de 1993: las ediciones y traducciones tienen derechos y no hay edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:estelas-del-suroeste": {
+    "decision": "sin-datos",
+    "motivo": "Corpus epigráfico en publicaciones académicas; no encontré copia abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:estudio-sobre-las-casas-de-inquilinato": {
@@ -3589,9 +3654,34 @@
     "motivo": "Buscado en Wikisource, Internet Archive y la web: solo hay citas en artículos; no se halló una copia del texto.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:etica-de-abelardo": {
+    "decision": "sin-datos",
+    "motivo": "El texto está en la Patrología Latina (vol. 178), cuya copia en Gallica responde 403; no está en Wikisource ni en la edición de Cousin de Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fallo-regina-contra-price": {
+    "decision": "sin-datos",
+    "motivo": "No está en Wikisource, Gutenberg ni Internet Archive de lectura libre; solo reseñas y artículos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fe-sublime": {
+    "decision": "sin-datos",
+    "motivo": "No encontré copia abierta (la edición de Weil de 1852 no está en Internet Archive ni en Sefaria).",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fuente-de-la-vida": {
+    "decision": "sin-datos",
+    "motivo": "La edición latina de Baeumker (1892) no está escaneada en Internet Archive ni en Wikisource que yo haya encontrado.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:gloria-de-los-confesores": {
     "decision": "sin-datos",
     "motivo": "Se buscó la edición de Krusch (MGH, 1885) en Internet Archive y dMGH sin hallar una dirección comprobable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:gran-comentario-del-alma": {
+    "decision": "sin-datos",
+    "motivo": "La edición latina de Crawford (1953) tiene derechos; no hay copia abierta.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:hacia-alla-y-para-aca": {
@@ -3599,9 +3689,24 @@
     "motivo": "La traducción española (1942-1944) tiene derechos y el original alemán no apareció; en Internet Archive solo hay las «Memorias» de 1900, otra obra.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:heptateuchon": {
+    "decision": "sin-datos",
+    "motivo": "No está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-galicia-murguia": {
+    "decision": "sin-datos",
+    "motivo": "No está en Wikisource, Gutenberg ni Internet Archive, ni en la Biblioteca Virtual Miguel de Cervantes; la edición de 1865 puede estar en Galiciana o la BNE, que no pude consultar.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:historia-de-la-leyenda-negra-carbia": {
     "decision": "sin-datos",
     "motivo": "Solo hay una subida de un particular en Internet Archive, sin datos de edición; no se acepta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:incoherencia-de-la-incoherencia": {
+    "decision": "sin-datos",
+    "motivo": "La traducción de Van den Bergh (1954) tiene derechos; no hay copia abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:informaciones-de-toledo": {
@@ -3679,6 +3784,11 @@
     "motivo": "Obra póstuma de 1953 con derechos vigentes (Wittgenstein Estate) y sin edición abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:iolo-morganwg-y-los-poemas-agregados": {
+    "decision": "sin-datos",
+    "motivo": "Ensayo de 1926 de un autor muerto en 1963 (aún con derechos): no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:juicio-a-los-mazorqueros-1853": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar los expedientes publicados.",
@@ -3724,9 +3834,19 @@
     "motivo": "Se buscó en Internet Archive y Wikisource sin hallar el texto.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:la-tene-vouga-1923": {
+    "decision": "sin-datos",
+    "motivo": "No está en Wikisource, Gutenberg ni Internet Archive; solo reseñas y fichas de catálogo.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:la-vanguardia": {
     "decision": "sin-datos",
     "motivo": "No se halló una colección digital abierta de los números de la década de 1890; no está en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:laminas-de-pyrgi": {
+    "decision": "sin-datos",
+    "motivo": "Inscripción publicada en corpus modernos con derechos; no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:lebor-gabala-erenn": {
@@ -3737,6 +3857,11 @@
   "ref:sin-leer:lebor-na-huidre": {
     "decision": "sin-datos",
     "motivo": "Las ediciones en Internet Archive (Best y Bergin, 1929) no son de dominio público comprobado; no está en Wikisource.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-celtes-hubert": {
+    "decision": "sin-datos",
+    "motivo": "Solo hay copia en préstamo en Internet Archive; la página de Hubert en Wikisource francés lista la obra sin texto.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:ley-1628-premios-militares": {
@@ -3779,9 +3904,19 @@
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar las ediciones de Hrozný (1922) o Friedrich (1922) con texto accesible; las traducciones modernas tienen derechos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:liber-linteus": {
+    "decision": "sin-datos",
+    "motivo": "Texto etrusco publicado solo en ediciones académicas con derechos; no encontré copia abierta.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:libro-de-durrow": {
     "decision": "sin-datos",
     "motivo": "Manuscrito: solo hay facsímiles modernos con derechos; el texto no está en Wikisource ni Internet Archive en edición de dominio público.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:libro-de-la-tradicion": {
+    "decision": "sin-datos",
+    "motivo": "No está en Sefaria, Wikisource ni Internet Archive de lectura libre; la traducción de Cohen (1967) tiene derechos.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:los-cuatro-libros": {
@@ -3792,6 +3927,11 @@
   "ref:sin-leer:manifiesto-de-saenz-pena-1912": {
     "decision": "sin-datos",
     "motivo": "Solo se hallaron fragmentos en sitios divulgativos; el texto íntegro no está en Wikisource, Internet Archive ni sitios oficiales comprobados.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:mano-de-irulegi": {
+    "decision": "sin-datos",
+    "motivo": "Inscripción publicada en estudios recientes con derechos; no encontré copia abierta en los sitios consultados.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:manuscrito-de-birmingham": {
@@ -3807,6 +3947,11 @@
   "ref:sin-leer:mapa-de-madaba": {
     "decision": "sin-datos",
     "motivo": "Es un mosaico con rótulos griegos; no se halló una edición abierta de sus inscripciones.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:mecanica-matricial": {
+    "decision": "sin-datos",
+    "motivo": "Artículo de Heisenberg (m. 1976) con derechos, en Springer de pago; sin copia abierta en los sitios consultados.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:mi-mensaje": {
@@ -3839,6 +3984,11 @@
     "motivo": "Se buscó en Wikisource, Internet Archive y la Biblioteca Virtual Miguel de Cervantes sin hallar el texto de las ordenanzas del 13 de julio de 1573 (solo las Instrucciones del 3 de julio, otra norma).",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:ordinatio": {
+    "decision": "sin-datos",
+    "motivo": "La edición crítica vaticana tiene derechos; no encontré texto abierto en Wikisource, Gutenberg ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pacto-de-los-zoelas": {
     "decision": "sin-datos",
     "motivo": "Está en el CIL II 2633 (Hübner), sin copia abierta comprobada en Wikisource ni Internet Archive.",
@@ -3859,9 +4009,19 @@
     "motivo": "Inscripción perdida casi por completo: no hay texto en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:plomo-de-alcoy": {
+    "decision": "sin-datos",
+    "motivo": "Inscripción publicada solo en estudios académicos; no encontré copia abierta.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pragmatica-de-expulsion-1767": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource (solo hay las pragmáticas de 1776 y 1830) e Internet Archive sin hallar el texto de 1767.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:principio-de-incertidumbre": {
+    "decision": "sin-datos",
+    "motivo": "Artículo de Heisenberg (m. 1976) con derechos, en Springer de pago; sin copia abierta en los sitios consultados.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:proclama-de-rosas-1835": {
@@ -3872,6 +4032,11 @@
   "ref:sin-leer:proyecto-de-ley-nacional-del-trabajo": {
     "decision": "sin-datos",
     "motivo": "El texto está en las Obras completas de J. V. González, sin copia abierta comprobada en Wikisource, Internet Archive ni repositorios universitarios.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:regimen-del-solitario": {
+    "decision": "sin-datos",
+    "motivo": "La traducción de Asín Palacios (1946) y el original árabe no tienen copia abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:relacion-de-acarete": {
@@ -3914,6 +4079,16 @@
     "motivo": "Obra perdida de la que quedan fragmentos citados por otros autores; no se halló una colección de dominio público comprobada en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:sobre-la-luz": {
+    "decision": "sin-datos",
+    "motivo": "El texto de Baur (1912) solo lo encontré en un sitio cuyo dominio fue secuestrado por spam, que no se enlaza; no está en Wikisource ni en Internet Archive de lectura libre.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:suma-de-logica": {
+    "decision": "sin-datos",
+    "motivo": "En Wikisource latino hay solo un índice sin texto; las ediciones críticas (Boehner) tienen derechos y las impresiones antiguas no las encontré escaneadas.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:tablillas-de-springmount": {
     "decision": "sin-datos",
     "motivo": "Tablillas de cera: no hay texto de dominio público comprobado en Wikisource ni Internet Archive.",
@@ -3922,6 +4097,11 @@
   "ref:sin-leer:tabula-contrebiensis": {
     "decision": "sin-datos",
     "motivo": "Está en el CIL (Hübner, y en ediciones modernas), sin copia abierta comprobada en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tabula-de-polcevera": {
+    "decision": "sin-datos",
+    "motivo": "El texto está en el CIL y en la edición Loeb (con derechos); no encontré una página abierta con el texto latino.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:tafsir-al-tabari": {
