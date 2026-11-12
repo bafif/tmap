@@ -694,6 +694,16 @@
     "motivo": "Samanta Schweblin es cuentista y novelista, no historiadora.",
     "fecha": "2026-11-11"
   },
+  "candidato:ideas-politicas:revolucion:Q622774": {
+    "decision": "descartado",
+    "motivo": "La revolución francesa de 1848 ya está tratada en el hecho revoluciones-de-1848 (región francia), que además cita El dieciocho brumario.",
+    "fecha": "2026-11-12"
+  },
+  "candidato:ideas-politicas:revolucion:Q638530": {
+    "decision": "descartado",
+    "motivo": "La revolución de Texas es un conflicto de secesión y colonización norteamericana, ajeno a las corrientes de ideas políticas que cubre el paquete; va a «Por hacer» de norteamerica-colonial.",
+    "fecha": "2026-11-12"
+  },
   "candidato:mundo:batalla:Q32929": {
     "decision": "descartado",
     "motivo": "Guerra sobre todo europea y atlántica; sus episodios en las regiones del tema ya están y ningún paquete cubre la Europa del siglo XVIII (queda para «Por hacer»).",
@@ -1589,6 +1599,16 @@
     "motivo": "Antes del siglo VI no hay fuentes sobre las creencias de la región, ni de los godos de Cherniajov ni de los hunos; Procopio (hacia 550) es el primero que describe a los eslavos.",
     "fecha": "2026-11-11"
   },
+  "obra:Q1001:Q1168727": {
+    "decision": "descartado",
+    "motivo": "Sarvodaya es el concepto de Gandhi, y el ítem de Wikidata es el concepto, no una obra. El texto con ese título es su versión en gujarati de Unto This Last, de Ruskin (1908), una paráfrasis sin ficha propia en el paquete.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q101638:Q2705647": {
+    "decision": "descartado",
+    "motivo": "Relatos originales de la vida real es un libro infantil de moral, no de ideas políticas.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q102323:Q1134288": {
     "decision": "descartado",
     "motivo": "La Gylfaginning es una parte de la Edda prosaica, que ya tiene su ficha (edda-prosaica).",
@@ -2279,6 +2299,21 @@
     "motivo": "Es una edición del Manifiesto en Wikisource, no una obra aparte; el Manifiesto ya está.",
     "fecha": "2026-11-12"
   },
+  "obra:Q352:Q163067": {
+    "decision": "descartado",
+    "motivo": "El decreto Nerón (1945) es una orden militar de tierra arrasada, no un texto de ideas políticas; va a «Por hacer» de guerras-y-orden-mundial, que ya tiene el protocolo y la conferencia de Wannsee.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q352:Q552076": {
+    "decision": "descartado",
+    "motivo": "«Mi honor es la lealtad» es el lema de las SS atribuido a Hitler por Wikidata, no una obra.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q352:Q579924": {
+    "decision": "descartado",
+    "motivo": "El decreto Nacht und Nebel (7 de diciembre de 1941) es una orden de represión en los territorios ocupados, no un texto de ideas políticas; va a «Por hacer» de guerras-y-orden-mundial (queda la duda de si, como instrumento de represión totalitaria, cabría también en este paquete).",
+    "fecha": "2026-11-12"
+  },
   "obra:Q388099:Q336306": {
     "decision": "descartado",
     "motivo": "El Himno Nacional del Uruguay es de Francisco Acuña de Figueroa (letra) y Quijano y Debali (música), y ni el artículo de la obra ni la ficha de Andrés Lamas lo vinculan con él; no es una obra suya.",
@@ -2323,6 +2358,31 @@
     "decision": "descartado",
     "motivo": "los salmos sueltos no van como fuentes aparte: está el libro de los Salmos",
     "fecha": "2026-11-11"
+  },
+  "obra:Q42323:Q1121008": {
+    "decision": "descartado",
+    "motivo": "Quas primas (1925, fiesta de Cristo Rey) fue una respuesta de Pío XI a la secularización y el nacionalismo crecientes, pero es sobre todo un documento litúrgico y doctrinal; queda fuera del paquete.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q42323:Q1244321": {
+    "decision": "descartado",
+    "motivo": "Mortalium animos (ecumenismo) trata de relaciones entre confesiones cristianas, no de ideas políticas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q42323:Q581011": {
+    "decision": "descartado",
+    "motivo": "Ecclesiam Dei (1923) es una encíclica sobre san Josafat, un santo; no es de ideas políticas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q42323:Q663970": {
+    "decision": "descartado",
+    "motivo": "Rerum omnium perturbationem (1923) es una encíclica sobre san Francisco de Sales; no es de ideas políticas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q42323:Q731928": {
+    "decision": "descartado",
+    "motivo": "Divini illius Magistri (1929) trata de la educación cristiana de la juventud; critica de modo implícito la política educativa de la Italia fascista y afirma los derechos de la familia y de la Iglesia sobre los del Estado. Es un caso de borde y queda fuera: el paquete ya incluye las encíclicas de Pío XI sobre el fascismo, el nazismo y el comunismo.",
+    "fecha": "2026-11-12"
   },
   "obra:Q49767:Q1097238": {
     "decision": "descartado",
@@ -2409,9 +2469,19 @@
     "motivo": "El cuento del Caballero es una parte de los Cuentos de Canterbury, que ya tiene su ficha (cuentos-de-canterbury).",
     "fecha": "2026-11-11"
   },
+  "obra:Q5749:Q2713465": {
+    "decision": "descartado",
+    "motivo": "¿Qué es la propiedad? de Proudhon ya está en el paquete como que-es-la-propiedad (mismo artículo, What Is Property?).",
+    "fecha": "2026-11-12"
+  },
   "obra:Q578036:Q1141518": {
     "decision": "descartado",
     "motivo": "Es un manual universitario de algoritmos, del que Rivest es uno de los autores, ajeno al tema; del paquete le corresponde el artículo del RSA (`articulo-rsa`).",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q5809:Q1769105": {
+    "decision": "descartado",
+    "motivo": "Diarios de motocicleta es un diario de viaje de juventud; el tema trata del Che solo por sus textos políticos.",
     "fecha": "2026-11-12"
   },
   "obra:Q5879:Q100745289": {
@@ -2537,6 +2607,16 @@
   "obra:Q6882:Q1216839": {
     "decision": "descartado",
     "motivo": "«Los muertos» es el último relato de Dublineses, que se ficha como un solo libro.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q7197:Q1214721": {
+    "decision": "descartado",
+    "motivo": "Los mandarines es una novela; el paquete incluye de Beauvoir solo ensayos y manifiestos políticos.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q7197:Q859773": {
+    "decision": "descartado",
+    "motivo": "La invitada (She Came to Stay) es una novela sin tema político.",
     "fecha": "2026-11-12"
   },
   "obra:Q7199:Q2700307": {
@@ -2822,6 +2902,11 @@
   "obra:Q9061:Q1669801": {
     "decision": "descartado",
     "motivo": "Es la edición completa de las obras de Marx y Engels, no una obra.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q9061:Q3027686": {
+    "decision": "descartado",
+    "motivo": "La tesis doctoral de Marx sobre Demócrito y Epicuro trata de filosofía natural antigua; no es una obra política, a diferencia de las de su obra madura que el paquete incluye.",
     "fecha": "2026-11-12"
   },
   "obra:Q9061:Q6786857": {
@@ -6779,6 +6864,11 @@
     "motivo": "El cónclave de 2025 ya está contado en el hecho muerte-del-papa-francisco, que dice que eligió a León XIV.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q13582394": {
+    "decision": "descartado",
+    "motivo": "Lumen fidei (2012) trata de la fe, no de ideas políticas.",
+    "fecha": "2026-11-12"
+  },
   "sucesion:Q153080": {
     "decision": "descartado",
     "motivo": "Su fundación es el tratado de Verdún (843), que ya tiene su ficha (tratado-de-verdun), y su primer rey y los emperadores siguientes están en el paquete.",
@@ -6877,6 +6967,11 @@
   "sucesion:Q79762": {
     "decision": "descartado",
     "motivo": "Obra póstuma (1977) que Christopher Tolkien seleccionó, editó y en parte escribió con Guy Gavriel Kay a partir de los borradores de su padre, como Cuentos inconclusos y Ainulindalë, también descartados.",
+    "fecha": "2026-11-12"
+  },
+  "sucesion:Q845571": {
+    "decision": "descartado",
+    "motivo": "Casti connubii (1930) trata de la moral matrimonial, la anticoncepción y el aborto, y se opone a las leyes de eugenesia del Estado; es sobre todo doctrina moral y queda fuera del paquete.",
     "fecha": "2026-11-12"
   },
   "sucesion:Q877387": {
