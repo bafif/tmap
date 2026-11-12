@@ -3583,6 +3583,40 @@
         "en": "The Betrayal of the American Right"
       },
       "confianza": "media"
+    },
+    {
+      "id": "teoria-de-la-especulacion-bachelier",
+      "titulo": "Teoría de la especulación",
+      "titulo_original": "Théorie de la spéculation",
+      "autor": "Louis Bachelier",
+      "autor_id": "bachelier",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1900,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1900,
+        "hasta": 1900
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tesis doctoral",
+      "resumen": "Tesis defendida el 29 de marzo de 1900 en la Universidad de París y publicada en los Annales Scientifiques de l'École Normale Supérieure. Introdujo el primer modelo matemático del movimiento browniano, cinco años antes del estudio de Einstein, y lo usó para valuar opciones sobre acciones. Recibió la calificación «honorable», no la máxima: Paul Lévy la juzgó demasiado centrada en las finanzas, mientras que Henri Poincaré, su profesor, elogió su manera de derivar la ley de errores de Gauss.",
+      "por_que_importa": "Es el primer trabajo que aplicó matemática avanzada a las finanzas y un antecedente del modelo de Black-Scholes y de la hipótesis del mercado eficiente. Su alcance se reconoció décadas después, cuando Kolmogórov se la señaló a Lévy y Leonard Savage la tradujo al inglés y llamó la atención de Paul Samuelson.",
+      "leer": [
+        {
+          "titulo": "Texto en francés en Numdam, la biblioteca matemática digital francesa",
+          "url": "https://www.numdam.org/item/ASENS_1900_3_17__21_0/",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -5872,6 +5906,44 @@
         "en": "Álvaro Alsogaray"
       },
       "wikidata": "Q8076665"
+    },
+    {
+      "id": "bachelier",
+      "nombre": "Louis Bachelier",
+      "nacimiento": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "El Havre",
+        "lon": 0.108,
+        "lat": 49.494
+      },
+      "muerte": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Saint-Malo",
+        "lon": -2.026,
+        "lat": 48.649
+      },
+      "activo": {
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857,
+        "desde": 1892,
+        "hasta": 1909,
+        "aprox": false
+      },
+      "roles": [
+        "matemático"
+      ],
+      "resumen": "Matemático francés que en su tesis doctoral Théorie de la spéculation (1900) modeló por primera vez el movimiento browniano y lo aplicó a la valuación de opciones; se lo considera precursor de las finanzas matemáticas. Fue profesor libre en la Sorbona desde 1909 y obtuvo una cátedra permanente en Besançon en 1927.",
+      "obras": [
+        "teoria-de-la-especulacion-bachelier"
+      ],
+      "wikipedia": {
+        "es": "Louis Bachelier",
+        "en": "Louis Bachelier"
+      },
+      "wikidata": "Q560823"
     }
   ],
   "hechos": [
@@ -6632,6 +6704,48 @@
       "wikipedia": {
         "es": "Caja de Conversión (Argentina)",
         "en": "Caja de conversión"
+      }
+    },
+    {
+      "id": "tesis-de-bachelier",
+      "titulo": "Tesis de Bachelier sobre la especulación",
+      "anio": 1900,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "cientifico",
+      "resumen": "El 29 de marzo de 1900 Louis Bachelier defendió en la Universidad de París su tesis Théorie de la spéculation, que describió los precios de los mercados con el movimiento browniano y valuó opciones con ese modelo. La calificaron «honorable» y se publicó en los Annales de l'École Normale Supérieure; su alcance se reconoció varias décadas después.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [
+        "teoria-de-la-especulacion-bachelier"
+      ],
+      "wikipedia": {
+        "es": "Louis Bachelier",
+        "en": "Louis Bachelier"
+      }
+    },
+    {
+      "id": "plan-monnet",
+      "titulo": "Plan Monnet y planificación indicativa",
+      "anio": 1946,
+      "anio_hasta": 1980,
+      "aprox": true,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "economico",
+      "resumen": "El 3 de enero de 1946 Charles de Gaulle, al frente del Gobierno provisional, creó el Comisariado General del Plan, que dirigió primero Jean Monnet. Su primer plan, de Modernización y Equipamiento (el Plan Monnet, 1946-1950), fijó metas de producción para seis sectores básicos (carbón, acero, electricidad, ferrocarriles, cemento y maquinaria agrícola) sin mecanismos que obligaran a cumplirlas: se lo llamó planificación «indicativa» para distinguirla de la planificación central soviética. Ese dirigismo duró en Francia hasta la década de 1980.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Plan Monnet",
+        "en": "Monnet Plan"
       }
     }
   ],

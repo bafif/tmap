@@ -9462,6 +9462,109 @@
         "es": "Aleksandr Solzhenitsyn",
         "en": "Aleksandr Solzhenitsyn"
       }
+    },
+    {
+      "id": "nobel-a-t-s-eliot",
+      "titulo": "Nobel de Literatura a T. S. Eliot",
+      "anio": 1948,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Estocolmo",
+      "lon": 18.069,
+      "lat": 59.329,
+      "tipo": "cultural",
+      "resumen": "En 1948 la Academia Sueca concedió el Nobel de Literatura al poeta T. S. Eliot, nacido en San Luis (Misuri), instalado en el Reino Unido desde 1914 y súbdito británico desde 1927, «por su contribución sobresaliente y pionera a la poesía moderna». Entre sus obras están La tierra baldía (1922) y Cuatro cuartetos (1943).",
+      "regiones": [
+        "escandinavia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "T. S. Eliot",
+        "en": "T. S. Eliot"
+      }
+    },
+    {
+      "id": "nobel-a-bertrand-russell",
+      "titulo": "Nobel de Literatura a Bertrand Russell",
+      "anio": 1950,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Estocolmo",
+      "lon": 18.069,
+      "lat": 59.329,
+      "tipo": "cultural",
+      "resumen": "En 1950 el filósofo y matemático británico Bertrand Russell recibió el Nobel de Literatura «en reconocimiento de sus variados y significativos escritos en los que defiende ideales humanitarios y la libertad de pensamiento». El año anterior el rey Jorge VI le había otorgado la Orden del Mérito.",
+      "regiones": [
+        "escandinavia",
+        "britania"
+      ],
+      "fuentes": [
+        "historia-de-la-filosofia-occidental"
+      ],
+      "wikipedia": {
+        "es": "Bertrand Russell",
+        "en": "Bertrand Russell"
+      }
+    },
+    {
+      "id": "juicio-de-lady-chatterley",
+      "titulo": "Juicio de Lady Chatterley",
+      "anio": 1960,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "judicial",
+      "resumen": "Del 20 de octubre al 2 de noviembre de 1960 se juzgó en el Old Bailey de Londres a la editorial Penguin Books, acusada de publicar sin cortes El amante de Lady Chatterley (1928) de D. H. Lawrence, según la Ley de Publicaciones Obscenas de 1959, que admitía como defensa el mérito literario de la obra. La defensa llamó a 35 testigos, entre ellos el sociólogo Richard Hoggart, y tras tres horas de deliberación el jurado declaró a Penguin no culpable por unanimidad. Fue el fin de la censura de la novela en Gran Bretaña y, para algunos, el comienzo de la «sociedad permisiva» británica.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "R v Penguin Books Ltd"
+      }
+    },
+    {
+      "id": "grupo-47",
+      "titulo": "Grupo 47",
+      "anio": 1947,
+      "anio_hasta": 1967,
+      "aprox": false,
+      "lugar": "Füssen",
+      "lon": 10.7,
+      "lat": 47.567,
+      "tipo": "cultural",
+      "resumen": "Reunión periódica de escritores alemanes convocada por Hans Werner Richter entre 1947 y 1967; la primera se hizo en septiembre de 1947 en Bannwaldsee, cerca de Füssen. Cada autor leía un texto que los demás criticaban sin que pudiera defenderse, y el grupo votaba el Premio del Grupo 47: lo ganaron Heinrich Böll en 1951, Ingeborg Bachmann en 1953 y Günter Grass en 1958, por El tambor de hojalata. No tuvo organización, lista de miembros ni programa literario; las reuniones públicas se interrumpieron en octubre de 1967 y el grupo se disolvió oficialmente en 1977.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Grupo 47",
+        "en": "Group 47"
+      }
+    },
+    {
+      "id": "fundacion-de-les-temps-modernes",
+      "titulo": "Fundación de Les Temps modernes",
+      "anio": 1945,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "cultural",
+      "resumen": "Revista fundada en París por Jean-Paul Sartre con Simone de Beauvoir y Maurice Merleau-Ponty, editada por Gallimard; su primer número salió el 15 de octubre de 1945, con Sartre como director y un comité que incluía a Raymond Aron, Michel Leiris, Albert Ollivier y Jean Paulhan. En el prefacio Sartre propuso la «literatura comprometida» (littérature engagée); Simone de Beauvoir publicó allí los primeros capítulos de El segundo sexo.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Les Temps Modernes",
+        "en": "Les Temps modernes"
+      }
     }
   ],
   "lugares": []

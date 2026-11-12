@@ -40,14 +40,16 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 Lo cubierto y lo que falta, región por región, está en [el informe de cobertura](docs/es/cobertura.md).
 
 - [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lista lo que falta. Ya no quedan huecos de prioridad alta ni de capas de regiones,
-      y la prioridad media está cerrada en los paquetes argentinos, Tierra Santa, la Edad Media, Egipto y los celtas. Falta
-      la media de las letras y el pensamiento del siglo XX, las guerras y el orden mundial, las ideas políticas, el
-      pensamiento económico, la ciencia y la cultura libre (unos 350 huecos), los tramos del mundo antiguo que quedaron
-      cerrados a medias (Mesopotamia, Anatolia, Persia, la India y Mesoamérica), lo nuevo que destapen las rondas
-      (completar una serie la vuelve tema) y la prioridad baja, casi toda de mantenimiento: unos 575
-      hechos sin fuentes, unas 700 fuentes sin enlace de lectura y fuentes medievales sin lugar de escritura. Se rellena
-      por rondas hasta que el informe de cada paquete no muestre nada más que lo decidido.
+      informe --red --prioridad baja` lista lo que falta. Fuera de los paquetes de América no quedan tramos vacíos sin
+      revisar ni capas cortadas, y casi todas las fuentes tienen enlace de lectura o un motivo para no tenerlo. Falta lo
+      que destapan las rondas, porque completar una serie, una guerra o la obra de un autor la vuelve tema: unas 110
+      series de cargos de las guerras y el orden mundial (cada gobernante sumado abre la de su cargo), unos 20 eslabones
+      de obras de las letras y las ideas, y unos 215 huecos de prioridad alta y media en Tierra Santa, la Edad Media, la
+      Argentina y los celtas. Falta también la prioridad baja: unos 760 hechos sin fuentes, unas 30 fuentes sin enlace
+      en sitios que rechazan programas (fallos y censos argentinos, Gallica, HathiTrust), una revisión obra por obra de
+      los libros recientes que puedan tener edición de acceso abierto y unas 25 fuentes sin lugar de escritura; y los 13
+      paquetes de América, que todavía no tienen alcance fijado. Se rellena por rondas hasta que el informe de cada
+      paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del
       siglo XX de Brasil, México, Chile y el resto de América Latina, China después de Mao, la India independiente,
       África después de la descolonización y el sudeste asiático, con sus fuentes propias.
@@ -63,7 +65,11 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
 - [ ] **Lo que quedó afuera de los temas contemporáneos**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes y Clarice Lispector (Galeano ya tiene ficha). Hawái no tiene región (Pearl Harbor queda
-      fuera de todas).
+      fuera de todas). En las guerras y el orden mundial faltan la Orden Nerón y el decreto Nacht und Nebel, la paz de
+      Riga y los tratados de Londres y Bucarest de 1913, los acuerdos de Évian y la salida de Francia del mando de la
+      OTAN, los ataques de 2025 y la guerra de 2026 contra Irán como fichas propias; un tema del
+      terrorismo en Europa (Niza, Charlie Hebdo, Bataclán, Crocus); Sájarov y los disidentes soviéticos; la
+      filtración de Frances Haugen y Facebook en PRISM; y Urartu, la Asiria media y los mahajanapadas como temas.
 - [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 32 regiones de
       `regiones-del-mundo.json` que no son de América ni Asia central (Siberia, Japón, África, Oceanía…) tienen resumen, eras y población, pero no esas tres
       capas: el modo de religión, cultura o idioma las deja rayadas. Faltan familias (sintoísmo, religiones
@@ -220,7 +226,14 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   las independencias, Rosas y su época, los califas, cruzadas y conflictos de Tierra Santa con la versión de cada parte,
   los papas, emperadores y cruzadas medievales, las guerras y dirigentes del siglo XX, obras de Marx, Engels, Lenin y
   Ayn Rand, y las capas de todas las regiones investigadas hasta hoy, con sus minorías, mayorías solo donde una cifra
-  las sostiene y sin anacronismos viejos.
+  las sostiene y sin anacronismos viejos. También las obras centrales de los autores de las letras y el pensamiento del
+  siglo XX, las encíclicas y los textos de Lenin y la Comintern, los dirigentes de la Guerra Fría y de la Europa de
+  hoy, y los siglos que cada tema tenía vacíos (la Asiria media, la India védica, la China Tang y Song, la Grecia
+  arcaica, el Líbano de los maronitas y los drusos), con un hecho o un documento propio en cada uno o la decisión de
+  que lo cubre otro tema.
+- **Enlaces de lectura legales**: unas 400 fuentes más tienen un enlace al texto en Wikisource, el Proyecto Gutenberg,
+  Internet Archive o un sitio oficial, comprobado y marcado como de dominio público o de acceso abierto; las obras con
+  derechos vigentes quedan sin enlace, con el motivo, y nunca se enlaza una copia que no sea legal.
 - **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,
   con las coordenadas de su artículo en Wikipedia: el Fuerte o la Casa Rosada para virreyes y presidentes, el Congreso
   de su época para las leyes, el tribunal para los juicios, el campo para las batallas. Lo que no tiene un sitio único

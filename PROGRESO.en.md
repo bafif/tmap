@@ -40,14 +40,16 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 What's covered and what's missing, region by region, is in [the coverage report](docs/en/coverage.md).
 
 - [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lists what is missing. There are no high-priority gaps or region-layer gaps left,
-      and the medium priority is closed in the Argentine packages, the Holy Land, the Middle Ages, Egypt and the Celts.
-      Still to do: the medium priority of twentieth-century literature and thought, wars and world order, political
-      ideas, economic thought, science and free culture (about 350 gaps), the stretches of the ancient world that were
-      only half closed (Mesopotamia, Anatolia, Persia, India and Mesoamerica), whatever new the rounds uncover
-      (completing a series makes it a topic) and the low priority, almost all maintenance: about 575 events
-      without sources, about 700 sources without a reading link and medieval sources with no place of writing. It is
-      filled in rounds until each package's report shows nothing but decided gaps.
+      informe --red --prioridad baja` lists what is missing. Outside the packages on the Americas there are no unreviewed
+      empty stretches or cut layers left, and almost every source has a reading link or a reason for not having one.
+      Still to do is what the rounds uncover, because completing a series, a war or an author's works makes it a topic:
+      about 110 series of offices in wars and world order (each ruler added opens the series of their office), about 20
+      links in chains of works in literature and ideas, and about 215 high- and medium-priority gaps in the Holy Land, the
+      Middle Ages, Argentina and the Celts. The low priority is also still to do: about 760 events without sources,
+      about 30 sources without a link on sites that reject programs (Argentine court rulings and censuses, Gallica,
+      HathiTrust), a book-by-book check of recent books that may have an open-access edition and about 25 sources with no
+      place of writing; and the 13 packages on the Americas, which do not have a fixed scope yet. It is filled in rounds
+      until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century
       political history of Brazil, Mexico, Chile and the rest of Latin America, China after Mao, independent India,
       Africa after decolonization and Southeast Asia, with their own sources.
@@ -62,7 +64,11 @@ What's covered and what's missing, region by region, is in [the coverage report]
 - [ ] **What was left out of the contemporary topics**: Saint-Simon, Fourier, Owen, Bebel, Zetkin, Kollontai,
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes and Clarice Lispector (Galeano now has an entry). Hawaii has no region (Pearl Harbor falls
-      outside all of them).
+      outside all of them). Wars and world order still lack the Nero Decree and the Night and Fog decree, the Peace of
+      Riga and the 1913 treaties of London and Bucharest, the Évian Accords and France's exit from NATO's command, the
+      2025 strikes and the 2026 war against Iran as entries of their own; a topic on terrorism in
+      Europe (Nice, Charlie Hebdo, the Bataclan, Crocus); Sakharov and the Soviet dissidents; the Frances Haugen leak
+      and Facebook in PRISM; and Urartu, Middle Assyria and the mahajanapadas as topics.
 - [ ] **Religions, cultures and languages for the world regions.** The 32 regions in
       `regiones-del-mundo.json` outside the Americas and Central Asia (Siberia, Japan, Africa, Oceania…) have a summary, eras and population, but not those
       three layers: religion, culture or language mode leaves them hatched. Families are missing (Shinto, traditional
@@ -218,7 +224,14 @@ New packages reach installed copies as data updates, without waiting for an app 
   the wars of independence, Rosas and his time, the caliphs, crusades and conflicts of the Holy Land with each side's
   account, medieval popes, emperors and crusades, twentieth-century wars and leaders, works by Marx, Engels, Lenin and
   Ayn Rand, and the layers of every researched region up to today, with their minorities, majorities only where a figure
-  supports them and without old anachronisms.
+  supports them and without old anachronisms. Also the central works of the authors of twentieth-century literature
+  and thought, the encyclicals and the texts of Lenin and the Comintern, the leaders of the Cold War and of today's
+  Europe, and the centuries each topic had empty (Middle Assyria, Vedic India, Tang and Song China, archaic Greece,
+  the Lebanon of the Maronites and the Druze), with an event or a document of its own in each or the decision that
+  another topic covers it.
+- **Legal reading links**: about 400 more sources have a link to the text on Wikisource, Project Gutenberg, the
+  Internet Archive or an official site, checked and marked as public domain or open access; works still under
+  copyright stay without a link, with the reason, and a copy that is not legal is never linked.
 - **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise
   place, with the coordinates of its Wikipedia article: the Fort or the Casa Rosada for viceroys and presidents, the
   Congress building of the time for laws, the court for trials, the field for battles. What has no single site (an

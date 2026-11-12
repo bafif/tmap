@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 73 con religiones, culturas o idiomas.
-- **Elementos:** 2902 fuentes (270 sin lugar de escritura), 2811 personas, 3091 hechos y 942 lugares.
+- **Elementos:** 2904 fuentes (271 sin lugar de escritura), 2813 personas, 3104 hechos y 942 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -43,9 +43,9 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Región | Paquete | Eras | Población | Capas | Elementos |
 |---|---|---|---|---|---|
 | Amazonía brasileña (en Brasil) | areas-culturales-de-america | 9 (11000 a. C. a hoy) | sin serie propia; cuenta en Brasil | 8 · 7 · 10 | 0 · 15 · 5 |
-| Bosques del noreste (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 7 (14000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 11 · 17 · 11 | 0 · 95 · 27 |
+| Bosques del noreste (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 7 (14000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 11 · 17 · 11 | 0 · 96 · 27 |
 | California indígena (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 8 · 7 | 0 · 12 · 3 |
-| Costa noroeste (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 5 (11800 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 7 · 9 | 0 · 13 · 3 |
+| Costa noroeste (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 5 (11800 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 7 · 9 | 0 · 14 · 3 |
 | Gran Cuenca (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 7 (12300 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 7 · 8 · 7 | 0 · 2 · 1 |
 | Grandes Llanuras (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 7 (13500 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 7 · 13 · 8 | 0 · 23 · 8 |
 | Meseta del Columbia (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (14000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 6 · 7 | 0 · 2 · 1 |
@@ -54,15 +54,15 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Suroeste norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 10 (21000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 13 · 11 | 0 · 29 · 15 |
 | Área maya (en Mesoamérica) | areas-culturales-de-america | 8 (11000 a. C. a hoy) | curada: Canuto et al. (750–750); sin serie propia; cuenta en Mesoamérica | 7 · 8 · 7 | 0 · 56 · 37 |
 | Ártico norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 6 · 9 · 10 | 0 · 18 · 4 |
-| Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 170 · 178 · 35 |
+| Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 170 · 179 · 35 |
 | Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 44 · 40 · 4 |
 | Bohemia y Moravia | edad-media | 12 (5500 a. C. a hoy) | por país: CZE | 8 · 12 · 8 | 29 · 26 · 4 |
-| Britania | edad-media | 11 (5500 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 282 · 227 · 56 |
+| Britania | edad-media | 11 (5500 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 282 · 230 · 56 |
 | Cerdeña y Córcega | edad-media | 7 (1800 a. C. a hoy) | sin serie propia; cuenta en Italia | 4 · 7 · 6 | 0 · 1 · 0 |
-| Escandinavia | edad-media | 6 (793 a hoy) | curada: Urlanis (1000–1500); por país: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 32 · 38 · 9 |
+| Escandinavia | edad-media | 6 (793 a hoy) | curada: Urlanis (1000–1500); por país: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 32 · 40 · 9 |
 | Estepa póntica | edad-media | 12 (3300 a. C. a hoy) | sin serie propia; cuenta en Rus | 8 · 8 · 5 | 21 · 26 · 0 |
 | Finlandia | edad-media | 5 (1150 a hoy) | por país: FIN | 5 · 2 · 4 | 2 · 2 · 1 |
-| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 285 · 262 · 52 |
+| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 285 · 265 · 52 |
 | Hungría | edad-media | 12 (6000 a. C. a hoy) | curada: Russell (500–1450); por país: HUN, SVK | 16 · 17 · 15 | 19 · 27 · 6 |
 | Irlanda | edad-media | 9 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: IRL | 5 · 8 · 10 | 126 · 52 · 21 |
 | Islandia | edad-media | 6 (410 a hoy) | curada: Censo de Islandia de 1703 (1703–1703); por país: ISL | 3 · 2 · 2 | 8 · 6 · 2 |
@@ -70,7 +70,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Polonia | edad-media | 11 (5500 a. C. a hoy) | curada: Russell (1000–1450); por país: POL | 3 · 9 · 6 | 20 · 36 · 5 |
 | Prusia, Lituania y Livonia | edad-media | 6 (1200 a hoy) | por país: EST, LVA, LTU | 5 · 2 · 5 | 4 · 11 · 2 |
 | Rus | edad-media | 6 (862 a hoy) | curada: Russell (1000–1450); por país: RUS, UKR, BLR | 7 · 6 · 9 | 50 · 57 · 5 |
-| Sicilia y Malta | edad-media | 10 (241 a. C. a hoy) | sin serie propia; cuenta en Italia | 9 · 9 · 8 | 4 · 5 · 1 |
+| Sicilia y Malta | edad-media | 10 (241 a. C. a hoy) | sin serie propia; cuenta en Italia | 9 · 9 · 8 | 4 · 6 · 1 |
 | Valaquia y Moldavia | edad-media | 8 (6000 a. C. a hoy) | por país: ROU, MDA | 8 · 13 · 12 | 6 · 10 · 0 |
 | Alto Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 2 · 1 |
 | Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 1 · 13 · 0 |
@@ -81,7 +81,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | China (cuencas del Amarillo y el Yangtsé) | mundo | 12 (1760 a. C. a hoy) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 8 · 2 · 4 | 12 · 25 · 4 |
 | Grecia | mundo | 10 (1760 a. C. a 2000) | por país: GRC | 3 · 2 · 3 | 53 · 41 · 6 |
 | India (cuencas del Indo y el Ganges) | mundo | 9 (3300 a. C. a hoy) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 24 · 19 · 4 |
-| Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 141 · 114 · 22 |
+| Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 142 · 118 · 22 |
 | Levante | mundo | 11 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 25 · 167 · 57 |
 | Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 265 · 215 · 94 |
 | Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 4 · 5 · 5 | 43 · 44 · 6 |
@@ -92,7 +92,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Celtiberia (en Península ibérica) | mundo-celta | 9 (5500 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 10 · 8 · 9 | 14 · 35 · 8 |
 | Galacia (en Anatolia) | mundo-celta | 8 (1650 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 9 · 7 · 7 | 11 · 20 · 5 |
 | Galecia (Gallaecia) (en Península ibérica) | mundo-celta | 9 (4800 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 6 · 10 · 10 | 7 · 16 · 7 |
-| Galia Cisalpina (en Italia) | mundo-celta | 10 (5500 a. C. a hoy) | sin serie propia; cuenta en Italia | 7 · 13 · 12 | 1 · 24 · 1 |
+| Galia Cisalpina (en Italia) | mundo-celta | 10 (5500 a. C. a hoy) | sin serie propia; cuenta en Italia | 7 · 13 · 12 | 1 · 25 · 1 |
 | Nórico (en Alemania y los Países Bajos) | mundo-celta | 8 (5500 a. C. a hoy) | sin serie propia; cuenta en Alemania y los Países Bajos | 7 · 11 · 10 | 1 · 10 · 3 |
 | Afganistán | regiones-del-mundo | 7 (550 a. C. a hoy) | por país: AFG | — · — · — | 3 · 7 · 0 |
 | Amazonía andina (oriente peruano y boliviano) | regiones-del-mundo | 5 (1682 a hoy) | sin serie propia; cuenta en Andes centrales | 6 · 7 · 9 | 27 · 44 · 6 |
@@ -121,7 +121,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Noroeste argentino y Cuyo | regiones-del-mundo | 4 (1480 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 6 | 151 · 142 · 21 |
 | Norte de Rusia | regiones-del-mundo | 5 (1100 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 1 · 1 · 0 |
 | Norte de Sudamérica | regiones-del-mundo | 5 (3800 a. C. a hoy) | por país: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 85 · 151 · 45 |
-| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 21 · 21 · 15 | 295 · 379 · 104 |
+| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 21 · 21 · 15 | 295 · 381 · 104 |
 | Nueva Zelanda (Aotearoa) | regiones-del-mundo | 4 (1250 a hoy) | por país: NZL | — · — · — | 0 · 1 · 0 |
 | Paraguay oriental | regiones-del-mundo | 5 (1537 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 9 · 6 | 49 · 60 · 1 |
 | Patagonia argentina | regiones-del-mundo | 3 (1520 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 8 · 10 | 125 · 57 · 13 |

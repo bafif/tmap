@@ -5738,6 +5738,39 @@
         "en": "Maria: or, The Wrongs of Woman"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "los-deberes-del-hombre",
+      "titulo": "Los deberes del hombre",
+      "titulo_original": "Doveri dell'uomo",
+      "autor": "Giuseppe Mazzini",
+      "autor_id": "mazzini",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1860,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1860,
+        "hasta": 1860
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro",
+      "resumen": "Mazzini rechaza el concepto de los «derechos del hombre» de la Ilustración y sostiene que los derechos se ganan con el trabajo, el sacrificio y la virtud, es decir, que nacen del cumplimiento de deberes, entre ellos los debidos a la humanidad, la patria, la familia y uno mismo. Se dirige a los obreros italianos y pide reconocer los derechos de las mujeres y poner fin a su subordinación jurídica y social.",
+      "por_que_importa": "Es la exposición más conocida del pensamiento de Mazzini, publicada el mismo año de la Expedición de los Mil. Lucy Riall señala que el auge del internacionalismo socialista en Italia desafió después su énfasis en la política y la cultura.",
+      "leer": [
+        {
+          "titulo": "Texto en italiano en Wikisource",
+          "url": "https://it.wikisource.org/wiki/Doveri_dell%27uomo_%281860%29",
+          "idioma": "it",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -8577,6 +8610,38 @@
         "en": "Benjamin Constant"
       },
       "wikidata": "Q123089"
+    },
+    {
+      "id": "mazzini",
+      "nombre": "Giuseppe Mazzini",
+      "nacimiento": {
+        "anio": 1805,
+        "aprox": false,
+        "lugar": "Génova",
+        "lon": 8.934,
+        "lat": 44.407
+      },
+      "muerte": {
+        "anio": 1872,
+        "aprox": false,
+        "lugar": "Pisa",
+        "lon": 10.4,
+        "lat": 43.717
+      },
+      "roles": [
+        "político",
+        "revolucionario",
+        "periodista"
+      ],
+      "resumen": "Patriota y republicano genovés que fundó en 1831 la Joven Italia, con el lema de una nación «una, libre, independiente y republicana». Pasó largos años de exilio, sobre todo en Londres; en 1867 rechazó el escaño que le ofreció el Reino de Italia. Publicó Los deberes del hombre en 1860 y murió en Pisa en 1872.",
+      "obras": [
+        "los-deberes-del-hombre"
+      ],
+      "wikipedia": {
+        "es": "Giuseppe Mazzini",
+        "en": "Giuseppe Mazzini"
+      },
+      "wikidata": "Q187336"
     }
   ],
   "hechos": [
@@ -9720,6 +9785,128 @@
       "wikipedia": {
         "es": "Revolución belga",
         "en": "Belgian Revolution"
+      }
+    },
+    {
+      "id": "expedicion-de-los-mil",
+      "titulo": "Expedición de los Mil",
+      "anio": 1860,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Marsala",
+      "lon": 12.434,
+      "lat": 37.798,
+      "tipo": "revolucion",
+      "resumen": "Entre el 5 y el 6 de mayo de 1860 algo más de mil voluntarios al mando de Giuseppe Garibaldi zarparon de Quarto, junto a Génova, y desembarcaron en Marsala el 11 de mayo; con sublevados sicilianos conquistaron en pocos meses el Reino de las Dos Sicilias, que los plebiscitos de octubre anexaron al Reino de Cerdeña, y el 17 de marzo de 1861 se proclamó el Reino de Italia. En la empresa coincidieron proyectos distintos: Mazzini, republicano, escribió que ya no se trataba de república o monarquía sino de unidad nacional; Garibaldi actuó en nombre de Víctor Manuel II; Cavour quería evitar la toma de Roma para no chocar con su aliado Napoleón III, protector de los Estados Pontificios.",
+      "regiones": [
+        "sicilia",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Expedición de los Mil",
+        "en": "Expedition of the Thousand"
+      }
+    },
+    {
+      "id": "toma-de-roma",
+      "titulo": "Toma de Roma",
+      "anio": 1870,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Porta Pia",
+      "lon": 12.501,
+      "lat": 41.909,
+      "tipo": "politico",
+      "resumen": "El 20 de septiembre de 1870 el ejército italiano, de unos 50.000 hombres al mando de Raffaele Cadorna, abrió una brecha en las murallas Aurelianas junto a la Porta Pia y tomó Roma, defendida por unos 13.000 soldados pontificios; terminaron así los Estados Pontificios y el poder temporal del papa. Un plebiscito del 2 de octubre aprobó la anexión (133.681 votos a favor y 1.507 en contra) y Roma fue capital de Italia desde el 3 de febrero de 1871. Pío IX rechazó la Ley de Garantías del 13 de mayo de 1871 y se proclamó «prisionero» en el Vaticano: la «cuestión romana» siguió abierta hasta los Pactos de Letrán de 1929.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Toma de Roma",
+        "en": "Capture of Rome"
+      }
+    },
+    {
+      "id": "banda-del-matese",
+      "titulo": "Banda del Matese",
+      "anio": 1877,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Letino",
+      "lon": 14.25,
+      "lat": 41.45,
+      "tipo": "revolucion",
+      "resumen": "En abril de 1877 unos 25 internacionalistas de la Federación italiana de la Internacional antiautoritaria, entre ellos Carlo Cafiero y Errico Malatesta, intentaron una insurrección en las montañas del Matese, aplicando la «propaganda por el hecho» que Malatesta y Cafiero habían planteado en el congreso de Berna de 1876. Tras un tiroteo con carabineros en San Lupo entre el 4 y el 5 de abril, ocuparon Letino y Gallo, quemaron los archivos de propiedad y declararon la revolución social; cercados por unos 12.000 soldados, se rindieron el 12 de abril. El jurado de Benevento los absolvió en agosto de 1878, tras 15 meses de prisión preventiva.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Banda del Matese"
+      }
+    },
+    {
+      "id": "asesinato-de-humberto-i",
+      "titulo": "Asesinato de Humberto I",
+      "anio": 1900,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Monza",
+      "lon": 9.274,
+      "lat": 45.584,
+      "tipo": "politico",
+      "resumen": "El 29 de julio de 1900 el anarquista Gaetano Bresci, un tejedor de Prato emigrado a Paterson (Nueva Jersey), mató a tiros en Monza al rey Humberto I; dijo que vengaba la matanza de Milán de mayo de 1898, en la que el general Bava Beccaris había reprimido una protesta por el precio del pan con 81 muertos, y a quien el rey condecoró después. Un tribunal de Milán condenó a Bresci a cadena perpetua el 29 de agosto de 1900 y el 22 de mayo de 1901 lo hallaron ahorcado en su celda de Santo Stefano; algunas versiones sostienen que lo mataron los guardias. Humberto I había sufrido antes los atentados de Passannante (1878) y Acciarito (1897).",
+      "regiones": [
+        "galia-cisalpina",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Assassination of Umberto I of Italy"
+      }
+    },
+    {
+      "id": "primer-dia-de-la-tierra",
+      "titulo": "Primer Día de la Tierra",
+      "anio": 1970,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Washington D. C.",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "politico",
+      "resumen": "El 22 de abril de 1970 se realizó en Estados Unidos una jornada nacional de debate y manifestaciones por la protección del ambiente, propuesta por el senador Gaylord Nelson como una «enseñanza colectiva» (teach-in) y coordinada por el activista Denis Hayes; el publicista Julian Koenig acuñó el nombre. El sindicato United Auto Workers, dirigido por Walter Reuther, fue su principal apoyo financiero y operativo externo. El activista por la paz John McConnell había propuesto en 1969 ante la UNESCO otro Día de la Tierra, para el 21 de marzo de 1970.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Día de la Tierra",
+        "en": "Earth Day"
+      }
+    },
+    {
+      "id": "protestas-de-seattle-contra-la-omc",
+      "titulo": "Protestas de Seattle contra la OMC",
+      "anio": 1999,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Seattle",
+      "lon": -122.33,
+      "lat": 47.605,
+      "tipo": "politico",
+      "resumen": "El 30 de noviembre de 1999, durante la conferencia ministerial de la Organización Mundial del Comercio en Seattle, al menos 40.000 manifestantes (sindicatos como la AFL-CIO, ecologistas, ONG, estudiantes, grupos religiosos y anarquistas, algunos en bloque negro) bloquearon calles y hoteles; se canceló la ceremonia de apertura y el alcalde Paul Schell declaró el estado de emergencia e impuso un toque de queda. La conferencia terminó el 3 de diciembre sin lanzar la ronda de negociaciones prevista. Las protestas dieron visibilidad internacional al movimiento antiglobalización.",
+      "regiones": [
+        "costa-noroeste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Contracumbre de Seattle",
+        "en": "1999 Seattle WTO protests"
       }
     }
   ],
