@@ -3209,7 +3209,10 @@
       "escrita": {
         "anio": 1917,
         "anio_hasta": 1920,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.4214,
+        "lat": 50.0875
       },
       "trata": {
         "regiones": [],
@@ -3298,7 +3301,20 @@
       "soporte": "Novela",
       "resumen": "Novela presentada como los papeles de Harry Haller, un hombre de mediana edad dividido entre su lado civilizado y su lado de «lobo estepario», que se siente ajeno a la sociedad burguesa y atraviesa un teatro mágico de fantasía y autoexamen. Hesse la escribió sobre todo en el Hotel Krafft de Basilea (según otra fuente, la empezó allí y la terminó en Zúrich); fragmentos aparecieron en la revista Neue Rundschau en 1926 y 1927 y el libro salió en 1927 en la editorial S. Fischer, de Berlín. Refleja una crisis personal del autor en los años veinte.",
       "por_que_importa": "Hesse dijo después que el libro fue malentendido, porque muchos lectores vieron solo el sufrimiento de Haller y no la posibilidad de superarlo.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/75756",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto alemán «Der Steppenwolf» (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/75802",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "El lobo estepario",
         "en": "Steppenwolf (novel)"
@@ -3332,7 +3348,20 @@
       "soporte": "Novela",
       "resumen": "Novela de formación narrada en primera persona por Emil Sinclair, que desde la infancia pasa de un mundo de apariencia ordenada a otro más oscuro bajo la guía de su compañero Max Demian, quien reinterpreta a Caín como figura fuerte y no como malvado. Hesse la escribió en 1917 durante un tratamiento psicoanalítico con un discípulo de Jung y la publicó en 1919 con el seudónimo Emil Sinclair; desde la décima edición lleva su nombre.",
       "por_que_importa": "Ganó con el seudónimo el premio Fontane, reservado a autores noveles, y Hesse lo devolvió cuando se supo quién era. Muestra su contacto con la psicología de Jung y el tema de la búsqueda de la identidad individual.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/74222",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto alemán (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/41907",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Demian",
         "en": "Demian"
@@ -3430,7 +3459,14 @@
       "soporte": "Novela",
       "resumen": "Primera novela de Hesse. Sigue a un joven campesino con rasgos autobiográficos que se va a la ciudad para ser poeta. Se publicó por entregas en la revista Neue Rundschau entre octubre y diciembre de 1903 y como libro en enero de 1904, en la editorial S. Fischer, de Berlín.",
       "por_que_importa": "Le dio fama a Hesse. Plantea temas que él retomó después: la búsqueda de identidad, la naturaleza frente a la civilización y el papel del arte.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/41051",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Peter Camenzind",
         "en": "Peter Camenzind"
@@ -3462,7 +3498,14 @@
       "soporte": "Novela",
       "resumen": "Novela sobre Hans Giebenrath, un alumno brillante que ingresa en un seminario protestante exigente, se quiebra bajo la presión y termina fuera del sistema. Se publicó por entregas en la Neue Zürcher Zeitung en 1904 y en libro en la editorial S. Fischer, de Berlín, a fines de 1905 con pie de imprenta de 1906. Tiene rasgos autobiográficos: Hesse abandonó el seminario de Maulbronn.",
       "por_que_importa": "Es una crítica a una educación que atiende el rendimiento y no el desarrollo personal, tema constante en la obra de Hesse.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán «Unterm Rad» (Project Gutenberg), de dominio público en los EE. UU.",
+          "url": "https://www.gutenberg.org/ebooks/49908",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Bajo las ruedas",
         "en": "Beneath the Wheel"
@@ -3751,7 +3794,20 @@
       "soporte": "Novela",
       "resumen": "Novela sobre la familia Turbin, de la intelectualidad de Kiev, atrapada entre los ejércitos que se disputan la ciudad durante la guerra civil posterior a 1917, en la que blancos, rojos, alemanes y nacionalistas ucranianos de Petliura se disputaron Kiev, con el hetman Skoropadski como telón de fondo. Se publicó por entregas en la revista Rossiya en 1925, pero la revista se cerró antes de terminarla; la novela completa salió en París, en dos tomos, en 1927 y 1929, y recién en 1966 se reeditó en la Unión Soviética, en versión censurada.",
       "por_que_importa": "Bulgákov la adaptó al teatro como Los días de los Turbin, estrenada en 1926. Es su primera novela.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto ruso (Wikisource)",
+          "url": "https://ru.wikisource.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%B3%D0%B2%D0%B0%D1%80%D0%B4%D0%B8%D1%8F_(%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2)",
+          "idioma": "ru",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto ruso (Biblioteca Moshkov, lib.ru)",
+          "url": "http://az.lib.ru/b/bulgakow_m_a/text_1924_belaya_gvardia.shtml",
+          "idioma": "ru",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "La Guardia Blanca",
         "en": "The White Guard"
@@ -3785,7 +3841,20 @@
       "soporte": "Novela corta",
       "resumen": "Novela corta de ciencia ficción satírica ambientada en la Moscú de 1928, entonces un futuro cercano. El zoólogo Persikov descubre un rayo rojo que acelera el desarrollo de los embriones; un funcionario lo usa con huevos de gallina y, por error, con huevos de reptiles, y una plaga de bestias gigantes amenaza la capital. Bulgákov la terminó a comienzos de octubre de 1924 y apareció en 1925 en el almanaque Nedra (n.º 6) y ese mismo año en el libro Diaboliada.",
       "por_que_importa": "Muchos críticos soviéticos la leyeron como burla de la Revolución de 1917 y de la dirigencia soviética. Fue popular en su momento.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto ruso (Wikisource)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%BE%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5_%D1%8F%D0%B9%D1%86%D0%B0_(%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2)",
+          "idioma": "ru",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto ruso (Biblioteca Moshkov, lib.ru)",
+          "url": "http://az.lib.ru/b/bulgakow_m_a/text_1924_rokovye_yaitza.shtml",
+          "idioma": "ru",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "The Fatal Eggs"
       },
@@ -3801,7 +3870,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1936,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Porto Ronco (Ronco sopra Ascona, Suiza)",
+        "lon": 8.7333,
+        "lat": 46.1333
       },
       "trata": {
         "regiones": [
@@ -3860,7 +3932,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1956,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Porto Ronco (Ronco sopra Ascona, Suiza)",
+        "lon": 8.7333,
+        "lat": 46.1333
       },
       "trata": {
         "regiones": [
@@ -4050,7 +4125,10 @@
       "genero": "filosofia",
       "escrita": {
         "anio": 1912,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Cambridge (Trinity College)",
+        "lon": 0.1146,
+        "lat": 52.207
       },
       "trata": {
         "regiones": [],
@@ -4394,7 +4472,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1929,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Piggott (Arkansas) y Mission Hills (Kansas)",
+        "lon": -90.2017,
+        "lat": 36.3858
       },
       "trata": {
         "regiones": [
@@ -4432,7 +4513,10 @@
       "escrita": {
         "anio": 1925,
         "anio_hasta": 1926,
-        "aprox": false
+        "aprox": false,
+        "lugar": "París (empezada en Valencia; revisada en Schruns)",
+        "lon": 2.3522,
+        "lat": 48.8567
       },
       "trata": {
         "regiones": [
@@ -4471,7 +4555,10 @@
       "escrita": {
         "anio": 1935,
         "anio_hasta": 1937,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Key West (y La Habana)",
+        "lon": -81.7819,
+        "lat": 24.555
       },
       "trata": {
         "regiones": [
@@ -4566,7 +4653,10 @@
       "escrita": {
         "anio": 1949,
         "anio_hasta": 1950,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Finca Vigía, Cuba (también Cortina d'Ampezzo, París y Venecia)",
+        "lon": -82.2964,
+        "lat": 23.0677
       },
       "trata": {
         "regiones": [
@@ -4980,7 +5070,14 @@
       "soporte": "Libro (tres ensayos)",
       "resumen": "Libro de tres ensayos sobre los orígenes del monoteísmo, escritos entre 1934 y 1938 y publicados por primera vez como libro por Allert de Lange, en Ámsterdam, en 1939; los dos primeros habían aparecido en 1937 y el tercero en 1938. Freud propone que Moisés era un egipcio seguidor del monoteísmo de Akenatón y no un hebreo criado en la corte, como cuenta el Éxodo, y que los israelitas lo mataron y la culpa por ese crimen modeló la religión judía. Escribió la tercera parte en Londres, adonde llegó tras la anexión nazi de Austria; en una carta a Arnold Zweig del 28 de junio de 1938 decía que trabajaba en ella.",
       "por_que_importa": "Es la última obra original de Freud, aparecida unos meses antes de su muerte, y sorprendió a muchos lectores por su tesis del Moisés egipcio. Es su segundo trabajo sobre Moisés, tras «El Moisés de Miguel Ángel» (1914).",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán «Der Mann Moses und die monotheistische Religion» (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/freud/moses/moses.html",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Moisés y la religión monoteísta",
         "en": "Moses and Monotheism"
@@ -5014,7 +5111,20 @@
       "soporte": "Novela corta",
       "resumen": "Novela corta sobre Gustav von Aschenbach, un escritor consagrado que viaja a Venecia, se obsesiona con el adolescente polaco Tadzio y muere en una epidemia de cólera. Se apoya en la estancia de Mann en Venecia en el verano de 1911, durante la epidemia de cólera de ese año, y Tadzio se habría basado en un niño llamado Władzio que Mann observó allí; la muerte de Gustav Mahler en Viena, en mayo de 1911, también ocupaba sus pensamientos. Salió en 1912 en una edición limitada de Hyperion-Verlag y por entregas en Die neue Rundschau, y en una edición comercial de Fischer en 1913.",
       "por_que_importa": "Se la cuenta, junto con La montaña mágica y Los Buddenbrook, entre las obras más conocidas de Mann; su trama es una reflexión estética sobre la pasión, el amor ideal y la belleza.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa «Death in Venice» (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/66073",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto alemán «Der Tod in Venedig» (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/authors/thomas-mann/books/der-tod-in-venedig/",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "La muerte en Venecia (novela)",
         "en": "Death in Venice"
@@ -5048,7 +5158,14 @@
       "soporte": "Novela",
       "resumen": "Novela que rehace la leyenda de Fausto en la Alemania de la primera mitad del siglo XX. El narrador, Serenus Zeitblom, escribe entre 1943 y 1946 la vida de su amigo de infancia, el compositor ficticio Adrian Leverkühn, que contrae sífilis a propósito para hacer un pacto con el diablo que le da genio creador, y cae en la locura hasta su muerte. Su vida transcurre en paralelo con la Alemania que lleva al nazismo. Mann la empezó en 1943 y se publicó en 1947; en 1949 publicó su propio relato de cómo nació la novela.",
       "por_que_importa": "Mann la escribió en el exilio, en Los Ángeles, y entre sus temas está la caída intelectual de Alemania en los años previos a la Segunda Guerra Mundial. Schönberg, que vivía cerca, se molestó porque Leverkühn usaba su técnica dodecafónica sin su consentimiento, y las ediciones posteriores llevan una nota de Mann que se la reconoce.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/authors/thomas-mann/books/doktor-faustus/",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Doktor Faustus",
         "en": "Doctor Faustus (novel)"
@@ -5083,7 +5200,14 @@
       "soporte": "Novela corta",
       "resumen": "Novela corta que sigue la vida de un hombre desde sus días de escolar hasta la adultez. Hijo de un comerciante del norte de Alemania y de una madre «del sur» con talento artístico, Tonio siente un contraste que no se puede salvar entre el arte y la burguesía. Tiene rasgos autobiográficos: su admiración por el compañero Hans Hansen se basó, según una carta de Mann, en la que sintió por su compañero de Lübeck Armin Martens. Lo escribió hacia 1900-1902 (otras cronologías lo sitúan a comienzos de 1901) y se publicó en 1903.",
       "por_que_importa": "Es una de las primeras novelas cortas de Mann y trata del artista frente al mundo burgués, un tema que él volvió a tratar.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/authors/thomas-mann/books/tonio-kroeger/",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Tonio Kröger (novela)",
         "en": "Tonio Kröger"
@@ -5118,7 +5242,20 @@
       "soporte": "Tetralogía",
       "resumen": "Tetralogía que cuenta de nuevo las historias del Génesis (capítulos 27 a 50), de Jacob a José, en el marco histórico del período de Amarna. Consta de Las historias de Jaakob (diciembre de 1926 a octubre de 1930), El joven José (enero de 1931 a junio de 1932), José en Egipto (julio de 1932 a agosto de 1936) y José el Proveedor (agosto de 1940 a enero de 1943). Los dos primeros tomos los publicó S. Fischer en Berlín (1933 y 1934); José en Egipto salió en Viena en 1936 y José el Proveedor en Estocolmo en 1943, los dos en la editorial de exilio Bermann-Fischer. Mann terminó el último en California.",
       "por_que_importa": "Es la obra más voluminosa de Mann, escrita a lo largo de dieciséis años, y él la consideraba la mejor. Su presentación del antiguo Oriente y de los orígenes del judaísmo recibió la influencia de Alfred Jeremias y de Dmitri Merezhkovski.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto alemán, primer tomo «Die Geschichten Jaakobs» (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/authors/thomas-mann/books/joseph-und-seine-brueder-band-i-die-geschichten-jaakobs/",
+          "idioma": "de",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto alemán, segundo tomo «Der junge Joseph» (Projekt Gutenberg-DE)",
+          "url": "https://projekt-gutenberg.org/authors/thomas-mann/books/joseph-und-seine-brueder-band-ii-der-junge-joseph/",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "José y sus hermanos",
         "en": "Joseph and His Brothers"
@@ -5323,7 +5460,20 @@
       "soporte": "Novela",
       "resumen": "Novela publicada el 8 de octubre de 1931, hecha de soliloquios de seis personajes, Bernard, Susan, Rhoda, Neville, Jinny y Louis, a quienes sigue desde la infancia hasta la adultez. Entre los soliloquios van nueve interludios breves en tercera persona que describen una escena costera en distintos momentos de un día, de la salida a la puesta del sol. Percival, un séptimo personaje, aparece en los soliloquios pero nunca habla. En su diario, Woolf anotó que los seis no eran «personajes» separados sino facetas de una misma conciencia.",
       "por_que_importa": "Se la considera la culminación de su técnica lírica experimental. En una encuesta de la BBC de 2015 quedó en el puesto 16 entre las mejores novelas británicas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Project Gutenberg Australia)",
+          "url": "https://gutenberg.net.au/ebooks02/0201091h.html",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto inglés (Faded Page)",
+          "url": "https://www.fadedpage.com/showbook.php?pid=20170834",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Las olas",
         "en": "The Waves"
@@ -5393,7 +5543,14 @@
       "soporte": "Obra de teatro",
       "resumen": "Drama en tres actos, con el subtítulo «drama de mujeres en los pueblos de España», sobre Bernarda Alba, que enviuda por segunda vez a los 60 años. Fue la última obra de Lorca, terminada el 19 de junio de 1936, dos meses antes de su asesinato durante la guerra civil. Se estrenó el 8 de marzo de 1945 en el Teatro Avenida de Buenos Aires, gracias a la iniciativa de la actriz Margarita Xirgu, y se publicó ese mismo año.",
       "por_que_importa": "Suele agruparse con Bodas de sangre y Yerma como la «trilogía rural», aunque Lorca no la incluyó en su plan de una «trilogía de la tierra española», que quedó inconclusa.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/La_casa_de_Bernarda_Alba",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "La casa de Bernarda Alba",
         "en": "The House of Bernarda Alba"
@@ -5424,7 +5581,14 @@
       "soporte": "Obra de teatro",
       "resumen": "Tragedia en verso y prosa ambientada en la España rural, que Lorca escribió hacia 1931-1932. Se estrenó en el Teatro Beatriz de Madrid el 8 de marzo de 1933 y ese mismo año en Buenos Aires. Se la vincula con el crimen de Níjar (Almería) del 22 de julio de 1928, que Lorca conoció por la prensa.",
       "por_que_importa": "Suele agruparse con Yerma y La casa de Bernarda Alba como la «trilogía rural» de Lorca, aunque él la proyectó como una «trilogía de la tierra española» que no llegó a completar.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Bodas_de_sangre",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Bodas de sangre",
         "en": "Blood Wedding"
@@ -5454,7 +5618,14 @@
       "soporte": "Obra de teatro",
       "resumen": "Obra de teatro que Lorca llamó «poema trágico», escrita en 1934 y estrenada ese año, el 29 de diciembre, en el Teatro Español de Madrid. Cuenta la historia de una mujer sin hijos en la España rural, cuyo deseo de ser madre se vuelve una obsesión que termina en un crimen. Está dividida en tres actos de dos cuadros cada uno.",
       "por_que_importa": "Forma, con Bodas de sangre y La casa de Bernarda Alba, la «trilogía rural» de Lorca, nombre que le dieron los comentaristas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Yerma",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Yerma",
         "en": "Yerma"
@@ -5574,7 +5745,10 @@
       "escrita": {
         "anio": 1930,
         "anio_hasta": 1933,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Southwold (Suffolk)",
+        "lon": 1.68,
+        "lat": 52.327
       },
       "trata": {
         "regiones": [
@@ -5588,7 +5762,14 @@
       "soporte": "Memorias",
       "resumen": "Primer libro extenso de George Orwell, publicado el 9 de enero de 1933: una memoria en dos partes sobre la pobreza en París y en Londres. La primera cuenta su vida casi en la miseria en el Barrio Latino, adonde se mudó en la primavera de 1928, y el trabajo ocasional en cocinas de restaurantes; la segunda se apoya en las expediciones de vagabundeo por Londres con las que juntó material. Orwell terminó una primera versión en octubre de 1930, con solo el material de París.",
       "por_que_importa": "Apuntaba a lectores de clase media y alta, los más probables de tener buena educación, y expone la pobreza que existía en dos ciudades prósperas. Orwell escribió en la introducción de la edición francesa de 1935 que no había exagerado nada salvo en la medida en que todo escritor exagera al seleccionar.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Project Gutenberg Australia)",
+          "url": "https://gutenberg.net.au/ebooks01/0100171h.html",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Sin blanca en París y Londres",
         "en": "Down and Out in Paris and London"
@@ -5619,7 +5800,14 @@
       "soporte": "Novela",
       "resumen": "Primera novela de Orwell, publicada en 1934 y ambientada en la Birmania británica de los años veinte, en el distrito ficticio de Kyauktada, basado en Katha, donde Orwell sirvió como policía imperial. Su protagonista es John Flory, un hombre solo atrapado en un sistema mayor, en lo que se ha llamado un retrato del lado oscuro del Raj británico. Orwell la redactó en París entre 1928 y 1929, la revisó en 1932 en Southwold y pasó a máquina la versión final en diciembre de 1933. Gollancz la rechazó por temor a una demanda por difamación y la editó primero Harper & Brothers en Estados Unidos, en 1934; Gollancz sacó la edición británica el 24 de junio de 1935.",
       "por_que_importa": "Es una novela del fin del Imperio británico basada en la experiencia del propio Orwell como policía en Birmania.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Project Gutenberg Australia)",
+          "url": "https://gutenberg.net.au/ebooks02/0200051.txt",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Los días de Birmania",
         "en": "Burmese Days"
@@ -5653,7 +5841,14 @@
       "soporte": "Novela",
       "resumen": "Tercera novela de Orwell, ambientada en el Londres de los años treinta. Cuenta la ambición romántica de Gordon Comstock, un poeta que desafía el culto al dinero y al estatus y lleva por ello una vida sombría. Orwell la escribió en 1934 y 1935, mientras vivía en distintos lugares cerca de Hampstead y trabajaba en una librería de viejo, Booklovers' Corner, y Gollancz la publicó el 20 de abril de 1936.",
       "por_que_importa": "Orwell la despreció después: en una carta de 1946 escribió que era uno de los pocos libros de los que se avergonzaba, porque lo escribió «como un ejercicio» y se vio obligado a publicarlo por necesidad de dinero.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Project Gutenberg Australia)",
+          "url": "https://gutenberg.net.au/ebooks02/0200021h.html",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Que no muera la aspidistra",
         "en": "Keep the Aspidistra Flying"
@@ -5729,7 +5924,10 @@
       "escrita": {
         "anio": 1955,
         "anio_hasta": 1961,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Upsala (también Varsovia y Hamburgo)",
+        "lon": 17.6447,
+        "lat": 59.8581
       },
       "trata": {
         "regiones": [
@@ -6024,7 +6222,14 @@
       "soporte": "Novela",
       "resumen": "Novela publicada en fragmentos desde 1924 con el título «Work in Progress» y como libro el 4 de mayo de 1939, cuando se reveló el título definitivo. Joyce la escribió en París durante diecisiete años: el 10 de marzo de 1923 le contó a su mecenas Harriet Shaw Weaver que había escrito dos páginas, las primeras desde el «sí» final de Ulises. Su inglés está modificado con palabras de muchas lenguas, y algunos comentaristas creen que Joyce intentó así reproducir cómo se mezclan los recuerdos, las personas y los lugares en un estado de sueño.",
       "por_que_importa": "La recepción inicial fue en su mayor parte negativa. Tiene fama de ser una de las obras más difíciles de entender de la literatura en inglés.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Faded Page)",
+          "url": "https://www.fadedpage.com/showbook.php?pid=20180126",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Finnegans Wake",
         "en": "Finnegans Wake"
@@ -6148,7 +6353,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1937,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Los Gatos (California)",
+        "lon": -121.9617,
+        "lat": 37.2361
       },
       "trata": {
         "regiones": [

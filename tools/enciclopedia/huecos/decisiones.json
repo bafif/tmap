@@ -3634,6 +3634,11 @@
     "motivo": "Protesta en línea de miles de sitios.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-coord:ataque-a-hbgary": {
+    "decision": "descartado",
+    "motivo": "Ataque informático remoto contra una empresa sin sede única verificable en las fuentes: no tiene un sitio localizable en el mapa.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-coord:bagaudas": {
     "decision": "descartado",
     "motivo": "Son revueltas de siglos en dos provincias.",
@@ -3814,9 +3819,119 @@
     "motivo": "Hecho en una cadena de bloques, sin sitio físico.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:a-guide-to-early-irish-law-kelly": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes (Fergus Kelly vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:a-guide-to-ogam-mcmanus": {
+    "decision": "descartado",
+    "motivo": "obra de 1991 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:a-puerta-cerrada": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:absalon-absalon": {
+    "decision": "descartado",
+    "motivo": "obra de 1935 con derechos vigentes (William Faulkner murió en 1962), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:acta-del-proceso": {
+    "decision": "sin-datos",
+    "motivo": "el texto está en un sitio de estudio jurídico y en un escaneo de la Biblioteca Nacional de Maestros con certificado inválido; no hay copia oficial comprobada en Infoleg",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:actualizacion-politica-y-doctrinaria": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:aislamiento-del-vih": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:al-este-del-eden": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes (John Steinbeck murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:al-otro-lado-del-rio-y-entre-los-arboles": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:an-imperial-possession": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:anarquia-estado-y-utopia": {
+    "decision": "descartado",
+    "motivo": "obra de 1974 con derechos vigentes (Robert Nozick murió en 2002), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:anatolia-mitchell": {
+    "decision": "descartado",
+    "motivo": "obra de 1993 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:anatomia-de-google": {
+    "decision": "sin-datos",
+    "motivo": "la copia oficial de Stanford (infolab.stanford.edu) no respondió desde esta máquina",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ancient-celtic-place-names-sims-williams-2006": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ancient-celts-and-modern-ethnicity": {
+    "decision": "descartado",
+    "motivo": "obra de 1996 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ancient-egypt-anatomy-of-a-civilization": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ancient-egyptian-literature-lichtheim": {
+    "decision": "descartado",
+    "motivo": "obra de 1973 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:anticuerpos-monoclonales-kohler-milstein": {
+    "decision": "sin-datos",
+    "motivo": "artículo de Nature de 1975 sin versión de acceso abierto del editor ni en PubMed Central",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:apocalipsis-del-pseudo-metodio": {
     "decision": "sin-datos",
     "motivo": "solo hay ediciones y traducciones modernas con derechos (Reinink 1993, Garstad 2012); no está en Wikisource ni en ediciones antiguas de Internet Archive",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:apologias-de-cantacuceno": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource e Internet Archive: el texto está en Migne (PG 154) sin enlace estable localizado.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:arbol-de-lenguas-gray-atkinson-2003": {
+    "decision": "sin-datos",
+    "motivo": "artículo sin versión de acceso abierto en Europe PMC ni en el editor; no se halló repositorio institucional comprobado",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:archaeology-and-language": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:archipielago-gulag": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes (Aleksandr Solzhenitsyn murió en 2008), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:arco-de-carpentras": {
@@ -3824,9 +3939,19 @@
     "motivo": "Es un monumento sin texto publicable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:arco-de-triunfo": {
+    "decision": "descartado",
+    "motivo": "obra de 1939 con derechos vigentes (Erich Maria Remarque murió en 1970), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:armes-prydein": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource (inglés, galés) e Internet Archive: no hay edición de dominio público comprobada del poema.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:arnm-modificado": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:arte-breve": {
@@ -3834,9 +3959,64 @@
     "motivo": "La edición latina crítica (CCCM 38) tiene derechos; no hay texto latino abierto en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:arte-precolombino-de-la-argentina": {
+    "decision": "descartado",
+    "motivo": "obra de 1977 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:arthurs-britain-alcock": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:as-we-may-think": {
+    "decision": "sin-datos",
+    "motivo": "el texto está en The Atlantic (theatlantic.com), pero el sitio rechaza el cliente automático (403) y no se pudo comprobar el enlace",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:asambleas-constituyentes-argentinas": {
     "decision": "sin-datos",
     "motivo": "Ravignani murió en 1954 y la compilación (1937-1939) no apareció en Internet Archive ni Wikisource; el sitio El Historiador reproduce solo documentos sueltos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:aspectos-economicos-del-federalismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1946 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:asterix-el-galo": {
+    "decision": "descartado",
+    "motivo": "obra de 1959 con derechos vigentes (Goscinny murió en 1977 y Uderzo en 2020), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:autobiografia-de-malcolm-x": {
+    "decision": "descartado",
+    "motivo": "obra de 1965 con derechos vigentes (Malcolm X murió en 1965), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:bajo-la-media-luna-y-la-cruz": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:baran-comunicaciones-distribuidas": {
+    "decision": "sin-datos",
+    "motivo": "RAND (rand.org) rechaza el cliente automático (403); no se pudo comprobar el enlace",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:becoming-roman-woolf": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:beloved": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes (Toni Morrison murió en 2019), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:beyond-the-rubicon": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:bilingue-de-vercelli": {
@@ -3844,9 +4024,39 @@
     "motivo": "No hay texto abierto en Wikisource, Gutenberg ni Internet Archive; el Lexicon Leponticum (Universidad de Viena) no se pudo comprobar.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:black-legend-revisited": {
+    "decision": "descartado",
+    "motivo": "obra de 1969 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:blood-and-mistletoe": {
+    "decision": "descartado",
+    "motivo": "obra de 2009 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:blood-of-the-isles": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes (Bryan Sykes murió en 2020), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:born-to-die": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:botorrita-iii": {
     "decision": "sin-datos",
     "motivo": "Hallazgo de 1992: las ediciones son modernas y con derechos; no está en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:boudica-hingley-unwin": {
+    "decision": "descartado",
+    "motivo": "obra de 2005 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:breve-historia-de-la-argentina": {
+    "decision": "descartado",
+    "motivo": "obra de 1965 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:bronce-de-alcantara": {
@@ -3869,6 +4079,16 @@
     "motivo": "Hallazgo de 1866 estudiado en obras modernas con derechos; no está en Wikisource ni Internet Archive en edición abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:caesar-in-gaul-and-rome": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:caesars-druids": {
+    "decision": "descartado",
+    "motivo": "obra de 2010 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:calculo-economico-socialismo": {
     "decision": "sin-datos",
     "motivo": "Mises murió en 1973; la traducción abierta está en mises.org, que bloquea la comprobación automática (respuesta 403 / protección anti-bots).",
@@ -3877,6 +4097,16 @@
   "ref:sin-leer:calendario-de-coligny": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource, Internet Archive y Gutenberg sin hallar el texto epigráfico en una edición abierta verificable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:caligula-camus": {
+    "decision": "descartado",
+    "motivo": "obra de 1938 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:camino-de-servidumbre": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Friedrich A. Hayek murió en 1992), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:campana-del-chaco-victorica": {
@@ -3894,14 +4124,59 @@
     "motivo": "Los concilios de 442 a 506 no están en la edición de Maassen (MGH, 1893) que sí hay en Internet Archive; no se halló una edición abierta de Mansi u otra con esos cánones.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:canto-general": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Pablo Neruda murió en 1973), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:capital-e-ideologia": {
+    "decision": "descartado",
+    "motivo": "obra de 2019 con derechos vigentes (Thomas Piketty es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:capitalismo-el-ideal-desconocido": {
+    "decision": "descartado",
+    "motivo": "obra de 1966 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:capitalismo-socialismo-y-democracia": {
     "decision": "descartado",
     "motivo": "Obra de 1942 con derechos vigentes en EE. UU. y sin edición abierta (solo copias de la Biblioteca Digital de la India de estatus dudoso).",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:capitalismo-y-libertad": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes (Milton Friedman murió en 2006), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:carey-irish-national-origin-legend": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:carta-de-alejo-a-roberto-de-flandes": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Fordham Medieval Sourcebook (la dirección del texto da error 500/404) y por web: la traducción de Joranson (1949) solo aparece en un sitio de aficionados y la edición latina de Riant (1879) no se encontró en Internet Archive.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:carta-de-luis-ramirez": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource, Internet Archive y la web sin hallar el texto de la carta en una dirección comprobable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:carta-de-najmanides": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource hebreo e inglés y por web: no se localizó una edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:carta-desde-la-carcel-de-birmingham": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Martin Luther King Jr. murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cartas-de-bertinoro": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource hebreo e inglés y por web: no se localizó una edición abierta.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:cartas-de-laquis": {
@@ -3914,9 +4189,89 @@
     "motivo": "Manuscrito: no hay edición de dominio público comprobada en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:celtic-christianity-bradley": {
+    "decision": "descartado",
+    "motivo": "obra de 1999 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtic-culture-koch": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtic-ethnography-of-posidonius-tierney": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtic-from-the-west": {
+    "decision": "descartado",
+    "motivo": "obra de 2010 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtic-mythology-mac-cana": {
+    "decision": "descartado",
+    "motivo": "obra de 1970 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtoescepticismo-karl": {
+    "decision": "sin-datos",
+    "motivo": "Obra de 2004: capítulo de libro de Routledge (2004); solo copias de autor en ResearchGate, sin edición abierta del editor ni de repositorio.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celtomania-and-celtoscepticism": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celts-and-the-classical-world": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:celula-solar": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:censo-de-buenos-aires-1855": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource ni Internet Archive; el censo impreso no apareció en bibliotecas digitales abiertas.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:censo-de-la-isla-de-man-de-2021": {
+    "decision": "sin-datos",
+    "motivo": "no se halló el informe en gov.im con un enlace comprobado",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:choque-de-civilizaciones": {
+    "decision": "descartado",
+    "motivo": "obra de 1996 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cibernetica-wiener": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes (Norbert Wiener murió en 1964), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cien-anos-de-soledad": {
+    "decision": "descartado",
+    "motivo": "obra de 1967 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:citizenfour": {
+    "decision": "descartado",
+    "motivo": "obra de 2014 con derechos vigentes (Laura Poitras vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ciudad-virtuosa": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Internet Archive y Wikisource: solo la traducción de Walzer (1985, con derechos) subida por un particular; no hay edición de dominio público.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ciudades-provincias-estados": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:codigo-penal-1886": {
@@ -3929,9 +4284,59 @@
     "motivo": "Las traducciones (Nykl 1931, Arberry 1953) tienen derechos o no tienen copia abierta; no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:como-fue-la-inmigracion-irlandesa": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:comparative-mythology-puhvel": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:competencia-y-funcion-empresarial": {
+    "decision": "descartado",
+    "motivo": "obra de 1973 con derechos vigentes (Israel M. Kirzner es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:comprender-los-medios": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Marshall McLuhan murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:conduccion-politica": {
+    "decision": "descartado",
+    "motivo": "obra de 1951 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:conquista-de-jerusalen-imad": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Gallica, Internet Archive y por web: solo hay registros de catálogo de la traducción de Massé (1972, con derechos) y la edición árabe de Landberg (1888) sin copia localizada.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:conquista-y-violencia-masiva-roymans": {
+    "decision": "descartado",
+    "motivo": "obra de 2019 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:constitucion-de-medina": {
     "decision": "sin-datos",
     "motivo": "No existe en Wikisource en español ni en inglés con esa dirección; las traducciones modernas tienen derechos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:contra-sectam-sarracenorum": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource latín (no existe la página) y por web: la edición de Migne (PL 189) no se localizó con enlace estable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:corazon-de-perro": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource ruso (no existe la página) y en lib.ru (la ficha del autor no lo lista); solo aparece en sitios comerciales o de copias.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:correspondencia-peron-cooke": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Perón y Cooke murió en 1974), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:costumbres-de-los-patagones": {
@@ -3954,9 +4359,29 @@
     "motivo": "la traducción de Gibb (1932) sigue con derechos y solo está en préstamo en Internet Archive; la edición árabe de Amedroz (1908) no apareció en Internet Archive",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:cronica-de-una-muerte-anunciada": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:cronica-mozarabe": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource (es/la), Gutenberg ni Internet Archive; la edición de Mommsen (MGH, 1894) no se pudo comprobar.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cronicas-marcianas": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Ray Bradbury murió en 2012), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cruzadas-perspectivas-islamicas": {
+    "decision": "descartado",
+    "motivo": "obra de 1999 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:cruzadas-vistas-por-los-arabes": {
+    "decision": "descartado",
+    "motivo": "obra de 1983 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:cuentas-de-la-graufesenque": {
@@ -3974,9 +4399,44 @@
     "motivo": "Las ediciones críticas de Brill tienen derechos y la impresión de 1509 no la encontré escaneada de forma abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:cypherpunks-libro": {
+    "decision": "descartado",
+    "motivo": "obra de 2012 con derechos vigentes (Julian Assange vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:davies-propuesta-npl": {
+    "decision": "sin-datos",
+    "motivo": "memorándum interno de 1966 no publicado; solo figura en el catálogo del archivo del NPL (Science Museum Group, 403), sin texto en línea",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dcech-corominas": {
+    "decision": "descartado",
+    "motivo": "obra de 1980 con derechos vigentes (Joan Corominas murió en 1997), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:de-administratione-guaranica": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Internet Archive: aparece De vita et moribus (1793), otra obra de Peramás, no el Commentarius.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:de-la-colonia-a-la-revolucion": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:de-la-gramatologia": {
+    "decision": "descartado",
+    "motivo": "obra de 1967 con derechos vigentes (Jacques Derrida murió en 2004), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:de-quimeras-rebeliones-y-utopias": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:de-ratones-y-hombres": {
+    "decision": "descartado",
+    "motivo": "obra de 1937 con derechos vigentes (John Steinbeck murió en 1968), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:debate-de-las-carnes": {
@@ -3989,9 +4449,34 @@
     "motivo": "Solo hay escaneos en Google Books y HathiTrust, cuya vista completa no se pudo comprobar (HathiTrust da 403); no está en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:decayed-gods-belier": {
+    "decision": "descartado",
+    "motivo": "obra de 1991 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:declaracion-de-independencia-economica": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:decreto-de-cos-sobre-delfos": {
     "decision": "sin-datos",
     "motivo": "Inscripción en corpus epigráficos con derechos; no encontré texto abierto en Wikisource, Gutenberg, Internet Archive ni Perseus.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:defensa-de-las-tierras-musulmanas": {
+    "decision": "descartado",
+    "motivo": "obra de 1984 con derechos vigentes (Abdalá Azzam murió en 1989), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:del-amor-y-otros-demonios": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:democracia-el-dios-que-fracaso": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes (Hans-Hermann Hoppe es autor contemporáneo), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:democrates-alter": {
@@ -3999,9 +4484,49 @@
     "motivo": "El texto de Menéndez Pelayo (1892) está en la Biblioteca Virtual Miguel de Cervantes, que responde 403 desde acá y no permite comprobar el enlace.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:demographic-collapse-cook": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:denario-trofeo-galo-de-cesar": {
     "decision": "descartado",
     "motivo": "Es una moneda: no tiene texto que leer, solo su leyenda.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dependencia-y-desarrollo": {
+    "decision": "sin-datos",
+    "motivo": "no está en el repositorio de la CEPAL, CLACSO ni Internet Archive con acceso abierto verificable; no encontré una copia legal en línea",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:der-keltenfurst-von-hochdorf": {
+    "decision": "descartado",
+    "motivo": "obra de 1985 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:derecho-legislacion-y-libertad": {
+    "decision": "descartado",
+    "motivo": "obra de 1973 con derechos vigentes (Friedrich A. Hayek murió en 1992), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:despues-remarque": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:desventuras-en-el-pais-jardin-de-infantes": {
+    "decision": "descartado",
+    "motivo": "obra de 1979 con derechos vigentes (María Elena Walsh murió en 2011), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dialectica-de-la-ilustracion": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Max Horkheimer y Theodor Adorno murió en 1973), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dialogos-con-un-persa": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource griego e inglés y por web: no se localizó una edición abierta (la de Khoury tiene derechos).",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:diario-de-ana-frank": {
@@ -4014,6 +4539,31 @@
     "motivo": "La edición del diario es moderna (1988) y tiene derechos; no se halló copia abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:diccionario-etimologico-del-protocelta": {
+    "decision": "descartado",
+    "motivo": "obra de 2009 con derechos vigentes (Ranko Matasović vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dictionnaire-de-la-langue-gauloise": {
+    "decision": "descartado",
+    "motivo": "obra de 2003 con derechos vigentes (Xavier Delamarre vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:did-they-fall-or-were-they-pushed": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:die-feuerland-indianer": {
+    "decision": "descartado",
+    "motivo": "obra de 1931 con derechos vigentes (Martin Gusinde murió en 1969), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:die-religion-der-kelten": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:diferencia-entre-lo-temporal-y-lo-eterno": {
     "decision": "sin-datos",
     "motivo": "Se encontró el original español de 1672 y 1675, pero no la edición guaraní de las misiones (1705).",
@@ -4022,6 +4572,16 @@
   "ref:sin-leer:diferencias-entre-platon-y-aristoteles": {
     "decision": "sin-datos",
     "motivo": "Está en la Patrologia Graeca 160 (Migne), pero no se halló ese tomo en Internet Archive ni en Wikisource con una dirección comprobable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dinero-credito-bancario-y-ciclos": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes (Jesús Huerta de Soto es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dioses-de-la-hispania-celtica": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:dioses-y-heroes-de-los-celtas": {
@@ -4039,14 +4599,79 @@
     "motivo": "Solo encontré la traducción de Hourani (1961, con derechos) en un sitio de filosofía; no hay edición abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:discurso-del-1-de-mayo-de-1974": {
+    "decision": "descartado",
+    "motivo": "obra de 1974 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:discurso-del-17-de-octubre": {
+    "decision": "descartado",
+    "motivo": "obra de 1945 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:discurso-sobre-el-colonialismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Aimé Césaire murió en 2008), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:discursos-dion-crisostomo": {
     "decision": "sin-datos",
     "motivo": "El Discurso 49 solo lo encontré en la edición Loeb de 1946 (traducción posiblemente con derechos) y en LacusCurtius, que no responde; no está en Wikisource ni Gutenberg.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:doctor-zhivago": {
+    "decision": "descartado",
+    "motivo": "obra de 1945 con derechos vigentes (Borís Pasternak murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:doctrina-jacobi": {
     "decision": "sin-datos",
     "motivo": "no hay edición de dominio público en Wikisource ni Internet Archive; la edición crítica de Dagron y Déroche (1991) tiene derechos",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:doctrina-peronista": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dogma-central": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:dying-for-the-gods": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:early-celtic-art-in-the-british-isles": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:early-celtic-art-jacobsthal": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:early-christian-ireland-charles-edwards": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:economia-de-la-competencia-imperfecta": {
+    "decision": "descartado",
+    "motivo": "obra de 1933 con derechos vigentes (Joan Robinson murió en 1983), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:economia-de-la-sociedad-colonial": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:economics-samuelson": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes (Paul A. Samuelson murió en 2009), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:ecuacion-de-schrodinger": {
@@ -4059,6 +4684,46 @@
     "motivo": "Hallazgo de 1999: las ediciones son modernas y con derechos; no está en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:egypt-of-the-pharaohs": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:eichmann-en-jerusalen": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Hannah Arendt murió en 1975), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-aleph": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes (Jorge Luis Borges murió en 1986), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-amor-en-los-tiempos-del-colera": {
+    "decision": "descartado",
+    "motivo": "obra de 1985 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-calculo-del-consenso": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes (James M. Buchanan murió en 2013), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-camino-del-libertario": {
+    "decision": "descartado",
+    "motivo": "obra de 2022 con derechos vigentes (Javier Milei vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-capital-en-el-siglo-xxi": {
+    "decision": "descartado",
+    "motivo": "obra de 2013 con derechos vigentes (Thomas Piketty es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-castillo-blanco": {
+    "decision": "descartado",
+    "motivo": "obra de 1985 con derechos vigentes (Orhan Pamuk es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:el-comercio-del-plata": {
     "decision": "sin-datos",
     "motivo": "En Internet Archive solo están números de 1859-1860 del diario de Buenos Aires, no la serie de Florencio Varela (Montevideo, 1845-1851).",
@@ -4069,9 +4734,74 @@
     "motivo": "Schmitt murió en 1985: la obra tiene derechos vigentes y no hay edición abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:el-coronel-no-tiene-quien-le-escriba": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-desarrollo-del-subdesarrollo": {
+    "decision": "descartado",
+    "motivo": "obra de 1966 con derechos vigentes (Andre Gunder Frank murió en 2005), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:el-diario-de-gabriel-quiroga": {
     "decision": "sin-datos",
     "motivo": "Gálvez murió en 1962: no hay edición abierta; no está en Wikisource, Internet Archive ni sitios oficiales.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-enigma-de-los-celtas-del-glauberg": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-existencialismo-es-un-humanismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1945 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-extranjero": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-fin-de-la-historia": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes (Francis Fukuyama es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-fin-de-la-historia-y-el-ultimo-hombre": {
+    "decision": "descartado",
+    "motivo": "obra de 1992 con derechos vigentes (Francis Fukuyama es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-general-en-su-laberinto": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-hobbit": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-hombre-que-esta-solo-y-espera": {
+    "decision": "descartado",
+    "motivo": "obra de 1931 con derechos vigentes (Raúl Scalabrini Ortiz murió en 1959), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-hombre-rebelde": {
+    "decision": "descartado",
+    "motivo": "obra de 1951 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-hombre-unidimensional": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Herbert Marcuse murió en 1979), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-huevo-del-cuco": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes (Clifford Stoll vive), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:el-iniciador": {
@@ -4079,9 +4809,49 @@
     "motivo": "Se buscó en Internet Archive y Wikisource sin hallar la colección; la Biblioteca Virtual Miguel de Cervantes responde 403 desde acá.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:el-juego-de-los-abalorios": {
+    "decision": "descartado",
+    "motivo": "obra de 1931 con derechos vigentes (Hermann Hesse murió en 1962), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-laberinto-de-la-soledad": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Octavio Paz murió en 1998), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-lenguaje-de-programacion-c": {
+    "decision": "descartado",
+    "motivo": "obra de 1978 con derechos vigentes (Brian Kernighan y Dennis Ritchie murió en 2011), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-libro-de-la-risa-y-el-olvido": {
+    "decision": "descartado",
+    "motivo": "obra de 1978 con derechos vigentes (Milan Kundera murió en 2023), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-libro-de-los-gatos-habilidosos-del-viejo-possum": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:el-maestro-y-margarita": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource ruso y Internet Archive sin hallar el texto completo verificable (la edición de la Wikisource rusa no se encontró con la dirección probada).",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-manantial": {
+    "decision": "descartado",
+    "motivo": "obra de 1943 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-mito-de-sisifo": {
+    "decision": "descartado",
+    "motivo": "obra de 1942 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-museo-de-la-inocencia": {
+    "decision": "descartado",
+    "motivo": "obra de 2008 con derechos vigentes (Orhan Pamuk es autor contemporáneo), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:el-nacional-montevideo": {
@@ -4089,9 +4859,64 @@
     "motivo": "Se buscó en Internet Archive y Wikisource sin hallar la colección del periódico.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:el-obelisco-negro": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Erich Maria Remarque murió en 1970), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:el-obrero": {
     "decision": "sin-datos",
     "motivo": "Periódico de 1890: no se halló una colección digital abierta; no está en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-orden-conservador": {
+    "decision": "descartado",
+    "motivo": "obra de 1977 con derechos vigentes (Natalio R. Botana vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-otono-del-patriarca": {
+    "decision": "descartado",
+    "motivo": "obra de 1975 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-problema-del-costo-social": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes (Ronald Coase murió en 2013), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-revisionismo-historico-argentino": {
+    "decision": "descartado",
+    "motivo": "obra de 1970 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-segundo-sexo": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes (Simone de Beauvoir murió en 1986), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-senor-de-los-anillos": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes (J. R. R. Tolkien murió en 1973), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-senor-presidente": {
+    "decision": "descartado",
+    "motivo": "obra de 1946 con derechos vigentes (Miguel Ángel Asturias murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-ser-y-la-nada": {
+    "decision": "descartado",
+    "motivo": "obra de 1943 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-transistor": {
+    "decision": "sin-datos",
+    "motivo": "artículo de Physical Review de 1948 sin acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-tunel": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes (Ernesto Sabato murió en 2011), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:el-ultimo-confin-de-la-tierra": {
@@ -4099,9 +4924,44 @@
     "motivo": "E. L. Bridges murió en 1949 y la obra (1948) tiene derechos vigentes en la mayoría de los países; en Internet Archive solo hay préstamo.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:el-viejo-y-el-mar": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-vino-del-estio": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes (Ray Bradbury murió en 2012), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:el-voto-o-la-bala": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Malcolm X murió en 1965), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:ensayo-historico-sobre-la-revolucion-de-mayo": {
     "decision": "sin-datos",
     "motivo": "Solo hay escaneo en Google Books (edición de 1920) y fichas de HathiTrust que no se pudieron comprobar; no está en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ensayo-sobre-la-ceguera": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes (José Saramago murió en 2010), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:epistolas-de-la-sabiduria": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource e Internet Archive: el canon druso no tiene edición abierta en línea.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:epopeya-de-tukulti-ninurta": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en ORACC, CDLI y Wikisource: ORACC (RIAo) trae las inscripciones del rey, no la epopeya; la traducción de referencia (Foster, Machinist) tiene derechos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:eros-y-civilizacion": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes (Herbert Marcuse murió en 1979), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:escolios-de-berna-a-lucano": {
@@ -4112,6 +4972,26 @@
   "ref:sin-leer:espejo-mayor": {
     "decision": "sin-datos",
     "motivo": "No apareció el Speculum quadruplex de Douai (1624) en Internet Archive, Wikisource ni Gutenberg; solo estudios sobre la obra.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:esperando-a-godot": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes (Samuel Beckett murió en 1989), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:estabilizando-una-economia-inestable": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes (Hyman Minsky murió en 1996), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:estado-y-cuestion-indigena": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:estatuto-del-peon": {
+    "decision": "sin-datos",
+    "motivo": "Infoleg y argentina.gob.ar tienen solo la ficha del decreto-ley 28.169/44 sin el texto; el texto está únicamente en blogs y sitios de partidos; no está en Wikisource",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:estatutos-de-iona": {
@@ -4129,6 +5009,16 @@
     "motivo": "Corpus epigráfico en publicaciones académicas; no encontré copia abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:estimating-aboriginal-dobyns": {
+    "decision": "descartado",
+    "motivo": "obra de 1966 con derechos vigentes (Henry F. Dobyns murió en 1999), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:estructuras-sintacticas": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes (Noam Chomsky es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:estudio-sobre-las-casas-de-inquilinato": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource, Internet Archive y la web: solo hay citas en artículos; no se halló una copia del texto.",
@@ -4144,9 +5034,54 @@
     "motivo": "El texto está en la Patrología Latina (vol. 178), cuya copia en Gallica responde 403; no está en Wikisource ni en la edición de Cousin de Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:etica-y-ritual-sopena": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:europa-vasconica-europa-semitica": {
+    "decision": "descartado",
+    "motivo": "obra de 2003 con derechos vigentes (Theo Vennemann vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:existencia-del-neutron": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:extraordinary-voyage-of-pytheas": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:facing-the-ocean": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fahrenheit-451": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Ray Bradbury murió en 2012), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fallo-clarin": {
+    "decision": "sin-datos",
+    "motivo": "no se encontró el PDF del fallo en el sitio de la Corte ni en el CIJ con un enlace comprobado; solo copias adjuntas a notas periodísticas",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:fallo-regina-contra-price": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive de lectura libre; solo reseñas y artículos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fatuas-de-ibn-taymiyya": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource e Internet Archive: no hay edición ni traducción abierta localizada.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:favaloro-1968": {
+    "decision": "sin-datos",
+    "motivo": "artículo del Annals of Thoracic Surgery de 1968 sin acceso abierto; no está en PubMed Central ni en repositorios institucionales",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:fe-sublime": {
@@ -4154,9 +5089,49 @@
     "motivo": "No encontré copia abierta (la edición de Weil de 1852 no está en Internet Archive ni en Sefaria).",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:ficciones": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Jorge Luis Borges murió en 1986), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:filogenia-con-antepasados-chang-2015": {
+    "decision": "sin-datos",
+    "motivo": "artículo sin versión de acceso abierto en Europe PMC ni en el editor; no se halló repositorio institucional comprobado",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:final-de-partida": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes (Samuel Beckett murió en 1989), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fision-meitner-frisch": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fonetica-historica-vasca": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes (Koldo Mitxelena murió en 1987), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:formacion-economica-del-brasil": {
+    "decision": "descartado",
+    "motivo": "obra de 1959 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:from-pictland-to-alba-woolf": {
+    "decision": "descartado",
+    "motivo": "obra de 2007 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:fuente-de-la-vida": {
     "decision": "sin-datos",
     "motivo": "La edición latina de Baeumker (1892) no está escaneada en Internet Archive ni en Wikisource que yo haya encontrado.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:fundamentos-del-analisis-economico-samuelson": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes (Paul A. Samuelson murió en 2009), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:fusayolas-galas": {
@@ -4164,9 +5139,34 @@
     "motivo": "Las ediciones (RIG) tienen derechos y no hay texto abierto en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:gaelic-sources-of-macpherson": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:genocidio-americano": {
+    "decision": "descartado",
+    "motivo": "obra de 1979 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:genoma-humano-celera": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:genomica-de-la-edad-del-bronce-allentoft-2015": {
+    "decision": "sin-datos",
+    "motivo": "artículo sin versión de acceso abierto en Europe PMC ni en el editor; no se halló repositorio institucional comprobado",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:gloria-de-los-confesores": {
     "decision": "sin-datos",
     "motivo": "Se buscó la edición de Krusch (MGH, 1885) en Internet Archive y dMGH sin hallar una dirección comprobable.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:gods-of-the-celts-and-the-indo-europeans": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:gran-comentario-del-alma": {
@@ -4174,9 +5174,44 @@
     "motivo": "La edición latina de Crawford (1953) tiene derechos; no hay copia abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:grandes-conquistas-arabes": {
+    "decision": "descartado",
+    "motivo": "obra de 2007 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:guerra-de-dios": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:guia-del-derecho-irlandes-temprano": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes (Fergus Kelly vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:hacia-alla-y-para-aca": {
     "decision": "sin-datos",
     "motivo": "La traducción española (1942-1944) tiene derechos y el original alemán no apareció; en Internet Archive solo hay las «Memorias» de 1900, otra obra.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hacker-hoaxer": {
+    "decision": "descartado",
+    "motivo": "obra de 2014 con derechos vigentes (Gabriella Coleman vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hahn-strassmann-1939": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hay-que-pasar-el-invierno": {
+    "decision": "sin-datos",
+    "motivo": "no encontré el discurso de Alsogaray de 1959 en repositorios oficiales, Trapalanda ni Internet Archive; sin copia legal en línea",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hegemonia-y-estrategia-socialista": {
+    "decision": "descartado",
+    "motivo": "obra de 1985 con derechos vigentes (Ernesto Laclau murió en 2014), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:heptateuchon": {
@@ -4184,9 +5219,39 @@
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:heuneburg-fernandez-gotz-krausse-2013": {
+    "decision": "sin-datos",
+    "motivo": "Obra de 2013: artículo de Antiquity en Cambridge Core; no se pudo confirmar acceso abierto.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hijos-de-la-medianoche": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes (Salman Rushdie es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hipotesis-hibrida-heggarty-2023": {
+    "decision": "sin-datos",
+    "motivo": "artículo sin versión de acceso abierto en Europe PMC ni en el editor; no se halló repositorio institucional comprobado",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-critobulo": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource e Internet Archive: la traducción de Riggs (1954) tiene derechos y la edición griega de Müller (1870) no se localizó.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-damasco": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y por web: la edición de Ibn Asakir son 80 tomos modernos sin copia abierta.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:historia-de-galicia-murguia": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive, ni en la Biblioteca Virtual Miguel de Cervantes; la edición de 1865 puede estar en Galiciana o la BNE, que no pude consultar.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-la-filosofia-occidental": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:historia-de-la-leyenda-negra-carbia": {
@@ -4194,14 +5259,139 @@
     "motivo": "Solo hay una subida de un particular en Internet Archive, sin datos de edición; no se acepta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:historia-de-la-locura-en-la-epoca-clasica": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes (Michel Foucault murió en 1984), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-la-nacion-argentina-academia": {
+    "decision": "descartado",
+    "motivo": "obra de 1936 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-la-sexualidad": {
+    "decision": "descartado",
+    "motivo": "obra de 1976 con derechos vigentes (Michel Foucault murió en 1984), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-las-cruzadas-runciman": {
+    "decision": "descartado",
+    "motivo": "obra de 1951 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-de-los-ferrocarriles-argentinos": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes (Raúl Scalabrini Ortiz murió en 1959), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-del-pueblo-argentino": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-monetaria-de-estados-unidos": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:historia-y-conciencia-de-clase": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima. Solo hay copias de la traducción moderna en sitios como Marxists.org, con derechos vigentes.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:hitos": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Sayyid Qutb murió en 1966), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:identidad-palestina": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:identity-and-power-fernandez-gotz": {
+    "decision": "sin-datos",
+    "motivo": "Obra de 2014: libro de Amsterdam University Press; no se halló edición abierta oficial (OAPEN, AUP), solo copias de autor en Academia.edu y ResearchGate.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ideologia-tripartita-dumezil": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:iglesia-irlandesa-sharpe-1984": {
+    "decision": "descartado",
+    "motivo": "obra de 1984 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ihya-ulum-al-din": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource árabe e inglés e Internet Archive: no se localizó una edición abierta completa.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:imperio-hardt-negri": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes (Antonio Negri murió en 2023), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:imperiofilia": {
+    "decision": "descartado",
+    "motivo": "obra de 2019 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:imperiofobia": {
+    "decision": "descartado",
+    "motivo": "obra de 2016 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:in-search-of-the-indo-europeans": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:in-search-of-the-irish-dreamtime": {
+    "decision": "descartado",
+    "motivo": "obra de 2016 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:incoherencia-de-la-incoherencia": {
     "decision": "sin-datos",
     "motivo": "La traducción de Van den Bergh (1954) tiene derechos; no hay copia abierta en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:incoherencia-de-los-filosofos": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y por web: la traducción de Kamali (1963) tiene derechos y no hay una edición de dominio público en línea.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:incompletitud-godel": {
+    "decision": "sin-datos",
+    "motivo": "el artículo de 1931 (Monatshefte für Mathematik und Physik) no tiene copia abierta del editor; no está en Wikisource ni Internet Archive de forma verificable",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:indios-ejercito-y-frontera": {
+    "decision": "descartado",
+    "motivo": "obra de 1982 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:indo-european-poetry-and-myth": {
+    "decision": "descartado",
+    "motivo": "obra de 2007 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:indoeuropeos-y-no-indoeuropeos": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes (Francisco Villar Liébana vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:informaciones-de-toledo": {
     "decision": "sin-datos",
     "motivo": "La edición de Levillier (1940) tiene derechos vigentes; se buscó en Internet Archive y Wikisource sin hallar otra edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:informe-de-lydney-park": {
+    "decision": "descartado",
+    "motivo": "obra de 1932 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:inscripcion-de-alisiia": {
@@ -4217,6 +5407,11 @@
   "ref:sin-leer:inscripcion-de-siloe": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar una edición abierta verificable del texto.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:inscripcion-de-tarnovo-de-ivan-asen-ii": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource búlgaro (no existe la página) y por web: el texto solo aparece citado en medios de noticias y sitios de parroquias, ninguno una edición de lectura.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:inscripcion-del-arco-de-claudio": {
@@ -4269,6 +5464,11 @@
     "motivo": "Es un conjunto de inscripciones sueltas (las inscripciones a Teutates); se buscó en Wikisource e Internet Archive sin hallar una edición abierta verificable (los corpus epigráficos modernos tienen derechos y Hesperia no responde).",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:inscripciones-de-ancira-de-julio-severo": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Perseus y por web: el texto griego está en OGIS 543 / IGR III 174 (Mitchell y French, nº 74), sin edición abierta localizada en línea.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:inscripciones-de-anjtifi": {
     "decision": "sin-datos",
     "motivo": "La edición de Vandier (1950) tiene derechos y no hay edición abierta en Wikisource, Gutenberg ni Internet Archive.",
@@ -4289,6 +5489,26 @@
     "motivo": "Ensayo de 1926 de un autor muerto en 1963 (aún con derechos): no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:irish-kings-and-high-kings-byrne": {
+    "decision": "descartado",
+    "motivo": "obra de 1973 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:iron-age-cemeteries-in-east-yorkshire": {
+    "decision": "descartado",
+    "motivo": "obra de 1991 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:iron-age-communities-in-britain": {
+    "decision": "descartado",
+    "motivo": "obra de 1974 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:jerusalen-la-biografia": {
+    "decision": "descartado",
+    "motivo": "obra de 2011 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:juan-facundo-quiroga-pena": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive; no se halló una edición abierta.",
@@ -4299,9 +5519,39 @@
     "motivo": "Ibarguren murió en 1956: sus derechos siguen vigentes en la Argentina y no hay edición abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:juan-manuel-de-rosas-lynch": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:juicio-a-los-mazorqueros-1853": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar los expedientes publicados.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:just-for-fun": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes (Linus Torvalds vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:keltische-religion": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:keynes-y-los-clasicos": {
+    "decision": "descartado",
+    "motivo": "obra de 1937 con derechos vigentes (John Hicks murió en 1989), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:kingdom-of-salt": {
+    "decision": "descartado",
+    "motivo": "obra de 2009 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:kingship-and-sacrifice-kelly": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:kitab-al-tasrif": {
@@ -4309,9 +5559,169 @@
     "motivo": "No apareció en Internet Archive, Wikisource ni Gutenberg la edición de Channing (1778) ni otra de dominio público.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:kudurru-de-sitti-marduk": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en ORACC, CDLI y Wikisource: no se encontró una edición abierta con traducción de este kudurru.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-argentina-y-el-imperialismo-britanico": {
+    "decision": "descartado",
+    "motivo": "obra de 1934 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-biblioteca-de-babel": {
+    "decision": "descartado",
+    "motivo": "obra de 1941 con derechos vigentes (Jorge Luis Borges murió en 1986), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-broma": {
+    "decision": "descartado",
+    "motivo": "obra de 1965 con derechos vigentes (Milan Kundera murió en 2023), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-caida": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-caida-de-rosas": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-ciudad-y-los-perros": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes (Mario Vargas Llosa murió en 2025), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-civilizacion-de-la-diosa": {
+    "decision": "descartado",
+    "motivo": "obra de 1991 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-comunidad-organizada": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-condicion-humana-arendt": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes (Hannah Arendt murió en 1975), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-conquista-del-desierto-walther": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-defensa-nabokov": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-doble-helice-watson": {
+    "decision": "descartado",
+    "motivo": "obra de 1968 con derechos vigentes (James Watson vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-economia-argentina-ferrer": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-estructura-de-las-revoluciones-cientificas": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes (Thomas Kuhn murió en 1996), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-etica-del-hacker": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes (Pekka Himanen vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-fatal-arrogancia": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes (Friedrich A. Hayek murió en 1992), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-formacion-de-la-conciencia-nacional": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes (Juan José Hernández Arregui murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-formacion-del-estado-argentino": {
+    "decision": "descartado",
+    "motivo": "obra de 1982 con derechos vigentes (Oscar Oszlak vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-gran-transformacion": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Karl Polanyi murió en 1964), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-guerra-de-guerrillas": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes (Ernesto Che Guevara murió en 1967), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-guerra-del-paraguay-pomer": {
+    "decision": "descartado",
+    "motivo": "obra de 1968 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-guerra-del-paraguay-y-las-montoneras": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-guerra-no-tiene-rostro-de-mujer": {
+    "decision": "descartado",
+    "motivo": "obra de 1983 con derechos vigentes (Svetlana Alexiévich es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-historia-falsificada": {
+    "decision": "descartado",
+    "motivo": "obra de 1939 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:la-hora-de-la-espada": {
     "decision": "sin-datos",
     "motivo": "Solo se hallaron transcripciones en blogs y un PDF de un portal educativo sin comprobar; no está en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-insoportable-levedad-del-ser": {
+    "decision": "descartado",
+    "motivo": "obra de 1984 con derechos vigentes (Milan Kundera murió en 2023), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-invencion-de-morel": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes (Adolfo Bioy Casares murió en 1999), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-isla": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes (Aldous Huxley murió en 1963), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-langue-gauloise-lambert": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes (Pierre-Yves Lambert vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-leyenda-negra-garcia-carcel": {
+    "decision": "descartado",
+    "motivo": "obra de 1992 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-logica-de-la-investigacion-cientifica": {
+    "decision": "descartado",
+    "motivo": "obra de 1934 con derechos vigentes (Karl Popper murió en 1994), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-mistica-de-la-feminidad": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Betty Friedan murió en 2006), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:la-moda-1837": {
@@ -4324,9 +5734,44 @@
     "motivo": "Diario de 1870 en adelante: no se encontró una hemeroteca abierta con ediciones del siglo XIX; no está en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:la-nausea": {
+    "decision": "descartado",
+    "motivo": "obra de 1932 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-noche-del-16-de-enero": {
+    "decision": "descartado",
+    "motivo": "obra de 1933 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-noche-wiesel": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Elie Wiesel murió en 2016), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-pasion-segun-trelew": {
+    "decision": "descartado",
+    "motivo": "obra de 1973 con derechos vigentes (Tomás Eloy Martínez murió en 2010), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-patagonia-rebelde": {
+    "decision": "descartado",
+    "motivo": "obra de 1972 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:la-paz-de-la-fe": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive; el texto latino abierto está en el Cusanus-Portal (no respondió desde acá) y la traducción de Hopkins (enlace de la Universidad de Massachusetts Boston) da 404.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-perla-steinbeck": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (John Steinbeck murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-peste": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes (Albert Camus murió en 1960), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:la-protesta": {
@@ -4344,6 +5789,16 @@
     "motivo": "No hay edición abierta comprobada: solo copias subidas por particulares a Internet Archive; no está en Wikisource.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:la-razon-populista": {
+    "decision": "descartado",
+    "motivo": "obra de 2005 con derechos vigentes (Ernesto Laclau murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-rebelion-de-atlas": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:la-rebelion-de-las-masas": {
     "decision": "sin-datos",
     "motivo": "Ortega murió en 1955; se buscó en Wikisource e Internet Archive y solo hay subidas modernas de particulares, que no valen.",
@@ -4359,6 +5814,26 @@
     "motivo": "Se buscó en Internet Archive y Wikisource sin hallar el texto.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:la-responsabilidad-social-de-la-empresa": {
+    "decision": "descartado",
+    "motivo": "obra de 1970 con derechos vigentes (Milton Friedman murió en 2006), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-sociedad-abierta": {
+    "decision": "descartado",
+    "motivo": "obra de 1945 con derechos vigentes (Karl Popper murió en 1994), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-sociedad-opulenta": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes (John Kenneth Galbraith murió en 2006), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-tecnica-ellul": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes (Jacques Ellul murió en 1994), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:la-tene-vouga-1923": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Gutenberg ni Internet Archive; solo reseñas y fichas de catálogo.",
@@ -4369,6 +5844,31 @@
     "motivo": "No se halló una colección digital abierta de los números de la década de 1890; no está en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:la-vegetariana": {
+    "decision": "descartado",
+    "motivo": "obra de 2007 con derechos vigentes (Han Kang es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-verdad-desde-la-tierra-de-israel": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource hebreo e inglés y por web: no se localizó una edición abierta del ensayo de Ahad Haam.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-vida-esta-en-otra-parte": {
+    "decision": "descartado",
+    "motivo": "obra de 1969 con derechos vigentes (Milan Kundera murió en 2023), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-ville-celtique-fichtl": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:la-virtud-del-egoismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:laminas-de-pyrgi": {
     "decision": "sin-datos",
     "motivo": "Inscripción publicada en corpus modernos con derechos; no está en Wikisource, Gutenberg ni Internet Archive de lectura libre.",
@@ -4377,6 +5877,81 @@
   "ref:sin-leer:landslov-de-magnus": {
     "decision": "sin-datos",
     "motivo": "Está en el tomo 2 de Norges gamle Love (Keyser y Munch, 1848), pero en Internet Archive solo apareció el tomo 1 (comprobado: no la contiene); tampoco está en Wikisource.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:language-and-history-in-early-britain": {
+    "decision": "descartado",
+    "motivo": "obra de 1953 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:language-in-pictland-forsyth": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-doctrinas-populistas": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-ideas-politicas-en-argentina": {
+    "decision": "descartado",
+    "motivo": "obra de 1946 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-indias-no-eran-colonias": {
+    "decision": "descartado",
+    "motivo": "obra de 1951 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-manos-sucias": {
+    "decision": "descartado",
+    "motivo": "obra de 1948 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-moscas-sartre": {
+    "decision": "descartado",
+    "motivo": "obra de 1943 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-nieves-del-kilimanjaro": {
+    "decision": "descartado",
+    "motivo": "obra de 1936 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-palabras-sartre": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Jean-Paul Sartre murió en 1980), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-palabras-y-las-cosas": {
+    "decision": "descartado",
+    "motivo": "obra de 1966 con derechos vigentes (Michel Foucault murió en 1984), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-puertas-de-la-percepcion": {
+    "decision": "descartado",
+    "motivo": "obra de 1953 con derechos vigentes (Aldous Huxley murió en 1963), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-uvas-de-la-ira": {
+    "decision": "descartado",
+    "motivo": "obra de 1939 con derechos vigentes (John Steinbeck murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:las-veinte-verdades-peronistas": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:le-dossier-vercingetorix": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:le-tresor-de-vix": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:lebor-gabala-erenn": {
@@ -4392,6 +5967,31 @@
   "ref:sin-leer:les-celtes-hubert": {
     "decision": "sin-datos",
     "motivo": "Solo hay copia en préstamo en Internet Archive; la página de Hubert en Wikisource francés lista la obra sin texto.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-celtes-kruta": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-druides-brunaux": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-druides-le-roux": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-galates-en-grece-nachtergael": {
+    "decision": "descartado",
+    "motivo": "obra de 1977 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:les-religions-gauloises": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:ley-1628-premios-militares": {
@@ -4414,9 +6014,24 @@
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar el texto de la ley en una dirección comprobable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:ley-de-moore": {
+    "decision": "sin-datos",
+    "motivo": "el PDF en el sitio de Intel redirige a la portada y no se pudo comprobar un enlace directo",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:ley-de-servicio-militar-1901": {
     "decision": "sin-datos",
     "motivo": "La ley es la 4031; la ficha oficial no trae el texto y no se encontró en Wikisource, Internet Archive ni en la Cámara de Diputados.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ley-del-gaelico-2005": {
+    "decision": "sin-datos",
+    "motivo": "legislation.gov.uk no devuelve 200 al cliente automático y no hay copia en Wikisource ni Commons verificada",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ley-del-retorno": {
+    "decision": "sin-datos",
+    "motivo": "el sitio de la Knéset no devuelve 200 al cliente automático (código 247) y no se halló copia oficial alternativa comprobada",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:ley-saenz-pena": {
@@ -4439,6 +6054,11 @@
     "motivo": "Texto etrusco publicado solo en ediciones académicas con derechos; no encontré copia abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:libertad-de-elegir": {
+    "decision": "descartado",
+    "motivo": "obra de 1980 con derechos vigentes (Milton Friedman murió en 2006), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:libro-de-durrow": {
     "decision": "sin-datos",
     "motivo": "Manuscrito: solo hay facsímiles modernos con derechos; el texto no está en Wikisource ni Internet Archive en edición de dominio público.",
@@ -4454,9 +6074,129 @@
     "motivo": "No está en Wikisource (fr/en), Gutenberg ni Internet Archive en acceso libre; la edición de Menut y Denomy (1968) tiene derechos y no hay edición antigua abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:libro-del-yihad": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y por web: no hay edición ni traducción abierta en línea de la obra de al-Sulami.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:life-and-death-of-a-druid-prince": {
+    "decision": "descartado",
+    "motivo": "obra de 1989 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:lindow-man-body-in-the-bog": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:llyn-cerrig-bach-fox": {
+    "decision": "descartado",
+    "motivo": "obra de 1946 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:lolita": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Vladimir Nabokov murió en 1977), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-anos-ernaux": {
+    "decision": "descartado",
+    "motivo": "obra de 2008 con derechos vigentes (Annie Ernaux es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-celtas-hispania-y-europa": {
+    "decision": "descartado",
+    "motivo": "obra de 1993 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-celtiberos-burillo": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-celtiberos-lorrio": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-condenados-de-la-tierra": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes (Frantz Fanon murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:los-cuatro-libros": {
     "decision": "sin-datos",
     "motivo": "son cuatro obras de colecciones hadices chiíes, sin edición de dominio público localizada ni traducción libre; no está en Wikisource ni Internet Archive",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-estragos-de-la-conquista": {
+    "decision": "descartado",
+    "motivo": "obra de 2005 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-fundamentos-de-la-libertad": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes (Friedrich A. Hayek murió en 1992), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-inkas-del-kollasuyu": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-origenes-de-bretana-fleuriot": {
+    "decision": "descartado",
+    "motivo": "obra de 1980 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-origenes-del-totalitarismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1951 con derechos vigentes (Hannah Arendt murió en 1975), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-que-vivimos": {
+    "decision": "descartado",
+    "motivo": "obra de 1934 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-selknam-chapman": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:los-versos-satanicos": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes (Salman Rushdie es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ludovisi-barbarians-marvin-2002": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:luz-de-agosto": {
+    "decision": "descartado",
+    "motivo": "obra de 1931 con derechos vigentes (William Faulkner murió en 1962), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:maiden-castle-wheeler": {
+    "decision": "descartado",
+    "motivo": "obra de 1943 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:maldita-guerra": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:manabe-wetherald-1967": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:manifiesto-de-las-343": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes (Simone de Beauvoir murió en 1986), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:manifiesto-de-saenz-pena-1912": {
@@ -4467,6 +6207,11 @@
   "ref:sin-leer:mano-de-irulegi": {
     "decision": "sin-datos",
     "motivo": "Inscripción publicada en estudios recientes con derechos; no encontré copia abierta en los sitios consultados.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:manual-de-zonceras-argentinas": {
+    "decision": "descartado",
+    "motivo": "obra de 1968 con derechos vigentes (Arturo Jauretche murió en 1974), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:manuscrito-de-birmingham": {
@@ -4484,9 +6229,54 @@
     "motivo": "Es un mosaico con rótulos griegos; no se halló una edición abierta de sus inscripciones.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:mcculloch-pitts": {
+    "decision": "sin-datos",
+    "motivo": "solo hay copias en páginas de cursos universitarios sin licencia clara; el editor (Springer) no lo ofrece abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:me-llamo-rojo": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes (Orhan Pamuk es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:mecanica-matricial": {
     "decision": "sin-datos",
     "motivo": "Artículo de Heisenberg (m. 1976) con derechos, en Springer de pago; sin copia abierta en los sitios consultados.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:mecanismo-de-higgs": {
+    "decision": "sin-datos",
+    "motivo": "artículo de Physical Review Letters de 1964 con acceso de pago en el editor; sin versión abierta",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:memorandum-frisch-peierls": {
+    "decision": "sin-datos",
+    "motivo": "no hay transcripción abierta en Wikisource ni en sitios oficiales; el original está en los Archivos Nacionales del Reino Unido (AB 1/210) sin texto en línea",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:memoria-autografa-saavedra": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y por web: solo extractos en sitios divulgativos; no hay copia de la Biblioteca de Mayo.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:memoria-de-mis-putas-tristes": {
+    "decision": "descartado",
+    "motivo": "obra de 2004 con derechos vigentes (Gabriel García Márquez murió en 2014), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:memorias-curiosas-beruti": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y por web: solo catálogos y citas sueltas; no hay copia de la edición de la Biblioteca de Mayo ni de la de Emecé.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:memorias-de-expropiacion": {
+    "decision": "descartado",
+    "motivo": "obra de 2005 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:mensaje-a-la-cienciologia": {
+    "decision": "sin-datos",
+    "motivo": "es un video de 2008 de Anonymous; no se encontró una transcripción en Wikisource ni en sitio de archivo confiable",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:mi-lucha": {
@@ -4499,6 +6289,36 @@
     "motivo": "No hay edición abierta comprobada: no está en Wikisource ni en Internet Archive en una edición legítima.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:mientras-agonizo": {
+    "decision": "descartado",
+    "motivo": "Obra con derechos vigentes (autor muerto después de 1955) y sin edición abierta o de dominio público en línea; no está en Gutenberg, Faded Page ni Internet Archive en una edición legítima. Es de 1930 pero no hay edición abierta localizada.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:migraciones-masivas-furholt-2018": {
+    "decision": "sin-datos",
+    "motivo": "Obra de 2018: artículo del European Journal of Archaeology en Cambridge Core; no se pudo confirmar que tenga licencia abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:mil-grullas": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes (Yasunari Kawabata murió en 1972), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:militia-dei": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource latín y por web: la bula está en Migne (PL 180) sin enlace estable localizado.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:modelo-argentino": {
+    "decision": "descartado",
+    "motivo": "obra de 1974 con derechos vigentes (Juan Domingo Perón murió en 1974), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:modest-proposal-hanke": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:monedas-de-los-reyes-britanos": {
     "decision": "sin-datos",
     "motivo": "Son piezas numismáticas: no hay un texto que leer; buscado en Wikisource e Internet Archive sin un corpus abierto comprobable.",
@@ -4509,14 +6329,99 @@
     "motivo": "Son leyendas monetales sin edición textual de dominio público en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:monumenta-linguarum-hispanicarum": {
+    "decision": "descartado",
+    "motivo": "obra de 1975 con derechos vigentes (Jürgen Untermann murió en 2013), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:nacionalismo-y-liberalismo-economicos": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:narciso-y-goldmundo": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Gutenberg (con Hesse solo salen Demian, Siddhartha, Steppenwolf, Peter Camenzind y Unterm Rad) y en Wikisource alemán; no hay copia abierta localizada.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:native-population-denevan": {
+    "decision": "descartado",
+    "motivo": "obra de 1976 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:navan-fort-lynn": {
+    "decision": "descartado",
+    "motivo": "obra de 2003 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:neocolonialismo-nkrumah": {
+    "decision": "descartado",
+    "motivo": "obra de 1965 con derechos vigentes (Kwame Nkrumah murió en 1972), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:newgrange-okelly-1982": {
+    "decision": "descartado",
+    "motivo": "obra de 1982 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:nieve-pamuk": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes (Orhan Pamuk es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:nota-paraguaya-de-1864": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource, Internet Archive y la web: solo hay fragmentos citados; el original está en el Archivo Nacional de Asunción, sin transcripción abierta comprobada.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:nuestra-lucha-con-los-judios": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes (Sayyid Qutb murió en 1966), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:nuestros-paisanos-los-indios": {
+    "decision": "descartado",
+    "motivo": "obra de 1992 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:numantia-schulten": {
     "decision": "sin-datos",
     "motivo": "La edición de 1914 solo se halló en HathiTrust con acceso limitado a EE. UU.; no está en Internet Archive ni Wikisource.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:obelisco-negro-de-salmanasar-iii": {
+    "decision": "sin-datos",
+    "motivo": "El texto existe en ORACC (RIAo, https://oracc.museum.upenn.edu/riao/Q004619, con traducción inglesa), pero esa dirección no responde desde esta máquina (conexión rechazada o error de certificado), así que no se pudo comprobar; conviene reintentar desde otra red.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ojos-azules": {
+    "decision": "descartado",
+    "motivo": "obra de 1970 con derechos vigentes (Toni Morrison murió en 2019), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:onomastica-indigena-de-aquitania": {
+    "decision": "sin-datos",
+    "motivo": "no se halló edición abierta (repositorio de la Universidad del País Vasco) comprobada",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:operacion-masacre": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes (Rodolfo Walsh murió en 1977), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:oppida-collis-1984": {
+    "decision": "descartado",
+    "motivo": "obra de 1984 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:orden-y-virtud": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:ordenanzas-de-alfaro": {
@@ -4534,9 +6439,84 @@
     "motivo": "La edición crítica vaticana tiene derechos; no encontré texto abierto en Wikisource, Gutenberg ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:orientalismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1978 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:origen-del-caldero-de-gundestrup": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:origen-del-problema-de-los-refugiados": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:os-celtas-en-galicia": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:our-ancestors-the-gauls-dietler": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:oveja-dolly": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:oxford-history-of-ancient-egypt": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pabellon-del-cancer": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Aleksandr Solzhenitsyn murió en 2008), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pacto-de-los-zoelas": {
     "decision": "sin-datos",
     "motivo": "Está en el CIL II 2633 (Hübner), sin copia abierta comprobada en Wikisource ni Internet Archive.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pacto-de-olivos": {
+    "decision": "sin-datos",
+    "motivo": "el Núcleo de Coincidencias Básicas no está en Wikisource ni en sitios oficiales comprobados; solo en blogs y libros",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pacto-roca-runciman": {
+    "decision": "sin-datos",
+    "motivo": "no hay texto en Wikisource, Gutenberg ni Internet Archive; solo blogs y sitios de particulares que lo transcriben, ningún sitio oficial",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pagan-celtic-britain": {
+    "decision": "descartado",
+    "motivo": "obra de 1967 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pagan-celtic-ireland-raftery": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pagan-past-and-christian-present": {
+    "decision": "descartado",
+    "motivo": "obra de 1990 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pagan-religions-hutton": {
+    "decision": "descartado",
+    "motivo": "obra de 1991 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pais-de-nieve": {
+    "decision": "descartado",
+    "motivo": "obra de 1935 con derechos vigentes (Yasunari Kawabata murió en 1972), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:paleta-de-narmer": {
@@ -4544,9 +6524,69 @@
     "motivo": "Es un objeto con imágenes y pocos signos; la página de Digital Egypt (UCL) responde 403 desde acá y no hay texto abierto comprobable en otro sitio.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:palido-fuego": {
+    "decision": "descartado",
+    "motivo": "obra de 1960 con derechos vigentes (Vladimir Nabokov murió en 1977), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pantegni": {
     "decision": "sin-datos",
     "motivo": "No apareció la edición de Constantino (Basilea, 1536) ni otra en Internet Archive, Wikisource ni Gutenberg.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:para-el-nuevo-intelectual": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes (Ayn Rand murió en 1982), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:paris-era-una-fiesta": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pcr-mullis": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:peasant-revolts-thompson": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pedagogia-del-oprimido": {
+    "decision": "descartado",
+    "motivo": "obra de 1968 con derechos vigentes (Paulo Freire murió en 1997), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pedro-paramo": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes (Juan Rulfo murió en 1986), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:penicilina-oxford": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:pensar-rapido-pensar-despacio": {
+    "decision": "descartado",
+    "motivo": "obra de 2011 con derechos vigentes (Daniel Kahneman murió en 2024), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:perceptron-de-rosenblatt": {
+    "decision": "sin-datos",
+    "motivo": "artículo de Psychological Review de 1958 sin versión abierta del editor",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:perceptrons-libro": {
+    "decision": "descartado",
+    "motivo": "obra de 1969 con derechos vigentes (Marvin Minsky murió en 2016), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:petroleo-y-politica": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes (Arturo Frondizi murió en 1995), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:piedra-de-artognou": {
@@ -4559,6 +6599,11 @@
     "motivo": "Inscripción de piedra: no está en Wikisource ni en Internet Archive, y el corpus de inscripciones insulares no tiene edición abierta comprobada.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:piel-negra-mascaras-blancas": {
+    "decision": "descartado",
+    "motivo": "obra de 1952 con derechos vigentes (Frantz Fanon murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pilar-de-eliseg": {
     "decision": "sin-datos",
     "motivo": "Inscripción perdida casi por completo: no hay texto en Wikisource ni Internet Archive.",
@@ -4569,14 +6614,74 @@
     "motivo": "Inscripción publicada solo en estudios académicos; no encontré copia abierta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:poblacion-aborigen-cook-borah": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:poblacion-indigena-rosenblat": {
+    "decision": "descartado",
+    "motivo": "obra de 1954 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:polemica-ferre-roxas": {
     "decision": "sin-datos",
     "motivo": "No está en Wikisource, Internet Archive ni en repositorios argentinos que respondan; la edición de 1830 no apareció.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:politica-britanica-en-el-rio-de-la-plata": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:politica-nacional-y-revisionismo-historico": {
+    "decision": "descartado",
+    "motivo": "obra de 1959 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:por-que-no-soy-cristiano": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Gutenberg (sin resultados) y Wikisource en inglés (no existe la página); Russell murió en 1970 y no se encontró edición legítima abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:por-quien-doblan-las-campanas": {
+    "decision": "descartado",
+    "motivo": "obra de 1939 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:posidonius-fragments-edelstein-kidd": {
+    "decision": "descartado",
+    "motivo": "obra de 1972 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:pragmatica-de-expulsion-1767": {
     "decision": "sin-datos",
     "motivo": "Se buscó en Wikisource (solo hay las pragmáticas de 1776 y 1830) e Internet Archive sin hallar el texto de 1767.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:precios-y-produccion": {
+    "decision": "descartado",
+    "motivo": "obra de 1931 con derechos vigentes (Friedrich A. Hayek murió en 1992), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:primavera-silenciosa": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes (Rachel Carson murió en 1964), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:primer-laser": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:primera-cruzada-y-la-idea": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:primeras-conquistas-islamicas": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:principio-de-incertidumbre": {
@@ -4594,6 +6699,61 @@
     "motivo": "El texto está en las Obras completas de J. V. González, sin copia abierta comprobada en Wikisource, Internet Archive ni repositorios universitarios.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:pytheas-on-the-ocean-roseman": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:que-es-esto": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Ezequiel Martínez Estrada murió en 1964), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:que-es-la-vida-schrodinger": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (Erwin Schrödinger murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:radiografia-de-la-pampa": {
+    "decision": "descartado",
+    "motivo": "obra de 1933 con derechos vigentes (Ezequiel Martínez Estrada murió en 1964), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:rambaud-deformacion-historica-cesar": {
+    "decision": "descartado",
+    "motivo": "obra de 1953 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ratisch-und-etruskisch-rix-1998": {
+    "decision": "descartado",
+    "motivo": "obra de 1998 con derechos vigentes (Helmut Rix murió en 2004), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:rayuela": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Julio Cortázar murió en 1984), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:readme-txt": {
+    "decision": "descartado",
+    "motivo": "obra de 2022 con derechos vigentes (Chelsea Manning vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:real-cedula-del-consulado-1794": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y la Biblioteca Virtual Miguel de Cervantes: el texto solo está en el libro del AGN (1936) y no hay copia abierta; el artículo de la Revista del Notariado no lo reproduce.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:real-orden-de-la-junta-central-1809": {
+    "decision": "sin-datos",
+    "motivo": "Buscado por web, Wikisource y la Gaceta de Madrid: solo hay citas parciales en estudios; no se localizó el texto completo.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:reconstructing-poseidonios-nash": {
+    "decision": "descartado",
+    "motivo": "obra de 1976 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:regimen-del-solitario": {
     "decision": "sin-datos",
     "motivo": "La traducción de Asín Palacios (1946) y el original árabe no tienen copia abierta en Wikisource, Gutenberg ni Internet Archive.",
@@ -4609,9 +6769,49 @@
     "motivo": "Solo hay subidas de particulares en Internet Archive sin datos de edición; no se halló la edición impresa antigua (Colección de libros y documentos referentes a la historia del Perú).",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:rethinking-the-oppida-woolf-1993": {
+    "decision": "descartado",
+    "motivo": "obra de 1993 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:retropropagacion": {
+    "decision": "sin-datos",
+    "motivo": "artículo de Nature de 1986 sin versión de acceso abierto del editor; el sitio de Hinton (Toronto) no respondió",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:revolucion-y-contrarrevolucion": {
+    "decision": "descartado",
+    "motivo": "obra de 1957 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:revolucion-y-guerra": {
+    "decision": "descartado",
+    "motivo": "obra de 1972 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:ritual-and-rubbish-hill": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:rosas-el-pequeno": {
+    "decision": "descartado",
+    "motivo": "obra de 1943 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:sacerdotes-de-ancira": {
     "decision": "sin-datos",
     "motivo": "La lista (IGR III) no se halló en Wikisource ni en Internet Archive en edición comprobada.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:satantango": {
+    "decision": "descartado",
+    "motivo": "obra de 1985 con derechos vigentes (László Krasznahorkai es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:semanario-de-agricultura": {
+    "decision": "sin-datos",
+    "motivo": "La reimpresión facsimilar (1928-1937) está en HathiTrust (https://catalog.hathitrust.org/Record/008919443, vista completa), pero esa dirección responde 403 a clientes automáticos y no se pudo comprobar.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:senchus-fer-n-alban": {
@@ -4619,9 +6819,19 @@
     "motivo": "La edición moderna (Bannerman, 1974) tiene derechos; no se halló una edición de dominio público en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:sentencia-contra-tupac-amaru": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y el Congreso del Perú: la sentencia solo aparece en blogs y en tomos de la colección documental sin dirección verificable.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:ser-y-tiempo": {
     "decision": "descartado",
     "motivo": "Heidegger murió en 1976: la obra tiene derechos vigentes y no hay edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sermon-contra-los-herejes": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource (bg, ru, en) y por web: solo hay extractos en sitios de parroquias y ediciones modernas (Puech y Vaillant, 1945); la edición de Sampimon y van Halsema (Ohio State) no estaba en línea.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:sermon-de-navidad-de-sofronio": {
@@ -4634,14 +6844,64 @@
     "motivo": "La edición crítica (Morin, CCSL) tiene derechos; se buscó en Internet Archive sin hallar la de Migne u otra antigua verificable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:si-esto-es-un-hombre": {
+    "decision": "descartado",
+    "motivo": "obra de 1947 con derechos vigentes (Primo Levi murió en 1987), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sin-lugar-donde-esconderse": {
+    "decision": "descartado",
+    "motivo": "obra de 2014 con derechos vigentes (Glenn Greenwald vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sistema-unix": {
+    "decision": "sin-datos",
+    "motivo": "las copias de Bell Labs/Nokia dan 403 y la de Berkeley tiene certificado inválido; el editor (ACM) da 403 al cliente automático",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:sobre-el-oceano-piteas": {
     "decision": "sin-datos",
     "motivo": "Obra perdida de la que quedan fragmentos citados por otros autores; no se halló una colección de dominio público comprobada en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:sobre-heroes-y-tumbas": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes (Ernesto Sabato murió en 2011), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sobre-la-guerra-contra-el-turco": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource alemán e inglés (no existe la página) y por web: no se localizó una edición abierta legítima.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:sobre-la-luz": {
     "decision": "sin-datos",
     "motivo": "El texto de Baur (1912) solo lo encontré en un sitio cuyo dominio fue secuestrado por spam, que no se enlaza; no está en Wikisource ni en Internet Archive de lectura libre.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sobre-la-teoria-economica-del-socialismo": {
+    "decision": "descartado",
+    "motivo": "obra de 1936 con derechos vigentes (Oskar Lange murió en 1965), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sociedad-de-la-mente": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes (Marvin Minsky murió en 2016), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:spanish-struggle-for-justice": {
+    "decision": "descartado",
+    "motivo": "obra de 1949 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:studies-in-irish-literature-and-history-carney": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:sub-roman-britain-dumville": {
+    "decision": "descartado",
+    "motivo": "obra de 1977 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:suma-de-logica": {
@@ -4657,6 +6917,11 @@
   "ref:sin-leer:tablas-toledanas": {
     "decision": "sin-datos",
     "motivo": "No hay edición antigua abierta en Wikisource, Gutenberg ni Internet Archive; la edición de Toomer (1968) tiene derechos.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tablillas-de-nuzi": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, ORACC y CDLI: las tablillas están dispersas en cientos de textos (HSS, JEN) sin una edición única de lectura abierta; no hay enlace a un texto concreto.",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:tablillas-de-springmount": {
@@ -4679,6 +6944,21 @@
     "motivo": "no apareció una edición árabe de dominio público en Internet Archive ni traducción libre",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:tales-of-the-barbarians": {
+    "decision": "descartado",
+    "motivo": "obra de 2011 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tarij-al-amir-fakhr-al-din": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource árabe e Internet Archive: no se localizó una edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tartessian-koch-2009": {
+    "decision": "descartado",
+    "motivo": "obra de 2009 con derechos vigentes (John T. Koch vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:tartessos-schulten": {
     "decision": "sin-datos",
     "motivo": "Schulten murió en 1960: la edición alemana de 1922 no se halló abierta; en Internet Archive solo está la española de 1945, con derechos.",
@@ -4689,14 +6969,234 @@
     "motivo": "La edición está en el Recueil des inscriptions gauloises (RIG, con derechos); no se halló texto abierto en Wikisource ni Internet Archive.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:tener-y-no-tener": {
+    "decision": "descartado",
+    "motivo": "obra de 1935 con derechos vigentes (Ernest Hemingway murió en 1961), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tengo-un-sueno": {
+    "decision": "descartado",
+    "motivo": "obra de 1963 con derechos vigentes (Martin Luther King Jr. murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teologia-de-la-liberacion": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes (Gustavo Gutiérrez murió en 2024), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teoria-de-juegos": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (John von Neumann murió en 1957), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teoria-de-juegos-y-comportamiento-economico": {
+    "decision": "descartado",
+    "motivo": "obra de 1944 con derechos vigentes (John von Neumann murió en 1957), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teoria-de-la-accion-comunicativa": {
+    "decision": "descartado",
+    "motivo": "obra de 1981 con derechos vigentes (Jürgen Habermas es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teoria-de-la-justicia": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes (John Rawls murió en 2002), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:teoria-de-las-perspectivas": {
+    "decision": "descartado",
+    "motivo": "obra de 1979 con derechos vigentes (Daniel Kahneman murió en 2024), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:teoria-del-desenvolvimiento-economico": {
     "decision": "sin-datos",
     "motivo": "Se buscó el original alemán de 1912 y la traducción de Opie en Internet Archive sin hallar una copia abierta verificable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:tesoro-de-duchcov-kruta": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-age-of-conquest-davies": {
+    "decision": "descartado",
+    "motivo": "obra de 1987 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-amesbury-archer-fitzpatrick-2011": {
+    "decision": "descartado",
+    "motivo": "obra de 2011 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-ancient-celts-cunliffe": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-atlantic-celts": {
+    "decision": "descartado",
+    "motivo": "obra de 1999 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-beginnings-of-rome-cornell": {
+    "decision": "descartado",
+    "motivo": "obra de 1995 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-celtic-heroic-age": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-celts-construction-of-a-myth": {
+    "decision": "descartado",
+    "motivo": "obra de 1992 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-celts-in-the-iberian-peninsula": {
+    "decision": "sin-datos",
+    "motivo": "Obra de 2005: e-Keltoi vol. 6 es de acceso abierto (www4.uwm.edu/celtic/ekeltoi y Minds@UW), pero esos sitios no respondieron desde esta máquina, así que no se pudo comprobar ningún enlace.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-celts-origins-myths-inventions": {
+    "decision": "descartado",
+    "motivo": "obra de 2003 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-celts-powell": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-church-in-early-irish-society-hughes": {
+    "decision": "descartado",
+    "motivo": "obra de 1966 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-demographics-of-paraguay-reber": {
+    "decision": "descartado",
+    "motivo": "obra de 1988 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-desert-and-the-dream": {
+    "decision": "descartado",
+    "motivo": "obra de 1975 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:the-druids-kendrick": {
     "decision": "descartado",
     "motivo": "Kendrick murió en 1979: la obra tiene derechos vigentes y no hay edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-druids-piggott": {
+    "decision": "descartado",
+    "motivo": "obra de 1968 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-festival-of-lughnasa": {
+    "decision": "descartado",
+    "motivo": "obra de 1962 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-galatian-language-freeman": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes (Philip Freeman vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-gods-of-the-celts": {
+    "decision": "descartado",
+    "motivo": "obra de 1986 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-horse-the-wheel-and-language": {
+    "decision": "descartado",
+    "motivo": "obra de 2007 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-invention-of-tradition": {
+    "decision": "descartado",
+    "motivo": "obra de 1983 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-nature-of-arthur-padel": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-oldest-irish-tradition": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-origins-of-the-british": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes (Stephen Oppenheimer vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-paraguayan-rosetta-stone": {
+    "decision": "descartado",
+    "motivo": "obra de 1999 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-paraguayan-war-bethell": {
+    "decision": "descartado",
+    "motivo": "obra de 1996 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-paraguayan-war-whigham": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-passage-of-arms": {
+    "decision": "descartado",
+    "motivo": "obra de 1990 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-philosopher-and-the-druids": {
+    "decision": "descartado",
+    "motivo": "obra de 2006 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-quest-for-celtic-christianity": {
+    "decision": "descartado",
+    "motivo": "obra de 2000 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-revolt-of-vindex-brunt": {
+    "decision": "descartado",
+    "motivo": "obra de 1959 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:the-stations-of-the-sun": {
+    "decision": "descartado",
+    "motivo": "obra de 1996 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:todo-se-desmorona": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes (Chinua Achebe murió en 2013), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tortilla-flat": {
+    "decision": "descartado",
+    "motivo": "obra de 1935 con derechos vigentes (John Steinbeck murió en 1968), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:towers-in-the-north-armit": {
+    "decision": "descartado",
+    "motivo": "obra de 2003 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tradicion-politica-espanola-e-ideologia-revolucionaria-de-mayo": {
+    "decision": "descartado",
+    "motivo": "obra de 1961 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:trata-de-negros-studer": {
+    "decision": "descartado",
+    "motivo": "obra de 1958 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:tratado-de-alianza-1851": {
@@ -4719,14 +7219,84 @@
     "motivo": "Se buscó en Wikisource e Internet Archive sin hallar el texto del tratado en una dirección comprobable.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:tree-of-hate": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tres-camaradas": {
+    "decision": "descartado",
+    "motivo": "obra de 1936 con derechos vigentes (Erich Maria Remarque murió en 1970), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:triadas": {
     "decision": "sin-datos",
     "motivo": "No hay texto abierto en Wikisource, Gutenberg ni Internet Archive; las ediciones modernas (Meyendorff, Chrestou) tienen derechos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:trilogia-de-el-cairo": {
+    "decision": "descartado",
+    "motivo": "obra de 1956 con derechos vigentes (Naguib Mahfuz murió en 2006), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tristes-tropicos": {
+    "decision": "descartado",
+    "motivo": "obra de 1955 con derechos vigentes (Claude Lévi-Strauss murió en 2009), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tumba-de-ciumesti-rusu-1969": {
+    "decision": "descartado",
+    "motivo": "obra de 1969 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:tynged-yr-iaith": {
+    "decision": "sin-datos",
+    "motivo": "no está en Wikisource galesa ni en Internet Archive; el texto lo publicó la BBC y ediciones con derechos (Saunders Lewis murió en 1985)",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:ultimatum-saraiva-1864": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource, Internet Archive y la web: solo hay resúmenes y fragmentos; el texto está en «Documentos diplomáticos. Misión Saraiva» (Montevideo, 1864), sin copia digital abierta que se haya podido comprobar.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:un-dia-en-la-vida-de-ivan-denisovich": {
+    "decision": "descartado",
+    "motivo": "obra de 1959 con derechos vigentes (Aleksandr Solzhenitsyn murió en 2008), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:un-largo-camino-hacia-la-libertad": {
+    "decision": "descartado",
+    "motivo": "obra de 1994 con derechos vigentes (Nelson Mandela murió en 2013), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:un-mundo-feliz": {
+    "decision": "descartado",
+    "motivo": "obra de 1932 con derechos vigentes (Aldous Huxley murió en 1963), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:una-nacion-para-el-desierto-argentino": {
+    "decision": "descartado",
+    "motivo": "obra de 1982 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:unsere-altesten-flussnamen": {
+    "decision": "descartado",
+    "motivo": "obra de 1964 con derechos vigentes (Hans Krahe murió en 1965), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:unwan-al-majd": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource árabe e Internet Archive: no se localizó una edición abierta.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vacuna-de-salk": {
+    "decision": "sin-datos",
+    "motivo": "artículo de revista cuyo editor no ofrece acceso abierto ni hay versión en PubMed Central, arXiv o repositorio institucional que se haya podido comprobar",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:valor-y-capital-hicks": {
+    "decision": "descartado",
+    "motivo": "obra de 1939 con derechos vigentes (John Hicks murió en 1989), sin edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:viaje-al-pais-de-los-araucanos": {
@@ -4737,6 +7307,11 @@
   "ref:sin-leer:vida-de-brigida-cogitoso": {
     "decision": "sin-datos",
     "motivo": "Buscado en Wikisource e Internet Archive: no hay edición de dominio público comprobada de Cogitoso (está en las Acta Sanctorum y en Colgan).",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vida-de-don-juan-manuel-de-rosas": {
+    "decision": "descartado",
+    "motivo": "obra de 1940 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
     "fecha": "2026-11-12"
   },
   "ref:sin-leer:vida-de-eutimio": {
@@ -4754,14 +7329,99 @@
     "motivo": "Buscado en Wikisource, Gutenberg e Internet Archive: no hay edición de dominio público comprobada.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:vida-politica-de-rosas": {
+    "decision": "descartado",
+    "motivo": "obra de 1941 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vida-y-memorias-de-mariano-moreno": {
+    "decision": "sin-datos",
+    "motivo": "Buscado en Wikisource, Internet Archive y Google Books: la edición de Londres de 1812 no se localizó; solo hay una de 1968 de un revendedor y la de 1918 con vista parcial.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vigilancia-permanente": {
+    "decision": "descartado",
+    "motivo": "obra de 2019 con derechos vigentes (Edward Snowden vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vigilar-y-castigar": {
+    "decision": "descartado",
+    "motivo": "obra de 1975 con derechos vigentes (Michel Foucault murió en 1984), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:vino-italiano-en-la-galia-tchernia": {
+    "decision": "descartado",
+    "motivo": "obra de 1983 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:voces-de-chernobil": {
+    "decision": "descartado",
+    "motivo": "obra de 1997 con derechos vigentes (Svetlana Alexiévich es autor contemporáneo), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:war-women-and-druids": {
+    "decision": "descartado",
+    "motivo": "obra de 2002 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:webster-at-the-end-of-the-world": {
+    "decision": "descartado",
+    "motivo": "obra de 1999 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:webster-creolizing": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:were-the-scots-irish-campbell": {
+    "decision": "descartado",
+    "motivo": "obra de 2001 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:white-legend-revisited": {
+    "decision": "descartado",
+    "motivo": "obra de 1971 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:who-we-are-reich": {
+    "decision": "descartado",
+    "motivo": "obra de 2018 con derechos vigentes (David Reich vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:wikileaks-la-guerra-de-assange": {
+    "decision": "descartado",
+    "motivo": "obra de 2011 con derechos vigentes (David Leigh y Luke Harding vive), sin edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:william-stukeley-piggott": {
+    "decision": "descartado",
+    "motivo": "obra de 1950 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-leer:worlds-of-arthur-halsall": {
+    "decision": "descartado",
+    "motivo": "obra de 2013 con derechos vigentes, y en una revisión rápida no apareció una edición de acceso abierto",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-leer:yamana-english-dictionary": {
     "decision": "sin-datos",
     "motivo": "Solo hay una subida de un particular en Internet Archive (edición de 1933 sin datos claros de procedencia); no se acepta.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-leer:zweites-buch": {
+    "decision": "sin-datos",
+    "motivo": "En Internet Archive solo hay escaneos de las ediciones modernas anotadas de 1961 subidos por particulares y no hay edición abierta de la 1.ª; no está en Gutenberg ni en Wikisource.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:acallam-na-senorach": {
     "decision": "sin-datos",
     "motivo": "Obra anónima sin lugar de escritura conocido.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:alquimia-de-la-felicidad": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes dicen solo que se escribió poco antes de 1105; no dicen dónde.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:audacht-morainn": {
@@ -4777,6 +7437,16 @@
   "ref:sin-lugar:beowulf": {
     "decision": "sin-datos",
     "motivo": "Poema anónimo sin lugar de escritura conocido.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:bitcoin-whitepaper": {
+    "decision": "sin-datos",
+    "motivo": "Satoshi Nakamoto es anónimo y el documento se difundió por una lista de correo: ninguna fuente dice dónde se escribió.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:brihadaranyaka-upanishad": {
+    "decision": "sin-datos",
+    "motivo": "Texto de tradición oral védica; el diálogo transcurre en la corte de Janaka, en Mithila, pero ninguna fuente dice dónde se compuso.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:cantar-de-roldan": {
@@ -4799,6 +7469,16 @@
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:conspiracion-como-gobernanza": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes no dicen dónde estaba Assange cuando lo escribió en 2006; se difundió por Internet.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:contrato-social-de-debian": {
+    "decision": "sin-datos",
+    "motivo": "Se redactó por la lista de correo de los desarrolladores de Debian, a distancia; las fuentes no dan un lugar.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:corpus-dionysiacum": {
     "decision": "sin-datos",
     "motivo": "Autor anónimo; Siria es solo una conjetura sin ciudad.",
@@ -4812,6 +7492,16 @@
   "ref:sin-lugar:cronica-de-fredegario": {
     "decision": "sin-datos",
     "motivo": "Autor anónimo; Borgoña es solo una conjetura sin ciudad.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:cronica-p": {
+    "decision": "sin-datos",
+    "motivo": "Es una copia tardía de un escriba babilonio y Wikipedia dice que su procedencia es desconocida.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:cuestion-nacional-y-lucha-de-clases": {
+    "decision": "sin-datos",
+    "motivo": "Borojov alternó entre Poltava, Ekaterinoslav y otras ciudades en 1905 y las fuentes no dicen dónde la escribió.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:culhwch-y-olwen": {
@@ -4834,6 +7524,11 @@
     "motivo": "No se sabe dónde escribió Gildas; se discuten Gales, el norte de Britania y la Bretaña continental.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:de-recuperatione-terrae-sanctae": {
+    "decision": "sin-datos",
+    "motivo": "En 1306 Dubois servía a Eduardo I en Guyena pero era de Coutances; las fuentes no dicen dónde la escribió.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:de-vulgari-eloquentia": {
     "decision": "sin-datos",
     "motivo": "Escrita en el exilio sin lugar conocido.",
@@ -4847,6 +7542,11 @@
   "ref:sin-lugar:descripcion-de-gales": {
     "decision": "sin-datos",
     "motivo": "Escrita en 1193 o 1194 por Giraldo sin que las fuentes consultadas den el lugar exacto.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:despues-remarque": {
+    "decision": "sin-datos",
+    "motivo": "Remarque la terminó en 1931 entre Berlín y Ronco; las fuentes consultadas no precisan el lugar.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:doctrina-jacobi": {
@@ -4864,6 +7564,11 @@
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:eros-y-civilizacion": {
+    "decision": "sin-datos",
+    "motivo": "Marcuse la escribió entre 1951 y 1955 pasando por Columbia, Harvard y Brandeis; las fuentes no precisan el lugar.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:expugnacion-de-irlanda": {
     "decision": "sin-datos",
     "motivo": "Giraldo la escribió entre Gales e Inglaterra sin que las fuentes den una ciudad precisa.",
@@ -4877,6 +7582,16 @@
   "ref:sin-lugar:hechos-de-los-francos": {
     "decision": "sin-datos",
     "motivo": "Autor anónimo sin lugar de escritura conocido.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:himno": {
+    "decision": "sin-datos",
+    "motivo": "Wikipedia solo dice que Rand la escribió en el verano de 1937; no dice en qué ciudad.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:historia-de-raimundo-de-aguilers": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes no dicen dónde la escribió Raimundo después de 1099.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:historia-de-sebeos": {
@@ -4909,9 +7624,24 @@
     "motivo": "Son unas 280 inscripciones dispersas por varios países.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:kudurru-de-sitti-marduk": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes no dicen dónde se grabó ni de dónde procede el mojón.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:la-perla-steinbeck": {
+    "decision": "sin-datos",
+    "motivo": "Steinbeck la empezó como guion y la amplió a novela entre 1944 y 1947 mientras viajaba a México; las fuentes no precisan dónde.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:landnamabok": {
     "decision": "sin-datos",
     "motivo": "Versiones de varios autores y lugares.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:las-nieves-del-kilimanjaro": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes consultadas no dicen dónde escribió Hemingway el cuento en 1936.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:lex-mahumet": {
@@ -4927,6 +7657,11 @@
   "ref:sin-lugar:libro-de-taliesin": {
     "decision": "sin-datos",
     "motivo": "Manuscrito galés del siglo XIV sin lugar de copia identificado.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:libro-de-viajes-de-benjamin": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes no dicen dónde redactó Benjamín su itinerario.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:lista-de-reyes-pictos": {
@@ -4949,9 +7684,19 @@
     "motivo": "Voltaire la escribió en varios lugares.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:manifiesto-guerrilla-del-acceso-abierto": {
+    "decision": "sin-datos",
+    "motivo": "El texto lo firma en «Eremo, Italia», un lugar que no se puede identificar con las fuentes consultadas (ni Wikipedia ni el propio texto lo precisan).",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:manuscrito-de-birmingham": {
     "decision": "sin-datos",
     "motivo": "Copista anónimo; el origen del manuscrito es desconocido.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:mensaje-a-la-cienciologia": {
+    "decision": "sin-datos",
+    "motivo": "Video de un colectivo anónimo, sin lugar de producción conocido.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:monarquia": {
@@ -4974,9 +7719,29 @@
     "motivo": "Poemas de varios años en lugares distintos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:ojos-azules": {
+    "decision": "sin-datos",
+    "motivo": "Las fuentes consultadas no dicen en qué ciudad Morrison escribió la novela (1962-1969).",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:pacto-de-omar": {
     "decision": "sin-datos",
     "motivo": "Texto atribuido de origen incierto.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:papiro-de-gurob": {
+    "decision": "sin-datos",
+    "motivo": "El papiro es un relato de la campaña de Ptolomeo III, sin lugar de redacción en las fuentes; solo se sabe que se halló en Gurob.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:parzival": {
+    "decision": "sin-datos",
+    "motivo": "Wolfram sirvió en varias cortes (Turingia, Franconia) y ninguna fuente dice dónde compuso el Parzival.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:pensar-rapido-pensar-despacio": {
+    "decision": "sin-datos",
+    "motivo": "Kahneman la escribió a lo largo de años entre varias universidades y las fuentes no precisan el lugar.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:perceval-o-el-cuento-del-grial": {
@@ -4989,6 +7754,11 @@
     "motivo": "Se duda si lo escribió en al-Ándalus o el Magreb.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:rfc-2460": {
+    "decision": "sin-datos",
+    "motivo": "Es un documento colectivo del grupo de trabajo de la IETF, redactado por autores de distintas empresas, sin un lugar de escritura único en ninguna fuente.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:saga-de-egil": {
     "decision": "sin-datos",
     "motivo": "Autor y lugar discutidos.",
@@ -4999,9 +7769,34 @@
     "motivo": "Saga anónima sin lugar de escritura conocido.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:saturnales-de-macrobio": {
+    "decision": "sin-datos",
+    "motivo": "No se sabe dónde vivía Macrobio ni dónde escribió el diálogo.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:senchas-mar": {
     "decision": "sin-datos",
     "motivo": "Colección jurídica anónima sin lugar de escritura conocido.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:sermon-contra-los-herejes": {
+    "decision": "sin-datos",
+    "motivo": "Wikipedia dice que no hay datos de dónde estaba Cosmas en Bulgaria: se sospecha de Preslav, Ohrid o Veliko Tarnovo.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:shatapatha-brahmana": {
+    "decision": "sin-datos",
+    "motivo": "Texto de tradición oral védica sin lugar de composición preciso; las fuentes no lo fijan.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:tarij-al-amir-fakhr-al-din": {
+    "decision": "sin-datos",
+    "motivo": "No hay artículo ni fuente que diga dónde escribió al-Safadi la crónica.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:unwan-al-majd": {
+    "decision": "sin-datos",
+    "motivo": "Ibn Bishr vivió en Yalayil, Diriyah y otras ciudades de Néyed y las fuentes no dicen dónde terminó la crónica.",
     "fecha": "2026-11-12"
   },
   "ref:sin-lugar:ut-queant-laxis": {
@@ -5014,9 +7809,19 @@
     "motivo": "Se ignora dónde vivió y escribió Diógenes Laercio.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:yerma": {
+    "decision": "sin-datos",
+    "motivo": "Lorca la escribió entre Madrid, Granada y Buenos Aires (1933-1934) y las fuentes no precisan el lugar.",
+    "fecha": "2026-11-12"
+  },
   "ref:sin-lugar:yvain": {
     "decision": "sin-datos",
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
+    "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:zweites-buch": {
+    "decision": "sin-datos",
+    "motivo": "Hitler lo dictó en 1928 a Max Amann y las fuentes consultadas no dicen dónde.",
     "fecha": "2026-11-12"
   },
   "serie:Q104161710:Q12214736": {

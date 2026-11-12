@@ -8240,7 +8240,14 @@
       "soporte": "Inscripciones en los bloques de piedra de la construcción llamada Sardurburg o Madır Burcu",
       "resumen": "Varias inscripciones iguales, en lengua asiria, que nombran a Sarduri I como constructor de una obra de bloques ciclópeos en el extremo occidental de la roca de Van. En ellas se titula «rey de la totalidad» y «rey de Nairi», a imitación de los reyes de Asiria. Se las considera el primer testimonio escrito de Urartu; sus primeros reyes escribieron en acadio, y la escritura en urartiano empieza con su hijo Ishpuini.",
       "por_que_importa": "Muestran el origen asirio de la cultura política de Urartu y la fundación de Tushpa, capital urartea durante siglos.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de la inscripción de Sarduri (Livius.org)",
+          "url": "https://www.livius.org/articles/place/tuspa-van/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Sardur I",
         "en": "Sarduri I"
@@ -8369,7 +8376,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 945,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Kaifeng, capital de los Jin posteriores",
+        "lon": 114.345,
+        "lat": 34.795
       },
       "trata": {
         "regiones": [
@@ -8446,7 +8456,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 1346,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Dadu (Pekín), capital de los Yuan",
+        "lon": 116.3975,
+        "lat": 39.9067
       },
       "trata": {
         "regiones": [
@@ -8502,7 +8515,20 @@
       "soporte": "Inscripción",
       "resumen": "Inscripción trilingüe grabada hacia 262 en la Ka'ba-ye Zartosht, en Naqsh-e Rostam. Sapor I da su genealogía, enumera las provincias de su imperio, cuenta sus campañas contra Roma y los fuegos sagrados que fundó. Según Sapor, Gordiano III murió en una batalla en Misiche, Filipo el Árabe le pagó 500 000 denarios y Valeriano fue capturado.",
       "por_que_importa": "Es la inscripción más importante de la era sasánida y la versión persa de las guerras con Roma, que se contrasta con los relatos romanos.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto en persa medio con traducción inglesa (Sasanika, Universidad de California en Irvine)",
+          "url": "https://sites.uci.edu/sasanika/sapur-is-inscription-kaba-ye-zartost-skz/",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Versión parta con transcripción y traducción, según la edición de Huyse (Parthian Sources)",
+          "url": "https://parthiansources.com/texts/skz/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Shapur I's inscription at the Ka'ba-ye Zartosht"
       },
@@ -8534,7 +8560,20 @@
       "soporte": "Tablillas de arcilla (1087 fragmentos en el palacio de Néstor)",
       "resumen": "Archivo de tablillas en lineal B hallado en el palacio de Néstor, en Pilos, la mayor fuente de este tipo en Grecia. Las conservó el incendio que destruyó el palacio hacia 1180 a. C.; mencionan preparativos de defensa apresurados ante un ataque inminente, sin decir quién atacaba.",
       "por_que_importa": "Muestran cómo se administraba un Estado micénico y qué pasaba justo antes de su caída.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Corpus de textos micénicos DĀMOS (Universidad de Oslo)",
+          "url": "https://damos.hf.uio.no/",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "«The Palace of Nestor at Pylos», vol. IV, los documentos inscritos de Pilos (Lockwood Press, acceso abierto)",
+          "url": "https://lockwoodpressonline.com/index.php/ebooks/catalog/book/94",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Palacio de Néstor",
         "en": "Palace of Nestor"

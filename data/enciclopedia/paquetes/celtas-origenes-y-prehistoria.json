@@ -296,7 +296,14 @@
       "soporte": "Artículo científico",
       "resumen": "Kristiansen y sus colegas proponen que la cultura de la cerámica cordada nació cuando grupos de jóvenes de la estepa, mayormente varones, se instalaron en Europa central y tomaron esposas de las comunidades agrícolas vecinas, y que de ese contacto salieron una nueva cultura y una nueva lengua, el antepasado de las lenguas germánicas, bálticas y eslavas.",
       "por_que_importa": "Es un intento de pasar del ADN a la vida social y a las lenguas. Otros arqueólogos lo critican por reducir procesos variados a un relato de bandas guerreras y por pasar demasiado rápido de los genes a las lenguas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo en Antiquity 91 (2017), acceso abierto (CC BY)",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/retheorising-mobility-and-the-formation-of-culture-and-language-among-the-corded-ware-culture-in-europe/E35E6057F48118AFAC191BDFBB1EB30E",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -504,7 +511,14 @@
       "soporte": "Artículo científico",
       "resumen": "Heyd, especialista en Yamna y en la cerámica cordada, acepta que el ADN antiguo prueba una gran llegada de ascendencia de la estepa, pero critica cómo los genetistas la cuentan: equiparan culturas arqueológicas con poblaciones, simplifican las cronologías y usan mapas con flechas que recuerdan los métodos de Gustaf Kossinna, de donde sale el título. Señala además que Yamna y la cerámica cordada tienen costumbres y objetos distintos, de modo que la segunda no deriva sin más de la primera.",
       "por_que_importa": "Es una de las críticas arqueológicas más citadas a los estudios de Haak y de Allentoft, junto con la de Furholt (2018). No discute los datos genéticos, sino el paso de los genes a pueblos y lenguas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Manuscrito aceptado del artículo (repositorio de la Universidad de Bristol)",
+          "url": "https://research-information.bris.ac.uk/en/publications/kossinnas-smile/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "confianza": "media"
     },
     {
@@ -4442,7 +4456,7 @@
       "anio": -1700,
       "anio_hasta": -1150,
       "aprox": true,
-      "lugar": "Llanura del Po, en Emilia",
+      "lugar": "Poviglio, Emilia (poblado tipo de Santa Rosa)",
       "tipo": "cultural",
       "resumen": "Poblados trapezoidales sobre tierra firme, con foso y terraplén y a veces casas sobre pilotes, de la llanura central del Po (en Emilia, sobre todo), con metalurgia del bronce. Hacia 1150 a. C. el sistema colapsó y se abandonaron las aldeas; algunos autores piensan que la población dispersa contribuyó a las comunidades protovillanovianas. Pigorini, que las estudió desde 1862, las usó para sostener que los indoeuropeos llegaron a Italia por el norte; la identificación directa de las terramaras con un pueblo posterior se considera descartada.",
       "regiones": [
@@ -4453,7 +4467,9 @@
       "wikipedia": {
         "es": "Cultura de las Terramaras",
         "en": "Terramare culture"
-      }
+      },
+      "lon": 10.55,
+      "lat": 44.8333
     },
     {
       "id": "protoindoeuropeo",

@@ -10,7 +10,7 @@
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 73 with religions, cultures or languages.
-- **Items:** 2,902 sources (302 with no place of writing), 2,811 people, 3,091 events and 942 places.
+- **Items:** 2,902 sources (270 with no place of writing), 2,811 people, 3,091 events and 942 places.
 
 ## Population: how much of the world each period covers
 

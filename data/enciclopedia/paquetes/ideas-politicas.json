@@ -1184,7 +1184,20 @@
       "soporte": "Programa de partido",
       "resumen": "Programa aprobado por la socialdemocracia alemana en noviembre de 1959. Abandona el marxismo como doctrina oficial, acepta la economía de mercado («competencia en lo posible, planificación en lo necesario») y la defensa nacional, y presenta al partido como partido de todo el pueblo.",
       "por_que_importa": "Marcó el paso de la socialdemocracia europea de la meta del socialismo a la reforma del capitalismo y del Estado de bienestar.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Programa de Godesberg (Friedrich-Ebert-Stiftung)",
+          "url": "https://library.fes.de/inhalt/digital/voll-prog-spec01.html",
+          "idioma": "de",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Facsímil (Bayerische Staatsbibliothek, 1000 Dokumente)",
+          "url": "https://www.1000dokumente.de/Dokumente/Godesberger_Programm_der_SPD",
+          "idioma": "de",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Programa de Godesberg",
         "en": "Godesberg Program"
@@ -1394,7 +1407,14 @@
       "soporte": "Ensayo en samizdat",
       "resumen": "Havel describe el régimen comunista checoslovaco como «postotalitario»: ya no se sostiene por el terror sino por la participación ritual de todos en una mentira compartida, como el verdulero que pone en su vidriera un cartel con consignas. Propone «vivir en la verdad» como forma de resistencia.",
       "por_que_importa": "Circuló clandestinamente y se convirtió en un texto de referencia de los disidentes de Europa del Este, entre ellos los de Solidaridad en Polonia.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de Paul Wilson (ICNC)",
+          "url": "https://www.nonviolent-conflict.org/wp-content/uploads/1979/01/the-power-of-the-powerless.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "The Power of the Powerless"
       },
@@ -1426,7 +1446,14 @@
       "soporte": "Declaración del partido TANU",
       "resumen": "Declaración del partido gobernante de Tanzania redactada por Nyerere en febrero de 1967. Define el socialismo africano (ujamaa) como autosuficiencia basada en la agricultura y la vida comunitaria, y anuncia la nacionalización de bancos y grandes empresas.",
       "por_que_importa": "Fue el ejemplo más citado de socialismo africano. Las aldeas ujamaa, con traslados forzosos desde 1973, no cumplieron las metas económicas y Tanzania las abandonó en los años ochenta.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto en inglés (ETH Zürich, ISN)",
+          "url": "https://www.files.ethz.ch/isn/125524/8004_Arusha_Declaration.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Arusha Declaration"
       },
@@ -1521,7 +1548,9 @@
       "escrita": {
         "anio": 1873,
         "aprox": false,
-        "lugar": "Suiza"
+        "lugar": "Locarno (Suiza)",
+        "lon": 8.8,
+        "lat": 46.1667
       },
       "trata": {
         "regiones": [
@@ -2530,7 +2559,14 @@
       "soporte": "Lección inaugural",
       "resumen": "Lección inaugural en Oxford que distingue la libertad negativa, ser libre de interferencias, de la positiva, ser dueño de uno mismo. Advierte que la libertad positiva, en nombre de un «yo verdadero», puede justificar que se obligue a los individuos a ser libres, como en los regímenes totalitarios, y defiende el pluralismo de valores.",
       "por_que_importa": "Es uno de los textos más citados de la filosofía política liberal del siglo XX.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto de la conferencia (Isaiah Berlin Virtual Library, Wolfson College, Oxford)",
+          "url": "https://berlin.wolf.ox.ac.uk/published_works/tcl/index.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Two Concepts of Liberty"
       },
@@ -2706,7 +2742,14 @@
       "soporte": "Declaración",
       "resumen": "Adoptada el 26 de junio de 1955 en Kliptown por el Congreso del Pueblo, que reunió al Congreso Nacional Africano y a organizaciones indias, mestizas y blancas. Empieza: «Sudáfrica pertenece a todos los que viven en ella, negros y blancos» y reclama igualdad de derechos, voto para todos y redistribución de la tierra y la riqueza.",
       "por_que_importa": "Fue el programa del Congreso Nacional Africano durante la lucha contra el apartheid; el gobierno la usó para acusar de traición a 156 dirigentes en 1956.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Carta de la Libertad, texto inglés (South African History Online)",
+          "url": "https://www.sahistory.org.za/archive/freedom-charter-0",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Carta de Libertad",
         "en": "Freedom Charter"
@@ -2839,7 +2882,14 @@
       "soporte": "Declaración ante el tribunal",
       "resumen": "Declaración de Mandela desde el banquillo en el juicio de Rivonia, el 20 de abril de 1964. Explica por qué el Congreso Nacional Africano pasó al sabotaje tras décadas de lucha no violenta y termina diciendo que el ideal de una sociedad democrática y libre es uno por el que está preparado para morir.",
       "por_que_importa": "Hizo de Mandela la figura mundial de la lucha contra el apartheid.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Declaración de Mandela desde el banquillo, 20 de abril de 1964 (ONU)",
+          "url": "https://static.un.org/en/events/mandeladay/court_statement_1964.shtml",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Estoy dispuesto a morir",
         "en": "I Am Prepared to Die"
@@ -3220,7 +3270,14 @@
       "soporte": "Artículo en Science",
       "resumen": "Hardin sostiene que, cuando un recurso es de acceso libre, cada usuario tiene interés en sobreexplotarlo aunque eso lo destruya para todos, como en un pastizal común. Aplica el argumento al crecimiento de la población y propone una «coerción mutua, mutuamente acordada».",
       "por_que_importa": "El concepto se usa en economía y ecología. Elinor Ostrom mostró que muchas comunidades gestionan bienes comunes sin destruirlos, y Hardin mismo admitió que hablaba de recursos sin regular.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés, reimpresión con permiso de la AAAS (Garrett Hardin Society)",
+          "url": "https://www.garretthardinsociety.org/articles_pdf/tragedy_of_the_commons.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Tragedia de los bienes comunales",
         "en": "Tragedy of the commons"
@@ -4898,7 +4955,10 @@
       "escrita": {
         "anio": 1886,
         "anio_hasta": 1888,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.1275,
+        "lat": 51.5072
       },
       "trata": {
         "regiones": [
@@ -4935,7 +4995,10 @@
       "genero": "politica",
       "escrita": {
         "anio": 1847,
-        "aprox": false
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.3522,
+        "lat": 48.8567
       },
       "trata": {
         "regiones": [],
@@ -5011,7 +5074,10 @@
       "escrita": {
         "anio": 1919,
         "anio_hasta": 1931,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Ahmedabad",
+        "lon": 72.5714,
+        "lat": 23.0225
       },
       "trata": {
         "regiones": [
@@ -5024,7 +5090,14 @@
       "soporte": "Semanario",
       "resumen": "Semanario en inglés publicado en India de 1919 a 1931 y dirigido por Gandhi. Con él difundió sus ideas sobre la no violencia y la desobediencia civil, y llamó a los lectores a organizarse y planear acciones por la independencia (swaraj) respecto del Imperio británico. En sus páginas salió la versión inglesa, por entregas, de su autobiografía. En 1933 empezó otro semanario en inglés, Harijan. No debe confundirse con el libro Young India (1916), de Lala Lajpat Rai.",
       "por_que_importa": "Formó parte de la prensa propia, con Navajivan y luego Harijan, con que Gandhi llegó a sus lectores.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Edición de 1924 de «Young India 1919-1922» (Internet Archive)",
+          "url": "https://archive.org/details/youngindia19191900maha",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Young India"
       },
@@ -5041,7 +5114,10 @@
       "escrita": {
         "anio": 1925,
         "anio_hasta": 1929,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Ahmedabad (ashram de Sabarmati)",
+        "lon": 72.5714,
+        "lat": 23.0225
       },
       "trata": {
         "regiones": [
@@ -5152,7 +5228,10 @@
       "genero": "ensayo",
       "escrita": {
         "anio": 1994,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Johannesburgo (empezada en la isla Robben en 1974)",
+        "lon": 28.0456,
+        "lat": -26.2044
       },
       "trata": {
         "regiones": [
@@ -5182,7 +5261,10 @@
       "genero": "filosofia",
       "escrita": {
         "anio": 1958,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.0061,
+        "lat": 40.7128
       },
       "trata": {
         "regiones": [],
@@ -5210,7 +5292,10 @@
       "genero": "ensayo",
       "escrita": {
         "anio": 1965,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.0061,
+        "lat": 40.7128
       },
       "trata": {
         "regiones": [
@@ -5279,7 +5364,10 @@
       "genero": "politica",
       "escrita": {
         "anio": 1938,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Coyoacán (Ciudad de México)",
+        "lon": -99.1622,
+        "lat": 19.35
       },
       "trata": {
         "regiones": [],
@@ -5314,7 +5402,10 @@
       "genero": "discurso",
       "escrita": {
         "anio": 1944,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Yan'an (Shaanxi)",
+        "lon": 109.494,
+        "lat": 36.65
       },
       "trata": {
         "regiones": [
@@ -5618,7 +5709,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1798,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.1275,
+        "lat": 51.5072
       },
       "trata": {
         "regiones": [
@@ -5631,7 +5725,14 @@
       "soporte": "Novela",
       "resumen": "Novela inconclusa de Mary Wollstonecraft, que publicó póstumamente en 1798 su marido, William Godwin. Cuenta la historia de una mujer que su marido encierra en un asilo de locos, y se centra en los agravios sociales de las mujeres más que en los individuales: critica la institución del matrimonio y el sistema legal que la protegía en la Gran Bretaña del siglo XVIII. Las Memorias de Godwin sobre la vida de la autora, que muchos juzgaron escandalosas, y esos temas la volvieron impopular en su momento; la crítica literaria feminista del siglo XX la reivindicó.",
       "por_que_importa": "Suele verse como una divulgación novelada de la Vindicación de los derechos de la mujer (1792), como una extensión de sus argumentos y como autobiográfica.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/134",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "María o Los agravios de la mujer",
         "en": "Maria: or, The Wrongs of Woman"

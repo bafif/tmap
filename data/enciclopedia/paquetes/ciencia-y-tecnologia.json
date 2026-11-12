@@ -194,7 +194,14 @@
       "soporte": "Informe mimeografiado de la Escuela Moore de la Universidad de Pensilvania (30 de junio de 1945), bajo contrato con el Ejército de EE. UU.",
       "resumen": "Von Neumann describe la lógica de la computadora que sucedería a la ENIAC: una unidad aritmética, un control, una memoria que guarda a la vez los datos y las instrucciones, y dispositivos de entrada y salida, todo con números binarios. El texto resumía discusiones con J. Presper Eckert, John Mauchly y otros miembros del equipo, pero circuló solo con su nombre.",
       "por_que_importa": "Difundió la arquitectura de programa almacenado, llamada desde entonces «de von Neumann», que siguen casi todas las computadoras.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Primer borrador de un informe sobre la EDVAC (copia del MIT)",
+          "url": "https://web.mit.edu/STS.035/www/PDFs/edvac.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "First Draft of a Report on the EDVAC"
       },
@@ -500,7 +507,14 @@
       "soporte": "IRE Transactions on Human Factors in Electronics, vol. HFE-1 (marzo de 1960)",
       "resumen": "Licklider propone que personas y computadoras cooperen en tiempo real: la máquina haría el trabajo rutinario de cálculo y búsqueda, y la persona fijaría los objetivos y evaluaría los resultados. Enumera lo que falta para lograrlo: tiempo compartido, memorias grandes, lenguajes cercanos al natural y pantallas para dibujar.",
       "por_que_importa": "Fijó el programa de la computación interactiva, que Licklider financió luego desde ARPA.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del artículo (MIT, Laboratorio de Ciencias de la Computación e Inteligencia Artificial)",
+          "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Man-Computer Symbiosis",
         "en": "Man–Computer Symbiosis"
@@ -531,7 +545,20 @@
       "soporte": "Informe a la Oficina de Investigación Científica de la Fuerza Aérea de EE. UU. (Stanford Research Institute, octubre de 1962)",
       "resumen": "Engelbart propone usar las computadoras para aumentar la capacidad de las personas de resolver problemas complejos, combinando artefactos, lenguaje, métodos y entrenamiento. Imagina a un profesional que escribe, enlaza y reorganiza textos y símbolos en una pantalla.",
       "por_que_importa": "Es el programa del laboratorio que inventó el mouse y mostró el hipertexto en 1968.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Informe de 1962 (Doug Engelbart Institute)",
+          "url": "https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Versión en la web (Doug Engelbart Institute)",
+          "url": "https://www.dougengelbart.org/content/view/138/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -777,7 +804,14 @@
       "soporte": "Communications of the ACM, vol. 19, n.º 7 (julio de 1976), con David Boggs",
       "resumen": "Metcalfe y Boggs describen la red local que funcionaba en Xerox PARC desde 1973: las computadoras comparten un cable coaxial, cada una escucha antes de transmitir y, si dos paquetes chocan, esperan un tiempo al azar y vuelven a intentar.",
       "por_que_importa": "Ethernet, normalizada en 1983 como IEEE 802.3, sigue siendo la tecnología más usada en las redes locales cableadas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Informe técnico de Xerox PARC CSL-75-7 (1975), versión previa del artículo (Bitsavers)",
+          "url": "https://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-75-7_Ethernet_Distributed_Packet_Switching_for_Local_Computer_Networks.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Ethernet",
         "en": "Ethernet"
@@ -839,7 +873,14 @@
       "soporte": "Proceedings of the National Academy of Sciences, vol. 79 (abril de 1982)",
       "resumen": "Hopfield describe una red de neuronas binarias conectadas entre sí cuya dinámica reduce una «energía», como en un sistema magnético. Los recuerdos se guardan como mínimos de esa energía y la red los recupera a partir de una versión incompleta o con ruido.",
       "por_que_importa": "Trajo la física estadística al estudio de las redes neuronales y reavivó el campo; fue uno de los trabajos premiados con el Nobel de Física de 2024.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo en PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Hopfield (RNA)",
         "en": "Hopfield network"
@@ -970,7 +1011,14 @@
       "soporte": "Nature, vol. 529 (28 de enero de 2016)",
       "resumen": "El equipo de DeepMind describe AlphaGo, que combina redes neuronales entrenadas con partidas de expertos y con juego contra sí mismo y una búsqueda en árbol de Monte Carlo. Informa que el programa venció 5 a 0 al campeón europeo Fan Hui en octubre de 2015, la primera derrota de un jugador profesional de go ante una computadora sin ventaja.",
       "por_que_importa": "Anunció un hito que se esperaba para una década más tarde; dos meses después AlphaGo venció a Lee Sedol.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo en PDF (DeepMind)",
+          "url": "https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "AlphaGo",
         "en": "AlphaGo"
@@ -2090,7 +2138,20 @@
       "soporte": "Informe al secretario de Guerra de EE. UU. (11 de junio de 1945), desde el Laboratorio Metalúrgico de Chicago",
       "resumen": "Siete científicos del Proyecto Manhattan, encabezados por el Nobel James Franck y con Leó Szilárd entre los firmantes, recomiendan no usar la bomba por sorpresa contra Japón y hacer antes una demostración ante observadores internacionales. Advierten que un ataque sin aviso desataría una carrera de armamentos.",
       "por_que_importa": "Es el primer intento organizado de científicos de influir en el uso del arma nuclear; no cambió la decisión.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del informe (Federation of American Scientists)",
+          "url": "https://sgp.fas.org/eprint/franck.html",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Escaneo y transcripción (Internet Archive)",
+          "url": "https://archive.org/details/FranckReport",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Informe Franck",
         "en": "Franck Report"
@@ -2123,7 +2184,20 @@
       "soporte": "Informe oficial del gobierno de EE. UU. (12 de agosto de 1945), editado como libro por Princeton University Press",
       "resumen": "Publicado días después de los bombardeos de Hiroshima y Nagasaki, el informe del físico Henry Smyth cuenta la historia administrativa y científica del Proyecto Manhattan: la separación de isótopos, los reactores de producción de plutonio y la organización de Los Álamos, sin los detalles que seguían siendo secretos.",
       "por_que_importa": "Fue la versión oficial de la historia de la bomba y fijó qué se podía decir en público sobre ella.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Edición de Princeton University Press, 1945 (Internet Archive)",
+          "url": "https://archive.org/details/atomicenergyform00smyt_0",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto por capítulos (AtomicArchive)",
+          "url": "https://www.atomicarchive.com/resources/documents/smyth-report/index.html",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Smyth Report"
       },
@@ -2764,7 +2838,14 @@
       "soporte": "Journal of Experimental Medicine, vol. 79",
       "resumen": "En el Instituto Rockefeller, los autores purifican la sustancia que transforma neumococos inofensivos en virulentos y muestran que es ácido desoxirribonucleico (ADN) y no una proteína.",
       "por_que_importa": "Fue la primera prueba de que el ADN es el material de la herencia.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo del Journal of Experimental Medicine, 1944 (PubMed Central)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2135445/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Experimento de Avery-MacLeod-McCarty",
         "en": "Avery–MacLeod–McCarty experiment"
@@ -2955,7 +3036,14 @@
       "soporte": "Tellus, vol. 12",
       "resumen": "Con analizadores de precisión instalados en Mauna Loa, en la Antártida y en otros sitios, Keeling muestra que el CO₂ atmosférico sigue un ciclo anual marcado por la vegetación del hemisferio norte y sugiere que su promedio aumenta a un ritmo comparable al de la quema de combustibles fósiles.",
       "por_que_importa": "Es el primer informe de la serie de mediciones continuas que documenta el aumento del CO₂ atmosférico desde 1958.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Página del Scripps CO2 Program con el PDF del artículo",
+          "url": "https://scrippsco2.ucsd.edu/publications/scientific-literature/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -2982,7 +3070,14 @@
       "soporte": "Proceedings of the National Academy of Sciences, vol. 47 (octubre de 1961), con Heinrich Matthaei",
       "resumen": "Nirenberg y Matthaei agregan a un extracto de bacterias un ARN sintético formado solo por uracilo y obtienen una proteína formada solo por fenilalanina: el triplete UUU codifica ese aminoácido. Fue el primer «codón» descifrado; el código completo se estableció hacia 1966.",
       "por_que_importa": "Abrió el desciframiento del código genético; Nirenberg compartió el Nobel de Medicina de 1968 con Har Gobind Khorana y Robert Holley.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo en PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Nirenberg and Matthaei experiment"
       },
@@ -3136,7 +3231,14 @@
       "soporte": "Primer Informe de Evaluación del IPCC (Cambridge University Press, 1990)",
       "resumen": "El informe concluye que las emisiones humanas aumentan sustancialmente las concentraciones de gases de efecto invernadero y que eso producirá un calentamiento adicional de la superficie; sin medidas, prevé un aumento de unos 0,3 °C por década en el siglo XXI. Aclara que el calentamiento observado hasta entonces era compatible con los modelos, pero también con la variabilidad natural.",
       "por_que_importa": "Fue la base científica de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (1992).",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Informe completo del Grupo de Trabajo I (IPCC)",
+          "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/ipcc_far_wg_I_full_report.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Primer Informe de Evaluación del IPCC",
         "en": "IPCC First Assessment Report"
@@ -3167,7 +3269,14 @@
       "soporte": "Resolución WHA33.3 de la 33.ª Asamblea Mundial de la Salud (8 de mayo de 1980)",
       "resumen": "La asamblea de la Organización Mundial de la Salud declara que el mundo y todos sus pueblos se han liberado de la viruela, tras el programa intensificado iniciado en 1967, que combinó vacunación con vigilancia para cortar los brotes. El último caso natural se registró en Somalia en 1977.",
       "por_que_importa": "La viruela es la única enfermedad humana erradicada; el método de vigilancia y contención sirvió de modelo para otras campañas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Resolución WHA33.3 (Organización Mundial de la Salud)",
+          "url": "https://www.who.int/publications/i/item/WHA33-3",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -3309,7 +3418,14 @@
       "soporte": "Science, vol. 337 (17 de agosto de 2012), con Martin Jinek (primer autor), Emmanuelle Charpentier y otros",
       "resumen": "Los equipos de Doudna, en Berkeley, y de Charpentier, en Umeå, muestran que la proteína Cas9 de la bacteria Streptococcus pyogenes corta el ADN en el sitio que le indican dos pequeños ARN, y que estos pueden fusionarse en una sola «guía» diseñada para cortar cualquier secuencia elegida.",
       "por_que_importa": "Abrió la edición genética con CRISPR-Cas9, que se volvió la herramienta estándar para modificar genomas; Doudna y Charpentier recibieron el Nobel de Química de 2020. La patente fue disputada con el Instituto Broad.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo en PubMed Central (manuscrito de autores)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6286148/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "CRISPR/Cas",
         "en": "CRISPR gene editing"

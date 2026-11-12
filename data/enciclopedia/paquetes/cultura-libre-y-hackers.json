@@ -550,7 +550,14 @@
       "soporte": "Memorandos internos",
       "resumen": "Memorandos internos de Microsoft de 1998 que analizan el software de código abierto, en particular Linux, como una amenaza para la empresa y proponen, entre otras estrategias, extender los protocolos estándar con agregados propios para cerrarle el paso. Eric Raymond los recibió filtrados y los publicó comentados en noviembre de 1998; Microsoft confirmó su autenticidad, aclarando que eran análisis técnicos y no la posición oficial.",
       "por_que_importa": "Mostraron que Microsoft se tomaba en serio la competencia del software libre, y sus autores reconocían en ellos la calidad de ese modelo.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Documentos Halloween con comentarios de Eric S. Raymond",
+          "url": "http://www.catb.org/~esr/halloween/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Documentos Halloween",
         "en": "Halloween documents"
@@ -1419,7 +1426,14 @@
       "soporte": "Artículo en Communications of the ACM",
       "resumen": "Artículo de octubre de 1985 que advierte que la informatización de pagos y trámites permite reunir perfiles de cada persona, y propone sistemas criptográficos (firmas ciegas, seudónimos) para hacer transacciones verificables sin revelar la identidad.",
       "por_que_importa": "Es la base teórica del dinero electrónico anónimo y una inspiración directa de los cypherpunks y de las criptomonedas.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Artículo de Chaum (1985), copia de la Universidad Radboud",
+          "url": "https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "confianza": "alta"
     },
     {
@@ -1618,7 +1632,9 @@
       "escrita": {
         "anio": 2013,
         "aprox": false,
-        "lugar": "Internet"
+        "lugar": "Toronto",
+        "lon": -79.3817,
+        "lat": 43.6525
       },
       "trata": {
         "regiones": [],
@@ -1981,7 +1997,14 @@
       "soporte": "Sentencia",
       "resumen": "Fallo del 7 de mayo de 2015 que declara que la recolección masiva de registros telefónicos revelada por Snowden excedía lo que autorizaba la sección 215 de la Ley Patriota. No se pronunció sobre su constitucionalidad.",
       "por_que_importa": "Fue el primer tribunal de apelaciones que consideró ilegal el programa; el Congreso lo reemplazó semanas después con la Ley de Libertad.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Sentencia del Segundo Circuito, 7 de mayo de 2015 (PDF)",
+          "url": "https://www.aclu.org/wp-content/uploads/legal-documents/clapper-ca2-opinion.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "American Civil Liberties Union v. Clapper"
       },
@@ -2260,7 +2283,14 @@
       "soporte": "Declaración",
       "resumen": "Declaración del 22 de octubre de 2003, impulsada por la Sociedad Max Planck, en la que instituciones científicas se comprometen a promover el acceso abierto a los resultados de investigación y al patrimonio cultural, incluidos datos e imágenes.",
       "por_que_importa": "Firmada por cientos de universidades y academias, llevó el acceso abierto a la política científica europea.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto de la declaración (Sociedad Helmholtz)",
+          "url": "https://www.helmholtz.de/fileadmin/user_upload/01_forschung/Open_Access/Berlin_Declaration_EN.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Declaración de Berlín (conocimiento científico)",
         "en": "Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities"
@@ -2437,7 +2467,9 @@
       "escrita": {
         "anio": 2003,
         "aprox": false,
-        "lugar": "Estados Unidos"
+        "lugar": "Malvern (Pensilvania)",
+        "lon": -75.5144,
+        "lat": 40.0344
       },
       "trata": {
         "regiones": [],

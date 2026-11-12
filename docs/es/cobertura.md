@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 73 con religiones, culturas o idiomas.
-- **Elementos:** 2902 fuentes (302 sin lugar de escritura), 2811 personas, 3091 hechos y 942 lugares.
+- **Elementos:** 2902 fuentes (270 sin lugar de escritura), 2811 personas, 3091 hechos y 942 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 

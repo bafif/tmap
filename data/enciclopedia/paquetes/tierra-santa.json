@@ -6049,7 +6049,10 @@
       "genero": "geografia",
       "escrita": {
         "anio": 985,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Shiraz",
+        "lon": 52.5425,
+        "lat": 29.61
       },
       "trata": {
         "regiones": [
@@ -6723,7 +6726,14 @@
       "soporte": null,
       "resumen": "Crónica de un monje partidario de la reforma gregoriana. Registra que en marzo de 1095 llegó al concilio de Piacenza una embajada del emperador de Constantinopla, que suplicó al papa y a los fieles ayuda contra los paganos que habían llegado casi hasta sus murallas.",
       "por_que_importa": "Es el testimonio contemporáneo del pedido bizantino que precedió a la primera cruzada.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto latino en los MGH, Scriptores V, edición de Pertz (Digitale MGH, la crónica de Bernoldo ocupa las pp. 385-467)",
+          "url": "https://www.dmgh.de/mgh_ss_5/index.htm",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Bernold of Constance"
       },
@@ -8902,7 +8912,14 @@
       "soporte": null,
       "resumen": "Himno de los cabalistas de Safed para recibir el sábado como a una novia, con imágenes de la restauración de Jerusalén.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto hebreo (Wikisource)",
+          "url": "https://he.wikisource.org/wiki/%D7%9C%D7%9B%D7%94_%D7%93%D7%95%D7%93%D7%99",
+          "idioma": "he",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Lejá Dodí",
         "en": "Lekha Dodi"
@@ -8972,7 +8989,14 @@
       "soporte": null,
       "resumen": "Exposición de la cábala de Isaac Luria: la contracción de Dios para dejar lugar al mundo, la ruptura de los vasos que debían contener su luz y la reparación del mundo por los actos humanos.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto hebreo, edición de Koretz 1782 (Wikisource)",
+          "url": "https://he.wikisource.org/wiki/%D7%A2%D7%A5_%D7%97%D7%99%D7%99%D7%9D",
+          "idioma": "he",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Jaim Vital",
         "en": "Hayyim ben Joseph Vital"
@@ -9254,7 +9278,14 @@
       "soporte": null,
       "resumen": "Manifiesto por un imperio árabe independiente de los turcos, que advierte que el despertar árabe y el esfuerzo judío por reconstituir el antiguo reino de Israel están destinados a combatirse hasta que uno venza al otro.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Edición de Plon-Nourrit, 1905 (Internet Archive)",
+          "url": "https://archive.org/details/39020008795513-lereveildelanat",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Naguib Azoury"
       },
@@ -9427,7 +9458,14 @@
       "soporte": null,
       "resumen": "Acuerdo de cooperación entre el emir Faisal y el dirigente sionista: aceptación de la inmigración judía a Palestina y protección de los campesinos árabes, condicionado por Faisal, en una nota manuscrita, a la independencia árabe prometida, que no llegó.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés del acuerdo del 3 de enero de 1919 (Jewish Virtual Library)",
+          "url": "https://jewishvirtuallibrary.org/the-weizmann-faisal-agreement-january-1919",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Acuerdo Faisal-Weizmann",
         "en": "Faisal–Weizmann agreement"
@@ -9462,7 +9500,20 @@
       "soporte": null,
       "resumen": "Informe de una comisión estadounidense que consultó a la población de Siria y Palestina: la gran mayoría rechazaba el programa sionista y pedía una Siria unida e independiente. Se archivó sin efecto.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Informe de la comisión King-Crane (World War I Document Archive, Universidad Brigham Young)",
+          "url": "https://wwi.lib.byu.edu/index.php/The_King-Crane_Report",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Informe de la comisión King-Crane (Great War Primary Document Archive)",
+          "url": "http://www.gwpda.org/1918p/kncr.htm",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Informe King-Crane",
         "en": "King–Crane Commission"
@@ -9581,7 +9632,20 @@
       "soporte": null,
       "resumen": "Artículo que sostiene que ningún pueblo nativo acepta voluntariamente la colonización y que los árabes de Palestina no serían la excepción: el sionismo solo podría avanzar tras un «muro de hierro» de fuerza judía que los llevara a negociar.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa «The Iron Wall (We and the Arabs)» (Marxists Internet Archive)",
+          "url": "https://www.marxists.org/history/etol/document/mideast/ironwall/ironwall.htm",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción inglesa «The Iron Wall» (Jewish Virtual Library)",
+          "url": "https://jewishvirtuallibrary.org/quot-the-iron-wall-quot",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "en": "Iron Wall (essay)"
       },
@@ -9700,7 +9764,14 @@
       "soporte": null,
       "resumen": "Resolución de los sionistas reunidos en el hotel Biltmore de Nueva York: Palestina debía constituirse en una «commonwealth judía» abierta a la inmigración, y no un hogar dentro de un Estado árabe.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés, reproducido de Khalil, The Arab States and the Arab League (1962) (Encyclopedia.com)",
+          "url": "https://www.encyclopedia.com/politics/encyclopedias-almanacs-transcripts-and-maps/biltmore-program",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Conferencia de Biltmore",
         "en": "Biltmore Conference"
@@ -10209,7 +10280,14 @@
       "soporte": null,
       "resumen": "Proclamación del Estado de Palestina por el Consejo Nacional Palestino, redactada por Mahmud Darwish y leída por Arafat en Argel; invoca la resolución 181, que «sigue dando condiciones de legitimidad internacional» a un Estado árabe palestino.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto inglés, documento de la ONU A/43/827 (Declaration Project)",
+          "url": "https://declarationproject.org/?p=397",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Declaración de independencia de Palestina",
         "en": "Palestinian Declaration of Independence"
@@ -10362,7 +10440,14 @@
       "soporte": null,
       "resumen": "Documento presentado en Doha: el conflicto es con el «proyecto sionista» y no con los judíos por su religión; acepta un Estado palestino en las líneas de 1967 como «fórmula de consenso nacional», sin reconocer a Israel ni renunciar a la «liberación de toda Palestina» ni a la resistencia armada.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa oficial, reproducida por el Wilson Center",
+          "url": "https://afghanistan.wilsoncenter.org/article/hamas-rebranding-new-manifesto",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "es": "Estatutos de Hamás de 2017",
         "en": "2017 Hamas charter"
@@ -10493,7 +10578,14 @@
       "soporte": null,
       "resumen": "Mensaje que llama a expulsar a las tropas estadounidenses de Arabia Saudita y denuncia una «alianza sionista-cruzada» contra los musulmanes, de Palestina a Bosnia.",
       "por_que_importa": null,
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa (Commonwealth Institute, comw.org)",
+          "url": "https://comw.org/pda/fulltext/960823binladen.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Fatwas of Osama bin Laden"
       },
@@ -10525,7 +10617,14 @@
       "soporte": null,
       "resumen": "Fatua firmada por Bin Laden, Ayman al-Zawahiri y otros: matar a los estadounidenses y a sus aliados, civiles o militares, es un deber individual de todo musulmán en cualquier país, hasta liberar la mezquita de al-Aqsa y la de La Meca.",
       "por_que_importa": "Precedió a los atentados contra las embajadas de Estados Unidos en Kenia y Tanzania (1998) y al 11 de septiembre de 2001.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Traducción inglesa (Federation of American Scientists)",
+          "url": "https://irp.fas.org/world/para/docs/980223-fatwa.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
       "wikipedia": {
         "en": "Fatwas of Osama bin Laden"
       },
@@ -11525,7 +11624,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1819,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Abbotsford (Escocia)",
+        "lon": -2.7819,
+        "lat": 55.5997
       },
       "trata": {
         "regiones": [
@@ -11879,7 +11981,14 @@
       "soporte": "Decreto, publicado en el Boletín Oficial de Tours el 7 de noviembre de 1870",
       "resumen": "Decreto del 24 de octubre de 1870 que declara ciudadanos franceses a los israelitas «indígenas» de los departamentos de Argelia. El decreto n.º 137, del mismo día, mantuvo para los musulmanes y los extranjeros la naturalización individual, a pedido y desde los 21 años, como el senadoconsulto de 1865; los musulmanes siguieron bajo el régimen del indigenato, que en Argelia se fijó por ley en 1881.",
       "por_que_importa": "Separó los estatutos de las dos comunidades y cambió la relación entre los judíos argelinos, Francia y sus vecinos musulmanes; Vichy lo anuló en 1940 y se restableció en 1943.",
-      "leer": [],
+      "leer": [
+        {
+          "titulo": "Texto del decreto n.º 136 en el Boletín oficial de 1870 (copia en PDF)",
+          "url": "https://www.agoravox.fr/IMG/pdf/Decrets_Cremieux.pdf",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
       "wikipedia": {
         "es": "Decreto Crémieux",
         "en": "Crémieux Decree"
@@ -11931,7 +12040,10 @@
       "escrita": {
         "anio": 238,
         "anio_hasta": 239,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Cesarea Marítima",
+        "lon": 34.8917,
+        "lat": 32.5
       },
       "trata": {
         "regiones": [
@@ -12173,7 +12285,10 @@
       "genero": "epistolar",
       "escrita": {
         "anio": 108,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Esmirna y Tróade (cuatro cartas desde Esmirna)",
+        "lon": 27.1392,
+        "lat": 38.4186
       },
       "trata": {
         "regiones": [
@@ -23097,7 +23212,7 @@
       "anio": 1143,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "España",
+      "lugar": "Valle del Ebro (Logroño, donde Pedro el Venerable les encargó la traducción)",
       "tipo": "cultural",
       "resumen": "Por encargo de Pedro el Venerable, Roberto de Ketton tradujo el Corán al latín. El abad de Cluny quería conocer el islam para refutarlo por la razón; la traducción, una paráfrasis, se leyó en Europa hasta el siglo XVIII.",
       "regiones": [
@@ -23110,7 +23225,9 @@
       "wikipedia": {
         "es": "Robert de Ketton",
         "en": "Robert of Ketton"
-      }
+      },
+      "lon": -2.4456,
+      "lat": 42.465
     },
     {
       "id": "conferencia-de-ratisbona",
