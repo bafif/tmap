@@ -2228,7 +2228,7 @@
         "conquistador",
         "adelantado"
       ],
-      "resumen": "Conquistador nacido en Almagro (Castilla), socio de Pizarro desde 1524 y encargado de abastecer las expediciones desde Panamá. La Corona le dio en 1534 la gobernación de Nueva Toledo, al sur de la de Pizarro, y la disputa por el Cusco llevó a la guerra entre los dos bandos. Tras su expedición a Chile (1535-1537) tomó el Cusco, fue vencido en Las Salinas en 1538 y Hernando Pizarro lo hizo ejecutar.",
+      "resumen": "Conquistador nacido en Almagro (Castilla), socio de Pizarro desde 1524 y encargado de abastecer las expediciones desde Panamá. La Corona le dio en 1534 la gobernación de Nueva Toledo, al sur de la de Pizarro, y la disputa por el Cusco llevó a la guerra entre los dos bandos. Su expedición a Chile (1535-1537) fue la primera entrada europea al actual noroeste argentino: pasó por Tupiza, por la antigua Chicoana y por el Shincal, y cruzó la cordillera en el otoño de 1536. A la vuelta tomó el Cusco, fue vencido en Las Salinas en 1538 y Hernando Pizarro lo hizo ejecutar.",
       "obras": [],
       "wikipedia": {
         "es": "Diego de Almagro",
@@ -3452,43 +3452,6 @@
         "en": "Jerónimo de Loayza"
       },
       "wikidata": "Q3498302"
-    },
-    {
-      "id": "toribio-de-mogrovejo",
-      "nombre": "Toribio de Mogrovejo",
-      "nacimiento": {
-        "anio": 1538,
-        "aprox": false,
-        "lugar": "Mayorga",
-        "lon": -5.263,
-        "lat": 42.167
-      },
-      "muerte": {
-        "anio": 1606,
-        "aprox": false,
-        "lugar": "Zaña",
-        "lon": -79.584,
-        "lat": -6.923
-      },
-      "activo": {
-        "lugar": "Lima",
-        "lon": -77.037,
-        "lat": -12.06,
-        "desde": 1581,
-        "hasta": 1606,
-        "aprox": false
-      },
-      "roles": [
-        "arzobispo",
-        "santo"
-      ],
-      "resumen": "Jurista e inquisidor de Granada nombrado arzobispo de Lima, adonde llegó en 1581. Convocó el Tercer Concilio Limense (1582-1583), que aprobó el catecismo trilingüe, recorrió su enorme diócesis en largas visitas pastorales y fundó en 1591 el seminario de Lima. Fue canonizado en 1726.",
-      "obras": [],
-      "wikipedia": {
-        "es": "Toribio de Mogrovejo",
-        "en": "Turibius of Mogrovejo"
-      },
-      "wikidata": "Q467993"
     },
     {
       "id": "santa-rosa-de-lima",
@@ -5802,26 +5765,6 @@
       "wikipedia": {
         "es": "Batalla de Pichincha",
         "en": "Battle of Pichincha"
-      }
-    },
-    {
-      "id": "batalla-de-junin",
-      "titulo": "Batalla de Junín",
-      "anio": 1824,
-      "anio_hasta": null,
-      "aprox": false,
-      "lugar": "Junín",
-      "lon": -75.974,
-      "lat": -11.215,
-      "tipo": "batalla",
-      "resumen": "El 6 de agosto de 1824, en la pampa de Junín, la caballería del ejército de Bolívar venció a la del general realista José de Canterac en un combate breve, librado casi solo con lanzas y sables. Debilitó a los realistas y preparó la victoria de Ayacucho cuatro meses después.",
-      "regiones": [
-        "andes"
-      ],
-      "fuentes": [],
-      "wikipedia": {
-        "es": "Batalla de Junín",
-        "en": "Battle of Junín"
       }
     },
     {

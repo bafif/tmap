@@ -2925,6 +2925,139 @@
       "por_que_importa": "La frase quedó como emblema de los planes de ajuste en la Argentina.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "la-noche-del-16-de-enero",
+      "titulo": "La noche del 16 de enero",
+      "titulo_original": "Night of January 16th",
+      "autor": "Ayn Rand",
+      "autor_id": "ayn-rand",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1933,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1933,
+        "hasta": 1933
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Obra de teatro (estrenada en 1934)",
+      "resumen": "Obra de tribunales que Rand escribió en 1933, inspirada en la muerte del industrial sueco Ivar Kreuger. En el juicio por el asesinato del empresario Bjorn Faulkner se juzga a su secretaria y amante, Karen Andre; la obra no muestra los hechos y el jurado, formado por espectadores elegidos al azar, debe decidir por los testimonios, y el final depende de su veredicto. Se estrenó en Los Ángeles en octubre de 1934 como «Woman on Trial» y pasó a Broadway en 1935-1936, donde estuvo siete meses. Rand discutió con el productor Al Woods por los cambios, y en 1968 publicó una versión revisada como «definitiva».",
+      "por_que_importa": "Rand quiso dramatizar el conflicto entre individualismo y conformismo: lo que decidían los jurados mostraba cuál de los dos preferían. Es su primera obra producida en escena.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La noche del 16 de enero",
+        "en": "Night of January 16th"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-que-vivimos",
+      "titulo": "Los que vivimos",
+      "titulo_original": "We the Living",
+      "autor": "Ayn Rand",
+      "autor_id": "ayn-rand",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1922,
+        "hasta": 1925
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela (Macmillan, 1936)",
+      "resumen": "Primera novela de Rand, que la terminó en 1934 y fue rechazada por varias editoriales hasta que Macmillan la publicó en 1936. Cuenta la vida en Petrogrado entre 1922 y 1925: Kira Argounova, hija de una familia burguesa a la que el Estado soviético confiscó su fábrica textil, quiere ser ingeniera y se enamora de Leo Kovalensky; Andréi Taganov, comunista idealista de la policía política (GPU), es su amigo y se enamora de ella, y Kira se vuelve su amante para pagar el sanatorio de Leo, enfermo de tuberculosis. Muestra las colas, el racionamiento y el control del Estado sobre el trabajo y el estudio.",
+      "por_que_importa": "Fue su primer texto contra el comunismo; Rand, nacida en San Petersburgo y emigrada en 1926, dijo en el prólogo que era lo más parecido a una autobiografía que escribiría. Se vendió más de tres millones de ejemplares.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Los que vivimos",
+        "en": "We the Living"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "himno",
+      "titulo": "Himno",
+      "titulo_original": "Anthem",
+      "autor": "Ayn Rand",
+      "autor_id": "ayn-rand",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Estados Unidos"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1937,
+        "hasta": 1937
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela corta (Cassell, Londres, 1938; edición revisada, Estados Unidos, 1946)",
+      "resumen": "Novela corta distópica escrita en el verano de 1937 y publicada primero en el Reino Unido en 1938 por Cassell. En un futuro sin fecha, la humanidad ha vuelto a una edad oscura y el individuo está abolido: se habla en plural y se asigna a cada uno su oficio. Igualdad 7-2521, destinado a barrendero, hace investigaciones científicas en secreto, huye a un bosque con Libertad 5-3000 y recupera la palabra «yo».",
+      "por_que_importa": "Es la exposición más breve de la oposición de Rand al colectivismo; solo se publicó en Estados Unidos después del éxito de «El manantial», con un texto que la autora revisó en 1946.",
+      "leer": [
+        {
+          "titulo": "Proyecto Gutenberg (dominio público en los Estados Unidos)",
+          "url": "https://www.gutenberg.org/ebooks/1250",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Himno (novela)",
+        "en": "Anthem (novella)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "capitalismo-el-ideal-desconocido",
+      "titulo": "Capitalismo: el ideal desconocido",
+      "titulo_original": "Capitalism: The Unknown Ideal",
+      "autor": "Ayn Rand",
+      "autor_id": "ayn-rand",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1960,
+        "hasta": 1966
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro de ensayos (New American Library, 1966)",
+      "resumen": "Colección de ensayos, casi todos de Rand, con otros de Nathaniel Branden, Alan Greenspan y Robert Hessen, que defienden el capitalismo de laissez-faire, definido como una separación completa entre Estado y economía, «como entre Iglesia y Estado», desde el terreno moral y no solo el económico. La primera parte trata la teoría y la historia, con respuestas a las objeciones corrientes; la segunda, cuestiones de la década de 1960 como las protestas estudiantiles. Los ensayos sobre la encíclica «Populorum progressio» y la guerra de Vietnam se sumaron en la edición de bolsillo de 1967.",
+      "por_que_importa": "Aplica el objetivismo a la política. Rand afirma que sus partidarios no son «conservadores» sino «radicales por el capitalismo»; Nozick y otros sostienen que fundar los derechos individuales en el egoísmo no funciona.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Capitalismo: el ideal desconocido",
+        "en": "Capitalism: The Unknown Ideal"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4833,7 +4966,11 @@
       "obras": [
         "el-manantial",
         "la-rebelion-de-atlas",
-        "la-virtud-del-egoismo"
+        "la-virtud-del-egoismo",
+        "la-noche-del-16-de-enero",
+        "los-que-vivimos",
+        "himno",
+        "capitalismo-el-ideal-desconocido"
       ],
       "wikipedia": {
         "es": "Ayn Rand",

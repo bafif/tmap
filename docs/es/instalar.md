@@ -39,8 +39,8 @@ Si ni siquiera se ve Ajustes, abrí la app con `--rendering-method gl_compatibil
 
 ## Actualizaciones
 
-Al abrir, la app busca en GitHub si hay algo nuevo y pregunta antes de bajarlo. Se apaga en **Ajustes →
-Actualizaciones**. Cómo funciona: [Actualizaciones automáticas](actualizaciones.md).
+Al abrir, y después cada hora, la app busca en GitHub si hay algo nuevo y pregunta antes de bajarlo. Se apaga en
+**Ajustes → Actualizaciones**. Cómo funciona: [Actualizaciones automáticas](actualizaciones.md).
 
 ## Desde el código
 

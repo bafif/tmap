@@ -39,6 +39,15 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 
 Lo cubierto y lo que falta, región por región, está en [el informe de cobertura](docs/es/cobertura.md).
 
+- [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
+      informe --red --prioridad baja` lista lo que falta. Ya no quedan huecos de prioridad alta ni de capas de regiones,
+      y la prioridad media está cerrada en los paquetes argentinos, Tierra Santa, la Edad Media, Egipto y los celtas. Falta
+      la media de las letras y el pensamiento del siglo XX, las guerras y el orden mundial, las ideas políticas, el
+      pensamiento económico, la ciencia y la cultura libre (unos 350 huecos), los tramos del mundo antiguo que quedaron
+      cerrados a medias (Mesopotamia, Anatolia, Persia, la India y Mesoamérica), lo nuevo que destapen las rondas
+      (completar una serie la vuelve tema) y la prioridad baja, casi toda de mantenimiento: unos 575
+      hechos sin fuentes, unas 700 fuentes sin enlace de lectura y fuentes medievales sin lugar de escritura. Se rellena
+      por rondas hasta que el informe de cada paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del
       siglo XX de Brasil, México, Chile y el resto de América Latina, China después de Mao, la India independiente,
       África después de la descolonización y el sudeste asiático, con sus fuentes propias.
@@ -55,8 +64,8 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (solo como autor), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes y Clarice Lispector (Galeano ya tiene ficha). Hawái no tiene región (Pearl Harbor queda
       fuera de todas).
-- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 33 regiones no americanas de
-      `regiones-del-mundo.json` (Siberia, Japón, África, Oceanía…) tienen resumen, eras y población, pero no esas tres
+- [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 32 regiones de
+      `regiones-del-mundo.json` que no son de América ni Asia central (Siberia, Japón, África, Oceanía…) tienen resumen, eras y población, pero no esas tres
       capas: el modo de religión, cultura o idioma las deja rayadas. Faltan familias (sintoísmo, religiones
       tradicionales africanas, lenguas bantúes, austronesias…).
 - [ ] **Pueblos originarios de América: lo que quedó por confirmar.** Las cifras que los revisores no pudieron cotejar
@@ -203,6 +212,15 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   regiones americanas tienen capas de cultura, idioma y religión. Las fichas americanas que ya estaban siguen el
   mismo criterio (Mesoamérica se define también por el sacrificio, las eras de los virreinatos cuentan la caída
   demográfica y el Grito de Dolores, que se dio en nombre de Fernando VII).
+- **Sin huecos en lo investigado**: cada paquete tiene un alcance fijo (sus regiones, sus años, sus ejes y qué tan
+  conocido es lo que incluye) y `tools/enciclopedia/huecos.py` lista lo que falta adentro, con Wikidata como pista y no
+  como verdad; cada lote pasa por quien escribe, quien revisa sin haberlo escrito y quien corrige, porque la revisión
+  encuentra resultados invertidos, datos falsos de Wikidata y omisiones de un lado. Así están los presidentes,
+  vicepresidentes y gobernadores argentinos que faltaban, la guerra del Paraguay combate por combate, el virreinato y
+  las independencias, Rosas y su época, los califas, cruzadas y conflictos de Tierra Santa con la versión de cada parte,
+  los papas, emperadores y cruzadas medievales, las guerras y dirigentes del siglo XX, obras de Marx, Engels, Lenin y
+  Ayn Rand, y las capas de todas las regiones investigadas hasta hoy, con sus minorías, mayorías solo donde una cifra
+  las sostiene y sin anacronismos viejos.
 - **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,
   con las coordenadas de su artículo en Wikipedia: el Fuerte o la Casa Rosada para virreyes y presidentes, el Congreso
   de su época para las leyes, el tribunal para los juicios, el campo para las batallas. Lo que no tiene un sitio único

@@ -47,8 +47,8 @@ abrí la app: no hace falta instalar nada.
 | macOS (Intel y Apple Silicon) | `TellMAP-<versión>-macos-universal.zip` |
 
 La versión de macOS no está notarizada por Apple: la primera vez se abre desde **Configuración del Sistema →
-Privacidad y seguridad** ([cómo](docs/es/instalar.md#macos-la-primera-vez)). Después, al abrir, la app avisa si hay
-una versión nueva y no baja nada hasta que le digas que sí.
+Privacidad y seguridad** ([cómo](docs/es/instalar.md#macos-la-primera-vez)). Después, al abrir y cada hora, la app
+avisa si hay una versión nueva y no baja nada hasta que le digas que sí.
 
 Para correrla desde el código hace falta [Godot 4.7](https://godotengine.org/download):
 

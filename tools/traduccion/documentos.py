@@ -6,7 +6,8 @@ Pares:
   enlaza en sus primeras líneas (`[English](../en/<name>.md)` y `[Español](../es/<nombre>.md)`), y los dos tienen que
   apuntarse entre sí.
 - En el resto del repo, `X.md` (español) y `X.en.md` (inglés), y cada uno enlaza al otro.
-Quedan afuera `CLAUDE.md`, `LICENSE*`, `CHANGELOG*` y las plantillas de `.github/`, que tienen los dos idiomas adentro.
+Quedan afuera `CLAUDE.md` y `.claude/` (instrucciones para agentes), `LICENSE*`, `CHANGELOG*` y las plantillas de
+`.github/`, que tienen los dos idiomas adentro.
 
 En todos los `.md` versionados controla además:
 - que cada enlace relativo (de Markdown o un `src`/`href` de HTML) apunte a un archivo que existe y, si lleva ancla
@@ -44,7 +45,8 @@ def versionados() -> list[str]:
 
 def excluido(ruta: str) -> bool:
     nombre = posixpath.basename(ruta)
-    return ruta.startswith(".github/") or nombre == "CLAUDE.md" or nombre.startswith(("LICENSE", "CHANGELOG"))
+    return (ruta.startswith((".github/", ".claude/")) or nombre == "CLAUDE.md"
+            or nombre.startswith(("LICENSE", "CHANGELOG")))
 
 
 def idioma(ruta: str) -> str:

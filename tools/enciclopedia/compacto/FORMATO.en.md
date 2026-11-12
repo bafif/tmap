@@ -109,6 +109,30 @@ InfoLEG, the Boletín Oficial, mises.org for the Austrian school, marxists.org f
 pirated copies of copyrighted books: if there's no legal copy, the source stays without a link (the entry is still
 worth it). `pg:` and `ws:` are marked public domain automatically; with `url:`, add `dp` only if it is.
 
+## Filling gaps in an existing package
+
+To add entries to a package that already exists (the gaps `tools/enciclopedia/huecos.py` finds, see
+[gaps in what has been researched](../../../docs/en/gaps.md)), the topic gets a different name in `meta.txt`:
+`paquete: huecos-<package>`. `construir.py` leaves out the package named like the topic, so it would not see its ids
+or be able to resolve references to them. Iterate with `--tema huecos-<package>` and **never** use `--escribir`, which
+would replace the whole package. What was built is added with
+
+    python3 tools/enciclopedia/huecos.py aplicar <topics folder>/huecos-<package> <package> --escribir
+
+which adds `salida.json` to the package and `familias-nuevas.json` to `familias.json`, appends the new works to their
+authors (whatever package they are in) and applies `parches.json`, the list of changes to existing entries:
+
+    [
+      {"seccion": "hechos", "id": "batalla-de-pavon", "agregar": {"fuentes": ["parte-de-mitre-sobre-pavon"]}},
+      {"seccion": "fuentes", "id": "facundo", "poner": {"autor_id": "sarmiento"}},
+      {"seccion": "regiones", "id": "levante", "agregar": {"eras": [
+        {"desde": 1291, "hasta": 1516, "nombre": "…", "resumen": "…"}]}}
+    ]
+
+`agregar` appends to a list what it does not have yet (and sorts eras, layers and demography by year); `poner`
+replaces the field. Without `--escribir`, `aplicar` shows what it would do; if a new id already exists in another
+package, it writes nothing.
+
 ## Tools
 
 `python3 tools/enciclopedia/compacto/consultar.py` (with no arguments it shows the help):

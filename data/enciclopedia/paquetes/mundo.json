@@ -85,6 +85,12 @@
           "resumen": "Aparecen las primeras ciudades (Uruk) y, hacia el final, la escritura cuneiforme."
         },
         {
+          "desde": -3099,
+          "hasta": -2901,
+          "nombre": "Período de Jemdet Nasr",
+          "resumen": "Etapa final de la protohistoria del sur mesopotámico (hacia 3100-2900 a. C.), que sigue a Uruk y desemboca en el Dinástico Temprano; trae tablillas protocuneiformes, sellos cilíndricos y cerámica policroma."
+        },
+        {
           "desde": -2900,
           "hasta": -2334,
           "nombre": "Período Dinástico Temprano",
@@ -97,6 +103,12 @@
           "resumen": "Sargón de Acad unifica Mesopotamia bajo un primer imperio de lengua semítica."
         },
         {
+          "desde": -2153,
+          "hasta": -2113,
+          "nombre": "Dominio gutio",
+          "resumen": "Tras la caída del Imperio acadio, reyes de origen gutio (de los montes Zagros) gobiernan parte de Mesopotamia hasta que Utu-hengal de Uruk y Ur-Nammu de Ur los desplazan hacia 2112 a. C.; cuánto duró y qué abarcó su dominio se discute (de unos pocos años a un siglo) y casi no dejaron inscripciones."
+        },
+        {
           "desde": -2112,
           "hasta": -2004,
           "nombre": "Tercera dinastía de Ur",
@@ -107,6 +119,18 @@
           "hasta": -1595,
           "nombre": "Período paleobabilónico",
           "resumen": "Hegemonía de Babilonia bajo Hammurabi y su código de leyes."
+        },
+        {
+          "desde": -1594,
+          "hasta": -1155,
+          "nombre": "Babilonia casita",
+          "resumen": "Una dinastía de origen incierto (quizá de los Zagros) reinó en Babilonia desde poco después de 1595 a. C. (cronología media; 1531 en la corta) hasta 1155 a. C., la más larga de su historia; conservó las tradiciones babilónicas, mientras al norte surgían Mitani y luego Asiria."
+        },
+        {
+          "desde": -1154,
+          "hasta": -912,
+          "nombre": "Babilonia posterior a los casitas y Asiria media",
+          "resumen": "Tras la caída casita ante Elam (1155 a. C.) reinan en Babilonia la segunda dinastía de Isin (con Nabucodonosor I) y otras dinastías breves, mientras arameos y caldeos se asientan; Asiria, potencia desde hacia 1365 a. C., se repliega hasta su recuperación neoasiria en 911."
         },
         {
           "desde": -911,
@@ -125,6 +149,54 @@
           "hasta": 637,
           "nombre": "Dominios persa, helenístico, parto y sasánida",
           "resumen": "Mesopotamia pasa de manos entre imperios hasta la conquista árabe en 637."
+        },
+        {
+          "desde": 638,
+          "hasta": 749,
+          "nombre": "Califatos rashidún y omeya",
+          "resumen": "Los ejércitos árabes toman el Irak sasánida (Qadisiyya hacia 636, Ctesifonte en 637); Kufa y Basora, fundadas como campamentos, se vuelven centros del califato, con Damasco como capital omeya desde 661."
+        },
+        {
+          "desde": 750,
+          "hasta": 1257,
+          "nombre": "Califato abasí",
+          "resumen": "Los abasíes gobiernan desde Bagdad, fundada en 762, el califato en su apogeo cultural; desde el siglo X el poder real pasa a los buyíes y luego a los selyúcidas, hasta el saqueo mongol de 1258."
+        },
+        {
+          "desde": 1258,
+          "hasta": 1533,
+          "nombre": "Ilcanato, jalayiríes, turcomanos y safávidas",
+          "resumen": "Tras la toma mongola de Bagdad (1258) el país pasa por el Ilcanato, los jalayiríes, la invasión de Tamerlán (1401), las confederaciones turcomanas Kara Koyunlu y Ak Koyunlu y, desde 1508, los safávidas."
+        },
+        {
+          "desde": 1534,
+          "hasta": 1916,
+          "nombre": "Dominio otomano",
+          "resumen": "Solimán el Magnífico toma Bagdad en 1534; los otomanos la gobiernan hasta 1917, con un paréntesis safávida (1623-1638), y dividen el país en provincias (Bagdad, Basora, Mosul)."
+        },
+        {
+          "desde": 1917,
+          "hasta": 1931,
+          "nombre": "Ocupación y mandato británico",
+          "resumen": "Gran Bretaña toma Bagdad en 1917; la conferencia de San Remo le asigna el mandato sobre Irak (1920) y la revuelta de ese año estalla contra él. Los británicos instalan a Faisal I como rey (1921) y el mandato se aplica con el tratado anglo-iraquí de 1922, hasta la independencia formal de 1932."
+        },
+        {
+          "desde": 1932,
+          "hasta": 1957,
+          "nombre": "Reino de Irak",
+          "resumen": "Irak accede a la independencia formal en 1932 como monarquía hachemita, con fuerte influencia británica, hasta el golpe de 1958."
+        },
+        {
+          "desde": 1958,
+          "hasta": 2002,
+          "nombre": "República de Irak: golpes y régimen baasista",
+          "resumen": "Una sucesión de golpes lleva al régimen baasista (desde 1968) y a la dictadura de Sadam Huseín (1979-2003), con las guerras contra Irán (1980-1988) y del Golfo (1990-1991)."
+        },
+        {
+          "desde": 2003,
+          "hasta": null,
+          "nombre": "Irak posterior a la invasión de 2003",
+          "resumen": "La invasión liderada por Estados Unidos derriba al régimen en 2003 y abre un período de ocupación, insurgencia, guerra sectaria y la lucha contra el Estado Islámico."
         }
       ],
       "religiones": [
@@ -151,10 +223,11 @@
         },
         {
           "desde": 1800,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Islam chiita",
           "familia": "islam-chii",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los chiitas son la mayoría en el Irak actual (las estimaciones los ubican en torno al 60 %); no hay censo religioso reciente y el norte es mayormente sunnita y kurdo."
         }
       ],
       "culturas": [
@@ -181,10 +254,19 @@
         },
         {
           "desde": 637,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Árabe",
           "familia": "arabe",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Con una minoría kurda importante en el norte."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Kurda",
+          "familia": "kurda",
+          "peso": "importante",
+          "nota": "Los kurdos son una minoría importante en el norte del país, con una región autónoma; no hay censo reciente que dé cifras."
         }
       ],
       "idiomas": [
@@ -211,10 +293,19 @@
         },
         {
           "desde": 637,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Árabe",
           "familia": "arabe",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "El kurdo es lengua oficial en la región autónoma del Kurdistán."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Kurdo",
+          "familia": "iranias",
+          "peso": "importante",
+          "nota": "Lengua oficial en la región autónoma del Kurdistán; se habla en el norte."
         }
       ],
       "demografia": [
@@ -575,19 +666,45 @@
           "resumen": "Cruzados y musulmanes se disputan Jerusalén y la costa."
         },
         {
+          "desde": 1292,
+          "hasta": 1515,
+          "nombre": "Sultanato mameluco",
+          "resumen": "Los mamelucos de El Cairo, dueños del interior sirio desde 1260 (Ayn Yalut), toman Acre en 1291 y gobiernan todo el Levante hasta la conquista otomana de 1516; resisten a los mongoles y sufren la peste negra y el saqueo de Damasco por Tamerlán (1400-1401)."
+        },
+        {
           "desde": 1516,
           "hasta": 1918,
           "nombre": "Dominio otomano",
           "resumen": "Siria, Líbano y Palestina forman parte del Imperio otomano hasta la Primera Guerra Mundial."
+        },
+        {
+          "desde": 1919,
+          "hasta": 1947,
+          "nombre": "Ocupación aliada y mandatos",
+          "resumen": "Tras la ocupación militar aliada (1918-1920) y la caída del efímero reino árabe de Siria (1920), Francia recibe los mandatos de Siria y el Líbano y Gran Bretaña los de Palestina y Transjordania. El mandato de Palestina incorpora la Declaración Balfour (1917), que apoyaba un «hogar nacional para el pueblo judío»; siguen la inmigración judía, la revuelta árabe de 1936-1939 y el plan de partición de la ONU (1947). El Líbano se independiza en 1943; Siria y Transjordania, en 1946; el mandato de Palestina termina en 1948."
+        },
+        {
+          "desde": 1948,
+          "hasta": null,
+          "nombre": "Independencias y conflicto árabe-israelí",
+          "resumen": "Siria, el Líbano y Jordania ya son independientes (1943-1946). En 1948 se proclama Israel; la guerra de 1948 (de independencia para los israelíes, la Nakba para los palestinos) deja más de 700 000 refugiados palestinos. Siguen las guerras de 1967 (con la ocupación israelí de Cisjordania, Gaza y el Golán, así llamada por la ONU) y 1973, la guerra civil libanesa (1975-1990), la guerra civil siria desde 2011, que derriba a Asad en 2024, y la guerra de Gaza desde el ataque de Hamás de octubre de 2023."
         }
       ],
       "religiones": [
         {
           "desde": -3500,
+          "hasta": -1201,
+          "nombre": "Religiones cananeas",
+          "familia": "politeismo-cananeo",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1200,
           "hasta": -586,
           "nombre": "Religiones cananeas y yahvismo",
           "familia": "politeismo-cananeo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde la Edad del Hierro, con el yahvismo de Israel y de Judá junto a los cultos cananeos; cuánta gente lo practicaba en exclusiva y cuándo se impuso el monoteísmo se discute."
         },
         {
           "desde": -586,
@@ -595,6 +712,30 @@
           "nombre": "Judaísmo",
           "familia": "judaismo",
           "peso": "importante"
+        },
+        {
+          "desde": 71,
+          "hasta": 299,
+          "nombre": "Religiones paganas del Levante grecorromano",
+          "familia": "religion-grecorromana",
+          "peso": "mayoritaria",
+          "nota": "Cultos locales sirios y fenicios (Baal, Atargatis, Júpiter Heliopolitano) fundidos con los grecorromanos; no hay censos, y que fueran mayoría es la estimación habitual de la historiografía."
+        },
+        {
+          "desde": 71,
+          "hasta": 299,
+          "nombre": "Judaísmo (tras la destrucción del Templo)",
+          "familia": "judaismo",
+          "peso": "importante",
+          "nota": "Tras 70 y la derrota de Bar Kojba (135) la población judía se desplaza hacia Galilea, donde se compilan la Mishná (hacia 200) y luego el Talmud de Jerusalén; en Judea es expulsada de Jerusalén (Aelia Capitolina)."
+        },
+        {
+          "desde": 71,
+          "hasta": 299,
+          "nombre": "Cristianismo",
+          "familia": "cristianismo",
+          "peso": "minoritaria",
+          "nota": "Comunidades en Jerusalén, Antioquía y la costa; el cristianismo pasa a ser mayoría recién tras Constantino."
         },
         {
           "desde": 300,
@@ -605,15 +746,32 @@
         },
         {
           "desde": 636,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Islam sunnita",
           "familia": "islam-sunni",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Vale para el Levante en conjunto: en Israel predomina el judaísmo, y en el Líbano y Siria hay comunidades cristianas, chiitas, alauitas y drusas importantes."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "importante",
+          "nota": "Es la religión de la mayoría de la población de Israel; en el conjunto del Levante pesa menos que el islam."
         }
       ],
       "culturas": [
         {
           "desde": -3500,
+          "hasta": -1201,
+          "nombre": "Cananea y otras culturas semíticas del Bronce",
+          "familia": "semitica",
+          "peso": "mayoritaria",
+          "nota": "Las ciudades-estado cananeas (Biblos, Ugarit, Hazor) y Ebla; lo israelita aparece recién en la Edad del Hierro."
+        },
+        {
+          "desde": -1200,
           "hasta": -332,
           "nombre": "Cananea, israelita y aramea",
           "familia": "semitica",
@@ -628,17 +786,42 @@
         },
         {
           "desde": 636,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Árabe",
           "familia": "arabe",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En Israel predomina la cultura judía."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Judía",
+          "familia": "judia",
+          "peso": "importante",
+          "nota": "Predomina en Israel; en el conjunto del Levante pesa menos que la árabe."
         }
       ],
       "idiomas": [
         {
           "desde": -3500,
+          "hasta": -2001,
+          "nombre": "Lenguas semíticas casi sin documentar (eblaíta en Ebla, hacia 2500-2250 a. C.)",
+          "familia": "semiticas",
+          "peso": "mayoritaria",
+          "nota": "Casi no hay escritura en la región antes de Ebla; el eblaíta es una lengua semítica oriental distinta del cananeo."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1201,
+          "nombre": "Amorreo y cananeo antiguo (nombres propios, protosinaítico, glosas de Amarna); acadio como lengua escrita",
+          "familia": "semiticas",
+          "peso": "mayoritaria",
+          "nota": "Casi todo se conoce por nombres propios, glosas en cartas en acadio (Amarna) y las inscripciones protosinaíticas; las lenguas habladas están mal documentadas."
+        },
+        {
+          "desde": -1200,
           "hasta": -500,
-          "nombre": "Lenguas cananeas (hebreo, fenicio) y arameo",
+          "nombre": "Lenguas cananeas (hebreo, fenicio, moabita) y arameo",
           "familia": "cananeas",
           "peso": "mayoritaria"
         },
@@ -651,10 +834,19 @@
         },
         {
           "desde": 636,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Árabe",
           "familia": "arabe",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En Israel la lengua mayoritaria es el hebreo."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Hebreo",
+          "familia": "hebreo",
+          "peso": "importante",
+          "nota": "Es la lengua mayoritaria en Israel; en el conjunto del Levante pesa menos que el árabe."
         }
       ],
       "demografia": [
@@ -852,6 +1044,12 @@
       "resumen": "La península de Asia Menor, puente entre Europa y Asia: la actual Turquía asiática. Allí estuvieron el Imperio hitita, Troya, Lidia, las ciudades griegas de Jonia y, más tarde, Bizancio y el Imperio otomano.",
       "eras": [
         {
+          "desde": -1760,
+          "hasta": -1651,
+          "nombre": "Colonias asirias y reinos anatolios previos al Imperio hitita",
+          "resumen": "Mercaderes asirios mantienen colonias comerciales (karum) como la de Kanesh hasta hacia 1700 a. C., y reinos locales como Kussara y Neša luchan entre sí; de ahí sale el Reino hitita antiguo hacia 1650."
+        },
+        {
           "desde": -1650,
           "hasta": -1180,
           "nombre": "Imperio hitita",
@@ -895,12 +1093,20 @@
         },
         {
           "desde": 1923,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "República de Turquía",
-          "resumen": "Atatürk funda la república con capital en Ankara."
+          "resumen": "Atatürk funda la república con capital en Ankara. Turquía en el siglo XXI, con el proceso de adhesión a la Unión Europea desde 2005 y gobiernos del AKP desde 2002."
         }
       ],
       "religiones": [
+        {
+          "desde": -1760,
+          "hasta": -1651,
+          "nombre": "Religión hitita y politeísmo anatolio",
+          "familia": "politeismo-anatolio",
+          "peso": "mayoritaria",
+          "nota": "Los textos de Kültepe son sobre todo comerciales y nombran pocos dioses; la religión de la época se conoce sobre todo por los textos hititas posteriores."
+        },
         {
           "desde": -1650,
           "hasta": -100,
@@ -964,13 +1170,21 @@
         },
         {
           "desde": 1071,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Islam sunnita",
           "familia": "islam-sunni",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Con una minoría alevi importante; no hay censo religioso."
         }
       ],
       "culturas": [
+        {
+          "desde": -1760,
+          "hasta": -1651,
+          "nombre": "Hática, hitita y luvita (con colonias comerciales asirias)",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria"
+        },
         {
           "desde": -1650,
           "hasta": -1180,
@@ -1002,13 +1216,38 @@
         },
         {
           "desde": 1071,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Turca",
           "familia": "turca",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Con una minoría kurda importante en el este."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Kurda",
+          "familia": "kurda",
+          "peso": "importante",
+          "nota": "Minoría importante en el este y el sudeste; las cifras son estimaciones."
         }
       ],
       "idiomas": [
+        {
+          "desde": -1760,
+          "hasta": -1651,
+          "nombre": "Hitita (nesita), luvita, palaíta y hático",
+          "familia": "anatolias",
+          "peso": "mayoritaria",
+          "nota": "El hático no es indoeuropeo y se extingue pronto; el hitita, el luvita y el palaíta son anatolias."
+        },
+        {
+          "desde": -1760,
+          "hasta": -1700,
+          "nombre": "Acadio (dialecto paleoasirio)",
+          "familia": "acadio",
+          "peso": "importante",
+          "nota": "Lengua de las unas 23 000 tablillas comerciales de Kültepe, escritas por mercaderes asirios. Tras las colonias el acadio vuelve a la región como lengua escrita de la cancillería hitita (anales y testamento bilingües de Hattusili I, hacia 1650-1620 a. C., y la correspondencia diplomática posterior)."
+        },
         {
           "desde": -1650,
           "hasta": -1180,
@@ -1040,10 +1279,19 @@
         },
         {
           "desde": 1071,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Turco",
           "familia": "turco",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "El kurdo se habla en el este."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Kurdo",
+          "familia": "iranias",
+          "peso": "importante",
+          "nota": "Se habla en el este y el sudeste."
         }
       ],
       "demografia": [
@@ -1365,6 +1613,12 @@
       "resumen": "El mundo egeo: la Grecia continental, las islas del Egeo y Creta. De las ciudades-estado surgieron la democracia, la filosofía, el teatro y la historiografía, y la cultura griega se extendió luego por todo el Mediterráneo oriental.",
       "eras": [
         {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Heládico medio y Creta minoica",
+          "resumen": "Aldeas amuralladas, cerámica minia y tumbas en cista en la Grecia continental (hacia 2000-1600 a. C.), mientras en Creta florece la civilización minoica de los palacios, con escritura lineal A (1800-1450 a. C.); las tumbas de fosa de Micenas marcan el paso a la civilización micénica."
+        },
+        {
           "desde": -1600,
           "hasta": -1100,
           "nombre": "Civilización micénica",
@@ -1401,6 +1655,12 @@
           "resumen": "Continuidad griega bajo el Imperio bizantino cristiano ortodoxo."
         },
         {
+          "desde": 1454,
+          "hasta": 1457,
+          "nombre": "Conquista otomana (Morea y Atenas, tributarias)",
+          "resumen": "Tras la caída de Constantinopla (1453) el Despotado de Morea y el Ducado de Atenas sobreviven pagando tributo a Mehmed II; los otomanos toman Atenas en 1456 y su Acrópolis en 1458, y conquistan la Morea en 1460."
+        },
+        {
           "desde": 1458,
           "hasta": 1821,
           "nombre": "Dominio otomano",
@@ -1414,6 +1674,14 @@
         }
       ],
       "religiones": [
+        {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Religión minoica (santuarios de cumbre y de cuevas; sin textos legibles)",
+          "familia": "religion-minoica",
+          "peso": "importante",
+          "nota": "Solo vale para Creta: se reconstruye desde la arqueología (palacios, santuarios de cumbre, cuevas sagradas, sellos y pinturas) y no se conocen los nombres de sus dioses. De la religión del Heládico medio continental no queda registro."
+        },
         {
           "desde": -1600,
           "hasta": 393,
@@ -1431,6 +1699,14 @@
       ],
       "culturas": [
         {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Heládica media y minoica",
+          "familia": "bronce-europeo",
+          "peso": "mayoritaria",
+          "nota": "Cultura heládica media en el continente y minoica en Creta, agrupadas en la familia del bronce europeo y no en la griega porque la lengua de los minoicos (lineal A) no está descifrada y cuándo llegó el griego a la península se discute (de hacia 2200 a. C. a poco antes de 1600, según los autores)."
+        },
+        {
           "desde": -1600,
           "hasta": 2000,
           "nombre": "Griega",
@@ -1439,6 +1715,22 @@
         }
       ],
       "idiomas": [
+        {
+          "desde": -1760,
+          "hasta": -1451,
+          "nombre": "Protogriego y lenguas del sustrato prehelénico",
+          "familia": "griego",
+          "peso": "importante",
+          "nota": "El griego se atestigua desde los textos en lineal B (hacia 1450 a. C.); antes no hay escritura continental, y el sustrato prehelénico (topónimos terminados en -nthos o -ssos) indica que se hablaban otras lenguas, cuya naturaleza se discute."
+        },
+        {
+          "desde": -1760,
+          "hasta": -1451,
+          "nombre": "Minoico (lineal A y jeroglíficos cretenses, sin descifrar)",
+          "familia": "preindoeuropeas",
+          "peso": "importante",
+          "nota": "Lengua de la Creta minoica; el lineal A se usó de 1800 a 1450 a. C. y no está descifrado, así que no se sabe de qué familia era."
+        },
         {
           "desde": -1450,
           "hasta": 2000,
@@ -1844,9 +2136,9 @@
         },
         {
           "desde": 1861,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Italia unificada",
-          "resumen": "Reino de Italia desde 1861 y República desde 1946."
+          "resumen": "Reino de Italia desde 1861 y República desde 1946. La República Italiana en el siglo XXI, dentro de la Unión Europea y de la zona euro."
         }
       ],
       "religiones": [
@@ -1873,10 +2165,11 @@
         },
         {
           "desde": 380,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Mayoría nominal; la práctica regular y las minorías ortodoxa, protestante, islámica y de no creyentes han crecido."
         }
       ],
       "culturas": [
@@ -1948,7 +2241,7 @@
         },
         {
           "desde": -200,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Latina e italiana",
           "familia": "latina",
           "peso": "mayoritaria"
@@ -2426,6 +2719,12 @@
           "resumen": "Ciro, Darío y Jerjes gobiernan desde Persépolis y Susa hasta la conquista de Alejandro."
         },
         {
+          "desde": -329,
+          "hasta": -313,
+          "nombre": "Conquista de Alejandro y guerras de los diádocos",
+          "resumen": "Alejandro Magno toma Persépolis y Ecbatana (330 a. C.) y muere en 323; sus generales se disputan Irán hasta que Seleuco se afirma en Babilonia (312 a. C.) y funda el Imperio seléucida."
+        },
+        {
           "desde": -312,
           "hasta": 224,
           "nombre": "Seléucidas y partos",
@@ -2524,11 +2823,43 @@
           "peso": "mayoritaria"
         },
         {
+          "desde": -329,
+          "hasta": -301,
+          "nombre": "Persa en transición del antiguo al medio",
+          "familia": "persa",
+          "peso": "mayoritaria",
+          "nota": "La escritura cuneiforme persa antigua desaparece con los aqueménidas y casi no hay textos iranios hasta el persa medio; el paso entre ambas etapas está mal documentado."
+        },
+        {
+          "desde": -329,
+          "hasta": -301,
+          "nombre": "Griego (administración macedonia)",
+          "familia": "griego",
+          "peso": "importante",
+          "nota": "Lengua de los conquistadores y de la nueva administración; el arameo imperial siguió siendo lengua de cancillería."
+        },
+        {
           "desde": -300,
           "hasta": 650,
           "nombre": "Persa medio (pahlavi) y parto",
           "familia": "persa",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 651,
+          "hasta": 799,
+          "nombre": "Persa medio (pahlavi) y primeras formas del persa nuevo",
+          "familia": "persa",
+          "peso": "mayoritaria",
+          "nota": "El pahlavi sigue en uso (la literatura zoroastriana se fija sobre todo en los siglos IX-X). Los primeros textos en persa nuevo son judeopersas del siglo VIII (una carta de Dandan Oilik, fechada en 718, y la inscripción de Tang-e Azao, de 752-753); lo que empieza en el siglo IX es la literatura en escritura árabe. Entre medio hay pocos textos."
+        },
+        {
+          "desde": 651,
+          "hasta": 799,
+          "nombre": "Árabe (administración y colonos)",
+          "familia": "arabe",
+          "peso": "importante",
+          "nota": "Según la tradición historiográfica, al-Hajjaj pasó la cancillería de Irak del persa al árabe en 697, y la de Jorasán pasó al árabe hacia 742; en el campo siguió hablándose iranio."
         },
         {
           "desde": 800,
@@ -2902,6 +3233,12 @@
       "resumen": "El núcleo histórico de China, en las cuencas del río Amarillo y el Yangtsé. Allí se desarrolló una de las civilizaciones más antiguas, con una escritura continua desde los huesos oraculares Shang, un Estado burocrático desde los Qin y los Han, y una tradición histórica y filosófica muy rica.",
       "eras": [
         {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Erlitou (Xia, discutido)",
+          "resumen": "Cultura de Erlitou, en el valle del Amarillo, con palacios y bronces rituales; la arqueología china la identifica con los Xia de la tradición, algo que varios autores occidentales consideran prematuro por no haber escritos contemporáneos."
+        },
+        {
           "desde": -1600,
           "hasta": -1046,
           "nombre": "Dinastía Shang",
@@ -2938,6 +3275,12 @@
           "resumen": "Reunificación, apertura al exterior y edad de oro de la poesía."
         },
         {
+          "desde": 908,
+          "hasta": 959,
+          "nombre": "Cinco Dinastías y Diez Reinos",
+          "resumen": "Tras la caída de los Tang (907), cinco dinastías efímeras se suceden en la llanura central y una decena de reinos se reparten el sur, hasta la reunificación progresiva de los Song desde 960."
+        },
+        {
           "desde": 960,
           "hasta": 1368,
           "nombre": "Song y Yuan",
@@ -2948,6 +3291,18 @@
           "hasta": 1912,
           "nombre": "Ming y Qing",
           "resumen": "Los últimos imperios, hasta la revolución de 1911-1912."
+        },
+        {
+          "desde": 1913,
+          "hasta": 1948,
+          "nombre": "República de China",
+          "resumen": "Sucede a los Qing en 1912; vienen la época de los señores de la guerra, la unificación nominal del Kuomintang (1928), la invasión japonesa (1937-1945) y la guerra civil entre el Kuomintang y el Partido Comunista. En 1949 el Partido Comunista proclama la República Popular y el gobierno de la República de China se retira a Taiwán, donde sigue hasta hoy."
+        },
+        {
+          "desde": 1949,
+          "hasta": null,
+          "nombre": "República Popular China",
+          "resumen": "Fundada por el Partido Comunista en 1949; la marcan el Gran Salto Adelante y la hambruna de 1959-1961 (de 15 a 46 millones de muertos según las estimaciones), la Revolución Cultural (1966-1976), las reformas de Deng Xiaoping desde 1978, las protestas de Tiananmén de 1989, que el ejército disolvió, y el crecimiento económico posterior."
         }
       ],
       "demografia": [
@@ -3189,9 +3544,32 @@
       ],
       "religiones": [
         {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Ritos de Erlitou (adivinación con huesos, vasos rituales de bronce)",
+          "familia": "religion-tradicional-china",
+          "peso": "importante",
+          "nota": "Sin textos de la época: los bronces rituales y los palacios de Erlitou sugieren un culto organizado; lo que se sabe de los antepasados y de Di viene de los huesos oraculares Shang (hacia 1250 a. C.), y el Cielo (Tian) es un concepto de los Zhou."
+        },
+        {
           "desde": -1600,
+          "hasta": -1251,
+          "nombre": "Ritos Shang tempranos (sin textos)",
+          "familia": "religion-tradicional-china",
+          "peso": "importante"
+        },
+        {
+          "desde": -1250,
+          "hasta": -1047,
+          "nombre": "Religión Shang: antepasados, Di y espíritus de la naturaleza",
+          "familia": "religion-tradicional-china",
+          "peso": "mayoritaria",
+          "nota": "Se conoce por los huesos oraculares de Anyang, desde el reinado de Wu Ding."
+        },
+        {
+          "desde": -1046,
           "hasta": 2000,
-          "nombre": "Religión tradicional china (culto a los antepasados y al Cielo)",
+          "nombre": "Religión tradicional china (antepasados y Cielo)",
           "familia": "religion-tradicional-china",
           "peso": "mayoritaria"
         },
@@ -3203,30 +3581,57 @@
           "peso": "importante"
         },
         {
-          "desde": 142,
-          "hasta": 2000,
-          "nombre": "Taoísmo",
-          "familia": "taoismo",
-          "peso": "importante"
-        },
-        {
           "desde": 67,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Budismo",
           "familia": "budismo",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Se practica en templos de las tradiciones han y tibetana; las cifras de adeptos son discutidas por la dificultad de medir la religión en China."
+        },
+        {
+          "desde": 142,
+          "hasta": null,
+          "nombre": "Taoísmo",
+          "familia": "taoismo",
+          "peso": "importante",
+          "nota": "En las encuestas pocas personas se declaran taoístas, porque para muchos chinos el término designa a los sacerdotes ordenados; sus ritos se practican también en la religión popular."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Religión tradicional china (antepasados y Cielo)",
+          "familia": "religion-tradicional-china",
+          "peso": "mayoritaria",
+          "nota": "Según el Pew Research Center («Measuring Religion in China», 2023), una minoría se declara religiosa, aunque muchos practican ritos tradicionales; qué cuenta como religión se discute."
         }
       ],
       "culturas": [
         {
+          "desde": -1760,
+          "hasta": -1601,
+          "nombre": "Erlitou y culturas del bronce temprano",
+          "familia": "china",
+          "peso": "importante",
+          "nota": "La identificación con los Xia es discutida; la continuidad cultural con los Shang es lo que permite ponerla en esta familia."
+        },
+        {
           "desde": -1600,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "China (han)",
           "familia": "china",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Con 55 minorías reconocidas oficialmente."
         }
       ],
       "idiomas": [
+        {
+          "desde": -1760,
+          "hasta": -1251,
+          "nombre": "Protochino (sin escritura conservada)",
+          "familia": "chino",
+          "peso": "importante",
+          "nota": "Se supone que las gentes de Erlitou y de los primeros Shang hablaban un antecesor del chino antiguo, pero no hay textos: la primera escritura es la de los huesos oraculares de Wu Ding (hacia 1250 a. C.)."
+        },
         {
           "desde": -1250,
           "hasta": 200,
@@ -3243,7 +3648,7 @@
         },
         {
           "desde": 960,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Chino (con mandarín como lengua común)",
           "familia": "chino",
           "peso": "mayoritaria"
@@ -3417,6 +3822,12 @@
           "hasta": 1947,
           "nombre": "Mogoles y dominio británico",
           "resumen": "Imperio mogol (1526-1857) y Raj británico (1858-1947)."
+        },
+        {
+          "desde": 1948,
+          "hasta": null,
+          "nombre": "India, Pakistán y Bangladés independientes",
+          "resumen": "La partición de 1947 crea la India y Pakistán con violencia masiva: unos 14,5 millones de personas cruzan las nuevas fronteras y las estimaciones de muertos van de 200 000 a 2 millones (la mayoría de los especialistas acepta cerca de un millón). La India es una república desde 1950, con la Emergencia de 1975-1977 y reformas económicas desde 1991; Pakistán pasa por varios gobiernos militares; ambos países combaten por Cachemira (1947-1948, 1965, 1999) y Bangladés se independiza de Pakistán tras la guerra de 1971."
         }
       ],
       "religiones": [
@@ -3428,11 +3839,19 @@
           "peso": "mayoritaria"
         },
         {
-          "desde": -500,
+          "desde": -600,
           "hasta": 2000,
+          "nombre": "Jainismo",
+          "familia": "jainismo",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -500,
+          "hasta": null,
           "nombre": "Hinduismo",
           "familia": "hinduismo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En la parte pakistaní y bangladesí de las cuencas la mayoría es musulmana."
         },
         {
           "desde": -500,
@@ -3442,18 +3861,12 @@
           "peso": "importante"
         },
         {
-          "desde": -600,
-          "hasta": 2000,
-          "nombre": "Jainismo",
-          "familia": "jainismo",
-          "peso": "minoritaria"
-        },
-        {
           "desde": 1000,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Islam sunnita",
           "familia": "islam-sunni",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Pakistán, Bangladés y los musulmanes del norte de la India suman más de un tercio de la población del área; en Pakistán y Bangladés es la religión de la gran mayoría."
         }
       ],
       "culturas": [
@@ -3473,13 +3886,21 @@
         },
         {
           "desde": 1206,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Indoaria y indo-persa",
           "familia": "india",
           "peso": "mayoritaria"
         }
       ],
       "idiomas": [
+        {
+          "desde": -1760,
+          "hasta": -1501,
+          "nombre": "Lenguas desconocidas de la fase tardía del Indo (y quizá las primeras indoarias)",
+          "familia": "sin-clasificar",
+          "peso": "importante",
+          "nota": "La escritura del Indo no está descifrada y no se sabe qué lengua hablaban sus gentes (se propusieron el protodravidiano, el munda y una lengua perdida); la lectura indoaria, defendida por S. R. Rao, es marginal. El sánscrito védico se atestigua solo por la tradición oral del Rigveda, fijada por escrito mucho después y de datación discutida (desde hacia 1500 a. C.)."
+        },
         {
           "desde": -1500,
           "hasta": -500,
@@ -3496,10 +3917,11 @@
         },
         {
           "desde": 500,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Lenguas indoarias (hindi, urdu, punyabí, bengalí…)",
           "familia": "indoarias",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Con importantes lenguas dravidianas al sur, fuera del área de las cuencas."
         }
       ],
       "demografia": [
@@ -3850,6 +4272,12 @@
       "resumen": "El área cultural del centro y sur de México y parte de Centroamérica, donde se desarrollaron olmecas, zapotecos, mayas, teotihuacanos y mexicas. Compartían el cultivo del maíz, un calendario ritual de 260 días, la escritura glífica, el juego de pelota y el sacrificio humano como parte del culto. Para su estudio se combinan la arqueología, los códices y las crónicas coloniales.",
       "eras": [
         {
+          "desde": -1760,
+          "hasta": -1501,
+          "nombre": "Arcaico tardío y primeras aldeas del Formativo",
+          "resumen": "Los cultivadores de maíz se asientan en aldeas con cerámica (como las de Soconusco), antes de que la civilización olmeca de San Lorenzo despegue hacia 1400-1200 a. C."
+        },
+        {
           "desde": -1500,
           "hasta": 250,
           "nombre": "Preclásico",
@@ -3881,9 +4309,9 @@
         },
         {
           "desde": 1821,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "México y Centroamérica independientes",
-          "resumen": "Independencia de México y de las repúblicas centroamericanas."
+          "resumen": "Independencia de México y de las repúblicas centroamericanas. Los países de la región en el siglo XXI, con la alternancia democrática en México desde 2000, la migración hacia el norte y la violencia del narcotráfico y de las pandillas."
         }
       ],
       "religiones": [
@@ -5065,9 +5493,9 @@
         },
         {
           "desde": 1880,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Argentina y Uruguay modernos",
-          "resumen": "Inmigración masiva, expansión agropecuaria y urbanización."
+          "resumen": "Inmigración masiva, expansión agropecuaria y urbanización. La crisis argentina de 2001-2002, los gobiernos kirchneristas, el de Macri, el de Alberto Fernández y el de Milei en la Argentina, y la alternancia entre el Frente Amplio y los partidos tradicionales en Uruguay."
         }
       ],
       "religiones": [
@@ -5087,10 +5515,11 @@
         },
         {
           "desde": 1580,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Cerca de dos tercios de los argentinos se declaran católicos; Uruguay tiene una de las mayores proporciones de no creyentes de América."
         },
         {
           "desde": 1825,
@@ -5102,10 +5531,19 @@
         },
         {
           "desde": 1889,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Judaísmo",
           "familia": "judaismo",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "La Argentina tiene la mayor comunidad judía de América Latina."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Protestantismo (evangélicos y otras iglesias)",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "Los evangélicos son cerca del 15 % de los argentinos (CONICET, 2019)."
         }
       ],
       "culturas": [
@@ -5155,13 +5593,6 @@
           "peso": "importante"
         },
         {
-          "desde": 1750,
-          "hasta": 1879,
-          "nombre": "Pueblos de habla mapudungun de la pampa (ranqueles, Salinas Grandes)",
-          "familia": "mapuche",
-          "peso": "minoritaria"
-        },
-        {
           "desde": 1600,
           "hasta": 1880,
           "nombre": "Afrodescendientes, esclavizados y libres",
@@ -5170,8 +5601,15 @@
           "nota": "En Buenos Aires eran cerca de un tercio de la población a fines del siglo XVIII, según los padrones."
         },
         {
+          "desde": 1750,
+          "hasta": 1879,
+          "nombre": "Pueblos de habla mapudungun de la pampa (ranqueles, Salinas Grandes)",
+          "familia": "mapuche",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1810,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Criolla",
           "familia": "criolla",
           "peso": "mayoritaria"
@@ -5185,17 +5623,18 @@
           "nota": "Con la española, el grueso de la inmigración masiva."
         },
         {
+          "desde": 1880,
+          "hasta": null,
+          "nombre": "Comunidades indígenas y descendientes",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria",
+          "nota": "Se cuentan quienes se reconocen indígenas o descendientes de pueblos indígenas; son una minoría de la población."
+        },
+        {
           "desde": 1889,
           "hasta": 2000,
           "nombre": "Judíos (colonias agrícolas desde 1889 y Buenos Aires)",
           "familia": "judia",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1880,
-          "hasta": 2000,
-          "nombre": "Comunidades indígenas y descendientes",
-          "familia": "pueblos-originarios",
           "peso": "minoritaria"
         }
       ],
@@ -5209,25 +5648,26 @@
         },
         {
           "desde": 1000,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Guaraní",
           "familia": "tupi-guarani",
           "peso": "importante",
-          "nota": "En el Paraguay siguió siendo la lengua de la mayoría hasta hoy."
-        },
-        {
-          "desde": 1580,
-          "hasta": 2000,
-          "nombre": "Español",
-          "familia": "espanol",
-          "peso": "mayoritaria"
+          "nota": "En el Paraguay siguió siendo la lengua de la mayoría hasta hoy. En el Paraguay es lengua oficial junto con el español y la habla la mayoría de la población; también se habla en el nordeste argentino."
         },
         {
           "desde": 1550,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Quechua (lengua general en el Tucumán colonial; hoy en Santiago del Estero)",
           "familia": "andinas",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Sigue hablándose en Santiago del Estero y entre migrantes andinos."
+        },
+        {
+          "desde": 1580,
+          "hasta": null,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "mayoritaria"
         },
         {
           "desde": 1750,
@@ -5809,7 +6249,7 @@
       "titulo": "Ilíada",
       "titulo_original": null,
       "autor": "Homero",
-      "autor_id": null,
+      "autor_id": "homero",
       "tipo": "primaria",
       "genero": "poesia",
       "escrita": {
@@ -6503,7 +6943,7 @@
       "titulo": "Daodejing (Tao Te King)",
       "titulo_original": null,
       "autor": "Atribuido a Laozi",
-      "autor_id": null,
+      "autor_id": "laozi",
       "tipo": "primaria",
       "genero": "filosofia",
       "escrita": {
@@ -6543,7 +6983,7 @@
       "titulo": "El arte de la guerra",
       "titulo_original": null,
       "autor": "Atribuido a Sunzi",
-      "autor_id": null,
+      "autor_id": "sun-tzu",
       "tipo": "primaria",
       "genero": "ciencia",
       "escrita": {
@@ -6664,7 +7104,7 @@
       "titulo": "Arthashastra",
       "titulo_original": null,
       "autor": "Atribuido a Kautilya (Chanakya)",
-      "autor_id": null,
+      "autor_id": "chanakia",
       "tipo": "primaria",
       "genero": "administrativo",
       "escrita": {
@@ -7144,6 +7584,454 @@
         "en": "Martín Fierro"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "guerra-civil-cesar",
+      "titulo": "Comentarios sobre la guerra civil",
+      "titulo_original": "Commentarii de bello civili",
+      "autor": "Cayo Julio César",
+      "autor_id": "julio-cesar",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -47,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "grecia",
+          "iberia",
+          "francia",
+          "magreb",
+          "egipto"
+        ],
+        "desde": -49,
+        "hasta": -48
+      },
+      "idioma_original": "Latín",
+      "soporte": "Rollos de papiro; transmitida en códices medievales",
+      "resumen": "Relato de César, en tres libros, de su guerra contra Pompeyo y el Senado en 49 y 48 a. C., desde poco antes de cruzar el Rubicón hasta la batalla de Farsalia y la huida de Pompeyo a Egipto. Cuenta la campaña de Hispania (Ilerda), el asedio de Marsella, el desastre de Curión en África y la persecución de Pompeyo en Grecia. Tiene un final abrupto y al menos dieciséis pasajes perdidos, de modo que quizá quedó inconcluso; los manuscritos más antiguos son del siglo X. Lo continúan las guerras de Alejandría, de África y de Hispania, cuya autoría se reparte entre Hircio y otros.",
+      "por_que_importa": "Es la única fuente de muchos de los hechos que narra y está escrita por el vencedor: César se presenta como víctima de una conspiración de sus enemigos, justifica sus actos como una defensa de su dignidad y de la paz de Roma, y omite detalles militares. Como la Guerra de las Galias, se lee a la vez como informe de campaña y como propaganda.",
+      "leer": [
+        {
+          "titulo": "De Bello Gallico y otros comentarios, con la guerra civil (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/10657",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción al español (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Comentarios_a_la_Guerra_Civil",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino, libro I (The Latin Library)",
+          "url": "https://www.thelatinlibrary.com/caesar/bc1.shtml",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "De bello civili",
+        "en": "Commentarii de Bello Civili"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "odisea",
+      "titulo": "Odisea",
+      "titulo_original": "Ὀδύσσεια",
+      "autor": "Homero",
+      "autor_id": "homero",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -725,
+        "anio_hasta": -675,
+        "aprox": true,
+        "lugar": "Jonia",
+        "lon": 27.5,
+        "lat": 38.2
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "anatolia"
+        ],
+        "desde": -1180,
+        "hasta": -1170
+      },
+      "idioma_original": "Griego homérico",
+      "soporte": "Poema oral fijado por escrito; transmitido en rollos de papiro",
+      "resumen": "Poema épico de 24 cantos sobre el regreso de Odiseo a Ítaca después de la guerra de Troya y sobre su venganza contra los pretendientes de su esposa. Se atribuye a Homero, y se discute si lo compuso la misma persona que la Ilíada.",
+      "por_que_importa": "Es, junto con la Ilíada, la base de la literatura griega y una de las fuentes de los mitos sobre el regreso de los héroes; no es una crónica histórica.",
+      "leer": [
+        {
+          "titulo": "The Odyssey, traducción de S. Butler (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1727",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "La Odisea, traducción de Luis Segalá y Estalella (1910), Wikisource",
+          "url": "https://es.wikisource.org/wiki/La_Odisea_%28Luis_Segal%C3%A1_y_Estalella%29",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Odisea",
+        "en": "Odyssey"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "eneida",
+      "titulo": "Eneida",
+      "titulo_original": "Aeneis",
+      "autor": "Virgilio",
+      "autor_id": "virgilio",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -29,
+        "anio_hasta": -19,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "anatolia"
+        ],
+        "desde": -1180,
+        "hasta": -1150
+      },
+      "idioma_original": "Latín",
+      "soporte": "Poema en rollos de papiro, luego códices",
+      "resumen": "Poema épico de doce libros sobre la huida de Eneas de Troya y su llegada al Lacio, de donde saldría el linaje de Roma. Virgilio lo compuso por encargo, según la tradición, de Augusto, y murió antes de revisarlo del todo.",
+      "por_que_importa": "Da a Roma un origen troyano y es el poema épico central de la literatura latina; narra una leyenda, no hechos documentados.",
+      "leer": [
+        {
+          "titulo": "The Aeneid, traducción de J. Dryden (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/228",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Eneida, traducción en verso de Miguel Antonio Caro (1905), Wikisource",
+          "url": "https://es.wikisource.org/wiki/Eneida_%28Caro_tr.%29",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Eneida",
+        "en": "Aeneid"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "apologia-de-socrates-platon",
+      "titulo": "Apología de Sócrates",
+      "titulo_original": "Ἀπολογία Σωκράτους",
+      "autor": "Platón",
+      "autor_id": "platon",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -399,
+        "anio_hasta": -380,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -399,
+        "hasta": -399
+      },
+      "idioma_original": "Griego ático",
+      "soporte": "Rollos de papiro",
+      "resumen": "Versión de Platón del discurso de defensa de Sócrates ante el tribunal de Atenas en -399. Platón, que dice haber estado presente, no pretende reproducirlo palabra por palabra, y Jenofonte dejó otra Apología de tono distinto.",
+      "por_que_importa": "Es el relato más conocido del juicio y de las ideas de Sócrates, que no escribió nada; su retrato depende de lo que cuentan Platón y otros discípulos.",
+      "leer": [
+        {
+          "titulo": "Apology, traducción de B. Jowett (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1656",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Apología de Sócrates, traducción de Patricio de Azcárate (1871), Wikisource",
+          "url": "https://es.wikisource.org/wiki/Apolog%C3%ADa_de_S%C3%B3crates_%28de_Azc%C3%A1rate_tr.%29",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Apología de Sócrates",
+        "en": "Apology (Plato)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "monolito-de-kurkh",
+      "titulo": "Monolito de Kurkh",
+      "titulo_original": null,
+      "autor": "Salmanasar III de Asiria",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -852,
+        "aprox": true,
+        "lugar": "Kurkh (Üçtepe Höyük)",
+        "lon": 40.54,
+        "lat": 37.826
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "levante"
+        ],
+        "desde": -853,
+        "hasta": -852
+      },
+      "idioma_original": "Acadio (cuneiforme asirio)",
+      "soporte": "Estela de piedra con relieve",
+      "resumen": "Inscripción del rey asirio Salmanasar III que cuenta sus seis primeros años de campañas. Describe la batalla de Qarqar (-853), donde dice haber derrotado a una coalición de reyes de la región, entre ellos Ahab de Israel, y haber matado a unos 14 000 hombres.",
+      "por_que_importa": "Contiene la primera mención conocida de los árabes en un texto y nombra a Ahab de Israel. Es un texto del rey vencedor: los reyes de la coalición siguieron reinando y las fuentes de Israel y Damasco no mencionan la batalla.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Monolito de Kurkh",
+        "en": "Kurkh Monoliths"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ashtadhyayi",
+      "titulo": "Ashtadhyayi",
+      "titulo_original": "अष्टाध्यायी",
+      "autor": "Panini",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": -400,
+        "aprox": true,
+        "lugar": "Taxila",
+        "lon": 72.787,
+        "lat": 33.746
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -400,
+        "hasta": -400
+      },
+      "idioma_original": "Sánscrito",
+      "soporte": "Transmisión oral; luego manuscritos",
+      "resumen": "Tratado de gramática del sánscrito en unas cuatro mil reglas (sutras) muy condensadas, organizadas en ocho capítulos. Su fecha se ubica entre los siglos VI y IV a. C. según el autor que se consulte.",
+      "por_que_importa": "Fija la forma del sánscrito clásico y es uno de los primeros análisis formales de una lengua; su estructura se compara con la de los sistemas formales modernos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Astadhiai",
+        "en": "Aṣṭādhyāyī"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "registros-de-xuanzang",
+      "titulo": "Gran crónica Tang de las regiones occidentales",
+      "titulo_original": "大唐西域記",
+      "autor": "Xuanzang (redactada por Bianji)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 646,
+        "aprox": false,
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "persia"
+        ],
+        "desde": 629,
+        "hasta": 645
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Manuscritos y ediciones impresas",
+      "resumen": "Relato del viaje del monje budista Xuanzang desde China hasta la India entre 629 y 645, redactado por Bianji a partir de lo que Xuanzang dictó. Describe reinos, ciudades y monasterios, incluida la corte del rey Harsha.",
+      "por_que_importa": "Es una de las fuentes principales sobre el norte de la India del siglo VII; es la mirada de un monje budista, con sus propias preferencias religiosas.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Records of the Western Regions"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "baburnama",
+      "titulo": "Baburnama",
+      "titulo_original": "بابر نامہ",
+      "autor": "Babur",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1530,
+        "aprox": true,
+        "lugar": "Agra",
+        "lon": 78.02,
+        "lat": 27.18
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "persia"
+        ],
+        "desde": 1494,
+        "hasta": 1529
+      },
+      "idioma_original": "Chagatái",
+      "soporte": "Manuscritos",
+      "resumen": "Memorias de Babur, fundador del Imperio mogol, escritas en turco chagatái. Cuentan su vida desde 1494, su pérdida de Samarcanda y Ferganá, su paso a Kabul y su conquista del norte de la India, incluida la batalla de Panipat de 1526.",
+      "por_que_importa": "Es el relato en primera persona de la fundación del Imperio mogol; Babur escribe sobre sí mismo y sobre sus enemigos con la mirada de un vencedor.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Baburnama",
+        "en": "Baburnama"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "kitab-al-hind-de-al-biruni",
+      "titulo": "Libro de la India (Tahqiq ma li-l-Hind)",
+      "titulo_original": null,
+      "autor": "Al-Biruni",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": 1030,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": 1017,
+        "hasta": 1030
+      },
+      "idioma_original": "Árabe",
+      "soporte": null,
+      "resumen": "Descripción de la India escrita por el sabio Al-Biruni, que vivía en la corte de Mahmud de Ghazni. Trata de su religión, su ciencia, sus costumbres y su geografía, y recoge, en el capítulo LVIII, el modo en que Mahmud destruyó el ídolo de Somnath en 416 H (1025-26).",
+      "por_que_importa": "Es un testimonio contemporáneo hecho por un observador que escribe desde la corte del conquistador; su interés es describir a los indios, no narrar las campañas de Mahmud.",
+      "leer": [
+        {
+          "titulo": "Alberuni's India, trad. de E. C. Sachau (1888), tomo II (Internet Archive)",
+          "url": "https://archive.org/details/alberunisindiaac02biruuoft",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "India (Al-Biruni)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "zafarnama-de-yazdi",
+      "titulo": "Zafarnama (Libro de las victorias)",
+      "titulo_original": "ظفرنامه",
+      "autor": "Sharaf ad-Din Ali Yazdi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1424,
+        "anio_hasta": 1428,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "persia",
+          "india",
+          "anatolia"
+        ],
+        "desde": 1360,
+        "hasta": 1405
+      },
+      "idioma_original": "Persa",
+      "soporte": null,
+      "resumen": "Biografía de Timur escrita una generación después de su muerte por encargo de Ibrahim Sultan, nieto de Timur, sobre la base de la crónica de Nizam ad-Din Shami (1404) y de los diarios de sus secretarios.",
+      "por_que_importa": "Es la fuente principal de sus campañas y está escrita para glorificarlo; sus cifras y motivos son los del vencedor.",
+      "leer": [
+        {
+          "titulo": "The History of India as Told by Its Own Historians, vol. III, ed. H. M. Elliot y J. Dowson (1871), extractos del Zafarnama, pp. 478 y ss. (Internet Archive)",
+          "url": "https://archive.org/details/historyofindiaas03elli",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "The History of Timur-Bec, trad. de J. Darby (1723), tomo II, libro IV, caps. 18-20 (Internet Archive)",
+          "url": "https://archive.org/details/39020024846811-thehistoryoftim",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Zafarnama (Yazdi biography)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-nunes",
+      "titulo": "Crónica de los reyes de Bisnaga",
+      "titulo_original": null,
+      "autor": "Fernão Nunes",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1536,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "sur-de-la-india"
+        ],
+        "desde": 1336,
+        "hasta": 1536
+      },
+      "idioma_original": "Portugués",
+      "soporte": null,
+      "resumen": "Crónica portuguesa de la historia de los reyes de Vijayanagara (Bisnaga) desde su origen hasta el siglo XVI, escrita hacia 1536 por Fernão Nunes (Nuniz).",
+      "por_que_importa": "Es una fuente de dos siglos después de la fundación del reino y recoge tradiciones locales; no es un documento contemporáneo de 1336.",
+      "leer": [
+        {
+          "titulo": "A Forgotten Empire (Vijayanagar), de Robert Sewell (1900), con las crónicas de Nunes y Paes traducidas (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/3310",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -7254,7 +8142,8 @@
       "resumen": "Sacerdote judío de Jerusalén, comandante en Galilea durante la revuelta del 66. Capturado por los romanos, se instaló en Roma bajo los Flavios y escribió «La guerra de los judíos» y «Antigüedades judías».",
       "obras": [
         "guerra-de-los-judios",
-        "antiguedades-judias"
+        "antiguedades-judias",
+        "contra-apion"
       ],
       "wikipedia": {
         "es": "Flavio Josefo",
@@ -7426,7 +8315,8 @@
       ],
       "resumen": "Nacido en Halicarnaso, en Caria, viajó por Egipto, Fenicia, Mesopotamia y el Mar Negro. Sus Historias, sobre las guerras médicas y los pueblos del mundo conocido, le valieron el título de padre de la historia.",
       "obras": [
-        "historias-herodoto"
+        "historias-herodoto",
+        "historias-de-herodoto-libros-ii-iii"
       ],
       "wikipedia": {
         "es": "Heródoto",
@@ -7483,7 +8373,8 @@
       "resumen": "Discípulo de Sócrates y maestro de Aristóteles; fundó la Academia en Atenas. Sus diálogos, entre ellos la República, son la base de la filosofía occidental.",
       "obras": [
         "republica-platon",
-        "leyes-platon"
+        "leyes-platon",
+        "apologia-de-socrates-platon"
       ],
       "wikipedia": {
         "es": "Platón",
@@ -7548,7 +8439,8 @@
       "resumen": "Conquistó la Galia (58-50 a. C.), venció a Pompeyo en la guerra civil y fue nombrado dictador perpetuo; fue asesinado en los idus de marzo del 44 a. C. Antes, como gobernador de la Hispania Ulterior (61-60 a. C.), atacó a los lusitanos del monte Herminio y llegó por mar a Brigantium (Dion Casio XXXVII.52-53). Sus Comentarios son la fuente casi única de la conquista de la Galia y los escribió para su carrera política (Rambaud, 1953; Riggsby, 2006). Las cifras de Plutarco (César 15: un millón de muertos y otro de cautivos) y de Plinio (VII.92: 1.192.000 muertos) no se pueden comprobar y se leen como propaganda; si la conquista fue un genocidio se discute (Raaflaub, 2021).",
       "obras": [
         "guerra-de-las-galias",
-        "denario-trofeo-galo-de-cesar"
+        "denario-trofeo-galo-de-cesar",
+        "guerra-civil-cesar"
       ],
       "wikipedia": {
         "es": "Julio César",
@@ -8200,6 +9092,1087 @@
         "es": "José Hernández (escritor)",
         "en": "José Hernández (writer)"
       }
+    },
+    {
+      "id": "homero",
+      "nombre": "Homero",
+      "activo": {
+        "lugar": "Jonia",
+        "lon": 27.5,
+        "lat": 38.2,
+        "desde": -750,
+        "hasta": -700,
+        "aprox": true
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta griego al que la tradición atribuye la Ilíada y la Odisea. Los antiguos lo ubicaban en Jonia, en la costa egea de Anatolia, y varias ciudades se disputaban su cuna; los estudiosos discuten si fue una persona, cuántos poetas hay detrás de los poemas y cómo pasaron de la tradición oral a la escritura.",
+      "obras": [
+        "odisea",
+        "iliada"
+      ],
+      "wikipedia": {
+        "es": "Homero",
+        "en": "Homer"
+      },
+      "wikidata": "Q6691"
+    },
+    {
+      "id": "safo",
+      "nombre": "Safo",
+      "nacimiento": {
+        "anio": -630,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": -570,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Mitilene",
+        "lon": 26.554,
+        "lat": 39.105,
+        "desde": -610,
+        "hasta": -580,
+        "aprox": true
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta lírica de la isla de Lesbos, cuya obra se reunió en la Antigüedad en nueve libros. Se conservan sobre todo fragmentos, transmitidos por citas de autores posteriores y por papiros.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Safo",
+        "en": "Sappho"
+      },
+      "wikidata": "Q17892"
+    },
+    {
+      "id": "tales-de-mileto",
+      "nombre": "Tales de Mileto",
+      "nacimiento": {
+        "anio": -624,
+        "aprox": true,
+        "lugar": "Mileto",
+        "lon": 27.276,
+        "lat": 37.531
+      },
+      "muerte": {
+        "anio": -546,
+        "aprox": true,
+        "lugar": "Mileto",
+        "lon": 27.276,
+        "lat": 37.531
+      },
+      "activo": {
+        "lugar": "Mileto",
+        "lon": 27.276,
+        "lat": 37.531,
+        "desde": -600,
+        "hasta": -550,
+        "aprox": true
+      },
+      "roles": [
+        "filósofo",
+        "astrónomo"
+      ],
+      "resumen": "Filósofo de Mileto al que Aristóteles presenta como el primero en buscar un principio natural de todas las cosas, que según él era el agua. Heródoto cuenta que predijo un eclipse durante la guerra entre medos y lidios; no se conserva nada escrito por él.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tales de Mileto",
+        "en": "Thales of Miletus"
+      },
+      "wikidata": "Q36303"
+    },
+    {
+      "id": "esopo",
+      "nombre": "Esopo",
+      "muerte": {
+        "anio": -564,
+        "aprox": true,
+        "lugar": "Delfos",
+        "lon": 22.5009,
+        "lat": 38.4824
+      },
+      "roles": [
+        "fabulista"
+      ],
+      "resumen": "Fabulista al que la tradición presenta como esclavo en Samos y muerto en Delfos. Su existencia es incierta: Heródoto lo menciona como esclavo de un samio, pero la Vida de Esopo, su biografía más extensa, es una novela popular muy posterior y las fábulas que circulan con su nombre se reunieron siglos después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Esopo",
+        "en": "Aesop"
+      },
+      "wikidata": "Q43423"
+    },
+    {
+      "id": "pitagoras",
+      "nombre": "Pitágoras",
+      "nacimiento": {
+        "anio": -570,
+        "aprox": true,
+        "lugar": "Samos",
+        "lon": 26.833,
+        "lat": 37.75
+      },
+      "muerte": {
+        "anio": -495,
+        "aprox": true,
+        "lugar": "Metaponto",
+        "lon": 16.817,
+        "lat": 40.416
+      },
+      "activo": {
+        "lugar": "Crotona",
+        "lon": 17.117,
+        "lat": 39.083,
+        "desde": -530,
+        "hasta": -500,
+        "aprox": true
+      },
+      "roles": [
+        "filósofo",
+        "matemático"
+      ],
+      "resumen": "Filósofo de Samos que se instaló en Crotona, en la Magna Grecia, y reunió una comunidad de discípulos con reglas de vida comunes. No dejó escritos, y lo que se le atribuye, incluido el teorema que lleva su nombre, consta en fuentes muy posteriores a él.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pitágoras",
+        "en": "Pythagoras"
+      },
+      "wikidata": "Q10261"
+    },
+    {
+      "id": "laozi",
+      "nombre": "Laozi",
+      "activo": {
+        "lugar": "Luoyang",
+        "lon": 112.45,
+        "lat": 34.62,
+        "desde": -520,
+        "hasta": -520,
+        "aprox": true
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Figura semilegendaria a la que la tradición atribuye el Daodejing y presenta como mayor que Confucio y archivista de la corte Zhou. Sima Qian da en el Shiji noticias contradictorias sobre él y no hay consenso sobre si existió ni sobre quién compuso el libro.",
+      "obras": [
+        "daodejing"
+      ],
+      "wikipedia": {
+        "es": "Lao-Tse",
+        "en": "Laozi"
+      },
+      "wikidata": "Q9333"
+    },
+    {
+      "id": "sun-tzu",
+      "nombre": "Sun Tzu",
+      "activo": {
+        "lugar": "Suzhou",
+        "lon": 120.619,
+        "lat": 31.3,
+        "desde": -500,
+        "hasta": -500,
+        "aprox": true
+      },
+      "roles": [
+        "estratega"
+      ],
+      "resumen": "Estratega al que se atribuye El arte de la guerra y a quien Sima Qian presenta como general al servicio del rey Helü de Wu. Victor Mair considera esa biografía esencialmente ficticia, y muchos especialistas fechan el libro en la época de los Reinos Combatientes.",
+      "obras": [
+        "el-arte-de-la-guerra"
+      ],
+      "wikipedia": {
+        "es": "Sun Tzu",
+        "en": "Sun Tzu"
+      },
+      "wikidata": "Q37151"
+    },
+    {
+      "id": "heraclito",
+      "nombre": "Heráclito",
+      "nacimiento": {
+        "anio": -535,
+        "aprox": true,
+        "lugar": "Éfeso",
+        "lon": 27.3417,
+        "lat": 37.9411
+      },
+      "muerte": {
+        "anio": -475,
+        "aprox": true,
+        "lugar": "Éfeso",
+        "lon": 27.3417,
+        "lat": 37.9411
+      },
+      "activo": {
+        "lugar": "Éfeso",
+        "lon": 27.3417,
+        "lat": 37.9411,
+        "desde": -505,
+        "hasta": -475,
+        "aprox": true
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo de Éfeso al que los antiguos llamaban el Oscuro por su estilo enigmático. Su libro se perdió y se conservan fragmentos citados por autores posteriores, en los que aparecen el cambio constante y el logos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Heráclito",
+        "en": "Heraclitus"
+      },
+      "wikidata": "Q41155"
+    },
+    {
+      "id": "esquilo",
+      "nombre": "Esquilo",
+      "nacimiento": {
+        "anio": -525,
+        "aprox": true,
+        "lugar": "Eleusis",
+        "lon": 23.545,
+        "lat": 38.041
+      },
+      "muerte": {
+        "anio": -456,
+        "aprox": true,
+        "lugar": "Gela",
+        "lon": 14.25,
+        "lat": 37.067
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -499,
+        "hasta": -458,
+        "aprox": false
+      },
+      "roles": [
+        "dramaturgo"
+      ],
+      "resumen": "Dramaturgo ateniense, el más antiguo de los tres grandes autores de tragedias cuya obra se conserva. De entre setenta y noventa obras se conservan siete, entre ellas Los persas (-472), sobre la derrota de Jerjes en Salamina, y la Orestíada; según su epitafio, combatió en Maratón.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Esquilo",
+        "en": "Aeschylus"
+      },
+      "wikidata": "Q40939"
+    },
+    {
+      "id": "buda-gautama",
+      "nombre": "Buda Gautama",
+      "nacimiento": {
+        "anio": -480,
+        "aprox": true,
+        "lugar": "Lumbini",
+        "lon": 83.276,
+        "lat": 27.481
+      },
+      "muerte": {
+        "anio": -400,
+        "aprox": true,
+        "lugar": "Kushinagar",
+        "lon": 83.889,
+        "lat": 26.74
+      },
+      "roles": [
+        "maestro espiritual"
+      ],
+      "resumen": "Siddharta Gautama, fundador del budismo. Una inscripción del emperador Ashoka (siglo III a. C.) señala Lumbini como su lugar de nacimiento, y la tradición pone su muerte en Kushinagar. Sus fechas se discuten: las crónicas de Sri Lanka dan -624 a -544, los historiadores de comienzos del siglo XX usaban -563 a -483, y en el simposio de Gotinga de 1988 la mayoría de los especialistas puso su muerte hacia -400, con veinte años de margen. Sus enseñanzas se transmitieron de forma oral y se pusieron por escrito siglos después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Buda Gautama",
+        "en": "The Buddha"
+      },
+      "wikidata": "Q9441"
+    },
+    {
+      "id": "sofocles",
+      "nombre": "Sófocles",
+      "nacimiento": {
+        "anio": -496,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "muerte": {
+        "anio": -406,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -468,
+        "hasta": -406,
+        "aprox": false
+      },
+      "roles": [
+        "dramaturgo"
+      ],
+      "resumen": "Dramaturgo ateniense, autor de Edipo rey y Antígona. De más de cien obras se conservan siete tragedias completas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sófocles",
+        "en": "Sophocles"
+      },
+      "wikidata": "Q7235"
+    },
+    {
+      "id": "euripides",
+      "nombre": "Eurípides",
+      "nacimiento": {
+        "anio": -480,
+        "aprox": true,
+        "lugar": "Salamina",
+        "lon": 23.485,
+        "lat": 37.938
+      },
+      "muerte": {
+        "anio": -406,
+        "aprox": false,
+        "lugar": "Pela",
+        "lon": 22.526,
+        "lat": 40.76
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -455,
+        "hasta": -408,
+        "aprox": false
+      },
+      "roles": [
+        "dramaturgo"
+      ],
+      "resumen": "Dramaturgo ateniense; se conservan unas dieciocho o diecinueve obras (la autoría de Reso se discute), entre ellas Medea y Las bacantes. Murió en Macedonia, en la corte del rey Arquelao.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eurípides",
+        "en": "Euripides"
+      },
+      "wikidata": "Q48305"
+    },
+    {
+      "id": "socrates",
+      "nombre": "Sócrates",
+      "nacimiento": {
+        "anio": -470,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "muerte": {
+        "anio": -399,
+        "aprox": false,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -440,
+        "hasta": -399,
+        "aprox": false
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo ateniense que no dejó escritos: se lo conoce por Platón, Jenofonte y Aristófanes, que lo retratan de maneras distintas. Fue condenado a beber cicuta en -399, acusado de no honrar a los dioses de la ciudad y de corromper a la juventud.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sócrates",
+        "en": "Socrates"
+      },
+      "wikidata": "Q913"
+    },
+    {
+      "id": "democrito",
+      "nombre": "Demócrito",
+      "nacimiento": {
+        "anio": -460,
+        "aprox": true,
+        "lugar": "Abdera",
+        "lon": 24.973,
+        "lat": 40.934
+      },
+      "muerte": {
+        "anio": -370,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Abdera",
+        "lon": 24.973,
+        "lat": 40.934,
+        "desde": -430,
+        "hasta": -380,
+        "aprox": true
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo de Abdera, discípulo de Leucipo y defensor de que todo está hecho de átomos y vacío. Sus escritos se perdieron y se lo conoce por fragmentos y por lo que cuenta Aristóteles.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Demócrito",
+        "en": "Democritus"
+      },
+      "wikidata": "Q41980"
+    },
+    {
+      "id": "hipocrates",
+      "nombre": "Hipócrates",
+      "nacimiento": {
+        "anio": -460,
+        "aprox": true,
+        "lugar": "Cos",
+        "lon": 27.11,
+        "lat": 36.815
+      },
+      "muerte": {
+        "anio": -370,
+        "aprox": true,
+        "lugar": "Larisa",
+        "lon": 22.413,
+        "lat": 39.638
+      },
+      "activo": {
+        "lugar": "Cos",
+        "lon": 27.11,
+        "lat": 36.815,
+        "desde": -430,
+        "hasta": -380,
+        "aprox": true
+      },
+      "roles": [
+        "médico"
+      ],
+      "resumen": "Médico de Cos al que se considera el fundador de la medicina griega. El Corpus hipocrático reúne unos sesenta textos de varios autores y épocas, y no se sabe cuáles escribió él.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hipócrates",
+        "en": "Hippocrates"
+      },
+      "wikidata": "Q5264"
+    },
+    {
+      "id": "aristofanes",
+      "nombre": "Aristófanes",
+      "nacimiento": {
+        "anio": -446,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "muerte": {
+        "anio": -386,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -427,
+        "hasta": -388,
+        "aprox": true
+      },
+      "roles": [
+        "dramaturgo"
+      ],
+      "resumen": "Comediógrafo ateniense, el único autor de la comedia antigua cuya obra se conserva (once comedias), entre ellas Las nubes, que caricaturiza a Sócrates, Las avispas y Lisístrata.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aristófanes",
+        "en": "Aristophanes"
+      },
+      "wikidata": "Q43353"
+    },
+    {
+      "id": "chanakia",
+      "nombre": "Chanakia (Kautilya)",
+      "activo": {
+        "lugar": "Pataliputra",
+        "lon": 85.1376,
+        "lat": 25.6093,
+        "desde": -321,
+        "hasta": -297,
+        "aprox": true
+      },
+      "roles": [
+        "consejero",
+        "tratadista"
+      ],
+      "resumen": "Brahmán y consejero de Chandragupta Maurya según la tradición india, que le atribuye el Arthashastra y lo identifica con Kautilya. Su figura se conoce por relatos posteriores, y los especialistas tienen el tratado por una compilación de varios autores, de entre los siglos II a. C. y III d. C.",
+      "obras": [
+        "arthashastra"
+      ],
+      "wikipedia": {
+        "es": "Chanakia",
+        "en": "Chanakya"
+      },
+      "wikidata": "Q9045"
+    },
+    {
+      "id": "epicuro",
+      "nombre": "Epicuro",
+      "nacimiento": {
+        "anio": -341,
+        "aprox": false,
+        "lugar": "Samos",
+        "lon": 26.833,
+        "lat": 37.75
+      },
+      "muerte": {
+        "anio": -270,
+        "aprox": false,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "activo": {
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838,
+        "desde": -306,
+        "hasta": -270,
+        "aprox": false
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo que fundó en Atenas el Jardín, una escuela de vida en común. Enseñó que el placer, entendido como ausencia de dolor y de perturbación, es el fin de la vida; se conservan tres cartas y dos colecciones de máximas, y el resto de su pensamiento se conoce por Lucrecio y Diógenes Laercio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Epicuro",
+        "en": "Epicurus"
+      },
+      "wikidata": "Q43216"
+    },
+    {
+      "id": "virgilio",
+      "nombre": "Virgilio",
+      "nacimiento": {
+        "anio": -70,
+        "aprox": false,
+        "lugar": "Mantua",
+        "lon": 10.791,
+        "lat": 45.156
+      },
+      "muerte": {
+        "anio": -19,
+        "aprox": false,
+        "lugar": "Brindisi",
+        "lon": 17.946,
+        "lat": 40.638
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": -40,
+        "hasta": -19,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta romano de la época de Augusto, autor de las Bucólicas, las Geórgicas y la Eneida, el poema épico sobre el origen troyano de Roma. Según su biógrafo Donato, murió sin terminar de revisar la Eneida y pidió que se destruyera; Augusto ordenó publicarla.",
+      "obras": [
+        "eneida"
+      ],
+      "wikipedia": {
+        "es": "Virgilio",
+        "en": "Virgil"
+      },
+      "wikidata": "Q1398"
+    },
+    {
+      "id": "horacio",
+      "nombre": "Horacio",
+      "nacimiento": {
+        "anio": -65,
+        "aprox": false,
+        "lugar": "Venosa",
+        "lon": 15.817,
+        "lat": 40.967
+      },
+      "muerte": {
+        "anio": -8,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": -35,
+        "hasta": -8,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta romano de la época de Augusto, autor de las Sátiras, las Odas, las Epístolas y el Arte poética. Combatió con Bruto en Filipos y fue amigo de Virgilio y protegido de Mecenas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Horacio",
+        "en": "Horace"
+      },
+      "wikidata": "Q6197"
+    },
+    {
+      "id": "galeno",
+      "nombre": "Galeno",
+      "nacimiento": {
+        "anio": 129,
+        "aprox": false,
+        "lugar": "Pérgamo",
+        "lon": 27.184,
+        "lat": 39.129
+      },
+      "muerte": {
+        "anio": 216,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028,
+        "desde": 162,
+        "hasta": 200,
+        "aprox": true
+      },
+      "roles": [
+        "médico"
+      ],
+      "resumen": "Médico griego de Pérgamo que atendió a gladiadores y luego a la corte de Marco Aurelio en Roma. Su obra, muy extensa, fijó para la medicina europea y árabe durante siglos la teoría de los cuatro humores y una anatomía basada en la disección de animales. La fecha de su muerte es incierta: hacia 199 según el léxico Suda, 216 según otros cómputos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Galeno",
+        "en": "Galen"
+      },
+      "wikidata": "Q8778"
+    },
+    {
+      "id": "li-bai",
+      "nombre": "Li Bai",
+      "nacimiento": {
+        "anio": 701,
+        "aprox": false,
+        "lugar": "Suyab o Sichuan (discutido)"
+      },
+      "muerte": {
+        "anio": 762,
+        "aprox": false,
+        "lugar": "Dangtu",
+        "lon": 118.489,
+        "lat": 31.551
+      },
+      "activo": {
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27,
+        "desde": 742,
+        "hasta": 744,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta de la dinastía Tang, entre los más leídos de China; se conservan unos mil poemas. Pasó una breve etapa en la corte de Chang'an y vivió casi siempre viajando.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Li Bai",
+        "en": "Li Bai"
+      },
+      "wikidata": "Q7071"
+    },
+    {
+      "id": "du-fu",
+      "nombre": "Du Fu",
+      "nacimiento": {
+        "anio": 712,
+        "aprox": false,
+        "lugar": "Gongyi",
+        "lon": 112.985,
+        "lat": 34.751
+      },
+      "muerte": {
+        "anio": 770,
+        "aprox": false,
+        "lugar": "Tanzhou",
+        "lon": 113.132,
+        "lat": 28.244
+      },
+      "activo": {
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27,
+        "desde": 746,
+        "hasta": 755,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta de la dinastía Tang. Vivió la rebelión de An Lushan (755-763), que aparece en muchos de sus poemas; se conservan unos mil cuatrocientos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Du Fu",
+        "en": "Du Fu"
+      },
+      "wikidata": "Q33772"
+    },
+    {
+      "id": "al-juarismi",
+      "nombre": "Al-Juarismi",
+      "nacimiento": {
+        "anio": 780,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 850,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315,
+        "desde": 813,
+        "hasta": 833,
+        "aprox": false
+      },
+      "roles": [
+        "matemático",
+        "astrónomo"
+      ],
+      "resumen": "Matemático y astrónomo que trabajó en Bagdad bajo el califa al-Mamún. Su tratado sobre el cálculo por al-yabr (de ahí la palabra álgebra) y otro sobre los numerales indios, conservado en versión latina, difundieron en Europa el sistema decimal posicional; su nombre dio origen a la palabra algoritmo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Al-Juarismi",
+        "en": "Al-Khwarizmi"
+      },
+      "wikidata": "Q9038"
+    },
+    {
+      "id": "avicena",
+      "nombre": "Avicena",
+      "nacimiento": {
+        "anio": 980,
+        "aprox": false,
+        "lugar": "Afshona",
+        "lon": 64.379,
+        "lat": 39.994
+      },
+      "muerte": {
+        "anio": 1037,
+        "aprox": false,
+        "lugar": "Hamadán",
+        "lon": 48.517,
+        "lat": 34.8
+      },
+      "roles": [
+        "médico",
+        "filósofo"
+      ],
+      "resumen": "Médico y filósofo que escribió sobre todo en árabe y también en persa (el Danishnama). Su Canon de medicina se usó como texto en universidades europeas y del mundo islámico durante siglos, y El libro de la curación reúne su filosofía y su ciencia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Avicena",
+        "en": "Avicenna"
+      },
+      "wikidata": "Q8011"
+    },
+    {
+      "id": "omar-jayam",
+      "nombre": "Omar Jayam",
+      "nacimiento": {
+        "anio": 1048,
+        "aprox": false,
+        "lugar": "Nishapur",
+        "lon": 58.796,
+        "lat": 36.213
+      },
+      "muerte": {
+        "anio": 1131,
+        "aprox": false,
+        "lugar": "Nishapur",
+        "lon": 58.796,
+        "lat": 36.213
+      },
+      "activo": {
+        "lugar": "Nishapur",
+        "lon": 58.796,
+        "lat": 36.213,
+        "desde": 1070,
+        "hasta": 1131,
+        "aprox": true
+      },
+      "roles": [
+        "matemático",
+        "astrónomo",
+        "poeta"
+      ],
+      "resumen": "Matemático y astrónomo persa que participó en la reforma del calendario y resolvió ecuaciones cúbicas con métodos geométricos. Su fama como poeta de cuartetos (rubaiyat) se debe en gran parte a la versión inglesa de FitzGerald de 1859, y los especialistas discuten cuáles son suyos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Omar Jayam",
+        "en": "Omar Khayyam"
+      },
+      "wikidata": "Q35900"
+    },
+    {
+      "id": "zhu-xi",
+      "nombre": "Zhu Xi",
+      "nacimiento": {
+        "anio": 1130,
+        "aprox": false,
+        "lugar": "Yóuxī Xiàn",
+        "lon": 118.185,
+        "lat": 26.173
+      },
+      "muerte": {
+        "anio": 1200,
+        "aprox": false,
+        "lugar": "Jianyang",
+        "lon": 118.116,
+        "lat": 27.335
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Filósofo de la dinastía Song del Sur que sistematizó el neoconfucianismo. Sus comentarios a los Cuatro Libros fueron desde 1313 la base de los exámenes imperiales, hasta que estos se abolieron en 1905.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Zhu Xi",
+        "en": "Zhu Xi"
+      },
+      "wikidata": "Q9397"
+    },
+    {
+      "id": "rumi",
+      "nombre": "Yalal ad-Din Rumi",
+      "nacimiento": {
+        "anio": 1207,
+        "aprox": false,
+        "lugar": "Vajsh o Balj (discutido)"
+      },
+      "muerte": {
+        "anio": 1273,
+        "aprox": false,
+        "lugar": "Konya",
+        "lon": 32.492,
+        "lat": 37.873
+      },
+      "activo": {
+        "lugar": "Konya",
+        "lon": 32.492,
+        "lat": 37.873,
+        "desde": 1228,
+        "hasta": 1273,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "maestro sufí"
+      ],
+      "resumen": "Poeta y maestro sufí de lengua persa, de familia de Balj y nacido, según su biógrafo Franklin Lewis, en Vajsh, en el actual Tayikistán, que se instaló en Konya, en el sultanato selyúcida de Rum. Escribió el Masnaví y el Diván de Shams; sus seguidores fundaron la orden mevleví.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rumi",
+        "en": "Rumi"
+      },
+      "wikidata": "Q43347"
+    },
+    {
+      "id": "hafez",
+      "nombre": "Hafez de Shiraz",
+      "nacimiento": {
+        "anio": 1325,
+        "aprox": true,
+        "lugar": "Shiraz",
+        "lon": 52.531,
+        "lat": 29.61
+      },
+      "muerte": {
+        "anio": 1390,
+        "aprox": true,
+        "lugar": "Shiraz",
+        "lon": 52.531,
+        "lat": 29.61
+      },
+      "activo": {
+        "lugar": "Shiraz",
+        "lon": 52.531,
+        "lat": 29.61,
+        "desde": 1350,
+        "hasta": 1390,
+        "aprox": true
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta persa de Shiraz, maestro del gazal. Su Diván se sigue recitando en Irán y se usa para consultar el porvenir.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hafez de Shiraz",
+        "en": "Hafez"
+      },
+      "wikidata": "Q6240"
+    },
+    {
+      "id": "giordano-bruno",
+      "nombre": "Giordano Bruno",
+      "nacimiento": {
+        "anio": 1548,
+        "aprox": false,
+        "lugar": "Nola",
+        "lon": 14.533,
+        "lat": 40.933
+      },
+      "muerte": {
+        "anio": 1600,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "roles": [
+        "filósofo"
+      ],
+      "resumen": "Fraile dominico y filósofo italiano que sostuvo un universo infinito con innumerables mundos. Tras ocho años preso de la Inquisición, fue quemado en Roma en 1600 por herejía; los historiadores discuten cuánto pesaron en la condena su cosmología y cuánto sus tesis teológicas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Giordano Bruno",
+        "en": "Giordano Bruno"
+      },
+      "wikidata": "Q36330"
+    },
+    {
+      "id": "galileo",
+      "nombre": "Galileo Galilei",
+      "nacimiento": {
+        "anio": 1564,
+        "aprox": false,
+        "lugar": "Pisa",
+        "lon": 10.4,
+        "lat": 43.717
+      },
+      "muerte": {
+        "anio": 1642,
+        "aprox": false,
+        "lugar": "Arcetri",
+        "lon": 11.252,
+        "lat": 43.755
+      },
+      "activo": {
+        "lugar": "Universidad de Padua",
+        "lon": 11.87,
+        "lat": 45.42,
+        "desde": 1592,
+        "hasta": 1610,
+        "aprox": false
+      },
+      "roles": [
+        "astrónomo",
+        "matemático"
+      ],
+      "resumen": "Matemático y astrónomo italiano que con el telescopio observó las lunas de Júpiter, las fases de Venus y las montañas de la Luna, y defendió el sistema de Copérnico. En 1633 la Inquisición romana lo condenó por vehemente sospecha de herejía y pasó sus últimos años bajo arresto domiciliario.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Galileo Galilei",
+        "en": "Galileo Galilei"
+      },
+      "wikidata": "Q307"
+    },
+    {
+      "id": "byron",
+      "nombre": "Lord Byron",
+      "nacimiento": {
+        "anio": 1788,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "muerte": {
+        "anio": 1824,
+        "aprox": false,
+        "lugar": "Mesolongi",
+        "lon": 21.429,
+        "lat": 38.369
+      },
+      "activo": {
+        "lugar": "Mesolongi",
+        "lon": 21.429,
+        "lat": 38.369,
+        "desde": 1823,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta inglés que en 1823 se sumó a la guerra de independencia de Grecia, financió una parte de la flota y organizó tropas en Mesolongi, donde murió de fiebre en 1824 sin haber entrado en combate.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lord Byron",
+        "en": "Lord Byron"
+      },
+      "wikidata": "Q5679"
+    },
+    {
+      "id": "abu-nuwas",
+      "nombre": "Abu Nuwas",
+      "nacimiento": {
+        "anio": 756,
+        "aprox": true,
+        "lugar": "Ahvaz"
+      },
+      "muerte": {
+        "anio": 814,
+        "aprox": true,
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315
+      },
+      "activo": {
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315,
+        "desde": 786,
+        "hasta": 813,
+        "aprox": true
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta en árabe, de padre árabe y madre persa, figura principal de la poesía «moderna» (muhdath) de la corte abasí bajo Harun al-Rashid y al-Amin, conocido por su poesía del vino y personaje de Las mil y una noches. Las fechas de su nacimiento y de su muerte varían según la fuente.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Abu Nuwas",
+        "en": "Abu Nuwas"
+      },
+      "wikidata": "Q5670"
     }
   ],
   "hechos": [
@@ -9398,6 +11371,562 @@
         "es": "Declaración de independencia de la Argentina",
         "en": "Argentine Declaration of Independence"
       }
+    },
+    {
+      "id": "guerras-medicas",
+      "titulo": "Guerras médicas",
+      "anio": -499,
+      "anio_hasta": -449,
+      "aprox": false,
+      "lugar": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "tipo": "batalla",
+      "resumen": "Serie de guerras entre el Imperio persa y las ciudades griegas, desde la revuelta de las ciudades jonias en -499 hasta una paz que la tradición ubica en -449 (la paz de Calias, cuya existencia algunos historiadores discuten). Incluyen las batallas de Maratón, Termópilas, Salamina y Platea. Heródoto, que escribió una generación después y desde el lado griego, es la fuente principal.",
+      "regiones": [
+        "grecia",
+        "persia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Guerras médicas",
+        "en": "Greco-Persian Wars"
+      }
+    },
+    {
+      "id": "batalla-de-las-termopilas",
+      "titulo": "Batalla de las Termópilas",
+      "anio": -480,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Termópilas",
+      "lon": 22.537,
+      "lat": 38.796,
+      "tipo": "batalla",
+      "resumen": "Un ejército griego aliado, con el rey Leónidas I de Esparta al frente, bloquea tres días el paso de las Termópilas al ejército de Jerjes I hasta que los persas lo rodean por un sendero de montaña. Heródoto da 2,6 millones de combatientes persas, hasta 20 000 persas muertos y 4000 griegos; los historiadores modernos estiman el ejército persa entre unos 120 000 y 300 000 hombres y los griegos caídos en unos 2000.",
+      "regiones": [
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de las Termópilas",
+        "en": "Battle of Thermopylae"
+      }
+    },
+    {
+      "id": "batalla-de-gaugamela",
+      "titulo": "Batalla de Gaugamela",
+      "anio": -331,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Gaugamela",
+      "lon": 43.25,
+      "lat": 36.36,
+      "tipo": "batalla",
+      "resumen": "Alejandro Magno derrota al ejército de Darío III cerca de Gaugamela, en el norte de Mesopotamia, y Darío huye. La fecha tradicional, el 1 de octubre, se deduce de un eclipse lunar anterior. Las fuentes antiguas dan para el ejército persa cifras de entre 245 000 (Curcio) y más de un millón (Arriano, 1 040 000; Diodoro y Plutarco, un millón), que los historiadores modernos descartan.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [
+        "anabasis-de-alejandro-arriano"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Gaugamela",
+        "en": "Battle of Gaugamela"
+      }
+    },
+    {
+      "id": "batalla-de-plassey",
+      "titulo": "Batalla de Plassey",
+      "anio": 1757,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Palashi (Plassey)",
+      "lon": 88.258,
+      "lat": 23.79,
+      "tipo": "batalla",
+      "resumen": "El 23 de junio de 1757 la Compañía Británica de las Indias Orientales, al mando de Robert Clive, derrota al nabab de Bengala Siraj ud-Daula, apoyado por una pequeña artillería francesa. Clive había pactado en secreto con el comandante del nabab, Mir Jafar, y con otros cortesanos (Rai Durlabh, Yar Lutuf Khan y los banqueros Jagat Seth), cuyas tropas no combatieron. Según Clive, los británicos tuvieron 22 muertos y 50 heridos, y el nabab perdió unos 500 hombres. Mir Jafar fue puesto en el trono de Bengala y su hijo Miran hizo matar a Siraj ud-Daula pocos días después.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Plassey",
+        "en": "Battle of Plassey"
+      }
+    },
+    {
+      "id": "guerra-de-independencia-de-grecia",
+      "titulo": "Guerra de independencia de Grecia",
+      "anio": 1821,
+      "anio_hasta": 1829,
+      "aprox": false,
+      "lugar": "Trípolis (Tripolitsa)",
+      "lon": 22.375,
+      "lat": 37.508,
+      "tipo": "batalla",
+      "resumen": "Rebelión de los griegos contra el Imperio otomano, iniciada en 1821. El sultán hizo ahorcar al patriarca Gregorio V en Constantinopla; los griegos tomaron Trípolis (Tripolitsa) en septiembre de 1821 y mataron a buena parte de su población musulmana y judía: unas 8000 personas según Thomas Gordon, que llegó poco después, y 10 000 según Spyridon Trikoupis. En 1822 las tropas otomanas mataron a unos 25 000 habitantes de Quíos y vendieron como esclavos a unos 45 000, según las estimaciones más citadas. El ejército egipcio de Ibrahim Pachá, que desembarcó en 1825, puso la rebelión al borde de la derrota, hasta que las flotas británica, francesa y rusa destruyeron la flota otomano-egipcia en Navarino (1827). Lord Byron murió en Mesolongi en 1824. El protocolo de Londres de 1830 reconoció a Grecia como Estado independiente y el tratado de 1832 fijó sus fronteras y puso en el trono a Otón de Baviera.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de Independencia de Grecia",
+        "en": "Greek War of Independence"
+      }
+    },
+    {
+      "id": "terremoto-de-shaanxi-de-1556",
+      "titulo": "Terremoto de Shaanxi de 1556",
+      "anio": 1556,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Huaxian, Shaanxi",
+      "lon": 109.7,
+      "lat": 34.5,
+      "tipo": "desastre",
+      "resumen": "El 23 de enero de 1556 un terremoto destruyó la región del río Wei, en Shaanxi, donde buena parte de la población vivía en casas excavadas en el loes. La cifra tradicional es de unos 830 000 muertos. Las publicaciones de la Administración Sismológica de China la explican como la baja total del registro de hogares, que incluiría a quienes migraron o murieron después de hambre y epidemias, y estiman unos 100 000 muertos directos; otros científicos de esa administración dan 450 000 o 530 000.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Terremoto de Shaanxi de 1556",
+        "en": "1556 Shaanxi earthquake"
+      }
+    },
+    {
+      "id": "imperio-medo",
+      "titulo": "Imperio medo",
+      "anio": -615,
+      "anio_hasta": -550,
+      "aprox": true,
+      "lugar": "Hamadán",
+      "lon": 48.517,
+      "lat": 34.8,
+      "tipo": "politico",
+      "resumen": "Estado de los medos en la meseta iraní, con capital en Ecbatana. Las inscripciones asirias los nombran desde -834 como jefes locales separados; un ejército medo unificado aparece en -615 en la Crónica babilónica, al mando de Ciaxares, que con Babilonia destruye Asiria (Nínive, -612). Según la Crónica de Nabonido, en -550 las tropas de Astiages se rebelaron y lo entregaron a Ciro II. Heródoto atribuye la fundación a Deyoces y le da un dominio hasta el río Halis; Heleen Sancisi-Weerdenburg y Karen Radner sostienen que ese imperio existe sobre todo en el relato de Heródoto, y muchos historiadores lo ven como una confederación laxa.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Reino medo",
+        "en": "Median kingdom"
+      }
+    },
+    {
+      "id": "batalla-del-eclipse",
+      "titulo": "Batalla del eclipse",
+      "anio": -585,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Halis (Kızılırmak)",
+      "lon": 38.407,
+      "lat": 39.853,
+      "tipo": "batalla",
+      "resumen": "Combate entre lidios y medos, en el sexto año de su guerra, que se interrumpió cuando el día se volvió noche. Heródoto no dice dónde fue y cuenta que las partes hicieron después la paz con el río Halis como frontera; el mapa lo ubica allí por convención, y el lugar del combate es desconocido. Según Heródoto, Tales de Mileto había predicho el eclipse; la identificación moderna lo fecha el 28 de mayo de -585, y muchos historiadores dudan de que Tales pudiera predecirlo.",
+      "regiones": [
+        "anatolia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Eclipse solar del 28 de mayo de 585 a. C.",
+        "en": "Eclipse of Thales"
+      }
+    },
+    {
+      "id": "muerte-de-midas-y-ataque-cimerio-a-gordion",
+      "titulo": "Muerte de Midas y ataque cimerio a Gordion",
+      "anio": -695,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Gordion",
+      "lon": 31.978,
+      "lat": 39.65,
+      "tipo": "politico",
+      "resumen": "Según Eusebio, los cimerios tomaron Gordion hacia -695 y el rey Midas murió, y según Julio Africano esto ocurrió hacia -676; Estrabón cuenta que Midas se suicidó bebiendo sangre de toro. La capa de incendio que la arqueología había asociado a este ataque se fecha hoy hacia -800, antes del reinado de Midas.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Gordio",
+        "en": "Gordion"
+      }
+    },
+    {
+      "id": "inicio-del-principado",
+      "titulo": "Inicio del Principado",
+      "anio": -27,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "politico",
+      "resumen": "En -27 Octavio entrega sus poderes al Senado, que le concede el título de Augusto y el mando de las provincias principales. Roma pasa de la República al régimen que Augusto presenta en sus Res gestae como la restauración de la república y que los historiadores llaman Principado.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [
+        "res-gestae-divi-augusti"
+      ],
+      "wikipedia": {
+        "es": "Principado (Antigua Roma)",
+        "en": "Principate"
+      }
+    },
+    {
+      "id": "reino-de-wu",
+      "titulo": "Reino de Wu",
+      "anio": 222,
+      "anio_hasta": 280,
+      "aprox": false,
+      "lugar": "Nankín",
+      "lon": 118.779,
+      "lat": 32.061,
+      "tipo": "politico",
+      "resumen": "Sun Quan, que gobernaba el bajo Yangtsé desde 200 como sucesor de su hermano Sun Ce, recibe de Cao Pi el título de rey de Wu en 221, se declara independiente de Wei en 222 y se proclama emperador en 229. Su capital fue Wuchang y, desde 229, Jianye (Nankín). El reino, uno de los Tres Reinos, cae ante la dinastía Jin del Oeste en 280.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Wu (reino)",
+        "en": "Eastern Wu"
+      }
+    },
+    {
+      "id": "concilio-de-constantinopla-i",
+      "titulo": "Primer Concilio de Constantinopla",
+      "anio": 381,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Constantinopla",
+      "lon": 28.976,
+      "lat": 41.012,
+      "tipo": "religioso",
+      "resumen": "Concilio convocado por el emperador Teodosio I que confirma la fe de Nicea y fija el credo niceno-constantinopolitano, con la divinidad del Espíritu Santo, y condena el arrianismo. Colocó a Constantinopla en segundo lugar entre las sedes, después de Roma.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Concilio de Constantinopla I",
+        "en": "First Council of Constantinople"
+      }
+    },
+    {
+      "id": "fundacion-del-imperio-mogol",
+      "titulo": "Fundación del Imperio mogol",
+      "anio": 1526,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Agra",
+      "lon": 78.02,
+      "lat": 27.18,
+      "tipo": "politico",
+      "resumen": "Babur, descendiente de Timur y de Gengis Kan, derrota al sultán de Delhi Ibrahim Lodi en Panipat en 1526 y funda el Imperio mogol, con capital en Agra. El imperio dura hasta 1857, cuando los británicos deponen al último emperador.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [
+        "baburnama"
+      ],
+      "wikipedia": {
+        "es": "Imperio mogol",
+        "en": "Mughal Empire"
+      }
+    },
+    {
+      "id": "juicio-de-socrates",
+      "titulo": "Juicio de Sócrates",
+      "anio": -399,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "tipo": "judicial",
+      "resumen": "Un tribunal ateniense, probablemente de 501 jurados (ni Platón ni Jenofonte dan el número), condena a muerte a Sócrates, acusado de no reconocer a los dioses de la ciudad, de introducir divinidades nuevas y de corromper a la juventud; la pena se cumplió con cicuta. Según la Apología (36a), con treinta votos cambiados lo habrían absuelto. Platón lo relata en la Apología y Jenofonte dejó una versión distinta. Algunos historiadores atribuyen la acusación a razones políticas, porque Atenas salía de la tiranía de los Treinta, de la que formó parte su discípulo Critias; otros señalan que la amnistía de 403 impedía acusarlo por eso y la explican por motivos religiosos.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "apologia-de-socrates-platon"
+      ],
+      "wikipedia": {
+        "es": "Juicio de Sócrates",
+        "en": "Trial of Socrates"
+      }
+    },
+    {
+      "id": "batalla-de-qarqar",
+      "titulo": "Batalla de Qarqar",
+      "anio": -853,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Qarqar",
+      "lon": 36.331,
+      "lat": 35.743,
+      "tipo": "batalla",
+      "resumen": "El ejército asirio de Salmanasar III se enfrenta junto al Orontes a una coalición de reyes de la región, entre ellos Hadad-ezer de Damasco y Ahab de Israel. Salmanasar dice haber matado a unos 14 000 hombres y se atribuye la victoria, pero los reyes de la coalición siguieron reinando y él tuvo que volver a combatirlos en los años siguientes.",
+      "regiones": [
+        "siria",
+        "levante",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "monolito-de-kurkh"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Qarqar",
+        "en": "Battle of Qarqar"
+      }
+    },
+    {
+      "id": "ascenso-de-magadha",
+      "titulo": "Ascenso de Magadha con Bimbisara",
+      "anio": -457,
+      "anio_hasta": -405,
+      "aprox": true,
+      "lugar": "Rajgir",
+      "lon": 85.42,
+      "lat": 25.03,
+      "tipo": "politico",
+      "resumen": "Bimbisara, rey de Magadha, anexa el reino de Anga y empieza la expansión que convertiría a su reino en la mayor potencia del valle del Ganges; su capital fue Rajagriha (Rajgir). Se lo hace reinar de -543 a -492 en la cronología larga y de -457 a -405 en la corta, la que concuerda con las fechas actuales de Buda, su contemporáneo. Magadha era uno de los mahajanapadas, los dieciséis grandes reinos de la época.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Magadha",
+        "en": "Magadha"
+      }
+    },
+    {
+      "id": "reinado-de-menandro-i",
+      "titulo": "Reinado de Menandro I",
+      "anio": -155,
+      "anio_hasta": -130,
+      "aprox": true,
+      "lugar": "Sialkot",
+      "lon": 74.533,
+      "lat": 32.5,
+      "tipo": "politico",
+      "resumen": "Rey indogriego que gobernó un amplio territorio del noroeste del subcontinente indio, con capital probable en Sagala (Sialkot); su reinado se ubica entre -165 o -155 y -130. Sus monedas aparecen en gran cantidad. La tradición budista recoge sus conversaciones con el monje Nagasena en el Milindapañha.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Menandro I",
+        "en": "Menander I"
+      }
+    },
+    {
+      "id": "reinado-de-kanishka-i",
+      "titulo": "Reinado de Kanishka I",
+      "anio": 127,
+      "anio_hasta": 150,
+      "aprox": true,
+      "lugar": "Peshawar",
+      "lon": 71.567,
+      "lat": 34.014,
+      "tipo": "politico",
+      "resumen": "Emperador del Imperio kushán, que bajo su reinado llegó a su mayor extensión, con capital en Purushapura (Peshawar). La fecha de inicio, hacia 127 según Harry Falk, es discutida: se pensaba que era el 78, comienzo de la era saka. Fue mecenas del budismo y favoreció la difusión del budismo mahayana hacia China.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Kanishka",
+        "en": "Kanishka"
+      }
+    },
+    {
+      "id": "conquista-de-wu-por-jin",
+      "titulo": "Conquista de Wu por la dinastía Jin",
+      "anio": 280,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nankín",
+      "lon": 118.779,
+      "lat": 32.061,
+      "tipo": "politico",
+      "resumen": "Los ejércitos de la dinastía Jin del Oeste toman Jianye, la capital de Wu, tras una campaña iniciada en 279, y reunifican China tras unos sesenta años de división.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Conquest of Wu by Jin"
+      }
+    },
+    {
+      "id": "batalla-del-rio-fei",
+      "titulo": "Batalla del río Fei",
+      "anio": 383,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Fei",
+      "lon": 116.52,
+      "lat": 31.736,
+      "tipo": "batalla",
+      "resumen": "El ejército de la dinastía Jin del Este derrota en el río Fei, al sur del río Huai, al ejército mucho más numeroso de Fu Jiān, rey de la Qin Anterior. Las crónicas dan a Qin cifras desorbitadas, como 870 000 hombres, y la derrota deshizo el imperio de Fu Jiān y abrió en el norte una nueva etapa de fragmentación. Michael C. Rogers sostuvo que el relato del Jin shu es en buena parte una construcción posterior.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fei",
+        "en": "Battle of Fei River"
+      }
+    },
+    {
+      "id": "reinado-de-harsha",
+      "titulo": "Reinado de Harsha",
+      "anio": 606,
+      "anio_hasta": 647,
+      "aprox": false,
+      "lugar": "Kannauj",
+      "lon": 79.922,
+      "lat": 27.031,
+      "tipo": "politico",
+      "resumen": "Harsha reúne bajo su mando gran parte del norte de la India desde su capital en Kanyakubja (Kannauj), tras la caída del Imperio gupta. Xuanzang, que visitó su corte, describe su gobierno y su protección al budismo; el imperio no sobrevivió a su muerte.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [
+        "registros-de-xuanzang"
+      ],
+      "wikipedia": {
+        "es": "Jarsha Vardhana",
+        "en": "Harsha"
+      }
+    },
+    {
+      "id": "saqueo-de-somnath",
+      "titulo": "Saqueo de Somnath",
+      "anio": 1026,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Somnath",
+      "lon": 70.401,
+      "lat": 20.888,
+      "tipo": "politico",
+      "resumen": "En enero de 1026 Mahmud de Ghazni toma Somnath, en Gujarat, rompe el linga del templo de Shiva y se lleva su tesoro a Gazni. Al-Biruni, que vivía en la corte de Mahmud, escribe hacia 1030 que el sultán mandó romper la parte superior del ídolo y llevar el resto a Gazni. Lo confirman cronistas posteriores en persa y en árabe, como Gardizi (h. 1050) e Ibn al-Athir (siglo XIII). La cifra de 50 000 defensores muertos aparece en relatos posteriores, y Romila Thapar la considera una fórmula para exaltar a Mahmud. Una inscripción de un rey kadamba de Goa de 1038 nombra el templo como lugar de peregrinación sin mencionar el ataque, y las excavaciones de 1950-51 muestran que se reconstruyó poco después (M. A. Dhaky).",
+      "regiones": [
+        "sur-de-la-india",
+        "india"
+      ],
+      "fuentes": [
+        "kitab-al-hind-de-al-biruni"
+      ],
+      "wikipedia": {
+        "es": "Somnath",
+        "en": "Somnath Temple"
+      }
+    },
+    {
+      "id": "fundacion-de-vijayanagara",
+      "titulo": "Fundación del Imperio vijayanagara",
+      "anio": 1336,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Hampi",
+      "lon": 76.462,
+      "lat": 15.335,
+      "tipo": "politico",
+      "resumen": "Los hermanos Harihara y Bukka, de la dinastía Sangama, fundan hacia 1336 (fecha tradicional; hay una inscripción de Harihara I de 1340) un reino a orillas del Tungabhadra, frente a Anegondi, cuya capital, Vijayanagara (junto a la actual Hampi), dominó el sur de la India hasta la derrota de Talikota en 1565; el reino duró hasta 1646. Los historiadores discuten si los hermanos eran oficiales canareses de los Hoysala (B. A. Saletore, P. B. Desai) o comandantes telugus de los Kakatiya (N. Venkataramanayya), y la tradición que atribuye la fundación al sabio Vidyaranya es posterior.",
+      "regiones": [
+        "sur-de-la-india",
+        "india"
+      ],
+      "fuentes": [
+        "cronica-de-nunes"
+      ],
+      "wikipedia": {
+        "es": "Imperio vijayanagara",
+        "en": "Vijayanagara Empire"
+      }
+    },
+    {
+      "id": "saqueo-de-delhi-por-timur",
+      "titulo": "Saqueo de Delhi por Timur",
+      "anio": 1398,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Delhi",
+      "lon": 77.217,
+      "lat": 28.667,
+      "tipo": "batalla",
+      "resumen": "El 17 de diciembre de 1398 Timur derrota frente a Delhi al sultán Nasir ud-Din Mahmud Shah Tughluq y a su ministro Mallu Iqbal. Según el Zafarnama de Sharaf ad-Din Ali Yazdi, escrito para la corte timúrida, antes de la batalla hizo matar a unos 100 000 cautivos indios, en su mayoría hindúes, por temor a que se pasaran al enemigo. Después, los saqueos de los soldados que entraron en la ciudad provocaron la resistencia de los habitantes, y el ejército saqueó Delhi durante varios días, mató a muchos y se llevó a miles como esclavos; Timur reservó a los albañiles para construir una mezquita en Samarcanda.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [
+        "zafarnama-de-yazdi"
+      ],
+      "wikipedia": {
+        "en": "Sack of Delhi (1398)"
+      }
+    },
+    {
+      "id": "apogeo-de-teotihuacan",
+      "titulo": "Apogeo de Teotihuacán",
+      "anio": 350,
+      "anio_hasta": 550,
+      "aprox": true,
+      "lugar": "Teotihuacan",
+      "lon": -98.8438,
+      "lat": 19.6925,
+      "tipo": "cultural",
+      "resumen": "Entre 350 y 550, aproximadamente, la ciudad alcanza su mayor influencia en Mesoamérica, con unos 100 000 habitantes según las estimaciones y grandes conjuntos de viviendas, además de las pirámides del Sol y de la Luna. Hacia 550 se queman edificios de la Calzada de los Muertos, que algunos arqueólogos atribuyen a una guerra civil.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Teotihuacán",
+        "en": "Teotihuacan"
+      }
+    },
+    {
+      "id": "llegada-de-siyaj-kak-a-tikal",
+      "titulo": "Llegada de Siyaj K'ak' a Tikal",
+      "anio": 378,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tikal",
+      "lon": -89.624,
+      "lat": 17.222,
+      "tipo": "politico",
+      "resumen": "El 14 de enero de 378 (según la correlación más usada del calendario maya; con la otra sería el 16) llega a Tikal desde el oeste Siyaj K'ak', mencionado en la Estela 31, y ese mismo día muere el rey Chak Tok Ich'aak. Los epigrafistas lo leen como una conquista por Teotihuacan o como una alianza o golpe dinástico con apoyo de esa ciudad.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "estela-31-de-tikal"
+      ],
+      "wikipedia": {
+        "es": "Siyaj Kʼakʼ",
+        "en": "Siyaj Kʼakʼ"
+      }
     }
   ],
   "lugares": [
@@ -9887,7 +12416,7 @@
       "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 3,
-      "resumen": "Gran ciudad del Altiplano Central con las pirámides del Sol y de la Luna. En su apogeo, en la primera mitad del primer milenio, tuvo según las estimaciones entre 25 000 y más de 100 000 habitantes (unos 100 000 es la cifra más citada); sus edificios principales fueron saqueados e incendiados hacia el 550. Bajo la Pirámide de la Serpiente Emplumada y a su alrededor se enterraron, hacia el 200, unas 200 personas sacrificadas, según las excavaciones de Rubén Cabrera, Saburo Sugiyama y George Cowgill.",
+      "resumen": "Gran ciudad del Altiplano Central con las pirámides del Sol y de la Luna. En su apogeo, en la primera mitad del primer milenio, tuvo entre 25 000 y 200 000 habitantes según el autor (unos 100 000 es la cifra más citada); sus edificios principales fueron saqueados e incendiados hacia el 550. Bajo la Pirámide de la Serpiente Emplumada y a su alrededor se enterraron, hacia el 200, unas 200 personas sacrificadas, según las excavaciones de Rubén Cabrera, Saburo Sugiyama y George Cowgill.",
       "regiones": [
         "mesoamerica"
       ],

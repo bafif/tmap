@@ -27,7 +27,7 @@ piece of data says where it came from.
     censuses.
   - `regiones-del-mundo`, the 46 regions that complete the map (from Siberia and Japan to Africa, the Americas and
     Oceania), built from the borders of present-day countries in Natural Earth: summary, eras and population; the
-    American ones also have religions, cultures and languages.
+    American ones and Central Asia also have religions, cultures and languages.
   - The contemporary era, in seven thematic packages: `pensamiento-economico`, `ideas-politicas`,
     `argentina-contemporanea` (from 1880 to today), `ciencia-y-tecnologia`, `cultura-libre-y-hackers`,
     `guerras-y-orden-mundial` and `letras-y-pensamiento-del-siglo-xx`.
@@ -84,7 +84,8 @@ CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that wr
 1. **Usage says what's missing.** The app logs in `user://pendientes.json` whatever gets opened and has no curated
    entry: the entity, its Wikidata, the place, the years looked up and how many times. It never leaves the computer.
    In Settings → Encyclopedia you can see the most looked-up ones and copy the queue. (On Linux, `user://` is
-   `~/.local/share/godot/app_userdata/TellMAP/`.)
+   `~/.local/share/godot/app_userdata/TellMAP/` in the installed version and `~/.local/share/TellMAP-codigo/` from
+   source; `borradores.py` reads the installed one by default.)
 2. **Automatic draft.** `python3 tools/enciclopedia/borradores.py` takes the most looked-up entries (`-n 3` by
    default; `--cola` for a copied queue, `--wikidata Q12560` for a specific entity) and gathers:
    - from Wikidata, the capital with its coordinates, the key people (those who held its offices and the best known of
@@ -107,6 +108,13 @@ CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that wr
    AI-written entry without review doesn't pass the validator.
 5. **Little by little, by hand.** It's run in small batches, when needed, never unattended: that keeps the cost under
    control, and the quality too.
+
+## Leaving no gaps in what has been researched
+
+The steps above fill in what gets looked up. On top of that, what has already been researched should have no gaps: if
+a topic has ten of the twelve presidents of its period, two are missing. `python3 tools/enciclopedia/huecos.py informe
+--red` looks for those gaps inside each package's scope (its regions, its years and how well known the things it
+includes are), and they are filled in rounds, by hand. The procedure is in [gaps in what has been researched](gaps.md).
 
 ## The editor
 

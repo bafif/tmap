@@ -1,0 +1,971 @@
+{
+  "argentina-1862-1912": {
+    "desde": 1860,
+    "hasta": 1920,
+    "regiones": [
+      "noroeste-argentino",
+      "paraguay-oriental",
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "noroeste-argentino",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "revolucion",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "abogado",
+      "caudillo",
+      "diplomatico",
+      "escritor",
+      "historiador",
+      "jurista",
+      "medico",
+      "militar",
+      "naturalista",
+      "periodista",
+      "politico",
+      "presidente"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 7,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 9
+    }
+  },
+  "argentina-contemporanea": {
+    "desde": 1880,
+    "hasta": 2026,
+    "regiones": [
+      "gran-chaco",
+      "noroeste-argentino",
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre"
+    ],
+    "ocupaciones": [
+      "abogado",
+      "economista",
+      "ensayista",
+      "medico",
+      "militar",
+      "ministro",
+      "periodista",
+      "politico",
+      "presidente"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 9,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 9,
+      "personas_mediana": 23
+    }
+  },
+  "celtas-de-britania-e-irlanda": {
+    "desde": -100,
+    "hasta": 1290,
+    "regiones": [
+      "britania",
+      "caledonia",
+      "irlanda"
+    ],
+    "nucleo": [
+      "britania",
+      "irlanda"
+    ],
+    "hechos": [
+      "batalla",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "escritor",
+      "general",
+      "monje",
+      "obispo"
+    ],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 16,
+      "fuentes": 6,
+      "fuentes_mediana": 13,
+      "personas": 13,
+      "personas_mediana": 22
+    }
+  },
+  "celtas-de-hispania": {
+    "desde": -500,
+    "hasta": 100,
+    "regiones": [
+      "celtiberia",
+      "galaecia",
+      "iberia"
+    ],
+    "nucleo": [
+      "celtiberia",
+      "iberia"
+    ],
+    "hechos": [
+      "batalla",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "caudillo",
+      "general",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 11,
+      "hechos_mediana": 20,
+      "fuentes": 5,
+      "fuentes_mediana": 11,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
+  "celtas-del-danubio-y-galacia": {
+    "desde": -400,
+    "hasta": 420,
+    "regiones": [
+      "alemania",
+      "anatolia",
+      "balcanes",
+      "bohemia",
+      "galacia",
+      "grecia",
+      "hungria",
+      "italia",
+      "norico"
+    ],
+    "nucleo": [
+      "alemania",
+      "anatolia",
+      "galacia",
+      "grecia",
+      "hungria"
+    ],
+    "hechos": [
+      "batalla"
+    ],
+    "ocupaciones": [
+      "historiador"
+    ],
+    "profundidad": {
+      "hechos": 13,
+      "hechos_mediana": 28,
+      "fuentes": 19,
+      "fuentes_mediana": 20,
+      "personas": 8,
+      "personas_mediana": 17
+    }
+  },
+  "celtas-en-las-fuentes-antiguas": {
+    "desde": -360,
+    "hasta": 410,
+    "regiones": [
+      "alemania",
+      "anatolia",
+      "britania",
+      "francia",
+      "grecia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "iberia",
+      "italia"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 15,
+      "hechos_mediana": 42,
+      "fuentes": 19,
+      "fuentes_mediana": 35,
+      "personas": 43,
+      "personas_mediana": 61
+    }
+  },
+  "celtas-legado-e-historiografia": {
+    "desde": 60,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "armorica",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "irlanda"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 10,
+      "hechos_mediana": 25,
+      "fuentes": 5,
+      "fuentes_mediana": 14,
+      "personas": 10,
+      "personas_mediana": 17
+    }
+  },
+  "celtas-origenes-y-prehistoria": {
+    "desde": -5500,
+    "hasta": -400,
+    "regiones": [
+      "alemania",
+      "bohemia",
+      "britania",
+      "francia",
+      "hungria",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "alemania",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 16,
+      "hechos_mediana": 31,
+      "fuentes": 5,
+      "fuentes_mediana": 15,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
+  "ciencia-y-tecnologia": {
+    "desde": 1900,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "asia-central",
+      "britania",
+      "norteamerica"
+    ],
+    "nucleo": [
+      "britania",
+      "norteamerica"
+    ],
+    "hechos": [
+      "exploracion"
+    ],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 21,
+      "hechos_mediana": 41,
+      "fuentes": 11,
+      "fuentes_mediana": 22,
+      "personas": 50,
+      "personas_mediana": 78
+    }
+  },
+  "cultura-libre-y-hackers": {
+    "desde": 1970,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "britania",
+      "escandinavia",
+      "norteamerica"
+    ],
+    "nucleo": [
+      "norteamerica"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 21,
+      "fuentes": 6,
+      "fuentes_mediana": 17,
+      "personas": 19,
+      "personas_mediana": 34
+    }
+  },
+  "edad-media": {
+    "desde": 410,
+    "hasta": 1500,
+    "regiones": [
+      "alemania",
+      "balcanes",
+      "baltico",
+      "bohemia",
+      "britania",
+      "cerdena-corcega",
+      "escandinavia",
+      "estepa-pontica",
+      "finlandia",
+      "francia",
+      "hungria",
+      "iberia",
+      "irlanda",
+      "islandia",
+      "italia",
+      "polonia",
+      "rumania",
+      "rus",
+      "sicilia"
+    ],
+    "nucleo": [
+      "alemania",
+      "balcanes",
+      "baltico",
+      "bohemia",
+      "britania",
+      "cerdena-corcega",
+      "escandinavia",
+      "estepa-pontica",
+      "finlandia",
+      "francia",
+      "hungria",
+      "iberia",
+      "irlanda",
+      "islandia",
+      "italia",
+      "polonia",
+      "rumania",
+      "rus",
+      "sicilia"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "religioso",
+      "revolucion",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "astronomo",
+      "caudillo",
+      "cronista",
+      "diplomatico",
+      "escritor",
+      "filosofo",
+      "historiador",
+      "matematico",
+      "medico",
+      "misionero",
+      "monje",
+      "obispo",
+      "poeta",
+      "politico",
+      "rabino",
+      "teologo"
+    ],
+    "profundidad": {
+      "hechos": 30,
+      "hechos_mediana": 45,
+      "fuentes": 16,
+      "fuentes_mediana": 31,
+      "personas": 35,
+      "personas_mediana": 55
+    }
+  },
+  "egipto": {
+    "desde": -2970,
+    "hasta": 1820,
+    "regiones": [
+      "alto-egipto",
+      "bajo-egipto",
+      "egipto",
+      "levante",
+      "nubia"
+    ],
+    "nucleo": [
+      "alto-egipto",
+      "bajo-egipto",
+      "egipto",
+      "nubia"
+    ],
+    "hechos": [
+      "batalla"
+    ],
+    "ocupaciones": [
+      "historiador"
+    ],
+    "profundidad": {
+      "hechos": 46,
+      "hechos_mediana": 59,
+      "fuentes": 21,
+      "fuentes_mediana": 31,
+      "personas": 70,
+      "personas_mediana": 87
+    }
+  },
+  "galos-y-galia": {
+    "desde": -390,
+    "hasta": 260,
+    "regiones": [
+      "alemania",
+      "francia",
+      "galia-cisalpina",
+      "iberia",
+      "italia"
+    ],
+    "nucleo": [
+      "francia",
+      "italia"
+    ],
+    "hechos": [
+      "batalla",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "general",
+      "historiador",
+      "militar",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 12,
+      "hechos_mediana": 22,
+      "fuentes": 10,
+      "fuentes_mediana": 14,
+      "personas": 8,
+      "personas_mediana": 15
+    }
+  },
+  "guerras-civiles-y-organizacion-nacional": {
+    "desde": 1820,
+    "hasta": 1870,
+    "regiones": [
+      "brasil",
+      "noroeste-argentino",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "revolucion",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "abogado",
+      "caudillo",
+      "diplomatico",
+      "gobernador",
+      "jurista",
+      "militar",
+      "ministro",
+      "politico",
+      "presidente",
+      "sacerdote"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 5,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 7
+    }
+  },
+  "guerras-y-orden-mundial": {
+    "desde": 1910,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "balcanes",
+      "britania",
+      "estepa-pontica",
+      "francia",
+      "norteamerica",
+      "polonia",
+      "rus"
+    ],
+    "nucleo": [
+      "alemania",
+      "balcanes",
+      "britania",
+      "estepa-pontica",
+      "francia",
+      "norteamerica",
+      "polonia",
+      "rus"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "diplomatico",
+      "militar",
+      "ministro",
+      "politico",
+      "presidente"
+    ],
+    "profundidad": {
+      "hechos": 51,
+      "hechos_mediana": 71,
+      "fuentes": 20,
+      "fuentes_mediana": 32,
+      "personas": 81,
+      "personas_mediana": 120
+    }
+  },
+  "historiografia-argentina": {
+    "desde": 1820,
+    "hasta": 2020,
+    "regiones": [
+      "brasil",
+      "noroeste-argentino",
+      "paraguay-oriental",
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "noroeste-argentino",
+      "rio-de-la-plata"
+    ],
+    "hechos": [],
+    "ocupaciones": [
+      "abogado",
+      "escritor",
+      "historiador",
+      "jurista",
+      "periodista",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 6,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 4
+    }
+  },
+  "ideas-politicas": {
+    "desde": 1790,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "britania",
+      "china",
+      "francia",
+      "italia",
+      "norteamerica",
+      "rus"
+    ],
+    "nucleo": [
+      "alemania",
+      "britania",
+      "china",
+      "francia",
+      "norteamerica",
+      "rus"
+    ],
+    "hechos": [
+      "revolucion"
+    ],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 34,
+      "hechos_mediana": 51,
+      "fuentes": 11,
+      "fuentes_mediana": 20,
+      "personas": 55,
+      "personas_mediana": 90
+    }
+  },
+  "letras-y-pensamiento-del-siglo-xx": {
+    "desde": 1900,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "britania",
+      "francia",
+      "india",
+      "mesoamerica",
+      "norteamerica",
+      "rio-de-la-plata",
+      "rus"
+    ],
+    "nucleo": [
+      "alemania",
+      "britania",
+      "francia",
+      "india",
+      "mesoamerica",
+      "norteamerica",
+      "rio-de-la-plata",
+      "rus"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 7,
+      "fuentes": 19,
+      "fuentes_mediana": 36,
+      "personas": 100,
+      "personas_mediana": 130
+    }
+  },
+  "mundo": {
+    "desde": -1760,
+    "hasta": 1830,
+    "regiones": [
+      "anatolia",
+      "andes",
+      "china",
+      "grecia",
+      "india",
+      "italia",
+      "levante",
+      "mesoamerica",
+      "mesopotamia",
+      "persia",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "anatolia",
+      "andes",
+      "china",
+      "grecia",
+      "india",
+      "italia",
+      "levante",
+      "mesoamerica",
+      "mesopotamia",
+      "persia",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "cronista",
+      "escritor",
+      "filosofo",
+      "historiador",
+      "militar"
+    ],
+    "profundidad": {
+      "hechos": 32,
+      "hechos_mediana": 56,
+      "fuentes": 32,
+      "fuentes_mediana": 49,
+      "personas": 70,
+      "personas_mediana": 129
+    }
+  },
+  "pensamiento-economico": {
+    "desde": 1770,
+    "hasta": 2026,
+    "regiones": [
+      "alemania",
+      "brasil",
+      "britania",
+      "chile",
+      "francia",
+      "mesoamerica",
+      "norteamerica",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "britania",
+      "chile",
+      "norteamerica",
+      "rio-de-la-plata"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 19,
+      "hechos_mediana": 30,
+      "fuentes": 6,
+      "fuentes_mediana": 10,
+      "personas": 29,
+      "personas_mediana": 45
+    }
+  },
+  "pueblos-originarios-del-cono-sur": {
+    "desde": 740,
+    "hasta": 1920,
+    "regiones": [
+      "andes",
+      "chile",
+      "gran-chaco",
+      "noroeste-argentino",
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "noroeste-argentino",
+      "patagonia",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "exploracion",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "cronista",
+      "escritor",
+      "explorador",
+      "marino",
+      "militar",
+      "misionero",
+      "naturalista"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 9,
+      "fuentes": 16,
+      "fuentes_mediana": 23,
+      "personas": 8,
+      "personas_mediana": 6
+    }
+  },
+  "religion-celta": {
+    "desde": -400,
+    "hasta": 1210,
+    "regiones": [
+      "alemania",
+      "britania",
+      "francia",
+      "iberia",
+      "irlanda",
+      "italia"
+    ],
+    "nucleo": [
+      "britania",
+      "francia",
+      "irlanda"
+    ],
+    "hechos": [
+      "religioso"
+    ],
+    "ocupaciones": [
+      "filologo",
+      "obispo"
+    ],
+    "profundidad": {
+      "hechos": 12,
+      "hechos_mediana": 28,
+      "fuentes": 8,
+      "fuentes_mediana": 18,
+      "personas": 8,
+      "personas_mediana": 10
+    }
+  },
+  "rio-de-la-plata-colonial": {
+    "desde": 1490,
+    "hasta": 1790,
+    "regiones": [
+      "andes",
+      "brasil",
+      "caribe",
+      "iberia",
+      "mesoamerica",
+      "noroeste-argentino",
+      "paraguay-oriental",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "andes",
+      "caribe",
+      "noroeste-argentino",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "exploracion",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "gobernador",
+      "historiador",
+      "jurista",
+      "misionero",
+      "sacerdote"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 15,
+      "fuentes": 9,
+      "fuentes_mediana": 12,
+      "personas": 8,
+      "personas_mediana": 9
+    }
+  },
+  "rosas-y-la-confederacion": {
+    "desde": 1820,
+    "hasta": 1860,
+    "regiones": [
+      "britania",
+      "francia",
+      "noroeste-argentino",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "abogado",
+      "diplomatico",
+      "escritor",
+      "gobernador",
+      "marino",
+      "militar",
+      "periodista",
+      "poeta",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 3,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 5
+    }
+  },
+  "tierra-santa": {
+    "desde": -520,
+    "hasta": 2010,
+    "regiones": [
+      "anatolia",
+      "arabia",
+      "armenia",
+      "chipre",
+      "cilicia",
+      "egipto",
+      "levante",
+      "libano",
+      "magreb",
+      "mesopotamia",
+      "siria",
+      "tierra-santa",
+      "transjordania"
+    ],
+    "nucleo": [
+      "arabia",
+      "armenia",
+      "chipre",
+      "cilicia",
+      "levante",
+      "libano",
+      "magreb",
+      "siria",
+      "tierra-santa",
+      "transjordania"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "religioso",
+      "revolucion",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "caudillo",
+      "cronista",
+      "ensayista",
+      "escritor",
+      "filosofo",
+      "general",
+      "historiador",
+      "juez",
+      "jurista",
+      "militar",
+      "obispo",
+      "poeta",
+      "politico",
+      "rabino",
+      "teologo",
+      "viajero"
+    ],
+    "profundidad": {
+      "hechos": 23,
+      "hechos_mediana": 37,
+      "fuentes": 13,
+      "fuentes_mediana": 23,
+      "personas": 35,
+      "personas_mediana": 56
+    }
+  },
+  "virreinato-e-independencia": {
+    "desde": 1770,
+    "hasta": 1830,
+    "regiones": [
+      "andes",
+      "iberia",
+      "noroeste-argentino",
+      "paraguay-oriental",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "andes",
+      "rio-de-la-plata"
+    ],
+    "hechos": [
+      "batalla",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "abogado",
+      "diplomatico",
+      "escritor",
+      "gobernador",
+      "marino",
+      "militar",
+      "periodista",
+      "politico",
+      "sacerdote"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 10,
+      "fuentes": 5,
+      "fuentes_mediana": 13,
+      "personas": 9,
+      "personas_mediana": 13
+    }
+  }
+}

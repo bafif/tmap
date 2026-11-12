@@ -2509,7 +2509,9 @@
         "folclorista"
       ],
       "resumen": "Folclorista irlandesa de la Comisión de Folclore Irlandés. The Festival of Lughnasa (1962) reunió las costumbres de cerca de doscientos lugares de reunión de comienzos de agosto y propuso que derivaban de una fiesta precristiana de la cosecha dedicada a Lug.",
-      "obras": [],
+      "obras": [
+        "the-festival-of-lughnasa"
+      ],
       "wikipedia": {
         "en": "Máire MacNeill"
       },
@@ -2848,6 +2850,27 @@
         "en": "John Carey (Celticist)"
       },
       "wikidata": "Q6225121"
+    },
+    {
+      "id": "lidoire",
+      "nombre": "Lidoire",
+      "muerte": {
+        "anio": 371,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tours",
+        "lon": 0.688,
+        "lat": 47.393,
+        "desde": 338,
+        "hasta": 371,
+        "aprox": false
+      },
+      "roles": [
+        "obispo"
+      ],
+      "resumen": "Obispo de Tours, natural de la ciudad, ordenado en el primer año del emperador Constante (337 o 338) y titular de la sede durante 33 años, según Gregorio de Tours (Historia de los francos X.31). Gregorio cuenta que levantó la primera iglesia dentro de la ciudad, cuando ya había muchos cristianos, y que la primera basílica salió de la casa de un senador; en su tiempo Martín empezó a predicar en las Galias. Es la única fuente: Gregorio escribe más de dos siglos después.",
+      "obras": []
     }
   ],
   "hechos": [

@@ -3397,6 +3397,81 @@
         "en": "John Parish Robertson"
       },
       "wikidata": "Q5951924"
+    },
+    {
+      "id": "miguel-estanislao-soler",
+      "nombre": "Miguel Estanislao Soler",
+      "nacimiento": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1849,
+        "aprox": false,
+        "lugar": "San Isidro",
+        "lon": -58.517,
+        "lat": -34.467
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1820,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Militar porteño que combatió en las invasiones inglesas, fue gobernador de la Banda Oriental en 1814 y sirvió en el Ejército de los Andes. Tras la caída del Directorio fue gobernador de Buenos Aires en junio de 1820: lo nombraron el Cabildo de Luján y el ejército el 17 y la legislatura lo reconoció el 23; Estanislao López lo derrotó el 28 en Cañada de la Cruz y huyó a Montevideo. En la guerra contra el Brasil comandó el 3.er cuerpo en Ituzaingó. Las fuentes discrepan sobre su retiro bajo Rosas: según unas, en 1830 Rosas lo nombró comandante de las fuerzas urbanas y en 1840, por la represión, se fue a Montevideo y volvió al año siguiente; según otras, en 1829 renunció a sus cargos, se instaló en la Banda Oriental y volvió a Buenos Aires en 1837.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Miguel Estanislao Soler",
+        "en": "Miguel Estanislao Soler"
+      },
+      "wikidata": "Q3314051"
+    },
+    {
+      "id": "caesar-augustus-rodney",
+      "nombre": "Caesar Augustus Rodney",
+      "nacimiento": {
+        "anio": 1772,
+        "aprox": false,
+        "lugar": "Dover",
+        "lon": -75.526,
+        "lat": 39.162
+      },
+      "muerte": {
+        "anio": 1824,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1823,
+        "hasta": 1824,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Abogado y político de Delaware, fiscal general de los Estados Unidos de 1807 a 1811 y senador. Integró en 1817 la comisión enviada por Monroe a Sudamérica y, con John Graham, publicó en 1819 un informe que defendía reconocer a las nuevas repúblicas. Designado ministro plenipotenciario ante las Provincias Unidas en enero de 1823, presentó sus credenciales el 27 de diciembre de 1823; murió en Buenos Aires el 10 de junio de 1824 y lo sucedió Forbes como encargado de negocios.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Caesar Augustus Rodney",
+        "en": "Caesar Augustus Rodney"
+      },
+      "wikidata": "Q1025419"
     }
   ],
   "hechos": [
@@ -5171,6 +5246,26 @@
       "fuentes": [],
       "wikipedia": {
         "es": "Hospital Alemán"
+      }
+    },
+    {
+      "id": "guerras-civiles-argentinas",
+      "titulo": "Guerras civiles argentinas",
+      "anio": 1814,
+      "anio_hasta": 1880,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "batalla",
+      "resumen": "Serie de conflictos internos que empezó mientras seguía la guerra de independencia, con la ruptura de Artigas con Buenos Aires en enero de 1814; la Liga Federal se formó en 1815. Siguieron el Directorio y el Congreso disueltos tras Cepeda (1820) y las provincias a cargo de caudillos. El período va de 1814 a 1853, hasta la Constitución, con escaramuzas de baja frecuencia hasta la federalización de Buenos Aires en 1880. Federales y unitarios, o Buenos Aires y las provincias, difirieron sobre el régimen de gobierno y sobre el control del puerto y de las rentas aduaneras.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras civiles argentinas",
+        "en": "Argentine Civil Wars"
       }
     }
   ],

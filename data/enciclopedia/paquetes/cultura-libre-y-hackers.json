@@ -2354,6 +2354,46 @@
       "por_que_importa": "Es el estudio de referencia sobre Anonymous, que la autora describe como un colectivo sin líderes ni ideología fija que se organiza por operaciones.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "el-futuro-de-las-ideas",
+      "titulo": "El futuro de las ideas: el destino de los bienes comunes en un mundo conectado",
+      "titulo_original": "The Future of Ideas: The Fate of the Commons in a Connected World",
+      "autor": "Lawrence Lessig",
+      "autor_id": "lawrence-lessig",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Stanford (California)",
+        "lon": -122.17,
+        "lat": 37.428
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1990,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Random House, 2001)",
+      "resumen": "Lessig, entonces profesor de derecho en Stanford y crítico de la extensión del plazo del derecho de autor en Estados Unidos, continúa «El código». Advierte que un régimen de propiedad intelectual demasiado estricto y largo puede ahogar la innovación, porque el futuro siempre se construye sobre el pasado, y analiza los intentos de las empresas de proteger más y por más tiempo tres capas de internet: la del código (el software), la del contenido (el caso Napster y la reacción de la industria discográfica y del cine) y la física (el espectro radioeléctrico). Defiende que las obras existentes pasen al dominio público en un plazo razonable, como querían los Padres Fundadores.",
+      "por_que_importa": "Prepara el argumento de «Cultura libre» (2004) y la fundación de Creative Commons. En 2008 Lessig anunció que los editores habían aceptado licenciar el libro con Creative Commons Atribución-NoComercial.",
+      "leer": [
+        {
+          "titulo": "Edición libre (Creative Commons Atribución-NoComercial 3.0) en Internet Archive, en PDF y epub",
+          "url": "https://archive.org/details/TheFutureOfIdeas",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "El futuro de las ideas",
+        "en": "The Future of Ideas"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2625,7 +2665,8 @@
       "resumen": "Jurista estadounidense, profesor en Stanford y Harvard, autor de «El código» (1999) y «Cultura libre» (2004). Cofundó Creative Commons en 2001 y defendió ante la Corte Suprema el caso Eldred contra Ashcroft, que perdió.",
       "obras": [
         "el-codigo-lessig",
-        "cultura-libre-lessig"
+        "cultura-libre-lessig",
+        "el-futuro-de-las-ideas"
       ],
       "wikipedia": {
         "es": "Lawrence Lessig",

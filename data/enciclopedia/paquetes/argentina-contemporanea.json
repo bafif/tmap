@@ -127,7 +127,7 @@
       "titulo": "Informe sobre el estado de las clases obreras argentinas",
       "titulo_original": null,
       "autor": "Juan Bialet Massé",
-      "autor_id": null,
+      "autor_id": "juan-bialet-masse",
       "tipo": "primaria",
       "genero": "administrativo",
       "escrita": {
@@ -3541,6 +3541,72 @@
         "es": "Censo argentino de 2022"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "desventuras-en-el-pais-jardin-de-infantes",
+      "titulo": "Desventuras en el país-jardín-de-infantes",
+      "titulo_original": null,
+      "autor": "María Elena Walsh",
+      "autor_id": "maria-elena-walsh",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1976,
+        "hasta": 1979
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en Clarín el 16 de agosto de 1979 en el que Walsh habla de la censura de la dictadura militar. Fue su publicación más conocida y polémica; el título se reutilizó en 1993 para un libro.",
+      "por_que_importa": "Es una crítica pública a la censura durante la dictadura, escrita desde adentro del país.",
+      "leer": [],
+      "wikipedia": {
+        "es": "María Elena Walsh",
+        "en": "María Elena Walsh"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-pasion-segun-trelew",
+      "titulo": "La pasión según Trelew",
+      "titulo_original": null,
+      "autor": "Tomás Eloy Martínez",
+      "autor_id": "tomas-eloy-martinez",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": 1972,
+        "hasta": 1972
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Crónica periodística de Tomás Eloy Martínez sobre la fuga del penal de Rawson y la masacre de Trelew de agosto de 1972. Se publicó en 1973 y se reeditó en 1997.",
+      "por_que_importa": "Es una crónica sobre la masacre de Trelew publicada un año después, por un periodista que había cubierto la fuga de Rawson.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tomás Eloy Martínez",
+        "en": "Tomás Eloy Martínez"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -7048,6 +7114,1570 @@
         "en": "José Antonio Balseiro"
       },
       "wikidata": "Q6291393"
+    },
+    {
+      "id": "elpidio-gonzalez",
+      "nombre": "Elpidio González",
+      "nacimiento": {
+        "anio": 1875,
+        "aprox": false,
+        "lugar": "Rosario",
+        "lon": -60.639,
+        "lat": -32.958
+      },
+      "muerte": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1922,
+        "hasta": 1928,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "vicepresidente"
+      ],
+      "resumen": "Dirigente radical cercano a Yrigoyen, ministro de Guerra (1916-1918) y jefe de la Policía de la Capital; su actuación en la represión de la Semana Trágica de enero de 1919 fue muy cuestionada por anarquistas y socialistas. Fue vicepresidente de Marcelo T. de Alvear entre 1922 y 1928, con quien se enfrentó por la pugna entre yrigoyenistas y antipersonalistas, y ministro del Interior de Yrigoyen hasta el golpe de 1930, que lo mantuvo preso dos años.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Elpidio González",
+        "en": "Elpidio González"
+      },
+      "wikidata": "Q5367308"
+    },
+    {
+      "id": "enrique-martinez",
+      "nombre": "Enrique Martínez",
+      "nacimiento": {
+        "anio": 1887,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "muerte": {
+        "anio": 1938,
+        "aprox": false,
+        "lugar": "Villa María",
+        "lon": -63.231,
+        "lat": -32.41
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1928,
+        "hasta": 1930,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "vicepresidente"
+      ],
+      "resumen": "Dirigente radical cordobés, gobernador de Córdoba desde mayo de 1928. Asumió la vicepresidencia el 12 de octubre de 1928, en lugar de Francisco Beiró, vicepresidente electo que murió en julio. El 5 de septiembre de 1930, con Yrigoyen en licencia por enfermedad, ejerció la presidencia; al día siguiente el golpe de Uriburu los derrocó y ambos fueron detenidos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique Martínez (vicepresidente)",
+        "en": "Enrique Martínez (politician)"
+      },
+      "wikidata": "Q5366487"
+    },
+    {
+      "id": "santamarina",
+      "nombre": "Enrique Santamarina",
+      "nacimiento": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Tandil",
+        "lon": -59.133,
+        "lat": -37.317
+      },
+      "muerte": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1930,
+        "hasta": 1930,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "vicepresidente de facto"
+      ],
+      "resumen": "Director del Banco de la Nación, fue vicepresidente del gobierno de facto del general Uriburu desde el golpe del 6 de septiembre de 1930. Renunció el 20 de octubre de ese año por enfermedad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique Santamarina",
+        "en": "Enrique Santamarina"
+      },
+      "wikidata": "Q5818407"
+    },
+    {
+      "id": "roca-hijo",
+      "nombre": "Julio Argentino Pascual Roca",
+      "nacimiento": {
+        "anio": 1873,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "muerte": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1932,
+        "hasta": 1938,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "diplomatico",
+        "vicepresidente"
+      ],
+      "resumen": "Hijo del presidente Julio A. Roca y dirigente del Partido Demócrata de Córdoba, fue gobernador de esa provincia (1922-1925) y vicepresidente de Agustín P. Justo entre 1932 y 1938, en la Concordancia. Fue coautor y firmante, en 1933, del pacto Roca-Runciman con el Reino Unido, y más tarde embajador en Brasil y ministro de Relaciones Exteriores (1940-1941).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Julio Argentino Pascual Roca",
+        "en": "Julio Argentino Pascual Roca"
+      },
+      "wikidata": "Q9016464"
+    },
+    {
+      "id": "sueyro",
+      "nombre": "Sabá Héctor Sueyro",
+      "nacimiento": {
+        "anio": 1889,
+        "aprox": false,
+        "lugar": "La Paz",
+        "lon": -59.644,
+        "lat": -30.741
+      },
+      "muerte": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1943,
+        "hasta": 1943,
+        "aprox": false
+      },
+      "roles": [
+        "marino",
+        "politico",
+        "vicepresidente de facto"
+      ],
+      "resumen": "Contraalmirante integrante del grupo conspirador que dio el golpe del 4 de junio de 1943 y vicepresidente de facto del gobierno de Pedro Pablo Ramírez. Murió poco después de asumir, el 17 de julio o el 15 de octubre de 1943 según la fuente; lo reemplazó Edelmiro Farrell.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sabá H. Sueyro",
+        "en": "Sabá Sueyro"
+      },
+      "wikidata": "Q772152"
+    },
+    {
+      "id": "pistarini",
+      "nombre": "Juan Pistarini",
+      "nacimiento": {
+        "anio": 1882,
+        "aprox": false,
+        "lugar": "Victorica",
+        "lon": -65.434,
+        "lat": -36.217
+      },
+      "muerte": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1944,
+        "hasta": 1952,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "ingeniero",
+        "politico",
+        "vicepresidente de facto"
+      ],
+      "resumen": "General ingeniero, ministro de Obras Públicas del gobierno de facto desde 1944 y del primer gobierno de Perón hasta 1952, promotor del aeropuerto de Ezeiza que lleva su nombre. El 10 de octubre de 1945 Farrell lo nombró vicepresidente de facto, con retención del ministerio, tras la renuncia de Perón. Las biografías en español e inglés registran sus simpatías abiertas por el nazismo y el fascismo, y que contrató las obras de Ezeiza con GEOPÉ, la empresa de Ludwig Freude, cuya deportación pedían los Aliados por sospechas de espionaje. Tras el golpe de 1955 fue detenido en Ushuaia, perdió sus bienes y murió en 1956.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Pistarini",
+        "en": "Juan Pistarini"
+      },
+      "wikidata": "Q3114308"
+    },
+    {
+      "id": "quijano",
+      "nombre": "Hortensio Quijano",
+      "nacimiento": {
+        "anio": 1884,
+        "aprox": false,
+        "lugar": "Curuzú Cuatiá",
+        "lon": -58.083,
+        "lat": -29.783
+      },
+      "muerte": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1946,
+        "hasta": 1952,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "vicepresidente"
+      ],
+      "resumen": "Abogado correntino de la Unión Cívica Radical antipersonalista, ministro del Interior de Farrell en 1945 y líder de la UCR Junta Renovadora que apoyó a Perón. Fue vicepresidente de Perón desde 1946; reelecto en 1951, murió el 3 de abril de 1952 sin asumir el nuevo mandato, y el cargo quedó vacante hasta 1954.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hortensio Quijano",
+        "en": "Hortensio Quijano"
+      },
+      "wikidata": "Q3187673"
+    },
+    {
+      "id": "teisaire",
+      "nombre": "Alberto Teisaire",
+      "nacimiento": {
+        "anio": 1891,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "muerte": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1954,
+        "hasta": 1955,
+        "aprox": false
+      },
+      "roles": [
+        "marino",
+        "politico",
+        "vicepresidente"
+      ],
+      "resumen": "Contraalmirante, ministro de Marina y del Interior del gobierno de facto de 1944-1945, aliado de Perón, senador desde 1946 y presidente del Consejo Superior del Partido Peronista. Fue elegido vicepresidente en abril de 1954, en elecciones convocadas por la muerte de Quijano, y ejerció hasta el golpe de septiembre de 1955; luego el gobierno de la Revolución Libertadora difundió en los cines una declaración filmada suya sobre los crímenes que atribuía al peronismo. Fue juzgado, se le quitó el grado y estuvo preso en la isla Martín García hasta 1958.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alberto Teisaire",
+        "en": "Alberto Teisaire"
+      },
+      "wikidata": "Q2831838"
+    },
+    {
+      "id": "alejandro-gomez",
+      "nombre": "Alejandro Gómez",
+      "nacimiento": {
+        "anio": 1908,
+        "aprox": false,
+        "lugar": "Berabevú",
+        "lon": -61.862,
+        "lat": -33.344
+      },
+      "muerte": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1958,
+        "hasta": 1958,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "vicepresidente"
+      ],
+      "resumen": "Maestro rural y abogado santafesino, cofundador del Movimiento de Intransigencia y Renovación de la UCR y compañero de fórmula de Frondizi en 1958. Renunció a la vicepresidencia el 18 de noviembre de ese año por desacuerdo con los contratos petroleros con empresas extranjeras, contrarios a lo que Frondizi había sostenido en «Petróleo y política»; Frondizi, en cambio, lo acusó de conspirar con jefes militares y dictó el estado de sitio, y Gómez lo negó. Quedó entonces como sucesor constitucional el presidente provisional del Senado, José María Guido. Las fuentes difieren sobre su nacimiento (Rosario o Berabevú) y su muerte (Las Tapias o Buenos Aires).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alejandro Gómez (político)",
+        "en": "Alejandro Gómez (politician)"
+      },
+      "wikidata": "Q2832456"
+    },
+    {
+      "id": "perette",
+      "nombre": "Carlos Humberto Perette",
+      "nacimiento": {
+        "anio": 1915,
+        "aprox": false,
+        "lugar": "Paraná",
+        "lon": -60.53,
+        "lat": -31.733
+      },
+      "muerte": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1963,
+        "hasta": 1966,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "politico",
+        "vicepresidente"
+      ],
+      "resumen": "Abogado entrerriano de la UCR del Pueblo, dirigente del sector unionista del radicalismo, diputado nacional y vicepresidente de Arturo Illia entre 1963 y 1966, elegido por el Colegio Electoral con el peronismo proscripto. Quedó fuera del cargo con el golpe del 28 de junio de 1966; más tarde fue embajador en Uruguay.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Humberto Perette",
+        "en": "Carlos Humberto Perette"
+      },
+      "wikidata": "Q5042195"
+    },
+    {
+      "id": "solano-lima",
+      "nombre": "Vicente Solano Lima",
+      "nacimiento": {
+        "anio": 1901,
+        "aprox": false,
+        "lugar": "Ramallo",
+        "lon": -60.0,
+        "lat": -33.483
+      },
+      "muerte": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1973,
+        "hasta": 1973,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "periodista",
+        "vicepresidente"
+      ],
+      "resumen": "Abogado conservador bonaerense, dueño del diario El Norte de San Nicolás de los Arroyos y fundador del Partido Conservador Popular (1958), aliado del peronismo proscripto. Fue propuesto candidato presidencial de un frente con el peronismo en 1963, que los militares impidieron, y vicepresidente de Cámpora en 1973: ejerció del 25 de mayo al 13 de julio, cuando renunció junto con él.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vicente Solano Lima",
+        "en": "Vicente Solano Lima"
+      },
+      "wikidata": "Q5855019"
+    },
+    {
+      "id": "victor-martinez",
+      "nombre": "Víctor Hipólito Martínez",
+      "nacimiento": {
+        "anio": 1924,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "muerte": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Villa Allende",
+        "lon": -64.295,
+        "lat": -31.294
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1983,
+        "hasta": 1989,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado",
+        "vicepresidente"
+      ],
+      "resumen": "Abogado radical cordobés, intendente de Córdoba (1963-1966) y vicepresidente de Raúl Alfonsín desde el 10 de diciembre de 1983 hasta el 8 de julio de 1989, cuando Alfonsín entregó el mando antes de término. Como presidente del Senado, donde el justicialismo tenía más bancas que la UCR, no pudo evitar el rechazo de la ley de reforma sindical (ley Mucci, rechazada 24 a 22 el 14 de marzo de 1984); el Congreso aprobó en 1987 el traslado de la capital a Viedma (Ley 23.512), que nunca se concretó.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Víctor Martínez",
+        "en": "Víctor Hipólito Martínez"
+      },
+      "wikidata": "Q946295"
+    },
+    {
+      "id": "carlos-alvarez",
+      "nombre": "Carlos Álvarez",
+      "nacimiento": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1999,
+        "hasta": 2000,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "vicepresidente"
+      ],
+      "resumen": "Dirigente peronista disidente que se apartó del menemismo con el Grupo de los 8 y fundó el Frente Grande (1993) y el Frepaso. Fue vicepresidente de Fernando de la Rúa desde el 10 de diciembre de 1999 y renunció el 6 de octubre de 2000, al denunciar sobornos en el Senado para aprobar una ley de reforma laboral. La causa llegó a juicio oral: el tribunal oral absolvió a todos los acusados, De la Rúa incluido, por falta de pruebas, y la Cámara de Casación confirmó el fallo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Álvarez (político)",
+        "en": "Carlos Álvarez (Argentine politician)"
+      },
+      "wikidata": "Q733743"
+    },
+    {
+      "id": "cobos",
+      "nombre": "Julio Cobos",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2007,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "ingeniero",
+        "politico",
+        "vicepresidente"
+      ],
+      "resumen": "Ingeniero civil radical, gobernador de Mendoza (2003-2007), expulsado de la UCR por aceptar ser candidato a vicepresidente de Cristina Kirchner; ejerció entre 2007 y 2011. El 17 de julio de 2008, como presidente del Senado, desempató con su voto contra el proyecto que ratificaba la resolución 125 sobre retenciones móviles a las exportaciones agrarias, en medio del conflicto con el campo: lo criticó el oficialismo y lo valoraron sectores opositores.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Julio Cobos",
+        "en": "Julio Cobos"
+      },
+      "wikidata": "Q456351"
+    },
+    {
+      "id": "michetti",
+      "nombre": "Gabriela Michetti",
+      "nacimiento": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Laprida",
+        "lon": -60.817,
+        "lat": -37.533
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2015,
+        "hasta": 2019,
+        "aprox": false
+      },
+      "roles": [
+        "politica",
+        "internacionalista",
+        "vicepresidente"
+      ],
+      "resumen": "Dirigente del PRO, vicejefa de Gobierno de la Ciudad de Buenos Aires (2007-2009), diputada y senadora nacional; quedó parapléjica por un accidente automovilístico en 1994. Fue vicepresidenta de Mauricio Macri del 10 de diciembre de 2015 al 10 de diciembre de 2019, la segunda mujer en el cargo después de Isabel Perón.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gabriela Michetti",
+        "en": "Gabriela Michetti"
+      },
+      "wikidata": "Q5515970"
+    },
+    {
+      "id": "ortiz",
+      "nombre": "Roberto Marcelino Ortiz",
+      "nacimiento": {
+        "anio": 1886,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1938,
+        "hasta": 1942,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "presidente"
+      ],
+      "resumen": "Abogado radical antipersonalista, ministro de Obras Públicas y de Hacienda, presidente desde el 20 de febrero de 1938, tras las elecciones de 1937, ganadas con fraude; la oposición lo denunció y Ortiz no negó esas acusaciones. Intentó limpiar el sufragio con intervenciones federales, incluida la de Buenos Aires, y se enfrentó con su vicepresidente conservador Ramón Castillo. Enfermo de diabetes, delegó el mando en Castillo el 3 de julio de 1940 y renunció a fines de junio de 1942 (el 24 o el 27, según la fuente); murió el 15 de julio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Roberto Marcelino Ortiz",
+        "en": "Roberto Marcelino Ortiz"
+      },
+      "wikidata": "Q365369"
+    },
+    {
+      "id": "rawson",
+      "nombre": "Arturo Rawson",
+      "nacimiento": {
+        "anio": 1885,
+        "aprox": false,
+        "lugar": "Ciudad de Santiago del Estero",
+        "lon": -64.267,
+        "lat": -27.784
+      },
+      "muerte": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1943,
+        "hasta": 1943,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "presidente de facto"
+      ],
+      "resumen": "General de caballería que encabezó la marcha desde Campo de Mayo del golpe del 4 de junio de 1943 y se proclamó presidente de facto ese día. Los jefes del GOU rechazaron los ministros que eligió y renunció el 7 de junio, sin haber jurado, para ser reemplazado por Pedro Pablo Ramírez; no suele figurar en la lista oficial de presidentes, aunque se discute.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Arturo Rawson",
+        "en": "Arturo Rawson"
+      },
+      "wikidata": "Q1991688"
+    },
+    {
+      "id": "molina",
+      "nombre": "José Domingo Molina",
+      "nacimiento": {
+        "anio": 1896,
+        "aprox": false,
+        "lugar": "San Fernando del Valle de Catamarca",
+        "lon": -65.779,
+        "lat": -28.469
+      },
+      "muerte": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1955,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general, comandante en jefe del Ejército y nieto del presidente Nicolás Avellaneda; el 19 de septiembre de 1955, tras la carta de Perón, presidió la junta militar que negoció con los sublevados de la Revolución Libertadora. Algunas listas lo cuentan entre los presidentes de facto de 1955; otros sostienen que nunca ejerció efectivamente la presidencia. Lonardi lo detuvo el 3 de octubre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Domingo Molina",
+        "en": "José Domingo Molina Gómez"
+      },
+      "wikidata": "Q739234"
+    },
+    {
+      "id": "guido",
+      "nombre": "José María Guido",
+      "nacimiento": {
+        "anio": 1910,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1962,
+        "hasta": 1963,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "presidente"
+      ],
+      "resumen": "Abogado radical intransigente, senador por Río Negro y presidente provisional del Senado. El 29 de marzo de 1962, tras el derrocamiento de Frondizi, juró como presidente con homologación de la Corte Suprema por la ley de acefalía; los historiadores coinciden en que no fue una presidencia constitucional, pero discrepan en cómo caracterizarla. Bajo presión militar anuló las elecciones de marzo, declaró en receso el Congreso (decreto 4419, 19 de mayo de 1962) e intervino las provincias; durante su gobierno se enfrentaron los militares «azules» y «colorados», y convocó a las elecciones de 1963, con el peronismo proscripto. Entregó el mando a Illia el 12 de octubre de 1963.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José María Guido",
+        "en": "José María Guido"
+      },
+      "wikidata": "Q470971"
+    },
+    {
+      "id": "levingston",
+      "nombre": "Roberto Marcelo Levingston",
+      "nacimiento": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "San Luis",
+        "lon": -66.339,
+        "lat": -33.299
+      },
+      "muerte": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1970,
+        "hasta": 1971,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "presidente de facto"
+      ],
+      "resumen": "General de brigada especializado en inteligencia, designado presidente de facto por la Junta de Comandantes el 18 de junio de 1970, tras la destitución de Onganía, dentro de la Revolución Argentina. Intentó desplazar a Lanusse, comandante del Ejército, y tras el Viborazo (marzo de 1971), la pueblada de Córdoba, la Junta lo relevó el 21 o el 22 de marzo (según la fuente) y asumió Lanusse.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Roberto Marcelo Levingston",
+        "en": "Roberto Marcelo Levingston"
+      },
+      "wikidata": "Q380980"
+    },
+    {
+      "id": "lastiri",
+      "nombre": "Raúl Alberto Lastiri",
+      "nacimiento": {
+        "anio": 1915,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1973,
+        "hasta": 1973,
+        "aprox": false
+      },
+      "roles": [
+        "politico"
+      ],
+      "resumen": "Presidente de la Cámara de Diputados, ejerció la presidencia interina del 13 de julio al 12 de octubre de 1973, tras la renuncia de Cámpora y Solano Lima; asumió porque enviaron al exterior (a Argelia) al presidente provisional del Senado, Alejandro Díaz Bialet, primero en la línea sucesoria. Convocó a las elecciones que ganó Perón con más del 60 % y le entregó el mando. Yerno de José López Rega, ministro de Bienestar Social, figuraba en la lista de la logia P2 hallada en marzo de 1981; fue detenido tras el golpe de 1976 y murió en 1978.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Raúl Alberto Lastiri",
+        "en": "Raúl Lastiri"
+      },
+      "wikidata": "Q349261"
+    },
+    {
+      "id": "viola",
+      "nombre": "Roberto Eduardo Viola",
+      "nacimiento": {
+        "anio": 1924,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1981,
+        "hasta": 1981,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "presidente de facto"
+      ],
+      "resumen": "General, jefe del Estado Mayor del Ejército en el golpe de 1976 y comandante en jefe y miembro de la Junta (1978-1979). Presidente de facto desde el 29 de marzo de 1981, sucesor de Videla en el Proceso de Reorganización Nacional, con Lorenzo Sigaut en Economía; el 21 de noviembre de 1981 la Junta lo declaró impedido por «problemas de salud» y lo relevó el 11 de diciembre. Fue condenado en el Juicio a las Juntas (9 de diciembre de 1985) a 17 años de prisión por 86 secuestros, 11 casos de tortura y 3 robos; el 30 de diciembre de 1986 la Corte Suprema le redujo la pena a 16 años y 6 meses y quedó firme. Menem lo indultó en 1990 y murió en 1994.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Roberto Eduardo Viola",
+        "en": "Roberto Eduardo Viola"
+      },
+      "wikidata": "Q313996"
+    },
+    {
+      "id": "lacoste",
+      "nombre": "Carlos Alberto Lacoste",
+      "nacimiento": {
+        "anio": 1929,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1981,
+        "hasta": 1981,
+        "aprox": false
+      },
+      "roles": [
+        "marino",
+        "presidente de facto"
+      ],
+      "resumen": "Vicealmirante, vicepresidente del Ente Autárquico Mundial 1978 y presidente de facto interino del 11 al 22 de diciembre de 1981, entre la destitución de Viola y la asunción de Galtieri, para luego ser ministro de Acción Social. Tras una denuncia fiscal de 1984 por un aumento del 443 % de su patrimonio entre 1977 y 1979, fue procesado por administración fraudulenta en el manejo del EAM 78; no consta condena.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Alberto Lacoste",
+        "en": "Carlos Lacoste"
+      },
+      "wikidata": "Q365345"
+    },
+    {
+      "id": "liendo",
+      "nombre": "Horacio Tomás Liendo",
+      "nacimiento": {
+        "anio": 1924,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "muerte": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1981,
+        "hasta": 1981,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "presidente de facto"
+      ],
+      "resumen": "General, ministro de Trabajo de Videla (1976-1979) y ministro del Interior de Viola, a quien reemplazó como presidente de facto interino durante 21 días, del 21 de noviembre al 11 de diciembre de 1981. Cuando la Junta relevó a Viola rechazó seguir como interino y renunció; el interinato pasó a Lacoste.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Horacio Tomás Liendo",
+        "en": "Horacio Tomás Liendo"
+      },
+      "wikidata": "Q5901921"
+    },
+    {
+      "id": "saint-jean",
+      "nombre": "Alfredo Oscar Saint-Jean",
+      "nacimiento": {
+        "anio": 1926,
+        "aprox": false,
+        "lugar": "Chascomús",
+        "lon": -58.009,
+        "lat": -35.575
+      },
+      "muerte": {
+        "anio": 1987,
+        "aprox": false,
+        "lugar": "Chascomús",
+        "lon": -58.009,
+        "lat": -35.575
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1981,
+        "hasta": 1982,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "presidente de facto"
+      ],
+      "resumen": "General de división y ministro del Interior de Galtieri desde el 22 de diciembre de 1981; fue responsable de la represión de la marcha «Paz, pan y trabajo» de la CGT del 30 de marzo de 1982. Tras la renuncia de Galtieri por la derrota en Malvinas, ejerció la presidencia de facto interina del 18 de junio al 1 de julio de 1982, hasta que el Ejército impuso a Bignone. Fue procesado por 33 delitos de lesa humanidad, sobre todo como jefe de la subzona 12 (centro y oeste de la provincia de Buenos Aires); murió en 1987 sin sentencia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfredo Saint-Jean",
+        "en": "Alfredo Oscar Saint Jean"
+      },
+      "wikidata": "Q381403"
+    },
+    {
+      "id": "camano",
+      "nombre": "Eduardo Camaño",
+      "nacimiento": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2001,
+        "hasta": 2002,
+        "aprox": false
+      },
+      "roles": [
+        "politico"
+      ],
+      "resumen": "Dirigente justicialista de Quilmes, diputado nacional y presidente de la Cámara de Diputados (2001-2005). Tras las renuncias de Rodríguez Saá y del presidente provisional del Senado, Ramón Puerta, ejerció el Poder Ejecutivo por la ley de acefalía durante unas 48 horas, desde el 30 de diciembre de 2001 hasta que la Asamblea Legislativa eligió a Duhalde el 1 de enero de 2002.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eduardo Camaño",
+        "en": "Eduardo Camaño"
+      },
+      "wikidata": "Q336226"
+    },
+    {
+      "id": "puerta",
+      "nombre": "Ramón Puerta",
+      "nacimiento": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "Apóstoles",
+        "lon": -55.767,
+        "lat": -27.917
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2001,
+        "hasta": 2001,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "ingeniero"
+      ],
+      "resumen": "Empresario yerbatero y gobernador peronista de Misiones (1991-1999). Como presidente provisional del Senado ejerció el Poder Ejecutivo durante dos días, a partir del 21 de diciembre de 2001, tras la renuncia de De la Rúa, hasta que la Asamblea eligió a Rodríguez Saá.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ramón Puerta",
+        "en": "Ramón Puerta"
+      },
+      "wikidata": "Q357257"
+    },
+    {
+      "id": "sanguinetti",
+      "nombre": "Juan Carlos Sanguinetti",
+      "nacimiento": {
+        "anio": 1890,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "muerte": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1944,
+        "hasta": 1944,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general, interventor federal de facto de la provincia de Buenos Aires del 19 de julio al 27 de diciembre de 1944, durante el gobierno militar surgido del golpe de 1943. Fue comandante en jefe del Ejército entre diciembre de 1948 y diciembre de 1950.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Sanguinetti"
+      },
+      "wikidata": "Q89626554"
+    },
+    {
+      "id": "aloe",
+      "nombre": "Carlos Aloé",
+      "nacimiento": {
+        "anio": 1900,
+        "aprox": false,
+        "lugar": "Rosario",
+        "lon": -60.639,
+        "lat": -32.958
+      },
+      "muerte": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Rojas",
+        "lon": -60.733,
+        "lat": -34.183
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1952,
+        "hasta": 1955,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "politico"
+      ],
+      "resumen": "Suboficial y luego oficial de intendencia del Ejército, jefe de despacho de la presidencia de Perón (1946-1952). Elegido en 1951, gobernó la provincia de Buenos Aires desde el 4 de junio de 1952, como sucesor de Domingo Mercante, hasta el golpe de septiembre de 1955; convocó el Primer Congreso de Municipios (1952) y declaró feriado provincial el 20 de noviembre, por la Vuelta de Obligado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Aloé"
+      },
+      "wikidata": "Q5749638"
+    },
+    {
+      "id": "aguado",
+      "nombre": "Jorge Aguado",
+      "nacimiento": {
+        "anio": 1925,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1982,
+        "hasta": 1983,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "dirigente rural"
+      ],
+      "resumen": "Presidente de CARBAP y de Confederaciones Rurales Argentinas, fue ministro de Agricultura de Viola en 1981. Gobernador de facto de Buenos Aires desde el 8 de enero de 1982, nombrado por Galtieri y confirmado por Bignone, hasta el 10 de diciembre de 1983, cuando lo sucedió Armendáriz; fue después diputado nacional (1989-1993) y directivo del grupo Macri.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jorge Aguado",
+        "en": "Jorge Aguado"
+      },
+      "wikidata": "Q5934384"
+    },
+    {
+      "id": "armendariz",
+      "nombre": "Alejandro Armendáriz",
+      "nacimiento": {
+        "anio": 1923,
+        "aprox": false,
+        "lugar": "Saladillo",
+        "lon": -59.767,
+        "lat": -35.633
+      },
+      "muerte": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Saladillo",
+        "lon": -59.767,
+        "lat": -35.633
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1983,
+        "hasta": 1987,
+        "aprox": false
+      },
+      "roles": [
+        "medico",
+        "politico"
+      ],
+      "resumen": "Médico radical de Saladillo, aliado de Raúl Alfonsín en el Movimiento de Renovación y Cambio y diputado nacional desde 1965 hasta el golpe de 1966. Fue el primer gobernador de Buenos Aires de la democracia recuperada, de 1983 a 1987, cuando lo sucedió Antonio Cafiero.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alejandro Armendáriz",
+        "en": "Alejandro Armendáriz"
+      },
+      "wikidata": "Q4714481"
+    },
+    {
+      "id": "ruckauf",
+      "nombre": "Carlos Ruckauf",
+      "nacimiento": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Ramos Mejía",
+        "lon": -58.567,
+        "lat": -34.65
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1999,
+        "hasta": 2002,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "politico"
+      ],
+      "resumen": "Dirigente justicialista, ministro de Trabajo de Isabel Perón (1975-1976), ministro del Interior y vicepresidente de Menem (1995-1999). Como ministro de Trabajo firmó con Luder los decretos 2770, 2771 y 2772 del 6 de octubre de 1975, que ordenaban «aniquilar el accionar de los elementos subversivos» en todo el país. Gobernador de Buenos Aires desde 1999, promovió una política de mano dura contra el delito, revirtió la reforma policial de Arslanian y emitió los bonos Patacón en 2001; renunció en enero de 2002 para ser canciller de Duhalde.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Ruckauf",
+        "en": "Carlos Ruckauf"
+      },
+      "wikidata": "Q451948"
+    },
+    {
+      "id": "sola",
+      "nombre": "Felipe Solá",
+      "nacimiento": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 2002,
+        "hasta": 2007,
+        "aprox": false
+      },
+      "roles": [
+        "ingeniero",
+        "politico"
+      ],
+      "resumen": "Ingeniero agrónomo peronista, secretario de Agricultura de Menem; en 1996 autorizó el cultivo de soja transgénica, decisión discutida. Vicegobernador desde 1999, gobernó la provincia de Buenos Aires desde el 3 de enero de 2002, cuando Ruckauf renunció, y fue elegido gobernador en 2003; ejerció hasta 2007. En junio de 2002, con la policía bonaerense bajo su gobierno, ocurrió la masacre de Avellaneda, en la que murieron los manifestantes Kosteki y Santillán; la justicia condenó a prisión perpetua a dos altos oficiales de esa policía. Fue canciller de Alberto Fernández (2019-2021).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Felipe Solá",
+        "en": "Felipe Solá"
+      },
+      "wikidata": "Q1403237"
+    },
+    {
+      "id": "scioli",
+      "nombre": "Daniel Scioli",
+      "nacimiento": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 2007,
+        "hasta": 2015,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "empresario"
+      ],
+      "resumen": "Campeón de motonáutica, vicepresidente de Néstor Kirchner (2003-2007) y gobernador de Buenos Aires de 2007 a 2015, reelecto en 2011. Fue candidato del Frente para la Victoria en 2015 y perdió el balotaje con Mauricio Macri (51,34 % a 48,66 %). Fue embajador en Brasil (2020-2023) y desde 2024 es secretario de Turismo, Ambiente y Deportes del gobierno de Milei.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Daniel Scioli",
+        "en": "Daniel Scioli"
+      },
+      "wikidata": "Q1162679"
+    },
+    {
+      "id": "vidal",
+      "nombre": "María Eugenia Vidal",
+      "nacimiento": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 2015,
+        "hasta": 2019,
+        "aprox": false
+      },
+      "roles": [
+        "politica"
+      ],
+      "resumen": "Dirigente del PRO, ministra de Desarrollo Social porteña y vicejefa de Gobierno de Macri (2011-2015). Gobernó la provincia de Buenos Aires de diciembre de 2015 a 2019, la primera mujer en el cargo y la primera dirigente ajena al peronismo en llegar a él en 28 años; la sucedió Axel Kicillof.",
+      "obras": [],
+      "wikipedia": {
+        "es": "María Eugenia Vidal",
+        "en": "María Eugenia Vidal"
+      },
+      "wikidata": "Q6782004"
+    },
+    {
+      "id": "atanasof",
+      "nombre": "Alfredo Atanasof",
+      "nacimiento": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.92
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2002,
+        "hasta": 2003,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "sindicalista"
+      ],
+      "resumen": "Dirigente peronista de origen sindical, secretario general de la federación de sindicatos de trabajadores municipales bonaerenses y diputado nacional por Buenos Aires en tres períodos (1995-2002, 2003-2007 y 2009-2013). Fue ministro de Trabajo de Duhalde del 3 de enero al 3 de mayo de 2002 y jefe de Gabinete del 3 de mayo de 2002 al 25 de mayo de 2003, el período de la masacre de Avellaneda y del adelantamiento de las elecciones. En 2020 el gobierno de Alberto Fernández lo designó embajador en Bulgaria.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfredo Atanasof",
+        "en": "Alfredo Atanasof"
+      },
+      "wikidata": "Q8195340"
+    },
+    {
+      "id": "anibal-fernandez",
+      "nombre": "Aníbal Fernández",
+      "nacimiento": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Quilmes",
+        "lon": -58.267,
+        "lat": -34.717
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2002,
+        "hasta": 2023,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "politico"
+      ],
+      "resumen": "Contador y abogado peronista, intendente de Quilmes (1991-1995) y ministro de Producción de Duhalde, del Interior de Néstor Kirchner y de Justicia, Seguridad y Derechos Humanos de Cristina Kirchner. Fue jefe de Gabinete dos veces, desde el 8 de julio de 2009 hasta el 10 de diciembre de 2011, en reemplazo de Massa, y del 26 de febrero al 10 de diciembre de 2015, en reemplazo de Capitanich; también fue senador, candidato a gobernador de Buenos Aires en 2015 (perdió con Vidal) y ministro de Seguridad de Alberto Fernández (2021-2023). El 2 de agosto de 2015, en Periodismo para todos y una semana antes de las PASO en las que él era precandidato a gobernador, Martín Lanatta, condenado por el triple crimen de General Rodríguez, lo acusó de ser el autor intelectual de esos asesinatos; Lanatta ratificó la acusación ante la justicia y después se desdijo, y Fernández siempre la rechazó. No consta que Fernández haya sido procesado por el triple crimen. En 2019 fue condenado a indemnizar al Partido Obrero por calumnias, injurias y daño moral, por dichos de 2009.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aníbal Fernández",
+        "en": "Aníbal Fernández"
+      },
+      "wikidata": "Q2857937"
+    },
+    {
+      "id": "lencinas",
+      "nombre": "Carlos Washington Lencinas",
+      "nacimiento": {
+        "anio": 1888,
+        "aprox": false,
+        "lugar": "Departamento Rivadavia",
+        "lon": -68.467,
+        "lat": -33.183
+      },
+      "muerte": {
+        "anio": 1929,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "activo": {
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89,
+        "desde": 1922,
+        "hasta": 1929,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado"
+      ],
+      "resumen": "Dirigente radical de Mendoza, hijo de José Néstor Lencinas y gobernador de la provincia de 1922 a 1924. Su corriente, el lencinismo, antes alineado con los antipersonalistas de Alvear, sancionó legislación social (jornada de ocho horas, salario mínimo, cajas de jubilaciones) y se enfrentó con Yrigoyen; el gobierno nacional de Alvear intervino la provincia en 1924. Murió asesinado en 1929, siendo senador electo al que el Senado no había aceptado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Washington Lencinas",
+        "en": "Carlos Washington Lencinas"
+      },
+      "wikidata": "Q5042783"
+    },
+    {
+      "id": "reutemann",
+      "nombre": "Carlos Reutemann",
+      "nacimiento": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "muerte": {
+        "anio": 2021,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "activo": {
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633,
+        "desde": 1991,
+        "hasta": 2021,
+        "aprox": false
+      },
+      "roles": [
+        "piloto",
+        "politico"
+      ],
+      "resumen": "Piloto de Fórmula 1 que perdió el campeonato de 1981 por un punto, gobernador peronista de Santa Fe (1991-1995 y 1999-2003), senador nacional (1995-1999) y de nuevo desde 2003 hasta su muerte, en 2021. Durante su segundo gobierno, en diciembre de 2001, la policía provincial mató en Rosario a Claudio «Pocho» Lepratti, y la inundación de Santa Fe de 2003 dejó 23 muertos según su gobierno y unos 160 según las organizaciones de damnificados; lo denunciaron en 2004 y la fiscal lo desvinculó, y no fue condenado. Fue una figura del Peronismo Federal opositor desde 2008; en 2002 Duhalde le propuso ser candidato presidencial y declinó, y en 2015 apoyó a Macri desde Cambiemos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Reutemann",
+        "en": "Carlos Reutemann"
+      },
+      "wikidata": "Q173238"
+    },
+    {
+      "id": "gelman",
+      "nombre": "Juan Gelman",
+      "nacimiento": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1975,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "periodista"
+      ],
+      "resumen": "Poeta y periodista, militó en las FAR y, desde su fusión en 1973, en Montoneros, que en abril de 1975 lo envió a Roma; fue secretario de prensa para Europa hasta 1979, cuando se fue en desacuerdo con el verticalismo militar de la conducción y Montoneros lo condenó a muerte por traición. En 1976 secuestraron a sus hijos Nora, liberada después, y Marcelo, y a su nuera María Claudia García, embarazada: los restos de Marcelo se identificaron en 1990, los de María Claudia no aparecieron y en 2000 apareció en Uruguay su nieta Macarena, nacida en cautiverio; en 2011 la Corte Interamericana condenó a Uruguay en Gelman vs. Uruguay. Tuvo orden de captura por causas atribuidas a Montoneros hasta 1988, rechazó el indulto de Menem de 1989 y recibió el Premio Cervantes en 2007.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Gelman",
+        "en": "Juan Gelman"
+      },
+      "wikidata": "Q519851"
+    },
+    {
+      "id": "solanas",
+      "nombre": "Pino Solanas",
+      "nacimiento": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Olivos",
+        "lon": -58.483,
+        "lat": -34.5
+      },
+      "muerte": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "Neuilly-sur-Seine",
+        "lon": 2.268,
+        "lat": 48.887
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1968,
+        "hasta": 2019,
+        "aprox": false
+      },
+      "roles": [
+        "cineasta",
+        "politico"
+      ],
+      "resumen": "Cineasta y político. Con Octavio Getino codirigió «La hora de los hornos» (1968), documental sobre el neocolonialismo, fundó el grupo Cine Liberación y filmó en 1971 la entrevista a Perón en Madrid («Perón: actualización política y doctrinaria para la toma del poder»); amenazado por la Triple A, se exilió en 1976. El 21 de mayo de 1991, tres días después de criticar a Menem, que lo denunció por calumnias e injurias, fue baleado en las piernas por desconocidos y lo atribuyó al gobierno, sin que se identificara a los autores; fue diputado (1993-1997 y 2009-2013), senador (2013-2019, electo por UNEN), candidato presidencial en 2007, diputado en 2019 por el Frente de Todos, banca a la que renunció para ser embajador ante la Unesco hasta su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pino Solanas",
+        "en": "Fernando Solanas"
+      },
+      "wikidata": "Q508497"
+    },
+    {
+      "id": "torres",
+      "nombre": "Juan José Torres",
+      "nacimiento": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "Cochabamba",
+        "lon": -66.157,
+        "lat": -17.394
+      },
+      "muerte": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "San Andrés de Giles",
+        "lon": -59.44,
+        "lat": -34.45
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1973,
+        "hasta": 1976,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "politico"
+      ],
+      "resumen": "Militar boliviano, presidente de Bolivia de 1970 a 1971, cuando lo derrocó el golpe de Banzer; se exilió en el Perú, en Chile y por último en Buenos Aires, donde siguió después del golpe argentino de 1976. Lo secuestraron el 1 de junio de 1976 y su cuerpo apareció el 2 bajo un puente en San Andrés de Giles. Se lo atribuye al Plan Cóndor y a grupos ligados al gobierno de Videla; no consta condena por este crimen.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan José Torres",
+        "en": "Juan José Torres"
+      },
+      "wikidata": "Q195762"
+    },
+    {
+      "id": "maria-elena-walsh",
+      "nombre": "María Elena Walsh",
+      "nacimiento": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Villa Sarmiento",
+        "lon": -58.567,
+        "lat": -34.633
+      },
+      "muerte": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1945,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "cantautora",
+        "escritora"
+      ],
+      "resumen": "Poeta, cantautora y escritora, conocida por sus canciones y libros para niños. Durante la dictadura se opuso al régimen: el 16 de agosto de 1979 publicó en Clarín «Desventuras en el país-jardín-de-infantes», contra la censura de los militares.",
+      "obras": [
+        "desventuras-en-el-pais-jardin-de-infantes"
+      ],
+      "wikipedia": {
+        "es": "María Elena Walsh",
+        "en": "María Elena Walsh"
+      },
+      "wikidata": "Q188848"
+    },
+    {
+      "id": "tomas-eloy-martinez",
+      "nombre": "Tomás Eloy Martínez",
+      "nacimiento": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "San Miguel de Tucumán",
+        "lon": -65.217,
+        "lat": -26.817
+      },
+      "muerte": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1972,
+        "hasta": 1975,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "periodista"
+      ],
+      "resumen": "Escritor y periodista tucumano. En 1973 publicó «La pasión según Trelew», sobre la masacre de 1972; amenazado por la Triple A, vivió exiliado en Caracas de 1975 a 1983. Es autor de «La novela de Perón» (1985) y «Santa Evita» (1995).",
+      "obras": [
+        "la-pasion-segun-trelew"
+      ],
+      "wikipedia": {
+        "es": "Tomás Eloy Martínez",
+        "en": "Tomás Eloy Martínez"
+      },
+      "wikidata": "Q1362119"
     }
   ],
   "hechos": [
@@ -7422,8 +9052,8 @@
         "la-patagonia-rebelde"
       ],
       "wikipedia": {
-        "es": "La Patagonia rebelde",
-        "en": "Rebellion in Patagonia"
+        "es": "Patagonia rebelde",
+        "en": "Patagonia Rebelde"
       }
     },
     {
@@ -8150,7 +9780,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-pasion-segun-trelew"
+      ],
       "wikipedia": {
         "es": "Masacre de Trelew",
         "en": "Trelew massacre"
@@ -9810,6 +11442,187 @@
       "fuentes": [
         "ley-de-expropiacion-de-ypf"
       ]
+    },
+    {
+      "id": "eleccion-de-illia",
+      "titulo": "Elección de Illia",
+      "anio": 1963,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 7 de julio de 1963, con el peronismo proscripto y Frondizi detenido e inhabilitado, el gobierno de Guido llevó a cabo elecciones en las que ganó Arturo Illia, de la UCR del Pueblo, con alrededor de un cuarto de los votos emitidos; el Colegio Electoral lo eligió el 31 de julio con 270 votos, y Carlos Perette fue su vicepresidente. El voto en blanco, la vía de expresión de los peronistas, llegó al 19,4 %, el máximo de las elecciones presidenciales argentinas.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1963",
+        "en": "1963 Argentine general election"
+      }
+    },
+    {
+      "id": "eleccion-de-cristina-kirchner-2007",
+      "titulo": "Elección de Cristina Fernández de Kirchner",
+      "anio": 2007,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 28 de octubre de 2007 Cristina Fernández de Kirchner, del Frente para la Victoria y con el radical Julio Cobos como compañero de fórmula, ganó en primera vuelta con el 45,3 % de los votos, más de 22 puntos por delante de Elisa Carrió (Coalición Cívica); Néstor Kirchner, su esposo y presidente, no se presentó. Fue la primera mujer elegida presidenta por voto directo en la Argentina; ganó con la economía en crecimiento, pese a la intervención del INDEC por el gobierno, el caso Skanska y la valija de Antonini Wilson.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 2007",
+        "en": "2007 Argentine general election"
+      }
+    },
+    {
+      "id": "eleccion-de-cristina-kirchner-2011",
+      "titulo": "Reelección de Cristina Fernández de Kirchner",
+      "anio": 2011,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 23 de octubre de 2011 Cristina Fernández de Kirchner, con Amado Boudou como compañero de fórmula, fue reelecta en primera vuelta con el 54 % de los votos, por amplio margen sobre Hermes Binner, del Frente Amplio Progresista, y ganó en 23 de los 24 distritos. Fueron las primeras elecciones con las primarias abiertas, simultáneas y obligatorias (PASO) del 14 de agosto.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 2011",
+        "en": "2011 Argentine general election"
+      }
+    },
+    {
+      "id": "viborazo",
+      "titulo": "Viborazo",
+      "anio": 1971,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Córdoba",
+      "lon": -64.183,
+      "lat": -31.417,
+      "tipo": "revolucion",
+      "resumen": "El 15 de marzo de 1971, en el marco de una huelga general de la CGT, hubo en Córdoba una pueblada obrero-estudiantil contra el interventor de facto José Camilo Uriburu y por el asesinato del obrero Adolfo Cepeda en el «Ferreyrazo» del 12 de marzo. A diferencia del Cordobazo de 1969, contó con el protagonismo de los sindicatos clasistas Sitrac-Sitram; la Junta relevó a Levingston ese mismo mes.",
+      "regiones": [
+        "rio-de-la-plata",
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Viborazo"
+      }
+    },
+    {
+      "id": "eleccion-de-alvear",
+      "titulo": "Elección de Alvear",
+      "anio": 1922,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 2 de abril de 1922, con Yrigoyen terminando su mandato, la UCR llevó a Marcelo T. de Alvear, embajador en Francia, y a Elpidio González, amigo de Yrigoyen; con el 50,5 % de los votos superó a Norberto Piñero, de la Concentración Nacional (conservadora). Votaron solo los varones y la participación fue del 55 %; el Colegio Electoral los proclamó el 12 de junio, con 235 votos de 376, y la Asamblea Legislativa aprobó la elección el 27 de julio.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "ley-saenz-pena"
+      ],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1922",
+        "en": "1922 Argentine general election"
+      }
+    },
+    {
+      "id": "eleccion-de-ortiz",
+      "titulo": "Elección de Ortiz",
+      "anio": 1937,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 5 de septiembre de 1937 la Concordancia, que gobernaba con el presidente Justo, llevó a Roberto Ortiz y Ramón Castillo contra Alvear y Enrique Mosca, de la UCR, que había levantado la abstención de 1931, y el socialista Nicolás Repetto. Ortiz obtuvo alrededor del 55 % de los votos entre denuncias de intimidación, relleno de urnas y padrones con difuntos, el «fraude patriótico» de la Década Infame; Alvear ganó donde hubo fiscales de mesa opositores o gobiernos radicales (Córdoba, Tucumán, La Rioja y la Capital). Ortiz era radical antipersonalista, y la UCR había levantado la abstención en 1935.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1937",
+        "en": "1937 Argentine presidential election"
+      }
+    },
+    {
+      "id": "asesinato-de-lencinas",
+      "titulo": "Asesinato de Carlos Washington Lencinas",
+      "anio": 1929,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mendoza",
+      "lon": -68.844,
+      "lat": -32.89,
+      "tipo": "politico",
+      "resumen": "El 10 de noviembre de 1929, de regreso en Mendoza tras el rechazo de su diploma de senador por el Senado, Lencinas murió de un balazo al asomarse a un balcón del Club de Armas, en un acto de sus seguidores; en el tiroteo siguiente murieron otras dos personas y hubo más de veinte heridos. El crimen no se esclareció: se atribuyó a un tal Cáceres, muerto en el enfrentamiento (algo que el historiador Dardo Olguín discute), y las hipótesis van de un motivo personal a una conspiración política, del entorno yrigoyenista (el Klan Radical) o de otros sectores; una investigación periodística de 2004 consideró verosímil la conspiración sin poder determinar quién la organizó.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Carlos Washington Lencinas",
+        "en": "Carlos Washington Lencinas"
+      }
+    },
+    {
+      "id": "batalla-de-pradera-del-ganso",
+      "titulo": "Batalla de Pradera del Ganso (Goose Green)",
+      "anio": 1982,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Goose Green",
+      "lon": -58.969,
+      "lat": -51.829,
+      "tipo": "batalla",
+      "resumen": "Entre el 28 y el 29 de mayo de 1982 el 2.º Batallón de Paracaidistas británico atacó el istmo de Darwin, defendido por la Fuerza de Tareas Mercedes del teniente coronel Ítalo Piaggi (Regimiento de Infantería 12, una compañía del Regimiento 25, personal de la Fuerza Aérea y artillería antiaérea): fue el primer gran combate terrestre de la guerra. Murió el jefe británico, teniente coronel H. Jones, y la guarnición se rindió el 29 de mayo; hubo 18 británicos muertos y entre 45 y 57 argentinos (según la fuente) y unos 960 prisioneros argentinos. Los 114 isleños, que los argentinos mantenían desde el 1 de mayo bajo guardia armada en el salón comunal, casi un mes, quedaron libres; Piaggi justificó el encierro como protección contra la ira de los hombres de la Fuerza Aérea.",
+      "regiones": [
+        "patagonia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Pradera del Ganso",
+        "en": "Battle of Goose Green"
+      }
+    },
+    {
+      "id": "asesinato-de-juan-jose-torres",
+      "titulo": "Asesinato de Juan José Torres",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 1 de junio de 1976, poco más de dos meses después del golpe, secuestraron en Buenos Aires al expresidente boliviano Juan José Torres, exiliado desde 1971; su cuerpo apareció el 2 bajo un puente en San Andrés de Giles, a unos 120 km, con un balazo en la cabeza y dos en el cuello. Se lo ubica en el Plan Cóndor, la coordinación entre las dictaduras del Cono Sur; la investigación del periodista Martín Sivak implica a Banzer, a su primo Eduardo Banzer Ojopi, a Raúl Tijerina Barrientos y a Carlos Mena Burgos, y Michael Townley se adjudicó participación. No consta condena por este crimen. El gobierno de Banzer se opuso a que lo enterraran en Bolivia: sus restos estuvieron siete años en México y volvieron en 1983.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Asesinato de Juan José Torres"
+      }
     }
   ],
   "lugares": [

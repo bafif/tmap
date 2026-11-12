@@ -1511,7 +1511,7 @@
       "titulo": "Viaje desde el fuerte de Ballenar hasta Buenos Aires por tierras de los indios",
       "titulo_original": null,
       "autor": "Luis de la Cruz",
-      "autor_id": null,
+      "autor_id": "luis-de-la-cruz",
       "tipo": "primaria",
       "genero": "viajes",
       "escrita": {
@@ -1630,6 +1630,35 @@
       "soporte": "Publicación de la Facultad de Filosofía y Letras de Buenos Aires",
       "resumen": "Informe de las excavaciones en el poblado prehispánico de La Paya, en el valle Calchaquí (Salta), con la descripción de sus casas, tumbas y objetos, entre ellos piezas de influencia inca.",
       "por_que_importa": "Es uno de los primeros trabajos arqueológicos sistemáticos del noroeste argentino.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "costumbres-de-los-patagones",
+      "titulo": "Costumbres de los patagones",
+      "titulo_original": null,
+      "autor": "Carlos Luis Spegazzini",
+      "autor_id": "spegazzini",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1884,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": 1882,
+        "hasta": 1882
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo, Anales de la Sociedad Científica Argentina, t. 17, pp. 221-240",
+      "resumen": "Artículo de Carlos Spegazzini, leído en la Sociedad Científica Argentina en mayo de 1884, sobre los tehuelches meridionales (aonikenk) de la costa del río Santa Cruz, a quienes vio en enero y febrero y en julio de 1882. Describe los toldos de verano y de invierno, los entierros bajo matas de calafate con el caballo del muerto sacrificado y campamentos con casi todo de manufactura europea, salvo cueros, quillangos, bolsas y recados, y propone una etimología de «patagones».",
+      "por_que_importa": "Describe a los tehuelches de Santa Cruz cuando las campañas militares seguían en el norte de la Patagonia. Lo vio un visitante de pocas semanas, botánico de formación.",
       "leer": [],
       "confianza": "alta"
     }
@@ -3651,6 +3680,83 @@
         "en": "Ana María Lorandi"
       },
       "wikidata": "Q113133114"
+    },
+    {
+      "id": "spegazzini",
+      "nombre": "Carlos Luis Spegazzini",
+      "nacimiento": {
+        "anio": 1858,
+        "aprox": false,
+        "lugar": "Bairo",
+        "lon": 7.755,
+        "lat": 45.387
+      },
+      "muerte": {
+        "anio": 1926,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "activo": {
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933,
+        "desde": 1884,
+        "hasta": 1926,
+        "aprox": false
+      },
+      "roles": [
+        "naturalista",
+        "botánico"
+      ],
+      "resumen": "Botánico y micólogo italiano radicado en la Argentina. En 1881-1882 integró la expedición ítalo-argentina de Giacomo Bove a la Patagonia y Tierra del Fuego, que lo puso en contacto con los pueblos fueguinos y con los tehuelches de Santa Cruz. Publicó «Costumbres de los habitantes de la Tierra del Fuego» (1882) y «Costumbres de los patagones» (1884), y «Apuntes filológicos sobre las lenguas de la Tierra del Fuego» (Anales de la Sociedad Científica Argentina, 1884), con una gramática breve del yagán; su vocabulario haush quedó inédito.",
+      "obras": [
+        "costumbres-de-los-patagones"
+      ],
+      "wikipedia": {
+        "es": "Carlos Luis Spegazzini",
+        "en": "Carlo Luigi Spegazzini"
+      },
+      "wikidata": "Q648013"
+    },
+    {
+      "id": "czetz",
+      "nombre": "Juan Fernando Czetz (János Czetz)",
+      "nacimiento": {
+        "anio": 1822,
+        "aprox": false,
+        "lugar": "Monarquía Habsburgo",
+        "lon": 16.367,
+        "lat": 48.2
+      },
+      "muerte": {
+        "anio": 1904,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1860,
+        "hasta": 1904,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "ingeniero",
+        "topógrafo"
+      ],
+      "resumen": "Militar húngaro, general del ejército de la revolución de 1848, que llegó a Buenos Aires en 1860 y se incorporó a la sección de ingenieros del Ejército Argentino. Bajo la presidencia de Sarmiento dirigió el avance de la línea de fronteras con los indígenas en el sur de Córdoba, en zonas que poco antes habían ocupado tolderías ranqueles, y levantó fortines en la zona de la actual General Villegas. Desde 1870 fue el primer director del Colegio Militar de la Nación.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Czetz",
+        "en": "János Czetz"
+      },
+      "wikidata": "Q686993"
     }
   ],
   "hechos": [
@@ -5689,6 +5795,22 @@
         "es": "Malón de la Paz",
         "en": "Malón de la Paz"
       }
+    },
+    {
+      "id": "avance-de-la-frontera-al-rio-quinto-1869",
+      "titulo": "Avance de la frontera al río Quinto",
+      "anio": 1869,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Cuarto",
+      "lon": -64.348,
+      "lat": -33.123,
+      "tipo": "politico",
+      "resumen": "En 1869, con Sarmiento presidente y Martín de Gainza ministro de Guerra, se encargó al coronel de ingenieros Juan Czetz el trazado de una nueva línea de frontera con los indígenas; Czetz y el coronel Antonio Benavídez, jefe de la frontera sur de Santa Fe, levantaron los planos y los fortines. El teniente coronel Lucio V. Mansilla, jefe de la frontera sur de Córdoba, tenía el mandato de llevarla hasta el río Quinto, y desde el fuerte Sarmiento, sobre esa línea, salió en 1870 a Leubucó. La línea de 1869 quedó a retaguardia con el avance de la zanja de Alsina, en 1876-1877.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": []
     }
   ],
   "lugares": [

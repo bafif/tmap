@@ -99,6 +99,12 @@
           "resumen": "Agricultura, primeras aldeas grandes y la torre de Jericó, una de las construcciones más antiguas del mundo."
         },
         {
+          "desde": -4500,
+          "hasta": -3300,
+          "nombre": "Calcolítico (cultura ghassuliense)",
+          "resumen": "Aldeas de agricultores y ganaderos que funden cobre y entierran a sus muertos en dólmenes; la cultura ghassuliense, que se conoce sobre todo por Teleilat el-Ghassul junto al mar Muerto, va de 4400 a 3500 a. C., y la era sigue hasta 3300 a. C."
+        },
+        {
           "desde": -3300,
           "hasta": -1200,
           "nombre": "Canaán en la Edad del Bronce",
@@ -683,6 +689,12 @@
           "resumen": "Emiratos drusos y maronitas en la montaña; guerra civil de 1860 y autonomía del monte Líbano."
         },
         {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración aliada (OETA Oeste)",
+          "resumen": "Tras la derrota otomana, el litoral es administrado por Francia como parte del Territorio Enemigo Ocupado (OETA Oeste) hasta que la conferencia de San Remo (abril de 1920) le da el mandato; la Becá depende de Faisal (OETA Este) hasta Maysalun (julio de 1920)."
+        },
+        {
           "desde": 1920,
           "hasta": 1943,
           "nombre": "Mandato francés",
@@ -1180,6 +1192,12 @@
           "resumen": "Damasco es la puerta de la caravana de peregrinos a La Meca."
         },
         {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración de Faisal y Reino Árabe de Siria",
+          "resumen": "Faisal gobierna el interior desde 1918 y, tras la retirada británica de 1919, proclama el reino el 8 de marzo de 1920; Francia lo derrota en Maysalun en julio."
+        },
+        {
           "desde": 1920,
           "hasta": 1946,
           "nombre": "Mandato francés",
@@ -1665,6 +1683,18 @@
           "hasta": 1918,
           "nombre": "Imperio otomano",
           "resumen": "Región tribal de paso para la caravana de los peregrinos."
+        },
+        {
+          "desde": 1918,
+          "hasta": 1920,
+          "nombre": "Administración de Faisal (OETA Este)",
+          "resumen": "La región depende del gobierno hashemita de Faisal y, desde 1920, de su reino sirio, hasta Maysalun."
+        },
+        {
+          "desde": 1920,
+          "hasta": 1921,
+          "nombre": "Tierra de nadie",
+          "resumen": "Tras Maysalun quedó sin gobierno central; Abdalá entró en noviembre de 1920 y se estableció en Amán en marzo de 1921."
         },
         {
           "desde": 1921,
@@ -10752,6 +10782,604 @@
         "en": "Jerusalem: The Biography"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "ihya-ulum-al-din",
+      "titulo": "La revitalización de las ciencias de la religión",
+      "titulo_original": "Iḥyāʾ ʿulūm al-dīn",
+      "autor": "Al-Gazali",
+      "autor_id": "al-gazali",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1095,
+        "anio_hasta": 1105,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1095,
+        "hasta": 1105
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Libro",
+      "resumen": "Compendio de unos cuarenta libros, en cuatro partes de diez (los actos de culto, las costumbres de la vida diaria, los vicios que condenan y las virtudes que salvan), que muestra cómo la doctrina y las prácticas del islam pueden ser la base de una vida devota profunda, hasta las etapas superiores del sufismo. Al-Gazali lo escribió después de dejar, en una crisis espiritual, su cátedra en la Nizamiyya de Bagdad y de viajar por Damasco, Jerusalén y La Meca.",
+      "por_que_importa": "Suele considerárselo el libro más influyente del islam después del Corán y de las colecciones canónicas de hadices. Une la ley y la teología con la vía de los sufíes.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El resurgimiento de las ciencias religiosas",
+        "en": "The Revival of the Religious Sciences"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "alquimia-de-la-felicidad",
+      "titulo": "La alquimia de la felicidad",
+      "titulo_original": "Kīmiyā-yi saʿādat",
+      "autor": "Al-Gazali",
+      "autor_id": "al-gazali",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1105,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1105,
+        "hasta": 1105
+      },
+      "idioma_original": "Persa",
+      "soporte": "Libro",
+      "resumen": "Tratado en persa de al-Gazali, escrito poco antes de 1105, en cuatro partes de diez capítulos (deberes religiosos, salvación, relaciones humanas y condenación). Insiste en cumplir los ritos del islam, en las acciones que llevan a la salvación y en evitar el pecado, con un énfasis místico en la autodisciplina y el ascetismo. Es más corto que el Ihya y no es una reescritura suya, aunque el propio autor dijo que refleja su naturaleza.",
+      "por_que_importa": "Se le atribuye haber ayudado a reducir las tensiones entre los eruditos y los sufíes, que se acusaban de descuidar las obligaciones rituales y de enredarse en disputas de filosofía y teología.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Alchemy of Happiness"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-de-eusebio",
+      "titulo": "Crónica",
+      "titulo_original": "Chronicon",
+      "autor": "Eusebio de Cesarea",
+      "autor_id": "eusebio",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 311,
+        "aprox": true,
+        "lugar": "Cesarea Marítima",
+        "lon": 34.892,
+        "lat": 32.501
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 311,
+        "hasta": 311
+      },
+      "idioma_original": "Griego",
+      "soporte": "Libro",
+      "resumen": "Crónica universal desde Abraham hasta el año 325 (los veinte años de reinado de Constantino), en dos libros: el primero reúne extractos de autores anteriores y el segundo, una lista innovadora de fechas y hechos en columnas paralelas, un año por línea, que incluye la lista más larga conservada de vencedores olímpicos (776 a. C.-217 d. C.). El texto griego se perdió: se conserva en una traducción armenia y el segundo libro, completo, en la latina de Jerónimo.",
+      "por_que_importa": "Fijó el modelo de la crónica cristiana universal y influyó en los cronistas siguientes: Jacobo de Edesa la continuó desde el año 325, y de ella hay citas en autores siríacos como Miguel el Sirio. Se compuso antes de la Historia eclesiástica.",
+      "leer": [
+        {
+          "titulo": "Crónica de Jerónimo (versión latina de la de Eusebio), traducción inglesa de Roger Pearse",
+          "url": "https://www.tertullian.org/fathers/jerome_chronicle_00_eintro.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Crónica (Eusebio de Cesarea)",
+        "en": "Chronicon (Eusebius)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "de-viris-illustribus",
+      "titulo": "Sobre los hombres ilustres",
+      "titulo_original": "De viris illustribus",
+      "autor": "Jerónimo",
+      "autor_id": "jeronimo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 392,
+        "anio_hasta": 393,
+        "aprox": false,
+        "lugar": "Belén",
+        "lon": 35.206,
+        "lat": 31.704
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 392,
+        "hasta": 393
+      },
+      "idioma_original": "Latín",
+      "soporte": "Libro",
+      "resumen": "Colección bibliográfica latina escrita en Belén en 392-393, con un prólogo y 135 capítulos que dan una breve noticia de cada autor cristiano y la lista de sus escritos, desde la época de los apóstoles hasta el propio Jerónimo. La dedicó a Nummio Emiliano Dexter, que le había pedido el panorama, y la presentó como réplica cristiana de los catálogos de Suetonio y otros autores clásicos; buena parte de lo primero está tomado de Eusebio de Cesarea con pocos cambios.",
+      "por_que_importa": "Es una defensa de la cultura cristiana y un catálogo de los escritores cristianos de los primeros siglos. La crítica moderna la juzga apresurada e incompleta, elogiosa o insultante según lo que Jerónimo pensara de cada autor; la continuaron Genadio de Marsella e Isidoro de Sevilla.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa (Padres de la Iglesia, New Advent)",
+          "url": "https://www.newadvent.org/fathers/2708.htm",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "De Viris Illustribus (san Jerónimo)",
+        "en": "De Viris Illustribus (Jerome)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "teofanes-continuado",
+      "titulo": "Teófanes Continuado",
+      "titulo_original": "Θεοφάνους συνεχισταί",
+      "autor": "Varios autores bizantinos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 950,
+        "anio_hasta": 963,
+        "aprox": false,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "balcanes"
+        ],
+        "desde": 813,
+        "hasta": 961
+      },
+      "idioma_original": "Griego",
+      "soporte": "Libro",
+      "resumen": "Cuatro obras reunidas en un manuscrito del siglo XI (Vat. gr. 167) que continúan la Cronografía de Teófanes de 813 a 961: biografías de los emperadores de 813 a 867 (de León el Armenio a Miguel III) por encargo de Constantino VII, la Vida de Basilio I, escrita por su nieto Constantino VII hacia 950, una historia de 886 a 948 y su continuación hasta 961, probablemente de Teodoro Dafnopates.",
+      "por_que_importa": "Cubre los años del saqueo de Amorio por al-Mutásim y de la recuperación bizantina frente a los árabes. Como la encargó Constantino VII, refleja el punto de vista de la dinastía macedónica: la Vida de Basilio es un panegírico que ensalza a Basilio y denigra a su predecesor, Miguel III.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Teófanes Continuatus",
+        "en": "Theophanes Continuatus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "militia-dei",
+      "titulo": "Militia Dei",
+      "titulo_original": "Militia Dei",
+      "autor": "Eugenio III",
+      "autor_id": "eugenio-iii",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1145,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1119,
+        "hasta": 1145
+      },
+      "idioma_original": "Latín",
+      "soporte": "Bula",
+      "resumen": "Bula papal del 7 de abril de 1145 que consolidó la independencia de los templarios frente a la jerarquía eclesiástica local: les dio el derecho de cobrar diezmos y derechos de sepultura, de enterrar a sus muertos en cementerios propios y de moverse libremente por Europa.",
+      "por_que_importa": "Junto con Omne datum optimum (1139) y Milites Templi es la base de la futura riqueza y del éxito de la orden.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Militia Dei",
+        "en": "Militia Dei"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "hexapla",
+      "titulo": "Hexapla",
+      "titulo_original": "Ἑξαπλᾶ",
+      "autor": "Orígenes",
+      "autor_id": "origenes",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 240,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 240,
+        "hasta": 240
+      },
+      "idioma_original": "Griego",
+      "soporte": "Libro",
+      "resumen": "Edición crítica del Antiguo Testamento en seis columnas: el texto hebreo, el hebreo en letras griegas, las traducciones griegas de Aquila, Símaco y Teodoción y la Septuaginta, con marcas que señalaban en esta las adiciones y omisiones respecto del hebreo; en los Salmos había tres versiones más. Se perdió, y se conservan fragmentos, reunidos sobre todo por Frederick Field (1875). Fecha incierta: entre hacia 212, cuando se dice que Orígenes la empezó, y antes de 240.",
+      "por_que_importa": "Es la primera edición crítica de la Biblia y la fuente de lo que se sabe de varias traducciones griegas perdidas. Los especialistas modernos no coinciden en su propósito: facilitar las discusiones y las traducciones, o dar con el texto original o más antiguo. Su único ejemplar quedó en la Biblioteca de Cesarea.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Hexapla",
+        "en": "Hexapla"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tafsir-al-tabari",
+      "titulo": "Colección de explicaciones sobre la interpretación de los versículos del Corán",
+      "titulo_original": "Jāmiʿ al-bayān ʿan taʾwīl āy al-Qurʾān",
+      "autor": "Al-Tabari",
+      "autor_id": "al-tabari",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 883,
+        "aprox": false,
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 883,
+        "hasta": 883
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Libro",
+      "resumen": "Comentario sunita del Corán, versículo por versículo, que reúne para cada pasaje varios relatos, a menudo contradictorios, con su cadena de transmisores y, a veces, el juicio de Tabari sobre su fiabilidad. Lo terminó en 883; la Historia de los profetas y los reyes, su otra gran obra, la completó hacia 915.",
+      "por_que_importa": "Es el primer gran comentario seguido del Corán que se conserva en su forma original y sigue siendo muy valorado por los especialistas. Un grupo de eruditos de Transoxiana lo tradujo al persa por encargo del samánida Mansur I (961-976).",
+      "leer": [],
+      "wikipedia": {
+        "en": "Tafsir al-Tabari"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ketubot",
+      "titulo": "Ketubot (contratos matrimoniales)",
+      "titulo_original": "כתובות",
+      "autor": "Judá ha-Nasí",
+      "autor_id": "juda-ha-nasi",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 200,
+        "aprox": true,
+        "lugar": "Séforis",
+        "lon": 35.279,
+        "lat": 32.753
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 100,
+        "hasta": 200
+      },
+      "idioma_original": "Hebreo mísnico",
+      "soporte": "Tratado",
+      "resumen": "Tratado del orden Nashim («mujeres») de la Misná y del Talmud, sobre las obligaciones del matrimonio y, sobre todo, el contrato matrimonial judío (la ketuba), que fija los derechos y deberes del novio hacia la novia. Tiene trece capítulos y, por la amplitud de sus temas, se lo llama «el pequeño Talmud» (shas katan). El texto de la Misná se atribuye a la compilación de Judá ha-Nasí (hacia 200); la guemará del Talmud de Babilonia sobre este tratado se redactó con el resto del Talmud, entre los siglos V y VI.",
+      "por_que_importa": "Muestra cómo la ley oral regulaba el matrimonio y los derechos de la esposa y de la viuda. La ketuba conserva hoy valor legal en Israel.",
+      "leer": [
+        {
+          "titulo": "Misná con traducción inglesa (Sefaria)",
+          "url": "https://www.sefaria.org/Mishnah_Ketubot",
+          "idioma": "he",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Ketubot (Talmud)",
+        "en": "Ketubot (tractate)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "ivanhoe",
+      "titulo": "Ivanhoe",
+      "titulo_original": "Ivanhoe: A Romance",
+      "autor": "Walter Scott",
+      "autor_id": "walter-scott",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1819,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1190,
+        "hasta": 1199
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Novela histórica en tres volúmenes (diciembre de 1819), ambientada en la Inglaterra de 1194, cuando los cruzados volvían de la Tercera Cruzada. Wilfred de Ivanhoe, que acompañó a Ricardo Corazón de León a Tierra Santa, vuelve disfrazado a una Inglaterra de torneos, forajidos, un juicio por brujería y las divisiones entre judíos y cristianos y entre normandos y sajones; en ella aparecen el templario Brian de Bois-Guilbert y la judía Rebeca, hija de Isaac de York.",
+      "por_que_importa": "Fue la obra más popular de Scott. Se le acredita haber avivado el interés por la caballería y el medievalismo (Carlyle y Ruskin) y haber influido en la imagen popular de Ricardo I, el príncipe Juan y Robin Hood.",
+      "leer": [
+        {
+          "titulo": "Texto inglés (Proyecto Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/82",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ivanhoe",
+        "en": "Ivanhoe"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-cuatro-libros",
+      "titulo": "Los cuatro libros",
+      "titulo_original": "ٱلْكُتُب ٱلْأَرْبَعَة",
+      "autor": "Al-Kulayni, Ibn Babawayh y al-Tusi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 930,
+        "anio_hasta": 1060,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 930,
+        "hasta": 1060
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Colección",
+      "resumen": "Las cuatro colecciones canónicas de hadices del chiismo duodecimano: al-Kafi, de al-Kulayni (m. 941); Man la yahduruhu al-faqih, de Ibn Babawayh (al-Saduq); y Tahdhib al-ahkam y al-Istibsar, de al-Tusi. Los chiitas duodecimanos consideran al Profeta y a los doce imanes la autoridad absoluta de la religión, por lo que gran parte de sus hadices se transmiten a través de los imanes, y juzgan poco confiables a muchos transmisores sunitas por su actitud hacia la Ahl al-Bayt, la familia del Profeta.",
+      "por_que_importa": "Son para el chiismo lo que los seis libros canónicos (Kutub al-Sitta) para el sunismo, y conservan lo que esa tradición sabe de Alí, Husayn y los imanes. Los chiitas duodecimanos no usan las seis colecciones sunitas.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Four Books"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "opinion-consultiva-cij-2004-muro",
+      "titulo": "Opinión consultiva sobre las consecuencias jurídicas de la construcción de un muro en el territorio palestino ocupado",
+      "titulo_original": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory",
+      "autor": "Corte Internacional de Justicia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "La Haya",
+        "lon": 4.31,
+        "lat": 52.08
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1967,
+        "hasta": 2004
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Opinión consultiva",
+      "resumen": "Opinión consultiva que la Corte Internacional de Justicia emitió el 9 de julio de 2004, a pedido de la Asamblea General de la ONU. Concluyó que los tramos del muro que Israel construye dentro de Cisjordania, incluida Jerusalén Este, y el régimen de permisos asociado violan obligaciones de Israel según el derecho internacional. Israel sostuvo que la barrera era necesaria para impedir atentados y rechazó la competencia de la Corte y el dictamen.",
+      "por_que_importa": "La Corte consideró que el muro dentro de Cisjordania debía desmantelarse; Israel rechazó la opinión.",
+      "leer": [
+        {
+          "titulo": "Expediente y texto de la opinión en el sitio de la Corte Internacional de Justicia",
+          "url": "https://www.icj-cij.org/case/131",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "opinion-consultiva-cij-2024-ocupacion",
+      "titulo": "Opinión consultiva sobre las consecuencias jurídicas de las políticas y prácticas de Israel en el territorio palestino ocupado, incluida Jerusalén Este",
+      "titulo_original": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem",
+      "autor": "Corte Internacional de Justicia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "La Haya",
+        "lon": 4.31,
+        "lat": 52.08
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1967,
+        "hasta": 2024
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Opinión consultiva",
+      "resumen": "Opinión consultiva que la Corte Internacional de Justicia emitió el 19 de julio de 2024, a pedido de la Asamblea General de la ONU. Sostuvo que la presencia continuada de Israel en el territorio palestino ocupado (Cisjordania, Jerusalén Este y Gaza) es ilegal, que debe terminar lo antes posible y que Israel debe reparar los daños. El gobierno de Israel rechazó el dictamen y dijo que una solución solo puede surgir de negociaciones.",
+      "por_que_importa": "La Corte rechazó la tesis israelí de que Gaza dejó de estar ocupada tras 2005. En septiembre de 2024 la Asamblea General aprobó una resolución que pidió terminar en un año con la presencia ilegal de Israel.",
+      "leer": [
+        {
+          "titulo": "Expediente y texto de la opinión en el sitio de la Corte Internacional de Justicia",
+          "url": "https://www.icj-cij.org/case/186",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-487",
+      "titulo": "Resolución 487 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": 1981,
+        "hasta": 1981
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución aprobada por unanimidad el 19 de junio de 1981. Condenó el ataque israelí contra una instalación nuclear iraquí aprobada por el OIEA, pidió el cese de las hostilidades, reconoció el derecho de Irak a reclamar una indemnización e instó a Israel a someter sus instalaciones nucleares a las salvaguardias del OIEA.",
+      "por_que_importa": "Es la respuesta del Consejo de Seguridad a la operación Ópera.",
+      "leer": [
+        {
+          "titulo": "Texto oficial en el sistema de documentos de la ONU",
+          "url": "https://undocs.org/S/RES/487(1981)",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Resolución 487 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 487"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-573",
+      "titulo": "Resolución 573 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1985,
+        "hasta": 1985
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución aprobada el 4 de octubre de 1985, con 14 votos a favor y la abstención de Estados Unidos, tras una queja de Túnez. Condenó el bombardeo aéreo israelí del 1 de octubre, recordó a los Estados que deben abstenerse de la amenaza o el uso de la fuerza, exigió que Israel se abstuviera de nuevos ataques y reconoció el derecho de Túnez a una reparación.",
+      "por_que_importa": "Es la respuesta del Consejo de Seguridad a la operación Pata de Palo.",
+      "leer": [
+        {
+          "titulo": "Texto inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/United_Nations_Security_Council_Resolution_573",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "United Nations Security Council Resolution 573"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-1701",
+      "titulo": "Resolución 1701 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": 2006,
+        "hasta": 2006
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución aprobada por unanimidad el 11 de agosto de 2006 para terminar la guerra del Líbano. Pidió el cese de las hostilidades entre Israel y Hezbolá, la retirada de las fuerzas israelíes, que al sur del río Litani no hubiera más fuerzas armadas que el ejército libanés y la FINUL, y el desarme de los grupos armados.",
+      "por_que_importa": "Marco de las treguas posteriores en la frontera; Líbano acusa a Israel de no retirarse de algunos territorios y de violar su espacio aéreo, e Israel acusa a Hezbolá de no retirarse del sur del Litani.",
+      "leer": [
+        {
+          "titulo": "Texto inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/United_Nations_Security_Council_Resolution_1701",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Resolución 1701 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 1701"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "iniciativa-de-paz-arabe",
+      "titulo": "Iniciativa de Paz Árabe",
+      "titulo_original": null,
+      "autor": "Abdalá bin Abdelaziz",
+      "autor_id": "abdala-bin-abdelaziz",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Beirut",
+        "lon": 35.513,
+        "lat": 33.887
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1967,
+        "hasta": 2002
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Propuesta",
+      "resumen": "Propuesta de diez oraciones que el príncipe heredero saudí Abdalá presentó y la Liga Árabe adoptó en la cumbre de Beirut de 2002. Ofrece la normalización de relaciones de los países árabes con Israel a cambio de su retirada total de los territorios ocupados, una solución acordada para los refugiados palestinos según la resolución 194 y un Estado palestino con capital en Jerusalén Este.",
+      "por_que_importa": "La Liga Árabe la reafirmó en 2007 y 2017. El gobierno de Sharón la rechazó; Netanyahu expresó apoyo tentativo en 2015 y la rechazó como base de negociación en 2018.",
+      "leer": [
+        {
+          "titulo": "Texto inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Arab_Peace_Initiative",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Iniciativa de Paz Árabe",
+        "en": "Arab Peace Initiative"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -11166,7 +11794,8 @@
       ],
       "resumen": "Patriarca de los judíos de Palestina, reconocido por Roma, que reunió y puso por escrito la ley oral en la Mishná hacia el año 200. Es «Rabí», a secas, en la literatura rabínica.",
       "obras": [
-        "misna"
+        "misna",
+        "ketubot"
       ],
       "wikipedia": {
         "es": "Yehudah Hanasí",
@@ -11205,7 +11834,8 @@
       ],
       "resumen": "Teólogo alejandrino que se instaló en Cesarea, donde reunió una gran biblioteca y comparó el texto hebreo y las traducciones griegas de la Biblia en las Hexaplas. Unió la fe cristiana con el platonismo; murió por las torturas de la persecución de Decio.",
       "obras": [
-        "contra-celso"
+        "contra-celso",
+        "hexapla"
       ],
       "wikipedia": {
         "es": "Orígenes",
@@ -11243,7 +11873,8 @@
       "obras": [
         "onomasticon",
         "historia-eclesiastica-de-eusebio",
-        "vida-de-constantino"
+        "vida-de-constantino",
+        "cronica-de-eusebio"
       ],
       "wikipedia": {
         "es": "Eusebio de Cesarea",
@@ -11418,7 +12049,8 @@
       "resumen": "Erudito de Dalmacia que aprendió hebreo con maestros judíos y vivió 34 años en un monasterio de Belén. Allí tradujo casi toda la Biblia al latín desde el hebreo: la Vulgata, el texto de la Iglesia latina durante mil años. Antes había estudiado en Tréveris y pasado por Ancira, y en su comentario a la carta a los gálatas (hacia 387) escribió que los gálatas hablaban casi la misma lengua que los tréveros.",
       "obras": [
         "vulgata",
-        "comentario-a-galatas-jeronimo"
+        "comentario-a-galatas-jeronimo",
+        "de-viris-illustribus"
       ],
       "wikipedia": {
         "es": "Jerónimo (santo)",
@@ -13055,7 +13687,8 @@
       ],
       "resumen": "Papa cisterciense, discípulo de Bernardo de Claraval, que convocó la segunda cruzada tras la caída de Edesa con la bula Quantum praedecessores (1145).",
       "obras": [
-        "quantum-praedecessores"
+        "quantum-praedecessores",
+        "militia-dei"
       ],
       "wikipedia": {
         "es": "Eugenio III",
@@ -13824,7 +14457,8 @@
       ],
       "resumen": "Su novela El talismán (1825) presentó a Saladino como un caballero más noble que muchos cruzados, una imagen que se volvió popular en Europa.",
       "obras": [
-        "el-talisman"
+        "el-talisman",
+        "ivanhoe"
       ],
       "wikipedia": {
         "es": "Walter Scott",
@@ -14077,7 +14711,8 @@
       ],
       "resumen": "Autor del gran comentario del Corán y de una historia universal hasta 915, que recoge con sus cadenas de transmisores todas las versiones que encontró de cada hecho.",
       "obras": [
-        "historia-de-al-tabari"
+        "historia-de-al-tabari",
+        "tafsir-al-tabari"
       ],
       "wikipedia": {
         "es": "Al-Tabari",
@@ -14219,7 +14854,9 @@
       ],
       "resumen": "Teólogo que atacó la filosofía en La incoherencia de los filósofos y luego, en crisis, dejó su cátedra de Bagdad en 1095 para vivir como sufí en Damasco y Jerusalén. Sus obras no mencionan la llegada de los cruzados, que tomaron Jerusalén pocos años después.",
       "obras": [
-        "incoherencia-de-los-filosofos"
+        "incoherencia-de-los-filosofos",
+        "ihya-ulum-al-din",
+        "alquimia-de-la-felicidad"
       ],
       "wikipedia": {
         "es": "Al-Ghazali",
@@ -16828,6 +17465,1073 @@
         "en": "Amin Maalouf"
       },
       "wikidata": "Q115243"
+    },
+    {
+      "id": "yazid-ibn-abi-sufyan",
+      "nombre": "Yazid ibn Abi Sufyán",
+      "muerte": {
+        "anio": 639,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 634,
+        "hasta": 639,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "gobernador"
+      ],
+      "resumen": "Comandante de la conquista musulmana de Siria desde 634, hermano mayor por parte de padre de Muawiya. Mandó una de las cuatro columnas principales en el Yarmuk (636) y tomó con Muawiya los puertos de Sidón, Beirut y Biblos. Cuando murió Abu Ubaida en la peste de Amwas (639), el califa Omar lo nombró gobernador de Damasco, Jordania y Palestina, pero murió de la misma peste ese año; Omar puso a Muawiya en su lugar en Damasco y Jordania.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Yazid ibn Abi Sufyan"
+      },
+      "wikidata": "Q2632960"
+    },
+    {
+      "id": "hasan-ibn-ali",
+      "nombre": "Hasán ibn Alí",
+      "nacimiento": {
+        "anio": 625,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "muerte": {
+        "anio": 670,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "activo": {
+        "lugar": "Kufa",
+        "lon": 44.4,
+        "lat": 32.03,
+        "desde": 661,
+        "hasta": 661,
+        "aprox": false
+      },
+      "roles": [
+        "califa",
+        "imán"
+      ],
+      "resumen": "Hijo mayor de Alí y Fátima y nieto de Mahoma. Tras el asesinato de su padre lo reconocieron califa en Kufa (enero de 661), pero Muawiya, gobernador de Siria, no lo aceptó; con su ejército desmoralizado por un atentado y por deserciones, abdicó en agosto de 661 en favor de Muawiya, con la condición, según las fuentes, de que gobernara conforme al Corán y la sunna, de que el sucesor lo eligiera un consejo (Muawiya lo rompió al designar a Yazid I) y de que se amnistiara a sus partidarios. Los chiitas lo cuentan como segundo imán; entre los sunitas, algunos lo cuentan como el quinto y último califa «bien guiado». Murió en Medina hacia 670 (50 de la hégira; otras fuentes dan 49 h. y otros años). Las fuentes tempranas casi unánimes dicen que lo envenenaron: según la mayoría de las fuentes, su esposa Ja'da; los chiitas y varios historiadores sunitas tempranos (al-Waqidi, al-Mada'ini, al-Baladhuri) señalan a Muawiya como instigador, relatos que al-Tabari omite; Veccia Vaglieri admite que pudo morir de una enfermedad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hasán ibn Alí",
+        "en": "Hasan ibn Ali"
+      },
+      "wikidata": "Q182914"
+    },
+    {
+      "id": "aisha",
+      "nombre": "Aisha bint Abi Bakr",
+      "nacimiento": {
+        "anio": 614,
+        "aprox": true,
+        "lugar": "La Meca",
+        "lon": 39.826,
+        "lat": 21.422
+      },
+      "muerte": {
+        "anio": 678,
+        "aprox": false,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "activo": {
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47,
+        "desde": 632,
+        "hasta": 678,
+        "aprox": false
+      },
+      "roles": [
+        "tradicionista"
+      ],
+      "resumen": "Hija de Abu Bakr y tercera esposa de Mahoma. La tradición sunita la cuenta entre las principales transmisoras de hadices (se le atribuyen más de 2000) y maestras de los compañeros del Profeta; los chiitas la critican por haberse opuesto a Alí. En la primera fitna encabezó con Talha y Zubayr la oposición a Alí, que los derrotó en la batalla del Camello (diciembre de 656) y la devolvió a Medina. Las fuentes tempranas dicen que tenía nueve años cuando se consumó el matrimonio, una edad que hoy se discute y se critica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aisha bint Abi Bakr",
+        "en": "Aisha"
+      },
+      "wikidata": "Q4730963"
+    },
+    {
+      "id": "yibran-jalil-yibran",
+      "nombre": "Yibrán Jalil Yibrán",
+      "nacimiento": {
+        "anio": 1883,
+        "aprox": false,
+        "lugar": "Bisharri",
+        "lon": 36.012,
+        "lat": 34.251
+      },
+      "muerte": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Beirut",
+        "lon": 35.513,
+        "lat": 33.887,
+        "desde": 1898,
+        "hasta": 1902,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "escritor",
+        "pintor"
+      ],
+      "resumen": "Escritor y pintor libanés-estadounidense, de familia cristiana maronita de Bsharri, en el Monte Líbano otomano; emigró a Boston en 1895. Estudió en Beirut de 1898 a 1902, vivió en Boston y desde 1911 en Nueva York. Escribió en árabe y en inglés; su libro más conocido, El profeta (1923), se tradujo a más de cien lenguas. Algunos de sus textos, con ideas de rebelión contra el poder otomano y anticlericales, fueron prohibidos por las autoridades otomanas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Yibrán Jalil Yibrán",
+        "en": "Kahlil Gibran"
+      },
+      "wikidata": "Q47737"
+    },
+    {
+      "id": "abdala-bin-abdelaziz",
+      "nombre": "Abdalá bin Abdelaziz",
+      "nacimiento": {
+        "anio": 1924,
+        "aprox": false,
+        "lugar": "Riad",
+        "lon": 46.715,
+        "lat": 24.638
+      },
+      "muerte": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Riad",
+        "lon": 46.715,
+        "lat": 24.638
+      },
+      "activo": {
+        "lugar": "Riad",
+        "lon": 46.715,
+        "lat": 24.638,
+        "desde": 1982,
+        "hasta": 2015,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "político"
+      ],
+      "resumen": "Décimo hijo del fundador de Arabia Saudita; príncipe heredero desde 1982 y gobernante de hecho desde 1995, fue rey de 2005 a su muerte. En 2002 propuso la iniciativa de paz árabe, que la Liga Árabe adoptó en Beirut: ofrecía normalizar las relaciones con Israel a cambio de su retirada de los territorios ocupados en 1967, un Estado palestino con capital en Jerusalén Este y una solución acordada para los refugiados. El gobierno de Sharón la rechazó por exigir volver a las fronteras de 1967, y Netanyahu expresó un apoyo tentativo en 2015 y la rechazó como base de negociación en 2018.",
+      "obras": [
+        "iniciativa-de-paz-arabe"
+      ],
+      "wikipedia": {
+        "es": "Abdalá bin Abdulaziz",
+        "en": "Abdullah of Saudi Arabia"
+      },
+      "wikidata": "Q57298"
+    },
+    {
+      "id": "bashar-al-asad",
+      "nombre": "Bashar al-Ásad",
+      "nacimiento": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 2000,
+        "hasta": 2024,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "médico"
+      ],
+      "resumen": "Hijo de Hafez al-Ásad, a quien sucedió como presidente de Siria en 2000. Su gobierno reprimió las protestas de 2011, que se convirtieron en la guerra civil siria; la ONU contó 306.887 civiles muertos entre 2011 y marzo de 2021, y el Observatorio Sirio de Derechos Humanos da más de 600.000 muertos en total hasta 2024. La OPAQ y el mecanismo conjunto de la ONU y la OPAQ responsabilizaron a su gobierno de ataques con armas químicas, como el de Jan Sheijun en 2017; Ásad los llamó «una invención al cien por cien» y presentó a los rebeldes como «terroristas». Huyó a Moscú el 8 de diciembre de 2024, cuando los rebeldes entraron en Damasco, y Rusia le dio asilo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bashar al-Ásad",
+        "en": "Bashar al-Assad"
+      },
+      "wikidata": "Q44329"
+    },
+    {
+      "id": "yazid-i",
+      "nombre": "Yazid I",
+      "nacimiento": {
+        "anio": 646,
+        "aprox": true,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "muerte": {
+        "anio": 683,
+        "aprox": false,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 680,
+        "hasta": 683,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Segundo califa omeya, designado heredero por su padre Muawiya en el primer caso de sucesión hereditaria del califato. Durante su gobierno murió Husayn en Kerbala (680), a manos de las tropas de su gobernador de Kufa, Ubayd Allah ibn Ziyad; su ejército saqueó Medina tras la batalla de al-Harra (agosto de 683) y sitió La Meca, donde se había refugiado Ibn al-Zubayr; murió en noviembre de 683, y comenzó la segunda fitna. Para muchos musulmanes es un gobernante ilegítimo por esos hechos; los historiadores modernos lo juzgan con más matices y señalan que reforzó las defensas de Siria y no conquistó territorios nuevos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Yazid I",
+        "en": "Yazid I"
+      },
+      "wikidata": "Q217442"
+    },
+    {
+      "id": "muawiya-ii",
+      "nombre": "Muawiya II",
+      "nacimiento": {
+        "anio": 661,
+        "aprox": true,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "muerte": {
+        "anio": 684,
+        "aprox": false,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 683,
+        "hasta": 684,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Tercer califa omeya y último de la rama sufyaní, hijo de Yazid I. Reinó pocos meses (las fuentes dan entre veinte días y cuatro meses; la mayoría de los historiadores, no más de dos), enfermo y con una autoridad limitada a Damasco y el sur de Siria, mientras Ibn al-Zubayr era reconocido como califa en el Hiyaz. Murió sin heredero, y la crisis de sucesión pasó el poder a la rama de Marwan I; los relatos sobre su reinado, como el de su sermón de abdicación, se consideran en parte sectarios o poco confiables.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Muawiya II",
+        "en": "Mu'awiya II"
+      },
+      "wikidata": "Q264210"
+    },
+    {
+      "id": "marwan-i",
+      "nombre": "Marwan I",
+      "nacimiento": {
+        "anio": 623,
+        "aprox": true,
+        "lugar": "La Meca",
+        "lon": 39.826,
+        "lat": 21.422
+      },
+      "muerte": {
+        "anio": 685,
+        "aprox": false,
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513
+      },
+      "activo": {
+        "lugar": "Damasco",
+        "lon": 36.292,
+        "lat": 33.513,
+        "desde": 684,
+        "hasta": 685,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Primo del califa Uthman, fue su secretario, gobernador en Medina y uno de los jefes omeyas en el Hiyaz. Tras la muerte de Muawiya II lo eligieron califa en Yabiya (684) y derrotó en Marj Rahit (agosto de 684) a las tribus qaysíes que apoyaban a Ibn al-Zubayr; volvió a someter Egipto, Palestina y el norte de Siria. Fundó la rama marwaní, que gobernó hasta 750, y designó heredero a su hijo Abd al-Malik; murió en la primavera de 685, quizá de la peste que afectaba a Siria.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marwán I",
+        "en": "Marwan I"
+      },
+      "wikidata": "Q298577"
+    },
+    {
+      "id": "abd-allah-ibn-al-zubayr",
+      "nombre": "Abd Allah ibn al-Zubayr",
+      "nacimiento": {
+        "anio": 624,
+        "aprox": false,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "muerte": {
+        "anio": 692,
+        "aprox": false,
+        "lugar": "La Meca",
+        "lon": 39.826,
+        "lat": 21.422
+      },
+      "activo": {
+        "lugar": "La Meca",
+        "lon": 39.826,
+        "lat": 21.422,
+        "desde": 683,
+        "hasta": 692,
+        "aprox": false
+      },
+      "roles": [
+        "califa",
+        "militar"
+      ],
+      "resumen": "Nieto de Abu Bakr y sobrino de Aisha, se negó a reconocer a Yazid I, se refugió en La Meca y se proclamó califa en 683. Casi todas las provincias lo reconocieron, pero su autoridad fue nominal fuera del Hiyaz; su hermano Musab dominó Irak hasta que Abd al-Malik lo mató en 691. Al-Hayyay ibn Yusuf sitió La Meca y lo mató en octubre o noviembre de 692, con lo que terminó la segunda fitna.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Abd Allah ibn al-Zubayr",
+        "en": "Abd Allah ibn al-Zubayr"
+      },
+      "wikidata": "Q307665"
+    },
+    {
+      "id": "suleiman-ibn-abd-al-malik",
+      "nombre": "Suleimán ibn Abd al-Malik",
+      "nacimiento": {
+        "anio": 675,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "muerte": {
+        "anio": 717,
+        "aprox": false,
+        "lugar": "Dabiq",
+        "lon": 37.268,
+        "lat": 36.537
+      },
+      "activo": {
+        "lugar": "Ramla",
+        "lon": 34.862,
+        "lat": 31.927,
+        "desde": 715,
+        "hasta": 717,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Séptimo califa omeya. Como gobernador de Palestina fundó Ramla, que reemplazó a Lod como capital de la provincia y siguió siéndolo hasta el siglo XI. Ya califa (715-717) destituyó a los generales de la gran expansión, como el conquistador de Sind, y a Musa ibn Nusayr; la expansión casi se detuvo, y su mayor empresa, el sitio de Constantinopla (717-718), terminó en una derrota árabe. Murió en Dabiq durante el sitio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Suleimán I",
+        "en": "Sulayman ibn Abd al-Malik"
+      },
+      "wikidata": "Q284233"
+    },
+    {
+      "id": "al-hadi",
+      "nombre": "Al-Hadi",
+      "nacimiento": {
+        "anio": 761,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 786,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315,
+        "desde": 785,
+        "hasta": 786,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Cuarto califa abasí, hijo mayor de al-Mahdi y hermano de Harún al-Rashid. Reinó algo más de un año (785-786), con luchas de poder con su madre, al-Jayzuran, y murió en septiembre de 786; lo sucedió Harún.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Al-Hadi",
+        "en": "Al-Hadi"
+      },
+      "wikidata": "Q293490"
+    },
+    {
+      "id": "al-amin",
+      "nombre": "Al-Amín",
+      "nacimiento": {
+        "anio": 787,
+        "aprox": false,
+        "lugar": "Al-Rusafa",
+        "lon": 44.415,
+        "lat": 33.332
+      },
+      "muerte": {
+        "anio": 813,
+        "aprox": false,
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315
+      },
+      "activo": {
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315,
+        "desde": 809,
+        "hasta": 813,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Sexto califa abasí, hijo de Harún al-Rashid y de Zubayda, de linaje abasí por ambos padres. Al intentar desplazar a su hermanastro al-Mamún de la sucesión estalló una guerra civil; lo depusieron y mataron en Bagdad en septiembre de 813, y al-Mamún quedó como califa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Al-Amín",
+        "en": "Al-Amin"
+      },
+      "wikidata": "Q293495"
+    },
+    {
+      "id": "al-mutasim",
+      "nombre": "Al-Mutásim",
+      "nacimiento": {
+        "anio": 796,
+        "aprox": true,
+        "lugar": "Palacio de la Eternidad",
+        "lon": 44.367,
+        "lat": 33.35
+      },
+      "muerte": {
+        "anio": 842,
+        "aprox": false,
+        "lugar": "Samarra",
+        "lon": 43.886,
+        "lat": 34.196
+      },
+      "activo": {
+        "lugar": "Bagdad",
+        "lon": 44.366,
+        "lat": 33.315,
+        "desde": 833,
+        "hasta": 842,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Octavo califa abasí, hermano de al-Mamún. Formó una guardia de mercenarios turcos, fundó Samarra como capital (836) y siguió la política racionalista mutazilí de la mihna. Ordenó la campaña de 838 contra los bizantinos que terminó con el saqueo de Amorio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Al-Mutásim",
+        "en": "Al-Mu'tasim"
+      },
+      "wikidata": "Q284550"
+    },
+    {
+      "id": "al-mustamsik",
+      "nombre": "Al-Mustamsik",
+      "nacimiento": {
+        "anio": 1441,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1521,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1497,
+        "hasta": 1517,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Califa abasí de El Cairo, bajo tutela mameluca: reinó de 1497 a 1508, cuando abdicó en su hijo al-Mutawakkil III, y volvió brevemente en 1516 mientras este estaba prisionero de los otomanos, para investir al último sultán mameluco, Tumanbay II. Tras la conquista otomana (1517) los otomanos le quitaron sus bienes familiares y deportaron a parte de su familia; murió en 1521. Otras fuentes dan otros años de nacimiento (1447 y 1470).",
+      "obras": [],
+      "wikipedia": {
+        "en": "Al-Mustamsik"
+      },
+      "wikidata": "Q210626"
+    },
+    {
+      "id": "abdulmejid-ii",
+      "nombre": "Abdulmejid II",
+      "nacimiento": {
+        "anio": 1868,
+        "aprox": false,
+        "lugar": "Beşiktaş",
+        "lon": 29.027,
+        "lat": 41.075
+      },
+      "muerte": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012,
+        "desde": 1922,
+        "hasta": 1924,
+        "aprox": false
+      },
+      "roles": [
+        "califa"
+      ],
+      "resumen": "Último califa otomano. Cuando la Gran Asamblea Nacional de Turquía abolió el sultanato (1 de noviembre de 1922), la misma asamblea lo eligió califa (19 de noviembre), sin poder político; la asamblea abolió también el califato el 3 de marzo de 1924 y él se exilió. Desde Suiza sostuvo que la abolición era contraria a la sharía; murió en París en 1944 y lo enterraron en Medina. Después, Husein ibn Alí, jerife de La Meca, se proclamó califa, con reconocimiento limitado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Abdülmecid II",
+        "en": "Abdülmecid II"
+      },
+      "wikidata": "Q203768"
+    },
+    {
+      "id": "yigal-alon",
+      "nombre": "Yigal Alón",
+      "nacimiento": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Kfar Tavor",
+        "lon": 35.42,
+        "lat": 32.687
+      },
+      "muerte": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "Afula",
+        "lon": 35.29,
+        "lat": 32.608
+      },
+      "activo": {
+        "lugar": "Tel Aviv",
+        "lon": 34.78,
+        "lat": 32.08,
+        "desde": 1948,
+        "hasta": 1980,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Comandante del Palmaj y general: en 1948 mandó la conquista de Galilea, Lod y Ramla (de donde fueron expulsados entre 50 000 y 70 000 palestinos, con una orden firmada por su jefe de operaciones, Isaac Rabin, en la operación Dani que Alón dirigía, según Benny Morris) y del Néguev hasta Eilat. Fue ministro y viceprimer ministro, y primer ministro interino entre la muerte de Eshkol y la elección de Golda Meir en 1969. En 1967 ideó el plan Alón, que proponía qué territorios conservar tras la guerra de los Seis Días y que, sin ser adoptado oficialmente, guió el asentamiento israelí durante una década. Murió de un paro cardíaco en plena campaña por la jefatura laborista.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Igal Alón",
+        "en": "Yigal Allon"
+      },
+      "wikidata": "Q319015"
+    },
+    {
+      "id": "ehud-olmert",
+      "nombre": "Ehud Ólmert",
+      "nacimiento": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Nahalat Jabotinsky",
+        "lon": 34.948,
+        "lat": 32.526
+      },
+      "activo": {
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683,
+        "desde": 1993,
+        "hasta": 2009,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "abogado"
+      ],
+      "resumen": "Alcalde de Jerusalén (1993-2003) y primer ministro de Israel de 2006 a 2009; asumió de forma interina en enero de 2006, cuando Sharón quedó incapacitado por un derrame, y formó gobierno tras las elecciones de marzo. Su gobierno decidió la guerra del Líbano de 2006, que la comisión Winograd criticó, ordenó la operación Huerto (2007) y la guerra de Gaza de 2008-2009. Negoció con Abás tras la conferencia de Annapolis (2007): discreparon sobre la superficie del canje de territorios (Ólmert pedía entre 6,3 y 6,8 % de Cisjordania; Abás, no más de 1,9 %) y no firmaron. Según las memorias de Ólmert, Abás dudó; según las de Bush, Abás cortó las negociaciones cuando Ólmert anunció que renunciaba. Renunció en 2008 por las investigaciones de corrupción; condenado en 2014 por sobornos (caso Holyland) cuando era alcalde, cumplió prisión de 2016 a 2017.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ehud Ólmert",
+        "en": "Ehud Olmert"
+      },
+      "wikidata": "Q93181"
+    },
+    {
+      "id": "naftali-bennett",
+      "nombre": "Naftalí Bennett",
+      "nacimiento": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Haifa",
+        "lon": 34.999,
+        "lat": 32.819
+      },
+      "activo": {
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683,
+        "desde": 2021,
+        "hasta": 2022,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "empresario"
+      ],
+      "resumen": "Ex comando y empresario de software, dirigió el partido religioso sionista Hogar Judío y luego Nueva Derecha y Yamina; fue ministro de Economía, de Educación y de Defensa. Tras las elecciones de 2021 formó con Yair Lapid un gobierno de rotación: fue primer ministro desde el 13 de junio de 2021 hasta el 30 de junio de 2022, cuando la coalición no logró aprobar leyes y se disolvió la Knéset. Se opone a un Estado palestino y en 2013 propuso anexar el Área C.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Naftalí Bennett",
+        "en": "Naftali Bennett"
+      },
+      "wikidata": "Q39318"
+    },
+    {
+      "id": "yair-lapid",
+      "nombre": "Yair Lapid",
+      "nacimiento": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Tel Aviv",
+        "lon": 34.78,
+        "lat": 32.08
+      },
+      "activo": {
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683,
+        "desde": 2021,
+        "hasta": 2022,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "periodista"
+      ],
+      "resumen": "Periodista y presentador de televisión que fundó el partido centrista Yesh Atid (2012) y fue ministro de Finanzas (2013-2014). En el gobierno de rotación de 2021 fue ministro de Relaciones Exteriores y, al disolverse la Knéset, primer ministro del 1 de julio al 29 de diciembre de 2022 (181 días), hasta que se formó el gobierno surgido de las elecciones de noviembre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Yair Lapid",
+        "en": "Yair Lapid"
+      },
+      "wikidata": "Q1396120"
+    },
+    {
+      "id": "hosni-mubarak",
+      "nombre": "Hosni Mubarak",
+      "nacimiento": {
+        "anio": 1928,
+        "aprox": false,
+        "lugar": "Kafr el-Muṣīlḥa",
+        "lon": 31.017,
+        "lat": 30.536
+      },
+      "muerte": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.236,
+        "lat": 30.044
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1981,
+        "hasta": 2011,
+        "aprox": false
+      },
+      "roles": [
+        "presidente",
+        "militar"
+      ],
+      "resumen": "Jefe de la fuerza aérea y vicepresidente de Sadat, lo sucedió como presidente de Egipto en 1981 tras su asesinato y gobernó hasta 2011, con referendos de candidato único y el estado de emergencia casi siempre vigente. Mantuvo la paz con Israel y apoyó el proceso de paz israelí-palestino; sus críticos señalan la represión y la corrupción. Renunció tras 18 días de protestas en 2011; lo condenó a prisión perpetua en 2012 por no haber impedido las muertes de manifestantes (no por las muertes mismas); el Tribunal de Casación anuló la sentencia y lo absolvió en 2017. En 2014 lo condenaron por malversación a tres años; la Casación anuló esa condena y, en el nuevo juicio, lo condenaron de nuevo en 2015.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Hosni Mubarak",
+        "en": "Hosni Mubarak"
+      },
+      "wikidata": "Q34105"
+    },
+    {
+      "id": "sufi-abu-taleb",
+      "nombre": "Sufi Abu Taleb",
+      "nacimiento": {
+        "anio": 1925,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 2008,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1978,
+        "hasta": 1983,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "jurista"
+      ],
+      "resumen": "Jurista, presidente de la Universidad de El Cairo y del Parlamento egipcio (1978-1983). Tras el asesinato de Sadat (6 de octubre de 1981) asumió ocho días como presidente interino, según la Constitución, y cedió el cargo al vicepresidente Mubarak.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sufi Abu Taleb",
+        "en": "Sufi Abu Taleb"
+      },
+      "wikidata": "Q733919"
+    },
+    {
+      "id": "zakaria-mohieddin",
+      "nombre": "Zakaria Mohieddin",
+      "nacimiento": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Caliubia",
+        "lon": 31.21,
+        "lat": 30.41
+      },
+      "muerte": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.236,
+        "lat": 30.044
+      },
+      "activo": {
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05,
+        "desde": 1952,
+        "hasta": 1968,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Oficial egipcio, miembro del Consejo del Comando de la Revolución de 1952, ministro del Interior, vicepresidente y primer ministro (1965-1966). Tras la derrota de 1967, Nasser anunció su renuncia y lo designó sucesor, cargo que él rechazó; Nasser siguió en el cargo, de modo que nunca fue presidente. En 1968 renunció a todo y dejó la vida pública.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Zakaria Mohieddin",
+        "en": "Zakaria Mohieddin"
+      },
+      "wikidata": "Q144615"
+    },
+    {
+      "id": "talal-de-jordania",
+      "nombre": "Talal de Jordania",
+      "nacimiento": {
+        "anio": 1909,
+        "aprox": false,
+        "lugar": "La Meca",
+        "lon": 39.826,
+        "lat": 21.422
+      },
+      "muerte": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Estambul",
+        "lon": 28.96,
+        "lat": 41.01
+      },
+      "activo": {
+        "lugar": "Amán",
+        "lon": 35.933,
+        "lat": 31.95,
+        "desde": 1951,
+        "hasta": 1952,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Jordania tras el asesinato de su padre Abdalá I en 1951, hasta que el Parlamento lo obligó a abdicar en 1952 por una enfermedad mental (esquizofrenia, según los informes). Su logro más recordado es la constitución de 1952, que hizo del reino una monarquía constitucional. Pasó el resto de su vida en un sanatorio de Estambul, y lo sucedió su hijo Husein.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Talal de Jordania",
+        "en": "Talal of Jordan"
+      },
+      "wikidata": "Q294365"
+    },
+    {
+      "id": "abdala-ii-de-jordania",
+      "nombre": "Abdalá II de Jordania",
+      "nacimiento": {
+        "anio": 1962,
+        "aprox": false,
+        "lugar": "Amán",
+        "lon": 35.933,
+        "lat": 31.95
+      },
+      "activo": {
+        "lugar": "Amán",
+        "lon": 35.933,
+        "lat": 31.95,
+        "desde": 1999,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Jordania desde el 7 de febrero de 1999, hijo de Husein y de la princesa Muna; antes fue jefe de las fuerzas especiales. Monarca constitucional con amplias facultades ejecutivas y legislativas, que sus críticos consideran un régimen autoritario, respondió a las protestas de 2011 con cambios de gobierno y reformas, y mantuvo la paz con Israel firmada en 1994. Tiene la custodia de los lugares santos musulmanes y cristianos de Jerusalén, que su dinastía ejerce desde 1924.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Abdalá II de Jordania",
+        "en": "Abdullah II"
+      },
+      "wikidata": "Q57464"
+    },
+    {
+      "id": "ahmed-qurei",
+      "nombre": "Ahmed Qurei",
+      "nacimiento": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Abu Dis",
+        "lon": 35.266,
+        "lat": 31.762
+      },
+      "muerte": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Ramala",
+        "lon": 35.202,
+        "lat": 31.897
+      },
+      "activo": {
+        "lugar": "Ramala",
+        "lon": 35.202,
+        "lat": 31.897,
+        "desde": 1968,
+        "hasta": 2006,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "banquero"
+      ],
+      "resumen": "Nacido en Abu Dis, banquero y dirigente de Fatah, director económico de la OLP, siguió a Arafat a Túnez y fue uno de los negociadores de los acuerdos de Oslo. Fue presidente del Consejo Legislativo Palestino y segundo primer ministro de la Autoridad Palestina, del 7 de octubre de 2003 a la derrota electoral de Fatah de 2006 (interino hasta el 29 de marzo, cuando lo sucedió Haniye); tenía también a su cargo la seguridad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ahmed Qurei",
+        "en": "Ahmed Qurei"
+      },
+      "wikidata": "Q378833"
+    },
+    {
+      "id": "salam-fayyad",
+      "nombre": "Salam Fayyad",
+      "nacimiento": {
+        "anio": 1952,
+        "aprox": false,
+        "lugar": "Nablus",
+        "lon": 35.263,
+        "lat": 32.221
+      },
+      "activo": {
+        "lugar": "Ramala",
+        "lon": 35.202,
+        "lat": 31.897,
+        "desde": 2007,
+        "hasta": 2013,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "economista"
+      ],
+      "resumen": "Economista formado en Estados Unidos, ministro de Finanzas de la Autoridad Palestina y primer ministro de junio de 2007 a junio de 2013. Abás lo nombró tras la toma de Gaza por Hamás, por «emergencia nacional»; Hamás lo impugnó como ilegal y siguió reconociendo a Haniye en Gaza, y el Consejo Legislativo nunca lo confirmó; se lo conoce por sus reformas económicas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Salam Fayyad",
+        "en": "Salam Fayyad"
+      },
+      "wikidata": "Q57741"
+    },
+    {
+      "id": "rawhi-fattouh",
+      "nombre": "Rawhi Fattouh",
+      "nacimiento": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Rafah",
+        "lon": 34.252,
+        "lat": 31.289
+      },
+      "activo": {
+        "lugar": "Gaza",
+        "lon": 34.46,
+        "lat": 31.508,
+        "desde": 2004,
+        "hasta": 2005,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Dirigente de Fatah nacido en Rafah, presidente del Consejo Legislativo Palestino desde 2004. Tras la muerte de Arafat (11 de noviembre de 2004) fue presidente interino de la Autoridad Palestina, según la Ley Básica, hasta que Abás ganó las elecciones y asumió el 15 de enero de 2005. En noviembre de 2024 Abás lo designó presidente interino en caso de su muerte o renuncia; en abril de 2025 nombró vicepresidente a Husein al-Sheij.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rawhi Fattouh",
+        "en": "Rawhi Fattouh"
+      },
+      "wikidata": "Q962747"
+    },
+    {
+      "id": "yahya-hammuda",
+      "nombre": "Yahya Hammuda",
+      "nacimiento": {
+        "anio": 1909,
+        "aprox": false,
+        "lugar": "Lifta",
+        "lon": 35.197,
+        "lat": 31.794
+      },
+      "muerte": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Amán",
+        "lon": 35.933,
+        "lat": 31.95
+      },
+      "roles": [
+        "abogado",
+        "dirigente"
+      ],
+      "resumen": "Abogado nacido en Lifta, activo en la causa de los refugiados palestinos desde 1949 (Congreso General de Refugiados). Presidió el Comité Ejecutivo de la OLP del 24 de diciembre de 1967 al 2 de febrero de 1969, tras la renuncia de Ahmad Shukeiri y antes de que Arafat asumiera la presidencia; su gestión no dejó marcas en la organización.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Yahya Hammuda",
+        "en": "Yahya Hammuda"
+      },
+      "wikidata": "Q3100738"
+    },
+    {
+      "id": "roboam",
+      "nombre": "Roboam",
+      "muerte": {
+        "anio": -913,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683,
+        "desde": -931,
+        "hasta": -913,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Hijo y sucesor de Salomón y último rey de la monarquía unida, según la Biblia hebrea. Diez tribus del norte se rebelaron hacia 932-931 a. C. y formaron el reino de Israel bajo Jeroboam; Roboam quedó como primer rey de Judá. Según el libro de los Reyes y el de las Crónicas, en su quinto año el faraón Sisac invadió Judá y tomó ciudades fortificadas; la evidencia extrabíblica de su reinado es escasa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Roboam",
+        "en": "Rehoboam"
+      },
+      "wikidata": "Q211663"
+    },
+    {
+      "id": "ali-zayn-al-abidin",
+      "nombre": "Alí ibn al-Husayn Zayn al-Abidin",
+      "nacimiento": {
+        "anio": 658,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "muerte": {
+        "anio": 712,
+        "aprox": true,
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      "activo": {
+        "lugar": "Medina",
+        "lon": 39.61,
+        "lat": 24.47,
+        "desde": 680,
+        "hasta": 712,
+        "aprox": false
+      },
+      "roles": [
+        "imán"
+      ],
+      "resumen": "Cuarto de los doce imanes chiitas, hijo de Husayn. Sobrevivió a Kerbala (680), lo llevaron cautivo a Damasco y lo dejaron volver a Medina, donde vivió retirado y sin participar en los levantamientos antiomeyas; se lo estima, incluso entre los primeros sunitas, como autoridad en hadiz y derecho. Murió hacia 712, de causas naturales o envenenado por los omeyas, según las fuentes, y lo sucedió su hijo Muhammad al-Baqir.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ali ibn al-Husáyn",
+        "en": "Ali al-Sajjad"
+      },
+      "wikidata": "Q314978"
+    },
+    {
+      "id": "aqsunqur-al-bursuqi",
+      "nombre": "Aqsunqur al-Bursuqi",
+      "muerte": {
+        "anio": 1126,
+        "aprox": false,
+        "lugar": "Mosul",
+        "lon": 43.129,
+        "lat": 36.342
+      },
+      "activo": {
+        "lugar": "Mosul",
+        "lon": 43.129,
+        "lat": 36.342,
+        "desde": 1113,
+        "hasta": 1126,
+        "aprox": false
+      },
+      "roles": [
+        "atabeg",
+        "militar"
+      ],
+      "resumen": "Atabeg selyúcida de Mosul en 1113-1114 y de nuevo desde 1124, y shihna (gobernador militar) de Irak desde 1120. Por orden del sultán libró la guerra contra los cruzados: en 1125 tomó Alepo para el sultán Mahmud II y apoyó a Toghtekin en la batalla de Azaz, donde los cruzados rompieron el cerco. Diez asesinos nizaríes lo mataron a puñaladas en la mezquita mayor de Mosul el 26 de noviembre de 1126; lo sucedió su hijo Masud.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Aqsunqur al-Bursuqi"
+      },
+      "wikidata": "Q2859106"
     }
   ],
   "hechos": [
@@ -19460,7 +21164,7 @@
       "lon": 34.753,
       "lat": 32.052,
       "tipo": "desastre",
-      "resumen": "Unos 700.000 árabes palestinos, más de la mitad del total, huyeron o fueron expulsados de sus hogares durante la guerra, y Israel no les permitió volver; cientos de aldeas fueron destruidas. Los palestinos la llaman Nakba, «la catástrofe».",
+      "resumen": "Unos 700.000 árabes palestinos, más de la mitad del total (711.000 según la Comisión de Conciliación de la ONU en 1949), huyeron o fueron expulsados de sus hogares durante la guerra de 1947-1949, y Israel no les permitió volver; entre 400 y 600 aldeas fueron destruidas. Las causas se discuten: Benny Morris concluye que en la primera etapa salieron sobre todo por ataques judíos o por el miedo a ellos, y que hubo expulsiones directas después (Lod y Ramla, julio de 1948); Ilan Pappé ve en el Plan Dalet un plan de expulsión; Efraim Karsh sostiene que no hubo un diseño judío y que en Haifa muchos se fueron por indicación árabe, algo que Walid Khalidi niega. Los palestinos la llaman Nakba, «la catástrofe».",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -20578,6 +22282,1277 @@
       "wikipedia": {
         "es": "Discurso de Ratisbona",
         "en": "Regensburg lecture"
+      }
+    },
+    {
+      "id": "batalla-de-hunain",
+      "titulo": "Batalla de Hunáin",
+      "anio": 630,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Hunáin",
+      "lon": 40.042,
+      "lat": 21.517,
+      "tipo": "batalla",
+      "resumen": "Poco después de la toma de La Meca, Mahoma, con unos 12 000 hombres, enfrentó a las tribus hawazin y thaqif en el valle de Hunáin, en el camino a Taif. Según la tradición musulmana, el ejército se desbandó al principio ante una emboscada y se rehízo en torno a Mahoma; la batalla terminó con una victoria musulmana y un gran botín. Es una de las pocas batallas que el Corán nombra (sura 9).",
+      "regiones": [
+        "arabia",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "sira-de-ibn-ishaq",
+        "coran"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Hunáin",
+        "en": "Battle of Hunayn"
+      }
+    },
+    {
+      "id": "batalla-de-adjnadayn",
+      "titulo": "Batalla de Adjnadayn",
+      "anio": 634,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Adjnadayn",
+      "lon": 34.95,
+      "lat": 31.683,
+      "tipo": "batalla",
+      "resumen": "Primera gran batalla campal entre el ejército bizantino y el del califato rashidun, en julio o agosto de 634 cerca de Beit Guvrin; terminó con una victoria musulmana y dejó abierto el interior de Palestina, cuyas ciudades se rindieron casi sin resistir. Se conoce sobre todo por fuentes musulmanas, como al-Waqidi (siglo IX), pues no hay relato bizantino contemporáneo; las cifras de los ejércitos que dan esas fuentes se consideran muy exageradas (Gibb supone unos 10 000 hombres por bando; Morray, unos 20 000).",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Achnadáyn",
+        "en": "Battle of Ajnadayn"
+      }
+    },
+    {
+      "id": "sitio-de-damasco-634",
+      "titulo": "Sitio de Damasco",
+      "anio": 634,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Damasco",
+      "lon": 36.292,
+      "lat": 33.513,
+      "tipo": "batalla",
+      "resumen": "Los musulmanes sitiaron Damasco del 21 de agosto al 19 de septiembre de 634; fue la primera gran ciudad bizantina en caer en la conquista de Siria (otras fuentes ponen la caída en 635 o 637). Los relatos combinan dos versiones: Jálid ibn al-Walid entró por asalto por la puerta oriental mientras Tomás, jefe de la guarnición, pactaba la rendición con Abu Ubaida por la puerta de Jabiya; los comandantes discutieron después los términos y se aceptaron los de Abu Ubaida.",
+      "regiones": [
+        "siria",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari",
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Sitio de Damasco (634)",
+        "en": "Siege of Damascus (634)"
+      }
+    },
+    {
+      "id": "batalla-de-los-mastiles",
+      "titulo": "Batalla de los Mástiles",
+      "anio": 655,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Finike",
+      "lon": 30.261,
+      "lat": 36.282,
+      "tipo": "batalla",
+      "resumen": "Combate naval frente a la costa de Licia, cerca de la actual Finike, entre la flota del emperador Constante II y la del califato, mandada por Abu al-A'war, almirante de Muawiya. Según al-Tabari, ganaron los árabes, con grandes pérdidas de ambos lados, y Constante escapó con dificultad (Teófanes cuenta que cambiando su ropa con la de un oficial). Sebeos agrega que la flota siguió hasta Constantinopla y que una tormenta hundió sus máquinas de asedio; las fuentes árabes no lo mencionan.",
+      "regiones": [
+        "anatolia",
+        "siria",
+        "chipre"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes",
+        "historia-de-al-tabari",
+        "historia-de-sebeos"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Finike",
+        "en": "Battle of the Masts"
+      }
+    },
+    {
+      "id": "batalla-de-akroinon",
+      "titulo": "Batalla de Akroinon",
+      "anio": 740,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Akroinon",
+      "lon": 30.533,
+      "lat": 38.75,
+      "tipo": "batalla",
+      "resumen": "Una de las tres columnas de la mayor expedición omeya en décadas, de unos 20 000 hombres, fue enfrentada cerca de Akroinon (hoy Afyon), en Frigia, por el emperador León III y su hijo Constantino V. Teófanes cuenta que cayeron los dos jefes árabes y unos 13 200 hombres, y que el resto se retiró en orden; fue una victoria bizantina que, sumada a la inestabilidad del califato, la lectura tradicional la vio como decisiva para poner fin por unas tres décadas a las grandes incursiones árabes en Anatolia; Brooks, Kaegi y Lilie atribuyen ese fin a las derrotas del califato en otros frentes y a sus guerras internas.",
+      "regiones": [
+        "anatolia",
+        "siria"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Akroinon",
+        "en": "Battle of Akroinon"
+      }
+    },
+    {
+      "id": "saqueo-de-amorio",
+      "titulo": "Saqueo de Amorio",
+      "anio": 838,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Amorio",
+      "lon": 31.295,
+      "lat": 39.023,
+      "tipo": "batalla",
+      "resumen": "El califa abasí al-Mutasim, en represalia por la expedición de Teófilo del año anterior, derrotó a las fuerzas bizantinas en Anzen y llegó a Amorio, cuna de la dinastía reinante, el 1 de agosto de 838. Un habitante reveló un punto débil de la muralla; el comandante del sector negoció a escondidas con el califa y abandonó su puesto, y la ciudad fue tomada y destruida: muchos habitantes fueron matados y el resto, llevado como esclavos, y los dignatarios cautivos fueron ejecutados años después en Samarra. Para los bizantinos fue un trauma y desacreditó el iconoclasmo que sostenía Teófilo, abandonado poco después de su muerte (842).",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Saqueo de Amorio",
+        "en": "Sack of Amorium"
+      }
+    },
+    {
+      "id": "batalla-de-harran",
+      "titulo": "Batalla de Harrán",
+      "anio": 1104,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Frente a Raqqa",
+      "lon": 39.0,
+      "lat": 35.95,
+      "tipo": "batalla",
+      "resumen": "El 7 de mayo de 1104 los selyúcidas de Jikirmish (Mosul) y Sökmen (Mardin) derrotaron, tras una retirada fingida, a los cruzados de Antioquía y Edesa mandados por Bohemundo, Tancredo y Balduino de Edesa; Balduino y Joscelino fueron capturados. Fue la primera gran derrota de los Estados cruzados: Antioquía perdió territorios ante Alepo y Bizancio, y Bohemundo volvió a Italia a reclutar tropas. Guillermo de Tiro escribió que ninguna batalla había sido más desastrosa. El lugar exacto se discute: la mayoría de los historiadores aceptan a Alberto de Aquisgrán y Fulquerio, que la ubican frente a Raqqa, a dos días de Harrán (el punto del mapa es aproximado); Ibn al-Atir la sitúa a 12 km de Harrán.",
+      "regiones": [
+        "siria",
+        "levante",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "cronica-de-mateo-de-edesa",
+        "cronica-de-damasco",
+        "historia-de-alberto-de-aquisgran",
+        "historia-de-guillermo-de-tiro"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Harrán",
+        "en": "Battle of Harran"
+      }
+    },
+    {
+      "id": "batalla-de-marj-ayyun",
+      "titulo": "Batalla de Marj Ayyun",
+      "anio": 1179,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Marj Ayyun",
+      "lon": 35.589,
+      "lat": 33.358,
+      "tipo": "batalla",
+      "resumen": "En junio de 1179, cerca del río Litani, Balduino IV de Jerusalén, con los templarios y Raimundo III de Trípoli, venció a una partida de saqueadores de Saladino y, creyendo ganada la batalla, fue atacado por el grueso del ejército ayubí y derrotado. El rey, enfermo de lepra y ya sin poder montar, escapó de ser capturado gracias a su guardia; el maestre templario Eudes de Saint-Amand fue prisionero. Guillermo de Tiro culpó a los templarios por su imprudencia; la orden, sin embargo, no respondía al rey. En agosto Saladino destruyó el castillo del Vado de Jacob.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-guillermo-de-tiro"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Marjayoun",
+        "en": "Battle of Marj Ayyun"
+      }
+    },
+    {
+      "id": "batalla-de-jafa-1192",
+      "titulo": "Batalla de Jafa",
+      "anio": 1192,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jaffa",
+      "lon": 34.753,
+      "lat": 32.052,
+      "tipo": "batalla",
+      "resumen": "Tras partir Ricardo I hacia el norte, Saladino tomó Jaffa a fines de julio de 1192, salvo la ciudadela. Ricardo llegó por mar con una fuerza pequeña (cincuenta y cuatro caballeros, unos cientos de infantes y unos 2000 ballesteros genoveses y pisanos), recuperó la ciudad y el 5 de agosto rechazó el contraataque de Saladino con una línea de lanceros y ballesteros. Fue el último combate de la Tercera Cruzada: poco después se firmó la tregua de Jaffa, que dejó a los cruzados la franja de Tiro a Jaffa (Beirut se tomó en 1197).",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "vida-de-saladino"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Jafa (1192)",
+        "en": "Battle of Jaffa (1192)"
+      }
+    },
+    {
+      "id": "cruzada-de-los-barones",
+      "titulo": "Cruzada de los barones",
+      "anio": 1239,
+      "anio_hasta": 1241,
+      "aprox": false,
+      "lugar": "Acre",
+      "lon": 35.084,
+      "lat": 32.926,
+      "tipo": "politico",
+      "resumen": "Expedición convocada por Gregorio IX, dirigida primero por Teobaldo I de Navarra (llegó a Acre el 1 de septiembre de 1239) y luego por Ricardo de Cornualles (octubre de 1240 a mayo de 1241). Un grupo que salió sin permiso fue derrotado cerca de Gaza el 13 de noviembre de 1239, y en diciembre un emir ayubí tomó Jerusalén. Después Teobaldo aprovechó la guerra entre los ayubíes de Damasco y de Egipto para negociar con los dos bandos, y el reino recuperó Jerusalén, Belén, Nazaret y buena parte de Galilea. La valoración difiere: la historiografía reciente la juzga la más exitosa en territorio desde la Primera Cruzada; otras obras, un fracaso sin resultados duraderos. Las ganancias se perdieron en 1244.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de los barones",
+        "en": "Barons' Crusade"
+      }
+    },
+    {
+      "id": "guerra-de-kitos",
+      "titulo": "Revuelta de la diáspora judía (guerra de Kitos)",
+      "anio": 115,
+      "anio_hasta": 117,
+      "aprox": false,
+      "lugar": "Cirene",
+      "lon": 21.85,
+      "lat": 32.817,
+      "tipo": "revolucion",
+      "resumen": "Durante la campaña de Trajano contra los partos, comunidades judías de Egipto, Cirenaica y Chipre se sublevaron casi a la vez, y hubo resistencia en Mesopotamia. Según Dion Casio y Eusebio, los rebeldes atacaron sobre todo a sus vecinos con extrema violencia; Marcio Turbo reprimió las revueltas con duras represalias que destruyeron o aniquilaron comunidades judías. Las fuentes son escasas y tardías (Dion escribe un siglo después, Eusebio dos). El nombre «guerra de Kitos» viene de Lusio Quieto, que sofocó Mesopotamia y fue luego gobernador de Judea; hoy se discute si hubo allí un levantamiento propio. Trece años después Adriano refundó Jerusalén como colonia romana y estalló la revuelta de Bar Kojba.",
+      "regiones": [
+        "magreb",
+        "egipto",
+        "chipre",
+        "mesopotamia",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Kitos",
+        "en": "Diaspora Revolt"
+      }
+    },
+    {
+      "id": "disturbios-de-jaffa-1921",
+      "titulo": "Disturbios de Jaffa de 1921",
+      "anio": 1921,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jaffa",
+      "lon": 34.753,
+      "lat": 32.052,
+      "tipo": "desastre",
+      "resumen": "Del 1 al 7 de mayo de 1921 hubo disturbios que empezaron como un choque entre dos desfiles judíos del 1.º de mayo, el del Partido Comunista y el de Ahdut HaAvoda, y pasaron a ataques de árabes contra judíos (en un albergue de inmigrantes y en Abu Kabir, donde murió el escritor Yosef Haim Brenner) y luego a represalias de judíos contra árabes. Murieron 47 judíos y 48 árabes, estos últimos en su mayoría por disparos de la policía y las tropas británicas. La comisión Haycraft concluyó que la causa de fondo era la hostilidad árabe hacia los judíos, por razones políticas y económicas ligadas a la inmigración judía y a la política sionista; el informe disgustó a ambas partes.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Disturbios de Jaffa de 1921",
+        "en": "Jaffa riots (May 1921)"
+      }
+    },
+    {
+      "id": "disturbios-de-1929",
+      "titulo": "Disturbios de 1929 (revuelta del Buraq)",
+      "anio": 1929,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "desastre",
+      "resumen": "Del 23 al 29 de agosto, tras una disputa por el acceso y los objetos de culto en el Muro de las Lamentaciones (el Buraq, para los musulmanes), hubo ataques de árabes contra judíos en Jerusalén, Hebrón y Safed, con destrucción de bienes judíos. La comisión Shaw registra que en algunos casos judíos atacaron a árabes, casi siempre como represalia (la familia del imán Abd al-Ghani Awn en Jaffa, la mezquita de Nebi Akasha). Murieron 133 judíos y 116 árabes (estos últimos, sobre todo por la policía y las tropas británicas; unos 20 a manos de judíos o por disparos británicos indiscriminados), y quedaron heridos 339 judíos y al menos 232 árabes; lo peor fue en Hebrón y Safed, y en Hebrón cientos de judíos se salvaron escondidos por vecinos árabes. La comisión Shaw atribuyó la causa de fondo a la oposición árabe a las consecuencias políticas del sionismo y a su temor económico, y el detonante a la manifestación judía del 15 de agosto en el Muro; muchos historiadores señalan la agitación del muftí Amin al-Husseini sobre una supuesta amenaza al Monte del Templo, y otros (Pappé, Kreiner), la frustración árabe por la falta de instituciones representativas. Fueron acusados de asesinato o tentativa 174 árabes y 109 judíos, y se condenó a cerca del 40 % de los árabes y al 3 % de los judíos.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Disturbios de Palestina de 1929",
+        "en": "1929 Palestine riots"
+      }
+    },
+    {
+      "id": "guerra-de-desgaste",
+      "titulo": "Guerra de Desgaste",
+      "anio": 1967,
+      "anio_hasta": 1970,
+      "aprox": false,
+      "lugar": "Suez",
+      "lon": 32.533,
+      "lat": 29.967,
+      "tipo": "batalla",
+      "resumen": "Combates entre Israel y Egipto, con Jordania, la OLP y sus aliados, tras la guerra de los Seis Días. Con la política árabe de los «tres noes» (ni paz, ni reconocimiento, ni negociación) y Nasser convencido de que solo la fuerza lograría la retirada del Sinaí, los duelos de artillería sobre el canal de Suez se volvieron, desde el 8 de marzo de 1969, bombardeos masivos, guerra aérea e incursiones de comandos. Terminó en agosto de 1970 con un alto el fuego del plan Rogers, sin cambios de frontera. Hubo bombardeos israelíes al interior de Egipto (de enero a abril de 1970), con el ataque a la escuela de Bahr el-Baqar (8 de abril de 1970, 46 alumnos muertos). Los muertos israelíes fueron unos 921 según Ze'ev Schiff y poco más de 600 según Chaim Herzog; los egipcios, 2882 según Saad el Shazly y unos 10 000 entre soldados y civiles según Benny Morris. Israel acusó a Egipto y a los soviéticos de adelantar misiles hacia el canal.",
+      "regiones": [
+        "egipto",
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "resolucion-242"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Desgaste",
+        "en": "War of Attrition"
+      }
+    },
+    {
+      "id": "operacion-entebbe",
+      "titulo": "Operación Entebbe",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Entebbe",
+      "lon": 32.443,
+      "lat": 0.045,
+      "tipo": "batalla",
+      "resumen": "El 27 de junio de 1976, miembros del FPLP-Operaciones Externas y de las Células Revolucionarias alemanas secuestraron un vuelo de Air France de Tel Aviv a París y lo llevaron a Entebbe, Uganda; pedían liberar a 53 presos. Según los testimonios, soldados ugandeses custodiaron a los rehenes junto con los secuestradores, abrieron la pared con la que se separó a los israelíes y luego dispararon contra los comandos. En la noche del 3 al 4 de julio comandos israelíes, tras volar más de 4000 km, rescataron a 102 de los 106 rehenes que quedaban, mataron a todos los secuestradores y a unos 45 soldados ugandeses; murieron tres rehenes y el jefe de la unidad, Yonatan Netanyahu, y Dora Bloch, que estaba en un hospital de Kampala, fue asesinada luego por las autoridades ugandesas. Por la ayuda de Kenia a Israel, Amin hizo matar a unos 245 kenianos.",
+      "regiones": [
+        "africa-oriental",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Operación Entebbe",
+        "en": "Entebbe raid"
+      }
+    },
+    {
+      "id": "operacion-litani",
+      "titulo": "Invasión israelí del sur del Líbano de 1978 (operación Litani)",
+      "anio": 1978,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Litani",
+      "lon": 35.244,
+      "lat": 33.339,
+      "tipo": "batalla",
+      "resumen": "El 14 de marzo de 1978 Israel invadió el sur del Líbano hasta el río Litani, tres días después de la matanza de la carretera costera, en la que militantes de Fatah llegados desde el Líbano mataron a 38 civiles israelíes. Murieron entre 1100 y 2000 libaneses y palestinos y unos 20 israelíes, y entre 100 000 y 250 000 personas se desplazaron dentro del Líbano. La OLP se retiró al norte; el Consejo de Seguridad pidió en las resoluciones 425 y 426 el retiro israelí y creó la FINUL. Israel se retiró en 1978 entregando la franja fronteriza a la milicia de Saad Haddad (el futuro Ejército del Sur del Líbano), no a la FINUL.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Invasión israelí del Líbano de 1978",
+        "en": "1978 South Lebanon conflict"
+      }
+    },
+    {
+      "id": "guerra-de-gaza-2012",
+      "titulo": "Guerra de Gaza de 2012 (operación Pilar Defensivo)",
+      "anio": 2012,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Gaza",
+      "lon": 34.46,
+      "lat": 31.508,
+      "tipo": "batalla",
+      "resumen": "Del 14 al 21 de noviembre de 2012, Israel atacó la Franja de Gaza; empezó con un ataque aéreo que mató a Ahmed Yabari, jefe militar de Hamás en Gaza. Israel dijo responder a más de cien cohetes en 24 horas y a otros ataques; los palestinos culparon a Israel por la escalada previa y señalaron el bloqueo y la ocupación. Murieron 174 palestinos según el Consejo de Derechos Humanos de la ONU (2013), 107 de ellos civiles; según B'Tselem fueron 167, de los cuales 62 participaban en los combates, y según el ejército israelí 177, de los cuales 120 eran combatientes. Hamás y la Yihad Islámica lanzaron más de 1450 cohetes, que mataron a seis israelíes: cuatro civiles y dos soldados. Un alto el fuego mediado por Egipto terminó los combates; ambos bandos se atribuyeron la victoria y Human Rights Watch dijo que los dos violaron las leyes de la guerra.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de Gaza de 2012",
+        "en": "2012 Gaza War"
+      }
+    },
+    {
+      "id": "muerte-de-muhammad-al-durrah",
+      "titulo": "Muerte de Muhammad al-Durrah",
+      "anio": 2000,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Netzarim",
+      "lon": 34.427,
+      "lat": 31.465,
+      "tipo": "politico",
+      "resumen": "El 30 de septiembre de 2000, segundo día de la Segunda Intifada, Muhammad al-Durrah, de 12 años, murió en el cruce de Netzarim, en Gaza, en un tiroteo entre el ejército israelí y las fuerzas palestinas; un camarógrafo palestino de France 2 filmó a padre e hijo y el corresponsal Charles Enderlin atribuyó los disparos a posiciones israelíes. El niño fue proclamado mártir en el mundo musulmán. No hubo investigación penal ni autopsia completa. Quién disparó sigue en disputa: el ejército israelí asumió al principio la responsabilidad y después la retiró; la investigación que el ejército israelí encargó en 2000 (Nahum Shahaf) consideró «bastante plausible» que lo alcanzaran balas palestinas; la conclusión palestina, del general Abdel-Razek al-Majaydeh, fue que las balas salieron del puesto israelí; el informe israelí de 2013 (comisión Kuperwasser, que no entrevistó al padre, al camarógrafo ni a Enderlin) concluyó que no lo habían alcanzado disparos israelíes y que quizá ni siquiera lo habían herido, algo que el padre rechazó y que Enderlin y France 2 criticaron. En 2013 un tribunal francés condenó por difamación a Philippe Karsenty, que sostenía que la escena había sido montada.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Muerte de Muhammad al-Durrah",
+        "en": "Killing of Muhammad al-Durrah"
+      }
+    },
+    {
+      "id": "primera-fitna",
+      "titulo": "Primera fitna",
+      "anio": 656,
+      "anio_hasta": 661,
+      "aprox": false,
+      "lugar": "Kufa",
+      "lon": 44.4,
+      "lat": 32.03,
+      "tipo": "batalla",
+      "resumen": "Primera guerra civil de la comunidad musulmana, a partir del asesinato del califa Uthman (656). Alí, cuarto califa, venció a Aisha, Talha y Zubayr en la batalla del Camello (diciembre de 656) y se enfrentó en Siffin (657) a Muawiya, gobernador de Siria, que reclamaba vengar a Uthman; el arbitraje que siguió llevó a los jariyitas a separarse de Alí, que los derrotó en Nahrawan. Un jariyita asesinó a Alí en 661, su hijo Hasán cedió el poder a Muawiya y empezó el califato omeya. Los chiitas ven en Alí al sucesor legítimo del Profeta; la tradición sunita lo cuenta como el cuarto de los cuatro primeros califas.",
+      "regiones": [
+        "mesopotamia",
+        "siria",
+        "arabia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Primera fitna",
+        "en": "First Fitna"
+      }
+    },
+    {
+      "id": "batalla-de-siffin",
+      "titulo": "Batalla de Siffin",
+      "anio": 657,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Siffin",
+      "lon": 38.4,
+      "lat": 35.867,
+      "tipo": "batalla",
+      "resumen": "En julio de 657, a orillas del Éufrates cerca de Raqqa, se enfrentaron el califa Alí y Muawiya, gobernador de Siria. Cuando los iraquíes de Alí empezaban a imponerse, los sirios alzaron coranes en las lanzas pidiendo que decidiera el Libro de Dios, y Alí aceptó el arbitraje bajo la presión de la mayoría de sus tropas. El arbitraje terminó sin resultado en 658, afirmó a Muawiya y debilitó a Alí; según Nasr ibn Muzahim, cada ejército tenía unos 150 000 hombres, o 100 000 el de Alí y 130 000 el de Muawiya, y los relatos hablan de decenas de miles de muertos; las cifras no se pueden verificar.",
+      "regiones": [
+        "siria",
+        "levante",
+        "mesopotamia",
+        "arabia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Siffín",
+        "en": "Battle of Siffin"
+      }
+    },
+    {
+      "id": "sitio-de-nicea-1097",
+      "titulo": "Sitio de Nicea",
+      "anio": 1097,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nicea",
+      "lon": 29.719,
+      "lat": 40.429,
+      "tipo": "batalla",
+      "resumen": "Primera gran operación de la Primera Cruzada, del 14 de mayo al 19 de junio de 1097. Nicea, capital del sultanato selyúcida de Rum desde que los turcos la tomaron a Bizancio en 1081, tenía a su sultán, Kilij Arslan, lejos, en guerra con los danishmendíes; los cruzados lo vencieron el 21 de mayo al volver. Cuando Alejo I envió barcos por tierra al lago Ascania, la guarnición negoció y se rindió a los bizantinos el 19 de junio, antes de que los cruzados asaltaran, y estos, a quienes no se dejó saquear, quedaron resentidos con Bizancio.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "hechos-de-los-francos",
+        "alexiada"
+      ],
+      "wikipedia": {
+        "es": "Sitio de Nicea (1097)",
+        "en": "Siege of Nicaea"
+      }
+    },
+    {
+      "id": "batalla-de-dorilea-1097",
+      "titulo": "Batalla de Dorilea",
+      "anio": 1097,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Dorilea",
+      "lon": 30.521,
+      "lat": 39.777,
+      "tipo": "batalla",
+      "resumen": "El 1 de julio de 1097, cerca de la actual Eskişehir, Kilij Arslan sorprendió a la vanguardia cruzada de Bohemundo de Tarento, separada del grueso por unos cinco kilómetros. Las estimaciones modernas dan unos 10 000 hombres a Bohemundo y 6000 o 7000 jinetes a Kilij Arslan; Raimundo de Aguilers habla de 150 000 turcos y Fulquerio de Chartres de 360 000, cifras que los historiadores descartan. Los refuerzos de Godofredo, Raimundo y otros llegaron a tiempo, los turcos huyeron abandonando su campamento, y la victoria abrió el camino por Anatolia; Alberto de Aquisgrán da 4000 cruzados y 3000 turcos muertos.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "hechos-de-los-francos",
+        "historia-de-raimundo-de-aguilers",
+        "historia-de-alberto-de-aquisgran"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Dorilea (1097)",
+        "en": "Battle of Dorylaeum (1097)"
+      }
+    },
+    {
+      "id": "batalla-de-ascalon-1099",
+      "titulo": "Batalla de Ascalón",
+      "anio": 1099,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ascalón",
+      "lon": 34.566,
+      "lat": 31.666,
+      "tipo": "batalla",
+      "resumen": "El 12 de agosto de 1099, pocas semanas después de tomar Jerusalén, el ejército de Godofredo de Bouillon (unos 10 200 hombres, según Raimundo de Aguilers) atacó por sorpresa el campamento del visir fatimí al-Afdal (unos 20 000, una estimación moderna; los Gesta Francorum dan 200 000), dormido ante las murallas de Ascalón, y lo derrotó en menos de una hora. Ibn al-Qalanisi estima en 12 700 los muertos fatimíes; los cruzados mataron a quienes se rendían. Godofredo no tomó Ascalón porque su guarnición solo quería rendirse a Raimundo de Tolosa, y la ciudad siguió siendo base fatimí hasta 1153.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "historia-de-raimundo-de-aguilers",
+        "cronica-de-damasco"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Ascalón",
+        "en": "Battle of Ascalon"
+      }
+    },
+    {
+      "id": "sitio-de-jerusalen-1099",
+      "titulo": "Sitio de Jerusalén (1099)",
+      "anio": 1099,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "batalla",
+      "resumen": "Del 7 de junio al 15 de julio de 1099, los cruzados sitiaron Jerusalén, en manos de los fatimíes desde hacía pocos meses; tras un asalto fallido el 13 de junio, con torres de asedio hechas con madera traída de cerca de Nablus y con ayuda de marinos ingleses y genoveses, entraron el 15 de julio. Las crónicas cristianas, musulmanas y judías coinciden en que hubo una matanza de musulmanes y judíos, incluidas mujeres y niños. Raimundo de Aguilers escribió que en el pórtico de Salomón los hombres cabalgaban en sangre hasta las rodillas y las riendas; Alberto de Aquisgrán cuenta una segunda matanza días después, de quienes habían sido perdonados para pedir rescate; Ibn al-Qalanisi, que los judíos se reunieron en su sinagoga y los francos la quemaron sobre ellos, aunque una carta de la Geniza de El Cairo confirma el incendio sin mencionar gente adentro, y otras cartas de la Geniza documentan judíos rescatados. No hay cifras confiables: Ibn al-Athir da 70 000 muertos, que no cuadra con una población de unos 30 000, y las estimaciones modernas van de 3000 a 10 000. Godofredo de Bouillon tomó el título de «defensor del Santo Sepulcro».",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "historia-de-raimundo-de-aguilers",
+        "historia-de-alberto-de-aquisgran",
+        "cronica-de-damasco",
+        "historia-completa"
+      ],
+      "wikipedia": {
+        "es": "Sitio de Jerusalén (1099)",
+        "en": "Siege of Jerusalem (1099)"
+      }
+    },
+    {
+      "id": "primera-cruzada",
+      "titulo": "Primera Cruzada",
+      "anio": 1096,
+      "anio_hasta": 1099,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "batalla",
+      "resumen": "Expedición armada que Urbano II convocó en el concilio de Clermont (1095), después del pedido de ayuda de Alejo I Comneno en Piacenza, para llevar Jerusalén de nuevo a manos cristianas. Primero salió la Cruzada popular de Pedro el Ermitaño, aniquilada en Civetot (octubre de 1096); las matanzas de judíos de Renania (Espira, Worms, Maguncia) las hicieron sobre todo las bandas del conde Emicho, que se dispersaron en Hungría. Luego salió la de los príncipes (Raimundo de Tolosa, Godofredo de Bouillon, Bohemundo, Roberto de Normandía y otros, que según las estimaciones modernas sumaban entre 60 000 y 100 000 personas con los no combatientes). Tomaron Nicea (1097), vencieron en Dorilea, ocuparon Antioquía (1098) y Jerusalén (15 de julio de 1099) y derrotaron a los fatimíes en Ascalón, y fundaron los estados latinos de Edesa, Antioquía y Jerusalén.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "siria",
+        "anatolia"
+      ],
+      "fuentes": [
+        "discurso-de-clermont",
+        "hechos-de-los-francos",
+        "historia-de-raimundo-de-aguilers",
+        "alexiada",
+        "cronica-de-damasco",
+        "primera-cruzada-y-la-idea"
+      ],
+      "wikipedia": {
+        "es": "Primera cruzada",
+        "en": "First Crusade"
+      }
+    },
+    {
+      "id": "cuarta-cruzada",
+      "titulo": "Cuarta Cruzada",
+      "anio": 1202,
+      "anio_hasta": 1204,
+      "aprox": false,
+      "lugar": "Constantinopla",
+      "lon": 28.976,
+      "lat": 41.012,
+      "tipo": "batalla",
+      "resumen": "Convocada por Inocencio III para recuperar Jerusalén, que sus jefes planearon lograr atacando primero el Egipto ayubí, terminó con la toma de Constantinopla. Los cruzados no pudieron pagar la flota que habían contratado con Venecia, y el dogo Enrico Dandolo los llevó a saquear Zara, una ciudad cristiana (noviembre de 1202), por lo que el papa los excomulgó temporalmente. En 1203 aceptaron restaurar en Constantinopla a Isaac II y a su hijo Alejo, que prometía ayuda para Tierra Santa; derrocado Alejo en enero de 1204, los cruzados tomaron y saquearon la ciudad en abril de 1204, y solo unos pocos siguieron a Tierra Santa. El Imperio bizantino quedó dividido y los latinos fundaron un imperio propio; los historiadores discuten si el desvío fue una consecuencia de las deudas con Venecia o se pensó antes.",
+      "regiones": [
+        "anatolia",
+        "balcanes"
+      ],
+      "fuentes": [
+        "historia-de-nicetas-coniates"
+      ],
+      "wikipedia": {
+        "es": "Cuarta cruzada",
+        "en": "Fourth Crusade"
+      }
+    },
+    {
+      "id": "guerras-arabo-bizantinas",
+      "titulo": "Guerras árabo-bizantinas",
+      "anio": 629,
+      "anio_hasta": 1050,
+      "aprox": true,
+      "lugar": "Antioquía",
+      "lon": 36.182,
+      "lat": 36.205,
+      "tipo": "batalla",
+      "resumen": "Serie de guerras entre los califatos y el Imperio bizantino que comenzó con las conquistas musulmanas y se prolongó hasta el siglo XI (algunos autores la extienden hasta mediados del XII). Tras Yarmuk, los musulmanes tomaron en pocas décadas Siria, Palestina, Egipto y el norte de África; los dos sitios de Constantinopla (674-678 y 717-718) fracasaron y la frontera quedó en los montes Tauro. Vasallos de los abasíes conquistaron Creta (827) y Sicilia (desde 831); entre 920 y 976 los bizantinos recuperaron terreno en Anatolia y el norte de Siria, y los fatimíes frenaron su avance. Tras 1071 los selyúcidas tomaron buena parte de Anatolia.",
+      "regiones": [
+        "siria",
+        "levante",
+        "anatolia",
+        "magreb"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes",
+        "historia-de-al-tabari",
+        "conquistas-de-los-paises"
+      ],
+      "wikipedia": {
+        "es": "Guerras árabo-bizantinas",
+        "en": "Arab–Byzantine wars"
+      }
+    },
+    {
+      "id": "conquista-musulmana-de-persia",
+      "titulo": "Conquista musulmana de Persia",
+      "anio": 633,
+      "anio_hasta": 651,
+      "aprox": false,
+      "lugar": "Ctesifonte",
+      "lon": 44.581,
+      "lat": 33.094,
+      "tipo": "batalla",
+      "resumen": "El califato Rashidun conquistó el Imperio sasánida, desgastado por la guerra con Bizancio (602-628) y por una guerra civil tras la muerte de Cosroes II. La primera invasión (633) tomó parte de Mesopotamia; tras la victoria de Qadisiyya (636) los sasánidas perdieron todo lo que estaba al oeste del Irán actual, y desde 642 Umar ordenó la invasión total; en 651 casi todas las ciudades del país estaban en manos musulmanas, salvo las provincias del Caspio y Transoxiana. Las fuentes árabes muestran que muchas localidades resistieron a los invasores.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari",
+        "conquistas-de-los-paises"
+      ],
+      "wikipedia": {
+        "es": "Conquista musulmana de Persia",
+        "en": "Muslim conquest of Persia"
+      }
+    },
+    {
+      "id": "conquista-arabe-de-armenia",
+      "titulo": "Conquista árabe de Armenia",
+      "anio": 639,
+      "anio_hasta": 661,
+      "aprox": false,
+      "lugar": "Dvin",
+      "lon": 44.578,
+      "lat": 40.004,
+      "tipo": "batalla",
+      "resumen": "Campañas del califato Rashidun contra la Armenia bizantina: las primeras incursiones fueron en 639-640, hubo una derrota árabe en 642 y en 652 el príncipe armenio Teodoro Rshtuni, aliado de Bizancio, rompió con los bizantinos, pactó con Muawiya, entonces gobernador de Siria, y aceptó el dominio musulmán. Tras su muerte (654) y las guerras internas árabes desde 656 el control se debilitó, y se reafirmó cuando Muawiya fue califa en 661. Los detalles son inciertos porque las fuentes árabes, griegas y armenias se contradicen; las principales son el obispo Sebeos, el sacerdote Łewond y, sobre todo, al-Baladhuri.",
+      "regiones": [
+        "armenia"
+      ],
+      "fuentes": [
+        "historia-de-sebeos",
+        "conquistas-de-los-paises"
+      ],
+      "wikipedia": {
+        "es": "Conquista árabe de Armenia",
+        "en": "Arab invasion of Armenia"
+      }
+    },
+    {
+      "id": "conquista-omeya-de-hispania",
+      "titulo": "Conquista omeya de Hispania",
+      "anio": 711,
+      "anio_hasta": 719,
+      "aprox": false,
+      "lugar": "Estrecho de Gibraltar",
+      "lon": -5.516,
+      "lat": 35.974,
+      "tipo": "batalla",
+      "resumen": "Tariq ibn Ziyad cruzó el estrecho en 711, bajo las órdenes de Musa ibn Nusayr, gobernador de Ifriqiya, con una fuerza de algunos miles de hombres (las fuentes dan entre 1700 y 7000), y derrotó al rey visigodo Rodrigo en Guadalete en julio; Musa llegó después. Teodomiro de Murcia se rindió con condiciones en 713; hacia 717 hubo incursiones a Septimania y en 719 cayeron Barcelona y Narbona. Los árabes sumaron a los bereberes convertidos tras la conquista del Magreb; según la tradición, la derrota de un ejército omeya ante Pelayo en Covadonga dejó un reducto cristiano en el norte.",
+      "regiones": [
+        "iberia",
+        "magreb"
+      ],
+      "fuentes": [
+        "conquistas-de-los-paises"
+      ],
+      "wikipedia": {
+        "es": "Conquista omeya de Hispania",
+        "en": "Muslim conquest of the Iberian Peninsula"
+      }
+    },
+    {
+      "id": "califato-abasi",
+      "titulo": "Califato abasí",
+      "anio": 750,
+      "anio_hasta": 1258,
+      "aprox": false,
+      "lugar": "Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "politico",
+      "resumen": "Tercer califato islámico, de la dinastía descendiente de al-Abbas, tío de Mahoma, que derrocó a los omeyas en 750 y gobernó desde Irak hasta 1258; desde 762 su capital fue Bagdad, que fue un centro de ciencia y cultura con la Casa de la Sabiduría. Su apogeo se asocia con Harún al-Rashid (786-809); después de una guerra civil se creó un ejército de esclavos turcos y una nueva capital en Samarra (836), las provincias ganaron autonomía y, en el siglo X, los califas quedaron como figuras bajo los buyíes, que tomaron Bagdad en 945, y los selyúcidas, que la tomaron en 1055. Terminó con el saqueo de Bagdad por los mongoles de Hulagu y la ejecución de al-Mustasim en 1258. Un califato abasí nominal siguió en El Cairo (1261-1517), bajo tutela de los mamelucos, hasta al-Mutawakkil III; ver a al-Mustamsik.",
+      "regiones": [
+        "mesopotamia",
+        "persia",
+        "siria"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Califato abasí",
+        "en": "Abbasid Caliphate"
+      }
+    },
+    {
+      "id": "sayfo",
+      "titulo": "Sayfo (genocidio asirio)",
+      "anio": 1914,
+      "anio_hasta": 1918,
+      "aprox": false,
+      "lugar": "Hakkari",
+      "lon": 43.741,
+      "lat": 37.574,
+      "tipo": "desastre",
+      "resumen": "Matanzas y deportaciones de cristianos asirios y siríacos del sudeste de Anatolia y del Azerbaiyán persa por fuerzas otomanas y algunas tribus kurdas durante la Primera Guerra Mundial («sayfo» significa «espada» en siríaco). Empezaron en agosto de 1914, cuando quemaron aldeas asirias cerca de la frontera, y siguieron en la ocupación otomana de Azerbaiyán (enero a mayo de 1915); en Hakkari las tribus asirias resistieron hasta ser expulsadas en septiembre, y el gobernador Mehmed Reshid dirigió la matanza de los cristianos de la provincia de Diyarbekir. La delegación asirio-caldea calculó 250 000 muertos ante la conferencia de París de 1919 (cerca de la mitad de la población) y 275 000 en Lausana (1923), sin que se pueda confirmar la cifra. Fue contemporáneo del genocidio armenio y se lo vincula con él; los historiadores atribuyen más peso que en el caso armenio a actores locales, aunque el gobierno también ordenó ataques. Entre los motivos que da la historiografía están la supuesta deslealtad de comunidades asirias y la apropiación de sus tierras. Varios países lo reconocen como genocidio y el gobierno de Turquía lo rechaza.",
+      "regiones": [
+        "anatolia",
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Genocidio sayfo",
+        "en": "Sayfo"
+      }
+    },
+    {
+      "id": "incidente-de-la-gran-mezquita",
+      "titulo": "Toma de la Gran Mezquita de La Meca",
+      "anio": 1979,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "La Meca",
+      "lon": 39.826,
+      "lat": 21.422,
+      "tipo": "desastre",
+      "resumen": "Del 20 de noviembre al 4 de diciembre de 1979, hasta 600 hombres dirigidos por Juhayman al-Utaybi, un islamista saudí opuesto a la monarquía, tomaron la Gran Mezquita de La Meca, tomaron rehenes y proclamaron Mahdi a Muhammad al-Qahtani, cuñado de Juhayman; denunciaban la alianza de la casa de Saud con Occidente y el secularismo. Las fuerzas saudíes, con asesores franceses del GIGN, recuperaron el lugar tras dos semanas de combates; murieron 255 personas durante la toma según la cifra oficial saudí (otros dan 270). Los capturados, entre ellos Juhayman, fueron condenados a muerte: 63 fueron decapitados en público el 9 de enero de 1980 en ocho ciudades (otros relatos dan 68). Jomeini acusó a Estados Unidos e Israel, lo que desató disturbios antiestadounidenses en varios países; el rey Jálid dio más poder a los ulemas y a la policía religiosa.",
+      "regiones": [
+        "arabia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Incidente de la Gran Mezquita",
+        "en": "Grand Mosque seizure"
+      }
+    },
+    {
+      "id": "conflicto-israeli-palestino",
+      "titulo": "Conflicto israelí-palestino",
+      "anio": 1948,
+      "anio_hasta": 2026,
+      "aprox": false,
+      "lugar": "Jerusalén",
+      "lon": 35.2137,
+      "lat": 31.7683,
+      "tipo": "politico",
+      "resumen": "Disputa entre israelíes y palestinos por el territorio del antiguo Mandato británico de Palestina, que sigue abierta: fronteras y estatus de Cisjordania, Gaza y Jerusalén, asentamientos israelíes, refugiados palestinos y su reclamo de retorno (resolución 194), seguridad de Israel y reconocimiento mutuo. Los palestinos lo remontan al sionismo y a la inmigración judía bajo el Mandato, y a su expulsión o huida en 1948 (la Nakba); Israel y los sionistas lo atribuyen al rechazo árabe del plan de partición de 1947 y a la violencia contra los judíos, y sostienen que su guerra de 1948 fue defensiva. Israel ocupa desde 1967 Cisjordania, Jerusalén Este (que anexó) y Gaza; retiró colonos y soldados de Gaza en 2005 y la bloquea desde 2007. La Corte Internacional de Justicia opinó en 2004 que el muro y los asentamientos violan el derecho internacional, y en 2024 que la presencia continuada de Israel en todo el territorio palestino ocupado, Gaza incluida, es ilegal y debe terminar. Israel rechazó ambas opiniones, sostiene que Cisjordania es territorio en disputa y que no ocupa Gaza desde 2005. Las negociaciones de Oslo, Camp David (2000) y Annapolis no llegaron a un acuerdo final.",
+      "regiones": [
+        "tierra-santa",
+        "levante"
+      ],
+      "fuentes": [
+        "resolucion-181",
+        "resolucion-194",
+        "resolucion-242",
+        "acuerdos-de-oslo",
+        "opinion-consultiva-cij-2004-muro",
+        "opinion-consultiva-cij-2024-ocupacion"
+      ],
+      "wikipedia": {
+        "es": "Conflicto israelí-palestino",
+        "en": "Israeli–Palestinian conflict"
+      }
+    },
+    {
+      "id": "guerra-civil-libanesa",
+      "titulo": "Guerra civil libanesa",
+      "anio": 1975,
+      "anio_hasta": 1990,
+      "aprox": false,
+      "lugar": "Beirut",
+      "lon": 35.513,
+      "lat": 33.887,
+      "tipo": "batalla",
+      "resumen": "Guerra de varios bandos que causó unos 120 000 muertos y desplazó a casi un millón de personas, según las estimaciones. Estalló el 13 de abril de 1975 en Beirut: hombres armados dispararon contra una iglesia en Ain el-Rummaneh y mataron a cuatro personas, entre ellas dos falangistas maronitas, y horas después los falangistas mataron a unos 30 palestinos que viajaban en un autobús. Enfrentó a milicias cristianas con la OLP y sus aliados musulmanes libaneses, de izquierda y panarabistas, por tensiones sectarias del sistema confesional y por la presencia armada palestina; En enero de 1976 milicias maronitas mataron a entre 1000 y 1500 personas en Karantina y milicias palestinas respondieron con una represalia en Damur. Siria intervino desde 1976 (12 000 soldados en junio) y sus tropas se quedaron hasta 2005; Israel invadió en 1978 y 1982, y hubo fuerzas de paz internacionales. Los acuerdos de Taif (1989) sentaron las bases del fin de la guerra, las milicias se disolvieron en 1990 y en 1991 hubo una amnistía general; Hezbolá conservó sus armas, que justifica por la resistencia a la ocupación israelí del sur.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil libanesa",
+        "en": "Lebanese Civil War"
+      }
+    },
+    {
+      "id": "operacion-opera",
+      "titulo": "Operación Ópera",
+      "anio": 1981,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Osirak",
+      "lon": 44.519,
+      "lat": 33.203,
+      "tipo": "batalla",
+      "resumen": "El 7 de junio de 1981, cazas F-16 israelíes con escolta de F-15 bombardearon por sorpresa el reactor nuclear iraquí Osirak, sin terminar, a 17 km al sudeste de Bagdad; murieron diez soldados iraquíes y un civil francés. Irak y Francia, que había vendido el reactor en 1976, decían que era para investigación pacífica; Israel lo veía como una fuente de armas nucleares, lo presentó como defensa propia («le quedaba menos de un mes para entrar en funcionamiento») y el gobierno declaró que era «un precedente para todo futuro gobierno de Israel» (la «doctrina Begin»). El Consejo de Seguridad lo condenó por unanimidad el 19 de junio (resolución 487) y la crítica internacional, incluida la de Estados Unidos, fue dura; el ataque fue tres semanas antes de las elecciones israelíes. Richard Betts, Malfrid Braut-Hegghammer y el informe Duelfer sostienen que el ataque aceleró o desató el programa nuclear secreto de Irak.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "resolucion-487"
+      ],
+      "wikipedia": {
+        "es": "Operación Ópera",
+        "en": "Operation Opera"
+      }
+    },
+    {
+      "id": "operacion-pata-de-palo",
+      "titulo": "Operación Pata de Palo",
+      "anio": 1985,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Túnez",
+      "lon": 10.18,
+      "lat": 36.801,
+      "tipo": "batalla",
+      "resumen": "El 1 de octubre de 1985 la aviación israelí bombardeó la sede de la OLP en Hammam Chott, cerca de Túnez, a unos 2060 km: la acción más lejana de Israel desde Entebbe (1976). Murieron entre 41 y 71 personas, según las fuentes: Israel habló de unos 60 miembros de la OLP; fuentes de hospitales, de 47. Israel la presentó como respuesta al asesinato de tres israelíes en un yate en Larnaca (Chipre), el 25 de septiembre, que atribuyó a la Fuerza 17 de la OLP (la OLP lo negó) y que fue la respuesta a la captura de cuatro jefes de esa fuerza por la marina israelí el 9 de septiembre; el Consejo de Seguridad la condenó el 4 de octubre como violación de la Carta de la ONU (resolución 573), con la abstención de Estados Unidos.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [
+        "resolucion-573"
+      ],
+      "wikipedia": {
+        "es": "Operación Pata de Palo",
+        "en": "Operation Wooden Leg"
+      }
+    },
+    {
+      "id": "conflicto-del-sur-del-libano",
+      "titulo": "Conflicto del sur del Líbano",
+      "anio": 1985,
+      "anio_hasta": 2000,
+      "aprox": false,
+      "lugar": "Sur del Líbano",
+      "lon": 35.4,
+      "lat": 33.25,
+      "tipo": "batalla",
+      "resumen": "Tras retirarse en 1985 del resto del Líbano, Israel conservó una «zona de seguridad» en el sur, con unos 1500 soldados propios y 2500 del Ejército del Sur del Líbano, la milicia cristiana aliada. Hezbolá, surgido de la ocupación y apoyado por Irán y Siria, libró una guerra de guerrillas y lanzó cohetes sobre Galilea; Israel hizo las operaciones Rendición de Cuentas (1993) y Uvas de la Ira (1996), en la que murieron más de 150 civiles libaneses, la mayoría en el bombardeo israelí de la base de la ONU en Caná. En el centro de detención de Jiam, del Ejército del Sur del Líbano, se torturaba a los presos. Tras un accidente de helicópteros en 1997, el movimiento Cuatro Madres reclamó la retirada; Israel la completó en mayo de 2000 y el Ejército del Sur del Líbano se derrumbó con ella.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Conflicto del sur del Líbano (1985-2000)",
+        "en": "South Lebanon conflict (1985–2000)"
+      }
+    },
+    {
+      "id": "conflicto-israeli-libanes",
+      "titulo": "Conflicto entre Israel y el Líbano desde 2000",
+      "anio": 2000,
+      "anio_hasta": 2026,
+      "aprox": false,
+      "lugar": "Sur del Líbano",
+      "lon": 35.4,
+      "lat": 33.25,
+      "tipo": "batalla",
+      "resumen": "Tras la retirada israelí de 2000, Hezbolá siguió con ataques intermitentes en la frontera, citando el control israelí de las granjas de Shebaa, hasta la guerra de 2006; después hubo relativa calma, con violaciones de ambos lados (vuelos israelíes sobre el Líbano; Hezbolá sin desarmarse, como pedía la resolución 1701). Desde el 8 de octubre de 2023 Hezbolá disparó cohetes y artillería contra posiciones israelíes en las granjas de Shebaa, en apoyo de Hamás en la guerra de Gaza, e Israel respondió; unas 96 000 personas fueron desplazadas en Israel y más de 1,4 millones en el Líbano. En septiembre de 2024 estallaron buscapersonas y radios de Hezbolá en un ataque que se atribuye a Israel, y Hasán Nasrala murió en un ataque israelí en Beirut (27 de septiembre); el 1 de octubre empezó una invasión israelí del sur del Líbano, que terminó con un alto el fuego el 27 de noviembre. El Ministerio de Salud libanés contó 3583 muertos en el Líbano desde mediados de septiembre hasta mediados de noviembre de 2024 y dijo que la mayoría eran civiles; el jefe de Hezbolá, Naim Qassem, dijo que murieron 5000 de sus combatientes. En abril de 2025 Hezbolá dijo estar dispuesto a discutir su desarme con el presidente Joseph Aoun si Israel se retiraba de cinco posiciones en el sur y detenía sus ataques. La lucha se reanudó el 2 de marzo de 2026, tras la guerra de Estados Unidos e Israel contra Irán, y hubo treguas en abril y en junio.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "resolucion-1701"
+      ],
+      "wikipedia": {
+        "es": "Conflicto Israel-Líbano",
+        "en": "Israeli–Lebanese conflict"
+      }
+    },
+    {
+      "id": "guerra-del-libano-2006",
+      "titulo": "Guerra del Líbano de 2006",
+      "anio": 2006,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Beirut",
+      "lon": 35.513,
+      "lat": 33.887,
+      "tipo": "batalla",
+      "resumen": "Guerra de 34 días entre Hezbolá e Israel, del 12 de julio al 14 de agosto (el bloqueo israelí se levantó el 8 de septiembre). Empezó cuando Hezbolá disparó cohetes de distracción sobre Shlomi y otras localidades, emboscó a soldados israelíes en la frontera, mató a tres y capturó a dos; otros cinco murieron en el intento de rescate (ocho en total); Israel respondió con ataques aéreos y de artillería contra objetivos militares y la infraestructura civil libanesa, incluido el aeropuerto de Beirut, bloqueo y una invasión terrestre, y Hezbolá disparó cerca de 4000 cohetes contra el norte de Israel, según fuentes israelíes. Murieron entre 1191 y 1300 libaneses y 165 israelíes (121 soldados y 44 civiles), según las estimaciones: 1191 es la cifra del Consejo Superior de Socorro libanés, y Human Rights Watch estimó que la mayoría de los muertos libaneses eran civiles. Hezbolá admitió 250 combatientes muertos y el ministerio de Exteriores israelí habló de más de 600. Hubo cerca de un millón de desplazados libaneses y entre 300 000 y 500 000 israelíes. Human Rights Watch y Amnistía Internacional acusaron a ambos lados: a Hezbolá por los cohetes indiscriminados y a Israel por los ataques a infraestructura civil y las bombas de racimo, sobre todo en los últimos tres días; la comisión Winograd rechazó que Israel cometiera crímenes de guerra. La resolución 1701 del Consejo de Seguridad (11 de agosto) pidió el desarme de Hezbolá y el despliegue del ejército libanés y de la FINUL; ambos bandos proclamaron la victoria y la comisión Winograd juzgó que Israel perdió una oportunidad al no lograr el desarme.",
+      "regiones": [
+        "libano",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "resolucion-1701"
+      ],
+      "wikipedia": {
+        "es": "Guerra del Líbano de 2006",
+        "en": "2006 Lebanon War"
+      }
+    },
+    {
+      "id": "operacion-huerto",
+      "titulo": "Operación Huerto",
+      "anio": 2007,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Al Kibar",
+      "lon": 39.834,
+      "lat": 35.708,
+      "tipo": "batalla",
+      "resumen": "Poco después de la medianoche del 6 de septiembre de 2007, la aviación israelí bombardeó un edificio en construcción en Al Kibar, en la región siria de Deir ez-Zor. Israel y Estados Unidos no lo anunciaron durante siete meses; Estados Unidos dijo después que era una instalación nuclear con fines militares, y Siria lo negó. El OIEA informó en 2009 de uranio y grafito y en 2011 concluyó que era «muy probablemente» un reactor nuclear que Siria debió declarar; Siria no cooperó en la investigación, e Israel reconoció el ataque recién en 2018.",
+      "regiones": [
+        "siria",
+        "levante",
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Operación Huerto",
+        "en": "Operation Outside the Box"
+      }
+    },
+    {
+      "id": "atentado-del-world-trade-center-1993",
+      "titulo": "Atentado del World Trade Center de 1993",
+      "anio": 1993,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "desastre",
+      "resumen": "El 26 de febrero de 1993, Ramzi Yousef y sus cómplices hicieron estallar una camioneta con unos 680 kg de explosivo bajo la Torre Norte, con la intención de derribarla sobre la Sur; murieron seis personas y hubo más de mil heridos. En 1994 cuatro hombres fueron condenados a 240 años de prisión y en 1997 lo fueron Yousef, el organizador, y Eyad Ismoil, el conductor. Según el periodista Steve Coll, Yousef envió poco antes a diarios de Nueva York cartas firmadas «Ejército de Liberación, Quinto Batallón» en las que exigía que Estados Unidos dejara de ayudar a Israel, rompiera relaciones con él y dejara de intervenir en Oriente Medio; el informante del FBI Emad Salem, en grabaciones, afirmó que un supervisor del FBI había desechado un plan para sustituir el explosivo por un polvo inofensivo; las autoridades federales lo negaron.",
+      "regiones": [
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Atentado del World Trade Center de 1993",
+        "en": "1993 World Trade Center bombing"
+      }
+    },
+    {
+      "id": "terremoto-de-beirut-551",
+      "titulo": "Terremoto de Beirut de 551",
+      "anio": 551,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Beirut",
+      "lon": 35.513,
+      "lat": 33.887,
+      "tipo": "desastre",
+      "resumen": "El 9 de julio de 551, un sismo de magnitud estimada de 7,5 y un tsunami destruyeron ciudades de la costa de la Fenicia bizantina, desde Tiro hasta Trípoli. El peregrino anónimo de Piacenza cuenta 30 000 muertos solo en Berito (Beirut); Malalas y Agatías cuentan la destrucción, y según Agatías murieron muchos jóvenes que estudiaban derecho allí y los profesores de la famosa escuela de derecho se mudaron a Sidón hasta que se reconstruyó Berito. El emperador dio ayuda económica. Los daños en Petra y el valle del Jordán que se le atribuían se explican hoy más bien por un sismo posterior.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Terremoto de Beirut de 551",
+        "en": "551 Beirut earthquake"
+      }
+    },
+    {
+      "id": "sitio-de-tripoli-1102",
+      "titulo": "Sitio de Trípoli (1102-1109)",
+      "anio": 1102,
+      "anio_hasta": 1109,
+      "aprox": false,
+      "lugar": "Trípoli del Líbano",
+      "lon": 35.834,
+      "lat": 34.437,
+      "tipo": "batalla",
+      "resumen": "Raimundo de Tolosa, tras tomar Tortosa (1102), construyó junto a Trípoli la fortaleza Mons Peregrinus para aislarla; murió en 1105 sin ver su caída. La ciudad, cuyo cadí fatimí Fajr al-Mulk ibn Ammar la gobernó de 1099 a 1109, resistió hasta que los cruzados (Balduino I de Jerusalén, Tancredo y Bertrand de Tolosa, hijo de Raimundo, con tropas genovesas, pisanas y provenzales) la tomaron el 12 de julio: la saquearon, esclavizaron a muchos habitantes y expulsaron a los demás; la flota egipcia llegó ocho horas tarde. Nació así el condado de Trípoli, el cuarto estado cruzado.",
+      "regiones": [
+        "libano",
+        "levante",
+        "siria"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Sitio de Trípoli",
+        "en": "Siege of Tripoli"
+      }
+    },
+    {
+      "id": "caida-de-tripoli-1289",
+      "titulo": "Caída de Trípoli (1289)",
+      "anio": 1289,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Trípoli del Líbano",
+      "lon": 35.834,
+      "lat": 34.437,
+      "tipo": "batalla",
+      "resumen": "El sultán mameluco Qalawun sitió el condado cruzado de Trípoli desde marzo de 1289 y tomó la ciudad el 26 de abril, con lo que terminaron 180 años de dominio cristiano ininterrumpido, el más largo de las conquistas francas del Levante. Mataron a la población, aunque muchos escaparon por mar; los refugiados de la isla de San Tomás fueron capturados el 29 de abril. Qalawun arrasó la ciudad y mandó construir una nueva unos kilómetros tierra adentro.",
+      "regiones": [
+        "libano",
+        "levante",
+        "siria"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Caída de Trípoli",
+        "en": "Fall of Tripoli (1289)"
+      }
+    },
+    {
+      "id": "senorio-de-transjordania",
+      "titulo": "Señorío de Transjordania",
+      "anio": 1118,
+      "anio_hasta": 1189,
+      "aprox": false,
+      "lugar": "Kerak",
+      "lon": 35.701,
+      "lat": 31.181,
+      "tipo": "politico",
+      "resumen": "Uno de los principales señoríos del reino cruzado de Jerusalén, al este del Jordán y del mar Muerto hasta el golfo de Áqaba. Balduino I construyó el castillo de Montreal (1115) y hacia 1118 lo dio a Romano de Le Puy; en 1142 Fulco levantó el de Kerak, que fue capital. Vivía de la agricultura del desierto y de los peajes de las caravanas. Su último señor, Reinaldo de Chatillon, hostigó a mercaderes y peregrinos a La Meca, lo que dio a Saladino un pretexto para invadir el reino en 1187; Saladino lo ejecutó tras Hattin y en 1189 ocupaba todo Transjordania.",
+      "regiones": [
+        "transjordania",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Señorío de Transjordania",
+        "en": "Lordship of Transjordan"
+      }
+    },
+    {
+      "id": "asentamiento-circasiano-de-aman",
+      "titulo": "Asentamiento circasiano en Transjordania",
+      "anio": 1878,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Amán",
+      "lon": 35.933,
+      "lat": 31.95,
+      "tipo": "politico",
+      "resumen": "Refugiados circasianos del Cáucaso, expulsados tras la conquista rusa en los años 1860 (que comunidades circasianas y varios países llaman genocidio, calificación que Rusia rechaza) y tras la guerra ruso-turca de 1877-1878, fueron asentados por el gobierno otomano en Transjordania, en Amán y Jerash, para cultivar y frenar a los beduinos. En 1878 llegaron por mar al Levante unos 50 000 circasianos; se les atribuye la refundación de Amán, que estaba abandonada.",
+      "regiones": [
+        "transjordania",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Circassians in Jordan"
+      }
+    },
+    {
+      "id": "campana-de-mahdia-1087",
+      "titulo": "Campaña de Mahdia (1087)",
+      "anio": 1087,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Mahdia",
+      "lon": 11.062,
+      "lat": 35.505,
+      "tipo": "batalla",
+      "resumen": "Ataque de barcos de Génova y Pisa, con apoyo de Roma, a Mahdia, capital del zirí Tamim ibn Muizz, cuyos corsarios atacaban a los italianos. Tomaron la ciudad, quemaron su flota y cobraron una indemnización, con la que Pisa pagó parte de su catedral. El historiador Carl Erdmann lo consideró un precedente directo de la Primera Cruzada, por haberse hecho bajo el estandarte de san Pedro; otros argumentan que destruir la flota de Mahdia facilitó después abastecer por mar a los cruzados.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cruzada de Mahdía (1087)",
+        "en": "Mahdia campaign of 1087"
+      }
+    },
+    {
+      "id": "octava-cruzada",
+      "titulo": "Octava Cruzada",
+      "anio": 1270,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Túnez",
+      "lon": 10.18,
+      "lat": 36.801,
+      "tipo": "batalla",
+      "resumen": "Segunda cruzada de Luis IX de Francia, dirigida contra el califato hafsí de Túnez. Casi no hubo combates: el rey murió de disentería poco después de llegar, y el 1 de noviembre de 1270 Felipe III, Carlos de Anjou y Teobaldo II de Navarra firmaron con el hafsí al-Mustansir el tratado de Túnez, sin cambios de territorio: los cristianos obtuvieron libertad de comercio y de culto, Carlos recibió un tercio de una indemnización de guerra y el hafsí reanudó el tributo que debía al rey de Sicilia. El historiador Saba Malaspina creía que Carlos de Anjou persuadió a su hermano para atacar Túnez a fin de cobrar el tributo que Túnez había pagado a los reyes de Sicilia; Luis nunca dejó de pensar en liberar Jerusalén.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Octava cruzada",
+        "en": "Eighth Crusade"
+      }
+    },
+    {
+      "id": "asedio-de-tripoli-1551",
+      "titulo": "Asedio de Trípoli (1551)",
+      "anio": 1551,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Trípoli de Libia",
+      "lon": 13.188,
+      "lat": 32.888,
+      "tipo": "batalla",
+      "resumen": "Los otomanos, con Sinan Pasha y el corsario Dragut, tomaron en agosto de 1551 Trípoli, en manos de los caballeros hospitalarios desde 1530, cuando España se la dio con Malta; el gobernador se rindió tras seis días de bombardeo. Fue, en apariencia, una represalia por la toma de Mahdia por los españoles y los hospitalarios el año anterior, tras una incursión a Gozo en que 5000 a 7000 habitantes fueron esclavizados. Por la intervención del embajador francés, los caballeros y parte de la guarnición pudieron irse a Malta, y el resto fue matado o esclavizado; Dragut hizo de Trípoli una base de los corsarios berberiscos.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Asedio de Trípoli (1551)",
+        "en": "Siege of Tripoli (1551)"
+      }
+    },
+    {
+      "id": "batalla-de-chaldiran",
+      "titulo": "Batalla de Chaldiran",
+      "anio": 1514,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Chaldiran",
+      "lon": 44.327,
+      "lat": 39.089,
+      "tipo": "batalla",
+      "resumen": "El 23 de agosto de 1514 el sultán Selim I derrotó al shah safávida Ismail I, que resultó herido y casi capturado, con un ejército otomano de 60 000 a 100 000 hombres y mucha artillería contra 40 000 a 80 000 safávidas sin ella. Los otomanos anexaron Anatolia oriental y el norte de Mesopotamia, ocuparon Tabriz y saquearon su tesoro, y los jefes kurdos pasaron de los safávidas a los otomanos. Empezó 41 años de guerra, hasta la paz de Amasya (1555); los safávidas recuperaron la región con Abbas I, pero la cedieron para siempre en el tratado de Zuhab (1639).",
+      "regiones": [
+        "anatolia",
+        "persia",
+        "mesopotamia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Chaldiran",
+        "en": "Battle of Chaldiran"
+      }
+    },
+    {
+      "id": "rebeliones-celalies",
+      "titulo": "Rebeliones celalíes",
+      "anio": 1596,
+      "anio_hasta": 1610,
+      "aprox": false,
+      "lugar": "Ankara",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "revolucion",
+      "resumen": "Rebeliones de tropas irregulares dirigidas por jefes de bandas y funcionarios provinciales (celalíes) contra el Imperio otomano en Anatolia, a fines del siglo XVI y hasta mediados del XVII (el nombre viene de Bozoklu Celal, que se rebeló en 1519; las rebeliones siguientes, sin relación con la suya, recibieron su nombre); según la periodización de Mustafa Akdağ, tuvieron una fase de 1596 a 1603 y otra de 1604 a 1610. El obispo armenio Grigor Daranaḷts‘i, refugiado, las atribuyó al abandono de Anatolia por Mehmed III, la corrupción, la confiscación de tierras y el hambre; hubo hambrunas, aldeas abandonadas y refugiados, entre ellos muchos armenios que se establecieron en Esmirna. Kuyucu Murad Pasha, apodado «el cavapozos» por las fosas comunes, las reprimió en 1606-1608.",
+      "regiones": [
+        "galacia",
+        "anatolia",
+        "armenia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Celali rebellions"
+      }
+    },
+    {
+      "id": "sumision-del-hiyaz-1517",
+      "titulo": "Los jerifes de La Meca reconocen a los otomanos",
+      "anio": 1517,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "La Meca",
+      "lon": 39.826,
+      "lat": 21.422,
+      "tipo": "politico",
+      "resumen": "Tras la conquista otomana de Egipto (1517) el jerife de La Meca, Barakat, reconoció la supremacía del sultán Selim I, y le envió a su hijo Abu Numayy con las llaves de las ciudades santas y regalos; el sultán lo confirmó a él y a su hijo como gobernantes conjuntos del Hiyaz. Los jerifes conservaron mucha autonomía y, con los otomanos, ampliaron su autoridad hasta Medina y Asir.",
+      "regiones": [
+        "arabia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Jerife de La Meca",
+        "en": "Sharif of Mecca"
+      }
+    },
+    {
+      "id": "conflictos-otomano-portugueses",
+      "titulo": "Conflictos otomano-portugueses",
+      "anio": 1538,
+      "anio_hasta": 1560,
+      "aprox": false,
+      "lugar": "Adén",
+      "lon": 45.033,
+      "lat": 12.8,
+      "tipo": "batalla",
+      "resumen": "Tras dominar el mar Rojo desde 1517, el Imperio otomano y Portugal, que controlaba el océano Índico desde Goa, se disputaron las rutas del Índico, el golfo Pérsico y el mar Rojo. En 1538 la flota de Hadim Suleiman Pasha asedió sin éxito Diu, en la India, y al volver conquistó casi todo Yemen, incluido Adén, que se rebeló en 1548 y recuperó; en 1551 los portugueses y sus vasallos de Ormuz tomaron el fuerte de Qatif, que los otomanos habían ocupado.",
+      "regiones": [
+        "arabia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Ottoman–Portuguese conflicts (1538–1560)"
+      }
+    },
+    {
+      "id": "guerra-otomano-safavida-1532",
+      "titulo": "Guerra otomano-safávida (1532-1555)",
+      "anio": 1532,
+      "anio_hasta": 1555,
+      "aprox": false,
+      "lugar": "Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "batalla",
+      "resumen": "Guerra de Solimán I y el shah Tahmasp I, desatada por disputas territoriales, el pasaje del bey de Bitlis al lado persa y el asesinato por Tahmasp del gobernador de Bagdad, simpatizante de Solimán. El gran visir Ibrahim Pasha tomó Tabriz (julio de 1534) y Solimán, Bagdad (diciembre de 1534), en poder de los safávidas desde 1508; Tahmasp evitó batallas decisivas y hostigó a los otomanos. La paz de Amasya (1555) confirmó las ganancias otomanas.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra otomano-safávida (1532-1555)",
+        "en": "Ottoman–Safavid War (1532–1555)"
+      }
+    },
+    {
+      "id": "toma-de-bagdad-1638",
+      "titulo": "Toma de Bagdad (1638)",
+      "anio": 1638,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "batalla",
+      "resumen": "Abbas I había quitado Bagdad a los otomanos en 1624, y varios intentos de recuperarla fracasaron. En 1638 el sultán Murad IV dirigió en persona el sitio (desde el 15 de noviembre), con un ejército que un testigo, Zarain Agha, calculó en 108 589 hombres; los safávidas habían multiplicado por cuatro o cinco la guarnición. La ciudad cayó el 25 de diciembre, y el tratado de Zuhab (17 de mayo de 1639) fijó la frontera con Persia.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Toma de Bagdad (1638)",
+        "en": "Siege of Baghdad (1638)"
       }
     }
   ],

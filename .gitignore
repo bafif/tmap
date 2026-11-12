@@ -15,3 +15,6 @@ __pycache__/
 
 # Informes de pruebas en otros equipos (capturas y registros): lo que sirve pasa a PROGRESO.md, no se suben
 /TellMAP-informe-*/
+
+# Respuestas de Wikidata y Wikipedia que guarda tools/enciclopedia/huecos.py
+/tools/enciclopedia/huecos/cache/

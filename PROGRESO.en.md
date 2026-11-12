@@ -39,6 +39,15 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 
 What's covered and what's missing, region by region, is in [the coverage report](docs/en/coverage.md).
 
+- [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
+      informe --red --prioridad baja` lists what is missing. There are no high-priority gaps or region-layer gaps left,
+      and the medium priority is closed in the Argentine packages, the Holy Land, the Middle Ages, Egypt and the Celts.
+      Still to do: the medium priority of twentieth-century literature and thought, wars and world order, political
+      ideas, economic thought, science and free culture (about 350 gaps), the stretches of the ancient world that were
+      only half closed (Mesopotamia, Anatolia, Persia, India and Mesoamerica), whatever new the rounds uncover
+      (completing a series makes it a topic) and the low priority, almost all maintenance: about 575 events
+      without sources, about 700 sources without a reading link and medieval sources with no place of writing. It is
+      filled in rounds until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century
       political history of Brazil, Mexico, Chile and the rest of Latin America, China after Mao, independent India,
       Africa after decolonization and Southeast Asia, with their own sources.
@@ -54,8 +63,8 @@ What's covered and what's missing, region by region, is in [the coverage report]
       Lumumba, Amílcar Cabral, Deng Xiaoping, Gödel, Wiener, Russell (only as an author), Pessoa, Brecht, Calvino, Eco,
       Onetti, Carlos Fuentes and Clarice Lispector (Galeano now has an entry). Hawaii has no region (Pearl Harbor falls
       outside all of them).
-- [ ] **Religions, cultures and languages for the world regions.** The 33 non-American regions in
-      `regiones-del-mundo.json` (Siberia, Japan, Africa, Oceania…) have a summary, eras and population, but not those
+- [ ] **Religions, cultures and languages for the world regions.** The 32 regions in
+      `regiones-del-mundo.json` outside the Americas and Central Asia (Siberia, Japan, Africa, Oceania…) have a summary, eras and population, but not those
       three layers: religion, culture or language mode leaves them hatched. Families are missing (Shinto, traditional
       African religions, Bantu languages, Austronesian…).
 - [ ] **Indigenous peoples of the Americas: what is left to confirm.** Figures the reviewers could not check against
@@ -201,6 +210,15 @@ New packages reach installed copies as data updates, without waiting for an app 
   culture, language and religion layers. The American entries that were already there follow the same criteria
   (Mesoamerica is also defined by sacrifice, the viceroyalty eras tell the demographic collapse, and the Cry of
   Dolores was given in the name of Ferdinand VII).
+- **No gaps in what has been researched**: each package has a fixed scope (its regions, its years, its axes and how well
+  known the things it includes are) and `tools/enciclopedia/huecos.py` lists what is missing inside it, with Wikidata as
+  a lead and not as truth; each batch goes through a writer, a reviewer who did not write it and a corrector, because
+  the review finds reversed results, false Wikidata facts and one-sided omissions. That is how the missing Argentine
+  presidents, vice presidents and governors got in, along with the Paraguayan War battle by battle, the viceroyalty and
+  the wars of independence, Rosas and his time, the caliphs, crusades and conflicts of the Holy Land with each side's
+  account, medieval popes, emperors and crusades, twentieth-century wars and leaders, works by Marx, Engels, Lenin and
+  Ayn Rand, and the layers of every researched region up to today, with their minorities, majorities only where a figure
+  supports them and without old anachronisms.
 - **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise
   place, with the coordinates of its Wikipedia article: the Fort or the Casa Rosada for viceroys and presidents, the
   Congress building of the time for laws, the court for trials, the field for battles. What has no single site (an

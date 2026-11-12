@@ -4297,6 +4297,177 @@
         "es": "Idioma protocéltico",
         "en": "Proto-Celtic language"
       }
+    },
+    {
+      "id": "cultura-chasense",
+      "titulo": "Cultura chasense",
+      "anio": -4500,
+      "anio_hasta": -3500,
+      "aprox": true,
+      "lugar": "Chassey-le-Camp",
+      "lon": 4.689,
+      "lat": 46.884,
+      "tipo": "cultural",
+      "resumen": "Cultura arqueológica del Neolítico medio de Francia en su periodización, de hacia 4500 a 3500 a. C., con el nombre del yacimiento de Chassey-le-Camp (Saona y Loira). Se extendía por el sur (Occitania, Provenza) y por las llanuras y mesetas del norte, en la cuenca del Sena y el alto Loira. Eran agricultores sedentarios y pastores de ovejas, cabras, bueyes y cerdos, en aldeas de 100 a 400 personas, con cerámica poco decorada, trabajo del sílex y sin metal; en Bercy (París, hacia 4000-3800 a. C.) aparecieron canoas de madera. Hacia 3500 a. C. dio paso a la cultura Sena-Oise-Marne en el norte y a otras culturas en el sur.",
+      "regiones": [
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Chasséen culture"
+      }
+    },
+    {
+      "id": "cultura-de-sredny-stog",
+      "titulo": "Cultura de Sredny Stog",
+      "anio": -4500,
+      "anio_hasta": -3500,
+      "aprox": true,
+      "lugar": "Sredny Stog (cerca de la isla de Jortitsia)",
+      "lon": 35.08,
+      "lat": 47.8,
+      "tipo": "cultural",
+      "resumen": "Complejo de pastores móviles de la estepa póntica, entre el Dniéper y el Don, que enterraban en fosas planas con ocre, sin los túmulos de Yamna que vinieron después. Gimbutas lo tomó como una cultura «pre-kurgánica» que podía ser la patria del protoindoeuropeo, y Kroonen y otros (2022), a partir del vocabulario agrícola reconstruido, sostienen que la etapa más antigua (indo-anatolia) pudo surgir allí. Los hallazgos de Deriivka que se presentaron como las pruebas más tempranas de caballos con bocados o de monta se discuten, y la periodización de la cultura se ha revisado.",
+      "regiones": [
+        "estepa-pontica"
+      ],
+      "fuentes": [
+        "the-horse-the-wheel-and-language"
+      ],
+      "wikipedia": {
+        "es": "Cultura sredny stog",
+        "en": "Sredny Stog culture"
+      }
+    },
+    {
+      "id": "cultura-de-baden",
+      "titulo": "Cultura de Baden",
+      "anio": -3500,
+      "anio_hasta": -2700,
+      "aprox": true,
+      "lugar": "Baden bei Wien",
+      "lon": 16.234,
+      "lat": 48.006,
+      "tipo": "cultural",
+      "resumen": "Cultura del Calcolítico final de la cuenca de los Cárpatos y Moravia (Hungría, Eslovaquia, Rumania, Austria oriental), con poblados en cerros, modelos de carros de cerámica y enterramientos de pares de bueyes. Gimbutas la consideró indoeuropeizada en su hipótesis kurgánica; los análisis de ADN de quince individuos de entre 3600 y 2850 a. C. muestran, en cambio, un 78-91 % de agricultores europeos tempranos, un 6-17 % de cazadores-recolectores occidentales y un 0-8 % de la estepa, de modo que la influencia indoeuropea, si la hubo, habría sido cultural y no biológica.",
+      "regiones": [
+        "alemania",
+        "bohemia",
+        "hungria"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura de Baden",
+        "en": "Baden culture"
+      }
+    },
+    {
+      "id": "cultura-de-lengyel",
+      "titulo": "Cultura de Lengyel",
+      "anio": -5000,
+      "anio_hasta": -4000,
+      "aprox": true,
+      "lugar": "Lengyel",
+      "lon": 18.367,
+      "lat": 46.37,
+      "tipo": "cultural",
+      "resumen": "Horizonte de aldeas agrícolas del Danubio medio (Hungría, Moravia, Austria, Eslovaquia, sur de Polonia), sucesor de la cerámica de bandas, con casas largas trapezoidales, recintos con foso, minas de sílex y las primeras cuentas de cobre; es más una esfera de interacción que una cultura única, y las fuentes dan para su final fechas entre 4000 y 3400 a. C. Gimbutas la incluyó en su «Vieja Europa» y supuso que los indoeuropeos la «kurganizaron»; los estudios genéticos (Lipson 2017, Narasimhan 2019, Patterson 2022) hallan entre un 85 y un 98 % de ascendencia de agricultores europeos tempranos y casi nada de la estepa.",
+      "regiones": [
+        "hungria",
+        "bohemia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura de Lengyel",
+        "en": "Lengyel culture"
+      }
+    },
+    {
+      "id": "cultura-de-los-vasos-de-embudo",
+      "titulo": "Cultura de los vasos de embudo",
+      "anio": -4100,
+      "anio_hasta": -2800,
+      "aprox": true,
+      "lugar": "Del Elba al Vístula y sur de Escandinavia",
+      "tipo": "cultural",
+      "resumen": "Cultura neolítica del centro y norte de Europa que llevó la agricultura y la ganadería a los cazadores-recolectores del norte y levantó los megalitos de la región. Nació hacia 4100 a. C., con colonos que según la evidencia arqueológica venían de la cultura de Michelsberg, y fue reemplazada en el este y el sur por la de las ánforas globulares y hacia 2800 a. C. por la cerámica cordada; su origen exacto se discute. Kossinna la definió; no dejó textos y no se sabe qué lengua hablaban.",
+      "regiones": [
+        "alemania",
+        "polonia",
+        "escandinavia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura de los vasos de embudo",
+        "en": "Funnelbeaker culture"
+      }
+    },
+    {
+      "id": "cultura-de-las-anforas-globulares",
+      "titulo": "Cultura de las ánforas globulares",
+      "anio": -3400,
+      "anio_hasta": -2800,
+      "aprox": true,
+      "lugar": "Entre el Elba y el Vístula, con avances hasta el Dniéper",
+      "tipo": "cultural",
+      "resumen": "Cultura de ganaderos de cerdos y bueyes, con enterramientos en fosas o cistas, a veces con bueyes en pares, que ocupó buena parte del área de los vasos de embudo y precedió a la cerámica cordada en su zona central; el nombre lo puso Kossinna por sus vasijas globulares. Gimbutas le supuso origen indoeuropeo, pero los estudios genéticos posteriores le hallan ascendencia de los agricultores europeos tempranos y no de los pastores de la estepa.",
+      "regiones": [
+        "alemania",
+        "polonia",
+        "bohemia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura de las ánforas globulares",
+        "en": "Globular Amphora culture"
+      }
+    },
+    {
+      "id": "cultura-de-las-terramaras",
+      "titulo": "Cultura de las terramaras",
+      "anio": -1700,
+      "anio_hasta": -1150,
+      "aprox": true,
+      "lugar": "Llanura del Po, en Emilia",
+      "tipo": "cultural",
+      "resumen": "Poblados trapezoidales sobre tierra firme, con foso y terraplén y a veces casas sobre pilotes, de la llanura central del Po (en Emilia, sobre todo), con metalurgia del bronce. Hacia 1150 a. C. el sistema colapsó y se abandonaron las aldeas; algunos autores piensan que la población dispersa contribuyó a las comunidades protovillanovianas. Pigorini, que las estudió desde 1862, las usó para sostener que los indoeuropeos llegaron a Italia por el norte; la identificación directa de las terramaras con un pueblo posterior se considera descartada.",
+      "regiones": [
+        "italia",
+        "galia-cisalpina"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura de las Terramaras",
+        "en": "Terramare culture"
+      }
+    },
+    {
+      "id": "protoindoeuropeo",
+      "titulo": "El protoindoeuropeo y la discusión sobre su patria",
+      "anio": -4500,
+      "anio_hasta": -2500,
+      "aprox": true,
+      "lugar": "Patria discutida (estepa póntica, Anatolia o sur del Cáucaso)",
+      "tipo": "cultural",
+      "resumen": "Lengua madre reconstruida por el método comparativo a partir de las lenguas indoeuropeas, sin textos propios, que suele situarse entre 4500 y 2500 a. C. Sobre su patria hay tres hipótesis principales: la kurgánica (Gimbutas, y hoy Anthony), que la ubica en la estepa póntica con Yamna; la anatolia (Renfrew, 1987), que la liga a la difusión de la agricultura hacia 7500-6000 a. C. y que Gray y Atkinson (2003) apoyaron con métodos filogenéticos, hoy en gran parte abandonada por no concordar con los datos genéticos y lingüísticos, y la armenia o caucásica (Gamkrelidze e Ivanov). Los datos de ADN antiguo desde 2015 dieron mucho peso a la migración esteparia, que Renfrew aceptó; Reich (2018) planteó como posibilidad que el tronco más antiguo (indo-anatolio) estuviera al sur del Cáucaso y Lazaridis y otros (2022) lo defendieron; Lazaridis, Anthony y otros (2025) lo ubican en cambio en una línea genética entre el Cáucaso y el Volga inferior, hacia 4400-4000 a. C., al norte del Cáucaso. Heggarty y otros (2023) proponen un modelo híbrido, y ninguno de esos datos dice qué lengua hablaba un grupo.",
+      "regiones": [
+        "estepa-pontica",
+        "anatolia",
+        "caucaso"
+      ],
+      "fuentes": [
+        "the-horse-the-wheel-and-language",
+        "archaeology-and-language",
+        "la-civilizacion-de-la-diosa",
+        "arbol-de-lenguas-gray-atkinson-2003",
+        "who-we-are-reich",
+        "arco-sur-lazaridis-2022",
+        "hipotesis-hibrida-heggarty-2023"
+      ],
+      "wikipedia": {
+        "es": "Idioma protoindoeuropeo",
+        "en": "Proto-Indo-European language"
+      }
     }
   ],
   "lugares": [

@@ -2344,6 +2344,132 @@
           "poblacion": 80810187,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
         }
+      ],
+      "religiones": [
+        {
+          "desde": 1900,
+          "hasta": 1926,
+          "nombre": "Islam sunita, tolerado bajo el Imperio ruso y los primeros años soviéticos",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "El islam llegó a la región a comienzos del siglo VIII, con la conquista musulmana; esta capa empieza en 1900, el comienzo del tramo investigado, y no es una fecha de registro. El Imperio ruso, que gobernó la región desde mediados de la década de 1860, toleró en general la práctica del islam; en los primeros años del poder bolchevique los soviéticos fueron pragmáticos y cooperaron con los yadidistas, musulmanes reformistas."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Islam chiita (ismailíes del Pamir e imamíes del valle del Zarafshán)",
+          "familia": "islam-chii",
+          "peso": "minoritaria",
+          "nota": "Los ismailíes viven casi todos en la meseta del Pamir y el oeste del Tian Shan; los imamíes forman una minoría grande en el valle del Zarafshán, de Samarcanda a Bujará."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Cristianismo ortodoxo (colonos rusos y otros eslavos)",
+          "familia": "cristianismo-ortodoxo",
+          "peso": "minoritaria",
+          "nota": "Los campesinos rusos empezaron a colonizar el norte de Kazajistán en la década de 1890 y el ferrocarril de Orenburgo a Taskent (1906) facilitó la colonización. En Kazajistán, la mayoría de los pueblos europeos es ortodoxa; los cristianos eran el 17,2 % en el censo de 2021, y en 1959 los rusos eran el 42,7 % de la población de esa república."
+        },
+        {
+          "desde": 1926,
+          "hasta": 1988,
+          "nombre": "Islam sunita reducido a la vida familiar y la costumbre, bajo el ateísmo de Estado soviético",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "En 1926 el gobierno soviético pasó de tolerar el islam a condenarlo: cerró las escuelas religiosas privadas y, entre 1927 y 1929, impulsó una campaña de cierre de mezquitas, a menudo violenta. El islam sobrevivió, pero como asunto de familia y costumbre, con los pocos cultos permitidos regulados por la Administración Espiritual de los Musulmanes de Asia Central y Kazajistán. Hacia fines de la época soviética entre 45 y 50 millones de ciudadanos se identificaban como musulmanes, con unas 500 mezquitas abiertas en todo el país."
+        },
+        {
+          "desde": 1926,
+          "hasta": 1991,
+          "nombre": "Ateos y no creyentes (bajo el ateísmo de Estado)",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "La política de gosateizm incluyó la expropiación de bienes religiosos, la publicación de propaganda antirreligiosa y su promoción en la enseñanza; hacia fines de la década de 1980 había logrado reducir las manifestaciones externas de la religión en Uzbekistán (mezquitas y madrasas cerradas, libros religiosos prohibidos). No hay cifras confiables de cuántas personas se decían ateas."
+        },
+        {
+          "desde": 1988,
+          "hasta": null,
+          "nombre": "Islam sunita (renacimiento religioso desde la glásnost)",
+          "familia": "islam-sunni",
+          "peso": "mayoritaria",
+          "nota": "En 1988 el gobierno soviético relajó los controles y hubo un rápido renacimiento (mezquitas, literatura, enseñanza privada), que se aceleró tras 1991. Los gobiernos poscomunistas desconfían del islam político; en 1992 estalló la guerra civil tayika. Kazajistán, censo de 2021: 69,3 % musulmanes, 17,2 % cristianos, 2,25 % ateos y 11,01 % que no contestó. Uzbekistán: el ministerio de Relaciones Exteriores estimó en 2022 que el 97 % es musulmán, en su mayoría de la escuela hanafí del islam sunita; en la encuesta WIN-Gallup de 2012, el 79 % se declaró religioso, el 16 % no religioso y el 2 % ateo convencido."
+        },
+        {
+          "desde": 1991,
+          "hasta": null,
+          "nombre": "Sin religión y ateos",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "El 2,25 % de ateos en Kazajistán (censo de 2021) y el 2 % de ateos convencidos en Uzbekistán (WIN-Gallup, 2012; otro 16 % se declaró no religioso)."
+        }
+      ],
+      "culturas": [
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Pueblos túrquicos (kazajos, uzbekos, kirguises, turcomanos, uigures y otros)",
+          "familia": "turca",
+          "peso": "mayoritaria",
+          "nota": "Hasta cerca del año 1000 predominaban los pueblos iranios; la migración túrquica los reemplazó salvo en Tayikistán. Los kazajos quedaron como minoría en su propia república tras la colectivización y la hambruna de 1930-1933, que mató a cerca del 40 % de ellos (1,5 millones), y en 1959 eran el 30 % de la población frente al 42,7 % de rusos; solo tras 1991 volvieron a ser una mayoría ajustada. Hoy son cerca del 71 % de Kazajistán y los uzbekos, el 84,4 % de Uzbekistán (estimación oficial). No se verificó una cifra para el conjunto de la región."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Tayikos (persas orientales)",
+          "familia": "persa",
+          "peso": "importante",
+          "nota": "Pueblo iranio descendiente de bactrios, sogdianos y escitas, entre otros; es el mayor grupo de Tayikistán y el segundo de Uzbekistán (alrededor del 5 % según las cifras oficiales, que se cree subestimadas)."
+        },
+        {
+          "desde": 1900,
+          "hasta": 2000,
+          "nombre": "Rusos y otros eslavos (colonos, funcionarios y trabajadores)",
+          "familia": "eslava-oriental",
+          "peso": "importante",
+          "nota": "La colonización rusa empezó en el siglo XIX y siguió con las granjas colectivas desde 1921 y la campaña de Tierras Vírgenes de los años cincuenta y sesenta. El estalinismo deportó a Asia central a coreanos (en 1937 desde el Lejano Oriente soviético; hoy hay más de 300.000 en la región) y, en 1943-1944, a pueblos del Cáucaso y de Crimea: 193.865 tártaros de Crimea, de los cuales 151.136 fueron a Uzbekistán. En Kazajistán, el censo de 1999 contó 4.479.618 rusos, cerca del 30 % de su población."
+        },
+        {
+          "desde": 2000,
+          "hasta": null,
+          "nombre": "Rusos, ucranianos y otros eslavos (tras la disolución de la URSS)",
+          "familia": "eslava-oriental",
+          "peso": "minoritaria",
+          "nota": "Desde 1991 los grupos europeos disminuyen por la emigración. El corte en 2000 es aproximado: entre el 30 % de los rusos de Kazajistán en el censo de 1999 y el 14,4 % de la estimación de 2026 no hay una cifra de censo que lo fije. Hacia 2026 los rusos son cerca del 14,4 %, los ucranianos el 1,8 % y los alemanes el 1,1 % de Kazajistán; en la región viven unos 7 millones de rusos, 500.000 ucranianos y 170.000 alemanes, sobre todo en Kazajistán."
+        }
+      ],
+      "idiomas": [
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Lenguas túrquicas (kazajo, uzbeko, kirguís, turcomano, uigur)",
+          "familia": "turcas",
+          "peso": "mayoritaria",
+          "nota": "Kazajistán, censo de 2021: el 80,1 % habla kazajo con soltura, pero solo el 49,3 % lo usa a diario. En Uzbekistán el uzbeko es la lengua mayoritaria y la única oficial, escrita oficialmente en alfabeto latino desde 1992, con mucho uso del cirílico."
+        },
+        {
+          "desde": 1900,
+          "hasta": 1938,
+          "nombre": "Ruso (colonos y administración imperial y soviética)",
+          "familia": "ruso",
+          "peso": "minoritaria",
+          "nota": "El ruso llegó con la colonización de las décadas de 1890 en adelante y fue la lengua de la administración imperial y soviética."
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Tayiko (persa)",
+          "familia": "persa",
+          "peso": "importante",
+          "nota": "Variedad del persa hablada por los tayikos en la cuenca del Oxus, el valle de Fergana y el Pamir; el persa figura también entre las lenguas de Uzbekistán."
+        },
+        {
+          "desde": 1938,
+          "hasta": null,
+          "nombre": "Ruso (lengua de comunicación entre pueblos)",
+          "familia": "ruso",
+          "peso": "importante",
+          "nota": "En 1938 el ruso pasó a ser materia obligatoria en todas las escuelas soviéticas, también en las que enseñaban en otra lengua. En 1959 los rusos eran el 42,7 % de la población de Kazajistán. Hoy el 83,7 % lo habla en Kazajistán (censo de 2021) y se usa de forma habitual en los negocios y entre grupos étnicos; en Uzbekistán puede usarse en algunas instituciones públicas junto con otras lenguas."
+        }
       ]
     },
     {
@@ -10524,16 +10650,9 @@
         },
         {
           "desde": 1565,
-          "hasta": 1821,
+          "hasta": 1770,
           "nombre": "Españoles y criollos de Florida, Nuevo México, Texas y California",
           "familia": "hispana",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1821,
-          "hasta": 1970,
-          "nombre": "Hispanos de Nuevo México, Texas y California y migrantes mexicanos",
-          "familia": "criolla",
           "peso": "minoritaria"
         },
         {
@@ -10560,31 +10679,17 @@
         },
         {
           "desde": 1750,
-          "hasta": 1776,
+          "hasta": 1770,
           "nombre": "Colonos británicos",
           "familia": "inglesa",
           "peso": "mayoritaria",
           "nota": "Hacia 1750 las colonias británicas tenían más de un millón de habitantes, probablemente más que toda la población indígena de Estados Unidos y Canadá."
         },
         {
-          "desde": 1776,
-          "hasta": null,
-          "nombre": "Estadounidenses",
-          "familia": "estadounidense",
-          "peso": "mayoritaria"
-        },
-        {
           "desde": 1763,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Francocanadienses",
           "familia": "francocanadiense",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1783,
-          "hasta": null,
-          "nombre": "Anglocanadienses",
-          "familia": "anglocanadiense",
           "peso": "minoritaria"
         },
         {
@@ -10603,10 +10708,81 @@
         },
         {
           "desde": 1700,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Afroamericanos",
           "familia": "afrodescendiente",
           "peso": "importante"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1770,
+          "nombre": "Pueblos originarios",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Angloamericana y anglocanadiense (colonos británicos y descendientes, con otras raíces europeas)",
+          "familia": "inglesa",
+          "peso": "mayoritaria",
+          "nota": "En 1900 los blancos eran 66,8 de los 76 millones de habitantes de Estados Unidos (88 %); en 2020, los blancos no hispanos eran el 57,8 % y los blancos solos, el 61,6 %. La capa agrupa a la población de origen europeo de habla inglesa, no solo a la de origen inglés."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Francófonos (Quebec y otras zonas de Canadá)",
+          "familia": "francesa",
+          "peso": "minoritaria",
+          "nota": "En Canadá el francés es la lengua materna del 20,2 % de la población (censo de 2021); el 94,3 % de los quebequenses lo sabe."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Africanos esclavizados y afroestadounidenses",
+          "familia": "afrodescendiente",
+          "peso": "importante",
+          "nota": "En 1900 había 8,8 millones de afroestadounidenses, cerca del 90 % en los estados del sur. La esclavitud terminó en Estados Unidos en 1865."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Pueblos originarios (primeras naciones, inuit y pueblos indígenas de Estados Unidos)",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria",
+          "nota": "Entre 1800 y 1900 Estados Unidos pasó de 5 a 76 millones de habitantes y avanzó hacia el oeste desplazando a las tribus. En 2020, 9.666.058 personas se identificaban como indígenas americanos o nativos de Alaska, solos o con otra raza (cerca del 3 %)."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1918,
+          "nombre": "Alemanes y sus descendientes",
+          "familia": "alemana",
+          "peso": "importante",
+          "nota": "Hubo colonos alemanes desde la época colonial. En 1910 el alemán era la segunda lengua de Nueva York (14,6 %), Illinois (17,4 %) y Wisconsin (32,5 %). Fue importante en el Medio Oeste, pero no se verificó su peso en el conjunto de la región."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1970,
+          "nombre": "Hispanos (mexicanos y otros)",
+          "familia": "hispana",
+          "peso": "minoritaria",
+          "nota": "Hubo hispanos en California desde 1769, en Nuevo México y en Texas, y el Tratado de Guadalupe Hidalgo (1848) sumó a Estados Unidos territorios mexicanos con población hispana. En 1900 había poco más de 500.000 hispanos en Estados Unidos."
+        },
+        {
+          "desde": 1918,
+          "hasta": null,
+          "nombre": "Alemanes y sus descendientes",
+          "familia": "alemana",
+          "peso": "minoritaria",
+          "nota": "Según la Oficina del Censo, en 2022 unos 41 millones de estadounidenses tenían ascendencia alemana, cerca del 12 % de la población (en 2009 eran 50,7 millones). El uso del alemán fue muy desalentado durante la Primera Guerra Mundial."
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Hispanos y latinos",
+          "familia": "hispana",
+          "peso": "importante",
+          "nota": "La población hispana o latina de Estados Unidos pasó de 50,5 millones en 2010 a 62,1 millones en 2020 y aportó el 51,1 % del crecimiento de ese decenio."
         },
         {
           "desde": 1745,
@@ -10614,20 +10790,6 @@
           "nombre": "Rusos y criollos de la América rusa (Alaska)",
           "familia": "rusa",
           "peso": "minoritaria"
-        },
-        {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Pueblos originarios",
-          "familia": "pueblos-originarios",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1970,
-          "hasta": null,
-          "nombre": "Hispanos",
-          "familia": "criolla",
-          "peso": "importante"
         }
       ],
       "idiomas": [
@@ -10640,7 +10802,7 @@
         },
         {
           "desde": 1565,
-          "hasta": 1970,
+          "hasta": 1770,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "minoritaria"
@@ -10661,17 +10823,72 @@
         },
         {
           "desde": 1750,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Inglés",
           "familia": "ingles",
           "peso": "mayoritaria"
         },
         {
           "desde": 1608,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Francés",
           "familia": "frances",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1750,
+          "hasta": 1770,
+          "nombre": "Lenguas originarias",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Inglés",
+          "familia": "ingles",
+          "peso": "mayoritaria",
+          "nota": "En Estados Unidos el 77 % habla solo inglés en casa (ACS, 2024). En Canadá el inglés es la lengua materna del 56,6 % y el francés del 20,2 % (censo de 2021)."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Francés (Quebec y otras zonas de Canadá)",
+          "familia": "frances",
+          "peso": "minoritaria",
+          "nota": "El 94,3 % de los quebequenses sabe francés (censo de 2021). En 1910 era también la segunda lengua de Massachusetts (9,3 %)."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Lenguas indígenas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria",
+          "nota": "Antes de la Confederación canadiense se hablaban más de 70 lenguas de unas 12 familias; hoy solo el 0,6 % de los canadienses declara una lengua indígena y más de 213.000 personas las hablan. En Estados Unidos, desde 1900 el gobierno impulsó la asimilación, con internados donde se obligaba a los niños a hablar inglés."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1918,
+          "nombre": "Alemán (colonos y gran inmigración del Medio Oeste)",
+          "familia": "aleman",
+          "peso": "importante",
+          "nota": "En 1910 era la segunda lengua de Nueva York (14,6 %), Illinois (17,4 %) y Wisconsin (32,5 %). De 1860 a 1917 se habló mucho en los barrios alemanes; su uso fue muy desalentado durante la Primera Guerra Mundial y cayó en desuso en muchos lugares."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1970,
+          "nombre": "Español (suroeste de Estados Unidos)",
+          "familia": "espanol",
+          "peso": "minoritaria",
+          "nota": "El español se habla en el suroeste desde la época colonial (California desde 1769, Nuevo México y Texas) y los territorios mexicanos cedidos en 1848 sumaron hablantes. En 1910 era el 6 % de la población de Texas (234.179 personas)."
+        },
+        {
+          "desde": 1970,
+          "hasta": null,
+          "nombre": "Español (hispanos y latinos)",
+          "familia": "espanol",
+          "peso": "importante",
+          "nota": "En Estados Unidos, el 14 % de la población habla español en casa (ACS, 2024), muy por delante de cualquier otra lengua no inglesa."
         },
         {
           "desde": 1624,
@@ -10686,20 +10903,6 @@
           "nombre": "Ruso (América rusa)",
           "familia": "ruso",
           "peso": "minoritaria"
-        },
-        {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Lenguas originarias",
-          "familia": "lenguas-indigenas-de-america",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1970,
-          "hasta": null,
-          "nombre": "Español",
-          "familia": "espanol",
-          "peso": "importante"
         }
       ],
       "religiones": [
@@ -10712,17 +10915,10 @@
         },
         {
           "desde": 1565,
-          "hasta": 1850,
+          "hasta": 1770,
           "nombre": "Catolicismo (misiones de Florida y Nuevo México, Nueva Francia, Maryland)",
           "familia": "catolicismo",
           "peso": "minoritaria"
-        },
-        {
-          "desde": 1850,
-          "hasta": null,
-          "nombre": "Catolicismo",
-          "familia": "catolicismo",
-          "peso": "importante"
         },
         {
           "desde": 1607,
@@ -10740,7 +10936,7 @@
         },
         {
           "desde": 1750,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Protestantismo",
           "familia": "protestantismo",
           "peso": "mayoritaria",
@@ -10748,17 +10944,121 @@
         },
         {
           "desde": 1654,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Judaísmo",
           "familia": "judaismo",
           "peso": "minoritaria"
         },
         {
           "desde": 1750,
-          "hasta": null,
+          "hasta": 1770,
           "nombre": "Religiones originarias",
           "familia": "religiones-de-america",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Protestantismo (anglicanos, puritanos, bautistas, luteranos y muchas otras iglesias)",
+          "familia": "protestantismo",
+          "peso": "mayoritaria",
+          "nota": "Hay protestantes desde 1607, con las colonias inglesas; esta capa empieza en 1770, el comienzo del tramo investigado, y no es una fecha de registro. Desde los primeros tiempos coloniales llegaron disidentes protestantes ingleses y alemanes en busca de libertad religiosa. En Canadá los protestantes fueron una leve mayoría en todos los censos de 1871 a 1961 (1871: 56,45 % protestantes y 42,80 % católicos). En Estados Unidos dejaron de ser mayoría absoluta en 2012 y siguen siendo el mayor grupo: según el PRRI (2020), 46 % protestantes, 22 % católicos y 23 % sin religión. Incluye las iglesias protestantes históricamente negras (7 % de los estadounidenses en 2007)."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1850,
+          "nombre": "Catolicismo (Canadá francés, Maryland y las antiguas colonias francesas y españolas)",
+          "familia": "catolicismo",
+          "peso": "minoritaria",
+          "nota": "Los primeros europeos que se establecieron en gran número en Canadá fueron católicos franceses; en Estados Unidos había pocos católicos en el período colonial."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Religiones de los pueblos originarios y movimientos sincréticos",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria",
+          "nota": "Entre los movimientos sincréticos figuran la religión de la Casa Larga (desde 1797), la Iglesia Nativa Americana (siglo XIX) y la Danza del Sol de los shoshones (desde 1890). Los internados, católicos y protestantes, buscaron asimilar a los niños indígenas, sobre todo a fines del siglo XIX y comienzos del XX. En el censo canadiense de 2021, el 0,2 % declaró la espiritualidad indígena."
+        },
+        {
+          "desde": 1770,
+          "hasta": 1866,
+          "nombre": "Islam entre los africanos esclavizados",
+          "familia": "islam",
+          "peso": "minoritaria",
+          "nota": "Según una fuente, entre el 15 % y el 30 % de los africanos esclavizados llevados a Estados Unidos eran musulmanes; la mayoría fue convertida a la fuerza al cristianismo."
+        },
+        {
+          "desde": 1770,
+          "hasta": null,
+          "nombre": "Judaísmo",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "Hay judíos desde el siglo XVII y el Acta de Plantaciones británica de 1740 lo permitió explícitamente; la gran inmigración llegó desde fines del siglo XIX, por la persecución en Europa oriental. En Estados Unidos eran unos 6 millones en 2010 y en Canadá, el 0,9 % en 2021."
+        },
+        {
+          "desde": 1850,
+          "hasta": null,
+          "nombre": "Catolicismo",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Hacia 1850 los católicos ya eran la mayor denominación de Estados Unidos. La gran mayoría de los católicos de Estados Unidos desciende de olas de inmigración; en 2020 eran el 22 % (PRRI). En Canadá los católicos superaron a los protestantes como grupo más numeroso en 1961 y eran el 29,9 % de la población en el censo de 2021."
+        },
+        {
+          "desde": 1866,
+          "hasta": 1965,
+          "nombre": "Islam (inmigrantes del Imperio otomano y de la India británica)",
+          "familia": "islam",
+          "peso": "minoritaria",
+          "nota": "Entre la década de 1880 y 1914 llegaron varios miles de musulmanes desde territorios otomanos y de la India británica. La que probablemente fue la primera mezquita de Estados Unidos se fundó en 1915 en Biddeford (Maine), por albaneses. No se verificó una cifra para el conjunto de la región."
+        },
+        {
+          "desde": 1963,
+          "hasta": 2001,
+          "nombre": "Sin afiliación religiosa",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "En Estados Unidos, el 2 % no declaraba religión en 1963 (el 90 % de los adultos se decía cristiano) y el 6 % en 1991."
+        },
+        {
+          "desde": 1965,
+          "hasta": null,
+          "nombre": "Islam",
+          "familia": "islam",
+          "peso": "minoritaria",
+          "nota": "La ley de Inmigración y Nacionalidad de 1965 (Hart-Celler) abolió las cuotas anteriores y abrió la inmigración desde países con población musulmana: entre 1966 y 1997 llegaron unos 2,78 millones de personas de esos países, de las cuales se estima que 1,1 millones eran musulmanas. Estados Unidos: unos 5,5 millones de musulmanes en 2026 (Pew Research Center), 1,6 % de la población. Canadá, censo de 2021: 4,9 %."
+        },
+        {
+          "desde": 1965,
+          "hasta": null,
+          "nombre": "Hinduismo (inmigración de Asia)",
+          "familia": "hinduismo",
+          "peso": "minoritaria",
+          "nota": "Crece con la inmigración desde Asia que abrió la ley de 1965 (Hart-Celler). Canadá, censo de 2021: 2,3 %. No se verificó una cifra para Estados Unidos."
+        },
+        {
+          "desde": 1965,
+          "hasta": null,
+          "nombre": "Sijismo (inmigración de Asia)",
+          "familia": "sijismo",
+          "peso": "minoritaria",
+          "nota": "Crece con la inmigración desde Asia que abrió la ley de 1965 (Hart-Celler). Canadá, censo de 2021: 2,1 %. No se verificó una cifra para Estados Unidos."
+        },
+        {
+          "desde": 1965,
+          "hasta": null,
+          "nombre": "Budismo (inmigración de Asia)",
+          "familia": "budismo",
+          "peso": "minoritaria",
+          "nota": "Crece con la inmigración desde Asia que abrió la ley de 1965 (Hart-Celler). Canadá, censo de 2021: 1,0 %. No se verificó una cifra para Estados Unidos."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Sin religión (ateos, agnósticos y sin afiliación)",
+          "familia": "sin-religion",
+          "peso": "importante",
+          "nota": "En Estados Unidos pasaron del 6 % en 1991 al 29 % en 2021 (Pew Research Center; en 2022 Pew los estimó en el 30 % para 2020). Una encuesta de la City University of New York pasó de 14,3 millones en 1990 a 34,2 millones en 2001. En Canadá fueron el 34,6 % en el censo de 2021. Las encuestas discrepan hasta en 8 puntos según cómo formulan la pregunta."
         },
         {
           "desde": 1794,
@@ -10767,13 +11067,6 @@
           "familia": "cristianismo-ortodoxo",
           "peso": "minoritaria",
           "nota": "La misión ortodoxa rusa llegó a Kodiak en 1794; Iván Veniamínov creó en las décadas de 1820 y 1830 una escritura para el aleutiano."
-        },
-        {
-          "desde": 1990,
-          "hasta": null,
-          "nombre": "Sin religión",
-          "familia": "irreligion",
-          "peso": "importante"
         }
       ]
     },
@@ -12075,7 +12368,7 @@
         },
         {
           "desde": 600,
-          "hasta": 1530,
+          "hasta": 1492,
           "nombre": "Taínos y otros pueblos ostionoides (Grandes Antillas, Bahamas y parte de las Antillas Menores)",
           "familia": "taina",
           "peso": "mayoritaria",
@@ -12083,21 +12376,93 @@
         },
         {
           "desde": 1200,
-          "hasta": 1700,
+          "hasta": 1492,
           "nombre": "Kalinagos (caribes de las Antillas Menores)",
           "familia": "caribes",
           "peso": "minoritaria",
           "nota": "La fecha de su llegada y su relación con los kari'nas de tierra firme se discuten: las crónicas hablan de una conquista reciente y la arqueología no muestra una ruptura clara. Las acusaciones de canibalismo de las fuentes españolas también se discuten."
         },
         {
+          "desde": 1492,
+          "hasta": 1540,
+          "nombre": "Taínos y kalinagos (caribes)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1492, la llegada de Colón, desde cuando hay registro escrito de las islas. Las estimaciones de la población taína anterior a 1492 son muy discutidas: para La Española van de 10.000 a 1.000.000 de personas. Entre el 80 % y el 90 % murió en unos treinta años."
+        },
+        {
+          "desde": 1493,
+          "hasta": 1540,
+          "nombre": "Españoles y criollos (La Española, Cuba, Puerto Rico y otras islas)",
+          "familia": "hispana",
+          "peso": "importante",
+          "nota": "Hubo uniones masivas entre colonos españoles y mujeres taínas: un censo de 1514 registra que el 40 % de los españoles de La Española tenían esposas taínas."
+        },
+        {
+          "desde": 1518,
+          "hasta": 1540,
+          "nombre": "Africanos esclavizados",
+          "familia": "afrodescendiente",
+          "peso": "importante",
+          "nota": "Hay africanos esclavizados desde 1510; los nacidos en África llegan desde 1518."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1790,
+          "nombre": "Españoles, criollos y mestizos (La Española, Cuba, Puerto Rico y otras islas)",
+          "familia": "criolla",
+          "peso": "importante",
+          "nota": "En La Española la población fue desde la década de 1540 «predominantemente de ascendencia mixta española, taína y africana»; en 1791 Santo Domingo tenía unos 125.000 habitantes: 40.000 blancos, 70.000 libertos mulatos y 15.000 esclavizados. No hay censos del conjunto de la región entre 1541 y 1699: en esos años no hay una mayoría para toda la región y el mapa pinta la primera capa vigente de la lista; se puso primera esta, la menos sesgada que permiten las fuentes, porque en Barbados los africanos eran más que los blancos desde la década de 1660 y las Antillas Menores siguieron kalinagas hasta 1660."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1790,
+          "nombre": "Kalinagos (caribes insulares) de las Antillas Menores",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria",
+          "nota": "Un tratado de 1660 entre Francia, Inglaterra y los kalinagos los obligó a dejar las Antillas Menores salvo Dominica y San Vicente, que quedaron como reservas; en 1763 los británicos anexaron Santa Lucía, Tobago, Dominica y San Vicente."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1700,
+          "nombre": "Africanos esclavizados y sus descendientes",
+          "familia": "afrodescendiente",
+          "peso": "importante",
+          "nota": "Barbados pasó al azúcar y al trabajo esclavizado desde la década de 1640: en 1655 había unos 20.000 africanos y descendientes sobre 43.000 habitantes y en 1673 los esclavizados (33.184) superaban a los blancos (21.309). En Jamaica, hacia fines del siglo XVII la población negra era al menos tres veces la blanca. No se verificó la composición de Cuba, Puerto Rico ni Santo Domingo en esos años."
+        },
+        {
+          "desde": 1623,
+          "hasta": 1790,
+          "nombre": "Colonos ingleses",
+          "familia": "inglesa",
+          "peso": "minoritaria",
+          "nota": "Inglaterra colonizó San Cristóbal (1623), Barbados (1627) y Jamaica (1655), y desde 1640 impulsó el azúcar con ayuda holandesa."
+        },
+        {
+          "desde": 1635,
+          "hasta": 1790,
+          "nombre": "Colonos y administradores franceses",
+          "familia": "francesa",
+          "peso": "minoritaria",
+          "nota": "El tratado de Ryswick (1697) reconoció a Francia el tercio occidental de La Española (Saint-Domingue), donde hacia 1789 vivían entre 40.000 y 45.000 blancos."
+        },
+        {
           "desde": 1700,
+          "hasta": 1790,
+          "nombre": "Africanos y afrodescendientes, mayoría en las islas de plantación",
+          "familia": "afrodescendiente",
+          "peso": "mayoritaria",
+          "nota": "Corte aproximado, porque la proporción varió por isla. En Barbados los esclavizados superaban a los blancos desde 1673 (33.184 contra 21.309); hacia 1789 Saint-Domingue tenía entre 406.000 y 465.000 esclavizados, entre 28.000 y 32.000 libres de color y entre 40.000 y 45.000 blancos, y entre 1681 y 1791 llegaron a esa colonia entre 790.000 y 860.000 esclavizados, la mayoría nacidos en África porque la población no crecía por sí sola. En cambio Santo Domingo español, en 1791, tenía unos 40.000 blancos, 70.000 libertos mulatos y 15.000 esclavizados. No se verificó la composición de Cuba ni de Puerto Rico."
+        },
+        {
+          "desde": 1790,
           "hasta": null,
           "nombre": "Kalinagos de Dominica y San Vicente",
           "familia": "caribes",
           "peso": "minoritaria"
         },
         {
-          "desde": 1530,
+          "desde": 1790,
           "hasta": 1800,
           "nombre": "Taínos sobrevivientes y sus descendientes en los pueblos de indios de Cuba (Guanabacoa, El Caney, Jiguaní) y en La Española y Puerto Rico",
           "familia": "taina",
@@ -12105,28 +12470,7 @@
           "nota": "Fecha aproximada: se fueron mezclando con el resto de la población."
         },
         {
-          "desde": 1492,
-          "hasta": 1530,
-          "nombre": "Españoles",
-          "familia": "hispana",
-          "peso": "importante"
-        },
-        {
-          "desde": 1530,
-          "hasta": 1700,
-          "nombre": "Españoles, criollos, mestizos y africanos de las Antillas españolas",
-          "familia": "hispana",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1520,
-          "hasta": 1700,
-          "nombre": "Africanos esclavizados",
-          "familia": "afrodescendiente",
-          "peso": "importante"
-        },
-        {
-          "desde": 1700,
+          "desde": 1790,
           "hasta": null,
           "nombre": "Afrocaribeña (descendientes de africanos esclavizados, negros y mulatos)",
           "familia": "afrocaribena",
@@ -12134,28 +12478,21 @@
           "nota": "El Caribe recibió una gran parte de los africanos esclavizados llevados a América (base de datos Slave Voyages, de Eltis y Richardson); hacia 1790 eran cerca del 90 % de la población de Saint-Domingue y de Jamaica."
         },
         {
-          "desde": 1625,
+          "desde": 1790,
           "hasta": 1838,
           "nombre": "Colonos británicos",
           "familia": "inglesa",
           "peso": "minoritaria"
         },
         {
-          "desde": 1635,
+          "desde": 1790,
           "hasta": 1804,
           "nombre": "Colonos franceses",
           "familia": "francesa",
           "peso": "minoritaria"
         },
         {
-          "desde": 1634,
-          "hasta": null,
-          "nombre": "Neerlandeses",
-          "familia": "neerlandesa",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1700,
+          "desde": 1790,
           "hasta": null,
           "nombre": "Criollos y mestizos hispanos (Cuba, Puerto Rico, Santo Domingo)",
           "familia": "criolla",
@@ -12166,6 +12503,13 @@
           "hasta": null,
           "nombre": "Indocaribeños (Trinidad, Guadalupe, Martinica, Jamaica)",
           "familia": "india",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1634,
+          "hasta": null,
+          "nombre": "Neerlandeses",
+          "familia": "neerlandesa",
           "peso": "minoritaria"
         }
       ],
@@ -12186,34 +12530,104 @@
         },
         {
           "desde": 600,
-          "hasta": 1530,
+          "hasta": 1492,
           "nombre": "Taíno",
           "familia": "taino",
           "peso": "mayoritaria"
         },
         {
           "desde": 1200,
-          "hasta": 1920,
+          "hasta": 1492,
           "nombre": "Kalinago (lengua arahuaca, con un habla masculina de origen caribe)",
           "familia": "arahuacas",
           "peso": "minoritaria"
         },
         {
           "desde": 1492,
-          "hasta": 1530,
-          "nombre": "Español",
-          "familia": "espanol",
-          "peso": "importante"
+          "hasta": 1540,
+          "nombre": "Taíno (arahuaco) y otras lenguas indígenas de las Antillas",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1492, la llegada de Colón, desde cuando hay registro escrito de las islas. Los taínos hablaban una lengua arahuaca; Granberry y Vescelius (2004) distinguen dos variedades, el taíno clásico (Puerto Rico y la mayor parte de La Española) y otra del este de Cuba y las Bahamas."
         },
         {
-          "desde": 1530,
-          "hasta": 1700,
-          "nombre": "Español",
+          "desde": 1493,
+          "hasta": 1540,
+          "nombre": "Español (primeros colonos)",
           "familia": "espanol",
-          "peso": "mayoritaria"
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1518,
+          "hasta": 1540,
+          "nombre": "Lenguas africanas de los esclavizados",
+          "familia": "lenguas-africanas",
+          "peso": "importante",
+          "nota": "Hay africanos esclavizados desde 1510; los nacidos en África llegan desde 1518. Los esclavizados venían de África occidental y central."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1790,
+          "nombre": "Español (colonias españolas)",
+          "familia": "espanol",
+          "peso": "importante",
+          "nota": "No hay censos lingüísticos del conjunto de la región. Entre 1541 y 1699 no hay una mayoría para toda la región: el mapa pinta la primera capa vigente de la lista, y aquí es esta, la lengua de las islas mayores españolas y de la administración. Las fuentes la contradicen en parte: en Barbados y Jamaica se hablaba inglés y las Antillas Menores siguieron kalinagas hasta 1660."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1790,
+          "nombre": "Kalinago (caribe insular)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria",
+          "nota": "Lengua de los kalinagos de las Antillas Menores, no emparentada con la de los continentales; se hablaba también un pidgin asociado con los kalinas."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1700,
+          "nombre": "Lenguas africanas de los esclavizados",
+          "familia": "lenguas-africanas",
+          "peso": "importante",
+          "nota": "Los esclavizados venían de África occidental y central."
+        },
+        {
+          "desde": 1623,
+          "hasta": 1790,
+          "nombre": "Inglés (colonias británicas)",
+          "familia": "ingles",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1635,
+          "hasta": 1790,
+          "nombre": "Francés (colonias francesas)",
+          "familia": "frances",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1680,
+          "hasta": 1790,
+          "nombre": "Criollos de base francesa e inglesa",
+          "familia": "lenguas-criollas",
+          "peso": "importante",
+          "nota": "El criollo haitiano surgió del contacto entre colonos franceses y esclavizados africanos en los siglos XVII y XVIII; una teoría lo ubica entre 1680 y 1740."
         },
         {
           "desde": 1700,
+          "hasta": 1790,
+          "nombre": "Lenguas africanas de los esclavizados",
+          "familia": "lenguas-africanas",
+          "peso": "mayoritaria",
+          "nota": "Mayoría estimada sin censo lingüístico, derivada de la población y aproximada, porque varió por isla: en Barbados los esclavizados superaban a los blancos desde 1673 (33.184 contra 21.309); en Saint-Domingue, hacia 1789, la mayoría de los esclavizados había nacido en África; en Santo Domingo español, en 1791, había unos 40.000 blancos, 70.000 libertos mulatos y 15.000 esclavizados. Las lenguas criollas tienen su propia entrada."
+        },
+        {
+          "desde": 1790,
+          "hasta": 1920,
+          "nombre": "Kalinago (lengua arahuaca, con un habla masculina de origen caribe)",
+          "familia": "arahuacas",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1790,
           "hasta": 1860,
           "nombre": "Lenguas criollas de base francesa e inglesa",
           "familia": "criollas",
@@ -12221,7 +12635,7 @@
           "nota": "Hacia 1790 la mayoría de la población del Caribe estaba esclavizada y hablaba criollos de base francesa (Saint-Domingue, Martinica, Guadalupe) o inglesa (Jamaica, Barbados)."
         },
         {
-          "desde": 1700,
+          "desde": 1790,
           "hasta": 1860,
           "nombre": "Español",
           "familia": "espanol",
@@ -12249,28 +12663,21 @@
           "peso": "importante"
         },
         {
-          "desde": 1625,
+          "desde": 1790,
           "hasta": null,
           "nombre": "Inglés",
           "familia": "ingles",
           "peso": "minoritaria"
         },
         {
-          "desde": 1635,
+          "desde": 1790,
           "hasta": null,
           "nombre": "Francés",
           "familia": "frances",
           "peso": "minoritaria"
         },
         {
-          "desde": 1520,
-          "hasta": 1700,
-          "nombre": "Lenguas africanas",
-          "familia": "niger-congo",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1700,
+          "desde": 1790,
           "hasta": 1860,
           "nombre": "Lenguas africanas de los esclavizados nacidos en África",
           "familia": "niger-congo",
@@ -12288,40 +12695,65 @@
         },
         {
           "desde": 600,
-          "hasta": 1530,
+          "hasta": 1492,
           "nombre": "Religión taína (cemíes, behiques, cohoba, areítos)",
           "familia": "religion-taina",
           "peso": "mayoritaria"
         },
         {
           "desde": 1492,
-          "hasta": 1530,
-          "nombre": "Catolicismo",
-          "familia": "catolicismo",
-          "peso": "importante"
+          "hasta": 1540,
+          "nombre": "Religión taína (zemíes, caciques y bohíques)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1492, la llegada de Colón, desde cuando hay registro escrito de las islas. Los taínos veneraban a los zemíes, espíritus o antepasados, entre ellos Atabey y su hijo Yúcahu; los bohíques eran sacerdotes que aconsejaban a los caciques. Entre el 80 % y el 90 % de la población taína murió en unos treinta años de colonización, por enfermedades, trabajo forzado, guerras y encomiendas."
         },
         {
-          "desde": 1530,
+          "desde": 1493,
+          "hasta": 1790,
+          "nombre": "Catolicismo (evangelización española y francesa)",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Fue la religión oficial de las colonias españolas y francesas; la Iglesia llegó con la conquista (segundo viaje de Colón, 1493) y, en las Antillas Menores, con misioneros como el francés Raymond Breton, que vivió en Guadalupe y Dominica entre 1635 y 1653. Entre 1541 y 1699 no hay una mayoría para toda la región: el mapa pinta la primera capa vigente de la lista, y aquí es esta, la de las colonias oficiales de las islas mayores. Las fuentes la contradicen en parte: Barbados tuvo azúcar y esclavizados africanos desde la década de 1640, y las Antillas Menores siguieron en manos kalinagas hasta 1660."
+        },
+        {
+          "desde": 1518,
+          "hasta": 1790,
+          "nombre": "Religiones africanas y afrocaribeñas (vudú en formación, obeah)",
+          "familia": "religiones-afroamericanas",
+          "peso": "importante",
+          "nota": "Hay africanos esclavizados desde 1510; los nacidos en África llegan desde 1518 y el 26 de diciembre de 1522 estalló en Santo Domingo la revuelta de los wolof musulmanes. El vudú haitiano se formó entre los siglos XVI y XIX con religiones de África occidental y central (sobre todo fon y bakongo) y el catolicismo, y tomó su forma hacia mediados del siglo XVIII; quizá se adoptaron santos católicos para disimular el culto cuando estaba prohibido. El obeah se desarrolló en las colonias británicas."
+        },
+        {
+          "desde": 1540,
+          "hasta": 1790,
+          "nombre": "Religiones de los pueblos indígenas sobrevivientes (kalinagos y comunidades taínas)",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria",
+          "nota": "Un tratado de 1660 entre Francia, Inglaterra y los kalinagos reconoció Dominica y San Vicente como reservas indígenas. No se verificaron sus prácticas religiosas en esa época, y el grado de supervivencia cultural taína es discutido entre los especialistas."
+        },
+        {
+          "desde": 1623,
+          "hasta": 1790,
+          "nombre": "Protestantismo (anglicanos en las colonias británicas)",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "Inglaterra colonizó San Cristóbal (1623), Barbados (1627) y Jamaica (1655). En Jamaica la Iglesia de Inglaterra, que representaba a la comunidad blanca inglesa, tenía a su cargo la instrucción religiosa de los esclavizados."
+        },
+        {
+          "desde": 1790,
           "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
           "peso": "mayoritaria"
         },
         {
-          "desde": 1625,
+          "desde": 1790,
           "hasta": 1800,
           "nombre": "Protestantismo de los colonos británicos, neerlandeses y daneses",
           "familia": "protestantismo",
           "peso": "minoritaria",
           "nota": "En las colonias británicas, la mayoría de los esclavizados no fue bautizada hasta las misiones moravas, metodistas y bautistas de fines del siglo XVIII y el XIX."
-        },
-        {
-          "desde": 1654,
-          "hasta": null,
-          "nombre": "Judaísmo sefardí (Curazao, Barbados, Jamaica)",
-          "familia": "judaismo",
-          "peso": "minoritaria",
-          "nota": "La congregación Mikvé Israel de Curazao, formada en la década de 1650, tiene la sinagoga en uso más antigua de América (1732)."
         },
         {
           "desde": 1800,
@@ -12331,7 +12763,7 @@
           "peso": "importante"
         },
         {
-          "desde": 1700,
+          "desde": 1790,
           "hasta": null,
           "nombre": "Religiones afroamericanas (vudú haitiano, santería, palo, obeah)",
           "familia": "religiones-afroamericanas",
@@ -12350,6 +12782,14 @@
           "nombre": "Sin religión",
           "familia": "irreligion",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1654,
+          "hasta": null,
+          "nombre": "Judaísmo sefardí (Curazao, Barbados, Jamaica)",
+          "familia": "judaismo",
+          "peso": "minoritaria",
+          "nota": "La congregación Mikvé Israel de Curazao, formada en la década de 1650, tiene la sinagoga en uso más antigua de América (1732)."
         }
       ]
     },
@@ -14326,7 +14766,7 @@
         },
         {
           "desde": 700,
-          "hasta": 1700,
+          "hasta": 1500,
           "nombre": "Pueblos tupíes de la costa y los grandes ríos (tupinambás, tupiniquins, potiguaras, temiminós)",
           "familia": "tupi",
           "peso": "mayoritaria",
@@ -14334,87 +14774,95 @@
         },
         {
           "desde": -1000,
-          "hasta": 1900,
+          "hasta": 1500,
           "nombre": "Pueblos ye y otros pueblos del interior que los tupíes llamaban tapuias (kaingang, xavante, kayapó, timbira, botocudos)",
           "familia": "ye",
           "peso": "importante"
         },
         {
           "desde": 1,
-          "hasta": 1750,
+          "hasta": 1500,
           "nombre": "Guaraníes del sur (Paraná, Santa Catarina, Rio Grande do Sul)",
           "familia": "guarani",
           "peso": "importante"
         },
         {
           "desde": 1500,
-          "hasta": 1600,
-          "nombre": "Portugueses y mamelucos (mestizos)",
+          "hasta": 1650,
+          "nombre": "Pueblos originarios (tupíes, jê, caribes y arahuacos)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1500, la llegada de los portugueses, desde cuando hay registro. Antes de la colonización el territorio tenía entre 1 y 11,25 millones de habitantes, según estimaciones; en el primer siglo de contacto la población amerindia se redujo un 90 %, y las cifras de población colonial (15.000 en 1550 y 100.000 en 1600) son estimaciones sin censo. El corte en 1650 es aproximado: en 1800 había unos 174.900 indígenas sobre 2,33 millones de habitantes."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Portugueses (factorías, capitanías e ingenios)",
           "familia": "portuguesa",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los portugueses empezaron a llegar en 1500; entre 1500 y 1808 llegaron unos 500.000."
         },
         {
-          "desde": 1600,
-          "hasta": 1700,
-          "nombre": "Portugueses y mamelucos (mestizos)",
-          "familia": "portuguesa",
-          "peso": "importante"
-        },
-        {
-          "desde": 1550,
-          "hasta": 1600,
-          "nombre": "Africanos esclavizados de los ingenios",
+          "desde": 1540,
+          "hasta": 1888,
+          "nombre": "Africanos esclavizados y libertos",
           "familia": "afrodescendiente",
-          "peso": "minoritaria"
+          "peso": "importante",
+          "nota": "En 1872, el 15 % de los 10 millones de habitantes eran esclavizados; unas tres cuartas partes de los negros y mulatos ya eran libres por manumisión. La esclavitud se abolió en 1888."
         },
         {
-          "desde": 1600,
-          "hasta": 1700,
-          "nombre": "Africanos esclavizados de los ingenios",
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Brasileña (mestiza: portuguesa, indígena y africana)",
+          "familia": "brasilena",
+          "peso": "mayoritaria",
+          "nota": "El corte en 1650 es aproximado: no hay censo. Estimaciones de la población colonial: 300.000 en 1700, 1,5 millones en 1766 y 3,25 millones en 1800. La mezcla de portugueses con mujeres indígenas dio origen a los bandeirantes de São Paulo. Los africanos esclavizados y sus descendientes tienen su propia entrada. El primer censo, de 1872, contó 9.930.478 habitantes. En 2022: 88,25 millones de blancos (43,5 %), 92,08 millones de pardos (45,3 %), 20,66 millones de negros, 850.132 amarillos y 1,23 millones de indígenas; los pardos son el mayor grupo. Entre 2000 y 2022 los blancos pasaron del 53,7 % al 43,5 %. El color se declara por autoidentificación."
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Pueblos indígenas actuales",
+          "familia": "pueblos-originarios",
+          "peso": "minoritaria",
+          "nota": "Cerca del 0,6 % al 0,8 % de la población según el censo de 2022; más de la mitad vive en la Amazonía Legal."
+        },
+        {
+          "desde": 1824,
+          "hasta": null,
+          "nombre": "Inmigración alemana y sus descendientes (desde 1824, sobre todo en el Sur)",
+          "familia": "alemana",
+          "peso": "minoritaria",
+          "nota": "Entre quienes indicaron un origen extranjero, el 6,51 % declaró ascendencia alemana."
+        },
+        {
+          "desde": 1875,
+          "hasta": null,
+          "nombre": "Inmigración italiana y sus descendientes (desde 1875, Sur y Sudeste)",
+          "familia": "italiana",
+          "peso": "importante",
+          "nota": "Fue el principal grupo de inmigrantes a fines del siglo XIX. Entre quienes indicaron un origen extranjero, el 17,2 % declaró ascendencia portuguesa, el 16,5 % italiana, el 9,42 % española y el 6,51 % alemana."
+        },
+        {
+          "desde": 1888,
+          "hasta": null,
+          "nombre": "Afrodescendientes (pretos y pardos)",
           "familia": "afrodescendiente",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "En 2022 hubo 20,66 millones de pretos (cerca del 10 %) y 92,08 millones de pardos (45,3 %)."
+        },
+        {
+          "desde": 1908,
+          "hasta": null,
+          "nombre": "Inmigración japonesa y sus descendientes",
+          "familia": "japonesa",
+          "peso": "minoritaria",
+          "nota": "La inmigración japonesa empezó el 18 de junio de 1908 con el buque Kasato Maru. En 2022 el Ministerio de Relaciones Exteriores de Japón estimó 2 millones de descendientes, la mayor población de ese origen fuera de Japón; los «amarillos» (de origen de Asia oriental) eran 850.130 en el censo de 2022."
         },
         {
           "desde": 1630,
           "hasta": 1654,
           "nombre": "Neerlandeses del Brasil holandés (Pernambuco)",
           "familia": "neerlandesa",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Brasileña: blancos, pardos, negros y caboclos",
-          "familia": "brasilena",
-          "peso": "mayoritaria",
-          "nota": "Hacia 1800 cerca de la mitad de la población colonial era esclava. En el censo de 2022, el 45 % se declaró pardo, el 43 % blanco y el 10 % negro."
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Afrobrasileños",
-          "familia": "afrodescendiente",
-          "peso": "importante"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Pueblos tupíes (potiguaras, tupiniquins y otros)",
-          "familia": "tupi",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1900,
-          "hasta": null,
-          "nombre": "Pueblos ye y otros pueblos indígenas",
-          "familia": "ye",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Guaraníes (mbyá, kaiowá, ñandeva)",
-          "familia": "guarani",
           "peso": "minoritaria"
         }
       ],
@@ -14428,112 +14876,187 @@
         },
         {
           "desde": 700,
-          "hasta": 1700,
+          "hasta": 1500,
           "nombre": "Tupí y guaraní",
           "familia": "tupi-guarani",
           "peso": "mayoritaria"
         },
         {
           "desde": -1000,
+          "hasta": 1500,
+          "nombre": "Lenguas macro-yê",
+          "familia": "macro-ye",
+          "peso": "importante"
+        },
+        {
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Lenguas indígenas (tupí-guaraní, jê, caribe, arahuaco y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1500, la llegada de los portugueses, desde cuando hay registro. Los tupíes llamaban «tapuyas» a los pueblos no tupíes; no había unidad lingüística entre ellos."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Língua geral (tupí colonial)",
+          "familia": "tupi-guarani",
+          "peso": "importante",
+          "nota": "Durante los dos primeros siglos de colonización se habló, entre indígenas, colonos portugueses y africanos, una lengua de base tupí desde São Paulo hasta Maranhão."
+        },
+        {
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Portugués (lengua de los colonos y de la administración)",
+          "familia": "galaicoportugues",
+          "peso": "minoritaria",
+          "nota": "Esta capa empieza en 1500 y el portugués era entonces la lengua de unos pocos colonos y de la administración."
+        },
+        {
+          "desde": 1540,
           "hasta": 1900,
-          "nombre": "Lenguas macro-yê",
-          "familia": "macro-ye",
-          "peso": "importante"
+          "nombre": "Lenguas africanas de los esclavizados",
+          "familia": "lenguas-africanas",
+          "peso": "importante",
+          "nota": "Muchos venían de Guinea-Bisáu y, a fines del siglo XVIII, del reino del Congo, Angola, Mozambique y Benín. Desde el siglo XX no hay registros de hablantes de lenguas africanas, pero algunas comunidades de quilombos conservan vocabulario africano en su portugués."
         },
         {
-          "desde": 1900,
-          "hasta": null,
-          "nombre": "Lenguas macro-yê",
-          "familia": "macro-ye",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1532,
-          "hasta": 1600,
-          "nombre": "Portugués",
-          "familia": "galaicoportugues",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1600,
-          "hasta": 1700,
-          "nombre": "Portugués",
-          "familia": "galaicoportugues",
-          "peso": "importante"
-        },
-        {
-          "desde": 1700,
-          "hasta": 1800,
-          "nombre": "Língua geral paulista, de base tupí",
+          "desde": 1650,
+          "hasta": 1758,
+          "nombre": "Língua geral (tupí colonial)",
           "familia": "tupi-guarani",
-          "peso": "importante"
+          "peso": "mayoritaria",
+          "nota": "La língua geral llegó a ser la lengua dominante del vasto territorio brasileño; el portugués no se usaba mucho en el siglo XVI y se afirmó a fines del XVIII. El corte en 1650 es aproximado: no hay cifras. El Diretório dos Índios (18 de agosto de 1758), del marqués de Pombal, impuso el portugués y prohibió la língua geral; se revocó en 1798."
         },
         {
-          "desde": 1800,
-          "hasta": null,
-          "nombre": "Guaraní y otras lenguas tupí-guaraníes",
-          "familia": "tupi-guarani",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
+          "desde": 1650,
+          "hasta": 1758,
           "nombre": "Portugués",
           "familia": "galaicoportugues",
-          "peso": "mayoritaria"
+          "peso": "importante",
+          "nota": "Desde comienzos del siglo XVIII el gobierno portugués buscó extender su uso, sobre todo porque consolidarlo ayudaba a asegurar las tierras en disputa con España."
         },
         {
-          "desde": 1550,
-          "hasta": 1600,
-          "nombre": "Lenguas africanas (kimbundu, kikongo)",
-          "familia": "niger-congo",
-          "peso": "minoritaria"
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Lenguas indígenas actuales (ticuna, kaingang, kaiwá guaraní, nheengatu, guajajara y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria",
+          "nota": "Se hablan o se señan 238 lenguas (2023), unas 217 indígenas; en 2005 ninguna indígena pasaba de 40.000 hablantes. El nheengatu es cooficial en São Gabriel da Cachoeira, junto con el tucano y el baniwa."
         },
         {
-          "desde": 1600,
-          "hasta": 1850,
-          "nombre": "Lenguas africanas (kimbundu, kikongo, yoruba, fon, ewe)",
-          "familia": "niger-congo",
-          "peso": "importante"
+          "desde": 1758,
+          "hasta": null,
+          "nombre": "Portugués brasileño",
+          "familia": "galaicoportugues",
+          "peso": "mayoritaria",
+          "nota": "Lo habla casi toda la población. El corte en 1758, el año del Diretório dos Índios (18 de agosto de 1758), es aproximado: el portugués se afirmó a fines del siglo XVIII. Pombal impuso el portugués y prohibió la língua geral; el Diretório se revocó en 1798."
+        },
+        {
+          "desde": 1824,
+          "hasta": null,
+          "nombre": "Alemán (dialectos alemanes del Sur)",
+          "familia": "aleman",
+          "peso": "minoritaria",
+          "nota": "Varios dialectos alemanes son cooficiales en nueve municipios del Sur; en las últimas décadas fueron reemplazados rápidamente por el portugués, y hoy en Rio Grande do Sul se intenta revertir esa tendencia."
+        },
+        {
+          "desde": 1875,
+          "hasta": null,
+          "nombre": "Italiano y dialectos italianos",
+          "familia": "italiano",
+          "peso": "minoritaria",
+          "nota": "Fue la lengua de la inmigración italiana desde 1875 y también se fue reemplazando por el portugués; lo mismo ocurre con el japonés de los descendientes de los inmigrantes de 1908."
         }
       ],
       "religiones": [
         {
           "desde": -11000,
-          "hasta": 1700,
+          "hasta": 1500,
           "nombre": "Religiones originarias (chamanes o pajés; entre los tupinambás, la antropofagia ritual de los cautivos)",
           "familia": "religiones-de-america",
           "peso": "mayoritaria",
           "nota": "La antropofagia de los tupinambás la describen testigos como Hans Staden (1557) y Jean de Léry (1578); su interpretación se discute, su existencia no."
         },
         {
-          "desde": 1532,
-          "hasta": 1600,
-          "nombre": "Catolicismo (jesuitas desde 1549)",
-          "familia": "catolicismo",
-          "peso": "minoritaria"
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Religiones de los pueblos originarios (tupíes, jê, caribes y arahuacos)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en 1500, la llegada de los portugueses, desde cuando hay registro. Antes de la colonización el territorio tenía entre 1 y 11,25 millones de habitantes, según estimaciones; en el primer siglo de contacto la población amerindia se redujo un 90 %. No hay censo: el corte en 1650 es aproximado, porque la colonización fue costera y el interior siguió en manos indígenas, y recién en 1800 hay una cifra (unos 174.900 indígenas sobre 2,33 millones de habitantes del Brasil colonial)."
         },
         {
-          "desde": 1600,
-          "hasta": 1700,
-          "nombre": "Catolicismo (colonos, esclavizados y aldeas de los jesuitas)",
+          "desde": 1500,
+          "hasta": 1650,
+          "nombre": "Catolicismo (jesuitas y colonos portugueses)",
           "familia": "catolicismo",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Se introdujo entre los indígenas con los misioneros jesuitas durante la colonia, sin libertad de culto."
         },
         {
-          "desde": 1700,
+          "desde": 1540,
+          "hasta": 1888,
+          "nombre": "Religiones africanas de los esclavizados, a menudo disimuladas bajo el catolicismo",
+          "familia": "religiones-afroamericanas",
+          "peso": "importante",
+          "nota": "Hay africanos esclavizados desde la década de 1540 (ingenio de São Vicente); en los primeros 250 años de colonia cerca del 70 % de los inmigrantes eran esclavizados, y hasta 1850 llegaron varios millones (una estimación habla de unos seis millones). Las religiones de África se mezclaron con el catolicismo popular portugués y con costumbres indígenas."
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Religiones de los pueblos indígenas actuales",
+          "familia": "religiones-de-america",
+          "peso": "minoritaria",
+          "nota": "El censo de 2022 contó entre 1,2 millones (por color o raza) y 1,6 millones de indígenas (0,6 % a 0,8 %)."
+        },
+        {
+          "desde": 1650,
           "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
           "peso": "mayoritaria",
-          "nota": "En el censo de 2022 se declaró católico el 57 % de la población, y evangélico, el 27 %."
+          "nota": "Los colonos portugueses estaban obligados a ser católicos y a pagar diezmos; hubo religión oficial hasta la Constitución de 1891. Brasil es el país con más católicos del mundo, pero bajaron del 90 % en 1970 al 64,6 % en el censo de 2010 y al 56,75 % en el de 2022 (Datafolha, 2022: 51 %; Ipsos, 2023: 38 %)."
         },
         {
-          "desde": 1600,
+          "desde": 1811,
+          "hasta": 2000,
+          "nombre": "Protestantismo (anglicanos desde 1811, luteranos desde 1824, bautistas, presbiterianos y pentecostales desde 1910)",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "Los anglicanos llegaron con los comerciantes ingleses en 1811 y los luteranos con los alemanes en 1824. El pentecostalismo llegó hacia 1910 y creció mucho desde 1950; el neopentecostalismo apareció en la década de 1970. En 2000 los protestantes eran más numerosos en el Norte (19,8 %), el Centro-Oeste (18,9 %) y el Sudeste (17,5 %)."
+        },
+        {
+          "desde": 1865,
           "hasta": null,
-          "nombre": "Candomblé, umbanda y otras religiones afrobrasileñas",
+          "nombre": "Espiritismo kardecista",
+          "familia": "espiritismo",
+          "peso": "minoritaria",
+          "nota": "Llegó a Brasil en la década de 1860; la Federación Espírita Brasileña lo fecha en 1865 (la Federación misma se fundó en 1884). Brasil tiene el mayor número de espiritistas del mundo. ARDA (2020): 4,83 %; Datafolha (2022): 2 %."
+        },
+        {
+          "desde": 1888,
+          "hasta": null,
+          "nombre": "Religiones afrobrasileñas (candomblé, umbanda)",
           "familia": "religiones-afroamericanas",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "El Latinobarómetro de 2018 dio un 1,3 % de practicantes de cultos afroamericanos y Datafolha (2022), un 1 % de umbandistas. Las cifras pueden estar subestimadas porque muchos practicantes se declaran católicos por el sincretismo. La esclavitud se abolió en todo el país en 1888 con la Ley Áurea."
+        },
+        {
+          "desde": 2000,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "El 7,4 % en el censo de 2000 y el 9,28 % en el de 2022; Datafolha (2022): 12 %; Ipsos (2023): 20 %."
+        },
+        {
+          "desde": 2001,
+          "hasta": null,
+          "nombre": "Protestantismo evangélico y pentecostal",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "El 22,2 % en el censo de 2010 y el 26,85 % en el de 2022; Latinobarómetro 2018: 25,3 %; Datafolha 2022: 26 %; Ipsos 2023: 29 %. Algunos analistas proyectan que podrían superar a los católicos hacia 2030."
         },
         {
           "desde": 1630,
@@ -14547,34 +15070,6 @@
           "hasta": 1654,
           "nombre": "Judaísmo sefardí de Recife (sinagoga Kahal Zur Israel)",
           "familia": "judaismo",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Religiones originarias",
-          "familia": "religiones-de-america",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1911,
-          "hasta": 1980,
-          "nombre": "Iglesias evangélicas y pentecostales",
-          "familia": "pentecostalismo",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1980,
-          "hasta": null,
-          "nombre": "Iglesias evangélicas y pentecostales",
-          "familia": "pentecostalismo",
-          "peso": "importante"
-        },
-        {
-          "desde": 1990,
-          "hasta": null,
-          "nombre": "Sin religión",
-          "familia": "irreligion",
           "peso": "minoritaria"
         }
       ]
@@ -14711,25 +15206,27 @@
           "peso": "importante"
         },
         {
-          "desde": 1910,
-          "hasta": 2000,
-          "nombre": "Criolla, con colonos europeos (y menonitas en el Chaco paraguayo desde 1927)",
-          "familia": "criolla",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1910,
-          "hasta": 2000,
-          "nombre": "Pueblos chaqueños (qom, wichí, pilagás, mocovíes, nivaclés y otros)",
-          "familia": "chaquena",
-          "peso": "importante"
-        },
-        {
           "desde": 1900,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Ava guaraní",
           "familia": "guarani",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1910,
+          "hasta": null,
+          "nombre": "Criolla, con colonos europeos (y menonitas en el Chaco paraguayo desde 1927)",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "El censo argentino de 2022 contó 1.306.730 personas (2,83 %) que se reconocen indígenas o descendientes de primera generación en todo el país; no se verificó una cifra para el conjunto del Gran Chaco."
+        },
+        {
+          "desde": 1910,
+          "hasta": null,
+          "nombre": "Pueblos chaqueños (qom, wichí, pilagás, mocovíes, nivaclés y otros)",
+          "familia": "chaquena",
+          "peso": "importante",
+          "nota": "Hablantes de lenguas chaqueñas en la Argentina: wichí, unos 27.000 (variedad del Pilcomayo, en Formosa) y unos 32.000 (variedad del Chaco, Formosa y Salta); qom, entre 40.000 y 60.000 en 2006. En 2010 la provincia del Chaco declaró cooficiales, junto con el español, el qom (toba), el moqoit y el wichí."
         }
       ],
       "idiomas": [
@@ -14743,17 +15240,19 @@
         },
         {
           "desde": -10000,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Lenguas mataco-mataguayas (wichí, chorote, nivaclé)",
           "familia": "mataguaya",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Wichí: unos 27.000 hablantes en la variedad del Pilcomayo (Formosa) y unos 32.000 en la del Chaco, Formosa y Salta; nivaclé: unos 200 en el noreste de Formosa (según estimaciones)."
         },
         {
           "desde": 1450,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Guaraní (ava guaraní; en el Chaco paraguayo, también de los criollos)",
           "familia": "tupi-guarani",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "En el Paraguay, el guaraní lo hablaba el 86 % de la población en 2002 y el 77 % en 2012 (censos)."
         },
         {
           "desde": 1585,
@@ -14771,17 +15270,19 @@
         },
         {
           "desde": 1910,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En 2010 la provincia del Chaco declaró cooficiales, junto con el español, las lenguas qom, moqoit y wichí."
         },
         {
           "desde": 1910,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Lenguas guaycurúes",
           "familia": "guaycuru",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "Qom: entre 40.000 y 60.000 hablantes en 2006; mocoví (moqoit): unos 2.800 en 2012; pilagá: entre 2.000 y 5.000. En conjunto, las lenguas guaycurúes tienen unos 49.000 hablantes en la Argentina."
         }
       ],
       "religiones": [
@@ -14808,25 +15309,43 @@
         },
         {
           "desde": 1910,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En la encuesta nacional del CONICET, la región Noreste (Chaco, Formosa, Corrientes y Misiones, que solo en parte coincide con el Gran Chaco) tenía un 84,0 % de católicos en 2008 y un 67,4 % en 2019."
         },
         {
           "desde": 1910,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Religiones originarias chaqueñas",
           "familia": "religiones-de-america",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Sigue habiendo comunidades qom, wichí, pilagá, mocoví y nivaclé; no se verificó una cifra de quienes practican hoy sus religiones."
         },
         {
           "desde": 1911,
-          "hasta": 2000,
+          "hasta": 2019,
           "nombre": "Iglesias anglicanas y evangélicas entre los pueblos indígenas",
           "familia": "protestantismo",
           "peso": "minoritaria",
-          "nota": "La misión anglicana entre los wichí empezó a comienzos de la década de 1910; desde mediados del siglo XX las iglesias evangélicas se extendieron entre los qom."
+          "nota": "La misión anglicana entre los wichí empezó a comienzos de la década de 1910; desde mediados del siglo XX las iglesias evangélicas se extendieron entre los qom. En el Noreste, la encuesta del CONICET de 2008 dio un 11,8 % de evangélicos y la de 2019, un 23,1 %. Se los marca minoritarios hasta 2018: el corte es aproximado, porque solo hay encuestas de 2008 y de 2019."
+        },
+        {
+          "desde": 2008,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "El 7,0 % en el Noreste en 2019, según la encuesta del CONICET; la encuesta nacional anterior es de 2008."
+        },
+        {
+          "desde": 2019,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas (pentecostales y otras)",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "En el Noreste pasaron del 11,8 % en 2008 al 23,1 % en 2019 (encuestas del CONICET); es la segunda región más evangélica del país, después de la Patagonia. Se los marca importantes desde 2019, el año de la encuesta que da esa cifra; la región de la encuesta no coincide exactamente con el Gran Chaco."
         }
       ]
     },
@@ -14944,47 +15463,59 @@
         },
         {
           "desde": 1,
-          "hasta": 1750,
+          "hasta": 1490,
           "nombre": "Guaraníes (carios, tobatines, itatines, guaireños y otros)",
           "familia": "guarani",
           "peso": "mayoritaria",
           "nota": "La llegada de los guaraníes a la cuenca del Paraná se fecha arqueológicamente hacia comienzos de la era cristiana, con fechas discutidas."
         },
         {
-          "desde": 1537,
-          "hasta": 1600,
-          "nombre": "Españoles y mestizos de Asunción y Villarrica",
-          "familia": "criolla",
-          "peso": "minoritaria",
-          "nota": "Los mestizos, hijos de españoles y mujeres guaraníes, fueron desde muy temprano la mayoría de los vecinos de Asunción."
-        },
-        {
-          "desde": 1600,
-          "hasta": 1750,
-          "nombre": "Españoles y mestizos de Asunción y Villarrica",
-          "familia": "criolla",
-          "peso": "importante"
-        },
-        {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Paraguaya (mestiza, de habla guaraní y castellana)",
-          "familia": "criolla",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Pueblos indígenas (mbyá, avá guaraní, paĩ tavyterã, aché)",
+          "desde": 1490,
+          "hasta": 1650,
+          "nombre": "Guaraníes",
           "familia": "guarani",
-          "peso": "minoritaria"
+          "peso": "mayoritaria",
+          "nota": "El primer empadronamiento de indígenas, en 1555, inscribió 100.000 y en 1611 se estimaron 800.000 «indios infieles» en la comarca de Asunción, cifra probablemente exagerada, porque la población nativa cayó por guerras, trabajos y traslados forzados y enfermedades. La zona de Asunción queda fuera de esta región. El corte en 1650 es aproximado: no hay un censo que lo fije."
         },
         {
           "desde": 1556,
           "hasta": null,
-          "nombre": "Afrodescendientes (esclavos y pardos libres; Kamba Kua desde 1820)",
+          "nombre": "Afroparaguayos",
           "familia": "afrodescendiente",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Los primeros esclavizados africanos llegaron en 1556. Según el historiador José Ignacio Telesca, más del 4 % de la población eran esclavizados en la colonia; según la asociación Kamba Cuá, en 1782 la población negra era el 11,2 % de la de la provincia. Las estimaciones oficiales actuales dan alrededor del 2 %."
+        },
+        {
+          "desde": 1650,
+          "hasta": 1768,
+          "nombre": "Guaraníes de las reducciones jesuíticas y de los pueblos de indios",
+          "familia": "guarani",
+          "peso": "importante",
+          "nota": "Las reducciones del Río de la Plata llegaron a 141.182 habitantes en 1732, en 30 misiones repartidas entre Brasil, Paraguay y la Argentina."
+        },
+        {
+          "desde": 1650,
+          "hasta": null,
+          "nombre": "Mestiza hispano-guaraní (paraguaya)",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "El corte en 1650 es aproximado y no lo fija una fuente: no se halló una cifra de esa época. Las que hay son posteriores (141.182 habitantes en las reducciones en 1732 y entre 96.000 y 97.480 en la provincia según el censo virreinal de 1778) y no muestran por sí solas una mayoría mestiza en 1650. El pueblo paraguayo se originó en la unión masiva de mujeres guaraníes con los colonos españoles del siglo XVI; hoy se estima un 65 % de mestizos y un 30 % de blancos."
+        },
+        {
+          "desde": 1768,
+          "hasta": null,
+          "nombre": "Pueblos indígenas guaraníes actuales (mbyá, paĩ tavyterá, ñandeva y otros)",
+          "familia": "guarani",
+          "peso": "minoritaria",
+          "nota": "El censo de 2022 contó 140.206 indígenas en todo el país (cerca del 2,3 %), incluidos los del Chaco. En 1848 el presidente Carlos Antonio López les dio la ciudadanía a todos, y muchos perdieron sus nombres y su identidad."
+        },
+        {
+          "desde": 1961,
+          "hasta": null,
+          "nombre": "Inmigrantes japoneses y sus descendientes",
+          "familia": "japonesa",
+          "peso": "minoritaria",
+          "nota": "La colonia Yguazú (Alto Paraná) se fundó el 22 de agosto de 1961; La Colmena (1936) y las colonias de Itapúa quedan fuera del polígono. En el censo de 2002 los extranjeros eran el 3,4 % de la población (81.592 brasileños y 63.153 argentinos entre los 173.176 extranjeros)."
         },
         {
           "desde": 1970,
@@ -15004,26 +15535,35 @@
         },
         {
           "desde": 1,
-          "hasta": null,
+          "hasta": 1490,
           "nombre": "Guaraní",
           "familia": "tupi-guarani",
           "peso": "mayoritaria",
           "nota": "Paraguay es el único país de América donde la mayoría de la población no indígena habla una lengua indígena; el guaraní es oficial desde 1992."
         },
         {
-          "desde": 1537,
-          "hasta": 1750,
-          "nombre": "Español",
-          "familia": "espanol",
-          "peso": "minoritaria",
-          "nota": "Los mestizos de Asunción hablaban sobre todo guaraní; el castellano era la lengua de la administración y de la Iglesia."
+          "desde": 1490,
+          "hasta": null,
+          "nombre": "Guaraní",
+          "familia": "tupi-guarani",
+          "peso": "mayoritaria",
+          "nota": "El guaraní fue siempre más hablado que el español; es lengua oficial junto con él desde 1992 y la usan incluso muchos no indígenas. Censo de 2012: el 46,3 % de los hogares hablaba español y guaraní (yopará), el 34 % solo guaraní y el 15,3 % solo español; el uso del guaraní bajó del 86 % en 2002 al 77 % en 2012. Encuesta Permanente de Hogares de 2022: el 34,3 % es bilingüe, el 32,6 % habla sobre todo guaraní y el 30,4 % sobre todo castellano."
         },
         {
-          "desde": 1750,
-          "hasta": null,
-          "nombre": "Español",
+          "desde": 1537,
+          "hasta": 1870,
+          "nombre": "Español (colonizadores y criollos)",
           "familia": "espanol",
-          "peso": "importante"
+          "peso": "minoritaria",
+          "nota": "Los hablantes de español fueron siempre minoría frente a los de guaraní; se concentraban en la capital y entre las clases con acceso a la educación."
+        },
+        {
+          "desde": 1870,
+          "hasta": null,
+          "nombre": "Español (lengua oficial junto con el guaraní)",
+          "familia": "espanol",
+          "peso": "importante",
+          "nota": "El corte en 1870, año en que terminó la guerra de la Triple Alianza, es aproximado: no se encontró un censo lingüístico que fije cuándo el español pasó a ser una lengua importante. Cerca del 90 % de la población lo habla o entiende al menos en parte; predomina en las ciudades, la educación, los medios y los documentos oficiales."
         },
         {
           "desde": 1970,
@@ -15043,39 +15583,59 @@
         },
         {
           "desde": 1,
-          "hasta": 1609,
+          "hasta": 1490,
           "nombre": "Religión guaraní (chamanes o karai, danzas y cantos rituales)",
           "familia": "religiones-originarias",
           "peso": "mayoritaria",
           "nota": "La idea de una «búsqueda de la Tierra sin Mal» como motor de las migraciones guaraníes, propuesta por Nimuendajú (1914) y Métraux, se discute."
         },
         {
-          "desde": 1537,
+          "desde": 1490,
           "hasta": 1609,
-          "nombre": "Catolicismo",
-          "familia": "catolicismo",
-          "peso": "importante"
-        },
-        {
-          "desde": 1609,
-          "hasta": null,
-          "nombre": "Catolicismo",
-          "familia": "catolicismo",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1609,
-          "hasta": null,
           "nombre": "Religión guaraní",
           "familia": "religiones-originarias",
-          "peso": "minoritaria"
+          "peso": "mayoritaria",
+          "nota": "Antes de la llegada de los misioneros españoles, los pueblos del actual Paraguay practicaban una variedad de religiones."
         },
         {
-          "desde": 1980,
+          "desde": 1537,
+          "hasta": 1609,
+          "nombre": "Catolicismo (evangelización española)",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Asunción, fundada en 1537, tuvo el primer obispado del Río de la Plata, creado por bula de 1547; el primer obispo, fray Juan de los Barrios, fue consagrado en 1548."
+        },
+        {
+          "desde": 1609,
           "hasta": null,
-          "nombre": "Iglesias evangélicas y pentecostales",
-          "familia": "pentecostalismo",
-          "peso": "minoritaria"
+          "nombre": "Catolicismo (desde las reducciones jesuíticas)",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "El corte en 1609 es aproximado: ese año se fundó San Ignacio Guazú, la primera reducción jesuítica del Paraguay, que queda fuera de esta región, y no hay una cifra que mida cuándo los católicos pasaron a ser mayoría. Durante la colonia fue la única religión permitida. Hoy el 88,2 % es católico según datos del Vaticano citados en Wikipedia; el censo de 2012 contó 5.749.888 católicos. Entre 1996 y 2013 el catolicismo perdió casi 5 puntos porcentuales y los evangélicos ganaron entre 2 y 3."
+        },
+        {
+          "desde": 1609,
+          "hasta": null,
+          "nombre": "Religiones guaraníes persistentes",
+          "familia": "religiones-originarias",
+          "peso": "minoritaria",
+          "nota": "El censo de 2002 incluye una categoría de religiones indígenas."
+        },
+        {
+          "desde": 1887,
+          "hasta": null,
+          "nombre": "Protestantismo (colonos alemanes desde 1887, menonitas, luteranos y evangélicos)",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "Es la segunda afiliación, con el 9,2 % de la población (unas 685.740 personas). La fecha de 1887 es la de la fundación de la colonia alemana de Nueva Germania (San Pedro, 23 de agosto de 1887), tomada como inicio aproximado. La primera colonia menonita, Menno (1927), quedó en el Chaco, fuera de esta región; en la Región Oriental está Volendam, de 1947. Luteranos y menonitas son los grupos más tradicionales y los más recientes son iglesias evangélicas y carismáticas."
+        },
+        {
+          "desde": 1961,
+          "hasta": null,
+          "nombre": "Budismo y otras religiones asiáticas (inmigración japonesa)",
+          "familia": "budismo",
+          "peso": "minoritaria",
+          "nota": "Los inmigrantes japoneses trajeron el budismo. La colonia Yguazú (Alto Paraná), fundada el 22 de agosto de 1961, es la colonia japonesa de esta región con fecha conocida; La Colmena (1936) y las colonias de Itapúa quedan fuera del polígono."
         }
       ]
     },
@@ -15645,7 +16205,7 @@
         },
         {
           "desde": 1700,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Criolla y mestiza",
           "familia": "criolla",
           "peso": "mayoritaria",
@@ -15653,11 +16213,11 @@
         },
         {
           "desde": 1700,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Comunidades andinas (kollas, diaguitas, atacameños, huarpes)",
           "familia": "andina",
           "peso": "importante",
-          "nota": "Mayoritarias en la puna y la Quebrada de Humahuaca."
+          "nota": "Mayoritarias en la puna y la Quebrada de Humahuaca. Los kollas son un grupo en el que se fundieron buena parte de atacamas, omaguacas, calchaquíes y chichas, con fuerte influjo quechua. Parte de los aimaras y quechuas de la zona son inmigrantes recientes de Bolivia y Perú (desde las últimas décadas del siglo XX). En todo el país, el censo de 2022 contó 1.306.730 personas (2,83 %) que se reconocen indígenas."
         }
       ],
       "idiomas": [
@@ -15685,13 +16245,6 @@
           "peso": "importante"
         },
         {
-          "desde": 1900,
-          "hasta": 2000,
-          "nombre": "Quechua en la puna jujeña",
-          "familia": "andinas",
-          "peso": "minoritaria"
-        },
-        {
           "desde": 1553,
           "hasta": 1700,
           "nombre": "Español",
@@ -15700,10 +16253,18 @@
         },
         {
           "desde": 1700,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": 1900,
+          "hasta": null,
+          "nombre": "Quechua en la puna jujeña",
+          "familia": "andinas",
+          "peso": "minoritaria",
+          "nota": "El quechua sudboliviano se habla en la puna y en Jujuy, Salta y Tucumán (unos 5.100 hablantes en 2004, según una estimación). No se cuenta el quechua santiagueño, distinto, que se habla en Santiago del Estero, fuera de esta región."
         }
       ],
       "religiones": [
@@ -15732,18 +16293,43 @@
         },
         {
           "desde": 1650,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Según la encuesta nacional del CONICET, los católicos del Noroeste bajaron del 91,7 % en 2008 al 76,0 % en 2019 y los de Cuyo, del 82,6 % al 69,6 %."
         },
         {
           "desde": 1650,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Ritos andinos junto al catolicismo (Pachamama, apachetas)",
           "familia": "religion-andina",
           "peso": "importante",
-          "nota": "Prácticas sincréticas, fuertes en la puna y los valles."
+          "nota": "Prácticas sincréticas, fuertes en la puna y los valles. El culto a la Pachamama sigue extendido en Salta y Jujuy junto con las creencias católicas, sin oposición de los obispos."
+        },
+        {
+          "desde": 2001,
+          "hasta": 2019,
+          "nombre": "Iglesias evangélicas",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "Casi el 4 % en el Noroeste y el 10 % en Cuyo en 2008, según la encuesta del CONICET. Se los marca minoritarios hasta 2018: el corte es aproximado, porque solo hay encuestas de 2008 y de 2019."
+        },
+        {
+          "desde": 2008,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "sin-religion",
+          "peso": "minoritaria",
+          "nota": "Del 1,8 % en 2008 al 5,0 % en 2019 (CONICET); sigue siendo la región con menos personas sin religión del país."
+        },
+        {
+          "desde": 2019,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas en expansión (pentecostales y otras)",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "En 2019, según la encuesta del CONICET, el 16,7 % en el Noroeste y el 14,5 % en Cuyo. Se los marca importantes desde 2019, el año de la encuesta que da esas cifras; antes solo hay la de 2008."
         }
       ]
     },
@@ -16024,7 +16610,7 @@
         },
         {
           "desde": 1865,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Galeses del Chubut",
           "familia": "britona",
           "peso": "minoritaria",
@@ -16032,24 +16618,26 @@
         },
         {
           "desde": 1880,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Criolla, con inmigrantes chilenos y europeos",
           "familia": "criolla",
           "peso": "mayoritaria"
         },
         {
           "desde": 1880,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Comunidades mapuches",
           "familia": "mapuche",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "En 2004 se calculaba una población mapuche de unas 110.000 personas en Neuquén, Río Negro, Chubut y Santa Cruz."
         },
         {
           "desde": 1880,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Comunidades tehuelches",
           "familia": "pampeano-patagonica",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "El tehuelche meridional (aonek'o 'a'jen) tenía apenas unos doscientos hablantes en el censo de 1966, en Santa Cruz, y una fuente lo da por extinguido en 2019."
         }
       ],
       "idiomas": [
@@ -16076,6 +16664,13 @@
           "peso": "importante"
         },
         {
+          "desde": 1779,
+          "hasta": 1885,
+          "nombre": "Español",
+          "familia": "espanol",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1850,
           "hasta": 1885,
           "nombre": "Mapudungun, de uso general en el norte de la Patagonia",
@@ -16091,6 +16686,14 @@
           "peso": "importante"
         },
         {
+          "desde": 1865,
+          "hasta": null,
+          "nombre": "Galés (colonia del Chubut)",
+          "familia": "gales",
+          "peso": "minoritaria",
+          "nota": "Lo hablaban como segunda lengua unas 25.000 personas en 1998; una estimación de 2008 lo baja a unas 5.000 y otra de 2017 dice que no pasan de 5.000."
+        },
+        {
           "desde": 1885,
           "hasta": 1950,
           "nombre": "Tehuelche (en retroceso)",
@@ -16099,31 +16702,18 @@
         },
         {
           "desde": 1885,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Mapudungun",
           "familia": "mapudungun",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1779,
-          "hasta": 1885,
-          "nombre": "Español",
-          "familia": "espanol",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Unos 8.400 hablantes en 2004 en Neuquén, Río Negro, Chubut y Santa Cruz, con una población étnica de unas 110.000 personas."
         },
         {
           "desde": 1885,
-          "hasta": 2000,
+          "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
           "peso": "mayoritaria"
-        },
-        {
-          "desde": 1865,
-          "hasta": 2000,
-          "nombre": "Galés (colonia del Chubut)",
-          "familia": "gales",
-          "peso": "minoritaria"
         }
       ],
       "religiones": [
@@ -16150,25 +16740,43 @@
           "peso": "minoritaria"
         },
         {
-          "desde": 1885,
-          "hasta": 2000,
-          "nombre": "Catolicismo (misiones salesianas desde 1879)",
-          "familia": "catolicismo",
-          "peso": "mayoritaria"
-        },
-        {
           "desde": 1865,
-          "hasta": 2000,
+          "hasta": 2007,
           "nombre": "Protestantismo (galeses del Chubut, misión anglicana de Ushuaia)",
           "familia": "protestantismo",
           "peso": "minoritaria"
         },
         {
           "desde": 1885,
-          "hasta": 2000,
+          "hasta": null,
+          "nombre": "Catolicismo (misiones salesianas desde 1879)",
+          "familia": "catolicismo",
+          "peso": "mayoritaria",
+          "nota": "Es la región menos católica del país: del 61,5 % en 2008 al 51,0 % en 2019, según la encuesta nacional del CONICET."
+        },
+        {
+          "desde": 1885,
+          "hasta": null,
           "nombre": "Religión mapuche",
           "familia": "religion-mapuche",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "En 2004 se calculaba una población mapuche de unas 110.000 personas en Neuquén, Río Negro, Chubut y Santa Cruz; el censo de 2022 contó 1.306.730 personas (2,83 %) que se reconocen indígenas en todo el país."
+        },
+        {
+          "desde": 2008,
+          "hasta": null,
+          "nombre": "Iglesias evangélicas (pentecostales y otras)",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "Es la región con más evangélicos del país: el 21,6 % en 2008 y el 24,4 % en 2019 (encuestas del CONICET)."
+        },
+        {
+          "desde": 2008,
+          "hasta": null,
+          "nombre": "Sin religión",
+          "familia": "sin-religion",
+          "peso": "importante",
+          "nota": "Del 11,7 % en 2008 al 24,3 % en 2019 (CONICET): después del Gran Buenos Aires, es la región con más personas sin religión."
         }
       ]
     },
@@ -16708,7 +17316,7 @@
         },
         {
           "desde": 1,
-          "hasta": 1700,
+          "hasta": 1541,
           "nombre": "Mapuches (picunches, mapuches y huilliches; complejos Pitrén y El Vergel)",
           "familia": "mapuche",
           "peso": "mayoritaria",
@@ -16723,54 +17331,81 @@
         },
         {
           "desde": -7000,
-          "hasta": null,
+          "hasta": 1541,
           "nombre": "Canoeros y cazadores australes (chonos, kawésqar, yaganes, selk'nam)",
           "familia": "fueguina",
           "peso": "minoritaria",
           "nota": "Los chonos desaparecieron como pueblo en el siglo XVIII y los selk'nam fueron diezmados a fines del XIX; kawésqar y yaganes siguen existiendo, con muy pocos hablantes de sus lenguas."
         },
         {
+          "desde": -7000,
+          "hasta": 1810,
+          "nombre": "Pueblos originarios (mapuches, atacameños, diaguitas, aimaras, changos y pueblos de los canales)",
+          "familia": "pueblos-originarios",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en -7000, el comienzo de la primera era de la región. José Bengoa estima entre 705.000 y 900.000 mapuches entre el Itata y el seno de Reloncaví a mediados del siglo XVI, y tras Curalaba (1598) el sur del Biobío, salvo Chiloé, quedó independiente hasta 1861-1883. Los censos coloniales contaban cerca del 79 % de población blanca hacia 1810, aunque las estimaciones actuales van de menos del 20 % a más del 60 %: el corte en 1810 es aproximado, porque es la primera cifra del conjunto. Hoy hay unas quince lenguas originarias, todas aisladas o de familias pequeñas."
+        },
+        {
+          "desde": 1470,
+          "hasta": 1541,
+          "nombre": "Inca (Tawantinsuyu) en el norte",
+          "familia": "andina",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": 1536,
+          "hasta": null,
+          "nombre": "Africanos esclavizados y afrodescendientes",
+          "familia": "afrodescendiente",
+          "peso": "minoritaria",
+          "nota": "Los primeros esclavizados africanos llegaron en 1536 con la expedición de Almagro. No hubo plantaciones grandes, y la mano de obra mapuche capturada era más barata; se calcula que unos 6.000 africanos fueron llevados directamente a Chile. La ley de libertad de vientres de 1811 detuvo la esclavitud. Arica tuvo una población afrodescendiente considerable en la colonia."
+        },
+        {
           "desde": 1541,
           "hasta": 1600,
-          "nombre": "Españoles y mestizos",
+          "nombre": "Conquistadores y colonos españoles",
           "familia": "hispana",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1541,
+          "hasta": 1883,
+          "nombre": "Mapuches (Araucanía independiente)",
+          "familia": "mapuche",
+          "peso": "importante",
+          "nota": "Los mapuches frenaron la conquista en el Biobío y la Araucanía siguió independiente hasta la ocupación chilena de 1861-1883."
         },
         {
           "desde": 1600,
-          "hasta": 1700,
-          "nombre": "Españoles y mestizos",
-          "familia": "hispana",
-          "peso": "importante"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Chilena mestiza y criolla",
+          "hasta": 1810,
+          "nombre": "Española, criolla y mestiza",
           "familia": "criolla",
-          "peso": "mayoritaria"
-        },
-        {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Mapuches",
-          "familia": "mapuche",
           "peso": "importante",
-          "nota": "En el censo de 2017 el 10 % de la población se declaró mapuche."
+          "nota": "No hay censos de este tramo; la mayoría se fija en 1810, con los censos coloniales (ver la entrada siguiente)."
         },
         {
-          "desde": 1541,
-          "hasta": 1850,
-          "nombre": "Afrodescendientes",
-          "familia": "afrodescendiente",
-          "peso": "minoritaria"
+          "desde": 1810,
+          "hasta": null,
+          "nombre": "Española, criolla y mestiza",
+          "familia": "criolla",
+          "peso": "mayoritaria",
+          "nota": "Los censos coloniales contaban cerca del 79 % de población blanca en 1810, pero las estimaciones actuales van de menos del 20 % a más del 60 %; el estudio genético de la Universidad de Brasilia halló un 51,6 % de ascendencia europea, un 42,1 % amerindia y un 6,3 % africana."
         },
         {
           "desde": 1846,
           "hasta": null,
-          "nombre": "Colonos alemanes (Valdivia, Osorno, Llanquihue)",
+          "nombre": "Inmigración alemana y de otros orígenes (croatas, británicos, árabes)",
           "familia": "alemana",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Entre 1846 y 1914 llegaron unos 30.000 alemanes y el gobierno fomentó la inmigración alemana en 1848, para colonizar el sur. Se estiman 380.000 descendientes de croatas (2,4 %), más de 700.000 con ascendencia británica (4,5 %) y unos 800.000 descendientes de inmigrantes de Asia, sobre todo palestinos, sirios y libaneses (5 %). El censo de 1907 registró el mayor porcentaje de europeos (2,2 %); Chile nunca fue un destino atractivo para la inmigración europea."
+        },
+        {
+          "desde": 1883,
+          "hasta": null,
+          "nombre": "Mapuches y otros pueblos indígenas",
+          "familia": "mapuche",
+          "peso": "minoritaria",
+          "nota": "El censo de 2002, que solo contó a quienes practicaban una cultura nativa o hablaban una lengua nativa, dio un 4,6 % (692.192 personas), de las cuales el 87,3 % se declaró mapuche; en el Latinobarómetro de 2011, el 8 % se identificó como indígena."
         }
       ],
       "idiomas": [
@@ -16783,59 +17418,86 @@
         },
         {
           "desde": 1,
-          "hasta": 1700,
+          "hasta": 1541,
           "nombre": "Mapudungun",
           "familia": "mapudungun",
           "peso": "mayoritaria"
         },
         {
           "desde": -500,
-          "hasta": 1700,
+          "hasta": 1541,
           "nombre": "Kunza, diaguita y otras lenguas del norte; quechua desde la conquista inca",
           "familia": "lenguas-indigenas-de-america",
           "peso": "importante"
         },
         {
+          "desde": -7000,
+          "hasta": 1810,
+          "nombre": "Lenguas originarias (mapudungun, cacán, kunza, aimara y otras)",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en -7000, el comienzo de la primera era de la región. Hay unas quince variedades que podrían considerarse lenguas distintas y, a diferencia de otros países de Sudamérica, ninguna gran familia: todas son aisladas o de familias de tres o cuatro lenguas. José Bengoa estima entre 705.000 y 900.000 mapuches entre el Itata y el seno de Reloncaví a mediados del siglo XVI, y tras Curalaba (1598) el sur del Biobío, salvo Chiloé, quedó independiente hasta 1861-1883. Los censos coloniales contaban cerca del 79 % de población blanca hacia 1810, aunque las estimaciones actuales van de menos del 20 % a más del 60 %: el corte en 1810 es aproximado, porque es la primera cifra del conjunto."
+        },
+        {
+          "desde": 1470,
+          "hasta": 1541,
+          "nombre": "Quechua (norte, bajo el Tawantinsuyu)",
+          "familia": "andinas",
+          "peso": "minoritaria"
+        },
+        {
           "desde": 1541,
           "hasta": 1600,
-          "nombre": "Español",
+          "nombre": "Español (conquistadores y colonos)",
           "familia": "espanol",
           "peso": "minoritaria"
+        },
+        {
+          "desde": 1541,
+          "hasta": 1883,
+          "nombre": "Mapudungun (Araucanía independiente)",
+          "familia": "mapudungun",
+          "peso": "importante"
         },
         {
           "desde": 1600,
-          "hasta": 1700,
+          "hasta": 1810,
           "nombre": "Español",
           "familia": "espanol",
-          "peso": "importante"
+          "peso": "importante",
+          "nota": "No hay censos lingüísticos de este tramo; la mayoría se fija en 1810, con los censos coloniales (ver la entrada siguiente)."
         },
         {
-          "desde": 1700,
+          "desde": 1810,
           "hasta": null,
           "nombre": "Español",
           "familia": "espanol",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Lo habla el 99,3 % de la población, en el español chileno y, en menor medida, en las formas andina y chilota."
         },
         {
-          "desde": 1700,
-          "hasta": 1900,
-          "nombre": "Mapudungun",
-          "familia": "mapudungun",
-          "peso": "importante"
-        },
-        {
-          "desde": 1900,
+          "desde": 1810,
           "hasta": null,
-          "nombre": "Mapudungun",
-          "familia": "mapudungun",
-          "peso": "minoritaria"
+          "nombre": "Aimara, quechua, rapanui, kawésqar y otras lenguas originarias actuales",
+          "familia": "lenguas-indigenas-de-america",
+          "peso": "minoritaria",
+          "nota": "Censo de 2024: aimara, 60.605 hablantes; quechua chileno, 39.430; rapanui, 7.006; kawésqar, 656; kunza, unos 2.616 en recuperación."
         },
         {
           "desde": 1846,
-          "hasta": 1950,
-          "nombre": "Alemán",
+          "hasta": null,
+          "nombre": "Alemán (sur de Chile)",
           "familia": "aleman",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Se habla en bolsones rurales del sur y como segunda lengua en comunidades de ciudades mayores."
+        },
+        {
+          "desde": 1883,
+          "hasta": null,
+          "nombre": "Mapudungun",
+          "familia": "mapudungun",
+          "peso": "minoritaria",
+          "nota": "Lo hablan, con distintos niveles de competencia, 381.762 personas en el censo de 2024 (la estimación de 2002 era de 100.000 a 200.000), sobre todo en el Biobío, la Araucanía, la Región Metropolitana y Los Ríos."
         }
       ],
       "religiones": [
@@ -16848,7 +17510,7 @@
         },
         {
           "desde": 1,
-          "hasta": 1700,
+          "hasta": 1541,
           "nombre": "Religión mapuche (machi, ngillatun, culto a los antepasados)",
           "familia": "religion-mapuche",
           "peso": "mayoritaria"
@@ -16861,53 +17523,76 @@
           "peso": "minoritaria"
         },
         {
+          "desde": -7000,
+          "hasta": 1810,
+          "nombre": "Religiones originarias (mapuche, aimara, atacameña, diaguita y de los pueblos australes)",
+          "familia": "religiones-de-america",
+          "peso": "mayoritaria",
+          "nota": "Esta capa empieza en -7000, el comienzo de la primera era de la región; no hay registro de las religiones de esa época. Para los mapuches, los machis eran las principales autoridades espirituales, llamados por Ngenechén, el «Ser Supremo»; los aimaras tenían una religión politeísta ligada a la naturaleza (Mallku, los achachilas, la Pachamama). José Bengoa estima entre 705.000 y 900.000 mapuches entre el Itata y el seno de Reloncaví a mediados del siglo XVI, y tras Curalaba (1598) el sur del Biobío, salvo Chiloé, quedó independiente hasta 1861-1883. Los censos coloniales contaban cerca del 79 % de población blanca hacia 1810, aunque las estimaciones actuales van de menos del 20 % a más del 60 %: el corte en 1810 es aproximado, porque es la primera cifra del conjunto."
+        },
+        {
+          "desde": 1470,
+          "hasta": 1541,
+          "nombre": "Religión andina inca (norte)",
+          "familia": "religion-andina",
+          "peso": "minoritaria",
+          "nota": "El norte formó parte del Tawantinsuyu entre 1470 y 1541."
+        },
+        {
           "desde": 1541,
-          "hasta": 1700,
+          "hasta": 1810,
+          "nombre": "Catolicismo (conquista y evangelización)",
+          "familia": "catolicismo",
+          "peso": "importante",
+          "nota": "Con los conquistadores empezó la evangelización católica, porque era la única religión oficial del Imperio español; el primer templo cristiano, la iglesia de San Francisco de Chiu Chiu, data de la década de 1540."
+        },
+        {
+          "desde": 1541,
+          "hasta": 1883,
+          "nombre": "Religión mapuche (machis y longkos, en la Araucanía independiente)",
+          "familia": "religion-mapuche",
+          "peso": "importante",
+          "nota": "Los mapuches frenaron la conquista española en el Biobío y mantuvieron la Araucanía independiente hasta la ocupación chilena de 1861-1883."
+        },
+        {
+          "desde": 1810,
+          "hasta": null,
           "nombre": "Catolicismo",
           "familia": "catolicismo",
-          "peso": "importante"
+          "peso": "mayoritaria",
+          "nota": "Fue religión oficial hasta 1925, cuando la Constitución separó la Iglesia del Estado. El censo de 2024 contó un 53,7 % de católicos (mayores de 15 años), un 25,7 % sin religión, un 16,2 % de protestantes y un 3,8 % de otras religiones; en el de 2002, el 65 % de los indígenas era católico, el 29 % evangélico y el 6 % de otras."
         },
         {
-          "desde": 1700,
-          "hasta": null,
-          "nombre": "Catolicismo",
-          "familia": "catolicismo",
-          "peso": "mayoritaria"
+          "desde": 1845,
+          "hasta": 2002,
+          "nombre": "Protestantismo (misioneros e inmigrantes; pentecostalismo desde 1909)",
+          "familia": "protestantismo",
+          "peso": "minoritaria",
+          "nota": "Los protestantes llegaron en la primera mitad del siglo XIX: el misionero estadounidense David Trumbull llegó en 1845 (la primera iglesia anglicana, la de Valparaíso, es de 1848); la Iglesia Metodista Pentecostal se fundó el 12 de septiembre de 1909."
         },
         {
-          "desde": 1700,
-          "hasta": 1880,
-          "nombre": "Religión mapuche",
-          "familia": "religion-mapuche",
-          "peso": "importante"
-        },
-        {
-          "desde": 1880,
+          "desde": 1883,
           "hasta": null,
           "nombre": "Religión mapuche",
           "familia": "religion-mapuche",
-          "peso": "minoritaria"
+          "peso": "minoritaria",
+          "nota": "Las comunidades mapuches, el 87 % de los ciudadanos indígenas, siguen respetando a los líderes religiosos tradicionales (longkos y machis), con un alto grado de sincretismo."
         },
         {
-          "desde": 1910,
-          "hasta": 1970,
-          "nombre": "Iglesias evangélicas y pentecostales (desde el avivamiento de Valparaíso de 1909)",
-          "familia": "pentecostalismo",
-          "peso": "minoritaria"
-        },
-        {
-          "desde": 1970,
+          "desde": 2002,
           "hasta": null,
-          "nombre": "Iglesias evangélicas y pentecostales",
-          "familia": "pentecostalismo",
-          "peso": "importante"
+          "nombre": "Protestantismo evangélico y pentecostal",
+          "familia": "protestantismo",
+          "peso": "importante",
+          "nota": "El censo de 2024 contó 2.466.607 evangélicos (16,2 %); el Latinobarómetro de 2017 los situó en el 11 % y la Encuesta Nacional Bicentenario, en el 30 %. Las encuestas discrepan por la forma de preguntar."
         },
         {
-          "desde": 1990,
+          "desde": 2019,
           "hasta": null,
           "nombre": "Sin religión",
-          "familia": "irreligion",
-          "peso": "importante"
+          "familia": "sin-religion",
+          "peso": "importante",
+          "nota": "La Encuesta Nacional Bicentenario de 2019 dio un 32 % sin religión. Las cifras difieren mucho: el 25,7 % en el censo de 2024 (mayores de 15 años), cerca del 40 % sin afiliación en la encuesta AmericasBarometer de 2023 y el 10 % de no religiosos en una estimación de 2022. No hay una serie comparable."
         }
       ]
     },

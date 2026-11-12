@@ -2463,7 +2463,7 @@
       "id": "portuguesa",
       "nombre": "Portuguesa",
       "padre": null,
-      "color": "#2f7f9f",
+      "color": "#2e8b57",
       "wikipedia": {
         "es": "Pueblo portugués",
         "en": "Portuguese people"
@@ -2474,8 +2474,8 @@
       "id": "brasilena",
       "nombre": "Brasileña",
       "padre": "portuguesa",
-      "color": "#3f9aa0",
-      "nota": "Sociedad lusobrasileña formada por portugueses, africanos, indígenas y sus descendientes, y luego por inmigrantes europeos y asiáticos.",
+      "color": "#3cb371",
+      "nota": "Sociedad mestiza de ascendencia portuguesa, indígena y africana, con aportes de otras inmigraciones.",
       "wikipedia": {
         "es": "Brasileños",
         "en": "Brazilians"
@@ -2888,8 +2888,8 @@
       "capa": "idiomas",
       "id": "ruso",
       "nombre": "Ruso",
-      "padre": "eslavas",
-      "color": "#d07a6a",
+      "padre": "eslavo-oriental",
+      "color": "#5b7bd5",
       "wikipedia": {
         "es": "Idioma ruso",
         "en": "Russian language"
@@ -2989,8 +2989,8 @@
       "id": "religiones-afroamericanas",
       "nombre": "Religiones afroamericanas",
       "padre": null,
-      "color": "#9a5a3a",
-      "nota": "Vudú haitiano, santería, candomblé, umbanda, obeah, winti y otras, de origen africano y con elementos católicos e indígenas.",
+      "color": "#b5651d",
+      "nota": "Religiones de origen africano en América: las que trajeron los esclavizados de África occidental y central, a menudo disimuladas bajo el catolicismo, y las nacidas de ellas y del catolicismo, como el vudú, la santería, el candomblé y el obeah.",
       "wikipedia": {
         "es": "Religiones afroamericanas",
         "en": "African diaspora religions"
@@ -3531,6 +3531,183 @@
       "wikipedia": {
         "es": "Religión tracia",
         "en": "Thracian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-nubia-antigua",
+      "nombre": "Religión de la Nubia antigua",
+      "padre": null,
+      "color": "#b5894a",
+      "nota": "Cultos de Kerma, del Grupo C y del reino de Kush (Apedemak, Amesemi y otros), con influencias egipcias.",
+      "wikipedia": {
+        "en": "Kushite religion"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "nubia",
+      "nombre": "Nubia",
+      "padre": null,
+      "color": "#a0643c",
+      "nota": "Las poblaciones del valle del Nilo entre Asuán y el sur de Sudán, desde Kerma hasta el Sultanato de Sennar.",
+      "wikipedia": {
+        "es": "Nubios",
+        "en": "Nubians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "estepa-euroasiatica",
+      "nombre": "Nómadas de la estepa euroasiática",
+      "padre": null,
+      "color": "#8a7a4a",
+      "nota": "Pueblos ecuestres de la estepa (hunos, ávaros y otros) cuyo origen étnico y lingüístico se discute.",
+      "wikipedia": {
+        "en": "Eurasian nomads"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "mesolitica-europea",
+      "nombre": "Mesolítica",
+      "padre": null,
+      "color": "#6f8f6a",
+      "nota": "Cazadores-recolectores de Europa después del fin de la última glaciación y antes de los primeros agricultores.",
+      "wikipedia": {
+        "es": "Mesolítico",
+        "en": "Mesolithic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nilosaharianas",
+      "nombre": "Lenguas nilosaharianas",
+      "padre": null,
+      "color": "#7a6a9a",
+      "nota": "Macrofamilia propuesta, discutida en su conjunto.",
+      "wikipedia": {
+        "es": "Lenguas nilo-saharianas",
+        "en": "Nilo-Saharan languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "nubio",
+      "nombre": "Lenguas nubias",
+      "padre": "nilosaharianas",
+      "color": "#8c7cb0",
+      "nota": "Nubio antiguo (escrito del siglo VIII al XV) y lenguas nubias modernas como el nobiin.",
+      "wikipedia": {
+        "es": "Lenguas nubias",
+        "en": "Nubian languages"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "meroitico",
+      "nombre": "Meroítico",
+      "padre": null,
+      "color": "#9a7aa0",
+      "nota": "Lengua del reino de Meroe; su escritura se lee, pero la lengua se entiende poco. Se lo emparenta con las lenguas del este de Sudán, sin consenso.",
+      "wikipedia": {
+        "es": "Idioma meroítico",
+        "en": "Meroitic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "sin-clasificar",
+      "nombre": "Lenguas sin clasificar",
+      "padre": null,
+      "color": "#888888",
+      "nota": "Lenguas atestiguadas de forma tan escasa (a veces solo en nombres propios) que no se pueden ubicar en una familia.",
+      "wikipedia": {
+        "es": "Lengua no clasificada",
+        "en": "Unclassified language"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-minoica",
+      "nombre": "Religión minoica",
+      "padre": null,
+      "color": "#b0684a",
+      "nota": "Religión de la civilización minoica de Creta, reconstruida casi por completo desde la arqueología; no se conocen los nombres de sus dioses.",
+      "wikipedia": {
+        "es": "Religión minoica",
+        "en": "Minoan religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "sin-religion",
+      "nombre": "Sin religión",
+      "padre": null,
+      "color": "#8d99a6",
+      "nota": "Incluye a ateos, agnósticos y a quienes no se identifican con ninguna religión.",
+      "wikipedia": {
+        "es": "Irreligión",
+        "en": "Irreligion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "espiritismo",
+      "nombre": "Espiritismo",
+      "padre": null,
+      "color": "#8e7cc3",
+      "nota": "Sobre todo el espiritismo kardecista, muy extendido en Brasil.",
+      "wikipedia": {
+        "es": "Espiritismo",
+        "en": "Kardecist spiritism"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "sijismo",
+      "nombre": "Sijismo",
+      "padre": "religiones-dharmicas",
+      "color": "#cf6b2f",
+      "wikipedia": {
+        "es": "Sijismo",
+        "en": "Sikhism"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "japonesa",
+      "nombre": "Japonesa",
+      "padre": null,
+      "color": "#d94f70",
+      "nota": "Para las regiones de inmigración japonesa, como Brasil desde 1908 y Paraguay desde 1936.",
+      "wikipedia": {
+        "es": "Pueblo japonés",
+        "en": "Japanese people"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lenguas-africanas",
+      "nombre": "Lenguas africanas",
+      "padre": null,
+      "color": "#a0522d",
+      "nota": "No es una familia: agrupa las lenguas de los africanos esclavizados llevados a América, sin parentesco demostrado entre sí.",
+      "wikipedia": {
+        "es": "Lenguas de África",
+        "en": "Languages of Africa"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "lenguas-criollas",
+      "nombre": "Lenguas criollas",
+      "padre": null,
+      "color": "#c97b2d",
+      "nota": "Lenguas surgidas del contacto entre lenguas europeas y las de los esclavizados, como el criollo haitiano.",
+      "wikipedia": {
+        "es": "Lengua criolla",
+        "en": "Creole language"
       }
     }
   ]

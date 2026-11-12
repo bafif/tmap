@@ -27,7 +27,7 @@ dato dice de dónde salió.
     censos del Mandato.
   - `regiones-del-mundo`, las 46 regiones que completan el mapa (de Siberia y Japón a África, las Américas y
     Oceanía), armadas con las fronteras de los países actuales de Natural Earth: resumen, eras y población; las
-    americanas tienen además religiones, culturas e idiomas.
+    americanas y Asia central tienen además religiones, culturas e idiomas.
   - La época contemporánea, en siete paquetes temáticos: `pensamiento-economico`, `ideas-politicas`,
     `argentina-contemporanea` (de 1880 a hoy), `ciencia-y-tecnologia`, `cultura-libre-y-hackers`,
     `guerras-y-orden-mundial` y `letras-y-pensamiento-del-siglo-xx`.
@@ -83,7 +83,8 @@ sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API 
 1. **Qué falta lo dice el uso.** La app anota en `user://pendientes.json` lo que se abre y no tiene ficha curada: la
    entidad, su Wikidata, el lugar, los años consultados y cuántas veces. No sale de la computadora. En Ajustes →
    Enciclopedia se ven los más consultados y se puede copiar la cola. (En Linux, `user://` es
-   `~/.local/share/godot/app_userdata/TellMAP/`.)
+   `~/.local/share/godot/app_userdata/TellMAP/` en la versión instalada y `~/.local/share/TellMAP-codigo/` desde el
+   código; `borradores.py` lee por defecto la de la instalada.)
 2. **Borrador automático.** `python3 tools/enciclopedia/borradores.py` toma las entradas más consultadas (`-n 3` por
    defecto; `--cola` para una cola copiada, `--wikidata Q12560` para una entidad puntual) y junta:
    - de Wikidata, la capital con sus coordenadas, las personas clave (quienes ocuparon sus cargos y las más conocidas
@@ -105,6 +106,13 @@ sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API 
    con IA sin revisión no pasa el validador.
 5. **De a poco y a mano.** Se corre en lotes chicos, cuando hace falta, nunca de forma desatendida: así el costo queda
    controlado y la calidad también.
+
+## Que lo investigado no quede con huecos
+
+Lo de arriba completa lo que se consulta. Lo que ya se investigó, además, no tiene que quedar con huecos: si un tema
+tiene a diez de los doce presidentes de su período, le faltan dos. `python3 tools/enciclopedia/huecos.py informe
+--red` busca esos huecos dentro del alcance de cada paquete (sus regiones, sus años y qué tan conocido es lo que
+incluye) y se rellenan por rondas, a mano. El procedimiento está en [los huecos de lo investigado](huecos.md).
 
 ## El editor
 

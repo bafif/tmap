@@ -9,8 +9,8 @@
 - **Regiones:** 107 (81 de primer nivel) en 42 paquetes.
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
-- **Capas:** 104 regiones con eras y 71 con religiones, culturas o idiomas.
-- **Elementos:** 2618 fuentes (237 sin lugar de escritura), 2514 personas, 2731 hechos y 941 lugares.
+- **Capas:** 105 regiones con eras y 73 con religiones, culturas o idiomas.
+- **Elementos:** 2695 fuentes (263 sin lugar de escritura), 2766 personas, 2943 hechos y 942 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -54,60 +54,60 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Suroeste norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 10 (21000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 13 · 11 | 0 · 27 · 15 |
 | Área maya (en Mesoamérica) | areas-culturales-de-america | 8 (11000 a. C. a hoy) | curada: Canuto et al. (750–750); sin serie propia; cuenta en Mesoamérica | 7 · 8 · 7 | 0 · 56 · 37 |
 | Ártico norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 6 · 9 · 10 | 0 · 18 · 4 |
-| Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 144 · 144 · 35 |
-| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 38 · 24 · 4 |
-| Bohemia y Moravia | edad-media | 12 (5500 a. C. a hoy) | por país: CZE | 8 · 12 · 8 | 26 · 22 · 4 |
-| Britania | edad-media | 10 (4000 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 15 · 13 | 259 · 195 · 56 |
+| Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 150 · 157 · 35 |
+| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 40 · 29 · 4 |
+| Bohemia y Moravia | edad-media | 12 (5500 a. C. a hoy) | por país: CZE | 8 · 12 · 8 | 26 · 26 · 4 |
+| Britania | edad-media | 11 (5500 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 267 · 207 · 56 |
 | Cerdeña y Córcega | edad-media | 7 (1800 a. C. a hoy) | sin serie propia; cuenta en Italia | 4 · 7 · 6 | 0 · 1 · 0 |
-| Escandinavia | edad-media | 6 (793 a hoy) | curada: Urlanis (1000–1500); por país: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 29 · 34 · 9 |
-| Estepa póntica | edad-media | 9 (3300 a. C. a hoy) | sin serie propia; cuenta en Rus | 8 · 7 · 4 | 21 · 12 · 0 |
+| Escandinavia | edad-media | 6 (793 a hoy) | curada: Urlanis (1000–1500); por país: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 31 · 38 · 9 |
+| Estepa póntica | edad-media | 12 (3300 a. C. a hoy) | sin serie propia; cuenta en Rus | 8 · 8 · 5 | 21 · 17 · 0 |
 | Finlandia | edad-media | 5 (1150 a hoy) | por país: FIN | 5 · 2 · 4 | 2 · 2 · 1 |
-| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 263 · 232 · 52 |
-| Hungría | edad-media | 12 (6000 a. C. a hoy) | curada: Russell (500–1450); por país: HUN, SVK | 10 · 13 · 11 | 19 · 23 · 6 |
-| Irlanda | edad-media | 8 (3750 a. C. a hoy) | curada: Urlanis (1000–1500); por país: IRL | 5 · 7 · 9 | 122 · 50 · 21 |
-| Islandia | edad-media | 5 (870 a hoy) | curada: Censo de Islandia de 1703 (1703–1703); por país: ISL | 3 · 2 · 2 | 6 · 6 · 2 |
-| Península ibérica | edad-media | 12 (5600 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: ESP, PRT, AND, GIB | 15 · 21 · 22 | 176 · 172 · 49 |
-| Polonia | edad-media | 11 (5500 a. C. a hoy) | curada: Russell (1000–1450); por país: POL | 3 · 9 · 6 | 20 · 24 · 5 |
-| Prusia, Lituania y Livonia | edad-media | 6 (1200 a hoy) | por país: EST, LVA, LTU | 5 · 2 · 5 | 4 · 9 · 2 |
-| Rus | edad-media | 6 (862 a hoy) | curada: Russell (1000–1450); por país: RUS, UKR, BLR | 4 · 3 · 6 | 30 · 32 · 5 |
+| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 267 · 247 · 52 |
+| Hungría | edad-media | 12 (6000 a. C. a hoy) | curada: Russell (500–1450); por país: HUN, SVK | 16 · 17 · 15 | 19 · 27 · 6 |
+| Irlanda | edad-media | 9 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: IRL | 5 · 8 · 10 | 124 · 51 · 21 |
+| Islandia | edad-media | 6 (410 a hoy) | curada: Censo de Islandia de 1703 (1703–1703); por país: ISL | 3 · 2 · 2 | 8 · 6 · 2 |
+| Península ibérica | edad-media | 12 (5600 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: ESP, PRT, AND, GIB | 15 · 21 · 22 | 178 · 183 · 49 |
+| Polonia | edad-media | 11 (5500 a. C. a hoy) | curada: Russell (1000–1450); por país: POL | 3 · 9 · 6 | 20 · 29 · 5 |
+| Prusia, Lituania y Livonia | edad-media | 6 (1200 a hoy) | por país: EST, LVA, LTU | 5 · 2 · 5 | 4 · 10 · 2 |
+| Rus | edad-media | 6 (862 a hoy) | curada: Russell (1000–1450); por país: RUS, UKR, BLR | 7 · 6 · 9 | 35 · 41 · 5 |
 | Sicilia y Malta | edad-media | 10 (241 a. C. a hoy) | sin serie propia; cuenta en Italia | 9 · 9 · 8 | 4 · 5 · 1 |
-| Valaquia y Moldavia | edad-media | 8 (6000 a. C. a hoy) | por país: ROU, MDA | 4 · 8 · 7 | 6 · 6 · 0 |
-| Alto Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 0 · 0 |
-| Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 7 · 0 |
-| Egipto | egipto | 18 (5300 a. C. a 1952) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 9 · 9 · 6 | 86 · 42 · 14 |
-| Nubia | egipto | — | sin serie propia; cuenta en Sudán y Sudán del Sur | — · — · — | 0 · 2 · 0 |
-| Anatolia | mundo | 8 (1650 a. C. a 2000) | curada: Frier, Harper (14–164); por país: TUR | 9 · 5 · 5 | 88 · 37 · 11 |
-| Andes centrales | mundo | 8 (3000 a. C. a 2000) | por país: PER, BOL | 7 · 10 · 9 | 232 · 193 · 60 |
-| China (cuencas del Amarillo y el Yangtsé) | mundo | 8 (1600 a. C. a 1912) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 4 · 1 · 3 | 8 · 13 · 4 |
-| Grecia | mundo | 8 (1600 a. C. a 2000) | por país: GRC | 2 · 1 · 1 | 48 · 28 · 6 |
-| India (cuencas del Indo y el Ganges) | mundo | 8 (3300 a. C. a 1947) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 3 | 15 · 7 · 4 |
-| Italia | mundo | 11 (6000 a. C. a 2000) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 131 · 104 · 22 |
-| Levante | mundo | 8 (3500 a. C. a 1918) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 4 · 3 · 3 | 15 · 117 · 57 |
-| Mesoamérica | mundo | 6 (1500 a. C. a 2000) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 263 · 213 · 94 |
-| Mesopotamia | mundo | 8 (4000 a. C. a 637) | por país: IRQ | 4 · 4 · 4 | 33 · 21 · 6 |
-| Persia (meseta iraní) | mundo | 8 (2700 a. C. a 2000) | por país: IRN | 4 · 2 · 4 | 29 · 13 · 3 |
-| Río de la Plata | mundo | 7 (10000 a. C. a 2000) | por país: ARG, URY, PRY | 5 · 12 · 6 | 419 · 535 · 94 |
+| Valaquia y Moldavia | edad-media | 8 (6000 a. C. a hoy) | por país: ROU, MDA | 8 · 13 · 12 | 6 · 8 · 0 |
+| Alto Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 2 · 1 |
+| Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 11 · 0 |
+| Egipto | egipto | 21 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 9 · 9 · 6 | 91 · 49 · 15 |
+| Nubia | egipto | 8 (2970 a. C. a 1821) | sin serie propia; cuenta en Sudán y Sudán del Sur | 10 · 8 · 10 | 1 · 3 · 0 |
+| Anatolia | mundo | 9 (1760 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 10 · 7 · 8 | 92 · 58 · 11 |
+| Andes centrales | mundo | 8 (3000 a. C. a 2000) | por país: PER, BOL | 7 · 10 · 9 | 232 · 200 · 60 |
+| China (cuencas del Amarillo y el Yangtsé) | mundo | 12 (1760 a. C. a hoy) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 8 · 2 · 4 | 8 · 19 · 4 |
+| Grecia | mundo | 10 (1760 a. C. a 2000) | por país: GRC | 3 · 2 · 3 | 51 · 33 · 6 |
+| India (cuencas del Indo y el Ganges) | mundo | 9 (3300 a. C. a hoy) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 20 · 18 · 4 |
+| Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 135 · 110 · 22 |
+| Levante | mundo | 11 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 18 · 151 · 57 |
+| Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 263 · 215 · 94 |
+| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 4 · 5 · 5 | 35 · 35 · 6 |
+| Persia (meseta iraní) | mundo | 9 (2700 a. C. a 2000) | por país: IRN | 4 · 2 · 8 | 32 · 25 · 3 |
+| Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 421 · 579 · 94 |
 | Armórica (Bretaña) (en Francia) | mundo-celta | 7 (5000 a. C. a hoy) | sin serie propia; cuenta en Francia | 3 · 11 · 10 | 9 · 14 · 2 |
-| Caledonia (en Britania) | mundo-celta | 7 (4000 a. C. a hoy) | sin serie propia; cuenta en Britania | 6 · 10 · 11 | 0 · 12 · 6 |
+| Caledonia (en Britania) | mundo-celta | 7 (4000 a. C. a hoy) | sin serie propia; cuenta en Britania | 6 · 10 · 11 | 0 · 16 · 6 |
 | Celtiberia (en Península ibérica) | mundo-celta | 9 (5500 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 10 · 8 · 9 | 14 · 35 · 8 |
-| Galacia (en Anatolia) | mundo-celta | 8 (1650 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 9 · 7 · 7 | 9 · 13 · 5 |
+| Galacia (en Anatolia) | mundo-celta | 8 (1650 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 9 · 7 · 7 | 9 · 17 · 5 |
 | Galecia (Gallaecia) (en Península ibérica) | mundo-celta | 9 (4800 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 6 · 10 · 10 | 7 · 16 · 7 |
-| Galia Cisalpina (en Italia) | mundo-celta | 10 (5500 a. C. a hoy) | sin serie propia; cuenta en Italia | 7 · 13 · 12 | 1 · 22 · 1 |
+| Galia Cisalpina (en Italia) | mundo-celta | 10 (5500 a. C. a hoy) | sin serie propia; cuenta en Italia | 7 · 13 · 12 | 1 · 24 · 1 |
 | Nórico (en Alemania y los Países Bajos) | mundo-celta | 8 (5500 a. C. a hoy) | sin serie propia; cuenta en Alemania y los Países Bajos | 7 · 11 · 10 | 1 · 10 · 3 |
-| Afganistán | regiones-del-mundo | 7 (550 a. C. a hoy) | por país: AFG | — · — · — | 3 · 3 · 0 |
-| Amazonía andina (oriente peruano y boliviano) | regiones-del-mundo | 5 (1682 a hoy) | sin serie propia; cuenta en Andes centrales | 6 · 7 · 9 | 27 · 40 · 6 |
+| Afganistán | regiones-del-mundo | 7 (550 a. C. a hoy) | por país: AFG | — · — · — | 3 · 6 · 0 |
+| Amazonía andina (oriente peruano y boliviano) | regiones-del-mundo | 5 (1682 a hoy) | sin serie propia; cuenta en Andes centrales | 6 · 7 · 9 | 27 · 43 · 6 |
 | Aridoamérica (norte de México) | regiones-del-mundo | 4 (1546 a hoy) | sin serie propia; cuenta en Mesoamérica | 5 · 8 · 6 | 23 · 32 · 4 |
-| Asia central | regiones-del-mundo | 8 (550 a. C. a hoy) | por país: KAZ, UZB, TKM, KGZ, TJK | — · — · — | 2 · 4 · 1 |
+| Asia central | regiones-del-mundo | 8 (550 a. C. a hoy) | por país: KAZ, UZB, TKM, KGZ, TJK | 7 · 4 · 4 | 2 · 4 · 1 |
 | Australia | regiones-del-mundo | 3 (1788 a hoy) | por país: AUS | — · — · — | 0 · 2 · 0 |
-| Brasil | regiones-del-mundo | 4 (1500 a hoy) | por país: BRA | 11 · 15 · 11 | 120 · 132 · 29 |
-| Caribe | regiones-del-mundo | 5 (1492 a hoy) | por país: CUB, HTI, DOM, JAM, PRI, BHS, TTO, BRB, ATG, DMA, GRD, KNA, LCA, VCT, ABW, CUW, VIR, VGB, CYM, TCA, AIA, MSR, SXM, MAF, BLM, BES, GLP, MTQ | 10 · 15 · 15 | 146 · 117 · 29 |
+| Brasil | regiones-del-mundo | 4 (1500 a hoy) | por país: BRA | 13 · 15 · 13 | 120 · 136 · 29 |
+| Caribe | regiones-del-mundo | 5 (1492 a hoy) | por país: CUB, HTI, DOM, JAM, PRI, BHS, TTO, BRB, ATG, DMA, GRD, KNA, LCA, VCT, ABW, CUW, VIR, VGB, CYM, TCA, AIA, MSR, SXM, MAF, BLM, BES, GLP, MTQ | 14 · 21 · 23 | 146 · 117 · 29 |
 | Centroamérica (de Honduras a Panamá) | regiones-del-mundo | 4 (1502 a hoy) | por país: HND, NIC, CRI, PAN | 7 · 10 · 8 | 25 · 40 · 8 |
-| Chile | regiones-del-mundo | 5 (7000 a. C. a hoy) | por país: CHL | 10 · 11 · 9 | 74 · 111 · 19 |
+| Chile | regiones-del-mundo | 5 (7000 a. C. a hoy) | por país: CHL | 12 · 14 · 12 | 74 · 114 · 19 |
 | China meridional | regiones-del-mundo | 7 (214 a. C. a hoy) | sin serie propia; cuenta en China (cuencas del Amarillo y el Yangtsé) | — · — · — | 0 · 2 · 0 |
 | Corea | regiones-del-mundo | 7 (57 a. C. a hoy) | por país: KOR, PRK | — · — · — | 3 · 2 · 0 |
-| Cáucaso | regiones-del-mundo | 7 (300 a. C. a hoy) | por país: GEO, AZE | — · — · — | 0 · 0 · 0 |
+| Cáucaso | regiones-del-mundo | 7 (300 a. C. a hoy) | por país: GEO, AZE | — · — · — | 0 · 1 · 0 |
 | Etiopía y el Cuerno de África | regiones-del-mundo | 6 (980 a. C. a hoy) | por país: ETH, ERI, DJI, SOM | — · — · — | 0 · 2 · 0 |
-| Gran Chaco | regiones-del-mundo | 4 (1884 a hoy) | sin serie propia; cuenta en Río de la Plata | 6 · 7 · 7 | 78 · 19 · 2 |
+| Gran Chaco | regiones-del-mundo | 4 (1884 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 7 | 78 · 20 · 2 |
 | Groenlandia | regiones-del-mundo | 5 (2500 a. C. a hoy) | por país: GRL | 8 · 4 · 5 | 20 · 23 · 6 |
 | Insulindia (sudeste asiático insular) | regiones-del-mundo | 5 (650 a hoy) | por país: IDN, MYS, SGP, BRN, PHL, TLS | — · — · — | 3 · 5 · 0 |
 | Japón | regiones-del-mundo | 8 (14000 a. C. a hoy) | por país: JPN | — · — · — | 9 · 5 · 1 |
@@ -117,38 +117,38 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Melanesia | regiones-del-mundo | 4 (1600 a. C. a hoy) | por país: PNG, SLB, VUT, NCL, FJI | — · — · — | 0 · 0 · 0 |
 | Micronesia | regiones-del-mundo | 4 (1500 a. C. a hoy) | por país: FSM, PLW, GUM, MNP, MHL, NRU, KIR | — · — · — | 0 · 1 · 0 |
 | Mongolia | regiones-del-mundo | 8 (209 a. C. a hoy) | por país: MNG | — · — · — | 0 · 0 · 0 |
-| Noreste de la India | regiones-del-mundo | 4 (350 a hoy) | sin serie propia; cuenta en India (cuencas del Indo y el Ganges) | — · — · — | 1 · 0 · 0 |
-| Noroeste argentino y Cuyo | regiones-del-mundo | 4 (1480 a hoy) | sin serie propia; cuenta en Río de la Plata | 5 · 7 · 6 | 149 · 132 · 21 |
+| Noreste de la India | regiones-del-mundo | 4 (350 a hoy) | sin serie propia; cuenta en India (cuencas del Indo y el Ganges) | — · — · — | 1 · 1 · 0 |
+| Noroeste argentino y Cuyo | regiones-del-mundo | 4 (1480 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 6 | 150 · 137 · 21 |
 | Norte de Rusia | regiones-del-mundo | 5 (1100 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 1 · 1 · 0 |
-| Norte de Sudamérica | regiones-del-mundo | 5 (3800 a. C. a hoy) | por país: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 80 · 148 · 45 |
-| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 10 · 17 · 10 | 270 · 361 · 104 |
+| Norte de Sudamérica | regiones-del-mundo | 5 (3800 a. C. a hoy) | por país: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 80 · 151 · 45 |
+| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 21 · 21 · 15 | 273 · 363 · 104 |
 | Nueva Zelanda (Aotearoa) | regiones-del-mundo | 4 (1250 a hoy) | por país: NZL | — · — · — | 0 · 1 · 0 |
-| Paraguay oriental | regiones-del-mundo | 5 (1537 a hoy) | sin serie propia; cuenta en Río de la Plata | 6 · 8 · 5 | 47 · 40 · 1 |
-| Patagonia argentina | regiones-del-mundo | 3 (1520 a hoy) | sin serie propia; cuenta en Río de la Plata | 6 · 8 · 10 | 122 · 54 · 13 |
+| Paraguay oriental | regiones-del-mundo | 5 (1537 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 9 · 6 | 48 · 56 · 1 |
+| Patagonia argentina | regiones-del-mundo | 3 (1520 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 8 · 10 | 124 · 56 · 13 |
 | Polinesia | regiones-del-mundo | 4 (900 a. C. a hoy) | por país: WSM, ASM, TON, NIU, WLF, TKL, COK, PYF, TUV | — · — · — | 8 · 12 · 4 |
 | Sahara (norte) | regiones-del-mundo | 4 (9000 a. C. a hoy) | sin serie propia; cuenta en Magreb | — · — · — | 0 · 0 · 0 |
-| Siberia | regiones-del-mundo | 4 (1207 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 7 · 5 · 0 |
+| Siberia | regiones-del-mundo | 4 (1207 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 7 · 6 · 0 |
 | Sri Lanka | regiones-del-mundo | 5 (377 a. C. a hoy) | por país: LKA, MDV | — · — · — | 0 · 0 · 0 |
-| Sudeste asiático continental | regiones-del-mundo | 6 (500 a. C. a hoy) | por país: MMR, THA, LAO, KHM, VNM | — · — · — | 4 · 7 · 0 |
+| Sudeste asiático continental | regiones-del-mundo | 6 (500 a. C. a hoy) | por país: MMR, THA, LAO, KHM, VNM | — · — · — | 4 · 8 · 0 |
 | Sudán y Sudán del Sur | regiones-del-mundo | 6 (550 a hoy) | por país: SDN, SSD | — · — · — | 0 · 1 · 0 |
-| Sur de la India (Decán) | regiones-del-mundo | 6 (300 a. C. a hoy) | sin serie propia; cuenta en India (cuencas del Indo y el Ganges) | — · — · — | 1 · 1 · 0 |
+| Sur de la India (Decán) | regiones-del-mundo | 6 (300 a. C. a hoy) | sin serie propia; cuenta en India (cuencas del Indo y el Ganges) | — · — · — | 2 · 3 · 0 |
 | Taiwán | regiones-del-mundo | 6 (1624 a hoy) | por país: TWN | — · — · — | 0 · 0 · 0 |
 | Turquestán oriental (Xinjiang) | regiones-del-mundo | 6 (200 a. C. a hoy) | sin serie propia; cuenta en China (cuencas del Amarillo y el Yangtsé) | — · — · — | 0 · 0 · 0 |
-| Tíbet | regiones-del-mundo | 6 (618 a hoy) | sin serie propia; cuenta en China (cuencas del Amarillo y el Yangtsé) | — · — · — | 0 · 0 · 0 |
+| Tíbet | regiones-del-mundo | 6 (618 a hoy) | sin serie propia; cuenta en China (cuencas del Amarillo y el Yangtsé) | — · — · — | 0 · 1 · 0 |
 | Volga y Urales | regiones-del-mundo | 6 (700 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 4 · 3 · 0 |
 | África austral | regiones-del-mundo | 6 (300 a hoy) | por país: ZAF, NAM, BWA, ZWE, MOZ, ZMB, MWI, LSO, SWZ | — · — · — | 2 · 2 · 1 |
 | África central | regiones-del-mundo | 5 (1000 a. C. a hoy) | por país: TCD, CMR, CAF, GNQ, GAB, COG, COD, AGO, STP | — · — · — | 2 · 1 · 0 |
 | África occidental | regiones-del-mundo | 7 (1000 a. C. a hoy) | por país: SEN, GMB, GNB, GIN, SLE, LBR, CIV, GHA, TGO, BEN, NGA, BFA, MLI, NER, MRT, CPV | — · — · — | 6 · 2 · 0 |
-| África oriental (Grandes Lagos y costa suajili) | regiones-del-mundo | 5 (800 a hoy) | por país: KEN, UGA, TZA, RWA, BDI | — · — · — | 2 · 1 · 0 |
-| Arabia | tierra-santa | 7 (1000 a. C. a hoy) | por país: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 32 · 18 · 7 |
-| Armenia (meseta armenia) | tierra-santa | 10 (860 a. C. a hoy) | por país: ARM | 5 · 5 · 5 | 0 · 0 · 0 |
-| Chipre | tierra-santa | 9 (1100 a. C. a hoy) | por país: CYP | 4 · 3 · 3 | 1 · 2 · 3 |
+| África oriental (Grandes Lagos y costa suajili) | regiones-del-mundo | 5 (800 a hoy) | por país: KEN, UGA, TZA, RWA, BDI | — · — · — | 2 · 2 · 0 |
+| Arabia | tierra-santa | 7 (1000 a. C. a hoy) | por país: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 32 · 24 · 7 |
+| Armenia (meseta armenia) | tierra-santa | 10 (860 a. C. a hoy) | por país: ARM | 5 · 5 · 5 | 0 · 2 · 0 |
+| Chipre | tierra-santa | 9 (1100 a. C. a hoy) | por país: CYP | 4 · 3 · 3 | 1 · 4 · 3 |
 | Cilicia (en Anatolia) | tierra-santa | 8 (1500 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 6 · 4 · 4 | 0 · 0 · 0 |
-| Líbano (en Levante) | tierra-santa | 8 (3000 a. C. a hoy) | por país: LBN | 5 · 3 · 4 | 7 · 5 · 4 |
-| Magreb | tierra-santa | 11 (814 a. C. a hoy) | por país: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 10 · 8 · 11 |
-| Siria (en Levante) | tierra-santa | 11 (2500 a. C. a hoy) | por país: SYR | 8 · 4 · 3 | 44 · 18 · 8 |
-| Tierra Santa (en Levante) | tierra-santa | 20 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 17 · 11 · 11 | 129 · 102 · 36 |
-| Transjordania (en Levante) | tierra-santa | 9 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 6 · 4 · 6 |
+| Líbano (en Levante) | tierra-santa | 9 (3000 a. C. a hoy) | por país: LBN | 5 · 3 · 4 | 7 · 14 · 4 |
+| Magreb | tierra-santa | 11 (814 a. C. a hoy) | por país: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 11 · 15 · 11 |
+| Siria (en Levante) | tierra-santa | 12 (2500 a. C. a hoy) | por país: SYR | 8 · 4 · 3 | 44 · 31 · 8 |
+| Tierra Santa (en Levante) | tierra-santa | 21 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 17 · 11 · 11 | 135 · 131 · 36 |
+| Transjordania (en Levante) | tierra-santa | 11 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 6 · 6 · 6 |
 
 ## Lo que falta
 
@@ -224,13 +224,13 @@ Las series por país no se pueden partir: estas regiones no tienen población pr
 - Área maya: Parte de México, Guatemala y Belice.
 - Ártico norteamericano: Parte de los Estados Unidos (Alaska) y de Canadá.
 
-### Regiones sin religiones, culturas ni idiomas (36)
+### Regiones sin religiones, culturas ni idiomas (34)
 
-Afganistán, Alto Egipto, Asia central, Australia, Bajo Egipto, China meridional, Corea, Cáucaso, Etiopía y el Cuerno de África, Insulindia (sudeste asiático insular), Japón, Lejano Oriente ruso, Madagascar y las islas del Índico, Manchuria, Melanesia, Micronesia, Mongolia, Noreste de la India, Norte de Rusia, Nubia, Nueva Zelanda (Aotearoa), Polinesia, Sahara (norte), Siberia, Sri Lanka, Sudeste asiático continental, Sudán y Sudán del Sur, Sur de la India (Decán), Taiwán, Turquestán oriental (Xinjiang), Tíbet, Volga y Urales, África austral, África central, África occidental, África oriental (Grandes Lagos y costa suajili).
+Afganistán, Alto Egipto, Australia, Bajo Egipto, China meridional, Corea, Cáucaso, Etiopía y el Cuerno de África, Insulindia (sudeste asiático insular), Japón, Lejano Oriente ruso, Madagascar y las islas del Índico, Manchuria, Melanesia, Micronesia, Mongolia, Noreste de la India, Norte de Rusia, Nueva Zelanda (Aotearoa), Polinesia, Sahara (norte), Siberia, Sri Lanka, Sudeste asiático continental, Sudán y Sudán del Sur, Sur de la India (Decán), Taiwán, Turquestán oriental (Xinjiang), Tíbet, Volga y Urales, África austral, África central, África occidental, África oriental (Grandes Lagos y costa suajili).
 
-### Regiones sin eras (3)
+### Regiones sin eras (2)
 
-Alto Egipto, Bajo Egipto, Nubia.
+Alto Egipto, Bajo Egipto.
 
 ### Límites de los datos de población
 

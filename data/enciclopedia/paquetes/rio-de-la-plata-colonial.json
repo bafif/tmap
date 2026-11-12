@@ -2398,6 +2398,49 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "dominus-ac-redemptor-1773",
+      "titulo": "Breve Dominus ac Redemptor",
+      "titulo_original": "Dominus ac Redemptor noster",
+      "autor": "Clemente XIV",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1773,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "rio-de-la-plata",
+          "paraguay-oriental",
+          "noroeste-argentino"
+        ],
+        "desde": 1540,
+        "hasta": 1773
+      },
+      "idioma_original": "Latín",
+      "soporte": "Breve pontificio",
+      "resumen": "Breve del 21 de julio de 1773 por el que Clemente XIV suprimió la Compañía de Jesús en toda la Iglesia. Repasa las órdenes que los papas anteriores habían suprimido y alega que la Compañía arrastraba disputas desde sus comienzos, internas y con obispos, otras órdenes y autoridades civiles de Europa, Asia y América, que en algunos lugares habían llegado a tumultos; declara que la suprime para restablecer la paz de la Iglesia.",
+      "por_que_importa": "Seis años después de la expulsión de los dominios españoles, que había terminado con la administración jesuítica de las misiones del Río de la Plata, puso fin a la orden en casi todo el mundo hasta su restablecimiento universal por Pío VII en 1814. Las cortes borbónicas la habían pedido, el embajador Moñino presionó al papa y Carlos III lo premió con el título de conde de Floridablanca.",
+      "leer": [
+        {
+          "titulo": "Introducción y traducción al inglés del breve, de John Murphy, S.J., en McCoog (ed.), 2003, en el Portal to Jesuit Studies (Boston College)",
+          "url": "https://jesuitportal.bc.edu/research/documents/1773_dominusacredemptor/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Dominus ac Redemptor",
+        "en": "Dominus ac Redemptor"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -5056,6 +5099,264 @@
         "en": "Henry F. Dobyns"
       },
       "wikidata": "Q22004884"
+    },
+    {
+      "id": "felipe-iii",
+      "nombre": "Felipe III de España",
+      "nacimiento": {
+        "anio": 1578,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "muerte": {
+        "anio": 1621,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417,
+        "desde": 1598,
+        "hasta": 1621,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de España y de Portugal (como Felipe II) desde 1598 hasta su muerte en 1621, que delegó buena parte del gobierno en su valido, el duque de Lerma. Una real cédula suya del 16 de diciembre de 1617 dividió la gobernación del Río de la Plata y del Paraguay, y en su reinado se autorizaron los permisos de comercio de Buenos Aires de 1602 y los navíos de registro de 1618.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Felipe III de España",
+        "en": "Philip III of Spain"
+      },
+      "wikidata": "Q34464"
+    },
+    {
+      "id": "juan-ortiz-de-zarate",
+      "nombre": "Juan Ortiz de Zárate",
+      "nacimiento": {
+        "anio": 1515,
+        "aprox": true,
+        "lugar": "Orduña",
+        "lon": -3.011,
+        "lat": 42.996
+      },
+      "muerte": {
+        "anio": 1576,
+        "aprox": false,
+        "lugar": "Asunción",
+        "lon": -57.634,
+        "lat": -25.28
+      },
+      "activo": {
+        "lugar": "Asunción",
+        "lon": -57.6359,
+        "lat": -25.2867,
+        "desde": 1567,
+        "hasta": 1576,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "adelantado",
+        "gobernador"
+      ],
+      "resumen": "Vasco de Orduña que pasó al Perú en 1534 y reunió fortuna como encomendero de Totora y minero en Potosí. Nombrado gobernador interino del Río de la Plata y el Paraguay en 1567 por la autoridad del Perú y adelantado por Felipe II en 1569, llegó al Río de la Plata en 1573 con una armada, fue socorrido por Juan de Garay frente a los charrúas y entró en Asunción en 1575. Murió en enero de 1576 sin que su hija Juana estuviera casada; su testamento dejaba el adelantazgo a quien se casara con ella, y gobernó como interino su sobrino Diego Ortiz de Zárate y Mendieta (1576-1577). Juan Torres de Vera y Aragón fue adelantado después de casarse con Juana.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Ortiz de Zárate",
+        "en": "Juan Ortiz de Zárate"
+      },
+      "wikidata": "Q168411"
+    },
+    {
+      "id": "francisco-solano",
+      "nombre": "Francisco Solano",
+      "nacimiento": {
+        "anio": 1549,
+        "aprox": false,
+        "lugar": "Montilla",
+        "lon": -4.639,
+        "lat": 37.587
+      },
+      "muerte": {
+        "anio": 1610,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "activo": {
+        "lugar": "Santiago del Estero",
+        "lon": -64.267,
+        "lat": -27.784,
+        "desde": 1590,
+        "hasta": 1595,
+        "aprox": false
+      },
+      "roles": [
+        "franciscano",
+        "misionero"
+      ],
+      "resumen": "Fraile franciscano andaluz que pasó al Perú en 1589 y fue destinado a la gobernación del Tucumán, donde predicó a indígenas y colonos y, según sus biografías, también en el Chaco y el Paraguay; lo llamaron a Lima en 1595, según el Diccionario biográfico de la Real Academia de la Historia y García Oro (1988), y allí murió en 1610. Fue beatificado en 1675 y canonizado en 1726. La tradición riojana lo asocia con el origen del Tinkunaco, el rito del Niño Alcalde de La Rioja.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Solano (santo)",
+        "en": "Francis Solanus"
+      },
+      "wikidata": "Q2352076"
+    },
+    {
+      "id": "juan-del-castillo",
+      "nombre": "Juan del Castillo",
+      "nacimiento": {
+        "anio": 1596,
+        "aprox": false,
+        "lugar": "Belmonte",
+        "lon": -2.704,
+        "lat": 39.559
+      },
+      "muerte": {
+        "anio": 1628,
+        "aprox": false,
+        "lugar": "Yjuhí, actual Río Grande del Sur"
+      },
+      "activo": {
+        "lugar": "Ijuí",
+        "lon": -53.915,
+        "lat": -28.388,
+        "desde": 1626,
+        "hasta": 1628,
+        "aprox": true
+      },
+      "roles": [
+        "jesuita",
+        "misionero"
+      ],
+      "resumen": "Jesuita de Belmonte (Cuenca) que llegó a Buenos Aires en 1617 y estudió en Córdoba. Ordenado sacerdote en 1625, entre 1626 y 1628 trabajó con Roque González en las reducciones guaraníes, al frente de la de Ijuí. Lo mataron el 17 de noviembre de 1628 en Yjuhí guaraníes del cacique Ñezú, opuesto a las misiones, dos días después de que mataran a Roque González y a Alonso Rodríguez. Fue beatificado en 1934 y canonizado en 1988 junto con ellos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan del Castillo (santo)",
+        "en": "Juan de Castillo (Jesuit)"
+      },
+      "wikidata": "Q210328"
+    },
+    {
+      "id": "domenico-zipoli",
+      "nombre": "Domenico Zipoli",
+      "nacimiento": {
+        "anio": 1688,
+        "aprox": false,
+        "lugar": "Prato",
+        "lon": 11.097,
+        "lat": 43.881
+      },
+      "muerte": {
+        "anio": 1726,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "activo": {
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417,
+        "desde": 1717,
+        "hasta": 1726,
+        "aprox": false
+      },
+      "roles": [
+        "compositor",
+        "jesuita"
+      ],
+      "resumen": "Compositor barroco de Prato, organista de la iglesia del Gesù en Roma; en 1716 entró como novicio jesuita en Sevilla y en 1717 llegó a Buenos Aires con otros misioneros. Estudió en Córdoba y fue músico de la iglesia jesuita, pero no llegó a ordenarse por falta de obispo. Murió allí en 1726; su música religiosa se copiaba para las reducciones y partituras suyas se hallaron en 1972 en Chiquitos (Bolivia).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Domenico Zipoli",
+        "en": "Domenico Zipoli"
+      },
+      "wikidata": "Q134923"
+    },
+    {
+      "id": "esteban-gomez",
+      "nombre": "Esteban Gómez",
+      "nacimiento": {
+        "anio": 1483,
+        "aprox": true,
+        "lugar": "Oporto",
+        "lon": -8.611,
+        "lat": 41.15
+      },
+      "muerte": {
+        "anio": 1538,
+        "aprox": false,
+        "lugar": "Río Paraguay (lugar aproximado)",
+        "lon": -58.0,
+        "lat": -23.5
+      },
+      "activo": {
+        "lugar": "Río Paraguay (lugar aproximado)",
+        "lon": -58.0,
+        "lat": -23.5,
+        "desde": 1535,
+        "hasta": 1538,
+        "aprox": false
+      },
+      "roles": [
+        "navegante",
+        "explorador",
+        "cartógrafo"
+      ],
+      "resumen": "Piloto portugués al servicio de Castilla. Como piloto de la San Antonio en la armada de Magallanes se sublevó contra su capitán cerca del estrecho y volvió a Sevilla en mayo de 1521, donde fue juzgado; en 1524-1525 recorrió la costa atlántica de América del Norte. En 1535 se sumó a la expedición de Pedro de Mendoza al Río de la Plata y murió en la primavera de 1538 con la columna de Juan de Ayolas, emboscada por indígenas a orillas del Paraguay cuando volvía del Chaco, según Vigneras en el Dictionary of Canadian Biography (lugar aproximado). Una versión difundida le atribuye el avistamiento de las Malvinas en 1520; el proceso por su deserción no lo menciona.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Esteban Gómez",
+        "en": "Estêvão Gomes"
+      },
+      "wikidata": "Q2320176"
+    },
+    {
+      "id": "toribio-de-mogrovejo",
+      "nombre": "Toribio de Mogrovejo",
+      "nacimiento": {
+        "anio": 1538,
+        "aprox": false,
+        "lugar": "Mayorga",
+        "lon": -5.263,
+        "lat": 42.167
+      },
+      "muerte": {
+        "anio": 1606,
+        "aprox": false,
+        "lugar": "Zaña",
+        "lon": -79.584,
+        "lat": -6.923
+      },
+      "activo": {
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06,
+        "desde": 1581,
+        "hasta": 1606,
+        "aprox": false
+      },
+      "roles": [
+        "arzobispo",
+        "misionero"
+      ],
+      "resumen": "Jurista de Mayorga (Valladolid) nombrado arzobispo de Lima en 1579 por propuesta de Felipe II; llegó a Lima en 1581. Presidió el Tercer Concilio de Lima (1582-1583), que mandó predicar en lenguas indígenas y aprobó el catecismo trilingüe de 1584, y fundó en 1591 el seminario de Lima. Como arzobispo metropolitano de Lima tenía bajo su provincia eclesiástica los obispados del Tucumán y del Paraguay: el obispo del Tucumán, Francisco de Victoria, fue al Concilio y se le opuso, y Luis de Bolaños tradujo el catecismo al guaraní, que el sínodo de Asunción de 1603 adoptó. Murió en Zaña en 1606 durante una visita pastoral; fue canonizado en 1726.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Toribio de Mogrovejo",
+        "en": "Turibius of Mogrovejo"
+      },
+      "wikidata": "Q467993"
     }
   ],
   "hechos": [
@@ -6691,7 +6992,7 @@
       "lon": -64.183,
       "lat": -31.417,
       "tipo": "religioso",
-      "resumen": "En cumplimiento de la pragmática de Carlos III, el gobernador Francisco de Paula Bucareli hizo detener en julio de 1767 a los jesuitas de Buenos Aires, Córdoba y las demás ciudades, y en 1768 a los de las treinta misiones guaraníes, que pasaron a administradores civiles y a otras órdenes religiosas. Los bienes de la orden, como las estancias de Córdoba, quedaron a cargo de la Junta de Temporalidades y se vendieron, y la población de las misiones disminuyó en las décadas siguientes.",
+      "resumen": "En cumplimiento de la pragmática de Carlos III, el gobernador Francisco de Paula Bucareli hizo detener en julio de 1767 a los jesuitas de Buenos Aires, Córdoba y las demás ciudades, y en 1768 a los de las treinta misiones guaraníes, que pasaron a administradores civiles y a otras órdenes religiosas. En Cuyo, que dependía de la gobernación de Chile, el gobernador Antonio de Guill y Gonzaga recibió la orden el 7 de agosto y la ejecutó a fines de ese mes en los colegios de Mendoza, San Juan y San Luis, de la provincia jesuítica de Chile. Los bienes de la orden, como las estancias de Córdoba, quedaron a cargo de la Junta de Temporalidades y se vendieron, y la población de las misiones disminuyó en las décadas siguientes.",
       "regiones": [
         "rio-de-la-plata",
         "paraguay-oriental",
@@ -6705,6 +7006,159 @@
       ],
       "wikipedia": {
         "es": "Expulsión de los jesuitas de España de 1767"
+      }
+    },
+    {
+      "id": "expedicion-de-ortiz-de-zarate",
+      "titulo": "Expedición de Ortiz de Zárate y Ciudad Zaratina",
+      "anio": 1572,
+      "anio_hasta": 1574,
+      "aprox": false,
+      "lugar": "Isla San Gabriel",
+      "lon": -57.889,
+      "lat": -34.473,
+      "tipo": "exploracion",
+      "resumen": "El adelantado Juan Ortiz de Zárate zarpó de Sanlúcar en octubre de 1572 y en noviembre de 1573 llegó a la isla de San Gabriel, frente a Colonia, donde levantó un fortín. Según Martín del Barco Centenera, que iba en la armada y lo cuenta en La Argentina (1602), Ortiz de Zárate apresó a Abayubá, sobrino del cacique charrúa Zapicán, y lo devolvió por una canoa y un cristiano; los charrúas juraron vengarse, mataron a unos cien hombres y los españoles se retiraron a la isla de San Gabriel y a Martín García hasta que Juan de Garay, llamado desde Santa Fe, derrotó a los charrúas en mayo de 1574 en San Salvador. Ese mes se fundó la Ciudad Zaratina del San Salvador, que se despobló en 1577.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "la-argentina-centenera"
+      ],
+      "wikipedia": {
+        "es": "Juan Ortiz de Zárate",
+        "en": "Juan Ortiz de Zárate"
+      }
+    },
+    {
+      "id": "promulgacion-de-la-recopilacion-de-indias",
+      "titulo": "Promulgación de la Recopilación de las leyes de Indias",
+      "anio": 1680,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "politico",
+      "resumen": "Carlos II aprobó en Madrid, por pragmática del 18 de mayo de 1680, la Recopilación de las leyes de los reinos de las Indias, que ordenó en nueve libros las leyes dispersas desde el siglo XVI, y, una vez impresa, una real cédula del 1 de noviembre de 1681 mandó cumplirla. Fue el cuerpo legal general de las Indias, y en el Río de la Plata siguió vigente en la práctica durante el resto de la colonia, junto con las cédulas posteriores.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "recopilacion-de-indias-1680"
+      ],
+      "wikipedia": {
+        "es": "Leyes de Indias",
+        "en": "Laws of the Indies"
+      }
+    },
+    {
+      "id": "tratado-provisional-de-lisboa-de-1681",
+      "titulo": "Tratado provisional de Lisboa",
+      "anio": 1681,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lisboa",
+      "lon": -9.139,
+      "lat": 38.708,
+      "tipo": "tratado",
+      "resumen": "El 7 de mayo de 1681 España y Portugal firmaron en Lisboa, tras la toma de la Colonia del Sacramento por Garro, un tratado provisional que disponía devolver la plaza a Portugal con su artillería, desaprobaba lo actuado por el gobernador español y dejaba la decisión sobre la soberanía a una comisión mixta y, si no había acuerdo, al papa Inocencio XI. Lo ratificaron España el 25 de mayo y Portugal el 13 de junio; no hubo acuerdo, y la plaza fue entregada a los portugueses el 12 de febrero de 1683.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "tratado-de-lisboa-1681"
+      ]
+    },
+    {
+      "id": "motin-de-esquilache",
+      "titulo": "Motín de Esquilache",
+      "anio": 1766,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "politico",
+      "resumen": "Desde el 23 de marzo de 1766 una multitud se sublevó en Madrid contra el ministro Esquilache, por la carestía del pan y por un bando que prohibía la capa larga y el sombrero chambergo; Carlos III bajó los precios y cesó al ministro. La pesquisa secreta que siguió, dirigida por Aranda y Campomanes, fue uno de los antecedentes de su expulsión de 1767 de los dominios españoles, el Río de la Plata incluido. Teófanes Egido lo llama «motín de corte»: hubo indicios de preparación, como pasquines y un escrito de «estatutos» fechado el 12 de marzo. La pesquisa culpó a los jesuitas y a los ensenadistas sin probarlo.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "pragmatica-de-expulsion-1767"
+      ],
+      "wikipedia": {
+        "es": "Motín de Esquilache",
+        "en": "Esquilache Riots"
+      }
+    },
+    {
+      "id": "supresion-de-la-compania-de-jesus",
+      "titulo": "Supresión de la Compañía de Jesús",
+      "anio": 1773,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "religioso",
+      "resumen": "El 21 de julio de 1773 el papa Clemente XIV suprimió en casi todo el mundo la Compañía de Jesús con el breve Dominus ac Redemptor, después de las expulsiones de Portugal (1759), Francia (1764) y los dominios españoles (1767). El embajador español José Moñino presionó al papa, y Carlos III lo premió con el título de conde de Floridablanca. La orden siguió funcionando en Rusia y Prusia, y Pío VII la restableció en 1814. En el Río de la Plata los jesuitas ya habían sido expulsados en 1767-1768, y las misiones guaraníes y las estancias estaban en manos de administradores civiles y otras órdenes.",
+      "regiones": [
+        "italia",
+        "rio-de-la-plata",
+        "paraguay-oriental",
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "dominus-ac-redemptor-1773"
+      ],
+      "wikipedia": {
+        "es": "Supresión de la Compañía de Jesús",
+        "en": "Suppression of the Society of Jesus"
+      }
+    },
+    {
+      "id": "entrada-de-diego-de-almagro",
+      "titulo": "Expedición de Almagro por el noroeste argentino",
+      "anio": 1535,
+      "anio_hasta": 1536,
+      "aprox": false,
+      "lugar": "El Shincal",
+      "lon": -67.175,
+      "lat": -27.687,
+      "tipo": "exploracion",
+      "resumen": "La expedición de Diego de Almagro a Chile salió de Cuzco en 1535 y fue la primera entrada europea al actual noroeste argentino: pasó por Tupiza, por la antigua Chicoana, en los valles Calchaquíes, donde se detuvo dos meses, y por el Shincal, cerca de Londres (Catamarca), y cruzó la cordillera en el otoño de 1536. El itinerario sigue el derrotero de Fernández de Oviedo. Sobre el paso, Diego Barros Arana (1884) dice el de San Francisco; Rodolfo Raffino (1995) y Christian Vitry (2007) señalan Come-Caballos o Pircas Negras.",
+      "regiones": [
+        "noroeste-argentino",
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Expedición de Almagro a Chile",
+        "en": "Diego de Almagro's expedition to Chile"
+      }
+    },
+    {
+      "id": "tratado-de-lisboa-de-1701",
+      "titulo": "Tratado de Lisboa de 1701",
+      "anio": 1701,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lisboa",
+      "lon": -9.139,
+      "lat": 38.708,
+      "tipo": "tratado",
+      "resumen": "El 18 de junio de 1701 España y Portugal firmaron en Lisboa un tratado de alianza en vísperas de la guerra de sucesión española: Pedro II de Portugal apoyaba a Felipe V y España cedía a Portugal la Colonia del Sacramento, con lo que se revocaba el acuerdo de 1681. Portugal retiró su apoyo a Felipe V en 1703.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Tratado de Lisboa (1701)"
       }
     }
   ],

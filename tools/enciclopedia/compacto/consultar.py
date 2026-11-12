@@ -2,6 +2,8 @@
 
 Uso: python3 -I consultar.py <orden> <argumentos>
   resumen <Título en inglés> [es]   introducción del artículo (en.wikipedia; con «es», es.wikipedia), con su QID
+  texto <Título> [es|pt|…]          el artículo completo en texto plano (fechas, bajas y detalles que la
+                                    introducción no trae): conviene cotejar dos idiomas, que a veces no coinciden
   buscar <texto> [es]               los 8 primeros resultados de búsqueda en en.wikipedia (o es)
   titulos <T1> ;; <T2> ;; ...       comprueba títulos de en.wikipedia: redirección, desambiguación, QID y título es
   wd <QID>                          nacimiento, muerte, lugares y coordenadas de Wikidata
@@ -11,9 +13,14 @@ Uso: python3 -I consultar.py <orden> <argumentos>
 """
 import json
 import re
+import socket
 import sys
 import urllib.parse
 import urllib.request
+
+# IPv4 primero: con IPv6 roto (pasa en algunas redes), urllib espera el timeout entero en cada pedido.
+_getaddrinfo = socket.getaddrinfo
+socket.getaddrinfo = lambda *a, **k: sorted(_getaddrinfo(*a, **k), key=lambda r: r[0] != socket.AF_INET)
 
 UA = "TellMAP/0.4 (https://bafif.github.io/tmap; datos de la enciclopedia)"
 
@@ -46,6 +53,15 @@ def main():
             print(f"== {p.get('title')} ({p.get('pageprops', {}).get('wikibase_item', 'sin QID')})"
                   f"{' FALTA' if p.get('missing') else ''}")
             print(p.get("extract", "")[:3000])
+    elif orden == "texto":
+        lengua = args[-1] if len(args) > 1 and re.fullmatch(r"[a-z]{2,3}", args[-1]) else "en"
+        titulo = " ".join(args[:-1] if lengua != "en" or args[-1] == "en" else args)
+        d = api(lengua, action="query", prop="extracts|pageprops", explaintext=1, redirects=1, titles=titulo,
+                ppprop="wikibase_item")
+        for p in d["query"]["pages"]:
+            print(f"== {p.get('title')} ({p.get('pageprops', {}).get('wikibase_item', 'sin QID')})"
+                  f"{' FALTA' if p.get('missing') else ''}")
+            print(p.get("extract", "")[:60000])
     elif orden == "buscar":
         lengua = "es" if args[-1] == "es" and len(args) > 1 else "en"
         texto = " ".join(args[:-1] if lengua == "es" else args)
