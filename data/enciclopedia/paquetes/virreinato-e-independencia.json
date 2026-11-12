@@ -2487,6 +2487,121 @@
         "en": "Gregorio Funes"
       },
       "confianza": "media"
+    },
+    {
+      "id": "geografia-fisica-y-esferica-azara",
+      "titulo": "Geografía física y esférica de las provincias del Paraguay y misiones guaraníes",
+      "titulo_original": null,
+      "autor": "Félix de Azara",
+      "autor_id": "felix-de-azara",
+      "tipo": "primaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": 1790,
+        "aprox": false,
+        "lugar": "Asunción",
+        "lon": -57.6359,
+        "lat": -25.2867
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "brasil"
+        ],
+        "desde": 1781,
+        "hasta": 1790
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito",
+      "resumen": "Obra que Félix de Azara compuso en Asunción del Paraguay en 1790, durante su comisión para fijar los límites con Portugal según el tratado de San Ildefonso. Describe las provincias del Paraguay y las misiones guaraníes.",
+      "por_que_importa": "Es el texto de Azara de la época de la comisión de límites, escrito en el lugar y antes de su regreso a Buenos Aires.",
+      "leer": [
+        {
+          "titulo": "Facsímil en la Biblioteca Virtual Miguel de Cervantes",
+          "url": "https://www.cervantesvirtual.com/research/geografa-fsica-y-esfrica-de-las-provincias-del-paraguay-y-misiones-guaranes-compuesta-por-d-flix-de-azara-capitn-de-navo-de-la-real-armada-en-la-asuncin-del-paraguay-ao-de-mdccxc-0/015ca6d6-82b2-11df-acc7-002185ce6064.pdf",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "contextacion-al-discurso-sobre-la-mita-de-potosi",
+      "titulo": "Contextación al discurso sobre la mita de Potosí",
+      "titulo_original": null,
+      "autor": "Francisco de Paula Sanz",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Potosí",
+        "lon": -65.753,
+        "lat": -19.589
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1793,
+        "hasta": 1794
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito con portada ilustrada",
+      "resumen": "Respuesta del intendente de Potosí, Francisco de Paula Sanz, al discurso sobre la mita escrito en La Plata el 9 de marzo de 1793, que firmó el 19 de noviembre de 1794. Está catalogada en el portal de archivos españoles PARES como MP, Libros Manuscritos, 76, y su portada lleva tres viñetas alegóricas sobre el tema. Sanz sostenía que el trabajo de las minas era un servicio público y que el indígena necesitaba de la fuerza.",
+      "por_que_importa": "Es la respuesta de la autoridad de Potosí a Villava y muestra cómo se defendía la mita en la época.",
+      "leer": [
+        {
+          "titulo": "Ficha y portada del manuscrito en PARES (Ministerio de Cultura de España)",
+          "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/17111",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Francisco de Paula Sanz"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "guia-de-potosi-canete",
+      "titulo": "Guía histórica, geográfica, física, política, civil y legal del gobierno e intendencia de la provincia de Potosí",
+      "titulo_original": null,
+      "autor": "Pedro Vicente Cañete",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Potosí",
+        "lon": -65.753,
+        "lat": -19.589
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1784,
+        "hasta": 1787
+      },
+      "idioma_original": "Español",
+      "soporte": "Manuscrito",
+      "resumen": "Obra de Pedro Vicente Cañete sobre el gobierno y la intendencia de la provincia de Potosí, que el archivo de la Casa Nacional de Moneda de Bolivia fecha entre 1784 y el 1 de octubre de 1787. Cañete la redactó cuando asesoraba a los intendentes de Potosí y defendía reformar y revitalizar la mita.",
+      "por_que_importa": "Describe la provincia de Potosí tal como la administraba la intendencia en los años de las reformas borbónicas.",
+      "leer": [
+        {
+          "titulo": "Ficha del archivo de la Casa Nacional de Moneda de Bolivia",
+          "url": "https://atom.casanacionaldemoneda.bo/index.php/guia-historica-geografica-fisica-politica-civil-y-legal-del-gobierno-e-intendencia-de-la-provincia-de-potosi",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Pedro Vicente Cañete"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3539,7 +3654,8 @@
       "obras": [
         "memoria-rural-azara",
         "diario-de-reconocimiento-azara",
-        "viajes-por-la-america-meridional"
+        "viajes-por-la-america-meridional",
+        "geografia-fisica-y-esferica-azara"
       ],
       "wikipedia": {
         "es": "Félix de Azara",
@@ -7367,7 +7483,8 @@
       "tipo": "economico",
       "resumen": "Una real cédula del 30 de enero de 1794 creó el Consulado, tribunal de comercio y junta de fomento de los comerciantes de Buenos Aires, con Manuel Belgrano como secretario. Además de juzgar pleitos mercantiles, abrió en 1799 escuelas de náutica y de dibujo, que la Corona mandó cerrar pocos años después.",
       "regiones": [
-        "rio-de-la-plata"
+        "rio-de-la-plata",
+        "iberia"
       ],
       "fuentes": [
         "real-cedula-del-consulado-1794",
@@ -9950,6 +10067,158 @@
       "wikipedia": {
         "es": "Batalla de Tacuarembó",
         "en": "Battle of Tacuarembó"
+      }
+    },
+    {
+      "id": "gobierno-de-garcia-de-leon-y-pizarro-en-salta-del-tucuman",
+      "titulo": "Gobierno de García de León y Pizarro en la intendencia de Salta del Tucumán",
+      "anio": 1789,
+      "anio_hasta": 1796,
+      "aprox": false,
+      "lugar": "Salta",
+      "lon": -65.411,
+      "lat": -24.788,
+      "tipo": "politico",
+      "resumen": "Ramón García de León y Pizarro fue nombrado en 1789 gobernador intendente de Salta del Tucumán y asumió el cargo en San Salvador de Jujuy a fines de 1790. En 1794 fundó Orán para reforzar la frontera del Chaco y ese año pasó la catedral de Salta al templo que había sido de los jesuitas. En octubre de 1796 fue nombrado gobernador intendente de Charcas.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Ramón García de León y Pizarro",
+        "en": "Ramón García de León y Pizarro"
+      }
+    },
+    {
+      "id": "fundacion-de-oran",
+      "titulo": "Fundación de San Ramón de la Nueva Orán",
+      "anio": 1794,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Ramón de la Nueva Orán",
+      "lon": -64.322,
+      "lat": -23.136,
+      "tipo": "fundacion",
+      "resumen": "Ramón García de León y Pizarro fundó el 31 de agosto de 1794, día de San Ramón Nonato, la ciudad de San Ramón de la Nueva Orán en el valle de Zenta, donde los franciscanos habían tenido una misión desde 1779, con unas 150 familias y fines defensivos frente a los wichís y los chiriguanos del Chaco. Desde 1795 fue cabecera de partido y tuvo cabildo, y una real cédula aprobó la fundación el 4 de mayo de 1797.",
+      "regiones": [
+        "gran-chaco",
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "San Ramón de la Nueva Orán",
+        "en": "San Ramón de la Nueva Orán"
+      }
+    },
+    {
+      "id": "fundacion-del-fuerte-de-san-rafael-del-diamante",
+      "titulo": "Fundación del fuerte de San Rafael del Diamante",
+      "anio": 1805,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fuerte San Rafael del Diamante",
+      "lon": -68.55,
+      "lat": -34.589,
+      "tipo": "fundacion",
+      "resumen": "A comienzos de abril de 1805, en un parlamento con 23 caciques y 11 capitanejos, se acordó fundar en el sur de Mendoza, sobre el río Diamante, el fuerte de San Rafael, con su capilla. El fuerte se fundó el 2 de abril de 1805. Andrea Greco (2007), a partir del tratado del Archivo Histórico de Mendoza, fecha el parlamento el 1 de abril, lo sitúa junto a la confluencia de los ríos Diamante y Atuel y dice que firmaron puelches o pampas y pehuenches. Aprobado por el virrey Sobremonte, buscaba proteger la frontera de las incursiones y fijar el límite con los pueblos indígenas del sur; el poblado que creció a su alrededor es la actual San Rafael.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Fuerte San Rafael del Diamante"
+      }
+    },
+    {
+      "id": "fuerte-borbon",
+      "titulo": "Fundación del fuerte Borbón",
+      "anio": 1792,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fuerte Olimpo",
+      "lon": -57.871,
+      "lat": -21.038,
+      "tipo": "fundacion",
+      "resumen": "En 1792 José Antonio de Zavala y Delgadillo fundó, por orden del gobernador intendente del Paraguay Joaquín de Alós y Brú, el fuerte Borbón sobre el río Paraguay, para contener los avances portugueses desde el Brasil. Con el gobierno del doctor Francia empezó a llamarse Fuerte Olimpo; hoy es la capital del departamento paraguayo de Alto Paraguay.",
+      "regiones": [
+        "gran-chaco",
+        "paraguay-oriental",
+        "brasil"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Fuerte Olimpo",
+        "en": "Fuerte Olimpo"
+      }
+    },
+    {
+      "id": "comision-de-limites-de-azara",
+      "titulo": "Comisión de límites de Félix de Azara en el Paraguay",
+      "anio": 1781,
+      "anio_hasta": 1801,
+      "aprox": false,
+      "lugar": "Asunción",
+      "lon": -57.6359,
+      "lat": -25.2867,
+      "tipo": "exploracion",
+      "resumen": "Para fijar los límites con Portugal según el tratado de San Ildefonso (1777), Azara salió de España en 1781 como comisario. Como el comisario portugués de su partida no llegaba, Azara permaneció en el Paraguay y el Río de la Plata hasta 1801, donde levantó mapas y describió la fauna y los pueblos de la región. Su relación de diciembre de 1785 registra las ciudades, villas y pueblos de indios del Paraguay.",
+      "regiones": [
+        "rio-de-la-plata",
+        "paraguay-oriental",
+        "brasil"
+      ],
+      "fuentes": [
+        "geografia-fisica-y-esferica-azara",
+        "memoria-rural-azara",
+        "viajes-por-la-america-meridional"
+      ],
+      "wikipedia": {
+        "es": "Félix de Azara",
+        "en": "Félix de Azara"
+      }
+    },
+    {
+      "id": "gobierno-de-velasco-en-las-misiones-y-el-paraguay",
+      "titulo": "Bernardo de Velasco, gobernador de las Misiones y del Paraguay",
+      "anio": 1803,
+      "anio_hasta": 1811,
+      "aprox": false,
+      "lugar": "Asunción",
+      "lon": -57.6359,
+      "lat": -25.2867,
+      "tipo": "politico",
+      "resumen": "Una real provisión del 28 de marzo de 1803 restableció el gobierno de los treinta pueblos de las Misiones, que dependían de Buenos Aires y del Paraguay, y lo confió a Bernardo de Velasco, que llegó a Candelaria en octubre de 1804. Ante el avance portugués, que había tomado siete pueblos en 1801, una real orden del 12 de septiembre de 1805 le dio además el gobierno del Paraguay, del que tomó posesión en Asunción el 5 de mayo de 1806. Hay quien lo ve como una unificación de las dos jurisdicciones (historiadores paraguayos, como María Gracia Monte de López Moreira) y quien como dos gobiernos ejercidos por la misma persona (Pedro Alcántara de Somellera, su asesor, en 1851).",
+      "regiones": [
+        "rio-de-la-plata",
+        "paraguay-oriental"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Bernardo de Velasco",
+        "en": "Bernardo de Velasco"
+      }
+    },
+    {
+      "id": "polemica-sobre-la-mita-de-potosi",
+      "titulo": "Polémica sobre la mita de Potosí",
+      "anio": 1793,
+      "anio_hasta": 1795,
+      "aprox": false,
+      "lugar": "Sucre",
+      "lon": -65.26,
+      "lat": -19.047,
+      "tipo": "politico",
+      "resumen": "Victorián de Villava, fiscal de la Audiencia de Charcas y director de la Academia Carolina, escribió en La Plata el 9 de marzo de 1793 el Discurso sobre la mita de Potosí, en el que atacaba el servicio obligatorio de los indígenas en las minas, que definía como «esclavitud temporal», y sostenía que los indígenas eran iguales a los «vasallos de Castilla». El 19 de noviembre de 1794 le contestó el intendente de Potosí, Francisco de Paula Sanz, asesorado por Pedro Vicente Cañete, para quien el trabajo de las minas era un servicio público y los indígenas eran «siervos» por haber sido vencidos en una guerra de conquista; Villava replicó en 1795 con la Contrarréplica. La polémica es el antecedente de la Disertación de Mariano Moreno de 1802.",
+      "regiones": [
+        "amazonia-andina",
+        "andes"
+      ],
+      "fuentes": [
+        "contextacion-al-discurso-sobre-la-mita-de-potosi",
+        "guia-de-potosi-canete"
+      ],
+      "wikipedia": {
+        "es": "Francisco de Paula Sanz"
       }
     }
   ],

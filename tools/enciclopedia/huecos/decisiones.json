@@ -6299,6 +6299,11 @@
     "motivo": "No se encontró un hecho verificable de esos cien años en Bohemia y Moravia: lo que hay son sitios sin fecha precisa (la aparición de los oppida, hacia 150 a. C., ya tiene ficha) y no dejan noticias escritas.",
     "fecha": "2026-11-11"
   },
+  "tramo:celtas-del-danubio-y-galacia:galacia:201:250": {
+    "decision": "sin-datos",
+    "motivo": "En esos años no hay un hecho ni una fuente gálata documentada: los edificios romanos de Ancira, como sus termas, son historia urbana de la provincia y no de los gálatas. La ocupación palmirena (271-272) y el concilio (314) cubren 251-300 y 301-350.",
+    "fecha": "2026-11-12"
+  },
   "tramo:celtas-del-danubio-y-galacia:hungria:-250:-151": {
     "decision": "sin-datos",
     "motivo": "No se encontró un hecho fechado en Hungría en esos cien años; los celtas de la cuenca del Danubio medio solo se conocen por su cultura material y por menciones aisladas posteriores.",
@@ -6318,6 +6323,11 @@
     "decision": "sin-datos",
     "motivo": "No se verificó un pasaje antiguo sobre Irlanda fechado en esos cincuenta años: Solino, el candidato, no tiene fecha segura (siglo III o IV).",
     "fecha": "2026-11-11"
+  },
+  "tramo:guerras-civiles-y-organizacion-nacional:noroeste-argentino:1835:1849": {
+    "decision": "descartado",
+    "motivo": "Las cajas de 1835-1844 ya las cubren `asesinato-de-alejandro-heredia`, `guerra-contra-la-confederacion-peru-boliviana`, `campana-de-lavalle`, `coalicion-del-norte`, `batalla-de-famailla`, `batalla-de-angaco`, `batalla-de-rodeo-del-medio`, `ejecucion-de-marco-avellaneda` y `muerte-de-lavalle` (rosas-y-la-confederacion), y en 1845-1849 no se encontró en el noroeste ni en Cuyo un hecho propio documentado del tema (la región queda bajo el orden rosista que trata rosas-y-la-confederacion).",
+    "fecha": "2026-11-12"
   },
   "tramo:rio-de-la-plata-colonial:caribe:1670:1709": {
     "decision": "descartado",

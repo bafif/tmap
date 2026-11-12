@@ -10,7 +10,7 @@
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 73 with religions, cultures or languages.
-- **Items:** 2,709 sources (247 with no place of writing), 2,767 people, 2,961 events and 942 places.
+- **Items:** 2,718 sources (247 with no place of writing), 2,767 people, 2,978 events and 942 places.
 
 ## Population: how much of the world each period covers
 
@@ -56,12 +56,12 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Southeastern North America (in North America (United States and Canada)) | areas-culturales-de-america | 8 (12550 BC to today) | curated: Ubelaker (1500–1500); no series of its own; counted in North America (United States and Canada) | 8 · 14 · 11 | 0 · 34 · 15 |
 | Balkans | edad-media | 10 (6500 BC to today) | by country: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 43 · 32 · 4 |
 | Bohemia and Moravia | edad-media | 12 (5500 BC to today) | by country: CZE | 8 · 12 · 8 | 26 · 26 · 4 |
-| Britain | edad-media | 11 (5500 BC to today) | curated: Alcock, Harper, Urlanis (150–1500); by country: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 267 · 207 · 56 |
+| Britain | edad-media | 11 (5500 BC to today) | curated: Alcock, Harper, Urlanis (150–1500); by country: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 269 · 208 · 56 |
 | Finland | edad-media | 5 (1150 to today) | by country: FIN | 5 · 2 · 4 | 2 · 2 · 1 |
 | France | edad-media | 12 (5800 BC to today) | curated: Frier, Harper, Russell (14–1450); by country: FRA, MCO | 10 · 19 · 17 | 267 · 247 · 52 |
-| Germany and the Low Countries | edad-media | 11 (5500 BC to today) | curated: Urlanis (1000–1500); by country: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 150 · 157 · 35 |
+| Germany and the Low Countries | edad-media | 11 (5500 BC to today) | curated: Urlanis (1000–1500); by country: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 150 · 158 · 35 |
 | Hungary | edad-media | 12 (6000 BC to today) | curated: Russell (500–1450); by country: HUN, SVK | 16 · 17 · 15 | 19 · 27 · 6 |
-| Iberian Peninsula | edad-media | 12 (5600 BC to today) | curated: Frier, Harper, Russell (14–1450); by country: ESP, PRT, AND, GIB | 15 · 21 · 22 | 178 · 183 · 49 |
+| Iberian Peninsula | edad-media | 12 (5600 BC to today) | curated: Frier, Harper, Russell (14–1450); by country: ESP, PRT, AND, GIB | 15 · 21 · 22 | 178 · 189 · 49 |
 | Iceland | edad-media | 6 (410 to today) | curated: Censo de Islandia de 1703 (1703–1703); by country: ISL | 3 · 2 · 2 | 8 · 6 · 2 |
 | Ireland | edad-media | 9 (5500 BC to today) | curated: Urlanis (1000–1500); by country: IRL | 5 · 8 · 10 | 124 · 51 · 21 |
 | Poland | edad-media | 11 (5500 BC to today) | curated: Russell (1000–1450); by country: POL | 3 · 9 · 6 | 20 · 29 · 5 |
@@ -76,8 +76,8 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 1 · 13 · 0 |
 | Nubia | egipto | 8 (2970 BC to 1821) | no series of its own; counted in Sudan and South Sudan | 10 · 8 · 10 | 1 · 3 · 0 |
 | Upper Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 0 · 2 · 1 |
-| Anatolia | mundo | 9 (1760 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 10 · 7 · 8 | 92 · 58 · 11 |
-| Central Andes | mundo | 8 (3000 BC to 2000) | by country: PER, BOL | 7 · 10 · 9 | 232 · 200 · 60 |
+| Anatolia | mundo | 9 (1760 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 10 · 7 · 8 | 94 · 61 · 11 |
+| Central Andes | mundo | 8 (3000 BC to 2000) | by country: PER, BOL | 7 · 10 · 9 | 234 · 201 · 60 |
 | China (Yellow River and Yangtze basins) | mundo | 12 (1760 BC to today) | curated: Hanshu, Sima Biao (2–140); by country: CHN, HKG, MAC | 8 · 2 · 4 | 8 · 19 · 4 |
 | Greece | mundo | 10 (1760 BC to 2000) | by country: GRC | 3 · 2 · 3 | 51 · 33 · 6 |
 | India (Indus and Ganges basins) | mundo | 9 (3300 BC to today) | by country: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 20 · 18 · 4 |
@@ -86,31 +86,31 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Mesoamerica | mundo | 7 (1760 BC to today) | by country: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 263 · 215 · 94 |
 | Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 4 · 5 · 5 | 37 · 36 · 6 |
 | Persia (Iranian Plateau) | mundo | 9 (2700 BC to 2000) | by country: IRN | 4 · 2 · 8 | 32 · 25 · 3 |
-| Río de la Plata | mundo | 7 (10000 BC to today) | by country: ARG, URY, PRY | 6 · 12 · 6 | 421 · 579 · 94 |
+| Río de la Plata | mundo | 7 (10000 BC to today) | by country: ARG, URY, PRY | 6 · 12 · 6 | 421 · 584 · 94 |
 | Armorica (Brittany) (in France) | mundo-celta | 7 (5000 BC to today) | no series of its own; counted in France | 3 · 11 · 10 | 9 · 14 · 2 |
-| Caledonia (in Britain) | mundo-celta | 7 (4000 BC to today) | no series of its own; counted in Britain | 6 · 10 · 11 | 0 · 16 · 6 |
+| Caledonia (in Britain) | mundo-celta | 7 (4000 BC to today) | no series of its own; counted in Britain | 6 · 10 · 11 | 4 · 19 · 6 |
 | Celtiberia (in Iberian Peninsula) | mundo-celta | 9 (5500 BC to today) | no series of its own; counted in Iberian Peninsula | 10 · 8 · 9 | 14 · 35 · 8 |
 | Cisalpine Gaul (in Italy) | mundo-celta | 10 (5500 BC to today) | no series of its own; counted in Italy | 7 · 13 · 12 | 1 · 24 · 1 |
-| Galatia (in Anatolia) | mundo-celta | 8 (1650 BC to today) | no series of its own; counted in Anatolia | 9 · 7 · 7 | 9 · 17 · 5 |
+| Galatia (in Anatolia) | mundo-celta | 8 (1650 BC to today) | no series of its own; counted in Anatolia | 9 · 7 · 7 | 11 · 20 · 5 |
 | Gallaecia (Galicia) (in Iberian Peninsula) | mundo-celta | 9 (4800 BC to today) | no series of its own; counted in Iberian Peninsula | 6 · 10 · 10 | 7 · 16 · 7 |
 | Noricum (in Germany and the Low Countries) | mundo-celta | 8 (5500 BC to today) | no series of its own; counted in Germany and the Low Countries | 7 · 11 · 10 | 1 · 10 · 3 |
 | Afghanistan | regiones-del-mundo | 7 (550 BC to today) | by country: AFG | — · — · — | 3 · 6 · 0 |
-| Andean Amazon (eastern Peru and Bolivia) | regiones-del-mundo | 5 (1682 to today) | no series of its own; counted in Central Andes | 6 · 7 · 9 | 27 · 43 · 6 |
-| Argentine Patagonia | regiones-del-mundo | 3 (1520 to today) | no series of its own; counted in Río de la Plata | 8 · 8 · 10 | 124 · 56 · 13 |
+| Andean Amazon (eastern Peru and Bolivia) | regiones-del-mundo | 5 (1682 to today) | no series of its own; counted in Central Andes | 6 · 7 · 9 | 27 · 44 · 6 |
+| Argentine Patagonia | regiones-del-mundo | 3 (1520 to today) | no series of its own; counted in Río de la Plata | 8 · 8 · 10 | 125 · 57 · 13 |
 | Aridoamerica (northern Mexico) | regiones-del-mundo | 4 (1546 to today) | no series of its own; counted in Mesoamerica | 5 · 8 · 6 | 23 · 32 · 4 |
 | Australia | regiones-del-mundo | 3 (1788 to today) | by country: AUS | — · — · — | 0 · 2 · 0 |
-| Brazil | regiones-del-mundo | 4 (1500 to today) | by country: BRA | 13 · 15 · 13 | 120 · 136 · 29 |
+| Brazil | regiones-del-mundo | 4 (1500 to today) | by country: BRA | 13 · 15 · 13 | 121 · 138 · 29 |
 | Caribbean | regiones-del-mundo | 5 (1492 to today) | by country: CUB, HTI, DOM, JAM, PRI, BHS, TTO, BRB, ATG, DMA, GRD, KNA, LCA, VCT, ABW, CUW, VIR, VGB, CYM, TCA, AIA, MSR, SXM, MAF, BLM, BES, GLP, MTQ | 14 · 21 · 23 | 146 · 117 · 29 |
 | Caucasus | regiones-del-mundo | 7 (300 BC to today) | by country: GEO, AZE | — · — · — | 0 · 1 · 0 |
 | Central Africa | regiones-del-mundo | 5 (1000 BC to today) | by country: TCD, CMR, CAF, GNQ, GAB, COG, COD, AGO, STP | — · — · — | 2 · 1 · 0 |
 | Central America (Honduras to Panama) | regiones-del-mundo | 4 (1502 to today) | by country: HND, NIC, CRI, PAN | 7 · 10 · 8 | 25 · 40 · 8 |
 | Central Asia | regiones-del-mundo | 8 (550 BC to today) | by country: KAZ, UZB, TKM, KGZ, TJK | 7 · 4 · 4 | 2 · 4 · 1 |
-| Chile | regiones-del-mundo | 5 (7000 BC to today) | by country: CHL | 12 · 14 · 12 | 74 · 114 · 19 |
+| Chile | regiones-del-mundo | 5 (7000 BC to today) | by country: CHL | 12 · 14 · 12 | 75 · 115 · 19 |
 | East Africa (Great Lakes and Swahili coast) | regiones-del-mundo | 5 (800 to today) | by country: KEN, UGA, TZA, RWA, BDI | — · — · — | 2 · 2 · 0 |
 | East Turkestan (Xinjiang) | regiones-del-mundo | 6 (200 BC to today) | no series of its own; counted in China (Yellow River and Yangtze basins) | — · — · — | 0 · 0 · 0 |
-| Eastern Paraguay | regiones-del-mundo | 5 (1537 to today) | no series of its own; counted in Río de la Plata | 8 · 9 · 6 | 48 · 56 · 1 |
+| Eastern Paraguay | regiones-del-mundo | 5 (1537 to today) | no series of its own; counted in Río de la Plata | 8 · 9 · 6 | 49 · 60 · 1 |
 | Ethiopia and the Horn of Africa | regiones-del-mundo | 6 (980 BC to today) | by country: ETH, ERI, DJI, SOM | — · — · — | 0 · 2 · 0 |
-| Gran Chaco | regiones-del-mundo | 4 (1884 to today) | no series of its own; counted in Río de la Plata | 8 · 7 · 7 | 78 · 20 · 2 |
+| Gran Chaco | regiones-del-mundo | 4 (1884 to today) | no series of its own; counted in Río de la Plata | 8 · 7 · 7 | 78 · 22 · 2 |
 | Greenland | regiones-del-mundo | 5 (2500 BC to today) | by country: GRL | 8 · 4 · 5 | 20 · 23 · 6 |
 | Insulindia (Maritime Southeast Asia) | regiones-del-mundo | 5 (650 to today) | by country: IDN, MYS, SGP, BRN, PHL, TLS | — · — · — | 3 · 5 · 0 |
 | Japan | regiones-del-mundo | 8 (14000 BC to today) | by country: JPN | — · — · — | 9 · 5 · 1 |
@@ -126,7 +126,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Northeast India | regiones-del-mundo | 4 (350 to today) | no series of its own; counted in India (Indus and Ganges basins) | — · — · — | 1 · 1 · 0 |
 | Northern Russia | regiones-del-mundo | 5 (1100 to today) | no series of its own; counted in Rus' | — · — · — | 1 · 1 · 0 |
 | Northern South America | regiones-del-mundo | 5 (3800 BC to today) | by country: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 80 · 151 · 45 |
-| Northwestern Argentina and Cuyo | regiones-del-mundo | 4 (1480 to today) | no series of its own; counted in Río de la Plata | 8 · 7 · 6 | 150 · 137 · 21 |
+| Northwestern Argentina and Cuyo | regiones-del-mundo | 4 (1480 to today) | no series of its own; counted in Río de la Plata | 8 · 7 · 6 | 151 · 142 · 21 |
 | Polynesia | regiones-del-mundo | 4 (900 BC to today) | by country: WSM, ASM, TON, NIU, WLF, TKL, COK, PYF, TUV | — · — · — | 8 · 12 · 4 |
 | Russian Far East | regiones-del-mundo | 4 (1632 to today) | no series of its own; counted in Rus' | — · — · — | 3 · 3 · 0 |
 | Sahara (north) | regiones-del-mundo | 4 (9000 BC to today) | no series of its own; counted in Maghreb | — · — · — | 0 · 0 · 0 |

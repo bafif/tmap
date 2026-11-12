@@ -777,6 +777,87 @@
       "por_que_importa": "Es la obra de referencia sobre la Galacia antigua. Presenta a los gálatas como un pueblo que conservó durante siglos su organización tribal y su lengua mientras su aristocracia se helenizaba y se romanizaba; esa continuidad se apoya en pocos testimonios, y trabajos posteriores, como los de Altay Coşkun, discuten cuánto de la identidad gálata era herencia traída de Europa y cuánto se formó en la propia Anatolia.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "inscripciones-de-ancira-de-julio-severo",
+      "titulo": "Inscripciones de Ancira en honor de Cayo Julio Severo",
+      "titulo_original": "IGR III 174 = OGIS 543",
+      "autor": "Ciudad de Ancira",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 140,
+        "aprox": true,
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936
+      },
+      "trata": {
+        "regiones": [
+          "galacia",
+          "anatolia"
+        ],
+        "desde": 113,
+        "hasta": 139
+      },
+      "idioma_original": "Griego",
+      "soporte": "Inscripciones honoríficas",
+      "resumen": "Inscripciones halladas en Ancira que recogen la carrera de Cayo Julio Severo, miembro de la aristocracia de Asia Menor que en sus inscripciones se presenta como descendiente de reyes y tetrarcas celtas y macedonios. En su ciudad fue agoránomo, agonoteta y arconte, sacerdote del culto de los emperadores y sumo sacerdote de la provincia de Galacia, y se le titula «primero de los griegos». Los textos anotan que abasteció a las tropas que pasaron por Ancira en el invierno de 113-114, camino de la campaña parta de Trajano, y de nuevo en el otoño de 117; Adriano lo hizo senador. Después fue legado de legión en Siria, procónsul de Acaya, gobernador de Bitinia y Ponto y cónsul sufecto hacia 138.",
+      "por_que_importa": "Muestra cómo una familia que se decía de origen real gálata llegó al Senado romano en el siglo II.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cayo Julio Severo (cónsul sufecto)",
+        "en": "Gaius Julius Severus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "canones-del-concilio-de-ancira",
+      "titulo": "Cánones del Concilio de Ancira",
+      "titulo_original": "Canones Ancyrani",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 314,
+        "aprox": false,
+        "lugar": "Ancira (Ankara)",
+        "lon": 32.839,
+        "lat": 39.936
+      },
+      "trata": {
+        "regiones": [
+          "galacia",
+          "anatolia"
+        ],
+        "desde": 314,
+        "hasta": 314
+      },
+      "idioma_original": "Griego",
+      "soporte": "Cánones sinodales",
+      "resumen": "Veinticinco cánones del sínodo reunido en Ancira en 314, poco después de que cesara la persecución de Diocleciano y sus sucesores. Los nueve primeros fijan las penitencias para clérigos y laicos que habían renegado bajo la persecución; el resto trata de disciplina y jurisdicción eclesiásticas. El canon 13 es la primera prueba de los corepíscopos y los textos se cuentan entre las primeras pruebas del sistema escalonado de penitencia. La versión griega más antigua conservada es de los siglos IX o X.",
+      "por_que_importa": "Son una de las primeras pruebas de cómo la Iglesia trató la reincorporación de quienes habían renegado bajo la persecución, y se dictaron en la capital de la provincia de Galacia.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de los cánones (Nicene and Post-Nicene Fathers, II, 14) en New Advent",
+          "url": "https://www.newadvent.org/fathers/3802.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Cánones en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers%3A_Series_II/Volume_XIV/Additional_Canons_1/The_Council_of_Ancyra/Canons",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Concilio de Ancyra",
+        "en": "Synod of Ancyra"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3196,6 +3277,75 @@
       "wikipedia": {
         "es": "Idioma gálata",
         "en": "Galatian language"
+      }
+    },
+    {
+      "id": "galacia-unida-a-capadocia",
+      "titulo": "Galacia unida a Capadocia bajo un solo gobernador",
+      "anio": 70,
+      "anio_hasta": 111,
+      "aprox": true,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "politico",
+      "resumen": "Desde Vespasiano, la provincia romana de Galacia dejó de tener gobernador propio y compartió el legado de Capadocia. La lista de gobernadores de Bernard Rémy (1989) fija la unión entre 70 y 111, ya bajo Trajano. Después Galacia volvió a tener gobernadores propios.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "anatolia-mitchell"
+      ],
+      "wikipedia": {
+        "es": "Galacia (provincia romana)",
+        "en": "Galatia (Roman province)"
+      }
+    },
+    {
+      "id": "ocupacion-palmirena-de-galacia",
+      "titulo": "Ocupación palmirena de Galacia y reconquista de Aureliano",
+      "anio": 271,
+      "anio_hasta": 272,
+      "aprox": false,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "politico",
+      "resumen": "En 271 un ejército palmireno enviado por Zenobia, con operaciones iniciadas quizás por Zabbai y dirigidas por Zabdas desde la primavera de ese año, sometió Galacia y, según Zosimo, llegó a Ancira, el punto más al oeste de la expansión de Palmira. En la primavera de 272 Aureliano cruzó a Asia Menor y recuperó Ancira sin combate, porque las guarniciones palmirenas se habían retirado; solo Tiana resistió antes de rendirse. No se conocen inscripciones reales palmirenas ni monedas de Zenobia o Vabalato acuñadas en Asia Menor.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "historia-nueva-zosimo"
+      ],
+      "wikipedia": {
+        "es": "Imperio de Palmira",
+        "en": "Palmyrene Empire"
+      }
+    },
+    {
+      "id": "concilio-de-ancira",
+      "titulo": "Concilio de Ancira",
+      "anio": 314,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ancira (Ankara)",
+      "lon": 32.839,
+      "lat": 39.936,
+      "tipo": "religioso",
+      "resumen": "Sínodo reunido en Ancira, capital de la provincia de Galacia, en 314, después de la persecución de Diocleciano. Entre doce y dieciocho obispos, según las tres listas conservadas, aprobaron veinticinco cánones, entre ellos las penitencias para los que habían renegado bajo la persecución. Presidió Vital de Antioquía o Marcelo de Ancira, o ambos.",
+      "regiones": [
+        "galacia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "canones-del-concilio-de-ancira"
+      ],
+      "wikipedia": {
+        "es": "Concilio de Ancyra",
+        "en": "Synod of Ancyra"
       }
     }
   ],

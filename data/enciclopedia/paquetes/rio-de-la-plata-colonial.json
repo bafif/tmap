@@ -6163,7 +6163,8 @@
       "tipo": "economico",
       "resumen": "Para proteger el sistema de flotas que pasaba por Panamá y Lima, la Corona no autorizaba el comercio directo de Buenos Aires con Europa y el Brasil, salvo permisos limitados. En 1602 permitió por seis años exportar pequeñas cantidades de harina, cecina y sebo, y en 1618 autorizó dos navíos de registro por año. Con tan poco comercio legal, el contrabando, sobre todo con portugueses del Brasil, fue una parte central de la economía porteña del siglo XVII, como mostró el historiador Zacarías Moutoukias (1988).",
       "regiones": [
-        "rio-de-la-plata"
+        "rio-de-la-plata",
+        "iberia"
       ],
       "fuentes": [
         "relacion-de-acarete"
@@ -6198,7 +6199,8 @@
       "resumen": "Una real cédula de Felipe III del 16 de diciembre de 1617, a propuesta de Hernandarias, dividió la gobernación en dos: la del Guairá o Paraguay, con capital en Asunción, y la del Río de la Plata, con capital en Buenos Aires, que incluía Santa Fe, Corrientes y Concepción del Bermejo. El primer gobernador de Buenos Aires, Diego de Góngora, asumió en 1618.",
       "regiones": [
         "rio-de-la-plata",
-        "paraguay-oriental"
+        "paraguay-oriental",
+        "iberia"
       ],
       "fuentes": [],
       "wikipedia": {
@@ -6255,7 +6257,8 @@
       "regiones": [
         "rio-de-la-plata",
         "paraguay-oriental",
-        "noroeste-argentino"
+        "noroeste-argentino",
+        "iberia"
       ],
       "fuentes": [],
       "wikipedia": {
@@ -6324,9 +6327,10 @@
       "lon": -58.3758,
       "lat": -34.5947,
       "tipo": "economico",
-      "resumen": "Por el asiento firmado con Gran Bretaña en 1713, la Compañía del Mar del Sur instaló en Buenos Aires una factoría para la venta de esclavos africanos, con depósitos en la zona del actual Retiro. Funcionó con interrupciones por las guerras entre ambas coronas hasta fines de la década de 1730 y fue también una vía de contrabando británico. Antes, entre 1702 y 1713, el asiento había estado en manos de la Compañía francesa de Guinea, que también operó en Buenos Aires.",
+      "resumen": "Por el asiento firmado en Madrid con Gran Bretaña el 26 de marzo de 1713, la Compañía del Mar del Sur instaló en Buenos Aires una factoría para la venta de esclavos africanos, con depósitos en la zona del actual Retiro. Funcionó con interrupciones por las guerras entre ambas coronas hasta fines de la década de 1730 y fue también una vía de contrabando británico. Antes, entre 1702 y 1713, el asiento había estado en manos de la Compañía francesa de Guinea, que también operó en Buenos Aires.",
       "regiones": [
-        "rio-de-la-plata"
+        "rio-de-la-plata",
+        "iberia"
       ],
       "fuentes": [
         "tratado-del-asiento-1713",
@@ -7190,6 +7194,30 @@
       "fuentes": [],
       "wikipedia": {
         "es": "Tratado de Lisboa (1701)"
+      }
+    },
+    {
+      "id": "real-cedula-de-1640-sobre-armas-guaranies",
+      "titulo": "Real cédula de 1640 sobre las armas de fuego de los guaraníes",
+      "anio": 1640,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Madrid",
+      "lon": -3.703,
+      "lat": 40.417,
+      "tipo": "politico",
+      "resumen": "Una real cédula de Felipe IV, del 12 de mayo de 1640, permitió a los guaraníes de las reducciones jesuíticas usar armas de fuego para defenderse de las bandeiras paulistas, siempre que lo dispusiera antes el virrey del Perú. Hasta entonces se les vedaba por disposición real. La había gestionado el jesuita Antonio Ruiz de Montoya, que viajó a España en 1637-1638. Las armas de la batalla de Mbororé (1641) las habían autorizado antes el provincial Diego de Boroa, con la anuencia del gobernador de Asunción y de la Audiencia de Charcas; el permiso del virrey del Perú que exigía la cédula llegó en 1649.",
+      "regiones": [
+        "iberia",
+        "rio-de-la-plata",
+        "paraguay-oriental"
+      ],
+      "fuentes": [
+        "conquista-espiritual"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Mbororé",
+        "en": "Battle of Mbororé"
       }
     }
   ],

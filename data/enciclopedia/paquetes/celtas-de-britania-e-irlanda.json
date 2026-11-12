@@ -3185,6 +3185,87 @@
       "por_que_importa": "Es la obra de referencia sobre la Gales medieval, reeditada en 1991 como The Age of Conquest; algunos historiadores ingleses le reprocharon leer la expansión inglesa con categorías coloniales modernas.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "lapida-de-distancia-de-bridgeness",
+      "titulo": "Lápida de distancia de Bridgeness",
+      "titulo_original": "Bridgeness Distance Slab (RIB 2139)",
+      "autor": "Legio II Augusta",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 142,
+        "aprox": true,
+        "lugar": "Bridgeness (Bo'ness)",
+        "lon": -3.5837,
+        "lat": 56.0162
+      },
+      "trata": {
+        "regiones": [
+          "caledonia",
+          "britania"
+        ],
+        "desde": 142,
+        "hasta": 142
+      },
+      "idioma_original": "Latín",
+      "soporte": "Lápida de arenisca con inscripción y relieves",
+      "resumen": "Lápida que la Legio II Augusta dedicó a Antonino Pío al terminar su tramo del Muro de Antonino: la inscripción central declara que la legión completó 4.652 pasos. Los paneles laterales muestran un jinete romano y cuatro britanos desnudos (uno pisoteado, otro que huye con una lanza en la espalda, otro sentado y otro atado y decapitado), y el sacrificio de un toro, un cerdo y un carnero (suovetaurilia) antes de la obra. Es la mejor conservada de las lápidas de distancia que las legiones colocaron a lo largo del muro; se halló en 1868 y se guarda en el Museo Nacional de Escocia.",
+      "por_que_importa": "Es un documento de la época sobre la frontera norte del 142 y muestra cómo los constructores romanos representaban a los habitantes de la actual Escocia: una imagen de propaganda, no un retrato.",
+      "leer": [
+        {
+          "titulo": "Inscripción y descripción en Roman Inscriptions of Britain (RIB 2139)",
+          "url": "https://romaninscriptionsofbritain.org/inscriptions/2139",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Bridgeness Slab"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "panegirico-anonimo-a-constantino-310",
+      "titulo": "Panegírico anónimo a Constantino (310)",
+      "titulo_original": "Panegyricus Constantino Augusto dictus (Panegyrici Latini VI [7])",
+      "autor": "Orador galo anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 310,
+        "aprox": false,
+        "lugar": "Tréveris",
+        "lon": 6.639,
+        "lat": 49.756
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "caledonia"
+        ],
+        "desde": 305,
+        "hasta": 306
+      },
+      "idioma_original": "Latín",
+      "soporte": "Panegírico",
+      "resumen": "Discurso pronunciado en la corte de Constantino en Tréveris en 310. Al repasar la vida de su padre Constancio, dice que su última expedición no buscó «trofeos británicos», como se creía, sino que llegó al límite de las tierras, y que no le interesaban «los bosques y pantanos de los caledonios y otros pictos», ni Hibernia ni Tule. Es la única mención contemporánea de Caledonia ligada a la campaña de 305-306 y es retórica: no da itinerario ni resultados.",
+      "por_que_importa": "Documenta que, a comienzos del siglo IV, Roma volvió a operar en el norte de Britania, y deja ver cómo se hablaba de los pictos desde la corte.",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource (el capítulo VII trata de la última expedición de Constancio)",
+          "url": "https://la.wikisource.org/wiki/Panegyricus_Constantini_%28Eumenius%29",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Panegyrici Latini",
+        "en": "Panegyrici Latini"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5801,10 +5882,12 @@
       "tipo": "construccion",
       "resumen": "Muralla de turba de unos 60 kilómetros entre el Forth y el Clyde que Antonino Pío mandó construir desde 142, según la Historia Augusta, después de una campaña de Lolio Úrbico en el sur de Escocia. Se abandonó hacia 160 y el ejército volvió al muro de Adriano; sus «losas de distancia» con relieves de legionarios venciendo a britanos son de las mejores fuentes sobre cómo Roma representaba esa guerra.",
       "regiones": [
-        "britania"
+        "britania",
+        "caledonia"
       ],
       "fuentes": [
-        "historia-augusta"
+        "historia-augusta",
+        "lapida-de-distancia-de-bridgeness"
       ],
       "wikipedia": {
         "es": "Muro de Antonino",
@@ -5851,7 +5934,8 @@
         "caledonia"
       ],
       "fuentes": [
-        "panegirico-de-constancio"
+        "panegirico-de-constancio",
+        "panegirico-anonimo-a-constantino-310"
       ],
       "wikipedia": {
         "es": "Pictos",
@@ -5870,7 +5954,8 @@
       "tipo": "batalla",
       "resumen": "Amiano Marcelino (XXVII.8) cuenta que en 367 pictos, escotos de Irlanda y atacotos atacaron Britania a la vez que francos y sajones atacaban la Galia, que mataron al conde de la costa y que el duque de Britania cayó en una emboscada. El conde Teodosio, padre del emperador del mismo nombre, restableció el control en 368; la idea de un ataque coordinado es del historiador y se discute.",
       "regiones": [
-        "britania"
+        "britania",
+        "caledonia"
       ],
       "fuentes": [
         "res-gestae-amiano"
@@ -6677,6 +6762,29 @@
       "wikipedia": {
         "es": "Batalla de Deorham",
         "en": "Battle of Deorham"
+      }
+    },
+    {
+      "id": "campana-de-constancio-contra-los-pictos",
+      "titulo": "Campaña de Constancio I contra los pictos",
+      "anio": 305,
+      "anio_hasta": 306,
+      "aprox": false,
+      "lugar": "York",
+      "lon": -1.083,
+      "lat": 53.95,
+      "tipo": "batalla",
+      "resumen": "En 305 Constancio I, ya augusto, cruzó a Britania, viajó hasta el norte de la isla y lanzó una expedición contra los pictos; hacia el 7 de enero de 306 se atribuyó el título Britannicus Maximus II. Pasó el invierno en Eboraco (York) y murió allí el 25 de julio de 306, sin haber continuado la campaña; las tropas proclamaron emperador a su hijo Constantino.",
+      "regiones": [
+        "britania",
+        "caledonia"
+      ],
+      "fuentes": [
+        "panegirico-anonimo-a-constantino-310"
+      ],
+      "wikipedia": {
+        "es": "Constancio I",
+        "en": "Constantius Chlorus"
       }
     }
   ],

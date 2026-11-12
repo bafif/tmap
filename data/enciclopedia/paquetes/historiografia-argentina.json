@@ -3313,6 +3313,45 @@
         "es": "Día de la Soberanía Nacional",
         "en": "National Sovereignty Day"
       }
+    },
+    {
+      "id": "revista-imago-mundi",
+      "titulo": "Revista Imago Mundi de José Luis Romero",
+      "anio": 1953,
+      "anio_hasta": 1956,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "cultural",
+      "resumen": "Revista de historia cultural que José Luis Romero editó en Buenos Aires entre 1953 y 1956. Se cuenta entre los emprendimientos con los que Romero impulsó la renovación historiográfica de mediados de la década de 1950, que incorporó las perspectivas de la historia cultural y la historia social.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "José Luis Romero (historiador)"
+      }
+    },
+    {
+      "id": "ano-del-libertador-general-san-martin",
+      "titulo": "Año del Libertador General San Martín",
+      "anio": 1950,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El presidente Juan Domingo Perón denominó 1950 «Año del Libertador General San Martín», al cumplirse cien años de la muerte de José de San Martín. Es una de las conmemoraciones estatales de la figura de San Martín, que el Ejército y el Instituto Nacional Sanmartiniano venían promoviendo desde la década de 1930.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Libertador",
+        "en": "Libertadores"
+      }
     }
   ],
   "lugares": [

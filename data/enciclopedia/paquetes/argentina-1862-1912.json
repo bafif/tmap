@@ -2151,6 +2151,79 @@
         "es": "La Protesta"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "discurso-de-avellaneda-en-tucuman-1876",
+      "titulo": "Discurso del Presidente de la República en la inauguración del Ferro-carril Central del Norte",
+      "titulo_original": null,
+      "autor": "Nicolás Avellaneda",
+      "autor_id": "avellaneda",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1876,
+        "aprox": false,
+        "lugar": "San Miguel de Tucumán",
+        "lon": -65.217,
+        "lat": -26.817
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1876,
+        "hasta": 1876
+      },
+      "idioma_original": "Español",
+      "soporte": "Discurso impreso",
+      "resumen": "Discurso que el presidente Nicolás Avellaneda pronunció en Tucumán el 30 de octubre de 1876, al inaugurar la línea del Ferrocarril Central Norte desde Córdoba. El impreso de ese año lleva la fecha «30 de Octubre de 1876» al pie.",
+      "por_que_importa": "Es el documento de la época que fija la fecha de la inauguración y muestra cómo el presidente presentó la obra ante la provincia.",
+      "leer": [
+        {
+          "titulo": "Transcripción del impreso de 1876 en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Discurso_del_Presidente_de_la_Rep%C3%BAblica_en_la_inauguraci%C3%B3n_del_Ferrocarril_Central_del_Norte",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "protocolo-de-limites-1893",
+      "titulo": "Protocolo de límites entre Chile y Argentina",
+      "titulo_original": null,
+      "autor": "Isidoro Errázuriz y Norberto Quirno Costa",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1893,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "chile"
+        ],
+        "desde": 1893,
+        "hasta": 1902
+      },
+      "idioma_original": "Español",
+      "soporte": "Protocolo",
+      "resumen": "Protocolo firmado en Santiago de Chile el 1 de mayo de 1893 por el ministro de Guerra y Marina chileno Isidoro Errázuriz, como plenipotenciario ad hoc, y el enviado argentino Norberto Quirno Costa. Su artículo segundo declara que, a juicio de los dos gobiernos y según el espíritu del tratado, la Argentina conserva el dominio sobre el territorio al oriente del encadenamiento principal de los Andes hasta el Atlántico, y Chile sobre el occidental hasta el Pacífico.",
+      "por_que_importa": "Es el texto en el que se apoyan las dos interpretaciones del límite en el sur, y es la base del laudo británico de 1902.",
+      "leer": [
+        {
+          "titulo": "Texto del protocolo en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Protocolo_de_l%C3%ADmites_entre_Chile_y_Argentina_1893",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -7083,6 +7156,73 @@
       "wikipedia": {
         "es": "Defensa de Paysandú",
         "en": "Siege of Paysandú"
+      }
+    },
+    {
+      "id": "llegada-del-ferrocarril-central-norte-a-tucuman",
+      "titulo": "Llegada del Ferrocarril Central Norte a Tucumán",
+      "anio": 1876,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Miguel de Tucumán",
+      "lon": -65.217,
+      "lat": -26.817,
+      "tipo": "construccion",
+      "resumen": "El 30 de octubre de 1876 se inauguró la línea de trocha métrica que el Estado había hecho tender desde Córdoba hasta Tucumán (547 km), prevista por una ley de 1868 y construida desde 1873 por la Compañía Telfner. En el tren llegó el presidente Nicolás Avellaneda, tucumano de nacimiento. El Gobierno nacional asumió la administración directa de la línea el 28 de diciembre de 1876 y la explotación estatal empezó el 10 de enero de 1877.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "discurso-de-avellaneda-en-tucuman-1876"
+      ],
+      "wikipedia": {
+        "es": "Ferrocarril Central Norte Argentino",
+        "en": "Central Northern Railway"
+      }
+    },
+    {
+      "id": "venta-del-ferrocarril-central-norte-1887",
+      "titulo": "Venta del Ferrocarril Central Norte",
+      "anio": 1887,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Miguel de Tucumán",
+      "lon": -65.217,
+      "lat": -26.817,
+      "tipo": "economico",
+      "resumen": "La ley 2203 del 28 de octubre de 1887, en la presidencia de Juárez Celman, autorizó al Poder Ejecutivo a enajenar la línea de Córdoba a Tucumán con sus ramales a Santiago del Estero y a Chumbicha (884 km). Un decreto del 31 de diciembre de 1887 aceptó la oferta de Hume Hnos. y Cía. por 16 millones de pesos oro, con una garantía estatal del 5 % de interés durante quince años sobre ese capital y sobre más de 5 millones que se invertirían en refacciones. Los Hume transfirieron sus derechos a una sociedad formada en Londres, el Ferrocarril Central de Córdoba; el Estado conservó el tramo de Tucumán hacia el norte. Raúl Scalabrini Ortiz (1940) sostiene, en general, que las garantías estatales a los ferrocarriles sirvieron a los intereses británicos.",
+      "regiones": [
+        "noroeste-argentino"
+      ],
+      "fuentes": [
+        "historia-de-los-ferrocarriles-argentinos"
+      ],
+      "wikipedia": {
+        "es": "Ferrocarril Central Norte Argentino",
+        "en": "Central Northern Railway"
+      }
+    },
+    {
+      "id": "protocolo-de-limites-de-1893",
+      "titulo": "Protocolo adicional y aclaratorio al tratado de límites con Chile",
+      "anio": 1893,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.438,
+      "tipo": "tratado",
+      "resumen": "El 1 de mayo de 1893 el ministro de Guerra y Marina chileno Isidoro Errázuriz, como plenipotenciario ad hoc, y el plenipotenciario argentino Norberto Quirno Costa firmaron un protocolo que aclaraba el tratado de 1881 ante los problemas de la demarcación: el límite en Tierra del Fuego (los peritos habían reconocido el 8 de mayo de 1890 que la longitud que el tratado daba al cabo del Espíritu Santo, tomada de las cartas de FitzRoy, era errónea) y los fiordos del Pacífico, como el seno Última Esperanza. Argentina lo entiende como el reconocimiento de un principio oceánico (ni Chile hacia el Atlántico ni Argentina hacia el Pacífico); Chile sostiene que solo aclaraba los territorios al norte del paralelo 52° S. Sobre su base, el laudo británico de noviembre de 1902 resolvió el seno Última Esperanza.",
+      "regiones": [
+        "chile",
+        "patagonia"
+      ],
+      "fuentes": [
+        "protocolo-de-limites-1893",
+        "tratado-de-limites-1881"
+      ],
+      "wikipedia": {
+        "es": "Protocolo de límites de 1893 entre Argentina y Chile"
       }
     }
   ],
