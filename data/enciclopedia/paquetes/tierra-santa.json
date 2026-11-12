@@ -6498,7 +6498,10 @@
       "escrita": {
         "anio": 1095,
         "anio_hasta": 1100,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Schaffhausen (abadía de Todos los Santos)",
+        "lon": 8.6349,
+        "lat": 47.6975
       },
       "trata": {
         "regiones": [
@@ -6662,7 +6665,9 @@
       "escrita": {
         "anio": 1108,
         "aprox": false,
-        "lugar": "Nogent-sous-Coucy"
+        "lugar": "Nogent-sous-Coucy",
+        "lon": 3.31,
+        "lat": 49.53
       },
       "trata": {
         "regiones": [
@@ -7007,7 +7012,10 @@
       "genero": "cronica",
       "escrita": {
         "anio": 1220,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Londres (priorato de la Santa Trinidad)",
+        "lon": -0.0755,
+        "lat": 51.514
       },
       "trata": {
         "regiones": [
@@ -7570,7 +7578,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 1462,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Mitilene (Lesbos, probablemente)",
+        "lon": 26.554,
+        "lat": 39.11
       },
       "trata": {
         "regiones": [
@@ -10991,7 +11002,10 @@
       "genero": "religioso",
       "escrita": {
         "anio": 240,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Cesarea Marítima (probablemente)",
+        "lon": 34.8917,
+        "lat": 32.5
       },
       "trata": {
         "regiones": [],

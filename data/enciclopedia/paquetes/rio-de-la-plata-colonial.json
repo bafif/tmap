@@ -428,7 +428,9 @@
       "escrita": {
         "anio": 1528,
         "aprox": false,
-        "lugar": "San Salvador (río Uruguay)"
+        "lugar": "San Salvador (río Uruguay)",
+        "lon": -58.35,
+        "lat": -33.5
       },
       "trata": {
         "regiones": [
@@ -6824,7 +6826,7 @@
       "anio": 1628,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Caaró, actual Río Grande del Sur",
+      "lugar": "Caaró (municipio de Caibaté, Río Grande del Sur)",
       "tipo": "religioso",
       "resumen": "El 15 de noviembre de 1628 fueron muertos en la reducción de Caaró los jesuitas Roque González de Santa Cruz y Alonso Rodríguez, y dos días después Juan del Castillo en otra reducción, por guaraníes encabezados por el cacique Ñezú, opuesto a las misiones. La Iglesia católica los canonizó en 1988.",
       "regiones": [
@@ -6832,7 +6834,9 @@
       ],
       "fuentes": [
         "conquista-espiritual"
-      ]
+      ],
+      "lon": -54.6378,
+      "lat": -28.2878
     },
     {
       "id": "exodo-del-guaira",
@@ -6944,7 +6948,7 @@
       "anio": 1756,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Caibaté, actual Río Grande del Sur",
+      "lugar": "Coxilha de Caiboaté (cerca de São Gabriel, Río Grande del Sur)",
       "tipo": "batalla",
       "resumen": "El 10 de febrero de 1756, tres días después de la muerte de Sepé Tiarayú, el ejército hispano-portugués, de unos 2.500 hombres, rodeó a las fuerzas guaraníes de Nicolás Ñeenguirú (o Ñanguirú) en la colina de Caibaté. Según los partes de los vencedores murieron 1.511 guaraníes y 154 fueron hechos prisioneros, contra 4 muertos del lado aliado.",
       "regiones": [
@@ -6952,7 +6956,9 @@
       ],
       "fuentes": [
         "tratado-de-madrid-1750"
-      ]
+      ],
+      "lon": -54.32,
+      "lat": -30.34
     },
     {
       "id": "hospital-san-roque-legado",

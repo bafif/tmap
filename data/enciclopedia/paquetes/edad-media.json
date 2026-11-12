@@ -11442,7 +11442,9 @@
       "escrita": {
         "anio": 1022,
         "aprox": true,
-        "lugar": "Játiva"
+        "lugar": "Játiva",
+        "lon": -0.5207,
+        "lat": 38.9904
       },
       "trata": {
         "regiones": [
@@ -11940,7 +11942,9 @@
       "escrita": {
         "anio": 1425,
         "aprox": false,
-        "lugar": "Aragón o Castilla"
+        "lugar": "Soria (probablemente)",
+        "lon": -2.4649,
+        "lat": 41.7636
       },
       "trata": {
         "regiones": [
@@ -12069,7 +12073,9 @@
         "anio": 1120,
         "anio_hasta": 1130,
         "aprox": true,
-        "lugar": "Inglaterra"
+        "lugar": "Inglaterra (Bath, probablemente)",
+        "lon": -2.359,
+        "lat": 51.3811
       },
       "trata": {
         "regiones": [],
@@ -12480,7 +12486,9 @@
       "escrita": {
         "anio": 1308,
         "aprox": false,
-        "lugar": "Pisa"
+        "lugar": "Pisa",
+        "lon": 10.4017,
+        "lat": 43.7228
       },
       "trata": {
         "regiones": [],
@@ -14689,7 +14697,9 @@
         "anio": 1122,
         "anio_hasta": 1133,
         "aprox": false,
-        "lugar": "Islandia"
+        "lugar": "Islandia (Haukadalur, probablemente)",
+        "lon": -20.3003,
+        "lat": 64.3122
       },
       "trata": {
         "regiones": [
@@ -16454,7 +16464,9 @@
       "escrita": {
         "anio": 1486,
         "aprox": false,
-        "lugar": "Espira"
+        "lugar": "Espira",
+        "lon": 8.4311,
+        "lat": 49.3178
       },
       "trata": {
         "regiones": [
@@ -16603,7 +16615,10 @@
       "genero": "religioso",
       "escrita": {
         "anio": 423,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Hipona",
+        "lon": 7.7625,
+        "lat": 36.8986
       },
       "trata": {
         "regiones": [],
@@ -16775,7 +16790,10 @@
       "genero": "religioso",
       "escrita": {
         "anio": 1264,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Orvieto (probablemente)",
+        "lon": 12.1107,
+        "lat": 42.7185
       },
       "trata": {
         "regiones": [],
@@ -16804,7 +16822,10 @@
       "escrita": {
         "anio": 1380,
         "anio_hasta": 1386,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.0755,
+        "lat": 51.514
       },
       "trata": {
         "regiones": [],
@@ -16840,7 +16861,10 @@
       "escrita": {
         "anio": 1361,
         "anio_hasta": 1362,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Certaldo (probablemente)",
+        "lon": 11.0428,
+        "lat": 43.5489
       },
       "trata": {
         "regiones": [],
@@ -16904,7 +16928,10 @@
       "genero": "religioso",
       "escrita": {
         "anio": 809,
-        "aprox": true
+        "aprox": true,
+        "lugar": "Fulda (probablemente)",
+        "lon": 9.6808,
+        "lat": 50.5558
       },
       "trata": {
         "regiones": [],
@@ -17075,7 +17102,10 @@
       "genero": "legal",
       "escrita": {
         "anio": 1274,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Bergen (sede del rey)",
+        "lon": 5.3221,
+        "lat": 60.3913
       },
       "trata": {
         "regiones": [

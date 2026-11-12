@@ -2128,7 +2128,7 @@
       "anio": -279,
       "anio_hasta": null,
       "aprox": false,
-      "lugar": "Calión (Etolia)",
+      "lugar": "Calión (Etolia, cerca del actual Veloukhovo)",
       "tipo": "batalla",
       "resumen": "Para obligar a los etolios a dejar las Termópilas, Breno mandó a Combutis y Orestorio a atacar Etolia. Pausanias (X.22.2-4) describe la toma de Calión con la matanza de todos los varones, ancianos y niños, violaciones y canibalismo, y dice que los etolios, mujeres incluidas, los persiguieron en la retirada hasta casi exterminarlos. Es el pasaje más extremo de la imagen griega del bárbaro, y viene de una tradición etolia que después de la guerra presentaba a los etolios como los salvadores de Grecia.",
       "regiones": [
@@ -2137,7 +2137,9 @@
       "fuentes": [
         "descripcion-de-grecia-pausanias",
         "les-galates-en-grece-nachtergael"
-      ]
+      ],
+      "lon": 22.171,
+      "lat": 38.554
     },
     {
       "id": "ataque-galo-a-delfos",
