@@ -73,10 +73,6 @@ What's covered and what's missing, region by region, is in [the coverage report]
       these packages have no archived copy yet. On the map, El Tajín falls in Aridoamerica and La
       Venta, Izapa and Chiapa de Corzo in the Maya area, because the polygons are approximate; the Columbus monument is
       still at its old site in Buenos Aires. The English is machine translation and should be reviewed.
-- [ ] **The full test with the whole encyclopedia.** With the Indigenous peoples of the Americas it has not yet run end
-      to end, in Spanish or in English: it gets as far as the keyboard shortcuts (every entry, the families, legend,
-      timeline, charts and markers), and the editor step, which piled up a whole section's forms until it went over
-      3.8 GB, now waits one frame every 50 items, but it still has to be seen finishing.
 - [ ] **Curated estimates outside Europe and the Near East.** HYDE's per-country series cover everything, but the share
       of world population that also has a specialist estimate for its region (Russell, Urlanis, Butzer, DellaPergola,
       the Han censuses) goes from a third in year 1 to almost nothing in BC times and after 1600. Candidates: McEvedy

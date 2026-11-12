@@ -75,10 +75,6 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       Aridoamérica y La Venta, Izapa y Chiapa de Corzo en el área maya, porque los polígonos son aproximados; el
       monumento a Colón sigue en su sitio viejo de Buenos Aires. El inglés es traducción automática: conviene
       revisarlo.
-- [ ] **La prueba completa con la enciclopedia entera.** Con los pueblos originarios de América todavía no se corrió de
-      punta a punta, ni en español ni en inglés: llega hasta los atajos de teclado (todas las fichas, las familias,
-      leyenda, línea de tiempo, gráficos y marcadores), y el paso del editor, que acumulaba los formularios de una
-      sección entera hasta pasar los 3,8 GB, ahora espera un cuadro cada 50 elementos, pero falta verlo terminar.
 - [ ] **Estimaciones curadas fuera de Europa y el Cercano Oriente.** Las series por país de HYDE cubren todo, pero
       la parte de la población mundial que tiene además una estimación de especialistas para su región (Russell,
       Urlanis, Butzer, DellaPergola, los censos Han) va de un tercio en el año 1 a casi nada antes de Cristo y después
