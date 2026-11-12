@@ -2755,6 +2755,37 @@
         "en": "Medinet Habu"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "papiro-de-gurob",
+      "titulo": "Papiro de Gurob",
+      "titulo_original": null,
+      "autor": "Ptolomeo III",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": -246,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "levante",
+          "egipto"
+        ],
+        "desde": -246,
+        "hasta": -245
+      },
+      "idioma_original": "Griego",
+      "soporte": "Papiro",
+      "resumen": "Papiro hallado en Gurob, en el Fayum, que conserva un relato de la fase inicial de la Tercera Guerra Siria escrito por el propio Ptolomeo III: la marcha por la costa del Levante, la rendición de Seleucia y Antioquía y el hallazgo de que Berenice y su hijo habían sido asesinados.",
+      "por_que_importa": "Es el relato de un protagonista de una guerra de la que casi no quedan otras fuentes contemporáneas, y se lee junto a las inscripciones oficiales, que exageraron las conquistas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ptolomeo III",
+        "en": "Ptolemy III Euergetes"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -4001,6 +4032,55 @@
       "wikipedia": {
         "es": "Batalla del Delta",
         "en": "Battle of the Delta"
+      }
+    },
+    {
+      "id": "campana-de-necao-ii-en-siria",
+      "titulo": "Necao II en Siria y Carquemis",
+      "anio": -609,
+      "anio_hasta": -605,
+      "aprox": false,
+      "lugar": "Meguido",
+      "lon": 35.184,
+      "lat": 32.585,
+      "tipo": "batalla",
+      "resumen": "En 609 a. C. el faraón Necao II llevó su ejército por la costa de Palestina y Siria; en Meguido dio muerte al rey Josías de Judá, según 2 Reyes 23 (2 Crónicas 35 cuenta el encuentro de otro modo). Iba en ayuda de Assur-uballit II, el último rey asirio, que había perdido Harrán ante babilonios y medos; juntos la sitiaron sin tomarla. En 605 a. C. Nabucodonosor II lo derrotó en Carquemis; según 2 Reyes 24:7, el rey de Babilonia tomó entonces todo lo que era de Egipto desde el río de Egipto hasta el Éufrates.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "egipto"
+      ],
+      "fuentes": [
+        "tanaj",
+        "historias-de-herodoto-libros-ii-iii"
+      ],
+      "wikipedia": {
+        "es": "Necao II",
+        "en": "Necho II"
+      }
+    },
+    {
+      "id": "tercera-guerra-siria",
+      "titulo": "La Tercera Guerra Siria",
+      "anio": -246,
+      "anio_hasta": -241,
+      "aprox": false,
+      "lugar": "Antioquía",
+      "lon": 36.182,
+      "lat": 36.205,
+      "tipo": "batalla",
+      "resumen": "Al morir Antíoco II en 246 a. C., Ptolomeo III invadió Siria en apoyo de su hermana Berenice, a quien halló asesinada junto a su hijo en Antioquía; siguió la guerra contra Seleuco II, hijo de Laódice, y ocupó Antioquía y Seleucia, y, según documentos cuneiformes, llegó a Babilonia. En 241 a. C. la paz le dejó Seleucia de Pieria, el puerto de Antioquía, y el reino ptolemaico alcanzó su mayor extensión; las inscripciones oficiales exageraron las conquistas hasta incluir Bactria.",
+      "regiones": [
+        "siria",
+        "levante",
+        "egipto"
+      ],
+      "fuentes": [
+        "papiro-de-gurob"
+      ],
+      "wikipedia": {
+        "es": "Guerras sirias",
+        "en": "Syrian Wars"
       }
     }
   ],

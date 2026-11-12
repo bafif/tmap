@@ -2831,6 +2831,40 @@
         "en": "Down by the Salley Gardens"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "historia-de-los-celtas-pelloutier",
+      "titulo": "Historia de los celtas y particularmente de los galos y los germanos",
+      "titulo_original": "Histoire des Celtes, et particulièrement des Gaulois et des Germains, depuis les temps fabuleux jusqu'à la prise de Rome par les Gaulois",
+      "autor": "Simon Pelloutier",
+      "autor_id": "simon-pelloutier",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1740,
+        "anio_hasta": 1750,
+        "aprox": false,
+        "lugar": "La Haya",
+        "lon": 4.31,
+        "lat": 52.08
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": -1000,
+        "hasta": -390
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro, 2 volúmenes",
+      "resumen": "Historia de los celtas, con atención a los galos y a los germanos, desde los tiempos fabulosos hasta la toma de Roma por los galos. Una segunda edición, revisada y ampliada por Chiniac de la Bastide, apareció en París en 1771 y se tradujo al alemán entre 1777 y 1784.",
+      "por_que_importa": "Es una historia de los celtas del siglo XVIII que trata a galos y germanos.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Simon Pelloutier"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -4396,6 +4430,42 @@
         "en": "Lewis Jones (Patagonia)"
       },
       "wikidata": "Q3401048"
+    },
+    {
+      "id": "simon-pelloutier",
+      "nombre": "Simon Pelloutier",
+      "nacimiento": {
+        "anio": 1694,
+        "aprox": false,
+        "lugar": "Leipzig"
+      },
+      "muerte": {
+        "anio": 1757,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "activo": {
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517,
+        "desde": 1725,
+        "hasta": 1757,
+        "aprox": false
+      },
+      "roles": [
+        "pastor",
+        "historiador"
+      ],
+      "resumen": "Pastor protestante nacido en Leipzig, hijo de un comerciante de Lyon que el edicto de revocación de Nantes había expulsado de Francia. Sirvió en las iglesias francesas de Buchholtz, Magdeburgo y Berlín, y fue miembro (1743) y bibliotecario (1745) de la Academia de Ciencias de Berlín. Su obra principal es la Histoire des Celtes (La Haya, 1740-1750).",
+      "obras": [
+        "historia-de-los-celtas-pelloutier"
+      ],
+      "wikipedia": {
+        "en": "Simon Pelloutier"
+      },
+      "wikidata": "Q1547857"
     }
   ],
   "hechos": [
@@ -6028,6 +6098,49 @@
       "wikipedia": {
         "es": "Inmigración irlandesa en Argentina",
         "en": "Irish Argentines"
+      }
+    },
+    {
+      "id": "pezron-publica-la-antiguedad-de-los-celtas",
+      "titulo": "Pezron publica la Antigüedad de la nación y de la lengua de los celtas",
+      "anio": 1703,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "París",
+      "lon": 2.352,
+      "lat": 48.857,
+      "tipo": "cultural",
+      "resumen": "En 1703 el monje cisterciense bretón Paul-Yves Pezron publicó en París su obra sobre los celtas: sostuvo que descendían de Gomer, nieto de Noé, que los titanes de la mitología griega habían sido reyes celtas y que el bretón y el galés conservaban la lengua de los antiguos galos. La traducción inglesa de 1706 se leyó mucho en Gales; para Simon James (1999) y John Collis (2003) la obra, junto con la de Lhuyd, está en el nacimiento de la identidad celta moderna.",
+      "regiones": [
+        "francia",
+        "armorica"
+      ],
+      "fuentes": [
+        "antiguedad-de-la-nacion-de-los-celtas"
+      ],
+      "wikipedia": {
+        "en": "Paul-Yves Pezron"
+      }
+    },
+    {
+      "id": "pelloutier-publica-la-historia-de-los-celtas",
+      "titulo": "Pelloutier publica la Historia de los celtas",
+      "anio": 1740,
+      "anio_hasta": 1750,
+      "aprox": false,
+      "lugar": "La Haya",
+      "lon": 4.31,
+      "lat": 52.08,
+      "tipo": "cultural",
+      "resumen": "Simon Pelloutier, pastor de las iglesias francesas de Magdeburgo y de Berlín, publicó en La Haya, entre 1740 y 1750, en dos volúmenes, la Histoire des Celtes, et particulièrement des Gaulois et des Germains, desde los tiempos fabulosos hasta la toma de Roma por los galos. Chiniac de la Bastide dio una segunda edición, revisada y ampliada sobre los manuscritos del autor (París, 1771), que se tradujo al alemán entre 1777 y 1784.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [
+        "historia-de-los-celtas-pelloutier"
+      ],
+      "wikipedia": {
+        "en": "Simon Pelloutier"
       }
     }
   ],

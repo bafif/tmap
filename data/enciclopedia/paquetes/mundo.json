@@ -8081,6 +8081,465 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "tablillas-de-nuzi",
+      "titulo": "Tablillas de Nuzi",
+      "titulo_original": "Nuzi tablets",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": -1450,
+        "anio_hasta": -1350,
+        "aprox": true,
+        "lugar": "Nuzi (Yorghan Tepe)",
+        "lon": 44.248,
+        "lat": 35.302
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -1450,
+        "hasta": -1350
+      },
+      "idioma_original": "Acadio (dialecto con influencia hurrita)",
+      "soporte": "Tablillas de arcilla con escritura cuneiforme",
+      "resumen": "Unas 5000 tablillas halladas en Yorghan Tepe, la antigua Nuzi, cerca de Kirkuk (Irak), excavada desde 1925. La mayoría son documentos legales y comerciales de los siglos XV y XIV a. C., cuando era una pequeña ciudad provincial de población sobre todo hurrita bajo el reino de Mitani, y cerca de una cuarta parte trata los negocios de una sola familia. La cronología es discutida: los excavadores fechaban la destrucción de la ciudad hacia 1500 a. C. y trabajos posteriores proponen 1430-1330 a. C.",
+      "por_que_importa": "Es la mayor fuente directa sobre la vida cotidiana (herencias, deudas, tierras) del norte de Mesopotamia en tiempos de Mitani, un reino del que no se han hallado anales ni crónicas propios.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Nuzi",
+        "en": "Nuzi"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "epopeya-de-tukulti-ninurta",
+      "titulo": "Epopeya de Tukulti-Ninurta",
+      "titulo_original": "Tukulti-Ninurta Epic",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": -1210,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -1235,
+        "hasta": -1225
+      },
+      "idioma_original": "Acadio",
+      "soporte": "Tablillas de arcilla (varios fragmentos extensos)",
+      "resumen": "Poema épico asirio sobre la guerra de Tukulti-Ninurta I contra Kaštiliašu IV de Babilonia. Presenta al asirio como víctima de un rey que rompió sus juramentos, y a los dioses de Babilonia como abandonando sus santuarios; relata la guerra y la captura del rey casita.",
+      "por_que_importa": "Es el relato asirio más detallado de la guerra con Babilonia, pero está escrito solo desde el lado asirio y funciona como propaganda: Asiria tuvo que devolver la ciudad a los casitas tras las sublevaciones y la intervención de Elam. La Crónica P, babilónica, lo contrasta.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Tukulti-Ninurta Epic"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-p",
+      "titulo": "Crónica P (Crónica de los reyes casitas)",
+      "titulo_original": "Chronicle P",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -700,
+        "anio_hasta": -300,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": -1350,
+        "hasta": -1150
+      },
+      "idioma_original": "Acadio",
+      "soporte": "Fragmento de tablilla de arcilla (BM 92701, Museo Británico)",
+      "resumen": "Crónica de la segunda mitad del II milenio a. C., conservada en un fragmento de tablilla copiado por un escriba babilonio del I milenio. Es la única confirmación de que Tukulti-Ninurta I gobernó Babilonia siete años mediante gobernadores, y cuenta la sublevación casita que puso en el trono a Adad-šuma-uṣur y las incursiones del elamita Kidin-Ḫutrán.",
+      "por_que_importa": "A diferencia de la Historia Sincrónica asiria, cuenta los reveses babilonios junto a las victorias, y algunos historiadores la consideran imparcial, aunque confunde hechos de reyes con el mismo nombre.",
+      "leer": [
+        {
+          "titulo": "Traducción (ABC 22) en Livius.org",
+          "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-22-chronicle-p/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Crónica P",
+        "en": "Chronicle P"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "kudurru-de-sitti-marduk",
+      "titulo": "Kudurru de Šitti-Marduk",
+      "titulo_original": "Kudurru for Šitti-Marduk",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -1110,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": -1115,
+        "hasta": -1105
+      },
+      "idioma_original": "Acadio",
+      "soporte": "Mojón de piedra caliza blanca con relieves de dioses y texto cuneiforme",
+      "resumen": "Mojón de la época de Nabucodonosor I (fines del siglo XII a. C.) que registra los servicios militares de Šitti-Marduk, jefe casita aliado del rey: lo acompañó en una incursión en pleno verano contra Elam y dio el golpe decisivo en la derrota del rey elamita Ḫulteludiš-Inšušinak a orillas del río Ulaya. Es uno de al menos cuatro kudurru del rey; otro, según los estudiosos, cuenta la recuperación de la estatua de Marduk.",
+      "por_que_importa": "Es uno de los pocos documentos contemporáneos de ese reinado; los himnos y poemas que celebran la victoria son literarios y se discute cuánto tienen de historia.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Kudurru for Šitti-Marduk"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "inscripciones-de-sarduri-i-en-van",
+      "titulo": "Inscripciones de Sarduri I en la fortaleza de Van",
+      "titulo_original": "Sardurburg inscriptions",
+      "autor": "Sarduri I de Urartu",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -830,
+        "aprox": true,
+        "lugar": "Tushpa (Van)",
+        "lon": 43.343,
+        "lat": 38.5
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": -835,
+        "hasta": -825
+      },
+      "idioma_original": "Acadio (asirio)",
+      "soporte": "Inscripciones en los bloques de piedra de la construcción llamada Sardurburg o Madır Burcu",
+      "resumen": "Varias inscripciones iguales, en lengua asiria, que nombran a Sarduri I como constructor de una obra de bloques ciclópeos en el extremo occidental de la roca de Van. En ellas se titula «rey de la totalidad» y «rey de Nairi», a imitación de los reyes de Asiria. Se las considera el primer testimonio escrito de Urartu; sus primeros reyes escribieron en acadio, y la escritura en urartiano empieza con su hijo Ishpuini.",
+      "por_que_importa": "Muestran el origen asirio de la cultura política de Urartu y la fundación de Tushpa, capital urartea durante siglos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sardur I",
+        "en": "Sarduri I"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "obelisco-negro-de-salmanasar-iii",
+      "titulo": "Obelisco Negro de Salmanasar III",
+      "titulo_original": "Black Obelisk of Shalmaneser III",
+      "autor": "Salmanasar III de Asiria",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -825,
+        "aprox": true,
+        "lugar": "Nimrud (Kalhu)",
+        "lon": 43.329,
+        "lat": 36.098
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia",
+          "levante",
+          "anatolia"
+        ],
+        "desde": -858,
+        "hasta": -828
+      },
+      "idioma_original": "Acadio (cuneiforme asirio)",
+      "soporte": "Obelisco de piedra caliza negra con 20 relieves e inscripción",
+      "resumen": "Obelisco hallado por Layard en 1846 en Nimrud (Kalhu), hoy en el Museo Británico. Sus relieves muestran el tributo de cinco pueblos sometidos, entre ellos el de «Iaua de Bit-Humri», que casi todos los especialistas identifican con Jehú de Israel, y una larga inscripción con los anales del rey hasta su año 31. Nombra Parsua, la referencia más antigua al nombre que se vincula con los persas.",
+      "por_que_importa": "Es un monumento de propaganda real, levantado en una época de guerra civil. La identificación con Jehú la han cuestionado P. Kyle McCarter y Edwin Thiele.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Obelisco negro",
+        "en": "Black Obelisk of Shalmaneser III"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "shatapatha-brahmana",
+      "titulo": "Shatapatha Brahmana",
+      "titulo_original": "Śatapatha Brāhmaṇa",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": -900,
+        "anio_hasta": -600,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -900,
+        "hasta": -600
+      },
+      "idioma_original": "Sánscrito védico",
+      "soporte": "Transmisión oral; manuscritos medievales",
+      "resumen": "El más completo de los brahmanas, comentarios en prosa sobre los rituales védicos del Yajurveda blanco, con detalles de los altares de fuego, el simbolismo y la mitología; la tradición lo atribuye a Yajnavalkya. Su libro 14 contiene la Brihadaranyaka Upanishad. La fecha es incierta: Keith lo ubica entre los siglos VIII y VI a. C., Parpola hacia 700 a. C., otros proponen 1000-800 a. C. y Eggeling fechaba la versión escrita final hacia 300 a. C.",
+      "por_que_importa": "Recuerda a Janamejaya, rey de los kuru, y su sacrificio de caballo; es una de las fuentes sobre el reino kuru. Witzel critica las dataciones mucho más antiguas basadas en sus referencias astronómicas.",
+      "leer": [
+        {
+          "titulo": "Traducción de Eggeling (Sacred Books of the East, 1882-1900), en Internet Archive",
+          "url": "https://archive.org/details/satapathabrhma05eggeuoft",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Shatápatha-bráhmana",
+        "en": "Shatapatha Brahmana"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "brihadaranyaka-upanishad",
+      "titulo": "Brihadaranyaka Upanishad",
+      "titulo_original": "Bṛhadāraṇyaka Upaniṣad",
+      "autor": null,
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -700,
+        "anio_hasta": -600,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -700,
+        "hasta": -600
+      },
+      "idioma_original": "Sánscrito védico",
+      "soporte": "Transmisión oral; manuscritos medievales (los más antiguos, del siglo XII)",
+      "resumen": "Una de las upanishads más antiguas, parte final del Shatapatha Brahmana, atribuida por la tradición al sabio Yajnavalkya aunque compuesta con materiales anteriores. Trata del atman y del brahman e incluye el diálogo de Yajnavalkya con su esposa Maitreyi y la teoría del madhu. Patrick Olivelle la fecha en los siglos VII-VI a. C., con un siglo de margen; otras estimaciones van de 900 a 600 a. C., y él advierte que ninguna datación de estos textos es precisa a menos de unos siglos.",
+      "por_que_importa": "Es un texto fundador de varias escuelas del hinduismo y de la filosofía vedanta.",
+      "leer": [
+        {
+          "titulo": "Traducción de Max Müller (1884) en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_15",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Bṛihadāraṇyaka-upaniṣad",
+        "en": "Brihadaranyaka Upanishad"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "libro-antiguo-de-tang",
+      "titulo": "Libro antiguo de Tang",
+      "titulo_original": "Jiu Tangshu",
+      "autor": "Liu Xu y Zhao Ying",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 945,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 618,
+        "hasta": 907
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "200 capítulos",
+      "resumen": "Primera historia de la dinastía Tang, ordenada en 941 por Shi Jingtang, de los Jin posteriores, y presentada el 12 de julio de 945; se compiló rápido a partir de anales y otros documentos Tang hoy perdidos. Tiene anales imperiales (capítulos 1-20), tratados, biografías y noticias de los pueblos vecinos; su cobertura es densa para el Tang temprano y medio y escasa después de 847.",
+      "por_que_importa": "Fue la historia oficial de la dinastía hasta que la Nueva historia de Tang, de los Song, la reemplazó; el emperador Renzong de Song la juzgó mal organizada y mal investigada, y luego recuperó aceptación.",
+      "leer": [
+        {
+          "titulo": "Texto en chino en Wikisource",
+          "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8",
+          "idioma": "zh",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Libro de Tang",
+        "en": "Old Book of Tang"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ensayos-del-estanque-de-los-suenos",
+      "titulo": "Ensayos del Estanque de los Sueños",
+      "titulo_original": "Mengxi bitan",
+      "autor": "Shen Kuo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1088,
+        "aprox": false,
+        "lugar": "Zhenjiang",
+        "lon": 119.455,
+        "lat": 32.211
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 1041,
+        "hasta": 1088
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "30 capítulos (26 en la edición de 1166)",
+      "resumen": "Obra enciclopédica del polímata y funcionario Shen Kuo, escrita en 1088 durante su retiro forzado en una finca cerca de la actual Zhenjiang. Trata de medicina, matemática, astronomía, óptica, ingeniería, metalurgia y arqueología; es la única fuente que describe los tipos móviles de arcilla de Bi Sheng y la primera descripción conocida de la brújula de aguja magnética y de la declinación magnética.",
+      "por_que_importa": "Sin esta obra no se sabría de Bi Sheng. Se conserva reorganizada en ediciones posteriores, y la única copia de la edición de 1166 está en Japón.",
+      "leer": [
+        {
+          "titulo": "Texto en chino en Wikisource",
+          "url": "https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87",
+          "idioma": "zh",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ensayos del Estanque de los Sueños",
+        "en": "Dream Pool Essays"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-song",
+      "titulo": "Historia de Song",
+      "titulo_original": "Song shi",
+      "autor": "Toqto'a y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1346,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 960,
+        "hasta": 1279
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "496 capítulos",
+      "resumen": "Historia oficial de la dinastía Song (960-1279), una de las Veinticuatro Historias, ordenada en 1343 bajo la dinastía mongola Yuan, que sucedió a los Song, y publicada en 1346 en Zhejiang. Tiene anales imperiales, tratados y más de 2000 biografías; la hicieron en dos años y medio.",
+      "por_que_importa": "Es la fuente china principal del período, escrita por los sucesores de la dinastía vencida y no por los contemporáneos de los hechos.",
+      "leer": [
+        {
+          "titulo": "Texto en chino en Wikisource",
+          "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+          "idioma": "zh",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia de Song",
+        "en": "History of Song (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "res-gestae-divi-saporis",
+      "titulo": "Res Gestae Divi Saporis (inscripción de Sapor I en la Ka'ba-ye Zartosht)",
+      "titulo_original": "Res Gestae Divi Saporis",
+      "autor": "Sapor I",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 262,
+        "aprox": false,
+        "lugar": "Naqsh-e Rostam",
+        "lon": 52.875,
+        "lat": 29.989
+      },
+      "trata": {
+        "regiones": [
+          "persia",
+          "mesopotamia",
+          "levante",
+          "anatolia"
+        ],
+        "desde": 241,
+        "hasta": 260
+      },
+      "idioma_original": "Persa medio, parto y griego",
+      "soporte": "Inscripción",
+      "resumen": "Inscripción trilingüe grabada hacia 262 en la Ka'ba-ye Zartosht, en Naqsh-e Rostam. Sapor I da su genealogía, enumera las provincias de su imperio, cuenta sus campañas contra Roma y los fuegos sagrados que fundó. Según Sapor, Gordiano III murió en una batalla en Misiche, Filipo el Árabe le pagó 500 000 denarios y Valeriano fue capturado.",
+      "por_que_importa": "Es la inscripción más importante de la era sasánida y la versión persa de las guerras con Roma, que se contrasta con los relatos romanos.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Shapur I's inscription at the Ka'ba-ye Zartosht"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tablillas-de-pilos",
+      "titulo": "Tablillas en lineal B del palacio de Pilos",
+      "titulo_original": "Pylos Linear B tablets",
+      "autor": "Escribas del palacio de Pilos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": -1200,
+        "aprox": true,
+        "lugar": "Palacio de Néstor (Pilos)",
+        "lon": 21.695,
+        "lat": 37.027
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -1250,
+        "hasta": -1180
+      },
+      "idioma_original": "Griego micénico",
+      "soporte": "Tablillas de arcilla (1087 fragmentos en el palacio de Néstor)",
+      "resumen": "Archivo de tablillas en lineal B hallado en el palacio de Néstor, en Pilos, la mayor fuente de este tipo en Grecia. Las conservó el incendio que destruyó el palacio hacia 1180 a. C.; mencionan preparativos de defensa apresurados ante un ataque inminente, sin decir quién atacaba.",
+      "por_que_importa": "Muestran cómo se administraba un Estado micénico y qué pasaba justo antes de su caída.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Palacio de Néstor",
+        "en": "Palace of Nestor"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -11975,6 +12434,505 @@
       "wikipedia": {
         "es": "Siyaj Kʼakʼ",
         "en": "Siyaj Kʼakʼ"
+      }
+    },
+    {
+      "id": "toma-de-babilonia-por-tukulti-ninurta-i",
+      "titulo": "Tukulti-Ninurta I de Asiria toma Babilonia",
+      "anio": -1225,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Babilonia",
+      "lon": 44.421,
+      "lat": 32.536,
+      "tipo": "batalla",
+      "resumen": "Hacia 1225 a. C. (cronología media) el rey asirio Tukulti-Ninurta I derrota a Kaštiliašu IV, rey casita de Babilonia, y toma la ciudad. Según la Crónica P, babilónica y copiada en el I milenio, derribó las murallas, pasó a cuchillo a los babilonios y se llevó a Asiria la estatua de Marduk; Babilonia fue gobernada siete años por funcionarios suyos, hasta que los oficiales acadios de Karduniaš se sublevaron y pusieron en el trono a Adad-šuma-uṣur. Su epopeya, escrita desde el lado asirio, presenta a Kaštiliašu como violador de juramentos.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "epopeya-de-tukulti-ninurta",
+        "cronica-p"
+      ],
+      "wikipedia": {
+        "es": "Tukultininurta I",
+        "en": "Tukulti-Ninurta I"
+      }
+    },
+    {
+      "id": "nabucodonosor-i-recupera-la-estatua-de-marduk",
+      "titulo": "Nabucodonosor I derrota a Elam y recupera la estatua de Marduk",
+      "anio": -1110,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Susa",
+      "lon": 48.2547,
+      "lat": 32.1894,
+      "tipo": "batalla",
+      "resumen": "Nabucodonosor I (Nabû-kudurrī-uṣur I), de la segunda dinastía de Isin, invadió Elam en pleno verano: un kudurru de su reinado cuenta que, con ayuda del jefe casita Šitti-Marduk, derrotó al rey elamita Ḫulteludiš-Inšušinak a orillas del río Ulaya, y otro dice que recuperó la estatua de Marduk llevada a Elam. Ninguna fuente de la época ni posterior registra un saqueo de Susa, y se ha propuesto que el regreso de la estatua sea una tradición literaria del I milenio a. C. (himnos y poemas); la fecha de 1110 a. C. es aproximada, dentro de un reinado que algunos fechan de 1121 a 1100.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [
+        "kudurru-de-sitti-marduk"
+      ],
+      "wikipedia": {
+        "es": "Nabucodonosor I",
+        "en": "Nebuchadnezzar I"
+      }
+    },
+    {
+      "id": "sarduri-i-traslada-la-capital-de-urartu-a-tushpa",
+      "titulo": "Sarduri I traslada la capital de Urartu a Tushpa",
+      "anio": -830,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Tushpa (Van)",
+      "lon": 43.343,
+      "lat": 38.5,
+      "tipo": "politico",
+      "resumen": "Sarduri I, hijo de Lutipri, inicia una nueva dinastía de Urartu y establece la capital en Tushpa, la actual Van, junto al lago Van; hizo grabar en la fortaleza inscripciones en acadio asirio, con títulos copiados de los reyes de Asiria. El Obelisco Negro de Salmanasar III cuenta que en 832 a. C. su turtanu Dayyan-Assur venció a «Seduri» de Urartu; el reino no quedó sometido y Sarduri conservó el trono. Su reinado se fecha de 834 a 828 a. C. (Wikipedia en inglés, sobre Liverani) o de 832 a 825 (Wikipedia en español).",
+      "regiones": [
+        "armenia",
+        "anatolia"
+      ],
+      "fuentes": [
+        "inscripciones-de-sarduri-i-en-van"
+      ],
+      "wikipedia": {
+        "es": "Sardur I",
+        "en": "Sarduri I"
+      }
+    },
+    {
+      "id": "salmanasar-iii-en-parsua-y-contra-los-medos",
+      "titulo": "Salmanasar III llega a Parsua y ataca Media y regiones vecinas",
+      "anio": -834,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Parsua",
+      "lon": 46.5,
+      "lat": 35.2,
+      "tipo": "batalla",
+      "resumen": "En 834 a. C., según la historiografía que sigue los anales asirios, Salmanasar III salió de Parsua, en el Zagros centro-occidental, y atacó cuatro asentamientos de las regiones de Messi, Amadaya, Araziaš y Harhar; Amadaya se identifica con Media. Es el primer contacto asirio documentado con los medos y no tuvo consecuencias duraderas; el Obelisco Negro nombra Parsua, el nombre más antiguo que se vincula con los persas, aunque si Parsua y la Parsa de los persas son lo mismo es discutido.",
+      "regiones": [
+        "persia",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "obelisco-negro-de-salmanasar-iii"
+      ],
+      "wikipedia": {
+        "es": "Salmanasar III",
+        "en": "Shalmaneser III"
+      }
+    },
+    {
+      "id": "los-kuru-primer-reino-de-la-india-vedica",
+      "titulo": "Los kuru, primer reino de la India védica",
+      "anio": -1200,
+      "anio_hasta": -800,
+      "aprox": true,
+      "lugar": "Kurukshetra",
+      "lon": 76.85,
+      "lat": 29.971,
+      "tipo": "politico",
+      "resumen": "Alianza de las tribus bharata y puru en el actual Haryana y el alto Doab, con centro en Kurukshetra. Se la conoce solo por los textos védicos, sin inscripciones: el Atharvaveda (XX.127) alaba a Parikshit, «rey de los kuru», y el Shatapatha Brahmana recuerda a su hijo Janamejaya y su sacrificio de caballo. Se la ubica entre c. 1200 y 800 a. C. según la lingüística y se la identifica con la cultura arqueológica de la cerámica gris pintada; decayó tras ser derrotada por los salva y el centro de la cultura védica pasó a los panchala.",
+      "regiones": [
+        "india"
+      ],
+      "fuentes": [
+        "shatapatha-brahmana"
+      ],
+      "wikipedia": {
+        "es": "Kuru (India)",
+        "en": "Kuru kingdom"
+      }
+    },
+    {
+      "id": "rebelion-de-an-lushan",
+      "titulo": "Rebelión de An Lushan",
+      "anio": 755,
+      "anio_hasta": 763,
+      "aprox": false,
+      "lugar": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "tipo": "revolucion",
+      "resumen": "El general An Lushan, de origen sogdo-turco y gobernador militar de tres guarniciones del norte, se alzó el 16 de diciembre de 755, tomó Luoyang y se proclamó emperador de una dinastía Yan; el emperador Xuanzong huyó a Sichuan y Chang'an cayó en julio de 756. Los Tang recobraron las dos capitales a fines de 757 con ayuda uigur y la rebelión terminó el 17 de febrero de 763, tras An Lushan y tres jefes más. Los censos de 755 (52,9 millones) y 764 (16,9 millones) llevaron a hablar de 36 millones de muertos, pero historiadores como Fitzgerald y Bielenstein atribuyen buena parte de la diferencia a la ruina del sistema de registro y a las provincias del norte que dejaron de tributar.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "libro-antiguo-de-tang"
+      ],
+      "wikipedia": {
+        "es": "Rebelión de An Lushan",
+        "en": "An Lushan rebellion"
+      }
+    },
+    {
+      "id": "rebelion-de-huang-chao",
+      "titulo": "Rebelión de Huang Chao",
+      "anio": 874,
+      "anio_hasta": 884,
+      "aprox": false,
+      "lugar": "Chang'an",
+      "lon": 108.94,
+      "lat": 34.27,
+      "tipo": "revolucion",
+      "resumen": "Tras sequías e inundaciones que causaron hambre, y con impuestos en alza, Wang Xianzhi se alzó en 874 y Huang Chao, de familia de contrabandistas de sal, lo siguió; Huang recorrió el centro y el sur de China, tomó Guangzhou en 879 y Chang'an a comienzos de 881, donde se proclamó emperador de Qi, y murió en 884 tras ser expulsado en 883 por las fuerzas de Li Keyong. Fuentes árabes (Abu Zayd al-Sirafi, al-Masudi) cuentan que mató a 120 000 o 200 000 extranjeros musulmanes, judíos, cristianos y zoroastrianos en Guangzhou (Khanfu), pero las fuentes chinas no mencionan la matanza, Rossabi dice que las cifras están infladas y Shine Toshihiko duda de que Khanfu sea Guangzhou. Los Tang sobrevivieron hasta 907, pero sin poder real frente a los gobernadores militares.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "libro-antiguo-de-tang"
+      ],
+      "wikipedia": {
+        "en": "Huang Chao Rebellion"
+      }
+    },
+    {
+      "id": "bi-sheng-inventa-los-tipos-moviles",
+      "titulo": "Bi Sheng inventa los tipos móviles",
+      "anio": 1041,
+      "anio_hasta": 1048,
+      "aprox": false,
+      "lugar": "Bianjing (Kaifeng)",
+      "lon": 114.345,
+      "lat": 34.795,
+      "tipo": "cientifico",
+      "resumen": "Según Shen Kuo, en la era Qingli (1041-1048) un hombre sin cargo llamado Bi Sheng fabricó tipos móviles de arcilla cocida, uno por carácter, que se disponían en una placa de hierro con una mezcla de resina de pino, cera y ceniza de papel; se imprimía con dos moldes que se alternaban. Shen Kuo, en los Ensayos del Estanque de los Sueños (1088), es la única fuente de la invención, y en 1193 Zhou Bida atribuyó el método a Shen Kuo, que lo había registrado como invento de Bi Sheng; algunos autores adelantan la invención a 1039. No se sabe dónde trabajó Bi Sheng: la lápida que se le atribuye apareció en 1990 en Hubei.",
+      "regiones": [
+        "china"
+      ],
+      "fuentes": [
+        "ensayos-del-estanque-de-los-suenos"
+      ],
+      "wikipedia": {
+        "es": "Bi Sheng",
+        "en": "Bi Sheng"
+      }
+    },
+    {
+      "id": "batalla-de-yamen",
+      "titulo": "Batalla de Yamen",
+      "anio": 1279,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Yamen",
+      "lon": 113.08,
+      "lat": 22.23,
+      "tipo": "batalla",
+      "resumen": "El 19 de marzo de 1279 la flota de los Yuan, mongoles, al mando de Zhang Hongfan, destruyó frente a Yamen (Guangdong) a la flota de los Song del Sur: unos mil barcos encadenados, bajo Zhang Shijie, con el niño emperador Zhao Bing. El ministro Lu Xiufu se arrojó al mar con el emperador y la Historia de Song registra que, siete días después, más de cien mil cadáveres flotaban en el mar (la cifra de la historia oficial que compilaron los Yuan); con la muerte de Zhao Bing terminó la dinastía Song y los Yuan de Kublai Khan quedaron como dueños de toda China.",
+      "regiones": [
+        "china-meridional",
+        "china"
+      ],
+      "fuentes": [
+        "historia-de-song"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Yamen",
+        "en": "Battle of Yamen"
+      }
+    },
+    {
+      "id": "segunda-guerra-punica",
+      "titulo": "Segunda Guerra Púnica",
+      "anio": -218,
+      "anio_hasta": -201,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "batalla",
+      "resumen": "Entre 218 y 201 a. C. Roma y Cartago se disputaron el Mediterráneo occidental. Aníbal cruzó los Alpes desde Iberia y venció a los romanos en el Trebia (218), el lago Trasimeno (217) y Cannas (216), pero Roma siguió en la guerra, reconquistó la mayoría de las ciudades que se le habían pasado y conquistó las posesiones cartaginesas de Iberia; Escipión invadió África y venció a Aníbal en Zama (202), y Cartago pidió la paz en 201. Las fuentes principales son Polibio, que escribió después de 146 a. C. y de cuyo relato de la guerra falta mucho después de 216, y Livio, que según los historiadores modernos escribió abiertamente a favor de Roma y cuya fiabilidad en las batallas Goldsworthy considera a menudo dudosa; de Cartago no se conserva relato propio.",
+      "regiones": [
+        "italia",
+        "iberia",
+        "magreb"
+      ],
+      "fuentes": [
+        "ab-urbe-condita",
+        "historias-polibio"
+      ],
+      "wikipedia": {
+        "es": "Segunda guerra púnica",
+        "en": "Second Punic War"
+      }
+    },
+    {
+      "id": "batalla-de-carras",
+      "titulo": "Batalla de Carras",
+      "anio": -53,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Carras (Harrán)",
+      "lon": 39.025,
+      "lat": 36.871,
+      "tipo": "batalla",
+      "resumen": "En 53 a. C. el procónsul Marco Licinio Craso, que fue a Partia con el mando de Siria que le dio la ley Trebonia, contra la oposición del tribuno Ateyo Capitón y de Cicerón, que la llamó una guerra sin causa, fue derrotado cerca de Carras (hoy Harrán, en Turquía) por la caballería del spahbod parto Surena: arqueros a caballo y catafractos rodearon a las legiones, que no hallaron cómo responderles. Craso murió cuando una negociación de tregua terminó en violencia y la mayor parte de su ejército murió o fue capturado; su muerte puso fin al Primer Triunvirato. Plutarco atribuye la campaña a la codicia de Craso; el historiador Erich Gruen cree que buscaba enriquecer el tesoro público.",
+      "regiones": [
+        "persia",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Carras",
+        "en": "Battle of Carrhae"
+      }
+    },
+    {
+      "id": "batalla-de-hormizdagan",
+      "titulo": "Batalla de Hormizdagán",
+      "anio": 224,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ram Hormuz",
+      "lon": 49.604,
+      "lat": 31.28,
+      "tipo": "batalla",
+      "resumen": "En 224 (en abril) Ardashir I, rey de Persis, venció y mató en la llanura de Hormizdagán al rey arsácida Artabano IV; terminaron así casi cinco siglos de dominio parto en Irán y empezó la era sasánida. Ardashir tomó el título de «rey de reyes» y comenzó a conquistar el Erānšahr, aunque las grandes casas nobles partas conservaron su poder bajo los nuevos señores. El lugar no se ha hallado: Bal'ami lo sitúa en Ram Hormuz, en Juzestán, y al-Tabari cuenta que los dos reyes se citaron allí.",
+      "regiones": [
+        "persia"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Hormizdagán",
+        "en": "Battle of Hormozdgan"
+      }
+    },
+    {
+      "id": "captura-de-valeriano",
+      "titulo": "Valeriano, prisionero de Sapor I",
+      "anio": 260,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Edesa (Urfa)",
+      "lon": 38.782,
+      "lat": 37.15,
+      "tipo": "batalla",
+      "resumen": "En 260, entre Carras y Edesa, el rey sasánida Sapor I derrotó al emperador romano Valeriano, que fue capturado con lo que quedaba de su ejército: fue la primera vez que un emperador romano cayó prisionero. Lo cuenta el propio Sapor en su inscripción de Naqsh-e Rostam; las fuentes romanas son poco claras y Lactancio lo describe humillado por sus captores, mientras que el historiador Touraj Daryaee sostiene que fue enviado a Bishapur y vivió allí en condiciones relativamente buenas.",
+      "regiones": [
+        "anatolia",
+        "persia",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "res-gestae-divi-saporis"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Edesa",
+        "en": "Battle of Edessa"
+      }
+    },
+    {
+      "id": "ascenso-de-los-selyucidas",
+      "titulo": "Los selyúcidas toman Jorasán, Persia y Bagdad",
+      "anio": 1037,
+      "anio_hasta": 1055,
+      "aprox": false,
+      "lugar": "Merv",
+      "lon": 62.193,
+      "lat": 37.663,
+      "tipo": "politico",
+      "resumen": "Los turcomanos oguz de Tugril y Chaghri, los selyúcidas, tomaron Merv y Nishapur en 1037-1038; en 1040, en Dandanaqan, cerca de Merv, derrotaron al sultán ghaznávida Mas'ud I, que perdió la mayor parte de sus dominios occidentales. Tugril conquistó después Rayy y el oeste de Persia, y en 1055 entró en Bagdad por invitación del califa abasí y puso fin al dominio buyí; desde entonces el califa conservó el prestigio religioso y el sultán el poder efectivo.",
+      "regiones": [
+        "asia-central",
+        "persia",
+        "mesopotamia"
+      ],
+      "fuentes": [
+        "historia-completa"
+      ],
+      "wikipedia": {
+        "es": "Imperio selyúcida",
+        "en": "Seljuk Empire"
+      }
+    },
+    {
+      "id": "emirato-de-creta",
+      "titulo": "El emirato de Creta",
+      "anio": 824,
+      "anio_hasta": 961,
+      "aprox": false,
+      "lugar": "Candía (Heraclión)",
+      "lon": 25.134,
+      "lat": 35.34,
+      "tipo": "politico",
+      "resumen": "Exiliados andalusíes dirigidos por Abu Hafs Umar al-Iqritishi conquistaron Creta en 824 o en 827-828 (las fuentes musulmanas y las bizantinas no coinciden) y fundaron un emirato de hecho independiente, que reconocía la soberanía abasí. Durante unos 135 años los intentos bizantinos de recuperarla fracasaron, y sus flotas corsarias asolaron el Peloponeso, Eubea y las Cícladas. Nicéforo Focas la reconquistó en 960-961: según los cronistas bizantinos, se saqueó la ciudad, se derribaron mezquitas y murallas y los musulmanes fueron muertos o llevados cautivos. Casi no quedan fuentes cretenses, y la imagen del «nido de corsarios» viene de los bizantinos; los pocos datos musulmanes y las monedas muestran un Estado ordenado, con comercio con Egipto.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "teofanes-continuado"
+      ],
+      "wikipedia": {
+        "es": "Emirato de Creta",
+        "en": "Emirate of Crete"
+      }
+    },
+    {
+      "id": "colapso-de-los-palacios-micenicos",
+      "titulo": "El colapso de los palacios micénicos",
+      "anio": -1200,
+      "anio_hasta": -1050,
+      "aprox": true,
+      "lugar": "Palacio de Néstor (Pilos)",
+      "lon": 21.695,
+      "lat": 37.027,
+      "tipo": "desastre",
+      "resumen": "Entre c. 1250 y c. 1190 a. C. una serie de destrucciones alcanzó los centros de la Grecia continental: Tebas ardió, Pilos fue destruido por un incendio hacia 1180 y Micenas sufrió una segunda destrucción hacia 1190, que acabó con su papel de gran potencia. Terminó el sistema de palacios con su administración en lineal B, y siguieron los llamados siglos oscuros. Las causas se discuten: se propusieron una invasión doria y las acciones de los «Pueblos del Mar».",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "tablillas-de-pilos"
+      ],
+      "wikipedia": {
+        "es": "Civilización micénica",
+        "en": "Mycenaean Greece"
+      }
+    },
+    {
+      "id": "primeros-juegos-olimpicos",
+      "titulo": "Los primeros Juegos Olímpicos",
+      "anio": -776,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Olimpia",
+      "lon": 21.63,
+      "lat": 37.638,
+      "tipo": "cultural",
+      "resumen": "Según la tradición, que remonta a Aristóteles, los primeros Juegos Olímpicos se celebraron en 776 a. C. en el santuario de Zeus en Olimpia; la fecha no se puede comprobar, pero los hallazgos arqueológicos confirman, aproximadamente, que empezaron entonces o poco después. Se celebraban cada cuatro años, y la cuenta por olimpíadas, que se atribuye a Hipias de Elide, a Eratóstenes o a Timeo, sirvió para fechar. Pausanias cuenta que al principio solo se corría el estadion, una carrera de unos 190 metros.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "descripcion-de-grecia-pausanias"
+      ],
+      "wikipedia": {
+        "es": "Juegos Olímpicos en la Antigüedad",
+        "en": "Ancient Olympic Games"
+      }
+    },
+    {
+      "id": "reformas-de-solon",
+      "titulo": "Las reformas de Solón en Atenas",
+      "anio": -594,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "tipo": "politico",
+      "resumen": "A comienzos del siglo VI a. C. (según Diógenes Laercio, en 594, cuando lo eligieron arconte) Solón abolió las deudas y liberó a los esclavos por deudas, en lo que se llamó la seisachtheia, y puso la riqueza y no el nacimiento como criterio para ocupar los cargos. Dividió a los ciudadanos en cuatro clases según lo que producían (pentacosiomedimnos, caballeros, zeugitas y tetes) y dio a la asamblea inferior el derecho de oír apelaciones. Plutarco lo describe con poderes extraordinarios para arbitrar entre las facciones.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [
+        "vidas-paralelas"
+      ],
+      "wikipedia": {
+        "es": "Sistema de Solón",
+        "en": "Solonian constitution"
+      }
+    },
+    {
+      "id": "batalla-del-granico",
+      "titulo": "Batalla del Gránico",
+      "anio": -334,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Río Gránico (Biga)",
+      "lon": 27.2,
+      "lat": 40.3,
+      "tipo": "batalla",
+      "resumen": "En mayo de 334 a. C., en el cruce del río Gránico, en la Tróade, Alejandro Magno derrotó al ejército de los sátrapas persas de Asia Menor: fue la primera de las tres grandes batallas entre Alejandro y el Imperio aqueménida. Según Arriano y Diodoro, Memnón de Rodas aconsejó a los persas evitar el combate abierto. Después de la batalla los persas quedaron a la defensiva en las ciudades que seguían bajo su control.",
+      "regiones": [
+        "anatolia",
+        "persia"
+      ],
+      "fuentes": [
+        "anabasis-de-alejandro-arriano"
+      ],
+      "wikipedia": {
+        "es": "Batalla del Gránico",
+        "en": "Battle of the Granicus"
+      }
+    },
+    {
+      "id": "campana-parta-de-trajano",
+      "titulo": "La campaña de Trajano contra los partos",
+      "anio": 113,
+      "anio_hasta": 117,
+      "aprox": false,
+      "lugar": "Ctesifonte",
+      "lon": 44.581,
+      "lat": 33.094,
+      "tipo": "batalla",
+      "resumen": "Entre 113 y 117 el emperador Trajano invadió el Imperio parto: ocupó Armenia, anexó el norte de Mesopotamia en 115 y en 116 tomó la capital parta, Ctesifonte, y navegó río abajo hasta el golfo Pérsico. Estallaron entonces revueltas en el Mediterráneo oriental, en el norte de África y en el norte de Mesopotamia, y una gran rebelión judía; Trajano no pudo tomar Hatra y puso en el trono a un príncipe parto, Partamaspates. Murió en 117 y los romanos se retiraron. Dion Casio atribuye la campaña solo al deseo de anexar territorio y de prestigio.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [
+        "historia-romana-dion-casio"
+      ],
+      "wikipedia": {
+        "es": "Campaña parta de Trajano",
+        "en": "Trajan's Parthian campaign"
+      }
+    },
+    {
+      "id": "los-buyies-toman-bagdad",
+      "titulo": "Los buyíes toman Bagdad",
+      "anio": 945,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bagdad",
+      "lon": 44.366,
+      "lat": 33.315,
+      "tipo": "politico",
+      "resumen": "En 945 Ahmad ibn Buya, el menor de tres hermanos de origen daylamita que habían conquistado Fars (934) y Rayy (943), entró en Irak y se hizo con el control de Bagdad, lo que dejó a la corte abasí sin otra salida que reconocerlo. Recibió el título de Mu'izz al-Dawla. Los buyíes revivieron símbolos sasánidas y algunos de ellos usaron el título de «rey de reyes»; su dominio de Bagdad duró hasta la entrada de los selyúcidas en 1055.",
+      "regiones": [
+        "mesopotamia",
+        "persia"
+      ],
+      "fuentes": [
+        "historia-completa"
+      ],
+      "wikipedia": {
+        "es": "Dinastía búyida",
+        "en": "Buyid dynasty"
+      }
+    },
+    {
+      "id": "invasion-mongola-de-joresm",
+      "titulo": "La invasión mongola del Imperio joresmio",
+      "anio": 1219,
+      "anio_hasta": 1221,
+      "aprox": false,
+      "lugar": "Merv",
+      "lon": 62.193,
+      "lat": 37.663,
+      "tipo": "batalla",
+      "resumen": "Entre 1219 y 1221 las fuerzas de Gengis Kan invadieron el Imperio joresmio, en Asia central, después de que el sah Muhammad II ejecutara a un diplomático mongol. Los mongoles tomaron las ciudades de Transoxiana (Bujará, Samarcanda y Gurganch) y, en 1221, Tolui devastó Jorasán, donde cayeron Merv y Nishapur. La invasión, que dejó una destrucción generalizada, terminó la conquista mongola de Asia central y empezó la de Persia.",
+      "regiones": [
+        "asia-central",
+        "persia"
+      ],
+      "fuentes": [
+        "historia-completa"
+      ],
+      "wikipedia": {
+        "es": "Invasión mongola de Corasmia",
+        "en": "Mongol invasion of the Khwarazmian Empire"
       }
     }
   ],

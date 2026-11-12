@@ -6474,6 +6474,11 @@
     "motivo": "La resolución 243 del Consejo de Seguridad (1967) recomendó admitir a Yemen del Sur en la ONU, sin relación con el conflicto árabe-israelí.",
     "fecha": "2026-11-11"
   },
+  "tramo:celtas-del-danubio-y-galacia:alemania:1:350": {
+    "decision": "descartado",
+    "motivo": "Los celtas del Danubio y de Galacia no tienen historia propia en el Rin y los Países Bajos entre 1 y 350, ya romanizados: lo que hay de celta ahí lo cubren `toponimia-celta` (celtas-legado-e-historiografia), `rebelion-de-los-batavos` y `imperio-de-las-galias-70` (galos-y-galia), `epona-en-roma` y `culto-de-las-matronas-en-el-rin` (religion-celta) y las fuentes `anales-tacito` (mundo), `historias-tacito` y `geografia-de-ptolomeo` (celtas-en-las-fuentes-antiguas).",
+    "fecha": "2026-11-12"
+  },
   "tramo:celtas-del-danubio-y-galacia:bohemia:-250:-151": {
     "decision": "sin-datos",
     "motivo": "No se encontró un hecho verificable de esos cien años en Bohemia y Moravia: lo que hay son sitios sin fecha precisa (la aparición de los oppida, hacia 150 a. C., ya tiene ficha) y no dejan noticias escritas.",
@@ -6494,6 +6499,56 @@
     "motivo": "No se encontró un hecho celta fechado en Hungría en ese siglo: la derrota de los boyos ante Burebista (hacia 60 a. C.) ya está fichada y cae fuera del tramo, y la conquista romana de Panonia no se pudo atribuir a los celtas con fuente verificada.",
     "fecha": "2026-11-11"
   },
+  "tramo:celtas-del-danubio-y-galacia:italia:-100:-51": {
+    "decision": "descartado",
+    "motivo": "Los celtas del Danubio aparecen en Italia en esos años solo en las fuentes sobre los galos, que ya están en `juicio-de-fonteyo`, `diviciaco-en-roma`, `prohibicion-druidica-de-la-escritura`, `historias-posidonio`, `cartas-a-atico` y `denario-de-hostilio-saserna` (celtas-en-las-fuentes-antiguas).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:anatolia:-110:40": {
+    "decision": "descartado",
+    "motivo": "Los autores y los hechos antiguos sobre los gálatas en esos años ya están en `pro-rege-deiotaro`, `guerra-de-alejandria`, `matanza-de-los-tetrarcas-galatas`, `reorganizacion-de-pompeyo-en-galacia`, `provincia-de-galacia` y `legion-de-deyotaro` (celtas-del-danubio-y-galacia), más `res-gestae-divi-augusti` (mundo).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:anatolia:191:340": {
+    "decision": "sin-datos",
+    "motivo": "191-240 y 241-290: ningún autor antiguo habla de los gálatas celtas en esos años (el gálata del siglo II está en `el-galata-en-el-siglo-ii` y Jerónimo, en 387, en `galata-en-tiempos-de-jeronimo`, ambos de celtas-del-danubio-y-galacia); 291-340: solo hay fichas de otros paquetes, `concilio-de-nicea` (mundo) y `vida-de-constantino` (tierra-santa), que no tratan a los celtas.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:britania:-10:40": {
+    "decision": "descartado",
+    "motivo": "Ya está por `espejo-de-desborough`, `reyes-britanos-ante-augusto` y `campana-de-caligula` (celtas-de-britania-e-irlanda), `anales-tacito` y `res-gestae-divi-augusti` (mundo), y la Geografía de Estrabón sobre Britania está en `geografia-de-estrabon-libro-iv` de este paquete.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:britania:-260:-161": {
+    "decision": "sin-datos",
+    "motivo": "-260 a -211 y -210 a -161: entre `timeo-situa-el-estano-en-mictis` (hacia -280) y `escipion-pregunta-por-britania-en-masalia` (hacia -150) no se encontró un autor de esos años con un dato propio sobre Britania; de Piteas (hacia -325) ya hay `viaje-de-piteas` y `sobre-el-oceano-piteas`.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:britania:191:240": {
+    "decision": "descartado",
+    "motivo": "Ya está por `campanas-de-severo-en-caledonia` y `historia-de-herodiano` (celtas-de-britania-e-irlanda), y `historia-romana-dion-casio` de este paquete cubre ese reinado en todo el período.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:britania:291:340": {
+    "decision": "descartado",
+    "motivo": "Ya está por `primera-mencion-de-los-pictos`, `panegirico-de-constancio` e `historia-nueva-zosimo` (celtas-de-britania-e-irlanda) y por el `codigo-teodosiano` (religion-celta).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:francia:191:240": {
+    "decision": "descartado",
+    "motivo": "Ya está por `ulpiano-admite-el-galo` y `romanizacion-de-la-galia` (galos-y-galia), `mujeres-y-religion-en-las-fuentes-antiguas` y `epona-en-roma` (religion-celta), y `palabras-galas-en-el-frances` (celtas-legado-e-historiografia).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:francia:91:140": {
+    "decision": "descartado",
+    "motivo": "La Galia romana de 91 a 140 ya está por `romanizacion-de-la-galia`, `cuentas-de-la-graufesenque`, `inscripcion-de-alisiia` y `contra-las-herejias-ireneo` (galos-y-galia), `palabras-galas-en-el-frances` y `toponimia-celta` (celtas-legado-e-historiografia); en esos años no hay un autor antiguo nuevo sobre los celtas que no esté ya en el paquete.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-en-las-fuentes-antiguas:iberia:-10:40": {
+    "decision": "descartado",
+    "motivo": "Los celtas de la península en esos años ya están en `celtas-de-iberia-en-las-fuentes`, `lusitanos`, `galaicos`, `astures` y `cantabros` (celtas-de-hispania), y las fuentes de este paquete que los tratan, `geografia-de-estrabon-libro-iii` y `corografia-mela`, abarcan esa franja.",
+    "fecha": "2026-11-12"
+  },
   "tramo:celtas-en-las-fuentes-antiguas:iberia:191:240": {
     "decision": "sin-datos",
     "motivo": "No se encontró un pasaje antiguo sobre los celtas de la península ibérica fechado en esos cincuenta años que se pudiera verificar con el texto.",
@@ -6504,9 +6559,109 @@
     "motivo": "No se verificó un pasaje antiguo sobre Irlanda fechado en esos cincuenta años: Solino, el candidato, no tiene fecha segura (siglo III o IV).",
     "fecha": "2026-11-11"
   },
+  "tramo:celtas-en-las-fuentes-antiguas:italia:-10:40": {
+    "decision": "descartado",
+    "motivo": "Ya está por `reyes-britanos-ante-augusto` (celtas-de-britania-e-irlanda), `prohibicion-del-druidismo` (religion-celta), `res-gestae-divi-augusti` y `anales-tacito` (mundo); los celtas de Italia en las fuentes antiguas se agotan antes, en tiempos de la conquista de la Cisalpina.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-legado-e-historiografia:alemania:460:1659": {
+    "decision": "descartado",
+    "motivo": "El legado celta en Alemania y los Países Bajos entre 460 y 1659 es la toponimia, ya en `toponimia-celta`; después el paquete tiene `pelloutier-publica-la-historia-de-los-celtas` (1740-1750), `nombres-de-belgica-y-helvecia` y `estatua-de-ambiorix` (siglo XIX), y lo que ocurre en esos siglos es historia alemana que cubre `edad-media` (por ejemplo `renacimiento-carolingio`, `coronacion-de-carlomagno` y `mision-de-willibrord`).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-legado-e-historiografia:francia:1160:1659": {
+    "decision": "descartado",
+    "motivo": "La materia de Bretaña en la literatura francesa ya está en `chretien-de-troyes`, `perceval-o-el-cuento-del-grial` y `geoffrey-de-monmouth` (edad-media), y la historia política y la polémica sobre América de esos siglos pertenecen a edad-media y a debates-sobre-la-conquista-de-america; lo celta de Francia entra en este paquete con `pezron-publica-la-antiguedad-de-los-celtas` (1703) y `retroceso-del-breton` (1794).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-legado-e-historiografia:francia:660:1059": {
+    "decision": "descartado",
+    "motivo": "Lo celta que sobrevive en Francia en esos siglos, el bretón, tiene su fecha de retroceso en `retroceso-del-breton` (1794) y su origen en `los-origenes-de-bretana-fleuriot` (galos-y-galia); la historia política de la Francia carolingia y capeta la cubre `edad-media` (`batalla-de-poitiers-732`, `renacimiento-carolingio`, `tratado-de-verdun`, `dinastia-capeta`).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:celtas-legado-e-historiografia:iberia:660:1759": {
+    "decision": "descartado",
+    "motivo": "En esos siglos el legado celta de la península no tiene hechos propios: el castellano ya está en `palabras-celtas-en-el-castellano`, Galicia en `nombre-de-galicia` y, en la Edad Media, `obispado-de-britonia` (celtas-de-britania-e-irlanda); el celtismo gallego empieza en 1838 (`celtismo-gallego`) y la Reconquista y lo demás lo cubre `edad-media`.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:galos-y-galia:alemania:111:210": {
+    "decision": "descartado",
+    "motivo": "Los galos propiamente dichos no tienen historia en el Rin de 111 a 210, ya romano: lo que hay lo cubren `culto-de-las-matronas-en-el-rin`, `columnas-de-jupiter-y-el-gigante` y `epona-en-roma` (religion-celta), `toponimia-celta` (celtas-legado-e-historiografia) y `geografia-de-ptolomeo` y `tetrabiblos` (celtas-en-las-fuentes-antiguas).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:galos-y-galia:italia:111:210": {
+    "decision": "descartado",
+    "motivo": "En Italia no queda historia propia de los galos en 111-210, con la Cisalpina ya romanizada y su fin como pueblo contado en `romanizacion-de-la-galia`; lo que hay lo cubren `epona-en-roma` (religion-celta), `toponimia-celta` y `historia-de-herodiano` (celtas-de-britania-e-irlanda).",
+    "fecha": "2026-11-12"
+  },
   "tramo:guerras-civiles-y-organizacion-nacional:noroeste-argentino:1835:1849": {
     "decision": "descartado",
     "motivo": "Las cajas de 1835-1844 ya las cubren `asesinato-de-alejandro-heredia`, `guerra-contra-la-confederacion-peru-boliviana`, `campana-de-lavalle`, `coalicion-del-norte`, `batalla-de-famailla`, `batalla-de-angaco`, `batalla-de-rodeo-del-medio`, `ejecucion-de-marco-avellaneda` y `muerte-de-lavalle` (rosas-y-la-confederacion), y en 1845-1849 no se encontró en el noroeste ni en Cuyo un hecho propio documentado del tema (la región queda bajo el orden rosista que trata rosas-y-la-confederacion).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:anatolia:41:240": {
+    "decision": "descartado",
+    "motivo": "Ya está por `mision-de-pablo-en-galacia`, `el-galata-en-el-siglo-ii` y `alejandro-o-el-falso-profeta` (celtas-del-danubio-y-galacia) y por las fuentes de celtas-en-las-fuentes-antiguas; el panorama de mundo no suma nada propio en ese tramo de Anatolia.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:anatolia:441:1040": {
+    "decision": "descartado",
+    "motivo": "Ya está por `codigo-de-justiniano`, `reconstruccion-de-santa-sofia`, `peste-de-justiniano` e `iconoclasia` (edad-media) y por `guerras-arabo-bizantinas`, `sitio-de-constantinopla-674`, `sitio-de-constantinopla-717` y `saqueo-de-amorio` (tierra-santa).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:grecia:1041:1640": {
+    "decision": "descartado",
+    "motivo": "Ya está por `cisma-de-oriente`, `saqueo-de-constantinopla`, `concilio-de-florencia`, `caida-de-constantinopla`, `tratado-de-las-leyes` y `triadas` (edad-media), `libro-de-viajes-de-benjamin`, `sitio-de-rodas-1522` y `batalla-de-lepanto` (tierra-santa); la conquista otomana de Atenas y la Morea que menciona la era de la región no tiene todavía ficha propia.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:grecia:41:640": {
+    "decision": "descartado",
+    "motivo": "Ya está por `descripcion-de-grecia-pausanias`, `virtudes-de-mujeres-plutarco` y `deipnosofistas` (celtas-en-las-fuentes-antiguas) y el `nuevo-testamento` (tierra-santa) en 41-240, el `codigo-teodosiano` (religion-celta) en 241-440 y `cierre-de-la-academia` (edad-media) en 441-640; a mundo no le falta en esos siglos nada propio de Grecia.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:italia:-960:-761": {
+    "decision": "descartado",
+    "motivo": "Ya está por `cultura-de-villanova`, `cultura-de-golasecca`, `cultura-de-hallstatt`, `cultura-de-los-campos-de-urnas` y `llegada-del-hierro-a-europa-central` (celtas-origenes-y-prehistoria), y mundo ya tiene `fundacion-de-roma` (-753) justo después.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:italia:241:440": {
+    "decision": "descartado",
+    "motivo": "Ya está por `saqueo-de-roma-410` y `confesiones` (edad-media), `historia-augusta` (celtas-en-las-fuentes-antiguas), `historia-nueva-zosimo` y `cronica-de-prospero` (celtas-de-britania-e-irlanda); mundo ya tiene `caida-del-imperio-de-occidente` (476) y `erupcion-del-vesubio` en las cajas vecinas.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:levante:-360:40": {
+    "decision": "descartado",
+    "motivo": "Ya está por `sitio-de-tiro-332`, `revuelta-macabea`, `conquista-de-pompeyo` y `templo-de-herodes` (tierra-santa), `batalla-de-accio` (egipto) y `segundo-libro-de-los-macabeos` (celtas-en-las-fuentes-antiguas).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:levante:641:1040": {
+    "decision": "descartado",
+    "motivo": "Ya está por `cupula-de-la-roca-hecho`, `batalla-de-siffin`, `guerras-arabo-bizantinas`, `fatimies-en-palestina` y `destruccion-del-santo-sepulcro` (tierra-santa) y `fuente-del-conocimiento` (edad-media); mundo ya tiene `conquista-musulmana-de-siria` (634) justo antes.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:mesoamerica:-760:240": {
+    "decision": "descartado",
+    "motivo": "Ya está por 50 fichas de mesoamerica-antigua, como `cultura-olmeca`, `cultura-zapoteca`, `fundacion-de-monte-alban`, `escritura-maya`, `cuenta-larga` y `apogeo-de-el-mirador`; el panorama de mundo no necesita repetirlas.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:mesoamerica:641:1040": {
+    "decision": "descartado",
+    "motivo": "Ya está por 51 fichas de mesoamerica-antigua y de debates-sobre-la-conquista-de-america (`sacrificio-humano-en-america`, `debate-sobre-la-guerra-prehispanica`), y mundo ya tiene `apogeo-de-teotihuacan` y `llegada-de-siyaj-kak-a-tikal` en 350 y 378.",
+    "fecha": "2026-11-12"
+  },
+  "tramo:mundo:mesopotamia:441:840": {
+    "decision": "descartado",
+    "motivo": "Ya está por `batalla-de-qadisiyya` (636), `conquista-musulmana-de-persia`, `primera-fitna`, `batalla-de-siffin`, `batalla-de-karbala`, `revolucion-abasi` y `fundacion-de-bagdad` (tierra-santa), y por las fuentes `talmud-de-babilonia`, `apocalipsis-del-pseudo-metodio`, `dialogo-de-timoteo-i` e `historia-de-al-tabari` (tierra-santa).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:religion-celta:irlanda:401:500": {
+    "decision": "descartado",
+    "motivo": "La cristianización de Irlanda en esos años ya está por `mision-de-paladio`, `mision-de-patricio`, `confesion-de-patricio`, `vida-de-patricio-muirchu`, `carta-a-corotico` y `cronica-de-prospero` (celtas-de-britania-e-irlanda).",
+    "fecha": "2026-11-12"
+  },
+  "tramo:religion-celta:italia:-200:-1": {
+    "decision": "descartado",
+    "motivo": "La religión de los celtas de Italia en esos años ya está por `juicio-de-fonteyo`, `diviciaco-en-roma` y `prohibicion-druidica-de-la-escritura` (celtas-en-las-fuentes-antiguas) y por `embajada-de-cincibil` y `monumentos-de-pergamo` (celtas-del-danubio-y-galacia); los ritos y los cultos de los galos de Italia no tienen fuentes propias distintas de esas.",
     "fecha": "2026-11-12"
   },
   "tramo:rio-de-la-plata-colonial:caribe:1670:1709": {

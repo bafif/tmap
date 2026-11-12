@@ -5234,6 +5234,51 @@
       "fuentes": [
         "geografia-de-estrabon-libro-iv"
       ]
+    },
+    {
+      "id": "timeo-situa-el-estano-en-mictis",
+      "titulo": "Timeo sitúa el estaño en la isla de Mictis, a seis días de Britania",
+      "anio": -280,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Atenas",
+      "lon": 23.7275,
+      "lat": 37.9838,
+      "tipo": "cultural",
+      "resumen": "A comienzos del siglo III a. C. el historiador Timeo de Tauromenio contó que a seis días de navegación de Britania, mar adentro, estaba la isla de Mictis (Ictis), de donde venía el estaño; los britanos iban hasta ella en barcas de mimbre forradas de cuero. Plinio el Viejo (Historia natural IV.104) cita a Timeo, y es el único autor que se sabe con certeza que mencionó el lugar; Diodoro (V.22) describe después el mismo comercio. Dónde estaba la isla se discute: se propusieron St Michael's Mount, la isla de Looe, Burgh Island, Hengistbury Head y la isla de Wight.",
+      "regiones": [
+        "grecia",
+        "britania"
+      ],
+      "fuentes": [
+        "historias-timeo"
+      ],
+      "wikipedia": {
+        "en": "Ictis"
+      }
+    },
+    {
+      "id": "escipion-pregunta-por-britania-en-masalia",
+      "titulo": "Escipión pregunta por Britania a los mercaderes de Masalia",
+      "anio": -150,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Masalia (Marsella)",
+      "lon": 5.37,
+      "lat": 43.296,
+      "tipo": "cultural",
+      "resumen": "Polibio contó que Escipión preguntó por Britania a los masaliotas y a los mercaderes de Narbona y de Corbilón, las mejores ciudades de la región, y que ninguno supo decirle nada digno de mención; así lo cita Estrabón (IV.2.1), en un pasaje en que Polibio recuerda las fábulas de Piteas.",
+      "regiones": [
+        "francia",
+        "britania"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "geografia-de-estrabon-libro-iv"
+      ],
+      "wikipedia": {
+        "en": "Corbilo"
+      }
     }
   ],
   "lugares": []
