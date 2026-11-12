@@ -76,7 +76,8 @@ sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API 
 1. **Qué falta lo dice el uso.** La app anota en `user://pendientes.json` lo que se abre y no tiene ficha curada: la
    entidad, su Wikidata, el lugar, los años consultados y cuántas veces. No sale de la computadora. En Ajustes →
    Enciclopedia se ven los más consultados y se puede copiar la cola. (En Linux, `user://` es
-   `~/.local/share/godot/app_userdata/TellMAP/`.)
+   `~/.local/share/godot/app_userdata/TellMAP/` en la versión instalada y `~/.local/share/TellMAP-codigo/` desde el
+   código; `borradores.py` lee por defecto la de la instalada.)
 2. **Borrador automático.** `python3 tools/enciclopedia/borradores.py` toma las entradas más consultadas (`-n 3` por
    defecto; `--cola` para una cola copiada, `--wikidata Q12560` para una entidad puntual) y junta:
    - de Wikidata, la capital con sus coordenadas, las personas clave (quienes ocuparon sus cargos y las más conocidas

@@ -1,8 +1,9 @@
 class_name AvisoActualizacion
 extends PanelContainer
-## Aviso arriba al centro del Actualizador: el cartel que ofrece una actualización al abrir («Actualizar» o «Ahora no»;
-## cerrarlo es «Ahora no»), la app nueva ya instalada (con «Reiniciar ahora»), una versión para bajar a mano (con «Ir a
-## la descarga»), datos nuevos (se cierra solo si ya se ven) o que la búsqueda al abrir falló (con «Probar de nuevo»).
+## Aviso arriba al centro del Actualizador: el cartel que ofrece una actualización al buscar sola («Actualizar» o
+## «Ahora no»; cerrarlo es «Ahora no»), la app nueva ya instalada (con «Reiniciar ahora»), una versión para bajar a
+## mano (con «Ir a la descarga»), datos nuevos (se cierra solo si ya se ven) o que la búsqueda al abrir falló (con
+## «Probar de nuevo»).
 ## Va encima de todo lo demás de la interfaz (Interfaz._aviso_arriba).
 
 var _tipo := ""

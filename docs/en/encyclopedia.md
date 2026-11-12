@@ -77,7 +77,8 @@ CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that wr
 1. **Usage says what's missing.** The app logs in `user://pendientes.json` whatever gets opened and has no curated
    entry: the entity, its Wikidata, the place, the years looked up and how many times. It never leaves the computer.
    In Settings → Encyclopedia you can see the most looked-up ones and copy the queue. (On Linux, `user://` is
-   `~/.local/share/godot/app_userdata/TellMAP/`.)
+   `~/.local/share/godot/app_userdata/TellMAP/` in the installed version and `~/.local/share/TellMAP-codigo/` from
+   source; `borradores.py` reads the installed one by default.)
 2. **Automatic draft.** `python3 tools/enciclopedia/borradores.py` takes the most looked-up entries (`-n 3` by
    default; `--cola` for a copied queue, `--wikidata Q12560` for a specific entity) and gathers:
    - from Wikidata, the capital with its coordinates, the key people (those who held its offices and the best known of

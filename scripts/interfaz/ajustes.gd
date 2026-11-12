@@ -308,7 +308,7 @@ func _construir_actualizaciones(caja: VBoxContainer) -> void:
 	estado.custom_minimum_size = Vector2(580, 0)
 	caja.add_child(estado)
 	var solo := CheckBox.new()
-	solo.text = tr("Buscar actualizaciones al abrir TellMAP")
+	solo.text = tr("Buscar actualizaciones al abrir TellMAP y cada hora")
 	solo.tooltip_text = (tr("Consulta la página del proyecto en GitHub y, si hay algo nuevo, pregunta antes de bajarlo.")
 		+ " " + tr("«Buscar ahora» instala sin preguntar. No manda nada tuyo."))
 	solo.button_pressed = bool(Estado.ajustes.get("actualizar_solo", true))

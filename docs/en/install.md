@@ -39,8 +39,8 @@ If not even Settings shows up, open the app with `--rendering-method gl_compatib
 
 ## Updates
 
-When it opens, the app checks GitHub for anything new and asks before downloading it. It can be turned off under
-**Settings → Updates**. How it works: [Automatic updates](updates.md).
+When it opens, and then every hour, the app checks GitHub for anything new and asks before downloading it. It can be
+turned off under **Settings → Updates**. How it works: [Automatic updates](updates.md).
 
 ## From the source
 
