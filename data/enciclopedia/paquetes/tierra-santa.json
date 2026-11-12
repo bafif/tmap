@@ -12162,6 +12162,50 @@
       "por_que_importa": "Es la versión wahabí del ataque, frente a las de Rousseau y Corancez.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "cartas-de-ignacio-de-antioquia",
+      "titulo": "Cartas de Ignacio de Antioquía",
+      "titulo_original": null,
+      "autor": "Ignacio de Antioquía",
+      "autor_id": "ignacio-de-antioquia",
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 108,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "siria",
+          "anatolia"
+        ],
+        "desde": 100,
+        "hasta": 120
+      },
+      "idioma_original": "Griego",
+      "soporte": "Siete cartas",
+      "resumen": "Siete cartas que Ignacio, obispo de Antioquía, escribió siendo llevado a Roma para ser ejecutado: cuatro desde Esmirna (a los efesios, los magnesios, los tralianos y los romanos) y tres desde Tróade (a los filadelfios, a los esmirniotas y a Policarpo). A las comunidades de Asia Menor les pide unidad en torno al obispo y las previene contra ciertas enseñanzas; a la de Roma le ruega que no intervenga para evitar su muerte. Las fechas propuestas van de comienzos del siglo II a después de 160, y hay estudiosos que discuten su autenticidad.",
+      "por_que_importa": "Son un testimonio temprano de cómo se organizaban las comunidades cristianas y de cómo se pensaba la Iglesia en Siria y Asia Menor.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de la carta a los romanos (Ante-Nicene Fathers) en New Advent",
+          "url": "https://www.newadvent.org/fathers/0107.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        },
+        {
+          "titulo": "Traducción inglesa de las cartas (Ante-Nicene Fathers, I) en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_I/IGNATIUS",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ignacio de Antioquía",
+        "en": "Ignatius of Antioch"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -19314,6 +19358,28 @@
         "en": "Aqsunqur al-Bursuqi"
       },
       "wikidata": "Q2859106"
+    },
+    {
+      "id": "ignacio-de-antioquia",
+      "nombre": "Ignacio de Antioquía",
+      "muerte": {
+        "anio": 108,
+        "aprox": true,
+        "lugar": "Roma"
+      },
+      "roles": [
+        "obispo",
+        "escritor cristiano"
+      ],
+      "resumen": "Obispo de Antioquía, condenado a muerte y llevado a Roma, donde murió bajo Trajano según la tradición. En el viaje escribió siete cartas a comunidades cristianas, que se cuentan entre los primeros escritos cristianos después del Nuevo Testamento. La fecha de su muerte y la autenticidad de las cartas se discuten.",
+      "obras": [
+        "cartas-de-ignacio-de-antioquia"
+      ],
+      "wikipedia": {
+        "es": "Ignacio de Antioquía",
+        "en": "Ignatius of Antioch"
+      },
+      "wikidata": "Q44170"
     }
   ],
   "hechos": [
@@ -24663,6 +24729,73 @@
       ],
       "wikipedia": {
         "en": "Wahhabi sack of Karbala"
+      }
+    },
+    {
+      "id": "siria-provincia-romana",
+      "titulo": "Pompeyo convierte Siria en provincia romana",
+      "anio": -64,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Antioquía",
+      "lon": 36.182,
+      "lat": 36.205,
+      "tipo": "politico",
+      "resumen": "Durante la tercera guerra mitridática, Pompeyo puso fin al reino seléucida y anexó Siria a la República romana. Antioquía, la antigua capital seléucida, pasó a ser la capital de la provincia.",
+      "regiones": [
+        "siria",
+        "levante"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Siria (provincia romana)",
+        "en": "Roman Syria"
+      }
+    },
+    {
+      "id": "cristianos-en-antioquia",
+      "titulo": "Los discípulos son llamados «cristianos» en Antioquía",
+      "anio": 45,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Antioquía",
+      "lon": 36.182,
+      "lat": 36.205,
+      "tipo": "religioso",
+      "resumen": "Según los Hechos de los Apóstoles (11:26), en Antioquía, donde Bernabé y Pablo enseñaron durante un año a la comunidad, los discípulos recibieron por primera vez el nombre de «cristianos». El texto no da fecha y el año es aproximado.",
+      "regiones": [
+        "siria",
+        "levante"
+      ],
+      "fuentes": [
+        "nuevo-testamento"
+      ],
+      "wikipedia": {
+        "es": "Iglesia de Antioquía",
+        "en": "Church of Antioch"
+      }
+    },
+    {
+      "id": "ignacio-de-antioquia-llevado-a-roma",
+      "titulo": "Ignacio de Antioquía, condenado, es llevado a Roma",
+      "anio": 108,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Antioquía",
+      "lon": 36.182,
+      "lat": 36.205,
+      "tipo": "religioso",
+      "resumen": "Ignacio, obispo de Antioquía, fue condenado a muerte y llevado a Roma bajo custodia de soldados; en el camino escribió siete cartas a comunidades cristianas. La tradición lo ubica en el reinado de Trajano (98-117), pero algunos estudiosos proponen fechas más tardías, hasta mediados del siglo II.",
+      "regiones": [
+        "siria",
+        "levante"
+      ],
+      "fuentes": [
+        "cartas-de-ignacio-de-antioquia"
+      ],
+      "wikipedia": {
+        "es": "Ignacio de Antioquía",
+        "en": "Ignatius of Antioch"
       }
     }
   ],

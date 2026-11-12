@@ -6644,6 +6644,11 @@
     "motivo": "Los celtas del Danubio y de Galacia no tienen historia propia en el Rin y los Países Bajos entre 1 y 350, ya romanizados: lo que hay de celta ahí lo cubren `toponimia-celta` (celtas-legado-e-historiografia), `rebelion-de-los-batavos` y `imperio-de-las-galias-70` (galos-y-galia), `epona-en-roma` y `culto-de-las-matronas-en-el-rin` (religion-celta) y las fuentes `anales-tacito` (mundo), `historias-tacito` y `geografia-de-ptolomeo` (celtas-en-las-fuentes-antiguas).",
     "fecha": "2026-11-12"
   },
+  "tramo:celtas-del-danubio-y-galacia:anatolia:201:250": {
+    "decision": "sin-datos",
+    "motivo": "En esos años no hay un hecho ni una fuente gálata verificable: las termas de Ancira, construidas bajo Caracalla, son historia urbana de la provincia y no de los gálatas, y lo único que aparece de Tavium, la ciudad de los trocmos, son monedas con Marco Aurelio y Elagábalo que el artículo de Wikipedia en inglés fecha en un «siglo I temprano», sin dato fiable. El testimonio de Jerónimo sobre la lengua gálata es de hacia 387, y la ocupación palmirena (271-272) y el concilio de Ancira (314) caen en tramos posteriores.",
+    "fecha": "2026-11-12"
+  },
   "tramo:celtas-del-danubio-y-galacia:bohemia:-250:-151": {
     "decision": "sin-datos",
     "motivo": "No se encontró un hecho verificable de esos cien años en Bohemia y Moravia: lo que hay son sitios sin fecha precisa (la aparición de los oppida, hacia 150 a. C., ya tiene ficha) y no dejan noticias escritas.",
@@ -6838,5 +6843,10 @@
     "decision": "descartado",
     "motivo": "Ningún hecho del tema ocurre en Mesoamérica en esos años: el vínculo es solo la legislación general de Indias.",
     "fecha": "2026-11-11"
+  },
+  "tramo:tierra-santa:transjordania:881:1080": {
+    "decision": "sin-datos",
+    "motivo": "Lo único documentado en Transjordania entre 881 y 1080 son los terremotos de 1068, ajenos al tema; los jarráhidas y los cármatas aparecen en las fuentes sobre todo en Palestina y Siria.",
+    "fecha": "2026-11-12"
   }
 }
