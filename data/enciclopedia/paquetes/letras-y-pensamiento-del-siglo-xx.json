@@ -3040,6 +3040,3163 @@
         "en": "Propaganda (book)"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "el-castillo",
+      "titulo": "El castillo",
+      "titulo_original": "Das Schloss",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1922,
+        "aprox": false,
+        "lugar": "Planá nad Lužnicí",
+        "lon": 14.702,
+        "lat": 49.355
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1922,
+        "hasta": 1922
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela inconclusa",
+      "resumen": "Novela en la que un hombre conocido solo como K. llega a una aldea para trabajar como agrimensor y no consigue acceder a las autoridades que la gobiernan desde un castillo. Kafka la empezó el 27 de enero de 1922, escribió la mayor parte ese año, mientras convalecía de la tuberculosis, y dejó el manuscrito sin final. Max Brod, su albacea, la publicó en 1926, dos años después de su muerte y contra el deseo de Kafka de que se destruyera lo inédito, con algunas correcciones editoriales.",
+      "por_que_importa": "Es la última de las tres novelas de Kafka, todas inconclusas y póstumas. Suele leerse como un relato sobre la alienación y sobre burocracias opacas que no rinden cuentas, y es una de las obras que sostienen el adjetivo «kafkiano».",
+      "leer": [
+        {
+          "titulo": "Texto original en alemán en Wikisource",
+          "url": "https://de.wikisource.org/wiki/Das_Schlo%C3%9F",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "El castillo (novela)",
+        "en": "The Castle (novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "america-kafka",
+      "titulo": "América (El desaparecido)",
+      "titulo_original": "Amerika / Der Verschollene",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1912,
+        "anio_hasta": 1927,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1912,
+        "hasta": 1912
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela inconclusa",
+      "resumen": "Novela que sigue a Karl Rossmann, un adolescente enviado a Nueva York por su familia, y sus peripecias en Estados Unidos. Kafka la escribió a partir de 1911 y la dejó inconclusa hacia 1914; su primer capítulo, «El fogonero», se publicó aparte en 1913. Kafka la llamaba El desaparecido; el título América lo puso Max Brod, que reunió el manuscrito y lo publicó en 1927, después de la muerte del autor. Desde 1982 se edita también con el título original.",
+      "por_que_importa": "Es la primera novela de Kafka y, como El proceso y El castillo, quedó inconclusa. Incorpora experiencias de parientes suyos emigrados a Estados Unidos, un país que Kafka nunca visitó.",
+      "leer": [
+        {
+          "titulo": "Primer capítulo («Der Heizer», El fogonero) en alemán, en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/16304",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "América (novela)",
+        "en": "Amerika (novel)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "en-la-colonia-penitenciaria",
+      "titulo": "En la colonia penitenciaria",
+      "titulo_original": "In der Strafkolonie",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1914,
+        "anio_hasta": 1919,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1914,
+        "hasta": 1914
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Relato",
+      "resumen": "Relato sobre un viajero que presencia en una colonia penal sin nombre la que podría ser la última ejecución con una máquina que graba en la piel del condenado, durante doce horas, el texto de la ley que infringió. Un oficial describe el aparato y su justificación mientras el viajero decide si interviene. Kafka lo escribió en octubre de 1914, lo revisó en noviembre de 1918 y se publicó en octubre de 1919; lo leyó en público en Múnich en 1916.",
+      "por_que_importa": "Fue uno de los textos de Kafka publicados en vida. Tras las atrocidades del siglo XX se leyó como una anticipación de la violencia burocratizada y del terror de Estado, aunque se escribió al comienzo de la Primera Guerra Mundial.",
+      "leer": [
+        {
+          "titulo": "Texto original en alemán en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/25791",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "En la colonia penitenciaria",
+        "en": "In the Penal Colony"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-condena",
+      "titulo": "La condena",
+      "titulo_original": "Das Urteil",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1912,
+        "anio_hasta": 1913,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1912,
+        "hasta": 1912
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Relato",
+      "resumen": "Relato sobre Georg Bendemann, un joven comerciante que escribe a un amigo en Rusia para anunciarle su compromiso y discute con su padre, que cuestiona la existencia de ese amigo y termina condenándolo a morir ahogado. Kafka lo escribió de un tirón el 22 de septiembre de 1912.",
+      "por_que_importa": "Kafka lo consideró una de sus creaciones más logradas. El tema de la relación entre padre e hijo reaparece en La metamorfosis y en la Carta al padre. Se publicó en 1913.",
+      "leer": [
+        {
+          "titulo": "Texto original en alemán en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/21593",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "La condena",
+        "en": "The Judgment"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "un-medico-rural",
+      "titulo": "Un médico rural",
+      "titulo_original": "Ein Landarzt",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1917,
+        "anio_hasta": 1920,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1917,
+        "hasta": 1917
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Relato",
+      "resumen": "Relato en primera persona de un médico de pueblo al que llaman de noche, en pleno invierno, para atender a un muchacho enfermo en una aldea lejana. Sin caballo propio, recibe dos de un mozo de cuadra que surge de un chiquero y que se abalanza sobre su criada Rosa. El médico encuentra en el costado del muchacho una herida abierta llena de gusanos; los aldeanos lo desnudan y lo acuestan junto al enfermo, y huye en un viaje de regreso lentísimo por la nieve. Kafka lo escribió en 1917; apareció en 1918 en el almanaque Die neue Dichtung, de Kurt Wolff, y en 1920 dio título a su segundo libro de relatos.",
+      "por_que_importa": "Kafka lo consideró uno de sus pocos relatos realmente logrados. En una carta a Max Brod de septiembre de 1917 dijo que con la herida del muchacho había «predicho» su enfermedad, la tuberculosis que lo mató.",
+      "leer": [
+        {
+          "titulo": "Texto original en alemán, en el libro Ein Landarzt, en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/21989",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Un médico rural",
+        "en": "A Country Doctor (short story)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "un-artista-del-hambre",
+      "titulo": "Un artista del hambre",
+      "titulo_original": "Ein Hungerkünstler",
+      "autor": "Franz Kafka",
+      "autor_id": "kafka",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1922,
+        "anio_hasta": 1924,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1922,
+        "hasta": 1922
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Relato",
+      "resumen": "Relato sobre un ayunador profesional que se exhibe en una jaula, cuyo arte pierde público hasta que muere casi ignorado y lo reemplaza una pantera. Se publicó en 1922 en la revista Die neue Rundschau. Da título al último libro que Kafka preparó para la imprenta, con otros tres relatos, que apareció en 1924 poco después de su muerte.",
+      "por_que_importa": "Es uno de los relatos tardíos de Kafka sobre el artista y su aislamiento frente a la sociedad. Los ayunadores eran un espectáculo real de ferias y circos entre fines del siglo XIX y comienzos del XX.",
+      "leer": [
+        {
+          "titulo": "Texto original en alemán en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/30655",
+          "idioma": "de",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Un artista del hambre",
+        "en": "A Hunger Artist"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-lobo-estepario",
+      "titulo": "El lobo estepario",
+      "titulo_original": "Der Steppenwolf",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1926,
+        "anio_hasta": 1927,
+        "aprox": false,
+        "lugar": "Basilea",
+        "lon": 7.588,
+        "lat": 47.558
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1927,
+        "hasta": 1927
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela presentada como los papeles de Harry Haller, un hombre de mediana edad dividido entre su lado civilizado y su lado de «lobo estepario», que se siente ajeno a la sociedad burguesa y atraviesa un teatro mágico de fantasía y autoexamen. Hesse la escribió sobre todo en el Hotel Krafft de Basilea (según otra fuente, la empezó allí y la terminó en Zúrich); fragmentos aparecieron en la revista Neue Rundschau en 1926 y 1927 y el libro salió en 1927 en la editorial S. Fischer, de Berlín. Refleja una crisis personal del autor en los años veinte.",
+      "por_que_importa": "Hesse dijo después que el libro fue malentendido, porque muchos lectores vieron solo el sufrimiento de Haller y no la posibilidad de superarlo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El lobo estepario",
+        "en": "Steppenwolf (novel)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "demian",
+      "titulo": "Demian",
+      "titulo_original": "Demian. Die Geschichte von Emil Sinclairs Jugend",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1917,
+        "anio_hasta": 1919,
+        "aprox": false,
+        "lugar": "Berna",
+        "lon": 7.447,
+        "lat": 46.948
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1900,
+        "hasta": 1914
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela de formación narrada en primera persona por Emil Sinclair, que desde la infancia pasa de un mundo de apariencia ordenada a otro más oscuro bajo la guía de su compañero Max Demian, quien reinterpreta a Caín como figura fuerte y no como malvado. Hesse la escribió en 1917 durante un tratamiento psicoanalítico con un discípulo de Jung y la publicó en 1919 con el seudónimo Emil Sinclair; desde la décima edición lleva su nombre.",
+      "por_que_importa": "Ganó con el seudónimo el premio Fontane, reservado a autores noveles, y Hesse lo devolvió cuando se supo quién era. Muestra su contacto con la psicología de Jung y el tema de la búsqueda de la identidad individual.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Demian",
+        "en": "Demian"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-juego-de-los-abalorios",
+      "titulo": "El juego de los abalorios",
+      "titulo_original": "Das Glasperlenspiel",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1931,
+        "anio_hasta": 1943,
+        "aprox": false,
+        "lugar": "Montagnola",
+        "lon": 8.917,
+        "lat": 45.967
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2400,
+        "hasta": 2599
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela ambientada en un futuro lejano, en la provincia ficticia de Castalia, donde una élite intelectual practica el juego de los abalorios, que combina música, matemática y otras disciplinas. Narra la vida de Josef Knecht, que llega a ser magister ludi y termina por cuestionar el aislamiento de su orden. Hesse la empezó en 1931 en Suiza y se publicó en Zúrich en 1943, después de que se rechazara su edición en Alemania por las ideas antifascistas del autor. Fue su última novela.",
+      "por_que_importa": "Fue la última novela que Hesse publicó en vida, tres años antes de recibir el Nobel de Literatura (1946). Su juego imaginario inspiró a diseñadores de juegos reales.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El juego de los abalorios",
+        "en": "The Glass Bead Game"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "narciso-y-goldmundo",
+      "titulo": "Narciso y Goldmundo",
+      "titulo_original": "Narziß und Goldmund",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1927,
+        "anio_hasta": 1930,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1300,
+        "hasta": 1500
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela sobre la amistad entre Narciso, monje y maestro de la escuela del convento de Mariabronn, y Goldmundo, un alumno que deja el claustro y vaga por la Alemania de fines de la Edad Media, entre el amor, el arte y la peste, hasta reencontrar a su amigo. Hesse la escribió entre abril de 1927 y marzo de 1929 y la publicó en 1930 en la editorial S. Fischer, de Berlín.",
+      "por_que_importa": "Contrapone la vida del espíritu y la de los sentidos como dos caminos que se complementan. Al publicarse se la consideró un triunfo literario de Hesse.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Narciso y Goldmundo",
+        "en": "Narcissus and Goldmund"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "peter-camenzind",
+      "titulo": "Peter Camenzind",
+      "titulo_original": "Peter Camenzind",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1903,
+        "anio_hasta": 1904,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1904,
+        "hasta": 1904
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Primera novela de Hesse. Sigue a un joven campesino con rasgos autobiográficos que se va a la ciudad para ser poeta. Se publicó por entregas en la revista Neue Rundschau entre octubre y diciembre de 1903 y como libro en enero de 1904, en la editorial S. Fischer, de Berlín.",
+      "por_que_importa": "Le dio fama a Hesse. Plantea temas que él retomó después: la búsqueda de identidad, la naturaleza frente a la civilización y el papel del arte.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Peter Camenzind",
+        "en": "Peter Camenzind"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "bajo-las-ruedas",
+      "titulo": "Bajo las ruedas",
+      "titulo_original": "Unterm Rad",
+      "autor": "Hermann Hesse",
+      "autor_id": "hesse",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1904,
+        "anio_hasta": 1906,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1906,
+        "hasta": 1906
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela sobre Hans Giebenrath, un alumno brillante que ingresa en un seminario protestante exigente, se quiebra bajo la presión y termina fuera del sistema. Se publicó por entregas en la Neue Zürcher Zeitung en 1904 y en libro en la editorial S. Fischer, de Berlín, a fines de 1905 con pie de imprenta de 1906. Tiene rasgos autobiográficos: Hesse abandonó el seminario de Maulbronn.",
+      "por_que_importa": "Es una crítica a una educación que atiende el rendimiento y no el desarrollo personal, tema constante en la obra de Hesse.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bajo las ruedas",
+        "en": "Beneath the Wheel"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-caida",
+      "titulo": "La caída",
+      "titulo_original": "La Chute",
+      "autor": "Albert Camus",
+      "autor_id": "camus",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1956,
+        "hasta": 1956
+      },
+      "idioma_original": "Francés",
+      "soporte": "Novela",
+      "resumen": "Novela breve formada por los monólogos de Jean-Baptiste Clamence, un exabogado parisino que en un bar de Ámsterdam se presenta como «juez penitente» y cuenta a un desconocido la crisis que lo llevó de una vida respetada a la confesión de su culpa. Gallimard la publicó en París en 1956, un año antes de que Camus recibiera el Nobel de Literatura. Es la última novela que Camus publicó.",
+      "por_que_importa": "Trata la culpa y el juicio a los demás. Estaba pensada al principio para el libro de cuentos El exilio y el reino (1957), que salió después.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La caída (novela)",
+        "en": "The Fall (Camus novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-hombre-rebelde",
+      "titulo": "El hombre rebelde",
+      "titulo_original": "L'Homme révolté",
+      "autor": "Albert Camus",
+      "autor_id": "camus",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1951,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1951,
+        "hasta": 1951
+      },
+      "idioma_original": "Francés",
+      "soporte": "Ensayo",
+      "resumen": "Ensayo que examina la rebeldía metafísica e histórica en el pensamiento y el arte de Occidente, y distingue la rebelión que afirma un límite de las revoluciones que, según Camus, justifican el crimen en nombre de la historia. Se publicó en 1951. Los marxistas y Sartre lo criticaron; Francis Jeanson lo criticó en Les Temps modernes, la revista de Sartre, en 1952; Camus contestó y la respuesta de Sartre consumó la ruptura entre ambos.",
+      "por_que_importa": "Fija la posición política y moral de Camus frente al comunismo soviético. Continúa El mito de Sísifo, que trataba el absurdo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El hombre rebelde",
+        "en": "The Rebel (book)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "caligula-camus",
+      "titulo": "Calígula",
+      "titulo_original": "Caligula",
+      "autor": "Albert Camus",
+      "autor_id": "camus",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1938,
+        "anio_hasta": 1944,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 37,
+        "hasta": 41
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra de teatro en cuatro actos",
+      "resumen": "Obra de teatro sobre el emperador romano Calígula, que tras la muerte de su hermana y amante Drusila decide ejercer una libertad sin límites y termina asesinado en una conspiración. Camus la empezó en 1938 (el primer manuscrito es de 1939) y Gallimard la publicó en mayo de 1944; se estrenó el 26 de septiembre de 1945 en el Théâtre Hébertot, de París, con Gérard Philipe. La corrigió varias veces después.",
+      "por_que_importa": "Forma, con El extranjero y El mito de Sísifo, el «ciclo del absurdo» de Camus.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Calígula (obra de teatro)",
+        "en": "Caligula (play)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "a-puerta-cerrada",
+      "titulo": "A puerta cerrada",
+      "titulo_original": "Huis clos",
+      "autor": "Jean-Paul Sartre",
+      "autor_id": "sartre",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1944,
+        "hasta": 1944
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra de teatro en un acto",
+      "resumen": "Obra de teatro en la que tres muertos, Garcin, Inès y Estelle, quedan encerrados juntos en una habitación que es su infierno, sin torturadores: cada uno depende de la mirada de los otros. Se estrenó en mayo de 1944 en el Théâtre du Vieux-Colombier, de París, durante la ocupación alemana.",
+      "por_que_importa": "Contiene la frase «el infierno son los otros», muy citada como resumen de la idea sartreana de la mirada ajena que fija al sujeto.",
+      "leer": [],
+      "wikipedia": {
+        "es": "A puerta cerrada (obra)",
+        "en": "No Exit"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "las-moscas-sartre",
+      "titulo": "Las moscas",
+      "titulo_original": "Les Mouches",
+      "autor": "Jean-Paul Sartre",
+      "autor_id": "sartre",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1943,
+        "hasta": 1943
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra de teatro en tres actos",
+      "resumen": "Obra de teatro que reelabora el mito de Electra y Orestes: Orestes vuelve a Argos, mata a su madre Clitemnestra y a Egisto, que había asesinado a Agamenón, y asume su acto sin arrepentirse mientras las Erinias, las moscas del título, lo persiguen. Se estrenó en 1943 en París, bajo la ocupación alemana.",
+      "por_que_importa": "Expone en forma dramática la idea sartreana de la libertad y la responsabilidad del acto propio.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las moscas",
+        "en": "The Flies"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "las-manos-sucias",
+      "titulo": "Las manos sucias",
+      "titulo_original": "Les Mains sales",
+      "autor": "Jean-Paul Sartre",
+      "autor_id": "sartre",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1943,
+        "hasta": 1945
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra de teatro",
+      "resumen": "Drama político ambientado en la ficticia Iliria entre 1943 y 1945, que cuenta en flashback cómo un joven comunista, Hugo, asesinó a un dirigente de su propio partido que proponía pactar con otras fuerzas. Plantea la tensión entre los ideales y la acción política que obliga a «mancharse las manos». Se estrenó el 2 de abril de 1948 en el Théâtre Antoine, de París.",
+      "por_que_importa": "Es la obra más discutida de Sartre sobre política. El Partido Comunista francés la atacó por presentar a un dirigente comunista en esa situación, y Sartre rechazó que fuera anticomunista.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las manos sucias",
+        "en": "Dirty Hands"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "las-palabras-sartre",
+      "titulo": "Las palabras",
+      "titulo_original": "Les Mots",
+      "autor": "Jean-Paul Sartre",
+      "autor_id": "sartre",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1963,
+        "anio_hasta": 1964,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1905,
+        "hasta": 1917
+      },
+      "idioma_original": "Francés",
+      "soporte": "Autobiografía",
+      "resumen": "Autobiografía de la infancia de Sartre, dividida en dos partes, «Leer» y «Escribir», en la que cuenta su descubrimiento de los libros y su vocación literaria en la casa de su abuelo materno. Apareció en 1963 en Les Temps modernes y como libro en 1964, el año en que Sartre rechazó el Premio Nobel de Literatura.",
+      "por_que_importa": "En ella Sartre toma distancia de la literatura y de su propia vocación. La crítica la recibió casi unánimemente como un éxito literario.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Words (book)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "corazon-de-perro",
+      "titulo": "Corazón de perro",
+      "titulo_original": "Собачье сердце",
+      "autor": "Mijaíl Bulgákov",
+      "autor_id": "bulgakov",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1925,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1924,
+        "hasta": 1925
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Novela corta",
+      "resumen": "Sátira sobre el profesor Preobrazhenski, que trasplanta la hipófisis y los testículos de un hombre a un perro callejero y crea a Poligraf Poligrafovich Sharikov, un ser grosero que se vuelve funcionario del régimen. Bulgákov la escribió en 1925, durante la Nueva Política Económica (NEP). Se rechazó su publicación ese año, circuló en copias clandestinas y se editó oficialmente en la Unión Soviética en 1987.",
+      "por_que_importa": "Se interpreta como una alegoría de la revolución y del intento de transformar al ser humano por la fuerza. Su versión televisiva de 1988 tuvo gran repercusión en la Unión Soviética.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Corazón de perro",
+        "en": "Heart of a Dog"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-guardia-blanca",
+      "titulo": "La Guardia Blanca",
+      "titulo_original": "Белая гвардия",
+      "autor": "Mijaíl Bulgákov",
+      "autor_id": "bulgakov",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1923,
+        "anio_hasta": 1927,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1918,
+        "hasta": 1919
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Novela",
+      "resumen": "Novela sobre la familia Turbin, de la intelectualidad de Kiev, atrapada entre los ejércitos que se disputan la ciudad durante la guerra civil posterior a 1917, en la que blancos, rojos, alemanes y nacionalistas ucranianos de Petliura se disputaron Kiev, con el hetman Skoropadski como telón de fondo. Se publicó por entregas en la revista Rossiya en 1925, pero la revista se cerró antes de terminarla; la novela completa salió en París, en dos tomos, en 1927 y 1929, y recién en 1966 se reeditó en la Unión Soviética, en versión censurada.",
+      "por_que_importa": "Bulgákov la adaptó al teatro como Los días de los Turbin, estrenada en 1926. Es su primera novela.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La Guardia Blanca",
+        "en": "The White Guard"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "huevos-fatales",
+      "titulo": "Huevos fatales",
+      "titulo_original": "Роковые яйца",
+      "autor": "Mijaíl Bulgákov",
+      "autor_id": "bulgakov",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1924,
+        "anio_hasta": 1925,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1928,
+        "hasta": 1928
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta de ciencia ficción satírica ambientada en la Moscú de 1928, entonces un futuro cercano. El zoólogo Persikov descubre un rayo rojo que acelera el desarrollo de los embriones; un funcionario lo usa con huevos de gallina y, por error, con huevos de reptiles, y una plaga de bestias gigantes amenaza la capital. Bulgákov la terminó a comienzos de octubre de 1924 y apareció en 1925 en el almanaque Nedra (n.º 6) y ese mismo año en el libro Diaboliada.",
+      "por_que_importa": "Muchos críticos soviéticos la leyeron como burla de la Revolución de 1917 y de la dirigencia soviética. Fue popular en su momento.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Fatal Eggs"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tres-camaradas",
+      "titulo": "Tres camaradas",
+      "titulo_original": "Drei Kameraden",
+      "autor": "Erich Maria Remarque",
+      "autor_id": "remarque",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1928,
+        "hasta": 1929
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela narrada en primera persona por Robert Lohkamp, veterano de la Primera Guerra Mundial que explota un taller mecánico con sus amigos Otto Köster y Gottfried Lenz en una ciudad alemana sin nombre, entre 1928 y 1929, y que se enamora de Patricia Hollmann, enferma de tuberculosis. Remarque la escribió en el exilio. Salió primero traducida al danés (1936) y al inglés (1937), y en alemán en 1938, en la editorial Querido, de Ámsterdam; en Alemania no se publicó hasta 1951.",
+      "por_que_importa": "Retrata la desocupación, la violencia política y la desilusión de la generación de posguerra en la Alemania previa al nazismo. Continúa el tema de la generación de la guerra que ya trataba Sin novedad en el frente.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Three Comrades (novel)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "arco-de-triunfo",
+      "titulo": "Arco de Triunfo",
+      "titulo_original": "Arc de Triomphe",
+      "autor": "Erich Maria Remarque",
+      "autor_id": "remarque",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1939,
+        "anio_hasta": 1945,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1938,
+        "hasta": 1939
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela sobre Ravic, un cirujano alemán refugiado y sin papeles en París, que opera para médicos franceses que lo explotan, espera la expulsión y se enamora de una actriz de origen italiano, Joan Madou, en vísperas de la Segunda Guerra Mundial. Remarque la escribió durante su exilio en Estados Unidos (1939-1948). Salió primero en inglés en 1945 (por entregas en Collier's y en libro en Appleton-Century) y en alemán en 1946, en Zúrich.",
+      "por_que_importa": "Es su segundo gran éxito mundial, después de Sin novedad en el frente. Muestra la situación de los refugiados apátridas que huían del nazismo.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Arch of Triumph (novel)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-obelisco-negro",
+      "titulo": "El obelisco negro",
+      "titulo_original": "Der schwarze Obelisk",
+      "autor": "Erich Maria Remarque",
+      "autor_id": "remarque",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1956,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1923,
+        "hasta": 1923
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela narrada por Ludwig Bodmer, vendedor de lápidas en la ciudad ficticia de Werdenbrück, en 1923, durante la hiperinflación alemana. Retrata a los excombatientes de la Primera Guerra Mundial que no logran una vida normal; su subtítulo es «Historia de una juventud tardía». Remarque la escribió mientras vivía en Suiza y la publicó en 1956, sobre apuntes de los años veinte y treinta.",
+      "por_que_importa": "Continúa el hilo temático de Sin novedad en el frente y Después (también traducida como El camino de la vuelta), sobre los sobrevivientes de la guerra en la República de Weimar.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Black Obelisk"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "nieve-pamuk",
+      "titulo": "Nieve",
+      "titulo_original": "Kar",
+      "autor": "Orhan Pamuk",
+      "autor_id": "pamuk",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Estambul",
+        "lon": 28.96,
+        "lat": 41.01
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 2002,
+        "hasta": 2002
+      },
+      "idioma_original": "Turco",
+      "soporte": "Novela",
+      "resumen": "Novela en la que Ka, un poeta turco exiliado en Alemania, vuelve a Turquía y viaja a la ciudad de Kars, aislada por la nevada, donde investiga una serie de suicidios de chicas jóvenes y presencia un golpe de Estado local, en un choque entre islamistas, laicistas y nacionalistas. Se publicó en turco en 2002 y en inglés en 2004. Los suicidios tienen una base real, ocurrida en Kars.",
+      "por_que_importa": "Es la novela más explícitamente política de Pamuk y trata las tensiones culturales y políticas de la Turquía moderna.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Nieve (novela)",
+        "en": "Snow (Pamuk novel)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-museo-de-la-inocencia",
+      "titulo": "El museo de la inocencia",
+      "titulo_original": "Masumiyet Müzesi",
+      "autor": "Orhan Pamuk",
+      "autor_id": "pamuk",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Estambul",
+        "lon": 28.96,
+        "lat": 41.01
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 1975,
+        "hasta": 1984
+      },
+      "idioma_original": "Turco",
+      "soporte": "Novela",
+      "resumen": "Novela ambientada en Estambul entre 1975 y 1984 sobre el amor de Kemal, un hombre de negocios acomodado, por su pariente lejana Füsun, de familia más pobre, y sobre su obsesión por coleccionar objetos ligados a ella. Se publicó el 29 de agosto de 2008. Trata, entre otros temas, la condición de las mujeres en la sociedad turca de esos años.",
+      "por_que_importa": "Pamuk abrió en 2012 un museo real con ese nombre en el barrio de Çukurcuma, en Estambul, con objetos que evocan la vida cotidiana de la ciudad en el período de la novela.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Museum of Innocence"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-castillo-blanco",
+      "titulo": "El castillo blanco",
+      "titulo_original": "Beyaz Kale",
+      "autor": "Orhan Pamuk",
+      "autor_id": "pamuk",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Estambul",
+        "lon": 28.96,
+        "lat": 41.01
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 1600,
+        "hasta": 1699
+      },
+      "idioma_original": "Turco",
+      "soporte": "Novela",
+      "resumen": "Novela ambientada en el Estambul otomano del siglo XVII sobre un joven erudito veneciano capturado por soldados otomanos que viajaba a Nápoles, y su relación con su amo turco, que se le parece físicamente. Se publicó en turco en 1985.",
+      "por_que_importa": "Trata la identidad y el encuentro entre Oriente y Occidente a través de dos hombres que se confunden entre sí.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El castillo blanco",
+        "en": "The White Castle"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-la-filosofia-occidental",
+      "titulo": "Historia de la filosofía occidental",
+      "titulo_original": "A History of Western Philosophy",
+      "autor": "Bertrand Russell",
+      "autor_id": "bertrand-russell",
+      "tipo": "secundaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1940,
+        "anio_hasta": 1945,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [],
+        "desde": -600,
+        "hasta": 1914
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la filosofía occidental desde los presocráticos hasta comienzos del siglo XX, en el que cada gran sección va precedida de un panorama del contexto histórico. Russell lo escribió entre 1940 y 1943, viviendo sobre todo en Pensilvania, a partir de conferencias que dio en la Fundación Barnes de Filadelfia en 1941 y 1942, y se publicó en 1945 en Estados Unidos y en 1946 en el Reino Unido. Fue criticado por sus generalizaciones.",
+      "por_que_importa": "Fue un gran éxito comercial y se citó entre las obras por las que Russell recibió el Nobel de Literatura en 1950. Le dio estabilidad económica en sus últimos años.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Historia de la filosofía occidental (Russell)",
+        "en": "A History of Western Philosophy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "por-que-no-soy-cristiano",
+      "titulo": "Por qué no soy cristiano",
+      "titulo_original": "Why I Am Not a Christian",
+      "autor": "Bertrand Russell",
+      "autor_id": "bertrand-russell",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1927,
+        "hasta": 1927
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo",
+      "resumen": "Ensayo basado en una conferencia que Russell dio el 6 de marzo de 1927 en el ayuntamiento de Battersea, en Londres, invitado por la rama del sur de Londres de la Sociedad Secular Nacional. Se publicó ese año como folleto. Russell cuestiona los argumentos tradicionales a favor de la existencia de Dios y la figura moral de Cristo, y sostiene que la religión se apoya sobre todo en el miedo. Se reeditó después en una colección de ensayos de 1957 con el mismo título.",
+      "por_que_importa": "Es uno de los textos más difundidos de Russell sobre religión. La Biblioteca Pública de Nueva York lo incluyó entre los libros más importantes del siglo XX.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Por qué no soy cristiano",
+        "en": "Why I Am Not a Christian"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-problemas-de-la-filosofia",
+      "titulo": "Los problemas de la filosofía",
+      "titulo_original": "The Problems of Philosophy",
+      "autor": "Bertrand Russell",
+      "autor_id": "bertrand-russell",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1912,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1912,
+        "hasta": 1912
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Introducción breve a la filosofía publicada en 1912, que presenta la disciplina como intentos repetidos de responder las mismas preguntas: si se puede probar un mundo exterior, la causalidad, la validez de las generalizaciones o una moral objetiva. Russell sostiene que la filosofía no las resuelve y que su valor está en otro lado.",
+      "por_que_importa": "Expone la teoría del conocimiento de Russell, con su distinción entre el conocimiento directo y el conocimiento por descripción.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en el Proyecto Gutenberg (dominio público en Estados Unidos)",
+          "url": "https://www.gutenberg.org/ebooks/5827",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Los problemas de la filosofía",
+        "en": "The Problems of Philosophy"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "dublineses",
+      "titulo": "Dublineses",
+      "titulo_original": "Dubliners",
+      "autor": "James Joyce",
+      "autor_id": "joyce",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1904,
+        "anio_hasta": 1914,
+        "aprox": false,
+        "lugar": "Trieste",
+        "lon": 13.77,
+        "lat": 45.65
+      },
+      "trata": {
+        "regiones": [
+          "irlanda"
+        ],
+        "desde": 1900,
+        "hasta": 1910
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro de cuentos",
+      "resumen": "Colección de quince relatos sobre la vida de la clase media y baja de Dublín a comienzos del siglo XX. Joyce los escribió entre 1904 y 1907. Desde 1905, cuando envió un primer manuscrito a un editor, hasta su publicación el 15 de junio de 1914, lo presentó dieciocho veces a quince editores; varios objetaron el contenido y exigieron cambios. Muestra la «parálisis» cultural y moral de la ciudad y cierra con «Los muertos».",
+      "por_que_importa": "Es el primer libro de ficción de Joyce y el origen de su retrato de Dublín, que continúa en Ulises. Fue escrita en pleno auge del nacionalismo irlandés, al que Joyce veía como otro factor de esa parálisis.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2814",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Dublineses",
+        "en": "Dubliners"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "luz-de-agosto",
+      "titulo": "Luz de agosto",
+      "titulo_original": "Light in August",
+      "autor": "William Faulkner",
+      "autor_id": "faulkner",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1931,
+        "anio_hasta": 1932,
+        "aprox": false,
+        "lugar": "Oxford (Misisipi)",
+        "lon": -89.519,
+        "lat": 34.367
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1932,
+        "hasta": 1932
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela ambientada en el Sur de Estados Unidos en los años treinta, en el condado ficticio de Yoknapatawpha. Cruza las historias de Lena Grove, una joven embarazada que busca al padre de su hijo, y de Joe Christmas, un hombre que cree tener ascendencia negra pero se hace pasar por blanco. Faulkner empezó el texto en 1931 con el título «Dark House» y se publicó en 1932.",
+      "por_que_importa": "Es una de las cuatro novelas principales del primer período de Faulkner, junto con El ruido y la furia, Mientras agonizo y Absalón, Absalón. Trata el racismo, la identidad y la religión en el Sur segregado.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Luz de agosto",
+        "en": "Light in August"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "absalon-absalon",
+      "titulo": "¡Absalón, Absalón!",
+      "titulo_original": "Absalom, Absalom!",
+      "autor": "William Faulkner",
+      "autor_id": "faulkner",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1935,
+        "anio_hasta": 1936,
+        "aprox": false,
+        "lugar": "Oxford (Misisipi)",
+        "lon": -89.519,
+        "lat": 34.367
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1833,
+        "hasta": 1909
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela que cuenta el ascenso y la caída de Thomas Sutpen, nacido pobre en el oeste de Virginia, que se instala en Misisipi para fundar una plantación y una dinastía, antes, durante y después de la Guerra de Secesión. Lo narran varios testigos poco confiables años después. Se publicó en 1936.",
+      "por_que_importa": "Su título remite al hijo rebelde del rey David en la Biblia.",
+      "leer": [],
+      "wikipedia": {
+        "es": "¡Absalón, Absalón!",
+        "en": "Absalom, Absalom!"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "palido-fuego",
+      "titulo": "Pálido fuego",
+      "titulo_original": "Pale Fire",
+      "autor": "Vladimir Nabokov",
+      "autor_id": "nabokov",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1960,
+        "anio_hasta": 1962,
+        "aprox": false,
+        "lugar": "Montreux",
+        "lon": 6.912,
+        "lat": 46.435
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1959,
+        "hasta": 1959
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela presentada como un poema de 999 versos del ficticio John Shade, con prólogo, extenso comentario e índice de su vecino y colega Charles Kinbote, que convierte el poema en el relato de su supuesto exilio como rey de Zembla. La historia transcurre en el pueblo universitario ficticio de New Wye, en Estados Unidos, entre febrero y octubre de 1959. Nabokov la escribió en 1960 y 1961, empezándola en Niza y terminándola en Montreux. Se publicó en 1962.",
+      "por_que_importa": "Se cita como ejemplo de metaficción y como antecedente analógico de la ficción hipertextual. Generó una amplia bibliografía crítica y múltiples interpretaciones.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pálido fuego",
+        "en": "Pale Fire"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-defensa-nabokov",
+      "titulo": "La defensa",
+      "titulo_original": "Защита Лужина",
+      "autor": "Vladimir Nabokov",
+      "autor_id": "nabokov",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1929,
+        "anio_hasta": 1930,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "alemania"
+        ],
+        "desde": 1910,
+        "hasta": 1929
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Novela",
+      "resumen": "Tercera novela de Nabokov, sobre Luzhin, un niño prodigio del ajedrez, retraído y obsesionado, cuya vida se desarma cuando intenta aplicar a la realidad una defensa de ajedrez. Apareció en 1929 y 1930 en la revista del exilio ruso Sovremennye zapiski, y en libro en Berlín en la editorial Slovo. Nabokov la tradujo al inglés con Michael Scammell en 1964, con el título The Defense.",
+      "por_que_importa": "Fue escrita en el exilio, en ruso, antes de que Nabokov pasara al inglés.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Defense"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-biblioteca-de-babel",
+      "titulo": "La biblioteca de Babel",
+      "titulo_original": "La biblioteca de Babel",
+      "autor": "Jorge Luis Borges",
+      "autor_id": "borges",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1941,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1941,
+        "hasta": 1941
+      },
+      "idioma_original": "Español",
+      "soporte": "Cuento",
+      "resumen": "Cuento sobre un universo en forma de biblioteca inmensa, hecha de galerías hexagonales idénticas que contienen todos los libros posibles de cierto formato y combinación de veinticinco signos. Sus habitantes buscan sentido en ese conjunto casi infinito. Se publicó en 1941 en el libro El jardín de senderos que se bifurcan, incluido luego en Ficciones (1944). Antes, en 1939, Borges había escrito el ensayo «La biblioteca total».",
+      "por_que_importa": "Es uno de los cuentos más comentados de Borges. Se usó para pensar el infinito, la información y el azar; por ejemplo, el espacio de las posibles secuencias de proteínas se comparó con esa biblioteca.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La biblioteca de Babel",
+        "en": "The Library of Babel"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "mil-grullas",
+      "titulo": "Mil grullas",
+      "titulo_original": "千羽鶴 (Senbazuru)",
+      "autor": "Yasunari Kawabata",
+      "autor_id": "kawabata",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1949,
+        "anio_hasta": 1952,
+        "aprox": false,
+        "lugar": "Tokio",
+        "lon": 139.692,
+        "lat": 35.689
+      },
+      "trata": {
+        "regiones": [
+          "japon"
+        ],
+        "desde": 1949,
+        "hasta": 1951
+      },
+      "idioma_original": "Japonés",
+      "soporte": "Novela",
+      "resumen": "Novela en torno a la ceremonia del té. Kikuji, un oficinista de Tokio, asiste a las clases de la maestra Chikako Kurimoto, antigua amante de su padre, y se involucra con la señora Ota, otra antigua amante de su padre, y luego con la hija de esta. Salió por entregas desde 1949 hasta 1951 y como libro en 1952. En 1953 se habló de una tercera parte, pero el relato que retomaba al protagonista quedó sin terminar.",
+      "por_que_importa": "Usa la ceremonia del té y sus objetos como hilo del relato. Kawabata rechazó que se la leyera como una evocación de la belleza de la ceremonia del té y la definió como «una obra negativa», una advertencia contra la vulgaridad en que había caído. Recibió el Nobel de Literatura en 1968.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Mil grullas (novela)",
+        "en": "Thousand Cranes"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-guerra-no-tiene-rostro-de-mujer",
+      "titulo": "La guerra no tiene rostro de mujer",
+      "titulo_original": "У войны не женское лицо",
+      "autor": "Svetlana Alexiévich",
+      "autor_id": "alexievich",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1983,
+        "anio_hasta": 1985,
+        "aprox": false,
+        "lugar": "Minsk",
+        "lon": 27.562,
+        "lat": 53.902
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1941,
+        "hasta": 1945
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Testimonios",
+      "resumen": "Libro documental con relatos de mujeres que participaron en la Segunda Guerra Mundial en el Ejército Rojo en distintas funciones. Alexiévich lo escribió en 1983 a partir de entrevistas; apareció en la revista Oktyabr a comienzos de 1984 y como libro en 1985. La censura soviética, o la propia autora, eliminó pasajes que la acusaban de pacifismo, naturalismo y de quitar heroicidad a la mujer soviética; ediciones posteriores restituyeron muchos. Es el primer libro del ciclo «Voces de la utopía».",
+      "por_que_importa": "Es el primer libro publicado de Alexiévich y fijó su método de reunir voces individuales. Es la primera parte del ciclo al que pertenece también Voces de Chernóbil.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La guerra no tiene rostro de mujer"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "por-quien-doblan-las-campanas",
+      "titulo": "Por quién doblan las campanas",
+      "titulo_original": "For Whom the Bell Tolls",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1939,
+        "anio_hasta": 1940,
+        "aprox": false,
+        "lugar": "La Habana",
+        "lon": -82.359,
+        "lat": 23.137
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1937,
+        "hasta": 1937
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela sobre Robert Jordan, un voluntario estadounidense, antes profesor de español y experto en explosivos, que combate con una guerrilla republicana en la sierra de Guadarrama durante la guerra civil española y recibe la orden de volar un puente antes de la ofensiva de Segovia, a fines de mayo de 1937. Hemingway la escribió en 1939 entre La Habana, Cayo Hueso e Idaho, la terminó en julio de 1940 en Nueva York y Scribner's la publicó el 21 de octubre de 1940, poco después del fin de la guerra. El título viene de una meditación del poeta John Donne, de 1624.",
+      "por_que_importa": "Es la novela de Hemingway sobre la guerra civil española, que él cubrió como corresponsal. Muestra al bando republicano con sus tensiones internas; en el capítulo 10, Pilar cuenta la ejecución de partidarios del bando sublevado en su pueblo, una escena basada en lo ocurrido en Ronda en 1936 aunque Hemingway dijo en 1954 que la había inventado. Salió cuando Estados Unidos aún no había entrado en la Segunda Guerra Mundial.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Por quién doblan las campanas",
+        "en": "For Whom the Bell Tolls"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "adios-a-las-armas",
+      "titulo": "Adiós a las armas",
+      "titulo_original": "A Farewell to Arms",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1929,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1915,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela narrada en primera persona por Frederic Henry, un estadounidense teniente del cuerpo de ambulancias del ejército italiano en la Primera Guerra Mundial, que se enamora de la enfermera inglesa Catherine Barkley; incluye la retirada italiana tras la batalla de Caporetto. Hemingway, que fue conductor de ambulancias voluntario en Italia, escribió partes en Piggott (Arkansas) y en Mission Hills (Kansas). Se publicó por entregas en Scribner's Magazine entre mayo y octubre de 1929 y como libro el 27 de septiembre de 1929; en Italia no pudo editarse hasta 1948, porque el régimen fascista la juzgó lesiva para el honor de las fuerzas armadas.",
+      "por_que_importa": "Fue el primer gran éxito de ventas de Hemingway y afianzó su lugar entre los novelistas estadounidenses modernos; se la ha llamado la principal novela estadounidense sobre la Primera Guerra Mundial.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en Wikisource (dominio público en Estados Unidos desde 2025)",
+          "url": "https://en.wikisource.org/wiki/A_Farewell_to_Arms",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Adiós a las armas",
+        "en": "A Farewell to Arms"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fiesta-hemingway",
+      "titulo": "Fiesta",
+      "titulo_original": "The Sun Also Rises",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1925,
+        "anio_hasta": 1926,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "iberia"
+        ],
+        "desde": 1925,
+        "hasta": 1925
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Primera novela extensa de Hemingway: sigue a un grupo de expatriados estadounidenses y británicos que viajan de París a la fiesta de San Fermín, en Pamplona, y ven los encierros y las corridas. Jake Barnes, periodista herido en la guerra, y la divorciada Brett Ashley son el centro de la historia, que es una novela en clave basada en gente del círculo de Hemingway y en su viaje a España en 1925. Terminó el borrador el 21 de septiembre de 1925, lo revisó a fondo desde diciembre en Schruns (Austria) y Scribner's la publicó el 22 de octubre de 1926; en Londres salió en 1927 con el título Fiesta, el que se usó en el Reino Unido.",
+      "por_que_importa": "Presenta a la «generación perdida» de entreguerras, que Hemingway describe como resistente y no solo dañada por la guerra. Muestra su estilo sobrio, la «teoría del iceberg», y sigue en imprenta desde su aparición.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en Wikisource (dominio público en Estados Unidos)",
+          "url": "https://en.wikisource.org/wiki/The_Sun_Also_Rises",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Fiesta (novela)",
+        "en": "The Sun Also Rises"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tener-y-no-tener",
+      "titulo": "Tener y no tener",
+      "titulo_original": "To Have and Have Not",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1935,
+        "anio_hasta": 1937,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "norteamerica"
+        ],
+        "desde": 1930,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela sobre Harry Morgan, capitán de una lancha de pesca de Cayo Hueso (Florida) que, arruinado por un cliente que no le paga, pasa a contrabandear entre Cuba y Florida durante la Gran Depresión. Nació de dos cuentos publicados antes, «One Trip Across» (Cosmopolitan, 1934) y «The Tradesman's Return» (Esquire, 1936), que forman los primeros capítulos, y de una novela corta escrita después; la narran varios personajes. Hemingway la escribió de manera intermitente entre 1935 y 1937, la revisó en sus viajes a España durante la guerra civil y Scribner's la publicó el 15 de octubre de 1937.",
+      "por_que_importa": "Es su cuarta novela y la segunda ambientada en Estados Unidos; contrapone a los pobres de Cayo Hueso con los dueños de yates. El biógrafo Jeffrey Meyers la describe como muy influida por el marxismo al que Hemingway se expuso al apoyar a los republicanos en España.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tener y no tener (novela)",
+        "en": "To Have and Have Not"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "paris-era-una-fiesta",
+      "titulo": "París era una fiesta",
+      "titulo_original": "A Moveable Feast",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1957,
+        "anio_hasta": 1960,
+        "aprox": false,
+        "lugar": "La Habana",
+        "lon": -82.359,
+        "lat": 23.137
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1921,
+        "hasta": 1926
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Libro de memorias sobre los años veinte en París, cuando Hemingway era un periodista y escritor expatriado y pobre. Cuenta su primer matrimonio, con Hadley Richardson, y su trato con figuras de la Generación perdida como Sylvia Beach, Gertrude Stein, Ezra Pound, Ford Madox Ford, James Joyce y F. Scott Fitzgerald. Según la nota de su viuda, Mary Hemingway, lo empezó en Cuba en el otoño de 1957, lo trabajó en Ketchum (Idaho) y lo terminó en Cuba en la primavera de 1960; ella lo revisó y se publicó póstumamente en 1964. En 2009 apareció una «edición restaurada» preparada por su nieto Seán Hemingway.",
+      "por_que_importa": "Sobre qué edición refleja la voluntad de Hemingway hay discusión: A. E. Hotchner sostuvo que la de 1964 es la que él quería, y Gerry Brenner documentó en 1982 las correcciones de Mary Hemingway y juzgó desacertadas algunas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "París era una fiesta",
+        "en": "A Moveable Feast"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "las-nieves-del-kilimanjaro",
+      "titulo": "Las nieves del Kilimanjaro",
+      "titulo_original": "The Snows of Kilimanjaro",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "africa-oriental"
+        ],
+        "desde": 1936,
+        "hasta": 1936
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Cuento",
+      "resumen": "Cuento sobre Harry, un escritor que se muere de gangrena durante un safari en África, varado con su mujer Helen en un campamento porque se quemó un cojinete del camión. Mientras espera, repasa su vida y los cuentos que nunca escribió. Abre con un párrafo sobre el Kilimanjaro y un leopardo congelado cerca de su cima. Se publicó en agosto de 1936 en la revista Esquire y se reeditó en 1938 en el volumen The Fifth Column and the First Forty-Nine Stories.",
+      "por_que_importa": "Es uno de los cuentos más difundidos de Hemingway y fue llevado al cine en 1952 con Gregory Peck.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Snows of Kilimanjaro (short story)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "al-otro-lado-del-rio-y-entre-los-arboles",
+      "titulo": "Al otro lado del río y entre los árboles",
+      "titulo_original": "Across the River and into the Trees",
+      "autor": "Ernest Hemingway",
+      "autor_id": "hemingway",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1949,
+        "anio_hasta": 1950,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1918,
+        "hasta": 1948
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela sobre el coronel estadounidense Richard Cantwell, de cincuenta años y con una enfermedad cardíaca terminal, que caza patos cerca de Venecia y recuerda en un largo flashback su paso por el frente italiano de la Primera Guerra Mundial y su romance con una joven veneciana, Renata. Hemingway la escribió entre 1949 y 1950 en Cortina d'Ampezzo, Cuba, París y Venecia; Cosmopolitan la publicó por entregas de febrero a junio de 1950 y Scribner's como libro el 7 de septiembre de 1950. El título viene de las últimas palabras del general confederado Stonewall Jackson.",
+      "por_que_importa": "Fue la primera novela de Hemingway que recibió críticas negativas, y su primer libro desde Por quién doblan las campanas (1940).",
+      "leer": [],
+      "wikipedia": {
+        "es": "Al otro lado del río y entre los árboles",
+        "en": "Across the River and into the Trees"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-amor-en-los-tiempos-del-colera",
+      "titulo": "El amor en los tiempos del cólera",
+      "titulo_original": "El amor en los tiempos del cólera",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1880,
+        "hasta": 1930
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela",
+      "resumen": "Novela sobre Florentino Ariza y Fermina Daza, que se enamoran de jóvenes y se separan cuando el padre de ella lo impide; Fermina se casa con el médico Juvenal Urbino y Florentino le jura amor durante más de cincuenta años, hasta que Urbino muere. La ciudad no se nombra y reúne rasgos de Cartagena y Barranquilla. Se publicó en 1985, tres años después del Nobel de su autor, y se dice que se inspiró en el noviazgo de los padres de García Márquez.",
+      "por_que_importa": "Con Crónica de una muerte anunciada y Del amor y otros demonios forma lo que se ha llamado el tríptico amoroso de García Márquez.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El amor en los tiempos del cólera",
+        "en": "Love in the Time of Cholera"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-coronel-no-tiene-quien-le-escriba",
+      "titulo": "El coronel no tiene quien le escriba",
+      "titulo_original": "El coronel no tiene quien le escriba",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1956,
+        "anio_hasta": 1961,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1950,
+        "hasta": 1958
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta sobre un coronel jubilado, veterano de la guerra de los Mil Días, que desde hace unos quince años espera la pensión que se le prometió, y vive con su mujer asmática en un pueblo bajo ley marcial, en los años de la Violencia colombiana; su única esperanza es un gallo de pelea heredado de su hijo muerto. García Márquez la escribió entre 1956 y 1957 en París, en el Hotel des Trois Collèges; salió en 1958 en la revista Mito (n.º 19) y como libro en 1961.",
+      "por_que_importa": "García Márquez la consideraba su mejor libro y dijo que tuvo que escribir Cien años de soledad para que la gente leyera El coronel. Es más realista que sus obras posteriores y muestra la pobreza y la censura de la época.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El coronel no tiene quien le escriba",
+        "en": "No One Writes to the Colonel"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-otono-del-patriarca",
+      "titulo": "El otoño del patriarca",
+      "titulo_original": "El otoño del patriarca",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1975,
+        "hasta": 1975
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela",
+      "resumen": "Novela política sobre la vida de un dictador eterno en un país ficticio a orillas del Caribe, dividida en seis secciones que vuelven a contar la misma historia del poder sin límite. García Márquez dijo que era un «poema sobre la soledad del poder» y mezcló rasgos de gobernantes reales, como Gustavo Rojas Pinilla, Francisco Franco, François Duvalier y Juan Vicente Gómez. La escribió en Barcelona y se publicó en 1975.",
+      "por_que_importa": "Es una de las novelas del dictador de la literatura latinoamericana. En 1975 fue el libro más vendido en España, según el Instituto Español del Libro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El otoño del patriarca",
+        "en": "The Autumn of the Patriarch"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-una-muerte-anunciada",
+      "titulo": "Crónica de una muerte anunciada",
+      "titulo_original": "Crónica de una muerte anunciada",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1951,
+        "hasta": 1951
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta que, con la forma de una reconstrucción seudoperiodística, cuenta el asesinato de Santiago Nasar por los gemelos Vicario, que anunciaron lo que iban a hacer sin que nadie lo impidiera. Se inspiró en un hecho real: el 22 de enero de 1951, en Sucre, Miguel Reyes Palencia devolvió a su casa a su esposa Margarita Chica Salas por no ser virgen, y el hermano de ella, Víctor, mató a Cayetano Gentile Chimeno. Se publicó en 1981.",
+      "por_que_importa": "Mezcla la forma del periodismo con la ficción y forma, con El amor en los tiempos del cólera y Del amor y otros demonios un tríptico amoroso.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de una muerte anunciada",
+        "en": "Chronicle of a Death Foretold"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "memoria-de-mis-putas-tristes",
+      "titulo": "Memoria de mis putas tristes",
+      "titulo_original": "Memoria de mis putas tristes",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2004,
+        "hasta": 2004
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta narrada en primera persona por un periodista que acaba de cumplir noventa años y busca pasar la noche con una chica de catorce años que vende su virginidad para ayudar a su familia. En lugar del sexo, descubre por primera vez en su vida el amor. Se publicó en español en 2004, fue la última novela que García Márquez sacó en vida y tuvo una adaptación cinematográfica en 2012.",
+      "por_que_importa": "Fue su primera novela en diez años, desde Del amor y otros demonios, y la crítica se dividió: John Updike la llamó un «placer aterciopelado de leer, aunque algo desagradable de contemplar», y Michiko Kakutani, en The New York Times, «un ejercicio narrativo desganado». En Irán se prohibió después de vender 5000 ejemplares.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Memoria de mis putas tristes",
+        "en": "Memories of My Melancholy Whores"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-general-en-su-laberinto",
+      "titulo": "El general en su laberinto",
+      "titulo_original": "El general en su laberinto",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1830,
+        "hasta": 1830
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela",
+      "resumen": "Novela histórica semificcional sobre los últimos siete meses de Simón Bolívar, el Libertador. Cuenta su viaje de Bogotá a la costa caribeña de Colombia, desde el 8 de mayo de 1830, para intentar dejar Sudamérica y exiliarse en Europa. García Márquez decidió escribirla después de leer una novela inconclusa de su amigo Álvaro Mutis sobre el viaje de Bolívar por el río Magdalena. Se publicó en 1989 a la vez en Argentina, Colombia, México y España.",
+      "por_que_importa": "Es la novela de García Márquez construida sobre un personaje histórico real, el Libertador, en el último viaje de su vida.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El general en su laberinto",
+        "en": "The General in His Labyrinth"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "del-amor-y-otros-demonios",
+      "titulo": "Del amor y otros demonios",
+      "titulo_original": "Del amor y otros demonios",
+      "autor": "Gabriel García Márquez",
+      "autor_id": "garcia-marquez",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1700,
+        "hasta": 1799
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela",
+      "resumen": "Novela ambientada en Cartagena de Indias en el siglo XVIII. Sierva María, hija de doce años de un marqués, es mordida por un perro rabioso; no parece contagiarse, pero su familia la entrega a un convento. En el prólogo García Márquez cuenta que la historia nació cuando presenció la apertura de unas tumbas y vio la de una niña con una cabellera de veintidós metros. Se publicó en español en 1994 y en inglés en 1995.",
+      "por_que_importa": "Es el tercer libro de lo que se ha llamado un tríptico amoroso, con Crónica de una muerte anunciada y El amor en los tiempos del cólera. En 2008 el compositor Péter Eötvös estrenó una ópera basada en ella.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Del amor y otros demonios (novela)",
+        "en": "Of Love and Other Demons"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "totem-y-tabu",
+      "titulo": "Tótem y tabú",
+      "titulo_original": "Totem und Tabu",
+      "autor": "Sigmund Freud",
+      "autor_id": "freud",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1912,
+        "anio_hasta": 1913,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1912,
+        "hasta": 1913
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro (cuatro ensayos)",
+      "resumen": "Libro en el que Freud aplica el psicoanálisis a la antropología, la arqueología y la historia de la religión, y compara la vida mental de los pueblos llamados «salvajes» con la de los neuróticos. Reúne cuatro ensayos publicados primero en la revista Imago en 1912 y 1913: «El horror al incesto», «El tabú y la ambivalencia de los sentimientos», «Animismo, magia y omnipotencia de las ideas» y «El retorno infantil del totemismo». Usa los conceptos de proyección y ambivalencia, que había desarrollado con pacientes neuróticos en Viena, para explicar el vínculo entre tabú y totemismo.",
+      "por_que_importa": "Sus tesis fueron rechazadas por la antropología: el antropólogo Alfred Kroeber las criticó en 1920 y de nuevo en 1952, y Peter Farb escribió que hacia 1968 los antropólogos las daban por desacreditadas. Aun así, René Girard retomó su idea de un asesinato colectivo en el origen de la sociedad.",
+      "leer": [
+        {
+          "titulo": "Traducción al inglés de A. A. Brill (1918) en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Totem_and_Taboo",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Tótem y tabú",
+        "en": "Totem and Taboo"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-malestar-en-la-cultura",
+      "titulo": "El malestar en la cultura",
+      "titulo_original": "Das Unbehagen in der Kultur",
+      "autor": "Sigmund Freud",
+      "autor_id": "freud",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1929,
+        "anio_hasta": 1930,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1929,
+        "hasta": 1930
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Ensayo",
+      "resumen": "Ensayo en el que Freud estudia el choque entre el deseo de individualidad y las exigencias de la sociedad, y las tensiones fundamentales entre la civilización y el individuo. Lo escribió en 1929, once años después del fin de la Primera Guerra Mundial, y se publicó en alemán en 1930 en Viena. Retoma ideas de El porvenir de una ilusión (1927), donde había criticado la religión organizada como una neurosis colectiva.",
+      "por_que_importa": "El historiador Peter Gay lo describió en 1989 como uno de los libros más influyentes y estudiados de la psicología moderna. Junto con Psicología de las masas y análisis del yo (1921), es de lo más relevante de Freud en psicología social.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en el Proyecto Gutenberg (dominio público en Estados Unidos)",
+          "url": "https://www.gutenberg.org/ebooks/78221",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "El malestar en la cultura",
+        "en": "Civilization and Its Discontents"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tres-ensayos-sobre-teoria-sexual",
+      "titulo": "Tres ensayos sobre teoría sexual",
+      "titulo_original": "Drei Abhandlungen zur Sexualtheorie",
+      "autor": "Sigmund Freud",
+      "autor_id": "freud",
+      "tipo": "primaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1905,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1905,
+        "hasta": 1905
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro (tres ensayos)",
+      "resumen": "Obra en la que Freud expone su teoría de la sexualidad y su relación con la infancia, en tres partes: las aberraciones sexuales, la sexualidad infantil y la pubertad. En la primera distingue el objeto sexual del fin sexual y señala que las desviaciones de la norma pueden darse en cualquiera de los dos. La edición de 1905 plantea una teoría autoerótica del desarrollo sexual, sin el complejo de Edipo; en las ediciones siguientes, durante veinte años, Freud la reescribió y la amplió de unas 80 a unas 120 páginas.",
+      "por_que_importa": "Con La interpretación de los sueños, es una de las contribuciones más importantes de Freud, y puso la sexualidad infantil en el centro del psicoanálisis.",
+      "leer": [
+        {
+          "titulo": "Traducción al inglés de A. A. Brill (1910) en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Three_Contributions_to_the_Theory_of_Sex",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Tres ensayos sobre teoría sexual",
+        "en": "Three Essays on the Theory of Sexuality"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-porvenir-de-una-ilusion",
+      "titulo": "El porvenir de una ilusión",
+      "titulo_original": "Die Zukunft einer Illusion",
+      "autor": "Sigmund Freud",
+      "autor_id": "freud",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1927,
+        "hasta": 1927
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Ensayo",
+      "resumen": "Ensayo en el que Freud trata los orígenes, el desarrollo y el futuro de la religión, y la analiza como una ilusión: una creencia sostenida por el deseo, que Freud distingue del error y que no es necesariamente falsa, aunque juzga improbables las doctrinas religiosas. Define la religión como una ilusión, hecha de dogmas que dicen algo que uno no ha descubierto por sí mismo y que piden ser creídos.",
+      "por_que_importa": "Es su análisis de la religión como neurosis colectiva, una idea que retomó en El malestar en la cultura (1930).",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en el Proyecto Gutenberg (dominio público en Estados Unidos)",
+          "url": "https://www.gutenberg.org/ebooks/76774",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "El porvenir de una ilusión",
+        "en": "The Future of an Illusion"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "moises-y-la-religion-monoteista",
+      "titulo": "Moisés y la religión monoteísta",
+      "titulo_original": "Der Mann Moses und die monotheistische Religion",
+      "autor": "Sigmund Freud",
+      "autor_id": "freud",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1934,
+        "anio_hasta": 1939,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1934,
+        "hasta": 1939
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro (tres ensayos)",
+      "resumen": "Libro de tres ensayos sobre los orígenes del monoteísmo, escritos entre 1934 y 1938 y publicados por primera vez como libro por Allert de Lange, en Ámsterdam, en 1939; los dos primeros habían aparecido en 1937 y el tercero en 1938. Freud propone que Moisés era un egipcio seguidor del monoteísmo de Akenatón y no un hebreo criado en la corte, como cuenta el Éxodo, y que los israelitas lo mataron y la culpa por ese crimen modeló la religión judía. Escribió la tercera parte en Londres, adonde llegó tras la anexión nazi de Austria; en una carta a Arnold Zweig del 28 de junio de 1938 decía que trabajaba en ella.",
+      "por_que_importa": "Es la última obra original de Freud, aparecida unos meses antes de su muerte, y sorprendió a muchos lectores por su tesis del Moisés egipcio. Es su segundo trabajo sobre Moisés, tras «El Moisés de Miguel Ángel» (1914).",
+      "leer": [],
+      "wikipedia": {
+        "es": "Moisés y la religión monoteísta",
+        "en": "Moses and Monotheism"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-muerte-en-venecia",
+      "titulo": "La muerte en Venecia",
+      "titulo_original": "Der Tod in Venedig",
+      "autor": "Thomas Mann",
+      "autor_id": "thomas-mann",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1911,
+        "anio_hasta": 1912,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1911,
+        "hasta": 1911
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta sobre Gustav von Aschenbach, un escritor consagrado que viaja a Venecia, se obsesiona con el adolescente polaco Tadzio y muere en una epidemia de cólera. Se apoya en la estancia de Mann en Venecia en el verano de 1911, durante la epidemia de cólera de ese año, y Tadzio se habría basado en un niño llamado Władzio que Mann observó allí; la muerte de Gustav Mahler en Viena, en mayo de 1911, también ocupaba sus pensamientos. Salió en 1912 en una edición limitada de Hyperion-Verlag y por entregas en Die neue Rundschau, y en una edición comercial de Fischer en 1913.",
+      "por_que_importa": "Se la cuenta, junto con La montaña mágica y Los Buddenbrook, entre las obras más conocidas de Mann; su trama es una reflexión estética sobre la pasión, el amor ideal y la belleza.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La muerte en Venecia (novela)",
+        "en": "Death in Venice"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "doktor-faustus",
+      "titulo": "Doktor Faustus",
+      "titulo_original": "Doktor Faustus. Das Leben des deutschen Tonsetzers Adrian Leverkühn, erzählt von einem Freunde",
+      "autor": "Thomas Mann",
+      "autor_id": "thomas-mann",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1943,
+        "anio_hasta": 1947,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1885,
+        "hasta": 1946
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela que rehace la leyenda de Fausto en la Alemania de la primera mitad del siglo XX. El narrador, Serenus Zeitblom, escribe entre 1943 y 1946 la vida de su amigo de infancia, el compositor ficticio Adrian Leverkühn, que contrae sífilis a propósito para hacer un pacto con el diablo que le da genio creador, y cae en la locura hasta su muerte. Su vida transcurre en paralelo con la Alemania que lleva al nazismo. Mann la empezó en 1943 y se publicó en 1947; en 1949 publicó su propio relato de cómo nació la novela.",
+      "por_que_importa": "Mann la escribió en el exilio, en Los Ángeles, y entre sus temas está la caída intelectual de Alemania en los años previos a la Segunda Guerra Mundial. Schönberg, que vivía cerca, se molestó porque Leverkühn usaba su técnica dodecafónica sin su consentimiento, y las ediciones posteriores llevan una nota de Mann que se la reconoce.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Doktor Faustus",
+        "en": "Doctor Faustus (novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tonio-kroger",
+      "titulo": "Tonio Kröger",
+      "titulo_original": "Tonio Kröger",
+      "autor": "Thomas Mann",
+      "autor_id": "thomas-mann",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1900,
+        "anio_hasta": 1902,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "escandinavia"
+        ],
+        "desde": 1900,
+        "hasta": 1902
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta que sigue la vida de un hombre desde sus días de escolar hasta la adultez. Hijo de un comerciante del norte de Alemania y de una madre «del sur» con talento artístico, Tonio siente un contraste que no se puede salvar entre el arte y la burguesía. Tiene rasgos autobiográficos: su admiración por el compañero Hans Hansen se basó, según una carta de Mann, en la que sintió por su compañero de Lübeck Armin Martens. Lo escribió hacia 1900-1902 (otras cronologías lo sitúan a comienzos de 1901) y se publicó en 1903.",
+      "por_que_importa": "Es una de las primeras novelas cortas de Mann y trata del artista frente al mundo burgués, un tema que él volvió a tratar.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tonio Kröger (novela)",
+        "en": "Tonio Kröger"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "jose-y-sus-hermanos",
+      "titulo": "José y sus hermanos",
+      "titulo_original": "Joseph und seine Brüder",
+      "autor": "Thomas Mann",
+      "autor_id": "thomas-mann",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1926,
+        "anio_hasta": 1943,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante"
+        ],
+        "desde": -1353,
+        "hasta": -1336
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Tetralogía",
+      "resumen": "Tetralogía que cuenta de nuevo las historias del Génesis (capítulos 27 a 50), de Jacob a José, en el marco histórico del período de Amarna. Consta de Las historias de Jaakob (diciembre de 1926 a octubre de 1930), El joven José (enero de 1931 a junio de 1932), José en Egipto (julio de 1932 a agosto de 1936) y José el Proveedor (agosto de 1940 a enero de 1943). Los dos primeros tomos los publicó S. Fischer en Berlín (1933 y 1934); José en Egipto salió en Viena en 1936 y José el Proveedor en Estocolmo en 1943, los dos en la editorial de exilio Bermann-Fischer. Mann terminó el último en California.",
+      "por_que_importa": "Es la obra más voluminosa de Mann, escrita a lo largo de dieciséis años, y él la consideraba la mejor. Su presentación del antiguo Oriente y de los orígenes del judaísmo recibió la influencia de Alfred Jeremias y de Dmitri Merezhkovski.",
+      "leer": [],
+      "wikipedia": {
+        "es": "José y sus hermanos",
+        "en": "Joseph and His Brothers"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "al-este-del-eden",
+      "titulo": "Al este del Edén",
+      "titulo_original": "East of Eden",
+      "autor": "John Steinbeck",
+      "autor_id": "steinbeck",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1952,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1862,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Saga familiar de los Trask y los Hamilton en el valle de Salinas, California, de la guerra de Secesión a la Primera Guerra Mundial. Viking Press la publicó en septiembre de 1952 y subió enseguida al primer puesto de las listas de ventas. Steinbeck la consideraba su obra mayor: «Tiene todo lo que he podido aprender de mi oficio en todos estos años».",
+      "por_que_importa": "Su popularidad volvió a crecer en 2003, cuando la eligió el club de lectura de Oprah Winfrey. Cuenta una historia de dos familias del lugar de origen del autor.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Al este del Edén (novela)",
+        "en": "East of Eden (novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-perla-steinbeck",
+      "titulo": "La perla",
+      "titulo_original": "The Pearl",
+      "autor": "John Steinbeck",
+      "autor_id": "steinbeck",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1944,
+        "anio_hasta": 1947,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1944,
+        "hasta": 1947
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta sobre Kino, un pescador de perlas, que explora la codicia, el desafío a las normas sociales y el mal. Steinbeck la empezó en 1944 como guion de cine, la publicó como cuento, «The Pearl of the World», en Woman's Home Companion en diciembre de 1945 y la amplió a novela corta en 1947 (Viking Press). Se inspira en un cuento popular mexicano de La Paz, Baja California, que había mencionado en Sea of Cortez (1940), el libro escrito con el biólogo marino Ed Ricketts.",
+      "por_que_importa": "Se usa mucho en las escuelas de Estados Unidos y a veces se la considera una parábola. Steinbeck escribió que quería tratar la codicia humana, el materialismo y el valor propio de las cosas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La perla (novela)",
+        "en": "The Pearl (novella)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tortilla-flat",
+      "titulo": "Tortilla Flat",
+      "titulo_original": "Tortilla Flat",
+      "autor": "John Steinbeck",
+      "autor_id": "steinbeck",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1935,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1919,
+        "hasta": 1919
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela picaresca ambientada en Monterey (California), sobre un grupo de «paisanos» de ascendencia mexicana, india y española que viven del vino y de la holgazanería en los días posteriores a la Primera Guerra Mundial. La obra los muestra como una caricatura de los caballeros de la Mesa Redonda. Se publicó en 1935, se adaptó al teatro en 1938 y al cine en 1942.",
+      "por_que_importa": "Fue el primer éxito claro de Steinbeck con la crítica y las ventas. Volvió a algunos mendigos de Monterey en La calle de la sardina (1945).",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tortilla Flat",
+        "en": "Tortilla Flat"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "una-habitacion-propia",
+      "titulo": "Una habitación propia",
+      "titulo_original": "A Room of One's Own",
+      "autor": "Virginia Woolf",
+      "autor_id": "virginia-woolf",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1928,
+        "anio_hasta": 1929,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1928,
+        "hasta": 1929
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo",
+      "resumen": "Ensayo extenso dividido en seis capítulos, basado en dos conferencias que Woolf dio en octubre de 1928 en dos colegios universitarios femeninos de Cambridge, Newnham y Girton. Trata de las mujeres y la escritura y sostiene que «una mujer debe tener dinero y una habitación propia si quiere escribir ficción». Se publicó el 24 de octubre de 1929. Menciona el juicio por obscenidad contra la novela El pozo de la soledad, de Radclyffe Hall (1928).",
+      "por_que_importa": "Reúne los argumentos de Woolf sobre las mujeres y la escritura, muy citados en la crítica literaria feminista. Antes de publicarlo, Woolf anotó en su diario que esperaba que la acusaran de feminista.",
+      "leer": [
+        {
+          "titulo": "Edición de Hogarth Press de 1929 en inglés, en Wikisource",
+          "url": "https://en.wikisource.org/wiki/A_Room_of_One%27s_Own_%28Hogarth_1929%29",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Una habitación propia",
+        "en": "A Room of One's Own"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "orlando",
+      "titulo": "Orlando",
+      "titulo_original": "Orlando: A Biography",
+      "autor": "Virginia Woolf",
+      "autor_id": "virginia-woolf",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1928,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1580,
+        "hasta": 1928
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela publicada el 11 de octubre de 1928 por la editorial de los Woolf, Hogarth Press, inspirada en la agitada historia familiar de la poeta y novelista aristócrata Vita Sackville-West, amiga y amante de Woolf. Cuenta las aventuras de un poeta que nace varón y noble en el reinado de Isabel I, se convierte en mujer y vive siglos, hasta el día de la publicación. Es una historia de la literatura inglesa en forma satírica.",
+      "por_que_importa": "El hijo de Sackville-West, Nigel Nicolson, escribió que el efecto de Vita sobre Virginia está todo en Orlando, «la carta de amor más larga y encantadora de la literatura».",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en Wikisource (dominio público en Estados Unidos)",
+          "url": "https://en.wikisource.org/wiki/Orlando%3A_A_Biography",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Orlando (novela)",
+        "en": "Orlando: A Biography"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "las-olas",
+      "titulo": "Las olas",
+      "titulo_original": "The Waves",
+      "autor": "Virginia Woolf",
+      "autor_id": "virginia-woolf",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1931,
+        "hasta": 1931
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela publicada el 8 de octubre de 1931, hecha de soliloquios de seis personajes, Bernard, Susan, Rhoda, Neville, Jinny y Louis, a quienes sigue desde la infancia hasta la adultez. Entre los soliloquios van nueve interludios breves en tercera persona que describen una escena costera en distintos momentos de un día, de la salida a la puesta del sol. Percival, un séptimo personaje, aparece en los soliloquios pero nunca habla. En su diario, Woolf anotó que los seis no eran «personajes» separados sino facetas de una misma conciencia.",
+      "por_que_importa": "Se la considera la culminación de su técnica lírica experimental. En una encuesta de la BBC de 2015 quedó en el puesto 16 entre las mejores novelas británicas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las olas",
+        "en": "The Waves"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "al-faro",
+      "titulo": "Al faro",
+      "titulo_original": "To the Lighthouse",
+      "autor": "Virginia Woolf",
+      "autor_id": "virginia-woolf",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1910,
+        "hasta": 1920
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela sobre la familia Ramsay y sus visitas a su casa de verano en la isla de Skye, en las Hébridas escocesas, entre 1910 y 1920. La trama pesa menos que la introspección filosófica: casi no hay diálogo ni acción directa y casi todo se cuenta en pensamientos y observaciones, con enfoques de varios personajes. Hogarth Press, la editorial de Virginia y Leonard Woolf, la publicó el 5 de mayo de 1927. Woolf empezó a escribirla en parte para tratar asuntos sin resolver con sus padres, y la trama tiene muchos parecidos con su vida.",
+      "por_que_importa": "Sigue y amplía la tradición de novelistas modernistas como Proust y Joyce, y es un ejemplo citado de la técnica de la focalización múltiple.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/To_the_Lighthouse",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Al faro",
+        "en": "To the Lighthouse"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-casa-de-bernarda-alba",
+      "titulo": "La casa de Bernarda Alba",
+      "titulo_original": "La casa de Bernarda Alba",
+      "autor": "Federico García Lorca",
+      "autor_id": "garcia-lorca",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1936,
+        "hasta": 1936
+      },
+      "idioma_original": "Español",
+      "soporte": "Obra de teatro",
+      "resumen": "Drama en tres actos, con el subtítulo «drama de mujeres en los pueblos de España», sobre Bernarda Alba, que enviuda por segunda vez a los 60 años. Fue la última obra de Lorca, terminada el 19 de junio de 1936, dos meses antes de su asesinato durante la guerra civil. Se estrenó el 8 de marzo de 1945 en el Teatro Avenida de Buenos Aires, gracias a la iniciativa de la actriz Margarita Xirgu, y se publicó ese mismo año.",
+      "por_que_importa": "Suele agruparse con Bodas de sangre y Yerma como la «trilogía rural», aunque Lorca no la incluyó en su plan de una «trilogía de la tierra española», que quedó inconclusa.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La casa de Bernarda Alba",
+        "en": "The House of Bernarda Alba"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "bodas-de-sangre",
+      "titulo": "Bodas de sangre",
+      "titulo_original": "Bodas de sangre",
+      "autor": "Federico García Lorca",
+      "autor_id": "garcia-lorca",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1931,
+        "anio_hasta": 1932,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1931,
+        "hasta": 1932
+      },
+      "idioma_original": "Español",
+      "soporte": "Obra de teatro",
+      "resumen": "Tragedia en verso y prosa ambientada en la España rural, que Lorca escribió hacia 1931-1932. Se estrenó en el Teatro Beatriz de Madrid el 8 de marzo de 1933 y ese mismo año en Buenos Aires. Se la vincula con el crimen de Níjar (Almería) del 22 de julio de 1928, que Lorca conoció por la prensa.",
+      "por_que_importa": "Suele agruparse con Yerma y La casa de Bernarda Alba como la «trilogía rural» de Lorca, aunque él la proyectó como una «trilogía de la tierra española» que no llegó a completar.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bodas de sangre",
+        "en": "Blood Wedding"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "yerma",
+      "titulo": "Yerma",
+      "titulo_original": "Yerma",
+      "autor": "Federico García Lorca",
+      "autor_id": "garcia-lorca",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1934,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1934,
+        "hasta": 1934
+      },
+      "idioma_original": "Español",
+      "soporte": "Obra de teatro",
+      "resumen": "Obra de teatro que Lorca llamó «poema trágico», escrita en 1934 y estrenada ese año, el 29 de diciembre, en el Teatro Español de Madrid. Cuenta la historia de una mujer sin hijos en la España rural, cuyo deseo de ser madre se vuelve una obsesión que termina en un crimen. Está dividida en tres actos de dos cuadros cada uno.",
+      "por_que_importa": "Forma, con Bodas de sangre y La casa de Bernarda Alba, la «trilogía rural» de Lorca, nombre que le dieron los comentaristas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Yerma",
+        "en": "Yerma"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-broma",
+      "titulo": "La broma",
+      "titulo_original": "Žert",
+      "autor": "Milan Kundera",
+      "autor_id": "kundera",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1965,
+        "anio_hasta": 1967,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [
+          "bohemia"
+        ],
+        "desde": 1950,
+        "hasta": 1965
+      },
+      "idioma_original": "Checo",
+      "soporte": "Novela",
+      "resumen": "Primera novela de Milan Kundera, publicada en 1967. Cuenta cómo una broma privada de un estudiante, Ludvik Jahn, arruina su vida: lo expulsan de la escuela y del Partido Comunista por su irreverencia. Se entrelazan las historias de sus amantes y amigos y el papel de las tradiciones populares y de la religión en la Checoslovaquia comunista. El manuscrito estaba terminado en Praga en 1965, pero las quejas de los censores demoraron su publicación hasta 1967.",
+      "por_que_importa": "Se la leyó como una denuncia del estalinismo; Kundera rechazó esa lectura en el prefacio de 1982 a la edición inglesa («Ahórrenme su estalinismo, por favor. La broma es una historia de amor»). Tras la invasión soviética de 1968, Kundera fue incluido en listas negras.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La broma",
+        "en": "The Joke (novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-vida-esta-en-otra-parte",
+      "titulo": "La vida está en otra parte",
+      "titulo_original": "Život je jinde",
+      "autor": "Milan Kundera",
+      "autor_id": "kundera",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1969,
+        "anio_hasta": 1973,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [
+          "bohemia"
+        ],
+        "desde": 1938,
+        "hasta": 1950
+      },
+      "idioma_original": "Checo",
+      "soporte": "Novela",
+      "resumen": "Novela que Kundera terminó en 1969, en Bohemia, y que se publicó por primera vez en francés en 1973 (La vie est ailleurs). Cuenta la vida de Jaromil, un joven poeta, y de su madre, que se aferran uno al otro mientras él busca fama artística y avanza la revolución a costa de sus relaciones más íntimas, en Checoslovaquia antes, durante y después de la Segunda Guerra Mundial. El editor francés Claude Gallimard visitó a Kundera en Praga y llevó el manuscrito a Francia, donde lo publicó Gallimard.",
+      "por_que_importa": "Apareció primero en francés, después de que el manuscrito saliera de Checoslovaquia.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La vida está en otra parte (novela)",
+        "en": "Life Is Elsewhere"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-libro-de-la-risa-y-el-olvido",
+      "titulo": "El libro de la risa y el olvido",
+      "titulo_original": "Kniha smíchu a zapomnění",
+      "autor": "Milan Kundera",
+      "autor_id": "kundera",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1978,
+        "anio_hasta": 1979,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "bohemia"
+        ],
+        "desde": 1948,
+        "hasta": 1978
+      },
+      "idioma_original": "Checo",
+      "soporte": "Novela",
+      "resumen": "Novela compuesta por siete narraciones separadas, unidas por temas comunes, que considera cómo se da el olvido en la historia, en la política y en la vida. Contiene elementos del realismo mágico. Kundera la terminó en 1978 y se publicó en Francia en 1979 (Le Livre du rire et de l'oubli); la edición checa la sacó en abril de 1981 la editorial de exiliados 68 Publishers, de Toronto. En ella describe una fotografía del 21 de febrero de 1948 en la que Vladimír Clementis está junto a Klement Gottwald, y cómo la propaganda estatal lo borró de esa foto después de acusarlo en 1950, ejemplo que subraya el tema del olvido.",
+      "por_que_importa": "Es una novela del exilio de Kundera, escrita después de la ocupación soviética de 1968, a la que se refiere en una de sus partes.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El libro de la risa y el olvido",
+        "en": "The Book of Laughter and Forgetting"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sin-blanca-en-paris-y-londres",
+      "titulo": "Sin blanca en París y Londres",
+      "titulo_original": "Down and Out in Paris and London",
+      "autor": "George Orwell",
+      "autor_id": "orwell",
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1930,
+        "anio_hasta": 1933,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "britania"
+        ],
+        "desde": 1928,
+        "hasta": 1930
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Primer libro extenso de George Orwell, publicado el 9 de enero de 1933: una memoria en dos partes sobre la pobreza en París y en Londres. La primera cuenta su vida casi en la miseria en el Barrio Latino, adonde se mudó en la primavera de 1928, y el trabajo ocasional en cocinas de restaurantes; la segunda se apoya en las expediciones de vagabundeo por Londres con las que juntó material. Orwell terminó una primera versión en octubre de 1930, con solo el material de París.",
+      "por_que_importa": "Apuntaba a lectores de clase media y alta, los más probables de tener buena educación, y expone la pobreza que existía en dos ciudades prósperas. Orwell escribió en la introducción de la edición francesa de 1935 que no había exagerado nada salvo en la medida en que todo escritor exagera al seleccionar.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sin blanca en París y Londres",
+        "en": "Down and Out in Paris and London"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-dias-de-birmania",
+      "titulo": "Los días de Birmania",
+      "titulo_original": "Burmese Days",
+      "autor": "George Orwell",
+      "autor_id": "orwell",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1928,
+        "anio_hasta": 1934,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-asiatico"
+        ],
+        "desde": 1920,
+        "hasta": 1929
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Primera novela de Orwell, publicada en 1934 y ambientada en la Birmania británica de los años veinte, en el distrito ficticio de Kyauktada, basado en Katha, donde Orwell sirvió como policía imperial. Su protagonista es John Flory, un hombre solo atrapado en un sistema mayor, en lo que se ha llamado un retrato del lado oscuro del Raj británico. Orwell la redactó en París entre 1928 y 1929, la revisó en 1932 en Southwold y pasó a máquina la versión final en diciembre de 1933. Gollancz la rechazó por temor a una demanda por difamación y la editó primero Harper & Brothers en Estados Unidos, en 1934; Gollancz sacó la edición británica el 24 de junio de 1935.",
+      "por_que_importa": "Es una novela del fin del Imperio británico basada en la experiencia del propio Orwell como policía en Birmania.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Los días de Birmania",
+        "en": "Burmese Days"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "que-no-muera-la-aspidistra",
+      "titulo": "Que no muera la aspidistra",
+      "titulo_original": "Keep the Aspidistra Flying",
+      "autor": "George Orwell",
+      "autor_id": "orwell",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1934,
+        "anio_hasta": 1936,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1930,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Tercera novela de Orwell, ambientada en el Londres de los años treinta. Cuenta la ambición romántica de Gordon Comstock, un poeta que desafía el culto al dinero y al estatus y lleva por ello una vida sombría. Orwell la escribió en 1934 y 1935, mientras vivía en distintos lugares cerca de Hampstead y trabajaba en una librería de viejo, Booklovers' Corner, y Gollancz la publicó el 20 de abril de 1936.",
+      "por_que_importa": "Orwell la despreció después: en una carta de 1946 escribió que era uno de los pocos libros de los que se avergonzaba, porque lo escribió «como un ejercicio» y se vio obligado a publicarlo por necesidad de dinero.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Que no muera la aspidistra",
+        "en": "Keep the Aspidistra Flying"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronicas-marcianas",
+      "titulo": "Crónicas marcianas",
+      "titulo_original": "The Martian Chronicles",
+      "autor": "Ray Bradbury",
+      "autor_id": "bradbury",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1950,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1950,
+        "hasta": 1950
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela de relatos encadenados",
+      "resumen": "Novela de ciencia ficción armada con relatos previos (lo que en inglés se llama fix-up) sobre la exploración y la colonización de Marte, hogar de marcianos nativos, por estadounidenses que dejan una Tierra en crisis, devastada al final por una guerra nuclear. Los representantes de la editorial Doubleday le sugirieron a Bradbury en 1949 unir sus relatos, y el libro salió en 1950; en el Reino Unido se publicó en 1951 como The Silver Locusts. Una edición de 1997 adelantó treinta y un años las fechas del futuro del libro, que en la primera iba de 1999 a 2026.",
+      "por_que_importa": "Proyecta la sociedad estadounidense de la posguerra hacia un futuro tecnológico, en el que la capacidad humana de crear y de destruir tiene consecuencias milagrosas y devastadoras. Bradbury contó que, al leer Winesburg, Ohio de Sherwood Anderson, quiso escribir un libro tan bueno como ese pero situado en Marte.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónicas marcianas",
+        "en": "The Martian Chronicles"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-vino-del-estio",
+      "titulo": "El vino del estío",
+      "titulo_original": "Dandelion Wine",
+      "autor": "Ray Bradbury",
+      "autor_id": "bradbury",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1928,
+        "hasta": 1928
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela de 1957 ambientada en el verano de 1928 en Green Town, un pueblo ficticio de Illinois basado en Waukegan, donde Bradbury pasó su infancia. Su protagonista es Douglas Spaulding, un niño de doce años. Creció a partir de un cuento, «Dandelion Wine», aparecido en Gourmet en junio de 1953; muchos capítulos se publicaron antes como relatos sueltos, el primero en 1946 y los demás entre 1950 y 1957. El vino de diente de león que hace el abuelo del protagonista es una metáfora de la destilación de las alegrías del verano.",
+      "por_que_importa": "Es el primer libro de la trilogía de Green Town. En 2006 Bradbury publicó una continuación, Farewell Summer.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El vino del estío",
+        "en": "Dandelion Wine"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-locura-en-la-epoca-clasica",
+      "titulo": "Historia de la locura en la época clásica",
+      "titulo_original": "Folie et déraison. Histoire de la folie à l'âge classique",
+      "autor": "Michel Foucault",
+      "autor_id": "foucault",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1955,
+        "anio_hasta": 1961,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1300,
+        "hasta": 1800
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Primera gran obra de Michel Foucault, publicada en 1961: examina cómo cambió el significado de la locura en las culturas, las leyes, la política, la filosofía y la medicina de Europa, de la Edad Media a fines del siglo XVIII, y critica el concepto de enfermedad mental. Parte de la Edad Media y de cómo los leprosos fueron llevados fuera de la compañía de los sanos. Lo escribió entre 1955 y 1959, cuando ocupó puestos culturales y docentes en Polonia, Alemania y Suecia, donde dirigió un centro cultural francés en la Universidad de Uppsala.",
+      "por_que_importa": "Es una crítica de la idea de historia y del método histórico. El filósofo José Guilherme Merquior sostuvo en 1985 que los errores de hecho y de interpretación restan valor al libro como historia intelectual.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Historia de la locura en la época clásica",
+        "en": "Madness and Civilization"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "las-palabras-y-las-cosas",
+      "titulo": "Las palabras y las cosas",
+      "titulo_original": "Les Mots et les Choses. Une archéologie des sciences humaines",
+      "autor": "Michel Foucault",
+      "autor_id": "foucault",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1966,
+        "hasta": 1966
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Libro de 1966 en el que Foucault propone que cada período histórico tiene supuestos epistémicos de fondo, o epistemes, que determinan qué es verdad y qué discurso es aceptable, y los estudia a través de los orígenes de la biología, la economía y la lingüística. Distingue la episteme del Renacimiento, basada en la semejanza, la de la época clásica, basada en la representación y el orden, y la de la Modernidad, desde Kant. Su introducción analiza Las meninas de Velázquez (1656).",
+      "por_que_importa": "Fija el concepto de episteme, central en la arqueología del saber de Foucault. Foucault habría preferido titularlo El orden de las cosas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las palabras y las cosas",
+        "en": "The Order of Things"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-sexualidad",
+      "titulo": "Historia de la sexualidad",
+      "titulo_original": "Histoire de la sexualité",
+      "autor": "Michel Foucault",
+      "autor_id": "foucault",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1976,
+        "anio_hasta": 1984,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1976,
+        "hasta": 1984
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra en cuatro volúmenes",
+      "resumen": "Estudio en cuatro volúmenes de la sexualidad en el mundo occidental, en el que Foucault examina cómo surgió la «sexualidad» como objeto del discurso y esfera separada de la vida, y sostiene que la idea de que todo individuo tiene una sexualidad es relativamente reciente. El primer tomo, La voluntad de saber, es de 1976 y se centra en los dos últimos siglos; El uso de los placeres y La inquietud de sí salieron en 1984, el año de su muerte, y la obra quedó inconclusa. El cuarto, Las confesiones de la carne, se publicó póstumamente en 2018, aunque Foucault había prohibido la publicación póstuma de sus obras.",
+      "por_que_importa": "Propone que la sexualidad no es un dato natural sino algo que surgió históricamente como objeto del discurso.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Historia de la sexualidad",
+        "en": "The History of Sexuality"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "las-puertas-de-la-percepcion",
+      "titulo": "Las puertas de la percepción",
+      "titulo_original": "The Doors of Perception",
+      "autor": "Aldous Huxley",
+      "autor_id": "huxley",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1953,
+        "anio_hasta": 1954,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1953,
+        "hasta": 1953
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo",
+      "resumen": "Libro autobiográfico en el que Huxley cuenta la experiencia con mescalina que tuvo en mayo de 1953 en su casa de West Hollywood, con el psiquiatra Humphry Osmond, y reflexiona sobre sus implicancias filosóficas y psicológicas, de la visión puramente estética a la «visión sacramental». Se publicó en 1954 y el título y el estilo vienen de William Blake. En 1956 sacó un ensayo complementario, Cielo e infierno.",
+      "por_que_importa": "Provocó reacciones fuertes. Huxley siguió tomando psicodélicos el resto de su vida, y esa experiencia influyó en su última novela, La isla (1962).",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las puertas de la percepción",
+        "en": "The Doors of Perception"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-isla",
+      "titulo": "La isla",
+      "titulo_original": "Island",
+      "autor": "Aldous Huxley",
+      "autor_id": "huxley",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1962,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1962,
+        "hasta": 1962
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela utópica y manifiesto publicado en 1962, la última novela de Huxley. Cuenta la historia de Will Farnaby, un periodista cínico que naufraga en Pala, una isla ficticia. La trama sirve sobre todo para desarrollar ideas y no para resolver una tensión narrativa convencional.",
+      "por_que_importa": "Es el contrapunto utópico de Un mundo feliz (1932). Las ideas de la novela aparecen ya en el prólogo que Huxley escribió en 1946 para una nueva edición de aquel libro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La isla (Aldous Huxley)",
+        "en": "Island (Huxley novel)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "pabellon-del-cancer",
+      "titulo": "Pabellón del cáncer",
+      "titulo_original": "Раковый корпус",
+      "autor": "Aleksandr Solzhenitsyn",
+      "autor_id": "solzhenitsyn",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1963,
+        "anio_hasta": 1966,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "asia-central"
+        ],
+        "desde": 1955,
+        "hasta": 1955
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Novela",
+      "resumen": "Novela semiautobiográfica sobre un pequeño grupo de pacientes del pabellón 13, el de cáncer, de un hospital de Taskent, en la Uzbekistán soviética, durante unas semanas de la primavera de 1955, dos años después de la muerte de Stalin. Su protagonista es Oleg Kostoglótov, un ex prisionero del Gulag. Solzhenitsyn la terminó a mediados de 1966 y la envió en junio a la revista Novy Mir; ese año circuló en samizdat y al año siguiente fue prohibida en la Unión Soviética. En 1968 varias editoriales europeas la publicaron en ruso, y en abril salieron en inglés fragmentos sin autorización en el Times Literary Supplement.",
+      "por_que_importa": "Circuló en la Unión Soviética en copias clandestinas mientras el régimen la prohibía, y se conoció fuera por ediciones en ruso y fragmentos en inglés.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pabellón del cáncer",
+        "en": "Cancer Ward"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-libro-de-los-gatos-habilidosos-del-viejo-possum",
+      "titulo": "El libro de los gatos habilidosos del viejo Possum",
+      "titulo_original": "Old Possum's Book of Practical Cats",
+      "autor": "T. S. Eliot",
+      "autor_id": "eliot",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1930,
+        "anio_hasta": 1939,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1930,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Poemas",
+      "resumen": "Colección de poemas humorísticos y fantasiosos sobre la psicología y la sociología de los gatos. Eliot los escribió en los años treinta y los incluyó, firmados con su apodo «Old Possum», en cartas a sus ahijados. Faber and Faber los reunió y publicó en 1939, con ilustraciones del propio autor en la cubierta, y en 1940 los reeditó con dibujos de Nicolas Bentley.",
+      "por_que_importa": "Es la base del musical Cats, de Andrew Lloyd Webber, estrenado en 1981. Según The Guardian, los críticos de 1939 sintieron que Eliot había juzgado mal el ánimo del país.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El libro de los gatos habilidosos del viejo Possum",
+        "en": "Old Possum's Book of Practical Cats"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "final-de-partida",
+      "titulo": "Final de partida",
+      "titulo_original": "Fin de partie",
+      "autor": "Samuel Beckett",
+      "autor_id": "beckett",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1954,
+        "anio_hasta": 1957,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1954,
+        "hasta": 1957
+      },
+      "idioma_original": "Francés",
+      "soporte": "Obra de teatro",
+      "resumen": "Obra de teatro absurdista y tragicómica en un acto, escrita originalmente en francés, que Beckett tradujo él mismo al inglés (Endgame). Sus personajes son Hamm, un anciano ciego, paralítico y dominante, sus padres ancianos y su sirviente Clov, que esperan un «final» sin precisar en una casa abandonada, en un paisaje posapocalíptico. Se estrenó en francés el 3 de abril de 1957 en el Royal Court Theatre de Londres, tras aceptar la invitación de George Devine, y se publicó ese año.",
+      "por_que_importa": "Está dedicada a Roger Blin, el director que había estrenado Esperando a Godot en París y que, según se cuenta, buscó sin éxito un teatro en esa ciudad. Se la considera, junto con Esperando a Godot, una de las obras principales de Beckett.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Final de partida",
+        "en": "Endgame (play)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "ojos-azules",
+      "titulo": "Ojos azules",
+      "titulo_original": "The Bluest Eye",
+      "autor": "Toni Morrison",
+      "autor_id": "toni-morrison",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1940,
+        "hasta": 1941
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Primera novela de Toni Morrison, publicada en 1970 y ambientada en Lorain (Ohio), su ciudad natal, a comienzos de los años cuarenta. Cuenta la historia de Pecola Breedlove, una niña negra que su entorno considera «fea» por sus rasgos y su piel oscura y que desarrolla por eso un complejo de inferioridad. La narra sobre todo Claudia MacTeer, hija de la familia que acoge a Pecola, con algunos pasajes de narrador omnisciente en tercera persona.",
+      "por_que_importa": "Los análisis posteriores destacan su crítica de los estándares de belleza blancos frente a los negros y de la «colonización de la mente». Provocó controversia por sus temas, y Morrison recibió el Nobel de Literatura en 1993.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ojos azules (novela)",
+        "en": "The Bluest Eye"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "finnegans-wake",
+      "titulo": "Finnegans Wake",
+      "titulo_original": "Finnegans Wake",
+      "autor": "James Joyce",
+      "autor_id": "joyce",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1923,
+        "anio_hasta": 1939,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1923,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela publicada en fragmentos desde 1924 con el título «Work in Progress» y como libro el 4 de mayo de 1939, cuando se reveló el título definitivo. Joyce la escribió en París durante diecisiete años: el 10 de marzo de 1923 le contó a su mecenas Harriet Shaw Weaver que había escrito dos páginas, las primeras desde el «sí» final de Ulises. Su inglés está modificado con palabras de muchas lenguas, y algunos comentaristas creen que Joyce intentó así reproducir cómo se mezclan los recuerdos, las personas y los lugares en un estado de sueño.",
+      "por_que_importa": "La recepción inicial fue en su mayor parte negativa. Tiene fama de ser una de las obras más difíciles de entender de la literatura en inglés.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Finnegans Wake",
+        "en": "Finnegans Wake"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "retrato-del-artista-adolescente",
+      "titulo": "Retrato del artista adolescente",
+      "titulo_original": "A Portrait of the Artist as a Young Man",
+      "autor": "James Joyce",
+      "autor_id": "joyce",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1907,
+        "anio_hasta": 1916,
+        "aprox": false,
+        "lugar": "Trieste",
+        "lon": 13.77,
+        "lat": 45.65
+      },
+      "trata": {
+        "regiones": [
+          "irlanda"
+        ],
+        "desde": 1882,
+        "hasta": 1902
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Primera novela de James Joyce, publicada en libro en 1916: una novela de formación (Künstlerroman) en estilo modernista sobre el despertar religioso e intelectual de Stephen Dedalus, alter ego del autor. Nació de «Stephen el héroe», una novela realista y autobiográfica que Joyce empezó el 2 de febrero de 1904 y abandonó en septiembre de 1907, cuando comenzó a rehacer por completo el texto. Ezra Pound la hizo publicar por entregas en la revista The Egoist en 1914 y 1915.",
+      "por_que_importa": "Con Dublineses (1914), puso a Joyce en la vanguardia del modernismo literario.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/A_Portrait_of_the_Artist_as_a_Young_Man",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Retrato del artista adolescente",
+        "en": "A Portrait of the Artist as a Young Man"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "mientras-agonizo",
+      "titulo": "Mientras agonizo",
+      "titulo_original": "As I Lay Dying",
+      "autor": "William Faulkner",
+      "autor_id": "faulkner",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1929,
+        "anio_hasta": 1930,
+        "aprox": false,
+        "lugar": "Oxford (Misisipi)",
+        "lon": -89.519,
+        "lat": 34.367
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1929,
+        "hasta": 1930
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela gótica sureña de 1930, quinta de Faulkner, narrada por quince personajes en 59 capítulos con monólogo interior y capítulos de distinta extensión. Cuenta la muerte de Addie Bundren y el viaje de su familia, pobre y rural, para enterrarla. Transcurre en el condado ficticio de Yoknapatawpha, en Misisipi. Faulkner dijo que la escribió en seis semanas, sin cambiar una palabra, mientras trabajaba de noche como fogonero en la central eléctrica de la Universidad de Misisipi. El título viene de la Odisea en la traducción de William Marris, de 1925.",
+      "por_que_importa": "Con El ruido y la furia es una de las novelas de Faulkner más estudiadas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Mientras agonizo",
+        "en": "As I Lay Dying"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-hobbit",
+      "titulo": "El hobbit",
+      "titulo_original": "The Hobbit, or There and Back Again",
+      "autor": "J. R. R. Tolkien",
+      "autor_id": "tolkien",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1930,
+        "anio_hasta": 1937,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1930,
+        "hasta": 1937
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela",
+      "resumen": "Novela de fantasía infantil que sigue a Bilbo Bolsón, un hobbit hogareño que se une al mago Gandalf y a los trece enanos de la Compañía de Thorin para reconquistar el hogar y el tesoro de los enanos, en poder del dragón Smaug. Tolkien recordó, en una carta de 1955 a W. H. Auden, que la empezó un día de comienzos de los años treinta, y hacia fines de 1932 había terminado el relato; otras cronologías la hacen empezar a fines de los años veinte. Allen & Unwin la publicó el 21 de septiembre de 1937.",
+      "por_que_importa": "Fue nominada a la Medalla Carnegie y ganó un premio del New York Herald Tribune a la mejor ficción juvenil. Está ambientada en la Tierra Media, el mismo mundo de El Señor de los Anillos, y ha vendido más de cien millones de ejemplares.",
+      "leer": [],
+      "wikipedia": {
+        "es": "El hobbit",
+        "en": "The Hobbit"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "de-ratones-y-hombres",
+      "titulo": "De ratones y hombres",
+      "titulo_original": "Of Mice and Men",
+      "autor": "John Steinbeck",
+      "autor_id": "steinbeck",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1937,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1930,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Novela corta",
+      "resumen": "Novela corta de 1937 sobre George Milton y Lennie Small, dos trabajadores migrantes de ranchos que se desplazan por California buscando trabajo durante la Gran Depresión. Steinbeck la basó en sus experiencias de adolescente trabajando junto a jornaleros migrantes en la década de 1910, antes de la llegada de los «okies» que retrataría en Las uvas de la ira. El título viene de un poema de Robert Burns, «To a Mouse». Se adaptó al teatro, con estreno el 21 de mayo de 1937, menos de tres meses después de la novela, y al cine en 1939.",
+      "por_que_importa": "Es una de las obras más conocidas de Steinbeck y se ha propuesto censurarla repetidas veces desde su publicación.",
+      "leer": [],
+      "wikipedia": {
+        "es": "De ratones y hombres",
+        "en": "Of Mice and Men"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "despues-remarque",
+      "titulo": "Después",
+      "titulo_original": "Der Weg zurück",
+      "autor": "Erich Maria Remarque",
+      "autor_id": "remarque",
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1930,
+        "anio_hasta": 1931,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1918,
+        "hasta": 1919
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Novela",
+      "resumen": "Novela (traducida también como El camino de la vuelta) considerada por lo general la continuación de Sin novedad en el frente. Sigue a otros personajes, aunque se puede suponer que estuvieron en la misma compañía, y Tjaden es el único miembro de la 2.ª Compañía que aparece en ambos libros. Transcurre unas semanas después del final de la anterior y trata la caída del Imperio alemán y la experiencia de los jóvenes que vuelven de las trincheras de la Primera Guerra Mundial e intentan reintegrarse a la vida civil. Se publicó por entregas en el diario Vossische Zeitung entre diciembre de 1930 y enero de 1931, y en libro en abril de 1931.",
+      "por_que_importa": "Retoma el mundo de la novela que había hecho famoso a Remarque en 1929, ahora en la posguerra.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Road Back"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3104,7 +6261,10 @@
       ],
       "resumen": "Escritor irlandés que vivió casi toda su vida adulta fuera de Irlanda, en Trieste, Zúrich y París. Con Ulises y Finnegans Wake llevó al extremo la experimentación del monólogo interior y del lenguaje.",
       "obras": [
-        "ulises"
+        "ulises",
+        "dublineses",
+        "finnegans-wake",
+        "retrato-del-artista-adolescente"
       ],
       "wikipedia": {
         "es": "James Joyce",
@@ -3144,7 +6304,13 @@
       "resumen": "Escritor judío de Praga en lengua alemana, empleado de un instituto de seguros contra accidentes de trabajo. Publicó poco en vida y pidió a su amigo Max Brod que quemara sus manuscritos; Brod no lo hizo y editó sus novelas tras su muerte.",
       "obras": [
         "la-metamorfosis",
-        "el-proceso"
+        "el-proceso",
+        "el-castillo",
+        "america-kafka",
+        "en-la-colonia-penitenciaria",
+        "la-condena",
+        "un-medico-rural",
+        "un-artista-del-hambre"
       ],
       "wikipedia": {
         "es": "Franz Kafka",
@@ -3184,7 +6350,11 @@
       "resumen": "Novelista alemán, Premio Nobel de Literatura en 1929. Opositor al nazismo, se exilió en 1933 en Suiza y luego en Estados Unidos, desde donde habló por radio a los alemanes durante la guerra.",
       "obras": [
         "los-buddenbrook",
-        "la-montana-magica"
+        "la-montana-magica",
+        "la-muerte-en-venecia",
+        "doktor-faustus",
+        "tonio-kroger",
+        "jose-y-sus-hermanos"
       ],
       "wikipedia": {
         "es": "Thomas Mann",
@@ -3215,7 +6385,11 @@
       ],
       "resumen": "Novelista y ensayista inglesa del grupo de Bloomsbury y fundadora, con su esposo Leonard, de la editorial Hogarth Press. Su ensayo Un cuarto propio (1929) es un texto central del feminismo literario.",
       "obras": [
-        "la-senora-dalloway"
+        "la-senora-dalloway",
+        "una-habitacion-propia",
+        "orlando",
+        "las-olas",
+        "al-faro"
       ],
       "wikipedia": {
         "es": "Virginia Woolf",
@@ -3253,7 +6427,10 @@
       ],
       "resumen": "Novelista estadounidense que situó casi toda su obra en el condado imaginario de Yoknapatawpha, en Misisipi. Premio Nobel de Literatura de 1949.",
       "obras": [
-        "el-ruido-y-la-furia"
+        "el-ruido-y-la-furia",
+        "luz-de-agosto",
+        "absalon-absalon",
+        "mientras-agonizo"
       ],
       "wikipedia": {
         "es": "William Faulkner",
@@ -3292,7 +6469,14 @@
       ],
       "resumen": "Novelista y periodista estadounidense, corresponsal en la guerra civil española y en la Segunda Guerra Mundial. Premio Nobel de Literatura de 1954; vivió veinte años en Cuba.",
       "obras": [
-        "el-viejo-y-el-mar"
+        "el-viejo-y-el-mar",
+        "por-quien-doblan-las-campanas",
+        "adios-a-las-armas",
+        "fiesta-hemingway",
+        "tener-y-no-tener",
+        "paris-era-una-fiesta",
+        "las-nieves-del-kilimanjaro",
+        "al-otro-lado-del-rio-y-entre-los-arboles"
       ],
       "wikipedia": {
         "es": "Ernest Hemingway",
@@ -3335,7 +6519,10 @@
         "homenaje-a-cataluna",
         "rebelion-en-la-granja",
         "1984",
-        "subir-a-por-aire"
+        "subir-a-por-aire",
+        "sin-blanca-en-paris-y-londres",
+        "los-dias-de-birmania",
+        "que-no-muera-la-aspidistra"
       ],
       "wikipedia": {
         "es": "George Orwell",
@@ -3374,7 +6561,9 @@
       ],
       "resumen": "Escritor inglés de una familia de científicos. Se instaló en California en 1937 y en sus últimos años escribió sobre misticismo y drogas psicodélicas (Las puertas de la percepción, 1954).",
       "obras": [
-        "un-mundo-feliz"
+        "un-mundo-feliz",
+        "las-puertas-de-la-percepcion",
+        "la-isla"
       ],
       "wikipedia": {
         "es": "Aldous Huxley",
@@ -3413,7 +6602,9 @@
       ],
       "resumen": "Escritor estadounidense de ciencia ficción y fantasía, autor de Crónicas marcianas (1950) y Fahrenheit 451.",
       "obras": [
-        "fahrenheit-451"
+        "fahrenheit-451",
+        "cronicas-marcianas",
+        "el-vino-del-estio"
       ],
       "wikipedia": {
         "es": "Ray Bradbury",
@@ -3453,7 +6644,8 @@
       ],
       "resumen": "Poeta nacido en Estados Unidos que se instaló en Inglaterra y se nacionalizó británico en 1927. Premio Nobel de Literatura de 1948.",
       "obras": [
-        "la-tierra-baldia"
+        "la-tierra-baldia",
+        "el-libro-de-los-gatos-habilidosos-del-viejo-possum"
       ],
       "wikipedia": {
         "es": "T. S. Eliot",
@@ -3492,7 +6684,8 @@
       ],
       "resumen": "Escritor irlandés que vivió en Francia y escribió en inglés y en francés. Premio Nobel de Literatura de 1969.",
       "obras": [
-        "esperando-a-godot"
+        "esperando-a-godot",
+        "final-de-partida"
       ],
       "wikipedia": {
         "es": "Samuel Beckett",
@@ -3522,7 +6715,11 @@
       ],
       "resumen": "Novelista estadounidense de la California rural y de los trabajadores pobres de la Gran Depresión. Premio Nobel de Literatura de 1962.",
       "obras": [
-        "las-uvas-de-la-ira"
+        "las-uvas-de-la-ira",
+        "al-este-del-eden",
+        "la-perla-steinbeck",
+        "tortilla-flat",
+        "de-ratones-y-hombres"
       ],
       "wikipedia": {
         "es": "John Steinbeck",
@@ -3561,7 +6758,13 @@
       ],
       "resumen": "Escritor alemán, nacionalizado suizo en 1924, que vivió desde 1919 en Montagnola. Premio Nobel de Literatura de 1946; sus novelas fueron muy leídas por la contracultura de los años sesenta.",
       "obras": [
-        "siddhartha"
+        "siddhartha",
+        "el-lobo-estepario",
+        "demian",
+        "el-juego-de-los-abalorios",
+        "narciso-y-goldmundo",
+        "peter-camenzind",
+        "bajo-las-ruedas"
       ],
       "wikipedia": {
         "es": "Hermann Hesse",
@@ -3599,7 +6802,11 @@
       ],
       "resumen": "Escritor alemán, combatiente en el frente occidental en 1917. Los nazis quemaron sus libros y le quitaron la ciudadanía; vivió exiliado en Suiza y Estados Unidos.",
       "obras": [
-        "sin-novedad-en-el-frente"
+        "sin-novedad-en-el-frente",
+        "tres-camaradas",
+        "arco-de-triunfo",
+        "el-obelisco-negro",
+        "despues-remarque"
       ],
       "wikipedia": {
         "es": "Erich Maria Remarque",
@@ -3638,7 +6845,8 @@
       ],
       "resumen": "Filólogo inglés, profesor de anglosajón y de literatura inglesa en Oxford. Inventó lenguas y una mitología completa para la Tierra Media, escenario de El hobbit (1937) y El Señor de los Anillos.",
       "obras": [
-        "el-senor-de-los-anillos"
+        "el-senor-de-los-anillos",
+        "el-hobbit"
       ],
       "wikipedia": {
         "es": "J. R. R. Tolkien",
@@ -3676,7 +6884,9 @@
       ],
       "resumen": "Escritor ruso exiliado tras la revolución, que escribió en ruso en Berlín y en inglés en Estados Unidos, donde enseñó en la Universidad Cornell. Fue además entomólogo especialista en mariposas.",
       "obras": [
-        "lolita"
+        "lolita",
+        "palido-fuego",
+        "la-defensa-nabokov"
       ],
       "wikipedia": {
         "es": "Vladímir Nabokov",
@@ -3715,7 +6925,10 @@
       ],
       "resumen": "Novelista checo. Sus libros fueron prohibidos en Checoslovaquia tras la Primavera de Praga; se instaló en Francia en 1975, perdió la ciudadanía checa en 1979 y desde los años noventa escribió en francés.",
       "obras": [
-        "la-insoportable-levedad-del-ser"
+        "la-insoportable-levedad-del-ser",
+        "la-broma",
+        "la-vida-esta-en-otra-parte",
+        "el-libro-de-la-risa-y-el-olvido"
       ],
       "wikipedia": {
         "es": "Milan Kundera",
@@ -3792,7 +7005,10 @@
       ],
       "resumen": "Poeta y dramaturgo andaluz de la generación del 27. Fue fusilado por los sublevados en agosto de 1936, al comienzo de la guerra civil española; sus restos no se han encontrado.",
       "obras": [
-        "romancero-gitano"
+        "romancero-gitano",
+        "la-casa-de-bernarda-alba",
+        "bodas-de-sangre",
+        "yerma"
       ],
       "wikipedia": {
         "es": "Federico García Lorca",
@@ -3885,7 +7101,10 @@
       ],
       "resumen": "Escritor ruso nacido en Kiev, médico de formación. Sus obras fueron censuradas en la Unión Soviética y su novela mayor se publicó veintiséis años después de su muerte.",
       "obras": [
-        "el-maestro-y-margarita"
+        "el-maestro-y-margarita",
+        "corazon-de-perro",
+        "la-guardia-blanca",
+        "huevos-fatales"
       ],
       "wikipedia": {
         "es": "Mijaíl Bulgákov",
@@ -3925,7 +7144,8 @@
       "resumen": "Escritor ruso, oficial en la Segunda Guerra Mundial y preso en el Gulag de 1945 a 1953 por criticar a Stalin en una carta. Premio Nobel de Literatura de 1970, fue expulsado de la URSS en 1974 y volvió a Rusia en 1994.",
       "obras": [
         "un-dia-en-la-vida-de-ivan-denisovich",
-        "archipielago-gulag"
+        "archipielago-gulag",
+        "pabellon-del-cancer"
       ],
       "wikipedia": {
         "es": "Aleksandr Solzhenitsyn",
@@ -3957,7 +7177,8 @@
       ],
       "resumen": "Periodista y escritora bielorrusa que arma sus libros con cientos de testimonios orales sobre la experiencia soviética. Premio Nobel de Literatura de 2015; opositora al gobierno de Lukashenko, dejó Bielorrusia en 2020.",
       "obras": [
-        "voces-de-chernobil"
+        "voces-de-chernobil",
+        "la-guerra-no-tiene-rostro-de-mujer"
       ],
       "wikipedia": {
         "es": "Svetlana Aleksiévich",
@@ -4158,7 +7379,8 @@
       ],
       "resumen": "Novelista japonés. En 1968 fue el primer japonés en recibir el Premio Nobel de Literatura.",
       "obras": [
-        "pais-de-nieve"
+        "pais-de-nieve",
+        "mil-grullas"
       ],
       "wikipedia": {
         "es": "Yasunari Kawabata",
@@ -4282,7 +7504,10 @@
       ],
       "resumen": "Novelista turco de Estambul. Premio Nobel de Literatura de 2006; en 2005 fue procesado por «insultar la identidad turca» tras mencionar el genocidio armenio en una entrevista, y la causa se cerró.",
       "obras": [
-        "me-llamo-rojo"
+        "me-llamo-rojo",
+        "nieve-pamuk",
+        "el-museo-de-la-inocencia",
+        "el-castillo-blanco"
       ],
       "wikipedia": {
         "es": "Orhan Pamuk",
@@ -4349,7 +7574,8 @@
       ],
       "resumen": "Novelista estadounidense que escribió sobre la historia y la vida de los afroamericanos. Premio Nobel de Literatura de 1993, la primera mujer negra en recibirlo.",
       "obras": [
-        "beloved"
+        "beloved",
+        "ojos-azules"
       ],
       "wikipedia": {
         "es": "Toni Morrison",
@@ -4595,7 +7821,8 @@
       "resumen": "Escritor argentino, director de la Biblioteca Nacional entre 1955 y 1973. Sus cuentos de laberintos, espejos y bibliotecas influyeron en la literatura mundial; nunca recibió el Nobel, para el que fue candidato muchos años.",
       "obras": [
         "ficciones",
-        "el-aleph"
+        "el-aleph",
+        "la-biblioteca-de-babel"
       ],
       "wikipedia": {
         "es": "Jorge Luis Borges",
@@ -4912,7 +8139,14 @@
       ],
       "resumen": "Novelista y periodista colombiano que vivió desde 1961 en la Ciudad de México. Premio Nobel de Literatura de 1982 y figura central del realismo mágico.",
       "obras": [
-        "cien-anos-de-soledad"
+        "cien-anos-de-soledad",
+        "el-amor-en-los-tiempos-del-colera",
+        "el-coronel-no-tiene-quien-le-escriba",
+        "el-otono-del-patriarca",
+        "cronica-de-una-muerte-anunciada",
+        "memoria-de-mis-putas-tristes",
+        "el-general-en-su-laberinto",
+        "del-amor-y-otros-demonios"
       ],
       "wikipedia": {
         "es": "Gabriel García Márquez",
@@ -5021,7 +8255,12 @@
       ],
       "resumen": "Médico neurólogo judío de Viena, creador del psicoanálisis. Huyó a Londres tras la anexión de Austria por la Alemania nazi en 1938 y murió allí un año después.",
       "obras": [
-        "la-interpretacion-de-los-suenos"
+        "la-interpretacion-de-los-suenos",
+        "totem-y-tabu",
+        "el-malestar-en-la-cultura",
+        "tres-ensayos-sobre-teoria-sexual",
+        "el-porvenir-de-una-ilusion",
+        "moises-y-la-religion-monoteista"
       ],
       "wikipedia": {
         "es": "Sigmund Freud",
@@ -5061,7 +8300,10 @@
       ],
       "resumen": "Filósofo, lógico y matemático británico, uno de los fundadores de la filosofía analítica. Pacifista preso durante la Primera Guerra Mundial y militante contra las armas nucleares; Premio Nobel de Literatura de 1950.",
       "obras": [
-        "principia-mathematica"
+        "principia-mathematica",
+        "historia-de-la-filosofia-occidental",
+        "por-que-no-soy-cristiano",
+        "los-problemas-de-la-filosofia"
       ],
       "wikipedia": {
         "es": "Bertrand Russell",
@@ -5217,7 +8459,11 @@
       "obras": [
         "la-nausea",
         "el-ser-y-la-nada",
-        "el-existencialismo-es-un-humanismo"
+        "el-existencialismo-es-un-humanismo",
+        "a-puerta-cerrada",
+        "las-moscas-sartre",
+        "las-manos-sucias",
+        "las-palabras-sartre"
       ],
       "wikipedia": {
         "es": "Jean-Paul Sartre",
@@ -5259,7 +8505,10 @@
       "obras": [
         "el-extranjero",
         "la-peste",
-        "el-mito-de-sisifo"
+        "el-mito-de-sisifo",
+        "la-caida",
+        "el-hombre-rebelde",
+        "caligula-camus"
       ],
       "wikipedia": {
         "es": "Albert Camus",
@@ -5298,7 +8547,10 @@
       ],
       "resumen": "Filósofo e historiador francés, profesor del Collège de France desde 1970. Estudió cómo el saber y el poder se entrelazan en la locura, la medicina, la prisión y la sexualidad.",
       "obras": [
-        "vigilar-y-castigar"
+        "vigilar-y-castigar",
+        "historia-de-la-locura-en-la-epoca-clasica",
+        "las-palabras-y-las-cosas",
+        "historia-de-la-sexualidad"
       ],
       "wikipedia": {
         "es": "Michel Foucault",

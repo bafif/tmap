@@ -2149,6 +2149,21 @@
     "motivo": "«Noise», escrito con Olivier Sibony y Cass Sunstein, trata de la variabilidad del juicio humano en las organizaciones, un asunto de psicología y gestión, no de teoría económica.",
     "fecha": "2026-11-12"
   },
+  "obra:Q23434:Q13368904": {
+    "decision": "descartado",
+    "motivo": "Es un relato de seis palabras de autor desconocido cuyas versiones datan de 1906 y que solo se le atribuyó a Hemingway en 1989, así que Wikidata lo atribuye mal.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q23434:Q1664485": {
+    "decision": "descartado",
+    "motivo": "Novela póstuma (1970) que Mary Hemingway y Charles Scribner Jr. prepararon a partir de un borrador que Hemingway dejó sin revisar ni publicar.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q23434:Q2616425": {
+    "decision": "descartado",
+    "motivo": "El Jardín del Edén es una novela inconclusa que se publicó póstumamente en 1986 en una versión recortada y armada por sus editores, no una obra central que Hemingway diera por terminada.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q2494": {
     "decision": "descartado",
     "motivo": "las encíclicas de Benedicto XVI no son del tema de Tierra Santa",
@@ -2158,6 +2173,11 @@
     "decision": "descartado",
     "motivo": "«Sohrab and Rustum» (1853) de Arnold toma un episodio del Shahnameh persa; lo celta de Arnold es On the Study of Celtic Literature, que ya está.",
     "fecha": "2026-11-11"
+  },
+  "obra:Q274334:Q21088242": {
+    "decision": "descartado",
+    "motivo": "Ya está fichada como la-guerra-no-tiene-rostro-de-mujer. El artículo de la Wikipedia en español está atado a un ítem duplicado de Wikidata (Q133457696, sin P31) y no a la obra (Q21088242), por eso huecos.py no la reconoce hasta que se fusionen los ítems.",
+    "fecha": "2026-11-12"
   },
   "obra:Q302:Q1258090": {
     "decision": "descartado",
@@ -2238,6 +2258,16 @@
     "decision": "descartado",
     "motivo": "Emilia Galotti es una tragedia burguesa de Lessing sin relación con Tierra Santa; la obra del tema es Natán el sabio.",
     "fecha": "2026-11-11"
+  },
+  "obra:Q34670:Q1198739": {
+    "decision": "descartado",
+    "motivo": "«La muerte feliz» es una novela temprana que Camus dejó inédita y se publicó póstumamente en 1971.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q34670:Q386305": {
+    "decision": "descartado",
+    "motivo": "«El primer hombre» es una novela inconclusa hallada entre los papeles de Camus tras su muerte y publicada en 1994 por su hija.",
+    "fecha": "2026-11-12"
   },
   "obra:Q34787:Q16749692": {
     "decision": "descartado",
@@ -2504,6 +2534,16 @@
     "motivo": "La Historia Francorum es la Historia de los francos de Gregorio de Tours, que ya tiene su ficha (historia-de-los-francos).",
     "fecha": "2026-11-11"
   },
+  "obra:Q6882:Q1216839": {
+    "decision": "descartado",
+    "motivo": "«Los muertos» es el último relato de Dublineses, que se ficha como un solo libro.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q7199:Q2700307": {
+    "decision": "descartado",
+    "motivo": "«Por el camino de Swann» es el primer tomo de En busca del tiempo perdido, que el paquete ya trata como una sola obra de siete tomos.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q7243:Q1134252": {
     "decision": "descartado",
     "motivo": "Tolstói está por sus escritos políticos y religiosos; sus novelas y relatos no son del tema",
@@ -2688,6 +2728,96 @@
     "decision": "descartado",
     "motivo": "La atribución del Te Deum a Agustín y Ambrosio es una leyenda; los estudiosos lo atribuyen a otro autor (se suele proponer a Niceta de Remesiana), así que no es obra de Agustín.",
     "fecha": "2026-11-11"
+  },
+  "obra:Q892:Q208002": {
+    "decision": "descartado",
+    "motivo": "«La Comunidad del Anillo» es un volumen de El Señor de los Anillos, que el paquete ya trata como una sola novela publicada en tres tomos (1954-1955).",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q212202": {
+    "decision": "descartado",
+    "motivo": "«Hoja, de Niggle» es un relato breve menor de Tolkien (1945), de menor peso que sus novelas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q309019": {
+    "decision": "descartado",
+    "motivo": "«Cuentos inconclusos» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q330826": {
+    "decision": "descartado",
+    "motivo": "«Ainulindalë» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q331651": {
+    "decision": "descartado",
+    "motivo": "«Los hijos de Húrin» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q331804": {
+    "decision": "descartado",
+    "motivo": "«Las aventuras de Tom Bombadil» es una colección de poemas menores de Tolkien (1962), de menor peso que sus novelas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q332388": {
+    "decision": "descartado",
+    "motivo": "«Las dos torres» es un volumen de El Señor de los Anillos, que el paquete ya trata como una sola novela publicada en tres tomos (1954-1955).",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q332581": {
+    "decision": "descartado",
+    "motivo": "«El retorno del Rey» es un volumen de El Señor de los Anillos, que el paquete ya trata como una sola novela publicada en tres tomos (1954-1955).",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q334750": {
+    "decision": "descartado",
+    "motivo": "«La historia de la Tierra Media» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q340515": {
+    "decision": "descartado",
+    "motivo": "«La caída de Gondolin» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q4355253": {
+    "decision": "descartado",
+    "motivo": "«La historia de Beren y Lúthien» es una obra póstuma editada por otros a partir de manuscritos de Tolkien (sobre todo su hijo Christopher), no una obra publicada por el autor.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q471398": {
+    "decision": "descartado",
+    "motivo": "«Egidio, el granjero de Ham» es un relato breve menor de Tolkien (1949), de menor peso que sus novelas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q478250": {
+    "decision": "descartado",
+    "motivo": "«El herrero de Wootton Mayor» es un relato breve menor de Tolkien (1967), de menor peso que sus novelas.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q534991": {
+    "decision": "descartado",
+    "motivo": "«Las cartas de Papá Noel» es una recopilación de cartas escritas para sus hijos, editada tras su muerte.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q892:Q535795": {
+    "decision": "descartado",
+    "motivo": "«Roverandom» es una obra póstuma de Tolkien que publicaron Christina Scull y Wayne G. Hammond en 1998, no una obra que el autor publicara.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q9049:Q1227715": {
+    "decision": "descartado",
+    "motivo": "Es una oración de ejemplo de Estructuras sintácticas, no una obra.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q905:Q35714": {
+    "decision": "descartado",
+    "motivo": "«Ante la ley» es una parábola breve que forma parte del capítulo de la catedral de El proceso, ya fichado.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q905:Q383835": {
+    "decision": "descartado",
+    "motivo": "«Carta al padre» es una carta póstuma que Kafka escribió en 1919 y nunca entregó; la publicó Max Brod en 1952. El paquete deja afuera las obras póstumas que armaron o publicaron otros.",
+    "fecha": "2026-11-12"
   },
   "obra:Q9061:Q1669801": {
     "decision": "descartado",
@@ -6743,6 +6873,11 @@
     "decision": "descartado",
     "motivo": "La resolución 243 del Consejo de Seguridad (1967) recomendó admitir a Yemen del Sur en la ONU, sin relación con el conflicto árabe-israelí.",
     "fecha": "2026-11-11"
+  },
+  "sucesion:Q79762": {
+    "decision": "descartado",
+    "motivo": "Obra póstuma (1977) que Christopher Tolkien seleccionó, editó y en parte escribió con Guy Gavriel Kay a partir de los borradores de su padre, como Cuentos inconclusos y Ainulindalë, también descartados.",
+    "fecha": "2026-11-12"
   },
   "sucesion:Q877387": {
     "decision": "descartado",
