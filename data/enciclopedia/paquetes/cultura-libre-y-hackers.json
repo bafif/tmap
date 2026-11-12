@@ -2394,6 +2394,73 @@
         "en": "The Future of Ideas"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "just-for-fun",
+      "titulo": "Just for Fun: la historia de un revolucionario accidental",
+      "titulo_original": "Just for Fun: The Story of an Accidental Revolutionary",
+      "autor": "Linus Torvalds",
+      "autor_id": "torvalds",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2001,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (autobiografía escrita con David Diamond; HarperCollins)",
+      "resumen": "Autobiografía en clave de humor de Linus Torvalds, escrita con el periodista David Diamond. Cuenta cómo ve él mismo, el movimiento del software libre y el desarrollo de Linux, y cómo un sistema que empezó por diversión llegó a usarse mucho más de lo que se esperaba.",
+      "por_que_importa": "Es el relato del propio autor sobre el origen de Linux, que complementa su anuncio de 1991 y la polémica con Tanenbaum.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Just for fun",
+        "en": "Just for Fun (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "arte-de-programar-unix",
+      "titulo": "El arte de programar en Unix",
+      "titulo_original": "The Art of Unix Programming",
+      "autor": "Eric S. Raymond",
+      "autor_id": "eric-raymond",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Estados Unidos"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1969,
+        "hasta": 2003
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Addison-Wesley, 17 de septiembre de 2003)",
+      "resumen": "Historia y cultura de la programación en Unix desde sus comienzos, en 1969, hasta 2003, tanto de sus derivaciones genéticas (BSD) como de las conceptuales (Linux). Compara Unix con otros sistemas, como Microsoft Windows y el Mac OS clásico, o EROS y Plan 9 de los Laboratorios Bell, e incluye aportes y comentarios de figuras de Unix como Ken Thompson, Brian Kernighan, Doug McIlroy y Henry Spencer.",
+      "por_que_importa": "Amplía a toda la cultura de ingeniería de Unix lo que Raymond había planteado en «La catedral y el bazar» (1997). Está disponible en línea con una licencia Creative Commons con cláusulas adicionales.",
+      "leer": [
+        {
+          "titulo": "Texto completo en el sitio de Eric Raymond (licencia Creative Commons con cláusulas adicionales)",
+          "url": "http://www.catb.org/esr/writings/taoup/html/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "El Arte de Programar Unix",
+        "en": "The Art of Unix Programming"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2457,7 +2524,8 @@
       ],
       "resumen": "Programador finlandés que en 1991, siendo estudiante en Helsinki, escribió el núcleo Linux y lo publicó en internet. Desde 1992 lo distribuye bajo la GPL y sigue coordinando su desarrollo; se describe como pragmático y desconfía de la militancia del software libre.",
       "obras": [
-        "anuncio-de-linux"
+        "anuncio-de-linux",
+        "just-for-fun"
       ],
       "wikipedia": {
         "es": "Linus Torvalds",
@@ -2481,7 +2549,8 @@
       ],
       "resumen": "Programador y ensayista estadounidense, autor de «La catedral y el bazar» (1997) y editor del Jargon File. En 1998 cofundó la Open Source Initiative y promovió la expresión «código abierto» como alternativa, más amable con las empresas, al «software libre» de Stallman.",
       "obras": [
-        "la-catedral-y-el-bazar"
+        "la-catedral-y-el-bazar",
+        "arte-de-programar-unix"
       ],
       "wikipedia": {
         "es": "Eric S. Raymond",
@@ -4737,7 +4806,7 @@
       "lon": -0.128,
       "lat": 51.507,
       "tipo": "politico",
-      "resumen": "Desde el 28 de noviembre de 2010 WikiLeaks y cinco diarios (entre ellos El País) publicaron, editados, cables de embajadas de Estados Unidos, de un total de unos 250.000. En septiembre de 2011 se difundieron todos sin editar, con nombres de informantes; el gobierno estadounidense dijo que ponía vidas en riesgo y WikiLeaks culpó a The Guardian.",
+      "resumen": "Desde el 28 de noviembre de 2010 WikiLeaks y cinco diarios (entre ellos El País) publicaron, editados, cables de embajadas de Estados Unidos, de un total de unos 250.000. El 1 de diciembre Amazon sacó a WikiLeaks de sus servidores, después de que miembros de la comisión de Seguridad Nacional del Senado, entre ellos Joe Lieberman, le preguntaran por ese alojamiento. En septiembre de 2011 se difundieron todos sin editar, con nombres de informantes; el gobierno estadounidense dijo que ponía vidas en riesgo y WikiLeaks culpó a The Guardian.",
       "regiones": [
         "britania",
         "norteamerica"
@@ -4758,7 +4827,7 @@
       "aprox": false,
       "lugar": "Internet",
       "tipo": "politico",
-      "resumen": "Anonymous atacó desde septiembre de 2010 sitios de entidades contra la piratería y, en diciembre, con ataques de denegación de servicio, los de PayPal, Visa, MasterCard y otras empresas que habían cortado las donaciones a WikiLeaks. En 2013 varios participantes fueron condenados en Estados Unidos y el Reino Unido.",
+      "resumen": "Anonymous atacó desde septiembre de 2010 sitios de entidades contra la piratería y, en diciembre, con ataques de denegación de servicio, los de PayPal, Visa, MasterCard y otras empresas que habían cortado las donaciones a WikiLeaks. El intento de tumbar el sitio de Amazon se abandonó por falta de participantes. En 2013 varios participantes fueron condenados en Estados Unidos y el Reino Unido.",
       "regiones": [
         "norteamerica",
         "britania"
@@ -5289,6 +5358,48 @@
       "wikipedia": {
         "es": "Huayra GNU/Linux",
         "en": "Huayra GNU/Linux"
+      }
+    },
+    {
+      "id": "fundacion-de-reddit",
+      "titulo": "Fundación de Reddit y la incorporación de Aaron Swartz",
+      "anio": 2005,
+      "anio_hasta": 2006,
+      "aprox": false,
+      "lugar": "San Francisco",
+      "lon": -122.419,
+      "lat": 37.775,
+      "tipo": "fundacion",
+      "resumen": "Steve Huffman y Alexis Ohanian, aceptados en la primera clase de Y Combinator, lanzaron Reddit en junio de 2005. Entre noviembre de 2005 y enero de 2006 el sitio se fusionó con Infogami, la empresa de Aaron Swartz, que quedó como socio igualitario de la nueva compañía, Not A Bug, y ayudó a reescribir el software con web.py. Se le dio el título de cofundador; Ohanian sostuvo en 2011 que correspondía decir que la empresa de Swartz había sido adquirida por Reddit. Condé Nast compró Reddit en octubre de 2006 y a Swartz se le pidió la renuncia en enero de 2007.",
+      "regiones": [
+        "california-indigena",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Reddit",
+        "en": "Reddit"
+      }
+    },
+    {
+      "id": "open-library",
+      "titulo": "Open Library",
+      "anio": 2006,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Internet Archive",
+      "lon": -122.472,
+      "lat": 37.782,
+      "tipo": "fundacion",
+      "resumen": "Proyecto del Internet Archive para crear «una página web por cada libro publicado», en el que Aaron Swartz fue el ingeniero original y líder del equipo técnico desde 2006, junto con Brewster Kahle y otros. Usa el software de wiki Infogami y publica su código bajo la licencia AGPL. Ofrece copias digitales de libros en préstamo digital controlado; En junio de 2020 cuatro editoriales (Hachette, Penguin Random House, John Wiley & Sons y HarperCollins) demandaron al Internet Archive ante un tribunal federal de Nueva York. El 25 de marzo de 2023 el tribunal falló en su contra por infracción del derecho de autor y en 2024 la Corte de Apelaciones del Segundo Circuito rechazó la apelación. El Internet Archive sostiene que prestar una copia digital por cada ejemplar en papel es legal, por la doctrina de la primera venta y el uso justo.",
+      "regiones": [
+        "california-indigena",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Open Library",
+        "en": "Open Library"
       }
     }
   ],

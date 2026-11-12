@@ -1604,6 +1604,16 @@
     "motivo": "La saga de los Ynglings es la primera parte de la Heimskringla, que ya tiene su ficha (heimskringla).",
     "fecha": "2026-11-11"
   },
+  "obra:Q1035:Q2001494": {
+    "decision": "descartado",
+    "motivo": "La autobiografía de Darwin, escrita en 1876 para su familia y publicada en 1887, queda fuera del alcance del paquete, que trata de 1900 a hoy; «La doble hélice» sí entra porque es el testimonio de un hecho del paquete, la estructura del ADN.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q1035:Q917790": {
+    "decision": "descartado",
+    "motivo": "«La formación del mantillo vegetal por la acción de las lombrices» es de 1881 y queda fuera del alcance del paquete, que trata de 1900 a hoy; su antecedente evolutivo, `origen-de-las-especies`, ya está.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q1067:Q2713307": {
     "decision": "descartado",
     "motivo": "El Paraíso es una cántica de la Divina comedia, que ya tiene su ficha (divina-comedia); no es una obra aparte.",
@@ -1628,6 +1638,16 @@
     "decision": "descartado",
     "motivo": "El Económico de Jenofonte trata de la administración de una casa y una finca, sin mención de los celtas.",
     "fecha": "2026-11-11"
+  },
+  "obra:Q132524:Q1767769": {
+    "decision": "descartado",
+    "motivo": "Colección póstuma (1982) de artículos, sobre todo de The Ayn Rand Letter, de filosofía general; lo económico de Rand ya está en «Capitalismo: el ideal desconocido».",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q132524:Q3655935": {
+    "decision": "descartado",
+    "motivo": "Es un texto técnico de epistemología objetivista, sin economía ni política económica.",
+    "fecha": "2026-11-12"
   },
   "obra:Q133001:Q1310914": {
     "decision": "descartado",
@@ -2124,6 +2144,11 @@
     "motivo": "Uderzo está por Astérix como fenómeno; cada álbum no es del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q233950:Q107108766": {
+    "decision": "descartado",
+    "motivo": "«Noise», escrito con Olivier Sibony y Cass Sunstein, trata de la variabilidad del juicio humano en las organizaciones, un asunto de psicología y gestión, no de teoría económica.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q2494": {
     "decision": "descartado",
     "motivo": "las encíclicas de Benedicto XVI no son del tema de Tierra Santa",
@@ -2279,10 +2304,30 @@
     "motivo": "Atala transcurre en Luisiana y no trata de Tierra Santa; la obra del tema es el Itinerario de París a Jerusalén.",
     "fecha": "2026-11-11"
   },
+  "obra:Q50020:Q4659938": {
+    "decision": "descartado",
+    "motivo": "«Un sistema de lógica» es un tratado de lógica y filosofía de la ciencia, no de economía; de Mill el paquete trata la economía política y el liberalismo.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q50020:Q98394655": {
+    "decision": "descartado",
+    "motivo": "«Tres ensayos sobre la religión» es un libro de filosofía de la religión, ajeno al pensamiento económico.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q517": {
     "decision": "descartado",
     "motivo": "Napoleón está por la crisis de la monarquía española; su obra no es del tema",
     "fecha": "2026-11-11"
+  },
+  "obra:Q5284:Q105697082": {
+    "decision": "descartado",
+    "motivo": "Libro de Gates sobre el cambio climático, ajeno al tema del paquete.",
+    "fecha": "2026-11-12"
+  },
+  "obra:Q5284:Q3282433": {
+    "decision": "descartado",
+    "motivo": "Libro de Gates sobre el futuro de las tecnologías de la información, ajeno a la disputa por la libertad de la información que trata el paquete, que de él toma la `carta-abierta-a-los-aficionados`.",
+    "fecha": "2026-11-12"
   },
   "obra:Q5682:Q10271189": {
     "decision": "descartado",
@@ -2333,6 +2378,11 @@
     "decision": "descartado",
     "motivo": "El cuento del Caballero es una parte de los Cuentos de Canterbury, que ya tiene su ficha (cuentos-de-canterbury).",
     "fecha": "2026-11-11"
+  },
+  "obra:Q578036:Q1141518": {
+    "decision": "descartado",
+    "motivo": "Es un manual universitario de algoritmos, del que Rivest es uno de los autores, ajeno al tema; del paquete le corresponde el artículo del RSA (`articulo-rsa`).",
+    "fecha": "2026-11-12"
   },
   "obra:Q5879:Q100745289": {
     "decision": "descartado",
@@ -2689,6 +2739,11 @@
     "motivo": "Voltaire está por un texto puntual; el resto de su obra no es del tema",
     "fecha": "2026-11-11"
   },
+  "obra:Q937:Q3020388": {
+    "decision": "descartado",
+    "motivo": "Ya está como `electrodinamica-de-los-cuerpos-en-movimiento`; esa ficha enlaza al artículo de la relatividad especial, por eso el detector no la reconoce.",
+    "fecha": "2026-11-12"
+  },
   "obra:Q9438:Q618055": {
     "decision": "descartado",
     "motivo": "El Tantum ergo son las dos últimas estrofas del Pange lingua, que ya tiene su ficha (pange-lingua).",
@@ -2753,6 +2808,11 @@
     "decision": "descartado",
     "motivo": "Lutero está por sus escritos sobre los judíos; el resto de su obra no es del tema",
     "fecha": "2026-11-11"
+  },
+  "obra:Q984448:Q115131783": {
+    "decision": "descartado",
+    "motivo": "Wikidata lo atribuye a Piketty, pero «El libro del clima» es una obra colectiva de más de cien especialistas, editada por Greta Thunberg, sobre la crisis climática.",
+    "fecha": "2026-11-12"
   },
   "parte:Q1123201:Q3063789": {
     "decision": "descartado",
@@ -2968,6 +3028,21 @@
     "decision": "descartado",
     "motivo": "Los secuestros turcos (1627) fueron una incursión de corsarios en Islandia, sin relación con la región.",
     "fecha": "2026-11-11"
+  },
+  "parte:Q3122864:Q2283": {
+    "decision": "descartado",
+    "motivo": "Microsoft ya está tratada por la disputa con el software libre en `fundacion-de-microsoft`, `juicio-antimonopolio-a-microsoft`, `microsoft-compra-github`, `campus-de-microsoft` y `carta-abierta-a-los-aficionados`.",
+    "fecha": "2026-11-12"
+  },
+  "parte:Q3122864:Q380": {
+    "decision": "descartado",
+    "motivo": "Meta Platforms es una empresa de redes sociales y una ficha de la empresa no es del molde del paquete, que trata de personas, obras y hechos del software libre, la criptografía y las filtraciones. Su papel en esos hechos (Facebook entre las empresas del programa PRISM; los documentos internos que Frances Haugen filtró en 2021) queda para otro lote.",
+    "fecha": "2026-11-12"
+  },
+  "parte:Q3122864:Q3884": {
+    "decision": "descartado",
+    "motivo": "Amazon es una empresa de comercio electrónico y servicios en la nube, y una ficha de la empresa no es del molde del paquete. Su papel en las filtraciones (sacó a WikiLeaks de sus servidores el 1 de diciembre de 2010 y la Operación Payback no logró tumbar su sitio) está en las fichas `cablegate` y `operacion-payback`.",
+    "fecha": "2026-11-12"
   },
   "parte:Q337104:Q223581": {
     "decision": "descartado",
@@ -4889,6 +4964,16 @@
     "motivo": "Cynan ap Hywel fue rey de Gwynedd (999-1005), no de Deheubarth como lo ubica Wikidata, y de su reinado casi no hay noticias registradas.",
     "fecha": "2026-11-11"
   },
+  "serie:Q142093387:Q15067413": {
+    "decision": "descartado",
+    "motivo": "Anna Ilina fue una política soviética, diputada del Consejo de la Unión del Sóviet Supremo, un cargo con cientos de titulares que el paquete no trata como serie.",
+    "fecha": "2026-11-12"
+  },
+  "serie:Q142093387:Q2622084": {
+    "decision": "descartado",
+    "motivo": "Sydir Kovpak fue un jefe de partisanos soviéticos en la Segunda Guerra Mundial y diputado del Consejo de la Unión; ni él ni ese cargo son del tema del paquete.",
+    "fecha": "2026-11-12"
+  },
   "serie:Q1446566": {
     "decision": "descartado",
     "motivo": "El Ministerio de Municiones británico entra por Lloyd George y Churchill, no como cargo del tema.",
@@ -6609,6 +6694,11 @@
     "motivo": "3 Macabeos trata de la persecución de los judíos de Egipto bajo Ptolomeo IV y no menciona a los celtas ni a los gálatas.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q300947": {
+    "decision": "descartado",
+    "motivo": "El iPhone 3G es una versión del iPhone original, cuyo cambio tecnológico ya está en `presentacion-del-iphone`.",
+    "fecha": "2026-11-12"
+  },
   "sucesion:Q3921629": {
     "decision": "descartado",
     "motivo": "Es un período de Wikidata (la primera monarquía romana, desde 753 a. C.) con una sola Wikipedia y sin hecho datable; ya lo cubren la fundación de Roma y el inicio de la República.",
@@ -6624,6 +6714,11 @@
     "motivo": "El Mundial de 1982 fue en España y no es de la historia argentina; la guerra de Malvinas ya tiene su hecho.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q532458": {
+    "decision": "descartado",
+    "motivo": "«Pastoralis vigilantiae» es una encíclica de León XIII a los obispos de Portugal sobre la unidad de los católicos, no sobre la cuestión social ni la economía.",
+    "fecha": "2026-11-12"
+  },
   "sucesion:Q63550523": {
     "decision": "descartado",
     "motivo": "Q63550523 («Sexenio Absolutista») solo tiene una categoría de Commons, no un artículo de Wikipedia, y el paquete ya cubre 1814-1820 con restauracion-absolutista-1814 y pronunciamiento-de-riego.",
@@ -6634,10 +6729,25 @@
     "motivo": "El cónclave de 2005 eligió a Benedicto XVI; la bibliografía consultada no da papel a Bergoglio y no es historia argentina.",
     "fecha": "2026-11-11"
   },
+  "sucesion:Q6945187": {
+    "decision": "descartado",
+    "motivo": "«My Country, My Country» es un documental de Laura Poitras sobre la ocupación de Irak; del tema solo entra su película sobre Snowden, `citizenfour`.",
+    "fecha": "2026-11-12"
+  },
+  "sucesion:Q733381": {
+    "decision": "descartado",
+    "motivo": "El IBM System/23 Datamaster es una computadora de oficina de IBM anterior al IBM PC, sin papel en la historia del software libre ni de la cultura hacker.",
+    "fecha": "2026-11-12"
+  },
   "sucesion:Q770063": {
     "decision": "descartado",
     "motivo": "La resolución 243 del Consejo de Seguridad (1967) recomendó admitir a Yemen del Sur en la ONU, sin relación con el conflicto árabe-israelí.",
     "fecha": "2026-11-11"
+  },
+  "sucesion:Q877387": {
+    "decision": "descartado",
+    "motivo": "«In ipso» es una encíclica de León XIII a los obispos del imperio austríaco sobre la unidad de los católicos, no sobre la cuestión social ni la economía.",
+    "fecha": "2026-11-12"
   },
   "tramo:celtas-del-danubio-y-galacia:alemania:1:350": {
     "decision": "descartado",

@@ -1140,7 +1140,7 @@
       },
       "idioma_original": "Inglés",
       "soporte": "Informe interno del Laboratorio Nacional de Física del Reino Unido (junio de 1966)",
-      "resumen": "Davies propone una red nacional que transmita los datos entre computadoras divididos en «paquetes» cortos, para aprovechar las líneas mejor que con circuitos dedicados. Una versión reducida se construyó como la red local del laboratorio, que funcionó desde comienzos de los años setenta.",
+      "resumen": "Davies propone una red nacional que transmita los datos entre computadoras divididos en «paquetes» cortos, para aprovechar las líneas mejor que con circuitos dedicados. Una versión reducida se construyó como la red local del laboratorio, que funcionó en parte desde 1969 y a pleno desde enero de 1970.",
       "por_que_importa": "Acuñó el término «paquete»; su trabajo influyó en el diseño de ARPANET.",
       "leer": [],
       "wikipedia": {
@@ -3355,6 +3355,174 @@
         "en": "Why Socialism?"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "que-es-la-vida-schrodinger",
+      "titulo": "¿Qué es la vida? El aspecto físico de la célula viva",
+      "titulo_original": "What Is Life? The Physical Aspect of the Living Cell",
+      "autor": "Erwin Schrödinger",
+      "autor_id": "schrodinger",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Dublín",
+        "lon": -6.26,
+        "lat": 53.35
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1943,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (basado en las conferencias de febrero de 1943 en el Instituto de Estudios Avanzados de Dublín)",
+      "resumen": "Schrödinger pregunta cómo la física y la química pueden explicar los hechos que ocurren dentro de un organismo vivo y propone que la información hereditaria está en un «sólido aperiódico», cuya configuración de enlaces químicos covalentes la guarda. Las conferencias, en el Trinity College, reunieron a unas 400 personas, entre ellas el taoiseach Éamon de Valera y su gabinete.",
+      "por_que_importa": "James Watson y Francis Crick reconocieron que el libro los inspiró en sus primeras investigaciones y que presentó una descripción teórica temprana de cómo se guardaría la información genética. Hermann J. Muller había descrito ya en 1922 las propiedades de la molécula hereditaria que Schrödinger deduce, y escribió en 1960 que lo correcto del libro ya estaba publicado.",
+      "leer": [],
+      "wikipedia": {
+        "es": "¿Qué es la vida?",
+        "en": "What Is Life?"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sociedad-de-la-mente",
+      "titulo": "La sociedad de la mente",
+      "titulo_original": "The Society of Mind",
+      "autor": "Marvin Minsky",
+      "autor_id": "marvin-minsky",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+        "lon": -71.092,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1970,
+        "hasta": 1986
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (270 ensayos breves en 30 capítulos)",
+      "resumen": "Minsky construye paso a paso un modelo de la inteligencia humana a partir de la interacción de partes simples, los «agentes», que por sí mismas no piensan; esa «sociedad» produce el lenguaje, la memoria, el aprendizaje, la conciencia, el sentido del yo y el libre albedrío. La teoría empezó a desarrollarla a principios de los años setenta con Seymour Papert, a partir de su trabajo con un brazo robótico, una cámara y bloques de niños.",
+      "por_que_importa": "Es la primera exposición completa de su teoría. No intenta demostrar nada sobre inteligencia artificial ni se apoya en estructuras cerebrales: es un conjunto de ideas sobre cómo funciona el pensamiento en el plano conceptual, y por eso muchos la leen como un libro de filosofía.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sociedad de la mente",
+        "en": "Society of Mind"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-doble-helice-watson",
+      "titulo": "La doble hélice",
+      "titulo_original": "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+      "autor": "James Watson",
+      "autor_id": "watson",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1951,
+        "hasta": 1953
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (memorias; Atheneum en Estados Unidos y Weidenfeld & Nicolson en el Reino Unido)",
+      "resumen": "Relato en primera persona de Watson sobre el descubrimiento de la estructura del ADN, escrito quince años después. Harvard University Press desistió de publicarlo tras las protestas de Crick y Wilkins. Se lo criticó por presentar la ciencia como una carrera por la prioridad, por mostrar a Watson dispuesto a usar datos ajenos a escondidas y por su retrato sexista de Rosalind Franklin, ya fallecida (entre otros, Anne Sayre en «Rosalind Franklin and DNA»); en el epílogo Watson dice que sus primeras impresiones sobre ella fueron a menudo erradas y reconoce sus logros.",
+      "por_que_importa": "En 1998 la Modern Library lo puso séptimo entre los cien mejores libros de no ficción del siglo XX. Que un científico narrara su trabajo con tanta intimidad era inusual, y la polémica sobre el reparto del crédito sigue abierta.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La doble hélice",
+        "en": "The Double Helix"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "rfc-2460",
+      "titulo": "RFC 2460: Protocolo de Internet, versión 6 (IPv6): especificación",
+      "titulo_original": "RFC 2460: Internet Protocol, Version 6 (IPv6) Specification",
+      "autor": "Steve Deering y Robert Hinden",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1995,
+        "hasta": 1998
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Request for Comments n.º 2460 (diciembre de 1998)",
+      "resumen": "Especificación de la versión 6 del Protocolo de Internet, que la IETF desarrolló para enfrentar el agotamiento de las direcciones de IPv4. Usa direcciones de 128 bits, simplifica la configuración de direcciones y el procesamiento en los routers, y no es compatible con IPv4, por lo que ambos necesitan mecanismos de transición. Reemplazó al RFC 1883 (diciembre de 1995), el primero que estandarizó IPv6.",
+      "por_que_importa": "En 1998 IPv6 tenía el nivel de estándar en borrador; el RFC 8200, de julio de 2017, lo elevó a estándar de Internet.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio del editor de los RFC",
+          "url": "https://www.rfc-editor.org/rfc/rfc2460",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "IPv6",
+        "en": "IPv6"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gpt-2",
+      "titulo": "Los modelos de lenguaje son aprendices multitarea no supervisados",
+      "titulo_original": "Language Models are Unsupervised Multitask Learners",
+      "autor": "Alec Radford y otros (OpenAI)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2019,
+        "hasta": 2019
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe técnico de OpenAI (febrero de 2019)",
+      "resumen": "Presenta GPT-2, un modelo de lenguaje con arquitectura transformer preentrenado con WebText, unos 8 millones de páginas web enlazadas desde publicaciones de Reddit con al menos 3 de karma. Es una ampliación directa de GPT-1, con diez veces más parámetros y datos de entrenamiento, y sin entrenamiento específico traduce, responde preguntas y resume textos. OpenAI lo liberó en etapas: una versión parcial en febrero de 2019 y el modelo completo, de 1.500 millones de parámetros, el 5 de noviembre de 2019.",
+      "por_que_importa": "OpenAI negó al principio el código y justificó la liberación gradual por el riesgo de uso malicioso; algunos investigadores sostuvieron que la amenaza estaba exagerada, y en noviembre de 2019 la propia empresa dijo no haber visto «pruebas sólidas de uso indebido». Fue el antecesor directo de GPT-3.",
+      "leer": [
+        {
+          "titulo": "Informe técnico en el sitio de OpenAI",
+          "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "GPT-2",
+        "en": "GPT-2"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3625,7 +3793,8 @@
       ],
       "resumen": "Físico austríaco. En 1926, en Zúrich, publicó la ecuación de onda que lleva su nombre, base de la mecánica ondulatoria; compartió el Nobel de Física de 1933 con Paul Dirac.",
       "obras": [
-        "ecuacion-de-schrodinger"
+        "ecuacion-de-schrodinger",
+        "que-es-la-vida-schrodinger"
       ],
       "wikipedia": {
         "es": "Erwin Schrödinger",
@@ -4535,7 +4704,8 @@
       ],
       "resumen": "Informático estadounidense, cofundador del laboratorio de inteligencia artificial del MIT. Firmó la propuesta de Dartmouth (1955) y escribió con Seymour Papert «Perceptrons» (1969); Premio Turing de 1969.",
       "obras": [
-        "perceptrons-libro"
+        "perceptrons-libro",
+        "sociedad-de-la-mente"
       ],
       "wikipedia": {
         "es": "Marvin Minsky",
@@ -5608,7 +5778,8 @@
       ],
       "resumen": "Biólogo estadounidense. En 1953, en el Laboratorio Cavendish, propuso con Francis Crick la doble hélice del ADN (Nobel de Medicina de 1962); después dirigió el Laboratorio de Cold Spring Harbor y, entre 1988 y 1992, el Proyecto Genoma Humano. Sus declaraciones sobre raza e inteligencia le costaron sus cargos honorarios.",
       "obras": [
-        "estructura-del-adn"
+        "estructura-del-adn",
+        "la-doble-helice-watson"
       ],
       "wikipedia": {
         "es": "James Dewey Watson",
@@ -6769,7 +6940,7 @@
       "lon": -106.475,
       "lat": 33.677,
       "tipo": "cientifico",
-      "resumen": "El 16 de julio de 1945, en el desierto de Nuevo México, el Proyecto Manhattan detonó la primera bomba atómica, de plutonio, con una potencia de unos 20 kilotones. Tres semanas después se lanzaron las bombas sobre Hiroshima y Nagasaki.",
+      "resumen": "El 16 de julio de 1945, en el desierto de Nuevo México, el Proyecto Manhattan detonó la primera bomba atómica, de plutonio, con una potencia de 21 kilotones según la estimación oficial y 24,8 según un nuevo análisis publicado en 2021. Tres semanas después se lanzaron las bombas sobre Hiroshima y Nagasaki.",
       "regiones": [
         "norteamerica"
       ],
@@ -7763,6 +7934,363 @@
         "es": "Grupo Intergubernamental de Expertos sobre el Cambio Climático",
         "en": "Intergovernmental Panel on Climate Change"
       }
+    },
+    {
+      "id": "bomba-little-boy",
+      "titulo": "Little Boy, la bomba de uranio",
+      "anio": 1945,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Laboratorio de Los Álamos",
+      "lon": -106.324,
+      "lat": 35.876,
+      "tipo": "cientifico",
+      "resumen": "Bomba atómica de tipo cañón diseñada en Los Álamos por el grupo de Francis Birch: una carga de cordita disparaba un cilindro hueco de uranio 235 contra otro macizo del mismo material. Sucedió a la Thin Man, un diseño de plutonio abandonado en 1944. Se la consideraba casi segura y nunca se probó antes de usarla: la lanzada sobre Hiroshima el 6 de agosto de 1945 llevaba 64 kg de uranio, de los que se fisionó menos de 1 kg. Estalló con unos 15 kilotones (estimación de Los Álamos de 1985). Según la Radiation Effects Research Foundation, en Hiroshima murieron entre 90.000 y 166.000 personas hasta fines de 1945, en su mayoría civiles.",
+      "regiones": [
+        "suroeste-norteamericano",
+        "norteamerica",
+        "japon"
+      ],
+      "fuentes": [
+        "declaracion-de-truman-sobre-hiroshima",
+        "informe-smyth"
+      ],
+      "wikipedia": {
+        "es": "Little Boy",
+        "en": "Little Boy"
+      }
+    },
+    {
+      "id": "bomba-fat-man",
+      "titulo": "Fat Man, la bomba de plutonio",
+      "anio": 1945,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Laboratorio de Los Álamos",
+      "lon": -106.324,
+      "lat": 35.876,
+      "tipo": "cientifico",
+      "resumen": "Bomba atómica de implosión con núcleo sólido de plutonio, hecha en Los Álamos con plutonio producido en Hanford. Al comprobarse en abril de 1944 que el plutonio de los reactores contenía plutonio 240 y haría detonar antes de tiempo una bomba de cañón, en julio el laboratorio se reorganizó en torno a la implosión. El primer dispositivo, «The Gadget», estalló en la prueba Trinity el 16 de julio de 1945 (21 kilotones según la estimación oficial y 24,8 según un nuevo análisis publicado en 2021) y otro cayó sobre Nagasaki el 9 de agosto (21 kilotones). En Nagasaki murieron entre 35.000 y 40.000 personas en el acto y entre 60.000 y 80.000 en total.",
+      "regiones": [
+        "suroeste-norteamericano",
+        "norteamerica",
+        "japon"
+      ],
+      "fuentes": [
+        "declaracion-de-truman-sobre-hiroshima"
+      ],
+      "wikipedia": {
+        "es": "Fat Man",
+        "en": "Fat Man"
+      }
+    },
+    {
+      "id": "calutrones-de-oak-ridge",
+      "titulo": "Calutrones de Oak Ridge",
+      "anio": 1943,
+      "anio_hasta": 1945,
+      "aprox": false,
+      "lugar": "Oak Ridge (Tennessee)",
+      "lon": -84.263,
+      "lat": 36.013,
+      "tipo": "cientifico",
+      "resumen": "El calutrón, un espectrómetro de masas que Ernest Lawrence desarrolló a partir de su ciclotrón, separa los isótopos del uranio con campos eléctricos y magnéticos. La planta Y-12 de Oak Ridge, cuya construcción empezó el 18 de febrero de 1943 y cuyo primer edificio Alfa se terminó el 1 de noviembre de 1943, lo usó a escala industrial, y su uranio enriquecido fue a la bomba Little Boy. Después de la guerra se prefirió la difusión gaseosa, más complicada pero más eficiente.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Calutrón",
+        "en": "Calutron"
+      }
+    },
+    {
+      "id": "operacion-crossroads",
+      "titulo": "Operación Crossroads",
+      "anio": 1946,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Atolón Bikini",
+      "lon": 165.4,
+      "lat": 11.6,
+      "tipo": "cientifico",
+      "resumen": "Dos pruebas nucleares de Estados Unidos en el atolón Bikini, Able (1.º de julio de 1946) y Baker (25 de julio, bajo el agua), con bombas tipo Fat Man de 23 kilotones contra una flota de 95 buques, para investigar los efectos de las armas nucleares sobre barcos. Fueron las primeras desde Trinity y las primeras anunciadas de antemano y observadas por invitados y prensa; Baker produjo la primera lluvia radiactiva inmediata y concentrada. Los 167 habitantes de Bikini fueron trasladados, la mayoría al atolón Rongerik. Las pruebas termonucleares de los años cincuenta dejaron el atolón contaminado, y sigue deshabitado.",
+      "regiones": [
+        "micronesia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Operación Crossroads",
+        "en": "Operation Crossroads"
+      }
+    },
+    {
+      "id": "multics",
+      "titulo": "Multics",
+      "anio": 1964,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Instituto de Tecnología de Massachusetts (MIT)",
+      "lon": -71.092,
+      "lat": 42.36,
+      "tipo": "cientifico",
+      "resumen": "Sistema operativo de tiempo compartido cuyo desarrollo empezó en 1964 en Cambridge (Massachusetts), como proyecto del MIT (Project MAC, con Fernando Corbató), General Electric y los Laboratorios Bell, sobre la computadora GE 645. Bell se retiró en 1969 al ver que no daría un sistema útil a corto plazo, y parte de su equipo creó Unix. Honeywell, que compró en 1970 la división informática de GE, lo desarrolló hasta 1985; la última instalación nativa se apagó el 30 de octubre de 2000.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Multics",
+        "en": "Multics"
+      }
+    },
+    {
+      "id": "intel-8008",
+      "titulo": "Intel 8008",
+      "anio": 1972,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santa Clara (California)",
+      "lon": -121.967,
+      "lat": 37.35,
+      "tipo": "cientifico",
+      "resumen": "Microprocesador de 8 bits que direcciona 16 KB, puesto en el catálogo de Intel en abril de 1972. Computer Terminal Corporation diseñó su arquitectura para el terminal Datapoint 2200 e Intel la fabricó; como CTC no lo usó, Intel pasó a venderlo a otros clientes. Fue el procesador de las primeras computadoras personales comerciales que no eran calculadoras, sin contar la propia Datapoint 2200 (SCELBI, Micral N y MCM/70), y le siguieron el Intel 8080 y la familia x86.",
+      "regiones": [
+        "california-indigena",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Intel 8008",
+        "en": "Intel 8008"
+      }
+    },
+    {
+      "id": "efecto-mossbauer",
+      "titulo": "Efecto Mößbauer",
+      "anio": 1958,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Heidelberg",
+      "lon": 8.695,
+      "lat": 49.409,
+      "tipo": "cientifico",
+      "resumen": "Rudolf Mößbauer, formado en la Universidad Técnica de Múnich, descubrió durante su doctorado en el Instituto Max Planck de Investigación Médica de Heidelberg que los núcleos de un sólido pueden emitir y absorber rayos gamma sin retroceso, y publicó los resultados con su tesis en 1958. Por ello recibió la mitad del Premio Nobel de Física de 1961.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Efecto Mößbauer",
+        "en": "Mössbauer effect"
+      }
+    },
+    {
+      "id": "casete-compacto",
+      "titulo": "El casete compacto de Philips",
+      "anio": 1963,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Berlín",
+      "lon": 13.383,
+      "lat": 52.517,
+      "tipo": "cientifico",
+      "resumen": "Philips presentó el 28 de agosto de 1963 en la Exposición de Radio de Berlín el casete compacto, un formato de cinta magnética para grabar y reproducir audio que había inventado un equipo dirigido por Lou Ottens en Hasselt. Philips prefirió este casete de dos carretes al de un agujero que desarrollaba su fábrica de Viena con Grundig, y desde 1966 cedió sin cargo la patente a otros fabricantes.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Casete",
+        "en": "Cassette tape"
+      }
+    },
+    {
+      "id": "gluones-en-desy",
+      "titulo": "Primeras pruebas de los gluones en DESY",
+      "anio": 1978,
+      "anio_hasta": 1979,
+      "aprox": false,
+      "lugar": "Hamburgo",
+      "lon": 10.0,
+      "lat": 53.55,
+      "tipo": "cientifico",
+      "resumen": "En 1978 el detector PLUTO del colisionador DORIS, en el DESY, dio la primera evidencia de que ciertas desintegraciones del Υ(9,46) se interpretaban como sucesos de tres chorros producidos por tres gluones. En el verano de 1979, en el colisionador PETRA, los experimentos TASSO, MARK-J y PLUTO observaron claramente esa topología de tres chorros, y en 1980 TASSO y PLUTO confirmaron que el gluón tiene espín 1.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Gluon",
+        "en": "Gluon"
+      }
+    },
+    {
+      "id": "puesta-en-marcha-del-lhc",
+      "titulo": "Puesta en marcha del Gran Colisionador de Hadrones",
+      "anio": 2008,
+      "anio_hasta": 2010,
+      "aprox": false,
+      "lugar": "CERN",
+      "lon": 6.049,
+      "lat": 46.234,
+      "tipo": "cientifico",
+      "resumen": "El CERN construyó el LHC entre 1998 y 2008 con la colaboración de más de 10.000 científicos. Funcionó por primera vez el 10 de septiembre de 2008; el 19, una conexión eléctrica defectuosa provocó un quench de los imanes superconductores que dañó más de 50 de ellos y detuvo las pruebas hasta el 20 de noviembre de 2009. Las primeras colisiones se registraron en noviembre de 2009, a energías de hasta 1,2 TeV por haz; el 30 de marzo de 2010 llegaron las primeras a 3,5 TeV por haz, con las que empezó el programa de investigación.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Gran colisionador de hadrones",
+        "en": "Large Hadron Collider"
+      }
+    },
+    {
+      "id": "descubrimiento-del-neutron",
+      "titulo": "Descubrimiento del neutrón",
+      "anio": 1932,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Laboratorio Cavendish",
+      "lon": 0.092,
+      "lat": 52.209,
+      "tipo": "cientifico",
+      "resumen": "James Chadwick, con la ayuda de Norman Feather, mostró en el Laboratorio Cavendish que la radiación del berilio bombardeado con partículas alfa, observada antes por Bothe y Becker en Giessen y por los Joliot-Curie en París, no eran rayos gamma sino partículas sin carga de masa parecida a la del protón. A los pocos meses Heisenberg e Iwanenko propusieron un núcleo de protones y neutrones. 1932 fue llamado el «annus mirabilis» de la física nuclear en el Cavendish.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "existencia-del-neutron"
+      ],
+      "wikipedia": {
+        "es": "Descubrimiento del neutrón",
+        "en": "Discovery of the neutron"
+      }
+    },
+    {
+      "id": "descubrimiento-de-la-estructura-del-adn",
+      "titulo": "Descubrimiento de la estructura del ADN",
+      "anio": 1951,
+      "anio_hasta": 1953,
+      "aprox": false,
+      "lugar": "Laboratorio Cavendish",
+      "lon": 0.092,
+      "lat": 52.209,
+      "tipo": "cientifico",
+      "resumen": "El 25 de abril de 1953 Nature publicó el artículo de Francis Crick y James Watson con el modelo de doble hélice del ADN, apoyado en datos de difracción de rayos X recogidos en el King's College de Londres por Rosalind Franklin y Maurice Wilkins. Crick, Watson y Wilkins recibieron el Premio Nobel de Medicina de 1962. Cómo Watson y Crick accedieron a los datos de Franklin es motivo de controversia.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "estructura-del-adn",
+        "foto-51"
+      ],
+      "wikipedia": {
+        "en": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
+      }
+    },
+    {
+      "id": "red-npl",
+      "titulo": "Red NPL, pionera de la conmutación de paquetes",
+      "anio": 1969,
+      "anio_hasta": 1986,
+      "aprox": false,
+      "lugar": "Teddington",
+      "lon": -0.332,
+      "lat": 51.424,
+      "tipo": "cientifico",
+      "resumen": "Basada en los diseños que Donald Davies concibió en 1965, la red local del Laboratorio Nacional de Física empezó a desarrollarse en 1966. Elementos de su primera versión, la Mark I, funcionaron a comienzos de 1969, antes de que ARPANET instalara su primer nodo, y a pleno en enero de 1970; la Mark II operó de 1973 a 1986. Fue la primera red en implementar conmutación de paquetes y en usar enlaces de alta velocidad.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [
+        "davies-propuesta-npl"
+      ],
+      "wikipedia": {
+        "en": "NPL network"
+      }
+    },
+    {
+      "id": "primer-bebe-por-fecundacion-in-vitro",
+      "titulo": "Nacimiento de Louise Brown, la primera persona nacida por fecundación in vitro",
+      "anio": 1978,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Oldham",
+      "lon": -2.118,
+      "lat": 53.545,
+      "tipo": "cientifico",
+      "resumen": "Louise Brown nació el 25 de julio de 1978 en el Hospital General de Oldham, por cesárea programada, tras un procedimiento realizado el 10 de noviembre de 1977 y desarrollado por Patrick Steptoe, Robert Edwards y Jean Purdy. Se la llamó «bebé de probeta», pero la concepción ocurrió en una placa de Petri. Edwards recibió por este trabajo el Premio Nobel de Medicina de 2010.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Louise Brown",
+        "en": "Louise Brown"
+      }
+    },
+    {
+      "id": "agujero-de-ozono",
+      "titulo": "Descubrimiento del agujero de ozono antártico",
+      "anio": 1982,
+      "anio_hasta": 1985,
+      "aprox": false,
+      "lugar": "British Antarctic Survey (Cambridge)",
+      "lon": 0.08,
+      "lat": 52.213,
+      "tipo": "cientifico",
+      "resumen": "Joseph Farman, Brian Gardiner y Jon Shanklin, del British Antarctic Survey, midieron con espectrofotómetros Dobson en la estación Halley caídas del ozono desde 1982 y publicaron en Nature, en mayo de 1985, la primera evidencia de un «agujero» estacional sobre la Antártida; expediciones posteriores confirmaron que lo causaban el cloro y el bromo de compuestos de origen humano. En 1987, 43 naciones firmaron el Protocolo de Montreal, que congeló la producción de CFC.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Agujero de la capa de ozono",
+        "en": "Ozone depletion"
+      }
+    },
+    {
+      "id": "aislamiento-del-grafeno",
+      "titulo": "Aislamiento del grafeno",
+      "anio": 2004,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Universidad de Mánchester",
+      "lon": -2.232,
+      "lat": 53.466,
+      "tipo": "cientifico",
+      "resumen": "Andre Geim y Konstantin Novoselov, de la Universidad de Mánchester, aislaron y caracterizaron en 2004 láminas de grafeno, una capa de átomos de carbono, despegándolas del grafito con cinta adhesiva común (exfoliación micromecánica). Philip Wallace había planteado teóricamente el grafeno en 1947. Geim y Novoselov recibieron el Premio Nobel de Física de 2010.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Grafeno",
+        "en": "Graphene"
+      }
+    },
+    {
+      "id": "deepmind-aprende-atari",
+      "titulo": "DeepMind aprende a jugar a los juegos de Atari",
+      "anio": 2013,
+      "anio_hasta": 2014,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "cientifico",
+      "resumen": "DeepMind, fundada en Londres en noviembre de 2010 por Demis Hassabis, Shane Legg y Mustafa Suleyman, publicó en 2013 un sistema de aprendizaje por refuerzo con Q-learning profundo y redes convolucionales que superó a las personas en juegos como Pong, Breakout y Enduro. Google confirmó su compra el 26 de enero de 2014, por una suma que según se informó estuvo entre 400 y 650 millones de dólares.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Google DeepMind",
+        "en": "Google DeepMind"
+      }
     }
   ],
   "lugares": [
@@ -7921,8 +8449,8 @@
     {
       "id": "laboratorio-cavendish",
       "nombre": "Laboratorio Cavendish",
-      "lon": 0.092,
-      "lat": 52.209,
+      "lon": 0.12,
+      "lat": 52.203,
       "fundacion": 1874,
       "abandono": null,
       "aprox": false,

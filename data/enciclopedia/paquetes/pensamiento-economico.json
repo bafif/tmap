@@ -162,9 +162,9 @@
       "escrita": {
         "anio": 1850,
         "aprox": false,
-        "lugar": "París",
-        "lon": 2.352,
-        "lat": 48.857
+        "lugar": "Mugron",
+        "lon": -0.749,
+        "lat": 43.75
       },
       "trata": {
         "regiones": [
@@ -185,7 +185,11 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "La ley",
+        "en": "The Law (Bastiat book)"
+      }
     },
     {
       "id": "lo-que-se-ve-y-lo-que-no-se-ve",
@@ -1231,7 +1235,11 @@
           "dominio_publico": false
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "La desnacionalización de la moneda",
+        "en": "The Denationalisation of Money"
+      }
     },
     {
       "id": "la-fatal-arrogancia",
@@ -3079,6 +3087,474 @@
         "en": "Capitalism: The Unknown Ideal"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "principios-de-economia-politica-mill",
+      "titulo": "Principios de economía política",
+      "titulo_original": "Principles of Political Economy, with Some of Their Applications to Social Philosophy",
+      "autor": "John Stuart Mill",
+      "autor_id": "john-stuart-mill",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1848,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1848,
+        "hasta": 1848
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (revisado hasta la séptima edición, de 1871)",
+      "resumen": "Tratado de economía política que fue uno de los manuales más importantes de mediados del siglo XIX. Además de cuestiones descriptivas, como qué naciones se benefician más del comercio basado en la ventaja comparativa (según Mill, las que tienen una demanda más elástica de los bienes de otros países), trata cuestiones normativas, como los sistemas ideales de economía política, y critica propuestas como el comunismo y el socialismo.",
+      "por_que_importa": "Junto con «Un sistema de lógica» afianzó la reputación de Mill como intelectual público. Su actitud simpatizante hacia el socialismo de su época, en particular el fourierismo, le valió la estima de parte de la clase trabajadora, y se usó como libro de texto básico en Oxford hasta 1919.",
+      "leer": [
+        {
+          "titulo": "Texto completo (edición de Ashley, de 1909) en la Library of Economics and Liberty",
+          "url": "https://www.econlib.org/library/Mill/mlP.html",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Edición abreviada por J. Laurence Laughlin, con notas, en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/30107",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Principles of Political Economy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-utilitarismo-mill",
+      "titulo": "El utilitarismo",
+      "titulo_original": "Utilitarianism",
+      "autor": "John Stuart Mill",
+      "autor_id": "john-stuart-mill",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1861,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1861,
+        "hasta": 1861
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ensayo (tres artículos en Fraser's Magazine en 1861; reunidos en libro en 1863)",
+      "resumen": "Mill expone y defiende el utilitarismo que recibió de Jeremy Bentham: la felicidad es lo único que se desea por sí mismo y el fin de la vida ética es maximizarla, según el «principio de utilidad». Se aparta de Bentham al intentar una versión más refinada, que realce los placeres intelectuales, el desarrollo personal y las reglas morales convencionales, y responde a las críticas que la teoría recibía.",
+      "por_que_importa": "Se lo criticó con dureza al publicarse; desde entonces ganó popularidad.",
+      "leer": [
+        {
+          "titulo": "Texto en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/11224",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "El utilitarismo",
+        "en": "Utilitarianism (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gobierno-representativo-mill",
+      "titulo": "Consideraciones sobre el gobierno representativo",
+      "titulo_original": "Considerations on Representative Government",
+      "autor": "John Stuart Mill",
+      "autor_id": "john-stuart-mill",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1861,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1861,
+        "hasta": 1861
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Mill sostiene que el gobierno representativo es la forma ideal y que la función de los parlamentos es menos legislar que servir de lugar de debate público sobre las opiniones de la población y controlar a quienes preparan y administran las leyes. Defiende la representación proporcional y el voto único transferible, propuestos antes por Thomas Hare, y a la vez que los votantes más instruidos tengan más votos que los menos instruidos, para evitar la legislación de clase de los segundos, aunque sin que la minoría instruida pueda legislar en su propio beneficio.",
+      "por_que_importa": "Se publicó en 1861, dos años después de «Sobre la libertad».",
+      "leer": [
+        {
+          "titulo": "Texto en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5669",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Consideraciones sobre el gobierno representativo",
+        "en": "Considerations on Representative Government"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "para-el-nuevo-intelectual",
+      "titulo": "Para el nuevo intelectual",
+      "titulo_original": "For the New Intellectual: The Philosophy of Ayn Rand",
+      "autor": "Ayn Rand",
+      "autor_id": "ayn-rand",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1961,
+        "hasta": 1961
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Random House; extractos de novelas y un ensayo)",
+      "resumen": "Su primer libro largo de no ficción. Reúne discursos de sus novelas, sobre todo de «El manantial» y «La rebelión de Atlas» —entre ellos los de la naturaleza filosófica del dinero, la condena que recibe el industrial exitoso, la medicina socializada, el afán de lucro frente al bien público y una exposición de 60 páginas del objetivismo—, más un ensayo central, revisión de una conferencia en Yale de noviembre de 1960, sobre la historia de la filosofía. En él Rand llama «Atila» a quien usó la fuerza física para lograr sus fines y «brujo» a quien, con la palabra, persuadió a la gente de ir contra su razón, a menudo en provecho del Atila de turno; a ambos los ve como una fuerza del mal en la historia.",
+      "por_que_importa": "Fue el primero de varios volúmenes de ensayos y discursos de Rand y el último que publicó con Random House. Sidney Hook, en The New York Times Book Review, lo llamó «una combinación única de tautología y absurdo extravagante».",
+      "leer": [],
+      "wikipedia": {
+        "en": "For the New Intellectual"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "pensar-rapido-pensar-despacio",
+      "titulo": "Pensar rápido, pensar despacio",
+      "titulo_original": "Thinking, Fast and Slow",
+      "autor": "Daniel Kahneman",
+      "autor_id": "kahneman",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Estados Unidos"
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2011,
+        "hasta": 2011
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro de divulgación científica",
+      "resumen": "Kahneman distingue dos modos de pensar: el Sistema 1, rápido, instintivo y emocional, y el Sistema 2, más lento, deliberativo y lógico. Resume décadas de investigación, a menudo con Amos Tversky —los sesgos cognitivos, la teoría prospectiva y la aversión a las pérdidas, la felicidad—, y sostiene que las personas confían demasiado en su juicio. Distingue además entre los «Econs» de la teoría económica y los humanos reales, y entre el yo que vive y el yo que recuerda.",
+      "por_que_importa": "El columnista Jason Zweig ayudó a escribirlo e investigarlo. Fue un éxito de ventas; la integridad de algunos estudios de priming que cita se cuestionó durante la crisis de replicación de la psicología.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pensar rápido, pensar despacio",
+        "en": "Thinking, Fast and Slow"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "capital-e-ideologia",
+      "titulo": "Capital e ideología",
+      "titulo_original": "Capital et idéologie",
+      "autor": "Thomas Piketty",
+      "autor_id": "piketty",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2019,
+        "hasta": 2019
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Piketty lo describe como en gran parte una continuación de «El capital en el siglo XXI», con un alcance más amplio. Explora las justificaciones históricas y actuales de la desigualdad y propone formas de redistribuir la riqueza, entre ellas una «herencia para todos»: un pago que cada país daría a sus ciudadanos a los 25 años. Según la cita que hace Paul Krugman, para Piketty la desigualdad no es económica ni tecnológica sino ideológica y política.",
+      "por_que_importa": "Tyler Cowen le reprochó desconfiar de los ricos y no del poder concentrado del Estado, y Raghuram Rajan sostuvo que los estudios desmienten que los ricos de hoy sean sobre todo rentistas. Piketty se negó a censurar partes del libro y por eso no se publicó en la China continental.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Capital and Ideology"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "peticion-de-los-fabricantes-de-velas",
+      "titulo": "Petición de los fabricantes de velas",
+      "titulo_original": "Pétition des fabricants de chandelles",
+      "autor": "Frédéric Bastiat",
+      "autor_id": "bastiat",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1845,
+        "hasta": 1845
+      },
+      "idioma_original": "Francés",
+      "soporte": "Ensayo satírico (parte de «Sofismas económicos»)",
+      "resumen": "Sátira contra el proteccionismo. Los fabricantes de velas y de otras industrias del alumbrado piden a la Cámara de Diputados de la Monarquía de Julio que los proteja de la competencia desleal de una potencia extranjera, el Sol, y enumeran las ventajas de bloquearlo: un mayor consumo de sebo, aceite vegetal, árboles resinosos y aceite de ballena, y con ellos más ganadería, cultivos, abejas y navegación.",
+      "por_que_importa": "Con «La ley» y la parábola de la ventana rota, es una de las obras por las que más se conoce a Bastiat.",
+      "leer": [
+        {
+          "titulo": "Original en francés (Œuvres complètes, Guillaumin) en Wikisource",
+          "url": "https://fr.wikisource.org/wiki/Sophismes_%C3%A9conomiques/S%C3%A9rie_1/Chapitre_7",
+          "idioma": "fr",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "«Economic Sophisms», traducción inglesa en la Library of Economics and Liberty",
+          "url": "https://www.econlib.org/library/Bastiat/basSoph.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Petición de los fabricantes de velas"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "individualismo-y-orden-economico",
+      "titulo": "Individualismo y orden económico",
+      "titulo_original": "Individualism and Economic Order",
+      "autor": "Friedrich A. Hayek",
+      "autor_id": "hayek",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1935,
+        "hasta": 1948
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro de ensayos (University of Chicago Press y Routledge)",
+      "resumen": "Reúne ensayos de los años treinta y cuarenta que van de la filosofía moral y el método de las ciencias sociales a la teoría económica, para contrastar los mercados libres con las economías planificadas. Incluye «Individualismo: verdadero y falso», dictado en el University College de Dublín el 17 de diciembre de 1945, donde distingue un individualismo británico, que defiende un orden que surge de la ley y la libertad, y uno francés, que lleva a ampliar la autoridad del Estado y que Hayek llama falso; «Economía y conocimiento» (1936), «El uso del conocimiento en la sociedad» y «El significado de la competencia».",
+      "por_que_importa": "Muchos libertarios la tienen por un clásico; economistas como Elinor Ostrom, James Buchanan y Milton Friedman, todos premios Nobel, citaron sus argumentos.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés publicado por el Instituto Mises",
+          "url": "https://cdn.mises.org/Individualism%20and%20Economic%20Order.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Individualismo y Orden Económico",
+        "en": "Individualism and Economic Order"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gobierno-omnipotente-mises",
+      "titulo": "Gobierno omnipotente: el ascenso del Estado total y la guerra total",
+      "titulo_original": "Omnipotent Government: The Rise of the Total State and Total War",
+      "autor": "Ludwig von Mises",
+      "autor_id": "mises",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1944,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1944,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Yale University Press)",
+      "resumen": "Mises sostiene que el nazismo es una variante de la teoría socialista ortodoxa; la mayoría de los historiadores ubica en cambio al nazismo en la extrema derecha, como una forma de fascismo. A la vez critica el intervencionismo económico, la planificación central de la industria, el Estado de bienestar y el gobierno mundial, y denuncia que las potencias aliadas occidentales marchaban hacia el Estado total.",
+      "por_que_importa": "Es la crítica de Mises al totalitarismo y al socialismo de Estado, con el nazismo como ejemplo. El Instituto Mises lo puso en línea en 2004.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés publicado por el Instituto Mises",
+          "url": "https://cdn.mises.org/Omnipotent%20Government%20The%20Rise%20of%20the%20Total%20State%20and%20Total%20War.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Gobierno omnipotente",
+        "en": "Omnipotent Government"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "teoria-e-historia-mises",
+      "titulo": "Teoría e historia: una interpretación de la evolución social y económica",
+      "titulo_original": "Theory and History: An Interpretation of Social and Economic Evolution",
+      "autor": "Ludwig von Mises",
+      "autor_id": "mises",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1957,
+        "hasta": 1957
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Yale University Press)",
+      "resumen": "Tratado que continúa el sistema de ciencia social de Mises y da más apoyo epistemológico a «La acción humana». Desarrolla el dualismo metodológico, el concepto de timología, una rama histórica de las ciencias de la acción humana, y su crítica del materialismo marxista. Sostiene que el determinismo, el materialismo, el historicismo, el cientificismo, el positivismo y el conductismo cometieron errores epistemológicos y metodológicos.",
+      "por_que_importa": "Murray Rothbard lo consideraba una de las obras más importantes de la carrera de Mises, junto con la «Teoría del dinero y del crédito», «Socialismo» y «La acción humana», y la más pasada por alto.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés publicado por el Instituto Mises",
+          "url": "https://cdn.mises.org/Theory%20and%20History%20An%20Interpretation%20of%20Social%20and%20Economic%20Evolution.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Teoría e historia",
+        "en": "Theory and History"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "fundamentos-del-analisis-economico-samuelson",
+      "titulo": "Fundamentos del análisis económico",
+      "titulo_original": "Foundations of Economic Analysis",
+      "autor": "Paul A. Samuelson",
+      "autor_id": "samuelson",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1947,
+        "hasta": 1947
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Harvard University Press; basado en su tesis doctoral de 1941)",
+      "resumen": "Samuelson busca mostrar una estructura matemática común a varias ramas de la economía a partir de dos principios: la conducta maximizadora de los agentes (utilidad del consumidor, ganancias de la empresa) y la estabilidad del equilibrio. Formaliza el método de la estática comparativa y su «principio de correspondencia», según el cual la estabilidad del equilibrio implica predicciones contrastables sobre cómo cambia al variar los parámetros.",
+      "por_que_importa": "Entre otros aportes, avanzó la teoría de los números índice y generalizó la economía del bienestar. Su portada cita el lema de J. Willard Gibbs: «Las matemáticas son un lenguaje».",
+      "leer": [],
+      "wikipedia": {
+        "en": "Foundations of Economic Analysis"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "valor-y-capital-hicks",
+      "titulo": "Valor y capital: una investigación sobre algunos principios fundamentales de la teoría económica",
+      "titulo_original": "Value and Capital: An Inquiry into Some Fundamental Principles of Economic Theory",
+      "autor": "John Hicks",
+      "autor_id": "john-hicks",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1939,
+        "aprox": false,
+        "lugar": "Universidad de Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1939,
+        "hasta": 1939
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Clarendon Press, Oxford; segunda edición en 1946)",
+      "resumen": "Hicks lo escribió sobre todo durante sus años en Cambridge, a partir de su trabajo previo en Londres. Extiende la teoría del consumidor usando solo la utilidad ordinal, sin comparaciones interpersonales; separa el efecto de un cambio de precio en efecto sustitución y efecto ingreso; hace un análisis paralelo de la producción; y extiende la teoría del equilibrio general a la dinámica económica, al distinguir el equilibrio temporario del de largo plazo a través de las expectativas de los agentes.",
+      "por_que_importa": "Se lo considera una exposición clásica de la microeconomía, y la distinción entre efecto sustitución y efecto ingreso es hoy estándar.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Value and Capital"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-traicion-de-la-derecha-estadounidense-rothbard",
+      "titulo": "La traición de la derecha estadounidense",
+      "titulo_original": "The Betrayal of the American Right",
+      "autor": "Murray N. Rothbard",
+      "autor_id": "rothbard",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1970,
+        "anio_hasta": 1973,
+        "aprox": true,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1920,
+        "hasta": 1970
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (escrito a comienzos de los años setenta; publicado por el Instituto Mises en 2007)",
+      "resumen": "Rothbard sostiene que la vieja derecha estadounidense, que existió entre mediados de los años veinte y mediados de los cincuenta, era un movimiento libertario y antisistema que se oponía al New Deal y a la intervención de Estados Unidos en el exterior, y que murió en favor de una derecha más intervencionista durante la Guerra Fría. Según Rothbard, la nueva derecha, surgida en los sesenta, abrazó al establishment y se volvió más estatista y conservadora tradicional. El libro describe también el desarrollo intelectual del propio Rothbard.",
+      "por_que_importa": "Rothbard señala la ironía de que el término «establishment», hoy usado como reproche por la izquierda, lo aplicó por primera vez a Estados Unidos Frank S. Meyer en la revista conservadora «National Review», como crítica a ese establishment.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés publicado por el Instituto Mises",
+          "url": "https://cdn.mises.org/The%20Betrayal%20of%20the%20American%20Right.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "La traición de la derecha estadounidense",
+        "en": "The Betrayal of the American Right"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3233,7 +3709,10 @@
       "resumen": "Filósofo y economista inglés, el principal liberal de su siglo. Escribió los «Principios de economía política» (1848), «Sobre la libertad» (1859) y «El sometimiento de la mujer» (1869), y fue diputado entre 1865 y 1868.",
       "obras": [
         "sobre-la-libertad",
-        "la-sujecion-de-la-mujer"
+        "la-sujecion-de-la-mujer",
+        "principios-de-economia-politica-mill",
+        "el-utilitarismo-mill",
+        "gobierno-representativo-mill"
       ],
       "wikipedia": {
         "es": "John Stuart Mill",
@@ -3274,7 +3753,8 @@
       "resumen": "Economista y polemista francés, militante del libre comercio y diputado entre 1848 y 1850. Con sátiras como la «Petición de los fabricantes de velas» y ensayos como «La ley» y «Lo que se ve y lo que no se ve» popularizó el liberalismo clásico y la crítica al proteccionismo y al estatismo.",
       "obras": [
         "la-ley-bastiat",
-        "lo-que-se-ve-y-lo-que-no-se-ve"
+        "lo-que-se-ve-y-lo-que-no-se-ve",
+        "peticion-de-los-fabricantes-de-velas"
       ],
       "wikipedia": {
         "es": "Frédéric Bastiat",
@@ -3718,7 +4198,9 @@
         "burocracia-mises",
         "accion-humana",
         "mentalidad-anticapitalista",
-        "seis-lecciones-mises"
+        "seis-lecciones-mises",
+        "gobierno-omnipotente-mises",
+        "teoria-e-historia-mises"
       ],
       "wikipedia": {
         "es": "Ludwig von Mises",
@@ -3763,7 +4245,8 @@
         "los-fundamentos-de-la-libertad",
         "derecho-legislacion-y-libertad",
         "la-desnacionalizacion-del-dinero",
-        "la-fatal-arrogancia"
+        "la-fatal-arrogancia",
+        "individualismo-y-orden-economico"
       ],
       "wikipedia": {
         "es": "Friedrich Hayek",
@@ -3842,7 +4325,8 @@
         "la-gran-depresion-rothbard",
         "anatomia-del-estado",
         "por-una-nueva-libertad",
-        "la-etica-de-la-libertad"
+        "la-etica-de-la-libertad",
+        "la-traicion-de-la-derecha-estadounidense-rothbard"
       ],
       "wikipedia": {
         "es": "Murray Rothbard",
@@ -4008,7 +4492,8 @@
       ],
       "resumen": "Economista británico de la London School of Economics, Cambridge y Oxford. Resumió en 1937 la teoría de Keynes en el modelo IS-LM, base de la síntesis neoclásica, y recibió el Nobel en 1972 con Kenneth Arrow por sus trabajos sobre equilibrio general y bienestar.",
       "obras": [
-        "keynes-y-los-clasicos"
+        "keynes-y-los-clasicos",
+        "valor-y-capital-hicks"
       ],
       "wikipedia": {
         "es": "John Hicks",
@@ -4161,7 +4646,8 @@
       ],
       "resumen": "Economista estadounidense del MIT y primer estadounidense en recibir el Nobel de Economía (1970). Formalizó matemáticamente buena parte de la teoría económica y difundió con su manual «Economics» la «síntesis neoclásica» entre Keynes y el análisis de precios.",
       "obras": [
-        "economics-samuelson"
+        "economics-samuelson",
+        "fundamentos-del-analisis-economico-samuelson"
       ],
       "wikipedia": {
         "es": "Paul Samuelson",
@@ -4460,7 +4946,8 @@
       ],
       "resumen": "Psicólogo israelí-estadounidense. Con Amos Tversky estudió los atajos y sesgos con que la gente decide en la incertidumbre y formuló la teoría de las perspectivas (1979), fundamento de la economía conductual; recibió el Nobel de Economía en 2002.",
       "obras": [
-        "teoria-de-las-perspectivas"
+        "teoria-de-las-perspectivas",
+        "pensar-rapido-pensar-despacio"
       ],
       "wikipedia": {
         "es": "Daniel Kahneman",
@@ -4519,7 +5006,8 @@
       ],
       "resumen": "Economista francés de la Escuela de Economía de París y la EHESS. Reconstruyó series históricas de ingresos y patrimonios con datos fiscales y sostiene que, cuando el rendimiento del capital supera el crecimiento (r > g), la desigualdad tiende a aumentar; propone impuestos progresivos al patrimonio.",
       "obras": [
-        "el-capital-en-el-siglo-xxi"
+        "el-capital-en-el-siglo-xxi",
+        "capital-e-ideologia"
       ],
       "wikipedia": {
         "es": "Thomas Piketty",
@@ -4991,7 +5479,8 @@
         "la-noche-del-16-de-enero",
         "los-que-vivimos",
         "himno",
-        "capitalismo-el-ideal-desconocido"
+        "capitalismo-el-ideal-desconocido",
+        "para-el-nuevo-intelectual"
       ],
       "wikipedia": {
         "es": "Ayn Rand",
@@ -6011,6 +6500,110 @@
       "wikipedia": {
         "es": "Crisis financiera de 2007-2008",
         "en": "2008 financial crisis"
+      }
+    },
+    {
+      "id": "economia-social-de-mercado",
+      "titulo": "Economía social de mercado y ordoliberalismo en Alemania Occidental",
+      "anio": 1949,
+      "anio_hasta": 1963,
+      "aprox": false,
+      "lugar": "Bonn",
+      "lon": 7.102,
+      "lat": 50.735,
+      "tipo": "economico",
+      "resumen": "La economía social de mercado, término que Alfred Müller-Armack acuñó en 1946, combina un sistema capitalista de libre mercado con políticas sociales y la regulación necesaria para una competencia justa. La Unión Demócrata Cristiana la impulsó y aplicó en Alemania Occidental desde 1949, bajo el canciller Konrad Adenauer, con raíces en la escuela de Friburgo y el ordoliberalismo de Walter Eucken y Franz Böhm, que a diferencia de los liberales clásicos defiende un Estado fuerte que garantice la competencia. Ludwig Erhard, que en junio de 1948 había abolido el control de precios al introducirse el marco alemán, fue ministro de Economía durante catorce años; él veía al mercado mismo como social y apoyaba solo un mínimo de legislación de bienestar. El modelo salió del ordoliberalismo pero no es idéntico a la escuela de Friburgo: Müller-Armack le daba al Estado un papel social activo.",
+      "regiones": [
+        "alemania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Economía social de mercado",
+        "en": "Social market economy"
+      }
+    },
+    {
+      "id": "sistema-monetario-europeo",
+      "titulo": "Sistema Monetario Europeo",
+      "anio": 1979,
+      "anio_hasta": 1999,
+      "aprox": false,
+      "lugar": "Bruselas",
+      "lon": 4.353,
+      "lat": 50.847,
+      "tipo": "economico",
+      "resumen": "Acuerdo de tipos de cambio ajustables entre monedas de la Comunidad Económica Europea que el presidente francés Giscard d'Estaing y el canciller alemán Helmut Schmidt impulsaron en Bruselas el 5 de diciembre de 1978. Entró en vigor el 13 de marzo de 1979 con ocho miembros y creó el Mecanismo de Tipos de Cambio y la unidad de cuenta ECU. Ninguna moneda era el ancla oficial, pero de hecho lo fueron el marco y el banco central alemán, como el dólar en Bretton Woods; Axel Weber sostuvo en 1991 que funcionaba como una zona del marco. En septiembre de 1992 la libra y la lira dejaron el mecanismo tras una ola especulativa, y en agosto de 1993 las bandas se ampliaron del 2,25 % al 15 %. Duró hasta 1999, cuando lo sucedió la unión económica y monetaria con el euro.",
+      "regiones": [
+        "alemania",
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Sistema Monetario Europeo",
+        "en": "European Monetary System"
+      }
+    },
+    {
+      "id": "reforma-arancelaria-britanica",
+      "titulo": "Campaña de la reforma arancelaria en el Reino Unido",
+      "anio": 1903,
+      "anio_hasta": 1906,
+      "aprox": false,
+      "lugar": "Londres",
+      "lon": -0.128,
+      "lat": 51.507,
+      "tipo": "economico",
+      "resumen": "Joseph Chamberlain renunció al gobierno de Balfour en septiembre de 1903 para hacer campaña por aranceles a las importaciones, como los de Alemania y Estados Unidos, y por una preferencia imperial que convirtiera al Imperio británico en un bloque comercial; con lo recaudado se financiarían reformas sociales. La Liga de la Reforma Arancelaria, de 1903, llegó a unos 250.000 miembros en 1914, y su Comisión Arancelaria tuvo como secretario al economista William Hewins. Sus opositores sostenían que la protección encarecería los alimentos, en especial el pan. Dividió a los conservadores y fue un factor de su derrota de 1906 ante los liberales, partidarios del libre comercio.",
+      "regiones": [
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Tariff Reform League"
+      }
+    },
+    {
+      "id": "debate-proteccionista-de-1875",
+      "titulo": "Ley de Aduanas y debate proteccionista de 1875",
+      "anio": 1875,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "economico",
+      "resumen": "Para afrontar el déficit presupuestario y la deuda de la guerra de la Triple Alianza, el gobierno de Nicolás Avellaneda sancionó a comienzos de 1875 una Ley de Aduanas que aumentó los derechos de importación de los productos industriales. A lo largo de 1875 una fracción del autonomismo, con Dardo Rocha, Miguel Cané, Carlos Pellegrini y Vicente Fidel López, propuso en debates parlamentarios alguna forma de proteccionismo para industrializar el país y dejar de depender de exportar bienes primarios e importar manufacturas. Sus propuestas tuvieron acogida en la prensa y se dejaron de lado a medida que la crisis se resolvía.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "nacionalismo-y-liberalismo-economicos"
+      ],
+      "wikipedia": {
+        "es": "Nicolás Avellaneda",
+        "en": "Nicolás Avellaneda"
+      }
+    },
+    {
+      "id": "caja-de-conversion",
+      "titulo": "La Caja de Conversión y el patrón oro",
+      "anio": 1890,
+      "anio_hasta": 1914,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "economico",
+      "resumen": "La Ley 2741 de 1890 creó la Caja de Conversión, antecesora del Banco Central, para organizar la emisión con independencia del gobierno; en 1895 emitió los primeros billetes de peso moneda nacional y prohibió las emisiones particulares o provinciales. La crisis de 1890 había llevado el cambio de 1 peso papel por peso oro, en 1884, a 3,87 en 1891; en 1899 se fijó en 2,27 pesos papel por peso oro y la Caja pasó a entregar billetes solo a cambio de oro. La conversión se suspendió en 1914, al estallar la Primera Guerra Mundial, volvió a regir entre 1927 y 1929, y en 1935 la reemplazó el Banco Central.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [
+        "ley-de-conversion-1899"
+      ],
+      "wikipedia": {
+        "es": "Caja de Conversión (Argentina)",
+        "en": "Caja de conversión"
       }
     }
   ],
