@@ -17123,6 +17123,110 @@
         "en": "Magnus Lagabøtes landslov"
       },
       "confianza": "media"
+    },
+    {
+      "id": "sermon-contra-los-herejes",
+      "titulo": "Sermón contra los herejes",
+      "titulo_original": null,
+      "autor": "Cosmas el Presbítero",
+      "autor_id": "cosmas-el-presbitero",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 970,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 927,
+        "hasta": 969
+      },
+      "idioma_original": "Eslavo eclesiástico antiguo",
+      "soporte": "Manuscritos",
+      "resumen": "Tratado del presbítero Cosmas contra la herejía bogomil, a la que llama «recién aparecida», que describe sus creencias y critica a la vez la conducta del clero ortodoxo búlgaro. Se conserva en 25 copias completas, todas de fuentes eslavas orientales, y en más de cien extractos; la más antigua que se conoce es del siglo XV.",
+      "por_que_importa": "Es el testimonio búlgaro más cercano a los comienzos del bogomilismo y una fuente sobre la sociedad búlgara medieval. No trae fecha: casi todos los estudiosos lo ubican en la segunda mitad del siglo X, pero hay quien lo lleva al XI o al XIII.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Cosmas the Priest"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "inscripcion-de-tarnovo-de-ivan-asen-ii",
+      "titulo": "Inscripción de Iván Asen II en la iglesia de los Cuarenta Mártires de Tarnovo",
+      "titulo_original": null,
+      "autor": "Iván Asen II de Bulgaria",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 1230,
+        "aprox": false,
+        "lugar": "Tarnovo",
+        "lon": 25.628,
+        "lat": 43.079
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1230,
+        "hasta": 1230
+      },
+      "idioma_original": "Búlgaro medio",
+      "soporte": "Columna de mármol con texto grabado",
+      "resumen": "Inscripción grabada en una columna de la iglesia de los Cuarenta Mártires de Veliko Tarnovo, que el zar mandó levantar y decorar. Dice que en el año 6738 del mundo (1230) venció al ejército griego, tomó prisionero al zar Teodoro Comneno con sus boyardos y conquistó su territorio desde Adrianópolis hasta Dirraquio, incluidas tierras griegas, albanesas y serbias.",
+      "por_que_importa": "Es el testimonio más exacto del resultado de la batalla de Klokotnitsa y de sus consecuencias, y un documento de cómo el soberano búlgaro presentaba su victoria.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Iglesia de los Cuarenta Mártires",
+        "en": "Holy Forty Martyrs Church, Veliko Tarnovo"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vida-de-san-sava",
+      "titulo": "Vida de san Sava",
+      "titulo_original": "Живот светог Саве",
+      "autor": "Domentijan",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1253,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1219,
+        "hasta": 1219
+      },
+      "idioma_original": "Eslavo eclesiástico serbio",
+      "soporte": "Manuscritos",
+      "resumen": "Hagiografía de Sava, primer arzobispo de Serbia, escrita por el monje Domentijan en 1253. Cuenta el viaje de Sava a Nicea y su consagración.",
+      "por_que_importa": "Es la fuente primaria de la autocefalia de la Iglesia serbia, escrita por un monje que la narra desde el lado de la Iglesia serbia.",
+      "leer": [
+        {
+          "titulo": "Edición de Đura Daničić (Belgrado, 1865) en Internet Archive",
+          "url": "https://archive.org/details/DomentijanZivotSv.SimeonaISv.SaveUredioDjuraDanicic",
+          "idioma": "sr",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducción francesa de Chodźko (1858) en Internet Archive",
+          "url": "https://archive.org/details/lesnmaniaviesde00chodgoog",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Domentijan"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -17160,7 +17264,8 @@
       "obras": [
         "confesiones",
         "ciudad-de-dios",
-        "regla-de-san-agustin"
+        "regla-de-san-agustin",
+        "breviculus-collationis-cum-donatistis"
       ],
       "wikipedia": {
         "es": "Agustín de Hipona",
@@ -26616,6 +26721,28 @@
         "en": "Hisham II of Córdoba"
       },
       "wikidata": "Q169640"
+    },
+    {
+      "id": "cosmas-el-presbitero",
+      "nombre": "Cosmas el Presbítero",
+      "activo": {
+        "lugar": "Bulgaria",
+        "desde": 950,
+        "hasta": 1000,
+        "aprox": true
+      },
+      "roles": [
+        "escritor",
+        "teólogo"
+      ],
+      "resumen": "Sacerdote búlgaro autor del Sermón contra los herejes, la principal fuente sobre los comienzos del bogomilismo. La fecha de su vida es discutida: la mayoría de los estudiosos lo sitúan a mediados o en la segunda mitad del siglo X, y algunos en el XI o incluso a principios del XIII. Criticó también a la alta jerarquía eclesiástica búlgara.",
+      "obras": [
+        "sermon-contra-los-herejes"
+      ],
+      "wikipedia": {
+        "en": "Cosmas the Priest"
+      },
+      "wikidata": "Q152250"
     }
   ],
   "hechos": [
@@ -29950,6 +30077,72 @@
       "wikipedia": {
         "es": "Arquidiócesis de Nidaros",
         "en": "Roman Catholic Archdiocese of Nidaros"
+      }
+    },
+    {
+      "id": "surgimiento-del-bogomilismo",
+      "titulo": "Surgimiento del bogomilismo",
+      "anio": 927,
+      "anio_hasta": 969,
+      "aprox": true,
+      "lugar": "Ohrid",
+      "lon": 20.802,
+      "lat": 41.117,
+      "tipo": "religioso",
+      "resumen": "Bajo el zar Pedro I (927-969) surgió en el Primer Imperio búlgaro, probablemente en la región de Macedonia, una secta cristiana dualista que, según la tradición, fundó un sacerdote llamado Bogomil. Rechazaba la jerarquía eclesiástica, el culto de la cruz y los templos, y sostenía que la materia era obra del diablo. Se la conoce sobre todo por sus adversarios, como el presbítero Cosmas; se extendió luego por Bizancio, Serbia y Bosnia, y se le atribuye influencia sobre los cátaros de Italia y Francia.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [
+        "sermon-contra-los-herejes"
+      ],
+      "wikipedia": {
+        "es": "Bogomilos",
+        "en": "Bogomilism"
+      }
+    },
+    {
+      "id": "batalla-de-klokotnitsa-1230",
+      "titulo": "Batalla de Klokotnitsa",
+      "anio": 1230,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Klokotnitsa",
+      "lon": 25.5,
+      "lat": 41.983,
+      "tipo": "batalla",
+      "resumen": "El 9 de marzo de 1230 el zar búlgaro Iván Asen II derrotó cerca de Klokotnitsa a Teodoro Comneno Ducas, emperador de Tesalónica y señor de Epiro, que había invadido Bulgaria rompiendo un tratado, y lo tomó prisionero. Bulgaria recuperó Tracia y Macedonia y quedó como la mayor potencia de los Balcanes; Tesalónica quedó como vasalla de Bulgaria bajo Manuel, hermano de Teodoro; tras la muerte de Iván Asen II (1241) ese vasallaje cesó y Bulgaria decayó. Su fuente principal es la inscripción que el propio zar mandó grabar en la iglesia de los Cuarenta Mártires de Tarnovo.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [
+        "inscripcion-de-tarnovo-de-ivan-asen-ii"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Klokotnitsa",
+        "en": "Battle of Klokotnitsa"
+      }
+    },
+    {
+      "id": "autocefalia-de-la-iglesia-serbia",
+      "titulo": "Autocefalia de la Iglesia ortodoxa serbia",
+      "anio": 1219,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Monasterio de Žiča",
+      "lon": 20.646,
+      "lat": 43.696,
+      "tipo": "religioso",
+      "resumen": "En 1219 Sava, hijo del gran príncipe Stefan Nemanja y monje del Monte Athos, fue consagrado primer arzobispo de Serbia, con sede en Žiča, y la Iglesia serbia obtuvo la autocefalia del patriarca ecuménico exiliado en Nicea, Manuel I. El mismo año Sava promulgó el Zakonopravilo, un nomocanon que dio base canónica y legal a la Iglesia y al reino. Hasta entonces las diócesis serbias dependían del arzobispado de Ohrid.",
+      "regiones": [
+        "balcanes"
+      ],
+      "fuentes": [
+        "vida-de-san-sava"
+      ],
+      "wikipedia": {
+        "es": "Iglesia ortodoxa serbia",
+        "en": "Serbian Orthodox Church"
       }
     }
   ],

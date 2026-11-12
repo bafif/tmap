@@ -11816,6 +11816,352 @@
         "en": "Arab Peace Initiative"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "epistolas-de-la-sabiduria",
+      "titulo": "Epístolas de la Sabiduría",
+      "titulo_original": "رسائل الحكمة",
+      "autor": "Hamza ibn Ali, al-Muqtana Baha al-Din y otros maestros drusos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1017,
+        "anio_hasta": 1042,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "siria",
+          "libano"
+        ],
+        "desde": 1017,
+        "hasta": 1042
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscritos",
+      "resumen": "Corpus de 111 epístolas, el texto sagrado de los drusos, organizado en seis libros por Abd Allah al-Tanukhi en 1479. La más antigua (n.º 6) es de julio de 1017, de Hamza ibn Ali, a quien se atribuyen otras treinta; las n.º 109 y 110, de al-Muqtana Baha al-Din, son de 1042. Giran en torno al reconocimiento de al-Hakim como la última manifestación (tajallī) del Dios único (tawhid) en forma humana.",
+      "por_que_importa": "Es la fuente de la doctrina drusa y del relato de sus orígenes. Los iniciados (uqqal) guardan su estudio y su lectura, y su lenguaje es cifrado.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Epístolas de Sabiduría",
+        "en": "Epistles of Wisdom"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "decreto-cremieux",
+      "titulo": "Decreto Crémieux (decreto n.º 136 del Gobierno de Defensa Nacional)",
+      "titulo_original": "Décret Crémieux",
+      "autor": "Gobierno de Defensa Nacional de Francia (Adolphe Crémieux, Léon Gambetta, Alexandre Glais-Bizoin y Léon Fourichon)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Tours",
+        "lon": 0.688,
+        "lat": 47.393
+      },
+      "trata": {
+        "regiones": [
+          "magreb"
+        ],
+        "desde": 1870,
+        "hasta": 1870
+      },
+      "idioma_original": "Francés",
+      "soporte": "Decreto, publicado en el Boletín Oficial de Tours el 7 de noviembre de 1870",
+      "resumen": "Decreto del 24 de octubre de 1870 que declara ciudadanos franceses a los israelitas «indígenas» de los departamentos de Argelia. El decreto n.º 137, del mismo día, mantuvo para los musulmanes y los extranjeros la naturalización individual, a pedido y desde los 21 años, como el senadoconsulto de 1865; los musulmanes siguieron bajo el régimen del indigenato, que en Argelia se fijó por ley en 1881.",
+      "por_que_importa": "Separó los estatutos de las dos comunidades y cambió la relación entre los judíos argelinos, Francia y sus vecinos musulmanes; Vichy lo anuló en 1940 y se restableció en 1943.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Decreto Crémieux",
+        "en": "Crémieux Decree"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "saturnales-de-macrobio",
+      "titulo": "Saturnales",
+      "titulo_original": "Saturnalia",
+      "autor": "Macrobio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 430,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "levante"
+        ],
+        "desde": 115,
+        "hasta": 115
+      },
+      "idioma_original": "Latín",
+      "soporte": "Manuscritos",
+      "resumen": "Diálogo en siete libros sobre la religión y la erudición romanas, escrito hacia 430. En el libro I, capítulo 23, describe el culto de Júpiter Heliopolitano de Baalbek y cuenta que Trajano consultó su oráculo antes de la campaña contra los partos.",
+      "por_que_importa": "Es una de las pocas descripciones antiguas del culto del santuario y de su oráculo, y de su consulta por un emperador.",
+      "leer": [
+        {
+          "titulo": "Texto latino del libro I en LacusCurtius (el pasaje de Trajano, I 23, 14-16)",
+          "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/1*.html",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-de-agradecimiento-a-origenes",
+      "titulo": "Discurso de agradecimiento a Orígenes",
+      "titulo_original": "Oratio panegyrica in Originem",
+      "autor": "Gregorio Taumaturgo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 238,
+        "anio_hasta": 239,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "levante"
+        ],
+        "desde": 238,
+        "hasta": 239
+      },
+      "idioma_original": "Griego",
+      "soporte": "Manuscritos",
+      "resumen": "Discurso que Gregorio Taumaturgo pronunció al despedirse de su maestro Orígenes. Trae la primera mención escrita de la escuela de derecho de Berito.",
+      "por_que_importa": "Es la primera mención escrita de la escuela de Berito.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de S. D. F. Salmond (Ante-Nicene Fathers 6) en New Advent",
+          "url": "https://www.newadvent.org/fathers/0604.htm",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Gregorio Taumaturgo",
+        "en": "Gregory Thaumaturgus"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "breviculus-collationis-cum-donatistis",
+      "titulo": "Resumen de la conferencia con los donatistas",
+      "titulo_original": "Breviculus collationis cum Donatistis",
+      "autor": "Agustín de Hipona",
+      "autor_id": "agustin-de-hipona",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 411,
+        "anio_hasta": 412,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "magreb"
+        ],
+        "desde": 411,
+        "hasta": 411
+      },
+      "idioma_original": "Latín",
+      "soporte": "Manuscritos",
+      "resumen": "Resumen que Agustín de Hipona redactó de las actas de la conferencia de Cartago del año 411 entre obispos católicos y donatistas. Presenta el debate desde el lado católico.",
+      "por_que_importa": "Es el relato de la conferencia de un participante de uno de los dos bandos; las actas completas (Gesta collationis Carthaginiensis) no tienen copia libre.",
+      "leer": [
+        {
+          "titulo": "Texto latino (ed. Migne) en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Breviculus_collationis_cum_Donatistis_(ed._Migne)",
+          "idioma": "la",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "CSEL 53 (Petschenig, 1910), con el Breviculus, en Internet Archive",
+          "url": "https://archive.org/details/corpscriptecclat53",
+          "idioma": "la",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "tarij-al-amir-fakhr-al-din",
+      "titulo": "Historia del emir Fakhr al-Din al-Ma'ni",
+      "titulo_original": "تاريخ الأمير فخر الدين المعني",
+      "autor": "Ahmad al-Khalidi al-Safadi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1624,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "siria"
+        ],
+        "desde": 1591,
+        "hasta": 1624
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscritos",
+      "resumen": "Crónica de la vida del emir druso Fakhr al-Din II por su historiador de corte, que llega hasta 1624. Hay edición de Rustum y Bustani (1936), sin copia libre.",
+      "por_que_importa": "Es el relato de un cortesano del emir, a favor de su señor.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "istoria-di-faccardino",
+      "titulo": "Istoria di Faccardino grand-emir dei Drusi",
+      "titulo_original": "Istoria di Faccardino grand-emir dei Drusi",
+      "autor": "Giovanni Mariti",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Livorno",
+        "lon": 10.317,
+        "lat": 43.55
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "siria"
+        ],
+        "desde": 1591,
+        "hasta": 1635
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro impreso",
+      "resumen": "Historia del emir Fakhr al-Din II publicada en Livorno en 1787 por Giovanni Mariti. Es una obra europea del siglo XVIII, anterior a los estudios modernos.",
+      "por_que_importa": "Es una fuente antigua, de dominio público, sobre la figura del emir en Europa.",
+      "leer": [
+        {
+          "titulo": "Istoria di Faccardino (Livorno, 1787) en Internet Archive",
+          "url": "https://archive.org/details/bub_gb_3mlRWdd7JKcC",
+          "idioma": "it",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-los-wahabis",
+      "titulo": "Historia de los wahabíes desde su origen hasta fines de 1809",
+      "titulo_original": "Histoire des Wahabis depuis leur origine jusqu'à la fin de 1809",
+      "autor": "Louis-Alexandre Olivier de Corancez",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1810,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "arabia",
+          "mesopotamia"
+        ],
+        "desde": 1802,
+        "hasta": 1802
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro impreso",
+      "resumen": "Obra del cónsul francés Corancez. El capítulo III cuenta la toma de Kerbala por los wahabíes, a los que presenta con hostilidad: la llama «el exceso más violento al que el fanatismo haya llegado jamás».",
+      "por_que_importa": "Es un testimonio contemporáneo europeo y hostil a los wahabíes; los orientalistas que fechan el ataque en 1801 lo siguen a él y a Rousseau.",
+      "leer": [
+        {
+          "titulo": "Histoire des Wahabis (París, 1810) en Internet Archive",
+          "url": "https://archive.org/details/histoiredeswaha00coragoog",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "descripcion-del-pachalik-de-bagdad",
+      "titulo": "Descripción del pachalik de Bagdad",
+      "titulo_original": "Description du pachalik de Bagdad",
+      "autor": "Jean-Baptiste Rousseau",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "geografia",
+      "escrita": {
+        "anio": 1809,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "arabia"
+        ],
+        "desde": 1802,
+        "hasta": 1802
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro impreso",
+      "resumen": "Descripción del pachalik de Bagdad por el cónsul francés Jean-Baptiste Rousseau, que da cifras del ataque wahabí a Kerbala.",
+      "por_que_importa": "Es el origen de la cifra de unos 12.000 atacantes.",
+      "leer": [
+        {
+          "titulo": "Description du pachalik de Bagdad (1809) en Internet Archive",
+          "url": "https://archive.org/details/india.history.resource.53341",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "unwan-al-majd",
+      "titulo": "El emblema de la gloria en la historia de Néyed",
+      "titulo_original": "عنوان المجد في تاريخ نجد",
+      "autor": "Uthman ibn Bishr",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1850,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "arabia"
+        ],
+        "desde": 1802,
+        "hasta": 1802
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Manuscritos",
+      "resumen": "Crónica de Néyed del siglo XIX, escrita por el cronista de Néyed Uthman ibn Bishr; cuenta el ataque a Kerbala desde el lado wahabí y fecha el hecho el 21 de abril de 1802.",
+      "por_que_importa": "Es la versión wahabí del ataque, frente a las de Rousseau y Corancez.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -23989,6 +24335,334 @@
       "wikipedia": {
         "es": "Toma de Bagdad (1638)",
         "en": "Siege of Baghdad (1638)"
+      }
+    },
+    {
+      "id": "batalla-de-panion",
+      "titulo": "Batalla de Panion",
+      "anio": -200,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Banias (Paneas)",
+      "lon": 35.694,
+      "lat": 33.247,
+      "tipo": "batalla",
+      "resumen": "Antíoco III de los seléucidas venció junto a Paneas, al pie del Hermón, al ejército ptolemaico de Escopas, que se refugió en Sidón. Los últimos focos ptolemaicos de Celesiria y Fenicia se rindieron hasta 198 a. C., y la región pasó de Egipto a los seléucidas. En 167 a. C. Antíoco IV prohibió el culto judío, lo que desencadenó la revuelta macabea, según 1 Macabeos; los historiadores discuten cuánto pesó la política seléucida y cuánto el conflicto entre judíos helenizantes y tradicionalistas.",
+      "regiones": [
+        "siria",
+        "levante",
+        "tierra-santa",
+        "libano"
+      ],
+      "fuentes": [
+        "historias-polibio",
+        "antiguedades-judias"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Panio",
+        "en": "Battle of Panium"
+      }
+    },
+    {
+      "id": "santuario-de-jupiter-en-heliopolis",
+      "titulo": "Santuario de Júpiter Heliopolitano en Baalbek",
+      "anio": -15,
+      "anio_hasta": 60,
+      "aprox": true,
+      "lugar": "Baalbek",
+      "lon": 36.209,
+      "lat": 34.006,
+      "tipo": "construccion",
+      "resumen": "Baalbek, la Heliópolis romana, hacia 15 a. C. pasó a formar parte del territorio de la colonia romana de Berito, y fue colonia aparte (Colonia Iulia Augusta Felix Heliopolitana) recién con Septimio Severo. Poco después de aquel año se levantó sobre un culto anterior de Baal Hadad el templo de Júpiter Heliopolitano, uno de los mayores templos del mundo romano, con las columnas más altas de la arquitectura clásica (19,9 m), en lo esencial terminado hacia el año 60 según un grafito en un tambor de columna. Juan Malalas, en el siglo VI, lo atribuía a Antonino Pío (138-161), y el complejo siguió ampliándose durante unos tres siglos. Los emperadores consultaban su oráculo; Trajano lo hizo hacia 115.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [
+        "saturnales-de-macrobio"
+      ],
+      "wikipedia": {
+        "es": "Templo de Júpiter (Baalbek)",
+        "en": "Temple of Jupiter (Baalbek)"
+      }
+    },
+    {
+      "id": "escuela-de-derecho-de-berito",
+      "titulo": "Escuela de derecho de Berito",
+      "anio": 239,
+      "anio_hasta": 551,
+      "aprox": false,
+      "lugar": "Beirut",
+      "lon": 35.513,
+      "lat": 33.887,
+      "tipo": "cultural",
+      "resumen": "Centro de estudio del derecho romano en Berito (Beirut), colonia romana desde Augusto. Su origen es oscuro, y se lo atribuye a Augusto o a Alejandro Severo; la primera mención escrita es de 239, en la obra de Gregorio Taumaturgo. Fue la principal escuela de jurisprudencia del Imperio hasta que el terremoto de 551 la destruyó; pasó entonces a Sidón y no sobrevivió a la conquista árabe.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [
+        "corpus-iuris-civilis",
+        "discurso-de-agradecimiento-a-origenes"
+      ],
+      "wikipedia": {
+        "en": "Law school of Berytus"
+      }
+    },
+    {
+      "id": "cristianizacion-de-heliopolis",
+      "titulo": "Cristianización del santuario de Heliópolis (Baalbek)",
+      "anio": 330,
+      "anio_hasta": 395,
+      "aprox": true,
+      "lugar": "Baalbek",
+      "lon": 36.209,
+      "lat": 34.006,
+      "tipo": "religioso",
+      "resumen": "En la Heliópolis fenicia, ciudad pagana, Constantino hizo levantar una iglesia y se creó un obispado, según Eusebio de Cesarea. Los paganos respondieron a las medidas de Constantino con violencias contra vírgenes cristianas, y bajo Juliano (361-363) mataron al diácono Cirilo, según los historiadores eclesiásticos Sozomeno y Teodoreto. El templo de Júpiter, ya dañado por terremotos, se desmanteló bajo Teodosio I (379-395) y con sus piedras se levantó una basílica; la Crónica Pascual le atribuye también la destrucción de los santuarios menores.",
+      "regiones": [
+        "libano",
+        "levante"
+      ],
+      "fuentes": [
+        "vida-de-constantino"
+      ],
+      "wikipedia": {
+        "es": "Baalbek",
+        "en": "Baalbek"
+      }
+    },
+    {
+      "id": "conferencia-de-cartago-411",
+      "titulo": "Conferencia de Cartago contra los donatistas",
+      "anio": 411,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cartago",
+      "lon": 10.323,
+      "lat": 36.853,
+      "tipo": "religioso",
+      "resumen": "Reunida por orden del emperador Honorio para terminar con el cisma donatista, la presidió el tribuno y notario imperial Flavio Marcelino, un laico amigo de Agustín, que falló a favor de los católicos, con Agustín de Hipona como principal defensor de su postura. Los donatistas sostenían que los sacramentos de un clérigo indigno no valían; fueron declarados herejes, y un edicto de Honorio de enero de 412 (Código Teodosiano XVI 5, 52) les impuso multas y les quitó las iglesias; Agustín protestó por la dureza del trato.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [
+        "breviculus-collationis-cum-donatistis"
+      ],
+      "wikipedia": {
+        "es": "Concilios de Cartago",
+        "en": "Councils of Carthage"
+      }
+    },
+    {
+      "id": "eleccion-de-juan-maron",
+      "titulo": "Juan Marón, primer patriarca maronita",
+      "anio": 685,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Batrún",
+      "lon": 35.659,
+      "lat": 34.255,
+      "tipo": "religioso",
+      "resumen": "Según la tradición maronita, tras la conquista islámica los obispos del monasterio de San Marón eligieron en 685 a Juan Marón patriarca de Antioquía; otras versiones lo fechan entre 687 y 701, y algunos estudiosos dudan de que haya existido. Se instaló en el valle de Qadisha y murió en 707. De él arranca el patriarcado de la Iglesia maronita, la mayor comunidad cristiana del Monte Líbano. No hay fuente contemporánea: se la conoce por la tradición maronita, fijada por escrito siglos después.",
+      "regiones": [
+        "libano",
+        "levante",
+        "siria"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Juan Marón",
+        "en": "John Maron"
+      }
+    },
+    {
+      "id": "origen-de-la-fe-drusa",
+      "titulo": "Origen de la fe drusa",
+      "anio": 1017,
+      "anio_hasta": 1043,
+      "aprox": false,
+      "lugar": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "tipo": "religioso",
+      "resumen": "En el Egipto del califa fatimí al-Hakim, el predicador Hamza ibn Ali proclamó en 1017 la doctrina unitaria (muwahhidun) de los drusos, cuyo nombre viene de ad-Darazi, un predicador que ellos consideran hereje y que murió en 1018, asesinado o, según otras fuentes, ejecutado por orden de al-Hakim. Tras la desaparición de al-Hakim (1021), la regente Sitt al-Mulk, en nombre del joven califa al-Zahir, ordenó perseguirlos en 1021; la persecución duró hasta 1026, con matanzas en Antioquía, Alepo y Alejandría según la memoria drusa. En 1043 Baha al-Din al-Muqtana cerró la prédica: desde entonces no se aceptan nuevos adeptos. El Wadi al-Taym, en el Líbano, fue uno de sus dos principales centros misioneros del siglo XI y el primer lugar donde aparecen con el nombre de drusos.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto",
+        "libano",
+        "siria"
+      ],
+      "fuentes": [
+        "epistolas-de-la-sabiduria"
+      ],
+      "wikipedia": {
+        "es": "Pueblo druso",
+        "en": "Druze"
+      }
+    },
+    {
+      "id": "terremoto-de-749",
+      "titulo": "Terremoto de 749",
+      "anio": 747,
+      "anio_hasta": 749,
+      "aprox": false,
+      "lugar": "Tiberíades",
+      "lon": 35.525,
+      "lat": 32.79,
+      "tipo": "desastre",
+      "resumen": "El 18 de enero de 749, según las fuentes hebreas, un terremoto con epicentro en Galilea destruyó en gran parte Tiberíades, Beit Shean, Pella, Gadara e Hipos, y dañó Jerash, Jerusalén (con la mezquita de al-Aqsa) y muchas otras ciudades; se calculan decenas de miles de muertos. Las fuentes dan varias fechas, y hoy se piensa que pudieron ser dos o más sismos entre 747 y 749, fundidos en un relato. Teófanes cuenta uno de enero de 747 en Palestina, junto al Jordán.",
+      "regiones": [
+        "tierra-santa",
+        "levante",
+        "transjordania"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Terremoto de Golán de 749",
+        "en": "749 Galilee earthquake"
+      }
+    },
+    {
+      "id": "abasies-en-humayma",
+      "titulo": "Los abasíes en Humayma y la Hashimiyya",
+      "anio": 716,
+      "anio_hasta": 749,
+      "aprox": false,
+      "lugar": "Humayma",
+      "lon": 35.347,
+      "lat": 29.95,
+      "tipo": "politico",
+      "resumen": "Humayma, en el sur de Transjordania, fue el lugar donde se estableció la familia abasí, descendiente de al-Abbas, tío de Mahoma; la fecha de su asentamiento no es segura, y algunas tradiciones la llevan al reinado de al-Walid I. Según la tradición abasí, allí Abu Hashim legó en 716-717 el liderazgo de la Hashimiyya a Muhammad ibn Ali, y el imán abasí permaneció oculto en Humayma mientras la Hashimiyya predicaba en Jorasán en nombre de un miembro de la «Familia del Profeta»; en 749 los omeyas se llevaron de allí al imán Ibrahim, que murió preso. Los tres primeros califas abasíes (as-Saffah, al-Mansur y al-Mahdi) nacieron en Humayma.",
+      "regiones": [
+        "transjordania",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-al-tabari"
+      ],
+      "wikipedia": {
+        "en": "Humayma"
+      }
+    },
+    {
+      "id": "an-nasir-muhammad-en-kerak",
+      "titulo": "An-Nasir Muhammad en Kerak",
+      "anio": 1309,
+      "anio_hasta": 1310,
+      "aprox": false,
+      "lugar": "Kerak",
+      "lon": 35.701,
+      "lat": 31.181,
+      "tipo": "politico",
+      "resumen": "Depuesto en 1294 siendo niño, el sultán mameluco an-Nasir Muhammad fue enviado a Kerak y de allí lo llamaron en 1299. En 1309, harto de la tutela de los emires Baibars al-Jashnakir y Salar, dijo que iba a peregrinar a La Meca y se retiró a la fortaleza de Kerak, que controlaba la ruta de Damasco a Egipto y la del Hach, y puso así fin a su segundo reinado. Desde allí buscó apoyo en los gobernadores de Siria y recuperó el trono en 1310.",
+      "regiones": [
+        "transjordania",
+        "levante",
+        "tierra-santa"
+      ],
+      "fuentes": [
+        "historia-de-abulfeda",
+        "suluk-de-al-maqrizi"
+      ],
+      "wikipedia": {
+        "es": "An-Nassir Muhammad",
+        "en": "Al-Nasir Muhammad"
+      }
+    },
+    {
+      "id": "fortines-otomanos-del-hach",
+      "titulo": "Fortines otomanos del camino del Hach sirio",
+      "anio": 1517,
+      "anio_hasta": 1563,
+      "aprox": false,
+      "lugar": "Ma'an",
+      "lon": 35.733,
+      "lat": 30.193,
+      "tipo": "construccion",
+      "resumen": "Tras conquistar la región en 1517, los otomanos asumieron la protección de la caravana anual de peregrinos de Damasco a La Meca y Medina: pagaron a los beduinos para que no la asaltaran y levantaron fortines en las aguadas y paradas del camino. Selim I construyó los de la región del Haurán; hacia 1563 había otros en el sur de Transjordania y el norte del Hiyaz, entre ellos al-Qatrana, Ma'an (1559, con Solimán I) y Tabuk.",
+      "regiones": [
+        "transjordania",
+        "levante",
+        "arabia",
+        "siria"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "History of the Hajj"
+      }
+    },
+    {
+      "id": "fakhr-al-din-ii-y-el-emirato-del-libano",
+      "titulo": "Fakhr al-Din II, emir druso y gobernador otomano",
+      "anio": 1591,
+      "anio_hasta": 1635,
+      "aprox": false,
+      "lugar": "Sidón",
+      "lon": 35.376,
+      "lat": 33.561,
+      "tipo": "politico",
+      "resumen": "Emir druso de la dinastía Ma'n, heredó el Chouf en 1591 y fue gobernador otomano de Sidón-Beirut y de Safed. Tras huir a Toscana y Sicilia en 1613 y volver en 1618, venció al gobernador de Damasco en Anjar (1623) y dominó buena parte del Levante hasta 1633. Abrió sus puertos al comercio europeo y los cristianos prosperaron bajo su gobierno. Para eliminarlo, el gobierno otomano envió al visir Küçük Ahmed Pasha; capturado en 1633, fue decapitado en Constantinopla en marzo o abril de 1635 por orden de Murad IV. Su «emirato» era un conjunto de arriendos de impuestos y gobernaciones de sanjak. Desde 1920 la escuela libanesa lo enseña como fundador del país; Kamal Salibi ve su único legado duradero en la alianza, frágil, entre drusos y maronitas; los historiadores drusos y los maronitas lo interpretan de maneras opuestas, y para el gobierno otomano era un rebelde (así lo llama el tribunal de Damasco en 1634).",
+      "regiones": [
+        "libano",
+        "levante",
+        "siria"
+      ],
+      "fuentes": [
+        "tarij-al-amir-fakhr-al-din",
+        "istoria-di-faccardino"
+      ],
+      "wikipedia": {
+        "en": "Fakhr al-Din II"
+      }
+    },
+    {
+      "id": "decreto-cremieux-hecho",
+      "titulo": "Decreto Crémieux",
+      "anio": 1870,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Argel",
+      "lon": 3.059,
+      "lat": 36.776,
+      "tipo": "politico",
+      "resumen": "El 24 de octubre de 1870, la delegación del Gobierno de Defensa Nacional en Tours (París estaba sitiado durante la guerra franco-prusiana) dio la ciudadanía francesa a unos 35.000 judíos nativos de Argelia; los musulmanes siguieron bajo el estatuto de indígenas, y los judíos del Mzab no la recibieron hasta 1961. El régimen de Vichy lo derogó en 1940 y se restableció en 1943. Al independizarse Argelia en 1962, más del 80 % de los judíos argelinos emigró a Francia.",
+      "regiones": [
+        "magreb"
+      ],
+      "fuentes": [
+        "decreto-cremieux"
+      ],
+      "wikipedia": {
+        "es": "Decreto Crémieux",
+        "en": "Crémieux Decree"
+      }
+    },
+    {
+      "id": "saqueo-wahabi-de-karbala",
+      "titulo": "Saqueo wahabí de Kerbala",
+      "anio": 1802,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Kerbala",
+      "lon": 44.033,
+      "lat": 32.617,
+      "tipo": "desastre",
+      "resumen": "El 21 de abril de 1802 (18 de dhu l-hiyya de 1216) según el cronista de Néyed Ibn Bishr; la mayoría de los orientalistas europeos y rusos, siguiendo a Rousseau, Corancez, Burckhardt y Mengin, lo fechan en 1801. Según el cónsul francés Rousseau, unos 12.000 wahabíes de Néyed, bajo Saud ibn Abd al-Aziz, atacaron Kerbala, ciudad chiita del Irak otomano. Mataron entre 2.000 y 5.000 personas y saquearon el santuario de Husayn, cuya cúpula destruyeron. Los wahabíes condenaban como idolatría (shirk) la veneración de tumbas, y el ataque respondía además a asaltos de tribus iraquíes a caravanas del Hach, y la guarnición otomana huyó.",
+      "regiones": [
+        "mesopotamia",
+        "arabia"
+      ],
+      "fuentes": [
+        "historia-de-los-wahabis",
+        "descripcion-del-pachalik-de-bagdad",
+        "unwan-al-majd"
+      ],
+      "wikipedia": {
+        "en": "Wahhabi sack of Karbala"
       }
     }
   ],

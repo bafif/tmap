@@ -2367,7 +2367,7 @@
         },
         {
           "titulo": "Breasted, Ancient Records of Egypt, vol. 4 (1906), Internet Archive",
-          "url": "https://archive.org/details/ancientrecordsof04brea",
+          "url": "https://archive.org/details/cu31924082479258",
           "idioma": "en",
           "dominio_publico": true
         }
@@ -2707,6 +2707,54 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "inscripciones-de-medinet-habu",
+      "titulo": "Inscripciones y relieves de Medinet Habu sobre las guerras de Ramsés III",
+      "titulo_original": null,
+      "autor": "Ramsés III (templo funerario de Medinet Habu)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": -1170,
+        "aprox": true,
+        "lugar": "Medinet Habu",
+        "lon": 32.601,
+        "lat": 25.72
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "levante",
+          "bajo-egipto"
+        ],
+        "desde": -1178,
+        "hasta": -1175
+      },
+      "idioma_original": "Egipcio medio tardío",
+      "soporte": "Relieves y textos en piedra",
+      "resumen": "Relieves y textos grabados en los muros del templo funerario de Ramsés III, junto a Tebas, con las batallas del año 8 del faraón contra los Pueblos del Mar, por tierra en Djahy y por mar en el Delta. Son la fuente principal de esas guerras; muestran a los invasores con mujeres y niños en carretas de bueyes.",
+      "por_que_importa": "Es un relato oficial del faraón, que presenta una victoria total; las cartas de Ugarit, que piden ayuda contra naves enemigas, muestran el avance de los invasores sobre Siria. Los historiadores discuten de dónde venían esos pueblos y cuánto cambió el Levante tras ellos.",
+      "leer": [
+        {
+          "titulo": "Breasted, Ancient Records of Egypt, tomo IV (1906), §§ 59-82 (Medinet Habu, guerra del norte del año 8) y § 403 (papiro Harris), Internet Archive",
+          "url": "https://archive.org/details/cu31924082479258",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Epigraphic Survey, Medinet Habu I: Earlier Historical Records of Ramses III (OIP 8, 1930), PDF gratuito del ISAC",
+          "url": "https://isac.uchicago.edu/publications/medinet-habu-volume-i-earlier-historical-records",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Medinet Habu",
+        "en": "Medinet Habu"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3928,6 +3976,31 @@
       "wikipedia": {
         "es": "Ali Bey Al-Kabir",
         "en": "Ali Bey al-Kabir"
+      }
+    },
+    {
+      "id": "campanas-de-ramses-iii-contra-los-pueblos-del-mar",
+      "titulo": "Campañas de Ramsés III contra los Pueblos del Mar",
+      "anio": -1178,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Delta del Nilo",
+      "lon": 31.117,
+      "lat": 30.9,
+      "tipo": "batalla",
+      "resumen": "En el año 8 de Ramsés III los Pueblos del Mar (peleset, tjeker, shekelesh, denyen y weshesh, los nombres que da la inscripción de Medinet Habu) invadieron Egipto por tierra y por mar. Según los textos y relieves de Medinet Habu, el faraón los venció primero por tierra en Djahy, en la frontera egipcia de Siria, y luego en el Delta, una de las primeras batallas navales documentadas. La fecha es 1178 o 1175 a. C. según la cronología; el relato es egipcio y se desconoce el lugar exacto de los combates. Según el papiro Harris I, los cautivos fueron llevados a Egipto y asentados en fortalezas «atadas a su nombre»; si alguna de ellas estaba en Canaán se discute. Los peleset se identifican con los filisteos, que poco después aparecen en la costa sur de Canaán.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto",
+        "levante"
+      ],
+      "fuentes": [
+        "inscripciones-de-medinet-habu",
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Batalla del Delta",
+        "en": "Battle of the Delta"
       }
     }
   ],

@@ -10,7 +10,7 @@
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 73 with religions, cultures or languages.
-- **Items:** 2,695 sources (240 with no place of writing), 2,766 people, 2,943 events and 942 places.
+- **Items:** 2,709 sources (247 with no place of writing), 2,767 people, 2,961 events and 942 places.
 
 ## Population: how much of the world each period covers
 
@@ -54,7 +54,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Northeastern Woodlands (in North America (United States and Canada)) | areas-culturales-de-america | 7 (14000 BC to today) | curated: Ubelaker (1500–1500); no series of its own; counted in North America (United States and Canada) | 11 · 17 · 11 | 0 · 91 · 27 |
 | Northwest Coast (in North America (United States and Canada)) | areas-culturales-de-america | 5 (11800 BC to today) | curated: Ubelaker (1500–1500); no series of its own; counted in North America (United States and Canada) | 5 · 7 · 9 | 0 · 13 · 3 |
 | Southeastern North America (in North America (United States and Canada)) | areas-culturales-de-america | 8 (12550 BC to today) | curated: Ubelaker (1500–1500); no series of its own; counted in North America (United States and Canada) | 8 · 14 · 11 | 0 · 34 · 15 |
-| Balkans | edad-media | 10 (6500 BC to today) | by country: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 40 · 29 · 4 |
+| Balkans | edad-media | 10 (6500 BC to today) | by country: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 43 · 32 · 4 |
 | Bohemia and Moravia | edad-media | 12 (5500 BC to today) | by country: CZE | 8 · 12 · 8 | 26 · 26 · 4 |
 | Britain | edad-media | 11 (5500 BC to today) | curated: Alcock, Harper, Urlanis (150–1500); by country: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 267 · 207 · 56 |
 | Finland | edad-media | 5 (1150 to today) | by country: FIN | 5 · 2 · 4 | 2 · 2 · 1 |
@@ -72,8 +72,8 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Scandinavia | edad-media | 6 (793 to today) | curated: Urlanis (1000–1500); by country: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 31 · 38 · 9 |
 | Sicily and Malta | edad-media | 10 (241 BC to today) | no series of its own; counted in Italy | 9 · 9 · 8 | 4 · 5 · 1 |
 | Wallachia and Moldavia | edad-media | 8 (6000 BC to today) | by country: ROU, MDA | 8 · 13 · 12 | 6 · 8 · 0 |
-| Egypt | egipto | 21 (5300 BC to 2011) | curated: Butzer (3000 BC–150 BC); by country: EGY | 9 · 9 · 6 | 91 · 49 · 15 |
-| Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 0 · 11 · 0 |
+| Egypt | egipto | 21 (5300 BC to 2011) | curated: Butzer (3000 BC–150 BC); by country: EGY | 9 · 9 · 6 | 93 · 51 · 15 |
+| Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 1 · 13 · 0 |
 | Nubia | egipto | 8 (2970 BC to 1821) | no series of its own; counted in Sudan and South Sudan | 10 · 8 · 10 | 1 · 3 · 0 |
 | Upper Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 0 · 2 · 1 |
 | Anatolia | mundo | 9 (1760 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 10 · 7 · 8 | 92 · 58 · 11 |
@@ -82,9 +82,9 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Greece | mundo | 10 (1760 BC to 2000) | by country: GRC | 3 · 2 · 3 | 51 · 33 · 6 |
 | India (Indus and Ganges basins) | mundo | 9 (3300 BC to today) | by country: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 20 · 18 · 4 |
 | Italy | mundo | 11 (6000 BC to today) | curated: Frier, Harper, Russell, Scheidel (14–1450); by country: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 135 · 110 · 22 |
-| Levant | mundo | 11 (3500 BC to today) | sum of its subregions: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 18 · 151 · 57 |
+| Levant | mundo | 11 (3500 BC to today) | sum of its subregions: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 21 · 162 · 57 |
 | Mesoamerica | mundo | 7 (1760 BC to today) | by country: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 263 · 215 · 94 |
-| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 4 · 5 · 5 | 35 · 35 · 6 |
+| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 4 · 5 · 5 | 37 · 36 · 6 |
 | Persia (Iranian Plateau) | mundo | 9 (2700 BC to 2000) | by country: IRN | 4 · 2 · 8 | 32 · 25 · 3 |
 | Río de la Plata | mundo | 7 (10000 BC to today) | by country: ARG, URY, PRY | 6 · 12 · 6 | 421 · 579 · 94 |
 | Armorica (Brittany) (in France) | mundo-celta | 7 (5000 BC to today) | no series of its own; counted in France | 3 · 11 · 10 | 9 · 14 · 2 |
@@ -140,15 +140,15 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Tibet | regiones-del-mundo | 6 (618 to today) | no series of its own; counted in China (Yellow River and Yangtze basins) | — · — · — | 0 · 1 · 0 |
 | Volga and Urals | regiones-del-mundo | 6 (700 to today) | no series of its own; counted in Rus' | — · — · — | 4 · 3 · 0 |
 | West Africa | regiones-del-mundo | 7 (1000 BC to today) | by country: SEN, GMB, GNB, GIN, SLE, LBR, CIV, GHA, TGO, BEN, NGA, BFA, MLI, NER, MRT, CPV | — · — · — | 6 · 2 · 0 |
-| Arabia | tierra-santa | 7 (1000 BC to today) | by country: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 32 · 24 · 7 |
+| Arabia | tierra-santa | 7 (1000 BC to today) | by country: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 35 · 26 · 7 |
 | Armenia (Armenian Highlands) | tierra-santa | 10 (860 BC to today) | by country: ARM | 5 · 5 · 5 | 0 · 2 · 0 |
 | Cilicia (in Anatolia) | tierra-santa | 8 (1500 BC to today) | no series of its own; counted in Anatolia | 6 · 4 · 4 | 0 · 0 · 0 |
 | Cyprus | tierra-santa | 9 (1100 BC to today) | by country: CYP | 4 · 3 · 3 | 1 · 4 · 3 |
-| Holy Land (in Levant) | tierra-santa | 21 (12500 BC to today) | curated: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); by country: ISR, PSE | 17 · 11 · 11 | 135 · 131 · 36 |
-| Lebanon (in Levant) | tierra-santa | 9 (3000 BC to today) | by country: LBN | 5 · 3 · 4 | 7 · 14 · 4 |
-| Maghreb | tierra-santa | 11 (814 BC to today) | by country: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 11 · 15 · 11 |
-| Syria (in Levant) | tierra-santa | 12 (2500 BC to today) | by country: SYR | 8 · 4 · 3 | 44 · 31 · 8 |
-| Transjordan (in Levant) | tierra-santa | 11 (1200 BC to today) | by country: JOR | 4 · 3 · 3 | 6 · 6 · 6 |
+| Holy Land (in Levant) | tierra-santa | 21 (12500 BC to today) | curated: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); by country: ISR, PSE | 17 · 11 · 11 | 135 · 135 · 36 |
+| Lebanon (in Levant) | tierra-santa | 9 (3000 BC to today) | by country: LBN | 5 · 3 · 4 | 12 · 21 · 4 |
+| Maghreb | tierra-santa | 11 (814 BC to today) | by country: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 13 · 17 · 11 |
+| Syria (in Levant) | tierra-santa | 12 (2500 BC to today) | by country: SYR | 8 · 4 · 3 | 47 · 36 · 8 |
+| Transjordan (in Levant) | tierra-santa | 11 (1200 BC to today) | by country: JOR | 4 · 3 · 3 | 6 · 10 · 6 |
 
 ## What's missing
 

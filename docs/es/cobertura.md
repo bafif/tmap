@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 73 con religiones, culturas o idiomas.
-- **Elementos:** 2695 fuentes (240 sin lugar de escritura), 2766 personas, 2943 hechos y 942 lugares.
+- **Elementos:** 2709 fuentes (247 sin lugar de escritura), 2767 personas, 2961 hechos y 942 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -55,7 +55,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Área maya (en Mesoamérica) | areas-culturales-de-america | 8 (11000 a. C. a hoy) | curada: Canuto et al. (750–750); sin serie propia; cuenta en Mesoamérica | 7 · 8 · 7 | 0 · 56 · 37 |
 | Ártico norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 6 · 9 · 10 | 0 · 18 · 4 |
 | Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 150 · 157 · 35 |
-| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 40 · 29 · 4 |
+| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 43 · 32 · 4 |
 | Bohemia y Moravia | edad-media | 12 (5500 a. C. a hoy) | por país: CZE | 8 · 12 · 8 | 26 · 26 · 4 |
 | Britania | edad-media | 11 (5500 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 267 · 207 · 56 |
 | Cerdeña y Córcega | edad-media | 7 (1800 a. C. a hoy) | sin serie propia; cuenta en Italia | 4 · 7 · 6 | 0 · 1 · 0 |
@@ -73,8 +73,8 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Sicilia y Malta | edad-media | 10 (241 a. C. a hoy) | sin serie propia; cuenta en Italia | 9 · 9 · 8 | 4 · 5 · 1 |
 | Valaquia y Moldavia | edad-media | 8 (6000 a. C. a hoy) | por país: ROU, MDA | 8 · 13 · 12 | 6 · 8 · 0 |
 | Alto Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 2 · 1 |
-| Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 0 · 11 · 0 |
-| Egipto | egipto | 21 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 9 · 9 · 6 | 91 · 49 · 15 |
+| Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 1 · 13 · 0 |
+| Egipto | egipto | 21 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 9 · 9 · 6 | 93 · 51 · 15 |
 | Nubia | egipto | 8 (2970 a. C. a 1821) | sin serie propia; cuenta en Sudán y Sudán del Sur | 10 · 8 · 10 | 1 · 3 · 0 |
 | Anatolia | mundo | 9 (1760 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 10 · 7 · 8 | 92 · 58 · 11 |
 | Andes centrales | mundo | 8 (3000 a. C. a 2000) | por país: PER, BOL | 7 · 10 · 9 | 232 · 200 · 60 |
@@ -82,9 +82,9 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Grecia | mundo | 10 (1760 a. C. a 2000) | por país: GRC | 3 · 2 · 3 | 51 · 33 · 6 |
 | India (cuencas del Indo y el Ganges) | mundo | 9 (3300 a. C. a hoy) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 20 · 18 · 4 |
 | Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 135 · 110 · 22 |
-| Levante | mundo | 11 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 18 · 151 · 57 |
+| Levante | mundo | 11 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 21 · 162 · 57 |
 | Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 263 · 215 · 94 |
-| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 4 · 5 · 5 | 35 · 35 · 6 |
+| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 4 · 5 · 5 | 37 · 36 · 6 |
 | Persia (meseta iraní) | mundo | 9 (2700 a. C. a 2000) | por país: IRN | 4 · 2 · 8 | 32 · 25 · 3 |
 | Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 421 · 579 · 94 |
 | Armórica (Bretaña) (en Francia) | mundo-celta | 7 (5000 a. C. a hoy) | sin serie propia; cuenta en Francia | 3 · 11 · 10 | 9 · 14 · 2 |
@@ -140,15 +140,15 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | África central | regiones-del-mundo | 5 (1000 a. C. a hoy) | por país: TCD, CMR, CAF, GNQ, GAB, COG, COD, AGO, STP | — · — · — | 2 · 1 · 0 |
 | África occidental | regiones-del-mundo | 7 (1000 a. C. a hoy) | por país: SEN, GMB, GNB, GIN, SLE, LBR, CIV, GHA, TGO, BEN, NGA, BFA, MLI, NER, MRT, CPV | — · — · — | 6 · 2 · 0 |
 | África oriental (Grandes Lagos y costa suajili) | regiones-del-mundo | 5 (800 a hoy) | por país: KEN, UGA, TZA, RWA, BDI | — · — · — | 2 · 2 · 0 |
-| Arabia | tierra-santa | 7 (1000 a. C. a hoy) | por país: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 32 · 24 · 7 |
+| Arabia | tierra-santa | 7 (1000 a. C. a hoy) | por país: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 35 · 26 · 7 |
 | Armenia (meseta armenia) | tierra-santa | 10 (860 a. C. a hoy) | por país: ARM | 5 · 5 · 5 | 0 · 2 · 0 |
 | Chipre | tierra-santa | 9 (1100 a. C. a hoy) | por país: CYP | 4 · 3 · 3 | 1 · 4 · 3 |
 | Cilicia (en Anatolia) | tierra-santa | 8 (1500 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 6 · 4 · 4 | 0 · 0 · 0 |
-| Líbano (en Levante) | tierra-santa | 9 (3000 a. C. a hoy) | por país: LBN | 5 · 3 · 4 | 7 · 14 · 4 |
-| Magreb | tierra-santa | 11 (814 a. C. a hoy) | por país: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 11 · 15 · 11 |
-| Siria (en Levante) | tierra-santa | 12 (2500 a. C. a hoy) | por país: SYR | 8 · 4 · 3 | 44 · 31 · 8 |
-| Tierra Santa (en Levante) | tierra-santa | 21 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 17 · 11 · 11 | 135 · 131 · 36 |
-| Transjordania (en Levante) | tierra-santa | 11 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 6 · 6 · 6 |
+| Líbano (en Levante) | tierra-santa | 9 (3000 a. C. a hoy) | por país: LBN | 5 · 3 · 4 | 12 · 21 · 4 |
+| Magreb | tierra-santa | 11 (814 a. C. a hoy) | por país: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 13 · 17 · 11 |
+| Siria (en Levante) | tierra-santa | 12 (2500 a. C. a hoy) | por país: SYR | 8 · 4 · 3 | 47 · 36 · 8 |
+| Tierra Santa (en Levante) | tierra-santa | 21 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 17 · 11 · 11 | 135 · 135 · 36 |
+| Transjordania (en Levante) | tierra-santa | 11 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 6 · 10 · 6 |
 
 ## Lo que falta
 
