@@ -2506,6 +2506,146 @@
       "por_que_importa": "Fundó el estudio cuantitativo de la demografía indígena de California y sus cifras siguen siendo el punto de partida del debate.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "poor-richards-almanack",
+      "titulo": "Almanaque del pobre Richard",
+      "titulo_original": "Poor Richard's Almanack",
+      "autor": "Benjamin Franklin",
+      "autor_id": "benjamin-franklin",
+      "tipo": "primaria",
+      "genero": "sabiduria",
+      "escrita": {
+        "anio": 1732,
+        "anio_hasta": 1758,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1732,
+        "hasta": 1758
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Almanaque anual",
+      "resumen": "Almanaque que Franklin publicó cada año desde diciembre de 1732 hasta 1758 bajo el seudónimo de Richard Saunders. Traía el calendario, el pronóstico del tiempo, poemas, datos astronómicos y refranes sobre el trabajo y el ahorro, muchos tomados de recopilaciones anteriores; llegó a tirar unos diez mil ejemplares por año.",
+      "por_que_importa": "Muestra el alcance de la imprenta de una colonia inglesa y la cultura impresa de Filadelfia, donde Franklin imprimía también las actas de los tratados con los pueblos indígenas.",
+      "leer": [
+        {
+          "titulo": "Selección de refranes del almanaque (1914), en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Poor_Richard%27s_Almanack",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Reimpresión de los almanaques de Franklin, en el Internet Archive",
+          "url": "https://archive.org/details/poorrichardalman00fran",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "El almanaque de 1753 impreso por Franklin y Hall, en el Internet Archive",
+          "url": "https://archive.org/details/gvr-ps749-a2-1753_202010",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Almanaque del pobre Richard",
+        "en": "Poor Richard's Almanack"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "the-autobiography-of-benjamin-franklin",
+      "titulo": "Autobiografía de Benjamin Franklin",
+      "titulo_original": "The Autobiography of Benjamin Franklin",
+      "autor": "Benjamin Franklin",
+      "autor_id": "benjamin-franklin",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1771,
+        "anio_hasta": 1790,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1706,
+        "hasta": 1758
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias inconclusas que Franklin escribió por partes (la primera en Twyford en 1771, la segunda en Passy en 1784 y la tercera y la cuarta en Filadelfia entre 1788 y 1790) y que llegan hasta 1758. Cuentan su aprendizaje de impresor en Boston y Filadelfia, la fundación de instituciones de la ciudad, su participación en el tratado de Carlisle con los pueblos indígenas (1753), en cuyo relato comenta que, si es designio de la Providencia «extirpar a estos salvajes para hacer lugar a los cultivadores de la tierra», el ron con que los delegados indígenas se emborrachaban bien puede ser el medio, su propuesta de unión de las colonias en 1754, su ayuda al general Braddock y la defensa de la frontera noroeste de Pensilvania en 1756, donde mandó levantar fuertes.",
+      "por_que_importa": "Es el relato en primera persona de un impresor y funcionario sobre la Pensilvania colonial y la guerra franco-india; está escrito décadas después y desde la mirada de su autor sobre sí mismo.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Autobiography_of_Benjamin_Franklin",
+          "idioma": "en",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Edición de Pine (1916) en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/20203",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "The Autobiography of Benjamin Franklin"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "summary-view-of-the-rights-of-british-america",
+      "titulo": "Una visión resumida de los derechos de la América británica",
+      "titulo_original": "A Summary View of the Rights of British America",
+      "autor": "Thomas Jefferson",
+      "autor_id": "thomas-jefferson",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1774,
+        "aprox": false,
+        "lugar": "Williamsburg (Virginia)",
+        "lon": -76.707,
+        "lat": 37.271
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "britania"
+        ],
+        "desde": 1763,
+        "hasta": 1774
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Folleto",
+      "resumen": "Texto que Jefferson redactó en 1774 en Albemarle como resoluciones para instruir a los delegados de Virginia al primer Congreso Continental, tras la respuesta del Parlamento al motín del té de Boston. Sostiene que el Parlamento nunca tuvo derecho a gobernar las colonias, que las tierras americanas se poseen por título pleno y no en feudo de la Corona, y critica el veto del rey a las leyes coloniales contra la trata de esclavos africanos. Jefferson, enfermo en el camino, mandó dos copias a Williamsburg; la convención de Virginia lo leyó, lo juzgó demasiado audaz para adoptarlo y aprobó instrucciones más moderadas, pero sus miembros lo imprimieron como folleto en Williamsburg.",
+      "por_que_importa": "Anticipa los argumentos de la Declaración de Independencia, que Jefferson redactó dos años después, y le dio reputación como escritor político.",
+      "leer": [
+        {
+          "titulo": "Texto en el Avalon Project de la Universidad de Yale",
+          "url": "https://avalon.law.yale.edu/18th_century/jeffsumm.asp",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Una visión resumida de los derechos de la América británica",
+        "en": "A Summary View of the Rights of British America"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -5064,7 +5204,9 @@
       ],
       "resumen": "Impresor, científico y político de Filadelfia, que imprimió las actas de los tratados con los iroqueses y en una carta de 1751 citó la unión de las Seis Naciones como ejemplo para las colonias. En 1764 denunció la matanza de los conestoga por los Paxton Boys; firmó la Declaración de Independencia y negoció el tratado de París de 1783.",
       "obras": [
-        "narrative-of-the-late-massacres"
+        "narrative-of-the-late-massacres",
+        "poor-richards-almanack",
+        "the-autobiography-of-benjamin-franklin"
       ],
       "wikipedia": {
         "es": "Benjamin Franklin",
@@ -5191,7 +5333,8 @@
       "resumen": "Hacendado y dueño de esclavos de Virginia, redactor de la Declaración de Independencia y tercer presidente (1801-1809). En «Notes on the State of Virginia» defendió contra Buffon las capacidades de los indígenas americanos y publicó el discurso de Logan; como presidente compró la Luisiana (1803) y propuso trasladar al oeste del Misisipi a los pueblos que no aceptaran la agricultura y la cesión de tierras.",
       "obras": [
         "declaracion-de-independencia-de-estados-unidos",
-        "notes-on-the-state-of-virginia"
+        "notes-on-the-state-of-virginia",
+        "summary-view-of-the-rights-of-british-america"
       ],
       "wikipedia": {
         "es": "Thomas Jefferson",
@@ -5677,6 +5820,1488 @@
         "en": "Alexander Andreyevich Baranov"
       },
       "wikidata": "Q440782"
+    },
+    {
+      "id": "lewis-cass",
+      "nombre": "Lewis Cass",
+      "nacimiento": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Exeter",
+        "lon": -70.948,
+        "lat": 42.981
+      },
+      "muerte": {
+        "anio": 1866,
+        "aprox": false,
+        "lugar": "Detroit",
+        "lon": -83.047,
+        "lat": 42.332
+      },
+      "activo": {
+        "lugar": "Detroit",
+        "lon": -83.047,
+        "lat": 42.332,
+        "desde": 1813,
+        "hasta": 1831,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "gobernador",
+        "militar"
+      ],
+      "resumen": "Gobernador del Territorio de Michigan (1813-1831) y secretario de Guerra de Jackson (1831-1836). Negoció tratados por los que los pueblos de la región cedieron tierras, como el de Fort Meigs (1817); en 1830 sostuvo en un artículo que los indígenas no podían civilizarse y debían ser trasladados al oeste, y como secretario de Guerra aplicó la ley de traslado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lewis Cass",
+        "en": "Lewis Cass"
+      },
+      "wikidata": "Q503119"
+    },
+    {
+      "id": "thomas-paine",
+      "nombre": "Thomas Paine",
+      "nacimiento": {
+        "anio": 1737,
+        "aprox": false,
+        "lugar": "Thetford",
+        "lon": 0.74,
+        "lat": 52.41
+      },
+      "muerte": {
+        "anio": 1809,
+        "aprox": false,
+        "lugar": "Greenwich Village",
+        "lon": -74.003,
+        "lat": 40.734
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1774,
+        "hasta": 1787,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "politico"
+      ],
+      "resumen": "Panfletista inglés llegado a Filadelfia en 1774. Su folleto «Common Sense» (enero de 1776) defendió la independencia de las colonias y el gobierno republicano, y la serie «The American Crisis» (1776-1783) sostuvo la moral de los soldados de Washington.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Thomas Paine",
+        "en": "Thomas Paine"
+      },
+      "wikidata": "Q126462"
+    },
+    {
+      "id": "john-c-calhoun",
+      "nombre": "John C. Calhoun",
+      "nacimiento": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Abbeville",
+        "lon": -82.379,
+        "lat": 34.179
+      },
+      "muerte": {
+        "anio": 1850,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1817,
+        "hasta": 1832,
+        "aprox": false
+      },
+      "roles": [
+        "politico"
+      ],
+      "resumen": "Secretario de Guerra de Monroe (1817-1825) y vicepresidente (1825-1832). En 1824 creó dentro del Departamento de Guerra la Oficina de Asuntos Indígenas (Bureau of Indian Affairs), cuyo primer jefe fue Thomas McKenney. Dueño de esclavos, fue luego uno de los principales defensores de la esclavitud, a la que llamó «un bien positivo», y de los derechos de los estados.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John C. Calhoun",
+        "en": "John C. Calhoun"
+      },
+      "wikidata": "Q207191"
+    },
+    {
+      "id": "henry-hudson",
+      "nombre": "Henry Hudson",
+      "nacimiento": {
+        "anio": 1565,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1611,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1609,
+        "hasta": 1609,
+        "aprox": false
+      },
+      "roles": [
+        "navegante",
+        "explorador"
+      ],
+      "resumen": "Navegante inglés. En 1609, al servicio de la Compañía Neerlandesa de las Indias Orientales, buscó el paso del noroeste en el «Halve Maen» y remontó el río que hoy lleva su nombre, lo que sirvió de base a la reclamación neerlandesa de los Nuevos Países Bajos. En 1610-1611, para comerciantes ingleses, entró en la bahía de Hudson; en junio de 1611 la tripulación se amotinó y lo abandonó en un bote con su hijo y otros siete, según el relato del amotinado Abacuk Pricket, la única versión que hay, y no se supo más de ellos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Henry Hudson",
+        "en": "Henry Hudson"
+      },
+      "wikidata": "Q179167"
+    },
+    {
+      "id": "samuel-adams",
+      "nombre": "Samuel Adams",
+      "nacimiento": {
+        "anio": 1722,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "muerte": {
+        "anio": 1803,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "activo": {
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36,
+        "desde": 1764,
+        "hasta": 1780,
+        "aprox": false
+      },
+      "roles": [
+        "politico"
+      ],
+      "resumen": "Político de Boston, organizador de la oposición a los impuestos británicos y del Comité de Correspondencia de Boston (1772). Firmó la Declaración de Independencia y fue gobernador de Massachusetts (1794-1797).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Samuel Adams",
+        "en": "Samuel Adams"
+      },
+      "wikidata": "Q212963"
+    },
+    {
+      "id": "john-jay",
+      "nombre": "John Jay",
+      "nacimiento": {
+        "anio": 1745,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "muerte": {
+        "anio": 1829,
+        "aprox": false,
+        "lugar": "Bedford",
+        "lon": -73.665,
+        "lat": 41.226
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1774,
+        "hasta": 1795,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "diplomatico",
+        "juez"
+      ],
+      "resumen": "Político de Nueva York, presidente del Congreso Continental (1778-1779) y uno de los negociadores del tratado de París de 1783. Fue el primer presidente de la Corte Suprema (1789-1795) y negoció con Gran Bretaña el tratado que lleva su nombre (1794), por el que los británicos debían evacuar los fuertes del noroeste.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Jay",
+        "en": "John Jay"
+      },
+      "wikidata": "Q310847"
+    },
+    {
+      "id": "davy-crockett",
+      "nombre": "Davy Crockett",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Limestone",
+        "lon": -82.631,
+        "lat": 36.228
+      },
+      "muerte": {
+        "anio": 1836,
+        "aprox": false,
+        "lugar": "Misión de San Antonio de Valero (El Álamo)",
+        "lon": -98.486,
+        "lat": 29.426
+      },
+      "activo": {
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895,
+        "desde": 1827,
+        "hasta": 1835,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "explorador",
+        "soldado"
+      ],
+      "resumen": "Cazador y político de Tennessee. Fue explorador de la milicia de Tennessee en la guerra creek (1813-1814) a las órdenes de Jackson; como congresista se opuso a la ley de traslado de los indios de 1830 y perdió la reelección en 1831. Murió en el Álamo, en la guerra de Texas, el 6 de marzo de 1836; las circunstancias de su muerte son discutidas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Davy Crockett",
+        "en": "Davy Crockett"
+      },
+      "wikidata": "Q311070"
+    },
+    {
+      "id": "patrick-henry",
+      "nombre": "Patrick Henry",
+      "nacimiento": {
+        "anio": 1736,
+        "aprox": false,
+        "lugar": "Studley",
+        "lon": -77.291,
+        "lat": 37.676
+      },
+      "muerte": {
+        "anio": 1799,
+        "aprox": false,
+        "lugar": "Red Hill (condado de Charlotte, Virginia)",
+        "lon": -78.898,
+        "lat": 37.032
+      },
+      "activo": {
+        "lugar": "Williamsburg (Virginia)",
+        "lon": -76.707,
+        "lat": 37.271,
+        "desde": 1765,
+        "hasta": 1786,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado"
+      ],
+      "resumen": "Abogado y político de Virginia. Sus resoluciones de 1765 contra la Ley del Timbre y su discurso de marzo de 1775 («dadme la libertad o dadme la muerte», cuyo texto se reconstruyó décadas después a partir de testimonios) lo volvieron una figura de la independencia. Fue gobernador de Virginia (1776-1779 y 1784-1786). Fue dueño de esclavos toda su vida; en 1773 escribió que la esclavitud era un mal pero que lo arrastraba «la incomodidad general de vivir sin ellos».",
+      "obras": [],
+      "wikipedia": {
+        "es": "Patrick Henry",
+        "en": "Patrick Henry"
+      },
+      "wikidata": "Q311885"
+    },
+    {
+      "id": "phillis-wheatley",
+      "nombre": "Phillis Wheatley",
+      "nacimiento": {
+        "anio": 1753,
+        "aprox": true,
+        "lugar": "África occidental"
+      },
+      "muerte": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "activo": {
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36,
+        "desde": 1761,
+        "hasta": 1784,
+        "aprox": false
+      },
+      "roles": [
+        "poeta"
+      ],
+      "resumen": "Poeta nacida en África occidental (probablemente en la actual Gambia o Senegal) y llevada a Boston como esclava en 1761. Su libro «Poems on Various Subjects, Religious and Moral» (Londres, 1773) es el primer libro de poesía publicado por una persona afroamericana; los Wheatley la liberaron poco después.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Phillis Wheatley",
+        "en": "Phillis Wheatley"
+      },
+      "wikidata": "Q257911"
+    },
+    {
+      "id": "john-hancock",
+      "nombre": "John Hancock",
+      "nacimiento": {
+        "anio": 1737,
+        "aprox": false,
+        "lugar": "Braintree",
+        "lon": -71.005,
+        "lat": 42.206
+      },
+      "muerte": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Hancock Manor",
+        "lon": -71.064,
+        "lat": 42.358
+      },
+      "activo": {
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36,
+        "desde": 1768,
+        "hasta": 1793,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "comerciante"
+      ],
+      "resumen": "Comerciante y político de Boston. Presidió el Congreso Continental (1775-1777), fue el primero en firmar la Declaración de Independencia y gobernó Massachusetts (1780-1785 y 1787-1793).",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Hancock",
+        "en": "John Hancock"
+      },
+      "wikidata": "Q272774"
+    },
+    {
+      "id": "benedict-arnold",
+      "nombre": "Benedict Arnold",
+      "nacimiento": {
+        "anio": 1741,
+        "aprox": false,
+        "lugar": "Norwich",
+        "lon": -72.088,
+        "lat": 41.55
+      },
+      "muerte": {
+        "anio": 1801,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "activo": {
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816,
+        "desde": 1775,
+        "hasta": 1775,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Oficial de Connecticut. En 1775 participó en la toma de Fort Ticonderoga y condujo a través de Maine la expedición contra Quebec, donde fue herido; combatió en Saratoga (1777). En 1780, siendo comandante de West Point, pasó a los británicos, en cuyo ejército fue general.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Benedict Arnold",
+        "en": "Benedict Arnold"
+      },
+      "wikidata": "Q298237"
+    },
+    {
+      "id": "meriwether-lewis",
+      "nombre": "Meriwether Lewis",
+      "nacimiento": {
+        "anio": 1774,
+        "aprox": false,
+        "lugar": "condado de Albemarle",
+        "lon": -78.56,
+        "lat": 38.03
+      },
+      "muerte": {
+        "anio": 1809,
+        "aprox": false,
+        "lugar": "Grinder's Stand (Tennessee)",
+        "lon": -87.46,
+        "lat": 35.55
+      },
+      "activo": {
+        "lugar": "San Luis (Misuri)",
+        "lon": -90.199,
+        "lat": 38.626,
+        "desde": 1804,
+        "hasta": 1809,
+        "aprox": false
+      },
+      "roles": [
+        "explorador",
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Capitán del ejército y secretario de Jefferson. Con William Clark dirigió (1804-1806) la expedición que, desde San Luis, exploró las tierras de la compra de la Luisiana hasta el Pacífico y regresó, con la ayuda de intérpretes como Sacagawea. Fue gobernador del Territorio de la Luisiana (1807-1809) y murió de un disparo en Tennessee; la mayoría de los historiadores lo da por suicidio y algunos lo discuten.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Meriwether Lewis",
+        "en": "Meriwether Lewis"
+      },
+      "wikidata": "Q313492"
+    },
+    {
+      "id": "anne-bradstreet",
+      "nombre": "Anne Bradstreet",
+      "nacimiento": {
+        "anio": 1612,
+        "aprox": false,
+        "lugar": "Northampton",
+        "lon": -0.9,
+        "lat": 52.233
+      },
+      "muerte": {
+        "anio": 1672,
+        "aprox": false,
+        "lugar": "Andover",
+        "lon": -71.141,
+        "lat": 42.657
+      },
+      "activo": {
+        "lugar": "North Andover (Massachusetts)",
+        "lon": -71.136,
+        "lat": 42.699,
+        "desde": 1645,
+        "hasta": 1672,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "colona"
+      ],
+      "resumen": "Poeta puritana inglesa llegada a Massachusetts en 1630. Su libro «The Tenth Muse Lately Sprung Up in America» (Londres, 1650) fue el primero publicado por un poeta de las colonias inglesas de Norteamérica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Anne Bradstreet",
+        "en": "Anne Bradstreet"
+      },
+      "wikidata": "Q242332"
+    },
+    {
+      "id": "peter-stuyvesant",
+      "nombre": "Peter Stuyvesant",
+      "nacimiento": {
+        "anio": 1610,
+        "aprox": true,
+        "lugar": "Peperga (Frisia)",
+        "lon": 6.056,
+        "lat": 52.85
+      },
+      "muerte": {
+        "anio": 1672,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1647,
+        "hasta": 1664,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Director general de los Nuevos Países Bajos (1647-1664). En 1655 tomó Nueva Suecia, en 1657 prohibió bajo multa y prisión alojar cuáqueros y quiso impedir la residencia de refugiados judíos, y en 1664 entregó la colonia a una flota inglesa, que la rebautizó Nueva York. Durante su gobierno la colonia amplió el uso de esclavos de la Compañía, y hubo la guerra del Melocotón (1655) y las guerras de Esopus (1659-1663).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Peter Stuyvesant",
+        "en": "Peter Stuyvesant"
+      },
+      "wikidata": "Q161536"
+    },
+    {
+      "id": "jonathan-edwards",
+      "nombre": "Jonathan Edwards",
+      "nacimiento": {
+        "anio": 1703,
+        "aprox": false,
+        "lugar": "East Windsor",
+        "lon": -72.558,
+        "lat": 41.917
+      },
+      "muerte": {
+        "anio": 1758,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "activo": {
+        "lugar": "Stockbridge (Massachusetts)",
+        "lon": -73.321,
+        "lat": 42.288,
+        "desde": 1751,
+        "hasta": 1757,
+        "aprox": false
+      },
+      "roles": [
+        "teologo",
+        "pastor",
+        "misionero"
+      ],
+      "resumen": "Teólogo congregacionalista del Gran Despertar y autor de «Sinners in the Hands of an Angry God» (1741). Pastor de Northampton hasta 1750, vivió luego en Stockbridge, como misionero de los mohicanos, y allí escribió «Freedom of the Will» (1754). Tuvo esclavos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jonathan Edwards (teólogo)",
+        "en": "Jonathan Edwards (theologian)"
+      },
+      "wikidata": "Q313073"
+    },
+    {
+      "id": "juan-rodriguez-cabrillo",
+      "nombre": "Juan Rodríguez Cabrillo",
+      "nacimiento": {
+        "anio": 1497,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1543,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "San Diego",
+        "lon": -117.162,
+        "lat": 32.715,
+        "desde": 1542,
+        "hasta": 1543,
+        "aprox": false
+      },
+      "roles": [
+        "navegante",
+        "explorador"
+      ],
+      "resumen": "Navegante al servicio de España cuya nacionalidad (portuguesa o castellana) se discute. Partió de Navidad (Nueva España) en 1542, entró el 28 de septiembre en la bahía de San Diego y siguió hacia el norte por la costa de California. Murió el 3 de enero de 1543 de una herida infectada tras una fractura, y su piloto Bartolomé Ferrer trajo de vuelta las naves.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Rodríguez Cabrillo",
+        "en": "Juan Rodríguez Cabrillo"
+      },
+      "wikidata": "Q182491"
+    },
+    {
+      "id": "james-wolfe",
+      "nombre": "James Wolfe",
+      "nacimiento": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Westerham",
+        "lon": 0.07,
+        "lat": 51.271
+      },
+      "muerte": {
+        "anio": 1759,
+        "aprox": false,
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816
+      },
+      "activo": {
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816,
+        "desde": 1759,
+        "hasta": 1759,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "General británico que participó en el sitio de Louisbourg (1758) y en 1759 mandó el ejército que atacó Quebec. Murió en la batalla de las llanuras de Abraham, el 13 de septiembre de 1759.",
+      "obras": [],
+      "wikipedia": {
+        "es": "James Wolfe",
+        "en": "James Wolfe"
+      },
+      "wikidata": "Q379812"
+    },
+    {
+      "id": "daniel-boone",
+      "nombre": "Daniel Boone",
+      "nacimiento": {
+        "anio": 1734,
+        "aprox": false,
+        "lugar": "Oley Valley",
+        "lon": -75.776,
+        "lat": 40.383
+      },
+      "muerte": {
+        "anio": 1820,
+        "aprox": false,
+        "lugar": "Daniel Boone Home",
+        "lon": -90.854,
+        "lat": 38.652
+      },
+      "activo": {
+        "lugar": "Boonesborough (Kentucky)",
+        "lon": -84.268,
+        "lat": 37.901,
+        "desde": 1775,
+        "hasta": 1778,
+        "aprox": false
+      },
+      "roles": [
+        "explorador",
+        "colono",
+        "militar"
+      ],
+      "resumen": "Explorador y colono de Kentucky. En 1775, contratado por la Transylvania Company, que había comprado a los cherokees su reclamo sobre Kentucky en Sycamore Shoals (compra privada que la Proclamación de 1763 y las leyes de Virginia y Carolina del Norte prohibían, que Dragging Canoe rechazó y que Virginia anuló en 1778), abrió el camino por el paso de Cumberland que sería la Wilderness Road y fundó Boonesborough. Capturado por los shawnees en 1778 y adoptado entre ellos (según la tradición, en la familia de Blackfish), escapó; en 1799 se mudó a la Luisiana española, donde fue síndico del distrito de Femme Osage.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Daniel Boone",
+        "en": "Daniel Boone"
+      },
+      "wikidata": "Q316661"
+    },
+    {
+      "id": "winfield-scott",
+      "nombre": "Winfield Scott",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "condado de Dinwiddie",
+        "lon": -77.63,
+        "lat": 37.08
+      },
+      "muerte": {
+        "anio": 1866,
+        "aprox": false,
+        "lugar": "West Point",
+        "lon": -73.955,
+        "lat": 41.395
+      },
+      "activo": {
+        "lugar": "New Echota",
+        "lon": -84.91,
+        "lat": 34.54,
+        "desde": 1838,
+        "hasta": 1838,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "General del ejército de los Estados Unidos. En 1832 firmó la compra del Halcón Negro con jefes sauk y fox, en 1836 mandó operaciones contra los seminolas, y en 1838 dirigió el traslado forzoso de los cherokees al oeste, para el que sus tropas los reunieron en campos de detención; a mediados de 1838 aceptó el plan de John Ross y dejó que el consejo cherokee condujera el resto del traslado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Winfield Scott",
+        "en": "Winfield Scott"
+      },
+      "wikidata": "Q354759"
+    },
+    {
+      "id": "john-harvard",
+      "nombre": "John Harvard",
+      "nacimiento": {
+        "anio": 1607,
+        "aprox": false,
+        "lugar": "Southwark",
+        "lon": -0.09,
+        "lat": 51.499
+      },
+      "muerte": {
+        "anio": 1638,
+        "aprox": false,
+        "lugar": "Charlestown",
+        "lon": -71.064,
+        "lat": 42.375
+      },
+      "activo": {
+        "lugar": "Charlestown (Massachusetts)",
+        "lon": -71.064,
+        "lat": 42.375,
+        "desde": 1637,
+        "hasta": 1638,
+        "aprox": false
+      },
+      "roles": [
+        "pastor",
+        "benefactor"
+      ],
+      "resumen": "Pastor inglés llegado a Charlestown (Massachusetts) en 1637 y muerto de tisis al año siguiente. Dejó al colegio fundado en 1636 la mitad de sus bienes y su biblioteca, y el colegio tomó su nombre en 1639.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Harvard",
+        "en": "John Harvard"
+      },
+      "wikidata": "Q318328"
+    },
+    {
+      "id": "anne-hutchinson",
+      "nombre": "Anne Hutchinson",
+      "nacimiento": {
+        "anio": 1591,
+        "aprox": false,
+        "lugar": "Alford",
+        "lon": 0.18,
+        "lat": 53.26
+      },
+      "muerte": {
+        "anio": 1643,
+        "aprox": false,
+        "lugar": "Pelham Bay (Nuevos Países Bajos)",
+        "lon": -73.808,
+        "lat": 40.866
+      },
+      "activo": {
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36,
+        "desde": 1634,
+        "hasta": 1638,
+        "aprox": false
+      },
+      "roles": [
+        "lider religioso",
+        "colona"
+      ],
+      "resumen": "Colona inglesa que en la controversia antinomiana (1636-1638) cuestionó la doctrina de los pastores de Massachusetts. Condenada por herejía y desterrada en 1637-1638, fundó Portsmouth (Rhode Island) con sus seguidores; en agosto de 1643, ya en territorio neerlandés, ella y seis de sus hijos y otros de su casa murieron a manos de siwanoys durante la guerra de Kieft.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Anne Hutchinson",
+        "en": "Anne Hutchinson"
+      },
+      "wikidata": "Q11608"
+    },
+    {
+      "id": "william-clark",
+      "nombre": "William Clark",
+      "nacimiento": {
+        "anio": 1770,
+        "aprox": false,
+        "lugar": "Ladysmith",
+        "lon": -77.515,
+        "lat": 38.017
+      },
+      "muerte": {
+        "anio": 1838,
+        "aprox": false,
+        "lugar": "San Luis",
+        "lon": -90.199,
+        "lat": 38.626
+      },
+      "activo": {
+        "lugar": "San Luis (Misuri)",
+        "lon": -90.199,
+        "lat": 38.626,
+        "desde": 1804,
+        "hasta": 1838,
+        "aprox": false
+      },
+      "roles": [
+        "explorador",
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Oficial que codirigió con Meriwether Lewis la expedición de 1804-1806 hasta el Pacífico. Fue gobernador del Territorio de Misuri (1813-1820) y superintendente de Asuntos Indígenas en San Luis (1822-1838), cargo desde el que negoció tratados de cesión de tierras con pueblos de la región.",
+      "obras": [],
+      "wikipedia": {
+        "es": "William Clark",
+        "en": "William Clark"
+      },
+      "wikidata": "Q355348"
+    },
+    {
+      "id": "cotton-mather",
+      "nombre": "Cotton Mather",
+      "nacimiento": {
+        "anio": 1663,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "muerte": {
+        "anio": 1728,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "activo": {
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36,
+        "desde": 1685,
+        "hasta": 1728,
+        "aprox": false
+      },
+      "roles": [
+        "pastor",
+        "puritano",
+        "historiador"
+      ],
+      "resumen": "Pastor puritano de Boston y autor de cerca de 400 obras, entre ellas la historia eclesiástica «Magnalia Christi Americana» (1702). Defendió los juicios de Salem de 1692-1693 en «Wonders of the Invisible World», aunque no tuvo cargo en el tribunal: aconsejó a los jueces (en «The Return of Several Ministers» pidió cautela con la prueba espectral y a la vez que se siguiera procesando) y, según Robert Calef, en la ejecución de George Burroughs calmó a la multitud para que las ejecuciones siguieran; los historiadores discrepan sobre su peso; en 1721 promovió la inoculación contra la viruela, que había conocido por Onesimus, un esclavo suyo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cotton Mather",
+        "en": "Cotton Mather"
+      },
+      "wikidata": "Q380719"
+    },
+    {
+      "id": "john-dickinson",
+      "nombre": "John Dickinson",
+      "nacimiento": {
+        "anio": 1732,
+        "aprox": false,
+        "lugar": "condado de Talbot",
+        "lon": -76.18,
+        "lat": 38.75
+      },
+      "muerte": {
+        "anio": 1808,
+        "aprox": false,
+        "lugar": "Wilmington",
+        "lon": -75.551,
+        "lat": 39.748
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1765,
+        "hasta": 1787,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado"
+      ],
+      "resumen": "Abogado de Filadelfia y Delaware. Sus «Letters from a Farmer in Pennsylvania» (1767-1768) rechazaron los impuestos de Townshend; en 1776 se opuso a declarar la independencia y no firmó la Declaración, aunque había redactado el primer borrador de los Artículos de la Confederación.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Dickinson",
+        "en": "John Dickinson"
+      },
+      "wikidata": "Q878687"
+    },
+    {
+      "id": "george-mason",
+      "nombre": "George Mason",
+      "nacimiento": {
+        "anio": 1725,
+        "aprox": false,
+        "lugar": "condado de Fairfax",
+        "lon": -77.28,
+        "lat": 38.83
+      },
+      "muerte": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "condado de Fairfax",
+        "lon": -77.28,
+        "lat": 38.83
+      },
+      "activo": {
+        "lugar": "Williamsburg (Virginia)",
+        "lon": -76.707,
+        "lat": 37.271,
+        "desde": 1776,
+        "hasta": 1776,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "hacendado"
+      ],
+      "resumen": "Hacendado de Virginia que redactó la Declaración de Derechos de Virginia (junio de 1776). En 1787 se negó a firmar la Constitución federal, entre otras razones por la falta de una declaración de derechos; era dueño de esclavos y criticaba la trata.",
+      "obras": [],
+      "wikipedia": {
+        "es": "George Mason",
+        "en": "George Mason"
+      },
+      "wikidata": "Q532329"
+    },
+    {
+      "id": "nathanael-greene",
+      "nombre": "Nathanael Greene",
+      "nacimiento": {
+        "anio": 1742,
+        "aprox": false,
+        "lugar": "Warwick",
+        "lon": -71.417,
+        "lat": 41.717
+      },
+      "muerte": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Savannah",
+        "lon": -81.104,
+        "lat": 32.051
+      },
+      "activo": {
+        "lugar": "Charleston (Carolina del Sur)",
+        "lon": -79.932,
+        "lat": 32.783,
+        "desde": 1780,
+        "hasta": 1783,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "General del Ejército Continental. Cuartelmaestre general (1778-1780) y luego comandante del Ejército del Sur (1780-1783), con el que, sin ganar las grandes batallas campales, desgastó a Cornwallis en las Carolinas y recuperó Charleston, evacuada por los británicos a fines de 1782.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nathanael Greene",
+        "en": "Nathanael Greene"
+      },
+      "wikidata": "Q366113"
+    },
+    {
+      "id": "henry-knox",
+      "nombre": "Henry Knox",
+      "nacimiento": {
+        "anio": 1750,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "muerte": {
+        "anio": 1806,
+        "aprox": false,
+        "lugar": "Thomaston (Maine)",
+        "lon": -69.181,
+        "lat": 44.079
+      },
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1785,
+        "hasta": 1790,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "politico"
+      ],
+      "resumen": "Librero de Boston y jefe de artillería del Ejército Continental, que en el invierno de 1775-1776 llevó a Boston los cañones tomados en Ticonderoga. Fue secretario de Guerra de la Confederación (1785-1789) y de Washington (1789-1794): se ocupó de los asuntos indígenas, propuso tratar con las naciones indias mediante tratados y compra de tierras y dirigió las operaciones de la guerra del noroeste.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Henry Knox",
+        "en": "Henry Knox"
+      },
+      "wikidata": "Q355680"
+    },
+    {
+      "id": "osceola",
+      "nombre": "Osceola",
+      "nacimiento": {
+        "anio": 1804,
+        "aprox": false,
+        "lugar": "Tallassee (Alabama)",
+        "lon": -85.893,
+        "lat": 32.539
+      },
+      "muerte": {
+        "anio": 1838,
+        "aprox": false,
+        "lugar": "Fort Moultrie",
+        "lon": -79.858,
+        "lat": 32.759
+      },
+      "activo": {
+        "lugar": "Fort King (Florida)",
+        "lon": -82.082,
+        "lat": 29.189,
+        "desde": 1835,
+        "hasta": 1837,
+        "aprox": false
+      },
+      "roles": [
+        "jefe",
+        "guerrero"
+      ],
+      "resumen": "Guerrero seminola nacido como Billy Powell en una aldea creek, hijo de madre muscogee. Se opuso al traslado al oeste previsto en el tratado de Payne's Landing y fue una figura de la segunda guerra seminola (1835-1842). El general Thomas Jesup lo capturó en octubre de 1837 en una entrevista de paz bajo bandera blanca; murió preso, de enfermedad, en Fort Moultrie. El 28 de diciembre de 1835 había matado en Fort King al agente Wiley Thompson, que había depuesto a los jefes contrarios al traslado y lo había tenido preso; ese ataque y la emboscada a la columna de Dade, el mismo día, abrieron la segunda guerra seminola.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Osceola",
+        "en": "Osceola"
+      },
+      "wikidata": "Q335165"
+    },
+    {
+      "id": "kazimierz-pulaski",
+      "nombre": "Kazimierz Pułaski",
+      "nacimiento": {
+        "anio": 1745,
+        "aprox": false,
+        "lugar": "Varsovia",
+        "lon": 21.011,
+        "lat": 52.23
+      },
+      "muerte": {
+        "anio": 1779,
+        "aprox": false,
+        "lugar": "Savannah",
+        "lon": -81.104,
+        "lat": 32.051
+      },
+      "activo": {
+        "lugar": "Savannah",
+        "lon": -81.104,
+        "lat": 32.051,
+        "desde": 1777,
+        "hasta": 1779,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Noble polaco que combatió en la Confederación de Bar y, exiliado, llegó a América en 1777. Se distinguió en Brandywine, organizó una legión de caballería e infantería y murió de una herida recibida en el asedio de Savannah (octubre de 1779).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Kazimierz Pułaski",
+        "en": "Casimir Pulaski"
+      },
+      "wikidata": "Q381854"
+    },
+    {
+      "id": "richard-henry-lee",
+      "nombre": "Richard Henry Lee",
+      "nacimiento": {
+        "anio": 1732,
+        "aprox": false,
+        "lugar": "Stratford Hall",
+        "lon": -76.84,
+        "lat": 38.152
+      },
+      "muerte": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Chantilly (condado de Westmoreland, Virginia)",
+        "lon": -76.8,
+        "lat": 38.11
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1774,
+        "hasta": 1779,
+        "aprox": false
+      },
+      "roles": [
+        "politico"
+      ],
+      "resumen": "Político de Virginia que el 7 de junio de 1776 presentó en el Congreso Continental la resolución según la cual las colonias unidas «son, y por derecho deben ser, estados libres e independientes», y firmó la Declaración. En 1787-1788 se opuso a ratificar la Constitución sin una declaración de derechos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Richard Henry Lee",
+        "en": "Richard Henry Lee"
+      },
+      "wikidata": "Q725907"
+    },
+    {
+      "id": "friedrich-wilhelm-von-steuben",
+      "nombre": "Friedrich Wilhelm von Steuben",
+      "nacimiento": {
+        "anio": 1730,
+        "aprox": false,
+        "lugar": "Magdeburgo",
+        "lon": 11.64,
+        "lat": 52.132
+      },
+      "muerte": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Steuben (Nueva York)",
+        "lon": -75.283,
+        "lat": 43.32
+      },
+      "activo": {
+        "lugar": "Valley Forge",
+        "lon": -75.439,
+        "lat": 40.097,
+        "desde": 1778,
+        "hasta": 1778,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Oficial prusiano que llegó a América a fines de 1777. En Valley Forge (invierno de 1777-1778) instruyó al Ejército Continental en un ejercicio común, que fijó después en un reglamento (1779), y fue inspector general del ejército.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Friedrich Wilhelm von Steuben",
+        "en": "Friedrich Wilhelm von Steuben"
+      },
+      "wikidata": "Q213525"
+    },
+    {
+      "id": "horatio-gates",
+      "nombre": "Horatio Gates",
+      "nacimiento": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Maldon",
+        "lon": 0.676,
+        "lat": 51.732
+      },
+      "muerte": {
+        "anio": 1806,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Saratoga",
+        "lon": -73.638,
+        "lat": 42.999,
+        "desde": 1777,
+        "hasta": 1780,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Oficial británico retirado, instalado en Virginia, que mandó el Ejército del Norte cuando Burgoyne se rindió en Saratoga (octubre de 1777), victoria cuyo mérito se reparte de forma discutida con Arnold y Daniel Morgan. Fue derrotado por Cornwallis en Camden (Carolina del Sur) el 16 de agosto de 1780.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Horatio Gates",
+        "en": "Horatio Gates"
+      },
+      "wikidata": "Q365124"
+    },
+    {
+      "id": "stephen-f-austin",
+      "nombre": "Stephen F. Austin",
+      "nacimiento": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Austinville",
+        "lon": -80.912,
+        "lat": 36.851
+      },
+      "muerte": {
+        "anio": 1836,
+        "aprox": false,
+        "lugar": "West Columbia",
+        "lon": -95.647,
+        "lat": 29.141
+      },
+      "activo": {
+        "lugar": "San Felipe de Austin",
+        "lon": -96.105,
+        "lat": 29.794,
+        "desde": 1821,
+        "hasta": 1836,
+        "aprox": false
+      },
+      "roles": [
+        "colonizador",
+        "empresario"
+      ],
+      "resumen": "Empresario que continuó el proyecto de su padre, Moses Austin, autorizado por España, y desde 1821, con permiso del gobierno de México, asentó en el Brazos a unas 300 familias angloamericanas, los «Old Three Hundred», muchas con esclavos; procuró que la esclavitud se mantuviera legal en Texas pese a la oposición del gobierno mexicano. La colonia se asentó en tierras karankawas de las desembocaduras del Colorado y el Brazos; tras los choques de 1823 (en Skull Creek la milicia mató a 19), Austin escribió que había que exterminarlos y en 1825 ordenó perseguirlos y matarlos, política que historiadores como Kelly F. Himmel («The Conquest of the Karankawas and the Tonkawas», 1999) describen como de exterminio. Tras su prisión en México (1834-1835) apoyó la guerra de Texas: mandó las fuerzas texanas en el sitio de Béxar (1835) y fue comisionado ante los Estados Unidos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Stephen Austin",
+        "en": "Stephen F. Austin"
+      },
+      "wikidata": "Q250040"
+    },
+    {
+      "id": "zebulon-pike",
+      "nombre": "Zebulon Pike",
+      "nacimiento": {
+        "anio": 1779,
+        "aprox": false,
+        "lugar": "Lamberton",
+        "lon": -74.76,
+        "lat": 40.211
+      },
+      "muerte": {
+        "anio": 1813,
+        "aprox": false,
+        "lugar": "York",
+        "lon": -79.372,
+        "lat": 43.65
+      },
+      "activo": {
+        "lugar": "Santa Fe (Nuevo México)",
+        "lon": -105.967,
+        "lat": 35.667,
+        "desde": 1807,
+        "hasta": 1807,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "explorador"
+      ],
+      "resumen": "Oficial del ejército estadounidense. En 1806-1807 dirigió una expedición hacia las cabeceras de los ríos Arkansas y Rojo; las autoridades españolas lo capturaron el 26 de febrero de 1807 en el sur del actual Colorado y lo llevaron a Santa Fe y a Chihuahua, y lo liberaron en la frontera de la Luisiana. Su informe de 1810 describió Nuevo México y Texas. Los historiadores discuten si la expedición fue además un reconocimiento militar de esas provincias encargado por el general James Wilkinson, que a la vez era agente pagado de España. Murió en la batalla de York (1813).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Zebulon Pike",
+        "en": "Zebulon Pike"
+      },
+      "wikidata": "Q169549"
+    },
+    {
+      "id": "louis-joseph-de-montcalm",
+      "nombre": "Louis-Joseph de Montcalm",
+      "nacimiento": {
+        "anio": 1712,
+        "aprox": false,
+        "lugar": "Nimes",
+        "lon": 4.36,
+        "lat": 43.838
+      },
+      "muerte": {
+        "anio": 1759,
+        "aprox": false,
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816
+      },
+      "activo": {
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816,
+        "desde": 1756,
+        "hasta": 1759,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Comandante de las tropas regulares francesas en Nueva Francia desde 1756. Tomó Oswego (1756) y Fort William Henry (1757) y murió el 14 de septiembre de 1759 por las heridas recibidas en la batalla de las llanuras de Abraham.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Louis-Joseph de Montcalm",
+        "en": "Louis-Joseph de Montcalm"
+      },
+      "wikidata": "Q453589"
+    },
+    {
+      "id": "wouter-van-twiller",
+      "nombre": "Wouter van Twiller",
+      "nacimiento": {
+        "anio": 1606,
+        "aprox": false,
+        "lugar": "Nijkerk",
+        "lon": 5.483,
+        "lat": 52.217
+      },
+      "muerte": {
+        "anio": 1654,
+        "aprox": false,
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367
+      },
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1633,
+        "hasta": 1637,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Director de los Nuevos Países Bajos (1633-1637), sobrino de Kiliaen van Rensselaer. Compró a los canarsee la isla Governors y no logró desalojar a los colonos de Nueva Inglaterra del valle del Connecticut; fue destituido en 1637 tras las quejas del oficial Lubbert van Dincklagen y lo sucedió Willem Kieft.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Wouter van Twiller",
+        "en": "Wouter van Twiller"
+      },
+      "wikidata": "Q2275715"
+    },
+    {
+      "id": "sebastiaen-jansen-krol",
+      "nombre": "Sebastiaen Jansen Krol",
+      "nacimiento": {
+        "anio": 1595,
+        "aprox": false,
+        "lugar": "Harlingen",
+        "lon": 5.427,
+        "lat": 53.174
+      },
+      "muerte": {
+        "anio": 1674,
+        "aprox": false,
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367
+      },
+      "activo": {
+        "lugar": "Fort Orange (Albany)",
+        "lon": -73.75,
+        "lat": 42.645,
+        "desde": 1624,
+        "hasta": 1633,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "colono"
+      ],
+      "resumen": "Consolador de enfermos de la Compañía de las Indias Occidentales, llegó a los Nuevos Países Bajos en 1624 y fue comandante de Fort Orange. Gestionó en 1630 la compra de las tierras de Rensselaerswyck y dirigió la colonia en 1632-1633, entre Minuit y Van Twiller.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sebastiaen Jansen Krol",
+        "en": "Sebastiaen Jansen Krol"
+      },
+      "wikidata": "Q3476858"
+    },
+    {
+      "id": "willem-verhulst",
+      "nombre": "Willem Verhulst",
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1625,
+        "hasta": 1626,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Empleado de la Compañía de las Indias Occidentales, director provisional de los Nuevos Países Bajos en 1625-1626, antes de Minuit. Se decidió en su gestión el emplazamiento del Fort Amsterdam en la punta de Manhattan; impopular entre los colonos, fue destituido y expulsado de la colonia en 1626, tras un proceso al que el consejo lo sometió a él y a su mujer, y volvió a los Países Bajos con la noticia de que Manhattan había sido comprada por mercancías valuadas en 60 florines. Algunos historiadores le atribuyen esa compra, que la versión tradicional pone a cargo de Minuit. No se conoce nada más de su vida.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Willem Verhulst",
+        "en": "Willem Verhulst"
+      },
+      "wikidata": "Q456989"
+    },
+    {
+      "id": "alejandro-o-reilly",
+      "nombre": "Alejandro O'Reilly",
+      "nacimiento": {
+        "anio": 1723,
+        "aprox": false,
+        "lugar": "Baltrasna (condado de Meath)",
+        "lon": -6.66,
+        "lat": 53.61
+      },
+      "muerte": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Bonete (Albacete)",
+        "lon": -1.348,
+        "lat": 38.872
+      },
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 1769,
+        "hasta": 1769,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Teniente general del ejército español, nacido en Irlanda. En 1769 mandó la expedición que restableció la autoridad española en la Luisiana tras la rebelión de 1768 contra el gobernador Ulloa: hizo ejecutar a cinco o seis cabecillas criollos, según la fuente, y desterró a otros. Prohibió el comercio de esclavos indígenas y abolió su esclavitud en la colonia, y permitió a los esclavos comprar su libertad.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alejandro O'Reilly",
+        "en": "Alejandro O'Reilly"
+      },
+      "wikidata": "Q1651702"
+    },
+    {
+      "id": "luis-de-unzaga",
+      "nombre": "Luis de Unzaga y Amézaga",
+      "nacimiento": {
+        "anio": 1717,
+        "aprox": false,
+        "lugar": "Málaga",
+        "lon": -4.417,
+        "lat": 36.717
+      },
+      "muerte": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Málaga",
+        "lon": -4.417,
+        "lat": 36.717
+      },
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 1769,
+        "hasta": 1777,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "militar"
+      ],
+      "resumen": "Gobernador de la Luisiana española entre fines de 1769 y 1777; luego capitán general de Venezuela y de Cuba. Toleró un comercio más abierto que el que fijaban las normas y en 1776-1777 envió en secreto pólvora de los almacenes reales, por el Misisipi y el Ohio, a las fuerzas rebeldes de Virginia, que llegó a Fort Pitt.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis de Unzaga y Amézaga",
+        "en": "Luis de Unzaga"
+      },
+      "wikidata": "Q3266890"
+    },
+    {
+      "id": "esteban-rodriguez-miro",
+      "nombre": "Esteban Rodríguez Miró",
+      "nacimiento": {
+        "anio": 1744,
+        "aprox": false,
+        "lugar": "Reus",
+        "lon": 1.109,
+        "lat": 41.155
+      },
+      "muerte": {
+        "anio": 1795,
+        "aprox": false,
+        "lugar": "Vergara (Guipúzcoa)",
+        "lon": -2.413,
+        "lat": 43.118
+      },
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 1782,
+        "hasta": 1791,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador"
+      ],
+      "resumen": "Oficial español que acompañó a Gálvez en las campañas de Florida Occidental (1779-1781) y fue gobernador interino (1782) y titular (1785-1791) de la Luisiana y Florida Occidental. Frente a los Estados Unidos, que reclamaban el paralelo 31, defendió el límite español más al norte (32° 28′, con Natchez) y en 1790 fortificó Nogales (hoy Vicksburg); recibió en 1787 la lealtad secreta de James Wilkinson, de Kentucky, y organizó en 1788 la ayuda tras el incendio que destruyó casi toda Nueva Orleans.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Esteban Rodríguez Miró",
+        "en": "Esteban Rodríguez Miró"
+      },
+      "wikidata": "Q2411994"
     }
   ],
   "hechos": [
