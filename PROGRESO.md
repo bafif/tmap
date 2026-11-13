@@ -40,15 +40,15 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 Lo cubierto y lo que falta, región por región, está en [el informe de cobertura](docs/es/cobertura.md).
 
 - [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lista lo que falta. Fuera de los paquetes de América no quedan tramos vacíos sin
-      revisar ni capas cortadas, y casi todas las fuentes tienen enlace de lectura o un motivo para no tenerlo. Falta lo
-      que destapan las rondas, porque completar una serie, una guerra o la obra de un autor la vuelve tema: unas 110
-      series de cargos de las guerras y el orden mundial (cada gobernante sumado abre la de su cargo), unos 20 eslabones
-      de obras de las letras y las ideas, y unos 215 huecos de prioridad alta y media en Tierra Santa, la Edad Media, la
-      Argentina y los celtas. Falta también la prioridad baja: unos 760 hechos sin fuentes, unas 30 fuentes sin enlace
-      en sitios que rechazan programas (fallos y censos argentinos, Gallica, HathiTrust), una revisión obra por obra de
-      los libros recientes que puedan tener edición de acceso abierto y unas 25 fuentes sin lugar de escritura; y los 13
-      paquetes de América, que todavía no tienen alcance fijado. Se rellena por rondas hasta que el informe de cada
+      informe --red --prioridad baja` lista lo que falta. Todos los paquetes tienen su alcance fijado, también los de
+      América, y la prioridad alta y media con red de los 39 se rellenó y se revisó una vez. Falta lo que destapa cada
+      ronda, porque completar una serie, una guerra o la obra de un autor la vuelve tema: hay que volver a correr la
+      detección con red de esos paquetes y rellenar lo que aparezca (sobre todo las series de cargos que abren los
+      gobernantes sumados). Falta también la prioridad baja: unos 1080 hechos sin fuentes, unas 45 fuentes sin enlace en
+      sitios que rechazan programas (fallos y censos argentinos, Gallica, HathiTrust, eScholarship, Science), unas 154
+      obras modernas de los paquetes de América que hay que revisar una por una por si tienen edición de acceso abierto
+      (la primera revisión quedó a medias porque OpenAlex sin clave agota su cupo diario), una decena de fuentes sin
+      lugar de escritura y siete tramos que cubren otros paquetes. Se rellena por rondas hasta que el informe de cada
       paquete no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del
       siglo XX de Brasil, México, Chile y el resto de América Latina, China después de Mao, la India independiente,
@@ -70,6 +70,14 @@ Lo cubierto y lo que falta, región por región, está en [el informe de cobertu
       OTAN, los ataques de 2025 y la guerra de 2026 contra Irán como fichas propias; un tema del
       terrorismo en Europa (Niza, Charlie Hebdo, Bataclán, Crocus); Sájarov y los disidentes soviéticos; la
       filtración de Frances Haugen y Facebook en PRISM; y Urartu, la Asiria media y los mahajanapadas como temas.
+- [ ] **Lo que quedó afuera de los temas americanos.** La historia de los Estados Unidos del siglo XIX (la política
+      antes de la guerra civil, su literatura, Texas en 1835-1836) y la de México después de 1821; Ecuador como tema
+      propio (Olmedo, y Flores y Rocafuerte después de 1830) y las repúblicas de la Nueva Granada y Venezuela después de
+      1830; la compra de la Luisiana (1803) y la disolución de la Gran Colombia como hechos propios; Filipinas en la Nueva
+      España (Legazpi, Salcedo); las guerras yaquis de 1825 a 1929; el terremoto de Lima de 1687, la rebelión de
+      Antequera en el Paraguay, el ataque de L'Hermite al Callao (1624) y las exploraciones del Pacífico sur del siglo
+      XVI; la cultura Chorrera; y la expedición de Franklin con los testimonios inuit. Fuera de América, Qibya (1953) y
+      el caso Lavon en Tierra Santa, y la crisis de Suez y la guerra civil rusa como hechos propios en las guerras.
 - [ ] **Religiones, culturas e idiomas de las regiones del mundo.** Las 32 regiones de
       `regiones-del-mundo.json` que no son de América ni Asia central (Siberia, Japón, África, Oceanía…) tienen resumen, eras y población, pero no esas tres
       capas: el modo de religión, cultura o idioma las deja rayadas. Faltan familias (sintoísmo, religiones
@@ -230,8 +238,13 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   siglo XX, las encíclicas y los textos de Lenin y la Comintern, los dirigentes de la Guerra Fría y de la Europa de
   hoy, y los siglos que cada tema tenía vacíos (la Asiria media, la India védica, la China Tang y Song, la Grecia
   arcaica, el Líbano de los maronitas y los drusos), con un hecho o un documento propio en cada uno o la decisión de
-  que lo cubre otro tema.
-- **Enlaces de lectura legales**: unas 400 fuentes más tienen un enlace al texto en Wikisource, el Proyecto Gutenberg,
+  que lo cubre otro tema. Los paquetes de América tienen su alcance fijado y ya entraron la Norteamérica colonial (la
+  guerra franco-india, los hitos de la independencia de los Estados Unidos, las guerras con los pueblos indígenas y el
+  traslado de los indios), la independencia de México y la República Federal de Centroamérica, los próceres de la
+  Nueva Granada y Venezuela hasta la Gran Colombia, los virreyes del Perú, los gobernadores y toquis de Chile, los
+  Incas de la tradición de los cronistas, los reyes de Portugal por lo que significaron para el Brasil, la revolución
+  haitiana con las matanzas de cada lado y los exploradores del Ártico.
+- **Enlaces de lectura legales**: unas 520 fuentes más tienen un enlace al texto en Wikisource, el Proyecto Gutenberg,
   Internet Archive o un sitio oficial, comprobado y marcado como de dominio público o de acceso abierto; las obras con
   derechos vigentes quedan sin enlace, con el motivo, y nunca se enlaza una copia que no sea legal.
 - **Los hechos, en el sitio donde pasaron**: 209 hechos que estaban en el centro de su ciudad van al lugar preciso,

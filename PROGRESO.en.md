@@ -40,16 +40,16 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 What's covered and what's missing, region by region, is in [the coverage report](docs/en/coverage.md).
 
 - [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lists what is missing. Outside the packages on the Americas there are no unreviewed
-      empty stretches or cut layers left, and almost every source has a reading link or a reason for not having one.
-      Still to do is what the rounds uncover, because completing a series, a war or an author's works makes it a topic:
-      about 110 series of offices in wars and world order (each ruler added opens the series of their office), about 20
-      links in chains of works in literature and ideas, and about 215 high- and medium-priority gaps in the Holy Land, the
-      Middle Ages, Argentina and the Celts. The low priority is also still to do: about 760 events without sources,
-      about 30 sources without a link on sites that reject programs (Argentine court rulings and censuses, Gallica,
-      HathiTrust), a book-by-book check of recent books that may have an open-access edition and about 25 sources with no
-      place of writing; and the 13 packages on the Americas, which do not have a fixed scope yet. It is filled in rounds
-      until each package's report shows nothing but decided gaps.
+      informe --red --prioridad baja` lists what is missing. Every package has its scope fixed, the ones on the Americas
+      too, and the high and medium priority found online in the 39 packages has been filled and reviewed once. Still to
+      do is what each round uncovers, because completing a series, a war or an author's works makes it a topic: the
+      online detection has to be run again on those packages and what shows up filled in (above all the series of
+      offices opened by the rulers added). The low priority is also still to do: about 1080 events without sources,
+      about 45 sources without a link on sites that reject programs (Argentine court rulings and censuses, Gallica,
+      HathiTrust, eScholarship, Science), about 154 modern works in the packages on the Americas to be checked one by
+      one for an open-access edition (the first check was left half done because OpenAlex without a key runs out of its
+      daily quota), a dozen sources with no place of writing and seven stretches covered by other packages. It is filled
+      in rounds until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century
       political history of Brazil, Mexico, Chile and the rest of Latin America, China after Mao, independent India,
       Africa after decolonization and Southeast Asia, with their own sources.
@@ -69,6 +69,14 @@ What's covered and what's missing, region by region, is in [the coverage report]
       2025 strikes and the 2026 war against Iran as entries of their own; a topic on terrorism in
       Europe (Nice, Charlie Hebdo, the Bataclan, Crocus); Sakharov and the Soviet dissidents; the Frances Haugen leak
       and Facebook in PRISM; and Urartu, Middle Assyria and the mahajanapadas as topics.
+- [ ] **What was left out of the topics on the Americas.** The history of the United States in the 19th century
+      (politics before the Civil War, its literature, Texas in 1835-1836) and of Mexico after 1821; Ecuador as a topic
+      of its own (Olmedo, and Flores and Rocafuerte after 1830) and the republics of New Granada and Venezuela after
+      1830; the Louisiana Purchase (1803) and the dissolution of Gran Colombia as events of their own; the Philippines in
+      New Spain (Legazpi, Salcedo); the Yaqui wars of 1825 to 1929; the 1687 Lima earthquake, the Antequera revolt in
+      Paraguay, L'Hermite's attack on Callao (1624) and the 16th-century explorations of the South Pacific; the Chorrera
+      culture; and the Franklin expedition with the Inuit testimony. Outside the Americas, Qibya (1953) and the Lavon
+      affair in the Holy Land, and the Suez Crisis and the Russian Civil War as events of their own in the wars.
 - [ ] **Religions, cultures and languages for the world regions.** The 32 regions in
       `regiones-del-mundo.json` outside the Americas and Central Asia (Siberia, Japan, Africa, Oceania…) have a summary, eras and population, but not those
       three layers: religion, culture or language mode leaves them hatched. Families are missing (Shinto, traditional
@@ -228,8 +236,13 @@ New packages reach installed copies as data updates, without waiting for an app 
   and thought, the encyclicals and the texts of Lenin and the Comintern, the leaders of the Cold War and of today's
   Europe, and the centuries each topic had empty (Middle Assyria, Vedic India, Tang and Song China, archaic Greece,
   the Lebanon of the Maronites and the Druze), with an event or a document of its own in each or the decision that
-  another topic covers it.
-- **Legal reading links**: about 400 more sources have a link to the text on Wikisource, Project Gutenberg, the
+  another topic covers it. The packages on the Americas have their scope fixed, and already in are colonial North
+  America (the French and Indian War, the milestones of the independence of the United States, the wars with
+  Indigenous peoples and Indian removal), the independence of Mexico and the Federal Republic of Central America, the
+  leaders of independence in New Granada and Venezuela up to Gran Colombia, the viceroys of Peru, the governors and
+  toquis of Chile, the Incas of the chroniclers' tradition, the kings of Portugal for what they meant to Brazil, the
+  Haitian Revolution with the massacres on each side, and the explorers of the Arctic.
+- **Legal reading links**: about 520 more sources have a link to the text on Wikisource, Project Gutenberg, the
   Internet Archive or an official site, checked and marked as public domain or open access; works still under
   copyright stay without a link, with the reason, and a copy that is not legal is never linked.
 - **Events at the site where they happened**: 209 events that sat at the center of their city move to the precise

@@ -1006,7 +1006,7 @@
       "titulo": "Leyes de libertad de los indios del Grão-Pará y Maranhão (1755)",
       "titulo_original": "Lei de 6 de junho de 1755",
       "autor": "José I de Portugal",
-      "autor_id": null,
+      "autor_id": "jose-i-de-portugal",
       "tipo": "primaria",
       "genero": "legal",
       "escrita": {
@@ -4378,7 +4378,9 @@
         "rey"
       ],
       "resumen": "Rey de Portugal (1750-1777), que dejó el gobierno en manos de Pombal. En su reinado el tratado de Madrid (1750) fue anulado por el de El Pardo (1761) tras la guerra guaranítica, se expulsó a los jesuitas del Brasil (1759) y la capital de la colonia pasó a Río de Janeiro (1763).",
-      "obras": [],
+      "obras": [
+        "leis-de-liberdade-1755"
+      ],
       "wikipedia": {
         "es": "José I de Portugal",
         "en": "Joseph I of Portugal"
