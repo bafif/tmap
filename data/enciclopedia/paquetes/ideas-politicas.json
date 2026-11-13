@@ -5771,6 +5771,114 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "nova-impendet",
+      "titulo": "Nova impendet (Sobre la crisis económica y el paro)",
+      "titulo_original": "Nova impendet",
+      "autor": "Pío XI",
+      "autor_id": "pio-xi",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1931,
+        "hasta": 1931
+      },
+      "idioma_original": "Latín",
+      "soporte": "Encíclica",
+      "resumen": "Encíclica de Pío XI del 2 de octubre de 1931 sobre la crisis económica: trata del paro de muchos obreros, de las familias y de los niños que lo sufren, y señala que la crisis va unida a una rivalidad entre los pueblos que los lleva a gastar sumas crecientes en armamento, para lo que renueva las advertencias de su predecesor. Llama a los católicos a una «cruzada de caridad y socorro» como la que había pedido Benedicto XV y da consejos para organizar la ayuda en las diócesis. Teme que la pobreza lleve a los hogares a la exasperación y anuncia un triduo de oración antes de la fiesta de Cristo Rey.",
+      "por_que_importa": "Es la primera encíclica de Pío XI dedicada a la crisis económica de los años treinta, que retoma Caritate Christi compulsi en 1932. Salió tres meses después de Non abbiamo bisogno.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en el sitio del Vaticano",
+          "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_02101931_nova-impendet.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Nova impendet"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "caritate-christi-compulsi",
+      "titulo": "Caritate Christi compulsi (Sobre la crisis mundial y el Sagrado Corazón)",
+      "titulo_original": "Caritate Christi compulsi",
+      "autor": "Pío XI",
+      "autor_id": "pio-xi",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1932,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1931,
+        "hasta": 1932
+      },
+      "idioma_original": "Latín",
+      "soporte": "Encíclica",
+      "resumen": "Encíclica de Pío XI del 3 de mayo de 1932 que vuelve sobre la crisis económica de Nova impendet: encuentra su raíz en la ambición y en el desequilibrio de las riquezas que ya había denunciado en Quadragesimo anno, y en un egoísmo entre las naciones que pervierte el amor a la patria en nacionalismo exagerado. Dice que los enemigos de todo orden, se llamen comunistas o de otro modo, aprovechan la crisis, y que el ateísmo se difunde con el cine, la radio y la imprenta. Alienta la Acción Católica y pide oración y penitencia al Sagrado Corazón.",
+      "por_que_importa": "Es la segunda de las encíclicas de Pío XI sobre la crisis económica y une el problema social con su rechazo del comunismo y del nacionalismo exagerado; en 1937 Pío XI trató del nazismo en Mit brennender Sorge y del comunismo en Divini Redemptoris. Se cita a veces con el título «Caritatis Christi compulsi», que es una variante errónea.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa en el sitio del Vaticano",
+          "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03051932_caritate-christi-compulsi.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Caritate Christi compulsi"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "hitlers-table-talk",
+      "titulo": "Las conversaciones privadas de Hitler (Tischgespräche)",
+      "titulo_original": "Tischgespräche im Führerhauptquartier",
+      "autor": "Heinrich Heim, Henry Picker, Hans Müller y Martin Bormann (notas de monólogos de Hitler)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1941,
+        "anio_hasta": 1944,
+        "aprox": true,
+        "lugar": "Cuarteles generales de Hitler (sobre todo la Guarida del Lobo; también Werwolf, en Vínnytsia)",
+        "lon": 21.494,
+        "lat": 54.079
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1941,
+        "hasta": 1944
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Notas de monólogos",
+      "resumen": "Serie de monólogos de Hitler en sus cuarteles generales entre 1941 y 1944, anotados por Heinrich Heim, Henry Picker, Hans Müller y Martin Bormann, que quería dejarlos a la posteridad. Tratan de la guerra y la política exterior, pero también de religión, cultura, filosofía y de sus enemigos y amigos. Picker publicó su versión alemana en 1951 y Werner Jochmann las notas de Bormann en 1980; los originales de Heim y Picker se perdieron. Las ediciones francesa (1952, de François Genoud) e inglesa (1953, con prólogo de Hugh Trevor-Roper) son discutidas.",
+      "por_que_importa": "Es una de las pocas fuentes sobre lo que Hitler decía en privado durante la guerra, y se cita sobre todo para su actitud hacia el cristianismo, pero su autenticidad se discute. Mikael Nilsson sostiene que las notas fueron muy editadas por Bormann y su equipo, y Richard Carrier (2003) y Nilsson (2016) mostraron que la edición inglesa se tradujo en buena parte de la francesa de Genoud y no del alemán; Richard Evans e Ian Kershaw la usan con cautela y recurren al alemán. En 2020 Nilsson concluyó que son, en su mayor parte, memorandos de cosas que Hitler dijo, pero no sus palabras textuales: las notas se tomaban a menudo al día siguiente, Bormann las retocó y los originales se perdieron, y no se pueden cotejar; por eso Nilsson sostiene que no debe figurar Hitler como autor.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Las conversaciones privadas de Hitler",
+        "en": "Hitler's Table Talk"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -8356,7 +8464,9 @@
         "non-abbiamo-bisogno",
         "dilectissima-nobis",
         "iniquis-afflictisque",
-        "acerba-animi"
+        "acerba-animi",
+        "nova-impendet",
+        "caritate-christi-compulsi"
       ],
       "wikipedia": {
         "es": "Pío XI",
@@ -9907,6 +10017,48 @@
       "wikipedia": {
         "es": "Contracumbre de Seattle",
         "en": "1999 Seattle WTO protests"
+      }
+    },
+    {
+      "id": "primera-guerra-de-independencia-italiana",
+      "titulo": "Primera guerra de independencia italiana",
+      "anio": 1848,
+      "anio_hasta": 1849,
+      "aprox": false,
+      "lugar": "Milán",
+      "lon": 9.19,
+      "lat": 45.467,
+      "tipo": "batalla",
+      "resumen": "Guerra del Reino de Cerdeña de Carlos Alberto, con voluntarios italianos, contra el Imperio austríaco, que se cuenta desde el 23 de marzo de 1848 hasta agosto de 1849 y que estalló tras las sublevaciones de Milán (las Cinco Jornadas) y Venecia. Los Estados Pontificios y el Reino de las Dos Sicilias apoyaron al comienzo y se retiraron enseguida. En la primera campaña, el mariscal Radetzky venció a los piamonteses en Custoza (julio de 1848) y el armisticio de Salasco, del 9 de agosto, los obligó a dejar Lombardía-Venecia; en la segunda, Cerdeña reanudó la guerra el 20 de marzo de 1849 y fue derrotada en Novara el 23, tras lo cual Carlos Alberto abdicó en favor de su hijo Víctor Manuel. Aparte de la guerra real hubo revoluciones en Sicilia, Toscana y los Estados Pontificios (la «guerra popular», en la que se destacó Garibaldi), que también fracasaron.",
+      "regiones": [
+        "galia-cisalpina",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Primera guerra de Independencia italiana",
+        "en": "First Italian War of Independence"
+      }
+    },
+    {
+      "id": "segunda-guerra-de-independencia-italiana",
+      "titulo": "Segunda guerra de independencia italiana",
+      "anio": 1859,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Solferino",
+      "lon": 10.566,
+      "lat": 45.372,
+      "tipo": "batalla",
+      "resumen": "Guerra de 1859 en que el Reino de Cerdeña y el Segundo Imperio francés, aliados por el acuerdo secreto de Plombières (julio de 1858), que formalizaron en el tratado de alianza de enero de 1859, enfrentaron al Imperio austríaco. Austria envió un ultimátum el 23 de abril y empezó la guerra el 26; Francia le declaró la guerra el 3 de mayo. Los franco-sardos vencieron en Magenta (4 de junio) y en Solferino (24 de junio), y Napoleón III firmó por su cuenta el armisticio de Villafranca (12 de julio), que entregaba Lombardía a Francia para que la cediera a Cerdeña; Cavour renunció en protesta. En marzo de 1860 Cerdeña anexó los Ducados y las Legaciones de Italia central y cedió Saboya y Niza a Francia como compensación, cesión que Garibaldi, nacido en Niza, rechazó.",
+      "regiones": [
+        "galia-cisalpina",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Segunda guerra de Independencia italiana",
+        "en": "Second Italian War of Independence"
       }
     }
   ],

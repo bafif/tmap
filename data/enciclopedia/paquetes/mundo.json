@@ -8579,6 +8579,139 @@
         "en": "Palace of Nestor"
       },
       "confianza": "media"
+    },
+    {
+      "id": "bucolicas",
+      "titulo": "Bucólicas",
+      "titulo_original": "Eclogae",
+      "autor": "Virgilio",
+      "autor_id": "virgilio",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -42,
+        "anio_hasta": -38,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": -44,
+        "hasta": -38
+      },
+      "idioma_original": "Latín",
+      "soporte": "Colección de diez poemas en hexámetros",
+      "resumen": "Diez poemas pastoriles, llamados églogas, en los que pastores conversan o cantan en escenarios rurales. Virgilio los modeló sobre los idilios del poeta griego Teócrito, pero suma una dimensión política que este no tiene. Las églogas 1 y 9 tratan de las confiscaciones de tierras para los veteranos, que según la tradición alcanzaron una finca de su familia cerca de Mantua; la 4, dirigida a Asinio Polión, usa la imagen de la edad de oro junto al nacimiento de un niño cuya identidad se discute. Según la tradición empezó a escribirlos en 42 a. C. y se publicaron hacia 39-38 a. C., fecha que se discute.",
+      "por_que_importa": "Es la primera de las tres grandes obras de Virgilio, antes de las Geórgicas y la Eneida. Su mezcla de política y erotismo, y su puesta en escena en el teatro romano, lo volvieron célebre en vida.",
+      "leer": [
+        {
+          "titulo": "Traducciones al español de fray Luis de León y de Eugenio de Ochoa (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Buc%C3%B3licas",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino de J. B. Greenough en Perseus (Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0056",
+          "idioma": "la",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Bucólicas",
+        "en": "Eclogues"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "georgicas",
+      "titulo": "Geórgicas",
+      "titulo_original": "Georgica",
+      "autor": "Virgilio",
+      "autor_id": "virgilio",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -37,
+        "anio_hasta": -29,
+        "aprox": true,
+        "lugar": "Nápoles",
+        "lon": 14.249,
+        "lat": 40.836
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": -37,
+        "hasta": -29
+      },
+      "idioma_original": "Latín",
+      "soporte": "Poema didáctico en cuatro libros",
+      "resumen": "Poema didáctico de 2188 hexámetros en cuatro libros, dedicado a Mecenas: cultivo de la tierra y presagios del tiempo, árboles, vid y olivo, ganadería y apicultura. Sigue en el género a Hesíodo (Los trabajos y los días) y toma como modelo la obra agrícola de Varrón. Incluye el elogio de Italia y, en el libro I, los presagios que acompañaron la muerte de César y la guerra civil, de los que solo Octavio ofrece salvación; su tono entre el optimismo y el pesimismo hace que se discuta qué se proponía. Virgilio lo compuso probablemente entre el 37 y el 29 a. C., y en los últimos versos dice que lo escribió en Nápoles (Parténope).",
+      "por_que_importa": "Es la segunda de las grandes obras de Virgilio, entre las Bucólicas y la Eneida, y fundó la poesía didáctica posterior. La tradición dice que Virgilio y Mecenas se turnaron para leérselo a Octavio cuando volvió de vencer a Antonio y Cleopatra en Accio (31 a. C.).",
+      "leer": [
+        {
+          "titulo": "Texto latino en Wikisource",
+          "url": "https://la.wikisource.org/wiki/Georgica_(Hachette)",
+          "idioma": "la",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Traducciones al español de Eugenio de Ochoa y de fray Luis de León (Wikisource)",
+          "url": "https://es.wikisource.org/wiki/Ge%C3%B3rgicas",
+          "idioma": "es",
+          "dominio_publico": true
+        },
+        {
+          "titulo": "Texto latino de J. B. Greenough en Perseus (Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0059",
+          "idioma": "la",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Geórgicas",
+        "en": "Georgics"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "himnos-homericos",
+      "titulo": "Himnos homéricos",
+      "titulo_original": "Ὁμηρικοὶ ὕμνοι",
+      "autor": "Poetas anónimos (atribuidos en la Antigüedad a Homero)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": -700,
+        "anio_hasta": -500,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": -700,
+        "hasta": -500
+      },
+      "idioma_original": "Griego homérico",
+      "soporte": "Colección de 33 himnos y un epigrama",
+      "resumen": "Colección de treinta y tres himnos a dioses del panteón griego y un epigrama, en hexámetros dactílicos y en el dialecto literario de la Ilíada y la Odisea. Cuentan el nacimiento de una deidad, su acogida entre los dioses del Olimpo o la fundación de su culto; los más largos son los himnos 2 a 5, a Deméter, Apolo, Hermes y Afrodita. En la Antigüedad se los atribuía a Homero —Píndaro y Tucídides le atribuyen el himno a Apolo—, pero la mayoría se fecha en los siglos VII y VI a. C.; el más tardío, el himno a Ares, podría ser de hasta el siglo V d. C.",
+      "por_que_importa": "Los poetas alejandrinos (Calímaco, Teócrito, Apolonio de Rodas) los usaron mucho, y influyeron en poetas romanos como Lucrecio, Catulo, Virgilio, Horacio y Ovidio. Todos los manuscritos conservados son del siglo XV; la primera edición impresa, de Demetrio Calcóndilas, es de 1488-1489.",
+      "leer": [
+        {
+          "titulo": "Traducción inglesa de H. G. Evelyn-White en Perseus (Universidad Tufts)",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0138",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Himnos homéricos",
+        "en": "Homeric Hymns"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -10243,7 +10376,9 @@
       ],
       "resumen": "Poeta romano de la época de Augusto, autor de las Bucólicas, las Geórgicas y la Eneida, el poema épico sobre el origen troyano de Roma. Según su biógrafo Donato, murió sin terminar de revisar la Eneida y pidió que se destruyera; Augusto ordenó publicarla.",
       "obras": [
-        "eneida"
+        "eneida",
+        "bucolicas",
+        "georgicas"
       ],
       "wikipedia": {
         "es": "Virgilio",
@@ -12973,6 +13108,158 @@
       "wikipedia": {
         "es": "Invasión mongola de Corasmia",
         "en": "Mongol invasion of the Khwarazmian Empire"
+      }
+    },
+    {
+      "id": "batalla-de-artemisio",
+      "titulo": "Batalla de Artemisio",
+      "anio": -480,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cabo Artemisio",
+      "lon": 23.318,
+      "lat": 39.053,
+      "tipo": "batalla",
+      "resumen": "Serie de combates navales de tres días, en agosto o septiembre de 480 a. C., entre la flota aliada griega (unas 271 trirremes, con espartanos, atenienses y corintios) y la de Jerjes I, frente a la costa norte de Eubea y a la vez que la batalla de las Termópilas. Antes de llegar, una tormenta frente a Magnesia destruyó, según Heródoto, unas 400 naves persas, y otra hundió los 200 barcos enviados a rodear Eubea. Tras el último día, de pérdidas parecidas en ambos bandos pero más graves para los aliados, que eran menos, estos se retiraron a Salamina al saber de la derrota en las Termópilas.",
+      "regiones": [
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Artemisio",
+        "en": "Battle of Artemisium"
+      }
+    },
+    {
+      "id": "batalla-de-platea",
+      "titulo": "Batalla de Platea",
+      "anio": -479,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Platea",
+      "lon": 23.318,
+      "lat": 38.24,
+      "tipo": "batalla",
+      "resumen": "Última gran batalla terrestre de la segunda guerra médica, en agosto de 479 a. C. cerca de Platea, en Beocia: el ejército de la liga griega, con los espartanos de Pausanias, enfrentó al persa de Mardonio, aliado de beocios, tesalios y macedonios. Tras once días de espera, la línea griega se fragmentó durante un repliegue; Mardonio, creyendo que huían, ordenó perseguirlos, y los espartanos, tegeos y atenienses resistieron, rompieron a la infantería persa y mataron a Mardonio. Heródoto (IX, 70) cuenta que de unos 300 000 persas, 40 000 huyeron con Artabazo y de los demás no sobrevivieron ni 3000, y que los griegos perdieron 91 espartanos, 16 tegeos y 52 atenienses; Plutarco da 1360 bajas griegas y Diodoro más de 10 000. Los historiadores modernos estiman el ejército persa entre unos 70 000 (Lazenby) y 120 000 (Connolly).",
+      "regiones": [
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Platea",
+        "en": "Battle of Plataea"
+      }
+    },
+    {
+      "id": "batalla-de-micala",
+      "titulo": "Batalla de Mícala",
+      "anio": -479,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Monte Mícala",
+      "lon": 27.157,
+      "lat": 37.691,
+      "tipo": "batalla",
+      "resumen": "Batalla del 27 o 28 de agosto de 479 a. C. en la costa de Jonia, frente a Samos, en que la flota aliada griega, al mando del rey espartano Leotíquidas, desembarcó a sus soldados y atacó el campamento fortificado de los persas al pie del monte Mícala. Los griegos de Jonia que servían a los persas pasaron al otro bando, y los persas huyeron a su campamento. Heródoto (IX, 90) dice que ocurrió el mismo día que Platea, cosa que historiadores modernos ponen en duda; cuenta también que las naves persas fueron capturadas e incendiadas, lo que Iain McDougall discute. George Cawkwell lo juzga un episodio menor cuyas consecuencias fueron grandes: tras Platea y Mícala los griegos pasaron a la ofensiva.",
+      "regiones": [
+        "anatolia",
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Mícala",
+        "en": "Battle of Mycale"
+      }
+    },
+    {
+      "id": "inicio-del-dominado",
+      "titulo": "Proclamación de Diocleciano (comienzo tradicional del Dominado)",
+      "anio": 284,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nicomedia",
+      "lon": 29.918,
+      "lat": 40.763,
+      "tipo": "politico",
+      "resumen": "El 20 de noviembre de 284 el ejército de Oriente aclamó emperador a Diocleciano en una colina a unos 5 km de Nicomedia, y con su reinado se fecha tradicionalmente el comienzo del «Dominado». Theodor Mommsen propuso el término en el siglo XIX para contraponer este régimen, en que el emperador pasa a ser el Estado, al Principado de Augusto. Cada vez más historiadores rechazan esa ruptura constitucional: Jochen Bleicken sostuvo en 1978 que ninguno de los dos términos sirve para periodizar, y el Oxford Classical Dictionary considera «dominado» un término analítico casi en desuso.",
+      "regiones": [
+        "anatolia",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Dominado",
+        "en": "Dominate"
+      }
+    },
+    {
+      "id": "concilio-de-efeso",
+      "titulo": "Concilio de Éfeso",
+      "anio": 431,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Éfeso",
+      "lon": 27.3417,
+      "lat": 37.9411,
+      "tipo": "religioso",
+      "resumen": "Tercer concilio ecuménico, convocado por el emperador Teodosio II y reunido desde el 22 de junio de 431 en la iglesia de María de Éfeso, con unos 250 obispos; su cierre se da entre el 16 y el 31 de julio según la fuente. Confirmó el credo de Nicea, condenó a Nestorio, patriarca de Constantinopla, que prefería llamar a María «madre de Cristo» (Christotokos) y no «madre de Dios» (Theotokos), y proclamó a María Theotokos, en favor de Cirilo de Alejandría. Cirilo abrió las sesiones antes de que llegara Juan de Antioquía, y este y los obispos sirios celebraron un concilio aparte, con lo que hubo dos asambleas enfrentadas. Las iglesias que apoyaban a Nestorio quedaron separadas; la Iglesia de Persia, autónoma desde 424, adoptó en las décadas siguientes la teología de Teodoro de Mopsuestia y se la llamó «nestoriana», nombre que ella no acepta (la Iglesia asiria del Oriente y la católica firmaron una declaración cristológica común en 1994).",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Concilio de Éfeso",
+        "en": "Council of Ephesus"
+      }
+    },
+    {
+      "id": "sultanatos-del-decan",
+      "titulo": "Los sultanatos del Decán",
+      "anio": 1490,
+      "anio_hasta": 1687,
+      "aprox": false,
+      "lugar": "Bidar",
+      "lon": 77.55,
+      "lat": 17.9,
+      "tipo": "politico",
+      "resumen": "Cinco reinos musulmanes de la meseta del Decán —Ahmadnagar, Berar, Bidar, Bijapur y Golconda—, nacidos de la desintegración del Sultanato Bahmaní. Ahmadnagar, Bijapur y Berar se declararon independientes en 1490; las fechas de Bidar y Golconda varían según el autor (hacia 1492 y 1512, o 1528 y 1518). Rivales entre sí, cuatro de ellos (todos menos Berar) se aliaron en 1565 y derrotaron en Talikota al Imperio de Vijayanagara. Los mogoles conquistaron Ahmadnagar entre 1616 y 1636, y Golconda y Bijapur en la campaña de Aurangzeb de 1686-1687. «Sultanatos del Decán» es un término historiográfico,.",
+      "regiones": [
+        "sur-de-la-india",
+        "india"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Sultanatos del Decán",
+        "en": "Deccan sultanates"
+      }
+    },
+    {
+      "id": "siglos-oscuros-de-grecia",
+      "titulo": "Los siglos oscuros de Grecia",
+      "anio": -1100,
+      "anio_hasta": -800,
+      "aprox": true,
+      "lugar": "Grecia",
+      "lon": 23.0,
+      "lat": 38.5,
+      "tipo": "cultural",
+      "resumen": "Período de la historia griega entre el colapso de la civilización micénica y la época arcaica; unos lo cuentan desde c. 1180 y otros desde entre 1200 y 1100 a. C., hasta c. 800 a. C. Se lo llama «oscuro» por la escasez de fuentes: se dejó de usar el lineal B, y el alfabeto griego, tomado de los fenicios, se desarrolló hacia el final del período. Hubo menos asentamientos y más chicos, y la cerámica pasó a decoraciones geométricas. Hallazgos como los de Lefkandi, en Eubea, muestran que algunas zonas fueron más ricas y estuvieron más conectadas de lo que se pensaba.",
+      "regiones": [
+        "grecia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Edad Oscura",
+        "en": "Greek Dark Ages"
       }
     }
   ],

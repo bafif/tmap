@@ -3639,6 +3639,43 @@
         "en": "GPT-2"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "gpt-1",
+      "titulo": "Mejorando la comprensión del lenguaje mediante preentrenamiento generativo",
+      "titulo_original": "Improving Language Understanding by Generative Pre-Training",
+      "autor": "Alec Radford y otros (OpenAI)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2018,
+        "hasta": 2018
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe técnico de OpenAI (junio de 2018)",
+      "resumen": "Presenta GPT-1, el primer modelo de lenguaje grande de OpenAI y el modelo que después se conoció como GPT (transformador preentrenado generativo), nombre que el informe todavía no usa. Es un transformer de solo decodificador, con doce capas y 117 millones de parámetros, que se entrena en dos etapas: un preentrenamiento no supervisado sobre texto sin etiquetar y un ajuste fino supervisado para cada tarea, con cambios mínimos en la arquitectura. Superó a modelos diseñados para cada tarea en varias pruebas: mejoró entre un 1,5 y un 5,8 % los mejores resultados previos en inferencia de lenguaje natural, un 5,7 % en la prueba de comprensión RACE y un 8,9 % en Story Cloze, y obtuvo 72,8 puntos en GLUE frente a los 68,9 anteriores.",
+      "por_que_importa": "Es el punto de partida de la serie GPT: aplicó a un modelo de lenguaje el transformer que Google había presentado en 2017 y mostró que el preentrenamiento con texto sin etiquetar servía para muchas tareas. GPT-2, de 2019, lo amplió.",
+      "leer": [
+        {
+          "titulo": "Informe técnico en el sitio de OpenAI",
+          "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "GPT-1"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -8406,6 +8443,27 @@
       "wikipedia": {
         "es": "Google DeepMind",
         "en": "Google DeepMind"
+      }
+    },
+    {
+      "id": "intel-8080",
+      "titulo": "Intel 8080",
+      "anio": 1974,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santa Clara (California)",
+      "lon": -121.967,
+      "lat": 37.35,
+      "tipo": "cientifico",
+      "resumen": "Microprocesador de 8 bits que Intel lanzó en abril de 1974 como sucesor del 8008, sin ser compatible con él en código binario. Federico Faggin fue su arquitecto principal, con Masatoshi Shima y Stanley Mazor, y los tres figuran en su única patente. Su encapsulado de 40 pines y su bus de direcciones de 16 bits le daban acceso a 64 KB de memoria. Fue el procesador de las primeras computadoras personales como la Altair 8800, el procesador original del sistema operativo CP/M y el modelo en que se inspiró el lenguaje ensamblador de la familia x86.",
+      "regiones": [
+        "california-indigena",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Intel 8080",
+        "en": "Intel 8080"
       }
     }
   ],
