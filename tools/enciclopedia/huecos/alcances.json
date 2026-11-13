@@ -1,4 +1,35 @@
 {
+  "andes-antiguos-e-incas": {
+    "desde": -3000,
+    "hasta": 1540,
+    "regiones": [
+      "andes",
+      "chile",
+      "noroeste-argentino",
+      "norte-de-sudamerica"
+    ],
+    "nucleo": [
+      "andes"
+    ],
+    "hechos": [
+      "batalla",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "antropologo",
+      "cronista",
+      "historiador",
+      "sacerdote"
+    ],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 17,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 8
+    }
+  },
   "argentina-1862-1912": {
     "desde": 1860,
     "hasta": 1920,
@@ -76,6 +107,73 @@
       "fuentes_mediana": 3,
       "personas": 9,
       "personas_mediana": 23
+    }
+  },
+  "brasil-colonial-y-amazonia": {
+    "desde": 400,
+    "hasta": 1830,
+    "regiones": [
+      "amazonia-andina",
+      "amazonia-brasilena",
+      "brasil"
+    ],
+    "nucleo": [
+      "brasil"
+    ],
+    "hechos": [
+      "batalla",
+      "exploracion",
+      "religioso",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "cronista",
+      "explorador",
+      "gobernador",
+      "historiador",
+      "militar",
+      "naturalista"
+    ],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 12,
+      "fuentes": 5,
+      "fuentes_mediana": 7,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
+  "caribe-indigena-y-colonial": {
+    "desde": -5000,
+    "hasta": 1810,
+    "regiones": [
+      "caribe",
+      "centroamerica"
+    ],
+    "nucleo": [
+      "caribe"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "exploracion",
+      "religioso",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "escritor",
+      "general",
+      "gobernador",
+      "historiador"
+    ],
+    "profundidad": {
+      "hechos": 8,
+      "hechos_mediana": 11,
+      "fuentes": 5,
+      "fuentes_mediana": 5,
+      "personas": 8,
+      "personas_mediana": 14
     }
   },
   "celtas-de-britania-e-irlanda": {
@@ -264,6 +362,37 @@
       "personas_mediana": 14
     }
   },
+  "chile-colonial-y-araucania": {
+    "desde": -7000,
+    "hasta": 1810,
+    "regiones": [
+      "chile"
+    ],
+    "nucleo": [
+      "chile"
+    ],
+    "hechos": [
+      "batalla",
+      "exploracion",
+      "religioso",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "gobernador",
+      "historiador",
+      "militar"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 6,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 7
+    }
+  },
   "ciencia-y-tecnologia": {
     "desde": 1900,
     "hasta": 2026,
@@ -290,6 +419,40 @@
       "personas_mediana": 78
     }
   },
+  "conquista-y-virreinato-del-peru": {
+    "desde": 1520,
+    "hasta": 1830,
+    "regiones": [
+      "amazonia-andina",
+      "andes",
+      "norte-de-sudamerica"
+    ],
+    "nucleo": [
+      "andes"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "religioso",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "escritor",
+      "gobernador",
+      "militar",
+      "pintor"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 7,
+      "fuentes": 5,
+      "fuentes_mediana": 4,
+      "personas": 8,
+      "personas_mediana": 11
+    }
+  },
   "cultura-libre-y-hackers": {
     "desde": 1970,
     "hasta": 2026,
@@ -311,6 +474,35 @@
       "fuentes_mediana": 17,
       "personas": 19,
       "personas_mediana": 34
+    }
+  },
+  "debates-sobre-la-conquista-de-america": {
+    "desde": 1490,
+    "hasta": 2026,
+    "regiones": [
+      "andes",
+      "brasil",
+      "caribe",
+      "iberia",
+      "mesoamerica",
+      "norteamerica",
+      "rio-de-la-plata"
+    ],
+    "nucleo": [
+      "andes",
+      "caribe",
+      "mesoamerica",
+      "norteamerica"
+    ],
+    "hechos": [],
+    "ocupaciones": [],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 15,
+      "fuentes": 5,
+      "fuentes_mediana": 4,
+      "personas": 8,
+      "personas_mediana": 12
     }
   },
   "edad-media": {
@@ -636,6 +828,65 @@
       "personas_mediana": 130
     }
   },
+  "mesoamerica-antigua": {
+    "desde": -1600,
+    "hasta": 1600,
+    "regiones": [
+      "area-maya",
+      "mesoamerica"
+    ],
+    "nucleo": [
+      "mesoamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "cronista"
+    ],
+    "profundidad": {
+      "hechos": 9,
+      "hechos_mediana": 21,
+      "fuentes": 6,
+      "fuentes_mediana": 13,
+      "personas": 8,
+      "personas_mediana": 11
+    }
+  },
+  "mexica-y-conquista-de-mexico": {
+    "desde": 1300,
+    "hasta": 1700,
+    "regiones": [
+      "area-maya",
+      "aridoamerica",
+      "centroamerica",
+      "mesoamerica"
+    ],
+    "nucleo": [
+      "mesoamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "exploracion",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "gobernador",
+      "historiador"
+    ],
+    "profundidad": {
+      "hechos": 7,
+      "hechos_mediana": 16,
+      "fuentes": 5,
+      "fuentes_mediana": 8,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
   "mundo": {
     "desde": -1760,
     "hasta": 1830,
@@ -686,6 +937,153 @@
       "personas_mediana": 129
     }
   },
+  "norteamerica-colonial": {
+    "desde": 1490,
+    "hasta": 1840,
+    "regiones": [
+      "aridoamerica",
+      "bosques-del-noreste",
+      "norteamerica",
+      "sudeste-norteamericano"
+    ],
+    "nucleo": [
+      "bosques-del-noreste",
+      "norteamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "exploracion",
+      "religioso",
+      "revolucion",
+      "tratado"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "escritor",
+      "explorador",
+      "gobernador",
+      "militar",
+      "misionero",
+      "presidente"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 12,
+      "fuentes": 5,
+      "fuentes_mediana": 6,
+      "personas": 10,
+      "personas_mediana": 19
+    }
+  },
+  "norteamerica-indigena": {
+    "desde": -3500,
+    "hasta": 1750,
+    "regiones": [
+      "bosques-del-noreste",
+      "grandes-llanuras",
+      "norteamerica",
+      "sudeste-norteamericano",
+      "suroeste-norteamericano"
+    ],
+    "nucleo": [
+      "bosques-del-noreste",
+      "norteamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "antropologo",
+      "naturalista"
+    ],
+    "profundidad": {
+      "hechos": 7,
+      "hechos_mediana": 21,
+      "fuentes": 5,
+      "fuentes_mediana": 5,
+      "personas": 8,
+      "personas_mediana": 4
+    }
+  },
+  "nueva-espana-y-centroamerica": {
+    "desde": 1500,
+    "hasta": 1840,
+    "regiones": [
+      "area-maya",
+      "aridoamerica",
+      "centroamerica",
+      "mesoamerica"
+    ],
+    "nucleo": [
+      "centroamerica",
+      "mesoamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "religioso",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "conquistador",
+      "cronista",
+      "escritor",
+      "historiador",
+      "medico",
+      "militar",
+      "obispo",
+      "politico",
+      "sacerdote"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 11,
+      "fuentes": 5,
+      "fuentes_mediana": 5,
+      "personas": 8,
+      "personas_mediana": 14
+    }
+  },
+  "nueva-granada-venezuela-y-guayanas": {
+    "desde": -1000,
+    "hasta": 1830,
+    "regiones": [
+      "norte-de-sudamerica"
+    ],
+    "nucleo": [
+      "norte-de-sudamerica"
+    ],
+    "hechos": [
+      "batalla",
+      "exploracion",
+      "religioso",
+      "revolucion"
+    ],
+    "ocupaciones": [
+      "antropologo",
+      "conquistador",
+      "cronista",
+      "escritor",
+      "gobernador",
+      "historiador",
+      "jurista",
+      "militar",
+      "misionero",
+      "politico"
+    ],
+    "profundidad": {
+      "hechos": 5,
+      "hechos_mediana": 10,
+      "fuentes": 5,
+      "fuentes_mediana": 3,
+      "personas": 8,
+      "personas_mediana": 10
+    }
+  },
   "pensamiento-economico": {
     "desde": 1770,
     "hasta": 2026,
@@ -714,6 +1112,38 @@
       "fuentes_mediana": 10,
       "personas": 29,
       "personas_mediana": 45
+    }
+  },
+  "poblamiento-de-america-y-artico": {
+    "desde": -21000,
+    "hasta": 2026,
+    "regiones": [
+      "artico-norteamericano",
+      "groenlandia",
+      "norteamerica"
+    ],
+    "nucleo": [
+      "artico-norteamericano",
+      "groenlandia"
+    ],
+    "hechos": [
+      "batalla",
+      "desastre",
+      "exploracion",
+      "religioso"
+    ],
+    "ocupaciones": [
+      "antropologo",
+      "explorador",
+      "misionero"
+    ],
+    "profundidad": {
+      "hechos": 17,
+      "hechos_mediana": 27,
+      "fuentes": 17,
+      "fuentes_mediana": 22,
+      "personas": 9,
+      "personas_mediana": 17
     }
   },
   "pueblos-originarios-del-cono-sur": {
