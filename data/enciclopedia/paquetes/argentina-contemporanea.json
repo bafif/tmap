@@ -3698,6 +3698,39 @@
         "en": "Tomás Eloy Martínez"
       },
       "confianza": "media"
+    },
+    {
+      "id": "santa-evita",
+      "titulo": "Santa Evita",
+      "titulo_original": null,
+      "autor": "Tomás Eloy Martínez",
+      "autor_id": "tomas-eloy-martinez",
+      "tipo": "secundaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1952,
+        "hasta": 1976
+      },
+      "idioma_original": "Español",
+      "soporte": "Novela",
+      "resumen": "Novela de Tomás Eloy Martínez que mezcla hechos reales y ficción sobre la vida de Eva Perón y, sobre todo, sobre el destino de su cadáver embalsamado, del que se apoderó el Ejército tras el derrocamiento de Perón en 1955: venerado como reliquia, los militares quisieron sacarlo del alcance del peronismo y dudaron entre ocultarlo o destruirlo, según la trama de la novela. Vargas Llosa la llamó «novela maestra»; Michiko Kakutani, en The New York Times, escribió que el conjunto «se siente pesado y atado a la tierra».",
+      "por_que_importa": "Fue un éxito de ventas en la Argentina y se tradujo a muchos idiomas. Es una novela, no una investigación histórica: sus episodios no deben tomarse como documentación.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Santa Evita",
+        "en": "Santa Evita"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -8763,13 +8796,382 @@
       ],
       "resumen": "Escritor y periodista tucumano. En 1973 publicó «La pasión según Trelew», sobre la masacre de 1972; amenazado por la Triple A, vivió exiliado en Caracas de 1975 a 1983. Es autor de «La novela de Perón» (1985) y «Santa Evita» (1995).",
       "obras": [
-        "la-pasion-segun-trelew"
+        "la-pasion-segun-trelew",
+        "santa-evita"
       ],
       "wikipedia": {
         "es": "Tomás Eloy Martínez",
         "en": "Tomás Eloy Martínez"
       },
       "wikidata": "Q1362119"
+    },
+    {
+      "id": "diego-mason",
+      "nombre": "Diego Mason",
+      "nacimiento": {
+        "anio": 1887,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1946,
+        "hasta": 1948,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general. Integró el grupo de generales conspiradores de Rawson que derrocó a Castillo en 1943 y fue ministro de Agricultura e interinamente de Relaciones Exteriores con Ramírez y Farrell. Fue comandante en jefe del Ejército de 1946 a 1948, en el primer gobierno de Perón, y pasó a retiro en 1948.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego I. Mason"
+      },
+      "wikidata": "Q5806251"
+    },
+    {
+      "id": "angel-solari",
+      "nombre": "Ángel Solari",
+      "nacimiento": {
+        "anio": 1892,
+        "aprox": false,
+        "lugar": "Paraná",
+        "lon": -60.53,
+        "lat": -31.733
+      },
+      "muerte": {
+        "anio": 1975,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1950,
+        "hasta": 1951,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general, primer gobernador de la Zona Militar de Comodoro Rivadavia (1944-1945) y comandante en jefe del Ejército desde 1950 hasta el 14 de noviembre de 1951, cuando Perón lo pasó a retiro después del intento de golpe del 28 de septiembre de 1951, el de Benjamín Menéndez y Guillermo Zinny, que él había contribuido a sofocar en pocas horas y en el que, según su biografía, no había participado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ángel Ovidio Solari"
+      },
+      "wikidata": "Q30539180"
+    },
+    {
+      "id": "alfredo-avalos",
+      "nombre": "Alfredo Ávalos",
+      "nacimiento": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1953,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1951,
+        "hasta": 1953,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general. Estudió en el Colegio Militar del ejército alemán (1936-1938) y encabezó el Estado Mayor del Ejército desde 1949. Fue comandante en jefe del Ejército desde el 14 de noviembre de 1951, tras el desplazamiento de Solari, hasta su muerte, el 20 de septiembre de 1953; lo sucedió José Domingo Molina.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfredo Ávalos"
+      },
+      "wikidata": "Q96624523"
+    },
+    {
+      "id": "julio-lagos",
+      "nombre": "Julio Lagos",
+      "nacimiento": {
+        "anio": 1901,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Martínez",
+        "lon": -58.509,
+        "lat": -34.492
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1956,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general. En 1943 fue uno de los fundadores del GOU, la logia militar nacionalista que impulsó el golpe de ese año; simpatizó con el peronismo hasta 1954 y en septiembre de 1955 participó del golpe de la Revolución Libertadora. Fue comandante en jefe del Ejército del 21 de septiembre de 1955 al 5 de junio de 1956.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Julio Lagos (militar)"
+      },
+      "wikidata": "Q5804954"
+    },
+    {
+      "id": "ossorio-arana",
+      "nombre": "Arturo Ossorio Arana",
+      "nacimiento": {
+        "anio": 1902,
+        "aprox": false,
+        "lugar": "Morón",
+        "lon": -58.617,
+        "lat": -34.65
+      },
+      "muerte": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1955,
+        "hasta": 1958,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general del ala dura del antiperonismo. Fue pasado a retiro por participar en el intento de golpe del 28 de septiembre de 1951 y conspiró en el de 1955; con la Revolución Libertadora fue interventor de facto de la provincia de Buenos Aires (1955) y ministro de Ejército de Lonardi y de Aramburu (1955-1956). Como ministro firmó con Aramburu y Rojas el decreto de ley marcial de junio de 1956. Tras el levantamiento del general Valle se fusiló a militares y civiles; entre ellos, doce civiles detenidos antes de que la ley marcial estuviera en vigor fueron llevados al basural de José León Suárez, donde cinco murieron, según reconstruyó Rodolfo Walsh en «Operación Masacre». En junio de 1959, con Frondizi presidente, fue a Córdoba con la intención de producir un nuevo golpe, y la guarnición no lo acompañó. Fue comandante en jefe del Ejército desde el 22 de julio de 1957 hasta 1958.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Arturo Ossorio Arana"
+      },
+      "wikidata": "Q17310378"
+    },
+    {
+      "id": "solanas-pacheco",
+      "nombre": "Héctor Solanas Pacheco",
+      "nacimiento": {
+        "anio": 1905,
+        "aprox": false,
+        "lugar": "Colonia Elía",
+        "lon": -58.325,
+        "lat": -32.672
+      },
+      "muerte": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1958,
+        "hasta": 1959,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "General. Frondizi lo nombró el 1 de mayo de 1958 ministro de Guerra (luego secretario de Estado de Guerra) y comandante en jefe del Ejército. Su respaldo, con el de Frondizi, al subsecretario coronel Manuel Reimúndez provocó el alzamiento fracasado del general Rosendo Fraga del 16 de junio de 1959, tras el cual dejó los cargos. Fue embajador en Italia (1961-1962).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Héctor Solanas Pacheco"
+      },
+      "wikidata": "Q5906436"
+    },
+    {
+      "id": "toranzo-montero",
+      "nombre": "Carlos Toranzo Montero",
+      "nacimiento": {
+        "anio": 1902,
+        "aprox": false,
+        "lugar": "Turín",
+        "lon": 7.676,
+        "lat": 45.079
+      },
+      "muerte": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1959,
+        "hasta": 1961,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Teniente general antiperonista, promotor de reorientar al Ejército hacia una guerra contrarrevolucionaria contra la guerrilla comunista. Fue comandante en jefe del Ejército del 14 de agosto de 1959 al 23 de marzo de 1961. El 2 de septiembre de 1959 el secretario de Guerra, con el aval de Frondizi, lo destituyó y buena parte de los generales se declararon en rebeldía; tras dos días de tensión fue repuesto el 4 de septiembre y salió fortalecido. Desde entonces presionó sobre las políticas del gobierno; en marzo de 1960 Frondizi puso en marcha el plan Conintes, que dio a las fuerzas armadas el control de la represión. En 1957, siendo embajador en Venezuela, el presidente Pérez Jiménez le dio dos días para irse al atribuirle la responsabilidad de atentados contra Perón, que estaba exiliado en Caracas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Toranzo Montero"
+      },
+      "wikidata": "Q20015671"
+    },
+    {
+      "id": "antonio-cafiero",
+      "nombre": "Antonio Cafiero",
+      "nacimiento": {
+        "anio": 1922,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 1987,
+        "hasta": 2002,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Dirigente peronista: ministro de Comercio Exterior de Perón (1952-1955) y de Economía de Isabel Perón (1975-1976); como ministro firmó con Ítalo Luder los decretos 2770, 2771 y 2772 del 6 de octubre de 1975, que ordenaban aniquilar el accionar de los elementos subversivos. En 2006 fue imputado, con Isabel Perón y otros exministros, por la desaparición de un menor en 1976; él sostuvo que supo de las violaciones a los derechos humanos después del golpe de 1976. Fue gobernador de la provincia de Buenos Aires (1987-1991) y presidente del Partido Justicialista (1987-1990), figura de la «renovación peronista»; senador nacional de 1992 a 2001 y de 2002 a 2005. Fue jefe de Gabinete brevemente entre fines de 2001 y el 2 de enero de 2002, durante el gobierno interino de Eduardo Camaño, tras la renuncia de De la Rúa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio Cafiero",
+        "en": "Antonio Cafiero"
+      },
+      "wikidata": "Q2347235"
+    },
+    {
+      "id": "juan-manuel-abal-medina",
+      "nombre": "Juan Manuel Abal Medina",
+      "nacimiento": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2011,
+        "hasta": 2013,
+        "aprox": false
+      },
+      "roles": [
+        "politólogo",
+        "político"
+      ],
+      "resumen": "Politólogo, hijo del secretario general del Movimiento Justicialista de 1973 y sobrino de Fernando Abal Medina, fundador de Montoneros. Fue vicejefe de Gabinete en 2008-2009 y jefe de Gabinete de Cristina Fernández de Kirchner del 10 de diciembre de 2011 al 20 de noviembre de 2013, cuando lo reemplazó Jorge Capitanich; después fue senador nacional. En agosto de 2018 el juez Bonadio lo citó a indagatoria en la causa de los Cuadernos, donde declaró que Roberto Baratta recolectaba aportes de empresarios para la campaña de 2013 y que él había entendido que eran voluntarios. Fue imputado y procesado en primera instancia por su participación secundaria en dieciocho sobornos previos a las elecciones de 2013. En 2025, con la causa elevada a juicio, presentó una propuesta de reparación de unos 40.000 dólares, y el Tribunal Oral Federal 7 rechazó esos ofrecimientos el 6 de octubre de 2025.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Manuel Abal Medina (hijo)",
+        "en": "Juan Manuel Abal Medina Jr."
+      },
+      "wikidata": "Q3072494"
+    },
+    {
+      "id": "marcos-pena",
+      "nombre": "Marcos Peña",
+      "nacimiento": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.382,
+        "lat": -34.6
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2015,
+        "hasta": 2019,
+        "aprox": false
+      },
+      "roles": [
+        "politólogo",
+        "político"
+      ],
+      "resumen": "Politólogo del PRO, secretario general del gobierno de la Ciudad de Buenos Aires con Mauricio Macri y director de sus campañas presidenciales de 2015 y 2019. Fue jefe de Gabinete de Ministros durante toda la presidencia de Macri, de diciembre de 2015 a diciembre de 2019.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marcos Peña",
+        "en": "Marcos Peña"
+      },
+      "wikidata": "Q20739476"
+    },
+    {
+      "id": "santiago-cafiero",
+      "nombre": "Santiago Cafiero",
+      "nacimiento": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "San Isidro",
+        "lon": -58.517,
+        "lat": -34.467
+      },
+      "activo": {
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037,
+        "desde": 2019,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "politólogo",
+        "político"
+      ],
+      "resumen": "Politólogo peronista, nieto de Antonio Cafiero. Fue jefe de Gabinete de Alberto Fernández desde diciembre de 2019 hasta septiembre de 2021, en la pandemia de covid-19, y desde el 20 de septiembre de 2021 hasta el 10 de diciembre de 2023 canciller (ministro de Relaciones Exteriores, Comercio Internacional y Culto), en reemplazo de Felipe Solá. Entre los ejes de su gestión mencionó el reclamo de soberanía sobre las islas Malvinas, y en 2022 comenzaron las gestiones para que la Argentina ingresara a los BRICS, con el respaldo de China; la Argentina fue invitada a incorporarse en agosto de 2023 y el gobierno de Milei, que asumió en diciembre, retiró la solicitud. Es diputado nacional por Buenos Aires desde el 10 de diciembre de 2023.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Santiago Cafiero",
+        "en": "Santiago Cafiero"
+      },
+      "wikidata": "Q68869954"
     }
   ],
   "hechos": [
@@ -11714,6 +12116,86 @@
       "fuentes": [],
       "wikipedia": {
         "es": "Asesinato de Juan José Torres"
+      }
+    },
+    {
+      "id": "rosariazo",
+      "titulo": "Rosariazo",
+      "anio": 1969,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Rosario",
+      "lon": -60.639,
+      "lat": -32.958,
+      "tipo": "revolucion",
+      "resumen": "Serie de protestas de estudiantes y obreros contra la dictadura de Onganía entre mayo y septiembre de 1969. El primer Rosariazo siguió a la muerte del estudiante Juan José Cabral en la represión de Corrientes (15 de mayo): en Rosario murieron en la represión policial de las marchas los estudiantes Adolfo Bello (17 de mayo) y Luis Blanco (21 de mayo), un aprendiz y estudiante de 15 años, y el gobierno declaró la ciudad zona de emergencia bajo jurisdicción militar. El segundo, el 16 de septiembre, juntó en una marcha a obreros y estudiantes en barricadas contra la policía, hasta que el 17 el Ejército tomó el control: por un comunicado del general Herberto Robinson abrió fuego contra los grupos que se le oponían, y se formaron tribunales militares; la artillería la mandaba el coronel Leopoldo Galtieri; hubo heridos y detenidos, y se estima la participación entre 100.000 y 250.000 personas. Con el Cordobazo debilitó a Onganía, que cayó en 1970.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Rosariazo",
+        "en": "Rosariazo"
+      }
+    },
+    {
+      "id": "eleccion-de-yrigoyen-1928",
+      "titulo": "Segunda elección de Yrigoyen",
+      "anio": 1928,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 1 de abril de 1928 Hipólito Yrigoyen, de la UCR, volvió a ser elegido presidente: con alrededor del 61 % de los votos y 249 electores superó al radical antipersonalista Leopoldo Melo, apoyado por los conservadores (124 electores), y al socialista Mario Bravo. Votaron solo los varones y la participación fue del 81 %. El vicepresidente electo, Francisco Beiró, murió antes de asumir y el Colegio Electoral eligió a Enrique Martínez; Yrigoyen asumió el 12 de octubre de 1928, en la última elección presidencial antes del golpe de 1930.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1928",
+        "en": "1928 Argentine general election"
+      }
+    },
+    {
+      "id": "eleccion-de-justo-1931",
+      "titulo": "Elección de Justo",
+      "anio": 1931,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 8 de noviembre de 1931, bajo la dictadura de Uriburu, la Concordancia (radicales antipersonalistas, conservadores del Partido Demócrata Nacional y socialistas independientes) llevó a Agustín P. Justo y a Julio A. Roca (hijo). Uriburu proscribió y deportó a Alvear, candidato de la UCR, que boicoteó la elección; la oposición se alineó detrás de Lisandro de la Torre, del Partido Demócrata Progresista, apoyado por el Partido Socialista. Hubo intimidación e irregularidades, el «fraude patriótico» de sus propios autores; la Asamblea Legislativa aprobó la elección el 16 de febrero de 1932 y Justo asumió el 20.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones presidenciales de Argentina de 1931",
+        "en": "1931 Argentine general election"
+      }
+    },
+    {
+      "id": "elecciones-legislativas-de-2009",
+      "titulo": "Elecciones legislativas de 2009",
+      "anio": 2009,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Buenos Aires",
+      "lon": -58.3816,
+      "lat": -34.6037,
+      "tipo": "politico",
+      "resumen": "El 28 de junio de 2009, adelantadas desde octubre por el gobierno de Cristina Fernández de Kirchner después de que Macri adelantara las de la Ciudad de Buenos Aires, se renovaron 127 de los 257 diputados y 24 de los 72 senadores. El Frente para la Victoria y sus aliados perdieron la mayoría absoluta en ambas cámaras; en la provincia de Buenos Aires, la lista que encabezaba Néstor Kirchner, con candidatos «testimoniales» como el gobernador Scioli y el jefe de Gabinete Massa, que no asumieron sus bancas, perdió por poco ante la de Unión PRO de Francisco de Narváez.",
+      "regiones": [
+        "rio-de-la-plata"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Elecciones legislativas de Argentina de 2009",
+        "en": "2009 Argentine legislative election"
       }
     }
   ],

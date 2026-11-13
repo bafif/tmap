@@ -4676,6 +4676,198 @@
         "en": "Schengen Agreement"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "resolucion-85",
+      "titulo": "Resolución 85 del Consejo de Seguridad de la ONU",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "corea"
+        ],
+        "desde": 1950,
+        "hasta": 1950
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 31 de julio de 1950, aprobada con nueve votos y la abstención de Yugoslavia, con la Unión Soviética ausente porque boicoteaba el Consejo. Autorizó al Mando Unificado de las Naciones Unidas a prestar asistencia a la población civil coreana y pidió a los organismos especializados de la ONU y a las organizaciones no gubernamentales apropiadas que colaboraran con él.",
+      "por_que_importa": "Cuarta resolución del Consejo sobre la guerra de Corea, después de la 82, la 83 y la 84; fue la última antes de que terminara el boicot soviético, en agosto de 1950.",
+      "leer": [
+        {
+          "titulo": "Texto en el sistema de documentos de la ONU",
+          "url": "https://docs.un.org/en/S/RES/85(1950)",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Resolución 85 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 85"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "texto-de-la-convencion-sobre-las-personas-con-discapacidad",
+      "titulo": "Convención sobre los Derechos de las Personas con Discapacidad",
+      "titulo_original": "Convention on the Rights of Persons with Disabilities",
+      "autor": "Asamblea General de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Sede de las Naciones Unidas",
+        "lon": -73.967,
+        "lat": 40.75
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 2006,
+        "hasta": 2006
+      },
+      "idioma_original": "Inglés, francés, español, ruso, chino y árabe",
+      "soporte": "Tratado",
+      "resumen": "Tratado adoptado por la Asamblea General de la ONU el 13 de diciembre de 2006, abierto a la firma el 30 de marzo de 2007 y vigente desde el 3 de mayo de 2008, cuando lo ratificó el vigésimo Estado. Su artículo 1 fija como propósito promover, proteger y asegurar el goce pleno de los derechos humanos de las personas con discapacidad, e incluye derechos de accesibilidad, de vida independiente e inclusión en la comunidad y de participación política y cultural; su artículo 12 reconoce la capacidad jurídica en igualdad de condiciones. Lo vigila el Comité sobre los Derechos de las Personas con Discapacidad.",
+      "por_que_importa": "Primer tratado de derechos humanos de la ONU del siglo XXI. Tiene 194 partes, 193 Estados y la Unión Europea; Estados Unidos lo firmó en 2009 sin ratificarlo.",
+      "leer": [
+        {
+          "titulo": "Texto de la Convención en inglés, en el sitio de la ONU",
+          "url": "https://www.un.org/disabilities/documents/convention/convention_accessible_pdf.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Convención Internacional sobre los Derechos de las Personas con Discapacidad",
+        "en": "Convention on the Rights of Persons with Disabilities"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "texto-de-la-convencion-europea-de-derechos-humanos",
+      "titulo": "Convención Europea de Derechos Humanos",
+      "titulo_original": "Convention for the Protection of Human Rights and Fundamental Freedoms",
+      "autor": "Consejo de Europa",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1950,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1950,
+        "hasta": 1950
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Tratado",
+      "resumen": "Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales, abierto a la firma en Roma el 4 de noviembre de 1950 y en vigor desde el 3 de septiembre de 1953. Reconoce, entre otros, el derecho a la vida y las libertades de expresión, de pensamiento y de reunión, y creó un tribunal internacional cuyas sentencias obligan a los Estados. Se lo amplió con diecisiete protocolos adicionales, entre ellos los que restringen o abolen la pena de muerte.",
+      "por_que_importa": "Ser parte de la Convención es requisito para ingresar al Consejo de Europa, de modo que sus 46 miembros son parte; Rusia lo dejó de ser el 16 de septiembre de 2022, tras su expulsión del Consejo.",
+      "leer": [
+        {
+          "titulo": "Texto de la Convención en inglés, en Wikisource: es la versión enmendada por el Protocolo 11 (1998), no la de 1950",
+          "url": "https://en.wikisource.org/wiki/European_Convention_for_the_Protection_of_Human_Rights_and_Fundamental_Freedoms",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Convención Europea de Derechos Humanos",
+        "en": "European Convention on Human Rights"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "texto-de-la-convencion-sobre-la-discriminacion-contra-la-mujer",
+      "titulo": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
+      "titulo_original": "Convention on the Elimination of All Forms of Discrimination Against Women",
+      "autor": "Asamblea General de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Sede de las Naciones Unidas",
+        "lon": -73.967,
+        "lat": 40.75
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1979,
+        "hasta": 1979
+      },
+      "idioma_original": "Inglés, francés, español, ruso, chino y árabe",
+      "soporte": "Tratado",
+      "resumen": "Tratado adoptado por la Asamblea General de la ONU en 1979 y en vigor desde el 3 de septiembre de 1981. Tiene treinta artículos: los primeros fijan la no discriminación y la lucha contra los estereotipos y la trata; siguen los derechos políticos, la nacionalidad, la educación, el empleo, la salud y la igualdad en el matrimonio y la familia, y los últimos crean el Comité para la Eliminación de la Discriminación contra la Mujer y el procedimiento de informes de los Estados.",
+      "por_que_importa": "Descrita como la carta internacional de los derechos de las mujeres. Tiene 189 Estados parte, más de cincuenta de ellos con reservas o declaraciones; Estados Unidos y Palaos la firmaron sin ratificarla.",
+      "leer": [
+        {
+          "titulo": "Texto de la Convención en inglés, en el sitio de la ONU",
+          "url": "https://www.un.org/womenwatch/daw/cedaw/text/econvention.htm",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer",
+        "en": "Convention on the Elimination of All Forms of Discrimination Against Women"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "texto-del-pacto-de-derechos-economicos-sociales-y-culturales",
+      "titulo": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+      "titulo_original": "International Covenant on Economic, Social and Cultural Rights",
+      "autor": "Asamblea General de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Sede de las Naciones Unidas",
+        "lon": -73.967,
+        "lat": 40.75
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1966,
+        "hasta": 1966
+      },
+      "idioma_original": "Inglés, francés, español, ruso y chino",
+      "soporte": "Tratado",
+      "resumen": "Tratado adoptado por la Asamblea General de la ONU el 16 de diciembre de 1966 (resolución 2200 A) y vigente desde el 3 de enero de 1976. Compromete a los Estados a ir logrando derechos laborales, a la salud, a la educación y a un nivel de vida adecuado, también para los habitantes de territorios no autónomos y en fideicomiso. Lo vigila el Comité de Derechos Económicos, Sociales y Culturales; su protocolo facultativo se adoptó en 2008.",
+      "por_que_importa": "Nació de la división en dos pactos del proyecto de convención sobre derechos humanos, a causa de las diferencias entre los Estados sobre el peso de los derechos civiles y políticos frente a los económicos, sociales y culturales; con la Declaración Universal y el Pacto de Derechos Civiles y Políticos forma la Carta Internacional de Derechos Humanos. Tiene 174 Estados parte; Estados Unidos lo firmó sin ratificarlo.",
+      "leer": [
+        {
+          "titulo": "Texto del Pacto en la colección de tratados de la ONU",
+          "url": "https://treaties.un.org/doc/Treaties/1976/01/19760103%2009-57%20PM/Ch_IV_03.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+        "en": "International Covenant on Economic, Social and Cultural Rights"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -8579,6 +8771,989 @@
         "en": "Hillary Clinton"
       },
       "wikidata": "Q6294"
+    },
+    {
+      "id": "clement-attlee",
+      "nombre": "Clement Attlee",
+      "nacimiento": {
+        "anio": 1883,
+        "aprox": false,
+        "lugar": "Putney",
+        "lon": -0.221,
+        "lat": 51.465
+      },
+      "muerte": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Westminster Hospital",
+        "lon": -0.129,
+        "lat": 51.5
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1945,
+        "hasta": 1951,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro laborista del Reino Unido de 1945 a 1951; fue viceprimer ministro de Churchill en la guerra y asistió a la parte final de la conferencia de Potsdam. Su gobierno concedió la independencia de la India y Pakistán (1947), puso fin al mandato británico sobre Palestina y fue clave en la creación de la OTAN, y apoyó el plan Marshall. Tras las elecciones de 1950 mandó tropas británicas a la guerra de Corea, y en enero de 1947 su gabinete decidió en secreto desarrollar el arma nuclear británica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Clement Attlee",
+        "en": "Clement Attlee"
+      },
+      "wikidata": "Q129006"
+    },
+    {
+      "id": "anthony-eden",
+      "nombre": "Anthony Eden",
+      "nacimiento": {
+        "anio": 1897,
+        "aprox": false,
+        "lugar": "Durham",
+        "lon": -1.567,
+        "lat": 54.783
+      },
+      "muerte": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Alvediston Manor",
+        "lon": -2.035,
+        "lat": 51.011
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1955,
+        "hasta": 1957,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido de abril de 1955 a enero de 1957. Fue ministro de Relaciones Exteriores en 1935-1938, durante la guerra y en 1951-1955, y renunció en 1938 en protesta por el acercamiento de Chamberlain a Mussolini. En la crisis de Suez de 1956 acordó en secreto con Francia e Israel, en Sèvres, el ataque a Egipto; sin el apoyo de Estados Unidos, los británicos aceptaron el alto el fuego, y Eden renunció el 9 de enero de 1957 por enfermedad, bajo la sospecha de haber ocultado al Parlamento ese acuerdo previo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Anthony Eden",
+        "en": "Anthony Eden"
+      },
+      "wikidata": "Q128995"
+    },
+    {
+      "id": "harold-macmillan",
+      "nombre": "Harold Macmillan",
+      "nacimiento": {
+        "anio": 1894,
+        "aprox": false,
+        "lugar": "Chelsea",
+        "lon": -0.168,
+        "lat": 51.487
+      },
+      "muerte": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Horsted Keynes",
+        "lon": -0.027,
+        "lat": 51.035
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1957,
+        "hasta": 1963,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido de enero de 1957 a octubre de 1963, tras la crisis de Suez, de la que había sido uno de los artífices como ministro de Hacienda. Reconstruyó la relación con Estados Unidos (acuerdo de Nassau sobre los misiles Polaris, 1962), pronunció en Ciudad del Cabo en 1960 su discurso sobre el «viento de cambio» que soplaba en África mientras el país descolonizaba, y negoció con Washington el tratado de prohibición parcial de ensayos nucleares de 1963. De Gaulle vetó en enero de 1963 su solicitud de ingreso en la Comunidad Económica Europea.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Harold Macmillan",
+        "en": "Harold Macmillan"
+      },
+      "wikidata": "Q128985"
+    },
+    {
+      "id": "alec-douglas-home",
+      "nombre": "Alec Douglas-Home",
+      "nacimiento": {
+        "anio": 1903,
+        "aprox": false,
+        "lugar": "Mayfair",
+        "lon": -0.147,
+        "lat": 51.51
+      },
+      "muerte": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "The Hirsel",
+        "lon": -2.273,
+        "lat": 55.66
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1963,
+        "hasta": 1964,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido de octubre de 1963 a octubre de 1964, el último en ejercer siendo miembro de la Cámara de los Lores: renunció a su condado para presentarse a la Cámara de los Comunes. Se lo recuerda más por sus dos períodos como ministro de Relaciones Exteriores (1960-1963 y 1970-1974), con la crisis de los misiles de Cuba y la negociación del tratado de prohibición parcial de ensayos nucleares de 1963.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alec Douglas-Home",
+        "en": "Alec Douglas-Home"
+      },
+      "wikidata": "Q128976"
+    },
+    {
+      "id": "harold-wilson",
+      "nombre": "Harold Wilson",
+      "nacimiento": {
+        "anio": 1916,
+        "aprox": false,
+        "lugar": "Huddersfield",
+        "lon": -1.78,
+        "lat": 53.645
+      },
+      "muerte": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1964,
+        "hasta": 1976,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro laborista del Reino Unido de 1964 a 1970 y de 1974 a 1976. Pese a la presión del presidente Johnson no envió tropas a Vietnam; tras la declaración unilateral de independencia de Rhodesia (11 de noviembre de 1965) aplicó sanciones pero descartó el uso de la fuerza, y en 1967-1968 adelantó el repliegue de las bases británicas al este de Suez. En agosto de 1969 su gobierno mandó tropas británicas a Irlanda del Norte; durante la guerra de Biafra su gobierno envió armas a la junta militar de Nigeria, y en 1967 respaldó a Israel en la guerra de los Seis Días.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Harold Wilson",
+        "en": "Harold Wilson"
+      },
+      "wikidata": "Q128956"
+    },
+    {
+      "id": "edward-heath",
+      "nombre": "Edward Heath",
+      "nacimiento": {
+        "anio": 1916,
+        "aprox": false,
+        "lugar": "Broadstairs",
+        "lon": 1.439,
+        "lat": 51.359
+      },
+      "muerte": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Salisbury",
+        "lon": -1.794,
+        "lat": 51.074
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1970,
+        "hasta": 1974,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido de 1970 a 1974. Negoció el ingreso en la Comunidad Económica Europea, efectivo el 1 de enero de 1973. Gobernó en el período más violento del conflicto de Irlanda del Norte: bajo su gobierno, el 30 de enero de 1972 («Domingo Sangriento»), soldados del regimiento de paracaidistas mataron en Derry a trece manifestantes desarmados (otro murió después); la investigación Widgery (1972) aceptó en lo esencial el relato de los soldados y la de Saville (2010) concluyó que los disparos fueron injustificados. Además impuso el gobierno directo desde Londres y aprobó el internamiento sin juicio; el acuerdo de Sunningdale (1973) fracasó en 1974.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Edward Heath",
+        "en": "Edward Heath"
+      },
+      "wikidata": "Q128967"
+    },
+    {
+      "id": "james-callaghan",
+      "nombre": "James Callaghan",
+      "nacimiento": {
+        "anio": 1912,
+        "aprox": false,
+        "lugar": "Copnor",
+        "lon": -1.062,
+        "lat": 50.811
+      },
+      "muerte": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Ringmer",
+        "lon": 0.05,
+        "lat": 50.89
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1974,
+        "hasta": 1979,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro laborista del Reino Unido de abril de 1976 a mayo de 1979; antes fue ministro de Relaciones Exteriores (1974-1976) y enfrentó la crisis de Chipre de 1974. En 1977, por la tensión con la Argentina tras la ocupación argentina de la isla Thule del Sur, su gobierno envió en secreto al Atlántico Sur dos fragatas y un submarino nuclear (operación Journeyman). En agosto de 1969, como ministro del Interior, decidió el despliegue de tropas británicas en Irlanda del Norte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "James Callaghan",
+        "en": "James Callaghan"
+      },
+      "wikidata": "Q9576"
+    },
+    {
+      "id": "bonar-law",
+      "nombre": "Andrew Bonar Law",
+      "nacimiento": {
+        "anio": 1858,
+        "aprox": false,
+        "lugar": "Rexton",
+        "lon": -64.871,
+        "lat": 46.643
+      },
+      "muerte": {
+        "anio": 1923,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1922,
+        "hasta": 1923,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido de octubre de 1922 a mayo de 1923, el gobierno más breve del siglo XX, y el primero nacido fuera de Gran Bretaña e Irlanda (en Nuevo Brunswick, Canadá). Había sido secretario de Colonias (1915-1916) y canciller del Exchequer (1916-1919) en las coaliciones de la Primera Guerra Mundial, y llegó al cargo tras el voto del Carlton Club del 19 de octubre de 1922, que retiró el apoyo conservador a Lloyd George. Renunció por enfermedad y murió en octubre de 1923.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andrew Bonar Law",
+        "en": "Bonar Law"
+      },
+      "wikidata": "Q166663"
+    },
+    {
+      "id": "stanley-baldwin",
+      "nombre": "Stanley Baldwin",
+      "nacimiento": {
+        "anio": 1867,
+        "aprox": false,
+        "lugar": "Bewdley",
+        "lon": -2.316,
+        "lat": 52.375
+      },
+      "muerte": {
+        "anio": 1947,
+        "aprox": false,
+        "lugar": "Bewdley",
+        "lon": -2.316,
+        "lat": 52.375
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1923,
+        "hasta": 1937,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro conservador del Reino Unido en 1923-1924, 1924-1929 y 1935-1937. Su tercer gobierno inició el rearme británico y enfrentó la crisis del pacto Hoare-Laval tras la invasión italiana de Etiopía (1935), la remilitarización alemana de Renania (1936) y el estallido de la guerra civil española; la historiografía discute si rearmó lo bastante o apaciguó a Hitler. Gestionó también la abdicación de Eduardo VIII (1936).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Stanley Baldwin",
+        "en": "Stanley Baldwin"
+      },
+      "wikidata": "Q166635"
+    },
+    {
+      "id": "ramsay-macdonald",
+      "nombre": "Ramsay MacDonald",
+      "nacimiento": {
+        "anio": 1866,
+        "aprox": false,
+        "lugar": "Lossiemouth",
+        "lon": -3.283,
+        "lat": 57.717
+      },
+      "muerte": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "En el océano Atlántico, a bordo del «Reina del Pacífico»"
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1924,
+        "hasta": 1935,
+        "aprox": false
+      },
+      "roles": [
+        "primer ministro",
+        "político"
+      ],
+      "resumen": "Primer ministro del Reino Unido en 1924 (laborista) y de 1929 a 1935 (desde 1931 al frente de un gobierno nacional dominado por los conservadores, tras ser expulsado del Partido Laborista). Reconoció a la Unión Soviética en febrero de 1924, convocó la conferencia de Londres de 1924 que aprobó el plan Dawes sobre las reparaciones alemanas y negoció el tratado naval de Londres de 1930. Se había opuesto a la participación británica en la Primera Guerra Mundial.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ramsay MacDonald",
+        "en": "Ramsay MacDonald"
+      },
+      "wikidata": "Q166646"
+    },
+    {
+      "id": "andy-burnham",
+      "nombre": "Andy Burnham",
+      "nacimiento": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Aintree",
+        "lon": -2.937,
+        "lat": 53.479
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 2026,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "primer ministro"
+      ],
+      "resumen": "Elegido líder laborista, sin rivales, el 17 de julio de 2026 tras la renuncia de Keir Starmer, es primer ministro del Reino Unido desde el 20 de julio; fue alcalde de Gran Mánchester de 2017 a 2026 y volvió a la Cámara de los Comunes en 2026 al ganar la elección parcial de Makerfield. Votó a favor de la invasión de Irak de 2003 y después dijo lamentarlo; en su primera conversación con Zelenski como primer ministro reafirmó el apoyo británico a Ucrania.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andy Burnham",
+        "en": "Andy Burnham"
+      },
+      "wikidata": "Q269909"
+    },
+    {
+      "id": "ludwig-erhard",
+      "nombre": "Ludwig Erhard",
+      "nacimiento": {
+        "anio": 1897,
+        "aprox": false,
+        "lugar": "Fürth",
+        "lon": 10.99,
+        "lat": 49.478
+      },
+      "muerte": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735
+      },
+      "activo": {
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735,
+        "desde": 1963,
+        "hasta": 1966,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "economista",
+        "canciller"
+      ],
+      "resumen": "Segundo canciller de la República Federal de Alemania, de octubre de 1963 a noviembre de 1966; antes, ministro de Economía de Adenauer (1949-1963), asociado al «milagro económico» y a la economía social de mercado. Como canciller buscó más cercanía con Washington que con París y respaldó el objetivo estadounidense de victoria en Vietnam; en 1965 su gobierno estableció relaciones diplomáticas con Israel. Renunció el 30 de noviembre de 1966, después de que los ministros liberales dejaran el gobierno por el presupuesto.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Ludwig Erhard",
+        "en": "Ludwig Erhard"
+      },
+      "wikidata": "Q2496"
+    },
+    {
+      "id": "kurt-georg-kiesinger",
+      "nombre": "Kurt Georg Kiesinger",
+      "nacimiento": {
+        "anio": 1904,
+        "aprox": false,
+        "lugar": "Ebingen",
+        "lon": 9.033,
+        "lat": 48.217
+      },
+      "muerte": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Tubinga",
+        "lon": 9.056,
+        "lat": 48.52
+      },
+      "activo": {
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735,
+        "desde": 1966,
+        "hasta": 1969,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "canciller"
+      ],
+      "resumen": "Canciller de la República Federal de Alemania del 1 de diciembre de 1966 al 21 de octubre de 1969, al frente de la gran coalición de la CDU/CSU y el SPD, con Willy Brandt como ministro de Relaciones Exteriores; su gobierno estableció relaciones con Rumania (1967) y las restableció con Yugoslavia (1968). Se había afiliado al partido nazi en 1933 (dijo que fue un miembro poco activo) y desde 1940 trabajó en el Ministerio de Relaciones Exteriores del Reich, donde en 1942 llegó a subjefe del departamento de radiodifusión y propaganda; el 7 de noviembre de 1968 la periodista Beate Klarsfeld lo abofeteó en un congreso de la CDU para denunciar ese pasado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Kurt Georg Kiesinger",
+        "en": "Kurt Georg Kiesinger"
+      },
+      "wikidata": "Q2512"
+    },
+    {
+      "id": "helmut-schmidt",
+      "nombre": "Helmut Schmidt",
+      "nacimiento": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "muerte": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "activo": {
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735,
+        "desde": 1974,
+        "hasta": 1982,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "canciller"
+      ],
+      "resumen": "Canciller de Alemania Occidental del 16 de mayo de 1974 al 1 de octubre de 1982, socialdemócrata; antes ministro de Defensa (1969-1972) y de Finanzas (1972-1974). Con Giscard d'Estaing impulsó las cumbres económicas mundiales, la primera en Rambouillet en 1975; en octubre de 1977 ordenó el asalto de una unidad antiterrorista al avión de Lufthansa Landshut, que un comando palestino había secuestrado para exigir la liberación de presos de la Fracción del Ejército Rojo y que estaba en Mogadiscio; los 86 pasajeros fueron liberados; e impulsó la doble decisión de la OTAN de 1979, que combinaba negociaciones con el despliegue de misiles de alcance medio en Europa y fue impopular en Alemania.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Helmut Schmidt",
+        "en": "Helmut Schmidt"
+      },
+      "wikidata": "Q2516"
+    },
+    {
+      "id": "walter-scheel",
+      "nombre": "Walter Scheel",
+      "nacimiento": {
+        "anio": 1919,
+        "aprox": false,
+        "lugar": "Höhscheid",
+        "lon": 7.079,
+        "lat": 51.16
+      },
+      "muerte": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Bad Krozingen",
+        "lon": 7.702,
+        "lat": 47.918
+      },
+      "activo": {
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735,
+        "desde": 1969,
+        "hasta": 1974,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Ministro de Relaciones Exteriores y vicecanciller de Willy Brandt (1969-1974) y presidente del Partido Liberal (FDP); su gobierno buscó la distensión con el bloque soviético y reconoció la existencia de la República Democrática Alemana. Tras la renuncia de Brandt por el caso Guillaume fue canciller en funciones del 7 al 16 de mayo de 1974, hasta la elección de Schmidt, y después presidente federal (1974-1979). Había sido miembro del partido nazi.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Walter Scheel",
+        "en": "Walter Scheel"
+      },
+      "wikidata": "Q2571"
+    },
+    {
+      "id": "friedrich-merz",
+      "nombre": "Friedrich Merz",
+      "nacimiento": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Brilon",
+        "lon": 8.568,
+        "lat": 51.396
+      },
+      "activo": {
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517,
+        "desde": 2025,
+        "hasta": 2026,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "canciller"
+      ],
+      "resumen": "Canciller de Alemania desde el 6 de mayo de 2025 y líder de la CDU desde 2022. Fue elegido en una segunda votación el mismo día, después de no reunir en la primera los 316 votos necesarios (obtuvo 310), algo inédito en la historia alemana. Antes de asumir propuso reformar la Ley Fundamental para excluir del freno de la deuda el gasto en defensa que supere el 1 % del PIB; apoya a Ucrania y a la OTAN. El 18 de marzo de 2025 el Parlamento aprobó la reforma de la Ley Fundamental sobre el freno de la deuda; en abril de 2026 firmó con Zelenski un pacto bilateral de defensa; y en la guerra de Irán de 2026 dijo que su gobierno había sido informado de antemano de las operaciones de Estados Unidos e Israel y que Alemania estaba «en la misma página» que Washington respecto de su plan de eliminar al régimen iraní.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Friedrich Merz",
+        "en": "Friedrich Merz"
+      },
+      "wikidata": "Q566257"
+    },
+    {
+      "id": "eduard-shevardnadze",
+      "nombre": "Eduard Shevardnadze",
+      "nacimiento": {
+        "anio": 1928,
+        "aprox": false,
+        "lugar": "Mamati",
+        "lon": 42.033,
+        "lat": 42.021
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Tiflis",
+        "lon": 44.792,
+        "lat": 41.722
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1985,
+        "hasta": 1991,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Ministro de Relaciones Exteriores de la URSS de 1985 a diciembre de 1990, cuando renunció advirtiendo que «viene la dictadura», y brevemente en noviembre-diciembre de 1991. Aliado de Gorbachov, participó en los acuerdos de armas nucleares con Estados Unidos, en la retirada soviética de Afganistán, en el consentimiento a la reunificación alemana y en el retiro de tropas de Europa del Este. Gobernó Georgia de 1992 a 2003. Con él al frente, Georgia perdió la guerra de Abjasia (1992-1993) y el control de gran parte de Osetia del Sur (acuerdo de Sochi, 1992); ganó la guerra civil de 1993 contra los partidarios de Gamsajurdia con ayuda rusa, después de decidir entrar en la CEI. Renunció en 2003 tras la Revolución de las Rosas, por las denuncias de fraude electoral.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Eduard Shevardnadze",
+        "en": "Eduard Shevardnadze"
+      },
+      "wikidata": "Q151929"
+    },
+    {
+      "id": "andrei-vyshinski",
+      "nombre": "Andréi Vyshinski",
+      "nacimiento": {
+        "anio": 1883,
+        "aprox": false,
+        "lugar": "Odesa",
+        "lon": 30.733,
+        "lat": 46.484
+      },
+      "muerte": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1949,
+        "hasta": 1953,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "diplomático",
+        "político"
+      ],
+      "resumen": "Jurista y fiscal soviético, acusador en los juicios de Moscú de la Gran Purga (desde el de Zinóviev y Kámenev, en 1936), juicios-espectáculo en los que las condenas se basaron solo en las confesiones, que él alentaba a obtener (se le atribuye que la confesión es «la reina de las pruebas»); los condenados fueron rehabilitados en 1988. En 1940 dirigió en Letonia la instalación de un gobierno prosoviético y la anexión a la URSS. Fue viceministro de Relaciones Exteriores desde 1940, preparó la posición soviética en los juicios de Núremberg, fue ministro de 1949 a 1953 y representó a la URSS ante las Naciones Unidas hasta su muerte, en Nueva York, en 1954.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andréi Vyshinski",
+        "en": "Andrey Vyshinsky"
+      },
+      "wikidata": "Q155860"
+    },
+    {
+      "id": "dmitri-shepilov",
+      "nombre": "Dmitri Shepílov",
+      "nacimiento": {
+        "anio": 1905,
+        "aprox": false,
+        "lugar": "Asjabad",
+        "lon": 58.383,
+        "lat": 37.95
+      },
+      "muerte": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1956,
+        "hasta": 1957,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "diplomático",
+        "economista"
+      ],
+      "resumen": "Economista y dirigente soviético, ministro de Relaciones Exteriores del 1 de junio de 1956 a febrero de 1957, cuando lo sustituyó Gromiko. Había negociado en 1955 la venta de armas a Egipto, ofreció ayuda soviética para la presa de Asuán y representó a la URSS en el Consejo de Seguridad durante la revolución húngara y la crisis de Suez de 1956. En junio de 1957 apoyó el intento de destituir a Jruschov y este lo llamó «Shepílov, el que se les unió»; fue expulsado del Comité Central.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Dmitri Shepílov",
+        "en": "Dmitri Shepilov"
+      },
+      "wikidata": "Q729274"
+    },
+    {
+      "id": "nikolai-podgorni",
+      "nombre": "Nikolái Podgorni",
+      "nacimiento": {
+        "anio": 1903,
+        "aprox": false,
+        "lugar": "Kárlivka",
+        "lon": 35.131,
+        "lat": 49.455
+      },
+      "muerte": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1965,
+        "hasta": 1977,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Presidente del Presídium del Sóviet Supremo (jefe de Estado) de 1965 a 1977. Participó en el golpe de octubre de 1964 contra Jruschov y formó con Brézhnev y Kosiguin la troika que lo reemplazó. En mayo de 1967, antes de la guerra de los Seis Días, entregó al vicepresidente egipcio Anwar Sadat un informe de inteligencia, falso, según el cual Israel concentraba tropas en la frontera con Siria; en 1971 encabezó delegaciones a China y a Vietnam del Norte. Brézhnev lo apartó del cargo en 1977.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nikolái Podgorni",
+        "en": "Nikolai Podgorny"
+      },
+      "wikidata": "Q295781"
+    },
+    {
+      "id": "nikolai-shvernik",
+      "nombre": "Nikolái Shvérnik",
+      "nacimiento": {
+        "anio": 1888,
+        "aprox": false,
+        "lugar": "San Petersburgo",
+        "lon": 30.317,
+        "lat": 59.95
+      },
+      "muerte": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1946,
+        "hasta": 1953,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Presidente del Presídium del Sóviet Supremo (jefe de Estado nominal) de 1946 a 1953, con el poder efectivo en manos de Stalin. Había presidido el Consejo Central de Sindicatos de toda la Unión (1930-1944) y el juicio a los mencheviques de 1931, y en febrero de 1937, en la comisión que examinó a Bujarin y Rykov, votó que se los expulsara del Comité Central, se los arrestara y se los fusilara. Desde 1942 presidió la Comisión Estatal Extraordinaria que investigó los crímenes de los invasores alemanes y, desde 1956, la Comisión de Control del partido, que rehabilitó a muchos condenados en la época de Stalin.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nikolái Shvérnik",
+        "en": "Nikolai Shvernik"
+      },
+      "wikidata": "Q355639"
+    },
+    {
+      "id": "aleksandr-vasilevski",
+      "nombre": "Aleksandr Vasilevski",
+      "nacimiento": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "Víchuga",
+        "lon": 41.917,
+        "lat": 57.2
+      },
+      "muerte": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1942,
+        "hasta": 1950,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Mariscal de la Unión Soviética y jefe del Estado Mayor General desde junio de 1942; coordinó los frentes y planeó ofensivas junto a Zhúkov en Stalingrado, Kursk y la operación Bagratión. En agosto de 1945 dirigió la ofensiva soviética en Manchuria contra el ejército japonés (9 de agosto a 2 de septiembre). Fue ministro de las Fuerzas Armadas de 1949 a 1950 y después de Guerra, hasta 1953.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Aleksandr Vasilevski",
+        "en": "Aleksandr Vasilevsky"
+      },
+      "wikidata": "Q150894"
+    },
+    {
+      "id": "mijail-frunze",
+      "nombre": "Mijaíl Frunze",
+      "nacimiento": {
+        "anio": 1885,
+        "aprox": false,
+        "lugar": "Biskek",
+        "lon": 74.567,
+        "lat": 42.867
+      },
+      "muerte": {
+        "anio": 1925,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1921,
+        "hasta": 1925,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Comandante del Ejército Rojo en la guerra civil rusa: derrotó a Kolchak en 1919, tomó Jiva y Bujará en 1920 en la campaña del Turquestán y, en noviembre de 1920, derrotó a Wrangel en Crimea, con la ayuda del ejército de Majnó, aliado de los bolcheviques desde octubre, al que atacó ese mismo mes. En enero de 1925 sustituyó a Trotski al frente del Consejo Militar Revolucionario y del comisariado del pueblo para Asuntos Militares y Navales; murió el 31 de octubre de 1925 durante una operación de úlcera. Frunze no quería operarse; Stalin y Mikoyán lo visitaron para insistirle, y él escribió a su esposa que se sentía sano pero que «los dos representantes del partido lo exigen». Murió durante la operación, por la anestesia con cloroformo. El historiador Roman Brackman y el historiador trotskista Vadim Rogovin sostienen que Stalin hizo organizar la operación para matarlo; esa hipótesis se apoya en testimonios indirectos y no está documentada.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mijaíl Frunze",
+        "en": "Mikhail Frunze"
+      },
+      "wikidata": "Q191882"
+    },
+    {
+      "id": "semion-timoshenko",
+      "nombre": "Semión Timoshenko",
+      "nacimiento": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "Furmánivka",
+        "lon": 29.237,
+        "lat": 45.637
+      },
+      "muerte": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1940,
+        "hasta": 1941,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Mariscal de la Unión Soviética. Mandó el frente de Ucrania en la invasión soviética de Polonia (1939) y en enero de 1940 relevó a Voroshílov al frente de las tropas en la guerra de Invierno, donde rompió la línea Mannerheim en el istmo de Carelia. Fue comisario del pueblo para la Defensa de mayo de 1940 a julio de 1941, presidió el Cuartel General (Stavka) los primeros días de la invasión alemana hasta que Stalin lo sustituyó, y su ofensiva de Járkov de mayo de 1942 terminó en una derrota grave.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Semión Timoshenko",
+        "en": "Semyon Timoshenko"
+      },
+      "wikidata": "Q191702"
+    },
+    {
+      "id": "viktor-chernomyrdin",
+      "nombre": "Víktor Chernomyrdin",
+      "nacimiento": {
+        "anio": 1938,
+        "aprox": false,
+        "lugar": "Chorny Otrog",
+        "lon": 55.989,
+        "lat": 51.885
+      },
+      "muerte": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1992,
+        "hasta": 1998,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "empresario"
+      ],
+      "resumen": "Primer ministro de Rusia de 1992 a 1998; antes ministro soviético de la industria del gas y primer presidente de Gazprom. En junio de 1995, tras la toma de más de 1.500 rehenes (más de 2.000 según otras cifras) en Budionnovsk por Shamil Basáyev, negoció con él un acuerdo que detuvo las operaciones militares en Chechenia y abrió negociaciones, un punto de inflexión de la primera guerra chechena. Fue presidente interino durante 23 horas en noviembre de 1996, mientras Yeltsin se operaba del corazón, y enviado especial de Rusia en Yugoslavia durante los bombardeos de la OTAN de 1999.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Víktor Chernomyrdin",
+        "en": "Viktor Chernomyrdin"
+      },
+      "wikidata": "Q190884"
+    },
+    {
+      "id": "dobrica-cosic",
+      "nombre": "Dobrica Ćosić",
+      "nacimiento": {
+        "anio": 1921,
+        "aprox": false,
+        "lugar": "Velika Drenova",
+        "lon": 21.133,
+        "lat": 43.633
+      },
+      "muerte": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Belgrado",
+        "lon": 20.457,
+        "lat": 44.818
+      },
+      "activo": {
+        "lugar": "Belgrado",
+        "lon": 20.457,
+        "lat": 44.818,
+        "desde": 1992,
+        "hasta": 1993,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "político"
+      ],
+      "resumen": "Escritor serbio y primer presidente de la República Federal de Yugoslavia (Serbia y Montenegro), de 1992 a 1993, cuando fue destituido después de enfrentarse con Milošević, a quien había apoyado desde 1989. En 1968 criticó en el partido la política de nacionalidades de la Yugoslavia de Tito; sus partidarios lo llaman «padre de la nación» por su influencia en el resurgimiento nacionalista serbio de fines de los años ochenta, y sus críticos liberales lo señalan como uno de los inspiradores del proyecto de la «Gran Serbia». No escribió el Memorándum de la Academia Serbia de Ciencias de 1986, que a veces se le atribuye. En 1991 ayudó a llevar a Radovan Karadžić a la jefatura de los serbios de Bosnia y apoyó el esfuerzo de guerra serbio; en 1992 escribió que Bosnia-Herzegovina era un «engendro histórico» y que las zonas serbias debían unirse en una federación, y ya presidente propuso partir Kosovo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Dobrica Ćosić",
+        "en": "Dobrica Ćosić"
+      },
+      "wikidata": "Q369612"
+    },
+    {
+      "id": "lavrenti-beria",
+      "nombre": "Lavrenti Beria",
+      "nacimiento": {
+        "anio": 1899,
+        "aprox": false,
+        "lugar": "Merjeuli",
+        "lon": 41.137,
+        "lat": 42.982
+      },
+      "muerte": {
+        "anio": 1953,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "activo": {
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751,
+        "desde": 1938,
+        "hasta": 1953,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "jefe de la policía secreta"
+      ],
+      "resumen": "Jefe del NKVD de 1938 a 1945 y luego responsable del programa de la bomba atómica soviética, probada el 29 de agosto de 1949. En marzo de 1940 propuso a Stalin, en la nota 794/B, fusilar a unos 25.700 polacos presos en campos y cárceles de la Ucrania y la Bielorrusia ocupadas, lo que el Politburó aprobó el 5 de marzo (masacre de Katyn, con unos 22.000 muertos documentados). En 1940-1941 supervisó deportaciones desde la Polonia oriental y los países bálticos ocupados. En 1943-1944 supervisó las deportaciones masivas de chechenos, ingusetios, tártaros de Crimea y otros pueblos, que muchos historiadores califican de limpieza étnica o de genocidio. Tras la muerte de Stalin fue primer vicepresidente del Consejo de Ministros y ministro del Interior; fue arrestado el 26 de junio de 1953 y, juzgado sin defensor ni derecho de apelación, ejecutado el 23 de diciembre de 1953.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lavrenti Beria",
+        "en": "Lavrentiy Beria"
+      },
+      "wikidata": "Q141829"
     }
   ],
   "hechos": [
@@ -12178,6 +13353,117 @@
       "wikipedia": {
         "es": "Acuerdo de Schengen",
         "en": "Schengen Agreement"
+      }
+    },
+    {
+      "id": "guerra-civil-finlandesa",
+      "titulo": "Guerra civil finlandesa",
+      "anio": 1918,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Tampere",
+      "lon": 23.76,
+      "lat": 61.498,
+      "tipo": "batalla",
+      "resumen": "Del 27 de enero al 15 de mayo de 1918, poco después de la independencia de Finlandia, se enfrentaron los «rojos», guardias obreros dirigidos por una parte de la socialdemocracia y armados por la Rusia soviética, y los «blancos» del Senado de Svinhufvud, al mando de Mannerheim, reforzados desde fines de febrero por jägers entrenados en Alemania y desde abril por tropas alemanas. Decidieron la guerra las batallas de Tampere (marzo-abril) y Viipuri (29 de abril) y el desembarco alemán en Hanko, y ganaron los blancos. Murieron unas 37.000 a 38.000 personas: según los recuentos finlandeses, los blancos ejecutaron a unos 7.400 rojos y los rojos a unos 1.400 blancos, y entre 11.600 y 12.500 prisioneros rojos murieron de hambre y enfermedades en los campos; los dos bandos nombraron la guerra de modos distintos («guerra de la libertad», «guerra civil», «rebelión roja») y sigue siendo el episodio más controvertido de la historia finlandesa.",
+      "regiones": [
+        "finlandia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil finlandesa",
+        "en": "Finnish Civil War"
+      }
+    },
+    {
+      "id": "convencion-sobre-los-derechos-de-las-personas-con-discapacidad",
+      "titulo": "Convención sobre los Derechos de las Personas con Discapacidad",
+      "anio": 2006,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sede de las Naciones Unidas",
+      "lon": -73.967,
+      "lat": 40.75,
+      "tipo": "tratado",
+      "resumen": "La Asamblea General de la ONU la adoptó el 13 de diciembre de 2006, se abrió a la firma el 30 de marzo de 2007 y entró en vigor el 3 de mayo de 2008; fue el primer tratado de derechos humanos de la ONU del siglo XXI. Obliga a los Estados a promover el pleno goce de los derechos de las personas con discapacidad y su igualdad ante la ley, y reemplaza la mirada de la caridad o del tratamiento médico por la de sujetos de derechos. Tiene 194 partes (193 Estados y la Unión Europea); Estados Unidos la firmó en 2009 y no la ratificó.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "texto-de-la-convencion-sobre-las-personas-con-discapacidad"
+      ],
+      "wikipedia": {
+        "es": "Convención Internacional sobre los Derechos de las Personas con Discapacidad",
+        "en": "Convention on the Rights of Persons with Disabilities"
+      }
+    },
+    {
+      "id": "convencion-europea-de-derechos-humanos",
+      "titulo": "Convención Europea de Derechos Humanos",
+      "anio": 1950,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Roma",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "tipo": "tratado",
+      "resumen": "Los Estados miembros del Consejo de Europa la abrieron a la firma en Roma el 4 de noviembre de 1950 y entró en vigor el 3 de septiembre de 1953, con la Declaración Universal como inspiración. Su rasgo distintivo es el Tribunal Europeo de Derechos Humanos, con sede en Estrasburgo desde 1959, cuyas sentencias obligan a los Estados y al que puede recurrir cualquier persona que alegue una violación. Son parte los 46 Estados del Consejo de Europa; Rusia dejó de serlo el 16 de septiembre de 2022, seis meses después de su expulsión del Consejo por la invasión de Ucrania.",
+      "regiones": [
+        "italia"
+      ],
+      "fuentes": [
+        "texto-de-la-convencion-europea-de-derechos-humanos"
+      ],
+      "wikipedia": {
+        "es": "Convención Europea de Derechos Humanos",
+        "en": "European Convention on Human Rights"
+      }
+    },
+    {
+      "id": "convencion-sobre-la-eliminacion-de-la-discriminacion-contra-la-mujer",
+      "titulo": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
+      "anio": 1979,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sede de las Naciones Unidas",
+      "lon": -73.967,
+      "lat": 40.75,
+      "tipo": "tratado",
+      "resumen": "La Asamblea General de la ONU la adoptó en 1979 y entró en vigor el 3 de septiembre de 1981. Obliga a los Estados a eliminar la discriminación contra la mujer en la vida política, económica, social y familiar, y la vigila el Comité para la Eliminación de la Discriminación contra la Mujer. Tiene 189 Estados parte, más de cincuenta de ellos con reservas o declaraciones; Estados Unidos y Palaos la firmaron sin ratificarla.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "texto-de-la-convencion-sobre-la-discriminacion-contra-la-mujer"
+      ],
+      "wikipedia": {
+        "es": "Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer",
+        "en": "Convention on the Elimination of All Forms of Discrimination Against Women"
+      }
+    },
+    {
+      "id": "pacto-internacional-de-derechos-economicos-sociales-y-culturales",
+      "titulo": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+      "anio": 1966,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sede de las Naciones Unidas",
+      "lon": -73.967,
+      "lat": 40.75,
+      "tipo": "tratado",
+      "resumen": "La Asamblea General de la ONU lo adoptó el 16 de diciembre de 1966 (resolución 2200 A) y entró en vigor el 3 de enero de 1976. Compromete a los Estados a avanzar hacia los derechos al trabajo, a la salud, a la educación y a un nivel de vida adecuado, y lo vigila el Comité de Derechos Económicos, Sociales y Culturales; un protocolo facultativo de 2008 abrió la vía de las denuncias individuales. Con la Declaración Universal y el Pacto de Derechos Civiles y Políticos forma la Carta Internacional de Derechos Humanos. Tiene 174 Estados parte; Estados Unidos lo firmó sin ratificarlo.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "texto-del-pacto-de-derechos-economicos-sociales-y-culturales"
+      ],
+      "wikipedia": {
+        "es": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+        "en": "International Covenant on Economic, Social and Cultural Rights"
       }
     }
   ],
