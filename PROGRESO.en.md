@@ -20,14 +20,19 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 - [ ] **Make the macOS app update itself too.** On macOS only the data updates; for a new app version, the notice
       leads to the download page. Changing the executable inside `TellMAP.app` invalidates its signature: the whole
       `.app` has to be downloaded (a zip), swapped in one go and reopened.
+- [x] **Install on macOS on the first try.** Downloaded with a browser, the app (ad hoc signature, not notarized) is
+      quarantined and macOS won't open it ("Apple cannot check it for malicious software"). It now installs with
+      `tools/instalar-macos.sh` from Terminal: it picks the Intel or Apple Silicon build (there's a zip and a `.dmg` for
+      each, half the size of the universal one), puts it in Applications and opens it without quarantine.
+      `verificar-macos` installs it that way on a runner of each kind before leaving it published.
 - [ ] **Sign and notarize the macOS version** with an Apple Developer account (99 USD a year), so it opens with a
       double click without going through Privacy & Security.
 - [ ] **See the macOS `.dmg` working.** `verificar-macos` builds with `hdiutil` a `.dmg` with `TellMAP.app` and a
       shortcut to Applications, after checking the app, and adds it to the release (if that step fails, the release
-      keeps the zip). It still has to be opened on a Mac and, if it works, offered in the README as a way to install.
-      Installing into Applications avoids *App Translocation* (macOS runs quarantined apps from a read-only copy),
-      which matters for the macOS app to update itself. A `.pkg` isn't needed: the app installs nothing outside the
-      bundle and, without notarization, Gatekeeper blocks it anyway.
+      keeps the zip). It still has to be opened on a Mac; the README offers the Terminal installer, which doesn't depend
+      on the `.dmg`. Installing into Applications avoids *App Translocation* (macOS runs quarantined apps from a
+      read-only copy), which matters for the macOS app to update itself. A `.pkg` isn't needed: the app installs nothing
+      outside the bundle and, without notarization, Gatekeeper blocks it anyway.
 
 ### Progressive encyclopedia (0.3)
 

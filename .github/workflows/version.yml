@@ -2,7 +2,8 @@ name: Versión
 
 # Al publicar una versión en GitHub (o a mano, con su etiqueta): exporta los ejecutables de Linux, Windows y macOS con
 # las plantillas oficiales de Godot, comprueba que el de Linux arranque con todos sus datos (--verificar) y los sube a
-# esa versión; el de macOS se comprueba después en una Mac (trabajo verificar-macos). Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
+# esa versión; los de macOS (uno para Intel y otro para Apple Silicon) se comprueban después en una Mac de cada tipo
+# (trabajo verificar-macos), instalados con tools/instalar-macos.sh, que es como se instalan. Los presets están en export_presets.cfg; los datos de data/ entran con el filtro de exportación data/*.
 # Después publica la actualización automática: los ejecutables y los datos nuevos en .gz y el manifiesto
 # actualizacion.json en la versión fija «actualizaciones», que es lo que consultan las apps (docs/es/actualizaciones.md).
 
@@ -57,12 +58,14 @@ jobs:
 
       - name: Exportar Linux, Windows y macOS
         run: |
-          mkdir -p build/linux build/windows build/macos
+          mkdir -p build/linux build/windows build/macos-arm64 build/macos-x86_64
           godot --headless --path . --export-release "Linux" build/linux/TellMAP.x86_64
           godot --headless --path . --export-release "Windows" build/windows/TellMAP.exe
-          # macOS: TellMAP.app universal (Intel y Apple Silicon) dentro de un zip, con firma ad hoc (sin notarizar).
-          godot --headless --path . --export-release "macOS" build/macos/TellMAP.zip
-          ls -la build/linux build/windows build/macos
+          # macOS: un TellMAP.app para cada procesador, dentro de un zip, con firma ad hoc (sin notarizar). Separados,
+          # cada uno pesa la mitad que el universal, y el instalador elige el que corresponde.
+          godot --headless --path . --export-release "macOS Apple Silicon" build/macos-arm64/TellMAP.zip
+          godot --headless --path . --export-release "macOS Intel" build/macos-x86_64/TellMAP.zip
+          ls -la build/linux build/windows build/macos-*
 
       - name: Comprobar que el ejecutable de Linux trae todos sus datos
         run: timeout 300 build/linux/TellMAP.x86_64 --headless -- --verificar
@@ -73,9 +76,11 @@ jobs:
             cp LICENSE README.md README.en.md "build/$so/"
             (cd "build/$so" && zip -qr "../TellMAP-${ETIQUETA}-${so}-x86_64.zip" .)
           done
-          mkdir -p build/macos-zip
-          (cd build/macos-zip && unzip -q ../macos/TellMAP.zip && cp ../../LICENSE ../../README.md ../../README.en.md . &&
-            zip -qry "../TellMAP-${ETIQUETA}-macos-universal.zip" .)
+          for arq in arm64 x86_64; do
+            mkdir -p "build/macos-$arq-zip"
+            (cd "build/macos-$arq-zip" && unzip -q "../macos-$arq/TellMAP.zip" && cp ../../LICENSE ../../README.md ../../README.en.md . &&
+              zip -qry "../TellMAP-${ETIQUETA}-macos-$arq.zip" .)
+          done
           ls -la build/*.zip
 
       - name: Subir a la versión ${{ env.ETIQUETA }}
@@ -97,14 +102,28 @@ jobs:
 
           ---
           **Descargas.** Un solo archivo por sistema, con la app en español y en inglés: elige sola el idioma del equipo y se cambia en Ajustes.
-          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\` · macOS (Intel y Apple Silicon): \`TellMAP-$ETIQUETA-macos-universal.zip\`. En Linux y Windows, las versiones siguientes se instalan solas; en macOS se bajan de acá.
+          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\`. En Linux y Windows, las versiones siguientes se instalan solas.
+
+          **macOS:** pegá esto en la Terminal (Aplicaciones → Utilidades → Terminal). Elige sola la versión para Intel o para Apple Silicon, la pone en Aplicaciones y la abre a la primera, sin pasar por Privacidad y seguridad. Para actualizar, se vuelve a correr.
+          \`\`\`
+          curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/instalar-macos.sh | bash
+          \`\`\`
+          Los archivos de macOS, por si se bajan a mano: Apple Silicon (M1, M2…): \`TellMAP-$ETIQUETA-macos-arm64.dmg\` · Intel: \`TellMAP-$ETIQUETA-macos-x86_64.dmg\` (los .zip son los mismos). Así bajados, como la app no está notarizada por Apple, la primera vez hay que abrirla desde Configuración del Sistema → Privacidad y seguridad → «Abrir igualmente».
 
           **Downloads.** One file per system, with the app in both Spanish and English: it picks your computer's language and you can switch it in Settings.
-          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\` · macOS (Intel and Apple Silicon): \`TellMAP-$ETIQUETA-macos-universal.zip\`. On Linux and Windows, later versions install themselves; on macOS, download them from here.
+          Linux: \`TellMAP-$ETIQUETA-linux-x86_64.zip\` · Windows: \`TellMAP-$ETIQUETA-windows-x86_64.zip\`. On Linux and Windows, later versions install themselves.
+
+          **macOS:** paste this into Terminal (Applications → Utilities → Terminal). It picks the Intel or Apple Silicon build by itself, puts it in Applications and opens it right away, with no trip to Privacy & Security. To update, run it again.
+          \`\`\`
+          curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/instalar-macos.sh | bash
+          \`\`\`
+          The macOS files, for downloading by hand: Apple Silicon (M1, M2…): \`TellMAP-$ETIQUETA-macos-arm64.dmg\` · Intel: \`TellMAP-$ETIQUETA-macos-x86_64.dmg\` (the .zip files are the same). Downloaded that way, since the app isn't notarized by Apple, the first time it has to be opened from System Settings → Privacy & Security → "Open Anyway".
           EOF
           gh release edit "$ETIQUETA" --notes-file notas.md
 
+      # Una versión preliminar (para probar los ejecutables) no se anuncia a las apps instaladas.
       - name: Publicar la actualización automática
+        if: github.event.release.prerelease != true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -119,24 +138,40 @@ jobs:
           gh release upload actualizaciones subir/actualizacion.json --clobber
 
   verificar-macos:
-    # El ejecutable de macOS se exporta desde Linux: acá se comprueba en una Mac (Apple Silicon) que la firma ad hoc
-    # valga, que arranque con todos sus datos y que dibuje. Si algo falla, el zip se saca de la versión para que nadie
-    # baje uno roto. macOS no se actualiza solo (el manifiesto no lo incluye): reemplazar el binario invalidaría la
-    # firma.
+    # Los ejecutables de macOS se exportan desde Linux: acá se instalan en una Mac de cada tipo con el mismo instalador
+    # que usa la gente (tools/instalar-macos.sh, que los baja de la versión con curl) y se comprueba que la firma ad hoc
+    # valga, que arranquen con todos sus datos y que dibujen. Si algo falla, el zip de esa Mac se saca de la versión
+    # para que nadie baje uno roto. macOS no se actualiza solo (el manifiesto no lo incluye): se vuelve a correr el
+    # instalador.
     needs: exportar
-    runs-on: macos-latest
-    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arq: arm64
+            runner: macos-latest
+          - arq: x86_64
+            runner: macos-15-intel
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 25
     env:
       ETIQUETA: ${{ github.event.release.tag_name || inputs.etiqueta }}
+      ARQ: ${{ matrix.arq }}
       GH_TOKEN: ${{ github.token }}
     steps:
-      - name: Bajar el zip de macOS de la versión
-        run: gh release download "$ETIQUETA" -R "$GITHUB_REPOSITORY" -p "TellMAP-${ETIQUETA}-macos-universal.zip"
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: tools/instalar-macos.sh
+          sparse-checkout-cone-mode: false
+
+      - name: Instalar con tools/instalar-macos.sh, como lo instala la gente
+        run: |
+          uname -m; sysctl -n machdep.cpu.brand_string; sw_vers
+          TELLMAP_VERSION="$ETIQUETA" TELLMAP_DESTINO="$PWD/app" TELLMAP_NO_ABRIR=1 bash tools/instalar-macos.sh
+          lipo -archs app/TellMAP.app/Contents/MacOS/TellMAP | grep -qx "$ARQ"
 
       - name: Comprobar la firma
-        run: |
-          ditto -x -k "TellMAP-${ETIQUETA}-macos-universal.zip" app
-          codesign --verify --deep --strict --verbose=2 app/TellMAP.app
+        run: codesign --verify --deep --strict --verbose=2 app/TellMAP.app
 
       - name: Comprobar que arranca con todos sus datos
         timeout-minutes: 5
@@ -144,34 +179,42 @@ jobs:
 
       # Con --headless no se dibuja nada: acá se abre la ventana de verdad con el motor que elige la app y se mira que
       # la captura no salga casi lisa. Pasaba con Forward+ en una MacBook Pro 2017 con Intel Iris Plus 640: arrancaba
-      # sin errores y la ventana quedaba oscura. Este runner es Apple Silicon virtualizado, así que no reemplaza
-      # probar en una Mac con Intel. Si el runner no llega a abrir la ventana, solo avisa.
+      # sin errores y la ventana quedaba oscura. Los runners son máquinas virtuales sin placa de video de verdad, así
+      # que no reemplazan probar en una Mac. Si el runner no llega a abrir la ventana, solo avisa.
       - name: Comprobar que dibuja (una captura que no salga lisa)
         timeout-minutes: 5
         run: |
           estado=0
-          app/TellMAP.app/Contents/MacOS/TellMAP -- --captura="$PWD/captura-macos.png" --comprobar_dibujo --diagnostico || estado=$?
-          if [ ! -f captura-macos.png ]; then
-            echo "::warning::TellMAP no llegó a sacar la captura en el runner: no se comprobó que dibuje."
+          app/TellMAP.app/Contents/MacOS/TellMAP -- --captura="$PWD/captura-macos-$ARQ.png" --comprobar_dibujo --diagnostico || estado=$?
+          if [ ! -f "captura-macos-$ARQ.png" ]; then
+            echo "::warning::TellMAP no llegó a sacar la captura en el runner ($ARQ): no se comprobó que dibuje."
             exit 0
           fi
           exit "$estado"
 
-      # El formato de siempre en Mac: un disco con TellMAP.app y un acceso a Aplicaciones para arrastrarla. Abrirla desde
-      # Aplicaciones, y no desde Descargas, evita la App Translocation (macOS corre las apps en cuarentena desde una
-      # copia de solo lectura). Se arma acá porque hdiutil solo existe en macOS, con la app ya comprobada; si este paso
-      # falla, la versión queda igual con el zip.
+      - name: Guardar la captura
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v6
+        with:
+          name: captura-macos-${{ matrix.arq }}
+          path: captura-macos-*.png
+          if-no-files-found: ignore
+
+      # El formato de siempre en Mac: un disco con TellMAP.app y un acceso a Aplicaciones para arrastrarla, para quien
+      # baja a mano. Se arma acá porque hdiutil solo existe en macOS, con la app ya comprobada; si este paso falla, la
+      # versión queda igual con el zip.
       - name: Armar el .dmg y sumarlo a la versión
         continue-on-error: true
         run: |
-          # Del zip de nuevo, tal como se publicó (la carpeta app ya se usó para abrir la app).
+          gh release download "$ETIQUETA" -R "$GITHUB_REPOSITORY" -p "TellMAP-${ETIQUETA}-macos-$ARQ.zip"
           mkdir disco
-          ditto -x -k "TellMAP-${ETIQUETA}-macos-universal.zip" disco
+          ditto -x -k "TellMAP-${ETIQUETA}-macos-$ARQ.zip" disco
           ln -s /Applications disco/Applications
-          hdiutil create -volname TellMAP -srcfolder disco -ov -format UDZO "TellMAP-${ETIQUETA}-macos-universal.dmg"
-          hdiutil verify "TellMAP-${ETIQUETA}-macos-universal.dmg"
-          gh release upload "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-universal.dmg" -R "$GITHUB_REPOSITORY" --clobber
+          hdiutil create -volname TellMAP -srcfolder disco -ov -format UDZO "TellMAP-${ETIQUETA}-macos-$ARQ.dmg"
+          hdiutil verify "TellMAP-${ETIQUETA}-macos-$ARQ.dmg"
+          gh release upload "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-$ARQ.dmg" -R "$GITHUB_REPOSITORY" --clobber
 
       - name: Si algo falló, sacar el zip de la versión
         if: failure()
-        run: gh release delete-asset "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-universal.zip" -R "$GITHUB_REPOSITORY" -y
+        run: gh release delete-asset "$ETIQUETA" "TellMAP-${ETIQUETA}-macos-$ARQ.zip" -R "$GITHUB_REPOSITORY" -y

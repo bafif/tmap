@@ -20,14 +20,19 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 - [ ] **Que la app de macOS también se actualice sola.** En macOS solo se actualizan los datos; con una versión nueva
       de la app, el aviso lleva a la página de descarga. Cambiar el ejecutable de adentro de `TellMAP.app` invalida su
       firma: hay que bajar el `.app` entero (un zip), reemplazarlo de una vez y reabrir.
+- [x] **Instalar en macOS a la primera.** Bajada con el navegador, la app (firma ad hoc, sin notarizar) queda en
+      cuarentena y macOS no la abre («Apple no puede revisar si contiene software malicioso»). Ahora se instala con
+      `tools/instalar-macos.sh` desde la Terminal: elige la versión para Intel o para Apple Silicon (hay un zip y un
+      `.dmg` para cada una, la mitad de pesados que el universal), la deja en Aplicaciones y abre sin cuarentena.
+      `verificar-macos` la instala así en un runner de cada tipo antes de dejarla publicada.
 - [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
       abra con doble clic sin pasar por Privacidad y seguridad.
-- [ ] **Ver andar el `.dmg` de macOS.** `verificar-macos` arma con `hdiutil` un `.dmg` con `TellMAP.app` y un acceso
-      a Aplicaciones, después de comprobar la app, y lo suma a la versión (si ese paso falla, la versión queda con el
-      zip). Falta abrirlo en una Mac y, si anda, ofrecerlo en el README como forma de instalar. Instalar en
-      Aplicaciones evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura),
-      que importa para que la app de macOS se actualice sola. Un `.pkg` no hace falta: la app no instala nada fuera
-      del paquete y, sin notarizar, Gatekeeper lo frena igual.
+- [ ] **Ver andar el `.dmg` de macOS.** `verificar-macos` arma con `hdiutil` un `.dmg` con `TellMAP.app` y un acceso a
+      Aplicaciones, después de comprobar la app, y lo suma a la versión (si ese paso falla, la versión queda con el
+      zip). Falta abrirlo en una Mac; el README ofrece el instalador por Terminal, que no depende del `.dmg`. Instalar
+      en Aplicaciones evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura),
+      que importa para que la app de macOS se actualice sola. Un `.pkg` no hace falta: la app no instala nada fuera del
+      paquete y, sin notarizar, Gatekeeper lo frena igual.
 
 ### Enciclopedia progresiva (0.3)
 

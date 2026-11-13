@@ -37,18 +37,23 @@ Aten"></p>
 
 ## Install
 
-Download the zip for your system from the [latest release](https://github.com/bafif/tmap/releases/latest), unzip it
-and open the app: there's nothing to install.
+On Linux and Windows, download the zip for your system from the
+[latest release](https://github.com/bafif/tmap/releases/latest), unzip it and open the app: there's nothing to install.
 
 | System | File |
 |---|---|
 | Linux | `TellMAP-<version>-linux-x86_64.zip` |
 | Windows | `TellMAP-<version>-windows-x86_64.zip` |
-| macOS (Intel and Apple Silicon) | `TellMAP-<version>-macos-universal.zip` |
 
-The macOS build isn't notarized by Apple: the first time, open it from **System Settings → Privacy & Security**
-([how](docs/en/install.md#macos-the-first-time)). After that, when it opens and every hour, the app tells you
-if there's a new version and downloads nothing until you say yes.
+On macOS, paste this into Terminal: it picks the Intel or Apple Silicon build by itself, puts it in Applications and
+opens it right away ([why this way](docs/en/install.md#macos)).
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/instalar-macos.sh | bash
+```
+
+After that, when it opens and every hour, the app tells you if there's a new version and downloads nothing until you
+say yes.
 
 To run it from the source you need [Godot 4.7](https://godotengine.org/download):
 
@@ -87,7 +92,7 @@ F1 opens the help with every shortcut. On a touchscreen, one finger moves the ma
 
 ## More documentation
 
-- [Install](docs/en/install.md): each system, the first time on macOS, the rendering engine and running it from the
+- [Install](docs/en/install.md): each system, the macOS installer, the rendering engine and running it from the
   source.
 - [Updates](docs/en/updates.md): what updates itself, how it's published and how it's tested.
 - [The encyclopedia](docs/en/encyclopedia.md): what's in it, how it gets filled in, the editor and the editorial rules.

@@ -37,18 +37,23 @@ Atón"></p>
 
 ## Instalar
 
-Bajá el zip de tu sistema desde la [última versión](https://github.com/bafif/tmap/releases/latest), descomprimilo y
-abrí la app: no hace falta instalar nada.
+En Linux y Windows, bajá el zip de tu sistema desde la
+[última versión](https://github.com/bafif/tmap/releases/latest), descomprimilo y abrí la app: no hace falta instalar
+nada.
 
 | Sistema | Archivo |
 |---|---|
 | Linux | `TellMAP-<versión>-linux-x86_64.zip` |
 | Windows | `TellMAP-<versión>-windows-x86_64.zip` |
-| macOS (Intel y Apple Silicon) | `TellMAP-<versión>-macos-universal.zip` |
 
-La versión de macOS no está notarizada por Apple: la primera vez se abre desde **Configuración del Sistema →
-Privacidad y seguridad** ([cómo](docs/es/instalar.md#macos-la-primera-vez)). Después, al abrir y cada hora, la app
-avisa si hay una versión nueva y no baja nada hasta que le digas que sí.
+En macOS se pega esto en la Terminal: elige sola la versión para Intel o para Apple Silicon, la pone en Aplicaciones y
+la abre a la primera ([por qué así](docs/es/instalar.md#macos)).
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/instalar-macos.sh | bash
+```
+
+Después, al abrir y cada hora, la app avisa si hay una versión nueva y no baja nada hasta que le digas que sí.
 
 Para correrla desde el código hace falta [Godot 4.7](https://godotengine.org/download):
 
@@ -86,7 +91,7 @@ F1 abre la ayuda con todos los atajos. Con una pantalla táctil, un dedo mueve e
 
 ## Más documentación
 
-- [Instalar](docs/es/instalar.md): cada sistema, la primera vez en macOS, el motor de dibujo y cómo correrla desde el
+- [Instalar](docs/es/instalar.md): cada sistema, el instalador de macOS, el motor de dibujo y cómo correrla desde el
   código.
 - [Actualizaciones](docs/es/actualizaciones.md): qué se actualiza solo, cómo se publica y cómo se prueba.
 - [La enciclopedia](docs/es/enciclopedia.md): qué trae, cómo se completa, el editor y las reglas editoriales.
