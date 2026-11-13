@@ -86,7 +86,8 @@
         }
       ],
       "wikipedia": {
-        "es": "Fuentes sobre el primer viaje de Colón"
+        "es": "Diario de la primera navegación",
+        "en": "Christopher Columbus's journal"
       },
       "confianza": "alta"
     },
@@ -2139,6 +2140,77 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "libro-de-las-profecias",
+      "titulo": "Libro de las Profecías",
+      "titulo_original": "Libro de las Profecías",
+      "autor": "Cristóbal Colón",
+      "autor_id": "cristobal-colon",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1501,
+        "anio_hasta": 1505,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1501,
+        "hasta": 1505
+      },
+      "idioma_original": "Español y latín",
+      "soporte": "Manuscrito de compilación",
+      "resumen": "Compilación de textos bíblicos y de autores cristianos sobre el fin de los tiempos que Colón reunió después de su tercer viaje, probablemente con ayuda del cartujo Gaspar Gorricio, entre septiembre de 1501 y marzo de 1502, con añadidos hasta hacia 1505. Reúne las condiciones que, según la tradición medieval, debían cumplirse antes del fin del mundo: la difusión del cristianismo, el hallazgo del Paraíso terrenal, una última cruzada que recobrara Jerusalén y un último emperador del mundo, papel que Colón atribuía a los Reyes Católicos. Lo influyeron autores medievales como Joaquín de Fiore.",
+      "por_que_importa": "Muestra que Colón entendía su empresa dentro de un esquema profético del fin de los tiempos, y no solo como una búsqueda de rutas comerciales y de oro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Libro de las Profecías",
+        "en": "Book of Prophecies"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "libro-de-los-privilegios",
+      "titulo": "Libro de los Privilegios",
+      "titulo_original": "Libro de los Privilegios",
+      "autor": "Cristóbal Colón",
+      "autor_id": "cristobal-colon",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1502,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1492,
+        "hasta": 1502
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro de copias autorizadas",
+      "resumen": "Libro que Colón terminó en 1502, antes de su cuarto viaje, preparado en Sevilla con ayuda de jueces y notarios, para documentar los favores y privilegios que creía deberle la corona a él y a sus herederos por haber hallado una nueva vía a las Indias y por la conquista y la cristianización de las tierras sometidas. Contiene un documento en el que Colón llama «Indias Occidentales» a las tierras halladas y dice que eran desconocidas para todo el mundo, lo que algunos leen como señal de que sabía que había encontrado un continente nuevo.",
+      "por_que_importa": "Es el respaldo documental de los reclamos de los Colón; después de su preparación vinieron los largos pleitos colombinos entre la familia y la corona.",
+      "leer": [
+        {
+          "titulo": "Facsímil con transcripción y traducción inglesa (1893)",
+          "url": "https://archive.org/details/christophercolum00colu",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Book of Privileges"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2382,7 +2454,9 @@
       "obras": [
         "diario-de-colon",
         "carta-de-colon-1493",
-        "carta-de-colon-desde-jamaica"
+        "carta-de-colon-desde-jamaica",
+        "libro-de-las-profecias",
+        "libro-de-los-privilegios"
       ],
       "wikipedia": {
         "es": "Cristóbal Colón",
@@ -4090,6 +4164,118 @@
         "en": "Philippe Girard"
       },
       "wikidata": "Q16214423"
+    },
+    {
+      "id": "jean-pierre-boyer",
+      "nombre": "Jean-Pierre Boyer",
+      "nacimiento": {
+        "anio": 1776,
+        "aprox": false,
+        "lugar": "Puerto Príncipe",
+        "lon": -72.34,
+        "lat": 18.547
+      },
+      "muerte": {
+        "anio": 1850,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "Puerto Príncipe",
+        "lon": -72.34,
+        "lat": 18.547,
+        "desde": 1799,
+        "hasta": 1843,
+        "aprox": false
+      },
+      "roles": [
+        "general",
+        "presidente de Haití"
+      ],
+      "resumen": "Nacido en Puerto Príncipe, hijo de un sastre francés y de una africana antes esclava. En la guerra del Sur (1799-1800) se alineó con André Rigaud contra Toussaint Louverture y partió con él a Francia; volvió con la expedición de Leclerc (1802) y se pasó a los jefes de la insurrección, Pétion y Dessalines, cuando se supo que Francia restablecería la esclavitud. Sucedió a Pétion en 1818, reunió el país en 1820 y en febrero de 1822 ocupó la parte española de la isla, independizada en diciembre de 1821, de modo que gobernó toda La Española hasta su caída en 1843: la historiografía haitiana lo llama unificación y la dominicana, ocupación o dominación haitiana. En 1825 aceptó la ordenanza de Carlos X, presentada por una escuadra francesa frente a Puerto Príncipe, que reconocía la independencia a cambio de 150 millones de francos (90 millones desde 1838).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jean-Pierre Boyer",
+        "en": "Jean-Pierre Boyer"
+      },
+      "wikidata": "Q449421"
+    },
+    {
+      "id": "bernardo-de-balbuena",
+      "nombre": "Bernardo de Balbuena",
+      "nacimiento": {
+        "anio": 1562,
+        "aprox": true,
+        "lugar": "Valdepeñas",
+        "lon": -3.4,
+        "lat": 38.766
+      },
+      "muerte": {
+        "anio": 1627,
+        "aprox": false,
+        "lugar": "San Juan",
+        "lon": -66.117,
+        "lat": 18.465
+      },
+      "activo": {
+        "lugar": "San Juan de Puerto Rico",
+        "lon": -66.117,
+        "lat": 18.465,
+        "desde": 1623,
+        "hasta": 1627,
+        "aprox": false
+      },
+      "roles": [
+        "poeta",
+        "abad de Jamaica",
+        "obispo de Puerto Rico"
+      ],
+      "resumen": "Poeta español criado en Nueva España («Grandeza mexicana», 1604; «El Bernardo», 1624). Nombrado abad de Jamaica en 1608, llegó a la isla en 1611 y no logró que se la erigiera en obispado; obispo de Puerto Rico desde 1620, llegó en 1623, y en el ataque neerlandés de 1625 perdió su casa y su biblioteca, que fue quemada. Murió en San Juan en 1627. Su año de nacimiento varía según la fuente (hacia 1561, 1562 o 1568).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Bernardo de Balbuena",
+        "en": "Bernardo de Balbuena"
+      },
+      "wikidata": "Q793631"
+    },
+    {
+      "id": "sanite-belair",
+      "nombre": "Sanité Bélair",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": true,
+        "lugar": "Verrettes",
+        "lon": -72.467,
+        "lat": 19.05
+      },
+      "muerte": {
+        "anio": 1802,
+        "aprox": false,
+        "lugar": "Distrito de Cabo Haitiano",
+        "lon": -72.2,
+        "lat": 19.75
+      },
+      "activo": {
+        "lugar": "Verrettes",
+        "lon": -72.467,
+        "lat": 19.05,
+        "desde": 1796,
+        "hasta": 1802,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "revolucionaria"
+      ],
+      "resumen": "Liberta nacida en Verrettes, casada en 1796 con Charles Bélair, sobrino y ayudante de Toussaint Louverture; llegó a sargento y luego a teniente en la lucha contra la expedición francesa. Capturada por una columna al mando de Faustin Répussard junto con su marido, fue condenada a muerte el 5 de octubre de 1802: a él lo fusilaron y a ella, por su sexo, se le impuso la decapitación; según la tradición murió ante el pelotón gritando «¡Viva la libertad, abajo la esclavitud!» sin dejarse vendar los ojos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sanité Bélair",
+        "en": "Sanité Bélair"
+      },
+      "wikidata": "Q3472292"
     }
   ],
   "hechos": [
@@ -5877,6 +6063,139 @@
       "wikipedia": {
         "es": "Mito de la creencia en una Tierra plana",
         "en": "Myth of the flat Earth"
+      }
+    },
+    {
+      "id": "batalla-de-croix-des-bouquets",
+      "titulo": "Batalla de Croix-des-Bouquets",
+      "anio": 1792,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Croix-des-Bouquets",
+      "lon": -72.227,
+      "lat": 18.576,
+      "tipo": "batalla",
+      "resumen": "El 22 de marzo de 1792, los libres de color de Beauvais y Rigaud, expulsados de Puerto Príncipe y reforzados por esclavos sublevados en la llanura del Cul-de-Sac bajo Yacinthe, rechazaron en Croix-des-Bouquets a la guardia nacional y a destacamentos de línea de los colonos blancos, que se retiraron en desorden. Según Schœlcher, que se apoya en Madiou y en Lacroix, los blancos perdieron más de cien hombres y los insurgentes, armados sobre todo con cuchillos, picas y azadas, unos 1200.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [
+        "haitian-revolutionary-studies"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Croix-des-Bouquets",
+        "en": "Battle of Croix-des-Bouquets"
+      }
+    },
+    {
+      "id": "batalla-de-cap-francais-1793",
+      "titulo": "Batalla de Cap-Français",
+      "anio": 1793,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cap-Français (Cabo Haitiano)",
+      "lon": -72.2,
+      "lat": 19.75,
+      "tipo": "batalla",
+      "resumen": "El 20 de junio de 1793 el general Galbaud, apartado del gobierno de la colonia por los comisarios civiles Sonthonax y Polverel, desembarcó con marinos y colonos blancos contra los comisarios y los libres de color. Tras dos días de lucha callejera, los comisarios ofrecieron la libertad a los esclavos rebeldes que combatieran por la República y unos diez mil, mandados por Macaya y Pierrot, entraron en la ciudad el 21 de junio; Cap-Français fue saqueada e incendiada hasta el 26, murieron civiles según testigos y la mayor parte de la población blanca se embarcó con Galbaud el 24.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [
+        "avengers-of-the-new-world"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Cap-Français (1793)",
+        "en": "Battle of Cap-Français (1793)"
+      }
+    },
+    {
+      "id": "batalla-de-crete-a-pierrot",
+      "titulo": "Batalla de Crête-à-Pierrot",
+      "anio": 1802,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Battle of Crête-à-Pierrot",
+      "lon": -72.45,
+      "lat": 19.117,
+      "tipo": "batalla",
+      "resumen": "Entre el 2 o el 4 y el 24 de marzo de 1802, según la fuente, la guarnición de Crête-à-Pierrot, al mando de Lamartinière, resistió el sitio de las fuerzas de Leclerc y tres asaltos franceses (desde el 4, el del 11 o 12, en el que cayó el general Dugua, y el del 22), mientras Dessalines y Toussaint atacaban a los sitiadores desde afuera; la noche del 24 rompió el cerco por orden de Dessalines. Las bajas francesas se cuentan en cientos o miles según la fuente. Según el relato francés, dentro del fuerte había «muchos blancos asesinados» y en Verrettes degollaron a unos 800 colonos; Rochambeau hizo ejecutar a unos 600 heridos prisioneros. La rendición de Christophe arrastró la de Dessalines y después la de Toussaint, en mayo.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [
+        "avengers-of-the-new-world",
+        "caribbean-genocide-girard"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Crête-à-Pierrot",
+        "en": "Battle of Crête-à-Pierrot"
+      }
+    },
+    {
+      "id": "virreinato-colombino",
+      "titulo": "El virreinato colombino y los pleitos colombinos",
+      "anio": 1492,
+      "anio_hasta": 1536,
+      "aprox": false,
+      "lugar": "Santo Domingo",
+      "lon": -69.936,
+      "lat": 18.462,
+      "tipo": "politico",
+      "resumen": "Las Capitulaciones de Santa Fe (17 de abril de 1492) dieron a Colón y a sus herederos los títulos de almirante del Mar Océano y de virrey y gobernador general de las tierras que descubriera, con prerrogativas económicas; Colón gobernó La Española con sus hermanos como adjuntos hasta que la pesquisa de Bobadilla lo apresó en 1500. Su hijo Diego logró en 1511, tras iniciar los pleitos colombinos contra la corona, que se reconociera el virreinato limitado a lo descubierto por su padre, y la transacción de 1536 con su heredero Luis, que recibió el ducado de Veragua y el marquesado de Jamaica, puso fin al virreinato.",
+      "regiones": [
+        "caribe",
+        "iberia"
+      ],
+      "fuentes": [
+        "capitulaciones-de-santa-fe",
+        "pesquisa-de-bobadilla"
+      ],
+      "wikipedia": {
+        "es": "Virreinato colombino",
+        "en": "Columbian Viceroyalty"
+      }
+    },
+    {
+      "id": "capitania-general-de-santo-domingo",
+      "titulo": "Capitanía General de Santo Domingo",
+      "anio": 1535,
+      "anio_hasta": 1821,
+      "aprox": true,
+      "lugar": "Santo Domingo",
+      "lon": -69.936,
+      "lat": 18.462,
+      "tipo": "politico",
+      "resumen": "Jurisdicción política y militar de La Española y, en su origen, de buena parte del Caribe, bajo la Audiencia de Santo Domingo. Las exposiciones fechan su origen de modo distinto: en 1492, desde la primera colonización, o en 1535, al crearse el virreinato de Nueva España; desde mayo de 1577 el presidente de la Audiencia fue además gobernador y capitán general. España cedió a Francia el tercio occidental de la isla en 1697 y el resto en 1795; Francia lo ocupó entre 1801 y 1809, y los criollos declararon la independencia en 1821.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Capitanía general de Santo Domingo",
+        "en": "Captaincy General of Santo Domingo"
+      }
+    },
+    {
+      "id": "segunda-guerra-cimarrona",
+      "titulo": "Segunda guerra cimarrona de Jamaica",
+      "anio": 1795,
+      "anio_hasta": 1796,
+      "aprox": false,
+      "lugar": "Maroon Town",
+      "lon": -77.818,
+      "lat": 18.33,
+      "tipo": "batalla",
+      "resumen": "Ocho meses de guerra de guerrillas entre los cimarrones de Trelawny Town y el gobierno británico de Jamaica, desatada por el castigo a latigazos de dos cimarrones acusados de robar cerdos y por la detención de seis delegados que iban a presentar quejas, por orden del gobernador Balcarres. Los británicos, con unos 5000 soldados y milicianos, tuvieron más bajas que los cimarrones, pero la tierra arrasada del general Walpole y el uso de perros traídos de Cuba los llevaron a firmar con Walpole, en diciembre de 1795, un tratado que prometía reubicarlos dentro de la isla; como la mayoría no se entregó hasta mediados de marzo de 1796, después del plazo del 1 de enero fijado por el gobernador, este lo dio por incumplido y deportó a unos 581 a Nueva Escocia. Los de Accompong combatieron junto a los británicos y los de Barlovento permanecieron neutrales.",
+      "regiones": [
+        "caribe"
+      ],
+      "fuentes": [
+        "tratado-con-los-cimarrones-de-sotavento-1739"
+      ],
+      "wikipedia": {
+        "es": "Segunda Guerra Cimarrón",
+        "en": "Second Maroon War"
       }
     }
   ],

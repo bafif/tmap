@@ -284,7 +284,10 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "en": "The New Found World, or Antarctike"
+      }
     },
     {
       "id": "warhaftige-historia-staden",
@@ -320,7 +323,10 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "en": "True History: An Account of Cannibal Captivity in Brazil"
+      }
     },
     {
       "id": "histoire-d-un-voyage-lery",
@@ -1810,6 +1816,42 @@
         }
       ],
       "confianza": "alta"
+    },
+    {
+      "id": "historia-do-futuro",
+      "titulo": "Historia del Futuro",
+      "titulo_original": "História do Futuro",
+      "autor": "Antônio Vieira",
+      "autor_id": "antonio-vieira",
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1649,
+        "anio_hasta": 1665,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [],
+        "desde": 1649,
+        "hasta": 1665
+      },
+      "idioma_original": "Portugués",
+      "soporte": "Libro inconcluso, publicado póstumo",
+      "resumen": "Libro «anteprimero» de una obra que quedó inacabada, en el que Vieira retoma el mito milenarista del Quinto Imperio: un imperio cristiano y portugués que sucedería a los cuatro de la Antigüedad (asirio, persa, griego y romano) y daría a Portugal el liderazgo del mundo. Según Roberto de Sousa Causo es la primera narrativa utópica escrita en portugués. Su redacción se fecha desde 1649 según Sorel o hacia 1665 según Bosi, y se publicó en Lisboa en 1718, después de la muerte del autor.",
+      "por_que_importa": "Es la obra donde Vieira desarrolla el mesianismo del Quinto Imperio, que atraviesa sus escritos y que, junto con otras posiciones suyas, le valió sospechas de herejía.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource en portugués",
+          "url": "https://pt.wikisource.org/wiki/Hist%C3%B3ria_do_Futuro",
+          "idioma": "pt",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Historia del Futuro",
+        "en": "História do Futuro"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -2949,7 +2991,8 @@
       "obras": [
         "sermao-xiv-do-rosario",
         "sermao-primeira-dominga-1653",
-        "sermao-de-santo-antonio-1654"
+        "sermao-de-santo-antonio-1654",
+        "historia-do-futuro"
       ],
       "wikipedia": {
         "es": "António Vieira",
@@ -4049,6 +4092,370 @@
         "en": "Boris Fausto"
       },
       "wikidata": "Q1789400"
+    },
+    {
+      "id": "juan-ii-de-portugal",
+      "nombre": "Juan II de Portugal",
+      "nacimiento": {
+        "anio": 1455,
+        "aprox": false,
+        "lugar": "Castillo de San Jorge de Lisboa",
+        "lon": -9.133,
+        "lat": 38.714
+      },
+      "muerte": {
+        "anio": 1495,
+        "aprox": false,
+        "lugar": "Alvor",
+        "lon": -8.594,
+        "lat": 37.129
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1481,
+        "hasta": 1495,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Portugal (1481-1495). Rechazó la bula Inter caetera, que repartía las tierras halladas por Colón, y negoció con los Reyes Católicos el tratado de Tordesillas (1494), que fijó la línea a 370 leguas al oeste de Cabo Verde y dejó del lado portugués la parte oriental de lo que sería el Brasil.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan II de Portugal",
+        "en": "John II of Portugal"
+      },
+      "wikidata": "Q217637"
+    },
+    {
+      "id": "enrique-i-de-portugal",
+      "nombre": "Enrique I de Portugal",
+      "nacimiento": {
+        "anio": 1512,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "muerte": {
+        "anio": 1580,
+        "aprox": false,
+        "lugar": "Almeirim",
+        "lon": -8.633,
+        "lat": 39.217
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1578,
+        "hasta": 1580,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "cardenal",
+        "inquisidor"
+      ],
+      "resumen": "Cardenal e inquisidor, regente de su sobrino nieto Sebastián y rey desde la muerte de este en Alcazarquivir (1578). Célibe, no logró que el papa lo librara de sus votos y murió el 31 de enero de 1580 sin designar sucesor, con el reino en manos de una junta de cinco gobernadores; su muerte abrió la crisis sucesoria que llevó a la unión de Portugal, con su imperio del Brasil, a la corona de Felipe II.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Enrique I de Portugal",
+        "en": "Henry, King of Portugal"
+      },
+      "wikidata": "Q222123"
+    },
+    {
+      "id": "antonio-prior-de-crato",
+      "nombre": "Antonio, prior de Crato",
+      "nacimiento": {
+        "anio": 1531,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "muerte": {
+        "anio": 1595,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "Santarém",
+        "lon": -8.687,
+        "lat": 39.239,
+        "desde": 1580,
+        "hasta": 1583,
+        "aprox": false
+      },
+      "roles": [
+        "pretendiente al trono",
+        "rey aclamado"
+      ],
+      "resumen": "Nieto ilegítimo de Manuel I, aclamado rey en Santarém en julio de 1580 y derrotado por el duque de Alba en Alcántara (25 de agosto); resistió en las Azores hasta 1583 y vivió después en Francia e Inglaterra. Para obtener apoyo contra Felipe II ofreció concesiones sobre el Brasil: según algunas versiones, su cesión a Catalina de Médici, y en 1589 facilidades en el Brasil y las Azores a Isabel I.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio, prior de Crato",
+        "en": "António, Prior of Crato"
+      },
+      "wikidata": "Q321325"
+    },
+    {
+      "id": "juan-iv-de-portugal",
+      "nombre": "Juan IV de Portugal",
+      "nacimiento": {
+        "anio": 1604,
+        "aprox": false,
+        "lugar": "Palacio Ducal de Vila Viçosa",
+        "lon": -7.422,
+        "lat": 38.782
+      },
+      "muerte": {
+        "anio": 1656,
+        "aprox": false,
+        "lugar": "Palacio de Ribeira",
+        "lon": -9.137,
+        "lat": 38.707
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1640,
+        "hasta": 1656,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Duque de Braganza, proclamado rey el 1 de diciembre de 1640 (aclamado formalmente el 15) al restaurarse la independencia portuguesa. Su reinado incluye la creación de la Compañía General de Comercio del Brasil (1649), que Vieira había propuesto en 1643 sobre el modelo neerlandés, y la expulsión de los neerlandeses del nordeste brasileño, completada en 1654.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan IV de Portugal",
+        "en": "John IV of Portugal"
+      },
+      "wikidata": "Q1060796"
+    },
+    {
+      "id": "alfonso-vi-de-portugal",
+      "nombre": "Alfonso VI de Portugal",
+      "nacimiento": {
+        "anio": 1643,
+        "aprox": false,
+        "lugar": "Palacio de Ribeira",
+        "lon": -9.137,
+        "lat": 38.707
+      },
+      "muerte": {
+        "anio": 1683,
+        "aprox": false,
+        "lugar": "Palacio Nacional de Sintra",
+        "lon": -9.391,
+        "lat": 38.798
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1656,
+        "hasta": 1683,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Sucedió a Juan IV a los trece años, con su madre como regente hasta 1662. En su reinado, por el tratado de La Haya (1661) los Países Bajos reconocieron la soberanía portuguesa sobre el Brasil neerlandés, y por el de Lisboa (1668) España reconoció a la casa de Braganza; su hermano Pedro tomó el gobierno en 1667, fue regente desde 1668 y Alfonso quedó recluido hasta su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alfonso VI de Portugal",
+        "en": "Afonso VI of Portugal"
+      },
+      "wikidata": "Q691168"
+    },
+    {
+      "id": "pedro-ii-de-portugal",
+      "nombre": "Pedro II de Portugal",
+      "nacimiento": {
+        "anio": 1648,
+        "aprox": false,
+        "lugar": "Palacio de Ribeira",
+        "lon": -9.137,
+        "lat": 38.707
+      },
+      "muerte": {
+        "anio": 1706,
+        "aprox": false,
+        "lugar": "Alcântara",
+        "lon": -9.174,
+        "lat": 38.706
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1668,
+        "hasta": 1706,
+        "aprox": false
+      },
+      "roles": [
+        "rey",
+        "regente"
+      ],
+      "resumen": "Regente desde 1668 y rey desde 1683. Su política brasileña buscó metales y piedras preciosas y llevar la frontera hasta el Río de la Plata; en su reinado se descubrió oro en Minas Gerais, se creó la Casa da Moeda (1694) y cayó el quilombo de Palmares (1694-1695), y al final de su vida estallaron la disputa por Colonia del Sacramento, ocupada por España en 1705, y los primeros choques entre paulistas y emboabas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro II de Portugal",
+        "en": "Peter II of Portugal"
+      },
+      "wikidata": "Q156190"
+    },
+    {
+      "id": "juan-v-de-portugal",
+      "nombre": "Juan V de Portugal",
+      "nacimiento": {
+        "anio": 1689,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "muerte": {
+        "anio": 1750,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1706,
+        "hasta": 1750,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Portugal (1706-1750). El oro y los diamantes del Brasil, cuya explotación se organizó con el quinto real, extraídos sobre todo por esclavos africanos, financiaron su política y el convento-palacio de Mafra; por los tratados de Utrecht, Francia reconoció en 1713 la soberanía portuguesa entre el Amazonas y el Oiapoque y España le devolvió Colonia del Sacramento en 1715, y el tratado de Madrid (13 de enero de 1750) abandonó Tordesillas como base de los límites con el Brasil.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan V de Portugal",
+        "en": "John V of Portugal"
+      },
+      "wikidata": "Q299650"
+    },
+    {
+      "id": "jose-i-de-portugal",
+      "nombre": "José I de Portugal",
+      "nacimiento": {
+        "anio": 1714,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "muerte": {
+        "anio": 1777,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1750,
+        "hasta": 1777,
+        "aprox": false
+      },
+      "roles": [
+        "rey"
+      ],
+      "resumen": "Rey de Portugal (1750-1777), que dejó el gobierno en manos de Pombal. En su reinado el tratado de Madrid (1750) fue anulado por el de El Pardo (1761) tras la guerra guaranítica, se expulsó a los jesuitas del Brasil (1759) y la capital de la colonia pasó a Río de Janeiro (1763).",
+      "obras": [],
+      "wikipedia": {
+        "es": "José I de Portugal",
+        "en": "Joseph I of Portugal"
+      },
+      "wikidata": "Q1058391"
+    },
+    {
+      "id": "maria-i-de-portugal",
+      "nombre": "María I de Portugal",
+      "nacimiento": {
+        "anio": 1734,
+        "aprox": false,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "Río de Janeiro",
+        "lon": -43.206,
+        "lat": -22.911
+      },
+      "activo": {
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708,
+        "desde": 1777,
+        "hasta": 1807,
+        "aprox": false
+      },
+      "roles": [
+        "reina"
+      ],
+      "resumen": "Reina de Portugal (1777-1816). Por el tratado de San Ildefonso (1777) Portugal cedió Colonia del Sacramento a España; un alvará de 1785 prohibió casi toda manufactura en el Brasil; por decisión suya, tras la Inconfidencia Minera, la mayoría de los condenados a muerte fueron desterrados y solo Tiradentes fue ejecutado (1792). Declarada incapaz ese año, gobernó en su nombre su hijo Juan, y murió en Río de Janeiro, adonde la corte había partido en noviembre de 1807 y llegó en 1808.",
+      "obras": [],
+      "wikipedia": {
+        "es": "María I de Portugal",
+        "en": "Maria I of Portugal"
+      },
+      "wikidata": "Q773874"
+    },
+    {
+      "id": "maria-quiteria",
+      "nombre": "Maria Quitéria de Jesús",
+      "nacimiento": {
+        "anio": 1792,
+        "aprox": true,
+        "lugar": "Feira de Santana",
+        "lon": -38.967,
+        "lat": -12.267
+      },
+      "muerte": {
+        "anio": 1853,
+        "aprox": false,
+        "lugar": "Salvador",
+        "lon": -38.493,
+        "lat": -12.983
+      },
+      "activo": {
+        "lugar": "Cachoeira (Bahía)",
+        "lon": -38.956,
+        "lat": -12.618,
+        "desde": 1822,
+        "hasta": 1823,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Bahiana que se alistó disfrazada de hombre, hacia septiembre u octubre de 1822, en el batallón de voluntarios del Príncipe (los «Periquitos») del ejército brasileño que sitiaba Salvador; el general Labatut la ascendió a cadete y Pedro I le dio la Orden del Crucero en agosto de 1823. Su año de nacimiento es dudoso: 1792 según una petición de su padre de 1802, 1797 según su acta de defunción.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Maria Quitéria de Jesus",
+        "en": "Maria Quitéria"
+      },
+      "wikidata": "Q2618916"
     }
   ],
   "hechos": [
@@ -5483,6 +5890,90 @@
       "wikipedia": {
         "es": "Independencia de Brasil",
         "en": "Independence of Brazil"
+      }
+    },
+    {
+      "id": "asedio-de-salvador-1822-1823",
+      "titulo": "Asedio de Salvador",
+      "anio": 1822,
+      "anio_hasta": 1823,
+      "aprox": false,
+      "lugar": "Salvador de Bahía",
+      "lon": -38.493,
+      "lat": -12.983,
+      "tipo": "batalla",
+      "resumen": "En la guerra de independencia en Bahía, el ejército brasileño formado en el Recôncavo, reforzado con tropas de Pernambuco y de Río de Janeiro y mandado primero por el general francés Pierre Labatut, sitió Salvador, donde el brigadier Madeira de Melo mandaba a las tropas portuguesas leales a las Cortes de Lisboa. El choque principal fue la batalla de Pirajá (8 de noviembre de 1822), y en mayo de 1823 llegó la escuadra de Thomas Cochrane y bloqueó el puerto. El 2 de julio de 1823 Madeira de Melo evacuó la ciudad con unos 4500 hombres en 83 embarcaciones, aunque otras exposiciones hablan de una rendición; Bahía lo conmemora como el 2 de Julio.",
+      "regiones": [
+        "brasil"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Asedio de Salvador",
+        "en": "Siege of Salvador (1822–1823)"
+      }
+    },
+    {
+      "id": "restauracion-portuguesa-1640-1668",
+      "titulo": "Guerra de Restauración portuguesa",
+      "anio": 1640,
+      "anio_hasta": 1668,
+      "aprox": false,
+      "lugar": "Lisboa",
+      "lon": -9.139,
+      "lat": 38.708,
+      "tipo": "batalla",
+      "resumen": "Tras el golpe del 1 de diciembre de 1640 que llevó al trono al duque de Braganza como Juan IV, Portugal y España pelearon una guerra de escaramuzas y campañas cortas en la frontera, con victorias portuguesas en Montijo (1644), las Líneas de Elvas (1659), Ameixial (1663) y Montes Claros (1665); el tratado de Lisboa (1668) reconoció a la casa de Braganza. Portugal sostuvo el esfuerzo con la riqueza de sus colonias, y en el Brasil la tregua de 1641 con los Países Bajos no se respetó: los neerlandeses fueron expulsados del nordeste en 1654 y reconocieron la soberanía portuguesa por el tratado de La Haya (1661).",
+      "regiones": [
+        "iberia",
+        "brasil"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de Restauración portuguesa",
+        "en": "Portuguese Restoration War"
+      }
+    },
+    {
+      "id": "guerra-de-sucesion-portuguesa",
+      "titulo": "Guerra de sucesión portuguesa",
+      "anio": 1580,
+      "anio_hasta": 1583,
+      "aprox": false,
+      "lugar": "Lisboa",
+      "lon": -9.139,
+      "lat": 38.708,
+      "tipo": "batalla",
+      "resumen": "A la muerte sin heredero del cardenal-rey Enrique (31 de enero de 1580), Felipe II de España y Antonio, prior de Crato, se disputaron la corona. Antonio fue aclamado en Santarém en julio, pero el duque de Alba lo derrotó en Alcántara el 25 de agosto y tomó Lisboa; Antonio resistió en las Azores hasta que la flota de Santa Cruz venció a sus aliados franceses en Ponta Delgada (julio de 1582) y la isla Terceira cayó en 1583. Las Cortes de Tomar reconocieron a Felipe en 1581 con la condición de que el reino y sus territorios de ultramar, el Brasil entre ellos, conservaran su autonomía.",
+      "regiones": [
+        "iberia",
+        "brasil"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de sucesión portuguesa",
+        "en": "War of the Portuguese Succession"
+      }
+    },
+    {
+      "id": "jornada-de-los-vasallos",
+      "titulo": "Jornada de los Vasallos: la reconquista de Salvador",
+      "anio": 1625,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Salvador de Bahía",
+      "lon": -38.493,
+      "lat": -12.983,
+      "tipo": "batalla",
+      "resumen": "Armada hispano-portuguesa al mando de Fadrique de Toledo, con la parte portuguesa a cargo de Manuel de Meneses, que bloqueó Salvador desde fines de marzo de 1625 y, con refuerzos de Pernambuco y de São Vicente y la guerrilla que resistía desde el Recôncavo, obligó a los neerlandeses a capitular a fines de abril; las fuentes dan para la armada entre 38 y 56 navíos y entre 12 000 y 14 000 hombres. Frei Vicente do Salvador, preso durante la ocupación, la contó en su historia, y españoles y portugueses se disputaron el mérito en una «guerra de tintas» que el Consejo de Estado frenó prohibiendo multiplicar las relaciones del hecho.",
+      "regiones": [
+        "brasil"
+      ],
+      "fuentes": [
+        "historia-do-brasil-vicente"
+      ],
+      "wikipedia": {
+        "es": "Jornada del Brasil",
+        "en": "Recapture of Bahia"
       }
     }
   ],

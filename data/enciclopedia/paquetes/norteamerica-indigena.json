@@ -1815,6 +1815,45 @@
         "en": "Pekka Hämäläinen"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "a-new-voyage-to-carolina",
+      "titulo": "Un nuevo viaje a Carolina",
+      "titulo_original": "A New Voyage to Carolina",
+      "autor": "John Lawson",
+      "autor_id": "john-lawson",
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1709,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1700,
+        "hasta": 1709
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro impreso",
+      "resumen": "Descripción de la geografía, la historia natural y los pueblos indígenas de las Carolinas, con el diario de su viaje de 1700-1701 por el interior, que su título presenta como «mil millas» entre varias naciones de indios, con sus costumbres y maneras. Tuvo varias ediciones, entre ellas traducciones al alemán y al francés, y su difusión atrajo colonos a Carolina del Norte.",
+      "por_que_importa": "Es uno de los informes coloniales más completos sobre los pueblos indígenas de las Carolinas a comienzos del siglo XVIII; su autor murió a manos de los tuscarora, uno de los pueblos que describe.",
+      "leer": [
+        {
+          "titulo": "Texto en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1838",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "A New Voyage to Carolina"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2886,6 +2925,43 @@
         "en": "Dean Snow"
       },
       "wikidata": "Q64968081"
+    },
+    {
+      "id": "john-lawson",
+      "nombre": "John Lawson",
+      "nacimiento": {
+        "anio": 1674,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "muerte": {
+        "anio": 1711,
+        "aprox": false,
+        "lugar": "Catechna, río Neuse (Carolina del Norte)"
+      },
+      "activo": {
+        "lugar": "Bath (Carolina del Norte)",
+        "lon": -76.809,
+        "lat": 35.474,
+        "desde": 1700,
+        "hasta": 1711,
+        "aprox": false
+      },
+      "roles": [
+        "explorador",
+        "naturalista",
+        "agrimensor"
+      ],
+      "resumen": "Inglés llegado a Charleston en 1700; entre fines de ese año y comienzos de 1701 recorrió unos 970 km del interior de las Carolinas, guiado por indígenas, y anotó los pueblos que encontró. Agrimensor general de la colonia desde 1708 y fundador de Bath y de New Bern, publicó en 1709 «A New Voyage to Carolina»; en septiembre de 1711 los tuscarora lo capturaron en el río Neuse y lo mataron, y su muerte precedió a la guerra tuscarora (1711-1715).",
+      "obras": [
+        "a-new-voyage-to-carolina"
+      ],
+      "wikipedia": {
+        "en": "John Lawson (explorer)"
+      },
+      "wikidata": "Q359347"
     }
   ],
   "hechos": [
@@ -4624,6 +4700,46 @@
       "wikipedia": {
         "es": "Población de América precolombina",
         "en": "Population history of the Indigenous peoples of the Americas"
+      }
+    },
+    {
+      "id": "cultura-tchefuncte",
+      "titulo": "La cultura tchefuncte",
+      "anio": -600,
+      "anio_hasta": 200,
+      "aprox": true,
+      "lugar": "Parque estatal Fontainebleau (Luisiana)",
+      "lon": -90.023,
+      "lat": 30.345,
+      "tipo": "cultural",
+      "resumen": "Cultura de cazadores-recolectores del bajo Misisipi y de la costa del Golfo, definida en el sitio epónimo, un conchero de almejas junto al lago Pontchartrain, en Luisiana; se la fecha de 600 a. C. a 200 d. C., aunque algunas exposiciones la hacen empezar hacia 1000 a. C. Sucedió a Poverty Point, de cuya red de intercambio conservó mucho menos, y fue la primera de Luisiana que hizo cerámica en gran cantidad, con vasijas de bases con pies halladas desde Texas oriental hasta Florida oriental. Su sucesora fue la cultura marksville.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Tchefuncte site"
+      }
+    },
+    {
+      "id": "arcaico-de-norteamerica",
+      "titulo": "El Arcaico de Norteamérica",
+      "anio": -8000,
+      "anio_hasta": -1000,
+      "aprox": false,
+      "lugar": "Windover",
+      "lon": -80.843,
+      "lat": 28.539,
+      "tipo": "cultural",
+      "resumen": "Período de unos 8000 a 1000 a. C. que sigue a los cazadores de Clovis y Folsom y se caracteriza por una economía de subsistencia basada en frutos secos, semillas y mariscos. Comprende, entre otros, los túmulos de Watson Brake, en Luisiana, hacia 3500 a. C.; el cementerio de la laguna de Windover, en Florida, con al menos 168 individuos de hace entre 8000 y 7000 años, de los que se secuenció ADN del tejido cerebral; y la cultura del cobre antiguo de los Grandes Lagos, con objetos fechados entre 6500 y 1580 a. C. según los sitios.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Archaic period (North America)"
       }
     }
   ],

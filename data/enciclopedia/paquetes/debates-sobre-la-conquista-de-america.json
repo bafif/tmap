@@ -2463,6 +2463,49 @@
         }
       ],
       "confianza": "alta"
+    },
+    {
+      "id": "ensayos-de-montaigne",
+      "titulo": "Ensayos",
+      "titulo_original": "Essais",
+      "autor": "Michel de Montaigne",
+      "autor_id": "michel-de-montaigne",
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1580,
+        "anio_hasta": 1595,
+        "aprox": false,
+        "lugar": "Burdeos",
+        "lon": -0.579,
+        "lat": 44.838
+      },
+      "trata": {
+        "regiones": [
+          "brasil",
+          "mesoamerica",
+          "andes"
+        ],
+        "desde": 1492,
+        "hasta": 1588
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro en tres volúmenes",
+      "resumen": "Tres libros y 107 capítulos que Montaigne escribió, publicó y revisó desde aproximadamente 1570 hasta 1592: aparecieron en 1580, ampliados en 1588 y con sus últimas adiciones, póstumas, en 1595. Hablan de sí mismo y de temas muy variados, con un escepticismo de raíz pirroniana. Dos capítulos conocidos tratan de América: «De los caníbales» (I, 31) y «De los coches» (III, 6), donde deplora los sufrimientos que la colonización trajo a los indígenas.",
+      "por_que_importa": "Es la obra de la que salen dos de los textos más citados sobre los indígenas americanos en la Europa de la época, y muestra cómo Montaigne usó a los pueblos americanos y la conquista para criticar la crueldad europea, incluida la de las guerras de religión.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource en francés",
+          "url": "https://fr.wikisource.org/wiki/Essais",
+          "idioma": "fr",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Ensayos (Montaigne)",
+        "en": "Essays (Montaigne)"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3379,7 +3422,8 @@
       "resumen": "Ensayista francés, consejero del parlamento y alcalde de Burdeos. En Des cannibales (1580) y Des coches (1588) usó a los indígenas americanos para criticar las costumbres europeas y condenó la crueldad de la conquista española.",
       "obras": [
         "des-cannibales",
-        "des-coches"
+        "des-coches",
+        "ensayos-de-montaigne"
       ],
       "wikipedia": {
         "es": "Michel de Montaigne",
