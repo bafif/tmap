@@ -1678,7 +1678,7 @@
       "roles": [
         "zipa"
       ],
-      "resumen": "Zipa de Bacatá según la cronología que reconstruyeron Pedro Simón y Piedrahita. Guerreó contra los fusagasugáes, los panches y el zaque de Hunza, y murió hacia 1490 en la batalla de Chocontá, en la que también cayó el zaque Michuá.",
+      "resumen": "Zipa de Bacatá según la cronología que reconstruyó Piedrahita (1688), que es la única fuente que lo nombra; Pedro Simón no lo menciona. Guerreó contra los fusagasugáes, los panches y el zaque de Hunza, y murió hacia 1490 en la batalla de Chocontá, en la que también cayó el zaque Michuá.",
       "obras": [],
       "wikipedia": {
         "es": "Saguamanchica",
@@ -3736,6 +3736,1340 @@
         "en": "Neil L. Whitehead"
       },
       "wikidata": "Q6988829"
+    },
+    {
+      "id": "andres-bello",
+      "nombre": "Andrés Bello",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "muerte": {
+        "anio": 1865,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "activo": {
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507,
+        "desde": 1810,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "humanista",
+        "diplomático",
+        "poeta"
+      ],
+      "resumen": "Humanista nacido en Caracas, funcionario de la Capitanía General desde 1802. Tras el 19 de abril de 1810 la Junta de Caracas lo nombró oficial primero de su secretaría de Relaciones Exteriores y lo envió a Londres con Bolívar y López Méndez; vivió allí hasta 1829, trabajó como secretario de la legación de Chile (desde 1822) y de la de Colombia (desde 1825), y publicó la «Alocución a la poesía» (1823) y la «Silva a la agricultura de la zona tórrida» (1826). En 1829 se mudó a Chile.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andrés Bello",
+        "en": "Andrés Bello"
+      },
+      "wikidata": "Q439195"
+    },
+    {
+      "id": "manuela-saenz",
+      "nombre": "Manuela Sáenz",
+      "nacimiento": {
+        "anio": 1797,
+        "aprox": false,
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22
+      },
+      "muerte": {
+        "anio": 1856,
+        "aprox": false,
+        "lugar": "Paita",
+        "lon": -81.114,
+        "lat": -5.085
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1827,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "independentista",
+        "revolucionaria"
+      ],
+      "resumen": "Nacida en Quito, se casó en 1817 con un médico inglés y vivió en Lima, donde apoyó la causa independentista; en 1822 recibió la orden del Sol y desde entonces fue compañera de Bolívar. Según las biografías, el 25 de septiembre de 1828 lo ayudó a escapar por una ventana durante el atentado de la conspiración septembrina en Bogotá. Tras la muerte de Bolívar en 1830, el gobierno de Santander la desterró de la Nueva Granada en 1834; en 1835 Rocafuerte le revocó el pasaporte para volver a Quito y se quedó en Paita.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manuela Sáenz",
+        "en": "Manuela Sáenz"
+      },
+      "wikidata": "Q372074"
+    },
+    {
+      "id": "rafael-urdaneta",
+      "nombre": "Rafael Urdaneta",
+      "nacimiento": {
+        "anio": 1788,
+        "aprox": false,
+        "lugar": "Maracaibo",
+        "lon": -71.633,
+        "lat": 10.633
+      },
+      "muerte": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1828,
+        "hasta": 1831,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "General nacido en Maracaibo que se sumó a la Campaña Admirable de 1813 y fue ministro de Guerra de Bolívar. En 1828 presidió el consejo de ministros que juzgó la conspiración septembrina y votó la pena de muerte para Santander, que Bolívar conmutó por el destierro. El 4 o 5 de septiembre de 1830 derrocó a Mosquera y Caycedo para gobernar hasta que Bolívar volviera; por el convenio de Apulo (28 de abril de 1831) entregó el poder a Caycedo y se exilió.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rafael Urdaneta",
+        "en": "Rafael Urdaneta"
+      },
+      "wikidata": "Q471325"
+    },
+    {
+      "id": "cristobal-mendoza",
+      "nombre": "Cristóbal Mendoza",
+      "nacimiento": {
+        "anio": 1772,
+        "aprox": false,
+        "lugar": "Trujillo",
+        "lon": -70.433,
+        "lat": 9.367
+      },
+      "muerte": {
+        "anio": 1829,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "activo": {
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506,
+        "desde": 1810,
+        "hasta": 1812,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "político"
+      ],
+      "resumen": "Abogado de Trujillo, alcalde de Barinas desde 1807 y diputado por Barinas al Congreso de 1811. Fue el primero en presidir, por turnos semanales con Escalona y Padrón, el triunvirato ejecutivo de la Primera República (desde marzo de 1811). En 1813 Bolívar lo nombró gobernador de Mérida y luego de Caracas; tras la caída de la Segunda República se exilió en Trinidad y volvió en 1821 como presidente de la Corte Superior de Justicia del departamento de Venezuela (cargo que también se traduce como ministro de justicia). Fue intendente del departamento de Venezuela en 1826 y, tras el regreso de Bolívar, hasta mediados de 1828.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cristóbal Mendoza",
+        "en": "Cristóbal Mendoza"
+      },
+      "wikidata": "Q2497553"
+    },
+    {
+      "id": "carlos-soublette",
+      "nombre": "Carlos Soublette",
+      "nacimiento": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "muerte": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1825,
+        "hasta": 1828,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Militar caraqueño que se unió al ejército de Miranda en 1810, sirvió luego con Ribas y con Bolívar, y fue general de brigada desde 1816. En la Gran Colombia fue general de división (1820), secretario de Guerra y Marina entre 1825 y 1828 y jefe del estado mayor de la comandancia de Venezuela en 1827; después fue presidente de Venezuela (1837-1839 y 1843-1847).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Soublette",
+        "en": "Carlos Soublette"
+      },
+      "wikidata": "Q2497526"
+    },
+    {
+      "id": "jose-maria-vargas",
+      "nombre": "José María Vargas",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "La Guaira",
+        "lon": -66.933,
+        "lat": 10.6
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506,
+        "desde": 1827,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "médico",
+        "científico",
+        "político"
+      ],
+      "resumen": "Médico nacido en La Guaira, preso en 1813 por los realistas en Cumaná y exiliado a Europa, donde se formó en Edimburgo y Londres; vivió en Puerto Rico y volvió a Venezuela en 1825. En 1827 Bolívar le encargó reformar la Universidad de Caracas, donde abrió la facultad de medicina y enseñó anatomía, y fundó la Sociedad Médica de Caracas. Fue presidente de Venezuela en 1835-1836.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José María Vargas",
+        "en": "José María Vargas"
+      },
+      "wikidata": "Q2358589"
+    },
+    {
+      "id": "simon-rodriguez",
+      "nombre": "Simón Rodríguez",
+      "nacimiento": {
+        "anio": 1769,
+        "aprox": true,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "Amotape",
+        "lon": -81.015,
+        "lat": -4.882
+      },
+      "activo": {
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506,
+        "desde": 1791,
+        "hasta": 1797,
+        "aprox": false
+      },
+      "roles": [
+        "maestro",
+        "filósofo"
+      ],
+      "resumen": "Maestro de la escuela de primeras letras de Caracas desde 1791, autor en 1794 de una propuesta de reforma escolar al Cabildo y maestro del joven Bolívar. Su supuesta participación en la conspiración de Gual y España (1797) lo llevó a dejar Venezuela; vivió como «Samuel Robinson» en Jamaica, Estados Unidos y Europa. Volvió a América en 1823, abrió en 1824 su primera escuela-taller en Bogotá y fue director de educación de Bolívar en Bolivia, donde fundó una escuela-taller y renunció en 1826 tras desavenencias con Sucre. Las fuentes dan para su nacimiento 1762, 1769 o 1771.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Simón Rodríguez",
+        "en": "Simón Rodríguez"
+      },
+      "wikidata": "Q1358685"
+    },
+    {
+      "id": "jose-tadeo-monagas",
+      "nombre": "José Tadeo Monagas",
+      "nacimiento": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Amana del Tamarindo"
+      },
+      "muerte": {
+        "anio": 1868,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "activo": {
+        "lugar": "Maturín",
+        "lon": -63.189,
+        "lat": 9.742,
+        "desde": 1813,
+        "hasta": 1822,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Oficial del oriente venezolano que combatió desde 1813, bajo Piar, en Maturín y en otras acciones de la provincia de Cumaná, y se unió a Bolívar en 1816. Fue gobernador de Barcelona y comandante del departamento del Orinoco en 1822. Se opuso a la separación de Venezuela de la Gran Colombia en 1830, y fue presidente de Venezuela entre 1847 y 1851 y entre 1855 y 1858.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Tadeo Monagas",
+        "en": "José Tadeo Monagas"
+      },
+      "wikidata": "Q970332"
+    },
+    {
+      "id": "pedro-gual",
+      "nombre": "Pedro Gual",
+      "nacimiento": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "muerte": {
+        "anio": 1862,
+        "aprox": false,
+        "lugar": "Guayaquil",
+        "lon": -79.888,
+        "lat": -2.19
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1821,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "diplomático"
+      ],
+      "resumen": "Abogado caraqueño. Comisionado por Cartagena ante los Estados Unidos en 1812, fue gobernador civil de Cartagena en 1815 y, como secretario de Relaciones Exteriores de la Gran Colombia firmó el tratado con los Estados Unidos del 3 de octubre de 1824, y como plenipotenciario el tratado de Guayaquil con el Perú el 22 de septiembre de 1829. Presidió el Congreso de Panamá de 1826 y ejerció la presidencia de Venezuela en tres interinatos breves (1858, 1859 y 1861).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Gual",
+        "en": "Pedro Gual Escandón"
+      },
+      "wikidata": "Q2497205"
+    },
+    {
+      "id": "joaquin-mosquera",
+      "nombre": "Joaquín Mosquera",
+      "nacimiento": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Popayán",
+        "lon": -76.609,
+        "lat": 2.454
+      },
+      "muerte": {
+        "anio": 1878,
+        "aprox": false,
+        "lugar": "Popayán",
+        "lon": -76.609,
+        "lat": 2.454
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1828,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "político"
+      ],
+      "resumen": "Payanés de la familia Mosquera, estudió derecho en Santafé y perteneció a la junta de Popayán de 1810. Participó en la Convención de Ocaña de 1828, que se disolvió sin aprobar una constitución. El Congreso lo eligió presidente de la Gran Colombia el 4 de mayo de 1830 y juró en Bogotá el 13 de junio; se retiró a Anolaima por enfermedad en agosto, dejando el poder a Caycedo, y el general Urdaneta lo derrocó en septiembre de 1830. Se exilió en Nueva York.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Joaquín Mosquera",
+        "en": "Joaquín Mosquera"
+      },
+      "wikidata": "Q1367274"
+    },
+    {
+      "id": "juan-german-roscio",
+      "nombre": "Juan Germán Roscio",
+      "nacimiento": {
+        "anio": 1763,
+        "aprox": false,
+        "lugar": "San Francisco de Tiznados",
+        "lon": -67.603,
+        "lat": 9.518
+      },
+      "muerte": {
+        "anio": 1821,
+        "aprox": false,
+        "lugar": "Villa del Rosario",
+        "lon": -72.474,
+        "lat": 7.835
+      },
+      "activo": {
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506,
+        "desde": 1810,
+        "hasta": 1812,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "político"
+      ],
+      "resumen": "Abogado nacido en San Francisco de Tiznados, representante del pueblo en el cabildo del 19 de abril de 1810 y secretario de Relaciones Exteriores de la Junta de Caracas. Diputado por Calabozo en el Congreso de 1811, redactó la declaración de independencia del 5 de julio y la Constitución federal; preso en España tras la caída de la Primera República, publicó en Filadelfia «El triunfo de la libertad sobre el despotismo» (1817). Fue presidente del Congreso de Angostura de 1819 vicepresidente del departamento de Venezuela y después vicepresidente de Colombia, cargo en el que murió en Villa del Rosario el 10 de marzo de 1821, en vísperas del Congreso de Cúcuta, que iba a presidir.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Germán Roscio",
+        "en": "Juan Germán Roscio"
+      },
+      "wikidata": "Q3624511"
+    },
+    {
+      "id": "manuel-piar",
+      "nombre": "Manuel Piar",
+      "nacimiento": {
+        "anio": 1774,
+        "aprox": false,
+        "lugar": "Willemstad",
+        "lon": -68.935,
+        "lat": 12.108
+      },
+      "muerte": {
+        "anio": 1817,
+        "aprox": false,
+        "lugar": "Ciudad Bolívar",
+        "lon": -63.547,
+        "lat": 8.103
+      },
+      "activo": {
+        "lugar": "Angostura (Ciudad Bolívar)",
+        "lon": -63.547,
+        "lat": 8.103,
+        "desde": 1816,
+        "hasta": 1817,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Oficial nacido en Curazao, de padre canario y madre de ascendencia africana, que sirvió en la independencia desde 1810 y defendió Maturín en 1813. Venció en El Juncal (1816) y en San Félix (1817) y conquistó la provincia de Guayana; llegó a general en jefe, ascendido por sus compañeros de armas y ratificado por Bolívar. Lo arrestaron el 28 de septiembre de 1817 y un consejo de guerra presidido por Luis Brión, con Carlos Soublette de fiscal, lo condenó por deserción, insubordinación y conspiración; lo fusilaron en Angostura el 16 de octubre. La historiografía tradicional sostiene que conspiraba contra Bolívar para imponer una «pardocracia»; otros autores sostienen que sus victorias provocaron recelos de Bolívar y de los jefes criollos blancos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manuel Piar",
+        "en": "Manuel Piar"
+      },
+      "wikidata": "Q981389"
+    },
+    {
+      "id": "diego-de-ordaz",
+      "nombre": "Diego de Ordaz",
+      "nacimiento": {
+        "anio": 1480,
+        "aprox": false,
+        "lugar": "Castroverde de Campos",
+        "lon": -5.303,
+        "lat": 41.97
+      },
+      "muerte": {
+        "anio": 1532,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Río Orinoco",
+        "lon": -60.5,
+        "lat": 8.56,
+        "desde": 1531,
+        "hasta": 1532,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "explorador"
+      ],
+      "resumen": "Capitán de Cortés en la conquista de México. Obtuvo de la Corona el derecho de explorar el Marañón, llegó en 1531 a Uyapari (Barrancas) y remontó el Orinoco en busca de las riquezas del interior; los indígenas le hablaron de la tierra de Meta. Volvió sin encontrarlas y murió en el mar en 1532, en el viaje de regreso a España. Fuentes primarias de su viaje son Fernández de Oviedo, Juan de Castellanos y Pedro de Aguado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego de Ordás",
+        "en": "Diego de Ordaz"
+      },
+      "wikidata": "Q911242"
+    },
+    {
+      "id": "jorge-tadeo-lozano",
+      "nombre": "Jorge Tadeo Lozano",
+      "nacimiento": {
+        "anio": 1771,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1810,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "naturalista",
+        "periodista",
+        "político"
+      ],
+      "resumen": "Noble santafereño, tercer marqués de San Jorge, que sirvió en las Guardias Valonas en España y fundó en 1801 el «Correo curioso» de Santafé. Colaboró con la Expedición Botánica y publicó una «Memoria sobre las serpientes» (1810). Presidió el colegio constituyente de Cundinamarca y fue su primer presidente desde el 1 de abril de 1811, hasta que renunció en septiembre en favor de Nariño. La Reconquista lo fusiló el 6 de julio de 1816.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jorge Tadeo Lozano",
+        "en": "Jorge Tadeo Lozano"
+      },
+      "wikidata": "Q959498"
+    },
+    {
+      "id": "jose-fernandez-madrid",
+      "nombre": "José Fernández Madrid",
+      "nacimiento": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "Cartagena de Indias",
+        "lon": -75.525,
+        "lat": 10.424
+      },
+      "muerte": {
+        "anio": 1830,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1814,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "médico",
+        "político",
+        "escritor"
+      ],
+      "resumen": "Médico y escritor nacido en Cartagena. Fue diputado en el Congreso de las Provincias Unidas y miembro del triunvirato ejecutivo interino de 1814-1815. Aceptó la presidencia de las Provincias Unidas el 14 de marzo de 1816, ya con Morillo avanzando, y renunció el 22 de junio en Popayán; exiliado en La Habana, volvió a Colombia y murió en Londres en 1830 como representante de la Gran Colombia.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Fernández Madrid",
+        "en": "José Fernández Madrid"
+      },
+      "wikidata": "Q2645282"
+    },
+    {
+      "id": "francisco-antonio-zea",
+      "nombre": "Francisco Antonio Zea",
+      "nacimiento": {
+        "anio": 1766,
+        "aprox": false,
+        "lugar": "Medellín",
+        "lon": -75.568,
+        "lat": 6.25
+      },
+      "muerte": {
+        "anio": 1822,
+        "aprox": false,
+        "lugar": "Bath",
+        "lon": -2.36,
+        "lat": 51.381
+      },
+      "activo": {
+        "lugar": "Angostura (Ciudad Bolívar)",
+        "lon": -63.547,
+        "lat": 8.103,
+        "desde": 1817,
+        "hasta": 1820,
+        "aprox": false
+      },
+      "roles": [
+        "botánico",
+        "político",
+        "diplomático"
+      ],
+      "resumen": "Botánico de Medellín, agregado a la Expedición Botánica, preso desde 1794 por la circulación de los Derechos del Hombre y enviado a España; fue director del Jardín Botánico de Madrid. En 1808 fue uno de los diputados reunidos en Bayona, José Bonaparte lo nombró prefecto de Málaga y en 1814 tuvo que salir de España. En 1815-1816 se unió a Bolívar, presidió el Congreso de Angostura en 1819 y fue el primer vicepresidente de la Gran Colombia (diciembre de 1819). Fue enviado a Londres a negociar un empréstito y el reconocimiento de la república, y murió en Bath en noviembre de 1822.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Antonio Zea",
+        "en": "Francisco Antonio Zea"
+      },
+      "wikidata": "Q726386"
+    },
+    {
+      "id": "joaquin-camacho",
+      "nombre": "Joaquín Camacho",
+      "nacimiento": {
+        "anio": 1766,
+        "aprox": false,
+        "lugar": "Tunja",
+        "lon": -73.361,
+        "lat": 5.54
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1810,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "periodista",
+        "político"
+      ],
+      "resumen": "Abogado de Tunja, ganó en 1808 un concurso con una memoria sobre el bocio y escribió una relación de la provincia de Pamplona para el «Semanario del Nuevo Reino de Granada». Firmó el acta del 20 de julio de 1810, coeditó el «Diario político» con Caldas y fue diputado por Tunja y miembro del triunvirato ejecutivo interino de 1814-1815. Un consejo de guerra de la Reconquista lo condenó y fue fusilado el 31 de agosto de 1816.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Joaquín Camacho",
+        "en": "Joaquín Camacho"
+      },
+      "wikidata": "Q3071116"
+    },
+    {
+      "id": "jose-francisco-bermudez",
+      "nombre": "José Francisco Bermúdez",
+      "nacimiento": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Cariaco",
+        "lon": -63.553,
+        "lat": 10.495
+      },
+      "muerte": {
+        "anio": 1831,
+        "aprox": false,
+        "lugar": "Cumaná",
+        "lon": -64.167,
+        "lat": 10.45
+      },
+      "activo": {
+        "lugar": "Cumaná",
+        "lon": -64.167,
+        "lat": 10.45,
+        "desde": 1811,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Militar del oriente venezolano que se alistó en 1811 en Cumaná, participó en la expedición de Chacachacare de 1813 con Mariño, combatió a Boves en 1814 y fue general de división en octubre de 1817. En 1821 se movió hacia Caracas, que ocupó el 14 de mayo, antes de Carabobo. Se opuso a Bolívar en 1816: en Los Cayos votó contra su mando y en Güiria apoyó a Mariño y sacó la espada contra él. Se reconcilió con Bolívar en Barcelona en febrero de 1817 y combatió con él en Angostura. Lo mataron de un pistoletazo en Cumaná en 1831.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Francisco Bermúdez",
+        "en": "José Francisco Bermúdez"
+      },
+      "wikidata": "Q743460"
+    },
+    {
+      "id": "jorge-de-espira",
+      "nombre": "Jorge de Espira",
+      "nacimiento": {
+        "anio": 1500,
+        "aprox": true,
+        "lugar": "Espira",
+        "lon": 8.434,
+        "lat": 49.317
+      },
+      "muerte": {
+        "anio": 1540,
+        "aprox": false,
+        "lugar": "Coro",
+        "lon": -69.682,
+        "lat": 11.395
+      },
+      "activo": {
+        "lugar": "Santa Ana de Coro",
+        "lon": -69.682,
+        "lat": 11.395,
+        "desde": 1535,
+        "hasta": 1539,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador",
+        "gobernador"
+      ],
+      "resumen": "Agente de los banqueros Welser de Augsburgo, llegó a Coro en 1535 y gobernó la concesión alemana de Venezuela. Entre 1535 y 1538 dirigió con Philipp von Hutten una expedición hacia el sur por el oriente de la cordillera en busca de El Dorado; su teniente Federmann debía seguirlo con refuerzos, tomó otro camino y llegó por su cuenta a la sabana de Bogotá en 1539. Espira volvió a Coro con unos ochenta hombres. Renunció por mala salud en 1539 y murió en Coro en 1540.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jorge de Espira",
+        "en": "Georg von Speyer"
+      },
+      "wikidata": "Q65952"
+    },
+    {
+      "id": "jose-maria-cordova",
+      "nombre": "José María Córdova",
+      "nacimiento": {
+        "anio": 1799,
+        "aprox": false,
+        "lugar": "Concepción",
+        "lon": -75.258,
+        "lat": 6.395
+      },
+      "muerte": {
+        "anio": 1829,
+        "aprox": false,
+        "lugar": "El Santuario",
+        "lon": -75.264,
+        "lat": 6.138
+      },
+      "activo": {
+        "lugar": "Medellín",
+        "lon": -75.568,
+        "lat": 6.25,
+        "desde": 1819,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Militar de Antioquia que entró a la escuela militar en 1814, combatió en el río Palo (1815) y en los Llanos, y en 1819 liberó Antioquia con su primer mando propio. Venció en Chorros Blancos (12 de febrero de 1820), peleó en Pichincha y comandó una división en Ayacucho (1824). Opuesto a la dictadura de Bolívar, se alzó en Antioquia el 12 de septiembre de 1829 y murió el 17 de octubre en El Santuario, a sablazos del oficial irlandés Ruperto Hand cuando estaba herido, hecho que varios historiadores consideran un asesinato. El gobierno había enviado a O'Leary a sofocar el alzamiento; Hand fue juzgado y condenado a muerte, pero huyó.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José María Córdova",
+        "en": "José María Córdova"
+      },
+      "wikidata": "Q2645294"
+    },
+    {
+      "id": "antonia-santos",
+      "nombre": "Antonia Santos",
+      "nacimiento": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Pinchote",
+        "lon": -73.172,
+        "lat": 6.532
+      },
+      "muerte": {
+        "anio": 1819,
+        "aprox": false,
+        "lugar": "El Socorro (Santander)",
+        "lon": -73.26,
+        "lat": 6.468
+      },
+      "activo": {
+        "lugar": "El Socorro (Santander)",
+        "lon": -73.26,
+        "lat": 6.468,
+        "desde": 1817,
+        "hasta": 1819,
+        "aprox": false
+      },
+      "roles": [
+        "guerrillera"
+      ],
+      "resumen": "Nacida en Pinchote, organizó y sostuvo la guerrilla de Coromoro, en la provincia del Socorro, contra la Reconquista; su hermano Fernando fue uno de los jefes. Un destacamento realista la apresó el 12 de julio de 1819 en su hacienda El Hatillo; la sentenciaron por lesa majestad y fue fusilada en la plaza del Socorro el 28 de julio de 1819.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonia Santos",
+        "en": "María Antonia Santos Plata"
+      },
+      "wikidata": "Q2857088"
+    },
+    {
+      "id": "juana-ramirez",
+      "nombre": "Juana Ramírez",
+      "nacimiento": {
+        "anio": 1790,
+        "aprox": false,
+        "lugar": "Chaguaramal"
+      },
+      "muerte": {
+        "anio": 1856,
+        "aprox": false,
+        "lugar": "San Vicente (Monagas)"
+      },
+      "activo": {
+        "lugar": "Maturín",
+        "lon": -63.189,
+        "lat": 9.742,
+        "desde": 1813,
+        "hasta": 1814,
+        "aprox": false
+      },
+      "roles": [
+        "combatiente"
+      ],
+      "resumen": "Según la tradición venezolana, hija de una mujer africana esclavizada, que en Maturín dirigió una batería de mujeres que disparaba los cañones en la batalla de Alto de los Godos (25 de mayo de 1813) y que Piar apodó «la Avanzadora». Sus restos simbólicos fueron llevados al Panteón Nacional en 2001. Los pormenores de su actuación provienen sobre todo de relatos posteriores.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juana Ramírez",
+        "en": "Juana Ramírez"
+      },
+      "wikidata": "Q6301468"
+    },
+    {
+      "id": "francisco-esteban-gomez",
+      "nombre": "Francisco Esteban Gómez",
+      "nacimiento": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Santa Ana",
+        "lon": -63.922,
+        "lat": 11.068
+      },
+      "muerte": {
+        "anio": 1853,
+        "aprox": false,
+        "lugar": "La Asunción",
+        "lon": -63.863,
+        "lat": 11.033
+      },
+      "activo": {
+        "lugar": "La Asunción (Margarita)",
+        "lon": -63.863,
+        "lat": 11.033,
+        "desde": 1810,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Militar de la isla de Margarita que se sumó a la independencia el 4 de mayo de 1810 y acompañó a Arismendi en la segunda insurrección de la isla. Bolívar lo ascendió a coronel en 1816. Mandó las fuerzas republicanas en la batalla de Matasiete (31 de julio de 1817), donde fue derrotado Pablo Morillo, y en 1823 marchó con el batallón Carabobo contra Maracaibo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Esteban Gómez",
+        "en": "Francisco Esteban Gómez"
+      },
+      "wikidata": "Q5865640"
+    },
+    {
+      "id": "luis-brion",
+      "nombre": "Luis Brión",
+      "nacimiento": {
+        "anio": 1782,
+        "aprox": false,
+        "lugar": "Curazao",
+        "lon": -69.0,
+        "lat": 12.2
+      },
+      "muerte": {
+        "anio": 1821,
+        "aprox": false,
+        "lugar": "Curazao",
+        "lon": -69.0,
+        "lat": 12.2
+      },
+      "activo": {
+        "lugar": "Angostura (Ciudad Bolívar)",
+        "lon": -63.547,
+        "lat": 8.103,
+        "desde": 1816,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "marino"
+      ],
+      "resumen": "Marino y comerciante nacido en Curazao, hijo de belgas, que había combatido por la República Bátava. Compró armas en Londres para los patriotas de Cartagena y en 1816 llevó la expedición de Los Cayos con Bolívar; fue nombrado almirante el 2 de mayo de 1816, tras el combate naval de Los Frailes. En 1817 creó el almirantazgo y, con Piar, tomó parte en la conquista de Guayana, remontando el Orinoco con su escuadra. Presidió el consejo de guerra que condenó a Piar en 1817. Murió en Curazao en 1821.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Luis Brión",
+        "en": "Luis Brión"
+      },
+      "wikidata": "Q2265391"
+    },
+    {
+      "id": "juan-de-la-cruz-mourgeon",
+      "nombre": "Juan de la Cruz Mourgeón",
+      "nacimiento": {
+        "anio": 1766,
+        "aprox": false,
+        "lugar": "Sevilla"
+      },
+      "muerte": {
+        "anio": 1822,
+        "aprox": false,
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22
+      },
+      "activo": {
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22,
+        "desde": 1821,
+        "hasta": 1822,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Militar sevillano de la guerra contra Napoleón (Bailén, Albuera) que el gobierno del Trienio Liberal nombró en 1821 último capitán general del Nuevo Reino de Granada y presidente de la Audiencia de Quito. Llegó a Puerto Cabello en julio de 1821, marchó por mar hacia Quito sin poder desembarcar en Guayaquil y murió en Quito el 8 de abril de 1822, antes de la derrota realista de Pichincha.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan de la Cruz Mourgeon y Achet",
+        "en": "Juan de la Cruz Mourgeón"
+      },
+      "wikidata": "Q3810947"
+    },
+    {
+      "id": "fernando-serrano",
+      "nombre": "Fernando Serrano",
+      "nacimiento": {
+        "anio": 1779,
+        "aprox": true,
+        "lugar": "Matanza",
+        "lon": -73.016,
+        "lat": 7.323
+      },
+      "muerte": {
+        "anio": 1819,
+        "aprox": false,
+        "lugar": "Ciudad Guayana",
+        "lon": -62.69,
+        "lat": 8.322
+      },
+      "activo": {
+        "lugar": "Pamplona (Colombia)",
+        "lon": -72.648,
+        "lat": 7.376,
+        "desde": 1810,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "abogado",
+        "militar",
+        "político"
+      ],
+      "resumen": "Abogado santandereano, integrante de la junta suprema de Pamplona en 1810 y gobernador de esa provincia, para la que redactó la constitución aprobada el 17 de mayo de 1815. Vencido por los realistas en 1815-1816, se refugió en el Casanare, donde en julio de 1816 una asamblea de jefes lo eligió presidente de las Provincias Unidas; Páez lo desplazó en septiembre. Murió en Ciudad Guayana en 1819, camino al Congreso de Angostura. Las fuentes dan para su nacimiento 1779 o 1789.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Fernando Serrano Uribe",
+        "en": "Fernando Serrano"
+      },
+      "wikidata": "Q3069553"
+    },
+    {
+      "id": "liborio-mejia",
+      "nombre": "Liborio Mejía",
+      "nacimiento": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Rionegro",
+        "lon": -75.374,
+        "lat": 6.153
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Popayán",
+        "lon": -76.609,
+        "lat": 2.454,
+        "desde": 1815,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Militar antioqueño que desde 1813 combatió por la independencia y guarnecía Popayán. En junio de 1816 el Congreso nombró presidente a García Rovira y vicepresidente a Mejía, que ejerció el poder con facultades de dictador por la ausencia de García Rovira; fue derrotado en la Cuchilla del Tambo (29 de junio) y en La Plata (10 de julio). Fue fusilado en Bogotá el 3 de septiembre de 1816, con 24 años.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Liborio Mejía",
+        "en": "Liborio Mejía"
+      },
+      "wikidata": "Q3135893"
+    },
+    {
+      "id": "jorge-robledo",
+      "nombre": "Jorge Robledo",
+      "nacimiento": {
+        "anio": 1500,
+        "aprox": true,
+        "lugar": "Úbeda",
+        "lon": -3.372,
+        "lat": 38.012
+      },
+      "muerte": {
+        "anio": 1546,
+        "aprox": false,
+        "lugar": "Alto de Pozo",
+        "lon": -75.542,
+        "lat": 5.456
+      },
+      "activo": {
+        "lugar": "Santa Fe de Antioquia",
+        "lon": -75.828,
+        "lat": 6.556,
+        "desde": 1540,
+        "hasta": 1546,
+        "aprox": false
+      },
+      "roles": [
+        "conquistador"
+      ],
+      "resumen": "Capitán de Úbeda que pasó de la conquista del Perú al sur de la actual Colombia con la hueste de Lorenzo de Aldana. Fundó Santa Ana de los Caballeros (Anserma) en 1539, San Jorge de Cartago el 9 de agosto de 1540 y Santa Fe de Antioquia en 1541; Pedro de Heredia lo apresó en 1542 por usurpar su jurisdicción y la Corona lo absolvió y le dio el título de mariscal. Belalcázar lo hizo ejecutar en 1546 en el conflicto por el dominio de esas tierras.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jorge Robledo (conquistador)",
+        "en": "Jorge Robledo (conquistador)"
+      },
+      "wikidata": "Q3183880"
+    },
+    {
+      "id": "domingo-caycedo",
+      "nombre": "Domingo Caycedo",
+      "nacimiento": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "muerte": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1830,
+        "hasta": 1831,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Santafereño que en España luchó contra la invasión francesa y que en 1812 acompañó a Nariño. Fue vicepresidente de la Gran Colombia y ejerció la presidencia en 1830: desde comienzos de marzo o abril, como presidente del Consejo de Ministros, por la enfermedad de Bolívar; en mayo, mientras Mosquera no llegaba, y desde agosto, hasta el golpe de Urdaneta del 5 de septiembre. En abril de 1831 se proclamó presidente en Purificación, firmó el convenio de Apulo con Urdaneta y asumió en Bogotá el 3 de mayo; convocó la convención que fundó la Nueva Granada.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Domingo Caycedo",
+        "en": "Domingo Caycedo"
+      },
+      "wikidata": "Q1369751"
+    },
+    {
+      "id": "jeronimo-de-mendoza-galavis",
+      "nombre": "Jerónimo de Mendoza Galavís",
+      "nacimiento": {
+        "anio": 1773,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "muerte": {
+        "anio": 1839,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1810,
+        "hasta": 1831,
+        "aprox": false
+      },
+      "roles": [
+        "funcionario",
+        "político"
+      ],
+      "resumen": "Santafereño, administrador de correos, firmante del acta del 20 de julio de 1810 y miembro de la junta suprema. Preso por la Reconquista, fue después intendente de hacienda, diputado al Congreso Admirable de 1830 y secretario de Hacienda de Urdaneta. Cuando Urdaneta salió al frente del ejército, integró con Pey y García del Río el ejecutivo plural que gobernó entre fines de abril y comienzos de mayo de 1831, hasta que Caycedo tomó el poder.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Jerónimo de Mendoza Galavís"
+      },
+      "wikidata": "Q10966309"
+    },
+    {
+      "id": "custodio-garcia-rovira",
+      "nombre": "Custodio García Rovira",
+      "nacimiento": {
+        "anio": 1780,
+        "aprox": false,
+        "lugar": "Bucaramanga",
+        "lon": -73.116,
+        "lat": 7.119
+      },
+      "muerte": {
+        "anio": 1816,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1812,
+        "hasta": 1816,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "militar",
+        "político"
+      ],
+      "resumen": "Abogado de Bucaramanga, gobernador del Socorro desde 1812, que ayudó a las fuerzas de la Unión en la guerra de 1812-1813 y a la campaña del norte de 1814 con MacGregor y Santander. Elegido en septiembre de 1814 para el triunvirato ejecutivo, lo presidió hasta el 28 de marzo de 1815 (las fuentes no coinciden en cuándo asumió) y renunció a él en julio de 1815. En junio de 1816 el Congreso lo nombró presidente-dictador de las Provincias Unidas, y asumió el 30 de junio, tras la derrota de la Cuchilla del Tambo; lo apresaron tras La Plata y lo fusilaron en Bogotá el 8 de agosto de 1816.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Custodio García Rovira",
+        "en": "Custodio García Rovira"
+      },
+      "wikidata": "Q3007908"
+    },
+    {
+      "id": "jose-miguel-pey",
+      "nombre": "José Miguel Pey",
+      "nacimiento": {
+        "anio": 1763,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "muerte": {
+        "anio": 1838,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1810,
+        "hasta": 1815,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "político"
+      ],
+      "resumen": "Alcalde de Santafé en 1810, presidió la junta suprema surgida del 20 de julio y, desde el 25, el gobierno de la ciudad hasta que Lozano fue elegido presidente de Cundinamarca, el 1 de abril de 1811. Fue gobernador de Cundinamarca desde el 20 de diciembre de 1814 tras la toma de Santafé por Bolívar, y de marzo a julio de 1815 presidió el triunvirato ejecutivo de las Provincias Unidas. En 1831 fue uno de los tres del ejecutivo plural, con Mendoza y García del Río.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Miguel Pey",
+        "en": "José Miguel Pey"
+      },
+      "wikidata": "Q3071134"
+    },
+    {
+      "id": "meicuchuca",
+      "nombre": "Meicuchuca",
+      "muerte": {
+        "anio": 1470,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Funza",
+        "lon": -74.209,
+        "lat": 4.718,
+        "desde": 1450,
+        "hasta": 1470,
+        "aprox": true
+      },
+      "roles": [
+        "zipa"
+      ],
+      "resumen": "Zipa de Bacatá. El único documento es Pedro Simón (hacia 1625), que cuenta la leyenda de la serpiente de «uno de los antiguos bogotaes llamado Meicuchuca», sin fechas ni sucesión; Piedrahita no lo nombra. Las fechas hacia 1450-1470 y el orden Menquetá, Meicuchuca y Saguamanchica son reconstrucciones posteriores.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Meicuchuca",
+        "en": "Meicuchuca"
+      },
+      "wikidata": "Q10992698"
+    },
+    {
+      "id": "michua",
+      "nombre": "Michuá",
+      "muerte": {
+        "anio": 1490,
+        "aprox": true,
+        "lugar": "Chocontá"
+      },
+      "activo": {
+        "lugar": "Tunja",
+        "lon": -73.361,
+        "lat": 5.54,
+        "desde": 1470,
+        "hasta": 1490,
+        "aprox": false
+      },
+      "roles": [
+        "zaque"
+      ],
+      "resumen": "Zaque de Hunza (Tunja) hacia 1470-1490, sucesor de Hunzahúa. Lo menciona por primera vez Lucas Fernández de Piedrahita en 1688, que cuenta que movilizó contra Saguamanchica un ejército que no llegó a combatir. Murió hacia 1490 en la batalla de Chocontá contra el zipa Saguamanchica, que también murió, y lo sucedió, según esa tradición, su sobrino Quemuenchatocha.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Michúa",
+        "en": "Michuá"
+      },
+      "wikidata": "Q10986143"
+    },
+    {
+      "id": "jose-ignacio-de-marquez",
+      "nombre": "José Ignacio de Márquez",
+      "nacimiento": {
+        "anio": 1793,
+        "aprox": false,
+        "lugar": "Ramiriquí",
+        "lon": -73.336,
+        "lat": 5.401
+      },
+      "muerte": {
+        "anio": 1880,
+        "aprox": false,
+        "lugar": "Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "activo": {
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61,
+        "desde": 1819,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "político"
+      ],
+      "resumen": "Abogado de Ramiriquí, ministro de Hacienda de Bolívar desde 1819 y fiscal de Hacienda ante la Corte Suprema. Fue delegado al Congreso de Cúcuta de 1821, que llegó a presidir a los 27 años, intendente de Boyacá (1825-1826), diputado por Tunja a la Convención de Ocaña de 1828 y ministro de Hacienda de Caycedo en 1830. Después fue presidente de la Nueva Granada (1837-1841).",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Ignacio de Márquez",
+        "en": "José Ignacio de Márquez"
+      },
+      "wikidata": "Q1189025"
+    },
+    {
+      "id": "andres-narvarte",
+      "nombre": "Andrés Narvarte",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "La Guaira",
+        "lon": -66.933,
+        "lat": 10.6
+      },
+      "muerte": {
+        "anio": 1853,
+        "aprox": false,
+        "lugar": "Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "activo": {
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506,
+        "desde": 1811,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "político"
+      ],
+      "resumen": "Abogado de La Guaira, suplente a la vicepresidencia bajo Cristóbal Mendoza en 1811-1812, gobernó la provincia de Trujillo en 1813-1814 y se exilió en Saint Thomas tras la caída de la Segunda República. Fue intendente de Venezuela en 1822, fundó en Caracas en 1824 la Gran Logia de la Gran Colombia y fue vicepresidente de la Convención de Ocaña de 1828, presidida por Castillo y Rada. Después fue vicepresidente a cargo del gobierno de Venezuela (1835 y 1836-1837).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andrés Narvarte",
+        "en": "Andrés Narvarte"
+      },
+      "wikidata": "Q2487449"
+    },
+    {
+      "id": "juan-jose-flores",
+      "nombre": "Juan José Flores",
+      "nacimiento": {
+        "anio": 1800,
+        "aprox": false,
+        "lugar": "Puerto Cabello",
+        "lon": -68.017,
+        "lat": 10.467
+      },
+      "muerte": {
+        "anio": 1864,
+        "aprox": false,
+        "lugar": "Isla Puná",
+        "lon": -80.133,
+        "lat": -2.833
+      },
+      "activo": {
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22,
+        "desde": 1823,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "militar"
+      ],
+      "resumen": "Nacido en Puerto Cabello, sirvió en el ejército realista de Morillo desde los quince años hasta que lo tomaron prisionero en 1817 y pasó al ejército patriota; combatió en Carabobo (1821). Desde 1823 fue comandante general y gobernador de Pasto y en 1829 mandó con Sucre las fuerzas grancolombianas en el Portete de Tarqui. En 1830 fue el primer presidente de Ecuador.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan José Flores",
+        "en": "Juan José Flores"
+      },
+      "wikidata": "Q554933"
     }
   ],
   "hechos": [
@@ -3904,7 +5238,7 @@
       "lon": -73.683,
       "lat": 5.15,
       "tipo": "batalla",
-      "resumen": "Según Simón y Piedrahita, los zipas de Bacatá sometieron cacicazgos vecinos (Fusagasugá, Ubaté, Guatavita) y guerrearon con los zaques de Hunza; en la batalla de Chocontá, hacia 1490, habrían muerto el zipa Saguamanchica y el zaque Michuá. Estas cronologías se reconstruyeron con tradiciones recogidas entre medio siglo y un siglo y medio después, y sus fechas y detalles son inciertos.",
+      "resumen": "Los zipas de Bacatá sometieron cacicazgos vecinos (Fusagasugá, Ubaté, Guatavita) y guerrearon con los zaques de Hunza; según Piedrahita (1688), en la batalla de Chocontá, hacia 1490, habrían muerto el zipa Saguamanchica y el zaque Michuá. Simón no los nombra y, de los zipas anteriores a los españoles, solo da noticias de Nemequene. Estas cronologías se reconstruyeron con tradiciones recogidas entre medio siglo y un siglo y medio después, y sus fechas y detalles son inciertos.",
       "regiones": [
         "norte-de-sudamerica"
       ],
@@ -5557,6 +6891,106 @@
         "norte-de-sudamerica"
       ],
       "fuentes": []
+    },
+    {
+      "id": "guerra-grancolombo-peruana",
+      "titulo": "Guerra grancolombo-peruana",
+      "anio": 1828,
+      "anio_hasta": 1829,
+      "aprox": false,
+      "lugar": "Guayaquil",
+      "lon": -79.888,
+      "lat": -2.19,
+      "tipo": "batalla",
+      "resumen": "En 1828 la Gran Colombia y el Perú se declararon la guerra por Jaén, Maynas y Guayaquil. Guayaquil se rindió a la escuadra peruana el 19 de enero de 1829; el 27 de febrero, en el Portete de Tarqui, Sucre y Flores vencieron a la vanguardia peruana. Sucre mandó inscribir que cuatro mil colombianos habían vencido a ocho mil peruanos; La Mar objetó la inscripción el 17 de marzo y, tras firmar el convenio de Girón, no desocupó Guayaquil. Depuesto La Mar en junio, el armisticio de Piura devolvió Guayaquil y el tratado Larrea-Gual, firmado por Pedro Gual el 22 de septiembre de 1829, cerró la guerra con el principio del uti possidetis.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra grancolombo-peruana",
+        "en": "Gran Colombia–Peru War"
+      }
+    },
+    {
+      "id": "batalla-del-pantano-de-vargas",
+      "titulo": "Batalla del Pantano de Vargas",
+      "anio": 1819,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Paipa",
+      "lon": -73.118,
+      "lat": 5.78,
+      "tipo": "batalla",
+      "resumen": "El 25 de julio de 1819, cerca de Paipa, el ejército de Bolívar chocó con la tercera división realista del coronel José María Barreiro, que cerraba el camino a Tunja desde las colinas. Hacia las cinco de la tarde, cuando los patriotas retrocedían, la carga de los lanceros llaneros de Juan José Rondón y el ataque de la Legión Británica rompieron parte de la línea realista, y Barreiro se retiró a su campamento de Paipa; la tradición patriota la cuenta como la victoria que abrió el camino a Boyacá. Los dos bandos proclamaron la victoria en sus partes. Las cifras de bajas son inciertas: el boletín patriota del coronel Manrique dio 104 propias y 500 realistas, Barreiro informó de 140 entre muertos y heridos, y las estimaciones modernas van de 300 o 350 por bando a unos 400 o 500 realistas y 300 patriotas.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla del Pantano de Vargas",
+        "en": "Battle of Vargas Swamp"
+      }
+    },
+    {
+      "id": "guerra-entre-centralistas-y-federalistas",
+      "titulo": "Guerra entre centralistas y federalistas",
+      "anio": 1812,
+      "anio_hasta": 1814,
+      "aprox": false,
+      "lugar": "Santafé de Bogotá",
+      "lon": -74.082,
+      "lat": 4.61,
+      "tipo": "batalla",
+      "resumen": "Guerra entre el Estado de Cundinamarca, centralista y dirigido por Nariño, y las Provincias Unidas de la Nueva Granada, federales, cuyo congreso se reunía en Tunja. Nariño marchó sobre Tunja y fue derrotado en Ventaquemada (2 de diciembre de 1812); los federales de Baraya sitiaron Santafé, pero Nariño los venció en San Victorino (9 de enero de 1813) y ambos bandos acordaron unirse contra los realistas. Con Nariño preso en Pasto desde mayo de 1814, la guerra se reanudó y Bolívar tomó Santafé para las Provincias Unidas el 12 de diciembre de 1814, tras dos días de combates, y la ciudad fue saqueada.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra civil entre centralistas y federalistas",
+        "en": "New Granada Civil War"
+      }
+    },
+    {
+      "id": "batalla-de-cucuta",
+      "titulo": "Batalla de Cúcuta",
+      "anio": 1813,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cúcuta",
+      "lon": -72.505,
+      "lat": 7.907,
+      "tipo": "batalla",
+      "resumen": "El 28 de febrero de 1813 Bolívar, con unos 400 hombres de las Provincias Unidas, derrotó cerca de Cúcuta a unos 800 realistas del coronel Ramón Correa y los expulsó de los valles de Cúcuta. En su parte, Bolívar dio como pérdidas propias dos muertos y catorce heridos y escribió que Correa había salido con una herida grave en la cabeza. La victoria precedió a su marcha a Venezuela, la Campaña Admirable de 1813.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Cúcuta",
+        "en": "Battle of Cúcuta"
+      }
+    },
+    {
+      "id": "batalla-naval-del-lago-de-maracaibo",
+      "titulo": "Batalla naval del lago de Maracaibo",
+      "anio": 1823,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Maracaibo",
+      "lon": -71.633,
+      "lat": 10.633,
+      "tipo": "batalla",
+      "resumen": "El 24 de julio de 1823 la escuadra de Colombia, al mando de José Prudencio Padilla, destruyó o capturó casi toda la escuadra española de Ángel Laborde en el lago de Maracaibo. Fue el último combate naval de la guerra en Venezuela: el capitán general Francisco Tomás Morales capituló en Maracaibo el 3 de agosto y se retiró a Cuba con sus tropas, aunque el último reducto realista, Puerto Cabello, resistió hasta que Páez lo tomó el 8 de noviembre de 1823.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Combate naval del lago de Maracaibo",
+        "en": "Battle of Lake Maracaibo"
+      }
     }
   ],
   "lugares": [
