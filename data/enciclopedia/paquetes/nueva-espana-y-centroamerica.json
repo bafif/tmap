@@ -924,7 +924,11 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "alta"
+      "confianza": "alta",
+      "wikipedia": {
+        "es": "Respuesta a Sor Filotea de la Cruz",
+        "en": "La Respuesta a Sor Filotea de la Cruz"
+      }
     },
     {
       "id": "primero-sueno",
@@ -4257,6 +4261,923 @@
         "es": "Robert Ricard"
       },
       "wikidata": "Q6109524"
+    },
+    {
+      "id": "garcia-guerra",
+      "nombre": "García Guerra",
+      "nacimiento": {
+        "anio": 1547,
+        "aprox": true,
+        "lugar": "Frómista",
+        "lon": -4.407,
+        "lat": 42.267
+      },
+      "muerte": {
+        "anio": 1612,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1607,
+        "hasta": 1612,
+        "aprox": false
+      },
+      "roles": [
+        "arzobispo",
+        "virrey"
+      ],
+      "resumen": "Dominico español, arzobispo de México desde 1607 y virrey interino desde el 19 de junio de 1611, cuando Luis de Velasco, marqués de Salinas, partió a España; ejerció los dos cargos hasta su muerte, el 22 de febrero de 1612. Como virrey buscó fondos para el desagüe de la ciudad e intentó, sin éxito frente a encomenderos y terratenientes, devolver a los indígenas tierras usurpadas. Un terremoto dañó la capital el 26 de agosto de 1611.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco García Guerra",
+        "en": "García Guerra"
+      },
+      "wikidata": "Q2600491"
+    },
+    {
+      "id": "sebastian-vizcaino",
+      "nombre": "Sebastián Vizcaíno",
+      "nacimiento": {
+        "anio": 1548,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1624,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Acapulco",
+        "lon": -99.84,
+        "lat": 16.97,
+        "desde": 1583,
+        "hasta": 1615,
+        "aprox": false
+      },
+      "roles": [
+        "explorador",
+        "militar",
+        "diplomático"
+      ],
+      "resumen": "Soldado y comerciante, probablemente extremeño (se desconoce su lugar de nacimiento), que llegó a la Nueva España en 1583 y viajó en el galeón de Manila entre 1586 y 1589. En 1596 intentó sin éxito poblar La Paz, en Baja California, y en 1602, por encargo del virrey conde de Monterrey, recorrió la costa de California desde Acapulco para hallar puertos de refugio para el galeón de Manila: puso nombre a San Diego y a Monterrey, y murieron unos 45 de sus hombres. En 1611-1613 fue embajador ante el shogun del Japón y volvió a México con la embajada de Hasekura. Murió en Ciudad de México; las fuentes dan 1623, 1624 o 1627.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Sebastián Vizcaíno",
+        "en": "Sebastián Vizcaíno"
+      },
+      "wikidata": "Q141710"
+    },
+    {
+      "id": "francis-drake",
+      "nombre": "Francis Drake",
+      "nacimiento": {
+        "anio": 1540,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1596,
+        "aprox": false,
+        "lugar": "Portobelo",
+        "lon": -79.655,
+        "lat": 9.554
+      },
+      "activo": {
+        "lugar": "Nombre de Dios",
+        "lon": -79.47,
+        "lat": 9.583,
+        "desde": 1568,
+        "hasta": 1596,
+        "aprox": false
+      },
+      "roles": [
+        "corsario",
+        "explorador"
+      ],
+      "resumen": "Corsario inglés, pirata para los españoles. Navegó en los últimos viajes esclavistas de John Hawkins y en 1568 combatió en San Juan de Ulúa, de donde huyó con su nave y dejó a Hawkins, que lo acusó de deserción, algo que Drake negó; desde entonces dedicó su vida a atacar posesiones españolas. En 1572-1573 asaltó Nombre de Dios, en Panamá, y con cimarrones, esclavizados fugados de sus amos, saqueó las recuas que llevaban plata y oro. En 1579, en su vuelta al mundo, atacó la costa del Pacífico hasta Guatulco, en Oaxaca. Murió de disentería en enero de 1596 frente a Portobelo, tras fracasar en un ataque a Panamá.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francis Drake",
+        "en": "Francis Drake"
+      },
+      "wikidata": "Q36517"
+    },
+    {
+      "id": "guadalupe-victoria",
+      "nombre": "Guadalupe Victoria",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Tamazula de Victoria",
+        "lon": -106.966,
+        "lat": 24.97
+      },
+      "muerte": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "Perote",
+        "lon": -97.242,
+        "lat": 19.562
+      },
+      "activo": {
+        "lugar": "Veracruz",
+        "lon": -96.153,
+        "lat": 19.19,
+        "desde": 1812,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "insurgente",
+        "presidente"
+      ],
+      "resumen": "Nació como José Miguel Fernández y Félix en Nueva Vizcaya (hoy Durango), estudió leyes en el Colegio de San Ildefonso y se unió a Morelos. Fue general insurgente en el sitio de Cuautla, la toma de Oaxaca y varias campañas en Veracruz; en 1817, abandonado por sus tropas, vivió oculto hasta 1821, cuando el movimiento resurgió con Guerrero e Iturbide. Después fue el primer presidente de México (1824-1829).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Guadalupe Victoria",
+        "en": "Guadalupe Victoria"
+      },
+      "wikidata": "Q311425"
+    },
+    {
+      "id": "nicolas-bravo",
+      "nombre": "Nicolás Bravo",
+      "nacimiento": {
+        "anio": 1786,
+        "aprox": false,
+        "lugar": "Chilpancingo de los Bravo",
+        "lon": -99.501,
+        "lat": 17.552
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "Chilpancingo de los Bravo",
+        "lon": -99.501,
+        "lat": 17.552
+      },
+      "activo": {
+        "lugar": "Chilpancingo de los Bravo",
+        "lon": -99.501,
+        "lat": 17.552,
+        "desde": 1811,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "insurgente",
+        "político"
+      ],
+      "resumen": "Hacendado nacido en Chichihualco, en la zona de Chilpancingo, que se sumó a la insurgencia el 17 de mayo de 1811 con su padre Leonardo, en las fuerzas de Hermenegildo Galeana, y fue luego jefe de tropas en Veracruz, donde tomó Coscomatepec. Gozó de fama de clemente por soltar a unos trescientos prisioneros realistas. Preso desde 1817, fue amnistiado en 1820 y en 1821 se unió al Plan de Iguala; Iturbide lo hizo coronel y fue miembro de la regencia. Fue después vicepresidente (1824-1827) y presidente interino.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Nicolás Bravo",
+        "en": "Nicolás Bravo"
+      },
+      "wikidata": "Q379975"
+    },
+    {
+      "id": "jose-joaquin-fernandez-de-lizardi",
+      "nombre": "José Joaquín Fernández de Lizardi (el Pensador Mexicano)",
+      "nacimiento": {
+        "anio": 1776,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "muerte": {
+        "anio": 1827,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1809,
+        "hasta": 1827,
+        "aprox": false
+      },
+      "roles": [
+        "escritor",
+        "periodista"
+      ],
+      "resumen": "Escritor y periodista de Ciudad de México. En 1810, como subdelegado interino de Taxco, entregó el armamento a los insurgentes de Morelos y por eso estuvo preso en 1811. Cuando las Cortes de Cádiz dieron libertad de imprenta fundó El Pensador Mexicano (octubre de 1812) y fue arrestado en diciembre por atacar al virrey Venegas. Al restablecerse la censura, en 1816 publicó por entregas El Periquillo Sarniento, considerada la primera novela latinoamericana; se frenó en el cuarto tomo por su crítica a la esclavitud y los últimos capítulos salieron en 1830-1831. Murió de tuberculosis en 1827.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Joaquín Eugenio Fernández de Lizardi Gutiérrez",
+        "en": "José Joaquín Fernández de Lizardi"
+      },
+      "wikidata": "Q48368"
+    },
+    {
+      "id": "leona-vicario",
+      "nombre": "Leona Vicario",
+      "nacimiento": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "muerte": {
+        "anio": 1842,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1810,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "insurgente",
+        "periodista"
+      ],
+      "resumen": "Criolla rica de Ciudad de México, miembro de la sociedad secreta de los Guadalupes, que enviaba correspondencia, dinero y medicinas a los insurgentes y difundía sus ideas. En 1813 una carta suya fue interceptada y huyó; su tío la hizo volver, la detuvieron en el Colegio de Belén y no delató a nadie hasta que insurgentes la rescataron (23 de abril de 1813). Las autoridades confiscaron sus bienes y el Congreso insurgente le dio una pensión. Se casó con Andrés Quintana Roo en 1813 (otras fuentes dicen 1815) y pasó 1816 prófuga. En marzo de 1818 los encontraron antiguos soldados insurgentes y los dos aceptaron el indulto realista y vivieron en Toluca.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Leona Vicario",
+        "en": "Leona Vicario"
+      },
+      "wikidata": "Q2525584"
+    },
+    {
+      "id": "xavier-mina",
+      "nombre": "Xavier Mina (Francisco Javier Mina)",
+      "nacimiento": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "Otano",
+        "lon": -1.568,
+        "lat": 42.714
+      },
+      "muerte": {
+        "anio": 1817,
+        "aprox": false,
+        "lugar": "Cerro del Bellaco (Guanajuato)"
+      },
+      "activo": {
+        "lugar": "Pénjamo",
+        "lon": -101.722,
+        "lat": 20.431,
+        "desde": 1817,
+        "hasta": 1817,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "insurgente"
+      ],
+      "resumen": "Estudiante de leyes navarro, guerrillero liberal contra los franceses y opositor al absolutismo de Fernando VII, exiliado en Inglaterra tras un pronunciamiento fallido en 1814. En 1817 desembarcó en Soto la Marina, en Tamaulipas (el 15 de abril según Robinson o el 21 según Pérez Rodríguez), con fray Servando Teresa de Mier y una expedición a favor de la independencia. Se unió a Pedro Moreno en el Fuerte del Sombrero, fue capturado el 27 de octubre en El Venadito y fusilado como traidor el 11 de noviembre de 1817.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Xavier Mina",
+        "en": "Xavier Mina"
+      },
+      "wikidata": "Q1923387"
+    },
+    {
+      "id": "andres-quintana-roo",
+      "nombre": "Andrés Quintana Roo",
+      "nacimiento": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Mérida",
+        "lon": -89.62,
+        "lat": 20.97
+      },
+      "muerte": {
+        "anio": 1851,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Chilpancingo de los Bravo",
+        "lon": -99.501,
+        "lat": 17.552,
+        "desde": 1813,
+        "hasta": 1814,
+        "aprox": false
+      },
+      "roles": [
+        "insurgente",
+        "político",
+        "escritor"
+      ],
+      "resumen": "Abogado y escritor yucateco que editó periódicos insurgentes y se casó con Leona Vicario en 1813 (otras fuentes dicen 1815). En el Congreso de Chilpancingo (septiembre de 1813) llegó a presidirlo, y el 6 de noviembre firmó el Acta de la declaración de independencia, que redactó en parte. Fue uno de los redactores de la Constitución de Apatzingán (22 de octubre de 1814), con Carlos María de Bustamante y José Manuel de Herrera, aunque no la firmó. En marzo de 1818 aceptó el indulto realista y se instaló con Leona Vicario en Toluca.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Andrés Quintana Roo",
+        "en": "Andrés Quintana Roo"
+      },
+      "wikidata": "Q524664"
+    },
+    {
+      "id": "juan-aldama",
+      "nombre": "Juan Aldama",
+      "nacimiento": {
+        "anio": 1774,
+        "aprox": false,
+        "lugar": "San Miguel de Allende",
+        "lon": -100.744,
+        "lat": 20.915
+      },
+      "muerte": {
+        "anio": 1811,
+        "aprox": false,
+        "lugar": "Chihuahua",
+        "lon": -106.077,
+        "lat": 28.637
+      },
+      "activo": {
+        "lugar": "Guanajuato",
+        "lon": -101.257,
+        "lat": 21.018,
+        "desde": 1810,
+        "hasta": 1811,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "insurgente"
+      ],
+      "resumen": "Capitán criollo de dragones de la milicia en San Miguel el Grande y uno de los organizadores de la conspiración de Querétaro: avisó a Hidalgo y a Allende de que había sido descubierta y estuvo en el Grito de Dolores. Combatió en Monte de las Cruces y, tras la derrota de Puente de Calderón, fue capturado tras la traición de Ignacio Elizondo el 21 de marzo de 1811 en Acatita de Baján (Coahuila). Lo fusilaron en Chihuahua el 26 de junio de 1811, junto con Allende, Jiménez y Santa María, y su cabeza se expuso en Guanajuato.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Aldama",
+        "en": "Juan Aldama"
+      },
+      "wikidata": "Q983888"
+    },
+    {
+      "id": "mariano-matamoros",
+      "nombre": "Mariano Matamoros",
+      "nacimiento": {
+        "anio": 1770,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "muerte": {
+        "anio": 1814,
+        "aprox": false,
+        "lugar": "Morelia",
+        "lon": -101.192,
+        "lat": 19.703
+      },
+      "activo": {
+        "lugar": "Izúcar de Matamoros",
+        "lon": -98.465,
+        "lat": 18.603,
+        "desde": 1811,
+        "hasta": 1814,
+        "aprox": false
+      },
+      "roles": [
+        "sacerdote",
+        "militar",
+        "insurgente"
+      ],
+      "resumen": "Nacido en Ciudad de México y cura de Jantetelco, denunciado por simpatizar con la insurgencia, que escapó y se unió a Morelos en Izúcar el 16 de diciembre de 1811. Morelos lo nombró coronel y teniente general, su segundo al mando: según una fuente durante el sitio de Cuautla (febrero a mayo de 1812) y según otra después de su entrada en Oaxaca (mayo de 1813). Tras el fracaso ante Valladolid (23-24 de diciembre de 1813) fue derrotado por Iturbide en Puruarán (5 de enero de 1814), durante la retirada, capturado y fusilado el 3 de febrero; Morelos propuso canjearlo por prisioneros españoles y no fue aceptado.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mariano Matamoros",
+        "en": "Mariano Matamoros"
+      },
+      "wikidata": "Q1282495"
+    },
+    {
+      "id": "francisco-morazan",
+      "nombre": "Francisco Morazán",
+      "nacimiento": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Tegucigalpa",
+        "lon": -87.205,
+        "lat": 14.106
+      },
+      "muerte": {
+        "anio": 1842,
+        "aprox": false,
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933
+      },
+      "activo": {
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642,
+        "desde": 1827,
+        "hasta": 1840,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Hondureño liberal que se destacó en la batalla de La Trinidad (11 de noviembre de 1827), derrocó en abril de 1829 al gobierno de Mariano Beltranena y Mariano Aycinena, tomó Guatemala y apresó a Arce junto con ellos, y gobernó de hecho hasta que asumió Juan Barrundia el 25 de junio. Fue presidente de la República Federal de Centroamérica entre 1830 y 1839, además de jefe de Estado de Honduras y El Salvador. Sus reformas liberales (libertad de prensa, matrimonio civil, separación de la Iglesia y el Estado) provocaron una guerra con los conservadores. En 1829 ordenó la expulsión del arzobispo Ramón Casáus y de frailes de varias órdenes, y su gobierno y el de Mariano Gálvez confiscaron bienes eclesiásticos y abolieron el diezmo. En 1840 su intento de restaurar la federación por las armas, la invasión de Guatemala, fracasó ante Carrera. En 1842 llegó a Costa Rica, obtuvo por el Pacto del Jocote la salida de Braulio Carrillo y se hizo jefe de Estado; un levantamiento contra sus planes de guerra lo derrocó y lo fusilaron en San José el 15 de septiembre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Morazán",
+        "en": "Francisco Morazán"
+      },
+      "wikidata": "Q332111"
+    },
+    {
+      "id": "rafael-carrera",
+      "nombre": "Rafael Carrera y Turcios",
+      "nacimiento": {
+        "anio": 1814,
+        "aprox": false,
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642
+      },
+      "muerte": {
+        "anio": 1865,
+        "aprox": false,
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642
+      },
+      "activo": {
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642,
+        "desde": 1837,
+        "hasta": 1865,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Campesino mestizo e iletrado de Ciudad de Guatemala que en 1837 encabezó la revuelta rural contra el gobierno liberal de Mariano Gálvez, con apoyo del clero y en medio de una epidemia de cólera. Con campesinos indígenas y mestizos del oriente y del sur tomó Guatemala el 13 de abril de 1839, derrotó a Morazán en marzo de 1840 y sometió a Los Altos: en abril de 1840 mandó fusilar a la mayoría de los funcionarios liberales del ayuntamiento de Quetzaltenango. Con ello la federación quedó rota. Dominó Guatemala como jefe militar desde 1839 y fue presidente en 1844-1848 y desde 1851, vitalicio desde 1854, hasta su muerte en 1865; los liberales, que volvieron al poder en 1871, lo descalificaron, mientras que otros autores, como Ralph Lee Woodward Jr. en su biografía de 1993, subrayan su apoyo al campesinado indígena.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Rafael Carrera",
+        "en": "Rafael Carrera"
+      },
+      "wikidata": "Q365381"
+    },
+    {
+      "id": "manuel-jose-de-arce",
+      "nombre": "Manuel José de Arce y Fagoaga",
+      "nacimiento": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698
+      },
+      "muerte": {
+        "anio": 1847,
+        "aprox": false,
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698
+      },
+      "activo": {
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698,
+        "desde": 1821,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Salvadoreño, primer presidente de la República Federal de Centroamérica (1825-1829). José Cecilio del Valle obtuvo más votos de los electores (41 contra 34), pero el Congreso, de mayoría liberal, resolvió que no tenía mayoría absoluta y eligió a Arce, con votos conservadores. Arce perdió el apoyo liberal y, desde 1826, el Congreso dejó de reunirse. Depuso al gobernador liberal de Guatemala, Juan Barrundia, y la rebelión de El Salvador inició una guerra civil. Dejó la presidencia el 24 de febrero de 1828 en manos del vicepresidente Mariano Beltranena, que se negó a devolvérsela; en abril de 1829 Morazán derrocó a Beltranena y apresó a Arce.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manuel José de Arce y Fagoaga",
+        "en": "Manuel José Arce"
+      },
+      "wikidata": "Q1433911"
+    },
+    {
+      "id": "dionisio-de-herrera",
+      "nombre": "Dionisio de Herrera",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "Choluteca",
+        "lon": -87.196,
+        "lat": 13.306
+      },
+      "muerte": {
+        "anio": 1850,
+        "aprox": false,
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698
+      },
+      "activo": {
+        "lugar": "Comayagua",
+        "lon": -87.638,
+        "lat": 14.453,
+        "desde": 1824,
+        "hasta": 1833,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Abogado liberal hondureño, tío y tutor de Francisco Morazán. Fue jefe de Estado de Honduras (1824-1827) y de Nicaragua (1830-1833) cuando ambos eran estados de la República Federal de Centroamérica.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Dionisio de Herrera",
+        "en": "Dionisio de Herrera"
+      },
+      "wikidata": "Q1359457"
+    },
+    {
+      "id": "juan-mora-fernandez",
+      "nombre": "Juan Mora Fernández",
+      "nacimiento": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933
+      },
+      "activo": {
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933,
+        "desde": 1824,
+        "hasta": 1833,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Maestro y político costarricense, primer jefe de Estado de Costa Rica (1824-1833), dentro de la República Federal. Su política de reparto de tierras favoreció el auge del café, y en su gobierno llegó la primera imprenta del país.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Mora Fernández",
+        "en": "Juan Mora Fernández"
+      },
+      "wikidata": "Q888005"
+    },
+    {
+      "id": "braulio-carrillo",
+      "nombre": "Braulio Carrillo Colina",
+      "nacimiento": {
+        "anio": 1800,
+        "aprox": false,
+        "lugar": "Cartago",
+        "lon": -83.921,
+        "lat": 9.864
+      },
+      "muerte": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "Sociedad",
+        "lon": -88.007,
+        "lat": 13.698
+      },
+      "activo": {
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933,
+        "desde": 1835,
+        "hasta": 1842,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Abogado costarricense, jefe de Estado de Costa Rica en 1835-1837 y dictador desde 1838 hasta 1842. El 14 de noviembre de 1838 declaró a Costa Rica Estado soberano e independiente, separado de la República Federal. Reorganizó la administración, codificó las leyes, castigó la vagancia y amplió los poderes del Ejecutivo. Morazán invadió Costa Rica en 1842, y Carrillo, en el exilio, fue asesinado en El Salvador en 1845.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Braulio Carrillo Colina",
+        "en": "Braulio Carrillo Colina"
+      },
+      "wikidata": "Q888888"
+    },
+    {
+      "id": "juan-lindo",
+      "nombre": "Juan Lindo y Zelaya",
+      "nacimiento": {
+        "anio": 1790,
+        "aprox": false,
+        "lugar": "Tegucigalpa",
+        "lon": -87.205,
+        "lat": 14.106
+      },
+      "muerte": {
+        "anio": 1857,
+        "aprox": false,
+        "lugar": "Gracias",
+        "lon": -88.581,
+        "lat": 14.589
+      },
+      "activo": {
+        "lugar": "Comayagua",
+        "lon": -87.638,
+        "lat": 14.453,
+        "desde": 1821,
+        "hasta": 1842,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Abogado hondureño que fue el último alcalde mayor de la provincia de Comayagua en 1821, promotor de la anexión de Centroamérica al Imperio de Iturbide y, en 1838, desde la asamblea constituyente de Honduras, de la separación de su país de la República Federal. Fue jefe de Estado de El Salvador (1841-1842) y presidente de Honduras (1847-1852).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Lindo",
+        "en": "Juan Lindo"
+      },
+      "wikidata": "Q718333"
+    },
+    {
+      "id": "francisco-ferrera",
+      "nombre": "Francisco Ferrera",
+      "nacimiento": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Cantarranas (San Juan de Flores)",
+        "lon": -87.028,
+        "lat": 14.263
+      },
+      "muerte": {
+        "anio": 1851,
+        "aprox": false,
+        "lugar": "Chalatenango",
+        "lon": -88.939,
+        "lat": 14.041
+      },
+      "activo": {
+        "lugar": "Comayagua",
+        "lon": -87.638,
+        "lat": 14.453,
+        "desde": 1832,
+        "hasta": 1841,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político"
+      ],
+      "resumen": "Militar hondureño que sirvió a Morazán en La Trinidad y Gualcho, y en octubre de 1838 se rebeló contra el gobierno federal para que Honduras fuera un Estado libre. Morazán lo derrotó en abril de 1839, pero siguió en la guerra contra él y ayudó a Carrera con armas. Presidente de Honduras entre 1841 y 1844 (en 1833-1834 había sido jefe de Estado provisional).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Ferrera",
+        "en": "Francisco Ferrera"
+      },
+      "wikidata": "Q887531"
+    },
+    {
+      "id": "juan-galindo",
+      "nombre": "Juan Galindo",
+      "nacimiento": {
+        "anio": 1802,
+        "aprox": false,
+        "lugar": "Dublín",
+        "lon": -6.26,
+        "lat": 53.35
+      },
+      "muerte": {
+        "anio": 1840,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Copán",
+        "lon": -89.142,
+        "lat": 14.838,
+        "desde": 1831,
+        "hasta": 1840,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "explorador"
+      ],
+      "resumen": "Irlandés nacido como John Galindo en Dublín, naturalizado centroamericano en 1829, oficial del gobierno liberal de Morazán, gobernador militar del Petén y enviado a Washington y Londres por la disputa de Belice. En 1831 recorrió el río Usumacinta y exploró Palenque, y en 1834 Copán, cuyos informes dibujó; es considerado un pionero de la arqueología maya, fue de los primeros en copiar con cuidado los glifos y tratarlos como escritura, y propuso que las ciudades las habían construido los antepasados de los mayas actuales. Murió el 30 de enero de 1840 al terminar una batalla cerca de Tegucigalpa, en la guerra civil, con el ejército liberal.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Galindo",
+        "en": "Juan Galindo"
+      },
+      "wikidata": "Q724303"
+    },
+    {
+      "id": "mateo-aleman",
+      "nombre": "Mateo Alemán",
+      "nacimiento": {
+        "anio": 1547,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1614,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1608,
+        "hasta": 1614,
+        "aprox": false
+      },
+      "roles": [
+        "escritor"
+      ],
+      "resumen": "Novelista sevillano, autor de la novela picaresca Guzmán de Alfarache (1599 y 1604). En 1608 pasó a la Nueva España y llegó a la Ciudad de México en la comitiva del arzobispo García Guerra, de cuyo favor gozó. Allí publicó la Ortografía castellana (1609), que defendía escribir como se pronuncia, y los Sucesos de don fray García Guerra (1613). Según investigaciones recientes (Cartaya Baños, 2011) murió en la Ciudad de México en 1614; una fuente anterior lo daba vivo en 1615.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mateo Alemán",
+        "en": "Mateo Alemán"
+      },
+      "wikidata": "Q316616"
+    },
+    {
+      "id": "juan-ruiz-de-alarcon",
+      "nombre": "Juan Ruiz de Alarcón",
+      "nacimiento": {
+        "anio": 1581,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "muerte": {
+        "anio": 1639,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1608,
+        "hasta": 1611,
+        "aprox": true
+      },
+      "roles": [
+        "dramaturgo",
+        "abogado"
+      ],
+      "resumen": "Dramaturgo novohispano del Siglo de Oro, nacido en Taxco hacia 1581 (él mismo dijo que en la Ciudad de México). Estudió cánones en la Real y Pontificia Universidad de México y derecho en Salamanca; volvió a la Nueva España hacia 1607-1608, se licenció en derecho en la Universidad de México en 1609 y buscó sin éxito una cátedra. En 1611 pasó a España con el virrey Luis de Velasco, marqués de Salinas; allí escribió La verdad sospechosa y desde 1625 sirvió en el Consejo de Indias. Murió en Madrid en 1639.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Ruiz de Alarcón",
+        "en": "Juan Ruiz de Alarcón"
+      },
+      "wikidata": "Q356532"
+    },
+    {
+      "id": "melchor-muzquiz",
+      "nombre": "Melchor Múzquiz",
+      "nacimiento": {
+        "anio": 1788,
+        "aprox": false,
+        "lugar": "Ciudad Melchor Múzquiz",
+        "lon": -101.516,
+        "lat": 27.878
+      },
+      "muerte": {
+        "anio": 1844,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1811,
+        "hasta": 1844,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "insurgente",
+        "político"
+      ],
+      "resumen": "Estudiante del Colegio de San Ildefonso que lo dejó para unirse a la insurgencia (en 1810 o a comienzos de 1811, según el autor). Combatió en Michoacán y Veracruz, a las órdenes de Ignacio López Rayón y de Guadalupe Victoria, llegó a coronel y fue capturado en la hacienda de Monte Blanco; un indulto lo salvó del fusilamiento, aunque se negó a jurar que no volvería a combatir a España. En 1821 se sumó al Plan de Iguala. Después fue gobernador del Estado de México (1824) y presidente interino de México en 1832.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Melchor Múzquiz",
+        "en": "Melchor Múzquiz"
+      },
+      "wikidata": "Q656792"
+    },
+    {
+      "id": "antonio-lopez-de-santa-anna",
+      "nombre": "Antonio López de Santa Anna",
+      "nacimiento": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Xalapa-Enríquez",
+        "lon": -96.916,
+        "lat": 19.531
+      },
+      "muerte": {
+        "anio": 1876,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Veracruz",
+        "lon": -96.153,
+        "lat": 19.19,
+        "desde": 1810,
+        "hasta": 1823,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "político",
+        "presidente"
+      ],
+      "resumen": "Militar de Xalapa que ingresó en 1810, a los 16 años, en el regimiento fijo de Veracruz a las órdenes del coronel José Joaquín de Arredondo y combatió a los insurgentes como oficial realista, también en Texas (batalla de Medina, 1813). En 1821 se pasó al Plan de Iguala. En diciembre de 1822 proclamó con Guadalupe Victoria el Plan de Veracruz contra Iturbide, y el Plan de Casa Mata (febrero de 1823) precipitó la caída del primer Imperio mexicano, que terminó con la abdicación del 19 de marzo. Su papel posterior fue central en el México independiente: presidente en varias ocasiones entre 1833 y 1855, la pérdida de Texas y la guerra con Estados Unidos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio López de Santa Anna",
+        "en": "Antonio López de Santa Anna"
+      },
+      "wikidata": "Q189145"
+    },
+    {
+      "id": "lucas-alaman",
+      "nombre": "Lucas Alamán",
+      "nacimiento": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Guanajuato",
+        "lon": -101.257,
+        "lat": 21.018
+      },
+      "muerte": {
+        "anio": 1853,
+        "aprox": false,
+        "lugar": "Hidalgo del Parral",
+        "lon": -105.667,
+        "lat": 26.928
+      },
+      "activo": {
+        "lugar": "Guanajuato",
+        "lon": -101.257,
+        "lat": 21.018,
+        "desde": 1810,
+        "hasta": 1821,
+        "aprox": false
+      },
+      "roles": [
+        "historiador",
+        "político",
+        "naturalista"
+      ],
+      "resumen": "Naturalista, empresario y político de Guanajuato. Presenció en 1810 el saqueo de la Alhóndiga de Granaditas por las tropas de Hidalgo, que marcó su pensamiento conservador. En 1820-1821 fue diputado de la Nueva España ante las Cortes españolas, en Madrid, mientras avanzaba el Plan de Iguala. Su Historia de Méjico (cinco tomos, 1849-1852) es la principal historia conservadora de la guerra de 1808-1821 y el contrapeso de las fuentes insurgentes. Después fue ministro de Relaciones Exteriores y figura del partido conservador; murió en 1853.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lucas Alamán",
+        "en": "Lucas Alamán"
+      },
+      "wikidata": "Q507298"
     }
   ],
   "hechos": [
@@ -5995,6 +6916,72 @@
       "wikipedia": {
         "es": "Virreinato de Nueva España",
         "en": "New Spain"
+      }
+    },
+    {
+      "id": "batalla-de-san-juan-de-ulua",
+      "titulo": "Batalla de San Juan de Ulúa",
+      "anio": 1568,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Juan de Ulúa",
+      "lon": -96.21,
+      "lat": 19.09,
+      "tipo": "batalla",
+      "resumen": "Una flota inglesa de seis naves de John Hawkins, que había vendido africanos esclavizados en puertos españoles del Caribe, fondeó en San Juan de Ulúa, el puerto de Veracruz, para reparar tras una tormenta. Llegó entonces el nuevo virrey, Martín Enríquez de Almanza, y ambos jefes acordaron una tregua con rehenes. El virrey preparó en secreto un ataque, con 150 hombres escondidos en la urca San Salvador, y el 24 de septiembre rompió la tregua; Hawkins lo denunció como traición y Enríquez lo justificó como defensa del monopolio español contra contrabandistas. Los españoles atacaron, tomaron los cañones de la isla y, de las naves inglesas, dos escaparon (la de Hawkins y la Judith de Francis Drake) y cuatro se hundieron o fueron capturadas. Unos 114 ingleses quedaron en México, y a partir de 1571 los juzgó la Inquisición de Moya de Contreras. Se la cuenta entre los resentimientos que llevaron a la guerra anglo-española de 1585.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de San Juan de Ulúa",
+        "en": "Battle of San Juan de Ulúa (1568)"
+      }
+    },
+    {
+      "id": "guerras-yaquis-coloniales",
+      "titulo": "Las guerras yaquis en la época colonial",
+      "anio": 1533,
+      "anio_hasta": 1743,
+      "aprox": false,
+      "lugar": "Río Yaqui",
+      "lon": -110.612,
+      "lat": 27.667,
+      "tipo": "batalla",
+      "resumen": "Los yaquis vivían en el curso bajo del río Yaqui, en Sonora. En 1533 detuvieron en una raya trazada en el suelo a la expedición de Diego de Guzmán, hubo combate y los españoles se retiraron. En 1608 y en 1609 el capitán Diego Martínez de Hurdaide encabezó dos ofensivas y los yaquis lo obligaron a retirarse; la paz se fecha en 1610 o en 1615, y en 1617 los yaquis invitaron a los jesuitas, que los reunieron en ocho pueblos; los yaquis conservaron sus tierras y sus armas durante más de cien años. En 1740, ante el avance de colonos y mineros, los yaquis y los mayos se sublevaron; tras campañas de Vildósola, los jefes fueron fusilados en 1743. Los conflictos siguieron después de la independencia, desde 1825 hasta 1929, con matanzas y deportaciones.",
+      "regiones": [
+        "aridoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra del Yaqui",
+        "en": "Yaqui Wars"
+      }
+    },
+    {
+      "id": "conquista-espanola-de-los-mayas",
+      "titulo": "La conquista española de los mayas",
+      "anio": 1511,
+      "anio_hasta": 1697,
+      "aprox": false,
+      "lugar": "Mérida",
+      "lon": -89.62,
+      "lat": 20.97,
+      "tipo": "politico",
+      "resumen": "Guerra de casi dos siglos con la que los españoles y sus aliados incorporaron los reinos del posclásico tardío maya, de Yucatán, Chiapas, el Petén y Guatemala, al virreinato de la Nueva España. Los mayas no formaban un imperio sino reinos rivales, lo que prolongó la conquista, y resistieron huyendo a la selva o uniéndose a grupos aún libres frente a las poblaciones concentradas que los españoles fundaban. El primer contacto documentado fue en 1502, cuando el cuarto viaje de Colón se cruzó con una canoa de comercio maya; en 1511 unos náufragos españoles llegaron a Yucatán. Hubo expediciones en 1517, 1518 y 1519, Cortés cruzó el Petén en 1525 y los itzaes de Nojpetén, que seguían libres, cayeron ante Martín de Ursúa en 1697. Las etapas tienen su ficha propia: Yucatán, Guatemala, Chiapas y Tayasal.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica",
+        "centroamerica"
+      ],
+      "fuentes": [
+        "conquest-of-the-last-maya-kingdom",
+        "spanish-conquest-of-yucatan-means",
+        "conquest-of-yucatan-chamberlain"
+      ],
+      "wikipedia": {
+        "es": "Conquista española de los territorios mayas",
+        "en": "Spanish conquest of the Maya"
       }
     }
   ],

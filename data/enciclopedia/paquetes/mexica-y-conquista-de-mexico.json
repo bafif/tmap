@@ -528,7 +528,11 @@
           "dominio_publico": true
         }
       ],
-      "confianza": "media"
+      "confianza": "media",
+      "wikipedia": {
+        "es": "Historia de Tlaxcala (libro)",
+        "en": "History of Tlaxcala"
+      }
     },
     {
       "id": "relacion-de-texcoco-pomar",
@@ -3411,6 +3415,149 @@
         "en": "Alfredo López Austin"
       },
       "wikidata": "Q2835616"
+    },
+    {
+      "id": "tezozomoc-de-azcapotzalco",
+      "nombre": "Tezozómoc de Azcapotzalco",
+      "nacimiento": {
+        "anio": 1320,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1426,
+        "aprox": false,
+        "lugar": "Azcapotzalco",
+        "lon": -99.188,
+        "lat": 19.487
+      },
+      "activo": {
+        "lugar": "Azcapotzalco",
+        "lon": -99.188,
+        "lat": 19.487,
+        "desde": 1367,
+        "hasta": 1426,
+        "aprox": true
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Señor (tepanecateuctli) de Azcapotzalco hasta su muerte en 1426; las fuentes dan su acceso en 1353, 1367 o 1370. Las crónicas lo presentan como el señor más poderoso del valle de México: los mexicas de Tenochtitlan le pagaban tributo y combatieron como aliados suyos. Alva Ixtlilxóchitl, cronista de Texcoco, cuenta que derrotó y mandó matar a Ixtlilxóchitl I de Texcoco hacia 1418-1419 y lo describe como un tirano, un juicio que no es neutral. A su muerte, su hijo Maxtla tomó Azcapotzalco y desató la guerra que terminó con la Triple Alianza.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tezozómoc",
+        "en": "Tezozomoc (Azcapotzalco)"
+      },
+      "wikidata": "Q778550"
+    },
+    {
+      "id": "huitzilihuitl",
+      "nombre": "Huitzilíhuitl",
+      "nacimiento": {
+        "anio": 1377,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1417,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1396,
+        "hasta": 1417,
+        "aprox": true
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Segundo tlatoani de Tenochtitlan, hijo de Acamapichtli. Los anales no coinciden en su reinado: del Códice Chimalpahin sale 1390-1415, del Códice Aubin 1396-1417 y del Códice Chimalpopoca 1403-1417. Se casó con Ayauhcíhuatl, hija de Tezozómoc de Azcapotzalco, con lo que según las crónicas los tributos de Tenochtitlan se redujeron a entregas simbólicas, y sirvió a su suegro en sus guerras, entre ellas contra Chalco, Cuauhtitlán y Texcoco. Fue padre de Chimalpopoca y, de otra esposa, de Moctezuma Ilhuicamina.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Huitzilíhuitl",
+        "en": "Huitzilihuitl"
+      },
+      "wikidata": "Q379984"
+    },
+    {
+      "id": "chimalpopoca",
+      "nombre": "Chimalpopoca",
+      "muerte": {
+        "anio": 1427,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1417,
+        "hasta": 1427,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Tercer tlatoani de Tenochtitlan, nieto de Tezozómoc de Azcapotzalco por su madre; los anales fechan su acceso en 1415, 1416, 1417 o 1418, y él era muy joven. Siguió siendo vasallo de Azcapotzalco, y durante su reinado se construyeron el acueducto de madera de Chapultepec y una calzada a Tlacopan. Murió en 1427 en un conflicto con Maxtla, a quien se había opuesto al apoyar a Tayatzin, hijo de Tezozómoc: según las crónicas, fue asesinado por soldados tepanecas o murió en una jaula; el historiador Carlos Santamarina sostiene que su muerte fue un golpe instigado por su tío Itzcóatl. Su muerte llevó al levantamiento de los mexicas contra Azcapotzalco.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Chimalpopoca",
+        "en": "Chimalpopoca"
+      },
+      "wikidata": "Q257811"
+    },
+    {
+      "id": "maxtla",
+      "nombre": "Maxtla",
+      "muerte": {
+        "anio": 1428,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Azcapotzalco",
+        "lon": -99.188,
+        "lat": 19.487,
+        "desde": 1426,
+        "hasta": 1428,
+        "aprox": false
+      },
+      "roles": [
+        "tlatoani"
+      ],
+      "resumen": "Hijo de Tezozómoc y señor de Coyoacán; a la muerte de su padre en 1426 tomó el poder en Azcapotzalco frente a su hermanastro Tayatzin, a quien mandó matar según las crónicas. Fue enemigo de Chimalpopoca de Tenochtitlan y de Nezahualcóyotl de Texcoco. En 1428 Itzcóatl, Nezahualcóyotl y Totoquihuatzin de Tlacopan tomaron y saquearon Azcapotzalco. Su fin se cuenta de dos maneras: sacrificado por Nezahualcóyotl o huido a Taxco, según Chimalpahin; algunas fuentes lo dan muerto en 1430.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Maxtla",
+        "en": "Maxtla"
+      },
+      "wikidata": "Q982515"
+    },
+    {
+      "id": "juan-velazquez-tlacotzin",
+      "nombre": "Juan Velázquez Tlacotzin",
+      "muerte": {
+        "anio": 1526,
+        "aprox": false,
+        "lugar": "Nochixtlán"
+      },
+      "activo": {
+        "lugar": "Tenochtitlan",
+        "lon": -99.1332,
+        "lat": 19.4326,
+        "desde": 1520,
+        "hasta": 1526,
+        "aprox": false
+      },
+      "roles": [
+        "cihuacóatl",
+        "tlatoani"
+      ],
+      "resumen": "Cihuacóatl (alto cargo de gobierno) de Cuitláhuac y de Cuauhtémoc y jefe militar durante el sitio de Tenochtitlan. Tras la caída se alió con Cortés, se bautizó con ese nombre, según la Crónica mexicáyotl, y gobernó el barrio de Moyotlan. En la expedición a las Hibueras, él y Andrés de Tapia Motelchiuh avisaron a Cortés de un plan de rebelión de los señores mexicas; Cortés ahorcó a Cuauhtémoc y lo nombró su sucesor. Murió en 1526 (año 8 Tochtli) camino de México, sin llegar a gobernar; los nahuas lo tenían por gobernante interino, no por tlatoani dinástico.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Velázquez Tlacotzin",
+        "en": "Juan Velázquez Tlacotzin"
+      },
+      "wikidata": "Q1133398"
     }
   ],
   "hechos": [
@@ -4697,6 +4844,52 @@
         "cartas-de-relacion",
         "historia-verdadera-bernal"
       ]
+    },
+    {
+      "id": "pueblo-tepaneca",
+      "titulo": "Los tepanecas",
+      "anio": 1200,
+      "anio_hasta": 1521,
+      "aprox": false,
+      "lugar": "Azcapotzalco",
+      "lon": -99.188,
+      "lat": 19.487,
+      "tipo": "cultural",
+      "resumen": "Pueblo de lengua náhuatl que, según las crónicas, llegó al valle de México a fines del siglo XII o en el XIII y se asentó al oeste del lago de Texcoco; Alva Ixtlilxóchitl le atribuye origen chichimeca y Charles Gibson lo ve como una rama de una migración otomí. Su señorío principal fue Azcapotzalco, con Tezozómoc (muerto en 1426) en su apogeo, cuando dominó casi todo el valle de México. En 1428 Azcapotzalco, con Maxtla, cayó ante la Triple Alianza de Tenochtitlan y Texcoco con Tlacopan, otra ciudad tepaneca que quedó como socio menor.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-chichimeca",
+        "cronica-mexicayotl"
+      ],
+      "wikipedia": {
+        "es": "Tepanecas",
+        "en": "Tepanec"
+      }
+    },
+    {
+      "id": "conquista-de-chiapas",
+      "titulo": "La conquista española de Chiapas",
+      "anio": 1523,
+      "anio_hasta": 1528,
+      "aprox": false,
+      "lugar": "San Cristóbal de las Casas",
+      "lon": -92.638,
+      "lat": 16.737,
+      "tipo": "batalla",
+      "resumen": "Chiapas estaba habitada por zoques, tzotziles, choles y chiapanecas; el Soconusco pagaba tributo a los mexicas. En 1523-1524 Pedro de Alvarado atravesó el Soconusco con aliados indígenas de Cholula, Tenochtitlan, Texcoco, Tlaxcala y Xochimilco; según el relato de Bernal Díaz, que recoge lo que le contó Gonzalo de Alvarado, fue recibido en paz y sus habitantes juraron obediencia a la Corona; en 1524 Luis Marín derrotó a los chiapanecas, tomó los pueblos tzotziles de Chamula y Huixtán tras resistencia armada y se retiró a Coatzacoalcos. Las primeras encomiendas fueron en la práctica derechos para capturar esclavos. A comienzos de 1528 (1527 según otros) Pedro de Portocarrero fundó San Cristóbal de los Llanos, en el valle de Comitán, y ese año Diego de Mazariegos creó la provincia y fundó Villa Real en el valle de Jovel (la actual San Cristóbal de las Casas), adonde pasaron los vecinos de San Cristóbal de los Llanos y que más tarde fue Ciudad Real, tras una rebelión indígena contra el tributo y el trabajo y expediciones de castigo.",
+      "regiones": [
+        "area-maya",
+        "mesoamerica"
+      ],
+      "fuentes": [
+        "historia-verdadera-bernal"
+      ],
+      "wikipedia": {
+        "es": "Conquista española de Chiapas",
+        "en": "Spanish conquest of Chiapas"
+      }
     }
   ],
   "lugares": [
