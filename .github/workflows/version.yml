@@ -201,12 +201,20 @@ jobs:
       # Con --headless no se dibuja nada: acá se abre la ventana de verdad con el motor que elige la app y se mira que
       # la captura no salga casi lisa. Pasaba con Forward+ en una MacBook Pro 2017 con Intel Iris Plus 640: arrancaba
       # sin errores y la ventana quedaba oscura. Los runners son máquinas virtuales sin placa de video de verdad, así
-      # que no reemplazan probar en una Mac. Si el runner no llega a abrir la ventana, solo avisa.
+      # que no reemplazan probar en una Mac: el de Intel dibuja con «Apple Software Renderer» y no llega a sacar la
+      # captura. Si el runner no la saca en cuatro minutos, se cierra la app y solo avisa.
       - name: Comprobar que dibuja (una captura que no salga lisa)
-        timeout-minutes: 5
+        timeout-minutes: 6
         run: |
-          estado=0
-          app/TellMAP.app/Contents/MacOS/TellMAP -- --captura="$PWD/captura-macos-$ARQ.png" --comprobar_dibujo --diagnostico || estado=$?
+          app/TellMAP.app/Contents/MacOS/TellMAP -- --captura="$PWD/captura-macos-$ARQ.png" --comprobar_dibujo --diagnostico &
+          pid=$!
+          for i in $(seq 240); do kill -0 "$pid" 2>/dev/null || break; sleep 1; done
+          if kill -0 "$pid" 2>/dev/null; then
+            kill "$pid"; sleep 2; kill -9 "$pid" 2>/dev/null || true
+            echo "::warning::TellMAP no sacó la captura en cuatro minutos en el runner ($ARQ, sin placa de video): no se comprobó que dibuje."
+            exit 0
+          fi
+          estado=0; wait "$pid" || estado=$?
           if [ ! -f "captura-macos-$ARQ.png" ]; then
             echo "::warning::TellMAP no llegó a sacar la captura en el runner ($ARQ): no se comprobó que dibuje."
             exit 0
