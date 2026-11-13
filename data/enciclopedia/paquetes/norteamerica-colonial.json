@@ -2646,6 +2646,201 @@
         "en": "A Summary View of the Rights of British America"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-adams-onis",
+      "titulo": "Tratado de Adams-Onís",
+      "titulo_original": "Treaty of Amity, Settlement, and Limits Between the United States of America and His Catholic Majesty",
+      "autor": "John Quincy Adams y Luis de Onís",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1819,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "norteamerica",
+          "iberia"
+        ],
+        "desde": 1819,
+        "hasta": 1821
+      },
+      "idioma_original": "Inglés y español",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado el 22 de febrero de 1819 por el que España cedió Florida a los Estados Unidos y se fijó la frontera entre las dos potencias hasta el Pacífico, con la renuncia de los Estados Unidos a Texas y de España a Oregón. Fija una comisión para los reclamos de ciudadanos estadounidenses contra España.",
+      "por_que_importa": "Fue el primer límite transcontinental de los Estados Unidos y dejó Florida, donde estaban los seminolas, bajo su soberanía; el tratado de Córdoba de 1821 reconoció la independencia de México y la frontera pasó a serlo entre los Estados Unidos y México.",
+      "leer": [
+        {
+          "titulo": "Texto en el Avalon Project de la Universidad de Yale",
+          "url": "https://avalon.law.yale.edu/19th_century/sp1819.asp",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-san-lorenzo-1795",
+      "titulo": "Tratado de San Lorenzo (tratado de Pinckney)",
+      "titulo_original": "Treaty of Friendship, Limits, and Navigation Between Spain and the United States",
+      "autor": "Thomas Pinckney y Manuel Godoy",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1795,
+        "aprox": false,
+        "lugar": "San Lorenzo de El Escorial",
+        "lon": -4.143,
+        "lat": 40.594
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "norteamerica",
+          "iberia"
+        ],
+        "desde": 1795,
+        "hasta": 1795
+      },
+      "idioma_original": "Inglés y español",
+      "soporte": "Tratado",
+      "resumen": "Tratado del 27 de octubre de 1795 que fijó el límite entre los Estados Unidos y la Florida española, garantizó la navegación estadounidense del Misisipi y, en su artículo V, obligó a cada país a contener por la fuerza las hostilidades de los pueblos indígenas dentro de sus límites, a no hacer con los del otro lado tratados de alianza (salvo de paz) y a que el comercio con ellos fuera común.",
+      "por_que_importa": "Cerró la primera etapa de la disputa por la Florida Occidental (la «controversia de la Florida Occidental»).",
+      "leer": [
+        {
+          "titulo": "Texto en el Avalon Project de la Universidad de Yale",
+          "url": "https://avalon.law.yale.edu/18th_century/sp1795.asp",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "tratado-de-gante",
+      "titulo": "Tratado de Gante",
+      "titulo_original": "Treaty of Peace and Amity Between His Britannic Majesty and the United States of America",
+      "autor": "Gran Bretaña y los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1814,
+        "aprox": false,
+        "lugar": "Gante",
+        "lon": 3.725,
+        "lat": 51.054
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "bosques-del-noreste",
+          "britania"
+        ],
+        "desde": 1812,
+        "hasta": 1815
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado el 24 de diciembre de 1814 que terminó la guerra de 1812 y restableció la situación anterior a la guerra. En su artículo 9 los Estados Unidos se comprometen a poner fin a las hostilidades con las tribus con las que estuvieran en guerra y a restituirles las posesiones, los derechos y los privilegios que tenían en 1811, siempre que dejaran de combatir.",
+      "por_que_importa": "Su artículo 9 trata de los pueblos indígenas con los que los Estados Unidos estaban en guerra, entre ellos los aliados de los británicos.",
+      "leer": [
+        {
+          "titulo": "Texto en el Avalon Project de la Universidad de Yale",
+          "url": "https://avalon.law.yale.edu/19th_century/ghent.asp",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "diarios-de-lewis-y-clark",
+      "titulo": "Diarios de la expedición de Lewis y Clark",
+      "titulo_original": "The Journals of Lewis and Clark, 1804-1806",
+      "autor": "Meriwether Lewis y William Clark",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1804,
+        "anio_hasta": 1806,
+        "aprox": false,
+        "lugar": "Fort Mandan",
+        "lon": -101.286,
+        "lat": 47.296
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "grandes-llanuras",
+          "costa-noroeste"
+        ],
+        "desde": 1804,
+        "hasta": 1806
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Diarios",
+      "resumen": "Diarios del viaje de la expedición de Lewis y Clark desde Camp Dubois, por el Misuri y hasta el Pacífico, y de vuelta. Anotan el itinerario, el clima, las plantas y los animales, y los encuentros con los pueblos indígenas del camino, como los mandan, los lakotas y los shoshones.",
+      "por_que_importa": "Es el relato de primera mano de la expedición de Jefferson y una fuente para los pueblos del Misuri y del Noroeste en 1804-1806.",
+      "leer": [
+        {
+          "titulo": "Texto en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/8419",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Expedición de Lewis y Clark",
+        "en": "Lewis and Clark Expedition"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "autobiografia-de-halcon-negro",
+      "titulo": "Autobiografía de Halcón Negro",
+      "titulo_original": "Autobiography of Ma-ka-tai-me-she-kia-kiak, or Black Hawk",
+      "autor": "Halcón Negro",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1833,
+        "aprox": false,
+        "lugar": "Rock Island (Illinois)"
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste"
+        ],
+        "desde": 1767,
+        "hasta": 1833
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Autobiografía",
+      "resumen": "Relato de su vida que Halcón Negro dictó a un intérprete tras su prisión, publicado en 1833. Cuenta su versión del tratado de St. Louis de 1804, de la guerra de 1832 y de su rendición.",
+      "por_que_importa": "Es la versión del propio líder sauk sobre la guerra de Halcón Negro, que los documentos estadounidenses cuentan de otro modo.",
+      "leer": [
+        {
+          "titulo": "Texto en el Proyecto Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7097",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Halcón Negro (jefe tribal)",
+        "en": "Black Hawk (Sauk leader)"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -9640,6 +9835,1276 @@
       "fuentes": [],
       "wikipedia": {
         "en": "Chief Seattle's speech"
+      }
+    },
+    {
+      "id": "batalla-de-jumonville-glen",
+      "titulo": "La emboscada de Jumonville Glen",
+      "anio": 1754,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Jumonville Glen",
+      "lon": -79.646,
+      "lat": 39.879,
+      "tipo": "batalla",
+      "resumen": "El 28 de mayo de 1754, en el valle del Ohio, una patrulla de la milicia de Virginia de George Washington y guerreros del jefe mingo Tanacharison sorprendieron el campamento de una partida francesa que mandaba Joseph Coulon de Jumonville, que según los franceses llevaba una intimación para que los británicos se retiraran. El combate duró unos quince minutos. El diario de Washington dice solo que mataron a Jumonville y a otros nueve, hirieron a uno e hicieron 21 prisioneros; el soldado virginiano John Shaw dijo haber contado 13 o 14 cadáveres. Cómo murió Jumonville es disputado: según el informe del comandante francés Contrecœur, que recoge lo que contó un indígena del campamento de Tanacharison, murió de un balazo en la cabeza mientras se leía la intimación; según Shaw, que no estuvo en el combate, y el desertor Denis Kaninguen, Tanacharison lo remató a hachazos cuando estaba herido. El historiador Fred Anderson sostiene que los relatos de Washington comprimen los hechos para ocultar atrocidades posteriores al combate. Fue el primer combate de la guerra franco-india.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Jumonville Glen",
+        "en": "Battle of Jumonville Glen"
+      }
+    },
+    {
+      "id": "batalla-de-fort-necessity",
+      "titulo": "La batalla de Fort Necessity",
+      "anio": 1754,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Necessity",
+      "lon": -79.587,
+      "lat": 39.814,
+      "tipo": "batalla",
+      "resumen": "El 3 de julio de 1754 unos 600 franceses y canadienses y unos 100 indígenas al mando de Louis Coulon de Villiers, hermano de Jumonville, derrotaron a George Washington en el fuerte improvisado que este había levantado en el prado de Great Meadows, en la actual Pensilvania. Washington capituló; el documento estaba escrito en francés, lengua que no leía, y admitía que Jumonville había sido «asesinado», frase que Francia publicó en 1756 en su memorial contra Gran Bretaña; Washington sostuvo después que la traducción de Jacob Van Braam no le había dicho «asesinato».",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Great Meadows",
+        "en": "Battle of Fort Necessity"
+      }
+    },
+    {
+      "id": "batalla-de-fort-beausejour",
+      "titulo": "La toma de Fort Beauséjour",
+      "anio": 1755,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Beauséjour",
+      "lon": -64.291,
+      "lat": 45.866,
+      "tipo": "batalla",
+      "resumen": "Entre el 3 y el 16 de junio de 1755 una fuerza de unos 2000 voluntarios de Nueva Inglaterra y regulares británicos, al mando del teniente coronel británico Robert Monckton sitió el fuerte francés del istmo de Chignecto, cuyo comandante, Louis Du Pont Duchambon de Vergor, capituló el 16 sin recibir ayuda de Louisbourg. El istmo era el único paso entre Quebec y Louisbourg durante el invierno; con la caída del fuerte los acadianos, que vivían a ambos lados del río Missaguash, quedaron sin apoyo militar francés, y la deportación de los acadianos empezó ese mismo verano.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Beauséjour",
+        "en": "Battle of Fort Beauséjour"
+      }
+    },
+    {
+      "id": "batalla-del-monongahela",
+      "titulo": "La batalla del Monongahela",
+      "anio": 1755,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Braddock (Pensilvania)",
+      "lon": -79.869,
+      "lat": 40.404,
+      "tipo": "batalla",
+      "resumen": "El 9 de julio de 1755 la columna del general Edward Braddock, que marchaba a tomar Fort Duquesne, chocó con una fuerza de unos 250 franceses y canadienses y más de 600 aliados indígenas al mando del capitán Daniel Liénard de Beaujeu, que había salido a tenderle una emboscada y llegó tarde; la columna, encerrada en el camino, se deshizo. De unos 1300 hombres murieron 456 y fueron heridos 422, con 26 oficiales muertos de 86; según los informes franceses, los franceses y canadienses tuvieron 8 muertos y 4 heridos, y sus aliados indígenas 15 muertos y 12 heridos. Beaujeu murió en la acción; Braddock, herido, murió durante la retirada y George Washington, que lo acompañaba, dirigió su entierro. Fort Duquesne siguió en manos francesas hasta 1758.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Monongahela",
+        "en": "Battle of the Monongahela"
+      }
+    },
+    {
+      "id": "batalla-del-lago-george",
+      "titulo": "La batalla del lago George",
+      "anio": 1755,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lago George",
+      "lon": -73.707,
+      "lat": 43.415,
+      "tipo": "batalla",
+      "resumen": "El 8 de septiembre de 1755 el barón de Dieskau, con regulares franceses, canadienses e iroqueses caughnawaga, atacó el campamento de William Johnson, formado por milicias coloniales y guerreros haudenosaunee, y fue rechazado; Dieskau fue herido y capturado. Antes, en la emboscada llamada «Bloody Morning Scout», murieron el coronel Ephraim Williams y el jefe mohawk Hendrick Theyanoguin. Los recuentos de bajas varían: según Ian Steele, los británicos tuvieron 154 muertos, 103 heridos y 67 desaparecidos (223 muertos contando a los haudenosaunee); el diario oficial francés da 149 muertos, 163 heridos y 27 prisioneros, cifra que según Steele achica las bajas indígenas. Johnson levantó después Fort William Henry y recibió un baronetazgo.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Lake George",
+        "en": "Battle of Lake George"
+      }
+    },
+    {
+      "id": "batalla-de-fort-bull",
+      "titulo": "La toma de Fort Bull",
+      "anio": 1756,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Bull",
+      "lon": -75.502,
+      "lat": 43.224,
+      "tipo": "batalla",
+      "resumen": "El 27 de marzo de 1756 una fuerza francesa de tropas de la Marina, milicia canadiense y aliados indígenas, al mando del teniente Gaspard-Joseph Chaussegros de Léry, asaltó el depósito británico del portaje del Oneida, en la ruta de suministro de Oswego, y mató a casi todos los que estaban dentro. Léry escribió que no pudo contener a sus soldados ni a los canadienses, que mataron a todos los que encontraron. William Johnson, que llegó después a las ruinas, contó 23 soldados, dos mujeres y un barquero muertos, todos con la cabellera arrancada, y estimó entre muertos y desaparecidos 62. Los informes franceses no mencionan cabelleras, y el historiador René Chartrand niega que haya habido una matanza y atribuye la mayoría de las muertes a la explosión del polvorín. Los atacantes tuvieron tres muertos, un francés y dos iroqueses, según los informes franceses.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Bull",
+        "en": "Battle of Fort Bull"
+      }
+    },
+    {
+      "id": "batalla-de-fort-oswego",
+      "titulo": "La toma de Fort Oswego",
+      "anio": 1756,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Oswego",
+      "lon": -76.514,
+      "lat": 43.462,
+      "tipo": "batalla",
+      "resumen": "En la semana del 10 de agosto de 1756 Montcalm, con tropas regulares y milicia canadiense, sitió y tomó los fuertes británicos de Oswego, en la orilla sur del lago Ontario. Capturó unos 1700 prisioneros, entre ellos obreros, constructores de barcos, mujeres y niños, y 121 cañones. Montcalm negó a la guarnición los honores de la guerra; milicianos e indígenas saquearon el fuerte y mataron a algunos de los que intentaban huir, hasta que Montcalm los contuvo. Los regimientos 50 y 51 quedaron destruidos con la rendición y se disolvieron en diciembre. Con Oswego y Fort Bull, Gran Bretaña perdió su presencia en el lago Ontario.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Oswego",
+        "en": "Battle of Fort Oswego"
+      }
+    },
+    {
+      "id": "batalla-de-fort-carillon",
+      "titulo": "La batalla de Carillon",
+      "anio": 1758,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Carillon",
+      "lon": -73.388,
+      "lat": 43.842,
+      "tipo": "batalla",
+      "resumen": "El 8 de julio de 1758 unos 4000 franceses al mando de Montcalm y Lévis, atrincherados junto al fuerte Carillon, en el lago Champlain, rechazaron el ataque frontal del ejército británico, muy superior en número, del general James Abercrombie. Abercrombie informó de 547 muertos, 1356 heridos y 77 desaparecidos, cifra que Lévis creyó corta (dijo haber recuperado 800 cuerpos); las bajas francesas fueron 104 muertos y 273 heridos en el combate principal. Se la considera la batalla más sangrienta de la guerra franco-india.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Carillon",
+        "en": "Battle of Carillon"
+      }
+    },
+    {
+      "id": "batalla-de-fort-duquesne",
+      "titulo": "La batalla de Fort Duquesne",
+      "anio": 1758,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Duquesne",
+      "lon": -80.011,
+      "lat": 40.442,
+      "tipo": "batalla",
+      "resumen": "El 14 de septiembre de 1758 un destacamento británico de unos 850 hombres al mando del mayor James Grant, adelantado del ejército de John Forbes, fue rodeado y deshecho junto al fuerte por los franceses y sus aliados indígenas que dirigía François-Marie Le Marchand de Lignery: tuvo 342 bajas, 232 de ellas del regimiento 77, y Grant fue capturado; los franceses y sus aliados indígenas tuvieron 8 muertos y 8 heridos. Aun así, ante un ejército diez veces mayor y la deserción de parte de sus aliados indígenas, los franceses volaron el fuerte el 24 de noviembre y se retiraron.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Duquesne",
+        "en": "Battle of Fort Duquesne"
+      }
+    },
+    {
+      "id": "sitio-de-louisbourg-1758",
+      "titulo": "El sitio de Louisbourg",
+      "anio": 1758,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Louisbourg",
+      "lon": -59.97,
+      "lat": 45.921,
+      "tipo": "batalla",
+      "resumen": "Del 8 de junio al 26 de julio de 1758 una fuerza británica sitió la fortaleza francesa de Louisbourg, en la isla del Cabo Bretón, defendida por tropas francesas y mi'kmaq, y la tomó; la flota francesa que debía reforzarla fue bloqueada y derrotada. Amherst negó a la guarnición los honores de la guerra, que esta esperaba: se ha atribuido a que tenía presentes los relatos de atrocidades de los aliados indígenas de Francia en Oswego y Fort William Henry. Con Louisbourg cayó el dominio francés en el Canadá atlántico y se abrió el camino del San Lorenzo; después del sitio, 3100 acadianos fueron deportados, de los que unos 1649 murieron ahogados o de enfermedades.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Louisbourg",
+        "en": "Siege of Louisbourg (1758)"
+      }
+    },
+    {
+      "id": "batalla-de-beauport",
+      "titulo": "La batalla de Beauport",
+      "anio": 1759,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Beauport (Quebec)",
+      "lon": -71.147,
+      "lat": 46.89,
+      "tipo": "batalla",
+      "resumen": "El 31 de julio de 1759 el ejército de James Wolfe atacó las líneas francesas de Beauport, unos cinco kilómetros al este de Quebec, y fue rechazado. Según el recuento de Wolfe tuvo 443 bajas (210 muertos y 233 heridos), mientras que los franceses contaron unos 60 entre muertos y heridos. Seis semanas después los británicos tomaron Quebec en las llanuras de Abraham.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Beauport",
+        "en": "Battle of Beauport"
+      }
+    },
+    {
+      "id": "batalla-de-ticonderoga-1759",
+      "titulo": "La toma de Ticonderoga",
+      "anio": 1759,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Ticonderoga",
+      "lon": -73.388,
+      "lat": 43.841,
+      "tipo": "batalla",
+      "resumen": "El 26 y 27 de julio de 1759 un ejército británico de más de 11 000 hombres al mando de Jeffery Amherst puso artillería sobre Fort Carillon, y el comandante francés, Bourlamaque, siguiendo instrucciones de Montcalm y de Vaudreuil, se retiró al fuerte Saint-Frédéric y dejó unos 400 hombres al mando del capitán Louis-Philippe Le Dossu d'Hébécourt, cuyos cañones mataron a cinco británicos e hirieron a 31; la noche del 26 esa guarnición voló la santabárbara y se retiró. Amherst ocupó el fuerte, que pasó a llamarse Ticonderoga, pero no pudo unirse a Wolfe en Quebec ese año.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Ticonderoga",
+        "en": "Battle of Ticonderoga (1759)"
+      }
+    },
+    {
+      "id": "batalla-de-sainte-foy",
+      "titulo": "La batalla de Sainte-Foy",
+      "anio": 1760,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sainte-Foy (Quebec)",
+      "lon": -71.242,
+      "lat": 46.802,
+      "tipo": "batalla",
+      "resumen": "El 28 de abril de 1760 el caballero de Lévis derrotó junto a Quebec al ejército de James Murray, que había salido de las murallas a su encuentro: los británicos tuvieron 292 muertos, 837 heridos y 53 capturados, y los franceses 833 bajas (193 muertos y 640 heridos). Murray se encerró en la ciudad y Lévis la sitió hasta que llegaron buques británicos en mayo y debió retirarse a Montreal, que capituló en septiembre.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Sainte-Foy",
+        "en": "Battle of Sainte-Foy"
+      }
+    },
+    {
+      "id": "batalla-de-signal-hill",
+      "titulo": "La batalla de Signal Hill",
+      "anio": 1762,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Signal Hill",
+      "lon": -52.682,
+      "lat": 47.57,
+      "tipo": "batalla",
+      "resumen": "El 15 de septiembre de 1762 una fuerza británica al mando del teniente coronel William Amherst tomó Signal Hill y recuperó St. John's, en Terranova, que los franceses habían ocupado por sorpresa en junio para tener la pesca de Terranova como carta en las negociaciones de paz que se preveían. Fue el último combate de la guerra en Norteamérica; la guarnición francesa de St. John's se rindió tres días después.",
+      "regiones": [
+        "subartico-norteamericano",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Signal Hill",
+        "en": "Battle of Signal Hill"
+      }
+    },
+    {
+      "id": "batalla-de-quebec-1690",
+      "titulo": "El ataque de Phips a Quebec",
+      "anio": 1690,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Quebec",
+      "lon": -71.224,
+      "lat": 46.816,
+      "tipo": "batalla",
+      "resumen": "En octubre de 1690, durante la guerra del rey Guillermo, una expedición de Massachusetts al mando de William Phips y John Walley, que había tomado Port Royal, intentó tomar Quebec; Frontenac respondió a su intimación que no tenía otra respuesta que darle «que por la boca de mis cañones y mis mosquetes». Las milicias canadienses hostigaron el desembarco en Beauport y los atacantes se retiraron el 22 de octubre abandonando cinco cañones; Phips reconoció solo 30 muertos en combate, aunque en la escaramuza del 20 de octubre murieron unos 150 atacantes; además, la viruela y los accidentes marítimos mataron a unos 1000 más.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Quebec (1690)"
+      }
+    },
+    {
+      "id": "guerra-del-rey-guillermo",
+      "titulo": "La guerra del rey Guillermo",
+      "anio": 1688,
+      "anio_hasta": 1697,
+      "aprox": false,
+      "lugar": "Pemaquid (fuerte tomado en 1689)",
+      "lon": -69.509,
+      "lat": 43.958,
+      "tipo": "batalla",
+      "resumen": "Teatro norteamericano de la guerra de los Nueve Años, entre Nueva Francia con la Confederación Wabanaki, por un lado, y Nueva Inglaterra y Nueva York con la Confederación Haudenosaunee, por el otro. En junio de 1689 unos cientos de abenakis y pennacooks atacaron Dover (Nueva Hampshire), mataron a más de 20 y llevaron a 29 cautivos que fueron vendidos en Nueva Francia; en agosto cayó el fuerte de Pemaquid ante una partida abenaki con Saint-Castin. También en agosto de 1689 unos 1500 haudenosaunee atacaron el poblado francés de Lachine, y en febrero de 1690 franceses e indígenas aliados atacaron Schenectady, en Nueva York; el mayor Benjamin Church condujo cuatro incursiones de Nueva Inglaterra a Acadia. En 1690 los de Nueva Inglaterra tomaron Port Royal pero fracasaron ante Quebec. La paz de Ryswick (1697) dejó casi sin cambios los límites de Nueva Francia, Nueva Inglaterra y Nueva York.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra del rey Guillermo",
+        "en": "King William's War"
+      }
+    },
+    {
+      "id": "guerra-de-la-reina-ana",
+      "titulo": "La guerra de la reina Ana",
+      "anio": 1702,
+      "anio_hasta": 1713,
+      "aprox": false,
+      "lugar": "Deerfield (incursión de 1704)",
+      "lon": -72.604,
+      "lat": 42.545,
+      "tipo": "batalla",
+      "resumen": "Teatro norteamericano de la guerra de Sucesión española, entre colonos ingleses, franceses y españoles, cada uno con aliados indígenas, en cuatro frentes. En el sur, el gobernador de Carolina James Moore y sus aliados indígenas quemaron San Agustín (1702) y destruyeron las misiones de Apalache (1704), con miles de indígenas llevados como esclavos; en el norte los franceses y sus aliados atacaron Massachusetts y Maine, sobre todo en Deerfield (1704) y Groton (1707), donde llevaron numerosos cautivos a Montreal y a Kahnawake para rescate o adopción por familias mohawk; los británicos tomaron Port Royal, capital de Acadia, en 1710. La paz de Utrecht (1713) la terminó.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania",
+        "iberia",
+        "sudeste-norteamericano"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra de la reina Ana",
+        "en": "Queen Anne's War"
+      }
+    },
+    {
+      "id": "guerra-del-padre-rale",
+      "titulo": "La guerra del padre Rale",
+      "anio": 1722,
+      "anio_hasta": 1725,
+      "aprox": false,
+      "lugar": "Norridgewock (aldea de Rale, atacada en 1724)",
+      "lon": -69.813,
+      "lat": 44.726,
+      "tipo": "batalla",
+      "resumen": "Guerra entre Nueva Inglaterra y la Confederación Wabanaki (mi'kmaq, wolastoqiyik, penobscot y abenakis), aliada de Nueva Francia, por la frontera de Acadia, que Francia ponía en el río Kennebec. El tratado de Utrecht (1713) se había firmado en Europa sin que interviniera ningún miembro de la Confederación, y el gobernador Shute protestó por la presencia del jesuita Sébastien Rale en Norridgewock. En la primavera de 1724 los wabanaki hicieron diez incursiones en la frontera de Maine que mataron, hirieron o apresaron a más de 30 ingleses. En agosto de 1724 unos 200 rangers atacaron Norridgewock: mataron a Rale, a un jefe, a la mayoría de los unos 31 guerreros que resistieron y a casi dos docenas de mujeres y niños. William Dummer anunció el cese de hostilidades el 31 de julio de 1725.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Dummer's War"
+      }
+    },
+    {
+      "id": "guerra-del-rey-jorge",
+      "titulo": "La guerra del rey Jorge",
+      "anio": 1744,
+      "anio_hasta": 1748,
+      "aprox": false,
+      "lugar": "Fortaleza de Louisbourg (sitio de 1745)",
+      "lon": -59.985,
+      "lat": 45.892,
+      "tipo": "batalla",
+      "resumen": "Teatro norteamericano de la guerra de Sucesión austríaca. Su acción mayor fue la expedición organizada por el gobernador de Massachusetts, William Shirley, que en 1745 sitió seis semanas y tomó la fortaleza francesa de Louisbourg; en represalia, la Confederación Wabanaki atacó los asentamientos británicos de la costa de Maine. El tratado de Aquisgrán (1748) devolvió Louisbourg a Francia sin resolver las disputas territoriales; solo las pérdidas de varones de Massachusetts en 1745-1746 se estiman en el 8 % de los varones adultos de la colonia.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra del rey Jorge",
+        "en": "King George's War"
+      }
+    },
+    {
+      "id": "guerras-esopus",
+      "titulo": "Las guerras esopus",
+      "anio": 1659,
+      "anio_hasta": 1664,
+      "aprox": false,
+      "lugar": "Wiltwijck (Kingston), el poblado sitiado",
+      "lon": -74.0,
+      "lat": 41.925,
+      "tipo": "batalla",
+      "resumen": "Dos guerras entre los esopus, un grupo lenape, y los colonos de Nueva Holanda en el condado de Ulster. Los colonos habían sido expulsados dos veces y volvieron en 1658 para fundar Wiltwijck (Kingston); la primera guerra, del 20 de septiembre de 1659 al 15 de julio de 1660, empezó cuando colonos holandeses atacaron a un grupo de esopus que festejaba junto a un fuego con el aguardiente con que les habían pagado un trabajo; los colonos quemaron los campos de los esopus para obligarlos a rendirse por hambre. La segunda empezó el 7 de junio de 1663, cuando los esopus, que habían propuesto negociar la paz sin armas, atacaron Wiltwijck y destruyeron también Nieu Dorp (Hurley); terminó en septiembre de 1663 con la muerte del jefe Papequanaehen, cuando una columna de Martin Cregier atacó el fuerte esopus, y la paz inestable se firmó en 1664; en septiembre de ese año los holandeses cedieron Nueva Holanda a los ingleses.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras Esopus",
+        "en": "Esopus Wars"
+      }
+    },
+    {
+      "id": "guerra-del-melocotonero",
+      "titulo": "La guerra del durazno",
+      "anio": 1655,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nueva York (Nueva Ámsterdam)",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "batalla",
+      "resumen": "El 15 de septiembre de 1655 varios cientos de munsee ocuparon durante un día Nueva Ámsterdam, sin muertes hasta la tarde, cuando una flecha hirió al colono Hendrick van Dyck y el fiscal Cornelis van Tienhoven hizo disparar a la guardia: murieron tres munsee y tres colonos, y siguieron los ataques a Staten Island y Pavonia (hoy Jersey City), que la Compañía de las Indias Occidentales achacó a van Tienhoven. En total murieron 43 colonos y más de 100, sobre todo mujeres y niños, fueron llevados cautivos y después liberados. Se discute la causa: los directores de la Compañía, con los informes de Stuyvesant y su consejo, atribuyeron la ocupación a que van Dyck había matado a una mujer munsee que tomaba duraznos de su huerto; otros autores suponen que la impulsaron los susquehannock tras la conquista holandesa de Nueva Suecia.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra del melocotón",
+        "en": "Peach War"
+      }
+    },
+    {
+      "id": "masacre-de-boston",
+      "titulo": "La masacre de Boston",
+      "anio": 1770,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Boston",
+      "lon": -71.058,
+      "lat": 42.36,
+      "tipo": "politico",
+      "resumen": "El 5 de marzo de 1770, en Boston, un centinela británico fue hostigado por una multitud de 300 a 400 personas; el capitán Thomas Preston acudió con siete soldados (un cabo y seis soldados; con el centinela eran ocho, los que fueron juzgados), uno disparó y los demás lo siguieron sin orden suya, y murieron cinco colonos, entre ellos Crispus Attucks, un hombre de ascendencia mixta que había sido esclavo. Samuel Adams, Paul Revere y otros patriotas lo llamaron «masacre» y lo difundieron; los soldados tuvieron como defensores a John Adams y Josiah Quincy: Preston y seis soldados fueron absueltos y dos condenados por homicidio involuntario, con la pena de la marca en el pulgar.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Masacre de Boston",
+        "en": "Boston Massacre"
+      }
+    },
+    {
+      "id": "batallas-de-lexington-y-concord",
+      "titulo": "Las batallas de Lexington y Concord",
+      "anio": 1775,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Lexington y Concord",
+      "lon": -71.231,
+      "lat": 42.449,
+      "tipo": "batalla",
+      "resumen": "El 19 de abril de 1775 el ejército británico salió de Boston a requisar armas de las milicias en Concord. En Lexington, al amanecer, murieron ocho milicianos y hubo diez heridos, y solo un soldado británico herido; en el puente Old North de Concord hubo bajas en ambos lados y en la marcha de regreso la columna sufrió el fuego de milicianos de los pueblos vecinos, hasta llegar a Charlestown. Según el recuento de los historiadores Chidsey y Coburn, los británicos tuvieron 73 muertos, 174 heridos y 53 desaparecidos, y los coloniales 49 muertos, 39 heridos y 5 desaparecidos. Quién disparó primero en Lexington es discutido: 34 milicianos declararon bajo juramento que fueron los soldados, en declaraciones que el Congreso Provincial juntó y mandó a Londres antes que el informe de Gage; oficiales británicos, como el teniente John Barker, escribieron que los primeros tiros salieron de los milicianos o de un vecino escondido, y el historiador David Hackett Fischer escribe que tanto Pitcairn como Parker ordenaron no disparar y que alguien no identificado hizo el primer tiro. Fueron los primeros combates de la guerra de independencia.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batallas de Lexington y Concord",
+        "en": "Battles of Lexington and Concord"
+      }
+    },
+    {
+      "id": "batalla-de-bunker-hill",
+      "titulo": "La batalla de Bunker Hill",
+      "anio": 1775,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bunker Hill",
+      "lon": -71.061,
+      "lat": 42.376,
+      "tipo": "batalla",
+      "resumen": "El 17 de junio de 1775, durante el sitio de Boston, los británicos tomaron al tercer asalto el reducto que las milicias coloniales habían levantado en la península de Charlestown, en Breed's Hill. Ganaron el terreno con 1054 bajas (226 muertos y 828 heridos, el 40 % de los que combatieron), muchas de infantería ligera y granaderos de élite; los coloniales tuvieron unas 450 bajas, 138 de ellas muertos, entre ellos Joseph Warren, casi todas en la retirada, que cubrieron en orden los de la cerca de Stark y Knowlton mientras el resto huyó dejando cinco de sus seis cañones.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Bunker Hill",
+        "en": "Battle of Bunker Hill"
+      }
+    },
+    {
+      "id": "batalla-de-quebec-1775",
+      "titulo": "La batalla de Quebec",
+      "anio": 1775,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Quebec",
+      "lon": -71.224,
+      "lat": 46.816,
+      "tipo": "batalla",
+      "resumen": "El 31 de diciembre de 1775 el ejército continental de Richard Montgomery y Benedict Arnold, que había invadido Canadá, atacó Quebec y fue rechazado por la guarnición de Guy Carleton: Montgomery murió, Arnold fue herido y más de 400 hombres, entre ellos Daniel Morgan, quedaron prisioneros; según el informe oficial de Carleton, los británicos tuvieron 5 muertos y 14 heridos, y los estadounidenses 30 muertos (60 según el informe de Arnold). Fue la primera gran derrota estadounidense de la guerra. La mayoría de los canadienses franceses se mantuvo neutral, y el clero predicaba lealtad a la Corona; con los estadounidenses combatieron unos 200 del regimiento canadiense de James Livingston, y Jeremy Duggan reclutó unos 40.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Quebec (1775)",
+        "en": "Battle of Quebec (1775)"
+      }
+    },
+    {
+      "id": "batalla-de-long-island",
+      "titulo": "La batalla de Long Island",
+      "anio": 1776,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Brooklyn",
+      "lon": -73.981,
+      "lat": 40.665,
+      "tipo": "batalla",
+      "resumen": "El 27 de agosto de 1776 el ejército de William Howe, desembarcado en la bahía de Gravesend, flanqueó y derrotó al ejército continental en Brooklyn, en la primera gran batalla después de la declaración de independencia. Howe informó de 60 muertos, 267 heridos y 31 desaparecidos, y de 5 muertos y 26 heridos entre los hessianos; del lado estadounidense se citan unos 300 muertos y más de mil prisioneros. En la noche del 29 al 30 Washington evacuó el resto del ejército a Manhattan sin pérdidas, y Nueva York quedó en poder británico.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Long Island",
+        "en": "Battle of Long Island"
+      }
+    },
+    {
+      "id": "batalla-de-trenton",
+      "titulo": "La batalla de Trenton",
+      "anio": 1776,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Trenton (Nueva Jersey)",
+      "lon": -74.765,
+      "lat": 40.226,
+      "tipo": "batalla",
+      "resumen": "En la mañana del 26 de diciembre de 1776 Washington cruzó de noche el río Delaware y sorprendió a la guarnición de tropas hessianas de Trenton, Nueva Jersey: murieron 22 hessianos, entre ellos su comandante, el coronel Johann Rall, hubo 83 heridos y 896 prisioneros, mientras que los estadounidenses tuvieron dos muertos en la marcha y cinco heridos. Llegó después de la pérdida de Nueva York y de una retirada por Nueva Jersey, en que se había ido el 90 % de los soldados que habían combatido en Long Island.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Trenton",
+        "en": "Battle of Trenton"
+      }
+    },
+    {
+      "id": "batallas-de-saratoga",
+      "titulo": "Las batallas de Saratoga",
+      "anio": 1777,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Saratoga (Bemis Heights)",
+      "lon": -73.638,
+      "lat": 42.999,
+      "tipo": "batalla",
+      "resumen": "El 19 de septiembre y el 7 de octubre de 1777 el ejército continental detuvo en Saratoga, Nueva York, la marcha por el Hudson del general John Burgoyne, que venía de Quebec. En la primera batalla, Freeman's Farm, Burgoyne ganó el campo con cerca de 600 bajas; en la segunda quedó rodeado y se rindió con todo su ejército a Horatio Gates el 17 de octubre. La mayor parte de sus aliados indígenas lo había abandonado tras la derrota de Bennington. La noticia de la rendición fue decisiva para la alianza franco-estadounidense de 1778.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania",
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Saratoga",
+        "en": "Battles of Saratoga"
+      }
+    },
+    {
+      "id": "batalla-de-oriskany",
+      "titulo": "La batalla de Oriskany",
+      "anio": 1777,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Oriskany",
+      "lon": -75.369,
+      "lat": 43.177,
+      "tipo": "batalla",
+      "resumen": "El 6 de agosto de 1777 una columna de milicia del condado de Tryon y de oneidas, al mando de Nicholas Herkimer, que marchaba a socorrer Fort Stanwix, cayó en una emboscada de mohawks, senecas, cayugas, onondagas y mississaugas, y de lealistas, dirigidos por John Johnson. Los estadounidenses tuvieron unos 465 muertos, heridos o capturados, cerca de la mitad de la columna, y Herkimer, herido, murió el 16 de agosto; las fuerzas de Johnson, 93. Fue la primera vez que los haudenosaunee combatieron unos contra otros: oneidas y tuscaroras apoyaban a los patriotas, y mohawks, senecas, cayugas y onondagas a la Corona.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Oriskany"
+      }
+    },
+    {
+      "id": "batalla-de-wyoming",
+      "titulo": "La batalla de Wyoming",
+      "anio": 1778,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Wyoming Valley",
+      "lon": -75.819,
+      "lat": 41.321,
+      "tipo": "batalla",
+      "resumen": "El 3 de julio de 1778, en el valle de Wyoming (Pensilvania), soldados lealistas con guerreros iroqueses derrotaron en media hora a la milicia patriota, que se desbandó: murieron unos 300, muchos alcanzados en la huida, y algunos de los capturados fueron torturados y muertos. El mayor John Butler informó que sus aliados tomaron 227 cabelleras y cinco prisioneros, y que no se hirió a nadie que no estuviera en armas; el escritor Crèvecœur, que estuvo en el valle semanas después, dijo lo mismo. El coronel Zebulon Denison informó de 302 muertos. Se saquearon y quemaron edificios en todo el valle. Los relatos de una matanza de cientos de mujeres y niños, publicados semanas después en diarios estadounidenses, no se confirmaron y los historiadores los descartan; dieron a la batalla el nombre de «masacre de Wyoming».",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Wyoming"
+      }
+    },
+    {
+      "id": "teatro-occidental-de-la-independencia",
+      "titulo": "El frente occidental de la guerra de independencia",
+      "anio": 1775,
+      "anio_hasta": 1783,
+      "aprox": false,
+      "lugar": "Territorio del Ohio (punto representativo del frente, con coordenadas estimadas)",
+      "lon": -82.0,
+      "lat": 39.5,
+      "tipo": "batalla",
+      "resumen": "Zona de combates al oeste de los Apalaches, el actual Viejo Noroeste y los estados de Arkansas, Kentucky, Luisiana, Misuri y Tennessee, donde combatieron pueblos indígenas con sus aliados británicos de Detroit contra colonos al sur y al este del Ohio, y los españoles como aliados de estos. Los tratados de Fort Stanwix y de Hard Labour (1768) habían abierto a los colonos tierras al sur del Ohio; shawnees como Blackfish y mingos como Pluggy atacaron Kentucky para expulsarlos. George Rogers Clark tomó Kaskaskia el 4 de julio de 1778 y sometió Vincennes; la matanza de Gnadenhutten (1782) y la batalla de Blue Licks (1782) fueron de los últimos episodios.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "iberia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Western theater of the American Revolutionary War"
+      }
+    },
+    {
+      "id": "sitio-de-pensacola",
+      "titulo": "El sitio de Pensacola",
+      "anio": 1781,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Pensacola",
+      "lon": -87.297,
+      "lat": 30.348,
+      "tipo": "batalla",
+      "resumen": "Del 9 de marzo al 10 de mayo de 1781 Bernardo de Gálvez, con casi 8000 hombres, sitió Pensacola, capital de la Florida Occidental británica, y obligó a rendirse al general John Campbell: se tomaron más de 1100 prisioneros; los británicos tuvieron unas 200 bajas y los españoles 74 muertos y 198 heridos. Entre 1500 y 2000 indígenas habían acudido a Pensacola en distintos momentos para defenderla del lado británico. Fue el cierre de la conquista española de la Florida Occidental en esa guerra, y valió a Gálvez el gobierno de la Florida Occidental y de Luisiana.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica",
+        "iberia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Pensacola",
+        "en": "Siege of Pensacola"
+      }
+    },
+    {
+      "id": "sitio-de-yorktown",
+      "titulo": "El sitio de Yorktown",
+      "anio": 1781,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Yorktown",
+      "lon": -76.502,
+      "lat": 37.231,
+      "tipo": "batalla",
+      "resumen": "A fines de septiembre de 1781 el ejército de George Washington y las tropas francesas de Rochambeau, con la flota francesa en la bahía, sitiaron en Yorktown, Virginia, al ejército de Cornwallis, que se rindió el 19 de octubre con más de 7000 soldados. Fue la última gran batalla terrestre de la guerra y llevó a las negociaciones que terminaron en el tratado de París de 1783; en la frontera occidental, donde los pueblos indígenas aliados de los británicos siguieron luchando, hubo combates hasta 1782.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania",
+        "francia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Yorktown (1781)",
+        "en": "Siege of Yorktown"
+      }
+    },
+    {
+      "id": "batalla-de-blue-licks",
+      "titulo": "La batalla de Blue Licks",
+      "anio": 1782,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Blue Licks",
+      "lon": -83.995,
+      "lat": 38.428,
+      "tipo": "batalla",
+      "resumen": "El 19 de agosto de 1782, diez meses después de Yorktown, unos 50 rangers de Butler y 300 guerreros indígenas (shawnees, mingos, wyandots, miamis, odawas, ojibwes y potawatomis) emboscaron y derrotaron junto al río Licking a 182 milicianos de Kentucky, entre ellos Daniel Boone: murieron 77 milicianos y 6 fueron capturados, mientras que de los atacantes murieron un ranger y 10 guerreros. Poco después más de mil kentuckianos destruyeron cinco aldeas shawnee vacías sobre el Gran Miami, en la última gran ofensiva de la guerra.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Blue Licks"
+      }
+    },
+    {
+      "id": "batalla-de-los-arboles-caidos",
+      "titulo": "La batalla de Fallen Timbers",
+      "anio": 1794,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fallen Timbers",
+      "lon": -83.698,
+      "lat": 41.544,
+      "tipo": "batalla",
+      "resumen": "El 20 de agosto de 1794 la Legión de los Estados Unidos del general Anthony Wayne, con milicianos de Kentucky, derrotó cerca del río Maumee, entre árboles caídos por un tornado, a una fuerza de shawnees de Blue Jacket, odawas de Egushawa y otros de la Confederación del Noroeste. Wayne tuvo 33 muertos y unos 100 heridos y contó 30 a 40 guerreros muertos; el funcionario británico Alexander McKee informó de 19. Los guerreros que huían hallaron cerradas las puertas del fuerte británico Miami, cuyo comandante no quiso arriesgar una guerra con los Estados Unidos. Fue la última batalla de la guerra del Noroeste; el tratado de Greenville (1795) cedió la mayor parte de Ohio.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [
+        "tratado-de-greenville"
+      ],
+      "wikipedia": {
+        "es": "Batalla de los Árboles Caídos",
+        "en": "Battle of Fallen Timbers"
+      }
+    },
+    {
+      "id": "expedicion-de-lewis-y-clark",
+      "titulo": "La expedición de Lewis y Clark",
+      "anio": 1804,
+      "anio_hasta": 1806,
+      "aprox": false,
+      "lugar": "Fort Mandan (invernada de 1804-1805)",
+      "lon": -101.286,
+      "lat": 47.296,
+      "tipo": "exploracion",
+      "resumen": "Expedición militar estadounidense ordenada por Thomas Jefferson tras la compra de la Luisiana de 1803: al mando de Meriwether Lewis y William Clark, salió el 14 de mayo de 1804 de Camp Dubois, subió el Misuri, cruzó la divisoria continental y llegó al Pacífico en 1805, donde invernó en Fort Clatsop; volvió el 23 de septiembre de 1806. Pasó por territorios de muchos pueblos indígenas: invernó en 1804-1805 junto a los mandan, donde se sumó el cazador Toussaint Charbonneau con su esposa shoshone Sacagawea, y tuvo un encuentro tenso con los lakotas cerca de Fort Pierre. Murió un solo integrante, el sargento Charles Floyd, el 20 de agosto de 1804. Viajaba también York, un esclavo de Clark. El único choque con muertos fue en julio de 1806, en el río Marias, cuando el grupo de Lewis mató a dos blackfeet que intentaban llevarse sus armas y caballos.",
+      "regiones": [
+        "grandes-llanuras",
+        "norteamerica",
+        "costa-noroeste"
+      ],
+      "fuentes": [
+        "diarios-de-lewis-y-clark"
+      ],
+      "wikipedia": {
+        "es": "Expedición de Lewis y Clark",
+        "en": "Lewis and Clark Expedition"
+      }
+    },
+    {
+      "id": "batalla-de-tippecanoe",
+      "titulo": "La batalla de Tippecanoe",
+      "anio": 1811,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Prophetstown (Tippecanoe)",
+      "lon": -86.845,
+      "lat": 40.505,
+      "tipo": "batalla",
+      "resumen": "El 7 de noviembre de 1811 el gobernador del territorio de Indiana, William Henry Harrison, que había marchado con su ejército hasta Prophetstown, fue atacado antes del amanecer, junto a la aldea, por guerreros de la confederación de Tecumseh, que estaba ausente, bajo el mando de su hermano Tenskwatawa, el Profeta; los guerreros eran unos 500, aunque las estimaciones van de 350 a 1000. La batalla duró unas dos horas y Harrison tuvo 188 bajas, de ellas 62 muertos o heridos de muerte ; entre los indígenas se calculan hasta 50 muertos y 70 a 80 heridos. Harrison hizo desenterrar el cementerio de la aldea y la quemó.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Tippecanoe",
+        "en": "Battle of Tippecanoe"
+      }
+    },
+    {
+      "id": "terremotos-de-nuevo-madrid",
+      "titulo": "Los terremotos de Nuevo Madrid",
+      "anio": 1811,
+      "anio_hasta": 1812,
+      "aprox": false,
+      "lugar": "Nuevo Madrid (zona de los epicentros)",
+      "lon": -89.6,
+      "lat": 36.4,
+      "tipo": "desastre",
+      "resumen": "Serie de sismos que empezó el 16 de diciembre de 1811, con una magnitud estimada entre 7,2 y 8,2, y siguió con réplicas de magnitud similar en enero y febrero de 1812: los más fuertes al este de las Rocosas en tiempos históricos. Los epicentros estuvieron entre el noreste de Arkansas y Nuevo Madrid, entonces en el territorio de la Luisiana (el del 16 de diciembre de 1811 fue en el noreste de Arkansas); la región tenía poca población y se ignora cuántos murieron. La confederación de Tecumseh los interpretó como señal de que había que apoyarlo a él y a su hermano el Profeta, y tras la derrota de Tippecanoe los indígenas que los seguían los vieron como confirmación de sus advertencias.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "1811–1812 New Madrid earthquakes"
+      }
+    },
+    {
+      "id": "guerra-de-1812",
+      "titulo": "La guerra de 1812",
+      "anio": 1812,
+      "anio_hasta": 1815,
+      "aprox": false,
+      "lugar": "Detroit (tomada en 1812)",
+      "lon": -83.047,
+      "lat": 42.332,
+      "tipo": "batalla",
+      "resumen": "Los Estados Unidos declararon la guerra a Gran Bretaña el 18 de junio de 1812 por las restricciones británicas al comercio y el reclutamiento forzoso de marinos en barcos estadounidenses; también tensaba las relaciones el apoyo británico a las confederaciones indígenas que resistían la expansión en el Viejo Noroeste. Isaac Brock y Tecumseh tomaron Detroit en 1812; Tecumseh murió en la batalla del Támesis (1813); en el sudeste los estadounidenses y sus aliados indígenas derrotaron a los palos rojos creeks. El tratado de Gante (diciembre de 1814) restableció la situación anterior a la guerra; su artículo 9 comprometió a los Estados Unidos a poner fin a las hostilidades con los pueblos indígenas y a devolverles los derechos y posesiones de 1811.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania",
+        "sudeste-norteamericano"
+      ],
+      "fuentes": [
+        "tratado-de-gante"
+      ],
+      "wikipedia": {
+        "es": "Guerra anglo-estadounidense de 1812",
+        "en": "War of 1812"
+      }
+    },
+    {
+      "id": "batalla-del-tamesis",
+      "titulo": "La batalla del Támesis",
+      "anio": 1813,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Moraviantown",
+      "lon": -81.931,
+      "lat": 42.562,
+      "tipo": "batalla",
+      "resumen": "El 5 de octubre de 1813, cerca de Moraviantown (Alto Canadá), la caballería montada del general William Henry Harrison derrotó a la división británica de Henry Procter, que tenía unos 450 hombres presentes, y a los guerreros indígenas que apoyaban a Tecumseh, que murió en el combate. Harrison informó 7 muertos y 22 heridos; los británicos tuvieron entre 12 y 18 muertos y unos 600 prisioneros, y contaron 16 indígenas muertos, mientras que Harrison dijo haber hallado 33. Harrison quemó después Moraviantown, aldea de lenapes cristianos. Los británicos perdieron el control del oeste de Ontario y la confederación de Tecumseh se deshizo. Los jinetes de Harrison gritaban «¡Recuerden el Raisin!», por lo que siguió a la derrota de los estadounidenses en Frenchtown en enero, donde murieron cerca de 400 y 547 fueron capturados: después de la batalla, guerreros potawatomis aliados de Procter mataron a unos 60 prisioneros heridos.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla del Támesis",
+        "en": "Battle of the Thames"
+      }
+    },
+    {
+      "id": "guerra-creek",
+      "titulo": "La guerra de los palos rojos",
+      "anio": 1813,
+      "anio_hasta": 1814,
+      "aprox": false,
+      "lugar": "Fort Mims (ataque de 1813, lugar representativo de la guerra Creek)",
+      "lon": -87.838,
+      "lat": 31.18,
+      "tipo": "batalla",
+      "resumen": "Conflicto entre facciones de los muscogee (creeks), potencias europeas y los Estados Unidos. Los palos rojos, la facción que resistía la expansión estadounidense, atacaron el 30 de agosto de 1813 Fort Mims, al norte de Mobile, donde se refugiaban creeks mestizos del asentamiento de Tensaw, y mataron de 400 a 500 personas, entre ellas mujeres y niños. Milicias de Tennessee, Georgia y el territorio de Misisipi, con aliados creeks inferiores, cheroquis y choctaws, los derrotaron; en Tallushatchee (noviembre de 1813) la caballería de John Coffee mató a muchos palos rojos, entre ellos mujeres y niños. En agosto de 1814, por el tratado de Fort Jackson, Andrew Jackson obligó a la confederación creek a ceder más de 21 millones de acres en el sur de Georgia y el centro de Alabama, incluidas tierras de los creeks inferiores que habían combatido del lado de Jackson, pese a sus protestas.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerra Creek (1813-1814)",
+        "en": "Creek War"
+      }
+    },
+    {
+      "id": "batalla-de-horseshoe-bend",
+      "titulo": "La batalla de Horseshoe Bend",
+      "anio": 1814,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Horseshoe Bend",
+      "lon": -85.735,
+      "lat": 32.982,
+      "tipo": "batalla",
+      "resumen": "El 27 de marzo de 1814 Andrew Jackson, con la 39.ª de infantería, milicias de Tennessee y unos 600 cheroquis, choctaws y creeks inferiores, atacó el campamento fortificado de los palos rojos en un meandro del río Tallapoosa y terminó con la guerra creek. Murieron unos 800 de los 1000 guerreros presentes, doscientos de ellos abatidos a tiros por las tropas de Coffee cuando intentaban cruzar el río, y también mujeres y niños del campamento; Jackson perdió menos de 50 hombres y tuvo 154 heridos. Sus soldados contaron los cadáveres cortándoles la punta de la nariz e hicieron riendas con la piel de algunos.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Horseshoe Bend",
+        "en": "Battle of Horseshoe Bend"
+      }
+    },
+    {
+      "id": "tratado-de-adams-onis",
+      "titulo": "El tratado de Adams-Onís",
+      "anio": 1819,
+      "anio_hasta": 1821,
+      "aprox": false,
+      "lugar": "Washington D. C.",
+      "lon": -77.037,
+      "lat": 38.895,
+      "tipo": "tratado",
+      "resumen": "Firmado el 22 de febrero de 1819 por John Quincy Adams y Luis de Onís, por él España cedió Florida Oriental y Occidental a los Estados Unidos, que renunciaron a sus reclamos sobre Texas; fijó la primera frontera transcontinental y España renunció a sus reclamos sobre el territorio de Oregón. Estados Unidos creó una comisión para los reclamos de sus ciudadanos contra España, que repartió unos 5 millones de dólares. Madrid retrasó la ratificación hasta octubre de 1820 y el tratado valió de pleno hasta que, en agosto de 1821, el tratado de Córdoba reconoció la independencia de México.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "sudeste-norteamericano",
+        "iberia",
+        "grandes-llanuras"
+      ],
+      "fuentes": [
+        "tratado-de-adams-onis"
+      ],
+      "wikipedia": {
+        "es": "Tratado de Adams-Onís",
+        "en": "Adams–Onís Treaty"
+      }
+    },
+    {
+      "id": "guerra-arikara",
+      "titulo": "La guerra arikara",
+      "anio": 1823,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Aldeas arikara (cerca de Mobridge)",
+      "lon": -100.435,
+      "lat": 45.54,
+      "tipo": "batalla",
+      "resumen": "El 2 de junio de 1823 guerreros arikara atacaron en el Misuri a cazadores de la Rocky Mountain Fur Company de William Ashley y mataron a veinte hombres e hirieron a nueve; los arikara resentían que Ashley los dejara sin su papel de intermediarios del comercio de pieles. El teniente coronel Henry Leavenworth marchó con 230 soldados de la 6.ª de infantería, 750 sioux (enemigos de los arikara) y 50 cazadores y empleados, no los derrotó del todo y firmó una paz el 11 de agosto. Fue el primer conflicto militar de los Estados Unidos con indígenas en el oeste del Misuri, y los sioux siguieron atacando a los arikara.",
+      "regiones": [
+        "grandes-llanuras",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Arikara War"
+      }
+    },
+    {
+      "id": "guerra-winnebago",
+      "titulo": "La guerra winnebago",
+      "anio": 1827,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Prairie du Chien (ataques de 1827)",
+      "lon": -91.141,
+      "lat": 43.052,
+      "tipo": "batalla",
+      "resumen": "Breve conflicto de 1827 en el alto Misisipi, sobre todo en Wisconsin, limitado a unos pocos ataques de una parte de los winnebago (ho-chunk) a civiles estadounidenses, en reacción a la invasión de sus tierras por mineros de plomo y a rumores falsos de que dos prisioneros ho-chunk habían sido enviados a un pueblo rival para ser ejecutados. Los jefes entregaron a ocho participantes, entre ellos Red Bird, a quien los estadounidenses creían el cabecilla, que murió preso en 1828; dos condenados por homicidio fueron indultados por John Quincy Adams. Los ho-chunk debieron ceder la región del plomo, y los Estados Unidos construyeron Fort Winnebago y reocuparon otros dos fuertes.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Winnebago War"
+      }
+    },
+    {
+      "id": "guerra-de-halcon-negro",
+      "titulo": "La guerra de Halcón Negro",
+      "anio": 1832,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Bad Axe (último combate, 1832)",
+      "lon": -91.218,
+      "lat": 43.459,
+      "tipo": "batalla",
+      "resumen": "En abril de 1832 el líder sauk Halcón Negro cruzó el Misisipi con sauks, meskwakis (zorros) y kickapoos, la «British Band», hacia Illinois, al parecer para recuperar tierras cedidas por el discutido tratado de St. Louis de 1804: los jefes no tenían autorización de sus consejos para cederlas y, según el historiador Patrick Jung, creían ceder menos tierra de la que el texto incluyó. Las milicias dispararon el 14 de mayo contra una delegación; Halcón Negro ganó en Stillman's Run, pero su banda, acosada por el hambre y la deserción, quedó reducida. El 2 de agosto los restos de la British Band, unas 500 personas con unos 150 guerreros, fueron alcanzados en Bad Axe mientras intentaban cruzar el Misisipi: murieron al menos 260, unos 110 ahogados, y milicianos mataron a propósito a no combatientes; el historiador Patrick Jung lo llama «menos una batalla que una masacre». El día anterior Halcón Negro había alzado una bandera blanca que los del vapor Warrior no aceptaron, y se había ido al norte; se entregó el 27 de agosto. Los dakotas, que habían ofrecido 150 guerreros a los estadounidenses, alcanzaron a los que cruzaron a Iowa y mataron a 68. Después las tribus vendieron unos 6 millones de acres del este de Iowa por 20 000 dólares anuales durante 30 años.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "autobiografia-de-halcon-negro"
+      ],
+      "wikipedia": {
+        "es": "Guerra de Halcón Negro",
+        "en": "Black Hawk War"
+      }
+    },
+    {
+      "id": "guerras-seminolas",
+      "titulo": "Las guerras semínolas",
+      "anio": 1816,
+      "anio_hasta": 1858,
+      "aprox": false,
+      "lugar": "Negro Fort (destruido en 1816)",
+      "lon": -85.011,
+      "lat": 29.938,
+      "tipo": "batalla",
+      "resumen": "Tres guerras entre los Estados Unidos y los seminolas en Florida, entre 1816 y 1858, que el pueblo seminola de Florida cuenta como una sola guerra larga, pues sin combates seguían la violencia de colonos, milicias y cazadores de esclavos. Los seminolas se formaron en el norte de Florida en el siglo XVIII y recibían esclavizados que huían de Georgia, lo que motivó incursiones esclavistas al otro lado de la frontera. La primera empezó con la destrucción del Negro Fort en julio de 1816 (un disparo de la flota estadounidense voló el polvorín del fuerte, donde vivían cimarrones negros y choctaws, y murieron casi todos sus ocupantes) y la invasión de Andrew Jackson (1817-1818), que arrasó pueblos seminolas, mikasukis y de seminoles negros y tomó San Marcos de Apalache y, por poco tiempo, Pensacola; España cedió Florida por el tratado de Adams-Onís y los seminolas fueron llevados al centro de la península por el tratado de Moultrie Creek. La segunda fue de 1835 a 1842 y la tercera de 1855 a 1858.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras semínolas",
+        "en": "Seminole Wars"
+      }
+    },
+    {
+      "id": "segunda-guerra-seminola",
+      "titulo": "La segunda guerra semínola",
+      "anio": 1835,
+      "anio_hasta": 1842,
+      "aprox": false,
+      "lugar": "Campo de batalla de Dade (emboscada de 1835)",
+      "lon": -82.127,
+      "lat": 28.652,
+      "tipo": "batalla",
+      "resumen": "Guerra de los Estados Unidos contra los seminolas, entre ellos creeks y seminoles negros, en Florida, después del tratado de Payne's Landing (1832), que preveía su traslado, y de la ley de traslado de los indios de 1830. Empezó el 28 de diciembre de 1835, cuando los seminolas emboscaron una columna de 110 hombres que salía de Fort Brooke al mando del mayor Dade y mataron a todos menos a tres. En 1837 el general Thomas Jesup apresó a Osceola y a Coacoochee cuando llegaron a parlamentar bajo bandera blanca. Duró más de seis años, sobre todo en pequeños combates: los seminolas empezaron con entre 900 y 1400 guerreros y sin modo de reponer las pérdidas. El ejército declaró el fin el 14 de agosto de 1842 sin tratado de paz, con solo unos cientos de seminolas en Florida; para 1842 unos 3600 habían sido trasladados al Territorio Indio.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "indian-removal-act"
+      ],
+      "wikipedia": {
+        "es": "Segunda guerra semínola",
+        "en": "Second Seminole War"
+      }
+    },
+    {
+      "id": "guerras-indias-de-texas",
+      "titulo": "Las guerras indias de Texas",
+      "anio": 1820,
+      "anio_hasta": 1875,
+      "aprox": false,
+      "lugar": "Texas (punto representativo)",
+      "lon": -100.0,
+      "lat": 31.0,
+      "tipo": "batalla",
+      "resumen": "Serie de conflictos entre los colonos de Texas y los indígenas de las llanuras del sur durante el siglo XIX. España y luego México habían alentado la colonización de Texas para tener una zona de amortiguación frente a esos pueblos; los choques siguieron tras la independencia de Texas (1836) y no terminaron hasta 1875, cuando los comanches quahadi de Quanah Parker, la última banda libre, se rindieron y se trasladaron a la reserva de Fort Sill. Hubo matanzas de los dos lados: las incursiones comanches llegaban hasta el interior de México y se llevaban cautivos, y el presidente texano Mirabeau Lamar proclamó en 1839 una guerra para expulsar a los indígenas, que empezó con la expulsión de los cheroquis de Texas (murieron unos 100, entre ellos el jefe Bowles).",
+      "regiones": [
+        "grandes-llanuras",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras indias de Texas",
+        "en": "Texas–Indian wars"
+      }
+    },
+    {
+      "id": "gran-incursion-comanche-de-1840",
+      "titulo": "La gran incursión comanche de 1840",
+      "anio": 1840,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Linnville",
+      "lon": -96.639,
+      "lat": 28.668,
+      "tipo": "batalla",
+      "resumen": "Incursión comanche de agosto de 1840 sobre ciudades de la República de Texas, que siguió a la pelea de la Casa del Consejo (San Antonio, 19 de marzo de 1840). Allí funcionarios de la República intentaron tomar prisioneros a 33 jefes comanches y a sus esposas, que debían entregar a las trece personas cautivas que se esperaban; la delegación llevó una sola, Matilda Lockhart, porque pedían rescate por cada una. Según el informe del coronel Hugh McLeod, en la Casa del Consejo murieron 35 comanches (30 hombres, 3 mujeres y 2 niños) y 7 texanos; los comanches mataron después bajo tortura a 13 cautivos. Los comanches penateka dirigidos por Buffalo Hump saquearon Linnville, segundo puerto de la República, el 8 de agosto, con mercancías valoradas en más de 300 000 dólares; en la incursión mataron a unos 23 civiles desarmados en la región de Victoria y Linnville, y fueron alcanzados el 12 de agosto en Plum Creek por milicias y rangers, donde mataron a cautivas como la señora Crosby.",
+      "regiones": [
+        "grandes-llanuras",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Great Raid of 1840"
+      }
+    },
+    {
+      "id": "guerra-anglo-cheroqui",
+      "titulo": "La guerra anglo-cheroqui",
+      "anio": 1758,
+      "anio_hasta": 1761,
+      "aprox": false,
+      "lugar": "Fort Loudoun (tomado en 1760)",
+      "lon": -84.204,
+      "lat": 35.596,
+      "tipo": "batalla",
+      "resumen": "Los cheroquis, aliados de los británicos al empezar la guerra franco-india, chocaron con ellos en 1758 por la presión de los colonos y porque unos virginianos mataron y arrancaron la cabellera a entre 30 y 40 guerreros cheroquis que se habían llevado caballos que creían suyos, y después cobraron la recompensa diciendo que eran cabelleras shawnees. Treinta y ocho jefes fueron tomados como rehenes en Fort Prince George; cuando los cheroquis atacaron el fuerte para rescatarlos, en febrero de 1760, la guarnición mató a 16 rehenes, y los cheroquis sitiaron Fort Loudoun, que se rindió en agosto de 1760; al día siguiente de la salida de la guarnición, unos 700 cheroquis atacaron la columna en Cane Creek, mataron a 29 (entre ellos el comandante, Paul Demeré, y tres mujeres) y tomaron prisioneros a casi todos los demás. En 1761 James Grant entró con 2800 hombres en el país cheroqui, derrotó a los cheroquis en Echoee Pass y arrasó unas 18 aldeas de las Middle Towns; algunos pueblos no fueron reocupados. La guerra terminó en noviembre de 1761 con el tratado de Long Island de Holston con Virginia.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Anglo-Cherokee War"
+      }
+    },
+    {
+      "id": "tratado-de-san-lorenzo-1795",
+      "titulo": "El tratado de San Lorenzo (Pinckney)",
+      "anio": 1795,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "San Lorenzo de El Escorial",
+      "lon": -4.143,
+      "lat": 40.594,
+      "tipo": "tratado",
+      "resumen": "Firmado el 27 de octubre de 1795 por Thomas Pinckney y Manuel Godoy, fijó la frontera entre los Estados Unidos y la Florida española y garantizó a los estadounidenses la navegación del Misisipi. Su artículo V obliga a cada país a contener por la fuerza toda hostilidad de los pueblos indígenas que viven dentro de sus límites y a no hacer con los del otro lado tratados de alianza, salvo de paz, y dispone que el comercio con ellos sea común; hasta entonces España les había proporcionado armas durante años. El tratado dejó dentro de los límites de los Estados Unidos las tierras de los chickasaws y los choctaws, que no participaron. El Senado dio su consentimiento el 5 de marzo de 1796 y los Estados Unidos lo ratificaron el 7.",
+      "regiones": [
+        "iberia",
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "tratado-de-san-lorenzo-1795"
+      ],
+      "wikipedia": {
+        "es": "Tratado de San Lorenzo (1795)",
+        "en": "Pinckney's Treaty"
+      }
+    },
+    {
+      "id": "fraude-de-las-tierras-de-yazoo",
+      "titulo": "El fraude de las tierras de Yazoo",
+      "anio": 1794,
+      "anio_hasta": 1814,
+      "aprox": false,
+      "lugar": "Río Yazoo (tierras vendidas, en los actuales Misisipi y Alabama)",
+      "lon": -90.18,
+      "lat": 33.552,
+      "tipo": "politico",
+      "resumen": "En 1794 se armaron las compañías de especuladores a las que la asamblea de Georgia, con una ley (Yazoo Act) que el gobernador George Mathews firmó el 7 de enero de 1795, vendió, a precios muy bajos, grandes extensiones de las tierras del Yazoo, en lo que hoy son partes de Alabama y Misisipi, reclamadas y ocupadas por indígenas y en parte reclamadas por España. La ley se anuló el 13 de febrero de 1796, pero en Fletcher v. Peck (1810) la Corte Suprema dictaminó que los contratos obligaban y que el estado no podía anularlos con efecto retroactivo; en 1802 Georgia cedió sus reclamos al gobierno federal. Los reclamos de los choctaws y los chickasaws no habían sido extinguidos; se extinguieron por una serie de tratados, los últimos de ellos los de Dancing Rabbit Creek (1830, choctaws) y Pontotoc Creek (1832, chickasaws).",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Yazoo land scandal"
+      }
+    },
+    {
+      "id": "guerras-chickasaw",
+      "titulo": "Las guerras chickasaw",
+      "anio": 1721,
+      "anio_hasta": 1763,
+      "aprox": false,
+      "lugar": "Tupelo (zona de las batallas de Ogoula Tchetoka y Ackia, 1736)",
+      "lon": -88.703,
+      "lat": 34.258,
+      "tipo": "batalla",
+      "resumen": "Guerras de la primera mitad del siglo XVIII entre los chickasaw, aliados de los británicos, y los franceses con sus aliados choctaw, quapaw y de la Confederación de los Ilinueses, por el control de las comunicaciones de la Luisiana a lo largo del Misisipi. En 1721 Bienville incitó a los choctaw a atacar aldeas chickasaw; el 25 de marzo de 1736 los franceses y los ilinueses fueron derrotados en Ogoula Tchetoka y el 26 de mayo Bienville, con 1200 franceses y choctaws, fue rechazado en Ackia, cerca de Tupelo. Los franceses nunca derrotaron a los chickasaw, que defendieron su territorio con gran pérdida de población y de modo de vida; las guerras terminaron con la cesión de Nueva Francia a Gran Bretaña en 1763.",
+      "regiones": [
+        "sudeste-norteamericano",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Chickasaw Wars"
+      }
+    },
+    {
+      "id": "guerras-navajo",
+      "titulo": "Las guerras navajo",
+      "anio": 1641,
+      "anio_hasta": 1868,
+      "aprox": false,
+      "lugar": "Cañón de Chelly (campaña de Carson, 1864)",
+      "lon": -109.509,
+      "lat": 36.155,
+      "tipo": "batalla",
+      "resumen": "Tres períodos de conflicto de los navajos (diné) con los españoles hasta 1821, con México hasta 1848 y con los Estados Unidos después, de incursiones pequeñas a grandes expediciones de los gobiernos, junto con un ciclo de incursiones mutuas con otros pueblos y con los colonos: los neomexicanos capturaban navajos para venderlos como esclavos y los navajos se llevaban ganado y cautivos. En 1641-1642 los franciscanos organizaron una campaña contra los navajos que quemó sus maizales; Facundo Melgares, último gobernador español de Nuevo México, hizo dos expediciones sin éxito y pidió la paz en octubre de 1821. En 1863 el general James Carleton ordenó a 18 jefes navajos rendirse antes del 20 de julio de 1863 y trasladarse a Bosque Redondo, mientras Kit Carson hacía una campaña simultánea que quemó cosechas y hogares; el tratado de junio de 1868 permitió su regreso.",
+      "regiones": [
+        "suroeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Guerras de los Navajos",
+        "en": "Navajo Wars"
+      }
+    },
+    {
+      "id": "primera-expedicion-a-kamchatka",
+      "titulo": "La primera expedición a Kamchatka",
+      "anio": 1725,
+      "anio_hasta": 1730,
+      "aprox": false,
+      "lugar": "Estrecho de Bering (navegación de 1728)",
+      "lon": -168.977,
+      "lat": 65.75,
+      "tipo": "exploracion",
+      "resumen": "Encargada por Pedro el Grande en 1724 y dirigida por Vitus Bering, fue la primera expedición naval científica de Rusia. Pasó dos años viajando de San Petersburgo a Ojotsk y en julio y agosto de 1728 navegó por la costa del Pacífico hasta la isla de San Lorenzo, atravesó el estrecho de Bering y llegó al mar de Chukotka, sin ver la costa norteamericana; volvió creyendo haber cumplido su tarea y llegó a San Petersburgo el 28 de febrero de 1730. Aportó pruebas de que Asia y América no están unidas, y la siguió la segunda expedición de Kamchatka (1732).",
+      "regiones": [
+        "artico-norteamericano",
+        "norteamerica",
+        "lejano-oriente-ruso"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Primera expedición a Kamchatka",
+        "en": "First Kamchatka Expedition"
+      }
+    },
+    {
+      "id": "revuelta-de-boston-1689",
+      "titulo": "La revuelta de Boston de 1689",
+      "anio": 1689,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Boston",
+      "lon": -71.058,
+      "lat": 42.36,
+      "tipo": "revolucion",
+      "resumen": "El 18 de abril de 1689 milicianos y vecinos de Boston arrestaron al gobernador del Dominio de Nueva Inglaterra, Edmund Andros, y a funcionarios del Dominio, sin bajas de ninguno de los dos lados. Andros se había ganado la enemistad de los colonos al hacer cumplir las Leyes de Navegación, negar la validez de títulos de tierras existentes, restringir las asambleas de los pueblos y promover la Iglesia de Inglaterra; la revuelta ocurrió cuando en Inglaterra había sido depuesto Jacobo II. Los dirigentes de la antigua Colonia de la Bahía de Massachusetts recuperaron el gobierno, y en otras colonias volvieron al poder los desplazados por el Dominio.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Revuelta de Boston (1689)",
+        "en": "1689 Boston revolt"
       }
     }
   ],
