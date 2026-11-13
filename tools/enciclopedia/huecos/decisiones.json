@@ -519,9 +519,19 @@
     "motivo": "Su actuación es posterior a la Junta de 1810 o fuera de Chile (Wikidata ubica mal a Vélez de Escalante): no es del tema.",
     "fecha": "2026-11-13"
   },
+  "candidato:chile-colonial-y-araucania:personas:Q2556578": {
+    "decision": "descartado",
+    "motivo": "José Antonio de Mendoza Caamaño, marqués de Villagarcía, fue virrey del Perú (1736-1745) y no tuvo actuación en Chile; su ficha está en conquista-y-virreinato-del-peru (jose-antonio-de-mendoza-marques-de-villagarcia).",
+    "fecha": "2026-11-13"
+  },
   "candidato:chile-colonial-y-araucania:personas:Q3344888": {
     "decision": "descartado",
     "motivo": "Su actuación es posterior a la Junta de 1810 o fuera de Chile (Wikidata ubica mal a Vélez de Escalante): no es del tema.",
+    "fecha": "2026-11-13"
+  },
+  "candidato:chile-colonial-y-araucania:personas:Q399214": {
+    "decision": "descartado",
+    "motivo": "Agustín de Eyzaguirre fue del cabildo de Santiago en 1810 y se sumó al movimiento juntista; su actuación política principal fue después, en el Congreso, el Ejecutivo y la presidencia provisional (1826-1827), es decir en la independencia, fuera del alcance de este tema, que cierra con la Junta de 1810. Queda anotado para virreinato-e-independencia, que cubre las independencias, y todavía no tiene su ficha.",
     "fecha": "2026-11-13"
   },
   "candidato:chile-colonial-y-araucania:personas:Q646382": {
@@ -537,6 +547,11 @@
   "candidato:chile-colonial-y-araucania:personas:Q911140": {
     "decision": "descartado",
     "motivo": "Su actuación es posterior a la Junta de 1810 o fuera de Chile (Wikidata ubica mal a Vélez de Escalante): no es del tema.",
+    "fecha": "2026-11-13"
+  },
+  "candidato:conquista-y-virreinato-del-peru:personas:Q2601497": {
+    "decision": "descartado",
+    "motivo": "Juan de Acuña, marqués de Casa Fuerte, nació en Lima pero su actuación fue en la Nueva España, de la que fue virrey (1722-1734); no tuvo cargo en el Perú.",
     "fecha": "2026-11-13"
   },
   "candidato:edad-media:personas:Q101866": {
@@ -4847,6 +4862,11 @@
   "parte:Q202390:Q2479824": {
     "decision": "descartado",
     "motivo": "El altépetl es una institución mesoamericana, no un hecho de los Andes.",
+    "fecha": "2026-11-13"
+  },
+  "parte:Q202390:Q5764484": {
+    "decision": "descartado",
+    "motivo": "Es un artículo de síntesis de todo el Ecuador antiguo (sierra, costa y Amazonia), no un hecho propio; sus partes ya tienen ficha (cultura-valdivia, cultura-mantena, pueblo-canari, caranquis-y-cayambes, conquista-inca-del-norte) y la Machalilla se suma en este lote.",
     "fecha": "2026-11-13"
   },
   "parte:Q2092093:Q208156": {
@@ -11584,6 +11604,11 @@
     "motivo": "Pachacútec ya tiene ficha, con el id pachacutec, en el paquete mundo, junto con el hecho de la expansión inca; no se redefine.",
     "fecha": "2026-11-11"
   },
+  "serie:Q165948:Q6138957": {
+    "decision": "descartado",
+    "motivo": "Tarco Huamán no figura entre los incas de la lista de Garcilaso ni de Sarmiento: es un hijo de Mayta Cápac que solo algunos relatos hacen reinar unos pocos años, y queda mencionado en las fichas mayta-capac y capac-yupanqui.",
+    "fecha": "2026-11-13"
+  },
   "serie:Q174506:Q3298137": {
     "decision": "sin-datos",
     "motivo": "Masud ibn Bursuqi (Mosul, 1126-1127) tiene artículo solo en dos Wikipedias menores y ninguno en inglés o español, así que no se puede verificar; quien importa para el tema es su padre, Aqsunqur al-Bursuqi.",
@@ -12914,6 +12939,16 @@
     "motivo": "El ministerio de Seguridad no es del tema titular por titular.",
     "fecha": "2026-11-13"
   },
+  "serie:Q42077331:Q1347049": {
+    "decision": "descartado",
+    "motivo": "Juan de Saavedra no fue virrey: era un conquistador de la hueste de Almagro, descubridor de Valparaíso en 1535-1536 y combatiente en Chupas, y Wikidata lo lista por error; su ficha (juan-de-saavedra) está en el paquete chile-colonial-y-araucania.",
+    "fecha": "2026-11-13"
+  },
+  "serie:Q42077331:Q5557749": {
+    "decision": "descartado",
+    "motivo": "Juan Antonio Monet fue un general realista que combatió en Ica, Torata, Junín y Ayacucho, y no un virrey: el virrey desde el pronunciamiento de Aznapuquio (29 de enero de 1821) fue José de la Serna, y su campaña pertenece al tema de las independencias: queda anotado para virreinato-e-independencia, que cubre las independencias y todavía no tiene su ficha.",
+    "fecha": "2026-11-13"
+  },
   "serie:Q4376674:Q315518": {
     "decision": "descartado",
     "motivo": "La vicepresidencia del gobierno soviético no es un cargo del tema.",
@@ -13247,6 +13282,11 @@
   "serie:Q59133435:Q505112": {
     "decision": "descartado",
     "motivo": "La corona de Navarra por matrimonio es un título anexo, no un cargo del tema.",
+    "fecha": "2026-11-13"
+  },
+  "serie:Q61985935:Q1442216": {
+    "decision": "descartado",
+    "motivo": "Francisco Tadeo Díez de Medina, oidor de La Paz y de la Audiencia de Chile, fue gobernador interino de junio de 1792 a mayo de 1793, durante el viaje de O'Higgins a la frontera, y de nuevo de diciembre de 1801 a enero de 1802, en total unos pocos meses y sin nada propio del tema. Como juez de los cabecillas del cerco de La Paz de 1781 es materia de virreinato-e-independencia, donde está tupac-katari: queda anotado para ese tema.",
     "fecha": "2026-11-13"
   },
   "serie:Q61985935:Q1479537": {
