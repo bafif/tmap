@@ -4103,6 +4103,31 @@
         "es": "Guerras sirias",
         "en": "Syrian Wars"
       }
+    },
+    {
+      "id": "primer-periodo-intermedio-de-egipto",
+      "titulo": "Primer Período Intermedio de Egipto",
+      "anio": -2181,
+      "anio_hasta": -2055,
+      "aprox": true,
+      "lugar": "Heracleópolis Magna",
+      "lon": 30.934,
+      "lat": 29.086,
+      "tipo": "politico",
+      "resumen": "Período de unos 125 años entre el Imperio Antiguo y el Medio (hacia -2181 a -2055), que abarca las dinastías VII (que los egiptólogos suelen considerar espuria) y VIII en Menfis, la IX y la X en Heracleópolis, y parte de la XI en Tebas. Quedan pocos monumentos, sobre todo del comienzo. Se lo ha llamado «época oscura», pero Ludwig Morenz propuso «período de las regiones»; el término lo acuñaron Steindorff y Frankfort en 1926. Las causas que se citan son el reinado larguísimo de Pepi II y los problemas de sucesión, los nomarcas hereditarios que levantaban ejércitos y la baja de las crecidas del Nilo, aunque Manning no ve relación con las crecidas. En el sur mandó el nomarca Anjtifi, que en su tumba de Mo'alla dice haber dado pan a los hambrientos, un tópico que los egiptólogos discuten porque casi todos los gobernantes locales dicen lo mismo. Hacia el final se enfrentaron los reyes de Heracleópolis, con los príncipes de Asiut como aliados, y los tebanos Intef I, II y III, que atacaron Abidos; Mentuhotep II derrotó a los heracleopolitanos y reunificó el país, hacia -2055 o, según otras cronologías, hacia -2033.",
+      "regiones": [
+        "alto-egipto",
+        "egipto",
+        "bajo-egipto"
+      ],
+      "fuentes": [
+        "inscripciones-de-anjtifi",
+        "aegyptiaca-de-maneton"
+      ],
+      "wikipedia": {
+        "es": "Primer periodo intermedio de Egipto",
+        "en": "First Intermediate Period of Egypt"
+      }
     }
   ],
   "lugares": [
