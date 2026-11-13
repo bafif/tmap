@@ -1429,7 +1429,9 @@
       "escrita": {
         "anio": 1978,
         "aprox": false,
-        "lugar": "Madison"
+        "lugar": "Madison",
+        "lon": -89.384,
+        "lat": 43.075
       },
       "trata": {
         "regiones": [
@@ -1456,7 +1458,9 @@
       "escrita": {
         "anio": 1988,
         "aprox": false,
-        "lugar": "Dordrecht"
+        "lugar": "Dordrecht",
+        "lon": 4.678,
+        "lat": 51.796
       },
       "trata": {
         "regiones": [
@@ -1484,7 +1488,9 @@
       "escrita": {
         "anio": 1983,
         "aprox": false,
-        "lugar": "Baltimore"
+        "lugar": "Baltimore",
+        "lon": -76.615,
+        "lat": 39.289
       },
       "trata": {
         "regiones": [
@@ -1511,7 +1517,9 @@
       "escrita": {
         "anio": 1993,
         "aprox": false,
-        "lugar": "Cambridge"
+        "lugar": "Cambridge (Inglaterra)",
+        "lon": 0.122,
+        "lat": 52.205
       },
       "trata": {
         "regiones": [
@@ -1538,7 +1546,9 @@
       "escrita": {
         "anio": 2007,
         "aprox": false,
-        "lugar": "University Park, Pensilvania"
+        "lugar": "University Park, Pensilvania",
+        "lon": -77.86,
+        "lat": 40.798
       },
       "trata": {
         "regiones": [

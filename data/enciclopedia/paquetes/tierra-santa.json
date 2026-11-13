@@ -9013,7 +9013,10 @@
       "genero": "ensayo",
       "escrita": {
         "anio": 1862,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Leipzig",
+        "lon": 12.375,
+        "lat": 51.34
       },
       "trata": {
         "regiones": [
@@ -10889,7 +10892,10 @@
       "escrita": {
         "anio": 1951,
         "anio_hasta": 1954,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Cambridge (Inglaterra)",
+        "lon": 0.119,
+        "lat": 52.205
       },
       "trata": {
         "regiones": [

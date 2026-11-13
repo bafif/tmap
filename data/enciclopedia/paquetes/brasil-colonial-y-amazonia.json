@@ -1257,7 +1257,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 1962,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Berkeley (California)",
+        "lon": -122.273,
+        "lat": 37.872
       },
       "trata": {
         "regiones": [
@@ -1283,7 +1286,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 1971,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.63,
+        "lat": 41.878
       },
       "trata": {
         "regiones": [
@@ -1339,7 +1345,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 1985,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Cambridge (Inglaterra)",
+        "lon": 0.119,
+        "lat": 52.205
       },
       "trata": {
         "regiones": [
@@ -1365,7 +1374,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 1991,
-        "aprox": false
+        "aprox": false,
+        "lugar": "San Diego (California)",
+        "lon": -117.161,
+        "lat": 32.716
       },
       "trata": {
         "regiones": [
@@ -1391,7 +1403,10 @@
       "genero": "geografia",
       "escrita": {
         "anio": 1992,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Madison (Wisconsin)",
+        "lon": -89.401,
+        "lat": 43.073
       },
       "trata": {
         "regiones": [],
@@ -1503,7 +1518,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 2003,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Gainesville (Florida)",
+        "lon": -82.325,
+        "lat": 29.652
       },
       "trata": {
         "regiones": [
@@ -1529,7 +1547,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 2008,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Gainesville (Florida)",
+        "lon": -82.325,
+        "lat": 29.652
       },
       "trata": {
         "regiones": [
@@ -1555,7 +1576,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 2009,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.704,
+        "lat": 40.417
       },
       "trata": {
         "regiones": [
@@ -1582,7 +1606,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 2015,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
       },
       "trata": {
         "regiones": [
@@ -1609,7 +1636,10 @@
       "genero": "ciencia",
       "escrita": {
         "anio": 2017,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Manaos",
+        "lon": -60.022,
+        "lat": -3.119
       },
       "trata": {
         "regiones": [
@@ -1636,7 +1666,10 @@
       "genero": "arqueologia",
       "escrita": {
         "anio": 2022,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Bonn",
+        "lon": 7.1,
+        "lat": 50.734
       },
       "trata": {
         "regiones": [
@@ -3968,7 +4001,7 @@
       "anio": 1539,
       "anio_hasta": 1549,
       "aprox": false,
-      "lugar": "Del Brasil a Chachapoyas",
+      "lugar": "Chachapoyas (llegada de los tupinambás, 1549)",
       "tipo": "religioso",
       "resumen": "Los cronistas describen a los karaí, profetas que recorrían las aldeas anunciando una tierra sin muerte ni trabajo y que movían a pueblos enteros a buscarla. Según documentos españoles reunidos por Métraux, varios miles de tupinambás salieron de la costa del Brasil hacia 1539 y unos trescientos sobrevivientes llegaron a Chachapoyas, en el Perú, en 1549, donde sus noticias de pueblos ricos río abajo alentaron nuevas expediciones al Amazonas. La interpretación de estos movimientos como búsqueda de la «Tierra sin Mal» (Nimuendajú, Métraux, Hélène Clastres) es discutida por quienes señalan el peso de las traducciones misioneras en esa idea (Judith Shapiro, 1987) o ven en las migraciones también huidas de la conquista.",
       "regiones": [
@@ -3978,7 +4011,9 @@
       ],
       "fuentes": [
         "la-religion-des-tupinamba"
-      ]
+      ],
+      "lon": -77.87,
+      "lat": -6.23
     },
     {
       "id": "santidade-de-jaguaripe",

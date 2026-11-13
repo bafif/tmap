@@ -1679,6 +1679,26 @@
     "motivo": "Antes de la fundación de Masalia no hay fuentes escritas sobre la religión de la región; solo arqueología funeraria y megalitos, de la que no se puede deducir una religión.",
     "fecha": "2026-11-11"
   },
+  "capa:groenlandia:culturas:-21000:-2501": {
+    "decision": "descartado",
+    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
+    "fecha": "2026-11-13"
+  },
+  "capa:groenlandia:eras:-21000:-2501": {
+    "decision": "descartado",
+    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
+    "fecha": "2026-11-13"
+  },
+  "capa:groenlandia:idiomas:-21000:-2501": {
+    "decision": "descartado",
+    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
+    "fecha": "2026-11-13"
+  },
+  "capa:groenlandia:religiones:-21000:-2501": {
+    "decision": "descartado",
+    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
+    "fecha": "2026-11-13"
+  },
   "capa:hungria:religiones:-5500:-401": {
     "decision": "sin-datos",
     "motivo": "No hay fuentes escritas sobre las creencias de la región antes de los celtas; la arqueología no permite nombrar una religión.",
@@ -3639,6 +3659,11 @@
     "motivo": "Ataque informático remoto contra una empresa sin sede única verificable en las fuentes: no tiene un sitio localizable en el mapa.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-coord:ataques-al-guaira-y-al-tape": {
+    "decision": "descartado",
+    "motivo": "Ataques repetidos a muchas reducciones en dos regiones, sin un sitio único verificable.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-coord:bagaudas": {
     "decision": "descartado",
     "motivo": "Son revueltas de siglos en dos provincias.",
@@ -3714,6 +3739,11 @@
     "motivo": "Cultura arqueológica extendida en una gran región.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-coord:debate-de-la-amazonia-pristina": {
+    "decision": "descartado",
+    "motivo": "Debate académico sobre toda una región, no localizable.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-coord:despoblacion-indigena-de-america": {
     "decision": "descartado",
     "motivo": "Proceso de todo un continente.",
@@ -3764,6 +3794,11 @@
     "motivo": "Es un proceso de todo un continente.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-coord:leyenda-de-las-amazonas": {
+    "decision": "descartado",
+    "motivo": "El combate de 1542 no tiene un sitio verificado y la leyenda abarca todo el río.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-coord:lulzsec": {
     "decision": "descartado",
     "motivo": "Grupo en línea sin sede.",
@@ -3813,6 +3848,11 @@
     "decision": "descartado",
     "motivo": "Campaña en línea y protestas en decenas de ciudades.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-coord:senorios-del-amazonas": {
+    "decision": "descartado",
+    "motivo": "Proceso difuso a lo largo de mil leguas de río y dos siglos, sin un sitio único.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-coord:the-dao": {
     "decision": "descartado",
@@ -7419,10 +7459,30 @@
     "motivo": "Obra anónima sin lugar de escritura conocido.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:al-este-del-eden": {
+    "decision": "sin-datos",
+    "motivo": "Steinbeck escribió el manuscrito durante 1951 y no hallé una fuente verificable que fije la casa o la ciudad donde lo redactó.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:alquimia-de-la-felicidad": {
     "decision": "sin-datos",
     "motivo": "Las fuentes dicen solo que se escribió poco antes de 1105; no dicen dónde.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:anales-islandeses": {
+    "decision": "sin-datos",
+    "motivo": "Son varios anales escritos durante siglo y medio en monasterios y casas distintos, sin un único sitio de escritura.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:apologias-y-discursos-vargas-machuca": {
+    "decision": "sin-datos",
+    "motivo": "Se sabe del autor que vivió en España hacia 1612, pero ninguna fuente consultada dice dónde escribió esta obra.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:arco-de-triunfo": {
+    "decision": "sin-datos",
+    "motivo": "Remarque la escribió en su exilio en Estados Unidos entre 1939 y 1945, y las fuentes consultadas no precisan en qué ciudad.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:audacht-morainn": {
     "decision": "sin-datos",
@@ -7434,6 +7494,11 @@
     "motivo": "Tratado anónimo con capas de siglos distintos y sin lugar de escritura conocido.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:aviso-de-chincha": {
+    "decision": "sin-datos",
+    "motivo": "El informe anónimo sobre Chincha, de hacia 1570, no declara dónde se escribió y la bibliografía no lo atribuye a un lugar concreto.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:beowulf": {
     "decision": "sin-datos",
     "motivo": "Poema anónimo sin lugar de escritura conocido.",
@@ -7443,6 +7508,16 @@
     "decision": "sin-datos",
     "motivo": "Satoshi Nakamoto es anónimo y el documento se difundió por una lista de correo: ninguna fuente dice dónde se escribió.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:bodas-de-sangre": {
+    "decision": "sin-datos",
+    "motivo": "La obra se escribió entre 1931 y 1932 y las fuentes consultadas solo dan el estreno en el Teatro Beatriz de Madrid, no el sitio de redacción.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:breviculus-collationis-cum-donatistis": {
+    "decision": "sin-datos",
+    "motivo": "No hallé una fuente que diga si Agustín lo redactó en Cartago o en Hipona tras la conferencia del 411.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:brihadaranyaka-upanishad": {
     "decision": "sin-datos",
@@ -7464,10 +7539,45 @@
     "motivo": "Carta de autenticidad y origen discutidos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:carta-de-lope-de-aguirre": {
+    "decision": "sin-datos",
+    "motivo": "El texto de la carta no lleva data de lugar; solo menciona la isla Margarita y en ella no consta desde dónde la escribió.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:cautiverio-feliz": {
+    "decision": "sin-datos",
+    "motivo": "Núñez de Pineda lo escribió en Chile en 1673, pero las fuentes consultadas no dicen en qué ciudad.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:cliges": {
     "decision": "sin-datos",
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:codice-borgia": {
+    "decision": "sin-datos",
+    "motivo": "Se lo atribuye a la región de Puebla-Tlaxcala, pero las propuestas de ciudades concretas (Cholula y otras) no tienen consenso.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:codice-de-dresde": {
+    "decision": "sin-datos",
+    "motivo": "La bibliografía lo atribuye solo a las tierras bajas mayas del norte (Yucatán), sin una ciudad concreta.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:codice-de-madrid": {
+    "decision": "sin-datos",
+    "motivo": "La bibliografía solo lo sitúa en el área maya yucateca tardía y no lo atribuye a ningún sitio concreto.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:codice-de-paris": {
+    "decision": "sin-datos",
+    "motivo": "Solo se lo atribuye a Yucatán de forma general; no hay una ciudad ni centro de escritura aceptado.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:codice-maya-de-mexico": {
+    "decision": "sin-datos",
+    "motivo": "Apareció sin procedencia y se lo asigna a las tierras bajas mayas en general; no hay un sitio de escritura demostrado.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:conspiracion-como-gobernanza": {
     "decision": "sin-datos",
@@ -7494,10 +7604,25 @@
     "motivo": "Autor anónimo; Borgoña es solo una conjetura sin ciudad.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:cronica-de-miguel-el-sirio": {
+    "decision": "sin-datos",
+    "motivo": "El patriarca la escribió en los años 1190 y no hallé una fuente que la fije en un monasterio o ciudad concretos.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:cronica-de-una-muerte-anunciada": {
+    "decision": "sin-datos",
+    "motivo": "Salió en 1981 en ediciones simultáneas de varias ciudades y no hallé una fuente que diga dónde la escribió García Márquez.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:cronica-p": {
     "decision": "sin-datos",
     "motivo": "Es una copia tardía de un escriba babilonio y Wikipedia dice que su procedencia es desconocida.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:cronicas-marcianas": {
+    "decision": "sin-datos",
+    "motivo": "Los relatos que forman el libro se escribieron en años distintos y no hay una fuente que ponga la redacción de la compilación de 1950 en un sitio concreto.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:cuestion-nacional-y-lucha-de-clases": {
     "decision": "sin-datos",
@@ -7539,15 +7664,40 @@
     "motivo": "Se difundió desde Afganistán sin lugar preciso.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:del-amor-y-otros-demonios": {
+    "decision": "sin-datos",
+    "motivo": "Ninguna fuente consultada dice en qué ciudad escribió García Márquez la novela en 1994; solo consta el prólogo sobre las tumbas del convento de Santa Clara en Cartagena.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:democrates-alter": {
+    "decision": "sin-datos",
+    "motivo": "Sepúlveda lo escribió hacia 1545 pero ninguna fuente consultada dice si fue en Valladolid, Córdoba u otro sitio.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:descripcion-de-gales": {
     "decision": "sin-datos",
     "motivo": "Escrita en 1193 o 1194 por Giraldo sin que las fuentes consultadas den el lugar exacto.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:desengano-y-reparo-de-la-guerra": {
+    "decision": "sin-datos",
+    "motivo": "González de Nájera empezó el manuscrito hacia 1609 y lo terminó en marzo de 1614, y las fuentes no dicen en qué ciudad lo escribió.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:despues-remarque": {
     "decision": "sin-datos",
     "motivo": "Remarque la terminó en 1931 entre Berlín y Ronco; las fuentes consultadas no precisan el lugar.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:dialogos-das-grandezas-do-brasil": {
+    "decision": "sin-datos",
+    "motivo": "La bibliografía dice que Brandão escribió los diálogos en la Paraíba, pero da solo la capitanía donde era señor de ingenio y no un sitio preciso.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:diario-de-roggeveen": {
+    "decision": "descartado",
+    "motivo": "Es el diario de una expedición de 1721-1722 que cruzó tres océanos, escrito a lo largo del viaje y sin un lugar único.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:doctrina-jacobi": {
     "decision": "sin-datos",
@@ -7559,6 +7709,31 @@
     "motivo": "Poemas anónimos de lugar y fecha inciertos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:el-amor-en-los-tiempos-del-colera": {
+    "decision": "sin-datos",
+    "motivo": "La novela tuvo ediciones simultáneas en varios países en 1985 y las fuentes consultadas no dicen dónde la escribió García Márquez.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:el-general-en-su-laberinto": {
+    "decision": "sin-datos",
+    "motivo": "Salió en 1989 en ediciones simultáneas de varios países y no hallé una fuente que diga dónde la escribió García Márquez.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:el-vino-del-estio": {
+    "decision": "sin-datos",
+    "motivo": "Bradbury vivía en el área de Los Angeles, pero ninguna fuente consultada dice dónde escribió esta novela de 1957.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:epitome-de-la-conquista-del-nuevo-reino": {
+    "decision": "sin-datos",
+    "motivo": "Es una relación anónima y de fecha aproximada, de la que no se sabe dónde se redactó.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:epopeya-de-tukulti-ninurta": {
+    "decision": "sin-datos",
+    "motivo": "Es un poema anónimo conocido por copias de Assur y Nínive, y no se sabe dónde se compuso.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:erec-y-enide": {
     "decision": "sin-datos",
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
@@ -7568,6 +7743,11 @@
     "decision": "sin-datos",
     "motivo": "Marcuse la escribió entre 1951 y 1955 pasando por Columbia, Harvard y Brandeis; las fuentes no precisan el lugar.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:espejo-del-rey": {
+    "decision": "sin-datos",
+    "motivo": "Es un texto noruego anónimo de hacia 1250 cuyo lugar de escritura, quizá la corte de Bergen, no está probado.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:expugnacion-de-irlanda": {
     "decision": "sin-datos",
@@ -7599,6 +7779,11 @@
     "motivo": "Solo se sabe que fue en Armenia.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:historia-geral-do-brasil-varnhagen": {
+    "decision": "sin-datos",
+    "motivo": "Los dos tomos (1854 y 1857) se compusieron y editaron entre Madrid, Lisboa y Río de Janeiro durante la carrera diplomática de Varnhagen, sin un lugar único de escritura.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:ihya-ulum-al-din": {
     "decision": "sin-datos",
     "motivo": "Al-Gazali la escribió durante años de viaje, sin ciudad única.",
@@ -7608,6 +7793,11 @@
     "decision": "sin-datos",
     "motivo": "Relato anónimo sin lugar de escritura conocido.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:inscripcion-unesco-chinchorro": {
+    "decision": "descartado",
+    "motivo": "Decisión del Comité del Patrimonio Mundial tomada en una sesión virtual, sin lugar de escritura localizable.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:inscripciones-a-epona": {
     "decision": "descartado",
@@ -7629,10 +7819,25 @@
     "motivo": "Las fuentes no dicen dónde se grabó ni de dónde procede el mojón.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:la-casa-de-bernarda-alba": {
+    "decision": "sin-datos",
+    "motivo": "Se sabe que Lorca la terminó el 19 de junio de 1936, pero las fuentes consultadas no precisan si fue en Madrid o en Granada.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:la-isla": {
+    "decision": "sin-datos",
+    "motivo": "No hallé una fuente que diga en qué casa o ciudad escribió Huxley La isla (1962).",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:la-perla-steinbeck": {
     "decision": "sin-datos",
     "motivo": "Steinbeck la empezó como guion y la amplió a novela entre 1944 y 1947 mientras viajaba a México; las fuentes no precisan dónde.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:la-verdad-desde-la-tierra-de-israel": {
+    "decision": "sin-datos",
+    "motivo": "Ahad Haam publicó la serie en Ha-Melitz, de San Petersburgo, al volver a Odesa de su viaje de 1891; ninguna fuente consultada dice si la escribió en Palestina o en Odesa.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:landnamabok": {
     "decision": "sin-datos",
@@ -7654,6 +7859,11 @@
     "motivo": "Se desconoce dónde se escribió en Etruria.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:libro-de-los-asentamientos": {
+    "decision": "sin-datos",
+    "motivo": "Se conserva en versiones de Sturla Þórðarson y Haukr Erlendsson de las que no se sabe en qué granja o monasterio se escribió cada una.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:libro-de-taliesin": {
     "decision": "sin-datos",
     "motivo": "Manuscrito galés del siglo XIV sin lugar de copia identificado.",
@@ -7674,6 +7884,16 @@
     "motivo": "Son cuatro colecciones de distintos autores y lugares.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:los-deberes-del-hombre": {
+    "decision": "sin-datos",
+    "motivo": "Mazzini fue publicando el texto en entregas desde 1841 y se editó en forma de libro en 1860, sin un lugar único de escritura.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:los-dias-de-birmania": {
+    "decision": "sin-datos",
+    "motivo": "Wikipedia da un borrador en París (1928-1929), una revisión en Southwold (1932) y la versión final mecanografiada en diciembre de 1933 sin lugar, y la ficha abarca todo el período, así que no hay una ciudad única.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:mabinogi": {
     "decision": "sin-datos",
     "motivo": "Relatos anónimos galeses sin lugar de escritura conocido.",
@@ -7683,6 +7903,11 @@
     "decision": "sin-datos",
     "motivo": "Voltaire la escribió en varios lugares.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:manifiesto-apologetico-de-rosales": {
+    "decision": "sin-datos",
+    "motivo": "Se sabe que Rosales lo redactó en Chile en 1670, pero ninguna fuente consultada precisa la ciudad.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:manifiesto-guerrilla-del-acceso-abierto": {
     "decision": "sin-datos",
@@ -7694,10 +7919,25 @@
     "motivo": "Copista anónimo; el origen del manuscrito es desconocido.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:memoria-de-fontaneda": {
+    "decision": "sin-datos",
+    "motivo": "Se sabe que Fontaneda la escribió en España hacia 1575, pero no en qué ciudad.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:memoria-de-mis-putas-tristes": {
+    "decision": "sin-datos",
+    "motivo": "Salió en 2004 en ediciones simultáneas de varios países y no hallé una fuente que diga dónde la escribió García Márquez.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:mensaje-a-la-cienciologia": {
     "decision": "sin-datos",
     "motivo": "Video de un colectivo anónimo, sin lugar de producción conocido.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:militia-dei": {
+    "decision": "sin-datos",
+    "motivo": "No hallé la data de lugar de la bula del 7 de abril de 1145 en las fuentes consultadas.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:monarquia": {
     "decision": "sin-datos",
@@ -7719,10 +7959,20 @@
     "motivo": "Poemas de varios años en lugares distintos.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:oestreicher-1994": {
+    "decision": "sin-datos",
+    "motivo": "No pude confirmar la afiliación de Oestreicher ni la sede de la Archaeological Society of New Jersey que publicó el boletín.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:ojos-azules": {
     "decision": "sin-datos",
     "motivo": "Las fuentes consultadas no dicen en qué ciudad Morrison escribió la novela (1962-1969).",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:pabellon-del-cancer": {
+    "decision": "sin-datos",
+    "motivo": "La redacción de 1963-1966 pasó por Riazán y otros lugares donde estuvo Solzhenitsyn, y ninguna fuente consultada la fija en uno solo.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:pacto-de-omar": {
     "decision": "sin-datos",
@@ -7749,20 +7999,70 @@
     "motivo": "No se conoce dónde escribió Chrétien de Troyes.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:proceso-contra-el-cazonci": {
+    "decision": "sin-datos",
+    "motivo": "Las actas solo remiten a Michoacán en febrero de 1530 durante la marcha de Nuño de Guzmán, sin que haya confirmado el sitio exacto del interrogatorio.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:real-cedula-de-esclavitud-de-1608": {
+    "decision": "sin-datos",
+    "motivo": "No hallé en las fuentes consultadas el pie de data de la cédula, así que no se sabe en qué ciudad la firmó Felipe III.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:regimen-del-solitario": {
     "decision": "sin-datos",
     "motivo": "Se duda si lo escribió en al-Ándalus o el Magreb.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:relacion-de-carvajal": {
+    "decision": "sin-datos",
+    "motivo": "Carvajal redactó su relación tras descender el Amazonas en 1542, pero las fuentes consultadas no dicen en qué ciudad la escribió.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:relacion-de-francisco-vazquez": {
+    "decision": "sin-datos",
+    "motivo": "Vázquez escribió la relación tras volver de la jornada de Omagua y Dorado, pero ninguna fuente consultada dice dónde.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:relacion-de-las-cosas-de-yucatan": {
+    "decision": "sin-datos",
+    "motivo": "Se sabe que Landa la escribió en España hacia 1566 mientras se defendía en el proceso, pero no en qué ciudad.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:relacion-de-las-costumbres-antiguas": {
+    "decision": "sin-datos",
+    "motivo": "Es un tratado anónimo atribuido a Blas Valera, y ninguna fuente consultada dice en qué ciudad se redactó hacia 1590.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:requerimiento": {
+    "decision": "sin-datos",
+    "motivo": "Palacios Rubios lo redactó hacia 1513 en España, pero no hallé una fuente que diga en qué ciudad.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:rfc-2460": {
     "decision": "sin-datos",
     "motivo": "Es un documento colectivo del grupo de trabajo de la IETF, redactado por autores de distintas empresas, sin un lugar de escritura único en ninguna fuente.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:safarnama": {
+    "decision": "sin-datos",
+    "motivo": "Nasir-i Jusraw lo redactó tras su regreso de 1052 y la bibliografía consultada no precisa en qué ciudad.",
+    "fecha": "2026-11-13"
+  },
   "ref:sin-lugar:saga-de-egil": {
     "decision": "sin-datos",
     "motivo": "Autor y lugar discutidos.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:saga-de-erik-el-rojo": {
+    "decision": "sin-datos",
+    "motivo": "Es una saga anónima islandesa de datación aproximada, sin lugar de composición conocido más allá de Islandia.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:saga-de-los-groenlandeses": {
+    "decision": "sin-datos",
+    "motivo": "Es una saga anónima islandesa cuyo lugar de composición se desconoce más allá de Islandia.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:saga-de-njal": {
     "decision": "sin-datos",
@@ -7793,6 +8093,16 @@
     "decision": "sin-datos",
     "motivo": "No hay artículo ni fuente que diga dónde escribió al-Safadi la crónica.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:theologia-indorum": {
+    "decision": "sin-datos",
+    "motivo": "Vico la escribió en Guatemala hacia 1553-1554, pero las fuentes consultadas no dicen en cuál convento o ciudad.",
+    "fecha": "2026-11-13"
+  },
+  "ref:sin-lugar:tortilla-flat": {
+    "decision": "sin-datos",
+    "motivo": "No hallé una fuente que diga si Steinbeck escribió Tortilla Flat en 1934 en Pacific Grove, en Los Gatos o en otro sitio.",
+    "fecha": "2026-11-13"
   },
   "ref:sin-lugar:unwan-al-majd": {
     "decision": "sin-datos",
@@ -10153,25 +10463,5 @@
     "decision": "sin-datos",
     "motivo": "Lo único documentado en Transjordania entre 881 y 1080 son los terremotos de 1068, ajenos al tema; los jarráhidas y los cármatas aparecen en las fuentes sobre todo en Palestina y Siria.",
     "fecha": "2026-11-12"
-  },
-  "capa:groenlandia:eras:-21000:-2501": {
-    "decision": "descartado",
-    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
-    "fecha": "2026-11-13"
-  },
-  "capa:groenlandia:religiones:-21000:-2501": {
-    "decision": "descartado",
-    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
-    "fecha": "2026-11-13"
-  },
-  "capa:groenlandia:culturas:-21000:-2501": {
-    "decision": "descartado",
-    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
-    "fecha": "2026-11-13"
-  },
-  "capa:groenlandia:idiomas:-21000:-2501": {
-    "decision": "descartado",
-    "motivo": "Groenlandia no tuvo población humana antes de las culturas Saqqaq e Independencia I (hacia 2500 a. C.): antes no hay era, religión, cultura ni idioma que pintar",
-    "fecha": "2026-11-13"
   }
 }
