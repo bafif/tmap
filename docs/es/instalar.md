@@ -4,29 +4,50 @@
 
 ## Bajar la versión de tu sistema
 
-TellMAP no se instala: se baja el zip de tu sistema desde la
+En Linux y Windows, TellMAP no se instala: se baja el zip de tu sistema desde la
 [última versión](https://github.com/bafif/tmap/releases/latest), se descomprime y se abre. Los datos van dentro del
-ejecutable.
+ejecutable. En macOS conviene el instalador ([abajo](#macos)).
 
 | Sistema | Archivo | Qué se abre |
 |---|---|---|
 | Linux (x86_64) | `TellMAP-<versión>-linux-x86_64.zip` | `TellMAP.x86_64` |
 | Windows (x86_64) | `TellMAP-<versión>-windows-x86_64.zip` | `TellMAP.exe` |
-| macOS (Intel y Apple Silicon) | `TellMAP-<versión>-macos-universal.zip` | `TellMAP.app` |
+| macOS con Apple Silicon (M1, M2…) | `TellMAP-<versión>-macos-arm64.dmg` (o `.zip`) | `TellMAP.app` |
+| macOS con Intel | `TellMAP-<versión>-macos-x86_64.dmg` (o `.zip`) | `TellMAP.app` |
 
 Lo que guarda la app (los ajustes, la caché de Wikipedia, lo que editás con el editor de la enciclopedia y los datos
 que bajan las actualizaciones) queda en la carpeta del usuario: `~/.local/share/godot/app_userdata/TellMAP/` en Linux
-y `%APPDATA%\Godot\app_userdata\TellMAP\` en Windows. Para desinstalarla, se borra la carpeta de la app y, si querés,
+`%APPDATA%\Godot\app_userdata\TellMAP\` en Windows y `~/Library/Application Support/Godot/app_userdata/TellMAP/` en
+macOS. Para desinstalarla, se borra la carpeta de la app y, si querés,
 la carpeta del usuario.
 
-## macOS: la primera vez
+## macOS
 
-La versión de macOS tiene una firma ad hoc y no está notarizada por Apple. La primera vez, macOS dice que no puede
-comprobarla: se abre igual desde **Configuración del Sistema → Privacidad y seguridad**, o en la Terminal con
-`xattr -dr com.apple.quarantine TellMAP.app`.
+Se abre la Terminal (Aplicaciones → Utilidades → Terminal), se pega esto y se aprieta Enter:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/instalar-macos.sh | bash
+```
+
+El instalador ([`tools/instalar-macos.sh`](../../tools/instalar-macos.sh)) se fija si la Mac es Intel o Apple Silicon,
+baja esa versión de la última de GitHub, comprueba la firma, la deja en `/Applications` (o en `~/Applications` si no
+se puede escribir ahí) y la abre. Anda en cualquier Mac con macOS 11 o más nuevo, y la app se abre a la primera.
+
+### Por qué un instalador y no el doble clic
+
+La app tiene una firma ad hoc y no está notarizada por Apple (eso pide una cuenta de Apple Developer, de 99 USD por
+año). Lo que baja el navegador queda marcado «en cuarentena», y macOS no abre una app en cuarentena sin notarizar:
+dice «"TellMAP" no se puede abrir porque Apple no puede revisar si contiene software malicioso». Lo que baja `curl`
+desde la Terminal no queda en cuarentena, así que macOS la abre sin preguntar.
+
+Si bajaste el `.dmg` o el `.zip` con el navegador, la primera vez hay que abrirla desde **Configuración del Sistema →
+Privacidad y seguridad**, más abajo, con «Abrir igualmente», o sacarle la cuarentena en la Terminal con
+`xattr -dr com.apple.quarantine /Applications/TellMAP.app`.
+
+### Actualizar
 
 En macOS los datos se actualizan solos, pero la app no: cuando hay una versión nueva, el aviso lleva a la página de
-descarga.
+la versión, y para instalarla se vuelve a correr el mismo comando.
 
 ## Si se ve en negro o con fallas
 
