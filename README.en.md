@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/logo/tellmap-icono.svg" width="96" alt="">
+
 # TellMAP
 
 **World history on a living map, with its sources at hand.**<br>
