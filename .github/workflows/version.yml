@@ -50,6 +50,24 @@ jobs:
           unzip -q plantillas.tpz -d plantillas
           mv plantillas/templates/* "$destino/"
 
+      # La plantilla oficial de macOS trae un solo ejecutable universal (Intel y Apple Silicon). Para exportar uno por
+      # procesador, Godot busca godot_macos_release.arm64 y .x86_64 al lado: se sacan del universal con llvm-lipo, y
+      # Godot firma (ad hoc) el que copia al exportar.
+      - name: Separar la plantilla de macOS en Intel y Apple Silicon
+        run: |
+          lipo="$(command -v llvm-lipo || ls /usr/bin/llvm-lipo-* /usr/lib/llvm-*/bin/llvm-lipo 2>/dev/null | sort -V | tail -1 || true)"
+          if [ -z "$lipo" ]; then sudo apt-get install -y -qq llvm >/dev/null; lipo="$(command -v llvm-lipo)"; fi
+          destino="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          mkdir plantilla-macos && cd plantilla-macos
+          unzip -q "$destino/macos.zip"
+          dir=macos_template.app/Contents/MacOS
+          for arq in arm64 x86_64; do
+            "$lipo" "$dir/godot_macos_release.universal" -thin "$arq" -output "$dir/godot_macos_release.$arq"
+            chmod +x "$dir/godot_macos_release.$arq"
+            zip -q "$destino/macos.zip" "$dir/godot_macos_release.$arq"
+          done
+          "$lipo" -info "$dir/godot_macos_release.arm64" "$dir/godot_macos_release.x86_64"
+
       - name: Importar el proyecto
         run: godot --headless --path . --import || true
 
@@ -121,12 +139,15 @@ jobs:
           EOF
           gh release edit "$ETIQUETA" --notes-file notas.md
 
-      # Una versión preliminar (para probar los ejecutables) no se anuncia a las apps instaladas.
+      # Una versión preliminar (para probar los ejecutables) no se anuncia a las apps instaladas. Se pregunta a GitHub y
+      # no al evento, para que valga también al correrlo a mano.
       - name: Publicar la actualización automática
-        if: github.event.release.prerelease != true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          if [ "$(gh release view "$ETIQUETA" --json isPrerelease -q .isPrerelease)" = "true" ]; then
+            echo "Versión preliminar: no se publica la actualización automática."; exit 0
+          fi
           gh release download actualizaciones -p actualizacion.json -D previo || true
           python3 tools/actualizacion/publicar.py manifiesto --etiqueta "$ETIQUETA" --salida subir \
             --previo previo/actualizacion.json --repo "$GITHUB_REPOSITORY" \
