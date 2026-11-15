@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 REPO = "bafif/tmap"
-DUENO = "bafif"
+DUENO = REPO.split("/")[0]
 PROYECTO = "TellMAP"
 PAGINA = "https://bafif.github.io/tmap/"
 RAIZ = Path(__file__).resolve().parents[2]
