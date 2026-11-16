@@ -43,7 +43,7 @@ MANIFIESTO = "extraccion.json"
 # son ids (familia, padre, regiones, obras, fuentes, autor_id), valores cerrados (peso, tipo, genero, confianza,
 # capa), años, coordenadas, colores, wikipedia y wikidata, las direcciones de leer (su título sí), las fuentes bibliográficas de la
 # demografía y las referencias de la ficha extendida, los títulos originales y lo que no se muestra (la descripción del
-# paquete, ia, revision, origen).
+# paquete, revision, origen).
 CAMPOS: dict[str, list[str]] = {
     "regiones": [
         "nombre", "resumen",

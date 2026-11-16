@@ -822,10 +822,6 @@ msgid "No encontré «%s» en %s."
 msgstr "Couldn't find “%s” in %s."
 
 #: scripts/interfaz/editor_enciclopedia.gd
-msgid ", con IA"
-msgstr ", with AI"
-
-#: scripts/interfaz/editor_enciclopedia.gd
 msgid "No hay borradores."
 msgstr "There are no drafts."
 
@@ -1030,10 +1026,6 @@ msgid "Entidad de Cliopatria: %s%s; consultada %s veces%s."
 msgstr "Cliopatria entity: %s%s; looked up %s times%s."
 
 #: scripts/interfaz/editor_enciclopedia.gd
-msgid "[b]La ficha extendida la redactó una IA[/b] (%s, %s) a partir de las fuentes del borrador: revisá cada afirmación contra la fuente que cita."
-msgstr "[b]The extended entry was drafted by an AI[/b] (%s, %s) from the draft's sources: check every claim against the source it cites."
-
-#: scripts/interfaz/editor_enciclopedia.gd
 msgid "Los textos que vienen de Wikipedia se publican con su licencia, CC BY-SA 4.0."
 msgstr "Texts taken from Wikipedia are published under its license, CC BY-SA 4.0."
 
@@ -1068,18 +1060,6 @@ msgstr "Extended entry for %s"
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "[b]Referencias[/b]\n"
 msgstr "[b]References[/b]\n"
-
-#: scripts/interfaz/editor_enciclopedia.gd
-msgid "[b]Para revisar (lo marcó la verificación automática):[/b]\n"
-msgstr "[b]To review (flagged by the automatic check):[/b]\n"
-
-#: scripts/interfaz/editor_enciclopedia.gd
-msgid "[b]Fuentes que propone para leer[/b] (se cargan a mano con «Nuevo» en Fuentes):\n"
-msgstr "[b]Sources it suggests reading[/b] (add them by hand with “New” in Sources):\n"
-
-#: scripts/interfaz/editor_enciclopedia.gd
-msgid "[b]Lo que no pudo respaldar y quedó afuera:[/b]\n• "
-msgstr "[b]What it couldn't back up and left out:[/b]\n• "
 
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Revisión"
@@ -1814,16 +1794,8 @@ msgid "Referencias"
 msgstr "References"
 
 #: scripts/interfaz/panel_info.gd
-msgid "Redactada con IA (%s) a partir de las fuentes citadas%s."
-msgstr "Drafted with AI (%s) from the sources cited%s."
-
-#: scripts/interfaz/panel_info.gd
-msgid "; revisada por una persona el %s"
-msgstr "; reviewed by a person on %s"
-
-#: scripts/interfaz/panel_info.gd
-msgid ", sin revisión humana todavía"
-msgstr ", not yet reviewed by a person"
+msgid "Redactada a partir de las fuentes citadas; revisada por una persona el %s."
+msgstr "Written from the sources cited; reviewed by a person on %s."
 
 #: scripts/interfaz/panel_info.gd
 msgid "[b]Familia mayor:[/b] %s"

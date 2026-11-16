@@ -848,11 +848,9 @@ func _ficha_extendida(ext: Dictionary) -> void:
 	if not refs.is_empty():
 		_seccion(tr("Referencias"))
 		_parrafo("\n".join(refs), true)
-	var ia: Variant = ext.get("ia")
 	var rev: Variant = ext.get("revision")
-	if ia is Dictionary:
-		_nota(tr("Redactada con IA (%s) a partir de las fuentes citadas%s.") % [ia.get("modelo", "?"),
-			tr("; revisada por una persona el %s") % rev.get("fecha") if rev is Dictionary else tr(", sin revisión humana todavía")])
+	if rev is Dictionary:
+		_nota(tr("Redactada a partir de las fuentes citadas; revisada por una persona el %s.") % rev.get("fecha"))
 
 
 func _ficha_familia(f: Dictionary) -> void:

@@ -120,7 +120,7 @@ Lo que falta de cada paso y los hitos de cada versión están en [el progreso](.
 |---|---|---|
 | **0.1** | Mapa 2D, fronteras de 3400 a. C. a 2024, línea de tiempo, panel lateral, enciclopedia piloto (Egipto) y muestra mundial, Wikipedia en vivo, temas y calidades | Hecha |
 | **0.2** | Probar en otros equipos, bordes con campo de distancia para que no se vean los píxeles de cerca, agrupar marcadores superpuestos, exportar ejecutables, atajos de teclado y accesibilidad | Hecha, salvo probar en Windows, en Apple Silicon y en pantallas táctiles |
-| **0.3** | Enciclopedia progresiva: cola de lo que se consulta sin ficha, borradores con Wikipedia y Wikidata, fichas extendidas con IA citando fuentes, revisión humana (ver [la enciclopedia](enciclopedia.md)) | Hecha |
+| **0.3** | Enciclopedia progresiva: cola de lo que se consulta sin ficha, borradores con Wikipedia y Wikidata, fichas extendidas que citan sus fuentes, revisión humana (ver [la enciclopedia](enciclopedia.md)) | Hecha |
 | **0.4** | Datos abiertos a gran escala: lugares antiguos de [Pleiades](https://pleiades.stoa.org), personas de Wikidata con lugares y fechas, población por grilla de HYDE, relaciones de vasallaje de Cliopatria | En curso: Pleiades está |
 | **0.5** | Movimiento: migraciones, rutas comerciales, campañas y difusión de religiones como flechas animadas y partículas | |
 | **0.6** | Vista 3D con relieve, agua y efectos | |

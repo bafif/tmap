@@ -97,8 +97,8 @@ deja afuera pedazos de la región. El validador lo controla.
   aclaración que haga falta (incertidumbre, debates).
 - `extendida` (opcional): la ficha extendida, la historia completa por secciones (el nivel 3 de
   [la enciclopedia](../../docs/es/enciclopedia.md)). Cada afirmación lleva en el texto la marca `[n]` de su fuente, y
-  cada sección la lista en `citas`; cada `n` está en `referencias` con su URL. Si la redactó una IA, lleva `ia`
-  (modelo y fecha) y no se publica sin `revision` (fecha y nota de quien la revisó): el validador lo exige.
+  cada sección la lista en `citas`; cada `n` está en `referencias` con su URL. No se publica sin `revision` (fecha y
+  nota de quien la revisó): el validador lo exige.
 - `origen` (opcional): de qué borrador salió la región, cuándo se generó y cuándo se revisó. Lo pone el editor al
   aprobar el borrador.
 
@@ -110,7 +110,6 @@ deja afuera pedazos de la región. El validador lo controla.
   "referencias": [
     {"n": 1, "titulo": "Wikipedia (es), «Imperio otomano», Introducción", "url": "https://es.wikipedia.org/wiki/Imperio_otomano"}
   ],
-  "ia": {"modelo": "claude-opus-5-5", "fecha": "2026-11-07"},
   "revision": {"fecha": "2026-11-08", "nota": "Revisada contra el artículo; corregida la fecha de Bursa."}
 }
 ```
@@ -297,7 +296,7 @@ lo que no tiene traducción se ve en español. El editor de la app trabaja siemp
   los valores cerrados (`peso`, `tipo`, `genero`, `confianza`, `capa`: la app los traduce sola), años, coordenadas,
   colores, `wikipedia` (ya trae `en`), `wikidata`, la `url` de cada enlace de `leer` (su `titulo` sí se
   traduce), las `fuente` de la demografía, las
-  referencias de la ficha extendida, `titulo_original` ni lo que la app no muestra (`descripcion` del paquete, `ia`,
+  referencias de la ficha extendida, `titulo_original` ni lo que la app no muestra (`descripcion` del paquete,
   `revision`, `origen`).
 - Las capas se arman con `tools/traduccion/enciclopedia.py`: `estado` cuenta lo traducido, lo que falta y lo viejo,
   `extraer <carpeta>` saca lo pendiente en lotes JSON para traducir y `aplicar <respuestas>` vuelca las traducciones
@@ -307,10 +306,9 @@ lo que no tiene traducción se ve en español. El editor de la app trabaja siemp
 
 `paquetes/borradores/*.json` tiene el formato de un paquete y una sección más, `borrador`: el origen (la entidad de
 Cliopatria, su Wikidata y cuántas veces se consultó), la fecha, el estado («sin revisar»), las fuentes y el artículo
-de Wikipedia por secciones, sugerencias para quien revisa y, si se redactó con IA, `ia` con los avisos de la
-verificación automática, lo que se descartó y las fuentes de lectura que propone. La app no carga los borradores: se
-revisan y se aprueban en el editor, que pasa sus elementos a un paquete. Los arman `tools/enciclopedia/borradores.py`
-y `tools/enciclopedia/redactar.py` (ver [la enciclopedia](../../docs/es/enciclopedia.md)).
+de Wikipedia por secciones y sugerencias para quien revisa. La app no carga los borradores: se revisan y se aprueban
+en el editor, que pasa sus elementos a un paquete. Los arma `tools/enciclopedia/borradores.py` y la ficha extendida se
+les suma después (ver [la enciclopedia](../../docs/es/enciclopedia.md)).
 
 `python3 tools/enciclopedia/validar.py --borradores` los valida junto con los paquetes; en un borrador, la falta de
 área de estudio o de revisión es un aviso, no un error.

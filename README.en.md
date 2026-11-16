@@ -32,8 +32,8 @@ Aten"></p>
 - **Nothing made up.** Population figures are published estimates, with their author and range; the ones given by
   ancient authors are shown apart, as testimony. What isn't known is said to be unknown.
 - **An encyclopedia that grows in the open.** It's readable JSON packages, edited with forms inside the app. New
-  entries start from Wikipedia and Wikidata drafts, and the ones an AI writes cite their sources and aren't published
-  without human review.
+  entries start from Wikipedia and Wikidata drafts, extended entries cite their sources paragraph by paragraph, and
+  none is published without human review.
 - **No accounts, no telemetry.** It runs on your computer. It only goes online to ask Wikipedia and Pleiades for the
   summary of the entry you open (it's cached) and to check GitHub for updates, which can be turned off in Settings.
 

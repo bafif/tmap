@@ -101,9 +101,8 @@ of the region out. The validator checks it.
   clarification it needs (uncertainty, debates).
 - `extendida` (optional): the extended entry, the full history in sections (level 3 of
   [the encyclopedia](../../docs/en/encyclopedia.md)). Every claim carries the `[n]` mark of its source in the text,
-  and each section lists them in `citas`; every `n` is in `referencias` with its URL. If an AI drafted it, it carries
-  `ia` (model and date) and isn't published without `revision` (date and a note from whoever reviewed it): the
-  validator requires it.
+  and each section lists them in `citas`; every `n` is in `referencias` with its URL. It isn't published without
+  `revision` (date and a note from whoever reviewed it): the validator requires it.
 - `origen` (optional): which draft the region came from, when it was generated and when it was reviewed. The editor
   sets it when it approves the draft.
 
@@ -115,7 +114,6 @@ of the region out. The validator checks it.
   "referencias": [
     {"n": 1, "titulo": "Wikipedia (es), «Imperio otomano», Introducción", "url": "https://es.wikipedia.org/wiki/Imperio_otomano"}
   ],
-  "ia": {"modelo": "claude-opus-5-5", "fecha": "2026-11-07"},
   "revision": {"fecha": "2026-11-08", "nota": "Revisada contra el artículo; corregida la fecha de Bursa."}
 }
 ```
@@ -305,7 +303,7 @@ package loads; anything without a translation shows in Spanish. The app's editor
   fixed values (`peso`, `tipo`, `genero`, `confianza`, `capa`: the app translates them itself), years, coordinates,
   colors, `wikipedia` (it already has `en`), `wikidata`, the `url` of each `leer` link (its `titulo` is translated),
   the demographics' `fuente`, the extended entry's references, `titulo_original`, or anything the app doesn't show
-  (the package's `descripcion`, `ia`, `revision`, `origen`).
+  (the package's `descripcion`, `revision`, `origen`).
 - The layers are built with `tools/traduccion/enciclopedia.py`: `estado` counts what's translated, what's missing and
   what's stale, `extraer <carpeta>` pulls out what's pending in JSON batches for translation, and `aplicar
   <respuestas>` writes the translations in with their hash. They aren't edited by hand.
@@ -314,10 +312,9 @@ package loads; anything without a translation shows in Spanish. The app's editor
 
 `paquetes/borradores/*.json` has the format of a package plus one more section, `borrador`: the origin (the
 Cliopatria entity, its Wikidata item and how many times it was looked up), the date, the status ("sin revisar", not
-reviewed), the sources and the Wikipedia article by section, suggestions for the reviewer and, if it was drafted with
-AI, `ia` with the warnings from the automatic check, what was discarded and the reading sources it suggests. The app
-doesn't load drafts: they're reviewed and approved in the editor, which moves their items into a package. They're
-built by `tools/enciclopedia/borradores.py` and `tools/enciclopedia/redactar.py` (see
+reviewed), the sources, the Wikipedia article by section and suggestions for the reviewer. The app doesn't load
+drafts: they're reviewed and approved in the editor, which moves their items into a package. They're built by
+`tools/enciclopedia/borradores.py`, and the extended entry is added to them afterwards (see
 [the encyclopedia](../../docs/en/encyclopedia.md)).
 
 `python3 tools/enciclopedia/validar.py --borradores` validates them together with the packages; in a draft, a missing

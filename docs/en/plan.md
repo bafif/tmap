@@ -118,7 +118,7 @@ What's left of each step and the milestones of each version are in [the progress
 |---|---|---|
 | **0.1** | 2D map, borders from 3400 BC to 2024, timeline, side panel, pilot encyclopedia (Egypt) and world sample, live Wikipedia, themes and qualities | Done |
 | **0.2** | Testing on other machines, distance-field borders so pixels don't show up close, grouping overlapping markers, exporting executables, keyboard shortcuts and accessibility | Done, except testing on Windows, Apple Silicon and touchscreens |
-| **0.3** | Progressive encyclopedia: a queue of what gets looked up without an entry, drafts from Wikipedia and Wikidata, extended entries written with AI citing sources, human review (see [the encyclopedia](encyclopedia.md)) | Done |
+| **0.3** | Progressive encyclopedia: a queue of what gets looked up without an entry, drafts from Wikipedia and Wikidata, extended entries that cite their sources, human review (see [the encyclopedia](encyclopedia.md)) | Done |
 | **0.4** | Open data at scale: ancient places from [Pleiades](https://pleiades.stoa.org), people from Wikidata with places and dates, gridded population from HYDE, Cliopatria's vassalage relationships | In progress: Pleiades is in |
 | **0.5** | Movement: migrations, trade routes, campaigns and the spread of religions as animated arrows and particles | |
 | **0.6** | 3D view with relief, water and effects | |

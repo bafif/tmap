@@ -36,9 +36,8 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 
 ### Enciclopedia progresiva (0.3)
 
-- [ ] **Primera corrida real de `redactar.py`.** La verificación (citas, cifras, enlaces) está probada con una
-      respuesta guardada; falta correrlo contra la API sobre un borrador real y revisar el resultado en el editor.
-      Necesita una credencial de la API, que paga quien lo corre.
+- [ ] **Primeras fichas extendidas.** El formato, el validador y la revisión en el editor están; falta redactarlas
+      sobre borradores reales y revisarlas en el editor.
 
 ### Contenido de la enciclopedia
 
@@ -378,9 +377,8 @@ Trae lo planeado para la 0.2, que no tuvo versión propia, y la enciclopedia pro
   solo lo cambiado; en la versión exportada guarda copias en la carpeta del usuario.
 - **Cola de consultas sin ficha**, que queda en la computadora, y **borradores desde Wikipedia y Wikidata** para lo
   más consultado (`borradores.py`).
-- **Fichas extendidas con IA** (`redactar.py`), sin confiar en el modelo: se descartan los párrafos sin cita válida,
-  se marcan los años y cifras que no están en lo citado y se comprueban los enlaces. Ninguna pasa el validador sin
-  revisión humana.
+- **Fichas extendidas con citas obligatorias**: el validador rechaza las secciones sin cita y las citas a fuentes que
+  no están en las referencias, y ninguna pasa sin revisión humana.
 - **Datos dudosos revisados**: la población de Egipto según Butzer, los censos Han y los enlaces equivocados de
   Cliopatria, que se corrigen en `data/mapa/correcciones.json` con su porqué. Los 33 estados que Cliopatria trae dos
   veces se unifican al cargar.

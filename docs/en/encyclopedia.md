@@ -68,7 +68,7 @@ piece of data says where it came from.
 
 TellMAP doesn't use Grokipedia: as of November 2026 it has no official API (there are only unofficial clients that
 read the site) and a good part of its content is derived from Wikipedia. It uses Wikipedia (public, stable API,
-CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that writes *from cited sources*.
+CC BY-SA) and Wikidata (structured data, CC0); the long entries are written *from those sources, cited*.
 
 ## Four entry levels
 
@@ -77,7 +77,7 @@ CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that wr
 | 0 | Cliopatria data: name, years and territory | The whole world |
 | 1 | Live Wikipedia summary | Everything that has an article |
 | 2 | Curated entry: eras, primary and secondary sources, people, events, population, religion, culture and language | The regions and topics in the packages |
-| 3 | Extended "encyclopedia-style" entry: full history by sections, written with AI from cited sources and reviewed | The tools are ready; no entries published yet |
+| 3 | Extended "encyclopedia-style" entry: full history by sections, written from cited sources and reviewed | The editor and the validator are ready; no entries published yet |
 
 ## How it gets filled in
 
@@ -94,20 +94,18 @@ CC BY-SA), Wikidata (structured data, CC0) and, for the long entries, AI that wr
    - from Cliopatria, the entity's years.
 
    It leaves this in `data/enciclopedia/paquetes/borradores/`, in the schema format and marked "unreviewed".
-3. **AI writing, with mandatory citations.** `python3 tools/enciclopedia/redactar.py <borrador>` passes an Anthropic
-   model the draft's sources, numbered (each section of the article and the Wikidata record), and asks it for the
-   history by sections, citing in each paragraph which source it comes from. Then, without trusting the model, it
-   discards paragraphs with no valid citation, flags for review the years and figures that don't appear in the
-   sources they cite, and checks one by one the reading links it suggests. It needs Anthropic's SDK
-   (`pip install anthropic`) and an API credential; each entry costs on the order of USD 0.15 to 0.40 with the default
-   model.
+3. **Extended entry, with mandatory citations.** On top of the draft, the history is written by sections from its
+   numbered sources (each section of the article and the Wikidata record), and every paragraph says with `[n]` which
+   source it comes from. It goes in the region's `extendida` ([the schema](../../data/enciclopedia/ESQUEMA.en.md)):
+   `python3 tools/enciclopedia/validar.py --borradores` rejects sections with no citation and citations to sources
+   that aren't in the references.
 4. **Human review.** In the app, Settings → "Open the encyclopedia editor" → Drafts: the study area is computed from
-   the Cliopatria territory, each item is opened and corrected, the extended entry is read along with the
-   verification warnings and, when everything is right, you tick "I checked every fact and every section against its
-   sources" and approve it. Only then do the items move into a package, with the date and the review note. An
-   AI-written entry without review doesn't pass the validator.
-5. **Little by little, by hand.** It's run in small batches, when needed, never unattended: that keeps the cost under
-   control, and the quality too.
+   the Cliopatria territory, each item is opened and corrected, the extended entry is read against its sources and,
+   when everything is right, you tick "I checked every fact and every section against its sources" and approve it.
+   Only then do the items move into a package, with the date and the review note. An extended entry without review
+   doesn't pass the validator.
+5. **Little by little.** It's filled in in small batches, when needed, never unattended: that way the review covers
+   everything that goes in.
 
 ## Leaving no gaps in what has been researched
 

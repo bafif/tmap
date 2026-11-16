@@ -16,7 +16,7 @@ ficha y cuántas veces. Por cada entrada con Wikidata, el script junta:
 
 Y escribe data/enciclopedia/paquetes/borradores/<id>.json: un paquete con una región (sin área de estudio: se calcula
 en el editor con el territorio de Cliopatria), lugares, personas y hechos, más una sección `borrador` con el origen,
-el estado «sin revisar» y el artículo por secciones (lo usa redactar.py). La app no carga los borradores: se revisan y
+el estado «sin revisar» y el artículo por secciones (la base de la ficha extendida). La app no carga los borradores: se revisan y
 aprueban en el editor (Ajustes → Abrir el editor → Borradores). Nada se publica solo.
 
 Corre a mano y en lotes chicos. Respeta la política de Wikimedia: User-Agent propio, pedidos de a uno, pausas y

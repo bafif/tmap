@@ -32,8 +32,8 @@ Atón"></p>
 - **Nada inventado.** Las cifras de población son estimaciones publicadas, con su autor y su rango; las que dan los
   autores antiguos se muestran aparte, como testimonio. Lo que no se sabe, se dice.
 - **Una enciclopedia que crece a la vista.** Son paquetes JSON legibles que se editan con formularios dentro de la app.
-  Las fichas nuevas salen de borradores de Wikipedia y Wikidata, y las que redacta una IA citan sus fuentes y no se
-  publican sin revisión humana.
+  Las fichas nuevas salen de borradores de Wikipedia y Wikidata, las extendidas citan sus fuentes párrafo por párrafo
+  y ninguna se publica sin revisión humana.
 - **Sin cuentas ni telemetría.** Corre en tu computadora. Sale a internet solo para pedirles a Wikipedia y a Pleiades
   el resumen de la ficha que abrís (queda en caché) y para buscar actualizaciones en GitHub, que se apaga en Ajustes.
 

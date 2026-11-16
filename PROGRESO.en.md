@@ -36,9 +36,8 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 
 ### Progressive encyclopedia (0.3)
 
-- [ ] **First real run of `redactar.py`.** The verification (citations, figures, links) is tested with a saved
-      response; it still has to run against the API on a real draft, and the result has to be reviewed in the editor.
-      It needs an API credential, paid for by whoever runs it.
+- [ ] **First extended entries.** The format, the validator and the review in the editor are ready; they still
+      have to be written on real drafts and reviewed in the editor.
 
 ### Encyclopedia content
 
@@ -377,9 +376,8 @@ It brings what was planned for 0.2, which had no release of its own, and the pro
   in the exported build it saves copies in the user folder.
 - **Queue of lookups without an entry**, which stays on the computer, and **drafts from Wikipedia and Wikidata** for
   what's looked up most (`borradores.py`).
-- **Extended entries with AI** (`redactar.py`), without trusting the model: paragraphs without a valid citation are
-  dropped, years and figures not in the cited text are flagged and links are checked. None passes the validator
-  without human review.
+- **Extended entries with mandatory citations**: the validator rejects sections with no citation and citations to
+  sources that aren't in the references, and none passes without human review.
 - **Doubtful data reviewed**: Egypt's population according to Butzer, the Han censuses and Cliopatria's wrong links,
   which are corrected in `data/mapa/correcciones.json` with the reason. The 33 states Cliopatria lists twice are
   merged on load.

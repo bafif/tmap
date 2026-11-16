@@ -94,9 +94,8 @@ def extendida(ext, d, es_borrador):
             errores.append(f"{d}/extendida: «{s.get('titulo')}» cita [{c}], que no está en las referencias")
         if not citas:
             errores.append(f"{d}/extendida: «{s.get('titulo')}» no cita ninguna fuente")
-    if isinstance(ext.get("ia"), dict) and not isinstance(ext.get("revision"), dict):
-        (avisos if es_borrador else errores).append(
-            f"{d}/extendida: redactada con IA y sin revisión humana (falta «revision»)")
+    if not isinstance(ext.get("revision"), dict):
+        (avisos if es_borrador else errores).append(f"{d}/extendida: sin revisión humana (falta «revision»)")
 
 
 def controlar_cobertura():

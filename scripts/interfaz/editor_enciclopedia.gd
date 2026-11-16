@@ -335,8 +335,7 @@ func _llenar_lista() -> void:
 	if _seccion == "borradores":
 		for ruta in Edicion.borradores():
 			var meta: Dictionary = Edicion.leer(ruta).get("borrador", {})
-			var texto := "%s   · %s%s" % [meta.get("titulo", ruta.get_file()), meta.get("estado", "sin revisar"),
-				tr(", con IA") if meta.get("ia") is Dictionary else ""]
+			var texto := "%s   · %s" % [meta.get("titulo", ruta.get_file()), meta.get("estado", "sin revisar")]
 			if filtro == "" or texto.to_lower().contains(filtro):
 				_lista.add_item(texto)
 				_filas_lista.append([ruta, ""])
@@ -1148,10 +1147,6 @@ func _mostrar_borrador(ruta: String) -> void:
 			" (%s)" % origen["wikidata"] if origen.get("wikidata") else "", origen.get("veces", "?"),
 			tr(", hacia %s") % ", ".join(PackedStringArray((origen.get("anios", []) as Array).slice(0, 4).map(func(a): return Fechas.texto(int(a))))) \
 				if not (origen.get("anios", []) as Array).is_empty() else ""])
-	var ia: Variant = meta.get("ia")
-	if ia is Dictionary:
-		lineas.append(tr("[b]La ficha extendida la redactó una IA[/b] (%s, %s) a partir de las fuentes del borrador: revisá cada afirmación contra la fuente que cita.") % [
-			ia.get("modelo", "?"), ia.get("fecha", "?")])
 	lineas.append(tr("Los textos que vienen de Wikipedia se publican con su licencia, CC BY-SA 4.0."))
 	_parrafo("\n".join(lineas))
 
@@ -1202,21 +1197,6 @@ func _mostrar_borrador(ruta: String) -> void:
 			refs.append("[%s] [url=%s]%s[/url]" % [ref.get("n"), ref.get("url"), ref.get("titulo", ref.get("url"))])
 		if not refs.is_empty():
 			_parrafo(tr("[b]Referencias[/b]\n") + "\n".join(refs))
-
-	if ia is Dictionary:
-		var notas: Array = []
-		for x in ia.get("avisos", []):
-			notas.append("• " + str(x))
-		if not notas.is_empty():
-			_parrafo(tr("[b]Para revisar (lo marcó la verificación automática):[/b]\n") + "\n".join(notas))
-		var props: Array = []
-		for f in ia.get("fuentes_propuestas", []):
-			var t_f := "%s, [i]%s[/i] (%s, %s): %s" % [f.get("autor", ""), f.get("titulo", ""), f.get("tipo", ""), f.get("fecha", ""), f.get("por_que", "")]
-			props.append("• " + ("[url=%s]%s[/url]" % [f["url"], t_f] if str(f.get("url", "")) != "" else t_f))
-		if not props.is_empty():
-			_parrafo(tr("[b]Fuentes que propone para leer[/b] (se cargan a mano con «Nuevo» en Fuentes):\n") + "\n".join(props))
-		if not (ia.get("descartado", []) as Array).is_empty():
-			_parrafo(tr("[b]Lo que no pudo respaldar y quedó afuera:[/b]\n• ") + "\n• ".join(ia["descartado"]))
 
 	var val := Edicion.validar_borrador(d)
 	_seccion_texto(tr("Revisión"))

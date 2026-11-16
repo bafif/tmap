@@ -66,8 +66,8 @@ dato dice de dónde salió.
 ## ¿Y Grokipedia?
 
 TellMAP no usa Grokipedia: a noviembre de 2026 no tiene una API oficial (solo hay clientes no oficiales que leen el
-sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API pública y estable, CC BY-SA), Wikidata
-(datos estructurados, CC0) y, para las fichas largas, IA que redacta *a partir de fuentes citadas*.
+sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API pública y estable, CC BY-SA) y Wikidata
+(datos estructurados, CC0); las fichas largas se redactan *a partir de esas fuentes, citadas*.
 
 ## Cuatro niveles de ficha
 
@@ -76,7 +76,7 @@ sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API 
 | 0 | Datos de Cliopatria: nombre, años y territorio | Todo el mundo |
 | 1 | Resumen de Wikipedia en vivo | Todo lo que tenga artículo |
 | 2 | Ficha curada: eras, fuentes primarias y secundarias, personas, hechos, población, religión, cultura e idioma | Las regiones y los temas de los paquetes |
-| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada con IA desde fuentes citadas y revisada | Las herramientas están; todavía no hay fichas publicadas |
+| 3 | Ficha extendida «estilo enciclopedia»: historia completa por secciones, redactada desde fuentes citadas y revisada | El editor y el validador están; todavía no hay fichas publicadas |
 
 ## Cómo se completa
 
@@ -93,19 +93,18 @@ sitio) y buena parte de su contenido se deriva de Wikipedia. Usa Wikipedia (API 
    - de Cliopatria, los años de la entidad.
 
    Lo deja en `data/enciclopedia/paquetes/borradores/`, con el formato del esquema y marcado «sin revisar».
-3. **Redacción con IA, con citas obligatorias.** `python3 tools/enciclopedia/redactar.py <borrador>` le pasa a un
-   modelo de Anthropic las fuentes del borrador numeradas (cada sección del artículo y la ficha de Wikidata) y le pide
-   la historia por secciones, citando en cada párrafo de qué fuente sale. Después, sin confiar en el modelo, descarta
-   los párrafos sin cita válida, marca para revisar los años y cifras que no aparecen en las fuentes que citan, y
-   comprueba uno por uno los enlaces de lectura que propone. Necesita el SDK de Anthropic (`pip install anthropic`) y
-   una credencial de su API; cada ficha cuesta del orden de 0,15 a 0,40 USD con el modelo por defecto.
+3. **Ficha extendida, con citas obligatorias.** Sobre el borrador se redacta la historia por secciones a partir de
+   sus fuentes numeradas (cada sección del artículo y la ficha de Wikidata), y cada párrafo dice con `[n]` de qué
+   fuente sale. Va en `extendida` de la región ([el esquema](../../data/enciclopedia/ESQUEMA.md)):
+   `python3 tools/enciclopedia/validar.py --borradores` rechaza las secciones sin cita y las citas a fuentes que no
+   están en las referencias.
 4. **Revisión humana.** En la app, Ajustes → «Abrir el editor de la enciclopedia» → Borradores: se calcula el área de
-   estudio con el territorio de Cliopatria, se abre y corrige cada elemento, se lee la ficha extendida con los avisos
-   de la verificación y, cuando todo está bien, se marca «Revisé cada dato y cada sección contra sus fuentes» y se
-   aprueba. Recién ahí los elementos pasan a un paquete, con la fecha y la nota de la revisión. Una ficha redactada
-   con IA sin revisión no pasa el validador.
-5. **De a poco y a mano.** Se corre en lotes chicos, cuando hace falta, nunca de forma desatendida: así el costo queda
-   controlado y la calidad también.
+   estudio con el territorio de Cliopatria, se abre y corrige cada elemento, se lee la ficha extendida contra sus
+   fuentes y, cuando todo está bien, se marca «Revisé cada dato y cada sección contra sus fuentes» y se aprueba. Recién
+   ahí los elementos pasan a un paquete, con la fecha y la nota de la revisión. Una ficha extendida sin revisión no
+   pasa el validador.
+5. **De a poco.** Se completa en lotes chicos, cuando hace falta, nunca de forma desatendida: así la revisión alcanza
+   a todo lo que entra.
 
 ## Que lo investigado no quede con huecos
 
