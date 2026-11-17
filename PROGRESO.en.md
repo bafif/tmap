@@ -20,11 +20,6 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 - [ ] **Make the macOS app update itself too.** On macOS only the data updates; for a new app version, the notice
       leads to the download page. Changing the executable inside `TellMAP.app` invalidates its signature: the whole
       `.app` has to be downloaded (a zip), swapped in one go and reopened.
-- [x] **Install on macOS on the first try.** Downloaded with a browser, the app (ad hoc signature, not notarized) is
-      quarantined and macOS won't open it ("Apple cannot check it for malicious software"). It now installs with
-      `tools/instalar-macos.sh` from Terminal: it picks the Intel or Apple Silicon build (there's a zip and a `.dmg` for
-      each, half the size of the universal one), puts it in Applications and opens it without quarantine.
-      `verificar-macos` installs it that way on a runner of each kind before leaving it published.
 - [ ] **Sign and notarize the macOS version** with an Apple Developer account (99 USD a year), so it opens with a
       double click without going through Privacy & Security.
 - [ ] **See the macOS `.dmg` working.** `verificar-macos` builds with `hdiutil` a `.dmg` with `TellMAP.app` and a
@@ -279,8 +274,12 @@ New packages reach installed copies as data updates, without waiting for an app 
 - **Families of religions, cultures and languages** (`familias.json`), with a hierarchy and a fixed color, so the same
   religion always has the same color and the legend groups by family.
 
-### Next version
+### 0.3.6 (November 17, 2026)
 
+- **macOS installs on the first try**: a Terminal command (`tools/instalar-macos.sh`) picks the Intel or Apple
+  Silicon build, puts it in Applications and opens it without quarantine, with no trip to Privacy & Security. The
+  universal zip is replaced by one per processor, half the size.
+- **The logo**: the compass rose, which replaces the Godot icon in the app and on the site.
 - **The editor test no longer piles up forms**: it waits one frame every 50 items, because what is taken out of the
   scene is only freed at the end of the frame, and with the whole encyclopedia a single section went over 3.8 GB.
 
@@ -306,7 +305,7 @@ New packages reach installed copies as data updates, without waiting for an app 
 - **The wheel, the timeline and touchscreens**: the wheel over a window no longer moves the map; the timeline is
   scrolled by dragging without changing its scale; a finger moves the map, zooms and taps places, with a wider margin
   than the mouse. The automatic test sends touch events the way Godot sends them.
-- **A `.dmg` for macOS** in every release, alongside the zip.
+- **A `.dmg` for macOS** in every release (one for Intel and one for Apple Silicon), alongside the zip.
 - **The list of a marker group**: clicking a group opens in the panel the list of its events, people and sources,
   each with its card, and a button that zooms the map in until they separate; going back from a card returns to the
   list.

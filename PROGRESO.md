@@ -20,11 +20,6 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 - [ ] **Que la app de macOS también se actualice sola.** En macOS solo se actualizan los datos; con una versión nueva
       de la app, el aviso lleva a la página de descarga. Cambiar el ejecutable de adentro de `TellMAP.app` invalida su
       firma: hay que bajar el `.app` entero (un zip), reemplazarlo de una vez y reabrir.
-- [x] **Instalar en macOS a la primera.** Bajada con el navegador, la app (firma ad hoc, sin notarizar) queda en
-      cuarentena y macOS no la abre («Apple no puede revisar si contiene software malicioso»). Ahora se instala con
-      `tools/instalar-macos.sh` desde la Terminal: elige la versión para Intel o para Apple Silicon (hay un zip y un
-      `.dmg` para cada una, la mitad de pesados que el universal), la deja en Aplicaciones y abre sin cuarentena.
-      `verificar-macos` la instala así en un runner de cada tipo antes de dejarla publicada.
 - [ ] **Firmar y notarizar la versión de macOS** con una cuenta de Apple Developer (99 USD por año), para que se
       abra con doble clic sin pasar por Privacidad y seguridad.
 - [ ] **Ver andar el `.dmg` de macOS.** `verificar-macos` arma con `hdiutil` un `.dmg` con `TellMAP.app` y un acceso a
@@ -281,8 +276,12 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 - **Familias de religiones, culturas e idiomas** (`familias.json`), con jerarquía y color fijo, para que la misma
   religión tenga siempre el mismo color y la leyenda agrupe por familia.
 
-### Próxima versión
+### 0.3.6 (17 de noviembre de 2026)
 
+- **macOS se instala a la primera**: un comando en la Terminal (`tools/instalar-macos.sh`) elige la versión para Intel
+  o para Apple Silicon, la deja en Aplicaciones y la abre sin cuarentena, sin pasar por Privacidad y seguridad. El
+  zip universal se reemplaza por uno para cada procesador, de la mitad de tamaño.
+- **El logo**: la rosa de los vientos, que reemplaza el ícono de Godot en la app y en el sitio.
 - **La prueba del editor no acumula formularios**: espera un cuadro cada 50 elementos, porque lo que se saca de la
   escena se libera recién al terminar el cuadro y con la enciclopedia entera una sola sección pasaba los 3,8 GB.
 
@@ -308,7 +307,7 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
 - **La rueda, la línea de tiempo y las pantallas táctiles**: la rueda sobre una ventana ya no mueve el mapa; la línea
   de tiempo se recorre arrastrando sin cambiar la escala; con el dedo se mueve, se acerca y se tocan lugares, con más
   margen que el mouse. La prueba automática manda los eventos táctiles como los manda Godot.
-- **Un `.dmg` para macOS** en cada versión, además del zip.
+- **Un `.dmg` para macOS** en cada versión (uno para Intel y otro para Apple Silicon), además del zip.
 - **La lista de un grupo de marcadores**: el clic en un grupo abre en el panel la lista de sus hechos, personas y
   fuentes, cada uno con su ficha, y un botón para acercar el mapa hasta separarlos; volver desde una ficha regresa a
   la lista.
