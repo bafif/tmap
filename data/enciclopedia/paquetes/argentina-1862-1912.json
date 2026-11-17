@@ -2231,6 +2231,647 @@
         }
       ],
       "confianza": "alta"
+    },
+    {
+      "id": "ley-27-1862",
+      "titulo": "Ley 27 de organización de la justicia nacional",
+      "titulo_original": null,
+      "autor": "Congreso de la Nación Argentina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1862,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1862,
+        "hasta": 1863
+      },
+      "idioma_original": "Español",
+      "soporte": "Ley",
+      "resumen": "Ley de octubre de 1862, de la presidencia de Mitre, que organizó la justicia nacional y fijó la composición de la Corte Suprema de Justicia, prevista por la Constitución desde 1853. La Corte se instaló en enero de 1863.",
+      "por_que_importa": "Es la ley que puso en funcionamiento a la Corte Suprema.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Corte Suprema de Justicia de la Nación",
+        "en": "Supreme Court of Argentina"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "decreto-escuela-normal-parana-1870",
+      "titulo": "Decreto de creación de la Escuela Normal de Paraná",
+      "titulo_original": null,
+      "autor": "Domingo Faustino Sarmiento y Nicolás Avellaneda",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1870,
+        "hasta": 1871
+      },
+      "idioma_original": "Español",
+      "soporte": "Decreto",
+      "resumen": "Decreto del 13 de junio de 1870 del presidente Sarmiento y su ministro Avellaneda que creó la Escuela Normal de Paraná, la primera escuela normal nacional, para formar maestros. Empezó a funcionar en 1871 bajo la dirección del estadounidense George Stearns.",
+      "por_que_importa": "Es el acto de fundación de la formación docente nacional.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "uranometria-argentina",
+      "titulo": "Uranometría argentina",
+      "titulo_original": "Uranometria Argentina",
+      "autor": "Benjamin Apthorp Gould",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1879,
+        "aprox": false,
+        "lugar": "Córdoba",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1871,
+        "hasta": 1879
+      },
+      "idioma_original": "Español",
+      "soporte": "Catálogo",
+      "resumen": "Atlas (1877) y catálogo (1879) de las estrellas visibles a simple vista del cielo austral, elaborados por Gould y sus ayudantes en el Observatorio Nacional de Córdoba, que Sarmiento había hecho fundar en 1871. Le valió a Gould la medalla de oro de la Real Sociedad Astronómica en 1883.",
+      "por_que_importa": "Es la obra principal del Observatorio de Córdoba en sus primeros años.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Benjamin Apthorp Gould",
+        "en": "Benjamin Apthorp Gould"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "curar-persuadir-gobernar-gonzalez-leandri",
+      "titulo": "Curar, persuadir, gobernar: la construcción histórica de la profesión médica en Buenos Aires, 1852-1886",
+      "titulo_original": null,
+      "autor": "Ricardo González Leandri",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1852,
+        "hasta": 1886
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de cómo los médicos se constituyeron como profesión y se vincularon con el Estado en Buenos Aires. Trata las epidemias de cólera y de fiebre amarilla de 1867 a 1871, la higiene pública, los hospitales, la Asistencia Pública y la Facultad de Medicina.",
+      "por_que_importa": "Muestra el origen de la salud pública porteña después de las epidemias.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "laudo-hayes-1878",
+      "titulo": "Laudo arbitral del presidente Hayes sobre el Chaco",
+      "titulo_original": null,
+      "autor": "Rutherford B. Hayes",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1878,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "gran-chaco"
+        ],
+        "desde": 1876,
+        "hasta": 1878
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Laudo",
+      "resumen": "Laudo del 12 de noviembre de 1878 del presidente de los Estados Unidos sobre la región del Chaco entre los ríos Pilcomayo y Verde, que la Argentina y el Paraguay habían sometido a arbitraje. Falló a favor del Paraguay.",
+      "por_que_importa": "Resolvió la última parte del litigio de límites de la guerra de la Triple Alianza.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Laudo_de_Hayes",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Laudo Hayes"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-krausistas-argentinos-roig",
+      "titulo": "Los krausistas argentinos",
+      "titulo_original": null,
+      "autor": "Arturo Andrés Roig",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1860,
+        "hasta": 1916
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de la difusión de la filosofía de Krause en la Argentina a través de los manuales de Ahrens y de los krausistas españoles. Analiza su influencia en la enseñanza del derecho, en la pedagogía y en políticos como Hipólito Yrigoyen.",
+      "por_que_importa": "Es la obra de referencia sobre el krausismo argentino.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "salvadores-fundacion-de-la-plata",
+      "titulo": "Fundación de la ciudad de La Plata: documentos éditos e inéditos",
+      "titulo_original": null,
+      "autor": "Archivo Histórico de la Provincia de Buenos Aires (introducción de Antonino Salvadores)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1932,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1880,
+        "hasta": 1882
+      },
+      "idioma_original": "Español",
+      "soporte": "Colección de documentos",
+      "resumen": "Edición de documentos del Archivo Histórico de la Provincia de Buenos Aires sobre la federalización de la ciudad de Buenos Aires y la fundación de La Plata, con una introducción de Salvadores. Reúne leyes, decretos, planos y correspondencia de 1880 y 1882.",
+      "por_que_importa": "Es la colección de documentos principal sobre el origen de La Plata.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "moreno-museo-de-la-plata-1890",
+      "titulo": "El Museo de La Plata: rápida ojeada sobre su fundación y desarrollo",
+      "titulo_original": null,
+      "autor": "Francisco P. Moreno",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1890,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1884,
+        "hasta": 1890
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo de Moreno, director del museo, en el primer tomo de la Revista del Museo de La Plata. Cuenta cómo se creó el museo en 1884 sobre sus colecciones, la construcción del edificio y la organización de las secciones.",
+      "por_que_importa": "Es el relato del fundador sobre los comienzos del museo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "international-american-conference-1890",
+      "titulo": "Conferencia Internacional Americana: informes de comités y discusiones",
+      "titulo_original": "International American Conference: Reports of Committees and Discussions Thereon",
+      "autor": "Conferencia Internacional Americana",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1890,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "norteamerica"
+        ],
+        "desde": 1889,
+        "hasta": 1890
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Actas",
+      "resumen": "Actas oficiales de la primera conferencia de Estados americanos, reunida en Washington entre octubre de 1889 y abril de 1890. Recogen los debates sobre la unión aduanera, el arbitraje y los demás temas, con las intervenciones de los delegados argentinos Sáenz Peña y Quintana.",
+      "por_que_importa": "Son el registro oficial de la primera Conferencia Panamericana.",
+      "leer": [],
+      "wikipedia": {
+        "en": "First International Conference of American States"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tesis-grierson-1889",
+      "titulo": "Histero-ovariotomías efectuadas en el Hospital de Mujeres desde 1883 a 1889",
+      "titulo_original": null,
+      "autor": "Cecilia Grierson",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1889,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1883,
+        "hasta": 1889
+      },
+      "idioma_original": "Español",
+      "soporte": "Tesis",
+      "resumen": "Tesis con la que Cecilia Grierson se doctoró en medicina en la Universidad de Buenos Aires en 1889, la primera mujer argentina en recibirse. Estudia operaciones de histero-ovariotomía realizadas en el Hospital de Mujeres; la presentó el 2 de julio de 1889.",
+      "por_que_importa": "Es el trabajo de graduación de la primera médica argentina.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ley-universidad-de-santa-fe-1889",
+      "titulo": "Ley de creación de la Universidad Provincial de Santa Fe",
+      "titulo_original": null,
+      "autor": "Legislatura de la provincia de Santa Fe",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1889,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1889,
+        "hasta": 1890
+      },
+      "idioma_original": "Español",
+      "soporte": "Ley",
+      "resumen": "Ley de octubre de 1889, a iniciativa del gobernador José Gálvez, que creó la Universidad de Santa Fe con facultades de derecho, ciencias sociales y ciencias físicas y matemáticas. Se inauguró el 30 de abril de 1890.",
+      "por_que_importa": "Es el origen de la universidad que se nacionalizó en 1919 como Universidad Nacional del Litoral.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ley-2841-banco-de-la-nacion",
+      "titulo": "Ley 2841 de creación del Banco de la Nación Argentina",
+      "titulo_original": null,
+      "autor": "Congreso de la Nación Argentina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1891,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1891,
+        "hasta": 1891
+      },
+      "idioma_original": "Español",
+      "soporte": "Ley",
+      "resumen": "Ley del 26 de octubre de 1891, a iniciativa de Pellegrini, que creó el Banco de la Nación Argentina después de la quiebra de bancos oficiales en la crisis de 1890. Abrió el 1 de diciembre de 1891.",
+      "por_que_importa": "Es la ley que fundó el principal banco oficial argentino.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Banco de la Nación Argentina",
+        "en": "Banco de la Nación Argentina"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gonzalez-universidad-nacional-de-la-plata",
+      "titulo": "La Universidad Nacional de La Plata: memoria sobre su fundación",
+      "titulo_original": null,
+      "autor": "Joaquín V. González",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1905,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1890,
+        "hasta": 1905
+      },
+      "idioma_original": "Español",
+      "soporte": "Memoria",
+      "resumen": "Memoria del ministro de Justicia e Instrucción Pública sobre la nacionalización de la universidad provincial de La Plata en 1905. Expone el plan de una universidad con institutos científicos, el museo y el observatorio y reproduce los convenios con la provincia.",
+      "por_que_importa": "Es el proyecto y la justificación de la Universidad Nacional de La Plata.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-general-relaciones-exteriores-escude",
+      "titulo": "Historia general de las relaciones exteriores de la República Argentina",
+      "titulo_original": null,
+      "autor": "Carlos Escudé y Andrés Cisneros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "anio_hasta": 2003,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "chile",
+          "patagonia"
+        ],
+        "desde": 1806,
+        "hasta": 2000
+      },
+      "idioma_original": "Español",
+      "soporte": "Obra colectiva",
+      "resumen": "Obra colectiva de quince volúmenes, dirigida por Escudé y Cisneros, sobre la política exterior argentina desde las invasiones inglesas hasta 2000. Trata los conflictos de límites con Chile, los arbitrajes y la diplomacia regional.",
+      "por_que_importa": "Es una obra de referencia sobre la historia diplomática argentina.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "actas-primer-congreso-femenino-1910",
+      "titulo": "Primer Congreso Femenino Internacional de la República Argentina: historia, actas y trabajos",
+      "titulo_original": null,
+      "autor": "Asociación Universitarias Argentinas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1911,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1910,
+        "hasta": 1910
+      },
+      "idioma_original": "Español",
+      "soporte": "Actas",
+      "resumen": "Volumen impreso por A. Ceppi con la historia, las actas y los trabajos del congreso reunido en Buenos Aires en mayo de 1910 bajo la presidencia de Cecilia Grierson. Reúne las ponencias sobre educación, trabajo, derecho civil y ciencias.",
+      "por_que_importa": "Es el registro del primer congreso internacional de mujeres de la Argentina.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Primer Congreso Femenino Internacional"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-del-teatro-colon-caamano",
+      "titulo": "La historia del Teatro Colón, 1908-1968",
+      "titulo_original": null,
+      "autor": "Roberto Caamaño",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1908,
+        "hasta": 1968
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia en tres tomos del Teatro Colón desde la construcción del edificio actual y su inauguración con Aida en 1908 hasta 1968. Describe el edificio y recoge las temporadas, los elencos y la organización del teatro.",
+      "por_que_importa": "Es la historia de referencia del teatro.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-inaugural-teran-1914",
+      "titulo": "Discurso inaugural de la Universidad de Tucumán",
+      "titulo_original": null,
+      "autor": "Juan B. Terán",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "San Miguel de Tucumán",
+        "lon": -65.217,
+        "lat": -26.817
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1912,
+        "hasta": 1914
+      },
+      "idioma_original": "Español",
+      "soporte": "Discurso",
+      "resumen": "Discurso de Terán, impulsor de la universidad y su primer rector, en la inauguración del 25 de mayo de 1914. Expone el proyecto de una universidad orientada a los estudios técnicos y a las necesidades de la región.",
+      "por_que_importa": "Es el texto del fundador sobre el sentido de la universidad.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "penna-colera-en-la-argentina",
+      "titulo": "El cólera en la República Argentina",
+      "titulo_original": null,
+      "autor": "José Penna",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1897,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1856,
+        "hasta": 1895
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de las epidemias de cólera en la Argentina entre 1856 y 1895, escrito por un médico higienista. Incluye la epidemia de 1867 que llegó desde el frente de la guerra del Paraguay y afectó a Rosario, Buenos Aires y Córdoba.",
+      "por_que_importa": "Es la obra que la historiografía de la salud usa como fuente principal sobre las epidemias de cólera del siglo XIX.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "bosch-urquiza-y-su-tiempo",
+      "titulo": "Urquiza y su tiempo",
+      "titulo_original": null,
+      "autor": "Beatriz Bosch",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1801,
+        "hasta": 1870
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Biografía de Justo José de Urquiza, de su actuación en Entre Ríos y en la Confederación hasta su muerte. Cuenta las relaciones con López Jordán y el asesinato de Urquiza en el palacio San José en 1870.",
+      "por_que_importa": "Es la biografía de referencia de Urquiza, de una historiadora entrerriana especializada en su figura.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "hora-terratenientes-de-la-pampa",
+      "titulo": "Los terratenientes de la pampa argentina: una historia social y política, 1860-1945",
+      "titulo_original": "The Argentine Landowners of the Pampas: A Social and Political History, 1860-1945",
+      "autor": "Roy Hora",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1860,
+        "hasta": 1945
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de los grandes propietarios rurales de la pampa húmeda, de su economía, de su poder político y de sus organizaciones. Trata el papel de la Sociedad Rural Argentina como asociación de los hacendados.",
+      "por_que_importa": "Es un estudio de referencia sobre las élites rurales argentinas, publicado primero en inglés en 2001.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "penna-madero-asistencia-publica",
+      "titulo": "La Administración Sanitaria y Asistencia Pública de la Ciudad de Buenos Aires",
+      "titulo_original": null,
+      "autor": "José Penna y Horacio Madero",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1910,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1860,
+        "hasta": 1910
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia en dos tomos de la administración sanitaria y de la Asistencia Pública de la ciudad de Buenos Aires, escrita por dos de sus funcionarios. Reúne la organización de los servicios, los hospitales y la Casa de Aislamiento.",
+      "por_que_importa": "Es la historia de los servicios sanitarios porteños escrita desde la propia administración, con lo que su lectura debe tener en cuenta ese punto de vista.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5461,7 +6102,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla del Riachuelo",
         "en": "Battle of Riachuelo"
@@ -5481,7 +6124,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-guerra-del-paraguay-y-las-montoneras"
+      ],
       "wikipedia": {
         "es": "Desbande de Basualdo"
       }
@@ -5500,7 +6145,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Yatay",
         "en": "Battle of Yatay"
@@ -5521,7 +6168,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Sitio de Uruguayana",
         "en": "Siege of Uruguaiana"
@@ -5542,7 +6191,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Tuyutí",
         "en": "Battle of Tuyutí"
@@ -5582,7 +6233,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Curupaytí",
         "en": "Battle of Curupayty"
@@ -5625,7 +6278,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Itá Ybaté",
         "en": "Battle of Lomas Valentinas"
@@ -5646,7 +6301,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Saqueo de Asunción",
         "en": "Sacking of Asunción"
@@ -5667,7 +6324,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Acosta Ñu",
         "en": "Battle of Acosta Ñu"
@@ -5687,7 +6346,9 @@
       "regiones": [
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Combate de Cerro Corá",
         "en": "Battle of Cerro Corá"
@@ -5816,7 +6477,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bosch-urquiza-y-su-tiempo"
+      ],
       "wikipedia": {
         "es": "Justo José de Urquiza",
         "en": "Justo José de Urquiza"
@@ -5836,7 +6499,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-formacion-del-estado-argentino"
+      ],
       "wikipedia": {
         "es": "Rebelión jordanista"
       }
@@ -5855,7 +6520,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-27-1862"
+      ],
       "wikipedia": {
         "es": "Corte Suprema de Justicia de la Nación",
         "en": "Supreme Court of Argentina"
@@ -5897,7 +6564,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hora-terratenientes-de-la-pampa"
+      ],
       "wikipedia": {
         "es": "Sociedad Rural Argentina",
         "en": "Sociedad Rural Argentina"
@@ -5918,7 +6587,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "penna-colera-en-la-argentina"
+      ]
     },
     {
       "id": "sancion-del-codigo-civil",
@@ -5956,7 +6627,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "decreto-escuela-normal-parana-1870"
+      ],
       "wikipedia": {
         "es": "Escuela Normal Superior José María Torres"
       }
@@ -5976,7 +6649,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "uranometria-argentina"
+      ],
       "wikipedia": {
         "es": "Observatorio Astronómico de Córdoba",
         "en": "Argentine National Observatory"
@@ -5996,7 +6671,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "curar-persuadir-gobernar-gonzalez-leandri"
+      ],
       "wikipedia": {
         "es": "Fiebre amarilla en Buenos Aires",
         "en": "Yellow fever in Buenos Aires"
@@ -6017,7 +6694,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-formacion-del-estado-argentino"
+      ],
       "wikipedia": {
         "es": "Revolución de 1874"
       }
@@ -6058,7 +6737,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "salvadores-fundacion-de-la-plata"
+      ],
       "wikipedia": {
         "es": "La Plata",
         "en": "La Plata"
@@ -6184,7 +6865,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-2841-banco-de-la-nacion"
+      ],
       "wikipedia": {
         "es": "Banco de la Nación Argentina",
         "en": "Banco de la Nación Argentina"
@@ -6205,7 +6888,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-orden-conservador"
+      ],
       "wikipedia": {
         "es": "Revolución radical de 1893",
         "en": "Argentine Revolution of 1893"
@@ -6226,7 +6911,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-orden-conservador"
+      ],
       "wikipedia": {
         "es": "Revolución radical de 1905",
         "en": "Argentine Revolution of 1905"
@@ -6246,7 +6933,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "el-orden-conservador"
+      ]
     },
     {
       "id": "conventillos-de-buenos-aires",
@@ -6348,7 +7037,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "actas-primer-congreso-femenino-1910"
+      ],
       "wikipedia": {
         "es": "Primer Congreso Femenino Internacional"
       }
@@ -6367,7 +7058,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "petroleo-y-politica"
+      ]
     },
     {
       "id": "laudo-hayes",
@@ -6384,7 +7077,9 @@
         "rio-de-la-plata",
         "gran-chaco"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "laudo-hayes-1878"
+      ],
       "wikipedia": {
         "es": "Laudo Hayes"
       }
@@ -6404,7 +7099,9 @@
         "norteamerica",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "international-american-conference-1890"
+      ],
       "wikipedia": {
         "en": "First International Conference of American States"
       }
@@ -6424,7 +7121,9 @@
         "chile",
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-relaciones-exteriores-escude"
+      ],
       "wikipedia": {
         "es": "Abrazo del Estrecho"
       }
@@ -6445,7 +7144,9 @@
         "chile",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-relaciones-exteriores-escude"
+      ],
       "wikipedia": {
         "es": "Litigio de la Puna de Atacama",
         "en": "Puna de Atacama dispute"
@@ -6612,7 +7313,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-krausistas-argentinos-roig"
+      ],
       "wikipedia": {
         "es": "Krausismo",
         "en": "Krausism"
@@ -6632,7 +7335,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "penna-madero-asistencia-publica"
+      ]
     },
     {
       "id": "fundacion-del-hospital-de-clinicas",
@@ -6668,7 +7373,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "penna-madero-asistencia-publica"
+      ],
       "wikipedia": {
         "es": "Hospital Muñiz",
         "en": "Hospital Muñiz"
@@ -6688,7 +7395,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "moreno-museo-de-la-plata-1890"
+      ],
       "wikipedia": {
         "es": "Museo de La Plata",
         "en": "La Plata Museum"
@@ -6708,7 +7417,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tesis-grierson-1889"
+      ],
       "wikipedia": {
         "es": "Cecilia Grierson",
         "en": "Cecilia Grierson"
@@ -6728,7 +7439,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-universidad-de-santa-fe-1889"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional del Litoral",
         "en": "National University of the Littoral"
@@ -6748,7 +7461,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gonzalez-universidad-nacional-de-la-plata"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional de La Plata",
         "en": "National University of La Plata"
@@ -6768,7 +7483,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-inaugural-teran-1914"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional de Tucumán",
         "en": "National University of Tucumán"
@@ -6788,7 +7505,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-del-teatro-colon-caamano"
+      ],
       "wikipedia": {
         "es": "Teatro Colón",
         "en": "Teatro Colón"
@@ -6828,7 +7547,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Combate de Paso de Mercedes",
         "en": "Battle of Paso de Mercedes"
@@ -6848,7 +7569,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Combate de Paso de Cuevas",
         "en": "Battle of Paso de Cuevas"
@@ -6869,7 +7592,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Pehuajó",
         "en": "Battle of Pehuajó"
@@ -6890,7 +7615,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Estero Bellaco",
         "en": "Battle of Estero Bellaco"
@@ -6911,7 +7638,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Boquerón (1866)",
         "en": "Battle of Boquerón (1866)"
@@ -6932,7 +7661,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Curuzú",
         "en": "Battle of Curuzú"
@@ -6953,7 +7684,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Paso de Curupayty",
         "en": "Passage of Curupayty (1867)"
@@ -6974,7 +7707,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Tuyutí (1867)",
         "en": "Second Battle of Tuyutí"
@@ -6995,7 +7730,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Asalto a los acorazados Cabral y Lima Barros",
         "en": "Assault on the battleships Cabral and Lima Barros"
@@ -7016,7 +7753,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Paso de Humaitá",
         "en": "Passage of Humaitá"
@@ -7038,7 +7777,9 @@
         "paraguay-oriental",
         "gran-chaco"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Combate de Acayuazá",
         "en": "Battle of Acayuazá"
@@ -7059,7 +7800,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Ytororó",
         "en": "Battle of Ytororó"
@@ -7080,7 +7823,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Abay",
         "en": "Battle of Avay"
@@ -7101,7 +7846,9 @@
         "brasil",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Retirada de Laguna",
         "en": "Retreat from Laguna"
@@ -7122,7 +7869,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Campaña de las Cordilleras",
         "en": "Campaign of the Hills"
@@ -7143,7 +7892,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Batalla de Piribebuy",
         "en": "Battle of Piribebuy"
@@ -7164,7 +7915,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "maldita-guerra"
+      ],
       "wikipedia": {
         "es": "Defensa de Paysandú",
         "en": "Siege of Paysandú"
