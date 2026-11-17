@@ -4868,6 +4868,3044 @@
         "en": "International Covenant on Economic, Social and Cultural Rights"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-londres-1913",
+      "titulo": "Tratado de Londres (1913)",
+      "titulo_original": null,
+      "autor": "Liga Balcánica e Imperio otomano",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1913,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "grecia"
+        ],
+        "desde": 1912,
+        "hasta": 1913
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado el 30 de mayo de 1913 que puso fin a la primera guerra de los Balcanes. El Imperio otomano cedió a la Liga Balcánica los territorios al oeste de la línea Enos-Midia, y la delimitación de Albania y el destino de las islas del Egeo quedaron en manos de las potencias.",
+      "por_que_importa": "Fija el resultado territorial de la primera guerra de los Balcanes; las disputas por el reparto entre los vencedores llevaron a la segunda.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado de Londres (1913)",
+        "en": "Treaty of London (1913)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-bucarest-1913",
+      "titulo": "Tratado de Bucarest (1913)",
+      "titulo_original": null,
+      "autor": "Bulgaria, Grecia, Montenegro, Rumania y Serbia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1913,
+        "aprox": false,
+        "lugar": "Bucarest",
+        "lon": 26.098,
+        "lat": 44.413
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "grecia",
+          "rumania"
+        ],
+        "desde": 1913,
+        "hasta": 1913
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado el 10 de agosto de 1913 que puso fin a la segunda guerra de los Balcanes. Bulgaria perdió gran parte de Macedonia ante Serbia y Grecia y cedió la Dobruja meridional a Rumania.",
+      "por_que_importa": "Fija el reparto de Macedonia tras las guerras de los Balcanes.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado de Bucarest (1913)",
+        "en": "Treaty of Bucharest (1913)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-sonambulos-clark",
+      "titulo": "Los sonámbulos: cómo Europa fue a la guerra en 1914",
+      "titulo_original": "The Sleepwalkers: How Europe Went to War in 1914",
+      "autor": "Christopher Clark",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "alemania",
+          "francia",
+          "britania"
+        ],
+        "desde": 1903,
+        "hasta": 1914
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Christopher Clark sobre cómo se llegó a la guerra de 1914. Parte de Serbia y las guerras de los Balcanes, reconstruye el atentado de Sarajevo y la crisis de julio, y reparte la responsabilidad entre varias capitales en lugar de atribuirla a una sola.",
+      "por_que_importa": "Es uno de los estudios de referencia sobre los orígenes de la primera guerra mundial; su tesis de responsabilidad compartida es discutida por quienes insisten en el papel de Alemania.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Sleepwalkers: How Europe Went to War in 1914"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-canones-de-agosto-tuchman",
+      "titulo": "Los cañones de agosto",
+      "titulo_original": "The Guns of August",
+      "autor": "Barbara W. Tuchman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1962,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "alemania",
+          "baltico",
+          "polonia",
+          "britania"
+        ],
+        "desde": 1914,
+        "hasta": 1914
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato de Barbara Tuchman de los primeros treinta días de la primera guerra mundial: el avance alemán por Bélgica, la derrota rusa en Prusia Oriental y la batalla del Marne. Ganó el premio Pulitzer en 1963.",
+      "por_que_importa": "Es una obra divulgativa clásica sobre agosto y septiembre de 1914; estudios posteriores corrigieron varios de sus detalles.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Guns of August"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-crisis-mundial-churchill",
+      "titulo": "La crisis mundial",
+      "titulo_original": "The World Crisis",
+      "autor": "Winston Churchill",
+      "autor_id": "churchill",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1923,
+        "anio_hasta": 1931,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia",
+          "anatolia",
+          "grecia",
+          "escandinavia"
+        ],
+        "desde": 1911,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la primera guerra mundial escrita por Winston Churchill, que fue Primer Lord del Almirantazgo hasta 1915. Se publicó en varios volúmenes e incluye su versión de la campaña de los Dardanelos y Galípoli y de la batalla de Jutlandia, con documentos oficiales.",
+      "por_que_importa": "Es el testimonio de un protagonista sobre la guerra naval y la campaña de Galípoli; su defensa de la operación fue discutida por otros historiadores.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The World Crisis"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "galipoli-moorehead",
+      "titulo": "Galípoli",
+      "titulo_original": "Gallipoli",
+      "autor": "Alan Moorehead",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "grecia"
+        ],
+        "desde": 1915,
+        "hasta": 1916
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato de Alan Moorehead de la campaña de Galípoli, basado en documentos y testimonios de combatientes de los dos bandos. Cubre el plan naval, los desembarcos de abril de 1915, los combates y la evacuación.",
+      "por_que_importa": "Es una de las historias de divulgación más leídas sobre la campaña.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "dead-wake-larson",
+      "titulo": "Dead Wake: el último cruce del Lusitania",
+      "titulo_original": "Dead Wake: The Last Crossing of the Lusitania",
+      "autor": "Erik Larson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "irlanda",
+          "britania"
+        ],
+        "desde": 1915,
+        "hasta": 1915
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción de Erik Larson del último viaje del transatlántico Lusitania, hundido por el submarino alemán U-20 el 7 de mayo de 1915 frente a la costa de Irlanda. Sigue a pasajeros, tripulación y al comandante del submarino y repasa las dudas sobre la carga y la actuación del Almirantazgo.",
+      "por_que_importa": "Resume lo que se sabe del hundimiento, que tuvo gran peso en la opinión pública de Estados Unidos.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Dead Wake"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-precio-de-la-gloria-horne",
+      "titulo": "El precio de la gloria: Verdún 1916",
+      "titulo_original": "The Price of Glory: Verdun 1916",
+      "autor": "Alistair Horne",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1962,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "alemania"
+        ],
+        "desde": 1916,
+        "hasta": 1916
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la batalla de Verdún (febrero a diciembre de 1916) desde el plan de Falkenhayn hasta la contraofensiva francesa. Combina decisiones de los mandos con testimonios de soldados.",
+      "por_que_importa": "Es la obra de referencia en inglés sobre Verdún.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-primer-dia-del-somme-middlebrook",
+      "titulo": "El primer día del Somme",
+      "titulo_original": "The First Day on the Somme",
+      "autor": "Martin Middlebrook",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1916,
+        "hasta": 1916
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del 1.º de julio de 1916, primer día de la batalla del Somme, en el que el ejército británico tuvo unas 57.000 bajas. Se apoya en cientos de entrevistas con sobrevivientes.",
+      "por_que_importa": "Documenta el día más sangriento del ejército británico y fijó la imagen popular de la batalla.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The First Day on the Somme"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "castles-of-steel-massie",
+      "titulo": "Castillos de acero: Gran Bretaña, Alemania y la victoria de la Gran Guerra en el mar",
+      "titulo_original": "Castles of Steel: Britain, Germany, and the Winning of the Great War at Sea",
+      "autor": "Robert K. Massie",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia",
+          "britania",
+          "alemania"
+        ],
+        "desde": 1914,
+        "hasta": 1919
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la guerra naval anglo-alemana de 1914 a 1919, de Coronel y las Malvinas a Jutlandia, con varios capítulos sobre esa batalla (31 de mayo a 1.º de junio de 1916), y hasta el hundimiento de la flota alemana en Scapa Flow. Sigue a los almirantes Jellicoe y Beatty y a sus pares alemanes.",
+      "por_que_importa": "Es una síntesis reciente y de amplia circulación sobre Jutlandia y su contexto.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Castles of Steel"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "passchendaele-prior-wilson",
+      "titulo": "Passchendaele: la historia no contada",
+      "titulo_original": "Passchendaele: The Untold Story",
+      "autor": "Robin Prior y Trevor Wilson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia",
+          "britania"
+        ],
+        "desde": 1917,
+        "hasta": 1917
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de los historiadores australianos Robin Prior y Trevor Wilson sobre la tercera batalla de Ypres (1917). Analiza la planificación británica, las condiciones del terreno y las bajas, y discute las justificaciones de Haig.",
+      "por_que_importa": "Es una revisión crítica de la ofensiva, que otros historiadores matizan.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-mannerheim",
+      "titulo": "Memorias del mariscal Mannerheim",
+      "titulo_original": "Minnen",
+      "autor": "Carl Gustaf Emil Mannerheim",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1947,
+        "anio_hasta": 1951,
+        "aprox": false,
+        "lugar": "Montreux",
+        "lon": 6.912,
+        "lat": 46.435
+      },
+      "trata": {
+        "regiones": [
+          "finlandia"
+        ],
+        "desde": 1917,
+        "hasta": 1944
+      },
+      "idioma_original": "Sueco",
+      "soporte": "Memorias",
+      "resumen": "Memorias del comandante en jefe del ejército blanco en la guerra civil finlandesa de 1918 y luego mariscal y presidente de Finlandia. El primer volumen narra su papel en 1918, la campaña de Tampere y los vínculos con Alemania. Las escribió entre 1947 y 1951 en el sanatorio de Valmont, en Montreux (Suiza); dictó partes y otras las redactaron colaboradores. Quedaron inconclusas a su muerte y se publicaron en Helsinki en 1951-1952.",
+      "por_que_importa": "Es el testimonio del jefe militar de uno de los bandos; hay que leerlo junto con estudios que incluyen la perspectiva de los rojos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-civil-finlandesa-tepora-roselius",
+      "titulo": "La guerra civil finlandesa de 1918: historia, memoria, legado",
+      "titulo_original": "The Finnish Civil War 1918: History, Memory, Legacy",
+      "autor": "Tuomas Tepora y Aapo Roselius (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Leiden",
+        "lon": 4.49,
+        "lat": 52.16
+      },
+      "trata": {
+        "regiones": [
+          "finlandia"
+        ],
+        "desde": 1918,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Volumen colectivo que reúne estudios sobre el desarrollo de la guerra entre blancos y rojos, el terror de ambos lados, los campos de prisioneros y la memoria posterior de la contienda.",
+      "por_que_importa": "Reúne la investigación finlandesa reciente en inglés.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "aguila-blanca-estrella-roja-davies",
+      "titulo": "Águila blanca, estrella roja: la guerra polaco-soviética, 1919-20",
+      "titulo_original": "White Eagle, Red Star: The Polish-Soviet War, 1919-20",
+      "autor": "Norman Davies",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "polonia",
+          "rus",
+          "estepa-pontica"
+        ],
+        "desde": 1919,
+        "hasta": 1921
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Norman Davies sobre la guerra entre la Polonia de Piłsudski y la Rusia soviética: la ofensiva polaca sobre Kiev, el avance del Ejército Rojo hasta Varsovia y la batalla de agosto de 1920. Discute las causas y el peso de la ayuda occidental.",
+      "por_que_importa": "Es la monografía de referencia en inglés sobre esa guerra.",
+      "leer": [],
+      "wikipedia": {
+        "en": "White Eagle, Red Star"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "guerra-civil-en-el-sur-de-rusia-kenez",
+      "titulo": "La guerra civil en el sur de Rusia, 1919-1920: la derrota de los blancos",
+      "titulo_original": "Civil War in South Russia, 1919-1920: The Defeat of the Whites",
+      "autor": "Peter Kenez",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "rus"
+        ],
+        "desde": 1919,
+        "hasta": 1920
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Peter Kenez sobre el Ejército Voluntario y las Fuerzas Armadas del Sur de Rusia. Trata la ofensiva sobre Moscú, el repliegue, el gobierno de Wrangel en Crimea y la evacuación de noviembre de 1920.",
+      "por_que_importa": "Explica el final del movimiento blanco en el sur.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pacto-balcanico-1934",
+      "titulo": "Pacto de Entente Balcánica",
+      "titulo_original": null,
+      "autor": "Grecia, Rumania, Turquía y Yugoslavia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "grecia",
+          "rumania"
+        ],
+        "desde": 1934,
+        "hasta": 1934
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tratado",
+      "resumen": "Pacto firmado en Atenas el 9 de febrero de 1934 por Grecia, Rumania, Turquía y Yugoslavia. Los cuatro garantizaban sus fronteras balcánicas mutuas y se comprometían a consultarse; Bulgaria y Albania no lo firmaron.",
+      "por_que_importa": "Es el texto del acuerdo regional que buscaba contener el revisionismo búlgaro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Entente de los Balcanes",
+        "en": "Balkan Pact"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "discurso-de-haile-selassie-ante-la-sociedad-de-naciones",
+      "titulo": "Discurso de Haile Selassie ante la Sociedad de Naciones",
+      "titulo_original": null,
+      "autor": "Haile Selassie I",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "cuerno-de-africa"
+        ],
+        "desde": 1935,
+        "hasta": 1936
+      },
+      "idioma_original": "Amárico",
+      "soporte": "Discurso",
+      "resumen": "Discurso del emperador de Etiopía ante la Asamblea de la Sociedad de Naciones el 30 de junio de 1936. Denunció la invasión italiana, el uso de gas mostaza y la falta de ayuda colectiva.",
+      "por_que_importa": "Es el testimonio del jefe de Estado invadido sobre la guerra y sobre la respuesta de la Sociedad de Naciones.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-arbol-de-gernika-steer",
+      "titulo": "El árbol de Gernika",
+      "titulo_original": "The Tree of Gernika",
+      "autor": "George L. Steer",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1938,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1937,
+        "hasta": 1937
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro del corresponsal de The Times George Steer, que llegó a Guernica horas después del bombardeo del 26 de abril de 1937. Reúne su crónica y testimonios de sobrevivientes y refuta la versión franquista de que la villa fue incendiada por sus defensores.",
+      "por_que_importa": "Es el testimonio periodístico más temprano y citado del bombardeo.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Tree of Gernika"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-violacion-de-nankin-chang",
+      "titulo": "La violación de Nankín",
+      "titulo_original": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+      "autor": "Iris Chang",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 1937,
+        "hasta": 1938
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro de Iris Chang sobre la matanza de civiles y prisioneros por el ejército japonés tras la toma de Nankín en diciembre de 1937. Recoge testimonios de sobrevivientes y de residentes occidentales de la zona de seguridad. Su cifra de víctimas y algunos detalles fueron cuestionados por historiadores.",
+      "por_que_importa": "Dio gran difusión al tema fuera de Asia; sus cifras siguen en debate.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La violación de Nanking",
+        "en": "The Rape of Nanking (book)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "diarios-de-john-rabe",
+      "titulo": "Los diarios de John Rabe",
+      "titulo_original": "Der gute Deutsche von Nanking",
+      "autor": "John Rabe",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1937,
+        "anio_hasta": 1938,
+        "aprox": false,
+        "lugar": "Nankín",
+        "lon": 118.779,
+        "lat": 32.061
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 1937,
+        "hasta": 1938
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Diario",
+      "resumen": "Diarios del empresario alemán y miembro del partido nazi John Rabe, presidente del comité de la zona de seguridad de Nankín. Anota día a día los bombardeos, la entrada de las tropas japonesas y los hechos de violencia contra civiles. Se publicaron en 1997.",
+      "por_que_importa": "Es un testimonio contemporáneo de un residente extranjero.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "sentencia-del-tribunal-de-tokio",
+      "titulo": "Sentencia del Tribunal Militar Internacional para el Lejano Oriente",
+      "titulo_original": null,
+      "autor": "Tribunal Militar Internacional para el Lejano Oriente",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Tokio",
+        "lon": 139.692,
+        "lat": 35.689
+      },
+      "trata": {
+        "regiones": [
+          "japon",
+          "china",
+          "sudeste-asiatico"
+        ],
+        "desde": 1928,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Sentencia leída entre el 4 y el 12 de noviembre de 1948 en Tokio. Declaró culpables a 25 acusados y condenó a siete a la horca. Incluye un capítulo sobre las atrocidades de Nankín, por las que fue condenado el general Matsui, y opiniones separadas de algunos jueces, como la del indio Radhabinod Pal.",
+      "por_que_importa": "Es el fallo del tribunal aliado sobre la guerra y las atrocidades japonesas. El voto disidente de Pal y otros críticos lo consideraron justicia de vencedores.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tribunal Penal Militar Internacional para el Lejano Oriente",
+        "en": "International Military Tribunal for the Far East"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "china-en-guerra-mitter",
+      "titulo": "La guerra de China con Japón, 1937-1945: la lucha por la supervivencia",
+      "titulo_original": "China's War with Japan, 1937-1945: The Struggle for Survival",
+      "autor": "Rana Mitter",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "china",
+          "manchuria"
+        ],
+        "desde": 1937,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de Rana Mitter de la guerra sino-japonesa, centrada en el gobierno nacionalista de Chiang Kai-shek, la resistencia y la relación con los aliados. En Estados Unidos se publicó como «Forgotten Ally».",
+      "por_que_importa": "Reubica a China en la historia de la segunda guerra mundial.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ley-del-anschluss-1938",
+      "titulo": "Ley federal sobre la reunificación de Austria con el Reich alemán",
+      "titulo_original": null,
+      "autor": "Gobierno federal de Austria (Arthur Seyss-Inquart)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1938,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1938,
+        "hasta": 1938
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Ley",
+      "resumen": "Ley constitucional federal del 13 de marzo de 1938, acordada ese día en Linz entre Hitler y Seyss-Inquart y aprobada en Viena por el gobierno de Seyss-Inquart, que declaró a Austria un Land del Reich alemán. El Reich dictó el mismo día una ley de igual título. Convocaba un plebiscito para el 10 de abril.",
+      "por_que_importa": "Es el texto jurídico de la anexión.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "kristallnacht-steinweis",
+      "titulo": "Kristallnacht 1938",
+      "titulo_original": null,
+      "autor": "Alan E. Steinweis",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1938,
+        "hasta": 1938
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Alan Steinweis sobre los ataques del 9 y 10 de noviembre de 1938 contra sinagogas, comercios y personas judías en Alemania y Austria. Reconstruye cómo se organizaron y qué papel tuvieron el partido y las SA.",
+      "por_que_importa": "Es un estudio académico de referencia sobre el pogromo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "albania-en-guerra-fischer",
+      "titulo": "Albania en guerra, 1939-1945",
+      "titulo_original": "Albania at War, 1939-1945",
+      "autor": "Bernd J. Fischer",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "West Lafayette",
+        "lon": -86.912,
+        "lat": 40.442
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1939,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Bernd Fischer sobre Albania bajo la ocupación italiana, que empezó con la invasión de abril de 1939, y luego la alemana, y sobre la resistencia y la guerra civil entre grupos albaneses.",
+      "por_que_importa": "Es la monografía de referencia en inglés sobre la ocupación.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "katyn-cienciala-lebedeva-materski",
+      "titulo": "Katyn: un crimen sin castigo",
+      "titulo_original": "Katyn: A Crime Without Punishment",
+      "autor": "Anna M. Cienciala, Natalia S. Lebedeva y Wojciech Materski",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "polonia",
+          "rus"
+        ],
+        "desde": 1940,
+        "hasta": 1940
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio con documentos de archivos rusos que muestra que la NKVD fusiló en 1940 a unos 22.000 oficiales y funcionarios polacos por decisión del Politburó del 5 de marzo. Incluye el texto de la propuesta de Beria y el encubrimiento posterior.",
+      "por_que_importa": "Recopila los documentos que llevaron a la Unión Soviética a reconocer en abril de 1990 la responsabilidad soviética.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "directiva-21-del-fuhrer",
+      "titulo": "Directiva n.º 21 del Führer (Caso Barbarroja)",
+      "titulo_original": null,
+      "autor": "Adolf Hitler",
+      "autor_id": "hitler",
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1940,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "baltico",
+          "estepa-pontica",
+          "polonia",
+          "rus"
+        ],
+        "desde": 1941,
+        "hasta": 1941
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Directiva",
+      "resumen": "Orden firmada por Hitler el 18 de diciembre de 1940 que ordena preparar la invasión de la Unión Soviética para una campaña rápida. Fija tres grupos de ejércitos y objetivos como Leningrado, Moscú y Ucrania.",
+      "por_que_importa": "Es el documento operativo de la invasión.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "los-900-dias-salisbury",
+      "titulo": "Los 900 días: el sitio de Leningrado",
+      "titulo_original": "The 900 Days: The Siege of Leningrad",
+      "autor": "Harrison E. Salisbury",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1941,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del cerco de Leningrado basada en testimonios y documentos soviéticos que el autor, corresponsal en Moscú, pudo consultar. Cubre el hambre del invierno de 1941-1942, la evacuación y la ruptura del cerco.",
+      "por_que_importa": "Fue la primera gran historia occidental del sitio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "rusia-en-guerra-werth",
+      "titulo": "Rusia en guerra, 1941-1945",
+      "titulo_original": "Russia at War, 1941-1945",
+      "autor": "Alexander Werth",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "estepa-pontica",
+          "volga-urales",
+          "polonia",
+          "alemania"
+        ],
+        "desde": 1941,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del frente oriental de Alexander Werth, corresponsal en la Unión Soviética durante la guerra. Combina lo que vio y escuchó con documentos soviéticos; trata la batalla de Moscú, Leningrado, Stalingrado, Kursk y la ofensiva de 1944.",
+      "por_que_importa": "Reúne observación directa y reconstrucción histórica del frente oriental.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Russia at War, 1941–1945"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "stalingrado-beevor",
+      "titulo": "Stalingrado",
+      "titulo_original": "Stalingrad",
+      "autor": "Antony Beevor",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "volga-urales"
+        ],
+        "desde": 1942,
+        "hasta": 1943
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la batalla de Stalingrado que combina archivos alemanes y soviéticos y cartas y diarios de soldados. Cubre la ofensiva alemana, los combates en la ciudad, la operación Urano y la rendición del VI Ejército.",
+      "por_que_importa": "Es la narración más difundida de la batalla.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Stalingrad (Beevor book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "berlin-la-caida-beevor",
+      "titulo": "Berlín: la caída, 1945",
+      "titulo_original": "Berlin: The Downfall 1945",
+      "autor": "Antony Beevor",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1945,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la ofensiva soviética sobre Berlín y de la caída de la ciudad en abril y mayo de 1945, con testimonios de soldados y civiles. Trata también la violencia contra la población civil.",
+      "por_que_importa": "Es una síntesis de amplia circulación sobre la batalla.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Berlín. La caída: 1945",
+        "en": "Berlin: The Downfall 1945"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "victorias-perdidas-manstein",
+      "titulo": "Victorias perdidas",
+      "titulo_original": "Verlorene Siege",
+      "autor": "Erich von Manstein",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "estepa-pontica"
+        ],
+        "desde": 1939,
+        "hasta": 1944
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Memorias",
+      "resumen": "Memorias del mariscal Erich von Manstein, comandante de grupos de ejércitos en el frente oriental. Narra su plan de 1940, el intento de socorrer Stalingrado y la operación Ciudadela en Kursk, y atribuye los fracasos a decisiones de Hitler. Los historiadores señalan que omite su propia responsabilidad.",
+      "por_que_importa": "Es el testimonio de un jefe alemán sobre Stalingrado y Kursk, con sesgo de justificación.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Victorias frustradas",
+        "en": "Lost Victories"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "midway-fuchida-okumiya",
+      "titulo": "Midway: la batalla que condenó al Japón",
+      "titulo_original": "Middowē",
+      "autor": "Mitsuo Fuchida y Masatake Okumiya",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1951,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1942,
+        "hasta": 1942
+      },
+      "idioma_original": "Japonés",
+      "soporte": "Libro",
+      "resumen": "Relato desde el lado japonés de Mitsuo Fuchida, que dirigió el ataque a Pearl Harbor, y Masatake Okumiya, oficial de estado mayor. Narra la planificación y el desarrollo de la batalla de Midway y la pérdida de cuatro portaaviones. La edición inglesa ampliada, Midway: The Battle that Doomed Japan, salió en Annapolis (Naval Institute) en 1955.",
+      "por_que_importa": "Es el testimonio de participantes japoneses; algunos detalles fueron corregidos por estudios posteriores.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "incredible-victory-lord",
+      "titulo": "Una victoria increíble",
+      "titulo_original": "Incredible Victory",
+      "autor": "Walter Lord",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1942,
+        "hasta": 1942
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción de la batalla de Midway (4 a 7 de junio de 1942) basada en entrevistas con participantes de ambos bandos.",
+      "por_que_importa": "Es una narración clásica de la batalla.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "los-papeles-de-rommel",
+      "titulo": "Los papeles de Rommel",
+      "titulo_original": "The Rommel Papers",
+      "autor": "Erwin Rommel (ed. Basil H. Liddell Hart)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1953,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "egipto",
+          "magreb",
+          "italia"
+        ],
+        "desde": 1940,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Selección de cartas, diarios y notas de Erwin Rommel editada por Liddell Hart. Incluye su relato de las batallas de El Alamein y de su preparación de la defensa de Normandía en 1944.",
+      "por_que_importa": "Es un testimonio del comandante alemán, editado y con cortes.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Rommel Papers"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "informe-stroop",
+      "titulo": "Informe Stroop: ya no hay barrio judío en Varsovia",
+      "titulo_original": "Es gibt keinen jüdischen Wohnbezirk in Warschau mehr!",
+      "autor": "Jürgen Stroop",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Varsovia",
+        "lon": 21.011,
+        "lat": 52.23
+      },
+      "trata": {
+        "regiones": [
+          "polonia"
+        ],
+        "desde": 1943,
+        "hasta": 1943
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Informe",
+      "resumen": "Informe ilustrado que el jefe de las SS y la policía Jürgen Stroop redactó sobre la destrucción del gueto de Varsovia, entre el 19 de abril y mayo de 1943. Detalla la resistencia, los incendios y las deportaciones, y da cifras de judíos capturados o muertos.",
+      "por_que_importa": "Es el documento alemán sobre el levantamiento; sus cifras provienen del perpetrador.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Informe Stroop",
+        "en": "Stroop Report"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "declaracion-de-teheran-1943",
+      "titulo": "Declaración de las Tres Potencias (Conferencia de Teherán)",
+      "titulo_original": null,
+      "autor": "Roosevelt, Churchill y Stalin",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Teherán",
+        "lon": 51.39,
+        "lat": 35.689
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": 1943,
+        "hasta": 1943
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Documentos del 1.º de diciembre de 1943 de Estados Unidos, el Reino Unido y la Unión Soviética al cierre de la conferencia de Teherán: la declaración general, sobre el acuerdo en el alcance y la fecha de las operaciones contra Alemania, y la declaración sobre Irán, en la que los tres se comprometen a mantener la independencia, la soberanía y la integridad de Irán y le prometen ayuda económica.",
+      "por_que_importa": "Es el texto público de los acuerdos de la conferencia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "conferencia-de-prensa-de-casablanca-1943",
+      "titulo": "Conferencia de prensa de Roosevelt y Churchill en Casablanca",
+      "titulo_original": null,
+      "autor": "Franklin D. Roosevelt",
+      "autor_id": "franklin-roosevelt",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Casablanca",
+        "lon": -7.62,
+        "lat": 33.599
+      },
+      "trata": {
+        "regiones": [
+          "magreb"
+        ],
+        "desde": 1943,
+        "hasta": 1943
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Conferencia de prensa",
+      "resumen": "Conferencia de prensa del 24 de enero de 1943 en la que Roosevelt, con Churchill a su lado, anunció que los aliados exigirían la rendición incondicional de Alemania, Italia y Japón.",
+      "por_que_importa": "Es la fuente de la fórmula de rendición incondicional.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-dia-mas-largo-ryan",
+      "titulo": "El día más largo",
+      "titulo_original": "The Longest Day",
+      "autor": "Cornelius Ryan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia"
+        ],
+        "desde": 1944,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del desembarco de Normandía del 6 de junio de 1944 basado en entrevistas con más de mil participantes de ambos bandos y civiles.",
+      "por_que_importa": "Es una crónica clásica del desembarco.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Longest Day (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "overlord-hastings",
+      "titulo": "Overlord: el día D y la batalla de Normandía",
+      "titulo_original": "Overlord: D-Day and the Battle for Normandy",
+      "autor": "Max Hastings",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia"
+        ],
+        "desde": 1944,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la preparación del desembarco y de la campaña en Normandía hasta agosto de 1944. Analiza el rendimiento de los ejércitos aliados y alemán y la relación entre mandos.",
+      "por_que_importa": "Es una síntesis crítica de la campaña de Normandía.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "a-time-for-trumpets-macdonald",
+      "titulo": "Un tiempo para trompetas: la historia no contada de la batalla de las Ardenas",
+      "titulo_original": "A Time for Trumpets: The Untold Story of the Battle of the Bulge",
+      "autor": "Charles B. MacDonald",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": 1944,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la ofensiva alemana de diciembre de 1944 en las Ardenas escrita por un oficial que combatió allí y luego fue historiador oficial del ejército de Estados Unidos.",
+      "por_que_importa": "Es una de las historias más citadas de la batalla.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "dresde-taylor",
+      "titulo": "Dresde: martes 13 de febrero de 1945",
+      "titulo_original": "Dresden: Tuesday, February 13, 1945",
+      "autor": "Frederick Taylor",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1945,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Frederick Taylor sobre los bombardeos aliados de Dresde del 13 y 14 de febrero de 1945. Examina las razones militares, la magnitud de la destrucción y el debate sobre el número de muertos: Taylor estima entre 25.000 y 40.000. La comisión de historiadores convocada por la ciudad fijó en 2010 un máximo de 25.000.",
+      "por_que_importa": "Es el estudio de referencia sobre el bombardeo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-bloqueo-de-berlin-shlaim",
+      "titulo": "Estados Unidos y el bloqueo de Berlín, 1948-1949",
+      "titulo_original": "The United States and the Berlin Blockade, 1948-1949: A Study in Crisis Decision-Making",
+      "autor": "Avi Shlaim",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1948,
+        "hasta": 1949
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Avi Shlaim sobre cómo el gobierno de Estados Unidos decidió responder al bloqueo soviético de Berlín Occidental, entre el puente aéreo y la negociación.",
+      "por_que_importa": "Analiza las decisiones de Washington durante la crisis.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "todos-los-hombres-del-shah-kinzer",
+      "titulo": "Todos los hombres del Sha",
+      "titulo_original": "All the Shah's Men",
+      "autor": "Stephen Kinzer",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": 1951,
+        "hasta": 1953
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del golpe de Estado de agosto de 1953 contra el primer ministro Mohammad Mosaddeq, planeado por la CIA y el servicio secreto británico. Se apoya en documentos desclasificados y entrevistas.",
+      "por_que_importa": "Divulgó el papel de la CIA en el golpe.",
+      "leer": [],
+      "wikipedia": {
+        "en": "All the Shah's Men"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-golpe-abrahamian",
+      "titulo": "El golpe: 1953, la CIA y las raíces de las relaciones modernas entre Estados Unidos e Irán",
+      "titulo_original": "The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations",
+      "autor": "Ervand Abrahamian",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": 1953,
+        "hasta": 1953
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Ervand Abrahamian que sostiene que la CIA, con el servicio británico, dirigió el golpe de 1953 y que el motivo central fue el control del petróleo nacionalizado y no el temor al comunismo.",
+      "por_que_importa": "Discute la explicación por la guerra fría que dan Kinzer y otros. Mark Gasiorowski le objetó que no aporta revelaciones nuevas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorandum-de-londres-1954",
+      "titulo": "Memorándum de entendimiento de Londres sobre Trieste",
+      "titulo_original": null,
+      "autor": "Estados Unidos, Reino Unido, Italia y Yugoslavia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "italia"
+        ],
+        "desde": 1954,
+        "hasta": 1954
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorándum",
+      "resumen": "Acuerdo del 5 de octubre de 1954 por el cual Italia y Yugoslavia asumieron la administración de las zonas A y B del Territorio Libre de Trieste, con garantías para las minorías.",
+      "por_que_importa": "Puso fin a la administración aliada de Trieste.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "decreto-sobre-el-traspaso-de-crimea-1954",
+      "titulo": "Decreto del Presídium del Sóviet Supremo sobre el traspaso de Crimea a la RSS de Ucrania",
+      "titulo_original": null,
+      "autor": "Presídium del Sóviet Supremo de la URSS",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica"
+        ],
+        "desde": 1954,
+        "hasta": 1954
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Decreto",
+      "resumen": "Decreto del 19 de febrero de 1954 que transfirió la provincia de Crimea de la RSFS de Rusia a la RSS de Ucrania, tras resoluciones de los presídiums de ambas repúblicas.",
+      "por_que_importa": "Es el acto jurídico de la transferencia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-division-sino-sovietica-luthi",
+      "titulo": "La división sino-soviética: la guerra fría en el mundo comunista",
+      "titulo_original": "The Sino-Soviet Split: Cold War in the Communist World",
+      "autor": "Lorenz M. Lüthi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "china",
+          "rus"
+        ],
+        "desde": 1956,
+        "hasta": 1966
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Lorenz Lüthi sobre la ruptura entre China y la Unión Soviética, desde la desestalinización de 1956 hasta la ruptura entre los partidos y la de la alianza militar en 1966, con archivos de varios países.",
+      "por_que_importa": "Es la monografía de referencia sobre el tema.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "propuesta-sobre-la-linea-general-del-movimiento-comunista",
+      "titulo": "Propuesta acerca de la línea general del movimiento comunista internacional",
+      "titulo_original": null,
+      "autor": "Comité Central del Partido Comunista de China",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Pekín",
+        "lon": 116.408,
+        "lat": 39.904
+      },
+      "trata": {
+        "regiones": [
+          "china",
+          "rus"
+        ],
+        "desde": 1963,
+        "hasta": 1963
+      },
+      "idioma_original": "Chino",
+      "soporte": "Carta",
+      "resumen": "Carta del 14 de junio de 1963 del Partido Comunista de China al PCUS que expone sus desacuerdos con la política soviética y abrió una polémica pública. El PCUS le respondió con su Carta abierta del 14 de julio, y la polémica siguió con los «Nueve comentarios» chinos.",
+      "por_que_importa": "Es el documento chino que hizo pública la ruptura.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "de-stalin-a-mao-mehilli",
+      "titulo": "De Stalin a Mao: Albania y el mundo socialista",
+      "titulo_original": "From Stalin to Mao: Albania and the Socialist World",
+      "autor": "Elidor Mëhilli",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Ithaca",
+        "lon": -76.5,
+        "lat": 42.443
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "rus",
+          "china"
+        ],
+        "desde": 1944,
+        "hasta": 1978
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Elidor Mëhilli sobre las relaciones de Albania con la Unión Soviética y luego con China. Analiza la dependencia económica, la crisis tras el XX Congreso y la ruptura de 1961.",
+      "por_que_importa": "Es un estudio con archivos albaneses sobre la ruptura.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "rising-44-davies",
+      "titulo": "Levantamiento del 44: la batalla por Varsovia",
+      "titulo_original": "Rising '44: The Battle for Warsaw",
+      "autor": "Norman Davies",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "polonia"
+        ],
+        "desde": 1944,
+        "hasta": 1944
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del levantamiento de Varsovia de agosto a octubre de 1944 de Norman Davies. Examina la decisión del Ejército Nacional, la actitud soviética y la ayuda aliada.",
+      "por_que_importa": "Es la monografía más difundida sobre el levantamiento.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Rising '44"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "bahia-de-cochinos-wyden",
+      "titulo": "Bahía de Cochinos: la historia no contada",
+      "titulo_original": "Bay of Pigs: The Untold Story",
+      "autor": "Peter Wyden",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1961,
+        "hasta": 1961
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del periodista Peter Wyden sobre la preparación y el fracaso de la invasión de abril de 1961, basado en entrevistas con participantes estadounidenses y cubanos.",
+      "por_que_importa": "Es una reconstrucción detallada de la operación.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-guerra-china-de-la-india-maxwell",
+      "titulo": "La guerra china de la India",
+      "titulo_original": "India's China War",
+      "autor": "Neville Maxwell",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "china",
+          "india",
+          "tibet"
+        ],
+        "desde": 1959,
+        "hasta": 1962
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio del periodista Neville Maxwell sobre el conflicto fronterizo de 1962. Sostiene que la política india de avanzar posiciones provocó la guerra; su tesis fue cuestionada por historiadores indios y de otros países.",
+      "por_que_importa": "Es la obra que más influyó en el debate sobre las responsabilidades de la guerra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "one-hell-of-a-gamble-fursenko-naftali",
+      "titulo": "Una apuesta del demonio: Jruschov, Castro y Kennedy, 1958-1964",
+      "titulo_original": "One Hell of a Gamble: Khrushchev, Castro, and Kennedy, 1958-1964",
+      "autor": "Aleksandr Fursenko y Timothy Naftali",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "rus"
+        ],
+        "desde": 1958,
+        "hasta": 1964
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la decisión soviética de instalar misiles en Cuba (operación Anádyr) y de la crisis de octubre de 1962, con documentos de archivos soviéticos.",
+      "por_que_importa": "Documenta el origen y la ejecución de la operación desde el lado soviético.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "comunicado-de-nassau-1962",
+      "titulo": "Comunicado conjunto de Kennedy y Macmillan en Nassau",
+      "titulo_original": null,
+      "autor": "John F. Kennedy y Harold Macmillan",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1962,
+        "aprox": false,
+        "lugar": "Nassau",
+        "lon": -77.339,
+        "lat": 25.078
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "caribe",
+          "norteamerica"
+        ],
+        "desde": 1962,
+        "hasta": 1962
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Comunicado",
+      "resumen": "Comunicado del 21 de diciembre de 1962 por el que Estados Unidos acordó proveer misiles Polaris al Reino Unido para submarinos británicos, bajo mando de la OTAN salvo que estuviera en juego el interés nacional.",
+      "por_que_importa": "Es el texto del acuerdo, que alimentó el veto francés a la entrada británica en la CEE.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdo de Nassau",
+        "en": "Nassau Agreement"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-del-eliseo",
+      "titulo": "Tratado del Elíseo",
+      "titulo_original": null,
+      "autor": "Konrad Adenauer y Charles de Gaulle",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": 1963,
+        "hasta": 1963
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tratado",
+      "resumen": "Tratado de cooperación franco-alemana firmado el 22 de enero de 1963. Establece consultas regulares en política exterior, defensa y educación entre los dos gobiernos.",
+      "por_que_importa": "Es la base de la cooperación institucional entre Francia y Alemania.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado del Elíseo",
+        "en": "Élysée Treaty"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tet-oberdorfer",
+      "titulo": "Tet: el punto de inflexión de la guerra de Vietnam",
+      "titulo_original": "Tet!: The Turning Point in the Vietnam War",
+      "autor": "Don Oberdorfer",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-asiatico"
+        ],
+        "desde": 1968,
+        "hasta": 1968
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del periodista Don Oberdorfer de la ofensiva del Tet de enero a febrero de 1968, desde la planificación de Hanói y del Frente Nacional de Liberación hasta su impacto político en Estados Unidos.",
+      "por_que_importa": "Es una crónica temprana y muy citada de la ofensiva.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-peers",
+      "titulo": "Informe de la Comisión Peers sobre la masacre de My Lai",
+      "titulo_original": null,
+      "autor": "Comisión Peers del Ejército de Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-asiatico"
+        ],
+        "desde": 1968,
+        "hasta": 1968
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de marzo de 1970 del Ejército de Estados Unidos sobre la investigación inicial de la matanza de My Lai del 16 de marzo de 1968 y su encubrimiento por oficiales.",
+      "por_que_importa": "Es la investigación oficial del Ejército.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "my-lai-4-hersh",
+      "titulo": "My Lai 4: informe sobre la masacre y sus consecuencias",
+      "titulo_original": "My Lai 4: A Report on the Massacre and Its Aftermath",
+      "autor": "Seymour Hersh",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-asiatico"
+        ],
+        "desde": 1968,
+        "hasta": 1968
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro del periodista Seymour Hersh, que reveló la matanza en noviembre de 1969. Describe lo ocurrido en la aldea y cómo se ocultó.",
+      "por_que_importa": "Fue la primera investigación periodística que difundió el caso.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-varsovia-1970",
+      "titulo": "Tratado de Varsovia entre Alemania Occidental y Polonia",
+      "titulo_original": null,
+      "autor": "Willy Brandt y Józef Cyrankiewicz",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Varsovia",
+        "lon": 21.011,
+        "lat": 52.23
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "polonia"
+        ],
+        "desde": 1970,
+        "hasta": 1970
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Tratado",
+      "resumen": "Tratado del 7 de diciembre de 1970 por el que la República Federal de Alemania reconoció la frontera Oder-Neisse como límite occidental de Polonia y ambos renunciaron al uso de la fuerza.",
+      "por_que_importa": "Normalizó las relaciones germano-polacas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado de Varsovia (1970)",
+        "en": "Treaty of Warsaw (1970)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "proclamacion-de-la-independencia-de-bangladesh",
+      "titulo": "Proclamación de la independencia de Bangladés",
+      "titulo_original": null,
+      "autor": "Gobierno provisional de Bangladés",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Mujibnagar",
+        "lon": 88.6,
+        "lat": 23.633
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "noreste-de-la-india"
+        ],
+        "desde": 1971,
+        "hasta": 1971
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Proclama",
+      "resumen": "Texto que declaró la independencia de Bangladés, con el anuncio de Sheikh Mujibur Rahman del 26 de marzo de 1971 y la proclamación formal del gobierno provisional del 10 de abril, formado en Mujibnagar. La proclama se difundió por radio el 27 de marzo en la voz del mayor Ziaur Rahman, en nombre de Mujib. Quién proclamó la independencia fue materia de disputa entre la Liga Awami y el BNP hasta un fallo de la Corte Suprema de 2010.",
+      "por_que_importa": "Es el acto fundacional del Estado.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Proclamation of Bangladeshi Independence"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "el-telegrama-blood-bass",
+      "titulo": "El telegrama Blood: Nixon, Kissinger y un genocidio olvidado",
+      "titulo_original": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide",
+      "autor": "Gary J. Bass",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "noreste-de-la-india"
+        ],
+        "desde": 1971,
+        "hasta": 1971
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Gary Bass sobre la respuesta de Estados Unidos a la represión pakistaní en Bengala Oriental y la guerra de 1971, con documentos desclasificados. Incluye el telegrama de protesta del cónsul Archer Blood.",
+      "por_que_importa": "Documenta la política de Washington y los hechos en Bangladés.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-regimen-de-pol-pot-kiernan",
+      "titulo": "El régimen de Pol Pot: raza, poder y genocidio en Camboya bajo los jemeres rojos, 1975-79",
+      "titulo_original": "The Pol Pot Regime: Race, Power, and Genocide in Cambodia under the Khmer Rouge, 1975-79",
+      "autor": "Ben Kiernan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-asiatico"
+        ],
+        "desde": 1975,
+        "hasta": 1979
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Ben Kiernan sobre el régimen de Kampuchea Democrática, con entrevistas y documentos. Defiende que la violencia se dirigió también contra minorías étnicas, además de a las víctimas políticas.",
+      "por_que_importa": "Es una referencia académica sobre el régimen y el genocidio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-osimo",
+      "titulo": "Tratado de Osimo",
+      "titulo_original": null,
+      "autor": "Italia y Yugoslavia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Osimo",
+        "lon": 13.482,
+        "lat": 43.486
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "italia"
+        ],
+        "desde": 1975,
+        "hasta": 1975
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Tratado",
+      "resumen": "Tratado del 10 de noviembre de 1975 que fijó definitivamente la frontera entre Italia y Yugoslavia en el antiguo Territorio Libre de Trieste y reconoció la zona B como yugoslava.",
+      "por_que_importa": "Cerró la disputa fronteriza.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado de Osimo",
+        "en": "Treaty of Osimo"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-rambouillet-1975",
+      "titulo": "Declaración de Rambouillet",
+      "titulo_original": null,
+      "autor": "Jefes de gobierno de seis países industrializados",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Rambouillet",
+        "lon": 1.83,
+        "lat": 48.644
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "britania",
+          "francia",
+          "italia",
+          "japon",
+          "norteamerica"
+        ],
+        "desde": 1975,
+        "hasta": 1975
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración final de la cumbre de noviembre de 1975 en Rambouillet, convocada por Giscard d'Estaing, con los jefes de gobierno de Francia, Alemania, Italia, Japón, el Reino Unido y Estados Unidos. Trata la recuperación económica y los tipos de cambio.",
+      "por_que_importa": "Es el documento de la primera cumbre del grupo luego llamado G7.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "afgantsy-braithwaite",
+      "titulo": "Afgantsy: los rusos en Afganistán, 1979-89",
+      "titulo_original": "Afgantsy: The Russians in Afghanistan, 1979-89",
+      "autor": "Rodric Braithwaite",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "afganistan"
+        ],
+        "desde": 1979,
+        "hasta": 1989
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la intervención soviética en Afganistán escrita por un exembajador británico en Moscú, con testimonios y fuentes rusas. Cubre la decisión de invadir, la guerra y la retirada.",
+      "por_que_importa": "Es el estudio más difundido sobre el lado soviético.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdos-de-ginebra-1988",
+      "titulo": "Acuerdos de Ginebra sobre Afganistán",
+      "titulo_original": null,
+      "autor": "Afganistán, Pakistán, Estados Unidos y la Unión Soviética",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "afganistan"
+        ],
+        "desde": 1988,
+        "hasta": 1989
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Tratado",
+      "resumen": "Acuerdos firmados el 14 de abril de 1988 que fijan la retirada de las tropas soviéticas de Afganistán en nueve meses y la no injerencia de Pakistán y Afganistán, con garantías de Estados Unidos y la URSS.",
+      "por_que_importa": "Son el marco de la retirada soviética.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdos de Ginebra (1988)",
+        "en": "Geneva Accords (1988)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ghost-wars-coll",
+      "titulo": "Guerras fantasma",
+      "titulo_original": "Ghost Wars",
+      "autor": "Steve Coll",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "afganistan"
+        ],
+        "desde": 1979,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la CIA, Afganistán y Bin Laden desde la invasión soviética hasta el 11 de septiembre de 2001. Trata el apoyo a los muyahidines, la guerra civil posterior y el ascenso de los talibanes.",
+      "por_que_importa": "Es una referencia sobre la participación estadounidense en Afganistán.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Ghost Wars"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdo-de-peshawar-1992",
+      "titulo": "Acuerdo de Peshawar",
+      "titulo_original": null,
+      "autor": "Partidos muyahidines afganos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Peshawar",
+        "lon": 71.567,
+        "lat": 34.014
+      },
+      "trata": {
+        "regiones": [
+          "afganistan"
+        ],
+        "desde": 1992,
+        "hasta": 1992
+      },
+      "idioma_original": "Persa",
+      "soporte": "Acuerdo",
+      "resumen": "Acuerdo del 24 de abril de 1992 entre partidos muyahidines para formar un gobierno islámico de transición tras la caída del gobierno de Najibullah. Preveía la presidencia rotativa de un consejo.",
+      "por_que_importa": "Su fracaso precedió a la guerra entre facciones.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdo de Peshawar",
+        "en": "Peshawar Accord"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "taliban-rashid",
+      "titulo": "Talibán: islam militante, petróleo y fundamentalismo en Asia Central",
+      "titulo_original": "Taliban: Militant Islam, Oil and Fundamentalism in Central Asia",
+      "autor": "Ahmed Rashid",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "afganistan"
+        ],
+        "desde": 1992,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro del periodista pakistaní Ahmed Rashid sobre el surgimiento del movimiento talibán, su toma del poder en 1996 y su relación con Pakistán, Arabia Saudita y las petroleras.",
+      "por_que_importa": "Fue la primera obra de referencia sobre el movimiento.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "conclusiones-de-la-conferencia-de-bonn-2011",
+      "titulo": "Conclusiones de la Conferencia Internacional sobre Afganistán en Bonn",
+      "titulo_original": null,
+      "autor": "Gobierno de Afganistán y participantes de la conferencia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Bonn",
+        "lon": 7.102,
+        "lat": 50.735
+      },
+      "trata": {
+        "regiones": [
+          "afganistan",
+          "alemania"
+        ],
+        "desde": 2011,
+        "hasta": 2011
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Conclusiones",
+      "resumen": "Documento final de la conferencia del 5 de diciembre de 2011 en Bonn, donde Afganistán y unos cien países y organizaciones acordaron el apoyo internacional durante la transición de seguridad hasta 2014 y la «década de la transformación».",
+      "por_que_importa": "Es el texto del compromiso internacional tras la retirada.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "resolucion-598",
+      "titulo": "Resolución 598 del Consejo de Seguridad de las Naciones Unidas",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1987,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": 1980,
+        "hasta": 1988
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 20 de julio de 1987 que exigió un alto el fuego inmediato en la guerra entre Irán e Irak y la retirada a las fronteras reconocidas. Irán la aceptó en julio de 1988.",
+      "por_que_importa": "Puso fin a la guerra.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Resolución 598 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 598"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-guerra-iran-irak-murray-woods",
+      "titulo": "La guerra Irán-Irak: una historia militar y estratégica",
+      "titulo_original": "The Iran-Iraq War: A Military and Strategic History",
+      "autor": "Williamson Murray y Kevin M. Woods",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": 1980,
+        "hasta": 1988
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia militar de la guerra entre Irán e Irak, basada en documentos iraquíes capturados. Analiza las decisiones estratégicas y operativas de ambos gobiernos.",
+      "por_que_importa": "Es el estudio militar más completo en inglés.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-conjunta-sino-britanica",
+      "titulo": "Declaración conjunta del Gobierno del Reino Unido y el Gobierno de China sobre la cuestión de Hong Kong",
+      "titulo_original": null,
+      "autor": "Margaret Thatcher y Zhao Ziyang",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Pekín",
+        "lon": 116.408,
+        "lat": 39.904
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "china"
+        ],
+        "desde": 1984,
+        "hasta": 1984
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Tratado",
+      "resumen": "Tratado del 19 de diciembre de 1984 por el que el Reino Unido se comprometió a devolver Hong Kong a China el 1.º de julio de 1997 y China prometió mantener allí el sistema vigente durante cincuenta años bajo «un país, dos sistemas».",
+      "por_que_importa": "Fijó las condiciones de la devolución.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Declaración Conjunta Sino-Británica",
+        "en": "Sino-British Joint Declaration"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-jackson-hole-1989",
+      "titulo": "Declaración conjunta de Estados Unidos y la Unión Soviética sobre el paso inocente",
+      "titulo_original": null,
+      "autor": "James Baker y Eduard Shevardnadze",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Jackson Hole",
+        "lon": -110.833,
+        "lat": 43.517
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica"
+        ],
+        "desde": 1988,
+        "hasta": 1989
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración conjunta del 23 de septiembre de 1989 con una «interpretación uniforme» de las normas sobre el paso inocente por el mar territorial, que respondió a las disputas surgidas tras el choque de buques en el Mar Negro de febrero de 1988.",
+      "por_que_importa": "Es el acuerdo que cerró el diferendo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-de-gazimestan",
+      "titulo": "Discurso de Gazimestán",
+      "titulo_original": null,
+      "autor": "Slobodan Milošević",
+      "autor_id": "milosevic",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Gazimestán",
+        "lon": 21.124,
+        "lat": 42.691
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1389,
+        "hasta": 1989
+      },
+      "idioma_original": "Serbocroata",
+      "soporte": "Discurso",
+      "resumen": "Discurso de Slobodan Milošević el 28 de junio de 1989 en el 600.º aniversario de la batalla de Kosovo. Habló de la unidad serbia y mencionó que podían surgir «batallas armadas». Se lo interpreta de modo opuesto: como llamado nacionalista o como alocución de circunstancia.",
+      "por_que_importa": "Se lo cita como símbolo del nacionalismo serbio de fines de los ochenta.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Discurso de Gazimestán",
+        "en": "Gazimestan speech"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-dos-mas-cuatro",
+      "titulo": "Tratado sobre el arreglo definitivo con respecto a Alemania (Tratado Dos más Cuatro)",
+      "titulo_original": null,
+      "autor": "Las dos Alemanias y las cuatro potencias aliadas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1990,
+        "hasta": 1990
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado en Moscú el 12 de septiembre de 1990. Las cuatro potencias renunciaron a sus derechos en Alemania, que quedó unificada con soberanía plena y fronteras definitivas.",
+      "por_que_importa": "Es el acuerdo internacional que permitió la reunificación.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado Dos más Cuatro",
+        "en": "Treaty on the Final Settlement with Respect to Germany"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-unificacion-alemana-1990",
+      "titulo": "Tratado de Unificación",
+      "titulo_original": null,
+      "autor": "República Federal de Alemania y República Democrática Alemana",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1990,
+        "hasta": 1990
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Tratado",
+      "resumen": "Tratado del 31 de agosto de 1990 que reguló la adhesión de la RDA a la República Federal el 3 de octubre, con normas sobre ley, economía y patrimonio.",
+      "por_que_importa": "Es el instrumento jurídico interno de la reunificación.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-jasaviurt-1996",
+      "titulo": "Acuerdos de Jasaviurt",
+      "titulo_original": null,
+      "autor": "Aleksandr Lébed y Aslán Masjádov",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Jasaviurt",
+        "lon": 46.583,
+        "lat": 43.25
+      },
+      "trata": {
+        "regiones": [
+          "caucaso",
+          "rus"
+        ],
+        "desde": 1996,
+        "hasta": 1996
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Acuerdo",
+      "resumen": "Acuerdos del 31 de agosto de 1996 que pusieron fin a la primera guerra de Chechenia: retirada de las tropas rusas y aplazamiento de la decisión sobre el estatus de la república hasta 2001.",
+      "por_que_importa": "Cerraron la guerra, sin resolver el estatus.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdos de Jasaviurt",
+        "en": "Khasavyurt Accord"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "chechenia-gall-de-waal",
+      "titulo": "Chechenia: calamidad en el Cáucaso",
+      "titulo_original": "Chechnya: A Small Victorious War",
+      "autor": "Carlotta Gall y Thomas de Waal",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "caucaso",
+          "rus"
+        ],
+        "desde": 1994,
+        "hasta": 1996
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro de dos periodistas que cubrieron la primera guerra de Chechenia: el origen del conflicto, los combates y su impacto sobre la población civil. La primera edición es de Pan Macmillan (Londres, 1997); en Estados Unidos salió en 1998 como Calamity in the Caucasus.",
+      "por_que_importa": "Es una referencia sobre la guerra de 1994-1996.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "una-guerra-sucia-politkovskaya",
+      "titulo": "Una guerra sucia: una periodista rusa en Chechenia",
+      "titulo_original": "A Dirty War: A Russian Reporter in Chechnya",
+      "autor": "Anna Politkóvskaya",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "caucaso",
+          "rus"
+        ],
+        "desde": 1999,
+        "hasta": 2001
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Libro",
+      "resumen": "Reúne en traducción inglesa sus crónicas de Nóvaya Gazeta sobre la segunda guerra de Chechenia, con testimonios de civiles y soldados y denuncias de abusos del ejército ruso. Fue asesinada en 2006.",
+      "por_que_importa": "Es el testimonio periodístico más conocido sobre la guerra.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-1244",
+      "titulo": "Resolución 1244 del Consejo de Seguridad de las Naciones Unidas",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1999,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 10 de junio de 1999 que puso a Kosovo bajo administración de la ONU y autorizó una presencia militar internacional tras la campaña aérea de la OTAN. Reafirmó la soberanía de Yugoslavia.",
+      "por_que_importa": "Es la base del estatuto de Kosovo tras la guerra.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Resolución 1244 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 1244"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdo-de-kumanovo",
+      "titulo": "Acuerdo técnico-militar de Kumanovo",
+      "titulo_original": null,
+      "autor": "OTAN y Yugoslavia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Kumanovo",
+        "lon": 21.714,
+        "lat": 42.132
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1999,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Acuerdo",
+      "resumen": "Acuerdo del 9 de junio de 1999 entre la OTAN y el ejército yugoslavo que dispuso la retirada de las fuerzas serbias de Kosovo y el fin de los bombardeos.",
+      "por_que_importa": "Puso fin a la campaña aérea.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdo de Kumanovo",
+        "en": "Kumanovo Agreement"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdo-de-lusaka-1999",
+      "titulo": "Acuerdo de alto el fuego de Lusaka",
+      "titulo_original": null,
+      "autor": "Estados y grupos armados del conflicto del Congo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Lusaka",
+        "lon": 28.283,
+        "lat": -15.417
+      },
+      "trata": {
+        "regiones": [
+          "africa-central"
+        ],
+        "desde": 1999,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Acuerdo",
+      "resumen": "Acuerdo firmado en julio y agosto de 1999 por la República Democrática del Congo, Angola, Namibia, Ruanda, Uganda y Zimbabue, y por los rebeldes, que previó el cese del fuego y una fuerza de la ONU. No logró detener los combates.",
+      "por_que_importa": "Es el marco diplomático de la segunda guerra del Congo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdo de Alto el Fuego de Lusaka",
+        "en": "Lusaka Ceasefire Agreement"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-guerra-mundial-de-africa-prunier",
+      "titulo": "La guerra mundial de África: el Congo, el genocidio de Ruanda y la catástrofe continental",
+      "titulo_original": "Africa's World War: Congo, the Rwandan Genocide, and the Making of a Continental Catastrophe",
+      "autor": "Gérard Prunier",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "africa-central"
+        ],
+        "desde": 1994,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la guerra del Congo desde el genocidio de Ruanda de 1994 hasta fines de los años 2000. Analiza a los Estados y grupos armados implicados y las razones de sus intervenciones.",
+      "por_que_importa": "Es el estudio más citado sobre la segunda guerra del Congo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-la-cumbre-de-bucarest-2008",
+      "titulo": "Declaración de la cumbre de Bucarest de la OTAN",
+      "titulo_original": null,
+      "autor": "Jefes de Estado y de gobierno de la OTAN",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Bucarest",
+        "lon": 26.098,
+        "lat": 44.413
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "rumania"
+        ],
+        "desde": 2008,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración del 3 de abril de 2008. Afirma que Ucrania y Georgia «se convertirán en miembros de la OTAN» sin fijar un plan de acción para ello.",
+      "por_que_importa": "Su fórmula aparece en los debates sobre la relación entre la OTAN y Rusia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "plan-de-accion-integral-conjunto",
+      "titulo": "Plan de Acción Integral Conjunto",
+      "titulo_original": null,
+      "autor": "Irán y el grupo P5+1",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "britania",
+          "china",
+          "francia",
+          "norteamerica",
+          "persia",
+          "rus"
+        ],
+        "desde": 2015,
+        "hasta": 2015
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Acuerdo",
+      "resumen": "Acuerdo del 14 de julio de 2015 entre Irán, China, Francia, Rusia, el Reino Unido, Estados Unidos, Alemania y la Unión Europea. Limita el programa nuclear iraní a cambio del levantamiento gradual de sanciones.",
+      "por_que_importa": "Es el texto del acuerdo nuclear, del que Estados Unidos se retiró en 2018.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Plan de Acción Integral Conjunto",
+        "en": "Iran nuclear deal"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-del-mecanismo-de-moscu-de-la-osce-2022",
+      "titulo": "Informe del Mecanismo de Moscú de la OSCE sobre violaciones del derecho humanitario en Ucrania",
+      "titulo_original": null,
+      "autor": "Wolfgang Benedek, Veronika Bílková y Marco Sassòli",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2022,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "rus"
+        ],
+        "desde": 2022,
+        "hasta": 2022
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de abril de 2022 de tres expertos designados por 45 Estados de la OSCE sobre violaciones del derecho humanitario y de los derechos humanos entre el 24 de febrero y el 1.º de abril de 2022. Analiza, entre otros, los ataques a la maternidad y al teatro de Mariúpol; de Bucha solo pide una investigación internacional. Se entregó a Ucrania el 5 de abril, los Estados lo recibieron el 12 y se publicó el 13.",
+      "por_que_importa": "Es una investigación internacional temprana sobre el comienzo de la invasión.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "informe-de-la-onu-sobre-ejecuciones-en-kiev-chernihiv-y-sumy",
+      "titulo": "Ejecuciones sumarias y ataques a civiles en las regiones de Kiev, Chernihiv y Sumy",
+      "titulo_original": null,
+      "autor": "Oficina del Alto Comisionado de la ONU para los Derechos Humanos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2022,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 2022,
+        "hasta": 2022
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de diciembre de 2022 que documenta ejecuciones sumarias de civiles por fuerzas rusas en marzo de 2022 en las regiones de Kiev, Chernihiv y Sumy, incluida Bucha.",
+      "por_que_importa": "Es el informe de la ONU sobre estos hechos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "lecciones-preliminares-de-las-ofensivas-de-ucrania-rusi",
+      "titulo": "Lecciones preliminares de las operaciones ofensivas de Ucrania, 2022-23",
+      "titulo_original": "Preliminary Lessons from Ukraine's Offensive Operations, 2022-23",
+      "autor": "Jack Watling, Oleksandr V. Danylyuk y Nick Reynolds",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "rus"
+        ],
+        "desde": 2022,
+        "hasta": 2023
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe del Royal United Services Institute publicado el 18 de julio de 2024 que analiza las ofensivas ucranianas de 2022 y 2023, con referencias a la de Járkov, y las causas del fracaso de la de 2023.",
+      "por_que_importa": "Es un análisis militar sobre las ofensivas ucranianas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-de-putin-del-24-de-junio-de-2023",
+      "titulo": "Discurso de Putin del 24 de junio de 2023 sobre la rebelión del Grupo Wagner",
+      "titulo_original": null,
+      "autor": "Vladímir Putin",
+      "autor_id": "putin",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "estepa-pontica"
+        ],
+        "desde": 2023,
+        "hasta": 2023
+      },
+      "idioma_original": "Ruso",
+      "soporte": "Discurso",
+      "resumen": "Mensaje televisado del presidente ruso en la mañana del 24 de junio de 2023, durante la rebelión de Yevgueni Prigozhin. Calificó el motín de traición y «puñalada por la espalda» y prometió castigo.",
+      "por_que_importa": "Es la declaración oficial más importante durante el motín.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tendencias-tacticas-del-tercer-ano-de-guerra-rusi",
+      "titulo": "Desarrollos tácticos durante el tercer año de la guerra ruso-ucraniana",
+      "titulo_original": "Tactical Developments During the Third Year of the Russo-Ukrainian War",
+      "autor": "Jack Watling y Nick Reynolds",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2025,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "estepa-pontica"
+        ],
+        "desde": 2024,
+        "hasta": 2025
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe del Royal United Services Institute del 14 de febrero de 2025 sobre la evolución táctica de la guerra durante 2024. Trata la ofensiva ucraniana en la región rusa de Kursk y su efecto sobre el frente.",
+      "por_que_importa": "Es un análisis militar que incluye la incursión en Kursk.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "declaracion-de-yeda-2023",
+      "titulo": "Declaración de compromiso para proteger a los civiles de Sudán",
+      "titulo_original": null,
+      "autor": "Fuerzas Armadas Sudanesas y Fuerzas de Apoyo Rápido",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Yeda",
+        "lon": 39.161,
+        "lat": 21.529
+      },
+      "trata": {
+        "regiones": [
+          "nubia",
+          "sudan"
+        ],
+        "desde": 2023,
+        "hasta": 2023
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración firmada el 11 de mayo de 2023 en Yeda, con mediación de Arabia Saudita y Estados Unidos, por las dos partes del conflicto, que se comprometieron a proteger a los civiles y permitir la ayuda. No se cumplió.",
+      "por_que_importa": "Es el primer acuerdo escrito entre las partes tras el inicio de la guerra.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "declaraciones-de-trump-y-putin-en-anchorage-2025",
+      "titulo": "Declaraciones de Trump y Putin tras su reunión en Alaska",
+      "titulo_original": null,
+      "autor": "Donald Trump",
+      "autor_id": "donald-trump",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 2025,
+        "aprox": false,
+        "lugar": "Anchorage",
+        "lon": -149.894,
+        "lat": 61.217
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2025,
+        "hasta": 2025
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaraciones",
+      "resumen": "Declaraciones a la prensa de Donald Trump y Vladímir Putin el 15 de agosto de 2025 en la base Elmendorf-Richardson, tras tres horas de reunión. No anunciaron un acuerdo sobre Ucrania.",
+      "por_que_importa": "Es el registro oficial de lo que los líderes dijeron del encuentro.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "tregua-de-navidad-brown-seaton",
+      "titulo": "Tregua de Navidad: el frente occidental, diciembre de 1914",
+      "titulo_original": "Christmas Truce: The Western Front, December 1914",
+      "autor": "Malcolm Brown y Shirley Seaton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": 1914,
+        "hasta": 1914
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio basado en cartas, diarios y recuerdos de soldados británicos y alemanes que reconstruye las treguas espontáneas de la Navidad de 1914 en distintos tramos del frente occidental.",
+      "por_que_importa": "Es la reconstrucción de referencia de las treguas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "de-amiens-al-armisticio-harris-barr",
+      "titulo": "De Amiens al armisticio: el cuerpo expedicionario británico en la ofensiva de los cien días, 8 de agosto al 11 de noviembre de 1918",
+      "titulo_original": "Amiens to the Armistice: The BEF in the Hundred Days' Campaign, 8 August-11 November 1918",
+      "autor": "J. P. Harris y Niall Barr",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1918,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la ofensiva aliada que empezó en Amiens el 8 de agosto de 1918 y terminó con el armisticio, centrado en el ejército británico y sus operaciones.",
+      "por_que_importa": "Analiza la campaña final del frente occidental.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "rebellious-satellite-machcewicz",
+      "titulo": "Satélite rebelde: Polonia 1956",
+      "titulo_original": "Rebellious Satellite: Poland 1956",
+      "autor": "Paweł Machcewicz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "polonia"
+        ],
+        "desde": 1956,
+        "hasta": 1956
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la crisis polaca de 1956, versión revisada de Polski rok 1956 (Varsovia, 1993), con un capítulo sobre el levantamiento de Poznań de junio de ese año. Editada por el Woodrow Wilson Center Press y Stanford University Press.",
+      "por_que_importa": "Es un estudio con archivos polacos que trata Poznań dentro del año de la crisis.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -5047,7 +8085,9 @@
         "emperador"
       ],
       "resumen": "Último zar de Rusia (1894-1917). Su orden de movilización general de julio de 1914 precipitó la declaración de guerra alemana; abdicó tras la Revolución de Febrero de 1917 y fue fusilado con su familia por los bolcheviques en Ekaterimburgo en 1918.",
-      "obras": [],
+      "obras": [
+        "manifiesto-de-octubre-1905"
+      ],
       "wikipedia": {
         "es": "Nicolás II de Rusia",
         "en": "Nicholas II"
@@ -5703,7 +8743,8 @@
         "lucharemos-en-las-playas",
         "su-hora-mas-gloriosa",
         "discurso-del-telon-de-acero",
-        "la-segunda-guerra-mundial-de-churchill"
+        "la-segunda-guerra-mundial-de-churchill",
+        "la-crisis-mundial-churchill"
       ],
       "wikipedia": {
         "es": "Winston Churchill",
@@ -5744,7 +8785,8 @@
       "obras": [
         "cuatro-libertades",
         "discurso-de-la-infamia",
-        "orden-ejecutiva-9066"
+        "orden-ejecutiva-9066",
+        "conferencia-de-prensa-de-casablanca-1943"
       ],
       "wikipedia": {
         "es": "Franklin D. Roosevelt",
@@ -6692,7 +9734,10 @@
         "politico"
       ],
       "resumen": "Último líder de la Unión Soviética (1985-1991). Sus reformas, la perestroika y la glasnost, y su renuncia a intervenir en Europa del Este aceleraron el fin de la Guerra Fría; firmó con Reagan el Tratado INF y recibió el Premio Nobel de la Paz de 1990.",
-      "obras": [],
+      "obras": [
+        "perestroika-gorbachov",
+        "el-golpe-de-agosto-gorbachov"
+      ],
       "wikipedia": {
         "es": "Mijaíl Gorbachov",
         "en": "Mikhail Gorbachev"
@@ -6802,7 +9847,9 @@
         "politico"
       ],
       "resumen": "Presidente de Serbia y luego de la República Federal de Yugoslavia durante las guerras de los años noventa. Entregado al Tribunal Penal Internacional para la ex-Yugoslavia, murió en 2006 en su celda de La Haya antes de que terminara su juicio por crímenes de guerra y genocidio.",
-      "obras": [],
+      "obras": [
+        "discurso-de-gazimestan"
+      ],
       "wikipedia": {
         "es": "Slobodan Milošević",
         "en": "Slobodan Milošević"
@@ -6962,7 +10009,8 @@
         "discurso-de-putin-sobre-crimea",
         "sobre-la-unidad-historica",
         "discurso-de-putin-del-24-de-febrero",
-        "discurso-de-putin-en-munich-2007"
+        "discurso-de-putin-en-munich-2007",
+        "discurso-de-putin-del-24-de-junio-de-2023"
       ],
       "wikipedia": {
         "es": "Vladímir Putin",
@@ -7755,7 +10803,9 @@
         "empresario"
       ],
       "resumen": "Presidente de los Estados Unidos de 2017 a 2021 y desde enero de 2025. En su primer mandato retiró al país del Acuerdo de París y del acuerdo nuclear con Irán, reconoció a Jerusalén como capital de Israel, anunció la salida del Tratado INF, presidió la firma de los Acuerdos de Abraham de 2020, se reunió tres veces con Kim Jong-un entre junio de 2018 y junio de 2019 sin lograr la desnuclearización y acordó con los talibanes en Doha, el 29 de febrero de 2020, el retiro de las tropas estadounidenses de Afganistán. En el segundo mandato impuso aranceles a la mayoría de los países, discutió con Zelenski ante las cámaras en febrero de 2025, se reunió con Putin en Alaska, ordenó los ataques del 22 de junio de 2025 contra instalaciones nucleares iraníes, ordenó la operación militar del 3 de enero de 2026 en Venezuela que capturó a Nicolás Maduro, que su gobierno justificó como una acción policial con apoyo militar, y autorizó los bombardeos conjuntos con Israel contra Irán del 28 de febrero de 2026, que iniciaron una guerra.",
-      "obras": [],
+      "obras": [
+        "declaraciones-de-trump-y-putin-en-anchorage-2025"
+      ],
       "wikipedia": {
         "es": "Donald Trump",
         "en": "Donald Trump"
@@ -9202,7 +12252,9 @@
         "canciller"
       ],
       "resumen": "Segundo canciller de la República Federal de Alemania, de octubre de 1963 a noviembre de 1966; antes, ministro de Economía de Adenauer (1949-1963), asociado al «milagro económico» y a la economía social de mercado. Como canciller buscó más cercanía con Washington que con París y respaldó el objetivo estadounidense de victoria en Vietnam; en 1965 su gobierno estableció relaciones diplomáticas con Israel. Renunció el 30 de noviembre de 1966, después de que los ministros liberales dejaran el gobierno por el presupuesto.",
-      "obras": [],
+      "obras": [
+        "bienestar-para-todos-erhard"
+      ],
       "wikipedia": {
         "es": "Ludwig Erhard",
         "en": "Ludwig Erhard"
@@ -9771,7 +12823,11 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ultimatum-austrohungaro-a-serbia",
+        "respuesta-serbia-al-ultimatum",
+        "los-sonambulos-clark"
+      ],
       "wikipedia": {
         "es": "Atentado de Sarajevo",
         "en": "Assassination of Archduke Franz Ferdinand"
@@ -9909,7 +12965,9 @@
         "polonia",
         "baltico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-canones-de-agosto-tuchman"
+      ],
       "wikipedia": {
         "es": "Batalla de Tannenberg (1914)",
         "en": "Battle of Tannenberg"
@@ -9929,7 +12987,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-canones-de-agosto-tuchman"
+      ],
       "wikipedia": {
         "es": "Primera batalla del Marne",
         "en": "First Battle of the Marne"
@@ -9950,7 +13010,9 @@
         "francia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tregua-de-navidad-brown-seaton"
+      ],
       "wikipedia": {
         "es": "Tregua de Navidad",
         "en": "Christmas truce"
@@ -9971,7 +13033,10 @@
         "grecia",
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-crisis-mundial-churchill",
+        "galipoli-moorehead"
+      ],
       "wikipedia": {
         "es": "Batalla de Galípoli",
         "en": "Gallipoli campaign"
@@ -9991,7 +13056,9 @@
       "regiones": [
         "irlanda"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dead-wake-larson"
+      ],
       "wikipedia": {
         "es": "Hundimiento del RMS Lusitania",
         "en": "Sinking of RMS Lusitania"
@@ -10011,7 +13078,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-precio-de-la-gloria-horne"
+      ],
       "wikipedia": {
         "es": "Batalla de Verdún",
         "en": "Battle of Verdun"
@@ -10031,7 +13100,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-primer-dia-del-somme-middlebrook"
+      ],
       "wikipedia": {
         "es": "Batalla del Somme",
         "en": "Battle of the Somme"
@@ -10051,7 +13122,10 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "castles-of-steel-massie",
+        "la-crisis-mundial-churchill"
+      ],
       "wikipedia": {
         "es": "Batalla de Jutlandia",
         "en": "Battle of Jutland"
@@ -10094,7 +13168,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "passchendaele-prior-wilson"
+      ],
       "wikipedia": {
         "es": "Tercera batalla de Ypres",
         "en": "Battle of Passchendaele"
@@ -10140,7 +13216,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "de-amiens-al-armisticio-harris-barr"
+      ],
       "wikipedia": {
         "es": "Ofensiva de los Cien Días",
         "en": "Hundred Days Offensive"
@@ -10256,7 +13334,9 @@
       "regiones": [
         "cuerno-de-africa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-de-haile-selassie-ante-la-sociedad-de-naciones"
+      ],
       "wikipedia": {
         "es": "Segunda guerra italo-etíope",
         "en": "Second Italo-Ethiopian War"
@@ -10298,7 +13378,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-arbol-de-gernika-steer"
+      ],
       "wikipedia": {
         "es": "Bombardeo de Guernica",
         "en": "Bombing of Guernica"
@@ -10318,7 +13400,11 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-violacion-de-nankin-chang",
+        "diarios-de-john-rabe",
+        "sentencia-del-tribunal-de-tokio"
+      ],
       "wikipedia": {
         "es": "Masacre de Nankín",
         "en": "Nanjing Massacre"
@@ -10340,7 +13426,9 @@
         "manchuria",
         "china-meridional"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "china-en-guerra-mitter"
+      ],
       "wikipedia": {
         "es": "Segunda guerra sino-japonesa",
         "en": "Second Sino-Japanese War"
@@ -10360,7 +13448,10 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-del-anschluss-1938",
+        "sentencia-de-nuremberg"
+      ],
       "wikipedia": {
         "es": "Anschluss",
         "en": "Anschluss"
@@ -10403,7 +13494,10 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "kristallnacht-steinweis",
+        "sentencia-de-nuremberg"
+      ],
       "wikipedia": {
         "es": "Noche de los cristales rotos",
         "en": "Kristallnacht"
@@ -10494,7 +13588,9 @@
         "rus",
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "katyn-cienciala-lebedeva-materski"
+      ],
       "wikipedia": {
         "es": "Masacre de Katin",
         "en": "Katyn massacre"
@@ -10587,7 +13683,10 @@
         "polonia",
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "directiva-21-del-fuhrer",
+        "sentencia-de-nuremberg"
+      ],
       "wikipedia": {
         "es": "Operación Barbarroja",
         "en": "Operation Barbarossa"
@@ -10607,7 +13706,10 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-900-dias-salisbury",
+        "rusia-en-guerra-werth"
+      ],
       "wikipedia": {
         "es": "Sitio de Leningrado",
         "en": "Siege of Leningrad"
@@ -10697,7 +13799,10 @@
       "regiones": [
         "polinesia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "incredible-victory-lord",
+        "midway-fuchida-okumiya"
+      ],
       "wikipedia": {
         "es": "Batalla de Midway",
         "en": "Battle of Midway"
@@ -10717,7 +13822,10 @@
       "regiones": [
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-papeles-de-rommel",
+        "la-segunda-guerra-mundial-de-churchill"
+      ],
       "wikipedia": {
         "es": "Segunda batalla de El Alamein",
         "en": "Second Battle of El Alamein"
@@ -10738,7 +13846,11 @@
         "estepa-pontica",
         "volga-urales"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "stalingrado-beevor",
+        "rusia-en-guerra-werth",
+        "victorias-perdidas-manstein"
+      ],
       "wikipedia": {
         "es": "Batalla de Stalingrado",
         "en": "Battle of Stalingrad"
@@ -10758,7 +13870,10 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-stroop",
+        "sentencia-de-nuremberg"
+      ],
       "wikipedia": {
         "es": "Levantamiento del gueto de Varsovia",
         "en": "Warsaw Ghetto Uprising"
@@ -10778,7 +13893,10 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rusia-en-guerra-werth",
+        "victorias-perdidas-manstein"
+      ],
       "wikipedia": {
         "es": "Batalla de Kursk",
         "en": "Battle of Kursk"
@@ -10798,7 +13916,10 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-teheran-1943",
+        "la-segunda-guerra-mundial-de-churchill"
+      ],
       "wikipedia": {
         "es": "Conferencia de Teherán",
         "en": "Tehran Conference"
@@ -10819,7 +13940,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-dia-mas-largo-ryan",
+        "la-segunda-guerra-mundial-de-churchill"
+      ],
       "wikipedia": {
         "es": "Desembarco de Normandia",
         "en": "Normandy landings"
@@ -10839,7 +13963,10 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rising-44-davies",
+        "la-segunda-guerra-mundial-de-churchill"
+      ],
       "wikipedia": {
         "es": "Alzamiento de Varsovia",
         "en": "Warsaw Uprising"
@@ -10905,7 +14032,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dresde-taylor"
+      ],
       "wikipedia": {
         "es": "Bombardeo de Dresde",
         "en": "Bombing of Dresden"
@@ -10925,7 +14054,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "berlin-la-caida-beevor"
+      ],
       "wikipedia": {
         "es": "Batalla de Berlín",
         "en": "Battle of Berlin"
@@ -11123,7 +14254,9 @@
       "regiones": [
         "japon"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sentencia-del-tribunal-de-tokio"
+      ],
       "wikipedia": {
         "es": "Tribunal Penal Militar Internacional para el Lejano Oriente",
         "en": "International Military Tribunal for the Far East"
@@ -11190,7 +14323,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-bloqueo-de-berlin-shlaim"
+      ],
       "wikipedia": {
         "es": "Bloqueo de Berlín",
         "en": "Berlin Blockade"
@@ -11391,7 +14526,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bahia-de-cochinos-wyden"
+      ],
       "wikipedia": {
         "es": "Invasión de bahía de Cochinos",
         "en": "Bay of Pigs Invasion"
@@ -11481,7 +14618,9 @@
       "regiones": [
         "sudeste-asiatico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tet-oberdorfer"
+      ],
       "wikipedia": {
         "es": "Ofensiva del Tet",
         "en": "Tet Offensive"
@@ -11501,7 +14640,10 @@
       "regiones": [
         "sudeste-asiatico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-peers",
+        "my-lai-4-hersh"
+      ],
       "wikipedia": {
         "es": "Matanza de Mỹ Lai",
         "en": "My Lai massacre"
@@ -11565,7 +14707,9 @@
       "regiones": [
         "sudeste-asiatico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-regimen-de-pol-pot-kiernan"
+      ],
       "wikipedia": {
         "es": "Genocidio camboyano",
         "en": "Cambodian genocide"
@@ -11585,7 +14729,10 @@
       "regiones": [
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "afgantsy-braithwaite",
+        "acuerdos-de-ginebra-1988"
+      ],
       "wikipedia": {
         "es": "Guerra de Afganistán (1978-1989)",
         "en": "Soviet–Afghan War"
@@ -11606,7 +14753,10 @@
         "mesopotamia",
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "resolucion-598",
+        "la-guerra-iran-irak-murray-woods"
+      ],
       "wikipedia": {
         "es": "Guerra Irán-Irak",
         "en": "Iran–Iraq War"
@@ -11626,7 +14776,10 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-dos-mas-cuatro",
+        "tratado-de-unificacion-alemana-1990"
+      ],
       "wikipedia": {
         "es": "Reunificación alemana",
         "en": "German reunification"
@@ -11792,7 +14945,10 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "resolucion-1244",
+        "acuerdo-de-kumanovo"
+      ],
       "wikipedia": {
         "es": "Guerra de Kosovo",
         "en": "Kosovo War"
@@ -11812,7 +14968,10 @@
       "regiones": [
         "africa-central"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acuerdo-de-lusaka-1999",
+        "la-guerra-mundial-de-africa-prunier"
+      ],
       "wikipedia": {
         "es": "Segunda guerra del Congo",
         "en": "Second Congo War"
@@ -11999,7 +15158,9 @@
       "regiones": [
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-del-mecanismo-de-moscu-de-la-osce-2022"
+      ],
       "wikipedia": {
         "es": "Sitio de Mariúpol",
         "en": "Siege of Mariupol"
@@ -12019,7 +15180,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-onu-sobre-ejecuciones-en-kiev-chernihiv-y-sumy"
+      ],
       "wikipedia": {
         "es": "Masacre de Bucha",
         "en": "Bucha massacre"
@@ -12039,7 +15202,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lecciones-preliminares-de-las-ofensivas-de-ucrania-rusi"
+      ],
       "wikipedia": {
         "es": "Contraofensiva del este de Ucrania de 2022",
         "en": "2022 Kharkiv counteroffensive"
@@ -12081,7 +15246,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tendencias-tacticas-del-tercer-ano-de-guerra-rusi"
+      ],
       "wikipedia": {
         "es": "Ofensiva de Kursk (2024-2025)",
         "en": "Kursk campaign"
@@ -12126,7 +15293,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaraciones-de-trump-y-putin-en-anchorage-2025"
+      ],
       "wikipedia": {
         "es": "Cumbre Estados Unidos-Rusia de 2025",
         "en": "2025 Russia–United States summit"
@@ -12147,7 +15316,9 @@
         "nubia",
         "sudan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-yeda-2023"
+      ],
       "wikipedia": {
         "es": "Guerra civil sudanesa (2023-presente)",
         "en": "Sudanese civil war (2023–present)"
@@ -12195,7 +15366,10 @@
       "regiones": [
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ghost-wars-coll",
+        "acuerdo-de-peshawar-1992"
+      ],
       "wikipedia": {
         "es": "Guerra civil afgana (1989-1992)",
         "en": "Afghan Civil War (1989–1992)"
@@ -12215,7 +15389,10 @@
       "regiones": [
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acuerdo-de-peshawar-1992",
+        "taliban-rashid"
+      ],
       "wikipedia": {
         "es": "Guerra civil afgana (1992-1996)",
         "en": "Afghan Civil War (1992–1996)"
@@ -12235,7 +15412,10 @@
       "regiones": [
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "taliban-rashid",
+        "ghost-wars-coll"
+      ],
       "wikipedia": {
         "es": "Guerra civil afgana (1996-2001)",
         "en": "Afghan Civil War (1996–2001)"
@@ -12300,7 +15480,10 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "todos-los-hombres-del-shah-kinzer",
+        "el-golpe-abrahamian"
+      ],
       "wikipedia": {
         "es": "Golpe de Estado en Irán de 1953",
         "en": "1953 Iranian coup d'état"
@@ -12322,7 +15505,9 @@
         "india",
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-guerra-china-de-la-india-maxwell"
+      ],
       "wikipedia": {
         "es": "Guerra sino-india",
         "en": "Sino-Indian War"
@@ -12343,7 +15528,10 @@
         "india",
         "noreste-de-la-india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "proclamacion-de-la-independencia-de-bangladesh",
+        "el-telegrama-blood-bass"
+      ],
       "wikipedia": {
         "es": "Guerra de liberación de Bangladés",
         "en": "Bangladesh Liberation War"
@@ -12364,7 +15552,10 @@
         "china",
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-division-sino-sovietica-luthi",
+        "propuesta-sobre-la-linea-general-del-movimiento-comunista"
+      ],
       "wikipedia": {
         "es": "Ruptura sino-soviética",
         "en": "Sino-Soviet split"
@@ -12411,7 +15602,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rusia-en-guerra-werth"
+      ],
       "wikipedia": {
         "es": "Batalla de Moscú",
         "en": "Battle of Moscow"
@@ -12433,7 +15626,9 @@
         "polonia",
         "baltico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rusia-en-guerra-werth"
+      ],
       "wikipedia": {
         "es": "Operación Bagratión",
         "en": "Operation Bagration"
@@ -12454,7 +15649,9 @@
         "estepa-pontica",
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-de-putin-del-24-de-junio-de-2023"
+      ],
       "wikipedia": {
         "es": "Rebelión del Grupo Wagner",
         "en": "Wagner Group rebellion"
@@ -12474,7 +15671,10 @@
       "regiones": [
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "conferencia-de-prensa-de-casablanca-1943",
+        "la-segunda-guerra-mundial-de-churchill"
+      ],
       "wikipedia": {
         "es": "Conferencia de Casablanca",
         "en": "Casablanca Conference"
@@ -12564,7 +15764,10 @@
         "caucaso",
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-jasaviurt-1996",
+        "chechenia-gall-de-waal"
+      ],
       "wikipedia": {
         "es": "Primera guerra chechena",
         "en": "First Chechen War"
@@ -12585,7 +15788,9 @@
         "caucaso",
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "una-guerra-sucia-politkovskaya"
+      ],
       "wikipedia": {
         "es": "Segunda guerra chechena",
         "en": "Second Chechen War"
@@ -12631,7 +15836,9 @@
         "alemania",
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "a-time-for-trumpets-macdonald"
+      ],
       "wikipedia": {
         "es": "Batalla de las Ardenas",
         "en": "Battle of the Bulge"
@@ -12677,7 +15884,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "overlord-hastings",
+        "los-papeles-de-rommel"
+      ],
       "wikipedia": {
         "es": "Batalla de Normandía",
         "en": "Operation Overlord"
@@ -12722,7 +15932,9 @@
         "estepa-pontica",
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "aguila-blanca-estrella-roja-davies"
+      ],
       "wikipedia": {
         "es": "Guerra polaco-soviética",
         "en": "Polish–Soviet War"
@@ -12742,7 +15954,9 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "aguila-blanca-estrella-roja-davies"
+      ],
       "wikipedia": {
         "es": "Batalla de Varsovia (1920)",
         "en": "Battle of Warsaw (1920)"
@@ -12762,7 +15976,9 @@
       "regiones": [
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "guerra-civil-en-el-sur-de-rusia-kenez"
+      ],
       "wikipedia": {
         "es": "Evacuación de Crimea",
         "en": "Evacuation of the Crimea"
@@ -12784,7 +16000,9 @@
         "balcanes",
         "rumania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "pacto-balcanico-1934"
+      ],
       "wikipedia": {
         "es": "Entente de los Balcanes",
         "en": "Balkan Pact"
@@ -12825,7 +16043,9 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "albania-en-guerra-fischer"
+      ],
       "wikipedia": {
         "es": "Invasión italiana de Albania",
         "en": "Italian invasion of Albania"
@@ -12846,7 +16066,9 @@
         "balcanes",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorandum-de-londres-1954"
+      ],
       "wikipedia": {
         "es": "Territorio libre de Trieste",
         "en": "Free Territory of Trieste"
@@ -12866,7 +16088,9 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "de-stalin-a-mao-mehilli"
+      ],
       "wikipedia": {
         "es": "Ruptura albano-soviética",
         "en": "Albanian–Soviet split"
@@ -12887,7 +16111,9 @@
         "italia",
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-osimo"
+      ],
       "wikipedia": {
         "es": "Tratado de Osimo",
         "en": "Treaty of Osimo"
@@ -12907,7 +16133,9 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-de-gazimestan"
+      ],
       "wikipedia": {
         "es": "Discurso de Gazimestán",
         "en": "Gazimestan speech"
@@ -12927,7 +16155,9 @@
       "regiones": [
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "decreto-sobre-el-traspaso-de-crimea-1954"
+      ],
       "wikipedia": {
         "es": "Transferencia de Crimea",
         "en": "Transfer of Crimea to Ukraine"
@@ -12947,7 +16177,10 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "one-hell-of-a-gamble-fursenko-naftali",
+        "discurso-de-kennedy-sobre-cuba"
+      ],
       "wikipedia": {
         "es": "Operación Anádir",
         "en": "Operation Anadyr"
@@ -12990,7 +16223,9 @@
       "regiones": [
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-jackson-hole-1989"
+      ],
       "wikipedia": {
         "en": "1988 Black Sea bumping incident"
       }
@@ -13010,7 +16245,9 @@
         "rumania",
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-la-cumbre-de-bucarest-2008"
+      ],
       "wikipedia": {
         "es": "Cumbre de Bucarest de 2008",
         "en": "2008 Bucharest NATO summit"
@@ -13030,7 +16267,9 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rebellious-satellite-machcewicz"
+      ],
       "wikipedia": {
         "es": "Protestas de Poznań de 1956",
         "en": "1956 Poznań protests"
@@ -13051,7 +16290,9 @@
         "polonia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-varsovia-1970"
+      ],
       "wikipedia": {
         "es": "Tratado de Varsovia (1970)",
         "en": "Treaty of Warsaw (1970)"
@@ -13072,7 +16313,9 @@
         "alemania",
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "conclusiones-de-la-conferencia-de-bonn-2011"
+      ],
       "wikipedia": {
         "es": "Conferencia internacional sobre Afganistán, Bonn (2011)",
         "en": "International Conference on Afghanistan, Bonn (2011)"
@@ -13094,7 +16337,9 @@
         "britania",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "comunicado-de-nassau-1962"
+      ],
       "wikipedia": {
         "es": "Acuerdo de Nassau",
         "en": "Nassau Agreement"
@@ -13115,7 +16360,9 @@
         "china",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-conjunta-sino-britanica"
+      ],
       "wikipedia": {
         "es": "Declaración Conjunta Sino-Británica",
         "en": "Sino-British Joint Declaration"
@@ -13136,7 +16383,9 @@
         "francia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-del-eliseo"
+      ],
       "wikipedia": {
         "es": "Tratado del Elíseo",
         "en": "Élysée Treaty"
@@ -13161,7 +16410,9 @@
         "britania",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-rambouillet-1975"
+      ],
       "wikipedia": {
         "es": "1.ª Cumbre del G6",
         "en": "1st G6 summit"
@@ -13187,7 +16438,9 @@
         "rus",
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "plan-de-accion-integral-conjunto"
+      ],
       "wikipedia": {
         "es": "Plan de Acción Integral Conjunto",
         "en": "Iran nuclear deal"
@@ -13208,7 +16461,11 @@
         "grecia",
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-londres-1913",
+        "tratado-de-bucarest-1913",
+        "los-sonambulos-clark"
+      ],
       "wikipedia": {
         "es": "Guerras de los Balcanes",
         "en": "Balkan Wars"
@@ -13369,7 +16626,10 @@
       "regiones": [
         "finlandia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-mannerheim",
+        "guerra-civil-finlandesa-tepora-roselius"
+      ],
       "wikipedia": {
         "es": "Guerra civil finlandesa",
         "en": "Finnish Civil War"

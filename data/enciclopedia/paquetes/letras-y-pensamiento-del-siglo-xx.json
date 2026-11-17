@@ -6723,6 +6723,242 @@
         "en": "The Birth of the Clinic"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "testamento-de-alfred-nobel",
+      "titulo": "Testamento de Alfred Nobel",
+      "titulo_original": null,
+      "autor": "Alfred Nobel",
+      "autor_id": "alfred-nobel",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia"
+        ],
+        "desde": 1895,
+        "hasta": 1901
+      },
+      "idioma_original": "Sueco",
+      "soporte": "Testamento",
+      "resumen": "Testamento del 27 de noviembre de 1895 por el que Alfred Nobel destinó su fortuna a premios en física, química, medicina, literatura y paz. El Nobel de Literatura debía ir a la obra «en dirección ideal».",
+      "por_que_importa": "Es la base de los premios, entregados desde 1901.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "presentacion-de-les-temps-modernes-sartre",
+      "titulo": "Presentación de Les Temps modernes",
+      "titulo_original": null,
+      "autor": "Jean-Paul Sartre",
+      "autor_id": "sartre",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1945,
+        "hasta": 1945
+      },
+      "idioma_original": "Francés",
+      "soporte": "Editorial",
+      "resumen": "Texto de Sartre en el primer número de la revista, de octubre de 1945. Defiende que el escritor debe comprometerse con su época.",
+      "por_que_importa": "Es el manifiesto de la revista.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-gruppe-47-bottiger",
+      "titulo": "El Grupo 47: cuando la literatura alemana hizo historia",
+      "titulo_original": "Die Gruppe 47: Als die deutsche Literatur Geschichte schrieb",
+      "autor": "Helmut Böttiger",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1947,
+        "hasta": 1967
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro",
+      "resumen": "Historia del grupo de escritores reunido por Hans Werner Richter desde 1947, con Böll, Grass y Celan entre sus invitados.",
+      "por_que_importa": "Es una historia reciente del grupo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "almanaque-del-grupo-47",
+      "titulo": "Almanaque del Grupo 47, 1947-1962",
+      "titulo_original": "Almanach der Gruppe 47",
+      "autor": "Hans Werner Richter (ed.)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "literatura",
+      "escrita": {
+        "anio": 1962,
+        "aprox": false,
+        "lugar": "Reinbek",
+        "lon": 10.248,
+        "lat": 53.509
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1947,
+        "hasta": 1962
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Antología",
+      "resumen": "Antología con textos de los participantes de las reuniones del grupo y una crónica de ellas, editada por su organizador.",
+      "por_que_importa": "Es el testimonio del grupo sobre sí mismo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-de-eliot-en-el-banquete-nobel-1948",
+      "titulo": "Discurso de T. S. Eliot en el banquete del Nobel",
+      "titulo_original": null,
+      "autor": "T. S. Eliot",
+      "autor_id": "eliot",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "escandinavia"
+        ],
+        "desde": 1948,
+        "hasta": 1948
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Discurso",
+      "resumen": "Discurso breve de agradecimiento pronunciado el 10 de diciembre de 1948 en Estocolmo al recibir el Premio Nobel de Literatura.",
+      "por_que_importa": "Es el registro oficial de su intervención.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "el-juicio-de-lady-chatterley-rolph",
+      "titulo": "El juicio de Lady Chatterley",
+      "titulo_original": "The Trial of Lady Chatterley",
+      "autor": "C. H. Rolph (ed.)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1960,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1960,
+        "hasta": 1960
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Versión taquigráfica del juicio del Old Bailey de 1960, con extractos de los testimonios de escritores y críticos, preparada por C. H. Rolph (Penguin, Harmondsworth, 1961).",
+      "por_que_importa": "Es la edición más citada del juicio.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ley-de-publicaciones-obscenas-1959",
+      "titulo": "Ley de Publicaciones Obscenas de 1959",
+      "titulo_original": null,
+      "autor": "Parlamento del Reino Unido",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1959,
+        "hasta": 1959
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley que permitió defender una obra por su mérito literario, científico o artístico. Fue la base del juicio de «Lady Chatterley».",
+      "por_que_importa": "Cambió el criterio con que se juzgaba la obscenidad.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Obscene Publications Act 1959"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "en-juicio-labedz-hayward",
+      "titulo": "En juicio: el caso de Siniavski y Daniel",
+      "titulo_original": "On Trial: The Case of Sinyavsky (Tertz) and Daniel (Arzhak)",
+      "autor": "Leopold Labedz y Max Hayward (eds.)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1965,
+        "hasta": 1966
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Compilación de los textos del juicio de 1966 contra Andréi Siniavski (Abram Tertz) y Yuli Daniel (Nikolái Arzhak) y de los documentos de la época, preparada por dos estudiosos.",
+      "por_que_importa": "Reúne la documentación del proceso.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -7175,7 +7411,8 @@
       "resumen": "Poeta nacido en Estados Unidos que se instaló en Inglaterra y se nacionalizó británico en 1927. Premio Nobel de Literatura de 1948.",
       "obras": [
         "la-tierra-baldia",
-        "el-libro-de-los-gatos-habilidosos-del-viejo-possum"
+        "el-libro-de-los-gatos-habilidosos-del-viejo-possum",
+        "discurso-de-eliot-en-el-banquete-nobel-1948"
       ],
       "wikipedia": {
         "es": "T. S. Eliot",
@@ -8998,7 +9235,8 @@
         "a-puerta-cerrada",
         "las-moscas-sartre",
         "las-manos-sucias",
-        "las-palabras-sartre"
+        "las-palabras-sartre",
+        "presentacion-de-les-temps-modernes-sartre"
       ],
       "wikipedia": {
         "es": "Jean-Paul Sartre",
@@ -9535,7 +9773,9 @@
         "industrial"
       ],
       "resumen": "Químico e industrial sueco, inventor de la dinamita. En su testamento de 1895 dejó la mayor parte de su fortuna para crear los premios que llevan su nombre.",
-      "obras": [],
+      "obras": [
+        "testamento-de-alfred-nobel"
+      ],
       "wikipedia": {
         "es": "Alfred Nobel",
         "en": "Alfred Nobel"
@@ -9558,7 +9798,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "testamento-de-alfred-nobel"
+      ],
       "wikipedia": {
         "es": "Premios Nobel",
         "en": "Nobel Prize"
@@ -9761,7 +10003,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "en-juicio-labedz-hayward"
+      ],
       "wikipedia": {
         "es": "Proceso de Siniavski–Daniel",
         "en": "Sinyavsky–Daniel trial"
@@ -9806,7 +10050,9 @@
         "escandinavia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-de-eliot-en-el-banquete-nobel-1948"
+      ],
       "wikipedia": {
         "es": "T. S. Eliot",
         "en": "T. S. Eliot"
@@ -9849,7 +10095,10 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-juicio-de-lady-chatterley-rolph",
+        "ley-de-publicaciones-obscenas-1959"
+      ],
       "wikipedia": {
         "en": "R v Penguin Books Ltd"
       }
@@ -9868,7 +10117,10 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-gruppe-47-bottiger",
+        "almanaque-del-grupo-47"
+      ],
       "wikipedia": {
         "es": "Grupo 47",
         "en": "Group 47"
@@ -9888,7 +10140,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "presentacion-de-les-temps-modernes-sartre"
+      ],
       "wikipedia": {
         "es": "Les Temps Modernes",
         "en": "Les Temps modernes"

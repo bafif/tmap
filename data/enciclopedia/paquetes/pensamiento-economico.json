@@ -3617,6 +3617,461 @@
         }
       ],
       "confianza": "alta"
+    },
+    {
+      "id": "union-imperial-y-reforma-arancelaria-chamberlain",
+      "titulo": "Unión imperial y reforma arancelaria",
+      "titulo_original": "Imperial Union and Tariff Reform",
+      "autor": "Joseph Chamberlain",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1903,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1903,
+        "hasta": 1903
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Discursos",
+      "resumen": "Recopilación de los discursos de Joseph Chamberlain de mayo a noviembre de 1903, desde su discurso de Birmingham del 15 de mayo, en que propuso aranceles preferenciales dentro del Imperio.",
+      "por_que_importa": "Es la fuente primaria de la campaña por la reforma arancelaria.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "negocios-britanicos-y-proteccion-marrison",
+      "titulo": "Empresas británicas y proteccionismo, 1903-1932",
+      "titulo_original": "British Business and Protection, 1903-1932",
+      "autor": "Andrew Marrison",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1903,
+        "hasta": 1932
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Andrew Marrison sobre la actitud de los distintos sectores empresariales británicos ante la campaña de reforma arancelaria de Chamberlain y el proteccionismo posterior.",
+      "por_que_importa": "Analiza quién apoyó y quién se opuso al arancel.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ley-de-seguridad-social-1935",
+      "titulo": "Ley de Seguridad Social de 1935",
+      "titulo_original": null,
+      "autor": "Congreso de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1935,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1935,
+        "hasta": 1935
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Ley",
+      "resumen": "Ley firmada por Roosevelt el 14 de agosto de 1935 que creó jubilaciones federales, el seguro de desempleo y ayudas para niños dependientes y personas ciegas.",
+      "por_que_importa": "Es una de las leyes centrales del New Deal.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ley de Seguridad Social (Estados Unidos)",
+        "en": "Social Security Act"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-era-de-roosevelt-schlesinger",
+      "titulo": "La era de Roosevelt",
+      "titulo_original": "The Age of Roosevelt",
+      "autor": "Arthur M. Schlesinger Jr.",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1957,
+        "anio_hasta": 1960,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1919,
+        "hasta": 1936
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia en tres volúmenes de Arthur Schlesinger sobre el ascenso de Roosevelt y sus primeros años de gobierno, con el segundo, «La llegada del New Deal», dedicado a 1933-1935.",
+      "por_que_importa": "Es la historia clásica del New Deal.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-buena-sociedad-lippmann",
+      "titulo": "La buena sociedad",
+      "titulo_original": "The Good Society",
+      "autor": "Walter Lippmann",
+      "autor_id": "walter-lippmann",
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1937,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "francia"
+        ],
+        "desde": 1937,
+        "hasta": 1937
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro de Walter Lippmann que critica el colectivismo y defiende una economía de mercado con reformas. Motivó el coloquio de París de 1938.",
+      "por_que_importa": "Fue el punto de partida del coloquio Lippmann.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-coloquio-lippmann-audier",
+      "titulo": "El coloquio Lippmann: los orígenes del neoliberalismo",
+      "titulo_original": "Le Colloque Lippmann: Aux origines du néo-libéralisme",
+      "autor": "Serge Audier",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Lormont",
+        "lon": -0.523,
+        "lat": 44.88
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1938,
+        "hasta": 1938
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Serge Audier sobre el coloquio de París de agosto de 1938, con sus participantes, debates y el proyecto de renovación del liberalismo.",
+      "por_que_importa": "Es la monografía de referencia sobre el coloquio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-monnet",
+      "titulo": "Memorias de Jean Monnet",
+      "titulo_original": "Mémoires",
+      "autor": "Jean Monnet",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1888,
+        "hasta": 1975
+      },
+      "idioma_original": "Francés",
+      "soporte": "Memorias",
+      "resumen": "Memorias del jefe del Comisariado del Plan, que describe cómo propuso el primer plan de modernización y equipamiento de 1946 y su papel en la integración europea.",
+      "por_que_importa": "Es el relato del autor del plan.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "bienestar-para-todos-erhard",
+      "titulo": "Bienestar para todos",
+      "titulo_original": "Wohlstand für Alle",
+      "autor": "Ludwig Erhard",
+      "autor_id": "ludwig-erhard",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Düsseldorf",
+        "lon": 6.777,
+        "lat": 51.226
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1948,
+        "hasta": 1957
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro",
+      "resumen": "Libro de Ludwig Erhard, ministro de Economía, que defiende la economía social de mercado y repasa las reformas de 1948.",
+      "por_que_importa": "Es la exposición del principal responsable de la política.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "produccion-de-mercancias-por-medio-de-mercancias-sraffa",
+      "titulo": "Producción de mercancías por medio de mercancías",
+      "titulo_original": "Production of Commodities by Means of Commodities",
+      "autor": "Piero Sraffa",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1960,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1960,
+        "hasta": 1960
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro de Piero Sraffa que presenta un modelo de precios de producción y critica la teoría marginalista del capital. Fue el punto de partida de la controversia de Cambridge.",
+      "por_que_importa": "Es el libro que dio origen a la controversia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "controversias-de-cambridge-harcourt",
+      "titulo": "Algunas controversias de Cambridge en la teoría del capital",
+      "titulo_original": "Some Cambridge Controversies in the Theory of Capital",
+      "autor": "Geoffrey C. Harcourt",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "norteamerica"
+        ],
+        "desde": 1953,
+        "hasta": 1972
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Balance de Geoffrey Harcourt de la controversia entre economistas de Cambridge (Reino Unido) y del MIT sobre la medición y el papel del capital en la teoría económica.",
+      "por_que_importa": "Es la reseña clásica de la controversia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-factor-nobel-offer-soderberg",
+      "titulo": "El factor Nobel: el premio de economía, la socialdemocracia y el giro al mercado",
+      "titulo_original": "The Nobel Factor",
+      "autor": "Avner Offer y Gabriel Söderberg",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia"
+        ],
+        "desde": 1968,
+        "hasta": 2016
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del premio de economía creado por el Riksbank sueco en 1968, entregado desde 1969, y de su relación con la política económica de Suecia.",
+      "por_que_importa": "Es la historia académica del premio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-precio-yergin",
+      "titulo": "El precio: la búsqueda épica de petróleo, dinero y poder",
+      "titulo_original": "The Prize: The Epic Quest for Oil, Money, and Power",
+      "autor": "Daniel Yergin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "persia",
+          "mesopotamia",
+          "arabia",
+          "britania",
+          "rus"
+        ],
+        "desde": 1853,
+        "hasta": 1991
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia mundial del petróleo que dedica capítulos al embargo de la OPEP de 1973-1974 tras la guerra de Yom Kipur y al alza de precios. Ganó el Pulitzer en 1992.",
+      "por_que_importa": "Es una síntesis de referencia sobre la crisis del petróleo.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Prize: The Epic Quest for Oil, Money, and Power"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "radicales-por-el-capitalismo-doherty",
+      "titulo": "Radicales por el capitalismo",
+      "titulo_original": "Radicals for Capitalism",
+      "autor": "Brian Doherty",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1930,
+        "hasta": 2007
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del movimiento libertario estadounidense que trata la fundación del Cato Institute en 1977 con apoyo de Charles Koch.",
+      "por_que_importa": "Es una historia del movimiento escrita por un periodista cercano a él.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Radicals for Capitalism",
+        "en": "Radicals for Capitalism"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "resolucion-del-consejo-europeo-sobre-el-sme-1978",
+      "titulo": "Resolución del Consejo Europeo sobre el establecimiento del Sistema Monetario Europeo",
+      "titulo_original": null,
+      "autor": "Consejo Europeo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Bruselas",
+        "lon": 4.353,
+        "lat": 50.847
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": 1978,
+        "hasta": 1979
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 5 de diciembre de 1978 que creó el Sistema Monetario Europeo, con un mecanismo de tipos de cambio y la unidad de cuenta ECU. Entró en vigor en marzo de 1979.",
+      "por_que_importa": "Es el texto fundacional del sistema.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ley-8880-del-plan-real",
+      "titulo": "Ley n.º 8.880 de 1994 (Plan Real)",
+      "titulo_original": null,
+      "autor": "Congreso Nacional de Brasil",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Brasilia",
+        "lon": -47.883,
+        "lat": -15.794
+      },
+      "trata": {
+        "regiones": [
+          "brasil"
+        ],
+        "desde": 1994,
+        "hasta": 1994
+      },
+      "idioma_original": "Portugués",
+      "soporte": "Ley",
+      "resumen": "Ley del 27 de mayo de 1994 que convirtió la medida provisoria del Plan Real, creó la Unidad Real de Valor y fijó la reforma monetaria que dio origen al real el 1.º de julio de 1994.",
+      "por_que_importa": "Es la norma legal del plan antiinflacionario.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5098,7 +5553,9 @@
         "periodista"
       ],
       "resumen": "Periodista y ensayista estadounidense, uno de los comentaristas políticos más influyentes de su siglo. Su libro «La buena sociedad» (1937), que defendía un liberalismo renovado, motivó el coloquio de París de 1938 que lleva su nombre, donde se adoptó el término «neoliberalismo».",
-      "obras": [],
+      "obras": [
+        "la-buena-sociedad-lippmann"
+      ],
       "wikipedia": {
         "es": "Walter Lippmann",
         "en": "Walter Lippmann"
@@ -6148,7 +6605,11 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-de-seguridad-social-1935",
+        "la-era-de-roosevelt-schlesinger",
+        "historia-monetaria-de-estados-unidos"
+      ],
       "wikipedia": {
         "es": "New Deal",
         "en": "New Deal"
@@ -6168,7 +6629,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-buena-sociedad-lippmann",
+        "el-coloquio-lippmann-audier"
+      ],
       "wikipedia": {
         "es": "Coloquio Walter Lippmann",
         "en": "Colloque Walter Lippmann"
@@ -6326,7 +6790,10 @@
         "britania",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "produccion-de-mercancias-por-medio-de-mercancias-sraffa",
+        "controversias-de-cambridge-harcourt"
+      ],
       "wikipedia": {
         "es": "Controversia de Cambridge",
         "en": "Cambridge capital controversy"
@@ -6346,7 +6813,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-factor-nobel-offer-soderberg"
+      ],
       "wikipedia": {
         "es": "Premio de Economía Conmemorativo de Alfred Nobel",
         "en": "Nobel Memorial Prize in Economic Sciences"
@@ -6412,7 +6881,9 @@
         "norteamerica",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-precio-yergin"
+      ],
       "wikipedia": {
         "es": "Crisis del petróleo de 1973",
         "en": "1973 oil crisis"
@@ -6455,7 +6926,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "radicales-por-el-capitalismo-doherty"
+      ],
       "wikipedia": {
         "es": "Instituto Catón",
         "en": "Cato Institute"
@@ -6571,7 +7044,9 @@
       "regiones": [
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-8880-del-plan-real"
+      ],
       "wikipedia": {
         "es": "Plan Real",
         "en": "Plano Real"
@@ -6616,7 +7091,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bienestar-para-todos-erhard"
+      ],
       "wikipedia": {
         "es": "Economía social de mercado",
         "en": "Social market economy"
@@ -6637,7 +7114,9 @@
         "alemania",
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "resolucion-del-consejo-europeo-sobre-el-sme-1978"
+      ],
       "wikipedia": {
         "es": "Sistema Monetario Europeo",
         "en": "European Monetary System"
@@ -6657,7 +7136,10 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "union-imperial-y-reforma-arancelaria-chamberlain",
+        "negocios-britanicos-y-proteccion-marrison"
+      ],
       "wikipedia": {
         "en": "Tariff Reform League"
       }
@@ -6742,7 +7224,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-monnet"
+      ],
       "wikipedia": {
         "es": "Plan Monnet",
         "en": "Monnet Plan"
