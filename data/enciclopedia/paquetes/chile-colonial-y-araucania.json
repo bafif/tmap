@@ -1378,6 +1378,151 @@
         "en": "Aku-Aku"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "culturas-de-chile-1989",
+      "titulo": "Culturas de Chile: prehistoria, desde sus orígenes hasta los albores de la conquista",
+      "titulo_original": null,
+      "autor": "Jorge Hidalgo y otros (editores)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": -12500,
+        "hasta": 1536
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Síntesis colectiva de la prehistoria de Chile, con capítulos de Jorge Hidalgo, Virgilio Schiappacasse, Hans Niemeyer, Carlos Aldunate e Iván Solimano, entre otros. Trata las culturas del norte, del norte chico y de Chile central, entre ellas El Molle y Aconcagua.",
+      "por_que_importa": "Es una de las síntesis generales de la arqueología chilena.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "esclavitud-negra-en-chile-mellafe",
+      "titulo": "La introducción de la esclavitud negra en Chile: tráfico y rutas",
+      "titulo_original": null,
+      "autor": "Rolando Mellafe",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1540,
+        "hasta": 1823
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de Rolando Mellafe sobre la llegada de esclavos africanos a Chile durante el período colonial: los que vinieron con los conquistadores, el tráfico por Lima y por Buenos Aires, las rutas, los precios y su lugar en la economía.",
+      "por_que_importa": "Es el estudio clásico sobre la esclavitud africana en Chile.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-medicina-chilena-cruz-coke",
+      "titulo": "Historia de la medicina chilena",
+      "titulo_original": null,
+      "autor": "Ricardo Cruz-Coke",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1541,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la medicina en Chile desde la conquista, por el médico y científico Ricardo Cruz-Coke. Trata los primeros hospitales de Santiago y de otras ciudades, las órdenes hospitalarias, el Protomedicato y la enseñanza médica.",
+      "por_que_importa": "Es una obra de referencia sobre los orígenes de la asistencia médica en Chile.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "mystery-of-easter-island-routledge",
+      "titulo": "El misterio de la isla de Pascua",
+      "titulo_original": "The Mystery of Easter Island",
+      "autor": "Katherine Routledge",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1919,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1914,
+        "hasta": 1915
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato de Katherine Routledge sobre la expedición que dirigió a la isla de Pascua en 1914-1915. Describe las estatuas, las casas de Orongo y el culto del hombre pájaro, con testimonios de los ancianos de la isla.",
+      "por_que_importa": "Es una de las primeras descripciones etnográficas de Rapa Nui y del culto de Orongo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdo-de-voluntades-1888",
+      "titulo": "Acuerdo de voluntades de Rapa Nui",
+      "titulo_original": null,
+      "autor": "Policarpo Toro y Atamu Tekena",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1888,
+        "aprox": false,
+        "lugar": "Rapa Nui",
+        "lon": -109.35,
+        "lat": -27.12
+      },
+      "trata": {
+        "regiones": [
+          "polinesia"
+        ],
+        "desde": 1888,
+        "hasta": 1888
+      },
+      "idioma_original": "Español",
+      "soporte": "Acuerdo",
+      "resumen": "Documento que firmaron el 9 de septiembre de 1888 el capitán Policarpo Toro, en nombre de Chile, y el ariki Atamu Tekena con otros jefes de la isla. El texto en castellano establece la toma de posesión de Rapa Nui por Chile; la interpretación de lo que cedieron los jefes es materia de debate.",
+      "por_que_importa": "Es el documento en que Chile funda su soberanía sobre la isla.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3321,7 +3466,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "culturas-de-chile-1989"
+      ],
       "wikipedia": {
         "es": "Complejo El Molle",
         "en": "El Molle culture"
@@ -3363,7 +3510,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "culturas-de-chile-1989"
+      ],
       "wikipedia": {
         "es": "Cultura Aconcagua"
       }
@@ -3450,7 +3599,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Huilliches",
         "en": "Huilliche people"
@@ -3471,7 +3623,9 @@
         "chile",
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales"
+      ],
       "wikipedia": {
         "es": "Chonos",
         "en": "Chono people"
@@ -3849,7 +4003,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-medicina-chilena-cruz-coke"
+      ],
       "wikipedia": {
         "es": "Hospital San Juan de Dios (Santiago de Chile)",
         "en": "San Juan de Dios Hospital (Santiago)"
@@ -3869,7 +4025,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Santiago de Chile",
         "en": "Real Audiencia of Santiago"
@@ -3889,7 +4048,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Archipiélago de Chiloé",
         "en": "Chiloé Archipelago"
@@ -4098,7 +4260,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-reyno-de-chile-rosales",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Mártires de Elicura"
       }
@@ -4204,7 +4369,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Rebelión huilliche de 1712",
         "en": "Huilliche uprising of 1712"
@@ -4286,7 +4453,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "alzamiento-mapuche-de-1766",
@@ -4302,7 +4471,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-de-chile-barros-arana",
+        "relaciones-fronterizas-en-la-araucania"
+      ],
       "wikipedia": {
         "en": "Mapuche uprising of 1766"
       }
@@ -4340,7 +4512,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "parlamento-de-negrete-1793",
@@ -4378,7 +4552,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "academia-de-san-luis",
@@ -4394,7 +4570,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "esclavitud-africana-en-chile",
@@ -4410,7 +4588,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "esclavitud-negra-en-chile-mellafe"
+      ],
       "wikipedia": {
         "es": "Afrochileno",
         "en": "Afro-Chileans"
@@ -4499,7 +4679,10 @@
       "regiones": [
         "polinesia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mystery-of-easter-island-routledge",
+        "aku-aku"
+      ],
       "wikipedia": {
         "es": "Tangata manu",
         "en": "Tangata manu"
@@ -4624,7 +4807,9 @@
       "regiones": [
         "polinesia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acuerdo-de-voluntades-1888"
+      ],
       "wikipedia": {
         "es": "Isla de Pascua",
         "en": "Easter Island"

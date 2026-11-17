@@ -2193,6 +2193,155 @@
       "por_que_importa": "Forma parte de la revisión que cuestiona el relato de una conquista hecha por unos pocos españoles.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-fundacion-de-lima-cobo",
+      "titulo": "Historia de la fundación de Lima",
+      "titulo_original": null,
+      "autor": "Bernabé Cobo",
+      "autor_id": "bernabe-cobo",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1639,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1535,
+        "hasta": 1639
+      },
+      "idioma_original": "Español",
+      "soporte": "Crónica",
+      "resumen": "Obra que el jesuita Bernabé Cobo terminó en Lima en 1639. Cuenta la fundación de la ciudad en 1535 y describe sus calles, sus iglesias, sus conventos y sus hospitales, con noticias de quienes los fundaron.",
+      "por_que_importa": "Es la descripción más completa de la Lima del siglo XVII hecha por un contemporáneo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-iglesia-en-el-peru-vargas-ugarte",
+      "titulo": "Historia de la Iglesia en el Perú",
+      "titulo_original": null,
+      "autor": "Rubén Vargas Ugarte",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1953,
+        "anio_hasta": 1962,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1511,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la Iglesia peruana en cinco tomos del jesuita Rubén Vargas Ugarte, apoyada en documentos de archivos de Lima, Sevilla y Roma. Trata las diócesis, los obispos, las órdenes, los concilios provinciales, los hospitales y los colegios y universidades eclesiásticos desde la conquista hasta 1900. El primer tomo se imprimió en Lima y los otros cuatro en Burgos.",
+      "por_que_importa": "Es la obra de referencia sobre la Iglesia del virreinato del Perú.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "concilios-limenses-vargas-ugarte",
+      "titulo": "Concilios limenses (1551-1772)",
+      "titulo_original": null,
+      "autor": "Rubén Vargas Ugarte",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 1951,
+        "anio_hasta": 1954,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1551,
+        "hasta": 1772
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Edición y estudio de los concilios provinciales de Lima, en tres tomos, por Rubén Vargas Ugarte. Reúne las actas y las constituciones del primero (1551-1552), el segundo (1567-1568) y el tercero (1582-1583) y de los concilios posteriores, con la historia de cada uno.",
+      "por_que_importa": "Es la edición de referencia de las normas con que la Iglesia ordenó la evangelización del virreinato del Perú.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "escultura-en-el-ecuador-navarro",
+      "titulo": "La escultura en el Ecuador (siglos XVI al XVIII)",
+      "titulo_original": null,
+      "autor": "José Gabriel Navarro",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1929,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1550,
+        "hasta": 1800
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de José Gabriel Navarro sobre la escultura colonial de Quito, publicada por la Academia de Bellas Artes de San Fernando, de Madrid. Trata las escuelas de artes de los franciscanos, los talleres y los escultores de la llamada escuela quiteña, como Bernardo de Legarda y Manuel Chili «Caspicara».",
+      "por_que_importa": "Es un estudio clásico del arte colonial de Quito.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "notes-of-a-botanist-spruce",
+      "titulo": "Apuntes de un botánico en el Amazonas y los Andes",
+      "titulo_original": "Notes of a Botanist on the Amazon and Andes",
+      "autor": "Richard Spruce",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1860,
+        "anio_hasta": 1861,
+        "aprox": false,
+        "lugar": "Ambato",
+        "lon": -78.62,
+        "lat": -1.24
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1849,
+        "hasta": 1864
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Diario",
+      "resumen": "Diario y cartas del botánico inglés Richard Spruce sobre sus años de recolección en el Amazonas y los Andes, publicados en 1908 por Alfred Russel Wallace. Incluyen su relato del derrotero atribuido a un español llamado Valverde para hallar el oro de Atahualpa en los Llanganates, en Ecuador.",
+      "por_que_importa": "Es la fuente en la que se apoya el relato moderno del tesoro de los Llanganates.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5488,7 +5637,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "concilios-limenses-vargas-ugarte",
+        "historia-de-la-iglesia-en-el-peru-vargas-ugarte"
+      ]
     },
     {
       "id": "segundo-concilio-limense",
@@ -5504,7 +5656,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "concilios-limenses-vargas-ugarte",
+        "historia-de-la-iglesia-en-el-peru-vargas-ugarte"
+      ]
     },
     {
       "id": "salida-de-sayri-tupac",
@@ -5538,7 +5693,10 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680",
+        "historia-general-del-ecuador-gonzalez-suarez"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Quito",
         "en": "Real Audiencia of Quito"
@@ -5755,7 +5913,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-fundacion-de-lima-cobo",
+        "historia-de-la-iglesia-en-el-peru-vargas-ugarte"
+      ]
     },
     {
       "id": "colegios-de-caciques",
@@ -5789,7 +5950,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-del-ecuador-gonzalez-suarez"
+      ],
       "wikipedia": {
         "es": "Universidad Central del Ecuador",
         "en": "Central University of Ecuador"
@@ -5809,7 +5972,9 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-iglesia-en-el-peru-vargas-ugarte"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional de San Cristóbal de Huamanga",
         "en": "San Cristóbal of Huamanga University"
@@ -5829,7 +5994,9 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-iglesia-en-el-peru-vargas-ugarte"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional de San Antonio Abad del Cusco",
         "en": "National University of Saint Anthony the Abbot in Cusco"
@@ -5871,7 +6038,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "escultura-en-el-ecuador-navarro"
+      ],
       "wikipedia": {
         "es": "Escuela Quiteña",
         "en": "Quito school"
@@ -6276,7 +6445,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "cevallos-resumen-historia-ecuador"
+      ]
     },
     {
       "id": "estado-de-quito",
@@ -6314,7 +6485,9 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "shadows-of-empire-garrett"
+      ],
       "wikipedia": {
         "es": "Rebelión del Cusco",
         "en": "Cuzco Rebellion of 1814"
@@ -6334,7 +6507,10 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-san-martin",
+        "cevallos-resumen-historia-ecuador"
+      ]
     },
     {
       "id": "batalla-de-pichincha",
@@ -6350,7 +6526,10 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-oleary",
+        "cevallos-resumen-historia-ecuador"
+      ],
       "wikipedia": {
         "es": "Batalla de Pichincha",
         "en": "Battle of Pichincha"
@@ -6411,7 +6590,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "notes-of-a-botanist-spruce"
+      ],
       "wikipedia": {
         "es": "Tesoro de la Llanganatis",
         "en": "Treasure of the Llanganatis"
@@ -6431,7 +6612,11 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "constitucion-del-ecuador-1830",
+        "cevallos-resumen-historia-ecuador",
+        "kingdom-of-quito-andrien"
+      ]
     },
     {
       "id": "batalla-de-puna",

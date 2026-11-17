@@ -2678,6 +2678,790 @@
         "es": "Pedro Vicente Cañete"
       },
       "confianza": "media"
+    },
+    {
+      "id": "memoria-de-vertiz-1784",
+      "titulo": "Memoria de gobierno del virrey Vértiz a su sucesor",
+      "titulo_original": null,
+      "autor": "Juan José de Vértiz y Salcedo",
+      "autor_id": "juan-jose-de-vertiz",
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1770,
+        "hasta": 1784
+      },
+      "idioma_original": "Español",
+      "soporte": "Memoria",
+      "resumen": "Informe con que Juan José de Vértiz, al dejar el virreinato en 1784, rindió cuenta de su gobierno al marqués de Loreto. Repasa lo que se hizo en Buenos Aires durante su gestión: la enseñanza, la beneficencia y la salud pública, la imprenta y la casa de comedias que se sostenían en beneficio de la Casa de Niños Expósitos, las obras de la ciudad y la defensa de la frontera.",
+      "por_que_importa": "Es la exposición del propio virrey sobre su gobierno y la fuente primaria de las instituciones que fundó en Buenos Aires.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memoria-del-marques-de-loreto-1790",
+      "titulo": "Memoria del virrey marqués de Loreto a su sucesor",
+      "titulo_original": null,
+      "autor": "Nicolás Francisco Cristóbal del Campo, marqués de Loreto",
+      "autor_id": "marques-de-loreto",
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1790,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "andes"
+        ],
+        "desde": 1784,
+        "hasta": 1789
+      },
+      "idioma_original": "Español",
+      "soporte": "Memoria",
+      "resumen": "Memoria de gobierno que el marqués de Loreto dejó a su sucesor, Nicolás de Arredondo, al terminar su mandato. Informa sobre el estado del virreinato: la instalación de la Real Audiencia de Buenos Aires, la implantación de las intendencias, la hacienda y la defensa.",
+      "por_que_importa": "Es el balance que hizo el propio virrey de su gobierno de 1784 a 1789.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "gutierrez-ensenanza-superior",
+      "titulo": "Noticias históricas sobre el origen y desarrollo de la enseñanza pública superior en Buenos Aires",
+      "titulo_original": null,
+      "autor": "Juan María Gutiérrez",
+      "autor_id": "juan-maria-gutierrez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1868,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1767,
+        "hasta": 1821
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de Juan María Gutiérrez, rector de la Universidad de Buenos Aires, sobre los orígenes de la enseñanza superior en la ciudad. Reúne documentos y noticias sobre el Real Colegio de San Carlos, los estudios de medicina del período colonial y la creación de la universidad en 1821.",
+      "por_que_importa": "Es una de las primeras historias de la enseñanza superior porteña, hecha con documentos de archivo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "investigaciones-historia-economica-levene",
+      "titulo": "Investigaciones acerca de la historia económica del virreinato del Plata",
+      "titulo_original": null,
+      "autor": "Ricardo Levene",
+      "autor_id": "ricardo-levene",
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1927,
+        "anio_hasta": 1928,
+        "aprox": false,
+        "lugar": "La Plata",
+        "lon": -57.95,
+        "lat": -34.933
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "andes",
+          "noroeste-argentino"
+        ],
+        "desde": 1776,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de Ricardo Levene, en dos tomos, sobre la economía del virreinato: la política comercial de los Borbones, el libre comercio, la libre internación de mercaderías decretada por Cevallos en 1777, el comercio con el Alto Perú y Chile y las finanzas del virreinato. Está apoyado en documentos de archivo.",
+      "por_que_importa": "Es una obra de referencia sobre la política económica del virreinato.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "administracion-colonial-lynch",
+      "titulo": "Administración colonial española, 1782-1810: el sistema de intendencias en el virreinato del Río de la Plata",
+      "titulo_original": "Spanish Colonial Administration, 1782-1810: The Intendant System in the Viceroyalty of the Rio de la Plata",
+      "autor": "John Lynch",
+      "autor_id": "john-lynch",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "andes",
+          "paraguay-oriental",
+          "gran-chaco"
+        ],
+        "desde": 1782,
+        "hasta": 1810
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de John Lynch sobre cómo se aplicó en el virreinato del Río de la Plata la ordenanza de intendentes de 1782: las intendencias, sus gobernadores y su relación con los virreyes, la hacienda, los cabildos y la defensa de las fronteras. Publicado en inglés como «Spanish Colonial Administration, 1782-1810», se tradujo al español en 1962.",
+      "por_que_importa": "Es el estudio de referencia sobre la administración borbónica del virreinato.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "cuvier-megaterio-1796",
+      "titulo": "Noticia sobre el esqueleto de una especie muy grande de cuadrúpedo, desconocida hasta ahora, hallado en el Paraguay",
+      "titulo_original": "Notice sur le squelette d'une très-grande espèce de quadrupède inconnue jusqu'à présent, trouvé au Paraguay",
+      "autor": "Georges Cuvier",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1796,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "iberia"
+        ],
+        "desde": 1787,
+        "hasta": 1796
+      },
+      "idioma_original": "Francés",
+      "soporte": "Memoria científica",
+      "resumen": "Memoria en la que Georges Cuvier, a partir de los dibujos y los grabados del esqueleto armado en el Real Gabinete de Historia Natural de Madrid, describió el animal hallado a orillas del río Luján como un mamífero extinguido emparentado con los perezosos, al que llamó Megatherium.",
+      "por_que_importa": "Fue la primera descripción científica del megaterio y una de las bases de la idea de que existieron especies desaparecidas.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Megatherium",
+        "en": "Megatherium"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "tratado-de-aranjuez-1779",
+      "titulo": "Convención de Aranjuez entre Francia y España",
+      "titulo_original": null,
+      "autor": "Coronas de Francia y de España",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1779,
+        "aprox": false,
+        "lugar": "Aranjuez",
+        "lon": -3.603,
+        "lat": 40.033
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "norteamerica"
+        ],
+        "desde": 1779,
+        "hasta": 1783
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tratado",
+      "resumen": "Convención secreta firmada en Aranjuez el 12 de abril de 1779 por la que España se comprometió a entrar en la guerra contra Gran Bretaña al lado de Francia, que ya apoyaba a las colonias norteamericanas insurrectas. Francia prometió no hacer la paz mientras España no recuperara Gibraltar.",
+      "por_que_importa": "Llevó a España a la guerra de Independencia de los Estados Unidos, aunque sin alianza con los estadounidenses.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tratado de Aranjuez (1779)",
+        "en": "Treaty of Aranjuez (1779)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tratado-de-san-ildefonso-1796",
+      "titulo": "Tratado de San Ildefonso (1796)",
+      "titulo_original": null,
+      "autor": "Coronas de España y de la República Francesa",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1796,
+        "aprox": false,
+        "lugar": "La Granja de San Ildefonso",
+        "lon": -4.005,
+        "lat": 40.898
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1796,
+        "hasta": 1802
+      },
+      "idioma_original": "Español",
+      "soporte": "Tratado",
+      "resumen": "Tratado de alianza ofensiva y defensiva firmado en agosto de 1796 entre España y la República Francesa. España se obligó a prestar a Francia buques y tropas contra Gran Bretaña, a la que declaró la guerra en octubre de ese año.",
+      "por_que_importa": "Alineó a España con Francia durante los años de las guerras con Gran Bretaña que llevaron a Trafalgar y a las invasiones inglesas al Río de la Plata.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Tratado_de_San_Ildefonso_%281796%29",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Tratado de San Ildefonso (1796)",
+        "en": "Second Treaty of San Ildefonso"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ocaso-del-colonialismo-espanol-monte",
+      "titulo": "Ocaso del colonialismo español: el gobierno de Bernardo de Velasco y Huidobro, su influencia en la formación del estado paraguayo, 1803-1811",
+      "titulo_original": null,
+      "autor": "María Gloria Monte de López Moreira",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Asunción",
+        "lon": -57.6359,
+        "lat": -25.2867
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "rio-de-la-plata"
+        ],
+        "desde": 1803,
+        "hasta": 1811
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio sobre el gobierno de Bernardo de Velasco en las Misiones y el Paraguay entre 1803 y 1811: la reorganización de las Misiones, la defensa frente a los portugueses, las invasiones inglesas, la revolución de Buenos Aires y la deposición de Velasco en mayo de 1811.",
+      "por_que_importa": "Es el estudio específico sobre el último gobernador español del Paraguay.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-supremo-dictador-chaves",
+      "titulo": "El Supremo Dictador: biografía de José Gaspar de Francia",
+      "titulo_original": null,
+      "autor": "Julio César Chaves",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1942,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "rio-de-la-plata"
+        ],
+        "desde": 1800,
+        "hasta": 1840
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Biografía de José Gaspar Rodríguez de Francia escrita por Julio César Chaves. Cuenta su formación y los años de la independencia del Paraguay: el gobierno de Velasco, las jornadas de mayo de 1811, la junta que no se subordinó a Buenos Aires y el ascenso de Francia hasta la dictadura.",
+      "por_que_importa": "Es una de las biografías de referencia de Francia y de la independencia paraguaya.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "campaign-of-trafalgar-corbett",
+      "titulo": "La campaña de Trafalgar",
+      "titulo_original": "The Campaign of Trafalgar",
+      "autor": "Julian Corbett",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1910,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1804,
+        "hasta": 1805
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio del historiador naval Julian Corbett, apoyado en los papeles del Almirantazgo, sobre la campaña que terminó en la batalla de Trafalgar. Reconstruye los planes de Napoleón, la persecución de la flota de Villeneuve hasta las Antillas y de vuelta, y la batalla del 21 de octubre de 1805 frente al cabo de Trafalgar.",
+      "por_que_importa": "Es una obra de referencia sobre la estrategia naval de 1805.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "lagiglia-fuerte-san-rafael",
+      "titulo": "Arqueología e historia del Fuerte San Rafael del Diamante",
+      "titulo_original": null,
+      "autor": "Humberto Antonio Lagiglia",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "San Rafael",
+        "lon": -68.336,
+        "lat": -34.617
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1805,
+        "hasta": 1825
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio del arqueólogo Humberto Antonio Lagiglia sobre el fuerte de San Rafael del Diamante, fundado en 1805 en el sur de Mendoza: su fundación, sus excavaciones, la vida de la guarnición y el trato con los pueblos indígenas de la frontera.",
+      "por_que_importa": "Reúne los datos documentales y arqueológicos del fuerte que dio origen a San Rafael.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-del-levantamiento-toreno",
+      "titulo": "Historia del levantamiento, guerra y revolución de España",
+      "titulo_original": null,
+      "autor": "José María Queipo de Llano, conde de Toreno",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1835,
+        "anio_hasta": 1837,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1808,
+        "hasta": 1814
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la guerra de la Independencia española escrita por el conde de Toreno, que fue diputado en las Cortes de Cádiz. Narra la crisis de 1808 (el motín de Aranjuez, las abdicaciones de Bayona), el levantamiento, las juntas, la Junta Central, el Consejo de Regencia y las Cortes.",
+      "por_que_importa": "Es la gran historia liberal de la guerra, escrita por un participante de los hechos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "proclama-de-la-junta-tuitiva-1809",
+      "titulo": "Proclama de la Junta Tuitiva de La Paz",
+      "titulo_original": null,
+      "autor": "Junta Tuitiva de La Paz",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1809,
+        "aprox": true,
+        "lugar": "La Paz",
+        "lon": -68.133,
+        "lat": -16.496
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1809,
+        "hasta": 1809
+      },
+      "idioma_original": "Español",
+      "soporte": "Proclama",
+      "resumen": "Proclama atribuida a la Junta Tuitiva de La Paz y fechada en julio de 1809, que sostiene que los habitantes de las colonias habían tolerado un destierro en su propia patria y llama a levantar el estandarte de la libertad. Su autenticidad se discute: Javier Mendoza Pizarro (1997) sostiene que es una copia de una proclama de La Plata (Chuquisaca) atribuida a La Paz a fines del siglo XIX, mientras que otros autores ubican el manuscrito original en el Archivo General de la Nación argentino. Se mantiene La Paz como lugar por ser la atribución tradicional.",
+      "por_que_importa": "Es el documento más citado de la revolución de La Paz del 16 de julio de 1809, aunque se discute que sea de la Junta.",
+      "leer": [],
+      "confianza": "baja"
+    },
+    {
+      "id": "diario-de-santos-vargas",
+      "titulo": "Diario de un comandante de la independencia americana, 1814-1825",
+      "titulo_original": null,
+      "autor": "José Santos Vargas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1814,
+        "anio_hasta": 1825,
+        "aprox": false,
+        "lugar": "Ayopaya",
+        "lon": -66.917,
+        "lat": -16.75
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "amazonia-andina"
+        ],
+        "desde": 1814,
+        "hasta": 1825
+      },
+      "idioma_original": "Español",
+      "soporte": "Diario",
+      "resumen": "Diario del guerrillero José Santos Vargas, que combatió desde adolescente en la republiqueta de Ayopaya, al norte de Cochabamba. Cuenta las campañas, las derrotas y los jefes de las guerrillas del Alto Perú contra los ejércitos realistas hasta 1825. Se publicó en el siglo XX, en la edición de Gunnar Mendoza (México, Siglo XXI, 1982).",
+      "por_que_importa": "Es el testimonio de un protagonista sobre las republiquetas y la guerra del Alto Perú.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "artigas-and-the-emancipation-of-uruguay",
+      "titulo": "Artigas y la emancipación del Uruguay",
+      "titulo_original": "Artigas and the Emancipation of Uruguay",
+      "autor": "John Street",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1959,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "brasil"
+        ],
+        "desde": 1811,
+        "hasta": 1820
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía y estudio político de José Gervasio Artigas, publicada por la editorial universitaria de Cambridge. Sigue su actuación desde la revolución de 1811 en la Banda Oriental: Las Piedras, el éxodo, los sitios de Montevideo, el Congreso de Oriente, la Liga Federal, la invasión luso-brasileña y la derrota de 1820.",
+      "por_que_importa": "Es el estudio de referencia en inglés sobre Artigas y la Provincia Oriental.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-morillo-1826",
+      "titulo": "Memorias del general Morillo, conde de Cartagena, sobre los principales sucesos de sus campañas en América de 1815 a 1821",
+      "titulo_original": "Mémoires du général Morillo, comte de Carthagène, marquis de la Puerta, relatifs aux principaux événements de ses campagnes en Amérique de 1815 à 1821",
+      "autor": "Pablo Morillo",
+      "autor_id": "pablo-morillo",
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1826,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "iberia"
+        ],
+        "desde": 1815,
+        "hasta": 1821
+      },
+      "idioma_original": "Francés",
+      "soporte": "Memorias",
+      "resumen": "Memorias atribuidas a Pablo Morillo, publicadas en París en 1826, sobre la expedición que mandó a Venezuela y Nueva Granada desde 1815 y sobre las campañas contra los patriotas hasta 1821. Describen la salida de la expedición desde Cádiz, su destino y su cambio de rumbo.",
+      "por_que_importa": "Se presenta como el relato del propio jefe de la mayor expedición militar que España envió a América.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "crucero-de-la-argentina-mitre",
+      "titulo": "El crucero de La Argentina (1817-1819)",
+      "titulo_original": null,
+      "autor": "Bartolomé Mitre",
+      "autor_id": "mitre",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1864,
+        "aprox": true,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "polinesia",
+          "rio-de-la-plata"
+        ],
+        "desde": 1817,
+        "hasta": 1819
+      },
+      "idioma_original": "Español",
+      "soporte": "Estudio",
+      "resumen": "Relato de Bartolomé Mitre sobre el viaje de circunnavegación de la fragata La Argentina, con patente de corso de las Provincias Unidas y al mando de Hipólito Bouchard. Publicado en la Revista de Buenos Aires hacia 1864 y reeditado en «Páginas de Historia», se apoya en el diario de Bouchard y en los testimonios de sus oficiales.",
+      "por_que_importa": "Fue la primera publicación sobre el crucero de Bouchard y la base de los relatos posteriores.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/P%C3%A1ginas_de_historia/El_crucero_de_%22La_Argentina%22",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "memorias-de-oleary",
+      "titulo": "Memorias del general O'Leary",
+      "titulo_original": null,
+      "autor": "Daniel Florence O'Leary",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1879,
+        "anio_hasta": 1888,
+        "aprox": false,
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "andes"
+        ],
+        "desde": 1819,
+        "hasta": 1830
+      },
+      "idioma_original": "Español",
+      "soporte": "Memorias",
+      "resumen": "Colección en treinta y cuatro tomos publicada en Caracas por Simón Bolívar O'Leary con los papeles de su padre, Daniel Florence O'Leary, edecán de Bolívar. Reúne la narración de las campañas de Bolívar y Sucre, entre ellas la de Quito en 1822 y Junín en 1824, y la correspondencia y los documentos que O'Leary juntó. O'Leary la escribió entre 1831 y 1854; la publicación es posterior.",
+      "por_que_importa": "Es una de las fuentes principales sobre las campañas de la independencia sudamericana en el norte y el Perú.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-general-del-ecuador-gonzalez-suarez",
+      "titulo": "Historia general de la República del Ecuador",
+      "titulo_original": null,
+      "autor": "Federico González Suárez",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1890,
+        "anio_hasta": 1903,
+        "aprox": false,
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1809
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia del Ecuador en siete tomos del historiador y arzobispo Federico González Suárez, apoyada en documentos de archivos de Quito y de España. Trata, desde los pueblos aborígenes hasta 1809, la conquista, la Real Audiencia, la vida colonial, la Iglesia y la cultura.",
+      "por_que_importa": "Es la primera historia general del Ecuador hecha con documentos de archivo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "crisis-del-antiguo-regimen-fontana",
+      "titulo": "La crisis del Antiguo Régimen, 1808-1833",
+      "titulo_original": null,
+      "autor": "Josep Fontana",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1808,
+        "hasta": 1833
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio del historiador Josep Fontana sobre la crisis de la monarquía absoluta española: la guerra de la Independencia, las Cortes de Cádiz, el Trienio Liberal y la restauración absolutista de Fernando VII entre 1823 y 1833, la llamada década ominosa.",
+      "por_que_importa": "Es una obra de referencia sobre el final del Antiguo Régimen en España.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "constitucion-del-ecuador-1830",
+      "titulo": "Constitución del Estado del Ecuador (1830)",
+      "titulo_original": null,
+      "autor": "Congreso Constituyente del Ecuador",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1830,
+        "aprox": false,
+        "lugar": "Riobamba",
+        "lon": -78.648,
+        "lat": -1.673
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1830,
+        "hasta": 1835
+      },
+      "idioma_original": "Español",
+      "soporte": "Constitución",
+      "resumen": "Primera constitución del Ecuador como Estado independiente, sancionada en Riobamba en 1830 por el Congreso Constituyente. Se dictó después de que una asamblea de notables de Quito decidiera en mayo separar el antiguo distrito del Sur de la Gran Colombia.",
+      "por_que_importa": "Es el acta de nacimiento jurídica del Estado del Ecuador.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Constituci%C3%B3n_de_Ecuador_de_1830",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "cevallos-resumen-historia-ecuador",
+      "titulo": "Resumen de la historia del Ecuador desde su origen hasta 1845",
+      "titulo_original": null,
+      "autor": "Pedro Fermín Cevallos",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1870,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1845
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia del Ecuador en cinco tomos del historiador ecuatoriano Pedro Fermín Cevallos. El tercer tomo trata la independencia, desde los precursores y las juntas de Quito hasta la guerra, y el cuarto el nacimiento de la república.",
+      "por_que_importa": "Es una historia general del siglo XIX escrita desde un punto de vista conservador.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pedro Fermín Cevallos"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-misiones-orientales-porto",
+      "titulo": "Historia de las Misiones Orientales del Uruguay",
+      "titulo_original": "História das Missões Orientais do Uruguai",
+      "autor": "Aurélio Porto",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1943,
+        "aprox": false,
+        "lugar": "Río de Janeiro",
+        "lon": -43.206,
+        "lat": -22.911
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1750,
+        "hasta": 1801
+      },
+      "idioma_original": "Portugués",
+      "soporte": "Libro",
+      "resumen": "Historia de los siete pueblos guaraníes de las misiones al oriente del río Uruguay, publicada por el Servicio del Patrimonio Histórico y Artístico Nacional de Brasil. Termina con la conquista de 1801 y sigue a sus jefes portugueses.",
+      "por_que_importa": "Es la historia clásica brasileña de la conquista de 1801, con una visión celebratoria de los conquistadores que la crítica posterior le objeta.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "lealdades-negociadas-carvalho",
+      "titulo": "Lealtades negociadas: pueblos indígenas y la expansión de los imperios ibéricos en las regiones centrales de América del Sur, segunda mitad del siglo XVIII",
+      "titulo_original": "Lealdades negociadas: povos indígenas e a expansão dos impérios ibéricos nas regiões centrais da América do Sul (segunda metade do século XVIII)",
+      "autor": "Francismar Alex Lopes de Carvalho",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "São Paulo",
+        "lon": -46.634,
+        "lat": -23.55
+      },
+      "trata": {
+        "regiones": [
+          "paraguay-oriental",
+          "rio-de-la-plata"
+        ],
+        "desde": 1750,
+        "hasta": 1800
+      },
+      "idioma_original": "Portugués",
+      "soporte": "Libro",
+      "resumen": "Estudio de la frontera entre los imperios español y portugués en el alto Paraguay y la negociación con los pueblos indígenas de la región. Cita la instrucción de Zavala y Delgadillo a Isasi, firmada en el fuerte Borbón el 27 de noviembre de 1792, y el informe de Alós de 1793.",
+      "por_que_importa": "Es un estudio académico reciente de la frontera del alto Paraguay.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -2750,7 +3534,9 @@
         "virrey"
       ],
       "resumen": "Nacido en Mérida de Yucatán, gobernó Buenos Aires desde 1770 y fue el segundo virrey del Río de la Plata (1778-1784). En su gobierno se crearon la Casa de Niños Expósitos y su imprenta, el Protomedicato y el Real Colegio de San Carlos, se levantó el padrón de 1778 y se enviaron tropas a reprimir las rebeliones andinas de 1780-1781.",
-      "obras": [],
+      "obras": [
+        "memoria-de-vertiz-1784"
+      ],
       "wikipedia": {
         "es": "Juan José de Vértiz y Salcedo",
         "en": "Juan José de Vértiz y Salcedo"
@@ -2787,7 +3573,9 @@
         "virrey"
       ],
       "resumen": "Tercer virrey del Río de la Plata (1784-1789). En su gobierno se instaló la Real Audiencia de Buenos Aires (1785) y se pusieron en marcha las intendencias. Mandó a Madrid el esqueleto de megaterio hallado en 1787 cerca de Luján, que después estudió Georges Cuvier.",
-      "obras": [],
+      "obras": [
+        "memoria-del-marques-de-loreto-1790"
+      ],
       "wikipedia": {
         "es": "Nicolás del Campo",
         "en": "Nicolás del Campo"
@@ -7295,7 +8083,9 @@
         "noroeste-argentino",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "investigaciones-historia-economica-levene"
+      ],
       "wikipedia": {
         "es": "Pedro de Cevallos",
         "en": "Pedro de Cevallos"
@@ -7385,7 +8175,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-de-vertiz-1784"
+      ],
       "wikipedia": {
         "es": "Casa de Niños Expósitos"
       }
@@ -7404,7 +8196,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-de-vertiz-1784"
+      ],
       "wikipedia": {
         "es": "Real Imprenta de Niños Expósitos"
       }
@@ -7423,7 +8217,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-de-vertiz-1784",
+        "gutierrez-ensenanza-superior"
+      ],
       "wikipedia": {
         "es": "Protomedicato del Río de la Plata",
         "en": "Protomedicato del Río de la Plata"
@@ -7443,7 +8240,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gutierrez-ensenanza-superior"
+      ],
       "wikipedia": {
         "es": "Protomedicato del Río de la Plata",
         "en": "Protomedicato del Río de la Plata"
@@ -7463,7 +8262,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-de-vertiz-1784",
+        "gutierrez-ensenanza-superior"
+      ],
       "wikipedia": {
         "es": "Colegio Nacional de Buenos Aires",
         "en": "Colegio Nacional de Buenos Aires"
@@ -7483,7 +8285,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-de-vertiz-1784"
+      ],
       "wikipedia": {
         "es": "Teatro de La Ranchería"
       }
@@ -7503,7 +8307,9 @@
         "rio-de-la-plata",
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cuvier-megaterio-1796"
+      ],
       "wikipedia": {
         "es": "Megatherium",
         "en": "Megatherium"
@@ -7571,7 +8377,9 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rebellions-and-revolts-ophelan"
+      ],
       "wikipedia": {
         "es": "Tomás Katari",
         "en": "Tomás Katari"
@@ -7591,7 +8399,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "we-alone-will-rule",
+        "tupac-amaru-rebellion-walker"
+      ],
       "wikipedia": {
         "es": "Túpac Katari",
         "en": "Túpac Katari"
@@ -7637,7 +8448,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-misiones-orientales-porto"
+      ],
       "wikipedia": {
         "es": "Tratado de Badajoz (1801)",
         "en": "Treaty of Badajoz (1801)"
@@ -7657,7 +8470,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "campaign-of-trafalgar-corbett"
+      ],
       "wikipedia": {
         "es": "Batalla de Trafalgar",
         "en": "Battle of Trafalgar"
@@ -7677,7 +8492,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-del-levantamiento-toreno"
+      ],
       "wikipedia": {
         "es": "Motín de Aranjuez",
         "en": "Tumult of Aranjuez"
@@ -7767,7 +8584,9 @@
         "iberia",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-del-levantamiento-toreno"
+      ],
       "wikipedia": {
         "es": "Junta Suprema Central",
         "en": "Supreme Central Junta"
@@ -7926,7 +8745,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-del-marques-de-loreto-1790",
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "Nicolás del Campo",
         "en": "Nicolás del Campo"
@@ -7968,7 +8790,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "Pedro Melo de Portugal",
         "en": "Pedro Melo de Portugal"
@@ -7988,7 +8812,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "Antonio Olaguer Feliú",
         "en": "Antonio de Olaguer y Feliú"
@@ -8052,7 +8878,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "Rafael de Sobremonte",
         "en": "Rafael de Sobremonte, 3rd Marquis of Sobremonte"
@@ -8072,7 +8901,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac"
+      ],
       "wikipedia": {
         "es": "Santiago de Liniers",
         "en": "Santiago de Liniers, 1st Count of Buenos Aires"
@@ -8159,7 +8990,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Invasiones inglesas",
         "en": "British invasions of the River Plate"
@@ -8179,7 +9013,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-autografa-saavedra",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Regimiento de Patricios",
         "en": "Regiment of Patricians"
@@ -8199,7 +9036,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Sitio de Montevideo (1807)",
         "en": "Battle of Montevideo (1807)"
@@ -8219,7 +9059,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Rafael de Sobremonte",
         "en": "Rafael de Sobremonte, 3rd Marquis of Sobremonte"
@@ -8285,7 +9128,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Francisco Javier de Elío",
         "en": "Francisco Javier de Elío"
@@ -8306,7 +9152,10 @@
         "brasil",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "autobiografia-belgrano",
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Carlotismo",
         "en": "Carlotism"
@@ -8326,7 +9175,11 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti",
+        "memoria-autografa-saavedra"
+      ],
       "wikipedia": {
         "es": "Asonada de Álzaga",
         "en": "Mutiny of Álzaga"
@@ -8369,7 +9222,9 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "proclama-de-la-junta-tuitiva-1809"
+      ],
       "wikipedia": {
         "es": "Junta Tuitiva",
         "en": "La Paz revolution"
@@ -8508,7 +9363,10 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "santiago-de-liniers-groussac",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Contrarrevolución de Córdoba",
         "en": "Liniers counterrevolution"
@@ -8551,7 +9409,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memoria-autografa-saavedra",
+        "memorias-curiosas-beruti"
+      ],
       "wikipedia": {
         "es": "Junta Grande",
         "en": "Junta Grande"
@@ -8594,7 +9455,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-curiosas-beruti",
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Motín de las Trenzas"
       }
@@ -8613,7 +9477,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-curiosas-beruti",
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Martín de Álzaga",
         "en": "Martín de Álzaga"
@@ -8633,7 +9500,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-curiosas-beruti",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Revolución del 8 de octubre de 1812",
         "en": "Revolution of 8 October 1812"
@@ -8653,7 +9523,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Segundo Triunvirato (Argentina)",
         "en": "Second Triumvirate (Argentina)"
@@ -8696,7 +9569,9 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Batalla de Suipacha",
         "en": "Battle of Suipacha"
@@ -8717,7 +9592,9 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Juan José Castelli",
         "en": "Juan José Castelli"
@@ -8737,7 +9614,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-belgrano",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Huaqui",
         "en": "Battle of Huaqui"
@@ -8801,7 +9681,11 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archivo-de-belgrano",
+        "memorias-postumas-de-paz",
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Batalla de Salta",
         "en": "Battle of Salta"
@@ -8821,7 +9705,12 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archivo-de-belgrano",
+        "memorias-postumas-de-paz",
+        "historia-de-belgrano",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Vilcapugio",
         "en": "Battle of Vilcapugio"
@@ -8841,7 +9730,12 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archivo-de-belgrano",
+        "memorias-postumas-de-paz",
+        "historia-de-belgrano",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Ayohuma",
         "en": "Battle of Ayohuma"
@@ -8861,7 +9755,11 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-postumas-de-paz",
+        "historia-de-la-republica-argentina-lopez",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Viluma",
         "en": "Battle of Viluma"
@@ -8882,7 +9780,9 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "diario-de-santos-vargas"
+      ],
       "wikipedia": {
         "es": "Republiqueta",
         "en": "Republiquetas"
@@ -8902,7 +9802,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "estudios-historicos-belgrano-y-guemes"
+      ],
       "wikipedia": {
         "es": "Gauchos de Güemes"
       }
@@ -8921,7 +9823,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "estudios-historicos-belgrano-y-guemes"
+      ],
       "wikipedia": {
         "es": "Martín Miguel de Güemes",
         "en": "Martín Miguel de Güemes"
@@ -8965,7 +9869,10 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-supremo-dictador-chaves",
+        "ocaso-del-colonialismo-espanol-monte"
+      ],
       "wikipedia": {
         "es": "Independencia del Paraguay",
         "en": "Independence of Paraguay"
@@ -8985,7 +9892,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay",
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Batalla de Las Piedras (1811)",
         "en": "Battle of Las Piedras (1811)"
@@ -9027,7 +9937,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay"
+      ],
       "wikipedia": {
         "es": "José Gervasio Artigas",
         "en": "José Gervasio Artigas"
@@ -9047,7 +9959,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay",
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Segundo sitio de Montevideo (1812-1814)",
         "en": "Siege of Montevideo (1812–1814)"
@@ -9090,7 +10005,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez",
+        "artigas-and-the-emancipation-of-uruguay"
+      ],
       "wikipedia": {
         "es": "Combate naval del Buceo",
         "en": "Battle of Buceo"
@@ -9132,7 +10050,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay"
+      ],
       "wikipedia": {
         "es": "Congreso de Oriente"
       }
@@ -9152,7 +10072,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay"
+      ],
       "wikipedia": {
         "es": "Invasión lusobrasileña",
         "en": "Portuguese conquest of the Banda Oriental"
@@ -9197,7 +10119,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archivo-de-san-martin",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Combate de San Lorenzo",
         "en": "Battle of San Lorenzo"
@@ -9217,7 +10142,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Gervasio Antonio de Posadas",
         "en": "Gervasio Antonio de Posadas"
@@ -9237,7 +10165,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Carlos María de Alvear",
         "en": "Carlos María de Alvear"
@@ -9257,7 +10188,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez",
+        "historia-de-san-martin"
+      ],
       "wikipedia": {
         "es": "Motín de Fontezuelas",
         "en": "Mutiny of Fontezuelas"
@@ -9299,7 +10233,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Antonio González Balcarce",
         "en": "Antonio González de Balcarce"
@@ -9415,7 +10351,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-san-martin",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Batalla de Rancagua",
         "en": "Battle of Rancagua"
@@ -9524,7 +10463,10 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-san-martin",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Batalla de Cancha Rayada (1818)",
         "en": "Battle of Cancha Rayada (1818)"
@@ -9700,7 +10642,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "crucero-de-la-argentina-mitre"
+      ],
       "wikipedia": {
         "es": "Hipólito Bouchard",
         "en": "Hippolyte Bouchard"
@@ -9720,7 +10664,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Juan Pedro Aguirre",
         "en": "Juan Pedro Aguirre"
@@ -9770,7 +10716,10 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acta-de-independencia-de-bolivia",
+        "diario-de-santos-vargas"
+      ],
       "wikipedia": {
         "es": "Guerra de independencia de Bolivia",
         "en": "Bolivian War of Independence"
@@ -9813,7 +10762,9 @@
         "amazonia-andina",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Combate de Cotagaita",
         "en": "Battle of Cotagaita"
@@ -9833,7 +10784,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay",
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Combate de San José"
       }
@@ -9852,7 +10806,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-belgrano"
+      ],
       "wikipedia": {
         "es": "Combate de San Nicolás",
         "en": "Battle of San Nicolás"
@@ -9895,7 +10851,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay",
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Batalla de Cerrito",
         "en": "Battle of Cerrito"
@@ -9915,7 +10874,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay",
+        "historia-de-la-republica-argentina-lopez"
+      ],
       "wikipedia": {
         "es": "Batalla de Guayabos"
       }
@@ -9934,7 +10896,10 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-san-martin",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Ica",
         "en": "Battle of Ica"
@@ -9954,7 +10919,11 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-oleary",
+        "memorias-del-general-miller",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru"
+      ],
       "wikipedia": {
         "es": "Batalla de Junín",
         "en": "Battle of Junín"
@@ -9975,7 +10944,10 @@
         "norte-de-sudamerica",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-oleary",
+        "cevallos-resumen-historia-ecuador"
+      ],
       "wikipedia": {
         "es": "Guerra de Independencia de Ecuador",
         "en": "Ecuadorian War of Independence"
@@ -9995,7 +10967,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-aranjuez-1779"
+      ],
       "wikipedia": {
         "es": "Guerra anglo-española (1779-1783)",
         "en": "Spain and the American Revolutionary War"
@@ -10017,7 +10991,9 @@
         "rio-de-la-plata",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tratado-de-san-ildefonso-1796"
+      ],
       "wikipedia": {
         "es": "Guerra anglo-española (1796-1802)",
         "en": "Anglo-Spanish War (1796–1808)"
@@ -10038,7 +11014,9 @@
         "iberia",
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "crisis-del-antiguo-regimen-fontana"
+      ],
       "wikipedia": {
         "es": "Década Ominosa",
         "en": "Ominous Decade"
@@ -10060,7 +11038,9 @@
         "rio-de-la-plata",
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-morillo-1826"
+      ],
       "wikipedia": {
         "es": "Pablo Morillo",
         "en": "Pablo Morillo"
@@ -10080,7 +11060,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Conspiración de los tres Antonios",
         "en": "Conspiracy of the three Antonios"
@@ -10101,7 +11083,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "artigas-and-the-emancipation-of-uruguay"
+      ],
       "wikipedia": {
         "es": "Batalla de Tacuarembó",
         "en": "Battle of Tacuarembó"
@@ -10121,7 +11105,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "Ramón García de León y Pizarro",
         "en": "Ramón García de León y Pizarro"
@@ -10142,7 +11128,9 @@
         "gran-chaco",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "administracion-colonial-lynch"
+      ],
       "wikipedia": {
         "es": "San Ramón de la Nueva Orán",
         "en": "San Ramón de la Nueva Orán"
@@ -10162,7 +11150,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lagiglia-fuerte-san-rafael"
+      ],
       "wikipedia": {
         "es": "Fuerte San Rafael del Diamante"
       }
@@ -10183,7 +11173,9 @@
         "paraguay-oriental",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lealdades-negociadas-carvalho"
+      ],
       "wikipedia": {
         "es": "Fuerte Olimpo",
         "en": "Fuerte Olimpo"
@@ -10230,7 +11222,10 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ocaso-del-colonialismo-espanol-monte",
+        "el-supremo-dictador-chaves"
+      ],
       "wikipedia": {
         "es": "Bernardo de Velasco",
         "en": "Bernardo de Velasco"
@@ -10273,7 +11268,10 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-oleary",
+        "cevallos-resumen-historia-ecuador"
+      ],
       "wikipedia": {
         "es": "Combate de Riobamba"
       }
