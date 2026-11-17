@@ -1854,6 +1854,554 @@
         "en": "A New Voyage to Carolina"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "jennings-prehistory-of-north-america",
+      "titulo": "Prehistoria de Norteamérica",
+      "titulo_original": "Prehistory of North America",
+      "autor": "Jesse D. Jennings",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "sudeste-norteamericano",
+          "suroeste-norteamericano",
+          "gran-cuenca",
+          "grandes-llanuras",
+          "bosques-del-noreste"
+        ],
+        "desde": -13000,
+        "hasta": 1500
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Manual de la arqueología de Norteamérica desde los primeros pobladores hasta la llegada de los europeos, organizado por tradiciones y áreas. Dedica capítulos al Arcaico, a las culturas del Suroeste, a los montículos del Este y al Ártico, con una cronología por períodos.",
+      "por_que_importa": "Es un manual de texto que fijó para varias generaciones la división de la prehistoria norteamericana en períodos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "willey-phillips-method-and-theory",
+      "titulo": "Método y teoría en la arqueología americana",
+      "titulo_original": "Method and Theory in American Archaeology",
+      "autor": "Gordon R. Willey y Philip Phillips",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "mesoamerica"
+        ],
+        "desde": -13000,
+        "hasta": 1500
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro que propone una secuencia de etapas para la arqueología de las Américas: lítica, arcaica, formativa, clásica y posclásica. La etapa Arcaica reúne a los pueblos de cazadores-recolectores con economía basada en plantas silvestres, redes de comercio y artefactos de piedra pulida, posteriores a los cazadores del Paleoindio.",
+      "por_que_importa": "Fijó el concepto de Arcaico como etapa de la prehistoria americana que sigue en uso, aunque sus límites se discuten.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ford-quimby-tchefuncte",
+      "titulo": "La cultura tchefuncte, una ocupación temprana del valle del bajo Misisipi",
+      "titulo_original": "The Tchefuncte Culture, an Early Occupation of the Lower Mississippi Valley",
+      "autor": "James A. Ford y George I. Quimby Jr.",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Menasha",
+        "lon": -88.436,
+        "lat": 44.213
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "norteamerica"
+        ],
+        "desde": -800,
+        "hasta": 200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memoria arqueológica",
+      "resumen": "Informe de las excavaciones de 1937-1941 en el sitio Tchefuncte de la costa del lago Pontchartrain y en otros sitios de Luisiana, que definió la cultura por su cerámica con incisiones y punteados y su economía de concheros. Publicó la Sociedad de Arqueología Americana.",
+      "por_que_importa": "Es el trabajo que definió la cultura tchefuncte como la cerámica más antigua de la región.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "morss-fremont-river",
+      "titulo": "La antigua cultura del río Fremont en Utah",
+      "titulo_original": "The Ancient Culture of the Fremont River in Utah",
+      "autor": "Noel Morss",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1931,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "gran-cuenca",
+          "norteamerica",
+          "suroeste-norteamericano"
+        ],
+        "desde": 1,
+        "hasta": 1300
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe arqueológico",
+      "resumen": "Informe de las excavaciones de 1928-1929 del Museo Peabody de Harvard a lo largo del río Fremont en Utah. Describe casas, depósitos de maíz, cerámica gris, mocasines y figurillas, y distingue una cultura distinta de la de los pueblos del Suroeste, que después se llamó cultura Fremont.",
+      "por_que_importa": "Es la obra que dio nombre a la cultura Fremont.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "marwitt-median-village",
+      "titulo": "Median Village y la variación regional de la cultura Fremont",
+      "titulo_original": "Median Village and Fremont Culture Regional Variation",
+      "autor": "John P. Marwitt",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Salt Lake City",
+        "lon": -111.883,
+        "lat": 40.75
+      },
+      "trata": {
+        "regiones": [
+          "gran-cuenca",
+          "norteamerica"
+        ],
+        "desde": 400,
+        "hasta": 1300
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las excavaciones de Median Village, en Utah, y propuesta de cinco variantes regionales de la cultura Fremont, con cronología y diferencias de cerámica, vivienda y economía. Su clasificación orientó las investigaciones posteriores.",
+      "por_que_importa": "Es la propuesta de variantes regionales que se usa hasta hoy para describir la diversidad de los Fremont.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "haury-mogollon-1936",
+      "titulo": "La cultura mogollón del sudoeste de Nuevo México",
+      "titulo_original": "The Mogollon Culture of Southwestern New Mexico",
+      "autor": "Emil Haury",
+      "autor_id": "emil-haury",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Globe (Arizona)",
+        "lon": -110.782,
+        "lat": 33.4
+      },
+      "trata": {
+        "regiones": [
+          "suroeste-norteamericano",
+          "aridoamerica",
+          "norteamerica"
+        ],
+        "desde": 200,
+        "hasta": 1450
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe arqueológico",
+      "resumen": "Informe de las excavaciones en el sitio Mogollon Village y en otros del sudoeste de Nuevo México, publicado por Gila Pueblo. Propone que las casas semisubterráneas y la cerámica parda de la región forman una cultura distinta de la ancestral pueblo y de la hohokam.",
+      "por_que_importa": "Es el estudio que identificó la cultura mogollón.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "wheat-mogollon-prior-to-1000",
+      "titulo": "La cultura mogollón antes del año 1000 d. C.",
+      "titulo_original": "Mogollon Culture Prior to A.D. 1000",
+      "autor": "Joe Ben Wheat",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Menasha",
+        "lon": -88.436,
+        "lat": 44.213
+      },
+      "trata": {
+        "regiones": [
+          "suroeste-norteamericano",
+          "aridoamerica",
+          "norteamerica"
+        ],
+        "desde": 200,
+        "hasta": 1000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memoria arqueológica",
+      "resumen": "Sintetiza las excavaciones en sitios mogollón anteriores al año 1000 y propone fases y una cronología para la cultura, con su cerámica parda y roja, sus casas en foso y la llegada del maíz. Es una memoria de la Sociedad de Arqueología Americana.",
+      "por_que_importa": "Es el estudio que ordenó las fases de la primera época mogollón.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "haury-hohokam-snaketown",
+      "titulo": "Los hohokam, agricultores y artesanos del desierto: excavaciones en Snaketown, 1964-1965",
+      "titulo_original": "The Hohokam: Desert Farmers and Craftsmen. Excavations at Snaketown, 1964-1965",
+      "autor": "Emil Haury",
+      "autor_id": "emil-haury",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Tucson",
+        "lon": -110.926,
+        "lat": 32.222
+      },
+      "trata": {
+        "regiones": [
+          "suroeste-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 300,
+        "hasta": 1450
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Informe de las excavaciones de Haury en Snaketown, el sitio hohokam del río Gila, en Arizona. Describe las casas, los canales de riego, los campos de pelota, la cerámica y las ofrendas, y propone una secuencia de fases y una cronología para los hohokam.",
+      "por_que_importa": "Es el estudio de referencia sobre los hohokam, a los que atribuye una larga continuidad.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "perttula-caddo-nation",
+      "titulo": "La nación caddo: perspectivas arqueológicas y etnohistóricas",
+      "titulo_original": "The Caddo Nation: Archaeological and Ethnohistoric Perspectives",
+      "autor": "Timothy K. Perttula",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Austin",
+        "lon": -97.733,
+        "lat": 30.3
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "grandes-llanuras",
+          "norteamerica"
+        ],
+        "desde": 800,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Síntesis de la arqueología y la historia de los pueblos de lengua caddo del este de Texas, el oeste de Luisiana, el sur de Arkansas y el este de Oklahoma. Trata los centros de montículos, la agricultura, la organización en confederaciones y los efectos del contacto con españoles y franceses.",
+      "por_que_importa": "Es la obra de referencia sobre los caddo antes y durante el contacto.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "lamb-numic-1958",
+      "titulo": "Prehistoria lingüística en la Gran Cuenca",
+      "titulo_original": "Linguistic Prehistory in the Great Basin",
+      "autor": "Sydney M. Lamb",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "gran-cuenca",
+          "norteamerica"
+        ],
+        "desde": 1,
+        "hasta": 1500
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo del International Journal of American Linguistics, que usa la glotocronología para proponer que los hablantes de lenguas númicas salieron del sudeste de California hacia el año 1000 y se expandieron por la Gran Cuenca. Es el origen de la hipótesis númica.",
+      "por_que_importa": "Planteó la hipótesis de la expansión númica, que se enseña con matices y que algunos estudios arqueológicos y genéticos discuten.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "arnold-chumash-chiefdom",
+      "titulo": "Los orígenes de un cacicazgo de la costa del Pacífico: los chumash de las islas del Canal",
+      "titulo_original": "The Origins of a Pacific Coast Chiefdom: The Chumash of the Channel Islands",
+      "autor": "Jeanne E. Arnold (editora)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Salt Lake City",
+        "lon": -111.883,
+        "lat": 40.75
+      },
+      "trata": {
+        "regiones": [
+          "california-indigena",
+          "norteamerica"
+        ],
+        "desde": 1,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro colectivo sobre la arqueología de los chumash de las islas del Canal de Santa Bárbara, con el comercio de cuentas de concha, las canoas de tablones, los cementerios y la desigualdad entre linajes. Discute cuándo se formó una sociedad jerárquica entre cazadores, pescadores y recolectores.",
+      "por_que_importa": "Es la obra de referencia sobre la complejidad social de los chumash antes del contacto.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "kluckhohn-leighton-navaho",
+      "titulo": "Los navajos",
+      "titulo_original": "The Navaho",
+      "autor": "Clyde Kluckhohn y Dorothea Leighton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1946,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "suroeste-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1946
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio antropológico de los navajos, con su historia, su lengua, su economía de pastoreo, su organización en clanes, su religión y sus relaciones con los hopis, los españoles y los Estados Unidos. Resume el origen atabascano del pueblo y su llegada al Suroeste.",
+      "por_que_importa": "Es una obra clásica de la antropología sobre los navajos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "josephy-nez-perce",
+      "titulo": "Los nez percé y la apertura del Noroeste",
+      "titulo_original": "The Nez Perce Indians and the Opening of the Northwest",
+      "autor": "Alvin M. Josephy Jr.",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "meseta-del-columbia",
+          "norteamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1877
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de los nez percé desde la llegada del caballo hasta su guerra de 1877 y el exilio del jefe Joseph. Describe su economía, su organización en bandas, el encuentro con Lewis y Clark en 1805, los misioneros y los tratados de 1855 y 1863.",
+      "por_que_importa": "Es la obra de referencia sobre la historia de los nez percé.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "linton-morning-star-1922",
+      "titulo": "El sacrificio a la Estrella de la Mañana de los pawnee skidi",
+      "titulo_original": "The Sacrifice to the Morning Star by the Skidi Pawnee",
+      "autor": "Ralph Linton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1922,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "trata": {
+        "regiones": [
+          "grandes-llanuras",
+          "norteamerica"
+        ],
+        "desde": 1700,
+        "hasta": 1838
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Folleto",
+      "resumen": "Folleto del Museo Field con la descripción de la ceremonia con que los skidi sacrificaban a una muchacha cautiva a la Estrella de la Mañana, a partir de los relatos de ancianos pawnee que la habían visto. Cuenta el rito, su calendario y la intervención del jefe Petalesharo, que en 1817 liberó a una cautiva.",
+      "por_que_importa": "Es la descripción más citada de la ceremonia, reunida cuando aún vivían quienes la habían visto.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "weltfish-lost-universe",
+      "titulo": "El universo perdido: la vida y la cultura de los pawnee",
+      "titulo_original": "The Lost Universe: Pawnee Life and Culture",
+      "autor": "Gene Weltfish",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "grandes-llanuras",
+          "norteamerica"
+        ],
+        "desde": 1700,
+        "hasta": 1900
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la antropóloga que trabajó con los pawnee de Oklahoma entre 1928 y 1936. Describe la vida diaria, la agricultura del maíz, la caza del bisonte, la organización en aldeas y las ceremonias, entre ellas la de la Estrella de la Mañana.",
+      "por_que_importa": "Es el estudio antropológico de referencia sobre la vida pawnee.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "brown-spiro-ceremonial-center",
+      "titulo": "El centro ceremonial de Spiro: la arqueología de la cultura caddo del valle del Arkansas en el este de Oklahoma",
+      "titulo_original": "The Spiro Ceremonial Center: The Archaeology of Arkansas Valley Caddoan Culture in Eastern Oklahoma",
+      "autor": "James A. Brown",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Ann Arbor",
+        "lon": -83.748,
+        "lat": 42.281
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 800,
+        "hasta": 1450
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Dos volúmenes con el análisis de los objetos y entierros del montículo Craig y de los demás montículos de Spiro, en Oklahoma. Reconstruye la historia del sitio y cuenta que los saqueadores de 1933-1935 sacaron del montículo Craig la mayor parte de las ofrendas, que se dispersaron en museos y colecciones.",
+      "por_que_importa": "Es el estudio de referencia sobre Spiro y sobre el daño del saqueo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "phillips-brown-spiro-engravings",
+      "titulo": "Grabados de concha precolombinos del montículo Craig de Spiro, Oklahoma",
+      "titulo_original": "Pre-Columbian Shell Engravings from the Craig Mound at Spiro, Oklahoma",
+      "autor": "Philip Phillips y James A. Brown",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "sudeste-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 1000,
+        "hasta": 1450
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Seis partes con las fotografías y el análisis de los grabados de concha del montículo Craig de Spiro, reunidos de museos y colecciones privadas de todo el país. Describe la iconografía del Complejo Ceremonial del Sudeste y reconstruye el origen del conjunto.",
+      "por_que_importa": "Reunió en un solo catálogo piezas dispersas por el saqueo de 1933-1935.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "samuels-ozette-reports",
+      "titulo": "Informes de investigación del Proyecto Arqueológico Ozette",
+      "titulo_original": "Ozette Archaeological Project Research Reports",
+      "autor": "Stephan R. Samuels (editor)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Pullman (Washington)",
+        "lon": -117.167,
+        "lat": 46.733
+      },
+      "trata": {
+        "regiones": [
+          "costa-noroeste",
+          "norteamerica"
+        ],
+        "desde": 1500,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informes",
+      "resumen": "Serie de informes de la Universidad Estatal de Washington sobre las excavaciones de Ozette, la aldea makah enterrada por un alud de barro hacia 1700 que conservó casas de tablones, canoas, redes y herramientas de madera. Describe la estructura de las casas y los objetos hallados.",
+      "por_que_importa": "Es el registro científico de las excavaciones de 1970-1981 en la aldea makah.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2717,7 +3265,10 @@
         "arqueólogo"
       ],
       "resumen": "Arqueólogo de la Universidad de Arizona que excavó Snaketown en 1934-1935 y en 1964-1965 y contribuyó a definir las culturas hohokam y mogollón como tradiciones propias del Suroeste.",
-      "obras": [],
+      "obras": [
+        "haury-mogollon-1936",
+        "haury-hohokam-snaketown"
+      ],
       "wikipedia": {
         "en": "Emil Haury"
       },
@@ -3210,7 +3761,10 @@
         "sudeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "brown-spiro-ceremonial-center",
+        "phillips-brown-spiro-engravings"
+      ],
       "wikipedia": {
         "en": "Spiro Mounds"
       }
@@ -3433,7 +3987,9 @@
         "suroeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "haury-hohokam-snaketown"
+      ],
       "wikipedia": {
         "es": "Hohokam",
         "en": "Hohokam"
@@ -3455,7 +4011,10 @@
         "norteamerica",
         "aridoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "haury-mogollon-1936",
+        "wheat-mogollon-prior-to-1000"
+      ],
       "wikipedia": {
         "es": "Cultura mogollón",
         "en": "Mogollon culture"
@@ -3476,7 +4035,10 @@
         "gran-cuenca",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "morss-fremont-river",
+        "marwitt-median-village"
+      ],
       "wikipedia": {
         "es": "Cultura de Fremont",
         "en": "Fremont culture"
@@ -3613,7 +4175,10 @@
         "suroeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "kluckhohn-leighton-navaho",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Navajo",
         "en": "Navajo"
@@ -4063,7 +4628,10 @@
         "sudeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "perttula-caddo-nation",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Caddo",
         "en": "Caddo"
@@ -4220,7 +4788,10 @@
         "grandes-llanuras",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "linton-morning-star-1922",
+        "weltfish-lost-universe"
+      ],
       "wikipedia": {
         "en": "Pawnee mythology"
       }
@@ -4286,7 +4857,10 @@
         "gran-cuenca",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lamb-numic-1958",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Shoshón",
         "en": "Shoshone"
@@ -4307,7 +4881,10 @@
         "meseta-del-columbia",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "josephy-nez-perce",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Nez percé",
         "en": "Nez Perce"
@@ -4328,7 +4905,10 @@
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "arnold-chumash-chiefdom",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Chumash",
         "en": "Chumash people"
@@ -4559,7 +5139,10 @@
         "costa-noroeste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ames-maschner-1999",
+        "samuels-ozette-reports"
+      ],
       "wikipedia": {
         "en": "Ozette Indian Village Archeological Site"
       }
@@ -4717,7 +5300,9 @@
         "sudeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ford-quimby-tchefuncte"
+      ],
       "wikipedia": {
         "en": "Tchefuncte site"
       }
@@ -4737,7 +5322,10 @@
         "sudeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "jennings-prehistory-of-north-america",
+        "willey-phillips-method-and-theory"
+      ],
       "wikipedia": {
         "en": "Archaic period (North America)"
       }

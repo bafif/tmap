@@ -2352,6 +2352,562 @@
       "por_que_importa": "Contradice la idea de que los nórdicos no supieron adaptarse a los recursos del Ártico.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "meltzer-folsom",
+      "titulo": "Folsom: nuevas investigaciones arqueológicas de un sitio clásico de caza de bisontes paleoindios",
+      "titulo_original": "Folsom: New Archaeological Investigations of a Classic Paleoindian Bison Kill",
+      "autor": "David J. Meltzer",
+      "autor_id": "david-meltzer",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "grandes-llanuras",
+          "norteamerica"
+        ],
+        "desde": -11000,
+        "hasta": -10000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las nuevas excavaciones del sitio Folsom, en Nuevo México, donde en 1926-1928 se hallaron puntas acanaladas entre los huesos de bisontes extintos. Revisa la historia del hallazgo que mostró que había personas en América antes de lo que se creía, fecha el sitio hacia 10 500 a. C. y describe la caza de bisontes.",
+      "por_que_importa": "Es la obra de referencia sobre el sitio Folsom y su lugar en la historia de la arqueología americana.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "dumond-eskimos-and-aleuts",
+      "titulo": "Los esquimales y los aleutianos",
+      "titulo_original": "The Eskimos and Aleuts",
+      "autor": "Don E. Dumond",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica",
+          "siberia"
+        ],
+        "desde": -8000,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Síntesis de la arqueología y la prehistoria de los pueblos del Ártico norteamericano y de las Aleutianas. Recorre la tradición paleoártica, los complejos de Onion Portage y Anangula, la cultura de Norton, la de Thule y los pueblos yupik, inupiat, aleutianos e inuit.",
+      "por_que_importa": "Es el manual más usado sobre la prehistoria de los pueblos esquimales y aleutianos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "giddings-ancient-men-of-the-arctic",
+      "titulo": "Hombres antiguos del Ártico",
+      "titulo_original": "Ancient Men of the Arctic",
+      "autor": "J. Louis Giddings",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1967,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": -8000,
+        "hasta": 1700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Cuenta las excavaciones del autor en Alaska, en Onion Portage, en el cabo Krusenstern y en Denbigh, entre 1939 y 1964, con la sucesión de culturas desde las más antiguas hasta las inuit. Es una obra de divulgación escrita por el arqueólogo que dirigió esas excavaciones.",
+      "por_que_importa": "Es el relato del propio arqueólogo de los sitios del noroeste de Alaska.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "giddings-anderson-cape-krusenstern",
+      "titulo": "Arqueología de las crestas de playa del cabo Krusenstern",
+      "titulo_original": "Beach Ridge Archeology of Cape Krusenstern: Eskimo and Pre-Eskimo Settlements around Kotzebue Sound, Alaska",
+      "autor": "J. Louis Giddings y Douglas D. Anderson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": -3000,
+        "hasta": 1700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe publicado por el Servicio de Parques Nacionales sobre las excavaciones de Giddings y Anderson en las crestas de playa del cabo Krusenstern. Ordena las 114 crestas con sus ocupaciones, de las más antiguas del interior a las inupiat de la costa.",
+      "por_que_importa": "Es el estudio de referencia de la secuencia cultural del cabo Krusenstern.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "anderson-onion-portage",
+      "titulo": "Onion Portage: la arqueología de un sitio estratificado del río Kobuk, noroeste de Alaska",
+      "titulo_original": "Onion Portage: The Archaeology of a Stratified Site from the Kobuk River, Northwest Alaska",
+      "autor": "Douglas D. Anderson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Fairbanks",
+        "lon": -147.723,
+        "lat": 64.844
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": -6500,
+        "hasta": 1700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de las excavaciones en Onion Portage, a orillas del río Kobuk, con una sucesión de nueve complejos culturales entre hace unos 8500 años y el siglo XVIII. Describe la sucesión de culturas, desde las más antiguas de la tradición paleoártica hasta las inupiat, y la caza de caribúes en el paso del río.",
+      "por_que_importa": "Es el informe definitivo del sitio y una referencia sobre la prehistoria del Ártico occidental.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "laughlin-aleuts-survivors",
+      "titulo": "Los aleutianos, sobrevivientes del puente de Beringia",
+      "titulo_original": "Aleuts: Survivors of the Bering Land Bridge",
+      "autor": "William S. Laughlin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": -7000,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Resumen de las investigaciones del antropólogo William Laughlin en las Aleutianas, con el sitio Anangula y el conchero de Chaluka, en la isla de Umnak. Presenta los 9000 años de ocupación de las islas, la cultura aleutiana y su relación con los pueblos de Beringia.",
+      "por_que_importa": "Es el estudio de quien excavó Anangula, el sitio más antiguo de las Aleutianas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "gosch-danish-arctic-expeditions",
+      "titulo": "Expediciones árticas danesas, de 1605 a 1620",
+      "titulo_original": "Danish Arctic Expeditions, 1605 to 1620",
+      "autor": "C. C. A. Gosch (editor)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1605,
+        "anio_hasta": 1620,
+        "aprox": false,
+        "lugar": "Copenhague",
+        "lon": 12.569,
+        "lat": 55.676
+      },
+      "trata": {
+        "regiones": [
+          "groenlandia",
+          "escandinavia",
+          "artico-norteamericano"
+        ],
+        "desde": 1605,
+        "hasta": 1620
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Colección de relatos",
+      "resumen": "Relatos de 1605 a 1620 que C. C. A. Gosch editó en dos libros de la Sociedad Hakluyt (Londres, 1897) con los relatos de las expediciones de Cristián IV a Groenlandia de 1605, 1606 y 1607, conducidas por el piloto inglés James Hall, y de la de 1612. Incluyen los diarios del viaje, las instrucciones y los encuentros con los inuit, a los que capturaron.",
+      "por_que_importa": "Son los relatos originales de las expediciones danesas en busca de los nórdicos de Groenlandia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "gad-history-of-greenland",
+      "titulo": "Historia de Groenlandia",
+      "titulo_original": "Grønlands historie",
+      "autor": "Finn Gad",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1967,
+        "anio_hasta": 1976,
+        "aprox": false,
+        "lugar": "Copenhague",
+        "lon": 12.569,
+        "lat": 55.676
+      },
+      "trata": {
+        "regiones": [
+          "groenlandia",
+          "escandinavia"
+        ],
+        "desde": 982,
+        "hasta": 1808
+      },
+      "idioma_original": "Danés",
+      "soporte": "Libro",
+      "resumen": "Historia en tres volúmenes de Groenlandia. El primero va de los primeros pobladores hasta 1700, con la colonia nórdica, las expediciones danesas de 1605-1607. El segundo cubre de 1700 a 1782, con la misión de Hans Egede, el Real Comercio de Groenlandia desde 1774 y el aislamiento de la isla.",
+      "por_que_importa": "Es la historia de referencia de Groenlandia, escrita por un historiador danés.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "neves-hubbe-lagoa-santa-2005",
+      "titulo": "Morfología craneal de los primeros americanos de Lagoa Santa, Brasil",
+      "titulo_original": "Cranial morphology of early Americans from Lagoa Santa, Brazil: Implications for the settlement of the New World",
+      "autor": "Walter A. Neves y Mark Hubbe",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "brasil",
+          "norteamerica"
+        ],
+        "desde": -11000,
+        "hasta": -7000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo científico",
+      "resumen": "Artículo de Proceedings of the National Academy of Sciences sobre los cráneos de Lagoa Santa, Minas Gerais, hallados por Lund y por otros después. Los compara con los de los indígenas americanos actuales y con los de otras poblaciones, y plantea que los primeros pobladores tenían rasgos craneales distintos de los de los indígenas posteriores.",
+      "por_que_importa": "Es un estudio central sobre los esqueletos de Lagoa Santa; sus conclusiones sobre el origen de los primeros americanos fueron discutidas por la genética.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mcclintock-voyage-of-the-fox",
+      "titulo": "El viaje del «Fox» en los mares árticos: relato del descubrimiento del destino de Sir John Franklin y sus compañeros",
+      "titulo_original": "The Voyage of the 'Fox' in the Arctic Seas: A Narrative of the Discovery of the Fate of Sir John Franklin and His Companions",
+      "autor": "Francis Leopold McClintock",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1859,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica",
+          "britania"
+        ],
+        "desde": 1845,
+        "hasta": 1859
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del viaje de 1857-1859 de la expedición privada de lady Franklin al mando de McClintock, que halló en la isla del Rey Guillermo la nota de Victory Point con el destino de Franklin, restos de la expedición y esqueletos. Cuenta también los testimonios de los inuit sobre la marcha de los hombres del Erebus y el Terror.",
+      "por_que_importa": "Es la fuente primaria del descubrimiento de lo ocurrido a la expedición de Franklin, con la nota de Victory Point.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "woodman-unravelling-the-franklin-mystery",
+      "titulo": "Desenredar el misterio de Franklin: el testimonio inuit",
+      "titulo_original": "Unravelling the Franklin Mystery: Inuit Testimony",
+      "autor": "David C. Woodman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Montreal",
+        "lon": -73.587,
+        "lat": 45.503
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica",
+          "britania"
+        ],
+        "desde": 1845,
+        "hasta": 1860
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstruye la suerte de la expedición de Franklin a partir de los testimonios de los inuit recogidos por Rae, Hall, Schwatka y otros. Revalúa el valor de esos testimonios, que los exploradores británicos habían descartado en parte, y propone un recorrido de los barcos y de los sobrevivientes.",
+      "por_que_importa": "Dio peso a la tradición oral inuit, que las búsquedas de 2014 y 2016 respaldaron al hallar los dos barcos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ulrikab-diario",
+      "titulo": "Diario de Abraham Ulrikab",
+      "titulo_original": "The Diary of Abraham Ulrikab: Text and Context",
+      "autor": "Abraham Ulrikab",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1880,
+        "anio_hasta": 1881,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia",
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 1880,
+        "hasta": 1881
+      },
+      "idioma_original": "Inuktitut (Labrador)",
+      "soporte": "Diario",
+      "resumen": "Diario del inuk de Hebron, Labrador, que viajó en 1880 con su familia y otros cuatro inuit a Europa para exhibirse en el zoológico de Hagenbeck. Cuenta las exhibiciones en varias ciudades europeas, las enfermedades y la muerte de los ocho integrantes del grupo entre fines de 1880 y comienzos de 1881. El original en inuktitut no se ha encontrado: se conoce por la traducción alemana del misionero Kretschmer (1881), base de la edición de Hartmut Lutz, The Diary of Abraham Ulrikab: Text and Context (2005).",
+      "por_que_importa": "Es el testimonio de uno de los inuit exhibidos, que escribió sobre la experiencia y su muerte.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Abraham Ulrikab"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "harper-give-me-my-fathers-body",
+      "titulo": "Devuélvanme el cuerpo de mi padre: la vida de Minik, el esquimal de Nueva York",
+      "titulo_original": "Give Me My Father's Body: The Life of Minik, the New York Eskimo",
+      "autor": "Kenn Harper",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Iqaluit",
+        "lon": -68.522,
+        "lat": 63.749
+      },
+      "trata": {
+        "regiones": [
+          "groenlandia",
+          "norteamerica",
+          "bosques-del-noreste"
+        ],
+        "desde": 1897,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía del niño inughuit Minik, traído por Robert Peary a Nueva York en 1897 con su padre y otros cuatro inughuit, la mayoría de los cuales murió de tuberculosis. Cuenta el trato del Museo de Historia Natural, el entierro simulado del padre cuyos huesos conservó el museo y el regreso de Minik a Groenlandia en 1909.",
+      "por_que_importa": "Es el relato más documentado del caso de los inughuit llevados a Nueva York.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "wahlgren-kensington-stone",
+      "titulo": "La piedra de Kensington: un misterio resuelto",
+      "titulo_original": "The Kensington Stone: A Mystery Solved",
+      "autor": "Erik Wahlgren",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Madison (Wisconsin)",
+        "lon": -89.384,
+        "lat": 43.075
+      },
+      "trata": {
+        "regiones": [
+          "grandes-llanuras",
+          "norteamerica",
+          "escandinavia"
+        ],
+        "desde": 1362,
+        "hasta": 1958
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio filológico y histórico de la inscripción de la piedra de Kensington, con la historia del hallazgo, las runas, la lengua y la comparación con textos suecos. Concluye que la inscripción es un fraude del siglo XIX con rasgos de la lengua y la ortografía de ese tiempo.",
+      "por_que_importa": "Es la obra de referencia de quienes sostienen que la piedra es una falsificación; los defensores de su autenticidad la critican.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "blegen-kensington-rune-stone",
+      "titulo": "La piedra rúnica de Kensington: nueva luz sobre un viejo enigma",
+      "titulo_original": "The Kensington Rune Stone: New Light on an Old Riddle",
+      "autor": "Theodore C. Blegen",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1968,
+        "aprox": false,
+        "lugar": "Saint Paul (Minnesota)",
+        "lon": -93.094,
+        "lat": 44.944
+      },
+      "trata": {
+        "regiones": [
+          "grandes-llanuras",
+          "norteamerica"
+        ],
+        "desde": 1898,
+        "hasta": 1968
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la piedra desde su hallazgo en 1898 hasta la discusión de la década de 1960, con las declaraciones de Olof Öhman, los primeros estudios de Hjalmar Holand y de los lingüistas y los argumentos de los defensores de la autenticidad. Expone las pruebas de ambos lados.",
+      "por_que_importa": "Es la historia de la controversia hecha por un historiador de Minnesota.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "skelton-vinland-map",
+      "titulo": "El mapa de Vinlandia y la Relación tártara",
+      "titulo_original": "The Vinland Map and the Tartar Relation",
+      "autor": "R. A. Skelton, Thomas E. Marston y George D. Painter",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "groenlandia",
+          "norteamerica"
+        ],
+        "desde": 1000,
+        "hasta": 1965
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro de la Universidad de Yale que presenta el mapamundi que había aparecido en 1957, con una descripción de la «Isla de Vinlandia» al oeste de Groenlandia, junto con la Relación tártara, un manuscrito del siglo XV. Los autores lo datan hacia 1440 y lo ven como el primer mapa que muestra América.",
+      "por_que_importa": "Presentó el mapa al público el 11 de octubre de 1965; en 2021 la Universidad de Yale declaró que es una falsificación del siglo XX, tras un análisis de la tinta.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "seaver-maps-myths-and-men",
+      "titulo": "Mapas, mitos y hombres: la historia del mapa de Vinlandia",
+      "titulo_original": "Maps, Myths, and Men: The Story of the Vinland Map",
+      "autor": "Kirsten A. Seaver",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Stanford",
+        "lon": -122.166,
+        "lat": 37.424
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "groenlandia",
+          "norteamerica"
+        ],
+        "desde": 1957,
+        "hasta": 2004
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del mapa de Vinlandia y de su aparición, de los coleccionistas y libreros que lo manejaron y de los estudios sobre su tinta y su pergamino. Sostiene que es una falsificación del siglo XX y propone quién pudo haberla hecho.",
+      "por_que_importa": "Es el estudio más completo de quienes defienden que el mapa es falso, anterior al análisis de Yale de 2021.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "plafker-alaska-earthquake-1969",
+      "titulo": "Tectónica del terremoto de Alaska del 27 de marzo de 1964",
+      "titulo_original": "Tectonics of the March 27, 1964 Alaska Earthquake",
+      "autor": "George Plafker",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1969,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano",
+          "norteamerica"
+        ],
+        "desde": 1964,
+        "hasta": 1964
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe científico",
+      "resumen": "Capítulo I del Professional Paper 543 del Servicio Geológico de los Estados Unidos. Describe las deformaciones del terreno del terremoto de magnitud 9,2, con levantamientos de hasta unos 11 metros y hundimientos, y lo explica por el deslizamiento de la placa del Pacífico bajo la de Norteamérica.",
+      "por_que_importa": "Fijó el modelo del terremoto como un deslizamiento de subducción y fue un aporte temprano a la tectónica de placas.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3082,7 +3638,8 @@
       "resumen": "Arqueólogo estadounidense especialista en el poblamiento de América. Formó parte del grupo que en 1997 aceptó la antigüedad de Monte Verde, criticó con Adovasio y Dillehay las pruebas de Pedra Furada (1994) y con Donald Grayson la hipótesis de la sobrecaza (2003).",
       "obras": [
         "meltzer-1997-monte-verde",
-        "meltzer-adovasio-dillehay-1994"
+        "meltzer-adovasio-dillehay-1994",
+        "meltzer-folsom"
       ],
       "wikipedia": {
         "en": "David J. Meltzer"
@@ -3706,7 +4263,9 @@
       "regiones": [
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "neves-hubbe-lagoa-santa-2005"
+      ],
       "wikipedia": {
         "es": "Peter Wilhelm Lund",
         "en": "Peter Wilhelm Lund"
@@ -3750,7 +4309,10 @@
         "grandes-llanuras",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "meltzer-folsom",
+        "haynes-1964"
+      ],
       "wikipedia": {
         "es": "Cultura Folsom",
         "en": "Folsom tradition"
@@ -4524,7 +5086,10 @@
         "norteamerica",
         "siberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dumond-eskimos-and-aleuts",
+        "handbook-of-north-american-indians"
+      ],
       "wikipedia": {
         "es": "Yupik",
         "en": "Yupik peoples"
@@ -4545,7 +5110,11 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "veniaminov-notes-unalaska",
+        "dumond-eskimos-and-aleuts",
+        "laughlin-aleuts-survivors"
+      ],
       "wikipedia": {
         "es": "Aleutas",
         "en": "Aleuts"
@@ -4875,7 +5444,10 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "skelton-vinland-map",
+        "seaver-maps-myths-and-men"
+      ],
       "wikipedia": {
         "es": "Mapa de Vinlandia",
         "en": "Vinland Map"
@@ -4896,7 +5468,10 @@
         "grandes-llanuras",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "wahlgren-kensington-stone",
+        "blegen-kensington-rune-stone"
+      ],
       "wikipedia": {
         "es": "Piedra rúnica de Kensington",
         "en": "Kensington Runestone"
@@ -4940,7 +5515,10 @@
         "groenlandia",
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gosch-danish-arctic-expeditions",
+        "gad-history-of-greenland"
+      ],
       "wikipedia": {
         "es": "Cristián IV de Dinamarca",
         "en": "Christian IV of Denmark"
@@ -5048,7 +5626,9 @@
         "escandinavia",
         "groenlandia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gad-history-of-greenland"
+      ],
       "wikipedia": {
         "en": "Royal Greenland Trading Department"
       }
@@ -5109,7 +5689,9 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hutton-moravian-missions"
+      ],
       "wikipedia": {
         "en": "Nain, Newfoundland and Labrador"
       }
@@ -5130,7 +5712,9 @@
         "alemania",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ulrikab-diario"
+      ],
       "wikipedia": {
         "en": "Abraham Ulrikab"
       }
@@ -5151,7 +5735,9 @@
         "norteamerica",
         "groenlandia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "harper-give-me-my-fathers-body"
+      ],
       "wikipedia": {
         "en": "Minik Wallace"
       }
@@ -5171,7 +5757,9 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "plafker-alaska-earthquake-1969"
+      ],
       "wikipedia": {
         "es": "Terremoto de Alaska de 1964",
         "en": "1964 Alaska earthquake"
@@ -5192,7 +5780,10 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mcclintock-voyage-of-the-fox",
+        "woodman-unravelling-the-franklin-mystery"
+      ],
       "wikipedia": {
         "es": "Expedición perdida de Franklin",
         "en": "Franklin's lost expedition"
@@ -5213,7 +5804,10 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dumond-eskimos-and-aleuts",
+        "anderson-onion-portage"
+      ],
       "wikipedia": {
         "en": "Paleo-Arctic tradition"
       }
@@ -5233,7 +5827,10 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "giddings-anderson-cape-krusenstern",
+        "dumond-eskimos-and-aleuts"
+      ],
       "wikipedia": {
         "en": "Cape Krusenstern National Monument"
       }
@@ -5253,7 +5850,10 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "laughlin-aleuts-survivors",
+        "dumond-eskimos-and-aleuts"
+      ],
       "wikipedia": {
         "en": "Anangula Archeological District"
       }
@@ -5273,7 +5873,10 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anderson-onion-portage",
+        "giddings-ancient-men-of-the-arctic"
+      ],
       "wikipedia": {
         "en": "Onion Portage Archeological District"
       }
