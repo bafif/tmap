@@ -8465,6 +8465,27 @@
         "es": "Intel 8080",
         "en": "Intel 8080"
       }
+    },
+    {
+      "id": "intel-8086",
+      "titulo": "Intel 8086",
+      "anio": 1978,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Santa Clara (California)",
+      "lon": -121.967,
+      "lat": 37.35,
+      "tipo": "cientifico",
+      "resumen": "Microprocesador de 16 bits que Intel presentó en junio de 1978 y con el que se estableció el conjunto de instrucciones x86, que las generaciones siguientes ampliaron conservando la compatibilidad binaria. Su desarrollo empezó en 1976 como sustituto provisorio del proyecto iAPX 432, retrasado; Stephen Morse definió la arquitectura y Bill Pohlman dirigió el proyecto. Su bus externo de direcciones de 20 bits permitía direccionar un megabyte mediante registros de segmento. Su derivado 8088, de 1979, con bus externo de 8 bits, fue el procesador del primer IBM PC (1981).",
+      "regiones": [
+        "california-indigena",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Intel 8086 y 8088",
+        "en": "Intel 8086"
+      }
     }
   ],
   "lugares": [

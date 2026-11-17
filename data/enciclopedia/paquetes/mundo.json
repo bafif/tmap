@@ -14570,6 +14570,72 @@
         "es": "Edad Oscura",
         "en": "Greek Dark Ages"
       }
+    },
+    {
+      "id": "epoca-arcaica-de-grecia",
+      "titulo": "Época Arcaica de Grecia",
+      "anio": -800,
+      "anio_hasta": -480,
+      "aprox": true,
+      "lugar": "Grecia",
+      "lon": 23.0,
+      "lat": 38.5,
+      "tipo": "cultural",
+      "resumen": "Período entre los siglos oscuros y la época clásica; los autores lo fechan de distinta manera: desde c. 800 a. C., desde la primera Olimpíada (776 a. C.) o desde c. 750, hasta la segunda invasión persa (480 a. C.) o la Revuelta jónica (499 a. C.). Se consolidaron las póleis, los griegos fundaron colonias por el Mediterráneo y el mar Negro, se desarrolló el alfabeto y se compuso la literatura griega más antigua, y el hoplita pasó a ser el núcleo de los ejércitos. En Atenas, las primeras instituciones democráticas con Solón y la reforma de Clístenes; en Esparta, la sumisión de Mesenia, la servidumbre de los ilotas y la Liga del Peloponeso.",
+      "regiones": [
+        "grecia",
+        "anatolia",
+        "italia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Época arcaica",
+        "en": "Archaic Greece"
+      }
+    },
+    {
+      "id": "revuelta-jonica",
+      "titulo": "Revuelta jónica",
+      "anio": -499,
+      "anio_hasta": -493,
+      "aprox": false,
+      "lugar": "Mileto",
+      "lon": 27.276,
+      "lat": 37.531,
+      "tipo": "batalla",
+      "resumen": "Rebelión de ciudades griegas de Asia Menor, con Eolia, Doria, Chipre y Caria, contra el dominio persa, entre 499 y 493 a. C. La desencadenó Aristágoras, tirano de Mileto, después de que fracasara su expedición contra Naxos con el sátrapa Artafernes. Con ayuda de Atenas y Eretria los rebeldes quemaron Sardes (498) pero fueron vencidos en Éfeso; la flota jonia fue derrotada en Lade y Mileto cayó en 494, lo que acabó la revuelta. Es la primera fase de las guerras médicas: Darío resolvió castigar a Atenas y Eretria, y en 492 comenzó la primera invasión persa de Grecia.",
+      "regiones": [
+        "anatolia",
+        "grecia",
+        "persia"
+      ],
+      "fuentes": [
+        "historias-herodoto"
+      ],
+      "wikipedia": {
+        "es": "Revuelta jónica",
+        "en": "Ionian Revolt"
+      }
+    },
+    {
+      "id": "concilio-de-calcedonia",
+      "titulo": "Concilio de Calcedonia",
+      "anio": 451,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Calcedonia",
+      "lon": 29.033,
+      "lat": 40.983,
+      "tipo": "religioso",
+      "resumen": "Cuarto concilio ecuménico, convocado por el emperador Marciano y reunido en Calcedonia entre el 8 de octubre y el 1 de noviembre de 451; las fuentes dan entre unos 350 y más de 520 obispos. Reafirmó el credo de Nicea y el de Constantinopla y la doctrina de Éfeso contra Eutiques y Nestorio, y aprobó el Tomo de León I y una definición que reconoce a Cristo en dos naturalezas, «sin confusión, sin cambio, sin división, sin separación». Depuso al patriarca Dióscoro de Alejandría, y su canon 28 puso a Constantinopla en segundo lugar después de Roma, canon que el papa León I declaró nulo. Las iglesias ortodoxas orientales, que no lo aceptaron, quedaron separadas de las iglesias calcedonianas.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Concilio de Calcedonia",
+        "en": "Council of Chalcedon"
+      }
     }
   ],
   "lugares": [

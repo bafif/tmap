@@ -4397,6 +4397,112 @@
         "es": "Batalla de Ridaniya",
         "en": "Battle of Ridaniya"
       }
+    },
+    {
+      "id": "imperio-medio-de-egipto",
+      "titulo": "Imperio Medio de Egipto",
+      "anio": -2055,
+      "anio_hasta": -1650,
+      "aprox": true,
+      "lugar": "Lisht",
+      "lon": 31.231,
+      "lat": 29.57,
+      "tipo": "politico",
+      "resumen": "Período que sigue al Primer Período Intermedio, desde la reunificación del país por Mentuhotep II, de la dinastía XI tebana, hasta -1650, en la cronología de Ian Shaw (otros lo cierran con la XII, hacia -1782, o hacia -1700). Amenemhat I trasladó la capital al norte, a Itjtauy, cerca de Lisht, y Sesostris III dirigió campañas en Nubia y levantó fortalezas, y recortó el poder de los nomarcas. Fue el tiempo de la mayor prosperidad con Amenemhat III, y Osiris pasó a ser la deidad principal en la religión popular. El concepto de «Imperio Medio» como una de tres edades de oro lo introdujo el egiptólogo Bunsen en 1845.",
+      "regiones": [
+        "alto-egipto",
+        "egipto",
+        "bajo-egipto",
+        "nubia"
+      ],
+      "fuentes": [
+        "historia-de-sinuhe",
+        "textos-de-los-sarcofagos",
+        "aegyptiaca-de-maneton",
+        "oxford-history-of-ancient-egypt"
+      ],
+      "wikipedia": {
+        "es": "Imperio Medio de Egipto",
+        "en": "Middle Kingdom of Egypt"
+      }
+    },
+    {
+      "id": "segundo-periodo-intermedio-de-egipto",
+      "titulo": "Segundo Período Intermedio de Egipto",
+      "anio": -1650,
+      "anio_hasta": -1550,
+      "aprox": true,
+      "lugar": "Tebas",
+      "lon": 32.639,
+      "lat": 25.719,
+      "tipo": "politico",
+      "resumen": "Segunda fragmentación política de Egipto, entre el fin del Imperio Medio y el comienzo del Nuevo (desde -1650 en la cronología de Ian Shaw, o desde -1782 si se cuenta desde el fin de la dinastía XII). La dinastía XII terminó con la reina Sobekneferu y la dinastía XIII, que no logró mantener unido el país, gobernó desde Itjtauy; la XIV se separó en el delta; los hicsos, de Asia occidental, establecieron la XV en Avaris; la XVI fue tebana según Ryholt (1997) e hicsa según la versión de Manetón que transmite Africano; y la XVII reinó en Tebas. La principal fuente de su cronología es el Canon de Turín, de la época de Ramsés II, y se estudia también por los escarabeos. Terminó cuando Ahmose, el primer rey de la dinastía XVIII, expulsó a los hicsos y reunificó el país.",
+      "regiones": [
+        "alto-egipto",
+        "egipto",
+        "bajo-egipto"
+      ],
+      "fuentes": [
+        "aegyptiaca-de-maneton",
+        "contra-apion"
+      ],
+      "wikipedia": {
+        "es": "Segundo periodo intermedio de Egipto",
+        "en": "Second Intermediate Period of Egypt"
+      }
+    },
+    {
+      "id": "tercer-periodo-intermedio-de-egipto",
+      "titulo": "Tercer Período Intermedio de Egipto",
+      "anio": -1069,
+      "anio_hasta": -664,
+      "aprox": true,
+      "lugar": "Tanis",
+      "lon": 31.88,
+      "lat": 30.977,
+      "tipo": "politico",
+      "resumen": "Período que empieza con la muerte de Ramsés XI (-1077 o -1069), fin del Imperio Nuevo, y termina por lo general en -664 con el comienzo de la dinastía XXVI; algunas fuentes lo cierran hacia -650. Egipto se dividió entre el norte, con reyes que gobernaban desde Tanis (dinastía XXI), y Tebas, donde los sumos sacerdotes de Amón mandaban en el sur; la dinastía libia XXII, desde Sheshonq I (hacia -945), reunió el país, que después de Osorkon II volvió a dividirse entre la XXII, la XXIII y otros reyes locales. Después gobernó la dinastía XXV, de Kush (Nubia), hasta que la expulsaron los asirios. Sigue al colapso de la Edad del Bronce Final en el Cercano Oriente.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto",
+        "alto-egipto",
+        "nubia"
+      ],
+      "fuentes": [
+        "portico-bubastita-de-karnak",
+        "estela-de-la-victoria-de-piye",
+        "aegyptiaca-de-maneton"
+      ],
+      "wikipedia": {
+        "es": "Tercer periodo intermedio de Egipto",
+        "en": "Third Intermediate Period of Egypt"
+      }
+    },
+    {
+      "id": "periodo-tardio-de-egipto",
+      "titulo": "Período tardío de Egipto",
+      "anio": -664,
+      "anio_hasta": -332,
+      "aprox": false,
+      "lugar": "Menfis",
+      "lon": 31.255,
+      "lat": 29.845,
+      "tipo": "politico",
+      "resumen": "Último período de gobierno de reyes nativos, desde la dinastía XXVI saíta fundada por Psamético I (-664) hasta la conquista de Alejandro Magno (-332). Psamético, vasallo de Asiria, unificó Egipto hacia -656/655; sus sucesores avanzaron por el Levante hasta la derrota de Carquemis, y en -570 Amasis II depuso a Apries. Cambises II conquistó Egipto en -525 (dinastía XXVII persa), Amirteo se rebeló en -404 y las dinastías XXVIII a XXX, con Nectanebo I, mantuvieron la independencia hasta que Persia reconquistó el país en -343 (dinastía XXXI).",
+      "regiones": [
+        "bajo-egipto",
+        "alto-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "historias-de-herodoto-libros-ii-iii",
+        "papiros-de-elefantina",
+        "aegyptiaca-de-maneton"
+      ],
+      "wikipedia": {
+        "es": "Periodo tardío de Egipto",
+        "en": "Late Period of Egypt"
+      }
     }
   ],
   "lugares": [

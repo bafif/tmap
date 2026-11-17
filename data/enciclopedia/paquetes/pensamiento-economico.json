@@ -4072,6 +4072,46 @@
       "por_que_importa": "Es la norma legal del plan antiinflacionario.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "que-ha-hecho-el-gobierno-con-nuestro-dinero",
+      "titulo": "¿Qué ha hecho el gobierno con nuestro dinero?",
+      "titulo_original": "What Has Government Done to Our Money?",
+      "autor": "Murray N. Rothbard",
+      "autor_id": "rothbard",
+      "tipo": "primaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1900,
+        "hasta": 1963
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del dinero desde el trueque hasta el patrón oro y el papel moneda actual, según la teoría austríaca. Rothbard sostiene que el dinero surgió en el mercado, que el oro fue la mercancía elegida y que aumentar la oferta de dinero distorsiona el cálculo de costos y produce «auges derrochadores» seguidos de reajustes. Atribuye en parte a la salida del patrón oro tras la Primera Guerra Mundial los problemas económicos del siglo XX y propone volver a un dólar fijado en oro al 100 %, tesis que discuten otras escuelas, como la keynesiana y la monetarista.",
+      "por_que_importa": "Es la exposición breve de la teoría monetaria de Rothbard para el público general y se suele leer junto con «El caso de un dólar de oro al 100 %».",
+      "leer": [
+        {
+          "titulo": "Texto original en inglés publicado por el Instituto Mises",
+          "url": "https://cdn.mises.org/What%20Has%20Government%20Done%20to%20Our%20Money_3.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "¿Qué ha hecho el gobierno a nuestro dinero?",
+        "en": "What Has Government Done to Our Money?"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4843,7 +4883,8 @@
         "anatomia-del-estado",
         "por-una-nueva-libertad",
         "la-etica-de-la-libertad",
-        "la-traicion-de-la-derecha-estadounidense-rothbard"
+        "la-traicion-de-la-derecha-estadounidense-rothbard",
+        "que-ha-hecho-el-gobierno-con-nuestro-dinero"
       ],
       "wikipedia": {
         "es": "Murray Rothbard",

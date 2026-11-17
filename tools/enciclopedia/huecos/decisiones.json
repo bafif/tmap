@@ -4984,6 +4984,11 @@
     "motivo": "ya está por boduognato, batalla-del-sabis y rebelion-de-ambiorix (el esquema no tiene fichas de pueblos).",
     "fecha": "2026-11-11"
   },
+  "parte:Q337104:Q832678": {
+    "decision": "descartado",
+    "motivo": "Los catalaunos solo figuran en las fuentes desde el siglo IV d. C. (Eutropio, Notitia Dignitatum), fuera de los años 390 a. C.-260 del paquete, y de su historia anterior no se conserva ningún hecho.",
+    "fecha": "2026-11-17"
+  },
   "parte:Q36422:Q1551765": {
     "decision": "descartado",
     "motivo": "La cultura de la cerámica a la gubia (Pitted Ware) es de cazadores-pescadores de Escandinavia y el Báltico, sin relación con el origen de lo celta.",
@@ -5263,6 +5268,11 @@
     "decision": "descartado",
     "motivo": "la segunda guerra púnica entra solo por sus episodios celtibéricos; sus demás batallas no son del tema",
     "fecha": "2026-11-11"
+  },
+  "parte:Q7794:Q11772": {
+    "decision": "descartado",
+    "motivo": "La Antigua Grecia ya está en tmap como la familia cultural \"griega\" (familias.json, artículo \"Antigua Grecia\" / \"Ancient Greece\"); como hecho de mil años en el mismo punto que los siglos oscuros y la época arcaica, los duplicaría.",
+    "fecha": "2026-11-17"
   },
   "parte:Q786171:Q606621": {
     "decision": "descartado",
@@ -11934,6 +11944,11 @@
     "motivo": "la serie de ediles plebeyos no es del tema",
     "fecha": "2026-11-11"
   },
+  "serie:Q18384454:Q129857": {
+    "decision": "descartado",
+    "motivo": "Francisco I reinó de 1515 a 1547, después del límite de 1500 del alcance del paquete.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q20021267": {
     "decision": "descartado",
     "motivo": "El ministerio de Economía de Israel no es eje del tema de Tierra Santa.",
@@ -12243,6 +12258,11 @@
     "decision": "descartado",
     "motivo": "Gustavo Lopetegui fue vicejefe de Gabinete (2015-2018) y secretario de Energía (2018-2019), nunca jefe de Gabinete de Ministros; Wikidata le asigna el cargo del jefe por error.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q2602792:Q6278403": {
+    "decision": "descartado",
+    "motivo": "Jorge Obeid nunca fue jefe de Gabinete: en la crisis de 2001 sonó para el cargo, pero el ofrecimiento no se concretó (según varias versiones, por un veto del gobernador Reutemann), y la ficha de Wikidata arrastra ese error.",
+    "fecha": "2026-11-17"
   },
   "serie:Q2636053": {
     "decision": "descartado",
@@ -14053,6 +14073,11 @@
     "decision": "descartado",
     "motivo": "La resolución 572 (30 de septiembre de 1985) trata del ataque sudafricano a Botsuana, fuera del tema; Wikidata la encadena con la 573 solo por el número.",
     "fecha": "2026-11-13"
+  },
+  "sucesion:Q2489176": {
+    "decision": "descartado",
+    "motivo": "La resolución 86 (26 de septiembre de 1950) recomienda admitir a Indonesia en la ONU y no trata de ninguna guerra ni de las regiones del paquete; Wikidata la encadena con la resolución 85 solo por la numeración.",
+    "fecha": "2026-11-17"
   },
   "sucesion:Q2890985": {
     "decision": "descartado",
