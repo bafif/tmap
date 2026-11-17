@@ -839,6 +839,36 @@
         }
       ],
       "confianza": "media"
+    },
+    {
+      "id": "essai-sur-l-art-et-l-industrie-de-l-espagne-primitive",
+      "titulo": "Ensayo sobre el arte y la industria de la España primitiva",
+      "titulo_original": "Essai sur l'art et l'industrie de l'Espagne primitive",
+      "autor": "Pierre Paris",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1903,
+        "anio_hasta": 1904,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": -600,
+        "hasta": -300
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Dos volúmenes del arqueólogo Pierre Paris sobre el arte ibérico, a partir de los hallazgos de Elche, Osuna, Cerro de los Santos y otros. Trata la Dama de Elche, que llegó al Louvre en 1897.",
+      "por_que_importa": "Es el estudio de conjunto del arte ibérico de su autor, que había gestionado la compra de la Dama de Elche para el Louvre y publicado la pieza en 1897; la difusión inicial del hallazgo fue de Pedro Ibarra, cronista de Elche.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3732,7 +3762,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "essai-sur-l-art-et-l-industrie-de-l-espagne-primitive"
+      ],
       "wikipedia": {
         "es": "Dama de Elche",
         "en": "Lady of Elche"

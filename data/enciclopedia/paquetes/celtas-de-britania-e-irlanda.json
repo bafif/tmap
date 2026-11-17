@@ -3266,6 +3266,97 @@
         "en": "Panegyrici Latini"
       },
       "confianza": "media"
+    },
+    {
+      "id": "the-frontiers-of-imperial-rome",
+      "titulo": "Las fronteras de la Roma imperial",
+      "titulo_original": "The Frontiers of Imperial Rome",
+      "autor": "David J. Breeze",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Barnsley",
+        "lon": -1.479,
+        "lat": 53.554
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "caledonia"
+        ],
+        "desde": 70,
+        "hasta": 250
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las fronteras del Imperio romano, con un capítulo sobre Britania. Trata la ocupación de Escocia en tiempos de Agrícola y la línea de fortines y torres de la cresta de Gask, en Perthshire, con sus fechas.",
+      "por_que_importa": "Es una síntesis reciente de la arqueología de las fronteras, con su cronología.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "notitia-dignitatum",
+      "titulo": "Notitia Dignitatum",
+      "titulo_original": "Notitia Dignitatum",
+      "autor": "Anónimo (administración imperial)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 400,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia",
+          "alemania"
+        ],
+        "desde": 300,
+        "hasta": 420
+      },
+      "idioma_original": "Latín",
+      "soporte": "Registro",
+      "resumen": "Lista de cargos civiles y militares del Imperio romano de Oriente y de Occidente hacia 400. Incluye al «conde de la costa sajona» en Britania, con los fuertes bajo su mando.",
+      "por_que_importa": "Es la fuente principal sobre la organización de la defensa de la costa de la Britania romana.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Notitia dignitatum",
+        "en": "Notitia Dignitatum"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "rome-s-first-frontier",
+      "titulo": "La primera frontera de Roma: la ocupación flavia del norte de Escocia",
+      "titulo_original": "Rome's First Frontier: The Flavian Occupation of Northern Scotland",
+      "autor": "David J. Woolliscroft y Birgitta Hoffmann",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Stroud",
+        "lon": -2.215,
+        "lat": 51.744
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 70,
+        "hasta": 90
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la línea de fortines y torres de vigilancia de Gask Ridge, en el centro de Escocia, a partir de las excavaciones del proyecto que la investigó. Discute su fecha, en la época de Agrícola, y su función.",
+      "por_que_importa": "Es el estudio de referencia sobre la línea de Gask Ridge.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -6741,7 +6832,10 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "notitia-dignitatum",
+        "breviario-de-eutropio"
+      ],
       "wikipedia": {
         "es": "Costa sajona",
         "en": "Saxon Shore"
@@ -6762,7 +6856,11 @@
         "caledonia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "agricola-tacito",
+        "the-frontiers-of-imperial-rome",
+        "rome-s-first-frontier"
+      ],
       "wikipedia": {
         "es": "Gask Ridge",
         "en": "Gask Ridge"

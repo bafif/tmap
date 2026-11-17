@@ -2298,6 +2298,109 @@
         "en": "Vasconic substrate hypothesis"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "prehistoric-europe-cunliffe",
+      "titulo": "Europa prehistórica: una historia ilustrada",
+      "titulo_original": "The Oxford Illustrated Prehistory of Europe",
+      "autor": "Barry Cunliffe",
+      "autor_id": "barry-cunliffe",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.255,
+        "lat": 51.755
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "bohemia",
+          "hungria",
+          "polonia",
+          "escandinavia",
+          "francia",
+          "italia",
+          "galia-cisalpina"
+        ],
+        "desde": -7000,
+        "hasta": 700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la prehistoria de Europa desde los cazadores del paleolítico hasta la Edad del Bronce, en capítulos por período y región escritos por varios especialistas bajo la dirección de Barry Cunliffe. Trata las culturas neolíticas y calcolíticas del centro, norte y oeste del continente y las terramaras de Italia. Salió en 1994 con ese título y se reeditó en 1998 como Prehistoric Europe: An Illustrated History.",
+      "por_que_importa": "Es una exposición de conjunto de las culturas de la Europa prehistórica.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "europe-in-the-neolithic",
+      "titulo": "Europa en el Neolítico: la creación de mundos nuevos",
+      "titulo_original": "Europe in the Neolithic: The Creation of New Worlds",
+      "autor": "Alasdair Whittle",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "bohemia",
+          "hungria",
+          "polonia",
+          "escandinavia",
+          "francia"
+        ],
+        "desde": -7000,
+        "hasta": -2500
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del Neolítico europeo desde su llegada hasta los cambios de los milenios IV y III a. C. Discute la cultura de Lengyel, la de los vasos de embudo, la de Chassey y las culturas posteriores del Neolítico tardío.",
+      "por_que_importa": "Es una síntesis de referencia del Neolítico europeo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "european-societies-in-the-bronze-age",
+      "titulo": "Las sociedades europeas de la Edad del Bronce",
+      "titulo_original": "European Societies in the Bronze Age",
+      "autor": "Anthony Harding",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "galia-cisalpina",
+          "alemania",
+          "bohemia",
+          "hungria"
+        ],
+        "desde": -2300,
+        "hasta": -800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Síntesis de la Edad del Bronce europea, de las culturas del Danubio a las de Italia y el norte. Trata los poblados de la cultura de las terramaras de la llanura del Po, con sus recintos en terraplén y su economía.",
+      "por_que_importa": "Es una exposición de referencia de las sociedades de la Edad del Bronce.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -2856,7 +2959,8 @@
         "iron-age-communities-in-britain",
         "the-ancient-celts-cunliffe",
         "facing-the-ocean",
-        "extraordinary-voyage-of-pytheas"
+        "extraordinary-voyage-of-pytheas",
+        "prehistoric-europe-cunliffe"
       ],
       "wikipedia": {
         "es": "Barry Cunliffe",
@@ -4340,7 +4444,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe",
+        "europe-in-the-neolithic"
+      ],
       "wikipedia": {
         "en": "Chasséen culture"
       }
@@ -4383,7 +4490,9 @@
         "bohemia",
         "hungria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe"
+      ],
       "wikipedia": {
         "es": "Cultura de Baden",
         "en": "Baden culture"
@@ -4404,7 +4513,10 @@
         "hungria",
         "bohemia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe",
+        "europe-in-the-neolithic"
+      ],
       "wikipedia": {
         "es": "Cultura de Lengyel",
         "en": "Lengyel culture"
@@ -4424,7 +4536,10 @@
         "polonia",
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe",
+        "europe-in-the-neolithic"
+      ],
       "wikipedia": {
         "es": "Cultura de los vasos de embudo",
         "en": "Funnelbeaker culture"
@@ -4444,7 +4559,9 @@
         "polonia",
         "bohemia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe"
+      ],
       "wikipedia": {
         "es": "Cultura de las ánforas globulares",
         "en": "Globular Amphora culture"
@@ -4463,7 +4580,10 @@
         "italia",
         "galia-cisalpina"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prehistoric-europe-cunliffe",
+        "european-societies-in-the-bronze-age"
+      ],
       "wikipedia": {
         "es": "Cultura de las Terramaras",
         "en": "Terramare culture"

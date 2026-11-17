@@ -8712,6 +8712,1212 @@
         "en": "Homeric Hymns"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "archaic-bookkeeping",
+      "titulo": "Teneduría arcaica: escritura temprana y técnicas de administración en el antiguo Oriente Próximo",
+      "titulo_original": "Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East",
+      "autor": "Hans J. Nissen, Peter Damerow y Robert K. Englund",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.6,
+        "lat": 41.79
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -3500,
+        "hasta": -3000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las tablillas arcaicas de Uruk IV y III, con signos numéricos y pictográficos, del final del IV milenio a. C. Muestra que los primeros textos son registros administrativos y que la escritura nació de la contabilidad. La edición inglesa de 1993 es una traducción ampliada de Frühe Schrift und Techniken der Wirtschaftsverwaltung im alten Vorderen Orient (Berlín, 1990).",
+      "por_que_importa": "Es el estudio de referencia de los orígenes de la escritura en Mesopotamia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "dark-age-of-greece",
+      "titulo": "La Edad Oscura de Grecia",
+      "titulo_original": "The Dark Age of Greece",
+      "autor": "Anthony Snodgrass",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Edimburgo",
+        "lon": -3.189,
+        "lat": 55.953
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -1100,
+        "hasta": -700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio arqueológico de Grecia desde el fin de los palacios micénicos hasta el siglo VIII a. C. Sostiene que la población disminuyó, el comercio se redujo y las comunidades se aislaron, y fija la cronología de la cerámica geométrica.",
+      "por_que_importa": "Es el estudio arqueológico de referencia del período.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-world-of-odysseus",
+      "titulo": "El mundo de Odiseo",
+      "titulo_original": "The World of Odysseus",
+      "autor": "Moses I. Finley",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1954,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -1000,
+        "hasta": -800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la sociedad que describen los poemas homéricos, que para Finley refleja los siglos X y IX a. C., después de los palacios micénicos y antes de la ciudad-estado. Trata la economía, el parentesco y la guerra de esa sociedad.",
+      "por_que_importa": "Es un clásico sobre la sociedad de los llamados siglos oscuros.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-la-caida-de-ninive",
+      "titulo": "Crónica de la caída de Nínive",
+      "titulo_original": "Fall of Nineveh Chronicle (ABC 3)",
+      "autor": "Escribas babilonios",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -605,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -616,
+        "hasta": -609
+      },
+      "idioma_original": "Acadio",
+      "soporte": "Crónica",
+      "resumen": "Tablilla babilónica que cuenta, año por año, la guerra de Nabopolasar de Babilonia y los medos contra el imperio asirio entre 616 y 609 a. C. Registra la toma y el saqueo de Nínive en 612 a. C.",
+      "por_que_importa": "Es el relato contemporáneo más directo de la caída de Nínive.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónicas mesopotámicas",
+        "en": "Babylonian Chronicles"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-nabonido",
+      "titulo": "Crónica de Nabonido",
+      "titulo_original": "Nabonidus Chronicle (ABC 7)",
+      "autor": "Escribas babilonios",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": -540,
+        "aprox": true,
+        "lugar": "Babilonia",
+        "lon": 44.421,
+        "lat": 32.536
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": -556,
+        "hasta": -539
+      },
+      "idioma_original": "Acadio",
+      "soporte": "Crónica",
+      "resumen": "Tablilla babilónica que registra año por año el reinado de Nabonido hasta la entrada de Ciro en Babilonia en 539 a. C. Cuenta que Ciro derrotó al rey medo Astiages y tomó Ecbatana, hacia 550 a. C.",
+      "por_que_importa": "Es la fuente contemporánea de la caída de los medos ante Ciro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de Nabonido",
+        "en": "Nabonidus Chronicle"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "mahavamsa",
+      "titulo": "Mahāvaṃsa",
+      "titulo_original": "Mahāvaṃsa",
+      "autor": "Mahanama",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 500,
+        "aprox": true,
+        "lugar": "Anuradhapura",
+        "lon": 80.411,
+        "lat": 8.335
+      },
+      "trata": {
+        "regiones": [
+          "sri-lanka",
+          "india"
+        ],
+        "desde": -543,
+        "hasta": 304
+      },
+      "idioma_original": "Pali",
+      "soporte": "Crónica",
+      "resumen": "Crónica en pali de la isla de Sri Lanka, atribuida a Mahanama hacia el siglo V d. C., que sigue la dinastía de Magadha junto a la historia de la isla: los reyes Bimbisara, Ajatashatru, Udayin y sus sucesores, hasta los Nanda.",
+      "por_que_importa": "Es una fuente tradicional sobre la sucesión de dinastías de Magadha.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Mahavansha",
+        "en": "Mahāvaṃsa"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "early-india-thapar",
+      "titulo": "India antigua: de los orígenes a 1300 d. C.",
+      "titulo_original": "Early India: From the Origins to AD 1300",
+      "autor": "Romila Thapar",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -600,
+        "hasta": 1300
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de India desde la prehistoria hasta el siglo XIII, con los reinos de Magadha, la presencia griega y los kushanas, los Gupta y los sultanatos. Incluye su relación con las fuentes literarias y epigráficas.",
+      "por_que_importa": "Es una historia de referencia del período.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "sobre-la-corona",
+      "titulo": "Sobre la corona",
+      "titulo_original": "Περὶ τοῦ στεφάνου",
+      "autor": "Demóstenes",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": -330,
+        "aprox": false,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": -346,
+        "hasta": -330
+      },
+      "idioma_original": "Griego",
+      "soporte": "Discurso",
+      "resumen": "Discurso de Demóstenes pronunciado en 330 a. C. en defensa de Ctesifonte, que había propuesto coronarlo. Rememora su política contra Filipo de Macedonia y la guerra que acabó en la derrota de Atenas y Tebas en Queronea en 338.",
+      "por_que_importa": "Es el relato de un protagonista de la política ateniense antes y después de Queronea.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sobre la Corona",
+        "en": "On the Crown"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "milindapanha",
+      "titulo": "Preguntas de Milinda",
+      "titulo_original": "Milindapañha",
+      "autor": "Anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "filosofia",
+      "escrita": {
+        "anio": -100,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": -155,
+        "hasta": -130
+      },
+      "idioma_original": "Pali",
+      "soporte": "Diálogo",
+      "resumen": "Diálogo budista en pali entre el rey indogriego Menandro I (Milinda) y el monje Nagasena. Es una de las pocas fuentes indias que nombran al rey, de quien se conservan además monedas.",
+      "por_que_importa": "Es la fuente india principal sobre Menandro.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Milinda-pañja",
+        "en": "Milinda Panha"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cartas-de-plinio-el-joven",
+      "titulo": "Cartas",
+      "titulo_original": "Epistulae",
+      "autor": "Plinio el Joven",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 107,
+        "aprox": true,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 79,
+        "hasta": 79
+      },
+      "idioma_original": "Latín",
+      "soporte": "Cartas",
+      "resumen": "Colección de cartas de Plinio el Joven. Dos de ellas, a Tácito (VI, 16 y 20), cuentan la erupción del Vesubio del 24 de agosto de 79, que vio desde Miseno, y la muerte de su tío Plinio el Viejo.",
+      "por_que_importa": "Es el único relato de testigo de la erupción.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Plinio el Joven",
+        "en": "Pliny the Younger"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "libro-de-han-posterior",
+      "titulo": "Libro de Han Posterior",
+      "titulo_original": "後漢書 (Hou Hanshu)",
+      "autor": "Fan Ye",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 432,
+        "anio_hasta": 445,
+        "aprox": false,
+        "lugar": "Xuancheng",
+        "lon": 118.752,
+        "lat": 30.948
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 25,
+        "hasta": 220
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Crónica",
+      "resumen": "Historia oficial de la dinastía Han Posterior, compilada por Fan Ye en el siglo V. Su biografía de Cai Lun, eunuco de la corte, cuenta que en 105 presentó al emperador un papel hecho de corteza, cáñamo, trapos y redes.",
+      "por_que_importa": "Es la fuente china que fecha la invención del papel en 105.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Libro de Han Posterior",
+        "en": "Book of the Later Han"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "inscripcion-de-rabatak",
+      "titulo": "Inscripción de Rabatak",
+      "titulo_original": "Rabatak inscription",
+      "autor": "Kanishka",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 127,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "afganistan"
+        ],
+        "desde": 100,
+        "hasta": 150
+      },
+      "idioma_original": "Bactriano",
+      "soporte": "Inscripción",
+      "resumen": "Inscripción en bactriano de un santuario en Rabatak, en Afganistán, en que Kanishka cuenta su ascenso y los territorios que conquistó en India. Menciona el primer año de su era y las ciudades de su dominio.",
+      "por_que_importa": "Es el texto de primera mano del reinado de Kanishka.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Inscripción de Rabatak",
+        "en": "Rabatak inscription"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "registros-de-los-tres-reinos",
+      "titulo": "Registros de los Tres Reinos",
+      "titulo_original": "三國志 (Sanguozhi)",
+      "autor": "Chen Shou",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 280,
+        "anio_hasta": 297,
+        "aprox": false,
+        "lugar": "Luoyang",
+        "lon": 112.45,
+        "lat": 34.62
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 184,
+        "hasta": 280
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Crónica",
+      "resumen": "Historia de los reinos de Wei, Shu y Wu escrita por Chen Shou poco después de 280. Incluye el libro de Wu, con la vida de Sun Quan y el reino de Wu desde su fundación hasta su fin.",
+      "por_que_importa": "Es la historia principal de los Tres Reinos.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Registros de los Tres Reinos",
+        "en": "Records of the Three Kingdoms"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "libro-de-jin",
+      "titulo": "Libro de Jin",
+      "titulo_original": "晉書 (Jinshu)",
+      "autor": "Fang Xuanling",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 648,
+        "aprox": true,
+        "lugar": "Chang'an",
+        "lon": 108.94,
+        "lat": 34.27
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 265,
+        "hasta": 420
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Crónica",
+      "resumen": "Historia oficial de la dinastía Jin compilada en el siglo VII bajo Fang Xuanling. Cuenta la conquista del reino de Wu en 280 por Jin y, en la biografía de Fu Jian, la batalla del río Fei de 383.",
+      "por_que_importa": "Es la historia oficial de la conquista de Wu y de Fei.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Libro de Jin",
+        "en": "Book of Jin"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "breviario-de-eutropio",
+      "titulo": "Breviario de la historia romana",
+      "titulo_original": "Breviarium ab urbe condita",
+      "autor": "Eutropio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 369,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "britania",
+          "anatolia"
+        ],
+        "desde": -753,
+        "hasta": 364
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Compendio de la historia romana de la fundación de Roma hasta Joviano, escrito hacia 369 por Eutropio para el emperador Valente. Cuenta el ascenso de Diocleciano en 284 y la rebelión de Carausio contra el imperio en Britania.",
+      "por_que_importa": "Es un resumen temprano que se usó mucho como manual.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Eutropio (historiador)",
+        "en": "Eutropius (historian)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "liber-de-caesaribus",
+      "titulo": "Libro de los Césares",
+      "titulo_original": "Liber de Caesaribus",
+      "autor": "Aurelio Víctor",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 361,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "anatolia"
+        ],
+        "desde": -31,
+        "hasta": 360
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Historia breve de los emperadores desde Augusto hasta 360 escrita por Aurelio Víctor. En el capítulo dedicado a Diocleciano describe su corte de tono oriental: según el texto, se dejó llamar señor (dominus) en público y adorar como un dios.",
+      "por_que_importa": "Es una fuente antigua sobre el cambio de estilo del poder imperial.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Aurelio Víctor",
+        "en": "Aurelius Victor"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "prasasti-de-allahabad",
+      "titulo": "Inscripción del pilar de Allahabad",
+      "titulo_original": "Prayaga Prashasti",
+      "autor": "Harishena",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 375,
+        "aprox": true,
+        "lugar": "Kausambi",
+        "lon": 81.39,
+        "lat": 25.53
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": 320,
+        "hasta": 380
+      },
+      "idioma_original": "Sánscrito",
+      "soporte": "Inscripción",
+      "resumen": "Elogio en sánscrito grabado en un pilar de Ashoka, compuesto por el cortesano Harishena para Samudragupta, que cuenta sus conquistas y los reyes de su dinastía. Es el documento principal de los primeros Gupta.",
+      "por_que_importa": "Es la fuente de primera mano de los comienzos del imperio Gupta.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Allahabad Pillar"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "credo-y-canones-de-nicea",
+      "titulo": "Credo y cánones del Concilio de Nicea",
+      "titulo_original": "Σύμβολον καὶ κανόνες τῆς Νικαίας",
+      "autor": "Primer concilio ecuménico",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 325,
+        "aprox": false,
+        "lugar": "Nicea",
+        "lon": 29.719,
+        "lat": 40.429
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 325,
+        "hasta": 325
+      },
+      "idioma_original": "Griego",
+      "soporte": "Decreto",
+      "resumen": "Credo y veinte cánones del concilio convocado por Constantino en Nicea en 325. El credo condena la doctrina de Arrio al declarar al Hijo «de la misma sustancia» que el Padre, y los cánones fijan la disciplina del clero.",
+      "por_que_importa": "Es el texto mismo del primer concilio ecuménico.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Concilio de Nicea I",
+        "en": "First Council of Nicaea"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-eclesiastica-de-socrates",
+      "titulo": "Historia eclesiástica",
+      "titulo_original": "Ἐκκλησιαστικὴ ἱστορία",
+      "autor": "Sócrates de Constantinopla",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 439,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "egipto"
+        ],
+        "desde": 305,
+        "hasta": 439
+      },
+      "idioma_original": "Griego",
+      "soporte": "Crónica",
+      "resumen": "Historia de la Iglesia en siete libros de Sócrates de Constantinopla, abogado, que continúa la de Eusebio de 305 a 439. Cuenta los concilios de Nicea (325) y de Constantinopla (381), y el asesinato de Hipatia en Alejandría en 415.",
+      "por_que_importa": "Es la fuente más antigua de la muerte de Hipatia, escrita en la generación siguiente.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sócrates de Constantinopla",
+        "en": "Socrates of Constantinople"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "canones-del-concilio-de-constantinopla-i",
+      "titulo": "Credo y cánones del Concilio de Constantinopla I",
+      "titulo_original": "Σύμβολον καὶ κανόνες τῆς Κωνσταντινουπόλεως",
+      "autor": "Segundo concilio ecuménico",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 381,
+        "aprox": false,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 381,
+        "hasta": 381
+      },
+      "idioma_original": "Griego",
+      "soporte": "Decreto",
+      "resumen": "Credo y cánones del concilio de 381, convocado por Teodosio I. Condena el arrianismo y confirma el credo de Nicea ampliado con el Espíritu Santo, y fija un rango para el obispo de Constantinopla.",
+      "por_que_importa": "Es el texto mismo del concilio que dio al credo niceno su forma actual.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Concilio de Constantinopla I",
+        "en": "First Council of Constantinople"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "actas-del-concilio-de-efeso",
+      "titulo": "Actas del Concilio de Éfeso",
+      "titulo_original": "Acta Conciliorum Oecumenicorum I",
+      "autor": "Tercer concilio ecuménico",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 431,
+        "aprox": false,
+        "lugar": "Éfeso",
+        "lon": 27.3417,
+        "lat": 37.9411
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 431,
+        "hasta": 431
+      },
+      "idioma_original": "Griego",
+      "soporte": "Acta",
+      "resumen": "Actas del concilio convocado por Teodosio II en 431. Incluyen la deposición de Nestorio, patriarca de Constantinopla, la carta de Cirilo de Alejandría y la proclamación de María como «madre de Dios».",
+      "por_que_importa": "Es el texto mismo del concilio.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Concilio de Éfeso",
+        "en": "Council of Ephesus"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-marcelino-conde",
+      "titulo": "Crónica",
+      "titulo_original": "Chronicon",
+      "autor": "Marcelino Conde",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 534,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "anatolia"
+        ],
+        "desde": 379,
+        "hasta": 534
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica de Marcelino, secretario del futuro Justiniano I, de 379 a 534 con continuación hasta 548. Anota que, con la deposición de Rómulo Augústulo por Odoacro en 476, terminó el imperio romano de Occidente.",
+      "por_que_importa": "Es el primer texto que fecha el fin del imperio en 476.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Conde Marcelino",
+        "en": "Marcellinus Comes"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "zizhi-tongjian",
+      "titulo": "Espejo completo para ayudar en el gobierno",
+      "titulo_original": "資治通鑑 (Zizhi Tongjian)",
+      "autor": "Sima Guang",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1084,
+        "aprox": false,
+        "lugar": "Luoyang",
+        "lon": 112.45,
+        "lat": 34.62
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": -403,
+        "hasta": 959
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Crónica",
+      "resumen": "Historia china en forma de anales de 403 a. C. a 959 d. C., compilada por Sima Guang y un equipo en 1084. Cuenta el final de la dinastía Sui y los comienzos de los Tang bajo Li Yuan en 618.",
+      "por_que_importa": "Es la historia general de referencia del período.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Zizhi Tongjian",
+        "en": "Zizhi Tongjian"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-ataliates",
+      "titulo": "Historia",
+      "titulo_original": "Ἱστορία",
+      "autor": "Miguel Ataliates",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1079,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 1034,
+        "hasta": 1079
+      },
+      "idioma_original": "Griego",
+      "soporte": "Crónica",
+      "resumen": "Historia del juez y funcionario Miguel Ataliates, que cubre de 1034 a 1079 y alcanza el reinado de Nicéforo III. Narra con detalle la campaña de Romano IV Diógenes y la derrota de Manzikert en 1071.",
+      "por_que_importa": "Es el relato bizantino de un contemporáneo que acompañó a Romano IV en la campaña como juez del ejército y fue testigo de Manzikert.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Miguel Ataliates",
+        "en": "Michael Attaleiates"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tabaqat-i-nasiri",
+      "titulo": "Tabaqat-i Nasiri",
+      "titulo_original": "طبقات ناصری",
+      "autor": "Minhaj-i Siraj",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1260,
+        "aprox": true,
+        "lugar": "Delhi",
+        "lon": 77.217,
+        "lat": 28.667
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "persia",
+          "afganistan"
+        ],
+        "desde": 1000,
+        "hasta": 1260
+      },
+      "idioma_original": "Persa",
+      "soporte": "Crónica",
+      "resumen": "Historia general del islam hasta 1260 con una larga sección sobre los reyes túrquicos y afganos de India. Cuenta la fundación del sultanato de Delhi por Qutb ud-Din Aibak en 1206.",
+      "por_que_importa": "Es la fuente contemporánea principal del primer sultanato de Delhi.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Tabaqat-i Nasiri"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tarikh-i-firishta",
+      "titulo": "Tarikh-i Firishta",
+      "titulo_original": "تاریخ فرشتہ",
+      "autor": "Firishta",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1612,
+        "aprox": true,
+        "lugar": "Bijapur",
+        "lon": 75.715,
+        "lat": 16.824
+      },
+      "trata": {
+        "regiones": [
+          "india",
+          "sur-de-la-india"
+        ],
+        "desde": 1000,
+        "hasta": 1612
+      },
+      "idioma_original": "Persa",
+      "soporte": "Crónica",
+      "resumen": "Historia de los reinos musulmanes de India hasta 1612 escrita por Firishta, que vivió en la corte de Bijapur. Trata en detalle los sultanatos bahmaníes y sus sucesores del Decán, Ahmadnagar, Bijapur, Golconda y otros.",
+      "por_que_importa": "Es la historia principal de los sultanatos del Decán, por un autor de uno de ellos.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Firishta"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "ming-shilu",
+      "titulo": "Registros veraces del emperador Shizong (Jiajing)",
+      "titulo_original": "明世宗實錄 (Shizong shilu)",
+      "autor": "Burocracia de la corte Ming",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1567,
+        "anio_hasta": 1577,
+        "aprox": false,
+        "lugar": "Pekín",
+        "lon": 116.408,
+        "lat": 39.904
+      },
+      "trata": {
+        "regiones": [
+          "china"
+        ],
+        "desde": 1521,
+        "hasta": 1566
+      },
+      "idioma_original": "Chino clásico",
+      "soporte": "Crónica",
+      "resumen": "Crónica oficial del reinado del emperador Shizong (Jiajing, 1521-1566), compilada después de su muerte, entre 1567 y 1577, como todos los registros veraces Ming. Incluye el informe del terremoto de Shaanxi de 1556 y de los daños en los condados de la zona.",
+      "por_que_importa": "Es la fuente oficial sobre los desastres de la dinastía.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Ming Veritable Records"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "siyar-al-mutaqherin",
+      "titulo": "Siyar al-Mutaqherin",
+      "titulo_original": "سیر المتأخرین",
+      "autor": "Ghulam Husain Khan",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "Calcuta"
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": 1707,
+        "hasta": 1781
+      },
+      "idioma_original": "Persa",
+      "soporte": "Crónica",
+      "resumen": "Historia de la India del siglo XVIII escrita por Ghulam Husain Khan Tabatabai, que sirvió en la corte de Bengala. Cuenta la batalla de Plassey de 1757, la traición de Mir Jafar y el ascenso inglés en Bengala.",
+      "por_que_importa": "Es el relato indio más conocido de Plassey.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-militar-de-orme",
+      "titulo": "Historia de las operaciones militares de la nación británica en el Indostán",
+      "titulo_original": "A History of the Military Transactions of the British Nation in Indostan",
+      "autor": "Robert Orme",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1763,
+        "anio_hasta": 1778,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "india"
+        ],
+        "desde": 1745,
+        "hasta": 1761
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de las campañas de la Compañía de las Indias Orientales de 1745 a 1761, escrita por un oficial de la compañía en Madrás. Los dos volúmenes, de 1763 y 1778, cuentan la batalla de Plassey y el papel de Robert Clive.",
+      "por_que_importa": "Es el relato inglés contemporáneo de Plassey.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-mejico-de-alaman",
+      "titulo": "Historia de Méjico",
+      "titulo_original": "Historia de Méjico desde los primeros movimientos que prepararon su independencia en el año de 1808 hasta la época presente",
+      "autor": "Lucas Alamán",
+      "autor_id": "lucas-alaman",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1849,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1808,
+        "hasta": 1832
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la independencia mexicana en cinco volúmenes, de un autor que vivió los hechos y fue conservador. Cuenta el levantamiento de Hidalgo de septiembre de 1810 desde Dolores y sus críticas a la insurgencia.",
+      "por_que_importa": "Es la historia clásica de la independencia desde el punto de vista conservador.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-kolokotronis",
+      "titulo": "Memorias",
+      "titulo_original": "Διήγησις συμβάντων τῆς ἑλληνικῆς φυλῆς",
+      "autor": "Teodoro Kolokotronis",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1836,
+        "anio_hasta": 1843,
+        "aprox": true,
+        "lugar": "Atenas",
+        "lon": 23.7275,
+        "lat": 37.9838
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": 1770,
+        "hasta": 1836
+      },
+      "idioma_original": "Griego",
+      "soporte": "Memorias",
+      "resumen": "Memorias dictadas por Teodoro Kolokotronis a Georgios Tertsetis en sus últimos años (murió en 1843) y publicadas en 1846. Cuentan sus campañas en el Peloponeso desde 1821 y la guerra civil entre griegos.",
+      "por_que_importa": "Es el testimonio de uno de los jefes militares de la guerra.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Theodoros Kolokotronis",
+        "en": "Theodoros Kolokotronis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "declaracion-de-independencia-de-grecia",
+      "titulo": "Declaración de Independencia de Grecia",
+      "titulo_original": "Διακήρυξις τῆς Ἀνεξαρτησίας",
+      "autor": "Primera Asamblea Nacional de Epidauro",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1822,
+        "aprox": false,
+        "lugar": "Nea Epidavros (Piada)",
+        "lon": 23.129,
+        "lat": 37.677
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": 1822,
+        "hasta": 1822
+      },
+      "idioma_original": "Griego",
+      "soporte": "Decreto",
+      "resumen": "Proclamación del 27 de enero de 1822 de la Primera Asamblea Nacional en Epidauro, que declara la independencia de Grecia del imperio otomano y adopta la primera constitución griega.",
+      "por_que_importa": "Es el acto fundacional de la Grecia moderna.",
+      "leer": [],
+      "wikipedia": {
+        "en": "First National Assembly at Epidaurus"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "capitulacion-de-ayacucho",
+      "titulo": "Capitulación de Ayacucho",
+      "titulo_original": "Capitulación de Ayacucho",
+      "autor": "Antonio José de Sucre y José de Canterac",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1824,
+        "aprox": false,
+        "lugar": "Quinua",
+        "lon": -74.139,
+        "lat": -13.049
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1824,
+        "hasta": 1824
+      },
+      "idioma_original": "Español",
+      "soporte": "Tratado",
+      "resumen": "Pacto del 9 de diciembre de 1824 entre Sucre y Canterac, que puso fin a la batalla de Ayacucho: el ejército realista entregó el territorio del Perú y sus armas.",
+      "por_que_importa": "Es el documento de rendición realista tras Ayacucho.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "nutuk",
+      "titulo": "Nutuk (Discurso)",
+      "titulo_original": "Nutuk",
+      "autor": "Mustafa Kemal Atatürk",
+      "autor_id": "ataturk",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "Ankara",
+        "lon": 32.839,
+        "lat": 39.936
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 1919,
+        "hasta": 1927
+      },
+      "idioma_original": "Turco",
+      "soporte": "Discurso",
+      "resumen": "Discurso de seis días que Mustafá Kemal Atatürk pronunció en octubre de 1927 ante el Partido Republicano del Pueblo. Cuenta la guerra de independencia, el fin del sultanato y la proclamación de la República el 29 de octubre de 1923.",
+      "por_que_importa": "Es la versión del fundador de la república sobre sus orígenes.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Nutuk"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "ancient-teotihuacan",
+      "titulo": "Teotihuacan antigua: urbanismo temprano en el centro de México",
+      "titulo_original": "Ancient Teotihuacan: Early Urbanism in Central Mexico",
+      "autor": "George L. Cowgill",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 100,
+        "hasta": 650
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Síntesis de la arqueología de Teotihuacan, desde la fundación de la ciudad hasta su ocaso hacia 550-650. Trata su planificación, su población, su economía y sus relaciones con otras regiones de Mesoamérica en el período de mayor extensión.",
+      "por_que_importa": "Es una exposición reciente de referencia sobre la ciudad.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru",
+      "titulo": "Memorias para la historia de las armas españolas en el Perú",
+      "titulo_original": "Memorias para la historia de las armas españolas en el Perú",
+      "autor": "Andrés García Camba",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1846,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "andes"
+        ],
+        "desde": 1809,
+        "hasta": 1825
+      },
+      "idioma_original": "Castellano",
+      "soporte": "Libro",
+      "resumen": "Memorias del oficial realista Andrés García Camba, que sirvió en el ejército español del Perú. Narran la guerra desde 1809 hasta la capitulación de 1824, incluida la batalla de Ayacucho, desde el bando derrotado.",
+      "por_que_importa": "Es un testimonio de un participante del bando realista sobre Ayacucho.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "memorias-del-general-miller",
+      "titulo": "Memorias del general Miller",
+      "titulo_original": "Memoirs of General Miller, in the Service of the Republic of Peru",
+      "autor": "William Miller",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1828,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "chile"
+        ],
+        "desde": 1817,
+        "hasta": 1826
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Memorias del general británico William Miller, que combatió por la independencia en Chile y el Perú, publicadas en Londres por su hermano John Miller. Cuentan la campaña de 1824 y la batalla de Ayacucho, desde el bando independentista.",
+      "por_que_importa": "Es un testimonio de un participante del bando independentista sobre Ayacucho.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-new-chronology-of-iron-age-gordion",
+      "titulo": "La nueva cronología de Gordion en la Edad del Hierro",
+      "titulo_original": "The New Chronology of Iron Age Gordion",
+      "autor": "C. Brian Rose y Gareth Darbyshire (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": -900,
+        "hasta": -600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Volumen colectivo del Museo de la Universidad de Pensilvania que revisa la cronología de Gordion, la capital frigia. Sitúa la destrucción de la ciudadela hacia el 800 a. C., mucho antes de la fecha de la tradición, en torno al 695 a. C., que la atribuía a los cimerios.",
+      "por_que_importa": "Es el estudio que cambia la fecha de la destrucción de Gordion y obliga a revisar la tradición sobre Midas.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -8961,7 +10167,9 @@
         "estadista"
       ],
       "resumen": "Líder militar de la guerra de independencia turca y primer presidente de la República de Turquía (1923-1938), que impulsó reformas laicas y la adopción del alfabeto latino.",
-      "obras": [],
+      "obras": [
+        "nutuk"
+      ],
       "wikipedia": {
         "es": "Mustafa Kemal Atatürk",
         "en": "Mustafa Kemal Atatürk"
@@ -10873,7 +12081,9 @@
       "regiones": [
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archaic-bookkeeping"
+      ],
       "wikipedia": {
         "es": "Escritura cuneiforme",
         "en": "Cuneiform"
@@ -10915,7 +12125,9 @@
       "regiones": [
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-la-caida-de-ninive"
+      ],
       "wikipedia": {
         "es": "Batalla de Nínive (612 a. C.)",
         "en": "Battle of Nineveh (612 BC)"
@@ -10958,7 +12170,10 @@
         "levante",
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tanaj",
+        "cartas-de-laquis"
+      ],
       "wikipedia": {
         "es": "Asedio de Jerusalén (587 a. C.)",
         "en": "Siege of Jerusalem (587 BC)"
@@ -11119,7 +12334,11 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "credo-y-canones-de-nicea",
+        "vida-de-constantino",
+        "historia-eclesiastica-de-socrates"
+      ],
       "wikipedia": {
         "es": "Primer Concilio de Nicea",
         "en": "First Council of Nicaea"
@@ -11139,7 +12358,11 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronografia",
+        "historia-de-ataliates",
+        "historia-completa"
+      ],
       "wikipedia": {
         "es": "Batalla de Manzikert",
         "en": "Battle of Manzikert"
@@ -11159,7 +12382,10 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "texto-del-tratado-de-lausana",
+        "nutuk"
+      ],
       "wikipedia": {
         "es": "Historia de Turquía",
         "en": "Republic of Turkey"
@@ -11247,7 +12473,10 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sobre-la-corona",
+        "vidas-paralelas"
+      ],
       "wikipedia": {
         "en": "Battle of Chaeronea (338 BC)"
       }
@@ -11267,7 +12496,10 @@
         "grecia",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historias-polibio",
+        "descripcion-de-grecia-pausanias"
+      ],
       "wikipedia": {
         "es": "Batalla de Corinto",
         "en": "Battle of Corinth (146 BC)"
@@ -11352,7 +12584,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cartas-de-plinio-el-joven"
+      ],
       "wikipedia": {
         "en": "Eruption of Mount Vesuvius in 79 CE"
       }
@@ -11371,7 +12605,11 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-marcelino-conde",
+        "getica",
+        "decadencia-y-caida"
+      ],
       "wikipedia": {
         "es": "Rómulo Augústulo",
         "en": "Romulus Augustulus"
@@ -11391,7 +12629,10 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-nabonido",
+        "historias-herodoto"
+      ],
       "wikipedia": {
         "es": "Imperio aqueménida",
         "en": "Achaemenid Empire"
@@ -11455,7 +12696,10 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-al-tabari",
+        "conquistas-de-los-paises"
+      ],
       "wikipedia": {
         "es": "Batalla de Nahavand",
         "en": "Battle of Nahavand"
@@ -11475,7 +12719,9 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "iran-bajo-los-safavies"
+      ],
       "wikipedia": {
         "es": "Ismail I",
         "en": "Ismail I"
@@ -11561,7 +12807,9 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "libro-de-han-posterior"
+      ],
       "wikipedia": {
         "es": "Cai Lun",
         "en": "Cai Lun"
@@ -11581,7 +12829,10 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "libro-antiguo-de-tang",
+        "zizhi-tongjian"
+      ],
       "wikipedia": {
         "es": "Dinastía Tang",
         "en": "Tang dynasty"
@@ -11601,7 +12852,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anabasis-de-alejandro-arriano",
+        "vidas-paralelas"
+      ],
       "wikipedia": {
         "es": "Batalla del Hidaspes",
         "en": "Battle of the Hydaspes"
@@ -11643,7 +12897,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "prasasti-de-allahabad",
+        "early-india-thapar"
+      ],
       "wikipedia": {
         "es": "Imperio Gupta",
         "en": "Gupta Empire"
@@ -11663,7 +12920,9 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tabaqat-i-nasiri"
+      ],
       "wikipedia": {
         "es": "Sultanato de Delhi",
         "en": "Delhi Sultanate"
@@ -11683,7 +12942,9 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "baburnama"
+      ],
       "wikipedia": {
         "es": "Primera batalla de Panipat",
         "en": "First Battle of Panipat"
@@ -11803,7 +13064,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-mejico-de-alaman"
+      ],
       "wikipedia": {
         "es": "Grito de Dolores",
         "en": "Grito de Dolores"
@@ -11925,7 +13188,11 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "capitulacion-de-ayacucho",
+        "memorias-para-la-historia-de-las-armas-espanolas-en-el-peru",
+        "memorias-del-general-miller"
+      ],
       "wikipedia": {
         "es": "Batalla de Ayacucho",
         "en": "Battle of Ayacucho"
@@ -12139,7 +13406,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "siyar-al-mutaqherin",
+        "historia-militar-de-orme"
+      ],
       "wikipedia": {
         "es": "Batalla de Plassey",
         "en": "Battle of Plassey"
@@ -12159,7 +13429,10 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-kolokotronis",
+        "declaracion-de-independencia-de-grecia"
+      ],
       "wikipedia": {
         "es": "Guerra de Independencia de Grecia",
         "en": "Greek War of Independence"
@@ -12179,7 +13452,9 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ming-shilu"
+      ],
       "wikipedia": {
         "es": "Terremoto de Shaanxi de 1556",
         "en": "1556 Shaanxi earthquake"
@@ -12245,7 +13520,10 @@
         "galacia",
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-eusebio",
+        "the-new-chronology-of-iron-age-gordion"
+      ],
       "wikipedia": {
         "es": "Gordio",
         "en": "Gordion"
@@ -12287,7 +13565,9 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "registros-de-los-tres-reinos"
+      ],
       "wikipedia": {
         "es": "Wu (reino)",
         "en": "Eastern Wu"
@@ -12307,7 +13587,10 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "canones-del-concilio-de-constantinopla-i",
+        "historia-eclesiastica-de-socrates"
+      ],
       "wikipedia": {
         "es": "Concilio de Constantinopla I",
         "en": "First Council of Constantinople"
@@ -12395,7 +13678,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mahavamsa",
+        "early-india-thapar"
+      ],
       "wikipedia": {
         "es": "Magadha",
         "en": "Magadha"
@@ -12415,7 +13701,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "milindapanha",
+        "early-india-thapar"
+      ],
       "wikipedia": {
         "es": "Menandro I",
         "en": "Menander I"
@@ -12435,7 +13724,10 @@
       "regiones": [
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "inscripcion-de-rabatak",
+        "early-india-thapar"
+      ],
       "wikipedia": {
         "es": "Kanishka",
         "en": "Kanishka"
@@ -12455,7 +13747,10 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "registros-de-los-tres-reinos",
+        "libro-de-jin"
+      ],
       "wikipedia": {
         "en": "Conquest of Wu by Jin"
       }
@@ -12474,7 +13769,9 @@
       "regiones": [
         "china"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "libro-de-jin"
+      ],
       "wikipedia": {
         "es": "Batalla de Fei",
         "en": "Battle of Fei River"
@@ -12583,7 +13880,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ancient-teotihuacan"
+      ],
       "wikipedia": {
         "es": "Teotihuacán",
         "en": "Teotihuacan"
@@ -13195,7 +14494,10 @@
         "anatolia",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "breviario-de-eutropio",
+        "liber-de-caesaribus"
+      ],
       "wikipedia": {
         "es": "Dominado",
         "en": "Dominate"
@@ -13215,7 +14517,9 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "actas-del-concilio-de-efeso"
+      ],
       "wikipedia": {
         "es": "Concilio de Éfeso",
         "en": "Council of Ephesus"
@@ -13236,7 +14540,9 @@
         "sur-de-la-india",
         "india"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tarikh-i-firishta"
+      ],
       "wikipedia": {
         "es": "Sultanatos del Decán",
         "en": "Deccan sultanates"
@@ -13256,7 +14562,10 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dark-age-of-greece",
+        "the-world-of-odysseus"
+      ],
       "wikipedia": {
         "es": "Edad Oscura",
         "en": "Greek Dark Ages"

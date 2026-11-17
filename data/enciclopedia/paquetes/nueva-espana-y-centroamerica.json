@@ -4695,7 +4695,7 @@
         "militar",
         "político"
       ],
-      "resumen": "Hondureño liberal que se destacó en la batalla de La Trinidad (11 de noviembre de 1827), derrocó en abril de 1829 al gobierno de Mariano Beltranena y Mariano Aycinena, tomó Guatemala y apresó a Arce junto con ellos, y gobernó de hecho hasta que asumió Juan Barrundia el 25 de junio. Fue presidente de la República Federal de Centroamérica entre 1830 y 1839, además de jefe de Estado de Honduras y El Salvador. Sus reformas liberales (libertad de prensa, matrimonio civil, separación de la Iglesia y el Estado) provocaron una guerra con los conservadores. En 1829 ordenó la expulsión del arzobispo Ramón Casáus y de frailes de varias órdenes, y su gobierno y el de Mariano Gálvez confiscaron bienes eclesiásticos y abolieron el diezmo. En 1840 su intento de restaurar la federación por las armas, la invasión de Guatemala, fracasó ante Carrera. En 1842 llegó a Costa Rica, obtuvo por el Pacto del Jocote la salida de Braulio Carrillo y se hizo jefe de Estado; un levantamiento contra sus planes de guerra lo derrocó y lo fusilaron en San José el 15 de septiembre.",
+      "resumen": "Hondureño liberal que se destacó en la batalla de La Trinidad (11 de noviembre de 1827), derrocó en abril de 1829 al gobierno de Mariano Beltranena y Mariano Aycinena, tomó Guatemala y apresó a Arce junto con ellos, y gobernó de hecho hasta que el Congreso eligió presidente interino a José Francisco Barrundia, el 25 de junio. Fue presidente de la República Federal de Centroamérica entre 1830 y 1839, además de jefe de Estado de Honduras y El Salvador. Sus reformas liberales (libertad de prensa, matrimonio civil, separación de la Iglesia y el Estado) provocaron una guerra con los conservadores. En 1829 ordenó la expulsión del arzobispo Ramón Casáus y de frailes de varias órdenes, y su gobierno y el de Mariano Gálvez confiscaron bienes eclesiásticos y abolieron el diezmo. En 1840 su intento de restaurar la federación por las armas, la invasión de Guatemala, fracasó ante Carrera. En 1842 llegó a Costa Rica, obtuvo por el Pacto del Jocote la salida de Braulio Carrillo y se hizo jefe de Estado; un levantamiento contra sus planes de guerra lo derrocó y lo fusilaron en San José el 15 de septiembre.",
       "obras": [],
       "wikipedia": {
         "es": "Francisco Morazán",
@@ -5172,12 +5172,1730 @@
         "naturalista"
       ],
       "resumen": "Naturalista, empresario y político de Guanajuato. Presenció en 1810 el saqueo de la Alhóndiga de Granaditas por las tropas de Hidalgo, que marcó su pensamiento conservador. En 1820-1821 fue diputado de la Nueva España ante las Cortes españolas, en Madrid, mientras avanzaba el Plan de Iguala. Su Historia de Méjico (cinco tomos, 1849-1852) es la principal historia conservadora de la guerra de 1808-1821 y el contrapeso de las fuentes insurgentes. Después fue ministro de Relaciones Exteriores y figura del partido conservador; murió en 1853.",
-      "obras": [],
+      "obras": [
+        "historia-de-mejico-de-alaman"
+      ],
       "wikipedia": {
         "es": "Lucas Alamán",
         "en": "Lucas Alamán"
       },
       "wikidata": "Q507298"
+    },
+    {
+      "id": "francisco-de-ceinos",
+      "nombre": "Francisco de Ceinos",
+      "muerte": {
+        "anio": 1568,
+        "aprox": true,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1564,
+        "hasta": 1568,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Jurista de Toro, fiscal del Consejo de Indias y oidor de la segunda Audiencia de México desde 1530; volvió a la Nueva España en 1560. Presidió la Audiencia, que gobernó entre la muerte del virrey Luis de Velasco (1564) y la llegada del marqués de Falces (1566), y de nuevo entre julio y noviembre de 1568. En 1565 escribió a Felipe II un memorial sobre la política de poblamiento que denunciaba la mortandad indígena desde la conquista; murió en la capital entre 1568 y 1569.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco de Ceinos",
+        "en": "Francisco Ceinos"
+      },
+      "wikidata": "Q1627573"
+    },
+    {
+      "id": "gaston-de-peralta",
+      "nombre": "Gastón de Peralta, marqués de Falces",
+      "nacimiento": {
+        "anio": 1510,
+        "aprox": true,
+        "lugar": "Pau",
+        "lon": -0.37,
+        "lat": 43.301
+      },
+      "muerte": {
+        "anio": 1587,
+        "aprox": false,
+        "lugar": "Valladolid",
+        "lon": -4.729,
+        "lat": 41.652
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1566,
+        "hasta": 1568,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Navarro nacido en Pau, tercer virrey de la Nueva España (1566-1568). Llegó cuando se juzgaba la conjura de Martín Cortés, marqués del Valle: suspendió la ejecución de Luis Cortés y fue acusado por los oidores de proteger a los conjurados. Felipe II envió visitadores que lo mandaron de regreso a España, donde lo residenciaron y lo absolvieron. Su ordenanza de 1567 protegía un área alrededor de las tierras indígenas, antecedente del fundo legal.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Gastón de Peralta",
+        "en": "Gastón de Peralta, 3rd Marquess of Falces"
+      },
+      "wikidata": "Q2378655"
+    },
+    {
+      "id": "luis-carrillo",
+      "nombre": "Luis Carrillo",
+      "muerte": {
+        "anio": 1568,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1567,
+        "hasta": 1568,
+        "aprox": false
+      },
+      "roles": [
+        "visitador",
+        "funcionario"
+      ],
+      "resumen": "Doctor y funcionario de la corte, nombrado por Felipe II en 1567 comisionado con los licenciados Gaspar de Jarava, que murió en el viaje, y Alonso Muñoz, para investigar el gobierno del marqués de Falces tras la conjura de los Cortés. Llegaron a Veracruz el 29 de octubre de 1567, ordenaron la vuelta del virrey a España y procesaron a los acusados con tormentos, sentencias de galeras, confiscaciones y destierros; la Corona los retiró luego por las quejas de los colonos. Murió en 1568 en la travesía de Veracruz a La Habana. Algunas listas de gobernantes lo cuentan entre los virreyes, pero fue visitador: el gobierno quedó a cargo de Muñoz y después de la Audiencia.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Luis Carrillo"
+      },
+      "wikidata": "Q4573998"
+    },
+    {
+      "id": "lorenzo-suarez-de-mendoza",
+      "nombre": "Lorenzo Suárez de Mendoza, conde de la Coruña",
+      "nacimiento": {
+        "anio": 1518,
+        "aprox": true,
+        "lugar": "Guadalajara",
+        "lon": -3.167,
+        "lat": 40.633
+      },
+      "muerte": {
+        "anio": 1583,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1580,
+        "hasta": 1583,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Quinto conde de la Coruña y quinto virrey de la Nueva España (4 de octubre de 1580 a 29 de junio de 1583), sucesor de Martín Enríquez, que pasó al Perú. Para frenar la corrupción de la Audiencia pidió al rey un visitador, que fue Pedro Moya de Contreras, y, según las listas de gobernantes, creó el Consulado, que se fundó en 1592. Murió en la capital en el cargo.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lorenzo Suárez de Mendoza",
+        "en": "Lorenzo Suárez de Mendoza, 5th Count of Coruña"
+      },
+      "wikidata": "Q520009"
+    },
+    {
+      "id": "luis-de-villanueva-y-zapata",
+      "nombre": "Luis de Villanueva y Zapata",
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1583,
+        "hasta": 1584,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Doctor por Salamanca y oidor decano de la Audiencia de México. Al morir el virrey conde de la Coruña, en junio de 1583, gobernó interinamente la Nueva España hasta el 24 de septiembre de 1584, cuando asumió Pedro Moya de Contreras, que ya influía como visitador.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Luis de Villanueva y Zapata"
+      },
+      "wikidata": "Q6701258"
+    },
+    {
+      "id": "alvaro-manrique-de-zuniga",
+      "nombre": "Álvaro Manrique de Zúñiga, marqués de Villamanrique",
+      "nacimiento": {
+        "anio": 1532,
+        "aprox": false,
+        "lugar": "Salamanca"
+      },
+      "muerte": {
+        "anio": 1604,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1585,
+        "hasta": 1590,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Hijo de los duques de Béjar y primer marqués de Villamanrique, virrey de la Nueva España desde 1585 hasta enero de 1590. Formó milicias para defender los puertos del Pacífico tras los ataques del corsario Thomas Cavendish (1587) y suavizó la guerra chichimeca con negociaciones y entrega de bastimentos. Por su choque con la Audiencia de Guadalajara y con el clero regular, el obispo Diego Romano, visitador, lo enjuició y le embargó los bienes. La cédula de 1599 que lo rehabilitó y su testamento de 1601-1602 lo muestran vivo en Sevilla, donde murió el 3 de marzo de 1604; algunas listas de gobernantes lo dan por muerto hacia 1590.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Álvaro Manrique de Zúñiga",
+        "en": "Álvaro Manrique de Zúñiga, 1st Marquess of Villamanrique"
+      },
+      "wikidata": "Q2331740"
+    },
+    {
+      "id": "pedro-de-otalora",
+      "nombre": "Pedro de Otálora",
+      "nacimiento": {
+        "anio": 1570,
+        "aprox": true,
+        "lugar": "Mondragón"
+      },
+      "muerte": {
+        "anio": 1624,
+        "aprox": true,
+        "lugar": "Guadalajara"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1612,
+        "hasta": 1612,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "sacerdote",
+        "gobernante"
+      ],
+      "resumen": "Guipuzcoano, oidor de la Audiencia de México desde 1597 y sacerdote desde 1609. Como presidente de la Audiencia gobernó la Nueva España entre la muerte del virrey García Guerra (22 de febrero de 1612) y la llegada de Diego Fernández de Córdoba (18 de octubre). El 2 de mayo de 1612 presidió el tribunal que condenó a muerte a 35 negros acusados de rebelión; después fue presidente de la Audiencia de Guadalajara.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro de Otálora"
+      },
+      "wikidata": "Q11995048"
+    },
+    {
+      "id": "diego-carrillo-de-mendoza",
+      "nombre": "Diego Carrillo de Mendoza, marqués de Gelves",
+      "nacimiento": {
+        "anio": 1560,
+        "aprox": true,
+        "lugar": "Valladolid",
+        "lon": -4.729,
+        "lat": 41.652
+      },
+      "muerte": {
+        "anio": 1631,
+        "aprox": true,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1621,
+        "hasta": 1624,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Militar vallisoletano, virrey de Aragón y desde el 21 de septiembre de 1621 virrey de la Nueva España. Combatió el bandidaje, repartió grano durante el hambre de 1623 y enfrentó a los comerciantes que monopolizaban el maíz. Su conflicto con el arzobispo Juan Pérez de la Serna terminó en el tumulto del 15 de enero de 1624: el palacio fue incendiado en parte y debió huir; la Corona lo reemplazó por el marqués de Cerralvo. Las fuentes dan su muerte entre 1631 y 1636.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego Carrillo de Mendoza y Pimentel",
+        "en": "Diego Carrillo de Mendoza, 1st Marquess of Gelves"
+      },
+      "wikidata": "Q2346004"
+    },
+    {
+      "id": "lope-diez-de-aux-y-armendariz",
+      "nombre": "Lope Díez de Aux y Armendáriz, marqués de Cadreita",
+      "nacimiento": {
+        "anio": 1575,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1644,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1635,
+        "hasta": 1640,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Marino nacido hacia 1575 en Quito o en Charcas, según la fuente, hijo del presidente de esas audiencias, y primer criollo en gobernar la Nueva España (septiembre de 1635 a agosto de 1640). Fundó la Armada de Barlovento con base en Veracruz y continuó el desagüe del valle de México, con el canal de Nochistongo tras el terremoto de 1637. Lo sucedió en agosto de 1640 el duque de Escalona, con quien llegó Juan de Palafox como visitador para juzgar su gobierno. Murió en Madrid; algunas obras solo dicen que vivía en 1640.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Lope Díez de Aux y Armendáriz",
+        "en": "Lope Díez de Armendáriz, 1st Marquess of Cadreita"
+      },
+      "wikidata": "Q2354841"
+    },
+    {
+      "id": "diego-lopez-pacheco",
+      "nombre": "Diego López Pacheco, duque de Escalona",
+      "nacimiento": {
+        "anio": 1599,
+        "aprox": false,
+        "lugar": "Castillo de Belmonte",
+        "lon": -2.697,
+        "lat": 39.558
+      },
+      "muerte": {
+        "anio": 1653,
+        "aprox": false,
+        "lugar": "Pamplona",
+        "lon": -1.65,
+        "lat": 42.817
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1640,
+        "hasta": 1642,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Duque de Escalona y marqués de Villena, virrey de la Nueva España del 28 de agosto de 1640 al 10 de junio de 1642; llegó con Juan de Palafox, comisionado a juzgar a sus predecesores. Reforzó la Armada de Barlovento y autorizó una expedición jesuita a California. Tras la sublevación de Portugal de 1640, su parentesco con el duque de Braganza, proclamado rey, lo hizo sospechoso de deslealtad, y Palafox lo reemplazó. Palafox lo hizo arrestar y le confiscó los bienes; en España fue declarado inocente, rechazó volver al cargo y fue después virrey de Navarra.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego López Pacheco y Portugal",
+        "en": "Diego López Pacheco, 7th Duke of Escalona"
+      },
+      "wikidata": "Q1220499"
+    },
+    {
+      "id": "marcos-de-torres-y-rueda",
+      "nombre": "Marcos de Torres y Rueda",
+      "nacimiento": {
+        "anio": 1591,
+        "aprox": false,
+        "lugar": "Almazán",
+        "lon": -2.533,
+        "lat": 41.486
+      },
+      "muerte": {
+        "anio": 1649,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1648,
+        "hasta": 1649,
+        "aprox": false
+      },
+      "roles": [
+        "obispo",
+        "virrey"
+      ],
+      "resumen": "Obispo de Yucatán desde 1646, gobernó la Nueva España del 13 de mayo de 1648 al 22 de abril de 1649, con título de gobernador y presidente de la Audiencia, no de virrey, aunque las listas lo cuentan entre los virreyes; murió en la capital; algunas fuentes ponen su nacimiento hacia 1588. El virrey saliente se resistió a entregarle el cargo y hizo falta la intervención de la Corona. En abril de 1649 se celebró el auto de fe del Volador, con 13 ejecutados y 94 o 99 azotados, según la fuente.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Marcos de Torres y Rueda",
+        "en": "Marcos de Torres y Rueda"
+      },
+      "wikidata": "Q2358879"
+    },
+    {
+      "id": "matias-de-peralta",
+      "nombre": "Matías de Peralta",
+      "nacimiento": {
+        "anio": 1581,
+        "aprox": false,
+        "lugar": "Arequipa"
+      },
+      "muerte": {
+        "anio": 1655,
+        "aprox": false,
+        "lugar": "Ciudad de México"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1649,
+        "hasta": 1650,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Jurista nacido en Arequipa, oidor de Quito y desde 1636 de la Audiencia de México. Como oidor decano presidió la Audiencia que gobernó la Nueva España desde la muerte del virrey Torres y Rueda (22 de abril de 1649) hasta la llegada del conde de Alba de Liste (junio de 1650). El visitador Pedro de Gálvez lo suspendió en noviembre de 1650 y otra vez en 1651; murió en relativa pobreza en 1655.",
+      "obras": [],
+      "wikidata": "Q11988738"
+    },
+    {
+      "id": "francisco-fernandez-de-la-cueva-viii-duque-de-alburquerque",
+      "nombre": "Francisco Fernández de la Cueva, VIII duque de Alburquerque",
+      "nacimiento": {
+        "anio": 1619,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "muerte": {
+        "anio": 1676,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1653,
+        "hasta": 1660,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Barcelonés, soldado en Flandes (Rocroi, 1643) y general de la caballería de Cataluña, virrey de la Nueva España del 15 de agosto de 1653 al 15 de septiembre de 1660 y después de Sicilia. Ante la guerra con Inglaterra reforzó Veracruz y San Juan de Ulúa y mandó armas a Jamaica, Cuba y Florida. Apuró las obras de la catedral de México y en 1659 hizo derribar las construcciones que invadían su atrio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Fernández de la Cueva y Enríquez de Cabrera",
+        "en": "Francisco Fernández de la Cueva, 8th Duke of Alburquerque"
+      },
+      "wikidata": "Q2540320"
+    },
+    {
+      "id": "juan-francisco-de-leyva-y-de-la-cerda",
+      "nombre": "Juan Francisco de Leyva y de la Cerda, conde de Baños",
+      "nacimiento": {
+        "anio": 1604,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "muerte": {
+        "anio": 1678,
+        "aprox": false,
+        "lugar": "Pastrana"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1660,
+        "hasta": 1664,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Marino alcalaíno, marqués de la Adrada y conde de Baños, virrey de la Nueva España del 16 de septiembre de 1660 al 28 de junio de 1664. Su gobierno se recuerda por los abusos de su familia, las quejas de la nobleza y los cabildos y una rebelión en Tehuantepec en 1661, en la que medió el obispo de Oaxaca. La Corona lo destituyó por corrupción, le prohibió servir en la corte y terminó sus días como fraile carmelita.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Francisco de Leyva y de la Cerda",
+        "en": "Juan Francisco Leiva y de la Cerda"
+      },
+      "wikidata": "Q2354818"
+    },
+    {
+      "id": "diego-osorio-de-escobar",
+      "nombre": "Diego Osorio de Escobar y Llamas",
+      "nacimiento": {
+        "anio": 1608,
+        "aprox": false,
+        "lugar": "Villabad"
+      },
+      "muerte": {
+        "anio": 1673,
+        "aprox": false,
+        "lugar": "Heroica Puebla de Zaragoza",
+        "lon": -98.218,
+        "lat": 19.051
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1664,
+        "hasta": 1664,
+        "aprox": false
+      },
+      "roles": [
+        "obispo",
+        "virrey"
+      ],
+      "resumen": "Gallego, inquisidor y vicario en Toledo, obispo de Puebla desde 1656 hasta su muerte; rechazó el arzobispado de México en 1663. Fue virrey interino de la Nueva España del 29 de junio al 15 de octubre de 1664, en lugar de Leyva y de la Cerda, y renunció apenas pudo para volver a su diócesis. En esos meses reformó el correo y fundó una fábrica de pólvora.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego Osorio de Escobar",
+        "en": "Diego Osorio de Escobar y Llamas"
+      },
+      "wikidata": "Q261749"
+    },
+    {
+      "id": "antonio-sebastian-de-toledo",
+      "nombre": "Antonio Sebastián de Toledo, marqués de Mancera",
+      "nacimiento": {
+        "anio": 1622,
+        "aprox": true,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1715,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1664,
+        "hasta": 1673,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Hijo del virrey del Perú, fortificó Corral y Valdivia en 1645 y fue embajador en Venecia y Alemania. Virrey de la Nueva España del 15 de octubre de 1664 al 8 de diciembre de 1673, reorganizó la Armada de Barlovento y terminó el interior de la catedral de México, que se dedicó por segunda vez en 1667. Él y su esposa fueron mecenas de Sor Juana Inés de la Cruz. Las obras dan su nacimiento en 1621 o 1622.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio Sebastián de Toledo Molina y Salazar",
+        "en": "Antonio Sebastián Álvarez de Toledo, 2nd Marquess of Mancera"
+      },
+      "wikidata": "Q2333959"
+    },
+    {
+      "id": "tomas-de-la-cerda-y-aragon",
+      "nombre": "Tomás de la Cerda y Aragón, marqués de la Laguna",
+      "nacimiento": {
+        "anio": 1638,
+        "aprox": false,
+        "lugar": "Cogolludo",
+        "lon": -3.087,
+        "lat": 40.948
+      },
+      "muerte": {
+        "anio": 1692,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1680,
+        "hasta": 1686,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Marqués de la Laguna y conde consorte de Paredes, virrey de la Nueva España de 1680 a 1686. A su entrada se levantaron arcos triunfales de Carlos de Sigüenza y Góngora y de Sor Juana Inés de la Cruz, de quien fue mecenas. Asumió el 30 de noviembre de 1680, meses después de la rebelión de los pueblos de Nuevo México (10 de agosto), que había estallado bajo fray Payo Enríquez de Rivera.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Tomás de la Cerda y Aragón",
+        "en": "Tomás de la Cerda, 3rd Marquess of la Laguna de Camero Viejo"
+      },
+      "wikidata": "Q596046"
+    },
+    {
+      "id": "juan-de-ortega-y-montanes",
+      "nombre": "Juan de Ortega y Montañés",
+      "nacimiento": {
+        "anio": 1627,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1708,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1696,
+        "hasta": 1702,
+        "aprox": false
+      },
+      "roles": [
+        "obispo",
+        "arzobispo",
+        "virrey"
+      ],
+      "resumen": "Inquisidor, obispo de Durango, Guatemala y Michoacán y desde 1700 arzobispo de México; su lugar de nacimiento se ubica en Llanes, Siles o Cartagena según la fuente. Fue virrey interino de la Nueva España dos veces: del 27 de febrero a diciembre de 1696, cuando reprimió el motín de estudiantes de la universidad y apoyó la expedición jesuita a California, y desde el 4 de noviembre de 1701 hasta noviembre de 1702.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan de Ortega Montañés",
+        "en": "Juan Ortega y Montañés"
+      },
+      "wikidata": "Q2354855"
+    },
+    {
+      "id": "francisco-fernandez-de-la-cueva-x-duque-de-alburquerque",
+      "nombre": "Francisco Fernández de la Cueva, X duque de Alburquerque",
+      "nacimiento": {
+        "anio": 1666,
+        "aprox": false,
+        "lugar": "Génova",
+        "lon": 8.934,
+        "lat": 44.407
+      },
+      "muerte": {
+        "anio": 1733,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1702,
+        "hasta": 1710,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Genovés de nacimiento, capitán general de la costa de Granada y de Andalucía, virrey de la Nueva España del 27 de noviembre de 1702 al 13 de noviembre de 1710, en plena guerra de sucesión. Fue partidario de Felipe V, combatió el bandidaje con ejecuciones sumarias en los caminos y bajo su gobierno se fundó en 1706 la villa de Alburquerque, en Nuevo México, que lleva su título. Recibió el Toisón de Oro por sus servicios en la Nueva España; murió en Madrid.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Fernández de la Cueva y de la Cueva",
+        "en": "Francisco Fernández de la Cueva, 10th Duke of Alburquerque"
+      },
+      "wikidata": "Q618547"
+    },
+    {
+      "id": "baltasar-de-zuniga-duque-de-arion",
+      "nombre": "Baltasar de Zúñiga, marqués de Valero y duque de Arión",
+      "nacimiento": {
+        "anio": 1658,
+        "aprox": false,
+        "lugar": "Béjar"
+      },
+      "muerte": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1716,
+        "hasta": 1722,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "noble"
+      ],
+      "resumen": "Segundo hijo del duque de Béjar, virrey de Navarra y de Cerdeña, y virrey de la Nueva España del 16 de agosto de 1716 al 14 de octubre de 1722. Mandó expulsar a los británicos de Laguna de Términos (1716) y sufrió un atentado a cuchillo en 1718. En 1719 creó el Tribunal de la Acordada, un juzgado sumario contra el bandidaje, y en su gobierno se fundó San Antonio de Béjar (1718). Fue después presidente del Consejo de Indias.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Baltasar de Zúñiga y Guzmán",
+        "en": "Baltasar de Zúñiga, 1st Duke of Arión"
+      },
+      "wikidata": "Q525089"
+    },
+    {
+      "id": "juan-de-acuna-marques-de-casa-fuerte",
+      "nombre": "Juan de Acuña y Bejarano, marqués de Casa Fuerte",
+      "nacimiento": {
+        "anio": 1658,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "muerte": {
+        "anio": 1734,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1722,
+        "hasta": 1734,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Nacido en Lima, fue el segundo criollo en gobernar la Nueva España, del 15 de octubre de 1722 hasta su muerte, el 17 de marzo de 1734. Elevó la renta del tesoro, autorizó en 1728 la reanudación de la Gaceta de México, reconstruyó la Casa de Moneda y construyó la aduana. En 1731 llegaron al presidio de San Antonio de Béjar las familias canarias que fundaron la villa de San Fernando.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Vázquez de Acuña y Bejarano",
+        "en": "Juan de Acuña, 1st Marquess of Casa Fuerte"
+      },
+      "wikidata": "Q2601497"
+    },
+    {
+      "id": "pedro-de-castro-duque-de-la-conquista",
+      "nombre": "Pedro de Castro Figueroa y Salazar, duque de la Conquista",
+      "nacimiento": {
+        "anio": 1678,
+        "aprox": false,
+        "lugar": "San Julián de Cela"
+      },
+      "muerte": {
+        "anio": 1741,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1740,
+        "hasta": 1741,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Militar gallego, presidente del reino de Sicilia (1735-1737) y virrey de la Nueva España del 17 de agosto de 1740 hasta su muerte, el 22 de agosto de 1741. Una fragata británica detuvo su nave cerca de Puerto Rico y perdió sus credenciales. Con la guerra contra Gran Bretaña de Edward Vernon reforzó la guarnición de San Agustín de la Florida y la defensa del Caribe novohispano.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro de Castro Figueroa y Salazar",
+        "en": "Pedro de Castro, 1st Duke of la Conquista"
+      },
+      "wikidata": "Q2607037"
+    },
+    {
+      "id": "pedro-malo-de-villavicencio",
+      "nombre": "Pedro Malo de Villavicencio",
+      "nacimiento": {
+        "anio": 1673,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1744,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1741,
+        "hasta": 1742,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Sevillano, llegó a la Nueva España en 1709 y fue fiscal y miembro de la Audiencia de México. Como presidente de la Audiencia gobernó el virreinato desde la muerte del duque de la Conquista (22 de agosto de 1741) hasta la llegada del conde de Fuenclara en 1742; las fuentes dan abril o noviembre de 1742.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Pedro Malo de Villavicencio"
+      },
+      "wikidata": "Q7159746"
+    },
+    {
+      "id": "juan-francisco-de-guemes-conde-de-revillagigedo",
+      "nombre": "Juan Francisco de Güemes y Horcasitas, conde de Revillagigedo",
+      "nacimiento": {
+        "anio": 1681,
+        "aprox": false,
+        "lugar": "Reinosa",
+        "lon": -4.138,
+        "lat": 43.002
+      },
+      "muerte": {
+        "anio": 1766,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1746,
+        "hasta": 1755,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Capitán general de Cuba (1734-1746) y primer conde de Revillagigedo, virrey de la Nueva España del 9 de julio de 1746 al 9 de noviembre de 1755. Impulsó la colonización de Nuevo Santander, a cargo de José de Escandón, y la pacificación de Sonora tras la rebelión pima. Fue padre de Juan Vicente de Güemes, virrey de 1789 a 1794.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Francisco de Güemes",
+        "en": "Juan Francisco de Güemes, 1st Count of Revillagigedo"
+      },
+      "wikidata": "Q784246"
+    },
+    {
+      "id": "agustin-de-ahumada-marques-de-las-amarillas",
+      "nombre": "Agustín de Ahumada y Villalón, marqués de las Amarillas",
+      "nacimiento": {
+        "anio": 1700,
+        "aprox": false,
+        "lugar": "Ronda",
+        "lon": -5.165,
+        "lat": 36.737
+      },
+      "muerte": {
+        "anio": 1760,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1755,
+        "hasta": 1760,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Militar nacido en Ronda y gobernador de Barcelona, virrey de la Nueva España desde el 10 de noviembre de 1755 hasta su muerte, el 5 de febrero de 1760. En su gobierno se celebró en 1756 el patronato de la Virgen de Guadalupe sobre la Nueva España, que Benedicto XIV había confirmado en 1754 y se siguió con el desagüe de la capital.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Agustín de Ahumada y Villalón",
+        "en": "Agustín de Ahumada, 2nd Marquess of Amarillas"
+      },
+      "wikidata": "Q2331699"
+    },
+    {
+      "id": "francisco-antonio-de-echavarri",
+      "nombre": "Francisco Antonio de Echávarri",
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1760,
+        "hasta": 1760,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Vitoriano, caballero de Santiago y oidor, presidente de la Audiencia de México. Gobernó interinamente entre la muerte del virrey Ahumada (5 de febrero de 1760) y la llegada de Cajigal (28 de abril). Antes, desde 1739, fue visitador de las minas de Zacatecas, donde chocó con los grandes mineros, y se ocupó del acueducto de la Villa de Guadalupe.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Francisco Antonio de Echávarri"
+      },
+      "wikidata": "Q5483134"
+    },
+    {
+      "id": "francisco-cajigal-de-la-vega",
+      "nombre": "Francisco Cajigal de la Vega",
+      "nacimiento": {
+        "anio": 1691,
+        "aprox": false,
+        "lugar": "Ribamontán al Monte",
+        "lon": -3.661,
+        "lat": 43.408
+      },
+      "muerte": {
+        "anio": 1777,
+        "aprox": false,
+        "lugar": "Ribamontán al Monte",
+        "lon": -3.661,
+        "lat": 43.408
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1760,
+        "hasta": 1760,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Teniente general cántabro y gobernador de Cuba de 1747 a 1760. Al morir Ahumada, los pliegos cerrados de la Audiencia lo nombraron virrey interino de la Nueva España: entró en la capital el 28 de abril de 1760 y gobernó hasta octubre, cuando asumió el marqués de Cruillas. Redujo impuestos a los productos de hierro y acero y elevó el ejército regular a 2921 hombres.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Antonio Cagigal de la Vega",
+        "en": "Francisco Cajigal de la Vega"
+      },
+      "wikidata": "Q2350439"
+    },
+    {
+      "id": "joaquin-de-montserrat-marques-de-cruillas",
+      "nombre": "Joaquín de Montserrat, marqués de Cruillas",
+      "nacimiento": {
+        "anio": 1700,
+        "aprox": false,
+        "lugar": "Valencia"
+      },
+      "muerte": {
+        "anio": 1771,
+        "aprox": false,
+        "lugar": "Valencia"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1760,
+        "hasta": 1766,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Valenciano, virrey de la Nueva España del 6 de octubre de 1760 al 24 de agosto de 1766. Organizó un ejército colonial con milicias y afrontó la epidemia de viruela de 1761, la rebelión maya de Jacinto Canek (1761) y la revuelta de pimas y seris en Sonora.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Joaquín de Montserrat",
+        "en": "Joaquín de Montserrat, 1st Marquess of Cruillas"
+      },
+      "wikidata": "Q2354871"
+    },
+    {
+      "id": "carlos-francisco-de-croix",
+      "nombre": "Carlos Francisco de Croix, marqués de Croix",
+      "nacimiento": {
+        "anio": 1703,
+        "aprox": true,
+        "lugar": "Lille",
+        "lon": 3.058,
+        "lat": 50.632
+      },
+      "muerte": {
+        "anio": 1778,
+        "aprox": true,
+        "lugar": "Valencia",
+        "lon": -0.376,
+        "lat": 39.47
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1766,
+        "hasta": 1771,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Militar nacido en Lille, capitán general de Galicia y virrey de la Nueva España del 25 de agosto de 1766 al 22 de septiembre de 1771. Con el visitador José de Gálvez ejecutó la expulsión de los jesuitas el 25 de junio de 1767. Las revueltas que la expulsión provocó en Guanajuato, Pátzcuaro, Valladolid y Uruapan fueron reprimidas con la horca de sus cabecillas, y su bando advertía que los súbditos «nacieron para callar y obedecer». Las obras dan su nacimiento entre 1699 y 1703 y su muerte entre 1778 y 1786.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Carlos Francisco de Croix",
+        "en": "Carlos Francisco de Croix, 1st Marquess of Croix"
+      },
+      "wikidata": "Q2575299"
+    },
+    {
+      "id": "antonio-maria-de-bucareli",
+      "nombre": "Antonio María de Bucareli y Ursúa",
+      "nacimiento": {
+        "anio": 1717,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1779,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1771,
+        "hasta": 1779,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Sevillano, teniente general y gobernador de Cuba (1766-1771), virrey de la Nueva España de 1771 hasta su muerte, el 9 de abril de 1779. Reorganizó la hacienda y la acuñación de moneda, fortificó Acapulco y Perote, impulsó el poblamiento de la Alta California y envió una expedición naval a Alaska.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Antonio María de Bucareli y Ursúa",
+        "en": "Antonio María de Bucareli"
+      },
+      "wikidata": "Q2333973"
+    },
+    {
+      "id": "martin-de-mayorga",
+      "nombre": "Martín de Mayorga",
+      "nacimiento": {
+        "anio": 1721,
+        "aprox": false,
+        "lugar": "Barcelona",
+        "lon": 2.177,
+        "lat": 41.383
+      },
+      "muerte": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Cádiz"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1779,
+        "hasta": 1783,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Mariscal de campo barcelonés, capitán general de Guatemala de 1773 a 1779 durante el terremoto de Santa Marta. Al morir Bucareli, las instrucciones cerradas de la Corona designaron al capitán general de Guatemala: gobernó la Nueva España del 23 de agosto de 1779 al 28 de abril de 1783, y reforzó La Habana y Veracruz ante la guerra contra Gran Bretaña.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Martín de Mayorga",
+        "en": "Martín de Mayorga"
+      },
+      "wikidata": "Q2358990"
+    },
+    {
+      "id": "francisco-roma-y-rosell",
+      "nombre": "Francisco Romá y Rosell",
+      "nacimiento": {
+        "anio": 1710,
+        "aprox": true,
+        "lugar": "Mataró",
+        "lon": 2.45,
+        "lat": 41.533
+      },
+      "muerte": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1779,
+        "hasta": 1779,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "gobernante"
+      ],
+      "resumen": "Jurista catalán, nacido en Mataró o en Figueras (hacia 1710 o en 1727, según la fuente), y primer regente de la Audiencia de México. Gobernó interinamente entre la muerte de Bucareli (9 de abril de 1779) y la llegada de Mayorga (23 de agosto). Escribió sobre los gremios de Barcelona (1766) y en 1768 Señales de la felicidad de España, que defendía el desarrollo de la agricultura, la industria y el comercio.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Romá y Rossell",
+        "en": "Francisco Romá y Rosell"
+      },
+      "wikidata": "Q4575123"
+    },
+    {
+      "id": "matias-de-galvez-y-gallardo",
+      "nombre": "Matías de Gálvez y Gallardo",
+      "nacimiento": {
+        "anio": 1717,
+        "aprox": false,
+        "lugar": "Macharaviaya",
+        "lon": -4.214,
+        "lat": 36.762
+      },
+      "muerte": {
+        "anio": 1784,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1783,
+        "hasta": 1784,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Malagueño de Macharaviaya, hermano de José de Gálvez y padre de Bernardo de Gálvez. Capitán general de Guatemala (1779-1783), donde recuperó la fortaleza de San Fernando de Omoa, fue virrey de la Nueva España desde el 29 de abril de 1783 hasta su muerte, el 3 de noviembre de 1784.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Matías de Gálvez y Gallardo",
+        "en": "Matías de Gálvez y Gallardo"
+      },
+      "wikidata": "Q2603010"
+    },
+    {
+      "id": "vicente-de-herrera-y-rivero",
+      "nombre": "Vicente de Herrera y Rivero",
+      "nacimiento": {
+        "anio": 1733,
+        "aprox": false,
+        "lugar": "Santander",
+        "lon": -3.8,
+        "lat": 43.467
+      },
+      "muerte": {
+        "anio": 1794,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1784,
+        "hasta": 1785,
+        "aprox": false
+      },
+      "roles": [
+        "jurista",
+        "gobernante"
+      ],
+      "resumen": "Jurista de Santander, colegial de San Bartolomé de Salamanca, alcalde del crimen y oidor de la Audiencia de México y regente de la de Guatemala. Fue virrey interino de la Nueva España desde el 20 de octubre de 1784, cuando Matías de Gálvez, enfermo, delegó el mando, hasta el 17 de junio de 1785, cuando asumió Bernardo de Gálvez. Primer marqués de Herrera (1790).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vicente de Herrera y Rivero"
+      },
+      "wikidata": "Q17711750"
+    },
+    {
+      "id": "eusebio-sanchez-pareja",
+      "nombre": "Eusebio Sánchez Pareja",
+      "activo": {
+        "lugar": "Guadalajara",
+        "lon": -103.342,
+        "lat": 20.676,
+        "desde": 1771,
+        "hasta": 1787,
+        "aprox": false
+      },
+      "roles": [
+        "gobernante"
+      ],
+      "resumen": "Gobernador de Nueva Galicia y presidente de la Audiencia de Guadalajara (1771-1776 y 1777-1786). Con Bernardo de Gálvez ya muy enfermo, la Audiencia lo nombró virrey interino el 9 de noviembre de 1786; siguió hasta el 8 de mayo de 1787, cuando asumió Alonso Núñez de Haro. En 1780 hizo levantar un mapa de Nueva Galicia.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Eusebio Sánchez Pareja"
+      },
+      "wikidata": "Q5414236"
+    },
+    {
+      "id": "manuel-antonio-florez",
+      "nombre": "Manuel Antonio Flórez",
+      "nacimiento": {
+        "anio": 1723,
+        "aprox": false,
+        "lugar": "Sevilla",
+        "lon": -5.995,
+        "lat": 37.389
+      },
+      "muerte": {
+        "anio": 1799,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1787,
+        "hasta": 1789,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "marino"
+      ],
+      "resumen": "Marino sevillano, virrey de Nueva Granada (1776-1781) y de la Nueva España (17 de agosto de 1787 a 16 de octubre de 1789), y después capitán general de la Real Armada. Renunció en Nueva Granada en noviembre de 1781, tras la rebelión de los Comuneros.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Manuel Antonio Flórez Maldonado",
+        "en": "Manuel Antonio Flórez"
+      },
+      "wikidata": "Q2356081"
+    },
+    {
+      "id": "miguel-de-la-grua-talamanca",
+      "nombre": "Miguel de la Grúa Talamanca, marqués de Branciforte",
+      "nacimiento": {
+        "anio": 1750,
+        "aprox": true,
+        "lugar": "Palermo",
+        "lon": 13.361,
+        "lat": 38.116
+      },
+      "muerte": {
+        "anio": 1812,
+        "aprox": false,
+        "lugar": "Marsella",
+        "lon": 5.376,
+        "lat": 43.297
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1794,
+        "hasta": 1798,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Siciliano, cuñado del valido Manuel de Godoy, virrey de la Nueva España del 12 de julio de 1794 al 31 de mayo de 1798. Se apropió de parte de los bienes confiscados a franceses (1794) y británicos (1797) residentes en la Nueva España y vendió cargos y grados militares; el Ayuntamiento de México lo acusó de malgastar fondos públicos, y sus biógrafos lo cuentan entre los virreyes más corruptos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Miguel de la Grúa Talamanca",
+        "en": "Miguel de la Grúa Talamanca, 1st Marquess of Branciforte"
+      },
+      "wikidata": "Q2394118"
+    },
+    {
+      "id": "miguel-jose-de-azanza",
+      "nombre": "Miguel José de Azanza, duque de Santa Fe",
+      "nacimiento": {
+        "anio": 1746,
+        "aprox": false,
+        "lugar": "Aoiz",
+        "lon": -1.353,
+        "lat": 42.783
+      },
+      "muerte": {
+        "anio": 1826,
+        "aprox": false,
+        "lugar": "Burdeos",
+        "lon": -0.579,
+        "lat": 44.838
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1798,
+        "hasta": 1800,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "político"
+      ],
+      "resumen": "Navarro, secretario del visitador José de Gálvez, ministro de Guerra con Godoy (en 1793 o en 1795-1796, según la fuente) y virrey de la Nueva España del 31 de mayo de 1798 al 30 de abril de 1800, y en noviembre de 1799 hizo arrestar a los implicados en la conspiración de los machetes, denunciada antes de que actuaran. Colaboró después con José Bonaparte y murió en Burdeos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Miguel José de Azanza",
+        "en": "Miguel José de Azanza, 1st Duke of Santa Fe"
+      },
+      "wikidata": "Q2603694"
+    },
+    {
+      "id": "felix-berenguer-de-marquina",
+      "nombre": "Félix Berenguer de Marquina",
+      "nacimiento": {
+        "anio": 1733,
+        "aprox": false,
+        "lugar": "Alicante",
+        "lon": -0.483,
+        "lat": 38.345
+      },
+      "muerte": {
+        "anio": 1826,
+        "aprox": false,
+        "lugar": "Alicante",
+        "lon": -0.483,
+        "lat": 38.345
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1800,
+        "hasta": 1803,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "marino"
+      ],
+      "resumen": "Marino alicantino, profesor de matemática y astronomía en la Academia de Cartagena, gobernador y capitán general de Filipinas hasta 1793 (desde 1787 o 1788 según la fuente) y virrey de la Nueva España del 30 de abril de 1800 al 4 de enero de 1803.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Félix Berenguer de Marquina",
+        "en": "Félix Berenguer de Marquina"
+      },
+      "wikidata": "Q967673"
+    },
+    {
+      "id": "pedro-de-garibay",
+      "nombre": "Pedro de Garibay",
+      "nacimiento": {
+        "anio": 1729,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "muerte": {
+        "anio": 1815,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1808,
+        "hasta": 1809,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Mariscal de campo de Alcalá de Henares, en la Nueva España desde 1764. Tras el golpe de Gabriel de Yermo contra Iturrigaray (15 de septiembre de 1808), la Audiencia lo nombró virrey: gobernó del 16 de septiembre de 1808 al 19 de julio de 1809 y fue sucedido por el arzobispo Lizana. Esa misma noche fueron presos los criollos autonomistas del ayuntamiento: Francisco Primo de Verdad murió en la cárcel del arzobispado y fray Melchor de Talamantes, en San Juan de Ulúa.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro de Garibay",
+        "en": "Pedro de Garibay"
+      },
+      "wikidata": "Q2268071"
+    },
+    {
+      "id": "pedro-catani",
+      "nombre": "Pedro Catani",
+      "nacimiento": {
+        "anio": 1739,
+        "aprox": false,
+        "lugar": "Barcelona"
+      },
+      "muerte": {
+        "anio": 1815,
+        "aprox": true
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1807,
+        "hasta": 1810,
+        "aprox": false
+      },
+      "roles": [
+        "oidor",
+        "gobernante"
+      ],
+      "resumen": "Jurista barcelonés, oidor de la Audiencia de Santa Fe durante la rebelión de los Comuneros (firmó la sentencia de 1782 contra sus jefes), gobernador interino de Santo Domingo en 1788 y regente de las audiencias de Guadalajara (1804) y de México (1807). En septiembre de 1808 estuvo, con los oidores Aguirre y Bataller, entre los promotores del golpe contra el virrey Iturrigaray y pidió el arresto de fray Melchor de Talamantes. Como regente presidió la Audiencia que gobernó la Nueva España entre la salida del arzobispo Lizana (8 de mayo de 1810) y la llegada de Venegas (14 de septiembre); murió hacia 1815.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Pedro Catani"
+      },
+      "wikidata": "Q11995050"
+    },
+    {
+      "id": "francisco-javier-venegas",
+      "nombre": "Francisco Javier Venegas, marqués de la Reunión de Nueva España",
+      "nacimiento": {
+        "anio": 1754,
+        "aprox": false,
+        "lugar": "Zafra",
+        "lon": -6.416,
+        "lat": 38.426
+      },
+      "muerte": {
+        "anio": 1838,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1810,
+        "hasta": 1813,
+        "aprox": false
+      },
+      "roles": [
+        "virrey",
+        "militar"
+      ],
+      "resumen": "Militar nacido en Zafra, derrotado en Uclés (1809) y gobernador militar de Cádiz en 1810. Nombrado virrey de Nueva Granada el 20 de febrero de 1810, nunca asumió: lo destinaron a la Nueva España, donde entró en la capital el 14 de septiembre de 1810 y gobernó hasta el 4 de marzo de 1813. Tres días después de su entrada estalló el Grito de Dolores; prohibió las publicaciones revolucionarias, creó tribunales de policía y juntas militares en las provincias y mandó a Calleja contra los insurgentes. Retrasó la publicación de la Constitución de Cádiz y decretó el estado de sitio. La Audiencia lo acusó de blando con la rebelión, y la Junta de Cádiz, de medidas arbitrarias. Fue sucedido por Calleja y recibió en España el título de marqués de la Reunión de Nueva España.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Xavier Venegas",
+        "en": "Francisco Javier Venegas"
+      },
+      "wikidata": "Q2350432"
+    },
+    {
+      "id": "vicente-filisola",
+      "nombre": "Vicente Filísola",
+      "nacimiento": {
+        "anio": 1789,
+        "aprox": true
+      },
+      "muerte": {
+        "anio": 1850,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642,
+        "desde": 1822,
+        "hasta": 1823,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernante"
+      ],
+      "resumen": "Militar nacido en el reino de Nápoles (hacia 1785 o 1789), que sirvió a España y se sumó al Plan de Iguala en 1821. Como capitán general y jefe político de Guatemala desde junio de 1822 administró la anexión de Centroamérica al Imperio mexicano, ocupó San Salvador en febrero de 1823 y convocó el congreso que declaró la independencia. En 1836 fue segundo jefe del ejército mexicano en Texas. No fue presidente de la República Federal.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Vicente Filísola",
+        "en": "Vicente Filísola"
+      },
+      "wikidata": "Q715279"
+    },
+    {
+      "id": "juan-vicente-villacorta",
+      "nombre": "Juan Vicente Villacorta Díaz",
+      "nacimiento": {
+        "anio": 1764,
+        "aprox": false,
+        "lugar": "Zacatecoluca",
+        "lon": -88.87,
+        "lat": 13.507
+      },
+      "muerte": {
+        "anio": 1827,
+        "aprox": true,
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698
+      },
+      "activo": {
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698,
+        "desde": 1823,
+        "hasta": 1826,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "comerciante"
+      ],
+      "resumen": "Comerciante de Zacatecoluca y diputado de la asamblea constituyente de las Provincias Unidas de Centroamérica, integró el primer y el segundo triunvirato del Poder Ejecutivo (1823-1824) y fue jefe de Estado de El Salvador del 13 de diciembre de 1824 a 1826. Introdujo el papel sellado (1825). Murió en San Salvador en 1827 o en Guatemala en 1828, según la fuente.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Juan Vicente Villacorta Díaz",
+        "en": "Juan Vicente Villacorta"
+      },
+      "wikidata": "Q2623940"
+    },
+    {
+      "id": "mariano-beltranena-y-llano",
+      "nombre": "Mariano Beltranena y Llano",
+      "nacimiento": {
+        "anio": 1781,
+        "aprox": false,
+        "lugar": "Villa Nueva"
+      },
+      "muerte": {
+        "anio": 1866,
+        "aprox": false,
+        "lugar": "Matanzas"
+      },
+      "activo": {
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642,
+        "desde": 1825,
+        "hasta": 1829,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Aristócrata guatemalteco, intendente de Nicaragua (1816-1819), vicepresidente federal elegido para 1825-1829, a quien Arce llamó a ejercer el Ejecutivo en 1828. Francisco Morazán entró en Guatemala en abril de 1829 y lo derrocó; fue desterrado y vivió años en Cuba y murió en Matanzas.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Mariano Beltranena y Llano",
+        "en": "Mariano Beltranena y Llano"
+      },
+      "wikidata": "Q5997591"
+    },
+    {
+      "id": "jose-francisco-barrundia",
+      "nombre": "José Francisco Barrundia y Cepeda",
+      "nacimiento": {
+        "anio": 1787,
+        "aprox": false,
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642
+      },
+      "muerte": {
+        "anio": 1854,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "activo": {
+        "lugar": "Ciudad de Guatemala",
+        "lon": -90.513,
+        "lat": 14.642,
+        "desde": 1829,
+        "hasta": 1830,
+        "aprox": false
+      },
+      "roles": [
+        "político",
+        "escritor"
+      ],
+      "resumen": "Político liberal guatemalteco, redactor de El Editor Constitucional, que dirigía Pedro Molina, e impulsor de la independencia. Con Morazán victorioso, fue presidente interino de la República Federal desde junio de 1829 hasta septiembre de 1830. Tradujo el código Livingston, que se promulgó en Guatemala en 1837, y murió en Nueva York como ministro de Honduras.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Francisco Barrundia y Cepeda",
+        "en": "José Francisco Barrundia"
+      },
+      "wikidata": "Q328323"
+    },
+    {
+      "id": "diego-vigil",
+      "nombre": "Diego Vigil y Cocaña",
+      "nacimiento": {
+        "anio": 1799,
+        "aprox": false,
+        "lugar": "Tegucigalpa",
+        "lon": -87.205,
+        "lat": 14.106
+      },
+      "muerte": {
+        "anio": 1845,
+        "aprox": false,
+        "lugar": "Granada",
+        "lon": -85.954,
+        "lat": 11.93
+      },
+      "activo": {
+        "lugar": "San Salvador",
+        "lon": -89.191,
+        "lat": 13.698,
+        "desde": 1836,
+        "hasta": 1840,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Abogado de Tegucigalpa, jefe de Estado de Honduras (1828-1829) y de El Salvador (1836-1838) y último presidente de la República Federal de Centroamérica: elegido vicepresidente en 1838 para suceder a Gregorio Salazar, asumió el cargo cuando Morazán se lo entregó el 1 de febrero de 1839. Con solo El Salvador en la federación, ese Estado la dio por disuelta el 31 de marzo de 1840 y terminó su gobierno. Murió en Granada, Nicaragua.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Diego Vigil y Cocaña",
+        "en": "Diego Vigil y Cocaña"
+      },
+      "wikidata": "Q327778"
+    },
+    {
+      "id": "alonso-fernandez-de-bonilla",
+      "nombre": "Alonso Fernández de Bonilla",
+      "muerte": {
+        "anio": 1596,
+        "aprox": true,
+        "lugar": "Lima"
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1583,
+        "hasta": 1589,
+        "aprox": false
+      },
+      "roles": [
+        "inquisidor",
+        "visitador",
+        "arzobispo"
+      ],
+      "resumen": "Cordobés, deán de la catedral de México, fiscal y desde 1583 inquisidor del Santo Oficio de México, fue enviado como visitador general al Perú. Allí lo alcanzó su presentación como arzobispo de México (1592) y allí lo consagró Toribio de Mogrovejo en 1593. Nunca llegó a su sede, que gobernó en su nombre el arcediano Juan Cervantes, y murió en Lima en 1596 según Bancroft o en 1600 según Catholic-Hierarchy.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Alfonso Fernández de Bonilla"
+      },
+      "wikidata": "Q23612081"
+    },
+    {
+      "id": "garcia-de-santa-maria-mendoza",
+      "nombre": "García de Santa María Mendoza y Zúñiga",
+      "muerte": {
+        "anio": 1606,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354,
+        "desde": 1600,
+        "hasta": 1606,
+        "aprox": false
+      },
+      "roles": [
+        "arzobispo",
+        "jerónimo"
+      ],
+      "resumen": "Jerónimo de Alcalá de Henares, prior en Sevilla y elegido general de su orden en 1591. Nombrado arzobispo de México en 1600 y consagrado en 1601, murió en la capital el 5 de octubre de 1606.",
+      "obras": [],
+      "wikipedia": {
+        "es": "García de Santa María Mendoza y Zúñiga",
+        "en": "García de Santa María Mendoza y Zúñiga"
+      },
+      "wikidata": "Q23616737"
+    },
+    {
+      "id": "jose-rafael-gallegos",
+      "nombre": "José Rafael Gallegos y Alvarado",
+      "nacimiento": {
+        "anio": 1784,
+        "aprox": false
+      },
+      "muerte": {
+        "anio": 1850,
+        "aprox": false,
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933
+      },
+      "activo": {
+        "lugar": "San José",
+        "lon": -84.08,
+        "lat": 9.933,
+        "desde": 1833,
+        "hasta": 1846,
+        "aprox": false
+      },
+      "roles": [
+        "político"
+      ],
+      "resumen": "Hacendado y comerciante, nacido en Cartago o en Cesantes (Galicia) según la fuente. Presidió la Junta Superior Gubernativa de Costa Rica (octubre de 1822 a enero de 1823) y fue vicejefe de Estado. Elegido jefe de Estado por la Asamblea en 1833 pese a tener un solo voto, gobernó hasta 1835 y ejerció de nuevo el Ejecutivo entre mayo de 1845 y junio de 1846.",
+      "obras": [],
+      "wikipedia": {
+        "es": "José Rafael Gallegos Alvarado",
+        "en": "José Rafael Gallegos"
+      },
+      "wikidata": "Q880804"
     }
   ],
   "hechos": [
@@ -6983,6 +8701,22 @@
         "es": "Conquista española de los territorios mayas",
         "en": "Spanish conquest of the Maya"
       }
+    },
+    {
+      "id": "tumulto-de-1624",
+      "titulo": "Tumulto de 1624 en la Ciudad de México",
+      "anio": 1624,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ciudad de México",
+      "lon": -99.136,
+      "lat": 19.354,
+      "tipo": "politico",
+      "resumen": "El conflicto entre el virrey marqués de Gelves y el arzobispo Juan Pérez de la Serna, por el caso del corregidor Melchor Pérez de Baráiz, acusado de acaparar maíz, llegó a excomuniones, interdicto y al arresto del arzobispo. El 15 de enero de 1624 una multitud pidió la renuncia del virrey, entró al palacio y lo incendió en parte; Gelves se refugió en el convento de San Francisco. La Corona lo reemplazó por el marqués de Cerralvo, que llegó en noviembre.",
+      "regiones": [
+        "mesoamerica"
+      ],
+      "fuentes": []
     }
   ],
   "lugares": [

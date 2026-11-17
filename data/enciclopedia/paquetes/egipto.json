@@ -2807,6 +2807,95 @@
         "en": "Ptolemy III Euergetes"
       },
       "confianza": "media"
+    },
+    {
+      "id": "la-pyramide-a-degres",
+      "titulo": "La pirámide escalonada",
+      "titulo_original": "La pyramide à degrés: l'architecture",
+      "autor": "Jean-Philippe Lauer",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": -2670,
+        "hasta": -2650
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Estudio arquitectónico del complejo funerario del rey Dyeser en Saqqara, a partir de las excavaciones y de la restauración de Lauer entre 1926 y los años siguientes. Describe la pirámide de seis escalones, el recinto y los edificios, obra del arquitecto Imhotep.",
+      "por_que_importa": "Es la obra de referencia sobre el conjunto de Dyeser, escrita por su excavador.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "estudios-de-dzielska-sobre-hipatia",
+      "titulo": "Hipatia de Alejandría",
+      "titulo_original": "Hypatia z Aleksandrii",
+      "autor": "Maria Dzielska",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1993,
+        "aprox": false,
+        "lugar": "Cracovia",
+        "lon": 19.937,
+        "lat": 50.061
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "bajo-egipto"
+        ],
+        "desde": 370,
+        "hasta": 415
+      },
+      "idioma_original": "Polaco",
+      "soporte": "Libro",
+      "resumen": "Estudio de la vida de Hipatia, filósofa y matemática de Alejandría, y de su asesinato en 415 por una multitud cristiana, a partir de las cartas de Sinesio, de Sócrates de Constantinopla y de otras fuentes. Discute las versiones legendarias de su muerte. El original es polaco (Cracovia, 1993); la edición de Harvard University Press, de 1995, es su traducción inglesa.",
+      "por_que_importa": "Es el estudio crítico de referencia sobre Hipatia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-tomb-of-tut-ankh-amen",
+      "titulo": "La tumba de Tutankamón",
+      "titulo_original": "The Tomb of Tut.ankh.Amen",
+      "autor": "Howard Carter (con Arthur C. Mace en el tomo I)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1923,
+        "anio_hasta": 1933,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": 1922,
+        "hasta": 1933
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del descubridor Howard Carter, en tres volúmenes (1923, 1927 y 1933; Arthur Mace firmó solo el primero), de la apertura de la tumba KV62 en noviembre de 1922 y del hallazgo del ajuar funerario del rey. Describe la cámara, el ajuar y el trabajo de despeje, hasta los años treinta.",
+      "por_que_importa": "Es la narración de primera mano del hallazgo.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3442,7 +3531,10 @@
       "regiones": [
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "aegyptiaca-de-maneton",
+        "la-pyramide-a-degres"
+      ],
       "wikipedia": {
         "es": "Pirámide escalonada de Zoser",
         "en": "Pyramid of Djoser"
@@ -3486,7 +3578,10 @@
       "regiones": [
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "egypt-of-the-pharaohs",
+        "oxford-history-of-ancient-egypt"
+      ],
       "wikipedia": {
         "es": "Mentuhotep II",
         "en": "Mentuhotep II"
@@ -3687,7 +3782,10 @@
         "egipto",
         "bajo-egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anabasis-de-alejandro-arriano",
+        "geografia-de-estrabon-libro-xvii"
+      ],
       "wikipedia": {
         "es": "Alejandro Magno",
         "en": "Alexander the Great"
@@ -3823,7 +3921,10 @@
         "egipto",
         "bajo-egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-eclesiastica-de-socrates",
+        "estudios-de-dzielska-sobre-hipatia"
+      ],
       "wikipedia": {
         "es": "Hipatia",
         "en": "Hypatia"
@@ -3935,7 +4036,9 @@
       "regiones": [
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-tomb-of-tut-ankh-amen"
+      ],
       "wikipedia": {
         "es": "KV62",
         "en": "Tomb of Tutankhamun"

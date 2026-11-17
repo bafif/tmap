@@ -15568,7 +15568,14 @@
       },
       "trata": {
         "regiones": [
-          "britania"
+          "britania",
+          "francia",
+          "alemania",
+          "italia",
+          "iberia",
+          "levante",
+          "rus",
+          "mongolia"
         ],
         "desde": 1235,
         "hasta": 1259
@@ -17874,6 +17881,2673 @@
       ],
       "wikipedia": {
         "en": "Domentijan"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "edicto-de-clotario-ii",
+      "titulo": "Edicto de París",
+      "titulo_original": "Edictum Chlotharii II",
+      "autor": "Clotario II",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 614,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 614,
+        "hasta": 614
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Capitular de 24 artículos que Clotario II, rey de los francos, promulgó el 18 de octubre de 614 tras un concilio de obispos y nobles reunido en París. Regula la justicia, la elección de obispos y la administración de los condes, y confirma a la Iglesia y a la aristocracia derechos que habían estado en disputa durante la guerra civil anterior.",
+      "por_que_importa": "Es el texto mismo del edicto. Heinrich Mitteis lo leyó como un acuerdo entre el rey y los grandes, comparable a la Carta Magna; hoy el artículo 12 se lee de otro modo: obliga a los jueces a tener bienes en su región como garantía contra los abusos, para frenar a los funcionarios locales.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Edicto de Clotario",
+        "en": "Edict of Paris"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anales-de-metz",
+      "titulo": "Anales de Metz",
+      "titulo_original": "Annales Mettenses priores",
+      "autor": "Anónimo (círculo carolingio)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 806,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "alemania"
+        ],
+        "desde": 687,
+        "hasta": 805
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Anales latinos de la historia franca desde la victoria de Pipino II en Tertry (687) hasta alrededor de 806. Escritos en el entorno de los carolingios, presentan el ascenso de la familia desde Pipino de Herstal y cuentan Tertry como una victoria decisiva de los austrasianos sobre neustrios y borgoñones.",
+      "por_que_importa": "Es el relato de Tertry más detallado, y su origen carolingio obliga a leerlo como una versión interesada de lo ocurrido.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Anales de Metz",
+        "en": "Annals of Metz"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "liber-historiae-francorum",
+      "titulo": "Libro de la historia de los francos",
+      "titulo_original": "Liber Historiae Francorum",
+      "autor": "Anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 727,
+        "aprox": false,
+        "lugar": "Soissons",
+        "lon": 3.322,
+        "lat": 49.381
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 200,
+        "hasta": 727
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica anónima de la historia franca escrita hacia 727 por un autor de la Neustria, que usa material de Gregorio de Tours para lo antiguo. Sus últimas secciones son fuente contemporánea de los reinados merovingios tardíos e incluyen el enfrentamiento de 687 entre Pipino II y los neustrios en Tertry, visto desde el bando derrotado.",
+      "por_que_importa": "Contrasta con los anales carolingios: cuenta Tertry desde Neustria, no desde Austrasia.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Liber historiae Francorum",
+        "en": "Liber Historiae Francorum"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "reconquest-and-crusade-in-medieval-spain",
+      "titulo": "Reconquista y cruzada en la España medieval",
+      "titulo_original": "Reconquest and Crusade in Medieval Spain",
+      "autor": "Joseph F. O'Callaghan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1063,
+        "hasta": 1252
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de cómo la guerra contra al-Ándalus se volvió cruzada, con el papado, entre fines del siglo XI y mediados del XIII, con capítulos sobre la financiación y la liturgia de la guerra. Su primer capítulo trata la idea misma de reconquista.",
+      "por_que_importa": "Es una exposición de referencia sobre qué fue la Reconquista y cómo se la entiende hoy, con sus límites como categoría histórica.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "al-bayan-al-mughrib",
+      "titulo": "El Bayán al-Mugrib",
+      "titulo_original": "Al-Bayan al-Mughrib",
+      "autor": "Ibn Idari",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1312,
+        "aprox": true,
+        "lugar": "Marrakech",
+        "lon": -7.981,
+        "lat": 31.629
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "magreb"
+        ],
+        "desde": 700,
+        "hasta": 1100
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Crónica",
+      "resumen": "Historia del Magreb y de al-Ándalus escrita hacia 1312 por Ibn Idari, que reúne pasajes de cronistas anteriores hoy perdidos. Cuenta la llegada de Abderramán I a al-Ándalus y su proclamación como emir en 756, su obra en Córdoba, incluida la mezquita mayor, y las luchas por el califato después de 1009.",
+      "por_que_importa": "Conserva textos de historiadores andalusíes perdidos, como Ibn Hayyan, y es una de las fuentes principales sobre el emirato, el califato y su caída.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Al-Bayan al-Mughrib",
+        "en": "Al-Bayan al-Mughrib"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "muslim-spain-and-portugal",
+      "titulo": "España y Portugal musulmanes: una historia política de al-Ándalus",
+      "titulo_original": "Muslim Spain and Portugal: A Political History of al-Andalus",
+      "autor": "Hugh Kennedy",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 711,
+        "hasta": 1492
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia política de al-Ándalus desde la conquista de 711 hasta los reinos de taifas y sus sucesores. Trata la fundación del emirato por Abderramán I, la proclamación del califato de Córdoba en 929, el gobierno de Almanzor y la guerra civil que desde 1009 acabó con el califato.",
+      "por_que_importa": "Es una exposición de conjunto, con las fuentes árabes y latinas, de la política andalusí.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "architecture-and-ideology-in-early-medieval-spain",
+      "titulo": "Arquitectura e ideología en la España medieval temprana",
+      "titulo_original": "Architecture and Ideology in Early Medieval Spain",
+      "autor": "Jerrilynn D. Dodds",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "University Park",
+        "lon": -77.863,
+        "lat": 40.796
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 600,
+        "hasta": 1000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de cómo la arquitectura de la Península entre los visigodos, los omeyas de Córdoba y los reinos cristianos expresó proyectos políticos. Dedica un análisis a la mezquita mayor de Córdoba, desde su fundación por Abderramán I hasta sus ampliaciones posteriores.",
+      "por_que_importa": "Lee la mezquita de Córdoba como una afirmación de legitimidad de los omeyas andalusíes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "vida-de-constantino-cirilo",
+      "titulo": "Vida de Constantino-Cirilo",
+      "titulo_original": "Vita Constantini",
+      "autor": "Anónimo (discípulo de Cirilo y Metodio)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 880,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "bohemia"
+        ],
+        "desde": 860,
+        "hasta": 885
+      },
+      "idioma_original": "Antiguo eslavo eclesiástico",
+      "soporte": "Vida",
+      "resumen": "Biografía escrita poco después de la muerte de Constantino-Cirilo (869) en antiguo eslavo eclesiástico. Cuenta la misión en la Gran Moravia, la invención de un alfabeto para traducir los textos litúrgicos, que la tradición identifica con el glagolítico, y las disputas con el clero latino.",
+      "por_que_importa": "Es la fuente principal sobre la creación del alfabeto y la misión de 863.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "rhinoceros-bound",
+      "titulo": "Rhinoceros Bound: Cluny en el siglo X",
+      "titulo_original": "Rhinoceros Bound: Cluny in the Tenth Century",
+      "autor": "Barbara H. Rosenwein",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 900,
+        "hasta": 1000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de los primeros decenios de la abadía de Cluny, fundada en 910 por Guillermo I de Aquitania, en la violencia de los señores del siglo X. Sostiene que Odón y Cluny ofrecían una vida monástica de orden, ritual y contención, el «rinoceronte atado» de la Vida de Geraldo de Odón (I.8).",
+      "por_que_importa": "Explica qué ofreció Cluny en el siglo X frente a la violencia de los señores y por qué se volvió el centro de una red de monasterios.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "costumbres-y-hechos-de-los-primeros-duques-de-normandia",
+      "titulo": "Sobre las costumbres y los hechos de los primeros duques de Normandía",
+      "titulo_original": "De moribus et actis primorum Normanniae ducum",
+      "autor": "Dudón de Saint-Quentin",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 996,
+        "anio_hasta": 1015,
+        "aprox": false,
+        "lugar": "Ruan",
+        "lon": 1.103,
+        "lat": 49.443
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "escandinavia"
+        ],
+        "desde": 852,
+        "hasta": 996
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Historia de los normandos escrita por el deán Dudón de Saint-Quentin por encargo de los duques de Normandía. Cuenta las incursiones de Rollón, su acuerdo con el rey Carlos el Simple y el origen del ducado hacia 911, con un relato que los historiadores contrastan por sus fines legitimadores.",
+      "por_que_importa": "Es la fuente narrativa más antigua sobre la fundación de Normandía.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Dudon de Saint-Quentin",
+        "en": "Dudo of Saint-Quentin"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "al-muqtabis",
+      "titulo": "Al-Muqtabis",
+      "titulo_original": "Al-Muqtabis fi tarij rijal al-Andalus",
+      "autor": "Ibn Hayyan",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1065,
+        "aprox": true,
+        "lugar": "Córdoba",
+        "lon": -4.78,
+        "lat": 37.89
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 756,
+        "hasta": 1000
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Crónica",
+      "resumen": "Gran historia de al-Ándalus compilada por Ibn Hayyan, de la que se conservan volúmenes sueltos. Uno de ellos cuenta el reinado de Abderramán III (912-942) y su proclamación como califa en 929.",
+      "por_que_importa": "Da el relato andalusí cercano al califato sobre la proclamación de 929.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ibn Hayyan",
+        "en": "Ibn Hayyan"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "res-gestae-saxonicae",
+      "titulo": "Hechos de los sajones",
+      "titulo_original": "Res gestae Saxonicae",
+      "autor": "Viduquindo de Corvey",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 968,
+        "aprox": true,
+        "lugar": "Abadía de Corvey",
+        "lon": 9.41,
+        "lat": 51.778
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "hungria",
+          "italia"
+        ],
+        "desde": 919,
+        "hasta": 973
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica de los reyes sajones escrita por el monje Viduquindo de Corvey, que llega hasta la muerte de Otón I en 973. Cuenta la victoria sobre los húngaros en el Lech en 955 y presenta a Otón aclamado imperator por el ejército después de la batalla. No menciona la coronación romana de 962.",
+      "por_que_importa": "Es el relato contemporáneo más completo de Lechfeld desde el bando vencedor.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Viduquindo de Corvey",
+        "en": "Widukind of Corvey"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "privilegium-ottonianum",
+      "titulo": "Privilegio otoniano",
+      "titulo_original": "Privilegium Ottonianum",
+      "autor": "Otón I",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 962,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "alemania"
+        ],
+        "desde": 962,
+        "hasta": 962
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Pacto del 13 de febrero de 962, redactado al tiempo de la coronación imperial de Otón I por Juan XII. Confirma las donaciones a la Iglesia romana, regula la elección de papas y el juramento de fidelidad al emperador.",
+      "por_que_importa": "Es el documento que marca el comienzo de la relación entre el Imperio restaurado y el papado.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Privilegium Ottonianum",
+        "en": "Diploma Ottonianum"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-thietmar",
+      "titulo": "Crónica de Thietmar",
+      "titulo_original": "Chronicon",
+      "autor": "Thietmar de Merseburgo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1018,
+        "aprox": true,
+        "lugar": "Merseburgo",
+        "lon": 11.993,
+        "lat": 51.354
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "polonia",
+          "hungria"
+        ],
+        "desde": 908,
+        "hasta": 1018
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del obispo Thietmar de Merseburgo sobre los reyes sajones y los pueblos vecinos hasta 1018. Habla de Mieszko I y de su mujer Dobrava, de la relación con Polonia y de la coronación de Esteban de Hungría por favor de Otón III.",
+      "por_que_importa": "Es una fuente alemana de la época para la cristianización de Polonia y para el reino de Hungría.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tietmaro de Merseburg",
+        "en": "Thietmar of Merseburg"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historias-de-richero",
+      "titulo": "Historias",
+      "titulo_original": "Historiae",
+      "autor": "Richerio de Reims",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 998,
+        "aprox": true,
+        "lugar": "Reims",
+        "lon": 4.029,
+        "lat": 49.265
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 888,
+        "hasta": 995
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Historia de Francia desde 888 hasta 995 del monje Richerio de Saint-Remi de Reims, testigo de los años finales de los carolingios. Cuenta la elección de Hugo Capeto como rey en 987.",
+      "por_que_importa": "Es el relato contemporáneo más cercano al cambio de dinastía.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Richer de Reims",
+        "en": "Richerus"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-roger",
+      "titulo": "Hechos del conde Roger de Calabria y Sicilia y de su hermano Roberto Guiscardo",
+      "titulo_original": "De rebus gestis Rogerii Calabriae et Siciliae comitis et Roberti Guiscardi ducis fratris eius",
+      "autor": "Godofredo Malaterra",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1099,
+        "aprox": true,
+        "lugar": "Catania",
+        "lon": 15.087,
+        "lat": 37.503
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "sicilia"
+        ],
+        "desde": 1016,
+        "hasta": 1099
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del monje benedictino Godofredo Malaterra, por encargo del conde Roger I, de la conquista normanda del sur de Italia y de Sicilia, desde las primeras llegadas hasta 1099. Relata la campaña de Roger y Roberto Guiscardo desde 1061, con la toma de Mesina y de Palermo.",
+      "por_que_importa": "Es el relato principal, de lado normando, de la conquista de la isla.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Goffredo Malaterra"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anales-de-lamberto-de-hersfeld",
+      "titulo": "Anales",
+      "titulo_original": "Annales",
+      "autor": "Lamberto de Hersfeld",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1079,
+        "aprox": true,
+        "lugar": "Hersfeld",
+        "lon": 9.707,
+        "lat": 50.868
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "italia"
+        ],
+        "desde": 1040,
+        "hasta": 1077
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Anales del monje Lamberto de Hersfeld, que van de la creación del mundo a 1077 y detallan el reinado de Enrique IV y el conflicto con el papa Gregorio VII. Cuentan el viaje del rey en el invierno de 1077 a Canossa y su penitencia ante el papa.",
+      "por_que_importa": "Es el relato contemporáneo más conocido de Canossa, escrito desde el bando contrario a Enrique.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Lambert of Hersfeld"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-abd-allah",
+      "titulo": "Memorias de Abd Allah, último rey zirí de Granada",
+      "titulo_original": "Kitab al-Tibyan",
+      "autor": "Abd Allah ibn Buluggin",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1095,
+        "aprox": true,
+        "lugar": "Agmat",
+        "lon": -7.801,
+        "lat": 31.422
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1056,
+        "hasta": 1090
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Memorias",
+      "resumen": "Memorias del último rey zirí de Granada, destronado por los almorávides en 1090 y escritas en el exilio. Dan una visión de las cortes de taifas y de la presión de Alfonso VI, y de la entrada de los almorávides en la Península y la batalla de Sagrajas.",
+      "por_que_importa": "Es un testimonio de un protagonista de los reinos de taifas en su momento de crisis.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "gesta-de-suger",
+      "titulo": "Sobre la administración y la consagración de la iglesia de Saint-Denis",
+      "titulo_original": "De administratione; De consecratione",
+      "autor": "Suger de Saint-Denis",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1148,
+        "aprox": true,
+        "lugar": "Abadía de Saint-Denis",
+        "lon": 2.36,
+        "lat": 48.936
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1137,
+        "hasta": 1144
+      },
+      "idioma_original": "Latín",
+      "soporte": "Tratado",
+      "resumen": "Escritos del abad Suger sobre su administración de Saint-Denis y sobre las obras de la abadía, entre ellas el nuevo frente occidental y el coro, consagrado en 1144. Describe sus motivos para reconstruir, los tesoros de la iglesia y la luz.",
+      "por_que_importa": "Es el testimonio del propio promotor de la obra a la que se asocia el nacimiento del estilo gótico.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Suger",
+        "en": "Suger"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "canones-del-ii-concilio-de-letran",
+      "titulo": "Cánones del II Concilio de Letrán",
+      "titulo_original": "Canones concilii Lateranensis II",
+      "autor": "Inocencio II y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1139,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1139,
+        "hasta": 1139
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Treinta cánones del concilio reunido en 1139 en Letrán, que puso fin al cisma de Anacleto II. Prohíbe el matrimonio de clérigos y la simonía, condena los torneos y prohíbe el uso de la ballesta contra cristianos.",
+      "por_que_importa": "Es el texto mismo del concilio que cerró el cisma de 1130.",
+      "leer": [],
+      "wikipedia": {
+        "es": "II Concilio de Letrán",
+        "en": "Second Council of the Lateran"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "codice-de-hipacio",
+      "titulo": "Códice de Hipacio",
+      "titulo_original": "Ипатьевская летопись",
+      "autor": "Anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1425,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 850,
+        "hasta": 1292
+      },
+      "idioma_original": "Antiguo eslavo oriental",
+      "soporte": "Crónica",
+      "resumen": "Compilación que reúne la Crónica de los tiempos pasados, la Crónica de Kiev y la Crónica galitzio-volhinia, hasta 1292. Menciona por primera vez a Moscú en 1147 en una invitación de Yuri Dolgoruki, y cuenta el cerco y la toma de Kiev por los mongoles a fines de 1240.",
+      "por_que_importa": "Es la fuente principal escrita sobre la Rus de Kiev y su caída.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Códice de Hipacio",
+        "en": "Hypatian Codex"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "la-conquista-de-lisboa",
+      "titulo": "La conquista de Lisboa",
+      "titulo_original": "De expugnatione Lyxbonensi",
+      "autor": "Raúl (capellán anglonormando)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1148,
+        "aprox": true,
+        "lugar": "Lisboa",
+        "lon": -9.139,
+        "lat": 38.708
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1147,
+        "hasta": 1148
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Relato de un testigo, probablemente un capellán anglonormando, del viaje de la flota de cruzados del norte de Europa en 1147 y del sitio y la toma de Lisboa con Alfonso I de Portugal. Incluye los discursos y pactos entre cruzados y rey.",
+      "por_que_importa": "Es el único relato de testigo de la toma de Lisboa.",
+      "leer": [],
+      "wikipedia": {
+        "en": "De expugnatione Lyxbonensi"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vida-de-tomas-becket-eduardo-grim",
+      "titulo": "Vida de santo Tomás, arzobispo y mártir",
+      "titulo_original": "Vita S. Thomae",
+      "autor": "Eduardo Grim",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1172,
+        "aprox": true,
+        "lugar": "Canterbury",
+        "lon": 1.077,
+        "lat": 51.278
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1170,
+        "hasta": 1170
+      },
+      "idioma_original": "Latín",
+      "soporte": "Vida",
+      "resumen": "Relato del clérigo Eduardo Grim, que estuvo en la catedral de Canterbury el 29 de diciembre de 1170 y fue herido al defender a Tomás Becket. Cuenta el asesinato por cuatro caballeros del rey Enrique II.",
+      "por_que_importa": "Es uno de los relatos de testigo del asesinato de Becket.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Edward Grim"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-romualdo-guarna",
+      "titulo": "Crónica o anales",
+      "titulo_original": "Chronicon sive Annales",
+      "autor": "Romualdo Guarna",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1178,
+        "aprox": true,
+        "lugar": "Salerno",
+        "lon": 14.759,
+        "lat": 40.681
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1000,
+        "hasta": 1178
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica universal del arzobispo Romualdo II de Salerno, que llega a 1178 y es fuente importante de su tiempo. Cuenta las guerras entre Federico Barbarroja y la Liga lombarda, la batalla de Legnano en 1176 y las negociaciones de Venecia de 1177.",
+      "por_que_importa": "Es un relato cercano a los hechos, desde el sur de Italia, del enfrentamiento del emperador con las ciudades.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Romuald Guarna"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "canones-del-iii-concilio-de-letran",
+      "titulo": "Cánones del III Concilio de Letrán",
+      "titulo_original": "Canones concilii Lateranensis III",
+      "autor": "Alejandro III y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1179,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1179,
+        "hasta": 1179
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Veintisiete cánones del concilio de 1179, que fijó la elección del papa por dos tercios de los cardenales, prohibió la ordenación de clérigos antes de la edad canónica y condenó a los herejes cátaros y a quienes comerciaban armas con los musulmanes.",
+      "por_que_importa": "Es el texto mismo del concilio que dispuso el modo de elección papal vigente.",
+      "leer": [],
+      "wikipedia": {
+        "es": "III Concilio de Letrán",
+        "en": "Third Council of the Lateran"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-arnoldo-de-lubeck",
+      "titulo": "Crónica de los eslavos",
+      "titulo_original": "Chronica Slavorum",
+      "autor": "Arnoldo de Lübeck",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1210,
+        "aprox": true,
+        "lugar": "Lübeck",
+        "lon": 10.686,
+        "lat": 53.87
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "levante",
+          "tierra-santa"
+        ],
+        "desde": 1171,
+        "hasta": 1209
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del abad Arnoldo de Lübeck sobre el norte de Alemania y los eslavos, que sigue la política del Imperio hasta 1209. Narra la cruzada alemana de 1197-1198 de Enrique VI y la muerte del emperador, que la dejó sin cabeza.",
+      "por_que_importa": "Da el relato alemán de la cruzada de 1197.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Arnold of Lübeck"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-albigensis",
+      "titulo": "Historia albigense",
+      "titulo_original": "Hystoria Albigensis",
+      "autor": "Pedro de Vaux-de-Cernay",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1218,
+        "aprox": true,
+        "lugar": "Les Vaux-de-Cernay",
+        "lon": 1.936,
+        "lat": 48.684
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1203,
+        "hasta": 1218
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del monje cisterciense Pedro de Vaux-de-Cernay, sobrino del abad Guy y testigo de parte de la campaña, de la cruzada contra los cátaros desde 1203 hasta 1218. Es una obra favorable a los cruzados y a Simón de Montfort.",
+      "por_que_importa": "Es el relato principal del lado cruzado de la cruzada albigense.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pierre des Vaux de Cernay",
+        "en": "Peter of Vaux-de-Cernay"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cancion-de-la-cruzada-albigense",
+      "titulo": "Canción de la cruzada albigense",
+      "titulo_original": "Canso de la Crozada",
+      "autor": "Guillermo de Tudela y un continuador anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1210,
+        "anio_hasta": 1228,
+        "aprox": true,
+        "lugar": "Tolosa",
+        "lon": 1.443,
+        "lat": 43.604
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1209,
+        "hasta": 1219
+      },
+      "idioma_original": "Occitano",
+      "soporte": "Poema",
+      "resumen": "Poema en occitano de la guerra de 1209 a 1219. La primera parte, de Guillermo de Tudela, es favorable a la cruzada; la continuación anónima, de un autor hostil a Simón de Montfort, narra la resistencia de Toulouse.",
+      "por_que_importa": "Es el contrapunto occitano de la crónica de Pedro de Vaux-de-Cernay.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Canción de la Cruzada",
+        "en": "Song of the Albigensian Crusade"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "vida-primera-de-francisco",
+      "titulo": "Vida primera de san Francisco",
+      "titulo_original": "Vita prima",
+      "autor": "Tomás de Celano",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1229,
+        "aprox": false,
+        "lugar": "Asís",
+        "lon": 12.615,
+        "lat": 43.071
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1181,
+        "hasta": 1226
+      },
+      "idioma_original": "Latín",
+      "soporte": "Vida",
+      "resumen": "Primera biografía de san Francisco, encargada por Gregorio IX al fraile Tomás de Celano, que lo conoció. Cuenta su conversión, la aprobación oral de la regla por Inocencio III en 1209 y el crecimiento de la orden.",
+      "por_que_importa": "Es la fuente más próxima a los orígenes de la orden franciscana.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tomás de Celano",
+        "en": "Thomas of Celano"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "chartularium-universitatis-parisiensis",
+      "titulo": "Cartulario de la Universidad de París",
+      "titulo_original": "Chartularium Universitatis Parisiensis",
+      "autor": "Heinrich Denifle y Émile Châtelain (ed.)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1889,
+        "anio_hasta": 1897,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1200,
+        "hasta": 1452
+      },
+      "idioma_original": "Latín",
+      "soporte": "Colección de documentos",
+      "resumen": "Edición de los documentos de la universidad de París de 1200 a 1452, en cuatro tomos: estatutos, bulas y cartas. Reúne el decreto del concilio de Sens de 1210 que prohibió leer los libros de filosofía natural de Aristóteles, los estatutos de 1215 y los documentos de la fundación del colegio de la Sorbona en 1257.",
+      "por_que_importa": "Reúne los textos oficiales de la institución universitaria parisina.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "cruzada-de-los-ninos-dickson",
+      "titulo": "La cruzada de los niños: historia medieval y mitohistoria moderna",
+      "titulo_original": "The Children's Crusade: Medieval History, Modern Mythistory",
+      "autor": "Gary Dickson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia",
+          "tierra-santa"
+        ],
+        "desde": 1212,
+        "hasta": 1212
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las marchas populares de 1212 en Alemania y Francia y de las fuentes que las cuentan. Reconstruye lo que se sabe y muestra cómo la tradición lo transformó en una cruzada de niños.",
+      "por_que_importa": "Es el estudio crítico de referencia sobre qué ocurrió en 1212.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cruzada de los niños",
+        "en": "Children's Crusade"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gesta-de-felipe-augusto",
+      "titulo": "Hechos de Felipe Augusto",
+      "titulo_original": "Gesta Philippi Augusti",
+      "autor": "Guillermo el Bretón",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1220,
+        "aprox": true,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "britania",
+          "alemania"
+        ],
+        "desde": 1179,
+        "hasta": 1223
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del capellán real Guillermo el Bretón sobre el reinado de Felipe II Augusto, con un relato de la batalla de Bouvines del 27 de julio de 1214, en la que estuvo cerca del rey. Completó después la Filípida, poema sobre el mismo reinado.",
+      "por_que_importa": "Es el relato de un testigo cercano al rey de la batalla.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Guillermo el Bretón",
+        "en": "William the Breton"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-domingo-de-bouvines",
+      "titulo": "El domingo de Bouvines",
+      "titulo_original": "Le dimanche de Bouvines",
+      "autor": "Georges Duby",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "alemania",
+          "britania"
+        ],
+        "desde": 1214,
+        "hasta": 1214
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la batalla de Bouvines (27 de julio de 1214) a partir de sus fuentes: cómo se combatió, qué se contó después y cómo los contemporáneos la vieron. Sigue su recuerdo hasta el siglo XX.",
+      "por_que_importa": "Es el estudio de referencia sobre la batalla y su memoria.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Le Dimanche de Bouvines"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "constituciones-del-iv-concilio-de-letran",
+      "titulo": "Constituciones del IV Concilio de Letrán",
+      "titulo_original": "Constitutiones concilii Lateranensis IV",
+      "autor": "Inocencio III y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1215,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1215,
+        "hasta": 1215
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Setenta constituciones del concilio de 1215. Fijan la profesión de fe y el término «transubstanciación», la confesión y la comunión anuales, el distintivo de los judíos y la regulación de las órdenes y de la cruzada.",
+      "por_que_importa": "Es el texto mismo del concilio que fijó la disciplina de la Iglesia latina.",
+      "leer": [],
+      "wikipedia": {
+        "es": "IV Concilio de Letrán",
+        "en": "Fourth Council of the Lateran"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "libellus-de-principiis",
+      "titulo": "Libelo de los orígenes de la Orden de Predicadores",
+      "titulo_original": "Libellus de principiis Ordinis Praedicatorum",
+      "autor": "Jordán de Sajonia",
+      "autor_id": "jordan-de-sajonia",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1233,
+        "aprox": true,
+        "lugar": "Bolonia",
+        "lon": 11.343,
+        "lat": 44.494
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "italia"
+        ],
+        "desde": 1170,
+        "hasta": 1221
+      },
+      "idioma_original": "Latín",
+      "soporte": "Vida",
+      "resumen": "Relato de Jordán de Sajonia, segundo maestro de la orden, sobre santo Domingo y los comienzos de la orden dominica, entre ellos la confirmación papal de 1216.",
+      "por_que_importa": "Es la fuente más cercana al origen de la orden dominica.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Libellus de principiis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-los-mongoles",
+      "titulo": "Historia de los mongoles",
+      "titulo_original": "Ystoria Mongalorum",
+      "autor": "Juan de Plano Carpini",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1247,
+        "aprox": true,
+        "lugar": "Lyon",
+        "lon": 4.835,
+        "lat": 45.767
+      },
+      "trata": {
+        "regiones": [
+          "estepa-pontica",
+          "hungria",
+          "polonia",
+          "rus"
+        ],
+        "desde": 1223,
+        "hasta": 1247
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Informe del fraile franciscano Juan de Plano Carpini, enviado por Inocencio IV a la corte mongol entre 1245 y 1247. Describe a los mongoles, sus conquistas en Rusia y Europa oriental y el estado de las tierras que atravesó, entre ellas Kiev destruida.",
+      "por_que_importa": "Es el primer informe europeo de testigo sobre los mongoles.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ystoria Mongalorum",
+        "en": "Ystoria Mongalorum"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "lea-historia-de-la-inquisicion",
+      "titulo": "Historia de la Inquisición en la Edad Media",
+      "titulo_original": "A History of the Inquisition of the Middle Ages",
+      "autor": "Henry Charles Lea",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1887,
+        "anio_hasta": 1888,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "iberia",
+          "italia"
+        ],
+        "desde": 1200,
+        "hasta": 1500
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia en tres volúmenes de la Inquisición medieval, desde sus orígenes en la represión de la herejía, con las medidas de Gregorio IX en 1231, los procesos a cátaros y valdenses y el proceso a los templarios. Es una obra crítica del siglo XIX, aún referencia por la documentación reunida.",
+      "por_que_importa": "Es la obra clásica sobre el tema, y sigue citándose por sus fuentes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "carmen-miserabile",
+      "titulo": "Carmen miserabile",
+      "titulo_original": "Carmen miserabile super destructione regni Hungariae per Tartaros",
+      "autor": "Rogerio de Torre Maggiore",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1244,
+        "aprox": true,
+        "lugar": "Oradea (Várad)",
+        "lon": 21.921,
+        "lat": 47.072
+      },
+      "trata": {
+        "regiones": [
+          "hungria"
+        ],
+        "desde": 1241,
+        "hasta": 1242
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Relato del arcediano Rogerio, que fue cautivo de los mongoles, de la invasión de Hungría de 1241-1242. Cuenta la batalla de Mohi, la destrucción del reino y su propia huida.",
+      "por_que_importa": "Es el relato de un testigo de la invasión mongola de Hungría.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Carmen miserabile"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "primera-cronica-de-novgorod",
+      "titulo": "Primera crónica de Nóvgorod",
+      "titulo_original": "Новгородская первая летопись",
+      "autor": "Anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1250,
+        "aprox": true,
+        "lugar": "Nóvgorod",
+        "lon": 31.276,
+        "lat": 58.521
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "baltico"
+        ],
+        "desde": 1016,
+        "hasta": 1330
+      },
+      "idioma_original": "Antiguo eslavo oriental",
+      "soporte": "Crónica",
+      "resumen": "La crónica más antigua conservada de Nóvgorod, con registros anuales desde 1016, de los que los de 1240-1242 describen la victoria de Alejandro Nevski sobre los alemanes en el lago Peipus (1242).",
+      "por_que_importa": "Da el relato ruso más antiguo de la batalla del Hielo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de Nóvgorod",
+        "en": "Novgorod First Chronicle"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-rimada-de-livonia",
+      "titulo": "Crónica rimada de Livonia",
+      "titulo_original": "Livländische Reimchronik",
+      "autor": "Anónimo (caballero de la Orden Teutónica)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1290,
+        "aprox": true,
+        "lugar": "Riga",
+        "lon": 24.107,
+        "lat": 56.947
+      },
+      "trata": {
+        "regiones": [
+          "baltico"
+        ],
+        "desde": 1180,
+        "hasta": 1290
+      },
+      "idioma_original": "Alemán medio",
+      "soporte": "Crónica",
+      "resumen": "Crónica en verso de la conquista de los livonios por los Hermanos de la Espada y luego por la rama livonia de la Orden Teutónica, escrita hacia 1290. Cuenta la batalla del hielo del lago Peipus de 1242 desde el bando de la orden.",
+      "por_que_importa": "Da el relato de la orden de la batalla del Hielo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica rimada de Livonia",
+        "en": "Livonian Rhymed Chronicle"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "constituciones-del-concilio-de-lyon-i",
+      "titulo": "Constituciones del I Concilio de Lyon",
+      "titulo_original": "Constitutiones concilii Lugdunensis I",
+      "autor": "Inocencio IV y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1245,
+        "aprox": false,
+        "lugar": "Lyon",
+        "lon": 4.835,
+        "lat": 45.767
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1245,
+        "hasta": 1245
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Constituciones del concilio de 1245, convocado por Inocencio IV, que incluye la sentencia de deposición del emperador Federico II, medidas para Tierra Santa, contra los mongoles y contra los herejes.",
+      "por_que_importa": "Es el texto mismo del concilio y de la deposición de Federico II.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Concilio de Lyon I",
+        "en": "First Council of Lyon"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "constituciones-del-ii-concilio-de-lyon",
+      "titulo": "Constituciones del II Concilio de Lyon",
+      "titulo_original": "Constitutiones concilii Lugdunensis II",
+      "autor": "Gregorio X y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1274,
+        "aprox": false,
+        "lugar": "Lyon",
+        "lon": 4.835,
+        "lat": 45.767
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1274,
+        "hasta": 1274
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Constituciones del concilio de 1274, convocado por Gregorio X. Proclama la unión con la Iglesia griega, fija el cónclave para elegir papa y prepara una nueva cruzada.",
+      "por_que_importa": "Es el texto mismo del concilio que declaró la unión con los griegos y reguló el cónclave.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Concilio de Lyon II",
+        "en": "Second Council of Lyon"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-muntaner",
+      "titulo": "Crónica",
+      "titulo_original": "Crònica",
+      "autor": "Ramón Muntaner",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1325,
+        "aprox": true,
+        "lugar": "Valencia",
+        "lon": -0.376,
+        "lat": 39.47
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "sicilia"
+        ],
+        "desde": 1208,
+        "hasta": 1328
+      },
+      "idioma_original": "Catalán",
+      "soporte": "Crónica",
+      "resumen": "Crónica del soldado Ramón Muntaner sobre la casa real de Aragón y los almogávares, hasta 1328. Cuenta las Vísperas Sicilianas de 1282 y la expedición catalana de Sicilia.",
+      "por_que_importa": "Es el relato catalán de las Vísperas y de la intervención de Pedro III de Aragón.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Ramón Muntaner",
+        "en": "Ramon Muntaner"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-sicula-de-neocastro",
+      "titulo": "Historia Sicula",
+      "titulo_original": "Historia Sicula",
+      "autor": "Bartolomé de Neocastro",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1293,
+        "aprox": true,
+        "lugar": "Mesina",
+        "lon": 15.554,
+        "lat": 38.194
+      },
+      "trata": {
+        "regiones": [
+          "sicilia"
+        ],
+        "desde": 1250,
+        "hasta": 1293
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica del jurista Bartolomé de Neocastro, de Mesina, sobre Sicilia de 1250 a 1293. Cuenta el alzamiento de 1282 y la llegada de Pedro III de Aragón desde el punto de vista siciliano.",
+      "por_que_importa": "Es el relato siciliano de la época de las Vísperas.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Bartholomew of Neocastro"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "edicto-de-expulsion-de-los-judios-de-inglaterra",
+      "titulo": "Edicto de expulsión de los judíos de Inglaterra",
+      "titulo_original": "Edictum de expulsione Judaeorum",
+      "autor": "Eduardo I",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1290,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1290,
+        "hasta": 1290
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Orden de Eduardo I, en julio de 1290, para que los judíos salieran de Inglaterra antes de Todos los Santos, con sus bienes muebles y sin los créditos. Siguió a una concesión de impuesto del Parlamento.",
+      "por_que_importa": "Es el documento mismo de la expulsión, que duró hasta 1656.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Edicto de expulsión",
+        "en": "Edict of Expulsion"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-juicio-de-los-templarios",
+      "titulo": "El juicio de los templarios",
+      "titulo_original": "The Trial of the Templars",
+      "autor": "Malcolm Barber",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1307,
+        "hasta": 1314
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio del proceso de Felipe IV de Francia contra la orden del Temple desde el arresto de 1307, a partir de las actas de los interrogatorios, hasta su supresión por el concilio de Vienne. Examina las acusaciones y su validez.",
+      "por_que_importa": "Es el estudio de referencia sobre el proceso.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pergamino-de-chinon",
+      "titulo": "Pergamino de Chinon",
+      "titulo_original": "Chinon Parchment",
+      "autor": "Comisión de cardenales de Clemente V",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1308,
+        "aprox": false,
+        "lugar": "Chinon",
+        "lon": 0.243,
+        "lat": 47.167
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1308,
+        "hasta": 1308
+      },
+      "idioma_original": "Latín",
+      "soporte": "Acta",
+      "resumen": "Acta de agosto de 1308 en la que tres cardenales delegados por Clemente V absolvieron a los dirigentes de la orden del Temple tras su confesión, lo que dejó la acusación de herejía en suspenso. Fue redescubierto en 2001.",
+      "por_que_importa": "Según Barbara Frale, que lo halló en 2001, muestra que el papa no consideró probada la herejía del Temple. Otros lo leen como la absolución de penitentes, sin juicio sobre la orden.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pergamino de Chinon",
+        "en": "Chinon Parchment"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vox-in-excelso",
+      "titulo": "Vox in excelso",
+      "titulo_original": "Vox in excelso",
+      "autor": "Clemente V",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1312,
+        "aprox": false,
+        "lugar": "Vienne",
+        "lon": 4.875,
+        "lat": 45.526
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1312,
+        "hasta": 1312
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Bula del 22 de marzo de 1312, leída en el concilio de Vienne, por la que Clemente V suprimió la orden del Temple sin condenarla, por vía administrativa y no judicial.",
+      "por_que_importa": "Es el acto de supresión del Temple.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Vox in excelso",
+        "en": "Vox in excelso"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-bruce",
+      "titulo": "El Bruce",
+      "titulo_original": "The Brus",
+      "autor": "John Barbour",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1375,
+        "aprox": true,
+        "lugar": "Aberdeen",
+        "lon": -2.1,
+        "lat": 57.15
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "caledonia"
+        ],
+        "desde": 1306,
+        "hasta": 1332
+      },
+      "idioma_original": "Escocés medio",
+      "soporte": "Poema",
+      "resumen": "Poema de John Barbour, arcediano de Aberdeen, sobre las guerras de Roberto Bruce. Narra la batalla de Bannockburn de 1314 como un triunfo escocés, con un tono épico escrito más de medio siglo después.",
+      "por_que_importa": "Es el relato más largo y conocido de Bannockburn, de fuente escocesa.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Brus"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "vita-edwardi-secundi",
+      "titulo": "Vida de Eduardo II",
+      "titulo_original": "Vita Edwardi Secundi",
+      "autor": "Anónimo (clérigo de la corte)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1326,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1307,
+        "hasta": 1325
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica anónima del reinado de Eduardo II hasta 1325, escrita por un clérigo cercano a la corte. Cuenta Bannockburn desde el lado inglés, con la derrota del rey.",
+      "por_que_importa": "Es un relato contemporáneo inglés de la derrota.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Vita Edwardi Secundi",
+        "en": "Vita Edwardi Secundi"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "the-great-famine-jordan",
+      "titulo": "La Gran Hambruna: el norte de Europa a principios del siglo XIV",
+      "titulo_original": "The Great Famine: Northern Europe in the Early Fourteenth Century",
+      "autor": "William Chester Jordan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "britania",
+          "escandinavia",
+          "francia"
+        ],
+        "desde": 1315,
+        "hasta": 1322
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la crisis de las cosechas y la mortalidad de 1315 a 1322 en el norte de Europa. Examina el clima, los precios, el hambre y las respuestas de gobiernos y comunidades.",
+      "por_que_importa": "Es el estudio de referencia sobre la hambruna.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-papado-y-el-levante",
+      "titulo": "El papado y el Levante (1204-1571), vol. 1",
+      "titulo_original": "The Papacy and the Levant (1204-1571), vol. I",
+      "autor": "Kenneth M. Setton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "tierra-santa"
+        ],
+        "desde": 1204,
+        "hasta": 1370
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Primer volumen de la historia de Setton sobre el papado, las ligas y las cruzadas contra los turcos. Trata las cruzadas de Esmirna de 1343-1351, las ligas navales de Clemente VI y las posteriores a ellas.",
+      "por_que_importa": "Es la exposición de referencia de las ligas y cruzadas del siglo XIV.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "carta-de-fundacion-de-la-universidad-de-praga",
+      "titulo": "Carta de fundación de la Universidad de Praga",
+      "titulo_original": "Privilegium fundationis universitatis Pragensis",
+      "autor": "Carlos IV del Sacro Imperio",
+      "autor_id": "carlos-iv-del-sacro-imperio",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1348,
+        "aprox": false,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [
+          "bohemia"
+        ],
+        "desde": 1348,
+        "hasta": 1348
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Documento del 7 de abril de 1348 por el que Carlos IV, rey de Bohemia, fundó el Estudio General de Praga, sobre la bula de Clemente VI de 1347 que lo autorizaba, con los privilegios de las universidades de París y Bolonia.",
+      "por_que_importa": "Es el acta de fundación de la primera universidad del Imperio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-hansa-alemana",
+      "titulo": "La Hansa alemana",
+      "titulo_original": "La Hanse (XIIe-XVIIe siècles)",
+      "autor": "Philippe Dollinger",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "baltico",
+          "escandinavia"
+        ],
+        "desde": 1150,
+        "hasta": 1669
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Historia de la Hansa desde sus orígenes en el siglo XII hasta su decadencia, con su organización, sus dietas y su política. Trata la dieta de Lübeck de 1356, a la que se atribuye la primera asamblea general de las ciudades.",
+      "por_que_importa": "Es el estudio de referencia sobre la Hansa.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "la-toma-de-alejandria",
+      "titulo": "La toma de Alejandría",
+      "titulo_original": "La Prise d'Alixandre",
+      "autor": "Guillaume de Machaut",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1370,
+        "aprox": true,
+        "lugar": "Reims",
+        "lon": 4.029,
+        "lat": 49.265
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "tierra-santa"
+        ],
+        "desde": 1329,
+        "hasta": 1369
+      },
+      "idioma_original": "Francés medio",
+      "soporte": "Poema",
+      "resumen": "Poema de Guillaume de Machaut sobre la vida de Pedro I de Chipre y la cruzada que tomó Alejandría en octubre de 1365, a partir del testimonio de quienes participaron.",
+      "por_que_importa": "Es el relato más extenso de la cruzada de Alejandría.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Guillaume de Machaut",
+        "en": "Guillaume de Machaut"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-florentina-de-stefani",
+      "titulo": "Crónica florentina",
+      "titulo_original": "Cronaca fiorentina",
+      "autor": "Marchionne di Coppo Stefani",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1385,
+        "aprox": true,
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1280,
+        "hasta": 1385
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Crónica",
+      "resumen": "Crónica de Florencia del magistrado Marchionne di Coppo Stefani, que vivió los hechos. Cuenta la revuelta de los ciompi de 1378, de los trabajadores de la lana, y su gobierno efímero.",
+      "por_que_importa": "Es un relato de un contemporáneo del levantamiento de 1378.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cronaca fiorentina di Marchionne di Coppo Stefani",
+        "en": "Cronaca fiorentina di Marchionne di Coppo Stefani"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historias-florentinas",
+      "titulo": "Historias florentinas",
+      "titulo_original": "Istorie fiorentine",
+      "autor": "Nicolás Maquiavelo",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1520,
+        "anio_hasta": 1525,
+        "aprox": false,
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 476,
+        "hasta": 1492
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro",
+      "resumen": "Historia de Florencia por encargo de Clemente VII, escrita por Maquiavelo, en ocho libros hasta 1492. El libro III trata la revuelta de los ciompi de 1378 y el discurso que les atribuye.",
+      "por_que_importa": "Es la interpretación política de la revuelta que más circuló.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Florentine Histories"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "los-origenes-del-gran-cisma",
+      "titulo": "Los orígenes del Gran Cisma",
+      "titulo_original": "The Origins of the Great Schism",
+      "autor": "Walter Ullmann",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1948,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "italia"
+        ],
+        "desde": 1378,
+        "hasta": 1417
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la doble elección de 1378, Urbano VI en Roma y Clemente VII en Aviñón, y de por qué el colegio cardenalicio no pudo resolver el conflicto. Parte de la tesis de la teoría del gobierno papal.",
+      "por_que_importa": "Es el estudio clásico de cómo empezó el cisma.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "zadonshchina",
+      "titulo": "Zadonshchina",
+      "titulo_original": "Задонщина",
+      "autor": "Sofoni de Riazán (atribuido)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1400,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 1380,
+        "hasta": 1380
+      },
+      "idioma_original": "Antiguo eslavo oriental",
+      "soporte": "Poema",
+      "resumen": "Poema de fines del siglo XIV o principios del XV sobre la batalla de Kulikovo, que tomó modelos del Cantar de las huestes de Igor. Celebra la victoria de Dmitri Donskói sobre Mamái.",
+      "por_que_importa": "Es el relato literario más cercano a Kulikovo.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Zadonshchina"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "cronica-de-nikon",
+      "titulo": "Crónica de Nikon",
+      "titulo_original": "Никоновская летопись",
+      "autor": "Anónimo (compilación de 1520-1560)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1527,
+        "aprox": true,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
+      },
+      "trata": {
+        "regiones": [
+          "rus"
+        ],
+        "desde": 850,
+        "hasta": 1520
+      },
+      "idioma_original": "Antiguo eslavo oriental",
+      "soporte": "Crónica",
+      "resumen": "Compilación de crónicas rusas hecha por encargo del metropolitano Daniel en la década de 1520 y revisada hacia 1550. Incluye el relato de Kulikovo (1380) y de la parada del río Ugra (1480).",
+      "por_que_importa": "Es la fuente más extensa de la historia rusa medieval, aunque tardía.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Nikon Chronicle"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "vida-de-esteban-lazarevic",
+      "titulo": "Vida de Esteban Lazarević, déspota serbio",
+      "titulo_original": "Житије деспота Стефана Лазаревића",
+      "autor": "Constantino de Kostenets",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1431,
+        "aprox": true,
+        "lugar": "Smederevo"
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1371,
+        "hasta": 1427
+      },
+      "idioma_original": "Serbio eclesiástico",
+      "soporte": "Vida",
+      "resumen": "Biografía del déspota Esteban Lazarević escrita por Constantino de Kostenets, su consejero. Cuenta la batalla de Kosovo de 1389, en la que murió el príncipe Lázaro, y la sumisión de Serbia a los otomanos.",
+      "por_que_importa": "Es una fuente serbia de principios del siglo XV sobre Kosovo.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Constantino de Kostenets",
+        "en": "Constantine of Kostenets"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "serbian-golgotha",
+      "titulo": "El Gólgota serbio: Kosovo, 1389",
+      "titulo_original": "Serbian Golgotha: Kosovo, 1389",
+      "autor": "Thomas A. Emmert",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "balcanes"
+        ],
+        "desde": 1389,
+        "hasta": 1389
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la batalla de Kosovo de 1389 y de las fuentes que la cuentan, serbias, otomanas y occidentales, que a menudo difieren. Examina cómo la batalla se volvió un mito nacional serbio.",
+      "por_que_importa": "Es el estudio crítico de referencia de la batalla y de su memoria.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-pogromo-de-1391-en-espana",
+      "titulo": "El pogromo de 1391 en España: ¿crisis social o no?",
+      "titulo_original": "The 1391 Pogrom in Spain: Social Crisis or Not?",
+      "autor": "Philippe Wolff",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1971,
+        "aprox": false,
+        "lugar": "Tolosa",
+        "lon": 1.443,
+        "lat": 43.604
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1391,
+        "hasta": 1391
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de la revista Past & Present (n.º 50, 1971) sobre los ataques contra las juderías de Castilla y Aragón desde Sevilla en junio de 1391. Discute las causas, la violencia y las conversiones que siguieron.",
+      "por_que_importa": "Es el artículo de referencia sobre las matanzas de 1391.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-enrique-iii-de-ayala",
+      "titulo": "Crónica del rey don Enrique tercero",
+      "titulo_original": "Crónica del rey don Enrique tercero",
+      "autor": "Pero López de Ayala",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1395,
+        "aprox": true,
+        "lugar": "Castilla"
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1390,
+        "hasta": 1395
+      },
+      "idioma_original": "Castellano",
+      "soporte": "Crónica",
+      "resumen": "Crónica de los primeros años del reinado de Enrique III de Castilla escrita por el canciller Pero López de Ayala, cronista de la corte. Recoge los asaltos a las juderías de 1391, desde Sevilla.",
+      "por_que_importa": "Es la crónica castellana de la época de los asaltos de 1391.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pedro López de Ayala",
+        "en": "Pero López de Ayala"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "reisebuch-de-schiltberger",
+      "titulo": "Libro de viajes de Johann Schiltberger",
+      "titulo_original": "Reisebuch",
+      "autor": "Johann Schiltberger",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1427,
+        "aprox": true,
+        "lugar": "Múnich",
+        "lon": 11.575,
+        "lat": 48.138
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "hungria",
+          "anatolia"
+        ],
+        "desde": 1394,
+        "hasta": 1427
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Memorias",
+      "resumen": "Relato del soldado bávaro Johann Schiltberger, capturado por los otomanos en Nicópolis en 1396 y prisionero durante unos treinta años. Cuenta la batalla, la ejecución de prisioneros y sus viajes en Anatolia y Asia.",
+      "por_que_importa": "Es una fuente de testigo de la batalla de Nicópolis.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Johann Schiltberger",
+        "en": "Johann Schiltberger"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "carta-de-la-union-de-kalmar",
+      "titulo": "Carta de la Unión de Kalmar",
+      "titulo_original": "Unionsbrevet",
+      "autor": "Margarita I de Dinamarca",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1397,
+        "aprox": false,
+        "lugar": "Kalmar",
+        "lon": 16.366,
+        "lat": 56.664
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia"
+        ],
+        "desde": 1397,
+        "hasta": 1397
+      },
+      "idioma_original": "Danés antiguo",
+      "soporte": "Decreto",
+      "resumen": "Documento en papel redactado en Kalmar en 1397, en la coronación de Erico de Pomerania como rey de Dinamarca, Noruega y Suecia. Declara la unión de los tres reinos bajo un solo rey, pero es un borrador de 17 emisores y solo 10 sellos, y su validez se discute. No es la carta de coronación (Kroningsbrevet), en pergamino y con 67 sellos, que no regula la unión.",
+      "por_que_importa": "Es el texto asociado a la fundación de la Unión de Kalmar.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Unión de Kalmar",
+        "en": "Kalmar Union"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "gesta-henrici-quinti",
+      "titulo": "Hechos de Enrique V",
+      "titulo_original": "Gesta Henrici Quinti",
+      "autor": "Anónimo (capellán de Enrique V)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1417,
+        "aprox": true,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia"
+        ],
+        "desde": 1413,
+        "hasta": 1416
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica anónima, escrita antes de 1418 por un capellán que acompañó al rey Enrique V en la campaña de 1415 y que cubre hasta 1416. Cuenta el sitio de Harfleur y la batalla de Azincourt del 25 de octubre de 1415. Fue escrita para justificar la guerra del rey ante el público inglés, y sus editores (Taylor y Roskell, 1975) la leen como propaganda real.",
+      "por_que_importa": "Es el relato inglés de un testigo de la batalla, escrito con fines de propaganda.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Gesta Henrici Quinti"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "azincourt-barker",
+      "titulo": "Azincourt: el rey, la campaña, la batalla",
+      "titulo_original": "Agincourt: The King, the Campaign, the Battle",
+      "autor": "Juliet Barker",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "francia"
+        ],
+        "desde": 1415,
+        "hasta": 1415
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la campaña de 1415 y de la batalla de Azincourt a partir de las fuentes inglesas y francesas, con las cifras de los ejércitos y el curso del combate.",
+      "por_que_importa": "Es un estudio reciente de la batalla.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "journal-du-siege-d-orleans",
+      "titulo": "Diario del sitio de Orleans",
+      "titulo_original": "Journal du siège d'Orléans",
+      "autor": "Anónimo (burgués de Orleans)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1466,
+        "aprox": true,
+        "lugar": "Orleans",
+        "lon": 1.904,
+        "lat": 47.902
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1428,
+        "hasta": 1429
+      },
+      "idioma_original": "Francés medio",
+      "soporte": "Diario",
+      "resumen": "Diario del sitio inglés de Orleans, desde octubre de 1428 hasta su levantamiento en mayo de 1429, compilado hacia 1466 a partir de notas tomadas durante el sitio; desde el 8 de mayo copia a otros cronistas. Registra la llegada de Juana de Arco y el fin del sitio.",
+      "por_que_importa": "Es una fuente principal del sitio, con material de testigos locales y de otros cronistas posteriores.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ditie-de-jehanne-d-arc",
+      "titulo": "Ditié de Jehanne d'Arc",
+      "titulo_original": "Ditié de Jehanne d'Arc",
+      "autor": "Cristina de Pizán",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1429,
+        "aprox": false,
+        "lugar": "Poissy",
+        "lon": 2.045,
+        "lat": 48.929
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 1429,
+        "hasta": 1429
+      },
+      "idioma_original": "Francés medio",
+      "soporte": "Poema",
+      "resumen": "Poema de Cristina de Pizán, escrito en julio de 1429, que celebra a Juana de Arco y la victoria de Orleans. Es la única obra literaria en francés sobre ella escrita en vida de la joven.",
+      "por_que_importa": "Es un testimonio contemporáneo del efecto del levantamiento del sitio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "demostraciones-de-calcocondilas",
+      "titulo": "Demostraciones de las historias",
+      "titulo_original": "Ἀποδείξεις ἱστοριῶν",
+      "autor": "Laónico Calcocondilas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1464,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "hungria",
+          "anatolia"
+        ],
+        "desde": 1298,
+        "hasta": 1463
+      },
+      "idioma_original": "Griego",
+      "soporte": "Crónica",
+      "resumen": "Historia de los turcos otomanos y de la caída de Bizancio escrita por el ateniense Laónico Calcocondilas en el siglo XV. Trata las campañas de Hunyadi, Varna (1444) y la segunda batalla de Kosovo (1448).",
+      "por_que_importa": "Es una fuente bizantina sobre las batallas de Varna y de Kosovo de 1448.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Laónico Calcocondilas",
+        "en": "Laonikos Chalkokondyles"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-carlos-vii-de-basin",
+      "titulo": "Historia de Carlos VII",
+      "titulo_original": "Historia Karoli Septimi",
+      "autor": "Thomas Basin",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1471,
+        "aprox": true,
+        "lugar": "Utrecht",
+        "lon": 5.122,
+        "lat": 52.091
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "britania"
+        ],
+        "desde": 1407,
+        "hasta": 1461
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Historia del obispo Thomas Basin sobre el reinado de Carlos VII, escrita en el exilio. Cuenta la reconquista de Normandía y de Guyena, incluida la batalla de Castillon de 1453 que cerró la guerra de los Cien Años.",
+      "por_que_importa": "Es un relato francés de la época de la batalla de Castillon.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Thomas Basin",
+        "en": "Thomas Basin"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-jean-chartier",
+      "titulo": "Crónica de Carlos VII",
+      "titulo_original": "Chronique de Charles VII",
+      "autor": "Jean Chartier",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1460,
+        "aprox": true,
+        "lugar": "Abadía de Saint-Denis",
+        "lon": 2.36,
+        "lat": 48.936
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "britania"
+        ],
+        "desde": 1422,
+        "hasta": 1461
+      },
+      "idioma_original": "Francés medio",
+      "soporte": "Crónica",
+      "resumen": "Crónica oficial de Carlos VII, en francés, escrita por el monje de Saint-Denis Jean Chartier, que va de 1422 a la muerte del rey en 1461. Trata la reconquista francesa y las campañas de Normandía y de Guyena.",
+      "por_que_importa": "Es la crónica oficial del reino en esos años.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "cartas-de-paston",
+      "titulo": "Cartas de los Paston",
+      "titulo_original": "The Paston Letters",
+      "autor": "Familia Paston",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1422,
+        "anio_hasta": 1509,
+        "aprox": false,
+        "lugar": "Norwich",
+        "lon": 1.293,
+        "lat": 52.629
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1422,
+        "hasta": 1509
+      },
+      "idioma_original": "Inglés medio",
+      "soporte": "Cartas",
+      "resumen": "Colección de cartas de la familia Paston, de Norfolk, entre 1422 y 1509. Muestran la vida cotidiana y la política regional durante la guerra de las Dos Rosas.",
+      "por_que_importa": "Son el testimonio privado más rico de la época.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Paston Letters"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cronica-de-croyland",
+      "titulo": "Crónica de Croyland",
+      "titulo_original": "Historia Croylandensis (continuación)",
+      "autor": "Anónimo (continuador de Croyland)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1486,
+        "aprox": true,
+        "lugar": "Abadía de Crowland",
+        "lon": -0.165,
+        "lat": 52.676
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1459,
+        "hasta": 1486
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Continuación de la crónica de la abadía de Croyland, escrita en 1486 por un autor anónimo cercano al gobierno. Cuenta las guerras de las Dos Rosas desde 1459 y el reinado de Ricardo III hasta Bosworth.",
+      "por_que_importa": "Es la crónica inglesa contemporánea más completa de esos años.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Crónica de Croyland",
+        "en": "Croyland Chronicle"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "anglica-historia",
+      "titulo": "Historia inglesa",
+      "titulo_original": "Anglica Historia",
+      "autor": "Polidoro Virgilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1506,
+        "anio_hasta": 1534,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1399,
+        "hasta": 1485
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Historia de Inglaterra del humanista Polidoro Virgilio, encargada por Enrique VII y terminada en 1513 e impresa en Basilea en 1534. Cuenta la derrota de Ricardo III en Bosworth y el comienzo de la dinastía Tudor, con la versión de los vencedores.",
+      "por_que_importa": "Es la versión Tudor de Bosworth.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Polidoro Virgilio",
+        "en": "Polydore Vergil"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "capitulaciones-de-granada",
+      "titulo": "Capitulaciones de Granada",
+      "titulo_original": "Capitulaciones de Granada",
+      "autor": "Boabdil y los Reyes Católicos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1491,
+        "aprox": false,
+        "lugar": "Santa Fe (Granada)",
+        "lon": -3.718,
+        "lat": 37.189
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1491,
+        "hasta": 1492
+      },
+      "idioma_original": "Castellano",
+      "soporte": "Tratado",
+      "resumen": "Tratado firmado en noviembre de 1491 por el que Boabdil rindió Granada a los Reyes Católicos. Garantizaba a los musulmanes sus bienes, su religión y sus leyes, y se hizo efectivo en enero de 1492.",
+      "por_que_importa": "Es el pacto de la rendición.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Capitulaciones de Granada",
+        "en": "Treaty of Granada (1491)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "edicto-de-la-alhambra",
+      "titulo": "Edicto de la Alhambra",
+      "titulo_original": "Edicto de expulsión de los judíos",
+      "autor": "Isabel I de Castilla y Fernando II de Aragón",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1492,
+        "aprox": false,
+        "lugar": "Granada",
+        "lon": -3.6,
+        "lat": 37.175
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1492,
+        "hasta": 1492
+      },
+      "idioma_original": "Castellano",
+      "soporte": "Decreto",
+      "resumen": "Edicto firmado el 31 de marzo de 1492 por los Reyes Católicos que ordenó a los judíos de Castilla y Aragón convertirse o salir antes del 31 de julio, con sus bienes pero sin oro, plata ni moneda.",
+      "por_que_importa": "Es el documento mismo de la expulsión.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Edicto de Granada",
+        "en": "Alhambra Decree"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "memorias-de-bernaldez",
+      "titulo": "Memorias del reinado de los Reyes Católicos",
+      "titulo_original": "Historia de los Reyes Católicos Don Fernando y Doña Isabel",
+      "autor": "Andrés Bernáldez",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1513,
+        "aprox": true,
+        "lugar": "Los Palacios y Villafranca",
+        "lon": -5.924,
+        "lat": 37.16
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 1488,
+        "hasta": 1513
+      },
+      "idioma_original": "Castellano",
+      "soporte": "Crónica",
+      "resumen": "Crónica del cura de Los Palacios, Andrés Bernáldez, que conoció la corte. Narra la expulsión de los judíos de 1492 y sus consecuencias, junto con la toma de Granada y el viaje de Colón.",
+      "por_que_importa": "Es un relato contemporáneo de la expulsión, desde la corte.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Andrés Bernáldez"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-italia-de-guicciardini",
+      "titulo": "Historia de Italia",
+      "titulo_original": "Storia d'Italia",
+      "autor": "Francesco Guicciardini",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1540,
+        "aprox": true,
+        "lugar": "Florencia",
+        "lon": 11.254,
+        "lat": 43.771
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1492,
+        "hasta": 1534
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Libro",
+      "resumen": "Historia de las guerras de Italia desde la muerte de Lorenzo de Médici en 1492 hasta 1534, en veinte libros. Cuenta la invasión de Carlos VIII de 1494 y las guerras entre Francia, España y el Imperio.",
+      "por_que_importa": "Es la narración clásica de las guerras italianas, escrita por quien participó en ellas.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Storia d'Italia"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "dusturname-de-enveri",
+      "titulo": "Düstürname",
+      "titulo_original": "Düstürname-i Enverî",
+      "autor": "Enveri",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1465,
+        "aprox": false,
+        "lugar": "Anatolia"
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 1300,
+        "hasta": 1348
+      },
+      "idioma_original": "Turco",
+      "soporte": "Poema",
+      "resumen": "Poema épico en turco antiguo sobre Umur Bey, emir de Aydın, escrito por Enveri hacia 1465. Cuenta sus campañas navales en el Egeo y su lucha contra los cruzados en Esmirna en 1344.",
+      "por_que_importa": "Es la fuente turca principal sobre Umur Bey y sus campañas contra los cruzados.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Enveri"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "the-eastern-schism",
+      "titulo": "El cisma oriental: estudio de las relaciones entre las Iglesias latina y griega en los siglos XI y XII",
+      "titulo_original": "The Eastern Schism: A Study of the Papacy and the Eastern Churches During the XIth and XIIth Centuries",
+      "autor": "Steven Runciman",
+      "autor_id": "runciman",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1955,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.255,
+        "lat": 51.755
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "grecia",
+          "italia"
+        ],
+        "desde": 1000,
+        "hasta": 1204
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de Steven Runciman sobre la ruptura entre Roma y Constantinopla. Trata los acontecimientos de 1054, la legación del cardenal Humberto a Constantinopla y las excomuniones recíprocas, y sostiene que la ruptura se fue haciendo durante las cruzadas.",
+      "por_que_importa": "Es el estudio de referencia sobre el cisma de 1054 y sus causas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-ottonis-de-liutprando",
+      "titulo": "Historia de Otón",
+      "titulo_original": "Historia Ottonis (Liber de rebus gestis Ottonis)",
+      "autor": "Liutprando de Cremona",
+      "autor_id": "liutprando-de-cremona",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 964,
+        "anio_hasta": 965,
+        "aprox": false,
+        "lugar": "Pavía",
+        "lon": 9.155,
+        "lat": 45.185
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "italia"
+        ],
+        "desde": 960,
+        "hasta": 964
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Relato de Liutprando de Cremona, obispo de Cremona, de los hechos de Otón I en Italia hasta 964: la coronación imperial por Juan XII en Roma en 962, la ruptura posterior con el papa y su deposición por un sínodo en 963. Está escrito desde el bando de Otón.",
+      "por_que_importa": "Es el relato contemporáneo de la coronación de 962 y de la deposición de Juan XII, que el autor presenció.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Liutprando de Cremona",
+        "en": "Liutprand of Cremona"
       },
       "confianza": "media"
     }
@@ -23090,7 +25764,8 @@
       ],
       "resumen": "Obispo de Cremona y embajador de Otón I ante el emperador bizantino. Su informe de la embajada de 968 es una crónica mordaz de la corte de Constantinopla.",
       "obras": [
-        "relacion-de-la-embajada"
+        "relacion-de-la-embajada",
+        "historia-ottonis-de-liutprando"
       ],
       "wikipedia": {
         "es": "Liutprando de Cremona",
@@ -25006,7 +27681,8 @@
       ],
       "resumen": "Rey de Bohemia y emperador que hizo de Praga una capital: fundó su universidad (1348) y la Ciudad Nueva. Su Bula de Oro (1356) fijó la elección del emperador por siete príncipes.",
       "obras": [
-        "bula-de-oro"
+        "bula-de-oro",
+        "carta-de-fundacion-de-la-universidad-de-praga"
       ],
       "wikipedia": {
         "es": "Carlos IV del Sacro Imperio Romano Germánico",
@@ -27196,7 +29872,9 @@
         "predicador"
       ],
       "resumen": "Segundo maestro general de la Orden de Predicadores (1222-1237), sucesor de Domingo de Guzmán. Predicó en las universidades de París y Bolonia y atrajo a la orden a numerosos maestros y estudiantes, entre ellos a Alberto Magno, que según se cree se incorporó en Padua. Murió en un naufragio frente a la costa de Siria al volver de Palestina y lo enterraron en Acre.",
-      "obras": [],
+      "obras": [
+        "libellus-de-principiis"
+      ],
       "wikipedia": {
         "es": "Jordán de Sajonia",
         "en": "Jordan of Saxony"
@@ -28285,7 +30963,10 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "corpus-iuris-civilis",
+        "historias-de-agatias"
+      ],
       "wikipedia": {
         "es": "Neoplatonismo",
         "en": "Neoplatonism"
@@ -28574,7 +31255,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "al-bayan-al-mughrib",
+        "muslim-spain-and-portugal"
+      ],
       "wikipedia": {
         "es": "Emirato de Córdoba",
         "en": "Umayyad state of Córdoba"
@@ -28594,7 +31278,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "al-bayan-al-mughrib",
+        "architecture-and-ideology-in-early-medieval-spain"
+      ],
       "wikipedia": {
         "es": "Mezquita-catedral de Córdoba",
         "en": "Mosque–Cathedral of Córdoba"
@@ -28733,7 +31420,9 @@
         "bohemia",
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-de-constantino-cirilo"
+      ],
       "wikipedia": {
         "es": "Alfabeto glagolítico",
         "en": "Glagolitic script"
@@ -28798,7 +31487,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "rhinoceros-bound"
+      ],
       "wikipedia": {
         "es": "Abadía de Cluny",
         "en": "Cluny Abbey"
@@ -28819,7 +31510,9 @@
         "francia",
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "costumbres-y-hechos-de-los-primeros-duques-de-normandia"
+      ],
       "wikipedia": {
         "es": "Tratado de Saint-Clair-sur-Epte",
         "en": "Treaty of Saint-Clair-sur-Epte"
@@ -28839,7 +31532,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "al-muqtabis",
+        "muslim-spain-and-portugal"
+      ],
       "wikipedia": {
         "es": "Emirato de Córdoba",
         "en": "Umayyad state of Córdoba"
@@ -28882,7 +31578,9 @@
         "alemania",
         "hungria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "res-gestae-saxonicae"
+      ],
       "wikipedia": {
         "es": "Batalla de Lechfeld",
         "en": "Battle of Lechfeld"
@@ -28903,7 +31601,10 @@
         "italia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "privilegium-ottonianum",
+        "historia-ottonis-de-liutprando"
+      ],
       "wikipedia": {
         "es": "Sacro Imperio Romano Germánico",
         "en": "Holy Roman Empire"
@@ -28923,7 +31624,10 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-thietmar",
+        "anales-de-polonia"
+      ],
       "wikipedia": {
         "es": "Cristianización de Polonia",
         "en": "Christianization of Poland"
@@ -28965,7 +31669,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historias-de-richero"
+      ],
       "wikipedia": {
         "es": "Dinastía de los Capetos",
         "en": "Capetian dynasty"
@@ -28985,7 +31691,9 @@
       "regiones": [
         "hungria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-thietmar"
+      ],
       "wikipedia": {
         "es": "Reino de Hungría (1000-1301)",
         "en": "Kingdom of Hungary (1000–1301)"
@@ -29057,7 +31765,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "al-bayan-al-mughrib",
+        "muslim-spain-and-portugal"
+      ],
       "wikipedia": {
         "es": "Fitna de al-Ándalus",
         "en": "Fitna of al-Andalus"
@@ -29101,7 +31812,9 @@
         "italia",
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-eastern-schism"
+      ],
       "wikipedia": {
         "es": "Cisma de Oriente",
         "en": "East–West Schism"
@@ -29122,7 +31835,9 @@
         "sicilia",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-roger"
+      ],
       "wikipedia": {
         "es": "Conquista normanda de Italia Meridional",
         "en": "Norman conquest of southern Italy"
@@ -29215,7 +31930,9 @@
         "italia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anales-de-lamberto-de-hersfeld"
+      ],
       "wikipedia": {
         "es": "Humillación de Canossa",
         "en": "Road to Canossa"
@@ -29442,7 +32159,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gesta-de-suger"
+      ],
       "wikipedia": {
         "es": "Basílica de Saint-Denis",
         "en": "Basilica of Saint-Denis"
@@ -29462,7 +32181,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "codice-de-hipacio"
+      ],
       "wikipedia": {
         "es": "Moscú",
         "en": "Moscow"
@@ -29482,7 +32203,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-conquista-de-lisboa"
+      ],
       "wikipedia": {
         "es": "Toma de Lisboa (1147)",
         "en": "Siege of Lisbon"
@@ -29527,7 +32250,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-de-tomas-becket-eduardo-grim"
+      ],
       "wikipedia": {
         "es": "Tomás Becket",
         "en": "Thomas Becket"
@@ -29548,7 +32273,9 @@
         "italia",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-romualdo-guarna"
+      ],
       "wikipedia": {
         "es": "Batalla de Legnano",
         "en": "Battle of Legnano"
@@ -29614,7 +32341,11 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-albigensis",
+        "cancion-de-la-cruzada-albigense",
+        "lea-historia-de-la-inquisicion"
+      ],
       "wikipedia": {
         "es": "Cruzada albigense",
         "en": "Albigensian Crusade"
@@ -29634,7 +32365,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-primera-de-francisco"
+      ],
       "wikipedia": {
         "es": "Orden Franciscana",
         "en": "Franciscans"
@@ -29654,7 +32387,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "chartularium-universitatis-parisiensis"
+      ],
       "wikipedia": {
         "es": "Condenas de París",
         "en": "Condemnations of 1210–1277"
@@ -29698,7 +32433,10 @@
         "alemania",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gesta-de-felipe-augusto",
+        "el-domingo-de-bouvines"
+      ],
       "wikipedia": {
         "es": "Batalla de Bouvines",
         "en": "Battle of Bouvines"
@@ -29740,7 +32478,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "constituciones-del-iv-concilio-de-letran"
+      ],
       "wikipedia": {
         "es": "IV Concilio de Letrán",
         "en": "Fourth Council of the Lateran"
@@ -29760,7 +32500,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "libellus-de-principiis"
+      ],
       "wikipedia": {
         "es": "Orden de Predicadores",
         "en": "Dominican Order"
@@ -29804,7 +32546,9 @@
         "italia",
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lea-historia-de-la-inquisicion"
+      ],
       "wikipedia": {
         "es": "Inquisición medieval",
         "en": "Medieval Inquisition"
@@ -29846,7 +32590,10 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "codice-de-hipacio",
+        "historia-de-los-mongoles"
+      ],
       "wikipedia": {
         "es": "Asedio de Kiev (1240)",
         "en": "Siege of Kiev (1240)"
@@ -29888,7 +32635,10 @@
       "regiones": [
         "hungria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "carmen-miserabile",
+        "historia-de-los-mongoles"
+      ],
       "wikipedia": {
         "es": "Batalla de Mohi",
         "en": "Battle of Mohi"
@@ -29908,7 +32658,10 @@
       "regiones": [
         "baltico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "primera-cronica-de-novgorod",
+        "cronica-rimada-de-livonia"
+      ],
       "wikipedia": {
         "es": "Batalla del Lago Peipus",
         "en": "Battle on the Ice"
@@ -29950,7 +32703,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "chartularium-universitatis-parisiensis"
+      ],
       "wikipedia": {
         "en": "College of Sorbonne"
       }
@@ -30013,7 +32768,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "constituciones-del-ii-concilio-de-lyon",
+        "opus-tripartitum"
+      ],
       "wikipedia": {
         "es": "Concilio de Lyon II",
         "en": "Second Council of Lyon"
@@ -30056,7 +32814,10 @@
         "sicilia",
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-muntaner",
+        "historia-sicula-de-neocastro"
+      ],
       "wikipedia": {
         "es": "Vísperas sicilianas",
         "en": "Sicilian Vespers"
@@ -30076,7 +32837,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "edicto-de-expulsion-de-los-judios-de-inglaterra"
+      ],
       "wikipedia": {
         "es": "Edicto de expulsión",
         "en": "Edict of Expulsion"
@@ -30119,7 +32882,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-juicio-de-los-templarios",
+        "pergamino-de-chinon"
+      ],
       "wikipedia": {
         "en": "Trials of the Knights Templar"
       }
@@ -30141,7 +32907,9 @@
         "alemania",
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-great-famine-jordan"
+      ],
       "wikipedia": {
         "es": "Gran hambruna de 1315-1317",
         "en": "Great Famine of 1315–1317"
@@ -30236,7 +33004,9 @@
       "regiones": [
         "bohemia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "carta-de-fundacion-de-la-universidad-de-praga"
+      ],
       "wikipedia": {
         "es": "Universidad Carolina",
         "en": "Charles University"
@@ -30303,7 +33073,9 @@
         "escandinavia",
         "baltico"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-hansa-alemana"
+      ],
       "wikipedia": {
         "es": "Liga Hanseática",
         "en": "Hanseatic League"
@@ -30345,7 +33117,10 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-florentina-de-stefani",
+        "historias-florentinas"
+      ],
       "wikipedia": {
         "es": "Ciompi",
         "en": "Ciompi Revolt"
@@ -30366,7 +33141,9 @@
         "francia",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-origenes-del-gran-cisma"
+      ],
       "wikipedia": {
         "es": "Cisma de Occidente",
         "en": "Western Schism"
@@ -30432,7 +33209,10 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-de-esteban-lazarevic",
+        "serbian-golgotha"
+      ],
       "wikipedia": {
         "es": "Batalla de Kosovo",
         "en": "Battle of Kosovo"
@@ -30452,7 +33232,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-pogromo-de-1391-en-espana",
+        "cronica-de-enrique-iii-de-ayala"
+      ],
       "wikipedia": {
         "es": "Pogromos de 1391 en España",
         "en": "Massacre of 1391"
@@ -30474,7 +33257,10 @@
         "hungria",
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronicas-de-froissart",
+        "reisebuch-de-schiltberger"
+      ],
       "wikipedia": {
         "es": "Batalla de Nicópolis",
         "en": "Battle of Nicopolis"
@@ -30494,7 +33280,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "carta-de-la-union-de-kalmar"
+      ],
       "wikipedia": {
         "es": "Unión de Kalmar",
         "en": "Kalmar Union"
@@ -30583,7 +33371,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gesta-henrici-quinti",
+        "azincourt-barker"
+      ],
       "wikipedia": {
         "es": "Batalla de Azincourt",
         "en": "Battle of Agincourt"
@@ -30625,7 +33416,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "journal-du-siege-d-orleans",
+        "ditie-de-jehanne-d-arc"
+      ],
       "wikipedia": {
         "es": "Sitio de Orleans",
         "en": "Siege of Orléans (1428–1429)"
@@ -30671,7 +33465,10 @@
         "hungria",
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anales-de-polonia",
+        "demostraciones-de-calcocondilas"
+      ],
       "wikipedia": {
         "es": "Batalla de Varna",
         "en": "Battle of Varna"
@@ -30738,7 +33535,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-carlos-vii-de-basin",
+        "cronica-de-jean-chartier"
+      ],
       "wikipedia": {
         "es": "Batalla de Castillon",
         "en": "Battle of Castillon"
@@ -30780,7 +33580,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-nikon"
+      ],
       "wikipedia": {
         "es": "Gran encuentro del río Ugrá",
         "en": "Great Stand on the Ugra River"
@@ -30822,7 +33624,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "capitulaciones-de-granada",
+        "memorias-de-bernaldez"
+      ],
       "wikipedia": {
         "es": "Guerra de Granada",
         "en": "Granada War"
@@ -30842,7 +33647,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "edicto-de-la-alhambra",
+        "memorias-de-bernaldez"
+      ],
       "wikipedia": {
         "es": "Edicto de Granada",
         "en": "Alhambra Decree"
@@ -30936,7 +33744,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "constituciones-del-concilio-de-lyon-i",
+        "cronica-mayor"
+      ],
       "wikipedia": {
         "es": "Concilio de Lyon I",
         "en": "First Council of Lyon"
@@ -30956,7 +33767,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vox-in-excelso",
+        "el-juicio-de-los-templarios"
+      ],
       "wikipedia": {
         "es": "Concilio de Vienne",
         "en": "Council of Vienne"
@@ -30979,7 +33793,10 @@
         "hungria",
         "estepa-pontica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-los-mongoles",
+        "cronica-mayor"
+      ],
       "wikipedia": {
         "es": "Invasión mongola de Europa",
         "en": "Mongol invasion of Europe"
@@ -30999,7 +33816,10 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-alfonso-iii",
+        "reconquest-and-crusade-in-medieval-spain"
+      ],
       "wikipedia": {
         "es": "Reconquista",
         "en": "Reconquista"
@@ -31019,7 +33839,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-de-abd-allah"
+      ],
       "wikipedia": {
         "es": "Batalla de Sagrajas",
         "en": "Battle of Sagrajas"
@@ -31040,7 +33862,10 @@
         "caledonia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-bruce",
+        "vita-edwardi-secundi"
+      ],
       "wikipedia": {
         "es": "Batalla de Bannockburn",
         "en": "Battle of Bannockburn"
@@ -31060,7 +33885,10 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "zadonshchina",
+        "cronica-de-nikon"
+      ],
       "wikipedia": {
         "es": "Batalla de Kulikovo",
         "en": "Battle of Kulikovo"
@@ -31080,7 +33908,10 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-croyland",
+        "anglica-historia"
+      ],
       "wikipedia": {
         "es": "Batalla de Bosworth",
         "en": "Battle of Bosworth Field"
@@ -31100,7 +33931,10 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cartas-de-paston",
+        "cronica-de-croyland"
+      ],
       "wikipedia": {
         "es": "Guerra de las Dos Rosas",
         "en": "Wars of the Roses"
@@ -31120,7 +33954,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-italia-de-guicciardini"
+      ],
       "wikipedia": {
         "es": "Guerras italianas (1494-1559)",
         "en": "Italian Wars"
@@ -31140,7 +33976,10 @@
       "regiones": [
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "demostraciones-de-calcocondilas",
+        "anales-de-polonia"
+      ],
       "wikipedia": {
         "es": "Segunda batalla de Kosovo",
         "en": "Battle of Kosovo (1448)"
@@ -31161,7 +34000,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "itinerario-de-ricardo",
+        "vida-de-saladino"
+      ],
       "wikipedia": {
         "es": "Tercera cruzada",
         "en": "Third Crusade"
@@ -31182,7 +34024,10 @@
         "anatolia",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-alberto-de-aquisgran",
+        "historia-de-guillermo-de-tiro"
+      ],
       "wikipedia": {
         "es": "Cruzada de 1101",
         "en": "Crusade of 1101"
@@ -31228,7 +34073,9 @@
         "levante",
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-arnoldo-de-lubeck"
+      ],
       "wikipedia": {
         "es": "Cruzada de 1197",
         "en": "Crusade of 1197"
@@ -31273,7 +34120,9 @@
         "francia",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cruzada-de-los-ninos-dickson"
+      ],
       "wikipedia": {
         "es": "Cruzada de los niños",
         "en": "Children's Crusade"
@@ -31295,7 +34144,9 @@
         "levante",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-las-cruzadas-runciman"
+      ],
       "wikipedia": {
         "es": "Novena cruzada",
         "en": "Lord Edward's crusade"
@@ -31316,7 +34167,10 @@
         "anatolia",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-papado-y-el-levante",
+        "dusturname-de-enveri"
+      ],
       "wikipedia": {
         "es": "Cruzada de Esmirna",
         "en": "Smyrniote crusades"
@@ -31338,7 +34192,9 @@
         "egipto",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-toma-de-alejandria"
+      ],
       "wikipedia": {
         "es": "Cruzada de Alejandría",
         "en": "Alexandrian Crusade"
@@ -31358,7 +34214,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "canones-del-iii-concilio-de-letran"
+      ],
       "wikipedia": {
         "es": "III Concilio de Letrán",
         "en": "Third Council of the Lateran"
@@ -31422,7 +34280,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "edicto-de-clotario-ii"
+      ],
       "wikipedia": {
         "es": "Edicto de Clotario",
         "en": "Edict of Paris"
@@ -31442,7 +34302,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anales-de-metz",
+        "liber-historiae-francorum"
+      ],
       "wikipedia": {
         "es": "Batalla de Tertry",
         "en": "Battle of Tertry"
@@ -31462,7 +34325,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "heimskringla"
+      ],
       "wikipedia": {
         "es": "Arquidiócesis de Nidaros",
         "en": "Roman Catholic Archdiocese of Nidaros"
@@ -31570,7 +34435,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "canones-del-ii-concilio-de-letran"
+      ],
       "wikipedia": {
         "es": "II Concilio de Letrán",
         "en": "Second Council of the Lateran"

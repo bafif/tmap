@@ -11379,9 +11379,16 @@
         "lat": 32.501
       },
       "trata": {
-        "regiones": [],
-        "desde": 311,
-        "hasta": 311
+        "regiones": [
+          "levante",
+          "mesopotamia",
+          "egipto",
+          "anatolia",
+          "grecia",
+          "italia"
+        ],
+        "desde": -2016,
+        "hasta": 325
       },
       "idioma_original": "Griego",
       "soporte": "Libro",
@@ -21064,7 +21071,8 @@
       ],
       "resumen": "Historiador británico de Bizancio cuya Historia de las cruzadas (1951-1954) las juzgó un largo acto de intolerancia en nombre de Dios.",
       "obras": [
-        "historia-de-las-cruzadas-runciman"
+        "historia-de-las-cruzadas-runciman",
+        "the-eastern-schism"
       ],
       "wikipedia": {
         "es": "Steven Runciman",
