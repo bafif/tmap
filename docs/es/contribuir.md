@@ -37,6 +37,10 @@ Guía corta para colaborar con el código. Qué es el proyecto y cómo está hec
   lisa) y lo mismo con OpenGL, que es el motor de macOS: `GODOT_ARGS="--rendering-method gl_compatibility"
   tools/captura.sh x.png --comprobar_dibujo`. El motor que se elige en Ajustes va en `user://motor.cfg`
   (`scripts/nucleo/motor.gd`).
+- En una Mac, `curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/probar-macos.sh | bash` instala la
+  última versión como la instala la gente, comprueba la firma, que arranque con sus datos y que dibuje, monta el
+  `.dmg` y deja un informe con capturas en el escritorio. Los runners de GitHub no tienen placa de video: que dibuje se
+  comprueba solo en una Mac de verdad.
 - Desde el código, `user://` es `TellMAP-codigo` en la carpeta de datos del usuario (`~/.local/share/` en Linux), no la
   del TellMAP instalado (`godot/app_userdata/TellMAP`): las pruebas no tocan sus ajustes ni sus datos
   (`project.godot`, con la etiqueta `editor`).

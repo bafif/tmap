@@ -37,6 +37,10 @@ and [the plan](plan.md). Encyclopedia format: [ESQUEMA.en.md](../../data/enciclo
   screenshot came out nearly flat), and the same with OpenGL, which is the macOS renderer:
   `GODOT_ARGS="--rendering-method gl_compatibility" tools/captura.sh x.png --comprobar_dibujo`. The renderer chosen
   in Settings is stored in `user://motor.cfg` (`scripts/nucleo/motor.gd`).
+- On a Mac, `curl -fsSL https://raw.githubusercontent.com/bafif/tmap/main/tools/probar-macos.sh | bash` installs the
+  latest release the way people install it, checks the signature, that it starts with its data and that it draws,
+  mounts the `.dmg` and leaves a report with screenshots on the desktop. GitHub's runners have no graphics card:
+  whether it draws can only be checked on a real Mac.
 - From source, `user://` is `TellMAP-codigo` in the user's data folder (`~/.local/share/` on Linux), not the installed
   TellMAP's (`godot/app_userdata/TellMAP`): tests don't touch its settings or its data (`project.godot`, with the
   `editor` tag).

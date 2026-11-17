@@ -15,8 +15,8 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
       Silicon (in continuous integration, `verificar-macos` takes a screenshot and checks it isn't flat, but nobody has
       looked at the app on a real one), a Mac with Radeon, a laptop with integrated graphics and a touchscreen (a
       laptop or a tablet running Windows or Linux: there's no Android or iPad version). Before each release, on an
-      Intel Mac: `TellMAP.app/Contents/MacOS/TellMAP -- --captura=x.png --comprobar_dibujo` (GitHub's runners don't
-      have that GPU).
+      Intel Mac, `tools/probar-macos.sh` (GitHub's runners don't have that GPU); the same script works for testing it
+      on an Apple Silicon Mac.
 - [ ] **Make the macOS app update itself too.** On macOS only the data updates; for a new app version, the notice
       leads to the download page. Changing the executable inside `TellMAP.app` invalidates its signature: the whole
       `.app` has to be downloaded (a zip), swapped in one go and reopened.
@@ -24,10 +24,11 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
       double click without going through Privacy & Security.
 - [ ] **See the macOS `.dmg` working.** `verificar-macos` builds with `hdiutil` a `.dmg` with `TellMAP.app` and a
       shortcut to Applications, after checking the app, and adds it to the release (if that step fails, the release
-      keeps the zip). It still has to be opened on a Mac; the README offers the Terminal installer, which doesn't depend
-      on the `.dmg`. Installing into Applications avoids *App Translocation* (macOS runs quarantined apps from a
-      read-only copy), which matters for the macOS app to update itself. A `.pkg` isn't needed: the app installs nothing
-      outside the bundle and, without notarization, Gatekeeper blocks it anyway.
+      keeps the zip). It still has to be opened on a Mac (`tools/probar-macos.sh` mounts it, compares it with the zip
+      and opens the app from it); the README offers the Terminal installer, which doesn't depend on the `.dmg`.
+      Installing into Applications avoids *App Translocation* (macOS runs quarantined apps from a read-only copy), which
+      matters for the macOS app to update itself. A `.pkg` isn't needed: the app installs nothing outside the bundle
+      and, without notarization, Gatekeeper blocks it anyway.
 
 ### Progressive encyclopedia (0.3)
 

@@ -14,9 +14,9 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
       Windows de verdad (el `.exe` pasa `--verificar` y la prueba completa con wine), una Mac con Apple Silicon (en la
       integración continua, `verificar-macos` saca una captura y comprueba que no salga lisa, pero nadie la miró en
       una de verdad), una Mac con Radeon, una notebook con gráficos integrados y una pantalla táctil (una notebook o
-      una tablet con Windows o Linux: para Android o iPad no hay versión). Antes de cada versión, en una Mac con Intel:
-      `TellMAP.app/Contents/MacOS/TellMAP -- --captura=x.png --comprobar_dibujo` (los runners de GitHub no tienen esa
-      GPU).
+      una tablet con Windows o Linux: para Android o iPad no hay versión). Antes de cada versión, en una Mac con Intel,
+      `tools/probar-macos.sh` (los runners de GitHub no tienen esa GPU); el mismo guion sirve para probarla en una Mac
+      con Apple Silicon.
 - [ ] **Que la app de macOS también se actualice sola.** En macOS solo se actualizan los datos; con una versión nueva
       de la app, el aviso lleva a la página de descarga. Cambiar el ejecutable de adentro de `TellMAP.app` invalida su
       firma: hay que bajar el `.app` entero (un zip), reemplazarlo de una vez y reabrir.
@@ -24,10 +24,11 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
       abra con doble clic sin pasar por Privacidad y seguridad.
 - [ ] **Ver andar el `.dmg` de macOS.** `verificar-macos` arma con `hdiutil` un `.dmg` con `TellMAP.app` y un acceso a
       Aplicaciones, después de comprobar la app, y lo suma a la versión (si ese paso falla, la versión queda con el
-      zip). Falta abrirlo en una Mac; el README ofrece el instalador por Terminal, que no depende del `.dmg`. Instalar
-      en Aplicaciones evita la *App Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura),
-      que importa para que la app de macOS se actualice sola. Un `.pkg` no hace falta: la app no instala nada fuera del
-      paquete y, sin notarizar, Gatekeeper lo frena igual.
+      zip). Falta abrirlo en una Mac (`tools/probar-macos.sh` lo monta, lo compara con el zip y abre la app desde ahí);
+      el README ofrece el instalador por Terminal, que no depende del `.dmg`. Instalar en Aplicaciones evita la *App
+      Translocation* (macOS corre las apps en cuarentena desde una copia de solo lectura), que importa para que la app
+      de macOS se actualice sola. Un `.pkg` no hace falta: la app no instala nada fuera del paquete y, sin notarizar,
+      Gatekeeper lo frena igual.
 
 ### Enciclopedia progresiva (0.3)
 
