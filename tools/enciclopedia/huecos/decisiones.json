@@ -4909,6 +4909,11 @@
     "motivo": "Las invasiones mongolas de Japón (1274 y 1281) son de Asia oriental y caen fuera de las regiones de la Europa medieval del paquete.",
     "fecha": "2026-11-11"
   },
+  "parte:Q217196": {
+    "decision": "descartado",
+    "motivo": "Los reinos de la Corona de Castilla en la península no son del tema de los paquetes americanos: los que tmap tiene están por la Reconquista o por la conquista de América.",
+    "fecha": "2026-11-17"
+  },
   "parte:Q273854:Q1175315": {
     "decision": "descartado",
     "motivo": "ya está por matanza-de-divoduro (el esquema no tiene fichas de pueblos).",
@@ -5503,6 +5508,11 @@
     "decision": "descartado",
     "motivo": "Hecho en una cadena de bloques, sin sitio físico.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-fuentes:guerra-de-gaza-2012": {
+    "decision": "sin-datos",
+    "motivo": "La única obra candidata, la historia de Gaza de Filiu, es de 2012 y no trata la operación de noviembre de ese año; no se identificó otra fuente verificable.",
+    "fecha": "2026-11-17"
   },
   "ref:sin-leer:a-funcao-social-da-guerra": {
     "decision": "descartado",
@@ -10809,6 +10819,16 @@
     "motivo": "la serie de valíes de Ifriquía no es del tema (es el Magreb)",
     "fecha": "2026-11-11"
   },
+  "serie:Q104803451": {
+    "decision": "descartado",
+    "motivo": "El arzobispado de La Plata (Charcas) no es eje de la conquista y el virreinato del Perú: el tema no trata a la jerarquía eclesiástica cargo por cargo.",
+    "fecha": "2026-11-17"
+  },
+  "serie:Q106090755": {
+    "decision": "descartado",
+    "motivo": "La representación de los Estados Unidos en Francia no es eje del tema: los que tmap tiene (Franklin, Jefferson…) están por otros papeles.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q10655117:Q1037052": {
     "decision": "descartado",
     "motivo": "Bernhard Salin trabajó sobre el arte animalístico germánico y la arqueología de Suecia, sin relación con el origen de los celtas.",
@@ -10883,6 +10903,11 @@
     "decision": "descartado",
     "motivo": "la serie de cancilleres no es tema del paquete: los que están, están por hechos puntuales",
     "fecha": "2026-11-11"
+  },
+  "serie:Q11013932": {
+    "decision": "descartado",
+    "motivo": "Los cargos del gabinete en la sombra británico no son eje del tema.",
+    "fecha": "2026-11-17"
   },
   "serie:Q110811981:Q5960100": {
     "decision": "descartado",
@@ -11034,6 +11059,11 @@
     "motivo": "El señorío de Irlanda es un título de los reyes de Inglaterra, no un cargo del tema.",
     "fecha": "2026-11-13"
   },
+  "serie:Q115135185": {
+    "decision": "descartado",
+    "motivo": "Ser candidato al Politburó no es eje de las guerras y el orden mundial: los que tmap tiene están por otros cargos.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q11696:Q107054330": {
     "decision": "descartado",
     "motivo": "Es un personaje de ficción, no un titular real.",
@@ -11144,6 +11174,11 @@
     "motivo": "la serie de ministros de Defensa de Israel no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q134373912": {
+    "decision": "descartado",
+    "motivo": "La vicepresidencia del Consejo de Ministros soviético no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q134407102:Q1376484": {
     "decision": "descartado",
     "motivo": "La vicepresidencia del Consejo de Comisarios del Pueblo no es un cargo del tema.",
@@ -11164,10 +11199,20 @@
     "motivo": "La vicepresidencia del Consejo de Comisarios del Pueblo no es un cargo del tema.",
     "fecha": "2026-11-13"
   },
+  "serie:Q136366293": {
+    "decision": "descartado",
+    "motivo": "La representación soviética ante la ONU no es eje del tema: los que tmap tiene están por otros cargos.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q139766205:Q2454783": {
     "decision": "descartado",
     "motivo": "Cynan ap Hywel fue rey de Gwynedd (999-1005), no de Deheubarth como lo ubica Wikidata, y de su reinado casi no hay noticias registradas.",
     "fecha": "2026-11-11"
+  },
+  "serie:Q140473905": {
+    "decision": "descartado",
+    "motivo": "El cargo de canciller de la Universidad de Cambridge no es eje de ningún tema de tmap.",
+    "fecha": "2026-11-17"
   },
   "serie:Q142093387:Q15067413": {
     "decision": "descartado",
@@ -11509,6 +11554,11 @@
     "motivo": "El cargo de primer ministro de Egipto no es del tema; Nasser, Sadat y los demás que están entran por su papel en las guerras con Israel.",
     "fecha": "2026-11-13"
   },
+  "serie:Q15722817": {
+    "decision": "descartado",
+    "motivo": "El ministerio de Finanzas de Israel no es eje del tema de Tierra Santa: los que tmap tiene están por otros cargos.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q15722817:Q188386": {
     "decision": "descartado",
     "motivo": "La serie de ministros de Finanzas de Israel entra solo porque Netanyahu la ocupó; no es un tema del paquete.",
@@ -11579,6 +11629,11 @@
     "motivo": "La serie de ministros de Transporte de Israel entra solo porque Peres la ocupó; no es un tema del paquete.",
     "fecha": "2026-11-11"
   },
+  "serie:Q15731462": {
+    "decision": "descartado",
+    "motivo": "El ministerio de Agricultura de Israel no es eje del tema de Tierra Santa.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q15731462:Q2904677": {
     "decision": "descartado",
     "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
@@ -11593,6 +11648,11 @@
     "decision": "descartado",
     "motivo": "La serie de ministros de Agricultura de Israel entra solo porque Sharón y Begin la ocuparon; no es un tema del paquete.",
     "fecha": "2026-11-11"
+  },
+  "serie:Q15732343": {
+    "decision": "descartado",
+    "motivo": "El ministerio de Energía de Israel no es eje del tema de Tierra Santa.",
+    "fecha": "2026-11-17"
   },
   "serie:Q16104362:Q3992026": {
     "decision": "descartado",
@@ -11649,6 +11709,11 @@
     "motivo": "Tarco Huamán no figura entre los incas de la lista de Garcilaso ni de Sarmiento: es un hijo de Mayta Cápac que solo algunos relatos hacen reinar unos pocos años, y queda mencionado en las fichas mayta-capac y capac-yupanqui.",
     "fecha": "2026-11-13"
   },
+  "serie:Q1663929": {
+    "decision": "descartado",
+    "motivo": "El cargo de senador del Interior de una ciudad-estado alemana no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q174506:Q3298137": {
     "decision": "sin-datos",
     "motivo": "Masud ibn Bursuqi (Mosul, 1126-1127) tiene artículo solo en dos Wikipedias menores y ninguno en inglés o español, así que no se puede verificar; quien importa para el tema es su padre, Aqsunqur al-Bursuqi.",
@@ -11658,6 +11723,11 @@
     "decision": "descartado",
     "motivo": "Es Zangi ibn Mawdud, atabeg salgúrida de Fars (1161-1178), fuera del tema.",
     "fecha": "2026-11-11"
+  },
+  "serie:Q18060652": {
+    "decision": "descartado",
+    "motivo": "La gobernación de Cuba no es eje de Norteamérica colonial: sus gobernadores en tmap están por la conquista de Florida y de México o por la guerra de independencia de los Estados Unidos.",
+    "fecha": "2026-11-17"
   },
   "serie:Q181765:Q150611": {
     "decision": "descartado",
@@ -11799,6 +11869,11 @@
     "motivo": "la serie de ediles plebeyos no es del tema",
     "fecha": "2026-11-11"
   },
+  "serie:Q20021267": {
+    "decision": "descartado",
+    "motivo": "El ministerio de Economía de Israel no es eje del tema de Tierra Santa.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q20021267:Q265006": {
     "decision": "descartado",
     "motivo": "El ministerio de Economía de Israel no es del tema.",
@@ -11808,6 +11883,11 @@
     "decision": "descartado",
     "motivo": "El ministerio de Economía de Israel no es del tema.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q20021270": {
+    "decision": "descartado",
+    "motivo": "El ministerio de Comunicaciones de Israel no es eje del tema de Tierra Santa.",
+    "fecha": "2026-11-17"
   },
   "serie:Q20021277:Q216021": {
     "decision": "descartado",
@@ -11959,6 +12039,11 @@
     "motivo": "Obispo de París de un solo año (1249), sin consecuencias propias para el tema.",
     "fecha": "2026-11-11"
   },
+  "serie:Q2457733": {
+    "decision": "descartado",
+    "motivo": "El liderazgo de la oposición israelí no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q24703451:Q109368246": {
     "decision": "descartado",
     "motivo": "la serie de primeras damas no es tema del paquete: las que están, están por su actuación propia",
@@ -12094,6 +12179,11 @@
     "motivo": "Gustavo Lopetegui fue vicejefe de Gabinete (2015-2018) y secretario de Energía (2018-2019), nunca jefe de Gabinete de Ministros; Wikidata le asigna el cargo del jefe por error.",
     "fecha": "2026-11-13"
   },
+  "serie:Q2636053": {
+    "decision": "descartado",
+    "motivo": "El liderazgo de la Cámara de los Comunes no es eje de ningún tema de tmap: quienes lo ocuparon están por otros cargos.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q26437544:Q3609909": {
     "decision": "descartado",
     "motivo": "la serie de ministros de Instrucción Pública de Italia no es tema del paquete",
@@ -12188,6 +12278,16 @@
     "decision": "descartado",
     "motivo": "Los reyes ostrogodos y lombardos de Italia entran por los fundadores (Odoacro, Teodorico, Alboino), no rey por rey.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q2741536": {
+    "decision": "descartado",
+    "motivo": "El liderazgo de la oposición británica no es eje del tema: los que tmap tiene están por haber gobernado o conducido una guerra.",
+    "fecha": "2026-11-17"
+  },
+  "serie:Q2747647": {
+    "decision": "descartado",
+    "motivo": "La secretaría de Defensa británica no es eje del tema: los que tmap tiene están por otros cargos o por la guerra.",
+    "fecha": "2026-11-17"
   },
   "serie:Q27494237:Q1459658": {
     "decision": "descartado",
@@ -12704,6 +12804,11 @@
     "motivo": "la serie de presidentes del Paraguay no es tema del paquete: los que están, están por la guerra",
     "fecha": "2026-11-11"
   },
+  "serie:Q3477296": {
+    "decision": "descartado",
+    "motivo": "La secretaría de Estado del Aire británica no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q357829:Q106838951": {
     "decision": "descartado",
     "motivo": "la serie de arcontes epónimos de Atenas no es del tema",
@@ -12813,6 +12918,11 @@
     "decision": "descartado",
     "motivo": "la serie de arcontes epónimos de Atenas no es del tema",
     "fecha": "2026-11-11"
+  },
+  "serie:Q3615378": {
+    "decision": "descartado",
+    "motivo": "La jefatura del Partido Laborista no es eje del tema: los que tmap tiene están por haber sido primeros ministros.",
+    "fecha": "2026-11-17"
   },
   "serie:Q3615378:Q216594": {
     "decision": "descartado",
@@ -13069,10 +13179,20 @@
     "motivo": "la serie de duques de Normandía no es tema del paquete",
     "fecha": "2026-11-11"
   },
+  "serie:Q47483036": {
+    "decision": "descartado",
+    "motivo": "La presidencia del Consejo Ejecutivo de Pensilvania no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q5070795:Q11132": {
     "decision": "descartado",
     "motivo": "La cancillería del College of William & Mary no es del tema.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q5096927": {
+    "decision": "descartado",
+    "motivo": "La secretaría jefe del Tesoro británico no es eje del tema.",
+    "fecha": "2026-11-17"
   },
   "serie:Q5096927:Q260546": {
     "decision": "descartado",
@@ -13083,6 +13203,11 @@
     "decision": "descartado",
     "motivo": "La secretaría jefe del Tesoro británico no es del tema.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q545206": {
+    "decision": "descartado",
+    "motivo": "La jefatura del Estado Mayor israelí no es eje del tema: los jefes que tmap tiene (Dayan, Rabin, Barak, Gantz…) están por su papel político posterior.",
+    "fecha": "2026-11-17"
   },
   "serie:Q5452917:Q1186441": {
     "decision": "descartado",
@@ -13124,6 +13249,11 @@
     "motivo": "La primera vicepresidencia del Consejo de Ministros soviético no es un cargo del tema; Beria se trata aparte.",
     "fecha": "2026-11-13"
   },
+  "serie:Q55616682": {
+    "decision": "descartado",
+    "motivo": "La presidencia de la CDU no es eje del tema: los que tmap tiene están por haber sido cancilleres.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q55616682:Q16019": {
     "decision": "descartado",
     "motivo": "La presidencia de la CDU no es del tema; los cancilleres democristianos entran por la cancillería.",
@@ -13138,6 +13268,11 @@
     "decision": "descartado",
     "motivo": "La presidencia de la CDU no es del tema; los cancilleres democristianos entran por la cancillería.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q5589675": {
+    "decision": "descartado",
+    "motivo": "La gobernación omeya de Medina no es eje del tema: quienes la ocuparon y están en tmap lo están por otros papeles.",
+    "fecha": "2026-11-17"
   },
   "serie:Q56761109:Q5721556": {
     "decision": "descartado",
@@ -13324,6 +13459,11 @@
     "motivo": "Reina de Portugal de 1834 a 1853, después de la independencia del Brasil: no es del tema.",
     "fecha": "2026-11-13"
   },
+  "serie:Q58908504": {
+    "decision": "descartado",
+    "motivo": "La jefatura del bloque CDU/CSU en el Bundestag no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q59133435:Q505112": {
     "decision": "descartado",
     "motivo": "La corona de Navarra por matrimonio es un título anexo, no un cargo del tema.",
@@ -13369,6 +13509,16 @@
     "motivo": "Demetrio Poliorcetes reinó en Macedonia entre 294 y 288 a. C., antes de la invasión gala de Macedonia (279 a. C.), y no hay episodio suyo con los celtas.",
     "fecha": "2026-11-11"
   },
+  "serie:Q62566426": {
+    "decision": "descartado",
+    "motivo": "La presidencia del Sóviet de las Nacionalidades no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
+  "serie:Q6566685": {
+    "decision": "descartado",
+    "motivo": "El cargo de canciller de la Universidad de Oxford no es eje de ningún tema de tmap.",
+    "fecha": "2026-11-17"
+  },
   "serie:Q65997:Q11937796": {
     "decision": "descartado",
     "motivo": "Muhammad IV fue un gobernante hafsí de Túnez al que Wikidata llama califa; su actuación es del Magreb y no de Tierra Santa.",
@@ -13378,6 +13528,21 @@
     "decision": "descartado",
     "motivo": "Mulay Hassan fue un gobernante hafsí de Túnez al que Wikidata llama califa; su actuación es del Magreb y no de Tierra Santa.",
     "fecha": "2026-11-11"
+  },
+  "serie:Q7040859": {
+    "decision": "descartado",
+    "motivo": "El cargo de viceprimer ministro de Israel no es eje del tema: los que tmap tiene están por otros cargos.",
+    "fecha": "2026-11-17"
+  },
+  "serie:Q7444340": {
+    "decision": "descartado",
+    "motivo": "La secretaría de los Dominios británica no es eje del tema.",
+    "fecha": "2026-11-17"
+  },
+  "serie:Q7460514": {
+    "decision": "descartado",
+    "motivo": "Los cargos del gabinete en la sombra británico no son eje del tema.",
+    "fecha": "2026-11-17"
   },
   "serie:Q747123:Q156511": {
     "decision": "descartado",
@@ -13593,6 +13758,11 @@
     "decision": "descartado",
     "motivo": "El título de príncipe de Asturias no es un cargo del tema; los reyes entran por su reinado.",
     "fecha": "2026-11-13"
+  },
+  "serie:Q842386": {
+    "decision": "descartado",
+    "motivo": "La jefatura del gobierno de Rusia no es eje de las guerras y el orden mundial: el tema trata a quien condujo cada guerra, y los que tmap tiene están por eso o por haber sido jefes de Estado.",
+    "fecha": "2026-11-17"
   },
   "serie:Q86124475:Q574428": {
     "decision": "descartado",

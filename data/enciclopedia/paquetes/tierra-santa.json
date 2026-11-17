@@ -12327,6 +12327,2679 @@
         "en": "Ignatius of Antioch"
       },
       "confianza": "media"
+    },
+    {
+      "id": "historias-de-agatias",
+      "titulo": "Historias",
+      "titulo_original": "Ἱστορίαι",
+      "autor": "Agatías de Mirina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 580,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "italia",
+          "levante",
+          "libano"
+        ],
+        "desde": 552,
+        "hasta": 559
+      },
+      "idioma_original": "Griego",
+      "soporte": "Crónica",
+      "resumen": "Historia en cinco libros de las guerras de Justiniano en Italia y contra los persas y francos, escrita por un abogado de Constantinopla que continuó a Procopio. Incluye la descripción del terremoto y el maremoto de 551 que destruyeron Beirut y otras ciudades de la costa fenicia.",
+      "por_que_importa": "Es, con Malalas y el peregrino de Piacenza, una de las fuentes contemporáneas del terremoto de 551 y de la destrucción de la escuela de derecho de Beirut.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "inscripciones-de-la-cupula-de-la-roca",
+      "titulo": "Inscripciones de la Cúpula de la Roca",
+      "titulo_original": null,
+      "autor": "Califato omeya (encargo de Abd al-Malik)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "inscripcion",
+      "escrita": {
+        "anio": 692,
+        "aprox": false,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 691,
+        "hasta": 692
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Inscripción",
+      "resumen": "Cintas de mosaico con textos en árabe que recorren el interior del octógono del santuario: la profesión de fe, versículos coránicos sobre la unicidad de Dios y sobre Jesús, hijo de María, «enviado de Dios», y una dedicatoria con la fecha de construcción, el año 72 de la hégira (691-692), a nombre del califa Abd al-Malik. En la inscripción original el nombre del califa fue luego reemplazado por el de al-Mamún.",
+      "por_que_importa": "Son, según la bibliografía, las inscripciones más antiguas que proclaman el islam y a Mahoma, con una fecha y el nombre de quien mandó construir el santuario; algunos de sus pasajes coránicos difieren en algo del texto actual.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cúpula de la Roca",
+        "en": "Dome of the Rock"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-comunidad-maronita",
+      "titulo": "Historia de la comunidad maronita",
+      "titulo_original": "Tārīkh al-ṭā'ifa al-mārūniyya",
+      "autor": "Istifán al-Duwayhi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1680,
+        "aprox": true
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "siria"
+        ],
+        "desde": 450,
+        "hasta": 1680
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Crónica",
+      "resumen": "Historia de la Iglesia maronita escrita por el patriarca Istifán al-Duwayhi (1630-1704). Presenta a Juan Marón como primer patriarca de Antioquía, elegido en 685, y reconstruye desde esa tradición la continuidad de la sucesión patriarcal hasta el siglo XVII.",
+      "por_que_importa": "Es la fuente principal de la tradición maronita sobre Juan Marón; los estudiosos que dudan de que haya existido objetan que las fuentes más antiguas no lo nombran.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "liber-pontificalis",
+      "titulo": "Libro pontifical",
+      "titulo_original": "Liber pontificalis",
+      "autor": "Redactores sucesivos de la curia romana",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 530,
+        "anio_hasta": 891,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 33,
+        "hasta": 891
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Serie de biografías de los papas desde san Pedro, compilada por redactores sucesivos de la curia romana. La vida de León IV (847-855) cuenta el saqueo de las basílicas de San Pedro y San Pablo por una flota musulmana en 846 y la construcción de la muralla alrededor del Vaticano.",
+      "por_que_importa": "Es el relato romano más cercano al saqueo de 846 y a la ciudad leonina.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Liber pontificalis",
+        "en": "Liber Pontificalis"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "historia-de-leon-el-diacono",
+      "titulo": "Historia",
+      "titulo_original": "Ἱστορία",
+      "autor": "León el Diácono",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 992,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "siria"
+        ],
+        "desde": 959,
+        "hasta": 976
+      },
+      "idioma_original": "Griego",
+      "soporte": "Crónica",
+      "resumen": "Crónica en diez libros de los reinados de Romano II, Nicéforo II Focas, Juan I Tzimisces y los comienzos de Basilio II, escrita por un diácono de la corte que acompañó al ejército en campaña. Narra la reconquista de Creta, Cilicia y el norte de Siria, con la toma de Antioquía en 969.",
+      "por_que_importa": "Es el relato griego de un contemporáneo sobre la recuperación bizantina de Antioquía.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historias-de-rodolfo-glaber",
+      "titulo": "Cinco libros de historias",
+      "titulo_original": "Historiarum libri quinque",
+      "autor": "Rodolfo Glaber",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1040,
+        "aprox": true,
+        "lugar": "Abadía de Cluny",
+        "lon": 4.659,
+        "lat": 46.434
+      },
+      "trata": {
+        "regiones": [
+          "francia",
+          "tierra-santa"
+        ],
+        "desde": 900,
+        "hasta": 1044
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Crónica monástica en cinco libros de los años 900 a 1044 escrita por un monje borgoñón. Cuenta que en 1009 el califa fatimí mandó destruir el Santo Sepulcro y atribuye la orden a una acusación contra los judíos de Occidente, que habrían avisado al califa; la noticia habría provocado persecuciones contra judíos en Francia.",
+      "por_que_importa": "Muestra cómo se contó en Europa la destrucción del Santo Sepulcro y qué se creyó entonces sobre sus causas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "carmen-in-victoriam-pisanorum",
+      "titulo": "Canto por la victoria de los pisanos",
+      "titulo_original": "Carmen in victoriam Pisanorum",
+      "autor": "Un clérigo pisano anónimo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1087,
+        "anio_hasta": 1088,
+        "aprox": false,
+        "lugar": "Pisa",
+        "lon": 10.4,
+        "lat": 43.717
+      },
+      "trata": {
+        "regiones": [
+          "magreb"
+        ],
+        "desde": 1087,
+        "hasta": 1087
+      },
+      "idioma_original": "Latín",
+      "soporte": "Poema",
+      "resumen": "Poema latino sobre el ataque de Pisa, Génova y sus aliados a Mahdia, la capital del zirí Tamim ibn Muizz, en 1087. Probablemente lo escribió un clérigo pisano a los pocos meses de la campaña.",
+      "por_que_importa": "Es la fuente más cercana de la campaña de Mahdia y un testimonio temprano de las ideas cristianas de guerra santa antes de la Primera Cruzada.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Carmen in victoriam Pisanorum"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "pie-postulatio-voluntatis",
+      "titulo": "Bula Pie postulatio voluntatis",
+      "titulo_original": "Pie postulatio voluntatis",
+      "autor": "Pascual II",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1113,
+        "aprox": false,
+        "lugar": "Benevento",
+        "lon": 14.783,
+        "lat": 41.133
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1113,
+        "hasta": 1113
+      },
+      "idioma_original": "Latín",
+      "soporte": "Bula",
+      "resumen": "Bula del papa Pascual II del 15 de febrero de 1113 por la que toma bajo protección de la Santa Sede al hospital de San Juan de Jerusalén y a sus casas en Occidente, confirma sus bienes y les concede el derecho de elegir a su maestre sin intervención de laicos.",
+      "por_que_importa": "Es el documento con que el Hospital pasó de cofradía local a orden religiosa independiente, antes de volverse orden militar.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Pie postulatio voluntatis",
+        "en": "Pie postulatio voluntatis"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "cartas-de-jacobo-de-vitry",
+      "titulo": "Cartas de Jacobo de Vitry",
+      "titulo_original": null,
+      "autor": "Jacobo de Vitry",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 1220,
+        "aprox": false,
+        "lugar": "Damieta",
+        "lon": 31.821,
+        "lat": 31.417
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "bajo-egipto"
+        ],
+        "desde": 1216,
+        "hasta": 1221
+      },
+      "idioma_original": "Latín",
+      "soporte": "Carta",
+      "resumen": "Cartas del obispo de Acre Jacobo de Vitry, que acompañó a la quinta cruzada en Damieta. En una de 1220 cuenta que Francisco de Asís llegó al campamento cruzado, pasó a las líneas del sultán al-Kámil y fue recibido y devuelto sano.",
+      "por_que_importa": "Es el relato de un testigo presente en el campamento cruzado sobre el encuentro de Francisco con el sultán.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "bulas-gratias-agimus-y-nuper-carissimae",
+      "titulo": "Bulas Gratias agimus y Nuper carissimae",
+      "titulo_original": null,
+      "autor": "Clemente VI",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1342,
+        "aprox": false,
+        "lugar": "Aviñón",
+        "lon": 4.808,
+        "lat": 43.949
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1333,
+        "hasta": 1342
+      },
+      "idioma_original": "Latín",
+      "soporte": "Bula",
+      "resumen": "Dos bulas de Clemente VI, de 1342, que encomiendan a los franciscanos la custodia de los santos lugares en nombre de la Iglesia católica, tras la compra del Cenáculo en el monte Sion por Roberto de Nápoles y Sancha de Mallorca en 1333 y los acuerdos con el sultán mameluco.",
+      "por_que_importa": "Fundan jurídicamente la Custodia de Tierra Santa, que los franciscanos conservan.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "bada-i-al-zuhur-ibn-iyas",
+      "titulo": "Maravillas de las flores en los sucesos de los tiempos",
+      "titulo_original": "Badā'i' al-zuhūr fī waqā'i' al-duhūr",
+      "autor": "Ibn Iyas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1522,
+        "aprox": true,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "siria",
+          "arabia"
+        ],
+        "desde": 1468,
+        "hasta": 1522
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Crónica",
+      "resumen": "Crónica de Egipto escrita por un cronista cairota de ascendencia mameluca que vivió la conquista otomana. Cuenta la derrota de los mamelucos en Marj Dabiq (1516), la entrada de Selim I en El Cairo (1517) y la visita a Selim de un hijo del jerife de La Meca con las llaves de las ciudades santas.",
+      "por_que_importa": "Es el testimonio egipcio contemporáneo de la conquista otomana de Siria y Egipto y de la sumisión del Hiyaz.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "iran-bajo-los-safavies",
+      "titulo": "Irán bajo los safávidas",
+      "titulo_original": "Iran under the Safavids",
+      "autor": "Roger Savory",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "persia",
+          "anatolia",
+          "mesopotamia"
+        ],
+        "desde": 1501,
+        "hasta": 1736
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia política y administrativa de la dinastía safávida de Irán, publicada por Cambridge University Press. Trata la guerra con los otomanos, con la batalla de Chaldiran (1514) y las campañas de Solimán contra el shah Tahmasp, y la política de los safávidas hacia los jefes qizilbash.",
+      "por_que_importa": "Es el estudio de referencia en inglés sobre el Irán safávida y sus guerras con los otomanos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "beyan-i-menazil-de-matrakci",
+      "titulo": "Relato de las etapas de la campaña de los dos Irak de Solimán",
+      "titulo_original": "Beyân-ı Menâzil-i Sefer-i Irakeyn-i Sultan Süleyman Han",
+      "autor": "Matrakçı Nasuh",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1537,
+        "aprox": false,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": 1534,
+        "hasta": 1536
+      },
+      "idioma_original": "Turco otomano",
+      "soporte": "Crónica ilustrada",
+      "resumen": "Crónica ilustrada con miniaturas de las etapas de la campaña de Solimán I contra los safávidas de 1534-1536, que llevó a los otomanos a Tabriz y Bagdad. Su autor, un polígrafo y miniaturista de la corte, vio la expedición.",
+      "por_que_importa": "Es la crónica ilustrada de un testigo de la campaña por la que Bagdad pasó a los otomanos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mirat-ul-memalik",
+      "titulo": "Espejo de los países",
+      "titulo_original": "Mir'ât ül-Memâlik",
+      "autor": "Seydi Ali Reis",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1557,
+        "aprox": false,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "arabia",
+          "india"
+        ],
+        "desde": 1553,
+        "hasta": 1557
+      },
+      "idioma_original": "Turco otomano",
+      "soporte": "Relato de viaje",
+      "resumen": "Relato de la travesía de Seydi Ali Reis, almirante otomano del mar Rojo y del golfo Pérsico, que en 1553-1554 salió de Basora con la flota, enfrentó a los portugueses cerca de Ormuz y perdió gran parte de sus naves en una tormenta; volvió a Estambul por tierra a través de la India y Asia central.",
+      "por_que_importa": "Es el relato de un protagonista de la disputa otomano-portuguesa por el Índico occidental a mediados del siglo XVI.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "navegaciones-de-nicolay",
+      "titulo": "Los cuatro primeros libros de las navegaciones y peregrinaciones orientales",
+      "titulo_original": "Les quatre premiers livres des navigations et peregrinations orientales",
+      "autor": "Nicolas de Nicolay",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1568,
+        "aprox": false,
+        "lugar": "Lyon",
+        "lon": 4.835,
+        "lat": 45.767
+      },
+      "trata": {
+        "regiones": [
+          "magreb",
+          "anatolia",
+          "levante"
+        ],
+        "desde": 1551,
+        "hasta": 1552
+      },
+      "idioma_original": "Francés",
+      "soporte": "Relato de viaje",
+      "resumen": "Relato de las travesías de Nicolas de Nicolay, geógrafo del rey de Francia, que viajó con el embajador Aramon a Argel, Trípoli, Constantinopla y el Levante. Estuvo en el sitio de Trípoli de 1551, en que Dragut y Sinan Pasha tomaron la ciudad a los hospitalarios, y lo cuenta como testigo.",
+      "por_que_importa": "Es el relato de un testigo de la caída de Trípoli en 1551 y de la presencia francesa junto a los otomanos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "verdadera-relacion-de-balbi",
+      "titulo": "Verdadera relación de todo lo sucedido en la isla de Malta en 1565",
+      "titulo_original": "La verdadera relación de todo lo que el año de MDLXV ha sucedido en la isla de Malta",
+      "autor": "Francisco Balbi de Correggio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1567,
+        "aprox": false,
+        "lugar": "Alcalá de Henares",
+        "lon": -3.364,
+        "lat": 40.482
+      },
+      "trata": {
+        "regiones": [
+          "sicilia"
+        ],
+        "desde": 1565,
+        "hasta": 1565
+      },
+      "idioma_original": "Español",
+      "soporte": "Crónica",
+      "resumen": "Diario del sitio de Malta escrito por un arcabucero italiano del contingente español de la guarnición, que lo vivió de principio a fin y lo publicó en español, en Alcalá de Henares, en 1567; una segunda edición corregida salió en Barcelona en 1568. Cuenta día por día la resistencia de los hospitalarios del gran maestre La Valette y la llegada del socorro de Sicilia.",
+      "por_que_importa": "Es el relato de un testigo del Gran Sitio de Malta, base de buena parte de lo que se cuenta del asedio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "relatione-di-famagosta",
+      "titulo": "Relación de todo lo sucedido en Famagusta",
+      "titulo_original": "Relatione di tutto il successo di Famagosta",
+      "autor": "Nestore Martinengo",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1572,
+        "aprox": false,
+        "lugar": "Venecia",
+        "lon": 12.332,
+        "lat": 45.44
+      },
+      "trata": {
+        "regiones": [
+          "chipre"
+        ],
+        "desde": 1570,
+        "hasta": 1571
+      },
+      "idioma_original": "Italiano",
+      "soporte": "Crónica",
+      "resumen": "Relato del asedio de Famagusta (1570-1571) escrito por un noble veneciano que estuvo en la ciudad sitiada y que cuenta la rendición pactada y la muerte del comandante Marco Antonio Bragadin.",
+      "por_que_importa": "Es el testimonio de un testigo de la caída de Famagusta y de la ejecución de Bragadin.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "victoria-de-occidente-capponi",
+      "titulo": "Victoria de Occidente: la historia de la batalla de Lepanto",
+      "titulo_original": "Victory of the West: The Story of the Battle of Lepanto",
+      "autor": "Niccolò Capponi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "chipre",
+          "italia"
+        ],
+        "desde": 1570,
+        "hasta": 1573
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio sobre la guerra de Chipre y la batalla de Lepanto, con las fuerzas de la Liga Santa y de la flota otomana, el desarrollo del combate del 7 de octubre de 1571 y sus consecuencias.",
+      "por_que_importa": "Es un estudio reciente del enfrentamiento naval, escrito con fuentes venecianas, españolas y otomanas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "fezleke-de-katip-celebi",
+      "titulo": "Fezleke",
+      "titulo_original": "Fezleke-i Tarih",
+      "autor": "Kâtip Çelebi",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1655,
+        "aprox": true,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": 1591,
+        "hasta": 1655
+      },
+      "idioma_original": "Turco otomano",
+      "soporte": "Crónica",
+      "resumen": "Anales del Imperio otomano de fines del siglo XVI a mediados del XVII escritos por Kâtip Çelebi, funcionario de la administración militar que estuvo en las campañas de Bagdad y de Revan entre 1625 y 1635 pero no en la de 1638. Cuenta el sitio y la toma de Bagdad de 1638.",
+      "por_que_importa": "Es una crónica otomana contemporánea, escrita en Estambul, que cuenta la campaña de 1638 sin que su autor participara en ella.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "gran-rebelion-de-anatolia-griswold",
+      "titulo": "La gran rebelión de Anatolia, 1000-1020/1591-1611",
+      "titulo_original": "The Great Anatolian Rebellion, 1000-1020/1591-1611",
+      "autor": "William J. Griswold",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "armenia",
+          "galacia"
+        ],
+        "desde": 1591,
+        "hasta": 1611
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de los levantamientos de jefes de bandas y soldados irregulares en Anatolia a fines del siglo XVI y comienzos del XVII, con las rebeliones celalíes, las respuestas del gobierno otomano y sus efectos en el campo.",
+      "por_que_importa": "Es el estudio de referencia sobre las rebeliones celalíes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "sabbatai-sevi-scholem",
+      "titulo": "Sabbatai Sevi: el Mesías místico, 1626-1676",
+      "titulo_original": "Sabbatai Sevi: The Mystical Messiah, 1626-1676",
+      "autor": "Gershom Scholem",
+      "autor_id": "gershom-scholem",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "levante",
+          "tierra-santa",
+          "anatolia"
+        ],
+        "desde": 1626,
+        "hasta": 1676
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía y estudio del movimiento sabateano, con la figura de Sabetai Zeví, el profeta Natán de Gaza que lo proclamó mesías en 1665, la difusión de la noticia entre las comunidades judías y la conversión de Sabetai al islam en 1666. Se publicó primero en hebreo (1957) y la edición inglesa es de Princeton University Press (1973).",
+      "por_que_importa": "Es el estudio de referencia sobre el movimiento sabateano.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pilgrims-and-sultans",
+      "titulo": "Peregrinos y sultanes: el hach bajo los otomanos, 1517-1683",
+      "titulo_original": "Pilgrims and Sultans: The Hajj under the Ottomans, 1517-1683",
+      "autor": "Suraiya Faroqhi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "arabia",
+          "siria",
+          "transjordania",
+          "levante"
+        ],
+        "desde": 1517,
+        "hasta": 1683
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la organización de la peregrinación a La Meca bajo los otomanos, con la caravana de Damasco, los pagos a los beduinos, las fortalezas y aguadas del camino y el papel del sultán como protector de las ciudades santas. Lo publicó I. B. Tauris en 1994.",
+      "por_que_importa": "Es el estudio de referencia sobre la caravana del Hach otomano.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-siege-of-vienna-stoye",
+      "titulo": "El sitio de Viena",
+      "titulo_original": "The Siege of Vienna",
+      "autor": "John Stoye",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1964,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "hungria",
+          "balcanes"
+        ],
+        "desde": 1683,
+        "hasta": 1683
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio del segundo asedio otomano de Viena, con los antecedentes diplomáticos, el sitio de julio a septiembre de 1683, la llegada del ejército de socorro de Juan III Sobieski y las consecuencias para los Habsburgo y los otomanos. Lo publicó Collins en 1964.",
+      "por_que_importa": "Es el estudio de referencia en inglés sobre la batalla de Viena de 1683.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "firman-del-statu-quo-de-1757",
+      "titulo": "Firmán del statu quo de los santos lugares",
+      "titulo_original": null,
+      "autor": "Osman III",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1757,
+        "aprox": false,
+        "lugar": "Constantinopla",
+        "lon": 28.976,
+        "lat": 41.012
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1757,
+        "hasta": 1757
+      },
+      "idioma_original": "Turco otomano",
+      "soporte": "Decreto",
+      "resumen": "Decreto del sultán otomano de 1757 que fija el reparto de los santuarios de Jerusalén y Belén entre ortodoxos, latinos, armenios y otras Iglesias, con sus derechos y turnos de uso. Firmanes de 1852 y 1853, de Abdülmecid I, lo confirmaron.",
+      "por_que_importa": "Es el documento que regula hasta hoy el uso de los santuarios y alimentó la disputa que fue pretexto de la guerra de Crimea.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Statu quo (lugares de Tierra Santa)",
+        "en": "Status Quo (Jerusalem and Bethlehem)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "archivos-reales-de-egipto-rustum",
+      "titulo": "Los archivos reales de Egipto y los orígenes de la expedición egipcia a Siria, 1831-1841",
+      "titulo_original": "The Royal Archives of Egypt and the Origins of the Egyptian Expedition to Syria, 1831-1841",
+      "autor": "Asad Rustum",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Beirut",
+        "lon": 35.513,
+        "lat": 33.887
+      },
+      "trata": {
+        "regiones": [
+          "levante",
+          "siria",
+          "egipto"
+        ],
+        "desde": 1831,
+        "hasta": 1841
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio basado en los archivos reales de Egipto sobre los orígenes y la conducción de la expedición egipcia a Siria dirigida por Ibrahim Pachá, con la conquista de Siria y Palestina y la administración egipcia hasta 1840-1841.",
+      "por_que_importa": "Es un estudio de referencia sobre la ocupación egipcia de Siria desde los documentos del gobierno egipcio.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "an-occasion-for-war",
+      "titulo": "Un motivo de guerra: el conflicto civil en el Líbano y Damasco en 1860",
+      "titulo_original": "An Occasion for War: Civil Conflict in Lebanon and Damascus in 1860",
+      "autor": "Leila Fawaz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "siria",
+          "levante"
+        ],
+        "desde": 1840,
+        "hasta": 1860
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la guerra de 1860 entre drusos y maronitas en el monte Líbano y de las matanzas de cristianos en Damasco, con sus causas sociales, la actuación de las autoridades otomanas y la intervención de las potencias europeas. Lo publicó University of California Press en 1994.",
+      "por_que_importa": "Es el estudio de referencia sobre el conflicto de 1860.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "frontiers-of-the-state-rogan",
+      "titulo": "Las fronteras del Estado en el Imperio otomano tardío: Transjordania, 1850-1921",
+      "titulo_original": "Frontiers of the State in the Late Ottoman Empire: Transjordan, 1850-1921",
+      "autor": "Eugene Rogan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Cambridge",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "transjordania",
+          "levante"
+        ],
+        "desde": 1850,
+        "hasta": 1921
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la extensión del Estado otomano en Transjordania, con el asentamiento de refugiados circasianos desde 1878 en Amán y otros pueblos, la gestión de las tierras y de las tribus beduinas y las escuelas. Lo publicó Cambridge University Press en 1999.",
+      "por_que_importa": "Es el estudio de referencia sobre el asentamiento circasiano y el Estado otomano en Transjordania.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "jihad-and-islam-in-world-war-i",
+      "titulo": "Yihad e islam en la Primera Guerra Mundial",
+      "titulo_original": "Jihad and Islam in World War I",
+      "autor": "Erik-Jan Zürcher (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "Leiden",
+        "lon": 4.49,
+        "lat": 52.16
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "levante",
+          "arabia"
+        ],
+        "desde": 1914,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudios reunidos por Erik-Jan Zürcher en el centenario del libro de Snouck Hurgronje, sobre el llamado otomano al yihad de noviembre de 1914, su preparación junto a Alemania, su efecto en los musulmanes de las colonias aliadas y su fracaso. Lo publicó Leiden University Press.",
+      "por_que_importa": "Es el estudio colectivo de referencia sobre el yihad de 1914.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "massacres-resistance-protectors",
+      "titulo": "Masacres, resistencia, protectores: las relaciones entre musulmanes y cristianos en Anatolia oriental durante la Primera Guerra Mundial",
+      "titulo_original": "Massacres, Resistance, Protectors: Muslim-Christian Relations in Eastern Anatolia during World War I",
+      "autor": "David Gaunt",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Piscataway",
+        "lon": -74.399,
+        "lat": 40.499
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "mesopotamia",
+          "persia"
+        ],
+        "desde": 1914,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las matanzas de cristianos asirios y siríacos y de armenios en el este de Anatolia durante la Primera Guerra Mundial, con la resistencia de las comunidades y los casos de vecinos musulmanes que protegieron a cristianos. Lo publicó Gorgias Press en 2006.",
+      "por_que_importa": "Es el estudio de referencia sobre el sayfo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "trato-de-los-armenios-en-el-imperio-otomano",
+      "titulo": "El trato de los armenios en el Imperio otomano, 1915-1916",
+      "titulo_original": "The Treatment of Armenians in the Ottoman Empire, 1915-1916",
+      "autor": "James Bryce y Arnold Toynbee",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1916,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "levante",
+          "mesopotamia",
+          "siria"
+        ],
+        "desde": 1915,
+        "hasta": 1916
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Colección de testimonios de testigos y de documentos sobre la deportación y las matanzas de armenios, reunida por Arnold Toynbee y presentada por James Bryce al gobierno británico. Incluye relatos de misioneros, diplomáticos y sobrevivientes, y también de las matanzas de asirios en la región de Urmía. Se publicó en 1916 como Libro Azul.",
+      "por_que_importa": "Fue la primera gran recopilación de testimonios sobre el genocidio armenio; los gobiernos turcos lo han tachado de propaganda de guerra.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-del-embajador-morgenthau",
+      "titulo": "La historia del embajador Morgenthau",
+      "titulo_original": "Ambassador Morgenthau's Story",
+      "autor": "Henry Morgenthau Sr.",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1918,
+        "aprox": false,
+        "lugar": "Garden City",
+        "lon": -73.65,
+        "lat": 40.727
+      },
+      "trata": {
+        "regiones": [
+          "anatolia",
+          "levante"
+        ],
+        "desde": 1913,
+        "hasta": 1916
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias de Henry Morgenthau Sr., embajador de Estados Unidos en Constantinopla de 1913 a 1916. Cuenta sus gestiones ante Talat Pachá y Enver Pachá, y recoge los informes de los cónsules sobre la deportación y las matanzas de armenios. Lo publicó Doubleday, Page & Co. en Garden City (Nueva York).",
+      "por_que_importa": "Es el testimonio de un diplomático de un país entonces neutral que presenció el genocidio armenio; lo escribió con Burton J. Hendrick y se publicó en 1918, con Estados Unidos ya en guerra. Algunos historiadores criticaron su relato sobre Alemania, aunque el cotejo con sus despachos oficiales lo respalda en lo esencial.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Ambassador Morgenthau's Story"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "los-siete-pilares-de-la-sabiduria",
+      "titulo": "Los siete pilares de la sabiduría",
+      "titulo_original": "Seven Pillars of Wisdom",
+      "autor": "T. E. Lawrence",
+      "autor_id": "lawrence",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1926,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "arabia",
+          "levante",
+          "tierra-santa"
+        ],
+        "desde": 1916,
+        "hasta": 1918
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias de T. E. Lawrence sobre la revuelta árabe contra los otomanos y su participación como oficial de enlace junto a Faisal. Cuenta la campaña hasta Aqaba y Damasco y la entrada del general Allenby en Jerusalén el 11 de diciembre de 1917, a la que asistió. Un texto de 1922, impreso en Oxford, precedió a la primera edición, de 1926, en Londres.",
+      "por_que_importa": "Es el testimonio de un protagonista de la campaña británica y árabe en el Levante.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Los siete pilares de la sabiduría",
+        "en": "Seven Pillars of Wisdom"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-palin",
+      "titulo": "Informe de la comisión Palin sobre los disturbios de Jerusalén de 1920",
+      "titulo_original": null,
+      "autor": "Comisión de investigación del Ejército británico (general Palin)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "Puerto Said",
+        "lon": 32.306,
+        "lat": 31.262
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1920,
+        "hasta": 1920
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión militar británica, presidida por el general P. C. Palin, sobre los disturbios del 4 al 7 de abril de 1920 en Jerusalén durante la fiesta de Nebi Musa. Se terminó el 1 de julio de 1920 en Port Said y nunca se publicó: se guardó en previsión de objeciones sionistas y se conserva en los papeles del Foreign Office (FO 371/5121). Analiza las causas, las medidas de las autoridades militares y la actuación de los dirigentes locales.",
+      "por_que_importa": "Es el primer informe oficial británico sobre un episodio de violencia durante la ocupación y el Mandato; quedó inédito.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Palin Commission"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-haycraft",
+      "titulo": "Informe de la comisión Haycraft sobre los disturbios de Jaffa de 1921",
+      "titulo_original": null,
+      "autor": "Comisión de investigación presidida por Thomas Haycraft",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1921,
+        "aprox": false,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1921,
+        "hasta": 1921
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión presidida por el presidente de la Corte Suprema de Palestina, Thomas Haycraft, sobre los disturbios de mayo de 1921 en Jaffa y otras localidades. Analiza las causas de la violencia entre árabes y judíos y los hechos de cada día.",
+      "por_que_importa": "Es el informe oficial británico sobre los disturbios de Jaffa de 1921.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Haycraft Commission"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-shaw",
+      "titulo": "Informe de la comisión Shaw sobre los disturbios de 1929",
+      "titulo_original": null,
+      "autor": "Comisión de investigación presidida por Walter Shaw",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1930,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1929,
+        "hasta": 1929
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión británica presidida por Walter Shaw sobre los disturbios de agosto de 1929 por el Muro de las Lamentaciones, con los ataques en Jerusalén, Hebrón y Safed. Atribuye la violencia a la hostilidad árabe hacia los judíos, nacida de la frustración de sus propias aspiraciones políticas y nacionales y del temor por su futuro económico ante la inmigración y la compra de tierras judías. La nota de reservas de Henry Snell atribuyó más responsabilidad a la incitación del muftí y de los dirigentes árabes.",
+      "por_que_importa": "Es el informe oficial británico sobre las matanzas de 1929.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Shaw Commission"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "acta-de-la-reunion-de-hitler-y-al-husseini",
+      "titulo": "Acta de la reunión de Hitler con el gran muftí de Jerusalén",
+      "titulo_original": null,
+      "autor": "Paul Otto Schmidt (intérprete)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1941,
+        "aprox": false,
+        "lugar": "Berlín",
+        "lon": 13.383,
+        "lat": 52.517
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "tierra-santa"
+        ],
+        "desde": 1941,
+        "hasta": 1941
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Acta",
+      "resumen": "Acta alemana de la entrevista del 28 de noviembre de 1941 en Berlín entre Hitler y Amín al-Husseini, que pidió apoyo para la independencia de los países árabes y contra el hogar nacional judío. Según el acta de Schmidt, Hitler contestó que Alemania buscaba la destrucción del elemento judío que residía en la esfera árabe bajo la protección británica; Fritz Grobba dejó otra acta, con otra redacción. Se publicó en Documents on German Foreign Policy.",
+      "por_que_importa": "Es el registro contemporáneo de lo que se dijeron los dos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-jews-of-iraq",
+      "titulo": "Los judíos de Irak: 3000 años de historia y cultura",
+      "titulo_original": "The Jews of Iraq: 3000 Years of History and Culture",
+      "autor": "Nissim Rejwan",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia"
+        ],
+        "desde": -597,
+        "hasta": 1951
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la comunidad judía de Irak, desde la Antigüedad hasta su salida en 1950-1951. Dedica un capítulo al golpe de Rashid Ali y a los disturbios del Farhud de junio de 1941 y a su efecto en la vida de la comunidad.",
+      "por_que_importa": "Lo escribió un judío de Bagdad que vivió allí hasta 1951.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "la-destruccion-de-los-judios-europeos",
+      "titulo": "La destrucción de los judíos europeos",
+      "titulo_original": "The Destruction of the European Jews",
+      "autor": "Raul Hilberg",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Chicago",
+        "lon": -87.628,
+        "lat": 41.882
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "polonia"
+        ],
+        "desde": 1933,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la persecución y el asesinato de los judíos de Europa por la Alemania nazi y sus aliados, con las etapas de la definición, la expropiación, la concentración, las deportaciones y el exterminio, y la maquinaria administrativa que lo ejecutó. Se publicó en 1961 y se amplió en 1985 y 2003.",
+      "por_que_importa": "Es uno de los estudios fundadores de la historia del Holocausto.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Destruction of the European Jews"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-rebelion-de-beguin",
+      "titulo": "La rebelión: historia del Irgún",
+      "titulo_original": "Ha-Mered (המרד)",
+      "autor": "Menájem Beguín",
+      "autor_id": "begin",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1950,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1943,
+        "hasta": 1948
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Memorias",
+      "resumen": "Memorias de Menájem Beguín, comandante del Irgún, sobre la lucha armada contra el Mandato británico; el original hebreo es de 1950 y la traducción inglesa, de 1951. Cuenta la preparación del atentado contra el hotel Rey David y el aviso previo que según él se dio a los británicos, y da su versión del ataque a Deir Yassin, que niega que haya sido una matanza.",
+      "por_que_importa": "Es el relato del jefe del Irgún sobre el atentado, que los británicos negaron haber recibido en esos términos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "protocolo-de-sevres",
+      "titulo": "Protocolo de Sèvres",
+      "titulo_original": "Protocole de Sèvres",
+      "autor": "Israel, Francia y el Reino Unido",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Sèvres",
+        "lon": 2.211,
+        "lat": 48.823
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "tierra-santa"
+        ],
+        "desde": 1956,
+        "hasta": 1956
+      },
+      "idioma_original": "Francés",
+      "soporte": "Acuerdo secreto",
+      "resumen": "Acuerdo secreto firmado el 24 de octubre de 1956 en Sèvres por David Ben-Gurión, Christian Pineau y Patrick Dean: Israel atacaría Egipto y Francia y el Reino Unido, con el pretexto de separar a los combatientes, intervendrían para ocupar la zona del canal de Suez. Gran Bretaña negó durante años su existencia.",
+      "por_que_importa": "Prueba que la intervención anglofrancesa de la crisis de Suez estaba coordinada con Israel.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Protocolo de Sèvres",
+        "en": "Protocol of Sèvres"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "the-jews-of-arab-lands-in-modern-times",
+      "titulo": "Los judíos de los países árabes en la época moderna",
+      "titulo_original": "The Jews of Arab Lands in Modern Times",
+      "autor": "Norman A. Stillman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "magreb",
+          "egipto",
+          "mesopotamia",
+          "arabia",
+          "tierra-santa"
+        ],
+        "desde": 1800,
+        "hasta": 1975
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de las comunidades judías de los países árabes desde el siglo XIX hasta la década de 1970, con su situación bajo el dominio colonial y los Estados independientes, y las circunstancias de su salida entre 1948 y los años setenta. Lo publicó la Jewish Publication Society.",
+      "por_que_importa": "Es el estudio de referencia sobre el éxodo de los judíos de los países árabes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "lion-of-jordan",
+      "titulo": "El león de Jordania: la vida del rey Husein en la guerra y en la paz",
+      "titulo_original": "Lion of Jordan: The Life of King Hussein in War and Peace",
+      "autor": "Avi Shlaim",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "transjordania",
+          "levante"
+        ],
+        "desde": 1935,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía del rey Husein de Jordania, con su decisión de reprimir en septiembre de 1970 a las organizaciones armadas palestinas del país, los combates con la OLP y con el ejército sirio, y el traslado de la OLP al Líbano.",
+      "por_que_importa": "Es una biografía de referencia, escrita con archivos y entrevistas, sobre el Septiembre Negro.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "one-day-in-september",
+      "titulo": "Un día de septiembre",
+      "titulo_original": "One Day in September",
+      "autor": "Simon Reeve",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "tierra-santa"
+        ],
+        "desde": 1972,
+        "hasta": 1972
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción de la toma de rehenes israelíes por el grupo Septiembre Negro en los Juegos Olímpicos de Múnich de 1972, el fracaso del intento de rescate alemán y la represalia israelí posterior. Lo publicaron Faber & Faber (Londres) y Arcade (Nueva York) en 2000.",
+      "por_que_importa": "Es una reconstrucción periodística del atentado de Múnich y de sus consecuencias.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "informe-agranat",
+      "titulo": "Informe de la comisión Agranat",
+      "titulo_original": null,
+      "autor": "Comisión Agranat",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1974,
+        "aprox": false,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "egipto",
+          "siria"
+        ],
+        "desde": 1973,
+        "hasta": 1974
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Informe",
+      "resumen": "Informes de la comisión presidida por el juez Shimon Agranat, formada en noviembre de 1973 para investigar los fallos de inteligencia y de mando antes del ataque egipcio y sirio del 6 de octubre. El informe parcial se publicó en abril de 1974.",
+      "por_que_importa": "Es la investigación oficial israelí sobre los preparativos y el comienzo de la guerra de Yom Kipur.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Agranat Commission"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-338",
+      "titulo": "Resolución 338 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "egipto",
+          "siria"
+        ],
+        "desde": 1973,
+        "hasta": 1973
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 22 de octubre de 1973 que pide un alto el fuego en la guerra de Yom Kipur, la aplicación de la resolución 242 y negociaciones entre las partes.",
+      "por_que_importa": "Pidió el alto el fuego de la guerra de 1973 y fijó el marco de las negociaciones posteriores.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Resolución 338 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 338"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "rise-and-kill-first",
+      "titulo": "Levántate y mata primero: la historia secreta de los asesinatos selectivos de Israel",
+      "titulo_original": "Rise and Kill First: The Secret History of Israel's Targeted Assassinations",
+      "autor": "Ronen Bergman",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2018,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "levante",
+          "alemania"
+        ],
+        "desde": 1944,
+        "hasta": 2018
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de los asesinatos selectivos del Estado de Israel, basada en entrevistas con integrantes de los servicios de seguridad, que incluye las operaciones posteriores a la masacre de Múnich y episodios de terrorismo palestino como el ataque de Ma'alot.",
+      "por_que_importa": "Documenta con testimonios de los servicios israelíes episodios como Ma'alot y Múnich.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Rise and Kill First"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "acuerdo-de-taif",
+      "titulo": "Acuerdo de Taif",
+      "titulo_original": null,
+      "autor": "Parlamentarios libaneses (Taif, Arabia Saudita)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Taif",
+        "lon": 40.417,
+        "lat": 21.267
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1975,
+        "hasta": 1990
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Acuerdo",
+      "resumen": "Documento de reconciliación nacional que firmaron en octubre de 1989 los diputados libaneses en Taif, bajo auspicio saudí y con apoyo de Siria y de Estados Unidos. Reparte el poder entre cristianos y musulmanes en proporción 50 a 50, reduce las atribuciones del presidente y prevé el repliegue de las tropas sirias al valle de la Becá en dos años.",
+      "por_que_importa": "Puso fin a la guerra civil libanesa.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdo de Taif",
+        "en": "Taif Agreement"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "pity-the-nation",
+      "titulo": "Piedad para la nación: el Líbano en guerra",
+      "titulo_original": "Pity the Nation: Lebanon at War",
+      "autor": "Robert Fisk",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1975,
+        "hasta": 1990
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Relato del periodista Robert Fisk, que vivió en Beirut desde 1976, sobre la guerra civil libanesa, la invasión israelí de 1982 y la matanza de Sabra y Chatila.",
+      "por_que_importa": "Es un testimonio periodístico de primera mano de la guerra.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Pity the Nation: Lebanon at War"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "operation-thunderbolt",
+      "titulo": "Operación Rayo: el vuelo 139 y el asalto al aeropuerto de Entebbe",
+      "titulo_original": "Operation Thunderbolt: Flight 139 and the Raid on Entebbe Airport",
+      "autor": "Saul David",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "africa-oriental",
+          "tierra-santa"
+        ],
+        "desde": 1976,
+        "hasta": 1976
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción del secuestro del vuelo 139 de Air France en junio de 1976, la liberación de los rehenes en Entebbe por comandos israelíes el 4 de julio y el papel del gobierno de Idi Amin. Lo publicó Hodder & Stoughton en Londres (Little, Brown, en Estados Unidos) en 2015.",
+      "por_que_importa": "Es un estudio reciente del secuestro y del rescate de Entebbe.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "righteous-victims",
+      "titulo": "Víctimas justas: historia del conflicto sionista-árabe, 1881-1999",
+      "titulo_original": "Righteous Victims: A History of the Zionist-Arab Conflict, 1881-1999",
+      "autor": "Benny Morris",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "levante",
+          "libano",
+          "egipto"
+        ],
+        "desde": 1881,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del conflicto entre el sionismo y los árabes desde 1881 hasta el final de la década de 1990, con los disturbios del Mandato, las guerras de 1948, 1956, 1967, 1973 y 1982, la ocupación de territorios, la Primera Intifada y el proceso de Oslo. Lo publicó Alfred A. Knopf.",
+      "por_que_importa": "Es una historia general del conflicto, escrita por uno de los «nuevos historiadores» israelíes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "resolucion-425",
+      "titulo": "Resolución 425 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1978,
+        "hasta": 2000
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 19 de marzo de 1978 que pide a Israel que retire sus fuerzas del Líbano, tras la invasión de ese año, y crea la Fuerza Provisional de las Naciones Unidas en el Líbano. Fue la base jurídica de la retirada israelí de 2000.",
+      "por_que_importa": "Fijó la posición de la ONU sobre la presencia israelí en el sur del Líbano.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Resolución 425 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 425"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "constitucion-de-iran-de-1979",
+      "titulo": "Constitución de la República Islámica de Irán",
+      "titulo_original": null,
+      "autor": "Asamblea de Expertos de Irán",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Teherán",
+        "lon": 51.39,
+        "lat": 35.689
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": 1979,
+        "hasta": 1979
+      },
+      "idioma_original": "Persa",
+      "soporte": "Constitución",
+      "resumen": "Constitución aprobada por referéndum en diciembre de 1979, que establece la República Islámica, el gobierno del jurisconsulto (velayat-e faqih) con el líder supremo como máxima autoridad, y el deber del Estado de apoyar a los oprimidos del mundo.",
+      "por_que_importa": "Es el texto que institucionalizó la revolución de Jomeini.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Constitución de Irán",
+        "en": "Constitution of Iran"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gobierno-islamico-de-jomeini",
+      "titulo": "Gobierno islámico",
+      "titulo_original": "Ḥukūmat-i Islāmī",
+      "autor": "Ruhollah Jomeini",
+      "autor_id": "jomeini",
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Nayaf",
+        "lon": 44.34,
+        "lat": 32.029
+      },
+      "trata": {
+        "regiones": [
+          "persia"
+        ],
+        "desde": 1970,
+        "hasta": 1979
+      },
+      "idioma_original": "Persa",
+      "soporte": "Libro",
+      "resumen": "Conferencias de Jomeini en Nayaf en 1970 donde sostiene que los juristas islámicos deben gobernar durante la ausencia del imán oculto (velayat-e faqih) y que la monarquía es contraria al islam.",
+      "por_que_importa": "Es el texto doctrinal en que se basó la república islámica de Irán.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Islamic Government"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "el-asedio-de-la-meca",
+      "titulo": "El asedio de La Meca: la revuelta olvidada en el santuario más sagrado del islam",
+      "titulo_original": "The Siege of Mecca: The Forgotten Uprising in Islam's Holiest Shrine",
+      "autor": "Yaroslav Trofimov",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "arabia"
+        ],
+        "desde": 1979,
+        "hasta": 1979
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción de la toma de la Gran Mezquita de La Meca en noviembre de 1979 por Juhayman al-Utaybi y sus seguidores, el asalto de las fuerzas saudíes con asesoramiento francés y las consecuencias para el reino.",
+      "por_que_importa": "Es la reconstrucción de referencia de un episodio poco documentado.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Siege of Mecca"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "la-obligacion-descuidada",
+      "titulo": "La obligación descuidada",
+      "titulo_original": "al-Farīḍa al-ghā'iba",
+      "autor": "Muhammad Abd al-Salam Faraj",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "El Cairo",
+        "lon": 31.262,
+        "lat": 30.05
+      },
+      "trata": {
+        "regiones": [
+          "egipto"
+        ],
+        "desde": 1979,
+        "hasta": 1981
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Panfleto",
+      "resumen": "Panfleto de un ingeniero eléctrico y dirigente de la Yihad Islámica egipcia que sostiene que el yihad contra los gobernantes que no aplican la ley islámica es un deber de cada musulmán. El grupo que mató a Sadat en octubre de 1981 lo usó como manifiesto.",
+      "por_que_importa": "Es el texto que justificó el asesinato de Sadat.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-looming-tower",
+      "titulo": "La torre que se avecina: Al Qaeda y el camino al 11-S",
+      "titulo_original": "The Looming Tower: Al-Qaeda and the Road to 9/11",
+      "autor": "Lawrence Wright",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "egipto",
+          "arabia",
+          "norteamerica"
+        ],
+        "desde": 1948,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de al-Qaeda desde las ideas de Sayyid Qutb hasta los atentados de 2001. Cuenta el asesinato de Sadat por la Yihad Islámica, el encarcelamiento de Ayman al-Zawahiri y la formación del grupo.",
+      "por_que_importa": "Es una historia de referencia de al-Qaeda, con las fuentes egipcias del movimiento.",
+      "leer": [],
+      "wikipedia": {
+        "en": "The Looming Tower"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "israels-lebanon-war",
+      "titulo": "La guerra de Israel en el Líbano",
+      "titulo_original": "Milḥemet sholal",
+      "autor": "Ze'ev Schiff y Ehud Ya'ari",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "libano",
+          "levante"
+        ],
+        "desde": 1982,
+        "hasta": 1982
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Libro",
+      "resumen": "Historia (traducida al inglés en el mismo año) de la invasión israelí del Líbano de 1982, escrita por dos periodistas israelíes, con la decisión del gobierno de Begin y Sharon, el sitio de Beirut, la alianza con las Falanges y la matanza de Sabra y Chatila.",
+      "por_que_importa": "Es la historia de referencia sobre la guerra de 1982.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-comision-kahan",
+      "titulo": "Informe de la comisión Kahan",
+      "titulo_original": null,
+      "autor": "Comisión Kahan",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1982,
+        "hasta": 1982
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión israelí presidida por Yitzhak Kahan sobre la matanza de Sabra y Chatila. Concluyó que los autores fueron milicianos de las Falanges y que Israel tuvo responsabilidad indirecta; sostuvo que el ministro de Defensa Ariel Sharón tenía responsabilidad personal por no haber previsto el peligro.",
+      "por_que_importa": "Es la investigación oficial israelí de la matanza.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Comisión Kahan",
+        "en": "Kahan Commission"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-comision-long",
+      "titulo": "Informe de la comisión Long sobre el atentado al aeropuerto de Beirut",
+      "titulo_original": null,
+      "autor": "Comisión del Departamento de Defensa de Estados Unidos (almirante Robert Long)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1983,
+        "hasta": 1983
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión del Departamento de Defensa presidida por el almirante Robert L. J. Long sobre el atentado del 23 de octubre de 1983 contra el cuartel de los marines en Beirut: la seguridad del cuartel, la cadena de mando y las responsabilidades.",
+      "por_que_importa": "Es la investigación oficial estadounidense del atentado.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "hezbollah-a-short-history",
+      "titulo": "Hezbolá: una historia breve",
+      "titulo_original": "Hezbollah: A Short History",
+      "autor": "Augustus Richard Norton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Princeton",
+        "lon": -74.657,
+        "lat": 40.352
+      },
+      "trata": {
+        "regiones": [
+          "libano"
+        ],
+        "desde": 1982,
+        "hasta": 2006
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de Hezbolá desde su origen en la ocupación israelí del Líbano, con la guerra de desgaste en la «zona de seguridad» del sur hasta el retiro israelí de 2000. Lo publicó Princeton University Press.",
+      "por_que_importa": "Es una historia breve de Hezbolá y del conflicto del sur del Líbano.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "intifada-schiff-ya-ari",
+      "titulo": "Intifada: el levantamiento palestino",
+      "titulo_original": "Intifada",
+      "autor": "Ze'ev Schiff y Ehud Ya'ari",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1990,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "levante"
+        ],
+        "desde": 1987,
+        "hasta": 1990
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Libro",
+      "resumen": "Estudio de los primeros años de la Primera Intifada, con sus orígenes en Gaza en diciembre de 1987, su extensión a Cisjordania, la organización del levantamiento y la respuesta del ejército israelí.",
+      "por_que_importa": "Es un estudio temprano, de periodistas israelíes, del levantamiento.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-missing-peace",
+      "titulo": "La paz perdida: la historia desde adentro de la lucha por la paz en Oriente Medio",
+      "titulo_original": "The Missing Peace: The Inside Story of the Fight for Middle East Peace",
+      "autor": "Dennis Ross",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1988,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Memorias",
+      "resumen": "Memorias del negociador estadounidense Dennis Ross sobre las negociaciones árabe-israelíes de 1988 a 2001: la conferencia de Madrid, Oslo, las negociaciones con Siria y la cumbre de Camp David de 2000.",
+      "por_que_importa": "Es el relato de un participante central en la diplomacia de la década de 1990.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-comision-shamgar",
+      "titulo": "Informe de la comisión Shamgar sobre la matanza de Hebrón",
+      "titulo_original": null,
+      "autor": "Comisión Shamgar",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Jerusalén",
+        "lon": 35.2137,
+        "lat": 31.7683
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1994,
+        "hasta": 1994
+      },
+      "idioma_original": "Hebreo",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión israelí presidida por el presidente de la Corte Suprema, Meir Shamgar, sobre la matanza de la cueva de los Patriarcas del 25 de febrero de 1994. Estableció que Baruch Goldstein actuó solo y propuso medidas, entre ellas la separación de los lugares de culto de judíos y musulmanes.",
+      "por_que_importa": "Es la investigación oficial israelí de la matanza.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Shamgar Commission"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "killing-a-king",
+      "titulo": "Matar a un rey: el asesinato de Isaac Rabin y la transformación de Israel",
+      "titulo_original": "Killing a King: The Assassination of Yitzhak Rabin and the Remaking of Israel",
+      "autor": "Dan Ephron",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1993,
+        "hasta": 1995
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Reconstrucción del asesinato del primer ministro Isaac Rabin por Yigal Amir el 4 de noviembre de 1995 en Tel Aviv, con el clima político de oposición a los acuerdos de Oslo y las fallas de seguridad. Lo publicó W. W. Norton en 2015.",
+      "por_que_importa": "Es un estudio periodístico reciente del asesinato.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "hamas-vision-violence-and-coexistence",
+      "titulo": "El Hamás palestino: visión, violencia y coexistencia",
+      "titulo_original": "The Palestinian Hamas: Vision, Violence, and Coexistence",
+      "autor": "Shaul Mishal y Avraham Sela",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1987,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la historia y la estrategia de Hamás desde su fundación en 1987, con la relación con la OLP y la Autoridad Palestina y la campaña de atentados suicidas de mediados de la década de 1990. Lo publicó Columbia University Press.",
+      "por_que_importa": "Es el estudio de referencia sobre Hamás en esos años.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "hamas-levitt",
+      "titulo": "Hamás: política, beneficencia y terrorismo al servicio de la yihad",
+      "titulo_original": "Hamas: Politics, Charity, and Terrorism in the Service of Jihad",
+      "autor": "Matthew Levitt",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1987,
+        "hasta": 2005
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la estructura de Hamás y de sus brazos político, asistencial y militar, con su campaña de atentados suicidas en la Segunda Intifada, entre ellos los de la pizzería Sbarro (2001) y del hotel Park de Netanya (2002). Lo publicó Yale University Press.",
+      "por_que_importa": "Es un estudio de un exfuncionario antiterrorista del Tesoro de Estados Unidos sobre la estructura y los atentados de Hamás; su tesis de que la red asistencial sostiene al brazo armado es discutida por otros especialistas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "informe-mitchell",
+      "titulo": "Informe del comité Mitchell sobre la violencia entre Israel y los palestinos",
+      "titulo_original": null,
+      "autor": "Comité de investigación de Sharm el-Sheij (George Mitchell)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2000,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe del comité encabezado por el senador George Mitchell, formado tras la cumbre de Sharm el-Sheij de octubre de 2000, sobre las causas de la violencia que comenzó el 28 de septiembre. Se presentó en abril de 2001 y recomienda cesar la violencia, reconstruir la confianza y congelar los asentamientos.",
+      "por_que_importa": "Es la investigación internacional de los primeros meses de la Segunda Intifada.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "un-nino-ha-muerto",
+      "titulo": "Un niño ha muerto: Netzarim, 30 de septiembre de 2000",
+      "titulo_original": "Un enfant est mort: Netzarim, 30 septembre 2000",
+      "autor": "Charles Enderlin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2000,
+        "hasta": 2000
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Libro del corresponsal de France 2 que difundió la secuencia del 30 de septiembre de 2000 en que se ve a Muhammad al-Durrah y a su padre junto a un muro. Enderlin defiende que los disparos vinieron de posiciones israelíes; el ejército israelí y varios críticos lo discuten y sostienen que no está probado.",
+      "por_que_importa": "Es la versión del periodista que difundió el video, que otros periodistas y peritos cuestionan.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "who-shot-mohammed-al-dura",
+      "titulo": "¿Quién disparó a Muhammad al-Durrah?",
+      "titulo_original": "Who Shot Mohammed al-Dura?",
+      "autor": "James Fallows",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Boston",
+        "lon": -71.058,
+        "lat": 42.36
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2000,
+        "hasta": 2000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de The Atlantic Monthly (junio de 2003) que repasa las investigaciones sobre la muerte de Muhammad al-Durrah, con la secuencia de France 2, la investigación del ejército israelí y las dudas sobre quién disparó.",
+      "por_que_importa": "Es un análisis periodístico independiente de la controversia.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "resolucion-1402",
+      "titulo": "Resolución 1402 del Consejo de Seguridad",
+      "titulo_original": null,
+      "autor": "Consejo de Seguridad de las Naciones Unidas",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2002,
+        "hasta": 2002
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Resolución",
+      "resumen": "Resolución del 30 de marzo de 2002 que pide a las partes un alto el fuego y a Israel que retire sus tropas de las ciudades palestinas, incluida Ramala, en el curso de la operación Escudo Defensivo.",
+      "por_que_importa": "Fue la respuesta del Consejo de Seguridad a la reocupación de las ciudades de Cisjordania.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Resolución 1402 del Consejo de Seguridad de las Naciones Unidas",
+        "en": "United Nations Security Council Resolution 1402"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "gaza-a-history",
+      "titulo": "Historia de Gaza",
+      "titulo_original": "Histoire de Gaza",
+      "autor": "Jean-Pierre Filiu",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "levante"
+        ],
+        "desde": 1948,
+        "hasta": 2012
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Historia de la Franja de Gaza desde 1948, con la elección legislativa de Hamás de 2006, la toma de Gaza de 2007, el bloqueo y la guerra de 2008-2009. Lo publicó Fayard (París, 2012); la traducción inglesa salió en 2014 con el título Gaza: A History (Hurst, Londres).",
+      "por_que_importa": "Es una historia de referencia de la Franja de Gaza, escrita por un historiador francés.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-goldstone",
+      "titulo": "Informe de la misión de investigación de la ONU sobre el conflicto de Gaza",
+      "titulo_original": null,
+      "autor": "Misión de Investigación de la ONU sobre el conflicto de Gaza (Richard Goldstone)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2008,
+        "hasta": 2009
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe del Consejo de Derechos Humanos presentado en septiembre de 2009 por la misión presidida por Richard Goldstone sobre la guerra de Gaza de 2008-2009. Concluyó que ambas partes habían cometido posibles crímenes de guerra. Israel rechazó la misión y Goldstone se retractó en 2011 de lo que decía sobre la intención deliberada de Israel de matar civiles; los otros tres miembros de la misión (Hina Jilani, Christine Chinkin y Desmond Travers) mantuvieron el informe en una declaración conjunta.",
+      "por_que_importa": "Es la investigación internacional de la guerra de 2008-2009.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Misión de Investigación de las Naciones Unidas sobre el conflicto de Gaza (2009)",
+        "en": "United Nations Fact Finding Mission on the Gaza Conflict"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-comision-de-la-onu-sobre-gaza-2014",
+      "titulo": "Informe de la comisión de investigación de la ONU sobre el conflicto de Gaza de 2014",
+      "titulo_original": null,
+      "autor": "Comisión de investigación del Consejo de Derechos Humanos de la ONU",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2015,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2014,
+        "hasta": 2014
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe presentado en junio de 2015 al Consejo de Derechos Humanos sobre las hostilidades de Gaza de 2014. Examina posibles violaciones del derecho internacional por Israel y por Hamás y los grupos armados palestinos.",
+      "por_que_importa": "Es la investigación de la ONU sobre la guerra de 2014.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-oiea-sobre-siria",
+      "titulo": "Informe de la OIEA sobre el acuerdo de salvaguardias de Siria",
+      "titulo_original": null,
+      "autor": "Organismo Internacional de Energía Atómica",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Viena",
+        "lon": 16.372,
+        "lat": 48.208
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": 2007,
+        "hasta": 2011
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de mayo de 2011 del director del OIEA a la Junta de Gobernadores sobre el cumplimiento por Siria del acuerdo de salvaguardias. Concluye que el edificio destruido en septiembre de 2007 en Dair Alzour probablemente era un reactor nuclear que debió declararse.",
+      "por_que_importa": "Es el documento oficial del organismo sobre el sitio bombardeado en la operación Huerto.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "dabiq",
+      "titulo": "Dabiq",
+      "titulo_original": null,
+      "autor": "Estado Islámico",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2014,
+        "anio_hasta": 2016,
+        "aprox": false,
+        "lugar": "Raqa",
+        "lon": 39.01,
+        "lat": 35.95
+      },
+      "trata": {
+        "regiones": [
+          "mesopotamia",
+          "siria",
+          "francia"
+        ],
+        "desde": 2014,
+        "hasta": 2016
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Revista",
+      "resumen": "Revista en inglés del Estado Islámico. El primer número, de julio de 2014, difunde la proclamación del califato de Abu Bakr al-Baghdadi; números posteriores reivindican los atentados de París de 2015.",
+      "por_que_importa": "Es la propaganda del propio grupo sobre el califato y sus atentados.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Dabiq (revista)",
+        "en": "Dabiq (magazine)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "declaracion-de-los-acuerdos-de-abraham",
+      "titulo": "Declaración de los Acuerdos de Abraham",
+      "titulo_original": null,
+      "autor": "Emiratos Árabes Unidos, Baréin, Israel y Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "arabia",
+          "magreb"
+        ],
+        "desde": 2020,
+        "hasta": 2020
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Declaración",
+      "resumen": "Declaración firmada el 15 de septiembre de 2020 en Washington por Israel, los Emiratos Árabes Unidos y Baréin para establecer relaciones diplomáticas, con tratados bilaterales entre Israel y cada uno.",
+      "por_que_importa": "Es el documento de los acuerdos de normalización con Israel.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Acuerdos de Abraham",
+        "en": "Abraham Accords"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "informe-de-la-comision-de-la-onu-sobre-el-territorio-palestino-2024",
+      "titulo": "Informe de la Comisión de Investigación Internacional Independiente sobre el Territorio Palestino Ocupado, incluida Jerusalén Oriental, e Israel",
+      "titulo_original": null,
+      "autor": "Comisión de Investigación del Consejo de Derechos Humanos de la ONU",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2023,
+        "hasta": 2024
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión presentado en 2024 al Consejo de Derechos Humanos sobre las hostilidades iniciadas el 7 de octubre de 2023. Examina los ataques de Hamás y otros grupos armados en Israel y la ofensiva israelí en Gaza desde el derecho internacional. Israel no cooperó con la comisión y la acusó de parcialidad.",
+      "por_que_importa": "Es la investigación de la ONU sobre los hechos del 7 de octubre y la guerra de Gaza.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "orden-de-la-cij-sudafrica-contra-israel",
+      "titulo": "Sudáfrica contra Israel: orden de la Corte Internacional de Justicia sobre medidas provisionales",
+      "titulo_original": null,
+      "autor": "Corte Internacional de Justicia",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "La Haya",
+        "lon": 4.31,
+        "lat": 52.08
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2023,
+        "hasta": 2024
+      },
+      "idioma_original": "Inglés y francés",
+      "soporte": "Fallo",
+      "resumen": "Orden del 26 de enero de 2024 de la Corte Internacional de Justicia en la demanda de Sudáfrica contra Israel por la Convención sobre el Genocidio. La Corte consideró plausibles algunos derechos invocados por Sudáfrica e indicó medidas provisionales; no se pronunció sobre el fondo ni sobre si hay genocidio.",
+      "por_que_importa": "Es el pronunciamiento judicial internacional sobre la guerra de Gaza de 2023.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Sudáfrica contra Israel (Convención sobre Genocidio)",
+        "en": "South Africa's genocide case against Israel"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "sentencia-del-11-m",
+      "titulo": "Sentencia de la Audiencia Nacional sobre los atentados del 11 de marzo de 2004",
+      "titulo_original": null,
+      "autor": "Audiencia Nacional de España",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "iberia"
+        ],
+        "desde": 2004,
+        "hasta": 2004
+      },
+      "idioma_original": "Español",
+      "soporte": "Sentencia",
+      "resumen": "Sentencia de octubre de 2007 de la Audiencia Nacional que juzgó a los acusados de los atentados de los trenes de Madrid del 11 de marzo de 2004. Establece los hechos probados, la célula yihadista que los cometió y las condenas, y concluye que no se demostró la autoría intelectual de al-Qaeda.",
+      "por_que_importa": "Es el relato judicial de los atentados.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "informe-oficial-de-los-atentados-de-londres",
+      "titulo": "Informe del relato oficial de los atentados de Londres del 7 de julio de 2005",
+      "titulo_original": "Report of the Official Account of the Bombings in London on 7th July 2005",
+      "autor": "Ministerio del Interior británico (Home Office)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 2005,
+        "hasta": 2005
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de mayo de 2006 presentado al Parlamento por el gobierno británico con el relato de los atentados, la identidad de los cuatro atacantes y lo que se sabía de su preparación.",
+      "por_que_importa": "Es el relato oficial británico de los atentados.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "informe-fenech-sobre-los-atentados-en-francia",
+      "titulo": "Informe de la comisión de investigación parlamentaria sobre los atentados de 2015",
+      "titulo_original": "Rapport de la commission d'enquête relative aux moyens mis en oeuvre par l'État pour lutter contre le terrorisme depuis le 7 janvier 2015",
+      "autor": "Asamblea Nacional de Francia (Georges Fenech)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2016,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "francia"
+        ],
+        "desde": 2015,
+        "hasta": 2015
+      },
+      "idioma_original": "Francés",
+      "soporte": "Informe",
+      "resumen": "Informe de la comisión de la Asamblea Nacional presidida por Georges Fenech, presentado en julio de 2016, sobre los atentados de enero y noviembre de 2015: las amenazas conocidas, los recorridos de los atacantes y los fallos de la respuesta del Estado.",
+      "por_que_importa": "Es la investigación parlamentaria francesa de los atentados de 2015.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "acordada-de-la-corte-suprema-sobre-la-embajada-de-israel",
+      "titulo": "Acordada de la Corte Suprema sobre el atentado a la embajada de Israel",
+      "titulo_original": null,
+      "autor": "Corte Suprema de Justicia de la Nación Argentina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1992,
+        "hasta": 1999
+      },
+      "idioma_original": "Español",
+      "soporte": "Acordada",
+      "resumen": "Acordada del 23 de diciembre de 1999 de la Corte Suprema argentina, que investigó el atentado de 1992 porque la causa le corresponde por tratarse de una misión diplomática. Fija que la explosión fue de un coche bomba, establece 22 víctimas fatales y sostiene, según su resolución de mayo de 1999, que el atentado lo organizó la Yihad Islámica, brazo armado de Hezbolá.",
+      "por_que_importa": "Es la resolución judicial argentina que atribuyó el atentado a Hezbolá.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "oppugnation-de-rhodes",
+      "titulo": "La grande y maravillosa y muy cruel oppugnation de la noble ciudad de Rodas",
+      "titulo_original": "La grande et merveilleuse et très cruelle oppugnation de la noble cité de Rhodes",
+      "autor": "Jacques de Bourbon",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1525,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "grecia"
+        ],
+        "desde": 1522,
+        "hasta": 1522
+      },
+      "idioma_original": "Francés",
+      "soporte": "Crónica",
+      "resumen": "Relato del sitio de Rodas de 1522 escrito por Jacques de Bourbon, caballero hospitalario que estuvo en la ciudad sitiada por Solimán I. Cuenta los seis meses de asedio, la rendición pactada del gran maestre Villiers de L'Isle-Adam y la salida de los hospitalarios.",
+      "por_que_importa": "Es el relato de un testigo de la caída de Rodas, de donde los hospitalarios pasaron luego a Malta.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "dictamen-de-nisman-de-2006",
+      "titulo": "Dictamen de los fiscales Nisman y Martínez Burgos sobre el atentado contra la AMIA",
+      "titulo_original": null,
+      "autor": "Alberto Nisman y Marcelo Martínez Burgos (fiscales)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1994,
+        "hasta": 1994
+      },
+      "idioma_original": "Español",
+      "soporte": "Dictamen",
+      "resumen": "Dictamen del 25 de octubre de 2006 con que los fiscales acusaron al gobierno de Irán de haber dispuesto el atentado contra la AMIA y a Hezbolá de haberlo ejecutado, y pidieron la detención de funcionarios iraníes. Irán rechazó la acusación.",
+      "por_que_importa": "Es el documento judicial argentino que atribuyó el atentado de 1994 a Irán y a Hezbolá.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Atentado a la AMIA",
+        "en": "AMIA bombing"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "1948-una-historia",
+      "titulo": "1948: una historia de la primera guerra árabe-israelí",
+      "titulo_original": "1948: A History of the First Arab-Israeli War",
+      "autor": "Benny Morris",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 1947,
+        "hasta": 1949
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la guerra de 1947-1949 del historiador israelí Benny Morris, con la guerra civil dentro del Mandato, el ataque al convoy médico de Hadassah en abril de 1948, la intervención de los ejércitos árabes y el éxodo palestino. Lo publicó Yale University Press.",
+      "por_que_importa": "Es una historia académica de la guerra, con documentos israelíes y británicos, de un historiador cuyas conclusiones sobre el éxodo se discuten.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Guerra árabe-israelí de 1948",
+        "en": "1948 Arab–Israeli War"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "declaracion-de-bashar-al-asad-de-2024",
+      "titulo": "Declaración de Bashar al-Asad sobre su salida de Siria",
+      "titulo_original": null,
+      "autor": "Bashar al-Asad",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "politica",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": 2024,
+        "hasta": 2024
+      },
+      "idioma_original": "Árabe",
+      "soporte": "Declaración",
+      "resumen": "Comunicado del 16 de diciembre de 2024 publicado por la presidencia siria, con la versión del propio Asad: dice que no planeó dejar el país ni renunciar, y que salió hacia la base rusa de Hmeimim cuando la caída de Damasco ya era un hecho.",
+      "por_que_importa": "Es la versión del presidente derrocado sobre su salida, dada después de los hechos y con interés propio.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Caída de la dinastía Ásad",
+        "en": "Fall of the Assad regime"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -17126,7 +19799,9 @@
         "filósofo"
       ],
       "resumen": "Fundador del estudio académico de la mística judía, con libros sobre la cábala, Luria y Sabetai Zeví.",
-      "obras": [],
+      "obras": [
+        "sabbatai-sevi-scholem"
+      ],
       "wikipedia": {
         "es": "Gershom Scholem",
         "en": "Gershom Scholem"
@@ -17218,7 +19893,9 @@
         "político"
       ],
       "resumen": "Jefe del Irgún, grupo armado que en 1946 voló el hotel Rey David. Como primer ministro firmó la paz con Egipto (1979) y compartió el Nobel de la Paz con Sadat.",
-      "obras": [],
+      "obras": [
+        "la-rebelion-de-beguin"
+      ],
       "wikipedia": {
         "es": "Menájem Beguín",
         "en": "Menachem Begin"
@@ -17574,7 +20251,9 @@
         "escritor"
       ],
       "resumen": "Arqueólogo y oficial británico que acompañó la revuelta árabe; Los siete pilares de la sabiduría narran su experiencia y su sensación de que los árabes habían sido traicionados.",
-      "obras": [],
+      "obras": [
+        "los-siete-pilares-de-la-sabiduria"
+      ],
       "wikipedia": {
         "es": "Thomas Edward Lawrence",
         "en": "T. E. Lawrence"
@@ -17959,7 +20638,9 @@
         "jefe de Estado"
       ],
       "resumen": "Jefe de la revolución iraní de 1979 y fundador de la república islámica, que hizo de la lucha contra Israel una causa de Estado e instituyó el día de Jerusalén (al-Quds).",
-      "obras": [],
+      "obras": [
+        "gobierno-islamico-de-jomeini"
+      ],
       "wikipedia": {
         "es": "Ruhollah Jomeini",
         "en": "Ruhollah Khomeini"
@@ -20110,7 +22791,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "inscripciones-de-medinet-habu"
+      ],
       "wikipedia": {
         "es": "Filisteos",
         "en": "Philistines"
@@ -20293,7 +22976,9 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anabasis-de-alejandro-arriano"
+      ],
       "wikipedia": {
         "es": "Sitio de Tiro (332 a. C.)",
         "en": "Siege of Tyre (332 BC)"
@@ -20475,7 +23160,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-romana-dion-casio",
+        "historia-eclesiastica-de-eusebio"
+      ],
       "wikipedia": {
         "es": "Rebelión de Bar Kojba",
         "en": "Bar Kokhba Revolt"
@@ -20543,7 +23231,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "res-gestae-amiano"
+      ],
       "wikipedia": {
         "es": "Juliano el Apóstata",
         "en": "Julian (emperor)"
@@ -20564,7 +23254,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronografia-de-teofanes",
+        "historia-secreta"
+      ],
       "wikipedia": {
         "es": "Revueltas samaritanas",
         "en": "Samaritan revolts"
@@ -20585,7 +23278,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-sebeos",
+        "cronografia-de-teofanes"
+      ],
       "wikipedia": {
         "es": "Sitio de Jerusalén (614)",
         "en": "Sasanian conquest of Jerusalem"
@@ -20606,7 +23302,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronografia-de-teofanes",
+        "historia-de-sebeos"
+      ],
       "wikipedia": {
         "es": "Heraclio",
         "en": "Heraclius"
@@ -20805,7 +23504,10 @@
         "transjordania",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sira-de-ibn-ishaq",
+        "historia-de-al-tabari"
+      ],
       "wikipedia": {
         "es": "Batalla de Mu'tah",
         "en": "Battle of Mu'tah"
@@ -21073,7 +23775,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "inscripciones-de-la-cupula-de-la-roca",
+        "descripcion-de-las-regiones"
+      ],
       "wikipedia": {
         "es": "Cúpula de la Roca",
         "en": "Dome of the Rock"
@@ -21093,7 +23798,10 @@
       "regiones": [
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "conquistas-de-los-paises",
+        "grandes-conquistas-arabes"
+      ],
       "wikipedia": {
         "es": "Batalla de Cartago (698)",
         "en": "Battle of Carthage (698)"
@@ -21179,7 +23887,10 @@
       "regiones": [
         "sicilia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-completa",
+        "teofanes-continuado"
+      ],
       "wikipedia": {
         "es": "Conquista musulmana de Sicilia",
         "en": "Muslim conquest of Sicily"
@@ -21199,7 +23910,9 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "liber-pontificalis"
+      ],
       "wikipedia": {
         "es": "Saqueo de Roma (846)",
         "en": "Arab raid against Rome"
@@ -21220,7 +23933,9 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-leon-el-diacono"
+      ],
       "wikipedia": {
         "en": "Siege of Antioch (968–969)"
       }
@@ -21240,7 +23955,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-completa"
+      ],
       "wikipedia": {
         "es": "Califato fatimí",
         "en": "Fatimid Caliphate"
@@ -21261,7 +23978,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historias-de-rodolfo-glaber"
+      ],
       "wikipedia": {
         "es": "Al-Hákim bi-Amrillah",
         "en": "Al-Hakim bi-Amr Allah"
@@ -21282,7 +24001,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-completa",
+        "cronica-de-damasco"
+      ],
       "wikipedia": {
         "en": "Atsiz ibn Uwaq"
       }
@@ -21396,7 +24118,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "pie-postulatio-voluntatis",
+        "historia-de-guillermo-de-tiro"
+      ],
       "wikipedia": {
         "es": "Orden de San Juan de Jerusalén",
         "en": "Knights Hospitaller"
@@ -21721,7 +24446,9 @@
         "bajo-egipto",
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cartas-de-jacobo-de-vitry"
+      ],
       "wikipedia": {
         "es": "Francisco de Asís",
         "en": "Francis of Assisi"
@@ -21765,7 +24492,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-mayor",
+        "suluk-de-al-maqrizi"
+      ],
       "wikipedia": {
         "es": "Sitio de Jerusalén (1244)",
         "en": "Siege of Jerusalem (1244)"
@@ -21786,7 +24516,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-mayor",
+        "suluk-de-al-maqrizi"
+      ],
       "wikipedia": {
         "en": "Battle of Forbie"
       }
@@ -21829,7 +24562,10 @@
       "regiones": [
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronografia-de-bar-hebreo",
+        "historia-de-abulfeda"
+      ],
       "wikipedia": {
         "es": "Batalla de Bagdad (1258)",
         "en": "Siege of Baghdad"
@@ -21850,7 +24586,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "suluk-de-al-maqrizi",
+        "cronografia-de-bar-hebreo"
+      ],
       "wikipedia": {
         "es": "Batalla de Ain Yalut",
         "en": "Battle of Ain Jalut"
@@ -21871,7 +24610,10 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "suluk-de-al-maqrizi",
+        "cronografia-de-bar-hebreo"
+      ],
       "wikipedia": {
         "es": "Sitio de Antioquía (1268)",
         "en": "Siege of Antioch (1268)"
@@ -21915,7 +24657,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bulas-gratias-agimus-y-nuper-carissimae"
+      ],
       "wikipedia": {
         "es": "Custodia de Tierra Santa",
         "en": "Custody of the Holy Land"
@@ -21936,7 +24680,9 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "suluk-de-al-maqrizi"
+      ],
       "wikipedia": {
         "en": "Siege of Damascus (1400)"
       }
@@ -21956,7 +24702,9 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bada-i-al-zuhur-ibn-iyas"
+      ],
       "wikipedia": {
         "en": "Battle of Marj Dabiq"
       }
@@ -21975,7 +24723,9 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "oppugnation-de-rhodes"
+      ],
       "wikipedia": {
         "es": "Sitio de Rodas (1522)",
         "en": "Siege of Rhodes (1522)"
@@ -22018,7 +24768,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "jerusalen-la-biografia"
+      ],
       "wikipedia": {
         "es": "Murallas de Jerusalén",
         "en": "Walls of Jerusalem"
@@ -22038,7 +24790,9 @@
       "regiones": [
         "sicilia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "verdadera-relacion-de-balbi"
+      ],
       "wikipedia": {
         "es": "Sitio de Malta (1565)",
         "en": "Great Siege of Malta"
@@ -22058,7 +24812,10 @@
       "regiones": [
         "chipre"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "relatione-di-famagosta",
+        "victoria-de-occidente-capponi"
+      ],
       "wikipedia": {
         "es": "Guerra turco-veneciana (1570-1573)",
         "en": "Ottoman–Venetian War (1570–1573)"
@@ -22078,7 +24835,9 @@
       "regiones": [
         "grecia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "victoria-de-occidente-capponi"
+      ],
       "wikipedia": {
         "es": "Batalla de Lepanto",
         "en": "Battle of Lepanto"
@@ -22099,7 +24858,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sabbatai-sevi-scholem"
+      ],
       "wikipedia": {
         "es": "Shabtai Tzvi",
         "en": "Sabbatai Zevi"
@@ -22119,7 +24880,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-siege-of-vienna-stoye"
+      ],
       "wikipedia": {
         "es": "Batalla de Kahlenberg",
         "en": "Battle of Vienna"
@@ -22140,7 +24903,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "firman-del-statu-quo-de-1757"
+      ],
       "wikipedia": {
         "es": "Statu quo (lugares de Tierra Santa)",
         "en": "Status Quo (Jerusalem and Bethlehem)"
@@ -22161,7 +24926,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-de-al-yabarti"
+      ],
       "wikipedia": {
         "es": "Asedio de Acre (1799)",
         "en": "Siege of Acre (1799)"
@@ -22182,7 +24949,9 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "archivos-reales-de-egipto-rustum"
+      ],
       "wikipedia": {
         "es": "Guerra egipcio-otomana (1831-1833)",
         "en": "Egyptian–Ottoman War (1831–1833)"
@@ -22204,7 +24973,9 @@
         "levante",
         "libano"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "an-occasion-for-war"
+      ],
       "wikipedia": {
         "es": "Conflicto de la Siria otomana de 1860",
         "en": "1860 civil conflict in Mount Lebanon and Damascus"
@@ -22271,7 +25042,9 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "jihad-and-islam-in-world-war-i"
+      ],
       "wikipedia": {
         "en": "Ottoman entry into World War I"
       }
@@ -22293,7 +25066,10 @@
         "mesopotamia",
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "trato-de-los-armenios-en-el-imperio-otomano",
+        "historia-del-embajador-morgenthau"
+      ],
       "wikipedia": {
         "es": "Genocidio armenio",
         "en": "Armenian genocide"
@@ -22361,7 +25137,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "los-siete-pilares-de-la-sabiduria"
+      ],
       "wikipedia": {
         "es": "Batalla de Jerusalén (1917)",
         "en": "Battle of Jerusalem"
@@ -22405,7 +25183,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-palin"
+      ],
       "wikipedia": {
         "es": "Disturbios de Nabi Musa",
         "en": "1920 Nebi Musa riots"
@@ -22426,7 +25206,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-shaw"
+      ],
       "wikipedia": {
         "es": "Matanza de Hebrón de 1929",
         "en": "1929 Hebron massacre"
@@ -22493,7 +25275,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acta-de-la-reunion-de-hitler-y-al-husseini"
+      ],
       "wikipedia": {
         "es": "Amin al-Husayni",
         "en": "Amin al-Husseini"
@@ -22513,7 +25297,9 @@
       "regiones": [
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-jews-of-iraq"
+      ],
       "wikipedia": {
         "es": "Farhud",
         "en": "Farhud"
@@ -22533,7 +25319,10 @@
       "regiones": [
         "polonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "protocolo-de-wannsee",
+        "la-destruccion-de-los-judios-europeos"
+      ],
       "wikipedia": {
         "es": "Holocausto",
         "en": "The Holocaust"
@@ -22554,7 +25343,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-rebelion-de-beguin"
+      ],
       "wikipedia": {
         "es": "Atentado al Hotel Rey David",
         "en": "King David Hotel bombing"
@@ -22620,7 +25411,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "origen-del-problema-de-los-refugiados"
+      ],
       "wikipedia": {
         "es": "Guerra civil durante el Mandato de Palestina",
         "en": "1947–1948 civil war in Mandatory Palestine"
@@ -22641,7 +25434,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "origen-del-problema-de-los-refugiados",
+        "la-rebelion-de-beguin"
+      ],
       "wikipedia": {
         "es": "Masacre de Deir Yassin",
         "en": "Deir Yassin massacre"
@@ -22662,7 +25458,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "1948-una-historia"
+      ],
       "wikipedia": {
         "es": "Masacre al convoy médico Hadassah",
         "en": "Hadassah medical convoy massacre"
@@ -22755,7 +25553,9 @@
         "arabia",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-jews-of-arab-lands-in-modern-times"
+      ],
       "wikipedia": {
         "es": "Éxodo judío de países musulmanes",
         "en": "Jewish exodus from the Muslim world"
@@ -22797,7 +25597,9 @@
       "regiones": [
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "protocolo-de-sevres"
+      ],
       "wikipedia": {
         "es": "Guerra del Sinaí",
         "en": "Suez Crisis"
@@ -22889,7 +25691,9 @@
         "transjordania",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lion-of-jordan"
+      ],
       "wikipedia": {
         "es": "Septiembre Negro en Jordania",
         "en": "Black September"
@@ -22909,7 +25713,10 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "one-day-in-september",
+        "rise-and-kill-first"
+      ],
       "wikipedia": {
         "es": "Masacre de Múnich",
         "en": "Munich massacre"
@@ -22931,7 +25738,10 @@
         "siria",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-agranat",
+        "resolucion-338"
+      ],
       "wikipedia": {
         "es": "Guerra de Yom Kipur",
         "en": "Yom Kippur War"
@@ -22952,7 +25762,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Masacre de Ma'alot",
         "en": "Ma'alot massacre"
@@ -22973,7 +25785,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Masacre de la carretera costera",
         "en": "Coastal road massacre"
@@ -23039,7 +25853,10 @@
       "regiones": [
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "constitucion-de-iran-de-1979",
+        "gobierno-islamico-de-jomeini"
+      ],
       "wikipedia": {
         "es": "Revolución iraní",
         "en": "Iranian Revolution"
@@ -23060,7 +25877,10 @@
         "bajo-egipto",
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-obligacion-descuidada",
+        "the-looming-tower"
+      ],
       "wikipedia": {
         "en": "Assassination of Anwar Sadat"
       }
@@ -23080,7 +25900,10 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "israels-lebanon-war",
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Invasión israelí del Líbano de 1982",
         "en": "1982 Lebanon War"
@@ -23101,7 +25924,10 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-kahan",
+        "pity-the-nation"
+      ],
       "wikipedia": {
         "es": "Masacre de Sabra y Shatila",
         "en": "Sabra and Shatila massacre"
@@ -23124,7 +25950,9 @@
         "francia",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-long"
+      ],
       "wikipedia": {
         "es": "Atentado contra los cuarteles en Beirut en 1983",
         "en": "1983 Beirut barracks bombings"
@@ -23145,7 +25973,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "intifada-schiff-ya-ari",
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Primera Intifada",
         "en": "First Intifada"
@@ -23212,7 +26043,9 @@
         "iberia",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-missing-peace"
+      ],
       "wikipedia": {
         "es": "Conferencia de Paz de Madrid",
         "en": "Madrid Conference of 1991"
@@ -23232,7 +26065,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acordada-de-la-corte-suprema-sobre-la-embajada-de-israel"
+      ],
       "wikipedia": {
         "es": "Atentado a la embajada de Israel en Argentina",
         "en": "1992 Buenos Aires Israeli embassy bombing"
@@ -23274,7 +26109,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-shamgar",
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Masacre de Hebrón de 1994",
         "en": "Cave of the Patriarchs massacre"
@@ -23294,7 +26132,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dictamen-de-nisman-de-2006"
+      ],
       "wikipedia": {
         "es": "Atentado a la AMIA",
         "en": "AMIA bombing"
@@ -23339,7 +26179,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hamas-vision-violence-and-coexistence"
+      ],
       "wikipedia": {
         "es": "Atentado del bus de la calle Dizengoff",
         "en": "Dizengoff Street bus bombing"
@@ -23360,7 +26202,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "killing-a-king",
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Asesinato de Isaac Rabin",
         "en": "Assassination of Yitzhak Rabin"
@@ -23380,7 +26225,9 @@
       "regiones": [
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-missing-peace"
+      ],
       "wikipedia": {
         "es": "Cumbre de Camp David",
         "en": "2000 Camp David Summit"
@@ -23401,7 +26248,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-mitchell"
+      ],
       "wikipedia": {
         "es": "Segunda Intifada",
         "en": "Second Intifada"
@@ -23422,7 +26271,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hamas-levitt"
+      ],
       "wikipedia": {
         "es": "Masacre de Sbarro",
         "en": "Sbarro restaurant suicide bombing"
@@ -23464,7 +26315,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hamas-levitt"
+      ],
       "wikipedia": {
         "es": "Masacre de Netanya",
         "en": "Passover massacre"
@@ -23485,7 +26338,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "resolucion-1402"
+      ],
       "wikipedia": {
         "es": "Operación Escudo Defensivo",
         "en": "Operation Defensive Shield"
@@ -23506,7 +26361,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "opinion-consultiva-cij-2004-muro"
+      ],
       "wikipedia": {
         "es": "Barrera israelí de Cisjordania",
         "en": "West Bank barrier"
@@ -23526,7 +26383,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sentencia-del-11-m"
+      ],
       "wikipedia": {
         "es": "Atentados del 11 de marzo de 2004",
         "en": "2004 Madrid train bombings"
@@ -23547,7 +26406,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gaza-a-history"
+      ],
       "wikipedia": {
         "es": "Plan de retirada unilateral israelí",
         "en": "Israeli disengagement from the Gaza Strip"
@@ -23567,7 +26428,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-oficial-de-los-atentados-de-londres"
+      ],
       "wikipedia": {
         "es": "Atentados del 7 de julio de 2005 en Londres",
         "en": "7 July 2005 London bombings"
@@ -23588,7 +26451,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gaza-a-history"
+      ],
       "wikipedia": {
         "es": "Elecciones parlamentarias de Palestina de 2006",
         "en": "2006 Palestinian legislative election"
@@ -23609,7 +26474,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gaza-a-history"
+      ],
       "wikipedia": {
         "en": "Battle of Gaza (2007)"
       }
@@ -23629,7 +26496,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-goldstone",
+        "gaza-a-history"
+      ],
       "wikipedia": {
         "es": "Guerra de Gaza (2008-2009)",
         "en": "Gaza War (2008–2009)"
@@ -23650,7 +26520,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-de-la-onu-sobre-gaza-2014"
+      ],
       "wikipedia": {
         "es": "Conflicto entre la Franja de Gaza e Israel de 2014",
         "en": "2014 Gaza War"
@@ -23671,7 +26543,9 @@
         "mesopotamia",
         "siria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dabiq"
+      ],
       "wikipedia": {
         "es": "Estado Islámico",
         "en": "Islamic State"
@@ -23691,7 +26565,9 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-fenech-sobre-los-atentados-en-francia"
+      ],
       "wikipedia": {
         "es": "Atentados de Francia de enero de 2015",
         "en": "January 2015 Île-de-France attacks"
@@ -23711,7 +26587,10 @@
       "regiones": [
         "francia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-fenech-sobre-los-atentados-en-francia",
+        "dabiq"
+      ],
       "wikipedia": {
         "es": "Atentados de París de noviembre de 2015",
         "en": "November 2015 Paris attacks"
@@ -23733,7 +26612,9 @@
         "tierra-santa",
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-los-acuerdos-de-abraham"
+      ],
       "wikipedia": {
         "es": "Acuerdos de Abraham",
         "en": "Abraham Accords"
@@ -23754,7 +26635,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-de-la-onu-sobre-el-territorio-palestino-2024"
+      ],
       "wikipedia": {
         "es": "Ataques del 7 de octubre",
         "en": "October 7 attacks"
@@ -23775,7 +26658,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-de-la-onu-sobre-el-territorio-palestino-2024",
+        "orden-de-la-cij-sudafrica-contra-israel"
+      ],
       "wikipedia": {
         "es": "Guerra de Gaza",
         "en": "Gaza war"
@@ -23796,7 +26682,9 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "declaracion-de-bashar-al-asad-de-2024"
+      ],
       "wikipedia": {
         "es": "Caída de la dinastía Ásad",
         "en": "Fall of the Assad regime"
@@ -24080,7 +26968,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "cronica-mayor",
+        "historia-de-las-cruzadas-runciman"
+      ],
       "wikipedia": {
         "es": "Cruzada de los barones",
         "en": "Barons' Crusade"
@@ -24127,7 +27018,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-haycraft"
+      ],
       "wikipedia": {
         "es": "Disturbios de Jaffa de 1921",
         "en": "Jaffa riots (May 1921)"
@@ -24148,7 +27041,9 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-shaw"
+      ],
       "wikipedia": {
         "es": "Disturbios de Palestina de 1929",
         "en": "1929 Palestine riots"
@@ -24193,7 +27088,9 @@
         "africa-oriental",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "operation-thunderbolt"
+      ],
       "wikipedia": {
         "es": "Operación Entebbe",
         "en": "Entebbe raid"
@@ -24215,7 +27112,10 @@
         "levante",
         "tierra-santa"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "resolucion-425",
+        "righteous-victims"
+      ],
       "wikipedia": {
         "es": "Invasión israelí del Líbano de 1978",
         "en": "1978 South Lebanon conflict"
@@ -24257,7 +27157,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "un-nino-ha-muerto",
+        "who-shot-mohammed-al-dura"
+      ],
       "wikipedia": {
         "es": "Muerte de Muhammad al-Durrah",
         "en": "Killing of Muhammad al-Durrah"
@@ -24599,7 +27502,10 @@
         "mesopotamia",
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "massacres-resistance-protectors",
+        "trato-de-los-armenios-en-el-imperio-otomano"
+      ],
       "wikipedia": {
         "es": "Genocidio sayfo",
         "en": "Sayfo"
@@ -24619,7 +27525,9 @@
       "regiones": [
         "arabia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-asedio-de-la-meca"
+      ],
       "wikipedia": {
         "es": "Incidente de la Gran Mezquita",
         "en": "Grand Mosque seizure"
@@ -24668,7 +27576,10 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acuerdo-de-taif",
+        "pity-the-nation"
+      ],
       "wikipedia": {
         "es": "Guerra civil libanesa",
         "en": "Lebanese Civil War"
@@ -24733,7 +27644,10 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hezbollah-a-short-history",
+        "resolucion-425"
+      ],
       "wikipedia": {
         "es": "Conflicto del sur del Líbano (1985-2000)",
         "en": "South Lebanon conflict (1985–2000)"
@@ -24803,7 +27717,9 @@
         "levante",
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-oiea-sobre-siria"
+      ],
       "wikipedia": {
         "es": "Operación Huerto",
         "en": "Operation Outside the Box"
@@ -24823,7 +27739,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-de-la-comision-del-11-s"
+      ],
       "wikipedia": {
         "es": "Atentado del World Trade Center de 1993",
         "en": "1993 World Trade Center bombing"
@@ -24844,7 +27762,9 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historias-de-agatias"
+      ],
       "wikipedia": {
         "es": "Terremoto de Beirut de 551",
         "en": "551 Beirut earthquake"
@@ -24866,7 +27786,10 @@
         "levante",
         "siria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-guillermo-de-tiro",
+        "cronica-de-damasco"
+      ],
       "wikipedia": {
         "es": "Sitio de Trípoli",
         "en": "Siege of Tripoli"
@@ -24888,7 +27811,10 @@
         "levante",
         "siria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-abulfeda",
+        "suluk-de-al-maqrizi"
+      ],
       "wikipedia": {
         "es": "Caída de Trípoli",
         "en": "Fall of Tripoli (1289)"
@@ -24909,7 +27835,10 @@
         "transjordania",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-guillermo-de-tiro",
+        "vida-de-saladino"
+      ],
       "wikipedia": {
         "es": "Señorío de Transjordania",
         "en": "Lordship of Transjordan"
@@ -24930,7 +27859,9 @@
         "transjordania",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "frontiers-of-the-state-rogan"
+      ],
       "wikipedia": {
         "en": "Circassians in Jordan"
       }
@@ -24949,7 +27880,10 @@
       "regiones": [
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "carmen-in-victoriam-pisanorum",
+        "historia-completa"
+      ],
       "wikipedia": {
         "es": "Cruzada de Mahdía (1087)",
         "en": "Mahdia campaign of 1087"
@@ -24969,7 +27903,10 @@
       "regiones": [
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "vida-de-san-luis",
+        "suluk-de-al-maqrizi"
+      ],
       "wikipedia": {
         "es": "Octava cruzada",
         "en": "Eighth Crusade"
@@ -24989,7 +27926,9 @@
       "regiones": [
         "magreb"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "navegaciones-de-nicolay"
+      ],
       "wikipedia": {
         "es": "Asedio de Trípoli (1551)",
         "en": "Siege of Tripoli (1551)"
@@ -25011,7 +27950,9 @@
         "persia",
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "iran-bajo-los-safavies"
+      ],
       "wikipedia": {
         "es": "Batalla de Chaldiran",
         "en": "Battle of Chaldiran"
@@ -25033,7 +27974,9 @@
         "anatolia",
         "armenia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gran-rebelion-de-anatolia-griswold"
+      ],
       "wikipedia": {
         "en": "Celali rebellions"
       }
@@ -25052,7 +27995,9 @@
       "regiones": [
         "arabia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bada-i-al-zuhur-ibn-iyas"
+      ],
       "wikipedia": {
         "es": "Jerife de La Meca",
         "en": "Sharif of Mecca"
@@ -25072,7 +28017,9 @@
       "regiones": [
         "arabia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mirat-ul-memalik"
+      ],
       "wikipedia": {
         "en": "Ottoman–Portuguese conflicts (1538–1560)"
       }
@@ -25092,7 +28039,10 @@
         "mesopotamia",
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "iran-bajo-los-safavies",
+        "beyan-i-menazil-de-matrakci"
+      ],
       "wikipedia": {
         "es": "Guerra otomano-safávida (1532-1555)",
         "en": "Ottoman–Safavid War (1532–1555)"
@@ -25113,7 +28063,9 @@
         "mesopotamia",
         "persia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "fezleke-de-katip-celebi"
+      ],
       "wikipedia": {
         "es": "Toma de Bagdad (1638)",
         "en": "Siege of Baghdad (1638)"
@@ -25252,7 +28204,9 @@
         "levante",
         "siria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-comunidad-maronita"
+      ],
       "wikipedia": {
         "es": "Juan Marón",
         "en": "John Maron"
@@ -25372,7 +28326,9 @@
         "arabia",
         "siria"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "pilgrims-and-sultans"
+      ],
       "wikipedia": {
         "en": "History of the Hajj"
       }
@@ -25462,7 +28418,10 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-romana-apiano",
+        "historia-romana-dion-casio"
+      ],
       "wikipedia": {
         "es": "Siria (provincia romana)",
         "en": "Roman Syria"
