@@ -3502,9 +3502,10 @@
       "lon": 31.82,
       "lat": 30.79,
       "tipo": "politico",
-      "resumen": "Ahmose I toma Avaris, expulsa a los hicsos y reunifica Egipto, con lo que inicia el Imperio Nuevo. Fecha aproximada.",
+      "resumen": "Ahmose I toma Avaris y reunifica Egipto, con lo que inicia el Imperio Nuevo. Manetón cuenta que los hicsos fueron expulsados, pero la arqueología muestra que buena parte de la población asiática se quedó. Fecha aproximada.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "aegyptiaca-de-maneton",
@@ -3619,7 +3620,8 @@
       "resumen": "Ramsés II y Hattusili III firman un tratado de paz y alianza, redactado en versiones egipcia y hitita.",
       "regiones": [
         "egipto",
-        "levante"
+        "levante",
+        "bajo-egipto"
       ],
       "fuentes": [
         "tratado-egipcio-hitita"
@@ -3659,7 +3661,8 @@
       "tipo": "batalla",
       "resumen": "Cambises II derrota al faraón Psamético III cerca de Pelusio y Egipto pasa a ser una satrapía del Imperio persa.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "historias-de-herodoto-libros-ii-iii"
@@ -3681,7 +3684,8 @@
       "tipo": "politico",
       "resumen": "Alejandro entra en Egipto sin resistencia seria, es aceptado como faraón y visita el oasis de Siwa.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [],
       "wikipedia": {
@@ -3701,7 +3705,8 @@
       "tipo": "fundacion",
       "resumen": "Alejandro funda en la costa del delta la ciudad que será capital de los Ptolomeos.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "geografia-de-estrabon-libro-xvii"
@@ -3723,7 +3728,8 @@
       "tipo": "cultural",
       "resumen": "Los primeros Ptolomeos crean el Museo y su gran biblioteca, centro de estudios del mundo helenístico. La fecha exacta es incierta.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "geografia-de-estrabon-libro-xvii"
@@ -3745,7 +3751,8 @@
       "tipo": "politico",
       "resumen": "Un sínodo de sacerdotes emite el decreto en honor de Ptolomeo V, grabado luego en la Piedra de Rosetta.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "piedra-de-rosetta"
@@ -3790,7 +3797,8 @@
       "tipo": "politico",
       "resumen": "Octavio toma Alejandría, Cleopatra se suicida y Egipto pasa a ser provincia romana, propiedad personal del emperador.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "geografia-de-estrabon-libro-xvii"
@@ -3812,7 +3820,8 @@
       "tipo": "politico",
       "resumen": "Hipatia es asesinada por una multitud cristiana, en el contexto de las tensiones entre el prefecto Orestes y el patriarca Cirilo.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [],
       "wikipedia": {
@@ -3832,7 +3841,8 @@
       "tipo": "politico",
       "resumen": "Amr ibn al-As conquista Egipto a los bizantinos, toma Babilonia (la fortaleza) y Alejandría, y funda el campamento de Fustat.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "khitat-de-al-maqrizi"
@@ -3854,7 +3864,8 @@
       "tipo": "fundacion",
       "resumen": "El general fatimí Jawhar al-Siqilli funda al-Qahira como residencia del califa; la ciudad pasa a ser la capital.",
       "regiones": [
-        "egipto"
+        "egipto",
+        "bajo-egipto"
       ],
       "fuentes": [
         "khitat-de-al-maqrizi"
@@ -4127,6 +4138,161 @@
       "wikipedia": {
         "es": "Primer periodo intermedio de Egipto",
         "en": "First Intermediate Period of Egypt"
+      }
+    },
+    {
+      "id": "avaris-en-el-reino-medio",
+      "titulo": "Avaris en el Reino Medio",
+      "anio": -1990,
+      "anio_hasta": -1700,
+      "aprox": true,
+      "lugar": "Avaris (Tell el-Daba)",
+      "lon": 31.823,
+      "lat": 30.786,
+      "tipo": "fundacion",
+      "resumen": "La ciudad que fue después capital de los hicsos, en el sitio actual de Tell el-Daba, en el delta oriental. Se atribuye su fundación a Amenemhat I, de la dinastía XII; por su cercanía a Asia atrajo a inmigrantes asiáticos, en su mayoría egipcianizados, que conservaron rasgos de su cultura, como las armas de origen levantino de sus tumbas.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Avaris",
+        "en": "Avaris"
+      }
+    },
+    {
+      "id": "hicsos-en-avaris",
+      "titulo": "Los hicsos gobiernan el delta desde Avaris",
+      "anio": -1650,
+      "anio_hasta": -1550,
+      "aprox": true,
+      "lugar": "Avaris (Tell el-Daba)",
+      "lon": 31.823,
+      "lat": 30.786,
+      "tipo": "politico",
+      "resumen": "Dinastía extranjera, de origen cananeo, que gobernó el delta desde Avaris entre 1650 y 1550 a. C. aproximadamente, hasta que Ahmose I tomó la ciudad. Las excavaciones de Tell el-Daba muestran asiáticos asentados en Avaris desde la dinastía XII y no hallan rastros de una conquista; Manetón, citado por Flavio Josefo, la cuenta como una invasión y nombra a Salitis como su primer rey.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "aegyptiaca-de-maneton",
+        "contra-apion"
+      ],
+      "wikipedia": {
+        "es": "Dinastía XV de Egipto",
+        "en": "Fifteenth Dynasty of Egypt"
+      }
+    },
+    {
+      "id": "fundacion-de-pi-ramses",
+      "titulo": "Pi-Ramsés, capital de Ramsés II",
+      "anio": -1270,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Pi-Ramsés",
+      "lon": 31.83,
+      "lat": 30.8,
+      "tipo": "fundacion",
+      "resumen": "Nueva capital que Ramsés II (1279-1213 a. C.) levantó en Qantir, junto al sitio de la antigua Avaris. Ya había servido como palacio de verano de Seti I y pudo ser fundada por Ramsés I.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "tratado-egipcio-hitita"
+      ],
+      "wikipedia": {
+        "es": "Pi-Ramsés",
+        "en": "Pi-Ramesses"
+      }
+    },
+    {
+      "id": "dinastia-saita",
+      "titulo": "La dinastía saíta, de Sais a la conquista persa",
+      "anio": -664,
+      "anio_hasta": -525,
+      "aprox": false,
+      "lugar": "Sais",
+      "lon": 30.768,
+      "lat": 30.965,
+      "tipo": "politico",
+      "resumen": "La dinastía XXVI fue la última dinastía nativa del antiguo Egipto antes de la conquista persa de 525 a. C. Se llama también período saíta por Sais, su capital, y marca el comienzo del Período Tardío.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "historias-de-herodoto-libros-ii-iii"
+      ],
+      "wikipedia": {
+        "es": "Dinastía XXVI de Egipto",
+        "en": "Twenty-sixth Dynasty of Egypt"
+      }
+    },
+    {
+      "id": "disturbios-de-alejandria-del-ano-38",
+      "titulo": "Disturbios antijudíos de Alejandría del año 38",
+      "anio": 38,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Alejandría",
+      "lon": 29.918,
+      "lat": 31.2,
+      "tipo": "politico",
+      "resumen": "Ataques contra los judíos de Alejandría. Según Filón, el prefecto Aulo Avilio Flaco, que quería congraciarse con la población griega y con Calígula, permitió que una turba pusiera estatuas del emperador en las sinagogas y luego declaró extranjeros a los judíos; las turbas los expulsaron de cuatro de los cinco barrios y los confinaron en una pequeña parte de la ciudad. Flaco fue destituido, desterrado y ejecutado.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Alexandrian riots (38 CE)"
+      }
+    },
+    {
+      "id": "sultanato-mameluco-en-el-cairo",
+      "titulo": "Los mamelucos toman el poder en Egipto",
+      "anio": 1250,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "tipo": "politico",
+      "resumen": "El sultanato mameluco se estableció con el derrocamiento de la dinastía ayubí en Egipto en 1250, cuando los mamelucos del ejército del sultán al-Salih Ayyub asesinaron a su sucesor, Turanshah. Gobernó Egipto, el Levante y el Hiyaz con capital en El Cairo hasta la conquista otomana de 1517.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "suluk-de-al-maqrizi"
+      ],
+      "wikipedia": {
+        "es": "Sultanato mameluco de Egipto",
+        "en": "Mamluk Sultanate"
+      }
+    },
+    {
+      "id": "conquista-otomana-de-egipto",
+      "titulo": "Los otomanos conquistan Egipto",
+      "anio": 1517,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "El Cairo",
+      "lon": 31.262,
+      "lat": 30.05,
+      "tipo": "batalla",
+      "resumen": "La guerra otomano-mameluca de 1516-1517 terminó con la caída del sultanato mameluco y la incorporación de Egipto, el Levante y el Hiyaz al Imperio otomano. La batalla de Ridaniya, a las puertas de El Cairo, se libró el 22 de enero de 1517 y la ganó el ejército de Selim I; los otomanos saquearon la ciudad y el último sultán, Tumanbay, fue capturado y ahorcado.",
+      "regiones": [
+        "bajo-egipto",
+        "egipto"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Ridaniya",
+        "en": "Battle of Ridaniya"
       }
     }
   ],

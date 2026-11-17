@@ -10184,6 +10184,11 @@
     "motivo": "Texto de tradición oral védica; el diálogo transcurre en la corte de Janaka, en Mithila, pero ninguna fuente dice dónde se compuso.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:bucolicas": {
+    "decision": "sin-datos",
+    "motivo": "La tradición dice que Virgilio empezó las Bucólicas en 42 a. C. y se las publicó hacia 39-38 a. C., fechas discutidas, y ninguna fuente consultada fija dónde las compuso.",
+    "fecha": "2026-11-17"
+  },
   "ref:sin-lugar:cantar-de-roldan": {
     "decision": "sin-datos",
     "motivo": "Cantar anónimo sin lugar de escritura conocido.",
@@ -10379,6 +10384,11 @@
     "motivo": "Salió en 1989 en ediciones simultáneas de varios países y no hallé una fuente que diga dónde la escribió García Márquez.",
     "fecha": "2026-11-13"
   },
+  "ref:sin-lugar:el-nacimiento-de-la-clinica": {
+    "decision": "sin-datos",
+    "motivo": "Foucault vivía en París y daba clases en Clermont-Ferrand, adonde viajaba cada semana, y las fuentes dicen solo que produjo el libro mientras trabajaba en esa universidad, sin fijar dónde lo escribió.",
+    "fecha": "2026-11-17"
+  },
   "ref:sin-lugar:el-vino-del-estio": {
     "decision": "sin-datos",
     "motivo": "Bradbury vivía en el área de Los Angeles, pero ninguna fuente consultada dice dónde escribió esta novela de 1957.",
@@ -10429,6 +10439,11 @@
     "motivo": "Wikipedia solo dice que Rand la escribió en el verano de 1937; no dice en qué ciudad.",
     "fecha": "2026-11-12"
   },
+  "ref:sin-lugar:himnos-homericos": {
+    "decision": "sin-datos",
+    "motivo": "Colección de himnos anónimos compuestos entre los siglos VII y VI a. C. (el más tardío, quizá del siglo V d. C.), sin lugar de escritura conocido.",
+    "fecha": "2026-11-17"
+  },
   "ref:sin-lugar:historia-de-raimundo-de-aguilers": {
     "decision": "sin-datos",
     "motivo": "Las fuentes no dicen dónde la escribió Raimundo después de 1099.",
@@ -10438,6 +10453,11 @@
     "decision": "sin-datos",
     "motivo": "Solo se sabe que fue en Armenia.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:historia-do-futuro": {
+    "decision": "sin-datos",
+    "motivo": "La redacción se fecha desde 1649 según Sorel o hacia 1665 según Bosi, y las fuentes consultadas no dicen en qué ciudad escribió Vieira este libro inconcluso.",
+    "fecha": "2026-11-17"
   },
   "ref:sin-lugar:historia-geral-do-brasil-varnhagen": {
     "decision": "sin-datos",
@@ -10478,6 +10498,11 @@
     "decision": "sin-datos",
     "motivo": "Las fuentes no dicen dónde se grabó ni de dónde procede el mojón.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:la-cancion-de-salomon": {
+    "decision": "sin-datos",
+    "motivo": "Morrison trabajaba en Random House en Manhattan pero vivía en el condado de Rockland (Spring Valley) y viajaba a diario; ninguna fuente fija dónde escribió la novela.",
+    "fecha": "2026-11-17"
   },
   "ref:sin-lugar:la-casa-de-bernarda-alba": {
     "decision": "sin-datos",
@@ -10748,6 +10773,11 @@
     "decision": "sin-datos",
     "motivo": "Texto de tradición oral védica sin lugar de composición preciso; las fuentes no lo fijan.",
     "fecha": "2026-11-12"
+  },
+  "ref:sin-lugar:tar-baby": {
+    "decision": "sin-datos",
+    "motivo": "Morrison vivía en el condado de Rockland (Spring Valley y, desde 1979, una casa sobre el Hudson junto a Nyack) y viajaba a su oficina de Manhattan; ninguna fuente fija dónde escribió la novela.",
+    "fecha": "2026-11-17"
   },
   "ref:sin-lugar:tarij-al-amir-fakhr-al-din": {
     "decision": "sin-datos",
@@ -14293,6 +14323,11 @@
     "decision": "descartado",
     "motivo": "Ya está por `batalla-de-qadisiyya` (636), `conquista-musulmana-de-persia`, `primera-fitna`, `batalla-de-siffin`, `batalla-de-karbala`, `revolucion-abasi` y `fundacion-de-bagdad` (tierra-santa), y por las fuentes `talmud-de-babilonia`, `apocalipsis-del-pseudo-metodio`, `dialogo-de-timoteo-i` e `historia-de-al-tabari` (tierra-santa).",
     "fecha": "2026-11-12"
+  },
+  "tramo:norteamerica-colonial:aridoamerica:1550:1569": {
+    "decision": "descartado",
+    "motivo": "Entre 1550 y 1569 el avance español en el norte de México (Zacatecas, la guerra chichimeca, la Nueva Vizcaya) es del tema nueva-espana-y-centroamerica; ningún español volvió a los pueblos del norte del río Bravo entre Coronado (1540-1542) y la expedición de Chamuscado y Rodríguez (1581).",
+    "fecha": "2026-11-17"
   },
   "tramo:religion-celta:irlanda:401:500": {
     "decision": "descartado",

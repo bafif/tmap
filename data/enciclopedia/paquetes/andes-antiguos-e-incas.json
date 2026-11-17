@@ -4209,6 +4209,66 @@
         "es": "Cultura machalilla",
         "en": "Machalilla culture"
       }
+    },
+    {
+      "id": "cultura-chorrera",
+      "titulo": "La cultura Chorrera",
+      "anio": -1300,
+      "anio_hasta": -300,
+      "aprox": true,
+      "lugar": "Salango",
+      "lon": -80.842,
+      "lat": -1.594,
+      "tipo": "cultural",
+      "resumen": "Cultura del Formativo Tardío de Ecuador, una de las más extendidas del país antes de la conquista: abarcó de las tierras bajas del Pacífico a la cordillera de los Andes y llegó hasta el sur de Colombia. Su sello es la cerámica, con botellas de asa de estribo que silban, en forma de animales y plantas, y figurillas hechas en molde. Sus artesanos hicieron de los primeros objetos de metal de Ecuador, hallados en Salango, y siguió la red de intercambio de Valdivia y Machalilla, con conchas spondylus de la costa por obsidiana de la cuenca de Quito.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura chorrera",
+        "en": "Chorrera culture"
+      }
+    },
+    {
+      "id": "cultura-tumaco-la-tolita",
+      "titulo": "La cultura Tumaco-La Tolita",
+      "anio": -600,
+      "anio_hasta": 400,
+      "aprox": true,
+      "lugar": "Tumaco",
+      "lon": -78.765,
+      "lat": 1.807,
+      "tipo": "cultural",
+      "resumen": "Cultura de la costa norte de Ecuador y la costa sur de Colombia, que toma el nombre de la isla de La Tolita y de la isla del Morro, en Tumaco. Se la conoce por los montículos de tierra o tolas, la cerámica y sobre todo la metalurgia: trabajó el oro y la tumbaga, y sus orfebres son los primeros conocidos en trabajar el platino. Su apogeo duró unos 700 años y la isla de La Tolita se abandonó hacia 400 d. C.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura tumaco-la tolita",
+        "en": "Tumaco-La Tolita culture"
+      }
+    },
+    {
+      "id": "cultura-bahia",
+      "titulo": "La cultura Bahía",
+      "anio": -500,
+      "anio_hasta": 500,
+      "aprox": true,
+      "lugar": "Bahía de Caráquez",
+      "lon": -80.425,
+      "lat": -0.6,
+      "tipo": "cultural",
+      "resumen": "Cultura precolombina de Ecuador, que nació en lo que hoy es la provincia de Manabí, en la costa del Pacífico, y se extendió a Bahía de Caráquez y a las laderas andinas. Chirije, un puerto, es uno de sus sitios principales; lo descubrió Emilio Estrada en los años cincuenta. Se le atribuye un comercio marítimo de objetos terminados y conchas spondylus hacia Chile y hacia México, a cambio de cobre y oro.",
+      "regiones": [
+        "norte-de-sudamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Cultura Bahía",
+        "en": "Bahía culture"
+      }
     }
   ],
   "lugares": [

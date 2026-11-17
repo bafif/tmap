@@ -2815,7 +2815,9 @@
       "escrita": {
         "anio": 1833,
         "aprox": false,
-        "lugar": "Rock Island (Illinois)"
+        "lugar": "Rock Island (Illinois)",
+        "lon": -90.573,
+        "lat": 41.489
       },
       "trata": {
         "regiones": [
@@ -11105,6 +11107,118 @@
       "wikipedia": {
         "es": "Revuelta de Boston (1689)",
         "en": "1689 Boston revolt"
+      }
+    },
+    {
+      "id": "expedicion-de-chamuscado-y-rodriguez",
+      "titulo": "Expedición de Chamuscado y Rodríguez",
+      "anio": 1581,
+      "anio_hasta": 1582,
+      "aprox": false,
+      "lugar": "Santa Bárbara (Chihuahua)",
+      "lon": -105.82,
+      "lat": 26.802,
+      "tipo": "exploracion",
+      "resumen": "Expedición que fray Agustín Rodríguez organizó desde Santa Bárbara y que dirigió el capitán Francisco Sánchez, «el Chamuscado»: salió el 5 de junio de 1581 con nueve soldados, tres religiosos y servidores indígenas, bajó por el río Conchos hasta el Río Grande y lo siguió hasta los pueblos de Nuevo México. Fueron los primeros españoles que visitaron a los indios pueblo desde Coronado, unos cuarenta años antes.",
+      "regiones": [
+        "aridoamerica",
+        "suroeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "the-spanish-frontier-in-north-america"
+      ],
+      "wikipedia": {
+        "es": "Expedición de Chamuscado y Rodríguez",
+        "en": "Chamuscado and Rodríguez Expedition"
+      }
+    },
+    {
+      "id": "expedicion-de-espejo",
+      "titulo": "Expedición de Antonio de Espejo",
+      "anio": 1582,
+      "anio_hasta": 1583,
+      "aprox": false,
+      "lugar": "Santa Bárbara (Chihuahua)",
+      "lon": -105.82,
+      "lat": 26.802,
+      "tipo": "exploracion",
+      "resumen": "Antonio de Espejo, un rico ganadero acusado de homicidio que se refugió en Santa Bárbara, financió una expedición que salió el 10 de noviembre de 1582 con catorce soldados y un sacerdote, ostensiblemente para saber qué había sido de dos frailes que habían quedado entre los pueblos. Siguió la ruta de Chamuscado y llegó a Nuevo México y Arizona; su viaje despertó interés por fundar una colonia española entre los pueblos del Río Grande.",
+      "regiones": [
+        "aridoamerica",
+        "suroeste-norteamericano",
+        "norteamerica"
+      ],
+      "fuentes": [
+        "the-spanish-frontier-in-north-america"
+      ],
+      "wikipedia": {
+        "es": "Antonio de Espejo",
+        "en": "Antonio de Espejo"
+      }
+    },
+    {
+      "id": "camino-real-de-tierra-adentro",
+      "titulo": "El Camino Real de Tierra Adentro",
+      "anio": 1598,
+      "anio_hasta": 1882,
+      "aprox": false,
+      "lugar": "Santa Fe (Nuevo México)",
+      "lon": -105.967,
+      "lat": 35.667,
+      "tipo": "economico",
+      "resumen": "Camino español de 2560 km entre Ciudad de México y San Juan Pueblo (Ohkay Owingeh), en Nuevo México, usado de 1598 a 1882 y conocido también como Ruta de la Plata. Cruzaba el norte de México y unía las minas y los pueblos del camino con la provincia de Nuevo México. Tras la rebelión de 1680 las caravanas de la conducta abastecían por él a las misiones, los presidios y los ranchos del norte.",
+      "regiones": [
+        "suroeste-norteamericano",
+        "norteamerica",
+        "aridoamerica"
+      ],
+      "fuentes": [
+        "the-spanish-frontier-in-north-america"
+      ],
+      "wikipedia": {
+        "es": "Camino Real de Tierra Adentro",
+        "en": "Camino Real de Tierra Adentro"
+      }
+    },
+    {
+      "id": "fundacion-de-el-paso-del-norte",
+      "titulo": "Fundación de El Paso del Norte",
+      "anio": 1659,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "El Paso del Norte (Ciudad Juárez)",
+      "lon": -106.42,
+      "lat": 31.669,
+      "tipo": "fundacion",
+      "resumen": "El 8 de diciembre de 1659 el franciscano fray García de San Francisco fundó la Misión de Nuestra Señora de Guadalupe de los Mansos del Paso del Río del Norte, origen de Ciudad Juárez, en el paso por donde cruzaba el Camino Real. Fue luego el segundo centro de evangelización de Nuevo México después de Santa Fe. El Paso (Texas), que creció después en la orilla norte, heredó su nombre.",
+      "regiones": [
+        "aridoamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Ciudad Juárez",
+        "en": "Ciudad Juárez"
+      }
+    },
+    {
+      "id": "don-luis-llevado-a-espana",
+      "titulo": "Don Luis (Paquiquineo) sale de la bahía de Chesapeake",
+      "anio": 1561,
+      "anio_hasta": 1570,
+      "aprox": false,
+      "lugar": "Bahía de Chesapeake",
+      "lon": -76.119,
+      "lat": 37.248,
+      "tipo": "exploracion",
+      "resumen": "En junio de 1561 la carabela Santa Catalina, enviada por el virrey Luis de Velasco, entró en la bahía de Chesapeake y su capitán, Antonio Velázquez, se llevó a dos indígenas como intérpretes, uno de ellos Paquiquineo. Llegó a Sevilla ese año y a la ciudad de México en 1562, donde lo bautizaron como Luis de Velasco. En 1570 volvió como guía de los jesuitas de la misión de Ajacán, y se cree que participó en su matanza; algunos historiadores lo creen el futuro Opechancanough, cosa que otros niegan.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Don Luis"
       }
     }
   ],

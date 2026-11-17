@@ -1280,9 +1280,9 @@
       "escrita": {
         "anio": 1987,
         "aprox": false,
-        "lugar": "Nueva York",
-        "lon": -74.006,
-        "lat": 40.713
+        "lugar": "Nyack (Nueva York)",
+        "lon": -73.922,
+        "lat": 41.093
       },
       "trata": {
         "regiones": [
@@ -6416,7 +6416,10 @@
       "genero": "literatura",
       "escrita": {
         "anio": 1973,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
       },
       "trata": {
         "regiones": [
@@ -6536,8 +6539,12 @@
       "tipo": "primaria",
       "genero": "literatura",
       "escrita": {
-        "anio": 1935,
-        "aprox": false
+        "anio": 1934,
+        "anio_hasta": 1935,
+        "aprox": false,
+        "lugar": "Oxford (Misisipi)",
+        "lon": -89.519,
+        "lat": 34.367
       },
       "trata": {
         "regiones": [
@@ -6568,7 +6575,10 @@
       "escrita": {
         "anio": 1929,
         "anio_hasta": 1931,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Oxford (Misisipi)",
+        "lon": -89.519,
+        "lat": 34.367
       },
       "trata": {
         "regiones": [
@@ -6628,8 +6638,12 @@
       "tipo": "primaria",
       "genero": "literatura",
       "escrita": {
-        "anio": 1936,
-        "aprox": false
+        "anio": 1934,
+        "anio_hasta": 1935,
+        "aprox": false,
+        "lugar": "Pacific Grove (California)",
+        "lon": -121.921,
+        "lat": 36.619
       },
       "trata": {
         "regiones": [
@@ -9878,6 +9892,48 @@
       "wikipedia": {
         "es": "Les Temps Modernes",
         "en": "Les Temps modernes"
+      }
+    },
+    {
+      "id": "fundacion-de-the-new-york-review-of-books",
+      "titulo": "Fundación de The New York Review of Books",
+      "anio": 1963,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nueva York",
+      "lon": -74.006,
+      "lat": 40.713,
+      "tipo": "cultural",
+      "resumen": "Revista de reseñas y ensayos sobre libros, fundada en Nueva York por Robert B. Silvers, Barbara Epstein, A. Whitney Ellsworth y Elizabeth Hardwick, con el respaldo de Jason Epstein y de Robert Lowell, durante la huelga de los diarios neoyorquinos de 1962-1963. El primer número salió el 1 de febrero de 1963 y agotó los 100.000 ejemplares; la publicación quincenal regular empezó en noviembre de ese año.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "The New York Review of Books",
+        "en": "The New York Review of Books"
+      }
+    },
+    {
+      "id": "solzhenitsyn-en-cavendish",
+      "titulo": "Solzhenitsyn se instala en Cavendish (Vermont)",
+      "anio": 1976,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Cavendish (Vermont)",
+      "lon": -72.608,
+      "lat": 43.382,
+      "tipo": "cultural",
+      "resumen": "Después de ser expulsado de la Unión Soviética en 1974, Aleksandr Solzhenitsyn vivió en Alemania Occidental y en Zúrich, pasó por la Hoover Institution de la Universidad de Stanford y se instaló en Cavendish, en Vermont, adonde llegó hacia 1976 (la Wikipedia en español dice 1975). Vivió allí hasta volver a Rusia en 1994, y el 8 de junio de 1978 dio el discurso de graduación de Harvard.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Aleksandr Solzhenitsyn",
+        "en": "Aleksandr Solzhenitsyn"
       }
     }
   ],
