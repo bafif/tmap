@@ -5352,6 +5352,46 @@
       "por_que_importa": "Es uno de los primeros estudios dedicados a la Larga Caminata; es anterior a trabajos más recientes que lo corrigen.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "articulos-de-capitulacion-de-montreal",
+      "titulo": "Artículos de capitulación de Montreal",
+      "titulo_original": "Articles de capitulation de Montréal",
+      "autor": "Pierre de Rigaud de Vaudreuil y Jeffery Amherst",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1760,
+        "aprox": false,
+        "lugar": "Montreal",
+        "lon": -73.587,
+        "lat": 45.503
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "norteamerica"
+        ],
+        "desde": 1760,
+        "hasta": 1760
+      },
+      "idioma_original": "Francés e inglés",
+      "soporte": "Capitulación",
+      "resumen": "Acta de 55 artículos firmada el 8 de septiembre de 1760 por el gobernador general de Nueva Francia y el comandante británico, que entrega Canadá a Gran Bretaña. Pide para los habitantes los derechos de los súbditos británicos y regula el culto católico, el clero, los señores, los esclavos y, en el artículo 40, las tierras y la religión de los pueblos indígenas aliados de Francia; el comandante británico concedió la mayor parte, pero negó los honores de la guerra a las tropas francesas, rechazó que el rey de Francia nombrara al obispo y que siguieran jesuitas, recoletos y sulpicianos, y sobre los acadios respondió que ya eran súbditos británicos.",
+      "por_que_importa": "Es el documento con que Nueva Francia pasó a Gran Bretaña, y las garantías sobre la religión, las leyes y las tierras se invocaron después para el régimen de Quebec y para los derechos de los pueblos indígenas.",
+      "leer": [
+        {
+          "titulo": "Texto en inglés en la colección de leyes y actas públicas relativas a Canadá impresa en Quebec por P. E. Desbarats en 1824 (Canadiana)",
+          "url": "https://www.canadiana.ca/view/oocihm.42695/10",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "en": "Articles of Capitulation of Montreal"
+      },
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -10026,6 +10066,542 @@
         "en": "Esteban Rodríguez Miró"
       },
       "wikidata": "Q2411994"
+    },
+    {
+      "id": "henry-laurens",
+      "nombre": "Henry Laurens",
+      "nacimiento": {
+        "anio": 1724,
+        "aprox": false,
+        "lugar": "Charleston",
+        "lon": -79.932,
+        "lat": 32.783
+      },
+      "muerte": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Charleston",
+        "lon": -79.932,
+        "lat": 32.783
+      },
+      "activo": {
+        "lugar": "York",
+        "lon": -76.728,
+        "lat": 39.963,
+        "desde": 1777,
+        "hasta": 1778,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "comerciante",
+        "diplomatico"
+      ],
+      "resumen": "Comerciante de esclavos y plantador de arroz de Charleston, vicepresidente de Carolina del Sur en 1776-1777 y presidente del Congreso Continental del 1 de noviembre de 1777 al 9 de diciembre de 1778, período en que se aprobaron los Artículos de la Confederación. Enviado ante los Países Bajos, los británicos lo capturaron en el mar en 1780 y lo tuvieron preso en la Torre de Londres hasta el 31 de diciembre de 1781, cuando fue canjeado por Cornwallis; nunca liberó a sus unos 260 esclavos.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Henry Laurens",
+        "en": "Henry Laurens"
+      },
+      "wikidata": "Q1606981"
+    },
+    {
+      "id": "samuel-huntington",
+      "nombre": "Samuel Huntington",
+      "nacimiento": {
+        "anio": 1731,
+        "aprox": false,
+        "lugar": "Windham",
+        "lon": -72.157,
+        "lat": 41.7
+      },
+      "muerte": {
+        "anio": 1796,
+        "aprox": false,
+        "lugar": "Norwich",
+        "lon": -72.088,
+        "lat": 41.55
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1779,
+        "hasta": 1781,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "juez",
+        "abogado"
+      ],
+      "resumen": "Abogado y juez de Connecticut, firmante de la Declaración de Independencia y de los Artículos de la Confederación. Sucedió a John Jay como presidente del Congreso Continental el 28 de septiembre de 1779 y renunció por enfermedad el 9 de julio de 1781, así que presidió también cuando los Artículos entraron en vigor; por eso se lo cita a veces como primer presidente del Congreso de la Confederación. Fue gobernador de Connecticut desde 1786 hasta su muerte.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Samuel Huntington (Connecticut politician)"
+      },
+      "wikidata": "Q887130"
+    },
+    {
+      "id": "thomas-mckean",
+      "nombre": "Thomas McKean",
+      "nacimiento": {
+        "anio": 1734,
+        "aprox": false,
+        "lugar": "Municipio de New London (condado de Chester, Pensilvania)",
+        "lon": -75.883,
+        "lat": 39.767
+      },
+      "muerte": {
+        "anio": 1817,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1781,
+        "hasta": 1781,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "juez",
+        "abogado"
+      ],
+      "resumen": "Abogado de Delaware, delegado al Congreso, firmante de la Declaración de Independencia y de los Artículos de la Confederación. Fue elegido presidente del Congreso cuando renunció Huntington, después de que Samuel Johnston rechazara el cargo, y lo ejerció del 10 de julio al 4 de noviembre de 1781; renunció al enterarse de la rendición británica en Yorktown, pero el Congreso le pidió seguir hasta que empezara la sesión siguiente. Fue también presidente de Delaware por un mes en 1777, juez supremo de Pensilvania y su segundo gobernador.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Thomas McKean",
+        "en": "Thomas McKean"
+      },
+      "wikidata": "Q880686"
+    },
+    {
+      "id": "john-hanson",
+      "nombre": "John Hanson",
+      "nacimiento": {
+        "anio": 1721,
+        "aprox": false,
+        "lugar": "Port Tobacco Village",
+        "lon": -77.02,
+        "lat": 38.51
+      },
+      "muerte": {
+        "anio": 1783,
+        "aprox": false,
+        "lugar": "Condado de Prince George",
+        "lon": -76.85,
+        "lat": 38.83
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1781,
+        "hasta": 1782,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "comerciante"
+      ],
+      "resumen": "Comerciante y político de Maryland, delegado al Congreso desde 1779; firmó los Artículos de la Confederación en 1781, cuando Maryland los ratificó, y presidió el Congreso un año a partir de noviembre de 1781. No fue el primer presidente bajo los Artículos (lo precedieron Huntington y McKean), pero algunos descendientes y biógrafos suyos afirmaron lo contrario y lo presentaron como primer presidente de los Estados Unidos, un cargo ejecutivo distinto que se creó recién en 1789.",
+      "obras": [],
+      "wikipedia": {
+        "es": "John Hanson",
+        "en": "John Hanson"
+      },
+      "wikidata": "Q711760"
+    },
+    {
+      "id": "elias-boudinot-nueva-jersey",
+      "nombre": "Elias Boudinot",
+      "nacimiento": {
+        "anio": 1740,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "muerte": {
+        "anio": 1821,
+        "aprox": false,
+        "lugar": "Burlington",
+        "lon": -74.853,
+        "lat": 40.078
+      },
+      "activo": {
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953,
+        "desde": 1782,
+        "hasta": 1783,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "abogado"
+      ],
+      "resumen": "Abogado de Nueva Jersey, comisario de prisioneros del ejército de Washington y presidente del Congreso de noviembre de 1782 a noviembre de 1783, en cuyo mandato el Congreso ratificó, el 15 de abril de 1783, los artículos preliminares de paz firmados en París el 30 de noviembre de 1782; en junio de 1783, ante el motín de Pensilvania, trasladó el Congreso a Princeton. Fue después representante (1789-1795), director de la Casa de Moneda de los Estados Unidos hasta 1805 y primer presidente de la Sociedad Bíblica Americana. El joven cherokee Gallegina Uwatie (Buck Watie), el Elias Boudinot del tratado de New Echota, adoptó su nombre.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Elias Boudinot"
+      },
+      "wikidata": "Q51753"
+    },
+    {
+      "id": "thomas-mifflin",
+      "nombre": "Thomas Mifflin",
+      "nacimiento": {
+        "anio": 1744,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "muerte": {
+        "anio": 1800,
+        "aprox": false,
+        "lugar": "Lancaster",
+        "lon": -76.304,
+        "lat": 40.04
+      },
+      "activo": {
+        "lugar": "Annapolis",
+        "lon": -76.492,
+        "lat": 38.979,
+        "desde": 1783,
+        "hasta": 1784,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "militar",
+        "comerciante"
+      ],
+      "resumen": "Comerciante de Filadelfia, ayudante de Washington, primer intendente general del Ejército Continental y mayor general. Presidió el Congreso de noviembre de 1783 a junio de 1784; en Annapolis recibió la renuncia de Washington al mando, el 23 de diciembre de 1783, y el Congreso ratificó el tratado de París el 14 de enero de 1784. Fue el último presidente de Pensilvania (1788-1790) y su primer gobernador (1790-1799).",
+      "obras": [],
+      "wikipedia": {
+        "es": "Thomas Mifflin",
+        "en": "Thomas Mifflin"
+      },
+      "wikidata": "Q142644"
+    },
+    {
+      "id": "benjamin-harrison-v",
+      "nombre": "Benjamin Harrison V",
+      "nacimiento": {
+        "anio": 1726,
+        "aprox": false,
+        "lugar": "condado de Charles City",
+        "lon": -77.06,
+        "lat": 37.35
+      },
+      "muerte": {
+        "anio": 1791,
+        "aprox": false,
+        "lugar": "condado de Charles City",
+        "lon": -77.06,
+        "lat": 37.35
+      },
+      "activo": {
+        "lugar": "Richmond",
+        "lon": -77.437,
+        "lat": 37.541,
+        "desde": 1781,
+        "hasta": 1784,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "politico"
+      ],
+      "resumen": "Plantador de Berkeley, en el condado de Charles City, durante décadas miembro de la Cámara de Burgueses, delegado al Congreso Continental, que presidió como comité del pleno en el debate final de la Declaración de Independencia, y firmante de ella. Gobernador de Virginia desde fines de 1781, un mes después de Yorktown, hasta 1784, con un tesoro vaciado por la guerra y sin recursos para operar fuera de la zona inmediata; prefirió tratar con cherokees, chickasaws y creeks antes que atacar a los pueblos del oeste, en desacuerdo con George Rogers Clark. En 1788 votó contra ratificar la Constitución por no traer declaración de derechos. Fue padre de William Henry Harrison.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Benjamin Harrison V"
+      },
+      "wikidata": "Q387664"
+    },
+    {
+      "id": "thomas-nelson-jr",
+      "nombre": "Thomas Nelson Jr.",
+      "nacimiento": {
+        "anio": 1738,
+        "aprox": false,
+        "lugar": "Yorktown",
+        "lon": -76.51,
+        "lat": 37.234
+      },
+      "muerte": {
+        "anio": 1789,
+        "aprox": false,
+        "lugar": "condado de Hanover",
+        "lon": -77.49,
+        "lat": 37.76
+      },
+      "activo": {
+        "lugar": "Yorktown",
+        "lon": -76.51,
+        "lat": 37.234,
+        "desde": 1781,
+        "hasta": 1781,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "militar"
+      ],
+      "resumen": "Plantador de Yorktown, delegado al Congreso Continental, firmante de la Declaración de Independencia y general de brigada de la milicia de Virginia. La legislatura lo eligió gobernador el 12 de junio de 1781, tras los nueve días de William Fleming, y ese año combatió en el sitio de Yorktown, donde según la tradición ofreció cinco guineas al primero que acertara a su propia casa, ocupada por Cornwallis. Murió en 1789 con las tierras dañadas por la guerra y acosado por acreedores.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Thomas Nelson Jr."
+      },
+      "wikidata": "Q880222"
+    },
+    {
+      "id": "william-fleming-virginia",
+      "nombre": "William Fleming",
+      "nacimiento": {
+        "anio": 1727,
+        "aprox": false,
+        "lugar": "Jedburgh",
+        "lon": -2.546,
+        "lat": 55.477
+      },
+      "muerte": {
+        "anio": 1795,
+        "aprox": false,
+        "lugar": "Hollins",
+        "lon": -79.953,
+        "lat": 37.34
+      },
+      "activo": {
+        "lugar": "Staunton",
+        "lon": -79.076,
+        "lat": 38.158,
+        "desde": 1781,
+        "hasta": 1781,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "medico",
+        "militar"
+      ],
+      "resumen": "Médico escocés, coronel de milicias de la frontera del suroeste de Virginia, senador y miembro del consejo del gobernador. En junio de 1781, con la invasión británica, la legislatura se reunió en Staunton cuando había vencido el mandato de Jefferson, y Fleming, miembro más antiguo del consejo presente, ejerció de gobernador sin cargo formal del 4 al 12 de junio, hasta que fue elegido Nelson: llamó a la milicia contra las fuerzas de Arnold y Tarleton y la legislatura legalizó después sus actos, por eso figura como tercer gobernador. No debe confundírselo con el juez William Fleming, delegado al Congreso Continental.",
+      "obras": [],
+      "wikipedia": {
+        "en": "William Fleming (governor)"
+      },
+      "wikidata": "Q881266"
+    },
+    {
+      "id": "david-jameson-virginia",
+      "nombre": "David Jameson",
+      "nacimiento": {
+        "anio": 1723,
+        "aprox": false,
+        "lugar": "Condado de Essex (Virginia)"
+      },
+      "muerte": {
+        "anio": 1793,
+        "aprox": false
+      },
+      "activo": {
+        "lugar": "Richmond",
+        "lon": -77.437,
+        "lat": 37.541,
+        "desde": 1781,
+        "hasta": 1781,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "comerciante"
+      ],
+      "resumen": "Comerciante e inventor de Yorktown, tesorero de la Sociedad para el Fomento del Conocimiento Útil (1773), senador de Virginia desde 1776 y consejero de Patrick Henry. En 1781 ejerció brevemente de gobernador interino durante una enfermedad de Thomas Nelson; las fechas que se le dan varían entre agosto y noviembre de ese año. Volvió al Senado en 1783.",
+      "obras": [],
+      "wikipedia": {
+        "en": "David Jameson (politician)"
+      },
+      "wikidata": "Q5235582"
+    },
+    {
+      "id": "cornelis-jacobsen-mey",
+      "nombre": "Cornelis Jacobsen Mey",
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1624,
+        "hasta": 1625,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "navegante",
+        "comerciante"
+      ],
+      "resumen": "Capitán y comerciante de pieles neerlandés, quizá de Hoorn, que entre 1614 y 1621 navegó el río Hudson y la bahía del Delaware para las compañías de los Nuevos Países Bajos y levantó el Fort Nassau del Delaware. En 1624 capitaneó el Nieu Nederlandt, que llevó a las primeras familias de colonos, en su mayoría valones, al Hudson y al Delaware, y fue el primer director de la colonia, brevemente, hasta que lo sucedió Willem Verhulst en 1625; en ese tiempo se terminó Fort Orange. Cape May, en Nueva Jersey, lleva su nombre.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Cornelius Jacobsen May",
+        "en": "Cornelius Jacobsen May"
+      },
+      "wikidata": "Q2736292"
+    },
+    {
+      "id": "philip-carteret-nueva-jersey",
+      "nombre": "Philip Carteret",
+      "nacimiento": {
+        "anio": 1639,
+        "aprox": false,
+        "lugar": "Jersey",
+        "lon": -2.11,
+        "lat": 49.19
+      },
+      "muerte": {
+        "anio": 1682,
+        "aprox": false,
+        "lugar": "Elizabeth Township",
+        "lon": -74.211,
+        "lat": 40.671
+      },
+      "activo": {
+        "lugar": "Elizabeth",
+        "lon": -74.209,
+        "lat": 40.662,
+        "desde": 1665,
+        "hasta": 1682,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador"
+      ],
+      "resumen": "Primo de sir George Carteret, uno de los dos propietarios de Nueva Jersey, que en 1665 lo nombró primer gobernador de la provincia, tomada a los neerlandeses en 1664. Eligió Elizabethtown por capital, donde se reunió la asamblea en 1668, y repartió tierras bajo las Concessions and Agreements, que garantizaban libertad de conciencia. Gobernó hasta 1673 y de nuevo Jersey Oriental desde 1674; en 1680 Edmund Andros, gobernador de Nueva York, lo hizo apresar y llevar a Nueva York, donde un jurado lo absolvió, y murió en diciembre de 1682.",
+      "obras": [],
+      "wikipedia": {
+        "en": "Philip Carteret (colonial governor)"
+      },
+      "wikidata": "Q3380923"
+    },
+    {
+      "id": "james-wilkinson",
+      "nombre": "James Wilkinson",
+      "nacimiento": {
+        "anio": 1757,
+        "aprox": false,
+        "lugar": "Benedict",
+        "lon": -76.68,
+        "lat": 38.509
+      },
+      "muerte": {
+        "anio": 1825,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 1803,
+        "hasta": 1807,
+        "aprox": false
+      },
+      "roles": [
+        "militar",
+        "gobernador",
+        "espia"
+      ],
+      "resumen": "Oficial de Maryland, general de brigada del Ejército de los Estados Unidos y su oficial de mayor rango en dos períodos: tras la muerte de Anthony Wayne, en diciembre de 1796, durante un año y medio, hasta julio de 1798, y del 15 de junio de 1800 al 27 de enero de 1812. Tomó posesión de la Luisiana con Claiborne el 20 de diciembre de 1803 y fue el primer gobernador del Territorio de Luisiana (1805-1807). Desde 1787 cobraba de España como agente secreto, «Agente 13», como mostró en 1854 la correspondencia con Miró que publicó Charles Gayarré; testificó en el juicio de Aaron Burr, y murió en Ciudad de México en 1825.",
+      "obras": [],
+      "wikipedia": {
+        "es": "James Wilkinson",
+        "en": "James Wilkinson"
+      },
+      "wikidata": "Q888614"
+    },
+    {
+      "id": "alexander-hamilton",
+      "nombre": "Alexander Hamilton",
+      "nacimiento": {
+        "anio": 1755,
+        "aprox": true,
+        "lugar": "Charlestown",
+        "lon": -62.627,
+        "lat": 17.143
+      },
+      "muerte": {
+        "anio": 1804,
+        "aprox": false,
+        "lugar": "Greenwich Village",
+        "lon": -74.003,
+        "lat": 40.734
+      },
+      "activo": {
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713,
+        "desde": 1795,
+        "hasta": 1804,
+        "aprox": false
+      },
+      "roles": [
+        "politico",
+        "militar",
+        "abogado"
+      ],
+      "resumen": "Nacido en Charlestown, en la isla de Nevis, en 1757 según él mismo o en 1755 según un documento judicial de Saint Croix de 1768 que le da 13 años, ayudante de campo de Washington, primer secretario del Tesoro (1789-1795) y fundador del Partido Federalista. En la cuasi-guerra con Francia, el presidente John Adams lo nombró en 1798 mayor general del nuevo ejército, que no llegó a combatir, y quedó como oficial de mayor rango tras la muerte de Washington, en diciembre de 1799, hasta que se licenció a mediados de 1800. Murió el 12 de julio de 1804, tras su duelo con Aaron Burr.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Alexander Hamilton",
+        "en": "Alexander Hamilton"
+      },
+      "wikidata": "Q178903"
+    },
+    {
+      "id": "francisco-luis-hector-de-carondelet",
+      "nombre": "Francisco Luis Héctor de Carondelet",
+      "nacimiento": {
+        "anio": 1748,
+        "aprox": false,
+        "lugar": "Noyelles-sur-Selle",
+        "lon": 3.387,
+        "lat": 50.286
+      },
+      "muerte": {
+        "anio": 1807,
+        "aprox": false,
+        "lugar": "Quito",
+        "lon": -78.513,
+        "lat": -0.22
+      },
+      "activo": {
+        "lugar": "Nueva Orleans",
+        "lon": -90.078,
+        "lat": 29.976,
+        "desde": 1791,
+        "hasta": 1797,
+        "aprox": false
+      },
+      "roles": [
+        "gobernador",
+        "militar"
+      ],
+      "resumen": "Barón de Carondelet, nacido en Noyelles-sur-Selle y oficial al servicio de España (jefe de división en Pensacola en 1781, intendente de San Salvador en 1789-1791). Nombrado en 1791 gobernador de Luisiana y Florida Occidental, cargo que dejó en 1797, hizo abrir el canal que lleva su nombre en Nueva Orleans y autorizó el primer periódico de Luisiana, Le Moniteur de la Louisiane, que fundó en 1794 Louis Duclot, refugiado de Saint-Domingue. Dictó un código de protección de los esclavos, preocupado por la revolución de Haití, y buscó frenar la expansión estadounidense con alianzas con pueblos indígenas, hasta el tratado de San Lorenzo de 1795. Pasó luego a presidir la Audiencia de Quito, donde murió el 10 de agosto de 1807.",
+      "obras": [],
+      "wikipedia": {
+        "es": "Francisco Luis Héctor de Carondelet",
+        "en": "Francisco Luis Héctor de Carondelet"
+      },
+      "wikidata": "Q3081883"
     }
   ],
   "hechos": [
@@ -13992,6 +14568,187 @@
       "fuentes": [],
       "wikipedia": {
         "en": "Don Luis"
+      }
+    },
+    {
+      "id": "capitulacion-de-quebec-1759",
+      "titulo": "La capitulación de Quebec",
+      "anio": 1759,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Quebec",
+      "lon": -71.224,
+      "lat": 46.816,
+      "tipo": "tratado",
+      "resumen": "El 18 de septiembre de 1759, cinco días después de la batalla de las llanuras de Abraham, el teniente del rey Jean-Baptiste Nicolas Roch de Ramezay rindió Quebec al almirante Charles Saunders y al general George Townshend. Los británicos concedieron las once condiciones que pidió: los honores de guerra, la protección de los civiles y sus bienes y el libre ejercicio de la religión católica. En abril de 1760 Lévis ganó en Sainte-Foy pero no pudo retomar la ciudad, sin apoyo naval.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Articles of Capitulation of Quebec"
+      }
+    },
+    {
+      "id": "capitulacion-de-montreal-1760",
+      "titulo": "La capitulación de Montreal",
+      "anio": 1760,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Montreal",
+      "lon": -73.587,
+      "lat": 45.503,
+      "tipo": "tratado",
+      "resumen": "El 8 de septiembre de 1760, tras dos meses de campaña, el gobernador general de Nueva Francia, el marqués de Vaudreuil, firmó con el general Jeffery Amherst, en el campamento británico ante Montreal, 55 artículos que entregaron Canadá a Gran Bretaña. Vaudreuil pidió que franceses, canadienses, acadios y pueblos indígenas tuvieran los derechos de los demás súbditos británicos; Amherst concedió la mayor parte —el libre culto católico, los bienes de los habitantes y de los señores, la amnistía para los milicianos canadienses y la posesión de esclavos negros e indígenas—, pero negó los honores de la guerra a las tropas francesas, que no podrían volver a servir en esa guerra, rechazó que el rey de Francia nombrara al obispo y que siguieran jesuitas, recoletos y sulpicianos, y sobre los acadios respondió que ya eran súbditos británicos. El artículo 40 reconoció a los pueblos indígenas aliados sus tierras y su religión, aunque no participaron en la redacción. Con ella terminaron las grandes operaciones en América del Norte.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [
+        "articulos-de-capitulacion-de-montreal"
+      ],
+      "wikipedia": {
+        "en": "Articles of Capitulation of Montreal"
+      }
+    },
+    {
+      "id": "expedicion-de-braddock",
+      "titulo": "La expedición de Braddock",
+      "anio": 1755,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Cumberland",
+      "lon": -78.765,
+      "lat": 39.651,
+      "tipo": "batalla",
+      "resumen": "Campaña británica de 1755 para tomar Fort Duquesne, en la horquilla del Ohio, al mando del general Edward Braddock, comandante en jefe en América. Salió de Fort Cumberland, Maryland, el 29 de mayo con unos 2100 hombres, entre ellos los regimientos 44.º y 48.º y tropas provinciales, y abrió por las montañas Allegheny un camino de unos 180 km, a veces a 3 km por día; Braddock solo consiguió ocho exploradores mingos y se adelantó con una columna ligera de unos 1300 hombres, dejando los bagajes a Thomas Dunbar. Franklin ayudó a reunir carros, entre cuyos carreteros estaban Daniel Boone y Daniel Morgan, y Washington lo acompañó como ayudante voluntario. Tras la derrota del 9 de julio en el Monongahela, Braddock murió el 13 en la retirada y Dunbar quemó unos 150 carros y destruyó cañones y víveres antes de retroceder; Fort Duquesne siguió francés hasta 1758.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Expedición Braddock",
+        "en": "Braddock Expedition"
+      }
+    },
+    {
+      "id": "accion-del-8-de-junio-de-1755",
+      "titulo": "La acción del 8 de junio de 1755",
+      "anio": 1755,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cabo Race",
+      "lon": -53.073,
+      "lat": 46.659,
+      "tipo": "batalla",
+      "resumen": "Con Francia y Gran Bretaña todavía en paz, tres navíos británicos del escuadrón del vicealmirante Edward Boscawen, el Dunkirk, el Defiance y el Torbay, alcanzaron frente a Terranova, al sur del cabo Race, a tres de la flota francesa de Dubois de la Motte que llevaba tropas a Canadá. Según el relato más repetido, Hocquart, del Alcide, preguntó a Richard Howe, del Dunkirk, si estaban en guerra o en paz y Howe contestó «en paz, en paz» antes de abrir fuego a tiro de pistola. El Alcide, de 64 cañones, resistió cinco horas y se rindió con el Lys, que llevaba ocho compañías de los regimientos de la Reina y de Languedoc; el Dauphin Royal escapó en la niebla. Los dos países se declararon la guerra formalmente en la primavera de 1756.",
+      "regiones": [
+        "subartico-norteamericano",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Acción del 8 de junio de 1755",
+        "en": "Action of 8 June 1755"
+      }
+    },
+    {
+      "id": "batalla-de-sabbath-day-point",
+      "titulo": "La batalla de Sabbath Day Point",
+      "anio": 1757,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Sabbath Day Point",
+      "lon": -73.514,
+      "lat": 43.668,
+      "tipo": "batalla",
+      "resumen": "El 23 de julio de 1757, en el lago George, unos 450 franceses e indígenas al mando del alférez de Corbière emboscaron a unos 350 milicianos de los Jersey Blues del coronel John Parker, que Monro había enviado en botes a reconocer desde Fort William Henry. Los franceses habían capturado antes tres botes de avanzada, y los prisioneros, interrogados por los indígenas, revelaron dónde iba a desembarcar Parker. Murieron o se ahogaron unos 160 y el resto cayó prisionero o escapó, unos 100 con Parker; los franceses declararon un solo herido leve. Dos semanas después los franceses estaban ante Fort William Henry.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of Sabbath Day Point"
+      }
+    },
+    {
+      "id": "batalla-de-las-raquetas-de-nieve",
+      "titulo": "La batalla de las raquetas de nieve",
+      "anio": 1757,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Carillon",
+      "lon": -73.388,
+      "lat": 43.842,
+      "tipo": "batalla",
+      "resumen": "El 21 de enero de 1757, cerca de Fort Carillon, una columna de Rogers' Rangers (86 hombres al salir de Fort William Henry) que volvía por el mismo camino tras capturar a siete prisioneros cayó en una emboscada de unos 90 regulares del regimiento de Languedoc, al mando del capitán de Basserode, y otros tantos milicianos canadienses e indígenas, sobre todo ottawas de Charles Michel de Langlade, según el informe de Lusignan, comandante de Carillon; Rogers los calculó en 250. Muchos mosquetes franceses fallaron por la pólvora mojada y John Stark sostuvo una línea en una loma; la lucha terminó al anochecer con bajas importantes de ambos lados. Rogers, herido dos veces, ordenó matar a los prisioneros para moverse mejor y llegó a Fort William Henry el 23 con 48 hombres sanos y seis heridos. Los franceses dijeron que las raquetas daban ventaja a los ingleses.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle on Snowshoes (1757)"
+      }
+    },
+    {
+      "id": "sitio-de-fort-niagara-1759",
+      "titulo": "El sitio de Fort Niagara",
+      "anio": 1759,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Fort Niagara",
+      "lon": -79.064,
+      "lat": 43.262,
+      "tipo": "batalla",
+      "resumen": "Del 6 al 26 de julio de 1759 un ejército británico de unos 3200 regulares y provinciales a las órdenes de John Prideaux, con varios cientos de haudenosaunee de William Johnson, sitió el fuerte francés del capitán Pierre Pouchot, parte de la campaña para quitar a Francia los Grandes Lagos y el valle del Ohio. Prideaux murió el 20 por el estallido de un proyectil de su propia artillería y Johnson asumió el mando, aunque era oficial provincial y discutió su derecho con el teniente coronel Frederick Haldimand. Derrotado el 24 el socorro francés en La Belle-Famille, Pouchot capituló el 26; los franceses quemaron entonces Fort Rouillé (Toronto) y en agosto abandonaron y quemaron los fuertes del Ohio, como Machault.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "es": "Batalla de Fort Niagara",
+        "en": "Battle of Fort Niagara"
+      }
+    },
+    {
+      "id": "batalla-de-la-belle-famille",
+      "titulo": "La batalla de La Belle-Famille",
+      "anio": 1759,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "La Belle-Famille",
+      "lon": -79.051,
+      "lat": 43.242,
+      "tipo": "batalla",
+      "resumen": "El 24 de julio de 1759, a unos tres kilómetros al sur de Fort Niagara, la fuerza de socorro de François-Marie Le Marchand de Lignery y Charles Philippe Aubry, reunida en Fort Machault con indígenas aliados, cayó en una emboscada del teniente coronel Eyre Massey, que tenía 464 regulares y atrincheró el camino. Los indígenas aliados de los británicos habían avisado a los de los franceses que permanecerían neutrales, y muchos de estos se fueron. Los británicos se levantaron y dispararon a corta distancia, cargaron a la bayoneta y los haudenosaunee persiguieron a los que huían; Lignery fue herido de muerte y Michel Maray de La Chauvignerie quedó prisionero. Pouchot capituló dos días después.",
+      "regiones": [
+        "bosques-del-noreste",
+        "norteamerica",
+        "francia",
+        "britania"
+      ],
+      "fuentes": [],
+      "wikipedia": {
+        "en": "Battle of La Belle-Famille"
       }
     }
   ],
