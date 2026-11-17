@@ -78,10 +78,11 @@ F1 abre la ayuda con todos los atajos. Con una pantalla táctil, un dedo mueve e
 
 ## Estado
 
-- **Versión publicada:** la 0.3.5. Lo táctil y los lugares de Pleiades ya están en el código y llegan con la próxima.
+- **Versión publicada:** la 0.3.6.
 - **Linux:** probada con Vulkan y con OpenGL; la prueba automática corre con cada cambio.
-- **macOS:** probada en una Mac con Intel. En Apple Silicon, la integración continua la abre y comprueba que dibuje,
-  pero todavía no se probó en una de verdad.
+- **macOS:** probada en una Mac con Intel. En cada versión, la integración continua la instala con el comando de la
+  Terminal en una Mac Intel y en una Apple Silicon; en Apple Silicon además comprueba que dibuje, pero todavía no se
+  probó en una de verdad.
 - **Windows:** el ejecutable pasa la prueba completa con wine, pero todavía no se probó en un Windows de verdad.
 - **Pantallas táctiles:** la prueba automática cubre los gestos; falta probarlas en una pantalla de verdad.
 - **La enciclopedia:** el antiguo Egipto, la Europa medieval, Tierra Santa, la Argentina, los pueblos originarios de
