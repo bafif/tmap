@@ -3844,7 +3844,10 @@
       "genero": "historia",
       "escrita": {
         "anio": 1922,
-        "aprox": true
+        "aprox": false,
+        "lugar": "Dublín",
+        "lon": -6.26,
+        "lat": 53.35
       },
       "trata": {
         "regiones": [
@@ -3854,7 +3857,7 @@
           "norteamerica"
         ],
         "desde": 1732,
-        "hasta": 1900
+        "hasta": 1922
       },
       "idioma_original": "Inglés",
       "soporte": "Libro",
@@ -5392,6 +5395,76 @@
         "en": "Articles of Capitulation of Montreal"
       },
       "confianza": "media"
+    },
+    {
+      "id": "beginnings-of-spanish-settlement-el-paso",
+      "titulo": "Los comienzos del asentamiento español en el distrito de El Paso",
+      "titulo_original": "The Beginnings of Spanish Settlement in the El Paso District",
+      "autor": "Anne E. Hughes",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1914,
+        "aprox": false,
+        "lugar": "Berkeley (California)",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "aridoamerica"
+        ],
+        "desde": 1659,
+        "hasta": 1685
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Monografía",
+      "resumen": "Estudio publicado en la serie University of California Publications in History sobre los orígenes de la presencia española en el paso del río Grande. Cuenta la fundación de la misión de Nuestra Señora de Guadalupe de los Mansos por fray García de San Francisco en 1659 y la formación del distrito hasta 1685: la llegada de los refugiados de la rebelión de los indios pueblo de 1680, el presidio de 1683, la rebelión de los mansos y los intentos de abandonar El Paso en 1684-1685.",
+      "por_que_importa": "Es un estudio clásico sobre los orígenes de El Paso del Norte.",
+      "leer": [
+        {
+          "titulo": "Edición de 1914, ejemplar de la Universidad Cornell, Internet Archive",
+          "url": "https://archive.org/details/cu31924009651187",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "articulos-de-capitulacion-de-quebec",
+      "titulo": "Artículos de capitulación de Quebec",
+      "titulo_original": "Articles of Capitulation of Quebec",
+      "autor": "Jean-Baptiste Nicolas Roch de Ramezay, Charles Saunders y George Townshend",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1759,
+        "aprox": false,
+        "lugar": "Quebec",
+        "lon": -71.224,
+        "lat": 46.816
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "francia",
+          "britania"
+        ],
+        "desde": 1759,
+        "hasta": 1759
+      },
+      "idioma_original": "Francés",
+      "soporte": "Capitulación",
+      "resumen": "Acuerdo firmado el 18 de septiembre de 1759, cinco días después de la batalla de las llanuras de Abraham, por el teniente del rey De Ramezay y los jefes británicos Saunders y Townshend. Los británicos aceptaron las once condiciones que pidió el francés, entre ellas los honores de guerra, la protección de los civiles y de sus bienes y el libre ejercicio de la religión católica.",
+      "por_que_importa": "Es el documento que entregó Quebec a los británicos, con garantías para los civiles, sus bienes y el culto católico; Montreal capituló casi un año después, el 8 de septiembre de 1760.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Articles of Capitulation of Quebec"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -14544,7 +14617,9 @@
       "regiones": [
         "aridoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "beginnings-of-spanish-settlement-el-paso"
+      ],
       "wikipedia": {
         "es": "Ciudad Juárez",
         "en": "Ciudad Juárez"
@@ -14565,7 +14640,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "misiones-jesuitas-en-virginia-lewis-loomis"
+      ],
       "wikipedia": {
         "en": "Don Luis"
       }
@@ -14587,7 +14664,9 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "articulos-de-capitulacion-de-quebec"
+      ],
       "wikipedia": {
         "en": "Articles of Capitulation of Quebec"
       }
@@ -14633,7 +14712,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "parkman-montcalm-wolfe",
+        "papeles-de-washington-serie-colonial"
+      ],
       "wikipedia": {
         "es": "Expedición Braddock",
         "en": "Braddock Expedition"
@@ -14656,7 +14738,10 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "anderson-crucible-of-war",
+        "parkman-montcalm-wolfe"
+      ],
       "wikipedia": {
         "es": "Acción del 8 de junio de 1755",
         "en": "Action of 8 June 1755"
@@ -14679,7 +14764,9 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "parkman-montcalm-wolfe"
+      ],
       "wikipedia": {
         "en": "Battle of Sabbath Day Point"
       }
@@ -14701,7 +14788,9 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "parkman-montcalm-wolfe"
+      ],
       "wikipedia": {
         "en": "Battle on Snowshoes (1757)"
       }
@@ -14723,7 +14812,9 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "parkman-montcalm-wolfe"
+      ],
       "wikipedia": {
         "es": "Batalla de Fort Niagara",
         "en": "Battle of Fort Niagara"
@@ -14746,7 +14837,9 @@
         "francia",
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "parkman-montcalm-wolfe"
+      ],
       "wikipedia": {
         "en": "Battle of La Belle-Famille"
       }

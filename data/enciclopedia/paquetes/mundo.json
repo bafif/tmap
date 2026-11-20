@@ -9921,6 +9921,77 @@
       "por_que_importa": "Es el estudio que cambia la fecha de la destrucción de Gordion y obliga a revisar la tradición sobre Midas.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "snodgrass-archaic-greece",
+      "titulo": "Grecia arcaica: la era del experimento",
+      "titulo_original": "Archaic Greece: The Age of Experiment",
+      "autor": "Anthony M. Snodgrass",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "grecia",
+          "anatolia",
+          "italia"
+        ],
+        "desde": -800,
+        "hasta": -480
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del período arcaico griego por un arqueólogo de la Universidad de Cambridge, que lo trata desde la arqueología más que desde las fuentes escritas. Estudia el aumento de la población, el nacimiento de las póleis, la colonización del Mediterráneo y del mar Negro, el comercio y los cambios en el arte y en las armas.",
+      "por_que_importa": "Es una obra de síntesis del período; su tesis de un aumento brusco de la población en el siglo VIII a. C. fue discutida.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "definicion-de-calcedonia",
+      "titulo": "Definición de fe de Calcedonia",
+      "titulo_original": null,
+      "autor": "Concilio de Calcedonia (cuarto concilio ecuménico)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "religioso",
+      "escrita": {
+        "anio": 451,
+        "aprox": false,
+        "lugar": "Calcedonia",
+        "lon": 29.033,
+        "lat": 40.983
+      },
+      "trata": {
+        "regiones": [
+          "anatolia"
+        ],
+        "desde": 451,
+        "hasta": 451
+      },
+      "idioma_original": "Griego",
+      "soporte": "Definición",
+      "resumen": "Texto aprobado por los obispos reunidos en Calcedonia en octubre de 451 que reafirma el credo de Nicea y el de Constantinopla, recoge la doctrina de Éfeso y el Tomo de León I y declara que Cristo es una sola persona en dos naturalezas, divina y humana, sin mezcla ni división.",
+      "por_que_importa": "Es el texto doctrinal del concilio; las Iglesias orientales no calcedonianas lo rechazaron y se separaron de la Iglesia imperial.",
+      "leer": [
+        {
+          "titulo": "Definición en traducción inglesa, en el Medieval Sourcebook de Fordham",
+          "url": "https://sourcebooks.fordham.edu/basis/chalcedon.asp",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "Definición de Calcedonia",
+        "en": "Chalcedonian Definition"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -14590,7 +14661,9 @@
         "anatolia",
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "snodgrass-archaic-greece"
+      ],
       "wikipedia": {
         "es": "Época arcaica",
         "en": "Archaic Greece"
@@ -14634,10 +14707,34 @@
       "regiones": [
         "anatolia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "definicion-de-calcedonia"
+      ],
       "wikipedia": {
         "es": "Concilio de Calcedonia",
         "en": "Council of Chalcedon"
+      }
+    },
+    {
+      "id": "segundo-concilio-de-nicea",
+      "titulo": "Segundo Concilio de Nicea",
+      "anio": 787,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Nicea (İznik)",
+      "lon": 29.719,
+      "lat": 40.429,
+      "tipo": "religioso",
+      "resumen": "Reunido en 787 en Nicea (hoy İznik), restableció el culto de los íconos que el emperador León III y Constantino V habían suprimido. Estableció que se debía a los íconos una veneración honoraria y que solo Dios merece adoración. Para las Iglesias ortodoxa y católica es el último de los siete primeros concilios ecuménicos.",
+      "regiones": [
+        "anatolia"
+      ],
+      "fuentes": [
+        "cronografia-de-teofanes"
+      ],
+      "wikipedia": {
+        "es": "Concilio de Nicea II",
+        "en": "Second Council of Nicaea"
       }
     }
   ],

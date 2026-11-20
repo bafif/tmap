@@ -1599,6 +1599,35 @@
       "por_que_importa": "Es el primer estudio arqueológico extenso de la costa de Manabí.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "ecuador-meggers",
+      "titulo": "Ecuador",
+      "titulo_original": "Ecuador",
+      "autor": "Betty Meggers",
+      "autor_id": "betty-meggers",
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1966,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": -3500,
+        "hasta": 1532
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Síntesis de la prehistoria de Ecuador, de la serie Ancient Peoples and Places, escrita por la arqueóloga que excavó en la costa del país en los años cincuenta y sesenta. Ordena la secuencia de culturas desde Valdivia y Machalilla hasta la conquista incaica, con las del Formativo tardío y del Desarrollo regional, como Chorrera, Bahía y La Tolita.",
+      "por_que_importa": "Es el panorama de referencia de su época sobre las culturas de la costa ecuatoriana; sus fechas se revisaron después con dataciones nuevas.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4382,7 +4411,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ecuador-meggers"
+      ],
       "wikipedia": {
         "es": "Cultura chorrera",
         "en": "Chorrera culture"
@@ -4402,7 +4433,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ecuador-meggers"
+      ],
       "wikipedia": {
         "es": "Cultura tumaco-la tolita",
         "en": "Tumaco-La Tolita culture"
@@ -4422,7 +4455,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ecuador-meggers"
+      ],
       "wikipedia": {
         "es": "Cultura Bahía",
         "en": "Bahía culture"

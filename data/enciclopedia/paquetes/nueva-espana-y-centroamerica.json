@@ -2868,6 +2868,35 @@
       "por_que_importa": "Es el estudio de referencia sobre la consolidación en México.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "race-class-and-politics-israel",
+      "titulo": "Raza, clase y política en el México colonial, 1610-1670",
+      "titulo_original": "Race, Class and Politics in Colonial Mexico, 1610-1670",
+      "autor": "Jonathan I. Israel",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1610,
+        "hasta": 1670
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la sociedad y la política de la Nueva España en el siglo XVII, publicado por Oxford University Press. Trata las tensiones entre criollos, peninsulares y castas, la política de los virreyes y el choque de 1624 entre el virrey marqués de Gelves y el arzobispo Pérez de la Serna, que terminó en el tumulto de enero y la caída del virrey.",
+      "por_que_importa": "Es un estudio de referencia en inglés sobre la sociedad y la política novohispanas del período, que incluye la crisis de 1624.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -9597,7 +9626,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "race-class-and-politics-israel"
+      ]
     }
   ],
   "lugares": [

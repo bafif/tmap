@@ -6959,6 +6959,76 @@
       "por_que_importa": "Reúne la documentación del proceso.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "nyrb-numero-1-1963",
+      "titulo": "The New York Review of Books, vol. 1, n.º 1 (1 de febrero de 1963)",
+      "titulo_original": "The New York Review of Books, vol. 1, no. 1",
+      "autor": "Robert B. Silvers y Barbara Epstein (editores)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1963,
+        "hasta": 1963
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Revista",
+      "resumen": "Primer número de la revista, armado durante la huelga de los diarios de Nueva York de 1962-1963 por sus editores, con Elizabeth Hardwick, Jason Epstein y Robert Lowell como impulsores. Reúne reseñas y ensayos sobre libros de escritores y académicos de renombre.",
+      "por_que_importa": "Es el documento que da testimonio del nacimiento de la revista.",
+      "leer": [
+        {
+          "titulo": "Índice del número en el sitio de la revista",
+          "url": "https://www.nybooks.com/issues/1963/02/01/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "The New York Review of Books",
+        "en": "The New York Review of Books"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "scammell-solzhenitsyn-1984",
+      "titulo": "Solzhenitsyn: una biografía",
+      "titulo_original": "Solzhenitsyn: A Biography",
+      "autor": "Michael Scammell",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1984,
+        "aprox": false,
+        "lugar": "Nueva York",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "rus",
+          "bosques-del-noreste"
+        ],
+        "desde": 1918,
+        "hasta": 1984
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía de Aleksandr Solzhenitsyn escrita por un traductor y crítico literario, desde su infancia y su paso por el Gulag hasta su expulsión de la Unión Soviética en 1974 y su vida en el exilio, incluidos los años en Zúrich y en Cavendish, en Vermont.",
+      "por_que_importa": "Es una biografía publicada cuando el escritor vivía en Vermont, por lo que no cubre sus últimos años ni su regreso a Rusia en 1994.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -10163,7 +10233,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "nyrb-numero-1-1963"
+      ],
       "wikipedia": {
         "es": "The New York Review of Books",
         "en": "The New York Review of Books"
@@ -10184,7 +10256,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "scammell-solzhenitsyn-1984"
+      ],
       "wikipedia": {
         "es": "Aleksandr Solzhenitsyn",
         "en": "Aleksandr Solzhenitsyn"

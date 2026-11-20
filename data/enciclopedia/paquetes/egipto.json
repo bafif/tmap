@@ -2896,6 +2896,73 @@
       "por_que_importa": "Es la narración de primera mano del hallazgo.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "bietak-avaris-1996",
+      "titulo": "Avaris, la capital de los hicsos: excavaciones recientes en Tell el-Daba",
+      "titulo_original": "Avaris: The Capital of the Hyksos. Recent Excavations at Tell el-Dab'a",
+      "autor": "Manfred Bietak",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1996,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "bajo-egipto",
+          "egipto"
+        ],
+        "desde": -1990,
+        "hasta": -1550
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Exposición del arqueólogo austríaco que excavó Tell el-Daba, el sitio de Avaris, en el delta oriental. Describe los asentamientos del Reino Medio, con inmigrantes asiáticos instalados desde la dinastía XII, y el crecimiento de la ciudad hasta ser la capital de los hicsos.",
+      "por_que_importa": "Es la presentación del excavador sobre el origen y el carácter de Avaris; su tesis de un origen del norte del Levante para los hicsos es la más aceptada, aunque hay quienes la discuten.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "contra-flaco-filon",
+      "titulo": "Contra Flaco",
+      "titulo_original": "In Flaccum",
+      "autor": "Filón de Alejandría",
+      "autor_id": "filon",
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 40,
+        "aprox": true,
+        "lugar": "Alejandría",
+        "lon": 29.918,
+        "lat": 31.2
+      },
+      "trata": {
+        "regiones": [
+          "bajo-egipto",
+          "egipto"
+        ],
+        "desde": 32,
+        "hasta": 39
+      },
+      "idioma_original": "Griego",
+      "soporte": "Tratado",
+      "resumen": "Relato de Filón de Alejandría sobre los ataques contra los judíos de su ciudad en el año 38 y sobre la caída del prefecto Aulo Avilio Flaco. Cuenta que Flaco dejó que una turba pusiera estatuas del emperador Calígula en las sinagogas y declaró extranjeros a los judíos, que fueron confinados en un solo barrio. Filón cuenta luego el arresto y el destierro de Flaco.",
+      "por_que_importa": "Es el relato de un testigo y miembro de la comunidad atacada; es parcial a favor de los judíos, y es la fuente principal del hecho; Flavio Josefo lo menciona solo de pasada.",
+      "leer": [
+        {
+          "titulo": "Traducción de Yonge en Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_Philo_Judaeus/Volume_4/Against_Flaccus",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -4258,7 +4325,9 @@
         "bajo-egipto",
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bietak-avaris-1996"
+      ],
       "wikipedia": {
         "es": "Avaris",
         "en": "Avaris"
@@ -4349,7 +4418,9 @@
         "bajo-egipto",
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "contra-flaco-filon"
+      ],
       "wikipedia": {
         "en": "Alexandrian riots (38 CE)"
       }
@@ -4392,7 +4463,9 @@
         "bajo-egipto",
         "egipto"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bada-i-al-zuhur-ibn-iyas"
+      ],
       "wikipedia": {
         "es": "Batalla de Ridaniya",
         "en": "Battle of Ridaniya"
@@ -4502,6 +4575,75 @@
       "wikipedia": {
         "es": "Periodo tardío de Egipto",
         "en": "Late Period of Egypt"
+      }
+    },
+    {
+      "id": "templo-funerario-de-hatshepsut",
+      "titulo": "Templo funerario de Hatshepsut en Deir el-Bahari",
+      "anio": -1465,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Deir el-Bahari (Tebas)",
+      "lon": 32.607,
+      "lat": 25.738,
+      "tipo": "construccion",
+      "resumen": "Frente a Tebas, en Deir el-Bahari, se construyó entre los años séptimo y vigésimo del reinado de Hatshepsut un templo funerario en tres terrazas, contra el acantilado. Sus relieves incluyen la expedición a Punt, y después de su muerte se borraron en él las referencias a su reinado.",
+      "regiones": [
+        "alto-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Templo funerario de Hatshepsut",
+        "en": "Mortuary temple of Hatshepsut"
+      }
+    },
+    {
+      "id": "entierro-de-tutankamon",
+      "titulo": "Entierro de Tutankamón en el Valle de los Reyes",
+      "anio": -1323,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Valle de los Reyes (Tebas)",
+      "lon": 32.601,
+      "lat": 25.74,
+      "tipo": "cultural",
+      "resumen": "Tutankamón, que reinó hacia 1332-1323 a. C., fue enterrado en la tumba KV62 del Valle de los Reyes, pequeña y poco decorada, que parece haberse hecho en un origen para un personaje no real. Su ajuar intacto, hallado por Howard Carter en 1922, es el testimonio de ese entierro.",
+      "regiones": [
+        "alto-egipto",
+        "egipto"
+      ],
+      "fuentes": [
+        "the-tomb-of-tut-ankh-amen"
+      ],
+      "wikipedia": {
+        "es": "KV62",
+        "en": "Tomb of Tutankhamun"
+      }
+    },
+    {
+      "id": "templos-de-abu-simbel",
+      "titulo": "Templos de Abu Simbel",
+      "anio": -1264,
+      "anio_hasta": -1244,
+      "aprox": false,
+      "lugar": "Abu Simbel",
+      "lon": 31.626,
+      "lat": 22.337,
+      "tipo": "construccion",
+      "resumen": "Ramsés II mandó tallar en la roca, en el siglo XIII a. C., los dos templos de Abu Simbel, en la Baja Nubia, entonces dominada por Egipto (hoy cerca de la frontera con Sudán), con colosos de él y de su esposa Nefertari. En el templo mayor hay relieves de la batalla de Qadesh.",
+      "regiones": [
+        "nubia",
+        "egipto"
+      ],
+      "fuentes": [
+        "ancient-records-of-egypt"
+      ],
+      "wikipedia": {
+        "es": "Abu Simbel",
+        "en": "Abu Simbel"
       }
     }
   ],

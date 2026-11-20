@@ -1657,6 +1657,635 @@
       "por_que_importa": "Es el trabajo de referencia sobre los alemanes en la conquista de Venezuela, basado en documentos y no en la tradición de los cronistas.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "real-cedula-de-1777-capitania-general-de-venezuela",
+      "titulo": "Real cédula de erección de la Capitanía General de Venezuela (8 de septiembre de 1777)",
+      "titulo_original": null,
+      "autor": "Carlos III de España",
+      "autor_id": "carlos-iii",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1777,
+        "aprox": false,
+        "lugar": "Real Sitio de San Ildefonso",
+        "lon": -4.005,
+        "lat": 40.901
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1777,
+        "hasta": 1777
+      },
+      "idioma_original": "Español",
+      "soporte": "Real cédula",
+      "resumen": "Real cédula de Carlos III que, a pedido del virrey de Nueva Granada y de los gobernadores de Guayana y Maracaibo, pone bajo un solo capitán general residente en Caracas las provincias de Venezuela, Cumaná, Guayana, Maracaibo y las islas de Margarita y Trinidad, que ya compartían intendencia desde 1776. Fija así la jurisdicción militar y de gobierno de lo que sería Venezuela.",
+      "por_que_importa": "Es el documento que crea la unidad administrativa de la que sale la Venezuela independiente.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Real_C%C3%A9dula_de_1777",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-revolucion-colombia-restrepo",
+      "titulo": "Historia de la revolución de la República de Colombia en la América meridional",
+      "titulo_original": null,
+      "autor": "José Manuel Restrepo Vélez",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1858,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "andes"
+        ],
+        "desde": 1810,
+        "hasta": 1830
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la independencia de Colombia escrita por un ministro de Bolívar, que cuenta las campañas, la política y las constituciones de Nueva Granada y Venezuela, desde 1810 hasta la disolución de la República en 1830. La edición de Besanzón (1858) corrige y amplía la de París (1827), con documentos y partes de batalla.",
+      "por_que_importa": "Es una de las crónicas de conjunto más usadas de la independencia, escrita por quien intervino en el gobierno; su mirada es la de la élite granadina y conviene cotejarla con los otros protagonistas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-provincia-de-san-antonino",
+      "titulo": "Historia de la provincia de San Antonino del Nuevo Reino de Granada",
+      "titulo_original": null,
+      "autor": "Alonso de Zamora",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1701,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1529,
+        "hasta": 1700
+      },
+      "idioma_original": "Español",
+      "soporte": "Crónica",
+      "resumen": "Crónica de la provincia dominica del Nuevo Reino de Granada, impresa en Barcelona en 1701, escrita por un fraile que vivió en Santafé. Cuenta la llegada de los dominicos, las vidas de prelados dominicos, como fray Cristóbal de Torres, la fundación de conventos, estudios y colegios y las misiones.",
+      "por_que_importa": "Es la historia más antigua de los dominicos neogranadinos y la fuente principal sobre sus fundaciones en Santafé; refleja la visión de la orden.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-provincia-nuevo-reino-y-quito-mercado",
+      "titulo": "Historia de la provincia del Nuevo Reino y Quito de la Compañía de Jesús",
+      "titulo_original": null,
+      "autor": "Pedro de Mercado",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1684,
+        "aprox": true,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1568,
+        "hasta": 1684
+      },
+      "idioma_original": "Español",
+      "soporte": "Crónica",
+      "resumen": "Historia de los jesuitas en el Nuevo Reino de Granada y en Quito, escrita en Santafé a fines del siglo XVII por un miembro de la Compañía y publicada en el siglo XX. Cuenta su llegada en 1604, los colegios de San Bartolomé y la Academia Javeriana, las misiones de los Llanos y la vida de sus misioneros.",
+      "por_que_importa": "Es la fuente principal sobre los orígenes de la Javeriana y de los colegios jesuitas neogranadinos, vistos por un miembro de la orden.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "bibliografia-bogotana-posada",
+      "titulo": "Bibliografía bogotana",
+      "titulo_original": null,
+      "autor": "Eduardo Posada",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1917,
+        "anio_hasta": 1925,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1738,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Catálogo comentado de los impresos de Bogotá, ordenado por años desde el primero conocido, de 1738, con noticias sobre las imprentas de Santafé, sus impresores y sus obras, y sobre los periódicos y papeles sueltos de la época colonial y de la independencia.",
+      "por_que_importa": "Es la obra de referencia sobre la historia de la imprenta en Bogotá; estableció cuál fue el primer impreso de la ciudad.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-biblioteca-nacional-de-colombia",
+      "titulo": "Historia de la Biblioteca Nacional de Colombia",
+      "titulo_original": null,
+      "autor": "Guillermo Hernández de Alba y Juan Carrasquilla Botero",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1767,
+        "hasta": 1977
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la Biblioteca Nacional de Colombia desde su origen en la Real Biblioteca Pública de Santafé, formada con los libros de los jesuitas expulsados y abierta en 1777 por iniciativa del fiscal Francisco Antonio Moreno y Escandón, hasta el siglo XX. Edita documentos de su fundación y de sus bibliotecarios.",
+      "por_que_importa": "Es el estudio de referencia sobre el nacimiento de la biblioteca pública de Santafé y sus primeros años.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-ucv-leal",
+      "titulo": "Historia de la UCV (1721-1981)",
+      "titulo_original": null,
+      "autor": "Ildefonso Leal",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1981,
+        "aprox": false,
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1721,
+        "hasta": 1981
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la Universidad Central de Venezuela, desde la real cédula de Felipe V de 1721 que elevó a universidad el seminario de Santa Rosa de Caracas, con su confirmación papal de 1722 y la apertura de cursos en 1725, hasta el siglo XX. Trata sus estatutos, rectores, cátedras y sedes.",
+      "por_que_importa": "Es la historia institucional de referencia de la universidad más antigua de Venezuela, escrita por un historiador de la propia casa.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "the-caracas-company-hussey",
+      "titulo": "La Compañía de Caracas, 1728-1784: un estudio de la historia del comercio monopólico español",
+      "titulo_original": "The Caracas Company, 1728-1784: A Study in the History of Spanish Monopolistic Trade",
+      "autor": "Roland Dennis Hussey",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1934,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "iberia"
+        ],
+        "desde": 1728,
+        "hasta": 1784
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de la Real Compañía Guipuzcoana de Caracas, su monopolio del comercio del cacao venezolano, su lucha contra el contrabando holandés, las quejas de los cosecheros criollos y el levantamiento de Juan Francisco de León de 1749, hasta su disolución. Se basa en los archivos de la compañía.",
+      "por_que_importa": "Es la monografía clásica en inglés sobre la compañía y sigue siendo el punto de partida para estudiarla.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-del-tribunal-de-cartagena-medina",
+      "titulo": "Historia del Tribunal del Santo Oficio de la Inquisición de Cartagena de las Indias",
+      "titulo_original": null,
+      "autor": "José Toribio Medina",
+      "autor_id": "jose-toribio-medina",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1899,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "caribe"
+        ],
+        "desde": 1610,
+        "hasta": 1821
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia del tribunal de la Inquisición de Cartagena, fundado en 1610, hecha sobre los procesos y papeles del Santo Oficio: sus inquisidores, sus competencias sobre el Nuevo Reino, Venezuela, Panamá y las Antillas y los procesos por blasfemia, hechicería, bigamia y judaísmo, con relatos de los autos de fe.",
+      "por_que_importa": "Es un estudio extenso del tribunal de Cartagena, basado en su documentación, y sigue citándose.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "maroon-societies-price",
+      "titulo": "Sociedades cimarronas: comunidades de esclavos rebeldes en las Américas",
+      "titulo_original": "Maroon Societies: Rebel Slave Communities in the Americas",
+      "autor": "Richard Price (editor)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1973,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "caribe",
+          "brasil"
+        ],
+        "desde": 1500,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Colección de estudios sobre comunidades de esclavizados fugitivos en Jamaica, Surinam, Brasil, Colombia, Cuba, Haití, México y otros lugares, con un capítulo sobre los palenques de Colombia. Reúne también documentos de época sobre los cimarrones y una introducción comparativa del editor. Incluye el estudio de Robert K. Kent sobre Palmares, en el Brasil (uno de los más citados sobre el quilombo), y el capítulo sobre Colombia, de Aquiles Escalante.",
+      "por_que_importa": "Fue la primera obra comparada sobre el cimarronaje americano y sigue siendo el punto de partida de la bibliografía.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "relation-de-lexpedition-de-carthagene-pointis",
+      "titulo": "Relación de la expedición de Cartagena hecha por los franceses en 1697",
+      "titulo_original": "Relation de l'expédition de Carthagène faite par les François en 1697",
+      "autor": "Bernard Desjean, barón de Pointis",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1698,
+        "aprox": false,
+        "lugar": "Ámsterdam",
+        "lon": 4.883,
+        "lat": 52.367
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "caribe"
+        ],
+        "desde": 1697,
+        "hasta": 1697
+      },
+      "idioma_original": "Francés",
+      "soporte": "Relación",
+      "resumen": "Relato del jefe de la escuadra francesa que tomó Cartagena de Indias en abril y mayo de 1697, publicado en Ámsterdam al año siguiente. Cuenta la travesía, el desembarco, el asedio de los fuertes, el botín y la ruptura con los bucaneros de Saint-Domingue. Su versión, favorable a Pointis, fue rebatida por los bucaneros y por sus propios oficiales.",
+      "por_que_importa": "Es el testimonio del jefe de la expedición y la base de casi todos los relatos del saqueo; hay que leerlo junto a las críticas que recibió.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "summarie-and-true-discourse-drake",
+      "titulo": "Resumen y verdadero discurso del viaje de sir Francis Drake a las Indias Occidentales",
+      "titulo_original": "A Summarie and True Discourse of Sir Francis Drakes West Indian Voyage",
+      "autor": "Walter Bigges y el teniente Croftes",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1589,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "caribe"
+        ],
+        "desde": 1585,
+        "hasta": 1586
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Relación",
+      "resumen": "Relato impreso en 1589 por Thomas Cates, comenzado por el capitán Walter Bigges, que murió en el viaje después de Cartagena, y terminado probablemente por su teniente Croftes. Cuenta la expedición de Drake de 1585-1586: la toma de Santiago de Cabo Verde, de Santo Domingo y de Cartagena de Indias, el rescate que se cobró y la incursión en San Agustín de la Florida.",
+      "por_que_importa": "Es el relato inglés de los hechos, basado en testigos de la expedición; hay que cotejarlo con las fuentes españolas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "blood-on-the-river-kars",
+      "titulo": "Sangre en el río: una crónica de motín y libertad en la costa salvaje",
+      "titulo_original": "Blood on the River: A Chronicle of Mutiny and Freedom on the Wild Coast",
+      "autor": "Marjoleine Kars",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1763,
+        "hasta": 1764
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la rebelión de los esclavizados de la colonia holandesa de Berbice en 1763-1764, con Coffy como gobernador de los rebeldes, hecha con las cartas de los colonos y los interrogatorios de los prisioneros. Trata los aliados y enemigos amerindios, la correspondencia entre Coffy y el gobernador Van Hoogenheim y la llegada de refuerzos de Surinam y de las islas vecinas.",
+      "por_que_importa": "Es un estudio reciente de la rebelión, que usa las voces de los esclavizados registradas en los interrogatorios.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "kourou-ultime-combat-godfroy",
+      "titulo": "Kourou o el último combate de la monarquía por una América francesa: estudio de una empresa colonial en el siglo de las Luces, 1763-1781",
+      "titulo_original": "Kourou ou l'ultime combat de la monarchie pour une Amérique française: étude d'une entreprise coloniale au siècle des Lumières, 1763-1781",
+      "autor": "Marion F. Godfroy-Tayart de Borms",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "París",
+        "lon": 2.352,
+        "lat": 48.857
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "francia"
+        ],
+        "desde": 1763,
+        "hasta": 1781
+      },
+      "idioma_original": "Francés",
+      "soporte": "Tesis doctoral",
+      "resumen": "Tesis doctoral de la Escuela de Altos Estudios en Ciencias Sociales sobre la expedición de colonización de Kourou, en la Guayana, que Francia organizó desde 1763 con colonos alsacianos y alemanes y que terminó en una mortandad por enfermedades y falta de preparación. Estudia las decisiones del ministro Choiseul, la administración de la colonia y sus consecuencias hasta 1781.",
+      "por_que_importa": "Es un estudio académico extenso de la expedición de Kourou y de sus causas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mestizaje-comercio-y-resistencia-barrera",
+      "titulo": "Mestizaje, comercio y resistencia: la Guajira durante la segunda mitad del siglo XVIII",
+      "titulo_original": null,
+      "autor": "Eduardo Barrera Monroy",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1750,
+        "hasta": 1800
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de la Guajira en la segunda mitad del siglo XVIII: el comercio de los wayuu con holandeses e ingleses, el mestizaje, las misiones capuchinas y la gran rebelión de 1769, con sus causas, sus protagonistas indígenas y españoles y sus consecuencias. Usa documentos de los archivos de Colombia, España y Venezuela.",
+      "por_que_importa": "Es el estudio de referencia sobre la rebelión guajira de 1769 y sobre la autonomía wayuu en el siglo XVIII.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "las-insurrecciones-de-los-esclavos-negros-brito",
+      "titulo": "Las insurrecciones de los esclavos negros en la sociedad colonial venezolana",
+      "titulo_original": null,
+      "autor": "Federico Brito Figueroa",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1550,
+        "hasta": 1812
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de las rebeliones de esclavizados, cimarrones y pardos en la Venezuela colonial, entre ellas la insurrección de Coro de 1795 con José Leonardo Chirino. Trata las causas económicas y sociales de cada alzamiento y la represión que siguió.",
+      "por_que_importa": "Es una obra pionera de la historia social venezolana, escrita desde una perspectiva marxista que conviene tener presente.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "luces-revolucionarias-michelena",
+      "titulo": "Luces revolucionarias: de la rebelión de Madrid (1795) a la rebelión de La Guaira (1797)",
+      "titulo_original": null,
+      "autor": "Carmen L. Michelena (editora)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "iberia"
+        ],
+        "desde": 1795,
+        "hasta": 1799
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Edición de los papeles de la conspiración de Gual y España de 1797 en La Guaira, con un estudio de la editora sobre su relación con la conspiración republicana de San Blas en Madrid (1795) y con el preso Juan Bautista Picornell. Analiza sus ideas, su programa de igualdad entre blancos, indios y pardos y la represión.",
+      "por_que_importa": "Sitúa la conspiración venezolana en las redes políticas del mundo hispánico y de la Revolución francesa.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "oda-a-la-vacuna-bello",
+      "titulo": "Oda a la vacuna",
+      "titulo_original": null,
+      "autor": "Andrés Bello",
+      "autor_id": "andres-bello",
+      "tipo": "primaria",
+      "genero": "poesia",
+      "escrita": {
+        "anio": 1804,
+        "aprox": false,
+        "lugar": "Santiago de León de Caracas",
+        "lon": -66.914,
+        "lat": 10.506
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1804,
+        "hasta": 1804
+      },
+      "idioma_original": "Español",
+      "soporte": "Poema",
+      "resumen": "Poema de Andrés Bello, escrito en Caracas en 1804, que celebra a Jenner y a la expedición de Balmis, llegada a Puerto Cabello en marzo de ese año y establecida en Caracas con una junta encargada de conservar la vacuna. Es uno de los primeros poemas del autor.",
+      "por_que_importa": "Es el testimonio literario de la llegada de la vacuna contra la viruela a Venezuela.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "francisco-de-miranda-racine",
+      "titulo": "Francisco de Miranda: una vida transatlántica en la era de las revoluciones",
+      "titulo_original": "Francisco de Miranda: A Transatlantic Life in the Age of Revolution",
+      "autor": "Karen Racine",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Wilmington (Delaware)",
+        "lon": -75.551,
+        "lat": 39.748
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica",
+          "caribe",
+          "norteamerica"
+        ],
+        "desde": 1750,
+        "hasta": 1816
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía de Francisco de Miranda, con su vida en Europa, su participación en las revoluciones norteamericana y francesa y la expedición de 1806 a Venezuela con barcos fletados en Nueva York: el fracaso frente a Ocumare, la ejecución de diez de sus hombres y el desembarco en Coro. Usa el archivo de Miranda.",
+      "por_que_importa": "Es una biografía de Miranda en inglés que usa su archivo y que citan los estudios recientes.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "el-tesoro-de-los-quimbayas-gamboa",
+      "titulo": "El tesoro de los quimbayas: historia, identidad y patrimonio",
+      "titulo_original": null,
+      "autor": "Pablo Gamboa Hinestrosa",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Santafé de Bogotá",
+        "lon": -74.082,
+        "lat": 4.61
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1890,
+        "hasta": 2002
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia del tesoro quimbaya, desde su hallazgo por guaqueros en el Quindío hacia 1890, la compra por el gobierno de Carlos Holguín y su regalo a la reina regente de España en 1893, hasta su exhibición en el Museo de América de Madrid y los reclamos de devolución. Trata también qué significó para la identidad colombiana.",
+      "por_que_importa": "Es el estudio de referencia sobre la historia del hallazgo y del destino de las piezas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "war-and-trade-in-the-west-indies-pares",
+      "titulo": "Guerra y comercio en las Indias Occidentales, 1739-1763",
+      "titulo_original": "War and Trade in the West Indies 1739-1763",
+      "autor": "Richard Pares",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1936,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1739,
+        "hasta": 1763
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la guerra del Asiento y de la guerra de Sucesión de Austria en el Caribe, con el comercio, el corso y las operaciones navales. Dedica capítulos a la expedición del almirante Vernon contra Cartagena de Indias en 1741 y a su fracaso.",
+      "por_que_importa": "Es el estudio clásico de las guerras de mediados del siglo XVIII en el Caribe.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3771,7 +4400,8 @@
       ],
       "resumen": "Humanista nacido en Caracas, funcionario de la Capitanía General desde 1802. Tras el 19 de abril de 1810 la Junta de Caracas lo nombró oficial primero de su secretaría de Relaciones Exteriores y lo envió a Londres con Bolívar y López Méndez; vivió allí hasta 1829, trabajó como secretario de la legación de Chile (desde 1822) y de la de Colombia (desde 1825), y publicó la «Alocución a la poesía» (1823) y la «Silva a la agricultura de la zona tórrida» (1826). En 1829 se mudó a Chile.",
       "obras": [
-        "discurso-de-bello-universidad-de-chile"
+        "discurso-de-bello-universidad-de-chile",
+        "oda-a-la-vacuna-bello"
       ],
       "wikipedia": {
         "es": "Andrés Bello",
@@ -5487,7 +6117,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-tesoro-de-los-quimbayas-gamboa"
+      ],
       "wikipedia": {
         "es": "Tesoro de los Quimbayas"
       }
@@ -5668,7 +6300,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "noticias-historiales-simon"
+      ],
       "wikipedia": {
         "es": "Timoto-cuicas",
         "en": "Timoto–Cuica people"
@@ -5712,7 +6346,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mestizaje-comercio-y-resistencia-barrera"
+      ],
       "wikipedia": {
         "es": "Pueblo wayú",
         "en": "Wayuu people"
@@ -5732,7 +6368,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mestizaje-comercio-y-resistencia-barrera"
+      ],
       "wikipedia": {
         "es": "Rebelión guajira de 1769"
       }
@@ -5773,7 +6411,10 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-las-indias-las-casas",
+        "mapa-de-juan-de-la-cosa"
+      ]
     },
     {
       "id": "viaje-de-bastidas",
@@ -5789,7 +6430,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-las-indias-las-casas"
+      ]
     },
     {
       "id": "gobernacion-de-ojeda-y-uraba",
@@ -5806,7 +6449,9 @@
         "norte-de-sudamerica",
         "centroamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-las-indias-las-casas"
+      ],
       "wikipedia": {
         "es": "San Sebastián de Urabá",
         "en": "San Sebastián de Urabá"
@@ -6288,7 +6933,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-provincia-de-san-antonino"
+      ]
     },
     {
       "id": "rebelion-tairona-de-1599",
@@ -6363,7 +7010,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "maroon-societies-price"
+      ]
     },
     {
       "id": "tribunal-de-la-inquisicion-de-cartagena",
@@ -6379,7 +7028,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-del-tribunal-de-cartagena-medina"
+      ]
     },
     {
       "id": "fundacion-de-la-javeriana",
@@ -6395,7 +7046,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-provincia-nuevo-reino-y-quito-mercado"
+      ]
     },
     {
       "id": "fundacion-del-colegio-del-rosario",
@@ -6411,7 +7064,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-provincia-de-san-antonino"
+      ]
     },
     {
       "id": "misiones-jesuitas-de-los-llanos-y-el-orinoco",
@@ -6465,7 +7120,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-ucv-leal"
+      ]
     },
     {
       "id": "compania-guipuzcoana",
@@ -6481,7 +7138,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-caracas-company-hussey"
+      ],
       "wikipedia": {
         "es": "Compañía Guipuzcoana",
         "en": "Guipuzcoan Company of Caracas"
@@ -6523,7 +7182,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "bibliografia-bogotana-posada"
+      ]
     },
     {
       "id": "ataque-de-vernon-a-cartagena",
@@ -6539,7 +7200,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "war-and-trade-in-the-west-indies-pares"
+      ],
       "wikipedia": {
         "es": "Sitio de Cartagena de Indias (1741)",
         "en": "Battle of Cartagena de Indias"
@@ -6559,7 +7222,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-biblioteca-nacional-de-colombia"
+      ]
     },
     {
       "id": "capitania-general-de-venezuela",
@@ -6575,7 +7240,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "real-cedula-de-1777-capitania-general-de-venezuela"
+      ],
       "wikipedia": {
         "es": "Capitanía general de Venezuela",
         "en": "Captaincy General of Venezuela"
@@ -6641,7 +7308,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "the-people-and-the-king"
+      ]
     },
     {
       "id": "insurreccion-de-chirino",
@@ -6657,7 +7326,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "las-insurrecciones-de-los-esclavos-negros-brito"
+      ],
       "wikipedia": {
         "es": "Insurrección de José Leonardo Chirino"
       }
@@ -6676,7 +7347,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "luces-revolucionarias-michelena"
+      ],
       "wikipedia": {
         "es": "Conspiración de Gual y España",
         "en": "Gual and España conspiracy"
@@ -6718,7 +7391,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "francisco-de-miranda-racine"
+      ],
       "wikipedia": {
         "es": "Expedición de Francisco de Miranda"
       }
@@ -6823,7 +7498,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "blood-on-the-river-kars"
+      ],
       "wikipedia": {
         "es": "Levantamiento de esclavos de Barbiezos",
         "en": "Berbice Rebellion"
@@ -6843,7 +7520,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "kourou-ultime-combat-godfroy"
+      ]
     },
     {
       "id": "misiones-capuchinas-del-caroni",
@@ -7013,7 +7692,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Segunda República de Venezuela",
         "en": "Second Republic of Venezuela"
@@ -7033,7 +7714,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Asedio español de Cartagena de Indias (1815)",
         "en": "Siege of Cartagena (1815)"
@@ -7053,7 +7736,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Reconquista de la Nueva Granada",
         "en": "Spanish reconquest of New Granada"
@@ -7096,7 +7781,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Batalla de Boyacá",
         "en": "Battle of Boyacá"
@@ -7116,7 +7803,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Batalla de Carabobo (1821)",
         "en": "Battle of Carabobo"
@@ -7183,7 +7872,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "summarie-and-true-discourse-drake"
+      ],
       "wikipedia": {
         "es": "Batalla de Cartagena de Indias (1586)",
         "en": "Battle of Cartagena de Indias (1586)"
@@ -7203,7 +7894,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "relation-de-lexpedition-de-carthagene-pointis"
+      ],
       "wikipedia": {
         "es": "Expedición de Cartagena (1697)",
         "en": "Raid on Cartagena de Indias (1697)"
@@ -7223,7 +7916,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "oda-a-la-vacuna-bello"
+      ]
     },
     {
       "id": "guerra-grancolombo-peruana",
@@ -7239,7 +7934,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Guerra grancolombo-peruana",
         "en": "Gran Colombia–Peru War"
@@ -7259,7 +7956,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Batalla del Pantano de Vargas",
         "en": "Battle of Vargas Swamp"
@@ -7279,7 +7978,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Guerra civil entre centralistas y federalistas",
         "en": "New Granada Civil War"
@@ -7299,7 +8000,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Batalla de Cúcuta",
         "en": "Battle of Cúcuta"
@@ -7319,7 +8022,9 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-revolucion-colombia-restrepo"
+      ],
       "wikipedia": {
         "es": "Combate naval del lago de Maracaibo",
         "en": "Battle of Lake Maracaibo"

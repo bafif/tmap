@@ -3676,6 +3676,769 @@
         "en": "GPT-1"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "haber-nobel-1920",
+      "titulo": "La síntesis del amoníaco a partir de sus elementos (conferencia Nobel)",
+      "titulo_original": "Die Synthese des Ammoniaks aus seinen Elementen",
+      "autor": "Fritz Haber",
+      "autor_id": "haber",
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1920,
+        "aprox": false,
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1904,
+        "hasta": 1913
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Conferencia",
+      "resumen": "Conferencia que Fritz Haber dio al recibir el premio Nobel de Química de 1918, entregado en 1920. Cuenta su camino para sintetizar amoníaco de nitrógeno e hidrógeno a alta presión con un catalizador, la demostración de 1909 ante técnicos de BASF y el trabajo posterior de Carl Bosch para llevar el proceso a escala industrial.",
+      "por_que_importa": "Es el relato del propio inventor sobre cómo se llegó al proceso, que permitió fabricar fertilizantes y explosivos sin salitre de Chile.",
+      "leer": [
+        {
+          "titulo": "Conferencia Nobel en PDF, en nobelprize.org",
+          "url": "https://www.nobelprize.org/uploads/2018/06/haber-lecture.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "my-life-and-work-ford",
+      "titulo": "Mi vida y mi obra",
+      "titulo_original": "My Life and Work",
+      "autor": "Henry Ford",
+      "autor_id": "henry-ford",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1922,
+        "aprox": false,
+        "lugar": "Detroit",
+        "lon": -83.047,
+        "lat": 42.332
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1903,
+        "hasta": 1922
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Autobiografía de Henry Ford escrita con Samuel Crowther. Cuenta cómo organizó la producción en serie del Modelo T, con piezas intercambiables, la línea de montaje móvil de Highland Park, la jornada de cinco dólares y su filosofía de la empresa y de los salarios.",
+      "por_que_importa": "Es el testimonio del propio Ford sobre la producción en cadena; la cifra de tiempos de armado, como todo en el libro, es la que él daba.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-hut-six-story-welchman",
+      "titulo": "La historia de la cabaña 6",
+      "titulo_original": "The Hut Six Story: Breaking the Enigma Codes",
+      "autor": "Gordon Welchman",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1982,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1939,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Memorias de uno de los jefes de la Cabaña 6 de Bletchley Park, que descifraba los mensajes del ejército y de la fuerza aérea alemanes cifrados con Enigma. Explica el funcionamiento de la «bomba» electromecánica que Turing diseñó a partir de la bomba polaca y el tablero diagonal que Welchman ideó para hacerla mucho más eficaz.",
+      "por_que_importa": "Es la descripción del método de la bomba por uno de sus autores; se publicó cuando se levantó el secreto y el autor tuvo problemas por hacerlo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-design-of-colossus-flowers",
+      "titulo": "El diseño del Colossus",
+      "titulo_original": "The Design of Colossus",
+      "autor": "Tommy Flowers",
+      "autor_id": "tommy-flowers",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1943,
+        "hasta": 1945
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de Thomas Flowers en Annals of the History of Computing en el que cuenta cómo diseñó y construyó el Colossus en la Estación de Investigación del Correo en Dollis Hill, y su funcionamiento en Bletchley Park desde comienzos de 1944. Explica su uso de válvulas y su lógica electrónica.",
+      "por_que_importa": "Es el relato del diseñador, hecho cuando se levantó el secreto sobre las máquinas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "operation-crossroads-weisgall",
+      "titulo": "Operación Crossroads: las pruebas atómicas del atolón de Bikini",
+      "titulo_original": "Operation Crossroads: The Atomic Tests at Bikini Atoll",
+      "autor": "Jonathan M. Weisgall",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Annapolis",
+        "lon": -76.492,
+        "lat": 38.979
+      },
+      "trata": {
+        "regiones": [
+          "micronesia"
+        ],
+        "desde": 1946,
+        "hasta": 1994
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de las dos explosiones nucleares de 1946 en Bikini, Able y Baker, y de la evacuación de sus habitantes, escrita por el abogado que los representó. Cuenta los motivos militares y políticos de la prueba, su preparación con una flota de buques de blanco, sus resultados y la suerte posterior de los bikinianos.",
+      "por_que_importa": "Es el estudio de referencia sobre la prueba y sus consecuencias para la población del atolón.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mossbauer-nobel-1961",
+      "titulo": "Absorción nuclear resonante sin retroceso de rayos gamma (conferencia Nobel)",
+      "titulo_original": "Recoilless Nuclear Resonance Absorption of Gamma Radiation",
+      "autor": "Rudolf Mössbauer",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1961,
+        "aprox": false,
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1957,
+        "hasta": 1961
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Conferencia",
+      "resumen": "Conferencia que Rudolf Mössbauer dio al recibir el premio Nobel de Física de 1961. Cuenta cómo descubrió, en su tesis en Heidelberg, que los núcleos de un sólido pueden emitir y absorber rayos gamma sin retroceso, explica el efecto y sus primeras aplicaciones.",
+      "por_que_importa": "Es el relato del descubridor sobre su hallazgo, del que salió una técnica espectroscópica de gran precisión.",
+      "leer": [
+        {
+          "titulo": "Conferencia Nobel en PDF, en nobelprize.org",
+          "url": "https://www.nobelprize.org/uploads/2018/06/mossbauer-lecture.pdf",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "the-birth-of-the-pill-eig",
+      "titulo": "El nacimiento de la píldora",
+      "titulo_original": "The Birth of the Pill: How Four Crusaders Reinvented Sex and Launched a Revolution",
+      "autor": "Jonathan Eig",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1950,
+        "hasta": 1965
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de cómo se desarrolló la píldora anticonceptiva, con sus cuatro protagonistas: Margaret Sanger, Katharine McCormick, que la financió, el biólogo Gregory Pincus y el ginecólogo católico John Rock. Cuenta las pruebas en Puerto Rico y la aprobación del Enovid por la FDA en 1960.",
+      "por_que_importa": "Es un relato periodístico de la historia de la píldora; trata también las críticas a las pruebas de Puerto Rico.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "challenge-to-apollo-siddiqi",
+      "titulo": "Desafío a Apolo: la Unión Soviética y la carrera espacial, 1945-1974",
+      "titulo_original": "Challenge to Apollo: The Soviet Union and the Space Race, 1945-1974",
+      "autor": "Asif A. Siddiqi",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "asia-central"
+        ],
+        "desde": 1945,
+        "hasta": 1974
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del programa espacial soviético desde sus orígenes en la posguerra hasta mediados de los años setenta, hecha con archivos rusos que se abrieron tras 1991. Cuenta el trabajo de Serguéi Koroliov, el Sputnik, el vuelo de Yuri Gagarin en la Vostok 1 el 12 de abril de 1961 y la carrera hacia la Luna.",
+      "por_que_importa": "Es la historia de referencia del programa soviético, publicada por la NASA, y corrige muchos relatos oficiales de la época.",
+      "leer": [
+        {
+          "titulo": "El libro en PDF en el sitio de la NASA",
+          "url": "https://www.nasa.gov/wp-content/uploads/2023/06/sp-4408.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "multics-fjcc-1965",
+      "titulo": "Introducción y panorama del sistema Multics",
+      "titulo_original": "Introduction and Overview of the Multics System",
+      "autor": "Fernando J. Corbató y V. A. Vyssotsky",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1965,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1964,
+        "hasta": 1965
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo presentado en la Fall Joint Computer Conference de 1965 en el que los dos autores presentan el sistema operativo de tiempo compartido Multics, desarrollado por el MIT, General Electric y los Laboratorios Bell, con sus ideas sobre memoria segmentada, archivos, usuarios y seguridad, y la computadora GE 645.",
+      "por_que_importa": "Es el documento que presenta el proyecto, antecedente directo de Unix.",
+      "leer": [
+        {
+          "titulo": "Texto en el sitio Multicians",
+          "url": "https://multicians.org/fjcc1.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "intel-mcs-8-users-manual",
+      "titulo": "Manual del usuario del conjunto MCS-8 (Intel 8008)",
+      "titulo_original": "MCS-8 Micro Computer Set Users Manual",
+      "autor": "Intel",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1972,
+        "aprox": false,
+        "lugar": "Santa Clara (California)",
+        "lon": -121.967,
+        "lat": 37.35
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1972,
+        "hasta": 1972
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Manual",
+      "resumen": "Manual con que Intel presentó en 1972 el microprocesador 8008 de 8 bits y su conjunto de chips de memoria y de entrada y salida. Describe su juego de instrucciones, su temporización, su dirección de 16 KB y circuitos de ejemplo.",
+      "por_que_importa": "Es la documentación original del 8008, el primer microprocesador de 8 bits.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "intel-8080-users-manual",
+      "titulo": "Manual del usuario de los sistemas microcomputadores 8080",
+      "titulo_original": "8080 Microcomputer Systems User's Manual",
+      "autor": "Intel",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Santa Clara (California)",
+        "lon": -121.967,
+        "lat": 37.35
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1974,
+        "hasta": 1975
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Manual",
+      "resumen": "Manual de Intel del microprocesador 8080, lanzado en abril de 1974, con la descripción del procesador, de su conjunto de instrucciones, de sus circuitos de apoyo y de ejemplos de diseño de sistemas. Documenta las mejoras respecto del 8008.",
+      "por_que_importa": "Es la documentación oficial del procesador que dio base a las primeras microcomputadoras personales.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "evidence-for-planar-events-tasso-1979",
+      "titulo": "Evidencia de sucesos planos en la aniquilación e+e- a altas energías",
+      "titulo_original": "Evidence for Planar Events in e+e- Annihilation at High Energies",
+      "autor": "Colaboración TASSO (R. Brandelik y otros)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1979,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1979,
+        "hasta": 1979
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de la colaboración TASSO, en el colisionador PETRA del DESY, publicado en Physics Letters B en 1979, que informa de sucesos de aniquilación electrón-positrón con tres chorros de partículas en un plano, interpretados como la emisión de un gluón duro por un quark. Es la primera evidencia directa del gluón.",
+      "por_que_importa": "Es el artículo que anunció la evidencia experimental del gluón; otros tres experimentos de PETRA la confirmaron ese verano.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "birth-after-the-reimplantation-steptoe-edwards-1978",
+      "titulo": "Nacimiento tras la reimplantación de un embrión humano",
+      "titulo_original": "Birth after the reimplantation of a human embryo",
+      "autor": "Patrick C. Steptoe y Robert G. Edwards",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "medicina",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Oldham",
+        "lon": -2.118,
+        "lat": 53.545
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1977,
+        "hasta": 1978
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Carta publicada en The Lancet el 12 de agosto de 1978, firmada por los dos autores del procedimiento, que anuncia el nacimiento por cesárea, el 25 de julio, de una niña tras la reimplantación de un embrión obtenido por fecundación in vitro. Informa del cuadro clínico de la madre, del cultivo del óvulo y del seguimiento del embarazo.",
+      "por_que_importa": "Es el informe médico original del primer nacimiento de este tipo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "large-losses-of-total-ozone-farman-1985",
+      "titulo": "Grandes pérdidas del ozono total en la Antártida revelan una interacción estacional ClOx/NOx",
+      "titulo_original": "Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction",
+      "autor": "Joseph C. Farman, Brian G. Gardiner y Jonathan D. Shanklin",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Cambridge (Reino Unido)",
+        "lon": 0.122,
+        "lat": 52.208
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 1957,
+        "hasta": 1984
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en Nature en mayo de 1985, basado en las mediciones con espectrofotómetros Dobson del British Antarctic Survey en la estación Halley, que muestra una caída del ozono de primavera sobre la Antártida desde fines de los años setenta y la relaciona con los compuestos de cloro. Fue la primera publicación del «agujero de ozono».",
+      "por_que_importa": "Es el artículo que dio a conocer el agujero y llevó al Protocolo de Montreal de 1987.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "weaving-the-web-berners-lee",
+      "titulo": "Tejiendo la red",
+      "titulo_original": "Weaving the Web: The Original Design and Ultimate Destiny of the World Wide Web",
+      "autor": "Tim Berners-Lee",
+      "autor_id": "berners-lee",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica",
+          "britania",
+          "alemania"
+        ],
+        "desde": 1989,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Memorias de Tim Berners-Lee sobre la invención de la World Wide Web en el CERN y sobre sus primeros años. Cuenta la propuesta de 1989, el servidor y el navegador, la llegada de navegadores gráficos como Mosaic, del NCSA de Illinois, y la fundación del World Wide Web Consortium.",
+      "por_que_importa": "Es el relato del inventor, y como memoria tiene su punto de vista sobre los otros navegadores y sobre el papel de las patentes.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Tejiendo la red",
+        "en": "Weaving the Web"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "deep-thinking-kasparov",
+      "titulo": "Pensamiento profundo: dónde termina la inteligencia de las máquinas y empieza la creatividad humana",
+      "titulo_original": "Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins",
+      "autor": "Garri Kaspárov",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1985,
+        "hasta": 1997
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Memoria de Kaspárov, con Mig Greengard, sobre sus partidas contra computadoras de ajedrez, en especial el match de Filadelfia de 1996, que ganó contra Deep Blue, y el de Nueva York de 1997, que perdió 3,5 a 2,5. Cuenta cómo vivió los dos matches, revisa la acusación de intervención humana que hizo en 1997 y concluye que Deep Blue no hizo trampa, aunque sigue criticando la conducta de IBM durante el match, y discute la relación entre ajedrez e inteligencia artificial.",
+      "por_que_importa": "Es el testimonio de uno de los protagonistas, escrito veinte años después de los matches.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "acuerdo-intergubernamental-estacion-espacial-1998",
+      "titulo": "Acuerdo Intergubernamental sobre la Estación Espacial Civil Internacional",
+      "titulo_original": "Agreement among the Government of Canada, Governments of the Member States of the European Space Agency, the Government of Japan, the Government of the Russian Federation, and the Government of the United States of America concerning Cooperation on the Civil International Space Station",
+      "autor": "Estados Unidos, Rusia, Canadá, Japón y los Estados miembros de la Agencia Espacial Europea",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "asia-central",
+          "norteamerica",
+          "alemania"
+        ],
+        "desde": 1998,
+        "hasta": 1998
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Tratado",
+      "resumen": "Acuerdo firmado en Washington el 29 de enero de 1998 por quince gobiernos para diseñar, construir, operar y usar la Estación Espacial Internacional. Fija la propiedad de los módulos, el reparto del uso, la jurisdicción y las responsabilidades de cada socio.",
+      "por_que_importa": "Es el marco jurídico que rige la Estación, cuyo primer módulo se lanzó ese año.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "electric-field-effect-novoselov-2004",
+      "titulo": "Efecto de campo eléctrico en películas de carbono atómicamente delgadas",
+      "titulo_original": "Electric Field Effect in Atomically Thin Carbon Films",
+      "autor": "Kostya S. Novoselov, Andre K. Geim y otros",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Mánchester",
+        "lon": -2.245,
+        "lat": 53.479
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 2004,
+        "hasta": 2004
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en Science en 2004 en el que el grupo de la Universidad de Mánchester describe cómo obtuvo láminas de carbono de pocos átomos de espesor despegándolas del grafito con cinta adhesiva y mide su efecto de campo eléctrico. Es la primera caracterización del grafeno aislado.",
+      "por_que_importa": "Por este trabajo Geim y Novoselov recibieron el Nobel de Física de 2010.",
+      "leer": [
+        {
+          "titulo": "Preimpreso en arXiv",
+          "url": "https://arxiv.org/abs/cond-mat/0410550",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "macworld-2007-keynote-jobs",
+      "titulo": "Presentación del iPhone en la conferencia Macworld 2007",
+      "titulo_original": null,
+      "autor": "Steve Jobs",
+      "autor_id": "steve-jobs",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "San Francisco",
+        "lon": -122.419,
+        "lat": 37.775
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2007,
+        "hasta": 2007
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Discurso",
+      "resumen": "Discurso de apertura de Steve Jobs en la Macworld Conference & Expo de San Francisco, el 9 de enero de 2007, en el que presentó el iPhone como un teléfono, un iPod con pantalla táctil y un dispositivo de internet. Mostró la pantalla multitáctil, el navegador y el correo.",
+      "por_que_importa": "Es el documento original de la presentación del producto; la tienda de aplicaciones se anunció después, en 2008.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "lhc-machine-evans-bryant-2008",
+      "titulo": "La máquina LHC",
+      "titulo_original": "LHC Machine",
+      "autor": "Lyndon Evans y Philip Bryant (editores)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Ginebra",
+        "lon": 6.15,
+        "lat": 46.2
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "francia"
+        ],
+        "desde": 1998,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de revisión del CERN, publicado en el Journal of Instrumentation en agosto de 2008, que describe el Gran Colisionador de Hadrones, con sus imanes superconductores, la criogenia, los sistemas de inyección y de aceleración y las pruebas de puesta en marcha previas a su primer haz del 10 de septiembre de 2008.",
+      "por_que_importa": "Es la descripción técnica oficial del acelerador al ponerse en marcha.",
+      "leer": [
+        {
+          "titulo": "Artículo de acceso abierto en el Journal of Instrumentation",
+          "url": "https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08001",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "playing-atari-mnih-2013",
+      "titulo": "Jugar al Atari con aprendizaje por refuerzo profundo",
+      "titulo_original": "Playing Atari with Deep Reinforcement Learning",
+      "autor": "Volodymyr Mnih y otros (DeepMind)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania"
+        ],
+        "desde": 2013,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo del taller de aprendizaje profundo de NIPS de 2013 en el que DeepMind presenta un sistema que aprende a jugar juegos de Atari 2600 a partir de los píxeles de la pantalla, con una red convolucional entrenada por una variante de Q-learning. En seis de siete juegos supera a métodos anteriores y en tres a un experto humano.",
+      "por_que_importa": "Es el artículo con que DeepMind mostró el aprendizaje por refuerzo profundo, que Google compró en 2014.",
+      "leer": [
+        {
+          "titulo": "Preimpreso en arXiv",
+          "url": "https://arxiv.org/abs/1312.5602",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "high-bias-masters",
+      "titulo": "High Bias: la historia distorsionada del casete",
+      "titulo_original": "High Bias: The Distorted History of the Cassette Tape",
+      "autor": "Marc Masters",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2023,
+        "aprox": false,
+        "lugar": "Chapel Hill",
+        "lon": -79.05,
+        "lat": 35.907
+      },
+      "trata": {
+        "regiones": [
+          "alemania",
+          "norteamerica"
+        ],
+        "desde": 1963,
+        "hasta": 2020
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del casete desde su invención a comienzos de los años sesenta. El primer capítulo cuenta la creación del casete compacto por el ingeniero Lou Ottens y su equipo en Philips, su presentación en 1963 y la decisión de ceder el diseño a otras empresas para que se volviera un estándar.",
+      "por_que_importa": "Es un libro de un periodista musical, centrado en la cultura del casete más que en la técnica.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "intel-8086-morse-1978",
+      "titulo": "El microprocesador Intel 8086: una evolución a 16 bits del 8080",
+      "titulo_original": "The Intel 8086 Microprocessor: A 16-bit Evolution of the 8080",
+      "autor": "Stephen P. Morse, William B. Pohlman y Bruce W. Ravenel",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1978,
+        "aprox": false,
+        "lugar": "Santa Clara (California)",
+        "lon": -121.967,
+        "lat": 37.35
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1976,
+        "hasta": 1978
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo de la revista Computer de la IEEE, de junio de 1978, firmado por el arquitecto principal del 8086, el gerente del proyecto y el arquitecto del coprocesador 8087. Explica cómo se pensó el procesador de 16 bits como evolución del 8080, con el direccionamiento por segmentos y el diseño de su conjunto de instrucciones.",
+      "por_que_importa": "Es la descripción del diseño por parte de quienes lo hicieron, publicada cuando el procesador salió al mercado.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "mir-hardware-heritage",
+      "titulo": "El legado técnico de la Mir",
+      "titulo_original": "Mir Hardware Heritage",
+      "autor": "David S. F. Portree",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1995,
+        "aprox": false,
+        "lugar": "Houston",
+        "lon": -95.383,
+        "lat": 29.763
+      },
+      "trata": {
+        "regiones": [
+          "asia-central",
+          "rus"
+        ],
+        "desde": 1967,
+        "hasta": 1995
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe de referencia de la NASA (Reference Publication 1357, 1995) sobre las naves y estaciones soviéticas y rusas de las que deriva la Mir: las Soyuz, las Salyut y los módulos de la propia estación, con la historia de cada vuelo hasta la cooperación con los Estados Unidos.",
+      "por_que_importa": "Es una de las fuentes técnicas más citadas sobre la Mir y, como obra del gobierno de los Estados Unidos, es de dominio público.",
+      "leer": [
+        {
+          "titulo": "Texto inglés en Wikisource",
+          "url": "https://en.wikisource.org/wiki/Mir_Hardware_Heritage",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4555,7 +5318,9 @@
         "ingeniero"
       ],
       "resumen": "Ingeniero de la estación de investigación del Correo británico en Dollis Hill (Londres). Diseñó y construyó Colossus (1943-1944), la máquina electrónica de válvulas que ayudó a descifrar las comunicaciones alemanas cifradas con la máquina Lorenz.",
-      "obras": [],
+      "obras": [
+        "the-design-of-colossus-flowers"
+      ],
       "wikipedia": {
         "es": "Tommy Flowers",
         "en": "Tommy Flowers"
@@ -5633,7 +6398,8 @@
       ],
       "resumen": "Informático británico. En el CERN propuso en 1989 la World Wide Web y escribió el primer servidor y el primer navegador; desde 1994 dirige el Consorcio World Wide Web (W3C). Premio Turing de 2016.",
       "obras": [
-        "propuesta-de-la-web"
+        "propuesta-de-la-web",
+        "weaving-the-web-berners-lee"
       ],
       "wikipedia": {
         "es": "Tim Berners-Lee",
@@ -6795,7 +7561,9 @@
         "químico"
       ],
       "resumen": "Químico alemán. En 1909 logró sintetizar amoníaco a partir del nitrógeno del aire, base de los fertilizantes industriales (Nobel de Química de 1918); en la Primera Guerra Mundial dirigió el programa alemán de armas químicas.",
-      "obras": [],
+      "obras": [
+        "haber-nobel-1920"
+      ],
       "wikipedia": {
         "es": "Fritz Haber",
         "en": "Fritz Haber"
@@ -6832,7 +7600,9 @@
         "ingeniero"
       ],
       "resumen": "Empresario estadounidense, fundador de la Ford Motor Company (1903). Con el Modelo T y la línea de montaje móvil (1913) abarató el automóvil y difundió la producción en masa; en los años veinte publicó propaganda antisemita.",
-      "obras": [],
+      "obras": [
+        "my-life-and-work-ford"
+      ],
       "wikipedia": {
         "es": "Henry Ford",
         "en": "Henry Ford"
@@ -6920,7 +7690,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "haber-nobel-1920"
+      ],
       "wikipedia": {
         "es": "Proceso de Haber",
         "en": "Haber process"
@@ -6940,7 +7712,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "my-life-and-work-ford"
+      ],
       "wikipedia": {
         "es": "Línea de ensamble",
         "en": "Assembly line"
@@ -7052,7 +7826,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-smyth"
+      ],
       "wikipedia": {
         "es": "Chicago Pile-1",
         "en": "Chicago Pile-1"
@@ -7141,7 +7917,9 @@
       "regiones": [
         "rus"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "voces-de-chernobil"
+      ],
       "wikipedia": {
         "es": "Accidente de Chernóbil",
         "en": "Chernobyl disaster"
@@ -7207,7 +7985,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-hut-six-story-welchman"
+      ],
       "wikipedia": {
         "es": "Bombe",
         "en": "Bombe"
@@ -7227,7 +8007,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-design-of-colossus-flowers"
+      ],
       "wikipedia": {
         "es": "Colossus",
         "en": "Colossus computer"
@@ -7448,7 +8230,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "deep-thinking-kasparov"
+      ],
       "wikipedia": {
         "es": "Deep Blue versus Garri Kasparov",
         "en": "Deep Blue versus Garry Kasparov"
@@ -7625,7 +8409,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "weaving-the-web-berners-lee"
+      ],
       "wikipedia": {
         "es": "Mosaic",
         "en": "NCSA Mosaic"
@@ -7667,7 +8453,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "macworld-2007-keynote-jobs"
+      ],
       "wikipedia": {
         "es": "IPhone (1.ª generación)",
         "en": "IPhone (1st generation)"
@@ -7753,7 +8541,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-birth-of-the-pill-eig"
+      ],
       "wikipedia": {
         "es": "Píldora anticonceptiva oral combinada",
         "en": "Combined oral contraceptive pill"
@@ -7972,7 +8762,9 @@
       "regiones": [
         "asia-central"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "challenge-to-apollo-siddiqi"
+      ],
       "wikipedia": {
         "es": "Vostok 1",
         "en": "Vostok 1"
@@ -8036,7 +8828,9 @@
       "regiones": [
         "asia-central"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "acuerdo-intergubernamental-estacion-espacial-1998"
+      ],
       "wikipedia": {
         "es": "Estación Espacial Internacional",
         "en": "International Space Station"
@@ -8152,7 +8946,9 @@
         "sudeste-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-smyth"
+      ],
       "wikipedia": {
         "es": "Calutrón",
         "en": "Calutron"
@@ -8172,7 +8968,9 @@
       "regiones": [
         "micronesia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "operation-crossroads-weisgall"
+      ],
       "wikipedia": {
         "es": "Operación Crossroads",
         "en": "Operation Crossroads"
@@ -8193,7 +8991,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "multics-fjcc-1965"
+      ],
       "wikipedia": {
         "es": "Multics",
         "en": "Multics"
@@ -8214,7 +9014,9 @@
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "intel-mcs-8-users-manual"
+      ],
       "wikipedia": {
         "es": "Intel 8008",
         "en": "Intel 8008"
@@ -8234,7 +9036,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "mossbauer-nobel-1961"
+      ],
       "wikipedia": {
         "es": "Efecto Mößbauer",
         "en": "Mössbauer effect"
@@ -8254,7 +9058,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "high-bias-masters"
+      ],
       "wikipedia": {
         "es": "Casete",
         "en": "Cassette tape"
@@ -8274,7 +9080,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "evidence-for-planar-events-tasso-1979"
+      ],
       "wikipedia": {
         "es": "Gluon",
         "en": "Gluon"
@@ -8294,7 +9102,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lhc-machine-evans-bryant-2008"
+      ],
       "wikipedia": {
         "es": "Gran colisionador de hadrones",
         "en": "Large Hadron Collider"
@@ -8379,7 +9189,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "birth-after-the-reimplantation-steptoe-edwards-1978"
+      ],
       "wikipedia": {
         "es": "Louise Brown",
         "en": "Louise Brown"
@@ -8399,7 +9211,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "large-losses-of-total-ozone-farman-1985"
+      ],
       "wikipedia": {
         "es": "Agujero de la capa de ozono",
         "en": "Ozone depletion"
@@ -8419,7 +9233,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "electric-field-effect-novoselov-2004"
+      ],
       "wikipedia": {
         "es": "Grafeno",
         "en": "Graphene"
@@ -8439,7 +9255,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "playing-atari-mnih-2013"
+      ],
       "wikipedia": {
         "es": "Google DeepMind",
         "en": "Google DeepMind"
@@ -8460,7 +9278,9 @@
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "intel-8080-users-manual"
+      ],
       "wikipedia": {
         "es": "Intel 8080",
         "en": "Intel 8080"
@@ -8481,10 +9301,34 @@
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "intel-8086-morse-1978"
+      ],
       "wikipedia": {
         "es": "Intel 8086 y 8088",
         "en": "Intel 8086"
+      }
+    },
+    {
+      "id": "lanzamiento-de-la-mir",
+      "titulo": "Lanzamiento de la estación espacial Mir",
+      "anio": 1986,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cosmódromo de Baikonur",
+      "lon": 63.305,
+      "lat": 45.965,
+      "tipo": "exploracion",
+      "resumen": "El 19 de febrero de 1986 un cohete Protón lanzó desde Baikonur el módulo base de la Mir, la primera estación espacial modular, que se armó en órbita hasta 1996. Fue soviética y, desde 1991, rusa; estuvo ocupada doce años y medio de sus quince en órbita, recibió tripulantes de doce países y del transbordador estadounidense, y se la hizo caer en 2001.",
+      "regiones": [
+        "asia-central"
+      ],
+      "fuentes": [
+        "mir-hardware-heritage"
+      ],
+      "wikipedia": {
+        "es": "Mir (estación espacial)",
+        "en": "Mir"
       }
     }
   ],

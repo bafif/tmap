@@ -20550,6 +20550,110 @@
         "en": "Liutprand of Cremona"
       },
       "confianza": "media"
+    },
+    {
+      "id": "canones-del-i-concilio-de-letran",
+      "titulo": "Cánones del I Concilio de Letrán",
+      "titulo_original": "Canones concilii Lateranensis I",
+      "autor": "Calixto II y el concilio",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1123,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "italia"
+        ],
+        "desde": 1123,
+        "hasta": 1123
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Cánones del concilio reunido en Letrán en 1123, convocado por Calixto II después del Concordato de Worms para ratificarlo; en las ediciones suelen ser 22. Prohíben la simonía y el concubinato de los clérigos, deponen al obispo consagrado sin elección canónica, excomulgan a quienes fabrican o gastan a sabiendas moneda falsa y a los que asaltan a peregrinos y mercaderes, y reafirman las indulgencias de los cruzados.",
+      "por_que_importa": "Es el texto del concilio que ratificó el fin de la querella de las investiduras; el número de cánones varía según el manuscrito.",
+      "leer": [
+        {
+          "titulo": "Cánones en traducción inglesa, en el Medieval Sourcebook de Fordham",
+          "url": "https://sourcebooks.fordham.edu/basis/lateran1.asp",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "I Concilio de Letrán",
+        "en": "First Council of the Lateran"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "anales-de-vicente-de-praga",
+      "titulo": "Anales de Vicente de Praga",
+      "titulo_original": "Annales",
+      "autor": "Vicente de Praga",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1167,
+        "aprox": true,
+        "lugar": "Praga",
+        "lon": 14.421,
+        "lat": 50.087
+      },
+      "trata": {
+        "regiones": [
+          "bohemia",
+          "italia"
+        ],
+        "desde": 1140,
+        "hasta": 1167
+      },
+      "idioma_original": "Latín",
+      "soporte": "Crónica",
+      "resumen": "Anales año por año del reinado de Vladislao II de Bohemia, escritos por un canónigo y notario de la catedral de Praga que acompañó al rey y al obispo Daniel en la campaña imperial a Italia de 1158. Más de un tercio de la obra cuenta esa campaña y el asedio de Milán. La obra se corta en 1167 y fue continuada después por Gerlaco de Milevsko.",
+      "por_que_importa": "Es el testimonio de un testigo sobre el reino de Vladislao II y sus lazos con el emperador Federico I.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "bula-de-oro-de-sicilia-texto",
+      "titulo": "Bula de oro de Sicilia",
+      "titulo_original": "Bulla Aurea Siciliae",
+      "autor": "Federico II del Sacro Imperio",
+      "autor_id": "federico-ii",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1212,
+        "aprox": false,
+        "lugar": "Basilea",
+        "lon": 7.588,
+        "lat": 47.558
+      },
+      "trata": {
+        "regiones": [
+          "bohemia",
+          "alemania"
+        ],
+        "desde": 1198,
+        "hasta": 1212
+      },
+      "idioma_original": "Latín",
+      "soporte": "Decreto",
+      "resumen": "Conjunto de tres privilegios dados el mismo día en Basilea por Federico II, entonces rey de Sicilia, el 26 de septiembre de 1212. Confirmó el título real que Otakar I de Bohemia había obtenido en 1198 para él y sus herederos y fijó la posición del reino dentro del Sacro Imperio: el rey ya no sería nombrado por el emperador, solo tendría que ir a las dietas que se reunieran cerca de su frontera (Bamberg, Núremberg o Merseburgo); los reyes que eligieran los nobles de Bohemia serían confirmados por el emperador, el rey tendría la investidura de los obispos de su reino y, para la coronación imperial en Roma, debería dar 300 jinetes o 300 marcos de plata.",
+      "por_que_importa": "Confirmó el título real hereditario que Otakar I tenía desde 1198 (reconocido también por Otón IV y por Inocencio III). La historiografía checa del siglo XIX la vio como fundamento de la estatalidad bohemia; los historiadores actuales le dan menos peso: los Přemyslidas del siglo XIII casi no la usaron, y su fama empezó cuando Carlos IV la confirmó en 1348.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Bulla Áurea de Sicilia",
+        "en": "Golden Bull of Sicily"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -27293,7 +27397,8 @@
       "resumen": "Rey de Sicilia y emperador, llamado «asombro del mundo». Su corte reunió a traductores, astrólogos y poetas, fundó la Universidad de Nápoles y escribió un tratado de cetrería basado en la observación.",
       "obras": [
         "cartas-de-federico-ii",
-        "de-arte-venandi-cum-avibus"
+        "de-arte-venandi-cum-avibus",
+        "bula-de-oro-de-sicilia-texto"
       ],
       "wikipedia": {
         "es": "Federico II Hohenstaufen",
@@ -34880,10 +34985,146 @@
       "regiones": [
         "italia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "canones-del-i-concilio-de-letran"
+      ],
       "wikipedia": {
         "es": "I Concilio de Letrán",
         "en": "First Council of the Lateran"
+      }
+    },
+    {
+      "id": "muerte-de-wenceslao-i",
+      "titulo": "Muerte de Wenceslao I de Bohemia",
+      "anio": 935,
+      "anio_hasta": null,
+      "aprox": true,
+      "lugar": "Stará Boleslav",
+      "lon": 14.663,
+      "lat": 50.187,
+      "tipo": "politico",
+      "resumen": "Wenceslao I, príncipe de Bohemia desde 921, murió hacia 935 en Stará Boleslav, según la tradición asesinado por su hermano Boleslao. Su fama de mártir lo hizo santo y patrono del Estado checo.",
+      "regiones": [
+        "bohemia"
+      ],
+      "fuentes": [
+        "cronica-de-los-bohemios"
+      ],
+      "wikipedia": {
+        "es": "Wenceslao I de Bohemia (duque)",
+        "en": "Wenceslaus I, Duke of Bohemia"
+      }
+    },
+    {
+      "id": "batalla-de-brudek",
+      "titulo": "Batalla de Brůdek",
+      "anio": 1040,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cerca de Domažlice (lugar exacto discutido)",
+      "lon": 12.93,
+      "lat": 49.441,
+      "tipo": "batalla",
+      "resumen": "El 22 y 23 de agosto de 1040 el duque Břetislav I de Bohemia derrotó, en los bosques de la frontera con Baviera cerca de Domažlice, al ejército que Enrique III envió contra él; la tradición, desde Palacký, ubica la batalla en Brůdek, pero el lugar exacto se discute. Al año siguiente Enrique volvió a invadir, sitió Praga y lo obligó a renunciar a sus conquistas, salvo Moravia, y a reconocerlo como soberano.",
+      "regiones": [
+        "bohemia"
+      ],
+      "fuentes": [
+        "cronica-de-los-bohemios"
+      ],
+      "wikipedia": {
+        "es": "Bretislao I de Bohemia",
+        "en": "Bretislav I"
+      }
+    },
+    {
+      "id": "vladislao-ii-recibe-la-corona-real",
+      "titulo": "Federico Barbarroja corona rey a Vladislao II de Bohemia",
+      "anio": 1158,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Ratisbona",
+      "lon": 12.083,
+      "lat": 49.017,
+      "tipo": "politico",
+      "resumen": "En la dieta imperial de Ratisbona, el 11 de enero de 1158, Federico I coronó con una diadema a Vladislao II, duque de Bohemia, y le dio el título de rey, que no era hereditario. Vladislao acompañó ese año al emperador a Italia contra Milán.",
+      "regiones": [
+        "alemania",
+        "bohemia"
+      ],
+      "fuentes": [
+        "anales-de-vicente-de-praga"
+      ],
+      "wikipedia": {
+        "es": "Ladislao II de Bohemia",
+        "en": "Vladislaus II, Duke and King of Bohemia"
+      }
+    },
+    {
+      "id": "bula-de-oro-de-sicilia",
+      "titulo": "Bula de oro de Sicilia",
+      "anio": 1212,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Basilea",
+      "lon": 7.588,
+      "lat": 47.558,
+      "tipo": "politico",
+      "resumen": "Federico II, rey de Sicilia, confirmó en Basilea el título real hereditario de Otakar I de Bohemia, que este había obtenido en 1198. Desde entonces el rey de Bohemia ya no fue nombrado por el emperador y el reino tuvo un lugar propio dentro del Sacro Imperio.",
+      "regiones": [
+        "alemania",
+        "bohemia"
+      ],
+      "fuentes": [
+        "bula-de-oro-de-sicilia-texto"
+      ],
+      "wikipedia": {
+        "es": "Bulla Áurea de Sicilia",
+        "en": "Golden Bull of Sicily"
+      }
+    },
+    {
+      "id": "batalla-de-sirmium",
+      "titulo": "Batalla de Sirmium",
+      "anio": 1167,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Zemun (Semlin), en Sirmia",
+      "lon": 20.4,
+      "lat": 44.85,
+      "tipo": "batalla",
+      "resumen": "El 8 de julio de 1167 el ejército bizantino de Manuel I Comneno derrotó a los húngaros cerca de Zemun, en Sirmia y los obligó a pedir la paz en los términos bizantinos. La batalla afirmó el dominio de Bizancio en los Balcanes occidentales.",
+      "regiones": [
+        "hungria",
+        "balcanes"
+      ],
+      "fuentes": [
+        "historia-de-nicetas-coniates"
+      ],
+      "wikipedia": {
+        "es": "Batalla de Sirmium",
+        "en": "Battle of Sirmium"
+      }
+    },
+    {
+      "id": "testamento-de-boleslao-iii",
+      "titulo": "Testamento de Boleslao III de Polonia",
+      "anio": 1138,
+      "anio_hasta": null,
+      "aprox": false,
+      "lugar": "Cracovia, sede del príncipe mayor",
+      "lon": 19.937,
+      "lat": 50.061,
+      "tipo": "politico",
+      "resumen": "Dictado hacia 1115 según unos autores, y poco antes de su muerte según otros, entró en vigor al morir el duque en 1138: Boleslao III Bocatorcida repartió su reino entre sus cuatro hijos que vivían, con un príncipe mayor en Cracovia, para que no se pelearan entre ellos. Tras su muerte los hijos se enfrentaron y Polonia entró en un período de fragmentación de unos dos siglos.",
+      "regiones": [
+        "polonia"
+      ],
+      "fuentes": [
+        "anales-de-polonia"
+      ],
+      "wikipedia": {
+        "en": "Testament of Bolesław III Wrymouth"
       }
     }
   ],

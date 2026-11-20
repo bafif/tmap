@@ -5584,6 +5584,11 @@
     "motivo": "La única candidata, el estudio de González Leandri sobre la profesión médica, no consta que trate el hospital y no se identificó otra fuente verificable.",
     "fecha": "2026-11-17"
   },
+  "ref:sin-fuentes:fundacion-del-hospital-de-santafe": {
+    "decision": "sin-datos",
+    "motivo": "No se pudo verificar una fuente que trate la fundación del hospital; la biografía de Romero sobre fray Juan de los Barrios queda por consultar.",
+    "fecha": "2026-11-20"
+  },
   "ref:sin-fuentes:fundacion-del-hospital-frances": {
     "decision": "sin-datos",
     "motivo": "Devoto solo dice que el hospital de 1878 sucedía a uno anterior de la década de 1840, sin tratar la fundación de 1845, y no se encontró otra fuente verificable.",
@@ -5623,6 +5628,11 @@
     "decision": "sin-datos",
     "motivo": "La única fuente asignada, la ley 817 de 1876, no trata el edificio inaugurado en 1911 y no se pudo verificar ningún estudio que sí lo trate.",
     "fecha": "2026-11-17"
+  },
+  "ref:sin-fuentes:open-library": {
+    "decision": "sin-datos",
+    "motivo": "No se pudo confirmar en una fuente que trate el proyecto Open Library y la participación de Swartz; el documental sobre Swartz no lo menciona en lo consultado.",
+    "fecha": "2026-11-20"
   },
   "ref:sin-fuentes:repatriacion-de-los-restos-de-rosas": {
     "decision": "sin-datos",
@@ -14864,10 +14874,20 @@
     "motivo": "Ya está por 50 fichas de mesoamerica-antigua, como `cultura-olmeca`, `cultura-zapoteca`, `fundacion-de-monte-alban`, `escritura-maya`, `cuenta-larga` y `apogeo-de-el-mirador`; el panorama de mundo no necesita repetirlas.",
     "fecha": "2026-11-12"
   },
+  "tramo:mundo:mesoamerica:-760:40": {
+    "decision": "descartado",
+    "motivo": "Los hechos de Mesoamérica de esos años (San José Mogote, Monte Albán, El Mirador, San Bartolo, la cuenta larga) ya están en mesoamerica-antigua, que trata el tema con detalle; mundo toma de la región solo una muestra.",
+    "fecha": "2026-11-20"
+  },
   "tramo:mundo:mesoamerica:641:1040": {
     "decision": "descartado",
     "motivo": "Ya está por 51 fichas de mesoamerica-antigua y de debates-sobre-la-conquista-de-america (`sacrificio-humano-en-america`, `debate-sobre-la-guerra-prehispanica`), y mundo ya tiene `apogeo-de-teotihuacan` y `llegada-de-siyaj-kak-a-tikal` en 350 y 378.",
     "fecha": "2026-11-12"
+  },
+  "tramo:mundo:mesoamerica:841:1040": {
+    "decision": "descartado",
+    "motivo": "El colapso maya clásico, Chichén Itzá y los toltecas de esos años ya están en mesoamerica-antigua, que trata el tema con detalle; mundo toma de la región solo una muestra.",
+    "fecha": "2026-11-20"
   },
   "tramo:mundo:mesopotamia:441:840": {
     "decision": "descartado",

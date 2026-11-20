@@ -2492,6 +2492,424 @@
         "en": "The Art of Unix Programming"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "accidental-empires-cringely",
+      "titulo": "Imperios accidentales",
+      "titulo_original": "Accidental Empires: How the Boys of Silicon Valley Make Their Millions, Battle Foreign Competition, and Still Can't Get a Date",
+      "autor": "Robert X. Cringely",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Palo Alto",
+        "lon": -122.16,
+        "lat": 37.444
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1975,
+        "hasta": 1992
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la industria de las computadoras personales escrita por un periodista del sector con tono de crónica. Cuenta la fundación de Apple por Steve Jobs y Steve Wozniak, la aparición de Microsoft, la compra del sistema operativo que Microsoft entregó a IBM para su PC en 1981 y la competencia de los años siguientes.",
+      "por_que_importa": "Es una crónica de testigo con anécdotas de primera mano, pero se la lee como relato más que como investigación documental.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Accidental Empires"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "hackerbibel-1985",
+      "titulo": "La Biblia del hacker (Die Hackerbibel)",
+      "titulo_original": "Die Hackerbibel",
+      "autor": "Wau Holland",
+      "autor_id": "wau-holland",
+      "tipo": "primaria",
+      "genero": "tecnologia",
+      "escrita": {
+        "anio": 1985,
+        "aprox": false,
+        "lugar": "Hamburgo",
+        "lon": 10.0,
+        "lat": 53.55
+      },
+      "trata": {
+        "regiones": [
+          "alemania"
+        ],
+        "desde": 1981,
+        "hasta": 1985
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro",
+      "resumen": "Compilación del Chaos Computer Club editada por Wau Holland y publicada por la editorial Grüne Kraft. Reúne artículos de la revista Datenschleuder, textos sobre redes y teléfonos, la historia del club, fundado en 1981, y el relato del caso del sistema Btx de Correos de 1984.",
+      "por_que_importa": "Es una fuente de la propia comunidad del club sobre sus primeros años.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Biblia del Hacker",
+        "en": "Hacker Bible"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "twenty-years-of-berkeley-unix-mckusick",
+      "titulo": "Veinte años de Unix de Berkeley: de propiedad de AT&T a libremente redistribuible",
+      "titulo_original": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable",
+      "autor": "Marshall Kirk McKusick",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1999,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1969,
+        "hasta": 1999
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo",
+      "resumen": "Capítulo del libro Open Sources escrito por uno de los desarrolladores del sistema de archivos de BSD. Cuenta la historia de BSD desde 1977, la creación de BSDi, la demanda de USL contra BSDi y la Universidad de California en 1992 y el acuerdo de 1994, que obligó a retirar unos pocos archivos.",
+      "por_que_importa": "Es el relato de un protagonista, que trabajó en el proyecto durante el juicio.",
+      "leer": [
+        {
+          "titulo": "Capítulo en el sitio de O'Reilly",
+          "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Open Sources"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "crypto-levy",
+      "titulo": "Cripto",
+      "titulo_original": "Crypto: How the Code Rebels Beat the Government, Saving Privacy in the Digital Age",
+      "autor": "Steven Levy",
+      "autor_id": "steven-levy",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2001,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1975,
+        "hasta": 2001
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la criptografía de clave pública y de la lucha de los criptógrafos, los cypherpunks y las empresas contra los intentos del gobierno de Estados Unidos de controlar el cifrado. Cuenta la propuesta del chip Clipper de 1993, con depósito de claves, y su rechazo, y la liberalización de las exportaciones de cifrado en 1996.",
+      "por_que_importa": "Es la historia de referencia de las «guerras del cifrado», escrita por un periodista que cubrió el tema.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Cripto. Cómo los informáticos libertarios vencieron al gobierno y salvaguardaron la intimidad en la era digital",
+        "en": "Crypto (book)"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "tpb-afk",
+      "titulo": "TPB AFK: The Pirate Bay lejos del teclado",
+      "titulo_original": "TPB AFK: The Pirate Bay Away from Keyboard",
+      "autor": "Simon Klose",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Estocolmo",
+        "lon": 18.069,
+        "lat": 59.329
+      },
+      "trata": {
+        "regiones": [
+          "escandinavia"
+        ],
+        "desde": 2003,
+        "hasta": 2012
+      },
+      "idioma_original": "Sueco",
+      "soporte": "Documental",
+      "resumen": "Documental sobre The Pirate Bay y sus fundadores, que sigue al sitio desde sus orígenes en el grupo Piratbyrån, la redada policial de 2006 y el juicio de 2009 hasta 2012, con las condenas confirmadas en apelación y Svartholm viviendo en Camboya. Se difundió con licencia libre.",
+      "por_que_importa": "Es el relato de un director cercano a los acusados; presenta sobre todo su versión.",
+      "leer": [
+        {
+          "titulo": "Sitio oficial de la película",
+          "url": "https://tpbafk.tv/",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "es": "TPB AFK",
+        "en": "TPB AFK"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "groklaw",
+      "titulo": "Groklaw",
+      "titulo_original": null,
+      "autor": "Pamela Jones",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2003,
+        "anio_hasta": 2013,
+        "aprox": false,
+        "lugar": "Chapel Hill",
+        "lon": -79.05,
+        "lat": 35.907
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2003,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sitio web",
+      "resumen": "Sitio de seguimiento jurídico fundado en 2003 por Pamela Jones, que publicaba y analizaba los escritos de los juicios sobre software libre, en especial SCO contra IBM y Novell, con aportes de lectores abogados. Dejó de actualizarse en 2013.",
+      "por_que_importa": "Fue la fuente que más difundió los expedientes del caso SCO; su postura era favorable a Linux y a IBM.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Groklaw"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "the-internets-own-boy",
+      "titulo": "El chico de internet: la historia de Aaron Swartz",
+      "titulo_original": "The Internet's Own Boy: The Story of Aaron Swartz",
+      "autor": "Brian Knappenberger",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Los Ángeles",
+        "lon": -118.244,
+        "lat": 34.052
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1986,
+        "hasta": 2013
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Documental",
+      "resumen": "Documental de Brian Knappenberger sobre Aaron Swartz, con entrevistas a su familia, colegas y amigos. Cuenta su trabajo en RSS y Creative Commons, su empresa Infogami y la fusión con Reddit, sus campañas contra la ley SOPA y la causa federal por descargar artículos de JSTOR.",
+      "por_que_importa": "Es una película de carácter simpatizante con Swartz; se difundió con licencia libre.",
+      "leer": [],
+      "wikipedia": {
+        "es": "La historia de Aaron Swartz. El chico de Internet",
+        "en": "The Internet's Own Boy"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "assange-v-swedish-prosecution-authority",
+      "titulo": "Assange contra la Fiscalía sueca [2012] UKSC 22",
+      "titulo_original": "Assange v Swedish Prosecution Authority [2012] UKSC 22",
+      "autor": "Corte Suprema del Reino Unido",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2012,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "britania",
+          "escandinavia"
+        ],
+        "desde": 2010,
+        "hasta": 2012
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Sentencia de la Corte Suprema británica del 30 de mayo de 2012, que decidió por mayoría de cinco a dos que la orden europea de detención emitida por la fiscalía sueca contra Julian Assange era válida. Resume los hechos del caso y la interpretación de la decisión marco sobre la orden europea.",
+      "por_que_importa": "Resuelve el recurso sobre la extradición a Suecia; hubo dos votos en disidencia.",
+      "leer": [
+        {
+          "titulo": "Sentencia en el sitio de la Corte Suprema del Reino Unido",
+          "url": "https://www.supremecourt.uk/cases/uksc-2011-0264",
+          "idioma": "en",
+          "dominio_publico": false
+        }
+      ],
+      "wikipedia": {
+        "en": "Assange v Swedish Prosecution Authority"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "google-v-oracle-2021",
+      "titulo": "Google LLC contra Oracle America, Inc., 593 U.S. 1 (2021)",
+      "titulo_original": "Google LLC v. Oracle America, Inc., 593 U.S. 1 (2021)",
+      "autor": "Corte Suprema de los Estados Unidos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2021,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2010,
+        "hasta": 2021
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Sentencia del 5 de abril de 2021, redactada por el juez Breyer con seis votos contra dos, que decidió que la copia por Google de unas 11 500 líneas de la interfaz de programación de Java para Android constituía uso legítimo. Resume el pleito desde la demanda de 2010.",
+      "por_que_importa": "Es la decisión que cerró el caso; la Corte no resolvió si esas interfaces pueden tener derecho de autor.",
+      "leer": [
+        {
+          "titulo": "Sentencia en el sitio de la Corte Suprema de los Estados Unidos",
+          "url": "https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf",
+          "idioma": "en",
+          "dominio_publico": true
+        }
+      ],
+      "wikipedia": {
+        "es": "Caso Oracle contra Google",
+        "en": "Google LLC v. Oracle America, Inc."
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "decreto-459-2010-conectar-igualdad",
+      "titulo": "Decreto 459/2010: Programa Conectar Igualdad",
+      "titulo_original": null,
+      "autor": "Cristina Fernández de Kirchner",
+      "autor_id": "cristina-kirchner",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 2010,
+        "hasta": 2010
+      },
+      "idioma_original": "Español",
+      "soporte": "Decreto",
+      "resumen": "Decreto del 6 de abril de 2010 que crea el Programa Conectar Igualdad para entregar una computadora portátil a los alumnos de escuelas secundarias, de educación especial y de institutos de formación docente públicos. Establece sus objetivos, la administración y la forma de financiarlo.",
+      "por_que_importa": "Es la norma de creación del programa.",
+      "leer": [
+        {
+          "titulo": "Texto en InfoLEG, el sitio oficial de normativa",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/165000-169999/165807/norma.htm",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "american-kingpin-bilton",
+      "titulo": "Capo estadounidense",
+      "titulo_original": "American Kingpin: The Epic Hunt for the Criminal Mastermind Behind the Silk Road",
+      "autor": "Nick Bilton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2011,
+        "hasta": 2015
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Libro del periodista Nick Bilton sobre Ross Ulbricht y el mercado en línea Silk Road, con el trabajo de los agentes federales que lo investigaron, el arresto de 2013 en San Francisco y el juicio de Nueva York, que terminó en la condena de febrero de 2015.",
+      "por_que_importa": "Es una reconstrucción periodística del caso; se basa en entrevistas con los investigadores y con documentos judiciales.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "elsevier-v-sci-hub-sdny",
+      "titulo": "Elsevier Inc. y otros contra Sci-Hub y otros (Tribunal del Distrito Sur de Nueva York, 15-cv-4282)",
+      "titulo_original": "Elsevier Inc. et al. v. Sci-Hub et al., No. 1:15-cv-04282 (S.D.N.Y.)",
+      "autor": "Tribunal del Distrito Sur de Nueva York",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2015,
+        "anio_hasta": 2017,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2015,
+        "hasta": 2017
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencia",
+      "resumen": "Expediente de la demanda de Elsevier contra Sci-Hub y Library Genesis, presentada en 2015, con la orden del juez Robert Sweet que bloqueó los dominios en octubre de 2015 y la sentencia en rebeldía de junio de 2017 por 15 millones de dólares. Alexandra Elbakyan no se presentó, pero envió una carta al juez.",
+      "por_que_importa": "Son los fallos que figuran en las crónicas del caso; Sci-Hub siguió funcionando con otros dominios.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -2740,7 +3158,8 @@
       ],
       "resumen": "Periodista estadounidense especializado en tecnología, autor de «Hackers» (1984), donde sistematizó la «ética hacker», y de «Crypto» (2001), sobre la criptografía civil.",
       "obras": [
-        "hackers-levy"
+        "hackers-levy",
+        "crypto-levy"
       ],
       "wikipedia": {
         "es": "Steven Levy",
@@ -2989,7 +3408,9 @@
         "empresario"
       ],
       "resumen": "Cofundador de Apple (1976) con Steve Wozniak, impulsor de la Macintosh, el iPod y el iPhone. Apple combinó sistemas cerrados con bases libres: su macOS se apoya en Darwin, derivado de BSD.",
-      "obras": [],
+      "obras": [
+        "macworld-2007-keynote-jobs"
+      ],
       "wikipedia": {
         "es": "Steve Jobs",
         "en": "Steve Jobs"
@@ -3085,7 +3506,9 @@
         "hacker"
       ],
       "resumen": "Periodista alemán, cofundador del Chaos Computer Club en 1981, que lo convirtió en una voz pública sobre la libertad de información y la privacidad. La fundación que lleva su nombre recaudó donaciones para WikiLeaks.",
-      "obras": [],
+      "obras": [
+        "hackerbibel-1985"
+      ],
       "wikipedia": {
         "es": "Wau Holland",
         "en": "Wau Holland"
@@ -4146,7 +4569,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "accidental-empires-cringely"
+      ],
       "wikipedia": {
         "es": "Apple",
         "en": "Apple Inc."
@@ -4166,7 +4591,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "accidental-empires-cringely"
+      ],
       "wikipedia": {
         "es": "IBM PC",
         "en": "IBM Personal Computer"
@@ -4209,7 +4636,9 @@
       "regiones": [
         "alemania"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hackerbibel-1985"
+      ],
       "wikipedia": {
         "es": "Chaos Computer Club",
         "en": "Chaos Computer Club"
@@ -4413,7 +4842,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "crypto-levy"
+      ],
       "wikipedia": {
         "es": "Chip Clipper",
         "en": "Clipper chip"
@@ -4613,7 +5044,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tpb-afk"
+      ],
       "wikipedia": {
         "es": "The Pirate Bay",
         "en": "The Pirate Bay"
@@ -4633,7 +5066,9 @@
       "regiones": [
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "tpb-afk"
+      ],
       "wikipedia": {
         "en": "The Pirate Bay trial"
       }
@@ -4800,7 +5235,9 @@
         "britania",
         "afganistan"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "wikileaks-la-guerra-de-assange"
+      ],
       "wikipedia": {
         "es": "Diarios de la Guerra de Afganistán",
         "en": "Afghan War documents leak"
@@ -4821,7 +5258,9 @@
         "britania",
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "wikileaks-la-guerra-de-assange"
+      ],
       "wikipedia": {
         "es": "Registros de la Guerra de Irak",
         "en": "Iraq War documents leak"
@@ -4886,7 +5325,9 @@
         "britania",
         "escandinavia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "assange-v-swedish-prosecution-authority"
+      ],
       "wikipedia": {
         "en": "Assange v Swedish Prosecution Authority"
       }
@@ -4986,7 +5427,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "readme-txt"
+      ]
     },
     {
       "id": "revelaciones-de-snowden",
@@ -5148,7 +5591,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "elsevier-v-sci-hub-sdny"
+      ]
     },
     {
       "id": "apagon-contra-sopa-y-pipa",
@@ -5226,7 +5671,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "american-kingpin-bilton"
+      ]
     },
     {
       "id": "lanzamiento-de-ethereum",
@@ -5283,7 +5730,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "twenty-years-of-berkeley-unix-mckusick"
+      ],
       "wikipedia": {
         "es": "UNIX System Laboratories, Inc. contra Berkeley Software Design, Inc.",
         "en": "UNIX System Laboratories, Inc. v. Berkeley Software Design, Inc."
@@ -5303,7 +5752,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "groklaw"
+      ],
       "wikipedia": {
         "en": "SCO Group, Inc. v. International Business Machines Corp."
       }
@@ -5322,7 +5773,9 @@
       "regiones": [
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "google-v-oracle-2021"
+      ],
       "wikipedia": {
         "es": "Caso Oracle contra Google",
         "en": "Google LLC v. Oracle America, Inc."
@@ -5364,7 +5817,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "decreto-459-2010-conectar-igualdad"
+      ],
       "wikipedia": {
         "es": "Conectar Igualdad"
       }
@@ -5406,7 +5861,9 @@
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-internets-own-boy"
+      ],
       "wikipedia": {
         "es": "Reddit",
         "en": "Reddit"
