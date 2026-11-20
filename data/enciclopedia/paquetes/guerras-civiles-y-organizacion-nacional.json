@@ -1688,6 +1688,130 @@
         "en": "1856 Argentina–Chile treaty"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "buenos-aires-desde-setenta-anos-atras",
+      "titulo": "Buenos Aires desde setenta años atrás",
+      "titulo_original": null,
+      "autor": "José Antonio Wilde",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1881,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1810,
+        "hasta": 1880
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Recuerdos de la vida de Buenos Aires desde 1810, escritos por un médico que la vio cambiar, en capítulos sobre las calles, los mercados, la inmigración, la sociedad, la educación, las fiestas y las instituciones. Fecha y cuenta hechos de la época de Rivadavia, como los primeros entierros en la Recoleta, la Sociedad de Beneficencia y la colonia escocesa, y repasa las mejoras de la ciudad hasta 1880.",
+      "por_que_importa": "Es una de las fuentes más usadas sobre la vida cotidiana de la ciudad entre la Revolución y 1880; Wilde escribe de memoria y con datos de la prensa, y sus fechas conviene cotejarlas.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Buenos_Aires_desde_setenta_a%C3%B1os_atr%C3%A1s",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "media"
+    },
+    {
+      "id": "dom-pedro-macaulay",
+      "titulo": "Dom Pedro: la lucha por la libertad en el Brasil y Portugal, 1798-1834",
+      "titulo_original": "Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798–1834",
+      "autor": "Neill Macaulay",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1986,
+        "aprox": false,
+        "lugar": "Durham",
+        "lon": -78.899,
+        "lat": 35.994
+      },
+      "trata": {
+        "regiones": [
+          "brasil",
+          "iberia"
+        ],
+        "desde": 1798,
+        "hasta": 1834
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Biografía de Pedro I del Brasil y IV de Portugal, desde la huida de la corte portuguesa a Río de Janeiro hasta su muerte. Cuenta la independencia, la guerra de la Cisplatina, la crisis con la Asamblea y su abdicación de 1831, y la guerra civil portuguesa.",
+      "por_que_importa": "Es una biografía académica muy citada sobre Pedro I; sitúa la pérdida de la Cisplatina entre las causas de su caída.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-inmigracion-en-la-argentina",
+      "titulo": "Historia de la inmigración en la Argentina",
+      "titulo_original": null,
+      "autor": "Fernando Devoto, con un apéndice de Roberto Benencia",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1825,
+        "hasta": 2000
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia general de las migraciones hacia la Argentina, de las primeras colonias agrícolas del siglo XIX a las migraciones de mediados del siglo XX, con un apéndice sobre la inmigración de países limítrofes hasta fines del siglo XX. Trata los movimientos de los distintos orígenes, la colonización agrícola, los mercados de trabajo y las asociaciones de las colectividades, como las sociedades de socorros mutuos y sus hospitales.",
+      "por_que_importa": "Es una de las síntesis académicas más citadas sobre la inmigración argentina; el autor estudió antes con detalle la italiana.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "oddone-historia-de-la-universidad-de-la-republica",
+      "titulo": "Historia de la Universidad de la República, tomo I: La Universidad vieja, 1849-1885",
+      "titulo_original": null,
+      "autor": "Juan Antonio Oddone y Blanca París de Oddone",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1963,
+        "aprox": false,
+        "lugar": "Montevideo",
+        "lon": -56.1645,
+        "lat": -34.9011
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1833,
+        "hasta": 1885
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la universidad uruguaya desde la ley de 1833 que la proyectó y su instalación en 1849 hasta 1885. Trata la creación de la institución, su reglamento orgánico, las facultades y los conflictos con el gobierno y con la Iglesia.",
+      "por_que_importa": "Es la historia de referencia de los orígenes de la universidad de Montevideo, escrita con documentos del archivo universitario; la publicó la propia universidad.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3587,7 +3711,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorias-postumas-de-paz"
+      ],
       "wikipedia": {
         "es": "Motín de Arequito",
         "en": "Arequito revolt"
@@ -3630,7 +3756,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "República de Entre Ríos",
         "en": "Republic of Entre Ríos"
@@ -3672,7 +3800,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "firma-del-tratado-del-cuadrilatero",
@@ -3710,7 +3840,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "ley-electoral-de-1821",
@@ -3726,7 +3858,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "fundacion-de-la-universidad-de-buenos-aires",
@@ -3742,7 +3876,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gutierrez-ensenanza-superior"
+      ],
       "wikipedia": {
         "es": "Universidad de Buenos Aires",
         "en": "University of Buenos Aires"
@@ -3762,7 +3898,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Reforma eclesiástica de Rivadavia"
       }
@@ -3781,7 +3919,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "buenos-aires-desde-setenta-anos-atras"
+      ],
       "wikipedia": {
         "es": "Cementerio de la Recoleta",
         "en": "La Recoleta Cemetery"
@@ -3801,7 +3941,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "aspectos-economicos-del-federalismo"
+      ],
       "wikipedia": {
         "es": "Banco de la Provincia de Buenos Aires",
         "en": "Bank of the Province of Buenos Aires"
@@ -3821,7 +3963,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "buenos-aires-desde-setenta-anos-atras",
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Sociedad de Beneficencia de Buenos Aires",
         "en": "Sociedad de Beneficencia de Buenos Aires"
@@ -3924,7 +4069,9 @@
         "rio-de-la-plata",
         "britania"
       ],
-      "fuentes": []
+      "fuentes": [
+        "buenos-aires-desde-setenta-anos-atras"
+      ]
     },
     {
       "id": "presidencia-de-rivadavia",
@@ -3961,7 +4108,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "observaciones-de-lamadrid"
+      ],
       "wikipedia": {
         "es": "Batalla de El Tala"
       }
@@ -4000,7 +4149,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "observaciones-de-lamadrid"
+      ],
       "wikipedia": {
         "es": "Batalla de Rincón de Valladares",
         "en": "Battle of Rincón de Valladares"
@@ -4020,7 +4171,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "asambleas-constituyentes-argentinas",
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "cruzada-de-los-treinta-y-tres-orientales",
@@ -4037,7 +4191,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Treinta y Tres Orientales",
         "en": "Thirty-Three Orientals"
@@ -4080,7 +4236,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Sarandí",
         "en": "Battle of Sarandí"
@@ -4126,7 +4284,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "combate-de-los-pozos",
@@ -4143,7 +4303,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Combate de Los Pozos",
         "en": "Battle of Los Pozos"
@@ -4164,7 +4326,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Batalla de Juncal",
         "en": "Battle of Juncal"
@@ -4185,7 +4349,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Ituzaingó",
         "en": "Battle of Ituzaingó"
@@ -4206,7 +4372,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Batalla de Monte Santiago",
         "en": "Battle of Monte Santiago"
@@ -4245,7 +4413,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "convencion-preliminar-de-paz",
@@ -4308,7 +4478,9 @@
       "regiones": [
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "dom-pedro-macaulay"
+      ],
       "wikipedia": {
         "es": "Pedro I de Brasil y IV de Portugal",
         "en": "Pedro I of Brazil"
@@ -4384,7 +4556,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Navarro"
       }
@@ -4446,7 +4620,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Puente de Márquez",
         "en": "Battle of Márquez Bridge"
@@ -4573,7 +4749,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "observaciones-de-lamadrid"
+      ],
       "wikipedia": {
         "es": "Batalla de La Ciudadela",
         "en": "Battle of La Ciudadela"
@@ -4674,7 +4852,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Hermanos Reynafé"
       }
@@ -4715,7 +4895,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": []
+      "fuentes": [
+        "the-paraguayan-war-whigham"
+      ]
     },
     {
       "id": "firma-del-acuerdo-de-san-nicolas",
@@ -4795,7 +4977,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Sitio de Buenos Aires"
       }
@@ -4954,7 +5138,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "descripcion-de-moussy"
+      ],
       "wikipedia": {
         "es": "Paraná (Argentina)",
         "en": "Paraná, Entre Ríos"
@@ -4992,7 +5178,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Nazario Benavídez",
         "en": "Nazario Benavídez"
@@ -5102,7 +5290,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Rinconada del Pocito"
       }
@@ -5121,7 +5311,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Batalla de Pavón",
         "en": "Battle of Pavón"
@@ -5141,7 +5333,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Matanza de Cañada de Gómez"
       }
@@ -5160,7 +5354,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Juan Esteban Pedernera",
         "en": "Juan Esteban Pedernera"
@@ -5181,7 +5377,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-paraguayan-war-whigham"
+      ],
       "wikipedia": {
         "es": "Carlos Antonio López",
         "en": "Carlos Antonio López"
@@ -5240,7 +5438,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-inmigracion-en-la-argentina"
+      ],
       "wikipedia": {
         "es": "Hospital Italiano de Buenos Aires",
         "en": "Hospital Italiano de Buenos Aires"
@@ -5280,7 +5480,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "oddone-historia-de-la-universidad-de-la-republica"
+      ],
       "wikipedia": {
         "es": "Universidad de la República",
         "en": "University of the Republic (Uruguay)"
@@ -5300,7 +5502,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "descripcion-de-moussy",
+        "historia-de-la-inmigracion-en-la-argentina"
+      ],
       "wikipedia": {
         "es": "Esperanza (Santa Fe)",
         "en": "Esperanza, Santa Fe"
@@ -5320,7 +5525,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "buenos-aires-desde-setenta-anos-atras"
+      ],
       "wikipedia": {
         "es": "Ferrocarril Oeste de Buenos Aires",
         "en": "Buenos Aires Western Railway"
@@ -5359,7 +5566,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "estudio-sobre-las-guerras-civiles-argentinas"
+      ],
       "wikipedia": {
         "es": "Guerras civiles argentinas",
         "en": "Argentine Civil Wars"

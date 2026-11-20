@@ -1935,6 +1935,68 @@
       "por_que_importa": "Fue una de las primeras lecturas críticas de la Conquista del Desierto desde la izquierda intelectual; su paralelo con la dictadura muestra cómo se leyó ese pasado desde el presente político.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "historia-de-la-historiografia-argentina",
+      "titulo": "Historia de la historiografía argentina",
+      "titulo_original": null,
+      "autor": "Fernando Devoto y Nora Pagano",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1852,
+        "hasta": 1975
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la historiografía argentina desde la erudición de la segunda mitad del siglo XIX hasta la renovación de los años sesenta, en seis capítulos: la historiografía erudita y el debate entre Mitre y López, los positivistas, la Nueva Escuela Histórica, el revisionismo, las historiografías de izquierda y la renovación en torno a José Luis Romero.",
+      "por_que_importa": "Es una de las obras de conjunto más citadas para recorrer el campo historiográfico argentino.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "decreto-1880-2011",
+      "titulo": "Decreto 1880/2011 de creación del Instituto Nacional de Revisionismo Histórico Argentino e Iberoamericano Manuel Dorrego",
+      "titulo_original": null,
+      "autor": "Cristina Fernández de Kirchner",
+      "autor_id": "cristina-kirchner",
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 2011,
+        "hasta": 2015
+      },
+      "idioma_original": "Español",
+      "soporte": "Decreto",
+      "resumen": "Decreto del 17 de noviembre de 2011, publicado en el Boletín Oficial el 21, que creó el Instituto Dorrego para estudiar y difundir las figuras y los hechos reivindicados por el revisionismo histórico. Un comunicado de historiadores universitarios lo criticó y el presidente del instituto rechazó esas críticas. El gobierno siguiente cerró el instituto en diciembre de 2015.",
+      "por_que_importa": "Es el documento con que el Estado creó un organismo para estudiar y difundir la corriente revisionista. Historiadores universitarios lo criticaron como la adopción de una historia oficial; sus impulsores lo defendieron como la reparación de una mirada relegada.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Instituto Nacional de Revisionismo Histórico Argentino e Iberoamericano Manuel Dorrego",
+        "en": "Manuel Dorrego national institute"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3302,7 +3364,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "decreto-1880-2011"
+      ],
       "wikipedia": {
         "es": "Instituto Nacional de Revisionismo Histórico Argentino e Iberoamericano Manuel Dorrego",
         "en": "Manuel Dorrego national institute"
@@ -3344,7 +3408,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-historiografia-argentina"
+      ],
       "wikipedia": {
         "es": "José Luis Romero (historiador)"
       }

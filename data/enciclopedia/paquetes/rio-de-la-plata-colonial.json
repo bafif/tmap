@@ -901,11 +901,11 @@
           "paraguay-oriental"
         ],
         "desde": 1512,
-        "hasta": 1593
+        "hasta": 1573
       },
       "idioma_original": "Español",
       "soporte": "Manuscrito; publicado por primera vez por Pedro de Angelis en 1835",
-      "resumen": "Historia de la conquista del Río de la Plata y el Paraguay desde Solís hasta fines del siglo XVI, terminada en La Plata de los Charcas en 1612 por un mestizo nieto de Irala. Combina testimonios orales de conquistadores con relatos legendarios, como el de Lucía Miranda, y defiende a la familia de Irala.",
+      "resumen": "Historia de la conquista del Río de la Plata y el Paraguay desde Solís hasta la fundación de Santa Fe (1573), terminada en La Plata de los Charcas en 1612 por un mestizo nieto de Irala. Combina testimonios orales de conquistadores con relatos legendarios, como el de Lucía Miranda, y defiende a la familia de Irala.",
       "por_que_importa": "Es la primera historia de la región escrita por un nacido en ella y contribuyó a difundir el nombre «Argentina»; sus datos deben contrastarse con documentos porque escribió décadas después de los hechos.",
       "leer": [
         {
@@ -2464,6 +2464,35 @@
         "en": "Dominus ac Redemptor"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "historia-de-la-ciudad-y-provincia-de-santa-fe",
+      "titulo": "Historia de la ciudad y provincia de Santa Fe, 1573-1853",
+      "titulo_original": null,
+      "autor": "Manuel María Cervera",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1907,
+        "aprox": false,
+        "lugar": "Santa Fe",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1573,
+        "hasta": 1853
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la ciudad desde su fundación por Garay hasta la sanción de la Constitución de 1853, escrita por un historiador radicado en Santa Fe con documentos del archivo local. Trata los alzamientos de 1580, el traslado de la ciudad, la defensa de la frontera del Chaco, el puerto preciso y las guerras civiles.",
+      "por_que_importa": "Es la historia clásica de Santa Fe y fuente de la historiografía local posterior.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5435,7 +5464,9 @@
       "regiones": [
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680"
+      ],
       "wikipedia": {
         "es": "Casa de la Contratación de Indias",
         "en": "Casa de Contratación"
@@ -5605,7 +5636,9 @@
         "noroeste-argentino",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680"
+      ],
       "wikipedia": {
         "es": "Inquisición peruana",
         "en": "Peruvian Inquisition"
@@ -5671,7 +5704,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "la-argentina-ruy-diaz"
+      ]
     },
     {
       "id": "viaje-de-magallanes",
@@ -5747,7 +5782,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "carta-de-luis-ramirez"
+      ]
     },
     {
       "id": "despoblamiento-de-buenos-aires",
@@ -5820,7 +5857,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "la-argentina-ruy-diaz"
+      ]
     },
     {
       "id": "fundacion-de-santa-cruz-de-la-sierra",
@@ -5836,7 +5875,9 @@
       "regiones": [
         "amazonia-andina"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "la-argentina-ruy-diaz"
+      ],
       "wikipedia": {
         "es": "Santa Cruz de la Sierra",
         "en": "Santa Cruz de la Sierra"
@@ -5857,7 +5898,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-el-barco",
@@ -5873,7 +5916,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Ciudad de El Barco",
         "en": "El Barco (settlement)"
@@ -5893,7 +5938,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-londres",
@@ -5909,7 +5956,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-mendoza",
@@ -5925,7 +5974,10 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "cronica-de-marino-de-lobera",
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "fundacion-de-san-juan",
@@ -5941,7 +5993,10 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "cronica-de-marino-de-lobera",
+        "historia-general-de-chile-barros-arana"
+      ]
     },
     {
       "id": "creacion-de-la-gobernacion-del-tucuman",
@@ -5958,7 +6013,9 @@
         "rio-de-la-plata",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Gobernación del Tucumán"
       }
@@ -5977,7 +6034,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-cordoba",
@@ -6081,7 +6140,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "traslado-de-san-miguel-de-tucuman",
@@ -6097,7 +6158,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "terremoto-de-esteco",
@@ -6113,7 +6176,9 @@
       "regiones": [
         "gran-chaco"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-santa-fe",
@@ -6147,7 +6212,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-ciudad-y-provincia-de-santa-fe",
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Revolución de los Siete Jefes"
       }
@@ -6167,7 +6235,10 @@
         "rio-de-la-plata",
         "gran-chaco"
       ],
-      "fuentes": []
+      "fuentes": [
+        "descripcion-del-gran-chaco",
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "fundacion-de-corrientes",
@@ -6183,7 +6254,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "permisos-de-comercio-de-buenos-aires",
@@ -6236,7 +6309,10 @@
         "paraguay-oriental",
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano",
+        "historia-provinciae-paraquariae"
+      ],
       "wikipedia": {
         "es": "Gobernación del Río de la Plata",
         "en": "Governorate of the Río de la Plata"
@@ -6275,7 +6351,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-ciudad-y-provincia-de-santa-fe"
+      ]
     },
     {
       "id": "primera-audiencia-de-buenos-aires",
@@ -6294,7 +6372,10 @@
         "noroeste-argentino",
         "iberia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680",
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Buenos Aires",
         "en": "Real Audiencia of Buenos Aires"
@@ -6315,7 +6396,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-ciudad-y-provincia-de-santa-fe"
+      ]
     },
     {
       "id": "fundacion-de-colonia-del-sacramento",
@@ -6349,7 +6432,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "histoire-du-paraguay"
+      ]
     },
     {
       "id": "asiento-britanico",
@@ -6389,7 +6474,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "sitio-de-colonia-1735",
@@ -6405,7 +6492,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ]
     },
     {
       "id": "toma-de-colonia-1762",
@@ -6486,7 +6575,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "histoire-du-paraguay"
+      ],
       "wikipedia": {
         "es": "Revolución comunera de 1721-1735 (Paraguay)",
         "en": "Revolt of the Comuneros (Paraguay)"
@@ -6535,7 +6626,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "recopilacion-de-indias-1680"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Charcas",
         "en": "Real Audiencia of Charcas"
@@ -6758,7 +6851,9 @@
       "regiones": [
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "recopilacion-de-indias-1680"
+      ]
     },
     {
       "id": "llegada-de-los-jesuitas-al-tucuman",
@@ -6855,7 +6950,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-provinciae-paraquariae",
+        "nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata"
+      ],
       "wikipedia": {
         "es": "Universidad Nacional de Córdoba",
         "en": "National University of Córdoba"
@@ -6956,7 +7054,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "nacimiento-y-desarrollo-de-la-filosofia-en-el-rio-de-la-plata"
+      ]
     },
     {
       "id": "imprenta-de-las-misiones",
@@ -7204,7 +7304,10 @@
         "noroeste-argentino",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-general-y-natural-de-las-indias",
+        "historia-general-de-chile-barros-arana"
+      ],
       "wikipedia": {
         "es": "Expedición de Almagro a Chile",
         "en": "Diego de Almagro's expedition to Chile"
@@ -7225,7 +7328,9 @@
         "iberia",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Tratado de Lisboa (1701)"
       }

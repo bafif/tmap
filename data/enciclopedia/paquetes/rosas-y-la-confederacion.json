@@ -1490,6 +1490,71 @@
       "por_que_importa": "Fue, antes de El Comercio del Plata, el principal diario de la emigración antirrosista en Montevideo y una de las fuentes de su propaganda.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "the-struggle-for-the-falkland-islands",
+      "titulo": "La lucha por las islas Malvinas: un estudio de historia jurídica y diplomática",
+      "titulo_original": "The Struggle for the Falkland Islands: A Study in Legal and Diplomatic History",
+      "autor": "Julius Goebel Jr.",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1927,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": 1764,
+        "hasta": 1850
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de los títulos de España, Gran Bretaña, Francia y de las Provincias Unidas sobre las islas. Trata la colonia de Luis Vernet, la captura de los pesqueros estadounidenses, el desembarco de la corbeta Lexington en 1831, la ocupación británica de 1833 y el reclamo argentino.",
+      "por_que_importa": "Es el estudio clásico sobre la disputa; sus conclusiones jurídicas favorables a la posición argentina suelen citarse, y las discute la historiografía británica.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "discurso-de-bello-universidad-de-chile",
+      "titulo": "Discurso en la inauguración de la Universidad de Chile",
+      "titulo_original": null,
+      "autor": "Andrés Bello",
+      "autor_id": "andres-bello",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1843,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "chile"
+        ],
+        "desde": 1842,
+        "hasta": 1843
+      },
+      "idioma_original": "Español",
+      "soporte": "Discurso",
+      "resumen": "Discurso que Andrés Bello, primer rector, pronunció el 17 de septiembre de 1843 en la instalación de la Universidad de Chile. Sostiene que la universidad debe ser un cuerpo que reúna y difunda todos los saberes, no solo las profesiones, y que sirva a la sociedad y a la moral.",
+      "por_que_importa": "Fija el programa de la universidad republicana de Chile.",
+      "leer": [
+        {
+          "titulo": "Texto en Wikisource",
+          "url": "https://es.wikisource.org/wiki/Discurso_en_la_inauguraci%C3%B3n_de_la_Universidad_de_Chile",
+          "idioma": "es",
+          "dominio_publico": true
+        }
+      ],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3628,7 +3693,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "juan-manuel-de-rosas-lynch",
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "primer-gobierno-de-rosas",
@@ -3726,7 +3794,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-struggle-for-the-falkland-islands"
+      ],
       "wikipedia": {
         "es": "Ocupación británica de las islas Malvinas (1833)",
         "en": "Reassertion of British sovereignty over the Falkland Islands (1833)"
@@ -3746,7 +3816,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Revolución de los Restauradores",
         "en": "Revolution of the Restorers"
@@ -3881,7 +3953,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "salon-literario",
@@ -3937,7 +4011,9 @@
         "andes",
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Guerra contra la Confederación Perú-Boliviana",
         "en": "War of the Confederation"
@@ -4040,7 +4116,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina",
+        "tablas-de-sangre"
+      ],
       "wikipedia": {
         "es": "Batalla de Pago Largo"
       }
@@ -4059,7 +4138,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "libres-del-sur",
@@ -4116,7 +4197,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Cagancha"
       }
@@ -4135,7 +4218,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Coalición del Norte"
       }
@@ -4215,7 +4300,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Quebracho Herrado",
         "en": "Battle of Quebracho Herrado"
@@ -4235,7 +4322,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Famaillá",
         "en": "Battle of Famaillá"
@@ -4255,7 +4344,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Rodeo del Medio",
         "en": "Battle of Rodeo del Medio"
@@ -4275,7 +4366,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "muerte-de-lavalle",
@@ -4292,7 +4385,9 @@
         "noroeste-argentino",
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "batalla-de-caaguazu",
@@ -4330,7 +4425,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Combate de Costa Brava"
       }
@@ -4349,7 +4446,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina",
+        "tablas-de-sangre"
+      ],
       "wikipedia": {
         "es": "Batalla de Arroyo Grande (Argentina)",
         "en": "Battle of Arroyo Grande"
@@ -4370,7 +4470,10 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina",
+        "montevideo-o-la-nueva-troya"
+      ],
       "wikipedia": {
         "es": "Guerra Grande",
         "en": "Uruguayan Civil War"
@@ -4412,7 +4515,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de India Muerta (1845)"
       }
@@ -4458,7 +4563,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "vuelta-de-obligado",
@@ -4542,7 +4649,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Vences"
       }
@@ -4681,7 +4790,9 @@
         "rio-de-la-plata",
         "brasil"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla del Paso del Tonelero",
         "en": "Battle of the Tonelero Pass"
@@ -4725,7 +4836,9 @@
       "regiones": [
         "britania"
       ],
-      "fuentes": []
+      "fuentes": [
+        "juan-manuel-de-rosas-lynch"
+      ]
     },
     {
       "id": "ejecucion-de-los-mazorqueros-1853",
@@ -4843,7 +4956,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "discurso-de-bello-universidad-de-chile"
+      ],
       "wikipedia": {
         "es": "Universidad de Chile",
         "en": "University of Chile"
@@ -4863,7 +4978,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "batalla-de-angaco",
@@ -4879,7 +4996,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Angaco",
         "en": "Battle of Angaco"
@@ -4899,7 +5018,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Laguna Limpia",
         "en": "Battle of Laguna Limpia"
@@ -4920,7 +5041,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": []
+      "fuentes": [
+        "the-paraguayan-war-whigham"
+      ]
     },
     {
       "id": "combate-del-tonelero-1846",
@@ -4956,7 +5079,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "juan-manuel-de-rosas-lynch",
+        "historia-de-la-confederacion-argentina"
+      ]
     },
     {
       "id": "guerra-platina",
@@ -4996,7 +5122,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-confederacion-argentina"
+      ],
       "wikipedia": {
         "es": "Batalla de Carpintería",
         "en": "Battle of Carpintería"
@@ -5016,7 +5144,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "the-struggle-for-the-falkland-islands"
+      ],
       "wikipedia": {
         "es": "Ataque del USS Lexington a Puerto Soledad",
         "en": "Falklands Expedition"
