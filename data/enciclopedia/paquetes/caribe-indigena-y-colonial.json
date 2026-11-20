@@ -2211,6 +2211,270 @@
         "en": "Book of Privileges"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "moya-pons-manual-de-historia-dominicana",
+      "titulo": "Manual de historia dominicana",
+      "titulo_original": null,
+      "autor": "Frank Moya Pons",
+      "autor_id": "frank-moya-pons",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1977,
+        "aprox": false,
+        "lugar": "Santiago de los Caballeros",
+        "lon": -70.7,
+        "lat": 19.45
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1492,
+        "hasta": 1977
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la isla de La Española y de la República Dominicana. Trata la Audiencia y la capitanía general de Santo Domingo, el saqueo de Drake de 1586, las devastaciones de Osorio de 1605 y 1606, la cesión de la colonia a Francia en 1795 y su recuperación.",
+      "por_que_importa": "Es el manual de historia dominicana más usado.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "klooster-illicit-riches",
+      "titulo": "Riquezas ilícitas: el comercio holandés en el Caribe, 1648-1795",
+      "titulo_original": "Illicit Riches: Dutch Trade in the Caribbean, 1648-1795",
+      "autor": "Wim Klooster",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "economia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Leiden",
+        "lon": 4.49,
+        "lat": 52.16
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1648,
+        "hasta": 1795
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio del comercio de los holandeses con las colonias de otras potencias en el Caribe. Trata a Curazao como depósito de esclavizados y de mercancías, su comunidad sefardí y sus lazos con la América española.",
+      "por_que_importa": "Es el estudio de referencia sobre Curazao como puerto comercial.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pestana-english-conquest-of-jamaica",
+      "titulo": "La conquista inglesa de Jamaica: el proyecto imperial de Oliver Cromwell",
+      "titulo_original": "The English Conquest of Jamaica: Oliver Cromwell's Bid for Empire",
+      "autor": "Carla Gardina Pestana",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Cambridge (Massachusetts)",
+        "lon": -71.106,
+        "lat": 42.375
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1654,
+        "hasta": 1660
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la expedición de Cromwell al Caribe, del fracaso ante Santo Domingo, de la toma de Jamaica en 1655 y de la resistencia de españoles y esclavos liberados hasta 1660.",
+      "por_que_importa": "Es el estudio de referencia sobre la conquista inglesa.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "hall-slave-society-danish-west-indies",
+      "titulo": "Sociedad esclavista en las Indias Occidentales Danesas: Santo Tomás, San Juan y Santa Cruz",
+      "titulo_original": "Slave Society in the Danish West Indies: St. Thomas, St. John, and St. Croix",
+      "autor": "Neville A. T. Hall",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1992,
+        "aprox": false,
+        "lugar": "Baltimore",
+        "lon": -76.615,
+        "lat": 39.286
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1672,
+        "hasta": 1848
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de las islas danesas del Caribe, de su economía azucarera, del código de castigos de 1733, de la prohibición danesa de la trata y de la emancipación de 1848.",
+      "por_que_importa": "Es una historia de conjunto de la esclavitud danesa en el Caribe.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pawson-buisseret-port-royal",
+      "titulo": "Port Royal, Jamaica",
+      "titulo_original": null,
+      "autor": "Michael Pawson y David Buisseret",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1975,
+        "aprox": false,
+        "lugar": "Oxford",
+        "lon": -1.258,
+        "lat": 51.752
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1655,
+        "hasta": 1692
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del puerto de Port Royal desde su fundación inglesa, con su comercio y sus corsarios, y con el terremoto de 1692 que hundió buena parte de la ciudad.",
+      "por_que_importa": "Es la historia de referencia de la ciudad.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "bennett-bondsmen-and-bishops",
+      "titulo": "Esclavos y obispos: esclavitud y aprendizaje en las plantaciones Codrington de Barbados, 1710-1838",
+      "titulo_original": "Bondsmen and Bishops: Slavery and Apprenticeship on the Codrington Plantations of Barbados, 1710-1838",
+      "autor": "J. Harry Bennett",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1958,
+        "aprox": false,
+        "lugar": "Berkeley",
+        "lon": -122.268,
+        "lat": 37.87
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1710,
+        "hasta": 1838
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de las plantaciones que Christopher Codrington legó a la Sociedad para la Propagación del Evangelio, de los esclavizados que trabajaban en ellas y de la administración de la sociedad hasta la emancipación.",
+      "por_que_importa": "Es el estudio de referencia sobre las plantaciones.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "breve-de-inocencio-xiii-universidad-de-la-habana",
+      "titulo": "Breve Aeternae Sapientiae de Inocencio XIII que autoriza la universidad de los dominicos de La Habana",
+      "titulo_original": null,
+      "autor": "Inocencio XIII",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1721,
+        "aprox": false,
+        "lugar": "Roma",
+        "lon": 12.4964,
+        "lat": 41.9028
+      },
+      "trata": {
+        "regiones": [
+          "caribe"
+        ],
+        "desde": 1721,
+        "hasta": 1728
+      },
+      "idioma_original": "Latín",
+      "soporte": "Breve apostólico",
+      "resumen": "Breve Aeternae Sapientiae, dado en Roma, en Santa María la Mayor, el 12 de septiembre de 1721, con el que el papa autoriza a los dominicos del convento de San Juan de Letrán de La Habana a crear una universidad con grados. Siguieron el pase regio del 27 de abril de 1722, la apertura el 5 de enero de 1728 y la real cédula de confirmación de Felipe V del 23 de septiembre de 1728.",
+      "por_que_importa": "Es el documento pontificio de origen de la universidad; durante años se lo llamó bula por error.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "syrett-siege-of-havana",
+      "titulo": "El sitio y la toma de La Habana, 1762",
+      "titulo_original": null,
+      "autor": "David Syrett (ed.)",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1970,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "norteamerica"
+        ],
+        "desde": 1762,
+        "hasta": 1763
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Documentos",
+      "resumen": "Edición de documentos británicos del sitio de La Habana, entre ellos cartas del almirante Pocock y del conde de Albemarle, con una introducción de Syrett.",
+      "por_que_importa": "Reúne los documentos británicos de la campaña.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "klooster-oostindie-curacao-age-of-revolutions",
+      "titulo": "Curazao en la era de las revoluciones, 1795-1800",
+      "titulo_original": "Curaçao in the Age of Revolutions, 1795-1800",
+      "autor": "Wim Klooster y Gert Oostindie (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Leiden",
+        "lon": 4.49,
+        "lat": 52.16
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "norte-de-sudamerica"
+        ],
+        "desde": 1795,
+        "hasta": 1800
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro colectivo",
+      "resumen": "Libro colectivo sobre Curazao entre la ocupación francesa de los Países Bajos y la ocupación británica de 1800. Trata la rebelión de esclavizados de 1795 dirigida por Tula y sus ecos de la Revolución Haitiana.",
+      "por_que_importa": "Es el estudio reciente sobre la rebelión de 1795.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4076,7 +4340,8 @@
       ],
       "resumen": "Historiador dominicano, autor de estudios sobre la economía del oro, la encomienda y la caída de la población de La Española en el siglo XVI y de manuales de historia dominicana y del Caribe.",
       "obras": [
-        "despues-de-colon-moya-pons"
+        "despues-de-colon-moya-pons",
+        "moya-pons-manual-de-historia-dominicana"
       ],
       "wikipedia": {
         "es": "Frank Moya Pons",
@@ -5093,7 +5358,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "moya-pons-manual-de-historia-dominicana"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Santo Domingo",
         "en": "Real Audiencia of Santo Domingo"
@@ -5113,7 +5380,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-general-y-natural-de-las-indias"
+      ]
     },
     {
       "id": "fundacion-de-la-universidad-de-santo-tomas-de-aquino",
@@ -5246,7 +5515,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-las-indias-las-casas"
+      ]
     },
     {
       "id": "saqueo-de-santo-domingo-1586",
@@ -5262,7 +5533,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": []
+      "fuentes": [
+        "moya-pons-manual-de-historia-dominicana"
+      ]
     },
     {
       "id": "devastaciones-de-osorio",
@@ -5278,7 +5551,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "moya-pons-manual-de-historia-dominicana"
+      ],
       "wikipedia": {
         "es": "Devastaciones de Osorio",
         "en": "Devastations of Osorio"
@@ -5359,7 +5634,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bennett-bondsmen-and-bishops"
+      ],
       "wikipedia": {
         "en": "Codrington Plantations"
       }
@@ -5442,7 +5719,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "pestana-english-conquest-of-jamaica"
+      ],
       "wikipedia": {
         "es": "Invasión de Jamaica",
         "en": "Invasion of Jamaica"
@@ -5485,7 +5764,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "pawson-buisseret-port-royal"
+      ],
       "wikipedia": {
         "es": "Terremoto de Jamaica de 1692",
         "en": "1692 Jamaica earthquake"
@@ -5530,7 +5811,9 @@
         "norte-de-sudamerica",
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "klooster-illicit-riches"
+      ],
       "wikipedia": {
         "es": "Historia de Curazao",
         "en": "History of Curaçao"
@@ -5551,7 +5834,9 @@
         "norte-de-sudamerica",
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "klooster-oostindie-curacao-age-of-revolutions"
+      ],
       "wikipedia": {
         "en": "Curaçao Slave Revolt of 1795"
       }
@@ -5570,7 +5855,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hall-slave-society-danish-west-indies"
+      ],
       "wikipedia": {
         "es": "Indias Occidentales Danesas",
         "en": "Danish West Indies"
@@ -5611,7 +5898,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "geschichte-der-mission-oldendorp"
+      ],
       "wikipedia": {
         "es": "Insurrección de esclavos de 1733 en San Juan",
         "en": "1733 slave insurrection on St. John"
@@ -5675,7 +5964,9 @@
         "caribe",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "syrett-siege-of-havana"
+      ],
       "wikipedia": {
         "es": "Toma de La Habana",
         "en": "Siege of Havana"
@@ -5695,7 +5986,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": []
+      "fuentes": [
+        "breve-de-inocencio-xiii-universidad-de-la-habana"
+      ]
     },
     {
       "id": "guerras-caribes-de-san-vicente",
@@ -5757,7 +6050,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "moya-pons-manual-de-historia-dominicana"
+      ],
       "wikipedia": {
         "es": "Tratado de Basilea (5 de abril de 1795)",
         "en": "Peace of Basel"
@@ -5967,7 +6262,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "black-jacobins"
+      ],
       "wikipedia": {
         "es": "Batalla de Vertières",
         "en": "Battle of Vertières"
@@ -6170,7 +6467,9 @@
       "regiones": [
         "caribe"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "moya-pons-manual-de-historia-dominicana"
+      ],
       "wikipedia": {
         "es": "Capitanía general de Santo Domingo",
         "en": "Captaincy General of Santo Domingo"

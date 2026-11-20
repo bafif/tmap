@@ -2506,6 +2506,185 @@
         "en": "Essays (Montaigne)"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "carta-lopez-obrador-2019",
+      "titulo": "Carta de Andrés Manuel López Obrador al rey Felipe VI",
+      "titulo_original": null,
+      "autor": "Andrés Manuel López Obrador",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "epistolar",
+      "escrita": {
+        "anio": 2019,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "iberia",
+          "mesoamerica"
+        ],
+        "desde": 2019,
+        "hasta": 2019
+      },
+      "idioma_original": "Español",
+      "soporte": "Carta",
+      "resumen": "Carta de marzo de 2019 en la que el presidente de México pide al rey de España que reconozca los abusos cometidos en la conquista y pida perdón a los pueblos originarios. Una carta parecida se envió al papa Francisco.",
+      "por_que_importa": "Es el documento que abrió el debate diplomático de 2019.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "kelley-yale-a-history",
+      "titulo": "Yale: una historia",
+      "titulo_original": "Yale: A History",
+      "autor": "Brooks Mather Kelley",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1974,
+        "aprox": false,
+        "lugar": "New Haven",
+        "lon": -72.925,
+        "lat": 41.308
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "norteamerica"
+        ],
+        "desde": 1701,
+        "hasta": 1974
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de la universidad de Yale desde la autorización de la Escuela Colegiada de Connecticut en 1701, su traslado a New Haven y su nombre en 1718.",
+      "por_que_importa": "Es la historia de referencia de la universidad.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "morton-pennsylvania-hospital",
+      "titulo": "Historia del Hospital de Pensilvania, 1751-1895",
+      "titulo_original": "The History of the Pennsylvania Hospital, 1751-1895",
+      "autor": "Thomas G. Morton",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1895,
+        "aprox": false,
+        "lugar": "Filadelfia",
+        "lon": -75.164,
+        "lat": 39.953
+      },
+      "trata": {
+        "regiones": [
+          "bosques-del-noreste",
+          "norteamerica"
+        ],
+        "desde": 1751,
+        "hasta": 1895
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del hospital fundado en Filadelfia por Thomas Bond y Benjamin Franklin, con su fundación en 1751, sus fondos y sus primeros años.",
+      "por_que_importa": "Es la historia de referencia del hospital, escrita por uno de sus médicos.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "ley-26963-monumento-a-colon",
+      "titulo": "Ley 26.963: convenio para restaurar, trasladar y emplazar el monumento a Colón",
+      "titulo_original": null,
+      "autor": "Congreso de la Nación Argentina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 2014,
+        "hasta": 2014
+      },
+      "idioma_original": "Español",
+      "soporte": "Ley",
+      "resumen": "Ley sancionada el 6 de agosto de 2014 que aprueba el convenio del 26 de marzo de 2014 entre el Estado nacional y la Ciudad de Buenos Aires para restaurar, trasladar y emplazar el monumento a Cristóbal Colón. La Nación paga el traslado y la Ciudad fija el lugar y se encarga de su custodia.",
+      "por_que_importa": "Es el texto legal que dispuso el traslado de la estatua.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "summerhill-williams-sinking-columbus",
+      "titulo": "Hundiendo a Colón: historia en disputa, política cultural y construcción de mitos durante el Quinto Centenario",
+      "titulo_original": "Sinking Columbus: Contested History, Cultural Politics, and Mythmaking during the Quincentenary",
+      "autor": "Stephen J. Summerhill y John Alexander Williams",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Gainesville",
+        "lon": -82.336,
+        "lat": 29.665
+      },
+      "trata": {
+        "regiones": [
+          "caribe",
+          "iberia",
+          "norteamerica"
+        ],
+        "desde": 1992,
+        "hasta": 1992
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio de las conmemoraciones de 1992 por los quinientos años del viaje de Colón en los Estados Unidos, España, Italia, México y la República Dominicana, con el Faro a Colón. Muestra cómo el relato tradicional de Colón dio paso a una crítica multicultural de la historia americana.",
+      "por_que_importa": "Uno de los autores dirigió la comisión estadounidense del Quinto Centenario, así que escribe también como participante.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "thompson-smashing-statues",
+      "titulo": "Derribar estatuas: auge y caída de los monumentos públicos de los Estados Unidos",
+      "titulo_original": "Smashing Statues: The Rise and Fall of America's Public Monuments",
+      "autor": "Erin L. Thompson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2022,
+        "aprox": false,
+        "lugar": "Nueva York (Nueva Ámsterdam)",
+        "lon": -74.006,
+        "lat": 40.713
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 1492,
+        "hasta": 2022
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia de los monumentos públicos estadounidenses y de los intentos de derribarlos. Trata el derribo de la estatua de Colón ante el Capitolio de Minnesota, en Saint Paul, el 10 de junio de 2020.",
+      "por_que_importa": "Está escrito desde los Estados Unidos y trata sobre todo los monumentos de ese país.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4688,7 +4867,9 @@
         "brasil",
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "muriel-hospitales-de-la-nueva-espana"
+      ]
     },
     {
       "id": "imprentas-de-la-america-colonial",
@@ -4732,7 +4913,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "kelley-yale-a-history"
+      ]
     },
     {
       "id": "fundacion-del-hospital-de-pensilvania",
@@ -4749,7 +4932,9 @@
         "bosques-del-noreste",
         "norteamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "morton-pennsylvania-hospital"
+      ]
     },
     {
       "id": "fundacion-del-archivo-general-de-indias",
@@ -4888,7 +5073,9 @@
         "mesoamerica",
         "andes"
       ],
-      "fuentes": []
+      "fuentes": [
+        "summerhill-williams-sinking-columbus"
+      ]
     },
     {
       "id": "doctrina-del-descubrimiento",
@@ -4952,7 +5139,9 @@
         "mesoamerica",
         "iberia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "carta-lopez-obrador-2019"
+      ]
     },
     {
       "id": "traslado-del-monumento-a-colon",
@@ -4968,7 +5157,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "ley-26963-monumento-a-colon"
+      ]
     },
     {
       "id": "derribo-de-estatuas-de-colon-2020",
@@ -4986,7 +5177,9 @@
         "norteamerica",
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "thompson-smashing-statues"
+      ],
       "wikipedia": {
         "en": "List of monuments and memorials removed during the George Floyd protests"
       }

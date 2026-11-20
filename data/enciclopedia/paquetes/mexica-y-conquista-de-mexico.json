@@ -1791,6 +1791,64 @@
       "por_que_importa": "Es el estudio de referencia sobre los itzaes y el fin de la independencia maya.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "leon-y-gama-dos-piedras",
+      "titulo": "Descripción histórica y cronológica de las dos piedras que con ocasión del nuevo empedrado se hallaron en la plaza principal de México",
+      "titulo_original": null,
+      "autor": "Antonio de León y Gama",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1792,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1790,
+        "hasta": 1792
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de la estatua de Coatlicue y de la Piedra del Sol, que aparecieron en 1790 en la plaza mayor de México. Describe los hallazgos y trata de explicar sus figuras con el calendario mexica.",
+      "por_que_importa": "Es la primera descripción de los hallazgos y uno de los primeros estudios arqueológicos de América.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "gillingham-cuauhtemocs-bones",
+      "titulo": "Los huesos de Cuauhtémoc: la forja de la identidad nacional en el México moderno",
+      "titulo_original": "Cuauhtémoc's Bones: Forging National Identity in Modern Mexico",
+      "autor": "Paul Gillingham",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Albuquerque",
+        "lon": -106.65,
+        "lat": 35.084
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1949,
+        "hasta": 1976
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Historia del anuncio de 1949 de los restos de Cuauhtémoc en Ixcateopan, de las comisiones que lo examinaron y de la discusión política que siguió.",
+      "por_que_importa": "Es el estudio principal sobre el caso.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4780,7 +4838,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "leon-y-gama-dos-piedras"
+      ],
       "wikipedia": {
         "es": "Piedra del Sol",
         "en": "Aztec sun stone"
@@ -4843,7 +4903,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "gillingham-cuauhtemocs-bones"
+      ],
       "wikipedia": {
         "es": "Ixcateopan de Cuauhtémoc",
         "en": "Ixcateopan de Cuauhtémoc"

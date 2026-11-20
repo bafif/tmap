@@ -1733,6 +1733,502 @@
       "por_que_importa": "Describe a los tehuelches de Santa Cruz cuando las campañas militares seguían en el norte de la Patagonia. Lo vio un visitante de pocas semanas, botánico de formación.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "miotti-salemme-2004",
+      "titulo": "Poblamiento, movilidad y territorios entre las sociedades cazadoras-recolectoras de Patagonia",
+      "titulo_original": null,
+      "autor": "Laura Miotti y Mónica Salemme",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Madrid",
+        "lon": -3.703,
+        "lat": 40.417
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "chile"
+        ],
+        "desde": -11000,
+        "hasta": 1500
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo de síntesis sobre el poblamiento de la Patagonia y la movilidad de sus grupos cazadores-recolectores, publicado en la revista Complutum. Reúne los fechados de los sitios más antiguos, como Piedra Museo y Los Toldos, y discute cómo se usó el territorio.",
+      "por_que_importa": "Es una síntesis arqueológica de referencia sobre las primeras ocupaciones de la Patagonia.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "gradin-aschero-aguerre-1976",
+      "titulo": "Investigaciones arqueológicas en la Cueva de las Manos, Estancia Alto Río Pinturas (Provincia de Santa Cruz)",
+      "titulo_original": null,
+      "autor": "Carlos J. Gradin, Carlos A. Aschero y Ana M. Aguerre",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": -7300,
+        "hasta": 700
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Informe de las excavaciones y del estudio de las pinturas de la Cueva de las Manos, en el alto río Pinturas, publicado en las Relaciones de la Sociedad Argentina de Antropología. Ordena las pinturas en secuencias de estilos y las relaciona con los fechados de las ocupaciones del sitio.",
+      "por_que_importa": "Es el estudio de base sobre la cronología y los estilos de las pinturas de la cueva.",
+      "leer": [
+        {
+          "titulo": "Texto en el repositorio de la Universidad Nacional de La Plata",
+          "url": "https://sedici.unlp.edu.ar/handle/10915/25285",
+          "idioma": "es",
+          "dominio_publico": false
+        }
+      ],
+      "confianza": "alta"
+    },
+    {
+      "id": "lopez-mazz-cerritos",
+      "titulo": "Cerritos de indios. Arqueología e historia de un pueblo originario de Uruguay",
+      "titulo_original": null,
+      "autor": "José López Mazz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2024,
+        "aprox": false,
+        "lugar": "Montevideo",
+        "lon": -56.1645,
+        "lat": -34.9011
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": -3000,
+        "hasta": 1600
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Libro sobre los montículos de tierra construidos desde hace unos cinco mil años en el este del Uruguay y regiones vecinas. Presenta las excavaciones, los fechados y lo que muestran sobre la vida, los entierros y las ceremonias de sus constructores.",
+      "por_que_importa": "Reúne la arqueología reciente de los cerritos, publicada por un arqueólogo que los excavó durante décadas.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "berberian-tafi-1988",
+      "titulo": "Sistemas de asentamiento prehispánicos en el valle de Tafí",
+      "titulo_original": null,
+      "autor": "Eduardo E. Berberián (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Córdoba (Argentina)",
+        "lon": -64.183,
+        "lat": -31.417
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": -300,
+        "hasta": 600
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro colectivo",
+      "resumen": "Obra colectiva sobre la arqueología del valle de Tafí, en Tucumán. Describe los sistemas de asentamiento de la etapa Formativa, con sus casas circulares de piedra, su cerámica y su economía agropastoril.",
+      "por_que_importa": "Es una referencia habitual para la cultura Tafí y sus aldeas.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "handbook-of-south-american-indians",
+      "titulo": "Manual de los indios sudamericanos",
+      "titulo_original": "Handbook of South American Indians",
+      "autor": "Julian H. Steward (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1946,
+        "anio_hasta": 1959,
+        "aprox": false,
+        "lugar": "Washington D. C.",
+        "lon": -77.037,
+        "lat": 38.895
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "amazonia-brasilena",
+          "brasil",
+          "caribe",
+          "centroamerica",
+          "chile",
+          "norte-de-sudamerica",
+          "patagonia",
+          "rio-de-la-plata",
+          "noroeste-argentino",
+          "gran-chaco",
+          "paraguay-oriental",
+          "amazonia-andina"
+        ],
+        "desde": -10000,
+        "hasta": 1959
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Colección",
+      "resumen": "Obra colectiva en siete volúmenes publicada por la Smithsonian Institution (Bureau of American Ethnology, Boletín 143). Cada capítulo describe a un pueblo o a un grupo de pueblos de Sudamérica, con lo que se sabía por las crónicas y las investigaciones de campo hasta mediados del siglo XX.",
+      "por_que_importa": "Fue durante décadas la enciclopedia de referencia sobre los pueblos indígenas sudamericanos; sus datos se corrigieron después con nuevas investigaciones.",
+      "leer": [],
+      "wikipedia": {
+        "en": "Handbook of South American Indians"
+      },
+      "confianza": "alta"
+    },
+    {
+      "id": "boixados-2011",
+      "titulo": "El fin de las guerras calchaquíes. La desnaturalización de la nación yocavil a La Rioja (1667)",
+      "titulo_original": null,
+      "autor": "Roxana Boixadós",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1659,
+        "hasta": 1667
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en la revista Corpus sobre el final de las guerras calchaquíes y el traslado de los pueblos del valle de Yocavil, a partir de documentos de la época. Muestra cómo se repartieron y se sacaron de sus tierras los grupos vencidos.",
+      "por_que_importa": "Es un estudio reciente, basado en documentos, sobre las desnaturalizaciones que cerraron las guerras calchaquíes.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "lewin-tupac-amaru",
+      "titulo": "La rebelión de Túpac Amaru y los orígenes de la emancipación americana",
+      "titulo_original": null,
+      "autor": "Boleslao Lewin",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1957,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "noroeste-argentino",
+          "rio-de-la-plata"
+        ],
+        "desde": 1780,
+        "hasta": 1783
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de la gran rebelión andina de 1780-1781, con sus repercusiones fuera del Perú. Incluye los levantamientos de la frontera del Tucumán, como el de los tobas y mestizos de Jujuy, y la represión de las autoridades.",
+      "por_que_importa": "Estudio extenso de la rebelión y de sus ecos en todo el virreinato, incluido el Tucumán.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "de-marco-guerra-de-la-frontera",
+      "titulo": "La guerra de la frontera: luchas entre indios y blancos, 1536-1917",
+      "titulo_original": null,
+      "autor": "Miguel Ángel De Marco",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "patagonia",
+          "gran-chaco"
+        ],
+        "desde": 1536,
+        "hasta": 1917
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de los enfrentamientos entre los pueblos indígenas y los españoles, y luego los gobiernos criollos y argentinos, en las pampas, la Patagonia y el Chaco. Sigue las líneas de fortines, los tratados con los caciques, los malones y las campañas militares hasta las del Chaco.",
+      "por_que_importa": "Historia política y militar escrita por un historiador naval, ex presidente de la Academia Nacional de la Historia, que sigue sobre todo las fuentes del Estado y del ejército.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "bracco-charruas-guenoas-guaranies",
+      "titulo": "Charrúas, guenoas y guaraníes: interacción y destrucción. Indígenas en el Río de la Plata",
+      "titulo_original": null,
+      "autor": "Diego Bracco",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Montevideo",
+        "lon": -56.1645,
+        "lat": -34.9011
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1500,
+        "hasta": 1831
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de los pueblos charrúas, minuanes (guenoas) y guaraníes de la Banda Oriental y el Litoral, de sus relaciones entre sí y con los españoles y portugueses. Trata la desarticulación de esos pueblos hasta la matanza de Salsipuedes de 1831.",
+      "por_que_importa": "Es una referencia reciente, con documentos de archivo, sobre los pueblos indígenas del Uruguay.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "baez-mason-zoologicos-humanos",
+      "titulo": "Zoológicos humanos: fotografías de fueguinos y mapuches en el Jardín de Aclimatación de París, siglo XIX",
+      "titulo_original": null,
+      "autor": "Christian Báez y Peter Mason",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Santiago de Chile",
+        "lon": -70.65,
+        "lat": -33.438
+      },
+      "trata": {
+        "regiones": [
+          "patagonia",
+          "francia",
+          "chile"
+        ],
+        "desde": 1880,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de las exhibiciones de personas kawésqar (1881), mapuche (1883) y selk'nam (1889) en París y otras ciudades europeas, con las fotografías que se conservan. Los selk'nam de 1889 se mostraron en un local que no fue un jardín zoológico ni una exposición industrial. Trata cómo se las trajo, cómo se las presentó al público y qué fue de ellas.",
+      "por_que_importa": "Reúne las fotografías y los datos de los fueguinos exhibidos en Europa.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "combes-2005-kuruyuki",
+      "titulo": "Las batallas de Kuruyuki. Variaciones sobre una derrota chiriguana",
+      "titulo_original": null,
+      "autor": "Isabelle Combès",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Lima",
+        "lon": -77.037,
+        "lat": -12.06
+      },
+      "trata": {
+        "regiones": [
+          "gran-chaco"
+        ],
+        "desde": 1892,
+        "hasta": 1892
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en el Boletín del Instituto Francés de Estudios Andinos que compara los relatos de la batalla de Kuruyuki de 1892 y de la derrota de los chiriguanos de Apiaguaiki Tumpa. Contrasta las versiones de la época con las memorias de los chiriguanos y las de los escritores posteriores.",
+      "por_que_importa": "Es un estudio crítico de las versiones de la batalla.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "valko-malon-de-la-paz",
+      "titulo": "Los indios invisibles del Malón de la Paz: de la apoteosis al confinamiento, secuestro y destierro",
+      "titulo_original": null,
+      "autor": "Marcelo Valko",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino",
+          "rio-de-la-plata"
+        ],
+        "desde": 1946,
+        "hasta": 1946
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Libro sobre la marcha de los kollas de Jujuy y Salta a Buenos Aires en 1946, con testimonios y documentos. Cuenta cómo se organizó, cómo se la recibió y qué pasó después con los participantes.",
+      "por_que_importa": "Es un estudio de divulgación sobre el Malón de la Paz, con testimonios.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "andino-ultimo-malon-1998",
+      "titulo": "El último malón de los indios mocovíes: San Javier, 21 de abril de 1904",
+      "titulo_original": null,
+      "autor": "Mario Daniel Andino",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Santa Fe (Argentina)",
+        "lon": -60.7,
+        "lat": -31.633
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1870,
+        "hasta": 1904
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Libro de 133 páginas, publicado por la Universidad Nacional del Litoral, sobre el levantamiento de los mocovíes de San Javier en 1904. Reconstruye los hechos y el contexto de la colonización de la zona.",
+      "por_que_importa": "Es el libro de referencia citado sobre el levantamiento de San Javier.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "rostagno-fuerzas-en-operaciones-1911",
+      "titulo": "Informe. Fuerzas en operaciones en el Chaco, 1911",
+      "titulo_original": null,
+      "autor": "Enrique Rostagno",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 1912,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "gran-chaco",
+          "rio-de-la-plata"
+        ],
+        "desde": 1911,
+        "hasta": 1911
+      },
+      "idioma_original": "Español",
+      "soporte": "Informe militar",
+      "resumen": "Informe del coronel Enrique Rostagno, jefe de la expedición, sobre la campaña del ejército en el Chaco en 1911. Describe la marcha, los fortines que se fundaron y la relación con los pueblos indígenas, y presenta la campaña como obra civilizadora.",
+      "por_que_importa": "Es el informe oficial del jefe de la campaña, con el punto de vista del ejército.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "popper-exploracion-tierra-del-fuego",
+      "titulo": "Exploración de la Tierra del Fuego",
+      "titulo_original": null,
+      "autor": "Julio Popper",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "cronica",
+      "escrita": {
+        "anio": 1887,
+        "aprox": false,
+        "lugar": "Buenos Aires",
+        "lon": -58.3816,
+        "lat": -34.6037
+      },
+      "trata": {
+        "regiones": [
+          "patagonia"
+        ],
+        "desde": 1886,
+        "hasta": 1887
+      },
+      "idioma_original": "Español",
+      "soporte": "Conferencia",
+      "resumen": "Conferencia que Julio Popper dio en el Instituto Geográfico Argentino el 5 de marzo de 1887 y se publicó en el Boletín del Instituto, tomo 8. Cuenta su expedición a Tierra del Fuego, los lavaderos de oro y su trato con los pueblos de la isla.",
+      "por_que_importa": "Es el relato del propio Popper, escrito para defender su empresa.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "boixados-2020",
+      "titulo": "Etnias, culturas e historias: capayanes y olongastas en los textos de Salvador Canals Frau",
+      "titulo_original": null,
+      "autor": "Roxana Boixadós",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2020,
+        "aprox": false,
+        "lugar": "Mendoza",
+        "lon": -68.844,
+        "lat": -32.89
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1500,
+        "hasta": 1700
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo",
+      "resumen": "Artículo publicado en los Anales de Arqueología y Etnología, tomo 75, que revisa lo que se sabe de los capayanes y los olongastas de La Rioja y Catamarca a partir de los textos de Canals Frau y de las fuentes coloniales.",
+      "por_que_importa": "Es un estudio reciente que discute las categorías con que se nombró a esos pueblos.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -3847,7 +4343,9 @@
         "patagonia",
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "miotti-salemme-2004"
+      ]
     },
     {
       "id": "cazadores-de-la-puna",
@@ -3881,7 +4379,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "gradin-aschero-aguerre-1976"
+      ]
     },
     {
       "id": "constructores-de-cerritos",
@@ -3897,7 +4397,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "lopez-mazz-cerritos"
+      ],
       "wikipedia": {
         "es": "Cerritos de indios",
         "en": "Cerritos de Indios"
@@ -3917,7 +4419,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "berberian-tafi-1988"
+      ],
       "wikipedia": {
         "es": "Cultura Tafí"
       }
@@ -4087,7 +4591,9 @@
         "amazonia-andina",
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "memorial-de-charcas"
+      ],
       "wikipedia": {
         "es": "Chichas"
       }
@@ -4131,7 +4637,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Calchaquíes",
         "en": "Calchaquí"
@@ -4151,7 +4659,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ],
       "wikipedia": {
         "es": "Pueblo quilme",
         "en": "Quilme people"
@@ -4171,7 +4681,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "boixados-2020"
+      ],
       "wikipedia": {
         "es": "Capayanes",
         "en": "Capayán"
@@ -4191,7 +4703,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "boixados-2020"
+      ],
       "wikipedia": {
         "es": "Olongastas"
       }
@@ -4322,7 +4836,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "viaje-al-rio-de-la-plata"
+      ],
       "wikipedia": {
         "es": "Pueblo querandí",
         "en": "Querandí"
@@ -4342,7 +4858,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "handbook-of-south-american-indians"
+      ],
       "wikipedia": {
         "es": "Chanás",
         "en": "Chaná people"
@@ -4362,7 +4880,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "viaje-al-rio-de-la-plata"
+      ],
       "wikipedia": {
         "es": "Timbúes"
       }
@@ -4381,7 +4901,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bracco-charruas-guenoas-guaranies"
+      ],
       "wikipedia": {
         "es": "Charrúas",
         "en": "Charrúa"
@@ -4401,7 +4923,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bracco-charruas-guenoas-guaranies"
+      ],
       "wikipedia": {
         "es": "Minuanes",
         "en": "Minuane"
@@ -4422,7 +4946,9 @@
         "rio-de-la-plata",
         "paraguay-oriental"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "handbook-of-south-american-indians"
+      ],
       "wikipedia": {
         "es": "Guaraníes",
         "en": "Guaraní people"
@@ -4465,7 +4991,9 @@
       "regiones": [
         "gran-chaco"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "handbook-of-south-american-indians"
+      ],
       "wikipedia": {
         "es": "Pueblo chané",
         "en": "Chané"
@@ -4554,7 +5082,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "handbook-of-south-american-indians"
+      ],
       "wikipedia": {
         "es": "Pueblo pilagá",
         "en": "Pilagá"
@@ -4596,7 +5126,9 @@
       "regiones": [
         "gran-chaco"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "handbook-of-south-american-indians"
+      ],
       "wikipedia": {
         "es": "Pueblo chorote",
         "en": "Chorote"
@@ -5005,7 +5537,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "historia-de-la-conquista-lozano"
+      ]
     },
     {
       "id": "alzamiento-de-bohorquez",
@@ -5040,7 +5574,9 @@
         "noroeste-argentino",
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "boixados-2011"
+      ]
     },
     {
       "id": "reducciones-jesuiticas-del-chaco",
@@ -5077,7 +5613,9 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "lewin-tupac-amaru"
+      ]
     },
     {
       "id": "caida-demografica-indigena",
@@ -5226,7 +5764,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ]
     },
     {
       "id": "campana-de-rosas-al-desierto",
@@ -5264,7 +5804,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ]
     },
     {
       "id": "matanza-de-masalle",
@@ -5298,7 +5840,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "callvucura-zeballos"
+      ],
       "wikipedia": {
         "es": "Batalla de Sierra Chica"
       }
@@ -5356,7 +5900,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ]
     },
     {
       "id": "zanja-de-alsina",
@@ -5372,7 +5918,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "conquista-de-quince-mil-leguas"
+      ],
       "wikipedia": {
         "es": "Zanja de Alsina",
         "en": "Zanja de Alsina"
@@ -5414,7 +5962,10 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera",
+        "memorias-de-expropiacion"
+      ]
     },
     {
       "id": "combate-de-apeleg",
@@ -5430,7 +5981,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ],
       "wikipedia": {
         "es": "Combate de Apeleg"
       }
@@ -5450,7 +6003,9 @@
         "noroeste-argentino",
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ]
     },
     {
       "id": "rendicion-de-sayhueque",
@@ -5466,7 +6021,10 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera",
+        "memorias-de-expropiacion"
+      ]
     },
     {
       "id": "prisioneros-de-las-campanas",
@@ -5500,7 +6058,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "memorias-de-expropiacion"
+      ]
     },
     {
       "id": "misiones-salesianas-de-la-patagonia",
@@ -5516,7 +6076,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "memorias-de-expropiacion"
+      ]
     },
     {
       "id": "fueguinos-del-beagle",
@@ -5556,7 +6118,9 @@
       "regiones": [
         "chile"
       ],
-      "fuentes": []
+      "fuentes": [
+        "el-ultimo-confin-de-la-tierra"
+      ]
     },
     {
       "id": "mision-anglicana-de-ushuaia",
@@ -5591,7 +6155,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "el-ultimo-confin-de-la-tierra"
+      ]
     },
     {
       "id": "expedicion-de-popper",
@@ -5607,7 +6173,9 @@
       "regiones": [
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "popper-exploracion-tierra-del-fuego"
+      ],
       "wikipedia": {
         "es": "Fiebre del oro en Tierra del Fuego",
         "en": "Tierra del Fuego Gold Rush"
@@ -5672,7 +6240,9 @@
         "chile",
         "patagonia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-ultimo-confin-de-la-tierra"
+      ],
       "wikipedia": {
         "es": "Misión Salesiana de San Rafael"
       }
@@ -5692,7 +6262,9 @@
         "francia",
         "patagonia"
       ],
-      "fuentes": []
+      "fuentes": [
+        "baez-mason-zoologicos-humanos"
+      ]
     },
     {
       "id": "fundacion-de-formosa",
@@ -5767,7 +6339,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "andino-ultimo-malon-1998"
+      ]
     },
     {
       "id": "campana-del-chaco-1911",
@@ -5783,7 +6357,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "rostagno-fuerzas-en-operaciones-1911"
+      ]
     },
     {
       "id": "batalla-de-kuruyuki",
@@ -5799,7 +6375,9 @@
       "regiones": [
         "gran-chaco"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "combes-2005-kuruyuki"
+      ],
       "wikipedia": {
         "es": "Batalla de Kuruyuki",
         "en": "Battle of Kuruyuki"
@@ -5819,7 +6397,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bracco-charruas-guenoas-guaranies"
+      ],
       "wikipedia": {
         "es": "Matanza del Salsipuedes",
         "en": "Massacre of Salsipuedes"
@@ -5862,7 +6442,9 @@
         "noroeste-argentino",
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "valko-malon-de-la-paz"
+      ],
       "wikipedia": {
         "es": "Malón de la Paz",
         "en": "Malón de la Paz"
@@ -5882,7 +6464,9 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "de-marco-guerra-de-la-frontera"
+      ]
     }
   ],
   "lugares": [

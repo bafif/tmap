@@ -1701,6 +1701,123 @@
       "por_que_importa": "Es la primera gran obra teológica escrita en una lengua maya. Algunos investigadores sostienen que los autores k'iche' del Popol Vuh la conocían y escribieron en parte como respuesta a ella.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "siebe-2000-xitle",
+      "titulo": "Edad e implicaciones arqueológicas del volcán Xitle, suroeste de la cuenca de México",
+      "titulo_original": "Age and archaeological implications of Xitle volcano, southwestern Basin of Mexico-City",
+      "autor": "Claus Siebe",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Ciudad de México",
+        "lon": -99.136,
+        "lat": 19.354
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 200,
+        "hasta": 400
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo del Journal of Volcanology and Geothermal Research que fecha por radiocarbono la erupción del Xitle y discute su efecto sobre Cuicuilco y los asentamientos de la cuenca de México.",
+      "por_que_importa": "Es el estudio de referencia de la fecha de la erupción.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "millon-1988-ultimos-anos-teotihuacan",
+      "titulo": "Los últimos años del dominio de Teotihuacan",
+      "titulo_original": "The Last Years of Teotihuacan Dominance",
+      "autor": "René Millon",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Tucson",
+        "lon": -110.926,
+        "lat": 32.222
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 450,
+        "hasta": 650
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo",
+      "resumen": "Capítulo del libro «The Collapse of Ancient States and Civilizations» sobre el final de Teotihuacan. Describe el incendio de los edificios de la Calzada de los Muertos hacia 550 y discute si fue una revuelta interna o una invasión.",
+      "por_que_importa": "Es el estudio principal sobre el incendio y la caída de la ciudad.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "diehl-tula",
+      "titulo": "Tula: la capital tolteca del México antiguo",
+      "titulo_original": "Tula: The Toltec Capital of Ancient Mexico",
+      "autor": "Richard A. Diehl",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1983,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 900,
+        "hasta": 1150
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro",
+      "resumen": "Estudio arqueológico de Tula, en Hidalgo, con sus edificios, sus esculturas, su urbanismo y su relación con las crónicas que cuentan la historia de los toltecas.",
+      "por_que_importa": "Es la síntesis arqueológica principal sobre Tula.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "sax-2008-craneos-de-cristal",
+      "titulo": "Los orígenes de dos cráneos de cristal mexicanos supuestamente precolombinos",
+      "titulo_original": "The origins of two purportedly pre-Columbian Mexican crystal skulls",
+      "autor": "Margaret Sax, Jane M. Walsh y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Londres",
+        "lon": -0.128,
+        "lat": 51.507
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica",
+          "britania"
+        ],
+        "desde": 1860,
+        "hasta": 2008
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo",
+      "resumen": "Artículo del Journal of Archaeological Science en el que investigadores del Museo Británico y de la Smithsonian estudian con microscopio electrónico las marcas de talla de dos cráneos de cristal, y concluyen que se hicieron con herramientas rotativas modernas.",
+      "por_que_importa": "Es el estudio científico principal sobre los cráneos de cristal.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -3506,7 +3623,9 @@
         "area-maya",
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ancient-maya-demarest"
+      ],
       "wikipedia": {
         "es": "Preclásico maya",
         "en": "Preclassic Maya"
@@ -3544,7 +3663,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "siebe-2000-xitle"
+      ],
       "wikipedia": {
         "es": "Xitle",
         "en": "Xitle"
@@ -3586,7 +3707,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "millon-1988-ultimos-anos-teotihuacan"
+      ]
     },
     {
       "id": "cultura-tolteca",
@@ -3602,7 +3725,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "diehl-tula"
+      ],
       "wikipedia": {
         "es": "Cultura tolteca",
         "en": "Toltec"
@@ -3688,7 +3813,9 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "codice-florentino"
+      ],
       "wikipedia": {
         "es": "Pueblo huasteco",
         "en": "Huastec people"
@@ -3708,7 +3835,9 @@
       "regiones": [
         "aridoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "codice-florentino"
+      ],
       "wikipedia": {
         "es": "Chichimeca",
         "en": "Chichimeca"
@@ -3832,7 +3961,9 @@
         "area-maya",
         "mesoamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "chronicle-of-the-maya-kings-and-queens"
+      ]
     },
     {
       "id": "ataques-de-calakmul-a-palenque",
@@ -3906,7 +4037,9 @@
         "area-maya",
         "mesoamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "chronicle-of-the-maya-kings-and-queens"
+      ]
     },
     {
       "id": "captura-de-waxaklajuun-ubaah-kawiil",
@@ -4401,7 +4534,9 @@
         "britania",
         "mesoamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "sax-2008-craneos-de-cristal"
+      ],
       "wikipedia": {
         "es": "Cráneo de cristal",
         "en": "Crystal skull"
