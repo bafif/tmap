@@ -2299,7 +2299,7 @@
       "titulo": "Uranometría argentina",
       "titulo_original": "Uranometria Argentina",
       "autor": "Benjamin Apthorp Gould",
-      "autor_id": null,
+      "autor_id": "benjamin-gould",
       "tipo": "primaria",
       "genero": "ciencia",
       "escrita": {
@@ -2520,7 +2520,7 @@
       "titulo": "Histero-ovariotomías efectuadas en el Hospital de Mujeres desde 1883 a 1889",
       "titulo_original": null,
       "autor": "Cecilia Grierson",
-      "autor_id": null,
+      "autor_id": "cecilia-grierson",
       "tipo": "primaria",
       "genero": "medicina",
       "escrita": {
@@ -2611,7 +2611,7 @@
       "titulo": "La Universidad Nacional de La Plata: memoria sobre su fundación",
       "titulo_original": null,
       "autor": "Joaquín V. González",
-      "autor_id": null,
+      "autor_id": "joaquin-v-gonzalez",
       "tipo": "primaria",
       "genero": "politica",
       "escrita": {
@@ -4343,7 +4343,8 @@
       "obras": [
         "proyecto-de-ley-nacional-del-trabajo",
         "mis-montanas",
-        "la-tradicion-nacional"
+        "la-tradicion-nacional",
+        "gonzalez-universidad-nacional-de-la-plata"
       ],
       "wikipedia": {
         "es": "Joaquín Víctor González",
@@ -4810,7 +4811,9 @@
         "astrónomo"
       ],
       "resumen": "Astrónomo estadounidense contratado por el gobierno de Sarmiento, primer director del Observatorio Nacional de Córdoba (1871-1885). Con sus ayudantes catalogó las estrellas del cielo austral en la Uranometría argentina (1879) y organizó en 1872 la Oficina Meteorológica Argentina.",
-      "obras": [],
+      "obras": [
+        "uranometria-argentina"
+      ],
       "wikipedia": {
         "es": "Benjamin Apthorp Gould",
         "en": "Benjamin Apthorp Gould"
@@ -5068,7 +5071,9 @@
         "educadora"
       ],
       "resumen": "Maestra porteña que en 1889 se recibió en la Universidad de Buenos Aires como la primera médica del país. Fundó una escuela de enfermeras, promovió la puericultura, la kinesiología y los derechos civiles de las mujeres, y presidió el Primer Congreso Femenino Internacional (1910).",
-      "obras": [],
+      "obras": [
+        "tesis-grierson-1889"
+      ],
       "wikipedia": {
         "es": "Cecilia Grierson",
         "en": "Cecilia Grierson"

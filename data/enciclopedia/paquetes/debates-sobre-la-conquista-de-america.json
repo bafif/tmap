@@ -2512,7 +2512,7 @@
       "titulo": "Carta de Andrés Manuel López Obrador al rey Felipe VI",
       "titulo_original": null,
       "autor": "Andrés Manuel López Obrador",
-      "autor_id": null,
+      "autor_id": "andres-manuel-lopez-obrador",
       "tipo": "primaria",
       "genero": "epistolar",
       "escrita": {
@@ -4146,7 +4146,9 @@
         "político"
       ],
       "resumen": "Presidente de México entre 2018 y 2024. En 2019 pidió por carta al rey Felipe VI y al papa que pidieran perdón por los abusos de la conquista; el gobierno español rechazó el pedido.",
-      "obras": [],
+      "obras": [
+        "carta-lopez-obrador-2019"
+      ],
       "wikipedia": {
         "es": "Andrés Manuel López Obrador",
         "en": "Andrés Manuel López Obrador"

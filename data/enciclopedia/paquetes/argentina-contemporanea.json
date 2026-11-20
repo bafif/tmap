@@ -4245,7 +4245,7 @@
       "titulo": "Conferencia Nobel de Adolfo Pérez Esquivel",
       "titulo_original": "Nobel Lecture",
       "autor": "Adolfo Pérez Esquivel",
-      "autor_id": null,
+      "autor_id": "perez-esquivel",
       "tipo": "primaria",
       "genero": "discurso",
       "escrita": {
@@ -4353,7 +4353,7 @@
       "titulo": "Decreto 1601/2005 de cancelación de la deuda con el FMI",
       "titulo_original": null,
       "autor": "Néstor Kirchner",
-      "autor_id": null,
+      "autor_id": "nestor-kirchner",
       "tipo": "primaria",
       "genero": "legal",
       "escrita": {
@@ -4508,7 +4508,7 @@
       "titulo": "Decreto de necesidad y urgencia 297/2020 de aislamiento social, preventivo y obligatorio",
       "titulo_original": null,
       "autor": "Alberto Fernández",
-      "autor_id": null,
+      "autor_id": "alberto-fernandez",
       "tipo": "primaria",
       "genero": "legal",
       "escrita": {
@@ -7133,7 +7133,9 @@
         "arquitecto"
       ],
       "resumen": "Arquitecto y escultor, coordinador del Servicio Paz y Justicia. Estuvo preso sin proceso durante la dictadura (1977-1978) y recibió el Nobel de la Paz en 1980 por su defensa no violenta de los derechos humanos.",
-      "obras": [],
+      "obras": [
+        "nobel-lecture-perez-esquivel"
+      ],
       "wikipedia": {
         "es": "Adolfo Pérez Esquivel",
         "en": "Adolfo Pérez Esquivel"
@@ -7443,7 +7445,8 @@
       ],
       "resumen": "Gobernador de Santa Cruz y presidente entre 2003 y 2007. Reestructuró la deuda en default, canceló la deuda con el FMI e impulsó la reapertura de los juicios por los crímenes de la dictadura. Dio nombre al kirchnerismo, que sus partidarios ven como un proyecto nacional y popular y sus críticos asocian a la corrupción en la obra pública y a la manipulación de las estadísticas oficiales.",
       "obras": [
-        "discurso-de-asuncion-de-kirchner"
+        "discurso-de-asuncion-de-kirchner",
+        "decreto-1601-2005"
       ],
       "wikipedia": {
         "es": "Néstor Kirchner",
@@ -7825,7 +7828,9 @@
         "presidente"
       ],
       "resumen": "Jefe de Gabinete de Néstor Kirchner y presidente entre 2019 y 2023, con Cristina Kirchner como vicepresidenta; gobernó durante la pandemia de COVID-19 y una inflación creciente. Después fue procesado por violencia de género contra su exesposa e investigado por la contratación de seguros estatales; niega los cargos.",
-      "obras": [],
+      "obras": [
+        "dnu-297-2020"
+      ],
       "wikipedia": {
         "es": "Alberto Fernández",
         "en": "Alberto Fernández"

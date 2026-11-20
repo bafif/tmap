@@ -19980,7 +19980,7 @@
       "titulo": "Carta de la Unión de Kalmar",
       "titulo_original": "Unionsbrevet",
       "autor": "Margarita I de Dinamarca",
-      "autor_id": null,
+      "autor_id": "margarita-i",
       "tipo": "primaria",
       "genero": "legal",
       "escrita": {
@@ -20105,7 +20105,7 @@
       "titulo": "Ditié de Jehanne d'Arc",
       "titulo_original": "Ditié de Jehanne d'Arc",
       "autor": "Cristina de Pizán",
-      "autor_id": null,
+      "autor_id": "cristina-de-pizan",
       "tipo": "primaria",
       "genero": "poesia",
       "escrita": {
@@ -25172,7 +25172,8 @@
       ],
       "resumen": "Escritora veneciana criada en la corte de Carlos V de Francia. Viuda joven, vivió de su pluma; en La ciudad de las damas respondió a la misoginia de los autores con una galería de mujeres ilustres y escribió sobre política, guerra y educación de los príncipes.",
       "obras": [
-        "la-ciudad-de-las-damas"
+        "la-ciudad-de-las-damas",
+        "ditie-de-jehanne-d-arc"
       ],
       "wikipedia": {
         "es": "Christine de Pizan",
@@ -27784,7 +27785,9 @@
         "reina"
       ],
       "resumen": "Reina que unió Dinamarca, Noruega y Suecia en la Unión de Kalmar (1397).",
-      "obras": [],
+      "obras": [
+        "carta-de-la-union-de-kalmar"
+      ],
       "wikipedia": {
         "es": "Margarita I de Dinamarca",
         "en": "Margaret I of Denmark"

@@ -14983,12 +14983,15 @@
       "titulo": "Declaración de Bashar al-Asad sobre su salida de Siria",
       "titulo_original": null,
       "autor": "Bashar al-Asad",
-      "autor_id": null,
+      "autor_id": "bashar-al-asad",
       "tipo": "primaria",
       "genero": "politica",
       "escrita": {
         "anio": 2024,
-        "aprox": false
+        "aprox": false,
+        "lugar": "Moscú",
+        "lon": 37.617,
+        "lat": 55.751
       },
       "trata": {
         "regiones": [
@@ -21302,7 +21305,9 @@
         "médico"
       ],
       "resumen": "Hijo de Hafez al-Ásad, a quien sucedió como presidente de Siria en 2000. Su gobierno reprimió las protestas de 2011, que se convirtieron en la guerra civil siria; la ONU contó 306.887 civiles muertos entre 2011 y marzo de 2021, y el Observatorio Sirio de Derechos Humanos da más de 600.000 muertos en total hasta 2024. La OPAQ y el mecanismo conjunto de la ONU y la OPAQ responsabilizaron a su gobierno de ataques con armas químicas, como el de Jan Sheijun en 2017; Ásad los llamó «una invención al cien por cien» y presentó a los rebeldes como «terroristas». Huyó a Moscú el 8 de diciembre de 2024, cuando los rebeldes entraron en Damasco, y Rusia le dio asilo.",
-      "obras": [],
+      "obras": [
+        "declaracion-de-bashar-al-asad-de-2024"
+      ],
       "wikipedia": {
         "es": "Bashar al-Ásad",
         "en": "Bashar al-Assad"
