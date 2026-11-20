@@ -40,16 +40,15 @@ why. Every pending task has its GitHub issue, created by `tools/github/organizar
 What's covered and what's missing, region by region, is in [the coverage report](docs/en/coverage.md).
 
 - [ ] **Fill the gaps in what has been researched** ([the procedure](docs/en/gaps.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lists what is missing. Every package has its scope fixed, the ones on the Americas
-      too, and the high and medium priority found online in the 39 packages has been filled and reviewed once. Still to
-      do is what each round uncovers, because completing a series, a war or an author's works makes it a topic: the
-      online detection has to be run again on those packages and what shows up filled in (above all the series of
-      offices opened by the rulers added). The low priority is also still to do: about 1080 events without sources,
-      about 45 sources without a link on sites that reject programs (Argentine court rulings and censuses, Gallica,
-      HathiTrust, eScholarship, Science), about 154 modern works in the packages on the Americas to be checked one by
-      one for an open-access edition (the first check was left half done because OpenAlex without a key runs out of its
-      daily quota), a dozen sources with no place of writing and seven stretches covered by other packages. It is filled
-      in rounds until each package's report shows nothing but decided gaps.
+      informe --red --prioridad baja` lists what is missing. Every package has its scope fixed, the high and medium
+      priority found online has been filled and reviewed twice, events have their sources, and there are no empty
+      stretches or sources without a place left undecided. Still to do is what each round uncovers, because completing a
+      series, a war or an author's works makes it a topic: the online detection has to be run again and what shows up
+      filled in. The low priority is also still to do: about 840 sources without a reading link, almost all modern works
+      still under copyright that have to be checked one by one for a legal open-access edition (OpenAlex without a key
+      checks about fifty a day and, of the hundred checked, only returned reviews), and about 45 on sites that reject
+      programs (Argentine court rulings and censuses, Gallica, HathiTrust, eScholarship, Science). It is filled in rounds
+      until each package's report shows nothing but decided gaps.
 - [ ] **The contemporary era outside Europe, the United States and Argentina.** Still missing are the 20th-century
       political history of Brazil, Mexico, Chile and the rest of Latin America, China after Mao, independent India,
       Africa after decolonization and Southeast Asia, with their own sources.
@@ -156,7 +155,8 @@ is done when its threshold is crossed, not before.
 
 - [ ] **Read packages on a separate thread** when the encyclopedia passes 10 MB or takes more than 1 s to open (the
       app logs it at startup: "Enciclopedia: N elementos… en X ms"), with a compact in-memory index. It is already
-      over 10 MB (10.1 MB, 8,911 items in 43 packages), although it opens in about 400 ms.
+      over 10 MB (13 MB, 11,162 items in 43 packages) and on a busy machine it opens in about a second: it has to be
+      measured on a computer with no other load and, if it takes over 1 s, done.
 - [ ] **Tiles by era and macroregion, download manager and capped cache** (autoload `Descargas`: priority queue, two
       requests at a time, nothing while the timeline is moving, reading in `WorkerThreadPool`, 500 MB cache with
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.
@@ -241,7 +241,13 @@ New packages reach installed copies as data updates, without waiting for an app 
   Indigenous peoples and Indian removal), the independence of Mexico and the Federal Republic of Central America, the
   leaders of independence in New Granada and Venezuela up to Gran Colombia, the viceroys of Peru, the governors and
   toquis of Chile, the Incas of the chroniclers' tradition, the kings of Portugal for what they meant to Brazil, the
-  Haitian Revolution with the massacres on each side, and the explorers of the Arctic.
+  Haitian Revolution with the massacres on each side, and the explorers of the Arctic. Then came the missing viceroys
+  of New Spain, the presidents of the Continental Congress, the monarchs of Navarre and the caliphs and cabinet chiefs
+  that completed their series.
+- **Every event, with its source**: almost every event cites at least one source that documents it: one tmap already
+  had when it really deals with that event (not just because it falls in the same region and period) or, if not, the
+  document itself, the testimony of someone who lived through it or the standard study, checked against the text. The
+  few that no verifiable source deals with yet stay without a source, with the reason.
 - **Legal reading links**: about 520 more sources have a link to the text on Wikisource, Project Gutenberg, the
   Internet Archive or an official site, checked and marked as public domain or open access; works still under
   copyright stay without a link, with the reason, and a copy that is not legal is never linked.

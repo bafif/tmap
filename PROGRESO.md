@@ -40,16 +40,15 @@ Cada tarea pendiente tiene su issue en GitHub, que crea `tools/github/organizar.
 Lo cubierto y lo que falta, región por región, está en [el informe de cobertura](docs/es/cobertura.md).
 
 - [ ] **Rellenar los huecos de lo investigado** ([el procedimiento](docs/es/huecos.md)). `tools/enciclopedia/huecos.py
-      informe --red --prioridad baja` lista lo que falta. Todos los paquetes tienen su alcance fijado, también los de
-      América, y la prioridad alta y media con red de los 39 se rellenó y se revisó una vez. Falta lo que destapa cada
-      ronda, porque completar una serie, una guerra o la obra de un autor la vuelve tema: hay que volver a correr la
-      detección con red de esos paquetes y rellenar lo que aparezca (sobre todo las series de cargos que abren los
-      gobernantes sumados). Falta también la prioridad baja: unos 1080 hechos sin fuentes, unas 45 fuentes sin enlace en
-      sitios que rechazan programas (fallos y censos argentinos, Gallica, HathiTrust, eScholarship, Science), unas 154
-      obras modernas de los paquetes de América que hay que revisar una por una por si tienen edición de acceso abierto
-      (la primera revisión quedó a medias porque OpenAlex sin clave agota su cupo diario), una decena de fuentes sin
-      lugar de escritura y siete tramos que cubren otros paquetes. Se rellena por rondas hasta que el informe de cada
-      paquete no muestre nada más que lo decidido.
+      informe --red --prioridad baja` lista lo que falta. Todos los paquetes tienen su alcance fijado, la prioridad alta y
+      media con red se rellenó y se revisó dos veces, los hechos tienen sus fuentes y no quedan tramos vacíos ni fuentes
+      sin lugar sin decidir. Falta lo que destapa cada ronda, porque completar una serie, una guerra o la obra de un autor
+      la vuelve tema: hay que volver a correr la detección con red y rellenar lo que aparezca. Falta también la prioridad
+      baja: unas 840 fuentes sin enlace de lectura, casi todas obras modernas con derechos vigentes que hay que revisar
+      una por una por si tienen una edición legal de acceso abierto (OpenAlex sin clave revisa unas cincuenta por día y,
+      de las cien revisadas, solo devolvió reseñas), y unas 45 en sitios que rechazan programas (fallos y censos
+      argentinos, Gallica, HathiTrust, eScholarship, Science). Se rellena por rondas hasta que el informe de cada paquete
+      no muestre nada más que lo decidido.
 - [ ] **La época contemporánea fuera de Europa, los Estados Unidos y la Argentina.** Faltan la historia política del
       siglo XX de Brasil, México, Chile y el resto de América Latina, China después de Mao, la India independiente,
       África después de la descolonización y el sudeste asiático, con sus fuentes propias.
@@ -158,7 +157,8 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 - [ ] **Leer los paquetes en un hilo aparte** cuando la enciclopedia pase los 10 MB o tarde más de 1 s en abrir (la
       app lo dice al arrancar: «Enciclopedia: N elementos… en X ms»), con un índice compacto en memoria. Ya pasó los
-      10 MB (10,1 MB, 8911 elementos de 43 paquetes), aunque abre en unos 400 ms.
+      10 MB (13 MB, 11 162 elementos de 43 paquetes) y en una máquina ocupada abre en alrededor de un segundo: hay que
+      medirlo en un equipo sin otra carga y, si pasa de 1 s, hacerlo.
 - [ ] **Teselas por época y macrorregión, administrador de descargas y caché con tope** (autoload `Descargas`: cola
       con prioridades, dos pedidos a la vez, nada mientras se mueve la línea de tiempo, lectura en
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
@@ -243,7 +243,13 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   traslado de los indios), la independencia de México y la República Federal de Centroamérica, los próceres de la
   Nueva Granada y Venezuela hasta la Gran Colombia, los virreyes del Perú, los gobernadores y toquis de Chile, los
   Incas de la tradición de los cronistas, los reyes de Portugal por lo que significaron para el Brasil, la revolución
-  haitiana con las matanzas de cada lado y los exploradores del Ártico.
+  haitiana con las matanzas de cada lado y los exploradores del Ártico. Después entraron los virreyes de Nueva España
+  que faltaban, los presidentes del Congreso Continental, los monarcas de Navarra y los califas y jefes de gabinete que
+  completaban sus series.
+- **Cada hecho, con su fuente**: casi todos los hechos citan al menos una fuente que los documenta: una que tmap ya
+  tenía cuando de verdad trata ese hecho (no solo porque cae en la misma región y época) o, si no, el documento mismo,
+  el testimonio de quien lo vivió o el estudio de referencia, revisados contra el texto. Los pocos que ninguna fuente
+  verificable trata todavía quedan sin fuente, con el motivo.
 - **Enlaces de lectura legales**: unas 520 fuentes más tienen un enlace al texto en Wikisource, el Proyecto Gutenberg,
   Internet Archive o un sitio oficial, comprobado y marcado como de dominio público o de acceso abierto; las obras con
   derechos vigentes quedan sin enlace, con el motivo, y nunca se enlaza una copia que no sea legal.
