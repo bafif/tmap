@@ -224,6 +224,10 @@ New packages reach installed copies as data updates, without waiting for an app 
   culture, language and religion layers. The American entries that were already there follow the same criteria
   (Mesoamerica is also defined by sacrifice, the viceroyalty eras tell the demographic collapse, and the Cry of
   Dolores was given in the name of Ferdinand VII).
+- **The Bronze Age in Egypt and Mesopotamia**: four packages, from the start of the timeline (3400 BC) to the end of
+  the New Kingdom and of the Kassites, with every attested king of every dynasty (the minor ones backed by their
+  dynasty's list), their officials, campaigns, archives and sites. Egypt follows Shaw's chronology (2000) and
+  Mesopotamia the middle chronology; what only the king lists or epic tell is given as tradition, and says so.
 - **No gaps in what has been researched**: each package has a fixed scope (its regions, its years, its axes and how well
   known the things it includes are) and `tools/enciclopedia/huecos.py` lists what is missing inside it, with Wikidata as
   a lead and not as truth; each batch goes through a writer, a reviewer who did not write it and a corrector, because

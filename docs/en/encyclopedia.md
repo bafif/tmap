@@ -44,6 +44,9 @@ piece of data says where it came from.
     `brasil-colonial-y-amazonia`, `norteamerica-indigena`, `norteamerica-colonial`,
     `debates-sobre-la-conquista-de-america`, `chile-colonial-y-araucania` and `areas-culturales-de-america`, with the
     ten culture areas of North America, the Maya area and Brazilian Amazonia as subregions.
+  - The Bronze Age in Egypt and Mesopotamia, from 3400 BC to the end of the New Kingdom and of the Kassites, in four
+    packages: `egipto-arcaico-y-reino-antiguo`, `egipto-reino-medio-y-nuevo`, `sumer-y-acad` and
+    `mesopotamia-del-segundo-milenio`.
 
   Since `edad-media`, every package is checked against Wikipedia and Wikidata (titles, ids, coordinates and
   lifespans), and its reading links responded when they were checked.

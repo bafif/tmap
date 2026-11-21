@@ -44,6 +44,9 @@ dato dice de dónde salió.
     `norteamerica-indigena`, `norteamerica-colonial`, `debates-sobre-la-conquista-de-america`,
     `chile-colonial-y-araucania` y `areas-culturales-de-america`, con las diez áreas culturales de Norteamérica, el área
     maya y la Amazonía brasileña como subregiones.
+  - La Edad del Bronce en Egipto y Mesopotamia, de 3400 a. C. al fin del Reino Nuevo y de los casitas, en cuatro
+    paquetes: `egipto-arcaico-y-reino-antiguo`, `egipto-reino-medio-y-nuevo`, `sumer-y-acad` y
+    `mesopotamia-del-segundo-milenio`.
 
   Desde `edad-media`, cada paquete está verificado contra Wikipedia y Wikidata (títulos, ids, coordenadas y fechas de
   vida), y sus enlaces de lectura respondieron al comprobarlos.

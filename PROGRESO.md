@@ -226,6 +226,10 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   regiones americanas tienen capas de cultura, idioma y religión. Las fichas americanas que ya estaban siguen el
   mismo criterio (Mesoamérica se define también por el sacrificio, las eras de los virreinatos cuentan la caída
   demográfica y el Grito de Dolores, que se dio en nombre de Fernando VII).
+- **La Edad del Bronce en Egipto y Mesopotamia**: cuatro paquetes, del comienzo de la línea de tiempo (3400 a. C.) al
+  fin del Reino Nuevo y de los casitas, con cada rey atestiguado de cada dinastía (los menores, con la lista de su
+  dinastía como respaldo), sus funcionarios, campañas, archivos y sitios. Egipto sigue la cronología de Shaw (2000) y
+  Mesopotamia la cronología media; lo que solo cuentan las listas reales o la épica va como tradición, dicho así.
 - **Sin huecos en lo investigado**: cada paquete tiene un alcance fijo (sus regiones, sus años, sus ejes y qué tan
   conocido es lo que incluye) y `tools/enciclopedia/huecos.py` lista lo que falta adentro, con Wikidata como pista y no
   como verdad; cada lote pasa por quien escribe, quien revisa sin haberlo escrito y quien corrige, porque la revisión

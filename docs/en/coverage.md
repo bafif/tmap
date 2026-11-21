@@ -6,11 +6,11 @@
 
 ## By the numbers
 
-- **Regions:** 107 (81 top-level) in 42 packages.
+- **Regions:** 107 (81 top-level) in 46 packages.
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 73 with religions, cultures or languages.
-- **Items:** 3,678 sources (160 with no place of writing), 3,164 people, 3,271 events and 942 places.
+- **Items:** 3,923 sources (226 with no place of writing), 4,026 people, 3,641 events and 1,184 places.
 
 ## Population: how much of the world each period covers
 
@@ -72,20 +72,20 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Scandinavia | edad-media | 6 (793 to today) | curated: Urlanis (1000–1500); by country: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 49 · 40 · 9 |
 | Sicily and Malta | edad-media | 10 (241 BC to today) | no series of its own; counted in Italy | 9 · 9 · 8 | 10 · 6 · 1 |
 | Wallachia and Moldavia | edad-media | 8 (6000 BC to today) | by country: ROU, MDA | 8 · 13 · 12 | 11 · 10 · 0 |
-| Egypt | egipto | 21 (5300 BC to 2011) | curated: Butzer (3000 BC–150 BC); by country: EGY | 9 · 9 · 6 | 114 · 70 · 15 |
-| Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 5 · 36 · 0 |
-| Nubia | egipto | 8 (2970 BC to 1821) | no series of its own; counted in Sudan and South Sudan | 10 · 8 · 10 | 2 · 6 · 0 |
-| Upper Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 0 · 9 · 1 |
-| Anatolia | mundo | 9 (1760 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 10 · 7 · 8 | 132 · 73 · 11 |
+| Egypt | egipto | 21 (5300 BC to 2011) | curated: Butzer (3000 BC–150 BC); by country: EGY | 9 · 9 · 6 | 236 · 253 · 148 |
+| Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 7 · 134 · 18 |
+| Nubia | egipto | 8 (2970 BC to 1821) | no series of its own; counted in Sudan and South Sudan | 10 · 8 · 10 | 15 · 29 · 28 |
+| Upper Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 10 · 143 · 93 |
+| Anatolia | mundo | 9 (1760 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 10 · 7 · 8 | 136 · 80 · 12 |
 | Central Andes | mundo | 8 (3000 BC to today) | by country: PER, BOL | 7 · 10 · 9 | 254 · 202 · 60 |
 | China (Yellow River and Yangtze basins) | mundo | 12 (1760 BC to today) | curated: Hanshu, Sima Biao (2–140); by country: CHN, HKG, MAC | 8 · 2 · 4 | 31 · 25 · 4 |
-| Greece | mundo | 10 (1760 BC to 2000) | by country: GRC | 3 · 2 · 3 | 68 · 48 · 6 |
+| Greece | mundo | 10 (1760 BC to 2000) | by country: GRC | 3 · 2 · 3 | 69 · 49 · 6 |
 | India (Indus and Ganges basins) | mundo | 9 (3300 BC to today) | by country: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 38 · 20 · 4 |
 | Italy | mundo | 11 (6000 BC to today) | curated: Frier, Harper, Russell, Scheidel (14–1450); by country: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 186 · 125 · 22 |
-| Levant | mundo | 11 (3500 BC to today) | sum of its subregions: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 45 · 172 · 57 |
+| Levant | mundo | 11 (3500 BC to today) | sum of its subregions: ISR, PSE, LBN, SYR, JOR | 9 · 5 · 6 | 61 · 193 · 62 |
 | Mesoamerica | mundo | 7 (1760 BC to today) | by country: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 295 · 220 · 94 |
-| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 4 · 5 · 5 | 58 · 47 · 6 |
-| Persia (Iranian Plateau) | mundo | 9 (2700 BC to 2000) | by country: IRN | 4 · 2 · 8 | 51 · 41 · 3 |
+| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 4 · 5 · 5 | 187 · 204 · 78 |
+| Persia (Iranian Plateau) | mundo | 9 (2700 BC to 2000) | by country: IRN | 4 · 2 · 8 | 66 · 65 · 8 |
 | Río de la Plata | mundo | 7 (10000 BC to today) | by country: ARG, URY, PRY | 6 · 12 · 6 | 498 · 590 · 94 |
 | Armorica (Brittany) (in France) | mundo-celta | 7 (5000 BC to today) | no series of its own; counted in France | 3 · 11 · 10 | 9 · 15 · 2 |
 | Caledonia (in Britain) | mundo-celta | 7 (4000 BC to today) | no series of its own; counted in Britain | 6 · 10 · 11 | 6 · 19 · 6 |
@@ -109,7 +109,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | East Africa (Great Lakes and Swahili coast) | regiones-del-mundo | 5 (800 to today) | by country: KEN, UGA, TZA, RWA, BDI | — · — · — | 4 · 2 · 0 |
 | East Turkestan (Xinjiang) | regiones-del-mundo | 6 (200 BC to today) | no series of its own; counted in China (Yellow River and Yangtze basins) | — · — · — | 0 · 0 · 0 |
 | Eastern Paraguay | regiones-del-mundo | 5 (1537 to today) | no series of its own; counted in Río de la Plata | 8 · 9 · 6 | 54 · 60 · 1 |
-| Ethiopia and the Horn of Africa | regiones-del-mundo | 6 (980 BC to today) | by country: ETH, ERI, DJI, SOM | — · — · — | 1 · 2 · 0 |
+| Ethiopia and the Horn of Africa | regiones-del-mundo | 6 (980 BC to today) | by country: ETH, ERI, DJI, SOM | — · — · — | 1 · 3 · 0 |
 | Gran Chaco | regiones-del-mundo | 4 (1884 to today) | no series of its own; counted in Río de la Plata | 8 · 7 · 7 | 85 · 22 · 2 |
 | Greenland | regiones-del-mundo | 5 (2500 BC to today) | by country: GRL | 8 · 4 · 5 | 26 · 23 · 6 |
 | Insulindia (Maritime Southeast Asia) | regiones-del-mundo | 5 (650 to today) | by country: IDN, MYS, SGP, BRN, PHL, TLS | — · — · — | 4 · 5 · 0 |
@@ -140,14 +140,14 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Tibet | regiones-del-mundo | 6 (618 to today) | no series of its own; counted in China (Yellow River and Yangtze basins) | — · — · — | 1 · 1 · 0 |
 | Volga and Urals | regiones-del-mundo | 6 (700 to today) | no series of its own; counted in Rus' | — · — · — | 6 · 3 · 0 |
 | West Africa | regiones-del-mundo | 7 (1000 BC to today) | by country: SEN, GMB, GNB, GIN, SLE, LBR, CIV, GHA, TGO, BEN, NGA, BFA, MLI, NER, MRT, CPV | — · — · — | 6 · 2 · 0 |
-| Arabia | tierra-santa | 7 (1000 BC to today) | by country: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 45 · 29 · 7 |
+| Arabia | tierra-santa | 7 (1000 BC to today) | by country: SAU, YEM, OMN, ARE, QAT, BHR, KWT | 6 · 2 · 2 | 45 · 30 · 8 |
 | Armenia (Armenian Highlands) | tierra-santa | 10 (860 BC to today) | by country: ARM | 5 · 5 · 5 | 1 · 3 · 0 |
 | Cilicia (in Anatolia) | tierra-santa | 8 (1500 BC to today) | no series of its own; counted in Anatolia | 6 · 4 · 4 | 0 · 0 · 0 |
 | Cyprus | tierra-santa | 9 (1100 BC to today) | by country: CYP | 4 · 3 · 3 | 3 · 4 · 3 |
-| Holy Land (in Levant) | tierra-santa | 21 (12500 BC to today) | curated: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); by country: ISR, PSE | 17 · 11 · 11 | 176 · 137 · 36 |
-| Lebanon (in Levant) | tierra-santa | 9 (3000 BC to today) | by country: LBN | 5 · 3 · 4 | 23 · 22 · 4 |
+| Holy Land (in Levant) | tierra-santa | 21 (12500 BC to today) | curated: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); by country: ISR, PSE | 17 · 11 · 11 | 178 · 143 · 39 |
+| Lebanon (in Levant) | tierra-santa | 9 (3000 BC to today) | by country: LBN | 5 · 3 · 4 | 24 · 24 · 5 |
 | Maghreb | tierra-santa | 11 (814 BC to today) | by country: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 20 · 20 · 11 |
-| Syria (in Levant) | tierra-santa | 12 (2500 BC to today) | by country: SYR | 8 · 4 · 3 | 60 · 46 · 8 |
+| Syria (in Levant) | tierra-santa | 12 (2500 BC to today) | by country: SYR | 8 · 4 · 3 | 71 · 71 · 11 |
 | Transjordan (in Levant) | tierra-santa | 11 (1200 BC to today) | by country: JOR | 4 · 3 · 3 | 9 · 10 · 6 |
 
 ## What's missing
@@ -156,7 +156,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 
 0.4% of the map's land lies outside every region. By Cliopatria polity in 2024 (only those adding up to more than 10,000 km²):
 
-- No polity in Cliopatria: 172,620 km²
+- No polity in Cliopatria: 172,468 km²
 - Kingdom of Norway: 61,669 km²
 - People's Republic of China: 39,055 km²
 - Republic of Iraq: 30,631 km²
