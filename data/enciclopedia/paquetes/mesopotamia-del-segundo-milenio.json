@@ -5369,6 +5369,11 @@
     {
       "id": "atamrum",
       "nombre": "Atamrum",
+      "activo": {
+        "desde": -1766,
+        "hasta": -1762,
+        "aprox": true
+      },
       "roles": [
         "rey de Andarig"
       ],
@@ -5580,6 +5585,12 @@
     {
       "id": "sin-leqi-unninni",
       "nombre": "Sin-leqi-unninni",
+      "activo": {
+        "desde": -1300,
+        "hasta": -1000,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "exorcista (mashmashshu)",
         "compilador de la epopeya de Gilgamesh"
@@ -5703,6 +5714,11 @@
     {
       "id": "shattuara-i",
       "nombre": "Shattuara I",
+      "activo": {
+        "desde": -1305,
+        "hasta": -1285,
+        "aprox": true
+      },
       "roles": [
         "rey de Mitani"
       ],
@@ -5717,6 +5733,12 @@
     {
       "id": "shattuara-ii",
       "nombre": "Shattuara II",
+      "activo": {
+        "desde": -1273,
+        "hasta": -1244,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "rey de Hanigalbat"
       ],
@@ -5742,7 +5764,7 @@
       "roles": [
         "gobernante elamita de Babilonia"
       ],
-      "resumen": "Hijo de Shutruk-Nahhunte de Elam, a quien su padre dejó al mando de Babilonia tras la invasión de c. 1158 a. C. Según crónicas posteriores, venció a Enlil-nadin-ahi y lo deportó a Susa con los nobles casitas y la estatua de Marduk, un acto que la tradición babilonia le reprochó.",
+      "resumen": "Hijo de Shutruk-Nahhunte de Elam, a quien su padre dejó al mando de Babilonia tras la invasión de c. 1158 a. C. Según textos babilonios posteriores, venció a Enlil-nadin-ahi y lo deportó a Susa con los nobles casitas y la estatua de Marduk, un acto que la tradición babilonia le reprochó.",
       "obras": [],
       "wikipedia": {
         "es": "Enlil-nadin-ahi",
@@ -5800,8 +5822,9 @@
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
         "desde": -1725,
-        "hasta": -1475,
-        "aprox": true
+        "hasta": -1650,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5819,9 +5842,10 @@
       "nombre": "Damqi-ilishu II",
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
-        "desde": -1725,
-        "hasta": -1475,
-        "aprox": true
+        "desde": -1683,
+        "hasta": -1647,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5839,9 +5863,10 @@
       "nombre": "Ishkibal",
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
-        "desde": -1725,
-        "hasta": -1475,
-        "aprox": true
+        "desde": -1660,
+        "hasta": -1595,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5859,9 +5884,10 @@
       "nombre": "Shushushi",
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
-        "desde": -1725,
-        "hasta": -1475,
-        "aprox": true
+        "desde": -1660,
+        "hasta": -1595,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5880,7 +5906,11 @@
       "activo": {
         "lugar": "Tell Khaiber",
         "lon": 45.934,
-        "lat": 31.06
+        "lat": 31.06,
+        "desde": -1534,
+        "hasta": -1475,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5898,9 +5928,10 @@
       "nombre": "Akurduana",
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
-        "desde": -1725,
+        "desde": -1534,
         "hasta": -1475,
-        "aprox": true
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -5918,9 +5949,10 @@
       "nombre": "Melamkurkurra",
       "activo": {
         "lugar": "País del Mar (sur de Mesopotamia)",
-        "desde": -1725,
+        "desde": -1534,
         "hasta": -1475,
-        "aprox": true
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey del País del Mar"
@@ -6020,6 +6052,12 @@
     {
       "id": "abi-rattash",
       "nombre": "Abi-Rattash",
+      "activo": {
+        "desde": -1660,
+        "hasta": -1570,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "rey casita según las listas"
       ],
@@ -6034,6 +6072,12 @@
     {
       "id": "kashtiliash-ii",
       "nombre": "Kashtiliash II",
+      "activo": {
+        "desde": -1660,
+        "hasta": -1570,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "rey casita según las listas"
       ],
@@ -6048,6 +6092,12 @@
     {
       "id": "urzigurumash",
       "nombre": "Urzigurumash",
+      "activo": {
+        "desde": -1660,
+        "hasta": -1570,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "rey casita según las listas"
       ],
@@ -6062,6 +6112,12 @@
     {
       "id": "harba-shipak",
       "nombre": "Harba-Shipak",
+      "activo": {
+        "desde": -1660,
+        "hasta": -1570,
+        "aprox": true,
+        "tramo": "entre"
+      },
       "roles": [
         "rey casita según las listas"
       ],
@@ -6077,7 +6133,11 @@
       "id": "shiptaulzi",
       "nombre": "Shipta'ulzi",
       "activo": {
-        "lugar": "Babilonia (según tablillas de Tell Muhammad)"
+        "lugar": "Babilonia (según tablillas de Tell Muhammad)",
+        "desde": -1660,
+        "hasta": -1570,
+        "aprox": true,
+        "tramo": "entre"
       },
       "roles": [
         "rey casita"
@@ -7652,15 +7712,15 @@
       "lon": 44.421,
       "lat": 32.536,
       "tipo": "batalla",
-      "resumen": "Según crónicas posteriores, Kutir-Nahhunte, hijo de Shutruk-Nahhunte, venció a Enlil-nadin-ahi, último rey casita (c. 1157-1155 a. C.), y lo deportó a Susa con los nobles casitas y la estatua de Marduk, tomada de los templos de Babilonia.",
+      "resumen": "Según textos babilonios posteriores, Kutir-Nahhunte, hijo de Shutruk-Nahhunte, venció a Enlil-nadin-ahi, último rey casita (c. 1157-1155 a. C.), y lo deportó a Susa con los nobles casitas y la estatua de Marduk, tomada de los templos de Babilonia. La lista real solo registra el fin de la dinastía.",
       "regiones": [
         "mesopotamia",
         "persia"
       ],
       "fuentes": [
-        "cronica-p",
         "lista-real-babilonica"
       ],
+      "fuente_debil": true,
       "wikipedia": {
         "es": "Enlil-nadin-ahi",
         "en": "Enlil-nadin-ahi"
