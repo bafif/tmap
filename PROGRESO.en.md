@@ -228,6 +228,12 @@ New packages reach installed copies as data updates, without waiting for an app 
   the New Kingdom and of the Kassites, with every attested king of every dynasty (the minor ones backed by their
   dynasty's list), their officials, campaigns, archives and sites. Egypt follows Shaw's chronology (2000) and
   Mesopotamia the middle chronology; what only the king lists or epic tell is given as tradition, and says so.
+- **What's uncertain looks different**: for someone with no known years, the narrowest span the sources allow is
+  given ("at some point between 2200 and 2150 BC"), without sharing out years among the kings of a list; what only
+  tradition knows says so, and an event told only by later texts is marked as weakly sourced. Each case carries a seal
+  in its entry explaining what is known, is in italics in lists and has a dotted outline on the map, like a doubtful
+  border: so no one in the period is left out of time without saying why, and the doubtful isn't mistaken for the
+  attested.
 - **No gaps in what has been researched**: each package has a fixed scope (its regions, its years, its axes and how well
   known the things it includes are) and `tools/enciclopedia/huecos.py` lists what is missing inside it, with Wikidata as
   a lead and not as truth; each batch goes through a writer, a reviewer who did not write it and a corrector, because
