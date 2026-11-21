@@ -5587,7 +5587,11 @@
         "gobernador"
       ],
       "resumen": "Gobernante de Biblos y autor de decenas de cartas al faraón en el archivo de Amarna, la serie más larga de un solo remitente. Pide ayuda contra Abdi-Ashirta y su hijo Aziru y finalmente fue desplazado.",
-      "obras": [],
+      "obras": [
+        "cartas-de-rib-hadda",
+        "carta-de-amarna-ea-362",
+        "carta-de-amarna-ea-75"
+      ],
       "wikipedia": {
         "en": "Rib-Hadda"
       },
@@ -5608,7 +5612,14 @@
         "gobernador"
       ],
       "resumen": "Gobernante de Jerusalén en las Cartas de Amarna, que sostiene en sus cartas haber sido nombrado por el rey y no heredado el cargo. Sus escritos denuncian a otros gobernantes cananeos.",
-      "obras": [],
+      "obras": [
+        "cartas-de-abdi-heba",
+        "carta-de-amarna-ea-288",
+        "carta-de-amarna-ea-286",
+        "carta-de-amarna-ea-287",
+        "carta-de-amarna-ea-289",
+        "carta-de-amarna-ea-290"
+      ],
       "wikipedia": {
         "en": "Abdi-Heba"
       },
@@ -5629,7 +5640,11 @@
         "gobernador"
       ],
       "resumen": "Gobernante de Siquem en las cartas de Amarna, acusado por otros gobernantes de expandirse y de sublevarse contra el faraón. Murió, según esas cartas, a manos de otros gobernantes.",
-      "obras": [],
+      "obras": [
+        "cartas-de-labayu",
+        "carta-de-amarna-ea-252",
+        "carta-de-amarna-ea-254"
+      ],
       "wikipedia": {
         "en": "Labaya"
       },
@@ -5648,7 +5663,10 @@
         "rey"
       ],
       "resumen": "Rey de Amurru, hijo de Abdi-Ashirta, y autor de cartas a Akenatón; fue llamado a Egipto y retenido allí, y al volver pasó al lado hitita, con un tratado con Suppiluliuma I. Su correspondencia con Rib-Hadda y sus rivales muestra el viraje de Amurru hacia los hititas.",
-      "obras": [],
+      "obras": [
+        "cartas-de-aziru",
+        "carta-de-amarna-ea-161"
+      ],
       "wikipedia": {
         "en": "Aziru"
       },
@@ -9850,7 +9868,9 @@
         "gobernador"
       ],
       "resumen": "Rey de Meguido, ciudad-Estado vasalla de Egipto en el siglo XIV a. C., que estuvo implicado en las intrigas de Labaya. Es uno de los gobernantes que escribieron las Cartas de Amarna.",
-      "obras": [],
+      "obras": [
+        "carta-de-amarna-ea-245"
+      ],
       "wikipedia": {
         "en": "Biridiya"
       },
@@ -9871,7 +9891,11 @@
         "gobernador"
       ],
       "resumen": "Príncipe de Tiro, llamada Surru en las cartas, en el período de las Cartas de Amarna. Escribió diez cartas al faraón Amenhotep IV (EA 146-155), y en la EA 147 el faraón lo confirmó como gobernante de la ciudad.",
-      "obras": [],
+      "obras": [
+        "cartas-de-abimilki-de-tiro",
+        "carta-de-amarna-ea-147",
+        "carta-de-amarna-ea-153"
+      ],
       "wikipedia": {
         "en": "Abimilki"
       },
@@ -9913,7 +9937,9 @@
         "rey"
       ],
       "resumen": "Rey de Qatna hacia 1350-1345 a. C., sucesor de Idanda y autor de varias Cartas de Amarna en las que pide ayuda al faraón contra invasores.",
-      "obras": [],
+      "obras": [
+        "cartas-de-akizzi-de-qatna"
+      ],
       "wikipedia": {
         "en": "Akizzi"
       },
@@ -9936,7 +9962,10 @@
         "rey"
       ],
       "resumen": "Rey de Mitani desde el final del reinado de Amenhotep III y durante la primera mitad del de Amenhotep IV. Era hijo de Shuttarna II y nieto de Artatama I; su hermana Gilukhepa y su hija Tadukhepa se casaron con faraones.",
-      "obras": [],
+      "obras": [
+        "cartas-de-tushratta",
+        "carta-de-mitani"
+      ],
       "wikipedia": {
         "es": "Tushratta",
         "en": "Tushratta"
@@ -9976,15 +10005,17 @@
         "lugar": "Hattusa",
         "lon": 34.6129,
         "lat": 40.0197,
-        "desde": -1275,
-        "hasta": -1245,
+        "desde": -1267,
+        "hasta": -1237,
         "aprox": true
       },
       "roles": [
         "rey"
       ],
-      "resumen": "Rey (labarna) del Imperio hitita c. 1275-1245 a. C. según la cronología media, o 1267-1237 según la corta. Era hermano de Muwatalli II, que lo había nombrado gobernador de Hattusa, y depuso a su sobrino Mursili III.",
-      "obras": [],
+      "resumen": "Rey (labarna) del Imperio hitita c. 1267-1237 a. C. según la cronología de Bryce, la que sigue a Muwatalli II (c. 1295-1272); otras reconstrucciones dan c. 1275-1245. Era hermano de Muwatalli II, que lo había nombrado gobernador de Hattusa, y depuso a su sobrino Mursili III.",
+      "obras": [
+        "apologia-de-hattusili-iii"
+      ],
       "wikipedia": {
         "es": "Hattusili III",
         "en": "Ḫattušili III"
@@ -10032,7 +10063,9 @@
         "rey"
       ],
       "resumen": "Rey del Imperio hitita c. 1295-1272 a. C. según la cronología media, conocido por trasladar la capital a Tarhuntassa, nombrar gobernador de Hattusa a su hermano Hattusili y combatir a Ramsés II en la batalla de Qadesh.",
-      "obras": [],
+      "obras": [
+        "tratado-de-alaksandu"
+      ],
       "wikipedia": {
         "es": "Muwatalli II",
         "en": "Muwatalli II"
@@ -10046,14 +10079,14 @@
         "lugar": "Hattusa",
         "lon": 34.6129,
         "lat": 40.0197,
-        "desde": -1282,
-        "hasta": -1275,
+        "desde": -1272,
+        "hasta": -1267,
         "aprox": true
       },
       "roles": [
         "rey"
       ],
-      "resumen": "Rey hitita, llamado también Urhi-Teshub, que reinó c. 1282-1275 a. C. según la cronología media y a quien su tío Hattusili III depuso y exilió a Siria. Tras fracasar sus conspiraciones para recuperar el trono, huyó a Egipto, el país enemigo de los hititas.",
+      "resumen": "Rey hitita, llamado también Urhi-Teshub, que reinó c. 1272-1267 a. C. según la cronología de Bryce (otras dan c. 1282-1275) y a quien su tío Hattusili III depuso y exilió a Siria. Tras fracasar sus conspiraciones para recuperar el trono, huyó a Egipto, el país enemigo de los hititas.",
       "obras": [],
       "wikipedia": {
         "es": "Urhi-Tesub",
