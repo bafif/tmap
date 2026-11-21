@@ -228,6 +228,11 @@ New packages reach installed copies as data updates, without waiting for an app 
   the New Kingdom and of the Kassites, with every attested king of every dynasty (the minor ones backed by their
   dynasty's list), their officials, campaigns, archives and sites. Egypt follows Shaw's chronology (2000) and
   Mesopotamia the middle chronology; what only the king lists or epic tell is given as tradition, and says so.
+- **The Bronze Age in Anatolia, the Levant and the Aegean**: three packages, from 3400 BC to the destructions of
+  c. 1200: the Hittite kingdoms with their whole series of kings, Mitanni and the Caucasus; Ebla, Ugarit, the
+  Canaanite cities, Cyprus and the Gulf; the Cyclades, Minoan Crete and Mycenaean Greece. The Hittite 13th century
+  follows Bryce's chronology, consistent with Muwatalli II until 1272; epic and biblical accounts are
+  given as tradition.
 - **What's uncertain looks different**: for someone with no known years, the narrowest span the sources allow is
   given ("at some point between 2200 and 2150 BC"), without sharing out years among the kings of a list; what only
   tradition knows says so, and an event told only by later texts is marked as weakly sourced. Each case carries a seal

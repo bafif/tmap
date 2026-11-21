@@ -229,6 +229,10 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   fin del Reino Nuevo y de los casitas, con cada rey atestiguado de cada dinastía (los menores, con la lista de su
   dinastía como respaldo), sus funcionarios, campañas, archivos y sitios. Egipto sigue la cronología de Shaw (2000) y
   Mesopotamia la cronología media; lo que solo cuentan las listas reales o la épica va como tradición, dicho así.
+- **La Edad del Bronce en Anatolia, el Levante y el Egeo**: tres paquetes, del 3400 a. C. a las destrucciones de
+  c. 1200: los reinos hititas con toda su serie de reyes, Mitani y el Cáucaso; Ebla, Ugarit, las ciudades cananeas,
+  Chipre y el Golfo; las Cícladas, la Creta minoica y la Grecia micénica. El siglo XIII hitita sigue la cronología de
+  Bryce, coherente con Muwatalli II hasta 1272; la épica y lo bíblico van como tradición.
 - **Lo incierto se ve distinto**: de quien no tiene años conocidos se da el tramo más estrecho que permiten las
   fuentes («en algún punto entre 2200 y 2150 a. C.»), sin repartir años entre los reyes de una lista; lo que conoce
   solo la tradición lo dice, y un hecho que cuentan solo textos posteriores va como de fuente débil. Cada caso lleva un

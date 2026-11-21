@@ -47,6 +47,8 @@ piece of data says where it came from.
   - The Bronze Age in Egypt and Mesopotamia, from 3400 BC to the end of the New Kingdom and of the Kassites, in four
     packages: `egipto-arcaico-y-reino-antiguo`, `egipto-reino-medio-y-nuevo`, `sumer-y-acad` and
     `mesopotamia-del-segundo-milenio`.
+  - The Bronze Age in Anatolia, the Levant and the Aegean, from 3400 BC to the destructions of c. 1200, in three
+    packages: `anatolia-y-el-caucaso-en-el-bronce`, `levante-chipre-y-arabia-en-el-bronce` and `el-egeo-en-el-bronce`.
 
   Since `edad-media`, every package is checked against Wikipedia and Wikidata (titles, ids, coordinates and
   lifespans), and its reading links responded when they were checked.

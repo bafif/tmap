@@ -47,6 +47,8 @@ dato dice de dónde salió.
   - La Edad del Bronce en Egipto y Mesopotamia, de 3400 a. C. al fin del Reino Nuevo y de los casitas, en cuatro
     paquetes: `egipto-arcaico-y-reino-antiguo`, `egipto-reino-medio-y-nuevo`, `sumer-y-acad` y
     `mesopotamia-del-segundo-milenio`.
+  - La Edad del Bronce en Anatolia, el Levante y el Egeo, de 3400 a. C. a las destrucciones de c. 1200, en tres
+    paquetes: `anatolia-y-el-caucaso-en-el-bronce`, `levante-chipre-y-arabia-en-el-bronce` y `el-egeo-en-el-bronce`.
 
   Desde `edad-media`, cada paquete está verificado contra Wikipedia y Wikidata (títulos, ids, coordenadas y fechas de
   vida), y sus enlaces de lectura respondieron al comprobarlos.
