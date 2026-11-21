@@ -80,12 +80,12 @@
         },
         {
           "desde": -2686,
-          "hasta": -2181,
-          "nombre": "Imperio Antiguo (dinastías III-VI)",
+          "hasta": -2160,
+          "nombre": "Imperio Antiguo (dinastías III-VIII)",
           "resumen": "Edad de las grandes pirámides, de Dyeser en Saqqara a Keops, Kefrén y Micerino en Giza, con un Estado centralizado y una administración de visires y escribas."
         },
         {
-          "desde": -2181,
+          "desde": -2160,
           "hasta": -2055,
           "nombre": "Primer Período Intermedio",
           "resumen": "Fragmentación del poder central, con dinastías rivales en Heracleópolis y Tebas, hasta la reunificación por Mentuhotep II."
@@ -2982,7 +2982,7 @@
       "roles": [
         "rey"
       ],
-      "resumen": "Rey de fines del Predinástico, al que se asocia con la unificación. Se lo suele identificar con el Menes de las listas reales, aunque la identidad es debatida.",
+      "resumen": "Rey de fines del cuarto milenio a. C., al que se asocia con la unificación y al que la mayoría de los egiptólogos identifica con el Menes de las listas reales, aunque la identidad es debatida. La fecha habitual de su reinado es c. 3100 a. C. (± 150 años); Shaw (2000) hace empezar la dinastía I hacia 3000 a. C., y un estudio de radiocarbono de 2013 ubica a su sucesor Aha entre 3111 y 3045 a. C.",
       "obras": [
         "paleta-de-narmer"
       ],
@@ -3064,7 +3064,9 @@
         "faraona"
       ],
       "resumen": "Reina de la dinastía XVIII que gobernó como rey de c. 1479 a 1458 a. C., con una célebre expedición a Punt y su templo de Deir el-Bahari.",
-      "obras": [],
+      "obras": [
+        "inscripcion-del-speos-artemidos"
+      ],
       "wikipedia": {
         "es": "Hatshepsut",
         "en": "Hatshepsut"
@@ -3094,7 +3096,9 @@
         "militar"
       ],
       "resumen": "Faraón de la dinastía XVIII, gobernó nominalmente desde c. 1479 y en solitario desde 1458 a. C.; encabezó 17 campañas en el Levante, entre ellas Meguido.",
-      "obras": [],
+      "obras": [
+        "anales-de-tutmosis-iii"
+      ],
       "wikipedia": {
         "es": "Tutmosis III",
         "en": "Thutmose III"
@@ -3570,7 +3574,7 @@
       "lon": 31.255,
       "lat": 29.845,
       "tipo": "politico",
-      "resumen": "Se forma el primer Estado egipcio unificado bajo los primeros reyes, con Narmer-Menes como figura tradicional. Fecha convencional; la secuencia exacta de los hechos es discutida.",
+      "resumen": "Se forma el primer Estado egipcio unificado bajo los primeros reyes, con Narmer-Menes como figura tradicional. La fecha es convencional: Shaw (2000) pone el comienzo de la dinastía I hacia 3000 a. C. y el radiocarbono ubica a Aha entre 3111 y 3045 a. C.; la secuencia exacta de los hechos es discutida.",
       "regiones": [
         "egipto"
       ],
@@ -3587,14 +3591,14 @@
     {
       "id": "piramide-escalonada-de-saqqara",
       "titulo": "Pirámide escalonada de Dyeser",
-      "anio": -2670,
+      "anio": -2667,
       "anio_hasta": null,
       "aprox": true,
       "lugar": "Saqqara",
       "lon": 31.216,
       "lat": 29.871,
       "tipo": "construccion",
-      "resumen": "Se levanta la primera gran construcción en piedra de Egipto, tradicionalmente obra del arquitecto Imhotep para Dyeser.",
+      "resumen": "Se levanta para Dyeser la primera gran construcción en piedra de Egipto. Los egiptólogos, como las leyendas muy posteriores, atribuyen el diseño a Imhotep, su alto funcionario, aunque los textos de época faraónica nunca lo nombran como autor de la pirámide.",
       "regiones": [
         "egipto"
       ],
@@ -3634,14 +3638,14 @@
     {
       "id": "reunificacion-de-mentuhotep-ii",
       "titulo": "Reunificación de Egipto por Mentuhotep II",
-      "anio": -2055,
+      "anio": -2016,
       "anio_hasta": null,
       "aprox": true,
       "lugar": "Tebas",
       "lon": 32.639,
       "lat": 25.719,
       "tipo": "politico",
-      "resumen": "Mentuhotep II de Tebas derrota a los reyes de Heracleópolis y reunifica el país, con lo que inicia el Imperio Medio.",
+      "resumen": "Mentuhotep II de Tebas, rey desde c. 2055 a. C. (cronología de Shaw), derrota a los reyes de Heracleópolis y reunifica el país, probablemente poco antes de su año 39 de reinado, cuando adopta el nombre Sematawy, «el que une las Dos Tierras». La fecha exacta no se conoce.",
       "regiones": [
         "egipto"
       ],
@@ -3808,7 +3812,8 @@
         "egipto"
       ],
       "fuentes": [
-        "papiro-abbott"
+        "papiro-abbott",
+        "papiro-leopold-ii-amherst"
       ]
     },
     {
@@ -4115,13 +4120,13 @@
       "id": "imperio-antiguo-de-egipto",
       "titulo": "Imperio Antiguo de Egipto",
       "anio": -2686,
-      "anio_hasta": -2181,
+      "anio_hasta": -2160,
       "aprox": true,
       "lugar": "Menfis",
       "lon": 31.255,
       "lat": 29.845,
       "tipo": "politico",
-      "resumen": "Período de las dinastías III a VI (-2686 a -2181 en la cronología de Ian Shaw; algunos egiptólogos suman las dinastías VII y VIII), conocido como la Edad de las Pirámides, con capital en Menfis. Hacia el final de la dinastía VI, durante el largo reinado de Pepi II, los nomarcas se hicieron hereditarios y el poder del rey se debilitó. Fekri Hassan y otros relacionan el derrumbe con una sequía hacia -2200/-2150 que redujo las crecidas del Nilo, y leen en la tumba de Anjtifi la hambruna que siguió. Nadine Moeller sostiene que las menciones de hambre son un tópico de las autobiografías de los gobernantes locales y que la fragmentación fue gradual.",
+      "resumen": "Período de las dinastías III a VIII (c. 2686-2160 a. C. en la cronología de Ian Shaw, que le suma la VII y la VIII; otros egiptólogos lo cierran con la VI, hacia 2181), conocido como la Edad de las Pirámides, con capital en Menfis. Hacia el final de la dinastía VI, durante el largo reinado de Pepi II, los nomarcas se hicieron hereditarios y el poder del rey se debilitó. Fekri Hassan y otros relacionan el derrumbe con una sequía hacia -2200/-2150 que redujo las crecidas del Nilo, y leen en la tumba de Anjtifi la hambruna que siguió. Nadine Moeller sostiene que las menciones de hambre son un tópico de las autobiografías de los gobernantes locales y que la fragmentación fue gradual.",
       "regiones": [
         "bajo-egipto",
         "alto-egipto",
@@ -4229,7 +4234,8 @@
       ],
       "fuentes": [
         "inscripciones-de-medinet-habu",
-        "ancient-records-of-egypt"
+        "ancient-records-of-egypt",
+        "cline-1177"
       ],
       "wikipedia": {
         "es": "Batalla del Delta",
@@ -4288,14 +4294,14 @@
     {
       "id": "primer-periodo-intermedio-de-egipto",
       "titulo": "Primer Período Intermedio de Egipto",
-      "anio": -2181,
+      "anio": -2160,
       "anio_hasta": -2055,
       "aprox": true,
       "lugar": "Heracleópolis Magna",
       "lon": 30.934,
       "lat": 29.086,
       "tipo": "politico",
-      "resumen": "Período de unos 125 años entre el Imperio Antiguo y el Medio (hacia -2181 a -2055), que abarca las dinastías VII (que los egiptólogos suelen considerar espuria) y VIII en Menfis, la IX y la X en Heracleópolis, y parte de la XI en Tebas. Quedan pocos monumentos, sobre todo del comienzo. Se lo ha llamado «época oscura», pero Ludwig Morenz propuso «período de las regiones»; el término lo acuñaron Steindorff y Frankfort en 1926. Las causas que se citan son el reinado larguísimo de Pepi II y los problemas de sucesión, los nomarcas hereditarios que levantaban ejércitos y la baja de las crecidas del Nilo, aunque Manning no ve relación con las crecidas. En el sur mandó el nomarca Anjtifi, que en su tumba de Mo'alla dice haber dado pan a los hambrientos, un tópico que los egiptólogos discuten porque casi todos los gobernantes locales dicen lo mismo. Hacia el final se enfrentaron los reyes de Heracleópolis, con los príncipes de Asiut como aliados, y los tebanos Intef I, II y III, que atacaron Abidos; Mentuhotep II derrotó a los heracleopolitanos y reunificó el país, hacia -2055 o, según otras cronologías, hacia -2033.",
+      "resumen": "Período de unos cien años entre el Imperio Antiguo y el Medio (c. 2160-2055 a. C. en la cronología de Ian Shaw), que abarca las dinastías IX y X en Heracleópolis y parte de la XI en Tebas; otros egiptólogos lo empiezan hacia 2181, con la VII (que suelen considerar espuria) y la VIII en Menfis. Quedan pocos monumentos, sobre todo del comienzo. Se lo ha llamado «época oscura», pero Ludwig Morenz propuso «período de las regiones»; el término lo acuñaron Steindorff y Frankfort en 1926. Las causas que se citan son el reinado larguísimo de Pepi II y los problemas de sucesión, los nomarcas hereditarios que levantaban ejércitos y la baja de las crecidas del Nilo, aunque Manning no ve relación con las crecidas. En el sur mandó el nomarca Anjtifi, que en su tumba de Mo'alla dice haber dado pan a los hambrientos, un tópico que los egiptólogos discuten porque casi todos los gobernantes locales dicen lo mismo. Hacia el final se enfrentaron los reyes de Heracleópolis, con los príncipes de Asiut como aliados, y los tebanos Intef I, II y III, que atacaron Abidos; Mentuhotep II, rey desde c. 2055 a. C. en la cronología de Shaw, derrotó a los heracleopolitanos y reunificó el país, probablemente poco antes de su año 39 de reinado (c. 2016 a. C.).",
       "regiones": [
         "alto-egipto",
         "egipto",
