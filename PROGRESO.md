@@ -263,10 +263,11 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   haitiana con las matanzas de cada lado y los exploradores del Ártico. Después entraron los virreyes de Nueva España
   que faltaban, los presidentes del Congreso Continental, los monarcas de Navarra y los califas y jefes de gabinete que
   completaban sus series.
-- **Cada hecho, con su fuente**: casi todos los hechos citan al menos una fuente que los documenta: una que tmap ya
-  tenía cuando de verdad trata ese hecho (no solo porque cae en la misma región y época) o, si no, el documento mismo,
-  el testimonio de quien lo vivió o el estudio de referencia, revisados contra el texto. Los pocos que ninguna fuente
-  verificable trata todavía quedan sin fuente, con el motivo.
+- **Cada hecho, con su fuente**: todos los hechos citan al menos una fuente que los documenta: una que tmap ya tenía
+  cuando de verdad trata ese hecho (no solo porque cae en la misma región y época) o, si no, el documento mismo, el
+  testimonio de quien lo vivió o el estudio de referencia. Un hecho que ninguna fuente verificable sostiene no entra.
+  Todos los lugares tienen fundación: la documentada o, si no la hay, una estimada desde la ocupación más antigua del
+  sitio, marcada como aproximada.
 - **Enlaces de lectura legales**: unas 520 fuentes más tienen un enlace al texto en Wikisource, el Proyecto Gutenberg,
   Internet Archive o un sitio oficial, comprobado y marcado como de dominio público o de acceso abierto; las obras con
   derechos vigentes quedan sin enlace, con el motivo, y nunca se enlaza una copia que no sea legal.

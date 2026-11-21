@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 74 con religiones, culturas o idiomas.
-- **Elementos:** 4089 fuentes (249 sin lugar de escritura), 4210 personas, 4043 hechos y 1468 lugares.
+- **Elementos:** 4129 fuentes (289 sin lugar de escritura), 4210 personas, 4041 hechos y 1468 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -53,16 +53,16 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Sudeste norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 8 (12550 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 8 · 14 · 11 | 20 · 50 · 15 |
 | Suroeste norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 10 (21000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 5 · 13 · 11 | 12 · 33 · 15 |
 | Área maya (en Mesoamérica) | areas-culturales-de-america | 8 (11000 a. C. a hoy) | curada: Canuto et al. (750–750); sin serie propia; cuenta en Mesoamérica | 7 · 8 · 7 | 5 · 58 · 37 |
-| Ártico norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 6 · 9 · 10 | 14 · 25 · 4 |
+| Ártico norteamericano (en Norteamérica (Estados Unidos y Canadá)) | areas-culturales-de-america | 6 (11000 a. C. a hoy) | curada: Ubelaker (1500–1500); sin serie propia; cuenta en Norteamérica (Estados Unidos y Canadá) | 6 · 9 · 10 | 15 · 25 · 4 |
 | Alemania y los Países Bajos | edad-media | 11 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: DEU, AUT, NLD, BEL, CHE, LUX, LIE | 9 · 15 · 12 | 233 · 181 · 35 |
-| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 61 · 42 · 4 |
+| Balcanes | edad-media | 10 (6500 a. C. a hoy) | por país: SRB, HRV, BIH, MNE, MKD, ALB, BGR, SVN, OWID_KOS | 9 · 11 · 12 | 63 · 42 · 4 |
 | Bohemia y Moravia | edad-media | 12 (5500 a. C. a hoy) | por país: CZE | 8 · 12 · 8 | 36 · 30 · 4 |
 | Britania | edad-media | 11 (5500 a. C. a hoy) | curada: Alcock, Harper, Urlanis (150–1500); por país: GBR, IMN, GGY, JEY | 8 · 16 · 14 | 377 · 278 · 56 |
 | Cerdeña y Córcega | edad-media | 7 (1800 a. C. a hoy) | sin serie propia; cuenta en Italia | 4 · 7 · 6 | 0 · 1 · 0 |
 | Escandinavia | edad-media | 6 (793 a hoy) | curada: Urlanis (1000–1500); por país: SWE, NOR, DNK, FRO, SJM | 4 · 2 · 4 | 49 · 40 · 9 |
 | Estepa póntica | edad-media | 12 (3300 a. C. a hoy) | sin serie propia; cuenta en Rus | 8 · 8 · 5 | 36 · 28 · 3 |
 | Finlandia | edad-media | 5 (1150 a hoy) | por país: FIN | 5 · 2 · 4 | 4 · 3 · 1 |
-| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 368 · 295 · 52 |
+| Francia | edad-media | 12 (5800 a. C. a hoy) | curada: Frier, Harper, Russell (14–1450); por país: FRA, MCO | 10 · 19 · 17 | 370 · 295 · 52 |
 | Hungría | edad-media | 12 (6000 a. C. a hoy) | curada: Russell (500–1450); por país: HUN, SVK | 16 · 17 · 15 | 30 · 28 · 6 |
 | Irlanda | edad-media | 9 (5500 a. C. a hoy) | curada: Urlanis (1000–1500); por país: IRL | 5 · 8 · 10 | 127 · 52 · 21 |
 | Islandia | edad-media | 6 (410 a hoy) | curada: Censo de Islandia de 1703 (1703–1703); por país: ISL | 3 · 2 · 2 | 8 · 6 · 2 |
@@ -77,16 +77,16 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Egipto | egipto | 22 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 11 · 10 · 6 | 251 · 277 · 148 |
 | Nubia | egipto | 9 (3400 a. C. a 1821) | sin serie propia; cuenta en Sudán y Sudán del Sur | 10 · 9 · 11 | 15 · 29 · 28 |
 | Anatolia | mundo | 11 (3400 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 12 · 10 · 12 | 182 · 217 · 62 |
-| Andes centrales | mundo | 8 (3000 a. C. a hoy) | por país: PER, BOL | 7 · 10 · 9 | 254 · 202 · 60 |
+| Andes centrales | mundo | 8 (3000 a. C. a hoy) | por país: PER, BOL | 7 · 10 · 9 | 256 · 202 · 60 |
 | China (cuencas del Amarillo y el Yangtsé) | mundo | 12 (1760 a. C. a hoy) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 8 · 2 · 4 | 31 · 25 · 4 |
 | Grecia | mundo | 12 (3400 a. C. a 2000) | por país: GRC | 3 · 4 · 4 | 124 · 168 · 123 |
 | India (cuencas del Indo y el Ganges) | mundo | 9 (3300 a. C. a hoy) | por país: IND, PAK, BGD, NPL, BTN | 5 · 3 · 4 | 38 · 20 · 4 |
 | Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 186 · 126 · 22 |
-| Levante | mundo | 14 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 11 · 8 · 9 | 77 · 289 · 128 |
-| Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 295 · 220 · 94 |
+| Levante | mundo | 14 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 11 · 8 · 9 | 86 · 289 · 128 |
+| Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 296 · 220 · 94 |
 | Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 5 · 8 · 9 | 193 · 227 · 78 |
 | Persia (meseta iraní) | mundo | 14 (3400 a. C. a 2000) | por país: IRN | 7 · 2 · 10 | 66 · 65 · 9 |
-| Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 498 · 590 · 94 |
+| Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 511 · 588 · 94 |
 | Armórica (Bretaña) (en Francia) | mundo-celta | 7 (5000 a. C. a hoy) | sin serie propia; cuenta en Francia | 3 · 11 · 10 | 9 · 15 · 2 |
 | Caledonia (en Britania) | mundo-celta | 7 (4000 a. C. a hoy) | sin serie propia; cuenta en Britania | 6 · 10 · 11 | 6 · 19 · 6 |
 | Celtiberia (en Península ibérica) | mundo-celta | 9 (5500 a. C. a hoy) | sin serie propia; cuenta en Península ibérica | 10 · 8 · 9 | 14 · 35 · 8 |
@@ -95,7 +95,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Galia Cisalpina (en Italia) | mundo-celta | 10 (5500 a. C. a hoy) | sin serie propia; cuenta en Italia | 7 · 13 · 12 | 6 · 27 · 1 |
 | Nórico (en Alemania y los Países Bajos) | mundo-celta | 8 (5500 a. C. a hoy) | sin serie propia; cuenta en Alemania y los Países Bajos | 7 · 11 · 10 | 1 · 10 · 3 |
 | Afganistán | regiones-del-mundo | 7 (550 a. C. a hoy) | por país: AFG | — · — · — | 11 · 7 · 0 |
-| Amazonía andina (oriente peruano y boliviano) | regiones-del-mundo | 5 (1682 a hoy) | sin serie propia; cuenta en Andes centrales | 6 · 7 · 9 | 29 · 44 · 6 |
+| Amazonía andina (oriente peruano y boliviano) | regiones-del-mundo | 5 (1682 a hoy) | sin serie propia; cuenta en Andes centrales | 6 · 7 · 9 | 31 · 44 · 6 |
 | Aridoamérica (norte de México) | regiones-del-mundo | 4 (1546 a hoy) | sin serie propia; cuenta en Mesoamérica | 5 · 8 · 6 | 32 · 37 · 4 |
 | Asia central | regiones-del-mundo | 8 (550 a. C. a hoy) | por país: KAZ, UZB, TKM, KGZ, TJK | 7 · 4 · 4 | 6 · 7 · 1 |
 | Australia | regiones-del-mundo | 3 (1788 a hoy) | por país: AUS | — · — · — | 0 · 2 · 0 |
@@ -118,10 +118,10 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Micronesia | regiones-del-mundo | 4 (1500 a. C. a hoy) | por país: FSM, PLW, GUM, MNP, MHL, NRU, KIR | — · — · — | 1 · 2 · 0 |
 | Mongolia | regiones-del-mundo | 8 (209 a. C. a hoy) | por país: MNG | — · — · — | 1 · 0 · 0 |
 | Noreste de la India | regiones-del-mundo | 4 (350 a hoy) | sin serie propia; cuenta en India (cuencas del Indo y el Ganges) | — · — · — | 3 · 1 · 0 |
-| Noroeste argentino y Cuyo | regiones-del-mundo | 4 (1480 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 6 | 162 · 142 · 21 |
+| Noroeste argentino y Cuyo | regiones-del-mundo | 4 (1480 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 6 | 164 · 142 · 21 |
 | Norte de Rusia | regiones-del-mundo | 5 (1100 a hoy) | sin serie propia; cuenta en Rus | — · — · — | 1 · 1 · 0 |
-| Norte de Sudamérica | regiones-del-mundo | 5 (3800 a. C. a hoy) | por país: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 121 · 162 · 45 |
-| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 21 · 21 · 15 | 474 · 465 · 104 |
+| Norte de Sudamérica | regiones-del-mundo | 5 (3800 a. C. a hoy) | por país: COL, VEN, ECU, GUY, SUR, GUF | 10 · 17 · 13 | 123 · 162 · 45 |
+| Norteamérica (Estados Unidos y Canadá) | regiones-del-mundo | 5 (800 a hoy) | por país: USA, CAN, BMU, SPM | 21 · 21 · 15 | 475 · 465 · 104 |
 | Nueva Zelanda (Aotearoa) | regiones-del-mundo | 4 (1250 a hoy) | por país: NZL | — · — · — | 0 · 1 · 0 |
 | Paraguay oriental | regiones-del-mundo | 5 (1537 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 9 · 6 | 54 · 60 · 1 |
 | Patagonia argentina | regiones-del-mundo | 3 (1520 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 8 · 10 | 137 · 57 · 13 |
@@ -146,9 +146,9 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Cilicia (en Anatolia) | tierra-santa | 8 (1500 a. C. a hoy) | sin serie propia; cuenta en Anatolia | 6 · 4 · 4 | 4 · 12 · 8 |
 | Líbano (en Levante) | tierra-santa | 9 (3000 a. C. a hoy) | por país: LBN | 5 · 3 · 4 | 39 · 38 · 10 |
 | Magreb | tierra-santa | 11 (814 a. C. a hoy) | por país: MAR, DZA, TUN, LBY, ESH | 7 · 3 · 5 | 20 · 20 · 11 |
-| Siria (en Levante) | tierra-santa | 18 (3500 a. C. a hoy) | por país: SYR | 10 · 9 · 12 | 111 · 159 · 38 |
-| Tierra Santa (en Levante) | tierra-santa | 24 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 18 · 12 · 13 | 204 · 186 · 71 |
-| Transjordania (en Levante) | tierra-santa | 11 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 10 · 15 · 14 |
+| Siria (en Levante) | tierra-santa | 18 (3500 a. C. a hoy) | por país: SYR | 10 · 9 · 12 | 123 · 159 · 38 |
+| Tierra Santa (en Levante) | tierra-santa | 24 (12500 a. C. a hoy) | curada: Censos del Mandato británico de Palestina, DellaPergola, Oficina Central de Estadística de Israel, Village Statistics del gobierno del Mandato (1–2023); por país: ISR, PSE | 18 · 12 · 13 | 207 · 186 · 71 |
+| Transjordania (en Levante) | tierra-santa | 11 (1200 a. C. a hoy) | por país: JOR | 4 · 3 · 3 | 11 · 15 · 14 |
 
 ## Lo que falta
 

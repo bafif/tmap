@@ -263,10 +263,11 @@ New packages reach installed copies as data updates, without waiting for an app 
   Haitian Revolution with the massacres on each side, and the explorers of the Arctic. Then came the missing viceroys
   of New Spain, the presidents of the Continental Congress, the monarchs of Navarre and the caliphs and cabinet chiefs
   that completed their series.
-- **Every event, with its source**: almost every event cites at least one source that documents it: one tmap already
-  had when it really deals with that event (not just because it falls in the same region and period) or, if not, the
-  document itself, the testimony of someone who lived through it or the standard study, checked against the text. The
-  few that no verifiable source deals with yet stay without a source, with the reason.
+- **Every event, with its source**: every event cites at least one source that documents it: one tmap already had
+  when it really deals with that event (not just because it falls in the same region and period) or, if not, the
+  document itself, the testimony of someone who lived through it or the standard study. An event that no verifiable
+  source supports does not go in. Every place has a founding year: the documented one or, failing that, one estimated
+  from the site's earliest occupation, marked as approximate.
 - **Legal reading links**: about 520 more sources have a link to the text on Wikisource, Project Gutenberg, the
   Internet Archive or an official site, checked and marked as public domain or open access; works still under
   copyright stay without a link, with the reason, and a copy that is not legal is never linked.
