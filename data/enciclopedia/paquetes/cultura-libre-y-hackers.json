@@ -2910,6 +2910,38 @@
       "por_que_importa": "Son los fallos que figuran en las crónicas del caso; Sci-Hub siguió funcionando con otros dominios.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "hachette-v-internet-archive",
+      "titulo": "Hachette Book Group, Inc. v. Internet Archive (tribunal de distrito de Nueva York, 2023, y Segundo Circuito, 2024)",
+      "titulo_original": "Hachette Book Group, Inc. v. Internet Archive",
+      "autor": "Tribunal de Distrito de los Estados Unidos para el Distrito Sur de Nueva York (juez John G. Koeltl) y Corte de Apelaciones del Segundo Circuito",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 2023,
+        "anio_hasta": 2024,
+        "aprox": false,
+        "lugar": "Nueva York"
+      },
+      "trata": {
+        "regiones": [
+          "norteamerica"
+        ],
+        "desde": 2020,
+        "hasta": 2024
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Sentencias",
+      "resumen": "Fallo del 24 de marzo de 2023 del juez Koeltl en la demanda que cuatro editoriales presentaron en 2020 contra el Internet Archive por el préstamo digital controlado de copias escaneadas, con el Open Library entre sus servicios. Concluyó que no era uso justo y que infringía el derecho de autor; la Corte de Apelaciones del Segundo Circuito confirmó la decisión en septiembre de 2024.",
+      "por_que_importa": "Es la sentencia sobre el préstamo digital controlado que usa el Open Library.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Hachette v. Internet Archive",
+        "en": "Hachette v. Internet Archive"
+      },
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -5879,16 +5911,20 @@
       "lon": -122.472,
       "lat": 37.782,
       "tipo": "fundacion",
-      "resumen": "Proyecto del Internet Archive para crear «una página web por cada libro publicado», en el que Aaron Swartz fue el ingeniero original y líder del equipo técnico desde 2006, junto con Brewster Kahle y otros. Usa el software de wiki Infogami y publica su código bajo la licencia AGPL. Ofrece copias digitales de libros en préstamo digital controlado. En junio de 2020 cuatro editoriales (Hachette, Penguin Random House, John Wiley & Sons y HarperCollins) demandaron al Internet Archive ante un tribunal federal de Nueva York. El 25 de marzo de 2023 el tribunal falló en su contra por infracción del derecho de autor y en 2024 la Corte de Apelaciones del Segundo Circuito rechazó la apelación. El Internet Archive sostiene que prestar una copia digital por cada ejemplar en papel es legal, por la doctrina de la primera venta y el uso justo.",
+      "resumen": "Proyecto del Internet Archive para crear «una página web por cada libro publicado», en el que Aaron Swartz fue el ingeniero original y líder del equipo técnico desde 2006, junto con Brewster Kahle y otros. Usa el software de wiki Infogami y publica su código bajo la licencia AGPL. Ofrece copias digitales de libros en préstamo digital controlado. En junio de 2020 cuatro editoriales (Hachette, Penguin Random House, John Wiley & Sons y HarperCollins) demandaron al Internet Archive ante un tribunal federal de Nueva York. El 24 de marzo de 2023 el tribunal falló en su contra por infracción del derecho de autor y en 2024 la Corte de Apelaciones del Segundo Circuito rechazó la apelación. El Internet Archive sostiene que prestar una copia digital por cada ejemplar en papel es legal, por la doctrina de la primera venta y el uso justo.",
       "regiones": [
         "california-indigena",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hachette-v-internet-archive",
+        "the-internets-own-boy"
+      ],
       "wikipedia": {
         "es": "Open Library",
         "en": "Open Library"
-      }
+      },
+      "fuente_debil": false
     }
   ],
   "lugares": [

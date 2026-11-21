@@ -7906,6 +7906,62 @@
       "por_que_importa": "Es un estudio con archivos polacos que trata Poznań dentro del año de la crisis.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "seton-watson-asesinato-del-rey-alejandro",
+      "titulo": "El asesinato del rey Alejandro: antecedentes y consecuencias",
+      "titulo_original": "King Alexander's Assassination: Its Background and Effects",
+      "autor": "Robert W. Seton-Watson",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "ensayo",
+      "escrita": {
+        "anio": 1935,
+        "aprox": false,
+        "lugar": "Londres"
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "francia"
+        ],
+        "desde": 1934,
+        "hasta": 1935
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (International Affairs 14(1), pp. 20-47)",
+      "resumen": "Análisis de un historiador británico de los Balcanes, publicado en enero de 1935, sobre el atentado de Marsella del 9 de octubre de 1934 contra el rey Alejandro I de Yugoslavia, sus antecedentes en la política yugoslava y sus consecuencias.",
+      "por_que_importa": "Es un estudio casi contemporáneo del atentado y de sus efectos en Yugoslavia y en Europa.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "kovrig-la-crisis-de-marsella",
+      "titulo": "Mediación por ofuscación: la resolución de la crisis de Marsella, de octubre de 1934 a mayo de 1935",
+      "titulo_original": "Mediation by Obfuscation: The Resolution of the Marseille Crisis, October 1934 to May 1935",
+      "autor": "Bennett Kovrig",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1976,
+        "aprox": false,
+        "lugar": "Cambridge"
+      },
+      "trata": {
+        "regiones": [
+          "balcanes",
+          "francia"
+        ],
+        "desde": 1934,
+        "hasta": 1935
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (The Historical Journal 19(1), pp. 191-221)",
+      "resumen": "Estudio de la crisis diplomática que siguió al asesinato de Alejandro I en Marsella y de cómo se resolvió en la Sociedad de las Naciones entre octubre de 1934 y mayo de 1935.",
+      "por_que_importa": "Cuenta las consecuencias diplomáticas del atentado.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -16089,11 +16145,15 @@
         "francia",
         "balcanes"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "seton-watson-asesinato-del-rey-alejandro",
+        "kovrig-la-crisis-de-marsella"
+      ],
       "wikipedia": {
         "es": "Alejandro I de Yugoslavia",
         "en": "Alexander I of Yugoslavia"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "invasion-italiana-de-albania",

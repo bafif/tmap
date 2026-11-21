@@ -1966,7 +1966,7 @@
       "titulo": "Inscripción faraónica de Tayma",
       "titulo_original": null,
       "autor": "Ramsés III",
-      "autor_id": null,
+      "autor_id": "ramses-iii",
       "tipo": "primaria",
       "genero": "inscripcion",
       "escrita": {
@@ -2158,6 +2158,498 @@
         "en": "Lachish ewer"
       },
       "confianza": "media"
+    },
+    {
+      "id": "kempinski-tel-kabri-1986-1993",
+      "titulo": "Tel Kabri: las campañas de excavación de 1986-1993",
+      "titulo_original": "Tel Kabri: The 1986-1993 Excavation Seasons",
+      "autor": "Aharon Kempinski, N. Scheftelowitz y R. Oren (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2002,
+        "aprox": false,
+        "lugar": "Tel Aviv"
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": -1800,
+        "hasta": -1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Emery and Claire Yass Publications in Archaeology)",
+      "resumen": "Publicación de las excavaciones de la Universidad de Tel Aviv en Tel Kabri entre 1986 y 1993, con la estratigrafía y la arquitectura de las distintas áreas y los estudios de los frescos del palacio del Bronce medio. Los capítulos los firman los miembros del equipo de excavación.",
+      "por_que_importa": "Es la publicación de la excavación del palacio cananeo de Kabri y de sus frescos de estilo egeo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "koh-yasur-landau-cline-bodega-de-kabri",
+      "titulo": "Caracterización de una bodega palaciega del Bronce medio en Tel Kabri, Israel",
+      "titulo_original": "Characterizing a Middle Bronze Palatial Wine Cellar from Tel Kabri, Israel",
+      "autor": "Andrew J. Koh, Assaf Yasur-Landau y Eric H. Cline",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2014,
+        "aprox": false,
+        "lugar": "San Francisco"
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": -1700,
+        "hasta": -1700
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (PLOS ONE 9(8): e106406)",
+      "resumen": "Artículo científico del equipo que excava Tel Kabri sobre la bodega del palacio del Bronce medio: describe el cuarto con jarras y analiza con química orgánica los restos que contenían, que indican vino.",
+      "por_que_importa": "Es la publicación científica del hallazgo de la bodega, anunciado en 2013.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "pfalzner-investigaciones-en-el-palacio-real-de-qatna",
+      "titulo": "Investigaciones arqueológicas en el palacio real de Qatna",
+      "titulo_original": "Archaeological Investigations in the Royal Palace of Qatna",
+      "autor": "Peter Pfälzner",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2007,
+        "aprox": false,
+        "lugar": "Udine"
+      },
+      "trata": {
+        "regiones": [
+          "siria",
+          "levante"
+        ],
+        "desde": -1800,
+        "hasta": -1340
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo (Studi archeologici su Qatna 1)",
+      "resumen": "Informe del director de las excavaciones alemanas del palacio real de Tell Mishrifeh, la antigua Qatna, sobre la arquitectura y las fases del palacio. Se publicó en las actas de un congreso celebrado en Udine en 2004.",
+      "por_que_importa": "Es una publicación de la excavación del palacio, hecha por quien la dirigió.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "novak-cronologia-del-palacio-real-de-qatna",
+      "titulo": "La cronología del palacio real de Qatna",
+      "titulo_original": "The Chronology of the Royal Palace of Qatna",
+      "autor": "Mirko Novák",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Viena"
+      },
+      "trata": {
+        "regiones": [
+          "siria",
+          "levante"
+        ],
+        "desde": -1800,
+        "hasta": -1340
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Ägypten und Levante 14)",
+      "resumen": "Artículo del codirector del proyecto sobre la secuencia de construcción y de uso del palacio real de Qatna, con su fechación a partir de la estratigrafía y de los hallazgos.",
+      "por_que_importa": "Fija la cronología del palacio, que Morandi Bonacossi discutió en una réplica de 2007.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "pfalzner-almaqdissi-estudios-sobre-la-tumba-real-de-qatna",
+      "titulo": "Estudios interdisciplinarios sobre la tumba real de Qatna",
+      "titulo_original": "Interdisziplinäre Studien zur Königsgruft in Qaṭna",
+      "autor": "Peter Pfälzner y Michel al-Maqdissi (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2011,
+        "aprox": false,
+        "lugar": "Wiesbaden"
+      },
+      "trata": {
+        "regiones": [
+          "siria",
+          "levante"
+        ],
+        "desde": -1800,
+        "hasta": -1340
+      },
+      "idioma_original": "Alemán",
+      "soporte": "Libro (Qaṭna Studien 1)",
+      "resumen": "Primer volumen de la serie de estudios del proyecto alemán-sirio de Qatna, sobre el hipogeo real hallado bajo el palacio: su arquitectura, los enterramientos y los hallazgos, en capítulos de varios especialistas.",
+      "por_que_importa": "Es la publicación colectiva de la tumba real y de las otras tumbas bajo el palacio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "greenberg-wengrow-paz-relieve-egipcio-de-bet-yerah",
+      "titulo": "¿Conexiones cosméticas? Un relieve egipcio del Bronce antiguo en Tel Bet Yerah",
+      "titulo_original": "Cosmetic connections? An Egyptian relief carving from Early Bronze Age Tel Bet Yerah (Israel)",
+      "autor": "Raphael Greenberg, David Wengrow y Sarit Paz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Cambridge"
+      },
+      "trata": {
+        "regiones": [
+          "levante",
+          "tierra-santa"
+        ],
+        "desde": -3100,
+        "hasta": -2900
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Antiquity, Project Gallery 84, n.º 324)",
+      "resumen": "Nota de los excavadores sobre una paleta de piedra con un relieve de motivos egipcios hallada en Tel Bet Yerah (Khirbet Kerak), con el signo anj, y sobre sus paralelos en Egipto de comienzos del tercer milenio a. C.",
+      "por_que_importa": "Es la publicación del hallazgo de 2009 y de lo que implica para los contactos con Egipto.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "luck-valle-del-jordan-cuna-de-civilizaciones",
+      "titulo": "Valle del Jordán, ¿cuna de civilizaciones?",
+      "titulo_original": "Jordan Valley - cradle of civilisations?",
+      "autor": "Taylor Luck",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "periodismo",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Amán"
+      },
+      "trata": {
+        "regiones": [
+          "transjordania",
+          "levante"
+        ],
+        "desde": -3600,
+        "hasta": -3200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo de prensa (The Jordan Times, 28 de mayo de 2010)",
+      "resumen": "Nota periodística sobre lo que el arqueólogo Stephen Bourke, de la Universidad de Sídney, anunció de las excavaciones en Pella, en Jordania: una muralla y otras estructuras de hacia 3400 a. C. en el tell Husn.",
+      "por_que_importa": "Es la fuente del anuncio de 2010; no es una publicación científica.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "dunand-byblia-grammata",
+      "titulo": "Byblia Grammata: documentos e investigaciones sobre el desarrollo de la escritura en Fenicia",
+      "titulo_original": "Byblia Grammata: Documents et recherches sur le développement de l'écriture en Phénicie",
+      "autor": "Maurice Dunand",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1945,
+        "aprox": false,
+        "lugar": "Beirut"
+      },
+      "trata": {
+        "regiones": [
+          "levante"
+        ],
+        "desde": -1800,
+        "hasta": -1500
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro",
+      "resumen": "Estudio del excavador de Biblos sobre las inscripciones en signos silábicos halladas en la ciudad entre 1928 y 1932 y sobre los orígenes de la escritura en Fenicia.",
+      "por_que_importa": "Es la publicación de las inscripciones del silabario de Biblos por quien las encontró.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "zettler-tell-es-sweyhat-1989-1995",
+      "titulo": "Subsistencia y asentamiento en un ambiente marginal: Tell es-Sweyhat, 1989-1995, informe preliminar",
+      "titulo_original": "Subsistence and Settlement in a Marginal Environment: Tell es-Sweyhat, 1989-1995 Preliminary Report",
+      "autor": "Richard L. Zettler (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1997,
+        "aprox": false,
+        "lugar": "Filadelfia"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -2700,
+        "hasta": -2000
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (MASCA Research Papers in Science and Archaeology 14)",
+      "resumen": "Informe preliminar de las campañas de la Universidad de Pensilvania en Tell es-Sweyhat, sobre el Éufrates, entre 1989 y 1995: las murallas del tercer milenio, el templo y las tumbas halladas en el montículo.",
+      "por_que_importa": "Es el informe de la excavación en la que se halló el cementerio del Bronce antiguo.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "holland-excavaciones-en-tell-es-sweyhat-2",
+      "titulo": "Excavaciones en Tell es-Sweyhat, Siria, volumen 2: arqueología de los restos del Bronce, helenísticos y romanos",
+      "titulo_original": "Excavations at Tell es-Sweyhat, Syria, Volume 2: Archaeology of the Bronze Age, Hellenistic, and Roman Remains at an Ancient Town on the Euphrates River",
+      "autor": "Thomas A. Holland",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2006,
+        "aprox": false,
+        "lugar": "Chicago"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -2700,
+        "hasta": -1200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Oriental Institute Publications 125)",
+      "resumen": "Publicación de las excavaciones en Tell es-Sweyhat: los restos arquitectónicos y los hallazgos de la Edad del Bronce, incluidas las fortificaciones.",
+      "por_que_importa": "Es una publicación definitiva de la excavación del sitio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "van-loon-hammam-et-turkman-1988",
+      "titulo": "Nuevas pruebas para la cronología del norte de Siria desde Hammam et-Turkman",
+      "titulo_original": "New Evidence for North Syrian Chronology from Hammam et-Turkman",
+      "autor": "Maurits van Loon",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 1988,
+        "aprox": false,
+        "lugar": "Boston"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -2600,
+        "hasta": -1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (American Journal of Archaeology 92(4), pp. 581-587)",
+      "resumen": "Artículo del director de las excavaciones de la Universidad de Ámsterdam en Tell Hammam et-Turkman sobre la cronología del sitio y su aporte a la del norte de Siria.",
+      "por_que_importa": "Es una de las publicaciones de la cronología de Tell Hammam et-Turkman.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "hameeuw-viviendo-con-los-muertos-tell-tweini",
+      "titulo": "Viviendo con los muertos: Tell Tweini, tumbas del Bronce medio en un contexto urbano",
+      "titulo_original": "Living with the Dead. Tell Tweini: Middle Bronze Age Tombs in an Urban Context",
+      "autor": "Hendrik Hameeuw y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Madrid"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -1800,
+        "hasta": -1600
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo (actas del 5.º Congreso Internacional de Arqueología del Antiguo Oriente Próximo, Madrid 2006, pp. 143-151)",
+      "resumen": "Informe del equipo sirio-belga de Tell Tweini sobre las tumbas colectivas del Bronce medio halladas dentro de la ciudad.",
+      "por_que_importa": "Es la publicación de la tumba comunal de Tell Tweini.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "badre-ceramica-brunida-a-mano-de-tell-kazel",
+      "titulo": "Cerámica bruñida a mano y cerámica importada contemporánea de Tell Kazel",
+      "titulo_original": "Handmade Burnished Ware and Contemporary Imported Pottery from Tell Kazel",
+      "autor": "Leila Badre",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Atenas"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -1400,
+        "hasta": -1100
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Capítulo (actas del simposio Sea Routes, Rétimo 2002, pp. 83-99)",
+      "resumen": "La directora de las excavaciones de la Universidad Americana de Beirut en Tell Kazel describe la cerámica bruñida a mano y la cerámica importada del Bronce tardío y del paso al Hierro.",
+      "por_que_importa": "Documenta la cerámica importada y local del nivel posterior a la destrucción del Bronce tardío.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "badre-procedencia-de-la-ceramica-egea-y-siria-de-tell-kazel",
+      "titulo": "La procedencia de la cerámica de tipo egeo y de tipo sirio hallada en Tell Kazel (Siria)",
+      "titulo_original": "The Provenance of Aegean- and Syrian-Type Pottery Found at Tell Kazel (Syria)",
+      "autor": "Leila Badre, Marie-Claude Boileau, Reinhard Jung y Hans Mommsen",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2005,
+        "aprox": false,
+        "lugar": "Viena"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -1400,
+        "hasta": -1100
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (Ägypten und Levante 15, pp. 15-47)",
+      "resumen": "Análisis de la procedencia de la cerámica de tipo egeo y de tipo sirio de Tell Kazel, con la secuencia del Bronce tardío y del comienzo del Hierro en el sitio.",
+      "por_que_importa": "Muestra qué cerámica llegó a Tell Kazel y de dónde en los siglos del cambio de la Edad del Bronce.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "briend-humbert-tell-keisan",
+      "titulo": "Tell Keisan (1971-1976): una ciudad fenicia en Galilea",
+      "titulo_original": "Tell Keisan (1971-1976): une cité phénicienne en Galilée",
+      "autor": "Jacques Briend y Jean-Baptiste Humbert (eds.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 1980,
+        "aprox": false,
+        "lugar": "Friburgo"
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa",
+          "levante"
+        ],
+        "desde": -2000,
+        "hasta": -1000
+      },
+      "idioma_original": "Francés",
+      "soporte": "Libro (Orbis Biblicus et Orientalis, Series Archaeologica 1)",
+      "resumen": "Publicación de las excavaciones de la Escuela Bíblica y Arqueológica Francesa en Tell Keisan entre 1971 y 1976, con la estratigrafía de los niveles del Bronce y del Hierro y los estudios de los materiales.",
+      "por_que_importa": "Es la publicación de la excavación del sitio.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "akkermans-schwartz-arqueologia-de-siria",
+      "titulo": "La arqueología de Siria: de los cazadores-recolectores complejos a las sociedades urbanas tempranas (ca. 16 000-300 a. C.)",
+      "titulo_original": "The Archaeology of Syria: From Complex Hunter-Gatherers to Early Urban Societies (ca. 16,000-300 BC)",
+      "autor": "Peter M. M. G. Akkermans y Glenn M. Schwartz",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2003,
+        "aprox": false,
+        "lugar": "Cambridge"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -3000,
+        "hasta": -1200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Cambridge University Press)",
+      "resumen": "Síntesis de la arqueología de Siria hasta fines del siglo IV a. C., con los sitios del Éufrates y del interior del Bronce antiguo, medio y tardío.",
+      "por_que_importa": "Es una referencia general de los sitios sirios de la Edad del Bronce.",
+      "leer": [],
+      "confianza": "alta"
+    },
+    {
+      "id": "wilkinson-al-margen-del-eufrates",
+      "titulo": "Al margen del Éufrates: asentamiento y uso de la tierra en Tell es-Sweyhat y en la región alta del lago Assad",
+      "titulo_original": "On the Margin of the Euphrates: Settlement and Land Use at Tell es-Sweyhat and in the Upper Lake Assad Region, Syria",
+      "autor": "Tony J. Wilkinson",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "arqueologia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Chicago"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -3000,
+        "hasta": -1200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (Oriental Institute Publications 124)",
+      "resumen": "Estudio del asentamiento y del uso de la tierra en la región de Tell es-Sweyhat y del alto lago Assad, con los sitios del Éufrates sirio rescatados antes de la inundación, entre ellos Tell Fray.",
+      "por_que_importa": "Sitúa a Tell Fray y a Tell es-Sweyhat en el poblamiento del Éufrates sirio.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "schwartz-umm-el-marra-1996-1997",
+      "titulo": "Excavación y prospección en la llanura de Jabbul, Siria occidental: el proyecto Umm el-Marra, 1996-1997",
+      "titulo_original": "Excavation and Survey in the Jabbul Plain, Western Syria: The Umm el-Marra Project 1996-1997",
+      "autor": "Glenn M. Schwartz y otros",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "ciencia",
+      "escrita": {
+        "anio": 2000,
+        "aprox": false,
+        "lugar": "Boston"
+      },
+      "trata": {
+        "regiones": [
+          "siria"
+        ],
+        "desde": -2600,
+        "hasta": -1200
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (American Journal of Archaeology 104(3), pp. 419-462)",
+      "resumen": "Informe de las campañas de 1996 y 1997 de la Universidad Johns Hopkins en Umm el-Marra y de la prospección de la llanura de Jabbul, con la secuencia del sitio.",
+      "por_que_importa": "Es el informe científico de las excavaciones del sitio.",
+      "leer": [],
+      "confianza": "alta"
     }
   ],
   "personas": [
@@ -4237,7 +4729,10 @@
         "levante",
         "mesopotamia"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "akkermans-schwartz-arqueologia-de-siria",
+        "wilkinson-al-margen-del-eufrates"
+      ],
       "fuente_debil": true,
       "wikipedia": {
         "en": "Tell Fray"
@@ -4258,7 +4753,10 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "akkermans-schwartz-arqueologia-de-siria",
+        "schwartz-umm-el-marra-1996-1997"
+      ],
       "fuente_debil": true,
       "wikipedia": {
         "es": "Umm el-Marra",
@@ -4280,8 +4778,11 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "pfalzner-investigaciones-en-el-palacio-real-de-qatna",
+        "novak-cronologia-del-palacio-real-de-qatna"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "es": "Qatna",
         "en": "Qatna"
@@ -4302,8 +4803,11 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "pfalzner-almaqdissi-estudios-sobre-la-tumba-real-de-qatna",
+        "pfalzner-investigaciones-en-el-palacio-real-de-qatna"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "es": "Qatna",
         "en": "Qatna"
@@ -4951,8 +5455,11 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "kempinski-tel-kabri-1986-1993",
+        "koh-yasur-landau-cline-bodega-de-kabri"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "en": "Tel Kabri"
       }
@@ -5109,12 +5616,14 @@
       "lon": 35.617,
       "lat": 32.45,
       "tipo": "fundacion",
-      "resumen": "En 2010 se anunció el hallazgo en Tell Husn de una muralla y otras estructuras de hacia 3400 a. C., que indican una ciudad-estado «formidable» en 3400-3200 a. C.",
+      "resumen": "En 2010 se anunció el hallazgo en Tell Husn de una muralla y otras estructuras de hacia 3400 a. C., que indican una ciudad-estado «formidable» en 3400-3200 a. C. Lo cuenta una nota de prensa sobre el anuncio del director de la excavación.",
       "regiones": [
         "transjordania",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "luck-valle-del-jordan-cuna-de-civilizaciones"
+      ],
       "fuente_debil": true,
       "wikipedia": {
         "en": "Pella, Jordan"
@@ -5136,8 +5645,10 @@
         "levante",
         "egipto"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "greenberg-wengrow-paz-relieve-egipcio-de-bet-yerah"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "en": "Khirbet Kerak"
       }
@@ -5179,8 +5690,10 @@
         "libano",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "dunand-byblia-grammata"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "es": "Silabario de Biblos",
         "en": "Byblos syllabary"
@@ -5856,8 +6369,11 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "zettler-tell-es-sweyhat-1989-1995",
+        "holland-excavaciones-en-tell-es-sweyhat-2"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "en": "Sweyhat"
       }
@@ -5877,8 +6393,10 @@
         "siria",
         "mesopotamia"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "van-loon-hammam-et-turkman-1988"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "es": "Tell Hammam et-Turkman",
         "en": "Tell Hammam et-Turkman"
@@ -5921,8 +6439,10 @@
         "siria",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "hameeuw-viviendo-con-los-muertos-tell-tweini"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "en": "Tell Tweini"
       }
@@ -5966,8 +6486,11 @@
         "levante",
         "chipre"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "badre-procedencia-de-la-ceramica-egea-y-siria-de-tell-kazel",
+        "badre-ceramica-brunida-a-mano-de-tell-kazel"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "en": "Tell Kazel"
       }
@@ -6785,8 +7308,10 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
-      "fuente_debil": true,
+      "fuentes": [
+        "briend-humbert-tell-keisan"
+      ],
+      "fuente_debil": false,
       "wikipedia": {
         "es": "Tell Keisan",
         "en": "Tell Keisan"
@@ -7959,9 +8484,9 @@
       "nombre": "Tell Arqa (Irqata)",
       "lon": 36.04,
       "lat": 34.53,
-      "fundacion": null,
+      "fundacion": -2300,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
       "resumen": "Tell cerca de la aldea libanesa de Arqa, a unos 22 km al noreste de Trípoli, con ocupación desde el Neolítico. En el Bronce antiguo IV fue uno de los tres grandes sitios de la llanura de Akkar, junto a Tell Kazel y Tell Jamous; Irqata aparece en las cartas de Amarna, entre ellas una carta de la propia ciudad al faraón (EA 100).",
@@ -7979,12 +8504,12 @@
       "nombre": "Sarepta (Sarafand)",
       "lon": 35.296,
       "lat": 33.458,
-      "fundacion": null,
+      "fundacion": -1600,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad fenicia de la costa libanesa entre Sidón y Tiro, la única ciudad del corazón fenicio excavada a fondo (James B. Pritchard, 1969-1974). Se la menciona por primera vez en el viaje de un egipcio del siglo XIV a. C.",
+      "resumen": "Ciudad fenicia de la costa libanesa entre Sidón y Tiro, la única ciudad del corazón fenicio excavada a fondo (James B. Pritchard, 1969-1974). Se la menciona por primera vez en el viaje de un egipcio del siglo XIV a. C. Ocupada desde c. 1600 a. C.",
       "regiones": [
         "libano",
         "levante"
@@ -8326,12 +8851,12 @@
       "nombre": "Erimi",
       "lon": 32.917,
       "lat": 34.683,
-      "fundacion": null,
+      "fundacion": -3500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Pueblo del distrito de Limasol, cerca de Kourion, con varios sitios arqueológicos: Erimi-Pamboula, del Calcolítico, Erimi-Kafkalla y Erimi-Laonin tou Porakou, del Bronce antiguo y medio, y Erimi-Pitharka, del Bronce tardío.",
+      "resumen": "Pueblo del distrito de Limasol, cerca de Kourion, con varios sitios arqueológicos: Erimi-Pamboula, del Calcolítico, Erimi-Kafkalla y Erimi-Laonin tou Porakou, del Bronce antiguo y medio, y Erimi-Pitharka, del Bronce tardío. Erimi-Pamboula es del Calcolítico, que en Chipre empieza hacia 3500 a. C.",
       "regiones": [
         "chipre"
       ],
@@ -8401,12 +8926,12 @@
       "nombre": "Tamasos (Politiko)",
       "lon": 33.242,
       "lat": 35.025,
-      "fundacion": null,
+      "fundacion": -2000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad-estado del interior de Chipre, cuyo centro se supone bajo el pueblo de Politiko. Prosperó por sus minas de cobre, que reemplazaron a pequeñas aldeas agrícolas, y no tenía puerto.",
+      "resumen": "Ciudad-estado del interior de Chipre, cuyo centro se supone bajo el pueblo de Politiko. Prosperó por sus minas de cobre, que reemplazaron a pequeñas aldeas agrícolas, y no tenía puerto. Ocupada desde el Bronce, c. 2000 a. C.; citada como Tamesi hacia 673 a. C.",
       "regiones": [
         "chipre"
       ],
@@ -8475,9 +9000,9 @@
       "nombre": "Saar",
       "lon": 50.486,
       "lat": 26.197,
-      "fundacion": null,
+      "fundacion": -2050,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 2,
       "resumen": "Asentamiento y templo de la época de Dilmun en Baréin, descubierto en 1977 y excavado en 1977-1979 y por la Expedición Arqueológica Londres-Baréin en 1990-1999. En las casas se hallaron anzuelos de cobre producido en Baréin, betún importado de Mesopotamia, conchas de ostra perlera y varios cientos de sellos; el templo se asocia con la observación del solsticio de verano.",

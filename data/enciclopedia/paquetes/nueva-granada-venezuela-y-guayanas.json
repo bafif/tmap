@@ -2286,6 +2286,60 @@
       "por_que_importa": "Es el estudio clásico de las guerras de mediados del siglo XVIII en el Caribe.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "romero-isaza-hospital-san-juan-de-dios",
+      "titulo": "Historia del hospital San Juan de Dios de Bogotá",
+      "titulo_original": null,
+      "autor": "María Claudia Romero Isaza",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Bogotá"
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1564,
+        "hasta": 2008
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia del hospital San Juan de Dios de Bogotá, editada por el Instituto de Patrimonio Cultural de Bogotá y la Alcaldía Mayor. Cuenta que nació en 1564 por una donación de fray Juan de los Barrios, como Hospital de San Pedro atendido por frailes, y que pasó después a los hermanos de San Juan de Dios.",
+      "por_que_importa": "Es la historia más completa del hospital más antiguo de Bogotá.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ibanez-cronicas-de-bogota",
+      "titulo": "Crónicas de Bogotá",
+      "titulo_original": null,
+      "autor": "Pedro María Ibáñez",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1891,
+        "aprox": false,
+        "lugar": "Bogotá"
+      },
+      "trata": {
+        "regiones": [
+          "norte-de-sudamerica"
+        ],
+        "desde": 1538,
+        "hasta": 1891
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Crónicas de la historia de Bogotá desde la fundación de la ciudad, escritas por Pedro María Ibáñez e impresas en la Imprenta de La Luz. Su primer tomo, en los capítulos VIII y X, trata el hospital de San Juan de Dios, según lo cita la bibliografía del hospital.",
+      "por_que_importa": "Es una de las crónicas clásicas de la ciudad, anterior a la historiografía académica.",
+      "leer": [],
+      "confianza": "baja"
     }
   ],
   "personas": [
@@ -6917,7 +6971,11 @@
       "regiones": [
         "norte-de-sudamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "romero-isaza-hospital-san-juan-de-dios",
+        "ibanez-cronicas-de-bogota"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "fundacion-de-la-universidad-santo-tomas",
@@ -8113,12 +8171,12 @@
       "nombre": "Templo del Sol de Sogamoso",
       "lon": -72.926,
       "lat": 5.71,
-      "fundacion": null,
+      "fundacion": 1200,
       "abandono": 1537,
-      "aprox": false,
+      "aprox": true,
       "tipo": "templo",
       "importancia": 2,
-      "resumen": "Santuario muisca de Sugamuxi, sede del iraca, el jefe religioso. Según las crónicas, soldados de Jiménez de Quesada que lo saqueaban de noche con antorchas lo incendiaron en septiembre de 1537. En el Museo Arqueológico de Sogamoso hay una reconstrucción moderna.",
+      "resumen": "Santuario muisca de Sugamuxi, sede del iraca, el jefe religioso. Según las crónicas, soldados de Jiménez de Quesada que lo saqueaban de noche con antorchas lo incendiaron en septiembre de 1537. En el Museo Arqueológico de Sogamoso hay una reconstrucción moderna. Santuario del período muisca tardío (c. 1200-1600).",
       "regiones": [
         "norte-de-sudamerica"
       ],
@@ -8132,12 +8190,12 @@
       "nombre": "El Infiernito",
       "lon": -73.559,
       "lat": 5.647,
-      "fundacion": null,
+      "fundacion": -540,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Sitio arqueológico cerca de Villa de Leyva con dos alineaciones de columnas de piedra y monolitos, de época muisca o anterior. Que funcionara como observatorio para medir el calendario es una interpretación de los arqueólogos que lo estudiaron.",
+      "resumen": "Sitio arqueológico cerca de Villa de Leyva con dos alineaciones de columnas de piedra y monolitos, de época muisca o anterior. Que funcionara como observatorio para medir el calendario es una interpretación de los arqueólogos que lo estudiaron. Ocupado desde c. 540 a. C.",
       "regiones": [
         "norte-de-sudamerica"
       ],
@@ -8398,12 +8456,12 @@
       "nombre": "San Basilio de Palenque",
       "lon": -75.199,
       "lat": 10.103,
-      "fundacion": null,
+      "fundacion": 1599,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Pueblo de descendientes de cimarrones en los Montes de María, cerca de Cartagena, que conserva la lengua palenquera, criolla de base española con aportes bantúes. La UNESCO lo declaró obra maestra del patrimonio oral en 2005. La fecha de su reconocimiento por la Corona (1691 o 1713, según los autores) y su relación con Benkos Biohó se discuten.",
+      "resumen": "Pueblo de descendientes de cimarrones en los Montes de María, cerca de Cartagena, que conserva la lengua palenquera, criolla de base española con aportes bantúes. La UNESCO lo declaró obra maestra del patrimonio oral en 2005. La fecha de su reconocimiento por la Corona (1691 o 1713, según los autores) y su relación con Benkos Biohó se discuten. Nació de la fuga de unos treinta esclavizados en 1599, bajo el mando de Benkos Biohó.",
       "regiones": [
         "norte-de-sudamerica"
       ],

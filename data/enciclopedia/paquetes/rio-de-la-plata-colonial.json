@@ -2493,6 +2493,149 @@
       "por_que_importa": "Es la historia clásica de Santa Fe y fuente de la historiografía local posterior.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "menendez-la-verdadera-fundacion-de-san-luis",
+      "titulo": "La verdadera fundación de San Luis",
+      "titulo_original": null,
+      "autor": "Néstor Menéndez",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "San Luis"
+      },
+      "trata": {
+        "regiones": [
+          "noroeste-argentino"
+        ],
+        "desde": 1594,
+        "hasta": 1596
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio sobre la fundación de la ciudad de San Luis, que discute la fecha y el fundador que la tradición fija en el 25 de agosto de 1594 y en Luis Jufré de Loaysa y Meneses.",
+      "por_que_importa": "Trata directamente la discusión sobre la fecha y el fundador de San Luis.",
+      "leer": [],
+      "confianza": "baja"
+    },
+    {
+      "id": "ares-la-real-imprenta-de-ninos-expositos",
+      "titulo": "Real Imprenta de Niños Expósitos: revalorización patrimonial tipográfica del Buenos Aires virreinal (1780-1810)",
+      "titulo_original": null,
+      "autor": "Fabio Eduardo Ares",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2009,
+        "aprox": false,
+        "lugar": "Ciudad de México"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1760,
+        "hasta": 1810
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo (Boletín del Instituto de Investigaciones Bibliográficas, UNAM)",
+      "resumen": "Estudio sobre la Real Imprenta de Niños Expósitos de Buenos Aires, su tipografía y su producción entre 1780 y 1810.",
+      "por_que_importa": "Es un estudio académico de la imprenta que heredó el equipo traído de Córdoba.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "guerra-el-hospital-en-hispanoamerica",
+      "titulo": "El hospital en Hispanoamérica y Filipinas, 1492-1898",
+      "titulo_original": null,
+      "autor": "Francisco Guerra",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1994,
+        "aprox": false,
+        "lugar": "Madrid"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata",
+          "noroeste-argentino"
+        ],
+        "desde": 1492,
+        "hasta": 1898
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Obra de referencia sobre los hospitales fundados por España en América y Filipinas, reunida por el médico e historiador Francisco Guerra tras décadas de investigación y publicada por el Ministerio de Sanidad y Consumo.",
+      "por_que_importa": "Es la obra general más citada sobre el tema; cubre cada región, no un hospital en particular.",
+      "leer": [],
+      "wikipedia": {
+        "es": "Hospitales fundados por España en América (1492-1898)"
+      },
+      "confianza": "media"
+    },
+    {
+      "id": "loayza-la-universidad-de-charcas",
+      "titulo": "La Universidad de Charcas",
+      "titulo_original": null,
+      "autor": "Joaquín Loayza Valda",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1998,
+        "aprox": false,
+        "lugar": "Sucre"
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "amazonia-andina",
+          "rio-de-la-plata"
+        ],
+        "desde": 1624,
+        "hasta": 1825
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la Universidad de San Francisco Xavier, fundada por los jesuitas en La Plata (hoy Sucre), publicada por la propia Universidad de San Francisco Xavier de Chuquisaca.",
+      "por_que_importa": "Es la historia de la universidad escrita desde la institución.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "thibaud-la-academia-carolina",
+      "titulo": "La Academia Carolina y la independencia de América. Los abogados de Chuquisaca (1776-1809)",
+      "titulo_original": null,
+      "autor": "Clément Thibaud",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Sucre"
+      },
+      "trata": {
+        "regiones": [
+          "andes",
+          "amazonia-andina",
+          "rio-de-la-plata"
+        ],
+        "desde": 1776,
+        "hasta": 1809
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Estudio de la Academia Carolina de práctica jurídica de Charcas y de los abogados formados en Chuquisaca antes de 1809. Publicado por Editorial Charcas.",
+      "por_que_importa": "Es el estudio académico sobre la formación jurídica de los dirigentes de 1809.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -6124,7 +6267,10 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "menendez-la-verdadera-fundacion-de-san-luis"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "fundacion-de-catamarca",
@@ -6291,7 +6437,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "guerra-el-hospital-en-hispanoamerica"
+      ],
+      "fuente_debil": true
     },
     {
       "id": "division-de-la-gobernacion-1617",
@@ -6550,15 +6699,18 @@
       "lon": -58.374,
       "lat": -34.609,
       "tipo": "judicial",
-      "resumen": "La Audiencia de Buenos Aires volvió a instalarse en 1785, ya como audiencia del virreinato del Río de la Plata, con distrito sobre las intendencias de Buenos Aires, Córdoba, Salta y el Paraguay. Funcionó en el Cabildo hasta 1812, cuando el gobierno revolucionario la reemplazó por una cámara de apelaciones.",
+      "resumen": "La Audiencia de Buenos Aires volvió a instalarse en 1785, ya como audiencia del virreinato del Río de la Plata, con distrito sobre las intendencias de Buenos Aires, Córdoba, Salta y el Paraguay. Funcionó en el Cabildo hasta 1812, cuando el gobierno revolucionario la reemplazó por una cámara de apelaciones. Lo cuenta la historiografía posterior.",
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Real Audiencia de Buenos Aires",
         "en": "Real Audiencia of Buenos Aires"
-      }
+      },
+      "fuente_debil": true
     },
     {
       "id": "comuneros-del-paraguay",
@@ -6887,7 +7039,10 @@
       "regiones": [
         "noroeste-argentino"
       ],
-      "fuentes": []
+      "fuentes": [
+        "guerra-el-hospital-en-hispanoamerica"
+      ],
+      "fuente_debil": true
     },
     {
       "id": "provincia-jesuitica-del-paraguay",
@@ -6975,7 +7130,11 @@
         "andes",
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "loayza-la-universidad-de-charcas",
+        "thibaud-la-academia-carolina"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "martirio-de-roque-gonzalez",
@@ -7133,7 +7292,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "guerra-el-hospital-en-hispanoamerica"
+      ],
+      "fuente_debil": true
     },
     {
       "id": "imprenta-de-cordoba",
@@ -7149,7 +7311,10 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "ares-la-real-imprenta-de-ninos-expositos"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "expulsion-de-los-jesuitas",

@@ -2631,7 +2631,7 @@
       "titulo": "Inscripciones de la tumba de Anjtifi",
       "titulo_original": null,
       "autor": "Anjtifi",
-      "autor_id": null,
+      "autor_id": "ankhtifi",
       "tipo": "primaria",
       "genero": "inscripcion",
       "escrita": {
@@ -4733,12 +4733,12 @@
       "nombre": "Tebas",
       "lon": 32.639,
       "lat": 25.719,
-      "fundacion": null,
+      "fundacion": -3200,
       "abandono": null,
       "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "Capital del Imperio Nuevo y ciudad de Amón; hoy Luxor y Karnak, con las necrópolis de la orilla oeste.",
+      "resumen": "Capital del Imperio Nuevo y ciudad de Amón; hoy Luxor y Karnak, con las necrópolis de la orilla oeste. Habitada desde c. 3200 a. C., como un pequeño puesto comercial.",
       "regiones": [
         "egipto"
       ],
@@ -4809,12 +4809,12 @@
       "nombre": "Heliópolis",
       "lon": 31.3,
       "lat": 30.13,
-      "fundacion": null,
+      "fundacion": -3000,
       "abandono": 400,
       "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Gran centro del culto solar de Ra y de su teología, al noreste del actual El Cairo.",
+      "resumen": "Gran centro del culto solar de Ra y de su teología, al noreste del actual El Cairo. Ya era un asentamiento antes del período faraónico; los Textos de las Pirámides la llaman «Casa de Ra».",
       "regiones": [
         "egipto"
       ],

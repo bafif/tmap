@@ -1812,6 +1812,87 @@
       "por_que_importa": "Es la historia de referencia de los orígenes de la universidad de Montevideo, escrita con documentos del archivo universitario; la publicó la propia universidad.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "gutierrez-origen-y-desarrollo-de-la-ensenanza-publica-superior",
+      "titulo": "Origen y desarrollo de la enseñanza pública superior en Buenos Aires",
+      "titulo_original": null,
+      "autor": "Juan María Gutiérrez",
+      "autor_id": "juan-maria-gutierrez",
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1868,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1767,
+        "hasta": 1821
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Historia de la enseñanza superior en Buenos Aires desde la expulsión de los jesuitas en 1767 hasta la fundación de la Universidad en 1821, con notas, biografías y datos de los colegios y de sus alumnos.",
+      "por_que_importa": "Es la obra clásica sobre la educación superior porteña de la época de Rivadavia, escrita en el siglo XIX.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "hospital-aleman-150-anios",
+      "titulo": "Hospital Alemán 150 años",
+      "titulo_original": null,
+      "autor": "Hospital Alemán de Buenos Aires",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2017,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1867,
+        "hasta": 2017
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Libro conmemorativo de los 150 años del Hospital Alemán de Buenos Aires, publicado por Cuatro Puertas en 2017. Su capítulo sobre el pasado cuenta cómo la colectividad de habla alemana creó el hospital y cómo creció.",
+      "por_que_importa": "Es la historia de la institución escrita en su aniversario, con el punto de vista de la propia casa.",
+      "leer": [],
+      "confianza": "baja"
+    },
+    {
+      "id": "guyot-asociacionismo-frances",
+      "titulo": "El asociacionismo francés en la Argentina",
+      "titulo_original": null,
+      "autor": "Silvia Guyot",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2010,
+        "aprox": false,
+        "lugar": "Tel Aviv"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1830,
+        "hasta": 1900
+      },
+      "idioma_original": "Español",
+      "soporte": "Artículo (Estudios Interdisciplinarios de América Latina y el Caribe)",
+      "resumen": "Artículo sobre las asociaciones de la colectividad francesa en la Argentina, entre ellas las sociedades de socorros mutuos, el hospital y la Alianza Francesa.",
+      "por_que_importa": "Es un estudio académico de las instituciones de la colectividad francesa de Buenos Aires.",
+      "leer": [],
+      "confianza": "baja"
     }
   ],
   "personas": [
@@ -3986,7 +4067,11 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": []
+      "fuentes": [
+        "gutierrez-origen-y-desarrollo-de-la-ensenanza-publica-superior",
+        "historia-de-la-nacion-argentina-academia"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "emprestito-baring",
@@ -4518,11 +4603,14 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-nacion-argentina-academia"
+      ],
       "wikipedia": {
         "es": "Bahía Blanca",
         "en": "Bahía Blanca"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "motin-del-1-de-diciembre-de-1828",
@@ -5386,26 +5474,6 @@
       }
     },
     {
-      "id": "fundacion-del-hospital-britanico",
-      "titulo": "Fundación del Hospital Británico de Buenos Aires",
-      "anio": 1844,
-      "anio_hasta": null,
-      "aprox": false,
-      "lugar": "Hospital Británico de Buenos Aires",
-      "lon": -58.388,
-      "lat": -34.634,
-      "tipo": "fundacion",
-      "resumen": "Un grupo de residentes británicos encabezado por el reverendo Barton Lodge fundó en 1844 un hospital para atender a los miembros pobres de su comunidad. Es uno de los primeros hospitales de colectividad del país.",
-      "regiones": [
-        "rio-de-la-plata"
-      ],
-      "fuentes": [],
-      "wikipedia": {
-        "es": "Hospital Británico de Buenos Aires",
-        "en": "Hospital Británico de Buenos Aires"
-      }
-    },
-    {
       "id": "fundacion-del-hospital-frances",
       "titulo": "Fundación del Hospital Francés de Buenos Aires",
       "anio": 1845,
@@ -5419,10 +5487,13 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "guyot-asociacionismo-frances"
+      ],
       "wikipedia": {
         "es": "Hospital Francés"
-      }
+      },
+      "fuente_debil": true
     },
     {
       "id": "fundacion-del-hospital-italiano",
@@ -5460,11 +5531,14 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "bosch-urquiza-y-su-tiempo"
+      ],
       "wikipedia": {
         "es": "Colegio del Uruguay",
         "en": "Colegio del Uruguay"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "fundacion-de-la-universidad-de-la-republica",
@@ -5547,10 +5621,13 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "hospital-aleman-150-anios"
+      ],
       "wikipedia": {
         "es": "Hospital Alemán"
-      }
+      },
+      "fuente_debil": true
     },
     {
       "id": "guerras-civiles-argentinas",

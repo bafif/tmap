@@ -1997,6 +1997,141 @@
         "en": "Manuel Dorrego national institute"
       },
       "confianza": "alta"
+    },
+    {
+      "id": "el-museo-historico-nacional-en-su-cincuentenario",
+      "titulo": "El Museo Histórico Nacional en su cincuentenario, 1889-1939",
+      "titulo_original": null,
+      "autor": "Museo Histórico Nacional",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1939,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1889,
+        "hasta": 1939
+      },
+      "idioma_original": "Español",
+      "soporte": "Publicación institucional",
+      "resumen": "Publicación del propio museo por sus cincuenta años: su fundación en 1889 por iniciativa de Adolfo P. Carranza, su historia y sus colecciones.",
+      "por_que_importa": "Es la historia institucional del museo en su medio siglo.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "menem-discurso-por-los-restos-de-rosas",
+      "titulo": "Discurso del presidente Carlos Menem en Rosario por la repatriación de los restos de Rosas",
+      "titulo_original": null,
+      "autor": "Carlos Menem",
+      "autor_id": "menem",
+      "tipo": "primaria",
+      "genero": "discurso",
+      "escrita": {
+        "anio": 1989,
+        "aprox": false,
+        "lugar": "Rosario"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1989,
+        "hasta": 1989
+      },
+      "idioma_original": "Español",
+      "soporte": "Discurso",
+      "resumen": "Discurso del presidente Carlos Menem en un acto realizado en Rosario en 1989, con motivo de la repatriación de los restos de Juan Manuel de Rosas, que había muerto exiliado en 1877. Presenta la repatriación como un gesto de reconciliación nacional.",
+      "por_que_importa": "Es la justificación del propio gobierno de la repatriación.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "johnson-muerte-desmembramiento-y-memoria",
+      "titulo": "Muerte, desmembramiento y memoria: políticas del cuerpo en América Latina",
+      "titulo_original": "Death, Dismemberment, and Memory: Body Politics in Latin America",
+      "autor": "Lyman L. Johnson (ed.)",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2004,
+        "aprox": false,
+        "lugar": "Albuquerque"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1877,
+        "hasta": 1989
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Libro (University of New Mexico Press)",
+      "resumen": "Volumen colectivo sobre el destino de los cuerpos de figuras políticas en América Latina y el uso que se hizo de ellos; trata, entre otros casos, el de los restos de Rosas.",
+      "por_que_importa": "Sitúa la repatriación de Rosas entre los usos políticos de los cuerpos.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "ley-13661-ano-del-libertador",
+      "titulo": "Ley 13.661, de homenaje al general José de San Martín en el centenario de su muerte",
+      "titulo_original": null,
+      "autor": "Congreso de la Nación Argentina",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "legal",
+      "escrita": {
+        "anio": 1949,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1949,
+        "hasta": 1950
+      },
+      "idioma_original": "Español",
+      "soporte": "Ley",
+      "resumen": "Ley promulgada el 24 de octubre de 1949 con los homenajes al general San Martín por el centenario de su muerte, que declaraba 1950 «Año del Libertador General San Martín» y disponía el monumento «El abuelo inmortal».",
+      "por_que_importa": "Es el acto legal que dio nombre oficial al año 1950.",
+      "leer": [],
+      "confianza": "media"
+    },
+    {
+      "id": "monumentos-y-esculturas-palermo",
+      "titulo": "Monumentos y esculturas de Buenos Aires. Palermo, espacios simbólicos y arte público",
+      "titulo_original": null,
+      "autor": "Dirección General de Patrimonio e Instituto Histórico de la Ciudad de Buenos Aires",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1944,
+        "hasta": 1951
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro",
+      "resumen": "Libro de la Dirección General de Patrimonio e Instituto Histórico de la Ciudad de Buenos Aires sobre los monumentos y esculturas de Palermo. Al tratar el monumento «El abuelo inmortal», refiere la ley 13.661 de 1949 que lo dispuso y que declaró 1950 Año del Libertador General San Martín.",
+      "por_que_importa": "Es la fuente que cita el artículo de Wikipedia sobre el monumento para la ley y el nombre del año.",
+      "leer": [],
+      "confianza": "baja"
     }
   ],
   "personas": [
@@ -3150,26 +3285,6 @@
   ],
   "hechos": [
     {
-      "id": "fundacion-del-archivo-general-de-la-nacion",
-      "titulo": "Fundación del Archivo General",
-      "anio": 1821,
-      "anio_hasta": null,
-      "aprox": false,
-      "lugar": "Archivo General de la Nación",
-      "lon": -58.395,
-      "lat": -34.633,
-      "tipo": "fundacion",
-      "resumen": "El 28 de agosto de 1821, durante el gobierno de Martín Rodríguez en Buenos Aires, se creó el Archivo General de la Provincia para reunir los papeles del virreinato, de los gobiernos revolucionarios y de la administración provincial. En 1884 pasó a la Nación con el nombre de Archivo General de la Nación. Sus fondos sirvieron de base a Mitre, que trabajó en él para la Historia de Belgrano, y a la historiografía posterior.",
-      "regiones": [
-        "rio-de-la-plata"
-      ],
-      "fuentes": [],
-      "wikipedia": {
-        "es": "Archivo General de la Nación (Argentina)",
-        "en": "General Archive of the Nation (Argentina)"
-      }
-    },
-    {
       "id": "polemica-mitre-velez-sarsfield",
       "titulo": "Polémica de Mitre y Vélez Sarsfield sobre Belgrano y Güemes",
       "anio": 1864,
@@ -3224,11 +3339,14 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "el-museo-historico-nacional-en-su-cincuentenario"
+      ],
       "wikipedia": {
         "es": "Museo Histórico Nacional (Argentina)",
         "en": "National Historical Museum (Argentina)"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "fundacion-de-la-junta-de-historia-y-numismatica",
@@ -3344,11 +3462,15 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "menem-discurso-por-los-restos-de-rosas",
+        "johnson-muerte-desmembramiento-y-memoria"
+      ],
       "wikipedia": {
         "es": "Repatriación de los restos de Juan Manuel de Rosas",
         "en": "Repatriation of Juan Manuel de Rosas's body"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "instituto-dorrego",
@@ -3425,15 +3547,19 @@
       "lon": -58.3816,
       "lat": -34.6037,
       "tipo": "politico",
-      "resumen": "El presidente Juan Domingo Perón denominó 1950 «Año del Libertador General San Martín», al cumplirse cien años de la muerte de José de San Martín. Es una de las conmemoraciones estatales de la figura de San Martín, que el Ejército y el Instituto Nacional Sanmartiniano venían promoviendo desde la década de 1930.",
+      "resumen": "La ley 13.661, promulgada el 24 de octubre de 1949, declaró 1950 «Año del Libertador General San Martín», al cumplirse cien años de la muerte de José de San Martín. Es una de las conmemoraciones estatales de la figura de San Martín, que el Ejército y el Instituto Nacional Sanmartiniano venían promoviendo desde la década de 1930.",
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "ley-13661-ano-del-libertador",
+        "monumentos-y-esculturas-palermo"
+      ],
       "wikipedia": {
         "es": "Libertador",
         "en": "Libertadores"
-      }
+      },
+      "fuente_debil": false
     }
   ],
   "lugares": [

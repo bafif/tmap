@@ -2908,6 +2908,33 @@
       "por_que_importa": "Fijó el modelo del terremoto como un deslizamiento de subducción y fue un aporte temprano a la tectónica de placas.",
       "leer": [],
       "confianza": "alta"
+    },
+    {
+      "id": "collins-hombres-misteriosos-de-la-bahia-de-hudson",
+      "titulo": "Los hombres misteriosos desaparecidos de la bahía de Hudson",
+      "titulo_original": "Vanished Mystery Men of Hudson Bay",
+      "autor": "Henry B. Collins",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "viajes",
+      "escrita": {
+        "anio": 1956,
+        "aprox": false,
+        "lugar": "Washington"
+      },
+      "trata": {
+        "regiones": [
+          "artico-norteamericano"
+        ],
+        "desde": 1902,
+        "hasta": 1956
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Artículo (National Geographic Magazine, vol. 110, n.º 5)",
+      "resumen": "Artículo del arqueólogo de la Smithsonian sobre los sadlermiut de la isla Southampton y su desaparición a comienzos del siglo XX.",
+      "por_que_importa": "Es una de las fuentes de lo que se sabe de la extinción de los sadlermiut.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -5648,10 +5675,14 @@
         "artico-norteamericano",
         "norteamerica"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "collins-hombres-misteriosos-de-la-bahia-de-hudson",
+        "raghavan-2014-artico"
+      ],
       "wikipedia": {
         "en": "Sadlermiut"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "atuagagdliutit",

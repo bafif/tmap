@@ -2897,6 +2897,33 @@
       "por_que_importa": "Es un estudio de referencia en inglés sobre la sociedad y la política novohispanas del período, que incluye la crisis de 1624.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "arreola-historia-del-colegio-de-san-nicolas",
+      "titulo": "Historia del Colegio de San Nicolás",
+      "titulo_original": null,
+      "autor": "Raúl Arreola Cortés",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 1991,
+        "aprox": false,
+        "lugar": "Morelia"
+      },
+      "trata": {
+        "regiones": [
+          "mesoamerica"
+        ],
+        "desde": 1540,
+        "hasta": 1917
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro (2.ª edición)",
+      "resumen": "Historia del Colegio de San Nicolás, fundado por Vasco de Quiroga en Pátzcuaro y trasladado a Valladolid (Morelia), antecedente de la Universidad Michoacana. Publicada por el Instituto de Investigaciones Históricas de la Universidad Michoacana.",
+      "por_que_importa": "Es la historia de referencia del colegio, escrita desde la universidad que lo heredó.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -8646,7 +8673,10 @@
       "regiones": [
         "mesoamerica"
       ],
-      "fuentes": []
+      "fuentes": [
+        "arreola-historia-del-colegio-de-san-nicolas"
+      ],
+      "fuente_debil": false
     },
     {
       "id": "fundacion-de-la-universidad-de-mexico",
@@ -9751,12 +9781,12 @@
       "nombre": "Pátzcuaro",
       "lon": -101.61,
       "lat": 19.516,
-      "fundacion": null,
+      "fundacion": 1320,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Antiguo centro purépecha junto al lago del mismo nombre, que Vasco de Quiroga eligió como sede del obispado de Michoacán y de su colegio de San Nicolás. Conserva la memoria de «Tata Vasco» y las artesanías que se atribuyen a su impulso.",
+      "resumen": "Antiguo centro purépecha junto al lago del mismo nombre, que Vasco de Quiroga eligió como sede del obispado de Michoacán y de su colegio de San Nicolás. Conserva la memoria de «Tata Vasco» y las artesanías que se atribuyen a su impulso. Se fundó en algún momento de la década de 1320.",
       "regiones": [
         "mesoamerica"
       ],

@@ -4961,7 +4961,9 @@
         "general"
       ],
       "resumen": "Nomarca de Hieracómpolis partidario de los reyes de Heracleópolis, que guerreó contra Tebas a comienzos del Primer Período Intermedio. Su tumba de Moalla narra sus campañas y su ayuda en la hambruna.",
-      "obras": [],
+      "obras": [
+        "inscripciones-de-anjtifi"
+      ],
       "wikipedia": {
         "es": "Anjtifi",
         "en": "Ankhtifi"
@@ -8279,9 +8281,9 @@
       "nombre": "Dendera (Iunet)",
       "lon": 32.67,
       "lat": 26.142,
-      "fundacion": null,
+      "fundacion": -2300,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
       "resumen": "Capital del nomo VI del Alto Egipto, cuyo gobernador fue a veces jefe de todo el Alto Egipto, como Idu I a fines de la dinastía VI. El templo de Hathor se atribuye a Pepi I.",

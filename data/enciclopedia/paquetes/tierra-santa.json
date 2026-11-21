@@ -15334,6 +15334,33 @@
         "en": "Fall of the Assad regime"
       },
       "confianza": "media"
+    },
+    {
+      "id": "informe-del-alto-comisionado-sobre-gaza-2013",
+      "titulo": "Informe del Alto Comisionado de la ONU para los Derechos Humanos sobre la aplicación de las resoluciones S-9/1 y S-12/1 del Consejo de Derechos Humanos",
+      "titulo_original": "Report of the United Nations High Commissioner for Human Rights on the implementation of Human Rights Council resolutions S-9/1 and S-12/1",
+      "autor": "Alto Comisionado de las Naciones Unidas para los Derechos Humanos",
+      "autor_id": null,
+      "tipo": "primaria",
+      "genero": "administrativo",
+      "escrita": {
+        "anio": 2013,
+        "aprox": false,
+        "lugar": "Ginebra"
+      },
+      "trata": {
+        "regiones": [
+          "tierra-santa"
+        ],
+        "desde": 2012,
+        "hasta": 2012
+      },
+      "idioma_original": "Inglés",
+      "soporte": "Informe",
+      "resumen": "Informe del 6 de marzo de 2013 al Consejo de Derechos Humanos de la ONU sobre los territorios palestinos ocupados, que incluye las cifras de muertos de la operación israelí en Gaza de noviembre de 2012.",
+      "por_que_importa": "Es el informe de la ONU de 2013 al que remite la cifra de muertos palestinos.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -27645,11 +27672,14 @@
         "tierra-santa",
         "levante"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "informe-del-alto-comisionado-sobre-gaza-2013"
+      ],
       "wikipedia": {
         "es": "Guerra de Gaza de 2012",
         "en": "2012 Gaza War"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "muerte-de-muhammad-al-durrah",
@@ -29291,12 +29321,12 @@
       "nombre": "Belén",
       "lon": 35.206,
       "lat": 31.704,
-      "fundacion": null,
+      "fundacion": -1350,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Ciudad de David según la Biblia y lugar del nacimiento de Jesús según los evangelios. San Jerónimo vivió allí 34 años y tradujo la Biblia al latín, la Vulgata.",
+      "resumen": "Ciudad de David según la Biblia y lugar del nacimiento de Jesús según los evangelios. San Jerónimo vivió allí 34 años y tradujo la Biblia al latín, la Vulgata. Una posible primera mención está en las cartas de Amarna (1350-1330 a. C.), aunque la lectura es incierta.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29311,12 +29341,12 @@
       "nombre": "Nazaret",
       "lon": 35.298,
       "lat": 32.702,
-      "fundacion": null,
+      "fundacion": -125,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Aldea de Galilea donde creció Jesús. Hoy es la mayor ciudad árabe de Israel.",
+      "resumen": "Aldea de Galilea donde creció Jesús. Hoy es la mayor ciudad árabe de Israel. Se pobló desde el período asmoneo (fines del siglo II a. C.); también hay cerámica del Bronce Medio y del Hierro.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29331,12 +29361,12 @@
       "nombre": "Hebrón",
       "lon": 35.099,
       "lat": 31.535,
-      "fundacion": null,
+      "fundacion": -3000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Una de las ciudades más antiguas de Canaán, primera capital de David y lugar de la tumba de los patriarcas. Tuvo una comunidad judía casi continua hasta la matanza de 1929.",
+      "resumen": "Una de las ciudades más antiguas de Canaán, primera capital de David y lugar de la tumba de los patriarcas. Tuvo una comunidad judía casi continua hasta la matanza de 1929. Tel Rumeida tiene fortificaciones del Bronce Antiguo; la ciudad floreció en los siglos XVIII-XVII a. C. y se reocupó a fines del Bronce Medio.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29391,12 +29421,12 @@
       "nombre": "Acre",
       "lon": 35.084,
       "lat": 32.926,
-      "fundacion": null,
+      "fundacion": -3000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 3,
-      "resumen": "Puerto principal de los cruzados y, entre 1191 y 1291, capital del reino de Jerusalén. Su caída ante los mamelucos en 1291 terminó con los Estados cruzados; Napoleón fracasó ante sus murallas en 1799.",
+      "resumen": "Puerto principal de los cruzados y, entre 1191 y 1291, capital del reino de Jerusalén. Su caída ante los mamelucos en 1291 terminó con los Estados cruzados; Napoleón fracasó ante sus murallas en 1799. El asentamiento más antiguo es de c. 3000 a. C.; se reocupó en el Bronce Medio y desde entonces no se dejó.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29411,12 +29441,12 @@
       "nombre": "Jaffa",
       "lon": 34.753,
       "lat": 32.052,
-      "fundacion": null,
+      "fundacion": -1800,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Puerto antiguo de Jerusalén, por donde llegaban los peregrinos. De sus afueras nació Tel Aviv en 1909.",
+      "resumen": "Puerto antiguo de Jerusalén, por donde llegaban los peregrinos. De sus afueras nació Tel Aviv en 1909. Los restos de un asentamiento son del siglo XVIII a. C.; hay fragmentos cerámicos del Bronce Antiguo I (IV milenio a. C.).",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29451,12 +29481,12 @@
       "nombre": "Haifa",
       "lon": 34.999,
       "lat": 32.819,
-      "fundacion": null,
+      "fundacion": 100,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Puerto del monte Carmelo, centro industrial del Mandato y sede mundial de la fe bahá'í.",
+      "resumen": "Puerto del monte Carmelo, centro industrial del Mandato y sede mundial de la fe bahá'í. El nombre aparece después de fines del siglo I, con una fortaleza romana y una pequeña colonia judía.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29471,12 +29501,12 @@
       "nombre": "Gaza",
       "lon": 34.46,
       "lat": 31.508,
-      "fundacion": null,
+      "fundacion": -1457,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Ciudad filistea, puerto del incienso, centro de la retórica griega tardía y, para la tradición, lugar de la tumba del bisabuelo de Mahoma. Allí se proclamó mesías Sabetai Zeví en 1665. Capital de la Franja de Gaza, gobernada por Hamás desde 2007.",
+      "resumen": "Ciudad filistea, puerto del incienso, centro de la retórica griega tardía y, para la tradición, lugar de la tumba del bisabuelo de Mahoma. Allí se proclamó mesías Sabetai Zeví en 1665. Capital de la Franja de Gaza, gobernada por Hamás desde 2007. Habitada desde al menos el siglo XV a. C.; su nombre aparece en los anales de Tutmosis III.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29491,12 +29521,12 @@
       "nombre": "Ascalón",
       "lon": 34.566,
       "lat": 31.666,
-      "fundacion": null,
-      "abandono": null,
-      "aprox": false,
+      "fundacion": -1850,
+      "abandono": 1270,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Ciudad filistea y gran fortaleza fatimí, la última de la costa en caer ante los cruzados (1153). Baibars la destruyó en 1270.",
+      "resumen": "Ciudad filistea y gran fortaleza fatimí, la última de la costa en caer ante los cruzados (1153). Baibars la destruyó en 1270. Aparece en los textos de execración de los siglos XIX-XVIII a. C.; sus murallas de tierra son de c. 1800 a. C.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29531,12 +29561,12 @@
       "nombre": "Safed",
       "lon": 35.498,
       "lat": 32.966,
-      "fundacion": null,
+      "fundacion": 66,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 2,
-      "resumen": "Ciudad de las montañas de Galilea donde se reunieron en el siglo XVI los cabalistas expulsados de España: Joseph Caro, Moisés Cordovero e Isaac Luria. Es una de las cuatro ciudades santas del judaísmo.",
+      "resumen": "Ciudad de las montañas de Galilea donde se reunieron en el siglo XVI los cabalistas expulsados de España: Joseph Caro, Moisés Cordovero e Isaac Luria. Es una de las cuatro ciudades santas del judaísmo. La identifican con Sepph, plaza fortificada que cita Flavio Josefo en el siglo I.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29551,12 +29581,12 @@
       "nombre": "Meguido",
       "lon": 35.184,
       "lat": 32.585,
-      "fundacion": null,
-      "abandono": null,
-      "aprox": false,
+      "fundacion": -5000,
+      "abandono": -332,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 2,
-      "resumen": "Ciudad fortificada que controlaba el paso de la costa al valle de Jezrael, escenario de batallas desde Tutmosis III. Su nombre griego, Armagedón, es el lugar de la batalla final en el Apocalipsis.",
+      "resumen": "Ciudad fortificada que controlaba el paso de la costa al valle de Jezrael, escenario de batallas desde Tutmosis III. Su nombre griego, Armagedón, es el lugar de la batalla final en el Apocalipsis. Su estrato más antiguo (XX) es de c. 5000 a. C.; estuvo ocupado hasta el período persa (c. 332 a. C.).",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29571,12 +29601,12 @@
       "nombre": "Laquis",
       "lon": 34.849,
       "lat": 31.565,
-      "fundacion": null,
+      "fundacion": -5500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Segunda ciudad de Judá. Su asedio por Senaquerib en 701 a. C. quedó en los relieves de Nínive, y sus cartas en hebreo narran los últimos días antes de la conquista babilónica.",
+      "resumen": "Segunda ciudad de Judá. Su asedio por Senaquerib en 701 a. C. quedó en los relieves de Nínive, y sus cartas en hebreo narran los últimos días antes de la conquista babilónica. La ocupación empezó en el Neolítico con cerámica (5500-4500 a. C.).",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29671,12 +29701,12 @@
       "nombre": "Monte Gerizim",
       "lon": 35.273,
       "lat": 32.199,
-      "fundacion": null,
+      "fundacion": -450,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "templo",
       "importancia": 1,
-      "resumen": "El monte sagrado de los samaritanos, donde tuvieron su templo hasta que lo destruyó Juan Hircano hacia 110 a. C. Allí siguen celebrando la Pascua.",
+      "resumen": "El monte sagrado de los samaritanos, donde tuvieron su templo hasta que lo destruyó Juan Hircano hacia 110 a. C. Allí siguen celebrando la Pascua. Sanballat I levantó el templo a mediados o fines del siglo V a. C. y lo destruyeron en 112-111 a. C.; el monte siguió siendo sagrado.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29691,12 +29721,12 @@
       "nombre": "Cafarnaúm",
       "lon": 35.575,
       "lat": 32.881,
-      "fundacion": null,
-      "abandono": null,
-      "aprox": false,
+      "fundacion": -150,
+      "abandono": 1050,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Pueblo de pescadores del mar de Galilea donde, según los evangelios, vivió y predicó Jesús. Se conservan una sinagoga del siglo IV o V y una iglesia sobre la que se cree casa de Pedro.",
+      "resumen": "Pueblo de pescadores del mar de Galilea donde, según los evangelios, vivió y predicó Jesús. Se conservan una sinagoga del siglo IV o V y una iglesia sobre la que se cree casa de Pedro. Se fundó en el siglo II a. C., bajo los asmoneos, y se abandonó en el siglo XI, antes de la Primera Cruzada.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29711,12 +29741,12 @@
       "nombre": "Séforis",
       "lon": 35.279,
       "lat": 32.753,
-      "fundacion": null,
+      "fundacion": -1000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Capital de Galilea, donde Judá ha-Nasí terminó de redactar la Mishná hacia el año 200. Conserva mosaicos romanos y una sinagoga con el zodíaco.",
+      "resumen": "Capital de Galilea, donde Judá ha-Nasí terminó de redactar la Mishná hacia el año 200. Conserva mosaicos romanos y una sinagoga con el zodíaco. Hay cerámica de la Edad del Hierro (1000-586 a. C.); la ocupación y las obras se verifican desde el siglo IV a. C.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29731,12 +29761,12 @@
       "nombre": "Hazor",
       "lon": 35.569,
       "lat": 33.018,
-      "fundacion": null,
-      "abandono": null,
-      "aprox": false,
+      "fundacion": -2800,
+      "abandono": -732,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "La mayor ciudad cananea, «cabeza de todos estos reinos» según el libro de Josué, destruida hacia el siglo XIII a. C.",
+      "resumen": "La mayor ciudad cananea, «cabeza de todos estos reinos» según el libro de Josué, destruida hacia el siglo XIII a. C. El primer asentamiento es del Bronce Antiguo II-III, entre los siglos XXVIII y XXIV a. C.; Tiglatpileser III la tomó y la quemó en 732 a. C.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29751,12 +29781,12 @@
       "nombre": "Beerseba",
       "lon": 34.787,
       "lat": 31.252,
-      "fundacion": null,
+      "fundacion": -3500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad del Néguev ligada en la Biblia a Abraham. Los británicos la tomaron en 1917 con una célebre carga de caballería australiana.",
+      "resumen": "Ciudad del Néguev ligada en la Biblia a Abraham. Los británicos la tomaron en 1917 con una célebre carga de caballería australiana. Hay presencia humana en la zona desde el IV milenio a. C.",
       "regiones": [
         "tierra-santa",
         "levante"
@@ -29851,12 +29881,12 @@
       "nombre": "Beirut",
       "lon": 35.513,
       "lat": 33.887,
-      "fundacion": null,
+      "fundacion": -3000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Puerto fenicio y sede de la gran escuela de derecho romano hasta el terremoto de 551. Desde el siglo XIX fue el centro del renacimiento cultural árabe (la Nahda) y de las universidades misioneras.",
+      "resumen": "Puerto fenicio y sede de la gran escuela de derecho romano hasta el terremoto de 551. Desde el siglo XIX fue el centro del renacimiento cultural árabe (la Nahda) y de las universidades misioneras. Poblada desde hace más de 5000 años.",
       "regiones": [
         "libano",
         "levante"
@@ -29871,12 +29901,12 @@
       "nombre": "Sidón",
       "lon": 35.376,
       "lat": 33.561,
-      "fundacion": null,
+      "fundacion": -3200,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Una de las grandes ciudades fenicias; fue señorío cruzado y la conserva un castillo del mar del siglo XIII.",
+      "resumen": "Una de las grandes ciudades fenicias; fue señorío cruzado y la conserva un castillo del mar del siglo XIII. El tell de la ciudad antigua tiene depósitos del Bronce Antiguo de c. 3200 a. C.; la zona estuvo habitada desde la prehistoria.",
       "regiones": [
         "libano",
         "levante"
@@ -29891,12 +29921,12 @@
       "nombre": "Trípoli del Líbano",
       "lon": 35.834,
       "lat": 34.437,
-      "fundacion": null,
+      "fundacion": -1400,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Capital del condado cruzado de Trípoli desde 1109 hasta su toma por los mamelucos en 1289. Antes de la conquista cruzada tenía una famosa biblioteca, la Casa del Saber de los Banu Ammar.",
+      "resumen": "Capital del condado cruzado de Trípoli desde 1109 hasta su toma por los mamelucos en 1289. Antes de la conquista cruzada tenía una famosa biblioteca, la Casa del Saber de los Banu Ammar. Hay indicios de asentamiento desde c. 1400 a. C.; se la considera una colonia fenicia del siglo VIII a. C.",
       "regiones": [
         "libano",
         "levante"
@@ -29911,12 +29941,12 @@
       "nombre": "Baalbek",
       "lon": 36.209,
       "lat": 34.006,
-      "fundacion": null,
+      "fundacion": -9000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "templo",
       "importancia": 2,
-      "resumen": "La Heliópolis romana del valle de la Becá, con los templos de Júpiter y de Baco, de los mayores del mundo romano.",
+      "resumen": "La Heliópolis romana del valle de la Becá, con los templos de Júpiter y de Baco, de los mayores del mundo romano. Su historia se remonta al menos a 11.000 años.",
       "regiones": [
         "libano",
         "levante"
@@ -29931,12 +29961,12 @@
       "nombre": "Damasco",
       "lon": 36.292,
       "lat": 33.513,
-      "fundacion": null,
+      "fundacion": -2500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "Una de las ciudades habitadas más antiguas del mundo, capital aramea y luego del califato omeya. Fue el gran centro del yihad contra los cruzados con Nur al-Din y Saladino, que está enterrado junto a su mezquita mayor.",
+      "resumen": "Una de las ciudades habitadas más antiguas del mundo, capital aramea y luego del califato omeya. Fue el gran centro del yihad contra los cruzados con Nur al-Din y Saladino, que está enterrado junto a su mezquita mayor. Se pobló en el III milenio a. C.; en las afueras, Tell Ramad estuvo ocupado desde c. 6300 a. C.",
       "regiones": [
         "siria",
         "levante"
@@ -29971,12 +30001,12 @@
       "nombre": "Alepo",
       "lon": 37.16,
       "lat": 36.2,
-      "fundacion": null,
+      "fundacion": -2400,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 3,
-      "resumen": "Gran ciudad comercial del norte de Siria y corte del emir hamdaní Sayf al-Dawla, mecenas de Al-Farabi y del poeta al-Mutanabbi. Resistió a los cruzados y fue asediada por ellos en 1124.",
+      "resumen": "Gran ciudad comercial del norte de Siria y corte del emir hamdaní Sayf al-Dawla, mecenas de Al-Farabi y del poeta al-Mutanabbi. Resistió a los cruzados y fue asediada por ellos en 1124. Su primer registro está en las tablillas de Ebla, del III milenio a. C.",
       "regiones": [
         "siria",
         "levante"
@@ -30011,12 +30041,12 @@
       "nombre": "Palmira",
       "lon": 38.27,
       "lat": 34.55,
-      "fundacion": null,
+      "fundacion": -1900,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 2,
-      "resumen": "Ciudad caravanera del desierto sirio cuya reina Zenobia desafió a Roma en el siglo III. El Estado Islámico destruyó parte de sus templos en 2015.",
+      "resumen": "Ciudad caravanera del desierto sirio cuya reina Zenobia desafió a Roma en el siglo III. El Estado Islámico destruyó parte de sus templos en 2015. La mencionan por primera vez documentos de principios del II milenio a. C.; las tablillas de Mari del siglo XVIII a. C. la llaman Tadmor.",
       "regiones": [
         "siria",
         "levante",
@@ -30052,12 +30082,12 @@
       "nombre": "Hama",
       "lon": 36.75,
       "lat": 35.135,
-      "fundacion": null,
+      "fundacion": -6000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad del Orontes con sus norias. Su emir ayubí Abulfeda, que combatió en la toma de Acre, escribió una historia universal y una geografía.",
+      "resumen": "Ciudad del Orontes con sus norias. Su emir ayubí Abulfeda, que combatió en la toma de Acre, escribió una historia universal y una geografía. Estuvo ocupada desde el Neolítico Temprano hasta la Edad del Hierro.",
       "regiones": [
         "siria",
         "levante"
@@ -30072,12 +30102,12 @@
       "nombre": "Masyaf",
       "lon": 36.343,
       "lat": 35.066,
-      "fundacion": null,
+      "fundacion": 1141,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 1,
-      "resumen": "Castillo principal de los ismailíes nizaríes de Siria, los «asesinos», gobernados en el siglo XII por Rashid al-Din Sinan, el «viejo de la montaña».",
+      "resumen": "Castillo principal de los ismailíes nizaríes de Siria, los «asesinos», gobernados en el siglo XII por Rashid al-Din Sinan, el «viejo de la montaña». Las capas bajas del castillo son de origen bizantino; los ismailíes lo tomaron en 1141.",
       "regiones": [
         "siria",
         "levante"
@@ -30092,12 +30122,12 @@
       "nombre": "Amán",
       "lon": 35.933,
       "lat": 31.95,
-      "fundacion": null,
+      "fundacion": -7000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "La Rabat Amón bíblica y la Filadelfia de la Decápolis; capital del emirato de Transjordania desde 1921.",
+      "resumen": "La Rabat Amón bíblica y la Filadelfia de la Decápolis; capital del emirato de Transjordania desde 1921. Junto a ella, ʿAin Ghazal fue una aldea neolítica de c. 7000 a. C.; fue capital amonita desde el siglo XIII a. C.",
       "regiones": [
         "transjordania",
         "levante"
@@ -30112,12 +30142,12 @@
       "nombre": "Petra",
       "lon": 35.44,
       "lat": 30.329,
-      "fundacion": null,
+      "fundacion": -350,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 3,
-      "resumen": "Capital de los nabateos, tallada en la roca rosada, que vivía del comercio del incienso. Trajano la anexó en 106.",
+      "resumen": "Capital de los nabateos, tallada en la roca rosada, que vivía del comercio del incienso. Trajano la anexó en 106. Los nabateos se asentaron en el siglo IV a. C.; en la zona hay presencia humana desde c. 7000 a. C.",
       "regiones": [
         "transjordania",
         "levante"
@@ -30132,12 +30162,12 @@
       "nombre": "Jerash",
       "lon": 35.891,
       "lat": 32.272,
-      "fundacion": null,
+      "fundacion": -7500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "sitio-arqueologico",
       "importancia": 2,
-      "resumen": "La Gerasa de la Decápolis, una de las ciudades romanas mejor conservadas de Oriente.",
+      "resumen": "La Gerasa de la Decápolis, una de las ciudades romanas mejor conservadas de Oriente. Su asentamiento más antiguo (Tal Abu Sowan) es neolítico, de c. 7500 a. C.; las inscripciones griegas atribuyen la ciudad helenística a Alejandro y Pérdicas.",
       "regiones": [
         "transjordania",
         "levante"
@@ -30152,12 +30182,12 @@
       "nombre": "Madaba",
       "lon": 35.8,
       "lat": 31.717,
-      "fundacion": null,
+      "fundacion": -2000,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad moabita y luego bizantina, famosa por el mapa en mosaico de Tierra Santa del siglo VI que conserva su iglesia de San Jorge.",
+      "resumen": "Ciudad moabita y luego bizantina, famosa por el mapa en mosaico de Tierra Santa del siglo VI que conserva su iglesia de San Jorge. Existe desde el Bronce Medio; la estela de Mesa la cita como ciudad fronteriza moabita.",
       "regiones": [
         "transjordania",
         "levante"
@@ -30172,12 +30202,12 @@
       "nombre": "Monte Nebo",
       "lon": 35.726,
       "lat": 31.768,
-      "fundacion": null,
+      "fundacion": 375,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "templo",
       "importancia": 1,
-      "resumen": "Desde allí, según el Deuteronomio, Moisés vio la tierra prometida antes de morir. Tiene un santuario bizantino con mosaicos.",
+      "resumen": "Desde allí, según el Deuteronomio, Moisés vio la tierra prometida antes de morir. Tiene un santuario bizantino con mosaicos. La primera iglesia se construyó en la segunda mitad del siglo IV.",
       "regiones": [
         "transjordania",
         "levante"
@@ -30212,12 +30242,12 @@
       "nombre": "La Meca",
       "lon": 39.826,
       "lat": 21.422,
-      "fundacion": null,
+      "fundacion": 150,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 3,
-      "resumen": "Ciudad de la tribu de Quraysh, lugar de nacimiento de Mahoma y de la Kaaba. Es el destino de la peregrinación (hach) y hacia ella rezan los musulmanes; está vedada a los no musulmanes.",
+      "resumen": "Ciudad de la tribu de Quraysh, lugar de nacimiento de Mahoma y de la Kaaba. Es el destino de la peregrinación (hach) y hacia ella rezan los musulmanes; está vedada a los no musulmanes. Se la identifica, con alguna discusión, con la Macoraba que Ptolomeo cita en el siglo II.",
       "regiones": [
         "arabia"
       ],
@@ -30231,12 +30261,12 @@
       "nombre": "Kaaba",
       "lon": 39.826,
       "lat": 21.422,
-      "fundacion": null,
+      "fundacion": 100,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "templo",
       "importancia": 3,
-      "resumen": "El santuario cúbico del centro de La Meca, lleno de ídolos antes del islam. Mahoma lo purificó en 630 y lo consagró al Dios único; el Corán lo atribuye a Abraham e Ismael.",
+      "resumen": "El santuario cúbico del centro de La Meca, lleno de ídolos antes del islam. Mahoma lo purificó en 630 y lo consagró al Dios único; el Corán lo atribuye a Abraham e Ismael. Marino de Tiro (70-130) menciona una piedra cuadrangular venerada por los árabes, probablemente la Piedra Negra.",
       "regiones": [
         "arabia"
       ],
@@ -30250,12 +30280,12 @@
       "nombre": "Medina",
       "lon": 39.61,
       "lat": 24.47,
-      "fundacion": null,
+      "fundacion": -900,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 3,
-      "resumen": "La antigua Yatrib, oasis donde vivían tribus árabes y judías. Mahoma emigró allí en 622 y la ciudad fue la capital del primer Estado islámico hasta 656.",
+      "resumen": "La antigua Yatrib, oasis donde vivían tribus árabes y judías. Mahoma emigró allí en 622 y la ciudad fue la capital del primer Estado islámico hasta 656. Estaba habitada desde el siglo IX a. C.; Yatrib figura en una inscripción de Nabónido (siglo VI a. C.).",
       "regiones": [
         "arabia"
       ],
@@ -30288,12 +30318,12 @@
       "nombre": "Taif",
       "lon": 40.417,
       "lat": 21.267,
-      "fundacion": null,
+      "fundacion": 500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Ciudad de montaña de la tribu de Thaqif, que rechazó a Mahoma en 619 y se le rindió en 630.",
+      "resumen": "Ciudad de montaña de la tribu de Thaqif, que rechazó a Mahoma en 619 y se le rindió en 630. En el siglo VI la dominaba la tribu de Thaqif.",
       "regiones": [
         "arabia"
       ],
@@ -30307,12 +30337,12 @@
       "nombre": "Jaibar",
       "lon": 39.292,
       "lat": 25.699,
-      "fundacion": null,
+      "fundacion": -2400,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "ciudad",
       "importancia": 1,
-      "resumen": "Oasis de tribus judías al norte de Medina, conquistado por Mahoma en 628; sus habitantes pudieron quedarse como aparceros hasta que Omar los expulsó.",
+      "resumen": "Oasis de tribus judías al norte de Medina, conquistado por Mahoma en 628; sus habitantes pudieron quedarse como aparceros hasta que Omar los expulsó. El sitio de al-Natah estuvo ocupado entre c. 2400 y 1500 a. C.",
       "regiones": [
         "arabia"
       ],
@@ -30326,12 +30356,12 @@
       "nombre": "Saná",
       "lon": 44.2,
       "lat": 15.35,
-      "fundacion": null,
+      "fundacion": 50,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Capital de Yemen desde la Antigüedad, con su gran mezquita, en la que apareció en 1972 uno de los manuscritos del Corán más antiguos.",
+      "resumen": "Capital de Yemen desde la Antigüedad, con su gran mezquita, en la que apareció en 1972 uno de los manuscritos del Corán más antiguos. Fundada por el reino de Saba en el siglo I como capital secundaria; el primer texto que la nombra es del siglo V a. C.",
       "regiones": [
         "arabia"
       ],
@@ -30402,12 +30432,12 @@
       "nombre": "Túnez",
       "lon": 10.18,
       "lat": 36.801,
-      "fundacion": null,
+      "fundacion": -310,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Capital de los hafsíes desde el siglo XIII. Allí murió Luis IX durante su segunda cruzada (1270) y nació Ibn Jaldún (1332).",
+      "resumen": "Capital de los hafsíes desde el siglo XIII. Allí murió Luis IX durante su segunda cruzada (1270) y nació Ibn Jaldún (1332). Hay asentamientos atestiguados desde el siglo IV a. C.; cambió de manos durante la expedición de Agatocles, en 310 a. C.",
       "regiones": [
         "magreb"
       ],
@@ -30459,12 +30489,12 @@
       "nombre": "Argel",
       "lon": 3.059,
       "lat": 36.776,
-      "fundacion": null,
+      "fundacion": -700,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Ciudad refundada en el siglo X; desde 1516 capital de la regencia otomana y de sus corsarios, contra la que fracasó Carlos V en 1541. Francia la conquistó en 1830.",
+      "resumen": "Ciudad refundada en el siglo X; desde 1516 capital de la regencia otomana y de sus corsarios, contra la que fracasó Carlos V en 1541. Francia la conquistó en 1830. Hubo un asentamiento comercial fenicio entre 1200 y 250 a. C.; Buluggin ibn Ziri la fundó formalmente en 972.",
       "regiones": [
         "magreb"
       ],
@@ -30478,12 +30508,12 @@
       "nombre": "Trípoli de Libia",
       "lon": 13.188,
       "lat": 32.888,
-      "fundacion": null,
+      "fundacion": -650,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "La fenicia Oea; tomada por los árabes en 643, por España en 1510 y por los otomanos en 1551.",
+      "resumen": "La fenicia Oea; tomada por los árabes en 643, por España en 1510 y por los otomanos en 1551. Fundada por los fenicios en el siglo VII a. C.",
       "regiones": [
         "magreb"
       ],
@@ -30497,12 +30527,12 @@
       "nombre": "Tremecén",
       "lon": -1.317,
       "lat": 34.883,
-      "fundacion": null,
+      "fundacion": 150,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 1,
-      "resumen": "Capital de los zayyaníes entre los siglos XIII y XVI.",
+      "resumen": "Capital de los zayyaníes entre los siglos XIII y XVI. Fue un puesto militar romano en el siglo II, con el nombre de Pomaria.",
       "regiones": [
         "magreb"
       ],
@@ -30554,12 +30584,12 @@
       "nombre": "Nicosia",
       "lon": 33.365,
       "lat": 35.172,
-      "fundacion": null,
+      "fundacion": -2500,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "capital",
       "importancia": 2,
-      "resumen": "Capital de los reyes Lusiñán, que se coronaban en su catedral de Santa Sofía, convertida en mezquita en 1570.",
+      "resumen": "Capital de los reyes Lusiñán, que se coronaban en su catedral de Santa Sofía, convertida en mezquita en 1570. Habitada de forma continua desde c. 2500 a. C.; la primera mención escrita es de c. 672 a. C.",
       "regiones": [
         "chipre"
       ],
@@ -30573,12 +30603,12 @@
       "nombre": "Famagusta",
       "lon": 33.95,
       "lat": 35.117,
-      "fundacion": null,
+      "fundacion": -274,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 2,
-      "resumen": "Puerto donde se refugiaron los cristianos de Siria tras 1291 y donde los reyes de Chipre se coronaban reyes de Jerusalén. Resistió casi un año a los otomanos antes de rendirse en 1571.",
+      "resumen": "Puerto donde se refugiaron los cristianos de Siria tras 1291 y donde los reyes de Chipre se coronaban reyes de Jerusalén. Resistió casi un año a los otomanos antes de rendirse en 1571. Fundada hacia 274 a. C. por Ptolomeo II Filadelfo, con el nombre de Arsínoe.",
       "regiones": [
         "chipre"
       ],
@@ -30592,12 +30622,12 @@
       "nombre": "Limasol",
       "lon": 33.044,
       "lat": 34.675,
-      "fundacion": null,
+      "fundacion": 451,
       "abandono": null,
-      "aprox": false,
+      "aprox": true,
       "tipo": "puerto",
       "importancia": 1,
-      "resumen": "Allí Ricardo Corazón de León desembarcó en 1191 y se casó con Berenguela de Navarra.",
+      "resumen": "Allí Ricardo Corazón de León desembarcó en 1191 y se casó con Berenguela de Navarra. Su obispo participó en el concilio de Calcedonia de 451; el asentamiento actual se habría fundado tras la decadencia de Amatunte, hacia el siglo VII.",
       "regiones": [
         "chipre"
       ],

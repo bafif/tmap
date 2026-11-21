@@ -2872,6 +2872,33 @@
       "por_que_importa": "Es la historia de los servicios sanitarios porteños escrita desde la propia administración, con lo que su lectura debe tener en cuenta ese punto de vista.",
       "leer": [],
       "confianza": "media"
+    },
+    {
+      "id": "historia-del-hospital-de-clinicas",
+      "titulo": "Historia del Hospital de Clínicas",
+      "titulo_original": null,
+      "autor": "Facultad de Medicina de la Universidad de Buenos Aires",
+      "autor_id": null,
+      "tipo": "secundaria",
+      "genero": "historia",
+      "escrita": {
+        "anio": 2008,
+        "aprox": false,
+        "lugar": "Buenos Aires"
+      },
+      "trata": {
+        "regiones": [
+          "rio-de-la-plata"
+        ],
+        "desde": 1877,
+        "hasta": 1905
+      },
+      "idioma_original": "Español",
+      "soporte": "Libro (edición digital por capítulos)",
+      "resumen": "Historia institucional del Hospital de Clínicas de Buenos Aires, publicada por capítulos en el sitio de la Facultad de Medicina. El capítulo sobre el viejo hospital cuenta que el edificio, casi terminado, sirvió de cuartel y de hospital de heridos en junio de 1880, que la provincia vencida entregó los locales a la Facultad y que el gobierno nacional ratificó la decisión el 31 de agosto de 1880, y distingue esas fechas de la entrega oficial de 1883 y del decreto de 1884.",
+      "por_que_importa": "Da, con las fechas de cada trámite, la entrega del edificio a la Facultad de Medicina; es una historia hecha por la propia institución.",
+      "leer": [],
+      "confianza": "media"
     }
   ],
   "personas": [
@@ -7358,11 +7385,14 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-del-hospital-de-clinicas"
+      ],
       "wikipedia": {
         "es": "Hospital de Clínicas José de San Martín",
         "en": "Hospital de Clínicas \"José de San Martín\""
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "inauguracion-de-la-casa-de-aislamiento",
@@ -7532,11 +7562,14 @@
       "regiones": [
         "rio-de-la-plata"
       ],
-      "fuentes": [],
+      "fuentes": [
+        "historia-de-la-inmigracion-en-la-argentina"
+      ],
       "wikipedia": {
         "es": "Hotel de Inmigrantes",
         "en": "Hotel de Inmigrantes"
-      }
+      },
+      "fuente_debil": false
     },
     {
       "id": "batalla-de-paso-de-mercedes",
