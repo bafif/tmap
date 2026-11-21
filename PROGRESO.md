@@ -229,6 +229,10 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   fin del Reino Nuevo y de los casitas, con cada rey atestiguado de cada dinastía (los menores, con la lista de su
   dinastía como respaldo), sus funcionarios, campañas, archivos y sitios. Egipto sigue la cronología de Shaw (2000) y
   Mesopotamia la cronología media; lo que solo cuentan las listas reales o la épica va como tradición, dicho así.
+  Las regiones del tramo (Egipto, Nubia, Mesopotamia, el Levante, Siria, Anatolia, el Egeo, Chipre, Arabia, el
+  Cáucaso e Irán) tienen eras y capas de religión, cultura e idioma desde 3400 a. C.: hurritas, amorreos y casitas,
+  el eblaíta, el hitita, el luvita y el hático, la religión elamita (y no la irania, que llega recién hacia 1000 a.
+  C.), la Creta minoica y las Cícladas, Dilmún, Kura-Araxes, cada una desde que hay registro.
 - **La Edad del Bronce en Anatolia, el Levante y el Egeo**: tres paquetes, del 3400 a. C. a las destrucciones de
   c. 1200: los reinos hititas con toda su serie de reyes, Mitani y el Cáucaso; Ebla, Ugarit, las ciudades cananeas,
   Chipre y el Golfo; las Cícladas, la Creta minoica y la Grecia micénica. El siglo XIII hitita sigue la cronología de

@@ -228,6 +228,10 @@ New packages reach installed copies as data updates, without waiting for an app 
   the New Kingdom and of the Kassites, with every attested king of every dynasty (the minor ones backed by their
   dynasty's list), their officials, campaigns, archives and sites. Egypt follows Shaw's chronology (2000) and
   Mesopotamia the middle chronology; what only the king lists or epic tell is given as tradition, and says so.
+  The regions of the period (Egypt, Nubia, Mesopotamia, the Levant, Syria, Anatolia, the Aegean, Cyprus, Arabia, the
+  Caucasus and Iran) have eras and layers of religion, culture and language from 3400 BC: Hurrians, Amorites and
+  Kassites, Eblaite, Hittite, Luwian and Hattic, Elamite religion (not the Iranian one, which only arrives around
+  1000 BC), Minoan Crete and the Cyclades, Dilmun, Kura–Araxes, each from when there is a record.
 - **The Bronze Age in Anatolia, the Levant and the Aegean**: three packages, from 3400 BC to the destructions of
   c. 1200: the Hittite kingdoms with their whole series of kings, Mitanni and the Caucasus; Ebla, Ugarit, the
   Canaanite cities, Cyprus and the Gulf; the Cyclades, Minoan Crete and Mycenaean Greece. The Hittite 13th century
