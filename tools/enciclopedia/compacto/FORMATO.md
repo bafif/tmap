@@ -46,7 +46,9 @@ Todos UTF-8, con `#` para comentarios. Campos separados por ` | ` (nunca uses `|
 
 - nacimiento/muerte: `año [lugar]`; vacío si vive o no se sabe. Lugar: `@wd` (lo toma de Wikidata: lo más
   cómodo), `@clave` (del nomenclátor), `@clave=Texto`, o `=Texto` (sin coordenadas).
-- activo: `@clave año-año` (dónde trabajó y cuándo); vacío si basta con el nacimiento.
+- activo: `@clave año-año` (dónde trabajó y cuándo); vacío si basta con el nacimiento. Con `entre` al final, los
+  años son un tramo en el que vivió sin saber cuándo; con `tradicion`, dónde la ubica la tradición (puede ir sin
+  años): `@adab -2200--2150~ entre`, `@kish -2900--2750~ tradicion` (ESQUEMA.md, `activo.tramo`).
 - `~` al final de un año = aproximado. Años negativos = a. C.
 
 ### `fuentes*.txt` (pueden ser varios: `fuentes1.txt`, `fuentes2.txt`…)
@@ -78,7 +80,8 @@ Todos UTF-8, con `#` para comentarios. Campos separados por ` | ` (nunca uses `|
 - años: `1944`, `1914-1918`, `1944~`. lugar: como en personas; `@=Texto` usa las coordenadas del propio artículo.
 - tipo: `politico batalla fundacion religioso cultural cientifico economico desastre tratado construccion
   exploracion revolucion judicial`. Guerras enteras: `batalla` con rango de años; fallos: `judicial`.
-- fuentes: ids separados por coma (de cualquier tema o paquete), o vacío.
+- fuentes: ids separados por coma (de cualquier tema o paquete), o vacío. `!debil` al final: de fuente débil (lo
+  cuentan solo textos posteriores o indirectos).
 - regiones extra (opcional): ids de regiones además de la que toca el punto (los `id` de las regiones de los paquetes).
 
 ### `lugares.txt`

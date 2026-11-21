@@ -255,6 +255,13 @@ func _preparar_puntos() -> void:
 		l["_hasta"] = int(l["abandono"]) if l.get("abandono") != null else Estado.ANIO_MAX
 
 
+## Cómo leer los años de actividad de una persona: "" si son los de su actividad; "entre" si vivió en algún punto
+## de ese tramo, sin saber cuándo; "tradicion" si solo la tradición la ubica ahí (ESQUEMA.md, `activo.tramo`).
+func tramo(p: Dictionary) -> String:
+	var t: Variant = _dic(p, "activo").get("tramo")
+	return str(t) if t != null else ""
+
+
 ## Dónde está un elemento en `anio`. Solo las personas cambian de lugar (ver `_preparar_puntos`).
 func px_en(el: Dictionary, anio: int) -> Vector2:
 	if el.has("_antes") and anio < int(el["_antes"][0]):

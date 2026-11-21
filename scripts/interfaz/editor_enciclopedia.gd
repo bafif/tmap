@@ -82,6 +82,7 @@ const CAMPOS := {
 		["activo.desde", "Activo desde", "anio"],
 		["activo.hasta", "Hasta", "anio"],
 		["activo.aprox", "Fechas aproximadas", "bool"],
+		["activo.tramo", "Si no se conocen sus años", "opcion", "TRAMOS"],
 		["", "Descripción", "titulo"],
 		["resumen", "Resumen", "largo"],
 		["obras", "Obras (ids de fuentes)", "refs", "fuentes"],
@@ -99,6 +100,7 @@ const CAMPOS := {
 		["", "Coordenadas", "punto"],
 		["regiones", "Regiones (ids)", "refs", "regiones"],
 		["fuentes", "Fuentes que lo documentan (ids)", "refs", "fuentes"],
+		["fuente_debil", "De fuente débil (solo textos posteriores o indirectos)", "bool"],
 		["resumen", "Resumen", "largo"],
 		["wikipedia", "Wikipedia", "wiki"],
 	],
@@ -540,8 +542,12 @@ func _campo(c: Array) -> void:
 		"opcion", "importancia":
 			var ob := OptionButton.new()
 			var valores: Array = []
-			# Un elemento que ya existía sin este campo no lo gana por abrirlo: la primera opción es «—» (vacío).
-			if actual == null and _id_original != "":
+			var opciones: Array = []
+			if tipo == "opcion":
+				opciones = (Edicion as Script).get_script_constant_map()[extra] if extra is String else extra
+			# Un elemento que ya existía sin este campo no lo gana por abrirlo: la primera opción es «—» (vacío). Una
+			# lista que empieza con null ya la trae: el campo puede quedar vacío siempre.
+			if actual == null and _id_original != "" and not (not opciones.is_empty() and opciones[0] == null):
 				valores.append(null)
 				ob.add_item("—")
 			if tipo == "importancia":
@@ -549,10 +555,9 @@ func _campo(c: Array) -> void:
 					valores.append(par[0])
 					ob.add_item(tr(par[1]))
 			else:
-				var opciones: Array = (Edicion as Script).get_script_constant_map()[extra] if extra is String else extra
 				for v in opciones:
 					valores.append(v)
-					ob.add_item(_nombre_opcion(v))
+					ob.add_item("—" if v == null else _nombre_opcion(v))
 				if actual != null and not _texto_valor(actual) in opciones:
 					valores.append(_texto_valor(actual))
 					ob.add_item(_texto_valor(actual))
@@ -900,7 +905,7 @@ func _nombre_seccion(seccion: String) -> String:
 ## Cómo se muestra una opción de un campo cerrado (el valor que se guarda no cambia): «cronica» → «crónica».
 func _nombre_opcion(v: Variant) -> String:
 	var s := str(v)
-	for nombres: Dictionary in [PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
+	for nombres: Dictionary in [PanelInfo.NOMBRES_TRAMO, PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
 			PanelInfo.NOMBRES_CONFIANZA, Enciclopedia.NOMBRE_PESO, {"primaria": "Primaria", "secundaria": "Secundaria"}]:
 		if nombres.has(s):
 			return tr(nombres[s])

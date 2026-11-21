@@ -436,6 +436,13 @@ def main():
                 wa, _ = anio_ent(q, "P570")
                 if wa is not None:
                     aviso(f"WIKIDATA DA MUERTE Y NO LA PUSISTE: {iid} murió en {wa}")
+            tramo = None
+            if act:
+                # `entre` o `tradicion` al final: cómo leer los años (ESQUEMA.md, `activo.tramo`)
+                palabras = act.split()
+                if palabras[-1] in ("entre", "tradicion"):
+                    tramo = palabras[-1]
+                    act = act.strip()[: -len(tramo)].strip()
             if act:
                 # los años van al final; el lugar puede tener espacios (`=Dos palabras 1900-1910`)
                 partes = act.rsplit(" ", 1)
@@ -448,6 +455,8 @@ def main():
                     v["hasta"] = b if b is not None else a
                     v["aprox"] = ax
                 el["activo"] = v
+            if tramo:
+                el.setdefault("activo", {})["tramo"] = tramo
             el["roles"] = [r.strip() for r in roles.split(",") if r.strip()]
             el["resumen"] = resumen
             el["obras"] = []
@@ -584,12 +593,17 @@ def main():
                     regs.append(r)
             if not regs:
                 aviso(f"HECHO SIN REGIÓN: {iid}")
+            # `!debil` al final de las fuentes: lo cuentan solo textos posteriores o indirectos
+            debil = fts.strip().endswith("!debil")
+            fts = fts.strip().removesuffix("!debil")
             fl = [f.strip() for f in fts.split(",") if f.strip() and f.strip() != "-"]
             for f in fl:
                 if f not in fuentes_ids:
                     aviso(f"FUENTE DESCONOCIDA: {f} (hecho {iid})")
             fl = [f for f in fl if f in fuentes_ids]
             el.update({"tipo": tipo, "resumen": resumen, "regiones": regs, "fuentes": fl})
+            if debil:
+                el["fuente_debil"] = True
             if w:
                 el["wikipedia"] = w
             hechos.append(el)

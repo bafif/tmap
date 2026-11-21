@@ -19,6 +19,7 @@ const NOMBRES_TIPO_LUGAR := {"ciudad": "ciudad", "capital": "capital", "templo":
 	"sitio-arqueologico": "sitio arqueológico", "biblioteca": "biblioteca", "universidad": "universidad",
 	"laboratorio": "laboratorio", "institucion": "institución", "sitio-historico": "sitio histórico"}
 const NOMBRES_CONFIANZA := {"alta": "alta", "media": "media", "baja": "baja"}
+const NOMBRES_TRAMO := {"entre": "En algún punto del tramo (año desconocido)", "tradicion": "Lo que dice la tradición"}
 
 var _abierto := false
 var _tween: Tween
@@ -365,7 +366,7 @@ func _pestana_gente(regs: Array) -> void:
 	if gente.is_empty():
 		_parrafo(tr("[i]No hay personas cargadas para este lugar y año.[/i]"))
 	for p in gente:
-		var fila := _fila_color(TemaUI.color("persona"), p["nombre"], _vida(p), false)
+		var fila := _fila_persona(p)
 		var id: String = p["id"]
 		fila.pressed.connect(func(): Estado.pedir_ficha("persona", id))
 		_contenido.add_child(fila)
@@ -374,7 +375,7 @@ func _pestana_gente(regs: Array) -> void:
 	if hechos.is_empty():
 		_parrafo(tr("[i]No hay hechos cargados cerca de este año.[/i]"))
 	for h in hechos:
-		var fila := _fila_color(TemaUI.color("hecho"), h["titulo"], Fechas.rango(h["_desde"], h["_hasta"]), h["_desde"] <= Estado.anio and Estado.anio <= h["_hasta"])
+		var fila := _fila_hecho(h)
 		var id: String = h["id"]
 		fila.pressed.connect(func(): Estado.pedir_ficha("hecho", id))
 		_contenido.add_child(fila)
@@ -615,7 +616,17 @@ func _ficha_fuente(f: Dictionary) -> void:
 
 func _ficha_persona(p: Dictionary) -> void:
 	_titulo.text = p.get("nombre", "")
-	_subtitulo.text = "%s · %s" % [_mayus(", ".join(p.get("roles", []))), _vida(p)]
+	_subtitulo.text = "%s · %s" % [_mayus(", ".join(p.get("roles", []))), _vida(p, true)]
+	match Enciclopedia.tramo(p):
+		"entre":
+			_sello(tr("Año desconocido"), TemaUI.color("texto_suave"), tr("No se conocen sus años: las fuentes solo permiten decir que vivió en algún punto de este tramo. En el mapa, su marca aparece durante todo el tramo, con el filete punteado."))
+		"tradicion":
+			var por_que := tr("Sin documentos de su época: solo la tradición y textos muy posteriores hablan de esta figura, que puede no haber existido.")
+			if p.get("_sin_fechas", false):
+				por_que += " " + tr("Tampoco hay cómo fecharla, y por eso no aparece en el mapa.")
+			else:
+				por_que += " " + tr("El tramo es donde la ubican los especialistas; en el mapa, su marca se ve más tenue y con el filete punteado.")
+			_sello(tr("Según la tradición"), TemaUI.color("titulo"), por_que)
 	var lineas: Array = []
 	var n: Dictionary = p.get("nacimiento", {}) if p.get("nacimiento") is Dictionary else {}
 	var m: Dictionary = p.get("muerte", {}) if p.get("muerte") is Dictionary else {}
@@ -632,19 +643,23 @@ func _ficha_persona(p: Dictionary) -> void:
 			var f: Dictionary = Enciclopedia.fuentes.get(id, {})
 			if not f.is_empty():
 				_contenido.add_child(_tarjeta_fuente(f))
-	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
-	ir.pressed.connect(func():
-		var anio := Enciclopedia.anio_en_activo(p, clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
-		Estado.fijar_anio(anio)
-		if p.has("_px"):
-			Estado.enfocar(Enciclopedia.px_en(p, anio), 2.5))
-	_contenido.add_child(ir)
+	# Sin ningún año, la persona no se ubica en el tiempo: no hay a dónde llevar el mapa.
+	if not p.get("_sin_fechas", false):
+		var ir := _boton_texto(tr("Ver en el mapa"), "ir")
+		ir.pressed.connect(func():
+			var anio := Enciclopedia.anio_en_activo(p, clampi(int(p["_desde"]) + 30, Estado.ANIO_MIN, Estado.ANIO_MAX))
+			Estado.fijar_anio(anio)
+			if p.has("_px"):
+				Estado.enfocar(Enciclopedia.px_en(p, anio), 2.5))
+		_contenido.add_child(ir)
 	_bloque_wikipedia(p.get("wikipedia", {}))
 
 
 func _ficha_hecho(h: Dictionary) -> void:
 	_titulo.text = h.get("titulo", "")
 	_subtitulo.text = "%s · %s%s · %s" % [_mayus(_nombre_de(NOMBRES_TIPO_HECHO, h.get("tipo", ""))), "c. " if h.get("aprox", false) else "", Fechas.rango(h["_desde"], h["_hasta"]), h.get("lugar", "")]
+	if h.get("fuente_debil", false):
+		_sello(tr("De fuente débil"), TemaUI.color("hecho"), tr("Lo cuentan solo textos posteriores o indirectos, sin un documento de su época que lo confirme: tomalo con cautela."))
 	_parrafo(str(h.get("resumen", "")))
 	var fs: Array = h.get("fuentes", [])
 	if not fs.is_empty():
@@ -717,10 +732,9 @@ func _ficha_grupo(g: Dictionary) -> void:
 			var fila: Button
 			match tipo:
 				"hecho":
-					fila = _fila_color(TemaUI.color("hecho"), el.get("titulo", ""), Fechas.rango(el["_desde"], el["_hasta"]),
-						el["_desde"] <= Estado.anio and Estado.anio <= el["_hasta"])
+					fila = _fila_hecho(el)
 				"persona":
-					fila = _fila_color(TemaUI.color("persona"), el.get("nombre", ""), _vida(el), false)
+					fila = _fila_persona(el)
 				_:
 					var detalle := Fechas.rango(el["_desde"], el["_hasta"])
 					if el.get("autor"):
@@ -1146,6 +1160,55 @@ func _fila_color(color: Color, texto: String, detalle: String, resaltada: bool) 
 	return b
 
 
+## Lo que no es seguro va en cursiva, como en un aparato crítico: una persona de la que solo se conoce un tramo y un
+## hecho de fuente débil.
+func _fila_persona(p: Dictionary) -> Button:
+	var fila := _fila_color(TemaUI.color("persona"), p.get("nombre", ""), _vida(p), false)
+	if Enciclopedia.tramo(p) != "":
+		fila.add_theme_font_override("font", TemaUI.fuente_cursiva)
+	return fila
+
+
+func _fila_hecho(h: Dictionary) -> Button:
+	var cuando := Fechas.rango(h["_desde"], h["_hasta"])
+	if h.get("fuente_debil", false):
+		cuando = tr("%s, de fuente débil") % cuando
+	var fila := _fila_color(TemaUI.color("hecho"), h.get("titulo", ""), cuando, h["_desde"] <= Estado.anio and Estado.anio <= h["_hasta"])
+	if h.get("fuente_debil", false):
+		fila.add_theme_font_override("font", TemaUI.fuente_cursiva)
+	return fila
+
+
+## Un sello bajo el título que dice qué tan segura es la ficha: el nombre en versalitas dentro de un filete del color
+## de la categoría, y al lado por qué.
+func _sello(nombre: String, color: Color, explicacion: String) -> void:
+	var fila := HBoxContainer.new()
+	fila.add_theme_constant_override("separation", 10)
+	var marco := PanelContainer.new()
+	var caja := TemaUI.caja(Color(color, 0.12), color, 1, 3, 0.0)
+	caja.content_margin_left = 8
+	caja.content_margin_right = 8
+	caja.content_margin_top = 2
+	caja.content_margin_bottom = 2
+	marco.add_theme_stylebox_override("panel", caja)
+	marco.size_flags_vertical = Control.SIZE_SHRINK_BEGIN
+	var l := Label.new()
+	l.text = nombre.to_upper()
+	l.add_theme_font_override("font", TemaUI.fuente_titulo)
+	l.add_theme_font_size_override("font_size", 12)
+	l.add_theme_color_override("font_color", color)
+	marco.add_child(l)
+	marco.tooltip_text = explicacion
+	fila.add_child(marco)
+	var por_que := Label.new()
+	por_que.theme_type_variation = "Suave"
+	por_que.text = explicacion
+	por_que.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	por_que.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	fila.add_child(por_que)
+	_contenido.add_child(fila)
+
+
 func _tarjeta_fuente(f: Dictionary) -> Control:
 	var tarjeta := PanelContainer.new()
 	tarjeta.theme_type_variation = "Tarjeta"
@@ -1283,9 +1346,16 @@ func _ir_a_pestana(i: int) -> void:
 	_reconstruir()
 
 
-func _vida(p: Dictionary) -> String:
+## Años de una persona. `larga`, para el subtítulo de su ficha; si no, la forma corta de las listas.
+func _vida(p: Dictionary, larga := false) -> String:
+	var tramo := Enciclopedia.tramo(p)
 	if p.get("_sin_fechas", false):
-		return tr("fechas desconocidas")
+		return tr("sin fecha, según la tradición") if tramo == "tradicion" else tr("fechas desconocidas")
+	if tramo != "":
+		var cuando := Fechas.entre(p["_desde"], p["_hasta"])
+		if tramo == "tradicion":
+			return tr("según la tradición, %s") % cuando
+		return tr("en algún punto %s") % cuando if larga else cuando
 	var n: Variant = p.get("nacimiento", {}).get("anio") if p.get("nacimiento") is Dictionary else null
 	var m: Variant = p.get("muerte", {}).get("anio") if p.get("muerte") is Dictionary else null
 	if n != null and m != null:

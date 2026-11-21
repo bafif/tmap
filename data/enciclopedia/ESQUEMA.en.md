@@ -211,6 +211,16 @@ historian wrote in London about the New Kingdom.
   in Guadix until 1536). For people without birth or death dates, those years also place their life.
   Without any year, the person doesn't show up on the map or in "people alive".
 - For ancient people with uncertain dates, `aprox: true` and the best scholarly estimate.
+- `activo.tramo` is optional and says how to read `desde` and `hasta` when they aren't the years of their activity:
+  - `"entre"`: their years are unknown and all that is known is that they lived at some point within that span (a
+    king the list places between two attested ones). The entry reads "at some point between 2200 and 2150 BC" with
+    the "Year unknown" seal, and the map shows them throughout the span, with a dotted outline.
+  - `"tradicion"`: only tradition knows them (a king list, epic) and they may never have existed. The span is where
+    specialists place them, not the years tradition gives. It carries the "According to tradition" seal and looks
+    fainter on the map. It's the only span that can go without years (the antediluvian kings): then they aren't
+    placed in time.
+
+  The span is the narrowest the sources allow, without sharing out years among the kings of a list.
 
 ### `hechos`
 
@@ -236,6 +246,9 @@ historian wrote in London about the New Kingdom.
   `tratado`, `construccion`, `exploracion`, `revolucion`, `judicial` (sentences and court rulings). A whole war goes
   as `batalla` with `anio_hasta`.
 - `fuentes`: ids of the sources that document it (they can be from another package).
+- `fuente_debil`: optional, `true` if only later or indirect texts tell of it, with no document from the time to
+  confirm it. The entry carries the "Weakly sourced" seal, lists show it in italics and the map with a dotted outline.
+  The `resumen` says which texts those are.
 
 ### `lugares`
 

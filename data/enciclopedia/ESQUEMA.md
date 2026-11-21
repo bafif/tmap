@@ -203,6 +203,15 @@ Londres sobre el Imperio Nuevo.
   En personas sin fechas de nacimiento o muerte, esos años también ubican su vida.
   Sin ningún año, la persona no aparece en el mapa ni en «personas vivas».
 - Para personas antiguas con fechas inciertas, `aprox: true` y la mejor estimación académica.
+- `activo.tramo` es opcional y dice cómo leer `desde` y `hasta` cuando no son los años de su actividad:
+  - `"entre"`: no se conocen sus años y solo se sabe que vivió en algún punto de ese tramo (un rey que la lista pone
+    entre dos atestiguados). La ficha dice «en algún punto entre 2200 y 2150 a. C.» con el sello «Año desconocido», y
+    el mapa la muestra durante todo el tramo, con el filete punteado.
+  - `"tradicion"`: solo la tradición la conoce (una lista real, la épica) y puede no haber existido. El tramo es dónde
+    la ubican los especialistas, no los años que da la tradición. Lleva el sello «Según la tradición» y en el mapa se
+    ve más tenue. Es el único tramo que puede ir sin años (los reyes antediluvianos): así no se ubica en el tiempo.
+
+  El tramo es el más estrecho que permiten las fuentes, sin repartir años entre reyes de una lista.
 
 ### `hechos`
 
@@ -228,6 +237,9 @@ Londres sobre el Imperio Nuevo.
   `tratado`, `construccion`, `exploracion`, `revolucion`, `judicial` (sentencias y fallos). Una guerra entera va como
   `batalla` con `anio_hasta`.
 - `fuentes`: ids de fuentes que lo documentan (pueden ser de otro paquete).
+- `fuente_debil`: opcional, `true` si lo cuentan solo textos posteriores o indirectos, sin un documento de su época
+  que lo confirme. La ficha lleva el sello «De fuente débil», las listas lo muestran en cursiva y el mapa, con el
+  filete punteado. El `resumen` dice cuáles son esos textos.
 
 ### `lugares`
 

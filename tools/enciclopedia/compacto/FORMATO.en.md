@@ -48,7 +48,9 @@ All UTF-8, with `#` for comments. Fields separated by ` | ` (never use `|` insid
 
 - birth/death: `year [place]`; empty if alive or unknown. Place: `@wd` (takes it from Wikidata: the easiest),
   `@key` (from the gazetteer), `@key=Text`, or `=Text` (no coordinates).
-- active: `@key year-year` (where they worked and when); empty if the birth is enough.
+- active: `@key year-year` (where they worked and when); empty if the birth is enough. With `entre` at the end, the
+  years are a span within which they lived without knowing when; with `tradicion`, where tradition places them (it can
+  go without years): `@adab -2200--2150~ entre`, `@kish -2900--2750~ tradicion` (ESQUEMA.md, `activo.tramo`).
 - `~` at the end of a year = approximate. Negative years = BC.
 
 ### `fuentes*.txt` (there can be several: `fuentes1.txt`, `fuentes2.txt`…)
@@ -80,7 +82,8 @@ All UTF-8, with `#` for comments. Fields separated by ` | ` (never use `|` insid
 - years: `1944`, `1914-1918`, `1944~`. place: as in people; `@=Text` uses the coordinates of the article itself.
 - type: `politico batalla fundacion religioso cultural cientifico economico desastre tratado construccion
   exploracion revolucion judicial`. Whole wars: `batalla` with a year range; rulings: `judicial`.
-- sources: ids separated by commas (from any topic or package), or empty.
+- sources: ids separated by commas (from any topic or package), or empty. `!debil` at the end: weakly sourced (only
+  later or indirect texts tell of it).
 - extra regions (optional): region ids besides the one the point falls in (the `id`s of the regions in the packages).
 
 ### `lugares.txt`

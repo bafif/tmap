@@ -143,6 +143,10 @@ run again when the curated estimates change (the editor warns about it).
 
 - **Nothing made up.** If a date is uncertain it's marked `aprox` and the `confianza` is lowered; if a piece of data
   has no source, it doesn't get loaded.
+- **What's uncertain looks different.** An approximate date carries "c.". For someone with no known years, the
+  narrowest span the sources allow is given ("at some point between…"); what only tradition knows says so, and an
+  event told only by later texts is marked as weakly sourced. Lists show them in italics and the map with a dotted
+  outline.
 - **Primary sources first**, in public-domain or open-access editions when they exist.
 - **Two coordinates per text**: where and when it was written, and what place and period it's about.
 - **Estimates with their author and their range.** Figures from ancient authors are testimonies, not estimates.

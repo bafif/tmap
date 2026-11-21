@@ -141,6 +141,10 @@ que volver a correr cuando cambian las estimaciones curadas (el editor lo avisa)
 
 - **Nada inventado.** Si una fecha es incierta se marca `aprox` y se baja la `confianza`; si un dato no tiene fuente,
   no se carga.
+- **Lo incierto se ve distinto.** Una fecha aproximada lleva «c.». De alguien sin años conocidos se da el tramo más
+  estrecho que permiten las fuentes («en algún punto entre…»); lo que conoce solo la tradición lo dice, y un hecho que
+  cuentan solo textos posteriores va marcado como de fuente débil. En las listas van en cursiva y en el mapa, con el
+  filete punteado.
 - **Fuentes primarias primero**, en ediciones de dominio público o de acceso abierto cuando existan.
 - **Dos coordenadas por texto**: dónde y cuándo se escribió, y de qué lugar y época trata.
 - **Estimaciones con su autor y su rango.** Las cifras de autores antiguos son testimonios, no estimaciones.

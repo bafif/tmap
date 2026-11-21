@@ -20,6 +20,8 @@ const GENEROS := ["religioso", "historia", "cronica", "literatura", "poesia", "f
 	"epistolar", "inscripcion", "geografia", "ciencia", "medicina", "sabiduria", "viajes", "ensayo", "arqueologia",
 	"economia", "politica", "manifiesto", "discurso", "tecnologia", "periodismo"]
 const CONFIANZAS := ["alta", "media", "baja"]
+## Cómo leer los años de `activo` (ver Enciclopedia.tramo); null: son los de su actividad.
+const TRAMOS := [null, "entre", "tradicion"]
 const PESOS := ["mayoritaria", "importante", "minoritaria"]
 ## Capas de una región con familia y peso (ver la sección «familias» del esquema).
 const CAPAS := ["religiones", "culturas", "idiomas"]
@@ -250,7 +252,14 @@ static func validar(seccion: String, item: Dictionary, id_original: String, extr
 			_orden(anios[0], anios[1], Idioma.t("La vida"), e)
 			_punto(ac, Idioma.t("Dónde trabajó"), e)
 			anios += [ac.get("desde"), ac.get("hasta")]
-			if anios.all(func(x): return x == null):
+			var tramo: Variant = ac.get("tramo")
+			if tramo != null and not tramo in TRAMOS:
+				e.append(Idioma.t("«%s» no es un tramo de los previstos.") % tramo)
+			elif tramo != null and (ac.get("desde") == null) != (ac.get("hasta") == null):
+				e.append(Idioma.t("Un tramo necesita los dos años: desde y hasta."))
+			elif tramo == "entre" and ac.get("desde") == null:
+				e.append(Idioma.t("«En algún punto entre» necesita los dos años del tramo."))
+			if anios.all(func(x): return x == null) and tramo != "tradicion":
 				a.append(Idioma.t("Sin ningún año: la persona no aparece en el mapa ni entre las personas vivas."))
 			_refs(item.get("obras", []), "fuentes", Idioma.t("Obra"), extra, e)
 			if item.get("wikidata") != null and not RegEx.create_from_string("^Q[0-9]+$").search(str(item["wikidata"])):

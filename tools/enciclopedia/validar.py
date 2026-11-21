@@ -21,6 +21,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 DIR = RAIZ / "data" / "enciclopedia" / "paquetes"
 SECCIONES = ["regiones", "fuentes", "personas", "hechos", "lugares"]
+# Cómo leer `activo.desde`/`hasta` cuando no son años de actividad: vivió en algún punto del tramo, o solo la
+# tradición lo ubica ahí.
+TRAMOS = ("entre", "tradicion")
 TIPOS_HECHO = {"politico", "batalla", "fundacion", "religioso", "cultural", "cientifico", "economico", "desastre",
                "tratado", "construccion", "exploracion", "revolucion", "judicial"}
 TIPOS_LUGAR = {"ciudad", "capital", "templo", "puerto", "sitio-arqueologico", "biblioteca", "universidad",
@@ -228,10 +231,20 @@ def main():
         if isinstance(p.get("activo"), dict):
             anio(p["activo"].get("desde"), d + "/activo")
             anio(p["activo"].get("hasta"), d + "/activo")
+            tramo = p["activo"].get("tramo")
+            if tramo is not None:
+                if tramo not in TRAMOS:
+                    errores.append(f"{d}/activo: tramo inválido {tramo!r} (va {', '.join(TRAMOS)})")
+                elif (p["activo"].get("desde") is None) != (p["activo"].get("hasta") is None):
+                    errores.append(f"{d}/activo: un tramo necesita «desde» y «hasta»")
+                elif p["activo"].get("desde") is None and tramo != "tradicion":
+                    errores.append(f"{d}/activo: solo una figura de tradición puede ir sin años («tramo»: «tradicion»)")
+                elif p["activo"].get("desde") is not None and p["activo"]["desde"] >= p["activo"]["hasta"]:
+                    errores.append(f"{d}/activo: el tramo va de «desde» a «hasta», y «desde» tiene que ser anterior")
         anios = [x.get("anio") for x in (p.get("nacimiento"), p.get("muerte")) if isinstance(x, dict)]
         if isinstance(p.get("activo"), dict):
             anios += [p["activo"].get("desde"), p["activo"].get("hasta")]
-        if all(a is None for a in anios):
+        if all(a is None for a in anios) and (p.get("activo") or {}).get("tramo") != "tradicion":
             avisos.append(f"{d}: sin ningún año (no se ubica en el tiempo)")
         for o in p.get("obras", []):
             if o not in todo["fuentes"]:
@@ -242,6 +255,10 @@ def main():
         anio(h.get("anio"), d)
         anio(h.get("anio_hasta"), d)
         punto(h, d)
+        if "fuente_debil" in h and not isinstance(h["fuente_debil"], bool):
+            errores.append(f"{d}: fuente_debil va true o false")
+        if h.get("fuente_debil") and not h.get("fuentes"):
+            avisos.append(f"{d}: marcado de fuente débil sin ninguna fuente citada")
         if h.get("tipo") not in TIPOS_HECHO:
             avisos.append(f"{d}: tipo no previsto {h.get('tipo')!r}")
         for r in h.get("regiones", []):

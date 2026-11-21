@@ -10,6 +10,10 @@ extends Node2D
 const RADIO := 13.0
 const VENTANA_HECHO := 40
 const VIDA_FUENTE := 150
+## Lo incierto lleva el filete punteado, como un límite dudoso en un mapa, y se ve algo más tenue cuanto menos se sabe:
+## una persona de la que solo se conoce un tramo, una que conoce solo la tradición, un hecho de fuente débil.
+const ALFA_TRAMO := {"entre": 0.8, "tradicion": 0.65}
+const ALFA_FUENTE_DEBIL := 0.8
 ## Más lejos que esto no se dibujan marcadores; entre esto y ZOOM_PUNTOS, solo puntos chicos.
 const ZOOM_OCULTAR := 0.26
 const ZOOM_PUNTOS := 0.5
@@ -64,12 +68,12 @@ func actualizar() -> void:
 	if aj.get("mostrar_personas", true):
 		for p in Enciclopedia.personas.values():
 			if p.has("_px") and not p["_sin_fechas"] and p["_desde"] <= anio and anio <= p["_hasta"]:
-				_visibles.append({"tipo": "persona", "id": p["id"], "px": Enciclopedia.px_en(p, anio), "icono": "persona", "color": TemaUI.color("persona"), "alfa": 1.0, "texto": p.get("nombre", "")})
+				_visibles.append({"tipo": "persona", "id": p["id"], "px": Enciclopedia.px_en(p, anio), "icono": "persona", "color": TemaUI.color("persona"), "alfa": ALFA_TRAMO.get(Enciclopedia.tramo(p), 1.0), "incierto": Enciclopedia.tramo(p) != "", "alfa_texto": 1.0, "texto": p.get("nombre", "")})
 	if aj.get("mostrar_hechos", true):
 		for h in Enciclopedia.hechos.values():
 			if h.has("_px") and h["_desde"] <= anio and anio <= h["_hasta"] + VENTANA_HECHO:
 				var alfa_h := 1.0 - smoothstep(h["_hasta"] + 5, h["_hasta"] + VENTANA_HECHO, anio)
-				_visibles.append({"tipo": "hecho", "id": h["id"], "px": h["_px"], "icono": "hecho", "color": TemaUI.color("hecho"), "alfa": maxf(alfa_h, 0.3), "texto": h.get("titulo", "")})
+				_visibles.append({"tipo": "hecho", "id": h["id"], "px": h["_px"], "icono": "hecho", "color": TemaUI.color("hecho"), "alfa": maxf(alfa_h, 0.3) * (ALFA_FUENTE_DEBIL if h.get("fuente_debil", false) else 1.0), "incierto": h.get("fuente_debil", false), "alfa_texto": maxf(alfa_h, 0.3), "texto": h.get("titulo", "")})
 	if aj.get("mostrar_ciudades", true):
 		for l in Enciclopedia.lugares.values():
 			if l.has("_px") and l["_desde"] <= anio and anio <= l["_hasta"]:
@@ -210,7 +214,12 @@ func _draw() -> void:
 		draw_circle(p + Vector2(0, 1.5 * s), r + 2.0 * s, Color(0, 0, 0, 0.35 * alfa))
 		draw_circle(p, r + 1.5 * s, Color(0.06, 0.05, 0.04, alfa))
 		draw_circle(p, r, Color(col.darkened(0.25), alfa))
-		draw_circle(p, r, Color(col.lightened(0.35), alfa), false, 1.3 * s)
+		if v.get("incierto", false):
+			for i in 10:
+				var a0 := TAU * i / 10.0
+				draw_arc(p, r, a0, a0 + TAU / 10.0 * 0.55, 6, Color(col.lightened(0.35), alfa), 1.6 * s, true)
+		else:
+			draw_circle(p, r, Color(col.lightened(0.35), alfa), false, 1.3 * s)
 		var tex: Texture2D = _texturas.get(v["icono"])
 		if tex:
 			var lado := r * 1.25
@@ -225,8 +234,10 @@ func _draw() -> void:
 				continue
 			ocupados.append(caja)
 			draw_set_transform(pos, 0.0, Vector2(s, s))
-			draw_string_outline(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, 4, Color(0.05, 0.04, 0.03, 0.7 * alfa))
-			draw_string(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color(0.98, 0.95, 0.88, alfa))
+			# El nombre de lo incierto se sigue leyendo: lo atenuado es la marca, no el texto.
+			var alfa_t: float = v.get("alfa_texto", alfa)
+			draw_string_outline(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, 4, Color(0.05, 0.04, 0.03, 0.7 * alfa_t))
+			draw_string(fuente, Vector2.ZERO, texto, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color(0.98, 0.95, 0.88, alfa_t))
 			draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 
 

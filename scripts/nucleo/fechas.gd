@@ -24,6 +24,13 @@ static func rango(desde: int, hasta: int) -> String:
 	return "%s – %s" % [texto(desde), texto(hasta)]
 
 
+## Un momento que no se conoce, dentro de un tramo: «entre 2193 y 2119 a. C.».
+static func entre(desde: int, hasta: int) -> String:
+	if desde < 0 and hasta < 0:
+		return Idioma.t("entre %s y %s a. C.") % [_miles(-desde), _miles(-hasta)]
+	return Idioma.t("entre %s y %s") % [texto(desde), texto(hasta)]
+
+
 static func siglo(anio: int) -> String:
 	var s := maxi(int(ceil(abs(anio) / 100.0)), 1)
 	if Idioma.ingles():

@@ -701,6 +701,10 @@ msgstr "Active from"
 msgid "Fechas aproximadas"
 msgstr "Approximate dates"
 
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Si no se conocen sus años"
+msgstr "If their years are unknown"
+
 #: scripts/interfaz/editor_enciclopedia.gd scripts/interfaz/panel_info.gd
 msgid "Resumen"
 msgstr "Summary"
@@ -720,6 +724,10 @@ msgstr "Until (if it lasted)"
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Fuentes que lo documentan (ids)"
 msgstr "Sources that document it (IDs)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "De fuente débil (solo textos posteriores o indirectos)"
+msgstr "Weakly sourced (only later or indirect texts)"
 
 #: scripts/interfaz/editor_enciclopedia.gd
 msgid "Importancia"
@@ -1474,6 +1482,14 @@ msgid "baja"
 msgstr "low"
 
 #: scripts/interfaz/panel_info.gd
+msgid "En algún punto del tramo (año desconocido)"
+msgstr "At some point in the span (year unknown)"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Lo que dice la tradición"
+msgstr "What tradition says"
+
+#: scripts/interfaz/panel_info.gd
 msgid "Volver al lugar"
 msgstr "Back to the place"
 
@@ -1712,6 +1728,30 @@ msgid "Ver dónde y cuándo se escribió"
 msgstr "See where and when it was written"
 
 #: scripts/interfaz/panel_info.gd
+msgid "Año desconocido"
+msgstr "Year unknown"
+
+#: scripts/interfaz/panel_info.gd
+msgid "No se conocen sus años: las fuentes solo permiten decir que vivió en algún punto de este tramo. En el mapa, su marca aparece durante todo el tramo, con el filete punteado."
+msgstr "Their years are unknown: the sources only allow us to say that they lived at some point within this span. On the map, their marker appears throughout the span, with a dotted outline."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Sin documentos de su época: solo la tradición y textos muy posteriores hablan de esta figura, que puede no haber existido."
+msgstr "No documents from their own time: only tradition and much later texts speak of this figure, who may never have existed."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Tampoco hay cómo fecharla, y por eso no aparece en el mapa."
+msgstr "Nor is there any way to date them, so they do not appear on the map."
+
+#: scripts/interfaz/panel_info.gd
+msgid "El tramo es donde la ubican los especialistas; en el mapa, su marca se ve más tenue y con el filete punteado."
+msgstr "The span is where specialists place them; on the map, their marker is fainter and has a dotted outline."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Según la tradición"
+msgstr "According to tradition"
+
+#: scripts/interfaz/panel_info.gd
 msgid "[b]Nació:[/b] %s%s, %s"
 msgstr "[b]Born:[/b] %s%s, %s"
 
@@ -1722,6 +1762,14 @@ msgstr "[b]Died:[/b] %s%s, %s"
 #: scripts/interfaz/panel_info.gd
 msgid "Obras"
 msgstr "Works"
+
+#: scripts/interfaz/panel_info.gd
+msgid "De fuente débil"
+msgstr "Weakly sourced"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Lo cuentan solo textos posteriores o indirectos, sin un documento de su época que lo confirme: tomalo con cautela."
+msgstr "Only later or indirect texts tell of it, with no document from the time to confirm it: treat it with caution."
 
 #: scripts/interfaz/panel_info.gd
 msgid "Fuentes que lo documentan"
@@ -1928,6 +1976,10 @@ msgid "Todavía no hay lugares, hechos ni fuentes de la enciclopedia dentro de s
 msgstr "There are no encyclopedia places, events or sources within its territory yet."
 
 #: scripts/interfaz/panel_info.gd
+msgid "%s, de fuente débil"
+msgstr "%s, weakly sourced"
+
+#: scripts/interfaz/panel_info.gd
 msgid "Primaria"
 msgstr "Primary"
 
@@ -1956,8 +2008,20 @@ msgid "De «[url=%s]%s[/url]», Wikipedia en inglés (CC BY-SA 4.0)."
 msgstr "From “[url=%s]%s[/url]”, English Wikipedia (CC BY-SA 4.0)."
 
 #: scripts/interfaz/panel_info.gd
+msgid "sin fecha, según la tradición"
+msgstr "undated, according to tradition"
+
+#: scripts/interfaz/panel_info.gd
 msgid "fechas desconocidas"
 msgstr "dates unknown"
+
+#: scripts/interfaz/panel_info.gd
+msgid "según la tradición, %s"
+msgstr "according to tradition, %s"
+
+#: scripts/interfaz/panel_info.gd
+msgid "en algún punto %s"
+msgstr "at some point %s"
 
 #: scripts/interfaz/panel_info.gd
 msgid "activo c. %s"
@@ -2318,6 +2382,18 @@ msgid "Dónde trabajó"
 msgstr "Where they worked"
 
 #: scripts/nucleo/edicion.gd
+msgid "«%s» no es un tramo de los previstos."
+msgstr "“%s” is not one of the expected spans."
+
+#: scripts/nucleo/edicion.gd
+msgid "Un tramo necesita los dos años: desde y hasta."
+msgstr "A span needs both years: from and to."
+
+#: scripts/nucleo/edicion.gd
+msgid "«En algún punto entre» necesita los dos años del tramo."
+msgstr "“At some point between” needs both years of the span."
+
+#: scripts/nucleo/edicion.gd
 msgid "Sin ningún año: la persona no aparece en el mapa ni entre las personas vivas."
 msgstr "No years at all: the person won't show on the map or among the people alive."
 
@@ -2568,6 +2644,14 @@ msgstr "AD %d"
 #: scripts/nucleo/fechas.gd
 msgid "%s–%s a. C."
 msgstr "%s–%s BC"
+
+#: scripts/nucleo/fechas.gd
+msgid "entre %s y %s a. C."
+msgstr "between %s and %s BC"
+
+#: scripts/nucleo/fechas.gd
+msgid "entre %s y %s"
+msgstr "between %s and %s"
 
 #: scripts/nucleo/motor.gd
 msgid "Automático"
