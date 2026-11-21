@@ -155,8 +155,8 @@ is done when its threshold is crossed, not before.
 
 - [ ] **Read packages on a separate thread** when the encyclopedia passes 10 MB or takes more than 1 s to open (the
       app logs it at startup: "Enciclopedia: N elementos… en X ms"), with a compact in-memory index. It is already
-      over 10 MB (13 MB, 11,162 items in 43 packages) and on a busy machine it opens in about a second: it has to be
-      measured on a computer with no other load and, if it takes over 1 s, done.
+      over 10 MB (14.2 MB, 12,881 items in 47 packages), although on a computer with no other load it opens in about
+      650 ms.
 - [ ] **Tiles by era and macroregion, download manager and capped cache** (autoload `Descargas`: priority queue, two
       requests at a time, nothing while the timeline is moving, reading in `WorkerThreadPool`, 500 MB cache with
       "Clear cache" in Settings). Needed with 0.4 or once past 50 MB.

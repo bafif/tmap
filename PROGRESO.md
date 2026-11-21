@@ -157,8 +157,7 @@ Cada paso se hace cuando se cruza su umbral, no antes.
 
 - [ ] **Leer los paquetes en un hilo aparte** cuando la enciclopedia pase los 10 MB o tarde más de 1 s en abrir (la
       app lo dice al arrancar: «Enciclopedia: N elementos… en X ms»), con un índice compacto en memoria. Ya pasó los
-      10 MB (13 MB, 11 162 elementos de 43 paquetes) y en una máquina ocupada abre en alrededor de un segundo: hay que
-      medirlo en un equipo sin otra carga y, si pasa de 1 s, hacerlo.
+      10 MB (14,2 MB, 12 881 elementos de 47 paquetes), aunque en un equipo sin otra carga abre en unos 650 ms.
 - [ ] **Teselas por época y macrorregión, administrador de descargas y caché con tope** (autoload `Descargas`: cola
       con prioridades, dos pedidos a la vez, nada mientras se mueve la línea de tiempo, lectura en
       `WorkerThreadPool`, caché de 500 MB con «Vaciar caché» en Ajustes). Hace falta con la 0.4 o al pasar los 50 MB.
