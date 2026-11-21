@@ -228,13 +228,21 @@
           "familia": "islam-chii",
           "peso": "mayoritaria",
           "nota": "Los chiitas son la mayoría en el Irak actual (las estimaciones los ubican en torno al 60 %); no hay censo religioso reciente y el norte es mayormente sunnita y kurdo."
+        },
+        {
+          "desde": -2300,
+          "hasta": -1260,
+          "nombre": "Religión hurrita (norte: Urkesh, Nuzi y Mitani)",
+          "familia": "religion-hurrita",
+          "peso": "minoritaria",
+          "nota": "Teshub y Kumarbi en el norte, desde Urkesh (hacia 2300 a. C.) hasta la conquista asiria de Mitani."
         }
       ],
       "culturas": [
         {
           "desde": -3500,
           "hasta": -2004,
-          "nombre": "Sumeria",
+          "nombre": "Sumeria y acadia",
           "familia": "mesopotamica",
           "peso": "mayoritaria"
         },
@@ -267,6 +275,30 @@
           "familia": "kurda",
           "peso": "importante",
           "nota": "Los kurdos son una minoría importante en el norte del país, con una región autónoma; no hay censo reciente que dé cifras."
+        },
+        {
+          "desde": -2100,
+          "hasta": -1595,
+          "nombre": "Amorrea",
+          "familia": "amorrea",
+          "peso": "importante",
+          "nota": "Pastores de lengua semítica occidental llegados de Siria que fundan las dinastías de Isin, Larsa, Babilonia y Mari y la de Shamshi-Adad en Asiria; se asimilan a la cultura mesopotámica."
+        },
+        {
+          "desde": -2300,
+          "hasta": -1260,
+          "nombre": "Hurrita (norte)",
+          "familia": "hurrita",
+          "peso": "importante",
+          "nota": "Urkesh, Nuzi y Arrapha; en los siglos XVI-XIV a. C. el norte forma parte de Mitani."
+        },
+        {
+          "desde": -1595,
+          "hasta": -1155,
+          "nombre": "Casita (dinastía y élite)",
+          "familia": "casita",
+          "peso": "importante",
+          "nota": "La dinastía casita adopta la lengua, la religión y las letras babilónicas."
         }
       ],
       "idiomas": [
@@ -275,14 +307,16 @@
           "hasta": -2000,
           "nombre": "Sumerio",
           "familia": "sumerio",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Hablado en el sur hasta hacia 2000-1800 a. C.; después sigue como lengua escrita del culto y la escuela."
         },
         {
-          "desde": -2500,
+          "desde": -2000,
           "hasta": -500,
           "nombre": "Acadio (babilonio y asirio)",
           "familia": "acadio",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Desde hacia 2000 a. C. reemplaza al sumerio como lengua hablada en el sur; en el norte ya lo era antes."
         },
         {
           "desde": -800,
@@ -306,6 +340,38 @@
           "familia": "iranias",
           "peso": "importante",
           "nota": "Lengua oficial en la región autónoma del Kurdistán; se habla en el norte."
+        },
+        {
+          "desde": -2600,
+          "hasta": -2001,
+          "nombre": "Acadio antiguo",
+          "familia": "acadio",
+          "peso": "importante",
+          "nota": "Atestiguado en nombres de Abu Salabikh y Fara hacia 2600 a. C.; lengua oficial desde Sargón (hacia 2334 a. C.) y mayoritaria en el norte."
+        },
+        {
+          "desde": -2100,
+          "hasta": -1600,
+          "nombre": "Amorreo",
+          "familia": "amorreo",
+          "peso": "importante",
+          "nota": "Se conoce por nombres propios y palabras sueltas en textos acadios: los amorreos escribieron en acadio."
+        },
+        {
+          "desde": -2300,
+          "hasta": -1260,
+          "nombre": "Hurrita (norte)",
+          "familia": "hurrita",
+          "peso": "minoritaria",
+          "nota": "Inscripción de Tish-atal de Urkesh (hacia 2200 a. C.) y nombres de Nuzi; lengua de Mitani."
+        },
+        {
+          "desde": -1595,
+          "hasta": -1155,
+          "nombre": "Casita",
+          "familia": "casita",
+          "peso": "minoritaria",
+          "nota": "Solo unas pocas palabras y nombres: la dinastía escribió en acadio y sumerio."
         }
       ],
       "demografia": [
@@ -625,9 +691,9 @@
       "eras": [
         {
           "desde": -3500,
-          "hasta": -1200,
-          "nombre": "Edad del Bronce cananea",
-          "resumen": "Ciudades-estado como Biblos, Ugarit y Hazor, bajo influencia egipcia y mesopotámica."
+          "hasta": -2300,
+          "nombre": "Bronce Antiguo",
+          "resumen": "Primeras ciudades amuralladas en el sur (Arad, Megido, Biblos) y, en el norte, los reinos de Ebla y Mari, conocidos por el archivo de Ebla."
         },
         {
           "desde": -1200,
@@ -688,6 +754,24 @@
           "hasta": null,
           "nombre": "Independencias y conflicto árabe-israelí",
           "resumen": "Siria, el Líbano y Jordania ya son independientes (1943-1946). En 1948 se proclama Israel; la guerra de 1948 (de independencia para los israelíes, la Nakba para los palestinos) deja más de 700 000 refugiados palestinos. Siguen las guerras de 1967 (con la ocupación israelí de Cisjordania, Gaza y el Golán, así llamada por la ONU) y 1973, la guerra civil libanesa (1975-1990), la guerra civil siria desde 2011, que derriba a Asad en 2024, y la guerra de Gaza desde el ataque de Hamás de octubre de 2023."
+        },
+        {
+          "desde": -2300,
+          "hasta": -2000,
+          "nombre": "Bronce Antiguo IV",
+          "resumen": "Tras la conquista acadia de Ebla, el sur pierde sus ciudades y vuelve a la vida aldeana y pastoril; en el norte siguen Ebla y Urkesh."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1550,
+          "nombre": "Bronce Medio",
+          "resumen": "Ciudades-estado amorreas y cananeas (Yamhad, Qatna, Hazor, Biblos), en contacto con Mari y con Egipto."
+        },
+        {
+          "desde": -1550,
+          "hasta": -1200,
+          "nombre": "Bronce Tardío",
+          "resumen": "Ciudades-estado bajo la hegemonía egipcia en el sur y mitania y luego hitita en el norte, conocidas por las cartas de Amarna y los archivos de Ugarit; termina con el colapso de hacia 1200 a. C."
         }
       ],
       "religiones": [
@@ -759,6 +843,20 @@
           "familia": "judaismo",
           "peso": "importante",
           "nota": "Es la religión de la mayoría de la población de Israel; en el conjunto del Levante pesa menos que el islam."
+        },
+        {
+          "desde": -1600,
+          "hasta": -1200,
+          "nombre": "Religión hurrita (norte: Alalakh y Ugarit)",
+          "familia": "religion-hurrita",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Culto egipcio de las guarniciones (Bet Shean, Jaffa)",
+          "familia": "politeismo-egipcio",
+          "peso": "minoritaria"
         }
       ],
       "culturas": [
@@ -799,6 +897,28 @@
           "familia": "judia",
           "peso": "importante",
           "nota": "Predomina en Israel; en el conjunto del Levante pesa menos que la árabe."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1550,
+          "nombre": "Amorrea (Yamhad y Qatna)",
+          "familia": "amorrea",
+          "peso": "importante"
+        },
+        {
+          "desde": -1600,
+          "hasta": -1200,
+          "nombre": "Hurrita (norte: Alalakh, Ugarit, Qatna)",
+          "familia": "hurrita",
+          "peso": "importante",
+          "nota": "Élites y población hurrita en el norte, bajo Mitani y después bajo los hititas."
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Egipcia (administración y guarniciones)",
+          "familia": "egipcia",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
@@ -847,6 +967,27 @@
           "familia": "hebreo",
           "peso": "importante",
           "nota": "Es la lengua mayoritaria en Israel; en el conjunto del Levante pesa menos que el árabe."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1200,
+          "nombre": "Acadio, lengua escrita de la diplomacia (Amarna, Ugarit)",
+          "familia": "acadio",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1600,
+          "hasta": -1200,
+          "nombre": "Hurrita (norte)",
+          "familia": "hurrita",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Egipcio (administración)",
+          "familia": "egipcio",
+          "peso": "minoritaria"
         }
       ],
       "demografia": [
@@ -1044,7 +1185,7 @@
       "resumen": "La península de Asia Menor, puente entre Europa y Asia: la actual Turquía asiática. Allí estuvieron el Imperio hitita, Troya, Lidia, las ciudades griegas de Jonia y, más tarde, Bizancio y el Imperio otomano.",
       "eras": [
         {
-          "desde": -1760,
+          "desde": -1950,
           "hasta": -1651,
           "nombre": "Colonias asirias y reinos anatolios previos al Imperio hitita",
           "resumen": "Mercaderes asirios mantienen colonias comerciales (karum) como la de Kanesh hasta hacia 1700 a. C., y reinos locales como Kussara y Neša luchan entre sí; de ahí sale el Reino hitita antiguo hacia 1650."
@@ -1096,11 +1237,23 @@
           "hasta": null,
           "nombre": "República de Turquía",
           "resumen": "Atatürk funda la república con capital en Ankara. Turquía en el siglo XXI, con el proceso de adhesión a la Unión Europea desde 2005 y gobiernos del AKP desde 2002."
+        },
+        {
+          "desde": -3400,
+          "hasta": -3000,
+          "nombre": "Calcolítico final",
+          "resumen": "Arslantepe, en el alto Éufrates, es un centro con palacio y sellos administrativos ligado al mundo de Uruk."
+        },
+        {
+          "desde": -3000,
+          "hasta": -1950,
+          "nombre": "Bronce Antiguo",
+          "resumen": "Ciudadelas como Troya I-II y tumbas reales con estandartes de bronce en Alaca Höyük; metalurgia y comercio a larga distancia."
         }
       ],
       "religiones": [
         {
-          "desde": -1760,
+          "desde": -1950,
           "hasta": -1651,
           "nombre": "Religión hitita y politeísmo anatolio",
           "familia": "politeismo-anatolio",
@@ -1175,11 +1328,27 @@
           "familia": "islam-sunni",
           "peso": "mayoritaria",
           "nota": "Con una minoría alevi importante; no hay censo religioso."
+        },
+        {
+          "desde": -3000,
+          "hasta": -1951,
+          "nombre": "Cultos del Bronce Antiguo (sin textos)",
+          "familia": "politeismo-anatolio",
+          "peso": "importante",
+          "nota": "Se conocen por las tumbas reales de Alaca Höyük, con estandartes solares y de ciervos que suelen leerse como antecedentes de los cultos háticos."
+        },
+        {
+          "desde": -1400,
+          "hasta": -1180,
+          "nombre": "Religión hurrita en la corte hitita",
+          "familia": "religion-hurrita",
+          "peso": "importante",
+          "nota": "La reina Puduhepa y el santuario de Yazılıkaya llevan a la religión imperial a Teshub, Hebat y otros dioses hurritas."
         }
       ],
       "culturas": [
         {
-          "desde": -1760,
+          "desde": -1950,
           "hasta": -1651,
           "nombre": "Hática, hitita y luvita (con colonias comerciales asirias)",
           "familia": "anatolia-antigua",
@@ -1229,31 +1398,54 @@
           "familia": "kurda",
           "peso": "importante",
           "nota": "Minoría importante en el este y el sudeste; las cifras son estimaciones."
+        },
+        {
+          "desde": -3400,
+          "hasta": -1951,
+          "nombre": "Anatolia del Bronce Antiguo (Troya, Alaca Höyük, Arslantepe)",
+          "familia": "anatolia-antigua",
+          "peso": "mayoritaria",
+          "nota": "No se sabe qué lenguas hablaban; los háticos del centro suelen considerarse sus herederos."
+        },
+        {
+          "desde": -1950,
+          "hasta": -1720,
+          "nombre": "Mercaderes asirios de los karum (Kanesh)",
+          "familia": "mesopotamica",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1500,
+          "hasta": -1180,
+          "nombre": "Hurrita (Kizzuwatna y el sudeste)",
+          "familia": "hurrita",
+          "peso": "importante"
         }
       ],
       "idiomas": [
         {
-          "desde": -1760,
-          "hasta": -1651,
-          "nombre": "Hitita (nesita), luvita, palaíta y hático",
-          "familia": "anatolias",
+          "desde": -1950,
+          "hasta": -1180,
+          "nombre": "Hitita (nesita)",
+          "familia": "hitita",
           "peso": "mayoritaria",
-          "nota": "El hático no es indoeuropeo y se extingue pronto; el hitita, el luvita y el palaíta son anatolias."
+          "nota": "Primero en nombres y palabras de las tablillas de Kanesh (hacia 1950 a. C.); se escribe desde hacia 1650 a. C. La lengua de los indoeuropeos de Anatolia más documentada."
         },
         {
-          "desde": -1760,
-          "hasta": -1700,
+          "desde": -1950,
+          "hasta": -1720,
           "nombre": "Acadio (dialecto paleoasirio)",
           "familia": "acadio",
           "peso": "importante",
           "nota": "Lengua de las unas 23 000 tablillas comerciales de Kültepe, escritas por mercaderes asirios. Tras las colonias el acadio vuelve a la región como lengua escrita de la cancillería hitita (anales y testamento bilingües de Hattusili I, hacia 1650-1620 a. C., y la correspondencia diplomática posterior)."
         },
         {
-          "desde": -1650,
+          "desde": -1950,
           "hasta": -1180,
-          "nombre": "Hitita y luvita",
-          "familia": "anatolias",
-          "peso": "mayoritaria"
+          "nombre": "Luvita",
+          "familia": "luvita",
+          "peso": "importante",
+          "nota": "La más hablada en el oeste y el sur; en el siglo XIII a. C. se escribe con jeroglíficos anatolios."
         },
         {
           "desde": -1180,
@@ -1292,6 +1484,36 @@
           "familia": "iranias",
           "peso": "importante",
           "nota": "Se habla en el este y el sudeste."
+        },
+        {
+          "desde": -1950,
+          "hasta": -1400,
+          "nombre": "Hático",
+          "familia": "hatico",
+          "peso": "importante",
+          "nota": "Lengua no indoeuropea del centro, que el hitita fue reemplazando; sobrevive en rituales copiados por la cancillería hitita."
+        },
+        {
+          "desde": -1650,
+          "hasta": -1400,
+          "nombre": "Palaíta",
+          "familia": "anatolias",
+          "peso": "minoritaria",
+          "nota": "Lengua de Pala, al noroeste, conocida por unos pocos textos rituales."
+        },
+        {
+          "desde": -1650,
+          "hasta": -1180,
+          "nombre": "Acadio (cancillería y diplomacia hitita)",
+          "familia": "acadio",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1500,
+          "hasta": -1180,
+          "nombre": "Hurrita (Kizzuwatna y textos religiosos)",
+          "familia": "hurrita",
+          "peso": "minoritaria"
         }
       ],
       "demografia": [
@@ -1621,10 +1843,10 @@
       "resumen": "El mundo egeo: la Grecia continental, las islas del Egeo y Creta. De las ciudades-estado surgieron la democracia, la filosofía, el teatro y la historiografía, y la cultura griega se extendió luego por todo el Mediterráneo oriental.",
       "eras": [
         {
-          "desde": -1760,
-          "hasta": -1601,
-          "nombre": "Heládico medio y Creta minoica",
-          "resumen": "Aldeas amuralladas, cerámica minia y tumbas en cista en la Grecia continental (hacia 2000-1600 a. C.), mientras en Creta florece la civilización minoica de los palacios, con escritura lineal A (1800-1450 a. C.); las tumbas de fosa de Micenas marcan el paso a la civilización micénica."
+          "desde": -3400,
+          "hasta": -3200,
+          "nombre": "Neolítico final",
+          "resumen": "Aldeas agrícolas y primeras piezas de cobre en el Egeo."
         },
         {
           "desde": -1600,
@@ -1679,23 +1901,36 @@
           "hasta": 2000,
           "nombre": "Grecia moderna",
           "resumen": "Guerra de independencia (1821) y creación del Estado griego en 1832."
+        },
+        {
+          "desde": -3200,
+          "hasta": -2000,
+          "nombre": "Bronce Antiguo",
+          "resumen": "Cultura cicládica, con sus figurillas de mármol; Heládico antiguo en el continente (la casa de las tejas de Lerna) y período prepalacial en Creta."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1600,
+          "nombre": "Heládico medio y primeros palacios de Creta",
+          "resumen": "Creta levanta los palacios de Cnosos, Festo y Malia y escribe en jeroglíficos y lineal A; el continente vive en aldeas, hasta las tumbas de fosa de Micenas."
         }
       ],
       "religiones": [
         {
-          "desde": -1760,
-          "hasta": -1601,
+          "desde": -2000,
+          "hasta": -1451,
           "nombre": "Religión minoica (santuarios de cumbre y de cuevas; sin textos legibles)",
           "familia": "religion-minoica",
           "peso": "importante",
-          "nota": "Solo vale para Creta: se reconstruye desde la arqueología (palacios, santuarios de cumbre, cuevas sagradas, sellos y pinturas) y no se conocen los nombres de sus dioses. De la religión del Heládico medio continental no queda registro."
+          "nota": "Solo vale para Creta: se reconstruye desde la arqueología (palacios, santuarios de cumbre, cuevas sagradas, sellos y pinturas) y no se conocen los nombres de sus dioses. De la religión del continente antes de los micénicos no queda registro."
         },
         {
-          "desde": -1600,
+          "desde": -1450,
           "hasta": 393,
           "nombre": "Politeísmo griego",
           "familia": "politeismo-griego",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Atestiguado desde las tablillas en lineal B de Cnosos (hacia 1450-1375 a. C.), que ya nombran a Zeus, Hera, Poseidón y Dioniso; antes no hay textos."
         },
         {
           "desde": 393,
@@ -1707,12 +1942,11 @@
       ],
       "culturas": [
         {
-          "desde": -1760,
-          "hasta": -1601,
-          "nombre": "Heládica media y minoica",
-          "familia": "bronce-europeo",
-          "peso": "mayoritaria",
-          "nota": "Cultura heládica media en el continente y minoica en Creta, agrupadas en la familia del bronce europeo y no en la griega porque la lengua de los minoicos (lineal A) no está descifrada y cuándo llegó el griego a la península se discute (de hacia 2200 a. C. a poco antes de 1600, según los autores)."
+          "desde": -3200,
+          "hasta": -2000,
+          "nombre": "Cicládica",
+          "familia": "cicladica",
+          "peso": "importante"
         },
         {
           "desde": -1600,
@@ -1720,11 +1954,27 @@
           "nombre": "Griega",
           "familia": "griega",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -3200,
+          "hasta": -1601,
+          "nombre": "Heládica (continente)",
+          "familia": "heladica",
+          "peso": "mayoritaria",
+          "nota": "Cuándo llegaron los hablantes de griego se discute (de hacia 2200 a. C. a poco antes de 1600, según los autores)."
+        },
+        {
+          "desde": -3100,
+          "hasta": -1451,
+          "nombre": "Minoica (Creta)",
+          "familia": "minoica",
+          "peso": "importante",
+          "nota": "Desde 1450 a. C. Creta queda bajo los micénicos."
         }
       ],
       "idiomas": [
         {
-          "desde": -1760,
+          "desde": -1600,
           "hasta": -1451,
           "nombre": "Protogriego y lenguas del sustrato prehelénico",
           "familia": "griego",
@@ -1732,12 +1982,12 @@
           "nota": "El griego se atestigua desde los textos en lineal B (hacia 1450 a. C.); antes no hay escritura continental, y el sustrato prehelénico (topónimos terminados en -nthos o -ssos) indica que se hablaban otras lenguas, cuya naturaleza se discute."
         },
         {
-          "desde": -1760,
+          "desde": -2000,
           "hasta": -1451,
           "nombre": "Minoico (lineal A y jeroglíficos cretenses, sin descifrar)",
-          "familia": "preindoeuropeas",
+          "familia": "minoico",
           "peso": "importante",
-          "nota": "Lengua de la Creta minoica; el lineal A se usó de 1800 a 1450 a. C. y no está descifrado, así que no se sabe de qué familia era."
+          "nota": "Lengua de la Creta minoica, escrita en jeroglíficos cretenses desde hacia 2000 a. C. y en lineal A de 1800 a 1450 a. C.; no está descifrada, así que no se sabe de qué familia era."
         },
         {
           "desde": -1450,
@@ -1745,6 +1995,14 @@
           "nombre": "Griego",
           "familia": "griego",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -3200,
+          "hasta": -1601,
+          "nombre": "Lenguas prehelénicas (sin escritura)",
+          "familia": "preindoeuropeas",
+          "peso": "mayoritaria",
+          "nota": "Lo que queda son topónimos terminados en -nthos o -ssos (Corinto, Cnosos); no se sabe qué lenguas eran ni si eran una sola."
         }
       ],
       "demografia": [
@@ -2719,7 +2977,7 @@
       "resumen": "La meseta iraní, centro de los imperios persas: aqueménida, parto y sasánida. De allí surgió el primer imperio que unió Egipto, Mesopotamia y Asia Central, y el zoroastrismo, que influyó en las religiones posteriores.",
       "eras": [
         {
-          "desde": -2700,
+          "desde": -1100,
           "hasta": -550,
           "nombre": "Elam y los reinos medos",
           "resumen": "Elam al sudoeste; medos y persas aparecen en las fuentes asirias desde el siglo IX a. C."
@@ -2771,15 +3029,46 @@
           "hasta": 2000,
           "nombre": "Irán moderno",
           "resumen": "Dinastía Pahlavi y, desde 1979, República Islámica."
+        },
+        {
+          "desde": -3400,
+          "hasta": -3100,
+          "nombre": "Susa y el período de Uruk",
+          "resumen": "Susa, en la llanura de Juzistán, comparte con el sur de Mesopotamia ciudades, sellos y tablillas numéricas."
+        },
+        {
+          "desde": -3100,
+          "hasta": -2700,
+          "nombre": "Protoelamita",
+          "resumen": "Tablillas en escritura protoelamita, sin descifrar, de Susa a Shahr-e Sukhteh, en el este de Irán."
+        },
+        {
+          "desde": -2700,
+          "hasta": -1970,
+          "nombre": "Elam antiguo: Awan y Shimashki",
+          "resumen": "Dinastías de Awan y de Shimashki, en guerra y alianza con Acad y Ur III; Puzur-Inshushinak unifica Elam hacia 2100 a. C."
+        },
+        {
+          "desde": -1970,
+          "hasta": -1500,
+          "nombre": "Sukkalmah",
+          "resumen": "Los sukkalmah gobiernan Elam desde Susa y Anshan e intervienen en la política de Mesopotamia en la época de Hammurabi."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1100,
+          "nombre": "Elam medio",
+          "resumen": "Dinastías de los Kidinuidas, los Igihalkidas y los Shutrukidas; Untash-Napirisha construye Chogha Zanbil y Shutruk-Nahhunte saquea Babilonia."
         }
       ],
       "religiones": [
         {
-          "desde": -2700,
-          "hasta": -550,
-          "nombre": "Religiones elamitas e iranias antiguas",
-          "familia": "politeismo-iranio",
-          "peso": "mayoritaria"
+          "desde": -2250,
+          "hasta": -1001,
+          "nombre": "Religión elamita",
+          "familia": "religion-elamita",
+          "peso": "mayoritaria",
+          "nota": "Atestiguada desde las inscripciones de Puzur-Inshushinak y el tratado de Naram-Sin con Awan (hacia 2250 a. C.)."
         },
         {
           "desde": -550,
@@ -2801,15 +3090,38 @@
           "nombre": "Islam chiita",
           "familia": "islam-chii",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -1000,
+          "hasta": -539,
+          "nombre": "Religión elamita (Juzistán)",
+          "familia": "religion-elamita",
+          "peso": "importante"
+        },
+        {
+          "desde": -1000,
+          "hasta": -801,
+          "nombre": "Religiones iranias de medos y persas",
+          "familia": "politeismo-iranio",
+          "peso": "importante",
+          "nota": "Los pueblos iranios llegan a la meseta hacia 1000 a. C."
+        },
+        {
+          "desde": -800,
+          "hasta": -550,
+          "nombre": "Religiones iranias de medos y persas",
+          "familia": "politeismo-iranio",
+          "peso": "mayoritaria"
         }
       ],
       "culturas": [
         {
-          "desde": -2700,
+          "desde": -3100,
           "hasta": -550,
           "nombre": "Elamita y meda",
           "familia": "elamita",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "En la Edad del Bronce la meseta tenía además culturas propias mal conocidas y sin escritura legible (Jiroft, Shahr-e Sukhteh); los medos aparecen en el I milenio a. C."
         },
         {
           "desde": -550,
@@ -2821,11 +3133,12 @@
       ],
       "idiomas": [
         {
-          "desde": -2700,
+          "desde": -2250,
           "hasta": -500,
           "nombre": "Elamita y medo",
           "familia": "elamita",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Escrito desde hacia 2250 a. C., en elamita lineal y en cuneiforme; el medo llega en el I milenio a. C."
         },
         {
           "desde": -520,
@@ -2879,6 +3192,21 @@
           "nombre": "Persa moderno",
           "familia": "persa",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -3100,
+          "hasta": -2900,
+          "nombre": "Protoelamita (sin descifrar)",
+          "familia": "sin-clasificar",
+          "peso": "importante",
+          "nota": "No se sabe si anotaba la misma lengua que el elamita posterior."
+        },
+        {
+          "desde": -2300,
+          "hasta": -1500,
+          "nombre": "Acadio (administración de Susa)",
+          "familia": "acadio",
+          "peso": "importante"
         }
       ],
       "demografia": [

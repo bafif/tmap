@@ -199,7 +199,7 @@
       "resumen": "El istmo entre el mar Negro y el Caspio, con la cordillera del Gran Cáucaso: Georgia, Azerbaiyán y las repúblicas rusas del norte, como Daguestán y Chechenia (Armenia tiene su propia región). Fue frontera de Roma y Persia, de bizantinos, árabes, otomanos y safávidas, y Rusia lo conquistó en el siglo XIX tras una larga guerra con los montañeses.",
       "eras": [
         {
-          "desde": null,
+          "desde": -1200,
           "hasta": -300,
           "nombre": "Cólquida y los pueblos del Cáucaso",
           "resumen": "La Cólquida, en la costa del mar Negro, es la tierra del vellocino de oro del mito griego; los griegos fundan colonias en su costa."
@@ -239,6 +239,30 @@
           "hasta": null,
           "nombre": "Georgia, Azerbaiyán y el Cáucaso ruso",
           "resumen": "Independencia de Georgia y Azerbaiyán; guerras en Chechenia (1994-2009), Abjasia y Osetia del Sur."
+        },
+        {
+          "desde": -3400,
+          "hasta": -3000,
+          "nombre": "Maikop y los comienzos de Kura-Araxes",
+          "resumen": "Al norte, los kurganes de Maikop con oro y plata; al sur, aldeas de Kura-Araxes con su cerámica negra pulida."
+        },
+        {
+          "desde": -3000,
+          "hasta": -2400,
+          "nombre": "Kura-Araxes",
+          "resumen": "La cultura de Kura-Araxes se extiende del Cáucaso Sur al este de Anatolia y el noroeste de Irán."
+        },
+        {
+          "desde": -2400,
+          "hasta": -1500,
+          "nombre": "Kurganes de Trialeti",
+          "resumen": "Grandes túmulos con vasos de oro y plata (Trialeti, Vanadzor) en el Cáucaso Sur."
+        },
+        {
+          "desde": -1500,
+          "hasta": -1200,
+          "nombre": "Bronce Tardío",
+          "resumen": "Fortalezas y cementerios de Lchashen-Metsamor en Armenia y comienzos de la cultura colquídea al oeste."
         }
       ],
       "demografia": [
@@ -477,6 +501,37 @@
           "anio": 2023,
           "poblacion": 14125703,
           "fuente": "ONU, World Population Prospects 2024, vía Our World in Data"
+        }
+      ],
+      "culturas": [
+        {
+          "desde": -3400,
+          "hasta": -3000,
+          "nombre": "Maikop (norte)",
+          "familia": "maikop",
+          "peso": "importante"
+        },
+        {
+          "desde": -3400,
+          "hasta": -2400,
+          "nombre": "Kura-Araxes",
+          "familia": "kura-araxes",
+          "peso": "mayoritaria",
+          "nota": "No se sabe qué lenguas hablaban; se propuso que fueran hurrito-urartianas o kartvelianas, sin pruebas."
+        },
+        {
+          "desde": -2400,
+          "hasta": -1500,
+          "nombre": "Trialeti-Vanadzor",
+          "familia": "trialeti",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1700,
+          "hasta": -700,
+          "nombre": "Colquídea (oeste)",
+          "familia": "colquida",
+          "peso": "importante"
         }
       ]
     },

@@ -68,12 +68,12 @@
       "eras": [
         {
           "desde": -5300,
-          "hasta": -3100,
+          "hasta": -3200,
           "nombre": "Período Predinástico",
           "resumen": "Culturas neolíticas y calcolíticas del valle (Badariense, Nagada) con creciente jerarquización social, que desembocan en reinos regionales y en la unificación."
         },
         {
-          "desde": -3100,
+          "desde": -3000,
           "hasta": -2686,
           "nombre": "Período Dinástico Temprano (dinastías I-II)",
           "resumen": "Primeros reyes de un Egipto unificado, con capital en Menfis y necrópolis reales en Abidos. Las fechas de este y los períodos siguientes son convencionales y pueden variar décadas según el autor."
@@ -191,6 +191,13 @@
           "hasta": 2011,
           "nombre": "Presidencia de Mubarak",
           "resumen": "Casi treinta años de gobierno bajo estado de emergencia casi permanente, con reformas económicas y fuerte oposición islamista; terminan con las protestas de 2011."
+        },
+        {
+          "desde": -3200,
+          "hasta": -3000,
+          "nombre": "Nagada III o dinastía 0",
+          "resumen": "Reyes del Alto Egipto anteriores a la unificación, como Escorpión y Ka, con las primeras inscripciones jeroglíficas en Abidos.",
+          "nota": "Fechas de Shaw (2000); el Período Dinástico Temprano empieza hacia 3000 a. C."
         }
       ],
       "demografia": [
@@ -531,6 +538,22 @@
           "nombre": "Cristianismo copto",
           "familia": "cristianismo-copto",
           "peso": "importante"
+        },
+        {
+          "desde": -1800,
+          "hasta": -1070,
+          "nombre": "Dioses levantinos (Baal, Astarté, Reshef y Anat)",
+          "familia": "politeismo-cananeo",
+          "peso": "minoritaria",
+          "nota": "Llegan con la población levantina de Avaris, donde Seth se asimila a Baal, y el Imperio Nuevo los integra al culto, sobre todo en el ejército."
+        },
+        {
+          "desde": -1352,
+          "hasta": -1336,
+          "nombre": "Culto exclusivo de Atón (Amarna)",
+          "familia": "politeismo-egipcio",
+          "peso": "minoritaria",
+          "nota": "Akenatón cierra el culto de Amón y los demás dioses para adorar solo al disco solar; tras su muerte se restaura la religión tradicional."
         }
       ],
       "culturas": [
@@ -596,15 +619,24 @@
           "nombre": "Turca y circasiana (élite mameluca)",
           "familia": "turca",
           "peso": "minoritaria"
+        },
+        {
+          "desde": -1800,
+          "hasta": -1550,
+          "nombre": "Levantina del delta oriental (los hicsos)",
+          "familia": "amorrea",
+          "peso": "minoritaria",
+          "nota": "Población de origen levantino asentada en Avaris desde fines de la dinastía XII; sus reyes, los hicsos (dinastía XV), gobernaron el norte hacia 1650-1550 a. C."
         }
       ],
       "idiomas": [
         {
-          "desde": -3100,
+          "desde": -3250,
           "hasta": 200,
           "nombre": "Egipcio (antiguo, medio, tardío y demótico)",
           "familia": "egipcio",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Los primeros signos legibles son las etiquetas de la tumba U-j de Abidos, hacia 3250 a. C."
         },
         {
           "desde": -332,
@@ -895,11 +927,18 @@
           "hasta": 1821,
           "nombre": "Sultanato de Sennar y Nubia otomana",
           "resumen": "Los funj de Sennar (1504) se extienden desde la tercera catarata hacia el sur y fomentan el islam y la arabización; los otomanos ocupan la Baja Nubia en la década de 1560. La conquista turco-egipcia (1820-1821) termina con ambos."
+        },
+        {
+          "desde": -3400,
+          "hasta": -2970,
+          "nombre": "Grupo A",
+          "resumen": "Jefaturas de la Baja Nubia que comercian con el Egipto predinástico; en Qustul hay tumbas de élite con objetos de prestigio.",
+          "nota": "El Grupo A empieza hacia 3800 a. C.; desaparece de la Baja Nubia hacia 2900, quizá por las campañas egipcias de la dinastía I."
         }
       ],
       "religiones": [
         {
-          "desde": -2970,
+          "desde": -3400,
           "hasta": -1070,
           "nombre": "Religión nubia tradicional (Grupo A, Kerma y Grupo C)",
           "familia": "religion-nubia-antigua",
@@ -981,7 +1020,7 @@
       ],
       "culturas": [
         {
-          "desde": -2970,
+          "desde": -3400,
           "hasta": -1500,
           "nombre": "Nubia antigua (Grupo A, Pre-Kerma, Kerma, Grupo C)",
           "familia": "nubia",
@@ -1043,11 +1082,19 @@
           "familia": "nubia",
           "peso": "mayoritaria",
           "nota": "Los funj, de origen étnico incierto y arabizados, gobernaban una población diversa de nubios, beja, beduinos y hamaj."
+        },
+        {
+          "desde": -1965,
+          "hasta": -1650,
+          "nombre": "Egipcia (fortalezas de la segunda catarata)",
+          "familia": "egipcia",
+          "peso": "importante",
+          "nota": "Guarniciones del Imperio Medio en Buhen, Mirgissa y Semna, que controlan el comercio con Kerma."
         }
       ],
       "idiomas": [
         {
-          "desde": -2970,
+          "desde": -3400,
           "hasta": -1070,
           "nombre": "Lenguas de Pre-Kerma, Kerma y Grupo C",
           "familia": "sin-clasificar",
@@ -1125,6 +1172,14 @@
           "familia": "arabe",
           "peso": "importante",
           "nota": "Se extiende con las tribus árabes y con el islam; su peso varía mucho según la zona."
+        },
+        {
+          "desde": -1965,
+          "hasta": -1650,
+          "nombre": "Egipcio (fortalezas del Imperio Medio)",
+          "familia": "egipcio",
+          "peso": "importante",
+          "nota": "Lengua de las guarniciones y de los despachos de Semna; no de la población nubia."
         }
       ]
     }

@@ -3709,6 +3709,282 @@
         "es": "Lengua criolla",
         "en": "Creole language"
       }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-hurrita",
+      "nombre": "Religión hurrita",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#9a6a6a",
+      "nota": "Teshub, Hebat, Kumarbi y Shaushka; con Mitani y la corte hitita imperial llegó del norte de Mesopotamia a Siria y Anatolia.",
+      "wikipedia": {
+        "en": "Hurrian religion"
+      }
+    },
+    {
+      "capa": "religiones",
+      "id": "religion-elamita",
+      "nombre": "Religión elamita",
+      "padre": "religiones-del-antiguo-oriente-proximo",
+      "color": "#8a5a7a",
+      "nota": "Inshushinak, Humban, Kiririsha y Napirisha; se conoce por inscripciones reales y templos como el zigurat de Chogha Zanbil.",
+      "wikipedia": {
+        "es": "Religión elamita"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "amorrea",
+      "nombre": "Amorrea",
+      "padre": "semitica",
+      "color": "#a88a48",
+      "wikipedia": {
+        "es": "Amorreos",
+        "en": "Amorites"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "hurrita",
+      "nombre": "Hurrita",
+      "padre": null,
+      "color": "#9a6a6a",
+      "wikipedia": {
+        "es": "Hurritas",
+        "en": "Hurrians"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "casita",
+      "nombre": "Casita",
+      "padre": null,
+      "color": "#a88a6a",
+      "wikipedia": {
+        "es": "Casitas",
+        "en": "Kassites"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "bronce-egeo",
+      "nombre": "Egea de la Edad del Bronce",
+      "padre": null,
+      "color": "#7a8ab0",
+      "wikipedia": {
+        "es": "Civilización egea",
+        "en": "Aegean civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "minoica",
+      "nombre": "Minoica",
+      "padre": "bronce-egeo",
+      "color": "#7a9ac0",
+      "wikipedia": {
+        "es": "Civilización minoica",
+        "en": "Minoan civilization"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "cicladica",
+      "nombre": "Cicládica",
+      "padre": "bronce-egeo",
+      "color": "#8a9ab8",
+      "wikipedia": {
+        "es": "Civilización cicládica",
+        "en": "Cycladic culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "heladica",
+      "nombre": "Heládica",
+      "padre": "bronce-egeo",
+      "color": "#6a7aa8",
+      "nota": "Nombre arqueológico de la Grecia continental de la Edad del Bronce antes de la civilización micénica.",
+      "wikipedia": {
+        "es": "Período heládico",
+        "en": "Helladic chronology"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "chipriota-antigua",
+      "nombre": "Chipriota de la Edad del Bronce",
+      "padre": null,
+      "color": "#7a9a8a",
+      "wikipedia": {
+        "en": "Prehistoric Cyprus"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "dilmun",
+      "nombre": "Culturas del golfo Pérsico (Dilmún y Magán)",
+      "padre": null,
+      "color": "#b0a070",
+      "wikipedia": {
+        "es": "Dilmún",
+        "en": "Dilmun"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "kura-araxes",
+      "nombre": "Kura-Araxes",
+      "padre": null,
+      "color": "#8a6a5a",
+      "wikipedia": {
+        "es": "Cultura kurá-araxes",
+        "en": "Kura–Araxes culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "maikop",
+      "nombre": "Maikop",
+      "padre": null,
+      "color": "#9a7a5a",
+      "wikipedia": {
+        "es": "Cultura maikop",
+        "en": "Maykop culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "trialeti",
+      "nombre": "Trialeti-Vanadzor",
+      "padre": null,
+      "color": "#7a6a5a",
+      "wikipedia": {
+        "en": "Trialeti-Vanadzor culture"
+      }
+    },
+    {
+      "capa": "culturas",
+      "id": "colquida",
+      "nombre": "Colquídea",
+      "padre": null,
+      "color": "#6a8a6a",
+      "wikipedia": {
+        "en": "Colchian culture"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "eblaita",
+      "nombre": "Eblaíta",
+      "padre": "semiticas",
+      "color": "#9a8a4a",
+      "wikipedia": {
+        "es": "Idioma eblaíta",
+        "en": "Eblaite language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "amorreo",
+      "nombre": "Amorreo",
+      "padre": "semiticas",
+      "color": "#a08a48",
+      "wikipedia": {
+        "en": "Amorite language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "ugaritico",
+      "nombre": "Ugarítico",
+      "padre": "semiticas",
+      "color": "#8a8a50",
+      "wikipedia": {
+        "es": "Idioma ugarítico",
+        "en": "Ugaritic"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hurrita",
+      "nombre": "Hurrita",
+      "padre": "hurrourarteas",
+      "color": "#8d7a5e",
+      "wikipedia": {
+        "es": "Idioma hurrita",
+        "en": "Hurrian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hatico",
+      "nombre": "Hático",
+      "padre": null,
+      "color": "#7a7a8a",
+      "nota": "Lengua no indoeuropea del centro de Anatolia, sin parientes conocidos.",
+      "wikipedia": {
+        "es": "Idioma hatti",
+        "en": "Hattic language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "hitita",
+      "nombre": "Hitita",
+      "padre": "anatolias",
+      "color": "#5a80a0",
+      "wikipedia": {
+        "es": "Idioma hitita",
+        "en": "Hittite language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "luvita",
+      "nombre": "Luvita",
+      "padre": "anatolias",
+      "color": "#7aa0b0",
+      "wikipedia": {
+        "es": "Idioma luvita",
+        "en": "Luwian language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "casita",
+      "nombre": "Casita",
+      "padre": null,
+      "color": "#9a8a7a",
+      "nota": "Casi desconocida: quedan unas pocas palabras y nombres propios.",
+      "wikipedia": {
+        "es": "Idioma casita",
+        "en": "Kassite language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "minoico",
+      "nombre": "Minoico",
+      "padre": null,
+      "color": "#8a8a9a",
+      "nota": "Sin descifrar (jeroglíficos cretenses y lineal A): no se sabe a qué familia pertenecía.",
+      "wikipedia": {
+        "es": "Idioma minoico",
+        "en": "Minoan language"
+      }
+    },
+    {
+      "capa": "idiomas",
+      "id": "chipro-minoico",
+      "nombre": "Chipro-minoico",
+      "padre": null,
+      "color": "#7a9a9a",
+      "nota": "Escritura de Chipre en el Bronce Tardío, sin descifrar: no se sabe qué lengua o lenguas anotaba.",
+      "wikipedia": {
+        "es": "Silabario chipro-minoico",
+        "en": "Cypro-Minoan script"
+      }
     }
   ]
 }

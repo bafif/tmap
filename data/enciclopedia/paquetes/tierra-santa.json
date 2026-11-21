@@ -106,9 +106,9 @@
         },
         {
           "desde": -3300,
-          "hasta": -1200,
-          "nombre": "Canaán en la Edad del Bronce",
-          "resumen": "Ciudades-estado cananeas como Hazor, Meguido y Jerusalén, durante siglos bajo dominio egipcio; las cartas de Amarna muestran a sus reyezuelos pidiendo ayuda al faraón."
+          "hasta": -2350,
+          "nombre": "Bronce Antiguo",
+          "resumen": "Primeras ciudades amuralladas (Arad, Megido, Jericó, Bet Yerah) con lazos comerciales con Egipto."
         },
         {
           "desde": -1200,
@@ -211,6 +211,24 @@
           "hasta": null,
           "nombre": "Israel y los territorios palestinos",
           "resumen": "Israel ocupa Cisjordania, Jerusalén Este, Gaza y el Golán en la guerra de los Seis Días. Desde los acuerdos de Oslo (1993) la Autoridad Palestina administra parte de Cisjordania; Hamás gobierna Gaza desde 2007."
+        },
+        {
+          "desde": -2350,
+          "hasta": -2000,
+          "nombre": "Bronce Intermedio",
+          "resumen": "Abandono de las ciudades y vida aldeana y pastoril, con tumbas de pozo y asentamientos chicos."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1550,
+          "nombre": "Bronce Medio",
+          "resumen": "Ciudades cananeas fortificadas (Hazor, Siquem, Ascalón, Gezer) y lazos con los hicsos del delta del Nilo."
+        },
+        {
+          "desde": -1550,
+          "hasta": -1200,
+          "nombre": "Bronce Tardío",
+          "resumen": "Canaán bajo dominio egipcio, con reyes locales que escriben al faraón (cartas de Amarna); termina con el colapso de hacia 1200 a. C."
         }
       ],
       "demografia": [
@@ -420,6 +438,13 @@
           "nombre": "Islam sunita",
           "familia": "islam-sunni",
           "peso": "importante"
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Culto egipcio (Bet Shean, Jaffa)",
+          "familia": "politeismo-egipcio",
+          "peso": "minoritaria"
         }
       ],
       "culturas": [
@@ -502,6 +527,13 @@
           "familia": "judia",
           "peso": "mayoritaria",
           "nota": "Sobre todo askenazíes, sefardíes y judíos de los países árabes e Irán (mizrajíes), y desde 1990 casi un millón de inmigrantes de la ex Unión Soviética."
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Egipcia (administración y guarniciones)",
+          "familia": "egipcia",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
@@ -585,6 +617,20 @@
           "nombre": "Hebreo moderno",
           "familia": "hebreo",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -1400,
+          "hasta": -1300,
+          "nombre": "Acadio (cartas de Amarna de los reyes cananeos)",
+          "familia": "acadio",
+          "peso": "minoritaria"
+        },
+        {
+          "desde": -1550,
+          "hasta": -1150,
+          "nombre": "Egipcio (administración)",
+          "familia": "egipcio",
+          "peso": "minoritaria"
         }
       ]
     },
@@ -1154,10 +1200,10 @@
       "resumen": "El interior del Levante, de Damasco a Alepo y Antioquía. Corazón del califato omeya, frente de las guerras entre bizantinos y árabes, tierra de los principados cruzados del norte y de los grandes señores del yihad contra ellos, Zengi, Nur al-Din y Saladino.",
       "eras": [
         {
-          "desde": -2500,
-          "hasta": -1200,
-          "nombre": "Ebla, Mari y Ugarit",
-          "resumen": "Reinos de la Edad del Bronce con grandes archivos de tablillas."
+          "desde": -3500,
+          "hasta": -3100,
+          "nombre": "Colonias de Uruk",
+          "resumen": "Ciudades fundadas o tomadas por gente del sur de Mesopotamia sobre el Éufrates (Habuba Kabira, Jebel Aruda) y en Tell Brak."
         },
         {
           "desde": -1200,
@@ -1224,6 +1270,42 @@
           "hasta": null,
           "nombre": "República Árabe Siria",
           "resumen": "Golpes de Estado, el partido Baaz y la dinastía Asad desde 1970; guerra civil desde 2011 y caída de Bashar al-Asad en 2024."
+        },
+        {
+          "desde": -3100,
+          "hasta": -2600,
+          "nombre": "Bronce Antiguo I-II",
+          "resumen": "Tras el fin de las colonias, ciudades locales en la Yezira (Tell Brak, Tell Chuera) y el valle del Éufrates."
+        },
+        {
+          "desde": -2600,
+          "hasta": -2300,
+          "nombre": "Ebla y Mari",
+          "resumen": "Los reinos de Ebla y Mari se disputan el norte de Siria; el archivo de Ebla documenta su administración, su diplomacia y sus guerras."
+        },
+        {
+          "desde": -2300,
+          "hasta": -2000,
+          "nombre": "Acad, Ur III y Urkesh",
+          "resumen": "Sargón y Naram-Sin conquistan Ebla y Mari; en el nordeste florece la Urkesh hurrita, y Mari queda bajo sus shakkanakku."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1600,
+          "nombre": "Reinos amorreos",
+          "resumen": "Yamhad (Alepo), Qatna y Mari dominan Siria, hasta la conquista de Mari por Hammurabi y los ataques hititas a Yamhad."
+        },
+        {
+          "desde": -1600,
+          "hasta": -1350,
+          "nombre": "Mitani",
+          "resumen": "El reino hurrita de Mitani domina el norte de Siria y disputa la región con Egipto."
+        },
+        {
+          "desde": -1350,
+          "hasta": -1200,
+          "nombre": "Dominio hitita y Ugarit",
+          "resumen": "Suppiluliuma I somete Siria; Carquemish es sede de un virrey hitita, y Ugarit, puerto rico y vasallo, guarda archivos en varias lenguas hasta su destrucción hacia 1185 a. C."
         }
       ],
       "religiones": [
@@ -1232,7 +1314,8 @@
           "hasta": 300,
           "nombre": "Religiones semíticas y cultos grecorromanos",
           "familia": "politeismo-cananeo",
-          "peso": "mayoritaria"
+          "peso": "mayoritaria",
+          "nota": "Ebla adora a Dagan, Kura e Ishara (archivo de hacia 2400-2300 a. C.); Ugarit, a El, Baal y Anat. Los cultos grecorromanos llegan en época helenística."
         },
         {
           "desde": 300,
@@ -1284,6 +1367,20 @@
           "familia": "ismailismo",
           "peso": "minoritaria",
           "nota": "Tuvieron castillos en la montaña de Siria, como Masyaf."
+        },
+        {
+          "desde": -3500,
+          "hasta": -3100,
+          "nombre": "Religión mesopotámica (colonias de Uruk)",
+          "familia": "politeismo-mesopotamico",
+          "peso": "importante"
+        },
+        {
+          "desde": -2300,
+          "hasta": -1300,
+          "nombre": "Religión hurrita (Urkesh, Mitani, Alalakh)",
+          "familia": "religion-hurrita",
+          "peso": "importante"
         }
       ],
       "culturas": [
@@ -1314,6 +1411,41 @@
           "nombre": "Franca (cruzados)",
           "familia": "francesa",
           "peso": "minoritaria"
+        },
+        {
+          "desde": -3500,
+          "hasta": -3100,
+          "nombre": "Mesopotámica (colonias de Uruk)",
+          "familia": "mesopotamica",
+          "peso": "importante"
+        },
+        {
+          "desde": -3100,
+          "hasta": -1201,
+          "nombre": "Semítica del norte de Siria (Ebla, Mari, Ugarit)",
+          "familia": "semitica",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": -1600,
+          "nombre": "Amorrea (Yamhad, Qatna, Mari)",
+          "familia": "amorrea",
+          "peso": "importante"
+        },
+        {
+          "desde": -2300,
+          "hasta": -1200,
+          "nombre": "Hurrita (Urkesh y Mitani)",
+          "familia": "hurrita",
+          "peso": "importante"
+        },
+        {
+          "desde": -1350,
+          "hasta": -1185,
+          "nombre": "Hitita (Carquemish y la administración imperial)",
+          "familia": "anatolia-antigua",
+          "peso": "minoritaria"
         }
       ],
       "idiomas": [
@@ -1337,6 +1469,74 @@
           "nombre": "Árabe",
           "familia": "arabe",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -3100,
+          "hasta": -2401,
+          "nombre": "Lenguas semíticas sin escritura local",
+          "familia": "semiticas",
+          "peso": "mayoritaria",
+          "nota": "No hay textos locales antes del archivo de Ebla; la familia se infiere de los nombres posteriores."
+        },
+        {
+          "desde": -2400,
+          "hasta": -2300,
+          "nombre": "Eblaíta",
+          "familia": "eblaita",
+          "peso": "mayoritaria",
+          "nota": "Lengua del archivo de Ebla, semítica oriental, emparentada con el acadio."
+        },
+        {
+          "desde": -2300,
+          "hasta": -2001,
+          "nombre": "Lenguas semíticas (acadio en la administración y amorreo)",
+          "familia": "semiticas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2000,
+          "hasta": -1600,
+          "nombre": "Amorreo",
+          "familia": "amorreo",
+          "peso": "mayoritaria",
+          "nota": "Lengua hablada de los reinos amorreos; las cartas de Mari se escriben en acadio con muchas palabras amorreas."
+        },
+        {
+          "desde": -1600,
+          "hasta": -1201,
+          "nombre": "Lenguas semíticas del noroeste",
+          "familia": "semiticas",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -2400,
+          "hasta": -1200,
+          "nombre": "Acadio como lengua escrita",
+          "familia": "acadio",
+          "peso": "importante"
+        },
+        {
+          "desde": -2300,
+          "hasta": -1200,
+          "nombre": "Hurrita",
+          "familia": "hurrita",
+          "peso": "importante",
+          "nota": "Desde Urkesh (hacia 2200 a. C.); lengua de Mitani y de parte de la población de Alalakh y Ugarit."
+        },
+        {
+          "desde": -1400,
+          "hasta": -1185,
+          "nombre": "Ugarítico",
+          "familia": "ugaritico",
+          "peso": "importante",
+          "nota": "Escrito en el alfabeto cuneiforme de Ugarit, uno de los primeros alfabetos."
+        },
+        {
+          "desde": -1350,
+          "hasta": -1185,
+          "nombre": "Hitita y luvita (Carquemish)",
+          "familia": "luvita",
+          "peso": "minoritaria"
         }
       ],
       "demografia": [
@@ -2241,6 +2441,30 @@
           "hasta": null,
           "nombre": "Arabia Saudita y los Estados del Golfo",
           "resumen": "El petróleo transforma la península; Yemen, Omán y los emiratos son Estados aparte."
+        },
+        {
+          "desde": -3200,
+          "hasta": -2600,
+          "nombre": "Período Hafit",
+          "resumen": "Tumbas en forma de colmena en las montañas de Omán y primeros contactos con Mesopotamia."
+        },
+        {
+          "desde": -2600,
+          "hasta": -2000,
+          "nombre": "Umm an-Nar y Magán",
+          "resumen": "Torres, tumbas colectivas y minas de cobre en Omán y la costa de los Emiratos: es la Magán de los textos acadios."
+        },
+        {
+          "desde": -2000,
+          "hasta": -1600,
+          "nombre": "Dilmún y Wadi Suq",
+          "resumen": "Dilmún, en Bahréin, vive del comercio entre Mesopotamia, Magán y el Indo, con el templo de Barbar y miles de túmulos; en Omán sigue la cultura de Wadi Suq."
+        },
+        {
+          "desde": -1600,
+          "hasta": -1200,
+          "nombre": "Dilmún casita",
+          "resumen": "Dilmún queda bajo un gobernador de la dinastía casita de Babilonia."
         }
       ],
       "religiones": [
@@ -2287,6 +2511,14 @@
           "nombre": "Ibadismo (Omán)",
           "familia": "ibadismo",
           "peso": "minoritaria"
+        },
+        {
+          "desde": -2200,
+          "hasta": -1200,
+          "nombre": "Cultos de Dilmún (Inzak y Meskilak; templo de Barbar)",
+          "familia": "religiones-del-antiguo-oriente-proximo",
+          "peso": "importante",
+          "nota": "Solo en la costa del golfo; del resto de la península en la Edad del Bronce no hay registro religioso."
         }
       ],
       "culturas": [
@@ -2303,6 +2535,14 @@
           "nombre": "Árabe",
           "familia": "arabe",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -3200,
+          "hasta": -1200,
+          "nombre": "Culturas del golfo (Hafit, Umm an-Nar, Dilmún, Wadi Suq)",
+          "familia": "dilmun",
+          "peso": "importante",
+          "nota": "Solo en la costa del golfo Pérsico y en Omán; del interior de la península en la Edad del Bronce casi no hay registro."
         }
       ],
       "idiomas": [
@@ -2319,6 +2559,14 @@
           "nombre": "Árabe",
           "familia": "arabe",
           "peso": "mayoritaria"
+        },
+        {
+          "desde": -1500,
+          "hasta": -1200,
+          "nombre": "Acadio (inscripciones de Dilmún)",
+          "familia": "acadio",
+          "peso": "minoritaria",
+          "nota": "Lo poco escrito en Dilmún está en acadio; no se sabe qué lengua hablaba su población."
         }
       ],
       "demografia": [
@@ -3231,6 +3479,24 @@
           "hasta": null,
           "nombre": "República de Chipre",
           "resumen": "Independiente en 1960; la invasión turca de 1974 divide la isla."
+        },
+        {
+          "desde": -3400,
+          "hasta": -2400,
+          "nombre": "Calcolítico",
+          "resumen": "Aldeas como Erimi y Lemba, con figurillas cruciformes de picrolita y los primeros objetos de cobre."
+        },
+        {
+          "desde": -2400,
+          "hasta": -1650,
+          "nombre": "Bronce Antiguo y Medio",
+          "resumen": "Llegan el arado y nuevos modos de vida desde Anatolia; los modelos de santuario de Vounous y la explotación del cobre crecen."
+        },
+        {
+          "desde": -1650,
+          "hasta": -1100,
+          "nombre": "Bronce Tardío: Alashiya",
+          "resumen": "Ciudades portuarias como Enkomi y Kition exportan cobre en lingotes; el rey de Alashiya escribe al faraón en las cartas de Amarna."
         }
       ],
       "religiones": [
@@ -3261,6 +3527,14 @@
           "nombre": "Islam sunita",
           "familia": "islam-sunni",
           "peso": "importante"
+        },
+        {
+          "desde": -2400,
+          "hasta": -1101,
+          "nombre": "Cultos chipriotas de la Edad del Bronce",
+          "familia": "religiones-del-antiguo-oriente-proximo",
+          "peso": "mayoritaria",
+          "nota": "Modelos de santuario de Vounous y, en el Bronce Tardío, los templos de Kition y Enkomi (el dios del lingote); no se conocen los nombres de sus dioses."
         }
       ],
       "culturas": [
@@ -3284,6 +3558,21 @@
           "nombre": "Turca",
           "familia": "turca",
           "peso": "importante"
+        },
+        {
+          "desde": -3400,
+          "hasta": -1101,
+          "nombre": "Chipriota de la Edad del Bronce",
+          "familia": "chipriota-antigua",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1200,
+          "hasta": -1101,
+          "nombre": "Egea (grupos llegados tras el colapso)",
+          "familia": "griega",
+          "peso": "importante",
+          "nota": "Grupos del Egeo se instalan en la isla desde hacia 1200 a. C.; de ahí viene el griego chipriota."
         }
       ],
       "idiomas": [
@@ -3307,6 +3596,21 @@
           "nombre": "Turco",
           "familia": "turco",
           "peso": "importante"
+        },
+        {
+          "desde": -1550,
+          "hasta": -1101,
+          "nombre": "Chipro-minoico (sin descifrar)",
+          "familia": "chipro-minoico",
+          "peso": "mayoritaria"
+        },
+        {
+          "desde": -1400,
+          "hasta": -1200,
+          "nombre": "Acadio (cartas de Alashiya)",
+          "familia": "acadio",
+          "peso": "minoritaria",
+          "nota": "El rey de Alashiya escribe en acadio al faraón (Amarna) y a Ugarit."
         }
       ],
       "demografia": [
