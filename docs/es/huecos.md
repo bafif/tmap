@@ -30,6 +30,33 @@ descripción del paquete, y después se revisan a mano) y no se recalculan solos
 búsqueda no terminaría nunca. Para ir más hondo en un tema se cambian a mano, y eso es una decisión, no un efecto
 secundario.
 
+## Las capas, siempre completas
+
+Las cuatro capas de una región se llenan sí o sí: la **era** (la capa política: qué estado, dinastía o período rige),
+la **religión**, la **cultura** y el **idioma**. Cada año que algún tema investigó en una región tiene una entrada
+vigente en las cuatro, propia o de una región que la contiene, desde el primer año investigado hasta el último. En
+cada modo el mapa pinta algo en todos lados: un año sin capa es un agujero en el mapa, no un dato que le falta a una
+ficha.
+
+Por eso, a diferencia del resto, **un hueco de `capas` no se cierra con `decidir`**: para una capa no hay `descartado`
+ni `sin-datos`, y no hay capas «fuera del tema». Se cierra con una entrada. Si `decisiones.json` tiene decisiones
+sobre claves `capa:`, se sacan y esos huecos vuelven a la ronda.
+
+Cuando no hay registro de qué había, la entrada dice eso mismo, con una `nota` sobre de qué evidencia sale y qué no se
+sabe, sin inventar:
+
+- **Sin textos:** la familia que nombra lo que se sabe sin afirmar más (como «Lenguas preindoeuropeas desconocidas»),
+  la cultura arqueológica («Campaniforme», «Agricultores neolíticos y calcolíticos») y, en religión, las prácticas
+  rituales prehistóricas sin registro escrito. Lo que dicen la etnohistoria o la arqueología alcanza para nombrar una
+  cultura aunque no haya escritura (los taínos del Caribe antes de 1492).
+- **Sin población humana** (Groenlandia antes de las culturas Saqqaq e Independencia I, Islandia antes del
+  asentamiento nórdico): una entrada que lo diga, en las cuatro capas.
+- **Una región que taparía a otra** (Armenia después de 1920 pintaría de armenio el oriente de Turquía): se arregla la
+  geografía, con una subregión o con el polígono, y la capa se llena ahí.
+
+Si hace falta una familia que no existe, se suma en `familias-nuevas.json` del lote. La demografía no es una de estas
+capas: lleva solo estimaciones publicadas y, sin fuente, no se pone.
+
 ## Los detectores
 
 `python3 tools/enciclopedia/huecos.py` (sin argumentos muestra la ayuda). Sin red, los detectores tardan menos de un
@@ -57,7 +84,8 @@ tools/enciclopedia/huecos/cache` para consultar de nuevo):
 `informe` muestra por defecto las prioridades alta y media; `--prioridad baja` muestra todo, que es lo que hay que
 rellenar. Cada hueco tiene una
 **clave** estable (`serie:Q12969145:Q254041`, `capa:levante:eras:1292:1515`…). Uno rellenado desaparece solo, porque
-los detectores comparan por QID, por id y por años. Uno que no se va a rellenar se anota en
+los detectores comparan por QID, por id y por años. Uno que no se va a rellenar (nunca uno de capas: ver
+[arriba](#las-capas-siempre-completas)) se anota en
 [`decisiones.json`](../../tools/enciclopedia/huecos/decisiones.json), con la fecha y el motivo:
 
     python3 tools/enciclopedia/huecos.py decidir <clave> descartado "no es del tema: …"
@@ -65,8 +93,7 @@ los detectores comparan por QID, por id y por años. Uno que no se va a rellenar
     python3 tools/enciclopedia/huecos.py decidir --archivo decisiones.json   # [{"clave", "decision", "motivo"}]
 
 Una decisión vale para su clave y para las que empiezan con ella: `serie:Q123` descarta la serie entera y
-`capa:nubia` todas las capas de Nubia; `candidato:<paquete>:personas`, todos los candidatos de personas de un paquete,
-si ese eje no es del tema.
+`candidato:<paquete>:personas`, todos los candidatos de personas de un paquete, si ese eje no es del tema.
 
 ## Una ronda
 
@@ -89,7 +116,8 @@ lados, para que cada tema quede cerrado.
    [formato compacto](../../tools/enciclopedia/compacto/FORMATO.md#rellenar-huecos-de-un-paquete-que-ya-existe)
    dentro de un tema `huecos-<paquete>`, en una carpeta de trabajo fuera del repo; arreglado en una ficha que ya
    existe, con una entrada en `parches.json`; o no rellenado, con una entrada en `decisiones.json` (`descartado` si no
-   es del tema, `sin-datos` si no se puede verificar, y el motivo en una oración). Se construye con `construir.py
+   es del tema, `sin-datos` si no se puede verificar, y el motivo en una oración). Los de capas tienen solo las dos
+   primeras: siempre terminan con una entrada. Se construye con `construir.py
    <carpeta> --tema huecos-<paquete>` hasta que el informe quede limpio o con avisos explicados.
 5. **Revisar.** Alguien que no escribió el lote lo revisa contra la lista de huecos y contra las fuentes: errores de
    hecho (fechas, lugares, cargos, autorías, cifras), sesgo de cualquier lado, huecos mal cerrados (descartes que sí
@@ -103,7 +131,8 @@ lados, para que cada tema quede cerrado.
    ronda siguiente.
 
 Se sigue ronda tras ronda hasta que los paquetes elegidos no tienen ningún hueco, de ninguna prioridad: la prioridad
-ordena el trabajo (primero lo alto), no decide qué se deja. Solo quedan los decididos, cada uno con su motivo. Si una
+ordena el trabajo (primero lo alto), no decide qué se deja. Solo quedan los decididos, cada uno con su motivo, y
+ninguno de capas: el detector `capas` termina vacío. Si una
 ronda no cierra ninguno de los huecos que atacó, algo anda mal (un alcance demasiado ancho, un detector que trae ruido)
 y se mira antes de seguir: si no, la búsqueda daría vueltas sin fin.
 
@@ -132,7 +161,10 @@ Al terminar:
   Wikipedia se lee con mirada crítica, y lo que ya está en tmap tampoco es verdad por estar: si al rellenar aparece un
   error en una ficha vieja, se corrige con un parche.
 - **Nada inventado.** Lo inseguro va con `aprox`, `confianza: baja` o una `nota`, o no va. Un hueco que no se puede
-  rellenar con datos verificables queda `sin-datos`, con el motivo.
+  rellenar con datos verificables queda `sin-datos`, con el motivo. En las capas no: lo que no se sabe se dice en la
+  entrada y su nota.
+- **Todas las capas, todos los años.** Al sumar o mover una entrada de capa, o al cambiar los años de un tema, se mira
+  que ninguna de las cuatro capas quede cortada en ninguna región que algún tema investigue.
 - **El orden de las capas importa.** Sin entrada mayoritaria, la app pinta la primera vigente del arreglo; una región
   chica con capas tapa a la grande que la contiene. Antes de sumar una entrada o una capa entera, mirar qué va a pintar
   el mapa ahí.

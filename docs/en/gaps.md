@@ -30,6 +30,33 @@ Scope and depth are fixed once (`huecos.py alcances --fijar` infers them from th
 and then they are checked by hand) and are never recomputed on their own: if every round lowered the bar, the search
 would never end. To go deeper into a topic they are changed by hand, and that is a decision, not a side effect.
 
+## Layers, always complete
+
+The four layers of a region are always filled: the **era** (the political layer: which state, dynasty or period
+rules), **religion**, **culture** and **language**. Every year that some topic researched in a region has an entry in
+force in all four, its own or one from a region containing it, from the first researched year to the last. In every
+mode the map paints something everywhere: a year without a layer is a hole in the map, not a fact missing from an
+entry.
+
+That is why, unlike everything else, **a `capas` gap is never closed with `decidir`**: a layer has no `descartado` and
+no `sin-datos`, and no layer is "off topic". It is closed with an entry. If `decisiones.json` has decisions on
+`capa:` keys, they are taken out and those gaps go back into the round.
+
+When there is no record of what was there, the entry says just that, with a `nota` on what evidence it rests on and
+what is not known, without making anything up:
+
+- **No texts:** the family that names what is known without claiming more (like "Unknown pre-Indo-European
+  languages"), the archaeological culture ("Bell Beaker", "Neolithic and Chalcolithic farmers") and, in religion,
+  prehistoric ritual practices with no written record. What ethnohistory or archaeology says is enough to name a
+  culture even without writing (the Taíno of the Caribbean before 1492).
+- **No human population** (Greenland before the Saqqaq and Independence I cultures, Iceland before the Norse
+  settlement): an entry that says so, in all four layers.
+- **A region that would cover another** (Armenia after 1920 would paint eastern Turkey Armenian): the geography is
+  fixed, with a subregion or the polygon, and the layer is filled there.
+
+If a family that does not exist is needed, it is added in the batch's `familias-nuevas.json`. Demography is not one of
+these layers: it carries only published estimates and, without a source, is left out.
+
 ## The detectors
 
 `python3 tools/enciclopedia/huecos.py` (with no arguments it prints its help). Without the network, the detectors take
@@ -57,7 +84,8 @@ query again):
 `informe` shows high and medium priorities by default; `--prioridad baja` shows everything, which is what has to be
 filled. Every gap has a stable
 **key** (`serie:Q12969145:Q254041`, `capa:levante:eras:1292:1515`…). A filled gap disappears by itself, because the
-detectors compare by QID, by id and by years. One that will not be filled is recorded in
+detectors compare by QID, by id and by years. One that will not be filled (never a layer gap: see
+[above](#layers-always-complete)) is recorded in
 [`decisiones.json`](../../tools/enciclopedia/huecos/decisiones.json), with the date and the reason:
 
     python3 tools/enciclopedia/huecos.py decidir <key> descartado "not part of the topic: …"
@@ -65,8 +93,7 @@ detectors compare by QID, by id and by years. One that will not be filled is rec
     python3 tools/enciclopedia/huecos.py decidir --archivo decisiones.json   # [{"clave", "decision", "motivo"}]
 
 A decision applies to its key and to every key that starts with it: `serie:Q123` dismisses the whole series and
-`capa:nubia` every layer of Nubia; `candidato:<package>:personas`, every person candidate of a package, if that axis
-is not part of the topic.
+`candidato:<package>:personas`, every person candidate of a package, if that axis is not part of the topic.
 
 ## A round
 
@@ -89,7 +116,8 @@ everywhere, so that each topic gets closed.
    [compact format](../../tools/enciclopedia/compacto/FORMATO.en.md#filling-gaps-in-an-existing-package) inside a
    `huecos-<package>` topic, in a working folder outside the repo; fixed in an entry that already exists, with an item
    in `parches.json`; or not filled, with an item in `decisiones.json` (`descartado` if it is not part of the topic,
-   `sin-datos` if it cannot be verified, and the reason in one sentence). Build with `construir.py <folder> --tema
+   `sin-datos` if it cannot be verified, and the reason in one sentence). Layer gaps only have the first two: they
+   always end with an entry. Build with `construir.py <folder> --tema
    huecos-<package>` until the report is clean or its warnings are explained.
 5. **Review.** Someone who did not write the batch checks it against the list of gaps and against the sources: factual
    errors (dates, places, offices, authorship, figures), bias from any side, gaps closed badly (dismissals that did
@@ -103,7 +131,8 @@ everywhere, so that each topic gets closed.
    next link of a chain that was just completed, another battle of the war that was added) is the next round.
 
 Rounds go on until the chosen packages have no gaps left, of any priority: priority orders the work (high first), it
-does not decide what is left out. Only decided gaps remain, each with its reason. If a round closes none of the gaps it
+does not decide what is left out. Only decided gaps remain, each with its reason, and none of
+them a layer gap: the `capas` detector ends empty. If a round closes none of the gaps it
 took on, something is wrong (a scope that is too wide, a noisy detector) and it is looked into before going on:
 otherwise the search would go round in circles.
 
@@ -132,7 +161,10 @@ When finished:
   in tmap is not true just because it is there: if a mistake turns up in an old entry while filling, it is fixed with
   a patch.
 - **Nothing made up.** What is uncertain goes with `aprox`, `confianza: baja` or a `nota`, or does not go. A gap that
-  cannot be filled with verifiable data stays `sin-datos`, with the reason.
+  cannot be filled with verifiable data stays `sin-datos`, with the reason. Not in the layers: what is not known is
+  said in the entry and its note.
+- **Every layer, every year.** When adding or moving a layer entry, or changing a topic's years, check that none of
+  the four layers is left cut in any region some topic researches.
 - **Layer order matters.** With no majority entry, the app paints the first entry in force; a small region with layers
   covers the larger one that contains it. Before adding an entry or a whole layer, check what the map will paint there.
 - **The same mould.** A gap is filled like its neighbours: if the package has an event for each presidency, the
