@@ -273,6 +273,22 @@ def main():
         anio(l.get("fundacion"), d)
         anio(l.get("abandono"), d)
         punto(l, d)
+        u = l.get("ubicacion")
+        if u is not None:
+            if not isinstance(u, dict) or u.get("precision") != "estimada":
+                errores.append(f"{d}/ubicacion: va {{\"precision\": \"estimada\", \"radio_km\": …, \"nota\": …}}")
+            else:
+                if not isinstance(u.get("radio_km"), (int, float)) or not 0 < u["radio_km"] <= 500:
+                    errores.append(f"{d}/ubicacion: radio_km tiene que ser un número entre 0 y 500")
+                if not u.get("nota"):
+                    errores.append(f"{d}/ubicacion: una ubicación estimada dice en «nota» dónde se la busca y por qué")
+                if l.get("lon") is None:
+                    errores.append(f"{d}/ubicacion: la estimación necesita el punto (lon, lat) del lugar")
+                for j, c in enumerate(u.get("candidatos", [])):
+                    if not c.get("nombre") or c.get("lon") is None or c.get("lat") is None:
+                        errores.append(f"{d}/ubicacion/candidatos/{j}: va con nombre, lon y lat")
+                    else:
+                        punto(c, f"{d}/ubicacion/candidatos/{j}")
         if l.get("tipo") not in TIPOS_LUGAR:
             avisos.append(f"{d}: tipo no previsto {l.get('tipo')!r}")
         if l.get("tipo") in TIPOS_LUGAR_CON_FECHA and l.get("fundacion") is None:

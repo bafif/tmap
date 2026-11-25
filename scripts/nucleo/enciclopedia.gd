@@ -251,8 +251,27 @@ func _preparar_puntos() -> void:
 	for l in lugares.values():
 		if l.has("lon"):
 			l["_px"] = Proyeccion.a_px(float(l["lon"]), float(l["lat"]))
+			# Ubicación estimada: el radio de incertidumbre en píxeles del mapa (medido hacia el norte, que en la
+			# proyección de Miller es lo que más se estira) y los sitios propuestos.
+			l.erase("_radio_px")
+			l.erase("_candidatos_px")
+			if estimada(l):
+				var u: Dictionary = l["ubicacion"]
+				var km := float(u.get("radio_km", 0))
+				var norte := Proyeccion.a_px(float(l["lon"]), float(l["lat"]) + km / 111.32)
+				l["_radio_px"] = (l["_px"] as Vector2).distance_to(norte)
+				var cands: Array = []
+				for c in u.get("candidatos", []):
+					if c is Dictionary and c.get("lon") != null and c.get("lat") != null:
+						cands.append(Proyeccion.a_px(float(c["lon"]), float(c["lat"])))
+				l["_candidatos_px"] = cands
 		l["_desde"] = int(l["fundacion"]) if l.get("fundacion") != null else Estado.ANIO_MIN
 		l["_hasta"] = int(l["abandono"]) if l.get("abandono") != null else Estado.ANIO_MAX
+
+
+## Si el sitio de un lugar no está identificado y sus coordenadas son una estimación (ESQUEMA.md, `ubicacion`).
+func estimada(l: Dictionary) -> bool:
+	return _dic(l, "ubicacion").get("precision") == "estimada"
 
 
 ## Cómo leer los años de actividad de una persona: "" si son los de su actividad; "entre" si vivió en algún punto

@@ -48,7 +48,7 @@ CONSTANTES: dict[str, dict[str, list[str] | list[int] | None]] = {
     "scripts/interfaz/bienvenida.gd": {"TEXTO": None, "ATAJOS": [0, 1]},
     "scripts/interfaz/panel_info.gd": {"PESTANAS": None, "NOMBRES_TIPO": None, "NOMBRES_GENERO": None,
                                        "NOMBRES_TIPO_HECHO": None, "NOMBRES_TIPO_LUGAR": None, "NOMBRES_CONFIANZA": None,
-                                       "NOMBRES_TRAMO": None},
+                                       "NOMBRES_TRAMO": None, "NOMBRES_PRECISION": None},
     "scripts/interfaz/tema.gd": {"TEMAS": ["nombre"]},
     "scripts/interfaz/leyenda.gd": {"CAPAS": [1]},
     "scripts/interfaz/editor_enciclopedia.gd": {"SECCIONES": [1], "TITULO_NUEVO": None, "IMPORTANCIAS": [1], "CAMPOS": [1],

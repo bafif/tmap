@@ -149,6 +149,25 @@ func _desplazamiento(orden: int) -> Vector2:
 	return Vector2(cos(ang), sin(ang)) * RADIO * 1.9 * sqrt(float(orden))
 
 
+## Una ubicación estimada: el área donde se la busca (un velo muy suave con el borde punteado, del radio de
+## incertidumbre) y los sitios propuestos como puntos huecos chicos. El área se ve solo si en pantalla mide algo.
+func _dibujar_incertidumbre(l: Dictionary, z: float, s: float) -> void:
+	var p: Vector2 = l["_px"]
+	var radio: float = l["_radio_px"]
+	if radio * z < 10.0:
+		return
+	var col := Color(0.96, 0.92, 0.82)
+	draw_circle(p, radio, Color(col, 0.07))
+	var tramos := clampi(int(radio * z / 7.0), 16, 96)
+	for i in tramos:
+		var a0 := TAU * i / tramos
+		draw_arc(p, radio, a0, a0 + TAU / tramos * 0.5, 4, Color(col, 0.75), 1.4 * s, true)
+	if z >= 1.2:
+		for c in l.get("_candidatos_px", []):
+			draw_circle(c, 3.4 * s, Color(0.08, 0.07, 0.06, 0.7))
+			draw_circle(c, 2.4 * s, Color(col, 0.9), false, 1.2 * s, true)
+
+
 func _draw() -> void:
 	var vista := get_parent() as VistaMapa
 	if vista == null or vista.camara == null:
@@ -168,12 +187,22 @@ func _draw() -> void:
 			continue
 		var p: Vector2 = l["_px"]
 		var r := (3.2 + imp) * s
-		draw_circle(p, r + 1.6 * s, Color(0.08, 0.07, 0.06, 0.85))
-		draw_circle(p, r, Color(0.96, 0.92, 0.82))
-		if imp >= 3 or l.get("tipo", "") == "capital":
-			draw_circle(p, r * 0.45, Color(0.55, 0.15, 0.12))
+		var estimada: bool = l.has("_radio_px")
+		if estimada:
+			_dibujar_incertidumbre(l, z, s)
+			# Punto hueco: se sabe más o menos dónde, no el sitio.
+			draw_circle(p, r + 1.6 * s, Color(0.08, 0.07, 0.06, 0.85))
+			draw_circle(p, r, Color(0.96, 0.92, 0.82), false, 1.8 * s, true)
+		else:
+			draw_circle(p, r + 1.6 * s, Color(0.08, 0.07, 0.06, 0.85))
+			draw_circle(p, r, Color(0.96, 0.92, 0.82))
+			if imp >= 3 or l.get("tipo", "") == "capital":
+				draw_circle(p, r * 0.45, Color(0.55, 0.15, 0.12))
 		var tam := 15 + imp * 2
 		var nombre := str(l.get("nombre", ""))
+		# Como en los atlas históricos, un sitio sin identificar lleva el signo de pregunta.
+		if estimada:
+			nombre += " (?)"
 		var pos := p + Vector2(r + 5.0 * s, 5.0 * s)
 		var caja := Rect2(pos + Vector2(0, -tam * 0.8 * s), fuente_t.get_string_size(nombre, HORIZONTAL_ALIGNMENT_LEFT, -1, tam) * s)
 		if _choca(caja, ocupados):

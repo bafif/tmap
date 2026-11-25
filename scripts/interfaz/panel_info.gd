@@ -19,6 +19,7 @@ const NOMBRES_TIPO_LUGAR := {"ciudad": "ciudad", "capital": "capital", "templo":
 	"sitio-arqueologico": "sitio arqueológico", "biblioteca": "biblioteca", "universidad": "universidad",
 	"laboratorio": "laboratorio", "institucion": "institución", "sitio-historico": "sitio histórico"}
 const NOMBRES_CONFIANZA := {"alta": "alta", "media": "media", "baja": "baja"}
+const NOMBRES_PRECISION := {"estimada": "Ubicación estimada (con radio de incertidumbre)"}
 const NOMBRES_TRAMO := {"entre": "En algún punto del tramo (año desconocido)", "tradicion": "Lo que dice la tradición"}
 
 var _abierto := false
@@ -681,7 +682,27 @@ func _ficha_lugar(l: Dictionary) -> void:
 	_titulo.text = l.get("nombre", "")
 	var hasta := tr("hoy") if l.get("abandono") == null else Fechas.texto(int(l["abandono"]))
 	_subtitulo.text = "%s · %s%s – %s" % [_mayus(_nombre_de(NOMBRES_TIPO_LUGAR, l.get("tipo", ""))), "c. " if l.get("aprox", false) else "", Fechas.texto(l["_desde"]), hasta]
+	var ub: Dictionary = l.get("ubicacion", {}) if l.get("ubicacion") is Dictionary else {}
+	if Enciclopedia.estimada(l):
+		_sello(tr("Ubicación estimada"), TemaUI.color("acento"), tr("Su sitio no está identificado con seguridad: el punto es la mejor estimación, y el círculo punteado del mapa, de unos %d km de radio, abarca la zona donde se busca el sitio.") % int(ub.get("radio_km", 0)))
 	_parrafo(str(l.get("resumen", "")))
+	if Enciclopedia.estimada(l):
+		if ub.get("nota"):
+			_nota(str(ub["nota"]))
+		var cands: Array = ub.get("candidatos", [])
+		if not cands.is_empty():
+			_seccion(tr("Sitios propuestos"))
+			for c in cands:
+				if not (c is Dictionary) or c.get("lon") == null:
+					continue
+				var texto := str(c.get("nombre", ""))
+				if c.get("autor"):
+					texto = tr("%s, según %s") % [texto, c["autor"]]
+				var b := _boton_texto(texto, "ir")
+				b.tooltip_text = texto
+				var px := Proyeccion.a_px(float(c["lon"]), float(c["lat"]))
+				b.pressed.connect(func(): Estado.enfocar(px, 3.0))
+				_contenido.add_child(b)
 	var ir := _boton_texto(tr("Ver en el mapa"), "ir")
 	ir.pressed.connect(func():
 		var u := DatosMapa.unidad_en(l["_px"])

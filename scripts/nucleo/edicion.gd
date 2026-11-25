@@ -22,6 +22,8 @@ const GENEROS := ["religioso", "historia", "cronica", "literatura", "poesia", "f
 const CONFIANZAS := ["alta", "media", "baja"]
 ## Cómo leer los años de `activo` (ver Enciclopedia.tramo); null: son los de su actividad.
 const TRAMOS := [null, "entre", "tradicion"]
+## Un lugar cuyo sitio no está identificado (ver Enciclopedia.estimada); null: el punto es el sitio.
+const PRECISIONES := [null, "estimada"]
 const PESOS := ["mayoritaria", "importante", "minoritaria"]
 ## Capas de una región con familia y peso (ver la sección «familias» del esquema).
 const CAPAS := ["religiones", "culturas", "idiomas"]
@@ -290,6 +292,14 @@ static func validar(seccion: String, item: Dictionary, id_original: String, extr
 				a.append(Idioma.t("Sin fundación: aparece en el mapa en todas las épocas. En un sitio que importa por un hecho, va el año desde el que se muestra."))
 			if not item.get("importancia") in [1, 2, 3, 1.0, 2.0, 3.0]:
 				e.append(Idioma.t("La importancia va de 1 a 3."))
+			var ub: Dictionary = _dic(item, "ubicacion")
+			if not ub.is_empty():
+				if ub.get("precision") != "estimada":
+					e.append(Idioma.t("La ubicación, si no es el sitio, va como estimada."))
+				elif not (ub.get("radio_km") is float or ub.get("radio_km") is int) or float(ub["radio_km"]) <= 0 or float(ub["radio_km"]) > 500:
+					e.append(Idioma.t("Una ubicación estimada lleva su radio de incertidumbre, entre 0 y 500 km."))
+				elif not ub.get("nota"):
+					e.append(Idioma.t("Una ubicación estimada dice dónde se lo busca y por qué."))
 			_refs(item.get("regiones", []), "regiones", Idioma.t("Región"), extra, e)
 		"regiones":
 			var poli: Array = item.get("poligono", []) if item.get("poligono") is Array else []

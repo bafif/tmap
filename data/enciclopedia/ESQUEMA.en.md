@@ -282,6 +282,22 @@ Cities, temples and sites that appear on the map while they exist.
   the year it became known, so the map does not show it under its name too early.
 - `abandono`: the year it stops being inhabited or relevant; `null` if it still is.
 - `importancia`: 1 (local) to 3 (of the first rank). It decides from which zoom level it shows.
+- `ubicacion` is optional, for a place whose site hasn't been identified: `lon` and `lat` are then the best estimate,
+  and `ubicacion` says how far off it may be and why.
+
+  ```json
+  "ubicacion": {
+    "precision": "estimada",
+    "radio_km": 15,
+    "nota": "Where it's sought and why, in one or two sentences.",
+    "candidatos": [{"nombre": "Tell Huwaish", "lon": 43.2314, "lat": 35.5923, "autor": "Ziegler y Otto (2023)"}]
+  }
+  ```
+
+  The radius covers the serious proposals, neither bigger than needed nor smaller than honest; `candidatos` lists
+  only the sites proposed in the literature, with who proposed them. The map shows a hollow point, the name with
+  "(?)", as in historical atlases, and a dotted circle the size of the radius, with the candidates as small points
+  when zoomed in; the entry carries the "Location estimated" seal, the note and a button for each candidate.
 
 ## Translations
 
@@ -310,7 +326,7 @@ package loads; anything without a translation shows in Spanish. The app's editor
   and `texto` of the extended entry's sections; in `familias`, `nombre` and `nota`; in `fuentes`, `titulo`, `autor`,
   `escrita.lugar`, `idioma_original`, `soporte`, `resumen`, `por_que_importa` and the `titulo` of each `leer` link;
   in `personas`, `nombre`, `roles`, the `lugar` of `nacimiento`, `muerte` and `activo`, and `resumen`; in `hechos`,
-  `titulo`, `lugar` and `resumen`; in `lugares`, `nombre` and `resumen`. Proper names are translated only if they
+  `titulo`, `lugar` and `resumen`; in `lugares`, `nombre`, `resumen` and `ubicacion.nota`. Proper names are translated only if they
   have a form of their own in the other language (Heródoto → Herodotus).
 - Not translated: ids and the fields that hold ids (`familia`, `padre`, `regiones`, `obras`, `fuentes`, `autor_id`),
   fixed values (`peso`, `tipo`, `genero`, `confianza`, `capa`: the app translates them itself), years, coordinates,

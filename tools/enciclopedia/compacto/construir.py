@@ -336,8 +336,12 @@ def main():
                 r = cache["wp"].get(clave or "", {})
                 w, q = {}, r.get("qid")
             c = coords_ent(q)
+            radio = None
             if len(x) > 8 and x[8]:
-                c = tuple(float(v) for v in x[8].strip("[] ").split(","))
+                # `[lon,lat]~30`: el sitio no está identificado y el punto es una estimación con 30 km de radio
+                punto_txt, _, radio_txt = x[8].partition("~")
+                c = tuple(float(v) for v in punto_txt.strip("[] ").split(","))
+                radio = float(radio_txt) if radio_txt.strip() else None
             if not c:
                 if n in construir:
                     aviso(f"SIN COORDENADAS: lugar «{iid}» ({en}) [{donde}]")
@@ -361,6 +365,25 @@ def main():
                 aviso(f"FUERA DE TODA REGIÓN: lugar «{iid}» en {c}")
             el = {"id": iid, "nombre": nombre, "lon": c[0], "lat": c[1], "fundacion": fa, "abandono": ab, "aprox": fax,
                   "tipo": tipo, "importancia": int(imp), "resumen": resumen, "regiones": regs}
+            if radio:
+                u = {"precision": "estimada", "radio_km": int(radio) if radio == int(radio) else radio,
+                     "nota": x[9].strip() if len(x) > 9 else ""}
+                if not u["nota"]:
+                    aviso(f"UBICACIÓN ESTIMADA SIN NOTA: lugar «{iid}» [{donde}]")
+                cands = []
+                # `Tell Huwaish@43.23,35.59 (Ziegler y Otto 2023); Tell Haikal@43.27,35.60 (Hallo 1964)`
+                for cand in (x[10].split(";") if len(x) > 10 else []):
+                    m = re.fullmatch(r"\s*(.+?)@(-?[\d.]+),(-?[\d.]+)\s*(?:\((.+)\))?\s*", cand)
+                    if not m:
+                        aviso(f"SITIO PROPUESTO INVÁLIDO: «{cand.strip()}» (lugar {iid})")
+                        continue
+                    cd = {"nombre": m.group(1), "lon": float(m.group(2)), "lat": float(m.group(3))}
+                    if m.group(4):
+                        cd["autor"] = m.group(4)
+                    cands.append(cd)
+                if cands:
+                    u["candidatos"] = cands
+                el["ubicacion"] = u
             if w:
                 el["wikipedia"] = w
             lugares_por_tema[n].append(el)

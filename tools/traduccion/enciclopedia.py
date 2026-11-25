@@ -61,7 +61,7 @@ CAMPOS: dict[str, list[str]] = {
     ],
     "personas": ["nombre", "roles.*", "nacimiento.lugar", "muerte.lugar", "activo.lugar", "resumen"],
     "hechos": ["titulo", "lugar", "resumen"],
-    "lugares": ["nombre", "resumen"],
+    "lugares": ["nombre", "resumen", "ubicacion.nota"],
 }
 CITA = re.compile(r"\[\d+\]")
 

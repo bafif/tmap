@@ -742,6 +742,18 @@ msgid "Abandono (vacío si sigue)"
 msgstr "Abandoned (empty if it still stands)"
 
 #: scripts/interfaz/editor_enciclopedia.gd
+msgid "Si el sitio no está identificado"
+msgstr "If the site is unidentified"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Radio de incertidumbre (km)"
+msgstr "Uncertainty radius (km)"
+
+#: scripts/interfaz/editor_enciclopedia.gd
+msgid "Dónde se lo busca y por qué"
+msgstr "Where it's sought and why"
+
+#: scripts/interfaz/editor_enciclopedia.gd
 msgid "Región mayor (id)"
 msgstr "Parent region (ID)"
 
@@ -1482,6 +1494,10 @@ msgid "baja"
 msgstr "low"
 
 #: scripts/interfaz/panel_info.gd
+msgid "Ubicación estimada (con radio de incertidumbre)"
+msgstr "Estimated location (with an uncertainty radius)"
+
+#: scripts/interfaz/panel_info.gd
 msgid "En algún punto del tramo (año desconocido)"
 msgstr "At some point in the span (year unknown)"
 
@@ -1782,6 +1798,22 @@ msgstr "Go to that time and place"
 #: scripts/interfaz/panel_info.gd
 msgid "hoy"
 msgstr "today"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Ubicación estimada"
+msgstr "Location estimated"
+
+#: scripts/interfaz/panel_info.gd
+msgid "Su sitio no está identificado con seguridad: el punto es la mejor estimación, y el círculo punteado del mapa, de unos %d km de radio, abarca la zona donde se busca el sitio."
+msgstr "Its site has not been securely identified: the point is the best estimate, and the dotted circle on the map, about %d km in radius, covers the area where the site is sought."
+
+#: scripts/interfaz/panel_info.gd
+msgid "Sitios propuestos"
+msgstr "Proposed sites"
+
+#: scripts/interfaz/panel_info.gd
+msgid "%s, según %s"
+msgstr "%s, according to %s"
 
 #: scripts/interfaz/panel_info.gd
 msgid "En este punto del mapa"
@@ -2440,6 +2472,18 @@ msgstr "No founding year: it shows on the map in every era. For a site that matt
 #: scripts/nucleo/edicion.gd
 msgid "La importancia va de 1 a 3."
 msgstr "Importance goes from 1 to 3."
+
+#: scripts/nucleo/edicion.gd
+msgid "La ubicación, si no es el sitio, va como estimada."
+msgstr "If the location isn't the site itself, it goes as estimated."
+
+#: scripts/nucleo/edicion.gd
+msgid "Una ubicación estimada lleva su radio de incertidumbre, entre 0 y 500 km."
+msgstr "An estimated location carries its uncertainty radius, between 0 and 500 km."
+
+#: scripts/nucleo/edicion.gd
+msgid "Una ubicación estimada dice dónde se lo busca y por qué."
+msgstr "An estimated location says where it's sought and why."
 
 #: scripts/nucleo/edicion.gd
 msgid "Falta el área de estudio (un polígono de al menos 3 puntos)."

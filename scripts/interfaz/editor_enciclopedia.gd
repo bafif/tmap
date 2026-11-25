@@ -27,7 +27,7 @@ const OPCIONES_DEMOGRAFIA := {"opcionales": ["min", "max", "nota", "tipo"], "ord
 	"ayuda": "Solo estimaciones publicadas, con su fuente. «Testimonio antiguo»: cifras de autores antiguos, que se muestran aparte y nunca se grafican. Si cambian, corré tools/enciclopedia/poblacion.py para rehacer la serie de Our World in Data."}
 ## Campos de cada sección: [ruta, etiqueta, tipo, extra]. Tipos: titulo (encabezado), id, texto, largo, anio, bool,
 ## opcion (extra: lista o nombre de lista de Edicion), importancia, lista (textos separados por comas), refs (ids
-## separados por comas; extra: sección), ref (un id), wiki, punto (lon y lat del objeto en ruta; "" = el elemento),
+## separados por comas; extra: sección), ref (un id), numero (entero o decimal), wiki, punto (lon y lat del objeto en ruta; "" = el elemento),
 ## filas y poligono. En filas, extra son los subcampos [clave, etiqueta, tipo, extra]: texto, corto, anio, bool, linea
 ## (debajo, a todo el ancho), numero (entero), opcion (extra: lista o nombre de lista de Edicion), familia (de la capa
 ## que da la ruta), marca (una casilla que pone el valor de extra o saca la clave) y salto (otro renglón); y un quinto
@@ -113,6 +113,9 @@ const CAMPOS := {
 		["fundacion", "Fundación", "anio"],
 		["abandono", "Abandono (vacío si sigue)", "anio"],
 		["aprox", "Fechas aproximadas", "bool"],
+		["ubicacion.precision", "Si el sitio no está identificado", "opcion", "PRECISIONES"],
+		["ubicacion.radio_km", "Radio de incertidumbre (km)", "numero"],
+		["ubicacion.nota", "Dónde se lo busca y por qué", "largo"],
 		["regiones", "Regiones (ids)", "refs", "regiones"],
 		["resumen", "Resumen", "largo"],
 		["wikipedia", "Wikipedia", "wiki"],
@@ -532,6 +535,16 @@ func _campo(c: Array) -> void:
 			_campos.append(func(d: Dictionary):
 				var n: Variant = _leer_anio(le.text)
 				_poner(d, ruta, n, n == null))
+		"numero":
+			var le := LineEdit.new()
+			le.text = "" if actual == null else _texto_valor(actual)
+			le.custom_minimum_size = Vector2(96, 0)
+			le.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+			le.text_changed.connect(func(_t): _al_cambiar())
+			_fila(etiqueta, le)
+			_campos.append(func(d: Dictionary):
+				var n: Variant = _leer_numero(le.text)
+				_poner(d, ruta, n, n == null))
 		"bool":
 			var cb := CheckBox.new()
 			cb.text = etiqueta
@@ -905,7 +918,7 @@ func _nombre_seccion(seccion: String) -> String:
 ## Cómo se muestra una opción de un campo cerrado (el valor que se guarda no cambia): «cronica» → «crónica».
 func _nombre_opcion(v: Variant) -> String:
 	var s := str(v)
-	for nombres: Dictionary in [PanelInfo.NOMBRES_TRAMO, PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
+	for nombres: Dictionary in [PanelInfo.NOMBRES_PRECISION, PanelInfo.NOMBRES_TRAMO, PanelInfo.NOMBRES_GENERO, PanelInfo.NOMBRES_TIPO_HECHO, PanelInfo.NOMBRES_TIPO_LUGAR,
 			PanelInfo.NOMBRES_CONFIANZA, Enciclopedia.NOMBRE_PESO, {"primaria": "Primaria", "secundaria": "Secundaria"}]:
 		if nombres.has(s):
 			return tr(nombres[s])

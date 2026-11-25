@@ -91,6 +91,10 @@ All UTF-8, with `#` for comments. Fields separated by ` | ` (never use `|` insid
     bell-labs | Laboratorios Bell | 1925 | - | laboratorio | 2 | Bell Labs | Resumen...
 
 - type: `ciudad capital templo puerto sitio-arqueologico biblioteca universidad laboratorio institucion sitio-historico`.
+- An unidentified site: the estimated point with its uncertainty radius in km (`[43.26,35.58]~15`), in the next
+  column where it's sought and why, and in the one after that the proposed sites, separated by `;`
+  (`Tell Huwaish@43.2314,35.5923 (Ziegler y Otto 2023); Tell Haikal@43.2728,35.5974 (Hallo 1964)`). ESQUEMA.md,
+  `ubicacion`.
 - importance 1 (local) to 3 (first rank). Only places that matter in their own right (a laboratory, a square, a
   court, a clandestine detention center); cities where something was written go in the gazetteer.
 

@@ -273,6 +273,22 @@ Ciudades, templos y sitios que aparecen en el mapa cuando existen.
   que se lo conoce, para que el mapa no lo muestre con su nombre antes de tiempo.
 - `abandono`: año en que deja de ser habitada o relevante; `null` si sigue.
 - `importancia`: 1 (local) a 3 (de primer orden). Decide desde qué zoom se ve.
+- `ubicacion` es opcional, para un lugar cuyo sitio no está identificado: `lon` y `lat` son entonces la mejor
+  estimación, y `ubicacion` dice cuánto se puede errar y por qué.
+
+  ```json
+  "ubicacion": {
+    "precision": "estimada",
+    "radio_km": 15,
+    "nota": "Dónde se lo busca y por qué, en una o dos oraciones.",
+    "candidatos": [{"nombre": "Tell Huwaish", "lon": 43.2314, "lat": 35.5923, "autor": "Ziegler y Otto (2023)"}]
+  }
+  ```
+
+  El radio abarca las propuestas serias, ni más grande de lo necesario ni más chico de lo honesto; `candidatos` lista
+  solo los sitios propuestos en la literatura, con quién los propuso. El mapa muestra el punto hueco, el nombre con
+  «(?)», como en los atlas históricos, y un círculo punteado del tamaño del radio, con los candidatos como puntos
+  chicos al acercarse; la ficha lleva el sello «Ubicación estimada», la nota y un botón para cada candidato.
 
 ## Traducciones
 
@@ -302,7 +318,7 @@ lo que no tiene traducción se ve en español. El editor de la app trabaja siemp
   `escrita.lugar`, `idioma_original`, `soporte`, `resumen`, `por_que_importa` y el `titulo` de cada enlace de
   `leer`; en `personas`, `nombre`, `roles`,
   el `lugar` de `nacimiento`, `muerte` y `activo`, y `resumen`; en `hechos`, `titulo`, `lugar` y `resumen`; en
-  `lugares`, `nombre` y `resumen`. Los nombres propios se traducen solo si tienen una forma propia en el otro idioma
+  `lugares`, `nombre`, `resumen` y `ubicacion.nota`. Los nombres propios se traducen solo si tienen una forma propia en el otro idioma
   (Heródoto → Herodotus).
 - No se traducen los ids ni los campos que son ids (`familia`, `padre`, `regiones`, `obras`, `fuentes`, `autor_id`),
   los valores cerrados (`peso`, `tipo`, `genero`, `confianza`, `capa`: la app los traduce sola), años, coordenadas,

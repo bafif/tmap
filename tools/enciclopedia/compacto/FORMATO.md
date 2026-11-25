@@ -89,6 +89,10 @@ Todos UTF-8, con `#` para comentarios. Campos separados por ` | ` (nunca uses `|
     bell-labs | Laboratorios Bell | 1925 | - | laboratorio | 2 | Bell Labs | Resumen...
 
 - tipo: `ciudad capital templo puerto sitio-arqueologico biblioteca universidad laboratorio institucion sitio-historico`.
+- Un sitio sin identificar: el punto estimado con su radio de incertidumbre en km (`[43.26,35.58]~15`), en la
+  columna siguiente dónde se lo busca y por qué, y en la otra los sitios propuestos, separados por `;`
+  (`Tell Huwaish@43.2314,35.5923 (Ziegler y Otto 2023); Tell Haikal@43.2728,35.5974 (Hallo 1964)`). ESQUEMA.md,
+  `ubicacion`.
 - importancia 1 (local) a 3 (primer orden). Solo lugares que importan por sí mismos (un laboratorio, una plaza, un
   tribunal, un centro clandestino); las ciudades donde algo se escribió van en el nomenclátor.
 
