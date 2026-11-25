@@ -242,7 +242,9 @@ New packages reach installed copies as data updates, without waiting for an app 
   tradition knows says so, and an event told only by later texts is marked as weakly sourced. Each case carries a seal
   in its entry explaining what is known, is in italics in lists and has a dotted outline on the map, like a doubtful
   border: so no one in the period is left out of time without saying why, and the doubtful isn't mistaken for the
-  attested.
+  attested. The same in space: a city whose site hasn't been identified (Ekallatum, Andarig, Kurda, Kazallu,
+  Rapiqum) goes at its estimated location, with its name followed by "(?)" as in historical atlases, a dotted circle
+  of the uncertainty radius and the proposed sites, each with who proposed it.
 - **No gaps in what has been researched**: each package has a fixed scope (its regions, its years, its axes and how well
   known the things it includes are) and `tools/enciclopedia/huecos.py` lists what is missing inside it, with Wikidata as
   a lead and not as truth; each batch goes through a writer, a reviewer who did not write it and a corrector, because

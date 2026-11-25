@@ -242,7 +242,9 @@ trae cada uno está en [la enciclopedia](docs/es/enciclopedia.md#qué-hay-hoy).
   solo la tradición lo dice, y un hecho que cuentan solo textos posteriores va como de fuente débil. Cada caso lleva un
   sello en la ficha que explica qué se sabe, va en cursiva en las listas y tiene el filete punteado en el mapa, como un
   límite dudoso: así ninguna persona del tramo queda fuera del tiempo sin decir por qué, y lo dudoso no se confunde
-  con lo atestiguado.
+  con lo atestiguado. Lo mismo en el espacio: una ciudad cuyo sitio no se identificó (Ekallatum, Andarig, Kurda,
+  Kazallu, Rapiqum) va en su ubicación estimada, con el nombre seguido de «(?)» como en los atlas históricos, un
+  círculo punteado del radio de incertidumbre y los sitios propuestos, cada uno con quién lo propuso.
 - **Sin huecos en lo investigado**: cada paquete tiene un alcance fijo (sus regiones, sus años, sus ejes y qué tan
   conocido es lo que incluye) y `tools/enciclopedia/huecos.py` lista lo que falta adentro, con Wikidata como pista y no
   como verdad; cada lote pasa por quien escribe, quien revisa sin haberlo escrito y quien corrige, porque la revisión
