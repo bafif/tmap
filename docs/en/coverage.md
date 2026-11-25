@@ -10,7 +10,7 @@
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 74 with religions, cultures or languages.
-- **Items:** 4,129 sources (289 with no place of writing), 4,210 people, 4,041 events and 1,468 places.
+- **Items:** 4,129 sources (289 with no place of writing), 4,210 people, 4,041 events and 1,473 places.
 
 ## Population: how much of the world each period covers
 
@@ -84,7 +84,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Italy | mundo | 11 (6000 BC to today) | curated: Frier, Harper, Russell, Scheidel (14–1450); by country: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 186 · 126 · 22 |
 | Levant | mundo | 14 (3500 BC to today) | sum of its subregions: ISR, PSE, LBN, SYR, JOR | 11 · 8 · 9 | 86 · 289 · 128 |
 | Mesoamerica | mundo | 7 (1760 BC to today) | by country: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 296 · 220 · 94 |
-| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 5 · 8 · 9 | 193 · 227 · 78 |
+| Mesopotamia | mundo | 20 (4000 BC to today) | by country: IRQ | 5 · 8 · 9 | 193 · 227 · 83 |
 | Persia (Iranian Plateau) | mundo | 14 (3400 BC to 2000) | by country: IRN | 7 · 2 · 10 | 66 · 65 · 9 |
 | Río de la Plata | mundo | 7 (10000 BC to today) | by country: ARG, URY, PRY | 6 · 12 · 6 | 511 · 588 · 94 |
 | Armorica (Brittany) (in France) | mundo-celta | 7 (5000 BC to today) | no series of its own; counted in France | 3 · 11 · 10 | 9 · 15 · 2 |

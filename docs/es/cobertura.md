@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 74 con religiones, culturas o idiomas.
-- **Elementos:** 4129 fuentes (289 sin lugar de escritura), 4210 personas, 4041 hechos y 1468 lugares.
+- **Elementos:** 4129 fuentes (289 sin lugar de escritura), 4210 personas, 4041 hechos y 1473 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -84,7 +84,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Italia | mundo | 11 (6000 a. C. a hoy) | curada: Frier, Harper, Russell, Scheidel (14–1450); por país: ITA, SMR, VAT, MLT | 4 · 10 · 15 | 186 · 126 · 22 |
 | Levante | mundo | 14 (3500 a. C. a hoy) | suma de sus hijas: ISR, PSE, LBN, SYR, JOR | 11 · 8 · 9 | 86 · 289 · 128 |
 | Mesoamérica | mundo | 7 (1760 a. C. a hoy) | por país: MEX, GTM, BLZ, SLV | 6 · 15 · 10 | 296 · 220 · 94 |
-| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 5 · 8 · 9 | 193 · 227 · 78 |
+| Mesopotamia | mundo | 20 (4000 a. C. a hoy) | por país: IRQ | 5 · 8 · 9 | 193 · 227 · 83 |
 | Persia (meseta iraní) | mundo | 14 (3400 a. C. a 2000) | por país: IRN | 7 · 2 · 10 | 66 · 65 · 9 |
 | Río de la Plata | mundo | 7 (10000 a. C. a hoy) | por país: ARG, URY, PRY | 6 · 12 · 6 | 511 · 588 · 94 |
 | Armórica (Bretaña) (en Francia) | mundo-celta | 7 (5000 a. C. a hoy) | sin serie propia; cuenta en Francia | 3 · 11 · 10 | 9 · 15 · 2 |

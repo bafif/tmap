@@ -5370,6 +5370,9 @@
       "id": "atamrum",
       "nombre": "Atamrum",
       "activo": {
+        "lugar": "Andarig (ubicación estimada)",
+        "lon": 41.9,
+        "lat": 36.35,
         "desde": -1766,
         "hasta": -1762,
         "aprox": true
@@ -8255,9 +8258,9 @@
       "anio": -1823,
       "anio_hasta": null,
       "aprox": true,
-      "lugar": "Ekallatum (sitio no identificado, cerca de Assur)",
-      "lon": 43.263,
-      "lat": 35.457,
+      "lugar": "Ekallatum (ubicación estimada, al norte de Assur)",
+      "lon": 43.26,
+      "lat": 35.58,
       "tipo": "batalla",
       "resumen": "Naram-Sin de Eshnunna atacó Ekallatum hacia 1823 a. C. y Shamshi-Adad I, hijo de Ila-kabkabu, huyó a Babilonia. Regresó a la muerte de Naram-Sin, hacia 1809 a. C.",
       "regiones": [
@@ -8931,6 +8934,159 @@
       "wikipedia": {
         "es": "Tell Barri",
         "en": "Tell Barri"
+      }
+    },
+    {
+      "id": "ekallatum",
+      "nombre": "Ekallatum",
+      "lon": 43.26,
+      "lat": 35.58,
+      "fundacion": -1900,
+      "abandono": -1100,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Ciudad sobre el Tigris, al norte de Assur, capital de la dinastía amorrea de Shamshi-Adad I antes de Shubat-Enlil y después de su hijo Ishme-Dagan I. En época mesoasiria aparece como Ekallate.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "en": "Ekallatum"
+      },
+      "ubicacion": {
+        "precision": "estimada",
+        "radio_km": 15,
+        "nota": "Estaba sobre el Tigris, a menos de un día de marcha al norte de Assur. La identificación clásica con Tell Haikal fue reemplazada en 2022-2023 por Tell Huwaish, unos pocos kilómetros al lado, en la otra orilla.",
+        "candidatos": [
+          {
+            "nombre": "Tell Huwaish",
+            "lon": 43.2314,
+            "lat": 35.5923,
+            "autor": "Ziegler y Otto (2023)"
+          },
+          {
+            "nombre": "Tell Haikal",
+            "lon": 43.2728,
+            "lat": 35.5974,
+            "autor": "Hallo (1964)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "andarig",
+      "nombre": "Andarig",
+      "lon": 41.9,
+      "lat": 36.35,
+      "fundacion": -1780,
+      "abandono": -1730,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 2,
+      "resumen": "Capital de un reino de la llanura de Sinyar en la época de las cartas de Mari, gobernado por Qarni-Lim y Atamrum, aliado unas veces de Elam y otras de Mari, hasta que lo absorbió Babilonia.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "en": "Andarig"
+      },
+      "ubicacion": {
+        "precision": "estimada",
+        "radio_km": 50,
+        "nota": "Los textos de Mari la ubican en la llanura de Sinyar, entre el Habur y el Tigris, pero no hay un tell identificado: se maneja Tell Khoshi como candidato, y el radio es amplio por esa falta de identificación.",
+        "candidatos": [
+          {
+            "nombre": "Tell Khoshi",
+            "lon": 41.835,
+            "lat": 36.195
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurda",
+      "nombre": "Kurda",
+      "lon": 41.85,
+      "lat": 36.3,
+      "fundacion": -1780,
+      "abandono": -1740,
+      "aprox": true,
+      "tipo": "capital",
+      "importancia": 1,
+      "resumen": "Capital del reino de la tribu numha en la época de las cartas de Mari, rival de Andarig y aliada unas veces de Mari y otras de Babilonia.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "en": "Kurda"
+      },
+      "ubicacion": {
+        "precision": "estimada",
+        "radio_km": 35,
+        "nota": "Se la busca al sur del Yebel Sinyar, probablemente en Balad Sinyar o cerca, porque los textos de Mari la sitúan frente a Andarig en esa llanura; una propuesta minoritaria la lleva al Habur.",
+        "candidatos": [
+          {
+            "nombre": "Balad Sinyar",
+            "lon": 41.84,
+            "lat": 36.32,
+            "autor": "Ziegler y Langlois"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kazallu",
+      "nombre": "Kazallu",
+      "lon": 44.6,
+      "lat": 32.3,
+      "fundacion": -2300,
+      "abandono": -1595,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Ciudad del norte de Babilonia, con gobernador propio bajo Ur III y capital de un reino amorreo, unido a Marad, en tiempos de Sumu-abum y Sumu-la-El de Babilonia.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "es": "Kazallu",
+        "en": "Kazallu"
+      },
+      "ubicacion": {
+        "precision": "estimada",
+        "radio_km": 40,
+        "nota": "Estaba en el norte de Babilonia, cerca de Marad, Kish y Dilbat. El único tell propuesto es Tell as-Sadum, en la zona de Marad (Yuhong, 1998); otras propuestas la ponen junto a Dilbat o cerca de Babilonia, y la de Azragiya, junto a Faluya (Frayne, 2008), queda fuera del radio."
+      }
+    },
+    {
+      "id": "rapiqum",
+      "nombre": "Rapiqum",
+      "lon": 43.74,
+      "lat": 33.38,
+      "fundacion": -1900,
+      "abandono": -1700,
+      "aprox": true,
+      "tipo": "ciudad",
+      "importancia": 2,
+      "resumen": "Puerto sobre el Éufrates, entre Sippar y Mari, que Eshnunna y Mari se disputaron; Shamshi-Adad I la tomó y se la dio a Hammurabi de Babilonia.",
+      "regiones": [
+        "mesopotamia"
+      ],
+      "wikipedia": {
+        "en": "Rapiqum"
+      },
+      "ubicacion": {
+        "precision": "estimada",
+        "radio_km": 15,
+        "nota": "Estaba sobre el Éufrates cerca de donde el río se abría en dos brazos. Se prefiere Tell Anbar, junto a Faluya, por su ocupación de la época y su posición; Ramadi y Hit son propuestas más viejas, fuera del radio.",
+        "candidatos": [
+          {
+            "nombre": "Tell Anbar",
+            "lon": 43.74,
+            "lat": 33.38,
+            "autor": "Kepinski"
+          }
+        ]
       }
     }
   ]
