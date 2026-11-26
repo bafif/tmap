@@ -10,7 +10,7 @@
 - **Tierra firme dentro de alguna región:** 99,6 % de los 135,4 millones de km² del mapa (sin la Antártida), medido con las 58 076 unidades del mapa.
 - **Población:** 64 regiones tienen serie propia y 43 se cuentan dentro de otra; 26 tienen además estimaciones curadas de especialistas.
 - **Capas:** 105 regiones con eras y 74 con religiones, culturas o idiomas.
-- **Elementos:** 4129 fuentes (289 sin lugar de escritura), 4210 personas, 4041 hechos y 1473 lugares.
+- **Elementos:** 4129 fuentes (251 sin lugar de escritura), 4210 personas, 4041 hechos y 1473 lugares.
 
 ## Población: qué parte del mundo cubre cada época
 
@@ -76,7 +76,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Bajo Egipto (en Egipto) | egipto | — | sin serie propia; cuenta en Egipto | — · — · — | 7 · 135 · 18 |
 | Egipto | egipto | 22 (5300 a. C. a 2011) | curada: Butzer (3000 a. C.–150 a. C.); por país: EGY | 11 · 10 · 6 | 251 · 277 · 148 |
 | Nubia | egipto | 9 (3400 a. C. a 1821) | sin serie propia; cuenta en Sudán y Sudán del Sur | 10 · 9 · 11 | 15 · 29 · 28 |
-| Anatolia | mundo | 11 (3400 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 12 · 10 · 12 | 182 · 217 · 62 |
+| Anatolia | mundo | 11 (3400 a. C. a hoy) | curada: Frier, Harper (14–164); por país: TUR | 12 · 10 · 12 | 182 · 229 · 63 |
 | Andes centrales | mundo | 8 (3000 a. C. a hoy) | por país: PER, BOL | 7 · 10 · 9 | 256 · 202 · 60 |
 | China (cuencas del Amarillo y el Yangtsé) | mundo | 12 (1760 a. C. a hoy) | curada: Hanshu, Sima Biao (2–140); por país: CHN, HKG, MAC | 8 · 2 · 4 | 31 · 25 · 4 |
 | Grecia | mundo | 12 (3400 a. C. a 2000) | por país: GRC | 3 · 4 · 4 | 124 · 168 · 123 |
@@ -105,7 +105,7 @@ Eras: cantidad y período. Población: estimaciones curadas y países que suma l
 | Chile | regiones-del-mundo | 5 (7000 a. C. a hoy) | por país: CHL | 12 · 14 · 12 | 87 · 119 · 19 |
 | China meridional | regiones-del-mundo | 7 (214 a. C. a hoy) | sin serie propia; cuenta en China (cuencas del Amarillo y el Yangtsé) | — · — · — | 0 · 3 · 0 |
 | Corea | regiones-del-mundo | 7 (57 a. C. a hoy) | por país: KOR, PRK | — · — · — | 6 · 2 · 0 |
-| Cáucaso | regiones-del-mundo | 11 (3400 a. C. a hoy) | por país: GEO, AZE | — · 4 · — | 5 · 9 · 4 |
+| Cáucaso | regiones-del-mundo | 11 (3400 a. C. a hoy) | por país: GEO, AZE | — · 4 · — | 5 · 10 · 7 |
 | Etiopía y el Cuerno de África | regiones-del-mundo | 6 (980 a. C. a hoy) | por país: ETH, ERI, DJI, SOM | — · — · — | 1 · 3 · 0 |
 | Gran Chaco | regiones-del-mundo | 4 (1884 a hoy) | sin serie propia; cuenta en Río de la Plata | 8 · 7 · 7 | 85 · 22 · 2 |
 | Groenlandia | regiones-del-mundo | 5 (2500 a. C. a hoy) | por país: GRL | 8 · 4 · 5 | 26 · 23 · 6 |

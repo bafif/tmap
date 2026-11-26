@@ -10,7 +10,7 @@
 - **Land inside some region:** 99.6% of the map's 135.4 million km² (excluding Antarctica), measured over the map's 58,076 units.
 - **Population:** 64 regions have their own series and 43 are counted within another; 26 also have curated estimates from specialists.
 - **Layers:** 105 regions with eras and 74 with religions, cultures or languages.
-- **Items:** 4,129 sources (289 with no place of writing), 4,210 people, 4,041 events and 1,473 places.
+- **Items:** 4,129 sources (251 with no place of writing), 4,210 people, 4,041 events and 1,473 places.
 
 ## Population: how much of the world each period covers
 
@@ -76,7 +76,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Lower Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 7 · 135 · 18 |
 | Nubia | egipto | 9 (3400 BC to 1821) | no series of its own; counted in Sudan and South Sudan | 10 · 9 · 11 | 15 · 29 · 28 |
 | Upper Egypt (in Egypt) | egipto | — | no series of its own; counted in Egypt | — · — · — | 10 · 146 · 93 |
-| Anatolia | mundo | 11 (3400 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 12 · 10 · 12 | 182 · 217 · 62 |
+| Anatolia | mundo | 11 (3400 BC to today) | curated: Frier, Harper (14–164); by country: TUR | 12 · 10 · 12 | 182 · 229 · 63 |
 | Central Andes | mundo | 8 (3000 BC to today) | by country: PER, BOL | 7 · 10 · 9 | 256 · 202 · 60 |
 | China (Yellow River and Yangtze basins) | mundo | 12 (1760 BC to today) | curated: Hanshu, Sima Biao (2–140); by country: CHN, HKG, MAC | 8 · 2 · 4 | 31 · 25 · 4 |
 | Greece | mundo | 12 (3400 BC to 2000) | by country: GRC | 3 · 4 · 4 | 124 · 168 · 123 |
@@ -101,7 +101,7 @@ Eras: count and period. Population: curated estimates and the countries the seri
 | Australia | regiones-del-mundo | 3 (1788 to today) | by country: AUS | — · — · — | 0 · 2 · 0 |
 | Brazil | regiones-del-mundo | 4 (1500 to today) | by country: BRA | 13 · 15 · 13 | 138 · 142 · 29 |
 | Caribbean | regiones-del-mundo | 5 (1492 to today) | by country: CUB, HTI, DOM, JAM, PRI, BHS, TTO, BRB, ATG, DMA, GRD, KNA, LCA, VCT, ABW, CUW, VIR, VGB, CYM, TCA, AIA, MSR, SXM, MAF, BLM, BES, GLP, MTQ | 14 · 21 · 23 | 171 · 125 · 29 |
-| Caucasus | regiones-del-mundo | 11 (3400 BC to today) | by country: GEO, AZE | — · 4 · — | 5 · 9 · 4 |
+| Caucasus | regiones-del-mundo | 11 (3400 BC to today) | by country: GEO, AZE | — · 4 · — | 5 · 10 · 7 |
 | Central Africa | regiones-del-mundo | 5 (1000 BC to today) | by country: TCD, CMR, CAF, GNQ, GAB, COG, COD, AGO, STP | — · — · — | 4 · 1 · 0 |
 | Central America (Honduras to Panama) | regiones-del-mundo | 4 (1502 to today) | by country: HND, NIC, CRI, PAN | 7 · 10 · 8 | 33 · 41 · 8 |
 | Central Asia | regiones-del-mundo | 8 (550 BC to today) | by country: KAZ, UZB, TKM, KGZ, TJK | 7 · 4 · 4 | 6 · 7 · 1 |
